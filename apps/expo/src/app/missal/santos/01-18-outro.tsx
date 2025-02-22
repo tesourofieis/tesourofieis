@@ -31,12 +31,12 @@ export default function Page0118Outro() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Da, quǽsumus, omnípotens Deus: ut, qui beátæ Priscæ Vírginis et
               Mártyris tuæ natalítia cólimus; et ánnua sollemnitáte lætémur, et
               tantae fídei proficiámus exémplo. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Concedei-nos, ó Deus omnipotente, Vos rogamos, que, celebrando o
               nascimento da B. Prisca, vossa Virgem e Mártir, nos alegremos
               nesta solenidade anual e aproveitemos com os exemplos da sua tão
@@ -47,12 +47,12 @@ export default function Page0118Outro() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hæc hóstia, quǽsumus, Dómine, quam Sanctórum tuórum natalítia
               recenséntes offérimus, et víncula nostræ pravitátis absólvat, et
               tuæ nobis misericórdiæ dona concíliet. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que esta hóstia, Senhor, que Vos oferecemos em honra do nascimento
               dos vossos Santos, nos livre dos vínculos dos nossos pecados e nos
               obtenha os dons da vossa misericórdia...
@@ -62,11 +62,11 @@ export default function Page0118Outro() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quǽsumus, Dómine, salutáribus repléti mystériis: ut, cujus
               sollémnia celebrámus, ejus oratiónibus adjuvémur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Saciados com os dons salutares, Vos imploramos, Senhor, sejamos
               socorridos pelas preces daquela cuja festa celebrámos. Por nosso
               Senhor...

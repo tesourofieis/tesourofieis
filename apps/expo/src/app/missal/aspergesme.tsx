@@ -11,64 +11,69 @@ export default function PageAspergesme() {
           <Text className="h1">Asperges me</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Asperges me, Dómine, hyssópo et mundabor: lávabis me, et super
               nivem dealbábor.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aspergir-me-eis, Senhor, com o hissope e ficarei puro;
               lavar-me-eis e ficarei alvo, como a neve.
             </Text>
-            <Text className="text-base latin">
-              ℣. Osténde nobis, Dómine, misericórdiam tuam.
+            <Text className="latin">
+              <Text className="versicle"> ℣. </Text>Osténde nobis, Dómine,
+              misericórdiam tuam.
             </Text>
-            <Text className="text-base vernacular">
-              ℣. Mostrai, Senhor, a vossa misericórdia.
+            <Text className="vernacular">
+              <Text className="versicle"> ℣. </Text>Mostrai, Senhor, a vossa
+              misericórdia.
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-red-500">℟.</Text> Et salutáre tuum da
-              nobis.
+            <Text className="latin">
+              <Text className="response"> ℟. </Text> Et salutáre tuum da nobis.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-red-500">℟.</Text> E dai-nos a salvação.
+            <Text className="vernacular">
+              <Text className="response"> ℟. </Text> E dai-nos a salvação.
             </Text>
-            <Text className="text-base latin">
-              ℣. Dómine, exáudi oratiónem meam.
+            <Text className="latin">
+              <Text className="versicle"> ℣. </Text>Dómine, exáudi oratiónem
+              meam.
             </Text>
-            <Text className="text-base vernacular">
-              ℣. Ouvi, Senhor, a minha oração.
+            <Text className="vernacular">
+              <Text className="versicle"> ℣. </Text>Ouvi, Senhor, a minha
+              oração.
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-red-500">℟.</Text> Et clamor meus ad te
+            <Text className="latin">
+              <Text className="response"> ℟. </Text> Et clamor meus ad te
               véniat.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-red-500">℟.</Text> E que meu clamor chegue
-              até Vós.
+            <Text className="vernacular">
+              <Text className="response"> ℟. </Text> E que meu clamor chegue até
+              Vós.
             </Text>
-            <Text className="text-base latin">℣. Dóminus vobíscum.</Text>
-            <Text className="text-base vernacular">
-              ℣. O Senhor seja convosco.
+            <Text className="latin">
+              <Text className="versicle"> ℣. </Text> Dóminus vobíscum.
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-red-500">℟.</Text> Et cum spíritu tuo.
+            <Text className="vernacular">
+              <Text className="versicle"> ℣. </Text>O Senhor seja convosco.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-red-500">℟.</Text> E com vosso espírito.
+            <Text className="latin">
+              <Text className="response"> ℟. </Text> Et cum spíritu tuo.
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-base latin">Orémus.</Text>
+            <Text className="vernacular">
+              <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">Oremos.</Text>
+            <Text className="latin">
+              <Text className="latin">Orémus.</Text>
             </Text>
-            <Text className="text-base latin">
+            <Text className="vernacular">
+              <Text className="vernacular">Oremos.</Text>
+            </Text>
+            <Text className="latin">
               Exáudi nos, Dómine sancte, Pater omnípotens, ætérne, Deus, et
               míttere dignéris Sanctum Angelum tuum de cælis, qui custódiat,
               fóveat, prótegat, vísitet atque deféndat omnes habitantes in hoc
               habitáculo. Per Christum Dóminum nostrum. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ouvi-nos, Senhor santo, Pai omnipotente, Deus eterno, e dignai-Vos
               enviar do céu o vosso Santo Anjo, para que ele guarde, conserve,
               proteja, visite e defenda todos aqueles que se encontram neste

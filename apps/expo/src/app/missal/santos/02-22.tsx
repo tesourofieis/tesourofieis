@@ -17,17 +17,19 @@ export default function Page0222() {
           <Text className="em">Ecl. 45, 30</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut
               sit illi sacerdótii dígnitas in ætérnum.{" "}
-              <Text className="text-base latin">Ps. 131, 1</Text> Meménto,
-              Dómine, David: et omnis mansuetúdinis ejus. ℣. Gloria Patri...
+              <Text className="latin">Ps. 131, 1</Text> Meménto, Dómine, David:
+              et omnis mansuetúdinis ejus.<Text className="versicle"> ℣. </Text>
+              Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O Senhor fez com ele uma aliança de paz e proclamou-o príncipe,
               para que a dignidade sacerdotal lhe pertencesse eternamente.{" "}
-              <Text className="text-base vernacular">Sl. 131, 1</Text>{" "}
-              Lembrai-Vos de David, ó Senhor, e da sua grande solicitude. ℣.
+              <Text className="vernacular">Sl. 131, 1</Text> Lembrai-Vos de
+              David, ó Senhor, e da sua grande solicitude.
+              <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
           </View>
@@ -35,13 +37,13 @@ export default function Page0222() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui beáto Petro Apóstolo tuo, collátis clávibus regni
               cœléstis, ligándi atque solvéndi pontifícium tradidísti: concéde;
               ut, intercessiónis ejus auxílio, a peccatórum nostrórum néxibus
               liberémur: Qui vivis...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que, entregando ao B. Pedro, vosso Apóstolo, as chaves do
               reino celestial, lhe destes a autoridade pontifícia de «ligar e de
               desligar», concedei-nos, por intercessão do seu auxílio, que
@@ -52,12 +54,12 @@ export default function Page0222() {
           <Text className="h3">Oração Comemoração S. Paulo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui multitúdinem géntium beáti Pauli Apóstoli prædicatióne
               docuísti: da nobis, quǽsumus; ut, cujus commemoratiónem cólimus,
               ejus apud te patrocínia sentiámus. (Per Dóminum...)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que ensinastes a multidão dos povos por meio da pregação
               do B. Ap.º Paulo, concedei-nos, Vos pedimos, que, honrando a sua
               memória, gozemos o seu patrocínio junto de Vós. Por nosso
@@ -68,12 +70,12 @@ export default function Page0222() {
           <Text className="h3">Oração Comemoração Santa Prisca</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Da, quǽsumus, omnípotens Deus: ut, qui beátæ Priscæ Vírginis et
               Mártyris tuæ natalítia cólimus; et ánnua sollemnitáte lætémur, et
               tantae fídei proficiámus exémplo. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Concedei-nos, ó Deus omnipotente, Vos rogamos, que, celebrando o
               nascimento da B. Prisca, vossa Virgem e Mártir, nos alegremos
               nesta solenidade anual e aproveitemos com os exemplos da sua tão
@@ -86,13 +88,9 @@ export default function Page0222() {
           <Text className="em">1 Pe. 1, 1-7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Léctio Epístolæ beáti Petri Apóstoli.
-            </Text>
-            <Text className="text-base vernacular">
-              Lição da Ep.ª do B. Ap.º Pedro.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
+            <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
+            <Text className="latin">
               Petrus, Apóstolus Jesu Christi, eléctis ádvenis dispersiónis
               Ponti, Galátiæ, Cappadóciæ, Asiæ et Bithýniæ secúndum præsciéntiam
               Dei Patris, in sanctificatiónem Spíritus, in obœdiéntiam, et
@@ -108,7 +106,7 @@ export default function Page0222() {
               (quod per ignem probatur) inveniátur in laudem et glóriam et
               honórem, in revelatióne Jesu Christi, Dómini nostri.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Pedro, Apóstolo de Jesus Cristo, aos fiéis estrangeiros, que estão
               dispersos no Ponto, na Galácia, na Capadócia, na Ásia e na
               Bitínia, eleitos, segundo a presciência de Deus Pai, para
@@ -134,25 +132,26 @@ export default function Page0222() {
           <Text className="em">Sl. 106, 32, 31</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Exáltent eum in Ecclésia plebis: et in cáthedra seniórum laudent
-              eum. ℣. Confiteántur Dómino misericórdiæ ejus; et mirabília ejus
-              fíliis hóminum.
+              eum.<Text className="versicle"> ℣. </Text>Confiteántur Dómino
+              misericórdiæ ejus; et mirabília ejus fíliis hóminum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Exaltai-O na assembleia do povo e louvai-O no conselho dos
-              anciãos. ℣. Glorificai o Senhor pela sua misericórdia e pelas suas
-              maravilhas, operadas em favor dos filhos dos homens.
+              anciãos.<Text className="versicle"> ℣. </Text>Glorificai o Senhor
+              pela sua misericórdia e pelas suas maravilhas, operadas em favor
+              dos filhos dos homens.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Matth. 16, 18</Text> Tu es
-              Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Matth. 16, 18</Text> Tu es Petrus, et
+              super hanc petram ædificábo Ecclésiam meam. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Mt. 16, 18</Text> Tu és
-              Pedro, e sobre esta pedra edificarei a minha Igreja. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Mt. 16, 18</Text> Tu és Pedro, e
+              sobre esta pedra edificarei a minha Igreja. Aleluia.
             </Text>
           </View>
 
@@ -165,19 +164,22 @@ export default function Page0222() {
           <Text className="em">Mt. 16, 18-19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Petrus, et super hanc petram ædificábo Ecclésiam meam. ℣. Et portæ
-              ínferi non prævalébunt advérsus eam: et tibi dabo claves regni
-              cœlórum. ℣. Quodcúmque ligáveris super terram, erit ligátum et in
-              cœlis. ℣. Et quodcúmque sólveris super terram, erit solútum et in
-              cœlis.
+            <Text className="latin">
+              Petrus, et super hanc petram ædificábo Ecclésiam meam.
+              <Text className="versicle"> ℣. </Text>Et portæ ínferi non
+              prævalébunt advérsus eam: et tibi dabo claves regni cœlórum.
+              <Text className="versicle"> ℣. </Text>Quodcúmque ligáveris super
+              terram, erit ligátum et in cœlis.
+              <Text className="versicle"> ℣. </Text>Et quodcúmque sólveris super
+              terram, erit solútum et in cœlis.
             </Text>
-            <Text className="text-base vernacular">
-              Tu és Pedro, e sobre esta pedra edificarei a minha Igreja. ℣. E as
-              portas do inferno não prevalecerão contra ela: E dar-te-ei as
-              chaves do reino dos céus. ℣. Tudo o que ligares sobre a terra será
-              ligado nos céus. ℣. E tudo o que desligares sobre a terra será
-              desligado nos céus.
+            <Text className="vernacular">
+              Tu és Pedro, e sobre esta pedra edificarei a minha Igreja.
+              <Text className="versicle"> ℣. </Text>E as portas do inferno não
+              prevalecerão contra ela: E dar-te-ei as chaves do reino dos céus.
+              <Text className="versicle"> ℣. </Text>Tudo o que ligares sobre a
+              terra será ligado nos céus.<Text className="versicle"> ℣. </Text>E
+              tudo o que desligares sobre a terra será desligado nos céus.
             </Text>
           </View>
 
@@ -186,15 +188,15 @@ export default function Page0222() {
           <Text className="em">Mt. 16, 13-19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et
               interrogábat discípulos suos, dicens: Quem dicunt hómines esse
               Fílium hóminis? At illi dixérunt: Alii Joánnem Baptístam, alii
@@ -209,7 +211,7 @@ export default function Page0222() {
               ligátum et in cœlis: et quodcúmque sólveris super terram, erit
               solútum et in cœlis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, veio Jesus para os lados de Cesareia, de Filipe, e
               interrogou os discípulos, dizendo: «Quem dizem os homens que é o
               Filho do homem?». Eles responderam: «Uns dizem que é João
@@ -232,12 +234,12 @@ export default function Page0222() {
           <Text className="em">Mt. 16, 18-19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam: et
               portæ inferi non prævalébunt advérsus eam: et tibi dabo claves
               regni cœlórum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Tu és Pedro, e sobre esta pedra edificarei a minha Igreja. E as
               portas do inferno não prevalecerão contra ela. Dar-te-ei as chaves
               do reino dos céus.
@@ -247,12 +249,12 @@ export default function Page0222() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ecclésiæ tuæ, quǽsumus, Dómine, preces et hóstias beáti Petri
               Apóstoli comméndet orátio: ut, quod pro illíus glória celebrámus,
               nobis prosit ad véniam. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vos pedimos, Senhor, que o sufrágio do B. Apóstolo Pedro Vos torne
               agradáveis as preces e as hóstias da vossa Igreja, para que aquilo
               que celebramos em sua glória nos alcance o vosso perdão. Por nosso
@@ -263,12 +265,12 @@ export default function Page0222() {
           <Text className="h3">Secreta Comemoração S. Paulo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Apóstoli tui Pauli précibus, Dómine, plebis tuæ dona sanctífica:
               ut, quæ tibi tuo grata sunt institúto, gratióra fiant patrocínio
               supplicántis. (Per Dóminum...)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Santificai, Senhor, as ofertas do vosso povo pelas preces do vosso
               Ap.º Paulo, a fim de que, sendo-vos já agradáveis (porque por Vós
               foram instituídas), mais agradáveis ainda se tornem pelo
@@ -279,12 +281,12 @@ export default function Page0222() {
           <Text className="h3">Secreta Comemoração Santa Prisca</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hæc hóstia, quǽsumus, Dómine, quam Sanctórum tuórum natalítia
               recenséntes offérimus, et víncula nostræ pravitátis absólvat, et
               tuæ nobis misericórdiæ dona concíliet. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que esta hóstia, Senhor, que Vos oferecemos em honra do nascimento
               dos vossos Santos, nos livre dos vínculos dos nossos pecados e nos
               obtenha os dons da vossa misericórdia. Por nosso Senhor...
@@ -296,10 +298,10 @@ export default function Page0222() {
           <Text className="em">Mt. 16, 18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Tu és Pedro e sobre esta pedra edificarei a minha Igreja.
             </Text>
           </View>
@@ -307,12 +309,12 @@ export default function Page0222() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Lætíficet nos, Dómine, munus oblátum: ut, sicut in Apóstolo tuo
               Petro te mirábilem prædicámus; sic per illum tuæ sumámus
               indulgéntiæ largitátem. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Alegre-nos, Senhor, este sacrifício que Vos oferecemos, a fim de
               que, assim como Vos proclamamos admirável no vosso Apóstolo Pedro,
               assim também por ele recebamos uma abundante efusão da vossa
@@ -323,12 +325,12 @@ export default function Page0222() {
           <Text className="h3">Postcomúnio Comemoração S. Paulo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sanctificáti, Dómine, salutári mystério: quǽsumus; ut nobis ejus
               non desit orátio, cujus nos donásti patrocínio gubernari. (Per
               Dóminum nostrum...)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Havendo nós sido santificados com este salutar mystério, Vos
               suplicamos, Senhor, que não cesse de interceder Por nós aquele a
               cujo amparo nos confiastes. Por nosso Senhor...)
@@ -338,11 +340,11 @@ export default function Page0222() {
           <Text className="h3">Postcomúnio Comemoração Santa Prisca</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quǽsumus, Dómine, salutáribus repléti mystériis: ut, cujus
               sollémnia celebrámus, ejus oratiónibus adjuvémur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Saciados com os dons salutares Vos imploramos, Senhor, sejamos
               socorridos pelas preces daquela cuja festa celebrámos. Por nosso
               Senhor...

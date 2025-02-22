@@ -21,12 +21,12 @@ export default function Page1024() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui beátum Raphǽlem Archángelum Tobíæ fámulo tuo cómitem
               dedísti in via: concéde nobis fámulis tuis; ut ejúsdem semper
               protegámur custódia et muniámur auxílio. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que designastes o Arcanjo Rafael para guia do vosso servo
               Tobias, concedei-nos a nós, que somos vossos servos, a graça de
               sermos sempre protegidos por ele e fortalecidos com seu auxílio.
@@ -39,11 +39,9 @@ export default function Page1024() {
           <Text className="em">Tb. 12, 7-15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Tobíæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro de Tobias.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Tobíæ.</Text>
+            <Text className="vernacular">Lição do Livro de Tobias.</Text>
+            <Text className="latin">
               In diébus illis: Dixit Angelus Ráphaël ad Tobíam: Sacraméntum
               regis abscóndere bonum est: ópera autem Dei reveláre et confitéri
               honoríficum est. Bona est orátio cum jejúnio, et eleemósyna magis
@@ -59,7 +57,7 @@ export default function Page1024() {
               Saram uxórem fílii tui a dæmónio liberárem. Ego enim sum Raphaël
               Angelus, unus ex septem, qui astámus ante Dóminum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, disse o Anjo Rafael a Tobias: «É bom ocultar o
               segredo de um rei, mas é honroso descobrir e publicar as obras de
               Deus. A oração, acompanhada com o jejum e com a esmola, vale mais
@@ -83,27 +81,29 @@ export default function Page1024() {
           <Text className="em">Tb. 8, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Angelus Dómini Raphaël apprehéndit et ligávit dǽmonem. ℣.{" "}
-              <Text className="text-base latin">Ps. 146, 5</Text> Magnus Dóminus
-              noster, et magna virtus ejus.
+            <Text className="latin">
+              Angelus Dómini Raphaël apprehéndit et ligávit dǽmonem.
+              <Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 146, 5</Text> Magnus Dóminus noster,
+              et magna virtus ejus.
             </Text>
-            <Text className="text-base vernacular">
-              Rafael, o Anjo do Senhor, dominou o demónio e amarrou-o. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 146, 5</Text> Grande é
-              o Senhor, nosso Deus; grande é o seu poder.
+            <Text className="vernacular">
+              Rafael, o Anjo do Senhor, dominou o demónio e amarrou-o.
+              <Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 146, 5</Text> Grande é o Senhor,
+              nosso Deus; grande é o seu poder.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 137, 1-2</Text> In conspéctu
-              Angelórum psallam tibi: adorábo ad templum sanctum tuum, et
-              confitébor nómini tuo, Dómine. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 137, 1-2</Text> In conspéctu Angelórum
+              psallam tibi: adorábo ad templum sanctum tuum, et confitébor
+              nómini tuo, Dómine. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 137, 1-2</Text>{" "}
-              Cantarei Salmos na presença dos Anjos; adorar-Vos-ei no vosso
-              santo templo e glorificarei o vosso santo nome, ó Senhor. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 137, 1-2</Text> Cantarei Salmos
+              na presença dos Anjos; adorar-Vos-ei no vosso santo templo e
+              glorificarei o vosso santo nome, ó Senhor. Aleluia.
             </Text>
           </View>
 
@@ -112,15 +112,15 @@ export default function Page1024() {
           <Text className="em">Jo. 5, 1-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Erat dies festus Judæórum, et ascéndit Jesus
               Jerosólymam. Est autem Jerosólymis Probática piscína, quæ
               cognominátur hebráice Bethsaida, quinque pórticus habens. In his
@@ -130,7 +130,7 @@ export default function Page1024() {
               descendísset in piscínam post motiónem aquæ, sanus fiebat, a
               quacúmque detinebátur infirmitáte.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, sendo o dia da festa dos judeus, Jesus subiu até
               Jerusalém. Ora há perto de Jerusalém uma piscina que se chama em
               hebreu Betsaida, e tem cinco alpendres, debaixo dos quais
@@ -147,12 +147,12 @@ export default function Page1024() {
           <Text className="em">Ap. 8,3 & 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Stetit Angelus juxta aram templi, habens thuríbulum áureum in manu
               sua, et data sunt ei incénsa multa: et ascéndit fumus aromátum in
               conspéctu Dei.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Junto ao altar, no templo, estava de pé um Anjo, tendo na mão um
               turíbulo de ouro: e deitaram-lhe muito incenso, subindo o fumo dos
               perfumes à presença de Deus.
@@ -162,12 +162,12 @@ export default function Page1024() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hóstias tibi, Dómine, laudis offérimus, supplíciter deprecántes:
               ut eásdem, angélico pro nobis interveniénte suffrágio, et placátus
               accípias, et ad salútem nostram proveníre concédas. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos oferecemos estas hóstias de louvor, suplicando-Vos
               humildemente que, por intercessão do santo Anjo, as aceiteis
               propício e nos concedais que sejam úteis à nossa salvação. Por
@@ -180,11 +180,11 @@ export default function Page1024() {
           <Text className="em">Dn. 3, 58</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Benedícite, omnes Angeli Dómini, Dóminum: hymnum dícite et
               superexaltáte eum in sǽcula.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Anjos do Senhor, bendizei todos o Senhor: cantai hinos em seu
               louvor e exaltai-O em todos os séculos.
             </Text>
@@ -193,13 +193,13 @@ export default function Page1024() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Dirigere dignáre, Dómine Deus, in adjutórium nostrum sanctum
               Raphǽlem Archángelum: et, quem tuæ majestáti semper assístere
               crédimus, tibi nostras exíguas preces benedicéndas assígnet. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Senhor, nosso Deus, dignai-Vos mandar para nosso guarda o santo
               Arcanjo Rafael; e que as nossas humildes preces Vos sejam
               apresentadas para serem abençoadas por aquele que sabemos estar

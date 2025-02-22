@@ -15,25 +15,25 @@ export default function Page0531Portugal() {
           <Text className="h3">Intróito</Text>
           <Text className="em">Heb. 4, 16</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Adeámus cum fidúcia ad thronum grátiæ, ut misericórdam
               consequámur, et grátiam inveniámus in auxílio opportúno. (T. P.
-              Allelúja, allelúja.){" "}
-              <Text className="text-base latin">Ps. 120, 1</Text> Levávi óculos
-              meos in montes: unde vénie ℣. Glória ao Pai...
+              Allelúja, allelúja.) <Text className="latin">Ps. 120, 1</Text>{" "}
+              Levávi óculos meos in montes: unde vénie
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Recorramos com confiança ao trono da graça, para que consigamos
               alcançar misericórdia e graça e sejamos socorridos com
               oportunidade. Aleluia, aleluia. (T. P. Aleluia, aleluia.){" "}
-              <Text className="text-base vernacular">Sl. 120, 1</Text> Elevei os
-              meus olhos para os montes donde me veio o auxílio. ℣. Glória ao
-              Pai...
+              <Text className="vernacular">Sl. 120, 1</Text> Elevei os meus
+              olhos para os montes donde me veio o auxílio.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
           <Text className="h3">Oração</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Dómine Jesu Christe, noster apud Patrem mediátor, qui beatíssimam
               Vírginem matrem tuam, matrem quoque nostram, et apud te
               mediatrícem constitúere dignátus es; concéde propítius: ut
@@ -41,7 +41,7 @@ export default function Page0531Portugal() {
               impetrásse lætétur: Qui vivis et regnas cum eódem Deo Patre. Qui
               vivis et regnas...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Senhor Jesus Cristo, nosso mediador junto do Pai, que
               constituístes nossa mediadora junto de Vós a Santíssima Virgem
               Maria, Vossa Mãe e também nossa, concedei propício que todos
@@ -53,11 +53,9 @@ export default function Page0531Portugal() {
           <Text className="h3">Epístola</Text>
           <Text className="em">Is. 55, 1-3 & 5</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Profeta Isaías.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
+            <Text className="vernacular">Lição do Profeta Isaías.</Text>
+            <Text className="latin">
               Omnes sitíentes, veníte ad aquas: et qui non habétis argéntum
               properáte, émite et comédite: veníte, émite absque argénto, et
               absque ulla communtatióne vinum et lac. \* Quare appénditis
@@ -68,7 +66,7 @@ export default function Page0531Portugal() {
               vocábis: et gentes, quæ te non cognovérunt, ad te current propter
               Dóminum Deum tuum, et sanctum Israël, quia glorificávit te.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó vós, que tendes sede, vinde às águas. Ó vós, que não tendes
               dinheiro, vinde, comprai e comei: vinde, comprai vinho ou leite,
               sem dinheiro e sem dar nada em troca. \* Porque gastais dinheiro
@@ -80,19 +78,21 @@ export default function Page0531Portugal() {
               que não vos conhecem correrão a vós por causa do Senhor, vosso
               Deus, e Santo de Israel, pois Ele vos glorificou.
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-base latin">Is. 60, 4</Text>
+            <Text className="latin">
+              <Text className="latin">Is. 60, 4</Text>
             </Text>
           </View>
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣. Leva in circúitu óculus tuos, et vide: omes
-              isti congregáti sunt, venérunt tibi. Allelúja. ℣. Fílii tui de
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Leva in
+              circúitu óculus tuos, et vide: omes isti congregáti sunt, venérunt
+              tibi. Allelúja.<Text className="versicle"> ℣. </Text>Fílii tui de
               longe vénient, et filiæ tuæ de látere surgent. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣. Volvei os olhos em torno de vós e vede: todos
-              estes se reuniram e vieram até vós, aleluia. ℣. Os teus filhos
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Volvei os
+              olhos em torno de vós e vede: todos estes se reuniram e vieram até
+              vós, aleluia.<Text className="versicle"> ℣. </Text>Os teus filhos
               virão de longe e as tuas filhas surgirão dos lados. Aleluia.
             </Text>
           </View>
@@ -104,11 +104,11 @@ export default function Page0531Portugal() {
           <Text className="h3">Ofertório</Text>
           <Text className="em">Jr. 18, 20</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Recordáre, Virgo, Mater Dei, dum stéteris in conspéctu Dómini, ut
               loquáris pro nobis bona, et ut avértat indignatiónem suam a nobis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Virgem, Mãe de Deus, quando estiverdes na presença do Senhor,
               lembrai-Vos de nós; intercedei em nosso favor junto d’Ele e
               afastai de nós a sua indignação.
@@ -122,24 +122,24 @@ export default function Page0531Portugal() {
           </Text>
           <Text className="h3">Comúnio</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Valde mirábilis es, o Maria, et fácies tua plena est gratiárum.
               Allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Sois verdadeiramente admirável, ó Maria! O vosso rosto irradia
               graças. Aleluia.
             </Text>
           </View>
           <Text className="h3">Postcomúnio</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Subvéniat nobis, Dómine, beátæ Mariæ Matris tuæ ac nostræ
               Mediatrícis orátio: ut per hæc sacrosáncta commércia, tua grátia
               largiénte, ad redemptiónis ætérnæ proficiámus augmntum: Qui vivis
               et regnas...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que a oração da B. Maria, Vossa Mãe e nossa Mediadora, venha em
               nosso auxílio, Senhor, a fim de que pelo comércio da sacrossanta
               vítima alcancemos, mediante a Vossa graça, a plenitude da redenção

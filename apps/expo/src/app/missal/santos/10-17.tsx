@@ -18,32 +18,33 @@ export default function Page1017() {
           <Text className="em">Ct. 2, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sub umbra illíus, quem desideráveram, sedi: et fructus ejus dulcis
-              gútturi meo. <Text className="text-base latin">Ps. 83, 2-3</Text>{" "}
-              Quam dilécta tabernácula tua, Dómine virtútum! concupíscit, et
-              déficit ánima mea in átria Dómini. ℣. Gloria Patri...
+              gútturi meo. <Text className="latin">Ps. 83, 2-3</Text> Quam
+              dilécta tabernácula tua, Dómine virtútum! concupíscit, et déficit
+              ánima mea in átria Dómini.<Text className="versicle"> ℣. </Text>
+              Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Assentei-me à sombra daquele que eu desejara: e o seu fruto é doce
-              ao meu paladar.{" "}
-              <Text className="text-base vernacular">Sl. 83, 2-3</Text> Como são
-              amáveis os vossos tabernáculos, ó Senhor dos exércitos! Minha alma
-              suspira ardentemente pelos átrios do Senhor. ℣. Glória ao Pai...
+              ao meu paladar. <Text className="vernacular">Sl. 83, 2-3</Text>{" "}
+              Como são amáveis os vossos tabernáculos, ó Senhor dos exércitos!
+              Minha alma suspira ardentemente pelos átrios do Senhor.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Dómine Jesu Christe, qui investigábiles divítias Cordis tui beátæ
               Margarítæ Maríæ Vírgini mirabíliter revelásti: da nobis ejus
               méritis et imitatióne; ut, te in ómnibus et super ómnia
               diligéntes, jugem in eódem Corde tuo mansiónem habére mereámur:
               Qui vivis et regnas...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor Jesus Cristo, que de uma maneira admirável Vos dignastes
               revelar à B. Virgem Margarida Maria as insondáveis riquezas do
               vosso Coração, concedei-nos pelos seus méritos e à sua imitação
@@ -64,28 +65,28 @@ export default function Page1017() {
           <Text className="em">Ct. 8, 7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Aquæ multæ non potuérunt exstínguere caritátem, nec flúmina
-              óbruent illam. ℣.{" "}
-              <Text className="text-base latin">Ps. 72, 26</Text> Defécit caro
-              mea et cor meum: Deus cordis mei, et pars mea Deus in ætérnum.
+              óbruent illam.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 72, 26</Text> Defécit caro mea et cor
+              meum: Deus cordis mei, et pars mea Deus in ætérnum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               As águas caudalosas não puderam extinguir a caridade, nem os rios
-              a submergiram. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 72, 26</Text> Meu corpo
-              e o meu coração desfaleceram, ó Deus, que sois o Deus do meu
-              coração e a minha herança na eternidade!
+              a submergiram.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 72, 26</Text> Meu corpo e o meu
+              coração desfaleceram, ó Deus, que sois o Deus do meu coração e a
+              minha herança na eternidade!
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Cant. 7, 10</Text> Ego dilécto
-              meo, et ad me conversio ejus. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Cant. 7, 10</Text> Ego dilécto meo, et ad
+              me conversio ejus. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Ct. 7, 10</Text> Eu sou
-              para o meu muito amado! E Ele volveu-se para mim. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Ct. 7, 10</Text> Eu sou para o meu
+              muito amado! E Ele volveu-se para mim. Aleluia.
             </Text>
           </View>
 
@@ -101,11 +102,11 @@ export default function Page1017() {
           <Text className="em">Zc. 9, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quid bonum ejus est et quid pulchrum ejus, nisi fruméntum
               electórum et vinum gérminans vírgines?
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que possui o Senhor de bom e de belo, melhor do que o trigo dos
               eleitos e o vinho que gera as virgens?
             </Text>
@@ -114,12 +115,12 @@ export default function Page1017() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Accéopta tibi sint, Dómine, plebis tuæ múnera: et concéde; ut
               ignis ille divínus nos inflámmet, quo de Corde Fílii tui emisso
               beáta Margaríta María veheménter æstuávit. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dignai-Vos aceitar, Senhor, as ofertas do vosso povo e permiti que
               sejamos inflamados no fogo divino que, irradiando do Coração do
               vosso Filho, consumiu em seu ardor a B. Margarida Maria. Pelo
@@ -132,10 +133,10 @@ export default function Page1017() {
           <Text className="em">Ct. 6, 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ego dilecto meo, et diléctus meus mihi, qui páscitur inter lília.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eu sou do meu muito amado e o meu muito amado é meu, pois Ele
               apascenta-se entre os lírios.
             </Text>
@@ -144,13 +145,13 @@ export default function Page1017() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Córporis et Sánguinis tui, Dómine Jesu, sumptis mystériis: concéde
               nobis, quǽsumus, beáta Margaríta María Vírgine intercedénte; ut,
               supérbis sǽculi vanitátibus exútis, mansuetúdinem et humilitátem
               Cordis tui indúere mereámur: Qui vivis...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor Jesus, havendo participado dos mystérios do vosso Corpo e
               Sangue, Vos rogamos, concedei-nos pela intercessão da B. Margarida
               Maria, Virgem, que, despojando-nos das vaidades do mundo,

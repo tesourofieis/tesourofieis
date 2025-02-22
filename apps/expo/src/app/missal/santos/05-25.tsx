@@ -47,13 +47,13 @@ export default function Page0525() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, in te sperántium fortitúdo, qui beátum Gregórium Confessórem
               tuum atque Pontíficem, pro tuénda Ecclésiæ libertáte, virtúte
               constántiæ roborásti: da nobis, ejus exémplo et intercessióne,
               ómnia adversántia fórtiter superáre. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, fortaleza daqueles que esperam em Vós, concedestes ao B.
               Gregório, vosso Confessor e Pontífice, a virtude da constância
               para defender a liberdade da Igreja, permiti que, imitando o seu

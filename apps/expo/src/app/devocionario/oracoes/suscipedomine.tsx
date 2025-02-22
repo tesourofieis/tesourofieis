@@ -11,14 +11,14 @@ export default function PageSuscipedomine() {
           <Text className="h1">Súscipe Dómine</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Súscipe, Dómine, universam meam libertatem. Accipe memoriam,
               intellectum atque voluntatem omnem. Quidquid habeo vel possideo
               mihi largitus es; id tibi totum restituo, ac tuæ prorsus voluntati
               trado gubernandum. Amorem tui solum cum grátia tua mihi dones, et
               dives sum satis, nec aliud quidquam ultra posco. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Tomai, Senhor e recebei toda minha liberdade, a minha memória, o
               meu entendimento e toda minha vontade, tudo o que tenho e possuo;
               Vós mo destes; a Vós, Senhor, o restituo. Tudo é vosso, disponde

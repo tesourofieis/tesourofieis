@@ -25,14 +25,14 @@ export default function Page0215Portugal() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sancti Confessórisóris tui Antónii tribue nos, Dómine,
               intercessióne adjuvári: ut cujus Translatiónem ánnua celebitáte
               recólimus; ejus apud te précibus et méritis, post hujus vitæ
               exsílium, ad consórtium transférri merámur Beatórum. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Concedei-nos, Senhor, que sejamos auxiliados pela intercessão do
               vosso Santo Confessor António, a fim de que, celebrando anualmente
               a sua Trasladação, por suas preces e méritos junto de Vós,

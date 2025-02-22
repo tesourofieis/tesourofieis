@@ -24,15 +24,15 @@ export default function Page0105() {
           <Text className="em">Mt. 2, 19-23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Defúncto Heróde, ecce, Angelus Dómini appáruit in
               somnis Joseph in Ægýpto, dicens: Surge, et áccipe Púerum et Matrem
               ejus, et vade in terram Israël: defúncti sunt enim, qui quærébant
@@ -43,7 +43,7 @@ export default function Page0105() {
               civitáte, quæ vocátur Názareth: ut adimplére tur quod dictum est
               per Prophétas: Quóniam Nazaræus vocábitur.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, quando Herodes morreu, eis que um Anjo do Senhor
               apareceu em sonhos a José, que estava no Egipto, dizendo-lhe:
               "Levanta-te, toma o Menino e sua Mãe e volta para a terra de

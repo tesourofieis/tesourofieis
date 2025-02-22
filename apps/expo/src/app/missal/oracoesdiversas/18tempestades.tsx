@@ -13,11 +13,11 @@ export default function Page18Tempestades() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               A domo tua, quǽsumus Dómine, spiritáles nequítiæ repellántur: et
               aëriárum discédat malígnitas tempestátum. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos imploramos, dignai-Vos afastar da vossa família os
               males das tempestades e repelir os flagelos das tormentas dos
               ares. Por nosso Senhor...
@@ -27,12 +27,12 @@ export default function Page18Tempestades() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Offérimus tibi, Dómine, laudes et múnera, pro concéssis benefíciis
               grátias referéntes, et pro concedéndis semper supplíciter
               deprecántes. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos oferecemos os nossos louvores e dons, dando-Vos graças
               pelos benefícios que nos concedestes e suplicando-Vos humildemente
               que não cesseis de nos dispensar outras graças. Por nosso
@@ -43,13 +43,13 @@ export default function Page18Tempestades() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnípotens sempitérne Deus, qui nos et castigándo sanas et
               ignoscéndo consérvas: præsta supplícibus tuis; ut et
               tranquillitátibus hujus optátæ consolatiónis lætémur, et dono tuæ
               pietátis semper utámur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente e sempiterno, que nos curais, quando nos
               castigais, e nos conservais, quando nos perdoais, concedei-nos a
               graça, humildemente Vos pedimos, de vivermos felizes na

@@ -36,14 +36,14 @@ export default function Page0128() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui in tuæ caritátis exémplum ad fidélium redemptiónem
               sanctum Petrum Ecclésiam tuam nova prole fœcundáre divínitus
               docuísti: ipsíus nobis intercessióne concéde; a peccáti servitúte
               solútis, in cœlésti pátria perpétua libertáte gaudére: Qui vivis
               et regnas...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que em prova da vossa caridade quisestes inspirar
               sobrenaturalmente S. Pedro a fundar na vossa Igreja uma nova
               família, destinada à redenção dos fiéis cativos, concedei-nos por
@@ -56,12 +56,12 @@ export default function Page0128() {
           <Text className="h3">Oração Comemoração Santa Inês</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui nos ánnua beátæ Agnetis Vírginis et Martyris tuæ
               sollemnitáte lætíficas: da, quǽsumus; ut, quam venerámur officio,
               étiam piæ conversatiónis sequámur exémplo. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que nos alegrais com a solenidade anual da B. Inês, vossa
               Virgem e Mártir, concedei-nos a graça, Vos suplicamos, de imitar
               os exemplos daquela cuja festa celebramos. Por nosso Senhor...
@@ -71,12 +71,12 @@ export default function Page0128() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne
               Sanctórum quibus nos et præséntibus éxui malis confídimus et
               futúris. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vos oferecemos este sacrifício de louvor em memória dos vossos
               Santos, para que por meio deles nos livremos dos males presentes e
               futuros. Por nosso Senhor...
@@ -86,12 +86,12 @@ export default function Page0128() {
           <Text className="h3">Secreta Comemoração Santa Inês</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Super has, quǽsumus, Dómine, hóstias benedíctio copiósa descéndat:
               quæ et sanctificatiónem nobis cleménter operétur, et de Mártyrum
               nos sollemnitáte lætíficet. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que estas hóstias, Senhor, que Vos oferecemos façam descer sobre
               nós uma bênção abundante, a qual produza em nós por vossa
               clemência nossa santificação e nos alegre com a solenidade dos
@@ -102,12 +102,12 @@ export default function Page0128() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus:
               ut, in cujus hæc commemoratióne percépimus, ejus muniámur et
               précibus Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Fortalecidos com o alimento e com a bebida celestiais, Vos
               suplicamos humildemente, ó nosso Deus, que nos protejam as preces
               daquele em cuja memória os recebermos. Por nosso Senhor...
@@ -117,12 +117,12 @@ export default function Page0128() {
           <Text className="h3">Postcomúnio Comemoração Santa Inês</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Súmpsimus, Dómine, celebritátis ánnuæ votiva sacraménta: præsta,
               quǽsumus; ut et temporális vitæ nobis remédia prǽbeant et ætérnæ.
               Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, havendo recebido os sacramentos que Vos são oferecidos
               nesta festa anual, concedei-nos, Vos suplicamos, que eles nos
               alcancem os remédios para a vida presente e para a eterna. Por

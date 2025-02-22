@@ -15,34 +15,35 @@ export default function PagePasc30() {
           <Text className="em">Sl. 65, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Jubiláte Deo, omnis terra, allelúja: psalmum dícite nómini ejus,
               allelúja: date glóriam laudi ejus, allelúja, allelúja, allelúja.{" "}
-              <Text className="text-base latin">Ps. ibid., 3</Text> Dícite Deo,
-              quam terribília sunt ópera tua, Dómine! in multitúdine virtútis
-              tuæ mentiéntur tibi inimíci tui. ℣. Gloria Patri...
+              <Text className="latin">Ps. ibid., 3</Text> Dícite Deo, quam
+              terribília sunt ópera tua, Dómine! in multitúdine virtútis tuæ
+              mentiéntur tibi inimíci tui.<Text className="versicle"> ℣. </Text>
+              Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que todos os povos da terra entoem cânticos de alegria em honra de
               Deus, aleluia: cantai a glória do seu nome, aleluia: rendei honra
               e louvor ao Senhor, aleluia, aleluia.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 3</Text> Dizei a
-              Deus: «Quão admiráveis, Senhor, são as vossas obras! Tão grande é
-              o vosso poder, que sois glorificado até pelos vossos inimigos!».
-              ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. ibid., 3</Text> Dizei a Deus:
+              «Quão admiráveis, Senhor, são as vossas obras! Tão grande é o
+              vosso poder, que sois glorificado até pelos vossos inimigos!».
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui errántibus, ut in viam possint redíre justítiæ,
               veritátis tuæ lumen osténdis: da cunctis, qui christiána
               professióne censéntur, et illa respúere, quæ huic inimíca sunt
               nómini; et ea, quæ sunt apta, sectári. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que com a luz da verdade esclareceis aqueles que estão no
               caminho do erro para que possam voltar ao caminho da justiça,
               concedei aos que professam a fé cristã, que rejeitem tudo quanto é
@@ -56,13 +57,9 @@ export default function PagePasc30() {
           <Text className="em">1 Pe. 2, 11-19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Léctio Epístolæ beáti Petri Apóstoli.
-            </Text>
-            <Text className="text-base vernacular">
-              Lição da Ep.ª do B. Ap.º Pedro.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
+            <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
+            <Text className="latin">
               Caríssimi: Obsecro vos tamquam ádvenas et peregrínos abstinére vos
               a carnálibus desidériis, quæ mílitant advérsus ánimam,
               conversatiónem vestram inter gentes habéntes bonam: ut in eo, quod
@@ -78,7 +75,7 @@ export default function PagePasc30() {
               omni timóre dóminis, non tantum bonis et modéstis, sed étiam
               dýscolis. Hæc est enim grátia: in Christo Jesu, Dómino nostro.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Caríssimos: Como estrangeiros e peregrinos que sois, exorto-vos a
               que vos abstenhais dos apetites carnais, que são contrários à
               alma. Tende uma conduta honesta entre os povos, a fim de que, em
@@ -100,17 +97,17 @@ export default function PagePasc30() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 110, 9</Text> Redemptiónem
-              misit Dóminus pópulo suo. Allelúja.{" "}
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 110, 9</Text> Redemptiónem misit
+              Dóminus pópulo suo. Allelúja.{" "}
               <Text className="em">Luc. 24, 46</Text> Oportebat pati Christum,
               et resúrgere a mórtuis: et ita intráre in glóriam suam. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 110, 9</Text> O Senhor
-              mandou a salvação ao seu povo. Aleluia.{" "}
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 110, 9</Text> O Senhor mandou a
+              salvação ao seu povo. Aleluia.{" "}
               <Text className="em">Lc. 24, 46</Text> Era preciso que Cristo
               sofresse, para que depois ressuscitasse dos mortos e entrasse
               assim na glória, aleluia.
@@ -122,15 +119,15 @@ export default function PagePasc30() {
           <Text className="em">Jo. 16, 16-22</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus discípulis suis: Módicum, et jam non
               vidébitis me: et íterum módicum, et vidébitis me: quia vado ad
               Patrem. Dixérunt ergo ex discípulis ejus ad ínvicem: Quid est hoc,
@@ -148,7 +145,7 @@ export default function PagePasc30() {
               habétis, íterum autem vidébo vos, et gaudébit cor vestrum: et
               gáudium vestrum nemo tollet a vobis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus aos discípulos: «Ainda um pouco de
               tempo e me não vereis mais; e ainda um pouco de tempo e me
               tornareis a ver, porque vou ao Pai». Disseram, então, alguns
@@ -175,11 +172,11 @@ export default function PagePasc30() {
           <Text className="em">Sl. 145, 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Lauda, anima mea, Dóminum: laudábo Dóminum in vita mea: psallam
               Deo meo, quámdiu ero, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Louvai o Senhor, ó minha alma. Louvarei o Senhor durante toda a
               vida: cantarei hinos ao meu Deus, enquanto viver, aleluia.
             </Text>
@@ -188,11 +185,11 @@ export default function PagePasc30() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               His nobis, Dómine, mystériis conferátur, quo, terréna desidéria
               mitigántes, discámus amáre cœléstia. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Senhor, por meio destes sagrados mystérios mitigai-nos os
               desejos terrenos e ensinai-nos a amar as coisas celestiais. Por
               nosso Senhor...
@@ -204,11 +201,11 @@ export default function PagePasc30() {
           <Text className="em">Jo. 16, 16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Módicum, et non vidébitis me, allelúja: íterum módicum, et
               vidébitis me, quia vado ad Patrem, allelúja, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ainda um pouco de tempo e me não vereis mais, aleluia; e ainda um
               pouco de tempo e me tornareis a ver, porque vou para meu Pai,
               aleluia, aleluia.
@@ -218,12 +215,12 @@ export default function PagePasc30() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sacramenta quæ súmpsimus, quǽsumus, Dómine: et spirituálibus nos
               instáurent aliméntis, et corporálibus tueántur auxíliis. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos suplicamos, permiti que os sacramentos, que recebemos,
               nos restaurem, tornando-se em alimento para as nossas almas e em
               auxílio para os nossos corpos. Por nosso Senhor...

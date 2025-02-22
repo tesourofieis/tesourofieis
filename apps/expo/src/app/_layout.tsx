@@ -242,7 +242,6 @@ const Header = ({ withBC }: { withBC: boolean }) => {
   if (withBC) {
     return (
       <View className="flex-row items-center p-5 gap-5 border-b bg-sepia-300 dark:bg-sepia-900 w-full">
-        {" "}
         <Link href="/">
           <FontAwesome6 name="arrow-left" size={15} color="#e53935" />
         </Link>

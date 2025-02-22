@@ -32,13 +32,13 @@ export default function Page0902() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Concéde, quǽsumus, Ecclésiæ tuæ, omnípotens Deus: ut beátum
               Stéphanum Confessórem tuum, quem regnántem in terris propagatórem
               hábuit, propugnatórem habére mereátur gloriósum in cœlis. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Concedei à vossa Igreja, Vos imploramos, ó Deus omnipotente, que o
               B. Estêvão, vosso Confessor, que ela possuiu como seu propagador
               enquanto reinou na terra, seja agora seu defensor na glória dos
@@ -51,15 +51,15 @@ export default function Page0902() {
           <Text className="em">Lc. 19, 12-26</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo
               quidam nóbilis ábiit in regionem longínquam accípere sibi regnum,
               et revérti. Vocátis autem decem servis suis, dedit eis decem mnas,
@@ -84,7 +84,7 @@ export default function Page0902() {
               abundábit: ab eo autem, qui non habet, et, quod habet, auferétur
               ab eo.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, Jesus disse aos seus discípulos esta parábola:
               «Certo homem de linhagem nobre partiu para um país longínquo, a
               fim de conseguir a posse desse reino e voltar depois. Chamou,
@@ -117,12 +117,12 @@ export default function Page0902() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Réspice, quas offérimus, hóstias, omnípotens Deus: et præsta; ut,
               qui passiónis Dominicae mystéria celebrámus, imitémur quod ágimus.
               Per eúndem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente, dignai-Vos olhar para estas hóstias, que Vos
               oferecemos, e permiti que, celebrando nós os mystérios da Paixão
               do Senhor, imitemos o que Vos apresentamos. Por nosso Senhor...
@@ -132,13 +132,13 @@ export default function Page0902() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut beáti Stephani Confessóris
               tui fidem cóngrua devotióne sectémur; qui, pro ejúsdem fídei
               dilatatióne, de terréno regno ad cœléstis regni glóriam méruit
               perveníre. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Concedei-nos, Vos rogamos, ó Deus omnipotente, a graça de
               imitarmos com a devida devoção os exemplos de fé do B. Estêvão,
               vosso Confessor, o qual pela propagação desta mesma fé mereceu

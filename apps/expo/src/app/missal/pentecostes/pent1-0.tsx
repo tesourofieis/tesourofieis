@@ -15,18 +15,20 @@ export default function PagePent10() {
           <Text className="em">Tb. 12, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Benedícta sit sancta Trínitas atque indivísa Unitas: confitébimur
               ei, quia fecit nobíscum misericórdiam suam.{" "}
-              <Text className="text-base latin">Ps. 8, 2</Text> Dómine, Dóminus
-              noster, quam admirábile est nomen tuum in univérsa terra! ℣.
+              <Text className="latin">Ps. 8, 2</Text> Dómine, Dóminus noster,
+              quam admirábile est nomen tuum in univérsa terra!
+              <Text className="versicle"> ℣. </Text>
               Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bendita seja a Santíssima Trindade e a indivisível Unidade! Nós A
               louvamos; pois foi misericordiosa para connosco.{" "}
-              <Text className="text-base vernacular">Sl. 8, 2</Text> Senhor,
-              nosso Deus, como o vosso nome é admirável em todo o universo! ℣.
+              <Text className="vernacular">Sl. 8, 2</Text> Senhor, nosso Deus,
+              como o vosso nome é admirável em todo o universo!
+              <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
           </View>
@@ -34,14 +36,14 @@ export default function PagePent10() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnípotens sempitérne Deus, qui dedísti fámulis tuis in
               confessióne veræ fídei, ætérnæ Trinitátis glóriam agnóscere, et in
               poténtia majestátis adoráre Unitátem: quǽsumus; ut, ejúsdem fídei
               firmitáte, ab ómnibus semper muniámur advérsis. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó omnipotente e eterno Deus, que quisestes que os vossos fiéis,
               acreditando e confessando a verdadeira fé, conhecessem a glória da
               sempiterna Trindade e adorassem a Unidade no poder da sua
@@ -56,20 +58,20 @@ export default function PagePent10() {
           <Text className="em">Rm. 11, 33-36</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               O altitúdo divitiárum sapiéntiae et sciéntiæ Dei: quam
               incomprehensibília sunt judícia ejus, et investigábiles viæ ejus!
               Quis enim cognovit sensum Dómini? Aut quis consiliárius ejus fuit?
               Aut quis prior dedit illi, et retribuétur ei? Quóniam ex ipso et
               per ipsum et in ipso sunt ómnia: ipsi glória in sǽcula. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó abysmo das riquezas, da sabedoria e da ciência de Deus! Como são
               incompreensíveis os seus juízos e impenetráveis os seus caminhos!
               Pois quem, porventura, conheceu já os desígnios do Senhor? Quem
@@ -85,25 +87,26 @@ export default function PagePent10() {
           <Text className="em">Dn. 3, 55-56</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Benedíctus es, Dómine, qui intuéris abýssos, et sedes super
-              Chérubim. ℣. Benedíctus es, Dómine, in firmaménto cæli, et
-              laudábilis in sǽcula.
+              Chérubim.<Text className="versicle"> ℣. </Text>Benedíctus es,
+              Dómine, in firmaménto cæli, et laudábilis in sǽcula.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bendito sois, Senhor, que sondais as profundezas dos abysmos e
-              estais assentado sobre os Querubins! ℣. Sim, Senhor, sois bendito
-              no firmamento do céu; e digno de louvor em todos os séculos.
+              estais assentado sobre os Querubins!
+              <Text className="versicle"> ℣. </Text>Sim, Senhor, sois bendito no
+              firmamento do céu; e digno de louvor em todos os séculos.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">ibid., 52</Text> Benedíctus es,
-              Dómine, Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">ibid., 52</Text> Benedíctus es, Dómine,
+              Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">ibid., 52</Text> Bendito
-              sois, Senhor, Deus de nossos pais, e digno de louvor em todos os
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">ibid., 52</Text> Bendito sois,
+              Senhor, Deus de nossos pais, e digno de louvor em todos os
               séculos. Aleluia.
             </Text>
           </View>
@@ -113,22 +116,22 @@ export default function PagePent10() {
           <Text className="em">Mt. 28, 18-20</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus discípulis suis: Data est mihi omnis
               potéstas in cœlo et in terra. Eúntes ergo docéte omnes gentes,
               baptizántes eos in nómine Patris, et Fílii, et Spíritus Sancti:
               docéntes eos serváre ómnia, quæcúmque mandávi vobis. Et ecce, ego
               vobíscum sum ómnibus diébus usque ad consummatiónem sǽculi.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus aos discípulos: «Todo o poder me foi
               dado no céu e na terra. Ide, pois; ensinai todos os povos,
               baptizando-os em nome do Pai, e do Filho, e do Espírito Santo.
@@ -142,11 +145,11 @@ export default function PagePent10() {
           <Text className="em">Tb. 12, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Benedíctus sit Deus Pater, unigenitúsque Dei Fílius, Sanctus
               quoque Spíritus: quia fecit nobíscum misericórdiam suam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bendito seja Deus Pai, e o Filho Unigénito de Deus, e também o
               Espírito Santo: pois foi misericordioso para connosco.
             </Text>
@@ -155,12 +158,12 @@ export default function PagePent10() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sanctífica, quǽsumus, Dómine, Deus noster, per tui sancti nóminis
               invocatiónem, hujus oblatiónis hóstiam: et per eam nosmetípsos
               tibi pérfice munus ætérnum. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dignai-Vos, Senhor, nosso Deus, Vos suplicamos, pela invocação do
               vosso santo nome, santificar esta hóstia, que Vos oferecemos; e
               que por ela nos convertamos em dom perpétuo de homenagem à vossa
@@ -173,11 +176,11 @@ export default function PagePent10() {
           <Text className="em">Tb. 12, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Benedícimus Deum cœli et coram ómnibus vivéntibus confitébimur ei:
               quia fecit nobíscum misericórdiam suam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bendizemos Deus do céu e cantamos os seus louvores diante de todos
               os viventes: pois foi misericordioso para connosco.
             </Text>
@@ -186,12 +189,12 @@ export default function PagePent10() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Profíciat nobis ad salútem córporis et ánimæ, Dómine, Deus noster,
               hujus sacraménti suscéptio: et sempitérnæ sanctæ Trinitátis
               ejusdémque indivíduæ Unitátis conféssio. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que a recepção deste sacramento, assim como a crença, que
               confessamos, na santa e eterna Trindade e indivisível Unidade, nos
               sirvam, Senhor, de proveito para a salvação da alma e do corpo.

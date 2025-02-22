@@ -25,13 +25,13 @@ export default function Page1019() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui beátum Petrum Confessórem tuum admirábilis pœniténtiæ et
               altíssimæ contemplatiónis múnere illustráre dignátus es: da nobis,
               quǽsumus; ut, ejus suffragántibus méritis, carne mortificáti,
               facílius cœléstia capiámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que Vos dignastes ilustrar o B. Pedro, Confessor, com os
               dons de uma penitência e de uma contemplação sublimes, permiti,
               Vos suplicamos, que, auxiliados com seus méritos e intercessão e

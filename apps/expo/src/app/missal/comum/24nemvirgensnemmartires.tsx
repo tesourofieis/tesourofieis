@@ -15,36 +15,37 @@ export default function Page24Nemvirgensnemmartires() {
           <Text className="em">Sl. 118, 75 & 120</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Cognóvi, Dómine, quia ǽquitas judícia tua, et in veritáte tua
               humiliásti me: confíge timóre tuo carnes meas, a mandátis tuis
               tímui. (T. P. Allelúja, allelúja.){" "}
-              <Text className="text-base latin">Ps. ibid., 1</Text> Beáti
-              immaculáti in via: qui ámbulant in lege Dómini. ℣. Gloria Patri...
+              <Text className="latin">Ps. ibid., 1</Text> Beáti immaculáti in
+              via: qui ámbulant in lege Dómini.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Conheço, Senhor, que os vossos juízos são equitativos e que me
               humilhastes com justiça. Esmagai as minhas carnes com vosso temor;
               os vossos Mandamentos inspiram-me temor. (T. P. Aleluia, aleluia.){" "}
-              <Text className="text-base vernacular">Sl. ibid., 1</Text>{" "}
-              Bem-aventurados aqueles que são imaculados nos seus caminhos e
-              cumprem a lei do Senhor. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. ibid., 1</Text> Bem-aventurados
+              aqueles que são imaculados nos seus caminhos e cumprem a lei do
+              Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Exáudi nos, Deus, salutáris noster: ut, sicut de beátæ{" "}
-              <Text className="text-base latin">N.</Text> festivitáte gaudémus;
-              ita piæ devotiónis erudiámur afféctu. Per Dóminum...
+              <Text className="latin">N.</Text> festivitáte gaudémus; ita piæ
+              devotiónis erudiámur afféctu. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ouvi-nos, ó Deus, nosso salvador, a fim de que, assim como nos
               alegramos com a festa da vossa B.{" "}
-              <Text className="text-base vernacular">N.</Text>, assim também
-              consigamos os afectos de uma pia devoção. Por nosso Senhor...
+              <Text className="vernacular">N.</Text>, assim também consigamos os
+              afectos de uma pia devoção. Por nosso Senhor...
             </Text>
           </View>
 
@@ -53,11 +54,9 @@ export default function Page24Nemvirgensnemmartires() {
           <Text className="em">Pr. 31, 10-31</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro da Sabedoria.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
+            <Text className="latin">
               Mulíerem fortem quis invéniet? Procul et de últimis fínibus
               prétium ejus. Confídit in ea cor viri sui, et spóliis non
               indigébit. Reddet ei bonum, et non malum, ómnibus diébus vitæ suæ.
@@ -84,7 +83,7 @@ export default function Page24Nemvirgensnemmartires() {
               laudábitur. Date ei de fructu mánuum suárum, et laudent eam in
               portis ópera ejus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Quem encontrará uma mulher forte? Seu valor é maior do que o das
               pérolas que vêm dos confins do mundo. Nela confia o coração do
               marido, que por isso lhe não faltará proveito. Ela procurará
@@ -119,26 +118,27 @@ export default function Page24Nemvirgensnemmartires() {
           <Text className="em">Sl. 44, 3 & 5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Diffúsa est grátia in labiis tuis: proptérea benedíxit te Deus in
-              ætérnum. ℣. Propter veritátem et mansuetúdinem et justítiam: et de
-              ducet te mirabíliter déxtera tua.
+              ætérnum.<Text className="versicle"> ℣. </Text>Propter veritátem et
+              mansuetúdinem et justítiam: et de ducet te mirabíliter déxtera
+              tua.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A graça espalhou-se nos vossos lábios: eis porque Deus vos
-              abençoou para a eternidade. ℣. Por causa da vossa verdade,
-              mansidão e justiça, a vossa dextra praticará maravilhas.
+              abençoou para a eternidade.<Text className="versicle"> ℣. </Text>
+              Por causa da vossa verdade, mansidão e justiça, a vossa dextra
+              praticará maravilhas.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">ibid., 5</Text> Spécie tua et
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">ibid., 5</Text> Spécie tua et
               pulchritúdine tua inténde, próspere procéde et regna. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">ibid., 5</Text> Caminhai,
-              pois, com beleza e com majestade; ide gozar a vitória e reinai.
-              Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">ibid., 5</Text> Caminhai, pois, com
+              beleza e com majestade; ide gozar a vitória e reinai. Aleluia.
             </Text>
           </View>
 
@@ -149,22 +149,25 @@ export default function Page24Nemvirgensnemmartires() {
           <Text className="h3">Trato</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Veni, Sponsa Christi, áccipe coronam, quam tibi Dóminus præparávit
-              in ætérnum. ℣.{" "}
-              <Text className="text-base latin">Ps. 44, 8 & 5</Text> Dilexísti
-              justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus
-              tuus, oleo lætítiæ præ consórtibus tuis. ℣. Spécie tua et
-              pulchritúdine tua inténde, próspere procéde et regna.
+              in ætérnum.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 44, 8 & 5</Text> Dilexísti justítiam,
+              et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, oleo
+              lætítiæ præ consórtibus tuis.
+              <Text className="versicle"> ℣. </Text>
+              Spécie tua et pulchritúdine tua inténde, próspere procéde et
+              regna.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vinde, ó esposa de Cristo; vinde e recebei a coroa que o Senhor
-              vos preparou para a eternidade. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 44, 8 & 5</Text>{" "}
-              Amastes a justiça e odiastes a iniquidade: eis porque o Senhor,
-              vosso Deus, vos ungiu com o óleo da alegria, de preferências às
-              vossas semelhantes. ℣. Caminhai, pois, com beleza e com majestade;
-              ide gozar a vitória e reinai.
+              vos preparou para a eternidade.
+              <Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 44, 8 & 5</Text> Amastes a
+              justiça e odiastes a iniquidade: eis porque o Senhor, vosso Deus,
+              vos ungiu com o óleo da alegria, de preferências às vossas
+              semelhantes.<Text className="versicle"> ℣. </Text>Caminhai, pois,
+              com beleza e com majestade; ide gozar a vitória e reinai.
             </Text>
           </View>
 
@@ -173,17 +176,19 @@ export default function Page24Nemvirgensnemmartires() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 44, 5</Text> Spécie tua et
-              pulchritúdine tua inténde, próspere procéde et regna. Allelúja. ℣.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 44, 5</Text> Spécie tua et
+              pulchritúdine tua inténde, próspere procéde et regna. Allelúja.
+              <Text className="versicle"> ℣. </Text>
               Propter veritátem et mansuetúdinem et justítiam: et dedúcet te
               mirabíliter déxtera tua. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 44, 5</Text> Caminhai,
-              pois, com beleza e com majestade; ide gozar a vitória e reinai. ℣.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 44, 5</Text> Caminhai, pois, com
+              beleza e com majestade; ide gozar a vitória e reinai.
+              <Text className="versicle"> ℣. </Text>
               Por causa da vossa verdade, mansidão e justiça, a vossa dextra
               praticará maravilhas. Aleluia.
             </Text>
@@ -194,15 +199,15 @@ export default function Page24Nemvirgensnemmartires() {
           <Text className="em">Mt. 13, 44-52</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus discípulis suis parábolam hanc:
               Símile est regnum cœlórum thesáuro abscóndito in agro: quem qui
               invénit homo, abscóndit, et præ gáudio illíus vadit, et vendit
@@ -219,7 +224,7 @@ export default function Page24Nemvirgensnemmartires() {
               scriba doctus in regno cœlórum símilis est hómini patrifamílias,
               qui profert de thesáuro suo nova et vétera.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus aos seus discípulos esta parábola: «O
               reino dos céus é semelhante a um tesouro escondido no campo, o
               qual um homem achou e esconde; e, alegre com o achado, vai, vende
@@ -244,11 +249,11 @@ export default function Page24Nemvirgensnemmartires() {
           <Text className="em">Sl. 44, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in
               ætérnum, et in sǽculum sǽculi, allelúja. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A graça espalhou-se nos vossos lábios; eis porque Deus vos
               abençoou para a eternidade e para os séculos dos séculos. (T. P.
               Aleluia.)
@@ -258,12 +263,12 @@ export default function Page24Nemvirgensnemmartires() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre
               Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit
               auxílium. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aceitai, Senhor, esta oferta que Vos consagra o vosso povo fiel,
               em honra dos vossos Santos, pelos méritos dos quais reconhece que
               tem alcançado a vossa assistência nas tribulações. Por nosso
@@ -276,12 +281,12 @@ export default function Page24Nemvirgensnemmartires() {
           <Text className="em">Sl. 44, 8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Dilexísti justítiam, et odísti iniquitátem: proptérea unxit te
               Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (T. P.
               Allelúja.)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Amastes a justiça e odiastes a iniquidade: eis porque o Senhor,
               vosso Deus, vos ungiu com o óleo da alegria, de preferência às
               vossas companheiras. (T. P. Aleluia.)
@@ -291,12 +296,12 @@ export default function Page24Nemvirgensnemmartires() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus,
               semper interventióne nos réfove, cujus sollémnia celebrámus. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Havendo saciado, Senhor, a vossa família com os dons sagrados,
               dignai-Vos favorecer-nos sempre pela intercessão daquela cuja
               Solenidade celebrámos. Por nosso Senhor...
@@ -310,13 +315,13 @@ export default function Page24Nemvirgensnemmartires() {
           <Text className="em">Pr. 31, 10-31</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Timotheum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.º do B. Ap.º Paulo a Timóteo.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Caríssime: Víduas hónora, quæ vere víduæ sunt. Si qua autem vídua
               fílios aut nepótes habet, discat primum domum suam régere, et
               mútuam vicem réddere paréntibus: hoc enim accéptum est coram Deo.
@@ -330,7 +335,7 @@ export default function Page24Nemvirgensnemmartires() {
               sanctórum pedes lavit, si tribulatiónem patiéntibus
               subministrávit, si omne opus bonum subsecúta est.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Caríssimos: Honrai as, viúvas que são verdadeiramente viúvas. Se
               alguma viúva tem filhos ou netos, ensine-os, primeiramente, a
               governar a sua casa e a retribuir a seus pais conforme o que havia

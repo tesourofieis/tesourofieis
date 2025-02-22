@@ -16,7 +16,7 @@ export default function PageCruz() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
               Deus: Qui salútem humáni géneris in ligno Crucis constituísti: ut,
@@ -28,7 +28,7 @@ export default function PageCruz() {
               nostras voces ut admítti júbeas, deprecámur, súpplici confessióne
               dicéntes:
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               É verdadeiramente digno e justo, racional e salutar render-Vos
               graças em todos os lugares e sempre, ó Senhor santo, Pai
               omnipotente, eterno Deus, que estabelecestes na árvore da Cruz a

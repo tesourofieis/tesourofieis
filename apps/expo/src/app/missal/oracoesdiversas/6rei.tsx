@@ -13,35 +13,35 @@ export default function Page6Rei() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quǽsumus, omnípotens Deus: ut fámulus tuus{" "}
-              <Text className="text-base latin">N.</Text>, rex noster, qui tua
-              miseratióne suscépit regni gubernácula, virtútum etiam ómnium
-              percípiat increménta; quibus decénter ornátus, et vitiórum monstra
-              devitáre et ad te, qui via, véritas et vita es, gratiósus váleat
-              perveníre. Per Dóminum...
+              <Text className="latin">N.</Text>, rex noster, qui tua miseratióne
+              suscépit regni gubernácula, virtútum etiam ómnium percípiat
+              increménta; quibus decénter ornátus, et vitiórum monstra devitáre
+              et ad te, qui via, véritas et vita es, gratiósus váleat perveníre.
+              Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vos suplicamos, ó omnipotente Deus, permiti que o vosso servo{" "}
-              <Text className="text-base vernacular">N.</Text>, nosso rei, o
-              qual, por efeito da vossa misericórdia, recebeu as rédeas do
-              governo, alcance também incremento em todas as virtudes, a fim de
-              que, sendo, como convém, ornado com elas, possa evitar o horror
-              dos vícios e, cheio de merecimentos, se aproxime de Vós, que sois
-              o caminho, a verdade e a vida. Por nosso Senhor...
+              <Text className="vernacular">N.</Text>, nosso rei, o qual, por
+              efeito da vossa misericórdia, recebeu as rédeas do governo,
+              alcance também incremento em todas as virtudes, a fim de que,
+              sendo, como convém, ornado com elas, possa evitar o horror dos
+              vícios e, cheio de merecimentos, se aproxime de Vós, que sois o
+              caminho, a verdade e a vida. Por nosso Senhor...
             </Text>
           </View>
 
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Múnera, Dómine, quǽsumus, oblata sanctífica: ut et nobis Unigéniti
               tui Corpus et Sanguis fiant; ei regi nostro ad obtinéndam ánimæ
               corporísque salútem, et peragéndum injúnctum offícium, te
               largiénte, usquéquaque profíciant. Per eúndem Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Santificai, Senhor, Vos imploramos, estas oblatas que Vos são
               oferecidas, a fim de que, para nosso proveito, se convertam no
               Corpo e no Sangue de vosso Filho Unigénito; e que, pela vossa
@@ -54,19 +54,19 @@ export default function Page6Rei() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hæc, Dómine, oblátio salutáris fámulum tuum{" "}
-              <Text className="text-base latin">N.</Text>, regem nostrum, ab
-              ómnibus tueátur advérsis: quaténus et ecclesiásticæ pacis obtíneat
+              <Text className="latin">N.</Text>, regem nostrum, ab ómnibus
+              tueátur advérsis: quaténus et ecclesiásticæ pacis obtíneat
               tranquillitátem; et, post hujus témporis decúrsum, ad ætérnam
               pervéniat hereditátem. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, que esta salutar oblação proteja o vosso servo{" "}
-              <Text className="text-base vernacular">N.</Text>, nosso rei,
-              contra todas as adversidades, a fim de que alcance a
-              tranquilidade, que proporciona a paz da Igreja, e, após esta vida,
-              consiga a herança eterna. Por nosso Senhor...
+              <Text className="vernacular">N.</Text>, nosso rei, contra todas as
+              adversidades, a fim de que alcance a tranquilidade, que
+              proporciona a paz da Igreja, e, após esta vida, consiga a herança
+              eterna. Por nosso Senhor...
             </Text>
           </View>
         </View>

@@ -10,19 +10,19 @@ export default function PageSinalCruz() {
         <View className="docs">
           <Text className="h2">Sinal da Cruz</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> In nómine Patris, et
-              Fílii, et Spíritus Sancti.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> In nómine Patris, et Fílii, et
+              Spíritus Sancti.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Em nome do Pai e
-              do Filho e do Espírito Santo.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Em nome do Pai e do Filho e do
+              Espírito Santo.
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="latin">
+              <Text className="response"> ℟. </Text> Amen.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-red-500">℟.</Text> Amen.
+            <Text className="vernacular">
+              <Text className="response"> ℟. </Text> Amen.
             </Text>
           </View>
         </View>

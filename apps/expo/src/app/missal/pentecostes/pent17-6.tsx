@@ -16,32 +16,33 @@ export default function PagePent176() {
           <Text className="em">Sl 94:6-7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Veníte, adorémus Deum et procidámus ante Dóminum, plorémus ante
               eum, qui fecit nos: quia ipse est Dóminus, Deus noster.{" "}
-              <Text className="text-base latin">Ps 94:1</Text> Veníte,
-              exsultémus Dómino: jubilémus Deo, salutári nostro. ℣. Gloria
-              Patri...
+              <Text className="latin">Ps 94:1</Text> Veníte, exsultémus Dómino:
+              jubilémus Deo, salutári nostro.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vinde, adoremos Deus; prostemo-nos e choremos perante o Senhor,
               que nos criou: pois Ele é o Senhor, nosso Deus.{" "}
-              <Text className="text-base vernacular">Sl 94:1</Text> Vinde,
-              cantemos com alegria ao Senhor: manifestemos o nosso júbilo a
-              Deus, que é a nossa salvação. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl 94:1</Text> Vinde, cantemos com
+              alegria ao Senhor: manifestemos o nosso júbilo a Deus, que é a
+              nossa salvação.<Text className="versicle"> ℣. </Text>Glória ao
+              Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnípotens sempitérne Deus, qui per continéntiam salutárem
               corpóribus medéris et méntibus: majestátem tuam súpplices
               exorámus; ut, pia jejunántium deprecatióne placátus, et præséntia
               nobis subsídia tríbuas et futúra. Per Dominum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó omnipotente e sempiterno Deus, que com o salutar remédio da
               abstinência curais as almas e os corpos, humildemente suplicamos à
               vossa majestade que, sendo Vós aplacado com as piedosas preces
@@ -55,11 +56,9 @@ export default function PagePent176() {
           <Text className="em">Lev. 23:26-32</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Levítici.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro Levítico.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Levítici.</Text>
+            <Text className="vernacular">Lição do Livro Levítico.</Text>
+            <Text className="latin">
               In diébus illis: Locútus est Dóminus ad Móysen, dicens: Décimo die
               mensis hujus séptimi, dies expiatiónum erit celebérrimus, et
               vocábitur sanctus: affligetísque ánimas vestras in eo, et
@@ -73,7 +72,7 @@ export default function PagePent176() {
               ánimas vestras die nono mensis: a véspera usque ad vésperam
               celebrábitis sábbata vestra: dicit Dóminus omnípotens.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele dias, falou o Senhor a Moisés, dizendo: «O décimo dia
               deste sétimo mês será o dia mais solene das expiações e será
               chamado santo. Nesse dia castigareis as vossas almas, oferecereis
@@ -95,26 +94,28 @@ export default function PagePent176() {
           <Text className="em">Sl 78:9-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes:
-              Ubi est Deus eórum? ℣. Adjuva nos, Deus, salutáris noster: et
-              propter honórem nóminis tui, Dómine, líbera nos.
+              Ubi est Deus eórum?<Text className="versicle"> ℣. </Text>Adjuva
+              nos, Deus, salutáris noster: et propter honórem nóminis tui,
+              Dómine, líbera nos.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Perdoai, Senhor, os nossos pecados, para que os povos não digam:
-              onde está o seu Deus? ℣. Vinde em nosso socorro, ó Deus, nosso
-              Salvador: Livrai-nos, Senhor, para a glória do vosso nome.
+              onde está o seu Deus?<Text className="versicle"> ℣. </Text>Vinde
+              em nosso socorro, ó Deus, nosso Salvador: Livrai-nos, Senhor, para
+              a glória do vosso nome.
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Da nobis, quǽsumus, omnípotens Deus: ut, jejunándo, tua grátia
               satiémur; et, abstinéndo, cunctis efficiámur hóstibus fortióres.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deus omnipotente, vos suplicamos, fazei que pelo nosso jejum
               sejamos saciados com a vossa graça, e que pela nossa abstinência
               nos tornemos mais fortes do que os nossos inimigos. Por nosso
@@ -127,11 +128,9 @@ export default function PagePent176() {
           <Text className="em">Lev. 23:39-43</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Levítici.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro Levítico.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Levítici.</Text>
+            <Text className="vernacular">Lição do Livro Levítico.</Text>
+            <Text className="latin">
               In diébus illis: Locútus est Dóminus ad Móysen, dicens: A
               quintodécimo die mensis séptimi, quando congregavéritis omnes
               fructus terræ vestræ, celebrábitis ferias Dómini septem diébus:
@@ -146,7 +145,7 @@ export default function PagePent176() {
               in tabernáculis habitáre fécerim fílios Israël, cum edúcerem eos
               de terra Ægýpti. Ego Dóminus, Deus vester.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, falou o Senhor a Moisés, dizendo: «No décimo quinto
               dia do sétimo mês, quando tiverdes recolhido os frutos da vossa
               terra, celebrareis as festas do Senhor, durante sete dias. O dia
@@ -169,25 +168,27 @@ export default function PagePent176() {
           <Text className="em">Sl 83:10, 9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Protéctor noster, áspice, Deus, et réspice super servos tuos. ℣.
+            <Text className="latin">
+              Protéctor noster, áspice, Deus, et réspice super servos tuos.
+              <Text className="versicle"> ℣. </Text>
               Dómine, Deus virtútum, exáudi preces servórum tuórum.
             </Text>
-            <Text className="text-base vernacular">
-              Olhai, ó Deus, nosso protector, olhai para os vossos servos. ℣. Ó
-              Senhor, Deus dos exércitos, ouvi as preces dos vossos servos.
+            <Text className="vernacular">
+              Olhai, ó Deus, nosso protector, olhai para os vossos servos.
+              <Text className="versicle"> ℣. </Text>Ó Senhor, Deus dos
+              exércitos, ouvi as preces dos vossos servos.
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tuére, quǽsumus, Dómine, fámiliam tuam: ut salútis ætérnæ remédia,
               quæ te inspiránte requírimus, te largiénte consequámur. Per
               Dominum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Protegei, Senhor, Vos pedimos, a vossa família, a fim de que os
               remédios da salvação eterna, que por vossa inspiração procurámos,
               nos sejam concedidos pela vossa liberdade. Por nosso Senhor...
@@ -199,11 +200,11 @@ export default function PagePent176() {
           <Text className="em">Mq 7:14, 16, 18-20</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Michææ Prophétæ.</Text>
-            <Text className="text-base vernacular">
+            <Text className="latin">Léctio Michææ Prophétæ.</Text>
+            <Text className="vernacular">
               Lição do livro do Profeta Miquéias.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Dómine, Deus noster, pasce pópulum tuum in virga tua, gregem
               hereditátis tuæ, habitántes solos in saltu, juxta dies antiquos.
               Vidébunt gentes, et confundéntur super omni fortitúdine sua. Quis
@@ -215,7 +216,7 @@ export default function PagePent176() {
               Abraham: quæ jurásti pátribus nostris a diébus antiquis: Dómine,
               Deus noster.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó senhor, nosso Deus, apascentai com o vosso báculo o vosso povo:
               o rebanho da vossa herança, que vive solitário na floresta, como
               nos dias passados. Os povos vê-lo-ão e ficarão confusos com tanto
@@ -235,24 +236,26 @@ export default function PagePent176() {
           <Text className="em">Sl 89:13, 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Convértere, Dómine, aliquántulum, et deprecáre super servos tuos.
-              ℣. Dómine, refúgium factus es nobis, a generatióne et progénie.
+              <Text className="versicle"> ℣. </Text>Dómine, refúgium factus es
+              nobis, a generatióne et progénie.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Volvei para nós vossos olhos, Senhor, e atendei aos vossos servos!
-              ℣. Senhor, tendes sido o nosso refúgio de geração em geração.
+              <Text className="versicle"> ℣. </Text>Senhor, tendes sido o nosso
+              refúgio de geração em geração.
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta, quǽsumus, Dómine, sic nos ab épulis abstinére carnálibus:
               ut a vítiis irruéntibus páriter jejunémus. Per Dominum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Fazei, Senhor, Vos suplicamos, que de tal modo nos afastemos dos
               alimentos carnais, que nos abstenhamos igualmente dos vícios, que
               nos cercam. Por nosso Senhor...
@@ -264,11 +267,9 @@ export default function PagePent176() {
           <Text className="em">Zc 8:14-19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Zacharíæ Prophétæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Profeta Zacarias.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Zacharíæ Prophétæ.</Text>
+            <Text className="vernacular">Lição do Profeta Zacarias.</Text>
+            <Text className="latin">
               In diébus illis: Factum est verbum Dómini ad me, dicens: Hæc dicit
               Dóminus exercítuum: Sicut cogitávi, ut afflígerem vos, cum ad
               iracúndiam provocássent patres vestri me, dicit Dóminus, et non
@@ -284,7 +285,7 @@ export default function PagePent176() {
               Juda in gáudium et lætítiam et in sollemnitátes præcláras:
               veritátem tantum et pacem dilígite: dicit Dóminus exercítuum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, o Senhor falou nestes termos: «Eis o que diz o
               Senhor dos exércitos: Como pensei castigar-vos quando vossos pais
               provocaram a minha indignação e não me arrependi; assim, agora,
@@ -307,25 +308,26 @@ export default function PagePent176() {
           <Text className="em">Sl 140:2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Dirigátur orátio mea sicut incénsum in conspéctu tuo, Dómine. ℣.
+            <Text className="latin">
+              Dirigátur orátio mea sicut incénsum in conspéctu tuo, Dómine.
+              <Text className="versicle"> ℣. </Text>
               Elevátio mánuum meárum sacrifícium vespertínum.
             </Text>
-            <Text className="text-base vernacular">
-              Eleve-se, como o incenso, a minha oração até Vós, Senhor. ℣. Que
-              as minhas mãos erguidas Vos sejam gratas, como o sacrifício da
-              tarde.
+            <Text className="vernacular">
+              Eleve-se, como o incenso, a minha oração até Vós, Senhor.
+              <Text className="versicle"> ℣. </Text>Que as minhas mãos erguidas
+              Vos sejam gratas, como o sacrifício da tarde.
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ut nobis, Dómine, tríbuis sollémne tibi deférre jejúnium: sic
               nobis, quǽsumus, indulgéntiæ præsta subsídium.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, assim como nos concedeis a graça de Vos oferecermos este
               jejum solene, assim também, Vos suplicamos, fazei-nos sentir a
               graça do auxílio da vossa indulgência. Por nosso Senhor...
@@ -337,11 +339,9 @@ export default function PagePent176() {
           <Text className="em">Dan 3:47-51</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Daniélis Prophétæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Profeta Daniel.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Daniélis Prophétæ.</Text>
+            <Text className="vernacular">Lição do Profeta Daniel.</Text>
+            <Text className="latin">
               In diébus illis: Angelus Dómini descéndit cum Azaría et sóciis
               ejus in fornácem: et excússit flammam ignis de fornáce, et fecit
               médium fornácis quasi ventum roris flantem. Flamma autem
@@ -352,7 +352,7 @@ export default function PagePent176() {
               uno ore laudábant, e glorificábant, et benedicébant Deum in
               fornáce, dicéntes:
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, o Anjo do Senhor desceu à fornalha com Azarias e os
               seus companheiros e afastou da fornalha as chamas do fogo,
               soprando no meio delas como que um vento de orvalho. As chamas do
@@ -375,11 +375,11 @@ export default function PagePent176() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui tribus púeris mitigásti flammas ígnium: concéde
               propítius; ut nos fámulos tuos non exúrat flamma vitiórum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que mitigastes as chamas do fogo aos três jovens,
               concedei-nos misericordiosamente que nós, vossos servos, não
               sejamos queimados pelas chamas dos vícios. Por nosso Senhor...
@@ -391,13 +391,13 @@ export default function PagePent176() {
           <Text className="em">Heb 9:2-12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebræos.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Tabernáculum factum est primum, in quo erant candelábra,
               et mensa, et proposítio panum, quæ dícitur Sancta. Post velaméntum
               autem secúndum, tabernáculum, quod dícitur Sancta sanctórum:
@@ -420,7 +420,7 @@ export default function PagePent176() {
               hircórum aut vitulórum, sed per próprium sánguinem introívit semel
               in Sancta, ætérna redemptióne invénta.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmão: Foi construído um tabernáculo, na primeira parte do
               qual estavam o candelabro, a mesa e os pães de proposição, cuja
               parte se chamava «Santuário». Atrás do segundo véu estava o
@@ -456,14 +456,16 @@ export default function PagePent176() {
           <Text className="em">Sl 116:1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli. ℣.
+            <Text className="latin">
+              Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli.
+              <Text className="versicle"> ℣. </Text>
               Quóniam confirmáta est super nos misericórdia ejus: et véritas
               Dómini manet in ætérnum.
             </Text>
-            <Text className="text-base vernacular">
-              Ó povos, louvai todos o Senhor, glorificai-O todos, ó povos. ℣. A
-              sua misericórdia é grande: e a sua verdade subsistirá sempre.
+            <Text className="vernacular">
+              Ó povos, louvai todos o Senhor, glorificai-O todos, ó povos.
+              <Text className="versicle"> ℣. </Text>A sua misericórdia é grande:
+              e a sua verdade subsistirá sempre.
             </Text>
           </View>
 
@@ -472,15 +474,15 @@ export default function PagePent176() {
           <Text className="em">Lc 13:6-17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dicébat Jesus turbis hanc similitúdinem: Arbórem
               fici habébat quidam plantátam in vínea sua, et venit quærens
               fructum in illa, et non invénit. Dixit autem ad cultórem víneæ:
@@ -505,7 +507,7 @@ export default function PagePent176() {
               adversárii ejus: et omnis pópulus gaudébat in univérsis, quæ
               glorióse fiébant ab eo.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus esta parábola à multidão: Certo homem
               plantara uma figueira na sua vinha. E, vindo buscar frutos, não os
               encontrou. Então, disse ao vinhateiro: «há três anos, já, que
@@ -538,11 +540,11 @@ export default function PagePent176() {
           <Text className="em">Sl 87:2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Dómine, Deus salútis meæ, in die clamávi et nocte coram te: intret
               orátio mea in conspéctu tuo, Dómine.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, meu Deus, e meu Salvador, dia e noite clamei por Vós. Que
               a minha oração, pois, Senhor, chegue à vossa presença.
             </Text>
@@ -551,12 +553,12 @@ export default function PagePent176() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Concéde, quǽsumus, omnípotens Deus: ut oculis tuæ majestátis munus
               oblátum et grátiam nobis devotiónis obtíneat, et efféctum beátæ
               perennitátis acquírat. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Concedei-nos, Vos suplicamos, ó omnipotente Deus, que este dom,
               apresentado diante de vossa divina majestade, nos alcance a graça
               da devoção e a posse da bem-aventurança eterna. Por nosso
@@ -569,12 +571,12 @@ export default function PagePent176() {
           <Text className="em">Lev 21:41, 43</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Mense séptimo festa celebrábitis, cum in tabernáculis habitáre
               fécerim fílios Israël, cum edúcerem eos de terra Ægýpti, ego
               Dóminus, Deus vester.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Celebrareis esta festa no sétimo mês, para que saibam os seus
               descendentes que fiz habitar nas tendas os filhos de Israel quando
               os tirei do Egipto.
@@ -584,12 +586,12 @@ export default function PagePent176() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Perfíciant in nobis, Dómine, quǽsumus, tua sacraménta quod
               cóntinent: ut, quæ nunc spécie gérimus, rerum veritáte capiámus.
               Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vos imploramos, Senhor, que os vossos sacramentos produzam em nós
               a graça que contêm, para que alcancemos a realidade do que
               celebrámos, agora, sob estas espécies. Por nosso Senhor...

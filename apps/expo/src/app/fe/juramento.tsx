@@ -11,56 +11,55 @@ export default function PageJuramento() {
           <Text className="h1">Juramento Anti-Modernista</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Ego <Text className="text-base latin">N.</Text> firmiter amplector
-              ac recipio omnia et singula, quæ ab inerranti Ecclesiæ magisterio
+            <Text className="latin">
+              Ego <Text className="latin">N.</Text> firmiter amplector ac
+              recipio omnia et singula, quæ ab inerranti Ecclesiæ magisterio
               definita, adserta ac dedarata sunt, præsertim ea doctrinæ capita,
               quæ huius temporis erroribus directo adversantur.
             </Text>
-            <Text className="text-base vernacular">
-              Eu, <Text className="text-base vernacular">N.</Text>, firmemente
-              aceito e creio em todas e em cada uma das verdades definidas,
-              afirmadas e declaradas pelo magistério infalível da Igreja,
-              sobretudo aqueles princípios doutrinais que contradizem
-              directamente os erros do tempo presente.
+            <Text className="vernacular">
+              Eu, <Text className="vernacular">N.</Text>, firmemente aceito e
+              creio em todas e em cada uma das verdades definidas, afirmadas e
+              declaradas pelo magistério infalível da Igreja, sobretudo aqueles
+              princípios doutrinais que contradizem directamente os erros do
+              tempo presente.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Ac primum quidem: Deum, rerum omnium principium et finem, naturali
               rationis lumine per ea quæ facta sunt{" "}
-              <Text className="text-base latin">(Rom 1, 20)</Text>, hoc est, per
-              visibilia creationis opera, tamquam causam per effectus, certo
-              cognosci, ideoque demonstrari etiam posse, profiteor.
+              <Text className="latin">(Rom 1, 20)</Text>, hoc est, per visibilia
+              creationis opera, tamquam causam per effectus, certo cognosci,
+              ideoque demonstrari etiam posse, profiteor.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Primeiro: creio que Deus, princípio e fim de todas as cousas, pode
               ser conhecido com certeza e pode também ser demonstrado, com as
               luzes da razão natural, nas obras por Ele realizadas{" "}
-              <Text className="text-base vernacular">(Cf. Rm I 20)</Text>, isto
-              é, nas criaturas visíveis, como (se conhece) a causa pelos seus
-              efeitos.
+              <Text className="vernacular">(Cf. Rm I 20)</Text>, isto é, nas
+              criaturas visíveis, como (se conhece) a causa pelos seus efeitos.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Secundo: externa revelationis argumenta, hoc est facta divina, in
               primisque miracula et prophetias admitto et agnosco tamquam signa
               certissima divinitus ortæ Christianæ religionis, eademque teneo
               ætatum omnium atque hominum, etiam huius temporis, intellegentiæ
               esse maxime accommodata.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Segundo: admito e reconheço as provas exteriores da revelação,
               isto é, as intervenções divinas, e sobretudo os milagres e as
               profecias, como sinais certíssimos da origem sobrenatural da razão
               cristã, e as considero perfeitamente adequadas a todos os homens
               de todos os tempos, inclusive aquele no qual vivemos.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Tertio: firma pariter fide credo Ecclesiam, verbi revelati
               custodem et magistram, per ipsum verum atque historicum Christum,
               cum apud nos degeret, proxime ac directo institutam eamdemque
               super Petrum, apostolicæ hierarchiæ principem, ejusque in ævum
               successores ædificatam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Terceiro: com a mesma firme fé creio que a Igreja, guardiã e
               mestra da palavra revelada, foi instituída imediatamente e
               directamente pelo próprio Cristo verdadeiro e histórico, enquanto
@@ -68,7 +67,7 @@ export default function PageJuramento() {
               hierarquia eclesiástica, e sobre os seus sucessores através dos
               séculos.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Quarto: fidei doctrinam ab apostolis per orthodoxos patres eodem
               sensu eademque semper sententia ad nos usque transmissam, sincere
               recipio; ideoque prorsus reicio hæreticum commentum evolutionis
@@ -79,7 +78,7 @@ export default function PageJuramento() {
               conscientiæ, hominum conatu sensim efformatæ et in posterum
               indefinito progressu perficiendæ.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Quarto: acolho sinceramente a doutrina da fé transmitida a nós
               pelos apóstolos através dos padres ortodoxos, sempre com o mesmo
               sentido e igual conteúdo, e rejeito totalmente a fantasiosa
@@ -91,7 +90,7 @@ export default function PageJuramento() {
               tivesse ido formando lentamente mediante esforços humanos e
               contínuo aperfeiçoamento, com um progresso indefinido.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Quinto: certissime teneo ac sincere profiteor, fidem non esse
               cæcum sensum religionis e latebris «subconscientiæ» erumpentem,
               sub pressione cordis et inflexionis voluntatis moraliter
@@ -100,7 +99,7 @@ export default function PageJuramento() {
               Domino nostro dicta, testata et revelata sunt, vera esse credimus,
               propter Dei auctoritatem summe veracis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Quinto: estou absolutamente convencido e sinceramente declaro que
               a fé não é um cego sentimento religioso que emerge da obscuridade
               do subconsciente por impulso do coração e inclinação da vontade
@@ -110,31 +109,31 @@ export default function PageJuramento() {
               pessoalmente, Deus, criador e senhor nosso, disse, atestou e
               revelou.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Me etiam, qua par est reverentia, subicio totoque animo adhæreo
               damnationibus, declarationibus, præscriptis omnibus, quæ in
               encyclicis litteris Pascendi et in decreto Lamentabili
               continentur, præsertim circa eam quam historiam dogmatum vocant.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Submeto-me também com o devido respeito, e de todo o coração adiro
               a todas as condenações, declarações e prescrições da encíclica
               Pascendi e do decreto Lamentabili, particularmente acerca da dita
               história dos dogmas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Idem reprobo errorem affirmantium, propositam ab Ecclesia fidem
               posse historiæ repugnare, et catholica dogmata, quo sensu nunc
               intelleguntur, cum verioribus Christianæ religionis originibus
               componi non posse.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Reprovo outrossim o erro de quem sustenta que a fé proposta pela
               Igreja pode ser contrária à história, e que os dogmas católicos,
               no sentido que hoje lhes é atribuído, são inconciliáveis com as
               reais origens da razão cristã.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Damno quoque ac reicio eorum sententiam, qui dicunt Christianum
               hominem eruditiorem induere personam duplicem, aliam credentis,
               aliam historici, quasi liceret historico ea retinere, quæ
@@ -142,7 +141,7 @@ export default function PageJuramento() {
               consequatur, dogmata esse aut falsa aut dubia, modo hæc directo
               non denegentur.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Desaprovo também e rejeito a opinião de quem pensa que o homem
               cristão mais instruído se reveste da dupla personalidade do crente
               e do histórico, como se ao histórico fosse lícito defender teses
@@ -150,21 +149,21 @@ export default function PageJuramento() {
               conclui que os dogmas são falsos ou dúbios, desde que não sejam
               positivamente negados.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Reprobo pariter eam Scripturæ sanctæ diiudicandæ atque
               interpretandæ rationem, quæ, Ecclesiæ traditione, analogia fidei
               et apostolicæ Sedis normis posthabitis, rationalistarum commentis
               inhæret, et criticam textus velut unicam supremamque regulam haud
               minus licenter quam temere amplectitur.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Condeno igualmente aquele sistema de julgar e de interpretar a
               sagrada Escritura que, desdenhando a tradição da Igreja, a
               analogia da fé e as normas da Sé apostólica, recorre ao método dos
               racionalistas e com desenvoltura não menos que audácia, aplica a
               crítica textual como regra única e suprema.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Sententiam præterea illorum reiicio, qui tenent, doctori
               disciplinæ historicæ theologicæ tradendæ aut iis de rebus
               scribenti seponendam prius esse opinionem ante conceptam sive de
@@ -175,7 +174,7 @@ export default function PageJuramento() {
               iudicii libertate, qua profana quævis monumenta solent
               investigari.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Refuto ainda a sentença de quem sustenta que o ensinamento de
               disciplinas histórico-teológicas ou quem delas trata por escrito
               deve inicialmente prescindir de qualquer ideia pré-concebida, seja
@@ -186,7 +185,7 @@ export default function PageJuramento() {
               religiosa, e com a mesma autonomia crítica admitida para o exame
               de qualquer outro documento profano.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In universum denique me alienissimum ab errore profiteor, quo
               modernistæ tenent in sacra traditione nihil inesse divini, aut,
               quad longe deterius, pantheistico sensu illud admittunt, ita ut
@@ -195,7 +194,7 @@ export default function PageJuramento() {
               ingenio scholam a Christo ejusque apostolis inchoatam per
               subsequentes ætates continuantium.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Declaro-me enfim totalmente alheio a todos os erros dos
               modernistas, segundo os quais na sagrada tradição não há nada de
               divino ou, pior ainda, admitem-no, mas em sentido panteísta,
@@ -204,7 +203,7 @@ export default function PageJuramento() {
               empenho, habilidade e engenho prolongam nas eras posteriores a
               escola inaugurada por Cristo e pelos apóstolos.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Proinde fidem patrum firmissime retineo et ad extremum vitæ
               spiritum retinebo, de charismate veritatis certo, quad est, fuit
               eritque semper in episcopatus ab apostolis successione, non ut id
@@ -213,7 +212,7 @@ export default function PageJuramento() {
               aliter intellegatur absoluta et immutabilis veritas ab initio per
               apostolos prædicata.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Mantenho, portanto, e até o último suspiro manterei a fé dos pais
               no carisma certo da verdade, que esteve, está e sempre estará na
               sucessão do episcopado aos apóstolos, não para que se assuma
@@ -222,13 +221,13 @@ export default function PageJuramento() {
               imutável, pregada no princípio pelos apóstolos, não seja jamais
               crida de modo diferente nem entendida de outro modo.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Hæc omnia spondeo me fideliter, integre sincereque servaturum et
               inviolabiliter custoditurum, nusquam ab us sive in docendo sive
               quomodolibet verbis scriptisque deflectendo. Sic spondeo, sic
               iuro, sic me Deus adiuvet, et hæc sancta Dei Evangelia.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Empenho-me em observar tudo isto fielmente, integralmente e
               sinceramente, e em guardá-lo inviolavelmente, sem jamais disso me
               separar nem no ensinamento nem em género algum de discursos ou de

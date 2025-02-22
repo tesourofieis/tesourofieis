@@ -23,12 +23,12 @@ export default function Page0809Outro2() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, intercedénte beáto Románo
               Mártyre tuo, et a cunctis adversitátibus liberémur in córpore, et
               a pravis cogitatiónibus mundémur in mente. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Fazei, ó Deus omnipotente, Vos rogamos, que pela intercessão do B.
               Romão, vosso Mártir, o nosso corpo seja livre de todas as
               adversidades e a nossa alma purificada dos maus pensamentos. Por
@@ -39,12 +39,12 @@ export default function Page0809Outro2() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
               cœléstibus nos munda mysteriis, et cleménter exáudi. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Havendo Vós, Senhor, aceitado as nossas ofertas e orações,
               dignai-Vos purificar-nos com vossos celestiais mystérios e
               ouvir-nos benignamente. Por nosso Senhor...
@@ -54,12 +54,12 @@ export default function Page0809Outro2() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, qui cœlestia aliménta percépimus,
               intercedénte beáto Románo Mártyre tuo, per hæc contra ómnia
               advérsa muniámur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vos suplicamos, ó omnipotente Deus, pela intercessão do B. Romão,
               vosso Mártir, que, havendo nós recebido os alimentos celestiais,
               sejamos, em virtude deles, fortalecidos contra todas as

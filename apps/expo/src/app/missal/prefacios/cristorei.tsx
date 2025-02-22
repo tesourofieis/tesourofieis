@@ -15,7 +15,7 @@ export default function PageCristorei() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
               Deus: Qui unigénitum Fílium tuum, Dóminum nostrum Jesum Christum,
@@ -29,7 +29,7 @@ export default function PageCristorei() {
               cumque omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus,
               sine fine dicéntes:
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               É verdadeiramente digno e justo, racional e salutar dar-Vos graças
               em todos os lugares e sempre, Senhor santo, Pai omnipotente,
               eterno Deus, que ungistes com o óleo da alegria o vosso Filho

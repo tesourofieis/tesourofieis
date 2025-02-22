@@ -14,7 +14,8 @@ export default function Page0909Angola() {
             O Senhor saciou a alma exausta: e aqueles que estavam nas trevas e
             nas sombras da morte; e os que estavam cativos pela indigência e em
             ferros. Glorificai o Senhor pela sua misericórdia: e pelas suas
-            maravilhas em favor dos filhos dos homens. ℣. Glória ao Pai...
+            maravilhas em favor dos filhos dos homens.
+            <Text className="versicle"> ℣. </Text>Glória ao Pai...
           </Text>
           <Text className="h3">Oração</Text>
           <Text className="text-base">

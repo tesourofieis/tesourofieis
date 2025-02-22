@@ -15,31 +15,31 @@ export default function PageEpi30() {
           <Text className="em">Sl. 96, 7-8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et
               exsultavérunt fíliæ Judae.{" "}
-              <Text className="text-base latin">Ps. ibid., 1</Text> Dóminus
-              regnávit, exsúltet terra: læténtur ínsulæ multæ. ℣. Gloria
-              Patri...
+              <Text className="latin">Ps. ibid., 1</Text> Dóminus regnávit,
+              exsúltet terra: læténtur ínsulæ multæ.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Adorai a Deus, ó vós, que sois os seus Anjos. Ouviu Sião e
               rejubilou: e as filhas de Judá exultaram de alegria.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 1</Text> O
-              Senhor reinou: alegre-se a terra e as suas muitas ilhas. ℣. Glória
-              ao Pai...
+              <Text className="vernacular">Sl. ibid., 1</Text> O Senhor reinou:
+              alegre-se a terra e as suas muitas ilhas.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnípotens sempitérne Deus, infirmitatem nostram propítius
               réspice: atque, ad protegéndum nos, déxteram tuæ majestátis
               exténde. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente e eterno, olhai benigno para a nossa fraqueza,
               e que a vossa majestade nos estenda a sua dextra para nos proteger
               continuamente. Por nosso Senhor...
@@ -51,13 +51,13 @@ export default function PageEpi30() {
           <Text className="em">Rm. 12, 16-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Nolíte esse prudéntes apud vosmetípsos: nulli malum pro
               malo reddéntes: providéntes bona non tantum coram Deo, sed étiam
               coram ómnibus homínibus. Si fíeri potest, quod ex vobis est, cum
@@ -68,7 +68,7 @@ export default function PageEpi30() {
               cóngeres super caput ejus. Noli vinci a malo, sed vince in bono
               malum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Não presumais que sois prudentes; não retribuais a
               ninguém o mal com o mal; antes praticai cuidadosamente o bem,
               tanto diante de Deus, como perante os homens. Vivei em paz com
@@ -87,25 +87,26 @@ export default function PageEpi30() {
           <Text className="em">Sl. 101, 16-17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam
-              tuam. ℣. Quóniam ædificávit Dóminus Sion, et vidébitur in
-              majestáte sua.
+              tuam.<Text className="versicle"> ℣. </Text>Quóniam ædificávit
+              Dóminus Sion, et vidébitur in majestáte sua.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               As nações temerão o vosso nome, Senhor; e todos os reis da terra
-              contemplarão a vossa glória. ℣. Pois o Senhor reedificou Sião: e
-              manifestar-se-á aí na sua majestade.
+              contemplarão a vossa glória.<Text className="versicle"> ℣. </Text>
+              Pois o Senhor reedificou Sião: e manifestar-se-á aí na sua
+              majestade.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 96, 1</Text> Dóminus
-              regnávit, exsúltet terra: læténtur ínsulæ multæ. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 96, 1</Text> Dóminus regnávit,
+              exsúltet terra: læténtur ínsulæ multæ. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Ps. 96, 1</Text> O Senhor
-              reinou: alegre-se a terra e as suas muitas ilhas. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Ps. 96, 1</Text> O Senhor reinou:
+              alegre-se a terra e as suas muitas ilhas. Aleluia.
             </Text>
           </View>
 
@@ -114,15 +115,15 @@ export default function PageEpi30() {
           <Text className="em">Mt. 8, 1-13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Cum descendísset Jesus de monte, secútæ sunt eum
               turbæ multæ: et ecce, leprósus véniens adorábat eum, dicens:
               Dómine, si vis, potes me mundáre. Et exténdens Jesus manum,
@@ -144,7 +145,7 @@ export default function PageEpi30() {
               erit fletus et stridor déntium. Et dixit Jesus centurióni: Vade
               et, sicut credidísti, fiat tibi. Et sanátus est puer in illa hora.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, descendo Jesus do monte, era acompanhado por
               numerosas pessoas. Eis que veio ter com Ele um leproso, adorando-O
               e dizendo-Lhe: «Senhor, se quiserdes, podeis curar-me». Então,
@@ -177,11 +178,11 @@ export default function PageEpi30() {
           <Text className="em">Sl. 117, 16 & 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Déxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non
               móriar, sed vivam, et narrábo ópera Dómini.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A dextra do Senhor mostrou o seu poder: a dextra do Senhor
               exaltou-me. Não morrerei: viverei e nanarei os prodígios do
               Senhor.
@@ -191,12 +192,12 @@ export default function PageEpi30() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad
               sacrifícium celebrándum, subditórum tibi córpora mentésque
               sanctíficet. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que esta hóstia, Senhor, Vos suplicamos, nos purifique dos nossos
               delitos, e santifique as almas e os corpos dos vossos súbditos,
               para que dignamente celebremos este sacrifício. Por nosso
@@ -209,10 +210,10 @@ export default function PageEpi30() {
           <Text className="em">Lc. 4, 22</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Mirabántur omnes de his, quæ procedébant de ore Dei.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Todos estavam admirados das palavras que saíam da boca de Deus.
             </Text>
           </View>
@@ -220,11 +221,11 @@ export default function PageEpi30() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quos tantis, Dómine, largíris uti mystériis: quǽsumus; ut
               efféctibus nos eórum veráciter aptáre dignéris. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, já que nos concedestes a graça de participarmos destes tão
               augustos mystérios, tornai-nos dignos, Vos suplicamos, de
               recebermos com eficácia os seus efeitos. Por nosso Senhor...

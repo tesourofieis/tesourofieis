@@ -23,11 +23,11 @@ export default function Page0909() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sanctus tuus, Dómine, Gorgónius sua nos intercessióne lætíficet:
               et pia fáciat sollemnitáte gaudére. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Alegre-nos, Senhor, o vosso Santo Gorgónio com sua intercessão; e
               nos faça sentir o gozo desta pia solenidade. Por nosso Senhor...
             </Text>
@@ -36,11 +36,11 @@ export default function Page0909() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Grata tibi sit, Dómine, nostræ servitútis oblátio: pro qua sanctus
               Gorgónius Martyr intervéntor exsístat. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que Vos seja agradável, Senhor, a oferta da nossa servidão, a qual
               Vo-la apresentamos pela intervenção do Santo Mártir Gorgónio. Por
               nosso Senhor...
@@ -50,12 +50,12 @@ export default function Page0909() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Famíliam tuam, Deus, suávitas ætérna contíngat et végetet: quæ in
               Mártyre tuo Gorgónio Christi, Fílii tui, bono júgiter odóre
               pascátur: Qui tecum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que a vossa família, ó Deus, seja alimentada e fortalecida com as
               delícias eternas; e que pelo vosso S. Mártir Gorgónio ela se
               alimente incessantemente com o bom odor de vosso Filho Jesus

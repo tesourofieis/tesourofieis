@@ -37,14 +37,14 @@ export default function Page0723() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, fidélium remunerátor animárum, qui hunc diem beáti
               Apollináris Sacerdótis tui martýrio consecrásti: tríbue nobis,
               quǽsumus, fámulis tuis; ut, cujus venerándam celebrámus
               festivitátem, précibus ejus indulgéntiam consequámur. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, remunerador das almas fiéis, que consagrastes este dia com
               o martírio do B. Apolinário, vosso Sacerdote, fazei que estes
               vossos servos alcancem a indulgência das suas faltas, pelas preces
@@ -57,13 +57,9 @@ export default function Page0723() {
           <Text className="em">1 Pe. 5, 1-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Léctio Epístolæ beáti Petri Apóstoli.
-            </Text>
-            <Text className="text-base vernacular">
-              Lição da Ep.ª do B. Ap.º Pedro.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
+            <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
+            <Text className="latin">
               Caríssimi: Senióres, qui in vobis sunt, obsecro, consénior et
               testis Christi passiónum: qui et ejus, quae in futúro revelánda
               est, glóriæ communicátor: páscite qui in vobis est gregem Dei,
@@ -84,7 +80,7 @@ export default function Page0723() {
               perfíciet, confirmábit solidabítque. Ipsi glória et impérium in
               sǽcula sæculórum. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Caríssimos: Aos sacerdotes, que estão entre vós, rogo eu,
               sacerdote, como eles, e testemunha dos sofrimentos de Cristo, e,
               além disso, participante da glória, que deve ser manifestada:
@@ -115,27 +111,29 @@ export default function Page0723() {
           <Text className="em">Sl. 88, 21-23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
-              auxiliábitur ei, et bráchium meum confortábit eum. ℣. Nihil
-              profíciet inimícus in eo, et fílius iniquitátis non nocébit ei.
+              auxiliábitur ei, et bráchium meum confortábit eum.
+              <Text className="versicle"> ℣. </Text>Nihil profíciet inimícus in
+              eo, et fílius iniquitátis non nocébit ei.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Encontrei o meu servo David e ungi-o com meu óleo sagrado: a minha
-              mão o auxiliará e o meu braço o fortalecerá. ℣. O inimigo não terá
-              nele domínio algum; o filho da iniquidade não poderá prejudicá-lo.
+              mão o auxiliará e o meu braço o fortalecerá.
+              <Text className="versicle"> ℣. </Text>O inimigo não terá nele
+              domínio algum; o filho da iniquidade não poderá prejudicá-lo.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 109, 4</Text> Jurávit
-              Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum, secúndum
-              órdinem Melchísedech. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 109, 4</Text> Jurávit Dóminus, et non
+              pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem
+              Melchísedech. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Ps. 109, 4</Text> Jurou o
-              Senhor e não se arrependerá: tu és sacerdote para sempre segundo a
-              ordem de Melquisedeque. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Ps. 109, 4</Text> Jurou o Senhor e
+              não se arrependerá: tu és sacerdote para sempre segundo a ordem de
+              Melquisedeque. Aleluia.
             </Text>
           </View>
 
@@ -144,15 +142,15 @@ export default function Page0723() {
           <Text className="em">Lc. 22, 24-30</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Facta est conténtio inter discípulos, quis eórum
               viderétur esse major. Dixit autem eis Jesus: Reges géntium
               dominántur eórum; et qui potestátem habent super eos, benéfici
@@ -165,7 +163,7 @@ export default function Page0723() {
               bibátis super mensam meam in regno meo: et sedeátis super thronos,
               judicántes duódecim tribus Israël.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, levantou-se entre os discípulos uma contenda acerca
               de qual deles devia ser considerado o maior. Jesus disse-lhes: «Os
               reis das nações as dominam com sua autoridade, e aqueles que têm
@@ -186,11 +184,11 @@ export default function Page0723() {
           <Text className="em">Sl. 88, 25</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Véritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A minha fidelidade e a minha misericórdia estarão com ele: e por
               virtude de meu nome será exaltado o seu poder.
             </Text>
@@ -199,12 +197,12 @@ export default function Page0723() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Réspice, Dómine, propítius super hæc múnera: quæ pro beáti
               Sacerdótis et Martyris tui Apollináris commemoratióne deférimus,
               et pro nostris offensiónibus immolámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Olhai propício, Senhor, para os dons que vos apresentamos em
               memória do vosso B. Sacerdote e Mártir Apolinário, os quais Vos
               oferecemos em sacrifício de expiação pelas nossas ofensas. Por
@@ -217,13 +215,13 @@ export default function Page0723() {
           <Text className="em">Mt. 25, 20 & 21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Dómine, quinque talénta tradidísti mihi, ecce, ália quinque
               superlucrátus sum. Euge, serve bone et fidélis, quia in pauca
               fuísti fidélis, supra multa te constítuam, intra in gáudium Dómini
               tui.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Entregastes-me, Senhor, cinco talentos; eis outros cinco que
               lucrei. Muito bem, servo fiel e bom. Porque foste fiel em bens de
               pouca importância, eu te estabelecerei sobre bens mais
@@ -234,12 +232,12 @@ export default function Page0723() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tua sancta suméntes, quǽsumus, Dómine, ut beáti Apollináris nos
               fóveant continuáta præsídia: quia non désinis propítius intuéri,
               quos tálibus auxíliis concésseris adjuvári. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Tendo participado dos vossos sacrossantos mystérios, Vos
               suplicamos, Senhor, queirais defender-nos sempre com a protecção
               do B. Apolinário, pois não cessais de olhar propício para aqueles

@@ -15,31 +15,31 @@ export default function PageQuad26() {
           <Text className="em">Sl. 18, 8</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Lex Dómini irreprehensíbilis, convértens ánimas: testimónium
               Dómini fidéle, sapiéntiam præstans párvulis.{" "}
-              <Text className="text-base latin">Ps. ibid., 2</Text> Cœli
-              enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
-              ℣. Gloria Patri...
+              <Text className="latin">Ps. ibid., 2</Text> Cœli enárrant glóriam
+              Dei: et ópera mánuum ejus annúntiat firmaméntum.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A lei do Senhor é perfeita e converte as almas; o testemunho do
               Senhor é digno de fé e ensina os ignorantes.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 2</Text> Os céus
-              publicam a glória do Senhor e o firmamento anuncia as obras das
-              suas mãos. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. ibid., 2</Text> Os céus publicam
+              a glória do Senhor e o firmamento anuncia as obras das suas mãos.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Da, quǽsumus, Dómine, nostris efféctum jejúniis salutárem: ut
               castigátio carnis assúmpta, ad nostrárum vegetatiónem tránseat
               animárum. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dai, Senhor, Vos suplicamos, aos nossos jejuns efeitos salutares,
               para que a mortificação que fazemos na carne seja proveitosa à
               saúde das nossas almas. Por nosso Senhor...
@@ -51,11 +51,9 @@ export default function PageQuad26() {
           <Text className="em">Gn. 27, 6-40</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Genesis.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro do Génesis.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Genesis.</Text>
+            <Text className="vernacular">Lição do Livro do Génesis.</Text>
+            <Text className="latin">
               In diébus illis: Dixit Rebécca fílio suo Jacob: Audívi patrem tuum
               loquéntem cum Esau fratre tuo, et dicéntem ei: Affer mihi de
               venatióne tua, et fac cibos, ut comédam et benedícam tibi coram
@@ -117,7 +115,7 @@ export default function PageQuad26() {
               benedícas. Cumque ejulátu magno fleret, motus Isaac, dixit ad eum:
               In pinguédine terræ, et in rore cœli désuper erit benedíctio tua.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, disse Rebeca a seu filho Jacob: «Ouvi teu pai, que
               falava com teu irmão Esaú e lhe dizia: «Dá-me alguma coisa da tua
               caça e prepara-a, para que eu a coma. Depois abençoar-te-ei,
@@ -191,14 +189,16 @@ export default function PageQuad26() {
           <Text className="em">Sl. 91, 2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Bonum est confitéri Dómino: et psállere nómini tuo, Altíssime. ℣.
+            <Text className="latin">
+              Bonum est confitéri Dómino: et psállere nómini tuo, Altíssime.
+              <Text className="versicle"> ℣. </Text>
               Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per
               noctem.
             </Text>
-            <Text className="text-base vernacular">
-              É bom louvar o Senhor e cantar o vosso nome, ó Altíssimo. ℣. Para
-              anunciar de manhã a vossa misericórdia e de noite a vossa verdade.
+            <Text className="vernacular">
+              É bom louvar o Senhor e cantar o vosso nome, ó Altíssimo.
+              <Text className="versicle"> ℣. </Text>Para anunciar de manhã a
+              vossa misericórdia e de noite a vossa verdade.
             </Text>
           </View>
 
@@ -207,15 +207,15 @@ export default function PageQuad26() {
           <Text className="em">Lc. 15, 11-32</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus pharisǽis et scribis parábolam istam:
               Homo quidam hábuit duos fílios, et dixit adolescéntior ex illis
               patri: Pater, da mihi portiónem substántiæ, quæ me cóntingit. Et
@@ -255,7 +255,7 @@ export default function PageQuad26() {
               frater tuus hic mórtuus erat, et revíxit: períerat, et invéntus
               est.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus esta parábola aos fariseus e escribas:
               «Um homem tinha dois filhos, dos quais o mais novo disse ao pai:
               «Dá-me a parte da herança que me pertence». O pai dividiu, então,
@@ -303,11 +303,11 @@ export default function PageQuad26() {
           <Text className="em">Sl. 12, 4-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Illúmina óculos meos, ne umquam obdórmiam in morte: ne quando
               dicat inimícus meus: Præválui advérsus eum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Iluminai os meus olhos para que eu nunca adormeça na morte. Que
               nunca o meu inimigo diga: prevaleci contra ele.
             </Text>
@@ -316,11 +316,11 @@ export default function PageQuad26() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               His sacrifíciis, Dómine, concéde placátus: ut, qui própriis orámus
               absólvi delíctis, non gravémur extérnis. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deixai-Vos aplacar, Senhor, com estes sacrifícios, a fim de que
               nós, que Vos pedimos perdão das nossas faltas, nos não vejamos
               sobrecarregados com as dos outros. Por nosso Senhor...
@@ -332,11 +332,11 @@ export default function PageQuad26() {
           <Text className="em">Lc. 15, 32</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Opórtet te, fili, gaudére, quia frater tuus mórtuus fúerat, et
               revíxit: períerat, et invéntus est.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Convém que te alegres, filho, porque o teu irmão estava morto, e
               voltou à vida; estava perdido, e foi encontrado.
             </Text>
@@ -345,11 +345,11 @@ export default function PageQuad26() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sacraménti tui, Dómine, divína libátio, penetrália nostri cordis
               infúndat: et sui nos partícipes poténter effíciat. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que a divina libação do vosso Sacramento, Senhor, penetre até ao
               íntimo do nosso coração e nos torne eficazmente participantes da
               sua graça. Por nosso Senhor...
@@ -359,24 +359,22 @@ export default function PageQuad26() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">Orémus.</Text>
+            <Text className="latin">
+              <Text className="latin">Orémus.</Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">Oremos.</Text>
+            <Text className="vernacular">
+              <Text className="vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base latin">
-              Humiliáte cápita vestra Deo.
-            </Text>
-            <Text className="text-base vernacular">
+            <Text className="latin">Humiliáte cápita vestra Deo.</Text>
+            <Text className="vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi: ut, quæ
               in sola spe grátiæ cœléstis innítitur, cœlésti étiam protectióne
               muniátur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Guardai, Senhor, a vossa família, Vos suplicamos, com vossa
               contínua bondade, a fim de que, confiando no auxílio único da
               graça celestial, seja sempre munida com vossa celestial protecção.

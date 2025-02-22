@@ -35,31 +35,32 @@ export default function Page0702() {
           <Text className="em">Sedulius</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Salve, sancta Parens, eníxa puérpera Regem: qui cælum terrámque
               regit in sǽcula sæculórum.{" "}
-              <Text className="text-base latin">Ps. 44, 2</Text> Eructávit cor
-              meum verbum bonum: dico ego ópera mea Regi. ℣. Gloria Patri...
+              <Text className="latin">Ps. 44, 2</Text> Eructávit cor meum verbum
+              bonum: dico ego ópera mea Regi.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Salve, ó Santa Virgem Maria, em cujo seio foi gerado o Rei que
               governa o céu e a terra, em todos os séculos dos séculos.{" "}
-              <Text className="text-base vernacular">Sl. 44, 2</Text> Meu
-              coração exprimiu uma excelente palavra: Consagro ao Rei as minhas
-              obras! ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 44, 2</Text> Meu coração exprimiu
+              uma excelente palavra: Consagro ao Rei as minhas obras!
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Fámulis tuis, quǽsumus, Dómine, cœléstis grátiæ munus impertíre:
               ut, quibus beátæ Vírginis partus éxstitit salútis exórdium;
               Visitatiónis ejus votiva sollémnitas, pacis tríbuat increméntum.
               Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos suplicamos, concedei aos vossos servos o dom da graça
               celestial; e, como o parto da B. Virgem foi o início da salvação,
               permiti que a piedosa solenidade da Visitação lhes proporcione
@@ -72,13 +73,13 @@ export default function Page0702() {
           <Text className="em">S. S. Mártires</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui nos sanctórum Mártyrum tuórum Proéssi et Martiniáni
               gloriósis confessiónibus circúmdas et prótegis: da nobis et eórum
               imitatióne profícere, et intercessióne gaudére. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que pelas gloriosas profissões de fé dos vossos Santos
               Mártires Processo e Martiniano nos defendeis e protegeis,
               concedei-nos a graça de aproveitarmos com seus exemplos e de nos
@@ -91,11 +92,9 @@ export default function Page0702() {
           <Text className="em">Ct. 2, 8-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro da Sabedoria.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
+            <Text className="latin">
               Ecce, iste venit sáliens in móntibus, transíliens colles; símilis
               est diléctus meus cápreæ hinnulóque cervórum. En, ipse stat post
               paríetem nostrum, respíciens per fenéstras, prospíciens per
@@ -109,7 +108,7 @@ export default function Page0702() {
               tuam, sonet vox tua in áuribus meis: vox enim tua dulcis et fácies
               tua decóra.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eis que ele vem, galgando montes e transpondo outeiros! Meu amado
               é semelhante ao gamo e ao filho das corças. Eis que ele vem por
               detrás da nossa parede, olhando pelas janelas e espreitando pelas
@@ -129,26 +128,29 @@ export default function Page0702() {
           <Text className="h3">Gradual</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris
-              invénta es Mater Salvatóris. ℣. Virgo, Dei Génetrix, quem totus
-              non capit orbis, in tua se clausit víscera factus homo.
+              invénta es Mater Salvatóris.<Text className="versicle"> ℣. </Text>
+              Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit
+              víscera factus homo.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bendita e venerável sois, ó Virgem Maria, que fostes Mãe do
-              Salvador sem a vossa pureza sofrer a mais leve mancha. ℣. Ó
-              Virgem, Mãe de Deus, Aquele a quem todo o universo é incapaz de
-              conter, esteve encerrado no vosso seio, quando se fez homem.
+              Salvador sem a vossa pureza sofrer a mais leve mancha.
+              <Text className="versicle"> ℣. </Text>Ó Virgem, Mãe de Deus,
+              Aquele a quem todo o universo é incapaz de conter, esteve
+              encerrado no vosso seio, quando se fez homem.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣. Felix es, sacra Virgo María, et omni laude
-              digníssima: quia ex te ortus est sol justítiæ, Christus, Deus
-              noster. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Felix es,
+              sacra Virgo María, et omni laude digníssima: quia ex te ortus est
+              sol justítiæ, Christus, Deus noster. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣. Bem-aventurada sois, ó santa Virgem Maria: e
-              digna de todos os louvores, pois de vós nasceu o sol da justiça,
-              Cristo, nosso Deus. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              Bem-aventurada sois, ó santa Virgem Maria: e digna de todos os
+              louvores, pois de vós nasceu o sol da justiça, Cristo, nosso Deus.
+              Aleluia.
             </Text>
           </View>
 
@@ -157,15 +159,15 @@ export default function Page0702() {
           <Text className="em">Lc. 1, 39-47</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Exsúrgens María ábiit in montána cum festinatióne
               in civitátem Juda: et intrávit in domum Zacharíæ et salutávit
               Elísabeth. Et factum est, ut audivit salutatiónem Maríæ Elísabeth,
@@ -178,7 +180,7 @@ export default function Page0702() {
               dicta sunt tibi a Dómino. Et ait María: Magníficat ánima mea
               Dóminum: et exsultávit spíritus meus in Deo, salutári meo.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, levantando-se Maria, foi apressadamente às
               montanhas de uma cidade de Judá. Aí entrou em casa de Zacarias e
               saudou Isabel. Logo que Isabel ouviu a saudação de Maria, saltou a
@@ -197,11 +199,11 @@ export default function Page0702() {
           <Text className="h3">Ofertório</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Beáta es, Virgo María, quæ ómnium portásti Creatórem: genuísti,
               qui te fecit, et in ætérnum pérmanes Virgo.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bem-aventurada sois, ó Virgem Maria, pois trouxestes no vosso seio
               o Criador de todas as coisas. Gerastes Aquele que vos criou: e
               permaneceis eternamente Virgem.
@@ -211,14 +213,14 @@ export default function Page0702() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Unigéniti tui, Dómine, nobis succúrrat humánitas: ut, qui, natus
               de Vírgine, Matris integritátem non mínuit, sed sacrávit; in
               Visitatiónis ejus sollémniis, nostris nos piáculis éxuens,
               oblatiónem nostram tibi fáciat accéptam Jesus Christus, Dóminus
               noster: Qui tecum vivit...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que a humanidade do vosso Filho Unigénito, Senhor, nos socorra; e,
               assim como Ele, nascendo de uma Virgem, não alterou a pureza de
               sua mãe mas antes a consagrou, assim também, neste dia solene da
@@ -233,11 +235,11 @@ export default function Page0702() {
           <Text className="em">S. S. Mártires</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Súscipe, Dómine, preces et múnera: quæ ut tuo sint digna
               conspéctu. Sanctórum tuórum précibus adjuvémur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aceitai, Senhor, as nossas preces e oblatas; e para que elas se
               tornem dignas de Vos serem apresentadas, fazei que nos auxiliem as
               preces dos vossos Santos. Por nosso Senhor...
@@ -247,11 +249,11 @@ export default function Page0702() {
           <Text className="h3">Comúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris
               Fílium.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bem-aventuradas as entranhas da Virgem Maria, onde esteve
               encerrado o Filho do Pai Eterno.
             </Text>
@@ -260,12 +262,12 @@ export default function Page0702() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Súmpsimus, Dómine, celebritátis ánnuæ votiva sacraménta: præsta,
               quǽsumus; ut et temporális vitæ nobis remédia prǽbeant et ætérnæ.
               Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Recebemos, Senhor, os mystérios que Vos são apresentados nesta
               festa anual; e dignai-Vos permitir, Vos suplicamos, que nos sirvam
               de remédio durante o tempo presente e na eternidade. Por nosso
@@ -278,12 +280,12 @@ export default function Page0702() {
           <Text className="em">S. S. Mártires</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Córporis sacri et pretiósi Sánguinis repléti libámine, quǽsumus,
               Dómine, Deus noster: ut, quod pia devotióne gérimus, certa
               redemptióne capiámus. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Cumulados de bens pelo sacrifício do sagrado Corpo e do Sangue
               precioso do Salvador, Vos suplicamos, ó Senhor, nosso Deus, fazei
               que os mystérios, que com piedade recebemos, nos assegurem os

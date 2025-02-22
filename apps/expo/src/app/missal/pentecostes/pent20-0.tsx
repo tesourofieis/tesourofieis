@@ -15,32 +15,33 @@ export default function PagePent200() {
           <Text className="em">Dn. 3, 31, 29 & 35</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnia, quæ fecísti nobis, Dómine, in vero judício fecísti, quia
               peccávimus tibi et mandátis tuis non obœdívimus: sed da glóriam
               nómini tuo, et fac nobíscum secúndum multitúdinem misericórdiæ
-              tuæ. <Text className="text-base latin">Ps. 118, 1</Text> Beáti
-              immaculáti in via: qui ámbulant in lege Dómini. ℣. Gloria Patri...
+              tuæ. <Text className="latin">Ps. 118, 1</Text> Beáti immaculáti in
+              via: qui ámbulant in lege Dómini.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Tudo quanto fizestes contra nós, Senhor, foi com justiça, pois
               pecámos e não Obedecemos aos vossos mandamentos; mas glorificai o
               vosso nome e tratai-nos segundo a grandeza da vossa misericórdia.{" "}
-              <Text className="text-base vernacular">Sl. 118, 1</Text>{" "}
-              Bem-aventurados aqueles cuja vida é imaculada: aqueles que
-              praticam a Lei do Senhor. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 118, 1</Text> Bem-aventurados
+              aqueles cuja vida é imaculada: aqueles que praticam a Lei do
+              Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Largíre, quǽsumus, Dómine, fidélibus tuis indulgéntiam placátus et
               pacem: ut páriter ab ómnibus mundéntur offénsis, et secúra tibi
               mente desérviant. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Compadecei-Vos dos vossos fiéis, Senhor, e dignai-Vos
               conceder-lhes o perdão e a paz, a fim de que, havendo sido limpos
               de suas faltas, possam servir-Vos com toda a confiança. Por nosso
@@ -53,13 +54,13 @@ export default function PagePent200() {
           <Text className="em">Ef. 5, 15-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Vidéte, quómodo caute ambulétis: non quasi insipiéntes,
               sed ut sapiéntes, rediméntes tempus, quóniam dies mali sunt.
               Proptérea nolíte fíeri imprudéntes, sed intellegéntes, quae sit
@@ -70,7 +71,7 @@ export default function PagePent200() {
               nómine Dómini nostri Jesu Christi, Deo et Patri. Subjecti ínvicem
               in timóre Christi.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Tende cuidado de vos conduzirdes com prudência, não
               como insensatos, mas como prudentes, aproveitando o tempo, pois os
               dias são maus. Assim, pois, não sejais imprudentes, mas procurai
@@ -89,27 +90,27 @@ export default function PagePent200() {
           <Text className="em">Sl. 144, 15-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Oculi ómnium in te sperant, Dómine: et tu das illis escam in
-              témpore opportúno. ℣. Aperis tu manum tuam: et imples omne ánimal
-              benedictióne.
+              témpore opportúno.<Text className="versicle"> ℣. </Text>Aperis tu
+              manum tuam: et imples omne ánimal benedictióne.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Todos os olhares se volvem para Vós, Senhor; a todos os entes dais
-              alimento em tempo conveniente. ℣. Abris as mãos e encheis de
-              bênçãos tudo o que tem vida.
+              alimento em tempo conveniente.
+              <Text className="versicle"> ℣. </Text>
+              Abris as mãos e encheis de bênçãos tudo o que tem vida.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 107, 2</Text> Parátum cor
-              meum, Deus, parátum cor meum: cantábo, et psallam tibi, glória
-              mea. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 107, 2</Text> Parátum cor meum, Deus,
+              parátum cor meum: cantábo, et psallam tibi, glória mea. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 107, 2</Text> Meu
-              coração está preparado, ó Deus; o meu coração está preparado:
-              cantarei vossos louvores, ó Vós, que sois a minha glória. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 107, 2</Text> Meu coração está
+              preparado, ó Deus; o meu coração está preparado: cantarei vossos
+              louvores, ó Vós, que sois a minha glória. Aleluia.
             </Text>
           </View>
 
@@ -118,15 +119,15 @@ export default function PagePent200() {
           <Text className="em">Jo. 4, 46-53</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Erat quidam régulus, cujus fílius infirmabátur
               Caphárnaum. Hic cum audísset, quia Jesus adveníret a Judǽa in
               Galilǽam, ábiit ad eum, et rogábat eum, ut descénderet et sanáret
@@ -141,7 +142,7 @@ export default function PagePent200() {
               illa hora erat, in qua dixit ei Jesus: Fílius tuus vivit: et
               crédidit ipse et domus ejus tota.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, havia um oficial em Cafarnaum, cujo filho estava
               enfermo. Tendo ele sabido que Jesus vinha da Judeia para a
               Galileia, foi ter com Ele, rogando-Lhe que fosse a sua casa curar
@@ -164,11 +165,11 @@ export default function PagePent200() {
           <Text className="em">Sl. 136, 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Super flúmina Babylónis illic sédimus et flévimus: dum
               recordarémur tui, Sion.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Junto das margens dos rios da Babilónia nos assentámos, chorando
               as recordações do vosso passado, ó Sião.
             </Text>
@@ -177,11 +178,11 @@ export default function PagePent200() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Cœléstem nobis prǽbeant hæc mystéria, quǽsumus, Dómine, medicínam:
               et vítia nostri cordis expúrgent. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que estes mystérios, Senhor, nos sirvam de remédio celestial, Vos
               suplicamos, e purifiquem os nossos corações de todas nossas
               iniquidades. Por nosso Senhor...
@@ -193,11 +194,11 @@ export default function PagePent200() {
           <Text className="em">Sl. 118, 49-50</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Meménto verbi tui servo tuo, Dómine, in quo mihi spem dedísti: hæc
               me consoláta est in humilitáte mea.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lembrai-Vos da vossa promessa ao vosso servo, Senhor, na qual
               tenho esperado com toda a confiança: é ela que me consola na minha
               humilhação.
@@ -207,11 +208,11 @@ export default function PagePent200() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ut sacris, Dómine, reddámur digni munéribus: fac nos, quǽsumus,
               tuis semper obœdíre mandátis. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, permiti que para sermos dignos dos vossos sacratíssimos
               mystérios obedeçamos sempre aos vossos mandamentos. Por nosso
               Senhor...

@@ -3836,8 +3836,8 @@ export default function PageCatecismo() {
             <Text className="em">Dos Mandamentos da Lei de Deus em geral</Text>
           </Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">
+            <Text className="latin">
+              <Text className="latin">
                 A lei do Senhor, que é imaculada, converte as almas; o
                 testemunho do Senhor é fiel, dá sabedoria aos pequeninos.
                 {"\n"}
@@ -3856,8 +3856,8 @@ export default function PageCatecismo() {
                 Salmo 18, 8-12
               </Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">
+            <Text className="vernacular">
+              <Text className="vernacular">
                 Lex Domini inmaculata convertens animas testimonium Domini
                 fidele sapientiam praestans parvulis.
                 {"\n"}
@@ -3876,23 +3876,23 @@ export default function PageCatecismo() {
                 Psalmus XVIII, 8-12
               </Text>
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-base latin">
+            <Text className="latin">
+              <Text className="latin">
                 Bem-aventurados os que se conservam sem mácula no caminho, os
                 que andam na lei do Senhor.
                 {"\n"}
                 Salmo 118, 1
               </Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">
+            <Text className="vernacular">
+              <Text className="vernacular">
                 Beati inmaculati in via Qui ambulant in lege Domini.
                 {"\n"}
                 Psalmus CXVIII, 1
               </Text>
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-base latin">
+            <Text className="latin">
+              <Text className="latin">
                 De todo o meu coração te busquei; não me deixes transviar dos
                 teus mandamentos.
                 {"\n"}
@@ -3903,8 +3903,8 @@ export default function PageCatecismo() {
                 Salmo 118, 10-12
               </Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">
+            <Text className="vernacular">
+              <Text className="vernacular">
                 In toto corde meo exquisivi te non repellas me a mandatistuis.
                 {"\n"}
                 In corde meo abscondi elo quia tua ut non peccem tibi.
@@ -3914,8 +3914,8 @@ export default function PageCatecismo() {
                 Psalmus CXVIII, 10-12
               </Text>
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-base latin">
+            <Text className="latin">
+              <Text className="latin">
                 Deleitei-me no caminho das tuas ordens, tanto como em todas as
                 riquezas.
                 {"\n"}
@@ -3933,8 +3933,8 @@ export default function PageCatecismo() {
                 Salmo 118, 14-18
               </Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">
+            <Text className="vernacular">
+              <Text className="vernacular">
                 In via testimoniorum tuorum delectatus sum sicut in omnibus
                 divitiis
                 {"\n"}
@@ -3949,23 +3949,23 @@ export default function PageCatecismo() {
                 Psalmus CXVIII, 14-18
               </Text>
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-base latin">
+            <Text className="latin">
+              <Text className="latin">
                 Minha alma desejou ansiosa em todo o tempo as tuas justas leis.
                 {"\n"}
                 Salmo 118, 20
               </Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">
+            <Text className="vernacular">
+              <Text className="vernacular">
                 Concupivit anima mea desider ar eiustificationes tuas in omni
                 tempore
                 {"\n"}
                 Psalmus CXVIII, 20
               </Text>
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-base latin">
+            <Text className="latin">
+              <Text className="latin">
                 Dá-me inteligência, e estudarei a tua lei, e a guardarei de todo
                 o meu coração.
                 {"\n"}
@@ -3981,8 +3981,8 @@ export default function PageCatecismo() {
                 Salmo 118, 34-37
               </Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">
+            <Text className="vernacular">
+              <Text className="vernacular">
                 Da mihi intellectum et scrutabor legem tuam et custodiam illam
                 in toto corde meo.
                 {"\n"}
@@ -3995,8 +3995,8 @@ export default function PageCatecismo() {
                 Psalmus CXVIII, 34-37
               </Text>
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-base latin">
+            <Text className="latin">
+              <Text className="latin">
                 Meditarei nos teus mandamentos, que eu amo.
                 {"\n"}
                 Levantarei as minhas mãos para os teus mandamentos, que eu amo,
@@ -4005,8 +4005,8 @@ export default function PageCatecismo() {
                 Salmo 118, 47-48
               </Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">
+            <Text className="vernacular">
+              <Text className="vernacular">
                 Et meditabar in mandatis tuis quae dilexi.
                 {"\n"}
                 Et levavi manus meas ad mandata quae dilexi et exercebar in

@@ -17,33 +17,34 @@ export default function PagePent110() {
           <Text className="em">Sl. 67, 6-7 & 36 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus in loco sancto suo: Deus qui inhabitáre facit unánimes in
               domo: ipse dabit virtútem et fortitúdinem plebi suæ.{" "}
-              <Text className="text-base latin">Ps. ibid., 2</Text> Exsúrgat
-              Deus, et dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a
-              fácie ejus. ℣. Gloria Patri...
+              <Text className="latin">Ps. ibid., 2</Text> Exsúrgat Deus, et
+              dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a fácie
+              ejus.<Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deus está na sua santa morada: Deus dará morada na sua casa
               àqueles que possuem o mesmo espírito: Ele dará ao seu povo
               fortaleza e constância.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 2</Text> Erga-se
-              Deus e sejam dispersos os seus inimigos: Que aqueles que o odeiam
-              fujam da sua presença. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. ibid., 2</Text> Erga-se Deus e
+              sejam dispersos os seus inimigos: Que aqueles que o odeiam fujam
+              da sua presença.<Text className="versicle"> ℣. </Text>Glória ao
+              Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnípotens sempitérne Deus, qui, abundántia pietátis tuæ, et
               merita súpplicum excédis et vota: effúnde super nos misericórdiam
               tuam; ut dimíttas quæ consciéntia metuit, et adjícias quod orátio
               non præsúmit. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deus omnipotente e sempiterno, que pela abundância da vossa
               bondade excedeis os méritos e os desejos dos suplicantes, espalhai
               a vossa misericórdia sobre nós, de modo que nos sejam perdoados
@@ -58,13 +59,13 @@ export default function PagePent110() {
           <Text className="em">1 Cor. 15, 1-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Notum vobis fácio Evangélium, quod prædicávi vobis, quod
               et accepístis, in quo et statis, per quod et salvámini: qua
               ratione prædicáverim vobis, si tenétis, nisi frustra credidístis.
@@ -79,7 +80,7 @@ export default function PagePent110() {
               vocári Apóstolus, quóniam persecútus sum Ecclésiam Dei. Grátia
               autem Dei sum id quod sum, et grátia ejus in me vácua non fuit.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Chamo a vossa atenção para o Evangelho que já vos
               preguei e recebestes. Nele permanecereis firmes, sendo por ele que
               sereis salvos, se porventura o cumprirdes tal como vo-lo anunciei;
@@ -104,29 +105,30 @@ export default function PagePent110() {
           <Text className="em">Sl. 27, 7 & 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               In Deo sperávit cor meum, et adjútus sum: et reflóruit caro mea,
-              et ex voluntáte mea confitébor illi. ℣. Ad te, Dómine, clamávi:
-              Deus meus, ne síleas, ne discédas a me.
+              et ex voluntáte mea confitébor illi.
+              <Text className="versicle"> ℣. </Text>Ad te, Dómine, clamávi: Deus
+              meus, ne síleas, ne discédas a me.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O meu coração confiou em Deus, que veio em meu socorro. Então a
               minha carne remoçou. Eis porque louvarei o Senhor com todo o
-              coração. ℣. Clamei por Vós, Senhor! Meu Deus, não fecheis os
-              ouvidos à minha voz, nem Vos afasteis de mim.
+              coração.<Text className="versicle"> ℣. </Text>Clamei por Vós,
+              Senhor! Meu Deus, não fecheis os ouvidos à minha voz, nem Vos
+              afasteis de mim.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 80, 2-3</Text> Exsultáte
-              Deo, adjutóri nostro, jubiláte Deo Jacob: súmite psalmum jucúndum
-              cum cíthara. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 80, 2-3</Text> Exsultáte Deo, adjutóri
+              nostro, jubiláte Deo Jacob: súmite psalmum jucúndum cum cíthara.
+              Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 80, 2-3</Text> Exultai
-              de alegria em Deus, que é o nosso protector: Cantai hinos em honra
-              de Deus de Jacob: Tocai em tom alegre o saltério e a cítara.
-              Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 80, 2-3</Text> Exultai de alegria
+              em Deus, que é o nosso protector: Cantai hinos em honra de Deus de
+              Jacob: Tocai em tom alegre o saltério e a cítara. Aleluia.
             </Text>
           </View>
 
@@ -135,15 +137,15 @@ export default function PagePent110() {
           <Text className="em">Mc. 7, 31-37</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Marcum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Marcum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Marcos.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Marcos.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Exiens Jesus de fínibus Tyri, venitper Sidónem ad
               mare Galilǽæ, inter médios fines Decapóleos. Et addúcunt ei surdum
               et mutum, et deprecabántur eum, ut impónat illi manum. Et
@@ -156,7 +158,7 @@ export default function PagePent110() {
               admirabántur, dicéntes: Bene ómnia fecit: et surdos fecit audíre
               et mutos loqui.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo saindo Jesus do território de Tiro, veio por
               Sidónia, através da Decápole, até ao mar da Galileia. Então,
               apresentaram-lhe um surdo-mudo e suplicaram-Lhe que pusesse as
@@ -176,11 +178,11 @@ export default function PagePent110() {
           <Text className="em">Sl. 29, 2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Exaltábo te, Dómine, quóniam suscepísti me, nec delectásti
               inimícos meos super me: Dómine, clamávi ad te, fet sanásti me.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Exaltar-Vos-ei, Senhor, porque me atendestes e não deixastes que
               meus inimigos escarnecem de mim. Clamei por Vós, Senhor, e
               curaste-me!
@@ -190,12 +192,12 @@ export default function PagePent110() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Réspice, Dómine, quǽsumus, nostram propítius servitútem: ut, quod
               offérimus, sit tibi munus accéptum, et sit nostræ fragilitátis
               subsidium. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dignai-Vos, Senhor, Vos suplicamos, olhar propício para a nossa
               homenagem, a fim de que a nossa oferta Vos seja agradável e sirva
               de auxílio para a nossa fraqueza. Por nosso Senhor...
@@ -207,11 +209,11 @@ export default function PagePent110() {
           <Text className="em">Pr. 3, 9-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hónora Dóminum de tua substántia, et de prímitus frugum tuárum: et
               implebúntur hórrea tua saturitáte, et vino torculária redundábunt.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Honrai o Senhor, oferecendo-Lhe os vossos bens e as primícias dos
               vossos frutos. Então os vossos celeiros ficarão cheios de trigo e
               os vossos lagares trasbordarão de vinho.
@@ -221,12 +223,12 @@ export default function PagePent110() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sentiámus, quǽsumus, Dómine, tui perceptióne sacraménti, subsídium
               mentis et córporis: ut, in utróque salváti, cæléstis remédii
               plenitúdine gloriémur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Permiti, Senhor, Vos suplicamos, que, pela recepção do vosso
               sacramento, sintamos o vosso conforto na alma e no corpo, a fim de
               que, salvando-se ambos, possamos gozar na glória a plenitude deste

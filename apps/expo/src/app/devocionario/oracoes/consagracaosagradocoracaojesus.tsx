@@ -29,10 +29,10 @@ export default function PageConsagracaosagradocoracaojesus() {
             traze-los à Luz do Reino de Deus. Obtende, ó Senhor, a integridade e
             liberdade segura para a vossa Igreja; dai a todo o povo a
             tranquilidade da ordem; fazei com que de uma extremidade à outra da
-            Terra ressoe esta única voz: ℣. Seja louvado este Coração do qual
-            provém a nossa salvação!
-            <Text className="text-red-500">℟.</Text> A Ele a Honra e a Glória
-            por todos os séculos. Amen.
+            Terra ressoe esta única voz:<Text className="versicle"> ℣. </Text>
+            Seja louvado este Coração do qual provém a nossa salvação!
+            <Text className="response"> ℟. </Text> A Ele a Honra e a Glória por
+            todos os séculos. Amen.
           </Text>
         </View>
       </ScrollView>

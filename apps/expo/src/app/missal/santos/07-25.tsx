@@ -37,32 +37,32 @@ export default function Page0725() {
           <Text className="em">Sl. 138, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Mihi autem nimis bonoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.{" "}
-              <Text className="text-base latin">Ps. ibid., 1-2</Text> Dómine,
-              probásti me et cognovísti me: tu cognovísti sessiónem meam ei
-              resurrectiónem meam. ℣. Gloria Patri...
+              <Text className="latin">Ps. ibid., 1-2</Text> Dómine, probásti me
+              et cognovísti me: tu cognovísti sessiónem meam ei resurrectiónem
+              meam.<Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eu vejo, ó Deus, que honrais largamente os vossos amigos: e que
               seu poder se tem fortalecido extraordinariamente.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 1-2</Text>{" "}
-              Senhor, perscrutastes o meu íntimo e ficastes-me conhecendo:
-              ficastes conhecendo quando me deito e quando me levanto. ℣. Glória
-              ao Pai...
+              <Text className="vernacular">Sl. ibid., 1-2</Text> Senhor,
+              perscrutastes o meu íntimo e ficastes-me conhecendo: ficastes
+              conhecendo quando me deito e quando me levanto.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Esto, Dómine, plebi tuæ sanctificátor et custos: ut, Apóstoli tui
               Jacóbi muníta præsídiis, et conversatióne tibi pláceat, et secúra
               mente desérviat. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Sede, Senhor, o santificador e o protector do povo, a fim de que,
               munido com o auxílio do vosso Apóstolo Tiago, ele Vos seja
               agradável pela sua sã conduta e Vos sirva com tranquilidade de
@@ -75,13 +75,13 @@ export default function Page0725() {
           <Text className="em">1 Cor. 4, 9-15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Puto, quod Deus nos Apóstolos novíssimos osténdit,
               tamquam morti destinátos: quia spectáculum facti sumus mundo et
               Angelis et homínibus. Nos stulti propter Christum, vos autem
@@ -96,7 +96,7 @@ export default function Page0725() {
               Christo: sed non multos patres. Nam in Christo Jesu per Evangélium
               ego vos génui.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Penso que Deus nos trata a nós, seus Apóstolos, como
               se fôssemos os últimos homens destinados à morte, pois nos
               tornámos espectáculo do mundo, dos Anjos e dos homens. Tornámo-nos
@@ -120,28 +120,28 @@ export default function Page0725() {
           <Text className="em">Sl. 44, 17 & 18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Constítues eos príncipes super omnem terram: mémores erunt nóminis
-              tui, Dómine. ℣. Pro pátribus tuis nati sunt tibi fílii: proptérea
-              pópuli confitebúntur tibi.
+              tui, Dómine.<Text className="versicle"> ℣. </Text>Pro pátribus
+              tuis nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vós os instituístes príncipes em todo o universo: e eles, Senhor,
-              perpetuarão a glória do vosso nome em toda a terra. ℣. Para
-              substituir os vossos pais, nascer-vos-ão filhos: pelo que os povos
-              vos louvarão.
+              perpetuarão a glória do vosso nome em toda a terra.
+              <Text className="versicle"> ℣. </Text>Para substituir os vossos
+              pais, nascer-vos-ão filhos: pelo que os povos vos louvarão.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Joann. 15, 16</Text> Ego vos
-              elegi de mundo, ut eátis, et fructum afferátis, et fructus vester
-              máneat. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Joann. 15, 16</Text> Ego vos elegi de
+              mundo, ut eátis, et fructum afferátis, et fructus vester máneat.
+              Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Jo. 15, 16</Text> Eu vos
-              escolhi para irdes pelo mundo e alcançardes fruto; e que o vosso
-              fruto permaneça. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Jo. 15, 16</Text> Eu vos escolhi para
+              irdes pelo mundo e alcançardes fruto; e que o vosso fruto
+              permaneça. Aleluia.
             </Text>
           </View>
 
@@ -150,15 +150,15 @@ export default function Page0725() {
           <Text className="em">Mt. 20, 20-23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In llo témpore: Accessit ad Jesum mater filiórum Zebedǽi cum
               fíliis suis, adórans et petens áliquid ab eo. Qui dixit ei: Quid
               vis? Ait illi: Dic, ut sédeant hi duo fílii mei, unus ad déxteram
@@ -168,7 +168,7 @@ export default function Page0725() {
               bibétis: sédere autem ad déxteram meam vel sinístram, non est meum
               dare vobis, sed quibus parátum est a Patre meo.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, a mãe dos filhos de Zebedeu aproximou-se de Jesus
               com seus dois filhos, adorando-O e querendo pedir-Lhe alguma
               coisa. Jesus disse-lhe: «Que quereis?». Ela respondeu: «Ordenai
@@ -187,11 +187,11 @@ export default function Page0725() {
           <Text className="em">Sl. 18, 5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               In omnem terram exívit sonus eórum: et in fines orbis terræ verba
               eórum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O som da sua voz ecoou por toda a terra; e as suas palavras
               prolongaram-se até às extremidades da terra.
             </Text>
@@ -200,12 +200,12 @@ export default function Page0725() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Oblatiónes pópuli tui, quǽsumus, Dómine, beáti Jacóbi Apóstoli
               pássio beáta concíliet: et, quæ nostris non aptæ sunt méritis,
               fiant tibi plácitæ ejus deprecatióne. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Permiti, Senhor, Vos suplicamos, que o glorioso martírio do B.
               Apóstolo Tiago nos alcance a graça de receberdes as ofertas do
               vosso povo, e, apesar dos nossos méritos serem insuficientes,
@@ -219,11 +219,11 @@ export default function Page0725() {
           <Text className="em">Mt. 19, 28</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vos, qui secúti estis me, sedébitis super sedes, judicántes
               duódecim tribus Israël.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vós, que me seguistes, assentar-vos-eis sobre tronos e julgareis
               as doze tribos de Israel.
             </Text>
@@ -232,12 +232,12 @@ export default function Page0725() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Beáti Apóstoli tui Jacóbi, quǽsumus, Dómine, intercessióne nos
               ádjuva: pro cujus festivitáte percépimus tua sancta lætántes. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Auxiliai-nos, Senhor, Vos suplicamos, pela intercessão do vosso B.
               Apóstolo Tiago, em cuja festa recebemos com júbilo os sacrossantos
               méritos. Por nosso Senhor...

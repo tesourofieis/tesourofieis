@@ -45,13 +45,13 @@ export default function Page0309() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui beátam Francíscam fámulam tuam, inter cétera grátiæ tuæ
               dona, familiári Angeli consuetúdine decorásti: concéde, quǽsumus;
               ut, intercessiónis ejus auxílio, Angelórum consórtium cónsequi
               mereámur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que concedestes à B. Francisca, vossa serva, entre outros
               dons, a graça da presença familiar de um Anjo, permiti-nos, Vos
               rogamos, que com o auxílio da sua intercessão mereçamos alcançar a

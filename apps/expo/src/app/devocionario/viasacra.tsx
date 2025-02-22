@@ -26,19 +26,21 @@ export default function PageViasacra() {
           </Text>
           <Text className="h3">No inicio de cada Estação</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
-              ℣. Adorámus te, Christe, et benedicimus tibi.
+            <Text className="latin">
+              <Text className="versicle"> ℣. </Text>Adorámus te, Christe, et
+              benedicimus tibi.
             </Text>
-            <Text className="text-base vernacular">
-              ℣. Nós Vos adoramos, ó Jesus, e Vos bendizemos.
+            <Text className="vernacular">
+              <Text className="versicle"> ℣. </Text>Nós Vos adoramos, ó Jesus, e
+              Vos bendizemos.
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-red-500">℟. </Text>Quia per Crucem tuam
+            <Text className="latin">
+              <Text className="response"> ℟. </Text>Quia per Crucem tuam
               redemísti mundum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-red-500">℟. </Text>Porque pela vossa Santa
-              Cruz redimistes o mundo.
+            <Text className="vernacular">
+              <Text className="response"> ℟. </Text>Porque pela vossa Santa Cruz
+              redimistes o mundo.
             </Text>
           </View>
           <Text className="h3">No fim de cada Estação</Text>
@@ -55,15 +57,17 @@ export default function PageViasacra() {
             .
           </Text>
           <View className="side-by-side">
-            <Text className="text-base latin">℣. Miserére nostri, Dómine.</Text>
-            <Text className="text-base vernacular">
-              ℣. Senhor tende piedade de nós.
+            <Text className="latin">
+              <Text className="versicle"> ℣. </Text> Miserére nostri, Dómine.
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-red-500">℟. </Text>Miserére nostri.
+            <Text className="vernacular">
+              <Text className="versicle"> ℣. </Text>Senhor tende piedade de nós.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-red-500">℟. </Text>Tende piedade de nós.
+            <Text className="latin">
+              <Text className="response"> ℟. </Text>Miserére nostri.
+            </Text>
+            <Text className="vernacular">
+              <Text className="response"> ℟. </Text>Tende piedade de nós.
             </Text>
           </View>
           <Text className="aside">
@@ -240,29 +244,29 @@ export default function PageViasacra() {
             oração:
           </Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">Orémus.</Text>
+            <Text className="latin">
+              <Text className="latin">Orémus.</Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">Oremos.</Text>
+            <Text className="vernacular">
+              <Text className="vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Respice, quǽsumus Dómine, super hanc famíliam tuam, pro qua
               Dominus noster Jesus Christus non dubitavit manibus tradi
               nocentium et Crucis subire tormentum. Qui tecum vivit et regnat in
               unitate Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, dignai-Vos lançar um olhar sobre a vossa família pela qual
               nosso Senhor Jesus Cristo não duvidou entregar-se às mãos dos
               ímpios e de sofrer o suplício da cruz. Que vive e reina na unidade
               do Espírito Santo, Deus, por todos os séculos dos séculos.
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-red-500">℟. </Text>Amen
+            <Text className="latin">
+              <Text className="response"> ℟. </Text>Amen
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-red-500">℟. </Text>Amen
+            <Text className="vernacular">
+              <Text className="response"> ℟. </Text>Amen
             </Text>
           </View>
         </View>

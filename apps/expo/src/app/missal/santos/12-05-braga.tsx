@@ -14,13 +14,16 @@ export default function Page1205Braga() {
           </Text>
           <Text className="h3">Intróito</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">℣. Gloria Patri...</Text>
-            <Text className="text-base vernacular">
+            <Text className="latin">
+              <Text className="versicle"> ℣. </Text> Gloria Patri...
+            </Text>
+            <Text className="vernacular">
               Um ínclito Confessor de Deus, lustre muito esplendoroso ante o
               Senhor, pérola e modelo dos Prelados, hoje coroado, com o qual as
               celestiais coortes rejubilam, entra nos céus, onde sem fim reina
               com Cristo. Ó justos, exultai no Senhor: àqueles que têm o coração
-              recto fica bem a glória. ℣. Glória ao Pai...
+              recto fica bem a glória.<Text className="versicle"> ℣. </Text>
+              Glória ao Pai...
             </Text>
           </View>
           <Text className="h3">Oração</Text>
@@ -36,14 +39,14 @@ export default function Page1205Braga() {
           />
           <Text className="h3">Gradual</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Veneremos devotadamente, do íntimo do coração e da alma, a
               veneranda festividade de hoje, em que o B. Geraldo, Confessor de
               Cristo, passou alegre deste mundo para os céus. Por isso o B.
               Geraldo, acabado o tempo da sua vida, é alistado nos exércitos
               celestiais.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aleluia, aleluia. Geraldo foi esse servo do Senhor que, lutando à
               hora da sua morte com o demónio, o venceu. Aleluia.
             </Text>

@@ -17,33 +17,33 @@ export default function PagePent210() {
           <Text className="em">Est. 13, 9 & 10-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               In voluntáte tua, Dómine, univérsa sunt pósita, et non est, qui
               possit resístere voluntáti tuæ: tu enim fecísti ómnia, cœlum et
               terram et univérsa, quæ cœli ámbitu continéntur: Dominus
-              universórum tu es.{" "}
-              <Text className="text-base latin">Ps. 118, 1</Text> Beáti
-              immaculáti in via: qui ámbulant in lege Dómini. ℣. Gloria Patri...
+              universórum tu es. <Text className="latin">Ps. 118, 1</Text> Beáti
+              immaculáti in via: qui ámbulant in lege Dómini.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Todas as coisas, Senhor, estão sujeitas à vossa vontade, e ninguém
               pode resistir-lhe; pois criastes tudo: o céu, a terra e o que se
               encerra no âmbito dos céus. Sois o Senhor do universo.{" "}
-              <Text className="text-base vernacular">Sl. 118, 1</Text>{" "}
-              Bem-aventurados aqueles cuja vida é imaculada: aqueles que
-              praticam a Lei do Senhor. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 118, 1</Text> Bem-aventurados
+              aqueles cuja vida é imaculada: aqueles que praticam a Lei do
+              Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi: ut a
               cunctis adversitátibus, te protegénte, sit líbera, et in bonis
               áctibus tuo nómini sit devóta. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Guardai com vossa contínua misericórdia a vossa família, Senhor,
               Vos suplicamos, a fim de que sob a vossa protecção seja preservada
               de todas as adversidades e se dedique à prática das boas obras, em
@@ -56,13 +56,13 @@ export default function PagePent210() {
           <Text className="em">Ef. 6, 10-17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Lectio Epistolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Confortámini in Dómino et in poténtia virtútis ejus.
               Indúite vos armatúram Dei, ut póssitis stare advérsus insídias
               diáboli. Quóniam non est nobis colluctátio advérsus carnem et
@@ -76,7 +76,7 @@ export default function PagePent210() {
               exstínguere: et gáleam salútis assúmite: et gládium spíritus, quod
               est verbum Dei.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Confortai-vos no Senhor e no seu poder omnipotente.
               Revesti-vos de todas armas de Deus, a fim de que possais suportar
               as ciladas do demónio; pois temos de combater, não só contra a
@@ -99,27 +99,28 @@ export default function PagePent210() {
           <Text className="em">Sl. 89, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Dómine, refúgium factus es nobis, a generatióne et progénie. ℣.
+            <Text className="latin">
+              Dómine, refúgium factus es nobis, a generatióne et progénie.
+              <Text className="versicle"> ℣. </Text>
               Priúsquam montes fíerent aut formarétur terra et orbis: a sǽculo
               et usque in sǽculum tu es, Deus.
             </Text>
-            <Text className="text-base vernacular">
-              Tendes sido, Senhor, o nosso refúgio de geração em geração. ℣.
+            <Text className="vernacular">
+              Tendes sido, Senhor, o nosso refúgio de geração em geração.
+              <Text className="versicle"> ℣. </Text>
               Antes que as montanhas houvessem sido formadas e que a terra e o
               mundo tivessem sido criados, já, desde toda a eternidade, Vós
               éreis Deus.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 113, 1</Text> In éxitu
-              Israël de Ægýpto, domus Jacob de pópulo bárbaro. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 113, 1</Text> In éxitu Israël de
+              Ægýpto, domus Jacob de pópulo bárbaro. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 113, 1</Text> Quando
-              Israel saiu do Egipto e a casa de Jacob do meio de um povo
-              bárbaro. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 113, 1</Text> Quando Israel saiu
+              do Egipto e a casa de Jacob do meio de um povo bárbaro. Aleluia.
             </Text>
           </View>
 
@@ -128,15 +129,15 @@ export default function PagePent210() {
           <Text className="em">Mt. 18, 23-35</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus discípulis suis parábolam hanc:
               Assimilátum est regnum cœlórum hómini regi, qui vóluit ratiónem
               pónere cum servis suis. Et cum cœpísset ratiónem pónere, oblátus
@@ -160,7 +161,7 @@ export default function PagePent210() {
               fáciet vobis, si non remiséritis unusquísque fratri suo de
               córdibus vestris.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, Jesus disse aos seus discípulos esta parábola: O
               reino dos céus é semelhante a um rei que quis fazer contas com
               seus servos. Logo que começou as contas, apresentou-se um servo
@@ -192,14 +193,14 @@ export default function PagePent210() {
           <Text className="em">Jb 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vir erat in terra Hus, nómine Job: simplex et rectus ac timens
               Deum: quem Satan pétiit ut tentáret: et data est ei potéstas a
               Dómino in facultátes et in carnem ejus: perdidítque omnem
               substántiam ipsíus et fílios: carnem quoque ejus gravi úlcere
               vulnerávit.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vivia no país de Hus um homem chamado Job, que era simples, justo
               e temente a Deus. Então Satanás pediu licença ao Senhor para o
               tentar, o que lhe foi permitido, mas somente quanto aos bens e ao
@@ -211,11 +212,11 @@ export default function PagePent210() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Suscipe, Dómine, propítius hóstias: quibus et te placári voluísti,
               et nobis salútem poténti pietáte restítui. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aceitai propício, Senhor, estas hóstias com as quais quisestes
               aplacar-Vos, e, pela vossa infinita bondade, concedei-nos a
               salvação. Por nosso Senhor...
@@ -227,12 +228,12 @@ export default function PagePent210() {
           <Text className="em">Sl. 118, 81, 84 & 86</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               In salutári tuo ánima mea, et in verbum tuum sperávi: quando
               fácies de persequéntibus me judícium? iníqui persecúti sunt me,
               ádjuva me, Dómine, Deus meus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A minha alma suspira pela salvação: e pus toda minha esperança na
               vossa palavra. Quando tratareis com justiça os meus perseguidores?
               Homens injustos perseguem-me; auxiliai-me, Senhor!
@@ -242,11 +243,11 @@ export default function PagePent210() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Immortalitátis alimóniam consecúti, quǽsumus, Dómine: ut, quod ore
               percépimus, pura mente sectémur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Havendo recebido o alimento da imortalidade, permiti, Senhor, Vos
               suplicamos, que guardemos com o coração puro aquilo que a nossa
               boca recebeu. Por nosso Senhor...

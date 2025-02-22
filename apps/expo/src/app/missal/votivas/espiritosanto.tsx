@@ -25,11 +25,9 @@ export default function PageEspiritosanto() {
           <Text className="em">Act. 8, 14-17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Actuum Apostólorum.</Text>
-            <Text className="text-base vernacular">
-              Lição dos Actos dos Apóstolos.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Actuum Apostólorum.</Text>
+            <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
+            <Text className="latin">
               In diébus illis: Cum audíssent Apóstoli, qui erant Jerosólymis,
               quod recepísset Samaría verbum Dei, misérunt ad eos Petrum et
               Joánnem. Qui cum veníssent, oravérunt pro ipsis, ut accíperent
@@ -37,7 +35,7 @@ export default function PageEspiritosanto() {
               baptizáti tantum erant in nómine Dómini Jesu. Tunc imponébant
               manus super illos, et accipiébant Spíritum Sanctum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, quando os Apóstolos, que estavam em Jerusalém,
               souberam que a Samaria recebera a palavra de Deus, enviaram lá
               Pedro e João, os quais, apenas lá chegaram, oraram por aqueles,
@@ -53,27 +51,29 @@ export default function PageEspiritosanto() {
           <Text className="em">Sl. 32, 12 & 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit
-              Dóminus in hereditátem sibi. ℣. Verbo Dómini cœli firmáti sunt: et
-              Spíritu oris ejus omnis virtus eórum.
+              Dóminus in hereditátem sibi.<Text className="versicle"> ℣. </Text>
+              Verbo Dómini cœli firmáti sunt: et Spíritu oris ejus omnis virtus
+              eórum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bem-aventurado o povo cujo Deus é o Senhor! Bem-aventurado o povo
               que, escolheu o Senhor para sua herança. A palavra do Senhor criou
               os céus; e o sopro dos seus lábios criou toda a milícia celestial.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Allelúja, allelúja.{" "}
-              <Text className="text-base latin">hic genuflectitur</Text> ℣.
+              <Text className="latin">hic genuflectitur</Text>
+              <Text className="versicle"> ℣. </Text>
               Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris
               in eis ignem accénde. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aleluia, aleluia.{" "}
-              <Text className="text-base vernacular">Genuflecte-se</Text> Vinde,
-              Espírito Santo, enchei os corações dos vossos fiéis e acendei
-              neles o fogo do vosso amor. Aleluia.
+              <Text className="vernacular">Genuflecte-se</Text> Vinde, Espírito
+              Santo, enchei os corações dos vossos fiéis e acendei neles o fogo
+              do vosso amor. Aleluia.
             </Text>
           </View>
 
@@ -87,18 +87,21 @@ export default function PageEspiritosanto() {
           <Text className="em">Sl. 103, 30</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Emítte Spíritum tuum, et creabúntur: et renovábis fáciem terræ. ℣.
-              O quam bonus et suávis est, Dómine, Spíritus tuus in nobis!{" "}
-              <Text className="text-base latin">hic genuflectitur</Text> ℣.
+            <Text className="latin">
+              Emítte Spíritum tuum, et creabúntur: et renovábis fáciem terræ.
+              <Text className="versicle"> ℣. </Text>O quam bonus et suávis est,
+              Dómine, Spíritus tuus in nobis!{" "}
+              <Text className="latin">hic genuflectitur</Text>
+              <Text className="versicle"> ℣. </Text>
               Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris
               in eis ignem accénde.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Enviai o vosso Espírito e eles serão criados: e renovarão a face
-              da terra. ℣. Ó Senhor, como é bom e suave o vosso Espírito dentro
-              de nós!{" "}
-              <Text className="text-base vernacular">Genuflecte-se</Text> ℣.
+              da terra.<Text className="versicle"> ℣. </Text>Ó Senhor, como é
+              bom e suave o vosso Espírito dentro de nós!{" "}
+              <Text className="vernacular">Genuflecte-se</Text>
+              <Text className="versicle"> ℣. </Text>
               Vinde, Espírito Santo, enchei os corações dos vossos fiéis e
               acendei neles o fogo do vosso amor.
             </Text>
@@ -109,21 +112,23 @@ export default function PageEspiritosanto() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 103, 30</Text> Emítte
-              Spíritum tuum, et creabúntur: et renovábis fáciem terræ. Allelúja.{" "}
-              <Text className="em">hic genuflectitur</Text> ℣. Veni, Sancte
-              Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem
-              accénde. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 103, 30</Text> Emítte Spíritum tuum,
+              et creabúntur: et renovábis fáciem terræ. Allelúja.{" "}
+              <Text className="em">hic genuflectitur</Text>
+              <Text className="versicle"> ℣. </Text>Veni, Sancte Spíritus, reple
+              tuórum corda fidélium: et tui amóris in eis ignem accénde.
+              Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 103, 30</Text> Enviai o
-              vosso Espírito e eles serão criados: e renovarão a face da terra.
-              Aleluia. <Text className="em">Genuflecte-se</Text> ℣. Vinde,
-              Espírito Santo, enchei os corações dos vossos fiéis e acendei
-              neles o fogo do vosso amor. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 103, 30</Text> Enviai o vosso
+              Espírito e eles serão criados: e renovarão a face da terra.
+              Aleluia. <Text className="em">Genuflecte-se</Text>
+              <Text className="versicle"> ℣. </Text>Vinde, Espírito Santo,
+              enchei os corações dos vossos fiéis e acendei neles o fogo do
+              vosso amor. Aleluia.
             </Text>
           </View>
         </View>

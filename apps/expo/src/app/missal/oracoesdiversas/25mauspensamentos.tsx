@@ -13,13 +13,13 @@ export default function Page25Mauspensamentos() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnípotens et mitíssime Deus, réspice propítius ad preces nostras:
               et líbera corda nostra de malárum tentatiónibus cogitatiónum; ut
               Sancti Spíritus dignum fíeri habitáculum mereámur. Per Dóminum...
               in unitáte ejúsdem Spíritus Sancti.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente e pacífico, ouvi benigno as nossas preces e
               livrai os nossos corações da tentação dos maus pensamentos, a fim
               de que mereçamos tornar-nos em digna morada do Espírito Santo. Por
@@ -30,13 +30,13 @@ export default function Page25Mauspensamentos() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Has tibi, Dómine, offérimus oblatiónes pro salúte nostra: quaténus
               ánimas nostras ab immúndis cogitatiónibus purges, illæsásque
               custódias, et Sancti Spíritus grátia illumináre dignéris. Per
               Dóminum... in unitáte ejúsdem Spíritus Sancti.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos oferecemos estas oblatas em favor da nossa salvação, a
               fim de que Vos digneis expurgar os pensamentos impuros das nossas
               almas, conservá-las ilesas e iluminá-las com a graça do Espírito
@@ -47,13 +47,13 @@ export default function Page25Mauspensamentos() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui illúminas omnem hóminem veniéntem in hunc mundum:
               illúmina, quǽsumus, corda nostra grátiæ tuæ splendóre; ut digna ac
               plácita majestáti tuæ cogitáre semper, et te sincére dilígere
               valeámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deusm que iluminais todos os homens que vêm a este mundo,
               ilustrai, Vos suplicamos, os nossos corações com o resplendor da
               vossa graça, a fim de que tenhamos sempre na mente pensamentos

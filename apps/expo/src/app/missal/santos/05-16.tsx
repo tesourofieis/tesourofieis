@@ -26,12 +26,12 @@ export default function Page0516() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Auxílium Confessóris tui atque Pontíficis, contra omnes diáboli
               nequítias déxteram super nos tuæ propitiatiónis exténde. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deixai-Vos aplacar, Senhor, Vos suplicamos, e concedei-nos o vosso
               auxílio; e pela intercessão do B. Ubaldo, vosso Confessor e
               Pontífice, estendei sobre nós a vossa mão misericordiosa, a fim de

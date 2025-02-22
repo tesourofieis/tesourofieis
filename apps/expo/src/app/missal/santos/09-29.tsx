@@ -26,23 +26,26 @@ export default function Page0929() {
           <Text className="em">Sl. 102, 20 & 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui
-              fácitis verbum ejus. ℣. Benedic, ánima mea, Dóminum, et ómnia
-              interióra mea, nomen sanctum ejus.
+              fácitis verbum ejus.<Text className="versicle"> ℣. </Text>Benedic,
+              ánima mea, Dóminum, et ómnia interióra mea, nomen sanctum ejus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bendizei o Senhor, ó Anjos do Senhor, que sois poderosos e cheios
-              de força, e cumpris as ordens do Senhor. ℣. Bendizei o Senhor, ó
-              minha alma; que toda minha alma bendiga o nome do Senhor.
+              de força, e cumpris as ordens do Senhor.
+              <Text className="versicle"> ℣. </Text>Bendizei o Senhor, ó minha
+              alma; que toda minha alma bendiga o nome do Senhor.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣. Sancte Míchaël Archángele, defénde nos in
-              prǿlio: ut non pereámus in treméndo judício. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Sancte
+              Míchaël Archángele, defénde nos in prǿlio: ut non pereámus in
+              treméndo judício. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣. S. Miguel Arcanjo, defendei-nos neste
-              combate, para que não pereçamos no dia do tremendo juízo. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>S. Miguel
+              Arcanjo, defendei-nos neste combate, para que não pereçamos no dia
+              do tremendo juízo. Aleluia.
             </Text>
           </View>
         </View>

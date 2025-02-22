@@ -17,33 +17,34 @@ export default function PagePent150() {
           <Text className="em">Sl. 85, 1 & 2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Inclína, Dómine, aurem tuam ad me, et exáudi me: salvum fac servum
               tuum, Deus meus, sperántem in te: miserére mihi, Dómine, quóniam
               ad te clamávi tota die.{" "}
-              <Text className="text-base latin">Ps. ibid., 4</Text> Lætífica
-              ánimam servi tui: quia ad te, Dómine, ánimam meam levávi. ℣.
+              <Text className="latin">Ps. ibid., 4</Text> Lætífica ánimam servi
+              tui: quia ad te, Dómine, ánimam meam levávi.
+              <Text className="versicle"> ℣. </Text>
               Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Inclinai, Senhor, vossos ouvidos para mim e ouvi-me. Salvai, ó meu
               Deus, o vosso servo, que em Vós espera. Tende misericórdia de mim,
               Senhor, pois clamei por Vós todo o dia!{" "}
-              <Text className="text-base vernacular">Sl. ibid., 4</Text> Alegrai
-              a alma do vosso servo, porque a Vós, Senhor, se elevou a minha
-              alma. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. ibid., 4</Text> Alegrai a alma do
+              vosso servo, porque a Vós, Senhor, se elevou a minha alma.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ecclésiam tuam, Dómine, miserátio continuáta mundet et múniat: et
               quia sine te non potest salva consístere; tuo semper múnere
               gubernétur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que a vossa misericórdia purifique e proteja continuamente a vossa
               Igreja; e, visto que ela não pode subsistir sem Vós, assisti-lhe
               sempre com vossa graça. Por nosso Senhor...
@@ -55,13 +56,13 @@ export default function PagePent150() {
           <Text className="em">Gl. 5, 25-26; 6, 1-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Gálatas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Si spíritu vívimus, spíritu et ambulémus. Non efficiámur
               inanis glóriæ cúpidi, ínvicem provocántes, ínvicem invidéntes.
               Fratres, et si præoccupátus fúerit homo in áliquo delícto, vos,
@@ -80,7 +81,7 @@ export default function PagePent150() {
               tempus habémus, operémur bonum ad omnes, maxime autem ad
               domésticos fídei.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Se vivemos pelo espírito, tenhamos uma conduta também
               pelo espírito. Não procuremos a vanglória, provocando-nos uns aos
               outros e tendo mútua inveja. Meus irmãos, se algum caiu em pecado
@@ -109,26 +110,26 @@ export default function PagePent150() {
           <Text className="em">Sl. 91, 2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Bonum est confitéri Dómino: et psallere nómini tuo, Altíssime. ℣.
+            <Text className="latin">
+              Bonum est confitéri Dómino: et psallere nómini tuo, Altíssime.
+              <Text className="versicle"> ℣. </Text>
               Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per
               noctem.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               É bom louvar o Senhor: e cantar salmos em honra do vosso nome, ó
-              Altíssimo! ℣. É bom publicar a vossa bondade pela manhã; e a vossa
-              verdade durante a noite.
+              Altíssimo!<Text className="versicle"> ℣. </Text>É bom publicar a
+              vossa bondade pela manhã; e a vossa verdade durante a noite.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 94, 3</Text> Quóniam Deus
-              magnus Dóminus, et Rex magnus super omnem terram. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 94, 3</Text> Quóniam Deus magnus
+              Dóminus, et Rex magnus super omnem terram. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 94, 3</Text> Pois o
-              Senhor é o excelso Deus e o excelso Rei, superior a todo o
-              universo. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 94, 3</Text> Pois o Senhor é o
+              excelso Deus e o excelso Rei, superior a todo o universo. Aleluia.
             </Text>
           </View>
 
@@ -137,15 +138,15 @@ export default function PagePent150() {
           <Text className="em">Lc. 7, 11-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Ibat Jesus in civitátem, quæ vocátur Naim: et
               ibant cum eo discípuli ejus et turba copiósa. Cum autem
               appropinquáret portæ civitátis, ecce, defúnctus efferebátur fílius
@@ -158,7 +159,7 @@ export default function PagePent150() {
               Quia Prophéta magnus surréxit in nobis: et quia Deus visitávit
               plebem suam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, dirigiu-se Jesus para uma cidade chamada Naim,
               sendo acompanhado pelos discípulos e muito Povo. Tendo chegado
               próximo da porta da cidade, viu que levavam um morto daquela
@@ -179,12 +180,12 @@ export default function PagePent150() {
           <Text className="em">Sl. 39,2,3 & 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Exspéctans exspectávi Dóminum, et respéxit me: et exaudívit
               deprecatiónem meam: et immísit in os meum cánticum novum, hymnum
               Deo nostro.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Esperei com perseverança no Senhor: e Ele atendeu-me: ouviu a
               minha deprecação e pôs nos meus lábios um cântico novo: um hino de
               louvor ao nosso Deus.
@@ -194,11 +195,11 @@ export default function PagePent150() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tua nos, Dómine, sacramenta custodiant: et contra diabólicos
               semper tueántur incúrsus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que os vossos sacramentos nos guardem, Senhor; e que nos defendam
               sempre dos ataques do demónio. Por nosso Senhor...
             </Text>
@@ -209,10 +210,10 @@ export default function PagePent150() {
           <Text className="em">Jo. 6, 52</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Panis, quem ego dédero, caro mea est pro sǽculi vita.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O pão que Vos darei para a vida do mundo é a minha Carne.
             </Text>
           </View>
@@ -220,12 +221,12 @@ export default function PagePent150() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Mentes nostras et córpora possídeat, quǽsumus, Dómine, doni
               cœléstis operátio: ut non noster sensus in nobis, sed júgiter ejus
               prævéniat efféctus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Permiti, Senhor, Vos suplicamos, que a nossa alma e o nosso corpo
               sejam completamente submissos à vontade deste dom celestial, de
               sorte que seja sempre o efeito deste sacramento que nos domine, e

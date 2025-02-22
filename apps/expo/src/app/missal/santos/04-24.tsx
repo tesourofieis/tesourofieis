@@ -25,7 +25,7 @@ export default function Page0424() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui beátum Fidelem, seráphico spíritus ardore succénsum, in
               veræ fídei propagatióne martýrii palma et gloriósis miráculis
               decoráre dignátus es: ejus, quǽsumus, méritis et intercessióne,
@@ -33,7 +33,7 @@ export default function Page0424() {
               serívtio tuo fidéles usque ad mortem inveníri mereámur. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que na propagação da fé Vos dignastes ilustrar com a palma
               do martírio e com gloriosos milagres o B. Fiel, cujo coração ardia
               de amor seráfico, Vos suplicamos, pela vossa graça e pelos seus

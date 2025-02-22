@@ -18,33 +18,33 @@ export default function Page0802() {
           <Text className="em">Lc. 4, 18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Spíritus Dómini super me: propter quod unxit me: evangelizáre
               paupéribus misit me, sanáre contrítos corde.{" "}
-              <Text className="text-base latin">Ps. 77, 1</Text> Atténdite,
-              pópule meus, legem meam: inclináte aurem vestram in verba oris
-              mei. ℣. Gloria Patri...
+              <Text className="latin">Ps. 77, 1</Text> Atténdite, pópule meus,
+              legem meam: inclináte aurem vestram in verba oris mei.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O Espírito do Senhor está sobre mim; eis porque me ungiu; e me
               mandou evangelizar os pobres e sarar aqueles cujos corações estão
-              feridos. <Text className="text-base vernacular">Sl. 77, 1</Text>{" "}
-              Atendei à minha lei, ó meu povo; escutai as palavras que saem da
-              minha boca. ℣. Glória ao Pai...
+              feridos. <Text className="vernacular">Sl. 77, 1</Text> Atendei à
+              minha lei, ó meu povo; escutai as palavras que saem da minha boca.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui per beátum Alfónsum Maríam Confessórem tuum atque
               Pontíficem, animárum zelo succénsum, Ecclésiam tuam nova prole
               fœcundásti: quǽsumus; ut, ejus salutáribus mónitis edócti et
               exémplis roboráti, ad te perveníre felíciter valeámus. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que pelo ministério do B. Afonso Maria, vosso Confessor e
               Pontífice, que ardia em zelo pela salvação das almas, destes à
               vossa Igreja uma nova família, permiti, Vos suplicamos, que,
@@ -59,13 +59,13 @@ export default function Page0802() {
           <Text className="em">2 Tm. 2, 1-7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo a Timóteo.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Caríssime: Confortáre in grátia, quæ est in Christo Jesu: et quæ
               audísti a me per multos testes, hæc comménda fidálibus homínibus,
               qui idónei erunt et alios docére. Labóra sicut bonus miles Christi
@@ -75,7 +75,7 @@ export default function Page0802() {
               primum de frúctibus percípere. Intéllege quæ dico: dabit enim tibi
               Dóminus in ómnibus intelléctum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Caríssimo: Fortificai-vos na graça que está em Jesus Cristo; e,
               guardando o ensino, que aprendestes de mim diante de várias
               testemunhas, transmiti-o a homens fiéis, que sejam idóneos para
@@ -94,34 +94,35 @@ export default function Page0802() {
           <Text className="em">Sl. 118, 52-53</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Memor fui judiciórum tuórum a sǽculo, Dómine, et consolátus sum:
               deféctio ténuit me pro peccatóribus derelinquéntibus legem tuam.
-              ℣. <Text className="text-base latin">Ps. 39, 11</Text> Justítiam
-              tuam non abscóndi in corde meo: veritátem tuam et salutáre tuum
-              dixi.
+              <Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 39, 11</Text> Justítiam tuam non
+              abscóndi in corde meo: veritátem tuam et salutáre tuum dixi.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Recordei-me, Senhor, das vossas sentenças, que existiam antes dos
               séculos: e fiquei consolado. O desânimo apoderou-se de mim à vista
-              dos pecadores, que se afastaram da vossa lei. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 39, 11</Text> Não
-              ocultei a vossa justiça no meu coração, publiquei a vossa verdade
-              e a vossa salvação.
+              dos pecadores, que se afastaram da vossa lei.
+              <Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 39, 11</Text> Não ocultei a vossa
+              justiça no meu coração, publiquei a vossa verdade e a vossa
+              salvação.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Eccli. 49, 3-4</Text> Ipse est
-              diréctus divínitus in pœniténtiam gentis, et tulit abominatiónes
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Eccli. 49, 3-4</Text> Ipse est diréctus
+              divínitus in pœniténtiam gentis, et tulit abominatiónes
               impietátis: et gubernávit ad Dóminum cor ipsíus: et in diébus
               peccatórum corroborávit pietátem. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Ecl. 49, 3-4</Text> Foi
-              predestinado pelo alto para levar o povo à penitência; e fez
-              desaparecer as abominações da impiedade. Volveu o seu coração para
-              o Senhor: e nos dias dos pecadores desenvolveu a piedade. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Ecl. 49, 3-4</Text> Foi predestinado
+              pelo alto para levar o povo à penitência; e fez desaparecer as
+              abominações da impiedade. Volveu o seu coração para o Senhor: e
+              nos dias dos pecadores desenvolveu a piedade. Aleluia.
             </Text>
           </View>
 
@@ -137,12 +138,12 @@ export default function Page0802() {
           <Text className="em">Pr. 3, 9 & 27</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hónora Dóminum de tua substántia, et de primítiis ómnium frugum
               tuárum da ei. Noli prohibére benefácere eum, qui potest: si vales,
               et ipse bénefac.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Honra o Senhor, oferecendo-Lhe alguma coisa que te pertença:
               dá-lhe primícias de todos teus frutos. Ninguém proíba de praticar
               o bem a quem pode fazê-lo: e, se és capaz de fazer algum bem,
@@ -153,13 +154,13 @@ export default function Page0802() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Cœlésti, Dómine Jesu Christe, sacrifícii igne corda nostra in
               odórem suavitátis exúre: qui beáto Alfónso Maríæ tribuísti et hæc
               mystéria celebráre, et per éadem hóstiam tibi sanctam seípsum
               exhibére: Qui vivis...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor Jesus Cristo acendei nos nossos corações o fogo celestial
               do sacrifício para os consumir em odor de santidade, pois
               concedestes ao B. Afonso Maria a graça de celebrar estes mystérios
@@ -173,12 +174,12 @@ export default function Page0802() {
           <Text className="em">Ecl. 50, 1 & 9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sacérdos magnus, qui in vita sua suffúlsit domum, et in diébus
               suis corroborávit templum, quasi ignis effúlgens et thus ardens in
               igne.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Este grande Pontífice, que durante a sua vida sustentou a casa do
               Senhor e empregou os seus dias em fortificar o templo, apareceu,
               como uma chama, a arder e, como o incenso, abrasado no fogo!
@@ -188,13 +189,13 @@ export default function Page0802() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui beátum Alfónsum Maríam Confessórem tuum atque Pontíficem
               fidelem divíni mystérii dispensatórem et præcónem effecísti: ejus
               méritis precibúsque concéde; ut fidéles tui et frequénter
               percípiant, et percipiéndo sine fine colláudent. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que tornastes o B. Afonso Maria, vosso Confessor e
               Pontífice, fiel dispensador e pregador dos divinos mystérios,
               permiti que pelas suas preces e méritos os vossos fiéis os recebam

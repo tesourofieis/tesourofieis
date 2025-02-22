@@ -43,7 +43,7 @@ export default function Page0515() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui, ad christiánam páuperum eruditiónem et ad juvéntam in
               via veritátis firmándam, sanctum Joánnem Baptístam Confessórem
               excitásti, et novam per eum in Ecclésia famíliam collegísti:
@@ -51,7 +51,7 @@ export default function Page0515() {
               tuæ in animárum salúte fervéntes, ejus in cœlis corónæ partícipes
               fíeri valeámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que para o ensino dos pobres e para a firmeza dos jovens
               no caminho da verdade fizestes aparecer o Santo Confessor João
               Baptista, pelo qual fundastes uma nova família na Igreja,
@@ -67,15 +67,15 @@ export default function Page0515() {
           <Text className="em">Mt. 18, 1-5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis,
               putas, major est in regno cœlórum? Et ádvocans Jesus párvulum,
               státuit eum in médio eórum et dixit: Amen, dico vobis, nisi
@@ -84,7 +84,7 @@ export default function Page0515() {
               iste, hic est major in regno cœlórum. Et qui suscéperit unum
               párvulum talem in nómine meo, me súscipit.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, aproximaram-se de Jesus os seus discípulos,
               dizendo-Lhe: «Qual pensais Vós que é o maior no reino dos céus?».
               E Jesus, havendo chamado um pequeno, colocou-o no meio deles e

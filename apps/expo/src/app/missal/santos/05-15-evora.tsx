@@ -26,13 +26,13 @@ export default function Page0515Evora() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnípotens sempitérne Deus, qui Máncio, discípulo Unigéniti tui,
               Mártyr insígne tormentórum tolerántiam tribuísti: quǽsumus; ut
               sicut ejus passiónem venerámur: ita glóriæ ipsíus mereámur esse
               partícipes. Per eúmdem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó omnipotente e eterno Deus, que ao insigne Mártir Mâncio,
               discípulo do vosso Unigénito Filho, concedestes a força para
               suportar os tormentos, Vos pedimos que, assim como veneramos o seu

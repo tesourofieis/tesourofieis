@@ -49,13 +49,13 @@ export default function Page0626() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quǽsumus, omnípotens Deus: ut nos gemináta lætítia hodiérnæ
               festivitátis excípiat, quæ de beatórum Joánnis et Pauli
               glorificatióne procédit; quos eadem fides et pássio vere fecit
               esse germános. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Senhor omnipotente, Vos rogamos, permiti que participemos da
               alegria desta dupla festa, neste dia em que são glorificados os B.
               B. João e Paulo, que a mesma fé e o mesmo martírio tornaram
@@ -68,11 +68,9 @@ export default function Page0626() {
           <Text className="em">Ecl. 44, 10-15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Sapiéntiæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro da Sabedoria.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Sapiéntiæ.</Text>
+            <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
+            <Text className="latin">
               Hi viri misericórdiæ sunt, quorum pietátes non defuérunt: cum
               semine eórum pérmanent bona, heréditas sancta nepótes eórum, et in
               testaméntis stetit semen eórum: et fílii eórum propter illos usque
@@ -81,7 +79,7 @@ export default function Page0626() {
               generatiónem et generatiónem. Sapiéntiam ipsórum narrent pópuli,
               et laudem eórum núntiet Ecclésia.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               São homens de misericórdia e as obras da sua piedade não faltaram.
               Os bens, que deixaram à posteridade, permanecerão sempre. Seus
               descendentes constituirão uma herança sagrada; a sua raça manterá
@@ -97,24 +95,25 @@ export default function Page0626() {
           <Text className="em">Sl. 132, 1-2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Ecce, quam bonum et quam jucúndum, habitáre fratres in unum! ℣.
+            <Text className="latin">
+              Ecce, quam bonum et quam jucúndum, habitáre fratres in unum!
+              <Text className="versicle"> ℣. </Text>
               Sicut unguéntum in cápite, quod descéndit in barbam, barbam Aaron.
             </Text>
-            <Text className="text-base vernacular">
-              Ah! como é bom e consolador que os irmãos habitem juntamente. ℣. É
-              como o perfume espalhado na cabeça, que desceu sobre a barba de
-              Aarão.
+            <Text className="vernacular">
+              Ah! como é bom e consolador que os irmãos habitem juntamente.
+              <Text className="versicle"> ℣. </Text>É como o perfume espalhado
+              na cabeça, que desceu sobre a barba de Aarão.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣. Hæc est vera fratérnitas, quæ vicit mundi
-              crímina: Christum secúta est, ínclita tenens regna cœléstia.
-              Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Hæc est
+              vera fratérnitas, quæ vicit mundi crímina: Christum secúta est,
+              ínclita tenens regna cœléstia. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣. Esta é a verdadeira fraternidade que venceu
-              os crimes do mundo: ela seguiu Cristo e por isso possuirá
-              gloriosamente o reino do céu. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Esta é a
+              verdadeira fraternidade que venceu os crimes do mundo: ela seguiu
+              Cristo e por isso possuirá gloriosamente o reino do céu. Aleluia.
             </Text>
           </View>
 
@@ -130,12 +129,12 @@ export default function Page0626() {
           <Text className="em">Sl. 5, 12-13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Gloriabúntur in te omnes, qui díligunt nomen tuum, quóniam tu,
               Dómine, benedíces justo: Dómine, ut scuto bonæ voluntátis tuæ
               coronásti nos.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Todos aqueles que amam o vosso nome, Senhor, serão glorificados
               convosco, pois abençoais o justo. Vós o protegereis, Senhor, com
               vossa boa vontade, como se fora um escudo.
@@ -145,12 +144,12 @@ export default function Page0626() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hóstias tibi, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli
               dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue
               proveníre subsídium. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aceitai benigno, Senhor, as hóstias que Vos oferecemos pelos
               méritos dos vossos Santos Mártires João e Paulo e dignai-Vos, em
               virtude delas, fazer descer sobre nós o vosso perpétuo socorro.
@@ -163,12 +162,12 @@ export default function Page0626() {
           <Text className="em">Sb. 3, 4, 5 & 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Est si coram homínibus torménta passi sunt, Deus tentavit eos:
               tamquam aurum in fornáce probávit eos, et quasi holocáusta accépit
               eos.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Se sofreram tormentos diante dos homens, foi porque Deus os
               provou. Deus provou-os, como ao ouro, na fornalha, e recebeu-os,
               como hóstia de holocausto.
@@ -178,13 +177,13 @@ export default function Page0626() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Súmpsimus, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli
               sollémnia celebrántes, sacraménta cœléstia: præsta, quǽsumus; ut,
               quod temporáliter gérimus, ætérnis gáudiis consequámur. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Recebemos, Senhor, os vossos celestiais sacramentos, celebrando a
               festa dos vossos Santos Mártires João e Paulo; e concedei-nos, Vos
               suplicamos, que alcancemos nos gozos eternos o que agora

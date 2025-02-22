@@ -42,27 +42,27 @@ export default function Page0714() {
           <Text className="em">Sl. 36, 30-31</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.
-              ℣. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus
-              ejus.
+              <Text className="versicle"> ℣. </Text>Lex Dei ejus in corde
+              ipsíus: et non supplantabúntur gressus ejus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A boca do justo falará com sabedoria e a sua língua proclamará a
-              justiça. ℣. A lei do seu Deus está no seu coração e os seus pés
-              não tropeçarão.
+              justiça.<Text className="versicle"> ℣. </Text>A lei do seu Deus
+              está no seu coração e os seus pés não tropeçarão.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 109, 4</Text> Jurávit
-              Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum, secúndum
-              órdinem Melchísedech. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 109, 4</Text> Jurávit Dóminus, et non
+              pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem
+              Melchísedech. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Ps. 109, 4</Text> O Senhor
-              jurou, e não se arrependerá: tu és sacerdote para sempre segundo a
-              ordem de Melquisedeque. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Ps. 109, 4</Text> O Senhor jurou, e
+              não se arrependerá: tu és sacerdote para sempre segundo a ordem de
+              Melquisedeque. Aleluia.
             </Text>
           </View>
 
@@ -71,11 +71,11 @@ export default function Page0714() {
           <Text className="em">Sl. 88, 25</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Veritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A minha fidelidade e a minha misericórdia estarão com ele: e o seu
               poder exaltar-se-á pelo meu nome.
             </Text>

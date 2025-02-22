@@ -19,7 +19,7 @@ export default function PageNatal() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
               Deus: Quia per incarnáti Verbi mystérium nova mentis nostræ óculis
@@ -28,7 +28,7 @@ export default function PageNatal() {
               Archángelis, cum Thronis et Dominatiónibus cumque omni milítia
               cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Verdadeiramente é digno e justo, racional e salutar dar-Vos
               graças, Senhor santo, Pai omnipotente, eterno Deus, em todos os
               lugares e sempre, porque pelo mystério do Verbo Incarnado um novo

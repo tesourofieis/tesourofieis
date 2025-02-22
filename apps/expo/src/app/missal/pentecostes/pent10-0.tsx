@@ -15,35 +15,36 @@ export default function PagePent100() {
           <Text className="em">Sl. 54, 17, 18, 20 & 23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Cum clamárem ad Dóminum, exaudívit vocem meam, ab his, qui
               appropínquant mihi: et humiliávit eos, qui est ante sǽcula et
               manet in ætérnum: jacta cogitátum tuum in Dómino, et ipse te
-              enútriet. <Text className="text-base latin">Ps. ibid., 2</Text>{" "}
-              Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam:
-              inténde mihi et exáudi me. ℣. Gloria Patri...
+              enútriet. <Text className="latin">Ps. ibid., 2</Text> Exáudi,
+              Deus, oratiónem meam, et ne despéxeris deprecatiónem meam: inténde
+              mihi et exáudi me.<Text className="versicle"> ℣. </Text>Gloria
+              Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Como invocasse o Senhor, ouviu Ele a minha voz e protegeu-me
               contra os que me combatem. Aquele que existia antes dos séculos e
               subsistirá eternamente humilhou-os. Depositai nas mãos do Senhor
               todas as preocupações, pois Ele vos sustentará.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 2</Text> Ouvi,
-              Senhor, a minha oração e não desprezeis a minha humilde súplica:
-              escutai-me, ouvi-me. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. ibid., 2</Text> Ouvi, Senhor, a
+              minha oração e não desprezeis a minha humilde súplica: escutai-me,
+              ouvi-me.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui omnipoténtiam tuam parcéndo máxime et miserándo
               maniféstas: multíplica super nos misericórdiam tuam; ut, ad tua
               promíssa curréntes, cœléstium bonórum fácias esse consórtes. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que manifestais principalmente o vosso poder perdoando ao
               pecador e compadecendo-Vos das suas misérias, multiplicai sobre
               nós a abundância da vossa misericórdia, a fim de que, suspirando
@@ -57,13 +58,13 @@ export default function PagePent100() {
           <Text className="em">1 Cor 12, 2-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Scitis, quóniam, cum gentes essétis, ad simulácra muta
               prout ducebámini eúntes. Ideo notum vobisfacio, quod nemo in
               Spíritu Dei loquens, dicit anáthema Jesu. Et nemo potest dícere,
@@ -79,7 +80,7 @@ export default function PagePent100() {
               autem ómnia operátur unus atque idem Spíritus, dívidens síngulis,
               prout vult.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Recordai-vos de que, quando éreis pagãos, íeis aos
               ídolos mudos, sempre que vos conduziam. Ora, eu vos digo que
               ninguém, inspirado pelo Espírito de Deus, poderá anatematizar
@@ -105,26 +106,27 @@ export default function PagePent100() {
           <Text className="em">Sl. 16, 8 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum
-              prótege me. ℣. De vultu tuo judícium meum pródeat: óculi tui
-              vídeant æquitátem.
+              prótege me.<Text className="versicle"> ℣. </Text>De vultu tuo
+              judícium meum pródeat: óculi tui vídeant æquitátem.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Guardai-me, Senhor, como a pupila olhos: acolhei-me à sombra das
-              vossas o Senhor. ℣. Que os vossos lábios pronunciem o meu juízo: e
-              que os vossos olhos vejam a minha justiça.
+              vossas o Senhor.<Text className="versicle"> ℣. </Text>Que os
+              vossos lábios pronunciem o meu juízo: e que os vossos olhos vejam
+              a minha justiça.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps 64, 2</Text> Te decet hymnus,
-              De us, in Sion: et tibi redde tu votum in Jerúsalem. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps 64, 2</Text> Te decet hymnus, De us, in
+              Sion: et tibi redde tu votum in Jerúsalem. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Ps 64, 2</Text> Diante de
-              Vós, Senhor, é conveniente cantar hinos em Sião: diante de Vós
-              deve cada um cumprir os seus votos em Jerusalém. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Ps 64, 2</Text> Diante de Vós,
+              Senhor, é conveniente cantar hinos em Sião: diante de Vós deve
+              cada um cumprir os seus votos em Jerusalém. Aleluia.
             </Text>
           </View>
 
@@ -133,15 +135,15 @@ export default function PagePent100() {
           <Text className="em">Lc. 18, 9-14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus ad quosdam, qui in se confidébant
               tamquam justi et aspernabántur céteros, parábolam istam: Duo
               hómines ascendérunt in templum, ut orárent: unus pharisǽus, et
@@ -154,7 +156,7 @@ export default function PagePent100() {
               descéndit hic justificátus in domum suam ab illo: quia omnis qui
               se exáltat, humiliábitur: et qui se humíliat, exaltábitur.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus esta parábola a uns certos que se
               presumiam justos e punham a confiança em si próprios, desprezando
               os outros: «dois homens subiram ao templo a orar, sendo um fariseu
@@ -176,12 +178,12 @@ export default function PagePent100() {
           <Text className="em">Sl. 24, 1-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non
               erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te
               exspéctant, non confundéntur.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A Vós elevei a minha alma. O Deus, confio em Vós: não permitireis
               que e confundido e envergonhado: nem vencido meus inimigos;
               porquanto aqueles que em Vós confiam não serão confundidos.
@@ -191,12 +193,12 @@ export default function PagePent100() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tibi, Dómine, sacrifícia dicáta reddántur: quæ sic ad honórem
               nóminis tui deferénda tribuísti, ut eadem remédia fíeri nostra
               præstáres. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A Vós, Senhor, é devida a homenagem destes sacrifícios, pois
               fostes Vós que permitindo-nos que os oferecêssemos em glória do
               vosso nome, os tornastes remédio das nossas almas. Por nosso
@@ -209,11 +211,11 @@ export default function PagePent100() {
           <Text className="em">Sl. 50, 21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Acceptábis sacrificium justítiæ, oblatiónes et holocáusta, super
               altáre tuum, Dómine.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dignai-Vos, Senhor, aceitar sobre o vosso Altar o sacrifício da
               justiça, as ofertas e os holocaustos.
             </Text>
@@ -222,12 +224,12 @@ export default function PagePent100() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quǽsumus, Dómine, Deus noster: ut, quos divínis reparáre non
               désinis sacraméntis, tuis non destítuas benígnus auxíliis. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vos suplicamos, ó Senhor, nosso Deus, não priveis do vosso auxílio
               àqueles a quem não cessais de alimentar com os divinos
               sacramentos. Por nosso Senhor...

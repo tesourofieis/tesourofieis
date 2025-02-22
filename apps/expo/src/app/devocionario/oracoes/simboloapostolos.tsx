@@ -11,7 +11,7 @@ export default function PageSimboloapostolos() {
           <Text className="h1">Símbolo dos Apóstolos</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Credo in Deum, Patrem omnipoténtem, Creatórem cæli et terræ. Et in
               Jesum Christum, Fílium ejus únicum, Dóminùm nostrum: qui concéptus
               est de Spíritu Sancto, natus ex María Vírgine, passus sub Pontio
@@ -22,7 +22,7 @@ export default function PageSimboloapostolos() {
               cathólicam, Sanctórum communionem, remissiónem peccatórum, carnis
               resurrectiónem, vitam ætérnam. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Creio em Deus, Pai todo-poderoso, Criador do Céu e da Terra; e em
               Jesus Cristo, seu único Filho, Nosso Senhor, que foi concebido
               pelo poder do Espírito Santo; nasceu da Virgem Maria; padeceu sob

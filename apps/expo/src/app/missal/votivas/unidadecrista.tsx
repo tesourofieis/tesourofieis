@@ -15,34 +15,35 @@ export default function PageUnidadecrista() {
           <Text className="em">Sl. 105, 47</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Salvos nos fac, Dómine, Deus noster, et cóngrega nos de
               natiónibus: ut confiteámur nómini sancto tuo, et gloriémur in
               laude tua. (T. P. Allelúja, allelúja.){" "}
-              <Text className="text-base latin">Ps. ibid., 1</Text> Confitémini
-              Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus. ℣.
+              <Text className="latin">Ps. ibid., 1</Text> Confitémini Dómino,
+              quóniam bonus: quóniam in sǽculum misericórdia ejus.
+              <Text className="versicle"> ℣. </Text>
               Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Salvai-nos, Senhor, Deus nosso, e uni-nos entre as nações, para
               confessarmos o vosso nome e alegrarmo-nos com vossos louvores. (T.
               P. Aleluia, aleluia.){" "}
-              <Text className="text-base vernacular">Sl. ibid., 1</Text>{" "}
-              Glorificai o Senhor, porque Ele é bom; porque a sua misericórdia é
-              eterna. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. ibid., 1</Text> Glorificai o
+              Senhor, porque Ele é bom; porque a sua misericórdia é eterna.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui errata córrigis, et dispérsa cóngregas, et congregáta
               consérvas: quǽsumus, super pópulum christiánum tuæ uniónis grátiam
               cleménter infúnde; ut, divisióne rejécta, vero pastóri Ecclésiæ
               tuæ se úniens, tibi digne váleat famulári. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que corrigis os erros, unis o que anda disperso e
               conservais o que reunis, infundi clementemente sobre o povo
               cristão, Vos suplicamos, a graça da vossa união, a fim de que,
@@ -56,13 +57,13 @@ export default function PageUnidadecrista() {
           <Text className="em">Ef. 4, 1-7 et 13-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Obsecro vos, ut digne ambulétis vocatióne, qua vocáti
               estis, cum omni humilitáte, et mansuetúdine, cum patiéntia,
               supportántes ínvicem in caritáte, sollíciti serváre unitátem
@@ -89,7 +90,7 @@ export default function PageUnidadecrista() {
               audístis, et in ipso edócti estis, sicut est véritas in Christo
               Jesu, Dómino nostro.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Rogo-vos que procedais de modo digno da vocação a que
               fostes chamados, com toda a humildade, mansidão e paciência,
               suportando-vos reciprocamente com caridade e sendo solícitos em
@@ -123,24 +124,25 @@ export default function PageUnidadecrista() {
           <Text className="em">Sl. 121, 6-7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Rogáte quæ ad pacem sunt Jerúsalem: et abundántia diligéntibus te.
-              ℣. Fiat pax in virtúte tua: et abundántia in túrribus tuis.
+              <Text className="versicle"> ℣. </Text>Fiat pax in virtúte tua: et
+              abundántia in túrribus tuis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Rogai a paz para os que estão em Jerusalém: e a abundância para
-              aqueles que te amam. ℣. Reine a paz dentro dos teus muros e a
-              abundância nas tuas fortalezas.
+              aqueles que te amam.<Text className="versicle"> ℣. </Text>Reine a
+              paz dentro dos teus muros e a abundância nas tuas fortalezas.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 147, 12</Text> Lauda,
-              Jerúsalem, Dóminum: lauda Deum tuum, Sion. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 147, 12</Text> Lauda, Jerúsalem,
+              Dóminum: lauda Deum tuum, Sion. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 147, 12</Text> Louva o
-              Senhor, ó Jerusalém; louva o teu Deus, ó Sião. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 147, 12</Text> Louva o Senhor, ó
+              Jerusalém; louva o teu Deus, ó Sião. Aleluia.
             </Text>
           </View>
 
@@ -154,15 +156,19 @@ export default function PageUnidadecrista() {
           <Text className="em">Sl. 75, 2-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Notus in Judǽa Deus, in Israël magnum nomen ejus. ℣. Et factus est
-              in pace locus ejus, et habitátio ejus in Sion. ℣. Ibi confrégit
-              poténtias árcuum, scutum, gládium, et bellum.
+            <Text className="latin">
+              Notus in Judǽa Deus, in Israël magnum nomen ejus.
+              <Text className="versicle"> ℣. </Text>Et factus est in pace locus
+              ejus, et habitátio ejus in Sion.
+              <Text className="versicle"> ℣. </Text>Ibi confrégit poténtias
+              árcuum, scutum, gládium, et bellum.
             </Text>
-            <Text className="text-base vernacular">
-              Deus é conhecido na Judeia: e o seu nome é grande em Israel. ℣.
-              Sua habitação é no lugar da paz; a sua morada é em Sião. ℣. Ali
-              quebrou as forças do arco, do escudo, da espada e dos combates.
+            <Text className="vernacular">
+              Deus é conhecido na Judeia: e o seu nome é grande em Israel.
+              <Text className="versicle"> ℣. </Text>
+              Sua habitação é no lugar da paz; a sua morada é em Sião.
+              <Text className="versicle"> ℣. </Text>Ali quebrou as forças do
+              arco, do escudo, da espada e dos combates.
             </Text>
           </View>
 
@@ -171,17 +177,19 @@ export default function PageUnidadecrista() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 147, 12</Text> Lauda,
-              Jerúsalem, Dóminum: lauda Deum tuum, Sion. Allelúja. ℣.{" "}
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 147, 12</Text> Lauda, Jerúsalem,
+              Dóminum: lauda Deum tuum, Sion. Allelúja.
+              <Text className="versicle"> ℣. </Text>
               <Text className="em">ibid., 14</Text> Quid pósuit fines tuos
               pacem, et ádipe fruménti sátiat te. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Ps. 147, 12</Text> Louva o
-              Senhor, ó Jerusalém; louva o teu Deus, ó Sião. Aleluia. ℣.{" "}
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Ps. 147, 12</Text> Louva o Senhor, ó
+              Jerusalém; louva o teu Deus, ó Sião. Aleluia.
+              <Text className="versicle"> ℣. </Text>
               <Text className="em">ibid., 14</Text> Foi Ele quem estabeleceu a
               paz nas tuas fronteiras; e te sacia com a flor da farinha.
               Aleluia.
@@ -193,15 +201,15 @@ export default function PageUnidadecrista() {
           <Text className="em">Jo. 17, 1 & 11-23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Sublevátis Jesus oculis in cœlum, dixit: Pater
               sancte, serva eos in nómine tuo, quos dedísti mihi: ut sint unum,
               sicut et nos. Cum essem cum eis, ego servábam eos in nómine tuo.
@@ -222,7 +230,7 @@ export default function PageUnidadecrista() {
               nos unum sumus. Ego in eis, et tu in me, ut sint consummáti in
               unum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, erguendo Jesus os olhos para o céu, disse: «Pai
               santo, pelo vosso nome, guardai aqueles que me entregastes, a fim
               de que sejam um só, como nós. Quando estive com eles, guardei pelo
@@ -252,11 +260,11 @@ export default function PageUnidadecrista() {
           <Text className="em">Rm. 15, 5-6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Det vobis Deus idípsum sápere in altérutrum: ut unánimes uno ore
               honorificétis Deum nostrum. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que Deus vos conceda uns para com os outros um unânime modo de
               sentir, de modo que possais unanimemente com uma só voz glorificar
               o nosso Deus. (T. P. Aleluia.)
@@ -266,12 +274,12 @@ export default function PageUnidadecrista() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Múnera hæc pro unióne pópuli christiáni tibi, Dómine, oblata
               sanctífica: per quæ unitátis et pacis in Ecclésia tua nobis dona
               concédas. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Santificai, Senhor, os dons que Vos oferecemos pela unidade do
               povo cristão, pelos quais, Vos pedimos, concedais à vossa Igreja a
               união e a paz. Por nosso Senhor...
@@ -283,11 +291,11 @@ export default function PageUnidadecrista() {
           <Text className="em">1 Cor. 10, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Unus panis, et unum corpus multi sumus, omnes, qui de uno pane et
               de uno cálice participámus. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ainda que sejamos muitos, formamos um só pão e um só corpo, e
               todos participamos de um só pão e um só cálice. (T. P. Aleluia.)
             </Text>
@@ -296,12 +304,12 @@ export default function PageUnidadecrista() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hæc tua, Dómine, sumpta sacra commúnio: sicut fidélium in te
               uniónem præsígnat; sic in tua Ecclésia unitátis, quǽsumus,
               operétur efféctum. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que esta sagrada comunhão, Senhor, assim como representa a união
               dos fiéis em Vós, assim, Vos suplicamos, produza desde já o efeito
               da unidade na vossa Igreja. Por nosso Senhor...

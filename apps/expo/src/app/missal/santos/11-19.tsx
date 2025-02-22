@@ -23,12 +23,12 @@ export default function Page1119() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tuórum corda fidélium, Deus miserátor, illústra: et, beátæ
               Elisabeth précibus gloriósis; fac nos próspera mundi despícere, et
               cœlésti semper consolatióne gaudére. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus de misericórdia, esclarecei os corações dos vossos fiéis;
               e, pelas gloriosas preces da B. Isabel, concedei-nos a graça de
               desprezarmos as prosperidades deste mundo e de gozarmos

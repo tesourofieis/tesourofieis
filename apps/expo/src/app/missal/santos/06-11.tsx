@@ -21,12 +21,12 @@ export default function Page0611() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui nos beáti Bárnabæ Apóstoli tui méritis et intercessióne
               lætíficas: concéde propítius; ut, qui tua per eum benefícia
               póscimus, dono tuæ grátiæ consequámur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que nos alegrais com os méritos e intercessão do B.
               Barnabé, vosso Apóstolo, concedei-nos propício que, suplicando os
               vossos benefícios pela sua intercessão, os obtenhamos por efeito
@@ -39,11 +39,9 @@ export default function Page0611() {
           <Text className="em">Act. 11, 21-26; 13, 1-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Actuum Apostolórum.</Text>
-            <Text className="text-base vernacular">
-              Lição dos Actos dos Apóstolos.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Actuum Apostolórum.</Text>
+            <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
+            <Text className="latin">
               In diébus illis: Multus numerus credentium Antiochíæ convérsus est
               ad Dóminum. Pervénit autem sermo ad aures ecclésiæ, quæ erat
               Jerosólymis, super istis: et misérunt Bárnabam usque ad
@@ -62,7 +60,7 @@ export default function Page0611() {
               et Bárnabam in opus, ad quod assúmpsi eos. Tunc jejunántes et
               orantes imponentésque eis manus, dimisérunt illos.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, um grande número de pessoas acreditaram e
               converteram-se ao Senhor em Antioquia; e, havendo esta notícia
               chegado à igreja de Jerusalém, mandaram Barnabé a Antioquia, o
@@ -88,27 +86,28 @@ export default function Page0611() {
           <Text className="em">Sl. 18, 5 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               In omnem terram exívit sonus eórum: et in fines orbis terræ verba
-              eórum. ℣. Cœli enárrant glóriam Dei: et ópera mánuum ejus
-              annúntiat firmaméntum.
+              eórum.<Text className="versicle"> ℣. </Text>Cœli enárrant glóriam
+              Dei: et ópera mánuum ejus annúntiat firmaméntum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O som da sua voz espalhou-se por toda a terra: as suas palavras
-              soaram até aos confins do mundo. ℣. Os céus apregoam a glória do
+              soaram até aos confins do mundo.
+              <Text className="versicle"> ℣. </Text>Os céus apregoam a glória do
               Senhor e o firmamento manifesta as obras das suas mãos.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Joann. 15, 16</Text> Ego vos
-              elégi de mundo, ut eátis et fructum afferátis: et fructus vester
-              maneat. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Joann. 15, 16</Text> Ego vos elégi de
+              mundo, ut eátis et fructum afferátis: et fructus vester maneat.
+              Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Jo. 15, 16</Text> Eu vos
-              escolhi para que possais ir e alcançar fruto; e para que esse
-              vosso fruto permaneça. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Jo. 15, 16</Text> Eu vos escolhi para
+              que possais ir e alcançar fruto; e para que esse vosso fruto
+              permaneça. Aleluia.
             </Text>
           </View>
 
@@ -124,11 +123,11 @@ export default function Page0611() {
           <Text className="em">Sl. 44, 17-18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Constítues eos príncipes super omnem terram: mémores erunt nóminis
               tui, Dómine, in omni progénie et generatióne.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vós os constituireis príncipes em toda a terra: e perpetuarão o
               vosso nome, Senhor, de geração em geração.
             </Text>
@@ -137,12 +136,12 @@ export default function Page0611() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Múnera, Dómine, obláta sanctífica, et, intercedénte beáto Bárnaba
               Apostolo tuo, nos per hæc a peccatórum nostrórum máculis emúnda.
               Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Santificai, Senhor, estes dons que Vos são oferecidos, e, por
               intercessão do B. Barnabé, vosso Apóstolo, fazei que nos
               purifiquem das manchas dos nossos pecados. Por nosso Senhor Jesus
@@ -155,11 +154,11 @@ export default function Page0611() {
           <Text className="em">Mt. 19, 28</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vos, qui secúti estis me, sedébitis super sedes, judicántes
               duódecim tribus Israël.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vós, que me seguistes, vos assentareis sobre tronos e julgareis as
               dozes tribos de Israel.
             </Text>
@@ -168,12 +167,12 @@ export default function Page0611() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis
               sacraméntis, intercedénte beáto Bárnaba Apóstolo tuo, tibi étiam
               plácitis móribus dignánter tríbuas deservíre. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente, Vos rogamos humildemente que pela intercessão
               do B. Barnabé, vosso Apóstolo, concedais àqueles que alimentais
               com vossos sacramentos a graça de Vos servirem dignamente com

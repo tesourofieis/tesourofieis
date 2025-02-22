@@ -43,13 +43,13 @@ export default function Page0427() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui ad tuéndam cathólicam iidem beátum Petrum Confessórem
               tuum virtúte et doctrína roborásti: concéde propítius; ut ejus
               exémplis et mónitis errántes ad salútem resipíscant, et fidéles in
               veritátis confessióne persevérent. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que revestistes o B. Pedro, vosso Confessor, com os dons
               da virtude e da ciência para a defesa da fé católica, concedei-nos
               propício que seus exemplos e ensinos atraiam ao caminho da

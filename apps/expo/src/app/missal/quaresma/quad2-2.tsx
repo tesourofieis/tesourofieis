@@ -15,18 +15,20 @@ export default function PageQuad22() {
           <Text className="em">Sl. 26, 8 & 9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tibi dixit cor meum, quæsívi vultum tuum, vultum tuum, Dómine,
               requíram: ne avértas fáciem tuam a me.{" "}
-              <Text className="text-base latin">Ps. ibid., 1</Text> Dóminus
-              illuminátio mea, et salus mea: quem timébo? ℣. Gloria Patri...
+              <Text className="latin">Ps. ibid., 1</Text> Dóminus illuminátio
+              mea, et salus mea: quem timébo?
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Da vossa parte, Senhor, me diz meu coração: «Procura a minha
               presença». Sim, não deixarei, Senhor, de procurar a vossa
               presença. Não Vos afasteis, pois, de mim.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 1</Text> O
-              Senhor é a minha luz e a minha salvação. A quem, pois, temerei? ℣.
+              <Text className="vernacular">Sl. ibid., 1</Text> O Senhor é a
+              minha luz e a minha salvação. A quem, pois, temerei?
+              <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
           </View>
@@ -34,12 +36,12 @@ export default function PageQuad22() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Pérfice, quǽsumus, Dómine, benignus in nobis observántiæ sanctæ
               subsídium: ut, quæ te auctóre faciénda cognóvimus, te operánte
               impleámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos imploramos, continuai a assistir-nos com vossa bondade
               durante a observância deste santo jejum, a fim de que com vosso
               auxílio pratiquemos esta boa obra que nos ensinastes com vosso
@@ -52,11 +54,9 @@ export default function PageQuad22() {
           <Text className="em">3 Rs. 17, 8-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Regum.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro dos Reis.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Regum.</Text>
+            <Text className="vernacular">Lição do Livro dos Reis.</Text>
+            <Text className="latin">
               In diébus illis: Factus est sermo Dómini ad Elíam Thesbíten,
               dicens: Surge et vade in Saréphta Sidoniórum, et manébis ibi:
               præcépi enim ibi mulíeri víduæ, ut pascat te. Surréxit et ábiit in
@@ -78,7 +78,7 @@ export default function PageQuad22() {
               ex illa die hýdria farínæ non defécit, et lécythus ólei non est
               imminútus, juxta verbum Dómini, quod locútus fúerat in manu Elíæ.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, falou o Senhor a Elias Tesbiteu, dizendo:
               «Ergue-te, vai a Sarepta de Sídon e fica lá, pois mandei a uma
               viúva daquela terra que te sustente». Elias obedeceu à voz de
@@ -110,15 +110,16 @@ export default function PageQuad22() {
           <Text className="em">Sl. 54, 23, 17, 18 & 19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Jacta cogitátum tuum in Dómino, et ipse te enútriet. ℣. Dum
-              clamárem ad Dóminum, exaudívit vocem meam ab his, qui
-              appropínquant mihi.
+            <Text className="latin">
+              Jacta cogitátum tuum in Dómino, et ipse te enútriet.
+              <Text className="versicle"> ℣. </Text>Dum clamárem ad Dóminum,
+              exaudívit vocem meam ab his, qui appropínquant mihi.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deixai as vossas preocupações nas mãos do Senhor, que Ele cuidará
-              de vós! ℣. Quando eu rezava ao Senhor, ouviu Ele a minha voz e
-              salvou-me daqueles que me cercavam.
+              de vós!<Text className="versicle"> ℣. </Text>Quando eu rezava ao
+              Senhor, ouviu Ele a minha voz e salvou-me daqueles que me
+              cercavam.
             </Text>
           </View>
 
@@ -127,15 +128,15 @@ export default function PageQuad22() {
           <Text className="em">Mt. 23, 1-12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Locútus est Jesus ad turbas et ad discípulos
               suos, dicens: Super cáthedram Moysi sedérunt scribæ et pharisǽi.
               Omnia ergo, quæcúmque díxerint vobis, serváte et fácite: secúndum
@@ -152,7 +153,7 @@ export default function PageQuad22() {
               Christus. Qui major est vestrum, erit miníster vester. Qui autem
               se exaltáverit, humiliábitur: et qui se humiliáverit, exaltábitur.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, Jesus falou às turbas e aos discípulos, dizendo:
               «Na cadeira de Moisés sentaram-se os escribas e os fariseus.
               Observai, pois, e fazei tudo o que vos disserem, mas não procedais
@@ -178,11 +179,11 @@ export default function PageQuad22() {
           <Text className="em">Sl. 50, 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Miserére mei, Dómine, secúndum magnam misericórdiam tuam: dele,
               Dómine, iniquitátem meam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Tende piedade de mim, Senhor, segundo a grandeza da vossa
               misericórdia; dignai-Vos, Senhor, esquecer a minha iniquidade.
             </Text>
@@ -191,12 +192,12 @@ export default function PageQuad22() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sanctificatiónem tuam nobis, Dómine, his mystériis operáre
               placátus: quæ nos et a terrénis purget vítiis, et ad cœléstia dona
               perdúcat. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, dignai-Vos benignamente santificar-nos pela virtude destes
               mystérios, a fim de que, estando purificados dos nossos vícios,
               alcancemos as recompensas celestiais. Por nosso Senhor...
@@ -208,11 +209,11 @@ export default function PageQuad22() {
           <Text className="em">Sl. 9, 2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Narrábo ómnia mirabília tua: lætábor, et exsultábo in te: psallam
               nómini tuo, Altíssime.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Publicarei todas as vossas maravilhas: em Vós me alegrarei e
               regozijarei: e cantarei hinos em louvor do vosso nome, ó
               Altíssimo.
@@ -222,11 +223,11 @@ export default function PageQuad22() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ut sacris, Dómine, reddámur digni munéribus: fac nos tuis,
               quǽsumus, semper obœdíre mandátis. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Para que sejamos dignos dos vossos sacrossantos dons, fazei,
               Senhor, Vos suplicamos, que obedeçamos sempre aos vossos
               mandamentos. Por nosso Senhor...
@@ -236,24 +237,22 @@ export default function PageQuad22() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">Orémus.</Text>
+            <Text className="latin">
+              <Text className="latin">Orémus.</Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">Oremos.</Text>
+            <Text className="vernacular">
+              <Text className="vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base latin">
-              Humiliáte cápita vestra Deo.
-            </Text>
-            <Text className="text-base vernacular">
+            <Text className="latin">Humiliáte cápita vestra Deo.</Text>
+            <Text className="vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Propitiáre, Dómine, supplicatiónibus nostris, et animárum
               nostrárum medére languóribus: ut, remissióne percépta, in tua
               semper benedictióne lætámur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Sede propício às nossas súplicas, Senhor, e curai as doenças das
               nossas almas, a fim de que, havendo alcançado o perdão, nos
               alegremos sempre com vossa bênção. Por nosso Senhor...

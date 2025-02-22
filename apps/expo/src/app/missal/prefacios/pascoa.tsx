@@ -18,7 +18,7 @@ export default function PagePascoa() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vere dignum et justum est, æquum et salutáre: Te quidem, Dómine,
               omni témpore, sed in hac potissímum die (vel in hoc potíssimum)
               gloriósius prædicáre, cum Pascha nostrum immolátus est Christus.
@@ -28,7 +28,7 @@ export default function PagePascoa() {
               omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine
               fine dicéntes:
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               É verdadeiramente digno e justo, racional e salutar, que Vos
               louvemos sempre, mas principalmente... em que Jesus Cristo foi
               imolado, como nova Páscoa. Pois Ele é o verdadeiro Cordeiro que

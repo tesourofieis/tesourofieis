@@ -15,33 +15,33 @@ export default function Page0824() {
           <Text className="em">Sl. 138, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortatus
               est principatus eórum.{" "}
-              <Text className="text-base latin">Ps. ibid., 1-2</Text> Dómine,
-              probásti me et cognovísti me: tu cognovisti sessiónem meam et
-              resurrectionem meam. ℣. Gloria Patri...
+              <Text className="latin">Ps. ibid., 1-2</Text> Dómine, probásti me
+              et cognovísti me: tu cognovisti sessiónem meam et resurrectionem
+              meam.<Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eu vejo, ó Deus, que honrais largamente os vossos amigos: e que
               seu poder se tem fortalecido extraordinariamente.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 1-2</Text>{" "}
-              Senhor, perscrutastes o meu íntimo e ficastes-me conhecendo;
-              ficastes conhecendo quando me deito e quando me levanto. ℣. Glória
-              ao Pai...
+              <Text className="vernacular">Sl. ibid., 1-2</Text> Senhor,
+              perscrutastes o meu íntimo e ficastes-me conhecendo; ficastes
+              conhecendo quando me deito e quando me levanto.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnípotens sempitérne Deus, qui hujus diei venerándam sanctámque
               lætítiam in beáti Apóstoli tui Bartholomǽi festivitáte tribuísti:
               da Ecclésiæ tuæ, quǽsumus; et amáre quod crédidit, et prædicáre
               quod dócuit. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente e sempiterno, que neste dia, em que celebramos
               a festa do B. Bartolomeu, Apóstolo, nos proporcionais uma santa e
               veneranda alegria, concedei à vossa Igreja, Vos suplicamos, o dom
@@ -55,13 +55,13 @@ export default function Page0824() {
           <Text className="em">1 Cor. 12, 27-31</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Vos estis corpus Christi et membra de membro. Et quosdam
               quidem pósuit Deus in Ecclésia primum apóstolos, secúndo
               prophetas, tertio doctores, deinde virtútes, exinde grátias
@@ -71,7 +71,7 @@ export default function Page0824() {
               omnes grátiam habent curationum? numquid omnes linguis loquúntur?
               numquid omnes interpretántur? Æmulámini autem charísmata melióra.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Sois os corpos de Cristo e os membros uns dos outros.
               Assim, Deus estabeleceu na sua Igreja primeiramente Apóstolos, em
               segundo lugar Profetas, em terceiro lugar Doutores, depois os que
@@ -89,23 +89,25 @@ export default function Page0824() {
           <Text className="em">Sl. 44, 17 & 18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Constítues eos príncipes super omnem terram: mémores erunt nóminis
-              tui, Dómine. ℣. Pro patribus tuis nati sunt tibi fílii: proptérea
-              pópuli confitebúntur tibi.
+              tui, Dómine.<Text className="versicle"> ℣. </Text>Pro patribus
+              tuis nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Serão constituídos príncipes em toda a terra e perpetuarão a
-              glória do vosso nome, Senhor! ℣. Para substituir os vossos pais,
-              nascer-vos-ão filhos; por isso os povos Vos honrarão eternamente.
+              glória do vosso nome, Senhor!
+              <Text className="versicle"> ℣. </Text>
+              Para substituir os vossos pais, nascer-vos-ão filhos; por isso os
+              povos Vos honrarão eternamente.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣. Te gloriósus Apostolórum chorus laudat,
-              Dómine. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Te
+              gloriósus Apostolórum chorus laudat, Dómine. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣. O coro glorioso dos Apóstolos canta os vossos
-              louvores. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>O coro
+              glorioso dos Apóstolos canta os vossos louvores. Aleluia.
             </Text>
           </View>
 
@@ -114,15 +116,15 @@ export default function Page0824() {
           <Text className="em">Lc. 6, 12-19</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Exiit Jesus in montem oráre, et erat pernóctans
               in oratióne Dei. Et cum dies factus esset, vocavit discípulos
               suos, et elégit duódecim ex ipsis (quos et Apóstolos nominávit):
@@ -137,7 +139,7 @@ export default function Page0824() {
               curabántur. Et omnis turba quærébat eum tángere: quia virtus de
               illo exíbat, et sanábat omnes.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, retirara-se Jesus para um monte, e aí passara toda
               a noite em oração a Deus. Quando o dia rompeu, chamou os
               discípulos e escolheu doze de entre eles, aos quais chamou
@@ -160,11 +162,11 @@ export default function Page0824() {
           <Text className="em">Sl. 138, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eu vejo, ó Deus, que honrais largamente os vossos amigos; e por
               isso o seu poder se tem fortalecido extraordinariamente.
             </Text>
@@ -173,12 +175,12 @@ export default function Page0824() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Beáti Apóstoli tui Bartholomǽi sollémnia recenséntes, quǽsumus,
               Dómine: ut ejus auxílio tua benefícia capiámus, pro quo tibi
               laudis hóstias immolámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Celebrando a festa do B. Bartolomeu, vosso Apóstolo, fazei,
               Senhor, Vos suplicamos, que alcancemos os vossos benefícios pelo
               socorro daquele em cuja honra imolamos esta hóstia de louvor. Por
@@ -191,11 +193,11 @@ export default function Page0824() {
           <Text className="em">Mt. 19, 28</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vos, qui secúti estis me, sedébitis super sedes, judicántes
               duódecim tribus Israël, dicit Dóminus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vós, que me seguistes, vos assentareis sobre tronos e julgareis as
               doze tribos de Israel.
             </Text>
@@ -204,12 +206,12 @@ export default function Page0824() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sumptum, Dómine, pignus redemptiónis ætérnæ: sit nobis, quǽsumus;
               interveniénte beáto Bartholomǽo Apóstolo tuo, vitæ præséntis
               auxílium páriter et futúræ. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Permiti, Senhor, que o penhor da redenção eterna, que recebemos,
               seja para nós, por intercessão do B. Bartolomeu, Apóstolo, auxílio
               na vida presente e na futura. Por nosso Senhor...

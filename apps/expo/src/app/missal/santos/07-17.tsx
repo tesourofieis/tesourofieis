@@ -38,13 +38,13 @@ export default function Page0717() {
           <Text className="em">1 Tm. 6, 6-12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo a Timóteo.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Caríssime: Est quæstus magnus píetas cum sufficiéntia. Nihil enim
               intúlimus in hunc mundum: haud dúbium, quod nec auférre quid
               póssumus. Habéntes autem aliménta, et quibus tegámur, his conténti
@@ -57,7 +57,7 @@ export default function Page0717() {
               patiéntiam, mansuetúdinem. Certa bonum certámen fídei, apprehénde
               vitam ætérnam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Caríssimo: É uma grande riqueza possuir a piedade e contentar-se
               com o suficiente. Na verdade, não trouxemos nada a este mundo e
               sem dúvida nada poderemos levar dele. Se, portanto, temos de comer
@@ -78,15 +78,15 @@ export default function Page0717() {
           <Text className="em">Mt. 19, 27-29</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Petrus ad Jesum: Ecce, nos relíquimus
               ómnia, et secúti sumus te: quid ergo erit nobis? Jesus autem dixit
               illis: Amen, dico vobis, quod vos, qui secúti estis me, in
@@ -96,7 +96,7 @@ export default function Page0717() {
               aut patrem, aut matrem, aut uxórem, aut fílios, aut agros, propter
               nomen meum, céntuplum accípiet, et vitam ætérnam possidebit.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele Naquele tempo, disse Pedro a Jesus: «Eis que deixámos tudo
               e Vos seguimos. Que recompensa teremos por isso?». Jesus
               respondeu-lhe: «Em verdade vos digo: vós, que me seguistes,

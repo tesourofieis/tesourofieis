@@ -16,33 +16,34 @@ export default function Page1009() {
           <Text className="em">Ecl. 42, 15-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               In sermónibus Dómini ópera ejus: sol illúminans per ómnia
               respéxit, et glória Dómini plenum est opus ejus.{" "}
-              <Text className="text-base latin">Ps. 95, 1</Text> Cantáte Dómino
-              cánticum novum: cantáte Dómino, omnis terra. ℣. Gloria Patri...
+              <Text className="latin">Ps. 95, 1</Text> Cantáte Dómino cánticum
+              novum: cantáte Dómino, omnis terra.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Pelas palavras do Senhor existem as suas obras. Assim como o sol
               resplandecente ilumina todas as coisas, assim as suas obras estão
               cheias da glória do Senhor.{" "}
-              <Text className="text-base vernacular">Sl. 95, 1</Text> Cantai ao
-              Senhor um cântico novo: cantai ao Senhor, ó habitantes de toda a
-              terra. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 95, 1</Text> Cantai ao Senhor um
+              cântico novo: cantai ao Senhor, ó habitantes de toda a terra.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui beátum Joánnem Confessórem tuum ad fidem in géntibus
               propagándam mirabíliter excitáre dignátus es, ac per eum in
               erudiéndis fidélibus novam in Ecclésia tua famíliam congregásti:
               da nobis fámulis tuis; ita ejus institútis profícere, ut prǽmia
               consequámur ætérna. Per Dominum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que pelo B. João, vosso Confessor, Vos dignastes animar de
               um modo admirável a propagação da fé entre os gentios, e por ele
               instituístes na vossa Igreja uma nova família para a instrução dos
@@ -57,13 +58,13 @@ export default function Page1009() {
           <Text className="em">2 Cor. 4, 1-6 & 15-18</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Lectio Epístolæ beati Pauli Apóstoli ad Corinthios.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Habéntes administratiónem juxta quod misericórdiam
               consecúti sumus, non defícimus, sed abdicámus occúlta dedécóris,
               non ambulántes in astútia, neque adulterántes verbum Dei, sed in
@@ -85,7 +86,7 @@ export default function Page1009() {
               contemplántibus nobis quæ vidéntur, sed quæ non vidéntur. Quæ enim
               vidéntur, temporália sunt: quæ autem non vidéntur, ætérna sunt.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Pelo que, tendo nós tal ministério em virtude da
               misericórdia que alcançámos, não perdemos a coragem, antes
               renunciámos a coisas que a vergonha manda ocultar, não nos
@@ -119,30 +120,29 @@ export default function Page1009() {
           <Text className="em">Sl. 72, 21; 68, 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Inflammátum est cor meum, et renes mei commutáti sunt: zelus domus
-              tuæ comédit me. ℣.{" "}
-              <Text className="text-base latin">Isai. 49, 2</Text> Pósuit os
-              meum quasi gládium acutum: in umbra manus suæ protéxit me, et
-              pósuit me sicut sagíttam eléctam.
+              tuæ comédit me.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Isai. 49, 2</Text> Pósuit os meum quasi
+              gládium acutum: in umbra manus suæ protéxit me, et pósuit me sicut
+              sagíttam eléctam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Inflamou-se o meu coração e comoveram-se as minhas entranhas: o
-              zelo da tua casa devorou-me. ℣.{" "}
-              <Text className="text-base vernacular">Is. 49, 2</Text> O Senhor
-              tornou a minha boca como uma espada aguda: protegeu-me com a
-              sombra da sua mão: e fez de mim como que uma seta escolhida.
+              zelo da tua casa devorou-me.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Is. 49, 2</Text> O Senhor tornou a
+              minha boca como uma espada aguda: protegeu-me com a sombra da sua
+              mão: e fez de mim como que uma seta escolhida.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 70, 7</Text> Tamquam
-              prodígium factus sum multis: et tu adjútor fortis, Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 70, 7</Text> Tamquam prodígium factus
+              sum multis: et tu adjútor fortis, Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 70, 7</Text> Fui
-              considerado por muitos corno um prodígio: tu és um poderoso
-              auxiliar. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 70, 7</Text> Fui considerado por
+              muitos corno um prodígio: tu és um poderoso auxiliar. Aleluia.
             </Text>
           </View>
 
@@ -158,11 +158,11 @@ export default function Page1009() {
           <Text className="em">Col. 1, 25</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Christi factus sum ego miníster secúndum dispensatiónem Dei, quæ
               data est mihi, ut ímpleam verbum Dómini.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eu fui constituído ministro de Cristo, segundo o cargo que Deus me
               deu junto de vós, para que se cumpra a palavra do Senhor.
             </Text>
@@ -171,12 +171,12 @@ export default function Page1009() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Súscipe, Dómine, oblatiónem mundam salutáris hóstiæ: et præsta;
               ut, intercedénte beáto Joánne Confessóre tuo, úbique géntium
               júgiter offerátur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Recebei, Senhor, a oblação pura da hóstia salutar; e concedei-nos
               por intercessão do B. João, vosso Confessor, que ela seja
               oferecida constantemente em todos os povos da terra. Por nosso
@@ -189,11 +189,11 @@ export default function Page1009() {
           <Text className="em">Fl. 3, 7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quæ mihi fúerunt lucra, hæc arbitrátus sum propter Christum
               detriménta.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aquelas coisas que reputava como lucro, considerei-as depois, por
               amor de Cristo, como prejudiciais.
             </Text>
@@ -202,13 +202,13 @@ export default function Page1009() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Pretiósi córporis, et sánguinis tui sacris refécti mystériis,
               Dómine, adprecámur: ut beáti Joánnis Confessóris tui exémplo,
               studeámus confitéri quod crédidit, et ópere exercére quod dócuit:
               Qui vivis...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Alimentados, Senhor, com os sacrossantos mystérios do vosso
               precioso Corpo e Sangue, Vos rogamos instantemente que com o
               exemplo do B. João, vosso Confessor, procuremos confessar o que

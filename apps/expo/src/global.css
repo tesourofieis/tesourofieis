@@ -10,8 +10,12 @@
     @apply w-full m-auto;
   }
 
+  .text {
+    @apply text-sepia-900 dark:text-sepia-100;
+  }
+
   .docs {
-    @apply flex-1 font-serif py-2 px-3 text-sepia-900 dark:text-sepia-100;
+    @apply flex-1 font-serif py-2 px-5;
   }
 
   .h1 {
@@ -25,19 +29,19 @@
   }
 
   .h3 {
-    @apply text-center font-display text-2xl py-4 text-sepia-900 dark:text-sepia-100;
+    @apply text-center font-display text-2xl py-4 text;
   }
 
   .h4 {
-    @apply text-center font-display text-xl py-3 text-sepia-900 dark:text-sepia-100;
+    @apply text-center font-display text-xl py-3 text;
   }
 
   .h5 {
-    @apply text-center font-display text-lg py-2 text-sepia-900 dark:text-sepia-100;
+    @apply text-center font-display text-lg py-2 text;
   }
 
   .h6 {
-    @apply text-center font-serif py-1 text-sepia-900 dark:text-sepia-100;
+    @apply text-center font-serif py-1 text;
   }
 
   .card {
@@ -45,11 +49,11 @@
   }
 
   .li {
-    @apply list-item ml-2 py-1 text-sepia-900 dark:text-sepia-100;
+    @apply list-item ml-2 py-1 text;
   }
 
   .bold {
-    @apply font-bold text-sepia-900 dark:text-sepia-100;
+    @apply font-bold text;
   }
 
   .list-styled {
@@ -57,27 +61,33 @@
   }
 
   .text-base {
-    @apply font-serif text-justify text-sepia-900 dark:text-sepia-100 py-2;
+    @apply font-serif text-justify py-2 text;
   }
 
   .latin {
-    @apply text-justify font-serif;
+    @apply text-base;
     width: "40%";
   }
 
   .vernacular {
-    @apply text-justify font-serif;
+    @apply text-base;
     width: "50%";
   }
 
   .side-by-side {
-    @apply grid grid-cols-2 flex flex-row flex-wrap gap-2 justify-around py-2 text-justify font-body;
+    @apply grid grid-cols-2 flex flex-row flex-wrap justify-around text-justify font-body;
   }
 
   .cross {
-    padding: 1px 10px;
-    text-align: center;
     @apply text-red-500;
+  }
+
+  .response {
+    @apply font-bold text-red-500;
+  }
+
+  .versicle {
+    @apply font-bold;
   }
 
   .link {

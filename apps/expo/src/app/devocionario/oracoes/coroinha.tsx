@@ -70,10 +70,11 @@ export default function PageCoroinha() {
             alcançai-me, ó Maria, Mãe de Deus e minha Mãe, uma verdadeira e
             permanente devoção ao Santíssimo Coração de Jesus, vosso Filho; e,
             assim, eu cumpra fielmente os meus deveres e com alegria sirva
-            sempre, mas especialmente hoje, nosso Senhor Jesus Cristo. ℣.
+            sempre, mas especialmente hoje, nosso Senhor Jesus Cristo.
+            <Text className="versicle"> ℣. </Text>
             Coração de Jesus, abrasado em amor por nós.
           </Text>
-          <Text className="text-red-500">℟.</Text>
+          <Text className="response"> ℟. </Text>
           <Text className="text-base">
             Inflamai os nossos corações de amor por Vós. Oremos. Vos suplicamos,
             ó Senhor, que o Divino Espírito Santo nos inflame naquele fogo que
@@ -81,7 +82,7 @@ export default function PageCoroinha() {
             quis que se acendesses em labaredas por toda a parte. Ele, que vive
             e reina em todos os séculos dos séculos.
           </Text>
-          <Text className="text-red-500">℟.</Text> Amen.
+          <Text className="response"> ℟. </Text> Amen.
         </View>
       </ScrollView>
     </SafeAreaView>

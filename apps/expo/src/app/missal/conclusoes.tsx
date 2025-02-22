@@ -23,12 +23,12 @@ export default function PageConclusoes() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Per Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et
               regnat in unitáte Spíritus Sancti, Deus, per ómnia Sæcula
               sæculórum. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Por nosso Senhor Jesus, vosso Filho, que convosco vive e reina em
               unidade do Espírito Santo, Deus, por todos os séculos dos séculos.
               Amen.
@@ -40,12 +40,12 @@ export default function PageConclusoes() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Per eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum
               vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sæcula
               sæculórum. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Pelo mesmo nosso Senhor Jesus Cristo, vosso Filho, que convosco
               vive e reina em unidade do Espírito Santo, Deus, por todos os
               séculos dos séculos. Amen.
@@ -57,11 +57,11 @@ export default function PageConclusoes() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per
               ómnia sæcula sæculórum. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que convosco vive e reina em unidade do Espírito Santo, Deus, por
               todos os séculos dos séculos. Amen.
             </Text>
@@ -72,11 +72,11 @@ export default function PageConclusoes() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti,
               Deus, per ómnia sæcula sæculórum. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Vós, que viveis e reinais com Deus Pai em unidade do Espírito
               Santo, Deus, por todos os séculos dos séculos. Amen.
             </Text>
@@ -87,11 +87,11 @@ export default function PageConclusoes() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               ... in unitáte ejúsdem Spíritus Sancti, Deus, per ómnia sæcula
               sæculórum. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               ... em unidade do mesmo Espírito Santo, Deus, por todos os séculos
               dos séculos. Amen.
             </Text>

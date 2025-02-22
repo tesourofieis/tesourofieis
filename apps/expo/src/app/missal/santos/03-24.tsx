@@ -15,34 +15,34 @@ export default function Page0324() {
           <Text className="em">Sl. 102, 20</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui
               fácitis verbum ejus, ad audiéndam vocem sermónum ejus. (T. P.
-              Allelúja, allelúja.){" "}
-              <Text className="text-base latin">Ps. ibid., 1</Text> Bénedic,
-              ánima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto
-              ejus. ℣. Gloria Patri...
+              Allelúja, allelúja.) <Text className="latin">Ps. ibid., 1</Text>{" "}
+              Bénedic, ánima mea, Dómino: et ómnia, quæ intra me sunt, nómini
+              sancto ejus.<Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bendizei o Senhor, ó Anjos do Senhor: Sois cheios de poder e
               virtude: e fazeis o que Ele vos ordena, obedecendo às suas
               palavras e ordens. (T. P. Aleluia, aleluia).{" "}
-              <Text className="text-base vernacular">Sl. ibid., 1</Text>{" "}
-              Bendizei o Senhor, ó minha alma: que tudo quanto houver em mim
-              bendiga o santo nome do Senhor. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. ibid., 1</Text> Bendizei o
+              Senhor, ó minha alma: que tudo quanto houver em mim bendiga o
+              santo nome do Senhor.<Text className="versicle"> ℣. </Text>Glória
+              ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui inter céteros Angelos, ad annuntiándum incarnatiónis tuæ
               mystérium, Gabriélem Archángelum elegísti: concéde propítius; ut,
               qui festum (commemoratiónem) ejus celebrámus in terris, ipsíus
               patrocínium sentiámus in cœlis: Qui vivis...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que entre os outros Anjos escolhestes o Arcanjo Gabriel
               para anunciar o mystério da vossa Incarnação, concedei-nos
               propício que, havendo celebrado a sua festa na terra,
@@ -56,11 +56,9 @@ export default function Page0324() {
           <Text className="em">Dn. 9, 21-26</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Daniélis Prophétæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Profeta Daniel.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Daniélis Prophétæ.</Text>
+            <Text className="vernacular">Lição do Profeta Daniel.</Text>
+            <Text className="latin">
               In diébus illis: Ecce, vir Gábriël, quem víderam m visióne a
               princípio, cito volans tétigit me in témpore sacrifícii
               vespertíni. Et dócuit me et locútus est mihi dixítque: Dániel,
@@ -80,7 +78,7 @@ export default function Page0324() {
               dissipábit populus cum duce ventúro: et finis ejus vástitas, et
               post finem belli statúta desolátio.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias: Eis que o varão Gabriel, que eu havia visto antes,
               em visão, veio junto de mim, voando rapidamente, na ocasião do
               sacrifício da tarde. Então, inspirou-me, falou-me e disse-me:
@@ -109,16 +107,16 @@ export default function Page0324() {
           <Text className="em">Sl. 102, 20 & 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui
-              fácitis verbum ejus. ℣. Benedic, ánima mea, Dóminum, et ómnia
-              interióra mea nomen sanctum ejus.
+              fácitis verbum ejus.<Text className="versicle"> ℣. </Text>Benedic,
+              ánima mea, Dóminum, et ómnia interióra mea nomen sanctum ejus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bendizei o Senhor, vós todos, que sois seus Anjos; ó vós, que sois
-              poderosos e valorosos; e que executais as suas ordens. ℣. Bendizei
-              o Senhor, ó minha alma: tudo o que há no meu íntimo bendiga o
-              Senhor.
+              poderosos e valorosos; e que executais as suas ordens.
+              <Text className="versicle"> ℣. </Text>Bendizei o Senhor, ó minha
+              alma: tudo o que há no meu íntimo bendiga o Senhor.
             </Text>
           </View>
 
@@ -127,20 +125,27 @@ export default function Page0324() {
           <Text className="em">Lc. 1, 28, 42, 31 & 35</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Ave, María, grátia plena; Dóminus tecum. ℣. Benedícta tu in
-              muliéribus: et benedíctus fructus ventris tui. ℣. Ecce, concípies
-              et páries Fílium, et vocábis nomen ejus Emmánuel. ℣. Spíritus
-              Sanctus supervéniet in te, et virtus Altíssimi obumbrábit tibi. ℣.
+            <Text className="latin">
+              Ave, María, grátia plena; Dóminus tecum.
+              <Text className="versicle"> ℣. </Text>Benedícta tu in muliéribus:
+              et benedíctus fructus ventris tui.
+              <Text className="versicle"> ℣. </Text>Ecce, concípies et páries
+              Fílium, et vocábis nomen ejus Emmánuel.
+              <Text className="versicle"> ℣. </Text>Spíritus Sanctus supervéniet
+              in te, et virtus Altíssimi obumbrábit tibi.
+              <Text className="versicle"> ℣. </Text>
               Ideóque et quod nascétur ex te Sanctum, vocábitur Fílius Dei.
             </Text>
-            <Text className="text-base vernacular">
-              Ave, Maria, cheia de graça, o Senhor é convosco. ℣. Bendita sois
-              vós entre as mulheres: e bendito é o fruto do vosso ventre. ℣. Eis
-              que conceberás, darás à luz um Filho e o seu nome será Emanuel. ℣.
-              O Espírito Santo descerá sobre vós e a virtude do Altíssimo
-              far-vos-á conceber. ℣. E, por isso, o Santo que de vós nascer será
-              chamado Filho de Deus.
+            <Text className="vernacular">
+              Ave, Maria, cheia de graça, o Senhor é convosco.
+              <Text className="versicle"> ℣. </Text>Bendita sois vós entre as
+              mulheres: e bendito é o fruto do vosso ventre.
+              <Text className="versicle"> ℣. </Text>Eis que conceberás, darás à
+              luz um Filho e o seu nome será Emanuel.
+              <Text className="versicle"> ℣. </Text>O Espírito Santo descerá
+              sobre vós e a virtude do Altíssimo far-vos-á conceber.
+              <Text className="versicle"> ℣. </Text>E, por isso, o Santo que de
+              vós nascer será chamado Filho de Deus.
             </Text>
           </View>
 
@@ -149,18 +154,20 @@ export default function Page0324() {
           </Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 103, 4</Text> Qui facit
-              Angelos suos spíritus: et minístros suos flammam ignis. Allelúja.
-              ℣. <Text className="em">Luc. 1, 28</Text> Ave, María, grátia
-              plena; Dóminus tecum: benedícta tu in muliéribus. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 103, 4</Text> Qui facit Angelos suos
+              spíritus: et minístros suos flammam ignis. Allelúja.
+              <Text className="versicle"> ℣. </Text>
+              <Text className="em">Luc. 1, 28</Text> Ave, María, grátia plena;
+              Dóminus tecum: benedícta tu in muliéribus. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 103, 4</Text> Fazeis
-              que os vossos Anjos sejam velozes como os ventos e que os vossos
-              ministros sejam activos como a chama do fogo. Aleluia. ℣.{" "}
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 103, 4</Text> Fazeis que os
+              vossos Anjos sejam velozes como os ventos e que os vossos
+              ministros sejam activos como a chama do fogo. Aleluia.
+              <Text className="versicle"> ℣. </Text>
               <Text className="em">Lc. 1, 28</Text> Ave, Maria, cheia de graça:
               O Senhor é convosco: bendita sois vós entre as mulheres. Aleluia.
             </Text>
@@ -171,15 +178,15 @@ export default function Page0324() {
           <Text className="em">Lc. 1, 26-38</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Missus est Angelus Gábriel a Deo in civitátem
               Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui
               nomen erat Joseph, de domo David, et nomen Vírginis María. Ei
@@ -200,7 +207,7 @@ export default function Page0324() {
               omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi
               secúndum verbum tuum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, foi mandado por Deus o Anjo Gabriel a uma cidade da
               Galileia, chamada Nazaré, a uma Virgem, desposada com um varão,
               cujo nome era José, da casa de David; e o nome da Virgem era
@@ -229,12 +236,12 @@ export default function Page0324() {
           <Text className="em">Ap. 8, 3 & 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Stetit Angelus juxta aram templi, habens thuríbulum áureum in manu
               sua, et data sunt ei incénsa multa: et ascéndit fumus aromátum in
               conspéctu Dei. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Junto ao altar, no templo, estava de pé um Anjo, tendo na mão um
               turíbulo de ouro: e deitava-lhe muito incenso, subindo o fumo dos
               perfumes à presença de Deus. (T. P. Aleluia.)
@@ -244,13 +251,13 @@ export default function Page0324() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Accéptum fiat in conspéctu tuo, Dómine, nostræ servitútis munus,
               et beáti Archángeli Gabriélis orátio: ut, qui a nobis venerátur in
               terris, sit apud te pro nobis advocátus in cœlis. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, seja agradável a vossos olhos a oferta da nossa servidão,
               bem como a oração de B. Gabriel Arcanjo, a fim de que, venerando-o
               nós na terra, seja nosso advogado junto de Vós no céu. Por nosso
@@ -261,11 +268,11 @@ export default function Page0324() {
           <Text className="h3">Comúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Benedícite, omnes Angeli Dómini, Dóminum: hymnum dícite et
               superexaltáte eum in sǽcula. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Anjos todos do Senhor, louvai o Senhor. Cantai hinos em seu louvor
               e aclamai-O em todos os séculos. (T. P. Aleluia.)
             </Text>
@@ -274,13 +281,13 @@ export default function Page0324() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Córporis tui et Sánguinis sumptis mystériis, tuam, Dómine, Deus
               noster, deprecámur cleméntiam: ut, sicut, Gabriéle nuntiánte,
               incarnatiónem tuam cognóvimus; ita, ipso adjuvante, incarnationis
               ejúsdem benefícia consequámur: Qui vivis...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Havendo já recebido os mystérios do vosso Corpo e Sangue, Senhor,
               nosso Deus, imploramos a vossa clemência, para que, assim como
               pela Anunciação do Arcanjo Gabriel conhecemos a vossa Incarnação,

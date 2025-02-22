@@ -38,12 +38,12 @@ export default function Page1206() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui beátum Nicoláum Pontíficem innúmeris decorásti
               miráculis: tríbue, quǽsumus; ut ejus méritis et précibus a gehénnæ
               incéndiis liberémur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que distinguistes o B. Pontífice Nicolau, concedendo-lhe o
               dom de praticar inumeráveis milagres, permiti, Vos suplicamos, que
               pelos seus méritos e preces sejamos preservados do fogo do
@@ -56,13 +56,13 @@ export default function Page1206() {
           <Text className="em">Heb. 13, 7-17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Fratres: Mementóte præpositórum vestrórum, qui vobis locúti sunt
               verbum Dei: quorum intuéntes éxitum conversatiónis, imitámini
               fidem. Jesus Christus heri et hódie: ipse et in sǽcula. Doctrínis
@@ -81,7 +81,7 @@ export default function Page1206() {
               et subjacéte eis. Ipsi enim pervígilant, quasi ratiónem pro
               animábus vestris redditúri.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meus irmãos: Lembrai-vos dos vossos pastores que vos pregaram a
               palavra de Deus; e, considerando qual foi o fim da sua vida,
               imitai a sua fé. Jesus Cristo é o mesmo ontem e hoje, e será o
@@ -110,27 +110,27 @@ export default function Page1206() {
           <Text className="em">Sl. 88, 21-23</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
-              auxiliábitur ei, et bráchium meum confortábit eum. ℣. Nihil
-              profíciet inimícus in eo, et fílius iniquitátis non nocébit ei.
+              auxiliábitur ei, et bráchium meum confortábit eum.
+              <Text className="versicle"> ℣. </Text>Nihil profíciet inimícus in
+              eo, et fílius iniquitátis non nocébit ei.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Encontrei o meu servo David e ungi-o com meu óleo sagrado: a minha
-              mão o auxiliará e o meu braço o fortalecerá. ℣. Contra ele não
-              prevalecerá o inimigo, e o filho da iniquidade não poderá
-              fazer-lhe mal.
+              mão o auxiliará e o meu braço o fortalecerá.
+              <Text className="versicle"> ℣. </Text>Contra ele não prevalecerá o
+              inimigo, e o filho da iniquidade não poderá fazer-lhe mal.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 91, 13</Text> Justus ut
-              palma florébit: sicut cedrus Líbani multiplicábitur. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 91, 13</Text> Justus ut palma
+              florébit: sicut cedrus Líbani multiplicábitur. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 91, 13</Text> O justo
-              florescerá, como a palmeira, e crescerá, como o cedro do Líbano.
-              Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 91, 13</Text> O justo florescerá,
+              como a palmeira, e crescerá, como o cedro do Líbano. Aleluia.
             </Text>
           </View>
 
@@ -146,11 +146,11 @@ export default function Page1206() {
           <Text className="em">Sl. 88, 25</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Véritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               A minha verdade e a minha misericórdia estarão com ele: e o seu
               poder elevar-se-á pelo meu nome.
             </Text>
@@ -159,12 +159,12 @@ export default function Page1206() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sanctífica, quǽsumus, Dómine Deus, hæc múnera, quæ in sollemnitáte
               sancti Antístitis tui Nicolái offérimus: ut per ea vita nostra
               inter advérsa et próspera úbique dirigátur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Santificai, ó Senhor, nosso Deus, estes dons, que Vos apresentamos
               na solenidade do vosso santo Pontífice Nicolau, a fim de que por
               meio deles possamos sempre proceder com rectidão, tanto nas
@@ -177,12 +177,12 @@ export default function Page1206() {
           <Text className="em">Sl. 88, 36-38</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Semel jurávi in sancto meo: Semen ejus in ætérnum manebit, et
               sedes ejus sicut sol in conspéctu meo, et sicut luna perfécta in
               ætérnum, et testis in cœlo fidélis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Jurei uma vez por minha santidade: a sua descendência durará
               eternamente e o seu trono brilhará perante mim, como o sol, e,
               como a lua, permanecerá para sempre, e será testemunho fiel no
@@ -193,12 +193,12 @@ export default function Page1206() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sacrifícia, quæ súmpsimus, Dómine, pro sollemnitáte sancti
               Pontíficis tui Nicolái, sempitérna nos protectióne consérvent. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que o sacrifício de que participámos, celebrando a festa do santo
               Pontífice Nicolau, Senhor, nos alcance perpetuamente a vossa
               protecção. Por nosso Senhor...

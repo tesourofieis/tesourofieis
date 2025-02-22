@@ -16,31 +16,31 @@ export default function PageQuad45() {
           <Text className="em">Sl. 18, 15</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deditátio cordis mei in conspéctu tuo semper: Dómine, adjútor
               meus, et redémptor meus.{" "}
-              <Text className="text-base latin">Ps. ibid., 2</Text> Cœli
-              enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
-              ℣. Gloria Patri...
+              <Text className="latin">Ps. ibid., 2</Text> Cœli enárrant glóriam
+              Dei: et ópera mánuum ejus annúntiat firmaméntum.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Os pensamentos do meu coração estarão sempre na vossa presença.
               Senhor, sois o meu sustentáculo e o meu Redentor.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 2</Text> Os céus
-              publicam a glória do Senhor e o firmamento anuncia as obras das
-              suas mãos. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. ibid., 2</Text> Os céus publicam
+              a glória do Senhor e o firmamento anuncia as obras das suas mãos.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui ineffabílibus mundum rénovas sacraméntis: præsta,
               quǽsumus; ut Ecclésia tua et ætérnis profíciat institútis, et
               temporálibus non destituátur auxíliis. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que restaurais o mundo com inefáveis mystérios, permiti,
               Vos imploramos, que a vossa Igreja prossiga o seu fim pelos meios
               eternos que lhe conferistes, e não seja desprovida do vosso
@@ -53,11 +53,9 @@ export default function PageQuad45() {
           <Text className="em">3 Rs. 17, 17-24</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Regum.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro dos Reis.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Regum.</Text>
+            <Text className="vernacular">Lição do Livro dos Reis.</Text>
+            <Text className="latin">
               In diébus illis: Ægrotávit fílius mulíeris matrisfamílias, et erat
               lánguor fortíssimus, ita ut non remanéret in eo hálitus. Dixit
               ergo ad Elíam: Quid mihi et tibi, vir Dei? Ingréssus es ad me, ut
@@ -76,7 +74,7 @@ export default function PageQuad45() {
               Nunc in isto cognóvi, quóniam vir Dei es tu, et verbum Dómini in
               ore tuo verum est.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, adoeceu tão gravemente o filho de uma mãe de
               família, que já não havia nele sopro de vida. Esta mãe disse,
               então, a Elias: «Que há entre ti e mim, ó homem de Deus?
@@ -102,11 +100,12 @@ export default function PageQuad45() {
           <Text className="em">Sl. 117, 8-9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Bonum est confídere in Dómino, quam confídere in hómine. ℣. Bonum
-              est speráre in Dómino, quam speráre in princípibus.
+            <Text className="latin">
+              Bonum est confídere in Dómino, quam confídere in hómine.
+              <Text className="versicle"> ℣. </Text>Bonum est speráre in Dómino,
+              quam speráre in princípibus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               É melhor confiar no Senhor do que no homem. É melhor ter esperança
               no Senhor do que nos príncipes.
             </Text>
@@ -124,15 +123,15 @@ export default function PageQuad45() {
           <Text className="em">Jo. 11, 1-45</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Erat quidam languens Lázarus a Bethánia, de
               castéllo Maríæ et Marthæ, soróris ejus. (María autem erat, quæ
               unxit Dóminum unguento, et extérsit pedes ejus capíllis suis:
@@ -197,7 +196,7 @@ export default function PageQuad45() {
               et sínite abíre. Multi ergo ex Judǽis, qui vénerant ad Maríam et
               Martham, et víderant quæ fecit Jesus, credidérunt in eum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, estava doente um certo homem chamado Lázaro, de
               Betânia, aldeia de Maria e de Marta, suas irmãs. (Maria era aquela
               que ungira o Senhor com perfumes e Lhe enxugara os pés com os
@@ -272,11 +271,11 @@ export default function PageQuad45() {
           <Text className="em">Sl. 17, 28 & 32</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Pópulum húmilem salvum fácies, Dómine, et óculos superbórum
               humiliábis: quóniam quis Deus præter te, Dómine?
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vós, Senhor, salvais o povo humilde e abateis os olhos dos
               soberbos. Quem é, pois, Deus senão Vós, Senhor?
             </Text>
@@ -285,11 +284,11 @@ export default function PageQuad45() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Múnera nos, Dómine, quǽsumus, obláta puríficent: et te nobis
               jugiter fáciant esse placátum. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos imploramos, permiti que estes dons, que Vos
               oferecemos, nos purifiquem e aplaquem incessantemente a vossa ira
               contra nós. Por nosso Senhor...
@@ -301,12 +300,12 @@ export default function PageQuad45() {
           <Text className="em">Jo. 11, 33, 35, 43, 44 & 39</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Videns Dóminus flentes soróres Lázari ad monuméntum, lacrimátus
               est coram Judǽis, et exclamávit: Lázare, veni foras: et pródiit
               ligátis mánibus et pédibus, qui fúerat quatriduánus mórtuus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O Senhor, vendo chorar as irmãs de Lázaro, perto do sepulcro,
               chorou também, na presença dos judeus, e clamou: «Lázaro, sai para
               fora». E aquele que estava morto havia quatro dias apareceu com os
@@ -317,12 +316,12 @@ export default function PageQuad45() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hæc nos, quǽsumus, Dómine, participátio sacraménti: et a propriis
               reátibus indesinénter expédiat, et ab ómnibus tueátur advérsis.
               Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que esta nossa participação nos celestiais mystérios, Senhor, Vos
               suplicamos, nos livre sempre das nossas culpas e nos defenda de
               todas as adversidades. Por nosso Senhor...
@@ -332,24 +331,22 @@ export default function PageQuad45() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">Orémus.</Text>
+            <Text className="latin">
+              <Text className="latin">Orémus.</Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">Oremos.</Text>
+            <Text className="vernacular">
+              <Text className="vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base latin">
-              Humiliáte cápita vestra Deo.
-            </Text>
-            <Text className="text-base vernacular">
+            <Text className="latin">Humiliáte cápita vestra Deo.</Text>
+            <Text className="vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Da nobis, quǽsumus, omnípotens Deus: ut, qui infirmitátis nostræ
               cónscii, de tua virtúte confídimus, sub tua semper pietáte
               gaudeámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente, conhecendo nós a nossa fraqueza e tendo
               confiança no vosso poder, concedei-nos, Vos suplicamos, que
               gozemos sempre os efeitos da vossa bondade. Por nosso Senhor...

@@ -16,7 +16,8 @@ export default function Page0721Portugal() {
             Encomendou-te Deus aos seus Anjos, para que eles te guardem em todos
             teus caminhos; em suas mãos te conduzirão, para que o teu Pé não
             tropece na pedra. Aquele que se abriga sob a protecção do Altíssimo
-            e habita à sombra de Deus do céu. ℣. Glória ao Pai...
+            e habita à sombra de Deus do céu.
+            <Text className="versicle"> ℣. </Text>Glória ao Pai...
           </Text>
           <Text className="h3">Oração</Text>
           <Text className="text-base">

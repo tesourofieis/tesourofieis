@@ -16,11 +16,11 @@ export default function PageOracoescomplementares() {
           <Text className="h1">Orações Complementares</Text>
           <Text className="h2">Acção de Graças da Missa</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ant. Trium puerórum cantémus hymnum, quem cantábant Sancti in
               camíno ignis, benedicéntes Dóminum. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ant. Cantemos o hino dos três jovens que cantavam os Santos na
               fornalha do fogo, glorificando o Senhor. (T. P. Aleluia.)
             </Text>
@@ -30,123 +30,127 @@ export default function PageOracoescomplementares() {
           <Text className="h3">Salmo 150</Text>
           <Salmo150 />
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ant. Trium puerórum cantémus hymnum, quem cantábant Sancti in
               camíno ignis, benedicéntes Dóminum. (T. P. Allelúja.)
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ant. Cantemos o hino dos três jovens que cantavam os Santos na
               fornalha do fogo, glorificando o Senhor. (T. P. Aleluia.)
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Kýrie, eléison. Christe, eléison. Kýrie, eléison.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, tende piedade de nós. Cristo, tende... Senhor, tende...
             </Text>
-            <Text className="text-base latin">
-              Pater noster. ℣. Et ne nos indúcas in tentatiónem.{" "}
-              <Text className="text-red-500">℟. </Text>Sed líbera nos a malo.
+            <Text className="latin">
+              Pater noster.<Text className="versicle"> ℣. </Text>Et ne nos
+              indúcas in tentatiónem. <Text className="response"> ℟. </Text>Sed
+              líbera nos a malo.
             </Text>
-            <Text className="text-base vernacular">
-              Pai-nosso. ℣. E não nos deixeis cair em tentação.{" "}
-              <Text className="text-red-500">℟. </Text>Mas livrai-nos do mal.
+            <Text className="vernacular">
+              Pai-nosso.<Text className="versicle"> ℣. </Text>E não nos deixeis
+              cair em tentação. <Text className="response"> ℟. </Text>Mas
+              livrai-nos do mal.
             </Text>
-            <Text className="text-base latin">
-              ℣. Confiteántur tibi, Dómine, omnia opera tua. ℞. Et Sancti tui
-              benedícant tibi.
+            <Text className="latin">
+              <Text className="versicle"> ℣. </Text>Confiteántur tibi, Dómine,
+              omnia opera tua. ℞. Et Sancti tui benedícant tibi.
             </Text>
-            <Text className="text-base vernacular">
-              ℣. Que todas vossas obras Vos louvem, Senhor.{" "}
-              <Text className="text-red-500">℟. </Text>E os vossos Santos Vos
-              bendigam.
+            <Text className="vernacular">
+              <Text className="versicle"> ℣. </Text>Que todas vossas obras Vos
+              louvem, Senhor. <Text className="response"> ℟. </Text>E os vossos
+              Santos Vos bendigam.
             </Text>
-            <Text className="text-base latin">
-              ℣. Exsultábunt Sancti in glória.{" "}
-              <Text className="text-red-500">℟. </Text> Lætabúntur in cubílibus
-              suis.
+            <Text className="latin">
+              <Text className="versicle"> ℣. </Text>Exsultábunt Sancti in
+              glória. <Text className="response"> ℟. </Text> Lætabúntur in
+              cubílibus suis.
             </Text>
-            <Text className="text-base vernacular">
-              ℣. Os Santos exultam de alegria.{" "}
-              <Text className="text-red-500">℟. </Text> Alegrar-se-ão no lugar
-              do seu repouso.
+            <Text className="vernacular">
+              <Text className="versicle"> ℣. </Text>Os Santos exultam de
+              alegria. <Text className="response"> ℟. </Text> Alegrar-se-ão no
+              lugar do seu repouso.
             </Text>
-            <Text className="text-base latin">
-              ℣. Non nobis, Dómine, non nobis.{" "}
-              <Text className="text-red-500">℟. </Text>Sed nómini tuo da
+            <Text className="latin">
+              <Text className="versicle"> ℣. </Text>Non nobis, Dómine, non
+              nobis. <Text className="response"> ℟. </Text>Sed nómini tuo da
               glóriam.
             </Text>
-            <Text className="text-base vernacular">
-              ℣. Não a nós, Senhor, não a nós.{" "}
-              <Text className="text-red-500">℟. </Text>Mas ao vosso nome dêmos
+            <Text className="vernacular">
+              <Text className="versicle"> ℣. </Text>Não a nós, Senhor, não a
+              nós. <Text className="response"> ℟. </Text>Mas ao vosso nome dêmos
               glória.
             </Text>
-            <Text className="text-base latin">
-              ℣. Dómine, exáudi oratiónem meam.{" "}
-              <Text className="text-red-500">℟. </Text>Et clamor meus ad te
+            <Text className="latin">
+              <Text className="versicle"> ℣. </Text>Dómine, exáudi oratiónem
+              meam. <Text className="response"> ℟. </Text>Et clamor meus ad te
               véniat.
             </Text>
-            <Text className="text-base vernacular">
-              ℣. Senhor, ouvi a minha oração.{" "}
-              <Text className="text-red-500">℟. </Text>E o meu clamor chegue até
+            <Text className="vernacular">
+              <Text className="versicle"> ℣. </Text>Senhor, ouvi a minha oração.{" "}
+              <Text className="response"> ℟. </Text>E o meu clamor chegue até
               Vós.
             </Text>
-            <Text className="text-base latin">℣. Dóminus vobíscum.</Text>
-            <Text className="text-base vernacular">
-              ℣. O Senhor seja convosco.
+            <Text className="latin">
+              <Text className="versicle"> ℣. </Text> Dóminus vobíscum.
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-red-500">℟. </Text> Et cum spíritu tuo.
+            <Text className="vernacular">
+              <Text className="versicle"> ℣. </Text>O Senhor seja convosco.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-red-500">℟. </Text> E com vosso espírito.
+            <Text className="latin">
+              <Text className="response"> ℟. </Text> Et cum spíritu tuo.
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-base latin">Orémus.</Text>
+            <Text className="vernacular">
+              <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">Oremos.</Text>
+            <Text className="latin">
+              <Text className="latin">Orémus.</Text>
             </Text>
-            <Text className="text-base latin">
+            <Text className="vernacular">
+              <Text className="vernacular">Oremos.</Text>
+            </Text>
+            <Text className="latin">
               Deus, qui tribus púeris mitigásti flammas ígnium: concéde
               propítius; ut nos fámulos tuos non exúrat flamma vitiórum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que mitigastes aos três jovens as chamas da fornalha
               ardente, concedei-nos benigno que nós, vossos servos, não sejamos
               consumidos pelas chamas dos vícios.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Actiónes nostras, quǽsumus, Dómine, aspirándo prǽveni et adjuvándo
               proséquere: ut cuncta nostra orátio et operátio a te semper
               incípiat, et per te cœpta finiátur.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dignai-Vos, Senhor, insuflar as nossas acções com vosso espírito e
               acompanhá-las com vossa graça, a fim de que todas nossas orações e
               obras, tendo princípio em Deus, tenham nele a finalidade.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Da nobis, quǽsumus, Dómine, vitiórum nostrórum flammas
               exstínguere: qui beáto Lauréntio tribuísti tormentórum suórum
               incéndia superáre. Per Christum, Dóminum nostrum. ℞. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, assim como concedestes ao bem-aventurado Lourenço a
               fortaleza para vencer o tormento do fogo, assim também, Vos
               suplicamos, dignai-Vos permitir que extingamos as chamas dos
               nossos vícios. Por Cristo, nosso Senhor.
             </Text>
-            <Text className="text-base latin">
-              <Text className="text-red-500">℟. </Text>Amen.
+            <Text className="latin">
+              <Text className="response"> ℟. </Text>Amen.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-red-500">℟. </Text>Amen.
+            <Text className="vernacular">
+              <Text className="response"> ℟. </Text>Amen.
             </Text>
           </View>
           <Text className="h3">Oração São Tomás Aquino</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Grátias tibi ago, Dómine sancte, Pater omnípotens, ætérne Deus,
               qui me peccatórem, indígnum fámulum tuum, nullis meis méritis, sed
               sola dignatióne misericórdiæ tuæ satiáre dignátus es pretióso
@@ -165,7 +169,7 @@ export default function PageOracoescomplementares() {
               sempitérnum, jucúnditas consummáta et felícitas perfécta. Per
               eúndem Christum, Dóminum nostrum. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Dou-Vos graças, Senhor santo, Pai omnipotente, Deus eterno, a Vós
               que, sem merecimento nenhum da minha parte, mas por efeito de
               vossa misericórdia, Vos dignastes saciar-me, sendo eu pecador e
@@ -191,7 +195,7 @@ export default function PageOracoescomplementares() {
           </View>
           <Text className="h3">Oração São Boaventura</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Transfíge, dulcíssime Dómine Jesu, medúllas et víscera ánimæ meæ
               suavíssimo ac salubérrimo amóris tui vúlnere, vera serenáque et
               apostólica sanctíssima caritáte, ut lángueat et liquefíat ánima
@@ -216,7 +220,7 @@ export default function PageOracoescomplementares() {
               fixa et firma et immobíliter semper sit radicáta mens mea et cor
               meum. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Traspassai ó dulcíssimo Senhor Jesus, o mais íntimo da minha alma
               com o dardo suavíssimo e salutaríssimo do vosso amor, abrindo nela
               a chaga de uma verdadeira, suave e santíssima caridade como a que
@@ -254,7 +258,7 @@ export default function PageOracoescomplementares() {
           <AdoroTeDevote />
           <Text className="h4">Piedosas Aspirações, Santo Inácio</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Anima Christi, sanctífica me. Corpus Christi, salva me. Sanguis
               Christi, inébria me. Aqua láteris Christi, lava me. Pássio
               Christi, confórta me. O bone Jesu, exáudi me. Intra tua vúlnera
@@ -262,7 +266,7 @@ export default function PageOracoescomplementares() {
               defénde me. In hora mortis meæ voca me. Et jube me veníre ad te,
               ut cum Sanctis tuis laudem te in sǽcula sæculórum. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Alma de Cristo, santificai-me. Corpo de Cristo, salvai-me. Sangue
               de Cristo, inebriai-me. Água do lado de Cristo, lavai-me. Paixão
               de Cristo, confortai-me. Ó bom Jesus, ouvi-me. Dentro das vossas
@@ -286,7 +290,7 @@ export default function PageOracoescomplementares() {
           />
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               En ego, o bone et dulcíssime Jesu, ante conspéctum tuum génibus me
               provólvo, ac máximo ánimi ardóre te oro atque obtéstor, ut meum in
               cor vívidos fídei, spei et caritátis sensus, atque veram
@@ -296,7 +300,7 @@ export default function PageOracoescomplementares() {
               præ óculis habens, quod iam in ore ponébat tuo David prophéta de
               te, o bone Jesu:
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eis-me aqui, ó bom e dulcíssimo Jesus, de joelhos, ante a vossa
               divina presença, e Vos peço e suplico, com o mais ardente fervor
               da minha alma, que Vos digneis gravar no meu coração profundos
@@ -307,25 +311,25 @@ export default function PageOracoescomplementares() {
               aquelas palavras que o Profeta David já dizia de Vós, ó meu bom
               Jesus:
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Ps. 21, 17-18 Fodérunt manus meas et pedes meos: dinumeravérunt
               ómnia ossa mea.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Sl. 21, 17-18 «Traspassaram as minhas mãos e os meu pés, e
               contaram todos meus ossos».
             </Text>
           </View>
           <Text className="h4">Oblação de si próprio</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Súscipe, Dómine, univérsam meam libertátem. Accipe memóriam,
               intelléctum atque voluntátem omnem. Quidquid hábeo vel possídeo,
               mihi largítus es: id tibi totum restítuo, ac tuæ prorsus voluntáti
               trado gubernándum. Amórem tui solum cum grátia tua mihi dones, et
               dives sum satis, nec aliud quidquam ultra posco.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aceitai, Senhor, em vossas mãos toda minha liberdade; recebei a
               minha memória, inteligência e vontade. Tudo o que tenho e possuo,
               fostes Vós, Senhor, quem mo destes: eu Vo-lo entrego, Senhor, sem
@@ -336,7 +340,7 @@ export default function PageOracoescomplementares() {
           </View>
           <Text className="h4">Piedosa Oração</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Obsécro te, dulcíssime Dómine Jesu Christe, ut pássio tua sit mihi
               virtus, qua múniar, prótegar atque deféndar; vúlnera tua sint mihi
               cibus potúsque, quibus pascar, inébrier atque delécter; aspérsio
@@ -345,7 +349,7 @@ export default function PageOracoescomplementares() {
               his sit mihi reféctio, exsultátio, sánitas et dulcédo cordis mei
               Qui vivis et regnas in sǽcula sæculórum. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Permiti, ó meu dulcíssimo Jesus, eu Vos suplico, que a vossa
               Paixão seja para mim força que me guarde, proteja e defenda; que
               as vossas Chagas sejam para mim alimento e bebida que me
@@ -359,7 +363,7 @@ export default function PageOracoescomplementares() {
           </View>
           <Text className="h4">Oração à B. Virgem Maria</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               O María, Virgo et Mater sanctíssima, ecce, suscépi dilectíssimum
               Fílium tuum, quem immaculáto útero tuo concepísti, genuísti,
               lactásti, atque suávissimis ampléxibus strinxísti. Ecce, cujus
@@ -373,7 +377,7 @@ export default function PageOracoescomplementares() {
               grátiam finálem, ut eum tecum laudáre possim per ómnia sǽcula
               sæculórum. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Maria, Virgem e Mãe santíssima, eis que acabo de receber no meu
               peito o vosso dilectíssimo Filho: Aquele mesmo que gerastes no
               vosso seio imaculado; destes à luz ao mundo; alimentastes; e
@@ -392,7 +396,7 @@ export default function PageOracoescomplementares() {
           </View>
           <Text className="h4">Oração a S. José</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vírginum custos et pater, sancte Joseph, cujus fidéli custódiæ
               ipsa Innocéntia Christus Jesus et Virgo vírginum María commíssa
               fuit: te per hoc utrúmque caríssimum pignus Jesum et Maríam
@@ -400,7 +404,7 @@ export default function PageOracoescomplementares() {
               incontamináta, puro corde et casto córpore Jesu et Maríæ semper
               fácias castíssime famulári. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó São José, pai e protector das almas virgens, guarda fiel a quem
               Deus confiou Jesus, a própria Inocência, e Maria, a Virgem entre
               as virgens, eu vos peço e suplico por Jesus e Maria, por este
@@ -414,14 +418,14 @@ export default function PageOracoescomplementares() {
             Oração ao Santo em cuja honra foi celebrada a Missa
           </Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sancte N., in cujus honórem incruéntum Córporis et Sánguinis
               Christi sacrifícium óbtuli, fac, tua poténti apud Deum
               intercessióne, ut, usu hujus mystérii, passiónis et mortis ejúsdem
               Christi Salvatóris nostri mérita cónsequar, ac, cum illíus
               frequentatióne, contínuo crescat meæ salútis efféctus Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Santo N., em cuja honra celebrei (ou assisti ao) Sacrifício
               incruento do Corpo e do Sangue de Cristo, alcançai-me, com vossa
               intercessão junto de Deus, que, em virtude da celebração (ou

@@ -33,7 +33,7 @@ export default function PageOracaomanha() {
           </Text>
           <Text className="h2">Consagração do dia</Text>
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Dirigere et sanctificare, regere et gubernare dignare, Dómine
               Deus, Rex cæli et terræ, hodie corda et corpora nostra, sensus,
               sermones et actus nostros in lege tua et in operibus mandatorum
@@ -41,7 +41,7 @@ export default function PageOracaomanha() {
               mereámur, Salvator mundi, qui vivis et regnas in sǽcula sæculórum.
               Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Senhor Deus, Rei do céu e da terra, dignai-Vos dirigir e
               santificar, mandar e governar os nossos corações e os nossos
               corpos, os nossos pensamentos, as nossas palavras e as nossas

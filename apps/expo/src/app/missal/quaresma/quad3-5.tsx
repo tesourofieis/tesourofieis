@@ -16,32 +16,32 @@ export default function PageQuad35() {
           <Text className="em">Sl. 85, 17</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Fac mecum, Dómine, signum in bonum: ut vídeant, qui me oderunt, et
               confundántur: quóniam tu, Dómine, adjuvísti me et consolátus es
-              me. <Text className="text-base latin">Ps. ibid., 1</Text> Inclína,
-              Dómine, aurem tuam, et exáudi me: quóniam inops et pauper sum ego.
-              ℣. Gloria Patri...
+              me. <Text className="latin">Ps. ibid., 1</Text> Inclína, Dómine,
+              aurem tuam, et exáudi me: quóniam inops et pauper sum ego.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Praticai, Senhor, um dos vossos prodígios em meu favor, para que
               meus inimigos contemplem o vosso poder e sejam confundidos; Pois
               Vós, Senhor, sois o meu auxílio e conforto.{" "}
-              <Text className="text-base vernacular">Sl. ibid., 1</Text>{" "}
-              Inclinai, Senhor, os vossos ouvidos para mim e escutai-me; porque
-              sou pobre e infeliz. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. ibid., 1</Text> Inclinai, Senhor,
+              os vossos ouvidos para mim e escutai-me; porque sou pobre e
+              infeliz.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Jejúnia nostra, quǽsumus, Dómine, benígno favóre proséquere: ut,
               sicut ab aliméntis abstinémus in córpore; ita a vítiis jejunémus
               in mente. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Acompanhai os nossos jejuns com vossa benigna graça, Senhor, a fim
               de que, assim como o nosso corpo se abstém das carnes, assim a
               nossa alma se abstenha dos nossos vícios. Por nosso Senhor...
@@ -53,11 +53,9 @@ export default function PageQuad35() {
           <Text className="em">Nm. 20, 1, 3 et 6-13</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio libri Numeri.</Text>
-            <Text className="text-base vernacular">
-              Lição do Livro dos Números.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio libri Numeri.</Text>
+            <Text className="vernacular">Lição do Livro dos Números.</Text>
+            <Text className="latin">
               In diébus illis: Convenérunt fílii Israël adversum Móysen et
               Aaron: et versi in seditiónem, dixérunt: Date nobis aquam, ut
               bibámus. Ingressúsque Móyses et Aaron, dimíssa multitúdine,
@@ -80,7 +78,7 @@ export default function PageQuad35() {
               ubi jurgáti sunt fílii Israël contra Dóminum, et sanctificátus est
               in eis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, os filhos de Israel reuniram-se contra Moisés e
               Aarão, e, havendo formado uma sedição, disseram: «Dai-nos água
               para bebermos». Então Moisés e Aarão, deixando a multidão,
@@ -112,16 +110,17 @@ export default function PageQuad35() {
           <Text className="em">Sl. 27, 7 & 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               In Deo sperávit cor meum, et adjútus sum: et reflóruit caro mea,
-              et ex voluntáte mea confitébor illi. ℣. Ad te, Dómine, clamávi:
-              Deus meus, ne síleas, ne discédas a me.
+              et ex voluntáte mea confitébor illi.
+              <Text className="versicle"> ℣. </Text>Ad te, Dómine, clamávi: Deus
+              meus, ne síleas, ne discédas a me.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O meu coração esperou em Deus e foi socorrido. Então a minha carne
               rejuvenesceu. Por isso hei-de celebrar com alegria os louvores do
-              Senhor. ℣. A Vós, Senhor, clamei: meu Deus, não fecheis os
-              ouvidos, nem Vos afasteis de mim.
+              Senhor.<Text className="versicle"> ℣. </Text>A Vós, Senhor,
+              clamei: meu Deus, não fecheis os ouvidos, nem Vos afasteis de mim.
             </Text>
           </View>
 
@@ -137,15 +136,15 @@ export default function PageQuad35() {
           <Text className="em">Jo. 4, 5-42</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Venit Jesus in civitátem Samaríæ, quæ dícitur
               Sichar: juxta prǽdium, quod dedit Jacob Joseph, fílio suo. Erat
               autem ibi fons Jacob. Jesus ergo fatigátus ex itínere, sedébat sic
@@ -206,7 +205,7 @@ export default function PageQuad35() {
               propter tuam loquélam crédimus: ipsi enim audívimus, et scimus,
               quia hic est vere Salvátor mundi.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, veio Jesus a uma cidade de Samaria, chamada Sichar,
               próximo do campo que Jacob havia dado a seu filho José. Era ah a
               fonte de Jacob. Jesus, estando fatigado da viagem, sentou-se à
@@ -278,11 +277,11 @@ export default function PageQuad35() {
           <Text className="em">Sl. 5, 3-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Inténde voci oratiónis meæ, Rex meus, et Deus meus: quóniam ad te
               orábo, Dómine.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Sede atento à voz da minha oração, ó meu Rei e meu Deus; pois a
               Vós, Senhor, orarei.
             </Text>
@@ -291,12 +290,12 @@ export default function PageQuad35() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Réspice, quǽsumus, Dómine, propítius ad múnera, quæ sacrámus: ut
               tibi grata sint, et nobis salutária semper exsístant. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Olhai propício, Senhor, Vos suplicamos, para estes dons que Vos
               consagramos, a fim de que Vos sejam agradáveis, e a nós sejam
               sempre salutares. Por nosso Senhor...
@@ -308,11 +307,11 @@ export default function PageQuad35() {
           <Text className="em">Jo. 4, 13 & 14</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Qui bíberit aquam, quam ego dabo ei, dicit Dóminus, fiet in eo
               fons aquæ saliéntis in vitam ætérnam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aquele que beber da água que Eu lhe der, diz o Senhor, terá em si
               uma fonte de água impetuosa para a vida eterna.
             </Text>
@@ -321,11 +320,11 @@ export default function PageQuad35() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hujus nos, Dómine, percéptio sacraménti mundet a crimine: et ad
               cœléstia regna perdúcat. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que a recepção deste Sacramento, Senhor, nos limpe dos nossos
               crimes e nos guie até ao reino celestial. Por nosso Senhor...
             </Text>
@@ -334,24 +333,22 @@ export default function PageQuad35() {
           <Text className="h3">Oração sobre o povo</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">Orémus.</Text>
+            <Text className="latin">
+              <Text className="latin">Orémus.</Text>
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">Oremos.</Text>
+            <Text className="vernacular">
+              <Text className="vernacular">Oremos.</Text>
             </Text>
-            <Text className="text-base latin">
-              Humiliáte cápita vestra Deo.
-            </Text>
-            <Text className="text-base vernacular">
+            <Text className="latin">Humiliáte cápita vestra Deo.</Text>
+            <Text className="vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui in tua protectióne
               confídimus, cuncta nobis adversántia, te adjuvánte, vincámus. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus omnipotente, Vos imploramos, dignai-Vos corroborar a
               confiança que em Vós depositamos, a fim de que com vosso socorro
               possamos vencer todas as adversidades. Por nosso Senhor...

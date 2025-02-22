@@ -15,32 +15,33 @@ export default function PagePasc73() {
           <Text className="em">Sl. 67, 8 & 9</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, dum egrederéris coram pópulo tuo, iter fáciens eis, hábitans
               in illis, allelúja: terra mota est, cœli distillavérunt, allelúja,
-              allelúja. <Text className="text-base latin">Ps. ibid., 2</Text>{" "}
-              Exsúrgat Deus, et dissipéntur inimíci ejus: et fúgiant, qui
-              odérunt eum, a fácie ejus. ℣. Gloria Patri...
+              allelúja. <Text className="latin">Ps. ibid., 2</Text> Exsúrgat
+              Deus, et dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a
+              fácie ejus.<Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, quando aparecestes perante o vosso povo, aleluia,
               caminhando e habitando com ele na terra, aleluia: a terra
               estremeceu e os céus destilaram águas, aleluia, aleluia!{" "}
-              <Text className="text-base vernacular">Sl. ibid., 2</Text> Erga-se
-              Deus e os seus inimigos sejam dispersos: e os seus perseguidores
-              fujam diante da sua face. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. ibid., 2</Text> Erga-se Deus e os
+              seus inimigos sejam dispersos: e os seus perseguidores fujam
+              diante da sua face.<Text className="versicle"> ℣. </Text>Glória ao
+              Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Mentes nostras, quǽsumus, Dómine, Paráclitus, qui a te procédit,
               illúminet: et indúcat in omnem, sicut tuus promísit Fílius,
               veritátem: Qui tecum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos suplicamos, permiti que o Paráclito, que procede de
               Vós, ilumine as nossas almas e nos faça conhecer toda a verdade,
               como no-lo prometeu vosso Filho. O qual, sendo Deus...
@@ -52,11 +53,9 @@ export default function PagePasc73() {
           <Text className="em">Act. 2, 14-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Actuum Apostolórum.</Text>
-            <Text className="text-base vernacular">
-              Lição dos Actos dos Apóstolos.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Actuum Apostolórum.</Text>
+            <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
+            <Text className="latin">
               In diébus illis: Stans Petrus cum úndecim, levávit vocem suam, et
               locútus est eis: Viri Judǽi, et qui habitátis Jerúsalem univérsi,
               hoc vobis notum sit, et áuribus percípite verba mea. Non enim,
@@ -72,7 +71,7 @@ export default function PagePasc73() {
               Dómini magnus et maniféstus. Et erit: omnis, quicúmque invocáverit
               nomen Dómini, salvus erit.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, Pedro apresentou-se com os Onze e elevou a voz,
               dizendo: «Varões judeus e vós todos, habitantes de Jerusalém,
               aprendei bem isto e escutai atentamente as minhas palavras: Estes
@@ -91,28 +90,28 @@ export default function PagePasc73() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja. ℣. <Text className="text-base latin">Ps. 32, 6</Text>{" "}
-              Verbo Dómini cœli firmáti sunt, et Spíritu oris ejus omnis virtus
-              eórum.
+            <Text className="latin">
+              Allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 32, 6</Text> Verbo Dómini cœli firmáti
+              sunt, et Spíritu oris ejus omnis virtus eórum.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 32, 6</Text> A palavra
-              do Senhor firmou os céus, e o Espírito da sua boca criou todos os
-              espíritos da milícia celeste.
+            <Text className="vernacular">
+              Aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 32, 6</Text> A palavra do Senhor
+              firmou os céus, e o Espírito da sua boca criou todos os espíritos
+              da milícia celeste.
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta, quǽsumus, omnípotens et miséricors Deus: ut Spíritus
               Sanctus advéniens, templum nos glóriæ suæ dignánter inhabitándo
               perfíciat. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Fazei, ó Deus omnipotente e misericordioso, Vos imploramos, que,
               descendo o Espírito Santo sobre nós, nos torne em suas moradas e
               em templos dignos da sua glória. Por nosso Senhor...
@@ -124,11 +123,9 @@ export default function PagePasc73() {
           <Text className="em">Act. 5, 12-16</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Actuum Apostolórum.</Text>
-            <Text className="text-base vernacular">
-              Lição dos Actos dos Apóstolos.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Actuum Apostolórum.</Text>
+            <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
+            <Text className="latin">
               In diébus illis: Per manus autem Apostolórum fiébant signa et
               prodígia multa in plebe. Et erant unanímiter omnes in pórticu
               Salomónis. Ceterórum autem nemo audébat se conjúngere illis: sed
@@ -140,7 +137,7 @@ export default function PagePasc73() {
               civitátum Jerúsalem, afferéntes ægros et vexátos a spirítibus
               immúndis: qui curabántur omnes.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, os Apóstolos operavam muitos milagres e prodígios
               no meio do povo. E, unidos todos, estavam sob o pórtico de
               Salomão. Nenhuma outra pessoa ousava juntar-se a eles2 ainda que
@@ -155,15 +152,16 @@ export default function PagePasc73() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Allelúja, allelúja.{" "}
-              <Text className="text-base latin">hic genuflectitur</Text> ℣.
+              <Text className="latin">hic genuflectitur</Text>
+              <Text className="versicle"> ℣. </Text>
               Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris
               in eis ignem accénde.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia{" "}
-              <Text className="text-base vernacular">Genuflecte-se</Text> ℣.
+            <Text className="vernacular">
+              Aleluia, aleluia <Text className="vernacular">Genuflecte-se</Text>
+              <Text className="versicle"> ℣. </Text>
               Vinde, ó Espírito Santo; enchei os corações dos vossos fiéis e
               acendei neles o fogo do vosso amor.
             </Text>
@@ -174,15 +172,15 @@ export default function PagePasc73() {
           <Text className="em">Jo. 6, 44-52</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus turbis Judæórum: Nemo potest veníre
               ad me, nisi Pater, qui misit me, tráxerit eum: et ego resuscitábo
               eum in novíssimo die. Est scriptum in Prophétis: Et erunt omnes
@@ -195,7 +193,7 @@ export default function PagePasc73() {
               de cœlo descéndi. Si quis manducáverit ex hoc sane, vivet in
               ætérnum: et palis, quem ego dabo, caro mea est pro mundi vita.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus à multidão dos judeus: «Ninguém pode
               vir a mim, se o Pai, que me enviou, o não trouxer; e Eu o
               ressuscitarei no último dia. Está escrito nos Profetas: «Serão
@@ -215,11 +213,11 @@ export default function PagePasc73() {
           <Text className="em">Sl. 118, 47-48</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Meditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas
               ad mandáta tua, quæ diléxi, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Meditarei nos vossos mandamentos, que muito amo: e erguerei as
               minhas mãos para cumprir os vossos mandamentos, que muito amo,
               aleluia.
@@ -229,11 +227,11 @@ export default function PagePasc73() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Accipe, quǽsumus, Dómine, munus oblátum: et dignánter operáre; ut,
               quod mystériis ágimus, piis efféctibus celebrámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aceitai, Senhor, Vos rogamos, o dom que Vos oferecemos: e
               dignai-Vos permitir-nos que celebremos piamente os mystérios que
               desempenhamos. Por nosso Senhor...
@@ -245,11 +243,11 @@ export default function PagePasc73() {
           <Text className="em">Jo. 14, 27</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Pacem relínquo vobis, allelúja: pacem meam do vobis, allelúja,
               allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deixo-vos a paz, aleluia: dou-vos a minha paz, aleluia, aleluia.
             </Text>
           </View>
@@ -257,12 +255,12 @@ export default function PagePasc73() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Suméntes, Dómine, cœléstia sacraménta, quǽsumus cleméntiam tuam:
               ut quod temporáliter gérimus ætérnis gáudiis consequámur Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Recebendo nós, Senhor, estes divinos sacramentos, imploramos a
               vossa clemência, a fim de que alcancemos nos gozos eternos o que
               celebramos durante o tempo. Por nosso Senhor...

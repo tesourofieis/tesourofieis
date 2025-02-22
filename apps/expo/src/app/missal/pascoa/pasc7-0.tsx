@@ -15,31 +15,32 @@ export default function PagePasc70() {
           <Text className="em">Sb. 1, 7</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Spíritus Dómini replévit orbem terrárum, allelúja: et hoc quod
               cóntinet ómnia, sciéntiam habet vocis, allelúja, allelúja,
-              allelúja. <Text className="text-base latin">Ps. 67, 2</Text>{" "}
-              Exsúrgat Deus, et dissipéntur inimíci ejus: et fúgiant, qui
-              odérunt eum, a fácie ejus. ℣. Gloria Patri...
+              allelúja. <Text className="latin">Ps. 67, 2</Text> Exsúrgat Deus,
+              et dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a fácie
+              ejus.<Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O Espírito do Senhor encheu todo o universo, aleluia. Ele, que
               abrange todas as coisas, sabe tudo quanto se diz: aleluia,
-              aleluia. <Text className="text-base vernacular">Sl. 67, 2</Text>{" "}
-              Erga-se Deus e sejam dispersos os seus inimigos: fujam da sua
-              presença os seus inimigos! ℣. Glória ao Pai...
+              aleluia. <Text className="vernacular">Sl. 67, 2</Text> Erga-se
+              Deus e sejam dispersos os seus inimigos: fujam da sua presença os
+              seus inimigos!<Text className="versicle"> ℣. </Text>Glória ao
+              Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui hodiérna die corda fidélium Sancti Spíritus
               illustratióne docuísti: da nobis in eódem Spíritu recta sápere; et
               de ejus semper consolatióne gaudére. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que neste dia instruístes os corações dos fiéis,
               infundindo-lhes os dons do Espírito Santo, concedei-nos pelo mesmo
               Espírito a graça de amarmos o que é recto e de gozarmos
@@ -52,11 +53,9 @@ export default function PagePasc70() {
           <Text className="em">Act. 2, 1-11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Actuum Apostolórum.</Text>
-            <Text className="text-base vernacular">
-              Lição dos Actos dos Apóstolos.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Actuum Apostolórum.</Text>
+            <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
+            <Text className="latin">
               Cum compleréntur dies Pentecóstes, erant omnes discípuli pariter
               in eódem loco: et factus est repéente de cœlo sonus, tamquam
               adveniéntis spíritus veheméntis: et replévit totam domum, ubi
@@ -75,7 +74,7 @@ export default function PagePasc70() {
               Cyrénen, et ádvenæ Románi, Judǽi quoque et Prosélyti, Cretes et
               Arabes: audívimus eos loquéntes nostris linguis magnália Dei.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Quando chegou o dia de Pentecostes, os discípulos estavam todos
               reunidos no mesmo lugar. De repente, ouviu-se um ruído, vindo do
               céu, semelhante a um vento impetuoso, que encheu toda a casa onde
@@ -100,19 +99,20 @@ export default function PagePasc70() {
           </View>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 103, 30</Text> Emítte
-              Spíritum tuum, et creabúntur, et renovábis fáciem terræ. Allelúja.{" "}
-              <Text className="em">hic genuflectitur</Text> ℣. Veni, Sancte
-              Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem
-              accénde.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 103, 30</Text> Emítte Spíritum tuum,
+              et creabúntur, et renovábis fáciem terræ. Allelúja.{" "}
+              <Text className="em">hic genuflectitur</Text>
+              <Text className="versicle"> ℣. </Text>Veni, Sancte Spíritus, reple
+              tuórum corda fidélium: et tui amóris in eis ignem accénde.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 103, 30</Text> Enviai o
-              vosso Espírito, e uma nova criação se operará: e renovareis a face
-              da terra. Aleluia. <Text className="em">Genuflecte-se</Text> ℣.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 103, 30</Text> Enviai o vosso
+              Espírito, e uma nova criação se operará: e renovareis a face da
+              terra. Aleluia. <Text className="em">Genuflecte-se</Text>
+              <Text className="versicle"> ℣. </Text>
               Vinde, ó Espírito Santo; enchei os corações dos vossos fiéis e
               acendei neles o fogo do vosso amor.
             </Text>
@@ -121,7 +121,7 @@ export default function PagePasc70() {
           <Text className="h3">Sequência</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Veni, Sancte Spíritus, et emítte cǽlitus lucis tuæ rádium. Veni,
               pater páuperum; veni, dator rnúnerum; veni, lumen córdium.
               Consolátor óptime, dulcis hospes ánimæ, dulce refrigérium. In
@@ -133,7 +133,7 @@ export default function PagePasc70() {
               fidélibus, in te confidéntibus, sacrum septenárium. Da virtútis
               méritum, da salútis éxitum, da perénne gáudium. Amen. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vinde, ó Espírito Santo, e enviai do céu um raio da vossa divina
               luz. Vinde, ó pai dos pobres; vinde, distribuidor de todos os
               dons; vinde, luz dos corações. Consolador supremo, doce hóspede da
@@ -154,15 +154,15 @@ export default function PagePasc70() {
           <Text className="em">Jo. 14, 23-31</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Joánnem.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. João.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus discípulis suis: Si quis díligit me,
               sermónem meum servábit, et Pater meus díliget eum, et ad eum
               veniémus et mansiónem apud eum faciémus: qui non díligit me,
@@ -180,7 +180,7 @@ export default function PagePasc70() {
               cognóscat mundus, quia díligo Patrem, et sicut mandátum dedit mihi
               Pater, sic fácio.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus aos discípulos: «Se alguém me ama,
               guardará a minha doutrina; e meu Pai o amará. E viremos a ele e
               nele faremos nossa morada. Quem me não ama, não guarda os meus
@@ -205,11 +205,11 @@ export default function PagePasc70() {
           <Text className="em">Sl. 67, 29-30</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Confírma hoc, Deus, quod operátus es in nobis: a templo tuo, quod
               est in Jerúsalem, tibi ófferent reges múnera, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Confirmai, ó Deus, o que em nós começastes. Lá, no vosso templo,
               em Jerusalém, os reis oferecer-Vos-ão suas dádivas, aleluia.
             </Text>
@@ -218,12 +218,12 @@ export default function PagePasc70() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Múnera, quǽsumus, Dómine, obláta sanctífica: et corda nostra
               Sancti Spíritus illustratióne emúnda. Per Dóminum... in unitáte
               ejusdem...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Santificai, Senhor, Vos suplicamos, os dons que Vos oferecemos, e
               purificai os nossos corações com a luz do Espírito Santo. Por
               nosso Senhor... em unidade do mesmo...
@@ -235,12 +235,12 @@ export default function PagePasc70() {
           <Text className="em">Act. 2, 2 & 4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Factus est repénte de cœlo sonus, tamquam adveniéntis spíritus
               veheméntis, ubi erant sedéntes, allelúja: et repléti sunt omnes
               Spíritu Sancto, loquéntes magnália Dei, allelúja, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               De repente, ouviu-se, vindo do céu, um ruído, semelhante a um
               vento impetuoso, que encheu a casa onde estavam reunidos, aleluia:
               e ficaram cheios do Espírito Santo, anunciando as maravilhas de
@@ -251,11 +251,11 @@ export default function PagePasc70() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Sancti Spíritus, Dómine, corda nostra mundet infúsio: et sui roris
               íntima aspersióne fecúndet. Per Dóminum... in unitáte ejusdem...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, que a efusão do Espírito Santo purifique os nossos
               corações e que, penetrando neles, a aspersão do seu orvalho
               fecunde o íntimo das nossas almas. Por nosso Senhor... em unidade

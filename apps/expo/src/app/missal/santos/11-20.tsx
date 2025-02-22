@@ -24,14 +24,14 @@ export default function Page1120() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui beátum Felicem Confessórem tuum ex eremo ad munus
               rediméndi captívos cœlitus vocáre dignátus es: præsta, quǽsumus;
               ut per grátiam tuam ex peccatórum nostrórum captivitáte, ejus
               intercessióne, liberáti, ad cœléstem pátriam perducámur. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que, de um modo celestial, ao B. Félix, vosso Confessor,
               Vos dignastes chamar da solidão do deserto para a missão de remir
               os cativos, concedei-nos, Vos rogamos, que, sendo nós pela sua

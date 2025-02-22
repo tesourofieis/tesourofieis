@@ -15,31 +15,31 @@ export default function PagePent175() {
           <Text className="em">Sl 104:3-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Lætétur cor quæréntium Dóminum: quǽrite Dóminum, et confirmámini:
               quǽrite fáciem ejus semper.{" "}
-              <Text className="text-base latin">Ps 104:1</Text> Confitémini
-              Dómino et invocáte nomen ejus: annuntiáte inter gentes ópera ejus.
-              ℣. Gloria Patri...
+              <Text className="latin">Ps 104:1</Text> Confitémini Dómino et
+              invocáte nomen ejus: annuntiáte inter gentes ópera ejus.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Alegre-se o coração daqueles que procuram o Senhor: procurai o
               Senhor; procurai-o incessantemente; procurai a sua presença
-              sempre. <Text className="text-base vernacular">Sl 104:1</Text>{" "}
-              Louvai o Senhor e invocai o seu nome: anunciai aos povos as suas
-              obras. ℣. Glória ao Pai...
+              sempre. <Text className="vernacular">Sl 104:1</Text> Louvai o
+              Senhor e invocai o seu nome: anunciai aos povos as suas obras.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, observatiónes sacras ánnua
               devotióne recoléntes, et córpore tibi placeámus et mente. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deus omnipotente, Vos suplicamos, permiti que, observando nós,
               anualmente, com religiosa devoção estas sacrossantas práticas, Vos
               possamos agradar tanto com o nosso corpo, como com a nossa alma.
@@ -52,11 +52,9 @@ export default function PagePent175() {
           <Text className="em">Os 14:2-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">Léctio Osee Prophétæ.</Text>
-            <Text className="text-base vernacular">
-              Lição do Profeta Oseas.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="latin">Léctio Osee Prophétæ.</Text>
+            <Text className="vernacular">Lição do Profeta Oseas.</Text>
+            <Text className="latin">
               Hæc dicit Dóminus Deus: Convértere, Israël, ad Dóminum, Deum tuum:
               quóniam corruísti in iniquitáte tua. Tóllite vobíscum verba, et
               convertímini ad Dóminum et dícite ei: Omnem aufer iniquitátem,
@@ -75,7 +73,7 @@ export default function PagePent175() {
               Dómini, et justi ambulábunt in eis: prævaricatóres vero córruent
               in eis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eis o que diz o Senhor Deus: «Ó Israel, converte-te ao Senhor, teu
               Deus; pois foi a tua iniquidade, que te fez cair. Fala como se
               fossem tuas estas palavras, converte-te ao Senhor e diz-Lhe:
@@ -106,14 +104,15 @@ export default function PagePent175() {
           <Text className="em">Sl 89:13, 1</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Convértere, Dómine, aliquántulum, et deprecáre super servos tuos.
-              ℣. Dómine, refúgium factus es nobis, a generatióne et progénie.
+              <Text className="versicle"> ℣. </Text>Dómine, refúgium factus es
+              nobis, a generatióne et progénie.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Volvei-Vos para nós, Senhor, ainda que seja um pouco, e atendei
-              aos Vossos servos. ℣. Senhor, tendes sido de geração em geração o
-              nosso refúgio.
+              aos Vossos servos.<Text className="versicle"> ℣. </Text>Senhor,
+              tendes sido de geração em geração o nosso refúgio.
             </Text>
           </View>
 
@@ -122,15 +121,15 @@ export default function PagePent175() {
           <Text className="em">Lc 7:36-50</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Rogábat Jesum quidam de pharisǽis, ut manducáret
               cum illo. Et ingréssus domum pharisǽi, discúbuit. Et ecce, múlier,
               quæ erit in civitáte peccátrix, ut cognóvit, quod accubuísset in
@@ -157,7 +156,7 @@ export default function PagePent175() {
               Quis est hic, qui étiam peccáta dimíttit? Dixit autem ad mulíerem:
               Fides tua te salvam fecit: vade in pace.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, um fariseu pediu a Jesus que comesse com ele à sua
               mesa. Havendo, pois, Jesus entrado em sua casa, sentou-se à mesa.
               E eis que uma mulher pecadora que havia na cidade, sabendo que
@@ -195,11 +194,11 @@ export default function PagePent175() {
           <Text className="em">Sl 102:2, 5</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Bénedic, ánima mea, Dómino, et noli oblivísci omnes retributiónes
               ejus: et renovábitur, sicut áquilæ, juvéntus tua.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó minha alma, louva o Senhor; não esqueças nunca os benefícios que
               te fez: e a tua juventude se renovará, como a da água.
             </Text>
@@ -208,12 +207,12 @@ export default function PagePent175() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Accépta tibi sint, Dómine, quǽsumus, nostri dona jejúnii: quæ et
               expiándo nos tua grátia dignos effíciant, et ad sempitérna
               promíssa perdúcant. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos suplicamos, dignai-Vos aceitar a oferta do nosso
               jejum, para que, servindo de expiação das nossas faltas, nos
               tornemos dignos da vossa graça e sejamos conduzidos aos bens
@@ -226,11 +225,11 @@ export default function PagePent175() {
           <Text className="em">Sl 118:22, 24</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Aufer a me oppróbrium et contémptum, quia mandáta tua exquisívi,
               Dómine: nam et testimónia tua meditátio mea est.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Afastai de mim a desonra e o desprezo, porque, Senhor, cumpri so
               vossos mandamentos. A vossa lei é objecto da minha constante
               meditação.
@@ -240,11 +239,11 @@ export default function PagePent175() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias
               exhibéntes, benefícia potióra sumámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos imploramos, permiti que, dando-Vos nós graças pelos
               benefícios que recebemos, alcancemos outros ainda mais preciosos.
               Por nosso Senhor...

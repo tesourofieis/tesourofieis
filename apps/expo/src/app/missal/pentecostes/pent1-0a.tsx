@@ -15,34 +15,34 @@ export default function PagePent10A() {
           <Text className="em">Sl. 12, 6</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Dómine, in tua misericórdia sperávi: exsultávit cor meum in
               salutári tuo: cantábo Dómino, qui bona tríbuit mihi.{" "}
-              <Text className="text-base latin">Ps. ib., 1</Text> Usquequo,
-              Dómine, oblivísceris me in finem? usquequo avértis fáciem tuam a
-              me? ℣. Gloria Patri...
+              <Text className="latin">Ps. ib., 1</Text> Usquequo, Dómine,
+              oblivísceris me in finem? usquequo avértis fáciem tuam a me?
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, esperei na vossa misericórdia: Meu coração exultou de
               alegria pela salvação que me alcançastes; louvarei o Senhor, que
               me encheu de benefícios.{" "}
-              <Text className="text-base vernacular">Ps. ib., 1</Text> Até
-              quando, Senhor, Vos esquecereis de mim? Esquecer-me-eis para
-              sempre? Até quando afastareis de mim a vossa face? ℣. Glória ao
-              Pai...
+              <Text className="vernacular">Ps. ib., 1</Text> Até quando, Senhor,
+              Vos esquecereis de mim? Esquecer-me-eis para sempre? Até quando
+              afastareis de mim a vossa face?
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, in te sperántium fortitúdo, adésto propítius invocatiónibus
               nostris: et, quia sine te nihil potest mortális infírmitas, præsta
               auxílium grátiæ tuæ; ut, in exsequéndis mandátis tuis, et
               voluntáte tibi et actióne placeámus. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, fortaleza daqueles que em Vós esperam, sede propício às
               nossas preces; e, visto que sem o vosso auxílio nada pode a
               fraqueza humana, concedei-nos o socorro da vossa graça, para que,
@@ -56,13 +56,11 @@ export default function PagePent10A() {
           <Text className="em">1 Jo. 4, 8-21</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio Epístolæ beáti Joánni Apóstoli.
             </Text>
-            <Text className="text-base vernacular">
-              Lição da Ep.ª do B. Ap.º João.
-            </Text>
-            <Text className="text-base latin">
+            <Text className="vernacular">Lição da Ep.ª do B. Ap.º João.</Text>
+            <Text className="latin">
               Caríssimi: Deus cáritas est. In hoc appáruit cáritas Dei in nobis,
               quóniam Fílium suum unigénitum misit Deus in mundum, ut vivámus
               per eum. In hoc est cáritas: non quasi nos dilexérimus Deum, sed
@@ -87,7 +85,7 @@ export default function PagePent10A() {
               quem non videt, quómodo potest dilígere? Et hoc mandátum habémus a
               Deo: ut, qui diligit Deum, díligat et fratrem suum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Caríssimos: Deus é caridade. A caridade de Deus para connosco
               manifestou-se em Ele ter enviado ao mundo o seu Filho Unigénito,
               para que vivamos por Ele. E esta caridade consiste em que não
@@ -122,25 +120,26 @@ export default function PagePent10A() {
           <Text className="em">Sl. 40, 5 & 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ego dixi: Dómine, miserére mei: sana ánimam meam, quia peccávi
-              tibi. ℣. Beátus, qui intéllegit super egénum et páuperem: in die
-              mala liberábit eum Dóminus.
+              tibi.<Text className="versicle"> ℣. </Text>Beátus, qui intéllegit
+              super egénum et páuperem: in die mala liberábit eum Dóminus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Eu disse: Senhor, tende piedade de mim: curai a minha alma, porque
-              pequei contra Vós. ℣. Bem-aventurado aquele que pensa no pobre e
-              no miserável, pois o Senhor o livrará no dia mau.
+              pequei contra Vós.<Text className="versicle"> ℣. </Text>
+              Bem-aventurado aquele que pensa no pobre e no miserável, pois o
+              Senhor o livrará no dia mau.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Ps. 5, 2</Text> Verba mea
-              áuribus pércipe, Dómine: intéllege clamórem meum. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Ps. 5, 2</Text> Verba mea áuribus pércipe,
+              Dómine: intéllege clamórem meum. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Sl. 5, 2</Text> Atendei às
-              minhas palavras, Senhor! Ouvi o meu clamor. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Sl. 5, 2</Text> Atendei às minhas
+              palavras, Senhor! Ouvi o meu clamor. Aleluia.
             </Text>
           </View>
 
@@ -149,15 +148,15 @@ export default function PagePent10A() {
           <Text className="em">Lc. 6, 36-42</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Dixit Jesus discípulis suis: Estóte misericórdes,
               sicut et Pater vester miséricors est. Nolíte judicáre, et non
               judicabímini: nolíte condemnáre, et non condemnabímini. Dimíttite,
@@ -174,7 +173,7 @@ export default function PagePent10A() {
               trabem de oculo tuo: et tunc perspícies, ut edúcas festúcam de
               óculo fratris tui.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, disse Jesus aos seus discípulos: «Sede
               misericordiosos, como misericordioso é o vosso Pai. Não julgueis,
               e não sereis julgados. Não condeneis, e não sereis condenados.
@@ -198,11 +197,11 @@ export default function PagePent10A() {
           <Text className="em">Sl. 5, 3-4</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Inténde voci orationis meæ, Rex meus et Deus meus: quóniam ad te
               orábo, Dómine.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Atendei à minha súplica, ó meu Rei e meu Deus: pois é a Vós que
               dirijo a minha oração.
             </Text>
@@ -211,12 +210,12 @@ export default function PagePent10A() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hóstias nostras, quǽsumus, Dómine, tibi dicátas placátus assúme:
               et ad perpétuum nobis tríbue proveníre subsídium. Per Dóminum
               nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Aceitai benigno, Senhor, as ofertas que Vos oferecemos; e, Vos
               suplicamos, fazei que nos alcancem o vosso perpétuo auxílio. Por
               nosso Senhor...
@@ -228,11 +227,11 @@ export default function PagePent10A() {
           <Text className="em">Sl. 9, 2-3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Narrábo ómnia mirabília tua: lætábor et exsultábo in te: psallam
               nómini tuo, Altíssime.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Publicarei todas as vossas maravilhas: e alegrar-me-ei e
               rejubilarei em Vós! Cantarei louvores ao vosso nome, ó Altíssimo.
             </Text>
@@ -241,12 +240,12 @@ export default function PagePent10A() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tantis, Dómine, repléti munéribus: præsta, quǽsumus; ut et
               salutária dona capiámus, et a tua numquam laude cessémus. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Depois de havermos sido saciados com tantos dons, fazei, Senhor,
               Vos suplicamos, que nos sejam proveitosos e que nunca cessemos de
               Vos louvar. Por nosso Senhor...

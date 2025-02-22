@@ -51,13 +51,13 @@ export default function Page0719() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui, ad evangelizándum paupéribus et ecclesiástici órdinis
               decórem promovéndum, beátum Vincéntium apostólica virtúte
               roborásti: præsta, quǽsumus; ut, cujus pia mérita venerámur,
               virtútum quoque instruámur exémplis. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que ornastes o B. Vicente com a coragem e as virtudes
               apostólicas para a evangelização dos pobres e para promover o
               decoro da ordem eclesiástica, permiti, Vos imploramos, que,

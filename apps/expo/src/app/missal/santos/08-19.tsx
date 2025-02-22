@@ -26,14 +26,14 @@ export default function Page0819() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui beátum Joánnem, Confessórem tuum, ad cultum sacrórum
               Córdium Jesu et Maríæ rite promovéndum, mirabíliter inflammásti,
               et per eum novas in Ecclésia tua famílias congregáre voluísti:
               præsta, quǽsumus; ut, cujus pia mérita venerámur, virtútum quoque
               instruámur exémplis. Per eúndem Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que, para promover o culto em honra dos Sagrados Corações
               de Jesus e de Maria, inflamastes com zelo admirável o B. João,
               vosso Confessor, e por ele Vos dignastes criar novas famílias na

@@ -38,14 +38,14 @@ export default function Page0505() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui, ad conteréndos Ecclésiæ tuæ hostes et ad divínum cultum
               reparándum, beátum Pium Pontíficem Máximum elígere dignátus es:
               fac nos ipsíus deféndi præsídiis et ita tuis inhærére obséquiis;
               ut, ómnium hóstium superátis insídiis, perpétua pace lætémur. Per
               Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que para esmagar os inimigos da vossa Igreja e reformar o
               culto divino Vos dignastes escolher o B. Pio para Sumo Pontífice,
               permiti que sejamos munidos com o socorro da sua protecção; e de

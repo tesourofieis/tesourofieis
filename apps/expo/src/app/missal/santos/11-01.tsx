@@ -13,33 +13,33 @@ export default function Page1101() {
           <Text className="h3">Intróito</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
               Sanctórum ómnium: de quorum sollemnitáte gaudent Angeli et
-              colláudant Fílium Dei.{" "}
-              <Text className="text-base latin">Ps. 32, 1</Text> Exsultáte,
-              justi, in Dómino: rectos decet collaudátio. ℣. Gloria Patri...
+              colláudant Fílium Dei. <Text className="latin">Ps. 32, 1</Text>{" "}
+              Exsultáte, justi, in Dómino: rectos decet collaudátio.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Alegremo-nos todos no Senhor, neste dia em que celebramos a festa
               em honra de Todos os Santos, de cuja solenidade se regozijam os
               Anjos, louvando unissonamente o Filho de Deus.{" "}
-              <Text className="text-base vernacular">Sl. 32, 1</Text> Aclamai o
-              Senhor, ó justos; pois é aos que possuem o coração recto que
-              pertence louvar o Senhor. ℣. Glória ao Pai...
+              <Text className="vernacular">Sl. 32, 1</Text> Aclamai o Senhor, ó
+              justos; pois é aos que possuem o coração recto que pertence louvar
+              o Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnípotensns sempitérne Deus, qui nos ómnium Sanctórum tuórum
               mérita sub una tribuísti celebritáte venerári: quǽsumus; ut
               desiderátam nobis tuæ propitiatiónis abundántiam, multiplicátis
               intercessóribus, largiáris. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Omnipotente e eterno Deus, que nos permitistes a graça de celebrar
               em uma só festividade os méritos de todos vossos Santos,
               concedei-nos, Vos rogamos, que, assistidos de tão numerosos
@@ -53,13 +53,13 @@ export default function Page1101() {
           <Text className="em">Ap. 7, 2-12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição do Livro do Apocalipse do B. Ap.º João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In diébus illis: Ecce, ego Joánnes vidi álterum Angelum
               ascendéntem ab ortu solis, habéntem signum Dei vivi: et clamávit
               voce magna quátuor Angelis, quibus datum est nocére terræ et mari,
@@ -84,7 +84,7 @@ export default function Page1101() {
               cláritas et sapiéntia et gratiárum actio, honor et virtus et
               fortitúdo Deo nostro in sǽcula sæculórum. Amen.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naqueles dias, eu, João, vi um outro Anjo que subia do lado do
               nascer do sol, tendo na mão o sinal de Deus vivo e clamando com
               voz forte aos quatro Anjos, que haviam recebido o poder de ferirem
@@ -120,25 +120,25 @@ export default function Page1101() {
           <Text className="em">Sl. 33, 10 & 11</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Timéte Dóminum, omnes Sancti ejus: quóniam nihil deest timéntibus
-              eum. ℣. Inquiréntes autem Dóminum, non defícient omni bono.
+              eum.<Text className="versicle"> ℣. </Text>Inquiréntes autem
+              Dóminum, non defícient omni bono.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Temei o Senhor, ó vós, que sois os seus Anjos; pois àqueles que O
-              temem nada faltará. ℣. Aqueles que procuram o Senhor não serão
-              privados de nenhum bem.
+              temem nada faltará.<Text className="versicle"> ℣. </Text>Aqueles
+              que procuram o Senhor não serão privados de nenhum bem.
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣.{" "}
-              <Text className="text-base latin">Matth. 11, 28</Text> Veníte ad
-              me, omnes, qui laborátis et oneráti estis: et ego refíciam vos.
-              Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Matth. 11, 28</Text> Veníte ad me, omnes,
+              qui laborátis et oneráti estis: et ego refíciam vos. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣.{" "}
-              <Text className="text-base vernacular">Mt. 11, 28</Text> Vinde a
-              mim, vós, todos, que estais aflitos: e Eu vos aliviarei. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Mt. 11, 28</Text> Vinde a mim, vós,
+              todos, que estais aflitos: e Eu vos aliviarei. Aleluia.
             </Text>
           </View>
 
@@ -147,15 +147,15 @@ export default function Page1101() {
           <Text className="em">Mt. 5, 1-12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Matthǽum.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Matthǽum.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Mateus.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Mateus.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Videns Jesus turbas, ascéndit in montem, et cum
               sedísset, accessérunt ad eum discípuli ejus, et apériens os suum,
               docébat eos, dicens: Beáti páuperes spíritu: quóniam ipsorum est
@@ -170,7 +170,7 @@ export default function Page1101() {
               malum advérsum vos, mentiéntes, propter me: gaudéte et exsultáte,
               quóniam merces vestra copiósa est in cœlis.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, vendo Jesus as turbas do povo, que O seguiam, subiu
               para uma montanha. Então assentou-se, aproximando-se d’Ele os
               discípulos. Depois, tomando a palavra, pregou assim aos seus
@@ -195,12 +195,12 @@ export default function Page1101() {
           <Text className="em">Sb. 3, 1, 2 & 3</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Justórum ánimæ in manu Dei sunt, et non tanget illos torméntum
               malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in
               pace, allelúja.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               As almas dos justos estão nas mãos de Deus: e o tormento da
               malícia as não tocará. Aos olhos dos insensatos pareciam quase a
               morrer, todavia, agora, estão na paz, aleluia.
@@ -210,12 +210,12 @@ export default function Page1101() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro
               cunctórum tibi grata sint honóre Justórum, et nobis salutária, te
               miseránte, reddántur. Per Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vos oferecemos, Senhor, estes dons da nossa piedade; e, em atenção
               aos merecimentos dos vossos justos, dignai-Vos aceitá-los; e pela
               vossa misericórdia fazei que nos sejam salutares. Por nosso
@@ -228,12 +228,12 @@ export default function Page1101() {
           <Text className="em">Mt. 5, 8-10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Beáti mundo corde, quóniam ipsi Deum vidébunt; beáti pacífici,
               quóniam filii Dei vocabúntur: beáti, qui persecutiónem patiúntur
               propter justítiam, quóniam ipsórum est regnum cœlórum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Bem-aventurados os que possuem o coração puro, porque verão a
               Deus; bem-aventurados os pacíficos, porque serão chamados filhos
               de Deus; bem-aventurados os que sofrem perseguição por amor da
@@ -244,12 +244,12 @@ export default function Page1101() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Da, quǽsumus, Dómine, fidélibus pópulis ómnium Sanctórum semper
               veneratióne lætári: et eórum perpétua supplicatióne muníri. Per
               Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Senhor, Vos rogamos, fazei que os vossos povos fiéis venerem
               sempre com alegria os vossos Santos e sejam sempre protegidos pela
               sua intercessão. Por nosso Senhor...

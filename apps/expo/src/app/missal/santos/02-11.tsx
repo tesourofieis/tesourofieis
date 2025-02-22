@@ -17,31 +17,32 @@ export default function Page0211() {
           <Text className="em">Ap. 21, 2</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Vidi civitátem sanctam, Jerúsalem novam, descendéntem de cœlo a
               Deo, parátam sicut sponsam ornátam viro suo.{" "}
-              <Text className="text-base latin">Ps. 44,2</Text> Eructávit cor
-              meum verbum bonum: dico ego ópera mea Regi. ℣. Gloria Patri...
+              <Text className="latin">Ps. 44,2</Text> Eructávit cor meum verbum
+              bonum: dico ego ópera mea Regi.
+              <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Vi a cidade santa, a nova Jerusalém, que descia do céu, vinda de
               Deus, adornada como uma esposa que está preparada para receber o
-              seu esposo. <Text className="text-base vernacular">Sl. 44,2</Text>{" "}
-              Meu coração exprimiu uma palavra excelente: «Consagro as minhas
-              obras ao Rei». ℣. Glória ao Pai...
+              seu esposo. <Text className="vernacular">Sl. 44,2</Text> Meu
+              coração exprimiu uma palavra excelente: «Consagro as minhas obras
+              ao Rei».<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </View>
 
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, qui per immaculátam Vírginis Conceptiónem dignum Filio tuo
               habitáculum præparásti: súpplices a te quǽsumus; ut, ejúsdem
               Vírginis Apparitiónem celebrántes, salútem mentis et córporis
               consequámur. Per eúndem Dóminum nostrum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, que pela Imaculada Conceição da Virgem preparastes para
               vosso Filho uma morada digna d’Ele, fazei, Vos suplicamos, que,
               celebrando a Aparição desta mesma Virgem, alcancemos a salvação da
@@ -54,13 +55,13 @@ export default function Page0211() {
           <Text className="em">Ap. 11, 19; 12, 1 & 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Lição do Apocalipse do B. Ap.º João.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               Apértum est templum Dei in cœlo: et visa est arca testaménti ejus
               in templo ejus, et facta sunt fúlgura et voces et terræmótus et
               grando magna. Et signum magnum appáruit in cœlo: Múlier amícta
@@ -68,7 +69,7 @@ export default function Page0211() {
               duódecim. Et audívi vocem magnam in cœlo dicéntem: Nunc facta est
               salus et virtus, et regnum Dei nostri et potéstas Christi ejus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               O templo de Deus foi aberto no céu, e a arca da sua aliança foi
               vista no seu templo. E então houve relâmpagos, vozes, tremor de
               terra e forte granizo. E apareceu no céu um grande sinal: Uma
@@ -84,29 +85,32 @@ export default function Page0211() {
           <Text className="em">Ct. 2, 12</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Flores apparuérunt in terra nostra, tempus putatiónis advénit, vox
-              túrturis audíta est in terra nostra. ℣.{" "}
-              <Text className="text-base latin">ibid., 10 & l4</Text> Surge,
-              amíca mea, speciósa mea, et veni: colúmba mea in foramínibus
-              petræ, in cavérna macériæ.
+              túrturis audíta est in terra nostra.
+              <Text className="versicle"> ℣. </Text>
+              <Text className="latin">ibid., 10 & l4</Text> Surge, amíca mea,
+              speciósa mea, et veni: colúmba mea in foramínibus petræ, in
+              cavérna macériæ.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               As flores apareceram na terra! Veio o tempo em que podemos cantar.
-              Os arrulhos da rola ouvem-se já pelos campos! ℣.{" "}
-              <Text className="text-base vernacular">ibid., 10 & l4</Text>{" "}
-              Erguei-vos, pois, ó minha amada, que toda sois formosa, e vinde! Ó
-              minha pomba, que viveis nas fendas dos rochedos e nas cavernas
+              Os arrulhos da rola ouvem-se já pelos campos!
+              <Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">ibid., 10 & l4</Text> Erguei-vos,
+              pois, ó minha amada, que toda sois formosa, e vinde! Ó minha
+              pomba, que viveis nas fendas dos rochedos e nas cavernas
               escarpadas!
             </Text>
-            <Text className="text-base latin">
-              Allelúja, allelúja. ℣. Osténde mihi fáciem tuam, sonet vox tua in
-              áuribus meis: vox enim tua dulcis, et fácies tua decóra. Allelúja.
+            <Text className="latin">
+              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Osténde
+              mihi fáciem tuam, sonet vox tua in áuribus meis: vox enim tua
+              dulcis, et fácies tua decóra. Allelúja.
             </Text>
-            <Text className="text-base vernacular">
-              Aleluia, aleluia. ℣. Mostrai-me o vosso rosto: fazei que a vossa
-              voz ressoe aos meus ouvidos; pois a vossa voz é doce e o vosso
-              rosto é cheio de beleza. Aleluia.
+            <Text className="vernacular">
+              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Mostrai-me
+              o vosso rosto: fazei que a vossa voz ressoe aos meus ouvidos; pois
+              a vossa voz é doce e o vosso rosto é cheio de beleza. Aleluia.
             </Text>
           </View>
 
@@ -119,20 +123,23 @@ export default function Page0211() {
           <Text className="em">Jdt 15, 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Tu glória Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli
-              nostri. ℣. <Text className="text-base latin">Cant. 4, 7</Text>{" "}
-              Tota pulchra es, María: et mácula originális non est in te. ℣.
+              nostri.<Text className="versicle"> ℣. </Text>
+              <Text className="latin">Cant. 4, 7</Text> Tota pulchra es, María:
+              et mácula originális non est in te.
+              <Text className="versicle"> ℣. </Text>
               Felix es, sacra Virgo María, et omni laude digníssima, quæ
               serpéntis caput virgíneo pede contrivísti.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Sois a glória de Jerusalém, a alegria de Israel, a honra do nosso
-              povo. ℣. <Text className="text-base vernacular">Cant. 4, 7</Text>{" "}
-              Toda sois formosa, ó Maria; e a mancha original não existe em Vós.
-              ℣. Sois bem-aventurada, Santa Virgem Maria, e digníssima de todo o
-              louvor, pois com vosso pé virginal esmagastes a cabeça da
-              serpente.
+              povo.<Text className="versicle"> ℣. </Text>
+              <Text className="vernacular">Cant. 4, 7</Text> Toda sois formosa,
+              ó Maria; e a mancha original não existe em Vós.
+              <Text className="versicle"> ℣. </Text>Sois bem-aventurada, Santa
+              Virgem Maria, e digníssima de todo o louvor, pois com vosso pé
+              virginal esmagastes a cabeça da serpente.
             </Text>
           </View>
 
@@ -141,15 +148,15 @@ export default function Page0211() {
           <Text className="em">Lc. 1, 26-31</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
-              <Text className="text-base latin">✠</Text> Sequéntia sancti
-              Evangélii secúndum Lucam.
+            <Text className="latin">
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Lucam.
             </Text>
-            <Text className="text-base vernacular">
-              <Text className="text-base vernacular">✠</Text> Continuação do
-              santo Evangelho segundo S. Lucas.
+            <Text className="vernacular">
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. Lucas.
             </Text>
-            <Text className="text-base latin">
+            <Text className="latin">
               In illo témpore: Missus est Angelus Gábriel a Deo in civitátem
               Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui
               nomen erat Joseph, de domo David, et nomen Vírginis María. Et
@@ -160,7 +167,7 @@ export default function Page0211() {
               ecce, concípies in útero et páries fílium, et vocábis nomen ejus
               Jesum.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Naquele tempo, foi mandado por Deus o Anjo Gabriel a uma cidade da
               Galileia, chamada Nazaré, a uma Virgem, desposada com um varão,
               cujo nome era José, da casa de David; e o nome da Virgem era
@@ -179,10 +186,10 @@ export default function Page0211() {
           <Text className="em">Lc. 1, 28</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ave, ó cheia de graça; o Senhor é convosco; bendita sois entre as
               mulheres.
             </Text>
@@ -191,12 +198,12 @@ export default function Page0211() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Hóstia laudis, quam tibi, Dómine, per mérita gloriósæ et
               immaculátæ Vírginis offérimus, sit tibi in odórem suavitátis, et
               nobis optátam cónferat córporis et ánimæ sanitátem. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Que a hóstia de louvor, que Vos oferecemos, Senhor, seja de
               agradável odor pata Vós, pelos méritos da gloriosa e Imaculada
               Virgem, e nos alcance a desejada saúde do corpo e da alma. Por
@@ -209,10 +216,10 @@ export default function Page0211() {
           <Text className="em">Sl. 64, 10</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Visitásti terram et inebriásti eam, multiplicásti locupletáre eam.
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Visitastes a terra e inebriaste-la; encheste-la com muitas
               riquezas.
             </Text>
@@ -221,12 +228,12 @@ export default function Page0211() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Quos cœlésti, Dómine, aliménto satiásti, súblevet aextera
               Genetrícis tuæ immaculátæ: ut ad ætérnam pátriam, ipsa adjuvánte,
               perveníre mereámur: Qui vivis...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Saciados com o alimento celestial, permiti-nos, Senhor, que a mão
               da vossa Mãe Imaculada nos sustente, para que com a graça da sua
               protecção mereçamos chegar até à pátria eterna. Ó Vós, que viveis

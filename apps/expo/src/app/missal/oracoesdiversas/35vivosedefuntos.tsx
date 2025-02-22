@@ -13,7 +13,7 @@ export default function Page35Vivosedefuntos() {
           <Text className="h3">Oração</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Omnípotens sempitérne Deus, qui vivórum domináris simul et
               mortuórum, omniúmque miseréris, quos tuos fide et opere futúros
               esse prænóscis: te súpplices exorámus; ut, pro quibus effúndere
@@ -22,7 +22,7 @@ export default function Page35Vivosedefuntos() {
               ómnibus Sanctis tuis, pietátis tuæ cleméntia ómnium delictórum
               suórum véniam consequántur. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó omnipotente e sempiterno Deus, que dominais os vivos e os mortos
               e sois misericordioso para com aqueles que antecipadamente
               conheceis que pela sua fé e boas obras hão-de pertencer-Vos,
@@ -37,14 +37,14 @@ export default function Page35Vivosedefuntos() {
           <Text className="h3">Secreta</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Deus, cui soli cógnitus est númerus electórum in supérna
               felicitáte locándus: tríbue, quǽsumus; ut, intercedéntibus ómnibus
               Sanctis tuis, universórum, quos in oratióne commendátas
               suscépimus, et ómnium fidélium nómina beátæ prædestinatiónis liber
               adscrípta retíneat. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Ó Deus, de quem só é conhecido o número dos escolhidos, que hão-de
               possuir um lugar na felicidade celestial, Vos rogamos, permiti,
               pela intercessão de todos vossos Santos, que sejam inscritos no
@@ -57,7 +57,7 @@ export default function Page35Vivosedefuntos() {
           <Text className="h3">Postcomúnio</Text>
 
           <View className="side-by-side">
-            <Text className="text-base latin">
+            <Text className="latin">
               Puríficent nos, quǽsumus, omnípotens et miséricors Deus,
               sacraménta quæ súmpsimus: et, intercedéntibus ómnibus Sanctis
               tuis, præsta; ut hoc tuum sacraméntum non sit nobis reátus ad
@@ -66,7 +66,7 @@ export default function Page35Vivosedefuntos() {
               firmaméntum: sit vivórum atque mortuórum fidélium remíssio ómnium
               delictórum. Per Dóminum...
             </Text>
-            <Text className="text-base vernacular">
+            <Text className="vernacular">
               Deus omnipotente e misericordioso, Vos imploramos, permiti que os
               sacramentos, que recebemos, nos purifiquem; e, pela intercessão de
               todos vossos Santos, concedei-nos que este vosso sacramento seja
