@@ -63,15 +63,15 @@ export default function PageQuadp10() {
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
             </Text>
             <Text className="latin">
-              Patres: Libénter suffértis insipiéntens: cum sitis ipsi sapiéntes.
+              Fratres: Libénter suffértis insipiéntes: cum sitis ipsi sapiéntes.
               Sustinétis enim, si quis vos in servitútem rédigit, si quis
               dévorat, si quis áccipit, si quis extóllitur, si quis in fáciem
               vos cædit. Secúndum ignobilitátem dico, quasi nos infírmi fuérimus
-              in hac parte. In quo quis audet, (in insipiéntia dico) áudeo et
-              ego: Hebrǽi sunt, et ego: Israelítæ sunt, et ego: Semen Abrahæ
-              sunt, et ego: Minístri Christi sunt, (ut minus sápiens dico) plus
-              ego: in labóribus plúrimis, in carcéribus abundántius, in plagis
-              supra modum, in mórtibus frequénter. A Judǽis quínquies
+              in hac parte. In quo quis audet, - in insipiéntia dico - áudeo et
+              ego: Hebræi sunt, et ego: Israëlítæ sunt, et ego: Semen Abrahæ
+              sunt, et ego: Minístri Christi sunt, - ut minus sápiens dico -
+              plus ego: in labóribus plúrimis, in carcéribus abundántius, in
+              plagis supra modum, in mórtibus frequénter. A Judæis quínquies
               quadragénas, una minus, accépi. Ter virgis cæsus sum, semel
               lapidátus sum, ter naufrágium feci, nocte et die in profúndo maris
               fui: in itinéribus sæpe, perículis flúminum, perículis latrónum,
@@ -79,7 +79,7 @@ export default function PageQuadp10() {
               perículis in solitúdine, perículis in mari, perículis in falsis
               frátribus: in labóre et ærúmna, in vigíliis multis, in fame et
               siti, in jejúniis multis, in frigóre et nuditáte: præter illa, quæ
-              extrínsecus sunt, instántia mea cotidiána, sollicitúdo ómnium
+              extrínsecus sunt, instántia mea quotidiána, sollicitúdo ómnium
               Ecclesiárum. Quis infirmátur, et ego non infírmor? quis
               scandalizátur, et ego non uror? Si gloriári opórtet: quæ
               infirmitátis meæ sunt, gloriábor. Deus et Pater Dómini nostri Jesu
@@ -87,12 +87,12 @@ export default function PageQuadp10() {
               Damásci præpósitus gentis Arétæ regis, custodiébat civitátem
               Damascenórum, ut me comprehénderet: et per fenéstram in sporta
               dimíssus sum per murum, et sic effúgi manus ejus. Si gloriári
-              opórtet (non éxpedit quidem), véniam autem ad visiónes et
+              opórtet - non éxpedit quidem, - véniam autem ad visiónes et
               revelatiónes Dómini. Scio hóminem in Christo ante annos
-              quatuórdecim, (sive in córpore néscio, sive extra corpus néscio,
-              Deus scit:) raptum hujúsmodi usque ad tértium cœlum. Et scio
-              hujúsmodi hóminem, (sive in córpore, sive extra corpus néscio,
-              Deus scit: quóniam raptus est in paradisum: et audivit arcána
+              quatuórdecim, - sive in córpore néscio, sive extra corpus néscio,
+              Deus scit - raptum hujúsmodi usque ad tértium cælum. Et scio
+              hujúsmodi hóminem, - sive in córpore, sive extra corpus néscio,
+              Deus scit:- quóniam raptus est in paradisum: et audivit arcána
               verba, quæ non licet homini loqui. Pro hujúsmodi gloriábor: pro me
               autem nihil gloriábor nisi in infirmitátibus meis. Nam, et si
               volúero gloriári, non ero insípiens: veritátem enim dicam: parco
@@ -162,7 +162,7 @@ export default function PageQuadp10() {
           <View className="side-by-side">
             <Text className="latin">
               Sciant gentes, quóniam nomen tibi Deus: tu solus Altíssimus super
-              omnem terram.<Text className="versicle"> ℣. </Text>Deus meus, pone
+              omnem terram,<Text className="versicle"> ℣. </Text>Deus meus, pone
               illos ut rotam, et sicut stípulam ante fáciem venti.
             </Text>
             <Text className="vernacular">
