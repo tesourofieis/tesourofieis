@@ -239,22 +239,22 @@ export default function PageQuadp10() {
               boa, e, nascendo, deu fruto a cem por um». Depois de Jesus ter
               falado assim, acrescentou em voz alta: «Quem tem ouvidos para
               ouvir, ouça!». Então os seus discípulos perguntaram-Lhe a
-              significação desta parábola. «Avós respondeu Ele, é dado conhecer
+              significação desta parábola. «A vós respondeu Ele, é dado conhecer
               o reino de Deus, porém, os outros só o conhecerão pelas parábolas;
               de sorte que, vendo, não vejam, e ouvindo, não compreendam. Eis o
               que significa esta parábola: A semente é a palavra de Deus. A
               semente que caiu junto ao caminho significa os que ouvem a
               palavra, mas logo vem o demónio, a arrebata do seu coração, com
-              medo de que acreditem e sejam A semente que caiu em cima das
-              pedras significa os que ouvem a palavra, e a recebem com alegria,
-              mas não possuem a raiz: acreditam durante algum tempo, mas, quando
-              vem a tentação, sucumbem. A semente que caiu nos espinhos designa
-              aqueles que ouvem a palavra, mas deixam-na pouco a pouco abafar,
-              ou pelos cuidados e inquietações do mundo, ou pelas riquezas e
-              prazeres desta vida, e, portanto, não produzem fruto algum. Enfim,
-              a semente que caiu na terra boa representa aqueles que ouvem a
-              palavra com o coração recto e bom e a guardam, produzindo depois
-              fruto pela paciência».
+              medo de que acreditem e sejam salvos. A semente que caiu em cima
+              das pedras significa os que ouvem a palavra, e a recebem com
+              alegria, mas não possuem a raiz: acreditam durante algum tempo,
+              mas, quando vem a tentação, sucumbem. A semente que caiu nos
+              espinhos designa aqueles que ouvem a palavra, mas deixam-na pouco
+              a pouco abafar, ou pelos cuidados e inquietações do mundo, ou
+              pelas riquezas e prazeres desta vida, e, portanto, não produzem
+              fruto algum. Enfim, a semente que caiu na terra boa representa
+              aqueles que ouvem a palavra com o coração recto e bom e a guardam,
+              produzindo depois fruto pela paciência».
             </Text>
           </View>
 
