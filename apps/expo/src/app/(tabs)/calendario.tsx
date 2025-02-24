@@ -22,10 +22,10 @@ import { useCalendar } from "~/providers/calendar";
 export default function PageCalendarView() {
   const scrollViewRef = useRef<ScrollView>(null);
   const todayRef = useRef<View>(null);
-  const today = yyyyMMDD(new Date());
+  const { calendar, date } = useCalendar();
+  const today = yyyyMMDD(date);
   const [currentDate, setCurrentDate] = useState(new Date());
   const [viewMode, setViewMode] = useState<"month" | "week">("month");
-  const { calendar } = useCalendar();
 
   const handlePrevious = () => {
     setCurrentDate((prevDate) =>

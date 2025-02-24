@@ -284,8 +284,9 @@ export default function PageOracoescomplementares() {
           </Text>
 
           <Image
-            source="cross"
-            contentFit="cover"
+            source={require("../../../assets/images/cross.png")}
+            contentFit="contain"
+            style={{ height: 300 }}
             alt="Jesus Cristo Crucificado"
           />
 

@@ -115,6 +115,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
           "./assets/images/station14.png",
           "./assets/images/cross.png",
           "./assets/images/1.jpeg",
+          "./assets/images/angelus.jpg",
         ],
       },
     ],

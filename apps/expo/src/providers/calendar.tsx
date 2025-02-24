@@ -10,7 +10,13 @@ import {
   isWithinInterval,
   parseISO,
 } from "date-fns";
-import { type PropsWithChildren, createContext, useContext } from "react";
+import {
+  type PropsWithChildren,
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
 import { ActivityIndicator, View } from "react-native";
 
 const CalendarContext = createContext<{
@@ -18,10 +24,19 @@ const CalendarContext = createContext<{
   day: Day;
   mass: Mass[];
   novenas?: Mass[];
+  date: Date;
 }>(undefined);
 
 export function CalendarProvider({ children }: PropsWithChildren) {
-  const date = new Date();
+  const [date, setDate] = useState(new Date());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setDate(new Date());
+    }, 60000);
+
+    return () => clearInterval(timer);
+  }, []);
 
   const calendar = [
     ...getCalendar(getYear(date)),
@@ -58,7 +73,7 @@ export function CalendarProvider({ children }: PropsWithChildren) {
 
   return (
     <CalendarContext.Provider
-      value={{ mass, day, calendar, novenas: getNovenas() }}
+      value={{ mass, day, calendar, novenas: getNovenas(), date }}
     >
       {children}
     </CalendarContext.Provider>

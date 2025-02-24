@@ -3,7 +3,6 @@ import { format } from "date-fns";
 import { pt } from "date-fns/locale";
 import { Image } from "expo-image";
 import { Link } from "expo-router";
-import React, { useEffect, useState } from "react";
 import { Platform, useColorScheme } from "react-native";
 import { ScrollView, Text, View } from "react-native";
 import ExternalLinks from "~/components/External";
@@ -15,19 +14,9 @@ import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
 
 export default function PageRender() {
-  const { day } = useCalendar();
-
-  const [currentDate, setCurrentDate] = useState(new Date());
+  const { day, date } = useCalendar();
 
   const colorScheme = useColorScheme();
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentDate(new Date());
-    }, 60000); // Update every minute (60000 milliseconds)
-
-    return () => clearInterval(timer); // Clean up the timer on component unmount
-  }, []);
 
   function getPrayer(date: Date) {
     const hour = date.getHours();
@@ -38,7 +27,7 @@ export default function PageRender() {
     return { isMorning, isNight, isAngelus };
   }
 
-  const currentPrayer = getPrayer(currentDate);
+  const currentPrayer = getPrayer(date);
 
   return (
     <ScrollView className="flex-1 bg-sepia-200 dark:bg-sepia-800">
@@ -101,7 +90,7 @@ export default function PageRender() {
             </Text>
           </View>
           <Text className="font-serif text-center text-sepia-600 dark:text-sepia-400 text-sm pb-3">
-            {format(currentDate, "EEEE, dd MMMM", {
+            {format(date, "EEEE, dd MMMM HH:mm", {
               locale: pt,
             })}
           </Text>
@@ -112,7 +101,7 @@ export default function PageRender() {
 
           <View className="flex-1 items-center justify-center p-2">
             <Text className="text-sepia-600 dark:text-sepia-400 text-sm font-bold">
-              {format(currentDate, "HH:mm", {
+              {format(date, "HH:mm", {
                 locale: pt,
               }).toUpperCase()}
             </Text>
@@ -148,7 +137,11 @@ export default function PageRender() {
           <Office />
           <Novenas />
 
-          <Image source="1" contentFit="cover" />
+          <Image
+            source={require("../../../assets/images/1.jpeg")}
+            contentFit="contain"
+            style={{ height: 200 }}
+          />
         </View>
 
         <View className="border-t border-sepia-300 dark:border-sepia-700 mt-3" />

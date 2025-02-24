@@ -3,6 +3,8 @@ import { Link } from "expo-router";
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import { Image } from "expo-image";
+
 import React from "react";
 
 export default function PageAngelus() {
@@ -11,6 +13,12 @@ export default function PageAngelus() {
       <ScrollView>
         <View className="docs">
           <Text className="h1">Angelus</Text>
+
+          <Image
+            source={require("../../../../assets/images/angelus.jpg")}
+            contentFit="contain"
+            style={{ height: 400 }}
+          />
 
           <Text className="aside">
             Desde a Santíssima Trindade até à Páscoa. No tempo Pascal
