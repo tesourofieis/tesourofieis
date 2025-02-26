@@ -1,6 +1,9 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { addDays, subDays } from "date-fns";
+import * as Application from "expo-application";
+import * as IntentLauncher from "expo-intent-launcher";
+import * as Linking from "expo-linking";
 import * as Notifications from "expo-notifications";
 import { useRouter } from "expo-router";
 import {
@@ -10,7 +13,13 @@ import {
   useEffect,
   useState,
 } from "react";
+import { Alert, Platform } from "react-native";
 import { useCalendar } from "./calendar";
+
+// Storage keys for permission state
+const STORAGE_KEYS = {
+  PERMISSION_REQUESTED: "notification_permission_requested",
+};
 
 const NOTIFICATIONS = {
   ANGELUS: {
@@ -83,8 +92,9 @@ type NotificationsContextType = {
     enabled: boolean,
   ) => Promise<void>;
   list: Notifications.NotificationRequest[];
-  hasPermission: boolean;
-  requestPermission: () => Promise<void>;
+  permissionStatus: Notifications.PermissionStatus;
+  requestPermission: () => Promise<boolean>;
+  openSettings: () => Promise<void>;
 };
 
 const NotificationsContext = createContext<
@@ -94,7 +104,10 @@ const NotificationsContext = createContext<
 export function NotificationsProvider({ children }: React.PropsWithChildren) {
   const router = useRouter();
   const [list, setList] = useState<Notifications.NotificationRequest[]>([]);
-  const [hasPermission, setHasPermission] = useState(false);
+  const [permissionStatus, setPermissionStatus] =
+    useState<Notifications.PermissionStatus>(
+      Notifications.PermissionStatus.UNDETERMINED,
+    );
   const [notificationPrefs, setNotificationPrefs] =
     useState<NotificationPreferences>({
       ANGELUS: { enabled: true },
@@ -105,24 +118,125 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
 
   const { calendar, novenas } = useCalendar();
 
-  const checkPermission = useCallback(async () => {
-    const { status } = await Notifications.getPermissionsAsync();
-    setHasPermission(status === "granted");
-    return status === "granted";
-  }, []);
-
-  const requestPermission = useCallback(async () => {
-    const { status } = await Notifications.requestPermissionsAsync();
-    const granted = status === "granted";
-    setHasPermission(granted);
-
-    if (granted) {
-      // If permission was granted, sync notifications
-      await syncNotifications();
+  // Open device settings
+  const openSettings = useCallback(async () => {
+    try {
+      if (Platform.OS === "ios") {
+        const supported = await Linking.canOpenURL("app-settings:");
+        if (supported) {
+          await Linking.openSettings();
+        } else {
+          throw new Error("Não foi possíbel abrir as configurações!");
+        }
+      } else {
+        // For Android, use the correct package name
+        const packageName = Application.applicationId; // This gets the actual package name (e.g., com.yourapp)
+        await IntentLauncher.startActivityAsync(
+          IntentLauncher.ActivityAction.APPLICATION_DETAILS_SETTINGS,
+          { data: `package:${packageName}` },
+        );
+      }
+    } catch (error) {
+      console.error("Failed to open settings:", error);
+      Alert.alert(
+        "Erro",
+        "Não foi possível abrir as configurações. Por favor, abra manualmente configurações do sistema.",
+      );
     }
   }, []);
 
-  // Load saved preferences and check permission on mount
+  // Check current permission status
+  const checkPermissionStatus = useCallback(async () => {
+    const { status } = await Notifications.getPermissionsAsync();
+    setPermissionStatus(status);
+    return status;
+  }, []);
+
+  // Request permission with system dialog
+  const requestPermission = useCallback(async () => {
+    const { status: currentStatus } = await Notifications.getPermissionsAsync();
+
+    console.log("currentStatus", currentStatus);
+
+    // If already granted, nothing to do
+    if (currentStatus === "granted") {
+      setPermissionStatus(Notifications.PermissionStatus.GRANTED);
+      return true;
+    }
+
+    // If blocked/denied and previously requested, we can't request again
+    // User needs to change in settings
+    if (currentStatus === Notifications.PermissionStatus.DENIED) {
+      const permissionRequested = await AsyncStorage.getItem(
+        STORAGE_KEYS.PERMISSION_REQUESTED,
+      );
+      console.log("permissionRequested", permissionRequested);
+      if (permissionRequested === "true") {
+        setPermissionStatus(currentStatus);
+        Alert.alert(
+          "Notificações desativadas",
+          "Porque anteriormente desactivou as notificações terá que as activar nas configurações do seu telemóvel.",
+          [
+            { text: "Não", style: "cancel" },
+            { text: "Abrir Configurações", onPress: openSettings },
+          ],
+        );
+      }
+    }
+
+    // Show explanation dialog first
+    const shouldProceed = await new Promise<boolean>((resolve) => {
+      Alert.alert(
+        "Notificações de Oração",
+        "Gostaríamos de enviar notificações para lembrá-lo dos horários de oração, missas e novenas.",
+        [
+          { text: "Agora não", style: "cancel", onPress: () => resolve(false) },
+          { text: "Permitir", onPress: () => resolve(true) },
+        ],
+      );
+    });
+
+    if (!shouldProceed) {
+      return false;
+    }
+
+    // Request system permission
+    const { status } = await Notifications.requestPermissionsAsync();
+    setPermissionStatus(status);
+
+    // Mark that we've requested permission
+    await AsyncStorage.setItem(STORAGE_KEYS.PERMISSION_REQUESTED, "true");
+
+    // If granted, schedule notifications
+    if (status === "granted") {
+      await syncNotifications();
+    }
+
+    return status === "granted";
+  }, [openSettings]);
+
+  // Handle first-time app launch
+  const handleFirstLaunch = useCallback(async () => {
+    // Check if we've requested permission before
+    const permissionRequested = await AsyncStorage.getItem(
+      STORAGE_KEYS.PERMISSION_REQUESTED,
+    );
+
+    // Check current status
+    const currentStatus = await checkPermissionStatus();
+
+    // If already granted, we're good
+    if (currentStatus === "granted") {
+      return true;
+    }
+
+    // If never requested before, request permission
+    if (permissionRequested !== "true") {
+      return await requestPermission();
+    }
+  }, [checkPermissionStatus, requestPermission]);
+
+  // Load saved preferences and initialize permission
   // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   useEffect(() => {
     const init = async () => {
@@ -138,25 +252,25 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
       }
       setNotificationPrefs(loadedPrefs);
 
-      // Check initial permission
-      await checkPermission();
+      // Handle first launch and permissions
+      await handleFirstLaunch();
     };
 
     init();
-  }, []);
+  }, [handleFirstLaunch]);
 
   const scheduleNotification = useCallback(
     async (
       notification: Notifications.NotificationRequestInput,
       identifier: string,
     ) => {
-      if (!hasPermission) return;
+      if (permissionStatus !== "granted") return;
       await Notifications.scheduleNotificationAsync({
         ...notification,
         identifier,
       });
     },
-    [hasPermission],
+    [permissionStatus],
   );
 
   const cancelAllNotifications = useCallback(async () => {
@@ -192,7 +306,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
       for (let i = 0; i < 30; i++) {
         const date = addDays(today, i);
         const dayMass = calendar.find((d) => d.date === yyyyMMDD(date))?.mass;
-        if (dayMass.length) {
+        if (dayMass?.length) {
           const identifier = `mass-${yyyyMMDD(date)}`;
           await scheduleNotification(
             {
@@ -220,7 +334,6 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     }
 
     // Schedule Novena
-    // For Novena notifications
     if (notificationPrefs.NOVENA.enabled && novenas) {
       const today = new Date();
       for (const novena of novenas) {
@@ -282,7 +395,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
   }, [notificationPrefs, calendar, novenas, scheduleNotification]);
 
   const syncNotifications = useCallback(async () => {
-    if (!hasPermission) {
+    if (permissionStatus !== "granted") {
       setList([]);
       return;
     }
@@ -291,36 +404,19 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     const notifications =
       await Notifications.getAllScheduledNotificationsAsync();
     setList(notifications);
-  }, [hasPermission, cancelAllNotifications, scheduleNotifications]);
+  }, [permissionStatus, cancelAllNotifications, scheduleNotifications]);
 
-  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
-  useEffect(() => {
-    const loadPrefs = async () => {
-      const loadedPrefs: NotificationPreferences = { ...notificationPrefs };
-      for (const key of Object.keys(notificationPrefs) as Array<
-        keyof NotificationPreferences
-      >) {
-        const storedValue = await AsyncStorage.getItem(key);
-        if (storedValue !== null) {
-          loadedPrefs[key] = { enabled: storedValue === "true" };
-        }
-      }
-      setNotificationPrefs(loadedPrefs);
-    };
-
-    loadPrefs();
-  }, []);
-
+  // Sync notifications whenever permission or preferences change
   // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   useEffect(() => {
     syncNotifications();
-  }, [syncNotifications, hasPermission]);
+  }, [syncNotifications, permissionStatus, notificationPrefs]);
 
-  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
+  // Handle notification taps
   useEffect(() => {
     const subscription = Notifications.addNotificationResponseReceivedListener(
       (response) => {
-        const url = response.notification.request.content.data.url;
+        const url = response.notification.request.content.data?.url;
         if (url) {
           router.navigate(url);
         }
@@ -328,14 +424,14 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     );
 
     return () => subscription.remove();
-  }, []);
+  }, [router]);
 
   const setNotificationPref = useCallback(
     async (key: keyof NotificationPreferences, enabled: boolean) => {
-      if (enabled && !hasPermission) {
-        await requestPermission();
+      if (enabled && permissionStatus !== "granted") {
+        const granted = await requestPermission();
         // If permission was denied, don't enable the preference
-        if (!hasPermission) return;
+        if (!granted) return;
       }
       await AsyncStorage.setItem(key, enabled.toString());
       setNotificationPrefs((prev) => ({
@@ -343,7 +439,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
         [key]: { enabled },
       }));
     },
-    [hasPermission, requestPermission],
+    [permissionStatus, requestPermission],
   );
 
   return (
@@ -352,8 +448,9 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
         notificationPrefs,
         setNotificationPref,
         list,
-        hasPermission,
+        permissionStatus,
         requestPermission,
+        openSettings,
       }}
     >
       {children}

@@ -23,7 +23,7 @@ export default function PageNot() {
     notificationPrefs,
     setNotificationPref,
     list,
-    hasPermission,
+    permissionStatus,
     requestPermission,
   } = useNotifications();
 
@@ -87,7 +87,7 @@ export default function PageNot() {
     );
   }
 
-  if (!hasPermission) {
+  if (permissionStatus !== "granted") {
     return (
       <SafeAreaView className="flex-1">
         <View className="bg-sepia-200 dark:bg-sepia-800 p-5">
