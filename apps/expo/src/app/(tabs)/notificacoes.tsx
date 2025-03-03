@@ -25,6 +25,7 @@ export default function PageNot() {
     list,
     permissionStatus,
     requestPermission,
+    isSoftRejected,
   } = useNotifications();
 
   const toggleExpand = () => {
@@ -103,10 +104,14 @@ export default function PageNot() {
           </View>
 
           <Text className="font-serif dark:text-sepia-200 text-sm">
-            Para receber notificações active as notificações.
+            {isSoftRejected
+              ? "Os lembretes de oração ajudam a santificar o seu dia."
+              : "Para receber notificações active as notificações."}
           </Text>
           <Text className="font-serif dark:text-sepia-200 text-xs">
-            Pode ter que activar nas definições do dispositivo.
+            {isSoftRejected
+              ? '"Orai sem cessar" (1 Tes 5:17)'
+              : "Pode ter que activar nas definições do dispositivo."}
           </Text>
           <Pressable
             className="bg-sepia-800 dark:bg-sepia-200 items-center justify-center rounded mt-3"

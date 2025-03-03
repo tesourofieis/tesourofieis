@@ -19,6 +19,8 @@ import { useCalendar } from "./calendar";
 // Storage keys for permission state
 const STORAGE_KEYS = {
   PERMISSION_REQUESTED: "notification_permission_requested",
+  PERMISSION_SOFT_REJECTED: "notification_permission_soft_rejected",
+  LAST_PROMPT_DATE: "notification_last_prompt_date",
 };
 
 const NOTIFICATIONS = {
@@ -95,6 +97,7 @@ type NotificationsContextType = {
   permissionStatus: Notifications.PermissionStatus;
   requestPermission: () => Promise<boolean>;
   openSettings: () => Promise<void>;
+  isSoftRejected: boolean;
 };
 
 const NotificationsContext = createContext<
@@ -115,6 +118,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
       NOVENA: { enabled: true },
       OFFICE: { enabled: false },
     });
+  const [isSoftRejected, setIsSoftRejected] = useState(false);
 
   const { calendar, novenas } = useCalendar();
 
@@ -152,6 +156,15 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     return status;
   }, []);
 
+  // Check soft rejection status
+  const checkSoftRejectionStatus = useCallback(async () => {
+    const softRejected = await AsyncStorage.getItem(
+      STORAGE_KEYS.PERMISSION_SOFT_REJECTED,
+    );
+    setIsSoftRejected(softRejected === "true");
+    return softRejected === "true";
+  }, []);
+
   // Request permission with system dialog
   const requestPermission = useCallback(async () => {
     const { status: currentStatus } = await Notifications.getPermissionsAsync();
@@ -161,6 +174,9 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     // If already granted, nothing to do
     if (currentStatus === "granted") {
       setPermissionStatus(Notifications.PermissionStatus.GRANTED);
+      // Clear soft rejection state if permission was granted
+      await AsyncStorage.removeItem(STORAGE_KEYS.PERMISSION_SOFT_REJECTED);
+      setIsSoftRejected(false);
       return true;
     }
 
@@ -175,20 +191,21 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
         setPermissionStatus(currentStatus);
         Alert.alert(
           "Notificações desativadas",
-          "Porque anteriormente desactivou as notificações terá que as activar nas configurações do seu telemóvel.",
+          "Para receber lembretes de oração, por favor active as notificações nas configurações do sistema.",
           [
-            { text: "Não", style: "cancel" },
+            { text: "Mais tarde", style: "cancel" },
             { text: "Abrir Configurações", onPress: openSettings },
           ],
         );
+        return false;
       }
     }
 
-    // Show explanation dialog first
+    // Show explanation dialog first with spiritual context
     const shouldProceed = await new Promise<boolean>((resolve) => {
       Alert.alert(
-        "Notificações de Oração",
-        "Gostaríamos de enviar notificações para lembrá-lo dos horários de oração, missas e novenas.",
+        "Notificações do Tesouro dos Fiéis",
+        "Pode configurar as notificações para o Angelus, a Missa do Dia, as Novenas ou o Pequeno Oficio",
         [
           { text: "Agora não", style: "cancel", onPress: () => resolve(false) },
           { text: "Permitir", onPress: () => resolve(true) },
@@ -197,6 +214,13 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     });
 
     if (!shouldProceed) {
+      // Store soft rejection state
+      await AsyncStorage.setItem(STORAGE_KEYS.PERMISSION_SOFT_REJECTED, "true");
+      await AsyncStorage.setItem(
+        STORAGE_KEYS.LAST_PROMPT_DATE,
+        new Date().toISOString(),
+      );
+      setIsSoftRejected(true);
       return false;
     }
 
@@ -207,13 +231,48 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     // Mark that we've requested permission
     await AsyncStorage.setItem(STORAGE_KEYS.PERMISSION_REQUESTED, "true");
 
-    // If granted, schedule notifications
+    // Clear soft rejection if permission was granted
     if (status === "granted") {
+      await AsyncStorage.removeItem(STORAGE_KEYS.PERMISSION_SOFT_REJECTED);
+      setIsSoftRejected(false);
       await syncNotifications();
+    } else {
+      // If denied at system level after our custom dialog, don't treat as soft rejection
+      await AsyncStorage.removeItem(STORAGE_KEYS.PERMISSION_SOFT_REJECTED);
+      setIsSoftRejected(false);
     }
 
     return status === "granted";
   }, [openSettings]);
+
+  // Check if we should re-prompt for soft rejection
+  const checkSoftRejection = useCallback(async () => {
+    const softRejected = await AsyncStorage.getItem(
+      STORAGE_KEYS.PERMISSION_SOFT_REJECTED,
+    );
+    const lastPromptDate = await AsyncStorage.getItem(
+      STORAGE_KEYS.LAST_PROMPT_DATE,
+    );
+
+    if (softRejected === "true" && permissionStatus !== "granted") {
+      // Only prompt again if it's been at least 3 days since the last prompt
+      const shouldPromptAgain =
+        !lastPromptDate ||
+        new Date().getTime() - new Date(lastPromptDate).getTime() >
+          3 * 24 * 60 * 60 * 1000;
+
+      if (shouldPromptAgain) {
+        // Save the current date as the last prompt date
+        await AsyncStorage.setItem(
+          STORAGE_KEYS.LAST_PROMPT_DATE,
+          new Date().toISOString(),
+        );
+        return await requestPermission();
+      }
+    }
+
+    return false;
+  }, [permissionStatus, requestPermission]);
 
   // Handle first-time app launch
   const handleFirstLaunch = useCallback(async () => {
@@ -221,9 +280,13 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     const permissionRequested = await AsyncStorage.getItem(
       STORAGE_KEYS.PERMISSION_REQUESTED,
     );
+    const softRejected = await AsyncStorage.getItem(
+      STORAGE_KEYS.PERMISSION_SOFT_REJECTED,
+    );
 
     // Check current status
     const currentStatus = await checkPermissionStatus();
+    await checkSoftRejectionStatus();
 
     // If already granted, we're good
     if (currentStatus === "granted") {
@@ -234,7 +297,17 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
     if (permissionRequested !== "true") {
       return await requestPermission();
     }
-  }, [checkPermissionStatus, requestPermission]);
+
+    // If soft rejected previously, check if we should ask again
+    if (softRejected === "true") {
+      return await checkSoftRejection();
+    }
+  }, [
+    checkPermissionStatus,
+    checkSoftRejectionStatus,
+    requestPermission,
+    checkSoftRejection,
+  ]);
 
   // Load saved preferences and initialize permission
   // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
@@ -258,6 +331,22 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
 
     init();
   }, [handleFirstLaunch]);
+
+  // Check permissions on app startup
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
+  useEffect(() => {
+    const checkPermissionsOnStartup = async () => {
+      await checkPermissionStatus();
+      await checkSoftRejectionStatus();
+
+      // If we don't have permission, check if we should re-prompt
+      if (permissionStatus !== "granted") {
+        await checkSoftRejection();
+      }
+    };
+
+    checkPermissionsOnStartup();
+  }, [checkPermissionStatus, checkSoftRejectionStatus, checkSoftRejection]);
 
   const scheduleNotification = useCallback(
     async (
@@ -451,6 +540,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
         permissionStatus,
         requestPermission,
         openSettings,
+        isSoftRejected,
       }}
     >
       {children}
