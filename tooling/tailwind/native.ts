@@ -10,36 +10,16 @@ export default {
     extend: {
       ...base.theme.extend,
       fontFamily: {
-        serif: [
-          "Serif",
-          ...defaultTheme.fontFamily.serif,
-          ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
-        ],
-        sans: [
-          "Serif",
-          ...defaultTheme.fontFamily.serif,
-          ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
-        ],
-        display: [
-          "Display",
-          ...defaultTheme.fontFamily.serif,
-          ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
-        ],
-        bold: [
-          "Bold",
-          ...defaultTheme.fontFamily.serif,
-          ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
-        ],
-        italic: [
-          "Italic",
-          ...defaultTheme.fontFamily.serif,
-          ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
-        ],
-        black: [
-          "Black",
-          ...defaultTheme.fontFamily.serif,
-          ...defaultTheme.fontFamily.sans, // Add sans-serif as a fallback
-        ],
+        serif: ["Serif", ...defaultTheme.fontFamily.serif],
+
+        display: ["Display", "cursive"],
+
+        bold: ["Bold", ...defaultTheme.fontFamily.serif],
+
+        italic: ["Italic", ...defaultTheme.fontFamily.serif],
+        black: ["Black", ...defaultTheme.fontFamily.serif],
+
+        sans: [...defaultTheme.fontFamily.sans],
       },
     },
   },

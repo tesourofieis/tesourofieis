@@ -1,7 +1,13 @@
 import { BerkshireSwash_400Regular } from "@expo-google-fonts/berkshire-swash";
-import { EBGaramond_700Bold } from "@expo-google-fonts/eb-garamond";
+import {
+  EBGaramond_700Bold,
+  EBGaramond_800ExtraBold,
+} from "@expo-google-fonts/eb-garamond";
 
-import { DMSerifDisplay_400Regular } from "@expo-google-fonts/dm-serif-display";
+import {
+  DMSerifDisplay_400Regular,
+  DMSerifDisplay_400Regular_Italic,
+} from "@expo-google-fonts/dm-serif-display";
 import { useFonts } from "expo-font";
 import { useColorScheme } from "nativewind";
 import { useEffect } from "react";
@@ -35,18 +41,20 @@ SplashScreen.setOptions({
 });
 
 export default function PageRootLayout() {
-  const [loaded] = useFonts({
+  const [loaded, error] = useFonts({
     Serif: DMSerifDisplay_400Regular,
     Display: BerkshireSwash_400Regular,
     Bold: EBGaramond_700Bold,
+    Italic: DMSerifDisplay_400Regular_Italic,
+    Black: EBGaramond_800ExtraBold,
     ...FontAwesome6.font,
   });
 
   useEffect(() => {
-    if (loaded) {
+    if (loaded || error) {
       SplashScreen.hideAsync();
     }
-  }, [loaded]);
+  }, [loaded, error]);
 
   useEffect(() => {
     async function checkForUpdates() {
@@ -72,6 +80,10 @@ export default function PageRootLayout() {
     }
     checkForUpdates();
   }, []);
+
+  if (!loaded && !error) {
+    return null;
+  }
 
   if (!loaded && Platform.OS !== "web") {
     return (
