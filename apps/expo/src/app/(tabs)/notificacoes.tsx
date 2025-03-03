@@ -42,7 +42,7 @@ export default function PageNot() {
               size={15}
               color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
             />
-            <Text className="font-black dark:text-sepia-200 text-left p-3 text-xl text-bold">
+            <Text className="font-bold dark:text-sepia-200 text-left p-3 text-xl text-bold">
               Apenas em dispositivos móveis.
             </Text>
           </View>
@@ -98,7 +98,7 @@ export default function PageNot() {
               size={15}
               color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
             />
-            <Text className="font-black dark:text-sepia-200 text-left p-3 text-xl text-bold">
+            <Text className="font-bold dark:text-sepia-200 text-left p-3 text-xl text-bold">
               Notificações Desativadas
             </Text>
           </View>
@@ -135,7 +135,7 @@ export default function PageNot() {
             size={15}
             color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
           />
-          <Text className="font-black dark:text-sepia-200 text-left p-3 text-xl text-bold">
+          <Text className="font-bold dark:text-sepia-200 text-left p-3 text-xl text-bold">
             Configurar Notificações
           </Text>
         </View>
@@ -265,7 +265,7 @@ const NotificationToggle = ({
             color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
           />
           <View className="flex-1 ml-3">
-            <Text className="font-black text-sepia-800 dark:text-sepia-200">
+            <Text className="font-bold text-sepia-800 dark:text-sepia-200">
               {title}
             </Text>
             <Text className="font-serif text-sepia-800 dark:text-sepia-200 text-sm">

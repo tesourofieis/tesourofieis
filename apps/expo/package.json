@@ -17,9 +17,7 @@
   },
   "dependencies": {
     "@expo-google-fonts/berkshire-swash": "^0.2.3",
-    "@expo-google-fonts/dm-serif-display": "^0.2.3",
-    "@expo-google-fonts/eb-garamond": "^0.2.3",
-    "@expo-google-fonts/lusitana": "^0.2.3",
+    "@expo-google-fonts/noto-serif": "^0.2.3",
     "@expo/html-elements": "^0.10.1",
     "@expo/metro-config": "^0.19.4",
     "@expo/vector-icons": "^14.0.2",

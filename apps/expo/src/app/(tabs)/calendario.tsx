@@ -136,7 +136,7 @@ function ChangePeriod({
         <FontAwesome name="chevron-left" color={COLORS["600"]} />
       </Pressable>
 
-      <Text className="font-black dark:text-sepia-200 p-3 text-xl text-bold">
+      <Text className="font-bold dark:text-sepia-200 p-3 text-xl text-bold">
         {formattedPeriod}
       </Text>
       <Pressable

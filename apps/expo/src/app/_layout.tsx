@@ -1,13 +1,12 @@
 import { BerkshireSwash_400Regular } from "@expo-google-fonts/berkshire-swash";
-import {
-  EBGaramond_700Bold,
-  EBGaramond_800ExtraBold,
-} from "@expo-google-fonts/eb-garamond";
 
 import {
-  DMSerifDisplay_400Regular,
-  DMSerifDisplay_400Regular_Italic,
-} from "@expo-google-fonts/dm-serif-display";
+  NotoSerif_400Regular,
+  NotoSerif_400Regular_Italic,
+  NotoSerif_700Bold,
+  NotoSerif_700Bold_Italic,
+} from "@expo-google-fonts/noto-serif";
+
 import { useFonts } from "expo-font";
 import { useColorScheme } from "nativewind";
 import { useEffect } from "react";
@@ -42,11 +41,10 @@ SplashScreen.setOptions({
 
 export default function PageRootLayout() {
   const [loaded, error] = useFonts({
-    Serif: DMSerifDisplay_400Regular,
-    Display: BerkshireSwash_400Regular,
-    Bold: EBGaramond_700Bold,
-    Italic: DMSerifDisplay_400Regular_Italic,
-    Black: EBGaramond_800ExtraBold,
+    "NotoSerif-Regular": NotoSerif_400Regular,
+    "BerkshireSwash-Regular": BerkshireSwash_400Regular,
+    "NotoSerif-Bold": NotoSerif_700Bold,
+    "NotoSerif-Italic": NotoSerif_400Regular_Italic,
     ...FontAwesome6.font,
   });
 
@@ -235,7 +233,7 @@ const Breadcrumbs = () => {
             }
           >
             <Text
-              className={`text-sm px-2 py-1 rounded ${
+              className={`text-sm font-serif px-2 py-1 rounded ${
                 index === segments.length - 1
                   ? "text-sepia-700 dark:text-sepia-300 font-bold"
                   : "text-sepia-600 dark:text-sepia-400 bg-sepia-300 dark:bg-sepia-700 underline "

@@ -10,16 +10,10 @@ export default {
     extend: {
       ...base.theme.extend,
       fontFamily: {
-        serif: ["Serif", ...defaultTheme.fontFamily.serif],
-
-        display: ["Display", "cursive"],
-
-        bold: ["Bold", ...defaultTheme.fontFamily.serif],
-
-        italic: ["Italic", ...defaultTheme.fontFamily.serif],
-        black: ["Black", ...defaultTheme.fontFamily.serif],
-
-        sans: [...defaultTheme.fontFamily.sans],
+        serif: ["NotoSerif-Regular", ...defaultTheme.fontFamily.serif],
+        display: ["BerkshireSwash-Regular", "cursive"],
+        bold: ["NotoSerif-Bold", ...defaultTheme.fontFamily.serif],
+        italic: ["NotoSerif-Italic", ...defaultTheme.fontFamily.serif],
       },
     },
   },
