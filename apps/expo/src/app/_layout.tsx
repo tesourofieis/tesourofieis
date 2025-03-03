@@ -4,8 +4,9 @@ import {
   NotoSerif_400Regular,
   NotoSerif_400Regular_Italic,
   NotoSerif_700Bold,
-  NotoSerif_700Bold_Italic,
 } from "@expo-google-fonts/noto-serif";
+
+import { NotoSans_400Regular } from "@expo-google-fonts/noto-sans";
 
 import { useFonts } from "expo-font";
 import { useColorScheme } from "nativewind";
@@ -45,6 +46,7 @@ export default function PageRootLayout() {
     "BerkshireSwash-Regular": BerkshireSwash_400Regular,
     "NotoSerif-Bold": NotoSerif_700Bold,
     "NotoSerif-Italic": NotoSerif_400Regular_Italic,
+    "NotoSans-Regular": NotoSans_400Regular,
     ...FontAwesome6.font,
   });
 

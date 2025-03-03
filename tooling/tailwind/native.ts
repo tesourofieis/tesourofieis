@@ -14,6 +14,7 @@ export default {
         display: ["BerkshireSwash-Regular", "cursive"],
         bold: ["NotoSerif-Bold", ...defaultTheme.fontFamily.serif],
         italic: ["NotoSerif-Italic", ...defaultTheme.fontFamily.serif],
+        sans: ["NotoSans-Regular", ...defaultTheme.fontFamily.sans],
       },
     },
   },

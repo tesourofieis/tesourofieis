@@ -132,19 +132,10 @@ importers:
       '@expo-google-fonts/berkshire-swash':
         specifier: ^0.2.3
         version: 0.2.3
-      '@expo-google-fonts/dm-serif-display':
-        specifier: ^0.2.3
-        version: 0.2.3
-      '@expo-google-fonts/dm-serif-text':
-        specifier: ^0.2.3
-        version: 0.2.3
-      '@expo-google-fonts/eb-garamond':
+      '@expo-google-fonts/noto-sans':
         specifier: ^0.2.3
         version: 0.2.3
       '@expo-google-fonts/noto-serif':
-        specifier: ^0.2.3
-        version: 0.2.3
-      '@expo-google-fonts/sorts-mill-goudy':
         specifier: ^0.2.3
         version: 0.2.3
       '@expo/html-elements':
@@ -180,9 +171,6 @@ importers:
       expo:
         specifier: ~52.0.37
         version: 52.0.37(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@expo/metro-runtime@4.0.1(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1)))(react-native-webview@13.12.5(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
-      expo-app-loading:
-        specifier: ^2.1.1
-        version: 2.1.1(expo-modules-autolinking@2.0.8)(expo@52.0.37(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@expo/metro-runtime@4.0.1(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1)))(react-native-webview@13.12.5(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))
       expo-constants:
         specifier: ~17.0.7
         version: 17.0.7(expo@52.0.37(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@expo/metro-runtime@4.0.1(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1)))(react-native-webview@13.12.5(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))
@@ -1607,20 +1595,11 @@ packages:
   '@expo-google-fonts/berkshire-swash@0.2.3':
     resolution: {integrity: sha512-H23q2qrhvazxuLkN90AdH58o4c0we1a+6q393JaSELGZ8Q3XisPB6mwA2HY0MIKKuH4an/VkUcIKW0NToenUYw==}
 
-  '@expo-google-fonts/dm-serif-display@0.2.3':
-    resolution: {integrity: sha512-RdhKvpjCFg05q9S1z4S2+mdxr3QPjNjsgFT8pUVF8w2iP+l4HYkywxLC2gGH35LxL0jncdGhCAM1eTpK5qaP7A==}
-
-  '@expo-google-fonts/dm-serif-text@0.2.3':
-    resolution: {integrity: sha512-NMy/GR5yT/yz1h9DZVUhCKKHr14OxDOjTmeVVFfkpe83Qn+/3FjiY7/jTKykjRyUtWLA+0SQRLnOCVjFCY0w0g==}
-
-  '@expo-google-fonts/eb-garamond@0.2.3':
-    resolution: {integrity: sha512-45H94GBpQLrOtooPcsNkITzZPxS+NGHqEFQoO1ngv/l7q1CJwWT8E/gI0jBP8yPhiTS3AlJDfKXz4asyPL2Vng==}
+  '@expo-google-fonts/noto-sans@0.2.3':
+    resolution: {integrity: sha512-W/KyYHSclbPF/M2Grm4vRLGebo+qrgij2avlosDRpO5ymORfhhrBxdA+C1duPd2K0OC6Gg61uwe8AER2DwDzEQ==}
 
   '@expo-google-fonts/noto-serif@0.2.3':
     resolution: {integrity: sha512-0nmybjIbhflFWUyOxB+NjVQVZxyTC3UlG4bZWOzcJ6EQO0vW3+8C1zmodRJoAbBGrbOU1iBQLC8eE1BSm9RIYw==}
-
-  '@expo-google-fonts/sorts-mill-goudy@0.2.3':
-    resolution: {integrity: sha512-XFNZq3s5iTjgl4BJMTn7QyR/CMHYe8bvbCWy5jP9X3+CfvAzUt0JQZk/64llaW+MIP/c6O8hz2P57wJnuYf42A==}
 
   '@expo/bunyan@4.0.1':
     resolution: {integrity: sha512-+Lla7nYSiHZirgK+U/uYzsLv/X+HaJienbD5AKX1UQZHYfWaP+9uuQluRB4GrEVWF0GZ7vEVp/jzaOT9k/SQlg==}
@@ -1633,17 +1612,11 @@ packages:
   '@expo/code-signing-certificates@0.0.5':
     resolution: {integrity: sha512-BNhXkY1bblxKZpltzAx98G2Egj9g1Q+JRcvR7E99DOj862FTCX+ZPsAUtPTr7aHxwtrL7+fL3r0JSmM9kBm+Bw==}
 
-  '@expo/config-plugins@5.0.4':
-    resolution: {integrity: sha512-vzUcVpqOMs3h+hyRdhGwk+eGIOhXa5xYdd92yO17RMNHav3v/+ekMbs7XA2c3lepMO8Yd4/5hqmRw9ZTL6jGzg==}
-
   '@expo/config-plugins@9.0.15':
     resolution: {integrity: sha512-elKY/zIpAJ40RH26iwfyp+hwgeyPgIXX0SrCSOcjeJLsMsCmMac9ewvb+AN8y4k+N7m5lD/dMZupsaateKTFwA==}
 
   '@expo/config-plugins@9.0.16':
     resolution: {integrity: sha512-AnJzmFB7ztM0JZBn+Ut6BQYC2WeGDzfIhBZVOIPMQbdBqvwJ7TmFEsGTGSxdwU/VqJaJK2sWxyt1zbWkpIYCEA==}
-
-  '@expo/config-types@47.0.0':
-    resolution: {integrity: sha512-r0pWfuhkv7KIcXMUiNACJmJKKwlTBGMw9VZHNdppS8/0Nve8HZMTkNRFQzTHW1uH3pBj8jEXpyw/2vSWDHex9g==}
 
   '@expo/config-types@52.0.1':
     resolution: {integrity: sha512-vD8ZetyKV7U29lR6+NJohYeoLYTH+eNYXJeNiSOrWCz0witJYY11meMmEnpEaVbN89EfC6uauSUOa6wihtbyPQ==}
@@ -1663,14 +1636,6 @@ packages:
   '@expo/config@10.0.9':
     resolution: {integrity: sha512-dEw2PKnSjzik3nc2mMzWnLtfiFpd3uGsdBdSl8tEbaRwtMAu74/BOJ1qCgh8slWppikaTcQLQ0xWlqlQU2i4aw==}
 
-  '@expo/config@7.0.3':
-    resolution: {integrity: sha512-joVtB5o+NF40Tmsdp65UzryRtbnCuMbXkVO4wJnNJO4aaK0EYLdHCYSewORVqNcDfGN0LphQr8VTG2npbd9CJA==}
-
-  '@expo/configure-splash-screen@0.6.0':
-    resolution: {integrity: sha512-4DyPoNXJqx9bN4nEwF3HQreo//ECu7gDe1Xor3dnnzFm9P/VDxAKdbEhA0n+R6fgkNfT2onVHWijqvdpTS3Xew==}
-    engines: {node: '>=12'}
-    hasBin: true
-
   '@expo/devcert@1.1.4':
     resolution: {integrity: sha512-fqBODr8c72+gBSX5Ty3SIzaY4bXainlpab78+vEYEKL3fXmsOswMLf0+KE36mUEAa36BYabX7K3EiXOXX5OPMw==}
 
@@ -1687,17 +1652,11 @@ packages:
   '@expo/html-elements@0.10.1':
     resolution: {integrity: sha512-3PTmtkV15D7+lykXVtvkH1jQ5Y6JE+e3zCaoMMux7z2cSLGQUNwDEUwG37gew3OEB1/E4/SEWgjvg8m7E6/e2Q==}
 
-  '@expo/image-utils@0.3.22':
-    resolution: {integrity: sha512-uzq+RERAtkWypOFOLssFnXXqEqKjNj9eXN7e97d/EXUAojNcLDoXc0sL+F5B1I4qtlsnhX01kcpoIBBZD8wZNQ==}
-
   '@expo/image-utils@0.6.4':
     resolution: {integrity: sha512-L++1PBzSvf5iYc6UHJ8Db8GcYNkfLDw+a+zqEFBQ3xqRXP/muxb/O7wuiMFlXrj/cfkx4e0U+z1a4ceV0A7S7Q==}
 
   '@expo/image-utils@0.6.5':
     resolution: {integrity: sha512-RsS/1CwJYzccvlprYktD42KjyfWZECH6PPIEowvoSmXfGLfdViwcUEI4RvBfKX5Jli6P67H+6YmHvPTbGOboew==}
-
-  '@expo/json-file@8.2.36':
-    resolution: {integrity: sha512-tOZfTiIFA5KmMpdW9KF7bc6CFiGjb0xnbieJhTGlHrLL+ps2G0OkqmuZ3pFEXBOMnJYUVpnSy++52LFxvpa5ZQ==}
 
   '@expo/json-file@9.0.0':
     resolution: {integrity: sha512-M+55xFVrFzDcgMDf+52lPDLjKB5xwRfStWlv/b/Vu2OLgxGZLWpxoPYjlRoHqxjPbCQIi2ZCbobK+0KuNhsELg==}
@@ -1726,19 +1685,11 @@ packages:
   '@expo/package-manager@1.7.2':
     resolution: {integrity: sha512-wT/qh9ebNjl6xr00bYkSh93b6E/78J3JPlT6WzGbxbsnv5FIZKB/nr522oWqVe1E+ML7BpXs8WugErWDN9kOFg==}
 
-  '@expo/plist@0.0.18':
-    resolution: {integrity: sha512-+48gRqUiz65R21CZ/IXa7RNBXgAI/uPSdvJqoN9x1hfL44DNbUoWHgHiEXTx7XelcATpDwNTz6sHLfy0iNqf+w==}
-
   '@expo/plist@0.2.1':
     resolution: {integrity: sha512-9TaXGuNxa0LQwHQn4rYiU6YaERv6dPnQgsdKWq2rKKTr6LWOtGNQCi/yOk/HBLeZSxBm59APT5/6x60uRvr0Mg==}
 
   '@expo/plist@0.2.2':
     resolution: {integrity: sha512-ZZGvTO6vEWq02UAPs3LIdja+HRO18+LRI5QuDl6Hs3Ps7KX7xU6Y6kjahWKY37Rx2YjNpX07dGpBFzzC+vKa2g==}
-
-  '@expo/prebuild-config@5.0.7':
-    resolution: {integrity: sha512-D+TBpJUHe4+oTGFPb4o0rrw/h1xxc6wF+abJnbDHUkhnaeiHkE2O3ByS7FdiZ2FT36t0OKqeSKG/xFwWT3m1Ew==}
-    peerDependencies:
-      expo-modules-autolinking: '>=0.8.1'
 
   '@expo/prebuild-config@8.0.28':
     resolution: {integrity: sha512-SDDgCKKS1wFNNm3de2vBP8Q5bnxcabuPDE9Mnk9p7Gb4qBavhwMbAtrLcAyZB+WRb4QM+yan3z3K95vvCfI/+A==}
@@ -1752,10 +1703,6 @@ packages:
 
   '@expo/server@0.5.1':
     resolution: {integrity: sha512-lk8pKKw0eVP6rqkDR46vQB3vLA46z4KNGrqHpjD/SvMu1cGaRmQG2cQdX44mQtG8WyO9EYau+fBMHQQS2OTFKg==}
-
-  '@expo/spawn-async@1.5.0':
-    resolution: {integrity: sha512-LB7jWkqrHo+5fJHNrLAFdimuSXQ2MQ4lA7SQW5bf/HbsXuV2VrT/jN/M8f/KoWt0uJMGN4k/j7Opx4AvOOxSew==}
-    engines: {node: '>=4'}
 
   '@expo/spawn-async@1.7.2':
     resolution: {integrity: sha512-QdWi16+CHB9JYP7gma19OVVg0BFkvU8zNj9GjWorYI8Iv8FUxjOCcYRuAmX4s/h91e4e7BPsskc8cSrZYho9Ew==}
@@ -2112,9 +2059,6 @@ packages:
     engines: {node: '>=18'}
     peerDependencies:
       '@babel/core': '*'
-
-  '@react-native/normalize-color@2.1.0':
-    resolution: {integrity: sha512-Z1jQI2NpdFJCVgpY+8Dq/Bt3d+YUi1928Q+/CZm/oh66fzM0RUl54vvuXlPJKybH4pdCZey1eDTPaLHkMPNgWA==}
 
   '@react-native/normalize-colors@0.74.88':
     resolution: {integrity: sha512-He5oTwPBxvXrxJ91dZzpxR7P+VYmc9IkJfhuH8zUiU50ckrt+xWNjtVugPdUv4LuVjmZ36Vk2EX8bl1gVn2dVA==}
@@ -3109,10 +3053,6 @@ packages:
     resolution: {integrity: sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==}
     engines: {node: '>= 6'}
 
-  commander@5.1.0:
-    resolution: {integrity: sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==}
-    engines: {node: '>= 6'}
-
   commander@7.2.0:
     resolution: {integrity: sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==}
     engines: {node: '>= 10'}
@@ -3198,10 +3138,6 @@ packages:
 
   crypt@0.0.2:
     resolution: {integrity: sha512-mCxBlsHFYh9C+HVpiEacem8FEBnMXgU9gy4zmNC+SXAZNB/1idgp/aulFJ4FgCi7GPEVbfyng092GqL2k2rmow==}
-
-  crypto-random-string@1.0.0:
-    resolution: {integrity: sha512-GsVpkFPlycH7/fRR7Dhcmnoii54gV1nz7y4CWyeFS14N+JVBBhY+r8amRHE4BwSYal7BPTDp8isvAlCxyFt3Hg==}
-    engines: {node: '>=4'}
 
   crypto-random-string@2.0.0:
     resolution: {integrity: sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==}
@@ -3547,9 +3483,6 @@ packages:
     resolution: {integrity: sha512-VyhnebXciFV2DESc+p6B+y0LjSm0krU4OgJN44qFAhBY0TJ+1V61tYD2+wHusZ6F9n5K+vl8k0sTy7PEfV4qpg==}
     engines: {node: '>=16.17'}
 
-  expo-app-loading@2.1.1:
-    resolution: {integrity: sha512-b3VNkPuFaI9J847HSpjI4uiuyE4+IWyAIPT9uzbkS7QFknL99DMoihtgzeWzKaJKSAmbYc3ph2Vl9skJAkVYUg==}
-
   expo-application@6.0.2:
     resolution: {integrity: sha512-qcj6kGq3mc7x5yIb5KxESurFTJCoEKwNEL34RdPEvTB/xhl7SeVZlu05sZBqxB1V4Ryzq/LsCb7NHNfBbb3L7A==}
     peerDependencies:
@@ -3692,11 +3625,6 @@ packages:
 
   expo-secure-store@14.0.1:
     resolution: {integrity: sha512-QUS+j4+UG4jRQalgnpmTvvrFnMVLqPiUZRzYPnG3+JrZ5kwVW2w6YS3WWerPoR7C6g3y/a2htRxRSylsDs+TaQ==}
-    peerDependencies:
-      expo: '*'
-
-  expo-splash-screen@0.17.5:
-    resolution: {integrity: sha512-ejSO78hwHXz8T9u8kh8t4r6CR4h70iBvA65gX8GK+dYxZl6/IANPbIb2VnUpND9vqfW+JnkDw+ZFst+gDnkpcQ==}
     peerDependencies:
       expo: '*'
 
@@ -3969,10 +3897,6 @@ packages:
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
     hasBin: true
-
-  glob@7.1.6:
-    resolution: {integrity: sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==}
-    deprecated: Glob versions prior to v9 are no longer supported
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
@@ -4474,10 +4398,6 @@ packages:
 
   json-schema-traverse@1.0.0:
     resolution: {integrity: sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==}
-
-  json5@1.0.2:
-    resolution: {integrity: sha512-g1MWMLBiz8FKi1e4w0UyVL3w+iJceWAFBAaBnnGKOpNa5f8TLktkbre1+s6oICydWAm+HRUGTmI+//xv2hvXYA==}
-    hasBin: true
 
   json5@2.2.3:
     resolution: {integrity: sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==}
@@ -5049,11 +4969,6 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
 
-  mime@2.6.0:
-    resolution: {integrity: sha512-USPkMeET31rOMiarsBNIHZKLGgvKc/LrjofAnBlOttf5ajRvqiRA8QsenbcooctK6d6Ts6aqZXBA+XbkKthiQg==}
-    engines: {node: '>=4.0.0'}
-    hasBin: true
-
   mime@3.0.0:
     resolution: {integrity: sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==}
     engines: {node: '>=10.0.0'}
@@ -5494,10 +5409,6 @@ packages:
   pngjs@3.4.0:
     resolution: {integrity: sha512-NCrCHhWmnQklfH4MtJMRjZ2a8c80qXeMlQMv2uVp9ISJMTt562SbGd6n2oq0PaPgKm7Z6pL9E2UlLIhC+SHL3w==}
     engines: {node: '>=4.0.0'}
-
-  pngjs@5.0.0:
-    resolution: {integrity: sha512-40QW5YalBNfQo5yRYmiw7Yz6TKKVr3h6970B2YE+3fQpsWcrbj1PzJgxeJ19DRQjhMbKPIuMY8rFaXc8moolVw==}
-    engines: {node: '>=10.13.0'}
 
   possible-typed-array-names@1.0.0:
     resolution: {integrity: sha512-d7Uw+eZoloe0EHDIYoe+bQ5WXnGMOpmiZFTuMWCwpjzzkL2nTjcKiAk4hh8TjnGye2TwWOk3UXucZ+3rbmBa8Q==}
@@ -5999,11 +5910,6 @@ packages:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
 
-  semver@7.3.2:
-    resolution: {integrity: sha512-OrOb32TeeambH6UrhtShmF7CRDqhL6/5XpPNp2DuRH6+9QLw/orhp72j87v8Qa1ScDkvrrBNpZcDejAirJmfXQ==}
-    engines: {node: '>=10'}
-    hasBin: true
-
   semver@7.6.3:
     resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
     engines: {node: '>=10'}
@@ -6307,10 +6213,6 @@ packages:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
 
-  temp-dir@1.0.0:
-    resolution: {integrity: sha512-xZFXEGbG7SNC3itwBzI3RYjq/cEhBkx2hJuKGIUOcEULmkQExXiHat2z/qkISYsuR+IKumhEfKKbV5qXmhICFQ==}
-    engines: {node: '>=4'}
-
   temp-dir@2.0.0:
     resolution: {integrity: sha512-aoBAniQmmwtcKp/7BzsH8Cxzv8OL736p7v1ihGb5e9DJ9kTwGWHrQrVB5+lfVDzfGrdRzXch+ig7LHaY1JTOrg==}
     engines: {node: '>=8'}
@@ -6318,10 +6220,6 @@ packages:
   temp@0.8.4:
     resolution: {integrity: sha512-s0ZZzd0BzYv5tLSptZooSjK8oj6C+c19p7Vqta9+6NPOf7r+fxq0cJe6/oN4LTC79sy5NY8ucOJNgwsKCSbfqg==}
     engines: {node: '>=6.0.0'}
-
-  tempy@0.3.0:
-    resolution: {integrity: sha512-WrH/pui8YCwmeiAoxV+lpRH9HpRtgBhSR2ViBPgpGb/wnYDzp21R4MN45fsCGvLROvY67o3byhJRYRONJyImVQ==}
-    engines: {node: '>=8'}
 
   tempy@0.7.1:
     resolution: {integrity: sha512-vXPxwOyaNVi9nyczO16mxmHGpl6ASC5/TVhRRHpqeYHvKQm58EaWNvZXxAhR0lYYnBOQFjXjhzeLsaXdjxLjRg==}
@@ -6446,10 +6344,6 @@ packages:
     resolution: {integrity: sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==}
     engines: {node: '>=10'}
 
-  type-fest@0.3.1:
-    resolution: {integrity: sha512-cUGJnCdr4STbePCgqNFbpVNCepa+kAVohJs1sLhxzdH+gnEoOd8VhbYa7pD3zZYGiURWM2xzEII3fQcRizDkYQ==}
-    engines: {node: '>=6'}
-
   type-fest@0.7.1:
     resolution: {integrity: sha512-Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==}
     engines: {node: '>=8'}
@@ -6527,10 +6421,6 @@ packages:
   unique-slug@4.0.0:
     resolution: {integrity: sha512-WrcA6AyEfqDX5bWige/4NQfPZMtASNVxdmWR76WESYQVAACSgWcR6e9i0mofqqBxYFtL4oAxPIptY73/0YE1DQ==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
-
-  unique-string@1.0.0:
-    resolution: {integrity: sha512-ODgiYu03y5g76A1I9Gt0/chLCzQjvzDy7DsZGsLOE/1MrF6wriEskSncj1+/C58Xk/kPZDppSctDybCwOSaGAg==}
-    engines: {node: '>=4'}
 
   unique-string@2.0.0:
     resolution: {integrity: sha512-uNaeirEPvpZWSgzwsPGtU2zVSTrn/8L5q/IexZmH0eH6SA73CmAA5U4GwORTxQAZs95TAXLNqeLoPPNO5gZfWg==}
@@ -7049,14 +6939,6 @@ packages:
   xcode@3.0.1:
     resolution: {integrity: sha512-kCz5k7J7XbJtjABOvkc5lJmkiDh8VhjVCGNiqdKCscmVpdVUpEAyXv1xmCLkQJ5dsHqx3IPO4XW+NTDhU/fatA==}
     engines: {node: '>=10.0.0'}
-
-  xml-js@1.6.11:
-    resolution: {integrity: sha512-7rVi2KMfwfWFl+GpPg6m80IVMWXLRjO+PxTq7V2CDhoGak0wzYzFgUY2m4XJ47OGdXd8eLE8EmwfAmdjw7lC1g==}
-    hasBin: true
-
-  xml2js@0.4.23:
-    resolution: {integrity: sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==}
-    engines: {node: '>=4.0.0'}
 
   xml2js@0.6.0:
     resolution: {integrity: sha512-eLTh0kA8uHceqesPqSE+VvO1CDDJWMwlQfB6LuN6T8w6MaDJ8Txm8P7s5cHD0miF0V+GGTZrDQfxPZQVsur33w==}
@@ -8592,15 +8474,9 @@ snapshots:
 
   '@expo-google-fonts/berkshire-swash@0.2.3': {}
 
-  '@expo-google-fonts/dm-serif-display@0.2.3': {}
-
-  '@expo-google-fonts/dm-serif-text@0.2.3': {}
-
-  '@expo-google-fonts/eb-garamond@0.2.3': {}
+  '@expo-google-fonts/noto-sans@0.2.3': {}
 
   '@expo-google-fonts/noto-serif@0.2.3': {}
-
-  '@expo-google-fonts/sorts-mill-goudy@0.2.3': {}
 
   '@expo/bunyan@4.0.1':
     dependencies:
@@ -8692,26 +8568,6 @@ snapshots:
       node-forge: 1.3.1
       nullthrows: 1.1.1
 
-  '@expo/config-plugins@5.0.4':
-    dependencies:
-      '@expo/config-types': 47.0.0
-      '@expo/json-file': 8.2.36
-      '@expo/plist': 0.0.18
-      '@expo/sdk-runtime-versions': 1.0.0
-      '@react-native/normalize-color': 2.1.0
-      chalk: 4.1.2
-      debug: 4.4.0
-      find-up: 5.0.0
-      getenv: 1.0.0
-      glob: 7.1.6
-      resolve-from: 5.0.0
-      semver: 7.7.1
-      slash: 3.0.0
-      xcode: 3.0.1
-      xml2js: 0.4.23
-    transitivePeerDependencies:
-      - supports-color
-
   '@expo/config-plugins@9.0.15':
     dependencies:
       '@expo/config-types': 52.0.4
@@ -8749,8 +8605,6 @@ snapshots:
       xml2js: 0.6.0
     transitivePeerDependencies:
       - supports-color
-
-  '@expo/config-types@47.0.0': {}
 
   '@expo/config-types@52.0.1': {}
 
@@ -8812,33 +8666,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@expo/config@7.0.3':
-    dependencies:
-      '@babel/code-frame': 7.10.4
-      '@expo/config-plugins': 5.0.4
-      '@expo/config-types': 47.0.0
-      '@expo/json-file': 8.2.36
-      getenv: 1.0.0
-      glob: 7.1.6
-      require-from-string: 2.0.2
-      resolve-from: 5.0.0
-      semver: 7.3.2
-      slugify: 1.6.6
-      sucrase: 3.35.0
-    transitivePeerDependencies:
-      - supports-color
-
-  '@expo/configure-splash-screen@0.6.0':
-    dependencies:
-      color-string: 1.9.1
-      commander: 5.1.0
-      fs-extra: 9.1.0
-      glob: 7.2.3
-      lodash: 4.17.21
-      pngjs: 5.0.0
-      xcode: 3.0.1
-      xml-js: 1.6.11
-
   '@expo/devcert@1.1.4':
     dependencies:
       application-config-path: 0.1.1
@@ -8893,22 +8720,6 @@ snapshots:
 
   '@expo/html-elements@0.10.1': {}
 
-  '@expo/image-utils@0.3.22':
-    dependencies:
-      '@expo/spawn-async': 1.5.0
-      chalk: 4.1.2
-      fs-extra: 9.0.0
-      getenv: 1.0.0
-      jimp-compact: 0.16.1
-      mime: 2.6.0
-      node-fetch: 2.7.0
-      parse-png: 2.1.0
-      resolve-from: 5.0.0
-      semver: 7.3.2
-      tempy: 0.3.0
-    transitivePeerDependencies:
-      - encoding
-
   '@expo/image-utils@0.6.4':
     dependencies:
       '@expo/spawn-async': 1.7.2
@@ -8934,12 +8745,6 @@ snapshots:
       semver: 7.7.1
       temp-dir: 2.0.0
       unique-string: 2.0.0
-
-  '@expo/json-file@8.2.36':
-    dependencies:
-      '@babel/code-frame': 7.10.4
-      json5: 1.0.2
-      write-file-atomic: 2.4.3
 
   '@expo/json-file@9.0.0':
     dependencies:
@@ -9029,12 +8834,6 @@ snapshots:
       split: 1.0.1
       sudo-prompt: 9.1.1
 
-  '@expo/plist@0.0.18':
-    dependencies:
-      '@xmldom/xmldom': 0.7.13
-      base64-js: 1.5.1
-      xmlbuilder: 14.0.0
-
   '@expo/plist@0.2.1':
     dependencies:
       '@xmldom/xmldom': 0.7.13
@@ -9046,23 +8845,6 @@ snapshots:
       '@xmldom/xmldom': 0.7.13
       base64-js: 1.5.1
       xmlbuilder: 14.0.0
-
-  '@expo/prebuild-config@5.0.7(expo-modules-autolinking@2.0.8)':
-    dependencies:
-      '@expo/config': 7.0.3
-      '@expo/config-plugins': 5.0.4
-      '@expo/config-types': 47.0.0
-      '@expo/image-utils': 0.3.22
-      '@expo/json-file': 8.2.36
-      debug: 4.4.0
-      expo-modules-autolinking: 2.0.8
-      fs-extra: 9.1.0
-      resolve-from: 5.0.0
-      semver: 7.3.2
-      xml2js: 0.4.23
-    transitivePeerDependencies:
-      - encoding
-      - supports-color
 
   '@expo/prebuild-config@8.0.28':
     dependencies:
@@ -9103,10 +8885,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
       - typescript
-
-  '@expo/spawn-async@1.5.0':
-    dependencies:
-      cross-spawn: 6.0.6
 
   '@expo/spawn-async@1.7.2':
     dependencies:
@@ -9578,8 +9356,6 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/preset-env'
       - supports-color
-
-  '@react-native/normalize-color@2.1.0': {}
 
   '@react-native/normalize-colors@0.74.88': {}
 
@@ -10790,8 +10566,6 @@ snapshots:
 
   commander@4.1.1: {}
 
-  commander@5.1.0: {}
-
   commander@7.2.0: {}
 
   common-ancestor-path@1.0.1: {}
@@ -10883,8 +10657,6 @@ snapshots:
       uncrypto: 0.1.3
 
   crypt@0.0.2: {}
-
-  crypto-random-string@1.0.0: {}
 
   crypto-random-string@2.0.0: {}
 
@@ -11229,15 +11001,6 @@ snapshots:
       signal-exit: 4.1.0
       strip-final-newline: 3.0.0
 
-  expo-app-loading@2.1.1(expo-modules-autolinking@2.0.8)(expo@52.0.37(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@expo/metro-runtime@4.0.1(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1)))(react-native-webview@13.12.5(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)):
-    dependencies:
-      expo-splash-screen: 0.17.5(expo-modules-autolinking@2.0.8)(expo@52.0.37(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@expo/metro-runtime@4.0.1(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1)))(react-native-webview@13.12.5(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))
-    transitivePeerDependencies:
-      - encoding
-      - expo
-      - expo-modules-autolinking
-      - supports-color
-
   expo-application@6.0.2(expo@52.0.37(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@expo/metro-runtime@4.0.1(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1)))(react-native-webview@13.12.5(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)):
     dependencies:
       expo: 52.0.37(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@expo/metro-runtime@4.0.1(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1)))(react-native-webview@13.12.5(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
@@ -11428,16 +11191,6 @@ snapshots:
   expo-secure-store@14.0.1(expo@52.0.37(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@expo/metro-runtime@4.0.1(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1)))(react-native-webview@13.12.5(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)):
     dependencies:
       expo: 52.0.37(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@expo/metro-runtime@4.0.1(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1)))(react-native-webview@13.12.5(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
-
-  expo-splash-screen@0.17.5(expo-modules-autolinking@2.0.8)(expo@52.0.37(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@expo/metro-runtime@4.0.1(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1)))(react-native-webview@13.12.5(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)):
-    dependencies:
-      '@expo/configure-splash-screen': 0.6.0
-      '@expo/prebuild-config': 5.0.7(expo-modules-autolinking@2.0.8)
-      expo: 52.0.37(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@expo/metro-runtime@4.0.1(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1)))(react-native-webview@13.12.5(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
-    transitivePeerDependencies:
-      - encoding
-      - expo-modules-autolinking
-      - supports-color
 
   expo-splash-screen@0.29.22(expo@52.0.37(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@expo/metro-runtime@4.0.1(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1)))(react-native-webview@13.12.5(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)):
     dependencies:
@@ -11755,15 +11508,6 @@ snapshots:
       minipass: 7.1.2
       package-json-from-dist: 1.0.1
       path-scurry: 1.11.1
-
-  glob@7.1.6:
-    dependencies:
-      fs.realpath: 1.0.0
-      inflight: 1.0.6
-      inherits: 2.0.4
-      minimatch: 3.1.2
-      once: 1.4.0
-      path-is-absolute: 1.0.1
 
   glob@7.2.3:
     dependencies:
@@ -12430,10 +12174,6 @@ snapshots:
   json-parse-better-errors@1.0.2: {}
 
   json-schema-traverse@1.0.0: {}
-
-  json5@1.0.2:
-    dependencies:
-      minimist: 1.2.8
 
   json5@2.2.3: {}
 
@@ -13361,8 +13101,6 @@ snapshots:
 
   mime@1.6.0: {}
 
-  mime@2.6.0: {}
-
   mime@3.0.0: {}
 
   mimic-fn@1.2.0: {}
@@ -13762,8 +13500,6 @@ snapshots:
       xmlbuilder: 15.1.1
 
   pngjs@3.4.0: {}
-
-  pngjs@5.0.0: {}
 
   possible-typed-array-names@1.0.0: {}
 
@@ -14459,8 +14195,6 @@ snapshots:
 
   semver@6.3.1: {}
 
-  semver@7.3.2: {}
-
   semver@7.6.3: {}
 
   semver@7.7.1: {}
@@ -14840,19 +14574,11 @@ snapshots:
       mkdirp: 1.0.4
       yallist: 4.0.0
 
-  temp-dir@1.0.0: {}
-
   temp-dir@2.0.0: {}
 
   temp@0.8.4:
     dependencies:
       rimraf: 2.6.3
-
-  tempy@0.3.0:
-    dependencies:
-      temp-dir: 1.0.0
-      type-fest: 0.3.1
-      unique-string: 1.0.0
 
   tempy@0.7.1:
     dependencies:
@@ -14980,8 +14706,6 @@ snapshots:
 
   type-fest@0.21.3: {}
 
-  type-fest@0.3.1: {}
-
   type-fest@0.7.1: {}
 
   type-fest@4.30.0: {}
@@ -15046,10 +14770,6 @@ snapshots:
   unique-slug@4.0.0:
     dependencies:
       imurmurhash: 0.1.4
-
-  unique-string@1.0.0:
-    dependencies:
-      crypto-random-string: 1.0.0
 
   unique-string@2.0.0:
     dependencies:
@@ -15483,15 +15203,6 @@ snapshots:
     dependencies:
       simple-plist: 1.3.1
       uuid: 7.0.3
-
-  xml-js@1.6.11:
-    dependencies:
-      sax: 1.4.1
-
-  xml2js@0.4.23:
-    dependencies:
-      sax: 1.4.1
-      xmlbuilder: 11.0.1
 
   xml2js@0.6.0:
     dependencies:

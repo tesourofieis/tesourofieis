@@ -85,15 +85,12 @@ export default function PageRender() {
               size={15}
               color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
             />
-            <Text className="font-bold dark:text-sepia-200 text-left p-3 text-xl text-bold">
-              Hoje
+            <Text className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
+              {format(date, "EEEE, dd MMMM HH", {
+                locale: pt,
+              })}
             </Text>
           </View>
-          <Text className="font-serif text-center text-sepia-600 dark:text-sepia-400 text-sm pb-3">
-            {format(date, "EEEE, dd MMMM HH:mm", {
-              locale: pt,
-            })}
-          </Text>
 
           {day.mass?.map((item) => (
             <LinkCard key={item.id} mass={item} />
@@ -136,13 +133,15 @@ export default function PageRender() {
 
           <Office />
           <Novenas />
-
-          <Image
-            source={require("../../../assets/images/1.jpeg")}
-            contentFit="contain"
-            style={{ height: 200 }}
-          />
         </View>
+
+        <View className="border-t border-sepia-300 dark:border-sepia-700 my-3" />
+
+        <Image
+          source={require("../../../assets/images/1.jpeg")}
+          contentFit="contain"
+          style={{ height: 200 }}
+        />
 
         <View className="border-t border-sepia-300 dark:border-sepia-700 mt-3" />
 
