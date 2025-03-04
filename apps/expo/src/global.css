@@ -15,7 +15,7 @@
   }
 
   .docs {
-    @apply flex-1 font-serif py-2 px-5;
+    @apply flex-1 font-serif py-2;
   }
 
   .h1 {
@@ -61,21 +61,32 @@
   }
 
   .text-base {
-    @apply font-serif text-justify py-2 text;
-  }
-
-  .latin {
-    @apply text-base;
-    width: "40%";
-  }
-
-  .vernacular {
-    @apply text-base;
-    width: "50%";
+    @apply font-serif text-justify py-2 px-3 text;
   }
 
   .side-by-side {
     @apply grid grid-cols-2 flex flex-row flex-wrap justify-around text-justify font-body;
+    min-width: 100%;
+  }
+
+  .latin {
+    @apply text-base;
+    width: 40%;
+    min-width: 0; /* Critical for text truncation prevention */
+  }
+
+  .vernacular {
+    @apply text-base;
+    width: 50%;
+    min-width: 0; /* Critical for text truncation prevention */
+  }
+
+  .text-base,
+  .latin,
+  .vernacular {
+    @apply text-justify py-2 text;
+    letter-spacing: 0; /* Reset any default letter spacing */
+    text-rendering: optimizeLegibility;
   }
 
   .cross {
