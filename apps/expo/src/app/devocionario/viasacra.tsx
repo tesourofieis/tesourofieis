@@ -89,8 +89,8 @@ export default function PageViasacra() {
             Nesta primeira estação contemplemos N. S. J. C., que, depois de
             cruelmente açoitado e coroado de espinhos, é levado pela segunda vez
             à presença de Pilatos, que por instigação dos judeus O condena à
-            morte. E Jesus, que quere padecer e morrer para nos provar o seu
-            amor e livrar-nos do Inferno, submete-se à condenação!... Ó
+            morte. E Jesus, que quer padecer e morrer para nos provar o seu amor
+            e livrar-nos do Inferno, submete-se à condenação!... Ó
             misericordiosíssimo Jesus, fazei-nos compreender o vosso amor, e
             abrasai-nos nele.
           </Text>
@@ -154,7 +154,7 @@ export default function PageViasacra() {
           <Text className="h3">Simão ajuda Jesus a levar a Cruz</Text>
           <Text className="text-base">
             Nesta quinta estação contemplemos N. S. J. C., vergado sob o peso da
-            Cruz e atormentado com as dores da grande chaga que ela abriu emseu
+            Cruz e atormentado com as dores da grande chaga que ela abriu em seu
             ombro. Mal se mexe; já não pode caminhar; e os algozes, temendo que
             morra antes de ser crucificado, intimam Simão Cireneu a que O
             ajude!... Ó misericordiosíssimo Jesus, ajudai-nos a levar a cruz,
@@ -220,7 +220,7 @@ export default function PageViasacra() {
             contentFit="contain"
             style={{ height: 400 }}
           />
-          <Text className="h3">Tercera queda de Jesus</Text>
+          <Text className="h3">Terceira queda de Jesus</Text>
           <Text className="text-base">
             Nesta nona estação contemplemos N. S. J. C., que chega ao Calvários,
             banhado em sangue, e mais morto que vivo; e, não podendo aguentar de
@@ -258,9 +258,9 @@ export default function PageViasacra() {
             Nesta décima primeira estação contemplemos N. S. J. C., pregado na
             Cruz tão barbaramente que Lhe deslocam os ossos. Maria Santíssima,
             com o coração despedaçado de dor, ouve as pancadas do martelo que
-            enterram os cravos nas mãos e pés doseu amado Filho, Lhe não podendo
-            valer!... Ó Santa Mãe das dores, gravai em meu coração as chagas do
-            Salvador.
+            enterram os cravos nas mãos e pés do seu amado Filho, Lhe não
+            podendo valer!... Ó Santa Mãe das dores, gravai em meu coração as
+            chagas do Salvador.
           </Text>
 
           <Text className="h2">Décima segunda Estação</Text>
