@@ -2,39 +2,90 @@
 import { getCollection } from "astro:content";
 import { CardGrid, LinkCard } from "@astrojs/starlight/components";
 
-const { slug } = Astro.params;
+// Get all documentation pages
+const allDocs = await getCollection("docs");
 
-if (!slug) {
-  return;
+// Get current page path
+const currentPath = Astro.url.pathname;
+console.log("Current path:", currentPath);
+
+// Extract current slug (removing leading/trailing slashes)
+let currentSlug = currentPath.replace(/^\/|\/$/g, "");
+// If we're at root, use empty string
+if (currentPath === "/" || currentPath === "") {
+  currentSlug = "";
+}
+console.log("Current slug:", currentSlug);
+
+// Log all available pages for debugging
+console.log(
+  "All pages:",
+  allDocs.map((p) => p.id),
+);
+
+// More permissive filtering - find pages that are direct children of current path
+const childPages = allDocs.filter((page) => {
+  // Skip the current page itself
+  if (page.id === currentSlug || page.id === `${currentSlug}/index.mdx`)
+    return false;
+
+  // For root level
+  if (currentSlug === "") {
+    // Get top-level entries (either files in root or directories with index)
+    const idParts = page.id.split("/");
+    return (
+      idParts.length === 1 ||
+      (idParts.length === 2 && idParts[1] === "index.mdx")
+    );
+  }
+
+  // For non-root pages, check if page is a direct child
+  return (
+    page.id.startsWith(`${currentSlug}/`) &&
+    // Count segments to ensure it's a direct child
+    page.id.split("/").length === currentSlug.split("/").length + 1
+  );
+});
+
+console.log(
+  "Child pages found:",
+  childPages.map((p) => p.id),
+);
+
+// Function to get a friendly title
+function getPageTitle(page) {
+  // Use frontmatter title if available
+  if (page.data.title) return page.data.title;
+
+  // Otherwise get from filename or directory
+  const nameMatch = page.id.match(/([^\/]+)(\/index\.mdx)?$/);
+  const name = nameMatch ? nameMatch[1] : page.id;
+
+  // Convert kebab-case to Title Case
+  return name
+    .replace(/\.mdx$/, "")
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 }
 
-export const allPages = await getCollection("docs");
+// Get href path for a page
+function getPageHref(page) {
+  // Handle index pages
+  const path = page.id.endsWith("/index.mdx")
+    ? page.id.replace(/\/index\.mdx$/, "/")
+    : page.id.replace(/\.mdx$/, "/");
+
+  return `/${path}`;
+}
 ---
 
 <CardGrid stagger>
-  {allPages
-  .filter((p) => {
-    const idParts = p.id.split("/");
-    const slugParts = slug?.split("/");
-
-    if (slug && p.id.startsWith(slug) && slugParts) {
-      // Check if id is 1 folder away from slug
-      if (idParts.length === slugParts.length + 1) {
-        // Check if it's an mdx file but not index.mdx
-        return p.id.endsWith(".mdx") && !p.id.endsWith("/index.mdx");
-      }
-
-      // Check if id is 2 folders away from slug
-      if (idParts.length === slugParts.length + 2) {
-        // Check if it's index.mdx
-        return p.id.endsWith("/index.mdx");
-      }
-
-      // For other cases, return false (do not show)
-      return false;
-    }
-  })
-  .map((p: any) => (
-    <LinkCard href={'/'.concat(p.slug)} title={p.data.title} description={p.data.description}/>
+  {childPages.map((page) => (
+    <LinkCard 
+      href={getPageHref(page)} 
+      title={getPageTitle(page)} 
+      description={page.data.description || ''} 
+    />
   ))}
 </CardGrid>
