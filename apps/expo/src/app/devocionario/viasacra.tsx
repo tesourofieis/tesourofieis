@@ -225,7 +225,7 @@ export default function PageViasacra() {
             Nesta nona estação contemplemos N. S. J. C., que chega ao Calvários,
             banhado em sangue, e mais morto que vivo; e, não podendo aguentar de
             pé os empurrões e pancadas que Lhe dão os algozes, cai desamparado e
-            chegar a tocar a terra com sua santíssima boca!... Ó
+            chega a tocar a terra com sua santíssima boca!... Ó
             misericordiosíssimo Jesus, pelas vossas chagas Vos pedimos que
             tenhais compaixão dos que caíram em pecado e nele vivem; salvai-nos!
           </Text>

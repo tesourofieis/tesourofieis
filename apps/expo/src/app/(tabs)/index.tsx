@@ -52,23 +52,15 @@ export default function PageRender() {
 
         <View className="flex flex-row justify-center my-5 mx-5 gap-5">
           <Text className="font-bold border-sepia-900 text-sepia-800 dark:border-sepia-200 dark:text-sepia-200 m-2 rounded-lg border px-4 py-2 text-center flex">
-            <Link href="/devocionario/introducao">
-              Introdução{" "}
-              <FontAwesome6
-                name="arrow-right"
-                color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-              />
-            </Link>
+            <Link href="/devocionario/introducao">Introdução</Link>
           </Text>
 
           <Text className="font-bold bg-sepia-900 text-sepia-200 dark:bg-sepia-200 dark:text-sepia-900 m-2 rounded-lg px-4 py-2 text-center">
-            <Link href="/devocionario/rosario">
-              Rosário{" "}
-              <FontAwesome6
-                name="arrow-right"
-                color={colorScheme === "light" ? COLORS["200"] : COLORS["900"]}
-              />
-            </Link>
+            <Link href="/devocionario/rosario">Rosário</Link>
+          </Text>
+
+          <Text className="font-bold border-red-500 text-red-600 m-2 rounded-lg border px-4 py-2 text-center flex">
+            <Link href="/devocionario/viasacra">Via Sacra</Link>
           </Text>
         </View>
 
