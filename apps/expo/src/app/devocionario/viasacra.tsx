@@ -216,7 +216,7 @@ export default function PageViasacra() {
           <Text className="h2">Nona Estação</Text>
           <Image
             alt="estacao 9"
-            source={require("../../../assets/images/station8.png")}
+            source={require("../../../assets/images/station9.png")}
             contentFit="contain"
             style={{ height: 400 }}
           />

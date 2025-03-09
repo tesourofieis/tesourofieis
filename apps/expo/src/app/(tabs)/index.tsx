@@ -78,7 +78,7 @@ export default function PageRender() {
               color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
             />
             <Text className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
-              {format(date, "EEEE, dd MMMM HH", {
+              {format(date, "EEEE, dd MMMM HH:mm", {
                 locale: pt,
               })}
             </Text>
