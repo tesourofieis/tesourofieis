@@ -39,11 +39,15 @@ export default function PaginaNovenas() {
         <View className="docs">
           <Text className="h1">Novenas</Text>
 
-          {novena.map((novena) => (
-            <Link key={novena.id} href={`/${novena.link}`}>
-              {novena.name}
-            </Link>
-          ))}
+          <View className="flex px-2">
+            {novena.map((novena) => (
+              <Link key={novena.id} href={`/${novena.link}`}>
+                <Text className="text-base font-bold underline mb-2">
+                  {novena.name}
+                </Text>
+              </Link>
+            ))}
+          </View>
 
           <Text className="text-base mb-2">
             Não existem novenas oficiais estabelecidas pela Igreja, permitindo
@@ -55,11 +59,13 @@ export default function PaginaNovenas() {
           </Text>
           <View className="list-decimal list-inside mb-2">
             <Text className="li text-justify">
-              Reze a oração da missa da novena
+              Reze a oração da missa da novena.
             </Text>
-            <Text className="li text-justify">Adicione intenções pessoais</Text>
             <Text className="li text-justify">
-              Termine com a Salve Regina, ou outra oração
+              Adicione intenções pessoais.
+            </Text>
+            <Text className="li text-justify">
+              Termine com a Salve Regina, ou outra oração.
             </Text>
           </View>
 
