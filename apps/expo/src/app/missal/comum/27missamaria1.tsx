@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page27Missamaria1() {
   return (
@@ -16,7 +17,7 @@ export default function Page27Missamaria1() {
 
           <Text className="em">Is. 45, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Roráte, cœli, désuper, et nubes pluant justum: aperiátur terra, et
               gérminet Salvatórem. <Text className="latin">Ps. 84, 2</Text>{" "}
@@ -30,11 +31,11 @@ export default function Page27Missamaria1() {
               a vossa terra e acabastes com a escravidão de Jacob.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo
               nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut,
@@ -48,13 +49,13 @@ export default function Page27Missamaria1() {
               verdadeira Mãe de Deus, sejam amparados na vossa presença com o
               auxílio das suas preces. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Is. 7, 10-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -78,13 +79,13 @@ export default function Page27Missamaria1() {
               nome será Emanuel: Ele comerá manteiga e mel, para que saiba
               condenar o mal e escolher o bem».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 23, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tóllite portas, príncipes, vestras: et elevámini, portæ æternáles:
               et introívit Rex glóriæ.<Text className="versicle"> ℣. </Text>
@@ -111,13 +112,13 @@ export default function Page27Missamaria1() {
               graça: o Senhor é convosco: bendita sois vós entre as mulheres.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 1, 26-38</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -169,13 +170,13 @@ export default function Page27Missamaria1() {
               Então disse Maria: «Eis aqui a escrava do Senhor, faça-se em mim
               segundo a tua palavra».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Lc. 1, 28 & 42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ave, María, grátia plena; Dóminus tecum: benedícta tu in
               muliéribus, et benedíctus fructus ventris tui.
@@ -184,11 +185,11 @@ export default function Page27Missamaria1() {
               Ave, Maria, cheia de graça: o Senhor é convosco: bendita sois vós
               entre as mulheres, e bendito é o fruto do vosso ventre.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In méntibus nostris, quǽsumus, Dómine, veræ fídei sacraménta
               confírma: ut, qui concéptum de Vírgine Deum verum et hóminem
@@ -202,13 +203,13 @@ export default function Page27Missamaria1() {
               mereçamos alcançar pela virtude da sua salutar ressurreição a
               felicidade eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Is. 7, 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce, Virgo concípiet et páriet fílium: et vocábitur nomen ejus
               Emmánuel.
@@ -217,11 +218,11 @@ export default function Page27Missamaria1() {
               Eis que a Virgem conceberá, dará à luz um filho e o seu nome será
               Emanuel.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde: ut, qui,
               Angelo nuntiánte, Christi, Fílii tui, incarnatiónem cognóvimus;
@@ -234,7 +235,7 @@ export default function Page27Missamaria1() {
               do vosso Filho, sejamos conduzidos à glória da ressurreição pela
               sua Paixão e Cruz. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

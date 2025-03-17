@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageQuad16() {
@@ -17,7 +18,7 @@ export default function PageQuad16() {
 
           <Text className="em">Sl. 24, 17 & 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               De necessitátibus meis éripe me, Dómine: vide humilitátem meam et
               labórem meum, et dimítte ómnia peccáta mea.{" "}
@@ -32,11 +33,11 @@ export default function PageQuad16() {
               elevo a minha alma: meu Deus, em Vós confio: não esperarei em vão.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Esto, Dómine, propítius plebi tuæ: et, quam tibi facis esse
               devótam, benígno réfove miserátus auxílio. Per Dóminum...
@@ -46,13 +47,13 @@ export default function PageQuad16() {
               a graça da devoção para convosco, auxiliai-o agora benignamente
               com vossa misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ez. 18, 20-28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Ezechiélis Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Ezequiel.</Text>
             <Text className="latin">
@@ -106,13 +107,13 @@ export default function PageQuad16() {
               iniquidades que tinha cometido, certamente viverá na vida eterna e
               não morrerá: diz o Senhor omnipotente».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 85, 2 & 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salvum fac servum tuum. Deus meus, sperántem in te.
               <Text className="versicle"> ℣. </Text>Auribus pércipe, Dómine,
@@ -122,7 +123,7 @@ export default function PageQuad16() {
               Salvai, ó meu Deus, o vosso servo, pois em Vós pôs a sua
               esperança. Escutai a minha oração, Senhor!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
@@ -135,7 +136,7 @@ export default function PageQuad16() {
 
           <Text className="em">Jo. 5, 1-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -198,13 +199,13 @@ export default function PageQuad16() {
               homem e foi anunciar aos judeus que tinha sido Jesus quem o
               curara.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 102, 2 & 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Bénedic, anima mea, Dómino, et noli oblivísci omnes retributiónes
               ejus: et renovábitur, sicut áquilæ, juvéntus tua.
@@ -213,11 +214,11 @@ export default function PageQuad16() {
               Bendizei o Senhor, ó minha alma, e não esqueçais nunca os seus
               benefícios; e a vossa juventude se renovará, como a da águia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, quǽsumus, Dómine, múnera nostris obláta servítiis: et tua
               propítius dona sanctífica. Per Dóminum...
@@ -227,13 +228,13 @@ export default function PageQuad16() {
               Vos apresenta, e, propício, dignai-Vos santificar estes dons que
               de Vós recebemos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 6, 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Erubéscant et conturbéntur omnes inimíci mei: avertántur
               retrórsum, et erubéscant valde velóciter.
@@ -242,11 +243,11 @@ export default function PageQuad16() {
               Envergonhem-se e perturbem-se todos meus inimigos; apressem-se em
               fugir, cheios de vergonha.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per hujus, Dómine, operatiónem mystérii, et vítia nostra
               purgéntur, et justa desidéria compleántur. Per Dóminum nostrum...
@@ -256,11 +257,11 @@ export default function PageQuad16() {
               desapareçam e sejam realizados os nossos justos desejos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Humiliáte cápita vestra Deo.</Text>
             <Text className="vernacular">
               Inclinai as vossas cabeças diante de Deus.
@@ -273,7 +274,7 @@ export default function PageQuad16() {
               Ó Deus de misericórdia, ouvi-nos; e mostrai às nossas almas a luz
               da vossa graça. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

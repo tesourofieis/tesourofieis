@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import AveMaria from "./../devocionario/oracoes/avemaria";
 import SaoMiguel from "./../devocionario/oracoes/saomiguel";
 
@@ -27,7 +28,7 @@ export default function PageOracoesleoninas() {
 
           <Text className="h2">Salve Regina</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salve, Regína, mater misericórdiæ; vita, dulcédo et spes nóstra,
               salve. Ad te clamámus éxsules fílii Hevæ. Ad te suspirámus
@@ -90,7 +91,7 @@ export default function PageOracoesleoninas() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amén.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h1">Oração a São Miguel Arcanjo</Text>
 
@@ -102,7 +103,7 @@ export default function PageOracoesleoninas() {
             S. Pio X pediu que se juntasse três vezes a seguinte jaculatória:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Cor Jesu sacratíssimum:
             </Text>
@@ -116,7 +117,7 @@ export default function PageOracoesleoninas() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Tende misericórdia de nós.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

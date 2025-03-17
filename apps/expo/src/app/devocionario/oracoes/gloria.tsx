@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageGloria() {
   return (
@@ -10,7 +11,7 @@ export default function PageGloria() {
         <View className="docs">
           <Text className="h1">Glória</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Glória Patri, et Fílio, et
               Spíritui Sancto.
@@ -33,7 +34,7 @@ export default function PageGloria() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageConcedemihi() {
   return (
@@ -10,7 +11,7 @@ export default function PageConcedemihi() {
         <View className="docs">
           <Text className="h1">Concede Mihi</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concede mihi, benignissime Jesu, grátiam tuam, ut mecum sit et
               mecum laboret, mecum que in finem usque persevéret.
@@ -44,7 +45,7 @@ export default function PageConcedemihi() {
               Fazei que tudo aquilo que eu queira ou não queira seja aquilo que
               Vós quereis ou não quereis. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

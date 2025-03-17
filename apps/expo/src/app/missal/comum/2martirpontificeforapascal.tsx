@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page2Martirpontificeforapascal() {
   return (
@@ -14,7 +15,7 @@ export default function Page2Martirpontificeforapascal() {
 
           <Text className="em">Ecl. 45, 30</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut
               sit illi sacerdótii dígnitas in ætérnum.{" "}
@@ -30,11 +31,11 @@ export default function Page2Martirpontificeforapascal() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus
               própriæ actiónis gravat, beáti <Text className="latin">N.</Text>{" "}
@@ -48,13 +49,13 @@ export default function Page2Martirpontificeforapascal() {
               <Text className="vernacular">N.</Text>, vosso Pontífice e Mártir.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Tg. 1, 12-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Jacóbi Apóstoli.
             </Text>
@@ -88,13 +89,13 @@ export default function Page2Martirpontificeforapascal() {
               nos gerou pela palavra da verdade, a fim de que fôssemos como
               primícias das suas criaturas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 88, 21-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
               auxiliábitur ei, et bráchium meum confortábit eum.
@@ -117,7 +118,7 @@ export default function Page2Martirpontificeforapascal() {
               <Text className="vernacular">Sl. 109, 4</Text> Tu és sacerdote
               para sempre, segundo a ordem de Melquisedeque. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte, dizendo-se:
@@ -127,7 +128,7 @@ export default function Page2Martirpontificeforapascal() {
 
           <Text className="em">Sl. 20, 3-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Desidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
               fraudásti eum.<Text className="versicle"> ℣. </Text>Quóniam
@@ -142,13 +143,13 @@ export default function Page2Martirpontificeforapascal() {
               <Text className="versicle"> ℣. </Text>
               Impusestes na sua cabeça uma coroa de pedras preciosas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 14, 26-33</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -193,13 +194,13 @@ export default function Page2Martirpontificeforapascal() {
               que não renunciar a tudo quanto possui não pode ser meu
               discípulo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 88, 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Véritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus.
@@ -208,11 +209,11 @@ export default function Page2Martirpontificeforapascal() {
               A minha fidelidade e a minha misericórdia estarão com ele: e o seu
               poder elevar-se-á pelo meu nome.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, beáti <Text className="latin">N.</Text>{" "}
               Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et
@@ -224,13 +225,13 @@ export default function Page2Martirpontificeforapascal() {
               Mártir e Pontífice, e fazei que elas nos alcancem o vosso perpétuo
               socorro. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 88, 36 & 37-38</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Semel jurávi in sancto meo: Semen ejus in ætérnum manébit: et
               sedes ejus sicut sol in conspéctu meo, et sicut luna perfécta in
@@ -241,11 +242,11 @@ export default function Page2Martirpontificeforapascal() {
               eternamente e o seu trono brilhará perante mim, como o sol, e como
               a lua permanecerá para sempre e será testemunho fiel no céu.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus
               noster: ut, cujus exséquimur cultum, intercedénte beáto{" "}
@@ -259,7 +260,7 @@ export default function Page2Martirpontificeforapascal() {
               sintamos o efeito do mystério que hoje celebrámos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

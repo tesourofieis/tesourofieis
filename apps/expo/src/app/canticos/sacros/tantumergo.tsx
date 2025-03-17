@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageTantumergo() {
   return (
@@ -10,7 +11,7 @@ export default function PageTantumergo() {
         <View className="docs">
           <Text className="h1">Tantum ergo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tantum ergo Sacramentum Veneremur cernui: Et antiquum documentum
               Novo cedat ritui: Præstet fides supplementum Sensuum defectui.
@@ -25,7 +26,7 @@ export default function PageTantumergo() {
               bênçãos sejam dadas ao Pai, e ao Filho: e dêem-se iguais louvores
               Àquele que procede de um e do outro. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

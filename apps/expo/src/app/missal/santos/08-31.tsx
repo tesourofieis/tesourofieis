@@ -3,6 +3,7 @@ import { Link } from "expo-router";
 import { View } from "react-native";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0831() {
   return (
@@ -24,7 +25,7 @@ export default function Page0831() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui in liberándis fidélibus tuis ab impiórum captivitáte
               beátum Raymúndum Confessórem tuum mirábilem effecísti: ejus nobis
@@ -38,7 +39,7 @@ export default function Page0831() {
               dos pecados, cumpramos com liberdade de espírito o que Vos é
               agradável. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

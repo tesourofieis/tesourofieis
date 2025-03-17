@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageSumospontifices() {
   return (
@@ -14,7 +15,7 @@ export default function PageSumospontifices() {
 
           <Text className="em">Jo. 21, 15, 16 & 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Si díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (T.
               P. Allelúja, allelúja.) <Text className="latin">Ps. 29, 2</Text>{" "}
@@ -30,11 +31,11 @@ export default function PageSumospontifices() {
               rissem de mim.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gregem tuum, Pastor ætérne, placátus inténde: et, per beátum{" "}
               <Text className="latin">N.</Text> (Mártyrem tuum atque) Summum
@@ -48,7 +49,7 @@ export default function PageSumospontifices() {
               Pontífice, o qual escolhestes como pastor de toda a Igreja. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Se, porém, se fizer comemoração doutro Sumo Pontífice nesta mesma
@@ -57,7 +58,7 @@ export default function PageSumospontifices() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui Ecclésiam tuam, in apostólicæ petræ soliditáte fundátam,
               ab infernárum éruis terróre portárum: præsta, quǽsumus; ut,
@@ -73,13 +74,13 @@ export default function PageSumospontifices() {
               Pontífice, sempre persista na vossa verdade e seja protegida em
               contínua segurança. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">l. Pe. 5, 1-4 & 10-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
             <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
             <Text className="latin">
@@ -108,13 +109,13 @@ export default function PageSumospontifices() {
               fortificará e consolidará. A Ele: glória e império pelos séculos
               dos séculos. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 106, 32, 31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáltent eum in Ecclésia plebis: et in cáthedra seniórum laudent
               eum.<Text className="versicle"> ℣. </Text>Confiteántur Dómino
@@ -136,7 +137,7 @@ export default function PageSumospontifices() {
               <Text className="vernacular">Mt. 16, 18</Text> Tu és Pedro, e
               sobre esta pedra edificarei a minha Igreja. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Depois da Septuagésima omite-se o Aleluia e o Verso e diz-se:
@@ -146,7 +147,7 @@ export default function PageSumospontifices() {
 
           <Text className="em">Sl. 39, 10-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Annuntiávi justítiam tuam in ecclésia magna, ecce, lábia mea non
               prohibébo: Dómine, tu scisti.
@@ -163,13 +164,13 @@ export default function PageSumospontifices() {
               <Text className="versicle"> ℣. </Text>Não ocultei a vossa
               misericórdia e fidelidade diante da grande assembleia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Matth. 16, 18</Text> Tu es Petrus, et
@@ -188,13 +189,13 @@ export default function PageSumospontifices() {
               príncipes em toda a terra: e eles perpetuarão, Senhor, o vosso
               nome. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 16, 13-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -233,13 +234,13 @@ export default function PageSumospontifices() {
               e tudo o que ligares sobre a terra será ligado também nos céus; e
               tudo o que desatares sobre a terra será desatado também nos céus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Jr. 1, 9-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce, dedi verba mea in ore tuo: ecce, constítui te super gentes
               et super regna, ut evéllas et destruas, et ædífices et plantes.
@@ -250,11 +251,11 @@ export default function PageSumospontifices() {
               sobre os povos e sobre os reinos para arrancares e destruíres, e
               para edificares e plantares. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus
               illúmina: ut, et gregis tui profíciat ubique succéssus, et grati
@@ -267,7 +268,7 @@ export default function PageSumospontifices() {
               triunfe em toda a parte, mas também pelo poder do vosso nome os
               pastores sejam bem acolhidos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Se, porém, se fizer comemoração doutro Sumo Pontífice nesta mesma
@@ -276,7 +277,7 @@ export default function PageSumospontifices() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera, quæ tibi, Dómine, lætántes offérimus, súscipe benígnus, et
               præsta: ut, intercedénte beáto <Text className="latin">N.</Text>,
@@ -290,13 +291,13 @@ export default function PageSumospontifices() {
               com a integridade da sua fé e sempre exulte com a tranquilidade
               dos tempos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 16, 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (T.
               P. Allelúja.)
@@ -305,11 +306,11 @@ export default function PageSumospontifices() {
               Tu és Pedro, e sobre esta pedra edificarei a minha Igreja. (T. P.
               Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam
               placátus Ecclésiam: ut, poténti moderatióne dirécta, et increménta
@@ -323,7 +324,7 @@ export default function PageSumospontifices() {
               liberdade e persista na integridade da sua doutrina. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Se, porém, se fizer comemoração doutro Sumo Pontífice nesta mesma
@@ -332,7 +333,7 @@ export default function PageSumospontifices() {
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Multíplica, quǽsumus, Dómine, in Ecclesia tua spíritum grátiæ,
               quem dedísti: ut beáti <Text className="latin">N.</Text> (Martyris
@@ -346,7 +347,7 @@ export default function PageSumospontifices() {
               Mártir e) Sumo Pontífice, não falte ao pastor a obediência do
               rebanho, nem ao rebanho a dedicação do pastor. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import Salmo69 from "../salterio/069";
 
 export default function PageSantos() {
@@ -11,7 +12,7 @@ export default function PageSantos() {
         <View className="docs">
           <Text className="h1">Ladainha de Todos os Santos</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Kyrie eleison</Text>
             <Text className="vernacular">Senhor, tende piedade de nós.</Text>
             <Text className="latin">Christe, eléison.</Text>
@@ -540,13 +541,13 @@ export default function PageSantos() {
             </Text>
             <Text className="latin">Sed líbera nos a malo.</Text>
             <Text className="vernacular">Mais livrai-nos do mal.</Text>
-          </View>
+          </Language>
 
           <Text className="h3">Salmo 69</Text>
 
           <Salmo69 />
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Glória Patri...</Text>
             <Text className="vernacular">Glória ao Pai...</Text>
             <Text className="latin">
@@ -918,7 +919,7 @@ export default function PageSantos() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -1,6 +1,7 @@
 import { SafeAreaView, ScrollView, Text, View } from "react-native";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0501() {
   return (
@@ -41,7 +42,7 @@ export default function Page0501() {
 
           <Text className="em">Esd. 9, 27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Clamavérunt ad te, Dómine, in témpore afflictiónis suæ, et tu de
               cœlo exaudísti eos, allelúja, allelúja.{" "}
@@ -57,11 +58,11 @@ export default function Page0501() {
               devem louvar o Senhor.<Text className="versicle"> ℣. </Text>Glória
               ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos ánnua Apostolórum tuórum Philíppi et Jacóbi
               sollemnitáte lætíficas: præsta, quǽsumus: ut, quorum gaudémus
@@ -73,13 +74,13 @@ export default function Page0501() {
               alegrando-nos com seus méritos, aproveitemos com seus exemplos.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Sb. 5, 1-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beati Pauli Apostoli ad Corinthios.
             </Text>
@@ -107,9 +108,9 @@ export default function Page0501() {
               elevados à dignidade de filhos de Deus e compartilhando da glória
               dos santos!
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 88, 6</Text> Confitebúntur cœli
@@ -129,13 +130,13 @@ export default function Page0501() {
               convosco e me não conheceis? Filipe, quem me vê, vê também meu
               Pai! Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 14, 1-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -190,13 +191,13 @@ export default function Page0501() {
               mesmas obras que faço e fará ainda maiores, porque vou para o Pai.
               Tudo quanto pedirdes ao Pai em meu nome, vo-lo farei».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 88, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Confitebúntur cœli mirabília tua, Dómine: et veritátem tuam in
               ecclésia sanctórum, allelúja, allelúja.
@@ -205,11 +206,11 @@ export default function Page0501() {
               Senhor, que os céus publiquem as vossas maravilhas; que a vossa
               verdade seja exaltada na assembleia dos santos. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera, Dómine, quæ pro Apostolórum tuórum Philippi et Jacóbi
               sollemnitáte deférimus, propítius súscipe: et mala ómnia, quæ
@@ -220,13 +221,13 @@ export default function Page0501() {
               solenidade dos vossos Apóstolos Filipe e Tiago e afastai de nós
               todos os males que merecemos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 14, 9 & 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tanto témpore vobíscum sum, et non cognovístis me? Philíppe, qui
               videt me, videt et Patrem meum, allelúja: non credis, quia ego in
@@ -237,11 +238,11 @@ export default function Page0501() {
               me vê, vê também meu Pai! Aleluia. Não acreditais que estou no
               Pai, e o Pai está em mim? Aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, Dómine, salutáribus repléti mystériis: ut, quorum
               sollémnia celebrámus, eórum oratiónibus adjuvémur. Per Dóminum...
@@ -251,7 +252,7 @@ export default function Page0501() {
               permiti que sejamos socorridos com as orações daqueles cuja festa
               celebramos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

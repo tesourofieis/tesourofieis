@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0707() {
@@ -44,7 +45,7 @@ export default function Page0707() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui Slavóniæ gentes per beátos
               Confessóris tuos atque Pontífices Cyríllum et Methódium ad
@@ -58,7 +59,7 @@ export default function Page0707() {
               a graça de sermos um dia admitidos na companhia daqueles cuja
               festa nos gloriamos de celebrar. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -71,7 +72,7 @@ export default function Page0707() {
 
           <Text className="em">Sl. 67, 36</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mirábilis Deus in Sanctis suis: Deus Israel, ipse dabit virtútem
               et fortitúdinem plebisuæ: benedíctus Deus.
@@ -80,11 +81,11 @@ export default function Page0707() {
               Deus é admirável em seus Santos. Deus de Israel dará ao seu povo a
               força e a coragem. Bendito seja Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Preces nostras, quæsumus, Dómine, et tuórum réspice oblatiónes
               fidélium: ut tibi gratæ sint in tuórum festivitáte
@@ -97,13 +98,13 @@ export default function Page0707() {
               sejam agradáveis e nos obtenham o auxílio da vossa propiciação.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 10, 27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quod dico vobis in tenebris, dícite in lúmine, dicit Dóminus: et
               quod in aure audítis, prædicáte super tecta.
@@ -112,11 +113,11 @@ export default function Page0707() {
               O que vos digo nas trevas dizei-o às claras, diz o Senhor; e o que
               vos disse ao ouvido pregai-o em cima dos telhados.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, qui nobis múnera dignáris præbére
               cœléstia, intercedéntibus sanctis tuis Cyríllo et Methódio,
@@ -128,7 +129,7 @@ export default function Page0707() {
               vossos Santos Cirilo e Metódio a graça de desprezarmos as coisas
               terrenas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

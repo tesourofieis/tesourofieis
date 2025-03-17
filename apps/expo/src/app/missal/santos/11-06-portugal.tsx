@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1106Portugal() {
@@ -26,7 +27,7 @@ export default function Page1106Portugal() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beáto Nónio bonum certámen certáre dedísti, eúmque sui
               ac mundi contemptórem exímium effecísti: concéde nobis fámulis
@@ -40,7 +41,7 @@ export default function Page1106Portugal() {
               cobiças do mundo, nos alegremos perpetuamente na pátria celestial.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -58,7 +59,7 @@ export default function Page1106Portugal() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tuórum mílitum, Rex omnípotens, virtútem corróborat; ut, quos in
               hujus mortalitátis stádio, beáti Nónii Confessóris tui vita
@@ -72,11 +73,11 @@ export default function Page1106Portugal() {
               alcancem, mediante esta hóstia, que Vos oferecemos, o prémio da
               imortalidade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis
               sacraméntis; intercedénte Beáto Nónio Confessóre tuo, tríbuas ab
@@ -91,7 +92,7 @@ export default function Page1106Portugal() {
               sejam fortalecidos contra todas as adversidades. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

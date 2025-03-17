@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page05011962() {
   return (
@@ -14,7 +15,7 @@ export default function Page05011962() {
 
           <Text className="em">Sb. 10, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sapiéntia réddidit justis mercédem labórum suórum, et dedúxit
               illos in via mirábili, et fuit illis in velaménto diéi, et in luce
@@ -31,11 +32,11 @@ export default function Page05011962() {
               Senhor não edificar a casa, em vão trabalharão os que a constroem.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Rerum cónditor Deus qui legem labóris humáno géneri statuísti
               concéde propítius; ut sancti Joseph exémplo et patrocínio, ópera
@@ -48,13 +49,13 @@ export default function Page05011962() {
               de São José nos desempenhemos dos trabalhos, que nos ordenastes, e
               alcancemos os prémios, que nos prometestes. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Cl. 3, 14-15, 17, 23-24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beati Pauli Apostoli ad Colossénses.
             </Text>
@@ -81,9 +82,9 @@ export default function Page05011962() {
               ficando cientes de que recebereis do Senhor a herança celestial.
               Servi o Senhor Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 36</Text> De quacúmque tribulatióne
@@ -100,7 +101,7 @@ export default function Page05011962() {
               Alcançai-nos, ó José, que a nossa vida decorra sã, e que seja
               sempre livre de perigo pelo auxílio do vosso patrocínio. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Fora do Tempo Pascal diz-se:</Text>
 
@@ -108,7 +109,7 @@ export default function Page05011962() {
 
           <Text className="em">Sl. 127, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus quicúmque times Dóminum, qui ámbulas in viis eius.
               <Text className="versicle"> ℣. </Text>
@@ -129,7 +130,7 @@ export default function Page05011962() {
               Alcançai-nos, ó José, que a nossa vida decorra sã, e que seja
               sempre livre de perigo pelo auxílio do vosso patrocínio. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Depois de Septuagésima, omitem-se o Aleluia e o Gradual, e diz-se:
@@ -139,7 +140,7 @@ export default function Page05011962() {
 
           <Text className="em">Sl. 111, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus vir qui timet Dóminum, qui mandátis eius delectátur multum.
               <Text className="versicle"> ℣. </Text>Potens in terra erit semen
@@ -153,13 +154,13 @@ export default function Page05011962() {
               linhagem dos justos será abençoada. Em sua casa existirão haveres
               e riquezas e a sua liberalidade durará sempre.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 13, 54-58</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -189,13 +190,13 @@ export default function Page05011962() {
               sua casa é desprezado o Profeta». E não fez ali muitos milagres,
               por causa da sua incredulidade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 89, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Bonítas Dómini Dei nostri sit super nos, et opus mánuum nostrárum
               secúnda nobis, et opus mánuum nostrárum secúnda. Allelúja.
@@ -205,11 +206,11 @@ export default function Page05011962() {
               trabalho das nossas mãos; sim, Ele abençoe o trabalho das nossas
               mãos, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quas tibi, Dómine, de opéribus mánuum nostrárum offerímus hóstias,
               sancti Joseph interpósito suffrágio, pignus fácias nobis unitátis
@@ -221,13 +222,13 @@ export default function Page05011962() {
               São José, as convertais para nós em penhor de união e de paz. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 13, 54 & 55</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Unde huic sapiéntia hæc et virtútes? Nonne hic est fabri fílius?
               Nonne mater ejus dícitur María? Allelúja.
@@ -236,11 +237,11 @@ export default function Page05011962() {
               Donde vem tal sabedoria e tais prodígios? Porventura, não é Ele o
               Filho do carpinteiro? Sua Mãe se não chama Maria? Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc sancta quæ súmpsimus Dómine: per intercessiónem beáti Joseph;
               et operatiónem nostram cómpleant, et praémia confírment. Per
@@ -251,7 +252,7 @@ export default function Page05011962() {
               intercessão do B. José, o nosso labor e nos assegurem os prémios.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

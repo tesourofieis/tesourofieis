@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0712() {
   return (
@@ -41,7 +42,7 @@ export default function Page0712() {
 
           <Text className="em">Mt. 5, 48-48</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -76,7 +77,7 @@ export default function Page0712() {
               pagãos? Sede, portanto, perfeitos, como o vosso Pai celestial é
               perfeito».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">
             Comemoração dos Santos Mártires Nabor e Félix
@@ -84,7 +85,7 @@ export default function Page0712() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, Dómine: ut, sicut nos sanctórum Martyrum tuórum
               Nabóris et Felícis natalítia celebránda non desérunt; ita júgiter
@@ -96,11 +97,11 @@ export default function Page0712() {
               suplicamos, sejamos sempre socorridos com seus sufrágios. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera plebis tuæ, quǽsumus, Dómine, sanetórum Mártyrum tuórum
               Nabóris et Felícis fiant grata suffrágiis: et, quorum triúmphis
@@ -113,11 +114,11 @@ export default function Page0712() {
               e Félix; e, pelos méritos daqueles em cuja honra são oferecidos ao
               vosso nome, fazei que sejam dignos de Vós. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Natalítiis Sanctórum tuórum, quǽsumus, Dómine: ut, sacraménti
               múnere vegetáti, bonis, quibus per tuam grátiam nunc fovémur,
@@ -129,7 +130,7 @@ export default function Page0712() {
               gozemos na eternidade aqueles bens com que a vossa graça nos
               favoreceu nesta vida. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

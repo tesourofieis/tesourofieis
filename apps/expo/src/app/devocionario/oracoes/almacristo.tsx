@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageAlmacristo() {
   return (
@@ -10,7 +11,7 @@ export default function PageAlmacristo() {
         <View className="docs">
           <Text className="h1">Alma de Cristo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Anima Christi, sanctífica me. Corpus Christi, salve me.
             </Text>
@@ -53,7 +54,7 @@ export default function PageAlmacristo() {
             </Text>
             <Text className="latin">Amen.</Text>
             <Text className="vernacular">Amen.</Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

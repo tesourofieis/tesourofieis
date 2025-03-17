@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageRemissaopecados() {
   return (
@@ -14,7 +15,7 @@ export default function PageRemissaopecados() {
 
           <Text className="em">Sb. 11,24, 25 & 27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Miseréris ómnium, Dómine, et nihil odísti eórum, quæ fecísti:
               dissímulans peccáta hóminum propter pœniténtiam, et parcens illis:
@@ -32,11 +33,11 @@ export default function PageRemissaopecados() {
               de mim, ó Deus, tende misericórdia de mim, porque a minha alma em
               Vós confia.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi, quǽsumus, Dómine, súpplicum preces, et confiténtium tibi
               parce peccátis: ut páriter nobis indulgéntiam tríbuas benígnus et
@@ -48,13 +49,13 @@ export default function PageRemissaopecados() {
               lhes concedais ao mesmo tempo a indulgência e a paz. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Rm. 7, 22-25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
@@ -75,13 +76,13 @@ export default function PageRemissaopecados() {
               corpo de morte? Graças sejam dadas a Deus, por Jesus Cristo, nosso
               Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 78, 9-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Propítius esto, Dómine, peccátis nostris, ne quando dicant gentes:
               Ubi est Deus eórum?<Text className="versicle"> ℣. </Text>ibid., 9
@@ -103,13 +104,13 @@ export default function PageRemissaopecados() {
               <Text className="vernacular">Sl. 7, 12</Text> Deus é juiz justo,
               forte e paciente: porventura irar-se-á todos os dias? Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 129, 1-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               De profúndis clamávi ad te, Dómine: Dómine, exáudi vocem meam.
               <Text className="versicle"> ℣. </Text>
@@ -130,13 +131,13 @@ export default function PageRemissaopecados() {
               perdão: e por causa da vossa lei ousei comparecer ante Vós,
               Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual e o Trato, dizendo-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 7, 12</Text> Deus judex justus, fortis
@@ -154,13 +155,13 @@ export default function PageRemissaopecados() {
               meus ouvidos: e meus ossos humilhados exultarão de contentamento.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 11, 9-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -191,13 +192,13 @@ export default function PageRemissaopecados() {
               vosso Pai celestial dará o Espírito Santo àqueles que lho
               pedirem».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 101, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, exáudi oratiónem meam: et clamor meus ad te pervéniat. (T.
               P. Allelúja.)
@@ -206,11 +207,11 @@ export default function PageRemissaopecados() {
               Ouvi a minha oração, Senhor: e que meu clamor chegue até Vós. (T.
               P. Aleluia).
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, placatiónis et laudis offérimus: ut et
               delícta nostra miserátus absólvas, et nutántia corda tu dírigas.
@@ -221,13 +222,13 @@ export default function PageRemissaopecados() {
               que, misericordioso, nos absolvais dos nossos delitos, e
               amparareis os nossos corações vacilantes. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 11, 9-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Petite, et accipiétis; quǽrite, et inveniétis; pulsáte, et
               aperiétur vobis. Omnis enim, qui pétii, áccipit; et qui quærit,
@@ -239,11 +240,11 @@ export default function PageRemissaopecados() {
               procura, encontra; e todo aquele que bate, abrir-se-lhe-á. (T. P.
               Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta nobis, ætérne Salvátor: ut, percipiéntes hoc múnere véniam
               peccatórum, deínceps peccáta vitémus. Per Dóminum...
@@ -253,7 +254,7 @@ export default function PageRemissaopecados() {
               perdão dos pecados, doravante evitemos os pecados. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

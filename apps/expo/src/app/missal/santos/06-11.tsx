@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0611() {
@@ -20,7 +21,7 @@ export default function Page0611() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos beáti Bárnabæ Apóstoli tui méritis et intercessióne
               lætíficas: concéde propítius; ut, qui tua per eum benefícia
@@ -32,13 +33,13 @@ export default function Page0611() {
               vossos benefícios pela sua intercessão, os obtenhamos por efeito
               da vossa graça. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act. 11, 21-26; 13, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolórum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -79,13 +80,13 @@ export default function Page0611() {
               «Separai Saulo e Barnabé para a obra a que os destinei». E, então,
               tendo jejuado e orado, impuseram-lhes as mãos e enviaram-nos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 18, 5 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In omnem terram exívit sonus eórum: et in fines orbis terræ verba
               eórum.<Text className="versicle"> ℣. </Text>Cœli enárrant glóriam
@@ -109,7 +110,7 @@ export default function Page0611() {
               que possais ir e alcançar fruto; e para que esse vosso fruto
               permaneça. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -122,7 +123,7 @@ export default function Page0611() {
 
           <Text className="em">Sl. 44, 17-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Constítues eos príncipes super omnem terram: mémores erunt nóminis
               tui, Dómine, in omni progénie et generatióne.
@@ -131,11 +132,11 @@ export default function Page0611() {
               Vós os constituireis príncipes em toda a terra: e perpetuarão o
               vosso nome, Senhor, de geração em geração.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera, Dómine, obláta sanctífica, et, intercedénte beáto Bárnaba
               Apostolo tuo, nos per hæc a peccatórum nostrórum máculis emúnda.
@@ -147,13 +148,13 @@ export default function Page0611() {
               purifiquem das manchas dos nossos pecados. Por nosso Senhor Jesus
               Cristo...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 19, 28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vos, qui secúti estis me, sedébitis super sedes, judicántes
               duódecim tribus Israël.
@@ -162,11 +163,11 @@ export default function Page0611() {
               Vós, que me seguistes, vos assentareis sobre tronos e julgareis as
               dozes tribos de Israel.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis
               sacraméntis, intercedénte beáto Bárnaba Apóstolo tuo, tibi étiam
@@ -178,7 +179,7 @@ export default function Page0611() {
               com vossos sacramentos a graça de Vos servirem dignamente com
               acções que Vos sejam agradáveis. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

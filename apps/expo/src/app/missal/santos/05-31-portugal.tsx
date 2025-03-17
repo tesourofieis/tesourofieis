@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0531Portugal() {
@@ -14,7 +15,7 @@ export default function Page0531Portugal() {
           </Text>
           <Text className="h3">Intróito</Text>
           <Text className="em">Heb. 4, 16</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adeámus cum fidúcia ad thronum grátiæ, ut misericórdam
               consequámur, et grátiam inveniámus in auxílio opportúno. (T. P.
@@ -30,9 +31,9 @@ export default function Page0531Portugal() {
               olhos para os montes donde me veio o auxílio.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine Jesu Christe, noster apud Patrem mediátor, qui beatíssimam
               Vírginem matrem tuam, matrem quoque nostram, et apud te
@@ -49,10 +50,10 @@ export default function Page0531Portugal() {
               alegrem, alcançando-os todos por Maria. Ó Vós, que viveis e
               reinais...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Epístola</Text>
           <Text className="em">Is. 55, 1-3 & 5</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -81,8 +82,8 @@ export default function Page0531Portugal() {
             <Text className="latin">
               <Text className="latin">Is. 60, 4</Text>
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Leva in
               circúitu óculus tuos, et vide: omes isti congregáti sunt, venérunt
@@ -95,7 +96,7 @@ export default function Page0531Portugal() {
               vós, aleluia.<Text className="versicle"> ℣. </Text>Os teus filhos
               virão de longe e as tuas filhas surgirão dos lados. Aleluia.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Evangelho</Text>
           <LinkCard
             href="/missal/santos/09-05#evangelho"
@@ -103,7 +104,7 @@ export default function Page0531Portugal() {
           />
           <Text className="h3">Ofertório</Text>
           <Text className="em">Jr. 18, 20</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Recordáre, Virgo, Mater Dei, dum stéteris in conspéctu Dómini, ut
               loquáris pro nobis bona, et ut avértat indignatiónem suam a nobis.
@@ -113,7 +114,7 @@ export default function Page0531Portugal() {
               lembrai-Vos de nós; intercedei em nosso favor junto d’Ele e
               afastai de nós a sua indignação.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Secreta</Text>
           <Text className="text-base">
             Vos suplicamos, Senhor, que pelas preces da nossa Mediadora a
@@ -121,7 +122,7 @@ export default function Page0531Portugal() {
             eterno a Vós oferecido. Ó Vós, que viveis e reinais...
           </Text>
           <Text className="h3">Comúnio</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Valde mirábilis es, o Maria, et fácies tua plena est gratiárum.
               Allelúja.
@@ -130,9 +131,9 @@ export default function Page0531Portugal() {
               Sois verdadeiramente admirável, ó Maria! O vosso rosto irradia
               graças. Aleluia.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Postcomúnio</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Subvéniat nobis, Dómine, beátæ Mariæ Matris tuæ ac nostræ
               Mediatrícis orátio: ut per hæc sacrosáncta commércia, tua grátia
@@ -145,7 +146,7 @@ export default function Page0531Portugal() {
               vítima alcancemos, mediante a Vossa graça, a plenitude da redenção
               eterna. Ó Vós, que...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageAdv30() {
   return (
@@ -14,7 +15,7 @@ export default function PageAdv30() {
 
           <Text className="em">Fl. 4, 4–6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gaudéte in Dómino semper: íterum dico, gaudéte. Modéstia vestra
               nota sit ómnibus homínibus: Dóminus enim prope est. Nihil
@@ -32,11 +33,11 @@ export default function PageAdv30() {
               Abençoastes, Senhor, a vossa terra: e livrastes Jacob do
               cativeiro.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Aurem tuam, quǽsumus, Dómine, précibus nostris accómmoda: et
               mentis nostræ ténebras, grátia tuæ visitatiónis illústra: Qui
@@ -47,13 +48,13 @@ export default function PageAdv30() {
               vossa visita, esclarecei as trevas da nossa alma: Vós, que, sendo
               Deus, viveis e...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Fl. 4, 4–7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beati Pauli Apóstoli ad Philippénses.
             </Text>
@@ -76,13 +77,13 @@ export default function PageAdv30() {
               Deus, que ultrapassa toda nossa inteligência, guardará os vossos
               corações e inteligências em Jesus Cristo, nosso Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 79, 2, 3 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui sedes, Dómine, super Chérubim, éxcita poténtiam tuam, et veni.
               <Text className="versicle"> ℣. </Text>Qui regis Israël, inténde:
@@ -102,13 +103,13 @@ export default function PageAdv30() {
               Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Mostrai,
               Senhor, o vosso poder, e vinde, para que sejamos salvos. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 1, 19–28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -152,13 +153,13 @@ export default function PageAdv30() {
               desatar as correias das sandálias». Isto aconteceu em Betânia,
               além-Jordão, onde João baptizava.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 84, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob:
               remisísti iniquitatem plebis tuæ.
@@ -167,11 +168,11 @@ export default function PageAdv30() {
               Abençoastes Senhor, a vossa terra; e livrastes Jacob do cativeiro:
               perdoastes a iniquidade do vosso povo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Devotiónis nostræ tibi, quǽsumus, Dómine, hóstia iúgiter
               immolétur: quæ et sacri péragat institúta mystérii, et salutáre
@@ -184,13 +185,13 @@ export default function PageAdv30() {
               produzindo em nós de uma maneira admirável a salvação que
               esperamos da vossa bondade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Is. 35, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dícite: pusillánimes, confortámini et nolíte timére: ecce, Deus
               noster véniet et salvábit nos.
@@ -199,11 +200,11 @@ export default function PageAdv30() {
               Dizei:«Pusilânimes, confortai-vos e nada receeis: Eis que vem o
               nosso Deus e nos salvará».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Implorámus, Dómine, cleméntiam tuam: ut hæc divína subsídia, a
               vítiis expiátos, ad festa ventúra nos præparent. Per Dominum
@@ -214,7 +215,7 @@ export default function PageAdv30() {
               mystérios, purificando-nos dos nossos vícios, nos Preparem para a
               solenidade que se aproxima. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

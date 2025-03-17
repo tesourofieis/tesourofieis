@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad34() {
   return (
@@ -12,7 +13,7 @@ export default function PageQuad34() {
 
           <Text className="h3">Intróito</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salus pópuli ego sum, dicit Dóminus: de quacúmque tribulatióne
               clamáverint ad me, exáudiam eos: et ero illórum Dóminus in
@@ -27,11 +28,11 @@ export default function PageQuad34() {
               a minha lei: inclinai os vossos ouvidos às palavras que pronuncio.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Magníficet te, Dómine, sanctórum tuórum Cosmæ et Damiáni beáta
               sollémnitas: qua et illis glóriam sempitérnam, et opem nobis
@@ -43,13 +44,13 @@ export default function PageQuad34() {
               àqueles a felicidade eterna e a nós o socorro da vossa inefável
               providência. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Jr. 7, l 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Jeremíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Jeremias.</Text>
             <Text className="latin">
@@ -84,13 +85,13 @@ export default function PageQuad34() {
               habitarei convosco em todos os séculos dos séculos, neste lugar e
               nesta terra, que dei a vossos pais»: diz o Senhor omnipotente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 144, 15-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oculi ómnium in te sperant, Dómine: et tu das illis escam in
               témpore opportúno.<Text className="versicle"> ℣. </Text>Aperis tu
@@ -102,13 +103,13 @@ export default function PageQuad34() {
               <Text className="versicle"> ℣. </Text>Abris a vossa mão e encheis
               de bênçãos todos os viventes.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 4, 38-44</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -149,13 +150,13 @@ export default function PageQuad34() {
               também anuncie o reino de Deus às outras cidades, porque para isso
               fui mandado». E pregava nas sinagogas da Galileia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 137, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Si ambulávero in médio tribulatiónis, vivificábis me, Dómine: et
               super iram inimicórum meorum exténdes manum tuam, et salvum me
@@ -166,11 +167,11 @@ export default function PageQuad34() {
               Senhor: estendereis a vossa mão contra a ira dos meus inimigos: e
               a vossa dextra me salvará.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In tuorum, Dómine, pretiósa morte justórum sacrifícium illud
               offérimus, de quo martýrium sumpsit omne princípium. Per
@@ -181,13 +182,13 @@ export default function PageQuad34() {
               oferecemos este sacrifício, que foi o verdadeiro princípio do seu
               martírio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 118, 4-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tu mandásti, mandáta tua custodíri nimis: útinam dirigántur viæ
               meæ, ad custodiéndas justificatiónes tuas.
@@ -197,11 +198,11 @@ export default function PageQuad34() {
               exactidão; oxalá que meus passos se não afastem do cumprimento das
               vossas leis.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sit nobis, Dómine, sacraménti tui certa salvátio: quæ cum beatórum
               Mártyrum tuórum Cosmæ et Damiáni méritis implorátur. Per
@@ -212,11 +213,11 @@ export default function PageQuad34() {
               assegurar a salvação, que imploramos pelos merecimentos dos vossos
               santos Mártires Cosme e Damião. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -236,7 +237,7 @@ export default function PageQuad34() {
               digne aumentar o povo que Vos é submisso; e o torne sempre
               cumpridor dos vossos mandamentos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

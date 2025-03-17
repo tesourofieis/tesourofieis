@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageEvitarmortandade() {
   return (
@@ -14,7 +15,7 @@ export default function PageEvitarmortandade() {
 
           <Text className="em">2 Rs. 24, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Recordáre, Dómine, testaménti tui, et dic Angelo percutiénti:
               Cesset jam manus tua, et non desolétur terra, et ne perdas omnem
@@ -31,11 +32,11 @@ export default function PageEvitarmortandade() {
               Ouvi, ó vós que governais Israel; ó vós que conduzis José, como
               uma ovelha.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui non mortem, sed pœniténtiam desideras peccatórum:
               pópulum tuum ad te reverténtem propítius réspice; ut, dum tibi
@@ -48,13 +49,13 @@ export default function PageEvitarmortandade() {
               a Vós, de modo que, agora que ele se mostra fiel, o afasteis com
               clemência dos flagelos da vossa ira. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Rs. 24, 15-19 & 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Regum.</Text>
             <Text className="vernacular">Lição do Livro dos Reis.</Text>
             <Text className="latin">
@@ -92,13 +93,13 @@ export default function PageEvitarmortandade() {
               tornou propício à terra e curou a chaga com que havia ferido
               Israel.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 106, 20-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Misit Dóminus verbum suum, et sanávit eos: et erípuit eos de morte
               eórum.<Text className="versicle"> ℣. </Text>Confiteántur Dómino
@@ -120,7 +121,7 @@ export default function PageEvitarmortandade() {
               <Text className="vernacular">Sl. 68, 2</Text> Salvai-me, ó Deus,
               pois as águas (do mal) inundaram a minha alma, Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
@@ -130,7 +131,7 @@ export default function PageEvitarmortandade() {
 
           <Text className="em">Sl. 102, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque
               secúndum iniquitátes nostras retríbuas nobis.
@@ -152,13 +153,13 @@ export default function PageEvitarmortandade() {
               Salvador. Para glória do vosso nome, livrai-nos, Senhor! Por cansa
               do vosso nome, perdoai os nossos pecados, Senhor!
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 68, 2</Text> Salvum me fac, Deus,
@@ -177,13 +178,13 @@ export default function PageEvitarmortandade() {
               meu povo de Israel: e serei o seu Deus com verdade e justiça.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 4, 38-44</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -225,13 +226,13 @@ export default function PageEvitarmortandade() {
               Deus, pois para isso é que fui enviado». E Jesus andava pregando
               nas sinagogas da Galileia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Nm. 16, 48</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Stetit póntifex inter mórtuos et vivos, habens thuríbulum áureum
               in manu sua: et ófferens incénsi sacrifícium, placávit iram Dei,
@@ -243,11 +244,11 @@ export default function PageEvitarmortandade() {
               a cólera divina. Então o Senhor cessou de os castigar. (T. P.
               Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Subvéniat nobis, quǽsumus, Dómine, sacrifícii præséntis oblátio:
               quæ nos et ab erróribus univérsis poténter absolvat, et a totíus
@@ -258,13 +259,13 @@ export default function PageEvitarmortandade() {
               suplicamos, Senhor; e dignai-Vos perdoar-nos todos nossos erros e
               livrar-nos dos males que nos cercam. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 6, 17, 18 & 19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Multitúdo languéntium, et qui vexabántur a spirítibus immúndis,
               veniébant ad eum: quia virtus de illo exíbat, et sanábat omnes.
@@ -275,11 +276,11 @@ export default function PageEvitarmortandade() {
               espíritos imundos vinha ter com Ele; pois saía de Jesus um poder
               que os curava a todos. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi nos, Deus, salutáris noster: et pópulum tuum ab iracúndiæ
               tuæ terróribus líberum, et misericórdiæ tuæ fac largitáte secúrum.
@@ -290,7 +291,7 @@ export default function PageEvitarmortandade() {
               vosso povo seja livre de todos os flagelos da vossa ira; e pela
               vossa misericórdia seja restituído à paz e segurança. Por...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageAdorote() {
   return (
@@ -10,7 +11,7 @@ export default function PageAdorote() {
         <View className="docs">
           <Text className="h1">Adóro te devóte</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adóro te devóte, latens Déitas, Quae sub his figúris vere látitas:
               Tibi se cor meum totum súbiicit, Quia te contémplans totum
@@ -79,7 +80,7 @@ export default function PageAdorote() {
               concedei-me o que Vos suplico ardentemente: que, contemplando-Vos
               face a face, a visão da vossa glória me encha de felicidade. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

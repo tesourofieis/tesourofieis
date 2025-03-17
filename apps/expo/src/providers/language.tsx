@@ -14,6 +14,7 @@ export function LanguageProvider({ children }) {
     setLanguage((prevMode) => {
       if (prevMode === "latin") return "vernacular";
       if (prevMode === "vernacular") return "latin";
+      return "vernacular";
     });
   };
 

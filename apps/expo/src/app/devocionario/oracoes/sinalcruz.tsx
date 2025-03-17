@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageSinalCruz() {
   return (
@@ -9,7 +10,7 @@ export default function PageSinalCruz() {
       <ScrollView>
         <View className="docs">
           <Text className="h2">Sinal da Cruz</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> In nómine Patris, et Fílii, et
               Spíritus Sancti.
@@ -24,7 +25,7 @@ export default function PageSinalCruz() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

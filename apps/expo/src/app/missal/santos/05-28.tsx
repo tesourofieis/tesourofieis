@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0528() {
@@ -28,7 +29,7 @@ export default function Page0528() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui Anglórum gentes, prædicatióne et miráculis beáti
               Augustíni Confessóris tui atque Pontíficis, veræ fídei luce
@@ -44,13 +45,13 @@ export default function Page0528() {
               vossa fé, e sejamos concordes com vossa vontade. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Ts. 2, 2-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.
             </Text>
@@ -91,7 +92,7 @@ export default function Page0528() {
               porquanto trabalhámos dia e noite, a fim de não sermos onerosos a
               nenhum de vós, a quem pregamos o Evangelho de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -102,7 +103,7 @@ export default function Page0528() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifícium tibi offérimus. Dómine, in sollemnitáte beáti
               Augustíni Pontíficis et Confessóris tui, humíliter deprecántes: ut
@@ -116,11 +117,11 @@ export default function Page0528() {
               aprisco, se sustentem com este salutar alimento. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstia salutári refécti: te. Dómine, súpplices exorámus; ut eadem,
               beáti Augustíni interveniénte suffrágio, in omni loco nómini tuo
@@ -132,7 +133,7 @@ export default function Page0528() {
               imolada em honra do vosso nome em todos os lugares e
               constantemente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc72() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc72() {
 
           <Text className="em">4 Esd. 2, 36 & 37</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accípite jucunditátem glóriæ vestræ, allelúja: grátias agéntes
               Deo, allelúja: qui vos ad cœléstia regna vocávit, allelúja,
@@ -31,11 +32,11 @@ export default function PagePasc72() {
               minha boca.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adsit nobis, quǽsumus, Dómine, virtus Spíritus Sancti: quæ et
               corda nostra cleménter expúrget, et ab ómnibus tueátur advérsis.
@@ -46,13 +47,13 @@ export default function PagePasc72() {
               assista; e que pela sua clemência purifique os nossos corações e
               nos defenda de todas as adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act. 8, 14-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolórum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -72,9 +73,9 @@ export default function PagePasc72() {
               Senhor Jesus. Então impuseram-lhes as mãos, recebendo o Espírito
               Santo.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Joann. 14, 26</Text> Spíritus Sanctus
@@ -92,13 +93,13 @@ export default function PagePasc72() {
               enchei os corações dos vossos fiéis e acendei neles o fogo do
               vosso amor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 10, 1-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -142,13 +143,13 @@ export default function PagePasc72() {
               vem senão para devorar, roubar e destruir. Eu, porém, venho para
               que minhas ovelhas possuam a vida, e a possuam com abundância».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 77, 23-25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Portas cœli aperuit Dóminus: et pluit illis manna, ut éderent:
               panem cœli dedit eis, panem Angelórum manducávit homo, allelúja.
@@ -158,11 +159,11 @@ export default function PagePasc72() {
               comessem: e deu-lhes o pão do céu. O homem comeu o pão dos Anjos,
               aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Puríficet nos, quǽsumus. Dómine, múneris præséntis oblátio: et
               dignos sacra participatióne effíciat. Per Dóminum nostrum...
@@ -172,13 +173,13 @@ export default function PagePasc72() {
               purifique e nos torne dignos de participarmos deste mystério
               sagrado. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 15, 26; 16, 14; 17, 1 & 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Spíritus qui a Patre procédit, allelúja: ille me clarificábit,
               allelúja, allelúja.
@@ -187,11 +188,11 @@ export default function PagePasc72() {
               O Espírito, que procede do Pai, aleluia, glorificar-me-á, aleluia,
               aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mentes nostras, quǽsumus, Dómine, Spíritus Sanctus divínis réparet
               sacraméntis: quia ipse est remíssio ómnium peccatórum. Per
@@ -202,7 +203,7 @@ export default function PagePasc72() {
               estes divinos sacramentos as nossas almas, pois Ele é a remissão
               de todos os pecados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0918() {
@@ -15,7 +16,7 @@ export default function Page0918() {
 
           <Text className="em">Ecl. 1, 14-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Diléctio Dei honorábilis sapiéntia: quibus autem apparúerit in
               visu, díligunt eam in visióne et in agnitióne magnálium suórum.{" "}
@@ -31,11 +32,11 @@ export default function Page0918() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui ad unigénitum Fílium tuum exaltátum a terra ómnia
               tráhere disposuísti: pérfice propítius; ut, méritis et exémplo
@@ -49,13 +50,13 @@ export default function Page0918() {
               elevando-nos acima de todos os desejos terrenos, consigamos chegar
               até Àquele: Que convosco vive...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Cor. 13, 1-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -94,13 +95,13 @@ export default function Page0918() {
               nunca perecerá, ainda que já não houvesse mais profecias, ainda
               que as línguas acabassem, ainda que a ciência desaparecesse.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 20, 4-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in
               cápite ejus corónam de lápide pretióso.
@@ -126,7 +127,7 @@ export default function Page0918() {
               benignamente para ele e ergueu-o da sua humilhação; e ele elevou a
               cabeça. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -139,7 +140,7 @@ export default function Page0918() {
 
           <Text className="em">Sl. 34, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ego autem, cum mihi molésti essent, induébar cilício. Humiliábam
               in jejúnio ánimam meam: et orátio mea in sinu meo convertétur.
@@ -149,11 +150,11 @@ export default function Page0918() {
               cilício; humilhava a minha alma com o jejum; e a minha oração
               repousava no meu peito.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne
               Sanctórum: quibus nos et præséntibus éxui malis confídimus et
@@ -164,13 +165,13 @@ export default function Page0918() {
               vossos Santos, para que por meio dele nos livremos dos males
               presentes e futuros. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 68, 30-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ego sum pauper et dolens: salus tua, Deus, suscépit me. Laudábo
               nomen Dei cum cantico: et magnificábo eum in laude.
@@ -180,11 +181,11 @@ export default function Page0918() {
               Louvarei o nome de Deus com cânticos e glorificá-l’O-ei com
               louvores.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus:
               ut, in cujus hæc commemoratióne percépimus, ejus muniámur et
@@ -196,7 +197,7 @@ export default function Page0918() {
               e as preces daquele em cuja memória os recebemos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

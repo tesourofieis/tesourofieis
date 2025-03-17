@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageQuad35() {
@@ -15,7 +16,7 @@ export default function PageQuad35() {
 
           <Text className="em">Sl. 85, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fac mecum, Dómine, signum in bonum: ut vídeant, qui me oderunt, et
               confundántur: quóniam tu, Dómine, adjuvísti me et consolátus es
@@ -31,11 +32,11 @@ export default function PageQuad35() {
               os vossos ouvidos para mim e escutai-me; porque sou pobre e
               infeliz.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jejúnia nostra, quǽsumus, Dómine, benígno favóre proséquere: ut,
               sicut ab aliméntis abstinémus in córpore; ita a vítiis jejunémus
@@ -46,13 +47,13 @@ export default function PageQuad35() {
               de que, assim como o nosso corpo se abstém das carnes, assim a
               nossa alma se abstenha dos nossos vícios. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Nm. 20, 1, 3 et 6-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Numeri.</Text>
             <Text className="vernacular">Lição do Livro dos Números.</Text>
             <Text className="latin">
@@ -103,13 +104,13 @@ export default function PageQuad35() {
               murmuraram contra o Senhor, e quando o Senhor manifestou a sua
               santidade diante deles».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 27, 7 & 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In Deo sperávit cor meum, et adjútus sum: et reflóruit caro mea,
               et ex voluntáte mea confitébor illi.
@@ -122,7 +123,7 @@ export default function PageQuad35() {
               Senhor.<Text className="versicle"> ℣. </Text>A Vós, Senhor,
               clamei: meu Deus, não fecheis os ouvidos, nem Vos afasteis de mim.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
@@ -135,7 +136,7 @@ export default function PageQuad35() {
 
           <Text className="em">Jo. 4, 5-42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -270,13 +271,13 @@ export default function PageQuad35() {
               ouvimos; e sabemos que este é verdadeiramente o Salvador do
               mundo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 5, 3-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Inténde voci oratiónis meæ, Rex meus, et Deus meus: quóniam ad te
               orábo, Dómine.
@@ -285,11 +286,11 @@ export default function PageQuad35() {
               Sede atento à voz da minha oração, ó meu Rei e meu Deus; pois a
               Vós, Senhor, orarei.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réspice, quǽsumus, Dómine, propítius ad múnera, quæ sacrámus: ut
               tibi grata sint, et nobis salutária semper exsístant. Per Dóminum
@@ -300,13 +301,13 @@ export default function PageQuad35() {
               consagramos, a fim de que Vos sejam agradáveis, e a nós sejam
               sempre salutares. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 4, 13 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui bíberit aquam, quam ego dabo ei, dicit Dóminus, fiet in eo
               fons aquæ saliéntis in vitam ætérnam.
@@ -315,11 +316,11 @@ export default function PageQuad35() {
               Aquele que beber da água que Eu lhe der, diz o Senhor, terá em si
               uma fonte de água impetuosa para a vida eterna.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hujus nos, Dómine, percéptio sacraménti mundet a crimine: et ad
               cœléstia regna perdúcat. Per Dóminum...
@@ -328,11 +329,11 @@ export default function PageQuad35() {
               Que a recepção deste Sacramento, Senhor, nos limpe dos nossos
               crimes e nos guie até ao reino celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -353,7 +354,7 @@ export default function PageQuad35() {
               confiança que em Vós depositamos, a fim de que com vosso socorro
               possamos vencer todas as adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageSumopontifice() {
   return (
@@ -10,7 +11,7 @@ export default function PageSumopontifice() {
         <View className="docs">
           <Text className="h1">Pro Summo Pontifice</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Orémus pro Pontífice nostro
               N.
@@ -57,7 +58,7 @@ export default function PageSumopontifice() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text>Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

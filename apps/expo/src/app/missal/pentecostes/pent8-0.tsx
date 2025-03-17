@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent80() {
   return (
@@ -14,7 +15,7 @@ export default function PagePent80() {
 
           <Text className="em">Sl. 47, 10-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Suscépimus, Deus, misericórdiam tuam in médio templi tui: secúndum
               nomen tuum, Deus, ita et laus tua in fines terræ: justítia plena
@@ -31,11 +32,11 @@ export default function PagePent80() {
               e digno de todos os louvores, tanto na cidade de Deus, como no seu
               monte santo.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Largíre nobis, quǽsumus, Dómine, semper spíritum cogitándi quæ
               recta sunt, propítius et agéndi: ut, qui sine te esse non
@@ -47,13 +48,13 @@ export default function PagePent80() {
               nós existir sem Vós, conformemos sempre a nossa vida com vossa
               vontade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Rm. 8, 12-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
@@ -82,13 +83,13 @@ export default function PagePent80() {
               pois, somos filhos de Deus, somos também herdeiros: herdeiros
               verdadeiros de Deus e co-herdeiros de Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 30, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Esto mihi in Deum protectórem, et in locum refúgii, ut salvum me
               fácias.<Text className="versicle"> ℣. </Text>
@@ -113,13 +114,13 @@ export default function PagePent80() {
               digno de todos os louvores, tanto na cidade de Deus, como no seu
               monte santo. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 16, 1-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -169,13 +170,13 @@ export default function PagePent80() {
               riquezas da iniquidade, a fim de que, quando vos encontrardes com
               necessidade, vos recebam nas suas moradas eternas».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 17, 28 & 32</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pópulum húmilem salvum fácies, Dómine, et óculos superbórum
               humiliábis: quóniam quis Deus præter te, Dómine?
@@ -184,11 +185,11 @@ export default function PagePent80() {
               Salvareis, Senhor, o povo humilde, e humilhareis os soberbos, pois
               quem é Deus senão Vós, Senhor?
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, quǽsumus, Dómine, múnera, quæ tibi de tua largitáte
               deférimus: ut hæc sacrosáncta mystéria, grátiæ tuæ operánte
@@ -202,13 +203,13 @@ export default function PagePent80() {
               presente e nos conduzam à posse das alegrias eternas. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 33, 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gustáte et vidéte, quóniam suávis est Dóminus: beátus vir, qui
               sperat in eo.
@@ -217,11 +218,11 @@ export default function PagePent80() {
               Provai e vede como o Senhor é suave: Bem-aventurado o varão que
               confia n’Ele.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sit nobis, Dómine, reparátio mentis et córporis cæléste mystérium:
               ut, cujus exséquimur cultum, sentiámus efféctum. Per Dóminum...
@@ -231,7 +232,7 @@ export default function PagePent80() {
               nosso corpo» a fim de que sintamos os efeitos do sacramento que
               honrámos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0930() {
   return (
@@ -24,7 +25,7 @@ export default function Page0930() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui Ecclésiæ tuæ in exponéndis sacris Scriptúris beátum
               Hierónymum, Confessórem tuum, Doctórem máximum providére dignátus
@@ -40,11 +41,11 @@ export default function Page0930() {
               praticar aquilo que ele ensinou, tanto pelas palavras, como pelas
               acções. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Donis cœléstibus da nobis, quǽsumus, Dómine, líbera tibi mente
               servíre: ut múnera, quæ deférimus, interveniénte beáto Hierónymo
@@ -58,11 +59,11 @@ export default function Page0930() {
               Confessor Jerónimo, a cura dos nossos males e a glória eterna. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Repleti alimónia cœlésti, quǽsumus, Dómine: ut, interveniénte
               beáto Hierónymo Confessóre tuo, misericórdiæ tuæ grátiam cónsequi
@@ -73,7 +74,7 @@ export default function Page0930() {
               que pela intercessão do vosso B. Confessor Jerónimo mereçamos
               conseguir a graça da vossa misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

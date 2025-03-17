@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc30() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc30() {
 
           <Text className="em">Sl. 65, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jubiláte Deo, omnis terra, allelúja: psalmum dícite nómini ejus,
               allelúja: date glóriam laudi ejus, allelúja, allelúja, allelúja.{" "}
@@ -32,11 +33,11 @@ export default function PagePasc30() {
               vosso poder, que sois glorificado até pelos vossos inimigos!».
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui errántibus, ut in viam possint redíre justítiæ,
               veritátis tuæ lumen osténdis: da cunctis, qui christiána
@@ -50,13 +51,13 @@ export default function PagePasc30() {
               contrário ao nome cristão e sigam o que lhe é conforme. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Pe. 2, 11-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
             <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
             <Text className="latin">
@@ -94,9 +95,9 @@ export default function PagePasc30() {
               rigorosos; porquanto isto agrada a Deus, em nosso Senhor Jesus
               Cristo.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 110, 9</Text> Redemptiónem misit
@@ -112,13 +113,13 @@ export default function PagePasc30() {
               sofresse, para que depois ressuscitasse dos mortos e entrasse
               assim na glória, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 16, 16-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -165,13 +166,13 @@ export default function PagePasc30() {
               vós, agora, estais tristes; mas outra vez vos verei e o vosso
               coração estará cheio de gozo; e ninguém vos tirará a alegria».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 145, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lauda, anima mea, Dóminum: laudábo Dóminum in vita mea: psallam
               Deo meo, quámdiu ero, allelúja.
@@ -180,11 +181,11 @@ export default function PagePasc30() {
               Louvai o Senhor, ó minha alma. Louvarei o Senhor durante toda a
               vida: cantarei hinos ao meu Deus, enquanto viver, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               His nobis, Dómine, mystériis conferátur, quo, terréna desidéria
               mitigántes, discámus amáre cœléstia. Per Dóminum nostrum...
@@ -194,13 +195,13 @@ export default function PagePasc30() {
               desejos terrenos e ensinai-nos a amar as coisas celestiais. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 16, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Módicum, et non vidébitis me, allelúja: íterum módicum, et
               vidébitis me, quia vado ad Patrem, allelúja, allelúja.
@@ -210,11 +211,11 @@ export default function PagePasc30() {
               pouco de tempo e me tornareis a ver, porque vou para meu Pai,
               aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacramenta quæ súmpsimus, quǽsumus, Dómine: et spirituálibus nos
               instáurent aliméntis, et corporálibus tueántur auxíliis. Per
@@ -225,7 +226,7 @@ export default function PagePasc30() {
               nos restaurem, tornando-se em alimento para as nossas almas e em
               auxílio para os nossos corpos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

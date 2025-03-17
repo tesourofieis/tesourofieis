@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageConversaoinfieis() {
   return (
@@ -12,7 +13,7 @@ export default function PageConversaoinfieis() {
             Para a conversão dos infiéis, São Francisco Xavier
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ætérne rerum omnium effector Deus, memento abs te animas
               infidelium procreatas, easque ad imaginem et similitúdinem tuam
@@ -40,7 +41,7 @@ export default function PageConversaoinfieis() {
               ressurreição nossa, por quem fomos salvos e livres, ao qual seja
               dada glória por infinitos séculos. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

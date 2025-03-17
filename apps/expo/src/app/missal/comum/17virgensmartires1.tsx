@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page17Virgensmartires1() {
   return (
@@ -14,7 +15,7 @@ export default function Page17Virgensmartires1() {
 
           <Text className="em">Sl. 118, 46-47</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Loquébar de testimóniis tuis in conspéctu regum, et non
               confundébar: et meditábar in mandátis tuis, quæ diléxi nimis. (T.
@@ -31,11 +32,11 @@ export default function Page17Virgensmartires1() {
               aqueles que são imaculados nos seus caminhos e cumprem a Lei do
               Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui inter cétera poténtiæ tuæ mirácula étiam in sexu frágili
               victóriam martýrii contulísti: concéde propítius; ut, qui beátæ{" "}
@@ -50,13 +51,13 @@ export default function Page17Virgensmartires1() {
               <Text className="vernacular">N.</Text>, caminhemos para Vós,
               imitando os seus exemplos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ecl. 51, 1-8 et 12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -91,13 +92,13 @@ export default function Page17Virgensmartires1() {
               perigos aqueles que confiam em Vós, salvando-os do poder dos
               inimigos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dilexísti justítiam, et odísti iniquitátem.
               <Text className="versicle"> ℣. </Text>Proptérea unxit te Deus,
@@ -120,7 +121,7 @@ export default function Page17Virgensmartires1() {
               apresentadas virgens ao Rei após ela: as suas companheiras serão
               introduzidas no meio da alegria. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -128,7 +129,7 @@ export default function Page17Virgensmartires1() {
 
           <Text className="h3">Trato</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veni, Sponsa Christi, áccipe corónam, quam tibi Dóminus præparávit
               in ætérnum: pro cujus amóre sánguinem tuum fudísti.
@@ -151,13 +152,13 @@ export default function Page17Virgensmartires1() {
               companheiras.<Text className="versicle"> ℣. </Text>Caminhai, pois,
               com beleza e com majestade; ide gozar a vitória e reinai.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 44, 15 & 16</Text> Adducántur Regi
@@ -175,13 +176,13 @@ export default function Page17Virgensmartires1() {
               <Text className="em">ibid., 5</Text> Caminhai, pois, com beleza e
               com majestade; ide gozar a vitória e reinai. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 25, 1-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -230,13 +231,13 @@ export default function Page17Virgensmartires1() {
               Ele respondeu: «Na verdade vos digo: não vos conheço. Vigiai,
               pois, visto que não sabeis nem o dia nem a hora».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 44, 15 & 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Afferéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in
               lætítia et exsultatióne: adducántur in templum Regi Dómino. (T. P.
@@ -247,11 +248,11 @@ export default function Page17Virgensmartires1() {
               serão introduzidas no meio da alegria e do júbilo; elas serão
               conduzidas ao templo do Rei, seu Senhor. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, múnera, quæ in beátæ{" "}
               <Text className="latin">N.</Text> Vírginis et Mártyris tuæ
@@ -264,13 +265,13 @@ export default function Page17Virgensmartires1() {
               vossa Mártir, com o patrocínio da qual esperamos ser livres. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 118, 78 & 80</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Confundántur supérbi, quia injúste iniquitátem fecérunt in me: ego
               autem in mandátis tuis exercébor, in tuis justificatiónibus, ut
@@ -281,11 +282,11 @@ export default function Page17Virgensmartires1() {
               contra mim. Para não ser confundido no último dia, cumprirei os
               vossos mandamentos e preceitos. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Auxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáta{" "}
               <Text className="latin">N.</Text> Vírgine et Mártyre tua,
@@ -297,7 +298,7 @@ export default function Page17Virgensmartires1() {
               <Text className="vernacular">N.</Text>, vossa Mártir, nos façam
               gozar continuamente a sua protecção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

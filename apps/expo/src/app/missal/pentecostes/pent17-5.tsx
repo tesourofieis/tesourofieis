@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent175() {
   return (
@@ -14,7 +15,7 @@ export default function PagePent175() {
 
           <Text className="em">Sl 104:3-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lætétur cor quæréntium Dóminum: quǽrite Dóminum, et confirmámini:
               quǽrite fáciem ejus semper.{" "}
@@ -29,11 +30,11 @@ export default function PagePent175() {
               Senhor e invocai o seu nome: anunciai aos povos as suas obras.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, observatiónes sacras ánnua
               devotióne recoléntes, et córpore tibi placeámus et mente. Per
@@ -45,13 +46,13 @@ export default function PagePent175() {
               possamos agradar tanto com o nosso corpo, como com a nossa alma.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Os 14:2-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Osee Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Oseas.</Text>
             <Text className="latin">
@@ -97,13 +98,13 @@ export default function PagePent175() {
               as não penetra? Pois os caminhos do Senhor são direitos: os justos
               andarão neles, mas os rebeldes cairão».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl 89:13, 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Convértere, Dómine, aliquántulum, et deprecáre super servos tuos.
               <Text className="versicle"> ℣. </Text>Dómine, refúgium factus es
@@ -114,13 +115,13 @@ export default function PagePent175() {
               aos Vossos servos.<Text className="versicle"> ℣. </Text>Senhor,
               tendes sido de geração em geração o nosso refúgio.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc 7:36-50</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -187,13 +188,13 @@ export default function PagePent175() {
               perdoa pecados?» E Jesus disse à mulher: «A tua fé te salvou, vai
               em paz».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl 102:2, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Bénedic, ánima mea, Dómino, et noli oblivísci omnes retributiónes
               ejus: et renovábitur, sicut áquilæ, juvéntus tua.
@@ -202,11 +203,11 @@ export default function PagePent175() {
               Ó minha alma, louva o Senhor; não esqueças nunca os benefícios que
               te fez: e a tua juventude se renovará, como a da água.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accépta tibi sint, Dómine, quǽsumus, nostri dona jejúnii: quæ et
               expiándo nos tua grátia dignos effíciant, et ad sempitérna
@@ -218,13 +219,13 @@ export default function PagePent175() {
               tornemos dignos da vossa graça e sejamos conduzidos aos bens
               eternos, que nos prometestes. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl 118:22, 24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Aufer a me oppróbrium et contémptum, quia mandáta tua exquisívi,
               Dómine: nam et testimónia tua meditátio mea est.
@@ -234,11 +235,11 @@ export default function PagePent175() {
               vossos mandamentos. A vossa lei é objecto da minha constante
               meditação.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias
               exhibéntes, benefícia potióra sumámus. Per Dóminum...
@@ -248,7 +249,7 @@ export default function PagePent175() {
               benefícios que recebemos, alcancemos outros ainda mais preciosos.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

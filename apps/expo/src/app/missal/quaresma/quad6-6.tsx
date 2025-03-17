@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import Magnificat from "./../../canticos/sacros/magnificat";
 import LadainhaSantos from "./../../devocionario/ladainhas/santos";
 
@@ -33,7 +34,7 @@ export default function PageQuad66() {
             compreender.
           </Text>
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui per Fílium tuum, angulárem scílicet lápidem, claritátis
               tuæ ignem fidélibus contulísti: prodúctum e sílice, nostris
@@ -54,9 +55,9 @@ export default function PageQuad66() {
               onde se goza a luz perpétua. Pelo mesmo Cristo, nosso Senhor.
               Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine Deus, Pater omnípotens, lumen indefíciens, qui es cónditor
               ómnium lúminum: béne <Text className="cross"> ✠ </Text> dic hoc
@@ -78,9 +79,9 @@ export default function PageQuad66() {
               a vida e a luz eternas. Por Cristo, nosso Senhor.{" "}
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine sancte, Pater omnípotens, ætérne Deus: benedicéntibus nobis
               hunc ignem in nómine tuo, et unigéniti Fílii tui, Dei ac Dómini
@@ -97,9 +98,9 @@ export default function PageQuad66() {
               iluminai-nos com a graça celestial. Ó Vós, que viveis e reinais...{" "}
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Bênção do Incenso</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Véniat, quǽsumus, omnípotens Deus, super hoc incénsum larga tuæ
               benedictiónis <Text className="cross"> ✠ </Text> infúsio: et hunc
@@ -123,10 +124,10 @@ export default function PageQuad66() {
               Por Cristo, nosso Senhor. <Text className="response"> ℟. </Text>{" "}
               Amen.
             </Text>
-          </View>
+          </Language>
           A Procissão dirige-se para o Altar-mor. O Diácono leva a serpentina e
           canta:
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Lumen Christi.
             </Text>
@@ -139,9 +140,9 @@ export default function PageQuad66() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Dêmos graças a Deus.
             </Text>
-          </View>
+          </Language>
           Prossegue-se até ao meio do templo, todos ajoelham e o Diácono repete:
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Lumen Christi.
             </Text>
@@ -154,9 +155,9 @@ export default function PageQuad66() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Dêmos graças a Deus.
             </Text>
-          </View>
+          </Language>
           Á entrada do Altar novamente, todos ajoelham e o Diácono repete:
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Lumen Christi.
             </Text>
@@ -169,12 +170,12 @@ export default function PageQuad66() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Dêmos graças a Deus.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Bênção do Círio Pascal</Text>
           <Text className="text-base">
             O Diácono pede a Bênção ao Celebrante e o Sacerdote:
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dóminus sit in corde tuo et in labiis tuis: ut digne et
               competénter annúnties suum paschále præcóniurn: In nómine Patris,
@@ -187,8 +188,8 @@ export default function PageQuad66() {
               nome do Pai, e do Filho, <Text className="cross"> ✠ </Text> e do
               Espírito Santo. <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               Exsúltet iam angélica turba cælórum: exsúltent divína mystéria: et
               pro tanti Regis victória tuba ínsonet salutáris. Gáudeat et
@@ -415,10 +416,10 @@ export default function PageQuad66() {
               convosco, e com o Espírito Santo, vive e reina por todos os
               séculos. <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Primeira Profecia</Text>
           <Text className="em">Gn. 1, 1-31; 2, 1-2</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In princípio creavit Deus cœlum et terram. Terra autem erat inánis
               et vácua, et ténebræ erant super fáciem abýssi: et Spíritus Dei
@@ -573,10 +574,10 @@ export default function PageQuad66() {
               resistamos aos atractivos do pecado, a fim de merecermos a posse
               dos gozos eternos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Segunda Profecia</Text>
           <Text className="em">Gn. 5; 6; 7 & 8</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Noë vero cum quingentórum esset annórum, génuit Sem, Cham et
               Japheth. Cumque cœpíssent hómines multiplicári super terram et
@@ -788,10 +789,10 @@ export default function PageQuad66() {
               é o princípio de tudo: nosso Senhor Jesus Cristo, vosso Filho, que
               convosco vive...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Terceira Profecia</Text>
           <Text className="em">Gn. 22, 1-19</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In diébus illis: Tentávit Deus Abraham, et dixit ad eum: Abraham,
               Abraham. At ille respóndit: Adsum. Ait illi: Tolle fílium tuum
@@ -902,10 +903,10 @@ export default function PageQuad66() {
               vossos povos a graça de corresponderem dignamente à vossa vocação.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Quarta Profecia</Text>
           <Text className="em">Ex. 14, 24-31; 15, 1</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In diébus illis: Factum est in vigília matutina, et ecce,
               respíciens Dóminus super castra Ægyptiórum per colúmnam ignis et
@@ -948,10 +949,10 @@ export default function PageQuad66() {
               Então o povo temeu Deus e acreditou em Deus e em Moisés, seu
               servo. E Moisés e os filhos de Israel cantaram a Deus este hino:
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Trato</Text>
           <Text className="em">Ex. 15, 1 & 2</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cantémus Dómino: glorióse enim honorificátus est: equum et
               ascensórem projécit in mare: adjútor et protéctor factus est mihi
@@ -1004,10 +1005,10 @@ export default function PageQuad66() {
               e participem das honras concedidas ao povo de Israel. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Quinta Profecia</Text>
           <Text className="em">Is. 54, 17; 55, 1-11</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc est heréditas servórum Dómini: et justítia eórum apud me,
               dicit Dóminus. Omnes sitiéntes, veníte ad aquas: et qui non
@@ -1100,10 +1101,10 @@ export default function PageQuad66() {
               acreditaram firmemente que haviam de se cumprir. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Sexta Profecia</Text>
           <Text className="em">Br. 3, 9-38</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Audi, Israël, mandata vitæ: áuribus pércipe, ut scias prudéntiam.
               Quid est, Israël, quod in terra inimicórum es? Inveterásti in
@@ -1225,10 +1226,10 @@ export default function PageQuad66() {
               contínua assistência àqueles a quem ides purificar com a água do
               Baptismo. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Sétima Profecia</Text>
           <Text className="em">Ez. 37, 1-14</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In diébus illis: Facta est super me manus Dómini, et edúxit me in
               spíritu Dómini: et dimísit me in médio campi, qui erat plenus
@@ -1323,10 +1324,10 @@ export default function PageQuad66() {
               alcançamos nesta vida, nos façam ter esperança firme nos bens
               futuros. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Oitava Profecia</Text>
           <Text className="em">Is. 4, 1-6</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Apprehéndent septem mulíeres virum unum in die illa, dicéntes:
               Panem nostrum comedémus et vestiméntis nostris operiémur:
@@ -1362,10 +1363,10 @@ export default function PageQuad66() {
               tabernáculo servirá de sombra, durante o calor do dia, e de
               refúgio e abrigo, durante a tempestade e a chuva.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Trato</Text>
           <Text className="em">Is. 5, 1 & 2</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vínea facta est dilécto in cornu, in loco úberi.
               <Text className="versicle"> ℣. </Text>Et macériam circúmdedit, et
@@ -1416,10 +1417,10 @@ export default function PageQuad66() {
               deles os espinhos e as silvas, que lhes envolvem o coração, se
               tornem capazes de produzir abundantes frutos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Nona Profecia</Text>
           <Text className="em">Ex. 12, 1-11</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In diébus illis: Dixit Dóminus ad Móysen et Aaron in terra Ægýpti:
               Mensis iste vobis princípium ménsium: primus erit in ménsibus
@@ -1497,10 +1498,10 @@ export default function PageQuad66() {
               ultrapassa o prodígio da imolação de Cristo, nossa Páscoa, que se
               realizou na plenitude dos tempos. O qual, sendo Deus...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Décima Profecia</Text>
           <Text className="em">Jn. 3, 1-10</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In diébus illis: Factum est verbum Dómini ad Jonam Prophétam
               secúndo, dicens: Surge, et vade in Níniven civitátem magnam: et
@@ -1575,10 +1576,10 @@ export default function PageQuad66() {
               gozar a glória eterna, tenha a mesma fé no espírito e a mesma
               santidade nas acções. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Décima Primeira Profecia</Text>
           <Text className="em">Dt. 31, 22-30</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In diébus illis: Scripsit Móyses canticum, et dócuit fílios
               Israël. Præcepítque Dóminus Josue, fílio Nun, et ait: Confortáre,
@@ -1620,10 +1621,10 @@ export default function PageQuad66() {
               obras». Pronunciou, então, Moisés, diante de toda a assembleia de
               Israel, as palavras deste cântico até ao fim:
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Trato</Text>
           <Text className="em">Dt. 32, 1-4</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Atténde, cœlum, et loquar: et áudiat terra verba ex ore meo.
               <Text className="versicle"> ℣. </Text>
@@ -1682,10 +1683,10 @@ export default function PageQuad66() {
               misericórdia, o castigo anunciado se torne em salvação. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Décima Segunda Profecia</Text>
           <Text className="em">Dn. 3, 1-24</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In diébus illis: Nabuchodónosor rex fecit státuam áuream,
               altitúdine cubitórum sexagínta, latitúdine cubitórum sex, et
@@ -1841,7 +1842,7 @@ export default function PageQuad66() {
               pois nenhum dos vossos fiéis poderá progredir nas virtudes sem a
               vossa inspiração. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Bênção da Pia Baptismal</Text>
           <Text className="text-base">
             Dirige-se agora a Procissão para a Pia Baptismal. Durante o percurso
@@ -1849,7 +1850,7 @@ export default function PageQuad66() {
           </Text>
           <Text className="h3">Trato</Text>
           <Text className="em">Sl. 41, 2-4</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sicut cervus desíderat ad fontes aquárum: iía desíderat ánima mea
               ad te, Deus.<Text className="versicle"> ℣. </Text>Sitívit ánima
@@ -1867,9 +1868,9 @@ export default function PageQuad66() {
               e noite o meu alimento, quando continuamente me perguntam: onde
               está o teu Deus?
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, réspice propítius ad devotiónem pópuli
               renascéntis, qui, sicut cervus, aquárum tuárum éxpetit fontem: et
@@ -1885,9 +1886,9 @@ export default function PageQuad66() {
               corpo pelo mystério do Baptismo. Por nosso Senhor...{" "}
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, adésto magnæ pietátis tuæ mystériis,
               adésto sacraméntis: et ad recreándos novos pópulos, quos tibi fons
@@ -1904,9 +1905,9 @@ export default function PageQuad66() {
               meio do nosso humilde ministério seja eficazmente realizado por
               efeito do vosso poder. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Prefácio</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
@@ -2217,12 +2218,12 @@ export default function PageQuad66() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Ladainha dos Santos</Text>
           <LadainhaSantos />
           <Text className="h2">Missa de Sábado Santo</Text>
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui hanc sacratíssimam noctem glória Domínicæ Resurrectiónis
               illústras: consérva in nova famíliæ tuæ progénie adoptiónis
@@ -2236,10 +2237,10 @@ export default function PageQuad66() {
               renovados de corpo e de espírito, Vos sirvam cheios de pureza.
               Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Epístola</Text>
           <Text className="em">Cl. 3, 1-4</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.
             </Text>
@@ -2271,10 +2272,10 @@ export default function PageQuad66() {
               <Text className="vernacular">Sl. 117, 1</Text> Glorificai o
               Senhor, pois a sua misericórdia é eterna!
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Trato</Text>
           <Text className="em">Sl. 116, 1-2</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli.
               <Text className="versicle"> ℣. </Text>
@@ -2287,10 +2288,10 @@ export default function PageQuad66() {
               connosco confirmou-se e a fidelidade do Senhor permanecerá
               eternamente.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Evangelho</Text>
           <Text className="em">Mt. 28, 1-7</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -2328,9 +2329,9 @@ export default function PageQuad66() {
               que Ele ressuscitou e que vos precederá na Galileia, onde o
               vereis. Eis o que antecipadamente vos anuncio».
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Secreta</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Suscipe, quǽsumus, Dómine, preces pópuli tui, cum oblatiónibus
               hostiárum: ut paschálibus initiá tam ystériis, ad æternitátis
@@ -2342,10 +2343,10 @@ export default function PageQuad66() {
               pascal, nos sirvam, por efeito da vossa graça, de remédio para a
               eternidade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Comunicantes</Text>
           <Text className="aside">Diz-se até ao Sábado seguinte</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Communicántes, et noctem sacratíssimam celebrántes Resurrectiónis
               Dómini nostri Jesu Christi secúndum carnem: sed et memóriam
@@ -2359,10 +2360,10 @@ export default function PageQuad66() {
               sempre Virgem Maria, Mãe do mesmo Deus e Nosso Senhor Jesus
               Cristo... (tudo o mais como ordinariamente).
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Hanc ígitur</Text>
           <Text className="aside">Diz-se até ao Sábado seguinte</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hanc ígitur oblatiónem servitútis nostræ, sed et cunctæ famíliæ
               tuæ, quam tibi offérimus pro his quoque, quos regeneráre dignátus
@@ -2382,20 +2383,20 @@ export default function PageQuad66() {
               eterna e admiti-nos ao número dos vossos escolhidos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="aside">
             E o restante como no Ordinário da Missa, menos o Agnus Dei. Após a
             Comunhão, cantam-se as:
           </Text>
           <Text className="h2">Vésperas</Text>
           <Text className="h3">Antífona</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Allelúja, allelúja, allelúja!</Text>
             <Text className="vernacular">Aleluia, aleluia, aleluia!</Text>
-          </View>
+          </Language>
           <Text className="h3">Salmo 116</Text>
           <Text className="em">Sl. 116, 1-2</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Laudáte Dóminum, omnes gentes: laudáte eum, omnes pópuli. Quóniam
               confirmáta est super nos misericórdia ejus: et véritas Dómini
@@ -2406,10 +2407,10 @@ export default function PageQuad66() {
               Sua misericórdia para connosco confirmou-se e a fidelidade do
               Senhor permanecerá eternamente. Glória ao Pai...
             </Text>
-          </View>
+          </Language>
           <Text className="aside">Repete-se a Antífona anterior.</Text>
           <Text className="h3">Antífona</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Véspere autem sábbati, quæ lucéscit in prima sábbati, venit María
               Magdaléne, et áltera María, vidére sepúlchrum, allelúja.
@@ -2419,13 +2420,13 @@ export default function PageQuad66() {
               depois de sábado, Maria Madalena e a outra Maria foram visitar o
               sepulcro. Aleluia.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Magnificat</Text>
           <Text className="em">Lc. 1, 46-55</Text>
           <Magnificat />
           <Text className="aside">Repete-se a Antífona anterior.</Text>
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Spíritum nobis, Dómine, tuæ caritátis infúnde: ut, quos
               sacraméntis paschálibus satiásti, tua fácias pietáte concórdes.
@@ -2437,7 +2438,7 @@ export default function PageQuad66() {
               sempre, pela vossa bondade, em perfeita concórdia. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

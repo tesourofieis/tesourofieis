@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1228() {
   return (
@@ -16,7 +17,7 @@ export default function Page1228() {
 
           <Text className="em">Sl. 8, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ex ore infántium, Deus, et lacténtium perfecísti laudem propter
               inimicos tuos. <Text className="latin">Ps. ib., 2</Text> Dómine,
@@ -31,11 +32,11 @@ export default function Page1228() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, cujus hodicrna die præcónium Innocéntes Mártyres non
               loquéndo, sed moriéndo conféssi sunt: ómnia in nobis vitiórum mala
@@ -49,13 +50,13 @@ export default function Page1228() {
               nossa boca confessa, seja Confirmada com os nossos costumes. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ap. 14, 1-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
             </Text>
@@ -93,13 +94,13 @@ export default function Page1228() {
               falsamente, pois foram julgados sem mancha diante do trono de
               Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 123, 7-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Anima nostra, sicut passer, erépta est de láqueo venántium.
               <Text className="versicle"> ℣. </Text>
@@ -112,13 +113,13 @@ export default function Page1228() {
               <Text className="versicle"> ℣. </Text>A nossa esperança está no
               nome do Senhor, que criou o céu e a terra.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 78, 3 & 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Effudérunt sánguinem Sanctórum, velut aquam, in circuitu
               Jerúsalem.<Text className="versicle"> ℣. </Text>Et non erat, qui
@@ -131,11 +132,11 @@ export default function Page1228() {
               sepultasse.<Text className="versicle"> ℣. </Text>Vingai, Senhor, o
               sangue dos vossos Santos que correu pela terra.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Ao Domingo suprime-se o Trato e diz-se:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 112, 1</Text> Laudáte, púeri, Dóminum,
@@ -146,13 +147,13 @@ export default function Page1228() {
               <Text className="vernacular">Sl. 112, 1</Text> Ó meninos, louvai o
               Senhor; louvai o seu santo nome. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 2, 13-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -194,13 +195,13 @@ export default function Page1228() {
               seus filhos; e ela não quer ser consolada, porque já não
               existem!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 123, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Anima nostra, sicut passer, erépta est de láqueo venántium:
               láqueus contrítus est, et nos liberáti sumus.
@@ -209,11 +210,11 @@ export default function Page1228() {
               A nossa alma escapou-se, como um pássaro do laço do caçador. O
               laço quebrou-se, e ficámos livres.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctórum tuórum, Dómine, nobis pia non desit orátio: quæ et
               múnera nostra concíliet, et tuam nobis indulgéntiam semper
@@ -224,13 +225,13 @@ export default function Page1228() {
               Vos torne agradáveis as nossas ofertas e sempre nos alcance a
               vossa indulgência. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 2, 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vox in Rama audíta est, plorátus, et ululátus: Rachel plorans
               fílios suos, et nóluit consolári, quia non sunt.
@@ -240,11 +241,11 @@ export default function Page1228() {
               que chora os seus filhos; e ela não quer ser consolada, porque já
               não existem!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Votíva, Dómine, dona percépimus: quæ Sanctórum nobis précibus, et
               præséntis, quǽsumus, vitæ páriter et ætérnæ tríbue conférre
@@ -255,7 +256,7 @@ export default function Page1228() {
               permitir que as orações dos vossos Santos nos sirvam de auxílio
               para a vida presente e para a futura. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0131() {
   return (
@@ -97,7 +98,7 @@ export default function Page0131() {
 
           <Text className="em">3 Rs. 4, 29</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dedit illi Deus sapiéntiam, et prudéntiam multam nimis, et
               latitúdinem cordis, quasi arénam quæ est in líttore maris.{" "}
@@ -112,11 +113,11 @@ export default function Page0131() {
               meninos, louvai o nome do Senhor.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui sanctum Joánnem Confessórem tuum adolescentium patrem et
               magístrum excitásti, ac per eum, auxiliatríce Vírgine María, novas
@@ -131,13 +132,13 @@ export default function Page0131() {
               Vos pedimos, que, abrasados no mesmo fogo de caridade, possamos
               ganhar almas e só Vós servir. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Fl. 4, 4-9 </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.
             </Text>
@@ -171,13 +172,13 @@ export default function Page0131() {
               aprendestes, recebestes, ouvistes e vistes em mim, praticai-o. E o
               Deus de paz será convosco.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 36, 3-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Spera in Dómino, et fac bonitátem, et inhábita terram, et pascéris
               in divítiis ejus.<Text className="versicle"> ℣. </Text>Delectáre
@@ -201,7 +202,7 @@ export default function Page0131() {
               <Text className="vernacular">Sl. 73, 21</Text> O pobre e o
               desvalido louvarão o vosso Nome. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o Verso, e diz-se o:
@@ -211,7 +212,7 @@ export default function Page0131() {
 
           <Text className="em">Sl. 60, 4-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Factus es spes mea, Dómine: turris fortitúdinis a fácie inimíci.
               <Text className="versicle"> ℣. </Text>Inhabitábo in tabernáculo
@@ -226,14 +227,14 @@ export default function Page0131() {
               <Text className="versicle"> ℣. </Text>Pois Vós, meu Deus, ouvistes
               a minha oração e destes a herança aos que temem o vosso nome.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Durante o Tempo Pascal o Gradual é omitido e diz-se a seguinte
             Aleluia:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 73, 21</Text> Pauper et inops
@@ -251,13 +252,13 @@ export default function Page0131() {
               abundância da vossa casa, e Vós os fareis beber na torrente das
               vossas delícias. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 18, 1-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -285,24 +286,24 @@ export default function Page0131() {
               céus; e quem receber em meu nome um pequeno, como este, recebe-me
               a mim mesmo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 33, 12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veníte, fílii, audíte me: timórem Dómini docébo vos.
             </Text>
             <Text className="vernacular">
               Vinde, filhos; ouvi-me. Ensinar-vos-ei o temor do Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, oblatiónem mundam salutáris Hóstiæ, et præsta:
               ut, te in ómnibus et super ómnia diligéntes, in glóriæ tuæ laudem
@@ -313,13 +314,13 @@ export default function Page0131() {
               amando-Vos em tudo e sobretudo, mereçamos viver para louvar a
               vossa glória. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Rm. 4, 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Contra spem in spem crédidit, ut fíeret pater multárum géntium,
               secúndum quod dictum est ei.
@@ -328,11 +329,11 @@ export default function Page0131() {
               Contra toda a esperança, acreditou na esperança de que seria pai
               de muitas gentes, como o que lhe foi dito.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Córporis et Sánguinis tui, Dómine, mystério satiátis, concéde,
               quǽsumus; ut, intercedénte sancto Joánne Confessóre tuo, in
@@ -343,7 +344,7 @@ export default function Page0131() {
               concedei, como pedimos, que, intercedendo por nós S. João,
               Confessor, permaneçamos sempre em acção de graças. Vós, que...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

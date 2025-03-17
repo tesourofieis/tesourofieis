@@ -5,6 +5,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageViasacra() {
   return (
@@ -25,7 +26,7 @@ export default function PageViasacra() {
             liberdade e glória dos filhos de Deus.).
           </Text>
           <Text className="h3">No inicio de cada Estação</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Adorámus te, Christe, et
               benedicimus tibi.
@@ -42,7 +43,7 @@ export default function PageViasacra() {
               <Text className="response"> ℟. </Text>Porque pela vossa Santa Cruz
               redimistes o mundo.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">No fim de cada Estação</Text>
           <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
@@ -56,7 +57,7 @@ export default function PageViasacra() {
             </Link>{" "}
             .
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Miserére nostri, Dómine.
             </Text>
@@ -69,7 +70,7 @@ export default function PageViasacra() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text>Tende piedade de nós.
             </Text>
-          </View>
+          </Language>
           <Text className="aside">
             Se a via sacra se faz em comum pode-se recitar uma estrofe da{" "}
             <Link className="link" href="/missal/santos/09-15#sequência">
@@ -327,7 +328,7 @@ export default function PageViasacra() {
             ao Pai pelas intenções do Santo Padre, terminando-se com a seguinte
             oração:
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -352,7 +353,7 @@ export default function PageViasacra() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text>Amen
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

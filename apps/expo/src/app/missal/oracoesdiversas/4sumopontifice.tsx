@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page4Sumopontifice() {
   return (
@@ -12,7 +13,7 @@ export default function Page4Sumopontifice() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, ómnium fidélium pastor et rector, fámulum tuum{" "}
               <Text className="latin">N.</Text>, quem pastórem Ecclésiæ tuæ
@@ -28,11 +29,11 @@ export default function Page4Sumopontifice() {
               e exemplos, a fim de que com o rebanho, que lhe foi confiado,
               alcance a vida eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblátis, quǽsumus, Dómine, placáre munéribus: et fámulum tuum{" "}
               <Text className="latin">N.</Text>, quem pastórem Ecclésiæ tuæ
@@ -44,11 +45,11 @@ export default function Page4Sumopontifice() {
               <Text className="vernacular">N.</Text>, que constituístes Pastor
               da vossa Igreja. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc nos, quǽsumus, Dómine, divíni sacraménti percéptio prótegat:
               et fámulum tuum <Text className="latin">N.</Text>, quem pastórem
@@ -61,7 +62,7 @@ export default function Page4Sumopontifice() {
               foi confiado, o vosso servo <Text className="vernacular">N.</Text>
               , que constituístes Pastor da vossa Igreja. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

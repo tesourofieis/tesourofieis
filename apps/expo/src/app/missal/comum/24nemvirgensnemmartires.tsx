@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page24Nemvirgensnemmartires() {
   return (
@@ -14,7 +15,7 @@ export default function Page24Nemvirgensnemmartires() {
 
           <Text className="em">Sl. 118, 75 & 120</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cognóvi, Dómine, quia ǽquitas judícia tua, et in veritáte tua
               humiliásti me: confíge timóre tuo carnes meas, a mandátis tuis
@@ -31,11 +32,11 @@ export default function Page24Nemvirgensnemmartires() {
               aqueles que são imaculados nos seus caminhos e cumprem a lei do
               Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi nos, Deus, salutáris noster: ut, sicut de beátæ{" "}
               <Text className="latin">N.</Text> festivitáte gaudémus; ita piæ
@@ -47,13 +48,13 @@ export default function Page24Nemvirgensnemmartires() {
               <Text className="vernacular">N.</Text>, assim também consigamos os
               afectos de uma pia devoção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Pr. 31, 10-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -111,13 +112,13 @@ export default function Page24Nemvirgensnemmartires() {
               mãos, e que a louvem às portas da cidade, por causa das suas
               obras.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 3 & 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Diffúsa est grátia in labiis tuis: proptérea benedíxit te Deus in
               ætérnum.<Text className="versicle"> ℣. </Text>Propter veritátem et
@@ -140,7 +141,7 @@ export default function Page24Nemvirgensnemmartires() {
               <Text className="vernacular">ibid., 5</Text> Caminhai, pois, com
               beleza e com majestade; ide gozar a vitória e reinai. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -148,7 +149,7 @@ export default function Page24Nemvirgensnemmartires() {
 
           <Text className="h3">Trato</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veni, Sponsa Christi, áccipe coronam, quam tibi Dóminus præparávit
               in ætérnum.<Text className="versicle"> ℣. </Text>
@@ -169,13 +170,13 @@ export default function Page24Nemvirgensnemmartires() {
               semelhantes.<Text className="versicle"> ℣. </Text>Caminhai, pois,
               com beleza e com majestade; ide gozar a vitória e reinai.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 44, 5</Text> Spécie tua et
@@ -192,13 +193,13 @@ export default function Page24Nemvirgensnemmartires() {
               Por causa da vossa verdade, mansidão e justiça, a vossa dextra
               praticará maravilhas. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 13, 44-52</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -242,13 +243,13 @@ export default function Page24Nemvirgensnemmartires() {
               semelhante a um pai de família, que tira dos seus tesouros coisas
               novas e velhas».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 44, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in
               ætérnum, et in sǽculum sǽculi, allelúja. (T. P. Allelúja.)
@@ -258,11 +259,11 @@ export default function Page24Nemvirgensnemmartires() {
               abençoou para a eternidade e para os séculos dos séculos. (T. P.
               Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre
               Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit
@@ -274,13 +275,13 @@ export default function Page24Nemvirgensnemmartires() {
               tem alcançado a vossa assistência nas tribulações. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 44, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dilexísti justítiam, et odísti iniquitátem: proptérea unxit te
               Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (T. P.
@@ -291,11 +292,11 @@ export default function Page24Nemvirgensnemmartires() {
               vosso Deus, vos ungiu com o óleo da alegria, de preferência às
               vossas companheiras. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus,
               semper interventióne nos réfove, cujus sollémnia celebrámus. Per
@@ -306,7 +307,7 @@ export default function Page24Nemvirgensnemmartires() {
               dignai-Vos favorecer-nos sempre pela intercessão daquela cuja
               Solenidade celebrámos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Outra Epístola (em certos dias):</Text>
 
@@ -314,7 +315,7 @@ export default function Page24Nemvirgensnemmartires() {
 
           <Text className="em">Pr. 31, 10-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Timotheum.
             </Text>
@@ -352,7 +353,7 @@ export default function Page24Nemvirgensnemmartires() {
               aos santos; socorrido os aflitos; e, enfim, praticado toda a
               espécie de boas obras.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

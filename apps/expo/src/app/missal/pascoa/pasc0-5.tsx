@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc05() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc05() {
 
           <Text className="em">Sl. 77, 53</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Edúxit eos Dóminus in spe, allelúja: et inimícos eórum opéruit
               mare, allelúja, allelúja, allelúja.{" "}
@@ -30,11 +31,11 @@ export default function PagePasc05() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui paschále sacraméntum in
               reconciliatiónis humánæ fǿdere contulísti: da méntibus nostris;
@@ -46,13 +47,13 @@ export default function PagePasc05() {
               concedei às nossas almas a graça de imitarem em suas acções o que
               confessam durante esta festa. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Pe. 3, 18-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
             <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
             <Text className="latin">
@@ -82,13 +83,13 @@ export default function PagePasc05() {
               ressurreição de nosso Senhor Jesus Cristo, que está à dextra de
               Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 117, 24 & 26-27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.
               <Text className="versicle"> ℣. </Text>
@@ -110,13 +111,13 @@ export default function PagePasc05() {
               <Text className="vernacular">Sl. 95, 10</Text> Dizei aos povos: o
               Senhor reinou pelo madeiro.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 28, 16-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -146,13 +147,13 @@ export default function PagePasc05() {
               Eu permanecerei convosco todos os dias até à consumação dos
               séculos».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Ex. 12, 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Erit vobis hæc dies memoriális, allelúja: et diem festum
               celebrábitis sollémnem Dómino in progénies vestras: legítimum
@@ -163,11 +164,11 @@ export default function PagePasc05() {
               em geração com uma festa solene em honra do Senhor: e ficará uma
               instituição perpétua, aleluia, aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias, quǽsumus, Dómine, placátus assúme: quas et pro renatórum
               expiatióne peccáti deférimus, et pro acceleratióne cœléstis
@@ -179,13 +180,13 @@ export default function PagePasc05() {
               recém-nascidos e para alcançarmos o socorro celestial. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 28, 18-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Data est mihi omnis potéstas in cœlo et in terra, allelúja:
               eúntes, docéte omnes gentes, baptizántes eos in nómine Patris, et
@@ -196,11 +197,11 @@ export default function PagePasc05() {
               ensinai todos os povos e baptizai-os em nome do Pai, e do Filho, e
               do Espírito Santo, aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réspice, quǽsumus, Dómine, pópulum tuum: et, quem ætérnis dignátus
               es renováre mystériis, a temporálibus culpis dignánter absólve.
@@ -211,7 +212,7 @@ export default function PagePasc05() {
               renová-lo com os mystérios eternos, assim também Vos digneis
               absolvê-lo das ofensas cometidas neste mundo. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

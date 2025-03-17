@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0809Outro() {
@@ -17,7 +18,7 @@ export default function Page0809Outro() {
 
           <Text className="em">Sl. 111, 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum
               sǽculi: cornu ejus exaltábitur in glória.{" "}
@@ -33,11 +34,11 @@ export default function Page0809Outro() {
               varão que teme o Senhor e que põe todo seu zelo em cumprir os seus
               Mandamentos.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto, Dómine, supplicatiónibus nostris: et intercessióne beáti
               Lauréntii Mártyris tui, cujus prǽvénimus festivitátem; perpétuam
@@ -48,7 +49,7 @@ export default function Page0809Outro() {
               Lourenço, vosso Mártir, cuja festa antecipamos, concedei-nos
               benignamente a vossa perpétua misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -61,7 +62,7 @@ export default function Page0809Outro() {
 
           <Text className="em">Sl. 111, 9 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dispersit, dedit paupéribus: justítia ejus manet in sǽculum
               sǽculi.<Text className="versicle"> ℣. </Text>Potens in terra erit
@@ -73,7 +74,7 @@ export default function Page0809Outro() {
               <Text className="versicle"> ℣. </Text>Sua descendência será
               poderosa na terra, pois a geração dos justos será abençoada.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -86,7 +87,7 @@ export default function Page0809Outro() {
 
           <Text className="em">Jb. 16, 20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Orátio mea munda est: et ídeo peto, ut detur locus voci meæ in
               cœlo: quia ibi est judex meus, et cónscius meus in excélsis:
@@ -98,11 +99,11 @@ export default function Page0809Outro() {
               Aquele que conhece o íntimo do meu coração. Que minha deprecação
               suba até ao Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias, Dómine, quas tibi offérimus, propítius súscipe: et,
               intercedénte beáto Lauréntio Mártyre tuo, víncula peccatórum
@@ -113,13 +114,13 @@ export default function Page0809Outro() {
               pela intercessão do B. Lourenço, vosso Mártir, livrai-nos das
               cadeias dos nossos pecados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 16, 24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui vult veníre post me, ábneget semetípsum, et tollat crucem
               suam, et sequátur me.
@@ -128,11 +129,11 @@ export default function Page0809Outro() {
               Se alguém quer vir após mim, negue-se a si mesmo, tome a sua cruz
               e siga-me!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, Dómine, Deus noster: ut, sicut beáti Lauréntii
               Mártyris tui commemoratióne, temporáli gratulámur offício; ita
@@ -144,7 +145,7 @@ export default function Page0809Outro() {
               vosso Mártir, assim também gozemos perpetuamente a felicidade da
               sua presença. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

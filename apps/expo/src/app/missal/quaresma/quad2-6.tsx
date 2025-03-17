@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad26() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad26() {
 
           <Text className="em">Sl. 18, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lex Dómini irreprehensíbilis, convértens ánimas: testimónium
               Dómini fidéle, sapiéntiam præstans párvulis.{" "}
@@ -29,11 +30,11 @@ export default function PageQuad26() {
               a glória do Senhor e o firmamento anuncia as obras das suas mãos.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, Dómine, nostris efféctum jejúniis salutárem: ut
               castigátio carnis assúmpta, ad nostrárum vegetatiónem tránseat
@@ -44,13 +45,13 @@ export default function PageQuad26() {
               para que a mortificação que fazemos na carne seja proveitosa à
               saúde das nossas almas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Gn. 27, 6-40</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Genesis.</Text>
             <Text className="vernacular">Lição do Livro do Génesis.</Text>
             <Text className="latin">
@@ -182,13 +183,13 @@ export default function PageQuad26() {
               gritos! Então Isaque, comovido, disse-lhe: «A tua bênção estará na
               gordura da terra e no orvalho do céu».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 91, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Bonum est confitéri Dómino: et psállere nómini tuo, Altíssime.
               <Text className="versicle"> ℣. </Text>
@@ -200,13 +201,13 @@ export default function PageQuad26() {
               <Text className="versicle"> ℣. </Text>Para anunciar de manhã a
               vossa misericórdia e de noite a vossa verdade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 15, 11-32</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -296,13 +297,13 @@ export default function PageQuad26() {
               porque este teu irmão estava morto, e reviveu; perdera-se, e foi
               achado».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 12, 4-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Illúmina óculos meos, ne umquam obdórmiam in morte: ne quando
               dicat inimícus meus: Præválui advérsus eum.
@@ -311,11 +312,11 @@ export default function PageQuad26() {
               Iluminai os meus olhos para que eu nunca adormeça na morte. Que
               nunca o meu inimigo diga: prevaleci contra ele.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               His sacrifíciis, Dómine, concéde placátus: ut, qui própriis orámus
               absólvi delíctis, non gravémur extérnis. Per Dóminum...
@@ -325,13 +326,13 @@ export default function PageQuad26() {
               nós, que Vos pedimos perdão das nossas faltas, nos não vejamos
               sobrecarregados com as dos outros. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 15, 32</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Opórtet te, fili, gaudére, quia frater tuus mórtuus fúerat, et
               revíxit: períerat, et invéntus est.
@@ -340,11 +341,11 @@ export default function PageQuad26() {
               Convém que te alegres, filho, porque o teu irmão estava morto, e
               voltou à vida; estava perdido, e foi encontrado.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacraménti tui, Dómine, divína libátio, penetrália nostri cordis
               infúndat: et sui nos partícipes poténter effíciat. Per Dóminum...
@@ -354,11 +355,11 @@ export default function PageQuad26() {
               íntimo do nosso coração e nos torne eficazmente participantes da
               sua graça. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -380,7 +381,7 @@ export default function PageQuad26() {
               graça celestial, seja sempre munida com vossa celestial protecção.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

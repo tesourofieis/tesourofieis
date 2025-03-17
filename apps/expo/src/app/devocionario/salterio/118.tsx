@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page118() {
   return (
@@ -12,7 +13,7 @@ export default function Page118() {
 
           <Text className="h2">ALEPH</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáti immaculáti in via: * qui ámbulant in lege Dómini.
             </Text>
@@ -70,11 +71,11 @@ export default function Page118() {
             <Text className="vernacular">
               Guardarei as vossas justificações: * me não desampareis jamais.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">BETH</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In quo córrigit adolescéntior viam suam? * In custodiéndo sermónes
               tuos.
@@ -132,11 +133,11 @@ export default function Page118() {
               Nas vossas justificações meditarei: * das vossas palavras me não
               esquecerei.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">GHIMEL</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Retríbue servo tuo, vivífica me: * et custódiam sermónes tuos:
             </Text>
@@ -196,11 +197,11 @@ export default function Page118() {
               Pois os vossos testemunhos são a minha meditação: * e as vossas
               justificações o meu conselho.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">DALETH</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adhǽsit paviménto ánima mea: * vivífica me secúndum verbum tuum.
             </Text>
@@ -258,11 +259,11 @@ export default function Page118() {
               Corri pelo caminho dos vossos mandamentos, * quando dilatastes o
               meu coração.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">HE</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Legem pone mihi, Dómine, viam justificatiónum tuárum: * et
               exquíram eam semper.
@@ -321,11 +322,11 @@ export default function Page118() {
               Eis como suspirei pelos vossos mandamentos: * vivificai-me segundo
               a vossa justiça.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">VAU</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Et véniat super me misericórdia tua, Dómine: * salutáre tuum
               secúndum elóquium tuum.
@@ -385,11 +386,11 @@ export default function Page118() {
               Levantarei as minhas mãos para os vossos mandamentos, que amo: * e
               exercitar-me-ei nas vossas justificações.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">ZAIN</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Memor esto verbi tui servo tuo, * in quo mihi spem dedísti.
             </Text>
@@ -449,11 +450,11 @@ export default function Page118() {
               Isto me aconteceu: * pois busquei cuidadoso as vossas
               justificações.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">HETH</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pórtio mea, Dómine, * dixi custodíre legem tuam.
             </Text>
@@ -514,11 +515,11 @@ export default function Page118() {
               A terra está cheia, ó Senhor, da vossa misericórdia: * ensinai-me
               as vossas justificações.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">TETH</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Bonitátem fecísti cum servo tuo, Dómine, * secúndum verbum tuum.
             </Text>
@@ -579,11 +580,11 @@ export default function Page118() {
               A lei da vossa boca é boa para mim, * melhor que milhares de ouro
               e prata.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">JOD</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Manus tuæ fecérunt me, et plasmavérunt me: * da mihi intelléctum,
               et discam mandáta tua.
@@ -647,11 +648,11 @@ export default function Page118() {
               Seja imaculado o meu coração nas vossas justificações, * para que
               não seja confundido.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">CAPH</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Defécit in salutáre tuum ánima mea: * et in verbum tuum
               supersperávi.
@@ -713,11 +714,11 @@ export default function Page118() {
               Vivificai-me segundo a vossa misericórdia: * e guardarei os
               testemunhos saídos da vossa boca.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">LAMED</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In ætérnum, Dómine, * verbum tuum pérmanet in cælo.
             </Text>
@@ -777,11 +778,11 @@ export default function Page118() {
               Vi o fim de tudo o que é perfeito: * somente a vossa lei não tem
               limites.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">MEM</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quómodo diléxi legem tuam, Dómine? * tota die meditátio mea est.
             </Text>
@@ -841,11 +842,11 @@ export default function Page118() {
               Com vossos mandamentos aprendi: * por isso odeio todo o caminho da
               iniquidade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">NUN</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lucérna pédibus meis verbum tuum, * et lumen sémitis meis.
             </Text>
@@ -906,11 +907,11 @@ export default function Page118() {
               Inclinei o meu coração a praticar sempre as vossas justificações,
               * pela retribuição.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">SAMECH</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Iníquos ódio hábui: * et legem tuam diléxi.
             </Text>
@@ -970,11 +971,11 @@ export default function Page118() {
               Traspassai as minhas carnes com vosso temor: * de facto, temi os
               vossos juízos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">AIN</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Feci judícium et justítiam: * non tradas me calumniántibus me.
             </Text>
@@ -1033,11 +1034,11 @@ export default function Page118() {
               Por isso me tenho dirigido a todos vossos mandamentos: * e odiei
               todo o caminho injusto.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">PHE</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mirabília testimónia tua: * ídeo scrutáta est ea ánima mea.
             </Text>
@@ -1100,11 +1101,11 @@ export default function Page118() {
               Meus olhos derramaram rios de lágrimas: * por a vossa lei não
               terem guardado.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">SADE</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus es, Dómine: * et rectum judícium tuum.
             </Text>
@@ -1162,11 +1163,11 @@ export default function Page118() {
               Vossos testemunhos são equidade eterna: * dai-me a inteligência
               deles e viverei.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">COPH</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Clamávi in toto corde meo, exáudi me, Dómine: * justificatiónes
               tuas requíram.
@@ -1225,11 +1226,11 @@ export default function Page118() {
               Desde o princípio soube dos vossos testemunhos: * que
               estabelecestes para sempre.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">RES</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vide humilitátem meam, et éripe me: * quia legem tuam non sum
               oblítus.
@@ -1294,11 +1295,11 @@ export default function Page118() {
               O princípio das vossas palavras é a verdade: * todos os juízos da
               vossa justiça são eternos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">SIN</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Príncipes persecúti sunt me gratis: * et a verbis tuis formidávit
               cor meum.
@@ -1357,11 +1358,11 @@ export default function Page118() {
               Guardei os vossos mandamentos e os vossos testemunhos: * pois
               todos meus caminhos estão diante de Vós.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">TAU</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Appropínquet deprecátio mea in conspéctu tuo, Dómine: * juxta
               elóquium tuum da mihi intelléctum.
@@ -1423,7 +1424,7 @@ export default function Page118() {
               Errante, como ovelha que se extraviou: * buscai o vosso servo,
               pois me não esqueci dos vossos mandamentos.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

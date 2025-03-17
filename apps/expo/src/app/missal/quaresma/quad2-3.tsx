@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageQuad23() {
@@ -15,7 +16,7 @@ export default function PageQuad23() {
 
           <Text className="em">Sl. 37, 22-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ne derelínquas me, Dómine, Deus meus, ne discédas a me: inténde in
               adjutórium meum, Dómine, virtus salútis meæ.{" "}
@@ -30,11 +31,11 @@ export default function PageQuad23() {
               não me repreendais com furor, nem me castigueis com ira.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pópulum tuum, quǽsumus, Dómine, propítius réspice: et, quos ab
               escis carnálibus prǽcipis abstinére, a noxiis quoque vítiis
@@ -46,13 +47,13 @@ export default function PageQuad23() {
               abstenham também dos vícios, que prejudicam as suas almas. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Est. 13, 8-11 & 15-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Esther.</Text>
             <Text className="vernacular">Lição do Livro de Ester.</Text>
             <Text className="latin">
@@ -83,13 +84,13 @@ export default function PageQuad23() {
               conservando a vida, louvemos o vosso nome, Senhor» Não fecheis a
               boca àqueles que Vos louvam, ó Senhor, nosso Deus!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 27, 9 & 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salvum fac pópulum tuum, Dómine, et bénedic hereditáti tuæ.
               <Text className="versicle"> ℣. </Text>Ad te, Dómine, clamávi: Deus
@@ -100,7 +101,7 @@ export default function PageQuad23() {
               Senhor, clamei. Meu Deus, não fecheis os ouvidos à minha voz. Se
               me não escutais, serei semelhante àqueles que desceram ao túmulo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
@@ -113,7 +114,7 @@ export default function PageQuad23() {
 
           <Text className="em">Mt. 20, 17-28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -169,13 +170,13 @@ export default function PageQuad23() {
               veio para ser servido, mas para servir e dar a vida em redenção de
               muitos».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 24, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non
               erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te
@@ -186,11 +187,11 @@ export default function PageQuad23() {
               serei confundido, nem vencido pelos meus inimigos., porquanto
               todos aqueles que em Vós confiam não serão confundidos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias, Dómine, quas tibi offérimus, propítius réspice: et, per
               hæc sancta commércia, víncula peccatórum nostrórum absólve. Per
@@ -201,13 +202,13 @@ export default function PageQuad23() {
               este sagrado Cornércio, desligai-nos das cadeias dos nossos
               pecados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 10, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus Dóminus, et justítiam diléxit: æquitátem vidit vultus ejus.
             </Text>
@@ -215,11 +216,11 @@ export default function PageQuad23() {
               O Senhor é justo e amou a justiça; seu rosto volta-se benévolo
               para os justos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumptis, Dómine, sacraméntis: ad redemptiónis ætérnæ, quǽsumus,
               proficiámus augméntum. Per Dóminum...
@@ -229,11 +230,11 @@ export default function PageQuad23() {
               suplicamos, que nos sirvam de aumento dos frutos da redenção
               eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -255,7 +256,7 @@ export default function PageQuad23() {
               Espírito, sejam firmes na fé e activos nas obras. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

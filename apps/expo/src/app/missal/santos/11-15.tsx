@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1115() {
   return (
@@ -24,7 +25,7 @@ export default function Page1115() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Albértum Pontíficem tuum atque Doctórem in humána
               sapiéntia divínæ fídei subjiciénda magnum effecísti: da nobis,
@@ -38,11 +39,11 @@ export default function Page1115() {
               seu magistério que nos céus gozemos a luz perfeita. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifíciis præséntibus, Dómine, quǽsumus, inténde placátus: ut
               quod Passiónis Fílii tui Dómini nostri mystério gérimus, beáti
@@ -56,11 +57,11 @@ export default function Page1115() {
               celebramos, da paixão do vosso Filho e nosso Senhor. Pelo mesmo
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per hæc sancta quæ súmpsimus, ab hóstium nos, Dómine, impugnatióne
               defénde: et intercedénte beáto Albérto Confessóre tuo atque
@@ -72,7 +73,7 @@ export default function Page1115() {
               Alberto, vosso Confessor e Pontífice, permiti que gozemos a paz
               perpétua. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageTedeum() {
   return (
@@ -10,7 +11,7 @@ export default function PageTedeum() {
         <View className="docs">
           <Text className="h1">Te Deum</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Te Deum laudámus: te Dóminum confitémur. Te ætérnum Patrem omnis
               terra venerátur.
@@ -74,11 +75,11 @@ export default function PageTedeum() {
               Vós estais assentado à dextra de Deus, na glória do Pai.
               Acreditamos que sois o Juiz, que há-de vir.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">O seguinte verso diz-se de joelhos:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sequens versus dícitur flexis génibus: Te ergo quǽsumus, tuis
               fámulis súbveni, quos pretióso sánguine redemísti.
@@ -142,7 +143,7 @@ export default function PageTedeum() {
             <Text className="vernacular">
               Senhor, eu espero em Vós; nunca ficarei iludido.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageQuad15() {
@@ -15,7 +16,7 @@ export default function PageQuad15() {
 
           <Text className="em">Sl. 87, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Intret orátio mea in conspéctu tuo: inclína aurem tuam ad precem
               meam, Dómine. <Text className="latin">Ps. ibid., 2</Text> Dómine,
@@ -29,9 +30,9 @@ export default function PageQuad15() {
               Vós.<Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus. Flectámus génua.</Text>
             </Text>
@@ -44,11 +45,11 @@ export default function PageQuad15() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Levantai-vos!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pópulum tuum, quǽsumus, Dómine, propítius réspice: atque ab eo
               flagella tuæ iracúndiæ cleménter avérte. Per Dóminum...
@@ -57,13 +58,13 @@ export default function PageQuad15() {
               Senhor, Vos suplicamos, olhai propício para o vosso povo e afastai
               piedosamente dele os flagelos da vossa ira. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">1.ª Lição</Text>
 
           <Text className="em">Dt. 26, 12-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Deuteronómii.</Text>
             <Text className="vernacular">Lição do Livro do Deuteronómio.</Text>
             <Text className="latin">
@@ -107,13 +108,13 @@ export default function PageQuad15() {
               glória, e para que sejais o povo santo do Senhor, vosso Deus,
               segundo a sua palavra».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 78, 9 & 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes:
               Ubi est Deus eórum?<Text className="versicle"> ℣. </Text>Adjuva
@@ -126,9 +127,9 @@ export default function PageQuad15() {
               Auxiliai-nos, ó Deus, nosso Salvador; para honra do vosso nome,
               Senhor, livrai-nos.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus. Flectámus génua.</Text>
             </Text>
@@ -141,11 +142,11 @@ export default function PageQuad15() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Levantai-vos!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Potéctor noster, áspice, Deus: ut, qui malórum nostrórum póndere
               prémimur, percépta misericórdia, líbera tibi mente famulémur. Per
@@ -157,13 +158,13 @@ export default function PageQuad15() {
               efeito da vossa misericórdia, Vos sirvamos com o espírito livre.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">2.ª Lição</Text>
 
           <Text className="em">Dt. 11, 22-25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Deuteronómii.</Text>
             <Text className="vernacular">Lição do Livro do Deuteronómio.</Text>
             <Text className="latin">
@@ -190,13 +191,13 @@ export default function PageQuad15() {
               Ele disse, espalhará o pânico do vosso nome em todos os povos por
               onde passardes.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 83, 10 & 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Protéctor noster, áspice, Deus, et réspice super servos tuos.
               <Text className="versicle"> ℣. </Text>
@@ -207,9 +208,9 @@ export default function PageQuad15() {
               olhos para os vossos servos.<Text className="versicle"> ℣. </Text>
               Senhor, Deus dos exércitos, ouvi as súplicas dos vossos servos.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus. Flectámus génua.</Text>
             </Text>
@@ -222,11 +223,11 @@ export default function PageQuad15() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Levantai-vos!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto, quǽsumus, Dómine, supplicatiónibus nostris: ut esse, te
               largiénte, mereámur et inter próspera húmiles, et inter advérsa
@@ -237,13 +238,13 @@ export default function PageQuad15() {
               que, por efeito da vossa graça, possamos ser humildes nas
               prosperidades e confiantes nas contrariedades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">3.ª Lição</Text>
 
           <Text className="em">2 Mac. l, 23-26 et 27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Machabæórum.</Text>
             <Text className="vernacular">Lição do Livro dos Macabeus.</Text>
             <Text className="latin">
@@ -269,13 +270,13 @@ export default function PageQuad15() {
               santificai a vossa herança, para que todos os povos conheçam que
               sois nosso Deus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 89, 13 & 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Convértere, Dómine, aliquántulum, et deprecáre super servos tuos.
               <Text className="versicle"> ℣. </Text>Dómine, refúgium factus es
@@ -286,9 +287,9 @@ export default function PageQuad15() {
               preces dos vossos servos.<Text className="versicle"> ℣. </Text>
               Senhor, tendes sido o nosso refúgio de geração em geração.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus. Flectámus génua.</Text>
             </Text>
@@ -301,11 +302,11 @@ export default function PageQuad15() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Levantai-vos!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Preces pópuli tui, quǽsumus, Dómine, cleménter exáudi: ut, qui
               juste pro peccátis nostris afflígimur, pro tui nóminis glória
@@ -317,13 +318,13 @@ export default function PageQuad15() {
               nossos pecados, sejamos misericordiosamente livres pela glória do
               vosso nome. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">4.ª Lição</Text>
 
           <Text className="em">Ecl. 36, 1-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapientiae.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -356,13 +357,13 @@ export default function PageQuad15() {
               chegue depressa o fim e se publiquem as vossas maravilhas, ó
               Senhor, nosso Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 140, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dirigátur orátio mea sicut incénsum in conspéctu tuo, Dómine.
               <Text className="versicle"> ℣. </Text>
@@ -373,9 +374,9 @@ export default function PageQuad15() {
               Senhor!<Text className="versicle"> ℣. </Text>E que o erguer das
               minhas mãos Vos seja agradável, como o sacrifício da tarde.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus. Flectámus génua.</Text>
             </Text>
@@ -388,11 +389,11 @@ export default function PageQuad15() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Levantai-vos!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Actiónes nostras, quǽsumus, Dómine, aspirándo prǽveni, et
               adjuvándo proséquere: ut cuncta nostra orátio et operátio a te
@@ -404,13 +405,13 @@ export default function PageQuad15() {
               obras, tendo princípio em Deus, tenham também n’Ele sua
               finalidade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">5.ª Lição</Text>
 
           <Text className="em">Dn. 3, 47-51</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Daniélis Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Daniel.</Text>
             <Text className="latin">
@@ -435,7 +436,7 @@ export default function PageQuad15() {
               qualquer incómodo! Então, estes três jovens louvavam, glorificavam
               e bendiziam Deus na fornalha, em voz uníssona, dizendo:
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Hino Benedictus Es</Text>
 
@@ -446,7 +447,7 @@ export default function PageQuad15() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui tribus púeris mitigásti flammas ígnium: concéde
               propítius; ut nos fámulos tuos non exúrat flamma vitiórum. Per
@@ -457,13 +458,13 @@ export default function PageQuad15() {
               concedei, misericordiosamente, a nós, que somos vossos servos, que
               não sejamos queimados pelas chamas dos vícios. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Ts. 5, 14-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.
             </Text>
@@ -498,13 +499,13 @@ export default function PageQuad15() {
               e corpo se conservem irrepreensíveis até à vinda de N. S. Jesus
               Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 116, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli.
               <Text className="versicle"> ℣. </Text>
@@ -517,7 +518,7 @@ export default function PageQuad15() {
               misericórdia é infinita para connosco e a verdade do Senhor
               permanece eternamente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -530,7 +531,7 @@ export default function PageQuad15() {
 
           <Text className="em">Sl. 87, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, Deus salútis meæ, in die clamávi et nocte coram te: intret
               orátio mea in conspéctu tuo, Dómine.
@@ -539,11 +540,11 @@ export default function PageQuad15() {
               Senhor, meu Deus e meu Salvador, clamo dia e noite diante de Vós!
               Que minha oração se eleve até à vossa presença.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præséntibus sacrifíciis, quǽsumus, Dómine, jejúnia nostra
               sanctífica: ut, quod observántia nostra profitétur extrínsecus,
@@ -554,13 +555,13 @@ export default function PageQuad15() {
               sacrifício, a fim de que esta observância exterior produza efeitos
               espirituais interiores. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 7, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, Deus meus, in te sperávi: líbera me ab ómnibus
               persequéntibus me, et éripe me.
@@ -569,11 +570,11 @@ export default function PageQuad15() {
               Senhor, meu Deus, em Vós esperei; salvai-me e livrai-me de todos
               meus perseguidores.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctificatiónibus tuis, omnípotens Deus, et vítia nostra
               curéntur, et remédia nobis ætérna provéniant. Per Dóminum...
@@ -583,11 +584,11 @@ export default function PageQuad15() {
               pela virtude deste vosso sacrifício e concedei-nos o remédio que
               produz a salvação eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -609,7 +610,7 @@ export default function PageQuad15() {
               alcance a graça de se alegrarem sempre com vossos benefícios. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

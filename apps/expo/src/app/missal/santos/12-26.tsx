@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1226() {
   return (
@@ -16,7 +17,7 @@ export default function Page1226() {
 
           <Text className="em">Sl. 118, 23, 86 & 23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sedérunt príncipes, et advérsum me loquebántur: et iníqui
               persecúti sunt me: ádjuva me, Dómine, Deus meus, quia servus tuus
@@ -33,11 +34,11 @@ export default function Page1226() {
               os que são rectos nos seus caminhos e cumprem a Lei do Senhor.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da nobis, quǽsumus, Dómine, imitári quod cólimus: ut discámus et
               inimícos dilígere; quia ejus natalícia celebrámus, qui novit étiam
@@ -51,13 +52,13 @@ export default function Page1226() {
               pelos seus perseguidores a nosso Senhor Jesus Cristo: Que, sendo
               Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act. 6, 8-10; 7, 54-59</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Lectio Actuum Apostolorum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -99,13 +100,13 @@ export default function Page1226() {
               clamou com voz forte: «Senhor, lhes não imputeis este pecado».
               Tendo acabado de dizer isto, adormeceu no Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 118, 23 & 86</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sedérunt príncipes, et advérsum me loquebántur: et iníqui
               persecúti sunt me.<Text className="versicle"> ℣. </Text>
@@ -129,13 +130,13 @@ export default function Page1226() {
               <Text className="vernacular">Act. 7, 55</Text> Vejo os céus
               abertos, e Jesus, de pé, à dextra de Deus omnipotente. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 23, 34-39</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -175,13 +176,13 @@ export default function Page1226() {
               não verás até que digas: Bendito seja Aquele que vem em nome do
               Senhor».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Act. 6, 5 & 7, 59</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Elegérunt Apóstoli Stéphanum Levítam, plenum fide et Spíritu
               Sancto: quem lapidavérunt Judǽi orántem, et dicéntem: Dómine Jesu,
@@ -192,11 +193,11 @@ export default function Page1226() {
               de fé e do Espírito Santo; o qual os judeus apedrejaram, enquanto
               rezava e dizia: «Senhor Jesus, recebei o meu espírito». Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, múnera pro tuórum commemoratióne Sanctórum: ut,
               sicut illos pássio gloriósos effécit; ita nos devótio reddat
@@ -208,13 +209,13 @@ export default function Page1226() {
               gloriosos, assim também a nossa piedade nos torne inocentes. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Act. 7, 55, 58 & 59</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vídeo cœlos apértos, et Jesum stantem a dextris virtútis Dei:
               Dómine Jesu, accipe spíritum meum, et ne státuas illis hoc
@@ -225,11 +226,11 @@ export default function Page1226() {
               Ó Senhor Jesus, recebei o meu espírito e lhes não imputeis este
               pecado.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Auxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáto
               Stéphano Mártyre tuo, sempitérna protectióne confírment. Per
@@ -241,7 +242,7 @@ export default function Page1226() {
               vosso Mártir, nos confirmem na vossa contínua protecção. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

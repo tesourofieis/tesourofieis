@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad32() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad32() {
 
           <Text className="em">Sl. 16, 6 & 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ego clamávi, quóniam exaudísti me, Deus: inclína aurem tuam, et
               exáudi verba mea: custódi me, Dómine, ut pupíllam óculi: sub umbra
@@ -32,11 +33,11 @@ export default function PageQuad32() {
               é muito humilde.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi nos, omnípotens et miséricors Deus: et continéntiæ
               salutáris propítius nobis dona concéde. Per Dóminum nostrum...
@@ -45,13 +46,13 @@ export default function PageQuad32() {
               Ouvi-nos, ó Deus omnipotente e misericordioso, e concedei-nos
               propício o dom da salutar continência. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">4 Rs. 4, 1-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Regum.</Text>
             <Text className="vernacular">Lição do Livro dos Reis.</Text>
             <Text className="latin">
@@ -92,13 +93,13 @@ export default function PageQuad32() {
               o azeite, paga ao teu credor e viverás do restante com teus
               filhos».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 18,13-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ab occúltis meis munda me, Dómine: et ab aliénis parce servo tuo.
               <Text className="versicle"> ℣. </Text>Si mei non fúerint domináti,
@@ -109,13 +110,13 @@ export default function PageQuad32() {
               servo os delitos alheios. Se os meus delitos me não escravizarem,
               então serei perfeito: e ficarei purificado dos grandes delitos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt, 18, 15-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -159,13 +160,13 @@ export default function PageQuad32() {
               vezes?». Disse-lhe Jesus: «Não te digo até sete vezes, mas até
               setenta vezes sete vezes!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 117, 16 & 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non
               móriar, sed vivam, et narrábo ópera Dómini.
@@ -174,11 +175,11 @@ export default function PageQuad32() {
               A dextra do Senhor triunfou; a dextra do Senhor exaltou-me. Não
               morrerei; mas viverei e contarei as obras do Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per hæc véniat, quǽsumus, Dómine, sacraménta nostræ redemptiónis
               efféctus: qui nos et ab humánis rétrahat semper excéssibus, et ad
@@ -190,13 +191,13 @@ export default function PageQuad32() {
               excessos próprios da natureza humana, obtenhamos a graça da
               salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 14, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, quis habitábit in tabernáculo tuo? aut quis requiéscet in
               monte sancto tuo? Qui ingréditur sine mácula, et operátur
@@ -207,11 +208,11 @@ export default function PageQuad32() {
               vossa montanha sagrada? Aquele que não tiver manchas e proceder
               com justiça.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacris, Dómine, mystériis expiáti: et véniam, quǽsumus,
               consequámur et grátiam. Per Dóminum...
@@ -221,11 +222,11 @@ export default function PageQuad32() {
               sagrados mystérios, concedei-nos o perdão e a graça. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Humiliáte cápita vestra Deo.</Text>
             <Text className="vernacular">
               Inclinai as vossas cabeças diante de Deus.
@@ -238,7 +239,7 @@ export default function PageQuad32() {
               Defendei-nos, Senhor, com vossa protecção e livrai-nos
               perpetuamente de todas as iniquidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

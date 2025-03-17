@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageSantissimatrindade() {
   return (
@@ -23,7 +24,7 @@ export default function PageSantissimatrindade() {
 
           <Text className="em">2 Cor. 13, 11 & 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -43,13 +44,13 @@ export default function PageSantissimatrindade() {
               Senhor Jesus Cristo, o amor de Deus e a comunicação do Espírito
               Santo estejam sempre convosco. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Dan. 3, 55-56</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedíctus es, Dómine, qui íntuens abýssos, et sedes super
               Chérubim.<Text className="versicle"> ℣. </Text>Benedíctus es,
@@ -72,7 +73,7 @@ export default function PageSantissimatrindade() {
               Senhor, Deus dos nossos pais: e sois digno de louvor em todos os
               séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Depois da Septuagésima omite-se o Aleluia e o que se segues, e
@@ -81,7 +82,7 @@ export default function PageSantissimatrindade() {
 
           <Text className="h3">Trato</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Te Deum, Patrem ingénitum, te, Fílium unigénitum, te, Spíritum
               Sanctum Paráclitum, sanctam et indivíduam Trinitátem, toto corde
@@ -100,13 +101,13 @@ export default function PageSantissimatrindade() {
               Deus.<Text className="versicle"> ℣. </Text>A Vós, ó beatíssima
               Trindade, louvor, glória e acção de graças em todos os séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No tempo Pascal omite-se o Gradual e o Trato, e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Dan. 3, 52</Text> Benedíctus es, Dómine,
@@ -121,13 +122,13 @@ export default function PageSantissimatrindade() {
               Aleluia.<Text className="versicle"> ℣. </Text>Bendigamos o Pai, e
               o Filho com o Espírito Santo. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 15, 26-27; 16, 1-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -159,7 +160,7 @@ export default function PageSantissimatrindade() {
               Digo-vos estas coisas para que, quando chegar a hora, vos lembreis
               de que vo-las disse.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

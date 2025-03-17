@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page10Perseguidoresigreja() {
   return (
@@ -12,7 +13,7 @@ export default function Page10Perseguidoresigreja() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecclésiæ tuæ, quǽsumus, Dómine, preces placátus admítte: ut,
               destrúctis adversitátibus et erróribus univérsis, secúra tibi
@@ -24,11 +25,11 @@ export default function Page10Perseguidoresigreja() {
               os obstáculos, ela Vos sirva com liberdade e segurança. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Prótege nos, Dómine, tuis mystériis serviéntes: ut, divinis rebus
               inhæréntes, et córpore tibi famulémur et mente. Per Dóminum...
@@ -38,11 +39,11 @@ export default function Page10Perseguidoresigreja() {
               fim de que, unindo-nos aos mystérios divinos, Vos sirvamos com o
               corpo e com a alma. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, Dómine, Deus noster: ut, quos divína tríbuis
               participatióne gaudére, humánis non sinas subjacére perículis. Per
@@ -53,7 +54,7 @@ export default function Page10Perseguidoresigreja() {
               quem concedestes a graça de participar do divino banquete sejam
               expostos aos perigos que ameaçam os homens. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

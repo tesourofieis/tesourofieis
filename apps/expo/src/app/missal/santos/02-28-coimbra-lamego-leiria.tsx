@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0228CoimbraLamegoLeiria() {
   return (
@@ -25,7 +26,7 @@ export default function Page0228CoimbraLamegoLeiria() {
 
           <Text className="h2">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Magníficet te, Dómine, sancti Confessóris tui atque Pontíficis
               Augustíni veneránda Tranlátio: qua illi honórem, et nobis opem,
@@ -36,11 +37,11 @@ export default function Page0228CoimbraLamegoLeiria() {
               Confessor e Pontífice, nos engrandeça, a qual, por Vossa inefável
               providência, deu a ele glória e a nós socorro. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, múnera tuæ majestáti obláta, per
               intercessiónem beáti Augustíni Confessóris tui atque Pontíficis,
@@ -51,11 +52,11 @@ export default function Page0228CoimbraLamegoLeiria() {
               Vossa majestade por intercessão do B. Agostinho, Vosso Confessor e
               Pontífice, nos façam chegar à salvação eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacraménta salútis nostræ suscipiéntes, concéde, quǽsumus,
               omnípotens Deus: ut beáti Augustíni Confessóris tui atque
@@ -69,7 +70,7 @@ export default function Page0228CoimbraLamegoLeiria() {
               Pontífice, em cuja Trasladação oferecemos estes dons à Vossa
               majestade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

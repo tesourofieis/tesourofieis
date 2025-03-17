@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0720() {
   return (
@@ -35,7 +36,7 @@ export default function Page0720() {
 
           <Text className="em">Lm. 2, 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Effúsum est in terra jecur meum super contritióne fíliæ pópuli
               mei, cum defíceret párvulus et lactens in platéis óppidi.{" "}
@@ -51,11 +52,11 @@ export default function Page0720() {
               meninos; louvai o nome do Senhor.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, misericordiárum pater, per mérita et intercessiónem beáti
               Hieronymi, quem órphanis adjutorem et patrem esse voluísti:
@@ -69,13 +70,13 @@ export default function Page0720() {
               adopção, em virtude do qual somos chamados vossos filhos e
               realmente o somos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Is. 58, 7-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -110,13 +111,13 @@ export default function Page0720() {
               corrupção. Sereis como um jardim sempre regado e como uma fonte
               cujas águas não secam.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Pr. 5, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Derivéntur fontes tui foras, et in platéis aquas tuas divide.
               <Text className="versicle"> ℣. </Text>
@@ -143,13 +144,13 @@ export default function Page0720() {
               distribuiu esmolas pelos pobres, pelo que sua justiça permanecerá
               em todos os séculos dos séculos. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 19, 13-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -193,13 +194,13 @@ export default function Page0720() {
               vende tudo o que te pertence e dá-o aos pobres. Então alcançarás
               um tesouro no céu. Depois vem e segue-me».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Tb. 12, 12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quando orábas cum lácrimis, et sepeliébas mórtuos, et
               derelinquébas prándium tuum, et mórtuos abscondébas per diem in
@@ -212,11 +213,11 @@ export default function Page0720() {
               dia na tua casa e enterrando-os durante a noite eu apresentei a
               tua oração ao Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Clementíssime Deus, qui, véteri homine consúmpto, novum secúndum
               te in beáto Hierónymo creáre dignátus es: da, per mérita ipsíus;
@@ -230,13 +231,13 @@ export default function Page0720() {
               como ele, Vos apresentemos esta hóstia de propiciação, como um
               perfume de suave odor. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Tg. 1, 27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Relígio munda et immaculáta apud Deum et Patrem hæc est: Visitáre
               pupíllos et víduas in tribulatióne eórum, et immaculátum se
@@ -247,11 +248,11 @@ export default function Page0720() {
               visitar os órfãos e as viúvas nas suas aflições e conservar-se
               puro na corrupção deste mundo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Angelórum pane refécti te, Dómine, supplíciter deprecámur: ut, qui
               ánnuam beáti Hierónymi Confessóris tui memóriam celebráre
@@ -265,7 +266,7 @@ export default function Page0720() {
               mereçamos alcançar as liberalíssimas recompensas do vosso reino.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

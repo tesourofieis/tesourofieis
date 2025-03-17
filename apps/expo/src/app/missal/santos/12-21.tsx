@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1221() {
   return (
@@ -35,7 +36,7 @@ export default function Page1221() {
 
           <Text className="em">Sl. 138, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confórtátus
               est principatus eórum.{" "}
@@ -51,11 +52,11 @@ export default function Page1221() {
               conhecendo quando me deito e quando me levanto.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da nobis, quǽsumus, Dómine, beáti Apóstoli tui Thomæ
               sollemnitátibus gloriári: ut ejus semper et patrocíniis
@@ -67,13 +68,13 @@ export default function Page1221() {
               amparados com seu patrocínio e imitemos a sua fé com a devida
               devoção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ef. 2, 19-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
@@ -97,13 +98,13 @@ export default function Page1221() {
               também sois edificados para vos tornardes pelo Espírito Santo em
               morada de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 138, 17-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Nimis honorati sunt amíci tui, Deus: nimis confortátus est
               principátus eórum.<Text className="versicle"> ℣. </Text>Dinumerábo
@@ -125,13 +126,13 @@ export default function Page1221() {
               alegrai-vos no Senhor; pois aos corações rectos convém celebrar os
               louvores do Senhor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 20, 24-29</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -169,13 +170,13 @@ export default function Page1221() {
               me viste, ó Tomé, acreditaste: bem-aventurados aqueles que não
               viram e acreditaram».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 18, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In omnem terram exívit sonus eórum: et in fines orbis terræ verba
               eórum.
@@ -184,11 +185,11 @@ export default function Page1221() {
               O som da sua voz ecoou por toda a terra; e as suas palavras
               prolongaram-se até às extremidades da terra.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Débitum tibi, Dómine, nostræ réddimus servitútis, supplíciter
               exorántes: ut, suffrágiis beáti Thomæ Apóstoli, in nobis tua
@@ -201,13 +202,13 @@ export default function Page1221() {
               por intercessão do B. Tomé, Apóstolo, em quem honramos a gloriosa
               confissão, imolando hóstias em vosso louvor. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 20, 27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mitte manum tuam, et cognósce loca clavórum: et noli esse
               incrédulus, sed fidélis.
@@ -216,11 +217,11 @@ export default function Page1221() {
               Mete aqui a tua mão e reconhece o lugar dos cravos. Não sejas
               incrédulo, mas fiel.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto nobis, miséricors Deus: et, intercedénte pro nobis beáto
               Thoma Apóstolo, tua circa nos propitiátus dona custódi. Per
@@ -231,7 +232,7 @@ export default function Page1221() {
               Apóstolo Tomé dignai-Vos conservar a nossa alma na posse dos dons
               que benignamente nos concedestes. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

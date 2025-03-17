@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page10Dur() {
   return (
@@ -14,7 +15,7 @@ export default function Page10Dur() {
 
           <Text className="em">Ap. 5, 12; 1, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dignus est Agnus, qui occísus est, accípere virtútem, et
               divinitátem, et sapiéntiam, et fortitúdinem, et honórem. Ipsi
@@ -31,11 +32,11 @@ export default function Page10Dur() {
               poder de julgar; e a vossa justiça ao Filho do Rei.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui in dilécto Fílio tuo, universórum
               Rege, ómnia instauráre voluísti: concéde propítius; ut cunctæ
@@ -48,13 +49,13 @@ export default function Page10Dur() {
               todas as famílias do mundo, livres da chaga do pecado, se submetam
               ao Seu suavíssimo império. Ele, que, sendo Deus, vive e reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Cl. 1, 12-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.
             </Text>
@@ -95,13 +96,13 @@ export default function Page10Dur() {
               sangue na Cruz tanto o que está na terra, como o que está no céu,
               em nosso Senhor Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 71, 8 & 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dominábitur a mari usque ad mare, et a flúmine usque ad términos
               orbis terrárum.<Text className="versicle"> ℣. </Text>Et adorábunt
@@ -124,13 +125,13 @@ export default function Page10Dur() {
               nunca Lhe será tirado; seu reino é tal que nunca será corrompido.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 18, 33-37</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -165,13 +166,13 @@ export default function Page10Dur() {
               este mundo, a fim de dar testemunho da verdade. Todo aquele que é
               da verdade, escuta a minha voz».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 2, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Póstula a me, et dabo tibi gentes hereditátem tuam, et
               possessiónem tuam términos terræ.
@@ -180,11 +181,11 @@ export default function Page10Dur() {
               Pede-me: e dar-te-ei as nações como herança; e como domínio os
               confins da terra!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstiam tibi, Dómine, humánæ reconciliatiónis offérimus: præsta,
               quǽsumus; ut, quem sacrifíciis præséntibus immolámus, ipse cunctis
@@ -198,13 +199,13 @@ export default function Page10Dur() {
               povos os benefícios da união e da paz: Ele, que convosco vive e
               reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 28, 10 & 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sedébit Dóminus Rex in ætérnum: Dóminus benedícet pópulo suo in
               pace.
@@ -213,11 +214,11 @@ export default function Page10Dur() {
               Assentar-se-á, eternamente, o Senhor como Rei e abençoará o seu
               povo em paz.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Immortalitátis alimóniam consecúti, quǽsumus, Dómine: ut, qui sub
               Christi Regis vexíllis militáre gloriámur, cum ipso, in cœlésti
@@ -230,7 +231,7 @@ export default function Page10Dur() {
               gloriamos de militar: Ele, que, sendo Deus, convosco vive e
               reina...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

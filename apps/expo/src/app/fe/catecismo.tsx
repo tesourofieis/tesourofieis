@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageCatecismo() {
   return (
@@ -3835,7 +3836,7 @@ export default function PageCatecismo() {
             I -{" "}
             <Text className="em">Dos Mandamentos da Lei de Deus em geral</Text>
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">
                 A lei do Senhor, que é imaculada, converte as almas; o
@@ -4015,7 +4016,7 @@ export default function PageCatecismo() {
                 Psalmus CXVIII, 47-48
               </Text>
             </Text>
-          </View>
+          </Language>
           <Text className="h5">
             342 - De que trata a terceira parte da Doutrina Cristã?
           </Text>

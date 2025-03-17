@@ -26,6 +26,7 @@ import {
   Platform,
   Pressable,
   StatusBar,
+  Switch,
   Text,
   View,
 } from "react-native";
@@ -258,20 +259,19 @@ const Header = ({ withBC }) => {
 
   if (withBC) {
     return (
-      <View className="flex-row items-center p-5 gap-5 border-b bg-sepia-300 dark:bg-sepia-900 w-full">
+      <View className="flex-row items-center p-5 gap-5 border-b bg-sepia-300 dark:bg-sepia-900 w-full justify-between">
         <Link href="/">
           <FontAwesome6 name="arrow-left" size={15} color="#e53935" />
         </Link>
         <Breadcrumbs />
-        <Pressable onPress={toggleLanguage} className="ml-auto">
-          <Text className="text-sm text-sepia-700 dark:text-sepia-300 font-serif">
-            {language === "latin"
-              ? "Latin"
-              : language === "vernacular"
-                ? "Vernacular"
-                : "Both"}
-          </Text>
-        </Pressable>
+        <Switch
+          trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
+          thumbColor={language === "vernacular" ? COLORS["200"] : COLORS["500"]}
+          ios_backgroundColor="#3e3e3e"
+          onValueChange={toggleLanguage}
+          value={language === "vernacular"}
+          accessibilityLabel={"Toggle language"}
+        />
       </View>
     );
   }

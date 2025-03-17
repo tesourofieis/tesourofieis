@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePangelingua() {
   return (
@@ -10,7 +11,7 @@ export default function PagePangelingua() {
         <View className="docs">
           <Text className="h1">Pange, lingua, gloriósi</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pange, lingua, gloriósi Córporis mystérium, Sanguinísque pretiósi,
               Quem in mundi prétium Fructus ventris generósi Rex effúdit
@@ -51,9 +52,9 @@ export default function PagePangelingua() {
               desfalece, não podendo compreender isto, a fé basta para
               corroborar esta crença nos corações sinceros.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tamtum ergo Sacraméntum Venerémur cérnui: Et antíquum documéntum
               Novo cedat rítui: Præstet fides suppleméntum Sénsuum deféctui.
@@ -63,9 +64,9 @@ export default function PagePangelingua() {
               ritos antigos o lugar ao novo mystério e que a fé supra a fraqueza
               dos nossos sentidos.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Genitóri, Genitóque Laus et jubilátio, Salus, honor, virtus quoque
               Sit et benedíctio: Procedénti ab utróque Compar sit laudátio.
@@ -76,7 +77,7 @@ export default function PagePangelingua() {
               dadas ao Pai e ao Filho: e dêem-se iguais louvores ao que procede
               de um e do outro. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

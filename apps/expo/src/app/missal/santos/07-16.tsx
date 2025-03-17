@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0716() {
@@ -43,7 +44,7 @@ export default function Page0716() {
 
           <Text className="em">Sedulius</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
               beátæ Maríæ Vírginis: de cujus sollemnitáte gaudent Angeli et
@@ -59,11 +60,11 @@ export default function Page0716() {
               uma excelente palavra: Consagro ao Rei as minhas obras.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beatíssimæ semper Vírginis et Genetrícis tuæ Maríæ
               singulári título Carméli órdinem decorásti: concéde propítius; ut,
@@ -78,13 +79,13 @@ export default function Page0716() {
               comemoração celebramos hoje, solenemente, sejamos dignos de
               alcançar as eternas alegrias. Ó Vós, que...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ecl. 24, 23-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -113,11 +114,11 @@ export default function Page0716() {
               aqueles que se orientarem em mim não pecarão; e aqueles que me
               tornarem conhecida alcançarão a vida eterna.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Bendeícta et venerábilis es, Virgo María: quæ sine tactu pudóris
               invénta es Mater Salvatóris.<Text className="versicle"> ℣. </Text>
@@ -142,7 +143,7 @@ export default function Page0716() {
               recebestes do céu a graça de serdes Mãe, gerando o Salvador do
               mundo. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -155,7 +156,7 @@ export default function Page0716() {
 
           <Text className="em">Jr. 18, 20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Recordáre, Virgo Mater, in conspéctu Dei, ut loquáris pro nobis
               bona, et ut avértat indignatiónem suam a nobis.
@@ -164,11 +165,11 @@ export default function Page0716() {
               Recordai-vos, ó Virgem Maria, de interceder por nós junto de Deus
               e de conseguirdes afastar de nós a sua indignação.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctífica, Dómine, quǽsumus, obláta libámina: et, beátæ Dei
               Genetrícis Maríæ salubérrima intercessióne, nobis salutária fore
@@ -179,11 +180,11 @@ export default function Page0716() {
               apresentadas, e, pela eficacíssima intercessão da B. Virgem Maria,
               fazei que nos sejam salutares. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Regina mundi digníssima, María, Virgo perpétua, intercéde pro
               nostra pace et salúte, quæ genuísti Christum Dóminum, Salvatórem
@@ -194,11 +195,11 @@ export default function Page0716() {
               Cristo, Senhor e Salvador de todos, alcançai-nos pela vossa
               intercessão a paz e a salvação.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adjuvet nos, quǽsumus, Dómine, gloriósæ tuæ Genetrícis sempérque
               Vírginis Maríæ intercéssio veneránda: ut, quos perpétuis cumulávit
@@ -212,7 +213,7 @@ export default function Page0716() {
               livres de todos os perigos, a sua bondade nos faça viver em
               concórdia. Ó Vós, que, sendo Deus...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

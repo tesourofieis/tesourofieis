@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePascoa() {
   return (
@@ -17,7 +18,7 @@ export default function PagePascoa() {
             noite); hac potíssimum (neste tempo).
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vere dignum et justum est, æquum et salutáre: Te quidem, Dómine,
               omni témpore, sed in hac potissímum die (vel in hoc potíssimum)
@@ -37,7 +38,7 @@ export default function PagePascoa() {
               e Dominações e com toda a milícia do exército celestial, cantamos
               o hino da vossa glória, dizendo incessantemente:
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

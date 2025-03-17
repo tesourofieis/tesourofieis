@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageApostolos() {
   return (
@@ -25,7 +26,7 @@ export default function PageApostolos() {
 
           <Text className="em">Ef. 4, 7-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
@@ -60,7 +61,7 @@ export default function PageApostolos() {
               Deus, ao estado da perfeição humana, à medida da plenitude de
               Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Missa de Todos os S. S. Apóstolos</Text>
 
@@ -73,7 +74,7 @@ export default function PageApostolos() {
 
           <Text className="em">Sl. 63, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Protexísti me, Deus, a convéntu malignántium, allelúja: a
               multitúdine operántium iniquitátem, allelúja, allelúja.{" "}
@@ -88,11 +89,11 @@ export default function PageApostolos() {
               Vos invocar, ouvi a minha oração: livrai a minha alma do temor do
               inimigo.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Depois da Epistola:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 88, 6</Text> Confitebúntur cœli
@@ -111,13 +112,13 @@ export default function PageApostolos() {
               mundo, a fim de que possais ir (pelo mundo), alcanceis frutos e
               esses frutos permaneçam Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 44, 17-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Constítues eos príncipes super omnem terram: mémores erunt nóminis
               tui, Dómine, in omni progénie et generatióne, allelúja, allelúja.
@@ -126,13 +127,13 @@ export default function PageApostolos() {
               Vós os instituístes príncipes em toda a terra: eles se recordarão
               do vosso nome em todas as gerações. Aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 18, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In omnem terram exívit sonus eórum: et in fines orbis terræ verba
               eórum, allelúja, allelúja.
@@ -141,7 +142,7 @@ export default function PageApostolos() {
               O som da sua voz ecoa por toda a terra, fazendo-se ouvir as suas
               palavras até às extremidades do mundo, aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

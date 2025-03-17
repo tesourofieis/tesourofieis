@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page028() {
   return (
@@ -10,7 +11,7 @@ export default function Page028() {
         <View className="docs">
           <Text className="h1">Salmo 28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Afférte Dómino, fílii Dei: * afférte Dómino fílios aríetum.
             </Text>
@@ -88,7 +89,7 @@ export default function Page028() {
               O Senhor dará fortaleza ao seu povo: * o Senhor abençoará o seu
               povo com paz.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page8Muitosmartires3() {
   return (
@@ -14,7 +15,7 @@ export default function Page8Muitosmartires3() {
 
           <Text className="em">Sl. 36, 39</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salus autem justórum a Dómino: et protéctor eórum est in témpore
               tribulatiónis. <Text className="latin">Ps. ibid., 1</Text> Noli
@@ -28,11 +29,11 @@ export default function Page8Muitosmartires3() {
               maus, nem tenhais emulação daqueles que cometem iniquidades.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos ánnua sanctórum Mártyrum tuórum et{" "}
               <Text className="latin">N.</Text> sollemnitáte lætíficas: concéde
@@ -46,13 +47,13 @@ export default function Page8Muitosmartires3() {
               sejamos afervorados com os exemplos daqueles cujos méritos nos
               enchem de alegria. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Heb. 10, 32-38</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
             </Text>
@@ -88,13 +89,13 @@ export default function Page8Muitosmartires3() {
               então chegará aquele que deve vir, o qual não tardará. Meu justo
               vive, pois, da sua fé.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 33, 18-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus
               tribulatiónibus eórum liberávit eos.
@@ -116,7 +117,7 @@ export default function Page8Muitosmartires3() {
               cândido dos mártires, ó Senhor, canta louvores em vossa honra!
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -126,7 +127,7 @@ export default function Page8Muitosmartires3() {
 
           <Text className="em">Sl. 125, 5-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui séminant in lácrimis, in gáudio metent.
               <Text className="versicle"> ℣. </Text>Eúntes ibant et flébant,
@@ -141,13 +142,13 @@ export default function Page8Muitosmartires3() {
               Porém, quando voltavam, exultavam de alegria, trazendo os seus
               molhos de trigo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 12, 1-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -190,13 +191,13 @@ export default function Page8Muitosmartires3() {
               todo aquele que me confessar diante dos homens, o Filho do homem o
               reconhecerá igualmente diante dos Anjos de Deus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sb. 3, 1, 2 & 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justórum ánimæ in manu Dei sunt, et non tanget illos torméntum
               malítiae: visi sunt óculis insipiéntium mori: illi autem sunt in
@@ -207,11 +208,11 @@ export default function Page8Muitosmartires3() {
               as não tocará! Aos olhos dos insensatos pareciam quase a morrer,
               todavia estão na paz. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblátis, quǽsumus, Dómine, placáre munéribus: et, intercedéntibus
               sanctis Martýribus tuis <Text className="latin">N.</Text> et{" "}
@@ -225,13 +226,13 @@ export default function Page8Muitosmartires3() {
               <Text className="text-red-500">N.</Text>, preservai-nos de todos
               os perigos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 10, 27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quod dico vobis in ténebris, dícite in lúmine, dicit Dóminus: et
               quod in aure audítis, prædicáte super tecta.
@@ -240,11 +241,11 @@ export default function Page8Muitosmartires3() {
               O que vos digo nas trevas dizei-o às claras, diz o Senhor; e o que
               vos disse ao ouvido pregai-o em cima dos telhados.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc nos commúnio, Dómine, purget a crímine: et, intercedéntibus
               sanctis Martýribus tuis <Text className="latin">N.</Text> et{" "}
@@ -258,7 +259,7 @@ export default function Page8Muitosmartires3() {
               <Text className="text-red-500">N.</Text> nos faça participantes do
               remédio celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Outro Evangelho (para certos dias):</Text>
 
@@ -266,7 +267,7 @@ export default function Page8Muitosmartires3() {
 
           <Text className="em">Mt. 24, 3-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -312,7 +313,7 @@ export default function Page8Muitosmartires3() {
               iniquidade terá atingido o cúmulo, resfriará a caridade de muitos.
               Aquele que perseverar até ao fim será salvo».
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

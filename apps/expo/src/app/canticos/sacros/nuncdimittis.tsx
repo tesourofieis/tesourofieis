@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageNuncdimittis() {
   return (
@@ -10,7 +11,7 @@ export default function PageNuncdimittis() {
         <View className="docs">
           <Text className="h1">Nunc Dimíttis</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Nunc dimíttis, servum tuum, Dómine, * secúndum verbum tuum in
               pace:
@@ -54,7 +55,7 @@ export default function PageNuncdimittis() {
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

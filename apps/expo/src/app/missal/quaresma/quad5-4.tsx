@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad54() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad54() {
 
           <Text className="em">Dn. 3, 31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnia, quæ fecísti nobis, Dómine, in vero judício fecísti: quia
               peccávimus tibi, et mandátis tuis non obœdívimus: sed da glóriam
@@ -30,11 +31,11 @@ export default function PageQuad54() {
               <Text className="vernacular">Ps. 118, 1</Text> Bem-aventurados
               aqueles cuja vida é perfeita e que praticam a Lei do Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut dígnitas condiciónis humánæ,
               per immoderántiam sauciáta, medicinális parsimóniæ stúdio
@@ -45,13 +46,13 @@ export default function PageQuad54() {
               natureza humana, corrompida pela intemperança, seja restabelecida
               pela prática da salutar abstinência. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Dn. 3, 25 & 34-45</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Daniélis Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Daniel.</Text>
             <Text className="latin">
@@ -107,13 +108,13 @@ export default function PageQuad54() {
               aniquilada; e que conheçam que sois o Senhor, único Deus e o
               glorioso Senhor em toda a terra. Sim, Senhor, nosso Deus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 95, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tóllite hóstias, et introíte in átria ejus: adoráte Dóminum in
               aula sancta ejus.<Text className="versicle"> ℣. </Text>
@@ -126,13 +127,13 @@ export default function PageQuad54() {
               <Text className="vernacular">Sl. 28, 9</Text> O Senhor descobrirá
               o que está oculto, e todos O glorificarão no seu templo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 7, 36-50</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -199,13 +200,13 @@ export default function PageQuad54() {
               perdoa pecados?». E Jesus disse à mulher: «A tua fé salvou-te, vai
               em paz».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 136, 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Super flúmina Babylónis illic sédimus et flévimus: dum
               recordarémur tui, Sion.
@@ -214,11 +215,11 @@ export default function PageQuad54() {
               Ao pé das margens dos rios da Babilónia nos sentámos e chorámos,
               recordando-nos com saudade de Sião!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, Deus noster, qui in his pótius creatúris, quas ad
               fragilitátis nostræ subsídium condidísti, tuo quoque nómini múnera
@@ -233,13 +234,13 @@ export default function PageQuad54() {
               nos sirvam de auxílio na vida presente e ao mesmo tempo de
               sacramento de salvação eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 118, 49-50</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Meménto verbi tui servo tuo, Dómine, in quo mihi spem dedísti: hæc
               me consoláta est in humilitáte mea.
@@ -249,11 +250,11 @@ export default function PageQuad54() {
               a qual me enchestes de esperança: ela me tem consolado na
               humilhação.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quod ore súmpsimus, Dómine, pura mente capiámus: et de munere
               temporáli, fiat nobis remédium sempitérnum. Per Dóminum...
@@ -263,11 +264,11 @@ export default function PageQuad54() {
               boca recebeu; e que este dom temporal se torne para nós em remédio
               eterno. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -289,7 +290,7 @@ export default function PageQuad54() {
               que resultam da prática dos vossos mandamentos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

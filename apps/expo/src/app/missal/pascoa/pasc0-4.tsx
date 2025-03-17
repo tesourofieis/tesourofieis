@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc04() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc04() {
 
           <Text className="em">Sb. 10, 20-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Victrícem manum tuam, Dómine, laudavérunt páriter, allelúja: quia
               sapiéntia apéruit os mutum, et linguas infántium fecit disértas,
@@ -31,11 +32,11 @@ export default function PagePasc04() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui diversitátem géntium in confessióne tui nóminis
               adunásti: da, ut renátis fonte baptísmatis una sit fides méntium,
@@ -47,13 +48,13 @@ export default function PagePasc04() {
               baptismo tenham uma só fé no espírito e uma só piedade nas acções.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act. 8, 26-40</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolorum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -118,13 +119,13 @@ export default function PagePasc04() {
               pregava o nome do Senhor Jesus Cristo em todos os lugares por onde
               passava, até que chegou a Cesareia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 117, 24 & 22-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.
               <Text className="versicle"> ℣. </Text>
@@ -146,11 +147,11 @@ export default function PagePasc04() {
               Cristo, que criou todas as coisas: e compadeceu-se do género
               humano.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -195,13 +196,13 @@ export default function PagePasc04() {
               anunciou aos discípulos: «Eu vi o Senhor e eis o que Ele me
               disse».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Ex. 13, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In die solemnitátis vestræ, dicit Dóminus, indúcam vos in terram
               fluéntem lac et mel, allelúja.
@@ -210,11 +211,11 @@ export default function PagePasc04() {
               No dia da vossa solenidade, diz o Senhor, Eu vos conduzirei à
               terra onde correm leite e mel, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, quǽsumus, Dómine, múnera populórum tuórum propítius: ut,
               confessióne tui nóminis et baptísmate renováti, sempitérnam
@@ -225,13 +226,13 @@ export default function PagePasc04() {
               servos, para que, renovados em virtude da profissão de fé e do
               baptismo, alcancem a bem-aventurança eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">1 Pe. 2, 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pópulus acquisitiónis, annuntiáte virtútes ejus, allelúja: qui vos
               de ténebris vocávit in admirábile lumen suum, allelúja.
@@ -241,11 +242,11 @@ export default function PagePasc04() {
               aleluia, Foi Ele quem vos conduziu das trevas à sua admirável luz,
               aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi, Dómine, preces nostras: ut redemptiónis nostræ sacrosáncta
               commércia, et vitæ nobis cónferant præséntis auxílium, et gáudia
@@ -256,7 +257,7 @@ export default function PagePasc04() {
               mystérios da nossa redenção nos auxiliem durante esta vida e nos
               obtenham as alegrias eternas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

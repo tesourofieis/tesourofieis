@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1124() {
   return (
@@ -24,7 +25,7 @@ export default function Page1124() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui sanctum Joánnem Confessórem tuum atque Doctorem perféctæ
               sui abnegatiónis et Crucis amatórem exímium effecísti: concéde;
@@ -37,13 +38,13 @@ export default function Page1124() {
               fazei que, diligenciando imitá-lo, alcancemos a glória eterna. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Comemoração de S. Crisógono</Text>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto, Dómine, supplicatiónibus nostris: ut, qui ex iniquitáte
               nostra reos nos esse cognóscimus, beáti Chrysógoni Mártyris tui
@@ -54,11 +55,11 @@ export default function Page1124() {
               réus pelas nossas iniquidades, sejamos absolvidos pela intercessão
               do vosso B. Mártir Crisógono. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblatis, quǽsumus, Dómine, placáre munéribus: et, intercedénte
               beáto Chrysógono Mártyre tuo, a cunctis nos defénde perículis. Per
@@ -69,11 +70,11 @@ export default function Page1124() {
               suplicamos; e, pela intercessão do B. Crisógono, vosso Mártir,
               preservai-nos de todos os perigos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tui, Dómine, perceptióne sacraménti, et a nostris mundémur
               occúltis, et ab hóstium liberémur insídiis. Per Dóminum...
@@ -83,7 +84,7 @@ export default function Page1124() {
               nossas faltas ocultas e nos livre das insídias dos nossos
               inimigos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

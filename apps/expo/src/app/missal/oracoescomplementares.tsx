@@ -4,6 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import AdoroTeDevote from "../canticos/sacros/adorote";
 import Benedicite from "../canticos/sacros/benedicite";
 import Salmo150 from "../devocionario/salterio/150";
@@ -15,7 +16,7 @@ export default function PageOracoescomplementares() {
         <View className="docs">
           <Text className="h1">Orações Complementares</Text>
           <Text className="h2">Acção de Graças da Missa</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ant. Trium puerórum cantémus hymnum, quem cantábant Sancti in
               camíno ignis, benedicéntes Dóminum. (T. P. Allelúja.)
@@ -24,12 +25,12 @@ export default function PageOracoescomplementares() {
               Ant. Cantemos o hino dos três jovens que cantavam os Santos na
               fornalha do fogo, glorificando o Senhor. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Benedícite</Text>
           <Benedicite />
           <Text className="h3">Salmo 150</Text>
           <Salmo150 />
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ant. Trium puerórum cantémus hymnum, quem cantábant Sancti in
               camíno ignis, benedicéntes Dóminum. (T. P. Allelúja.)
@@ -147,9 +148,9 @@ export default function PageOracoescomplementares() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text>Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Oração São Tomás Aquino</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Grátias tibi ago, Dómine sancte, Pater omnípotens, ætérne Deus,
               qui me peccatórem, indígnum fámulum tuum, nullis meis méritis, sed
@@ -192,9 +193,9 @@ export default function PageOracoescomplementares() {
               delícias e felicidade perfeita. Pelo mesmo N. S. Jesus Cristo.
               Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Oração São Boaventura</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Transfíge, dulcíssime Dómine Jesu, medúllas et víscera ánimæ meæ
               suavíssimo ac salubérrimo amóris tui vúlnere, vera serenáque et
@@ -253,11 +254,11 @@ export default function PageOracoescomplementares() {
               inteligência estejam inabalavelmente fixos, seguros e enraizados.
               Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Adoro Te Devote</Text>
           <AdoroTeDevote />
           <Text className="h4">Piedosas Aspirações, Santo Inácio</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Anima Christi, sanctífica me. Corpus Christi, salva me. Sanguis
               Christi, inébria me. Aqua láteris Christi, lava me. Pássio
@@ -275,7 +276,7 @@ export default function PageOracoescomplementares() {
               E mandai-me ir para Vós, para que Vos louve com vossos Santos, por
               todos os séculos. Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h4">Oração a N. S. Jesus Cristo Crucificado</Text>
           <Text className="aside">
             Recitada depois da Missa pelas intenções do Sumo Pontífice e perante
@@ -290,7 +291,7 @@ export default function PageOracoescomplementares() {
             alt="Jesus Cristo Crucificado"
           />
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               En ego, o bone et dulcíssime Jesu, ante conspéctum tuum génibus me
               provólvo, ac máximo ánimi ardóre te oro atque obtéstor, ut meum in
@@ -320,9 +321,9 @@ export default function PageOracoescomplementares() {
               Sl. 21, 17-18 «Traspassaram as minhas mãos e os meu pés, e
               contaram todos meus ossos».
             </Text>
-          </View>
+          </Language>
           <Text className="h4">Oblação de si próprio</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, univérsam meam libertátem. Accipe memóriam,
               intelléctum atque voluntátem omnem. Quidquid hábeo vel possídeo,
@@ -338,9 +339,9 @@ export default function PageOracoescomplementares() {
               somente o vosso amor e a vossa graça e serei bastante rico: Vos
               não peço outra cousa.
             </Text>
-          </View>
+          </Language>
           <Text className="h4">Piedosa Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Obsécro te, dulcíssime Dómine Jesu Christe, ut pássio tua sit mihi
               virtus, qua múniar, prótegar atque deféndar; vúlnera tua sint mihi
@@ -361,9 +362,9 @@ export default function PageOracoescomplementares() {
               doçura do meu coração. Ó Vós, que viveis e reinais em todos os
               séculos dos séculos. Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h4">Oração à B. Virgem Maria</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               O María, Virgo et Mater sanctíssima, ecce, suscépi dilectíssimum
               Fílium tuum, quem immaculáto útero tuo concepísti, genuísti,
@@ -394,9 +395,9 @@ export default function PageOracoescomplementares() {
               para que convosco possa louvá-l’O em todos os séculos dos séculos.
               Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h4">Oração a S. José</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vírginum custos et pater, sancte Joseph, cujus fidéli custódiæ
               ipsa Innocéntia Christus Jesus et Virgo vírginum María commíssa
@@ -414,11 +415,11 @@ export default function PageOracoescomplementares() {
               erros, o coração seja puro e o corpo casto, a fim de que sirva
               continuamente a Jesus e a Maria em perfeita castidade. Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">
             Oração ao Santo em cuja honra foi celebrada a Missa
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sancte N., in cujus honórem incruéntum Córporis et Sánguinis
               Christi sacrifícium óbtuli, fac, tua poténti apud Deum
@@ -435,7 +436,7 @@ export default function PageOracoescomplementares() {
               frequente e contínua celebração (ou participação) destes mystérios
               me alcance os frutos da salvação. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page7Preladoscongregacoes() {
   return (
@@ -12,7 +13,7 @@ export default function Page7Preladoscongregacoes() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui facis mirabília magna solus:
               præténde super fámulos tuos, et super congregatiónes illis
@@ -28,11 +29,11 @@ export default function Page7Preladoscongregacoes() {
               infundi-lhes o orvalho perpétuo da vossa bênção. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias, Dómine, famulórum tuórum placátus inténde: et, quas in
               honórem nóminis tui devóta mente pro eis celebrámus, profícere
@@ -44,11 +45,11 @@ export default function Page7Preladoscongregacoes() {
               nome, permiti que, para seu auxílio, elas lhes alcancem efeitos
               salutares. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quos cœlésti récreas múnere, perpétuo, Dómine, comitáre præsídio:
               et, quos fovére non désinis, dignos fíeri sempitérna redemptióne
@@ -60,7 +61,7 @@ export default function Page7Preladoscongregacoes() {
               concedei-lhes que se tornem dignos da redenção eterna. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

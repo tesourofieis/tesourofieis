@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page21Virgemnaomartir2() {
@@ -15,7 +16,7 @@ export default function Page21Virgemnaomartir2() {
 
           <Text className="em">Sl. 44, 13, 15 & 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vultum tuum deprecabúntur omnes dívites plebis: adducéntur Regi
               Vírgines post eam: próximæ ejus adducéntur tibi in lætítia et
@@ -32,11 +33,11 @@ export default function Page21Virgemnaomartir2() {
               coração exprimiu uma palavra excelente: Consagro ao Rei as minhas
               obras!<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi nos, Deus, salutáris noster: ut, sicut de beátæ{" "}
               <Text className="latin">N.</Text> Vírginis tuæ festivitáte
@@ -49,13 +50,13 @@ export default function Page21Virgemnaomartir2() {
               <Text className="vernacular">N.</Text>, assim também consigamos
               alcançar sentimentos de terna devoção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Cor. 7, 25-34</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -104,13 +105,13 @@ export default function Page21Virgemnaomartir2() {
               nas coisas que são do Senhor, a fim de que sejam santas de corpo e
               de espírito, em N. S. Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 12 & 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concupívit Rex decórem tuum, quóniam ipse est Dóminus, Deus tuus.
               <Text className="versicle"> ℣. </Text>Audi, fília, et vide, et
@@ -129,7 +130,7 @@ export default function Page21Virgemnaomartir2() {
               Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Esta é a
               virgem sábia e uma das virgens prudentes. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -139,7 +140,7 @@ export default function Page21Virgemnaomartir2() {
 
           <Text className="em">Sl. 44, 12, 13 & 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quia concupívit Rex spéciem tuam.
               <Text className="versicle"> ℣. </Text>Vultum tuum deprecabúntur
@@ -162,13 +163,13 @@ export default function Page21Virgemnaomartir2() {
               meio da alegria e do júbilo: e serão introduzidas no templo do
               Rei.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Hæc est
               Virgo sápiens, et una de número prudéntum. Allelúja.
@@ -183,7 +184,7 @@ export default function Page21Virgemnaomartir2() {
               <Text className="vernacular">Sb. 4, 1</Text> Oh! como é bela a
               geração casta e gloriosa! Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -196,7 +197,7 @@ export default function Page21Virgemnaomartir2() {
 
           <Text className="em">Sl. 44, 15-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Afferéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in
               lætítia et exsultatióne: adducéntur in templum Regi Dómino. (T. P.
@@ -207,11 +208,11 @@ export default function Page21Virgemnaomartir2() {
               serão introduzidas no meio da alegria e do júbilo: e serão
               conduzidas ao templo do Rei, seu Senhor. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuorum honore
               Sanctórum: quorum se meritis de tribulatione percepísse cognóscit
@@ -223,13 +224,13 @@ export default function Page21Virgemnaomartir2() {
               tem alcançado a vossa assistência nas tribulações. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 13, 45-46</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Símile est regnum cœlórum hómini negotiatóri, quærénti bonas
               margarítas: invénta autem una pretiósa margaríta, dedit ómnia sua,
@@ -240,11 +241,11 @@ export default function Page21Virgemnaomartir2() {
               pérolas boas, e, achando uma de subido valor, vai, vende todos os
               bens e compra-a. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus,
               semper interventióne nos réfove, cujus sollémnia celebrámus. Per
@@ -255,7 +256,7 @@ export default function Page21Virgemnaomartir2() {
               sagrados, dignai-Vos favorecer-nos sempre pela intercessão daquela
               cuja festa celebramos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

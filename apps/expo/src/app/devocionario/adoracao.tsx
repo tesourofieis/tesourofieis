@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import Adorote from "./../canticos/sacros/adorote";
 import Aveverum from "./../canticos/sacros/aveverum";
 import Eccepanisangelorum from "./../canticos/sacros/eccepanisangelorum";
@@ -49,7 +50,7 @@ export default function PageAdoracao() {
           <Text className="h2">Parce Domine</Text>
           <Parcedomine />
           <Text className="h2">Cor jesu sacratissimum</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Cor Jesu sacratissimum:
             </Text>
@@ -63,11 +64,11 @@ export default function PageAdoracao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Tende misericórdia de nós.
             </Text>
-          </View>
+          </Language>
           <Text className="h1">Hino para antes da Bênção</Text>
           <Text className="h2">Tantum Ergo</Text>
           <Tantumergo />
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Panem de cælo præstitísti
               eis. (T. P. Aleluia)
@@ -109,9 +110,9 @@ export default function PageAdoracao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h1">Louvores Dívinos</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedíctus Deus. Benedíctum Nomen sanctum ejus.
             </Text>
@@ -182,19 +183,19 @@ export default function PageAdoracao() {
             <Text className="vernacular">
               Bendito Deus nos seus Anjos e nos seus Santos.
             </Text>
-          </View>
+          </Language>
           <Text className="h1">Hinos para depois da Bênção</Text>
           <Text className="h2">Cristus Vincit</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Christus Vincit!</Text>
             <Text className="vernacular">Cristo Vence!</Text>
             <Text className="latin">Christus Regnat!</Text>
             <Text className="vernacular">Cristo Reina!</Text>
             <Text className="latin">Christus, Cristus Imperat!</Text>
             <Text className="vernacular">Cristo, Cristo Impera!</Text>
-          </View>
+          </Language>
           <Text className="h2">Graças e Louvores</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Adoremus in aeternum
               sanctissimum Sacramentum.
@@ -203,7 +204,7 @@ export default function PageAdoracao() {
               <Text className="versicle"> ℣. </Text>Graças e louvores se dêem a
               todo o momento.
             </Text>
-          </View>
+          </Language>
           <Text className="text-base">
             <Text className="em">Sl. 116</Text> Que todas as nações louvem o
             Senhor; que todos os povos O aclamem. Porquanto grandiosa é para

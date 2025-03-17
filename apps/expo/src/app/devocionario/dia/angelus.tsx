@@ -6,6 +6,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { Image } from "expo-image";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageAngelus() {
   return (
@@ -29,7 +30,7 @@ export default function PageAngelus() {
             .
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Angelus Dómini nuntiávit Maríæ.</Text>
             <Text className="vernacular">
               O Anjo do Senhor anunciou a Maria.
@@ -158,7 +159,7 @@ export default function PageAngelus() {
               sua Paixão e Cruz. Pelo mesmo Jesus Cristo Senhor Nosso.{" "}
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

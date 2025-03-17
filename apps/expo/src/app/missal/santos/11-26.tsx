@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1126() {
   return (
@@ -22,7 +23,7 @@ export default function Page1126() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Clementíssime Deus, qui sanctum Silvéstrum Abbátem, sǽculi hujus
               vanitátem in apérto túmulo pie meditántem, ad erémum vocáre et
@@ -38,11 +39,11 @@ export default function Page1126() {
               seu exemplo, desprezemos os bens terrenos, a fim de gozarmos
               eternamente a vossa companhia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, Dómine: ut, dum hæc múnera divínæ majestáti tuæ
               reverénter offérimus; pia mentis præparatióne et cordis puritáte,
@@ -56,11 +57,11 @@ export default function Page1126() {
               coração, a fim de que mereçamos receber santamente o Corpo e o
               Sangue de vosso Filho. O qual convosco vive e reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Divína dape reféctis tríbue, quǽsumus, Dómine: sancti Silvéstri
               Abbátis vestígiis ita inhærére; ut copiósam mercédem in regno
@@ -72,7 +73,7 @@ export default function Page1126() {
               Silvestre que tenhamos com vossos Santos copiosa recompensa no
               reino da vossa glória. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Comemoração de S. Pedro Alexandrino</Text>
 

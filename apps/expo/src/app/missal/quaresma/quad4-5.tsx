@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageQuad45() {
@@ -15,7 +16,7 @@ export default function PageQuad45() {
 
           <Text className="em">Sl. 18, 15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deditátio cordis mei in conspéctu tuo semper: Dómine, adjútor
               meus, et redémptor meus.{" "}
@@ -30,11 +31,11 @@ export default function PageQuad45() {
               a glória do Senhor e o firmamento anuncia as obras das suas mãos.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui ineffabílibus mundum rénovas sacraméntis: præsta,
               quǽsumus; ut Ecclésia tua et ætérnis profíciat institútis, et
@@ -46,13 +47,13 @@ export default function PageQuad45() {
               eternos que lhe conferistes, e não seja desprovida do vosso
               socorro nas necessidades temporais. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">3 Rs. 17, 17-24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Regum.</Text>
             <Text className="vernacular">Lição do Livro dos Reis.</Text>
             <Text className="latin">
@@ -93,13 +94,13 @@ export default function PageQuad45() {
               disse a Elias: «Agora reconheço que sois um homem de Deus e que a
               palavra do Senhor, que anunciais, é verdadeira».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 117, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Bonum est confídere in Dómino, quam confídere in hómine.
               <Text className="versicle"> ℣. </Text>Bonum est speráre in Dómino,
@@ -109,7 +110,7 @@ export default function PageQuad45() {
               É melhor confiar no Senhor do que no homem. É melhor ter esperança
               no Senhor do que nos príncipes.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
@@ -122,7 +123,7 @@ export default function PageQuad45() {
 
           <Text className="em">Jo. 11, 1-45</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -264,13 +265,13 @@ export default function PageQuad45() {
               muitos judeus, que tinham acompanhado Maria e Marta, vendo isto,
               acreditaram em Jesus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 17, 28 & 32</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pópulum húmilem salvum fácies, Dómine, et óculos superbórum
               humiliábis: quóniam quis Deus præter te, Dómine?
@@ -279,11 +280,11 @@ export default function PageQuad45() {
               Vós, Senhor, salvais o povo humilde e abateis os olhos dos
               soberbos. Quem é, pois, Deus senão Vós, Senhor?
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera nos, Dómine, quǽsumus, obláta puríficent: et te nobis
               jugiter fáciant esse placátum. Per Dóminum nostrum...
@@ -293,13 +294,13 @@ export default function PageQuad45() {
               oferecemos, nos purifiquem e aplaquem incessantemente a vossa ira
               contra nós. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 11, 33, 35, 43, 44 & 39</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Videns Dóminus flentes soróres Lázari ad monuméntum, lacrimátus
               est coram Judǽis, et exclamávit: Lázare, veni foras: et pródiit
@@ -311,11 +312,11 @@ export default function PageQuad45() {
               fora». E aquele que estava morto havia quatro dias apareceu com os
               pés e as mãos ligados!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc nos, quǽsumus, Dómine, participátio sacraménti: et a propriis
               reátibus indesinénter expédiat, et ab ómnibus tueátur advérsis.
@@ -326,11 +327,11 @@ export default function PageQuad45() {
               suplicamos, nos livre sempre das nossas culpas e nos defenda de
               todas as adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -351,7 +352,7 @@ export default function PageQuad45() {
               confiança no vosso poder, concedei-nos, Vos suplicamos, que
               gozemos sempre os efeitos da vossa bondade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

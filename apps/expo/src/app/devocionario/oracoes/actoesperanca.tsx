@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageActoesperanca() {
   return (
@@ -10,7 +11,7 @@ export default function PageActoesperanca() {
         <View className="docs">
           <Text className="h1">Acto de Esperança</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine Deus, spero per grátiam tuam remissiónem ómnium peccatórum,
               et post hanc vitam ætérnam felicitátem me esse consecutúrum: quia
@@ -24,7 +25,7 @@ export default function PageActoesperanca() {
               poderoso, fiel e misericordioso. Nesta esperança, é minha
               determinação viver e morrer. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

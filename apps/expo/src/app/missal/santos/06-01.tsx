@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0601() {
   return (
@@ -22,7 +23,7 @@ export default function Page0601() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui novum per beátam Angelam sacrárum Virginum collégium in
               Ecclésia tua floréscere voluísti: da nobis, ejus intercessióne,
@@ -36,11 +37,11 @@ export default function Page0601() {
               fim de que, renunciando a todas as coisas terrenas, mereçamos
               gozar as alegrias eternas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstia, Dómine, quam tibi beátæ Angelæ memóriam recoléntes
               offérimus, et nostræ pravitatis véniam implóret, et grátiæ tuæ
@@ -51,11 +52,11 @@ export default function Page0601() {
               Ângela, nos obtenha misericórdia por causa dos nossos desvarios e
               nos alcance os dons da vossa graça. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœlésti alimónia refécti, súpplices te, Dómine, deprecámur: ut,
               beátæ Angelæ précibus et exémplo ab omni labe mundáti, et córpore
@@ -67,7 +68,7 @@ export default function Page0601() {
               o seu exemplo, sejamos purificados de todas as manchas e Vos
               sejamos agradáveis no corpo e na alma. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

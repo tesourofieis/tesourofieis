@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageVexillaregis() {
   return (
@@ -10,7 +11,7 @@ export default function PageVexillaregis() {
         <View className="docs">
           <Text className="h1">Vexílla Regis</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vexílla Regis pródeunt: Fúlget Crucis mystérium, Qua vita mortem
               pértulit, Et morte vitam prótulit.
@@ -72,7 +73,7 @@ export default function PageVexillaregis() {
               da nossa salvação. Vós, que nos dais a vitória pela Cruz,
               dignai-Vos aumentá-la com a recompensa. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

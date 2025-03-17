@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent10() {
   return (
@@ -14,7 +15,7 @@ export default function PagePent10() {
 
           <Text className="em">Tb. 12, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícta sit sancta Trínitas atque indivísa Unitas: confitébimur
               ei, quia fecit nobíscum misericórdiam suam.{" "}
@@ -31,11 +32,11 @@ export default function PagePent10() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui dedísti fámulis tuis in
               confessióne veræ fídei, ætérnæ Trinitátis glóriam agnóscere, et in
@@ -51,13 +52,13 @@ export default function PagePent10() {
               a mesma fé, vençamos sempre todas as adversidades. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Rm. 11, 33-36</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
@@ -80,13 +81,13 @@ export default function PagePent10() {
               para Ele e n’Ele. A Ele, pois, seja dada glória em todos os
               séculos. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Dn. 3, 55-56</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedíctus es, Dómine, qui intuéris abýssos, et sedes super
               Chérubim.<Text className="versicle"> ℣. </Text>Benedíctus es,
@@ -109,13 +110,13 @@ export default function PagePent10() {
               Senhor, Deus de nossos pais, e digno de louvor em todos os
               séculos. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 28, 18-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -138,13 +139,13 @@ export default function PagePent10() {
               Ensinai-os a observar tudo o que vos mandei. E sabei que estou
               convosco todos os dias até à consumação dos séculos».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Tb. 12, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedíctus sit Deus Pater, unigenitúsque Dei Fílius, Sanctus
               quoque Spíritus: quia fecit nobíscum misericórdiam suam.
@@ -153,11 +154,11 @@ export default function PagePent10() {
               Bendito seja Deus Pai, e o Filho Unigénito de Deus, e também o
               Espírito Santo: pois foi misericordioso para connosco.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctífica, quǽsumus, Dómine, Deus noster, per tui sancti nóminis
               invocatiónem, hujus oblatiónis hóstiam: et per eam nosmetípsos
@@ -169,13 +170,13 @@ export default function PagePent10() {
               que por ela nos convertamos em dom perpétuo de homenagem à vossa
               majestade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Tb. 12, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícimus Deum cœli et coram ómnibus vivéntibus confitébimur ei:
               quia fecit nobíscum misericórdiam suam.
@@ -184,11 +185,11 @@ export default function PagePent10() {
               Bendizemos Deus do céu e cantamos os seus louvores diante de todos
               os viventes: pois foi misericordioso para connosco.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Profíciat nobis ad salútem córporis et ánimæ, Dómine, Deus noster,
               hujus sacraménti suscéptio: et sempitérnæ sanctæ Trinitátis
@@ -200,7 +201,7 @@ export default function PagePent10() {
               sirvam, Senhor, de proveito para a salvação da alma e do corpo.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

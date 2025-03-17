@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page17Bomtempo() {
   return (
@@ -12,7 +13,7 @@ export default function Page17Bomtempo() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ad te nos, Dómine, clamántes exáudi: et áëris serenitátem nobis
               tríbue supplicántibus; ut, qui juste pro peccátis nostris
@@ -26,11 +27,11 @@ export default function Page17Bomtempo() {
               vossa misericórdia e sintamos a vossa clemência Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Prævéniat nos, quǽsumus, Dómine, grátia tua semper et subsequátur:
               et has oblatiónes, quas pro peccátis nostris nómini tuo
@@ -46,11 +47,11 @@ export default function Page17Bomtempo() {
               vossos Santos a todos aproveitem para a salvação. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus, cleméntiam tuam: ut inundántiam
               coérceas ímbrium, et hilaritátem vultus tui nobis impertíri
@@ -61,7 +62,7 @@ export default function Page17Bomtempo() {
               as torrentes da chuva, que nos inunda, e Vos digneis mostrar-nos
               aspecto agradável. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

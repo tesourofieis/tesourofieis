@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0201() {
   return (
@@ -14,7 +15,7 @@ export default function Page0201() {
 
           <Text className="em">Gl. 6, 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu
               Christi: per quem mihi mundus crucifíxus est, et ego mundo.{" "}
@@ -30,13 +31,13 @@ export default function Page0201() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Rm. 8, 35-39</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epistolæ beáti Pauli Apóstoli ad Romános.
             </Text>
@@ -66,13 +67,13 @@ export default function Page0201() {
               poderá separar-nos do amor de Deus, que está em nosso Senhor Jesus
               Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Ecl. 44, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce sacérdos magnus, qui m diébus suis plácuit Deo.
               <Text className="versicle"> ℣. </Text>
@@ -96,7 +97,7 @@ export default function Page0201() {
               com Cristo. Vivo, mas já não sou eu que vivo: é Cristo que vive em
               mim. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o Verso, e diz-se:
@@ -106,7 +107,7 @@ export default function Page0201() {
 
           <Text className="em">Sl. 20, 3-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Desirérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
               fraudásti eum.<Text className="versicle"> ℣. </Text>Quoniam
@@ -121,13 +122,13 @@ export default function Page0201() {
               bênçãos faustosas.<Text className="versicle"> ℣. </Text>Colocastes
               na sua cabeça o diadema de ouro.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 8, 6-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Glória et honóre coronásti eum: et constituísti eum super ópera
               mánuum tuárum, Domine.
@@ -136,13 +137,13 @@ export default function Page0201() {
               Vós o coroastes, Senhor, com glória e honras: Vós lhe concedestes
               domínio sobre as obras das vossas mãos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Palavras de S. Inácio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fruméntum Christi sum: déntibus bestiárum molar, ut panis mundus
               invéniar.
@@ -151,7 +152,7 @@ export default function Page0201() {
               Sou o trigo de Cristo, que hei-de ser moído nos dentes das feras
               para me tornar em pão puríssimo.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

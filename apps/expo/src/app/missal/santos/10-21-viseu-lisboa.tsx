@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1021ViseuLisboa() {
   return (
@@ -14,7 +15,7 @@ export default function Page1021ViseuLisboa() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da nobis, quǽsumus, Dómine, Deus noster, sanctárum Vírginum et
               Mártyrum tuárum Ursulæ et Sociárum ejus palmas incessábili
@@ -28,11 +29,11 @@ export default function Page1021ViseuLisboa() {
               podemos celebrar dignamente os seus méritos, ao menos possamos
               oferecer-lhes as nossas humildes homenagens. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Inténde, quǽsumus, Dómine, múnera altáribus tuis pro sanctárum
               Virginum et Mártyrum tuárum Ursulæ et Sociárum ejus festivitáte
@@ -46,11 +47,11 @@ export default function Page1021ViseuLisboa() {
               que, assim como lhes concedestes a glória, assim nos concedais o
               perdão dos nossos pecados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta nobis, quǽsumus, Dómine: intercedéntibus sanctis Virgínibus
               et Martýribus tuis Ursula et Sociábus ejus: ut, quod ore
@@ -62,7 +63,7 @@ export default function Page1021ViseuLisboa() {
               com o coração puro o que a nossa boca acaba de receber. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

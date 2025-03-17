@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0402() {
@@ -22,7 +23,7 @@ export default function Page0402() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, humílium celsitúdo, qui beátum Francíscum Confessórem
               Sanctórum tuórum glória sublimásti: tríbue, quǽsumus; ut, ejus
@@ -36,13 +37,13 @@ export default function Page0402() {
               felicidade de conseguirmos as recompensas prometidas aos humildes.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Fl. 3, 7-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epistola; beáti Pauli Apóstoli ad Philippénses.
             </Text>
@@ -79,11 +80,11 @@ export default function Page0402() {
               meu caminho para ver se alcanço o destino para que fui
               predestinado por Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc dona devótæ plebis, Dómine, quibus tua cumulámus altária,
               beáti Francísci méritis tibi grata nobísque salutária, te
@@ -95,13 +96,13 @@ export default function Page0402() {
               intercessão dos méritos do B. Francisco, e por efeito da vossa
               misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 19, 28 & 29</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Amen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis
               me, céntuplum accipiétis, et vitam ætérnam possidébitis. (T.P.
@@ -111,11 +112,11 @@ export default function Page0402() {
               Em verdade vos digo: «Vós, que abandonastes tudo e me seguistes,
               recebereis o cêntuplo e possuireis a vida eterna». (T.P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumpta, Dómine, sacraménta cœléstia: beáto Francísco Confessóre
               tuo intercedénte, precámur; ut et temporális vitæ subsídia nobis
@@ -127,7 +128,7 @@ export default function Page0402() {
               Francisco, vosso Confessor, auxílios para a vida presente e para a
               eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

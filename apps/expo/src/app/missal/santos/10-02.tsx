@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1002() {
   return (
@@ -19,7 +20,7 @@ export default function Page1002() {
             , excepto:
           </Text>
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui ineffábili providéntia sanctos Angelos tuos ad nostram
               custódiam míttere dignáris: largíre supplícibus tuis; et eórum
@@ -32,10 +33,10 @@ export default function Page1002() {
               graça de serem sempre defendidos pela sua protecção e de gozarem
               eternamente, a sua companhia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Epístola</Text>
           <Text className="em">Ex. 23, 20-23</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Exodi.</Text>
             <Text className="vernacular">Lição do Livro Êxodo.</Text>
             <Text className="latin">
@@ -57,10 +58,10 @@ export default function Page1002() {
               afligirei aqueles que vos afligirem, pois o meu Anjo
               preceder-vos-á».
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Gradual</Text>
           <Text className="em">Sl. 90,11-12</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Angelis suis Deus mandávit de te, ut custódiant te in ómnibus viis
               tuis.<Text className="versicle"> ℣. </Text>In mánibus portábunt
@@ -83,10 +84,10 @@ export default function Page1002() {
               Senhor, ó exércitos do Senhor; pois estais ao seu serviço e
               desempenhais as suas ordens. Aleluia.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Ofertório</Text>
           <Text className="em">Sl. 102, 20 & 21</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícite Dóminum, omnes Angeli ejus: minístri ejus, qui fácitis
               verbum ejus, ad audiéndam vocem sermónum ejus.
@@ -95,9 +96,9 @@ export default function Page1002() {
               Bendizei o Senhor, ó vós, Anjos, heróis poderosos, executores das
               suas ordens e sempre fiéis aos seus chamamentos.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Secreta</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, múnera, quæ pro sanctórum Angelórum tuórum
               veneratióne deférimus: et concéde propítius; ut, perpétuis eórum
@@ -110,9 +111,9 @@ export default function Page1002() {
               protecção sejamos livres dos perigos da vida presente e alcancemos
               a vida eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Postcomúnio</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súmpsimus, Dómine, divína mystéria, sanctórum Angelórum tuórum
               festivitáte lætántes: quǽsumus; ut eórum protectióne ab hóstium
@@ -126,7 +127,7 @@ export default function Page1002() {
               insídias dos nossos inimigos e de todas as adversidades. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

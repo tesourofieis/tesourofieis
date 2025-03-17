@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageEpi20() {
   return (
@@ -14,7 +15,7 @@ export default function PageEpi20() {
 
           <Text className="em">Sl. 65, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnis terra adóret te, Deus, et psallat tibi: psalmum dicat nómini
               tuo, Altíssime. <Text className="latin">Ps. ibid., 1-2</Text>{" "}
@@ -31,11 +32,11 @@ export default function PageEpi20() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui cœléstia simul et terréna
               moderáris: supplicatiónes pópuli tui cleménter exáudi; et pacem
@@ -46,11 +47,11 @@ export default function PageEpi20() {
               a terra, ouvi misericordiosamente as súplicas do vosso povo, e
               concedei a vossa paz aos nossos tempos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
@@ -91,13 +92,13 @@ export default function PageEpi20() {
               tende entre vós os mesmos sentimentos; não aspireis ao que é
               elevado, mas aceitai o que é humilde.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 106, 20-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Misit Dóminus verbum suum, et sanávit eos: et erípuit eos de
               intéritu eórum.<Text className="versicle"> ℣. </Text>Confiteántur
@@ -120,13 +121,13 @@ export default function PageEpi20() {
               vós todos, que sois os seus Anjos: louvai-O, vós todos, que sois
               os seus exércitos. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 2, 1-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -173,13 +174,13 @@ export default function PageEpi20() {
               foi, ó Caná, de Galileia, o primeiro milagre que Jesus fez! Assim
               manifestou a sua glória, acreditando n’Ele os seus discípulos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 65, 1-2 & 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jubiláte Deo, univérsa terra: psalmum dícite nómini ejus: veníte
               et audíte, et narrábo vobis, omnes qui timétis Deum, quanta fecit
@@ -191,11 +192,11 @@ export default function PageEpi20() {
               Deus, e contar-vos-ei as graças que o Senhor fez à minha alma.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblata, Dómine, múnera sanctífica: nosque a peccatórum nostrórum
               máculis emúnda. Per Dóminum nostrum...
@@ -204,13 +205,13 @@ export default function PageEpi20() {
               Santificai, Senhor, as oblatas que Vos oferecemos; e purificai-nos
               das manchas dos nossos pecados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 2, 7, 8, 9 & 10-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dicit Dóminus: Implete hýdrias aqua et ferte architriclíno. Cum
               gustásset architriclínus aquam vinum factam, dicit sponso:
@@ -224,11 +225,11 @@ export default function PageEpi20() {
               até este momento!». Tal foi o primeiro milagre que Jesus fez na
               presença de seus discípulos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Augeátur in nobis, quǽsumus, Dómine, tuæ virtútis operatio: ut
               divínis vegetáti sacraméntis, ad eórum promíssa capiénda, tuo
@@ -240,7 +241,7 @@ export default function PageEpi20() {
               com vossa graça para alcançar os benefícios, de que são o penhor.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

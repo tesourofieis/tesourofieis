@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0424() {
   return (
@@ -24,7 +25,7 @@ export default function Page0424() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Fidelem, seráphico spíritus ardore succénsum, in
               veræ fídei propagatióne martýrii palma et gloriósis miráculis
@@ -41,7 +42,7 @@ export default function Page0424() {
               fé e a caridade que mereçamos ser fiéis no vosso serviço até à
               morte. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

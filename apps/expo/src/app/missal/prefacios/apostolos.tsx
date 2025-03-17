@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageApostolos() {
   return (
@@ -14,7 +15,7 @@ export default function PageApostolos() {
             Diz-se nas Festas dos Apóstolos e Evangelistas.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vere dignum et justum est, æquum et salutáre: Te, Dómine,
               supplíciter exoráre, ut gregem tuum, Pastor ætérne, non déseras:
@@ -36,7 +37,7 @@ export default function PageApostolos() {
               exército celestial, cantamos um hino à vossa glória, dizendo
               incessantemente:
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc60() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc60() {
 
           <Text className="em">Sl. 26, 7, 8 & 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi, Dómine, vocem meam, qua clamávi ad te, allelúja: tibi
               dixit cor meum, quæsívi vultum tuum, vultum tuum, Dómine,
@@ -34,11 +35,11 @@ export default function PagePasc60() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus: fac nos tibi semper et devótam gérere
               voluntátem; et majestáti tuæ sincéro corde servíre. Per Dóminum
@@ -49,13 +50,13 @@ export default function PagePasc60() {
               fervorosa para convosco e que sirvamos a vossa majestade com
               sinceridade de coração. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Pe. 4, 7-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
             <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
             <Text className="latin">
@@ -79,9 +80,9 @@ export default function PagePasc60() {
               faça pela virtude que Deus lhe dá, a fim de que Deus seja
               glorificado em tudo por Nosso Senhor Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 46, 9</Text> Regnávit Dóminus super
@@ -99,13 +100,13 @@ export default function PagePasc60() {
               <Text className="em">Jo. 14, 18</Text> Não vos deixarei órfãos:
               vou, e voltarei para vós e o vosso coração alegrar-se-á. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 15, 26-27; 16, 1-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -137,13 +138,13 @@ export default function PagePasc60() {
               Digo-Vos estas coisas para que, quando chegar a hora, vos lembreis
               de que vo-las disse.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 46, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ascéndit Deus in jubilatióne, et Dóminus in voce tubæ, allelúja.
             </Text>
@@ -151,11 +152,11 @@ export default function PagePasc60() {
               Deus elevou-se por entre aclamações de júbilo; o Senhor elevou-se
               ao som da trombeta, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifícia nos, Dómine, immaculáta puríficent: et méntibus nostris
               supérnæ grátiæ dent vigórem. Per Dóminum nostrum...
@@ -165,13 +166,13 @@ export default function PagePasc60() {
               comuniquem às nossas almas o vigor da graça celestial. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 17,12-13 & 15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pater, cum essem cum eis, ego servábam eos, quos dedísti mihi,
               allelúja: nunc autem ad te vénio: non rogo, ut tollas eos de
@@ -182,11 +183,11 @@ export default function PagePasc60() {
               aleluia; mas agora, que venho a Vós, não Vos peço que os tireis do
               mundo, mas que os livreis do mal, aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Repléti, Dómine, munéribus sacris: da, quǽsumus; ut in gratiárum
               semper actióne maneámus. Per Dóminum nostrum...
@@ -196,7 +197,7 @@ export default function PagePasc60() {
               Vos suplicamos, que por este motivo Vos rendamos contínuas acções
               de graças. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

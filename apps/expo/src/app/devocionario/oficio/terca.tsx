@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import { TabItem, Tabs } from "~/components/Tabs";
 import MementoRerumConditor from "./../../canticos/sacros/mementorerumconditor";
 import Salmo119 from "./../salterio/119";
@@ -22,7 +23,7 @@ export default function PageTerca() {
             deu nesta mesma hora.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Deus{" "}
               <Text className="cross"> ✠ </Text> in adjutórium meum inténde.
@@ -56,13 +57,13 @@ export default function PageTerca() {
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Memento rerum conditor</Text>
 
           <MementoRerumConditor />
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Ant.</Text> Maria Virgo assumpta est ad
               ætherum thalamum, in quo Rex regum stellato sedet solio.
@@ -72,7 +73,7 @@ export default function PageTerca() {
               exaltada ao tálamo celeste, onde o Rei dos reis está sentado num
               trono de estrelas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Salmo 119</Text>
 
@@ -88,7 +89,7 @@ export default function PageTerca() {
 
           <Tabs>
             <TabItem label="Depois da Purificação">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Maria Virgo assumpta est
                   ad ætherum thalamum, in quo Rex regum stellato sedet solio.
@@ -98,13 +99,13 @@ export default function PageTerca() {
                   exaltada ao tálamo celeste, onde o Rei dos reis está sentado
                   num trono de estrelas.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Ecl. 24, 15</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Et sic in Sion firmata sum, et in civitate sanctificata
                   similiter requievi, et in Jerúsalem potestas mea.
@@ -135,9 +136,9 @@ export default function PageTerca() {
                   <Text className="response"> ℟. </Text> Por isso vos abençoou
                   Deus para sempre.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Hic genuflectitur</Text> Kyrie eleison
                 </Text>
@@ -169,9 +170,9 @@ export default function PageTerca() {
                   <Text className="response"> ℟. </Text> E o meu clamor chegue
                   até Vós.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Orémus.</Text>
                 </Text>
@@ -199,11 +200,11 @@ export default function PageTerca() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
 
             <TabItem label="No Adveno">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ave, María, grátia plena;
                   Dóminus tecum: benedícta tu in muliéribus.
@@ -213,13 +214,13 @@ export default function PageTerca() {
                   graça, o Senhor é convosco; bendita sois vós entre as
                   mulheres.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Is. 6, 1-2</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Egredietur virga de radice Jesse, et flos de radice ejus
                   ascendet. Et requiescet super eum Spiritus Domini.
@@ -250,9 +251,9 @@ export default function PageTerca() {
                   <Text className="response"> ℟. </Text> Por isso Deus vos
                   abençoou para sempre.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Hic genuflectitur</Text> Kyrie eleison
                 </Text>
@@ -284,9 +285,9 @@ export default function PageTerca() {
                   <Text className="response"> ℟. </Text> E o meu clamor chegue
                   até Vós.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Orémus.</Text>
                 </Text>
@@ -314,11 +315,11 @@ export default function PageTerca() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
 
             <TabItem label="No Natal">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Quando natus es
                   inefabilitre ex Virgnine, tunc impletæ sunt Scripturæ: sicut
@@ -331,11 +332,11 @@ export default function PageTerca() {
                   descestes como a chuva sobre a lã, para salvar a humanidade.
                   Nós Vos louvamos, ó Nosso Deus.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
           </Tabs>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Domine, exaudi orationem
               meam.
@@ -378,7 +379,7 @@ export default function PageTerca() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Acabar com uma{" "}

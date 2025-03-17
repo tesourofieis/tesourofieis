@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1025() {
   return (
@@ -24,7 +25,7 @@ export default function Page1025() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beatórum Mártyrum tuórum, Dómine, Chrysánthi et Dáriæ, quǽsumus,
               adsit nobis orátio: ut, quos venerámur obséquio, eórum pium
@@ -36,13 +37,13 @@ export default function Page1025() {
               com as nossas homenagens, experimentemos incessantemente o seu
               piedoso auxílio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 11, 47-51</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -75,11 +76,11 @@ export default function Page1025() {
               entre o altar e o santuário. Sim, eu vo-lo digo: disto será pedida
               conta a esta geração».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Póuli tui, quǽsumus, Dómine, tibi grata sit hóstia, quæ in
               natalítiis sanctórum Mártyrum tuórum Chrysánthi et Dáriæ
@@ -90,11 +91,11 @@ export default function Page1025() {
               solenemente é imolada em honra dos vossos Santos Mártires Crisanto
               e Daria. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mýsticis, Dómine, repléti sumus votis et gáudiis: præsta,
               quǽsumus; ut, intercessiónibus sanctórum Mártyrum tuórum
@@ -107,7 +108,7 @@ export default function Page1025() {
               intercessão dos vossos Santos Mártires Crisanto e Daria alcancemos
               espiritualmente o que agora celebrámos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc54() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc54() {
 
           <Text className="em">Act. 1, 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Viri Galilǽi, quid admirámini aspiciéntes in cœlum? allelúja:
               quemádmodum vidístis eum ascendéntem in cœlum, ita véniet,
@@ -31,11 +32,11 @@ export default function PagePasc54() {
               alegria!
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, omnípotens Deus: ut, qui hodiérna die
               Unigénitum tuum, Redemptórem nostrum, ad cœlos ascendísse
@@ -48,13 +49,13 @@ export default function PagePasc54() {
               Vos suplicamos, tenhamos a nossa morada em espírito lá no céu.
               Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act. 1, 1-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostólorum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -104,9 +105,9 @@ export default function PagePasc54() {
               que se elevou ao céu no meio de vós, de lá virá da mesma maneira
               que O vistes elevar-se».
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 46, 6</Text> Ascéndit Deus in
@@ -124,13 +125,13 @@ export default function PagePasc54() {
               no seu santuário; e, subindo «ao alto», levou consigo os cativos.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mc. 16, 14-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Marcum.
@@ -170,13 +171,13 @@ export default function PagePasc54() {
               em todos os lugares, cooperando o Senhor com eles e confirmando as
               suas palavras com milagres, que as acompanhavam.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 46, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ascéndit Deus in jubilatióne, et Dóminus in voce tubæ, allelúja.
             </Text>
@@ -184,11 +185,11 @@ export default function PagePasc54() {
               Subiu Deus no meio de aclamações jubilosas: o Senhor elevou-se ao
               som da trombeta, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, múnera, quæ pro Fílii tui gloriósa censióne
               deférimus: et concéde propítius; ut a præséntibus perículis
@@ -200,13 +201,13 @@ export default function PagePasc54() {
               dos perigos presentes e alcancemos a vida eterna. Pelo mesmo nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 67, 33-34</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Psállite Dómino, qui ascéndit super cœlos cœlórum ad Oriéntem,
               allelúja.
@@ -215,11 +216,11 @@ export default function PagePasc54() {
               Cantai louvores ao Senhor, que sobe no Oriente ao mais alto dos
               céus, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta nobis, quǽsumus, omnípotens et miséricors Deus: ut, quæ
               visibílibus mystériis suménda percépimus, invisíbili consequámur
@@ -230,7 +231,7 @@ export default function PagePasc54() {
               sejamos participantes dos efeitos invisíveis dos mystérios em que
               visivelmente tomámos parte. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageEpi10() {
   return (
@@ -12,7 +13,7 @@ export default function PageEpi10() {
 
           <Text className="h3">Intróito</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In excélso throno vidi sedére virum, quem adórat multitúdo
               Angelórum, psalléntes in unum: ecce, cujus impérii nomen est in
@@ -28,11 +29,11 @@ export default function PageEpi10() {
               Senhor com alegria.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vota, quǽsumus, Dómine, supplicántis pópuli cœlésti pietáte
               proséquere: ut et, quæ agénda sunt, vídeant, et ad implénda, quæ
@@ -44,13 +45,13 @@ export default function PageEpi10() {
               conheçam o que devem cumprir e tenham coragem de cumprir o que
               conhecem. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Rm. 12, 1-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
@@ -85,13 +86,13 @@ export default function PageEpi10() {
               corpo em Jesus Cristo, sendo cada um de nós em particular membros
               uns dos outros, em Jesus Cristo, nosso Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 71, 18 & 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedíctus Dóminus, Deus Israël, qui facit mirabília magna solus a
               sǽculo.<Text className="versicle"> ℣. </Text>Suscípiant montes
@@ -115,13 +116,13 @@ export default function PageEpi10() {
               jubilosamente o Senhor, ó habitantes da terra: obedecei ao Senhor
               com alegria. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 2, 42-52</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -171,13 +172,13 @@ export default function PageEpi10() {
               todas estas coisas no coração. Quanto a Jesus, crescia em
               sabedoria, em idade e em graça, diante de Deus e dos homens.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 99, 1 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jubiláte Deo, omnis terra, servíte Dómino in lætítia: intráte in
               conspéctu ejus in exsultatióne: quia Dóminus ipse est Deus.
@@ -187,11 +188,11 @@ export default function PageEpi10() {
               Senhor com alegria: apresentai-vos diante d’Ele com alegria; pois
               Ele é bom.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblátum tibi, Dómine, sacrificium vivíficet nos semper et múniat.
               Per Dóminum nostrum...
@@ -200,13 +201,13 @@ export default function PageEpi10() {
               Fazei, Senhor, que este sacrifício, que Vos é oferecido, sempre
               nos vivifique e conforte. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 2, 48 & 49</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fili, quid fecísti nobis sic? ego et pater tuus doléntes
               quærebámus te. Et quid est, quod me quærebátis? nesciebátis, quia
@@ -217,11 +218,11 @@ export default function PageEpi10() {
               pai e eu Vos buscávamos aflitos! E porque me procuráveis? Não
               sabíeis que é preciso que me ocupe das coisas de meu Pai?
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súpplices te rogámus, omnípotens Deus: ut, quos tuis réfícis
               sacraméntis, tibi etiam plácitis móribus dignánter deservíre
@@ -232,7 +233,7 @@ export default function PageEpi10() {
               que se sustentam com vossos sacramentos a graça de Vos servirem
               com actos que Vos sejam agradáveis. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

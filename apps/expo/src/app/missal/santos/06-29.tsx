@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0629() {
@@ -42,7 +43,7 @@ export default function Page0629() {
 
           <Text className="em">Act. 12, 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Nunc scio vere, quia misit Dóminus Angelum suum: et erípuit me de
               manu Heródis et de omni exspectatióne plebis Judæórum.{" "}
@@ -58,11 +59,11 @@ export default function Page0629() {
               conhecendo quando me deito e quando me levanto.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui hodiérnam diem Apostolórum tuórum Petri et Pauli
               martýrio consecrásti: da Ecclésiæ tuæ, eórum in ómnibus sequi
@@ -75,13 +76,13 @@ export default function Page0629() {
               em tudo as lições daqueles pelos quais a religião teve princípio.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act. 12, 1-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolórum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -135,13 +136,13 @@ export default function Page0629() {
               «Agora reconheço, verdadeiramente, que o Senhor enviou o seu Anjo
               e me livrou de Herodes e daquilo que esperava o povo judaico!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 17-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Constítues eos príncipes super omnem terram: mémores erunt nóminis
               tui. Dómine.<Text className="versicle"> ℣. </Text>Pro pátribus
@@ -164,7 +165,7 @@ export default function Page0629() {
               <Text className="vernacular">Mt. 18,18</Text> Tu és Pedro e sobre
               esta pedra edificarei a minha Igreja. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -177,7 +178,7 @@ export default function Page0629() {
 
           <Text className="em">Sl. 44, 17-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Constítues eos príncipes super omnem terram: mémores erunt nóminis
               tui, Dómine, in omni progénie et generatióne.
@@ -187,11 +188,11 @@ export default function Page0629() {
               Senhor, a recordação do vosso nome, em todos os séculos dos
               séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias, Dómine, quas nómini tuo sacrándas offérimus, apostólica
               prosequátur orátio: per quam nos expiári tríbuas et deféndi. Per
@@ -203,24 +204,24 @@ export default function Page0629() {
               de expiação das nossas faltas e de nossa defesa. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 16, 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tu es Petrus, ei super hanc petram aedificabo Ecclésiam meam.
             </Text>
             <Text className="vernacular">
               Tu és Pedro e sobre esta pedra edificarei a minha Igreja.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quos cœlésti, Dómine, alimento satiásti: apostólicis
               intercessiónibus ab omni adversitáte custódi. Per Dóminum
@@ -231,7 +232,7 @@ export default function Page0629() {
               preservar de todas as adversidades aqueles que saciastes com o
               alimento celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

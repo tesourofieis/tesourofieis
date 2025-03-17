@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0730() {
   return (
@@ -31,7 +32,7 @@ export default function Page0730() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui sanctis tuis Abdon et Sennen ad hanc glóriam veniéndi
               copiósum munus grátiæ contulísti: da fámulis tuis suorum véniam
@@ -45,13 +46,13 @@ export default function Page0730() {
               pelo valor dos méritos dos vossos Santos mereçamos ser livres de
               todas as adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Cor. 6, 4-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beati Pauli Apostoli ad Corinthios.
             </Text>
@@ -88,13 +89,13 @@ export default function Page0730() {
               sendo julgados pobres, mas enriquecendo muitos; sendo considerados
               como não tendo nada, mas possuindo tudo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Ex. 15, 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gloriosus Deus in Sanctis suis: mirábilis in majestáte, fáciens
               prodígia.<Text className="versicle"> ℣. </Text>
@@ -119,13 +120,13 @@ export default function Page0730() {
               estão nas mãos de Deus e o tormento da malícia os não ferirá.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 5, 1-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -167,11 +168,11 @@ export default function Page0730() {
               Regozijai-vos, então, e exultai de alegria, pois uma copiosa
               recompensa vos está preparada no céu».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc hóstia, quǽsumus, Dómine, quam sanctórum Mártyrum tuórum
               natalítia recenséntes offérimus: et víncula nostræ pravitátis
@@ -183,13 +184,13 @@ export default function Page0730() {
               livre das cadeias dos nossos pecados e nos alcance os dons da
               vossa misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 78, 2 & 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Posuérunt mortália servórum tuórum, Dómine, escas volatílibus
               cœli, carnes Sanctórum tuórum béstiis terræ: secúndum magnitúdinem
@@ -201,11 +202,11 @@ export default function Page0730() {
               Santos às feras da terra. Pelo poder do vosso braço Conservai os
               filhos daqueles que foram mortos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per hujus, Dómine, operationem mystérii, et vitia nostra
               purgéntur: et, intercedéntibus sanctis Martyribus tuis Abdon et
@@ -217,7 +218,7 @@ export default function Page0730() {
               Ábdon e Senen, sejam realizados os nossos justos desejos. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

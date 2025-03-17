@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent173() {
   return (
@@ -14,7 +15,7 @@ export default function PagePent173() {
 
           <Text className="em">Sl 80:2-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsultáte Deo, adjutóri nostro: jubiláte Deo Jacob: súmite psalmum
               jucúndum cum cíthara: cánite in inítio mensis tuba, quia præcéptum
@@ -34,11 +35,11 @@ export default function PagePent173() {
               língua que não compreendia.<Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Misericórdiæ tuæ remédiis, quǽsumus, Dómine, fragílitas nostra
               subsístat: ut, quæ sua conditióne attéritur, tua cleméntia
@@ -50,13 +51,13 @@ export default function PagePent173() {
               da nossa fragilidade, assim nos elevemos por efeito da vossa
               clemência. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">1.ª Lição</Text>
 
           <Text className="em">Amós 9:13-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Amos Prophétæ.</Text>
             <Text className="vernacular">Lição do livro de Amós.</Text>
             <Text className="latin">
@@ -79,13 +80,13 @@ export default function PagePent173() {
               Estabelecê-los-ei no seu país e os não tirarei mais dessa terra,
               que lhes dei:» diz o Senhor, vosso Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl 112:5-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quis sicut Dóminus, Deus noster, qui in altis hábitat, et humilia
               réspicit in cœlo et in terra?
@@ -98,11 +99,11 @@ export default function PagePent173() {
               <Text className="versicle"> ℣. </Text>Ele livra o indigente da
               lama e o pobre da montureira!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, Dómine, famíliæ tuæ supplicánti: ut, dum a cibis
               corporálibus se ábstinet, a vítiis quoque mente jejúnet.
@@ -112,13 +113,13 @@ export default function PagePent173() {
               abstendo-se das comidas corporais, jejue, também, espiritualmente
               dos vícios.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Esd. 8:1-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Esdræ.</Text>
             <Text className="vernacular">Lição do Livro de Esdras.</Text>
             <Text className="latin">
@@ -172,13 +173,13 @@ export default function PagePent173() {
               preparado para si; pois este dia é consagrado ao Senhor. Não vos
               contristeis, porque a alegria do Senhor é a nossa fortaleza».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl 32:12, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit
               Dóminus in hereditátem sibi.<Text className="versicle"> ℣. </Text>
@@ -191,13 +192,13 @@ export default function PagePent173() {
               <Text className="versicle"> ℣. </Text>A palavra do Senhor criou os
               céus: e o sopro da sua boca criou espíritos celestiais.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mc 9:16-28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Marcum.
@@ -249,13 +250,13 @@ export default function PagePent173() {
               E ninguém pôde responder-Lhe uma palavra, nem, desde aquele dia em
               diante, ninguém mais ousou interrogá-l’O!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl 118:47-48</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Meditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas
               ad mandáta tua, quæ diléxi.
@@ -265,11 +266,11 @@ export default function PagePent173() {
               amor: As minhas mão estão sempre prontas para cumprir os vossos
               mandamentos; pois são objecto do meu amor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et ad
               sacrifícium celebrándum, subditórum tibi córpora mentésque
@@ -281,13 +282,13 @@ export default function PagePent173() {
               para que possam celebrar dignamente este sacrifício. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 75, 12-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Comédite pínguia et bíbite mulsum, et míttite partes his, qui non
               præparavérunt sibi: sanctus enim dies Dómini est, nolíte
@@ -299,11 +300,11 @@ export default function PagePent173() {
               Não vos contristeis; porque a alegria do Senhor é a nossa
               fortaleza.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Suméntes, Dómine, dona cœléstia, supplíciter deprecámur: ut, quæ
               sédula servitúte, donánte te, gérimus, dignis sénsibus tuo múnere
@@ -315,7 +316,7 @@ export default function PagePent173() {
               devidas disposições os mystérios que celebrámos com fiel
               obediência. Pe nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

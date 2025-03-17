@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageQuad25() {
@@ -15,7 +16,7 @@ export default function PageQuad25() {
 
           <Text className="em">Sl. 16, 15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ego autem cum justítia apparébo in conspéctu tuo: satiábor, dum
               manifestábitur glória tua.{" "}
@@ -30,11 +31,11 @@ export default function PageQuad25() {
               minha prece justa; escutai a minha súplica.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, omnípotens Deus: ut, sacro nos purificánte jejúnio,
               sincéris méntibus ad sancta ventúra fácias perveníre. Per Dóminum
@@ -45,13 +46,13 @@ export default function PageQuad25() {
               com estes sagrados jejuns, cheguemos com o coração sincero às
               próximas solenidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Gn. 37, 6-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Genesis.</Text>
             <Text className="vernacular">Lição do Livro do Génesis.</Text>
             <Text className="latin">
@@ -122,13 +123,13 @@ export default function PageQuad25() {
               que há no deserto, e conservai as vossas mãos puras». Isto dizia,
               querendo arrancá-lo das mãos dos irmãos e entregá-lo ao pai.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 119, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ad Dóminum, cum tribulárer, clamávi, et exaudívit me.
               <Text className="versicle"> ℣. </Text>Dómine, líbera ánimam meam a
@@ -139,7 +140,7 @@ export default function PageQuad25() {
               <Text className="versicle"> ℣. </Text>Senhor, livrai a minha alma
               dos lábios iníquos e da. língua enganadora.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
@@ -152,7 +153,7 @@ export default function PageQuad25() {
 
           <Text className="em">Mt, 21, 33-46</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -215,13 +216,13 @@ export default function PageQuad25() {
               tiveram medo das turbas, pois estas tinham-n’O na conta de
               Profeta.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 39, 14 & 15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, in auxílium meum réspice: confundántur et revereántur, qui
               quærunt ánímam meam, ut áuferant eam: Dómine, in auxílium meum
@@ -232,11 +233,11 @@ export default function PageQuad25() {
               no opróbrio aqueles que procuram tirar-me a vida! Senhor, volvei
               um olhar protector para mim.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc in nobis sacrifícia, Deus, et actióne permáneant, et
               operatióne firméntur. Per Dóminum...
@@ -245,13 +246,13 @@ export default function PageQuad25() {
               Que estes sacrifícios, ó Deus, exerçam em nós uma acção permanente
               e uma influência fortificadora. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 11, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tu, Dómine, servábis nos, et custódies nos a generatióne hac in
               ætérnum.
@@ -259,11 +260,11 @@ export default function PageQuad25() {
             <Text className="vernacular">
               Senhor, guardar-nos-eis e defender-nos-eis sempre desta geração.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fac nos, quǽsumus, Dómine: accépto pígnore salútis ætérnæ, sic
               téndere congruénter; ut ad eam perveníre póssimus. Per Dóminum...
@@ -273,11 +274,11 @@ export default function PageQuad25() {
               salvação eterna, de tal sorte procuremos merecê-la que possamos
               possuí-la. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -299,7 +300,7 @@ export default function PageQuad25() {
               sempre assistido com a protecção da vossa majestade. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

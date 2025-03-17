@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0124() {
   return (
@@ -37,7 +38,7 @@ export default function Page0124() {
 
           <Text className="em">1 Tm. 6, 11-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
             </Text>
@@ -70,7 +71,7 @@ export default function Page0124() {
               que ninguém nunca viu, nem ainda pode ver e a quem seja dada a
               honra e poder eterno. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

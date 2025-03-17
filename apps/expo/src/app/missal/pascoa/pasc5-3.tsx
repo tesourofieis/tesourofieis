@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc53() {
   return (
@@ -26,7 +27,7 @@ export default function PagePasc53() {
 
           <Text className="em">Ef. 4, 7-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
@@ -61,9 +62,9 @@ export default function PagePasc53() {
               conhecimento do Filho de Deus, ao estado de um homem perfeito, a
               um desenvolvimento orgânico proporcionado à plenitude de Cristo.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Surréxit
               Christus, et illúxit nobis, quos rédemit sánguine suo. Allelúja.
@@ -79,13 +80,13 @@ export default function PagePasc53() {
               <Text className="vernacular">Jo. 16, 28</Text> Saí do Pai e vim ao
               mundo; agora, outra vez, deixo o mundo e vou ao Pai. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 17, 1-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -133,7 +134,7 @@ export default function PagePasc53() {
               neles. Já não pertenço mais ao mundo, porém eles ficam no mundo. E
               Eu vou para Vós».
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

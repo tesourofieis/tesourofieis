@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import Salmo94 from "./../devocionario/salterio/094";
 
 export default function PageOficiodefuntos() {
@@ -32,7 +33,7 @@ export default function PageOficiodefuntos() {
 
           <Text className="h2">Invitatório</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Regem, cui ómnia vivunt, Veníte adorémus.
             </Text>
@@ -45,13 +46,13 @@ export default function PageOficiodefuntos() {
             <Text className="vernacular">
               Vinde, adoremos o Rei para quem todas as criatura vivem.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Salmo 94</Text>
 
           <Salmo94 />
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veníte, exsultémus Dómino: * jubilémus Deo salutári nostro:
             </Text>
@@ -67,16 +68,16 @@ export default function PageOficiodefuntos() {
               Apresentemo-nos diante d’Ele em acção de graças: * e celebremo-l’O
               com salmos.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Regem, cui ómnia vivunt, Veníte adorémus.
             </Text>
             <Text className="vernacular">
               Vinde, adoremos o Rei para quem todas as criatura vivem.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

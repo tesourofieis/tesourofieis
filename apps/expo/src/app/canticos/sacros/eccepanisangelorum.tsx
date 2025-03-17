@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageEccepanisangelorum() {
   return (
@@ -10,7 +11,7 @@ export default function PageEccepanisangelorum() {
         <View className="docs">
           <Text className="h1">Ecce panis angelorum</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce panis Angelorum, Factus cibus viatorum, Vere panis filiorum,
               Non mittendus canibus! In figuris praesignatur, Cum Isaac
@@ -36,7 +37,7 @@ export default function PageEccepanisangelorum() {
               co-herdeiros e companheiros dos habitantes da cidade celestial.
               Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

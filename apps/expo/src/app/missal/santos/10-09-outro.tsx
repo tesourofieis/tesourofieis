@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1009Outro() {
@@ -25,7 +26,7 @@ export default function Page1009Outro() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui hodiérna die beátum Dionýsium, Mártyrem tuum atque
               Pontíficem, virtúte constantiæ in passióne roborásti, quique illi,
@@ -42,13 +43,13 @@ export default function Page1009Outro() {
               seus exemplos, desprezemos por vosso amor as prosperidades do
               mundo e nunca temamos as adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act. 17, 22-34</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolorum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos</Text>
             <Text className="latin">
@@ -109,7 +110,7 @@ export default function Page1009Outro() {
               Dionísio, o Areopagita, uma mulher chamada Dámaris e com estes
               ainda outros.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -120,7 +121,7 @@ export default function Page1009Outro() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Obláta tibi, Dómine, múnera pópuli tui, pro tuórum honóre
               Sanctórum, súscipe propítius, quǽsumus: et eórum nos intercessióne
@@ -131,11 +132,11 @@ export default function Page1009Outro() {
               apresenta em honra dos vossos Santos; e pela sua intercessão
               santificai-nos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumptis, Dómine, sacraméntis, quǽsumus: ut, intercedéntibus beátis
               Martýribus tuis Dionýsio, Rústico et Eleuthério, ad redemptiónis
@@ -148,7 +149,7 @@ export default function Page1009Outro() {
               Dionísio, Rústico e Eleutério cada vez mais avancemos no caminho
               da redenção eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

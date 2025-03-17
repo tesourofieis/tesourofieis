@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0222() {
   return (
@@ -16,7 +17,7 @@ export default function Page0222() {
 
           <Text className="em">Ecl. 45, 30</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut
               sit illi sacerdótii dígnitas in ætérnum.{" "}
@@ -32,11 +33,11 @@ export default function Page0222() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beáto Petro Apóstolo tuo, collátis clávibus regni
               cœléstis, ligándi atque solvéndi pontifícium tradidísti: concéde;
@@ -49,11 +50,11 @@ export default function Page0222() {
               desligar», concedei-nos, por intercessão do seu auxílio, que
               sejamos livres das cadeias dos nossos pecados. Ó Vós, que...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração Comemoração S. Paulo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui multitúdinem géntium beáti Pauli Apóstoli prædicatióne
               docuísti: da nobis, quǽsumus; ut, cujus commemoratiónem cólimus,
@@ -65,11 +66,11 @@ export default function Page0222() {
               memória, gozemos o seu patrocínio junto de Vós. Por nosso
               Senhor...)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração Comemoração Santa Prisca</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, omnípotens Deus: ut, qui beátæ Priscæ Vírginis et
               Mártyris tuæ natalítia cólimus; et ánnua sollemnitáte lætémur, et
@@ -81,13 +82,13 @@ export default function Page0222() {
               nesta solenidade anual e aproveitemos com os exemplos da sua tão
               grande fé. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Pe. 1, 1-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
             <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
             <Text className="latin">
@@ -125,13 +126,13 @@ export default function Page0222() {
               também é provado pelo fogo) e seja encontrada digna de louvor, de
               glória e de honra, na vida gloriosa de nosso Senhor Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 106, 32, 31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáltent eum in Ecclésia plebis: et in cáthedra seniórum laudent
               eum.<Text className="versicle"> ℣. </Text>Confiteántur Dómino
@@ -153,7 +154,7 @@ export default function Page0222() {
               <Text className="vernacular">Mt. 16, 18</Text> Tu és Pedro, e
               sobre esta pedra edificarei a minha Igreja. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o Verso e diz-se:
@@ -163,7 +164,7 @@ export default function Page0222() {
 
           <Text className="em">Mt. 16, 18-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Petrus, et super hanc petram ædificábo Ecclésiam meam.
               <Text className="versicle"> ℣. </Text>Et portæ ínferi non
@@ -181,13 +182,13 @@ export default function Page0222() {
               terra será ligado nos céus.<Text className="versicle"> ℣. </Text>E
               tudo o que desligares sobre a terra será desligado nos céus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 16, 13-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -227,13 +228,13 @@ export default function Page0222() {
               ligares na terra será ligado nos céus; e tudo o que desligares na
               terra será desligado nos céus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Mt. 16, 18-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam: et
               portæ inferi non prævalébunt advérsus eam: et tibi dabo claves
@@ -244,11 +245,11 @@ export default function Page0222() {
               portas do inferno não prevalecerão contra ela. Dar-te-ei as chaves
               do reino dos céus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecclésiæ tuæ, quǽsumus, Dómine, preces et hóstias beáti Petri
               Apóstoli comméndet orátio: ut, quod pro illíus glória celebrámus,
@@ -260,11 +261,11 @@ export default function Page0222() {
               que celebramos em sua glória nos alcance o vosso perdão. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta Comemoração S. Paulo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Apóstoli tui Pauli précibus, Dómine, plebis tuæ dona sanctífica:
               ut, quæ tibi tuo grata sunt institúto, gratióra fiant patrocínio
@@ -276,11 +277,11 @@ export default function Page0222() {
               foram instituídas), mais agradáveis ainda se tornem pelo
               patrocínio do suplicante. Por nosso Senhor...)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta Comemoração Santa Prisca</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc hóstia, quǽsumus, Dómine, quam Sanctórum tuórum natalítia
               recenséntes offérimus, et víncula nostræ pravitátis absólvat, et
@@ -291,24 +292,24 @@ export default function Page0222() {
               dos vossos Santos, nos livre dos vínculos dos nossos pecados e nos
               obtenha os dons da vossa misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 16, 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam.
             </Text>
             <Text className="vernacular">
               Tu és Pedro e sobre esta pedra edificarei a minha Igreja.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lætíficet nos, Dómine, munus oblátum: ut, sicut in Apóstolo tuo
               Petro te mirábilem prædicámus; sic per illum tuæ sumámus
@@ -320,11 +321,11 @@ export default function Page0222() {
               assim também por ele recebamos uma abundante efusão da vossa
               misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio Comemoração S. Paulo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctificáti, Dómine, salutári mystério: quǽsumus; ut nobis ejus
               non desit orátio, cujus nos donásti patrocínio gubernari. (Per
@@ -335,11 +336,11 @@ export default function Page0222() {
               suplicamos, Senhor, que não cesse de interceder Por nós aquele a
               cujo amparo nos confiastes. Por nosso Senhor...)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio Comemoração Santa Prisca</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, Dómine, salutáribus repléti mystériis: ut, cujus
               sollémnia celebrámus, ejus oratiónibus adjuvémur. Per Dóminum...
@@ -349,7 +350,7 @@ export default function Page0222() {
               socorridos pelas preces daquela cuja festa celebrámos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

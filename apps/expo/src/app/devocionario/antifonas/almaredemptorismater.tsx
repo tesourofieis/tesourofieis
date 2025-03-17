@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageAlmaredemptorismater() {
   return (
@@ -10,7 +11,7 @@ export default function PageAlmaredemptorismater() {
         <View className="docs">
           <Text className="h1">Alma Redemptóris Mater</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Alma Redemptóris Mater, quæ pérvia cæli porta manes, et stella
               maris, succúrre cadénti, Súrgere qui curat, pópulo: tu quæ
@@ -24,11 +25,11 @@ export default function PageAlmaredemptorismater() {
               o vosso santo Criador, ó sempre Virgem Maria, tende misericórdia
               dos pecadores.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Durante o Advento:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Angelus Dómini nuntiávit
               Maríæ.
@@ -69,13 +70,13 @@ export default function PageAlmaredemptorismater() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             A partir das Vésperas do Natal até à Purificação:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Post partum Virgo invioláta
               permansísti.
@@ -116,7 +117,7 @@ export default function PageAlmaredemptorismater() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

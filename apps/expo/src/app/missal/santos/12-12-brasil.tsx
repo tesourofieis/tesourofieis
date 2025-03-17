@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1212Brasil() {
@@ -21,7 +22,7 @@ export default function Page1212Brasil() {
             excepto:
           </Text>
           :<Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui sub beatíssimæ Vírginis Maríæ singulári patrocínio
               constitútos, perpétuis benefíciis nos cumulári voluísti: præsta
@@ -35,7 +36,7 @@ export default function Page1212Brasil() {
               a visão daquela cuja comemoração hoje na terra festejamos. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Epístola</Text>
           <LinkCard
             href="/missal/santos/07-16#epístola"
@@ -43,7 +44,7 @@ export default function Page1212Brasil() {
           />
           <Text className="h3">Gradual</Text>
           <Text className="em">Ct. 6, 9</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quæ est ista, quæ progréditur quasi auróra consúrgens, pulchra ut
               luna, elécta ut sol? Quasi arcus refúlgens inter nebulas glóriæ,
@@ -65,7 +66,7 @@ export default function Page1212Brasil() {
               <Text className="vernacular">Ct. 2, 12</Text> As flores apareceram
               em nossa terra; chegou o tempo da poda. Aleluía.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Evangelho</Text>
           <LinkCard
             href="/missal/santos/07-02#evangelho"
@@ -73,7 +74,7 @@ export default function Page1212Brasil() {
           />
           <Text className="h3">Ofertório</Text>
           <Text className="em">2 Cr. 7, 16</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Elégi et sanctificávi locum istum, ut sit ibi nomen meum, et
               permáneant óculi mei, et cor meum ibi cunctis diébus.
@@ -82,9 +83,9 @@ export default function Page1212Brasil() {
               Escolhi e santifiquei este lugar, a fim de aí estar o meu nome, e
               estarem fixos nele os meus olhos e o meu coração, em todo o tempo.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Secreta</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tua Dómine, propitiatióne, et beátæ Maríæ semper Vírginis
               intercessióne, ad perpétuam atque præséntem hæc oblátio nobis
@@ -95,10 +96,10 @@ export default function Page1212Brasil() {
               paz e prosperidade por vossa misericórdia e pela íntercessão da B.
               sempre Virgem Maria. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Comúnio</Text>
           <Text className="em">Sl. 147, 20</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Non fecit táliter omni natióni: et judícia sua non manifestávit
               eis.
@@ -107,9 +108,9 @@ export default function Page1212Brasil() {
               Não fez assim a todas as nações, nem lhes manifestou os seus
               desígnios.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Postcomúnio</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumptis, Dómine, salútis nostræ subsídiis: da, quǽsumus, beátæ
               Maríæ semper Vírginis patrocíniis nos ubíque prótegi: in cujus
@@ -121,7 +122,7 @@ export default function Page1212Brasil() {
               em cuja honra oferecemos êstes santos Místérios à vossa divina
               Majestade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

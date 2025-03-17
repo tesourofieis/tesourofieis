@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0505CoimbraLamegoLeiria() {
@@ -15,7 +16,7 @@ export default function Page0505CoimbraLamegoLeiria() {
 
           <Text className="em">Is. 65, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Venite, audíte, et narrábo, omnes qui timétis Deum, quanta fecit
               ánimæ meæ miséricors et miserátor Dóminus, aleluia, aleluia.{" "}
@@ -34,7 +35,7 @@ export default function Page0505CoimbraLamegoLeiria() {
 
             <Text className="h3">Oração</Text>
 
-            <View className="side-by-side">
+            <Language>
               <Text className="latin">
                 Deus, qui ineffábili providéntia beátum Augustínum ab errórum
                 ténebris ad lucem Evangélicæ veritátis aduxísti: da nobis,
@@ -48,13 +49,13 @@ export default function Page0505CoimbraLamegoLeiria() {
                 conversão hoje celebramos reformemos para melhor os nossos
                 actos. Por nosso Senhor...
               </Text>
-            </View>
+            </Language>
 
             <Text className="h3">Epístola</Text>
 
             <Text className="em">Rm. 13, 11-14</Text>
 
-            <View className="side-by-side">
+            <Language>
               <Text className="latin">
                 Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
               </Text>
@@ -80,9 +81,9 @@ export default function Page0505CoimbraLamegoLeiria() {
                 desonestidades e dissoluções: mas revisto-vos do Senhor Jesus
                 Cristo e não tomeis cuidado da carne em vossas vontades.
               </Text>
-            </View>
+            </Language>
 
-            <View className="side-by-side">
+            <Language>
               <Text className="latin">
                 Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
                 Dirupísti víncula mea, Deus meus: tibi sacrificábo hóstiam
@@ -97,11 +98,11 @@ export default function Page0505CoimbraLamegoLeiria() {
                 <Text className="versicle"> ℣. </Text>Louvar-Vos-ei, porque me
                 escutastes e me salvastes. Aleluia.
               </Text>
-            </View>
+            </Language>
 
             <Text className="h3">Sequência</Text>
 
-            <View className="side-by-side">
+            <Language>
               <Text className="latin">
                 De profúndis tenebrárum{"\n"}
                 Mundo lumem exit clarum,{"\n"}
@@ -258,7 +259,7 @@ export default function Page0505CoimbraLamegoLeiria() {
                 Alcancem aquela vida,{"\n"}
                 Onde as almas dos justos são glorificados. Amen. Aleluia.
               </Text>
-            </View>
+            </Language>
 
             <Text className="h3">Evangelho</Text>
 
@@ -266,13 +267,13 @@ export default function Page0505CoimbraLamegoLeiria() {
               href="/missal/pentecostes/pent3-0#evangelho"
               title="Terceiro Domingo depois de Pentecostes"
             />
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Mt. 11, 28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veníte ad me omnes qui laborátis et oneráti estis, et ego refíciam
               vos, allelúja.
@@ -281,11 +282,11 @@ export default function Page0505CoimbraLamegoLeiria() {
               Vinde a mim todos os que trabalhais e estais sobrecarregados e eu
               vos aliviarei, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sancti Augustíni Confessóris tui atque Pontíficis précibus,
               Dómine, plebis tuæ dona sanctífica: ut, quæ tibi tuo grata sunt
@@ -297,13 +298,13 @@ export default function Page0505CoimbraLamegoLeiria() {
               agradáveis (porque por Vós foram instituídas), mais agradáveis
               ainda se tornem pelo patrocínio do suplicante. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 15, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dico vobis, quod gáudium magnum erit in cælo super uno peccatóre
               pœniténtiam agénte, allelúja.
@@ -312,11 +313,11 @@ export default function Page0505CoimbraLamegoLeiria() {
               Digo-vos que haverá grande júbilo no céu por um pecador que faz
               penitência, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctificáti, Dómine, salutári mystério, quæsumus: ut pro nobis
               ejus non desit orátio, cujus nos donásti patrocínio gubernári. Per
@@ -327,7 +328,7 @@ export default function Page0505CoimbraLamegoLeiria() {
               não cesse de interceder por nós aquele a cujo patrocínio nos
               confiastes. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

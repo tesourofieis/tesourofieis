@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuemterra() {
   return (
@@ -10,7 +11,7 @@ export default function PageQuemterra() {
         <View className="docs">
           <Text className="h1">Quem terra</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quem terra, pontus, sidera Colunt, adorant, praedicant, Trinan
               regentem machinam, Claustrum Mariae bajula.
@@ -51,7 +52,7 @@ export default function PageQuemterra() {
               Glória a Vós, Jesus, que nascestes da Virgem, com o Pai Eterno e o
               Espírito, pelos séculos sem fim. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad50() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad50() {
 
           <Text className="em">Sl. 42, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Júdica me, Deus, et discérne causam meam de gente non sancta: ab
               homine iníquo et dolóso éripe me: quia tu es Deus meus et
@@ -30,11 +31,11 @@ export default function PageQuad50() {
               luz e a vossa verdade, para que me guiem até ao vosso monte
               sagrado, até aos vossos tabernáculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus, familiam tuam propítius réspice: ut, te
               largiénte, regátur in córpore; et, te servánte, custodiátur in
@@ -46,13 +47,13 @@ export default function PageQuad50() {
               corpos e com vossa protecção sejam preservadas as nossas almas.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Heb. 9, 11-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
             </Text>
@@ -91,13 +92,13 @@ export default function PageQuad50() {
               eterna aliança prometida àqueles que foram chamados em N. S. Jesus
               Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 142, 9 & 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Eripe me, Dómine, de inimícis meis: doce me fácere voluntátem
               tuam.<Text className="versicle"> ℣. </Text>
@@ -112,13 +113,13 @@ export default function PageQuad50() {
               Senhor, das iras dos meus inimigos: elevai-me sobre aqueles que se
               insurgem contra mim e defendei-me do homem iníquo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 128, 1-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sæpe expugnavérunt me a juventúte mea.
               <Text className="versicle"> ℣. </Text>Dicat nunc Israël: sæpe
@@ -138,13 +139,13 @@ export default function PageQuad50() {
               continuaram as suas iniquidades; mas o Senhor, que é justo,
               cortará a cabeça dos pecadores.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 8, 46-59</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -206,13 +207,13 @@ export default function PageQuad50() {
               nascesse) já Eu existo!». Então, eles tomaram pedras, para Lhas
               atirarem; mas Jesus ocultou-se e saiu do templo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 118, 17 & 107</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Confitébor tibi, Dómine, in toto corde meo: retríbue servo tuo:
               vivam, et custódiam sermónes tuos: vivífica me secúndum verbum
@@ -223,11 +224,11 @@ export default function PageQuad50() {
               servo: Então viverei e observarei os vossos preceitos.
               Vivificai-me, segundo a vossa palavra, Senhor!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc múnera, quǽsumus Dómine, ei víncula nostræ pravitátis
               absólvant, et tuæ nobis misericórdiæ dona concílient. Per
@@ -238,13 +239,13 @@ export default function PageQuad50() {
               nossa malícia e nos alcancem os dons da vossa misericórdia. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">1 Cor. 11, 24 & 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hoc corpus, quod pro vobis tradétur: hic calix novi Testaménti est
               in meo sánguine, dicit Dóminus: hoc fácite, quotiescúmque súmitis,
@@ -255,11 +256,11 @@ export default function PageQuad50() {
               nova aliança no meu sangue: diz o Senhor. Fazei isto em memória de
               mim todas as vezes que os receberdes.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto nobis, Dómine, Deus noster: et, quos tuis mystériis
               recreásti, perpétuis defénde subsidiis. Per Dóminum nostrum...
@@ -269,7 +270,7 @@ export default function PageQuad50() {
               auxílio aqueles a quem restaurastes com vossos mystérios. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

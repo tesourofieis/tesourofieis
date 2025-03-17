@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuadp34() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuadp34() {
 
           <Text className="em">Sl. 54, 17, 19, 20 & 23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dum clamárem ad Dóminum, exaudívit vocem meam ab his, qui
               appropínquant mihi, et humiliávit eos, qui est ante sǽcula et
@@ -33,11 +34,11 @@ export default function PageQuadp34() {
               minha oração e não desprezeis a minha humilde súplica.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui culpa offénderis, pæniténtia placáris: preces pópuli tui
               supplicántis propítius réspice; et flagélla tuæ iracúndiæ, quæ pro
@@ -49,13 +50,13 @@ export default function PageQuadp34() {
               flagelos da vossa ira, que merecemos pelos nossos pecados. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Is. 38, 1-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -87,13 +88,13 @@ export default function PageQuadp34() {
               a esta terra, do jugo do rei da Assíria e a protegerei»: diz o
               Senhor omnipotente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 54, 23, 17, 18 & 19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jacta cogitátum tuum in Dómino, et ipse te enútriet.
               <Text className="versicle"> ℣. </Text>Dum clamárem ad Dóminum,
@@ -105,13 +106,13 @@ export default function PageQuadp34() {
               Quando invoquei o Senhor, ouviu Ele a minha voz e livrou-me
               daqueles que vinham contra mim.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 8, 5-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -154,13 +155,13 @@ export default function PageQuadp34() {
               Então Jesus disse ao centurião: «Vai; e, assim como acreditaste,
               assim acontecerá». E naquela hora o servo foi curado.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 24, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non
               erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te
@@ -172,11 +173,11 @@ export default function PageQuadp34() {
               zombem de mim, porque todos aqueles que esperam em Vós, não serão
               confundidos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifíciis præséntibus, Dómine, quǽsumus, inténde placátus: ut et
               devotióni nostræ profíciant et salúti. Per Dóminum...
@@ -186,13 +187,13 @@ export default function PageQuadp34() {
               a fim de que sirva para aumento da nossa devoção e para a nossa
               salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 50, 21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Acceptábis sacrifícium justítiæ, oblatiónes et holocáusta, super
               altáre tuum, Dómine.
@@ -201,11 +202,11 @@ export default function PageQuadp34() {
               Recebeis sobre o vosso altar, Senhor, o sacrifício de justiça, as
               ofertas e os holocaustos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœléstis doni benedictióne percépta: súpplices te, Deus
               omnípotens, deprecámur; ut hoc idem nobis et sacraménti causa sit
@@ -216,11 +217,11 @@ export default function PageQuadp34() {
               suplicamos, Deus omnipotente, que este mesmo dom seja para nós
               motivo de satisfação e de salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -240,7 +241,7 @@ export default function PageQuadp34() {
               merecidamente com os flagelos, possa, enfim, respirar, bafejado
               pela vossa misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

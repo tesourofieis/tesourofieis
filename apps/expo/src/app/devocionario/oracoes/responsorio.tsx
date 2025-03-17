@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageResponsorio() {
   return (
@@ -10,7 +11,7 @@ export default function PageResponsorio() {
         <View className="docs">
           <Text className="h1">Responsório de Santo António</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Si quæris mirácula, mors, error, calámitas, dæmon, lepra fúgiunt,
               ægri surgunt sani.
@@ -94,7 +95,7 @@ export default function PageResponsorio() {
               gozar os prazeres eternos. Por Jesus Cristo, Nosso Senhor.{" "}
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

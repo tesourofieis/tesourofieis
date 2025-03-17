@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0423() {
@@ -25,7 +26,7 @@ export default function Page0423() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos beáti Georgii Martyris tui méritis et intercessióne
               lætíficas: concéde propítius; ut, qui tua per eum benefícia
@@ -37,7 +38,7 @@ export default function Page0423() {
               intercessão os vossos benefícios, os obtenhamos por efeito da
               vossa graça. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -48,7 +49,7 @@ export default function Page0423() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera, Dómine, obláta sanctífica: et, intercedénte beáto Geórgio
               Mártyre tuo, nos per hæc a peccatórum nostrórum máculis emúnda.
@@ -59,11 +60,11 @@ export default function Page0423() {
               intercessão do B. Jorge, vosso Mártir, purificai-nos, pela sua
               virtude, das manchas dos nossos pecados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis
               sacraméntis, intercedénte beáto Geórgio Mártyre tuo, tibi étiam
@@ -75,7 +76,7 @@ export default function Page0423() {
               vossos sacramentos a graça de Vos servirem, como convém, com
               conduta de vida que Vos agrade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

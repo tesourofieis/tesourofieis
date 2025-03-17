@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0310() {
@@ -15,7 +16,7 @@ export default function Page0310() {
 
           <Text className="em">Sl. 33, 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus
               tribulatiónibus eórum liberávit eos.{" "}
@@ -30,11 +31,11 @@ export default function Page0310() {
               em todo o tempo; o seu louvor estará sempre na minha boca.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui gloriósos Mártyres
               fortes in sua confessióne cognóvimus, pios apud te in nostra
@@ -46,7 +47,7 @@ export default function Page0310() {
               sintamos também em nosso favor a caridade da sua intercessão junto
               de Vós. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -59,7 +60,7 @@ export default function Page0310() {
 
           <Text className="em">Sl. 132, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce, quam bonum et quam jucundum, habitáre fratres in unum!
               <Text className="versicle"> ℣. </Text>
@@ -71,7 +72,7 @@ export default function Page0310() {
               espalhado na cabeça de Aarão, e que corre pela barba: pela barba
               de Aarão.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
@@ -91,7 +92,7 @@ export default function Page0310() {
 
           <Text className="em">Sl. 31, 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti
               corde.
@@ -100,11 +101,11 @@ export default function Page0310() {
               Alegrai-vos no Senhor, ó justos! Exultai de júbilo! Todos aqueles
               que possuem o coração recto serão glorificados.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Preces, Dómine, tuórum réspice oblationésque fidélium: ut et tibi
               gratæ sint pro tuórum festivitáte Sanctórum, et nobis cónferant
@@ -116,13 +117,13 @@ export default function Page0310() {
               agradáveis e nos alcancem o socorro da vossa misericórdia. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 12, 50</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quicúmque fécerit voluntátem Patris mei, qui in cœlis est: ipse
               meus frater et soror et mater est, dicit Dóminus.
@@ -131,11 +132,11 @@ export default function Page0310() {
               Aquele que faz a vontade de meu Pai, que está nos céus, é para
               mim, meu irmão, minha irmã e minha mãe: diz o Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctórum tuórum, Dómine, intercessióne placátus: præsta,
               quǽsumus; ut, quæ temporáli celebrámus actióne, perpétua
@@ -146,7 +147,7 @@ export default function Page0310() {
               Vos imploramos, que alcancemos a salvação eterna com a celebração
               desta acção temporal. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

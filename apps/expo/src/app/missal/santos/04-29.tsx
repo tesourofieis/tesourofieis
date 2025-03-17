@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0429() {
@@ -23,7 +24,7 @@ export default function Page0429() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut beáti Petri Martyris tui
               fidem cóngrua devotióne sectémur; qui, pro ejúsdem fídei
@@ -35,7 +36,7 @@ export default function Page0429() {
               manifestação desta mesma fé mereceu alcançar a palma do martírio.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -46,7 +47,7 @@ export default function Page0429() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Preces, quas tibi, Dómine, offérimus, intercedénte beáto Petro
               Mártyre tuo, cleménter inténde: et propugnatóres fídei sub tua
@@ -57,11 +58,11 @@ export default function Page0429() {
               ouvir clementemente as preces que Vos dirigimos, e acolhei sob a
               vossa protecção os defensores da fé. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fidéles tuos, Dómine, custódiant sacraménta, quæ súmpsimus: et,
               intercedénte beáto Petro Mártyre tuo, contra omnes advérsos
@@ -73,7 +74,7 @@ export default function Page0429() {
               sejam protegidos contra todos os ataques do inimigo. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

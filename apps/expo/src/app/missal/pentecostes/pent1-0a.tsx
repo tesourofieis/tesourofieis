@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent10A() {
   return (
@@ -14,7 +15,7 @@ export default function PagePent10A() {
 
           <Text className="em">Sl. 12, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, in tua misericórdia sperávi: exsultávit cor meum in
               salutári tuo: cantábo Dómino, qui bona tríbuit mihi.{" "}
@@ -31,11 +32,11 @@ export default function PagePent10A() {
               afastareis de mim a vossa face?
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, in te sperántium fortitúdo, adésto propítius invocatiónibus
               nostris: et, quia sine te nihil potest mortális infírmitas, præsta
@@ -49,13 +50,13 @@ export default function PagePent10A() {
               cumprindo os vossos mandamentos, Vos sejamos agradáveis com a
               nossa vontade e acções. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Jo. 4, 8-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Joánni Apóstoli.
             </Text>
@@ -113,13 +114,13 @@ export default function PagePent10A() {
               invisível. Recebemos de Deus este mandamento: «Aquele que ama a
               Deus deve também amar o seu próximo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 40, 5 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ego dixi: Dómine, miserére mei: sana ánimam meam, quia peccávi
               tibi.<Text className="versicle"> ℣. </Text>Beátus, qui intéllegit
@@ -141,13 +142,13 @@ export default function PagePent10A() {
               <Text className="vernacular">Sl. 5, 2</Text> Atendei às minhas
               palavras, Senhor! Ouvi o meu clamor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 6, 36-42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -190,13 +191,13 @@ export default function PagePent10A() {
               tranca que está no teu? Hipócrita, tira primeiramente a tranca do
               teu olho; depois cuidarás de tirar a palha do olho do teu irmão.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 5, 3-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Inténde voci orationis meæ, Rex meus et Deus meus: quóniam ad te
               orábo, Dómine.
@@ -205,11 +206,11 @@ export default function PagePent10A() {
               Atendei à minha súplica, ó meu Rei e meu Deus: pois é a Vós que
               dirijo a minha oração.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias nostras, quǽsumus, Dómine, tibi dicátas placátus assúme:
               et ad perpétuum nobis tríbue proveníre subsídium. Per Dóminum
@@ -220,13 +221,13 @@ export default function PagePent10A() {
               suplicamos, fazei que nos alcancem o vosso perpétuo auxílio. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 9, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Narrábo ómnia mirabília tua: lætábor et exsultábo in te: psallam
               nómini tuo, Altíssime.
@@ -235,11 +236,11 @@ export default function PagePent10A() {
               Publicarei todas as vossas maravilhas: e alegrar-me-ei e
               rejubilarei em Vós! Cantarei louvores ao vosso nome, ó Altíssimo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tantis, Dómine, repléti munéribus: præsta, quǽsumus; ut et
               salutária dona capiámus, et a tua numquam laude cessémus. Per
@@ -250,7 +251,7 @@ export default function PagePent10A() {
               Vos suplicamos, que nos sejam proveitosos e que nunca cessemos de
               Vos louvar. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

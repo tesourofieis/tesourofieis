@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent200() {
   return (
@@ -14,7 +15,7 @@ export default function PagePent200() {
 
           <Text className="em">Dn. 3, 31, 29 & 35</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnia, quæ fecísti nobis, Dómine, in vero judício fecísti, quia
               peccávimus tibi et mandátis tuis non obœdívimus: sed da glóriam
@@ -31,11 +32,11 @@ export default function PagePent200() {
               aqueles cuja vida é imaculada: aqueles que praticam a Lei do
               Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Largíre, quǽsumus, Dómine, fidélibus tuis indulgéntiam placátus et
               pacem: ut páriter ab ómnibus mundéntur offénsis, et secúra tibi
@@ -47,13 +48,13 @@ export default function PagePent200() {
               de suas faltas, possam servir-Vos com toda a confiança. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ef. 5, 15-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
@@ -83,13 +84,13 @@ export default function PagePent200() {
               nome de nosso Senhor Jesus Cristo, e submetendo-vos uns aos outros
               no temor de Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 144, 15-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oculi ómnium in te sperant, Dómine: et tu das illis escam in
               témpore opportúno.<Text className="versicle"> ℣. </Text>Aperis tu
@@ -112,13 +113,13 @@ export default function PagePent200() {
               preparado, ó Deus; o meu coração está preparado: cantarei vossos
               louvores, ó Vós, que sois a minha glória. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 4, 46-53</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -158,13 +159,13 @@ export default function PagePent200() {
               teu filho vive». Ele, pois, assim como toda sua família,
               acreditou.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 136, 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Super flúmina Babylónis illic sédimus et flévimus: dum
               recordarémur tui, Sion.
@@ -173,11 +174,11 @@ export default function PagePent200() {
               Junto das margens dos rios da Babilónia nos assentámos, chorando
               as recordações do vosso passado, ó Sião.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœléstem nobis prǽbeant hæc mystéria, quǽsumus, Dómine, medicínam:
               et vítia nostri cordis expúrgent. Per Dóminum...
@@ -187,13 +188,13 @@ export default function PagePent200() {
               suplicamos, e purifiquem os nossos corações de todas nossas
               iniquidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 118, 49-50</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Meménto verbi tui servo tuo, Dómine, in quo mihi spem dedísti: hæc
               me consoláta est in humilitáte mea.
@@ -203,11 +204,11 @@ export default function PagePent200() {
               tenho esperado com toda a confiança: é ela que me consola na minha
               humilhação.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ut sacris, Dómine, reddámur digni munéribus: fac nos, quǽsumus,
               tuis semper obœdíre mandátis. Per Dóminum nostrum...
@@ -217,7 +218,7 @@ export default function PagePent200() {
               mystérios obedeçamos sempre aos vossos mandamentos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

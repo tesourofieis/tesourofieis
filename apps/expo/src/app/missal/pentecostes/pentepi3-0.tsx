@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePentepi30() {
   return (
@@ -14,7 +15,7 @@ export default function PagePentepi30() {
 
           <Text className="em">Jr. 29,11,12 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis:
               invocábitis me, et ego exáudiam vos: et redúcam captivitátem
@@ -30,11 +31,11 @@ export default function PagePentepi30() {
               a vossa terra e livrastes Jacob do cativeiro.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, infirmitatem nostram propítius
               réspice: atque, ad protegéndum nos, déxteram tuæ majestátis
@@ -45,13 +46,13 @@ export default function PagePentepi30() {
               estendei-nos a dextra da vossa majestade para nos proteger
               continuamente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Rm. 12, 16-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
@@ -81,13 +82,13 @@ export default function PagePentepi30() {
               reunireis brasas de fogo sobre a sua cabeça. Não vos deixeis
               vencer pelo mal; mas triunfai do mal, praticando o bem.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 43, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos
               odérunt, confudísti.<Text className="versicle"> ℣. </Text>In Deo
@@ -108,13 +109,13 @@ export default function PagePentepi30() {
               <Text className="vernacular">Sl. 129, 12</Text> Do fundo do abysmo
               Vos invoquei, Senhor: escutai a minha oração. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 8, 1-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -171,13 +172,13 @@ export default function PagePentepi30() {
               centurião: «Vai; e que se faça segundo a tua crença». E naquela
               hora ficou curado o servo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 129, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam:
               de profúndis clamávi ad te. Dómine.
@@ -186,11 +187,11 @@ export default function PagePentepi30() {
               Das profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor,
               a minha voz: das profundezas dos abysmos Vos invoquei.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad
               sacrifícium celebrándum, subditórum tibi córpora mentésque
@@ -202,13 +203,13 @@ export default function PagePentepi30() {
               para que dignamente celebremos este sacrifício. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mc. 11, 24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Amen, dico vobis, quidquid orántes pétitis, crédite, quia
               accipiétis, et fiet vobis.
@@ -217,11 +218,11 @@ export default function PagePentepi30() {
               Na verdade vos digo: «Tudo o que pedirdes nas vossas orações,
               acreditai que o recebereis; e far-se-á como pedirdes».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quos tantis, Dómine, largíris uti mystériis: quǽsumus; ut
               efféctibus nos eórum veráciter aptáre dignéris. Per Dóminum...
@@ -231,7 +232,7 @@ export default function PagePentepi30() {
               augustos mystérios, tornai-nos dignos, Vos suplicamos, de
               receberdes com eficácia os seus efeitos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

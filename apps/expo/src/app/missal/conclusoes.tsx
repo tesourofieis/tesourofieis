@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageConclusoes() {
   return (
@@ -22,7 +23,7 @@ export default function PageConclusoes() {
             1.ª - Quando se dirige ao Pai, concluir-se-á:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et
               regnat in unitáte Spíritus Sancti, Deus, per ómnia Sæcula
@@ -33,13 +34,13 @@ export default function PageConclusoes() {
               unidade do Espírito Santo, Deus, por todos os séculos dos séculos.
               Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h1">
             2.ª - Quando se menciona o Filho no princípio:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum
               vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sæcula
@@ -50,13 +51,13 @@ export default function PageConclusoes() {
               vive e reina em unidade do Espírito Santo, Deus, por todos os
               séculos dos séculos. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h1">
             3.ª - Quando se menciona o Filho no fim, concluir-se-á:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per
               ómnia sæcula sæculórum. Amen.
@@ -65,13 +66,13 @@ export default function PageConclusoes() {
               Que convosco vive e reina em unidade do Espírito Santo, Deus, por
               todos os séculos dos séculos. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h1">
             4.ª - Quando se dirige ao Filho concluir-se-á:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti,
               Deus, per ómnia sæcula sæculórum. Amen.
@@ -80,13 +81,13 @@ export default function PageConclusoes() {
               Ó Vós, que viveis e reinais com Deus Pai em unidade do Espírito
               Santo, Deus, por todos os séculos dos séculos. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h1">
             5.ª - Quando se menciona o Espírito Santo, concluir-se-á:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               ... in unitáte ejúsdem Spíritus Sancti, Deus, per ómnia sæcula
               sæculórum. Amen.
@@ -95,7 +96,7 @@ export default function PageConclusoes() {
               ... em unidade do mesmo Espírito Santo, Deus, por todos os séculos
               dos séculos. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Quando na mesma Missa se recitam diversas Orações, Secretas e

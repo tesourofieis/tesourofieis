@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageAdv33() {
   return (
@@ -14,7 +15,7 @@ export default function PageAdv33() {
 
           <Text className="em">Is. 45, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Roráte, cœli, désuper, et nubes pluant justum: aperiátur terra, et
               gérminet Salvatórem. <Text className="latin">Ps. 18, 2</Text> Cœli
@@ -28,11 +29,11 @@ export default function PageAdv33() {
               glória de Deus: e o firmamento anuncia as obras das suas mãos.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Depois do Kyrie eleison o Padre diz:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -51,11 +52,11 @@ export default function PageAdv33() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Levantai-vos!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut redemptiónis nostræ ventúra
               sollémnitas et præséntis nobis vitæ subsídia cónferat, et ætérnæ
@@ -67,13 +68,13 @@ export default function PageAdv33() {
               presente e a recompensa da bem-aventurança eterna. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Is. 2, 2–5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -103,13 +104,13 @@ export default function PageAdv33() {
               outro. Casa de Jacob, vinde e caminhemos à luz do Senhor, nosso
               Deus!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 23, 7, 3 & 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tóllite portas, principes, vestras: et elevámini, portæ æternáles:
               et introíbit Rex glóriæ,<Text className="versicle"> ℣. </Text>Quis
@@ -123,11 +124,11 @@ export default function PageAdv33() {
               montanha do Senhor? Quem será digno de permanecer no santuário?
               Aquele que tiver as mãos inocentes e o coração puro.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Festína, quǽsumus, Dómine, ne tardáveris, et auxílium nobis
               supérnæ virtútis impénde: ut advéntus tui consolatiónibus
@@ -139,13 +140,13 @@ export default function PageAdv33() {
               de que as consolações do vosso advento confortem aqueles que
               confiam na vossa bondade: Vós, que viveis e reinais...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Is. 7, 10–15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Lectio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -169,13 +170,13 @@ export default function PageAdv33() {
               seu nome será Emanuel: Ele comerá manteiga e mel, para que saiba
               condenar o mal e escolher o bem».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 144, 18 & 21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Prope est Dóminus ómnibus invocántibus eum: ómnibus qui ínvocant
               eum in veritáte.<Text className="versicle"> ℣. </Text>Laudem
@@ -187,13 +188,13 @@ export default function PageAdv33() {
               com verdade o invocam. Que minha boca publique os louvores do
               Senhor: e que toda a carne bendiga seu santo Nome.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 1, 26–38</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -245,13 +246,13 @@ export default function PageAdv33() {
               Então disse Maria: «Eis aqui a escrava do Senhor, faça-se em mim
               segundo a tua palavra».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Is. 35, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Confortámini, et jam nolite timére: ecce enim, Deus noster
               retríbuet judícium: ipse véniet, et salvos nos fáciet.
@@ -260,11 +261,11 @@ export default function PageAdv33() {
               Confortai-vos, e já não receeis: eis o nosso Deus, que vem a
               julgar cada um de nós: Ele próprio virá e nos salvará.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accépta tibi sint, quǽsumus, Dómine, nostra jejúnia: quæ et
               expiándo nos tua grátia dignos effíciant, et ad sempiter na
@@ -276,13 +277,13 @@ export default function PageAdv33() {
               vossa graça, e sejamos conduzidos à felicidade eterna, que nos
               prometestes. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Is. 7, 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce, Virgo concípiet et páriet fílium: et vocábitur nomen ejus
               Emmánuel.
@@ -291,11 +292,11 @@ export default function PageAdv33() {
               Eis que a Virgem conceberá e dará à luz um Filho, cujo nome será
               Emanuel.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salutáris tui, Dómine, munere satiáti, súpplices deprecámur: ut,
               cujus lætámur gustu, renovémur efféctu. Per Dóminum...
@@ -305,7 +306,7 @@ export default function PageAdv33() {
               assim como nos alegramos com sua recepção, assim sejamos
               restabelecidos com seus efeitos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

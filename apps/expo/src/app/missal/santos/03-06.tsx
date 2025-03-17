@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0306() {
   return (
@@ -23,7 +24,7 @@ export default function Page0306() {
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mýsticis, Dómine, repléti sumus votis et gáudiis: præsta,
               quǽsumus; ut intercessiónibus sanctárum Mártyrum tuárum Perpétuæ
@@ -36,7 +37,7 @@ export default function Page0306() {
               das vossas Santas Mártires Perpétua e Felicidade alcancemos os
               eternos efeitos do que praticámos neste mundo. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

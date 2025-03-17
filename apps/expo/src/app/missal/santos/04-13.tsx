@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0413() {
@@ -24,7 +25,7 @@ export default function Page0413() {
           </Text>
 
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Hermenegíldum Mártyrem tuum cœlésti regno
               terrénum postpónere docuísti: da, quǽsumus, nobis; ejus exémplo
@@ -36,7 +37,7 @@ export default function Page0413() {
               suplicamos, de, seguindo seus exemplos, desprezarmos os bens
               caducos e amarmos os eternos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Evangelho</Text>
           <LinkCard
             href="/missal/comum/2martirpontificeforapascal#evangelho"

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page22Martiresnaovirgens() {
   return (
@@ -14,7 +15,7 @@ export default function Page22Martiresnaovirgens() {
 
           <Text className="em">Sl. 118, 95-96</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Me exspectavérunt peccatóres, ut pérderent me: testimónia tua.
               Dómine, intelléxi: omnis consummatiónis vidi finem: latum mandátum
@@ -32,11 +33,11 @@ export default function Page22Martiresnaovirgens() {
               cumprem a Lei do Senhor.<Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui inter cétera poténtiæ tuæ mirácula etiam in sexu frágili
               victóriam martýrii contulísti: concéde propítius; ut, qui beátæ{" "}
@@ -50,13 +51,13 @@ export default function Page22Martiresnaovirgens() {
               <Text className="vernacular">N.</Text>, caminhemos para Vós,
               imitando os seus exemplos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ecl. 51, 1-8 & 12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beati Pauli Apostoli ad Corinthios.
             </Text>
@@ -92,13 +93,13 @@ export default function Page22Martiresnaovirgens() {
               Senhor, nosso Deus, livrais dos perigos aqueles que confiam em
               Vós, salvando-os do poder dos inimigos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dilexísti justítiam, et odísti iniquitátem.
               <Text className="versicle"> ℣. </Text>Proptérea unxit te Deus,
@@ -118,7 +119,7 @@ export default function Page22Martiresnaovirgens() {
               <Text className="vernacular">ibid., 5</Text> Caminhai, pois, com
               beleza e com majestade; ide gozar a vitória e reinai. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -126,7 +127,7 @@ export default function Page22Martiresnaovirgens() {
 
           <Text className="h3">Trato</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veni, Sponsa Christi, áccipe corónam, quam tibi Dóminus præparávit
               in æternum: pro cujus amóre sánguinem tuum fudísti.
@@ -148,13 +149,13 @@ export default function Page22Martiresnaovirgens() {
               companheiras.<Text className="versicle"> ℣. </Text>Caminhai, pois,
               com beleza e com majestade; ide gozar a vitória e reinai.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 44, 5</Text> Spécie tua et
@@ -171,13 +172,13 @@ export default function Page22Martiresnaovirgens() {
               mansidão e justiça, a vossa dextra operará admiráveis prodígios.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 13, 44-52</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -221,13 +222,13 @@ export default function Page22Martiresnaovirgens() {
               é semelhante a um pai de família, que tira dos seus tesouros
               coisas novas e velhas».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 44, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in
               ætérnum, et in sǽculum sǽculi, allelúja.
@@ -237,11 +238,11 @@ export default function Page22Martiresnaovirgens() {
               abençoou para a eternidade e para todos os séculos dos séculos.
               (T. P. Aleluia).
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, múnera, quæ in beátæ{" "}
               <Text className="latin">N.</Text> Martyris tuæ sollemnitáte
@@ -254,13 +255,13 @@ export default function Page22Martiresnaovirgens() {
               <Text className="vernacular">N.</Text>, com o patrocínio da qual
               esperamos ser livres. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 118, 161-162</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Príncipes persecúti sunt me gratis, et a verbis tuis formidávit
               cor meum: lætábor ego super elóquia tua, quasi qui invénit spólia
@@ -272,11 +273,11 @@ export default function Page22Martiresnaovirgens() {
               palavras, como se um homem houvera achado ricos despojos. (T. P.
               Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Auxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáta{" "}
               <Text className="latin">N.</Text> Mártyre tua, sempitérna fáciant
@@ -288,7 +289,7 @@ export default function Page22Martiresnaovirgens() {
               <Text className="vernacular">N.</Text>, vossa Mártir, nos façam
               gozar continuamente a sua protecção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

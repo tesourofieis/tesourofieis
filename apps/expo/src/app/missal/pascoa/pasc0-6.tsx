@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc06() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc06() {
 
           <Text className="em">Sl. 104, 43</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Eduxit Dóminus pópulum suum in exsultatióne, allelúja: et eléctos
               suos in lætítia, allelúja, allelúja.{" "}
@@ -29,11 +30,11 @@ export default function PagePasc06() {
               aclamai o seu santo nome; anunciai as suas obras a todos os povos.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, omnípotens Deus: ut, qui festa paschália
               venerándo égimus, per hæc contíngere ad gaudia ætérna mereámur.
@@ -44,13 +45,13 @@ export default function PagePasc06() {
               omnipotente, Vos suplicamos, concedei-nos a graça de alcançarmos,
               por virtude delas, os gozos eternos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Pe. 2, 1-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
             <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
             <Text className="latin">
@@ -98,9 +99,9 @@ export default function PagePasc06() {
               sois agora; vós, que outrora não havíeis alcançado misericórdia,
               mas a alcançastes agora.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 117, 24</Text> Hæc dies, quam fecit
@@ -117,13 +118,13 @@ export default function PagePasc06() {
               <Text className="em">Sl. 112, 1</Text> Louvai, ó meninos, o
               Senhor: louvai o nome do Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 20, 1-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -166,13 +167,13 @@ export default function PagePasc06() {
               primeiro ao sepulcro, e viu e acreditou: pois não sabiam ainda
               que, segundo a Escritura, Ele devia ressuscitar dos mortos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 117, 26-27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedíctus, qui venit in nómine Dómini: benedíximus vobis de domo
               Dómini: Deus Dóminus, et illúxit nobis, allelúja, allelúja.
@@ -182,11 +183,11 @@ export default function PagePasc06() {
               do Senhor Vos bendizemos. O Senhor é verdadeiramente Deus e fez
               brilhar diante de nós a sua luz, aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, Dómine, semper nos per hæc mystéria paschália
               gratulári: ut contínua nostræ reparatiónis operátio perpétuæ nobis
@@ -197,13 +198,13 @@ export default function PagePasc06() {
               mystérios pascais, a fim de que os trabalhos da nossa reparação
               sejam causa perpétua da nossa alegria. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Gl. 3, 27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnes, qui in Christo baptizáti estis, Christum induístis,
               allelúja.
@@ -212,11 +213,11 @@ export default function PagePasc06() {
               Vós todos, baptizados no nome de Cristo, fostes revestidos de
               Cristo, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Redemptiónis nostræ múnere vegetáti, quǽsumus, Dómine: ut, hoc
               perpétuæ salútis auxílio, fides semper vera profíciat. Per
@@ -227,7 +228,7 @@ export default function PagePasc06() {
               suplicamos, Senhor, que este auxílio da salvação eterna aumente em
               nós sempre o dom da verdadeira fé. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

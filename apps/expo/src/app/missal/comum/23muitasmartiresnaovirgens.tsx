@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page23Muitasmartiresnaovirgens() {
   return (
@@ -22,7 +23,7 @@ export default function Page23Muitasmartiresnaovirgens() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da nobis, quǽsumus, Dómine, Deus noster, sanctárum Mártyrum tuárum{" "}
               <Text className="latin">N.</Text> et{" "}
@@ -38,11 +39,11 @@ export default function Page23Muitasmartiresnaovirgens() {
               podemos celebrar dignamente os seus méritos, possamos, ao menos,
               oferecer-lhes as nossas humildes homenagens. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Inténde, quǽsumus, Dómine, múnera altáribus tuis pro sanctárum
               Mártyrum tuárum <Text className="latin">N.</Text> et{" "}
@@ -58,11 +59,11 @@ export default function Page23Muitasmartiresnaovirgens() {
               lhes concedestes a glória, assim também nos concedais o perdão dos
               nossos pecados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta nobis, quǽsumus, Dómine, intercedéntibus sanctis Martýribus
               tuis <Text className="latin">N.</Text> et{" "}
@@ -75,7 +76,7 @@ export default function Page23Muitasmartiresnaovirgens() {
               <Text className="text-red-500">N.</Text>, guardemos com o coração
               puro o que a nossa boca acaba de receber. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

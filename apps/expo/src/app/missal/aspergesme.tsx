@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageAspergesme() {
   return (
@@ -10,7 +11,7 @@ export default function PageAspergesme() {
         <View className="docs">
           <Text className="h1">Asperges me</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Asperges me, Dómine, hyssópo et mundabor: lávabis me, et super
               nivem dealbábor.
@@ -79,7 +80,7 @@ export default function PageAspergesme() {
               proteja, visite e defenda todos aqueles que se encontram neste
               templo. Por Cristo, nosso Senhor. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

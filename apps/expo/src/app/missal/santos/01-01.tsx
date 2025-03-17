@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0101() {
   return (
@@ -14,7 +15,7 @@ export default function Page0101() {
 
           <Text className="em">Is. 9, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Puer natus est nobis, et fílius datus est nobis: cujus impénum
               super húmerum ejus: et vocábitur nomen ejus magni consílii
@@ -29,11 +30,11 @@ export default function Page0101() {
               Cantai ao Senhor um hino novo, pois Ele operou maravilhas.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui salútis ætérnæ, beátæ Maríæ virginitáte fecúnda, humáno
               géneri prǽmia præstitísti: tríbue, quǽsumus; ut ipsam pro nobis
@@ -47,13 +48,13 @@ export default function Page0101() {
               julgados dignos de receber o autor da vida, nosso Senhor Jesus
               Cristo, vosso Filho: Que, sendo Deus, convosco vive e reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Tt. 2, 11-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beati Pauli Apóstoli ad Titum.
             </Text>
@@ -81,13 +82,13 @@ export default function Page0101() {
               em suas boas obras. Ensina e prega estas coisas, em Jesus Cristo,
               nosso Senhor!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 97, 3 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vidérunt omnes fines terræ salutare Dei nostri: jubiláte Deo,
               omnis terra.<Text className="versicle"> ℣. </Text>Notum fecit
@@ -113,13 +114,13 @@ export default function Page0101() {
               falou de diversas maneiras pelos Profetas, dignou-se falar-nos nos
               últimos tempos pelo seu Filho. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 2, 21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -139,13 +140,13 @@ export default function Page0101() {
               foi aquele que o Anjo Lhe havia dado, antes de ser concebido no
               seio de sua Mãe.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 88, 12 & 15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tui sunt cœli et tua est terra: orbem terrárum et plenitúdinem
               ejus tu fundásti: justítia et judícium præparátio sedis tuæ.
@@ -155,11 +156,11 @@ export default function Page0101() {
               universo e tudo o que ele encerra. A justiça e a equidade são a
               base do vosso trono.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
               cœléstibus nos munda mystériis, et cleménter exáudi. Per
@@ -171,24 +172,24 @@ export default function Page0101() {
               virtude dos vossos celestiais mystérios e ouvir-nos
               misericordiosamente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 97, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vidérunt omnes fines terræ salutáre Dei nostri.
             </Text>
             <Text className="vernacular">
               Toda a terra viu o Salvador que o nosso Deus enviou.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáta
               Vírgine Dei Genetríce María, cœléstis remédii fáciat esse
@@ -199,7 +200,7 @@ export default function Page0101() {
               por intercessão da B. Virgem Maria, Mãe de Deus, nos torne
               participantes do remédio celestial. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

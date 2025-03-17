@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageJuramento() {
   return (
@@ -10,7 +11,7 @@ export default function PageJuramento() {
         <View className="docs">
           <Text className="h1">Juramento Anti-Modernista</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ego <Text className="latin">N.</Text> firmiter amplector ac
               recipio omnia et singula, quæ ab inerranti Ecclesiæ magisterio
@@ -234,7 +235,7 @@ export default function PageJuramento() {
               escritos. Assim prometo, assim juro, assim me ajudem Deus e esses
               santos Evangelhos de Deus.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

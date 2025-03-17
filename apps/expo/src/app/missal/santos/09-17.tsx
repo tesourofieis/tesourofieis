@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0917() {
@@ -17,7 +18,7 @@ export default function Page0917() {
 
           <Text className="em">Gl. 6, 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu
               Christi: per quem mihi mundus crucifíxus est, et ego mundo.{" "}
@@ -34,11 +35,11 @@ export default function Page0917() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine Jesu Christe, qui, frigescénte mundo, ad inflammándum corda
               nostra tui amóris igne, in carne beatíssimi Francísci passiónis
@@ -54,13 +55,13 @@ export default function Page0917() {
               preces abracemos continuamente a Cruz e pratiquemos dignos frutos
               de penitência. Ó Vós, que viveis e reinais...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Gl. 6, 14-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.
             </Text>
@@ -89,13 +90,13 @@ export default function Page0917() {
               a graça de nosso Senhor Jesus Cristo, meus irmãos, seja com vosso
               espírito. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 36, 30-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.
               <Text className="versicle"> ℣. </Text>Lex Dei ejus in corde
@@ -116,7 +117,7 @@ export default function Page0917() {
               pobre e humilde, entra rico no céu: em sua honra ressoam hinos
               celestiais. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -129,7 +130,7 @@ export default function Page0917() {
 
           <Text className="em">Sl. 88, 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Véritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus.
@@ -138,11 +139,11 @@ export default function Page0917() {
               A minha fidelidade e a minha misericórdia estarão com ele; e por
               virtude do meu nome será exaltado o seu poder.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera tibi, Dómine, dicata sanctífica: et, intercedénte beáto
               Francísco, ab omni nos culpárum labe purífica. Per Dóminum...
@@ -152,13 +153,13 @@ export default function Page0917() {
               intercessão do B. Francisco purificai-nos dos nossos pecados. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 12, 42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fidélis servus et prudens, quem constítuit dóminus super famíliam
               suam: ut det illis in témpore trítici mensúram.
@@ -167,11 +168,11 @@ export default function Page0917() {
               Eis o servo fiel e prudente, destinado pelo Senhor para distribuir
               oportunamente a cada um na família a sua medida de trigo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui mira Crucis mystéria in beáto Francísco Confessóre tuo
               multifórmiter demonstrásti: da nobis, quǽsumus; devotiónis suæ
@@ -185,7 +186,7 @@ export default function Page0917() {
               da sua devoção e confortar-nos com a contínua meditação desta
               mesma Cruz. Por nosso...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

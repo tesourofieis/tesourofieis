@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageSaomiguel() {
   return (
@@ -10,7 +11,7 @@ export default function PageSaomiguel() {
         <View className="docs">
           <Text className="h1">São Miguel Arcanjo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sancte Míchaël Archángele, defénde nos in prælio; contra nequitiam
               et insidias diáboli esto præsídium. Imperet illi Deus, súpplices
@@ -26,7 +27,7 @@ export default function PageSaomiguel() {
               outros espíritos malignos que vagueiam pelo mundo para perdição
               das almas. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

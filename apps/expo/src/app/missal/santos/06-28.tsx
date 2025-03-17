@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0628() {
   return (
@@ -28,7 +29,7 @@ export default function Page0628() {
 
           <Text className="em">Jo. 21, 18-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dicit Dóminus Petro: Cum esses júnior, cingébas te et ambulábas,
               ubi volébas: cum autem senúeris, exténdes manus tuas, et álius te
@@ -48,11 +49,11 @@ export default function Page0628() {
               das suas mãos.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut nullis nos permíttas
               perturbatiónibus cóncuti; quos in apostólicæ confessiónis petra
@@ -63,13 +64,13 @@ export default function Page0628() {
               sólida da fé dos Apóstolos, dignai-Vos permitir que nenhuma
               perturbação abale a nossa fé. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act. 3, 1-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolórum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -110,13 +111,13 @@ export default function Page0628() {
               templo a mendigar, ficou cheio de admiração e de espanto pelo que
               havia acontecido.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 18, 5 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In omnem terram exívit sonus eórum: et in fines orbis terræ verba
               eórum.<Text className="versicle"> ℣. </Text>Cœli enárrant glóriam
@@ -128,13 +129,13 @@ export default function Page0628() {
               <Text className="versicle"> ℣. </Text>Os céus proclamam a glória
               de Deus e o firmamento anuncia as obras das suas mãos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 21, 15-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -173,13 +174,13 @@ export default function Page0628() {
               queiras». Ora isto dizia Ele para indicar com que morte
               glorificaria Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 138, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.
@@ -188,11 +189,11 @@ export default function Page0628() {
               Vejo, ó meu Deus, que honrais de um modo singular os vossos
               amigos: o seu poder firmou-se extraordinariamente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Munus pópuli tui, quǽsumus, Dómine, apostólica intercessióne
               sanctífica: nosque a peccatórum nostrórum máculis emúnda. Per
@@ -203,13 +204,13 @@ export default function Page0628() {
               Apóstolos a oblata do vosso povo e purificai-nos das manchas dos
               nossos pecados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 21, 15 & 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Simon Joánnis, díligis me plus his? Dómine, tu ómnia nosti: tu
               scis, Dómine, quia amo te.
@@ -218,11 +219,11 @@ export default function Page0628() {
               Simão, filho de João, tu amas-me mais do que estes? Senhor,
               conheceis tudo, e, portanto, sabeis que Vos amo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quos cœlésti, Dómine, álii ménto satiásti: apostólicis
               intercessiónibus ab omni adversitáte custódi. Per Dóminum
@@ -233,7 +234,7 @@ export default function Page0628() {
               preservar de todas as adversidades aqueles que saciastes com o
               alimento celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

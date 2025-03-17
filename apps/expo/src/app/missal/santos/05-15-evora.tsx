@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0515Evora() {
@@ -25,7 +26,7 @@ export default function Page0515Evora() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui Máncio, discípulo Unigéniti tui,
               Mártyr insígne tormentórum tolerántiam tribuísti: quǽsumus; ut
@@ -39,7 +40,7 @@ export default function Page0515Evora() {
               suplício, assim mereçamos ser participantes da sua glória. Pelo
               mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 

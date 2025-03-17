@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc76() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc76() {
 
           <Text className="em">Rm. 5, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cáritas Dei diffúsa est in córdibus nostris, allelúja: per
               inhabitántem Spíritum ejus in nobis, allelúja, allelúja.{" "}
@@ -30,11 +31,11 @@ export default function PagePasc76() {
               minha alma: e que tudo o que existe em mim bendiga o seu santo
               nome.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Méntibus nostris, quǽsumus, Dómine, Spíritum Sanctum benígnus
               infúnde: cujus et sapiéntia cónditi sumus, et providéntia
@@ -45,13 +46,13 @@ export default function PagePasc76() {
               Espírito Santo, cuja sabedoria nos criou e cuja providência nos
               governa. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">1.ª Lição</Text>
 
           <Text className="em">Jl. 2, 28-32</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Joélis Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Joel.</Text>
             <Text className="latin">
@@ -74,9 +75,9 @@ export default function PagePasc76() {
               grande e terrível dia do Senhor. Então, todo aquele que invocar o
               nome do Senhor será salvo».
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Joann. 6, 64</Text> Spíritus est, qui
@@ -87,11 +88,11 @@ export default function PagePasc76() {
               <Text className="vernacular">Jo. 6, 64</Text> O Espírito é que dá
               a vida; pois a carne não dá nenhum proveito.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Illo nos igne, quǽsumus, Dómine, Spíritus Sanctus inflámmet: quem
               Dóminus noster Jesus Christus misit in terram, et vóluit
@@ -102,13 +103,13 @@ export default function PagePasc76() {
               aquele fogo que Cristo enviou à terra e quer ardentemente que
               permaneça aceso. Ele, que convosco vive e reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">2.ª Lição</Text>
 
           <Text className="em">Lv. 23, 9-11, 15-17 & 21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Levítici.</Text>
             <Text className="vernacular">Lição do Livro Levítico.</Text>
             <Text className="latin">
@@ -146,9 +147,9 @@ export default function PagePasc76() {
               perpétua em todas vossas casas e para toda vossa descendência»:
               diz o Senhor omnipotente.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Job 26, 13</Text> Spíritus ejus ornávit
@@ -159,11 +160,11 @@ export default function PagePasc76() {
               <Text className="vernacular">Jb 26, 13</Text> Seu Espírito
               aformoseou os céus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui, ad animárum medélam, jejúnii devotióne castigári
               córpora præcepísti: concéde nobis propítius; et mente et córpore
@@ -175,13 +176,13 @@ export default function PagePasc76() {
               concedei-nos propício a graça de Vos sermos fielmente dedicados,
               tanto com o corpo, como com o espírito. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">3.ª Lição</Text>
 
           <Text className="em">Dt. 26, 1-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Deuteronómii.</Text>
             <Text className="vernacular">Lição do Livro Deuteronómio.</Text>
             <Text className="latin">
@@ -219,9 +220,9 @@ export default function PagePasc76() {
               preparareis um banquete com todas as coisas boas que o Senhor,
               vosso Deus, vos houver dado».
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Act. 2, 1</Text> Cum compleréntur dies
@@ -232,11 +233,11 @@ export default function PagePasc76() {
               <Text className="vernacular">Act. 2, 1</Text> Tendo já chegado o
               dia de Pentecostes, estavam todos reunidos em assembleia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, salutáribus jejúniis
               erudíti, ab ómnibus etiam vítiis abstinéntes, propitiatiónem tuam
@@ -248,13 +249,13 @@ export default function PagePasc76() {
               vícios, a fim de que mais facilmente alcancemos o vosso perdão.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">4.ª Lição</Text>
 
           <Text className="em">Lv. 26, 3-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Levítici.</Text>
             <Text className="vernacular">Lição do Livro Levítico.</Text>
             <Text className="latin">
@@ -296,9 +297,9 @@ export default function PagePasc76() {
               meio de vós. Andarei no meio de vós, serei o vosso Deus e sereis o
               meu povo»: diz o Senhor omnipotente.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja. <Text className="latin">hic genuflectitur</Text>
               <Text className="versicle"> ℣. </Text>
@@ -311,11 +312,11 @@ export default function PagePasc76() {
               Vinde, ó Espírito Santo: enchei os corações dos vossos fiéis e
               acendei neles o fogo do vosso amor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: sic nos ab épulis carnálibus
               abstinére; ut a vítiis irruéntibus páriter jejunémus. Per
@@ -326,13 +327,13 @@ export default function PagePasc76() {
               de tal modo do uso das carnes, que nos afastemos também dos vícios
               que nos perseguem. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">5.ª Lição</Text>
 
           <Text className="em">Dn. 3, 47-51</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Daniélis Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Daniel.</Text>
             <Text className="latin">
@@ -357,9 +358,9 @@ export default function PagePasc76() {
               incómodo! Então, estes três jovens louvavam, glorificavam e
               bendiziam Deus na fornalha, em voz uníssona, dizendo:
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">ibid., 52</Text> Benedíctus es, Dómine,
@@ -371,11 +372,11 @@ export default function PagePasc76() {
               Senhor, Deus de nossos pais, e digno de louvor em todos os
               séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Diz-se o Glória in excélsis... Depois:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Dóminus vobíscum.
             </Text>
@@ -388,11 +389,11 @@ export default function PagePasc76() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui tribus púeris mitigásti flammas ígnium: concéde
               propítius; ut nos fámulos tuos non exúrat flamma vitiórum. Per
@@ -403,13 +404,13 @@ export default function PagePasc76() {
               concedei-nos misericordiosamente que nós, vosso servos, não
               sejamos queimados pelas chamas dos vícios. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Rm. 5, 1-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
@@ -437,13 +438,13 @@ export default function PagePasc76() {
               esperança nunca engana, porque o amor de Deus está espalhado nos
               nossos corações pelo Espírito Santo, que nos foi dado.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 116, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli.
               <Text className="versicle"> ℣. </Text>
@@ -456,13 +457,13 @@ export default function PagePasc76() {
               Porquanto é grande a sua misericórdia para connosco: e a verdade
               do Senhor permanece para sempre.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 4, 38-44</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -502,13 +503,13 @@ export default function PagePasc76() {
               também o reino de Deus às outras cidades, porque para isso fui
               mandado». E pregava nas sinagogas da Galileia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 87, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, Deus salútis meæ, in die clamávi et nocte coram te: intret
               orátio mea in conspéctu tuo, Dómine, allelúja.
@@ -517,11 +518,11 @@ export default function PagePasc76() {
               Senhor e Deus, que sois o meu Salvador, dia e noite tenha clamado
               por Vós! Que minha prece chegue à vossa presença, aleluia!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ut accépta tibi sint, Dómine, nostra jejúnia: præsta nobis,
               quǽsumus; hujus múnere sacraménti purificátum tibi pectus offérre.
@@ -533,13 +534,13 @@ export default function PagePasc76() {
               coração já purificado pela virtude deste sacrifício. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 3, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Spíritus, ubi vult, spirat: et vocem ejus audis, allelúja,
               allelúja: sed nescis, unde véniat aut quo vadat, allelúja,
@@ -550,11 +551,11 @@ export default function PagePasc76() {
               mas ignorais donde Ele Vem e para onde vai, aleluia, aleluia,
               aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Prǽbeant nobis, Dómine, divínum tua sancta fervórem: quo eórum
               páriter et actu delectémur et fructu. Per Dóminum...
@@ -564,7 +565,7 @@ export default function PagePasc76() {
               divino, a fina de que sua celebração e os seus frutos sejam as
               nossas delícias. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

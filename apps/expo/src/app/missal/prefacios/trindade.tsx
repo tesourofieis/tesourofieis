@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageTrindade() {
   return (
@@ -15,7 +16,7 @@ export default function PageTrindade() {
             tiverem Prefácio próprio.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
@@ -43,7 +44,7 @@ export default function PageTrindade() {
               os Anjos e Arcanjos, os Querubins e Serafins, que não cessam
               quotidianamente de cantar em uníssono:
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

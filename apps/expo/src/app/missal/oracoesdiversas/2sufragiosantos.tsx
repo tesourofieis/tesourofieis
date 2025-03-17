@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page2Sufragiosantos() {
   return (
@@ -12,7 +13,7 @@ export default function Page2Sufragiosantos() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               A cunctis nos, quǽsumus, Dómine, mentis et córporis defénde
               perículis: et, intercedénte beáta et gloriósa semper Vírgine Dei
@@ -32,11 +33,11 @@ export default function Page2Sufragiosantos() {
               erros, a vossa Igreja possa servir-Vos com segurança e liberdade.
               Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi nos, Deus, salutáris noster: ut, per hujus sacraménti
               virtútem, a cunctis nos mentis et córporis hóstibus tueáris;
@@ -48,11 +49,11 @@ export default function Page2Sufragiosantos() {
               e nos concedais a graça durante esta vida e a glória na
               eternidade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mundet et múniat nos, quǽsumus, Dómine, divíni sacraménti munus
               oblátum: et, intercedénte beáta Vírgine Dei Genetríce María, cum
@@ -70,7 +71,7 @@ export default function Page2Sufragiosantos() {
               nossos pecados e nos livre de todas as adversidades. Pelo mesmo
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

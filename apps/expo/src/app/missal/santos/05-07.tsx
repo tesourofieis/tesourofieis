@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0507() {
   return (
@@ -30,7 +31,7 @@ export default function Page0507() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, pro cujus honóre gloriósus Póntifex Stanisláus gládiis
               impiórum occúbuit: præsta, quǽsumus; ut omnes, qui ejus implórant
@@ -43,11 +44,11 @@ export default function Page0507() {
               que implorarem o seu socorro obtenham efeito salutar em seus
               pedidos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera tibi, Dómine, dicáta sanctífica: et, intercedénte beáto
               Stanisláo Mártyre tuo atque Pontífice, per eadem nos placátus
@@ -58,11 +59,11 @@ export default function Page0507() {
               intercessão do B. Estanislau, vosso Mártir e Pontífice, olhai
               aplacado para nós. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáto
               Stanisláo Mártyre tuo atque Pontifice, cœléstis remédii fáciat
@@ -74,7 +75,7 @@ export default function Page0507() {
               nos torne participantes dos remédios celestiais. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

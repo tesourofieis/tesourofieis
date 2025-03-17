@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0718() {
@@ -42,7 +43,7 @@ export default function Page0718() {
 
           <Text className="em">Jo. 15, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Majórem hac dilectiónem nemo habet, ut ánimam suam ponat quis pro
               amícis suis. <Text className="latin">Ps. 40, 2</Text> Beátus, qui
@@ -56,11 +57,11 @@ export default function Page0718() {
               indigente, pois o Senhor o livrará no dia da aflição.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui sanctum Camíllum, ad animárum in extrémo agóne
               luctántium subsídium, singulári caritátis prærogatíva decorásti:
@@ -75,7 +76,7 @@ export default function Page0718() {
               vosso amor, a fim de que, na hora da nossa morte, mereçamos vencer
               o inimigo e alcançar a coroa celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -95,7 +96,7 @@ export default function Page0718() {
 
           <Text className="em">Jo. 15, 12-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -127,13 +128,13 @@ export default function Page0718() {
               alcanceis fruto. Que este fruto, pois, permaneça, para que meu Pai
               vos conceda tudo quanto Lhe pedirdes em meu nome».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 20, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In virtúte tua, Dómine, lætábitur justus, et super salutáre tuum
               exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.
@@ -143,11 +144,11 @@ export default function Page0718() {
               alegria, vendo-se salvo por Vós. Concedestes-lhe, Senhor, o desejo
               da sua alma.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstia immaculáta, qua illud Dómini nostri Jesu Christi imménsæ
               caritátis opus renovámus, sit, Deus Pater omnípotens, sancto
@@ -162,13 +163,13 @@ export default function Page0718() {
               enfermidades da alma e do corpo e na extrema agonia nos sirva de
               consolação e de protecção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 25, 36 & 40</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Infírmus fui, et visitástis me. Amen, amen, dico vobis: Quámdiu
               fecístis uni ex his frátribus meis minimis, mihi fecístis.
@@ -178,11 +179,11 @@ export default function Page0718() {
               todas as vezes que fizerdes isto mesmo a um destes meus irmãos
               mais pequeninos, a mim mesmo o fizestes.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per hæc cœléstia aliménta, quæ, sancti Camílli Confessóris tui
               sollémnia celebrántes, pia devotióne suscépimus: da, quǽsumus.
@@ -198,7 +199,7 @@ export default function Page0718() {
               com alegria no seio da vossa misericórdia. Ó Vós, que, sendo
               Deus...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageVerdades() {
   return (
@@ -150,7 +151,7 @@ export default function PageVerdades() {
             <Text className="li list-group-item">25 de Dezembro - Natal</Text>
           </View>
           <Text className="h2">Trabalhos de Misericórdia</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Corporais</Text>
             <Text className="vernacular">Espirituais</Text>
             <Text className="latin">
@@ -183,9 +184,9 @@ export default function PageVerdades() {
               {"\n"}
               Rezar a Deus por vivos e defuntos
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Virtudes</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Cardeais</Text>
             <Text className="vernacular">Teologais</Text>
             <Text className="latin">
@@ -204,7 +205,7 @@ export default function PageVerdades() {
               {"\n"}
               Caridade
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Pecados Contra o Espírito Santo</Text>
           <Text className="aside">
             Pecados de pura malícia, que são contrários à bondade que se atribui
@@ -234,7 +235,7 @@ export default function PageVerdades() {
             trabalha.
           </Text>
           <Text className="h2">Do Espírito Santo</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Dons</Text>
             </Text>
@@ -281,8 +282,8 @@ export default function PageVerdades() {
               {"\n"}
               Castidade
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               <Text className="latin">Pecados Capitais</Text>
             </Text>
@@ -315,9 +316,9 @@ export default function PageVerdades() {
               {"\n"}
               Bondade
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Novíssimos</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mors
               {"\n"}
@@ -336,9 +337,9 @@ export default function PageVerdades() {
               {"\n"}
               Paraíso
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Assuntos para Meditação Diária</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deum glorificare; {"\n"}
               Jesum imitari; {"\n"}
@@ -375,7 +376,7 @@ export default function PageVerdades() {
               Paixões para refrear;{"\n"}A morte sempre esperar;{"\n"}E o
               julgamento para se preparar.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

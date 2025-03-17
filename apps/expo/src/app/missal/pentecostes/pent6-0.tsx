@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent60() {
   return (
@@ -14,7 +15,7 @@ export default function PagePent60() {
 
           <Text className="em">Sl. 27, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dóminus fortitudo plebis suæ, et protéctor salutárium Christi sui
               est: salvum fac pópulum tuum, Dómine, et benedic hereditáti tuæ,
@@ -33,11 +34,11 @@ export default function PagePent60() {
               pois, se me não escutais, tornar-me-ei semelhante àqueles que caem
               no abysmo.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus virtútum, cujus est totum quod est óptimum: ínsere pectóribus
               nostris amórem tui nóminis, et præsta in nobis religiónis
@@ -51,13 +52,13 @@ export default function PagePent60() {
               nossas almas aquilo que é bom, e que, pelo fervor da piedade,
               aquilo que é avigorado seja conservado. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Rm. 6, 3-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
@@ -98,13 +99,13 @@ export default function PagePent60() {
               mortos para sempre para o pecado, e vivos somente para Deus, em
               nosso Senhor Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 89, 13 & 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Convértere, Dómine, aliquántulum, et deprecáre super servos tuos.
               <Text className="versicle"> ℣. </Text>Dómine, refúgium factus es
@@ -128,13 +129,13 @@ export default function PagePent60() {
               livrai-me: inclinai vossos ouvidos para mim e apressai-Vos em
               socorrer-me. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mc. 8, 1-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Marcum.
@@ -177,13 +178,13 @@ export default function PagePent60() {
               cestos. Eram cerca de quatro mil aqueles que comeram! Depois Jesus
               mandou retirá-los.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 16, 5 & 6-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pérfice gressus meos in sémitis tuis, ut non moveántur vestígia
               mea: inclína aurem tuam, et exáudi verba mea: mirífica
@@ -195,11 +196,11 @@ export default function PagePent60() {
               Fazei brilhar a vossa misericórdia, ó Senhor, que salvais os que
               em Vós confiam.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Propitiáre, Dómine, supplicatiónibus nostris, et has pópuli tui
               oblatiónes benígnus assúme: et, ut nullíus sit írritum votum,
@@ -212,13 +213,13 @@ export default function PagePent60() {
               apresente votos inúteis, nem súplicas vãs, permiti que obtenhamos
               eficazmente aquilo que Vos pedimos com fé. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 26, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Circuíbo et immolábo in tabernáculo ejus hóstiam jubilatiónis:
               cantábo et psalmum dicam Dómino.
@@ -227,11 +228,11 @@ export default function PagePent60() {
               Andarei em redor do altar: depositarei diante do seu tabernáculo
               uma hóstia de júbilo: e cantarei hinos ao Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Repléti sumus, Dómine, munéribus tuis: tríbue, quǽsumus; ut eórum
               et mundémur efféctu et muniámur auxílio. Per Dóminum...
@@ -241,7 +242,7 @@ export default function PagePent60() {
               nos façais a graça de, pela sua virtude, sermos purificados, e de,
               pelo seu socorro, sermos fortalecidos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

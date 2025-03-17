@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1123() {
   return (
@@ -26,7 +27,7 @@ export default function Page1123() {
 
           <Text className="em">Is. 59, 21; 56, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dicit Dóminus: Sermónes mei, quos dedi in os tuum, non defícient
               de ore tuo: et múnera tua accépta erunt super altáre meum.{" "}
@@ -43,13 +44,13 @@ export default function Page1123() {
               seus mandamentos.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Fl. 3, 17-21; 4, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Philippenses.
             </Text>
@@ -91,13 +92,13 @@ export default function Page1123() {
               Evangelho com Clemente e com os outros meus coadjutores, cujos
               nomes estão escritos no livro da vida.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Comemoração de Santa Felicidade</Text>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, beátæ Felicitátis Martyris
               tuæ sollémnia recenséntes, méritis ipsíus protegámur et précibus.
@@ -108,11 +109,11 @@ export default function Page1123() {
               nós a solenidade da B. Felicidade, vossa Mártir, sejamos
               protegidos pelos seus méritos e preces. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vota pópuli tui, Dómine, propitiátus inténde: et, cujus nos
               tríbuis sollémnia celebráre, fac gaudére suffrágiis. Per
@@ -123,11 +124,11 @@ export default function Page1123() {
               o efeito dos sufrágios daquela cuja festa nos permitis celebrar.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súpplices te rogámus, omnípotens Deus: ut, intercedéntibus Sanctis
               tuis, et tua in nobis dona multíplices, et témpora nostra
@@ -138,7 +139,7 @@ export default function Page1123() {
               dos vossos Santos, que multipliqueis sobre nós os vossos
               benefícios e governeis os dias da nossa vida. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

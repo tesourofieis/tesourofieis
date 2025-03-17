@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0821() {
   return (
@@ -24,7 +25,7 @@ export default function Page0821() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens et miséricors Deus, qui beátam Joánnam Francíscam, tuo
               amóre succénsam, admirábili spíritus fortitúdine per omnes vitæ
@@ -44,11 +45,11 @@ export default function Page0821() {
               triunfemos com o auxílio da graça celestial de tudo o que nos é
               contrário. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Illo nos amóris igne, quǽsumus. Dómine, hæc hóstia salutáris
               inflámmet: quo beátæ Joannæ Francíscæ cor veheménter incéndit, et
@@ -60,11 +61,11 @@ export default function Page0821() {
               da B. Joana Francisca e o consumiu nas chamas da eterna caridade.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Spíritum nobis, Dómine, tuæ caritátis infúnde: ut, quos cœléstis
               panis virtúte satiásti, beáta Joánna Francisca intercedénte,
@@ -77,7 +78,7 @@ export default function Page0821() {
               celestial Pão dos fortes desprezem os bens da terra e com o
               coração puro se unam somente a Vós, ó Deus. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

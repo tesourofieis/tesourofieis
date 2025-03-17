@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0105() {
   return (
@@ -23,7 +24,7 @@ export default function Page0105() {
 
           <Text className="em">Mt. 2, 19-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -55,7 +56,7 @@ export default function Page0105() {
               chamada Nazaré, a fim de que se cumprisse o que fora dito pelos
               Profetas: "Será chamado Nazareno".
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

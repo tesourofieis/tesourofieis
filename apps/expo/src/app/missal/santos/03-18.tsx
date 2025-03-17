@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0318() {
   return (
@@ -24,7 +25,7 @@ export default function Page0318() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da nobis, quǽsumus, omnípotens Deus, beáto Cyríllo Pontífice
               intercedénte: te solum verum Deum, et quem misísti Jesum Christum
@@ -38,13 +39,13 @@ export default function Page0318() {
               que mereçamos ser contados eternamente entre as ovelhas que
               escutam a vossa voz. Pelo mesmo...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ecl. 39, 6-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -76,13 +77,13 @@ export default function Page0318() {
               geração. As nações publicarão a sua sabedoria e a Igreja anunciará
               os seus louvores.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 10, 23-28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -119,11 +120,11 @@ export default function Page0318() {
               aqueles que matam o corpo, mas não podem matar a alma; temei antes
               Aquele que pode condenar a alma e o corpo ao inferno».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réspice, Dómine, immaculátam hóstiam, quam tibi offérimus: et
               præsta; ut, méritis beáti Pontíficis et Confessóris tui Cyrílli,
@@ -135,11 +136,11 @@ export default function Page0318() {
               Pontífice, diligenciemos recebê-la com o coração puro. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacraménta Córporis et Sánguinis tui, quæ súmpsimus, Dómine Jesu
               Christe: beáti Cyrílli Pontíficis précibus, mentes et corda nostra
@@ -153,7 +154,7 @@ export default function Page0318() {
               mereçamos ser participantes da natureza divina. Ó Vós, que viveis
               e reinais...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

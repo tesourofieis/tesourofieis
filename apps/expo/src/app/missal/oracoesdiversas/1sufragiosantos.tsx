@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1Sufragiosantos() {
   return (
@@ -12,7 +13,7 @@ export default function Page1Sufragiosantos() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, omnípotens Deus: ut intercéssio sanctæ Dei
               Genetrícis Maríæ, sanctorúmque ómnium Apostolórum, Mártyrum,
@@ -28,11 +29,11 @@ export default function Page1Sufragiosantos() {
               sempre que recordemos os seus merecimentos, gozemos a sua
               protecção. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblátis, Dómine, placáre munéribus: et, intercedénte beáta María
               semper Vírgine cum ómnibus Sanctis tuis, a cunctis nos defénde
@@ -43,11 +44,11 @@ export default function Page1Sufragiosantos() {
               intercessão da B. Maria, sempre Virgem, e de todos os Santos,
               defendei-nos de todos os perigos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súmpsimus, Dómine, beátæ Maríæ semper Vírginis et ómnium Sanctórum
               tuórum memóriam recoléntes, sacraménta cœléstia: præsta, quǽsumus;
@@ -60,7 +61,7 @@ export default function Page1Sufragiosantos() {
               concedei-nos que esta união, começada na terra, possa ser coroada
               com as alegrias eternas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

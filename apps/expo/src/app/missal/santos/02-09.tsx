@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0209() {
   return (
@@ -24,7 +25,7 @@ export default function Page0209() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Cyríllum Confessórem tuum atque Pontíficem divínæ
               maternitátis beatíssimæ Vírginis Maríæ assertórem invíctum
@@ -39,11 +40,11 @@ export default function Page0209() {
               concedei por sua intercessão que sejamos salvos pela sua maternal
               protecção. Pelo...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera nostra, omnípotens Deus, benígnus réspice: et, intercedénte
               beáto Cyríllo, præsta; ut unigénitum tuum Jesum Christum, Dóminum
@@ -57,11 +58,11 @@ export default function Page0209() {
               Unigénito, que é coeterno convosco na glória. Ele, que, sendo
               Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Divínis, Dómine, refécti mystériis, te súpplices deprecámur: ut,
               exémplis et méritis beáti Cyrílli Pontíficis adjúti, sanctíssimæ
@@ -74,7 +75,7 @@ export default function Page0209() {
               Pontífice Cirilo, possamos servir dignamente a S. S. Mãe do vosso
               Filho Unigénito. Ele, que...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

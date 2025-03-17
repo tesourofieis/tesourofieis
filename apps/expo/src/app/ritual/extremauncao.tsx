@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import AspergesMe from "./../missal/aspergesme";
 
 export default function PageExtremauncao() {
@@ -18,7 +19,7 @@ export default function PageExtremauncao() {
             um pouco de miolo de pão, uma bacia com água e uma toalha. O
             Sacerdote, entrando em casa do enfermo, dirá:
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Pax huic dómui.
             </Text>
@@ -32,10 +33,10 @@ export default function PageExtremauncao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E em todos seus habitantes.
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Asperges Me</Text>
           <AspergesMe />
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Adjutórium nostrum in nómine
               Dómini.
@@ -77,8 +78,8 @@ export default function PageExtremauncao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -141,8 +142,8 @@ export default function PageExtremauncao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -167,13 +168,13 @@ export default function PageExtremauncao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           O Acólito diz o{" "}
           <Link className="link" href="/devocionario/oracoes/confesso">
             Confiteor Deo...
           </Link>{" "}
           e o Sacerdote, tendo dado as Absolvições, continua:
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In nómine Pa <Text className="cross"> ✠ </Text> tris, et Fí{" "}
               <Text className="cross"> ✠ </Text> lii, et Spíritus{" "}
@@ -199,10 +200,10 @@ export default function PageExtremauncao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h1">Sagradas Unções</Text>
           <Text className="h2">Da Olhos</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per istam sanctam Unctió <Text className="cross"> ✠ </Text> nem,
               et suam piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid
@@ -219,9 +220,9 @@ export default function PageExtremauncao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Dos Ouvidos</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per istam sanctam Unctió <Text className="cross"> ✠ </Text> nem,
               et suam piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid
@@ -238,9 +239,9 @@ export default function PageExtremauncao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Do Nariz</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per istam sanctam Unctió <Text className="cross"> ✠ </Text> nem,
               et span piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid
@@ -257,9 +258,9 @@ export default function PageExtremauncao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Da Boca</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per istam sanctam Unctió <Text className="cross"> ✠ </Text> nem,
               et suam piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid
@@ -276,9 +277,9 @@ export default function PageExtremauncao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Das Mãos</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per istam sanctam Unctió <Text className="cross"> ✠ </Text> nem,
               et suam piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid
@@ -295,9 +296,9 @@ export default function PageExtremauncao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Dos Pés</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per istam sanctam Unctió <Text className="cross"> ✠ </Text> nem,
               et suam piíssimam misericórdiam, indúlgeat tibi Dóminus quidquid
@@ -314,7 +315,7 @@ export default function PageExtremauncao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="aside">
             Se o enfermo se encontra em necessidade extrema, o Sacerdote,
             fazendo uma só unção, dirá:
@@ -326,7 +327,7 @@ export default function PageExtremauncao() {
           <Text className="aside">
             Após as Unções ou Unção o Sacerdote continuará:
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Kýrie eléson.
             </Text>
@@ -447,8 +448,8 @@ export default function PageExtremauncao() {
             <Text className="latin">
               <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -488,8 +489,8 @@ export default function PageExtremauncao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -517,8 +518,8 @@ export default function PageExtremauncao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -550,7 +551,7 @@ export default function PageExtremauncao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

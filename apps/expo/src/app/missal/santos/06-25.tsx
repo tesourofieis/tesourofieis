@@ -2,6 +2,7 @@ import { Link } from "expo-router";
 
 import React from "react";
 import { SafeAreaView, ScrollView, Text, View } from "react-native";
+import Language from "~/components/Language";
 
 export default function Page0625() {
   return (
@@ -20,7 +21,7 @@ export default function Page0625() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui infirmitáti nostræ ad teréndam salútis viam in Sanctis
               tuis exémplum et præsídium collocásti: da nobis, ita beáti
@@ -34,7 +35,7 @@ export default function Page0625() {
               modo que mereçamos o socorro das suas preces e sigamos os seus
               passos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

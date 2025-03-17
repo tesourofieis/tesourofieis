@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0211() {
   return (
@@ -16,7 +17,7 @@ export default function Page0211() {
 
           <Text className="em">Ap. 21, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vidi civitátem sanctam, Jerúsalem novam, descendéntem de cœlo a
               Deo, parátam sicut sponsam ornátam viro suo.{" "}
@@ -31,11 +32,11 @@ export default function Page0211() {
               coração exprimiu uma palavra excelente: «Consagro as minhas obras
               ao Rei».<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui per immaculátam Vírginis Conceptiónem dignum Filio tuo
               habitáculum præparásti: súpplices a te quǽsumus; ut, ejúsdem
@@ -48,13 +49,13 @@ export default function Page0211() {
               celebrando a Aparição desta mesma Virgem, alcancemos a salvação da
               alma e do corpo. Pelo mesmo nosso Senhor Jesus Cristo...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ap. 11, 19; 12, 1 & 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
             </Text>
@@ -78,13 +79,13 @@ export default function Page0211() {
               «Agora, foi operada a salvação. A soberania e o domínio estão em
               Deus e o poder no seu Cristo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Ct. 2, 12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Flores apparuérunt in terra nostra, tempus putatiónis advénit, vox
               túrturis audíta est in terra nostra.
@@ -112,7 +113,7 @@ export default function Page0211() {
               o vosso rosto: fazei que a vossa voz ressoe aos meus ouvidos; pois
               a vossa voz é doce e o vosso rosto é cheio de beleza. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o Verso e diz-se o:
@@ -122,7 +123,7 @@ export default function Page0211() {
 
           <Text className="em">Jdt 15, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tu glória Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli
               nostri.<Text className="versicle"> ℣. </Text>
@@ -141,13 +142,13 @@ export default function Page0211() {
               Virgem Maria, e digníssima de todo o louvor, pois com vosso pé
               virginal esmagastes a cabeça da serpente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 1, 26-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -179,13 +180,13 @@ export default function Page0211() {
               conceberás no teu seio e darás à luz um Filho, e o seu nome será
               Jesus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Lc. 1, 28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus.
             </Text>
@@ -193,11 +194,11 @@ export default function Page0211() {
               Ave, ó cheia de graça; o Senhor é convosco; bendita sois entre as
               mulheres.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstia laudis, quam tibi, Dómine, per mérita gloriósæ et
               immaculátæ Vírginis offérimus, sit tibi in odórem suavitátis, et
@@ -209,13 +210,13 @@ export default function Page0211() {
               Virgem, e nos alcance a desejada saúde do corpo e da alma. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 64, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Visitásti terram et inebriásti eam, multiplicásti locupletáre eam.
             </Text>
@@ -223,11 +224,11 @@ export default function Page0211() {
               Visitastes a terra e inebriaste-la; encheste-la com muitas
               riquezas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quos cœlésti, Dómine, aliménto satiásti, súblevet aextera
               Genetrícis tuæ immaculátæ: ut ad ætérnam pátriam, ipsa adjuvánte,
@@ -239,7 +240,7 @@ export default function Page0211() {
               protecção mereçamos chegar até à pátria eterna. Ó Vós, que viveis
               e reinais...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

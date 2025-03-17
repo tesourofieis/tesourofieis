@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0514() {
   return (
@@ -35,7 +36,7 @@ export default function Page0514() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, omnípotens Deus: ut, qui beáti Bonifátii Mártyris
               tui sollémnia cólimus, ejus apud te intercessiónibus adjuvémur.
@@ -46,11 +47,11 @@ export default function Page0514() {
               vosso B. Mártir Bonifácio, concedei-nos que sejamos auxiliados com
               sua intercessão. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
               cœléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum
@@ -61,11 +62,11 @@ export default function Page0514() {
               dignai-Vos purificar-nos com vossos celestiais mystérios e
               ouvir-nos clementemente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus
               noster: ut, cujus exséquimur cultum, intercedénte beáto Bonifátio
@@ -77,7 +78,7 @@ export default function Page0514() {
               Bonifácio, vosso Mártir, o efeito do mystério que celebramos. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

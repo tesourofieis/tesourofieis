@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0218Portugal() {
@@ -15,7 +16,7 @@ export default function Page0218Portugal() {
 
           <Text className="em">Sl. 131, 7 & 121, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Introíbimus in tabernáculum ejus: adorábimus in loco, ubi
               stetérunt pedes ejus. Stantes erant pedes nostri in átriis tuis,
@@ -31,11 +32,11 @@ export default function Page0218Portugal() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beáti Theotónii et exémplis canónicam disciplínam
               reparásti: concéde propítius; ut ejus exémplo et intercessióne,
@@ -49,7 +50,7 @@ export default function Page0218Portugal() {
               perfeição cristã, mais facilmente alcancemos a vida eterna. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -62,7 +63,7 @@ export default function Page0218Portugal() {
 
           <Text className="em">Sl. 118, 46</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Loquébar de testimóniis tuis in conspéctu regum: et non
               confundébar.<Text className="versicle"> ℣. </Text>
@@ -86,7 +87,7 @@ export default function Page0218Portugal() {
               meus votos ao Senhor, nos átrios da casa do Senhor e junto de Vós,
               ó Jerusalém. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte, e diz-se o:
@@ -94,7 +95,7 @@ export default function Page0218Portugal() {
 
           <Text className="h3">Trato</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Sl. 115, 16</Text>Dirupísti víncula mea:
               tibi sacrificábo hóstiam laudis, et nomen Dómini invocábo.
@@ -111,7 +112,7 @@ export default function Page0218Portugal() {
               <Text className="em">Sl. 86, 3</Text> Gloriosas coisas têm sido
               narradas a respeito de vós, ó cidade de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -124,7 +125,7 @@ export default function Page0218Portugal() {
 
           <Text className="em">Gl. 6-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu
               Christi.
@@ -133,11 +134,11 @@ export default function Page0218Portugal() {
               Longe esteja de mim gloriar-me nalguma coisa senão na Cruz de
               nosso Senhor Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctæ Crucis, Dómine, mystéria recoléntes, concéde, ut
               sacrifícium incruéntum débita veneratióne offerámus: et
@@ -150,13 +151,13 @@ export default function Page0218Portugal() {
               que por intercessão de S. Teotónio, vosso Confessor, alcancemos
               fruto salutar. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Rm. 12, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Obsecro vos, frates, per misericórdiam Dei, ut exhibeátis córpora
               vestra hóstiam vivéntem, sanctam, Deo placéntem, rationábile
@@ -168,11 +169,11 @@ export default function Page0218Portugal() {
               vivo, santo e agradável a Deus, pois esta vossa doação é racional.
               E que vos não conformeis com este mundo, mas antes vos reformeis.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per sancta, Dómine, quæ súmpsimus, sanctus Theotónius intercédat,
               ne huic sæculo conformémur; sed reformáti, ad perfectiónem semper
@@ -183,7 +184,7 @@ export default function Page0218Portugal() {
               por nós S. Teotónio, para que nos não conformemos com este mundo,
               mas, já reformados, aspiremos à perfeição. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

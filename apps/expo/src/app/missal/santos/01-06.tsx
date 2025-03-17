@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0106() {
   return (
@@ -14,7 +15,7 @@ export default function Page0106() {
 
           <Text className="em">Ml. 3, 1; 1 Cr. 29, 12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce, advénit dominátor Dóminus: et regnum in manu ejus et
               potéstas et impérium. <Text className="latin">Ps. 71, 1</Text>{" "}
@@ -28,11 +29,11 @@ export default function Page0106() {
               Rei a graça de saber julgar: e ao Filho do Rei a Vossa justiça.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui hodiérna die Unigénitum tuum géntibus steila duce
               revelásti: concéde propítius; ut, qui jam te ex fide cognóvimus,
@@ -46,13 +47,13 @@ export default function Page0106() {
               fé, consigamos contemplar face a face o esplendor da vossa
               majestade. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Is. 60, 1-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -83,13 +84,13 @@ export default function Page0106() {
               ti. Todos os de Sabá virão junto de ti, trazendo ouro e incenso e
               louvando o Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">ibid., 6 & 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino
               annuntiántes.<Text className="versicle"> ℣. </Text>Surge et
@@ -110,13 +111,13 @@ export default function Page0106() {
               <Text className="vernacular">Mt. 2, 2</Text> Vimos a sua estrela
               no Oriente e viemos com ofertas adorar o Senhor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 2, 1-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽu.
@@ -175,13 +176,13 @@ export default function Page0106() {
               não deveriam voltar a encontrar Herodes, retiraram-se por outro
               caminho para o seu país.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 71, 10-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Reges Tharsis, et ínsulæ múnera ófferent: reges Arabum et Saba
               dona addúcent: et adorábunt eum omnes reges terræ, omnes gentes
@@ -192,11 +193,11 @@ export default function Page0106() {
               Arábia e de Sabá levar-Lhe-ão ofertas; todos os reis da terra O
               adorarão; e todas as nações O servirão.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecclésiæ tuæ, quǽsumus, Dómine, dona propítius intuere: quibus non
               jam aurum, thus et myrrha profertur; sed quod eisdem munéribus
@@ -209,13 +210,13 @@ export default function Page0106() {
               dádivas representam, e que agora é imolado e dado em alimento,
               Jesus Cristo, vosso Filho, nosso Senhor: Que, sendo Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 2, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vídimus stellam ejus in Oriénte, et vénimus cum munéribus adoráre
               Dóminum.
@@ -224,11 +225,11 @@ export default function Page0106() {
               Vimos a sua estrela no Oriente e viemos com ofertas adorar o
               Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, quæ sollémni celebrámus
               officio, purificátæ mentis intellegéntia consequámur. Per Dóminum
@@ -239,7 +240,7 @@ export default function Page0106() {
               espírito, a fim de que compreenda os mystérios que celebrámos
               neste solene ofício. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

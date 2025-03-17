@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page12252() {
   return (
@@ -14,7 +15,7 @@ export default function Page12252() {
 
           <Text className="em">Is. 9, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Puer natus est nobis, et fílius datus est nobis: cujus impérium
               super húmerum ejus: et vocábitur nomen ejus magni consílii
@@ -29,11 +30,11 @@ export default function Page12252() {
               Cantai ao Senhor um hino novo, pois Ele praticou maravilhas.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per
               carnem Natívitas líberet; quos sub peccáti jugo vetústa sérvitus
@@ -45,13 +46,13 @@ export default function Page12252() {
               cativeiro em que nos conserva o jugo do pecado. Pelo mesmo nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Heb. 1, 1-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
             </Text>
@@ -107,13 +108,13 @@ export default function Page12252() {
               ficarão mudados; mas Vós sois sempre o mesmo, e os anos não
               acabarão para Vós».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 97, 3 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vidérunt omnes fines terræ salutare Dei nostri: jubiláte Deo,
               omnis terra.<Text className="versicle"> ℣. </Text>Notum fecit
@@ -135,13 +136,13 @@ export default function Page12252() {
               santidade resplandeceu para nós: vinde, ó povos, e adorai o
               Senhor: pois hoje desceu a grande luz à terra. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo, 1, 1-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Initium sancti Evangélii
               secúndum Joánnem.
@@ -189,13 +190,13 @@ export default function Page12252() {
               nós; e contemplamos a sua glória, como era própria do Filho
               Unigénito do Pai, cheio de graça e de verdade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 88, 12 & 15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tui sunt cœli et tua est terra: orbem terrárum et plenitúdinem
               ejus tu fundásti: justítia et judícium præparátio sedis tuæ.
@@ -205,11 +206,11 @@ export default function Page12252() {
               universo e tudo o que ele encerra. A justiça e a equidade são a
               base do vosso trono.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Obláta, Dómine, múnera, nova Unigéniti tui Nativitáte sanctífica:
               nosque a peccatórum nostrórum máculis emúnda. Per eúndem Dóminum
@@ -220,24 +221,24 @@ export default function Page12252() {
               as oblatas que Vos apresentamos, e purificai-nos das manchas dos
               nossos pecados. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 97, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vidérunt omnes fines terræ salutáre Dei nostri.
             </Text>
             <Text className="vernacular">
               Toda a terra contemplou o Salvador que o nosso Deus enviou.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut natus hódie Salvátor mundi,
               sicut divínæ nobis generatiónis est auctor; ita et immortalitátis
@@ -248,13 +249,13 @@ export default function Page12252() {
               do mundo, nascendo neste dia, nos comunicou a geração divina,
               assim também nos conceda a imortalidade. Ele, que, sendo Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Último Evangelho</Text>
 
           <Text className="em">Mt. 2, 19-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -313,7 +314,7 @@ export default function Page12252() {
               não deveriam voltar a encontrar Herodes, retiraram-se por outro
               caminho para o seu país.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

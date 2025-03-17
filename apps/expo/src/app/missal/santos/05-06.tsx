@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0506() {
   return (
@@ -35,7 +36,7 @@ export default function Page0506() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui cónspicis, quia nos úndique mala nostra pertúrbant:
               præsta, quǽsumus; ut beáti Joánnis Apóstoli tui et Evangelístæ
@@ -47,11 +48,11 @@ export default function Page0506() {
               gloriosa intercessão do B. João, Vosso Apóstolo e Evangelista. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps 91:13</Text> Justus ut palma florébit:
@@ -72,13 +73,13 @@ export default function Page0506() {
               <Text className="versicle"> ℣. </Text>O justo despontará, como o
               lírio, e florescerá eternamente na presença do Senhor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 20, 20-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -109,11 +110,11 @@ export default function Page0506() {
               lugar à minha direita ou à minha esquerda, pois isso é para
               aqueles para quem meu Pai o preparou».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti, Dómine, pane cœlésti: ad vitam, quǽsumus, nutriámur
               ætérnam. Per Dominum...
@@ -123,7 +124,7 @@ export default function Page0506() {
               fazei que com ele sejamos nutridos para a vida eterna. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

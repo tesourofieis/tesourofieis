@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page15Confessoresnaopontifices2() {
   return (
@@ -14,7 +15,7 @@ export default function Page15Confessoresnaopontifices2() {
 
           <Text className="em">Sl. 91, 13-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus ut palma florébit: sicut cedrus Líbani multiplicábitur:
               plantátus in domo Dómini: in átriis domus Dei nostri. (T. P.
@@ -30,11 +31,11 @@ export default function Page15Confessoresnaopontifices2() {
               Senhor: e cantar hinos em honra do vosso nome, ó Altíssimo!
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto, Dómine, supplicatiónibus nostris, quas in beáti{" "}
               <Text className="latin">N.</Text> Confessóris tui sollemnitáte
@@ -49,13 +50,13 @@ export default function Page15Confessoresnaopontifices2() {
               preces daquele que Vos foi agradável neste mundo. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1, Cor. 4, 9-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -87,13 +88,13 @@ export default function Page15Confessoresnaopontifices2() {
               Escrevo estas coisas, não para vos envergonhar, mas para vos
               admoestar, como meus filhos caríssimos em N. S. Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 36, 30-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.
               <Text className="versicle"> ℣. </Text>Lex Dei ejus in corde
@@ -115,7 +116,7 @@ export default function Page15Confessoresnaopontifices2() {
               varão que teme o Senhor e que põe todo seu zelo em obedecer-Lhe.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -125,7 +126,7 @@ export default function Page15Confessoresnaopontifices2() {
 
           <Text className="em">Sl. 111, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
               <Text className="versicle"> ℣. </Text>
@@ -142,13 +143,13 @@ export default function Page15Confessoresnaopontifices2() {
               riqueza; e a sua justiça subsistirá em todos os séculos dos
               séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 111, 1</Text> Beátus vir, qui timet
@@ -165,13 +166,13 @@ export default function Page15Confessoresnaopontifices2() {
               <Text className="em">Os. 14, 6</Text>O justo germinará, como o
               lírio, e florescerá para sempre diante do Senhor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 12, 32-34</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -196,13 +197,13 @@ export default function Page15Confessoresnaopontifices2() {
               céu, onde o ladrão não pode chegar, nem a traça o pode corromper;
               pois, onde estiver o vosso tesouro, aí estará o vosso coração».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 20, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In virtúte tua, Dómine, lætábitur justus, et super salutáre tuum
               exsultábit veheménter: desidérium ánimæ ejus tribuísti ei. (T. P.
@@ -213,11 +214,11 @@ export default function Page15Confessoresnaopontifices2() {
               alegria, vendo-se salvo por Vós. Concedestes-lhe, Senhor, o desejo
               da sua alma. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta nobis, quǽsumus, omnípotens Deus: ut nostræ humilitátis
               oblátio et pro tuórum tibi grata sit honóre Sanctórum, et nos
@@ -229,13 +230,13 @@ export default function Page15Confessoresnaopontifices2() {
               permiti que nos purifique ao mesmo tempo o corpo e a alma. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 19, 28 & 29</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Amen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis
               me, céntuplum accipiétis, et vitam ætérnam possidébitis, (T. P.
@@ -245,11 +246,11 @@ export default function Page15Confessoresnaopontifices2() {
               Em verdade vos digo: vós, que abandonastes tudo e me seguistes,
               recebereis o cêntuplo e possuireis a vida eterna. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus,
               intercedénte beáto <Text className="latin">N.</Text> Confessóre
@@ -261,7 +262,7 @@ export default function Page15Confessoresnaopontifices2() {
               <Text className="vernacular">N.</Text> sejamos fortificados contra
               todas as adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

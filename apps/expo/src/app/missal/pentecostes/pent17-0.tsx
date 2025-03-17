@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent170() {
   return (
@@ -16,7 +17,7 @@ export default function PagePent170() {
 
           <Text className="em">Sl. 118, 137 & 124</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus es, Dómine, et rectum judicium tuum: fac cum servo tuo
               secúndum misericórdiam tuam.{" "}
@@ -31,11 +32,11 @@ export default function PagePent170() {
               os que são imaculados na sua vida: os que o caminho da Lei do
               Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, Dómine, pópulo tuo diabólica vitáre contágia: et te
               solum Deum pura mente sectári. Per Dóminum...
@@ -46,13 +47,13 @@ export default function PagePent170() {
               coração puro servir-Vos só a Vós, que sois o seu Deus. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ef. 4, 1-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
@@ -81,13 +82,13 @@ export default function PagePent170() {
               de todos, penetra em todos, vive em todos e é bendito em todos os
               séculos dos séculos. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 32, 12 & 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit
               Dóminus in hereditátem sibi.<Text className="versicle"> ℣. </Text>
@@ -110,13 +111,13 @@ export default function PagePent170() {
               <Text className="vernacular">Sl. 101, 2</Text> Ouvi, Senhor, a
               minha oração: e que meu clamor chegue até vós. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 22, 34-46</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -159,13 +160,13 @@ export default function PagePent170() {
               E ninguém pôde responder-Lhe uma palavra, nem, desde aquele dia em
               diante, ninguém mais ousou interrogá-l’O!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Dn. 9, 17, 18 et 19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Orávi Deum meum ego Dániel, dicens: Exáudi, Dómine, preces servi
               tui: illúmina fáciem tuam super sanctuárium tuum: et propítius
@@ -177,11 +178,11 @@ export default function PagePent170() {
               sobre o vosso santuário: e olhai propício para este povo, em favor
               do qual, ó Deus, foi invocado o vosso nome.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Majestátem tuam, Dómine, supplíciter deprecámur: ut hæc sancta,
               quæ gérimus, et a prætéritis nos delictis éxuant et futúris. Per
@@ -192,13 +193,13 @@ export default function PagePent170() {
               estes sacrossantos mystérios que celebramos nos livrem dos nossos
               delitos passados e futuros. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 75, 12-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vovéte et réddite Dómino, Deo vestro, omnes, qui in circúitu ejus
               affértis múnera: terríbili, et ei qui aufert spíritum príncipum:
@@ -209,11 +210,11 @@ export default function PagePent170() {
               habitais em redor d’Ele. Fazei votos a este Deus tremendo que
               arrebata a vida aos príncipes e esmaga os reis da terra.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctificatiónibus tuis, omnípotens Deus, et vítia nostra
               curéntur, et remédia nobis ætérna provéniant. Per Dóminum...
@@ -223,7 +224,7 @@ export default function PagePent170() {
               curem dos nossos vícios e nos sirvam de remédio para a eternidade.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

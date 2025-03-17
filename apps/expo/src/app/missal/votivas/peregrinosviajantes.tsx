@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePeregrinosviajantes() {
   return (
@@ -14,7 +15,7 @@ export default function PagePeregrinosviajantes() {
 
           <Text className="em">Sl. 25, 11-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Rédime me, Dómine, et miserére mei: pes enim meus stetit in via
               recta: in ecclésiis benedícam Dóminum. (T. P. Allelúja, allelúja.){" "}
@@ -32,11 +33,11 @@ export default function PagePeregrinosviajantes() {
               confiando no Senhor, não vacilarei.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto, Dómine, supplicatiónibus nostris: et viam famulórum tuorum
               in salútis tuæ prosperitáte dispóne; ut, inter omnes viæ et vitæ
@@ -49,13 +50,13 @@ export default function PagePeregrinosviajantes() {
               circunstâncias do caminho da sua vida, sempre sejam amparados com
               vosso auxílio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Gn. 28,10-12,13-15,18 & 20-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Genesis.</Text>
             <Text className="vernacular">Lição do Livro do Génesis.</Text>
             <Text className="latin">
@@ -99,13 +100,13 @@ export default function PagePeregrinosviajantes() {
               pedra, que erigi como monumento, será chamada casa de Deus e de
               tudo o que me derdes Vos oferecerei fielmente o dízimo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 22, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Si ámbulem in médio umbræ mortis, non timébo mala, quóniam tu
               mecum es, Dómine.<Text className="versicle"> ℣. </Text>Virga tua
@@ -129,7 +130,7 @@ export default function PagePeregrinosviajantes() {
               meus passos segundo a vossa doutrina, para que nenhuma injustiça
               me possa dominar. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             A pós a Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
@@ -139,7 +140,7 @@ export default function PagePeregrinosviajantes() {
 
           <Text className="em">Sl. 90, 11-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Angelis suis Deus mandávit de te, ut custódiant te in ómnibus viis
               tuis.<Text className="versicle"> ℣. </Text>In mánibus portábunt
@@ -154,13 +155,13 @@ export default function PagePeregrinosviajantes() {
               <Text className="versicle"> ℣. </Text>Caminharás sobre a áspide e
               o basilisco e calcarás o leão e o dragão.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se Gradual e o Trato, dizendo-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 118, 133</Text> Gressus meos dírige
@@ -177,13 +178,13 @@ export default function PagePeregrinosviajantes() {
               <Text className="em">Sl. 121, 1</Text> Alegrei-me quando me foram
               ditas estas palavras: «Iremos até à casa do Senhor». Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 10, 7-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -224,13 +225,13 @@ export default function PagePeregrinosviajantes() {
               receber nem ouvir as vossas palavras, quando sairdes daquela casa
               ou cidade, sacudi o pó dos vossos pés».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 16, 5 & 6-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pérfice gressus meos in sémitis tuis, ut non moveántur vestígia
               mea: inclína aurem tuam mihi, et exáudi verba mea: mirífica
@@ -243,11 +244,11 @@ export default function PagePeregrinosviajantes() {
               minhas palavras: Senhor, que salvais os que em Vós confiam, fazei
               brilhar as vossas misericórdias. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Propitiáre, Dómine, supplicatiónibus nostris, et has oblationes,
               quas tibi offérimus pro fámulis tuis, benígnus assúme: ut viam
@@ -263,13 +264,13 @@ export default function PagePeregrinosviajantes() {
               eles cheguem incólumes ao termo da sua viagem, com o socorro da
               vossa misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 118, 4-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tu mandásti mandáta tua custodíri nimis: útinam dirigántur viæ
               meæ, ad custodiéndas justificatiónes tuas. (T. P. Allelúja.)
@@ -279,11 +280,11 @@ export default function PagePeregrinosviajantes() {
               observados: praza a Deus que meus passos sejam conduzidos segundo
               os vossos preceitos. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tua, Dómine, sacraménta, quæ súmpsimus, fámulos tuos in te
               sperántes custódiant: et contra omnes advérsos tueántur incúrsus.
@@ -294,7 +295,7 @@ export default function PagePeregrinosviajantes() {
               em Vós Confiam e os protejam contra todos os embates adversários.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

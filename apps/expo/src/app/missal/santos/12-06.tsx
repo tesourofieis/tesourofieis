@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1206() {
@@ -37,7 +38,7 @@ export default function Page1206() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Nicoláum Pontíficem innúmeris decorásti
               miráculis: tríbue, quǽsumus; ut ejus méritis et précibus a gehénnæ
@@ -49,13 +50,13 @@ export default function Page1206() {
               pelos seus méritos e preces sejamos preservados do fogo do
               inferno. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Heb. 13, 7-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
             </Text>
@@ -103,13 +104,13 @@ export default function Page1206() {
               submissos; pois elos vigiam as vossas almas, das quais têm de dar
               conta.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 88, 21-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
               auxiliábitur ei, et bráchium meum confortábit eum.
@@ -132,7 +133,7 @@ export default function Page1206() {
               <Text className="vernacular">Sl. 91, 13</Text> O justo florescerá,
               como a palmeira, e crescerá, como o cedro do Líbano. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -145,7 +146,7 @@ export default function Page1206() {
 
           <Text className="em">Sl. 88, 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Véritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus.
@@ -154,11 +155,11 @@ export default function Page1206() {
               A minha verdade e a minha misericórdia estarão com ele: e o seu
               poder elevar-se-á pelo meu nome.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctífica, quǽsumus, Dómine Deus, hæc múnera, quæ in sollemnitáte
               sancti Antístitis tui Nicolái offérimus: ut per ea vita nostra
@@ -170,13 +171,13 @@ export default function Page1206() {
               meio deles possamos sempre proceder com rectidão, tanto nas
               adversidades, como nas prosperidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 88, 36-38</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Semel jurávi in sancto meo: Semen ejus in ætérnum manebit, et
               sedes ejus sicut sol in conspéctu meo, et sicut luna perfécta in
@@ -188,11 +189,11 @@ export default function Page1206() {
               como a lua, permanecerá para sempre, e será testemunho fiel no
               céu.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifícia, quæ súmpsimus, Dómine, pro sollemnitáte sancti
               Pontíficis tui Nicolái, sempitérna nos protectióne consérvent. Per
@@ -203,7 +204,7 @@ export default function Page1206() {
               Pontífice Nicolau, Senhor, nos alcance perpetuamente a vossa
               protecção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

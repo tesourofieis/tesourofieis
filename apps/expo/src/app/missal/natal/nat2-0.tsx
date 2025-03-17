@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageNat20() {
   return (
@@ -14,7 +15,7 @@ export default function PageNat20() {
 
           <Text className="em">Fl. 2, 10-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In nómine Jesu omne genu flectátur, cœléstium, terréstrium et
               infernórum: et omnis lingua confiteátur, quia Dóminus Jesus
@@ -32,11 +33,11 @@ export default function PageNat20() {
               Senhor, como o vosso Nome é admirável em todo o universo!
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui unigénitum Fílium tuum constituísti hu máni géneris
               Salvatórem, ei Jesum vocári jussísti: concéde propítius; ut, cujus
@@ -49,13 +50,13 @@ export default function PageNat20() {
               que, venerando nós o seu Santo Nome na terra, gozemos também a sua
               presença nos céus. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act. 4, 8-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolorum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -82,13 +83,13 @@ export default function PageNat20() {
               outro nome, pois não existe debaixo do céu outro nome, que tenha
               sido dado aos homens, pelo qual devamos ser salvos».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 105, 47</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salvos fac nos, Dómine, Deus noster, et cóngrega nos de
               natiónibus: ut confiteámur nómini sancto tuo, et gloriémur in
@@ -115,13 +116,13 @@ export default function PageNat20() {
               anuncie os louvores do Senhor: que toda a carne humana bendiga o
               seu Santo Nome. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 2, 21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -141,13 +142,13 @@ export default function PageNat20() {
               foi aquele que o Anjo Lhe havia dado, antes de ser concebido no
               seio de sua Mãe.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 85, 12 & 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Confitébor tibi, Dómine, Deus meus, in toto corde meo, et
               glorificábo nomen tuum in ætérnum: quóniam tu, Dómine, suávis et
@@ -159,11 +160,11 @@ export default function PageNat20() {
               cheio de clemência e de bondade: e as vossas misericórdias
               estendem-se a todos quantos Vos invocam. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedíctio tua, clementíssime Deus, qua omnis viget creatúra,
               sanctíficet, quǽsumus, hoc sacrifícium nostrum, quod ad glóriam
@@ -178,13 +179,13 @@ export default function PageNat20() {
               que ele possa honrar a vossa majestade, e, agradando-lhe, seja
               útil à nossa salvação. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 85, 9-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnes gentes, quascúmque fecísti, vénient et adorábunt coram te,
               Dómine, et glorificábunt nomen tuum: quóniam magnus es tu et
@@ -195,11 +196,11 @@ export default function PageNat20() {
               Senhor, adorando-Vos e glorificando o vosso Nome; pois sois grande
               e praticais prodígios. Só Vós sois Deus. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens ætérae Deus, qui creásti et redemísti nos, réspice
               propítius vota nostra: et sacrifícium salutáris hóstiæ, quod in
@@ -219,7 +220,7 @@ export default function PageNat20() {
               céus, abaixo do glorioso Nome de Jesus, no livro da eterna
               predestinação. Pelo mesmo Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

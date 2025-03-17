@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1130() {
   return (
@@ -34,7 +35,7 @@ export default function Page1130() {
 
           <Text className="em">Sl. 138, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
               est principatus eórum.{" "}
@@ -50,11 +51,11 @@ export default function Page1130() {
               conhecendo quando me deito e quando me levanto.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Majestátem tuam, Dómine, supplíciter exorámus: ut, sicut Ecclésiæ
               tuæ beátus Andréas Apóstolus éxstitit prædicátor et rector; ita
@@ -65,13 +66,13 @@ export default function Page1130() {
               Apóstolo André foi pregador e guia da vossa Igreja, assim também
               interceda por nós perpetuamente junto de Vós. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Rm. 10, 10-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
@@ -112,13 +113,13 @@ export default function Page1130() {
               por toda a terra se espalhou a sua voz, e suas palavras soaram até
               aos extremos do mundo!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 17-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Constítues eos príncipes super omnem terram: mémores erunt nóminis
               tui, Dómine.<Text className="versicle"> ℣. </Text>Pro pátribus
@@ -139,13 +140,13 @@ export default function Page1130() {
               Aleluia, aleluia.<Text className="versicle"> ℣. </Text>O Senhor
               amou André, como um perfume suave. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 4, 18-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -176,13 +177,13 @@ export default function Page1130() {
               pai Zebedeu. Então chamou-os. Logo, no mesmo instante, eles,
               deixando as redes e o pai, seguiram-n’O.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 138, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.
@@ -191,11 +192,11 @@ export default function Page1130() {
               Vejo, ó Deus, que honrastes largamente os vossos amigos; por isso
               o seu poder se fortaleceu extraordinariamente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrificium nostrum tibi, Dómine, quǽsumus, beáti Andréæ Apóstoli
               precátio sancta concíliet: ut, in cujus honóre sollémniter
@@ -207,13 +208,13 @@ export default function Page1130() {
               virtude dos méritos daquele em cuja honra Vos é solenemente
               oferecido. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 4, 19-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veníte post me: fáciam vos fíeri piscatóres hóminum; at illi
               contínuo, relíctis rétibus, secúti sunt Dóminum.
@@ -222,11 +223,11 @@ export default function Page1130() {
               Vinde comigo: e far-vos-ei pescadores de homens. Imediatamente
               eles, deixando as redes, seguiram o Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súmpsimus, Dómine, divína mystéria, beáti Andréæ Apóstoli
               festivitáte lætántes: quæ, sicut tuis Sanctis ad glóriam, ita
@@ -237,7 +238,7 @@ export default function Page1130() {
               festa do B. André, servindo para a glória dos vossos Santos, nos
               alcancem, também, o perdão das nossas culpas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

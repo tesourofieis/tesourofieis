@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0526() {
@@ -30,7 +31,7 @@ export default function Page0526() {
 
           <Text className="em">Rm. 5, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cáritas Dei diffúsa est in córdibus nostris per inhabitántem
               Spíritum ejus in nobis. (T.P. Allelúja, allelúja.){" "}
@@ -46,11 +47,11 @@ export default function Page0526() {
               alma, o Senhor: que tudo quanto me pertence bendiga o seu santo
               nome.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Philippum Confessórem tuum Sanctórum tuórum
               glória sublimásti: concéde propítius; ut, cujus sollemnitáte
@@ -62,7 +63,7 @@ export default function Page0526() {
               com alegria esta festa, alcancemos proveito com o exemplo das suas
               virtudes. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -75,7 +76,7 @@ export default function Page0526() {
 
           <Text className="em">Sl. 33, 12 & 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veníte, fílii, audíte me: timórem Dómini docébo vos.
               <Text className="versicle"> ℣. </Text>Accédite ad eum, et
@@ -96,14 +97,14 @@ export default function Page0526() {
               <Text className="vernacular">Lm. 1, 13</Text> Do alto dos céus
               enviou e fogo sobre os meus ossos e instruiu-me. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Durante o Tempo Pascal omite-se o Gradual e diz-se a seguinte
             Aleluia:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Thren. 1, 13</Text> De excélso misit ignem
@@ -120,7 +121,7 @@ export default function Page0526() {
               <Text className="em">Sl. 38, 4</Text> Meu coração inflamou-se no
               meu peito. Enquanto eu meditava, o fogo abrasou-me. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -133,7 +134,7 @@ export default function Page0526() {
 
           <Text className="em">Sl. 18, 32</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Viam mandatórum tuórum cucúrri, cum dilatásti cor meum. (T.P.
               Allelúja.)
@@ -142,11 +143,11 @@ export default function Page0526() {
               Eu corri pelo caminho dos vossos mandamentos, porquanto dilatastes
               o meu coração. (T.P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifíciis præséntibus, quǽsumus, Dómine, inténde placatus: et
               præsta; ut illo nos igne Spíritus Sanctus inflámmet, quo beáti
@@ -157,13 +158,13 @@ export default function Page0526() {
               e fazei que o Espírito Santo nos inflame naquele fogo que penetrou
               maravilhosamente no coração do B. Filipe. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 83, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cor meum et caro mea exsultavérunt in Deum vivum. (T.P. Allelúja.)
             </Text>
@@ -171,11 +172,11 @@ export default function Page0526() {
               O meu coração e a minha carne exultaram em Deus vivo. (T.P.
               Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœléstibus, Dómine, pasti delíciis: quǽsumus; ut beáti Philippi
               Confessóris tui méritis et imitatióne, semper eadem, per quæ
@@ -187,7 +188,7 @@ export default function Page0526() {
               exemplos, aspiremos sempre a este alimento, que nos dará a
               verdadeira vida. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

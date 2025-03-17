@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1129() {
   return (
@@ -26,7 +27,7 @@ export default function Page1129() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos beáti Saturníni Martyris tui concédis natalítia
               pérfrui: ejus nos tríbue méritis adjuvári. Per Dóminum...
@@ -36,11 +37,11 @@ export default function Page1129() {
               do nascimento do vosso B. Mártir Saturnino, concedei-nos ainda que
               sejamos auxiliados pelos seus méritos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera, Dómine, tibi dicáta sanctífica: et, intercedénte beáto
               Saturníno Mártyre tuo, per hæc eádem nos placátus inténde. Per
@@ -51,11 +52,11 @@ export default function Page1129() {
               intercessão do B. Saturnino, vosso Mártir, olhai aplacado para
               nós. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctíflcet nos, quǽsumus, Dómine, tui percéptio sacraménti: et
               intercessióne Sanctórum tuórum tibi reddat accéptos. Per
@@ -66,7 +67,7 @@ export default function Page1129() {
               nos santifique e que por intercessão dos vossos santos nos alcance
               a graça de Vos agradarmos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

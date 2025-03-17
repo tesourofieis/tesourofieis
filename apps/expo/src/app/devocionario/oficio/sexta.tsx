@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import { TabItem, Tabs } from "~/components/Tabs";
 import MementoRerumConditor from "./../../canticos/sacros/mementorerumconditor";
 import Salmo122 from "./../salterio/122";
@@ -21,7 +22,7 @@ export default function PageSexta() {
             por ele na Santa Cruz, dando-nos Maria por Mãe.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Deus{" "}
               <Text className="cross"> ✠ </Text> in adjutórium meum inténde.
@@ -55,13 +56,13 @@ export default function PageSexta() {
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Memento rerum conditor</Text>
 
           <MementoRerumConditor />
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Ant.</Text> In odorem unguentorum tuorum
               currimus: adolescentulæ dilexerunt te nimis.
@@ -70,7 +71,7 @@ export default function PageSexta() {
               <Text className="vernacular">Ant.</Text> Todos corremos à
               fragrância dos vossos aromas, as donzelas amar-vos-ão grandemente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Salmo 122</Text>
 
@@ -86,7 +87,7 @@ export default function PageSexta() {
 
           <Tabs>
             <TabItem label="Depois da Purificação">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> In odorem unguentorum
                   tuorum currimus: adolescentulæ dilexerunt te nimis.
@@ -96,13 +97,13 @@ export default function PageSexta() {
                   fragrância dos vossos aromas, as donzelas amar-vos-ão
                   grandemente.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Ecl. 24, 16</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Et radicavi in populo honorificato, et in parte Dei mei
                   hereditas illius et in plenitudine sanctorum detentio mea.
@@ -133,9 +134,9 @@ export default function PageSexta() {
                   <Text className="response"> ℟. </Text> E bendito é o fruto do
                   vosso ventre.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Hic genuflectitur</Text> Kyrie eleison
                 </Text>
@@ -167,9 +168,9 @@ export default function PageSexta() {
                   <Text className="response"> ℟. </Text> E o meu clamor chegue
                   até Vós.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Orémus.</Text>
                 </Text>
@@ -194,11 +195,11 @@ export default function PageSexta() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
 
             <TabItem label="No Advento">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ne timeas, María,
                   invenísti grátiam apud Dóminum: ecce concípies et páries
@@ -209,13 +210,13 @@ export default function PageSexta() {
                   achastes graça para com o Senhor: concebereis, e dareis à luz
                   um filho, (aleluia).
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Lc. 1, 32</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Dabit illi Dominus Deus sedem David patris ejus: et regnabit
                   in domo Jacob in æternum, et regni ejus non erit finis.
@@ -246,9 +247,9 @@ export default function PageSexta() {
                   <Text className="response"> ℟. </Text> E bendito é o fruto do
                   vosso ventre.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Hic genuflectitur</Text> Kyrie eleison
                 </Text>
@@ -280,9 +281,9 @@ export default function PageSexta() {
                   <Text className="response"> ℟. </Text> E o meu clamor chegue
                   até Vós.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Orémus.</Text>
                 </Text>
@@ -310,11 +311,11 @@ export default function PageSexta() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
 
             <TabItem label="No Natal">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Rubum, quem viderat Moyses
                   incombustum, conservatam agnovimus tuam laudabilem
@@ -325,13 +326,13 @@ export default function PageSexta() {
                   via sem se consumir, reconhecemos a vossa admirável virgindade
                   conservada: rogai por nós, Santa Mãe de Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Ecl. 24, 16</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Et radicavi in populo honorificato, et in parte Dei mei
                   hereditas illius et in plenitudine sanctorum detentio mea.
@@ -362,9 +363,9 @@ export default function PageSexta() {
                   <Text className="response"> ℟. </Text> E bendito é o fruto do
                   vosso ventre.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Orémus.</Text>
                 </Text>
@@ -393,11 +394,11 @@ export default function PageSexta() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
           </Tabs>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Domine, exaudi orationem
               meam.
@@ -440,7 +441,7 @@ export default function PageSexta() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Acabar com uma{" "}

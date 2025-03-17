@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page7Muitosmartires2() {
   return (
@@ -12,7 +13,7 @@ export default function Page7Muitosmartires2() {
           <Text className="h1">Muitos Mártires</Text>
           <Text className="h3">Intróito</Text>
           <Text className="em">Ecl. 44, 15 & 14</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sapiéntiam Sanctórum narrent pópuli, et laudes eórum núntiet
               ecclésia: nomina autem eórum vivent in sǽculum sǽculi.{" "}
@@ -28,9 +29,9 @@ export default function Page7Muitosmartires2() {
               pertence louvar o Senhor.<Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos concédis sanctórum Mártyrum tuórum{" "}
               <Text className="latin">N.</Text> et{" "}
@@ -46,7 +47,7 @@ export default function Page7Muitosmartires2() {
               graça de gozarmos na sua companhia a bem-aventurança eterna. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="aside">
             Se forem Pontífices, não se diz esta Oração mas a da
             <Link className="link" href="/missal/comum/6muitosmartires1#oração">
@@ -55,7 +56,7 @@ export default function Page7Muitosmartires2() {
           </Text>
           <Text className="h3">Epístola</Text>
           <Text className="em">Sb. 5, 16-20</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -77,10 +78,10 @@ export default function Page7Muitosmartires2() {
               justiça como couraça e a integridade do juízo como capacete; e
               revestir-se-á com a equidade como escudo inexpugnável.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Gradual</Text>
           <Text className="em">Sl. 123,7-8</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Anima nostra, sicut passer, erépta est de láqueo venántium.
               <Text className="versicle"> ℣. </Text>
@@ -104,13 +105,13 @@ export default function Page7Muitosmartires2() {
               regozijem e exultem de alegria na presença de Deus, como em um
               banquete. Que eles se deliciem em transportes de alegria. Aleluia.
             </Text>
-          </View>
+          </Language>
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
           </Text>
           <Text className="h3">Trato</Text>
           <Text className="em">Sl. 125, 5-6</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui séminant in lácrimis, in gáudio metent.
               <Text className="versicle"> ℣. </Text>Eúntes ibant et fiébant,
@@ -125,10 +126,10 @@ export default function Page7Muitosmartires2() {
               Porém, quando voltavam, exultavam de alegria, trazendo os seus
               molhos de trigo.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Evangelho</Text>
           <Text className="em">Lc. 6, 17-23</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -168,10 +169,10 @@ export default function Page7Muitosmartires2() {
               fora mau, por causa do Filho do homem. Alegrai-vos e rejubilai,
               pois uma grande recompensa vos está reservada no céu».
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Ofertório</Text>
           <Text className="em">Sl. 149, 5-6</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsultábunt Sancti in glória, lætabúntur in cubílibus suis:
               exaltatiónes Dei in fáucibus eórum, allelúja.
@@ -181,9 +182,9 @@ export default function Page7Muitosmartires2() {
               alegria no lugar do seu repouso. Ressoarão em seus lábios louvores
               a Deus.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Secreta</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro
               tuórum tibi grata sint honóre Justórum, et nobis salutária, te
@@ -195,10 +196,10 @@ export default function Page7Muitosmartires2() {
               vossa misericórdia fazei que nos sejam salutares. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Comúnio</Text>
           <Text className="em">Lc. 12, 4</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dico autem vobis amícis meis: Ne terreámini ab his, qui vos
               persequúntur.
@@ -207,9 +208,9 @@ export default function Page7Muitosmartires2() {
               Digo-vos, pois, a vós, que sois meus amigos: não tenhais medo
               daqueles que vos perseguem.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Postcomúnio</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta nobis, quǽsumus, Dómine: intercedéntibus sanctis Martýribus
               tuis <Text className="latin">N.</Text> et{" "}
@@ -223,7 +224,7 @@ export default function Page7Muitosmartires2() {
               a graça de guardarmos com o coração sempre puro o que a nossa boca
               agora recebeu. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

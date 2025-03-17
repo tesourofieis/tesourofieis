@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1110() {
@@ -31,7 +32,7 @@ export default function Page1110() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui in corde beáti Andréæ Confessóris tui, per árduum
               cotídie in virtútibus proficiéndi votum, admirábiles ad te
@@ -48,7 +49,7 @@ export default function Page1110() {
               que, aspirando sempre ao que é mais perfeito, cheguemos com
               alegria ao cume da vossa glória. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">
             Comemoração dos S. S. Mártires Trifão, Respício e Ninfa
@@ -56,7 +57,7 @@ export default function Page1110() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fac nos, quǽsumus, Dómine, sanctórum Mártyrum tuórum Tryphónis,
               Respícii et Nymphæ semper festa sectári: quorum suffrágiis,
@@ -68,11 +69,11 @@ export default function Page1110() {
               fim de que, mercê dos seus auxílios, alcancemos os benefícios da
               vossa protecção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro
               tuórum tibi grata sint honóre justórum, et nobis salutária, te
@@ -84,11 +85,11 @@ export default function Page1110() {
               vossa misericórdia fazei que nos sejam salutares. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta nobis, quǽsumus, Dómine: intercedéntibus sanctis Martýribus
               tuis Tryphóne, Respício et Nympha; ut, quod ore contíngimus, pura
@@ -100,7 +101,7 @@ export default function Page1110() {
               o coração sempre puro o que a nossa boca agora recebeu. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

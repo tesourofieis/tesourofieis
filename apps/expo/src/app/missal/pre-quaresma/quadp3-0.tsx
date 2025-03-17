@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuadp30() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuadp30() {
 
           <Text className="em">Sl. 30, 3-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Esto mihi in Deum protectórem, et in locum refúgii, ut salvum me
               fácias: quóniam firmaméntum meum et refúgium meum es tu: et
@@ -32,11 +33,11 @@ export default function PageQuadp30() {
               vossa justiça, livrai-me, salvai-me.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Preces nostras, quǽsumus, Dómine, cleménter exáudi: atque, a
               peccatórum vínculis absolútos, ab omni nos adversitáte custódi.
@@ -47,13 +48,13 @@ export default function PageQuadp30() {
               nos livrardes dos laços dos nossos pecados, defendei-nos de todas
               as adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Cor. 13, 1-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
             </Text>
@@ -108,13 +109,13 @@ export default function PageQuadp30() {
               três coisas: a fé, a esperança e a caridade; mas a maior das três
               é a caridade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 76, 15 & 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tu es Deus qui facis mirabília solus: notam fecísti in géntibus
               virtútem tuam.<Text className="versicle"> ℣. </Text>Liberásti in
@@ -125,13 +126,13 @@ export default function PageQuadp30() {
               vosso poder. Com o vosso braço forte livrastes o vosso povo os
               filhos de Israel e de José.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 99, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jubiláte Deo, omnis terra: servíte Dómino in lætítia.
               <Text className="versicle"> ℣. </Text>Intráte in conspéctu ejus in
@@ -146,13 +147,13 @@ export default function PageQuadp30() {
               nos criou, e não nós a nós mesmos. Somos, pois, o seu povo, e as
               ovelhas de que Ele é o pastor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 18, 31-43</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -202,13 +203,13 @@ export default function PageQuadp30() {
               salvou-te!». Logo, começou a ver. E, acompanhando Jesus,
               glorificava Deus. E todo o povo que presenciou isto louvou a Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 118, 12-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedíctus es, Dómine, doce me justificatiónes tuas: in lábiis
               meis pronuntiávi ómnia judícia oris tui.
@@ -217,11 +218,11 @@ export default function PageQuadp30() {
               Bendito sois, Senhor. Ensinai-me a conhecer a vossa lei.
               Pronunciei com meus lábios todas as sentenças da vossa boca.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad
               sacrifícium celebrándum, subditórum tibi córpora mentésque
@@ -233,13 +234,13 @@ export default function PageQuadp30() {
               que ela santifique os corpos e as almas dos vossos fiéis. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 77, 29-30</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Manducavérunt, et saturári sunt nimis, et desidérium eórum áttulit
               eis Dóminus: non sunt fraudáti a desidério suo.
@@ -248,11 +249,11 @@ export default function PageQuadp30() {
               Comeram e saciaram-se abundantemente. O Senhor deu-lhes segundo os
               seus desejos: e não ficaram frustrados os seus desejos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus,
               per hæc contra ómnia adversa muniámur. Per Dóminum...
@@ -261,7 +262,7 @@ export default function PageQuadp30() {
               Vos pedimos, ó Deus, que este alimento celestial que recebemos nos
               fortifique contra todas as adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0312() {
   return (
@@ -22,7 +23,7 @@ export default function Page0312() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui ánimæ fámuli tui Gregórii ætérnæ beatitúdinis prǽmia
               contulísti: concéde propítius; ut, qui peccatórum nostrórum
@@ -34,11 +35,11 @@ export default function Page0312() {
               seus rogos junto de Vós sejamos aliviados do peso dos nossos
               pecados, que tanto nos oprimem. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Annue nobis, quǽsumus, Dómine: ut intercessióne beáti Gregórii hæc
               nobis prosit oblátio, quam immolándo totíus mundi tribuísti
@@ -50,11 +51,11 @@ export default function Page0312() {
               imolação nos alcançastes o perdão dos pecados do mundo inteiro.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Gregórium Pontíficem Sanctórum tuórum méritis
               coæquásti: concéde propítius; ut, qui commemoratiónis ejus festa
@@ -66,7 +67,7 @@ export default function Page0312() {
               festa, possamos também imitar os exemplos da sua vida. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc70() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc70() {
 
           <Text className="em">Sb. 1, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Spíritus Dómini replévit orbem terrárum, allelúja: et hoc quod
               cóntinet ómnia, sciéntiam habet vocis, allelúja, allelúja,
@@ -30,11 +31,11 @@ export default function PagePasc70() {
               seus inimigos!<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui hodiérna die corda fidélium Sancti Spíritus
               illustratióne docuísti: da nobis in eódem Spíritu recta sápere; et
@@ -46,13 +47,13 @@ export default function PagePasc70() {
               Espírito a graça de amarmos o que é recto e de gozarmos
               incessantemente as suas consolações. Pelo mesmo...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act. 2, 1-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolórum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -96,9 +97,9 @@ export default function PagePasc70() {
               prosélitos, os de Creta e da Arábia ouvimos os Apóstolos, nas
               nossas próprias línguas, encarecer as grandezas de Deus».
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 103, 30</Text> Emítte Spíritum tuum,
@@ -116,11 +117,11 @@ export default function PagePasc70() {
               Vinde, ó Espírito Santo; enchei os corações dos vossos fiéis e
               acendei neles o fogo do vosso amor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Sequência</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veni, Sancte Spíritus, et emítte cǽlitus lucis tuæ rádium. Veni,
               pater páuperum; veni, dator rnúnerum; veni, lumen córdium.
@@ -147,13 +148,13 @@ export default function PagePasc70() {
               sagrados. Dai-lhes o mérito da virtude; dai-lhes um fim feliz;
               dai-lhes o gozo eterno. Ameno Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 14, 23-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -198,13 +199,13 @@ export default function PagePasc70() {
               mundo. Ele não tem poder em mim, mas é para que o mundo conheça
               que amo o Pai e que procedo conforme o que o Pai me mandou.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 67, 29-30</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Confírma hoc, Deus, quod operátus es in nobis: a templo tuo, quod
               est in Jerúsalem, tibi ófferent reges múnera, allelúja.
@@ -213,11 +214,11 @@ export default function PagePasc70() {
               Confirmai, ó Deus, o que em nós começastes. Lá, no vosso templo,
               em Jerusalém, os reis oferecer-Vos-ão suas dádivas, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera, quǽsumus, Dómine, obláta sanctífica: et corda nostra
               Sancti Spíritus illustratióne emúnda. Per Dóminum... in unitáte
@@ -228,13 +229,13 @@ export default function PagePasc70() {
               purificai os nossos corações com a luz do Espírito Santo. Por
               nosso Senhor... em unidade do mesmo...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Act. 2, 2 & 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Factus est repénte de cœlo sonus, tamquam adveniéntis spíritus
               veheméntis, ubi erant sedéntes, allelúja: et repléti sunt omnes
@@ -246,11 +247,11 @@ export default function PagePasc70() {
               e ficaram cheios do Espírito Santo, anunciando as maravilhas de
               Deus, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sancti Spíritus, Dómine, corda nostra mundet infúsio: et sui roris
               íntima aspersióne fecúndet. Per Dóminum... in unitáte ejusdem...
@@ -261,7 +262,7 @@ export default function PagePasc70() {
               fecunde o íntimo das nossas almas. Por nosso Senhor... em unidade
               do mesmo...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

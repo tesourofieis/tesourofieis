@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1117() {
   return (
@@ -29,7 +30,7 @@ export default function Page1117() {
 
           <Text className="em">Mc. 11, 22-24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Marcum.
@@ -54,7 +55,7 @@ export default function Page1117() {
               certo de que o verá cumprir-se. Eis porque vos digo: Tudo quanto
               pedirdes na oração acreditai que o alcançareis e vereis».
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

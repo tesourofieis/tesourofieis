@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0719() {
@@ -50,7 +51,7 @@ export default function Page0719() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui, ad evangelizándum paupéribus et ecclesiástici órdinis
               decórem promovéndum, beátum Vincéntium apostólica virtúte
@@ -64,7 +65,7 @@ export default function Page0719() {
               honrando os seus piedosos méritos, sejamos instruídos com o
               exemplo de suas virtudes. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 

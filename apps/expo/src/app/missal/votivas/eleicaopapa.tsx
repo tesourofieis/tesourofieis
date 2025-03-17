@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageEleicaopapa() {
@@ -15,7 +16,7 @@ export default function PageEleicaopapa() {
 
           <Text className="em">1 Sm. 2, 35</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Suscitábo mihi sacerdótem fidélem, qui juxta cor meum et ánimam
               meam fáciet: et ædificábo ei domum fidélem, et ambulábit coram
@@ -32,11 +33,11 @@ export default function PageEleicaopapa() {
               Lembrai-Vos, Senhor, de David e de toda sua mansidão.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súpplici, Dómine, humilitáte depóscimus: ut sacrosánctæ Románæ
               Ecclésiæ concédat Pontíficem illum tua imménsa píetas; qui et pio
@@ -51,13 +52,13 @@ export default function PageEleicaopapa() {
               seu sábio governo em honra do vosso nome atraia a assídua
               veneração do vosso povo. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Heb. 4, 16; 5, 1-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
             </Text>
@@ -99,13 +100,13 @@ export default function PageEleicaopapa() {
               com fortes clamores e lágrimas Àquele que podia salvá-l’O da
               morte, foi atendido pela devida reverência.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Lv. 21, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Póntifex sacérdos magnus inter fratres suos, super cujus caput
               fusum est unctiónis óleum, et cujus manus in sacerdótio consecrátæ
@@ -134,7 +135,7 @@ export default function PageEleicaopapa() {
               <Text className="vernacular">Lv. 21, 8</Text> Que o Sacerdote seja
               santo, como Eu, o Senhor, que vos santifico, sou santo. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima, omite-se o Aleluia e o seguinte e diz-se:
@@ -144,7 +145,7 @@ export default function PageEleicaopapa() {
 
           <Text className="em">Sl. 131, 8-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Surge, Dómine, in réquiem tuam: tu et arca sanctificatiónis tuæ.
               <Text className="versicle"> ℣. </Text>Sacerdótes tui induántur
@@ -159,13 +160,13 @@ export default function PageEleicaopapa() {
               rejubilem.<Text className="versicle"> ℣. </Text>Por causa de
               David, vosso servo, não afasteis a face do vosso Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Levit. 21, 8</Text> Sacérdos sit sanctus,
@@ -182,7 +183,7 @@ export default function PageEleicaopapa() {
               <Text className="em">Jo. 10, 14</Text> Eu sou o bom pastor: e
               conheço as minhas ovelhas e elas conhecem-me. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -195,7 +196,7 @@ export default function PageEleicaopapa() {
 
           <Text className="em">3 Esd. 5, 40</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Non participéntur sancta, donec exsúrgat póntifex in ostensiónem
               et veritátem. (T. P. Allelúja.)
@@ -204,11 +205,11 @@ export default function PageEleicaopapa() {
               Que se não celebre o sacrifício enquanto não surgir o Pontífice
               que há-de mostrar a verdade. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tuæ nobis, Dómine, abundántia pietátis indúlgeat: ut per sacra
               múnera, quæ tibi reverénter offérimus, gratum majestáti tuæ
@@ -221,13 +222,13 @@ export default function PageEleicaopapa() {
               gozemos a alegria de ver presidir ao governo da santa Madre Igreja
               um Pontífice agradável à vossa majestade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Ex. 29,29-30</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veste sancta utétur póntifex, qui fúerit constitútus, et
               ingrediétur tabernáculum testimónii, ut minístret in sanctuário.
@@ -238,11 +239,11 @@ export default function PageEleicaopapa() {
               tabernáculo da aliança para ministrar no santuário. (T. P.
               Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pretiósi Córporis et Sánguinis tui nos, Dómine, sacraménto
               reféctos, mirífica tuæ majestátis grátia de illíus Summi
@@ -257,7 +258,7 @@ export default function PageEleicaopapa() {
               dos fiéis com o perfume das graças espirituais. Ó Vós, que viveis
               e reinais...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

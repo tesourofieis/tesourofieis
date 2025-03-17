@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0502() {
@@ -31,7 +32,7 @@ export default function Page0502() {
 
           <Text className="em">Ecl. 15, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu
               sapiéntiæ et intelléctus: stolam glóriæ índuit eum, allelúja,
@@ -47,7 +48,7 @@ export default function Page0502() {
               Senhor e cantar o vosso nome, ó Altíssimo.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração, Secreta e Postcomúnio</Text>
 
@@ -60,7 +61,7 @@ export default function Page0502() {
 
           <Text className="em">2 Cor. 4, 5-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -108,9 +109,9 @@ export default function Page0502() {
               ressuscitou Jesus nos ressuscitará também com Jesus e nos colocará
               convosco.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 109, 4</Text> Tu es sacérdos in
@@ -129,7 +130,7 @@ export default function Page0502() {
               sofre tentação; pois, quando acabar a tentação, receberá a coroa
               da vida. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -142,7 +143,7 @@ export default function Page0502() {
 
           <Text className="em">Sl. 88, 21-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
               auxiliábitur ei, et bráchium meum confortábit eum, allelúja.
@@ -151,13 +152,13 @@ export default function Page0502() {
               Encontrei o meu servo David e ungi-o com meu óleo sagrado: e a
               minha mão o auxiliará e o meu braço o fortalecerá, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 10, 27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quod dico vobis in ténebris, dícite in lúmine, dicit Dóminus: et
               quod in aure audítis, prædicáte super tecta, allelúja.
@@ -165,7 +166,7 @@ export default function Page0502() {
             <Text className="vernacular">
               Aquilo que vos digo ao ouvido pregai-o sobre os tectos, aleluia.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

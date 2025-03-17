@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0630() {
@@ -48,7 +49,7 @@ export default function Page0630() {
 
           <Text className="em">Gl. 1, 11-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.
             </Text>
@@ -91,13 +92,13 @@ export default function Page0630() {
               nenhum Outro Apóstolo, excepto Tiago, o irmão do Senhor. Tomo a
               Deus como testemunha de que não minto em tudo quanto vos escrevo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Gl. 2, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui operátus est Petro in apostolátum, operátus est et mihi inter
               gentes: et cognovérunt grátiam Dei, quæ data est mihi.
@@ -123,13 +124,13 @@ export default function Page0630() {
               pregador da verdade e doutor dos povos, intercedei por nós.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 10, 16-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -168,13 +169,13 @@ export default function Page0630() {
               os pais e lhes darão a morte. Sereis odiados por todos por causa
               do meu nome, mas quem perseverar até ao fim será salvo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 138, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.
@@ -183,11 +184,11 @@ export default function Page0630() {
               Vejo, ó meu Deus, que honrais de um modo singular os vossos
               amigos: o seu poder firmou-se extraordinariamente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Apóstoli tui Pauli précibus, Dómine, plebis tuæ dona sanctífica:
               ut, quæ tibi tuo grata sunt institúto, gratióra fiant patrocínio
@@ -199,13 +200,13 @@ export default function Page0630() {
               porque as instituístes, mais agradáveis Vos sejam ainda pelo
               patrocínio do suplicante. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 19, 28 & 29</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Amen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis
               me, céntuplum accipiétis et vitam ætérnam possidébitis.
@@ -214,11 +215,11 @@ export default function Page0630() {
               Em verdade vos digo: Vós, que abandonastes tudo e me seguistes,
               recebereis o cêntuplo e possuireis a vida eterna.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Percéptis, Dómine, sacraméntis: beáto Paulo Apóstolo tuo
               interveniénte, deprecámur; ut, quæ pro illíus celebráta sunt
@@ -230,7 +231,7 @@ export default function Page0630() {
               que foi oferecido em vossa honra, nos sirva de remédio. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

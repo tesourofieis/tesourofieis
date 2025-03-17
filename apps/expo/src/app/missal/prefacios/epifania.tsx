@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageEpifania() {
   return (
@@ -14,7 +15,7 @@ export default function PageEpifania() {
             Diz-se na Festa da Epifania e durante o Oitavário.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubique grátias agere: Dómine sancte, Pater omnípotens, ætérne
@@ -34,7 +35,7 @@ export default function PageEpifania() {
               com toda a milícia do exército celestial, cantamos o hino da vossa
               glória, dizendo incessantemente:
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

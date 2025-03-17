@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent180() {
   return (
@@ -16,7 +17,7 @@ export default function PagePent180() {
 
           <Text className="em">Ecl. 36, 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da pacem, Dómine, sustinéntibus te, ut prophétæ tui fidéles
               inveniántur: exáudi preces servi tui et plebis tuæ Israël.{" "}
@@ -32,11 +33,11 @@ export default function PagePent180() {
               aqueles que me disseram estas palavras: iremos para a casa do
               Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dírigat corda nostra, quǽsumus, Dómine, tuæ miseratiónis operátio:
               quia tibi sine te placére non póssumus. Per Dóminum...
@@ -46,13 +47,13 @@ export default function PagePent180() {
               segundo as inspirações da vossa misericórdia, pois sem Vós não
               podemos agradar-Vos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Cor. 1, 4-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
             </Text>
@@ -79,13 +80,13 @@ export default function PagePent180() {
               E ainda até ao fim Deus vos confirmará, para que vos encontre
               irrepreensíveis no dia da vinda de N. S. Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 121, 1 & 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.
               <Text className="versicle"> ℣. </Text>Fiat pax in virtúte tua: et
@@ -107,13 +108,13 @@ export default function PagePent180() {
               temerão o vosso nome e os reis da terra contemplarão a vossa
               glória. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 9, 1-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -153,13 +154,13 @@ export default function PagePent180() {
               turbas do povo este acontecimento, ficaram cheias de temor e deram
               glória a Deus, que havia dado tal poder aos homens!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Ex. 24, 4 & 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctificávit Móyses altáre Dómino, ófferens super illud
               holocáusta et ímmolans víctimas: fecit sacrifícium vespertínum in
@@ -170,11 +171,11 @@ export default function PagePent180() {
               holocaustos e imolou vítimas: e na presença dos filhos de Israel
               celebrou o sacrifício da tarde em odor de suavidade ao Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos, per hujus sacrifícii veneránda commércia, uníus
               summæ divinitátis partícipes éfficis: præsta, quǽsumus; ut, sicut
@@ -188,13 +189,13 @@ export default function PagePent180() {
               verdade, mostremos possuí-la nos nossos costumes dignos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 95, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tóllite hóstias, et introíte in átria ejus: adoráte Dóminum in
               aula sancta ejus.
@@ -203,11 +204,11 @@ export default function PagePent180() {
               Trazei vossas hóstias e entrai nos átrios do Senhor: adorai o
               Senhor no seu santo templo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Grátias tibi reférimus, Dómine, sacro múnere vegetáti: tuam
               misericórdiam deprecántes; ut dignos nos ejus participatióne
@@ -218,7 +219,7 @@ export default function PagePent180() {
               sacratíssimo dom; e imploramos da vossa misericórdia que nos
               torneis dignos desta participação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

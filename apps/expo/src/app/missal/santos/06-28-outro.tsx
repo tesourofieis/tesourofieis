@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0628Outro() {
   return (
@@ -38,7 +39,7 @@ export default function Page0628Outro() {
 
           <Text className="em">Ml. 2, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lex veritátis fuit in ore ejus, et iníquitas non est invénta in
               lábiis ejus: in pace et in æquitáte ambulávit mecum, et multos
@@ -55,11 +56,11 @@ export default function Page0628Outro() {
               minha lei: inclinai vossos ouvidos para as palavras da minha boca.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beáto Irenǽo Mártyri tuo atque Pontifici tribuísti, ut
               et veritate doctrínæ expugnáret hǽreses, et pacem Ecclésiæ
@@ -75,13 +76,13 @@ export default function Page0628Outro() {
               Senhor, concedei a vossa paz aos nossos tempos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Tm. 3, 14-17; 4, 1-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
             </Text>
@@ -122,13 +123,13 @@ export default function Page0628Outro() {
               os abrirem às fábulas. Tu, porém, vigia, trabalha em tudo, faz o
               trabalho de Evangelista, cumpre o teu ministério.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 121, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Propter fratres meos et próximos meos loquébar pacem de te.
               <Text className="versicle"> ℣. </Text>
@@ -153,13 +154,13 @@ export default function Page0628Outro() {
               assembleia dos presbíteros e uni-vos de coração à sua sabedoria,
               para que possais ouvir tudo quanto digam de Deus. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 10, 28-33</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -191,13 +192,13 @@ export default function Page0628Outro() {
               confessar perante os homens, Eu também o confessarei na presença
               de meu Pai, que está nos céus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Ecl. 24, 44</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Doctrínam quasi ante lucánum illúmino ómnibus, et enarrábo illam
               usque ad longínquum.
@@ -207,11 +208,11 @@ export default function Page0628Outro() {
               que iluminará a todos: e transmiti-la-ei até ao decorrer dos
               séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui credéntes in te pópulos nullis sinis cóncuti terróribus:
               dignáre preces et hóstias dicátæ tibi plebis suscípere; ut pax, a
@@ -225,13 +226,13 @@ export default function Page0628Outro() {
               países cristãos ao abrigo de todos os ataques do inimigo. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Ecl. 24, 47</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vidéte, quóniam non soli mihi laborávi, sed ómnibus exquiréntibus
               veritátem.
@@ -240,11 +241,11 @@ export default function Page0628Outro() {
               Vede como não tenho trabalhado só para mim, mas para todos aqueles
               que procuram a verdade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, auctor pacis et amátor, quem nosse vívere, cui servíre
               regnáre est: prótege ab ómnibus impugnatiónibus súpplices tuos;
@@ -260,7 +261,7 @@ export default function Page0628Outro() {
               Ireneu, vosso Mártir e Pontífice, nunca temamos as armas dos
               nossos inimigos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

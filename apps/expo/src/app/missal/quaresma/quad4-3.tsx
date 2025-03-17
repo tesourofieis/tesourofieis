@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageQuad43() {
@@ -15,7 +16,7 @@ export default function PageQuad43() {
 
           <Text className="em">Ez. 36, 23-26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dum sanctificátus fúero in vobis, congregábo vos de univérsis
               terris: et effúndam super vos aquam mundam, et mundabímini ab
@@ -32,9 +33,9 @@ export default function PageQuad43() {
               continuamente; sempre a minha boca o louvará.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">
                 <Text className="versicle"> ℣. </Text> Flectámus génua.
@@ -51,11 +52,11 @@ export default function PageQuad43() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Levantai-vos!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui et justis prǽmia meritórum et peccatóribus per jejúnium
               véniam præbes: miserére supplícibus tuis; ut reátus nostri
@@ -68,13 +69,13 @@ export default function PageQuad43() {
               confissão das nossas culpas, possamos alcançar o perdão das
               mesmas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Lição</Text>
 
           <Text className="em">Ez. 36, 23-28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Ezechiélis Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Ezequiel.</Text>
             <Text className="latin">
@@ -108,13 +109,13 @@ export default function PageQuad43() {
               habitareis na terra que dei a vossos pais; sereis para mim o meu
               povo; e serei para vós o vosso Deus»: diz o Senhor omnipotente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 38, 12 & 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veníte, fílii, audíte me: timórem Dómini docébo vos.
               <Text className="versicle"> ℣. </Text>Accédite ad eum, et
@@ -126,11 +127,11 @@ export default function PageQuad43() {
               Aproximai-vos d’Ele e ficareis cheios de luz; a confusão não mais
               cobrirá o vosso rosto.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, quos jejúnia votiva
               castígant, ipsa quoque devótio sancta lætíficet; ut, terrénis
@@ -143,13 +144,13 @@ export default function PageQuad43() {
               que, sendo mitigado o ardor dos nossos afectos terrenos,
               alcancemos mais facilmente os bens celestiais. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Is. 1, 16-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -174,13 +175,13 @@ export default function PageQuad43() {
               brancos como a lã. Se quiserdes ouvir a minha voz, comereis as
               coisas boas desta terra»: diz o Senhor omnipotente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 32, 12 & 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit
               Dóminus in hereditátem sibi.<Text className="versicle"> ℣. </Text>
@@ -192,7 +193,7 @@ export default function PageQuad43() {
               que Ele escolheu para sua herança. Pela palavra do Senhor foram
               criados os céus; e do sopro da sua boca veio toda sua virtude.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
@@ -205,7 +206,7 @@ export default function PageQuad43() {
 
           <Text className="em">Jo. 9, 1-38</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -339,13 +340,13 @@ export default function PageQuad43() {
               <Text className="vernacular">Todos devem ajoelhar</Text> E de
               joelhos o adorou!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 65, 8-9 & 20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícite, gentes, Dóminum, Deum nostrum, et obaudíte vocem
               laudis ejus: qui pósuit ánimam meam ad vitam, et non dedit
@@ -358,11 +359,11 @@ export default function PageQuad43() {
               que meus pés tropeçassem. Bendito seja o Senhor, que não desprezou
               a minha oração nem afastou de mim a sua misericórdia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súpplices te rogámus, omnípotens Deus: ut his sacrifíciis peccáta
               nostra mundéntur; quia tunc veram nobis tríbuis et mentis et
@@ -373,13 +374,13 @@ export default function PageQuad43() {
               sacrifícios nos purifiquem e nos concedam a verdadeira saúde da
               alma e do corpo. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 9, 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lutum fecit ex sputo Dóminus, et linívit óculos meos: et ábii, et
               lavi, et vidi, et crédidi Deo.
@@ -388,11 +389,11 @@ export default function PageQuad43() {
               O Senhor fez lodo com sua saliva e untou os meus olhos. Então,
               lavei-me, vi e acreditei em Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacraménta, quæ súmpsimus, Dómine, Deus noster: et spirituálibus
               nos répleant aliméntis, et corporálibus tueántur auxíliis. Per
@@ -403,11 +404,11 @@ export default function PageQuad43() {
               nossas almas com o alimento espiritual e protejam nossos corpos
               com os auxílios temporais. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Humiliáte cápita vestra Deo.</Text>
             <Text className="vernacular">
               Inclinai as vossas cabeças diante de Deus.
@@ -423,7 +424,7 @@ export default function PageQuad43() {
               desejam, fazei que Vos peçam o que Vos é agradável. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

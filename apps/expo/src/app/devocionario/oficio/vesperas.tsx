@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import { TabItem, Tabs } from "~/components/Tabs";
 import AveMarisStella from "./../../canticos/sacros/avemarisstella";
 import Magnificat from "./../../canticos/sacros/magnificat";
@@ -27,7 +28,7 @@ export default function PageVesperas() {
 
           <Tabs>
             <TabItem label="Depois da Purificação">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="versicle"> ℣. </Text>Deus{" "}
                   <Text className="cross"> ✠ </Text> in adjutórium meum inténde.
@@ -69,13 +70,13 @@ export default function PageVesperas() {
                   <Text className="vernacular">Ant.</Text> Estando o Rei no seu
                   repouso, exalou o meu frasco um suavíssimo cheiro.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 109</Text>
 
               <Salmo109 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Dum esset Rex in acubitu
                   suo, nardus mea dedit odorem suavitatis.
@@ -84,9 +85,9 @@ export default function PageVesperas() {
                   <Text className="vernacular">Ant.</Text> Estando o Rei no seu
                   repouso, exalou o meu frasco um suavíssimo cheiro.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Læva ejus sub capite meo,
                   et dextera ilius amplexabitur me.
@@ -96,13 +97,13 @@ export default function PageVesperas() {
                   estará debaixo de minha cabeça, e a sua direita me dará um
                   abraço.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 112</Text>
 
               <Salmo112 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Læva ejus sub capite meo,
                   et dextera ilius amplexabitur me.
@@ -112,9 +113,9 @@ export default function PageVesperas() {
                   estará debaixo de minha cabeça, e a sua direita me dará um
                   abraço.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Nigra sum, sed formosa,
                   filiæ Jerusalem; ideo dilexit me rex, et introduxit me in
@@ -125,13 +126,13 @@ export default function PageVesperas() {
                   formosa, ó filhas de Jerusalém; por isso o Rei me amou, e me
                   levou a seu aposento.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 121</Text>
 
               <Salmo121 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Nigra sum, sed formosa,
                   filiæ Jerusalem; ideo dilexit me rex, et introduxit me in
@@ -142,9 +143,9 @@ export default function PageVesperas() {
                   formosa, ó filhas de Jerusalém; por isso o Rei me amou, e me
                   levou a seu aposento.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Jam hiems transiit, imber
                   abiit et recessit: surge, amica mea, et veni.
@@ -153,13 +154,13 @@ export default function PageVesperas() {
                   <Text className="vernacular">Ant.</Text> Já se foi o Inverno,
                   e passou o chuveiro; levanta-te e vem, ó minha amada.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 126</Text>
 
               <Salmo126 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Jam hiems transiit, imber
                   abiit et recessit: surge, amica mea, et veni.
@@ -168,9 +169,9 @@ export default function PageVesperas() {
                   <Text className="vernacular">Ant.</Text> Já se foi o Inverno,
                   e passou o chuveiro; levanta-te e vem, ó minha amada.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Speciosa facta es et
                   suavis in deliciis tuis, sancta Dei Genitrix.
@@ -179,13 +180,13 @@ export default function PageVesperas() {
                   <Text className="vernacular">Ant.</Text> Especiosa sois, e
                   suave nas vossas delicias, ó santa Mãe de Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 147</Text>
 
               <Salmo147 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Speciosa facta es et
                   suavis in deliciis tuis, sancta Dei Genitrix.
@@ -194,13 +195,13 @@ export default function PageVesperas() {
                   <Text className="vernacular">Ant.</Text> Especiosa sois, e
                   suave nas vossas delicias, ó santa Mãe de Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Ecl. 24, 14</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Ab initio et ante sæcula creata sum, et usque ad futurum
                   sæculum non desinam, et in habitatione sancta coram ipso
@@ -217,7 +218,7 @@ export default function PageVesperas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Graças a Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Ave Maris Stella</Text>
 
@@ -225,7 +226,7 @@ export default function PageVesperas() {
 
               <Text className="h2">Ofício 1</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Beata Mater et intacta
                   Virgo, gloriosa Regina mundi, intercede pro nobis ad Dominum.
@@ -240,11 +241,11 @@ export default function PageVesperas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Tempo Pascal</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Regína Cæli, lætáre,
                   allelúja; Quia quem meruísti portáre, allelúja; Resurréxit,
@@ -260,7 +261,7 @@ export default function PageVesperas() {
                   Maria, Aleluia! Porque o Senhor ressuscitou verdadeiramente,
                   Aleluia!
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Magnificat</Text>
 
@@ -268,7 +269,7 @@ export default function PageVesperas() {
 
               <Text className="h2">Ofício 1</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Beata Mater et intacta
                   Virgo, gloriosa Regina mundi, intercede pro nobis ad Dominum.
@@ -283,11 +284,11 @@ export default function PageVesperas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Tempo Pascal</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Regína Cæli, lætáre,
                   allelúja; Quia quem meruísti portáre, allelúja; Resurréxit,
@@ -386,11 +387,11 @@ export default function PageVesperas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
 
             <TabItem label="No Advento">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="versicle"> ℣. </Text>Deus{" "}
                   <Text className="cross"> ✠ </Text> in adjutórium meum inténde.
@@ -432,13 +433,13 @@ export default function PageVesperas() {
                   <Text className="vernacular">Ant.</Text> O Anjo Gabriel foi
                   mandado à Virgem Maria, desposada com José.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 109</Text>
 
               <Salmo109 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Missus est Gábriel Angelus
                   ad Maríam Vírginem desponsátam Joseph.
@@ -447,9 +448,9 @@ export default function PageVesperas() {
                   <Text className="vernacular">Ant.</Text> O Anjo Gabriel foi
                   mandado à Virgem Maria, desposada com José.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ave, María, grátia plena;
                   Dóminus tecum: benedícta tu in muliéribus.
@@ -459,13 +460,13 @@ export default function PageVesperas() {
                   graça, o Senhor é convosco; bendita sois vós entre as
                   mulheres.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 112</Text>
 
               <Salmo112 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ave, María, grátia plena;
                   Dóminus tecum: benedícta tu in muliéribus.
@@ -475,9 +476,9 @@ export default function PageVesperas() {
                   graça, o Senhor é convosco; bendita sois vós entre as
                   mulheres.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ne timeas, María,
                   invenísti grátiam apud Dóminum: ecce concípies et páries
@@ -488,13 +489,13 @@ export default function PageVesperas() {
                   achastes graça para com o Senhor: concebereis, e dareis à luz
                   um filho.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 121</Text>
 
               <Salmo121 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ne timeas, María,
                   invenísti grátiam apud Dóminum: ecce concípies et páries
@@ -505,9 +506,9 @@ export default function PageVesperas() {
                   achastes graça para com o Senhor: concebereis, e dareis à luz
                   um filho.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Dabit ei Dóminus sedem
                   David, patris ejus, et regnábit in ætérnum.
@@ -516,13 +517,13 @@ export default function PageVesperas() {
                   <Text className="vernacular">Ant.</Text> O Senhor lhe dará o
                   trono de David seu Pai, e reinará eternamente.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 126</Text>
 
               <Salmo126 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Dabit ei Dóminus sedem
                   David, patris ejus, et regnábit in ætérnum.
@@ -531,9 +532,9 @@ export default function PageVesperas() {
                   <Text className="vernacular">Ant.</Text> O Senhor lhe dará o
                   trono de David seu Pai, e reinará eternamente.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ecce ancílla Dómini: fiat
                   mihi secúndum verbum tuum.
@@ -542,13 +543,13 @@ export default function PageVesperas() {
                   <Text className="vernacular">Ant.</Text> Eis aqui a escrava do
                   Senhor, faça-se em mim segundo a vossa palavra.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 147</Text>
 
               <Salmo147 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ecce ancílla Dómini: fiat
                   mihi secúndum verbum tuum.
@@ -557,13 +558,13 @@ export default function PageVesperas() {
                   <Text className="vernacular">Ant.</Text> Eis aqui a escrava do
                   Senhor, faça-se em mim segundo a vossa palavra.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Is. 11, 1-2</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Egredietur virga de radice Jesse, et flos de radice ejus
                   ascendet. Et requiescet super eum Spiritus Domini.
@@ -578,13 +579,13 @@ export default function PageVesperas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Graças a Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Ave Maris Stella</Text>
 
               <AveMarisStella />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="versicle"> ℣. </Text>Diffusa est gratia in
                   labiis tuis.
@@ -611,13 +612,13 @@ export default function PageVesperas() {
                   descerá sobre vós, ó Maria; não temais: concebereis, e tereis
                   no ventre o Filho de Deus, (aleluia).
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Magnificat</Text>
 
               <Magnificat />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Spiritus Sanctus in te
                   descendet, Maria: ne timeas, habebis in utero filium Dei,
@@ -713,11 +714,11 @@ export default function PageVesperas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
 
             <TabItem label="No Natal">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="versicle"> ℣. </Text>Deus{" "}
                   <Text className="cross"> ✠ </Text> in adjutórium meum inténde.
@@ -763,13 +764,13 @@ export default function PageVesperas() {
                   nascer de uma Virgem; e, feito homem sem progenitor,
                   tornou-nos participantes da sua divindade.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 109</Text>
 
               <Salmo109 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> O admirabile commercium:
                   Creator generis humani, animatum corpus sumens, de Virgine
@@ -782,9 +783,9 @@ export default function PageVesperas() {
                   nascer de uma Virgem; e, feito homem sem progenitor,
                   tornou-nos participantes da sua divindade.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Quando natus es
                   inefabilitre ex Virgnine, tunc impletæ sunt Scripturæ: sicut
@@ -797,13 +798,13 @@ export default function PageVesperas() {
                   descestes como a chuva sobre a lã, para salvar a humanidade.
                   Nós Vos louvamos, ó Nosso Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 112</Text>
 
               <Salmo112 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Quando natus es
                   inefabilitre ex Virgnine, tunc impletæ sunt Scripturæ: sicut
@@ -816,9 +817,9 @@ export default function PageVesperas() {
                   descestes como a chuva sobre a lã, para salvar a humanidade.
                   Nós Vos louvamos, ó Nosso Deus.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Rubum, quem viderat Moyses
                   incombustum, conservatam agnovimus tuam laudabilem
@@ -829,13 +830,13 @@ export default function PageVesperas() {
                   via sem se consumir, reconhecemos a vossa admirável virgindade
                   conservada: rogai por nós, Santa Mãe de Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 121</Text>
 
               <Salmo121 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Rubum, quem viderat Moyses
                   incombustum, conservatam agnovimus tuam laudabilem
@@ -846,9 +847,9 @@ export default function PageVesperas() {
                   via sem se consumir, reconhecemos a vossa admirável virgindade
                   conservada: rogai por nós, Santa Mãe de Deus.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Germinavit radix Jesse,
                   orta est stella ex Jacob; virgo peperit Salvatorem: te
@@ -859,13 +860,13 @@ export default function PageVesperas() {
                   Jessé, surgiu a estrela de Jacob. A Virgem deu à luz o
                   Salvador: Nós Vos louvamos, ó Nosso Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 126</Text>
 
               <Salmo126 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Germinavit radix Jesse,
                   orta est stella ex Jacob; virgo peperit Salvatorem: te
@@ -876,9 +877,9 @@ export default function PageVesperas() {
                   Jessé, surgiu a estrela de Jacob. A Virgem deu à luz o
                   Salvador: Nós Vos louvamos, Senhor nosso Deus.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ecce, Maria genuit nobis
                   Salvatorem, quem Joannes videns exclamavit, dicens: Ecce Agnus
@@ -890,13 +891,13 @@ export default function PageVesperas() {
                   Cordeiro de Deus, Aquele que tira o pecado do mundo,
                   (aleluia).
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 147</Text>
 
               <Salmo147 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ecce, Maria genuit nobis
                   Salvatorem, quem Joannes videns exclamavit, dicens: Ecce Agnus
@@ -908,13 +909,13 @@ export default function PageVesperas() {
                   Cordeiro de Deus, Aquele que tira o pecado do mundo,
                   (aleluia).
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Ecl. 24, 14</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Ab initio et ante sæcula creata sum, et usque ad futurum
                   sæculum non desinam, et in habitatione sancta coram ipso
@@ -931,13 +932,13 @@ export default function PageVesperas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Graças a Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Ave Maris Stella</Text>
 
               <AveMarisStella />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="versicle"> ℣. </Text>Diffusa est gratia in
                   labiis tuis.
@@ -967,13 +968,13 @@ export default function PageVesperas() {
                   humana. Virão todas as gentes, dizendo: Glória a Vós, ó
                   Senhor.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Magnificat</Text>
 
               <Magnificat />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text>
                   <Text className="text-base">
@@ -1077,7 +1078,7 @@ export default function PageVesperas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
           </Tabs>
 

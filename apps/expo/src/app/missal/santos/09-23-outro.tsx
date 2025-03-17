@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0923Outro() {
   return (
@@ -14,7 +15,7 @@ export default function Page0923Outro() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, omnípotens Deus: ut, qui beátæ Theclæ Vírginis et
               Mártyris tuæ natalítia cólimus; et ánnua sollemnitáte lætémur, et
@@ -26,7 +27,7 @@ export default function Page0923Outro() {
               com sua festa anual e nos sejam proveitosos os exemplos da sua
               grande fé. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta e Postcomúnio</Text>
         </View>

@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1120() {
   return (
@@ -23,7 +24,7 @@ export default function Page1120() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Felicem Confessórem tuum ex eremo ad munus
               rediméndi captívos cœlitus vocáre dignátus es: præsta, quǽsumus;
@@ -38,7 +39,7 @@ export default function Page1120() {
               intercessão e pela vossa graça, livres do cativeiro dos nosso
               pecados, alcancemos a pátria celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

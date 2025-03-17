@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePropagacaofe() {
   return (
@@ -14,7 +15,7 @@ export default function PagePropagacaofe() {
 
           <Text className="em">Sl. 66, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus misereátur nostri, et benedícat nobis: illúminet vultum suum
               super nos, et misereátur nostri: ut cognoscámus in terra viam
@@ -33,11 +34,11 @@ export default function PagePropagacaofe() {
               povos Vos prestem homenagem, ó Deus; que todos os povos Vos
               glorifiquem.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui omnes hómines vis salvos fíeri et ad agnitiónem
               veritátis veníre: mitte, quǽsumus, operários in messem tuam, et da
@@ -55,13 +56,13 @@ export default function PagePropagacaofe() {
               Aquele que mandastes ao mundo Jesus Cristo, vosso Filho e nosso
               Senhor: Que convosco vive e reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ecl. 36, 1-10 et 17-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -106,13 +107,13 @@ export default function PagePropagacaofe() {
               os que habitam a terra saibam que sois o Senhor, que contempla os
               séculos!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 66, 6-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Confiteántur tibi pópuli, Deus, confiteántur tibi pópuli omnes:
               terra dedit fructum suum.<Text className="versicle"> ℣. </Text>
@@ -137,7 +138,7 @@ export default function PagePropagacaofe() {
               rejubilai diante de Deus. Servi o Senhor com alegria. Comparecei
               diante d’Ele, exultando de contentamento. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o que segue e diz-se:
@@ -147,7 +148,7 @@ export default function PagePropagacaofe() {
 
           <Text className="em">Sl. 95, 3-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Annuntiáte inter gentes glóriam Dómini, in ómnibus pópulis
               mirabília ejus.<Text className="versicle"> ℣. </Text>Quóniam
@@ -164,13 +165,13 @@ export default function PagePropagacaofe() {
               <Text className="versicle"> ℣. </Text>Pois todos os deuses dos
               povos são demónios: Enquanto que o Senhor criou os céus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:**
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 99, 1-2</Text> Jubiláte Deo, omnis
@@ -187,13 +188,13 @@ export default function PagePropagacaofe() {
               Senhor é o próprio Deus; e que nos criou a nós, e não nós a nós
               mesmos. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 9, 35-38</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -220,13 +221,13 @@ export default function PagePropagacaofe() {
               verdade, é abundante, mas os operários são poucos. Rogai, pois, ao
               Senhor da messe que mande operários para a sua messe».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 95, 7-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Afférte Dómino, pátriæ géntium, afférte Dómino glóriam et honórem,
               afférte Dómino glóriam nómini ejus: tóllite hóstias, et introíte
@@ -239,11 +240,11 @@ export default function PagePropagacaofe() {
               vítimas e entrai no átrio do seu santuário. Adorai o Senhor no seu
               sagrado santuário. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Protéctor noster, áspice, Deus, et réspice in fáciem Christi tui,
               qui dedit redemptiónem semetípsum pro ómnibus: et fac; ut ab ortu
@@ -259,13 +260,13 @@ export default function PagePropagacaofe() {
               sacrifique e ofereça ao vosso Nome a oblação pura. Pelo mesmo
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 116, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Laudáte Dóminum, omnes gentes: laudáte eum, omnes pópuli: quóniam
               confirmáta est super nos misericordia ejus, et véritas Dómini
@@ -276,11 +277,11 @@ export default function PagePropagacaofe() {
               o Senhor! Pois a sua misericórdia para connosco confirmou-se e a
               verdade do Senhor permanecerá eternamente. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Redemptiónis nostræ múnere vegetáti: quǽsumus, Dómine; ut, hoc
               perpétuæ salútis auxílio, fides semper vera profíciat. Per
@@ -291,7 +292,7 @@ export default function PagePropagacaofe() {
               que, por este auxílio da salvação perpétua, sempre aumente a
               verdadeira fé. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

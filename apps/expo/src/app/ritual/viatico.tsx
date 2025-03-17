@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import AspergesMe from "../missal/aspergesme";
 
 export default function PageViatico() {
@@ -14,7 +15,7 @@ export default function PageViatico() {
           <Text className="aside">
             O Sacerdote, entrando em casa do enfermo, diz:
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Pax huic dómui.
             </Text>
@@ -28,7 +29,7 @@ export default function PageViatico() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E em todos seus habitantes.
             </Text>
-          </View>
+          </Language>
           <Text className="h1">Asperges Me</Text>
           <AspergesMe />O Acólito diz o Confiteor Deo...
           <Link className="link" href="/devocionario/oracoes/confesso">
@@ -36,7 +37,7 @@ export default function PageViatico() {
           </Link>{" "}
           e o Sacerdote, tendo dado as Absolvições, continua:
           <Text className="h1">Recepção da Comunhão</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Ecce Agnus Dei, ecce qui
               tollit peccáta mundi.
@@ -82,8 +83,8 @@ export default function PageViatico() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -112,7 +113,7 @@ export default function PageViatico() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

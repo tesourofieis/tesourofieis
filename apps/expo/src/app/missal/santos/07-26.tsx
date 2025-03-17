@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0726() {
@@ -31,7 +32,7 @@ export default function Page0726() {
 
           <Text className="h3">Intróito</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
               beátæ Annæ: de cujus sollemnitáte gaudent Angeli et colláudant
@@ -48,11 +49,11 @@ export default function Page0726() {
               uma palavra excelente: Consagro ao Rei as minhas obras.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátæ Annæ grátiam conférre dignatus es, ut Genetrícis
               unigéniti Fílii tui mater effici mererétur: concéde propítius; ut,
@@ -66,7 +67,7 @@ export default function Page0726() {
               patrocínio daquela cuja festa celebramos. Pelo mesmo nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -93,7 +94,7 @@ export default function Page0726() {
 
           <Text className="em">Sl. 44, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fíliæ regum in honóre tuo, ástitit regína a dextris tuis in
               vestítu deauráto, circúmdata varietáte.
@@ -103,11 +104,11 @@ export default function Page0726() {
               rainha está colocada à vossa direita, envergando um vestido de
               ouro, recamado da mais rica variedade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifíciis præséntibus, quǽsumus, Dómine, placatus inténde: ut
               per intercessiónem beátæ Annæ, quæ Genetrícis Fílii tui, Dómini
@@ -120,13 +121,13 @@ export default function Page0726() {
               deu ao mundo vosso Filho, nosso Senhor Jesus Cristo, sejam
               proveitosos à nossa piedade e salvação. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 44, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in
               ætérnum, et in sǽculum sǽculi.
@@ -135,11 +136,11 @@ export default function Page0726() {
               A graça espalhou-se nos vossos lábios: eis porque Deus vos
               abençoou para a eternidade e para todos os séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœléstibus sacraméntis vegetáti, quǽsumus, Dómine, Deus noster:
               ut, intercessióne beátæ Annæ, quam Genetrícis Fílii tui matrem
@@ -152,7 +153,7 @@ export default function Page0726() {
               daquela que deu ao mundo vosso Filho, que possamos alcançar a
               salvação eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

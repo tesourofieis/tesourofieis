@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageConfesso() {
   return (
@@ -10,7 +11,7 @@ export default function PageConfesso() {
         <View className="docs">
           <Text className="h1">Confesso</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto
               Michǽli Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro
@@ -49,7 +50,7 @@ export default function PageConfesso() {
               Baptista, aos Santos Apóstolos S. Pedro e S. Paulo, e a todos os
               Santos, que rogueis a Deus, nosso Senhor, por mim.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageQuad53() {
@@ -15,7 +16,7 @@ export default function PageQuad53() {
 
           <Text className="em">Sl. 17, 48-49</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Liberátor meus de géntibus iracúndis: ab insurgéntibus in me
               exaltábis me: a viro iníquo erípies me, Dómine.{" "}
@@ -30,11 +31,11 @@ export default function PageQuad53() {
               Senhor, que sois a minha fortaleza, eu Vos amo! Sois o meu
               sustentáculo, o meu refúgio e o meu libertador.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctificáto hoc jejúnio, Deus, tuórum corda fidélium miserátor
               illústra: et quibus devotiónis præstas afféctum, præbe
@@ -45,13 +46,13 @@ export default function PageQuad53() {
               esclarecei os corações dos vossos fiéis e ouvi benigno as súplicas
               daqueles a quem concedeis o dom da piedade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Lv. 19, 1-2, 11-19 & 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Levítici.</Text>
             <Text className="vernacular">Lição do Livro Levítico.</Text>
             <Text className="latin">
@@ -93,13 +94,13 @@ export default function PageQuad53() {
               vossos concidadãos. Amareis o vosso próximo como a vós mesmos. Sou
               o Senhor: observai as minhas leis; pois sou o Senhor, vosso Deus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 29, 2-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exaltábo te, Dómine, quóniam suscepísti me: nec delectásti
               inimícos meos super me.<Text className="versicle"> ℣. </Text>
@@ -115,7 +116,7 @@ export default function PageQuad53() {
               inferno; salvastes-me da companhia daqueles que descem para o
               sepulcro.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
@@ -128,7 +129,7 @@ export default function PageQuad53() {
 
           <Text className="em">Jo. 10, 22-38</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -189,13 +190,13 @@ export default function PageQuad53() {
               de que saibais e conheçais que o Pai está em mim e que Eu estou no
               Pai».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 58, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Eripe me de inimícis meis, Deus meus: et ab insurgéntibus in me
               líbera me, Dómine.
@@ -204,11 +205,11 @@ export default function PageQuad53() {
               Livrai-me dos meus inimigos, ó meu Deus; livrai-me dos que se
               insurgem contra mim.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Annue, miséricors Deus: ut hóstias placatiónis et laudis sincéro
               tibi deferámus obséquio. Per Dóminum...
@@ -218,13 +219,13 @@ export default function PageQuad53() {
               apresentemos estas hóstias de expiação e de louvor. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 25, 6-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lavábo inter innocéntes manus meas, et circuíbo altáre tuum,
               Dómine: ut áudiam vocem laudis tuæ, et enárrem univérsa mirabília
@@ -235,11 +236,11 @@ export default function PageQuad53() {
               altar, Senhor, para cantar os vossos louvores e anunciar todas as
               vossas maravilhas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœléstis doni benedictióne percépta: súpplices te, Deus
               omnípotens, deprecámur; ut hoc idem nobis et sacraménti causa sit
@@ -250,11 +251,11 @@ export default function PageQuad53() {
               rogamos, ó Deus omnipotente, que este mesmo dom nos sirva de
               sacramento e de salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -275,7 +276,7 @@ export default function PageQuad53() {
               permitis confiem na vossa piedade, concedei benigno o efeito da
               vossa habitual misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageSalutaris() {
   return (
@@ -10,7 +11,7 @@ export default function PageSalutaris() {
         <View className="docs">
           <Text className="h1">Salutaris</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               O salutaris Hostia, Quæ cæli pandis ostium: Bella premunt
               hostilia, Da robur, fer auxilium. Uni trinoque Domino Sit
@@ -23,7 +24,7 @@ export default function PageSalutaris() {
               A Vós, Senhor, glória imortal! E que por Vós a alma fiel goze a
               vida e a felicidade na pátria sempiterna. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

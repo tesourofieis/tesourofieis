@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0425() {
@@ -23,7 +24,7 @@ export default function Page0425() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Marcum Evangelístam tuum evangélicæ prædicatiónis
               grátia sublimásti: tríbue, quǽsumus; ejus nos semper et eruditióne
@@ -36,13 +37,13 @@ export default function Page0425() {
               seus ensinos e de sermos defendidos pela sua oração. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ez. 1, 10-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Ezechiélis Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Ezequiel.</Text>
             <Text className="latin">
@@ -71,7 +72,7 @@ export default function Page0425() {
               crepitar no meio deles chamas de fogo, saindo do fogo relâmpagos.
               E eles iam e vinham, semelhante ao fuzilar dos relâmpagos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -82,7 +83,7 @@ export default function Page0425() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáti Marci Evangelístæ tui sollemnitáte tibi múnera deferéntes,
               quǽsumus, Dómine: ut, sicut illum prædicátio evangélica fecit
@@ -96,11 +97,11 @@ export default function Page0425() {
               intercessão nos torne agradáveis à vossa majestade, tanto pelas
               nossas palavras, como pelas nossas obras. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tríbuant nobis, quǽsumus, Dómine, contínuum tua sancta præsídium:
               quo, beáti Marci evangelístæ tui précibus, nos ab ómnibus semper
@@ -112,7 +113,7 @@ export default function Page0425() {
               vosso Evangelista, nos defendam de todas as adversidades. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0816() {
@@ -15,7 +16,7 @@ export default function Page0816() {
 
           <Text className="em">Sl. 111, 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum
               sǽculi: cornu ejus exaltábitur in glória.{" "}
@@ -31,11 +32,11 @@ export default function Page0816() {
               varão que teme o Senhor e que põe todo o zelo em cumprir os
               mandamentos.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui præ ómnibus Sanctis tuis beátum Jóachim Genetrícis Fílii
               tui patrem esse voluísti: concéde, quǽsumus; ut, cujus festa
@@ -48,7 +49,7 @@ export default function Page0816() {
               suplicamos, que experimentemos o perpétuo patrocínio daquele cuja
               festa celebramos. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -61,7 +62,7 @@ export default function Page0816() {
 
           <Text className="em">Sl. 111, 9 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum
               sǽculi.<Text className="versicle"> ℣. </Text>Potens in terra erit
@@ -83,13 +84,13 @@ export default function Page0816() {
               Joaquim, Esposo de Santa Ana, Pai da Virgem-Mãe, concedei na terra
               aos vossos os socorros necessários para a salvação. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt, 1, 1-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Initium sancti Evangélii
               secúndum Matthǽum.
@@ -141,13 +142,13 @@ export default function Page0816() {
               Eleazar. Eleazar gerou Matam. Matam gerou Jacob. E Jacob gerou
               José, esposo de Maria, da qual nasceu Jesus, que é chamado Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 8, 6-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Glória et honóre coronásti eum: et constituísti eum super ópera
               mánuum tuárum, Dómine.
@@ -156,11 +157,11 @@ export default function Page0816() {
               Vós o coroastes, Senhor, com glória e honras; Vós o estabelecestes
               acima das obras das vossas mãos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, clementíssime Deus, sacrifícium in honórem sancti
               Patriarchæ Jóachim, patris Maríæ Vírginis, majestáti tuæ oblátum:
@@ -175,13 +176,13 @@ export default function Page0816() {
               à de sua B. Filha, mereçamos alcançar a plena remissão dos nossos
               pecados e a glória eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 12, 42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fidélis servus et prudens, quem constítuit dóminus super famíliam
               suam: ut det illis in témpore trítici mensuram.
@@ -191,11 +192,11 @@ export default function Page0816() {
               família para distribuir oportunamente a cada um a sua medida de
               trigo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quæsumus, omnípotens Deus: ut per hæc sacraménta, quæ súmpsimus,
               intercedéntibus méritis et précibus beáti Jóachim patris
@@ -210,7 +211,7 @@ export default function Page0816() {
               comparticipantes da vossa graça na vida presente e da vossa eterna
               glória na vida futura. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

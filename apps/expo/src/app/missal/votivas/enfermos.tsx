@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageEnfermos() {
   return (
@@ -14,7 +15,7 @@ export default function PageEnfermos() {
 
           <Text className="em">Sl. 54, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam:
               inténde in me et exáudi me. (T. P. Allelúja, allelúja.){" "}
@@ -32,11 +33,11 @@ export default function PageEnfermos() {
               os pecadores.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, salus ætérna credéntium: exáudi nos
               pro fámulis tuis infírmis, pro quibus misericórdiæ tuæ implorámus
@@ -50,13 +51,13 @@ export default function PageEnfermos() {
               misericórdia, a fim de que, readquirindo a saúde, Vos rendam
               acções de graças na vossa Igreja. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Tg. 5, 13-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Jacóbi Apóstoli.
             </Text>
@@ -78,13 +79,13 @@ export default function PageEnfermos() {
               Confessai, portanto, os vossos pecados um ao outro e orai uns
               pelos outros, a fim de que sejais salvos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 6, 3-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Miserére mihi, Dómine, quóniam infírmus sum: sana me, Dómine.
               <Text className="versicle"> ℣. </Text>
@@ -105,7 +106,7 @@ export default function PageEnfermos() {
               <Text className="vernacular">Sl. 101, 2</Text> Ouvi, Senhor, a
               minha oração: e que meu clamor chegue até Vós. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
@@ -115,7 +116,7 @@ export default function PageEnfermos() {
 
           <Text className="em">Sl. 30, 10-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Miserére mei, Dómine, quóniam tríbulor: conturbátus est in ira
               óculus meus, ánima mea et venter meus.
@@ -133,13 +134,13 @@ export default function PageEnfermos() {
               <Text className="versicle"> ℣. </Text>Minhas forças debilitaram-se
               por causa da minha pobreza: e os meus ossos estão abalados.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual- e a Trato, e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 101, 2</Text> Dómine, exáudi oratiónem
@@ -158,13 +159,13 @@ export default function PageEnfermos() {
               em Deus e foi socorrido: e a minha carne refloresceu: eis porque O
               louvarei de todo meu coração. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 8, 5-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -207,13 +208,13 @@ export default function PageEnfermos() {
               Então Jesus disse ao centurião: «Vai; e, assim como acreditastes,
               assim acontecerá». E naquela hora o servo foi curado.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 54, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam:
               inténde in me et exáudi me. (T. P. Allelúja.)
@@ -222,11 +223,11 @@ export default function PageEnfermos() {
               Senhor, ouvi a minha oração e não desprezeis as minhas súplicas.
               Volvei-Vos para mim e ouvi-me. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, cujus nútibus vitæ nostræ moménta decúrrunt: súscipe preces
               et hóstias famulórum tuórum, pro quibus ægrotántibus misericórdiam
@@ -240,13 +241,13 @@ export default function PageEnfermos() {
               depois de havermos temido o perigo em que eles se encontravam, nos
               regozijemos de os ver sãos e salvos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 30, 17-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Illúmina fáciem tuam super servum tuum, et salvum me fac in tua
               misericórdia: Dómine, non confúndar, quóniam invocávi te. (T. P.
@@ -257,11 +258,11 @@ export default function PageEnfermos() {
               consoante a vossa misericórdia! Senhor, visto que Vos invoquei,
               fazei que não seja confundido. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, infirmitátis humánæ singuláre præsídium: auxílii tui super
               infírmos fámulos tuos osténde virtútem; ut, ope misericórdiæ tuæ
@@ -274,7 +275,7 @@ export default function PageEnfermos() {
               socorridos pela vossa misericórdia, sejam restituídos sãos e
               salvos ao seio da vosso Igreja. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

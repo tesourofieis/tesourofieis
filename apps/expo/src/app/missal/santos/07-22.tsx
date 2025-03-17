@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0722() {
@@ -50,7 +51,7 @@ export default function Page0722() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátæ Maríæ Magdalénæ, quǽsumus, Dómine, suffrágiis adjuvémur:
               cujus précibus exorátus, quatriduánum fratrem Lázarum vivum ab
@@ -62,13 +63,13 @@ export default function Page0722() {
               ressurreição de seu irmão Lázaro, que falecera havia quatro dias.
               Ó Vós, que, viveis e reinais...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ct. 3, 2-5; 8, 6-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -105,13 +106,13 @@ export default function Page0722() {
               submergi-lo; pois, ainda que o homem haja dado todas as riquezas
               da sua casa pelo seu amor, desprezá-las-á, como se nada fossem.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dilexísti justítiam, et odísti iniquitátem.
               <Text className="versicle"> ℣. </Text>Proptérea unxit te Deus,
@@ -133,7 +134,7 @@ export default function Page0722() {
               nos vossos lábios: eis porque Deus vos abençoou para sempre.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -146,7 +147,7 @@ export default function Page0722() {
 
           <Text className="em">Sl. 44, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fíliæ regum in honóre tuo, ástitit regína a dextris tuis in
               vestítu deauráto, circúmdata varietáte.
@@ -156,11 +157,11 @@ export default function Page0722() {
               rainha está colocada à vossa direita, envergando um vestido de
               ouro, recamado da mais rica variedade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera nostra, quǽsumus, Dómine, beátæ Maríæ Magdalénæ gloriósa
               mérita tibi reddant accépta: cujus oblatiónis obséquium unigénitus
@@ -173,13 +174,13 @@ export default function Page0722() {
               o vosso Filho Unigénito recebeu misericordiosamente a sua oferta e
               os seus serviços. Ele, que convosco vive e reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 118, 121, 122 & 128</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Feci judícium et justítiam, Dómine, non calumniéntur mihi supérbi:
               ad ómnia mandáta tua dirigébar, omnem viam iniquitátis odio hábui.
@@ -189,11 +190,11 @@ export default function Page0722() {
               que me perseguem. Procurei em tudo dirigir-me segundo os vossos
               Mandamentos: e odiei todas as vias da iniquidade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumpto, quǽsumus, Dómine, único ac salutári remédio, Córpore et
               Sánguine tuo pretióso: ab ómnibus malis, sanctæ Maríæ Magdalénæ
@@ -205,7 +206,7 @@ export default function Page0722() {
               sejamos livres de todos os males pelo patrocínio de Santa Maria
               Madalena. Ó Vós, que viveis e...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

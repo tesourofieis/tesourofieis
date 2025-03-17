@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0814() {
@@ -23,7 +24,7 @@ export default function Page0814() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui virginálem aulam beátæ Maríæ, in qua habitáres, elígere
               dignátus es: da, quǽsumus; ut, sua nos defensióne munitos,
@@ -35,7 +36,7 @@ export default function Page0814() {
               protecção, possamos com alegria associar-nos à sua festa. Ó Vós,
               que viveis e reinais...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Oração, Secreta e Postcomúnio S. Eusébio como na
@@ -67,7 +68,7 @@ export default function Page0814() {
 
           <Text className="h3">Ofertório</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáta es, Virgo María, quæ ómnium portásti Creatórem: genuísti qui
               te fecit, et in ætérnum pérmanes Virgo.
@@ -77,11 +78,11 @@ export default function Page0814() {
               o Criador de todas as coisas. Gerastes Aquele que vos criou; e
               permanecereis eternamente Virgem.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera nostra, Dómine, apud cleméntiam tuam Dei Genetrícis
               comméndet orátio: quam idcírco de praesénti sǽculo transtulísti;
@@ -94,11 +95,11 @@ export default function Page0814() {
               deste mundo para interceder com confiança pelos nossos pecados
               junto de Vós. Pelo mesmo nosso S...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris
               Fílium.
@@ -107,11 +108,11 @@ export default function Page0814() {
               Bem-aventuradas as entranhas da B. Virgem Maria, que trouxeram
               encerrado o Filho do Pai Eterno.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, miséricors Deus, fragilitáti nostræ præsídium: ut, qui
               sanctæ Dei Genetrícis festivitátem prævénimus; intercessiónis ejus
@@ -124,7 +125,7 @@ export default function Page0814() {
               de Deus, possamos, com o auxílio da sua intercessão, ressuscitar
               das nossas iniquidades. Pelo mesmo nosso...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

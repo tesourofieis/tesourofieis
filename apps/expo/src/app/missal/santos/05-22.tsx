@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0522() {
@@ -15,7 +16,7 @@ export default function Page0522() {
 
           <Text className="em">Sl. 117, 19 & 22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Aperíte mihi portas justítiæ, ingréssus in eas confitébor Dómino:
               lápidem, quem reprobavérunt ædificántes, hic factus est in caput
@@ -34,11 +35,11 @@ export default function Page0522() {
               séculos dos séculos.<Text className="versicle"> ℣. </Text>Glória
               ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui sanctæ Ritæ tantam grátiam conférre dignátus es, ut
               inimícos dilígeret et in corde ac fronte caritátis et passiónis
@@ -56,13 +57,13 @@ export default function Page0522() {
               prometidos aos que são mansos e misericordiosos de coração. Ó Vós,
               que viveis e reinais...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Pr. 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Lectio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -107,9 +108,9 @@ export default function Page0522() {
               em flor exalam seus aromas! Ergue-te e vem, minha amiga, minha
               beleza!».
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Eccli. 24, 18</Text> Quasi palma exaltáta
@@ -128,7 +129,7 @@ export default function Page0522() {
               cinamomo e o bálsamo aromático: e como mirra escolhida exalei
               suave odor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -141,7 +142,7 @@ export default function Page0522() {
 
           <Text className="em">Gn. 40, 9-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vidébam coram me vitem, in qua erant tres propágines, créscere
               paulátim in gemmas, et post flores uvas maturéscera. (T. P.
@@ -152,11 +153,11 @@ export default function Page0522() {
               pouco a crescer em gomos: e, depois de as flores amadurecerem, as
               uvas. (T.P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Corda nostra, quǽsumus, Dómine, Sanctæ Ritæ méritis, supérni
               dolóris spina confíge: ut, a peccátis ómnibus tua grátia liberáti,
@@ -170,13 +171,13 @@ export default function Page0522() {
               sacrificar-Vos com o coração puro a hóstia de louvor. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 20, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Prævenísti eam, Dómine, in benedictiónibus dulcédinis: posuísti in
               cápite ejus corónam de lápide pretióso. (T. P. Allelúja.)
@@ -185,11 +186,11 @@ export default function Page0522() {
               Premuniste-la, Senhor, com bênçãos de doçura: Impusestes na sua
               cabeça uma coroa de pedras preciosas. (T.P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cæléstibus, Dómine, pasti delíciis, súpplices te rogámus: ut,
               intercedénte sancta Rita, caritátis et passiónis tuæ in méntibus
@@ -202,7 +203,7 @@ export default function Page0522() {
               em nossas mentes os sinais da vossa caridade e Paixão e gozarmos
               constantemente o fruto da perpétua paz. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

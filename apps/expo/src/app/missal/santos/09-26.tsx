@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0926() {
@@ -25,7 +26,7 @@ export default function Page0926() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beatórum Mártyrum Cypriáni et Justínæ nos, Dómine, fóveant
               continuáta pæsídia: quia non désinis propítius intuéri, quos
@@ -37,7 +38,7 @@ export default function Page0926() {
               deixar de acolher benignamente aqueles a quem concedeis a
               assistência de tais auxílios. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta e Postcomúnio</Text>
 

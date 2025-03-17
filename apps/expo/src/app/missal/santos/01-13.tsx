@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0113() {
   return (
@@ -22,7 +23,7 @@ export default function Page0113() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, cujus Unigénitus in substántia nostræ carnis appáruit:
               præsta, quǽsumus; ut per eum, quem símilem nobis foris agnóvimus,
@@ -35,13 +36,13 @@ export default function Page0113() {
               reconhecemos semelhante a nós exteriormente. Ele, que, sendo
               Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 1, 29-34</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -75,11 +76,11 @@ export default function Page0113() {
               que baptiza no Espírito Santo». Eu vi isto e afirmo que Ele é o
               Filho de Deus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, pro nati Fílii tui apparitióne deférimus,
               supplíciter exorántes: ut, sicut ipse nostrórum auctor est
@@ -92,11 +93,11 @@ export default function Page0113() {
               Jesus Cristo, nosso Senhor, é o autor destes dons, assim também os
               aceites misericordiosamente. Ele, que, sendo Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœlésti lúmine, quǽsumus, Dómine, semper et ubíque nos prǽveni: ut
               mystérium, cujus nos partícipes esse voluísti, et puro cernámus
@@ -109,7 +110,7 @@ export default function Page0113() {
               possamos contemplá-lo com olhos puros e recebê-lo com afecto
               digno. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

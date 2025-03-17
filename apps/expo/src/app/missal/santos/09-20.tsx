@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0920() {
   return (
@@ -25,7 +26,7 @@ export default function Page0920() {
 
           <Text className="em">Lc. 5, 27-32</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -57,7 +58,7 @@ export default function Page0920() {
               os que têm doença. Não vim chamar à penitência os justos, mas os
               pecadores».
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

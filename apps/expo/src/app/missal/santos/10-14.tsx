@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1014() {
   return (
@@ -24,7 +25,7 @@ export default function Page1014() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos cónspicis ex nostra infirmitáte defícere: ad amórem
               tuum nos misericórditer per Sanctórum tuórum exémpla restáura. Per
@@ -35,11 +36,11 @@ export default function Page1014() {
               dignai-Vos pela vossa misericórdia restaurar-nos no vosso amor,
               segundo os exemplos dos vossos Santos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mýstica nobis, Dómine, prosit oblátio: quæ nos et a reátibus
               nostris expédiat, et perpétua salvatióne confírmet. Per Dóminum...
@@ -49,11 +50,11 @@ export default function Page1014() {
               das nossas faltas e nos assegure a salvação eterna. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut reátus nostros múnera sacráta
               puríficent, et recte vivéndi nobis operéntur efféctum. Per
@@ -64,7 +65,7 @@ export default function Page1014() {
               purifiquem das nossas faltas e que, produzindo em nós os seus
               efeitos, nos façam viver santamente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

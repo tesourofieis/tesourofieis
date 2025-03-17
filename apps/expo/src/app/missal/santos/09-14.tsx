@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0914() {
   return (
@@ -14,7 +15,7 @@ export default function Page0914() {
 
           <Text className="em">Gl. 6, 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in
               quo est salus, vita et resurréctio nostra: per quem salváti et
@@ -31,11 +32,11 @@ export default function Page0914() {
               com o brilho que resplandece da sua face, e se compadeça de nós.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos hodiérna die Exaltatiónis sanctæ Crucis ánnua
               sollemnitáte lætíficas: præsta, quǽsumus; ut, cujus mystérium in
@@ -49,13 +50,13 @@ export default function Page0914() {
               pelo vosso Filho, cujo mystério na terra conhecemos. Pelo mesmo
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Fl. 2, 5-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.
             </Text>
@@ -87,13 +88,13 @@ export default function Page0914() {
               e todas as línguas confessem que nosso Senhor Jesus Cristo está na
               glória de Deus Pai!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">ibid., 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Christus factus est pro nobis obǿdiens usque ad mortem, mortem
               autem crucis.<Text className="versicle"> ℣. </Text>Propter quod et
@@ -116,13 +117,13 @@ export default function Page0914() {
               lenho, ó doces cravos, que segurais um peso mais doce ainda! Só tu
               fostes digno de segurar o Rei e o Senhor dos céus. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 12, 31-36</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -157,11 +158,11 @@ export default function Page0914() {
               para onde vai. Enquanto tendes a luz, acreditai nela, para que
               sejais filhos da luz».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Prótege, Dómine, plebem tuam per signum sanctæ Crucis ab ómnibus
               insídiis inimicórum ómnium: ut tibi gratam exhibeámus servitútem,
@@ -172,11 +173,11 @@ export default function Page0914() {
               de todos seus inimigos, a fim de que a nossa servidão Vos seja
               agradável e aceiteis o nosso sacrifício, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jesu Christi, Dómini nostri, Córpore et Sánguine saginándi, per
               quem Crucis est sanctifícátum vexíllum: quǽsumus, Dómine, Deus
@@ -190,11 +191,11 @@ export default function Page0914() {
               assim alcancemos na eternidade gozar a posse dos efeitos da sua
               salutar glória. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per signum Crucis de inimícis nostris líbera nos, Deus noster.
             </Text>
@@ -202,11 +203,11 @@ export default function Page0914() {
               Pelo sinal da Santa Cruz, livrai-nos de nossos inimigos, ó nosso
               Deus!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto nobis, Dómine, Deus noster: et, quos sanctæ Crucis lætári
               facis honóre, ejus quoque perpétuis defénde subsídiis. Per
@@ -217,7 +218,7 @@ export default function Page0914() {
               defendei sempre aqueles a quem proporcionastes a alegria de honrar
               a Santa Cruz. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

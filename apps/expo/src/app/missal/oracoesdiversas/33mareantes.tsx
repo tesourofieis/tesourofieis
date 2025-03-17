@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page33Mareantes() {
   return (
@@ -12,7 +13,7 @@ export default function Page33Mareantes() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui transtulísti patres nostros per Mare Rubrum, et
               transvexísti eos per aquam nímiam, laudem tui nóminis decantántes:
@@ -29,11 +30,11 @@ export default function Page33Mareantes() {
               todos os perigos, conduzindo-os, após uma viagem feliz, ao porto
               tão desejado. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, quǽsumus, Dómine, preces famulórum tuórum, cum
               oblatiónibus hostiárum: et eos, pro quibus tua mystéria
@@ -45,11 +46,11 @@ export default function Page33Mareantes() {
               perigos os viajantes, por cuja salvação celebramos os vossos
               sacrossantos mystérios. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctificáti divíno mystério, majestátem tuam, Dómine, supplíciter
               deprecámur et pétimus: ut fámulos tuos, quos donis facis
@@ -65,7 +66,7 @@ export default function Page33Mareantes() {
               caminho do pecado, e, pela vossa misericórdia, sejam livres de
               todos os perigos, Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

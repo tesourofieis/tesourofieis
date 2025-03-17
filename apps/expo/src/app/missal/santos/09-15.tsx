@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0915() {
@@ -17,7 +18,7 @@ export default function Page0915() {
 
           <Text className="em">Jo. 19, 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Stabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, María
               Cléophæ, et Salóme et María Magdaléne.{" "}
@@ -34,11 +35,11 @@ export default function Page0915() {
               «Eis a tua Mãe».<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, in cujus passióne, secúndum Simeónis prophétiam, dulcíssimam
               ánimam gloriósæ Vírginis et Matris Maríæ dolóris gladius
@@ -55,13 +56,13 @@ export default function Page0915() {
               Paixão, pelos gloriosos méritos e preces de todos os Santos, que
               fielmente permaneceram junto à Cruz. Ó Vós, que...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Jdt. 13, 22 & 23-25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Judith.</Text>
             <Text className="vernacular">Lição do Livro de Judite.</Text>
             <Text className="latin">
@@ -84,11 +85,11 @@ export default function Page0915() {
               aflição e as angústias do povo, mas remediastes a sua ruína,
               perante o nosso Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dolorósa et lacrimábilis es, Virgo María, stans juxta Crucem
               Dómini Jesu, Fílii tui, Redemptóris.
@@ -113,11 +114,11 @@ export default function Page0915() {
               doloroso, junto à Cruz de nosso Senhor Jesus Cristo, a Rainha do
               céu e Soberana do mundo, Santa Maria.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Stabat sancta María, cœli Regína et mundi Dómina, juxta Crucem
               Dómini nostri Jesu Christi dolorósa.
@@ -134,11 +135,11 @@ export default function Page0915() {
               passais pelo mundo, atendei e vede se há dor semelhante à minha
               dor!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Sequência</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Stabat Mater dolorósa iuxta Crucem lacrimósa, dum pendébat Fílius.
             </Text>
@@ -291,7 +292,7 @@ export default function Page0915() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -304,7 +305,7 @@ export default function Page0915() {
 
           <Text className="em">Jr. 18, 20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Recordáre, Virgo, Mater Dei, dum stéteris in conspéctu Dómini, ut
               loquáris pro nobis bona, et ut avértat indignatiónem suam a nobis.
@@ -314,11 +315,11 @@ export default function Page0915() {
               lembrai-Vos de nós; intercedei em nosso favor junto d’Ele e
               afastai de nós a sua indignação.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Offérimus tibi preces et hóstias, Dómine Jesu Christe, humiliter
               supplicántes: ut, qui Transfixiónem dulcíssimi spíritus beátæ
@@ -334,11 +335,11 @@ export default function Page0915() {
               Cruz, tenhamos parte com os bem-aventurados nos méritos da vossa
               morte. Ó Vós, que, sendo Deus, viveis e...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Felices sensus beátæ Maríæ Vírginis, qui sine morte meruérunt
               martýrii palmam sub Cruce Dómini.
@@ -347,11 +348,11 @@ export default function Page0915() {
               Ditosos os sentidos da B. Virgem Maria, que sem serem feridos pela
               morte alcançaram a palma do martírio, ao pé da Cruz do Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifícia, quæ súmpsimus, Dómine Jesu Christe, Transfixiónem
               Matris tuæ et Vírginis devóte celebrántes: nobis ímpetrent apud
@@ -363,7 +364,7 @@ export default function Page0915() {
               Virgem, nos obtenham da vossa clemência o efeito de todo o bem
               salutar. Ó Vós, que, sendo Deus, viveis e...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

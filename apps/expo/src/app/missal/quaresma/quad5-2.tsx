@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad52() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad52() {
 
           <Text className="em">Sl. 26, 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exspécta Dóminum, viríliter age: et confortétur cor tuum, et
               sústine Dóminum. <Text className="latin">Ps. ibid., 1</Text>{" "}
@@ -26,11 +27,11 @@ export default function PageQuad52() {
               <Text className="vernacular">Sl. ibid., 1</Text> O Senhor é a
               minha luz e salvação. A quem hei-de temer?
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Nostra tibi, Dómine, quǽsumus, sint accepta jejúnia: quæ nos et
               expiándo grátia tua dignos effíciant; et ad remédia perdúcant
@@ -42,13 +43,13 @@ export default function PageQuad52() {
               nos tornem dignos da vossa graça e nos sirvam de remédio para
               alcançarmos a salvação eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Dn. 14, 27 & 28-42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Daniélis Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Daniel.</Text>
             <Text className="latin">
@@ -112,13 +113,13 @@ export default function PageQuad52() {
               pois Ele é o Salvador, que opera milagres e maravilhas na terra e
               que livrou Daniel da cova dos leões!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 42, 1 & 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Discérne causam meam, Dómine: ab homine iníquo et dolóso éripe me.
               <Text className="versicle"> ℣. </Text>Emítte lucem tuam et
@@ -131,13 +132,13 @@ export default function PageQuad52() {
               em mim a vossa luz e a vossa verdade: e elas me conduzirão e
               guiarão até ao monte sagrado.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 7, 1-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -188,13 +189,13 @@ export default function PageQuad52() {
               turbas. Todavia, ninguém falava d’Ele abertamente» porque receavam
               os judeus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 9, 11-12 & 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sperent in te omnes, qui novérunt nomen tuum, Dómine: quóniam non
               derelínquis quæréntes te: psállite Dómino, qui habitat in Sion:
@@ -206,11 +207,11 @@ export default function PageQuad52() {
               Senhor que habita em Sião: pois não esquecerá as orações dos
               pobres.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, deférimus immolándas: quæ temporálem
               consolatiónem signíficent; ut promíssa non desperémus ætérna. Per
@@ -221,24 +222,24 @@ export default function PageQuad52() {
               louvor, nos façam sentir consolação temporal, a fim de não
               perdermos a esperança das promessas eternas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 24, 22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Rédime me, Deus Israël, ex ómnibus angústiis meis.
             </Text>
             <Text className="vernacular">
               Livrai-me, ó Deus de Israel, de todas minhas angústias.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, omnípotens Deus: ut, quæ divína sunt, jugiter
               exsequéntes, donis mereámur cœléstibus propinquáre. Per Dóminum
@@ -249,11 +250,11 @@ export default function PageQuad52() {
               incessantemente os divinos mystérios, mereçamos alcançar os bens
               celestiais. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -274,7 +275,7 @@ export default function PageQuad52() {
               cumprimento da vossa vontade, para que em nossos dias o povo, que
               Vos serve, cresça em número e em merecimentos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad14() {
   return (
@@ -16,7 +17,7 @@ export default function PageQuad14() {
 
           <Text className="em">Sl. 95, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Conféssio et pulchritúdo in conspéctu ejus: sánctitas et
               magnificéntia in sanctificatióne eius.{" "}
@@ -31,11 +32,11 @@ export default function PageQuad14() {
               um cântico novo; cantai em honra do Senhor, ó povos de toda a
               terra.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Devotiónem pópuli tui, quǽsumus, Dómine, benígnus inténde: ut, qui
               per abstinéntiam macerántur in córpore, per fructum boni óperis
@@ -47,13 +48,13 @@ export default function PageQuad14() {
               abstinência sejam enriquecidos na alma com os frutos das boas
               obras. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ez. 18, 1-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Ezechiélis Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Ezequiel.</Text>
             <Text className="latin">
@@ -95,13 +96,13 @@ export default function PageQuad14() {
               proceder segundo a verdade: então, esse é justo e viverá na vida
               eterna: diz o Senhor omnipotente».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 16, 8 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum
               prótege me.<Text className="versicle"> ℣. </Text>De vultu tuo
@@ -114,13 +115,13 @@ export default function PageQuad14() {
               Que meu julgamento seja pronunciado diante de Vós; que os vossos
               olhos vejam a equidade da minha causa.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 15, 21-28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -160,13 +161,13 @@ export default function PageQuad14() {
               «Ó mulher, a tua fé é grande! Pois bem: aconteça o que tu
               queres!». E a sua filha foi curada naquela mesma hora.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 33, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Immíttet Angelus Dómini in circúitu timéntium eum, et erípiet eos:
               gustáte, et vidéte, quóniam suávis est Dóminus.
@@ -175,11 +176,11 @@ export default function PageQuad14() {
               O Anjo do Senhor rodeia aqueles que o temem e salvá-los-á.
               Examinai e vede como o Senhor é bom!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifícia, Dómine, quǽsumus, propénsius ista nos salvent, quæ
               medicinálibus sunt institúta jejúniis. Per Dóminum...
@@ -189,24 +190,24 @@ export default function PageQuad14() {
               instituídos juntamente com jejuns salutares, nos salvem pela vossa
               misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 6, 52</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Panis, quem ego dédero, caro mea est pro sǽculi vita.
             </Text>
             <Text className="vernacular">
               O pão que eu Vos der é a minha carne para a salvação do mundo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tuórum nos, Dómine, largitáte donórum, et temporálibus attólle
               præsídiis, et rénova sempitérnis. Per Dóminum nostrum...
@@ -215,11 +216,11 @@ export default function PageQuad14() {
               Com a liberalidade de vossos dons, Senhor, livrai-nos das prisões
               temporais e renovai-nos para a eternidade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -240,7 +241,7 @@ export default function PageQuad14() {
               conhecerem a dignidade da fé, que professam, e de amarem o dom
               celestial, que muitas vezes recebem. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

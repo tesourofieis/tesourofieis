@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0702() {
   return (
@@ -34,7 +35,7 @@ export default function Page0702() {
 
           <Text className="em">Sedulius</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salve, sancta Parens, eníxa puérpera Regem: qui cælum terrámque
               regit in sǽcula sæculórum.{" "}
@@ -49,11 +50,11 @@ export default function Page0702() {
               uma excelente palavra: Consagro ao Rei as minhas obras!
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fámulis tuis, quǽsumus, Dómine, cœléstis grátiæ munus impertíre:
               ut, quibus beátæ Vírginis partus éxstitit salútis exórdium;
@@ -66,13 +67,13 @@ export default function Page0702() {
               permiti que a piedosa solenidade da Visitação lhes proporcione
               aumento de paz. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Segunda Oração</Text>
 
           <Text className="em">S. S. Mártires</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos sanctórum Mártyrum tuórum Proéssi et Martiniáni
               gloriósis confessiónibus circúmdas et prótegis: da nobis et eórum
@@ -85,13 +86,13 @@ export default function Page0702() {
               concedei-nos a graça de aproveitarmos com seus exemplos e de nos
               alegrarmos com sua intercessão. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ct. 2, 8-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -123,11 +124,11 @@ export default function Page0702() {
               tua face e soe tua voz nos meus ouvidos. A tua voz é doce e a tua
               face graciosa!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris
               invénta es Mater Salvatóris.<Text className="versicle"> ℣. </Text>
@@ -152,13 +153,13 @@ export default function Page0702() {
               louvores, pois de vós nasceu o sol da justiça, Cristo, nosso Deus.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 1, 39-47</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -194,11 +195,11 @@ export default function Page0702() {
               disse então: «Minha alma glorifica o Senhor: e o meu espírito se
               alegra em Deus, meu Salvador».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáta es, Virgo María, quæ ómnium portásti Creatórem: genuísti,
               qui te fecit, et in ætérnum pérmanes Virgo.
@@ -208,11 +209,11 @@ export default function Page0702() {
               o Criador de todas as coisas. Gerastes Aquele que vos criou: e
               permaneceis eternamente Virgem.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Unigéniti tui, Dómine, nobis succúrrat humánitas: ut, qui, natus
               de Vírgine, Matris integritátem non mínuit, sed sacrávit; in
@@ -228,13 +229,13 @@ export default function Page0702() {
               nossas faltas, Vos torne agradável à nossa oferta. Ele, que, sendo
               Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Segunda Secreta</Text>
 
           <Text className="em">S. S. Mártires</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, preces et múnera: quæ ut tuo sint digna
               conspéctu. Sanctórum tuórum précibus adjuvémur. Per Dóminum...
@@ -244,11 +245,11 @@ export default function Page0702() {
               tornem dignas de Vos serem apresentadas, fazei que nos auxiliem as
               preces dos vossos Santos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris
               Fílium.
@@ -257,11 +258,11 @@ export default function Page0702() {
               Bem-aventuradas as entranhas da Virgem Maria, onde esteve
               encerrado o Filho do Pai Eterno.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súmpsimus, Dómine, celebritátis ánnuæ votiva sacraménta: præsta,
               quǽsumus; ut et temporális vitæ nobis remédia prǽbeant et ætérnæ.
@@ -273,13 +274,13 @@ export default function Page0702() {
               de remédio durante o tempo presente e na eternidade. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Segundo Postcomúnio</Text>
 
           <Text className="em">S. S. Mártires</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Córporis sacri et pretiósi Sánguinis repléti libámine, quǽsumus,
               Dómine, Deus noster: ut, quod pia devotióne gérimus, certa
@@ -291,7 +292,7 @@ export default function Page0702() {
               que os mystérios, que com piedade recebemos, nos assegurem os
               frutos da redenção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

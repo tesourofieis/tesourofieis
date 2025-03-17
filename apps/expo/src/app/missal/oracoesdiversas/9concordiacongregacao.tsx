@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page9Concordiacongregacao() {
   return (
@@ -12,7 +13,7 @@ export default function Page9Concordiacongregacao() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, lárgiter pacis et amátor cantátis: da fámulis tuis veram cum
               tua voluntáte concórdiam; ut ab ómnibus, quæ nos pulsant,
@@ -24,11 +25,11 @@ export default function Page9Concordiacongregacao() {
               livres de todas as tentações que nos perseguem. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               His sacrifíciis, Dómine, quǽsumus, concéde placátus: ut, qui
               própriis orámus absólvi delíctis, non gravémur extérnis. Per
@@ -39,11 +40,11 @@ export default function Page9Concordiacongregacao() {
               que nós, querendo ser absolvidos dos nossos próprios pecados, não
               sejamos sobrecarregados com os alheios. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Spíritum nobis, Dómine, tuæ cantátis infúnde: ut, quos uno pane
               cœlésti satiásti, tua fácias pietáte concórdes. Per Dóminum... in
@@ -54,7 +55,7 @@ export default function Page9Concordiacongregacao() {
               misericordiosamente torneis unidos de coração aqueles a quem
               saciastes com o mesmo Pão celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

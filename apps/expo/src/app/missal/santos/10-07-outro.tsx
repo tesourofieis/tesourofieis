@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1007Outro() {
   return (
@@ -22,7 +23,7 @@ export default function Page1007Outro() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi, Dómine, preces nostras: et, interveniénte beáto Marco
               Confessóre tuo atque Pontífice, indulgéntiam nobis tríbue placátus
@@ -34,11 +35,11 @@ export default function Page1007Outro() {
               Marcos, vosso Sumo Pontífice, o qual escolhestes como pastor de
               toda a Igreja. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre
               Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit
@@ -50,11 +51,11 @@ export default function Page1007Outro() {
               triunfe em toda a parte, mas também pelo poder do vosso nome os
               pastores sejam bem acolhidos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, Dómine, fidélibus pópulis Sanctórum tuórum semper
               veneratióne lætari: et eórum perpétua supplicatióne muníri. Per
@@ -67,7 +68,7 @@ export default function Page1007Outro() {
               liberdade e persista na integridade da sua doutrina. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

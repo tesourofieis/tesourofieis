@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0613() {
   return (
@@ -22,7 +23,7 @@ export default function Page0613() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecclésiam tuam, Deus, beáti Antónii Confessóris tui atque Doctóris
               solémnitas votiva lætíficet: ut spirituálibus semper muniátur
@@ -34,11 +35,11 @@ export default function Page0613() {
               auxílios espirituais, mereça desfrutar os gozos eternos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsens oblátio fiat, Dómine, pópulo tuo salutáris: pro quo
               dignátus es Patri tuo te vivéntem hóstiam immoláre: Qui cum eódem
@@ -49,11 +50,11 @@ export default function Page0613() {
               pelo qual Vos dignastes imolar-Vos ao vosso Pai, como hóstia viva.
               Ó Vós, que, sendo Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Divínis, Dómine, munéribus satiáti: quǽsumus; ut, beáti Antónii
               Confessóris tui atque Doctóris méritis et intercessióne, salutáris
@@ -64,7 +65,7 @@ export default function Page0613() {
               intercessão e méritos do B. António, vosso Confessor e Doutor,
               sintamos o efeito deste salutar sacrifício. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

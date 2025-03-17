@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageEspiritosanto() {
   return (
@@ -24,7 +25,7 @@ export default function PageEspiritosanto() {
 
           <Text className="em">Act. 8, 14-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostólorum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -44,13 +45,13 @@ export default function PageEspiritosanto() {
               Senhor Jesus. Então impuseram-lhes as mãos e eles receberam o
               Espírito Santo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 32, 12 & 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit
               Dóminus in hereditátem sibi.<Text className="versicle"> ℣. </Text>
@@ -75,7 +76,7 @@ export default function PageEspiritosanto() {
               Santo, enchei os corações dos vossos fiéis e acendei neles o fogo
               do vosso amor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Depois da Septuagésima omite-se o Aleluia e o Verso que se segue, e
@@ -86,7 +87,7 @@ export default function PageEspiritosanto() {
 
           <Text className="em">Sl. 103, 30</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Emítte Spíritum tuum, et creabúntur: et renovábis fáciem terræ.
               <Text className="versicle"> ℣. </Text>O quam bonus et suávis est,
@@ -105,13 +106,13 @@ export default function PageEspiritosanto() {
               Vinde, Espírito Santo, enchei os corações dos vossos fiéis e
               acendei neles o fogo do vosso amor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual e o Trato, e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 103, 30</Text> Emítte Spíritum tuum,
@@ -130,7 +131,7 @@ export default function PageEspiritosanto() {
               enchei os corações dos vossos fiéis e acendei neles o fogo do
               vosso amor. Aleluia.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

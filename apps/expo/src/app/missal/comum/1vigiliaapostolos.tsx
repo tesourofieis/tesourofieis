@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1Vigiliaapostolos() {
   return (
@@ -14,7 +15,7 @@ export default function Page1Vigiliaapostolos() {
 
           <Text className="em">Sl. 51, 10 & 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ego autem, sicut olíva fructífera in domo Dómini, sperávi in
               misericórdia Dei mei: et exspectábo nomen tuum, quóniam bonum est
@@ -31,11 +32,11 @@ export default function Page1Vigiliaapostolos() {
               vanglorias com a maldade, ó tu, que és poderoso em iniquidades?
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, omnípotens Deus: ut beáti{" "}
               <Text className="latin">N.</Text> Apóstoli tui, quam prævenímus,
@@ -48,7 +49,7 @@ export default function Page1Vigiliaapostolos() {
               cuja celebração antecipamos, nos aumente a piedade e o desejo da
               salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Se nesta Missa a Oração Precedente é recitada em honra de outro
@@ -57,7 +58,7 @@ export default function Page1Vigiliaapostolos() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut beátus Apóstolus, cujus prævenímus
               festivitátem, tuum pro nobis implóret auxílium; ut, a nostris
@@ -71,13 +72,13 @@ export default function Page1Vigiliaapostolos() {
               de nossas culpas, sejamos também livres de todos os perigos. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ecl. 44, 25-27; 45, 2-4 & 6-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -105,13 +106,13 @@ export default function Page1Vigiliaapostolos() {
               com ele uma aliança eterna; cingiu-o com a túnica da justiça; e
               ornou-o com a coroa da glória.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 91, 13 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in
               domo Dómini.<Text className="versicle"> ℣. </Text>
@@ -126,13 +127,13 @@ export default function Page1Vigiliaapostolos() {
               manhã a vossa misericórdia, Senhor, e durante a noite a vossa
               doutrina.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo, 15, 12-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -164,13 +165,13 @@ export default function Page1Vigiliaapostolos() {
               alcanceis fruto. Que este fruto, pois, permaneça, para que meu Pai
               vos conceda tudo quanto lhe pedirdes em meu nome».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 8, 6-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Glória et honore coronásti eum: et constituísti eum super ópera
               mánuum tuárum, Dómine.
@@ -179,11 +180,11 @@ export default function Page1Vigiliaapostolos() {
               Vós o coroastes, Senhor, com glória e com honras e lhe concedestes
               o domínio sobre as obras das vossas mãos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Apostólici reveréntia cúlminis offeréntes tibi sacra mystéria,
               Dómine, quǽsumus: ut beáti <Text className="latin">N.</Text>{" "}
@@ -198,13 +199,13 @@ export default function Page1Vigiliaapostolos() {
               antecipamos, o vosso povo possa sempre apresentar-Vos seus votos e
               alcançar a realização de seus desejos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 20, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Magna est glória ejus in salutári tuo: glóriam et magnum decórem
               impónes super eum, Dómine.
@@ -213,11 +214,11 @@ export default function Page1Vigiliaapostolos() {
               Grande é, Senhor, a sua glória, graças à vossa protecção. Vós o
               rodeastes de glória e de magnificência.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sancti Apóstoli tui <Text className="latin">N.</Text>, quǽsumus.
               Dómine, supplicatióne placátus: et veniam nobis tríbue, et remédia
@@ -229,7 +230,7 @@ export default function Page1Vigiliaapostolos() {
               concedei-nos ainda o perdão das nossas faltas e o remédio
               sempiterno dos nossos males. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

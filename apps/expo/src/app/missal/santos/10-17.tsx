@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1017() {
@@ -17,7 +18,7 @@ export default function Page1017() {
 
           <Text className="em">Ct. 2, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sub umbra illíus, quem desideráveram, sedi: et fructus ejus dulcis
               gútturi meo. <Text className="latin">Ps. 83, 2-3</Text> Quam
@@ -32,11 +33,11 @@ export default function Page1017() {
               Minha alma suspira ardentemente pelos átrios do Senhor.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine Jesu Christe, qui investigábiles divítias Cordis tui beátæ
               Margarítæ Maríæ Vírgini mirabíliter revelásti: da nobis ejus
@@ -51,7 +52,7 @@ export default function Page1017() {
               que, amando-Vos em tudo e acima de tudo, possamos ter uma mansão
               no vosso Coração. Ó Vós, que viveis e reinais...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -64,7 +65,7 @@ export default function Page1017() {
 
           <Text className="em">Ct. 8, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Aquæ multæ non potuérunt exstínguere caritátem, nec flúmina
               óbruent illam.<Text className="versicle"> ℣. </Text>
@@ -88,7 +89,7 @@ export default function Page1017() {
               <Text className="vernacular">Ct. 7, 10</Text> Eu sou para o meu
               muito amado! E Ele volveu-se para mim. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -101,7 +102,7 @@ export default function Page1017() {
 
           <Text className="em">Zc. 9, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quid bonum ejus est et quid pulchrum ejus, nisi fruméntum
               electórum et vinum gérminans vírgines?
@@ -110,11 +111,11 @@ export default function Page1017() {
               Que possui o Senhor de bom e de belo, melhor do que o trigo dos
               eleitos e o vinho que gera as virgens?
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accéopta tibi sint, Dómine, plebis tuæ múnera: et concéde; ut
               ignis ille divínus nos inflámmet, quo de Corde Fílii tui emisso
@@ -126,13 +127,13 @@ export default function Page1017() {
               vosso Filho, consumiu em seu ardor a B. Margarida Maria. Pelo
               mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Ct. 6, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ego dilecto meo, et diléctus meus mihi, qui páscitur inter lília.
             </Text>
@@ -140,11 +141,11 @@ export default function Page1017() {
               Eu sou do meu muito amado e o meu muito amado é meu, pois Ele
               apascenta-se entre os lírios.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Córporis et Sánguinis tui, Dómine Jesu, sumptis mystériis: concéde
               nobis, quǽsumus, beáta Margaríta María Vírgine intercedénte; ut,
@@ -158,7 +159,7 @@ export default function Page1017() {
               mereçamos ser revestidos com a mansidão e com a humildade do vosso
               Coração. Ó Vós, que viveis e reinais...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

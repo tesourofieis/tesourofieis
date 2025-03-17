@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0114Outro() {
   return (
@@ -33,7 +34,7 @@ export default function Page0114Outro() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, quaténus, quorum sollémnia ágimus, étiam actus
               imitémur. Per Dóminum...
@@ -44,11 +45,11 @@ export default function Page0114Outro() {
               também as acções daquele cuja solenidade celebramos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, beáti Félicis Mártyris tui dicátas méritis,
               benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.
@@ -59,11 +60,11 @@ export default function Page0114Outro() {
               honra dos méritos do B. Félix, vosso Mártir, e permiti que nos
               alcancem o vosso perpétuo auxílio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, Dómine, salutáribus repléti mystériis: ut, beáti Félicis
               Mártyris tui, cujus sollémnia celebrámus, oratiónibus adjuvémur.
@@ -75,7 +76,7 @@ export default function Page0114Outro() {
               vosso B. Mártir Félix, cuja solenidade celebrámos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

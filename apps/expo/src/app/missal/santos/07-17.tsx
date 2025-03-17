@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0717() {
   return (
@@ -37,7 +38,7 @@ export default function Page0717() {
 
           <Text className="em">1 Tm. 6, 6-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
             </Text>
@@ -71,13 +72,13 @@ export default function Page0717() {
               paciência e a mansidão. Pugna com valor no bom combate da fé e
               alcança a vida eterna.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 19, 27-29</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -107,7 +108,7 @@ export default function Page0717() {
               mãe, ou a sua mulher por causa do meu nome receberá o cêntuplo e
               possuirá a vida eterna».
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

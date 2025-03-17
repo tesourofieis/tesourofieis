@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad22() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad22() {
 
           <Text className="em">Sl. 26, 8 & 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tibi dixit cor meum, quæsívi vultum tuum, vultum tuum, Dómine,
               requíram: ne avértas fáciem tuam a me.{" "}
@@ -31,11 +32,11 @@ export default function PageQuad22() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pérfice, quǽsumus, Dómine, benignus in nobis observántiæ sanctæ
               subsídium: ut, quæ te auctóre faciénda cognóvimus, te operánte
@@ -47,13 +48,13 @@ export default function PageQuad22() {
               auxílio pratiquemos esta boa obra que nos ensinastes com vosso
               exemplo. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">3 Rs. 17, 8-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Regum.</Text>
             <Text className="vernacular">Lição do Livro dos Reis.</Text>
             <Text className="latin">
@@ -103,13 +104,13 @@ export default function PageQuad22() {
               na talha, nem o azeite na almotolia, segundo a palavra que o
               Senhor proferira pela boca de Elias.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 54, 23, 17, 18 & 19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jacta cogitátum tuum in Dómino, et ipse te enútriet.
               <Text className="versicle"> ℣. </Text>Dum clamárem ad Dóminum,
@@ -121,13 +122,13 @@ export default function PageQuad22() {
               Senhor, ouviu Ele a minha voz e salvou-me daqueles que me
               cercavam.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 23, 1-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -172,13 +173,13 @@ export default function PageQuad22() {
               vosso servo. ’Quem se exaltar a si mesmo será humilhado; e quem se
               humilhar será exaltado».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 50, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Miserére mei, Dómine, secúndum magnam misericórdiam tuam: dele,
               Dómine, iniquitátem meam.
@@ -187,11 +188,11 @@ export default function PageQuad22() {
               Tende piedade de mim, Senhor, segundo a grandeza da vossa
               misericórdia; dignai-Vos, Senhor, esquecer a minha iniquidade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctificatiónem tuam nobis, Dómine, his mystériis operáre
               placátus: quæ nos et a terrénis purget vítiis, et ad cœléstia dona
@@ -202,13 +203,13 @@ export default function PageQuad22() {
               mystérios, a fim de que, estando purificados dos nossos vícios,
               alcancemos as recompensas celestiais. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 9, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Narrábo ómnia mirabília tua: lætábor, et exsultábo in te: psallam
               nómini tuo, Altíssime.
@@ -218,11 +219,11 @@ export default function PageQuad22() {
               regozijarei: e cantarei hinos em louvor do vosso nome, ó
               Altíssimo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ut sacris, Dómine, reddámur digni munéribus: fac nos tuis,
               quǽsumus, semper obœdíre mandátis. Per Dóminum nostrum...
@@ -232,11 +233,11 @@ export default function PageQuad22() {
               Senhor, Vos suplicamos, que obedeçamos sempre aos vossos
               mandamentos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -257,7 +258,7 @@ export default function PageQuad22() {
               nossas almas, a fim de que, havendo alcançado o perdão, nos
               alegremos sempre com vossa bênção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

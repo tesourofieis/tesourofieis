@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageQuad33() {
@@ -15,7 +16,7 @@ export default function PageQuad33() {
 
           <Text className="em">Sl. 30, 7-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ego autem in Dómino sperábo: exsultábo et lætábor in tua
               misericórdia: quia respexísti humilitátem meam.{" "}
@@ -32,11 +33,11 @@ export default function PageQuad33() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta nobis, quǽsumus, Dómine: ut salutáribus jejúniis erudíti, a
               nóxiis quoque vítiis abstinéntes, propitiatiónem tuam facílius
@@ -48,13 +49,13 @@ export default function PageQuad33() {
               são tão nocivos, e obtenhamos mais facilmente a vossa propiciação.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ex. 20, 12-24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Exodi.</Text>
             <Text className="vernacular">Lição do Livro do Êxodo.</Text>
             <Text className="latin">
@@ -98,13 +99,13 @@ export default function PageQuad33() {
               oferecereis holocaustos e sacrifícios pacíficos (as vossas ovelhas
               e bois) em todos os lugares onde houver memória do meu nome».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 6, 3-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Miserére mei, Dómine, quóniam infírmus sum: sana me, Dómine,
               <Text className="versicle"> ℣. </Text>
@@ -115,7 +116,7 @@ export default function PageQuad33() {
               Senhor.<Text className="versicle"> ℣. </Text>Meus Ossos estão
               cheios de fraqueza e a minha alma repleta de temor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
@@ -128,7 +129,7 @@ export default function PageQuad33() {
 
           <Text className="em">Mt. 15, 1-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -198,13 +199,13 @@ export default function PageQuad33() {
               Estas coisas é que mancham o homem. Porém, comer, sem lavar as
               mãos, não mancha o homem».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 108, 21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, fac mecum misericórdiam tuam, propter nomen tuum: quia
               suávis est misericórdia tua.
@@ -213,11 +214,11 @@ export default function PageQuad33() {
               Senhor, para honra do vosso nome, tende misericórdia de mim, pois
               a vossa misericórdia é benigna.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Suscipe, quǽsumus, Dómine, preces pópuli tui cum oblatiónibus
               hostiárum: et tua mystéria celebrántes, ab ómnibus nos defénde
@@ -229,13 +230,13 @@ export default function PageQuad33() {
               dos mystérios, que celebramos, defendei-nos de todos os perigos.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 15, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Notas mihi fecísti vias vitæ: adimplébis me lætítia cum vultu tuo,
               Dómine.
@@ -244,11 +245,11 @@ export default function PageQuad33() {
               Fizestes-me conhecer os caminhos da vida, Senhor: encher-me-eis de
               alegria com vossa presença.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctíficet nos, Dómine, qua pasti sumus, mensa cœléstis: et a
               cunctis erróribus expiátos, supérnis promissiónibus reddat
@@ -260,11 +261,11 @@ export default function PageQuad33() {
               espécie de erro, nos torne dignos das promessas eternas. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -286,7 +287,7 @@ export default function PageQuad33() {
               todos os males e Vos sirvam com a alma tranquila. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

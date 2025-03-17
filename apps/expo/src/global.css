@@ -60,32 +60,15 @@
     @apply p-2;
   }
 
-  .text-base {
-    @apply font-serif text-justify py-2 px-3 text;
-  }
-
   .side-by-side {
-    @apply grid grid-cols-2 flex flex-row flex-wrap justify-around text-justify font-body;
+    @apply font-body;
     min-width: 100%;
-  }
-
-  .latin {
-    @apply text-base;
-    width: 40%;
-    min-width: 0; /* Critical for text truncation prevention */
-  }
-
-  .vernacular {
-    @apply text-base;
-    width: 50%;
-    min-width: 0; /* Critical for text truncation prevention */
   }
 
   .text-base,
   .latin,
   .vernacular {
-    @apply text-justify py-2 text;
-    letter-spacing: 0; /* Reset any default letter spacing */
+    @apply py-2 text font-serif px-3;
     text-rendering: optimizeLegibility;
   }
 

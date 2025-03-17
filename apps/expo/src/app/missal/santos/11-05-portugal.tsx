@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1105Portugal() {
@@ -15,7 +16,7 @@ export default function Page1105Portugal() {
 
           <Text className="em">Sl. 33, 20-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Multæ tribulatiónes justórum, et de his ómnibus liberávit eos
               Dóminus: Dóminus custódit ómnia ossa eórum, unum ex his non
@@ -32,11 +33,11 @@ export default function Page1105Portugal() {
               na minha boca.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Auge in nobis, Dómine, ressurrectiónis fidem, qui in Sanctórum
               tuórum mirabília operáris: et fac nos immortális glóriæ
@@ -49,13 +50,13 @@ export default function Page1105Portugal() {
               concedei-nos que participemos da glória imortal, de que são penhor
               estas cinzas, que veneramos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ecl. 44, 10-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -77,13 +78,13 @@ export default function Page1105Portugal() {
               em geração. Que os povos, pois, publiquem a sua sabedoria e que a
               Igreja cante os seus louvores!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 149, 5 & 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exultábunt Sancti in glória: lætabúntur in cubílibus suis.
               <Text className="versicle"> ℣. </Text>
@@ -106,7 +107,7 @@ export default function Page1105Portugal() {
               exultem de alegria na presença de Deus! Que se deliciem na
               alegria. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -119,7 +120,7 @@ export default function Page1105Portugal() {
 
           <Text className="em">Sl. 67, 36</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mirábilis Deus in Sanctis suis: Deus Israël ipse dabit virtútem et
               fortitúdinem plebi suæ: benedíctus Deus, allelúja.
@@ -128,11 +129,11 @@ export default function Page1105Portugal() {
               Deus é admirável em seus Santos: Deus de Israel dará ao seu povo a
               força e a coragem: Bendito seja Deus. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Implorámus, Dómine, cleméntiam tuam: ut Sanctórum tuórum, quorum
               relíquias venerámur, suffragántibus méritis, hóstia, quam
@@ -144,13 +145,13 @@ export default function Page1105Portugal() {
               oferecemos, sirva de expiação dos nossos delitos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 32, 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gaudéte justi in Dómino: rectos decet collaudátio.
             </Text>
@@ -158,11 +159,11 @@ export default function Page1105Portugal() {
               Alegrai-Vos no Senhor, ó justos: aos que são rectos é que pertence
               cantar os vossos louvores.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Multíplica super nos, quæsumus, Dómine, per hæc sancta, quæ
               súmpsimus, misericórdiam tuam: ut sicut in tuórum solemnitáte
@@ -176,7 +177,7 @@ export default function Page1105Portugal() {
               cujas Relíquias veneramos, assim também pela vossa magnanimidade
               gozemos a sua perpétua companhia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

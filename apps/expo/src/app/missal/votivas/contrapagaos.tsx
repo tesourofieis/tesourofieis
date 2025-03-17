@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageContrapagaos() {
@@ -15,7 +16,7 @@ export default function PageContrapagaos() {
 
           <Text className="em">Sl. 43, 23-24 & 25-26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsúrge, quare obdórmis, Dómine? exsúrge, et ne repéllas in finem:
               quare fáciem tuam avértis, oblivísceris tribulatiónem nostram?
@@ -36,11 +37,11 @@ export default function PageContrapagaos() {
               nossos ouvidos o ouvimos; os nossos pais contaram-nos tudo.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, in cujus manu sunt ómnium potestátes
               et ómnium jura regnórum: réspice in auxílium Christianórum; ut
@@ -54,13 +55,13 @@ export default function PageContrapagaos() {
               altivez, sejam humilhados sob o peso da vossa dextra. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Est. 13, 8-11 & 15-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Esther.</Text>
             <Text className="vernacular">Lição do Livro de Ester.</Text>
             <Text className="latin">
@@ -92,13 +93,13 @@ export default function PageContrapagaos() {
               vosso nome, e não feches a boca, Senhor, nosso Deus, àqueles que
               Vos louvam».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 82, 19 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sciant gentes, quóniam nomen tibi Deus: tu solus Altíssimus super
               omnem terram.<Text className="versicle"> ℣. </Text>Deus meus, pone
@@ -121,7 +122,7 @@ export default function PageContrapagaos() {
               <Text className="vernacular">Sl. 79, 3</Text> Despertai o vosso
               poder, Senhor, e vinde, para que sejamos salvos. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Depois da Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
@@ -131,7 +132,7 @@ export default function PageContrapagaos() {
 
           <Text className="em">Sl. 78, 9-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adjuva nos, Deus, salutáris noster: et propter honórem nóminis
               tui, Dómine, líbera nos: et propítius esto peccátis nostris,
@@ -150,13 +151,13 @@ export default function PageContrapagaos() {
               <Text className="versicle"> ℣. </Text>Vingai o sangue que os
               vossos servos derramaram: cheguem até Vós os gemidos dos cativos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 79, 3</Text> Excita, Dómine, poténtiam
@@ -176,7 +177,7 @@ export default function PageContrapagaos() {
               vinha: defendei esta vinha que a vossa mão dextra plantou.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -189,7 +190,7 @@ export default function PageContrapagaos() {
 
           <Text className="em">Sl. 17, 28 & 32</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pópulum húmilem salvum fácies: et óculos superbórum humiliábis:
               quóniam quis Deus præter te, Dómine? (T. P. Allelúja.)
@@ -198,11 +199,11 @@ export default function PageContrapagaos() {
               Salvais o povo humilde e humilhais o povo soberbo: pois quem é
               Deus, senão Vós, Senhor? (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifícium, Dómine, quod immolámus, inténde: ut propugnatóres
               tuos ab omni éruas paganórum nequítia, et in tuæ protectiónis
@@ -214,13 +215,13 @@ export default function PageContrapagaos() {
               e os conserveis em segurança com vossa protecção. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 118, 81, 84 & 86</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In salutári tuo ánima mea, et in verbum tuum sperávi: quando
               fácies de persequéntibus me judícium? Iníqui persecúti sunt me,
@@ -231,11 +232,11 @@ export default function PageContrapagaos() {
               justiça contra os que me perseguem? Os maus perseguem-me,
               auxiliai-me, Senhor, meu Deus. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Protéctor noster, áspice, Deus: et propugnatóres tuos a paganórum
               defénde perículis; ut, omni perturbatióne submóta, líberis tibi
@@ -247,7 +248,7 @@ export default function PageContrapagaos() {
               modo que, afastados todos os perigos, Vos possam servir com
               liberdade de espírito. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

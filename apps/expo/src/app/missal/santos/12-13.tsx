@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1213() {
@@ -47,7 +48,7 @@ export default function Page1213() {
 
           <Text className="em">Sl. 44, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dilexísti justítiam, et odísti iniquitátem.
               <Text className="versicle"> ℣. </Text>Proptérea unxit te Deus,
@@ -70,7 +71,7 @@ export default function Page1213() {
               nos vossos lábios; por isso Deus vos abençoou por todos os
               séculos. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -83,7 +84,7 @@ export default function Page1213() {
 
           <Text className="em">Sl. 44, 15-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Afferéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in
               lætítia et exsultatióne: adducéntur in templum Regi Dómino.
@@ -93,13 +94,13 @@ export default function Page1213() {
               serão introduzidas no meio da alegria e júbilo: serão conduzidas
               ao Senhor no templo do Rei.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 118, 161-162</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Príncipes persecúti sunt me gratis, et a verbis tuis formidávit
               cor meum: lætábor ego super elóquia tua, quasi qui invénit spólia
@@ -110,7 +111,7 @@ export default function Page1213() {
               temeu senão as vossas palavras. Regozijar-me-ei com vossas
               palavras, como se um homem houvera achado ricos despojos.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

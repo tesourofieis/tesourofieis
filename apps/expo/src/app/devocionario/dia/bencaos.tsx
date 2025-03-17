@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageBencaos() {
   return (
@@ -10,7 +11,7 @@ export default function PageBencaos() {
         <View className="docs">
           <Text className="h1">Bênçãos</Text>
           <Text className="h3">Ao Levantar</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Benedicamus Domino.
             </Text>
@@ -41,9 +42,9 @@ export default function PageBencaos() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text>Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Antes da Refeição</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> In nómine Patris, et Fílii, et
               Spíritus Sancti.
@@ -74,9 +75,9 @@ export default function PageBencaos() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text>Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Depois da Refeição</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In nómine Patris, et Fílii, et Spíritus Sancti.
             </Text>
@@ -105,9 +106,9 @@ export default function PageBencaos() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text>Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Viagem</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beata Maria intercedénte, bene ambulémus: et Dóminus sit in
               itínere nostro, et Ángeli ejus comiténtur nobíscum.
@@ -131,7 +132,7 @@ export default function PageBencaos() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text>Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antes do Trabalho</Text>
           <Text className="text-base">
@@ -147,7 +148,7 @@ export default function PageBencaos() {
           </Text>
 
           <Text className="h3">Aos Filhos</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pax et benedíctio Dei omnipoténtis, Patris, et Fílii, et Spíritus
               Sancti, descéndat super te, et máneat semper.
@@ -162,10 +163,10 @@ export default function PageBencaos() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text>Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">A Adultos</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedíctio Dei omnipoténtis, Patris, et Fílii, et Spíritus Sancti,
               descéndat super te, et máneat semper.
@@ -180,7 +181,7 @@ export default function PageBencaos() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text>Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

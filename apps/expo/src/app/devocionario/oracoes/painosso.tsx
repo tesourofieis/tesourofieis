@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePainosso() {
   return (
@@ -10,7 +11,7 @@ export default function PagePainosso() {
         <View className="docs">
           <Text className="h1">Pai Nosso</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Pater noster, qui es in
               cælis: sanctificétur nomen tuum: advéniat regnum tuum: fiat
@@ -39,7 +40,7 @@ export default function PagePainosso() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

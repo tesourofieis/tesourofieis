@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0903() {
   return (
@@ -14,7 +15,7 @@ export default function Page0903() {
 
           <Text className="em">Sl. 88, 20-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Extuli eléctum de pópulo, óleo sancto meo unxi eum: ut manus mea
               sit semper cum eo, et brácchium meum confirm et eum.{" "}
@@ -30,11 +31,11 @@ export default function Page0903() {
               proclamarei com a minha boca a sua fidelidade.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui, ad tuéndam cathólicam fidem et univérsa in Christo
               instauránda, sanctum Pium Summum Pontéficem cælesti sapiéntia et
@@ -49,13 +50,13 @@ export default function Page0903() {
               seguindo com devoção as suas instruções e exemplos, alcancemos os
               prémios eternos. Pelo mesmo...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Ts. 2, 2-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.
             </Text>
@@ -92,13 +93,13 @@ export default function Page0903() {
               de Deus, mas a nossa própria vida, tanto vos tornastes queridos de
               nós!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 39, 10-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Annuntiávi justítiam in cœtu magno; ecce lábia mea non cohíbui:
               Dómine, tu nosti.<Text className="versicle"> ℣. </Text>Justítiam
@@ -122,7 +123,7 @@ export default function Page0903() {
               mim a mesa; com óleo ungistes a minha cabeça; o meu cálice está a
               transbordar. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Nas Missas Votivas após a Septuagésima, omitem-se o Aleluia e o
@@ -131,7 +132,7 @@ export default function Page0903() {
 
           <Text className="h3">Trato</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacerdótes ejus induam salúte, et sancti eius exsultántes
               exsultábunt.<Text className="versicle"> ℣. </Text>Illic David
@@ -146,13 +147,13 @@ export default function Page0903() {
               meu ungido.<Text className="versicle"> ℣. </Text>Cobrirei de
               vergonha os seus inimigos; porém sobre ele fulgirá o meu diadema.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 22, 5-6</Text> Paras mihi mensam,
@@ -169,13 +170,13 @@ export default function Page0903() {
               <Text className="em">Sl. 25, 8</Text> Amo, Senhor, a morada da
               vossa casa e o lugar do tabernáculo da vossa Majestade. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 21, 15-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -206,24 +207,24 @@ export default function Page0903() {
               sabeis que Vos amo!» Então, disse Jesus: «Apascenta as minhas
               ovelhas».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 33, 12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veníte, filii, audíte me; timórem Dómini docébo vos.
             </Text>
             <Text className="vernacular">
               Vinde, filhos, ouvi-me; ensinar-vos-ei o temor do Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblatiónibus nostris, quǽsumus, Dómine, benígne suscéptis, da
               nobis, ut hæc divína mystéria, sancto Pio Summo Pontífice
@@ -236,13 +237,13 @@ export default function Page0903() {
               Pontífice, que tratemos estes divinos mystérios com sincera
               humildade e os recebamos com recta intenção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 6, 56-57</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Caro mea vere est cibus, et sanguis meus vere est potus. Qui
               mandúcat meam carnem et bibit meum sánguinem, in me manet et ego
@@ -253,11 +254,11 @@ export default function Page0903() {
               bebida. Aquele que come a minha Carne e bebe o meu Sangue
               permanece em Mim e Eu permaneço nele.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mensæ cœléstis virtúte refécti, quǽsumus, Dómine Deus noster: ut,
               interveniénte sancto Pio Summo Pontífice; fortes efficiámur in
@@ -269,7 +270,7 @@ export default function Page0903() {
               tornemos fortes na fé e sejamos unânimes na prática da vossa
               caridade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

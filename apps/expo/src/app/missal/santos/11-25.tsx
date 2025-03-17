@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1125() {
   return (
@@ -24,7 +25,7 @@ export default function Page1125() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui dedísti legem Móysi in summitáte montis Sínai, et in
               eódem loco per sanctos Angelos tuos corpus beátæ Catharínæ
@@ -39,7 +40,7 @@ export default function Page1125() {
               rogamos, que pelos seus méritos e intercessão possamos chegar à
               montanha, que é Cristo: O qual convosco vive e reina...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

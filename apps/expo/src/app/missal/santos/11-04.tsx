@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1104() {
   return (
@@ -27,7 +28,7 @@ export default function Page1104() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecclésiam tuam, Dómine, sancti Caróli Confessóris tui atque
               Pontíficis contínua protectióne custódi: ut, sicut illum
@@ -41,13 +42,13 @@ export default function Page1104() {
               sua intercessão nos obtenha perpétuo fervor no vosso amor. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Comemoração dos Santos Mártires</Text>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui sanctórum Mártyrum
               tuórum Vitális et Agrícolæ sollémnia cólimus, eórum apud te
@@ -58,11 +59,11 @@ export default function Page1104() {
               dos vossos Santos Mártires Vital e Agrícola, sejamos auxiliados
               pela sua intercessão junto de Vós. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblatis, quǽsumus, Dómine, placáre munéribus: et, intercedéntibus
               sanctis Martýribus tuis Vitále et Agrícola, a cunctis nos defénde
@@ -73,11 +74,11 @@ export default function Page1104() {
               intercessão dos vossos Santos Mártires Vital e Agrícola
               preservai-nos de todos os perigos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc nos commúnio, Dómine, purget a crímine: et, intercedéntibus
               sanctis Martýribus tuis Vitále et Agrícola, cœléstis remédii
@@ -88,7 +89,7 @@ export default function Page1104() {
               por intercessão dos vossos Santos Mártires Vital e Agrícola nos
               faça participantes do remédio celestial. Por nosso S...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

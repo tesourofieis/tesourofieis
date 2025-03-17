@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0714() {
@@ -41,7 +42,7 @@ export default function Page0714() {
 
           <Text className="em">Sl. 36, 30-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.
               <Text className="versicle"> ℣. </Text>Lex Dei ejus in corde
@@ -64,13 +65,13 @@ export default function Page0714() {
               não se arrependerá: tu és sacerdote para sempre segundo a ordem de
               Melquisedeque. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 88, 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus.
@@ -79,7 +80,7 @@ export default function Page0714() {
               A minha fidelidade e a minha misericórdia estarão com ele: e o seu
               poder exaltar-se-á pelo meu nome.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta e Postcomúnio</Text>
 

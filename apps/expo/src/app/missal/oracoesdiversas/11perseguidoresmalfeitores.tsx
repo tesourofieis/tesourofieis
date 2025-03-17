@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page11Perseguidoresmalfeitores() {
   return (
@@ -14,7 +15,7 @@ export default function Page11Perseguidoresmalfeitores() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstium nostrórum, quǽsumus, Dómine, elíde supérbiam: et eórum
               contumáciam déxteræ tuæ virtúte prostérne. Per Dóminum nostrum...
@@ -24,11 +25,11 @@ export default function Page11Perseguidoresmalfeitores() {
               com o poder da vossa dextra, reprimi a sua arrogância. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hujus, Dómine, virtúte mystérii, et a própriis mundémur occúltis,
               et ab inimicórum liberémur insídiis. Per Dóminum...
@@ -38,11 +39,11 @@ export default function Page11Perseguidoresmalfeitores() {
               nossas manchas ocultas e livres das ciladas dos nossos inimigos.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Protéctor noster, áspice. Deus, et ab inimicórum nos defénde
               perículis: ut, omni perturbatióne submóta, líberis tibi méntibus
@@ -55,7 +56,7 @@ export default function Page11Perseguidoresmalfeitores() {
               perturbação, nos empreguemos no vosso serviço, livres de todos os
               cuidados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

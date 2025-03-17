@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageOrdenacaopadre() {
   return (
@@ -17,7 +18,7 @@ export default function PageOrdenacaopadre() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi, quǽsumus, Dómine, súpplicum preces, et de voto tibi
               péctore famulántes perpétua defensióne custódi: ut, nullis
@@ -30,11 +31,11 @@ export default function PageOrdenacaopadre() {
               todo o temor, exerçamos com toda a liberdade o nosso ministério.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tuis, quǽsumus, Dómine, operáre mystériis: ut hæc tibi múnera
               dignis méntibus offerámus. Per Dóminum...
@@ -43,11 +44,11 @@ export default function PageOrdenacaopadre() {
               Senhor, Vos suplicamos, fazei que estes mystérios tornem dignos de
               Vós estes dons, que Vos oferecemos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quos tuis, Dómine, réficis sacraméntis, contínuis attólle benígnus
               auxíliis: ut tuæ redemptiónis efféctum, et mystériis capiámus et
@@ -60,7 +61,7 @@ export default function PageOrdenacaopadre() {
               mystérios, como pela nossa própria conduta. Ó Vós, que, sendo
               Deus...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0204Portugal() {
   return (
@@ -22,7 +23,7 @@ export default function Page0204Portugal() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus qui ad fidem cathólicam apud Indos propagándam beátam Joánnem
               Mártyrem tuum invícta constántia roborásti: ipsíus méritis et
@@ -36,11 +37,11 @@ export default function Page0204Portugal() {
               celebrando nós a memória dos seus triunfos, imitemos também os
               exemplos da sua fé. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração Comemoração S. André Corsino</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui in Ecclésia tua nova semper instáuras exémpla virtútum:
               da pópulo tuo beáti Andréæ Confessóris tui atque Pontíficis ita
@@ -52,13 +53,13 @@ export default function Page0204Portugal() {
               os vestígios do B. André, vosso Confessor e Pontífice, que possa
               alcançar o mesmo prémio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Cor. 11, 19-33; 12, 1-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -109,13 +110,13 @@ export default function Page0204Portugal() {
               na nudez! E, além destes males, que são exteriores, preocupa-me
               também quotidianamente a solicitude de todas as cristandades.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 111, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
               <Text className="versicle"> ℣. </Text>
@@ -137,11 +138,11 @@ export default function Page0204Portugal() {
               <Text className="vernacular">Sl. 20, 4</Text> Senhor, impusestes
               na sua cabeça uma coroa de pedras preciosas. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, múnera, dignánter obláta; et beáti Mártyris tui
               Joánnis suffragántibus méritis concéde: ut passióni et morti
@@ -155,11 +156,11 @@ export default function Page0204Portugal() {
               mereçamos também comparticipar da sua ressurreição e glória. Ele,
               que sendo Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta Comemoração S. André Corsino</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sancti tui, quǽsumus, Dómine, nos úbique lætíficent: ut, dum eórum
               mérita recólimus, patrocínia sentiámus. Per Dóminum...
@@ -169,11 +170,11 @@ export default function Page0204Portugal() {
               a parte, a fim de que, honrando os seus méritos, sintamos o efeito
               do seu patrocínio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Redemptiónis humánæ pígnore sacro per hæc mystéria refécti te,
               Dómine, súpplices exorámus: ut, qui peccatórum nostrórum póndere
@@ -187,11 +188,11 @@ export default function Page0204Portugal() {
               livres do peso dos nossos pecados e alcancemos o perdão e a paz.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio Comemoração S. André Corsino</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus
               grátias exhibéntes, intercedénte beáto Andréa Confessóre tuo atque
@@ -203,7 +204,7 @@ export default function Page0204Portugal() {
               vosso Confessor e Pontífice, ainda outros maiores. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page8Congregacaofamilia() {
   return (
@@ -12,7 +13,7 @@ export default function Page8Congregacaofamilia() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Defénde, quǽsumus, Dómine, beáta María semper Vírgine
               intercedénte, istam ab omni adversitáte famíliam: et toto corde
@@ -26,11 +27,11 @@ export default function Page8Congregacaofamilia() {
               propício e, clementemente, protegei-a das insídias dos seus
               inimigos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, quǽsumus, omnípotens Deus, oblatiónem nostræ devotiónis:
               et, per virtútem hujus sacraménti, fámulos tuos a cunctis
@@ -41,11 +42,11 @@ export default function Page8Congregacaofamilia() {
               devoção; e pela virtude deste sacramento protegei os vossos servos
               de todas as adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumptis redemptiónis nostræ munéribus: præsta, quǽsumus,
               miséricors Deus; eórum nobis celebratióne, tuæ protectiónis contra
@@ -56,7 +57,7 @@ export default function Page8Congregacaofamilia() {
               recebido os dons da nossa redenção, sintamos o socorro da vossa
               protecção contra todas as adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

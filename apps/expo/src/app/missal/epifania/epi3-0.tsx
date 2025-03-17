@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageEpi30() {
   return (
@@ -14,7 +15,7 @@ export default function PageEpi30() {
 
           <Text className="em">Sl. 96, 7-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et
               exsultavérunt fíliæ Judae.{" "}
@@ -29,11 +30,11 @@ export default function PageEpi30() {
               alegre-se a terra e as suas muitas ilhas.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, infirmitatem nostram propítius
               réspice: atque, ad protegéndum nos, déxteram tuæ majestátis
@@ -44,13 +45,13 @@ export default function PageEpi30() {
               e que a vossa majestade nos estenda a sua dextra para nos proteger
               continuamente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Rm. 12, 16-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
@@ -80,13 +81,13 @@ export default function PageEpi30() {
               reunireis brasas de fogo sobre a sua cabeça. Não vos deixeis
               vencer pelo mal; mas triunfai do mal, praticando o bem.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 101, 16-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam
               tuam.<Text className="versicle"> ℣. </Text>Quóniam ædificávit
@@ -108,13 +109,13 @@ export default function PageEpi30() {
               <Text className="vernacular">Ps. 96, 1</Text> O Senhor reinou:
               alegre-se a terra e as suas muitas ilhas. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 8, 1-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -171,13 +172,13 @@ export default function PageEpi30() {
               que se faça segundo a tua crença». E naquela hora ficou curado o
               servo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 117, 16 & 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Déxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non
               móriar, sed vivam, et narrábo ópera Dómini.
@@ -187,11 +188,11 @@ export default function PageEpi30() {
               exaltou-me. Não morrerei: viverei e nanarei os prodígios do
               Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad
               sacrifícium celebrándum, subditórum tibi córpora mentésque
@@ -203,24 +204,24 @@ export default function PageEpi30() {
               para que dignamente celebremos este sacrifício. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 4, 22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mirabántur omnes de his, quæ procedébant de ore Dei.
             </Text>
             <Text className="vernacular">
               Todos estavam admirados das palavras que saíam da boca de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quos tantis, Dómine, largíris uti mystériis: quǽsumus; ut
               efféctibus nos eórum veráciter aptáre dignéris. Per Dóminum...
@@ -230,7 +231,7 @@ export default function PageEpi30() {
               augustos mystérios, tornai-nos dignos, Vos suplicamos, de
               recebermos com eficácia os seus efeitos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

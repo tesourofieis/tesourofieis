@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageSuscipedomine() {
   return (
@@ -10,7 +11,7 @@ export default function PageSuscipedomine() {
         <View className="docs">
           <Text className="h1">Súscipe Dómine</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, universam meam libertatem. Accipe memoriam,
               intellectum atque voluntatem omnem. Quidquid habeo vel possideo
@@ -25,7 +26,7 @@ export default function PageSuscipedomine() {
               de tudo, à vossa inteira vontade. Dai-me o vosso amor e graça, que
               esta me basta. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

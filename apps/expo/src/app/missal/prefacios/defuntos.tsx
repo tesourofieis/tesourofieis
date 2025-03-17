@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageDefuntos() {
   return (
@@ -12,7 +13,7 @@ export default function PageDefuntos() {
 
           <Text className="aside">Diz-se em todas as Missas de Réquiem.</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
@@ -38,7 +39,7 @@ export default function PageDefuntos() {
               Tronos e Dominações e com toda a milícia do exército celestial,
               cantamos o hino da vossa glória, dizendo sem cessar:
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent150() {
   return (
@@ -16,7 +17,7 @@ export default function PagePent150() {
 
           <Text className="em">Sl. 85, 1 & 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Inclína, Dómine, aurem tuam ad me, et exáudi me: salvum fac servum
               tuum, Deus meus, sperántem in te: miserére mihi, Dómine, quóniam
@@ -34,11 +35,11 @@ export default function PagePent150() {
               vosso servo, porque a Vós, Senhor, se elevou a minha alma.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecclésiam tuam, Dómine, miserátio continuáta mundet et múniat: et
               quia sine te non potest salva consístere; tuo semper múnere
@@ -49,13 +50,13 @@ export default function PagePent150() {
               Igreja; e, visto que ela não pode subsistir sem Vós, assisti-lhe
               sempre com vossa graça. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Gl. 5, 25-26; 6, 1-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.
             </Text>
@@ -103,13 +104,13 @@ export default function PagePent150() {
               acções uns para com os outros e principalmente para com os nossos
               irmãos na fé.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 91, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Bonum est confitéri Dómino: et psallere nómini tuo, Altíssime.
               <Text className="versicle"> ℣. </Text>
@@ -131,13 +132,13 @@ export default function PagePent150() {
               <Text className="vernacular">Sl. 94, 3</Text> Pois o Senhor é o
               excelso Deus e o excelso Rei, superior a todo o universo. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 7, 11-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -173,13 +174,13 @@ export default function PagePent150() {
               a multidão ficou aterrada; e glorificavam Deus, dizendo: «Apareceu
               entre nós um grande Profeta: Deus visitou o seu povo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 39,2,3 & 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exspéctans exspectávi Dóminum, et respéxit me: et exaudívit
               deprecatiónem meam: et immísit in os meum cánticum novum, hymnum
@@ -190,11 +191,11 @@ export default function PagePent150() {
               minha deprecação e pôs nos meus lábios um cântico novo: um hino de
               louvor ao nosso Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tua nos, Dómine, sacramenta custodiant: et contra diabólicos
               semper tueántur incúrsus. Per Dóminum...
@@ -203,24 +204,24 @@ export default function PagePent150() {
               Que os vossos sacramentos nos guardem, Senhor; e que nos defendam
               sempre dos ataques do demónio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 6, 52</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Panis, quem ego dédero, caro mea est pro sǽculi vita.
             </Text>
             <Text className="vernacular">
               O pão que Vos darei para a vida do mundo é a minha Carne.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mentes nostras et córpora possídeat, quǽsumus, Dómine, doni
               cœléstis operátio: ut non noster sensus in nobis, sed júgiter ejus
@@ -232,7 +233,7 @@ export default function PagePent150() {
               sorte que seja sempre o efeito deste sacramento que nos domine, e
               não os nossos próprios sentidos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

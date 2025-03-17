@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import { TabItem, Tabs } from "~/components/Tabs";
 import MementoRerumConditor from "./../../canticos/sacros/mementorerumconditor";
 import Salmo53 from "./../salterio/053";
@@ -22,7 +23,7 @@ export default function PagePrima() {
             a ressurreição e na visita das santas mulheres ao sepulcro.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Deus{" "}
               <Text className="cross"> ✠ </Text> in adjutórium meum inténde.
@@ -56,13 +57,13 @@ export default function PagePrima() {
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Memento rerum conditor</Text>
 
           <MementoRerumConditor />
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Ant.</Text> Assumpta est Maria in cælum:
               gaudete angeli, laudantes benedicunt Dominum.
@@ -71,7 +72,7 @@ export default function PagePrima() {
               <Text className="vernacular">Ant.</Text> Maria foi exaltada ao
               céu; os anjos se alegram, louvam, e glorificam o Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Salmo 53</Text>
 
@@ -87,7 +88,7 @@ export default function PagePrima() {
 
           <Tabs>
             <TabItem label="Depois da Purificação">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Assumpta est Maria in
                   cælum: gaudete angeli, laudantes benedicunt Dominum.
@@ -96,13 +97,13 @@ export default function PagePrima() {
                   <Text className="vernacular">Ant.</Text> Maria foi exaltada ao
                   céu; os anjos se alegram, louvam, e glorificam o Senhor.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Ct. 6, 9</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Quæ est ista, quæ progréditur quasi auróra consúrgens, pulchra
                   ut luna, elécta ut sol, terribilis ut castrorum acies
@@ -135,9 +136,9 @@ export default function PagePrima() {
                   <Text className="response"> ℟. </Text> Dai-me esforço contra
                   vossos inimigos.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Hic genuflectitur</Text> Kyrie eleison
                 </Text>
@@ -169,9 +170,9 @@ export default function PagePrima() {
                   <Text className="response"> ℟. </Text> E o meu clamor chegue
                   até Vós.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Orémus.</Text>
                 </Text>
@@ -197,11 +198,11 @@ export default function PagePrima() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
 
             <TabItem label="No Advento">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Missus est Gabriel Angelus
                   ad Maríam, Vírginem, desponsatam Joseph.
@@ -210,13 +211,13 @@ export default function PagePrima() {
                   <Text className="vernacular">Ant.</Text> O Anjo Gabriel foi
                   enviado a Maria Virgem, desposada com José.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Is. 7, 14-15</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Ecce Virgo concipiet, et pariet filium, et vocabitur nomen
                   ejus Emmanuel. Butyrum et mel comedet, ut sciat reprobare
@@ -250,9 +251,9 @@ export default function PagePrima() {
                   <Text className="response"> ℟. </Text> Dai-me esforço contra
                   vossos inimigos.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Hic genuflectitur</Text> Kyrie eleison
                 </Text>
@@ -284,9 +285,9 @@ export default function PagePrima() {
                   <Text className="response"> ℟. </Text> E o meu clamor chegue
                   até Vós.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Orémus.</Text>
                 </Text>
@@ -314,11 +315,11 @@ export default function PagePrima() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
 
             <TabItem label="No Natal">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> O admirabile commercium:
                   Creator generis humani, animatum corpus sumens, de Virgine
@@ -331,13 +332,13 @@ export default function PagePrima() {
                   nascer de uma Virgem; e, feito homem sem progenitor,
                   tornou-nos participantes da sua divindade.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Ct. 6, 9</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Quæ est ista, quæ progréditur quasi auróra consúrgens, pulchra
                   ut luna, elécta ut sol, terribilis ut castrorum acies
@@ -370,9 +371,9 @@ export default function PagePrima() {
                   <Text className="response"> ℟. </Text> Dai-me esforço contra
                   vossos inimigos.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Hic genuflectitur</Text> Kyrie eleison
                 </Text>
@@ -404,9 +405,9 @@ export default function PagePrima() {
                   <Text className="response"> ℟. </Text> E o meu clamor chegue
                   até Vós.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Orémus.</Text>
                 </Text>
@@ -435,11 +436,11 @@ export default function PagePrima() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
           </Tabs>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Domine, exaudi orationem
               meam.
@@ -482,7 +483,7 @@ export default function PagePrima() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Acabar com uma{" "}

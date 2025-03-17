@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0122LisboaFaro() {
   return (
@@ -22,7 +23,7 @@ export default function Page0122LisboaFaro() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto, Dómine, supplicatiónibus nostris: ut, qui ex iniquitáte
               nostra reos nos esse cognóscimus, beáti Vincéntii Martyris tui
@@ -34,13 +35,13 @@ export default function Page0122LisboaFaro() {
               sejamos livres delas por intercessão do vosso B. Mártir Vicente.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 12, 24-26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -67,13 +68,13 @@ export default function Page0122LisboaFaro() {
               estará também o meu servo. Se alguém me servir, meu Pai o
               honrará».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 95, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Conféssio et pulchritúdo in conspéctu ejus: sánctitas, et
               magnificéntia in sanctificatióne ejus.
@@ -82,11 +83,11 @@ export default function Page0122LisboaFaro() {
               Rodeiam-no a glória e a majestade: e no seu santuário reluzem a
               santidade e a magnificência.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro
               tuórum tibi grata sint honóre Justórum, et nobis salutária, te
@@ -97,11 +98,11 @@ export default function Page0122LisboaFaro() {
               consideração dos vossos Santos eles Vos sejam agradáveis, e pela
               vossa misericórdia nos sejam salutares. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus,
               intercedéntibus beáto Vincéntio Martýre tuo, per hæc contra ómnia
@@ -113,7 +114,7 @@ export default function Page0122LisboaFaro() {
               todas as adversidades por intercessão do vosso B. Mártir Vicente.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

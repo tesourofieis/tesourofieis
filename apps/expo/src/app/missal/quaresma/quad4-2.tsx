@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad42() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad42() {
 
           <Text className="em">Sl. 54, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam:
               inténde in me et exáudi me.{" "}
@@ -32,11 +33,11 @@ export default function PageQuad42() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacræ nobis, quæsumus, Dómine, observatiónis jejúnia: et piæ
               conversationis augméntum, et tuæ propitiatiónis contínuum præstent
@@ -47,13 +48,13 @@ export default function PageQuad42() {
               nos alcance o progresso na vida piedosa e e contínuo auxílio da
               vossa misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ex. 32, 7-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Exodi.</Text>
             <Text className="vernacular">Lição do Livro do Êxodo.</Text>
             <Text className="latin">
@@ -98,13 +99,13 @@ export default function PageQuad42() {
               que a possuam para sempre». Então o Senhor aplacou-se, não
               castigando aquele povo, como o ameaçara.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 43, 26 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsúrge, Dómine, fer opem nobis: et líbera nos propter nomen tuum.
               <Text className="versicle"> ℣. </Text>Deus, áuribus nostris
@@ -117,13 +118,13 @@ export default function PageQuad42() {
               nossos ouvidos; os nossos pais anunciaram-nos quantas maravilhas
               praticastes nos seus dias e nos tempos antigos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 7, 14-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -191,13 +192,13 @@ export default function PageQuad42() {
               Ele, Porque ainda não chegara a sua hora. E muitos da multidão,
               ouvindo-O, acreditaram.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 39, 2, 3 & 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exspéctans exspectávi Dóminum, et respéxit me: et exaudívit
               deprecatiónem meam: et immísit in os meum cánticum novum, hymnum
@@ -208,11 +209,11 @@ export default function PageQuad42() {
               mim, ouviu a minha voz e pôs na minha boca um cântico novo: um
               hino de louvor ao nosso Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc hóstia, Dómine, quǽsumus, emúndet nostra delicta: et, ad
               sacrifícium celebrándum, subditórum tibi córpora mentésque
@@ -223,13 +224,13 @@ export default function PageQuad42() {
               pecados e santifiquem os corpos e as almas dos vossos servos, para
               celebrarem dignamente este sacrifício. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 19, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lætábimur in salutári tuo: et in nómine Dómini, Dei nostri,
               magnificábimur.
@@ -238,11 +239,11 @@ export default function PageQuad42() {
               Regozijar-nos-emos com vossa salvação; e seremos glorificados no
               nome do Senhor, nosso Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hujus nos, Dómine, percéptio sacraménti mundet a crímine: et ad
               cœléstia regna perdúcat. Per Dóminum...
@@ -251,11 +252,11 @@ export default function PageQuad42() {
               Senhor, que a comunhão deste sacramento nos limpe de todo o pecado
               e nos conduza ao reino celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -274,7 +275,7 @@ export default function PageQuad42() {
               Tende piedade, Senhor, do vosso povo e aliviai-o propiciamente das
               contínuas tribulações que o afligem. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

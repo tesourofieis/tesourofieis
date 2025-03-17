@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1119() {
   return (
@@ -22,7 +23,7 @@ export default function Page1119() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tuórum corda fidélium, Deus miserátor, illústra: et, beátæ
               Elisabeth précibus gloriósis; fac nos próspera mundi despícere, et
@@ -34,7 +35,7 @@ export default function Page1119() {
               desprezarmos as prosperidades deste mundo e de gozarmos
               perpetuamente a consolação celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

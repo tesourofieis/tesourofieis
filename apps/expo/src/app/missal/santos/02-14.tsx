@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0214() {
   return (
@@ -24,7 +25,7 @@ export default function Page0214() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui beáti Valentíni
               Mártyris tui natalítia cólimus, a cunctis malis imminéntibus, ejus
@@ -35,11 +36,11 @@ export default function Page0214() {
               o natal do B. Valentim, vosso Mártir, sejamos livres por sua
               intercessão de todos os males que nos ameaçam. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, quǽsumus, Dómine, múnera dignánter obláta: et, beáti
               Valentini Mártyris tui suffragántibus méritis, ad nostræ salútis
@@ -51,11 +52,11 @@ export default function Page0214() {
               Mártir, concedei-nos que nos sirvam de auxílio para a salvação.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sit nobis, Dómine, reparátio mentis et córporis cœléste mystérium:
               ut, cujus exséquimur actiónem, intercedénte beáto Valentíno
@@ -67,7 +68,7 @@ export default function Page0214() {
               Mártir, sintamos os efeitos do sacrifício que celebrámos. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

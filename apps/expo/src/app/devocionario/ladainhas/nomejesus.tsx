@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageNomejesus() {
   return (
@@ -10,7 +11,7 @@ export default function PageNomejesus() {
         <View className="docs">
           <Text className="h1">Ladainha Nome de Jesus</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Kyrie eleison.</Text>
             <Text className="vernacular">Senhor, tende piedade de nós.</Text>
             <Text className="latin">Christe eleison.</Text>
@@ -377,7 +378,7 @@ export default function PageNomejesus() {
               não deixais de governar aqueles que estabeleceis na firmeza do
               vosso amor. Vós que viveis e reinais para todo o sempre. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

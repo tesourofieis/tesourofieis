@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0820() {
   return (
@@ -26,7 +27,7 @@ export default function Page0820() {
 
           <Text className="em">Ecl. 39, 6-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">
               Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
@@ -60,7 +61,7 @@ export default function Page0820() {
               geração em geração. As nações publicarão a sua sabedoria e a
               Igreja anunciará os seus louvores.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageAdv20() {
   return (
@@ -14,7 +15,7 @@ export default function PageAdv20() {
 
           <Text className="em">Is. 30, 30</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pópulus Sion, ecce, Dóminus véniet ad salvándas gentes: et audítam
               fáciet Dóminus glóriam vocis suæ in lætítia cordis vestri.{" "}
@@ -28,11 +29,11 @@ export default function PageAdv20() {
               vós, que governais Israel; ó vós, que conduzis José, como um
               pastor conduz uma ovelha. Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Excita, Dómine, corda nostra ad præparándas Unigéniti tui vias:
               ut, per ejus advéntum, purificátis tibi méntibus servíre mereámur:
@@ -43,13 +44,13 @@ export default function PageAdv20() {
               do vosso Filho Unigénito, de modo que no seu advento mereçamos
               servi-l’O com as almas purificadas. Ele, que, sendo Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Rm. 15, 4—13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beati Pauli Apostoli ad Romános.
             </Text>
@@ -97,13 +98,13 @@ export default function PageAdv20() {
               fim de que a esperança abunde em vós, pela virtude do Espírito
               Santo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 49, 2-3 & 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ex Sion species decóris ejus: Deus maniféste véniet. Congregáta
               illi sanctos ejus, qui ordinavérunt testaméntum ejus super
@@ -124,13 +125,13 @@ export default function PageAdv20() {
               <Text className="vernacular">Sl. 121, 1</Text> Rejubilo com
               aqueles que me disseram: «Iremos à casa do Senhor». Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt, 11, 2–10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthæum.
@@ -172,13 +173,13 @@ export default function PageAdv20() {
               palavras: «Eis que envio o meu Anjo perante a vossa face, para
               preparar o caminho diante de Vós».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 84, 7–8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, tu convérsus vivificábis nos, et plebs tua lætábitur in te:
               osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da
@@ -189,11 +190,11 @@ export default function PageAdv20() {
               o vosso povo alegrar-se-á convosco. Mostrai-nos, Senhor, a vossa
               misericórdia, e dai-nos a vossa salvação.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Placáre, quǽsumus, Dómine, humilitátis nostræ précibus et hóstiis:
               et, ubi nulla suppétunt suffrágia meritórum, tuis nobis succúrre
@@ -205,13 +206,13 @@ export default function PageAdv20() {
               sufrágios são desprovidos de quaisquer méritos, assisti-nos ao
               menos com vosso auxílio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Br. 5, 5 & 4, 36</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jerúsalem, surge et sta in excélso, ei vide iucunditátem, quæ
               véniet tibi a Deo tuo.
@@ -220,11 +221,11 @@ export default function PageAdv20() {
               Surge, ó Jerusalém, e ergue-te no alto da montanha. Considera a
               alegria que te advirá do teu Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Repléti cibo spirituális alimóniæ, súpplices te, Dómine,
               deprecámur: ut, hujus participatióne mystérii, dóceas nos terréna
@@ -236,7 +237,7 @@ export default function PageAdv20() {
               desprezar os bens desta vida e a amar os do céu. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

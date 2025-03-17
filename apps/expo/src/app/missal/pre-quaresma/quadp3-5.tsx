@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageQuadp35() {
@@ -15,7 +16,7 @@ export default function PageQuadp35() {
 
           <Text className="em">Sl. 29, 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dóminus, et misértus est mihi: Dóminus factus est adjútor meus.{" "}
               <Text className="latin">Ps. ibid., 2</Text> Exaltábo te, Dómine,
@@ -29,11 +30,11 @@ export default function PageQuadp35() {
               inimigos mofassem de mim.<Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Inchoáta jejúnia, quǽsumus, Dómine, benígno favore proséquere: ut
               observántiam, quam corporáliter exhibémus, méntibus etiam sincéris
@@ -44,13 +45,13 @@ export default function PageQuadp35() {
               começados, a fim de que, exercendo corporalmente esta observância,
               possamos praticá-la com o coração sincero. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Is. 58, 1-0</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -108,13 +109,13 @@ export default function PageQuadp35() {
               responderá: «Eis-me aqui, pois sou misericordioso: Eu, o Senhor,
               vosso Deus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 26, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Unam pétii a Dómino, hanc requíram, ut inhábitem in domo Dómini.
               <Text className="versicle"> ℣. </Text>Ut vídeam voluptátem Dómini,
@@ -126,7 +127,7 @@ export default function PageQuadp35() {
               possa gozar os seus esplendores e ser protegido no seu santo
               templo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
@@ -139,7 +140,7 @@ export default function PageQuadp35() {
 
           <Text className="em">Mt. 5, 43-48 & 6, 1-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -189,13 +190,13 @@ export default function PageQuadp35() {
               faz a direita, a fim de que a vossa esmola seja oculta, e vosso
               Pai, que conhece todos os segredos, vos recompensará».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 118, 154 & 125</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, vivífica me secúndum elóquium tuum: ut sciam testimónia
               tua.
@@ -204,11 +205,11 @@ export default function PageQuadp35() {
               Vivificai-me, Senhor, segundo a vossa palavra, para que conheça os
               vossos preceitos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifícium, Dómine, observántiæ quadragesimális, quod offérimus,
               præsta, quǽsumus: ut tibi et mentes nostras reddat accéptas, et
@@ -220,13 +221,13 @@ export default function PageQuadp35() {
               nos alcance a graça de praticarmos mais facilmente a continência.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 2, 11-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Servi te Dómino in timóre, et exsultáte ei cum tremóre:
               apprehéndite disciplínam, ne pereátis de via justa.
@@ -235,11 +236,11 @@ export default function PageQuadp35() {
               Obedecei ao Senhor com temor e alegrai-vos n’Ele com tremor:
               abraçai a sua lei para que vos não afasteis dos caminhos direitos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Spíritum nobis, Dómine, tuæ cantátis infúnde: ut, quos uno pane
               cœlésti satiásti, tua fácias pietáte concórdes. Per Dóminum...
@@ -249,11 +250,11 @@ export default function PageQuadp35() {
               que aqueles que saciastes com o mesmo pão celestial permaneçam em
               concórdia pela vossa bondade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -274,7 +275,7 @@ export default function PageQuadp35() {
               possa prejudicar nem nenhuma iniquidade o possa dominar,
               purificai-o pela vossa clemência. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

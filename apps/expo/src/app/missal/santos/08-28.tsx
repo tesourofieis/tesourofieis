@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0828() {
   return (
@@ -22,7 +23,7 @@ export default function Page0828() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto supplicatiónibus nostris, omnípotens Deus: et, quibus
               fidúciam sperándæ pietátis indúlges, intercedénte beáto Augustíno
@@ -36,13 +37,13 @@ export default function Page0828() {
               de alcançarmos o efeito benigno da vossa habitual misericórdia.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 36, 30-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.
               <Text className="versicle"> ℣. </Text>Lex Dei ejus in corde
@@ -63,7 +64,7 @@ export default function Page0828() {
               <Text className="vernacular">Sl. 88, 21</Text> Encontrei o meu
               servo David e ungi-o com meu óleo sagrado. Aleluia.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

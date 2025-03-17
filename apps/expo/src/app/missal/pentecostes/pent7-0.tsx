@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent70() {
   return (
@@ -14,7 +15,7 @@ export default function PagePent70() {
 
           <Text className="em">Sl. 46, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnes gentes, pláudite mánibus: jubiláte Deo in voce
               exsultatiónis. <Text className="latin">Ps. ibid., 3</Text> Quóniam
@@ -29,11 +30,11 @@ export default function PagePent70() {
               Senhor é temível: Ele é o supremo Rei que domina toda a terra!
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, cujus providéntia in sui dispositióne non fállitur: te
               súpplices exorámus; ut nóxia cuncta submóveas, et ómnia nobis
@@ -45,13 +46,13 @@ export default function PagePent70() {
               prejudicial e concedei-nos tudo o que nos possa ser proveitoso.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Rm. 6, 19-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
@@ -83,13 +84,13 @@ export default function PagePent70() {
               pois o estipêndio do pecado é a morte, mas a graça de Deus produz
               a vida eterna, em nosso Senhor Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 33, 12 & 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veníte, fílii, audíte me: timórem Dómini docébo vos.
               <Text className="versicle"> ℣. </Text>Accédite ad eum, et
@@ -111,13 +112,13 @@ export default function PagePent70() {
               aplaudam, batendo palmas; que todos os povos com vozes de júbilo
               aclamem Deus. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 7, 15-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -153,13 +154,13 @@ export default function PagePent70() {
               que faz a vontade de meu Pai, que está nos céus, entrará no reino
               dos céus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Dn. 3,40</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sicut in holocáustis aríetum et taurórum, et sicut in mílibus
               agnórum pínguium: sic fiat sacrifícium nostrum in conspéctu tuo
@@ -172,11 +173,11 @@ export default function PagePent70() {
               cordeiros gordos; pois para aqueles que confiam em vós, Senhor,
               não existe a confusão.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui legálium differéntiam hostiárum unius sacrifícii
               perfectione sanxísti: accipe sacrifícium a devótis tibi fámulis,
@@ -192,24 +193,24 @@ export default function PagePent70() {
               feita por cada um, em honra da vossa majestade, sirva de proveito
               para a salvação de todos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 30, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Inclína aurem tuam, accélera, ut erípias me.
             </Text>
             <Text className="vernacular">
               Inclinai para mim os vossos ouvidos e apressai-Vos em livrar-me.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tua nos, Dómine, medicinális operátio, et a nostris
               perversitátibus cleménter expédiat, et ad ea, quæ sunt recta,
@@ -220,7 +221,7 @@ export default function PagePent70() {
               das nossas perversidades e nos conduza pelos caminhos da justiça.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

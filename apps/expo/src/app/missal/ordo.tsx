@@ -5,6 +5,7 @@ import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import React from "react";
 import { ActivityIndicator } from "react-native";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageOrdo() {
@@ -32,7 +33,7 @@ export default function PageOrdo() {
             fazendo o sinal da cruz e com uma voz clara e audível diz:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> In nómine Patris, et Fílii, et
               Spíritus Sancti.
@@ -47,13 +48,13 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Juntando as mãos no peito, começa a antífona:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Introíbo ad altáre Dei.
             </Text>
@@ -69,7 +70,7 @@ export default function PageOrdo() {
               <Text className="response"> ℟. </Text> Até Deus, que é a alegria
               da minha juventude.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Salmo 42</Text>
 
@@ -78,7 +79,7 @@ export default function PageOrdo() {
             de Defuntos e do Tempo da Paixão este salmo omite-se.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Júdica me, Deus, et discérne
               causam meam de gente non sancta: ab hómine iníquo et dolóso érue
@@ -135,14 +136,14 @@ export default function PageOrdo() {
               <Text className="response"> ℟. </Text> Confia em Deus, pois ainda
               O louvarei. Ele é a minha salvação e o meu Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Pequena inclinação da cabeça quando se dá glória ao Pai, ao Filho e
             ao Espírito Santo.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Glória Patri, et Fílio, et
               Spirítui Sancto.
@@ -160,11 +161,11 @@ export default function PageOrdo() {
               princípio, e agora, e sempre, por todos os séculos dos séculos.
               Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">O Sacerdote repete a Antífona:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Introíbo ad altáre Dei.
             </Text>
@@ -194,14 +195,14 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Que criou o céu e a terra.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Profundamente inclinado, o Sacerdote diz o Confíteor, humilhando-se
             publicamente, e depois dele, os ajudantes.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin"> Orémus.</Text>
             </Text>
@@ -230,11 +231,11 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="versicle"> ℣. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Confissão dos Acólitos e dos fiéis:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="response"> ℟. </Text> Confíteor Deo omnipoténti,
               beátæ Maríæ semper Vírgini, beáto Michǽli Archángelo, beáto Joánni
@@ -364,11 +365,11 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">O Sacerdote sobe ao altar, dizendo:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Aufer a nobis, quǽsumus, Dómine, iniquitátes nostras: ut ad Sancta
               sanctórum puris mereámur méntibus introíre. Per Christum, Dóminum
@@ -385,13 +386,13 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="vernacular"> Oremos.</Text>
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             O Sacerdote, inclinado, diz a seguinte oração:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Orámus, Dómine, per mérita Sanctórum tuórum, quorum relíquiæ hic
               sunt, et ómnium Sanctórum: ut indulgére dignéris ómnia peccáta
@@ -402,7 +403,7 @@ export default function PageOrdo() {
               relíquias estão aqui, e de todos os Santos, que Vos digneis
               perdoar os nossos pecados. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Intróito do dia</Text>
 
@@ -423,7 +424,7 @@ export default function PageOrdo() {
             Sacerdote, no meio do altar, diz, alternadamente com os Acólitos:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Kýrie eléison.
             </Text>
@@ -487,7 +488,7 @@ export default function PageOrdo() {
               <Text className="versicle"> ℣. </Text>Senhor, tende piedade de
               nós.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Glória in Excélsis</Text>
 
@@ -499,7 +500,7 @@ export default function PageOrdo() {
             as outras Missas.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Glória in excélsis Deo. Et in terra pax homínibus bonæ voluntátis.
               Laudámus te. Benedícimus te. Adorámus te. Glorificámus te. Grátias
@@ -531,13 +532,13 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             O Sacerdote benze-se, beija o altar, volta-se para os fiéis e diz:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Dóminus vobíscum.
             </Text>
@@ -550,7 +551,7 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Colecta do dia</Text>
 
@@ -560,18 +561,18 @@ export default function PageOrdo() {
             sugeridos pelo mystério ou solenidade do dia.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin"> Orémus.</Text>
             </Text>
             <Text className="vernacular">
               <Text className="vernacular"> Oremos.</Text>
             </Text>
-          </View>
+          </Language>
 
           <LinkCard mass={mass[0]} description="Oração" />
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>...per ómnia sǽculua
               sæculórum.
@@ -586,20 +587,20 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola do dia</Text>
 
           <LinkCard mass={mass[0]} description="Epístola" />
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="response"> ℟. </Text> Deo grátias.
             </Text>
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Graças a Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual do dia</Text>
 
@@ -622,7 +623,7 @@ export default function PageOrdo() {
             profundamente no meio do Altar, dizendo:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Munda cor meum ac labia mea, omnípotens Deus, qui labia Isaíæ
               Prophétæ cálculo mundásti igníto: ita me tua grata miseratióne
@@ -636,14 +637,14 @@ export default function PageOrdo() {
               misericórdia, purificar-me inteiramente, para que possa dignamente
               anunciar o vosso Evangelho. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Seguidamente recita-se a fórmula da Bênção, a qual só se omite nas
             Missas de Réquiem e na Sexta-Feira Santa:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jube Dómine benedícere. Dóminus sit in corde meo, et in lábiis
               meis: ut dine et competénter annúntiem. Evangélium suum. Amen.
@@ -653,7 +654,7 @@ export default function PageOrdo() {
               coração e nos meus lábios, para que possa digna e devidamente
               anunciar seu Evangelho. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Às primeiras palavras - Sequéntia, etc. faz-se o sinal da cruz na
@@ -673,7 +674,7 @@ export default function PageOrdo() {
             É um momento solene! Toda a assistência está de pé.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Dóminus vobíscum.
             </Text>
@@ -686,24 +687,24 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-          </View>
+          </Language>
 
           <LinkCard mass={mass[0]} description="Evangelho" />
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="response"> ℟. </Text> Glória tibi, Dómine.
             </Text>
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Glória a Vós, Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             O celebrante beija o sagrado texto, dizendo:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Per evangélica dicta
               deleántur nostra delícta.
@@ -712,18 +713,18 @@ export default function PageOrdo() {
               <Text className="versicle"> ℣. </Text>Que pelas palavras do
               Evangelho nos sejam perdoados os nossos pecados.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Digamos solenemente:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="response"> ℟. </Text> Laus tibi, Christe.
             </Text>
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Louvores a Vós, ó Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Credo</Text>
 
@@ -733,7 +734,7 @@ export default function PageOrdo() {
             festas de 1ª. Classe. É cantado em Missas Solenes.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Credo ín unum Deum. Patrem omnipoténtem, factórem cœli et terræ,
               visibílium ómnium et invisibílium. Et in unum Dóminum Jesum
@@ -791,7 +792,7 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Missa dos Fiéis</Text>
 
@@ -803,7 +804,7 @@ export default function PageOrdo() {
             diz:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Dóminus vobíscum.
             </Text>
@@ -816,9 +817,9 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">
                 <Text className="versicle"> ℣. </Text> Orémus.
@@ -829,7 +830,7 @@ export default function PageOrdo() {
                 <Text className="versicle"> ℣. </Text> Oremos.
               </Text>
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório do dia</Text>
 
@@ -844,7 +845,7 @@ export default function PageOrdo() {
             oferece-os a Deus, dizendo:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, sancte Pater, omnipotens ætérne Deus, hanc immaculátam
               hóstiam, quam ego indígnus fámulus tuus óffero tibi Deo meo vivo
@@ -861,14 +862,14 @@ export default function PageOrdo() {
               vivos e mortos, a fim de que sirva de proveito para a minha
               salvação, para a deles e para a vida eterna. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Ao lado direito do altar, o celebrante deita vinho no cálice, a que
             mistura umas gotas de água, dizendo a seguinte oração:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui humánæ substántiæ dignitátem mirabíliter condidísti, et
               mirabílius reformásti: da nobis per hujus aquæ et vini mystérium,
@@ -886,13 +887,13 @@ export default function PageOrdo() {
               Deus, vive e reina convosco em unidade do Espírito Santo, em todos
               os séculos dos séculos. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No meio do altar, o celebrante faz o oferecimento do cálice:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Offérimus tibi, Dómine, cálicem salutáris, tuam deprecántes
               cleméntiam: ut in conspéctu divínæ majestátis tuæ, pro nostra et
@@ -904,11 +905,11 @@ export default function PageOrdo() {
               vossa divina majestade, para nossa salvação e de todo o mundo.
               Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Depois, inclinando-se diz:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In spíritu humilitátis et in ánimo contríto suscipiámur a te,
               Dómine: et sic fiat sacrifícium nostrum in conspéctu tuo hódie, ut
@@ -919,11 +920,11 @@ export default function PageOrdo() {
               assim este sacrifício, ó Deus, se torne agradável aos vossos
               olhos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Invocação do Espírito Santo:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veni, sanctificátor omnípotens ætérne Deus: et bene{" "}
               <Text className="cross"> ✠ </Text> dic hoc sacrifícium, tuo sancto
@@ -934,7 +935,7 @@ export default function PageOrdo() {
               <Text className="cross"> ✠ </Text> este sacrifício, preparado para
               a glória do vosso Santo Nome.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h4">Incensão</Text>
 
@@ -946,7 +947,7 @@ export default function PageOrdo() {
 
           <Text className="h4">Bênção do Incenso:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per intercessiónem beáti Michǽlis Archángeli, stantis a dextris
               altáris incénsi, et ómnium electórum suórum, incénsum istud
@@ -961,13 +962,13 @@ export default function PageOrdo() {
               incenso e aceitá-lo como odor de suavidade. Por Cristo, Senhor
               nosso. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             O Sacerdote incensa primeiro as oblatas:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Incénsum istud a te benedíctum ascéndat ad te, Dómine: et
               descéndat super nos misericórdia tua.
@@ -976,14 +977,14 @@ export default function PageOrdo() {
               Que este incenso, por Vós abençoado, suba até Vós, Senhor; e desça
               sobre nós a vossa misericórdia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Em seguida incensa a cruz e o altar, dizendo, entretanto, os
             seguintes versículos, retirados do Salmo 140:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dirigátur, Dómine, orátio mea, sicut incénsum, in conspéctu tuo:
               elevátio mánuum meárum sacrifícium vespertínum. Pone, Dómine,
@@ -998,13 +999,13 @@ export default function PageOrdo() {
               deixes que meu coração se deixe arrastar por palavras de maldade,
               procurando desculpas para pecar.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             O celebrante entrega o turíbulo ao Diácono, dizendo:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="response"> ℟. </Text> Accéndat in nobis Dóminus
               ignem sui amóris, et flammam ætérnæ caritátis. Amen.
@@ -1013,7 +1014,7 @@ export default function PageOrdo() {
               <Text className="response"> ℟. </Text> Que o Senhor acenda em nós
               o fogo do seu amor e a chama da eterna caridade. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             O Diácono incensa o Sacerdote, e depois todos os outros por ordem.
@@ -1028,7 +1029,7 @@ export default function PageOrdo() {
             mãos, dizendo, entretanto, os seguintes versículos do salmo 25:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lavábo inter innocéntes manus meas: et circúmdabo altáre tuum.
               Dómine: Lavarei as minhas mãos, como os inocentes, e rodearei,
@@ -1070,7 +1071,7 @@ export default function PageOrdo() {
               princípio, e agora, e sempre, por todos os séculos dos séculos.
               Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Nas Missas de defuntos e do Tempo da Paixão omite-se o Glória Patri.
@@ -1082,7 +1083,7 @@ export default function PageOrdo() {
             Inclinado, ao meio do altar, o Sacerdote diz:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Súscipe, sancta Trinitas,
               hanc oblatiónem, quam tibi offérimus ob memóriam passiónis,
@@ -1104,7 +1105,7 @@ export default function PageOrdo() {
               terra, se dignem interceder por nós no céu. Pelo mesmo Jesus
               Cristo, nosso Senhor. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Beija o Altar e voltando-se para os fiéis, o Sacerdote convida-os a
@@ -1113,7 +1114,7 @@ export default function PageOrdo() {
 
           <Text className="h4">Orate Frates</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Oráte, fratres: ut meum ac
               vestrum sacrifícium acceptábile fiat apud Deum Patrem
@@ -1134,18 +1135,18 @@ export default function PageOrdo() {
               vossas mãos este sacrifício para a honra e glória de seu Nome, e
               também para a nossa utilidade e de toda sua santa Igreja.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">O Sacerdote responde, em voz baixa:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Amen.
             </Text>
             <Text className="vernacular">
               <Text className="versicle"> ℣. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Em seguida lê a Secreta. À Secreta principal, podem, em certas
@@ -1157,7 +1158,7 @@ export default function PageOrdo() {
 
           <LinkCard mass={mass[0]} description="Secreta" />
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>...Per ómnia sǽcula
               sæculórum.
@@ -1172,7 +1173,7 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Canon Missæ</Text>
 
@@ -1184,7 +1185,7 @@ export default function PageOrdo() {
             convêm à celebração dos santos mystérios.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Dóminus vobíscum.
             </Text>
@@ -1224,7 +1225,7 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Assim é digno e justo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Prefácio do dia</Text>
 
@@ -1232,7 +1233,7 @@ export default function PageOrdo() {
 
           <Text className="h3">Sanctus</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctus, Sanctus, Sanctus Dóminus, Deus Sábaoth. Pleni sunt cœli
               et terra glória tua. Hosánna in excélsis.
@@ -1249,7 +1250,7 @@ export default function PageOrdo() {
               Bendito <Text className="cross"> ✠ </Text> o que vem em nome do
               Senhor. Hosana nas alturas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Cânon</Text>
 
@@ -1258,7 +1259,7 @@ export default function PageOrdo() {
             e continua a grande oração sacerdotal.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Te Igitur clementíssime Pater, per Jesum Christum, Fílium tuum,
               Dóminum nostrum, súpplices rogámus, ac pétimus, uti accepta habeas
@@ -1286,11 +1287,11 @@ export default function PageOrdo() {
               <Text className="text-red-500">N.</Text> e com todos os ortodoxos
               e os que professam a fé católica e apostólica.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h4">Memento dos vivos</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Meménto, Dómine, famulórum famularúmque tuarum{" "}
               <Text className="latin">N.</Text> et{" "}
@@ -1311,7 +1312,7 @@ export default function PageOrdo() {
               almas, pela esperança da sua salvação: é a Vós que oferecem as
               homenagens, como Deus eterno, vivo e verdadeiro, que sois.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h4">Memória dos Santos</Text>
 
@@ -1321,7 +1322,7 @@ export default function PageOrdo() {
             Pentecostes.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Communicántes, et memóriam venerántes, in primis gloriósæ semper
               Vírginis Maríæ, Genitrícis Dei et Dómini nostri Jesu Christi: sed
@@ -1344,7 +1345,7 @@ export default function PageOrdo() {
               méritos e preces gozemos o poderoso auxílio da vossa protecção.
               Pelo mesmo Cristo, nosso Senhor. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Orações na Consagração</Text>
 
@@ -1352,7 +1353,7 @@ export default function PageOrdo() {
             Estendendo as mãos sobre as oblatas, o celebrante diz:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hanc igitur oblatiónem servitutis nostræ, sed et cunctæ famíliæ
               tuæ, quǽsumus, Dómine, ut placátus accípias: diésque nostros in
@@ -1367,11 +1368,11 @@ export default function PageOrdo() {
               nossos dias, livrai-nos da condenação eterna e admiti-nos ao
               número dos vossos escolhidos. Por Cristo, nosso Senhor. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">O Sacerdote abençoa as oblatas dizendo:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quam oblatiónem tu, Deus, in ómnibus, quǽsumus, bene{" "}
               <Text className="cross"> ✠ </Text> díctam, adscríp{" "}
@@ -1388,7 +1389,7 @@ export default function PageOrdo() {
               para nós no Corpo e no Sangue de vosso amado Filho, nosso Senhor
               Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h4">Consagração e Elevação da Hóstia</Text>
 
@@ -1399,7 +1400,7 @@ export default function PageOrdo() {
             do Cálice.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui prídie quam paterétur, accépit panem in sanctas ac venerábiles
               manus suas, et elevátis óculis in cœlum ad te Deum, Patrem suum
@@ -1414,20 +1415,20 @@ export default function PageOrdo() {
               <Text className="cross"> ✠ </Text>, partiu-o e deu-o aos seus
               discípulos, dizendo: Tomai todos e comei:
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Hoc est enim Corpus meum.</Text>
             </Text>
             <Text className="vernacular">
               <Text className="vernacular">Pois isto é o meu Corpo.</Text>
             </Text>
-          </View>
+          </Language>
 
           <Text className="h4">Consagração e Elevação do Cálice:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Símili modo postquam cœnátum est, accípiens et hunc præclárum
               Cálicem in sanctas ac venerábiles manus suas: tibi grátias agens,
@@ -1455,20 +1456,20 @@ export default function PageOrdo() {
                 remissão dos pecados.{" "}
               </Text>
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Depois da consagração do Cálice, o Sacerdote diz com uma voz baixa:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc quotiescúmque fecéritis, in mei memóriam faciétis.
             </Text>
             <Text className="vernacular">
               Todas as vezes que fizerdes isto, fazei-o em memória de mim.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h4">Oblação da Vítima a Deus</Text>
 
@@ -1476,7 +1477,7 @@ export default function PageOrdo() {
             O Sacerdote continua depois as orações do Cânon:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Unde et mémores, Dómine, nos servi tui, sed et plebs tua sancta,
               ejusdem Christi Fílii tui, Dómini nostri, tam beátæ passiónis, nec
@@ -1500,11 +1501,11 @@ export default function PageOrdo() {
               <Text className="cross"> ✠ </Text> santo da vida eterna e o Cálice{" "}
               <Text className="cross"> ✠ </Text> da salvação perpétua.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Com as mãos afastadas, contínua:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Supra quæ propítio ac seréno vultu respícere dignéris: et accépta
               habére, sicúti accépta habére dignátus es múnera púeri tui justi
@@ -1519,13 +1520,13 @@ export default function PageOrdo() {
               ofereceu o Sumo sacerdote Melquisedeque, pois este é um sacrifício
               santo, uma hóstia imaculada.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Profundamente inclinado, o Sacerdote diz:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súpplices te rogámus, omnípotens Deus: jube hæc perférri per manus
               sancti Ángeli tui in sublíme altáre tuum, in conspéctu divínæ
@@ -1545,13 +1546,13 @@ export default function PageOrdo() {
               de todas as bênçãos do céu e de todas as graças. Pelo mesmo
               Cristo, nosso Senhor. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Orações depois da Consagração</Text>
 
           <Text className="h4">Memento dos defuntos:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Meménto étiam, Dómine, famulórum famularúmque tuárum{" "}
               <Text className="latin">N.</Text> et{" "}
@@ -1574,13 +1575,13 @@ export default function PageOrdo() {
               todos os que descansam em Cristo, um lugar de consolação, de luz e
               de paz. Pelo mesmo Cristo, nosso Senhor. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h4">Invocação dos Santos</Text>
 
           <Text className="aside">O Sacerdote bate no peito, dizendo:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Nobis quoque peccatóribus Extensis manibus ut prius, secrete
               prosequitur: fámulis tuis, de multitúdine miseratiónum tuárum
@@ -1615,11 +1616,11 @@ export default function PageOrdo() {
               <Text className="cross"> ✠ </Text>, abençoais{" "}
               <Text className="cross"> ✠ </Text> e no-los concedeis.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h4">Doxologia Final</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per ip <Text className="cross"> ✠ </Text> sum, et cum ip{" "}
               <Text className="cross"> ✠ </Text> so, et in ip{" "}
@@ -1636,11 +1637,11 @@ export default function PageOrdo() {
               Espírito <Text className="cross"> ✠ </Text> Santo, pertence, e Vos
               é dada, toda a honra e glória.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">O Sacerdote termina em voz alta:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Per ómnia sǽcula sæculórum.
             </Text>
@@ -1654,7 +1655,7 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Rito da Comunhão</Text>
 
@@ -1664,7 +1665,7 @@ export default function PageOrdo() {
             Terminado o Cânon, o Sacerdote diz em voz alta:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin"> Orémus.</Text>
             </Text>
@@ -1679,11 +1680,11 @@ export default function PageOrdo() {
               Instruídos com os salutares preceitos do Salvador e dirigidos
               pelos seus divinos ensinamentos, ousamos dizer:
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Pater Noster</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pater noster, qui es in cælis: sanctificétur nomen tuum: advéniat
               regnum tuum: fiat volúntas tua, sicut in cælo, et in terra. Panem
@@ -1704,7 +1705,7 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Mas livrai-nos do mal.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             O Sacerdote diz Amen em voz baixa, e continua:
@@ -1712,7 +1713,7 @@ export default function PageOrdo() {
 
           <Text className="h4">Líbera nos</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Libera nos, quǽsumus, Dómine, ab ómnibus malis, prætéritis,
               præséntibus et futúris: et intercedénte beáta et gloriósa semper
@@ -1730,7 +1731,7 @@ export default function PageOrdo() {
               vossa misericórdia, sejamos sempre livres do pecado e seguros de
               toda a perturbação.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             O Sacerdote descobre o Cálice, genuflecte e segura com os dedos
@@ -1746,7 +1747,7 @@ export default function PageOrdo() {
             com ele, sobre o Cálice, três vezes, o sinal da cruz, e dizendo:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per eúndem Dóminum nostrum Jesum Christum, Fílium tuum. Qui tecum
               vivit et regnat in unitáte Spíritus Sancti Deus.
@@ -1755,7 +1756,7 @@ export default function PageOrdo() {
               Pelo mesmo nosso Senhor Jesus Cristo, vosso Filho: que convosco
               vive e reina em unidade de Deus Espírito Santo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Depois, o Sacerdote, tendo entre os dedos da mão direita a
@@ -1763,7 +1764,7 @@ export default function PageOrdo() {
             nós, e acrescenta em voz alta:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Per ómnia sæcula sæculórum.
             </Text>
@@ -1777,14 +1778,14 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             O Sacerdote faz três vezes o sinal da Cruz com a Divina Partícula
             sobre o Cálice:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Pax{" "}
               <Text className="cross"> ✠ </Text> Dómini sit{" "}
@@ -1812,7 +1813,7 @@ export default function PageOrdo() {
               Senhor Jesus Cristo sejam penhor de vida eterna para nós que a
               receberemos. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Agnus Dei</Text>
 
@@ -1823,7 +1824,7 @@ export default function PageOrdo() {
             sempiternam.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Agnus Dei, qui tollis peccáta mundi: miserére nobis.
             </Text>
@@ -1844,7 +1845,7 @@ export default function PageOrdo() {
             <Text className="vernacular">
               Cordeiro de Deus, que tirais o pecado do mundo, dai-nos a paz.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Orações para a Comunhão</Text>
 
@@ -1853,7 +1854,7 @@ export default function PageOrdo() {
             e graça da Igreja.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine Jesu Christe, qui dixísti Apóstolis tuis: Pacem relínquo
               vobis, pacem meam do vobis: ne respícias peccáta mea, sed fidem
@@ -1901,7 +1902,7 @@ export default function PageOrdo() {
               reinais com Deus Pai em unidade de Deus Espírito Santo em todos os
               séculos dos séculos. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comunhão do celebrante</Text>
 
@@ -1909,18 +1910,18 @@ export default function PageOrdo() {
             O Sacerdote genuflecte e pegando depois na sagrada Hóstia.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Panem cœléstem accipiam, et nomen Dómini invocábo.
             </Text>
             <Text className="vernacular">
               Tomarei o Pão do céu e invocarei o nome do Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Em seguida bate três vezes no peito.</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, non sum dignus, ut intres sub tectum meum: sed tantum dic
               verbo, et sanábitur ánima mea.
@@ -1929,14 +1930,14 @@ export default function PageOrdo() {
               Senhor, eu não sou digno de que entreis na minha morada, mas dizei
               uma só palavra e a minha alma será salva.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Faz sobre si o sinal da cruz com a sagrada Hóstia, antes de a
             comungar.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Corpus Dómini nostri Jesu Christi custódiat ánimam meam in vitam
               ætérnam. Amen.
@@ -1945,14 +1946,14 @@ export default function PageOrdo() {
               Que o Corpo de nosso Senhor Jesus Cristo guarde a minha alma para
               a vida eterna. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Recolhe-se por uns instantes. Toma o preciosíssimo Sangue, fazendo
             antes sobre si o sinal da cruz.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quid retríbuam Dómino pro ómnibus, quæ retríbuit mihi? Cálicem
               salutáris accípiam, et nomen Dómini invocábo. Laudans invocábo
@@ -1963,7 +1964,7 @@ export default function PageOrdo() {
               Tomarei o Cálice da salvação e invocarei o nome do Senhor,
               louvando-O, e ficarei livre dos meus inimigos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Depois segura com a mão direita o Cálice pelo nó (enquanto a não
@@ -1971,7 +1972,7 @@ export default function PageOrdo() {
             bebe o Sangue Divino! Neste momento diz:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanguis Dómini nostri Jesu Christi custódiat ánimam meam in vitam
               ætérnam. Amen.
@@ -1980,7 +1981,7 @@ export default function PageOrdo() {
               Que o Sangue de nosso Senhor Jesus Cristo guarde a minha alma para
               a vida eterna. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h4">Comunhão dos fiéis</Text>
 
@@ -1988,7 +1989,7 @@ export default function PageOrdo() {
             Os fiéis, ou o acólito por eles, recitam o Confíteor:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="response"> ℟. </Text> Confíteor Deo omnipoténti,
               beátæ Maríæ semper Vírgini, beáto Michǽli Archángelo, beáto Joánni
@@ -2002,11 +2003,11 @@ export default function PageOrdo() {
               Apóstolos S. Pedro e S. Paulo, a todos os santos, e a vós, Padre:
               que pequei muitas vezes por pensamentos, palavras e obras:
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Batendo três vezes no peito:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">
                 Mea culpa, mea culpa, mea máxima culpa.
@@ -2029,13 +2030,13 @@ export default function PageOrdo() {
               Baptista, aos Santos Apóstolos S. Pedro e S. Paulo, a todos os
               Santos e a vós, Padre, que rogueis a Deus, nosso Senhor, por mim.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Voltando-se para os fiéis, o Sacerdote dá a absolvição em voz alta:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Misereátur vestri omnípotens
               Deus, et, dimíssis peccátis vestris, perdúcat vos ad vitam
@@ -2051,11 +2052,11 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Fazendo o Sinal da Cruz, diz:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Indulgéntiam,{" "}
               <Text className="cross"> ✠ </Text> absolutionem et remissiónem
@@ -2074,14 +2075,14 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             O Sacerdote volta-se para o altar, genuflecte e voltando-se para os
             fiéis ergue a Hóstia, dizendo:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Ecce Agnus Dei, ecce qui
               tollit peccáta mundi.
@@ -2090,13 +2091,13 @@ export default function PageOrdo() {
               <Text className="versicle"> ℣. </Text>Eis o Cordeiro de Deus; eis
               Aquele que tira os pecados do mundo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             E em seguida, três vezes batendo no peito e dizendo:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="response"> ℟. </Text> Dómine, non sum dignus, ut
               intres sub tectum meum: sed tantum dic verbo, et sanábitur ánima
@@ -2107,7 +2108,7 @@ export default function PageOrdo() {
               que entreis na minha morada, mas dizei uma só palavra e a minha
               alma será salva.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Estando convenientemente preparado aquele que quiser Comungar,
@@ -2115,7 +2116,7 @@ export default function PageOrdo() {
             Hóstia na língua. O Sacerdote diz a cada um dos comungantes:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Corpus Dómini nostri Jesu
               Christi custódiat ánimam tuam in vitam ætérnam. Amen.
@@ -2124,7 +2125,7 @@ export default function PageOrdo() {
               <Text className="versicle"> ℣. </Text>Que o Corpo de nosso Senhor
               Jesus Cristo guarde a tua alma para a vida eterna. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Acção de Graças</Text>
 
@@ -2135,7 +2136,7 @@ export default function PageOrdo() {
             abluções. Entretanto vai dizendo:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quod ore súmpsimus, Dómine, pura mente capiámus: et de munere
               temporáli fiat nobis remédium sempitérnum.
@@ -2158,7 +2159,7 @@ export default function PageOrdo() {
               estou confortado com sacramentos tão puros e santos: Vós, que
               viveis e reinais em todos os séculos. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Purifica o cálice e deixa-o, coberto, no meio do altar. Nas Missas
@@ -2175,7 +2176,7 @@ export default function PageOrdo() {
 
           <LinkCard mass={mass[0]} description="Comúnio" />
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Dóminus vobíscum.
             </Text>
@@ -2188,7 +2189,7 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio do dia</Text>
 
@@ -2201,7 +2202,7 @@ export default function PageOrdo() {
             fiéis saúda-os:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Dóminus vobíscum.
             </Text>
@@ -2226,13 +2227,13 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Graças a Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Se alguma acção litúrgica se segue à Missa, diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Benedicámus Dómino.
             </Text>
@@ -2245,11 +2246,11 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Graças a Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Nas Missas dos Defuntos:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Requiéscant in pace.
             </Text>
@@ -2262,13 +2263,13 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Voltando-se para o altar, recita a seguinte oração:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Pláceat tibi, sancta
               Trínitas, obséquium servitútis meæ: et præsta; ut sacrifícium,
@@ -2284,13 +2285,13 @@ export default function PageOrdo() {
               torne propiciatório para mim e para todos aqueles por quem o
               ofereci. Por Cristo, Nosso Senhor. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Beija o altar, volta-se para a assistência, e dá a bênção, dizendo:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Benedícat vos omnípotens
               Deus, Pater, et Fílius, <Text className="cross"> ✠ </Text> et
@@ -2307,7 +2308,7 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Último Evangelho</Text>
 
@@ -2317,7 +2318,7 @@ export default function PageOrdo() {
             na Quinta-feira Santa e na Vigília pascal).
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Dóminus vobíscum.
             </Text>
@@ -2330,14 +2331,14 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Despois faz o sinal da Cruz na Sacra (ou no Missal) e na sua testa,
             boca e peito, dizendo:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Initium sancti Evangélii
               secúndum Joánnem.
@@ -2397,7 +2398,7 @@ export default function PageOrdo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Graças a Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Orações Leoninas</Text>
 

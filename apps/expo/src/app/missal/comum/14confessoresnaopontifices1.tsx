@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page14Confessoresnaopontifices1() {
   return (
@@ -14,7 +15,7 @@ export default function Page14Confessoresnaopontifices1() {
 
           <Text className="em">Sl. 36, 30-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium:
               lex Dei ejus in corde ipsíus. (T. P. Allelúja, allelúja.){" "}
@@ -29,11 +30,11 @@ export default function Page14Confessoresnaopontifices1() {
               irriteis contra os maus, nem tenhais inveja daqueles que cometem
               iniquidades.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos beáti <Text className="latin">N.</Text> Confessóris
               tui ánnua solemnitáte lætíficas: concéde propítius; ut, cujus
@@ -45,13 +46,13 @@ export default function Page14Confessoresnaopontifices1() {
               celebramos o seu nascimento, concedei-nos propício que imitemos
               também as suas acções. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ecl. 31, 8-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -74,13 +75,13 @@ export default function Page14Confessoresnaopontifices1() {
               assegurados no Senhor e que toda a assembleia dos justos
               proclamará as boas acções que praticou.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 91, 13 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in
               domo Dómini.<Text className="versicle"> ℣. </Text>
@@ -105,7 +106,7 @@ export default function Page14Confessoresnaopontifices1() {
               varão que sabe sofrer a tentação, porque, quando acabar a
               tentação, receberá a coroa da vida. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -115,7 +116,7 @@ export default function Page14Confessoresnaopontifices1() {
 
           <Text className="em">Sl. 111, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
               <Text className="versicle"> ℣. </Text>
@@ -131,13 +132,13 @@ export default function Page14Confessoresnaopontifices1() {
               haverá glória e riqueza: e a justiça subsistirá em todos os
               séculos dos séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No T. Pascal o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Jac. 1, 12</Text> Beátus vir, qui suffert
@@ -154,13 +155,13 @@ export default function Page14Confessoresnaopontifices1() {
               <Text className="em">Ecl. 45, 9</Text> O Senhor amou-o, ornou-o e
               revestiu-o com a túnica da glória. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 12, 35-40</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -198,13 +199,13 @@ export default function Page14Confessoresnaopontifices1() {
               preparados, porque o Filho do homem virá à hora em que menos
               cuidais».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 88, 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Véritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus. (T. P. Allelúja.)
@@ -213,11 +214,11 @@ export default function Page14Confessoresnaopontifices1() {
               A minha verdade e a minha misericórdia estarão com ele, e, por
               virtude do meu nome, será exaltado o seu poder. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne
               Sanctórum: quibus nos et præséntibus éxui malis confídimus et
@@ -228,13 +229,13 @@ export default function Page14Confessoresnaopontifices1() {
               vossos Santos, para que por meio dele nos livremos dos males
               presentes e futuros. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 24, 46-47</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem:
               amen, dico vobis, super ómnia bona sua constítuet eum. (T. P.
@@ -245,11 +246,11 @@ export default function Page14Confessoresnaopontifices1() {
               Em verdade vos digo que lhe dará a administração de todos seus
               bens. (T. P. Aleluia).
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus:
               ut, in cujus hæc commemoratióne percépimus, ejus muniámur et
@@ -260,7 +261,7 @@ export default function Page14Confessoresnaopontifices1() {
               suplicamos humildemente, ó nosso Deus, que nos protejam as preces
               daquele em cuja memória os recebemos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

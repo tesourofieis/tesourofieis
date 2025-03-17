@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0909() {
   return (
@@ -22,7 +23,7 @@ export default function Page0909() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctus tuus, Dómine, Gorgónius sua nos intercessióne lætíficet:
               et pia fáciat sollemnitáte gaudére. Per Dóminum...
@@ -31,11 +32,11 @@ export default function Page0909() {
               Alegre-nos, Senhor, o vosso Santo Gorgónio com sua intercessão; e
               nos faça sentir o gozo desta pia solenidade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Grata tibi sit, Dómine, nostræ servitútis oblátio: pro qua sanctus
               Gorgónius Martyr intervéntor exsístat. Per Dóminum...
@@ -45,11 +46,11 @@ export default function Page0909() {
               Vo-la apresentamos pela intervenção do Santo Mártir Gorgónio. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Famíliam tuam, Deus, suávitas ætérna contíngat et végetet: quæ in
               Mártyre tuo Gorgónio Christi, Fílii tui, bono júgiter odóre
@@ -61,7 +62,7 @@ export default function Page0909() {
               alimente incessantemente com o bom odor de vosso Filho Jesus
               Cristo: Que convosco...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

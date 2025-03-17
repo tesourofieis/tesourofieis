@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1204() {
   return (
@@ -39,7 +40,7 @@ export default function Page1204() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Petrum Chrysólogum Doctorem egrégium, divínitus
               præmonstrátum, ad regéndam et instruéndam Ecclésiam tuam éligi
@@ -53,13 +54,13 @@ export default function Page1204() {
               assim como o tivemos como Doutor na terra, assim também mereçamos
               alcançar a sua intercessão nos céus. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Ecl. 44, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce sacérdos magnus, qui in diébus suis plácuit Deo.
               <Text className="versicle"> ℣. </Text>
@@ -82,13 +83,13 @@ export default function Page1204() {
               <Text className="vernacular">Sl. 109, 4</Text> Tu és sacerdote
               para sempre, segundo a ordem de Melquisedeque. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 25, 20 & 21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, quinque talénta tradidísti mihi: ecce, ália quinque
               superlucrátus sum. Euge, serve bone et fidélis, quia in pauca
@@ -101,7 +102,7 @@ export default function Page1204() {
               coisa, Eu te colocarei sobre muitas; entra na glória do teu
               Senhor».
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

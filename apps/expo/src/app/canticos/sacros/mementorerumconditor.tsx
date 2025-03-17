@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageMementorerumconditor() {
   return (
@@ -10,7 +11,7 @@ export default function PageMementorerumconditor() {
         <View className="docs">
           <Text className="h1">Memento rerum conditor</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Memento rerum conditor, Nostri quod olim corporis Sacrata ab alvo
               Virginis, Nascendo formam sumpseris.
@@ -35,7 +36,7 @@ export default function PageMementorerumconditor() {
               Jesus seja glorificado, da virgem nascido, e o eterno Pai também,
               com o Espírito Santo, por todos os séculos. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

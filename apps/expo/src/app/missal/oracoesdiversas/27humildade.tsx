@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page27Humildade() {
   return (
@@ -12,7 +13,7 @@ export default function Page27Humildade() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui supérbis resístis et grátiam præstas humílibus: concéde
               nobis veræ humilitátis virtútem, cujus in se formam fidélibus
@@ -27,11 +28,11 @@ export default function Page27Humildade() {
               orgulho nunca incorramos na vossa indignação, mas, permanecendo
               humildes, recebamos os dons da vossa graça. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc oblátio, Dómine, quǽsumus, veræ nobis humilitátis grátiam
               obtíneat: simúlque a córdibus nostris concupiscéntiam carnis et
@@ -46,11 +47,11 @@ export default function Page27Humildade() {
               sobriedade, justiça e piedade, consigamos os prémios eternos. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hujus, Dómine, sacraménti percéptio peccatórum nostrórum máculas
               abstérgat: et nos, per humilitátis exhibitiónem, ad cœléstia regna
@@ -61,7 +62,7 @@ export default function Page27Humildade() {
               nossos pecados; e, praticando nós a humildade, nos conduza ao
               reino celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

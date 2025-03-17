@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page124() {
   return (
@@ -10,7 +11,7 @@ export default function Page124() {
         <View className="docs">
           <Text className="h1">Salmo 124</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui confídunt in Dómino, sicut mons Sion: * non commovébitur in
               ætérnum, qui hábitat in Jerúsalem.
@@ -50,7 +51,7 @@ export default function Page124() {
               Aos que se desviam para caminhos tortuosos, levá-los-á o Senhor
               com os que praticam a iniquidade: * a paz seja sobre Israel.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

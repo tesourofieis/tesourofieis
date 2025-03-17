@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0205() {
   return (
@@ -24,7 +25,7 @@ export default function Page0205() {
 
           <Text className="h3">Intróito</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
               beátæ Agathæ Vírginis et Martyris: de cujus passióne gaudent
@@ -41,13 +42,13 @@ export default function Page0205() {
               uma excelente palavra: «Consagro ao Rei as minhas obras!».
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Cor. 1, 26-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
             </Text>
@@ -77,13 +78,13 @@ export default function Page0205() {
               justiça, santificação e redenção, para que se cumpra o que está
               escrito: «O que se gloria, glorie-se no Senhor».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 45, 6 & 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adjuvábit eam Deus vultu suo: Deus in médio ejus, non
               commovébitur.<Text className="versicle"> ℣. </Text>Flúminis
@@ -106,7 +107,7 @@ export default function Page0205() {
               <Text className="vernacular">Sl. 118, 46</Text> Perante os reis,
               publicarei os vossos testemunhos e não me envergonharei. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima, omite-se o Aleluia e o Verso, e diz-se o:
@@ -116,7 +117,7 @@ export default function Page0205() {
 
           <Text className="em">Sl. 125, 5-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui séminant in lácrimis, in gáudio metent.
               <Text className="versicle"> ℣. </Text>Eúntes ibant et fiébant,
@@ -131,13 +132,13 @@ export default function Page0205() {
               Mas regressaram com alegria, transportando os seus molhos de
               trigo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 19, 3-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -189,11 +190,11 @@ export default function Page0205() {
               si mesmo, por causa do reino dos céus. Quem pode compreender isto,
               compreenda».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui me dignátus est ab omni plaga curáre et mamíllam meam meo
               péctori restitúere, ipsum ínvoco Deum vivum.
@@ -202,7 +203,7 @@ export default function Page0205() {
               Invoco como Deus vivo Aquele que se dignou curar as minhas chagas
               e restituir o meu seio ao meu peito!
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

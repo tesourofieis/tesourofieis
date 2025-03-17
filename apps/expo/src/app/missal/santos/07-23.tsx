@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0723() {
@@ -36,7 +37,7 @@ export default function Page0723() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, fidélium remunerátor animárum, qui hunc diem beáti
               Apollináris Sacerdótis tui martýrio consecrásti: tríbue nobis,
@@ -50,13 +51,13 @@ export default function Page0723() {
               vossos servos alcancem a indulgência das suas faltas, pelas preces
               daquele cuja venerável festa celebramos. Por...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Pe. 5, 1-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
             <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
             <Text className="latin">
@@ -104,13 +105,13 @@ export default function Page0723() {
               consolidará. A Ele seja dada glória e homenagem em todos os
               séculos dos séculos. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 88, 21-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
               auxiliábitur ei, et bráchium meum confortábit eum.
@@ -135,13 +136,13 @@ export default function Page0723() {
               não se arrependerá: tu és sacerdote para sempre segundo a ordem de
               Melquisedeque. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 22, 24-30</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -177,13 +178,13 @@ export default function Page0723() {
               que possais comer e beber à minha mesa no meu reino, e estejais
               sentados nos tronos, para julgar as doze tribos de Israel».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 88, 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Véritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus.
@@ -192,11 +193,11 @@ export default function Page0723() {
               A minha fidelidade e a minha misericórdia estarão com ele: e por
               virtude de meu nome será exaltado o seu poder.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réspice, Dómine, propítius super hæc múnera: quæ pro beáti
               Sacerdótis et Martyris tui Apollináris commemoratióne deférimus,
@@ -208,13 +209,13 @@ export default function Page0723() {
               oferecemos em sacrifício de expiação pelas nossas ofensas. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 25, 20 & 21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, quinque talénta tradidísti mihi, ecce, ália quinque
               superlucrátus sum. Euge, serve bone et fidélis, quia in pauca
@@ -227,11 +228,11 @@ export default function Page0723() {
               pouca importância, eu te estabelecerei sobre bens mais
               importantes. Entra no gozo do teu senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tua sancta suméntes, quǽsumus, Dómine, ut beáti Apollináris nos
               fóveant continuáta præsídia: quia non désinis propítius intuéri,
@@ -243,7 +244,7 @@ export default function Page0723() {
               do B. Apolinário, pois não cessais de olhar propício para aqueles
               a quem concedeis tal socorro. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

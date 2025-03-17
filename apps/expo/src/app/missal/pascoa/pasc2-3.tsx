@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc23() {
   return (
@@ -57,7 +58,7 @@ export default function PagePasc23() {
 
           <Text className="em">Sl 32:20-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adjútor et protéctor noster est Dóminus: in eo lætábitur cor
               nostrum, et in nómine sancto ejus sperávimus, allelúja, allelúja
@@ -71,11 +72,11 @@ export default function PagePasc23() {
               José, como um pastor guia a ovelha, ouvi.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui ineffábili providéntia beátum Joseph sanctíssimæ
               Genetrícis tuæ sponsum elígere dignátus es: præsta, quǽsumus; ut,
@@ -89,13 +90,13 @@ export default function PagePasc23() {
               mereçamos alcançar a sua intercessão nos céus. Ó Vós, que
               viveis...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Gn 49:22-26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Génesis.</Text>
             <Text className="vernacular">Lição do Livro Génesis.</Text>
             <Text className="latin">
@@ -130,9 +131,9 @@ export default function PagePasc23() {
               de José, que é como que um Nazareno (Príncipe) no meio de seus
               irmãos.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>De
               quacúmque tribulatióne clamáverint ad me, exáudiam eos, et ero
@@ -147,13 +148,13 @@ export default function PagePasc23() {
               José, que sigamos uma vida inocente e que seja ela sempre amparada
               com o vosso patrocínio. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc 3:21-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -179,13 +180,13 @@ export default function PagePasc23() {
               minhas complacências!». Jesus começava então a contar cerca de
               trinta anos, sendo considerado como filho de José.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl 147:12-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lauda, Jerúsalem, Dóminum: quóniam confortávit seras portárum
               tuárum, benedíxit fíliis tuis in te, allelúja, allelúja.
@@ -194,11 +195,11 @@ export default function PagePasc23() {
               Jerusalém, louva o Senhor, pois foi Ele quem consolidou as tuas
               portas; foi Ele quem abençoou os teus filhos. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctíssimæ Genetrícis tuæ sponsi patrocínio suffúlti, rogámus,
               Dómine, cleméntiam tuam: ut corda nostra fácias terréna cuncta
@@ -211,13 +212,13 @@ export default function PagePasc23() {
               coisas terrenas e com caridade perfeita amar-Vos a Vós, que sois o
               verdadeiro Deus. Ó Vós, que viveis...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt 1:16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jacob autem génuit Joseph, virum Maríæ, de qua natus est Jesus,
               qui vocátur Christus, allelúja, allelúja.
@@ -226,11 +227,11 @@ export default function PagePasc23() {
               Jacob gerou José, esposo de Maria, de quem nasceu Jesus, que se
               chama Cristo.(T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Divíni múneris fonte refécti, quǽsumus, Dómine, Deus noster: ut,
               sicut nos facis beáti Joseph protectióne gaudére; ita, ejus
@@ -244,7 +245,7 @@ export default function PagePasc23() {
               celestial, em virtude dos seus méritos e da sua intercessão. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

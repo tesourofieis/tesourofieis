@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page28Missamaria2() {
   return (
@@ -17,7 +18,7 @@ export default function Page28Missamaria2() {
 
           <Text className="em">Sl. 44, 13,15 & 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vultum tuum deprecabúntur omnes dívites plebis: adducántur Regi
               Vírgines post eam: próximæ ejus adducéntur tibi in lætítia et
@@ -33,11 +34,11 @@ export default function Page28Missamaria2() {
               exprimiu uma excelente palavra: Consagro ao Rei as minhas obras!
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui salútis ætérnæ, beátæ Maríæ virginitáte fœcúnda, humáno
               generi prǽmia præstitísti: tríbue, quǽsumus; ut ipsam pro nobis
@@ -51,13 +52,13 @@ export default function Page28Missamaria2() {
               qual fomos julgados dignos de receber o autor da vida, N. S. Jesus
               Cristo, vosso Filho: que convosco Vive e reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Tt. 3, 4-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Titum.
             </Text>
@@ -83,13 +84,13 @@ export default function Page28Missamaria2() {
               vida eterna, segundo a esperança que depositamos em Jesus Cristo,
               nosso Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 3 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Speciósus forma præ fíliis hóminum: diffúsa est grátia in lábiis
               tuis.<Text className="versicle"> ℣. </Text>Eructávit cor meum
@@ -112,7 +113,7 @@ export default function Page28Missamaria2() {
               Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Depois de
               haverdes dado à luz, permanecestes Virgem Imaculada. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -120,7 +121,7 @@ export default function Page28Missamaria2() {
 
           <Text className="h3">Trato</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gaude, María Virgo, cunctas hǽreses sola interemísti.
               <Text className="versicle"> ℣. </Text>Quæ Gabriélis Archángeli
@@ -138,13 +139,13 @@ export default function Page28Missamaria2() {
               Imaculada.<Text className="versicle"> ℣. </Text>
               Intercedei por nós, ó Mãe de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 2, 15-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -177,11 +178,11 @@ export default function Page28Missamaria2() {
               Deus pelo que tinham visto e ouvido, segundo o que lhes havia sido
               revelado.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Felix namque es, sacra Virgo María, et omni laude digníssima: quia
               ex te ortus est sol justítiæ, Christus, Deus noster.
@@ -190,11 +191,11 @@ export default function Page28Missamaria2() {
               Sois feliz e digna de todos os louvores, ó Santa Virgem Maria,
               pois de vós nasceu «o sol da justiça», Cristo, nosso Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, propitiatióne, et beátæ Maríæ semper Vírginis
               intercessióne, ad perpétuam atque præséntem hæc oblátio nobis
@@ -205,11 +206,11 @@ export default function Page28Missamaria2() {
               sempre Virgem, permiti que esta oferta nos assegure agora e sempre
               a prosperidade e a paz. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris
               Fílium.
@@ -218,11 +219,11 @@ export default function Page28Missamaria2() {
               Bem-aventuradas as entranhas da Virgem Maria, que trouxeram
               encerrado o Filho do Pai Eterno.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáta
               Vírgine Dei Genetríce María, cœléstis remédii fáciat esse
@@ -233,7 +234,7 @@ export default function Page28Missamaria2() {
               por intercessão da B. Virgem Maria, Mãe de Deus, nos torne
               participantes do remédio celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

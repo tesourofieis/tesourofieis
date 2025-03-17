@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0512() {
@@ -17,7 +18,7 @@ export default function Page0512() {
 
           <Text className="em">Sl 32:18-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce, óculi Dómini super timéntes eum, sperántes in misericórdia
               ejus, allelúja: ut erípiat a morte ánimas eórum: quóniam adjútor
@@ -35,11 +36,11 @@ export default function Page0512() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Semper nos, Dómine, Mártyrum tuórum Nérei, Achillei, Domitíllæ
               atque Pancrátii fóveat, quǽsumus, beáta sollémnitas: et tuo dignos
@@ -50,7 +51,7 @@ export default function Page0512() {
               Mártires Néreo, Aquiles, Domitila e Pancrácio nos reanime e nos
               torne dignos de Vos servirmos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -59,7 +60,7 @@ export default function Page0512() {
             href="/missal/santos/05-01#epístola"
           />
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Hæc est
               vera fratérnitas, quæ vicit mundi crímina: Christum secuta est,
@@ -70,7 +71,7 @@ export default function Page0512() {
               verdadeira fraternidade que venceu os crimes do mundo: Ela seguiu
               Cristo, possuindo gloriosamente o reino celestial. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -88,7 +89,7 @@ export default function Page0512() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctórum Martyrum tuórum, quǽsumus. Dómine, Nérei, Achíllei,
               Domitíllæ atque Pancrátii sit tibi grata conféssio: quæ et múnera
@@ -101,7 +102,7 @@ export default function Page0512() {
               ela Vos disponha a aceitardes as nossas ofertas e elas nos tornem
               sempre merecedores da vossa indulgência. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
@@ -112,7 +113,7 @@ export default function Page0512() {
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, Dómine: ut beatórum Mártyrum tuórum Nérei, Achíllei,
               Domitíllæ atque Pancrátii deprecatiónibus, sacraménta sancta, quæ
@@ -125,7 +126,7 @@ export default function Page0512() {
               recebemos, Vos tornem cada vez mais propício para connosco. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

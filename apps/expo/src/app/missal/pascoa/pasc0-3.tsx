@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc03() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc03() {
 
           <Text className="em">Mt. 25, 34</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veníte, benedícti Patris mei, percípite regnum, allelúja: quod
               vobis parátum est ab orígine mundi, allelúja, allelúja, allelúja.{" "}
@@ -29,11 +30,11 @@ export default function PagePasc03() {
               Senhor um cântico novo: que toda a terra cante hinos ao Senhor.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos Resurrectiónis Domínicæ ánnua solemnitáte lætíficas:
               concéde propítius; ut per temporália festa, quæ ágimus, perveníre
@@ -45,13 +46,13 @@ export default function PagePasc03() {
               estas festas neste tempo, mereçamos alcançar os gozos eternos.
               Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act. 3, 13-15 & 17-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolorum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -81,13 +82,13 @@ export default function PagePasc03() {
               seu Cristo tinha de sofrer. Fazei, pois, penitência e
               convertei-vos, para que os vossos pecados vos sejam perdoados».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 117, 24 & 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc dies, quam fecit Dóminus: exsultémus et lætámur in ea.
               <Text className="versicle"> ℣. </Text>
@@ -108,13 +109,13 @@ export default function PagePasc03() {
               <Text className="vernacular">Lc. 24, 34</Text> O Senhor
               ressuscitou verdadeiramente e apareceu a Pedro.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 21, 1-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -178,13 +179,13 @@ export default function PagePasc03() {
               quanto ao peixe. Era esta já a terceira vez que Jesus aparecia a
               seus discípulos, após a ressurreição dos mortos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 77, 23-25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Portas cœli apéruit Dóminus: et pluit illis manna, ut éderent:
               panem cœli dedit eis: panem Angelórum manducávit homo, allelúja.
@@ -194,11 +195,11 @@ export default function PagePasc03() {
               seu povo: deu-lhes o pão do céu: o homem comeu o pão dos Anjos,
               aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifícia, Dómine, paschálibus gáudiis immolámus: quibus Ecclésia
               tua mirabíliter et páscitur et nutrítur. Per Dóminum...
@@ -208,13 +209,13 @@ export default function PagePasc03() {
               que é para a vossa Igreja o alimento admirável de que se nutre e
               sustenta. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Rm. 6, 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Christus resúrgens ex mórtuis jam non móritur, allelúja: mors illi
               ultra non dominábitur, allelúja, allelúja.
@@ -223,11 +224,11 @@ export default function PagePasc03() {
               Cristo, ressuscitado, já não torna a morrer, aleluia: a morte
               nunca mais terá poder sobre Ele, aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ab omni nos, quǽsumus, Dómine, vetustáte purgátos: sacraménti tui
               veneránda percéptio in novam tránsferat creatúram: Qui vivis et
@@ -238,7 +239,7 @@ export default function PagePasc03() {
               velho», e permiti que a sagrada recepção deste sacramento nos
               torne criaturas novas. Vós, que, sendo Deus, viveis e reinais...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

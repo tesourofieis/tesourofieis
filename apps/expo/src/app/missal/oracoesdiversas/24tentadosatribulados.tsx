@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page24Tentadosatribulados() {
   return (
@@ -12,7 +13,7 @@ export default function Page24Tentadosatribulados() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui justíficas ímpium, et non vis mortem peccatóris,
               majestátem tuam supplíciter deprecámur: ut fámulos tuos, de tua
@@ -28,11 +29,11 @@ export default function Page24Tentadosatribulados() {
               na vossa misericórdia, a fim de que Vos sirvam continuamente e não
               sejam separados de Vós por tentação alguma. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hujus, quǽsumus, Dómine, virtúte mystérii, et a própriis nos munda
               delíctis, et fámulos tuos ab ómnibus absólve peccátis. Per
@@ -43,11 +44,11 @@ export default function Page24Tentadosatribulados() {
               purificar-nos dos nossos próprios delitos e absolver os vossos
               servos de todos os pecados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Puríficent nos, quǽsumus, Dómine, sacraménta, quæ súmpsimus: et
               fámulos tuos ab omni culpa líberos esse concéde; ut, qui
@@ -62,7 +63,7 @@ export default function Page24Tentadosatribulados() {
               bem cedo se alegrem de haverem recebido a plenitude dos remédios
               celestiais. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

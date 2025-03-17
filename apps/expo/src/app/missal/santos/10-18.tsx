@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1018() {
@@ -15,7 +16,7 @@ export default function Page1018() {
 
           <Text className="em">Sl. 138, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.{" "}
@@ -31,11 +32,11 @@ export default function Page1018() {
               conhecendo quando me deito e quando me levanto.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Intervéniat pro nobis, quǽsumus, Dómine, sanctus tuus Lucas
               Evangélista: qui crucis mortificatiónem júgiter in suo córpore,
@@ -46,13 +47,13 @@ export default function Page1018() {
               que, para glória do vosso nome, sempre praticou em seu corpo a
               mortificação da Cruz, interceda por nós. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Cor. 8, 16-24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -97,13 +98,13 @@ export default function Page1018() {
               glória de Cristo. Mostrai-lhes perante as igrejas a vossa caridade
               e justificai que temos razão de nos alegrarmos a vosso respeito.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 18, 5 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In omne terram exívit sonus eórum: et in fines orbis terræ verba
               eórum.<Text className="versicle"> ℣. </Text>Cœli enárrant glóriam
@@ -127,7 +128,7 @@ export default function Page1018() {
               mundo para que ir e alcanceis fruto: e que esse fruto permaneça.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -140,7 +141,7 @@ export default function Page1018() {
 
           <Text className="em">Sl. 138, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.
@@ -149,11 +150,11 @@ export default function Page1018() {
               Eu vejo, ó Deus, que honrais largamente os vossos amigos; por isso
               o seu poder se tem fortalecido extraordinariamente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Donis cœléstibus da nobis, quǽsumus, Dómine, líbera tibi mente
               servíre: ut múnera quæ deférimus, interveniénte beáto Evangelísta
@@ -166,13 +167,13 @@ export default function Page1018() {
               alcancem, por intercessão do B. Evangelista Lucas, o remédio para
               os nossos males e a glória eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 19, 28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vos, qui secúti estis me, sedébitis super sedes, judicántes
               duódecim tribus Israël.
@@ -181,11 +182,11 @@ export default function Page1018() {
               Vós me seguistes, assentar-vos-eis sobre tronos, para julgar as
               doze tribos de Israel.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, quod de sancto altári tuo
               accépimus, précibus beáti Evangelístæ tui Lucæ, sanctíficet ánimas
@@ -197,7 +198,7 @@ export default function Page1018() {
               Lucas, as nossas almas, a fim de que nos defenda dos perigos. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>
