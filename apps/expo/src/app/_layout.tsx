@@ -32,6 +32,7 @@ import {
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
+import { LanguageProvider, useLanguage } from "~/providers/language";
 import { NotificationsProvider } from "~/providers/notifications";
 
 SplashScreen.preventAutoHideAsync();
@@ -96,13 +97,15 @@ export default function PageRootLayout() {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <CalendarProvider>
-        {Platform.OS === "web" ? (
-          <RootLayoutNav />
-        ) : (
-          <NotificationsProvider>
+        <LanguageProvider>
+          {Platform.OS === "web" ? (
             <RootLayoutNav />
-          </NotificationsProvider>
-        )}
+          ) : (
+            <NotificationsProvider>
+              <RootLayoutNav />
+            </NotificationsProvider>
+          )}
+        </LanguageProvider>
       </CalendarProvider>
     </GestureHandlerRootView>
   );
@@ -250,7 +253,9 @@ const Breadcrumbs = () => {
   );
 };
 
-const Header = ({ withBC }: { withBC: boolean }) => {
+const Header = ({ withBC }) => {
+  const { language, toggleLanguage } = useLanguage();
+
   if (withBC) {
     return (
       <View className="flex-row items-center p-5 gap-5 border-b bg-sepia-300 dark:bg-sepia-900 w-full">
@@ -258,6 +263,15 @@ const Header = ({ withBC }: { withBC: boolean }) => {
           <FontAwesome6 name="arrow-left" size={15} color="#e53935" />
         </Link>
         <Breadcrumbs />
+        <Pressable onPress={toggleLanguage} className="ml-auto">
+          <Text className="text-sm text-sepia-700 dark:text-sepia-300 font-serif">
+            {language === "latin"
+              ? "Latin"
+              : language === "vernacular"
+                ? "Vernacular"
+                : "Both"}
+          </Text>
+        </Pressable>
       </View>
     );
   }

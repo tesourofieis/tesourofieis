@@ -31,7 +31,7 @@ export default function Page0502() {
 
           <Text className="em">Ecl. 15, 5</Text>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu
               sapiéntiæ et intelléctus: stolam glóriæ índuit eum, allelúja,
@@ -60,7 +60,7 @@ export default function Page0502() {
 
           <Text className="em">2 Cor. 4, 5-14</Text>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -110,7 +110,7 @@ export default function Page0502() {
             </Text>
           </View>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 109, 4</Text> Tu es sacérdos in
@@ -142,7 +142,7 @@ export default function Page0502() {
 
           <Text className="em">Sl. 88, 21-22</Text>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
               auxiliábitur ei, et bráchium meum confortábit eum, allelúja.
@@ -157,7 +157,7 @@ export default function Page0502() {
 
           <Text className="em">Mt. 10, 27</Text>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               Quod dico vobis in ténebris, dícite in lúmine, dicit Dóminus: et
               quod in aure audítis, prædicáte super tecta, allelúja.

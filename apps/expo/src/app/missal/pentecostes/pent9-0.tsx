@@ -14,7 +14,7 @@ export default function PagePent90() {
 
           <Text className="em">Sl. 53, 6-7</Text>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               Ecce, Deus adjuvat me, et Dóminus suscéptor est ánimæ meæ: avérte
               mala inimícis meis, et in veritáte tua dispérde illos, protéctor
@@ -36,7 +36,7 @@ export default function PagePent90() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               Páteant aures misericórdiæ tuæ, Dómine, précibus supplicántium:
               et, ut peténtibus desideráta concédas; fac eos quæ tibi sunt
@@ -54,7 +54,7 @@ export default function PagePent90() {
 
           <Text className="em">1 Cor. 10, 6-13</Text>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
             </Text>
@@ -100,7 +100,7 @@ export default function PagePent90() {
 
           <Text className="em">Sl. 8, 2</Text>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               Dómine, Dóminus noster, quam admirábile est nomen tuum in universa
               terra!<Text className="versicle"> ℣. </Text>Quóniam eleváta est
@@ -128,7 +128,7 @@ export default function PagePent90() {
 
           <Text className="em">Lc. 19, 41-47</Text>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -171,7 +171,7 @@ export default function PagePent90() {
 
           <Text className="em">Sl. 18, 9, 10, 11 & 12</Text>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               Justítiæ Dómini rectæ, lætificántes corda, et judícia ejus
               dulcióra super mel et favum: nam et servus tuus custódit ea.
@@ -185,7 +185,7 @@ export default function PagePent90() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               Concéde nobis, quǽsumus, Dómine, hæc digne frequentáre mystéria:
               quia, quóties hujus hóstiæ commemorátio celebrátur, opus nostræ
@@ -203,7 +203,7 @@ export default function PagePent90() {
 
           <Text className="em">Jo. 6, 57</Text>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               Qui mandúcat meam carnem et bibit meum sánguinem, in me manet et
               ego in eo, dicit Dóminus.
@@ -216,7 +216,7 @@ export default function PagePent90() {
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               Tui nobis, quǽsumus, Dómine, commúnio sacraménti, et
               purificatiónem cónferat, et tríbuat unitátem. Per Dóminum...

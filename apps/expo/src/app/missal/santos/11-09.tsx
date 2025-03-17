@@ -24,7 +24,7 @@ export default function Page1109() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               Deus, qui nos beáti Theodóri Mártyris tui confessióne gloriósa
               circúmdas et prótegis: præsta nobis ex ejus imitatióne profícere
@@ -40,7 +40,7 @@ export default function Page1109() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               Suscipe, Dómine, fidélium preces cum oblatiónibus hostiárum: et,
               intercedénte beáto Theodóro Mártyre tuo, per hæc piæ devotiónis
@@ -57,7 +57,7 @@ export default function Page1109() {
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side not-content">
+          <View className="side-by-side">
             <Text className="latin">
               Præsta nobis, quǽsumus, Dómine: intercedénte beáto Theodóro
               Mártyre tuo; ut, quod ore contíngimus, pura mente capiámus. Per
