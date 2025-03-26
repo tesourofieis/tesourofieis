@@ -1,16 +1,16 @@
-import FontAwesome from "@expo/vector-icons/FontAwesome";
-import React, { useState } from "react";
-import { Pressable, Text, View } from "react-native";
+import React, { useMemo, useState } from "react";
+import { Text, View, Pressable } from "react-native";
 import {
-  GestureHandlerRootView,
-  Swipeable,
-  gestureHandlerRootHOC,
+  Gesture,
+  GestureDetector,
+  Directions,
 } from "react-native-gesture-handler";
 import Animated, {
   useSharedValue,
   useAnimatedStyle,
   withTiming,
 } from "react-native-reanimated";
+import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { COLORS } from "~/constants/Colors";
 
 type LanguageToggleProps = {
@@ -18,80 +18,88 @@ type LanguageToggleProps = {
 };
 
 function Language({ children }: LanguageToggleProps) {
-  const [language, setLanguage] = useState<"latin" | "vernacular">(
-    "vernacular",
-  );
-  const translateX = useSharedValue(0);
+  const position = useSharedValue(0);
+  const [isLatin, setIsLatin] = useState(true);
 
-  // Parse children safely
-  const childrenArray = React.Children.toArray(children);
-  const latinContent = childrenArray.filter(
-    (child) => React.isValidElement(child) && child.props.className === "latin",
-  );
-  const vernacularContent = childrenArray.filter(
-    (child) =>
-      React.isValidElement(child) && child.props.className === "vernacular",
-  );
+  const { latinContent, vernacularContent } = useMemo(() => {
+    const childrenArray = React.Children.toArray(children);
+    return {
+      latinContent: childrenArray.filter(
+        (child) =>
+          React.isValidElement(child) && child.props.className === "latin"
+      ),
+      vernacularContent: childrenArray.filter(
+        (child) =>
+          React.isValidElement(child) && child.props.className === "vernacular"
+      ),
+    };
+  }, [children]);
 
-  const handleLanguageChange = () => {
-    setLanguage((prev) => (prev === "vernacular" ? "latin" : "vernacular"));
-    translateX.value = withTiming(0, { duration: 1000 });
+  const toggleLanguage = () => {
+    const newPosition = isLatin ? 1 : 0;
+    position.value = withTiming(newPosition * 100, { duration: 300 });
+    setIsLatin(!isLatin);
   };
 
-  const onSwipeableOpen = (direction: "left" | "right") => {
-    if (direction === "left" && language !== "latin") {
-      setLanguage("latin");
-      translateX.value = withTiming(0, { duration: 1000 });
-    } else if (direction === "right" && language !== "vernacular") {
-      setLanguage("vernacular");
-      translateX.value = withTiming(0, { duration: 1000 });
-    }
-  };
+  const flingRightGesture = Gesture.Fling()
+    .direction(Directions.RIGHT)
+    .onStart(toggleLanguage);
+
+  const flingLeftGesture = Gesture.Fling()
+    .direction(Directions.LEFT)
+    .onStart(toggleLanguage);
+
+  const composedGesture = Gesture.Race(flingRightGesture, flingLeftGesture);
+
+  const animatedStyle = useAnimatedStyle(() => ({
+    transform: [{ translateX: -position.value + "%" }],
+  }));
 
   return (
-    <Swipeable
-      friction={2}
-      overshootFriction={8}
-      leftThreshold={50}
-      rightThreshold={50}
-      onSwipeableOpen={onSwipeableOpen}
-      renderLeftActions={() => <View />}
-      renderRightActions={() => <View />}
-      simultaneousHandlers={[]} // Allow simultaneous gesture recognition
-    >
-      <Pressable onPress={handleLanguageChange}>
-        <View className="relative w-full gap-2 border border-sepia-200 dark:border-sepia-800">
-          <View className="w-full mt-1 bg-sepia-200 dark:bg-sepia-800 p-1 items-center justify-between">
-            {language === "vernacular" ? (
-              <View className="flex-row  items-center gap-1">
-                <FontAwesome
-                  name="arrow-left"
-                  color={COLORS["500"]}
-                  size={12}
-                />
-                <Text className="text-xs text-sepia-500 font-black">Latim</Text>
-              </View>
-            ) : (
-              <View className="flex-row items-center gap-1">
-                <Text className="text-xs text-sepia-500 font-black">
+    <GestureDetector gesture={composedGesture}>
+      <View className="w-full">
+        {/* Swipeable content */}
+        <Animated.View style={[animatedStyle]} className="flex-row w-full">
+          <View className="w-full">{latinContent}</View>
+          <View className="w-full">{vernacularContent}</View>
+        </Animated.View>
+
+        {/* Toggle Button */}
+        <Pressable
+          onPress={toggleLanguage}
+          accessibilityLabel="Toggle Language"
+          accessibilityHint="Swipe or tap to switch between Latin and Vernacular"
+          accessibilityRole="button"
+        >
+          <View className="w-full mt-1 bg-sepia-200 dark:bg-sepia-800 p-2 flex-row items-center justify-center">
+            {isLatin ? (
+              <>
+                <Text className="mr-2 text-xs text-sepia-500 font-black">
                   Português
                 </Text>
                 <FontAwesome
                   name="arrow-right"
                   color={COLORS["500"]}
-                  size={12}
+                  size={14}
                 />
-              </View>
+              </>
+            ) : (
+              <>
+                <FontAwesome
+                  name="arrow-left"
+                  color={COLORS["500"]}
+                  size={14}
+                />
+                <Text className="ml-2 text-xs text-sepia-500 font-black">
+                  Latim
+                </Text>
+              </>
             )}
           </View>
-
-          <View className="flex-1">
-            {language === "vernacular" ? vernacularContent : latinContent}
-          </View>
-        </View>
-      </Pressable>
-    </Swipeable>
+        </Pressable>
+      </View>
+    </GestureDetector>
   );
 }
 
-export default gestureHandlerRootHOC(Language);
+export default Language;
