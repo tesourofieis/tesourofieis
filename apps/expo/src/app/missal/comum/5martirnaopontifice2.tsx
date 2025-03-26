@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page5Martirnaopontifice2() {
   return (
@@ -11,7 +12,7 @@ export default function Page5Martirnaopontifice2() {
           <Text className="h1">Mártir não Pontífice</Text>
           <Text className="h3">Intróito</Text>
           <Text className="em">Sl. 63, 11</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lætábitur justus in Dómino, et sperábit in eo: et laudabúntur
               omnes recti corde. <Text className="latin">Ps. ibid., 2</Text>{" "}
@@ -25,9 +26,9 @@ export default function Page5Martirnaopontifice2() {
               oração com que Vos imploro: livrai a minha alma do temor do
               inimigo.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, intercedénte beáto{" "}
               <Text className="latin">N.</Text> Mártyre tuo, et a cunctis
@@ -40,10 +41,10 @@ export default function Page5Martirnaopontifice2() {
               Mártir, o nosso corpo seja preservado de todas as adversidades e a
               nossa alma purificada dos maus pensamentos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Epístola</Text>
           <Text className="em">2 Tm. 2, 8-10; 3, 10-12</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Timotheum.
             </Text>
@@ -78,10 +79,10 @@ export default function Page5Martirnaopontifice2() {
               todos os que querem viver piamente em Jesus Cristo padecerão
               perseguição.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Gradual</Text>
           <Text className="em">Sl. 36, 24</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus cum cecíderit, non collidétur: quia Dóminus suppónit manum
               suam.<Text className="versicle"> ℣. </Text>
@@ -105,13 +106,13 @@ export default function Page5Martirnaopontifice2() {
               <Text className="vernacular">Jo. 8, 12</Text> Aquele que me segue
               não caminha nas trevas, mas terá a luz da vida eterna. Aleluia.
             </Text>
-          </View>
+          </Language>
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
           </Text>
           <Text className="h3">Trato</Text>
           <Text className="em">Sl. 111, 1-3</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
               <Text className="versicle"> ℣. </Text>
@@ -126,10 +127,10 @@ export default function Page5Martirnaopontifice2() {
               será abençoada.<Text className="versicle"> ℣. </Text>Haverá glória
               e riqueza em sua casa e a sua justiça subsistirá para sempre.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Evangelho</Text>
           <Text className="em">Mt. 10, 26-32</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -165,10 +166,10 @@ export default function Page5Martirnaopontifice2() {
               homens também o confessarei na presença de meu Pai, que está nos
               céus».
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Ofertório</Text>
           <Text className="em">Sl. 20,4-5</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Posuísti, Dómine, in cápite ejus corónam de lápide pretióso: vitam
               pétiit a te, et tribuísti ei, allelúja.
@@ -177,9 +178,9 @@ export default function Page5Martirnaopontifice2() {
               Impusestes na sua cabeça, Senhor, uma coroa de pedras preciosas;
               pediu-Vos a vida e concedestes-lha. Aleluia.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Secreta</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accépta sit in conspéctu tuo, Dómine, nostra devótio: et ejus
               nobis fiat supplicatióne salutáris, pro cujus sollemnitáte
@@ -190,10 +191,10 @@ export default function Page5Martirnaopontifice2() {
               nos alcance a salvação, por intercessão das preces daquele em cuja
               festa nós Vo-la apresentamos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Comúnio</Text>
           <Text className="em">Jo. 12, 26</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui mihi mínistrat, me sequátur: et ubi sum ego, illic et miníster
               meus erit.
@@ -202,9 +203,9 @@ export default function Page5Martirnaopontifice2() {
               Se alguém me serve, siga-me; e onde eu estiver lá estará também o
               meu servo.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Postcomúnio</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus
               noster: ut, cujus exséquimur cultum, intercedénte beáto{" "}
@@ -217,11 +218,11 @@ export default function Page5Martirnaopontifice2() {
               <Text className="vernacular">N.</Text>, vosso Mártir, sintamos o
               efeito do mystério que celebrámos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="aside">Outra Epístola (para certos dias):</Text>
           <Text className="h3">Epístola</Text>
           <Text className="em">Tg. 1, 2-12</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Jacóbi Apóstoli.
             </Text>
@@ -265,7 +266,7 @@ export default function Page5Martirnaopontifice2() {
               quando tiver acabado a provação, receberá a coroa da vida, que
               Deus prometeu aos que O amam.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

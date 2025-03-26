@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0127() {
   return (
@@ -45,7 +46,7 @@ export default function Page0127() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecclésiam tuam, quǽsumus, Dómine, grátia cœléstis amplíficet: quam
               beáti Joánnis Chrysóstomi Confessóris tui atque Pontíficis
@@ -58,13 +59,13 @@ export default function Page0127() {
               ensinos do B. João Crisóstomo, vosso Confessor e Pontífice. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Ecl. 44, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce sacérdos magnus, qui in diébus suis plácuit Deo.
               <Text className="versicle"> ℣. </Text>
@@ -89,7 +90,7 @@ export default function Page0127() {
               varão que sofre com paciência a tentação, porque, quando acabar a
               provação, alcançará a coroa da vida. Aleluia.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

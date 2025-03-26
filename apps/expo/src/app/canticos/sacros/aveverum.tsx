@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageAveverum() {
   return (
@@ -10,7 +11,7 @@ export default function PageAveverum() {
         <View className="docs">
           <Text className="h1">Ave verum</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ave verum corpus, natum de Maria Virgine, vere passum, immolatum
               in cruce pro homine cuius latus perforatum fluxit aqua et
@@ -23,7 +24,7 @@ export default function PageAveverum() {
               fluíram água e sangue; sê para nós uma antecipação na provação da
               morte. Ó Jesus doce, ó Jesus piedoso, ó Jesus, filho de Maria!
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

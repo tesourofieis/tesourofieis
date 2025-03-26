@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page30Amigos() {
   return (
@@ -12,7 +13,7 @@ export default function Page30Amigos() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui cantátis dona per grátiam Sancti Spíritus tuórum
               fidélium córdibus infudísti: da fámulis et famulábus tuis, pro
@@ -29,11 +30,11 @@ export default function Page30Amigos() {
               as potências de sua alma e pratiquem com todo o amor o que Vos é
               agradável. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Miserére, quǽsumus, Dómine, fámulis et famulábus tuis, pro quibus
               hoc sacrifícium laudis tuæ offérimus majestáti: ut, per hæc
@@ -47,11 +48,11 @@ export default function Page30Amigos() {
               alcancem a graça de uma especial bênção e adquiram a glória da
               bem-aventurança eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Divína libántes mystéria, quǽsumus, Dómine: ut hæc salutária
               sacraménta illis profíciant ad prosperitátem et pacem; pro quorum
@@ -64,7 +65,7 @@ export default function Page30Amigos() {
               amor dos quais já os oferecemos à vossa majestade. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

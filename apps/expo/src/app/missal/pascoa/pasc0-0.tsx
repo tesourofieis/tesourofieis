@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc00() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc00() {
 
           <Text className="em">Sl. 138, 18 & 5-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Resurréxi, et adhuc tecum sum, allelúja: posuísti super me manum
               tuam, allelúja: mirábilis facta est sciéntia tua, allelúja,
@@ -31,11 +32,11 @@ export default function PagePasc00() {
               conhecendo quando me deito e quando me levanto.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui hodiérna die per Unigénitum tuum æternitátis nobis
               áditum, devícta morte, reserásti: vota nostra, quæ præveniéndo
@@ -47,13 +48,13 @@ export default function PagePasc00() {
               auxiliai-nos com vosso socorro a realizar os votos que nos
               inspirais com vossa graça. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Cor. 5, 7-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
             </Text>
@@ -73,13 +74,13 @@ export default function PagePasc00() {
               malícia e perversidade, mas com os ázimos da sinceridade e
               verdade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 117, 24 & 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.
               <Text className="versicle"> ℣. </Text>
@@ -102,11 +103,11 @@ export default function PagePasc00() {
               <Text className="vernacular">1 Cor. 5, 7</Text> Cristo nossa
               Páscoa, foi imolado.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Sequência</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Víctimæ pascháli laudes ímmolent Christiáni. Agnus rédemit oves:
               Christus ínnocens Patri reconciliávit peccatóres. Mors et vita
@@ -129,13 +130,13 @@ export default function PagePasc00() {
               verdadeiramente. Ó Rei vencedor, tende piedade de nós. Amen.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mc. 16, 1-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Marcum.
@@ -171,13 +172,13 @@ export default function PagePasc00() {
               fora colocado! Ide, pois, dizer a seus discípulos e a Pedro, que
               Ele vos precede na Galileia e lá O vereis, como vos disse».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 75, 9-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Terra trémuit, et quiévit, dum resúrgeret in judício Deus,
               allelúja.
@@ -186,11 +187,11 @@ export default function PagePasc00() {
               A terra tremeu e aquietou-se, logo que Deus se ergueu para a
               julgar, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, quǽsumus, Dómine, preces pópuli tui cum oblatiónibus
               hostiárum: ut, paschálibus initiáta mystériis, ad æternitátis
@@ -202,13 +203,13 @@ export default function PagePasc00() {
               nos sirvam, com vosso auxílio, de remédio para a eternidade. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">1 Cor. 5, 7-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pascha nostrum immolátus est Christus, allelúja: itaque epulémur
               in ázymis sinceritátis et veritátis, allelúja, allelúja, allelúja.
@@ -218,11 +219,11 @@ export default function PagePasc00() {
               Páscoa com os ázimos da sinceridade e verdade, aleluia, aleluia,
               aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Spíritum nobis, Dómine, tuæ caritátis infúnde: ut, quos
               sacraméntis paschálibus satiásti, tua fácias pietáte concordes.
@@ -234,7 +235,7 @@ export default function PagePasc00() {
               festa pascal vivam unidos em perfeita concórdia, pela vossa
               bondade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

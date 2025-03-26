@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0612() {
   return (
@@ -27,7 +28,7 @@ export default function Page0612() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, auctor pacis et amátor caritátis, qui beátum Joánnem
               Confessórem tuum mirífica dissidéntes componéndi grátia decorásti:
@@ -41,7 +42,7 @@ export default function Page0612() {
               modo consolidados na vossa caridade que nenhuma tentação nos possa
               separar de Vós. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">
             Comemoração dos S. S. Mártires Basilides e Outros
@@ -49,7 +50,7 @@ export default function Page0612() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctórum Mártyrum tuórum Basílidis, Gyrini, Naboris atque
               Nazárii, quǽsumus, Dómine, natalítia nobis votíva respléndeant:
@@ -63,11 +64,11 @@ export default function Page0612() {
               eterna, que eles gozam, reverta em nosso proveito, aumentando os
               frutos da nossa devoção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pro sanctórum tuórum Basílidis, Cyrini, Nabóris atque Nazárii
               sánguine venerándo, hóstias tibi. Dómine, sollémniter immolámus,
@@ -80,11 +81,11 @@ export default function Page0612() {
               Mártires Basilides, Cirino, Nabor e Nazário pelo qual eles
               alcançaram uma brilhante vitória. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Semper, Dómine, sanctórum Martyrum tuórum Basílidis, Cyríni,
               Nabóris atque Nazárii sollémnia celebrántes: præsta, quǽsumus; ut
@@ -96,7 +97,7 @@ export default function Page0612() {
               Vos rogamos, que alcancemos incessantemente o seu patrocínio. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

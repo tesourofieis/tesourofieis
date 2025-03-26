@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageLoreto() {
   return (
@@ -10,7 +11,7 @@ export default function PageLoreto() {
         <View className="docs">
           <Text className="h1">Ladainha Nossa Senhora de Loreto</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Kyrie, eléison.</Text>
             <Text className="vernacular">Senhor, tende piedade de nós.</Text>
             <Text className="latin">Christe, eléison.</Text>
@@ -225,11 +226,11 @@ export default function PageLoreto() {
               Cordeiro de Deus, que tirais o pecado do mundo, tende piedade de
               nós.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">No tempo do Advento:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Angelus Dómini nuntiávit
               Mariæ.
@@ -267,13 +268,13 @@ export default function PageLoreto() {
               intercessão das suas preces. Pelo mesmo Cristo, nosso Senhor.
               Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Desde o Natal até à purificação da B. Virgem Maria:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Post partum, Virgo,
               invioláta permansísti.
@@ -309,13 +310,13 @@ export default function PageLoreto() {
               qual fomos julgados dignos de receber o autor da vida, nosso
               Senhor Jesus Cristo, vosso Filho. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Da Purificação à Páscoa e após o Tempo Pascal até ao Advento:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Ora pro nobis, sancta Dei
               Génitrix.
@@ -351,11 +352,11 @@ export default function PageLoreto() {
               do tempo presente e alcancemos o gozo da alegria eterna. Por
               Cristo, nosso Senhor. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">No Tempo Pascal:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Gaude et lætáre, Virgo
               Maria, allelúja.
@@ -390,7 +391,7 @@ export default function PageLoreto() {
               suplicamos, a graça de alcançarmos pela protecção da Virgem Maria,
               Sua Mãe, a glória eterna. Pelo mesmo Cristo, nosso Senhor. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

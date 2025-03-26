@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageMagnificat() {
   return (
@@ -10,7 +11,7 @@ export default function PageMagnificat() {
         <View className="docs">
           <Text className="h1">Magnificat</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Magníficat ánima mea Dóminum. Et exsultávit spíritus meus: * in
               Deo, salutári meo.
@@ -93,7 +94,7 @@ export default function PageMagnificat() {
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

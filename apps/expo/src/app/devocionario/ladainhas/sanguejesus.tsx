@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageSanguejesus() {
   return (
@@ -10,7 +11,7 @@ export default function PageSanguejesus() {
         <View className="docs">
           <Text className="h1">Ladainha Sangue de Jesus</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Kyrie, eleison.</Text>
             <Text className="vernacular">Senhor, tende piedade de nós.</Text>
             <Text className="latin">Christe, eleison.</Text>
@@ -256,7 +257,7 @@ export default function PageSanguejesus() {
               os males da vida presente, de tal modo que eternamente gozemos dos
               seus frutos no Céu. Pelo mesmo Cristo, Senhor nosso. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

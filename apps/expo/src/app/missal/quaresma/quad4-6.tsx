@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad46() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad46() {
 
           <Text className="em">Is. 55, 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sitiéntes, venite ad aquas, dicit Dóminus: et qui non habétis
               prétium, veníte et bíbite cum lætítia.{" "}
@@ -30,11 +31,11 @@ export default function PageQuad46() {
               ouvidos às palavras que saem da minha boca.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fiat, Dómine, quǽsumus, per grátiam tuam fructuósus nostræ
               devotiónis afféctus: quia tunc nobis próderunt suscépta jejúnia,
@@ -45,13 +46,13 @@ export default function PageQuad46() {
               torne frutuoso, porquanto só nos serão proveitosos os nossos
               jejuns se forem agradáveis à vossa bondade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Is. 49, 8-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -92,13 +93,13 @@ export default function PageQuad46() {
               não tenha piedade do filho das suas entranhas? Pois? ainda que
               esta o esqueça, Eu te não esquecerei»: diz o Senhor omnipotente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 9, 14 & 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tibi, Dómine, derelíctus est pauper: pupíllo tu eris adjútor.
               <Text className="versicle"> ℣. </Text>
@@ -112,13 +113,13 @@ export default function PageQuad46() {
               da tribulação, quando o ímpio se orgulha e persegue o pobre com
               ardor?
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 8, 12-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -163,13 +164,13 @@ export default function PageQuad46() {
               Pai». Estas coisas ensinou Jesus no templo, junto do mealheiro, e
               ninguém o prendeu, porque não era ainda chegada a sua hora.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 17, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Factus est Dóminus firmaméntum meum, et refúgium meum, et
               liberátor meus: et sperábo in eum.
@@ -178,11 +179,11 @@ export default function PageQuad46() {
               O Senhor constituiu-se o meu sustentáculo, o meu refúgio e o meu
               salvador. Eu tenho esperança n’Ele!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblatiónibus nostris, quǽsumus, Dómine, placáre suscéptis: et ad
               te nostras etiam rebélles compélle propítius voluntátes. Per
@@ -193,13 +194,13 @@ export default function PageQuad46() {
               oblações; e pela vossa misericórdia obrigai as nossas vontades
               rebeldes a procurarem-Vos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 22, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dóminus regit me, et nihil mihi déerit: in loco páscuæ ibi me
               collocávit: super aquam refectiónis educávit me.
@@ -208,11 +209,11 @@ export default function PageQuad46() {
               O Senhor é quem me governa; nada me faltará. Ele conduziu-me aos
               lugares de bom pasto; sentou-me ao pé da água, que me refrigera.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tua nos, quǽsumus, Dómine, sancta puríficent: et operatióne sua
               tibi plácitos esse perfíciant. Per Dóminum...
@@ -222,11 +223,11 @@ export default function PageQuad46() {
               purifiquem; e que pela sua virtude nos tornemos sempre agradáveis
               a vossos olhos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -249,7 +250,7 @@ export default function PageQuad46() {
               fim de que mereçamos alcançar a graça da vossa consolação. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuadp33() {
   return (
@@ -56,7 +57,7 @@ export default function PageQuadp33() {
 
           <Text className="em">Sl. 68, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi nos, Dómine, quóniam benígna est misericórdia tua: secúndum
               multitúdinem miseratiónum tuárum réspice nos, Dómine.{" "}
@@ -72,11 +73,11 @@ export default function PageQuadp33() {
               Salvai-me, ó Deus, porque as águas penetraram até ao íntimo da
               minha alma.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, parce pæniténtibus, propitiáre
               supplicántibus: et míttere dignéris sanctum Angelum tuum de cœlis,
@@ -107,11 +108,11 @@ export default function PageQuadp33() {
               protecção para a alma. Por Cristo, nosso Senhor.{" "}
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui non mortem, sed pæniténtiam desíderas peccatórum:
               fragilitátem condiciónis humánæ benigníssime réspice; et hos
@@ -136,11 +137,11 @@ export default function PageQuadp33() {
               pecados e as recompensas prometidas aos que fazem penitência. Por
               Cristo, nosso Senhor. <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui humiliatióne flécteris, et satisfactióne placáris: aurem
               tuæ pietátis inclína précibus nostris; et capítibus servórum
@@ -160,11 +161,11 @@ export default function PageQuadp33() {
               houverem alcançado. Por Cristo, nosso Senhor.{" "}
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui Ninivítis, in cínere et cilício
               pæniténtibus, indulgéntiæ tuæ remédia præstitísti: concéde
@@ -177,13 +178,13 @@ export default function PageQuadp33() {
               cilício, concedei-nos indulgentemente que de tal sorte os imitemos
               que, como eles, alcancemos o vosso perdão. Por nosso Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antífona</Text>
 
           <Text className="em">Jl. 2, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Immutémur hábitu, in cínere et cilício: jejunémus, et plorémus
               ante Dóminum: quia multum miséricors est dimíttere peccáta nostra
@@ -207,13 +208,13 @@ export default function PageQuadp33() {
               «Perdoai, Senhor, perdoai ao vosso povo; e não fecheis a boca
               àqueles que cantam os vossos louvores, ó Senhor».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Responsório</Text>
 
           <Text className="em">Est 13; Jl. 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Emendémus in mélius, quæ ignoránter peccávimus: ne, subito
               præoccupáti die mortis, quærámus spátium pæniténtiæ, et inveníre
@@ -237,24 +238,24 @@ export default function PageQuadp33() {
               nomes, salvai-nos, Senhor. Ouvi-nos, Senhor, e tende misericórdia
               de nós, pois pecámos contra Vós. Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Imposição das Cinzas</Text>
 
           <Text className="em">Gn 3, 19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Memento, homo, quia pulvis es, et in púlverem revertéris.
             </Text>
             <Text className="vernacular">
               Lembra-te, homem, que és pó e que em pó te hás-de tornar.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde nobis, Dómine, præsídia milítiæ christiánæ sanctis
               inchoáre jejúniis: ut, contra spiritáles nequítias pugnatúri,
@@ -268,13 +269,13 @@ export default function PageQuadp33() {
               esforços com os auxílios da abstinência. Por Cristo, nosso Senhor.{" "}
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Intróito</Text>
 
           <Text className="em">Sb, 11, 24, 25 & 27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Miseréris ómnium, Dómine, et nihil odísti eórum quæ fecísti,
               dissímulans peccáta hóminum propter pæniténtiam et parcens illis:
@@ -292,11 +293,11 @@ export default function PageQuadp33() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, Dómine, fidélibus tuis: ut jejuniórum veneránda sollémnia,
               et cóngrua pietáte suscípiant, et secúra devotióne percúrrant. Per
@@ -307,13 +308,13 @@ export default function PageQuadp33() {
               as veneráveis solenidades destes jejuns e que possam continuá-las
               até ao fim sempre devotamente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Jl. 2, 12-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Joélis Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Joel.</Text>
             <Text className="latin">
@@ -358,13 +359,13 @@ export default function PageQuadp33() {
               nunca mais vos abandonarei ao opróbrio das nações»: isto disse o
               Senhor omnipotente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 56, 2 et 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Miserére mei, Deus, miserére mei: quóniam in te confídit ánima
               mea.<Text className="versicle"> ℣. </Text>Misit de cœlo, et
@@ -376,13 +377,13 @@ export default function PageQuadp33() {
               Mandou auxílio do céu, livrando-me, e condenou ao opróbrio aqueles
               que me espezinhavam.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 102, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque
               secúndum iniquitátes nostras retríbuas nobis.
@@ -408,13 +409,13 @@ export default function PageQuadp33() {
               nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do
               vosso nome.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 6, 16-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -450,13 +451,13 @@ export default function PageQuadp33() {
               destroem, nem os ladrões os desenterram ou furtam. Pois, onde
               estiver o vosso tesouro, aí estará o vosso coração.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 29,2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exaltábo te, Dómine, quóniam suscepísti me, nec delectásti
               inimícos meos super me: Dómine, clamávi ad te, et sanásti me.
@@ -466,11 +467,11 @@ export default function PageQuadp33() {
               que meus inimigos abusassem de mim. Clamei por Vós, Senhor, e
               curastes-me.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fac nos, quǽsumus, Dómine, his munéribus offeréndis conveniénter
               aptári: quibus ipsíus venerábilis sacraménti celebrámus exórdium.
@@ -482,13 +483,13 @@ export default function PageQuadp33() {
               celebração deste venerando tempo, cheio de mystério. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 1, 2 & 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui meditábitur in lege Dómini die ac nocte, dabit fructum suum in
               témpore suo.
@@ -497,11 +498,11 @@ export default function PageQuadp33() {
               Aquele que meditar durante o dia e a noite na Lei do Senhor dará
               fruto no tempo próprio.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Percépta nobis, Dómine, prǽbeant sacraménta subsídium: ut tibi
               grata sint nostra jejúnia, et nobis profíciant ad medélam. Per
@@ -513,7 +514,7 @@ export default function PageQuadp33() {
               agradáveis e se tornem em remédio para os nossos males. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0818() {
   return (
@@ -12,7 +13,7 @@ export default function Page0818() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lætétur Ecclésia tua, Deus, beáti Agápiti Mártyris tui confísa
               suffrágiis: atque, ejus précibus gloriósis, et devóta permáneat et
@@ -24,13 +25,13 @@ export default function Page0818() {
               gloriosas preces persevere na piedade e se conserve na paz. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 12, 24-26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -56,11 +57,11 @@ export default function Page0818() {
               a vida eterna. Se alguém me serve, siga-me; e, onde Eu estiver, lá
               estará também o meu servo. Se alguém me servir, meu Pai o honrará.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, múnera, quæ in ejus tibi sollemnitáte deférimus:
               cujus nos confídimus patrocínio liberári. Per Dóminum...
@@ -69,11 +70,11 @@ export default function Page0818() {
               Recebei, Senhor, as ofertas que Vos apresentamos na festa daquele
               por cuja protecção esperamos ser livres. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus,
               semper interventióne nos réfove, cujus sollémnia celebrámus. Per
@@ -84,7 +85,7 @@ export default function Page0818() {
               Vos suplicamos, fortalecei-a sempre pela intercessão daquele cuja
               festa celebramos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

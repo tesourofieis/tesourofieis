@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePelapaz() {
   return (
@@ -14,7 +15,7 @@ export default function PagePelapaz() {
 
           <Text className="em">Ecl. 36, 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da pacem, Dómine, sustinéntibus te, ut prophétæ tui fidéles
               inveniántur: exáudi preces servi tui, et plebis tuæ Israël. (T. P.
@@ -31,11 +32,11 @@ export default function PagePelapaz() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, a quo sancta desidéria, recta consília et justa sunt ópera:
               da servis tuis illam, quam mundus dare non potest, pacem; ut et
@@ -49,13 +50,13 @@ export default function PagePelapaz() {
               vossos mandamentos, e livres do temor dos inimigos e sustentados
               com vossa graça, gozemos dias tranquilos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Mach. 1, 1-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Machabæórum.</Text>
             <Text className="vernacular">Lição do Livro dos Macabeus.</Text>
             <Text className="latin">
@@ -80,13 +81,13 @@ export default function PagePelapaz() {
               Senhor, nosso Deus atenda às vossas orações, se reconcilie
               convosco e vos não abandone nos tempos adversos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 121, 6-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Rogáte quæ ad pacem sunt Jerúsalem: et abundántia diligéntibus te.
               <Text className="versicle"> ℣. </Text>Fiat pax in virtúte tua, et
@@ -108,7 +109,7 @@ export default function PagePelapaz() {
               <Text className="vernacular">Sl. 147, 12</Text> Louvai o Senhor,
               vosso Deus, ó Sião. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
@@ -118,7 +119,7 @@ export default function PagePelapaz() {
 
           <Text className="em">Sl. 75, 2-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Notus in Judǽa Deus, in Israël magnum nomen ejus.
               <Text className="versicle"> ℣. </Text>Et factus est in pace locus
@@ -134,13 +135,13 @@ export default function PagePelapaz() {
               quebraram-se os poderes dos arcos, dos escudos, das espadas e da
               própria guerra.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se, o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 147, 12</Text> Lauda, Jerúsalem,
@@ -157,13 +158,13 @@ export default function PagePelapaz() {
               <Text className="em">ibid., 14</Text> Ele estabeleceu a paz nas
               vossas fronteiras e sustentou-vos com o pão mais fino. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 20, 19-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -196,13 +197,13 @@ export default function PagePelapaz() {
               pecados, ser-lhes-ão perdoados, e àqueles a quem os retiverdes,
               ser-lhes-ão retidos».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 134, 3 & 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Laudáte Dóminum, quia benígnus est: psállite nómini ejus, quóniam
               suávis est: ómnia quæcúmque vóluit, fecit in cœlo et in terra. (T.
@@ -213,11 +214,11 @@ export default function PagePelapaz() {
               nome, porque Ele é suave. Ele fez tudo quanto quis no céu e na
               terra. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui credéntes in te pópulos nullis sinis cóncuti terróribus:
               dignáre preces et hóstias dicátæ tibi plebis suscípere; ut pax, a
@@ -231,13 +232,13 @@ export default function PagePelapaz() {
               cristãos vivam em segurança contra seus inimigos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 14, 27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pacem relínquo vobis: pacem meam do vobis, dicit Dóminus. (T. P.
               Allelúja.)
@@ -246,11 +247,11 @@ export default function PagePelapaz() {
               Eu vos deixo a paz: Eu vos dou a minha paz, diz o Senhor. (T. P.
               Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, auctor pacis et amátor, quem nosse vívere, cui servíre
               regnáre est: prótege ab ómnibus impugnatiónibus súpplices tuos;
@@ -264,7 +265,7 @@ export default function PagePelapaz() {
               para que, havendo posto toda a confiança em Vós, nunca mais
               temamos as armas de nenhum inimigo. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

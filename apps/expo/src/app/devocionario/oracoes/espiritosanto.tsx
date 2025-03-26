@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageEspiritosanto() {
   return (
@@ -10,7 +11,7 @@ export default function PageEspiritosanto() {
         <View className="docs">
           <Text className="h1">Espírito Santo</Text>
           <Text className="h2">Veni, Sancte Spíritus</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veni, Sancte Spíritus! reple tuórum corda fidélium: et tui amóris
               in eis ignem accénde.
@@ -53,11 +54,11 @@ export default function PageEspiritosanto() {
               consolações. Por Cristo, Senhor Nosso.{" "}
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h2">
             Veni Sancte Spíritus, Sequência Pentecostes
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veni, Sancte Spíritus, et emítte cǽlitus lucis tuæ rádium.
             </Text>
@@ -123,7 +124,7 @@ export default function PageEspiritosanto() {
             <Text className="vernacular">
               Dai o mérito da virtude, dai um fim feliz, dai a perene alegria.
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Ao Espírito Santo</Text>Ó Deus clementíssimo,
           escutai com piedade as nossas súplicas e iluminai o nosso coração com
           a graça do Espírito Santo, para que mereçamos servir com dignidade os

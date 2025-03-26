@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageCruzsaobento() {
   return (
@@ -10,7 +11,7 @@ export default function PageCruzsaobento() {
         <View className="docs">
           <Text className="h1">Cruz São Bento</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               C.S.P.B.: Crux Sancti Patris Benedicti.
             </Text>
@@ -41,7 +42,7 @@ export default function PageCruzsaobento() {
             </Text>
             <Text className="latin">Amen.</Text>
             <Text className="vernacular">Amen.</Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

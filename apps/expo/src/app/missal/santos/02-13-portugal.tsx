@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0213Portugal() {
   return (
@@ -24,7 +25,7 @@ export default function Page0213Portugal() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui unigéniti Fílii tui passióne, et per quinque Vúlnera
               ejus sánguinis effusióne, humánam natúram peccáto pérditam
@@ -39,11 +40,11 @@ export default function Page0213Portugal() {
               venerando na terra as suas Cinco Chagas, mereçamos alcançar no céu
               o fruto do mesmo preciosíssimo Sangue. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Majestáti tuæ, quæsumus, Dómine, accépta sint dona, in quibus ipso
               Unigéniti tui Vúlnera tibi offérimus, nostræ prétia libertátis.
@@ -55,11 +56,11 @@ export default function Page0213Portugal() {
               vosso Unigénito, que são o preço da nossa liberdade. Pelo mesmo
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti vitálibus alimóniis, quæsumus, Dómine Deus noster: ut qui
               Vúlnera Dómini nostri Jesu Christi hódie devóte cólimus; hæc in
@@ -73,7 +74,7 @@ export default function Page0213Portugal() {
               costumes que as temos impressas nos nossos corações. Pelo mesmo
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

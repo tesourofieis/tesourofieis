@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuadp10() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuadp10() {
 
           <Text className="em">Sl. 43, 23-26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsúrge, quare obdórmis, Dómine? exsúrge, et ne repéllas in finem:
               quare fáciem tuam avértis, oblivísceris tribulatiónem nostram?
@@ -33,11 +34,11 @@ export default function PageQuadp10() {
               as vossas maravilhas.<Text className="versicle"> ℣. </Text>Glória
               ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui cónspicis, quia ex nulla nostra actióne confídimus:
               concéde propítius; ut, contra advérsa ómnia, Doctóris géntium
@@ -49,13 +50,13 @@ export default function PageQuadp10() {
               contra todas as adversidades. Por nosso Senhor Jesus Cristo, vosso
               Filho, que...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Cor. 11, 19-33; 12, 1-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -153,13 +154,13 @@ export default function PageQuadp10() {
               voluntariamente, com as minhas fraquezas, para que a virtude de
               Cristo resida em mim.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 82, 19 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sciant gentes, quóniam nomen tibi Deus: tu solus Altíssimus super
               omnem terram,<Text className="versicle"> ℣. </Text>Deus meus, pone
@@ -171,13 +172,13 @@ export default function PageQuadp10() {
               meu Deus, tornai os meus inimigos semelhantes à roda, que gira sem
               cessar, ou à palha, que o vento agita e arrebata.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 59, 4 & 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Commovísti, Dómine, terram, et conturbásti eam.
               <Text className="versicle"> ℣. </Text>Sana contritiónes ejus, quia
@@ -189,13 +190,13 @@ export default function PageQuadp10() {
               porque ela está abalada. Que os vossos escolhidos possam fugir
               diante do arco armado contra eles, e que sejam livres.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 8, 4-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -256,13 +257,13 @@ export default function PageQuadp10() {
               aqueles que ouvem a palavra com o coração recto e bom e a guardam,
               produzindo depois fruto pela paciência».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 16, 5, 6-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pérfice gressus meos in sémitis tuis, ut non moveántur vestígia
               mea: inclína aurem tuam, et exáudi verba mea: mirífica
@@ -274,11 +275,11 @@ export default function PageQuadp10() {
               palavras: manifestai as vossas admiráveis misericórdias, Senhor,
               pois salvais os que em Vós confiam!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblátum tibi, Dómine, sacrifícium, vivíficet nos semper et múniat.
               Per Dóminum nostrum...
@@ -287,13 +288,13 @@ export default function PageQuadp10() {
               Senhor, que o sacrifício que Vos oferecemos nos vivifique sempre.
               Por nosso Senhor Jesus Cristo, vosso Filho, que...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 42, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Introíbo ad altáre Dei, ad Deum, qui lætíficat juventútem meam.
             </Text>
@@ -301,11 +302,11 @@ export default function PageQuadp10() {
               Subirei ao altar de Deus: de Deus, que é a alegria da minha
               juventude.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis
               sacraméntis, tibi étiam plácitis móribus dignánter deservíre
@@ -316,7 +317,7 @@ export default function PageQuadp10() {
               alimentais com vossos sacramentos a graça de Vos servirem com uma
               conduta que Vos seja agradável. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

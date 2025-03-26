@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page34Vivos() {
   return (
@@ -12,7 +13,7 @@ export default function Page34Vivos() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præténde, Dómine, fidélibus tuis déxteram cœléstis auxílii: ut te
               toto corde perquírant, et, quæ digne póstulant, cónsequi
@@ -23,11 +24,11 @@ export default function Page34Vivos() {
               caritativa, e fazei que eles Vos procurem de todo o coração e
               mereçam alcançar o que dignamente suplicam. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Propitiáre, Dómine, supplicatiónibus nostris, et has oblatiónes
               fidélium tuórum, quas tibi pro incolumitáte eórum offérimus,
@@ -41,11 +42,11 @@ export default function Page34Vivos() {
               que pedimos com fé, para que os nossos desejos não sejam vãos, nem
               as nossas preces ineficazes. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da fidélibus tuis, quǽsumus, Dómine, in tua fide et sinceritáte
               constántiam: ut, in caritáte divína firmáti, nullis tentatiónibus
@@ -58,7 +59,7 @@ export default function Page34Vivos() {
               inabalavelmente, a despeito de todas as tentações. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

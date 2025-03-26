@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0829() {
   return (
@@ -16,7 +17,7 @@ export default function Page0829() {
 
           <Text className="em">Sl. 118, 46-47</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Loquébar de testimóniis tuis in conspéctu regum, et non
               confundébar: et meditábar in mandátis tuis, quæ diléxi nimis.{" "}
@@ -31,11 +32,11 @@ export default function Page0829() {
               Senhor e cantar hinos em honra do vosso nome, ó Altíssimo.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sancti Joánnis Baptístæ Præcursóris et Martyris tui, quǽsumus,
               Dómine, veneránda festívitas: salutáris auxílii nobis præstet
@@ -46,13 +47,13 @@ export default function Page0829() {
               João Baptista, vosso Precursor e Mártir, nos alcance o efeito do
               vosso salutar auxílio. Ó Vós, que...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">
             Oração Comemoração de Santa Sabina Santa Sabina
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui inter cétera poténtiæ tuæ mirácula étiam in sexu frágili
               victóriam martýrii contulísti: concéde propítius; ut, qui beátæ
@@ -66,13 +67,13 @@ export default function Page0829() {
               Sabina, caminhemos para Vós, imitando os seus exemplos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Jr. 1, 17-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Jeremíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Jeremias.</Text>
             <Text className="latin">
@@ -95,13 +96,13 @@ export default function Page0829() {
               combaterão contra ti, mas não triunfarão, pois estou contigo para
               te livrar», diz o Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 91, 13 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in
               domo Dómini.<Text className="versicle"> ℣. </Text>
@@ -124,13 +125,13 @@ export default function Page0829() {
               <Text className="vernacular">Os. 14, 6</Text> O justo germinará,
               como o lírio, e florescerá eternamente perante o Senhor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mc. 6, 17-29</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Marcum.
@@ -190,13 +191,13 @@ export default function Page0829() {
               Ouvindo isto, os discípulos vieram, levaram o seu corpo e
               colocaram-no em um túmulo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 20, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In virtúte tua, Dómine, lætábitur justus, et super salutáre tuum
               exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.
@@ -205,11 +206,11 @@ export default function Page0829() {
               O justo, Senhor, alegrar-se-á com vosso poder e rejubilará,
               vendo-se salvo por Vós: concedestes-lhe o desejo do seu coração.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera, quæ tibi, Dómine, pro sancti Martyris tui Joánnis Baptístæ
               passióne deférimus: quǽsumus; ut ejus obténtu nobis profíciant ad
@@ -221,13 +222,13 @@ export default function Page0829() {
               pelos seus méritos que sirvam de proveito à nossa salvação. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">
             Secreta Comemoração de Santa Sabina Santa Sabina
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, beátæ Sabínæ Mártyris tuæ dicátas méritis,
               benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.
@@ -238,24 +239,24 @@ export default function Page0829() {
               méritos da B. Virgem e Mártir Sabina, e dignai-Vos permitir que
               ela nos sirva de perpétuo auxílio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 20, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Posuísti, Dómine, in cápite ejus corónam de lápide pretióso.
             </Text>
             <Text className="vernacular">
               Senhor, colocastes na sua cabeça uma coroa de pedras preciosas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cónferat nobis, Dómine, sancti Joánnis Baptístæ sollémnitas: ut et
               magnífica sacraménta, quæ súmpsimus, significáta venerémur, et in
@@ -267,13 +268,13 @@ export default function Page0829() {
               aparências dos mesmos significam; e, mais ainda, de gozarmos a
               alegria de os haver recebido. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">
             Postcomúnio Comemoração de Santa Sabina Santa Sabina
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Divíni muneris largitáte satiáti, quǽsumus, Dómine, Deus noster:
               ut, intercedénte beáta Sabína Mártyre tua, in ejus semper
@@ -285,7 +286,7 @@ export default function Page0829() {
               que durante a nossa vida comparticipemos sempre deste dom divino.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

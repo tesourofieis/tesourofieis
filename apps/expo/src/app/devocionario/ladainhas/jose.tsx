@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageJose() {
   return (
@@ -10,7 +11,7 @@ export default function PageJose() {
         <View className="docs">
           <Text className="h1">Ladainha São José</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Kyrie, eleison.</Text>
             <Text className="vernacular">Senhor, tende piedade de nós.</Text>
             <Text className="latin">Christe, eleison.</Text>
@@ -182,7 +183,7 @@ export default function PageJose() {
               nosso intercessor no Céu. Vós que sois Deus com o Pai, na unidade
               do Espírito Santo. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

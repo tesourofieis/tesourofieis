@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0617Portugal() {
@@ -15,7 +16,7 @@ export default function Page0617Portugal() {
 
           <Text className="em">Sl. 44, 15-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adducéntur Regi Vírgines post eam, próximæ ejus afferéntur in
               lætitia et exsultatióne: adducéntur in templum Regis Dómini.{" "}
@@ -31,11 +32,11 @@ export default function Page0617Portugal() {
               proferiu uma excelente palavra: «Consagro ao Rei as minhas obras».
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui ad Ecclésiam tuam novis semper exémplis imbuéndam,
               beátam Terésiam, mundáno principátu despécto, ad humilitátis tuæ
@@ -53,13 +54,13 @@ export default function Page0617Portugal() {
               Paixão, vençamos todas as adversidades. Ó Vós, que viveis e
               reinais...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ct. 2, 8-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -91,13 +92,13 @@ export default function Page0617Portugal() {
               ruínas, mostra-me a tua face e soe tua voz nos meus ouvidos. A tua
               voz é doce e a tua face graciosa!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 115, 16-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dirupísti víncula mea: tibi sacrificábo hóstiam laudis, et nomen
               Dómini invocábo.<Text className="versicle"> ℣. </Text>
@@ -122,7 +123,7 @@ export default function Page0617Portugal() {
               Sentei-me à sombra daquele que eu desejara e o seu fruto é muito
               saboroso ao meu paladar. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -133,7 +134,7 @@ export default function Page0617Portugal() {
 
           <Text className="h3">Ofertório</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vultum tuum deprecabúntur omnes dívites plebis: filiæ regum in
               honóre tuo.
@@ -142,11 +143,11 @@ export default function Page0617Portugal() {
               Todos os poderosos do povo implorarão o seu rosto: as filhas dos
               reis honrar-vos-ão.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, sacrifícium, cujus te voluísti dignánter
               immolatióne placári: et præsta, ut beátæ Terésiæ intercessióne
@@ -157,13 +158,13 @@ export default function Page0617Portugal() {
               ser dignamente aplacado; e concedei-nos que pela intercessão da B.
               Teresa seja proveitoso à nossa salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Ct. 6, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vidérunt eam fíliæ, et beatíssimam prædicavérunt; reginæ, et
               laudavérunt eam.
@@ -172,11 +173,11 @@ export default function Page0617Portugal() {
               As filhas (de Sião) viram-na e proclamaram-na bem-aventurada: e as
               rainhas louvaram-na.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ascéndant ad te, Dómine, preces nostræ, Beatæ Terésiæ
               suffragántibus méritis: ut cæléstibus dápibus temporáliter
@@ -188,7 +189,7 @@ export default function Page0617Portugal() {
               alegramos com a posse das riquezas celestiais, assim também
               gozemos a doçura do convívio eterno. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

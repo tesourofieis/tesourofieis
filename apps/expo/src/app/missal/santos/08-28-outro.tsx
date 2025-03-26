@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0828Outro() {
   return (
@@ -22,7 +23,7 @@ export default function Page0828Outro() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Hermétem Mártyrem tuum virtúte constántiæ in
               passióne roborásti: ex ejus nobis imitatióne tríbue; pro amóre tuo
@@ -35,11 +36,11 @@ export default function Page0828Outro() {
               seguindo seu exemplo, desprezemos as prosperidades deste mundo e
               nunca temamos as adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifícium tibi, Dómine, laudis offérimus in tuórum
               commemoratióne Sanctórum: da, quǽsumus; ut, quod illis cóntulit
@@ -50,11 +51,11 @@ export default function Page0828Outro() {
               sacrifício de louvor; e, Vos imploramos, fazei que aquilo que lhe
               alcançou a glória sirva de proveito à nossa salvação. Por n...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Repleti, Dómine, benedictióne cœlésti, quǽsumus cleméntiam tuam:
               ut, intercedénte beáto Herméte Mártyre tuo, quæ humíliter gérimus,
@@ -66,7 +67,7 @@ export default function Page0828Outro() {
               Mártir, alcancemos os salutares efeitos do sacrifício, que
               humildemente celebramos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

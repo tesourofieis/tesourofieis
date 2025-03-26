@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0710() {
@@ -35,7 +36,7 @@ export default function Page0710() {
 
           <Text className="em">Sl. 112, 1 & 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Laudáte, pueri, Dóminum, laudáte nomen Dómini: qui habitáre facit
               stérilem in domo, matrem filiórum lætántem.{" "}
@@ -51,11 +52,11 @@ export default function Page0710() {
               nome do Senhor, agora e em todos os séculos.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui gloriósos Martyres
               fortes in sua confessióne cognóvimus, pios apud te in nostra
@@ -67,7 +68,7 @@ export default function Page0710() {
               fé, sintamos quanto eles junto de Vós são fervorosos, intercedendo
               por nós. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -80,7 +81,7 @@ export default function Page0710() {
 
           <Text className="em">Sl. 123, 7-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Anima nostra, sicut passer, erépta est de láqueo venántium.
               <Text className="versicle"> ℣. </Text>
@@ -103,13 +104,13 @@ export default function Page0710() {
               verdadeira fraternidade que venceu os perigos do mundo. Ela seguiu
               Cristo e possuirá com glória o reino celestial. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 12, 46-50</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -137,13 +138,13 @@ export default function Page0710() {
               irmãos, pois todo aquele que faz a vontade de meu Pai, que está
               nos céus, é meu irmão, minha irmã e minha mãe».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 123, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Anima nostra, sicut passer, erépta est de láqueo venántium:
               láqueus contrítus est, et nos liberáti sumus.
@@ -152,11 +153,11 @@ export default function Page0710() {
               A nossa alma livrou-se, como um pássaro, do laço dos caçadores. O
               laço quebrou-se e ficámos livres.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifíciis præséntibus, quǽsumus, Dómine, inténde placátus: et,
               intercedéntibus Sanctis tuis, devotióni nostræ profíciant et
@@ -167,13 +168,13 @@ export default function Page0710() {
               que por intercessão dos vossos Santos ele nos sirva para aumentar
               a nossa devoção e para alcançar a salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 12, 50</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quicumque fecerit voluntátem Patris mei, qui in cælis est: ipse
               meus frater et soror et mater est, dicit Dóminus.
@@ -182,11 +183,11 @@ export default function Page0710() {
               Todo aquele que faz a vontade de meu Pai, que está nos céus, é meu
               irmão, minha irmã e minha mãe, diz o Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, intercedéntibus Sanctis tuis,
               illíus salutáris capiámus efféctum; cujus per heec mystéria pignus
@@ -197,7 +198,7 @@ export default function Page0710() {
               vossos Santos, Vos digneis dispensar-nos o efeito da salvação, de
               que já recebemos o penhor nestes mystérios. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

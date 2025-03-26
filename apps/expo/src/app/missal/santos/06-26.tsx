@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0626() {
@@ -48,7 +49,7 @@ export default function Page0626() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut nos gemináta lætítia hodiérnæ
               festivitátis excípiat, quæ de beatórum Joánnis et Pauli
@@ -61,13 +62,13 @@ export default function Page0626() {
               B. João e Paulo, que a mesma fé e o mesmo martírio tornaram
               verdadeiramente irmãos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ecl. 44, 10-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -89,12 +90,12 @@ export default function Page0626() {
               todas as gerações. Que os povos, pois, publiquem a sua sabedoria e
               que a Igreja cante os seus louvores.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 132, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce, quam bonum et quam jucúndum, habitáre fratres in unum!
               <Text className="versicle"> ℣. </Text>
@@ -115,7 +116,7 @@ export default function Page0626() {
               verdadeira fraternidade que venceu os crimes do mundo: ela seguiu
               Cristo e por isso possuirá gloriosamente o reino do céu. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -128,7 +129,7 @@ export default function Page0626() {
 
           <Text className="em">Sl. 5, 12-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gloriabúntur in te omnes, qui díligunt nomen tuum, quóniam tu,
               Dómine, benedíces justo: Dómine, ut scuto bonæ voluntátis tuæ
@@ -139,11 +140,11 @@ export default function Page0626() {
               convosco, pois abençoais o justo. Vós o protegereis, Senhor, com
               vossa boa vontade, como se fora um escudo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli
               dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue
@@ -155,13 +156,13 @@ export default function Page0626() {
               virtude delas, fazer descer sobre nós o vosso perpétuo socorro.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sb. 3, 4, 5 & 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Est si coram homínibus torménta passi sunt, Deus tentavit eos:
               tamquam aurum in fornáce probávit eos, et quasi holocáusta accépit
@@ -172,11 +173,11 @@ export default function Page0626() {
               provou. Deus provou-os, como ao ouro, na fornalha, e recebeu-os,
               como hóstia de holocausto.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súmpsimus, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli
               sollémnia celebrántes, sacraménta cœléstia: præsta, quǽsumus; ut,
@@ -189,7 +190,7 @@ export default function Page0626() {
               suplicamos, que alcancemos nos gozos eternos o que agora
               celebrámos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

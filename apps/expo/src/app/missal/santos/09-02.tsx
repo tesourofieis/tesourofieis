@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0902() {
@@ -31,7 +32,7 @@ export default function Page0902() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, Ecclésiæ tuæ, omnípotens Deus: ut beátum
               Stéphanum Confessórem tuum, quem regnántem in terris propagatórem
@@ -44,13 +45,13 @@ export default function Page0902() {
               enquanto reinou na terra, seja agora seu defensor na glória dos
               céus. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 19, 12-26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -112,11 +113,11 @@ export default function Page0902() {
               Senhor, dar-se-á àquele que tem, e ficará na abundância; mas
               àquele que nada tem tirar-se-lhe-á até o que tiver».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réspice, quas offérimus, hóstias, omnípotens Deus: et præsta; ut,
               qui passiónis Dominicae mystéria celebrámus, imitémur quod ágimus.
@@ -127,11 +128,11 @@ export default function Page0902() {
               oferecemos, e permiti que, celebrando nós os mystérios da Paixão
               do Senhor, imitemos o que Vos apresentamos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut beáti Stephani Confessóris
               tui fidem cóngrua devotióne sectémur; qui, pro ejúsdem fídei
@@ -145,7 +146,7 @@ export default function Page0902() {
               transitar da realeza terrestre para a glória do reino celestial.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

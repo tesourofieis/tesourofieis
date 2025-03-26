@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0827() {
@@ -15,7 +16,7 @@ export default function Page0827() {
 
           <Text className="em">Sl. 33, 12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veníte, fílii, audíte me: timorem Dómini docébo vos.{" "}
               <Text className="latin">Ps. ibid., 2</Text> Benedícam Dóminum in
@@ -28,11 +29,11 @@ export default function Page0827() {
               em todas as ocasiões: o seu louvor estará sempre na minha boca.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui per sanctum Joséphum Confessórem tuum, ad erudiéndam
               spíritu intellegéntiæ ac pietátis juventútem, novum Ecclésiæ tuæ
@@ -48,7 +49,7 @@ export default function Page0827() {
               modo que consigamos alcançar os prémios eternos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -61,7 +62,7 @@ export default function Page0827() {
 
           <Text className="em">Sl. 36, 30-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.
               <Text className="versicle"> ℣. </Text>Lex Dei ejus in corde
@@ -84,13 +85,13 @@ export default function Page0827() {
               varão que sofre a tentação, porque, depois de ser provado,
               receberá a coroa da vida. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 18, 1-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -118,13 +119,13 @@ export default function Page0827() {
               céus; e quem receber um pequeno, como este, em meu nome, recebe-me
               a mim mesmo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 9, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Desidérium páuperum exaudívit Dóminus: præparatiónem cordis eórum
               audívit auris tua.
@@ -133,11 +134,11 @@ export default function Page0827() {
               O Senhor ouviu o desejo dos pobres; os seus ouvidos escutaram a
               pureza do seu coração.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Altáre tuum, Dómine, munéribus cumulamus oblatis: ut ejus nobis
               fiant supplicatione propitia, cujus nos donasti patrocínio
@@ -149,13 +150,13 @@ export default function Page0827() {
               proporcionastes para nos auxiliar com seu patrocínio. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mc. 10, 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sínite párvulos veníre ad me, et ne prohibuéritis eos: tálium est
               enim regnum Dei.
@@ -164,11 +165,11 @@ export default function Page0827() {
               Deixai aproximarem-se de mim as criancinhas e as não afasteis,
               pois delas é o reino de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctificáti, Dómine, salutári mystério: quǽsumus; ut,
               intercedénte sancto Josépho Confessóre tuo, ad majus semper
@@ -180,7 +181,7 @@ export default function Page0827() {
               aumentemos sempre cada vez mais a nossa piedade. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

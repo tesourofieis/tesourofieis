@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0615() {
@@ -17,7 +18,7 @@ export default function Page0615() {
 
           <Text className="em">Sl. 33, 20-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Multæ tribulationes justórum, et de his ómnibus liberávit eos
               Dóminus: Dóminus custodit ómnia ossa eórum: unum ex his non
@@ -33,11 +34,11 @@ export default function Page0615() {
               Bendirei o Senhor em todo o tempo; o seu louvor estará sempre na
               minha boca.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da Ecclésiæ tuæ, quǽsumus, Dómine, sanctis Martýribus tuis Vito,
               Modésto atque Crescéntia intercedéntibus, supérbe non sápere, sed
@@ -51,7 +52,7 @@ export default function Page0615() {
               tão agradável, a fim de que, desprezando todo o mal, exerçam
               livremente a caridade em tudo quanto é bom. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -64,7 +65,7 @@ export default function Page0615() {
 
           <Text className="em">Sl. 149, 5 & 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsultábunt Sancti in glória: lætabúntur in cubílibus suis.
               <Text className="versicle"> ℣. </Text>
@@ -87,13 +88,13 @@ export default function Page0615() {
               Santos Vos bendigam: que publiquem a glória do vosso reino.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 10, 16-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -126,7 +127,7 @@ export default function Page0615() {
               porque os espíritos estão sujeitos a vós; mas porque os vossos
               nomes estão escritos nos céus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
@@ -137,7 +138,7 @@ export default function Page0615() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sicut glóriam divínæ poténtiæ múnera pro Sanctis obláta testántur:
               sic nobis efféctum, Dómine, tuæ salvatiónis impéndant. Per Dóminum
@@ -148,13 +149,13 @@ export default function Page0615() {
               testemunham gloriosamente o poder divino, assim também, Senhor,
               permiti que eles nos alcancem a salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sb. 3, 1-2 & 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justórum ánimæ in manu Dei sunt, et non tanget illos torméntum
               malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in
@@ -165,11 +166,11 @@ export default function Page0615() {
               lhes não causará dano. Aos olhos dos insensatos pareciam mortos,
               mas estão na paz.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Repléti, Dómine, benedictióne sollémni: quǽsumus; ut, per
               intercessiónem sanctórum Mártyrum tuórum Viti, Modésti et
@@ -183,7 +184,7 @@ export default function Page0615() {
               medicina proveitosa para as nossas almas e corpos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page3Hierarquiaigreja() {
   return (
@@ -12,7 +13,7 @@ export default function Page3Hierarquiaigreja() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, cujus spíritu totum corpus Ecclésiæ
               sanctificátur et régitur: exáudi nos pro univérsis ordínibus
@@ -26,11 +27,11 @@ export default function Page3Hierarquiaigreja() {
               graça os vossos Ministros de todos os graus Vos sirvam fielmente.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da fámulis tuis, Dómine, indulgéntiam peccatórum, consolatiónem
               vitæ, gubernatiónem perpétuam: ut, tibi serviéntes, ad tuam
@@ -42,11 +43,11 @@ export default function Page3Hierarquiaigreja() {
               que, servindo-Vos com fidelidade, lhes dispenseis continuamente a
               vossa misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Líbera, quǽsumus, Dómine, a peccátis et hóstibus fámulos tuos,
               tibi supplicántes: ut, in sancta conversatióne vivéntes, nullis
@@ -58,7 +59,7 @@ export default function Page3Hierarquiaigreja() {
               de que, tendo sempre boa conduta, não sejam oprimidos com nenhuma
               adversidade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

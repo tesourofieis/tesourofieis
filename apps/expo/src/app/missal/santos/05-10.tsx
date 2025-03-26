@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0510() {
   return (
@@ -22,7 +23,7 @@ export default function Page0510() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sancti Antonini, Dómine, Confessóris tui atque Pontíficis méritis
               adjuvémur: ut, sicut te in illo mirábilem prædicámus, ita in nos
@@ -35,7 +36,7 @@ export default function Page0510() {
               glorificar as vossas misericórdias para connosco. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">
             Comemoração dos S. S. Mártires Gordiano e Epímaco
@@ -52,7 +53,7 @@ export default function Page0510() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, omnípotens Deus: ut, qui beatórum Mártyrum tuórum
               Gordiáni et Epimachi sollémnia cólimus, eórum apud te
@@ -63,11 +64,11 @@ export default function Page0510() {
               festa dos vossos B. B. Mártires Gordiano e Epímaco, alcancemos o
               auxílio da sua intercessão junto de vós. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, beatórum Martyrum tuórum Gordiáni et
               Epimáchi dicátas méritis, benígnus assúme: et ad perpétuum nobis
@@ -78,11 +79,11 @@ export default function Page0510() {
               méritos dos vossos B. B. Mártires Gordiano e Epímaco e fazei que
               nos sirvam de perpétuo auxílio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus,
               intercedéntibus sanctis Martýribus tuis Gordiáno et Epímacho, per
@@ -94,7 +95,7 @@ export default function Page0510() {
               Mártires, que por este alimento sejamos robustecidos contra todas
               as adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

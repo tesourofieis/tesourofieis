@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0621() {
@@ -15,7 +16,7 @@ export default function Page0621() {
 
           <Text className="em">Sl. 8, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Minuísti eum paulo minus ab Angelis: glória et honóre coronásti
               eum. <Text className="latin">Ps. 148, 2</Text> Laudáte Dóminum,
@@ -30,11 +31,11 @@ export default function Page0621() {
               do Senhor louvem o Senhor.<Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœléstium donórum distribútor, Deus, qui in angélico júvene
               Aloísio miram vitæ innocéntiam pari cum pœniténtia sociásti: ejus
@@ -48,7 +49,7 @@ export default function Page0621() {
               preces que o imitemos na penitência, já que o não acompanhamos na
               inocência. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -61,7 +62,7 @@ export default function Page0621() {
 
           <Text className="em">Sl. 70, 5-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, spes mea: in te confirmátus sum ex útero: de ventre matris
               meæ tu es protéctor meus.<Text className="versicle"> ℣. </Text>
@@ -88,13 +89,13 @@ export default function Page0621() {
               aquele que escolhestes e chamastes para junto de Vós, pois
               habitará nos átrios do Senhor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 22, 28-40</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -138,13 +139,13 @@ export default function Page0621() {
               mesmo. Nestes dois mandamentos se encerram toda a Lei e os
               Profetas».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 23, 3-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quis ascéndet in montem Dómini, aut quis stabit in loco sancto
               ejus? Innocens mánibus, et mundo corde.
@@ -153,11 +154,11 @@ export default function Page0621() {
               Quem ascenderá à montanha do Senhor? Quem permanecerá no seu lugar
               sagrado? Aqueles cujas mãos são inocentes e cujo coração é puro.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœlésti convívio fac nos, Dómine, nuptiáli veste indútos
               accúmbere: quam beáti Aloísii pia præparátio et juges lácrimæ
@@ -169,24 +170,24 @@ export default function Page0621() {
               com suas fervorosas disposições e lágrimas contínuas, ornava de
               pérolas preciosas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 77, 24-25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Panem cœli dedit eis: panem Angelórum manducávit homo.
             </Text>
             <Text className="vernacular">
               Deu-lhe o pão do céu: o homem comeu o pão dos Anjos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Angelórum esca nutrítos, angélicis étiam, Dómine, da móribus
               vívere: et ejus, quem hódie cólimus, exémplo in gratiárum semper
@@ -198,7 +199,7 @@ export default function Page0621() {
               daquele que festejamos hoje, vivamos apresentando-Vos sempre a
               nossa acção de graças. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

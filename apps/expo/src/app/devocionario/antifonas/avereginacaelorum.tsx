@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageAvereginacaelorum() {
   return (
@@ -10,7 +11,7 @@ export default function PageAvereginacaelorum() {
         <View className="docs">
           <Text className="h1">Ave, Regína cælórum</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ave, Regína cælórum, Ave, Dómina Angelórum: Salve radix, salve
               porta, Ex qua mundo lux est orta: Gaude, Virgo gloriósa, Super
@@ -62,7 +63,7 @@ export default function PageAvereginacaelorum() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

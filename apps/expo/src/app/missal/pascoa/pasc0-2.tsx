@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc02() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc02() {
 
           <Text className="em">Ecl. 15, 3 & 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Aqua sapiéntiæ potávit eos, allelúja: firmábitur in illis et non
               flectétur, allelúja: et exaltábit eos in ætérnum, allelúja,
@@ -30,11 +31,11 @@ export default function PagePasc02() {
               aclamai o seu nome: publicai as suas obras em todos os povos.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui Ecclésiam tuam novo semper fetu multíplicas: concéde
               fámulis tuis; ut sacraméntum vivéndo téneant, quod fide
@@ -46,13 +47,13 @@ export default function PagePasc02() {
               conduta de sua vida, o efeito do sacramento que receberam pela fé.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act. 13, 16 & 26-33</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolórum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -88,13 +89,13 @@ export default function PagePasc02() {
               anunciamos que a promessa feita a nossos pais, Deus já a cumpriu
               para os nossos filhos, ressuscitando nosso Senhor Jesus Cristo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 117, 24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.
               <Text className="versicle"> ℣. </Text>
@@ -118,13 +119,13 @@ export default function PagePasc02() {
               do sepulcro o Senhor, que havia sido pregado no madeiro por nossa
               causa.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 24, 36-47</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -173,13 +174,13 @@ export default function PagePasc02() {
               ao terceiro dia e em seu nome fosse pregada a penitência e a
               remissão dos pecados em todas as nações».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 17, 14 & 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Intónuit de cœlo Dóminus, et Altíssimus dedit vocem suam: et
               apparuérunt fontes aquárum, allelúja.
@@ -188,11 +189,11 @@ export default function PagePasc02() {
               Lá no céu o Senhor trovejou e o Altíssimo fez ouvir a sua voz.
               Então irromperam as fontes das águas, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, fidélium preces cum oblatiónibus hostiárum: ut,
               per hæc piæ devotiónis offícia, ad cœléstem glóriam transeámus.
@@ -203,13 +204,13 @@ export default function PagePasc02() {
               destas hóstias, a fim de que, por meio destes cultos de devoção
               piedosa, alcancemos glória celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Cl. 3, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Si consurrexístis cum Christo, quæ sursum sunt quǽrite, ubi
               Christus est in déxtera Dei sedens, allelúja: quæ sursum sunt
@@ -220,11 +221,11 @@ export default function PagePasc02() {
               Cristo está assentado à mão direita de Deus, aleluia; meditai nas
               coisas do céu, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, omnípotens Deus: ut paschális percéptio
               sacraménti, contínua in nostris méntibus persevéret. Per
@@ -235,7 +236,7 @@ export default function PagePasc02() {
               pascal, que recebemos, permaneça perpetuamente nas nossas almas.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

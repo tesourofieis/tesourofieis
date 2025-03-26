@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageAdv10() {
   return (
@@ -14,7 +15,7 @@ export default function PageAdv10() {
 
           <Text className="em">Sl. 24, 1–3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ad te levávi ánimam meam: Deus meus, in te confíde, non erubéscam:
               neque irrídeant me inimíci mei: étenim univérsi, qui te
@@ -31,11 +32,11 @@ export default function PageAdv10() {
               Senhor, os vossos caminhos: e ensinai-me a conhecer as vossas
               veredas.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Excita, quǽsumus, Dómine, poténtiam tuam, et veni: ut ab
               imminéntibus peccatórum nostrórum perículis, te mereámur
@@ -51,13 +52,13 @@ export default function PageAdv10() {
               Deus Pai em unidade do Espírito Santo, Deus, em todos os séculos
               dos séculos. <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Rm. 13, 11–14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beati Pauli Apostoli ad Romános.
             </Text>
@@ -82,13 +83,13 @@ export default function PageAdv10() {
               de comidas e bebidas nem em luxúrias e impurezas, nem em contendas
               e invejas; mas revistamo-nos de Nosso Senhor Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 24, 3–4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Univérsi, qui te exspéctant, non confundéntur, Dómine. Vias tuas,
               Dómine, notas fac mihi: et sémitas tuas édoce me.
@@ -108,13 +109,13 @@ export default function PageAdv10() {
               <Text className="vernacular">Sl. 84, 8</Text> Mostrai-nos, Senhor,
               a vossa misericórdia: e dai-nos a salvação. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 21, 25–33</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -155,13 +156,13 @@ export default function PageAdv10() {
               a terra passarão; mas as minhas palavras permanecerão para
               sempre».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 24, 1–3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ad te levávi ánimam meam: Deus meus, in te confído, non erubéscam:
               neque irrídeant me inimíci mei: étenim univérsi, qui te
@@ -172,11 +173,11 @@ export default function PageAdv10() {
               permitireis que fique confundido; nem que meus inimigos zombem de
               mim: porquanto aqueles que em Vós esperam não serão confundidos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc sacra nos, Dómine, poténti virtúte mundátos ad suum fáciant
               purióres veníre princípium. Per Dominum nostrum...
@@ -186,13 +187,13 @@ export default function PageAdv10() {
               purificado com vossa poderosa virtude, nos façam chegar mais puros
               ainda junto daquele que é o seu princípio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 84, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dóminus dabit benignitátem: et terra nostra dabit fructum suum.
             </Text>
@@ -200,11 +201,11 @@ export default function PageAdv10() {
               O Senhor mostrará a sua bondade: e a nossa terra dará «o seu
               fruto».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Suscipiámus, Dómine, misericórdiam tuam in médio templi tui: ut
               reparatiónis nostræ ventúra sollémnia cóngruis honóribus
@@ -215,7 +216,7 @@ export default function PageAdv10() {
               vosso templo, para que celebremos com a conveniente preparação a
               próxima solenidade da nossa reparação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

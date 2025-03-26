@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0731() {
@@ -89,7 +90,7 @@ export default function Page0731() {
 
           <Text className="em">Fl. 2, 10-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In nómine Jesu omne genu fléctitur, cœléstium, terréstrium et
               infernórum: et omnis lingua confiteátur, quia Dóminus Jesus
@@ -106,11 +107,11 @@ export default function Page0731() {
               glorificados todos aqueles que amam o vosso nome, pois abençoais o
               justo.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui ad majórem tui nóminis glóriam propagándam, novo per
               beátum Ignátium subsídio militántem Ecclésiam roborásti: concéde;
@@ -124,7 +125,7 @@ export default function Page0731() {
               seu auxílio, mereçamos ser coroados com ele nos céus. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -151,7 +152,7 @@ export default function Page0731() {
 
           <Text className="em">Sl. 88, 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Véritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus.
@@ -160,11 +161,11 @@ export default function Page0731() {
               A minha fidelidade e a minha misericórdia estarão com eles, e por
               virtude do meu nome será exaltado o seu poder.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adsint, Dómine Deus, oblatiónibus nostris sancti Ignátii benígna
               suffrágia: ut sacrosáncta mystéria, in quibus omnis sanctitátis
@@ -177,24 +178,24 @@ export default function Page0731() {
               mystérios, de que fazeis depender a origem de toda a santidade,
               nos alcancem a verdadeira santificação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 12, 49</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ignem veni míttere in terram: et quid volo, nisi ut accendátur?
             </Text>
             <Text className="vernacular">
               Eu vim trazer o fogo à terra: e que quero senão que ele se acenda?
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Laudis hóstia, Dómine, quam pro sancto Ignátio grátias agentes
               obtúlimus: ad perpétuam nos majestátis tuæ laudatiónem, ejus
@@ -206,7 +207,7 @@ export default function Page0731() {
               intercessão o céu, onde a vossa majestade recebe perpétuo louvor.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

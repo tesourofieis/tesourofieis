@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0102() {
   return (
@@ -23,7 +24,7 @@ export default function Page0102() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui primítias Mártyrum in beáti Levítæ
               Stéphani sánguine dedicásti: tríbue, quǽsumus; ut pro nobis
@@ -37,7 +38,7 @@ export default function Page0102() {
               Jesus Cristo rogou pelos seus perseguidores. Ele que, sendo
               Deus...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

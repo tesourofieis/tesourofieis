@@ -2,6 +2,7 @@ import { Link } from "expo-router";
 
 import React from "react";
 import { SafeAreaView, ScrollView, Text, View } from "react-native";
+import Language from "~/components/Language";
 
 export default function PageConsagracaobispo() {
   return (
@@ -30,7 +31,7 @@ export default function PageConsagracaobispo() {
 
           <Text className="em">Heb. 5, 1-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
             </Text>
@@ -56,13 +57,13 @@ export default function PageConsagracaobispo() {
               Ninguém tome para si esta honra, mas espere que seja chamado por
               Deus, como Aarão.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mc. 13, 33-37</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Marcum.
@@ -91,7 +92,7 @@ export default function PageConsagracaobispo() {
               aconteça que, regressando ele repentinamente, vos encontre a
               dormir. O que a vós digo, a todos o digo: Vigiai!».
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

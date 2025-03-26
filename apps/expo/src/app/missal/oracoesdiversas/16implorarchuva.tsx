@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page16Implorarchuva() {
   return (
@@ -12,7 +13,7 @@ export default function Page16Implorarchuva() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, in quo vívimus, movémur et sumus: plúviam nobis tríbue
               congruéntem; ut, præséntibus subsídiis sufficiénter adjuti,
@@ -24,11 +25,11 @@ export default function Page16Implorarchuva() {
               subsídios temporais, aspiremos com mais confiança às coisas
               eternas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblátis, quǽsumus, Dómine, placáre munéribus: et opportúnum nobis
               tríbue plúviæ sufficiéntis auxílium. Per Dóminum...
@@ -38,11 +39,11 @@ export default function Page16Implorarchuva() {
               concedei-nos o auxílio da chuva, segundo as necessidades
               presentes. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da nobis, quǽsumus, Dómine, plúviam salutárem: et áridam terræ
               fáciem fluéntis cœléstibus dignánter infúnde. Per Dóminum...
@@ -52,7 +53,7 @@ export default function Page16Implorarchuva() {
               misericordiosamente as águas do céu pela superfície seca da terra.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LadainhaLoreto from "./ladainhas/loreto";
 import AveMaria from "./oracoes/avemaria";
 import Gloria from "./oracoes/gloria";
@@ -16,7 +17,7 @@ export default function PageRosario() {
         <View className="docs">
           <Text className="h1">Rosário</Text>
           <Text className="h1">Sinal da Cruz</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> In nómine Patris, et Fílii, et
               Spíritus Sancti.
@@ -31,7 +32,7 @@ export default function PageRosario() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h1">No Crucifixo</Text>
           <PageSimboloapostolos />
           <Text className="h2">Oferecimento do Santo Rosário</Text>
@@ -43,7 +44,7 @@ export default function PageRosario() {
           </Text>
           <Text className="text-base">Referir as intenções.</Text>
           <Text className="h2">Intenções do Santo Padre</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Exaltatio S. Matris Ecclesiæ.</Text>
             <Text className="li vernacular">Exaltação da Santa Igreja.</Text>
             <Text className="latin">Propagatio fidei.</Text>
@@ -56,7 +57,7 @@ export default function PageRosario() {
             <Text className="li vernacular">
               Paz entre os Reis e Príncipes católicos.
             </Text>
-          </View>
+          </Language>
           <Text className="h1">Nas contas maiores</Text>
           <PaiNosso />
           <Text className="h1">Nas contas menores</Text>
@@ -64,7 +65,7 @@ export default function PageRosario() {
           <Text className="h1">No fim das dezenas</Text>
           <Gloria />
           <Text className="h2">Nossa Senhora a Santa Catarina Labouré</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>O Maria sine labe concepta.
             </Text>
@@ -80,9 +81,9 @@ export default function PageRosario() {
               <Text className="response"> ℟. </Text> Rogai por nós que
               recorremos a vós.
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Nossa Senhora aos Santos Pastorinhos</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Oh mi Jesu, dimitte nobis
               débita nostra, líbera nos ab igne inférni,
@@ -99,7 +100,7 @@ export default function PageRosario() {
               <Text className="response"> ℟. </Text> Levai as alminhas todas
               para o Céu e socorrei principalmente as que mais precisarem.
             </Text>
-          </View>
+          </Language>
           <Text className="h1">Meditações do Rosário</Text>
           <Text className="h2">Mistérios Gozosos</Text>
           <Text className="aside">Segunda-feira e Quinta-feira</Text>
@@ -188,7 +189,7 @@ export default function PageRosario() {
           </Text>
           <Text className="h1">Orações no fim do Rosário</Text>
           <Text className="h2">Salve Rainha</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salve, Regina, Mater misericórdiæ, vita, dulcédo et spes nostra,
               salve. Ad te clamámus, éxsules fílii Hevæ. Ad te suspirámus
@@ -247,7 +248,7 @@ export default function PageRosario() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <LadainhaLoreto />
           <PageSinalCruz />
         </View>

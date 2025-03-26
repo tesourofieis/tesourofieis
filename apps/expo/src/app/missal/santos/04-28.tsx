@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0428() {
@@ -29,7 +30,7 @@ export default function Page0428() {
 
           <Text className="em">Gl. 2, 19-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Christo confíxus sum Cruci: vivo autem, jam non ego; vivit vero in
               me Christus: in fide vivo Filii Dei, qui diléxit me, et trádidit
@@ -47,11 +48,11 @@ export default function Page0428() {
               Senhor o livrará no dia infeliz.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine Jesu Christe, qui, ad mystérium Crucis prædicándum, sanctum
               Paulum singulári caritáte donásti, et per eum novam in Ecclésia
@@ -66,13 +67,13 @@ export default function Page0428() {
               intercessão que, recordando-nos sempre, na terra, da vossa Paixão,
               mereçamos saborear os seus frutos no céu. Ó Vós, que viveis e...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Cor. 1, 17-25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beati Pauli Apostoli ad Corinthios.
             </Text>
@@ -115,9 +116,9 @@ export default function Page0428() {
               sábio que a sabedoria dos homens; e o que parece fraco em Deus é
               mais forte que os homens.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">2 Cor. 5, 15</Text> Pro ómnibus mórtuus
@@ -138,7 +139,7 @@ export default function Page0428() {
               também herdeiros: herdeiros de Deus e co-herdeiros de Cristo. Se,
               pois, sofremos com Ele, com Ele seremos glorificados. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -151,7 +152,7 @@ export default function Page0428() {
 
           <Text className="em">Ef. 5, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ambuláte in dilectióne, sicut et Christus diléxit nos, et trádidit
               semetípsum pro nobis oblatiónem et hóstiam Deo in odórem
@@ -162,11 +163,11 @@ export default function Page0428() {
               voluntariemente por nós, como oblação e vítima oferecida a Deus em
               suave odor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœléstem nobis, Dómine, prǽbeant mystéria hæc passiónis et mortis
               tuæ fervórem: quo sanctus Paulus, ea offeréndo, corpus suum
@@ -179,13 +180,13 @@ export default function Page0428() {
               ofereceu o seu corpo como uma hóstia viva, santa e agradável a
               vossos olhos. Ó Vós, que, sendo Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">1 Pe. 4, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Communicántes Christi passiónibus gaudéte, ut in revelatióne
               glóriæ ejus gaudeátis exsultántes, allelúja.
@@ -195,11 +196,11 @@ export default function Page0428() {
               quando for a manifestação da sua glória, vos regozijeis em
               transportes de alegria, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súmpsimus, Dómine, divínum sacraméntum, imménsæ caritátis tuæ
               memoriále perpétuum: tríbue, quǽsumus; ut, sancti Pauli méritis et
@@ -215,7 +216,7 @@ export default function Page0428() {
               vida e costumes conservemos sempre a vossa santíssima Paixão
               impressa nos nossos corações. Ó Vós, que viveis e...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

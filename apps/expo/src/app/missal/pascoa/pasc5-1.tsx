@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LadainhaSantos from "./../../devocionario/ladainhas/santos";
 
 export default function PagePasc51() {
@@ -15,7 +16,7 @@ export default function PagePasc51() {
 
           <Text className="h3">Antífona</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsurge, Dómine, ádjuva nos, et líbera nos propter nomen tuum.{" "}
               <Text className="latin">Psalm</Text> Deus, áuribus nostris
@@ -29,7 +30,7 @@ export default function PagePasc51() {
               a obra que fizestes nos seus dias e nos dias antigos.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Salmo 69 encontra-se logo após a Ladaínha
@@ -45,7 +46,7 @@ export default function PagePasc51() {
 
           <Text className="em">Sl. 17, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exaudívit de templo sancto suo vocem meam, allelúja: et clamor
               meus in conspectu ejus, introívit in aures ejus, allelúja,
@@ -62,11 +63,11 @@ export default function PagePasc51() {
               sustentáculo, o meu refúgio e a minha salvação.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui in afflictióne nostra
               de tua pietáte confídimus; contra advérsa ómnia, tua semper
@@ -78,13 +79,13 @@ export default function PagePasc51() {
               e de estarmos sempre munidos com vosso socorro no meio das
               adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Tg. 5, 16-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Jacóbi Apóstoli.
             </Text>
@@ -111,9 +112,9 @@ export default function PagePasc51() {
               saiba que aquele que afastar um pecador do caminho do erro salvará
               a sua alma da morte e apagará uma multidão de pecados.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 117, 1</Text> Confitémini Dómino,
@@ -124,13 +125,13 @@ export default function PagePasc51() {
               <Text className="vernacular">Sl. 117, 1</Text> Louvai o Senhor,
               pois Ele é bom: a sua misericórdia é eterna.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 11, 5-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -178,13 +179,13 @@ export default function PagePasc51() {
               boas a vossos filhos, quanto mais vosso Pai celestial dará o
               Espírito Santo àqueles que lho pedirem».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 108, 30-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Confitébor Dómino nimis in ore meo: et in médio multórum laudábo
               eum, qui ástitit a dextris páuperis: ut salvam fáceret a
@@ -195,11 +196,11 @@ export default function PagePasc51() {
               perante a multidão: pois esteve à direita do pobre para salvar a
               minha alma dos que a perseguiam, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc múnera, quǽsumus, Dómine, et víncula nostræ pravitátis
               absólvant, et tuæ nobis misericórdiæ dona concílient. Per
@@ -210,13 +211,13 @@ export default function PagePasc51() {
               da nossa malícia e nos alcancem os dons da vossa misericórdia. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 11, 9-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Petite, et accipiétis: quǽrite, et inveniétis: pulsáte, et
               aperiétur vobis: omnis enim qui pétii, áccipit: et qui quærit,
@@ -227,11 +228,11 @@ export default function PagePasc51() {
               todo o que pede recebe; todo o que procura acha; todo o que bate
               abrir-se-lhe-á, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vota nostra, quǽsumus, Dómine, pio favóre proséquere: ut, dum dona
               tua in tribulatióne percípimus, de consolatióne nostra in tuo
@@ -243,7 +244,7 @@ export default function PagePasc51() {
               tribulação, cresçamos no vosso amor com a consolação que nos dais.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

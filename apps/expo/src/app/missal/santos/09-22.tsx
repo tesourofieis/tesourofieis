@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0922() {
@@ -28,7 +29,7 @@ export default function Page0922() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Thomam Pontíficem insígnis in páuperes
               misericórdiæ virtúte decorásti: quǽsumus; ut, ejus intercessióne,
@@ -42,11 +43,11 @@ export default function Page0922() {
               vossa misericórdia para com aqueles que Vo-la imploram. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração Comemoração S. Maurício e Outros</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Annue, quǽsumus, omnípotens Deus: ut sanctórum Martyrum tuórum
               Maurítii et Sociórum ejus nos lætíficet festíva sollémnitas; ut,
@@ -60,7 +61,7 @@ export default function Page0922() {
               participemos da glória do seu nascimento no céu. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
@@ -71,7 +72,7 @@ export default function Page0922() {
 
           <Text className="h3">Secreta Comemoração S. Maurício e Outros</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réspice, quǽsumus, Dómine, múnera, quæ in sanctórum Mártyrum
               tuórum Maurítii et Sociórum ejus commemoratióne deférimus: et
@@ -85,7 +86,7 @@ export default function Page0922() {
               oferecidos em sua honra, nos assegurem eternamente, pela sua
               intercessão, a felicidade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
@@ -98,7 +99,7 @@ export default function Page0922() {
             Postcomúnio Comemoração S. Maurício e Outros
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœléstibus refécti sacraméntis et gáudiis: súpplices te rogámus,
               Dómine; ut, quorum gloriámur triúmphis, protegámur auxíliis. Per
@@ -109,7 +110,7 @@ export default function Page0922() {
               Senhor, Vos rogamos, dignai-Vos conceder-nos a protecção daqueles
               de cujos triunfos nos gloriamos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

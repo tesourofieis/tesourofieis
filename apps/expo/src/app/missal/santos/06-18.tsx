@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0618() {
   return (
@@ -24,7 +25,7 @@ export default function Page0618() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui Ecclésiam tuam beáti Ephræm Confessóris tui et Doctoris
               mira eruditióne et præcláris vitæ méritis illustráre voluísti: te
@@ -38,13 +39,13 @@ export default function Page0618() {
               intercessão a defendais com vosso perpétuo poder das insídias do
               erro e da perversidade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">
             Oração Comemoração S. S. Marcos e Marceliano
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui sanctórum Mártyrum
               tuórum Marci et Marcelliáni natalítia cólimus; a cunctis malis
@@ -57,11 +58,11 @@ export default function Page0618() {
               intercessão sejamos livres de todos os males que nos ameaçam. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta Comemoração S. S. Mártires</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera tibi, Dómine, dicáta sanctífica: et, intercedéntibus
               sanctis Martýribus tuis Marco et Marcelliáno, per eadem nos
@@ -73,11 +74,11 @@ export default function Page0618() {
               Marceliano Vos digneis aplacar-Vos e olhardes aplacado para nós.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio Comemoração S. S. Mártires</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salutáris tui, Dómine, múnere satiáti, súpplices exorámus: ut,
               cujus lætámur gustu, intercedéntibus sanctis Martýribus tuis Marco
@@ -89,7 +90,7 @@ export default function Page0618() {
               intercessão dos vossos Santos Mártires Marcos e Marceliano,
               restaurados pelo seu eficaz efeito. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

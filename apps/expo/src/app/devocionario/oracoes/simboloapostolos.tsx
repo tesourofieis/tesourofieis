@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageSimboloapostolos() {
   return (
@@ -10,7 +11,7 @@ export default function PageSimboloapostolos() {
         <View className="docs">
           <Text className="h1">Símbolo dos Apóstolos</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Credo in Deum, Patrem omnipoténtem, Creatórem cæli et terræ. Et in
               Jesum Christum, Fílium ejus únicum, Dóminùm nostrum: qui concéptus
@@ -33,7 +34,7 @@ export default function PageSimboloapostolos() {
               na santa Igreja Católica; na comunhão dos Santos; na remissão dos
               pecados; na ressurreição da carne; na vida eterna. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

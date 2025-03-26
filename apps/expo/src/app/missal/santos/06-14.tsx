@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0614() {
@@ -34,7 +35,7 @@ export default function Page0614() {
 
           <Text className="em">Lc. 14, 26-35</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -84,7 +85,7 @@ export default function Page0614() {
               não será útil nem para a terra, nem para o lugar imundo: porém,
               será lançado fora».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 

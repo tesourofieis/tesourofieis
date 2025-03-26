@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageEpi60() {
   return (
@@ -14,7 +15,7 @@ export default function PageEpi60() {
 
           <Text className="em">Sl. 96, 7-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et
               exsultavérunt fíliæ Judae.{" "}
@@ -29,11 +30,11 @@ export default function PageEpi60() {
               alegre-se a terra e as suas muitas ilhas.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, semper rationabília
               meditántes, quæ tibi sunt plácita, et dictis exsequámur et factis.
@@ -45,13 +46,13 @@ export default function PageEpi60() {
               palavras como em acções, o que seja do vosso agrado. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Ts, 1, 2-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.
             </Text>
@@ -100,13 +101,13 @@ export default function PageEpi60() {
               o seu Filho Jesus, que ressuscitou dos mortos e nos livrou da ira
               futura.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 101, 16-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam
               tuam.<Text className="versicle"> ℣. </Text>Quóniam ædificávit
@@ -128,11 +129,11 @@ export default function PageEpi60() {
               <Text className="vernacular">Sl. 96,1</Text> O Senhor reinou:
               alegre-se a terra e as suas muitas ilhas. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -168,13 +169,13 @@ export default function PageEpi60() {
               parábolas e revelarei muitas coisas que estão ocultas desde a
               criação do mundo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 117, 16 & 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Déxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non
               móriar, sed vivam, et narrábo ópera Dómini.
@@ -184,11 +185,11 @@ export default function PageEpi60() {
               exaltou-me. Não morrerei: viverei e narrarei os prodígios do
               Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc nos oblátio, Deus, mundet, quǽsumus, et rénovet, gubérnet et
               prótegat. Per Dóminum...
@@ -197,24 +198,24 @@ export default function PageEpi60() {
               Ó Deus, Vos imploramos, que esta oblação nos purifique, restaure,
               governe e guarde. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 4, 22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mirabántur omnes de his, quæ procedébant de ore Dei.
             </Text>
             <Text className="vernacular">
               Todos estavam admirados das palavras que saíam da boca de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœléstibus, Dómine, pasti delíciis: quǽsumus; ut semper éadem, per
               quæ veráciter vívimus, appétimus. Per Dóminum...
@@ -225,7 +226,7 @@ export default function PageEpi60() {
               mesmo alimento, pelo qual alcançaremos a verdadeira vida. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

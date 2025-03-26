@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc74() {
   return (
@@ -24,7 +25,7 @@ export default function PagePasc74() {
 
           <Text className="em">Act. 8, 5-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolórum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -43,13 +44,13 @@ export default function PagePasc74() {
               gritando em voz alta. E também muitos paralíticos e coxos eram
               curados, havendo grande alegria naquela cidade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 9, 1-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -83,7 +84,7 @@ export default function PagePasc74() {
               e andavam de aldeia em aldeia, evangelizando e curando os enfermos
               em toda a parte.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

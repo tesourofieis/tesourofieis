@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page3Martirpontifice() {
   return (
@@ -14,7 +15,7 @@ export default function Page3Martirpontifice() {
 
           <Text className="em">Dn. 3, 84 & 87</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacerdótes Dei, benedícite Dóminum: sancti et húmiles corde,
               laudáte Deum. <Text className="latin">ibid., 57</Text> Benedícite,
@@ -28,11 +29,11 @@ export default function Page3Martirpontifice() {
               todas as obras do Senhor: louvai-O e glorificai-O em todos os
               séculos!<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos beáti <Text className="latin">N.</Text> Mártyris tui
               atque Pontíficis ánnua sollemnitáte lætíficas: concéde propítius;
@@ -45,13 +46,13 @@ export default function Page3Martirpontifice() {
               concedei-nos propício que, assim como celebramos o seu nascimento,
               assim também gozemos a sua protecção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Cor. 1, 3-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -86,13 +87,13 @@ export default function Page3Martirpontifice() {
               firme, sabendo que, assim como participais das aflições, assim
               também participareis da consolação em Jesus Cristo, nosso Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 8, 6-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Glória et honóre coronásti eum.
               <Text className="versicle"> ℣. </Text>Et constituísti eum super
@@ -111,7 +112,7 @@ export default function Page3Martirpontifice() {
               Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Eis o
               sacerdote que o Senhor coroou. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -121,7 +122,7 @@ export default function Page3Martirpontifice() {
 
           <Text className="em">Sl. 111, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
               <Text className="versicle"> ℣. </Text>
@@ -137,13 +138,13 @@ export default function Page3Martirpontifice() {
               haverá glória e riqueza: e a sua justiça permanecerá em todos os
               séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 16, 24-27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -172,13 +173,13 @@ export default function Page3Martirpontifice() {
               há-de vir na glória de seu Pai com os Anjos, e então dará a cada
               um segundo as suas obras».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 88, 21-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Invéni David servum meum, oleo sancto meo unxi eum: manus enim mea
               auxiliábitur ei, et bráchium meum confortábit eum.
@@ -187,11 +188,11 @@ export default function Page3Martirpontifice() {
               Encontrei o meu servo David: e ungi-o com meu óleo sagrado: a
               minha mão o socorrerá e o meu braço o fortalecerá.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera tibi, Dómine, dicáta sanctífica: et, intercedénte beáto{" "}
               <Text className="latin">N.</Text> Mártyre tuo atque Pontífice, per
@@ -202,24 +203,24 @@ export default function Page3Martirpontifice() {
               intercessão do B. <Text className="vernacular">N.</Text> vosso
               Mártir e Pontífice, olhai aplacado para nós. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 20, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Posuísti, Dómine, in cápite ejus corónam de lápide pretióso.
             </Text>
             <Text className="vernacular">
               Senhor, impusestes na sua cabeça uma coroa de pedras preciosas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáto{" "}
               <Text className="latin">N.</Text> Mártyre tuo atque Pontífice,
@@ -231,7 +232,7 @@ export default function Page3Martirpontifice() {
               vosso Mártir e Pontífice, nos torne participante do remédio
               celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

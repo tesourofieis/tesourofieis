@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1024() {
@@ -20,7 +21,7 @@ export default function Page1024() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Raphǽlem Archángelum Tobíæ fámulo tuo cómitem
               dedísti in via: concéde nobis fámulis tuis; ut ejúsdem semper
@@ -32,13 +33,13 @@ export default function Page1024() {
               sermos sempre protegidos por ele e fortalecidos com seu auxílio.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Tb. 12, 7-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Tobíæ.</Text>
             <Text className="vernacular">Lição do Livro de Tobias.</Text>
             <Text className="latin">
@@ -74,13 +75,13 @@ export default function Page1024() {
               mulher do vosso filho. Pois sou o Anjo Rafael, um dos sete que
               estão sempre presentes, diante do Senhor».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Tb. 8, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Angelus Dómini Raphaël apprehéndit et ligávit dǽmonem.
               <Text className="versicle"> ℣. </Text>
@@ -105,13 +106,13 @@ export default function Page1024() {
               na presença dos Anjos; adorar-Vos-ei no vosso santo templo e
               glorificarei o vosso santo nome, ó Senhor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 5, 1-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -140,13 +141,13 @@ export default function Page1024() {
               primeiro que descia à piscina, depois do movimento da água, ficava
               curado de qualquer enfermidade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Ap. 8,3 & 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Stetit Angelus juxta aram templi, habens thuríbulum áureum in manu
               sua, et data sunt ei incénsa multa: et ascéndit fumus aromátum in
@@ -157,11 +158,11 @@ export default function Page1024() {
               turíbulo de ouro: e deitaram-lhe muito incenso, subindo o fumo dos
               perfumes à presença de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, laudis offérimus, supplíciter deprecántes:
               ut eásdem, angélico pro nobis interveniénte suffrágio, et placátus
@@ -173,13 +174,13 @@ export default function Page1024() {
               propício e nos concedais que sejam úteis à nossa salvação. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Dn. 3, 58</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícite, omnes Angeli Dómini, Dóminum: hymnum dícite et
               superexaltáte eum in sǽcula.
@@ -188,11 +189,11 @@ export default function Page1024() {
               Anjos do Senhor, bendizei todos o Senhor: cantai hinos em seu
               louvor e exaltai-O em todos os séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dirigere dignáre, Dómine Deus, in adjutórium nostrum sanctum
               Raphǽlem Archángelum: et, quem tuæ majestáti semper assístere
@@ -205,7 +206,7 @@ export default function Page1024() {
               apresentadas para serem abençoadas por aquele que sabemos estar
               sempre na presença de vossa majestade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

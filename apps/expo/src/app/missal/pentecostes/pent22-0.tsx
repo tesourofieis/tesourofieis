@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent220() {
   return (
@@ -16,7 +17,7 @@ export default function PagePent220() {
 
           <Text className="em">Sl. 129, 3-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Si iniquitátes observáveris, Dómine: Dómine, quis sustinébit? quia
               apud te propitiátio est, Deus Israël.{" "}
@@ -33,11 +34,11 @@ export default function PagePent220() {
               minha oração, Senhor.<Text className="versicle"> ℣. </Text>Glória
               ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, refúgium nostrum et virtus: adésto piis Ecclésiæ tuæ
               précibus, auctor ipse pietátis, et præsta; ut, quod fidéliter
@@ -49,13 +50,13 @@ export default function PagePent220() {
               concedei-nos a graça de alcançarmos com eficácia o que com fé Vos
               suplicamos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Fl, 1, 6-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.
             </Text>
@@ -86,13 +87,13 @@ export default function PagePent220() {
               para serdes puros e sem mancha até ao dia de Cristo e cheios dos
               frutos da justiça por Jesus Cristo, em louvor e glória de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 132, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce, quam bonum et quam jucúndum, habitáre fratres in unum!
               <Text className="versicle"> ℣. </Text>
@@ -114,13 +115,13 @@ export default function PagePent220() {
               têm temor do Senhor esperem n’Ele, que é o seu sustentáculo e
               protector. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 22, 15-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -156,13 +157,13 @@ export default function PagePent220() {
               César». E Jesus continuou: «Dai, portanto, a César o que pertence
               a César, e dai a Deus o que a Deus pertence».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Est. 14, 12 & 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Recordáre mei, Dómine, omni potentátui dóminans: et da sermónem
               rectum in os meum, ut pláceant verba mea in conspéctu príncipis.
@@ -172,11 +173,11 @@ export default function PagePent220() {
               inspirai aos meus lábios palavras justas, para que sejam
               agradáveis ao príncipe.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, miséricors Deus: ut hæc salutáris oblátio et a própriis nos
               reátibus indesinénter expédiat, et ab ómnibus tueátur advérsis.
@@ -187,13 +188,13 @@ export default function PagePent220() {
               livre inteiramente dos laços das nossas próprias faltas e nos
               defenda de todas as adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 16, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ego clamávi, quóniam exaudísti me, Deus: inclína aurem tuam et
               exáudi verba mea.
@@ -202,11 +203,11 @@ export default function PagePent220() {
               Ó Deus, clamei por Vós, porque me ouvistes: inclinai os vossos
               ouvidos para mim e ouvi as minhas súplicas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súmpsimus, Dómine, sacri dona mystérii, humíliter deprecántes: ut,
               quæ in tui commemoratiónem nos fácere præcepísti, in nostræ
@@ -218,7 +219,7 @@ export default function PagePent220() {
               celebrar em vossa memória, sirva de auxílio à nossa fraqueza. Ó
               Vós, que, sendo Deus, viveis...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

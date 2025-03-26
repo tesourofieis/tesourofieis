@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1111() {
@@ -29,7 +30,7 @@ export default function Page1111() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui cónspicis, quia ex nulla nostra virtúte subsístimus:
               concéde propítius; ut, intercessióne beáti Martíni...
@@ -40,7 +41,7 @@ export default function Page1111() {
               Martinho, vosso Confessor e Pontífice, sejamos protegidos contra
               todas as adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -53,7 +54,7 @@ export default function Page1111() {
 
           <Text className="em">Ecl. 44, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce sacérdos magnus, qui in diébus suis plácuit Deo.
               <Text className="versicle"> ℣. </Text>
@@ -78,13 +79,13 @@ export default function Page1111() {
               os Anjos, os Arcanjos, os Tronos, as Dominações e as Virtudes o
               acolheram. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 11, 33-36</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -115,13 +116,13 @@ export default function Page1111() {
               teu corpo for luminoso sem parte alguma nas trevas, será ele
               brilhante, como quando uma lâmpada te ilumina com seu brilho».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 88, 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Véritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus.
@@ -130,11 +131,11 @@ export default function Page1111() {
               A minha fidelidade e a minha misericórdia estarão com ele; e o seu
               poder elevar-se-á pelo meu nome.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctífica, quǽsumus, Dómine Deus, hæc múnera, quæ in sollemnitáte
               sancti Antístitis tui Martíni offérimus: ut per ea vita nostra
@@ -147,13 +148,13 @@ export default function Page1111() {
               vontade, tanto nas adversidades, como nas prosperidades. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 24,46-47</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem:
               amen, dico vobis, super ómnia bona sua constítuet eum.
@@ -163,11 +164,11 @@ export default function Page1111() {
               vigilante. Em verdade vos digo que o encarregará de administrar
               todos seus bens.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, Dómine, Deus noster: ut, quorum festivitáte
               votíva sunt sacraménta, eórum intercessióne salutária nobis
@@ -178,7 +179,7 @@ export default function Page1111() {
               sacrossantos sacramentos, pela intercessão daqueles em cuja festa
               Vo-los apresentamos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

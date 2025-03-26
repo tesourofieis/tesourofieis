@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageCoracaojesus() {
   return (
@@ -10,7 +11,7 @@ export default function PageCoracaojesus() {
         <View className="docs">
           <Text className="h1">Ladainha Coração de Jesus</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Kyrie, eléison.</Text>
             <Text className="vernacular">Senhor, tende piedade de nós.</Text>
             <Text className="latin">Christe, eléison.</Text>
@@ -319,7 +320,7 @@ export default function PageCoracaojesus() {
               sede fácil no perdão, pelo mesmo Jesus Cristo que Convosco vive e
               reina para sempre, na unidade do Espírito Santo. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

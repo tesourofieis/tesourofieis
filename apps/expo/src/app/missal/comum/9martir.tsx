@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page9Martir() {
   return (
@@ -14,7 +15,7 @@ export default function Page9Martir() {
 
           <Text className="em">Sl. 63, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Protexísti me, Deus, a convéntu malignántium, allelúja: a
               multitúdine operántium iniquitátem, allelúja, allelúja.{" "}
@@ -29,7 +30,7 @@ export default function Page9Martir() {
               oração que Vos dirijo: livrai a minha alma do temor do inimigo.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Por um Mártir Pontífice diz-se a seguinte:
@@ -37,7 +38,7 @@ export default function Page9Martir() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus
               própriæ actiónis gravat, beáti <Text className="latin">N.</Text>{" "}
@@ -51,7 +52,7 @@ export default function Page9Martir() {
               <Text className="vernacular">N.</Text>, vosso Mártir e Pontífice.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Outras vezes, em vez da Precedente, diz-se esta:
@@ -59,7 +60,7 @@ export default function Page9Martir() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos beáti <Text className="latin">N.</Text> Mártyris tui
               atque Pontíficis ánnua sollemnitáte lætíficas: concéde propítius;
@@ -72,7 +73,7 @@ export default function Page9Martir() {
               concedei-nos propício que nos congratulemos com a protecção
               daquele cujo nascimento no céu celebramos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Por um Mártir não Pontífice diz-se a seguinte:
@@ -80,7 +81,7 @@ export default function Page9Martir() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui beáti{" "}
               <Text className="latin">N.</Text> Mártyris tui natalítia cólimus,
@@ -92,7 +93,7 @@ export default function Page9Martir() {
               <Text className="vernacular">N.</Text>, sejamos confirmados pela
               sua intercessão no amor ao vosso nome. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Outras vezes, em vez da Precedente, diz-se esta:
@@ -100,7 +101,7 @@ export default function Page9Martir() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, intercedénte beáto{" "}
               <Text className="latin">N.</Text> Mártyre tuo, et a cunctis
@@ -113,13 +114,13 @@ export default function Page9Martir() {
               nossos corpos sejam livres de todas as adversidades e as nossas
               almas purificadas dos maus pensamentos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Sb. 5, 1-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -145,9 +146,9 @@ export default function Page9Martir() {
               elevados à dignidade de filhos de Deus e compartilhando da glória
               dos santos!»
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 88, 6</Text> Confitebúntur cœli
@@ -165,13 +166,13 @@ export default function Page9Martir() {
               <Text className="em">Sl. 20, 4</Text> Impusestes na sua cabeça,
               Senhor, uma coroa de pedras preciosas. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 15, 1-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -210,13 +211,13 @@ export default function Page9Martir() {
               minhas palavras permanecerem em vós, tudo o que quiserdes podereis
               pedir, que vos será concedido.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sb. 88, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Confitebúntur cœli mirabília tua, Dómine: et veritátem tuam in
               ecclésia sanctórum, allelúja, allelúja.
@@ -225,7 +226,7 @@ export default function Page9Martir() {
               Senhor, que os céus publiquem as vossas maravilhas; que, a vossa
               verdade seja exaltada na assembleia dos santos. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Por um Mártir Pontífice diz-se a seguinte:
@@ -233,7 +234,7 @@ export default function Page9Martir() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, beáti <Text className="latin">N.</Text>{" "}
               Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et
@@ -245,7 +246,7 @@ export default function Page9Martir() {
               e Pontífice; e dignai-Vos permitir que em virtude delas alcancemos
               o vosso perpétuo socorro. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Outras vezes, em vez da Precedente, diz-se esta:
@@ -253,7 +254,7 @@ export default function Page9Martir() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera tibi, Dómine, dicáta sanctífica: et, intercedénte beáto{" "}
               <Text className="latin">N.</Text> Mártyre tuo atque Pontífice, per
@@ -265,7 +266,7 @@ export default function Page9Martir() {
               vosso Mártir e Pontífice, Vos digneis aplacar-Vos, e olhar
               aplacado para nós. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Por um Mártir não Pontífice diz-se a seguinte:
@@ -273,7 +274,7 @@ export default function Page9Martir() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
               cœléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum
@@ -284,7 +285,7 @@ export default function Page9Martir() {
               dignai-Vos purificar-nos com vossos celestiais mystérios e
               ouvir-nos clementemente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Outras vezes, em vez da Precedente, diz-se esta:
@@ -292,7 +293,7 @@ export default function Page9Martir() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accépta sit in conspéctu tuo, Dómine, nostra devótio: et ejus
               nobis fiat supplicatióne salutáris, pro cujus sollemnitáte
@@ -303,13 +304,13 @@ export default function Page9Martir() {
               apresenta; e permiti que nos alcance a salvação pelas orações
               daquele em cuja festa Vo-la apresentamos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 63, 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lætábitur justus in Dómino, et sperábit in eo: et laudabúntur
               omnes recti corde, allelúja, allelúja.
@@ -319,7 +320,7 @@ export default function Page9Martir() {
               todos aqueles que possuem o coração recto serão louvados. Aleluia,
               aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Por um Mártir Pontífice diz-se o seguinte:
@@ -327,7 +328,7 @@ export default function Page9Martir() {
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus
               noster: ut, cujus exséquimur cultum, intercedénte beáto{" "}
@@ -340,7 +341,7 @@ export default function Page9Martir() {
               <Text className="vernacular">N.</Text>, vosso Mártir e Pontífice,
               o efeito do mystério, que celebrámos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Outras vezes, em vez, do Precedente, diz-se o seguante:
@@ -348,7 +349,7 @@ export default function Page9Martir() {
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc nos communio, Dómine, purget a crimine: et, intercedénte beáto{" "}
               <Text className="latin">N.</Text> Mártyre tuo atque Pontifice,
@@ -360,7 +361,7 @@ export default function Page9Martir() {
               vosso Mártir e Pontífice, nos torne participantes do remédio
               celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Por um Mártir não Pontífice diz-se o seguinte:
@@ -368,7 +369,7 @@ export default function Page9Martir() {
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, Dómine, Deus noster: ut, sicut tuorum commemoratione
               Sanctórum temporali gratulámur officio; ita perpetuo lætémur
@@ -380,7 +381,7 @@ export default function Page9Martir() {
               também tenhamos a felicidade de os contemplar na eternidade. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Outras vezes, ena vez do Precedente, diz-se o seguinte:
@@ -388,7 +389,7 @@ export default function Page9Martir() {
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus
               noster: ut, cujus exséquimur cultum; intercedénte beáto{" "}
@@ -401,7 +402,7 @@ export default function Page9Martir() {
               <Text className="vernacular">N.</Text>, vosso Mártir, o efeito do
               mystério que celebramos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

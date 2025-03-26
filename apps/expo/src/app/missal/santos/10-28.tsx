@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1028() {
   return (
@@ -14,7 +15,7 @@ export default function Page1028() {
 
           <Text className="em">Sl. 138, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.{" "}
@@ -30,11 +31,11 @@ export default function Page1028() {
               conhecendo quando me deito e me levanto.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos per beatos Apóstolos tuos Simónem et Judam ad
               agnitiónem tui nóminis veníre tribuísti: da nobis eórum glóriam
@@ -48,13 +49,13 @@ export default function Page1028() {
               celebrando esta mesma glória, alcancemos novos progressos. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ef. 4, 7-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
@@ -89,13 +90,13 @@ export default function Page1028() {
               conhecimento do Filho de Deus, ao estado de um homem perfeito a um
               desenvolvimento orgânico proporcionado à plenitude de Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 17-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Constítues eos príncipes super omnem terram: mémores erunt nóminis
               tui, Dómine.<Text className="versicle"> ℣. </Text>Pro pátribus
@@ -119,13 +120,13 @@ export default function Page1028() {
               os vossos filhos, ó Deus; o seu poder tem-se fortalecido
               extraordinariamente. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 15, 17-25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -168,13 +169,13 @@ export default function Page1028() {
               bem como a meu Pai. Assim se cumpre neles aquela sentença que está
               escrita na sua lei: «Odiaram-me sem motivo algum».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 18, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In omnem terram exívit sonus eórum: et in fines orbis terræ verba
               eórum.
@@ -183,11 +184,11 @@ export default function Page1028() {
               O som da sua voz ecoou por toda a parte, e as suas palavras
               estenderam-se até às extremidades da terra.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Glóriam, Dómine, sanctórum Apostolórum tuórum Simónis et Judæ
               perpétuam venerántes: quǽsumus; ut eam, sacris mystériis expiati,
@@ -199,13 +200,13 @@ export default function Page1028() {
               sacrossantos mystérios, a fim de que os celebremos mais
               dignamente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 19, 28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vos, qui secúti estis me, sedébitis super sedes, judicántes
               duódecim tribus Israël.
@@ -214,11 +215,11 @@ export default function Page1028() {
               Vós, que me seguistes, assentar-vos-eis sobre tronos e julgareis
               as doze tribos de Israel.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Percéptis, Dómine, sacraméntis, supplíciter exorámus: ut,
               intercedéntibus beátis Apóstolis tuis Simóne et Juda, quæ pro
@@ -231,7 +232,7 @@ export default function Page1028() {
               Judas, o mystério que celebramos em honra do seu martírio, nos
               sirva de remédio para os nossos males. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

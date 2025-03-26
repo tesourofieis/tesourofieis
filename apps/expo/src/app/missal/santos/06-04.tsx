@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0604() {
@@ -17,7 +18,7 @@ export default function Page0604() {
 
           <Text className="em">Sl. 21, 15; 68, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Factum est cor meum tamquam cera liquéscens in médio ventris mei:
               quóniam zelus domus tuæ comédit me. (T.P. Allelúja, allelúja.){" "}
@@ -32,11 +33,11 @@ export default function Page0604() {
               com Israel! e para com aqueles que possuem coração recto!
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Francíscum, novi órdinis institutórem, orándi
               stúdio et pœniténtiæ amóre decorásti: da fámulis tuis in ejus
@@ -52,13 +53,13 @@ export default function Page0604() {
               corpos à servidão, mereçam alcançar a glória celestial. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Sb. 4, 7-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -87,13 +88,13 @@ export default function Page0604() {
               carreira com larga vida, pois a sua alma era agradável a Deus;
               pelo que Deus se apressou em o tirar do meio da iniquidade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 41, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quemádmodum desíderat cervus ad fontes aquárum: ita desíderat
               ánima mea ad te, Deus.<Text className="versicle"> ℣. </Text>
@@ -118,13 +119,13 @@ export default function Page0604() {
               coração desfalecem! Ó Deus, sois o Deus do meu coração e a minha
               herança na eternidade. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No T. Pascal omite-se o Gradual, e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 64, 5</Text> Beátus, quem elegísti et
@@ -141,7 +142,7 @@ export default function Page0604() {
               <Text className="em">Sl. 111, 9</Text> Distribuiu e deu esmola aos
               pobres e a sua justiça permanecerá em todos os séculos. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -154,7 +155,7 @@ export default function Page0604() {
 
           <Text className="em">Sl. 91, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus ut palma florébit: sicut cedrus Líbani multiplicábitur.
               (T.P. Allelúja.)
@@ -163,11 +164,11 @@ export default function Page0604() {
               O justo florescerá, como a palmeira, e crescerá, como o cedro do
               Líbano. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da nobis, clementíssime Jesu: ut præclára beáti Francísci mérita
               recoléntes, eódem nos, ac ille, caritátis igne succénsi, digne in
@@ -179,13 +180,13 @@ export default function Page0604() {
               possamos tomar lugar dignamente junto da vossa sacrossanta mesa. Ó
               Vós, que viveis e...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 30, 20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quam magna multitúdo dulcédinis tuæ, Dómine, quam abscondísti
               timéntibus te! (T.P. Allelúja.)
@@ -194,11 +195,11 @@ export default function Page0604() {
               Como é grande, Senhor, a felicidade que reservais para aqueles que
               Vos temem! (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrosáncta sacrifícii, quǽsumus, Dómine, quod hódie in
               sollemnitáte beáti Francísci tuæ obtúlimus majestáti, grata semper
@@ -211,7 +212,7 @@ export default function Page0604() {
               sacrossanto sacrifício que hoje oferecemos à vossa majestade em
               honra do B. Francisco. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePentepi60() {
   return (
@@ -14,7 +15,7 @@ export default function PagePentepi60() {
 
           <Text className="em">Jr. 29,11,12 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis:
               invocábitis me, et ego exáudiam vos: et redúcam captivitátem
@@ -30,11 +31,11 @@ export default function PagePentepi60() {
               a vossa terra e livrastes Jacob do cativeiro.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, semper rationabília
               meditántes, quæ tibi sunt plácita, et dictis exsequámur et factis.
@@ -46,13 +47,13 @@ export default function PagePentepi60() {
               palavras como em acções, o que seja do vosso agrado. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Ts, 1, 2-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.
             </Text>
@@ -101,13 +102,13 @@ export default function PagePentepi60() {
               o seu Filho Jesus, que ressuscitou dos mortos e nos livrou da ira
               futura.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 43, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos
               odérunt, confudísti.<Text className="versicle"> ℣. </Text>In Deo
@@ -128,13 +129,13 @@ export default function PagePentepi60() {
               <Text className="vernacular">Sl. 129, 12</Text> Do fundo do abysmo
               Vos invoquei, Senhor: escutai a minha oração. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 13, 31-35</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -170,13 +171,13 @@ export default function PagePentepi60() {
               parábolas e revelarei muitas coisas que estão ocultas desde a
               criação do mundo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 129, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam:
               de profúndis clamávi ad te. Dómine.
@@ -185,11 +186,11 @@ export default function PagePentepi60() {
               Das profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor,
               a minha voz: das profundezas dos abysmos Vos invoquei.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc nos oblátio, Deus, mundet, quǽsumus, et rénovet, gubérnet et
               prótegat. Per Dóminum...
@@ -198,13 +199,13 @@ export default function PagePentepi60() {
               Ó Deus, Vos imploramos, que esta oblação nos purifique, restaure,
               governe e guarde. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mc. 11, 24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Amen, dico vobis, quidquid orántes pétitis, crédite, quia
               accipiétis, et fiet vobis.
@@ -213,11 +214,11 @@ export default function PagePentepi60() {
               Na verdade vos digo: «Tudo o que pedirdes nas vossas orações,
               acreditai que o recebereis; e far-se-á como pedirdes».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœléstibus, Dómine, pasti delíciis: quǽsumus; ut semper éadem, per
               quæ veráciter vívimus, appétimus. Per Dóminum...
@@ -228,7 +229,7 @@ export default function PagePentepi60() {
               mesmo alimento, pelo qual alcançaremos a verdadeira vida. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

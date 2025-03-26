@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1205Braga() {
@@ -13,7 +14,7 @@ export default function Page1205Braga() {
             S. Geraldo, Bispo e Conf., a 5 de Dezembro, Na Arquidiocese de Braga
           </Text>
           <Text className="h3">Intróito</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Gloria Patri...
             </Text>
@@ -25,7 +26,7 @@ export default function Page1205Braga() {
               recto fica bem a glória.<Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Oração</Text>
           <Text className="text-base">
             Ó Senhor, Vos suplicamos, que os preciosos méritos do B. Geraldo,
@@ -38,7 +39,7 @@ export default function Page1205Braga() {
             title="Mártires - Missa Sancti tui"
           />
           <Text className="h3">Gradual</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veneremos devotadamente, do íntimo do coração e da alma, a
               veneranda festividade de hoje, em que o B. Geraldo, Confessor de
@@ -50,7 +51,7 @@ export default function Page1205Braga() {
               Aleluia, aleluia. Geraldo foi esse servo do Senhor que, lutando à
               hora da sua morte com o demónio, o venceu. Aleluia.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Evangelho</Text>
           <LinkCard
             href="/missal/comum/14confessoresnaopontifices1#evangelho"

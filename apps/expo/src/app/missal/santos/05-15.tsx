@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0515() {
   return (
@@ -42,7 +43,7 @@ export default function Page0515() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui, ad christiánam páuperum eruditiónem et ad juvéntam in
               via veritátis firmándam, sanctum Joánnem Baptístam Confessórem
@@ -60,13 +61,13 @@ export default function Page0515() {
               salvação das almas, a fim de que possamos tornar-nos seus
               companheiros de glória no céu. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 18, 1-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -94,7 +95,7 @@ export default function Page0515() {
               maior no reino dos céus; e quem receber um pequeno, como este, em
               meu nome, recebe-me a mim mesmo».
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

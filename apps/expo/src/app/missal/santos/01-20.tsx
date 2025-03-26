@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0120() {
@@ -42,7 +43,7 @@ export default function Page0120() {
             title="Muitos Mártires - Missa Intret in"
           />
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus
               própriæ actiónis gravat, beatórum Mártyrum tuórum Fabiáni et
@@ -54,10 +55,10 @@ export default function Page0120() {
               protegidos pela gloriosa intercessão dos vossos B. B. Mártires
               Fabião e Sebastião. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Epístola</Text>
           <Text className="em">Heb. 11, 33-39</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
             </Text>
@@ -97,10 +98,10 @@ export default function Page0120() {
               terra. Todos foram provados para testemunho da sua Fé em N. S.
               Jesus Cristo.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Gradual</Text>
           <Text className="em">Ex. 15, 11</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens
               prodígia.<Text className="versicle"> ℣. </Text>
@@ -125,7 +126,7 @@ export default function Page0120() {
               Vos bendirão, Senhor: e proclamarão a glória do vosso reino.
               Aleluia.
             </Text>
-          </View>
+          </Language>
           <Text className="aside">
             Depois da Septuagésima, a Aleluia é omitida e é dito o Trato da{" "}
             <Link className="link" href="/missal/comum/6muitosmartires1#trato">
@@ -139,7 +140,7 @@ export default function Page0120() {
           />
           <Text className="h3">Ofertório</Text>
           <Text className="em">Sl. 31, 11</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti
               corde.
@@ -148,9 +149,9 @@ export default function Page0120() {
               Alegrai-vos no Senhor, ó justos. Todos aqueles que possuem o
               coração recto serão glorificados.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Secreta</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, beatórum Mártyrum tuórum Fabiáni et
               Sebastiáni dicátas méritis, benígnus assúme: et ad perpétuum nobis
@@ -162,10 +163,10 @@ export default function Page0120() {
               permitir que em virtude delas alcancemos o vosso perpétuo socorro.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Comúnio</Text>
           <Text className="em">Lc. 6, 18 & 19</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Multitúdo languéntium, et qui vexabántur a spirítibus immúndis,
               veniébant ad eum: quia virtus de illo exíbat, et sanábat omnes.
@@ -174,9 +175,9 @@ export default function Page0120() {
               Numerosos enfermos e possessos de espíritos imundos vinham ter com
               Ele, pois de si saía uma tal virtude que a todos curava.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Postcomúnio</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus
               noster: ut, cujus exséquimur cultum, intercedéntibus sanctis
@@ -189,7 +190,7 @@ export default function Page0120() {
               B. Mártires Fabião e Sebastião, sintamos o efeito do mystério que
               hoje celebrámos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

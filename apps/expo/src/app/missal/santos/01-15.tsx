@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0115() {
   return (
@@ -38,7 +39,7 @@ export default function Page0115() {
 
           <Text className="em">Sl. 91, 13-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus ut palma florébit: sicut cedrus Líbani multiplicábitur:
               plantátus in domo Dómini: in átriis domus Dei nostri.{" "}
@@ -53,11 +54,11 @@ export default function Page0115() {
               bom louvar o Senhor: e cantar hinos em honra do vosso nome, ó
               Altíssimo!<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos beáti Pauli Confessóris tui ánnua sollemnitáte
               lætíficas: concéde propítius; ut, cujus natalítia cólimus, étiam
@@ -68,13 +69,13 @@ export default function Page0115() {
               Confessor, visto que celebramos o seu nascimento, concedei-nos
               propício que imitemos também as suas acções. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Fl. 3, 7-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.
             </Text>
@@ -111,13 +112,13 @@ export default function Page0115() {
               caminho para ver se alcanço o fim para que fui predestinado por
               Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 91, 13 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in
               domo Dómini.<Text className="versicle"> ℣. </Text>
@@ -141,13 +142,13 @@ export default function Page0115() {
               como o lírio, e florescerá eternamente na presença do Senhor.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 11, 25-30</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -180,13 +181,13 @@ export default function Page0115() {
               pois sou manso e humilde de coração; e achareis o repouso para as
               vossas almas. Meu jugo é suave e o meu ónus é leve».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 20, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In virtúte tua, Dómine, lætábitur justus, et super salutáre tuum
               exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.
@@ -196,11 +197,11 @@ export default function Page0115() {
               de alegria, vendo-se salvo por Vós. Concedestes-lhe, Senhor, o
               desejo da sua alma.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne
               Sanctórum: quibus nos et præséntibus éxui malis confídimus et
@@ -211,13 +212,13 @@ export default function Page0115() {
               vossos santos, para que por meio deles nos livremos dos males
               presentes e futuros. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 63, 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lætábitur justus in Dómino, et sperábit in eo: et laudabúntur
               omnes recti corde.
@@ -226,11 +227,11 @@ export default function Page0115() {
               O justo alegrar-se-á no Senhor e n’Ele esperará: e serão louvados
               todos os que possuem coração recto.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus:
               ut, in cujus hæc commemoratióne percépimus, ejus muniámur et
@@ -241,7 +242,7 @@ export default function Page0115() {
               suplicamos humildemente, ó nosso Deus, que nos protejam as preces
               daquele em cuja memória os recebemos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

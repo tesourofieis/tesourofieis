@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad62() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad62() {
 
           <Text className="em">Gl. 6, 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Nos autem gloriári oportet in Cruce Dómini nostri Jesu Christi: in
               quo est salus, vita et resurréctio nostra: per quem salváti et
@@ -31,11 +32,11 @@ export default function PageQuad62() {
               resplandecer sobre nós o brilho da sua face e se compadeça de nós.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus: da nobis ita Domínicæ passiónis
               sacraménta perágere; ut indulgéntiam percípere mereámur. Per
@@ -46,13 +47,13 @@ export default function PageQuad62() {
               os mystérios da Paixão do Senhor de tal sorte que mereçamos
               receber o perdão das nossas faltas. Pelo mesmo nosso...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Jr. 11, 18-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Jeremíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Jeremias.</Text>
             <Text className="latin">
@@ -76,13 +77,13 @@ export default function PageQuad62() {
               rins e os corações, mostrai-me a vingança que haveis de tirar
               deles; pois a Vós, ó Senhor, meu Deus, entreguei a minha causa».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 34, 13 & 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ego autem, dum mihi molésti essent, induébam me cilício, et
               humiliábam in jejúnio ánimam meam: et orátio mea in sinu meo
@@ -97,13 +98,13 @@ export default function PageQuad62() {
               aqueles que me combatem; empunhai as armas e o escudo: e vinde em
               meu auxílio.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Narração da Paixão</Text>
 
           <Text className="em">Mc. 14, 1-72; 15, 1-46</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Pássio Dómini nostri Jesu
               Christi secúndum Marcum.
@@ -758,13 +759,13 @@ export default function PageQuad62() {
               sepulcro, cavado na rocha, e depois colocou uma pedra à entrada do
               sepulcro.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 139, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Custódi me, Dómine, de manu peccatóris: et ab homínibus iníquis
               éripe me.
@@ -773,11 +774,11 @@ export default function PageQuad62() {
               Não me deixeis, Senhor, cair nas mãos dos pecadores; livrai-me dos
               homens iníquos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifícia nos, quǽsumus, Dómine, propénsius ista restáurent: quæ
               medicinálibus sunt institúta jejúniis. Per Dóminum...
@@ -787,13 +788,13 @@ export default function PageQuad62() {
               acompanhados com os salutares Jejuns, que nos são preceituados,
               renovem o vigor das nossas almas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 68, 13-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Advérsum me exercebántur, qui sedébant in porta: et in me
               psallébant, qui bibébant vinum: ego vero oratiónem meam ad te,
@@ -806,11 +807,11 @@ export default function PageQuad62() {
               tempo propício para manifestardes benevolência, segundo a vossa
               infinita misericórdia!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctificatiónibus tuis, omnípotens Deus: et vitia nostra
               curéntur, et remédia nobis sempitérna provéniant. Per Dóminum...
@@ -820,11 +821,11 @@ export default function PageQuad62() {
               curar-nos de todos nossos vícios e que nos sejam aplicados os
               remédios da salvação eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -844,7 +845,7 @@ export default function PageQuad62() {
               «homem velho» e nos torne capazes de uma santa renovação. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

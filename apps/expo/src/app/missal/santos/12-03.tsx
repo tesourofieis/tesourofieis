@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1203() {
@@ -31,7 +32,7 @@ export default function Page1203() {
 
           <Text className="em">Sl. 118, 46-47</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Loquébar de testimóniis tuis in conspéctu regum, et non
               confundébar: et meditábar in mandátis tuis, quæ diléxi nimis.{" "}
@@ -49,11 +50,11 @@ export default function Page1203() {
               verdade do Senhor permanece eternamente.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui Indiárum gentes beáti Francísci prædicatióne et
               miráculis Ecclésiæ tuæ aggregáre voluísti: concéde propítius; ut,
@@ -66,7 +67,7 @@ export default function Page1203() {
               que, venerando os seus gloriosos méritos, imitemos, também, os
               exemplos das suas virtudes. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -79,7 +80,7 @@ export default function Page1203() {
 
           <Text className="em">Sl. 91, 13 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in
               domo Dómini.<Text className="versicle"> ℣. </Text>
@@ -104,13 +105,13 @@ export default function Page1203() {
               varão que sabe sofrer a tentação, porque, quando acabar a
               tentação, receberá a coroa da vida. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mc. 16, 15-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Marcum.
@@ -137,13 +138,13 @@ export default function Page1203() {
               serpentes; se beberem alguma coisa mortífera, lhes não fará dano;
               e imporão as mãos sobre os enfermos, que serão curados».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 88, 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Véritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus.
@@ -152,11 +153,11 @@ export default function Page1203() {
               A minha verdade e a minha misericórdia estarão com ele, e, por
               virtude do meu nome, será exaltado o seu poder.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta nobis, quǽsumus, omnípotens Deus: ut nostræ humilitátis
               oblátio, et pro tuórum tibi grata sit honóre Sanctórum, et nos
@@ -168,13 +169,13 @@ export default function Page1203() {
               agradável; e que ao mesmo tempo nos purifique o corpo e a alma.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 24,46-47</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem:
               amen, dico vobis, super ómnia bona sua constítuet eum.
@@ -184,11 +185,11 @@ export default function Page1203() {
               Em verdade vos digo que lhe dará a administração de todos seus
               bens.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus,
               intercedénte beáto Francísco Confessóre tuo, per hæc contra ómnia
@@ -200,7 +201,7 @@ export default function Page1203() {
               vosso Confessor, sejamos fortalecidos contra todas as
               adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

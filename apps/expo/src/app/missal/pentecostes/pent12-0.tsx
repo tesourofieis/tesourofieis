@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent120() {
   return (
@@ -16,7 +17,7 @@ export default function PagePent120() {
 
           <Text className="em">Sl. 69, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, in adjutórium meum inténde: Dómine, ad adjuvándum me
               festína: confundántur et revereántur inimíci mei, qui quærunt
@@ -34,11 +35,11 @@ export default function PagePent120() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens et miséricors Deus, de cujus múnere venit, ut tibi a
               fidélibus tuis digne et laudabíliter serviátur: tríbue, quǽsumus,
@@ -52,13 +53,13 @@ export default function PagePent120() {
               qualquer obstáculo os bens que nos prometestes. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Cor. 3, 4-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
             </Text>
@@ -91,13 +92,13 @@ export default function PagePent120() {
               incomparavelmente mais glorioso será o ministério que confere a
               justiça.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 33, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícam Dóminum in omni témpore: semper laus ejus in ore meo.
               <Text className="versicle"> ℣. </Text>
@@ -120,13 +121,13 @@ export default function PagePent120() {
               meu Deus e o meu Salvador, tenho clamado dia e noite diante de
               Vós. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 10, 23-37</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -194,13 +195,13 @@ export default function PagePent120() {
               misericórdia dele». E Jesus terminou: «Pois tu vai e procede
               semelhantemente».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Ex. 32, 11, 13 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Precátus est Moyses in conspéctu Dómini, Dei sui, et dixit: Quare,
               Dómine, irascéris in pópulo tuo? Parce iræ ánimæ tuæ: meménto
@@ -215,11 +216,11 @@ export default function PagePent120() {
               posse da terra, onde. Correm leite e mel». Então o Senhor
               aplacou-se afastou os males com que ameaçara o povo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias, quǽsumus, Dómine, propítius inténde, quas sacris
               altáribus exhibémus: ut, nobis indulgéntiam largiéndo, tuo nómini
@@ -231,13 +232,13 @@ export default function PagePent120() {
               perdão, sirvam de homenagem ao vosso santo nome. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 103, 13 & 14-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               De fructu óperum tuórum, Dómine, satiábitur terra: ut edúcas panem
               de terra, et vinum lætíficet cor hóminis: ut exhílaret fáciem in
@@ -249,11 +250,11 @@ export default function PagePent120() {
               coração do homem. Dar-lhe-eis azeite, que faz resplandecer o rosto
               do homem, e pão, que fortifica o seu coração.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vivíficet nos, quǽsumus, Dómine, hujus participátio sancta
               mystérii: et páriter nobis expiatiónem tríbuat et múnimen. Per
@@ -264,7 +265,7 @@ export default function PagePent120() {
               sacrossanto mystério nos sirva igualmente de expiação e de
               protecção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

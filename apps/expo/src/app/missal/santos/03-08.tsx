@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0308() {
@@ -26,7 +27,7 @@ export default function Page0308() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Joánnem, tuo amóre succénsum, inter flammas
               innóxium incédere fecísti, et per eum Ecclésiam tuam nova prole
@@ -41,7 +42,7 @@ export default function Page0308() {
               seus méritos que com o fogo da vossa caridade sejamos curados de
               nossos vícios e providos dos remédios eternos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 

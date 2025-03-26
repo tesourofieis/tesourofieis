@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0811() {
@@ -25,7 +26,7 @@ export default function Page0811() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctórum Martyrum tuórum Tiburtii et Susánnæ nos, Dómine, fóveant
               continuáta præsídia: quia non désinis propítius intuéri; quos
@@ -37,7 +38,7 @@ export default function Page0811() {
               acolher propiciamente aqueles a quem concedeis o socorro de tal
               protecção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -48,7 +49,7 @@ export default function Page0811() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto, Dómine, précibus pópuli tui, adésto munéribus: ut, quæ
               sacris sunt obláta mystériis, tuórum tibi pláceant intercessióne
@@ -60,11 +61,11 @@ export default function Page0811() {
               Mártires, a oblação destes mystérios Vos seja agradável. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súmpsimus, Dómine, pignus redemptiónis ætérnæ: quod sit nobis,
               quǽsumus, interveniéntibus sanctis Martýribus tuis, vitæ præséntis
@@ -75,7 +76,7 @@ export default function Page0811() {
               intercessão dos vossos Santos Mártires, que nos sirva de auxílio,
               tanto na vida presente, como na futura. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

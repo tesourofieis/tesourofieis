@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageEpi10A() {
   return (
@@ -14,7 +15,7 @@ export default function PageEpi10A() {
 
           <Text className="em">Pr. 23, 24 & 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsúltat gáudio pater Justi, gáudeat Pater tuus et Mater tua, et
               exsúltet quæ génuit te. <Text className="latin">Ps. 83, 2-3</Text>{" "}
@@ -30,11 +31,11 @@ export default function PageEpi10A() {
               e enternece-se nos átrios do Senhor.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine Jesu Christe, qui, Maríæ et Joseph súbditus, domésticam
               vitam ineffabílibus virtútibus consecrásti: fac nos, utriúsque
@@ -48,13 +49,13 @@ export default function PageEpi10A() {
               os exemplos da vossa Sagrada Família e alcancemos a sua eterna
               companhia: Vós, que, sendo Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Cl. 3, 12-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.
             </Text>
@@ -92,13 +93,13 @@ export default function PageEpi10A() {
               nome de nosso Senhor Jesus Cristo, dando graças por Ele a Deus
               Pai.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 26, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Unam pétii a Dómino, hanc requíram: ut inhábitem in domo Dómini
               ómnibus diébus vitæ meæ.<Text className="versicle"> ℣. </Text>
@@ -123,13 +124,13 @@ export default function PageEpi10A() {
               <Text className="vernacular">Is. 45, 15</Text> Ó Deus de Israel e
               nosso Salvador, sois verdadeiramente Rei oculto. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 2, 42-52</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -179,13 +180,13 @@ export default function PageEpi10A() {
               todas estas coisas no coração. Quanto a Jesus, crescia em
               sabedoria, em idade e em graça, diante de Deus e dos homens.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Lc. 2, 22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tulérunt Jesum paréntes ejus in Jerúsalem, ut sísterent eum
               Dómino.
@@ -194,11 +195,11 @@ export default function PageEpi10A() {
               Os pais de Jesus levaram-n’O a Jerusalém para O oferecerem ao
               Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Placatiónis hostiam offérimus tibi, Dómine, supplíciter
               deprecántes: ut, per intercessiónem Deíparæ Vírginis cum beáto
@@ -211,13 +212,13 @@ export default function PageEpi10A() {
               José, estabeleçais solidamente as nossas famílias na vossa paz e
               na vossa graça. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 2, 51</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Descéndit Jesus cum eis, et venit Názareth, et erat súbditus
               illis.
@@ -225,11 +226,11 @@ export default function PageEpi10A() {
             <Text className="vernacular">
               Jesus desceu com eles, veio para Nazaré e era-lhes obediente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quos cœléstibus réficis sacraméntis, fac, Dómine Jesu, sanctæ
               Famíliæ tuæ exémpla júgiter imitári: ut in hora mortis nostræ,
@@ -243,7 +244,7 @@ export default function PageEpi10A() {
               Virgem, vossa Mãe, e o B. José venham ao nosso encontro, merecendo
               sermos recebidos por Vós nos tabernáculos eternos: Ó Vós, que...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

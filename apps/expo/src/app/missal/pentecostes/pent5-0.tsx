@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent50() {
   return (
@@ -14,7 +15,7 @@ export default function PagePent50() {
 
           <Text className="em">Sl. 26, 7 & 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi, Dómine, vocem meam, qua clamávi ad te: adjútor meus esto,
               ne derelínquas me neque despícias me, Deus, salutáris meus.{" "}
@@ -31,11 +32,11 @@ export default function PagePent50() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui diligéntibus te bona invisibília præparásti: infúnde
               córdibus nostris tui amóris afféctum; ut te in ómnibus et super
@@ -49,13 +50,13 @@ export default function PagePent50() {
               consigamos alcançar os bens prometidos, os quais ultrapassam todos
               nossos desejos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Pe. 3, 8-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
             <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
             <Text className="latin">
@@ -90,13 +91,13 @@ export default function PagePent50() {
               receeis, pois, os males, nem vos perturbeis; santificai nosso
               Senhor Jesus Cristo nos vossos corações.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 83, 10 & 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Protéctor noster, áspice, Deus, et réspice super servos tuos.
               <Text className="versicle"> ℣. </Text>
@@ -119,13 +120,13 @@ export default function PagePent50() {
               regozija-se com vosso poder, e, vendo-se salvo por Vós, exultará
               em transportes de alegria! Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 5, 20-24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -159,13 +160,13 @@ export default function PagePent50() {
               altar e vai primeiramente reconciliar-te com teu irmão. Depois vem
               e oferece a tua dádiva.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 15, 7 & 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícam Dóminum, qui tríbuit mihi intelléctum: providébam Deum
               in conspéctu meo semper: quóniam a dextris est mihi, ne commóvear.
@@ -175,11 +176,11 @@ export default function PagePent50() {
               Senhor na minha presença, pois está à minha dextra para que nunca
               seja abalado.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Propitiáre, Dómine, supplicatiónibus nostris: et has oblatiónes
               famulórum famularúmque tuárum benígnus assúme; ut, quod sínguli
@@ -193,13 +194,13 @@ export default function PagePent50() {
               nós em homenagem ao vosso nome seja proveitoso para a salvação de
               todos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 26, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Unam pétii a Dómino, hanc requíram: ut inhábitem in domo Dómini
               ómnibus diébus vitæ meæ.
@@ -208,11 +209,11 @@ export default function PagePent50() {
               Uma só coisa pedi a Deus e pedi-la-ei sempre: habitar todos os
               dias da minha vida na casa do Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quos cœlésti, Dómine, dono satiásti: præsta, quǽsumus; ut a
               nostris mundémur occúltis et ab hóstium liberémur insídiis. Per
@@ -223,7 +224,7 @@ export default function PagePent50() {
               suplicamos, que sejamos purificados das faltas ocultas e livres
               das ciladas dos inimigos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

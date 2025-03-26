@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1004() {
   return (
@@ -22,7 +23,7 @@ export default function Page1004() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui Ecclésiam tuam, beáti Francisci méritis fœtu novæ prolis
               amplíficas: tríbue nobis; ex ejus imitatióne, terréna despícere et
@@ -34,7 +35,7 @@ export default function Page1004() {
               imitá-lo, desprezando os bens terrenos, e de sempre nos alegrarmos
               com a participação dos dons celestiais. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -47,7 +48,7 @@ export default function Page1004() {
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecclésiam tuam, quǽsumus, Dómine, grátia cœléstis amplíficet: quam
               beáti Francísci Confessóris tui illumináre voluísti gloriósis
@@ -58,7 +59,7 @@ export default function Page1004() {
               a vossa Igreja, a qual quisestes ilustrar com os gloriosos méritos
               e exemplos do B. Francisco, vosso Confessor. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

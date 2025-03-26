@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0927() {
   return (
@@ -24,7 +25,7 @@ export default function Page0927() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui sanctórum Mártyrum
               tuórum Cosmæ et Damiáni natalítia cólimus, a cunctis malis
@@ -37,13 +38,13 @@ export default function Page0927() {
               sejamos livres, graças à sua intercessão, de todos os males que
               nos ameaçam. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 33, 18-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus
               tribulatiónibus eórum liberávit eos.
@@ -66,13 +67,13 @@ export default function Page0927() {
               verdadeira fraternidade que venceu os crimes do mundo: Ela seguiu
               Cristo, possuindo gloriosamente o reino celestial. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 5, 12-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gloriabúntur in te omnes, qui díligunt nomen tuum: quóniam tu,
               Dómine, benedíces justo: Dómine, ut scuto bonæ voluntátis tuæ
@@ -83,11 +84,11 @@ export default function Page0927() {
               Senhor, abençoais o justo. Rodeastes-nos, Senhor, com vosso amor,
               como se fora um escudo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctórum tuórum nobis, Dómine, pia non desit orátio: quæ et
               múnera nostra concíliet, et tuam nobis indulgéntiam semper
@@ -98,13 +99,13 @@ export default function Page0927() {
               que Vos torne recomendáveis as nossas ofertas e nos obtenha sempre
               a vossa misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 78, 2 & 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Posuérunt mortália servórum tuórum, Dómine, escas volatilíbus
               cœli, carnes Sanctórum tuórum béstiis terræ: secúndum magnitúdinem
@@ -116,11 +117,11 @@ export default function Page0927() {
               poder do vosso braço, salvai os filhos daqueles que foram
               condenados à morte.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Prótegat, quǽsumus, Dómine, pópulum tuum et participátio cœléstis
               indúlta convívii, et deprecátio colláta Sanctórum. Per Dóminum...
@@ -131,7 +132,7 @@ export default function Page0927() {
               pela intercessão, que lhe concedestes, dos vossos Santos. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

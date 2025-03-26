@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1207() {
@@ -44,7 +45,7 @@ export default function Page1207() {
 
           <Text className="em">Ecl. 44, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce sacérdos magnus, qui in diébus suis plácuit Deo.
               <Text className="versicle"> ℣. </Text>
@@ -69,13 +70,13 @@ export default function Page1207() {
               nunca se arrependerá: Tu és sacerdote para sempre, segundo a ordem
               de Melquisedeque. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 88, 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Véritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus.
@@ -84,11 +85,11 @@ export default function Page1207() {
               A minha verdade e a minha misericórdia estarão com ele: e o seu
               poder elevar-se-á pelo meu nome.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, múnera tuæ majestáti obláta, per
               intercessiónem beáti Ambrósii Confessóris tui atque Pontíficis, ad
@@ -100,7 +101,7 @@ export default function Page1207() {
               Confessor e Pontífice, para a nossa salvação eterna. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
@@ -111,7 +112,7 @@ export default function Page1207() {
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacraménta salútis nostræ suscipiéntes, concéde, quǽsumus,
               omnípotens Deus: ut beáti Ambrósii Confessóris tui atque
@@ -124,7 +125,7 @@ export default function Page1207() {
               Ambrósio, vosso Confessor e Pontífice, em cuja honra oferecemos
               este sacrifício à vossa majestade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

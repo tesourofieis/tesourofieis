@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0212() {
@@ -19,7 +20,7 @@ export default function Page0212() {
 
           <Text className="em">Sb. 10, 20-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justi decantavérunt, Dómine, nomen sanctum tuum, et victrícem
               manum tuam laudavérunt páriter: quóniam sapiéntia apéruit os mutum
@@ -38,11 +39,11 @@ export default function Page0212() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine Jesu Christe, qui, ad recoléndam memóriam dolórum
               sanctíssimæ Genetrícis tuæ, per septem beátos Patres nova Servorum
@@ -57,13 +58,13 @@ export default function Page0212() {
               lágrimas que possamos também compartilhar das suas alegrias. Ó
               Vós, que viveis e...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ecl. 44, 1-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -112,13 +113,13 @@ export default function Page0212() {
               seu nome viverá de geração em geração. Que os povos, pois,
               publiquem a sua sabedoria e que a Igreja cante os seus louvores!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Is. 65, 23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Electi mei non laborábunt frustra, neque germinábunt in
               conturbatióne: quia semen benedictórum Dómini est, et nepótes
@@ -145,7 +146,7 @@ export default function Page0212() {
               <Text className="vernacular">ibid., 15</Text> Publiquem os povos a
               sua sabedoria e cante a Igreja os seus louvores. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o Verso, e diz-se o Trato
@@ -167,7 +168,7 @@ export default function Page0212() {
 
           <Text className="em">Is. 56, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Addúcam eos in montem sanctum meum, et lætificábo eos in domo
               oratiónis meæ: holocáusta eórum et víctimæ eórum placébunt mihi
@@ -178,11 +179,11 @@ export default function Page0212() {
               oração. Seus holocaustos e os seus sacrifícios ser-me-ão
               agradáveis no meu altar.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accipe, quǽsumus, Dómine, hóstias quas tibi offérimus: et præsta;
               ut, intercedéntibus Sanctis tuis, libera tibi mente serviámus, et
@@ -195,13 +196,13 @@ export default function Page0212() {
               com inteira liberdade de espírito e sejamos abrasados em amor pela
               Mãe Dolorosa do vosso Divino Filho. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 15, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ego vos elégi de mundo, ut eátis et fructum afferátis: et fructus
               vester máneat.
@@ -210,11 +211,11 @@ export default function Page0212() {
               Eu vos escolhi no mundo para irdes e alcançardes fruto; e para que
               esse vosso fruto permaneça.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœléstibus refécti mystériis te, Dómine, deprecámur: ut, quorum
               festa percólimus imitántes exémpla; juxta Crucem Jesu cum María
@@ -228,7 +229,7 @@ export default function Page0212() {
               Mãe, e assim mereçamos receber o fruto da Redenção. Pelo mesmo
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

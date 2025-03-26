@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0802() {
@@ -17,7 +18,7 @@ export default function Page0802() {
 
           <Text className="em">Lc. 4, 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Spíritus Dómini super me: propter quod unxit me: evangelizáre
               paupéribus misit me, sanáre contrítos corde.{" "}
@@ -32,11 +33,11 @@ export default function Page0802() {
               minha lei, ó meu povo; escutai as palavras que saem da minha boca.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui per beátum Alfónsum Maríam Confessórem tuum atque
               Pontíficem, animárum zelo succénsum, Ecclésiam tuam nova prole
@@ -52,13 +53,13 @@ export default function Page0802() {
               exemplos, possamos chegar até junto de Vós com felicidade. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Tm. 2, 1-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
             </Text>
@@ -87,13 +88,13 @@ export default function Page0802() {
               deve ser o primeiro a saborear os frutos. Compreendei bem o que
               vos digo; pois o Senhor vos dará inteligência em todas as coisas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 118, 52-53</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Memor fui judiciórum tuórum a sǽculo, Dómine, et consolátus sum:
               deféctio ténuit me pro peccatóribus derelinquéntibus legem tuam.
@@ -124,7 +125,7 @@ export default function Page0802() {
               abominações da impiedade. Volveu o seu coração para o Senhor: e
               nos dias dos pecadores desenvolveu a piedade. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -137,7 +138,7 @@ export default function Page0802() {
 
           <Text className="em">Pr. 3, 9 & 27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hónora Dóminum de tua substántia, et de primítiis ómnium frugum
               tuárum da ei. Noli prohibére benefácere eum, qui potest: si vales,
@@ -149,11 +150,11 @@ export default function Page0802() {
               o bem a quem pode fazê-lo: e, se és capaz de fazer algum bem,
               fá-lo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœlésti, Dómine Jesu Christe, sacrifícii igne corda nostra in
               odórem suavitátis exúre: qui beáto Alfónso Maríæ tribuísti et hæc
@@ -167,13 +168,13 @@ export default function Page0802() {
               e de se oferecer a Vós, pelo mesmo mystério, como vítima sagrada.
               Ó Vós, que viveis, e reinais...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Ecl. 50, 1 & 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacérdos magnus, qui in vita sua suffúlsit domum, et in diébus
               suis corroborávit templum, quasi ignis effúlgens et thus ardens in
@@ -184,11 +185,11 @@ export default function Page0802() {
               Senhor e empregou os seus dias em fortificar o templo, apareceu,
               como uma chama, a arder e, como o incenso, abrasado no fogo!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Alfónsum Maríam Confessórem tuum atque Pontíficem
               fidelem divíni mystérii dispensatórem et præcónem effecísti: ejus
@@ -202,7 +203,7 @@ export default function Page0802() {
               frequentemente e, recebendo-os, Vos louvem incessantemente. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

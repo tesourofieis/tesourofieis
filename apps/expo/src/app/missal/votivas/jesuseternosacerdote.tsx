@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageJesuseternosacerdote() {
   return (
@@ -14,7 +15,7 @@ export default function PageJesuseternosacerdote() {
 
           <Text className="em">Sl. 109, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jurávit Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum
               secúndum órdinem Melchísedech. (T. P. Allelúja, allelúja.){" "}
@@ -28,11 +29,11 @@ export default function PageJesuseternosacerdote() {
               Senhor ao meu Senhor: Assenta-te à minha direita.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui, ad majestátis tuæ glóriam et géneris humáni salútem,
               Unigénitum tuum summum atque ætérnum constituísti Sacerdótem:
@@ -47,13 +48,13 @@ export default function PageJesuseternosacerdote() {
               dispensadores dos seus mystérios, sejam fiéis no cumprimento do
               ministério recebido. Pelo mesmo nosso...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Heb. 5, 1-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
             </Text>
@@ -101,13 +102,13 @@ export default function PageJesuseternosacerdote() {
               Melquisedeque: sobre cujo assunto tínhamos muito a dizer a
               respeito de coisas difíceis de explicar.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Lc. 4, 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Spíritus Dómini super me: propter quod unxit me.
               <Text className="versicle"> ℣. </Text>Evangelizáre paupéribus
@@ -117,7 +118,7 @@ export default function PageJesuseternosacerdote() {
               O Espírito do Senhor repousou sobre mim: e ungiu-me. Enviou-me a
               evangelizar os pobres e a sarar os contritos de coração.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
@@ -127,7 +128,7 @@ export default function PageJesuseternosacerdote() {
 
           <Text className="em">Sl. 9, 34 & 36</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsúrge, Dómine Deus, exaltétur manus tua: ne obliviscáris
               páuperum.<Text className="versicle"> ℣. </Text>Vide quóniam tu
@@ -142,13 +143,13 @@ export default function PageJesuseternosacerdote() {
               <Text className="versicle"> ℣. </Text>A Vós se abandona o infeliz:
               sois amparo do órfão.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual e o Trato, e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Hebr. 7, 24</Text> Jesus autem eo quod
@@ -167,13 +168,13 @@ export default function PageJesuseternosacerdote() {
               repousou sobre mim: e ungiu-me, mandando-me evangelizar os pobres
               e sarar os contritos de coração. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 22, 14-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -206,13 +207,13 @@ export default function PageJesuseternosacerdote() {
               «Este cálice é o Novo Testamento no meu sangue, que será derramado
               por vós».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Heb. 10, 12 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Christus unam pro peccátis ófferens hóstiam, in sempitérnum sedet
               in déxtera Dei: una enim oblatióne consummávit in ætérnum
@@ -223,11 +224,11 @@ export default function PageJesuseternosacerdote() {
               para sempre à direita de Deus; porquanto com uma só oblação
               consumou eternamente os que foram santificados (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc múnera, Dómine, mediátor noster Jesus Christus tibi reddat
               accépta: et nos, una secum, hóstias tibi gratas exhíbeat: Qui
@@ -238,13 +239,13 @@ export default function PageJesuseternosacerdote() {
               dons, ó Senhor, e que nos ofereça juntamente consigo como hóstias
               a Vós agradáveis. O qual convosco vive e reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">1 Cor. 11, 24 & 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hoc Corpus, quod pro vobis tradétur: hic calix novi testaménti est
               in meo sánguine, dicit Dóminus: hoc fácite, quotiescúmque súmitis,
@@ -255,11 +256,11 @@ export default function PageJesuseternosacerdote() {
               é a nova aliança no meu sangue, diz o Senhor; fazei isto em minha
               memória todas as vezes que o beberdes. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vivíficet nos, quǽsumus, Dómine, divína quam obtúlimus et
               súmpsimus hóstia: ut, perpétua tibi caritáte conjúncti, fructum,
@@ -271,7 +272,7 @@ export default function PageJesuseternosacerdote() {
               caridade, produzamos fruto que sempre permaneça. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

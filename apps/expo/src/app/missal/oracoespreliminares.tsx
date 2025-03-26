@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import Salmo83 from "./../devocionario/salterio/083";
 import Salmo84 from "./../devocionario/salterio/084";
 import Salmo85 from "./../devocionario/salterio/085";
@@ -18,7 +19,7 @@ export default function PageOracoespreliminares() {
           <Text className="text-base">
             Antes de se Paramentar, o Sacerdote recita estas Preces:
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Ant.</Text> Ne reminiscáris, Dómine,
               delícta nostra vel paréntum nostrórum, neque vindíctam sumas de
@@ -29,13 +30,13 @@ export default function PageOracoespreliminares() {
               Senhor, dos nossos delitos, nem dos delitos de nossos pais; não
               queirais vingar-Vos dos nossos pecados. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
           <Salmo83 />
           <Salmo84 />
           <Salmo85 />
           <Salmo115 />
           <Salmo129 />
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Ant.</Text> Ne reminiscáris, Dómine,
               delícta nostra vel paréntum nostrórum, neque vindíctam sumas de
@@ -217,9 +218,9 @@ export default function PageOracoespreliminares() {
               convosco vive e reina em unidade do Espírito Santo, Deus, por
               todos os séculos dos séculos. Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Oração Santo Ambrósio</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ad mensam dulcíssimi convívii tui, pie Dómine Jesu Christe, ego
               peccátor de própriis meis méritis nihil præsúmens, sed de tua
@@ -330,9 +331,9 @@ export default function PageOracoespreliminares() {
               para meu corpo, um abrigo seguro contra todas as ciladas dos meus
               inimigos. <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Oração São Tomás Aquino</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempiterne Deus, ecce, accédo ad sacraméntum unigéniti
               Fílii tui, Dómini nostri Jesu Christi; accédo tamquam infírmus ad
@@ -406,9 +407,9 @@ export default function PageOracoespreliminares() {
               Ele que, sendo Deus, convosco vive e reina, em união com o
               Espírito Santo, por todos os séculos dos séculos. Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Oração à Santíssima Virgem</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               O Mater pietátis et misericórdiæ, beatíssima Virgo María, ego
               miser et indígnus peccátor ad te confúgio toto corde et afféctu;
@@ -429,7 +430,7 @@ export default function PageOracoespreliminares() {
               possamos nós apresentar à suprema e indivisível Trindade a Vítima
               verdadeiramente digna de lhe ser oferecida. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

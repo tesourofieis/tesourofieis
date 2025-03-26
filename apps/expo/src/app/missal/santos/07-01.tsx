@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0701() {
@@ -34,7 +35,7 @@ export default function Page0701() {
 
           <Text className="em">Apoc. 5, 9-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Redemísti nos,Dómine, in sánguine tuo, ex omni tribu et lingua et
               pópulo et natióne: et fecísti nos Deo nostro regnum.{" "}
@@ -52,11 +53,11 @@ export default function Page0701() {
               publicará a vossa verdade.<Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui unigénitum Fílium tuum mundi
               Redemptórem constituísti, ac ejus Sánguine placári voluísti:
@@ -72,7 +73,7 @@ export default function Page0701() {
               sermos preservados dos males da vida presente de modo a gozarmos
               eternamente os seus frutos nos céus. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -85,7 +86,7 @@ export default function Page0701() {
 
           <Text className="em">1 Jo. 5, 6 & 7-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hic est, qui venit per aquam et sánguinem, Jesus Christus: non in
               aqua solum, sed in aqua et sánguine.
@@ -112,13 +113,13 @@ export default function Page0701() {
               <Text className="vernacular">ibid., 9</Text> Se recebemos o
               testemunho dos homens, maior é o testemunho de Deus. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 19, 30-35</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -152,13 +153,13 @@ export default function Page0701() {
               uma lança, saindo dali imediatamente sangue e água. E aquele que
               viu isto dá testemunho, sendo verdadeiro o seu testemunho.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">1 Cor. 10, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Calix benedictiónis, cui benedícimus, nonne communicátio sánguinis
               Christi est? et panis, quem frángimus, nonne participátio córporis
@@ -169,11 +170,11 @@ export default function Page0701() {
               comunhão do Sangue de Cristo? E o pão, que nós partimos, não é a
               participação do Corpo do Senhor?
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per hæc divína mystéria, ad novi, quǽsumus, Testaménti mediatórem
               Jesum accedámus: et super altária tua, Dómine virtútum,
@@ -187,13 +188,13 @@ export default function Page0701() {
               exércitos, o qual é mais eloquente do que o sangue de Abel. Pelo
               mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Heb. 9, 28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Christus semel oblítus est ad multórum exhauriénda peccáta:
               secúndo sine peccáto apparébit exspectántibus se in salútem.
@@ -203,11 +204,11 @@ export default function Page0701() {
               uma segunda vez Ele aparecerá não já para expiar os pecados, mas
               para salvar aqueles que O esperam.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ad sacram, Dómine, mensam admíssi, háusimus aquas in gáudio de
               fóntibus Salvatóris: sanguis ejus fiat nobis, quǽsumus, fons aquæ
@@ -219,7 +220,7 @@ export default function Page0701() {
               seu Sangue se torne para nós numa fonte de água viva, brotando até
               à vida eterna. Ele, que, sendo Deus, vive e reina...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

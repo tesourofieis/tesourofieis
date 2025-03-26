@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuadp36() {
   return (
@@ -21,7 +22,7 @@ export default function PageQuadp36() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto, Dómine, supplicatiónibus nostris: et concéde; ut hoc
               sollémne jejúnium, quod animábus corporibúsque curándis salúbriter
@@ -33,13 +34,13 @@ export default function PageQuadp36() {
               salutarmente instituído para curar as nossas almas e os nossos
               corpos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Is. 58, 9-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -81,13 +82,13 @@ export default function PageQuadp36() {
               erguidos às culminâncias da terra, e vos darei o gozo da herança
               de vosso pai Jacob, pois a palavra do Senhor o prometeu».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mc. 6, 47-56</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Marcum.
@@ -137,11 +138,11 @@ export default function PageQuadp36() {
               tocar na orla do seu vestido. E todos aqueles que Lhe tocavam eram
               curados.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, sacrifícium, cujus te voluísti dignánter
               immolatióne placári: præsta, quǽsumus; ut, hujus operatióne
@@ -154,11 +155,11 @@ export default function PageQuadp36() {
               que, purificados pela sua virtude, queirais aceitar o afecto do
               nosso coração, como uma oblação agradável. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœléstis vitæ múnere vegetáti, quǽsumus, Dómine: ut, quod est
               nobis in præsénti vita mystérium, fiat æternitátis auxílium. Per
@@ -169,11 +170,11 @@ export default function PageQuadp36() {
               suplicamos, Senhor, permiti que este dom, que é para nós mystério
               nesta vida, seja nosso auxílio na eternidade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -193,7 +194,7 @@ export default function PageQuadp36() {
               fim de que, recebendo-os, os procurem, e, procurando-os, os
               alcancem perpetuamente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

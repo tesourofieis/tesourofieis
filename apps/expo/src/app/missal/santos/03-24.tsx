@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0324() {
   return (
@@ -14,7 +15,7 @@ export default function Page0324() {
 
           <Text className="em">Sl. 102, 20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui
               fácitis verbum ejus, ad audiéndam vocem sermónum ejus. (T. P.
@@ -31,11 +32,11 @@ export default function Page0324() {
               santo nome do Senhor.<Text className="versicle"> ℣. </Text>Glória
               ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui inter céteros Angelos, ad annuntiándum incarnatiónis tuæ
               mystérium, Gabriélem Archángelum elegísti: concéde propítius; ut,
@@ -49,13 +50,13 @@ export default function Page0324() {
               experimentemos o seu patrocínio no céu, Ó Vós, que, sendo Deus,
               viveis e...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Dn. 9, 21-26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Daniélis Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Daniel.</Text>
             <Text className="latin">
@@ -100,13 +101,13 @@ export default function Page0324() {
               será a devastação. Após o fim da guerra virá a desolação
               decretada».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 102, 20 & 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui
               fácitis verbum ejus.<Text className="versicle"> ℣. </Text>Benedic,
@@ -118,13 +119,13 @@ export default function Page0324() {
               <Text className="versicle"> ℣. </Text>Bendizei o Senhor, ó minha
               alma: tudo o que há no meu íntimo bendiga o Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Lc. 1, 28, 42, 31 & 35</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ave, María, grátia plena; Dóminus tecum.
               <Text className="versicle"> ℣. </Text>Benedícta tu in muliéribus:
@@ -147,13 +148,13 @@ export default function Page0324() {
               <Text className="versicle"> ℣. </Text>E, por isso, o Santo que de
               vós nascer será chamado Filho de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 103, 4</Text> Qui facit Angelos suos
@@ -171,13 +172,13 @@ export default function Page0324() {
               <Text className="em">Lc. 1, 28</Text> Ave, Maria, cheia de graça:
               O Senhor é convosco: bendita sois vós entre as mulheres. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 1, 26-38</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -229,13 +230,13 @@ export default function Page0324() {
               Então disse Maria: «Eis aqui a escrava do Senhor, faça-se em mim
               segundo a tua palavra».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Ap. 8, 3 & 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Stetit Angelus juxta aram templi, habens thuríbulum áureum in manu
               sua, et data sunt ei incénsa multa: et ascéndit fumus aromátum in
@@ -246,11 +247,11 @@ export default function Page0324() {
               turíbulo de ouro: e deitava-lhe muito incenso, subindo o fumo dos
               perfumes à presença de Deus. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accéptum fiat in conspéctu tuo, Dómine, nostræ servitútis munus,
               et beáti Archángeli Gabriélis orátio: ut, qui a nobis venerátur in
@@ -263,11 +264,11 @@ export default function Page0324() {
               nós na terra, seja nosso advogado junto de Vós no céu. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícite, omnes Angeli Dómini, Dóminum: hymnum dícite et
               superexaltáte eum in sǽcula. (T. P. Allelúja.)
@@ -276,11 +277,11 @@ export default function Page0324() {
               Anjos todos do Senhor, louvai o Senhor. Cantai hinos em seu louvor
               e aclamai-O em todos os séculos. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Córporis tui et Sánguinis sumptis mystériis, tuam, Dómine, Deus
               noster, deprecámur cleméntiam: ut, sicut, Gabriéle nuntiánte,
@@ -294,7 +295,7 @@ export default function Page0324() {
               assim também com seu auxílio alcancemos os benefícios da mesma
               Incarnação. Ó Vós, que...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

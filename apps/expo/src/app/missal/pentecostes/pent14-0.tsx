@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent140() {
   return (
@@ -16,7 +17,7 @@ export default function PagePent140() {
 
           <Text className="em">Sl. 83, 10-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Protéctor noster, áspice, Deus, et réspice in fáciem Christi tui:
               quia mélior est dies una in átriis tuis super mília.{" "}
@@ -34,11 +35,11 @@ export default function PagePent140() {
               ao pensar neles.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Custódi, Dómine, quǽsumus, Ecclésiam tuam propitiatióne perpétua:
               et quia sine te lábitur humána mortálitas; tuis semper auxíliis et
@@ -51,13 +52,13 @@ export default function PagePent140() {
               tudo o que lhe pode produzir algum mal e conduzi-la a tudo o que
               seja salutar à sua salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Gl. 5, 16-24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.
             </Text>
@@ -99,13 +100,13 @@ export default function PagePent140() {
               Aqueles que são de Cristo crucificaram a sua carne, as suas
               paixões e os seus desejos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 117, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Bonum est confidére in Dómino, quam confidére in hómine.
               <Text className="versicle"> ℣. </Text>Bonum est speráre in Dómino,
@@ -127,13 +128,13 @@ export default function PagePent140() {
               alegria ao Senhor, exultemos jubilosamente em Deus, nosso
               Salvador. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 6, 24-33</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -186,13 +187,13 @@ export default function PagePent140() {
               primeiramente o reino de Deus e a sua justiça, e todas estas
               coisas vos serão dadas».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 33, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Immíttet Angelus Dómini in circúitu timéntium eum, et erípiet eos:
               gustáte et vidéte, quóniam suávis est Dóminus.
@@ -201,11 +202,11 @@ export default function PagePent140() {
               O Anjo do Senhor circundará aqueles que temem o Senhor e
               livrá-los-á. Provai e vede como o Senhor é bom!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde nobis, Dómine, quǽsumus, ut hæc hóstia salutáris et
               nostrórum fiat purgátio delictórum, et tuæ propitiátio potestátis.
@@ -216,13 +217,13 @@ export default function PagePent140() {
               purifique das nossas faltas e nos torne propício o vosso poder.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 6, 33</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Primum quǽrite regnum Dei, et ómnia adjiciéntur vobis, dicit
               Dóminus.
@@ -231,11 +232,11 @@ export default function PagePent140() {
               Procurai primeiramente o reino de Deus, e tudo vos será dado por
               acréscimo, diz o Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Puríficent semper et múniant tua sacraménta nos, Deus: et ad
               perpétuæ ducant salvatiónis efféctum. Per Dóminum...
@@ -245,7 +246,7 @@ export default function PagePent140() {
               fortifiquem sempre, e nos façam gozar a salvação eterna. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

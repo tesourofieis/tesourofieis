@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page26Continencia() {
   return (
@@ -12,7 +13,7 @@ export default function Page26Continencia() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ure igne Sancti Spíritus renes nostros et cor nostrum, Dómine: ut
               tibi casto córpore serviámus et mundo corde placeámus. Per
@@ -24,11 +25,11 @@ export default function Page26Continencia() {
               sejamos agradáveis pela pureza dos nossos corações. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dirúmpe, Dómine, víncula peccatórum nostrórum: et, ut sacrificáre
               tibi hóstiam laudis absolúta libertáte ac munda mente póssimus,
@@ -43,11 +44,11 @@ export default function Page26Continencia() {
               salvai novamente aqueles que já havíeis salvo uma primeira vez,
               por uma graça imerecida. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, adjútor et protéctor noster, ádjuva nos: et reflóreat cor
               et caro nostra vigóre pudicítiæ et castimóniæ novitáte; ut per hoc
@@ -61,7 +62,7 @@ export default function Page26Continencia() {
               fim de que este santo sacrifício, que oferecemos à vossa bondade,
               nos purifique de todas as tentações. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

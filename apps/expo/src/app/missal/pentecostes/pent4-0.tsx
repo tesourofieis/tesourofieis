@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent40() {
   return (
@@ -14,7 +15,7 @@ export default function PagePent40() {
 
           <Text className="em">Sl. 26, 1 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dóminus illuminátio mea et salus mea, quem timebo? Dóminus
               defensor vitæ meæ, a quo trepidábo? qui tríbulant me inimíci mei,
@@ -31,11 +32,11 @@ export default function PagePent40() {
               exército me cercasse, o meu coração não temeria.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da nobis, quǽsumus, Dómine: ut et mundi cursus pacífice nobis tuo
               órdine dirigátur; et Ecclésia tua tranquílla devotióne lætétur.
@@ -47,13 +48,13 @@ export default function PagePent40() {
               que a vossa Igreja goze a alegria de Vos servir com tranquilidade.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Rm. 8, 18-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
@@ -87,13 +88,13 @@ export default function PagePent40() {
               filhos de Deus, e a redenção do corpo, em nosso Senhor Jesus
               Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 78, 9 & 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes:
               Ubi est Deus eórum?<Text className="versicle"> ℣. </Text>Adjuva
@@ -118,13 +119,13 @@ export default function PagePent40() {
               estais assentado no vosso trono e julgais com justiça, sede o
               refúgio dos pobres na tribulação. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 5, 1-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -177,13 +178,13 @@ export default function PagePent40() {
               serás pescador de homens». E eles, tendo conduzido as barcas para
               terra, deixaram tudo e seguiram-n’O.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 12, 4-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Illúmina óculos meos, ne umquam obdórmiam in morte: ne quando
               dicat inimícus meus: Præválui advérsus eum.
@@ -192,11 +193,11 @@ export default function PagePent40() {
               Iluminai os meus olhos, para que não adormeça na morte e o meu
               inimigo não diga mais tarde: prevaleci contra ele.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblatiónibus nostris, quǽsumus, Dómine, placáre suscéptis: et ad
               te nostras étiam rebélles compélle propítius voluntátes. Per
@@ -207,13 +208,13 @@ export default function PagePent40() {
               dignai-Vos propiciamente compelir a nossa vontade rebelde a
               submeter-se a Vós. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 17, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dóminus firmaméntum meum, et refúgium meum, et liberátor meus:
               Deus meus, adjútor meus.
@@ -222,11 +223,11 @@ export default function PagePent40() {
               O Senhor é o meu sustentáculo, o meu refúgio e o meu libertador:
               Ele é o meu Deus e auxílio!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mystéria nos, Dómine, quǽsumus, sumpta puríficent: et suo múnere
               tueántur. Per Dóminum...
@@ -236,7 +237,7 @@ export default function PagePent40() {
               purifiquem; e que pela sua virtude nos sirvam de protecção. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

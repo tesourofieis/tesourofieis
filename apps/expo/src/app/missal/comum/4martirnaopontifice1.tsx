@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page4Martirnaopontifice1() {
   return (
@@ -14,7 +15,7 @@ export default function Page4Martirnaopontifice1() {
 
           <Text className="em">Sl. 20, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In virtúte tua, Dómine, lætábitur justus: et super salutáre tuum
               exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.{" "}
@@ -31,11 +32,11 @@ export default function Page4Martirnaopontifice1() {
               sua cabeça uma coroa de pedras preciosas.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui beáti{" "}
               <Text className="latin">N.</Text> Mártyris tui natalícia cólimus,
@@ -47,13 +48,13 @@ export default function Page4Martirnaopontifice1() {
               intercessão, alcancemos a graça de sermos confirmados no amor ao
               vosso Nome. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Sb. 10, 10-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -85,13 +86,13 @@ export default function Page4Martirnaopontifice1() {
               seus opressores. O Senhor, nosso Deus, provou que eram mentirosos
               aqueles que o desacreditaram e tornou-o ilustre para sempre.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 111, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
               <Text className="versicle"> ℣. </Text>
@@ -113,7 +114,7 @@ export default function Page4Martirnaopontifice1() {
               <Text className="vernacular">Sl. 20, 4</Text> Senhor, impusestes
               na sua cabeça uma coroa de pedras preciosas. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -123,7 +124,7 @@ export default function Page4Martirnaopontifice1() {
 
           <Text className="em">Sl. 20, 3-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Desidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
               fraudásti eum.<Text className="versicle"> ℣. </Text>Quóniam
@@ -138,13 +139,13 @@ export default function Page4Martirnaopontifice1() {
               <Text className="versicle"> ℣. </Text>
               Impusestes na sua cabeça uma coroa de pedras preciosas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 10, 34-42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -188,13 +189,13 @@ export default function Page4Martirnaopontifice1() {
               sendo meu discípulo, eu vos digo, na verdade, que não perderá a
               recompensa.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 8, 6-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Glória et honóre coronásti eum: et constituísti eum super ópera
               mánuum tuárum, Dómine.
@@ -203,11 +204,11 @@ export default function Page4Martirnaopontifice1() {
               Vós o coroastes, Senhor, com glória e com honras; Vós lhe
               concedestes o domínio sobre as obras das vossas mãos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
               cœléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum
@@ -218,13 +219,13 @@ export default function Page4Martirnaopontifice1() {
               dignai-Vos purificar-nos com vossos celestiais mystérios e
               ouvir-nos benignamente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 16, 24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui vult veníre post me, ábneget semetípsum, et tollat crucem
               suam, et sequátur me.
@@ -233,11 +234,11 @@ export default function Page4Martirnaopontifice1() {
               Se alguém quer vir após mim, negue-se a si mesmo, tome a sua cruz
               e siga-me!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, Dómine, Deus noster: ut, sicut tuórum commemoratióne
               Sanctórum temporáli gratulámur offício; ita perpétuo lætámur
@@ -249,7 +250,7 @@ export default function Page4Martirnaopontifice1() {
               dos vossos Santos, assim também tenhamos a felicidade de os
               contemplar na eternidade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

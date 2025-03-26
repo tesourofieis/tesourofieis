@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page12250() {
   return (
@@ -14,7 +15,7 @@ export default function Page12250() {
 
           <Text className="em">Sl. 2, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dóminus dixit ad me: Fílius meus es tu, ego hódie génui te.{" "}
               <Text className="latin">Ps. ib., 1</Text> Quare fremuérunt gentes:
@@ -27,11 +28,11 @@ export default function Page12250() {
               as nações? Porque meditaram os povos vãos projectos contra mim?
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui hanc sacratíssimam noctem veri lúminis fecísti
               illustratióne claréscere: da, quǽsumus; ut, cujus lucis mystéria
@@ -45,13 +46,13 @@ export default function Page12250() {
               as delícias de que é origem Aquele que, sendo Deus, convosco vive
               e reina em unidade...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Tt. 2, 11-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beati Pauli Apóstoli ad Titum.
             </Text>
@@ -79,13 +80,13 @@ export default function Page12250() {
               em suas boas obras. Ensina e prega estas coisas, em Jesus Cristo,
               nosso Senhor!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 109, 3 & 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tecum princípium in die virtútis tuæ: in splendóribus Sanctórum,
               ex útero ante lucíferum génui te.
@@ -110,13 +111,13 @@ export default function Page12250() {
               <Text className="vernacular">Sl. 2, 7</Text> O Senhor disse-me:
               «Vós sois o meu Filho; gerei-Vos hoje». Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 2, 1-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -170,13 +171,13 @@ export default function Page12250() {
               louvando Deus e dizendo: «Glória a Deus no mais alto dos céus, e,
               na terra, paz aos homens de boa vontade!»
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 95, 11 & 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Læténtur cœli et exsúltet terra ante fáciem Dómini: quóniam venit.
             </Text>
@@ -184,11 +185,11 @@ export default function Page12250() {
               Alegrem-se os céus! Regozije-se a terra ante a face do Senhor,
               pois Ele veio.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Acépta tibi sit, Dómine, quǽsumus, hodiérnæ festivitátis oblátio:
               ut, tua gratia largiénte, per hæc sacrosáncta commércia, in illíus
@@ -202,13 +203,13 @@ export default function Page12250() {
               substância humana está unida à vossa divindade. Ele, que, sendo
               Deus, convosco vive e reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 109, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In splendóribus Sanctórum, ex útero ante lucíferum génui te.
             </Text>
@@ -216,11 +217,11 @@ export default function Page12250() {
               Eu Vos gerei no meu seio, antes do romper da aurora, entre os
               esplendores dos escolhidos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da nobis, quǽsumus, Dómine, Deus noster: ut, qui Nativitátem
               Dómini nostri Jesu Christi mystériis nos frequentáre gaudémus;
@@ -233,7 +234,7 @@ export default function Page12250() {
               frequência destes divinos mystérios, mereçamos, com uma conduta
               santa, gozar a união perfeita com Aquele: que, sendo Deus...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

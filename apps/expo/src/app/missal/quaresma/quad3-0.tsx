@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad30() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad30() {
 
           <Text className="em">Sl. 24, 15-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oculi mei semper ad Dóminum, quia ipse evéllet de láqueo pedes
               meos: réspice in me, et miserére mei, quóniam únicus et pauper sum
@@ -31,11 +32,11 @@ export default function PageQuad30() {
               envergonhado.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus, vota humílium réspice: atque, ad
               defensiónem nostram, déxteram tuæ majestátis exténde. Per Dóminum
@@ -46,13 +47,13 @@ export default function PageQuad30() {
               nossa humildade; e que a dextra da vossa majestade nos conceda a
               sua protecção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ef. 5, 1-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
@@ -92,13 +93,13 @@ export default function PageQuad30() {
               da luz, cujo fruto consiste em toda a espécie de bondade, justiça
               e verdade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 9, 20 & 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsúrge, Dómine, non præváleat homo: judicéntur gentes in
               conspéctu tuo.<Text className="versicle"> ℣. </Text>In converténdo
@@ -110,13 +111,13 @@ export default function PageQuad30() {
               <Text className="versicle"> ℣. </Text>Quando o meu inimigo tiver
               fugido, eles tremerão e morrerão diante de Vós.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 122, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ad te levávi óculos meos, qui hábitas in cœlis.
               <Text className="versicle"> ℣. </Text>Ecce, sicut óculi servórum
@@ -135,13 +136,13 @@ export default function PageQuad30() {
               <Text className="versicle"> ℣. </Text>
               Tende piedade de nós, Senhor, tende piedade de nós.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 11, 14-28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -208,13 +209,13 @@ export default function PageQuad30() {
               te aleitaram!». Ele respondeu: «Bem-aventurados antes aqueles que
               ouvem a palavra de Deus e a observam».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 18, 9, 10, 11 & 12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justítiæ Dómini rectæ, lætificántes corda, et judícia ejus dulci
               ora super mel et favum: nam et servus tuus custódit ea.
@@ -224,11 +225,11 @@ export default function PageQuad30() {
               juízos são mais doces que o favo de mel; assim, pois, ó Deus, o
               vosso servo guarda-os fielmente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad
               sacrifícium celebrándum, subditórum tibi córpora mentésque
@@ -239,13 +240,13 @@ export default function PageQuad30() {
               pecados e santifique os corpos e as almas dos vossos servos, a fim
               de que celebrem dignamente este sacrifício. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 83, 4-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Passer invénit sibi domum, et turtur nidum, ubi repónat pullos
               suos: altária tua, Dómine virtútum, Rex meus, et Deus meus: beáti,
@@ -257,11 +258,11 @@ export default function PageQuad30() {
               meu Rei e meu Deus! Felizes os que habitam na vossa casa e Vos
               louvam em todos os séculos dos séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               A cunctis nos, quǽsumus, Dómine, reátibus et perículis propitiátus
               absólve: quos tanti mystérii tríbuis esse partícipes. Per
@@ -272,7 +273,7 @@ export default function PageQuad30() {
               mystério, assim também, pela vossa misericórdia, livrai-nos de
               todos os pecados e perigos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

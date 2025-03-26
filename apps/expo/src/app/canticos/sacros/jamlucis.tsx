@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageJamlucis() {
   return (
@@ -10,7 +11,7 @@ export default function PageJamlucis() {
         <View className="docs">
           <Text className="h1">Jam lucis</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jam lucis orto sídere, Deum precémur súpplices, Ut in diúrnis
               áctibus Nos servet a nocéntibus.
@@ -51,7 +52,7 @@ export default function PageJamlucis() {
               A Deus Pai se dê glória, E ao seu Filho também, Assim como ao
               Espírito Paráclito, Agora e para todo o sempre.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

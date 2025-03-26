@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad63() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad63() {
 
           <Text className="em">Fl. 2, 10, 8 & 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In nómine Jesu omne genu flectátur, cœléstium, terréstrium et
               infernórum: quia Dóminus factus est obǿdiens usque ad mortem,
@@ -32,9 +33,9 @@ export default function PageQuad63() {
               minha oração; e chegue até Vós o meu clamor.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus. Flectámus génua.</Text>
             </Text>
@@ -47,11 +48,11 @@ export default function PageQuad63() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Levantai-vos!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui nostris excéssibus
               incessánter afflígimur, per unigéniti Fílii tui passiónem
@@ -63,13 +64,13 @@ export default function PageQuad63() {
               pecados, deles sejamos livres pela paixão do vosso Filho
               Unigénito. O qual, sendo Deus, convosco vive e reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Lição</Text>
 
           <Text className="em">Is. 62, 11; 63, 1-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -110,13 +111,13 @@ export default function PageQuad63() {
               das misericórdias do Senhor. Louvá-l’O-ei pelos benefícios que nos
               concedeu, pois Ele é o Senhor, nosso Deus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 68, 18 & 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ne avértas fáciem tuam a púero tuo, quóniam tríbulor: velóciter
               exáudi me.<Text className="versicle"> ℣. </Text>Salvum me fac,
@@ -130,11 +131,11 @@ export default function PageQuad63() {
               as águas da desgraça inundaram a minha alma. Caí num profundo
               abysmo de lodo, onde não encontro apoio.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui pro nobis Fílium tuum Crucis patíbulum subire voluísti,
               ut inimíci a nobis expélleres potestatem: concéde nobis fámulis
@@ -147,13 +148,13 @@ export default function PageQuad63() {
               conceder-nos a nós, que vossos servos, a graça de tomarmos parte
               na ressurreição. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Is. 53, 1-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -223,13 +224,13 @@ export default function PageQuad63() {
               voluntariamente; foi julgado criminoso; tomou sobre si os pecados
               de muitos e suplicou pelos transgressores da Lei».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 101, 2-5 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, exaudi orationem meam, et clamor meus ad te veniat.
               <Text className="versicle"> ℣. </Text>Ne avertas faciem tuam a me:
@@ -258,13 +259,13 @@ export default function PageQuad63() {
               Erguei-Vos, Senhor, e compadecei-Vos de Sião, pois é chegado o
               tempo de ter piedade dela.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 102, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque
               secúndum iniquitátes nostras retríbuas nobis.
@@ -289,13 +290,13 @@ export default function PageQuad63() {
               Salvador, e, pela glória do vosso nome, livrai-nos, Senhor, e
               perdoai os nossos pecados por causa do vosso nome.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Narração da Paixão</Text>
 
           <Text className="em">Lc. 22, 1-71; 23, 1-53</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Pássio Dómini nostri Jesu
               Christi secúndum Lucam.
@@ -954,13 +955,13 @@ export default function PageQuad63() {
               desceu-O da cruz, amortalhou-O em um lençol e depositou-O em um
               sepulcro aberto na rocha, que ainda não servira para ninguém.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 101, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, exáudi oratiónem meam, et clamor meus ad te pervéniat: ne
               avértas fáciem tuam a me.
@@ -969,11 +970,11 @@ export default function PageQuad63() {
               Senhor, ouvi a minha oração e que meu clamor chegue até Vós; não
               afasteis de mim a vossa face.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, quǽsumus, Dómine, munus oblátum, et dignánter operáre:
               ut, quod passiónis Fílii tui, Dómini nostri, mystério gérimus,
@@ -985,13 +986,13 @@ export default function PageQuad63() {
               celebramos o mystério da Paixão de vosso Filho, nosso Senhor. Pelo
               mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 101,10, 13 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Potum meum cum fletu temperábam: quia élevans allisísti me: et ego
               sicut fænum árui: tu autem, Dómine, in ætérnum pérmanes: tu
@@ -1003,11 +1004,11 @@ export default function PageQuad63() {
               reinais eternamente. Erguei-Vos e compadecei-Vos de Sião, porque
               chegou o tempo que deveis compadecer-Vos dela.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Largíre sénsibus nostris, omnípotens Deus: ut, per temporálem
               Fílii tui mortem, quam mystéria veneránda testántur, vitam te
@@ -1019,11 +1020,11 @@ export default function PageQuad63() {
               Filho (que estes venerandos mystérios comemoram) que nos
               alcançastes o dom da vida eterna. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -1046,7 +1047,7 @@ export default function PageQuad63() {
               se entregar às mãos dos criminosos e em sofrer o suplício da cruz.
               O qual, sendo Deus, convosco vive e reina...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

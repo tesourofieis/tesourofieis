@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0508() {
   return (
@@ -28,7 +29,7 @@ export default function Page0508() {
 
           <Text className="em">Sl. 102, 20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui
               fácitis verbum ejus, ad audiéndam vocem sermónum ejus.{" "}
@@ -44,11 +45,11 @@ export default function Page0508() {
               ó minha alma: Que tudo quanto houver em mim bendiga o santo Nome
               do Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui, miro órdine, Angelórum ministéria hominúmque dispénsas:
               concéde propítius; ut, a quibus tibi ministrántibus in cœlo semper
@@ -60,13 +61,13 @@ export default function Page0508() {
               durante a vida na terra por aqueles que, servindo-Vos no céu,
               gozam sempre a vossa companhia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Apoc. 1, 1-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
             </Text>
@@ -98,9 +99,9 @@ export default function Page0508() {
               reis da terra, O qual nos amou e nos lavou das manchas dos nossos
               pecados no seu sangue».
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Sancte
               Míchael Archángele, defénde nos in prǿlio: ut non pereámus in
@@ -115,13 +116,13 @@ export default function Page0508() {
               <Text className="versicle"> ℣. </Text>O mar ficou agitado e a
               terra tremeu, quando o Arcanjo S. Miguel desceu do céu. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 18, 1-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -173,13 +174,13 @@ export default function Page0508() {
               destes pequeninos; pois, digo-vos: os seus Anjos nos céus estão
               sempre na presença de meu Pai, que está nos céus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Ap. 8, 3 & 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Stetit Angelus juxta aram templi, habens thuríbulum áureum in manu
               sua, et data sunt ei incénsa multa: et ascéndit fumus aromátum in
@@ -190,11 +191,11 @@ export default function Page0508() {
               turíbulo de ouro: e deitaram-lhe muito incenso, subindo o fumo dos
               perfumes à presença de Deus. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, laudis offérimus, supplíciter deprecántes:
               ut easdem, angélico pro nobis interveniénte suffrágio, et placátus
@@ -206,13 +207,13 @@ export default function Page0508() {
               vosso Santo Anjo, e que elas sejam úteis à nossa salvação. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Dn. 3, 58</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícite, omnes Angeli Dómini, Dóminum: hymnum dícite et
               superexaltáte eum in sǽcula.
@@ -221,11 +222,11 @@ export default function Page0508() {
               Anjos do Senhor, bendizei todos o Senhor: cantai hinos em seu
               louvor e exaltai-O em todos os séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáti Archángeli tui Michaelis intercessióne suffúlti: súpplices
               te, Dómine, deprecámur; ut, quod ore prosequimur, contingamus et
@@ -236,7 +237,7 @@ export default function Page0508() {
               oferecemos as nossas humildes súplicas, para que a nossa alma
               alcance o que a nossa boca pede. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

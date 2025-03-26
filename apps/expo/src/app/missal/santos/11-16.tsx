@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1116() {
   return (
@@ -21,7 +22,7 @@ export default function Page1116() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui in corde beátæ Gertrudis Vírginis jucúndam tibi
               mansionem præparásti: ipsíus méritis et intercessióne; cordis
@@ -34,7 +35,7 @@ export default function Page1116() {
               apagai misericordiosamente as máculas do nosso coração e
               concedei-nos o gozo da sua companhia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

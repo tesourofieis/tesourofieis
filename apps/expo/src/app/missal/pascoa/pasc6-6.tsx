@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import LadainhaSantos from "./../../devocionario/ladainhas/santos";
 
@@ -18,7 +19,7 @@ export default function PagePasc66() {
             href="/missal/quaresma/quad6-6#terceira-profecia"
           />
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui in Abrahæ fámuli tui opere humáno generi obœdiéntiæ
               exémpla præbuísti; concéde nobis, et nostræ voluntátis pravitátem
@@ -31,14 +32,14 @@ export default function PagePasc66() {
               nossa vontade e de cumprirmos em todas as coisas a rectidão dos
               vossos santos preceitos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">2.ª Profecia e Trato</Text>
           <LinkCard
             title="Quarta Profecia e Trato Vigília Páscoa"
             href="/missal/quaresma/quad6-6#quarta-profecia"
           />
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui primis tempóribus impléta mirácula novi Testaménti luce
               reserásti, ut et Mare Rubrum forma sacri fontis exsísteret, et
@@ -56,14 +57,14 @@ export default function PagePasc66() {
               Israel, sejam regenerados pela recepção do vosso Espírito. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">3.ª Profecia e Trato</Text>
           <LinkCard
             title="Décima primeria Profecia e Trato Vigília Páscoa"
             href="/missal/quaresma/quad6-6#décima-primeira-profecia"
           />
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, glorificátio fidélium et vita justórum, qui per Móysen,
               fámulum tuum, nos quoque modulatióne sacri cárminis erudísti:
@@ -79,14 +80,14 @@ export default function PagePasc66() {
               as ameaças do castigo eterno se tornem em remédio de salvação
               eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">4.ª Profecia e Trato</Text>
           <LinkCard
             title="Oitava Profecia e Trato Vigília Páscoa"
             href="/missal/quaresma/quad6-6#oitava-profecia"
           />
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui, per únicum Fílium tuum, Ecclésiæ
               tuæ demonstrásti te esse cultórem, omnem pálmitem, fructum in
@@ -107,14 +108,14 @@ export default function PagePasc66() {
               antes, protegidos pelo vosso Espírito santificador, produzam
               frutos perpétuos. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">5.ª Profecia</Text>
           <LinkCard
             title="Sexta Profecia e Trato Vigília Páscoa"
             href="/missal/quaresma/quad6-6#sexta-profecia"
           />
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nobis per Prophetárum ora præcepísti temporália
               relínquere atque ad ætérna festináre: da fámulis tuis; ut, quæ a
@@ -128,14 +129,14 @@ export default function PagePasc66() {
               Mandamentos e de poderem cumpri-los, sob a vossa celestial
               inspiração. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">6.ª Profecia</Text>
           <LinkCard
             title="Sétima Profecia e Trato Vigília Páscoa"
             href="/missal/quaresma/quad6-6#sétima-profecia"
           />
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, Deus virtútum, qui collápsa réparas et reparáta consérvas:
               auge pópulos in tui nóminis sanctificatióne renovándos; ut omnes,
@@ -150,7 +151,7 @@ export default function PagePasc66() {
               sejam sempre dirigidos pelas vossas inspirações. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Bênção da Pia Baptismal</Text>
           <Text className="h3">Ladainha dos Santos</Text>
           <LadainhaSantos />
@@ -161,7 +162,7 @@ export default function PagePasc66() {
           <Text className="h2">Missa da Vigília de Pentecostes</Text>
           <Text className="h3">Intróito</Text>
           <Text className="em">Ez. 36, 23, 24 & 25-26</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cum sanctificátus fúero in vobis, congregábo vos de univérsis
               terris: et effúndam super vos aquam mundam, et mundabímini ab
@@ -179,9 +180,9 @@ export default function PagePasc66() {
               louvores em sua honra.<Text className="versicle"> ℣. </Text>Glória
               ao Pai...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut claritatis tuæ super nos
               splendor effúlgeat; et lux tuæ lucis corda eórum, qui per grátiam
@@ -195,10 +196,10 @@ export default function PagePasc66() {
               corações daqueles que a vossa graça fez renascer. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Epístola</Text>
           <Text className="em">Act. 19, 1-8</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolorum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -233,8 +234,8 @@ export default function PagePasc66() {
               durante três meses com muita sabedoria acerca do reino de Deus,
               discutindo e persuadindo os assistentes.
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               Allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 106, 1</Text> Confitémini Dómino,
@@ -245,10 +246,10 @@ export default function PagePasc66() {
               <Text className="vernacular">Sl. 106, 1</Text> Louvai o Senhor,
               que é bom, pois a sua misericórdia é eterna.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Trato</Text>
           <Text className="em">Sl. 116, 1-2</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli.
               <Text className="versicle"> ℣. </Text>
@@ -261,10 +262,10 @@ export default function PagePasc66() {
               misericórdia para nós: e a verdade do Senhor permanece
               perpetuamente.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Evangelho</Text>
           <Text className="em">Jo. 14, 15-21</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text>Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -301,10 +302,10 @@ export default function PagePasc66() {
               amar será amado pelo meu Pai; e Eu o amarei e a ele me
               manifestarei».
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Ofertório</Text>
           <Text className="em">Sl. 103, 30-31</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Emítte Spíritum tuum, et creabúntur, et renovábis fáciem terræ:
               sit glória Dómini in sǽcula, allelúja.
@@ -314,9 +315,9 @@ export default function PagePasc66() {
               terra. Seja a glória do Senhor exaltada em todos os séculos,
               aleluia.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Secreta</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera, quǽsumus, Dómine, obláta sanctífica: et corda nostra
               Sancti Spíritus illustratióne emúnda. Per Dóminum...
@@ -326,10 +327,10 @@ export default function PagePasc66() {
               purificai os nossos corações com as inspirações do Espírito Santo.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Comúnio</Text>
           <Text className="em">Jo. 7, 37-39</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ultimo festivitátis die dicébat Jesus: Qui in me credit, flúmina
               de ventre ejus fluent aquæ vivæ: hoc autem dixit de Spíritu, quem
@@ -341,9 +342,9 @@ export default function PagePasc66() {
               Espírito que deviam receber aqueles que acreditassem n’Ele,
               aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Postcomúnio</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sancti Spíritus, Dómine, corda nostra mundet infúsio: et sui roris
               íntima aspersióne fecúndet. Per Dóminum...
@@ -353,7 +354,7 @@ export default function PagePasc66() {
               corações; e que, penetrando neles, a aspersão do seu orvalho
               fecunde o íntimo das nossas almas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page19Animais() {
   return (
@@ -12,7 +13,7 @@ export default function Page19Animais() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui labóribus hóminum étiam de mutis animálibus solácia
               subrogásti: súpplices te rogámus; ut, sine quibus non álitur
@@ -25,11 +26,11 @@ export default function Page19Animais() {
               da morte, aqueles de que a condição humana tem necessidade. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifíciis, Dómine, placátus oblátis: opem tuam nostris
               tempóribus cleménter impénde. Per Dóminum...
@@ -39,11 +40,11 @@ export default function Page19Animais() {
               ira, e que a vossa clemência se faça sentir nestes infelizes
               tempos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedictiónem tuam, Dómine, pópulus fidélis accípiat, qua córpore
               salvétur et mente: et cóngruam tibi exhíbeat servitútem, et
@@ -55,7 +56,7 @@ export default function Page19Animais() {
               servir-Vos convenientemente e por isso mesmo alcance os benefícios
               da vossa misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

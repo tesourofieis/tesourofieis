@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent20() {
   return (
@@ -14,7 +15,7 @@ export default function PagePent20() {
 
           <Text className="em">Sl. 17, 19-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Factus est Dóminus protéctor meus, et edúxit me in latitúdinem:
               salvum me fecit, quóniam vóluit me.{" "}
@@ -30,11 +31,11 @@ export default function PagePent20() {
               sustentáculo, refúgio e libertador.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sancti nóminis tui, Dómine, timórem páriter et amórem fac nos
               habére perpétuum: quia numquam tua gubernatióne destítuis, quos in
@@ -46,13 +47,13 @@ export default function PagePent20() {
               aqueles em quem infundistes solidamente o vosso amor. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Jo. 3, 13-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Joánnis Apóstoli.
             </Text>
@@ -81,13 +82,13 @@ export default function PagePent20() {
               permanece nele o amor de Deus? Meus filhinhos: Não amemos somente
               com palavras e com desejos, mas com obras e verdade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 119, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ad Dóminum, cum tribulárer, clamávi, et exaudívit me.
               <Text className="versicle"> ℣. </Text>Dómine, libera ánimam meam a
@@ -111,13 +112,13 @@ export default function PagePent20() {
               refugio-me em Vós: salvai-me das mãos dos meus perseguidores:
               livrai-me. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 14, 16-24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -160,13 +161,13 @@ export default function PagePent20() {
               a entrar, porque quero que minha casa fique cheia. Eu vos afirmo
               que nenhum do que haviam sido convidados provará a minha ceia».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 6, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, convértere, et éripe ánimam meam: salvum me fac propter
               misericórdiam tuam.
@@ -175,11 +176,11 @@ export default function PagePent20() {
               Senhor, volvei para mim a vossa face: e livrai a minha alma:
               salvai-me pela vossa misericórdia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblátio nos, Dómine, tuo nómini dicánda puríficet: et de die in
               diem ad cœléstis vitæ tránsferat actiónem. Per Dóminum...
@@ -189,13 +190,13 @@ export default function PagePent20() {
               purifique; e que dia a dia nos aperfeiçoe na prática de uma vida
               toda celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 12, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cantábo Dómino, qui bona tríbuit mihi: et psallam nómini Dómini
               altíssimi.
@@ -204,11 +205,11 @@ export default function PagePent20() {
               Cantarei hinos ao Senhor, porque me cumulou de benefícios.
               Cantarei salmos ao nome do altíssimo Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumptis munéribus sacris, quǽsumus, Dómine: ut cum frequentatióne
               mystérii, crescat nostræ salútis efféctus. Per Dóminum...
@@ -218,7 +219,7 @@ export default function PagePent20() {
               fazei que pela recepção frequente deste mystério nos sejam
               aumentados os frutos da salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

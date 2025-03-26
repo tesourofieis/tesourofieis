@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQualquernecessidade() {
   return (
@@ -12,7 +13,7 @@ export default function PageQualquernecessidade() {
 
           <Text className="h3">Intróito</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salus pópuli ego sum, dicit Dóminus: de quacúmque tribulatióne
               clamáverint ad me, exáudiam eos: et ero illórum Dóminus in
@@ -29,11 +30,11 @@ export default function PageQualquernecessidade() {
               a minha lei: inclinai os vosso ouvidos às palavras da minha boca.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ineffábilem misericórdiam tuam, Dómine, nobis cleménter osténde:
               ut simul nos et a peccátis ómnibus éxuas; et a pœnis, quas pro his
@@ -44,13 +45,13 @@ export default function PageQualquernecessidade() {
               e, livrando-nos dos nossos pecados, aliviai-nos dos castigos em
               que incorremos por causa deles. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Jr. 14, 7-8 & 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Jeremíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Jeremias.</Text>
             <Text className="latin">
@@ -68,13 +69,13 @@ export default function PageQualquernecessidade() {
               tribulação. Vós estais no meio de nós, Senhor, e o vosso nome é
               invocado por nós. Não nos abandoneis, pois, ó Senhor, nosso Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 43, 3-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos
               oderunt, confudísti.<Text className="versicle"> ℣. </Text>In Deo
@@ -98,7 +99,7 @@ export default function PageQualquernecessidade() {
               Senhor, os nossos pecados: para que os povos não digam: «Onde está
               o seu Deus»?». Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Depois da Septuagésima, omite-se o Aleluia e o Seguinte, e diz-se o:
@@ -108,7 +109,7 @@ export default function PageQualquernecessidade() {
 
           <Text className="em">Sl. 24, 17-18 & 1-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               De necessitátibus meis éripe me, Dómine: vide humilitátem meam et
               labórem meum: et dimitte ómnia peccáta mea.
@@ -128,13 +129,13 @@ export default function PageQualquernecessidade() {
               Senhor, os que confiam em Vós: mas serão confundidos os que
               procedem em vão.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual e o Trato, e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 78, 9-10</Text> Propítius esto,
@@ -154,13 +155,13 @@ export default function PageQualquernecessidade() {
               desgraça: e salvastes a minha alma das minhas tribulações.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mc. 11, 22-26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Marcum.
@@ -192,13 +193,13 @@ export default function PageQualquernecessidade() {
               também os vossos pecados; pois se vós não perdoardes, também o
               vosso Pai, que está nos céus, não perdoará os vossos pecados.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 137, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Si ambulávero in médio tribulatiónis, vivificábis me, Dómine: et
               super iram inimicórum meórum exténdes manum tuam, et salvum me
@@ -209,11 +210,11 @@ export default function PageQualquernecessidade() {
               Senhor: Vós impusestes a vossa mão contra o furor dos meus
               inimigos e a vossa dextra salvou-me. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Puríficet nos, Dómine, quǽsumus, múneris præséntis oblátio: et
               dignos sacra participatióne perfíciat. Per Dóminum...
@@ -223,13 +224,13 @@ export default function PageQualquernecessidade() {
               verdadeiramente dignos de participarmos santamente destes
               mystérios. Por...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 118, 49-50</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Meménto verbi tui servo tuo, Dómine, in quo mihi spemdedísti: hæc
               me consoláta est in humilitáte mea. (T. P. Allelúja.)
@@ -239,11 +240,11 @@ export default function PageQualquernecessidade() {
               qual me encheu de esperança. Foi ela que me serviu de consolação
               nas minhas penas. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, Dómine: ut, terrenis afféctibus expiáti, ad
               superni plenitúdinem sacraménti, cujus libávimus sancta, tendámus.
@@ -254,7 +255,7 @@ export default function PageQualquernecessidade() {
               afectos terrenos, procuremos a posse completa do sacramento, que
               acabámos de receber, nas divinas espécies. Por...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page13Tribulacao() {
   return (
@@ -12,7 +13,7 @@ export default function Page13Tribulacao() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ne despícias, omnípotens Deus, pópulum tuum in afflictióne
               clamántem: sed, propter glóriam nóminis tui, tribulátis succúrre
@@ -24,11 +25,11 @@ export default function Page13Tribulacao() {
               deixai-Vos aplacar e vinde em auxílio daqueles que estão na
               tribulação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, propítius hóstias, quibus et te placári voluísti,
               et nobis salútem poténti pietáte restítui. Per Dóminum...
@@ -38,11 +39,11 @@ export default function Page13Tribulacao() {
               ser aplacado; e, pela vossa poderosa misericórdia, restituí-nos a
               salvação por meio delas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tribulatiónem nostram, quǽsumus, Dómine, propítius réspice: et
               iram tuæ indignatiónis, quam juste merémur, avérte. Per Dóminum
@@ -53,7 +54,7 @@ export default function Page13Tribulacao() {
               as nossas tribulações e afastai de nós o furor da vossa
               indignação, que justamente merecemos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

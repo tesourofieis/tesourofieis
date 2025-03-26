@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0822Outro() {
   return (
@@ -24,7 +25,7 @@ export default function Page0822Outro() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Aixílium tuum nobis, Dómine, quǽsumus, placátus impende: et,
               intercedéntibus beátis Martýribus tuis Timótheo, Hippolýto et
@@ -37,11 +38,11 @@ export default function Page0822Outro() {
               Sinforiano dignai-Vos amparar-nos com vossa mão propícia. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre
               Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit
@@ -52,11 +53,11 @@ export default function Page0822Outro() {
               em honra dos vossos Santos, por cujos méritos reconhece ter
               alcançado auxílio na tribulação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Divíni muneris largitate satiáti, quǽsumus, Dómine, Deus noster:
               ut, intercedéntibus sanctis Martýribus tuis Timótheo, Hippolýto et
@@ -68,7 +69,7 @@ export default function Page0822Outro() {
               Timóteo, Hipólito e Sinforiano, que participemos sempre dele
               durante toda nossa vida. Por nosso...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

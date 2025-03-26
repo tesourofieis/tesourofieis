@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1102() {
   return (
@@ -15,7 +16,7 @@ export default function Page1102() {
           </Text>
           <Text className="h3">Intróito</Text>
           <Text className="em">4 Esd. 2, 34 & 35</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.{" "}
               <Text className="latin">Ps. 64, 2-3</Text> Te decet hymnus, Deus,
@@ -29,9 +30,9 @@ export default function Page1102() {
               Jerusalém: ouvi a minha oração: todas as criaturas devem
               comparecer ante Vós.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fidélium, Deus, ómnium Cónditor et Redémptor: animábus famulórum
               famularúmque tuárum remissiónem cunctórum tríbue peccatórum; ut
@@ -44,10 +45,10 @@ export default function Page1102() {
               pelas nossas humilíssimas orações alcancem da vossa misericórdia o
               perdão que sempre desejaram. Ó Vós, que, sendo Deus...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Epístola</Text>
           <Text className="em">1 Cor. 15, 51-57</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -82,10 +83,10 @@ export default function Page1102() {
               rendidas a Deus, que nos concedeu a vitória por Jesus Cristo,
               Senhor nosso.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Gradual</Text>
           <Text className="em">4 Esd. 2, 34 et 35</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.
               <Text className="versicle"> ℣. </Text>
@@ -99,9 +100,9 @@ export default function Page1102() {
               homem justo permanecerá eternamente; este não temerá ouvir as
               sentenças más dos homens.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Trato</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Absólve, Dómine, ánimas ómnium fidélium defunctórum ab omni
               vínculo delictórum.<Text className="versicle"> ℣. </Text>Et grátia
@@ -116,9 +117,9 @@ export default function Page1102() {
               <Text className="versicle"> ℣. </Text>E gozem a bem-aventurança da
               luz eterna.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Sequência</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dies iræ, dies illa Solvet sæclum in favílla: Teste David cum
               Sibýlla.
@@ -275,10 +276,10 @@ export default function Page1102() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Evangelho</Text>
           <Text className="em">Jo. 5, 25-29</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -310,9 +311,9 @@ export default function Page1102() {
               sairão para a ressurreição da vida eterna; e aqueles que tiverem
               praticado obras más ressuscitarão para a condenação».
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Ofertório</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine Jesu Christe, Rex glóriæ, líbera ánimas ómnium fidélium
               defunctórum de pœnis inférni et de profúndo lacu: líbera eas de
@@ -336,9 +337,9 @@ export default function Page1102() {
               daqueles que hoje comemoramos, e fazei-as passar da morte à vida:
               Como outrora prometestes a Abraão e à sua posteridade.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Secreta</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias, quǽsumus, Dómine, quas tibi pro animábus famulórum
               famularúmque tuárum offérimus, propitiátus inténde: ut, quibus
@@ -351,10 +352,10 @@ export default function Page1102() {
               lhes haverdes concedido o dom da fé cristã, lhes proporcioneis a
               recompensa. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Comúnio</Text>
           <Text className="em">4 Esd. 2, 35 & 34</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lux ætérna lúceat eis, Dómine: Cum Sanctis tuis in ætérnum: quia
               pius es.<Text className="versicle"> ℣. </Text>Requiem ætérnam dona
@@ -368,9 +369,9 @@ export default function Page1102() {
               repouso, e que a luz perpétua lhes resplandeça: Com os vossos
               santos em todos os séculos, ó Senhor, pois sois misericordioso.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Postcomúnio</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Animábus, quǽsumus, Dómine, famulórum famularúmque tuárum orátio
               profíciat supplicántium: ut eas et a peccátis ómnibus éxuas, et
@@ -382,7 +383,7 @@ export default function Page1102() {
               pecados, participem dos frutos da vossa redenção. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
           2.ª Missa, como a
           <Link href="/ritual/requiem#no-dia-do-aniversário">
             Missa do Dia do Aniversário.

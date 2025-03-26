@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0307() {
   return (
@@ -48,7 +49,7 @@ export default function Page0307() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui Ecclésiam tuam beáti Thomæ Confessóris tui mira
               eruditióne claríficas, et sancta operatióne fecúndas: da nobis,
@@ -62,13 +63,13 @@ export default function Page0307() {
               ensinou e imitemos com as nossas acções o que ele praticou. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Sb. 7, 7-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -101,7 +102,7 @@ export default function Page0307() {
               aproveitam tornam-se amigos de Deus e recomendam-se pelos dons da
               ciência.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

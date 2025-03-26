@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1122() {
@@ -25,7 +26,7 @@ export default function Page1122() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos ánnua beátæ Caeciliae Vírginis et Mártyris tuæ
               sollemnitáte lætíficas: da, ut, quam venerámur offício, étiam piæ
@@ -37,7 +38,7 @@ export default function Page1122() {
               estes cultos, imitemos também os exemplos da sua piedosa vida. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -50,7 +51,7 @@ export default function Page1122() {
 
           <Text className="em">Sl. 44, 11 & 12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Audi, fília, et vide, et inclína aurem tuam: quia concupívit Rex
               spéciem tuam.<Text className="versicle"> ℣. </Text>
@@ -78,11 +79,11 @@ export default function Page1122() {
               da noite uma voz soou: eis que chega o esposo: ide ao encontro de
               Cristo, Senhor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc hóstia, Dómine, placatiónis et laudis, quǽsumus: ut,
               intercedénte beáta Cæcília Vírgine et Mártyre tua, nos
@@ -93,11 +94,11 @@ export default function Page1122() {
               nos torne sempre dignos da vossa misericórdia, pela intercessão da
               B. Cecília, vossa Virgem e Mártir. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus,
               semper interventióne nos réfove, cujus sollémnia celebrámus. Per
@@ -108,7 +109,7 @@ export default function Page1122() {
               e dignai-Vos favorecer-nos sempre, Vos imploramos, pela
               intercessão daquela cuja festa celebramos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

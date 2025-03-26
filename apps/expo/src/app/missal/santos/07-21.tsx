@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0721() {
   return (
@@ -53,7 +54,7 @@ export default function Page0721() {
 
           <Text className="em">Sl. 44, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dilexísti justítiam, et odísti iniquitátem.
               <Text className="versicle"> ℣. </Text>Proptérea unxit te Deus,
@@ -74,7 +75,7 @@ export default function Page0721() {
               <Text className="vernacular">ibid., 5</Text> Caminhai, pois, com
               beleza e com majestade; ide gozar a glória e reinai. Aleluia.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

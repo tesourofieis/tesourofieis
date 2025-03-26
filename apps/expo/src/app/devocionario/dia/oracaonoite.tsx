@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import NuncDimittis from "./../../canticos/sacros/nuncdimittis";
 import TeLucis from "./../../canticos/sacros/telucis";
 import ActoCaridade from "./../oracoes/actocaridade";
@@ -16,7 +17,7 @@ export default function PageOracaonoite() {
       <ScrollView>
         <View className="docs">
           <Text className="h1">Oração da Noite</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Convérte nos, Deus,
               salutáris noster.
@@ -66,9 +67,9 @@ export default function PageOracaonoite() {
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Veni, Sancte Spíritus</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veni, Sancte Spíritus! reple tuórum corda fidélium: et tui amóris
               in eis ignem accénde.
@@ -92,7 +93,7 @@ export default function PageOracaonoite() {
               <Text className="response"> ℟. </Text> E renovareis a face da
               terra.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Breve lição:</Text>
           <Text className="text-base">
             Sede sóbrios e vigilantes, pois o demónio gira em torno de vós,

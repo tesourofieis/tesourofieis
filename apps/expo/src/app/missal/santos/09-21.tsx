@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0921() {
   return (
@@ -14,7 +15,7 @@ export default function Page0921() {
 
           <Text className="em">Sl. 36, 30-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Os justi meditábitur sapiéntiam, et lingua ejus loquétur judíci‚
               um: lex Dei ejus in corde ipsíus.{" "}
@@ -29,11 +30,11 @@ export default function Page0921() {
               contra os maus, nem tenhais inveja daqueles que cometem
               iniquidades.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáti Apóstoli et Evangelístæ Matthǽi, Dómine, précibus adjuvémur:
               ut, quod possibílitas nostra non óbtinet, ejus nobis intercessióne
@@ -45,13 +46,13 @@ export default function Page0921() {
               graças que não temos possibilidade de obter por nós próprios. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ez. 1, 10-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Ezechiélis Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Ezequiel.</Text>
             <Text className="latin">
@@ -80,13 +81,13 @@ export default function Page0921() {
               crepitar no meio deles chamas de fogo, saindo do fogo relâmpagos.
               E eles iam e vinham, semelhante ao fuzilar dos relâmpagos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 111, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
               <Text className="versicle"> ℣. </Text>
@@ -106,13 +107,13 @@ export default function Page0921() {
               Aleluia, aleluia.<Text className="versicle"> ℣. </Text>O coro
               glorioso dos Apóstolos Vos louva, ó Senhor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 9, 9-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -144,13 +145,13 @@ export default function Page0921() {
               aprendei o que significam estas palavras: «Prefiro a misericórdia
               ao sacrifício»; pois não vim Eu chamar os justos mas os pecadores.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 20, 4-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Possuísti, Dómine, in cápite ejus corónam de lápide pretióso:
               vitam pétiit a te, et tribuísti ei, allelúja.
@@ -159,11 +160,11 @@ export default function Page0921() {
               Vós o coroastes, Senhor, com glória e com honras: e o colocastes
               acima das obras das vossas mãos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Supplicatiónibus beáti Matthǽi Apóstoli et Evangelístæ, quǽsumus,
               Dómine, Ecclésiæ tuæ commendétur oblátio: cujus magníficis
@@ -175,13 +176,13 @@ export default function Page0921() {
               Igreja, que foi brilhantemente instruída pelas suas admiráveis
               pregações. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 20, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Magna est glória ejus in salutári tuo: glóriam et magnum del córem
               ímpones super eum, Dómine.
@@ -190,11 +191,11 @@ export default function Page0921() {
               Grande é, Senhor, a sua glória que lhe concedestes na salvação.
               Vós o rodeareis de glória e de magnificência.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Percéptis, Dómine, sacraméntis, beáto Matthǽo Apóstolo tuo et
               Evangelísta interveniénte, deprecámur: ut, quæ pro ejus celebráta
@@ -206,7 +207,7 @@ export default function Page0921() {
               que este sacrifício, oferecido em sua honra, nos sirva de remédio.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

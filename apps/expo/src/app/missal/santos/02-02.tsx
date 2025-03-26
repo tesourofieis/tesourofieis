@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0202() {
   return (
@@ -48,7 +49,7 @@ export default function Page0202() {
 
           <Text className="h2">Bênção das Velas</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -230,7 +231,7 @@ export default function Page0202() {
               Espírito Santo, verdadeiramente Vos reconheçamos e fielmente Vos
               amemos. Ó Vós, que com Deus Pai viveis e reinais...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Durante a distribuição das velas canta-se:
@@ -240,20 +241,20 @@ export default function Page0202() {
 
           <Text className="em">Lc. 2, 32</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lumen ad revelatiónem géntium et glóriam plebis tuæ Israël.
             </Text>
             <Text className="vernacular">
               A luz que iluminará as nações e a glória de Israel, vosso povo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Cântico</Text>
 
           <Text className="em">ibid., 29-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Nunc dimíttis servum tuum, Dómine, secúndum verbum tuum in pace.
             </Text>
@@ -317,7 +318,7 @@ export default function Page0202() {
             <Text className="vernacular">
               <Text className="vernacular">Antífona</Text> A luz...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Depois canta-se:</Text>
 
@@ -325,7 +326,7 @@ export default function Page0202() {
 
           <Text className="em">Sl. 43, 26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsúrge, Dómine, ádjuva nos: et líbera nos propter nomen tuum. Ps.
               ibid., 2 Deus, áuribus nostris audívimus: patres nostri
@@ -340,7 +341,7 @@ export default function Page0202() {
             </Text>
             <Text className="latin">Exsúrge, Dómine...</Text>
             <Text className="vernacular">Erguei-Vos, Senhor...</Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Se o dia 2 de Fevereiro for depois da Septuagésima, e não ao
@@ -349,7 +350,7 @@ export default function Page0202() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Flectámus génua.
             </Text>
@@ -385,7 +386,7 @@ export default function Page0202() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Missa da Purificação da B. Virgem Maria</Text>
 
@@ -393,7 +394,7 @@ export default function Page0202() {
 
           <Text className="em">Sl. 47, 10-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Suscépimus, Deus, misericórdiam tuam in médio templi tui: secúndum
               nomen tuum, Deus, ita et laus tua in fines terræ: justítia plena
@@ -411,11 +412,11 @@ export default function Page0202() {
               sua montanha sagrada.<Text className="versicle"> ℣. </Text>Glória
               ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, majestátem tuam súpplices exorámus:
               ut, sicut unigénitus Fílius tuus hodiérna die cum nostræ carnis
@@ -429,13 +430,13 @@ export default function Page0202() {
               sejamos apresentados diante de Vós com nossas almas limpas. Pelo
               mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ml. 3, 1-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Malachíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Malaquias.</Text>
             <Text className="latin">
@@ -465,13 +466,13 @@ export default function Page0202() {
               nos séculos passados e nos anos antigos: isto diz o omnipotente
               Senhor».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 47, 10-11 & 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Suscépimus, Deus, misericórdiam tuam in médio templi tui: secúndum
               nomen tuum, Deus, ita et laus tua in fines terræ.
@@ -492,7 +493,7 @@ export default function Page0202() {
               Aleluia, aleluia.<Text className="versicle"> ℣. </Text>O ancião
               segurava o Menino, mas o Menino conduzia o ancião. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o Verso e diz-se:
@@ -502,7 +503,7 @@ export default function Page0202() {
 
           <Text className="em">Lc. 2, 29-32</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Nunc dimíttis servum tuum, Dómine, secúndum verbum tuum in pace.
               <Text className="versicle"> ℣. </Text>Quia vidérunt óculi mei
@@ -519,13 +520,13 @@ export default function Page0202() {
               <Text className="versicle"> ℣. </Text>A luz que iluminará as
               nações e a glória de Israel, vosso povo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 2, 22-32</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -570,13 +571,13 @@ export default function Page0202() {
               preparastes ante a face de todos os povos: a luz para iluminar as
               nações e a glória de Israel, vosso povo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 44, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in
               ætérnum, et in sǽculum sǽculi.
@@ -585,11 +586,11 @@ export default function Page0202() {
               A graça espalhou-se nos vossos lábios; por isso abençoou-vos Deus
               para sempre.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi, Dómine, preces nostras: et, ut digna sint múnera, quæ
               óculis tuæ majestátis offérimus, subsídium nobis tuæ pietátis
@@ -600,13 +601,13 @@ export default function Page0202() {
               apresentamos diante dos olhos da vossa majestade, sejam dignas,
               concedei-nos o auxílio da vossa misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 2, 26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Respónsum accépit Símeon a Spíritu Sancto, non visúrum se mortem,
               nisi vidéret Christum Dómini.
@@ -615,11 +616,11 @@ export default function Page0202() {
               Simeão recebera do Espírito Santo a revelação de que não morreria
               sem ver o Ungido do Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, Dómine, Deus noster: ut sacrosáncta mystéria, quæ pro
               reparatiónis nostræ munímine contulísti, intercedénte beáta María
@@ -632,7 +633,7 @@ export default function Page0202() {
               concedestes, como salvaguarda da nossa regeneração, nos sirvam de
               remédio para o presente e para o futuro. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

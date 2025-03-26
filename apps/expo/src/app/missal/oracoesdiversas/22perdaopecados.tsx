@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page22Perdaopecados() {
   return (
@@ -12,7 +13,7 @@ export default function Page22Perdaopecados() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nullum réspuis, sed, quantúmvis peccántibus, per
               pœniténtiam pia miseratióne placáris: réspice propítius ad preces
@@ -26,11 +27,11 @@ export default function Page22Perdaopecados() {
               nossas humildes orações e iluminai os nossos corações, para que
               possamos cumprir os vossos preceitos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsens sacrifícium, Dómine, quod tibi pro delíctis nostris
               offérimus, sit tibi munus accéptum: et tam vivéntibus quam
@@ -42,11 +43,11 @@ export default function Page22Perdaopecados() {
               aos mortos, seja proveitoso para a sua salvação. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi preces famíliæ tuæ, omnípotens Deus: et præsta; ut sancta
               hæc, quæ a te súmpsimus, incorrúpta in nobis, te donánte,
@@ -58,7 +59,7 @@ export default function Page22Perdaopecados() {
               mystérios, que recebemos de vossas mãos, não sejam manchados no
               nosso íntimo. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

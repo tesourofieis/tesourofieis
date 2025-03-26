@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0227() {
   return (
@@ -16,7 +17,7 @@ export default function Page0227() {
 
           <Text className="em">Ecl. 11, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oculus Dei respéxit illum in bono, et eréxit eum ab humilitáte
               ipsíus, et exaltávit caput ejus: et miráti sunt in illo multi et
@@ -32,11 +33,11 @@ export default function Page0227() {
               bom para com Israel e para com aqueles que têm o coração recto!
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Gabriélem dulcíssimæ Matris tuæ dolóres assídue
               recólere docuísti, ac per illam sanctitátis et miraculórum glória
@@ -51,13 +52,13 @@ export default function Page0227() {
               que sejamos de tal modo associados às lágrimas de vossa Mãe que na
               sua maternal protecção encontremos a salvação. Ó Vós, que...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Jo. 2, 14-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Joannis Apóstoli.
             </Text>
@@ -82,13 +83,13 @@ export default function Page0227() {
               concupiscência; porém, aquele que cumpre a vontade de Deus vive
               eternamente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 30, 20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quam magna multitúdo dulcédinis tuæ, Dómine, quam abscondísti
               timéntibus te!<Text className="versicle"> ℣. </Text>Perfecísti
@@ -100,13 +101,13 @@ export default function Page0227() {
               graças aqueles que em Vós esperam, na presença dos filhos dos
               homens.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 83, 6-7, 11 & 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus vir, cujus est auxílium abs te: ascensiónes in corde suo
               dispósuit, in valle lacrimárum, in loco, quem pósuit.
@@ -126,13 +127,13 @@ export default function Page0227() {
               recusará nenhum bem àqueles que vivem na inocência. Ó Senhor dos
               exércitos, bem-aventurado o homem que espera em Vós.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mc. 10, 13-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Marcum.
@@ -179,13 +180,13 @@ export default function Page0227() {
               tens, dá-o aos pobres, e terás um tesouro no céu; depois vem e
               segue-me».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 115, 16-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               O Dómine, quia ego servus tuus, et fílius ancíllæ tuæ: dirupísti
               víncula mea, tibi sacrificábo hóstiam laudis.
@@ -195,11 +196,11 @@ export default function Page0227() {
               quebrastes as minhas cadeias; por isso Vos oferecerei um
               sacrifício de louvor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salutárem hóstiam in memóriam sancti Gabriélis tibi, Dómine,
               offeréntes, fac nos sacrifícium mortis tuæ rite recólere: ac,
@@ -212,13 +213,13 @@ export default function Page0227() {
               da vossa morte e de receberem copiosamente o fruto do mesmo
               sacrifício. Ó Vós, que viveis e...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Ap. 3, 20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce, sto ad óstium et pulso: si quis audiérit vocem meam, et
               aperúerit mihi jánuam, intrábo ad illum, et cenábo cum illo, et
@@ -229,11 +230,11 @@ export default function Page0227() {
               abrir a porta, entrarei em sua casa, cearei com ele e ele será
               comigo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quas tibi, Dómine, in festivitáte sancti Gabriélis Confessóris
               tui, pro collátis donis grátias ágimus: súscipe propítius per
@@ -248,7 +249,7 @@ export default function Page0227() {
               recebestes aquela carne de que merecemos gozar a doçura neste
               salutar banquete. Ó Vós, que...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

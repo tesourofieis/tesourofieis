@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageActofe() {
   return (
@@ -10,7 +11,7 @@ export default function PageActofe() {
         <View className="docs">
           <Text className="h1">Acto de Fé</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine Deus, firma fide credo et confíteor ómnia et síngula quæ
               sancta Ecclésia Cathólica propónit, quia tu, Deus, ea ómnia
@@ -24,7 +25,7 @@ export default function PageActofe() {
               sabedoria que não pode enganar nem ser enganada. Nesta fé, é minha
               determinação viver e morrer. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

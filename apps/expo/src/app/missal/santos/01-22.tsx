@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0122() {
   return (
@@ -45,7 +46,7 @@ export default function Page0122() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto, Dómine, supplicatiónibus nostris: ut, qui ex iniquitáte
               nostra reos nos esse cognóscimus, beatórum Mártyrum tuórum
@@ -57,11 +58,11 @@ export default function Page0122() {
               sejamos livres delas por intercessão dos vossos B. B. Mártires
               Vicente e Anastácio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro
               tuórum tibi grata sint honóre Justórum, et nobis salutária, te
@@ -72,11 +73,11 @@ export default function Page0122() {
               consideração dos vossos Santos eles Vos sejam agradáveis, e pela
               vossa misericórdia nos sejam salutares. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus,
               intercedéntibus beátis Martýribus tuis Vincéntio et Anastásio, per
@@ -88,7 +89,7 @@ export default function Page0122() {
               todas as adversidades por intercessão dos vossos B. B. Mártires
               Vicente e Anastácio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

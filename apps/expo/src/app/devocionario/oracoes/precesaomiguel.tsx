@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePrecesaomiguel() {
   return (
@@ -10,7 +11,7 @@ export default function PagePrecesaomiguel() {
         <View className="docs">
           <Text className="h1">Prece a São Miguel Arcanjo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Princeps gloriosíssime cæléstis militiæ, sancte Michaël
               Archangele, defénde nos in prælio advérsus príncipes et
@@ -56,7 +57,7 @@ export default function PagePrecesaomiguel() {
               antiga serpente que é o Diabo e Satanás», lançai-o acorrentado no
               abysmo, «que ele mais não possa seduzir as nações».
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

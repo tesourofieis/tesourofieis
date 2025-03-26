@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad24() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad24() {
 
           <Text className="em">Sl. 69, 2 & 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, in adjutórium meum inténde: Dómine, ad adjuvándum me
               festína: confundántur et revereántur inimíci mei, qui quærunt
@@ -32,11 +33,11 @@ export default function PageQuad24() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta nobis, quǽsumus, Dómine, auxílium grátiæ tuæ: ut, jejúniis
               et oratiónibus conveniénter inténti, liberémur ab hóstibus mentis
@@ -48,13 +49,13 @@ export default function PageQuad24() {
               orações, sejamos livres dos inimigos da alma e do corpo. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Jr. 17, 5-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Jeremíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Jeremias.</Text>
             <Text className="latin">
@@ -88,13 +89,13 @@ export default function PageQuad24() {
               segundo os seus intentos e o mérito das suas obras: diz o Senhor
               omnipotente».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 78, 9 & 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes:
               Ubi est Deus eórum?<Text className="versicle"> ℣. </Text>Adjuva
@@ -106,13 +107,13 @@ export default function PageQuad24() {
               «Onde está o seu Deus?». Socorrei-nos, Senhor, nosso Salvador, e,
               por causa da glória do vosso nome, livrai-nos, Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. J6, 19-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -175,13 +176,13 @@ export default function PageQuad24() {
               Moisés nem os Profetas, ainda mesmo que algum dos mortos
               ressuscite, tão-pouco o acreditarão».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Ex. 32, 11, 13 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Precátus est Móyses in conspéctu Dómini, Dei sui, et dixit: Quare,
               Dómine, irascéris in pópulo tuo? parce iræ ánimæ tuæ: meménto
@@ -196,11 +197,11 @@ export default function PageQuad24() {
               onde correm leite e mel». Então o Senhor acalmou-se e não mandou
               ao seu povo o mal que anunciara.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pæsénti sacrifício, nómini tuo nos, Dómine, jejúnia dicáta
               sanctíficent: ut, quod observántia nostra profitétur extérius,
@@ -212,13 +213,13 @@ export default function PageQuad24() {
               observância exterior seja acompanhada de frutos interiores. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 6, 57</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui mandúcat meam carnem, et bibit meum sánguinem, in me manet, et
               ego in eo, dicit Dóminus.
@@ -227,11 +228,11 @@ export default function PageQuad24() {
               Aquele que come a minha carne e bebe o meu sangue permanece em mim
               e eu permaneço nele: diz o Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Grátia tua nos, quǽsumus, Dómine, non derelínquat: quæ et sacræ
               nos déditos fáciat servitúti, et tuam nobis opem semper acquírat.
@@ -242,11 +243,11 @@ export default function PageQuad24() {
               abandone; que nos torne dedicados ao vosso santo serviço; e que
               nos alcance sempre o vosso auxílio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -268,7 +269,7 @@ export default function PageQuad24() {
               como Autor e Rei, restabelecei-os na posse dos bens em que os
               unistes, e mantende o que restabelecestes. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

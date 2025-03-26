@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0705() {
   return (
@@ -36,7 +37,7 @@ export default function Page0705() {
 
           <Text className="em">1 Cor. 2, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sermo meus et prædicátio mea non in persuasibílibus humánæ
               sapiéntiæ verbis, sed in ostensióne spíritus et virtútis.{" "}
@@ -53,11 +54,11 @@ export default function Page0705() {
               assembleia do povo!<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fac nos, Dómine Deus, supereminéntem Jesu Christi sciéntiam,
               spíritu Pauli Apóstoli, edíscere: qua beátus Antónius María
@@ -71,13 +72,13 @@ export default function Page0705() {
               na vossa Igreja novas congregações de clérigos e de virgens. Pelo
               mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Tm. 4, 8-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
             </Text>
@@ -114,13 +115,13 @@ export default function Page0705() {
               constantemente nisso, porque, procedendo assim, serás salvo, assim
               como aqueles que te ouvem.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Fl. 1, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Testis mihi est Deus, quo modo cúpiam omnes vos in viscéribus Jesu
               Christi. Et hoc oro, ut cáritas vestra magis ac magis abúndet in
@@ -148,13 +149,13 @@ export default function Page0705() {
               dos frutos da justiça por Jesus Cristo, para glória e louvor de
               Deus. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mc. 10, 15-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Marcum.
@@ -194,13 +195,13 @@ export default function Page0705() {
               falta: vai, vende tudo quanto tens, dá-o aos pobres, e terás um
               tesouro no céu; depois vem e segue-me».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 137, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In conspéctu Angelórum psallam tibi: adorábo ad templum sanctum
               tuum, et confitébor nómini tuo.
@@ -209,11 +210,11 @@ export default function Page0705() {
               Cantarei os vossos louvores na presença dos Anjos; ajoelharei no
               vosso sagrado templo e louvarei o vosso nome.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ad mensam cœléstis convívii fac nos, Dómine, eam mentis et
               córporis puritátem afférre, qua beátus Antónius María, hanc
@@ -226,13 +227,13 @@ export default function Page0705() {
               brilhante e maravilhoso o B. António Maria, quando oferecia esta
               hóstia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Fl. 8, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Imitatóres mei estóte, fratres, et observáte eos, qui ita
               ámbulant, sicut habétis formam nostram.
@@ -241,11 +242,11 @@ export default function Page0705() {
               Meus irmãos, sede meus imitadores e olhai para aqueles que
               procedem segundo o exemplo que tendes em nós.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœlésti dape, qua pasti sumus, Dómine Jesu Christe, eo corda
               nostra caritátis igne flamméscant: quo beátus Antónius María
@@ -259,7 +260,7 @@ export default function Page0705() {
               os inimigos da vossa Igreja o estandarte da hóstia da salvação,
               que o conduziu à vitória. Ó Vós, que viveis e reinais...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

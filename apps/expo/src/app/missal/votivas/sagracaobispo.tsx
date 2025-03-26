@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageSagracaobispo() {
   return (
@@ -17,7 +18,7 @@ export default function PageSagracaobispo() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto supplicatiónibus nostris, omnípotens Deus: ut, quod
               humilitátis nostræ geréndum est ministério, tuæ virtútis impleátur
@@ -28,11 +29,11 @@ export default function PageSagracaobispo() {
               aquilo que praticamos pelo nosso humilde ministério, tenha efeito
               pelo vosso poder. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, múmera, quæ tibi offérimus pro hoc fámulo tuo: ut
               propítius in eo tua dona custódias. Per Dóminum...
@@ -42,11 +43,11 @@ export default function PageSagracaobispo() {
               vosso servo, a fim de que, propiciamente, conserveis nela os
               vossos dons. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, múnera, quæ tibi offérimus pro me fámulo tuo: ut
               propítius in me tua dona custódias. Per Dóminum...
@@ -57,7 +58,7 @@ export default function PageSagracaobispo() {
               reanimem e alentem que em todo nosso ministério Vos consigamos
               agradar. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

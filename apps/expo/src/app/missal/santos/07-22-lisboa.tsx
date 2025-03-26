@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0722Lisboa() {
@@ -22,7 +23,7 @@ export default function Page0722Lisboa() {
             <Text className="versicle"> ℣. </Text>Glória ao Pai...
           </Text>
           <Text className="h3">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui ad árdua quæque pro nóminis tui glória et animárum
               salúte beáto Lauréntio, Confessóri tuo atque Doctóri, spíritum
@@ -37,7 +38,7 @@ export default function Page0722Lisboa() {
               conhecermos o que devemos praticar e de praticarmos o que
               houvermos conhecido. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Epístola</Text>
           <Text className="text-base">
             Lição da Ep.ª do B. Ap.º Paulo aos Coríntios. A caridade de Cristo

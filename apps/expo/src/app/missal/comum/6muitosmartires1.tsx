@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page6Muitosmartires1() {
   return (
@@ -15,7 +16,7 @@ export default function Page6Muitosmartires1() {
 
           <Text className="em">Sl. 78, 11, 12 & 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Intret in conspéctu tuo, Dómine, gémitus compeditórum: redde
               vicínis nostris séptuplum in sinu eórum: víndica sánguinem
@@ -34,11 +35,11 @@ export default function Page6Muitosmartires1() {
               reduziram Jerusalém a um monte de ruínas!
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beatórum Mártyrum paritérque Pontíficum nos, quǽsumus, Dómine,
               festa tueántur: et eórum comméndet orátio veneránda. Per
@@ -51,7 +52,7 @@ export default function Page6Muitosmartires1() {
               veneranda oração nos sirva de recomendação junto de Vós. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Não sendo Pontífice, diz-se a
@@ -64,7 +65,7 @@ export default function Page6Muitosmartires1() {
 
           <Text className="em">Sb. 3, 1-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -94,13 +95,13 @@ export default function Page6Muitosmartires1() {
               se ateiam entre os canaviais. Eles julgarão as nações e dominarão
               os povos; e o Senhor reinará com eles para sempre.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Ex. 15,11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens
               prodígia.<Text className="versicle"> ℣. </Text>
@@ -126,7 +127,7 @@ export default function Page6Muitosmartires1() {
               dos vossos Santos foram sepultados em paz e o seu nome subsistirá
               de geração em geração. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -136,7 +137,7 @@ export default function Page6Muitosmartires1() {
 
           <Text className="em">Sl. 125, 5-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui séminant in lácrimis, in gáudio metent.
               <Text className="versicle"> ℣. </Text>Eúntes ibant et flébant,
@@ -151,13 +152,13 @@ export default function Page6Muitosmartires1() {
               Porém, quando voltavam, exultavam de alegria, trazendo os seus
               molhos de trigo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 21, 9-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -204,13 +205,13 @@ export default function Page6Muitosmartires1() {
               das vossas cabeças. Com a vossa paciência possuireis as vossas
               almas».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 67, 36</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mirábilis Deus in Sanctis suis: Deus Israël, ipse dabit virtútem
               et fortitúdinem plebi suæ: benedíctus Deus, allelúja.
@@ -219,11 +220,11 @@ export default function Page6Muitosmartires1() {
               Deus é admirável em seus Santos. Deus de Israel dará ao seu povo a
               força e a coragem. Bendito Ele seja, pois. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto, Dómine, supplicatiónibus nostris, quas in Sanctórum tuórum
               commemoratióne deférimus: ut, qui nostræ justítiæ fidúciam non
@@ -236,13 +237,13 @@ export default function Page6Muitosmartires1() {
               própria justiça, sejamos auxiliados pelos méritos daqueles que Vos
               agradaram nesta vida. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sb. 3, 4, 5 & 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Et si coram homínibus torménta passi sunt, Deus tentávit eos:
               tamquam aurum in fornáce probávit eos, et quasi holocáusta accépit
@@ -253,11 +254,11 @@ export default function Page6Muitosmartires1() {
               Deus provou-os na fornalha, como ao ouro, e recebeu-os, como
               hóstia de holocausto.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, Dómine, salutáribus repléti mystériis: ut, quorum
               sollémnia celebrámus, eórum oratiónibus adjuvémur. Per Dóminum...
@@ -267,7 +268,7 @@ export default function Page6Muitosmartires1() {
               conceder-nos, Senhor, a graça da assistência das orações daqueles
               cuja festa celebrámos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

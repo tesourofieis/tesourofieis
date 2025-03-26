@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0728() {
   return (
@@ -35,7 +36,7 @@ export default function Page0728() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctórum tuórum nos, Dómine, Nazarii, Celsi, Vittóris et
               Innocéntii conféssio beáta commúniat: et fragilitáti nostræ
@@ -46,13 +47,13 @@ export default function Page0728() {
               Vítor e Inocêncio nos fortaleça, Senhor, e que da vossa bondade
               alcancemos socorro para a nossa fraqueza. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Sb. 10, 17-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -74,11 +75,11 @@ export default function Page0728() {
               ímpios, cantaram hinos em honra do vosso santo nome, ó Senhor, e
               louvaram em harmonia a vossa mão vitoriosa, ó Senhor, nosso Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde nobis, omnípotens Deus: ut his munéribus, quæ in sanctórum
               tuórum Nazarii, Celsi, Victóris et Innocéntii honóre deférimus, et
@@ -90,11 +91,11 @@ export default function Page0728() {
               possamos aplacar-Vos, e, aceitando-as Vós, por elas alcancemos a
               vida. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctórum Nazárii, Celsi, Victóris et Innocéntii, Dómine,
               intercessióne placátus: præsta, quǽsumus; ut, quod temporáli
@@ -106,7 +107,7 @@ export default function Page0728() {
               estes mystérios, celebrados temporalmente, nos façam alcançar a
               salvação perpétua. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

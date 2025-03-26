@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0804() {
@@ -28,7 +29,7 @@ export default function Page0804() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui Ecclésiam tuam beáti Dominici Confessóris tui illumináre
               dignátus es méritis et doctrinis: concéde; ut ejus intercessióne
@@ -42,7 +43,7 @@ export default function Page0804() {
               sempre tomem incremento os seus bens espirituais. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -55,7 +56,7 @@ export default function Page0804() {
 
           <Text className="em">Sl. 91, 13 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in
               domo Dómini.<Text className="versicle"> ℣. </Text>
@@ -80,11 +81,11 @@ export default function Page0804() {
               como o lírio, e florescerá perpetuamente na presença do Senhor.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera tibi, Dómine, dicáta sanctífica: ut, méritis beáti Domínici
               Confessóris tui, nobis profíciant ad medélam. Per Dóminum...
@@ -94,13 +95,13 @@ export default function Page0804() {
               que, pelos méritos do B. Domingos, vosso Confessor, sirvam de
               remédio, às nossas almas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 12, 42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fidélis servus et prudens, quem constítuit dóminus super famíliam
               suam: ut det illis in témpore trítici mensúram.
@@ -109,11 +110,11 @@ export default function Page0804() {
               O servo fiel e prudente é destinado pelo Senhor para distribuir
               oportunamente a cada um na sua família a sua medida de trigo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, omnípotens Deus: ut, qui peccatórum nostrórum
               póndere prémimur, beáti Domínici Confessóris tui patrocínio
@@ -125,7 +126,7 @@ export default function Page0804() {
               pelo patrocínio do B. Domingos, vosso Confessor. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

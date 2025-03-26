@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0605() {
@@ -15,7 +16,7 @@ export default function Page0605() {
 
           <Text className="em">Is. 65, 19 & 23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsultábo in Jerúsalem et gaudébo in pópulo meo: et non audiétur
               in eo ultra vos fletus et vox clamóris. Elécti mei non laborábunt
@@ -35,11 +36,11 @@ export default function Page0605() {
               os nossos ouvidos; os nossos pais contaram-nos o que fizestes nos
               seus dias.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui multitúdinem populórum, beáti Bonifátii Mártyris tui
               atque Pontíficis zelo, ad agnitiónem tui nóminis vocáre dignátus
@@ -52,7 +53,7 @@ export default function Page0605() {
               e Pontífice, concedei-nos propício que alcancemos o Patrocínio
               daquele cuja festa celebramos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -65,7 +66,7 @@ export default function Page0605() {
 
           <Text className="em">1 Pe. 4, 13-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Communicántes Christi passiónibus gaudéte, ut in revelatióne
               glóriæ ejus gaudeátis exsultántes.
@@ -93,13 +94,13 @@ export default function Page0605() {
               ele como que um rio de paz, e como que uma torrente a trasbordar
               de glória. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No T. Pascal omite-se o Gradual, e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Is. 66, 10 & 14</Text> Lætámini cum
@@ -116,13 +117,13 @@ export default function Page0605() {
               vosso coração. A mão do Senhor manifestar-se-á nos seus servos.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 5, 1-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -164,13 +165,13 @@ export default function Page0605() {
               regozijai-vos, então, e exultai de alegria, pois uma copiosa
               recompensa vos está preparada nos céus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 15, 7 & 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícam Dóminum, qui tríbuit mihi intelléctum: providébam Deum
               in conspéctu meo semper, quóniam a dextris est mihi ne commóvear.
@@ -181,11 +182,11 @@ export default function Page0605() {
               voltados constantemente para Deus; e, visto que Ele está à minha
               dextra, não serei abalado. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Super has hóstias. Dómine, quæsumus, benedíctio copiósa descéndat:
               quæ et sanctificatiónem nostram misericórditer operátur; et de
@@ -198,13 +199,13 @@ export default function Page0605() {
               santificação e nos alegrem na solenidade de S. Bonifácio, vosso
               Mártir e Pontífice. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Ap. 3, 21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui vícerit, dabo ei sedére mecum in throno meo: sicut et ego vici
               et sedi cum Patre meo in throno ejus. (T.P. Allelúja.)
@@ -214,11 +215,11 @@ export default function Page0605() {
               como Eu, que também venci, estou assentado com meu Pai no seu
               trono. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctificati, Dómine, salutári mysterio: quæsumus; ut nobis sancti
               Bonifátii Martyris tui atque Pontíficis pia non desit orátio,
@@ -230,7 +231,7 @@ export default function Page0605() {
               daquele que nos concedestes como nosso protector e guia. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0504() {
   return (
@@ -41,7 +42,7 @@ export default function Page0504() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, mæréntium consolátor et in te sperántium salus, qui beátæ
               Mónicæ pias lácrimas in conversióne fílii sui Augustíni
@@ -57,13 +58,13 @@ export default function Page0504() {
               pecados e alcancemos a indulgência da vossa graça. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Tm. 5, 3-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
             </Text>
@@ -101,13 +102,13 @@ export default function Page0504() {
               aos santos; socorrido os aflitos; e, enfim, praticado toda a
               espécie de boas obras.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 7, 11-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -143,7 +144,7 @@ export default function Page0504() {
               E toda a multidão ficou aterrada; e glorificavam Deus, dizendo:
               «Apareceu entre nós um grande Profeta: Deus visitou o seu povo».
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

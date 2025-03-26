@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc75() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc75() {
 
           <Text className="em">Sl. 70, 8 & 23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Repleátur os meum laude tua, allelúja: ut possim cantáre,
               allelúja: gaudébunt lábia mea, dum cantávero tibi, allelúja,
@@ -32,11 +33,11 @@ export default function PagePasc75() {
               livrará e salvará.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, Ecclésiæ tuæ, miséricors Deus: ut, Sancto Spíritu
               congregáta, hostíli nullaténus incursióne turbétur. Per Dóminum...
@@ -47,13 +48,13 @@ export default function PagePasc75() {
               algum perturbada pelos ataques dos seus inimigos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Jl. 2, 23-24 & 26-27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Joélis Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Joel.</Text>
             <Text className="latin">
@@ -80,9 +81,9 @@ export default function PagePasc75() {
               o Senhor, vosso Deus; e que outro Deus não existe. Meu povo não
               será mais confundido»: isto diz o Senhor omnipotente.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Sap 12, 1</Text> O quam bonus et suávis
@@ -100,13 +101,13 @@ export default function PagePasc75() {
               enchei os corações dos vossos fiéis e acendei neles o fogo do
               vosso amor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 5, 17-26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -160,13 +161,13 @@ export default function PagePasc75() {
               foi para sua casa, dando graças a Deus. Todos ficaram atónitos,
               dizendo: «Hoje vimos maravilhas!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 145, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lauda, ánima mea, Dóminum: laudábo Dóminum in vita mea: psallam
               Deo meo, quámdiu ero, allelúja.
@@ -175,11 +176,11 @@ export default function PagePasc75() {
               Ó minha alma, louva o Senhor! Louvarei o Senhor em toda minha
               vida: louvarei o Senhor, enquanto eu viver, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifícia, Dómine, tuis obláta conspéctibus, ignis ille divínus
               absúmat, qui discipulórum Christi, Fílii tui, per Spíritum Sanctum
@@ -191,13 +192,13 @@ export default function PagePasc75() {
               sacrifício que oferecemos diante de vossos olhos. Pelo mesmo nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 14, 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Non vos relínquam órphanos: véniam ad vos íterum, allelúja: et
               gaudébit cor vestrum, allelúja.
@@ -206,11 +207,11 @@ export default function PagePasc75() {
               Não vos deixarei órfãos: de novo virei a vós, aleluia: e o vosso
               coração se alegrará, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súmpsimus, Dómine, sacri dona mystérii: humíliter deprecántes; ut,
               quæ in tui commemoratiónem nos fácere præcepísti, in nostræ
@@ -222,7 +223,7 @@ export default function PagePasc75() {
               consumar em vossa memória, se torne em auxílio da nossa fraqueza.
               Vós, que viveis e Tinais...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

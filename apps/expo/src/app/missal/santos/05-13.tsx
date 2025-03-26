@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0513() {
@@ -50,7 +51,7 @@ export default function Page0513() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui ad errórem insídias repelléndas et apostólicæ Sedis jura
               propugnánda, beátum Robértum Pontíficem tuuam atque Doctórem mira
@@ -66,7 +67,7 @@ export default function Page0513() {
               amor à verdade e regressem à unidade da vossa Igreja os corações
               dos que permanecem no erro. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -79,7 +80,7 @@ export default function Page0513() {
 
           <Text className="em">Sl. 72, 28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem adhærére Deo bonum est, pónere in Dómino Deo spem meam:
               ut annúntiem pmnes prædicatiónes tuas in portis fíliæ Sion,
@@ -90,11 +91,11 @@ export default function Page0513() {
               minha esperança, a fim de publicar todos seus louvores às portas
               da filha de Sião, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, in odórem suavitátis offérimus: et præsta;
               ut, beáti Robérti mónitis et exémplis edócti, per sémitam
@@ -106,13 +107,13 @@ export default function Page0513() {
               Roberto, caminhemos generosamente pela via dos vossos preceitos.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 5, 14, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vos estis lux mundi: sic lúceat lux vestra coram homínibus, ut
               vídeant ópera vestra bona, et gloríficent Patrem vestrum qui in
@@ -123,11 +124,11 @@ export default function Page0513() {
               para que vejam as vossas boas obras e glorifiquem o vosso Pai, que
               está nos céus, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacraménta, quæ súmpsimus, Dómine Deus noster, in nobis fóveant
               caritátis ardórem: quo beátus Robértus veheménter accénsus, pro
@@ -139,7 +140,7 @@ export default function Page0513() {
               abrasado, se esforçava incessantemente em defender a vossa Igreja.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

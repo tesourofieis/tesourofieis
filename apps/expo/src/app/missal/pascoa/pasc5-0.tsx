@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc50() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc50() {
 
           <Text className="em">Is. 48, 20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vocem jucunditátis annuntiáte, et audiátur, allelúja: annuntiáte
               usque ad extrémum terræ: liberávit Dóminus pópulum suum, allelúja,
@@ -31,11 +32,11 @@ export default function PagePasc50() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, a quo bona cuncta procédunt, largíre supplícibus tuis: ut
               cogitémus, te inspiránte, quæ recta sunt; et, te gubernánte, eadem
@@ -47,13 +48,13 @@ export default function PagePasc50() {
               recto, e, sob o vosso império, cumpramos aquilo em que meditámos.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Tg. 1, 22-27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Jacóbi Apóstoli.
             </Text>
@@ -85,9 +86,9 @@ export default function PagePasc50() {
               em visitar os órfãos e as viúvas nas tribulações e em conservar-se
               puro no meio da corrupção do mundo.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Surréxit
               Christus, et illúxit nobis, quos rédemit sánguine suo. Allelúja.
@@ -103,13 +104,13 @@ export default function PagePasc50() {
               <Text className="vernacular">Jo. 16, 28</Text> Eu saí do Pai e vim
               ao mundo: e agora deixo o mundo e volto para o Pai. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 16, 23-30</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -148,13 +149,13 @@ export default function PagePasc50() {
               conhecemos que sabeis tudo e que não é mister que ninguém Vos
               interrogue. Eis porque cremos que saístes do Pai».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 65, 8-9 & 20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícite, gentes, Dóminum, Deum nostrum, et obaudíte vocem
               laudis ejus: qui pósuit ánimam meam ad vitam, et non dedit
@@ -168,11 +169,11 @@ export default function PagePasc50() {
               rejeitou a minha oração, nem me faltou com sua misericórdia,
               aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, fidélium preces cum oblatiónibus hostiárum: ut,
               per hæc piæ devotiónis offícia, ad cœléstem glóriam transeámus.
@@ -184,13 +185,13 @@ export default function PagePasc50() {
               nossa pia devoção, permiti que alcancemos a glória celestial. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 95, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cantáte Dómino, allelúja: cantáte Dómino et benedícite nomen ejus:
               bene nuntiáte de die in diem salutáre ejus, allelúja, allelúja.
@@ -200,11 +201,11 @@ export default function PagePasc50() {
               bendizei o seu nome; proclamai constantemente, dia a dia, a
               salvação que nos concede, aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tríbue nobis, Dómine, cæ léstis mensæ virtúte satiátis: et
               desideráre, quæ recta sunt, et desideráta percípere. Per
@@ -215,7 +216,7 @@ export default function PagePasc50() {
               concedei-nos, Senhor, a graça de desejarmos o que é justo e de
               alcançarmos o que desejamos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

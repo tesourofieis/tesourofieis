@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent25() {
   return (
@@ -14,7 +15,7 @@ export default function PagePent25() {
 
           <Text className="em">Sl. 32, 11 & 19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cogitatiónes Cordis ejus in generatióne et generatiónem: ut éruat
               a morte ánimas eórum et alat eos in fame. (T. P. Allelúja,
@@ -30,11 +31,11 @@ export default function PagePent25() {
               coração recto.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nobis in Corde Fílii tui, nostris vulneráto peccátis,
               infinítos dilectiónis thesáuros misericórditer largíri dignáris:
@@ -49,13 +50,13 @@ export default function PagePent25() {
               homenagem da nossa filial devoção, Lhe apresentamos também os dons
               da nossa reparação. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ef. 3, 8 19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
@@ -101,13 +102,13 @@ export default function PagePent25() {
               amor de Jesus Cristo, o qual ultrapassa toda a ciência; e, assim,
               fiqueis repletos de plenitude dos dons de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 24, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dulcis et rectus Dóminus: propter hoc legem dabit delinquéntibus
               in via.<Text className="versicle"> ℣. </Text>Díriget mansúetos in
@@ -131,7 +132,7 @@ export default function PagePent25() {
               sobre vós e aprendei de mim, que sou manso e humilde de Coração, e
               achareis paz para as vossas almas. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -141,7 +142,7 @@ export default function PagePent25() {
 
           <Text className="em">Sl. 102, 8-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Miséricors et miserátor Dóminus, longánimis, et multum miséricors.
               <Text className="versicle"> ℣. </Text>Non in perpétuum irascétur,
@@ -157,13 +158,13 @@ export default function PagePent25() {
               nos tratará segundo os nossos pecados, nem nos castigará segundo
               as nossas iniquidades.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal, em vez do Gradual e do Trato diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Matth. 11, 29 et 28</Text> Tóllite jugum
@@ -180,13 +181,13 @@ export default function PagePent25() {
               <Text className="versicle"> ℣. </Text>Vinde a mim, vós todos, que
               sofreis e estais sobrecarregados, e vos aliviarei. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 19 ,11-37</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -225,13 +226,13 @@ export default function PagePent25() {
               ainda a Escritura diz em outro lugar: «Contemplarão aquele que
               traspassaram».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 68, 21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Impropérium exspectávi Cor meum et misériam: et sustínui, qui
               simul mecum contristarétur, et non fuit: consolántem me quæsívi,
@@ -242,7 +243,7 @@ export default function PagePent25() {
               compartilhasse a minha tristeza, mas não achei; Procurei alguém
               que me consolasse, mas não encontrei.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">No Tempo Pascal diz-se o seguinte:</Text>
 
@@ -250,7 +251,7 @@ export default function PagePent25() {
 
           <Text className="em">Sl. 39, 7-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Holocáustum et pro peccáto non postulásti; tunc dixi: Ecce, vénio.
               In cápite libri scriptum est de me ut fácerem voluntátem tuam:
@@ -262,11 +263,11 @@ export default function PagePent25() {
               meu respeito que vim para fazer a vossa vontade. E Eu, ó meu Deus,
               assim o quis; a vossa lei está no íntimo do meu coração».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réspice, quǽsumus, Dómine, ad ineffábilem Cordis dilécti Fílii tui
               caritátem: ut quod offérimus sit tibi munus accéptum et nostrórum
@@ -278,13 +279,13 @@ export default function PagePent25() {
               apresentamos, por Vós seja recebida, e nos sirva de expiação dos
               nossos pecados. Pelo mesmo Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 19, 34</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Unus mílitum láncea latus ejus apéruit, et contínuo exívit sanguis
               et aqua.
@@ -293,7 +294,7 @@ export default function PagePent25() {
               Um dos soldados abriu-Lhe o lado com uma lança, e logo saiu sangue
               e água.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal diz-se o seguinte, em vez do Precedente:
@@ -303,18 +304,18 @@ export default function PagePent25() {
 
           <Text className="em">Jo. 7, 37</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Si quis sitit, véniat ad me et bibat, allelúja, allelúja.
             </Text>
             <Text className="vernacular">
               Se alguém tem sede, venha a mim e beba. Aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Prǽbeant nobis, Dómine Jesu, divínum tua sancta fervórem: quo
               dulcíssimi Cordis tui suavitáte percépta; discámus terréna
@@ -326,7 +327,7 @@ export default function PagePent25() {
               vosso dulcíssimo Coração, aprendamos a desprezar as coisas
               terrenas e a amar as celestiais. Ó Vós, que, sendo Deus...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

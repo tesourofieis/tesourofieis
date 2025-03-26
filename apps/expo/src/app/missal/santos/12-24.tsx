@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1224() {
   return (
@@ -14,7 +15,7 @@ export default function Page1224() {
 
           <Text className="em">Ex. 16, 6 & 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hódie sciétis, quia véniet Dóminus et salvábit nos: et mane
               vidébitis glóriam ejus. <Text className="latin">Ps. 23, 1</Text>{" "}
@@ -29,11 +30,11 @@ export default function Page1224() {
               todos que nele habitam.<Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos redemptiónis nostræ ánnua exspectatióne lætíficas:
               præsta; ut Unigénitum tuum, quem Redemptórem læti suscípimus,
@@ -47,13 +48,13 @@ export default function Page1224() {
               Redentor, assim possamos igualmente recebê-l’O com tranquilidade
               quando Ele vier como Juiz: Ele que, sendo Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Rm. 1, 1–0</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beati Pauli Apostoli ad Romános.
             </Text>
@@ -81,13 +82,13 @@ export default function Page1224() {
               todas as nações, das quais vós, que também fostes chamados, fazeis
               parte.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Ex. 16, 6 & 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hódie sciétis, quia véniet Dóminus et salvábit nos: et mane
               vidébitis glóriam ejus.<Text className="versicle"> ℣. </Text>
@@ -103,13 +104,13 @@ export default function Page1224() {
               ovelha. Manifestai-Vos ante Efraim, Benjamim e Manassés, ó Vós,
               que tendes um trono acima dos Querubins!
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Se esta Vigília ocorre ao Domingo, acrescenta-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Crástina
               die delébitur iníquitas terræ: et regnábit super nos Salvátor
@@ -119,13 +120,13 @@ export default function Page1224() {
               Aleluia, aleluia. Amanhã será apagada a iniquidade da terra e o
               Salvador do mundo reinará sobre nós. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 1, 18–21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -155,13 +156,13 @@ export default function Page1224() {
               dará à luz um Filho e ser-Lhe-á dado o nome de Jesus; pois Ele
               salvará o povo dos seus pecados».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 23, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tóllite portas, principes, vestras: et elevámini, portæ æternáles,
               et introíbit Rex glóriæ.
@@ -169,11 +170,11 @@ export default function Page1224() {
             <Text className="vernacular">
               Abri-vos inteiramente, ó portas, e entrará o Rei da glória.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da nobis, quǽsumus, omnípotens Deus: ut, sicut adoránda Fílii tui
               natalítia prævenímus, sic ejus múnera capiámus sempitérna
@@ -185,13 +186,13 @@ export default function Page1224() {
               também recebamos com alegria os dons eternos d’Aquele que, sendo
               Deus, vive e...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Is. 40, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Revelábitur glória Dómini: et vidébit omnis caro salutáre Dei
               nostri.
@@ -200,11 +201,11 @@ export default function Page1224() {
               A glória do Senhor vai manifestar-se: e toda a carne verá o
               Salvador que o nosso Deus nos manda.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da nobis, quǽsumus, Dómine: unigéniti Fílii tui recensíta
               nativitáte respiráre; cujus cœlésti mystério páscimur et potámur.
@@ -216,7 +217,7 @@ export default function Page1224() {
               celestial mystério nos alimenta e conforta. Pelo mesmo nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

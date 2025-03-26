@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageDuranteguerra() {
   return (
@@ -14,7 +15,7 @@ export default function PageDuranteguerra() {
 
           <Text className="em">Sl. 24, 6, 3 & 22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Reminíscere miseratiónum tuarum, Dómine, et misericórdiæ tuæ, quæ
               a sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera
@@ -32,11 +33,11 @@ export default function PageDuranteguerra() {
               envergonhado.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui cónteris bella, et impugnatóres in te sperántium
               potentia tuæ defensiónis expúgnas: auxiliáre fámulis tuis,
@@ -51,13 +52,13 @@ export default function PageDuranteguerra() {
               fim de que, sendo dominada a ferocidade dos inimigos, não cessemos
               de Vos louvar com acções de graças. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Jr. 42, 1-2 & 7-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Jeremíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Jeremias.</Text>
             <Text className="latin">
@@ -90,13 +91,13 @@ export default function PageDuranteguerra() {
               mãos. Terei misericórdia e compaixão de vós, e vos farei
               permanecer em paz no vosso país»: diz o omnipotente Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 76, 15-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tu es Deus, qui facis mirabília solus: notam fecísti in géntibus
               virtútem tuam.<Text className="versicle"> ℣. </Text>Liberásti in
@@ -117,7 +118,7 @@ export default function PageDuranteguerra() {
               <Text className="vernacular">Sl. 58, 2</Text> Livrai-me dos meus
               inimigos, ó meu Deus; livrai-me dos meus perseguidores. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
@@ -127,7 +128,7 @@ export default function PageDuranteguerra() {
 
           <Text className="em">Sl. 102, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque
               secúndum iniquitátes nostras retríbuas nobis.
@@ -149,13 +150,13 @@ export default function PageDuranteguerra() {
               Salvador. Para glória do vosso nome, livrai-nos, Senhor! Para
               glória do vosso nome, perdoai-nos os nossos pecados, Senhor!
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 58, 2</Text> Eripe me de inimícis
@@ -172,13 +173,13 @@ export default function PageDuranteguerra() {
               <Text className="em">ibid., 17</Text> Pois engrandecerei o vosso
               poder: e louvarei desde manhã a vossa misericórdia. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 24, 3-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -211,13 +212,13 @@ export default function PageDuranteguerra() {
               reino; haverá peste, fome e tremores de terra em diversos lugares,
               mas todas estas coisas serão apenas o começo das aflições».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 17, 28 & 32</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pópulum húmilem salvum fácies, Dómine, et óculos superbórum
               humiliábis: quóniam quis Deus præter te, Dómine? (T. P. Allelúja.)
@@ -226,11 +227,11 @@ export default function PageDuranteguerra() {
               Salvareis o vosso povo, que se humilha, Senhor; e humilhareis os
               olhos dos soberbos: pois quem é Deus, senão Vós? (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifícium, Dómine, quod immolámus, inténde placátus: ut ab omni
               nos éruat bellórum nequítia, et in tuæ protectiónis securitáte
@@ -242,13 +243,13 @@ export default function PageDuranteguerra() {
               poder, sejamos inteiramente preservados da guerra e gozemos com
               vossa protecção inteira segurança. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 30, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Inclína aurem tuam: accélera, ut erípias nos. (T. P. Allelúja.)
             </Text>
@@ -256,11 +257,11 @@ export default function PageDuranteguerra() {
               Inclinai os vossos ouvidos e apressai-Vos em socorrer-nos. (T. P.
               Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, regnórum ómnium regúmque dominátor, qui nos et percutiéndo
               sanas et ignoscéndo consérvas: præténde nobis misericórdiam tuam;
@@ -274,7 +275,7 @@ export default function PageDuranteguerra() {
               virtude do vosso poder, guardada com tranquilidade a paz, nós a
               aproveitemos para nos curarmos e corrigirmos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0619() {
   return (
@@ -24,7 +25,7 @@ export default function Page0619() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátam Juliánam Vírginem tuam extrémo morbo laborántem,
               pretióso Fílii tui Córpore mirabíliter recreáre dignátus es:
@@ -40,13 +41,13 @@ export default function Page0619() {
               sejamos alimentados e fortificados com este mesmo Corpo e
               conduzidos à pátria celestial. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">
             Oração Comemoração S. S. Gervásio e Protásio
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos ánnua sanctórum Martyrum tuórum Gervásii et Protásii
               sollemnitáte lætíficas: concéde propítius; ut, quorum gaudémus
@@ -58,13 +59,13 @@ export default function Page0619() {
               inflamados pelos exemplos daqueles cujos méritos nos enchem de
               alegria celestial. Pelo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">
             Secreta Comemoração S. S. Gervásio e Protásio
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblátis, quǽsumus, Dómine, placáre munéribus: et, intercedéntibus
               sanctis Martýribus tuis, a cunctis nos defénde perículis. Per
@@ -75,13 +76,13 @@ export default function Page0619() {
               intercessão dos vossos Santos Mártires defendei-nos de todos os
               perigos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">
             Postcomúnio Comemoração S. S. Gervásio e Protásio
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc nos commúnio, Dómine, purget a crímine: et, intercedéntibus
               sanctis Martýribus tuis Gervásio et Protásio, cœléstis remédii
@@ -92,7 +93,7 @@ export default function Page0619() {
               por intercessão dos vossos Santos Mártires Gervásio e Protásio nos
               faça participantes do remédio celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

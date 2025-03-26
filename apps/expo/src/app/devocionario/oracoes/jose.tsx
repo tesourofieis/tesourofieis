@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageJose() {
   return (
@@ -10,7 +11,7 @@ export default function PageJose() {
         <View className="docs">
           <Text className="h1">Orações a São José</Text>
           <Text className="h2">Oração a São José pelo Papa Leão XIII</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ad te beáte Joseph, in tribulatióne nostra confúgimus, atque,
               imploráto Sponsæ tuæ sanctíssimæ auxílio, patrocínium quoque tuum
@@ -50,7 +51,7 @@ export default function PageJose() {
               fortalecidos com vosso auxílio, possamos viver santamente, morrer
               piamente e alcançar no céu a bem-aventurança eterna. Amen
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Oração</Text>
           <Text className="text-base">
             Ó glorioso S. José, Pai e protector das Virgens, guarda fiel a quem

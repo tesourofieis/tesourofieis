@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0501Funchal() {
@@ -20,7 +21,7 @@ export default function Page0501Funchal() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos ánnua beáti Jacóbi Apóstoli tui sollemnitáte
               lætíficas: præsta, quǽsumus; ut cujus gaudémus méritis, instruámur
@@ -32,13 +33,13 @@ export default function Page0501Funchal() {
               com os seus méritos, sejamos instruídos com os seus exemplos. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Tg. 1, 17-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Jacóbi Apóstoli.
             </Text>
@@ -66,9 +67,9 @@ export default function Page0501Funchal() {
               docilidade a palavra que ouvistes, a qual tem poder para salvar as
               almas.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 88, 6</Text> Confitebúntur cœli
@@ -84,7 +85,7 @@ export default function Page0501Funchal() {
               <Text className="versicle"> ℣. </Text>Sereis meus amigos, se
               fizerdes o que vos mando. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -97,7 +98,7 @@ export default function Page0501Funchal() {
 
           <Text className="em">Sl. 91, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus ut palma florébit: sicut cedrus, quæ in Líbano est
               multiplicábitur. (T. P. Allelúja.)
@@ -106,11 +107,11 @@ export default function Page0501Funchal() {
               O justo florescerá, como a palmeira, e crescerá, como o cedro do
               Líbano. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera, Dómine, quæ pro Apóstoli tui Jacóbi sollemnitáte
               deférimus, propítius súscipe: et mala ómnia, quæ meréraur, avérte.
@@ -121,13 +122,13 @@ export default function Page0501Funchal() {
               solenidade do vosso Apóstolo Tiago e afastai de nós todos os males
               que merecemos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 14, 9 & 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Non vos me elegistis, sed ego elégi vos, et pósui vos, ut eátis et
               fructum afferátis, et fructus vester máneat, aleluia.
@@ -137,11 +138,11 @@ export default function Page0501Funchal() {
               para que possais ir e alcanceis fruto, e para que esse fruto
               permaneça, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, Dómine, salutáribus repléti mystériis: ut cujus
               sollémnia celebrámus, eórum oratiónibus adjuvémur. Per Dóminum...
@@ -151,7 +152,7 @@ export default function Page0501Funchal() {
               permiti que sejamos socorridos com as orações daquele cuja festa
               celebramos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

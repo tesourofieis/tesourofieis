@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent230() {
   return (
@@ -16,7 +17,7 @@ export default function PagePent230() {
 
           <Text className="em">Jr. 29,11,12 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis:
               invocábitis me, et ego exáudiam vos: et redúcam captivitátem
@@ -32,11 +33,11 @@ export default function PagePent230() {
               a vossa terra e livrastes Jacob do cativeiro.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Absólve, quǽsumus, Dómine, tuórum delícta populórum: ut a
               peccatórum néxibus, quae pro nostra fraglitáte contráximus, tua
@@ -47,13 +48,13 @@ export default function PagePent230() {
               benignidade sejamos livres dos liames dos pecados em que a nossa
               fraqueza nos fez cair. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Fl. 3, 17-21: 4, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.
             </Text>
@@ -95,13 +96,13 @@ export default function PagePent230() {
               Clemente e com os outros meus coadjutores, cujos nomes estão no
               livro da vida.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 43, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos
               odérunt, confudísti.<Text className="versicle"> ℣. </Text>In Deo
@@ -123,13 +124,13 @@ export default function PagePent230() {
               <Text className="vernacular">Sl. 129, 12</Text> Do fundo do abysmo
               Vos invoquei, Senhor: escutai a minha oração. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 9, 18-26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -172,13 +173,13 @@ export default function PagePent230() {
               da menina, que logo ressuscitou! E correu a fama deste
               acontecimento em todo o país.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 129, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam:
               de profúndis clamávi ad te, Dómine.
@@ -187,11 +188,11 @@ export default function PagePent230() {
               Das profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor,
               a minha voz: das profundezas dos abysmos Vos invoquei.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pro nostræ servitútis augménto sacrifícium tibi, Dómine, laudis
               offérimus: ut, quod imméritis contulísti, propítius exsequáris.
@@ -203,13 +204,13 @@ export default function PagePent230() {
               alcancemos o efeito dos dons que nos concedestes sem nenhuns
               merecimentos da nossa parte. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mc. 11, 24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Amen, dico vobis, quidquid orántes pétitis, crédite, quia
               accipiétis, et fiet vobis.
@@ -218,11 +219,11 @@ export default function PagePent230() {
               Na verdade vos digo: «Tudo o que pedirdes nas vossas orações,
               acreditai que o recebereis; e far-se-á como pedirdes».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, quos divína tríbuis participatióne
               gaudére, humánis non sinas subjacére perículis. Per Dóminum...
@@ -232,7 +233,7 @@ export default function PagePent230() {
               quem concedestes a alegria de participarem dos vossos sagrados
               mystérios fiquem expostos aos perigos humanos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

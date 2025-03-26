@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page25Dedicacaoigreja() {
   return (
@@ -14,7 +15,7 @@ export default function Page25Dedicacaoigreja() {
 
           <Text className="em">Gen. 28, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Terríbilis est locus iste: hic domus Dei est et porta cœli: et
               vocábitur aula Dei. (T. P. Allelúja, allelúja.){" "}
@@ -32,11 +33,11 @@ export default function Page25Dedicacaoigreja() {
               átrios do Senhor.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nobis per síngulos annos hujus sancti templi tui
               consecratiónis réparas diem, et sacris semper mystériis repæséntas
@@ -52,7 +53,7 @@ export default function Page25Dedicacaoigreja() {
               templo, para pedir as vossas graças, a alegria de as alcançarem.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No dia em que se faz a Dedicação da Igreja e no Oitavário diz-se, em
@@ -61,7 +62,7 @@ export default function Page25Dedicacaoigreja() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui invisibíliter ómnia cóntines, et tamen pro salúte
               géneris humáni signa tuæ poténtiæ visibíliter osténdis: templum
@@ -80,13 +81,13 @@ export default function Page25Dedicacaoigreja() {
               clamores, obtenham os benefícios da vossa consolação. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ap. 21, 2-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
             </Text>
@@ -115,11 +116,11 @@ export default function Page25Dedicacaoigreja() {
               estado das coisas terá acabado». E aquele que estava sentado no
               trono disse: «Eu vou renovar todas as coisas!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Locus iste a Deo factus est, inæstimábile sacraméntum,
               irreprehensíbilis est.<Text className="versicle"> ℣. </Text>Deus,
@@ -141,7 +142,7 @@ export default function Page25Dedicacaoigreja() {
               <Text className="vernacular">Sl. 137, 2</Text> Adorar-Vos-ei no
               vosso santo Templo e louvarei o vosso santo Nome. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -151,7 +152,7 @@ export default function Page25Dedicacaoigreja() {
 
           <Text className="em">Sl. 124, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui confídunt in Dómino, sicut mons Sion: non commovébitur in
               ætérnum, qui hábitat in Jerúsalem.
@@ -165,13 +166,13 @@ export default function Page25Dedicacaoigreja() {
               rodeada de montanhas, assim o Senhor circunda o seu povo, agora e
               sempre.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 137, 2</Text> Adorábo ad templum
@@ -186,13 +187,13 @@ export default function Page25Dedicacaoigreja() {
               <Text className="versicle"> ℣. </Text>A casa do Senhor está
               edificada solidamente sobre pedra firme. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 19, 1-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -235,13 +236,13 @@ export default function Page25Dedicacaoigreja() {
               pois este também é filho de Abraão. O Filho do homem veio para
               procurar e salvar o que estava perdido!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">1 Cr. 29, 17 et 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine Deus, in simplicitáte cordis mei lætus óbtuli univérsa; et
               pópulum tuum, qui repertus est, vidi cum ingénti gáudio: Deus
@@ -253,13 +254,13 @@ export default function Page25Dedicacaoigreja() {
               reunido o vosso povo. Ó Deus de Israel, conservai em minha alma
               estas boas disposições. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
           <Text className="aside">Na Igreja</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Annue, quǽsumus, Dómine, précibus nostris: ut, quicúmque intra
               templi hujus, cujus anniversárium dedicatiónis diem celebrámus,
@@ -275,13 +276,13 @@ export default function Page25Dedicacaoigreja() {
               permiti que, oferecendo-Vos estes dons, alcancemos a felicidade
               eterna com vosso auxílio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
           <Text className="aside">Fora da Igreja</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Annue, quǽsumus, Dómine, précibus nostris: ut, dum hæc vota
               præséntia réddimus, ad ætérna prǽmia, te adjuvánte, perveníre
@@ -292,7 +293,7 @@ export default function Page25Dedicacaoigreja() {
               oferecendo-Vos estes dons, alcancemos a felicidade eterna com
               vosso auxílio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No dia em que se faz a Dedicação e no seu Oitavário diz-se, em vez
@@ -301,7 +302,7 @@ export default function Page25Dedicacaoigreja() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui sacrandórum tibi auctor es múnerum, effúnde super hanc
               oratiónis domum benedictiónem tuam: ut ab ómnibus, in ea
@@ -314,13 +315,13 @@ export default function Page25Dedicacaoigreja() {
               que aqui invocarem o vosso Nome sintam o auxílio da vossa defesa.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 21, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Domus mea domus oratiónis vocábitur, dicit Dóminus: in ea omnis,
               qui pétii, accipit; et qui quærit, invénit; et pulsánti aperiétur.
@@ -331,11 +332,11 @@ export default function Page25Dedicacaoigreja() {
               aquele que aí pede, recebe: e o que procura, acha: e ao que bate,
               abrir-se-lhe-á. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui de vivis et electis lapídibus ætérnum majestáti tuæ
               prǽparas habitáculum: auxiliáre pópulo tuo supplicánti; ut, quod
@@ -349,7 +350,7 @@ export default function Page25Dedicacaoigreja() {
               materiais faça crescer em proveito da Igreja os seus bens
               espirituais. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No dia em que se faz a Dedicação e no seu Oitavário diz-se, em vez
@@ -358,7 +359,7 @@ export default function Page25Dedicacaoigreja() {
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut in hoc loco, quem nómini tuo indígni
               dedicávimus, cunctis peténtibus aures tuæ pietátis accómmodes. Per
@@ -369,7 +370,7 @@ export default function Page25Dedicacaoigreja() {
               ainda que indignos, dedicámos ao vosso nome, ouçais benignamente
               todos os que Vos implorarem. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Na Festa da Dedicação dum Altar celebra-se a Missa precedente, com
@@ -378,7 +379,7 @@ export default function Page25Dedicacaoigreja() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui ex omni coaptatióne Sanctórum ætérnum tibi condis
               habitáculum: da ædificatióni tuæ increménta cœléstia; ut, quorum
@@ -392,11 +393,11 @@ export default function Page25Dedicacaoigreja() {
               honramos neste lugar com amor pio, nos sirvam com seus méritos de
               perpétuo auxílio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Descéndat, quǽsumus, Dómine, Deus noster, Spíritus tuus Sanctus
               super hoc altare: qui et pópuli tui dona sanctíficet, et suméntium
@@ -408,11 +409,11 @@ export default function Page25Dedicacaoigreja() {
               povo e purificar os corações daqueles que tomarem parte nele. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, altare hoc, nómini tuo dedicátum,
               cæléstis virtútis benedictióne sanctífica: et ómnibus in te
@@ -426,7 +427,7 @@ export default function Page25Dedicacaoigreja() {
               neste lugar obtenham a virtude dos vossos Sacramentos e o efeito
               dos seus votos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

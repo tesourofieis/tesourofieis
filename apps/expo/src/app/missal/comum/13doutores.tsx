@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page13Doutores() {
   return (
@@ -14,7 +15,7 @@ export default function Page13Doutores() {
 
           <Text className="em">Ecl. 15, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu
               sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (T. P.
@@ -30,11 +31,11 @@ export default function Page13Doutores() {
               Senhor: e cantar hinos em honra do vosso nome, ó Altíssimo!
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui pópulo tuo ætérnæ salútis beátum{" "}
               <Text className="latin">N.</Text> minístrum tribuísti: præsta,
@@ -48,13 +49,13 @@ export default function Page13Doutores() {
               como Doutor durante a nossa vida na terra, assim gozemos a sua
               intercessão no céu. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2, Tm. 4, 1-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Timotheum.
             </Text>
@@ -93,13 +94,13 @@ export default function Page13Doutores() {
               Senhor, como justo juiz, me dará no grande dia: e não somente a
               mim, mas também àqueles que amam a sua vinda.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 36, 30-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.
               <Text className="versicle"> ℣. </Text>Lex Dei ejus in corde
@@ -120,7 +121,7 @@ export default function Page13Doutores() {
               <Text className="vernacular">Ecl. 45, 9</Text> Amou-o o Senhor e
               revestiu-o com a túnica da glória. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -130,7 +131,7 @@ export default function Page13Doutores() {
 
           <Text className="em">Sl. 111, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
               <Text className="versicle"> ℣. </Text>
@@ -146,13 +147,13 @@ export default function Page13Doutores() {
               haverá glória e riqueza: e a sua justiça subsistirá em todos os
               séculos dos séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Eccli. 45, 9</Text> Amávit eum Dóminus, et
@@ -169,13 +170,13 @@ export default function Page13Doutores() {
               <Text className="em">Os. 14, 6</Text> O justo germinará, como o
               lírio, e florescerá para sempre diante do Senhor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 5, 13-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -217,13 +218,13 @@ export default function Page13Doutores() {
               chamado o menor no reino dos céus. Porém, quem os cumprir e
               ensinar será chamado grande no reino dos céus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 91, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus ut palma florébit: sicut cedrus, quæ in Líbano est
               multiplicábitur. (T. P. Allelúja.)
@@ -232,11 +233,11 @@ export default function Page13Doutores() {
               O justo florescerá, como a palmeira, e crescerá, como o cedro do
               Líbano. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sancti <Text className="latin">N.</Text> Pontíficis tui at que
               Doctóris nobis, Dómine, pia non desit orátio: quæ et múnera nostra
@@ -250,13 +251,13 @@ export default function Page13Doutores() {
               agradáveis e alcancemos benigna e continuamente a vossa
               misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 12, 42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fidélis servus et prudens, quem constítuit dóminus super famíliam
               suam: ut det illis in témpore trítici mensúram. (T. P. Allelúja.)
@@ -266,11 +267,11 @@ export default function Page13Doutores() {
               oportunamente, na sua família a cada um a sua medida de trigo. (T.
               P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ut nobis, Dómine, tua sacrifícia dent salútem: beátus{" "}
               <Text className="latin">N.</Text> Póntifex tuus et Doctor
@@ -282,7 +283,7 @@ export default function Page13Doutores() {
               Doutor, seja nosso intercessor perante Vós, a fim de que este
               sacrifício nos alcance a salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">Outra Epístola (para certos dias):</Text>
 
@@ -290,7 +291,7 @@ export default function Page13Doutores() {
 
           <Text className="em">Ecl. 39, 6-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -322,7 +323,7 @@ export default function Page13Doutores() {
               geração em geração. As nações publicarão a sua sabedoria e a
               Igreja anunciará os seus louvores.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageJose() {
   return (
@@ -14,7 +15,7 @@ export default function PageJose() {
 
           <Text className="em">Sl. 32, 20-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adjútor ejus sperávimus. (T. P. Allelúja, allelúja.){" "}
               <Text className="latin">Ps. 79, 2</Text> Qui regis Israël,
@@ -29,11 +30,11 @@ export default function PageJose() {
               José, como um pastor guia a ovelha, ouvi.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui ineffábili providéntia beátum Joseph sanctíssimæ
               Genetrícis tuæ sponsum elígere dignátus es: præsta, quǽsumus; ut,
@@ -47,13 +48,13 @@ export default function PageJose() {
               mereçamos alcançar a sua intercessão nos céus. Ó Vós, que
               viveis...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Gn. 49, 22-26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Génesis.</Text>
             <Text className="vernacular">Lição do Livro Génesis.</Text>
             <Text className="latin">
@@ -88,13 +89,13 @@ export default function PageJose() {
               de José, que é como que um Nazareno (Príncipe) no meio de seus
               irmãos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 20, 4-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in
               cápite ejus corónam de lápide pretióso.
@@ -117,7 +118,7 @@ export default function PageJose() {
               Alcançai-nos, ó José, que a nossa vida decorra sem mancha e que,
               sob vosso Patrocínio, esteja sempre segurança. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o Verso, e que se segue, e
@@ -128,7 +129,7 @@ export default function PageJose() {
 
           <Text className="em">Sl. 111, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
               <Text className="versicle"> ℣. </Text>
@@ -145,13 +146,13 @@ export default function PageJose() {
               abundância e riqueza e a sua justiça subsistirá em todos os
               séculos dos séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual e o Trato, diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>De
               quacúmque tribulatióne clamáverint ad me, exáudiam eos, et ero
@@ -166,13 +167,13 @@ export default function PageJose() {
               Ó José, fazei que a nossa vida seja sem mácula e que, esteja
               sempre sob o vosso patrocínio. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 3, 21-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -198,13 +199,13 @@ export default function PageJose() {
               minhas complacências!». Jesus começava então a contar cerca de
               trinta anos, sendo considerado como filho de José.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 147, 12 & 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lauda, Jerúsalem, Dóminum: quóniam confortávit seras portárum
               tuárum, benedíxit fíliis tuis in te. (T. P. Allelúja.)
@@ -213,11 +214,11 @@ export default function PageJose() {
               Jerusalém, louva o Senhor, pois foi Ele quem consolidou as tuas
               portas; foi Ele quem abençoou os teus filhos. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctíssimæ Genetrícis tuæ sponsi patrocínio suffúlti, rogámus,
               Dómine, cleméntiam tuam: ut corda nostra fácias terréna cuncta
@@ -230,13 +231,13 @@ export default function PageJose() {
               coisas terrenas e com caridade perfeita amar-Vos a Vós, que sois o
               verdadeiro Deus. Ó Vós, que viveis e...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt, 1, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jacob autem génuit Joseph, virum Maríæ, de qua natus est Jesus,
               qui vocátur Christus. (T. P. Allelúja.)
@@ -245,11 +246,11 @@ export default function PageJose() {
               Jacob gerou José, esposo de Maria, de quem nasceu Jesus, que se
               chama Cristo.(T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Divíni múneris fonte refécti, quǽsumus, Dómine, Deus noster: ut,
               sicut nos facis beáti Joseph protectióne gaudére; ita, ejus
@@ -263,7 +264,7 @@ export default function PageJose() {
               celestial, em virtude dos seus méritos e da sua intercessão. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad44() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad44() {
 
           <Text className="em">Sl. 104, 3-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lætétur cor quæréntium Dóminum: quǽrite Dóminum, et confirmámini:
               quǽrite fáciem ejus semper.{" "}
@@ -30,11 +31,11 @@ export default function PageQuad44() {
               meio dos povos.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, quos jejúnia votíva
               castígant, ipsa quoque devótio sancta lætíficet; ut, terrénis
@@ -47,13 +48,13 @@ export default function PageQuad44() {
               afectos terrenos, gozemos mais largamente os bens celestiais. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">4 Rs. 4, 25-38</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Regum.</Text>
             <Text className="vernacular">Lição do Livro dos Reis.</Text>
             <Text className="latin">
@@ -123,13 +124,13 @@ export default function PageQuad44() {
               aos pés de Eliseu e prostrou-se por terra. Depois levou o filho e
               se retirou. Eliseu voltou para Gálgala.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 73, 20, 19 & 22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réspice, Dómine, in testaméntum tuum: et ánimas páuperum tuórum ne
               obliviscáris in finem.<Text className="versicle"> ℣. </Text>
@@ -142,13 +143,13 @@ export default function PageQuad44() {
               Senhor, e julgai esta vossa causa: lembrai-Vos dos opróbrios que
               sofrem os vossos servos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 7, 11-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -183,13 +184,13 @@ export default function PageQuad44() {
               atemorizados e glorificavam o Senhor, dizendo: «Um grande Profeta
               se levantou no meio de nós; Deus visitou o seu povo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 69, 2,3 & 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, ad adjuvándum me festína: confundántur omnes, qui cógitant
               servis tuis mala.
@@ -198,11 +199,11 @@ export default function PageQuad44() {
               Senhor, apressai-Vos em socorrer-me: que fiquem cheios de confusão
               aqueles que querem fazer mal aos vossos servos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Purífica nos, misericors Deus: ut Ecclésiæ tuæ preces, quæ tibi
               gratæ sunt, pia múnera deferéntes, fiant expiátis méntibus
@@ -214,13 +215,13 @@ export default function PageQuad44() {
               agradáveis ainda pela expiação daqueles que Vos oferecem estes
               pios dons. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 70, 16-17 & 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, memorábor justítiæ tuæ solíus: Deus, docuísti me a
               juventúte mea: et usque in senéctam et sénium, Deus, ne
@@ -231,11 +232,11 @@ export default function PageQuad44() {
               instruístes-me desde a minha infância. Não me abandonareis, pois,
               ó Deus, até à velhice, até aos cabelos brancos!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœléstia dona capiéntibus, quǽsumus, Dómine: non ad judícium
               proveníre patiáris, quæ fidélibus tuis ad remédium providísti. Per
@@ -246,11 +247,11 @@ export default function PageQuad44() {
               que preparastes para remédio dos fiéis, sirvam de condenação aos
               que os recebem. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Humiliáte cápita vestra Deo.</Text>
             <Text className="vernacular">
               Inclinai as vossas cabeças diante de Deus.
@@ -265,7 +266,7 @@ export default function PageQuad44() {
               que o assaltam, a fim de que, agradando-Vos sempre, esteja certo
               da vossa protecção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

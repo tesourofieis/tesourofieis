@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc01() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc01() {
 
           <Text className="em">Ex. 13, 5 & 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Introdúxit vos Dóminus in terram fluéntem lac et mel, allelúja: et
               ut lex Dómini semper sit in ore vestro, allelúja, allelúja.{" "}
@@ -30,11 +31,11 @@ export default function PagePasc01() {
               todos os povos.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui sollemnitáte pascháli, mundo remédia contulísti: pópulum
               tuum, quǽsumus, cœlésti dono proséquere; ut et perféctam
@@ -47,13 +48,13 @@ export default function PagePasc01() {
               celestiais sobre o vosso povo, para que mereça alcançar a perfeita
               liberdade e consiga a vida eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act. 10, 37-43</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostólorum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -91,13 +92,13 @@ export default function PagePasc01() {
               todos os que acreditaram n’Ele alcançarão em virtude do seu nome a
               remissão de seus pecados».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 117, 24 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.
               <Text className="versicle"> ℣. </Text>
@@ -120,13 +121,13 @@ export default function PagePasc01() {
               desceu do céu, e, chegando-se, revolveu a pedra e assentou-se
               sobre ela.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 24, 13-35</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -215,13 +216,13 @@ export default function PagePasc01() {
               havia passado no caminho e, como O tinham reconhecido pela fracção
               do pão.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Mt. 28, 2, 5 & 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Angelus Dómini descéndit de cœlo, et dixit muliéribus: Quem
               quǽritis, surréxit, sicut dixit, allelúja.
@@ -230,7 +231,7 @@ export default function PagePasc01() {
               Um Anjo do Senhor desceu do céu e disse às mulheres: «Aquele a
               quem buscais ressuscitou, como Ele havia dito», aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta e Postcomúnio</Text>
 
@@ -240,14 +241,14 @@ export default function PagePasc01() {
 
           <Text className="em">Lc. 24, 34</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Surréxit Dóminus, et appáruit Petro, allelúja.
             </Text>
             <Text className="vernacular">
               Ressuscitou o Senhor e apareceu a Pedro, aleluia.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1114() {
@@ -13,7 +14,7 @@ export default function Page1114() {
 
           <Text className="h3">Intróito</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
               beáti Jósaphat Mártyris: de cujus passióne gaudent Angeli et
@@ -29,11 +30,11 @@ export default function Page1114() {
               justos, pois é aos que possuem coração recto que pertence louvar o
               Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Excita, quǽsumus, Dómine, in Ecclésia tua Spíritum, quo replétus
               beátus Jósaphat Martyr et Póntifex tuus ánimam suam pro óvibus
@@ -48,7 +49,7 @@ export default function Page1114() {
               animados e fortalecidos pelo mesmo Espírito, nunca temamos
               sacrificar a nossa vida pelos nossos irmãos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -61,7 +62,7 @@ export default function Page1114() {
 
           <Text className="em">Sl. 88, 21-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
               auxiliábitur ei, et bráchium meum confortábit eum.
@@ -81,7 +82,7 @@ export default function Page1114() {
             <Text className="vernacular">
               Aleluia, aleluia. Eis o sacerdote que o Senhor coroou. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -94,7 +95,7 @@ export default function Page1114() {
 
           <Text className="em">Jo. 15, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Majórem caritátem nemo habet, ut ánimam suam ponat quis pro amícis
               suis.
@@ -103,11 +104,11 @@ export default function Page1114() {
               Ninguém pode dar maior prova de amor do que sacrificar a vida
               pelos seus amigos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Clementíssime Deus, múnera hæc tua benedictióne perfunde, et nos
               in fide confírma: quam sanctus Jósaphat Martyr et Póntifex tuus,
@@ -119,13 +120,13 @@ export default function Page1114() {
               vosso Santo Mártir e Pontífice Josafá derramou o sangue. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 10, 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ego sum pastor bonus: et cognósco oves meas et cognóscunt me meæ.
             </Text>
@@ -133,11 +134,11 @@ export default function Page1114() {
               Sou o bom pastor: conheço as minhas ovelhas; e as minhas ovelhas
               conhecem-me.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Spíritum, Dómine, fortitúdinis hæc nobis tríbuat mensa cœléstis:
               quæ sancti Jósaphat Mártyris tui atque Pontíficis vitam pro
@@ -149,7 +150,7 @@ export default function Page1114() {
               sempre alimento de vida até alcançar a vitória em honra da Igreja.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

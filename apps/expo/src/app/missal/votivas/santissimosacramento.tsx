@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageSantissimosacramento() {
   return (
@@ -24,7 +25,7 @@ export default function PageSantissimosacramento() {
 
           <Text className="em">Ml. 1, 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ab ortu solis usque ad occásum, magnum est nomen meum in géntibus.
               <Text className="versicle"> ℣. </Text>Et in omni loco
@@ -42,13 +43,13 @@ export default function PageSantissimosacramento() {
               <Text className="vernacular">Pr. 9, 5</Text> Vinde, comei o meu
               pão e bebei o vinho, que vos preparei.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se O Gradual e o Trato, e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Luc. 24, 35</Text> Cognovérunt discípuli
@@ -67,7 +68,7 @@ export default function PageSantissimosacramento() {
               comida e o meu Sangue verdadeira bebida. Aquele que come a minha
               Carne e bebe o meu Sangue, permanece em mim e Eu nele. Aleluia.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

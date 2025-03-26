@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1011() {
@@ -17,7 +18,7 @@ export default function Page1011() {
 
           <Text className="em">Is. 7, 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce Virgo concípiet, et páriet fílium, et vocábitur nomen ejus
               Emmánuel. <Text className="latin">Ps. 97, 1</Text> Cantáte Dómino
@@ -30,11 +31,11 @@ export default function Page1011() {
               Senhor um cântico novo, porque Ele praticou maravilhas.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo
               nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut,
@@ -49,7 +50,7 @@ export default function Page1011() {
               presença com a intercessão das suas preces. Pelo mesmo nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -62,7 +63,7 @@ export default function Page1011() {
 
           <Text className="em">Is. 11, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Egrediétur virga de rádice Jesse, et flos de rádice ejus ascéndet.
               <Text className="versicle"> ℣. </Text>Et requiéscet super eum
@@ -83,13 +84,13 @@ export default function Page1011() {
               Aquele que todo o mundo não é capaz de conter, quando se fez
               homem, esteve encerrado no vosso seio. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 2, 43-51</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -131,13 +132,13 @@ export default function Page1011() {
               que Jesus lhes disse. Então desceu com eles, veio para Nazaré e
               era-lhes obediente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Mt. 1, 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cum esset desponsáta mater ejus María Joseph, invénta est in útero
               habens de Spíritu Sancto.
@@ -146,11 +147,11 @@ export default function Page1011() {
               Estando Maria, sua Mãe, desposada com José, achou este que ela
               havia concebido do Espírito Santo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis,
               Unigéniti tui matris intercessióne, ad perpétuam atque præséntem
@@ -162,11 +163,11 @@ export default function Page1011() {
               sempre Virgem, fazei que esta oferta nos assegure agora e sempre a
               prosperidade e a paz. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris
               Fílium.
@@ -175,11 +176,11 @@ export default function Page1011() {
               Bem-aventuradas as entranhas da Virgem Maria, que trouxeram
               encerrado o Filho do Pai Eterno.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáta
               Vírgine Dei Genitríce María, cœléstis remédii fáciat esse
@@ -190,7 +191,7 @@ export default function Page1011() {
               por intercessão da B. Virgem Maria, Mãe de Deus, nos torne
               participantes do remédio celestial. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

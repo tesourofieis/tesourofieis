@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageOgloriosavirginum() {
   return (
@@ -10,7 +11,7 @@ export default function PageOgloriosavirginum() {
         <View className="docs">
           <Text className="h1">O gloriosa virginum</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               O gloriósa vírginum, sublímis inter sídera, Qui te creávit
               párvulum lacténte nutris úbere.
@@ -43,7 +44,7 @@ export default function PageOgloriosavirginum() {
               Jesus seja engrandecido, da virgem pura nascido, e o eterno Pai
               também, com o Espírito Santo. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

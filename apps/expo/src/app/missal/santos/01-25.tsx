@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0125() {
@@ -37,7 +38,7 @@ export default function Page0125() {
 
           <Text className="em">2 Tm. 1, 12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Scio, cui crédidi, et certus sum, quia potens est depósitum meum
               serváre in illum diem, justus judex.{" "}
@@ -53,11 +54,11 @@ export default function Page0125() {
               quando me levanto.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui univérsum mundum beáti Pauli Apóstoli prædicatióne
               docuísti: da nobis, quǽsumus; ut, qui ejus hódie Conversiónem
@@ -69,7 +70,7 @@ export default function Page0125() {
               a sua Conversão, caminhemos para Vós, seguindo os seus exemplos.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração Comemoração de S. Pedro</Text>
 
@@ -82,7 +83,7 @@ export default function Page0125() {
 
           <Text className="em">Act. 9, 1-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolórum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -171,13 +172,13 @@ export default function Page0125() {
               esforçava e confundia os judeus, que habitavam em Damasco,
               pregando a Jesus e demonstrando que Este era o Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Gl. 2, 8 & 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui operátus est Petro in apostolátum, operátus est ei mihi inter
               gentes: et cognovérunt grátiam Dei, quæ data est mihi.
@@ -200,7 +201,7 @@ export default function Page0125() {
               Paulo, este vaso de eleição, é verdadeiramente digno de glória,
               pois mereceu ocupar o duodécimo trono. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o Verso e diz-se:
@@ -208,7 +209,7 @@ export default function Page0125() {
 
           <Text className="h3">Trato</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tu es vas electiónis, sancte Paule Apóstole: vere digne es
               glorificándus.<Text className="versicle"> ℣. </Text>Prædicátor
@@ -226,13 +227,13 @@ export default function Page0125() {
               <Text className="versicle"> ℣. </Text>Intercedei, pois, por nós
               junto de Deus, que vos escolheu.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 19, 27-29</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -262,13 +263,13 @@ export default function Page0125() {
               mulher por causa do meu nome, receberá o cêntuplo e possuirá a
               vida eterna».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 138, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.
@@ -277,11 +278,11 @@ export default function Page0125() {
               Largamente, ó meu Deus, tendes honrado os vossos amigos: e
               extraordinariamente tendes favorecido o seu poder.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Apóstoli tui Pauli précibus, Dómine, plebis tuæ dona sanctífica:
               ut, quæ tibi tuo grata sunt institúto, gratióra fiant patrocínio
@@ -294,7 +295,7 @@ export default function Page0125() {
               ainda Vos sejam, pelas súplicas do intercessor. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta Comemoração de S. Pedro</Text>
 
@@ -307,7 +308,7 @@ export default function Page0125() {
 
           <Text className="em">Mt. 19, 28 & 29</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Amen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis
               me, céntuplum accipiétis, et vitam ætérnam possidébitis.
@@ -316,11 +317,11 @@ export default function Page0125() {
               Em verdade vos digo: Vós, que tudo abandonastes e me seguistes,
               recebereis o cêntuplo e alcançareis a vida eterna.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctificáti, Dómine, salutári mystério: quǽsumus; ut nobis ejus
               non desit orátio, cujus nos donásti patrocínio gubernári. Per
@@ -331,7 +332,7 @@ export default function Page0125() {
               que nunca nos falte a intercessão daquele a cujo amparo fomos
               confiados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio Comemoração de S. Pedro</Text>
 

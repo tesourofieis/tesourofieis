@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageMaria() {
   return (
@@ -16,7 +17,7 @@ export default function PageMaria() {
             a Festa que se celebra), como se diz na nota de rodapé.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubique grátias ágere: Dómine sancte, Pater omnípotens, ætérne
@@ -49,7 +50,7 @@ export default function PageMaria() {
               permiti que unamos as nossas vozes às de todos estes, dizendo em
               suplicante confissão:
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

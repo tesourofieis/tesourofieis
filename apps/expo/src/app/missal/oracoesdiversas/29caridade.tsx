@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page29Caridade() {
   return (
@@ -12,7 +13,7 @@ export default function Page29Caridade() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui diligéntibus te facis cuncta prodésse: da córdibus
               nostris inviolábilem tuæ cantátis afféctum; ut desidéria, de tua
@@ -26,11 +27,11 @@ export default function Page29Caridade() {
               vossa inspiração, permaneçam invariavelmente em nós, a despeito de
               todas as tentações. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos ad imáginem tuam sacraméntis rénovas et præcéptis:
               pérfice gressus nostros in sémitis tuis; ut cantátis donum, quod
@@ -44,11 +45,11 @@ export default function Page29Caridade() {
               possamos alcançar verdadeiramente o dom da caridade, que nos
               ensinastes a esperar de Vós. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sancti Spíritus grátia, quǽsumus, Dómine, corda nostra illúminet:
               et perféctæ cantátis dulcédine abundánter refíciat. Per Dóminum...
@@ -59,7 +60,7 @@ export default function Page29Caridade() {
               ilumine os nossos corações e os reconforte e sacie com a doçura da
               caridade perfeita. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

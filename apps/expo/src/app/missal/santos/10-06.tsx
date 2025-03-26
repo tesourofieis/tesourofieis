@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1006() {
   return (
@@ -25,7 +26,7 @@ export default function Page1006() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sancti Brunónis Confessóris tui, quǽsumus, Dómine,
               intercessiónibus adjuvémur: ut, qui majestátem tuam gráviter
@@ -38,11 +39,11 @@ export default function Page1006() {
               vossa majestade, obtenhamos o perdão dos nossos pecados pelos
               méritos e preces do mesmo santo. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, qui cœlestia aliménta percépimus,
               intercedénte beáto Brunóne Confessóre tuo, per hæc contra ómnia
@@ -54,7 +55,7 @@ export default function Page1006() {
               Bruno, sejamos fortificados contra todas as adversidades. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

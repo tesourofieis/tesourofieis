@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page28Paciencia() {
   return (
@@ -12,7 +13,7 @@ export default function Page28Paciencia() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui Unigéniti tui patiéntia antíqui hostis contrivísti
               supérbiam: da nobis, quǽsumus, quæ idem pie pro nobis pértulit,
@@ -27,11 +28,11 @@ export default function Page28Paciencia() {
               possamos suportar com resignação as adversidades. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera nostræ oblatiónis, quǽsumus, Dómine, súscipe placátus: quæ,
               ut nobis patiéntiæ donum largíri dignéris, majestáti tuæ devota
@@ -43,11 +44,11 @@ export default function Page28Paciencia() {
               majestade, para que Vos digneis conceder-nos a virtude da
               paciência. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mystéria, Dómine, sacrosáncta, quæ súmpsimus, amíssam nobis,
               quǽsumus, reconcílient grátiam: atque munus patiéntiæ in illátis
@@ -61,7 +62,7 @@ export default function Page28Paciencia() {
               toda a parte o dom da paciência em todas as adversidades. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

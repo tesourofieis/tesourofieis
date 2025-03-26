@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import PangeLingua from "../../canticos/sacros/pangelingua";
 import Salmo21 from "../../devocionario/salterio/021";
 
@@ -28,7 +29,7 @@ export default function PageQuad64() {
 
           <Text className="em">Gl. 6, 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in
               quo est salus, vita et resurréctio nostra: per quem salváti et
@@ -43,11 +44,11 @@ export default function PageQuad64() {
               Deus tenha misericórdia de nós e nos abençoe; e se compadeça de
               nós!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, a quo et Judas reatus sui pœnam, et confessiónis suæ latro
               prǽmium sumpsit, concéde nobis tuæ propitiatiónis efféctum: ut,
@@ -64,13 +65,13 @@ export default function PageQuad64() {
               tornemos participantes da sua ressurreição. Ele, que, sendo
               Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Cor. 11, 20-32</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -128,13 +129,13 @@ export default function PageQuad64() {
               julgamos, o Senhor nos corrigirá, a fim de não sermos condenados
               com este mundo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Fl. 2, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Christus factus est pro nobis obœdiens usque ad mortem, mortem
               autem crucis<Text className="versicle"> ℣. </Text>Propter quod et
@@ -146,13 +147,13 @@ export default function PageQuad64() {
               <Text className="versicle"> ℣. </Text>Pelo que Deus O exaltou e
               lhe deu um nome que é superior a todos os nomes.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 13, 1-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -217,13 +218,13 @@ export default function PageQuad64() {
               Dei-Vos o exemplo, para que, assim como Eu vos fiz, assim façais
               também».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 117, 16 & 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non
               móriar, sed vivam, et narrábo ópera Dómini.
@@ -233,11 +234,11 @@ export default function PageQuad64() {
               exaltou-me! Não morrerei, mas viverei e publicarei as maravilhas
               do Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ipse tibi, quǽsumus, Dómine sancte, Pater omnípotens, ætérne Deus,
               sacrifícium nostrum reddat accéptum, qui discípulis suis in sui
@@ -252,13 +253,13 @@ export default function PageQuad64() {
               celebrassem em sua memória. Ele, que, sendo Deus, convosco vive
               e...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 13, 12, 13 & 15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dóminus Jesus, postquam cœnávit cum discípulis suis, lavit pedes
               eórum, et ait illis: Scitis, quid fécerim vobis ego, Dóminus et
@@ -270,11 +271,11 @@ export default function PageQuad64() {
               Senhor e Mestre? Dei-vos o exemplo, para que façais também o
               mesmo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti vitálibus aliméntis, quǽsumus, Dómine, Deus noster: ut,
               quod témpore nostræ mortalitátis exséquimur, immortalitátis tuæ
@@ -286,7 +287,7 @@ export default function PageQuad64() {
               no seio da imortalidade o que procurámos durante a vida mortal.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Procissão do SS. Sacramento</Text>
 
@@ -300,7 +301,7 @@ export default function PageQuad64() {
 
           <Text className="em">Sl. 21, 19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Diviserunt sibi vestimenta mea: et super vestem meam misérunt
               sortem.
@@ -309,7 +310,7 @@ export default function PageQuad64() {
               Dividiram entre si os meus vestidos e sobre a minha túnica jogaram
               sortes.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Salmo 21</Text>
 
@@ -327,7 +328,7 @@ export default function PageQuad64() {
 
           <Text className="em">Jo. 13, 34</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mandátum novum do vobis: ut diligátis ínvicem, sicut diléxi vos,
               dicit Dóminus. <Text className="latin">Ps. 118, 1</Text> Beáti
@@ -339,13 +340,13 @@ export default function PageQuad64() {
               <Text className="vernacular">Sl. 118, 1</Text> Bem-aventurados os
               que são puros na sua vida: e que seguem a lei do Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antífona</Text>
 
           <Text className="em">Jo. 13, 4, 5 & 15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Postquam surréxit Dóminus a cœna, misit aquam in pelvim, et cœpit
               laváre pedes discipulórum suórum: hoc exémplum réliquit eis.{" "}
@@ -360,13 +361,13 @@ export default function PageQuad64() {
               digno de todo o louvor na cidade de nosso Deus, na sua montanha
               sagrada.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antífona</Text>
 
           <Text className="em">Jo. 13, 12, 13 & 15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dóminus Jesus, postquam cœnávit cum discípulis suis, lavit pedes
               eórum, et ait illis: Scitis, quid fécerim vobis ego, Dóminus et
@@ -382,13 +383,13 @@ export default function PageQuad64() {
               <Text className="vernacular">Sl. 84, 2</Text> Abençoastes, Senhor,
               a vossa terra; livrastes Jacob do cativeiro.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antífona</Text>
 
           <Text className="em">Jo. 13, 6-7 & 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, tu mihi lavas pedes? Respóndit Jesus et dixit ei: Si non
               lávero tibi pedes, non habébis partem mecum.
@@ -421,11 +422,11 @@ export default function PageQuad64() {
               Senhor, quereis lavar-me os pés? Jesus respondeu-lhe e disse: «Se
               te não lavar os pés, não terás parte comigo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antífona</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Si ego, Dóminus et Magíster vester, lavi vobis pedes: quanto magis
               debétis alter altérius laváre pedes?{" "}
@@ -438,13 +439,13 @@ export default function PageQuad64() {
               <Text className="vernacular">Sl. 48, 2</Text> Ó povos, escutai
               todos esta palavra. Ouvi-a, ó habitantes da terra.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antífona</Text>
 
           <Text className="em">Jo. 13, 35</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In hoc cognóscent omnes, quia discípuli mei estis, si dilectiónem
               habuéritis ad ínvicem.<Text className="versicle"> ℣. </Text>Dixit
@@ -455,13 +456,13 @@ export default function PageQuad64() {
               outros.<Text className="versicle"> ℣. </Text>Disse Jesus a seus
               discípulos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antífona</Text>
 
           <Text className="em">1 Cor. 13, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Máneant in vobis fides, spes, cáritas, tria hæc: major autem horum
               est cáritas.<Text className="versicle"> ℣. </Text>Nunc autem
@@ -473,11 +474,11 @@ export default function PageQuad64() {
               <Text className="versicle"> ℣. </Text>Presentemente existem três
               virtudes, mas a maior das três é a caridade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antífona</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícta sit sancta Trínitas atque indivísa Unitas: confitébimur
               ei, quia fecit nobíscum misericórdiam suam.
@@ -496,13 +497,13 @@ export default function PageQuad64() {
               vossos tabernáculos, ó Deus dos exércitos. Minha alma voa em
               transportes de amor ao pensar nos átrios do Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antífona</Text>
 
           <Text className="em">1 Jo. 2; 3; 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ubi cáritas et amor, Deus ibi est.
               <Text className="versicle"> ℣. </Text>Congregávit nos in unum
@@ -556,9 +557,9 @@ export default function PageQuad64() {
               <Text className="versicle"> ℣. </Text>Em todos os séculos, pelos
               infinitos séculos. <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pater noster, <Text className="latin">secréto.</Text>
               <Text className="versicle"> ℣. </Text>
@@ -632,11 +633,11 @@ export default function PageQuad64() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto, Dómine, quǽsumus, officio servitútis nostræ: et quia tu
               discípulis tuis pedes laváre dignátus es, ne despícias ópera
@@ -656,7 +657,7 @@ export default function PageQuad64() {
               Vós que, sendo Deus, viveis e reinais por todos os séculos dos
               séculos. <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

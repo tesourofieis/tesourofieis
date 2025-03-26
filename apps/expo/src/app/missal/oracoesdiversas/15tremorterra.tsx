@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page15Tremorterra() {
   return (
@@ -12,7 +13,7 @@ export default function Page15Tremorterra() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui réspicis terram et facis eam
               trémere: parce metuéntibus, propitiáre supplícibus; ut, cujus iram
@@ -27,11 +28,11 @@ export default function Page15Tremorterra() {
               sintamos também os efeitos da vossa bondade, sempre pronta a
               reparar os males. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui fundásti terram super stabilitátem suam, súscipe
               oblatiónes et preces pópuli tui: ac, treméntis terræ perículis
@@ -48,11 +49,11 @@ export default function Page15Tremorterra() {
               permanecer, possam alcançar um dia a alegria da posse do reino dos
               céus pela santidade da sua vida, Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tuére nos, Dómine, quǽsumus, tua sancta suméntes: et terram, quam
               vídimus nostris iniquitátibus treméntem, supérno munere firma; ut
@@ -68,7 +69,7 @@ export default function Page15Tremorterra() {
               vossa indignação, também a vossa misericórdia pode extingui-los.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc40() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc40() {
 
           <Text className="em">Sl. 97, 1 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cantáte Dómino cánticum novum, allelúja: quia mirabília fecit
               Dóminus, allelúja: ante conspéctum géntium revelávit justítiam
@@ -31,11 +32,11 @@ export default function PagePasc40() {
               com sua dextra e com seu santo braço.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui fidélium mentes uníus éfficis voluntátis: da pópulis
               tuis id amáre quod prǽcipis, id desideráre quod promíttis; ut
@@ -49,13 +50,13 @@ export default function PagePasc40() {
               deste mundo os nossos corações permaneçam fixos onde estão as
               verdadeiras alegrias. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Tg. 1, 17-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Jacóbi Apóstoli.
             </Text>
@@ -83,11 +84,11 @@ export default function PagePasc40() {
               docilidade a palavra que ouvistes, a qual tem poder para salvar as
               almas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 117, 16</Text> Déxtera Dómini fecit
@@ -105,13 +106,13 @@ export default function PagePasc40() {
               <Text className="em">Rm. 6, 9</Text> Cristo ressuscitou dos
               mortos, já não morrerá: a morte não mais O vencerá. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 16, 5-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -153,13 +154,13 @@ export default function PagePasc40() {
               acontecer; e me glorificará, porque receberá do que é meu, e vo-lo
               anunciará.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 65, 1-2 & 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jubiláte Deo, univérsa terra, psalmum dícite nómini ejus: veníte
               et audíte, et narrábo vobis, omnes qui timétis Deum, quanta fecit
@@ -171,11 +172,11 @@ export default function PagePasc40() {
               escutai: e contar-vos-ei as mercês que Ele fez à minha alma,
               aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos, per hujus sacrificii veneránda commércia, uníus
               summæ divinitátis partícipes effecísti: præsta, quǽsumus; ut,
@@ -189,13 +190,13 @@ export default function PagePasc40() {
               também, procedendo dignamente em os nossos costumes, consigamos
               alcançá-la. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 16, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cum vénerit Paráclitus Spíritus veritátis, ille árguet mundum de
               peccáto et de justítia et de judício, allelúja, allelúja.
@@ -204,11 +205,11 @@ export default function PagePasc40() {
               Quando o Consolador Espírito da verdade vier, convencerá o mundo
               acerca do pecado, da justiça e do juízo, aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto nobis, Dómine, Deus noster: ut per hæc, quæ fidéliter
               súmpsimus, et purgémur a vítiis et a perículis ómnibus eruámur.
@@ -219,7 +220,7 @@ export default function PagePasc40() {
               que recebemos com fé e sinceridade, sejamos purificados dos vícios
               e livres dos perigos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

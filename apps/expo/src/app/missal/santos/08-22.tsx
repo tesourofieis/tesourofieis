@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0822() {
@@ -17,7 +18,7 @@ export default function Page0822() {
 
           <Text className="em">Heb. 4, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adeámus cum fidúcia ad thronum grátiæ, ut misericórdiam
               consequámur, et grátiam inveniámus in auxílio opportúno.{" "}
@@ -32,11 +33,11 @@ export default function Page0822() {
               coração exprimiu uma excelente palavra: «Consagro ao Rei as minhas
               obras»!<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui in Corde beátæ Maríæ Vírginis
               dignum Spíritus Sancti habitáculum præparásti: concéde propítius;
@@ -50,7 +51,7 @@ export default function Page0822() {
               Imaculado Coração, vivamos sempre segundo o vosso Coração. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -63,7 +64,7 @@ export default function Page0822() {
 
           <Text className="em">Sl. 12, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsultábit cor meum in salutári tuo: cantábo Dómino, qui bona
               tríbuit mihi: et psallam nómini Dómini altíssimi.
@@ -93,13 +94,13 @@ export default function Page0822() {
               glorifica o Senhor e o meu espírito se alegra em Deus, meu
               Salvador. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 19, 25-27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -123,13 +124,13 @@ export default function Page0822() {
               discípulo: «Eis a tua Mãe!». E desde aquela hora o discípulo a
               levou consigo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Lc. 1, 46, 49</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsultávit spíritus meus in Deo salutári meo; quia fecit mihi
               magna qui potens est, et sanctum nomen ejus.
@@ -138,11 +139,11 @@ export default function Page0822() {
               O meu espírito alegra-se em Deus, meu Salvador, porque Aquele que
               é omnipotente, e o seu nome é Santo, operou em mim maravilhas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Majestáti tuæ, Dómine, Agnum immaculátum offeréntes, quǽsumus: ut
               corda nostra ignis ille divínus accéndat, cui Cor beátæ Maríæ
@@ -154,13 +155,13 @@ export default function Page0822() {
               divino que abrasou de uma maneira inefável o Coração da B. Virgem
               Maria. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 19, 27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dixit Jesus matri suæ: Múlier, ecce fílius tuus: deinde dixit
               discípulo: Ecce mater tua. Et ex illa hora accépit eam discípulus
@@ -171,11 +172,11 @@ export default function Page0822() {
               ao discípulo: «Eis a tua Mãe». E desde aquela hora o discípulo a
               levou consigo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Divínis refécti munéribus te, Dómine, supplíciter exorámus: ut
               beátæ Maríæ Vírginis intercessióne, cujus immaculáti Cordis
@@ -189,7 +190,7 @@ export default function Page0822() {
               perigos presentes, possamos gozar a alegria da vida eterna. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

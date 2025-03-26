@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad51() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad51() {
 
           <Text className="em">Sl. 55, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Miserére mihi, Dómine, quóniam conculcávit me homo: tota dic
               bellans tribulávit me. <Text className="latin">Ps. ibid., 3</Text>{" "}
@@ -28,11 +29,11 @@ export default function PageQuad51() {
               calcam-me incessantemente com seus pés; pois São muitos os que me
               atacam.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctífica, quǽsumus, Dómine, nostra jejúnia: et cunctárum nobis
               indulgéntiam propítius largíre culpárum. Per Dóminum...
@@ -42,13 +43,13 @@ export default function PageQuad51() {
               benignamente a indulgência de todas nossas culpas. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Jn. 3, 1-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Jonæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Jonas.</Text>
             <Text className="latin">
@@ -94,13 +95,13 @@ export default function PageQuad51() {
               suas obras; viu que se convertiam e afastavam dos maus caminhos; e
               teve piedade do seu povo, o Senhor, nosso Deus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 53,4 & 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, exáudi oratiónem meam: áuribus pércipe verba oris mei.
               <Text className="versicle"> ℣. </Text>
@@ -111,13 +112,13 @@ export default function PageQuad51() {
               boca. Ó Deus, pela glória do vosso nome, salvai-me; livrai-me com
               vosso poder.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 102, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque
               secúndum iniquitátes nostras retríbuas nobis.
@@ -142,13 +143,13 @@ export default function PageQuad51() {
               Salvador. Para glória do vosso Nome, perdoai-nos os nossos
               pecados, Senhor!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 7, 32-39</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -187,13 +188,13 @@ export default function PageQuad51() {
               crê em mim». Isto dizia, referindo-se ao Espírito que haviam de
               receber aqueles que acreditassem n’Ele.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 6, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, convértere, et éripe ánimam meam: salvum me fac propter
               misericórdiam tuam.
@@ -202,11 +203,11 @@ export default function PageQuad51() {
               Volvei-Vos para mim, Senhor, e livrai a minha alma! Pela vossa
               misericórdia, salvai-me!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde nobis, Dómine, Deus noster: ut hæc hóstia salutáris et
               nostrórum fiat purgátio delictórum, et tuæ propitiátio majestátis.
@@ -217,22 +218,22 @@ export default function PageQuad51() {
               dos nossos pecados e nos torne propícios à vossa majestade. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 23, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Dóminus virtútum ipse est Rex glóriæ.</Text>
             <Text className="vernacular">
               O Senhor dos exércitos é o Rei da glória.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacraménti tui, quǽsumus, Dómine, participátio salutáris, et
               purificatiónem nobis tríbuat, et medélam. Per Dóminum...
@@ -242,11 +243,11 @@ export default function PageQuad51() {
               que comparticipámos, nos purifique e sirva de remédio. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -267,7 +268,7 @@ export default function PageQuad51() {
               do corpo, a fim de que, dedicando-se às boas obras, mereça sempre
               ser assistido com vossa protecção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

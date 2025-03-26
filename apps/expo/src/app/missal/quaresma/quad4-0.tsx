@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad40() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad40() {
 
           <Text className="em">Is. 66, 10 & 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lætáre, Jerúsalem: et convéntum fácite, omnes qui dilígitis eam:
               gaudéte cum lætítia, qui in tristítia fuístis: ut exsultétis, et
@@ -31,11 +32,11 @@ export default function PageQuad40() {
               estas palavras que me disseram: Iremos à Casa do Senhor.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, omnípotens Deus: ut, qui ex merito nostræ
               actiónis afflígimur, tuæ grátiæ consolatióne respirémus. Per
@@ -46,13 +47,13 @@ export default function PageQuad40() {
               aflitos com o peso dos nossos pecados, concedei-nos que sejamos
               aliviados com a consolação da vossa graça. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Gl. 4, 22-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.
             </Text>
@@ -98,13 +99,13 @@ export default function PageQuad40() {
               da escrava, mas da mulher livre, em cuja liberdade Cristo nos
               libertou.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 121, 1 & 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.
               <Text className="versicle"> ℣. </Text>Fiat pax in virtúte tua: et
@@ -115,13 +116,13 @@ export default function PageQuad40() {
               Senhor.<Text className="versicle"> ℣. </Text>Que a paz reine
               dentro dos teus muros: e a abundância nos teus palácios.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 124, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui confídunt in Dómino, sicut mons Sion: non commovébitur in
               ætérnum, qui hábitat in Jerúsalem.
@@ -134,13 +135,13 @@ export default function PageQuad40() {
               <Text className="versicle"> ℣. </Text>O Senhor cerca com montanhas
               o seu povo, e fica em torno dele agora e em todos os séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 6, 1-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -200,13 +201,13 @@ export default function PageQuad40() {
               mundo!». Porém Jesus, sabendo que eles queriam aclamá-l’O Rei,
               fugiu só para o monte.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 134, 3 & 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Laudáte Dóminum, quia benígnus est: psállite nómini ejus, quóniam
               suávis est: ómnia, quæcúmque vóluit, fecit in cœlo et in terra.
@@ -216,11 +217,11 @@ export default function PageQuad40() {
               nome, porque Ele é suave. O Senhor criou no céu e na terra tudo
               quanto quis.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifíciis præséntibus, Dómine, quǽsumus, inténde placátus: ut et
               devotióni nostræ profíciant et salúti. Per Dóminum...
@@ -230,13 +231,13 @@ export default function PageQuad40() {
               ele alente a nossa piedade e nos alcance a salvação. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 121,3-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jerúsalem, quæ ædificátur ut cívitas, cujus participátio ejus in
               idípsum: illuc enim ascendérunt tribus, tribus Dómini, ad
@@ -247,11 +248,11 @@ export default function PageQuad40() {
               conjunto. Foi lá que subiram as tribos (as tribos do Senhor) para
               louvar o vosso nome, ó Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da nobis, quǽsumus, miséricors Deus: ut sancta tua, quibus
               incessánter explémur, sincéris tractémus obséquiis, et fidéli
@@ -263,7 +264,7 @@ export default function PageQuad40() {
               saciados, e de os recebermos sempre com espírito de fé. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

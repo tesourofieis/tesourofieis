@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad56() {
   return (
@@ -21,7 +22,7 @@ export default function PageQuad56() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Profíciat, quǽsumus, Dómine, plebs tibi dicáta piæ devotiónis
               afféctu: ut sacris actiónibus erudíta, quanto majestáti tuæ fit
@@ -34,13 +35,13 @@ export default function PageQuad56() {
               mais se tornar agradável à vossa divina majestade. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Jr. 18, 18-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Jeremíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Jeremias.</Text>
             <Text className="latin">
@@ -85,13 +86,13 @@ export default function PageQuad56() {
               fiquem esmagados na vossa presença; e que no dia da vossa
               indignação sejam tratados sem clemência, ó Senhor, nosso Deus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 12, 10-36</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -193,11 +194,11 @@ export default function PageQuad56() {
               Enquanto tendes luz, acreditai na luz, a fim de que sejais filhos
               da luz». Ditas estas coisas, Jesus retirou-se e escondeu-se deles.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               A cunctis nos, quǽsumus, Dómine, reátibus et perículis propitiátus
               absólve: quos tanti mystérii tríbuis esse consórtes. Per
@@ -208,11 +209,11 @@ export default function PageQuad56() {
               solene mystério, concedei-nos o perdão de todas nossas culpas, Vos
               rogamos, e livrai-nos de todos os perigos. Por...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Divíni múneris largitáte satiáti, quǽsumus, Dómine, Deus noster:
               ut hujus semper participatióne vivámus. Per Dóminum...
@@ -222,11 +223,11 @@ export default function PageQuad56() {
               nosso Deus, permiti que sejamos aviventados sempre que dele
               comparticiparmos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -248,7 +249,7 @@ export default function PageQuad56() {
               a consolação, que acaba de alcançar, lhe sirva para conseguir os
               bens futuros. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

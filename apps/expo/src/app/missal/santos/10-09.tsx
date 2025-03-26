@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1009() {
@@ -15,7 +16,7 @@ export default function Page1009() {
 
           <Text className="em">Ecl. 42, 15-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In sermónibus Dómini ópera ejus: sol illúminans per ómnia
               respéxit, et glória Dómini plenum est opus ejus.{" "}
@@ -31,11 +32,11 @@ export default function Page1009() {
               cântico novo: cantai ao Senhor, ó habitantes de toda a terra.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Joánnem Confessórem tuum ad fidem in géntibus
               propagándam mirabíliter excitáre dignátus es, ac per eum in
@@ -51,13 +52,13 @@ export default function Page1009() {
               aproveitem os seus conselhos que alcancemos os prémios eternos.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Cor. 4, 1-6 & 15-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beati Pauli Apóstoli ad Corinthios.
             </Text>
@@ -113,13 +114,13 @@ export default function Page1009() {
               coisas que se vêem são passageiras, e as que se não vêem são
               eternas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 72, 21; 68, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Inflammátum est cor meum, et renes mei commutáti sunt: zelus domus
               tuæ comédit me.<Text className="versicle"> ℣. </Text>
@@ -144,7 +145,7 @@ export default function Page1009() {
               <Text className="vernacular">Sl. 70, 7</Text> Fui considerado por
               muitos corno um prodígio: tu és um poderoso auxiliar. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -157,7 +158,7 @@ export default function Page1009() {
 
           <Text className="em">Col. 1, 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Christi factus sum ego miníster secúndum dispensatiónem Dei, quæ
               data est mihi, ut ímpleam verbum Dómini.
@@ -166,11 +167,11 @@ export default function Page1009() {
               Eu fui constituído ministro de Cristo, segundo o cargo que Deus me
               deu junto de vós, para que se cumpra a palavra do Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, oblatiónem mundam salutáris hóstiæ: et præsta;
               ut, intercedénte beáto Joánne Confessóre tuo, úbique géntium
@@ -182,13 +183,13 @@ export default function Page1009() {
               oferecida constantemente em todos os povos da terra. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Fl. 3, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quæ mihi fúerunt lucra, hæc arbitrátus sum propter Christum
               detriménta.
@@ -197,11 +198,11 @@ export default function Page1009() {
               Aquelas coisas que reputava como lucro, considerei-as depois, por
               amor de Cristo, como prejudiciais.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pretiósi córporis, et sánguinis tui sacris refécti mystériis,
               Dómine, adprecámur: ut beáti Joánnis Confessóris tui exémplo,
@@ -215,7 +216,7 @@ export default function Page1009() {
               ele acreditou e praticar com nossas obras o que ele ensinou. Ó
               Vós, que...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

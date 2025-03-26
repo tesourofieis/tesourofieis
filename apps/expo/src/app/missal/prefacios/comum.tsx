@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageComum() {
   return (
@@ -16,7 +17,7 @@ export default function PageComum() {
             semana.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias agere: Dómine sancte, Pater omnípotens, ætérne
@@ -36,7 +37,7 @@ export default function PageComum() {
               louvor. Dignai-Vos permitir, Vos imploramos, que as nossas vozes
               suplicantes se unam às deles, dizendo:
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0815() {
   return (
@@ -16,7 +17,7 @@ export default function Page0815() {
 
           <Text className="em">Ap. 12, 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Signum magnum appáruit in cœlo: múlier amicta sole, et luna sub
               pédibus ejus, et in cápite ejus coróna stellárum duódecim.{" "}
@@ -32,11 +33,11 @@ export default function Page0815() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui Immaculátam Vírginem Maríam, Fílii
               tui genitrícem, córpore et ánima ad cœléstem glóriam assumpsísti:
@@ -50,13 +51,13 @@ export default function Page0815() {
               nosso espírito os dons celestiais, mereçamos tornar-nos
               participantes da mesma glória. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Jdt. 13, 22-25; 15, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Judith.</Text>
             <Text className="vernacular">Lição do Livro de Judite.</Text>
             <Text className="latin">
@@ -84,13 +85,13 @@ export default function Page0815() {
               a glória de Jerusalém, a alegria de Israel e a honra do nosso
               povo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 11-12 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Audi, fília, et vide, et inclína aurem tuam, et concupíscit rex
               decórem tuum.<Text className="versicle"> ℣. </Text>Omnis glória
@@ -111,13 +112,13 @@ export default function Page0815() {
               Aleluia, aleluia. Virgem Maria foi elevada ao céu em corpo e alma:
               alegra-se o exército dos Anjos. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 1, 41-50</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -154,13 +155,13 @@ export default function Page0815() {
               maravilhas, e a sua misericórdia multiplicar-se-á de geração em
               geração sobre os que O temem».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Gn. 3, 15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Inimicítias ponam inter te et mulíerem, et semen tuum et semen
               illíus.
@@ -169,11 +170,11 @@ export default function Page0815() {
               Porei inimizades entre ti e a Mulher, e entre a tua prole e a sua
               Prole.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ascéndat ad te, Dómine, nostræ devotiónis oblátio, et, beatíssima
               Vírgine María in cœlum assumpta intercedénte, corda nostra,
@@ -185,13 +186,13 @@ export default function Page0815() {
               alma, permiti que, abrasados nossos corações no fogo da caridade,
               continuamente por Vós aspirem. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 1, 48-49</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátam me dicent omnes generatiónes, quia fecit mihi magna qui
               potens est.
@@ -200,11 +201,11 @@ export default function Page0815() {
               Chamar-me-ão Bem-aventurada todas as gerações, pois Aquele, que é
               omnipotente, operou em mim maravilhas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumptis, Dómine, salutáribus sacraméntis: da, quǽsumus; ut,
               méritis et intercessióne beátæ Vírginis Maríæ in cœlum assúmptæ,
@@ -216,7 +217,7 @@ export default function Page0815() {
               Bem-aventurada Virgem Maria, elevada ao céu em corpo e alma,
               sejamos conduzidos à glória da ressurreição. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

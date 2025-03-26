@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0531() {
   return (
@@ -12,7 +13,7 @@ export default function Page0531() {
 
           <Text className="h3">Intróito</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
               beátæ Maríæ Vírginis Reginæ: de cujus solemnitáte gaudent Angeli,
@@ -29,11 +30,11 @@ export default function Page0531() {
               coração reboa um belo discurso: Ao Rei dedico este meu cântico.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde nobis, quǽsumus, Dómine: ut, qui solemnitátem beátæ Maríæ
               Vírginis Regínæ nostræ celebrámus; ejus múniti præsídio, pacem in
@@ -45,13 +46,13 @@ export default function Page0531() {
               seu auxílio, mereçamos alcançar a paz no presente e a glória no
               futuro. Por nosso Senhor Jesus Cristo...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ecl. 24: 5; 7; 9-11, 30-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -72,9 +73,9 @@ export default function Page0531() {
               for orientado, não pecará; os que me tornarem conhecida, possuirão
               a vida eterna.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Beáta es,
               Virgo María, quæ sub cruce Dómini sustinuísti. Allelúja.
@@ -87,7 +88,7 @@ export default function Page0531() {
               Cruz do Senhor, aleluia.<Text className="versicle"> ℣. </Text>
               Agora, com Ele reinais eternamente. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Fora do Tempo Pascal, omite-se este Verso e diz-se o:
@@ -97,7 +98,7 @@ export default function Page0531() {
 
           <Text className="em">Ap. 19, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ipse habet in vestiménto et in femóre suo scriptum: Rex regum, et
               Dóminus dominántium.<Text className="versicle"> ℣. </Text>
@@ -120,13 +121,13 @@ export default function Page0531() {
               Rainha de Misericórdia, protegei-nos contra o inimigo e
               recebei-nos na hora da morte. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 1, 26-33</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -162,11 +163,11 @@ export default function Page0531() {
               Deus lhe dará o trono de David, seu pai; reinará eternamente na
               casa de Jacob; e o seu reino não terá fim.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Regáli ex progénie María exórta refúlget: cujus précibus nos
               adjuvári, mente et spíritu devotíssime póscimus. (T.P. Allelúja.)
@@ -176,11 +177,11 @@ export default function Page0531() {
               como piedosíssimamente suplicamos com inteligência e entusiasmo.
               (T. P. Aleluia).
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accipe, quǽsumus, Dómine, múnera lætántis Ecclésiæ, et beátæ
               Vírginis Maríæ Regínæ suffragántibus méritis, ad nostræ salútis
@@ -192,11 +193,11 @@ export default function Page0531() {
               eles sejam proveitoso auxílio para a nossa salvação. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Regína mundi digníssima, María Virgo perpétua, intercéde pro
               nostra pace et salúte, quæ genuísti Christum Dóminum, Salvatórem
@@ -207,11 +208,11 @@ export default function Page0531() {
               Cristo, Senhor, Salvador de todos, intercedei pela nossa paz e
               salvação. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Celebrátis solémniis, Dómine, quæ pro sanctæ Maríæ, Regínæ nostræ,
               festivitáte perégimus: ejus, quǽsumus, nobis intercessióne fiant
@@ -224,7 +225,7 @@ export default function Page0531() {
               nos sejam salutares, visto que com exultação em sua honra foram
               realizadas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

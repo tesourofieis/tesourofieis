@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import PaiNosso from "./../devocionario/oracoes/painosso";
 
 export default function PageBaptismo() {
@@ -20,7 +21,7 @@ export default function PageBaptismo() {
             a que devem responder o Padrinho e a Madrinha.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Sac.</Text>{" "}
               <Text className="text-red-500">N.</Text> Quid petis ab Ecclésia
@@ -62,7 +63,7 @@ export default function PageBaptismo() {
               teu Deus, com todo teu coração, com toda tua alma e com toda tua
               inteligência, e amarás o próximo como a ti próprio.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h1">Exorcismos e Ritos preparatórios</Text>
 
@@ -72,7 +73,7 @@ export default function PageBaptismo() {
             O Sacerdote sopra levemente três vezes sobre a cabeça do Neófito:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exi ab eo (ea), immúnde spíritus, et da locum Spirítui Sancto
               Paráclito.
@@ -81,7 +82,7 @@ export default function PageBaptismo() {
               Espírito impuro, sai deste (ou desta) e dá o teu lugar ao Espírito
               Santo Paráclito!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Assinalação da Cruz no peito</Text>
 
@@ -89,7 +90,7 @@ export default function PageBaptismo() {
             O Sacerdote fará o sinal da Cruz na testa e no peito do Neófito:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accipe signum Crucis tam in fron{" "}
               <Text className="cross"> ✠ </Text> te, quam in cor{" "}
@@ -104,11 +105,11 @@ export default function PageBaptismo() {
               divinos; e procede de tal modo que desde já possas ser um templo
               de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">O Sacerdote continua:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -140,7 +141,7 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Imposição da mão</Text>
 
@@ -148,7 +149,7 @@ export default function PageBaptismo() {
             O Sacerdote coloca a sua mão direita sobre a cabeça do Neófito:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -187,11 +188,11 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Bênção do sal</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exorcízo te, creatúra salis, in nómine Dei{" "}
               <Text className="cross"> ✠ </Text> Patris omnipoténtis, et in
@@ -236,13 +237,13 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             O Sacerdote introduz alguns grãos deste Sal na boca do baptizado:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">N.</Text> Accipe sal sapiéntiæ:
               propitiátio sit tibi in vitam ætérnam.
@@ -269,13 +270,13 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Dada a paz, o Sacerdote recita a seguinte oração:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -313,7 +314,7 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Abjuração</Text>
 
@@ -321,7 +322,7 @@ export default function PageBaptismo() {
             O Sacerdote continua, em tom imperativo:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exorcízo te, immúnde spíritus, in nómine Patris{" "}
               <Text className="cross"> ✠ </Text>, et Fílii{" "}
@@ -365,7 +366,7 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Assinalação da Cruz na Testa</Text>
 
@@ -373,7 +374,7 @@ export default function PageBaptismo() {
             O Sacerdote impõe o sinal da Cruz na testa do Neófito:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Et hoc signum sanctæ Cru <Text className="cross"> ✠ </Text> cis,
               quod nos fronti ejus damus, tu, maledícte diábole, numquam áudeas
@@ -390,7 +391,7 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Imposição da mão</Text>
 
@@ -398,7 +399,7 @@ export default function PageBaptismo() {
             O Sacerdote impõe sobre a cabeça do Neófito a sua mão direita:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -432,7 +433,7 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h1">Entrada no Templo</Text>
 
@@ -445,7 +446,7 @@ export default function PageBaptismo() {
 
           <Text className="aside">Entretanto, o Sacerdote diz:</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">N.</Text> Ingrédere in templum Dei, ut
               hábeas partem cum Christo in vitam ætérnam.
@@ -460,7 +461,7 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h1">Iniciação na fé</Text>
 
@@ -471,7 +472,7 @@ export default function PageBaptismo() {
 
           <Text className="h2">Creio em Deus</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Credo in Deum, Patrem omnipoténtem, Creatórem cæli et terræ. Et in
               Jesum Christum, Fílium ejus únicum, Dóminum nostrum: qui concéptus
@@ -494,7 +495,7 @@ export default function PageBaptismo() {
               Santa Igreja Católica; na comunicação dos Santos; na remissão dos
               pecados; na ressurreição da carne; na vida eterna. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Pai-Nosso</Text>
 
@@ -504,7 +505,7 @@ export default function PageBaptismo() {
 
           <Text className="h1">Último Exorcismo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exorcízo te, omnis spíritus immúnde, in nómine Dei{" "}
               <Text className="cross"> ✠ </Text> Patris omnipoténtis, et in
@@ -535,7 +536,7 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Insalivação</Text>
 
@@ -543,16 +544,16 @@ export default function PageBaptismo() {
             O Sacerdote com a saliva da sua boca toca nas orelhas do Neófito:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Ephpheta, quod est, Adaperire.</Text>
             <Text className="vernacular">Éfeta, isto é: Abre-te.</Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Imediatamente, tocando no nariz do Neófito, acrescenta:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In odórem suavitátis. Tu autem effugáre, diábole; appropinquábit
               enim judícium Dei.
@@ -561,7 +562,7 @@ export default function PageBaptismo() {
               Em odor de suavidade. Tu, porém, ó demónio, foge, porque se
               aproxima o reino de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h1">Renúncia a Satanás</Text>
 
@@ -570,7 +571,7 @@ export default function PageBaptismo() {
             clara e firme: são feitas no singular, porque se referem ao Neófito.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Sac.</Text>{" "}
               <Text className="text-red-500">N.</Text> Abrenúntias sátanæ?
@@ -609,7 +610,7 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Renuncio!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h1">Unção Catecumenal</Text>
 
@@ -619,7 +620,7 @@ export default function PageBaptismo() {
             descobertos o peito e depois as espáduas, ao pé do pescoço.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Sac.</Text> Ego te línio{" "}
               <Text className="cross"> ✠ </Text> óleo salútis in Christo Jesu
@@ -636,7 +637,7 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Chegado a este ponto, o Sacerdote depõe a Estola de cor violácea e
@@ -651,7 +652,7 @@ export default function PageBaptismo() {
             responder com convicção e firmeza:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Sac.</Text>{" "}
               <Text className="text-red-500">N.</Text> Credis in Deum Patrem
@@ -698,7 +699,7 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Creio.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h1">Ablução Baptismal</Text>
 
@@ -706,7 +707,7 @@ export default function PageBaptismo() {
             Terminada a Confissão da Fé, o Sacerdote interroga:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Sac.</Text>{" "}
               <Text className="text-red-500">N.</Text> Vis baptizári?
@@ -721,7 +722,7 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Quero.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             O Padrinho (ou a Madrinha) ou ambos seguram o Neófito e sustentam-no
@@ -729,7 +730,7 @@ export default function PageBaptismo() {
             o Neófito, a Madrinha coloca a mão direita nas costas do Neófito.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Sac.</Text>{" "}
               <Text className="text-red-500">N.</Text> Ego te baptízo in nómine
@@ -744,14 +745,14 @@ export default function PageBaptismo() {
               <Text className="cross"> ✠ </Text> e do Espírito{" "}
               <Text className="cross"> ✠ </Text> Santo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Se, porém, se duvidar se o Neófito tinha sido já baptizado,
             usar-se-á a seguinte forma:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Sac.</Text>{" "}
               <Text className="text-red-500">N.</Text> Si non es baptizátus
@@ -767,7 +768,7 @@ export default function PageBaptismo() {
               do Fi <Text className="cross"> ✠ </Text> lho, e do Espírito{" "}
               <Text className="cross"> ✠ </Text> Santo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h1">Unção Crismal</Text>
 
@@ -775,7 +776,7 @@ export default function PageBaptismo() {
             O Sacerdote dirige a Deus a seguinte súplica:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -814,11 +815,11 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Veste Branca</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Sac.</Text> Accipe vestem cándidam, quam
               pérferas immaculátam ante tribúnal Dómini nostri Jesu Christi, ut
@@ -835,11 +836,11 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Vela Acesa</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Sac.</Text> Accipe lámpadem ardéntem, et
               irreprehensíbilis custódi Baptísmum tuum: serva Dei mandáta, ut,
@@ -860,11 +861,11 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Despedida</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Sac.</Text>{" "}
               <Text className="text-red-500">N.</Text> Vade in pace, et Dóminus
@@ -881,7 +882,7 @@ export default function PageBaptismo() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Lavra-se o Assento do Baptismo, que os Padrinhos assinam, e todos se

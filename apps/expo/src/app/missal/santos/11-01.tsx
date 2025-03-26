@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1101() {
   return (
@@ -12,7 +13,7 @@ export default function Page1101() {
 
           <Text className="h3">Intróito</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
               Sanctórum ómnium: de quorum sollemnitáte gaudent Angeli et
@@ -28,11 +29,11 @@ export default function Page1101() {
               justos; pois é aos que possuem o coração recto que pertence louvar
               o Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotensns sempitérne Deus, qui nos ómnium Sanctórum tuórum
               mérita sub una tribuísti celebritáte venerári: quǽsumus; ut
@@ -46,13 +47,13 @@ export default function Page1101() {
               intercessores, alcancemos cada vez mais a abundância tão desejada
               das vossas graças. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ap. 7, 2-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
             </Text>
@@ -113,13 +114,13 @@ export default function Page1101() {
               sabedoria, acção de graças, honra, soberania e império ao nosso
               Deus em todos os séculos. Amen».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 33, 10 & 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Timéte Dóminum, omnes Sancti ejus: quóniam nihil deest timéntibus
               eum.<Text className="versicle"> ℣. </Text>Inquiréntes autem
@@ -140,13 +141,13 @@ export default function Page1101() {
               <Text className="vernacular">Mt. 11, 28</Text> Vinde a mim, vós,
               todos, que estais aflitos: e Eu vos aliviarei. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 5, 1-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -188,13 +189,13 @@ export default function Page1101() {
               regozijai-vos, então, e exultai de alegria, pois uma copiosa
               recompensa vos está preparada nos céus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sb. 3, 1, 2 & 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justórum ánimæ in manu Dei sunt, et non tanget illos torméntum
               malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in
@@ -205,11 +206,11 @@ export default function Page1101() {
               malícia as não tocará. Aos olhos dos insensatos pareciam quase a
               morrer, todavia, agora, estão na paz, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro
               cunctórum tibi grata sint honóre Justórum, et nobis salutária, te
@@ -221,13 +222,13 @@ export default function Page1101() {
               vossa misericórdia fazei que nos sejam salutares. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 5, 8-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáti mundo corde, quóniam ipsi Deum vidébunt; beáti pacífici,
               quóniam filii Dei vocabúntur: beáti, qui persecutiónem patiúntur
@@ -239,11 +240,11 @@ export default function Page1101() {
               de Deus; bem-aventurados os que sofrem perseguição por amor da
               justiça, porque o reino do céu lhes pertence.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, Dómine, fidélibus pópulis ómnium Sanctórum semper
               veneratióne lætári: et eórum perpétua supplicatióne muníri. Per
@@ -254,7 +255,7 @@ export default function Page1101() {
               sempre com alegria os vossos Santos e sejam sempre protegidos pela
               sua intercessão. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

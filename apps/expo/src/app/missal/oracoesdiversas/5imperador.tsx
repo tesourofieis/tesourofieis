@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page5Imperador() {
   return (
@@ -12,7 +13,7 @@ export default function Page5Imperador() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, regnórum ómnium, et christiáni maxime protéctor impérii: da
               servo tuo imperatóri nostro <Text className="latin">N.</Text>{" "}
@@ -27,11 +28,11 @@ export default function Page5Imperador() {
               sendo príncipe em virtude da vossa instituição, seja sempre
               poderoso em virtude da vossa graça. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, preces et hóstias Ecclésiæ tuæ, pro salúte fámuli
               tui supplicántis: et in protectióne fidélium populórum antiqua
@@ -45,11 +46,11 @@ export default function Page5Imperador() {
               que, sendo vencidos os inimigos da paz, a liberdade cristã permita
               que Vos possam servir com segurança. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui ad prædicándum ætérni Regis Evangélium, Románum impérium
               præparásti: præténde fámulo tuo imperatóri nostro{" "}
@@ -63,7 +64,7 @@ export default function Page5Imperador() {
               celestiais, para que a paz das igrejas não seja perturbada pela
               tempestade feroz das guerras. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

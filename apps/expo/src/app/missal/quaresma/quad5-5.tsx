@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageQuad55() {
@@ -15,7 +16,7 @@ export default function PageQuad55() {
 
           <Text className="em">Sl. 30, 10, 16 & 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Miserére mihi, Dómine, quóniam tríbulor: líbera me, et éripe me de
               mánibus inimicórum meórum et a persequéntibus me: Dómine, non
@@ -31,11 +32,11 @@ export default function PageQuad55() {
               Senhor, não serei para sempre confundido; livrai-me segundo a
               vossa justiça.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Córdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde:
               ut peccáta nostra castigatióne voluntária cohibéntes, temporáliter
@@ -48,13 +49,13 @@ export default function PageQuad55() {
               nossos pecados, evitemos com estas penas temporais a condenação
               aos castigos eternos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Jr. 17, 13-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Jeremíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Jeremias.</Text>
             <Text className="latin">
@@ -87,13 +88,13 @@ export default function PageQuad55() {
               aproxime o dia da aflição; esmagai-os, sobrecarregando-os com
               males, ó Senhor, nosso Deus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 34, 20 & 22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pacífice loquebántur mihi inimíci mei: et in ira molésti erant
               mihi.<Text className="versicle"> ℣. </Text>Vidísti, Dómine, ne
@@ -104,7 +105,7 @@ export default function PageQuad55() {
               na sua ira meditavam perfídias contra mim. Vós bem o vistes,
               Senhor: não sejais insensível, não Vos afasteis de mim.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
@@ -117,7 +118,7 @@ export default function PageQuad55() {
 
           <Text className="em">Jo. 11, 47-54</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -159,13 +160,13 @@ export default function PageQuad55() {
               Retirara-se para um lugar, perto do deserto, na cidade de Efrem,
               onde permanecia com seus discípulos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 118, 12, 121 & 42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedíctus es, Dómine, doce me justificatiónes tuas: et non tradas
               calumniántibus me supérbis: et respondébo exprobrántibus mihi
@@ -176,11 +177,11 @@ export default function PageQuad55() {
               entregueis àqueles que me perseguem: e eu saberei responder
               àqueles que me insultam.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta nobis, miséricors Deus: ut digne tuis servíre semper
               altáribus mereámur; et eórum perpétua participatióne salvári. Per
@@ -191,13 +192,13 @@ export default function PageQuad55() {
               dignamente os vossos altares, a fim de que, participando
               perpetuamente deles, possamos salvar-nos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 26, 12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ne tradíderis me. Dómine, in animas persequéntium me: quóniam
               insurrexérunt in me testes iníqui, et mentíta est iníquitas sibi.
@@ -207,11 +208,11 @@ export default function PageQuad55() {
               levantam contra mim com testemunhos iníquos; pois a iniquidade
               contradiz-se a si própria.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumpti sacrifícii, Dómine, perpetua nos tuítio non derelínquat: et
               nóxia semper a nobis cuncta depéllat. Per Dóminum...
@@ -221,11 +222,11 @@ export default function PageQuad55() {
               recebido, e que para sempre afaste de nós todos os males. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -247,7 +248,7 @@ export default function PageQuad55() {
               todos os males e Vos sirvamos com a alma tranquila. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

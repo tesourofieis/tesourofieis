@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0520() {
@@ -46,7 +47,7 @@ export default function Page0520() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine Jesu, qui beáto Bernardíno Confessóri tuo exímium sancti
               nóminis tui amórem tribuísti: ejus, quǽsumus, méritis et
@@ -59,7 +60,7 @@ export default function Page0520() {
               infundir em nossas almas pelos seus méritos e intercessão o
               espírito da vossa caridade. Ó Vós, que viveis e...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 

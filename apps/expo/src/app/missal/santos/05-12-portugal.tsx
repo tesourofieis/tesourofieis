@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0512Portugal() {
   return (
@@ -22,7 +23,7 @@ export default function Page0512Portugal() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui inter regáles delicias, et mundi illécebras beátam
               Joánnam Vírginem tuam virtúte constántiæ roborásti: quæsumus; ut,
@@ -36,11 +37,11 @@ export default function Page0512Portugal() {
               desprezem os bens terrenos e aspirem sempre aos celestiais. Por
               nosso Senhor Jesus Cristo...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração Comemoração S. S. Mártires</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Semper nos, Dómine, Mártyrum tuórum Nérei, Achillei, Domitíllæ
               atque Pancrátii fóveat, quǽsumus, beáta sollémnitas: et tuo dignos
@@ -51,11 +52,11 @@ export default function Page0512Portugal() {
               Mártires Néreo, Aquiles, Domitila e Pancrácio nos reanime e nos
               torne dignos de Vos servirmos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta Comemoração S. S. Mártires</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctórum Martyrum tuórum, quǽsumus. Dómine, Nérei, Achíllei,
               Domitíllæ atque Pancrátii sit tibi grata conféssio: quæ et múnera
@@ -68,11 +69,11 @@ export default function Page0512Portugal() {
               ela Vos disponha a aceitardes as nossas ofertas e elas nos tornem
               sempre merecedores da vossa indulgência. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio Comemoração S. S. Mártires</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, Dómine: ut beatórum Mártyrum tuórum Nérei, Achíllei,
               Domitíllæ atque Pancrátii deprecatiónibus, sacraménta sancta, quæ
@@ -85,7 +86,7 @@ export default function Page0512Portugal() {
               recebemos, Vos tornem cada vez mais propício para connosco. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

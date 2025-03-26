@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0729() {
   return (
@@ -51,7 +52,7 @@ export default function Page0729() {
 
           <Text className="em">Lc. 10, 38-42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -83,13 +84,13 @@ export default function Page0729() {
               coisas, quando na verdade só uma é necessária. Maria escolheu a
               melhor parte, a qual lhe não será tirada».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Comemoração dos S. S. Mártires</Text>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, Dómine: ut, sicut pópulus christiánus Mártyrum
               tuórum Felícis, Simplícii, Faustíni et Beatrícis temporáli
@@ -103,11 +104,11 @@ export default function Page0729() {
               alegrar-se na eternidade, e alcance na realidade mais tarde o que
               agora honra com seus votos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, pro sanctórum Mártyrum tuórum Felícis,
               Simplícii, Faustíni et Beatrícis commemoratióne deférimus:
@@ -120,11 +121,11 @@ export default function Page0729() {
               humildemente que por eles nos concedais simultaneamente o perdão e
               a salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut sanctórum Martyrum tuórum
               Felícis, Simplícii, Faustíni et Beatrícis cœléstibus mýsteriis
@@ -137,7 +138,7 @@ export default function Page0729() {
               celebramos com estes celestiais mystérios, nos obtenha o perdão da
               vossa misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

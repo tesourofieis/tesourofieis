@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0119Portugal() {
@@ -24,7 +25,7 @@ export default function Page0119Portugal() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beáti Gundisálvi Confessóris tui mentem sancti nóminis
               tui amóre mirabíliter inflammásti: concéde, quæsumus; ut illius
@@ -37,13 +38,13 @@ export default function Page0119Portugal() {
               seguindo os seus vestígios, pensemos sempre em Vós e com fervorosa
               solicitude façamos o que Vos seja agradável. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">
             Oração Comemoração S. S. Mário e Outros Mártires
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi, Dómine, pópulum tuum cum Sanctórum tuórum patrocínio
               supplicántem: ut et temporális vitæ nos tríbuas pace gaudére; et
@@ -55,11 +56,11 @@ export default function Page0119Portugal() {
               vossa paz na vida presente e alcancemos o vosso auxílio na vida
               eterna...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração Comemoração S. Canuto</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui ad illustrándam Ecclésiam tuam beátum Canútum regem
               martýrii palma et gloriósis miráculis decoráre dignátus es:
@@ -74,7 +75,7 @@ export default function Page0119Portugal() {
               Senhor, assim também nós, segundo os seus vestígios, mereçamos
               alcançar os sempiternos gozos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -87,7 +88,7 @@ export default function Page0119Portugal() {
 
           <Text className="em">Sl. 20, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in
               cápite ejus corónam de lápide pretióso.
@@ -112,7 +113,7 @@ export default function Page0119Portugal() {
               esperanças; e todos aqueles cujo coração é recto serão
               glorificados. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o Verso e diz-se:
@@ -122,7 +123,7 @@ export default function Page0119Portugal() {
 
           <Text className="em">Sl. 111, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
               <Text className="versicle"> ℣. </Text>
@@ -138,7 +139,7 @@ export default function Page0119Portugal() {
               haverá glória e riqueza: e a justiça subsistirá em todos os
               séculos dos séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -151,7 +152,7 @@ export default function Page0119Portugal() {
 
           <Text className="em">Sl. 91, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus ut palma florébit, sicut cedrus, quæ in Líbano est,
               multiplicábitur.
@@ -160,13 +161,13 @@ export default function Page0119Portugal() {
               O justo florescerá, como a palmeira, e multiplicar-se-á, como o
               cedro do Líbano.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">
             Secreta Comemoração S. S. Mário e Outros Mártires
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Preces, Dómine, tuórum réspice oblationésque fidélium: ut et tibi
               gratæ sint pro tuórum festivitáte Sanctórum, et nobis cónferant
@@ -177,13 +178,13 @@ export default function Page0119Portugal() {
               que Vos sejam agradáveis nesta festa dos vossos Santos e nos
               alcancem o auxílio da vossa bondade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
           <Text className="em">S. Canuto</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accépta sit in conspéctu tuo, Dómine, nostra devótio: et ejus
               nobis fiat supplicatióne salutáris, pro cujus sollemnitáte
@@ -194,13 +195,13 @@ export default function Page0119Portugal() {
               nos alcance a salvação, por intercessão das preces daquele em cuja
               festa Vo-la apresentamos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 19, 91, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Amen dico vobis, quod vos, qui reliquístis ómnia, et secúti estis
               me, céntuplum accipiétis, et vitam ætérnam possidébitis.
@@ -209,13 +210,13 @@ export default function Page0119Portugal() {
               Em verdade vos digo: vós, que abandonastes tudo e me seguistes,
               recebereis o cêntuplo e possuireis a vida eterna.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">
             Postcomúnio Comemoração S. S. Mário e Outros Mártires
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctórum tuórum, Dómine, intercessióne placátus: præsta,
               quǽsumus; ut, quæ temporáli celebrámus actióne, perpétua
@@ -226,11 +227,11 @@ export default function Page0119Portugal() {
               permiti, Vos rogamos, que estes sacrifícios, que aogra celebrámos,
               nos sirvam de auxílio para a salvação eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio Comemoração S. Canuto</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus
               noster: ut, cujus exséquimur cultum, intercedénte beáto Canúto
@@ -242,7 +243,7 @@ export default function Page0119Portugal() {
               Santos, assim também tenhamos na eternidade a felicidade de os
               contemplar. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

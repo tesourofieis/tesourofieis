@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageNatal() {
   return (
@@ -18,7 +19,7 @@ export default function PageNatal() {
             Sacramento.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
@@ -39,7 +40,7 @@ export default function PageNatal() {
               milícia do exército celestial, cantamos o hino da vossa glória,
               dizendo incessantemente:
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

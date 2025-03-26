@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0121() {
   return (
@@ -59,7 +60,7 @@ export default function Page0121() {
 
           <Text className="em">Sl. 118, 95-96</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Me exspectavérunt peccatores, ut pérderent me: testimónia tua,
               Dómine, intelléxi: omnis consummatiónis vidi finem: latum mandátum
@@ -75,11 +76,11 @@ export default function Page0121() {
               os que são imaculados em seus caminhos e que cumprem a Lei do
               Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnipotens sempitérne Deus, qui infírma mundi éligis, ut fórtia
               quæque confúndas: concéde propítius; ut, qui beátæ Agnétis
@@ -92,13 +93,13 @@ export default function Page0121() {
               solenidade da B. Inês, vossa Virgem e Mártir, gozemos a sua
               protecção junto do vosso trono. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in
               ætérnum.<Text className="versicle"> ℣. </Text>
@@ -126,11 +127,11 @@ export default function Page0121() {
               meia-noite ouviu-se um clamor dizer: «Eis que chega o esposo: ide
               ao encontro de Cristo Senhor». Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias, Dómine, quas tibi offérimus, propítius súscipe: et,
               intercedénte beáta Agnéte Vírgine et Mártyre tua, víncula
@@ -141,13 +142,13 @@ export default function Page0121() {
               intercessão da B. Inês, vossa Virgem e Mártir, dignai-Vos quebrar
               as cadeias dos nossos pecados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 25, 4 & 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quinque prudéntes vírgines accepérunt óleum in vasis suis cum
               lampádibus: média autem nocte clamor factus est: Ecce, sponsus
@@ -158,11 +159,11 @@ export default function Page0121() {
               lâmpadas. À meia-noite ouviu-se um clamor dizer: «Eis o esposo que
               chega: ide ao encontro de Cristo Senhor».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti cibo potúque cœlésti. Deus noster, te súpplices exorámus:
               ut, in cujus hæc commemoratióne percépimus, ejus muniámur et
@@ -173,7 +174,7 @@ export default function Page0121() {
               suplicamos, fazei que aquela em cuja memória os recebemos nos
               proteja com suas preces. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

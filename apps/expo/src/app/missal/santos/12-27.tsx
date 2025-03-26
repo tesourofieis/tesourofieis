@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1227() {
   return (
@@ -16,7 +17,7 @@ export default function Page1227() {
 
           <Text className="em">Ecl. 15, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu
               sapiéntiæ et intelléctus: stolam glóriæ índuit eum.{" "}
@@ -31,11 +32,11 @@ export default function Page1227() {
               louvar o Senhor: e cantar hinos em honra do vosso nome, ó
               Altíssimo!<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecclésiam tuam, Dómine, benígnus illústra: ut, beáti Joánnis
               Apóstoli tui et Evangelístæ illumináta doctrínis, ad dona
@@ -46,13 +47,13 @@ export default function Page1227() {
               os ensinos do B. João, vosso Apóstolo e Evangelista, alcance os
               bens eternos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ecl. 15, 1-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Lectio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -79,13 +80,13 @@ export default function Page1227() {
               glória, e o Senhor, nosso Deus, o tornará herdeiro dum nome
               eterno.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Jo. 21, 23 & 19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exiit sermo inter fratres, quod discípulus ille non móritur: et
               non dixit Jesus: Non móritur.
@@ -110,13 +111,13 @@ export default function Page1227() {
               discípulo que dá testemunho destas coisas; e sabemos que seu
               testemunho é verdadeiro. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 21, 19-24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joannem.
@@ -151,13 +152,13 @@ export default function Page1227() {
               discípulo que dá testemunho destas coisas e as escreveu; e sabemos
               que seu testemunho é verdadeiro.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 91, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus ut palma florébit: sicut cedrus, quæ in Líbano est,
               mulliplicábitur.
@@ -166,11 +167,11 @@ export default function Page1227() {
               O justo florescerá, como a palmeira, e crescerá, como o cedro do
               Líbano.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, múnera, quæ in ejus tibi sollemnitáte deférimus,
               cujus nos confídimus patrocínio libcrári. Per Dóminum...
@@ -180,13 +181,13 @@ export default function Page1227() {
               daquele com o auxílio do qual esperamos ser livres do mal. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 21, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exiit sermo inter fratres, quod discípulus ille non móritur: et
               non dixit Jesus: Non móritur; sed: Sic eum volo manére, donec
@@ -197,11 +198,11 @@ export default function Page1227() {
               morrer. Ora Jesus não havia dito: «Não morrerá». Mas disse: «Quero
               que ele assim permaneça até que Eu venha».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti cibo potúque cœlésti, Deus noster, te súpplices
               deprecámur: ut, in cujus hæc commemoratióne percépimus, ejus
@@ -213,7 +214,7 @@ export default function Page1227() {
               daquele em cuja memória recebemos este augusto sacramento. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

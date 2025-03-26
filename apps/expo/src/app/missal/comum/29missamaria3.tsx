@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page29Missamaria3() {
   return (
@@ -17,7 +18,7 @@ export default function Page29Missamaria3() {
 
           <Text className="em">Sedulius</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salve, sancta Parens, eníxa puérpera Regem: qui cœlum terrámque
               regit in sǽcula sæculórum.{" "}
@@ -32,11 +33,11 @@ export default function Page29Missamaria3() {
               uma excelente palavra: Consagro ao Rei as minhas obras!
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpetua mentis
               et corporis sanitáte gaudére: et, gloriosa beátæ Maríæ semper
@@ -50,13 +51,13 @@ export default function Page29Missamaria3() {
               tempos presentes e alcancemos o gozo da eterna alegria. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ecl. 24, 14-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -75,11 +76,11 @@ export default function Page29Missamaria3() {
               em um povo glorioso, da parte do meu Deus e da sua herança, e
               permaneço na companhia dos santos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris
               invénia es Mater Salvatóris.<Text className="versicle"> ℣. </Text>
@@ -106,7 +107,7 @@ export default function Page29Missamaria3() {
               Deus a paz, conciliando na sua pessoa a nossa baixeza com sua
               suprema grandeza! Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -114,7 +115,7 @@ export default function Page29Missamaria3() {
 
           <Text className="h3">Trato</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gaude, María Virgo, cunctas hǽreses sola interemísti.
               <Text className="versicle"> ℣. </Text>Quæ Gabriélis Archángeli
@@ -132,13 +133,13 @@ export default function Page29Missamaria3() {
               Imaculada.<Text className="versicle"> ℣. </Text>
               Intercedei por nós, ó Mãe de Deus!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 11, 27-28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -160,11 +161,11 @@ export default function Page29Missamaria3() {
               amamentaram». E Jesus respondeu, dizendo: «Bem-aventurados, antes,
               aqueles que ouvem a palavra de Deus e a cumprem.»
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Felix namque es, sacra Virgo María, et omni laude digníssima: quia
               ex te ortus est sol justítiæ, Christus, Deus noster.
@@ -173,11 +174,11 @@ export default function Page29Missamaria3() {
               Sois feliz e digna de todos os louvores, ó Santa Virgem Maria,
               pois de vós nasceu o «sol da justiça», Cristo, Senhor nosso.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis
               intercessióne, ad perpétuam atque præséntem hæc oblátio nobis
@@ -188,11 +189,11 @@ export default function Page29Missamaria3() {
               sempre Virgem, permiti que esta oblação nos assegure agora e
               sempre a prosperidade e a paz. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáta viscera Maríæ Vírginis, quæ portavérunt ætérni Patris
               Fílium.
@@ -201,11 +202,11 @@ export default function Page29Missamaria3() {
               Bem-aventuradas as entranhas da Virgem Maria, que trouxeram
               encerrado o Filho do Pai Eterno.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumptis, Dómine, salútis nostræ subsídiis: da, quǽsumus, beátæ
               Maríæ semper Vírginis patrocíniis nos ubíque prótegi; in cujus
@@ -217,7 +218,7 @@ export default function Page29Missamaria3() {
               o patrocínio da B. Maria, sempre Virgem, em cuja honra oferecemos
               à vossa majestade este sacrifício. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuaresma() {
   return (
@@ -15,7 +16,7 @@ export default function PageQuaresma() {
             Paixão, inclusivamente.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
@@ -37,7 +38,7 @@ export default function PageQuaresma() {
               associam em comum louvor. Dignai-Vos permitir, Senhor, que as
               nossas vozes suplicantes se unam às deles, dizendo:
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

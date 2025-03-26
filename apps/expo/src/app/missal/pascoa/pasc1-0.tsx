@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc10() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc10() {
 
           <Text className="em">1 Pe. 2, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quasi modo géniti infántes, allelúja: rationabiles, sine dolo lac
               concupíscite, allelúja, allelúja allelúja.{" "}
@@ -30,11 +31,11 @@ export default function PagePasc10() {
               em honra de Deus de Jacob.<Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui paschália festa
               perégimus, hæc, te largiénte, móribus et vita teneámus. Per
@@ -46,13 +47,13 @@ export default function PagePasc10() {
               espírito, tanto nos nossos costumes, como na nossa vida. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Jo. 5, 4-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Joannis Apóstoli.
             </Text>
@@ -88,9 +89,9 @@ export default function PagePasc10() {
               seu Filho. Aquele que crê no Filho de Deus tem este testemunho de
               Deus em si mesmo.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Matth. 28, 7</Text> In die resurrectiónis
@@ -109,13 +110,13 @@ export default function PagePasc10() {
               as portas fechadas, Jesus veio e, estando no meio dos seus
               discípulos, disse: «A paz seja convosco», aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 20, 19-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -179,13 +180,13 @@ export default function PagePasc10() {
               acrediteis que Jesus Cristo é Filho de Deus; e, acreditando,
               alcanceis a vida eterna em seu nome.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Mt. 28, 2, 5 & 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Angelus Dómini descéndit de cœlo, et dixit muliéribus: Quem
               quǽritis, surréxit, sicut dixit, allelúja.
@@ -194,11 +195,11 @@ export default function PagePasc10() {
               Um anjo do Senhor desceu do céu e disse às mulheres: «Aquele a
               quem procurais ressuscitou, como havia anunciado», aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Suscipe múnera, Dómine, quǽsumus, exsultántis Ecclésiæ: et, cui
               causam tanti gáudii præstitísti, perpétuæ fructum concéde lætítiæ.
@@ -210,13 +211,13 @@ export default function PagePasc10() {
               graça de tão grande gozo; concedei-lhe, também o fruto da eterna
               alegria. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 20, 27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mitte manum tuam, et cognósce loca clavórum, allelúja: et noli
               esse incrédulus, sed fidélis, allelúja, allelúja.
@@ -225,11 +226,11 @@ export default function PagePasc10() {
               Mete aqui o teu dedo e toca no lugar dos cravos, aleluia; não
               sejas incrédulo, mas fiel, aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, Dómine, Deus noster: ut sacrosáncta mystéria, quæ pro
               reparatiónis nostræ munímine contulísti; et præsens nobis remédium
@@ -240,7 +241,7 @@ export default function PagePasc10() {
               mystérios, que instituístes para alcançarmos a regeneração, sejam
               nosso remédio salutar no presente e no futuro. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

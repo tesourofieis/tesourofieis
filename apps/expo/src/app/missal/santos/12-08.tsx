@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1208() {
   return (
@@ -43,7 +44,7 @@ export default function Page1208() {
 
           <Text className="em">Is. 61, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gaudens gaudébo in Dómino, et exsultábit ánima mea in Deo meo:
               quia índuit me vestiméntis salútis: et induménto justítiæ
@@ -61,11 +62,11 @@ export default function Page1208() {
               zombassem de mim.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui per immaculátam Vírginis Conceptiónem dignum Fílio tuo
               habitáculum præparásti: quǽsumus; ut, qui ex morte ejúsdem Filii
@@ -80,13 +81,13 @@ export default function Page1208() {
               purificados de todos os pecados e possamos ir até vós. Pelo mesmo
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Pr. 8, 22-35</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -131,13 +132,13 @@ export default function Page1208() {
               entrada. Aquele que me tiver achado, terá achado a vida e gozará a
               salvação do Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Jdt. 13, 23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícta es tu. Virgo María, a Dómino, Deo excélso, præ ómnibus
               muliéribus super terram.<Text className="versicle"> ℣. </Text>
@@ -161,13 +162,13 @@ export default function Page1208() {
               <Text className="vernacular">Ct. 4, 7</Text> Toda sois formosa, ó
               Maria; e a mácula original não existe em vós. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 1, 26-28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -191,13 +192,13 @@ export default function Page1208() {
               cheia de graça: o Senhor é convosco: bendita sois entre as
               mulheres».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Lc. 1, 28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ave, María, grátia plena; Dóminus tecum: benedícta tu in
               muliéribus, allelúja.
@@ -206,11 +207,11 @@ export default function Page1208() {
               Ave, Maria, cheia de graça; o Senhor é convosco: bendita sois vós
               entre as mulheres. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salutárem hóstiam, quam in sollemnitáte (commemoratióne)
               immaculátæ Conceptiónis beátæ Vírginis Maríæ tibi, Dómine,
@@ -226,11 +227,11 @@ export default function Page1208() {
               intercessão sejamos livres de todas nossas culpas. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gloriósa dicta sunt de te, María: quia fecit tibi magna qui potens
               est.
@@ -239,11 +240,11 @@ export default function Page1208() {
               Gloriosas coisas se têm narrado de vós, ó Maria; pois o
               Omnipotente operou grandes maravilhas em vosso favor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacraménta quæ súmpsimus, Dómine, Deus noster: illíus in nobis
               culpæ vúlnera réparent; a qua immaculátam beátæ Maríæ Conceptiónem
@@ -255,7 +256,7 @@ export default function Page1208() {
               singular preservastes a Imaculada Conceição da B. Virgem Maria.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

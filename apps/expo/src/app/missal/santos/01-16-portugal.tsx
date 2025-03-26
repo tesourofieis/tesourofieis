@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0116Portugal() {
@@ -17,7 +18,7 @@ export default function Page0116Portugal() {
 
           <Text className="em">Sl. 33, 20-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Multæ tribulatiónes justórum, et de his ómnibus liberábit eos
               Dóminus: Dóminus custódit ómnia ossa eórum, unum ex his non
@@ -34,11 +35,11 @@ export default function Page0116Portugal() {
               na minha boca.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui sanctórum Mártyrum tuórum Bérardi, Petri, Accúrsii,
               Adjúti, atque Othónis glorióso certámine órdinis Minórum inítia
@@ -52,11 +53,11 @@ export default function Page0116Portugal() {
               as suas virtudes, assim como nos alegramos com seus triunfos. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração Comemoração S. Marcelo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Preces pópuli tui, quæsumus, Dómine, cleménter exáudi: ut beáti
               Marcéllis Mártyris tui atque Pontíficis méritis adjuvémur, cujus
@@ -67,7 +68,7 @@ export default function Page0116Portugal() {
               fim de que sejamos auxiliados pelos méritos do B. Marcelo, vosso
               Mártir e Pontífice, cujo martírio festejamos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -80,7 +81,7 @@ export default function Page0116Portugal() {
 
           <Text className="em">Sl. 78, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Víndica, Dómine, sánguinem Sanctórum tuórum, qui effúsus est.
               <Text className="versicle"> ℣. </Text>
@@ -106,7 +107,7 @@ export default function Page0116Portugal() {
               verdadeira fraternidade que venceu os crimes do mundo. Ela seguiu
               Cristo, possuindo gloriosamente o reino celestial. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima, omite-se o Aleluia e o Verso, e diz-se o Trato:
@@ -116,7 +117,7 @@ export default function Page0116Portugal() {
 
           <Text className="em">Sl. 125, 5-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui séminant in lácrimis, in gáudio metent.
               <Text className="versicle"> ℣. </Text>Eúntes ibant et flébant,
@@ -131,13 +132,13 @@ export default function Page0116Portugal() {
               Porém, quando voltavam, exultavam de alegria, trazendo os seus
               molhos de trigo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 10, 16-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -176,13 +177,13 @@ export default function Page0116Portugal() {
               darão a morte. Sereis odiados por todos por causa do meu nome, mas
               quem perseverar até ao fim será salvo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Pr. 3, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justórum ánimæ in manu Dei sunt, et non tanget ilos torméntum
               malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in
@@ -193,11 +194,11 @@ export default function Page0116Portugal() {
               as não tocará! Aos olhos dos insensatos pareciam quase a morrer,
               todavia estão na paz. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pro pretiósa, Dómine, tuórum morte Sanctórum sacrifícium istud
               offérimus: quo opem tuam nostris tempóribus cleménter impéndas, et
@@ -209,11 +210,11 @@ export default function Page0116Portugal() {
               clementemente em nossos dias o vosso auxílio e a graça da
               verdadeira piedade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta Comemoração S. Marcelo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, quæsumus, Dómine, múnera dignánter obláta: et beáti
               Marcélli Mártyris tui atque Pontíficis, suffragántibus méritis, ad
@@ -225,13 +226,13 @@ export default function Page0116Portugal() {
               triunfe em toda a parte, mas também pelo poder do vosso nome os
               Pastores sejam bem acolhidos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 12, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dico autem vobis amícis meis: ne terreámini ab his, qui vos
               persequúntur.
@@ -240,11 +241,11 @@ export default function Page0116Portugal() {
               Digo-vos, pois, a vós, que sois meus amigos: «Não tenhais medo
               daqueles que vos perseguem».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cæléstia, Dómine, domina, quæ súmpsimus, vitam nobis tríbuant
               sempitérnam: quam cum beatórum Mártyrum tuórum Berárdi, Petri,
@@ -257,11 +258,11 @@ export default function Page0116Portugal() {
               vossos Mártires Berardo, Pedro, Acúrsio, Adjuto e Otão. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio Comemoração S. Marcelo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quæsumus,
               semper interventióne nos réfove, cujus solémnia celebrámus. Per
@@ -274,7 +275,7 @@ export default function Page0116Portugal() {
               liberdade e persista na integridade da sua doutrina. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

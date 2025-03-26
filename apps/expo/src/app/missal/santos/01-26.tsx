@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0126() {
@@ -48,7 +49,7 @@ export default function Page0126() {
 
           <Text className="em">1 Jo. 3, 10-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Joánnis Apóstoli.
             </Text>
@@ -83,7 +84,7 @@ export default function Page0126() {
               porquanto Ele deu sua vida por nós; e nós devemos também dar a
               nossa vida por nossos irmãos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -94,7 +95,7 @@ export default function Page0126() {
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus
               noster: ut, cujus exséquimur cultum, intercedénte beáto Polycárpo
@@ -107,7 +108,7 @@ export default function Page0126() {
               Policarpo, vosso Mártir e Pontífice, sintamos o efeito do mystério
               que celebrámos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

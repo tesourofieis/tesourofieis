@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page12Algumanecessidade() {
   return (
@@ -12,7 +13,7 @@ export default function Page12Algumanecessidade() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, refúgium nostrum et virtus: adésto piis Ecclésiæ tuæ
               précibus, auctor ipse pietátis, et præsta; ut, quod fidéliter
@@ -23,11 +24,11 @@ export default function Page12Algumanecessidade() {
               preces devotas da vossa Igreja, para que obtenhamos eficazmente o
               que Vos suplicamos confiadamente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, miséricors Deus: ut hæc salutáris oblátio et a própriis nos
               reátibus indesinénter expédiat, et ab ómnibus tueátur advérsis.
@@ -38,11 +39,11 @@ export default function Page12Algumanecessidade() {
               livre urgentemente das nossas próprias faltas e nos defenda de
               todas as adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súmpsimus, Dómine, sacri dona mystérii, humíliter deprecántes: ut,
               quæ in tui commemoratiónem nos fácere præcepísti, in nostræ
@@ -54,7 +55,7 @@ export default function Page12Algumanecessidade() {
               nossa fraqueza aquilo que ordenastes fizéssemos em vossa memória.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

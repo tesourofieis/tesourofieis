@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0825() {
   return (
@@ -25,7 +26,7 @@ export default function Page0825() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Ludovícum Confessórem tuum de terréno regno ad
               cœléstis regni glóriam transtulísti: ejus, quǽsumus, méritis et
@@ -39,13 +40,13 @@ export default function Page0825() {
               façais participar da glória do Rei dos reis, Jesus Cristo, vosso
               Filho. Que convosco vive e reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Sb. 10, 10-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -77,13 +78,13 @@ export default function Page0825() {
               seus opressores. O Senhor, nosso Deus, provou que eram mentirosos
               aqueles que o desacreditaram e tornou-o ilustre para sempre.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 19, 12-26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -145,11 +146,11 @@ export default function Page0825() {
               Senhor, dar-se-á àquele que tem, e ficará na abundância; mas
               àquele que nada tem tirar-se-lhe-á até o que tiver».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, sicut beátus Ludovícus
               Conféssor tuus, spretis mundi oblectaméntis, soli Regi Christo
@@ -162,11 +163,11 @@ export default function Page0825() {
               procurou agradar a Cristo-Rei, assim também a sua oração nos torne
               agradáveis a Vós. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Confessórem tuum Ludovícum mirificásti in terris,
               et gloriósum in cœlis fecísti: eúndem, quǽsumus, Ecclésiæ tuæ
@@ -177,7 +178,7 @@ export default function Page0825() {
               Luís, vosso Confessor, constituí-o, Vo-lo pedimos, defensor da
               vossa Igreja. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

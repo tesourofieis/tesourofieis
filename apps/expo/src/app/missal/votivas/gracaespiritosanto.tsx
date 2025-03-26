@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageGracaespiritosanto() {
   return (
@@ -22,7 +23,7 @@ export default function PageGracaespiritosanto() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, cui omne cor patet, et omnis volúntas lóquitur, et quem
               nullum latet secrétum: purífica per infusiónem Sancti Spíritus
@@ -38,11 +39,11 @@ export default function PageGracaespiritosanto() {
               louvar-Vos dignamente. Por nosso Senhor... em unidade do mesmo
               Espírito Santo...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc oblátio, quǽsumus, Dómine, cordis nostri máculas emúndet: ut
               Sancti Spíritus digna efficiátur habitátio. Per Dóminum... in
@@ -54,11 +55,11 @@ export default function PageGracaespiritosanto() {
               Espírito Santo. Por nosso Senhor... em unidade do mesmo Espírito
               Santo...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, omnípotens Deus, Sanctum nos Spíritum votis
               promeréri sédulis: quaténus, ejus grátia, et ab ómnibus liberémur
@@ -72,7 +73,7 @@ export default function PageGracaespiritosanto() {
               mereçamos alcançar o perdão dos nossos pecados. Por nosso
               Senhor... em unidade do mesmo Espírito Santo...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

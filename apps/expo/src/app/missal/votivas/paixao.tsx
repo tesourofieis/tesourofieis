@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePaixao() {
   return (
@@ -14,7 +15,7 @@ export default function PagePaixao() {
 
           <Text className="em">Fl. 2, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Humiliávit semetípsum Dóminus Jesus Christus usque ad mortem,
               mortem autem crucis: propter quod et Deus exaltávit illum, et
@@ -32,11 +33,11 @@ export default function PagePaixao() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine Jesu Christe, qui de cœlis ad terram de sinu Patris
               descendísti, et sánguinem tuum pretiósum in remissiónem peccatórum
@@ -53,13 +54,13 @@ export default function PagePaixao() {
               mereçamos ouvir-Vos dizer: «Vinde, benditos do meu Pai». Ó Vós,
               que viveis e...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Zc. 12, 10-11; 13, 6-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Zacharíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Zacarias.</Text>
             <Text className="latin">
@@ -87,13 +88,13 @@ export default function PagePaixao() {
               exércitos, fere este pastor, e as ovelhas serão dispersas», diz o
               Senhor omnipotente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 68,21-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Impropérium exspectávi cor meum et misériam: et sustínui, qui
               simul mecum contristarétur, et non fuit: consolántem me quæsívi,
@@ -119,7 +120,7 @@ export default function PagePaixao() {
               obediente ao pai, fostes levado, como manso cordeiro, à
               crucifixão. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Depois da Septuagésima omite-se o Aleluia e a Verso que se segue, e
@@ -130,7 +131,7 @@ export default function PagePaixao() {
 
           <Text className="em">Is. 53, 4-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vere languóres nostros ipse tulit et dolóres nostros ipse
               portávit.<Text className="versicle"> ℣. </Text>Et nos putávimus
@@ -151,13 +152,13 @@ export default function PagePaixao() {
               castigo que nos alcançou a paz: fomos curados com seus vergões de
               sangue.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual e o Trato, e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Ave, Rex
               noster: tu solus nostros es miserátus erróres: Patri obǿdiens,
@@ -174,13 +175,13 @@ export default function PagePaixao() {
               Senhor, o triunfo e a vitória; a Vós, a coroa da maior homenagem e
               louvor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 19, 28-35</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -221,11 +222,11 @@ export default function PagePaixao() {
               lança, donde logo saiu sangue e água. Aquele que viu isto, dá
               testemunho e o seu testemunho é verdadeiro.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Insurrexérunt in me viri iníqui: absque misericórdia quæsiérunt me
               interfícere: et non pepercérunt in fáciem meam spúere: lánceis
@@ -238,11 +239,11 @@ export default function PagePaixao() {
               Feriram-me com suas lanças, ficando abalados todos meus ossos. (T.
               P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblátum tibi, Dómine, sacrifícium, intercedénte unigéniti Fílii
               tui passióne, vivíficet nos semper et múniat: Qui tecum vivit...
@@ -252,13 +253,13 @@ export default function PagePaixao() {
               que este sacrifício, que Vos é oferecido, nos vivifique e
               fortifique para sempre. Ele, que, sendo Deus vive e reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 21,17-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fodérunt manus meas et pedes meos: dinumeravérunt ómnia ossa mea.
               (T. P. Allelúja.)
@@ -267,11 +268,11 @@ export default function PagePaixao() {
               Atravessaram as minhas mãos e os meus pés, e contaram todos meus
               ossos. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine Jesu Christe, Fili Dei vivi, qui hora sexta pro redemptióne
               mundi Crucis patíbulum ascendísti, et sánguinem tuum pretiósum in
@@ -286,7 +287,7 @@ export default function PagePaixao() {
               concedei-nos a graça, humildemente Vos rogamos! de, após a nossa
               morte, podermos penetrar com alegria no paraíso, Ó Vós, que...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

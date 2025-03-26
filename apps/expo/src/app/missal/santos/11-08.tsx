@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1108() {
   return (
@@ -24,7 +25,7 @@ export default function Page1108() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui gloriósos Mártyres
               fortes in sua confessióne cognóvimus, pios apud te in nostra
@@ -36,11 +37,11 @@ export default function Page1108() {
               sintamos junto de Vós a sua pia intercessão em nosso favor. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedíctio tua. Dómine, larga descéndat: quæ et múnera nostra,
               deprecántibus sanctis Martýribus tuis, tibi reddat accépta, et
@@ -52,11 +53,11 @@ export default function Page1108() {
               nossas ofertas, mudando-as em nosso favor em sacramento de
               redenção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœléstibus refécti sacraméntis et gáudiis: súpplices te, Dómine,
               deprecámur; ut, quorum gloriámur triúmphis, protegámur auxíliis.
@@ -68,7 +69,7 @@ export default function Page1108() {
               auxílios daqueles de cujo triunfo nos gloriamos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

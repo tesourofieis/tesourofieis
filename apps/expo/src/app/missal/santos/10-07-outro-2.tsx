@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1007Outro2() {
   return (
@@ -24,7 +25,7 @@ export default function Page1007Outro2() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sanctórum Martyrum tuórum nos, Dómine, Sérgii, Bacchi, Marcélli et
               Apuléji beáta mérita prosequántur: et tuo semper fáciant amóre
@@ -35,11 +36,11 @@ export default function Page1007Outro2() {
               Baco, Marcelo e Apúlio nos acompanhem e nos comuniquem
               incessantemente o fervor do vosso amor. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Majestátem tuam nobis, Dómine, quǽsumus, hæc hóstia reddat
               immolánda placátam, tuórum digna postulatióne Sanctórum. Per
@@ -50,11 +51,11 @@ export default function Page1007Outro2() {
               Senhor, possa pelas dignas preces dos vossos Santos aplacar a
               vossa majestade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacraméntis, Dómine, muniámur accéptis: et sanctórum Mártyrum
               tuórum Sérgii, Bacchi, Marcélli et Apuléji intercessióne, contra
@@ -67,7 +68,7 @@ export default function Page1007Outro2() {
               sejamos fortalecidos com as armas celestiais e defendidos contra
               todos os ataques dos espíritos malignos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

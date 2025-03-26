@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page14Fome() {
   return (
@@ -12,7 +13,7 @@ export default function Page14Fome() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da nobis, quǽsumus, Dómine, piæ supplicatiónis efféctum: et famem
               propitiátus avérte; ut mortálium corda cognóscant, et te
@@ -27,11 +28,11 @@ export default function Page14Fome() {
               indignação, assim também a vossa misericórdia pode fazê-los
               cessar. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui humáni generis utrámque substántiam, præséntium númerum
               et aliménto végetas et rénovas sacraménto: tríbue, quǽsumus; ut
@@ -45,11 +46,11 @@ export default function Page14Fome() {
               assistência, que esperamos, não falte nem aos nossos corpos, nem
               às nossas almas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gubérna, quǽsumus, Dómine, temporálibus aliméntis: quos dignáris
               ætérnis informáre mystériis. Per Dóminum...
@@ -59,7 +60,7 @@ export default function Page14Fome() {
               concedendo os alimentos temporais àqueles que Vos dignastes
               robustecer com mystérios eternos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

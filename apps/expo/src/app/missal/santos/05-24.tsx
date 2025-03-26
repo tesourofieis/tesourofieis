@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0524() {
   return (
@@ -23,7 +24,7 @@ export default function Page0524() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens et miséricors Deus, qui ad defensiónem pópuli
               christiáni in beatíssima Vírgine María perpétuum auxílium
@@ -39,11 +40,11 @@ export default function Page0524() {
               protecção, mereçamos também alcançar à hora da morte a vitória
               contra o inimigo maligno. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pro religiónis christánæ triúmpho hóstias placatiónis tibi,
               Dómine, immolámus: quæ ut nobis profíciant, opem auxiliátrix Virgo
@@ -55,11 +56,11 @@ export default function Page0524() {
               Auxiliadora, pela qual foi assegurada a vitória perfeita, revertam
               em nosso proveito. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto, Dómine, pópulis, qui participatióne Córporis et Sánguinis
               tui reficiúntur: ut, sanctíssima tua Genitríce auxiliánte, ab omni
@@ -72,7 +73,7 @@ export default function Page0524() {
               livres de todo o mal e de todo o perigo, e perseverem na prática
               de todas as boas obras. Ó Vós, que viveis e reinais...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

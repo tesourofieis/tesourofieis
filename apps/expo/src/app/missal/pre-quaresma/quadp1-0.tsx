@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuadp20() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuadp20() {
 
           <Text className="em">Sl. 17, 5, 6 & 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Circumdedérut me gémitus mortis, dolóres inférni circumdedérunt
               me: et in tribulatióne mea invocávi Dóminum, et exaudívit de
@@ -33,11 +34,11 @@ export default function PageQuadp20() {
               refúgio e o meu libertador.<Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Preces pópuli tui, quǽsumus, Dómine, cleménter exáudi: ut, qui
               juste pro peccátis nostris afflígimur, pro tui nóminis glória
@@ -49,13 +50,13 @@ export default function PageQuadp20() {
               pecados, sejamos misericordiosamente livres, pela glória do vosso
               nome. Por nosso Senhor Jesus Cristo; vosso Filho, que...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Cor. 9, 24-27; 10, 1-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beati Pauli Apostoli ad Corinthios.
             </Text>
@@ -94,13 +95,13 @@ export default function PageQuadp20() {
               efeito, beberam em um rochedo espiritual, que os seguia, o qual
               era Cristo. Todavia, a maior parte deles não agradou a Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 9, 10-11 & 19-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adjútor in opportunitátibus, in tribulatióne: sperent in te, qui
               novérunt te: quóniam non derelínquis quæréntes te, Dómine.
@@ -115,13 +116,13 @@ export default function PageQuadp20() {
               esquecido; a paciência do pobre não será frustrada para sempre.
               Erguei-Vos, para que o homem mau não triunfe.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 129, 1-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               De profúndis clamávi ad te. Dómine: Dómine, exáudi vocem meam.
               <Text className="versicle"> ℣. </Text>
@@ -140,13 +141,13 @@ export default function PageQuadp20() {
               <Text className="versicle"> ℣. </Text>Mas sois propício; por amor
               da vossa lei esperei em Vós.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 20, 1-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -212,13 +213,13 @@ export default function PageQuadp20() {
               bom? Assim, os últimos serão os primeiros, e os primeiros serão os
               últimos; pois muitos são os chamados e poucos os escolhidos».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 91, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Bonum est confitéri Dómino, et psállere nómini tuo, Altíssime.
             </Text>
@@ -226,11 +227,11 @@ export default function PageQuadp20() {
               É bom louvar o Senhor; e cantar Salmos em honra do vosso nome, ó
               Altíssimo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
               cœléstibus nos munda mystériis, et cleménter exáudi. Per
@@ -242,13 +243,13 @@ export default function PageQuadp20() {
               misericordioso os nossos rogos. Por nosso Senhor Jesus Cristo,
               vosso Filho, que...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 30, 17-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Illúmina fáciem tuam super servum tuum, et salvum me fac in tua
               misericórdia: Dómine, non confúndar, quóniam invocávi te.
@@ -258,11 +259,11 @@ export default function PageQuadp20() {
               salvai-me pela vossa misericórdia, Senhor; que eu não seja
               confundido, pois Vos invoquei.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fidéles tui, Deus, per tua dona firméntur: ut eadem et percipiéndo
               requírant, et quæréndo sine fine percípiant. Per Dóminum...
@@ -272,7 +273,7 @@ export default function PageQuadp20() {
               fim de que, recebendo-os, continuem a procurá-los, e, havendo-os
               achado, sirvam para a nossa eternidade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

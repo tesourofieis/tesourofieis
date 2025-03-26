@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageActocaridade() {
   return (
@@ -10,7 +11,7 @@ export default function PageActocaridade() {
         <View className="docs">
           <Text className="h1">Acto de Caridade</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine Deus, amo te super ómnia et próximum meum propter te, quia
               tu es summum, infinítum, et perfectíssimum bonum, omni dilectióne
@@ -22,7 +23,7 @@ export default function PageActocaridade() {
               perfeitíssimo, digno de todo amor. Nesta caridade, é minha
               determinação viver e morrer. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

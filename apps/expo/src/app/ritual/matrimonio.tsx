@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageMatrimonio() {
   return (
@@ -48,7 +49,7 @@ export default function PageMatrimonio() {
             Após este consentimento mútuo, os nubentes unem as suas mãos
             direitas, pelo lado palmar destas. E o Sacerdote diz:
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ego conjúngo vos in matrimónium, in nómine Patris,{" "}
               <Text className="cross"> ✠ </Text> et Fílii, et Spíritus Sancti.
@@ -63,12 +64,12 @@ export default function PageMatrimonio() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="aside">
             O Sacerdote asperge com Água benta os noivos.
           </Text>
           <Text className="h2">Bênção do Anel</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Adjutórium nostrum in nómine
               Dómini.
@@ -141,14 +142,14 @@ export default function PageMatrimonio() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="aside">
             O Sacerdote asperge o anel com Água benta; depois entrega este mesmo
             anel ao marido, que o põe no dedo anelar da mão esquerda da
             cônjugue. Ao mesmo tempo o Sacerdote diz, fazendo com a mão o Sinal
             da Cruz sobre o anel:
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Confírma hoc, Deus, quod
               operátus es in nobis.
@@ -300,11 +301,11 @@ export default function PageMatrimonio() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h1">Missa do Matrimónio</Text>
           <Text className="h2">Intróito</Text>
           <Text className="em">Tb. 7, 15; 8, 19</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus Israël conjúngat vos: et ipse sit vobíscum, qui misértus est
               duóbus únicis: et nunc, Dómine, fac eos plénius benedícere te. (T.
@@ -320,9 +321,9 @@ export default function PageMatrimonio() {
               aqueles que temem o Senhor: e que seguem os seus caminhos.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi nos, omnípotens et misericors Deus: ut, quod nostro
               ministrate officio, tua benedictióne potius impleatur. Per
@@ -333,10 +334,10 @@ export default function PageMatrimonio() {
               aquilo que iniciámos com o nosso ministério alcance complemento
               perfeito com vossa bênção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Epístola</Text>
           <Text className="em">Ef. 5, 22-33</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
@@ -382,10 +383,10 @@ export default function PageMatrimonio() {
               Portanto, vós outros, cada um em particular, ame sua mulher, como
               a si mesmo, e a mulher respeite o seu marido.
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Gradual</Text>
           <Text className="em">Sl. 127, 3</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Uxor tua sicut vitis abúndans in latéribus domus tuæ.
               <Text className="versicle"> ℣. </Text>Fílii tui sicut novéllæ
@@ -407,13 +408,13 @@ export default function PageMatrimonio() {
               Senhor desça do seu santuário e de Sião, e vos socorra e proteja.
               Aleluia.
             </Text>
-          </View>
+          </Language>
           <Text className="aside">
             Após a Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
           </Text>
           <Text className="h2">Trato</Text>
           <Text className="em">Sl. 127, 4-6</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce, sic benedicétur omnis homo, qui timet Dóminum.
               <Text className="versicle"> ℣. </Text>Benedícat tibi Dóminus ex
@@ -428,11 +429,11 @@ export default function PageMatrimonio() {
               vossa vida.<Text className="versicle"> ℣. </Text>E ver os filhos
               dos vossos filhos e a paz em Israel.
             </Text>
-          </View>
+          </Language>
           <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 19, 3</Text> Mittat vobis Dóminus
@@ -449,10 +450,10 @@ export default function PageMatrimonio() {
               <Text className="em">Sl. 133, 3</Text> Que o Senhor, que criou o
               céu e a terra, vos abençoe lá de Sião. Aleluia.
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Evangelho</Text>
           <Text className="em">Mt. 19, 3-6</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -480,10 +481,10 @@ export default function PageMatrimonio() {
               dois, mas uma só carne. Portanto que o homem não separe o que Deus
               uniu».
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Ofertório</Text>
           <Text className="em">Sl. 30, 15-16</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In te sperávi, Dómine: dixi: Tu es Deus meus: in mánibus tuis
               témpora mea. (T. P. Allelúja.)
@@ -492,9 +493,9 @@ export default function PageMatrimonio() {
               Em Vós, senhor, pus toda minha confiança. Eu disse: sois o meu
               Deus: nas vossas mãos está o meu destino. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Secreta</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Suscipe, quǽsumus, Dómine, pro sacra conúbii lege munus oblátum:
               et, cujus largítor es óperis, esto dispósitor. Per Dóminum...
@@ -504,13 +505,13 @@ export default function PageMatrimonio() {
               para consagrar este pacto matrimonial e, visto que fostes o autor
               dele, sede também o seu guarda. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="aside">
             Após o Pater Noster... e antes do Libera-nos... os cônjuges ajoelham
             diante do Altar, próximo do Celebrante, enquanto este diz:
           </Text>
           <Text className="h2">Bênção dos cônjuges</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Propitiáre, Dómine, supplicatiónibus nostris, et institútis tuis,
               quibus propagatiónem humáni géneris ordinásti, benígnus assíste:
@@ -523,9 +524,9 @@ export default function PageMatrimonio() {
               assisti-nos benignamente, a fim de que produza a sua graça e se
               conserve a união de que fostes autor. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Oração</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui potestáte virtútis tuæ de níhilo cuncta fecísti: qui
               dispósitis universitátis exórdiis, hómini, ad imáginem Dei facto,
@@ -580,14 +581,14 @@ export default function PageMatrimonio() {
               à quarta geração e cheguem à velhice que desejam. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="aside">
             Os cônjuges retiram-se para os seus lugares e o Celebrante continua
             LIBERA NOS...
           </Text>
           <Text className="h2">Comúnio</Text>
           <Text className="em">Sl. 127, 4 & 6</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce, sic benedicétur omnis homo, qui timet Dóminum: et vídeas
               fílios filiórum tuórum: pax super Israël. (T. P. Allelúja.)
@@ -597,9 +598,9 @@ export default function PageMatrimonio() {
               felicidade de ver os filhos dos seus filhos e a paz em Israel».
               (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Postcomúnio</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: institúta providéntiæ tuæ pio favóre
               comitáre; ut, quos legítima societáte conéctis, longǽva pace
@@ -611,12 +612,12 @@ export default function PageMatrimonio() {
               fim de que aqueles, que unistes para um fim legítimo, vivam em
               longa paz. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
           <Text className="aside">
             Antes da Bênção da Missa os cônjuges vão ajoelhar ao pé do Altar, e
             o Sacerdote diz:
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus Abraham, Deus Isaac et Deus Jacob sit vobíscum: et ipse
               adímpleat benedictiónem suam in vobis: ut videátis fílios filiórum
@@ -638,7 +639,7 @@ export default function PageMatrimonio() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

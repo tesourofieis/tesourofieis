@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0911() {
   return (
@@ -24,7 +25,7 @@ export default function Page0911() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beatórum Mártyrum tuórum Proti et Hyacínthi nos, Dómine, fóveat
               pretiósa conféssio: et pia júgiter intercéssio tueátur. Per
@@ -35,11 +36,11 @@ export default function Page0911() {
               Jacinto nos anime, e que eles nos protejam incessantemente com os
               méritos da sua piedosa intercessão. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pro sanctórum Martyrum tuórum Proti et Hyacínthi commemoratióne,
               múnera tibi, Dómine, quæ debémus, exsólvimus: præsta, quǽsumus; ut
@@ -51,11 +52,11 @@ export default function Page0911() {
               Vos rogamos, que nos curem e proporcionem o remédio da salvação.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ut percépta nos, Dómine, tua sancta puríficent: beatórum Mártyrum
               tuórum Proti et Hyacínthi, quǽsumus, ímploret orátio. Per
@@ -66,7 +67,7 @@ export default function Page0911() {
               alcancem, pelas preces dos vossos B. B. Mártires Proto e Jacinto,
               a graça de sermos purificados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

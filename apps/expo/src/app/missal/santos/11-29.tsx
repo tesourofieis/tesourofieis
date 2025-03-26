@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1129() {
   return (
@@ -33,7 +34,7 @@ export default function Page1129() {
 
           <Text className="em">Mt. 4, 18 & 19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dóminus secus mare Galilǽæ vidit duos fratres, Petrum et Andréam,
               et vocávit eos: Veníte post me: fáciam vos fíeri piscatóres
@@ -51,7 +52,7 @@ export default function Page1129() {
               suas mãos. firmaméntum.<Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Link href="/missal/comum/1vigiliaapostolos#oração">
             Oração Missa da Vigília dos Apóstolos - Missa Ego autem
@@ -65,7 +66,7 @@ export default function Page1129() {
 
           <Text className="em">Sl. 138, 17-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Nimis honoráti sunt amíci tui, Deus: nimis confortátus est
               principátus eórum.<Text className="versicle"> ℣. </Text>Dinumerábo
@@ -77,13 +78,13 @@ export default function Page1129() {
               <Text className="versicle"> ℣. </Text>
               Contá-los-eis: e mais que a areia se multiplicarão.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo, 1, 35-51</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -151,11 +152,11 @@ export default function Page1129() {
               disse: Em verdade, em verdade, vos digo, vereis o céu aberto e os
               anjos de Deus subindo e descendo sobre o Filho do homem.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrándum tibi, Dómine, munus offérimus: quo beáti Andréæ Apóstoli
               sollémnia recoléntes, purificatiónem quoque nostris méntibus
@@ -167,13 +168,13 @@ export default function Page1129() {
               André, implorando ao mesmo tempo a purfificação de nossas almas.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 1, 41 & 42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dicit Andréas Simóni fratri suo: Invénimus Messíam, qui dícitur
               Christus: et addúxit eum ad Jesum.
@@ -182,11 +183,11 @@ export default function Page1129() {
               Disse André a Simão seu irmão: Encontrámos o Messias que se chama
               Cristo: e o levou a Jesus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Percéptis, Dómine, sacraméntis supplíciter exorámus: ut,
               intercedénte beáto Andréa Apostolo tuo, quæ pro illíus veneránda
@@ -198,7 +199,7 @@ export default function Page1129() {
               André, o sacrifício por nós celebrado em honra de seu martyrio nos
               sirva de remédio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

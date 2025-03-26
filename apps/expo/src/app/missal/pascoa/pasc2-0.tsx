@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc20() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc20() {
 
           <Text className="em">Sl. 32, 5-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Misericórdia Dómini plena est terra, allelúja: verbo Dómini cœli
               firmáti sunt, allelúja, allelúja.{" "}
@@ -29,11 +30,11 @@ export default function PagePasc20() {
               de alegria e aclamai o Senhor; pois é bom que os justos O louvem.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui in Filii tui humilitate jacéntem mundum erexísti:
               fidelibus tuis perpétuam concéde lætítiam; ut, quos perpétuæ
@@ -47,13 +48,13 @@ export default function PagePasc20() {
               tornem participantes dos gozos sempiternos. Pelo mesmo nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Pe. 2, 21-25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
             <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
             <Text className="latin">
@@ -78,9 +79,9 @@ export default function PagePasc20() {
               ovelhas desgarradas, mas agora estais convertidos ao pastor e ao
               bispo das vossas almas.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Luc. 24, 35</Text> Cognovérunt discípuli
@@ -97,13 +98,13 @@ export default function PagePasc20() {
               <Text className="em">Jo. 10, 14</Text> Eu sou o bom Pastor;
               conheço as minhas ovelhas, e elas conhecem-me, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 10, 11-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -137,13 +138,13 @@ export default function PagePasc20() {
               aprisco. É preciso que as atraia, e que ouçam a minha voz, para
               que não haja senão um só aprisco e um só pastor».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 62, 2 & 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, Deus meus, ad te de luce vígilo: et in nómine tuo levábo
               manus meas, allelúja.
@@ -152,11 +153,11 @@ export default function PagePasc20() {
               Ó Deus, ó meu Deus, a Vós recorro desde manhã: E erguerei as
               minhas mãos em honra do vosso nome, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedictiónem nobis, Dómine, cónferat salutárem sacra semper
               oblátio: ut, quod agit mystério, virtúte perfíciat. Per Dóminum...
@@ -166,13 +167,13 @@ export default function PagePasc20() {
               salutar bênção, a fim de que produza os efeitos do mystério que
               ela renova. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 10, 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ego sum pastor bonus, allelúja: et cognósco oves meas, et
               cognóscunt me meæ, allelúja, allelúja.
@@ -181,11 +182,11 @@ export default function PagePasc20() {
               Eu sou o bom Pastor, aleluia; conheço as minhas ovelhas, e elas
               conhecem-me, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta nobis, quǽsumus, omnípotens Deus: ut, vivificatiónis tuæ
               grátiam consequéntes, in tuo semper múnere gloriémur. Per Dóminum
@@ -196,7 +197,7 @@ export default function PagePasc20() {
               de Vós a graça da vida nova, sempre nos gloriemos com este dom,
               que nos dispensais. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

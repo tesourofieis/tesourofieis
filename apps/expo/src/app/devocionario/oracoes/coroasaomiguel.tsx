@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageCoroasaomiguel() {
   return (
@@ -12,7 +13,7 @@ export default function PageCoroasaomiguel() {
         <View className="docs">
           <Text className="h1">Coroa de São Miguel</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Deus, in adjutórium meum
               inténde.
@@ -46,11 +47,11 @@ export default function PageCoroasaomiguel() {
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Chorus 1, Salutatio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per intercessionem Sancti Michaelis et cappellae caelestis
               Seraphim, Dominus nos dignos efficiat incendi igne caritatis
@@ -60,7 +61,7 @@ export default function PageCoroasaomiguel() {
               Pela intercessão de São Miguel e do coro celeste dos Serafins,
               fazei-nos, Senhor, dignos do fogo da perfeita Caridade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
@@ -73,7 +74,7 @@ export default function PageCoroasaomiguel() {
 
           <Text className="h2">Chorus 2, Salutatio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per intercessionem Sancti Michaelis et cappellae caelestis
               Cherubim, Dominus nobis gratiam det relinquere vias malas et
@@ -84,7 +85,7 @@ export default function PageCoroasaomiguel() {
               pedimos Senhor a graça de trilharmos a estrada da perfeição
               cristã.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
@@ -97,7 +98,7 @@ export default function PageCoroasaomiguel() {
 
           <Text className="h2">Chorus 3, Salutatio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per intercessionem Sancti Michaelis et cappellae caelestis
               Thronorum, infundat Dominus in cordibus nostris spiritum sincerum
@@ -107,7 +108,7 @@ export default function PageCoroasaomiguel() {
               Pela intercessão de São Miguel e do coro celeste dos Tronos,
               pedimos Senhor que nos deis o espírito da verdadeira humildade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
@@ -120,7 +121,7 @@ export default function PageCoroasaomiguel() {
 
           <Text className="h2">Chorus 4, Salutatio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per intercessionem Sancti Michaelis et cappellae caelestis
               Dominationum, Dominus nobis gratiam det gubernare sensus et
@@ -131,7 +132,7 @@ export default function PageCoroasaomiguel() {
               pedimos ao Senhor nos conceda a graça de dominar nossos sentidos,
               e de nos corrigir das nossas más paixões.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
@@ -144,7 +145,7 @@ export default function PageCoroasaomiguel() {
 
           <Text className="h2">Chorus 5, Salutatio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per intercessionem Sancti Michaelis et cappellae caelestis
               Potestatum, Dominus animas nostras defendat contra tentationes et
@@ -155,7 +156,7 @@ export default function PageCoroasaomiguel() {
               pedimos ao Senhor se digne de proteger nossas almas contra as
               ciladas e as tentações de satanás e dos demónios.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
@@ -168,7 +169,7 @@ export default function PageCoroasaomiguel() {
 
           <Text className="h2">Chorus 6, Salutatio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per intercessionem Sancti Michaelis et cappellae caelestis
               Virtutum, Dominus nos servet a malo et non permittat cadere in
@@ -179,7 +180,7 @@ export default function PageCoroasaomiguel() {
               pedimos ao Senhor a graça de sermos, vencedores no perigoso
               combate das tentações.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
@@ -192,7 +193,7 @@ export default function PageCoroasaomiguel() {
 
           <Text className="h2">Chorus 7, Salutatio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per intercessionem Sancti Michaelis et cappellae caelestis
               Principatorum, Dominus animas nostras spiritu vero obedientiae
@@ -203,7 +204,7 @@ export default function PageCoroasaomiguel() {
               pedimos ao Senhor que nos dê o espírito de uma verdadeira e
               sincera obediência a Ele.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
@@ -216,7 +217,7 @@ export default function PageCoroasaomiguel() {
 
           <Text className="h2">Chorus 8, Salutatio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per intercessionem Sancti Michaelis et cappellae caelestisis
               Archangelorum, Dominus nobis constantiam in fide et operibus bonis
@@ -228,7 +229,7 @@ export default function PageCoroasaomiguel() {
               Fé e nas boas obras, a fim de que possamos chegar a possuir a
               glória do Paraíso.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
@@ -241,7 +242,7 @@ export default function PageCoroasaomiguel() {
 
           <Text className="h2">Chorus 9, Salutatio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per intercessionem Sancti Michaelis et cappellae caelestis
               Angelorum, Dominus ab eis protegemur in hac vita mortale det et
@@ -253,7 +254,7 @@ export default function PageCoroasaomiguel() {
               guardem sempre, e principalmente na hora da nossa morte e nos
               conduzam à glória do Paraíso.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             <Link className="link" href="/devocionario/oracoes/painosso">
@@ -264,7 +265,7 @@ export default function PageCoroasaomiguel() {
             </Link>{" "}
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In Honoro Sancte Michaelis,
               <Link className="link" href="/devocionario/oracoes/painosso">
@@ -325,9 +326,9 @@ export default function PageCoroasaomiguel() {
                 Pai Nosso
               </Link>
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Ant.</Text> O Princeps Gloriose sancte
               Michael, Dux et praeposite caelestium exercituum, Custos animarum,
@@ -390,7 +391,7 @@ export default function PageCoroasaomiguel() {
             </Text>
             <Text className="latin">Amen</Text>
             <Text className="vernacular">Amén.</Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

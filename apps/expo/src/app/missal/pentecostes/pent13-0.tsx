@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent130() {
   return (
@@ -16,7 +17,7 @@ export default function PagePent130() {
 
           <Text className="em">Sl. 73, 20,19 & 23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réspice, Dómine, in testaméntum tuum, et ánimas páuperum tuórum ne
               derelínquas in finem: exsúrge, Dómine, et júdica causam tuam, et
@@ -34,11 +35,11 @@ export default function PagePent130() {
               cresceu a vossa ira contra as ovelhas dos vossos pastos?
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, da nobis fídei, spei et caritátis
               augméntum: et, ut mereámur asséqui quod promíttis, fac nos amáre
@@ -50,13 +51,13 @@ export default function PagePent130() {
               prometestes, permiti que amemos o que nos preceituais. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Gl. 3, 16-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.
             </Text>
@@ -98,13 +99,13 @@ export default function PagePent130() {
               promessa fosse dada pela fé em Jesus Cristo àqueles que
               acreditassem.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 73, 20, 19 et 22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réspice, Dómine, in testaméntum tuum: et ánimas páuperum tuórum ne
               obliviscáris in finem.<Text className="versicle"> ℣. </Text>
@@ -128,13 +129,13 @@ export default function PagePent130() {
               <Text className="vernacular">Sl. 89, 1</Text> De geração em
               geração, Senhor tendes sido o nosso refúgio. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 17, 11-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -171,13 +172,13 @@ export default function PagePent130() {
               rendesse glória a Deus?». E, dirigindo-se a ele, acrescentou:
               «Levanta-te e vai: a tua fé te salvo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 30, 15-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In te sperávi, Dómine; dixi: Tu es Deus meus, in mánibus tuis
               témpora mea.
@@ -186,11 +187,11 @@ export default function PagePent130() {
               Em Vós, Senhor, pus toda minha esperança; e disse: Vós sois o meu
               Deus; a minha vida está nas vossas mãos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Propitiáre, Dómine, pópulo tuo, propitiáre munéribus: ut, hac
               oblatióne placátus, et indulgéntiam nobis tríbuas et postuláta
@@ -202,13 +203,13 @@ export default function PagePent130() {
               oferta, nos concedais o perdão e atendais às nossas súplicas. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sb. 16, 20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Panem de cœlo dedísti nobis, Dómine, habéntem omne delectaméntum
               et omnem sapórem suavitátis.
@@ -217,11 +218,11 @@ export default function PagePent130() {
               Destes-nos, Senhor, um pão do céu, que contém todas as delícias e
               o mais suave sabor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumptis, Dómine, cœléstibus sacraméntis: ad redemptiónis ætérnæ,
               quǽsumus, proficiámus augméntum. Per Dóminum...
@@ -231,7 +232,7 @@ export default function PagePent130() {
               concedei-nos a graça, Vos imploramos, de progredirmos sempre no
               caminho da salvação eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

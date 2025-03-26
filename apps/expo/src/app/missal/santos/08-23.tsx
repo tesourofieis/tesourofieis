@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0823() {
@@ -22,7 +23,7 @@ export default function Page0823() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui per beátum Philippum Confessórem tuum, exímium nobis
               humilitátis exémplum tribuísti: da fámulis tuis próspera mundi ex
@@ -35,7 +36,7 @@ export default function Page0823() {
               servos, imitando-o, desprezem as alegrias deste mundo e procurem
               sempre as celestiais. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

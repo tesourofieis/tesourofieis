@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page10Martires() {
@@ -15,7 +16,7 @@ export default function Page10Martires() {
 
           <Text className="em">Sl. 144, 10-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sancti tui, Dómine, benedícent te: glóriam regni tui dicent,
               allelúja, allelúja. <Text className="latin">Ps. ibid., 1</Text>{" "}
@@ -31,7 +32,7 @@ export default function Page10Martires() {
               e em todos os séculos!<Text className="versicle"> ℣. </Text>Glória
               ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
@@ -44,7 +45,7 @@ export default function Page10Martires() {
 
           <Text className="em">1 Pe. 1, 3-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Epístolæ beáti Petri.</Text>
             <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
             <Text className="latin">
@@ -72,9 +73,9 @@ export default function Page10Martires() {
               provado pelo fogo), seja julgada digna de louvor, honra e glória
               na revelação de N. S. Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Sancti
               tui, Dómine, florébunt sicut lílium: et sicut odor bálsami erunt
@@ -89,13 +90,13 @@ export default function Page10Martires() {
               <Text className="vernacular">Sl. 115, 15</Text> É preciosa diante
               do Senhor a morte dos seus Santos. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 15, 5-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -134,13 +135,13 @@ export default function Page10Martires() {
               coisas a fim de que minha alegria permaneça convosco e a vossa
               alegria seja abundante».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 31, 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti
               corde, allelúja, allelúja.
@@ -149,7 +150,7 @@ export default function Page10Martires() {
               Alegrai-vos no Senhor, ó justos! Exultai de júbilo! Todos aqueles
               que possuem o coração recto serão glorificados. Aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
@@ -162,7 +163,7 @@ export default function Page10Martires() {
 
           <Text className="em">Sl. 32, 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gaudéte, justi, in Dómino, allelúja: rectos decet collaudátio,
               allelúja.
@@ -171,7 +172,7 @@ export default function Page10Martires() {
               Alegrai-vos no Senhor, ó justos. Aleluia. É aos que são rectos que
               pertence cantar os vossos louvores. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 

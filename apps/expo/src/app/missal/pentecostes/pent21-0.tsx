@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent210() {
   return (
@@ -16,7 +17,7 @@ export default function PagePent210() {
 
           <Text className="em">Est. 13, 9 & 10-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In voluntáte tua, Dómine, univérsa sunt pósita, et non est, qui
               possit resístere voluntáti tuæ: tu enim fecísti ómnia, cœlum et
@@ -33,11 +34,11 @@ export default function PagePent210() {
               aqueles cuja vida é imaculada: aqueles que praticam a Lei do
               Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi: ut a
               cunctis adversitátibus, te protegénte, sit líbera, et in bonis
@@ -49,13 +50,13 @@ export default function PagePent210() {
               de todas as adversidades e se dedique à prática das boas obras, em
               honra do vosso nome. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ef. 6, 10-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epistolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
@@ -92,13 +93,13 @@ export default function PagePent210() {
               espírito maligno. Revesti-vos, também, com o capacete da salvação
               e com a espada espiritual, que é a palavra de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 89, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, refúgium factus es nobis, a generatióne et progénie.
               <Text className="versicle"> ℣. </Text>
@@ -122,13 +123,13 @@ export default function PagePent210() {
               <Text className="vernacular">Sl. 113, 1</Text> Quando Israel saiu
               do Egipto e a casa de Jacob do meio de um povo bárbaro. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 18, 23-35</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -186,13 +187,13 @@ export default function PagePent210() {
               terminou Jesus, assim vos tratará meu Pai celeste se cada um não
               perdoar do íntimo do coração a sua dívida ao seu irmão.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Jb 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vir erat in terra Hus, nómine Job: simplex et rectus ac timens
               Deum: quem Satan pétiit ut tentáret: et data est ei potéstas a
@@ -207,11 +208,11 @@ export default function PagePent210() {
               corpo: e Satanás fez-lhe perder todos os bens e os filhos, e ainda
               lhe afligiu o corpo com uma chaga.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Suscipe, Dómine, propítius hóstias: quibus et te placári voluísti,
               et nobis salútem poténti pietáte restítui. Per Dóminum...
@@ -221,13 +222,13 @@ export default function PagePent210() {
               aplacar-Vos, e, pela vossa infinita bondade, concedei-nos a
               salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 118, 81, 84 & 86</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In salutári tuo ánima mea, et in verbum tuum sperávi: quando
               fácies de persequéntibus me judícium? iníqui persecúti sunt me,
@@ -238,11 +239,11 @@ export default function PagePent210() {
               vossa palavra. Quando tratareis com justiça os meus perseguidores?
               Homens injustos perseguem-me; auxiliai-me, Senhor!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Immortalitátis alimóniam consecúti, quǽsumus, Dómine: ut, quod ore
               percépimus, pura mente sectémur. Per Dóminum...
@@ -252,7 +253,7 @@ export default function PagePent210() {
               suplicamos, que guardemos com o coração puro aquilo que a nossa
               boca recebeu. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

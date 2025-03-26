@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad60() {
   return (
@@ -25,7 +26,7 @@ export default function PageQuad60() {
 
           <Text className="h3">Antífona</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hosánna fílio David: benedíctus, qui venit in nómine Dómini. O Rex
               Israël: Hosánna in excélsis.
@@ -34,11 +35,11 @@ export default function PageQuad60() {
               Hosana ao filho de David! Bendito seja o que vem em nome do
               Senhor. Ó Rei de Israel! Hosana no alto dos céus!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, quem dilígere et amáre justítia est, ineffábilis grátiæ tuæ
               in nobis dona multíplica: et qui fecísti nos in morte Fílii tui
@@ -52,13 +53,13 @@ export default function PageQuad60() {
               o objecto da nossa Fé, permiti que pela sua ressurreição
               alcancemos o fim a que aspiramos: O qual, sendo Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ex. 15, 27; 16, 1-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Exodi.</Text>
             <Text className="vernacular">Lição do Livro do Êxodo.</Text>
             <Text className="latin">
@@ -142,13 +143,13 @@ export default function PageQuad60() {
               <Text className="versicle"> ℣. </Text>Vigiai e orai, para não
               cairdes em tentação. Na verdade...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 21, 1-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -193,11 +194,11 @@ export default function PageQuad60() {
               os que O precediam, como os que O seguiam, clamavam: «Hosana ao
               Filho de David! Bendito seja o que vem em nome do Senhor!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Auge fidem in te sperántium, Deus, et súpplicum preces cleménter
               exáudi: véniat super nos múltiplex misericórdia tua: bene{" "}
@@ -219,11 +220,11 @@ export default function PageQuad60() {
               pelas nossas boas obras; e que com Ele entremos na alegria eterna:
               Ele que, sendo Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pétimus, Dómine sancte, Pater omnípotens, ætérne Deus: ut hanc
               creatúram olívæ, quam ex ligni matéria prodíre jussísti, quamque
@@ -245,11 +246,11 @@ export default function PageQuad60() {
               um sinal da vossa graça, se convertam em remédio eficaz para as
               nossas enfermidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui dispérsa cóngregas, et congregáta consérvas: qui
               pópulis, óbviam Jesu ramos portántibus, benedixísti: béne{" "}
@@ -271,11 +272,11 @@ export default function PageQuad60() {
               vossa dextra proteja os que foram remidos por Jesus Cristo, vosso
               Filho, nosso Senhor: O qual, sendo Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui miro dispositiónis órdine, ex rebus étiam
               insensibílibus, dispensatiónem nostræ salútis osténdere voluísti:
@@ -321,11 +322,11 @@ export default function PageQuad60() {
               que n’Ele e por Ele triunfemos do império da morte e sejamos
               dignos de participar da sua gloriosa ressurreição: O qual...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui, per olívæ ramum, pacem terris colúmbam nuntiáre
               jussísti: præsta, quǽsumus; ut hos olívæ ceterarúmque arbórum
@@ -342,11 +343,11 @@ export default function PageQuad60() {
               proveito a todo vosso povo para sua salvação. Por Cristo, nosso
               Senhor. <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Bene <Text className="cross"> ✠ </Text> dic, quǽsumus, Dómine, hos
               palmárum seu olivárum ramos: et præsta; ut, quod pópulus tuus in
@@ -363,11 +364,11 @@ export default function PageQuad60() {
               misericordiosa obra por Vós realizada para sua salvação. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui Fílium tuum Jesum Christum, Dóminum nostrum, pro salute
               nostra in hunc mundum misísti, ut se humiliáret ad nos et nos
@@ -390,7 +391,7 @@ export default function PageQuad60() {
               acções brotem junto de Vós ramos de justiça, de sorte que
               mereçamos seguir os vestígios d’Aquele que, sendo Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Distribuição dos Ramos</Text>
 
@@ -398,7 +399,7 @@ export default function PageQuad60() {
 
           <Text className="em">Jo. 12, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pueri Hebræórum, portántes ramos olivárum, obviavérunt Dómino,
               clamántes et dicéntes: Hosánna in excélsis.
@@ -407,13 +408,13 @@ export default function PageQuad60() {
               Os meninos hebreus saíram com ramos de oliveira ao encontro do
               Senhor, clamando e dizendo: «Hosana no alto dos céus!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antífona</Text>
 
           <Text className="em">Mt. 21, 8 & 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pueri Hebræórum vestiménta prosternébant in via et clamábant,
               dicéntes: Hosánna fílio David: benedíctus, qui venit in nómine
@@ -424,11 +425,11 @@ export default function PageQuad60() {
               clamando e dizendo: «Hosana ao Filho de David! Bendito seja o que
               vem em nome do Senhor!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui Dóminum nostrum Jesum Christum
               super pullum ásinæ sedére fecísti, et turbas populórum vestiménta
@@ -446,11 +447,11 @@ export default function PageQuad60() {
               ter parte nos seus merecimentos. Pelo mesmo nosso Senhor Jesus
               Cristo. <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Procissão dos Ramos</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Procedámus in pace.
             </Text>
@@ -463,13 +464,13 @@ export default function PageQuad60() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Em nome de Cristo. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antífona</Text>
 
           <Text className="em">Mt. 21, 1-3, 7, 8 & 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cum appropinquáret Dóminus Jerosólymam, misit duos ex discípulis
               suis, dicens: Ite in castéllum, quod contra vos est: et inveniétis
@@ -495,13 +496,13 @@ export default function PageQuad60() {
               vem em nome do Senhor! Bendito seja o reino de David, nosso Pai!
               Hosana no alto dos céus! Tende piedade de nós, Filho de David!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antífona</Text>
 
           <Text className="em">Jo. 12, 12 & 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cum audísset pópulus, quia Jesus venit Jerosólymam, accepérunt
               ramos palmárum: et exiérunt ei óbviam, et clamábant púeri,
@@ -521,11 +522,11 @@ export default function PageQuad60() {
               escrito. Salve, ó Rei, criador do mundo, que viestes à terra para
               nos resgatar!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antífona</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ante sex dies sollémnis Paschæ, quando venit Dóminus in civitátem
               Jerúsalem, occurrérunt ei pueri: et in mánibus portábant ramos
@@ -540,11 +541,11 @@ export default function PageQuad60() {
               alto dos céus! Sede bendito; pois vindes a nós com a grandeza da
               vossa misericórdia! Hosana no alto dos céus!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antífona</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Occúrrunt turbæ cum flóribus et palmis Redemptóri óbviam: et
               victóri triumphánti digna dant obséquia: Fílium Dei ore gentes
@@ -557,11 +558,11 @@ export default function PageQuad60() {
               Os povos anunciam hoje a grandeza do Filho de Deus. Reboam pelos
               ares as aclamações em honra de Cristo! Hosana no alto dos céus!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antífona</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cum Angelis et púeris fidéles inveniántur, triumphatóri mortis
               damántes: Hosánna in excélsis.
@@ -570,11 +571,11 @@ export default function PageQuad60() {
               Fiéis, unamo-nos aos Anjos e aos meninos e aclamemos o triunfador
               da morte, dizendo: «Hosana no alto dos céus!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Antífona</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Turba multa, quæ convénerat ad diem festum, clamábat Dómino:
               Benedíctus, qui venit in nómine Dómini: Hosánna in excélsis.
@@ -584,9 +585,9 @@ export default function PageQuad60() {
               Senhor, clamando: Bendito o que vem em nome do Senhor! Hosana no
               alto dos céus!
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Glória, laus et honor tibi sit, Rex Christe, Redémptor: Cui
               pueríle decus prompsit Hosánna pium.
@@ -671,11 +672,11 @@ export default function PageQuad60() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Glória, louvor &
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Responsório</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="response"> ℟. </Text> Ingrediénte Dómino in
               sanctam civitátem, Hebræórum púeri resurrectiónem vitæ
@@ -694,7 +695,7 @@ export default function PageQuad60() {
               que Jesus vinha a Jerusalém, saiu ao seu encontro. Empunhando
               ramos de palmeira, clamava: «Hosana no alto dos céus!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Missa de Domingo de Ramos</Text>
 
@@ -702,7 +703,7 @@ export default function PageQuad60() {
 
           <Text className="em">Sl. 21, 20 & 22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, ne longe fácias auxílium tuum a me, ad defensiónem meam
               áspice: líbera me de ore leonis, et a córnibus unicórnium
@@ -718,11 +719,11 @@ export default function PageQuad60() {
               Deus, lançai para mim vossos olhares. Porque me abandonastes? O
               clamor dos meus pecados afastou de mim a salvação.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui humáno generi, ad imitandum
               humilitátis exémplum, Salvatórem nostrum carnem súmere et crucem
@@ -737,13 +738,13 @@ export default function PageQuad60() {
               de seguirmos as lições da sua paciência para merecermos
               comparticipar da sua ressurreição. Pelo mesmo...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Fl. 2, 5-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.
             </Text>
@@ -776,13 +777,13 @@ export default function PageQuad60() {
               céus, na terra e até nos infernos; e todas as línguas confessem
               que Nosso Senhor Jesus Cristo está na glória de Deus Pai!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 72, 24 et 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tenuísti manum déxteram meam: et in voluntáte tua deduxísti me: et
               cum glória assumpsísti me.<Text className="versicle"> ℣. </Text>
@@ -798,13 +799,13 @@ export default function PageQuad60() {
               estive quase a cair, pois eu olhava com indignação para os ímpios,
               vendo a paz que gozavam os pecadores.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 21, 2-9, 18, 19, 22, 24 & 32</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, Deus meus, réspice in me: quare me dereliquísti?
               <Text className="versicle"> ℣. </Text>Longe a salúte mea verba
@@ -861,13 +862,13 @@ export default function PageQuad60() {
               <Text className="versicle"> ℣. </Text>Ao povo, que há-de nascer,
               ensinarão que o Senhor O fez aparecer.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 26, 1-75; 27, 1-66</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Passio Dómini nostri Jesu
               Christi secúndum Matthǽum.
@@ -1618,7 +1619,7 @@ export default function PageQuad60() {
               se retirou. Estavam, ali, Maria Madalena e a outra Maria,
               assentadas, defronte do sepulcro.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Interrompe-se aqui a leitura e diz-se o
@@ -1626,7 +1627,7 @@ export default function PageQuad60() {
             Depois continua-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Altera autem die, quæ est post Parascéven, convenérunt príncipes
               sacerdótum et pharisǽi ad Pilátum, dicéntes: Dómine, recordáti
@@ -1650,13 +1651,13 @@ export default function PageQuad60() {
               guardai-o, como entenderdes». Eles, pois, foram, cimentaram o
               sepulcro, selaram a pedra e puseram-lhe guardas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 68, 21-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Impropérium exspectávit cor meum et misériam: et sustínui, qui
               simul mecum contristarétur, et non fuit: consolántem me quæsívi,
@@ -1669,11 +1670,11 @@ export default function PageQuad60() {
               me consolasse e não achei ninguém! E deram-me fel para comer e
               vinagre para mitigar a sede!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, Dómine: ut oculis tuæ majestátis munus oblátum,
               et grátiam nobis devotionis obtineat, et efféctum beátæ
@@ -1685,13 +1686,13 @@ export default function PageQuad60() {
               pia devoção e nos assegure a posse da eterna felicidade. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 26, 42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pater, si non potest hic calix transíre, nisi bibam illum: fiat
               volúntas tua.
@@ -1700,11 +1701,11 @@ export default function PageQuad60() {
               Meu Pai, se este cálice não pode passar sem que Eu o beba, faça-se
               a vossa vontade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per hujus, Dómine, operatiónem mystérii: et vitia nostra
               purgéntur, et justa desidéria compleántur. Per Dóminum nostrum...
@@ -1714,13 +1715,13 @@ export default function PageQuad60() {
               dos nossos vícios e cumulados de desejos santos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Último Evangelho</Text>
 
           <Text className="em">Mt. 21, 1-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -1765,7 +1766,7 @@ export default function PageQuad60() {
               os que O precediam, como os que O seguiam, clamavam: «Hosana ao
               Filho de David. Bendito seja O que vem em nome do Senhor!».
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

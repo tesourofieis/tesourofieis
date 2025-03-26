@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent14() {
   return (
@@ -14,7 +15,7 @@ export default function PagePent14() {
 
           <Text className="em">Sl. 80, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cibávit eos ex ádipe fruménti, allelúja: et de petra, melle
               saturávit eos, allelúja, allelúja, allelúja.{" "}
@@ -30,11 +31,11 @@ export default function PagePent14() {
               Deus de Jacob.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nobis sub Sacraménto mirábili passiónis tuæ memóriam
               reliquísti: tríbue, quǽsumus, ita nos Córporis et Sánguinis tui
@@ -48,13 +49,13 @@ export default function PagePent14() {
               sintamos perpetuamente no nosso íntimo o fruto da vossa Redenção.
               Vós, que, viveis e reinais...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Cor. 11, 23-29</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epistolæ beáti Pauli Apóstoli ad Corinthios.
             </Text>
@@ -92,13 +93,13 @@ export default function PagePent14() {
               que come e bebe indignamente, come e bebe a sua própria
               condenação, não distinguindo o Corpo do Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 144, 15-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oculi ómnium in te sperant, Dómine: et tu das illis escam in
               témpore opportúno.<Text className="versicle"> ℣. </Text>Aperis tu
@@ -124,13 +125,13 @@ export default function PagePent14() {
               pois, que come a minha carne e bebe o meu sangue permanece em mim
               e Eu nele.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Sequência</Text>
 
           <Text className="em">St. Tomás Aquino</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Láuda Síon Salvatórem, Láuda dúcem et pastórem, In hýmnis et
               cánticis. Louva, ó Sião, louva o teu Salvador! Louva com hinos e
@@ -286,13 +287,13 @@ export default function PagePent14() {
               habitantes da cidade celestial.{" "}
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 6, 56-59</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangéli
               secúndum Joánnem.
@@ -320,13 +321,13 @@ export default function PagePent14() {
               havendo morrido mais tarde. Quem comer este pão viverá
               eternamente».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Lv. 21, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacerdótes Dómini incénsum it panes ófferunt Deo: et deo sancti
               erunt Deo suo, et lon pólluent nomen ejus, allelúja.
@@ -335,11 +336,11 @@ export default function PagePent14() {
               Os sacerdotes do Senhor oferecem a Deus incenso e pães: eis porque
               serão santos diante de Deus e não profanarão o seu nome, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecclésiæ tuæ, quǽsumus, Dómine, unitátis et pacis propítius dona
               concéde: quæ sub oblátis munéribus mýstice designántur. Per
@@ -350,13 +351,13 @@ export default function PagePent14() {
               da unidade e da paz, que misticamente se figuram nas ofertas que
               Vos apresentamos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">1 Cor. 11, 26-27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quotiescúmque manducábitis panem hunc et cálicem bibétis, mortem
               Dómini annuntiábitis, donec véniat: itaque quicúmque manducáverit
@@ -369,11 +370,11 @@ export default function PagePent14() {
               aquele que comer este Pão ou beber este Cálice indignamente será
               réu do Corpo e do Sangue do Senhor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fac nos, quǽsumus, Dómine, divinitátis tuæ sempitérna fruitióne
               repléri: quam pretiósi Corporis et Sanguinis tui temporalis
@@ -385,7 +386,7 @@ export default function PagePent14() {
               recepção temporal do vosso Corpo e Sangue preciosíssimos. Ó Vós,
               que viveis e...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

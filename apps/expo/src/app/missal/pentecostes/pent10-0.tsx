@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent100() {
   return (
@@ -14,7 +15,7 @@ export default function PagePent100() {
 
           <Text className="em">Sl. 54, 17, 18, 20 & 23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cum clamárem ad Dóminum, exaudívit vocem meam, ab his, qui
               appropínquant mihi: et humiliávit eos, qui est ante sǽcula et
@@ -33,11 +34,11 @@ export default function PagePent100() {
               minha oração e não desprezeis a minha humilde súplica: escutai-me,
               ouvi-me.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui omnipoténtiam tuam parcéndo máxime et miserándo
               maniféstas: multíplica super nos misericórdiam tuam; ut, ad tua
@@ -51,13 +52,13 @@ export default function PagePent100() {
               durante esta vida pelos bens que nos prometestes, nos tornamos
               participantes deles no céu. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Cor 12, 2-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -99,13 +100,13 @@ export default function PagePent100() {
               interpretar. É, porém, só um e o mesmo Espírito que produz todos
               este dons, distribuindo-os a cada um em particular como Lhe apraz.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 16, 8 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum
               prótege me.<Text className="versicle"> ℣. </Text>De vultu tuo
@@ -128,13 +129,13 @@ export default function PagePent100() {
               Senhor, é conveniente cantar hinos em Sião: diante de Vós deve
               cada um cumprir os seus votos em Jerusalém. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 18, 9-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -171,13 +172,13 @@ export default function PagePent100() {
               para sua casa justificado, mas não o outro; pois quem se eleva
               será humilhado, e quem se humilha será exaltado».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 24, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non
               erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te
@@ -188,11 +189,11 @@ export default function PagePent100() {
               que e confundido e envergonhado: nem vencido meus inimigos;
               porquanto aqueles que em Vós confiam não serão confundidos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tibi, Dómine, sacrifícia dicáta reddántur: quæ sic ad honórem
               nóminis tui deferénda tribuísti, ut eadem remédia fíeri nostra
@@ -204,13 +205,13 @@ export default function PagePent100() {
               vosso nome, os tornastes remédio das nossas almas. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 50, 21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Acceptábis sacrificium justítiæ, oblatiónes et holocáusta, super
               altáre tuum, Dómine.
@@ -219,11 +220,11 @@ export default function PagePent100() {
               Dignai-Vos, Senhor, aceitar sobre o vosso Altar o sacrifício da
               justiça, as ofertas e os holocaustos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, Dómine, Deus noster: ut, quos divínis reparáre non
               désinis sacraméntis, tuis non destítuas benígnus auxíliis. Per
@@ -234,7 +235,7 @@ export default function PagePent100() {
               àqueles a quem não cessais de alimentar com os divinos
               sacramentos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

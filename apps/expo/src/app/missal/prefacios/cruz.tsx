@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageCruz() {
   return (
@@ -15,7 +16,7 @@ export default function PageCruz() {
             Santa, excepto nas Festas de Nossa Senhora e de S. José.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
@@ -41,7 +42,7 @@ export default function PageCruz() {
               transportes de alegria: aos quais, Vos suplicamos, permiti que se
               unam as nossas vozes, dizendo em humilde e suplicante confissão:
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

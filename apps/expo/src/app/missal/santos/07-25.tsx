@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0725() {
   return (
@@ -36,7 +37,7 @@ export default function Page0725() {
 
           <Text className="em">Sl. 138, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem nimis bonoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.{" "}
@@ -52,11 +53,11 @@ export default function Page0725() {
               conhecendo quando me deito e quando me levanto.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Esto, Dómine, plebi tuæ sanctificátor et custos: ut, Apóstoli tui
               Jacóbi muníta præsídiis, et conversatióne tibi pláceat, et secúra
@@ -68,13 +69,13 @@ export default function Page0725() {
               agradável pela sua sã conduta e Vos sirva com tranquilidade de
               espírito. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Cor. 4, 9-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
             </Text>
@@ -113,13 +114,13 @@ export default function Page0725() {
               Cristo, nem por isso teríeis muitos pais, visto que fui eu que
               pelo Evangelho vos gerei em Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 17 & 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Constítues eos príncipes super omnem terram: mémores erunt nóminis
               tui, Dómine.<Text className="versicle"> ℣. </Text>Pro pátribus
@@ -143,13 +144,13 @@ export default function Page0725() {
               irdes pelo mundo e alcançardes fruto; e que o vosso fruto
               permaneça. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 20, 20-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -180,13 +181,13 @@ export default function Page0725() {
               lugar à minha direita ou à minha esquerda, pois isso é para
               aqueles para quem meu Pai o preparou».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 18, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In omnem terram exívit sonus eórum: et in fines orbis terræ verba
               eórum.
@@ -195,11 +196,11 @@ export default function Page0725() {
               O som da sua voz ecoou por toda a terra; e as suas palavras
               prolongaram-se até às extremidades da terra.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Oblatiónes pópuli tui, quǽsumus, Dómine, beáti Jacóbi Apóstoli
               pássio beáta concíliet: et, quæ nostris non aptæ sunt méritis,
@@ -212,13 +213,13 @@ export default function Page0725() {
               fazei que sua deprecação Vo-las torne agradáveis. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 19, 28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vos, qui secúti estis me, sedébitis super sedes, judicántes
               duódecim tribus Israël.
@@ -227,11 +228,11 @@ export default function Page0725() {
               Vós, que me seguistes, assentar-vos-eis sobre tronos e julgareis
               as doze tribos de Israel.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáti Apóstoli tui Jacóbi, quǽsumus, Dómine, intercessióne nos
               ádjuva: pro cujus festivitáte percépimus tua sancta lætántes. Per
@@ -242,7 +243,7 @@ export default function Page0725() {
               Apóstolo Tiago, em cuja festa recebemos com júbilo os sacrossantos
               méritos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

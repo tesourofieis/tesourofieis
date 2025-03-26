@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page23Penitentespublicos() {
   return (
@@ -12,7 +13,7 @@ export default function Page23Penitentespublicos() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, confidéntibus tibi fámulis tuis pro
               tua pietáte reláxa peccáta: ut non ámplius eis nóceat consciéntias
@@ -27,11 +28,11 @@ export default function Page23Penitentespublicos() {
               incorreram do que a vossa misericórdia lhes foi útil para o
               perdão. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens et miséricors Deus: ut hæc salutáris
               oblátio fámulos tuos et a própriis reátibus indesinénter expédiat,
@@ -43,11 +44,11 @@ export default function Page23Penitentespublicos() {
               contraíram e os proteja contra tudo o que lhes seja nocivo. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens et miséricors Deus, qui omnem ánimam pœniténtem et
               confiténtem tibi magis vis emendáre, quam pérdere: réspice super
@@ -63,7 +64,7 @@ export default function Page23Penitentespublicos() {
               cima das suas cabeças a ira da vossa indignação e perdoai-lhes os
               pecados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

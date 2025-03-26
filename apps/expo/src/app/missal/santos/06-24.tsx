@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0624() {
   return (
@@ -16,7 +17,7 @@ export default function Page0624() {
 
           <Text className="em">Is. 49, 1 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               De ventre matris meæ vocávit me Dóminus in nómine meo: et pósuit
               os meum ut gládium acútum: sub teguménto manus suæ protéxit me, et
@@ -33,11 +34,11 @@ export default function Page0624() {
               bom louvar o Senhor; e cantar o vosso nome, ó Altíssimo.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui præséntem diem honorábilem nobis in beáti Joánnis
               nativitáte fecísti: da pópulis tuis spirituálium grátiam
@@ -50,13 +51,13 @@ export default function Page0624() {
               espirituais; e guiai os corações de todos vossos fiéis pelo
               caminho da salvação eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Is. 49, 1-3, 5, 6 & 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -84,13 +85,13 @@ export default function Page0624() {
               príncipes se erguerão e te adorarão por causa do Senhor e do santo
               de Israel que te escolheu».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Jr. 1, 5 & 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Priusquam te formárem in útero, novi te: et ántequam exíres de
               ventre, santificávi te.<Text className="versicle"> ℣. </Text>Misit
@@ -114,13 +115,13 @@ export default function Page0624() {
               chamado Profeta do Altíssimo; pois caminharás adiante do Senhor
               para preparar as suas vias. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 1, 57-68</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -168,13 +169,13 @@ export default function Page0624() {
               profetizou, dizendo: «Bendito seja o Senhor, Deus de Israel, que
               visitou e resgatou o seu povo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 91, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justus ut palma florébit: sicut cedrus, quæ in Líbano est,
               multiplicábitur.
@@ -183,11 +184,11 @@ export default function Page0624() {
               O justo florescerá, como a palmeira, e crescerá, como o cedro do
               Líbano.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tua, Dómine, munéribus altária cumulámus: illíus nativitátem
               honóre débito celebrántes, qui Salvatórem mundi et cécinit ad
@@ -201,13 +202,13 @@ export default function Page0624() {
               presença de nosso Senhor Jesus Cristo, vosso Filho: Que vive e
               reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 1, 76</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tu, puer, Propheta Altíssimi vocaberis: præíbis enim ante fáciem
               Dómini paráre vias ejus.
@@ -216,11 +217,11 @@ export default function Page0624() {
               Tu, ó menino, serás chamado Profeta do Altíssimo; pois caminharás
               adiante do Senhor para preparar as suas vias.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumat Ecclésia tua, Deus, beáti Joánnis Baptístæ generatióne
               lætítiam: per quem suæ regeneratiónis cognóvit auctórem, Dóminum
@@ -232,7 +233,7 @@ export default function Page0624() {
               regeneração: nosso Senhor Jesus Cristo, vosso Filho: Que vive e
               reina...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

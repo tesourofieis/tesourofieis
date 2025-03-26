@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageTelucis() {
   return (
@@ -10,7 +11,7 @@ export default function PageTelucis() {
         <View className="docs">
           <Text className="h1">Te lucis</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Te lucis ante términum, Rerum Creátor, póscimus, Ut pro tua
               cleméntia Sis præsul et custódia.
@@ -36,7 +37,7 @@ export default function PageTelucis() {
               único, igual ao Pai, que reinais com o Espírito Paráclito em todos
               os séculos. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

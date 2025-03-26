@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent30() {
   return (
@@ -14,7 +15,7 @@ export default function PagePent30() {
 
           <Text className="em">Sl. 24, 16 & 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réspice in me et miserére mei, Dómine: quóniam únicus et pauper
               sum ego: vide humilitátem meam et labórem meum: et dimítte ómnia
@@ -32,11 +33,11 @@ export default function PagePent30() {
               que fique envergonhado.<Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Protéctor in te sperántium, Deus, sine quo nihil est válidum,
               nihil sanctum: multíplica super nos misericórdiam tuam; ut, te
@@ -50,13 +51,13 @@ export default function PagePent30() {
               Vós, transitemos de tal modo pelos bens terrenos que não deixemos
               de gozar os eternos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Pe. 5, 6-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
             <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
             <Text className="latin">
@@ -83,13 +84,13 @@ export default function PagePent30() {
               aperfeiçoará, confirmará e fortificará. A Ele seja dada glória e
               soberania em todos os séculos dos séculos! Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 54, 23, 17 & 19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Jacta cogitátum tuum in Dómino: et ipse te enútriet.
               <Text className="versicle"> ℣. </Text>Dum clamárem ad Dóminum,
@@ -111,13 +112,13 @@ export default function PagePent30() {
               forte e paciente: sua ira manifesta-se, porventura, todos os dias?
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 15, 1-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -165,13 +166,13 @@ export default function PagePent30() {
               perdera?». Assim, vos digo: «Haverá muita alegria perante os Anjos
               de Deus por um só pecador que faça penitência».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 9, 11-12 & 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sperent in te omnes, qui novérunt nomen tuum, Dómine: quóniam non
               derelínquis quæréntes te: psállite Dómino, qui hábitat in Sion:
@@ -182,11 +183,11 @@ export default function PagePent30() {
               nunca abandonais os que a Vós recorrem. Cantai hinos ao Senhor,
               que habita em Sião. Ele se não esqueceu da oração dos pobres.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réspice, Dómine, múnera supplicántis Ecclésiæ: et salúti
               credéntium perpétua sanctificatióne suménda concéde. Per
@@ -198,13 +199,13 @@ export default function PagePent30() {
               santamente, e com fruto para a sua santificação. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 15, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dico vobis: gáudium est Angelis Dei super uno peccatóre
               pœniténtiam agénte.
@@ -213,11 +214,11 @@ export default function PagePent30() {
               Vos digo: há muita alegria perante os Anjos de Deus por um só
               pecador que faça penitência.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sancta tua nos, Dómine, sumpta vivíficent: et misericórdiæ
               sempitérnæ prǽparent expiátos. Per Dóminum nostrum...
@@ -227,7 +228,7 @@ export default function PagePent30() {
               que, servindo de expiação dos nossos pecados, nos torne dignos da
               misericórdia eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

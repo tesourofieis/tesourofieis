@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageActocontricao() {
   return (
@@ -10,7 +11,7 @@ export default function PageActocontricao() {
         <View className="docs">
           <Text className="h1">Acto de Contrição</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus meus, ex toto corde pǽnitet me ómnium meórum peccatórum,
               éaque detéstor, quia peccándo, non solum pœnas a te juste statútas
@@ -27,7 +28,7 @@ export default function PageActocontricao() {
               firmemente, com a ajuda da vossa graça, não mais pecar e fugir das
               ocasiões próximas de pecar. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

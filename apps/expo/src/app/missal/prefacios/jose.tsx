@@ -1,6 +1,7 @@
 import { View } from "react-native";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageJose() {
   return (
@@ -16,7 +17,7 @@ export default function PageJose() {
             Festividade).
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vere dignum et justum est, æquum et salutáre, nos tibi semper et
               ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
@@ -46,7 +47,7 @@ export default function PageJose() {
               comuns transportes. Dignai-Vos permitir, Vos suplicamos, que as
               nossas vozes se unam às deles, dizendo em suplicante confissão:
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

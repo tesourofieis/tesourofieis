@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0313Portugal() {
@@ -17,7 +18,7 @@ export default function Page0313Portugal() {
 
           <Text className="em">Sl. 44, 9 & 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Delectavérunt te, Deus, fíliæ regum in honóre tuo: afferéntur
               vírgines in lætítia et exultatióne: adducéntur in templum Regis
@@ -34,11 +35,11 @@ export default function Page0313Portugal() {
               exprimiu uma palavra sublime: «Consagro ao Rei as minhas obras».
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátas Virgines Sanciam et Mafáldam, mundáno principátu
               et sæculi pompa despéctis, a terrénis ad cæléstes Agni núptias
@@ -53,7 +54,7 @@ export default function Page0313Portugal() {
               interesses terrenos, possam compartilhar do gozo dos bens
               celestiais. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
@@ -66,7 +67,7 @@ export default function Page0313Portugal() {
 
           <Text className="em">Sl. 148, 12-13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vírgines laudent nomen Dómini: quia exaltátum est nomen ejus
               solíus.<Text className="versicle"> ℣. </Text>
@@ -78,13 +79,13 @@ export default function Page0313Portugal() {
               exaltado.<Text className="versicle"> ℣. </Text>Esta pertence à
               gereção das que procuram a face de Deus de Jacob.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 44, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sedes tua, Deus, in sæculum sæculi: virga directiónis virga regni
               tui. <Text className="latin">Ps. ibid., 13 & 10</Text> Vultum tuum
@@ -102,7 +103,7 @@ export default function Page0313Portugal() {
               <Text className="em">Ps. ibid., 16</Text> Virão em transportes de
               alegria e de júbilo: e serão conduzidas ao templo do Rei e Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -113,7 +114,7 @@ export default function Page0313Portugal() {
 
           <Text className="h3">Ofertório</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Prudéntes virgines, apostáte vestras lámpades: Ecce Sponsus venit,
               exite óbviam Christo Dómino.
@@ -122,11 +123,11 @@ export default function Page0313Portugal() {
               Ó virgens prudentes, preparai as vossas lâmpadas: eis aí vem o
               Esposo; ide ao encontro de Cristo Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Immaculátam hóstiam tibi Dómine offérimus deprecántes: ut beatárum
               Virginum Sánciæ et Mafáldæ interveniénte suffrágio, semper in
@@ -139,13 +140,13 @@ export default function Page0313Portugal() {
               sempre a memória e o fruto da Paixão do vosso amado Filho. Pelo
               mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Pr. 4, 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               O quam pulchra est casta generátio cum claritáte: immortális est
               enim memória illíus, quóniam et apud Deum nota est, et apud
@@ -156,11 +157,11 @@ export default function Page0313Portugal() {
               brilho da virtude! Sua memória é imortal; pois ela é louvada
               diante de Deus e dos homens.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Spíritum nobis, Dómine, humilitátis et caritátis tribuat hæc mensa
               cæléstis: qua reféctæ beátæ Virgines Sáncia et Mafálda, sæculi
@@ -173,7 +174,7 @@ export default function Page0313Portugal() {
               força para se libertarem das vaidades do mundo e alcançarem a
               glória eterna. Por nosso Senhor Jesus Cristo...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

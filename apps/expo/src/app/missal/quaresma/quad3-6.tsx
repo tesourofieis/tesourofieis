@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad36() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad36() {
 
           <Text className="em">Sl. 5, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Verba mea áuribus pércipe, Dómine, intéllege clamórem meum:
               inténde voci oratiónis meæ, Rex meus et Deus meus.{" "}
@@ -29,11 +30,11 @@ export default function PageQuad36() {
               Orarei, Senhor; desde manhã ouvireis a minha voz.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui se, affligéndo carnem,
               ab aliméntis ábstinent; sectándo justítiam, a culpa jejúnent. Per
@@ -45,13 +46,13 @@ export default function PageQuad36() {
               absterem também das culpas, praticando sempre a virtude. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Dn. 13, 1-9, 15-17, 19-30 & 33-62</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Daniélis Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Daniel.</Text>
             <Text className="latin">
@@ -239,13 +240,13 @@ export default function PageQuad36() {
               fizeram-lhes o mal que eles queriam fazer ao seu próximo, isto é,
               mataram-nos. E naquele dia foi salvo o sangue inocente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 22, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Si ámbulem in médio umbræ mortis, non timébo mala: quóniam tu
               mecum es, Dómine.<Text className="versicle"> ℣. </Text>Virga tua
@@ -257,13 +258,13 @@ export default function PageQuad36() {
               <Text className="versicle"> ℣. </Text>Vossa vara e o vosso báculo
               confortam-me.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 8, 1-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -310,13 +311,13 @@ export default function PageQuad36() {
               disse: «Ninguém, Senhor». Jesus continuou: «Nem eu também te
               condenarei. Vai e não tornes a pecar».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 118, 133</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gressus meos dírige secúndum elóquium tuum: ut non dominétur mei
               omnis injustítia, Dómine.
@@ -325,11 +326,11 @@ export default function PageQuad36() {
               Dirigi os meus passos segundo os vossos preceitos, Senhor; permiti
               que não domine em mim iniquidade alguma.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, omnípotens Deus: ut hujus sacrifícii munus
               oblátum, fragilitátem nostram ab omni malo purget semper et
@@ -340,13 +341,13 @@ export default function PageQuad36() {
               deste sacrifício, que Vos oferecemos, nos livre de todos os males
               da nossa fraqueza e nos fortaleça. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 8, 10 & 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Nemo te condemnávit, mulier? Nemo, Dómine. Nec ego te condemnábo:
               jam ámplius noli peccáre.
@@ -355,11 +356,11 @@ export default function PageQuad36() {
               Mulher, ninguém te condenou? Ninguém, Senhor. Nem Eu, também, te
               condenarei. Vai e não tornes a pecar.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut inter ejus membra numerémur, cujus
               córpori communicámus et sánguini: Qui tecum...
@@ -369,11 +370,11 @@ export default function PageQuad36() {
               número dos membros d’Aquele que nos admitiu à comunhão do seu
               Corpo e do seu Sangue. Ele...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -395,7 +396,7 @@ export default function PageQuad36() {
               todo o coração e consigam alcançar o que dignamente suplicam. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

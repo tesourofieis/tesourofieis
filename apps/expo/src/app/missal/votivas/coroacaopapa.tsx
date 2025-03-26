@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageCoroacaopapa() {
   return (
@@ -26,7 +27,7 @@ export default function PageCoroacaopapa() {
             No Tempo Pascal, em vez do Gradual e do Trato, diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 106, 8</Text> Confitébitur Dómino
@@ -44,7 +45,7 @@ export default function PageCoroacaopapa() {
               <Text className="em">Mt. 16, 18</Text> Tu és Pedro, e sobre esta
               pedra edificarei a minha Igreja.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

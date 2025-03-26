@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page18Tempestades() {
   return (
@@ -12,7 +13,7 @@ export default function Page18Tempestades() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               A domo tua, quǽsumus Dómine, spiritáles nequítiæ repellántur: et
               aëriárum discédat malígnitas tempestátum. Per Dóminum nostrum...
@@ -22,11 +23,11 @@ export default function Page18Tempestades() {
               males das tempestades e repelir os flagelos das tormentas dos
               ares. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Offérimus tibi, Dómine, laudes et múnera, pro concéssis benefíciis
               grátias referéntes, et pro concedéndis semper supplíciter
@@ -38,11 +39,11 @@ export default function Page18Tempestades() {
               que não cesseis de nos dispensar outras graças. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui nos et castigándo sanas et
               ignoscéndo consérvas: præsta supplícibus tuis; ut et
@@ -56,7 +57,7 @@ export default function Page18Tempestades() {
               tranquilidade da consolação, tão desejada, e de possuirmos sempre
               o dom da vossa piedade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

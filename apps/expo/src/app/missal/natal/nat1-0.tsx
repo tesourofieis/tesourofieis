@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageNat10() {
   return (
@@ -14,7 +15,7 @@ export default function PageNat10() {
 
           <Text className="em">Sb. 18, 14-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dum médium siléntium tenérent ómnia, et nox in suo cursu médium
               iter háberet, omnípotens Sermo tuus, Dómine, de cœlis a regálibus
@@ -32,11 +33,11 @@ export default function PageNat10() {
               e cingiu-se com o poder.<Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per
               carnem Natívitas líberet; quos sub peccáti jugo vetústa sérvitus
@@ -48,13 +49,13 @@ export default function PageNat10() {
               sejamos dignos de praticar abundantes boas obras. Ele, que, sendo
               Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Gl. 4, 1-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beati Pauli Apostoli ad Gálatas.
             </Text>
@@ -85,13 +86,13 @@ export default function PageNat10() {
               assim, já nenhum de vós é escravo, mas filho. E, sendo seus
               filhos, sois também herdeiros, por intervenção de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 3 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Speciósus forma præ filiis hóminum: diffúsa est gratia in lábiis
               tuis.<Text className="versicle"> ℣. </Text>Eructávit cor meum
@@ -116,13 +117,13 @@ export default function PageNat10() {
               Senhor revestiu-se de glória e reina: O Senhor revestiu-se de
               autoridade e cingiu-se com o poder. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 2, 33-40</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -167,13 +168,13 @@ export default function PageNat10() {
               Entretanto, o Menino crescia, fortalecia-se e era cheio de
               sabedoria: e a graça de Deus habitava n’Ele.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 92, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus firmávit orbem terræ, qui non commovébitur: paráta sedes tua,
               Deus, ex tunc, a sǽculo tu es.
@@ -183,11 +184,11 @@ export default function PageNat10() {
               destruído. Ó Deus, o vosso trono estava elevado desde a
               eternidade, pois Vós existis antes dos séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, omnípotens Deus: ut óculis tuæ majestátis munus
               oblátum, et grátiam nobis piæ devotiónis obtineat, et efféctum
@@ -199,13 +200,13 @@ export default function PageNat10() {
               graça de uma piedosa devoção e nos assegurem a posse da eterna
               felicidade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 2, 20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tolle Púerum et Matrem ejus, et vade in terram Israël: defúncti
               sunt enim, qui quærébant ánimam Púeri.
@@ -214,11 +215,11 @@ export default function PageNat10() {
               Toma o Menino e sua Mãe, e volta para a terra de Israel, pois são
               mortos os que queriam atentar contra a vida do Menino.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Per hujus, Dómine, operatiónem mystérii, et vitia nostra
               purgéntur, et justa desidéria compleántur. Per Dóminum...
@@ -228,7 +229,7 @@ export default function PageNat10() {
               purificados dos nossos vícios, e que vejamos realizados os nossos
               justos desejos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

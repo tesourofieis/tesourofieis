@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page1020() {
@@ -15,7 +16,7 @@ export default function Page1020() {
 
           <Text className="em">Sl. 91, 13-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Miserátio hóminis circa próximum: misericórdia autem Dei super
               omnem carnem. Qui misericórdiam habet, docet et érudit quasi
@@ -33,11 +34,11 @@ export default function Page1020() {
               nem seguiu os caminhos dos pecadores, nem se assentou na cadeira
               da maldade.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, omnípotens Deus: ut, sancti Joánnis Confessóris
               exémplo in scientia Sanctórum proficiéntes atque áliis
@@ -50,13 +51,13 @@ export default function Page1020() {
               próximo, a exemplo do Santo Confessor João, obtenhamos pelos seus
               méritos a vossa indulgência. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Tg. 2, 12-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Jacóbi Apóstoli.
             </Text>
@@ -85,13 +86,13 @@ export default function Page1020() {
               palavras? Assim, se a fé não é acompanhada de obras, está morta
               por si própria.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 106, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Confiteántur Dómino misericórdiæ ejus: et mirabília ejus fíliis
               hóminum.<Text className="versicle"> ℣. </Text>Quia satiávit ánimam
@@ -113,7 +114,7 @@ export default function Page1020() {
               <Text className="vernacular">Pr. 31, 20</Text> Abriu a sua mão
               para o indigente: e estendeu os seus braços para o pobre. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -126,7 +127,7 @@ export default function Page1020() {
 
           <Text className="em">Jb 29, 14-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Justítia indútus sum, et vestívi me, sicut vestiménto et
               diadémate, judício meo. Oculus fui cæco et pes claudo: pater eram
@@ -137,11 +138,11 @@ export default function Page1020() {
               que de vestido e de diadema. Tenho sido olhos para o cego e pés
               para o coxo. Tenho sido o pai dos pobres.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Has, quǽssumus, Dómine, hóstias sancti Joánnis Confessóris tui
               méritis benígnus assúme: et præsta; ut, te super ómnia et omnes
@@ -155,13 +156,13 @@ export default function Page1020() {
               agradáveis a Deus pelos nossos sentimentos e obras. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 6, 38</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Date, et dábitur vobis: mensúram bonam et confértam et coagitátam
               et supereffluéntem dabunt in sinum vestrum.
@@ -170,11 +171,11 @@ export default function Page1020() {
               Dai e ser-vos-á dado: derramar-se-á no vosso seio uma boa medida,
               cheia, calcada, acogulada e a trasbordar.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pretiósi Córporis et Sánguinis tui, Dómine, pasti delíciis, tuam
               súpplices deprecámur clementiam: ut, sancti Joánnis Confessóris
@@ -188,7 +189,7 @@ export default function Page1020() {
               João, nos tornemos imitadores da sua caridade e compartilhemos
               também da sua glória. Ó Vós, que viveis e reinais...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

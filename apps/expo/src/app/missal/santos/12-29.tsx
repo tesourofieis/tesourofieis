@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1229() {
   return (
@@ -14,7 +15,7 @@ export default function Page1229() {
 
           <Text className="h3">Intróito</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
               beáti Thomæ Mártyris: de cujus passióne gaudent Angeli et
@@ -30,11 +31,11 @@ export default function Page1229() {
               Senhor hinos de alegria! É aos corações rectos que incumbe louvar
               o Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, pro cujus Ecclésia gloriósus Póntifex Thomas gládiis
               impiórum occúbuit: præsta, quǽsumus; ut omnes, qui ejus implórant
@@ -47,13 +48,13 @@ export default function Page1229() {
               que imploram o seu auxílio obtenham o efeito salutar de suas
               súplicas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Heb. 5, 1-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
             </Text>
@@ -85,13 +86,13 @@ export default function Page1229() {
               Filho; gerei-te hoje». E também lhe disse em outra ocasião: «Tu és
               sacerdote para sempre, segundo a ordem de Melquisedeque».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Ecl. 44, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce Sacérdos magnus, qui in diébus suis plácuit Deo.
               <Text className="versicle"> ℣. </Text>
@@ -115,13 +116,13 @@ export default function Page1229() {
               Pastor: eu conheço as minhas ovelhas e as minhas ovelhas
               conhecem-me. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 10, 11-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secundum Joannem.
@@ -155,13 +156,13 @@ export default function Page1229() {
               a este aprisco; mas é preciso que eu as atraia e ouçam a minha
               voz, para que não haja senão um só aprisco e um só Pastor».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 20, 4-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Posuísti, Dómine, in capite ejus corónam de lápide pretióso: vitam
               pétiit a te, et tribuísti ei, allelúja.
@@ -170,11 +171,11 @@ export default function Page1229() {
               Impusestes na sua cabeça, Senhor, uma coroa de pedras preciosas; e
               concedestes-lhe a vida que Vos Implorou. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera tibi, Dómine, dicáta sanctífica: et, intercedénte beáto
               Thoma Mártyre tuo atque Pontífice, per éadem nos placátus inténde.
@@ -186,13 +187,13 @@ export default function Page1229() {
               dos mesmos dons, dignai-Vos olhar aplacado para nós. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 10, 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ego sum pastor bonus: et cognósco oves meas, et cognóscunt me meæ.
             </Text>
@@ -200,11 +201,11 @@ export default function Page1229() {
               Eu sou o bom Pastor: conheço as minhas ovelhas e as minhas ovelhas
               conhecem-me.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáto
               Thoma Mártyre tuo atque Pontífice, cœléstis remédii fáciat esse
@@ -215,7 +216,7 @@ export default function Page1229() {
               intercedendo o B. Tomás, vosso Mártir e Pontífice, nos torne
               participantes do remédio celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

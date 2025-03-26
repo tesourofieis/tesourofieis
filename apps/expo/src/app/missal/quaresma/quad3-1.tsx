@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageQuad31() {
@@ -15,7 +16,7 @@ export default function PageQuad31() {
 
           <Text className="em">Sl. 55, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In Deo laudábo verbum, in Dómino laudábo sermónem: in Deo sperábo,
               non timebo, quid fáciat mihi homo.{" "}
@@ -32,11 +33,11 @@ export default function PageQuad31() {
               continuamente e enche-me de tribulações.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Córdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde:
               ut, sicut ab escis carnálibus abstinémus; ita sensus quoque
@@ -48,13 +49,13 @@ export default function PageQuad31() {
               carnais, assim também guardemos os nossos sentidos dos perigosos
               excessos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">4 Rs. 5, 1-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Regum.</Text>
             <Text className="vernacular">Lição do Livro dos Reis.</Text>
             <Text className="latin">
@@ -138,13 +139,13 @@ export default function PageQuad31() {
               «Verdadeiramente, conheço que não existe outro Deus em toda a
               terra senão aquele que existe em Israel!».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 55, 9 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, vitam meam annuntiávi tibi: posuísti lácrimas meas in
               conspéctu tuo.<Text className="versicle"> ℣. </Text>Miserére mei,
@@ -157,7 +158,7 @@ export default function PageQuad31() {
               Deus, pois o homem espezinhou-me: continuamente me persegue e
               enche de tribulações.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
@@ -170,7 +171,7 @@ export default function PageQuad31() {
 
           <Text className="em">Lc. 4, 23-30</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -212,13 +213,13 @@ export default function PageQuad31() {
               edificada, para daí O precipitarem! Porém, Jesus, passando pelo
               meio deles, se retirou.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 54, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam:
               inténde in me, et exáudi me.
@@ -227,11 +228,11 @@ export default function PageQuad31() {
               Ouvi a minha oração, ó Deus, e não desprezeis a minha súplica:
               atendei-me, escutai-me.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Munus, quod tibi, Dómine, nostræ servitútis offérimus, tu salutáre
               nobis pérfice sacraméntum. Per Dóminum nostrum...
@@ -241,13 +242,13 @@ export default function PageQuad31() {
               nossa sujeição, se torne para nós em um sacramento salutar. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 13, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quis dabit ex Sion salutáre Israël? cum avértent Dóminus
               captivitátem plebis suæ, exsultábit Jacob, et lætábitur Israël.
@@ -256,11 +257,11 @@ export default function PageQuad31() {
               Quem de Sião salvará Israel? Quando o Senhor extinguir o cativeiro
               do seu povo, Jacob exultará e Israel alegrar-se-á.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens et miséricors Deus: ut, quod ore
               contíngimus, pura mente capiámus. Per Dóminum...
@@ -270,11 +271,11 @@ export default function PageQuad31() {
               que guardemos com o coração puro o Sacramento que recebemos na
               nossa boca. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -296,7 +297,7 @@ export default function PageQuad31() {
               perigos, em que incorremos pelos nossos pecados, e ser salvos com
               vosso socorro. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

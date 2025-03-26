@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page16Abades() {
   return (
@@ -14,7 +15,7 @@ export default function Page16Abades() {
 
           <Text className="em">Sl. 36, 30-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium:
               lex Dei ejus in corde ipsíus. (T. P. Allelúja allelúja.){" "}
@@ -29,11 +30,11 @@ export default function Page16Abades() {
               irriteis contra os maus, nem tenhais inveja daqueles que cometem
               iniquidades.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Intercéssio nos, quǽsumus, Dómine, beáti{" "}
               <Text className="latin">N.</Text> Abbátis comméndet: ut, quod
@@ -47,13 +48,13 @@ export default function Page16Abades() {
               conseguir com os nossos méritos o alcancemos com seu patrocínio.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ecl. 45, 1-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapientiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -77,13 +78,13 @@ export default function Page16Abades() {
               na nuvem. Então, deu-lhe face a face os seus preceitos e a lei da
               vida e da doutrina.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 20, 4-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in
               cápite ejus corónam de lápide pretióso.
@@ -106,7 +107,7 @@ export default function Page16Abades() {
               <Text className="vernacular">Sl. 91, 13</Text> O justo florescerá,
               como a palmeira, e crescerá, como o cedro do Líbano. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -116,7 +117,7 @@ export default function Page16Abades() {
 
           <Text className="em">Sl. 111, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
               <Text className="versicle"> ℣. </Text>
@@ -132,13 +133,13 @@ export default function Page16Abades() {
               haverá glória e riqueza, e a sua justiça subsistirá em todos os
               séculos dos séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 91, 13</Text> Justus ut palma
@@ -155,13 +156,13 @@ export default function Page16Abades() {
               <Text className="em">Os. 14, 6</Text> O justo germinará, como o
               lírio, e florescerá eternamente na presença do Senhor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 19, 27-29</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -190,13 +191,13 @@ export default function Page16Abades() {
               ou os seus campos, ou o seu pai, ou a sua mãe, ou a sua mulher por
               causa do meu nome receberá o cêntuplo e possuirá a vida eterna».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 20, 3 & 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Desidérium ánimæ ejus tribuísti ei, Dómine, et voluntáte labiórum
               ejus non fraudásti eum: posuísti in cápite ejus corónam de lápide
@@ -207,11 +208,11 @@ export default function Page16Abades() {
               dos seus lábios. Impusestes na sua cabeça uma coroa de pedras
               preciosas. (T. P. Aleluia).
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacris altáribus, Dómine, hóstias superpósitas sanctus{" "}
               <Text className="latin">N.</Text> Abbas, quǽsumus, in salútem
@@ -223,13 +224,13 @@ export default function Page16Abades() {
               oferecida no vosso altar, nos proporcione a salvação. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 12, 42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fidélis servus et prudens, quem constítuit dóminus super famíliam
               suam: ut det illis in témpore trítici mensúram. (T. P. Allelúja.)
@@ -239,11 +240,11 @@ export default function Page16Abades() {
               oportunamente, na sua família a sua medida de trigo. (T. P.
               Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Prótegat nos, Dómine, cum tui perceptióne sacraménti beátus{" "}
               <Text className="latin">N.</Text> Abbas, pro nobis intercedéndo:
@@ -256,7 +257,7 @@ export default function Page16Abades() {
               protecção, a fim de que, imitando os insignes exemplos da sua
               vida, sintamos os efeitos da sua intercessão. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

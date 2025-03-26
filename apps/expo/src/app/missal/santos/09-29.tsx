@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0929() {
   return (
@@ -25,7 +26,7 @@ export default function Page0929() {
 
           <Text className="em">Sl. 102, 20 & 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui
               fácitis verbum ejus.<Text className="versicle"> ℣. </Text>Benedic,
@@ -47,7 +48,7 @@ export default function Page0929() {
               Arcanjo, defendei-nos neste combate, para que não pereçamos no dia
               do tremendo juízo. Aleluia.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

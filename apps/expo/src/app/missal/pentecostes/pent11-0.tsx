@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent110() {
   return (
@@ -16,7 +17,7 @@ export default function PagePent110() {
 
           <Text className="em">Sl. 67, 6-7 & 36 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus in loco sancto suo: Deus qui inhabitáre facit unánimes in
               domo: ipse dabit virtútem et fortitúdinem plebi suæ.{" "}
@@ -33,11 +34,11 @@ export default function PagePent110() {
               da sua presença.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui, abundántia pietátis tuæ, et
               merita súpplicum excédis et vota: effúnde super nos misericórdiam
@@ -52,13 +53,13 @@ export default function PagePent110() {
               concedidas aquelas graças, que não ousamos pedir: Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Cor. 15, 1-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -98,13 +99,13 @@ export default function PagePent110() {
               perseguidor da Igreja de Deus. Mas, pela graça de Deus, sou o que
               sou, e a sua graça não ficou estéril em mim.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 27, 7 & 1</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In Deo sperávit cor meum, et adjútus sum: et reflóruit caro mea,
               et ex voluntáte mea confitébor illi.
@@ -130,13 +131,13 @@ export default function PagePent110() {
               em Deus, que é o nosso protector: Cantai hinos em honra de Deus de
               Jacob: Tocai em tom alegre o saltério e a cítara. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mc. 7, 31-37</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Marcum.
@@ -171,13 +172,13 @@ export default function PagePent110() {
               publicavam; e, cheios de admiração, diziam: Ele fez bem tudo, fez
               ouvir os surdos e falar os mudos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 29, 2-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exaltábo te, Dómine, quóniam suscepísti me, nec delectásti
               inimícos meos super me: Dómine, clamávi ad te, fet sanásti me.
@@ -187,11 +188,11 @@ export default function PagePent110() {
               meus inimigos escarnecem de mim. Clamei por Vós, Senhor, e
               curaste-me!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réspice, Dómine, quǽsumus, nostram propítius servitútem: ut, quod
               offérimus, sit tibi munus accéptum, et sit nostræ fragilitátis
@@ -202,13 +203,13 @@ export default function PagePent110() {
               homenagem, a fim de que a nossa oferta Vos seja agradável e sirva
               de auxílio para a nossa fraqueza. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Pr. 3, 9-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hónora Dóminum de tua substántia, et de prímitus frugum tuárum: et
               implebúntur hórrea tua saturitáte, et vino torculária redundábunt.
@@ -218,11 +219,11 @@ export default function PagePent110() {
               vossos frutos. Então os vossos celeiros ficarão cheios de trigo e
               os vossos lagares trasbordarão de vinho.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sentiámus, quǽsumus, Dómine, tui perceptióne sacraménti, subsídium
               mentis et córporis: ut, in utróque salváti, cæléstis remédii
@@ -234,7 +235,7 @@ export default function PagePent110() {
               que, salvando-se ambos, possamos gozar na glória a plenitude deste
               remédio celestial. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0806() {
   return (
@@ -24,7 +25,7 @@ export default function Page0806() {
 
           <Text className="em">Sl. 76, 19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Illuxérunt coruscatiónes tuæ orbi terræ: commóta est et contrémuit
               terra. <Text className="latin">Ps. 83, 2-3</Text> Quam dilécta
@@ -39,11 +40,11 @@ export default function Page0806() {
               Minha alma suspira ardentemente pelos átrios do Senhor.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui fídei sacraménta in Unigéniti tui gloriósa
               Transfiguratióne patrum testimónio roborásti, et adoptiónem
@@ -61,13 +62,13 @@ export default function Page0806() {
               da glória e de mais tarde sermos participantes desta mesma glória.
               Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Pe. 1, 16-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
             <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
             <Text className="latin">
@@ -94,13 +95,13 @@ export default function Page0806() {
               em um lugar escuro, até que o dia brilhe e que a estrela da manhã
               nasça nos nossos corações!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 3 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Speciosus forma præ fíliis hóminum: diffúsa est grátia in lábiis
               tuis.<Text className="versicle"> ℣. </Text>Eructávit cor meum
@@ -122,13 +123,13 @@ export default function Page0806() {
               da luz eterna, o espelho sem mancha de Deus e a imagem da sua
               bondade!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 17, 1-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -171,13 +172,13 @@ export default function Page0806() {
               monte, dando-lhes Jesus esta ordem: «Não conteis a ninguém esta
               visão até que o Filho do homem ressuscite dos mortos».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 111, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum
               sǽculi, allelúja.
@@ -186,11 +187,11 @@ export default function Page0806() {
               A glória e as riquezas estão na sua casa; a sua justiça subsistirá
               para sempre. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Obláta, quǽsumus, Dómine, múnera gloriósa Unigéniti tui
               Transfiguratióne sanctífica: nosque a peccatórum máculis,
@@ -202,13 +203,13 @@ export default function Page0806() {
               esplendores da sua glorificação purificai-nos das manchas dos
               nossos pecados. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 17, 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Visiónem, quam vidístis, némini dixéritis, donec a mórtuis
               resúrgat Fílius hóminis.
@@ -217,11 +218,11 @@ export default function Page0806() {
               Não conteis a ninguém esta visão até que o Filho do homem
               ressuscite dos mortos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut sacrosáncta Fílii tui
               Transfiguratiónis mystéria, quæ sollemni celebrámus offício,
@@ -234,7 +235,7 @@ export default function Page0806() {
               Transfiguração do vosso Filho, que celebrámos solenemente neste
               ofício. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

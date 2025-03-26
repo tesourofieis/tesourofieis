@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0622() {
@@ -20,7 +21,7 @@ export default function Page0622() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui ómnia pro te in hoc sǽculo relinquéntibus, céntuplum in
               futúro et vitam ætérnam promisísti: concéde propítius; ut, sancti
@@ -34,13 +35,13 @@ export default function Page0622() {
               desprezemos sempre as coisas terrenas e aspiremos somente às
               celestiais. Ó Vós, que viveis...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Cor. 8, 9-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beati Pauli Apostoli ad Corinthios.
             </Text>
@@ -78,13 +79,13 @@ export default function Page0622() {
               «Àquele que recolheu muito lhe não sobejou; e àquele que recolheu
               pouco lhe não faltou».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Ecl. 44, 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce sacérdos magnus, qui in diébus suis plácuit Deo.
               <Text className="versicle"> ℣. </Text>
@@ -107,7 +108,7 @@ export default function Page0622() {
               <Text className="vernacular">Sl. 109, 4</Text> Tu és sacerdote
               para sempre, segundo a ordem de Melquisedeque.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -120,7 +121,7 @@ export default function Page0622() {
 
           <Text className="em">Sl. 88, 21-22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
               auxiliábitur ei, et bráchium meum confortábit eum.
@@ -129,11 +130,11 @@ export default function Page0622() {
               Encontrei o seu servo David e ungi-o com meu óleo sagrado. Minha
               mão o socorrerá e o meu braço o fortalecerá.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da nobis, Dómine, perféctæ caritátis sacrifícium, exémplo sancti
               Pontíficis Paulíni, cum altáris oblatióne conjúngere: et
@@ -146,13 +147,13 @@ export default function Page0622() {
               perfeita; e permiti que, aplicando-nos ao exercício da
               beneficência, mereçamos alcançar o perdão. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 12, 42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fidélis servus et prudens, quem constítuit dóminus super famíliam
               suam: ut det illis in témpore trítici mensúram.
@@ -162,11 +163,11 @@ export default function Page0622() {
               família para distribuir, oportunamente, a cada um a sua medida de
               trigo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tríbue nobis per hæc sancta, Dómine, illum pietátis et humilitátis
               afféctum, quem ex hoc divíno fonte hausit sanctus Póntifex tuus
@@ -180,7 +181,7 @@ export default function Page0622() {
               benigno as riquezas da vossa graça naqueles que Vo-las suplicam.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

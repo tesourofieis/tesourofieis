@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0325() {
   return (
@@ -16,7 +17,7 @@ export default function Page0325() {
 
           <Text className="em">Sl. 44, 13, 15 & 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vultum tuum deprecabúntur omnes dívites plebis: adducántur Regi
               Vírgines post eam: próximæ ejus adducántur tibi in lætítia et
@@ -33,11 +34,11 @@ export default function Page0325() {
               coração exprimiu uma palavra excelente: «Consagro ao Rei as minhas
               obras!».<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo
               nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut,
@@ -51,13 +52,13 @@ export default function Page0325() {
               verdadeira Mãe de Deus sejam amparados na vossa presença com o
               auxílio das suas preces. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Is. 7, 10-15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -81,13 +82,13 @@ export default function Page0325() {
               nome será Emanuel: Ele comerá manteiga e mel, para que saiba
               condenar o mal e escolher o bem».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 3 et 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in
               ætérnum.<Text className="versicle"> ℣. </Text>Propter veritátem et
@@ -99,13 +100,13 @@ export default function Page0325() {
               Reinareis pela verdade, mansidão e justiça; e a vossa dextra
               conduzir-vos-á admiravelmente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">ibid., 11 & 12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Audi, fília, et vide, et inclína aurem tuam: quia concupívit Rex
               speciem tuam.<Text className="versicle"> ℣. </Text>
@@ -130,13 +131,13 @@ export default function Page0325() {
               apresentadas. Serão conduzidas por entre a alegria e o júbilo e
               apresentadas no templo do rei.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Luc. 1, 28</Text> Ave, María, grátia
@@ -156,13 +157,13 @@ export default function Page0325() {
               reconciliando na sua pessoa a nossa baixeza com a suprema
               grandeza. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 1, 26-38</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -214,13 +215,13 @@ export default function Page0325() {
               Então disse Maria: «Eis aqui a escrava do Senhor, faça-se em mim
               segundo a tua palavra».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Lc. l, 28 & 42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ave, Maria, grátia plena; Dóminus tecum: benedícta tu in
               muliéribus, et benedíctus fructus ventris tui. (T. P. Allelúja.)
@@ -230,11 +231,11 @@ export default function Page0325() {
               entre as mulheres, e bendito é o fruto do vosso ventre. (T. P.
               Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In méntibus nostris, quǽsumus, Dómine, veræ fídei sacraménta
               confírma: ut, qui concéptum de Vírgine Deum verum et hóminem
@@ -248,13 +249,13 @@ export default function Page0325() {
               mereçamos alcançar pela virtude da sua salutar ressurreição a
               felicidade eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Is. 7, 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce, Virgo concípiet et páriet fílium: et vocábitur nomen ejus
               Emmánuel. (T. P. Allelúja.)
@@ -263,11 +264,11 @@ export default function Page0325() {
               Eis que a Virgem conceberá, dará à luz um filho e o seu nome será
               Emanuel. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde: ut, qui.
               Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus; per
@@ -280,7 +281,7 @@ export default function Page0325() {
               do vosso Filho, sejamos conduzidos à glória da ressurreição pela
               sua Paixão e Cruz. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

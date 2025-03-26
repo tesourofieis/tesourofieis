@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1007() {
   return (
@@ -14,7 +15,7 @@ export default function Page1007() {
 
           <Text className="h3">Intróito</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
               beátæ Maríæ Vírginis: de cujus sollemnitáte gaudent Angeli et
@@ -30,11 +31,11 @@ export default function Page1007() {
               uma excelente palavra: «Consagro ao Rei as minhas obras»!
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, cujus Unigénitus per vitam, mortem et resurrectiónem suam
               nobis salútis ætérnæ prǽmia comparávit: concéde, quǽsumus; ut, hæc
@@ -49,13 +50,13 @@ export default function Page1007() {
               Maria, imitemos o que contêm e obtenhamos o que prometem. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Pr. 8, 22-24 & 32-35</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -80,13 +81,13 @@ export default function Page1007() {
               tiver encontrado, terá encontrado a vida e alcançará do Senhor a
               salvação.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 5; 11 & 12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Propter veritátem et mansuetúdinem et justítiam, et dedúcet te
               mirabíliter déxtera tua.<Text className="versicle"> ℣. </Text>
@@ -109,13 +110,13 @@ export default function Page1007() {
               solenidade da gloriosa Virgem Maria: da raça de Abraão, da geração
               de Judá e da nobre linhagem de David. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 1, 26-38</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -167,13 +168,13 @@ export default function Page1007() {
               Então disse Maria: «Eis aqui a escrava do Senhor, faça-se em mim
               segundo a tua palavra».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Ecl. 24, 25; 39, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In me grátia omnis viæ et veritátis, in me omnis spes vitæ et
               virtútis: ego quasi rosa plantáta super rivos aquárum
@@ -184,11 +185,11 @@ export default function Page1007() {
               reside toda a esperança da vida e da virtude! Eu floresci, como a
               roseira plantada nas margens das ribeiras!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fac nos, quǽsumus, Dómine, his munéribus offeréndis conveniénter
               aptári: et per sacratíssimi Rosárii mystéria sic vitam, passiónem
@@ -202,13 +203,13 @@ export default function Page1007() {
               a glória do vosso Filho Unigénito que sejamos dignos das suas
               promessas. O qual, sendo Deus, convosco vive e reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Ecl. 39, 19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Floréte, flores, quasi lílium, et date odórem, et frondéte in
               grátiam, collaudáte cánticum, et benedícite Dóminum in opéribus
@@ -219,11 +220,11 @@ export default function Page1007() {
               perfume; lançai ramos graciosos; cantai hinos de louvor; e
               bendizei o Senhor nas suas obras.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacratíssimæ Genetrícis tuæ, cujus Rosárium celebrámus, quǽsumus,
               Dómine, précibus adjuvémur: ut et mysteriórum, quæ cólimus, virtus
@@ -237,7 +238,7 @@ export default function Page1007() {
               efeito dos sacramentos, que recebemos. Ó Vós, que, sendo Deus,
               viveis e...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

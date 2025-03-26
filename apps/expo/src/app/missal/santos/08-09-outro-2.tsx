@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0809Outro2() {
   return (
@@ -22,7 +23,7 @@ export default function Page0809Outro2() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, intercedénte beáto Románo
               Mártyre tuo, et a cunctis adversitátibus liberémur in córpore, et
@@ -34,11 +35,11 @@ export default function Page0809Outro2() {
               adversidades e a nossa alma purificada dos maus pensamentos. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
               cœléstibus nos munda mysteriis, et cleménter exáudi. Per
@@ -49,11 +50,11 @@ export default function Page0809Outro2() {
               dignai-Vos purificar-nos com vossos celestiais mystérios e
               ouvir-nos benignamente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, qui cœlestia aliménta percépimus,
               intercedénte beáto Románo Mártyre tuo, per hæc contra ómnia
@@ -65,7 +66,7 @@ export default function Page0809Outro2() {
               sejamos, em virtude deles, fortalecidos contra todas as
               adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

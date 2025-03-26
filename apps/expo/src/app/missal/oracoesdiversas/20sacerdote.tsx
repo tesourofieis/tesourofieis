@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page20Sacerdote() {
   return (
@@ -12,7 +13,7 @@ export default function Page20Sacerdote() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens et miséricors Deus, humilitátis meæ preces benígnus
               inténde: ei me fámulum tuum, quem, nullis suffragántibus méritis,
@@ -28,11 +29,11 @@ export default function Page20Sacerdote() {
               imensa clemência), a fim de que as palavras que saem da minha boca
               sejam por Vós confirmadas e santificadas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hujus, Dómine, virtúte sacraménti, peccatórum meórum máculas
               abstérge: et præsta; ut, ad exsequéndum injúncti officii
@@ -44,11 +45,11 @@ export default function Page20Sacerdote() {
               tornai-me digno das sagradas funções do ministério que me foi
               imposto. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui me peccatórem sacris altáribus
               astáre voluísti, et sancti nóminis tui laudáre poténtiam: concéde
@@ -63,7 +64,7 @@ export default function Page20Sacerdote() {
               para que possa dignamente servir a vossa majestade. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page35Vivosedefuntos() {
   return (
@@ -12,7 +13,7 @@ export default function Page35Vivosedefuntos() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui vivórum domináris simul et
               mortuórum, omniúmque miseréris, quos tuos fide et opere futúros
@@ -32,11 +33,11 @@ export default function Page35Vivosedefuntos() {
               ou, despojados dos seus corpos, hajam penetrado na eternidade)
               alcancem o perdão dos seus pecados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, cui soli cógnitus est númerus electórum in supérna
               felicitáte locándus: tríbue, quǽsumus; ut, intercedéntibus ómnibus
@@ -52,11 +53,11 @@ export default function Page35Vivosedefuntos() {
               encomendamos nas nossas orações, e bem assim os de todos os fiéis.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Puríficent nos, quǽsumus, omnípotens et miséricors Deus,
               sacraménta quæ súmpsimus: et, intercedéntibus ómnibus Sanctis
@@ -76,7 +77,7 @@ export default function Page35Vivosedefuntos() {
               deste mundo, e que sirva de expiação dos delitos de todos os fiéis
               vivos e defuntos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

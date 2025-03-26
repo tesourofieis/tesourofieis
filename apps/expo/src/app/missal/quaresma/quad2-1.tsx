@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageQuad21() {
@@ -15,7 +16,7 @@ export default function PageQuad21() {
 
           <Text className="em">Sl. 25, 11-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Rédime me, Dómine, et miserére mei: pes enim meus stetit in via
               recta: in ecclésiis benedícam Dóminum.{" "}
@@ -32,11 +33,11 @@ export default function PageQuad21() {
               nunca vacilar.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut fámilia tua, quæ se,
               affligéndo carnem, ab aliméntis ábstinet: sectándo justítiam, a
@@ -47,13 +48,13 @@ export default function PageQuad21() {
               para mortificação da carne se privam dos alimentos, se abstenham
               também do pecado, praticando a justiça. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Dn. 9, 15-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Daniélis Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Daniel.</Text>
             <Text className="latin">
@@ -97,13 +98,13 @@ export default function PageQuad21() {
               esta cidade e este povo, que Vos pertencem, têm a honra de usar o
               vosso nome, ó Senhor, nosso Deus»!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 69, 6 & 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adjútor meus et liberátor meus esto: Dómine, ne tardáveris.
               <Text className="versicle"> ℣. </Text>
@@ -115,7 +116,7 @@ export default function PageQuad21() {
               Que sejam confundidos e envergonhados os meus inimigos, que
               procuram tirar-me a vida.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
@@ -128,7 +129,7 @@ export default function PageQuad21() {
 
           <Text className="em">Jo. 8, 21-29</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -174,13 +175,13 @@ export default function PageQuad21() {
               foi meu Pai quem me ensinou. Aquele que me enviou está comigo, e
               não me deixa só, porquanto faço sempre o que Lhe agrada».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 15, 7 & 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícam Dóminum, qui tríbuit mihi intelléctum: providébam
               Dóminum in conspéctu meo semper: quóniam a dextris est mihi, ne
@@ -191,11 +192,11 @@ export default function PageQuad21() {
               voltados continuamente para o Senhor; não vacilarei, porque Ele
               está à minha direita.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc hóstia, Dómine, placatiónis et laudis, tua nos protectióne
               dignos effíciat. Per Dóminum...
@@ -204,13 +205,13 @@ export default function PageQuad21() {
               Que esta hóstia de propiciação e de louvor, Senhor, nos torne
               dignos da vossa protecção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 8, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, Dóminus noster, quam admirábile est nomen tuum in univérsa
               terra!
@@ -218,11 +219,11 @@ export default function PageQuad21() {
             <Text className="vernacular">
               Senhor, nosso Deus, quão admirável é o vosso nome em toda a terra!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc nos commúnio, Dómine, purget a crímine: et cœléstis remédii
               fáciat esse consórtes. Per Dóminum...
@@ -231,11 +232,11 @@ export default function PageQuad21() {
               Que esta comunhão, Senhor, nos purifique de nossos crimes e nos
               faça participantes dos remédios celestiais. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -257,7 +258,7 @@ export default function PageQuad21() {
               lhes revelardes que podiam ter esperança na vossa bondade alcancem
               os efeitos da vossa habitual misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

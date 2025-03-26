@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import VexillaRegis from "./../../canticos/sacros/vexillaregis";
 
 export default function PageQuad65() {
@@ -28,7 +29,7 @@ export default function PageQuad65() {
 
           <Text className="em">Os. 6, 1-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc dicit Dóminus: In tribulatione sua mane consúrgent ad me:
               Veníte, et revertámur ad Dóminum: quia ipse cepit, et sanábit nos:
@@ -59,13 +60,13 @@ export default function PageQuad65() {
               Prefiro o conhecimento de Deus a todos os holocaustos que me
               ofereçais».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Hab. 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, audívi audítum tuum, et tímui: considerávi ópera tua, et
               expávi.<Text className="versicle"> ℣. </Text>In médio duórum
@@ -92,11 +93,11 @@ export default function PageQuad65() {
               majestade cobrirá os céus; e a sua glória e o seu louvor encherão
               a terra.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oremos</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text> Flectámus génua!
             </Text>
@@ -125,13 +126,13 @@ export default function PageQuad65() {
               tornemos participantes da sua ressurreição. Ele, que, sendo
               Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">2.ª Lição</Text>
 
           <Text className="em">Ex. 12, 1-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In diébus illis: Dixit Dóminus ad Móysen et Aaron in terra Ægýpti:
               Mensis iste vobis princípium ménsium primus erit in ménsibus anni
@@ -178,13 +179,13 @@ export default function PageQuad65() {
               mão. Comê-lo-eis com pressa, pois é a ocasião da páscoa, isto é, a
               passagem do Senhor».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 139, 2-10 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Eripe me, Dómine, ab homine malo: a viro iníquo líbera me.
               <Text className="versicle"> ℣. </Text>Qui cogitavérunt malítias in
@@ -233,13 +234,13 @@ export default function PageQuad65() {
               o vosso nome: e os que possuem o coração recto contemplar-Vos-ão
               face a face.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Narração da Paixão</Text>
 
           <Text className="em">Jo. 18, 1-40; 19, 1-42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Pássio Dómini nostri Jesu
               Christi secúndum Joánnem.
@@ -745,7 +746,7 @@ export default function PageQuad65() {
               meus ossos». Ainda a Escritura diz noutro lugar: «Contemplarão
               Aquele que traspassaram».
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             O Celebrante vai ao meio do Altar e diz o
@@ -753,7 +754,7 @@ export default function PageQuad65() {
             Depois prossegue:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Post hæc autem rogávit Pilátum Joseph ab Arimathǽa (eo quod esset
               discípulus Jesu, occúltus autem propter metum Judæórum), ut
@@ -779,13 +780,13 @@ export default function PageQuad65() {
               Preparação da Páscoa dos judeus) que depositaram Jesus, pois este
               túmulo estava próximo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Missa dos Penitentes</Text>
 
           <Text className="h3">Pela Santa Igreja</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Orémus, dilectíssimi nobis, pro Ecclésia sancta Dei, ut eam Deus
               et Dóminus noster pacificáre, adunáre et custodíre dignétur toto
@@ -831,11 +832,11 @@ export default function PageQuad65() {
               persevere com fé firme na confissão do vosso Nome. Pelo mesmo
               nosso Senhor... <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Pelo Santíssimo Padre</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Orémus, et pro beatíssimo Papa nostro{" "}
               <Text className="latin">N.</Text>, ut Deus et Dóminus noster, qui
@@ -883,11 +884,11 @@ export default function PageQuad65() {
               da sua fé, debaixo da direcção de tão grande Pontífice. Por nosso
               Senhor... <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Por todo o Corpo da Igreja</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Orémus, et pro ómnibus Epíscopis nostro, Presbýteris,
               Diacónibus,Subdiacónis, Acólythis, Exorcístis, Lectóribus,
@@ -931,11 +932,11 @@ export default function PageQuad65() {
               sirva fielmente. Por nosso Senhor...{" "}
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Pelo Imperador Romano</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Orémus, et pro Christianíssimo (Si non est coronatus, dicatur:
               elécto Imperatóre.) Imperatóre nostro{" "}
@@ -982,11 +983,11 @@ export default function PageQuad65() {
               fiquem sujeitas à sua dextra. Por nosso Senhor...{" "}
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Pelos Catecúmenos</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Orémus, et pro catechúmenis nostris: ut Deus et Dóminus noster
               adapériat aures præcordiórum ipsórum januámque misericordiæ; ut,
@@ -1031,11 +1032,11 @@ export default function PageQuad65() {
               agregados aos vossos filhos de adopção. Por nosso Senhor...{" "}
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Pelas Necessidade dos Fiéis</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Orémus, dilectíssimi nobis, Deum Patrem omnipoténtem, ut cunctis
               mundum purget erróribus: morbos áuferat: famem depellat: apériat
@@ -1081,11 +1082,11 @@ export default function PageQuad65() {
               todos sintam com alegria o auxílio da vossa misericórdia. Por
               nosso Senhor... <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Pelos Hereges e Cismáticos</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Orémus, et pro hæréticis et schismáticis: ut Deus et Dóminus
               noster éruat eos ab erróribus univérsis; et ad sanctam matrem
@@ -1129,11 +1130,11 @@ export default function PageQuad65() {
               regressem à unidade da vossa doutrina. Por nosso Senhor...{" "}
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Pelos Judeus</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Orémus et pro pérfidis Judǽis: ut Deus et Dóminus noster áuferat
               velámen de córdibus eórum; ut et ipsi agnóscant Jesum Christum,
@@ -1144,13 +1145,13 @@ export default function PageQuad65() {
               Deus tire o véu que cobre os seus corações, e que também
               reconheçam nosso Senhor Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Não se responde Amen, e o Celebrante continua:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui étiam judáicam perfídiam a tua
               misericórdia non repéllis: exáudi preces nostras, quas pro illíus
@@ -1165,11 +1166,11 @@ export default function PageQuad65() {
               é Jesus Cristo, saiam das trevas. Pelo mesmo nosso Senhor...{" "}
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Pelos Pagãos</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Orémus, et pro pagánis: ut Deus omnípotens áuferat iniquitátem a
               córdibus eórum; ut, relíctis idólis suis, convertántur ad Deum
@@ -1214,13 +1215,13 @@ export default function PageQuad65() {
               honra e glória do vosso nome. Por nosso Senhor...{" "}
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Adoração da Cruz</Text>
 
           <Text className="h3">Veníte, adorémus</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce lignum Crucis, in quo salus mundi pependit.
             </Text>
@@ -1720,7 +1721,7 @@ export default function PageQuad65() {
               <Text className="response"> ℟. </Text> Ó amável Lenho, ó cravos
               sagrados, que segurais um fardo tão precioso!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Missa dos Pré-Santificados</Text>
 
@@ -1733,7 +1734,7 @@ export default function PageQuad65() {
 
           <VexillaRegis />
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In spiritu humilitátis et in ánimo contríto suscipiámur a te,
               Dómine: et sic fiat sacrifícium nostrum in conspéctu tuo hódie, ut
@@ -1802,7 +1803,7 @@ export default function PageQuad65() {
               acaba de receber a nossa boca; e que esta dádiva temporal, que nos
               fizestes, se torne para nós em um remédio eterno.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0704() {
@@ -31,7 +32,7 @@ export default function Page0704() {
 
           <Text className="h3">Intróito</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
               beátæ Elisabeth reginæ: de cujus solemnitáte gaudent Angeli, et
@@ -47,11 +48,11 @@ export default function Page0704() {
               aqueles que procedem sem mácula: e que andam na lei do Senhor.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Clementíssime Deus, qui beátam Elísabeth regínam, inter céteras
               egrégias dotes, béllíci furóris sedándi prærogatíva decorásti: da
@@ -65,13 +66,13 @@ export default function Page0704() {
               esta vida mortal gozado a paz, como humildemente pedimos,
               alcancemos também as alegrias eternas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ecl. 26, 19-24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -95,11 +96,11 @@ export default function Page0704() {
               Mandamentos de Deus no coração da mulher santa são como alicerces
               eternos, assentes sobre a pedra sólida.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Verbo Dómini contínuit cælum: lenívit iracúndiam Dómini, et
               conciliávit cor Patris ad fílium.
@@ -124,7 +125,7 @@ export default function Page0704() {
               Isabel, que residis em excelso trono, olhai benignamente para nós,
               que outrora fomos na terra vossos súbditos. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -137,7 +138,7 @@ export default function Page0704() {
 
           <Text className="em">Sl. 44, 13 & 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vultum tuum deprecabúntur omnes divítes plebis: fíliæ regum in
               honóre tuo.
@@ -146,11 +147,11 @@ export default function Page0704() {
               Todos os poderosos da terra implorarão o vosso olhar: as filhas
               dos reis honrar-vos-ão.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui in honórem beátæ Elísabeth, regínæ has tibi solémnes
               hóstias offérri voluísti: da nobis; ut ejus vestígia secúti, et
@@ -165,13 +166,13 @@ export default function Page0704() {
               lembrando-nos de que «servir-Vos é reinar», e convosco reinemos no
               céu. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 44, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ástitit regína a déxteris tuis in vestítu deauráto, circúmdata
               varietáte.
@@ -180,11 +181,11 @@ export default function Page0704() {
               À vossa dextra está a Rainha, vestida com seu manto de ouro e
               cercada de variedade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Regáli ac sacro convívio, Dómine Jesu Christe, in quo tu es ipse
               verus cibus et potus, nos, quæsumus, dignos effíciat: et cáritas
@@ -197,7 +198,7 @@ export default function Page0704() {
               dignos do real e sagrado banquete em que Vós próprio sois a
               Verdadeira comida e bebida. Ó Vós, que, sendo Deus...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

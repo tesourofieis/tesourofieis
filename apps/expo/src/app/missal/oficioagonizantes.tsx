@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LadainhaSantos from "./../devocionario/ladainhas/santos";
 
 export default function PageOficioagonizantes() {
@@ -16,7 +17,7 @@ export default function PageOficioagonizantes() {
           <Text className="aside">
             Quando o enfermo se encontra na agonia diz-se:
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -59,8 +60,8 @@ export default function PageOficioagonizantes() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -105,8 +106,8 @@ export default function PageOficioagonizantes() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               Commendo te omnipotenti Deo, carissime frater (carissima soror),
               et ei, cuius es creatura, committo ; ut, cum humanitatis debitum
@@ -188,8 +189,8 @@ export default function PageOficioagonizantes() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -415,8 +416,8 @@ export default function PageOficioagonizantes() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -460,8 +461,8 @@ export default function PageOficioagonizantes() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -517,8 +518,8 @@ export default function PageOficioagonizantes() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -546,8 +547,8 @@ export default function PageOficioagonizantes() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -580,7 +581,7 @@ export default function PageOficioagonizantes() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h1">Prestes a Expirar</Text>
           <Text className="aside">
             Quando o moribundo está Prestes a expirar, diligenciar-se-á que ele
@@ -592,7 +593,7 @@ export default function PageOficioagonizantes() {
             diz o Ofício da Agonia, de maneira que ele os ouça; e do mesmo modo
             se continuará:
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In manus tuas, Domine, commendo spiritum meum.
             </Text>
@@ -642,12 +643,12 @@ export default function PageOficioagonizantes() {
             <Text className="vernacular">
               Jesus, Maria e José, repouse em paz, junto de vós, a minha alma.
             </Text>
-          </View>
+          </Language>
           <Text className="h1">No Último suspiro</Text>
           <Text className="aside">
             Quando o agonizante dá o último suspiro, diz-se:
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Subvenite, Sancti Dei, occurrite, Angeli Domini, Suscipientes
               animam eius, Offerentes eam in conspectu Altissimi.
@@ -775,8 +776,8 @@ export default function PageOficioagonizantes() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-          </View>
-          <View className="side-by-side">
+          </Language>
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -801,7 +802,7 @@ export default function PageOficioagonizantes() {
               cometer durante a sua vida neste mundo. Por nosso Senhor Jesus
               Cristo.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

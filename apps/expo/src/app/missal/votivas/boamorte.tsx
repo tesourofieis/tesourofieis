@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageBoamorte() {
   return (
@@ -14,7 +15,7 @@ export default function PageBoamorte() {
 
           <Text className="em">Sl. 12, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Illúmina óculos meos, ne umquam obdórmiam in morte, ne quando
               dicat inimícus meus: Præválui advérsus eum. (T. P. Allelúja,
@@ -31,11 +32,11 @@ export default function PageBoamorte() {
               conservareis afastada de mim a vossa face?
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens et miséricors Deus, qui humáno géneri et salútis
               remédia et vitæ ætérnæ múnera contulísti: réspice propítius nos
@@ -52,13 +53,13 @@ export default function PageBoamorte() {
               Anjos, sem mácula alguma de pecado diante de Vós, que sois o seu
               Criador. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Rm. 14, 7-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
             </Text>
@@ -88,13 +89,13 @@ export default function PageBoamorte() {
               Deus». Assim, portanto, cada um de nós dará conta a Deus de si
               próprio.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 22, 4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Si ámbulem in médio umbræ mortis, non timébo mala: quóniam tu
               mecum es, Dómine.<Text className="versicle"> ℣. </Text>Virga tua
@@ -119,7 +120,7 @@ export default function PageBoamorte() {
               justiça, livrai-me e salvai-me: Volvei os vossos ouvidos para mim
               e apressai-Vos em salvar-me. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Depois da Septuagésima, omite-se o Aleluia e o Verso seguinte e
@@ -130,7 +131,7 @@ export default function PageBoamorte() {
 
           <Text className="em">Sl. 24, 17-18 & 1-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               De necessitátibus meis éripe me, Dómine: vide humilitátem meam et
               labórem meum: et dimítte ómnia peccáta mea.
@@ -150,13 +151,13 @@ export default function PageBoamorte() {
               Senhor, os que confiam em Vós; mas serão confundidos os que
               procedem em vão.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se O Gradual e O Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 113, 1</Text> In éxitu Israël de
@@ -173,13 +174,13 @@ export default function PageBoamorte() {
               <Text className="em">Sl. 107, 2</Text> Meu coração está preparado.
               Eu cantarei Salmos em vossa honra na minha glória. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 21, 34-36</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -206,13 +207,13 @@ export default function PageBoamorte() {
               para que sejais dignos de evitar todas estas coisas, que hão-de
               acontecer, e de comparecerdes ante o Filho do homem».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 30, 15-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In te sperávi, Dómine; dixi: Tu es Deus meus, in mánibus tuis
               témpora mea. (T. P. Allelúja)
@@ -222,11 +223,11 @@ export default function PageBoamorte() {
               meu Deus e nas vossas mãos estão os meus destinos». (T. P.
               Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, quǽsumus, Dómine, hóstiam, quam tibi offérimus pro
               extrémo vitæ nostræ, et concéde: ut per eam univérsa nostra
@@ -242,13 +243,13 @@ export default function PageBoamorte() {
               flagelos da vossa providência, alcance o repouso eterno na vida
               futura. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 70, 16-17 et 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, memorábor justítiæ tuæ solíus: Deus, docuísti me a
               juventúte mea: et usque in senéctam et sénium, Deus, ne
@@ -259,11 +260,11 @@ export default function PageBoamorte() {
               Instruístes-me, ó Deus, desde a minha juventude: e até à velhice e
               aos últimos suspiros me não abandonareis, ó Deus! (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus cleméntiam tuam, omnípotens Deus, ut per hujus virtútem
               sacraménti nos fámulos tuos grátia tua confirmáre dignéris: ut in
@@ -277,7 +278,7 @@ export default function PageBoamorte() {
               prevaleça contra ele, mas mereça transitar para a vida eterna,
               acompanhado pelos vossos Anjos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

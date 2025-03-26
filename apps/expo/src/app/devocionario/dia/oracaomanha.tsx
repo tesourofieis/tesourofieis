@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import JamLucis from "./../../canticos/sacros/jamlucis";
 
 export default function PageOracaomanha() {
@@ -32,7 +33,7 @@ export default function PageOracaomanha() {
             da vossa misericórdia infinita.
           </Text>
           <Text className="h2">Consagração do dia</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dirigere et sanctificare, regere et gubernare dignare, Dómine
               Deus, Rex cæli et terræ, hodie corda et corpora nostra, sensus,
@@ -50,7 +51,7 @@ export default function PageOracaomanha() {
               mereçamos alcançar a salvação e a liberdade, Ó Salvador do mundo,
               que viveis e reinais por todos os séculos dos séculos. Amen.
             </Text>
-          </View>
+          </Language>
           <Text className="h2">Consagração a Maria Santíssima</Text>
           <Text className="text-base">
             Ó Senhora minha, ó minha Mãe, eu me ofereço todo a Vós. E em prova

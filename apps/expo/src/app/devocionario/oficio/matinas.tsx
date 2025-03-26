@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import { TabItem, Tabs } from "~/components/Tabs";
 import QuemTerra from "./../../canticos/sacros/quemterra";
 import TeDeum from "./../../canticos/sacros/tedeum";
@@ -29,7 +30,7 @@ export default function PageMatinas() {
             agonia e nas cordas com que o amarraram.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Domine,{" "}
               <Text className="cross"> ✠ </Text> labia mea aperies.
@@ -79,36 +80,36 @@ export default function PageMatinas() {
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Desde o Sábado antes do Domingo da Septuagésima até às vésperas do
             Sábado Santo, em vez de Allelúja, é dito:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Laus tibi, Domine, Rex æternæ gloriæ.</Text>
             <Text className="vernacular">
               Louvado sejais, ó Senhor, Rei da glória eterna.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Invitatório</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ave Maria, gratia plena, Dominus tecum.
             </Text>
             <Text className="vernacular">
               Ave, Maria, cheia de graça, o Senhor é convosco.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Salmo 94</Text>
 
           <Salmo94 />
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veníte, exsultémus Dómino: * jubilémus Deo salutári nostro:
             </Text>
@@ -232,7 +233,7 @@ export default function PageMatinas() {
             <Text className="vernacular">
               Ave, Maria, cheia de graça, o Senhor é convosco.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Hino Quem terra</Text>
 
@@ -242,7 +243,7 @@ export default function PageMatinas() {
             <TabItem label="Domingo, Segunda e Quinta feira">
               <Text className="h2">Primeiro Nocturno</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Benedicta tu in
                   mulieribus, et benedictus fructus ventris tui.
@@ -251,13 +252,13 @@ export default function PageMatinas() {
                   <Text className="vernacular">Ant.</Text> Bendita sois vós
                   entre as mulheres, e bendito é o fruto do vosso ventre.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 8</Text>
 
               <Salmo8 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Benedicta tu in
                   mulieribus, et benedictus fructus ventris tui.
@@ -266,9 +267,9 @@ export default function PageMatinas() {
                   <Text className="vernacular">Ant.</Text> Bendita sois vós
                   entre as mulheres, e bendito é o fruto do vosso ventre.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Sicut myrrha electa,
                   odorem dedisti suavitatis, sancta Dei Genitrix.
@@ -277,13 +278,13 @@ export default function PageMatinas() {
                   <Text className="vernacular">Ant.</Text> Como a preciosa
                   mirra, exalastes suavíssima fragrância, ó santa Mãe de Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 18</Text>
 
               <Salmo18 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Sicut myrrha electa,
                   odorem dedisti suavitatis, sancta Dei Genitrix.
@@ -292,9 +293,9 @@ export default function PageMatinas() {
                   <Text className="vernacular">Ant.</Text> Como a preciosa
                   mirra, exalastes suavíssima fragrância, ó santa Mãe de Deus.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ante torum hujus Virginis
                   frequentate nobis dulcia cantica dramatis.
@@ -303,13 +304,13 @@ export default function PageMatinas() {
                   <Text className="vernacular">Ant.</Text> Multiplicai-nos doces
                   cânticos ante o precioso leito desta Virgem.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 23</Text>
 
               <Salmo23 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ante torum hujus Virginis
                   frequentate nobis dulcia cantica span.
@@ -318,12 +319,12 @@ export default function PageMatinas() {
                   <Text className="vernacular">Ant.</Text> Multiplicai-nos doces
                   cânticos ante o precioso leito desta Virgem.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
             <TabItem label="Terça e Sexta feira">
               <Text className="h2">Segundo Nocturno</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Specie tua et
                   pulchritudine tua intende, prospere procede, et regna.
@@ -332,13 +333,13 @@ export default function PageMatinas() {
                   <Text className="vernacular">Ant.</Text> Ornada de glória e de
                   formosura, caminhai prosperamente e reinai.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 44</Text>
 
               <Salmo44 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Specie tua et
                   pulchritudine tua intende, prospere procede, et regna.
@@ -347,9 +348,9 @@ export default function PageMatinas() {
                   <Text className="vernacular">Ant.</Text> Ornada de glória e de
                   formosura, caminhai prosperamente e reinai.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Adjuvabit eam Deus vultu
                   suo: Deus in medio ejus, non commovebitur.
@@ -359,13 +360,13 @@ export default function PageMatinas() {
                   favorável aspecto; e como Deus assiste no meio dela, não se
                   verá perturbada.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 45</Text>
 
               <Salmo45 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Adjuvabit eam Deus vultu
                   suo: Deus in medio ejus, non commovebitur.
@@ -375,9 +376,9 @@ export default function PageMatinas() {
                   favorável aspecto; e como Deus assiste no meio dela, não se
                   verá perturbada.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Sicut lætantium omnium
                   nostrum habitatio est in te, sancta Dei Genitrix.
@@ -387,13 +388,13 @@ export default function PageMatinas() {
                   todos nossos que por amor habitam convosco estão cheios de
                   alegria.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 86</Text>
 
               <Salmo86 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Sicut lætantium omnium
                   nostrum habitatio est in te, sancta Dei Genitrix.
@@ -403,7 +404,7 @@ export default function PageMatinas() {
                   todos nossos que por amor habitam convosco estão cheios de
                   alegria.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
 
             <TabItem label="Quarta-feira e Sábado">
@@ -411,7 +412,7 @@ export default function PageMatinas() {
 
               <Tabs>
                 <TabItem label="Depois da Purificação">
-                  <View className="side-by-side">
+                  <Language>
                     <Text className="latin">
                       <Text className="latin">Ant.</Text> Gaude, Maria Virgo:
                       cunctas hæreses sola intermenisti in universo mundo.
@@ -421,11 +422,11 @@ export default function PageMatinas() {
                       Virgem Maria: porque só vós haveis destruído todas as
                       heresias em todo o mundo.
                     </Text>
-                  </View>
+                  </Language>
                 </TabItem>
 
                 <TabItem label="No Advento">
-                  <View className="side-by-side">
+                  <Language>
                     <Text className="latin">
                       <Text className="latin">Ant.</Text> Angelus Domini
                       nuntiavit Mariæ, et concepit de Spiritu Sancto, (Allelúja)
@@ -434,7 +435,7 @@ export default function PageMatinas() {
                       <Text className="vernacular">Ant.</Text> O Anjo do Senhor
                       anunciou a Maria, e ela concebeu do Espírito Santo.
                     </Text>
-                  </View>
+                  </Language>
                 </TabItem>
               </Tabs>
 
@@ -442,7 +443,7 @@ export default function PageMatinas() {
 
               <Salmo95 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Gaude, Maria Virgo:
                   cunctas hæreses sola intermenisti in universo mundo.
@@ -452,9 +453,9 @@ export default function PageMatinas() {
                   Maria: porque só vós haveis destruído todas as heresias em
                   todo o mundo.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Dignare me laudare te,
                   Virgo sacrata: da mihi virtutem contra hostes tuos.
@@ -464,13 +465,13 @@ export default function PageMatinas() {
                   Virgem, de que eu vos louve; dai-me esforço contra vossos
                   inimigos.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 96</Text>
 
               <Salmo96 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Dignare me laudare te,
                   Virgo sacrata: da mihi virtutem contra hostes tuos.
@@ -480,11 +481,11 @@ export default function PageMatinas() {
                   Virgem, de que eu vos louve; dai-me esforço contra vossos
                   inimigos.
                 </Text>
-              </View>
+              </Language>
 
               <Tabs>
                 <TabItem label="Depois da Purificação">
-                  <View className="side-by-side">
+                  <Language>
                     <Text className="latin">
                       <Text className="latin">Ant.</Text> Post partum virgo
                       inviolata permansisti: Dei Genitrix, intercede pro nobis.
@@ -494,11 +495,11 @@ export default function PageMatinas() {
                       permanecestes virgem imaculada; Mãe de Deus, intercedei
                       por nós.
                     </Text>
-                  </View>
+                  </Language>
                 </TabItem>
 
                 <TabItem label="No Advento">
-                  <View className="side-by-side">
+                  <Language>
                     <Text className="latin">
                       <Text className="latin">Ant.</Text> Angelus Domini
                       nuntiavit Mariæ, et concepit de Spiritu Sancto, (Allelúja)
@@ -507,7 +508,7 @@ export default function PageMatinas() {
                       <Text className="vernacular">Ant.</Text> O Anjo do Senhor
                       anunciou a Maria, e ela concebeu do Espírito Santo.
                     </Text>
-                  </View>
+                  </Language>
                 </TabItem>
               </Tabs>
 
@@ -517,7 +518,7 @@ export default function PageMatinas() {
 
               <Tabs>
                 <TabItem label="Depois da Purificação">
-                  <View className="side-by-side">
+                  <Language>
                     <Text className="latin">
                       <Text className="latin">Ant.</Text> Post partum virgo
                       inviolata permansisti: Dei Genitrix, intercede pro nobis.
@@ -527,11 +528,11 @@ export default function PageMatinas() {
                       permanecestes virgem imaculada; Mãe de Deus, intercedei
                       por nós.
                     </Text>
-                  </View>
+                  </Language>
                 </TabItem>
 
                 <TabItem label="No Advento">
-                  <View className="side-by-side">
+                  <Language>
                     <Text className="latin">
                       <Text className="latin">Ant.</Text> Angelus Domini
                       nuntiavit Mariæ, et concepit de Spiritu Sancto, (Allelúja)
@@ -540,7 +541,7 @@ export default function PageMatinas() {
                       <Text className="vernacular">Ant.</Text> O Anjo do Senhor
                       anunciou a Maria, e ela concebeu do Espírito Santo.
                     </Text>
-                  </View>
+                  </Language>
                 </TabItem>
               </Tabs>
             </TabItem>
@@ -548,7 +549,7 @@ export default function PageMatinas() {
 
           <Text className="h2">Versículo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Diffusa est gratia in labiis
               tuis.
@@ -581,11 +582,11 @@ export default function PageMatinas() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Mas livrai-nos do mal.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Absolvição</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Precibus et meritis beatæ Mariæ semper Virginis, et omnium
               Sanctorum, perducat nos Dominus ad regna cælorum.
@@ -607,11 +608,11 @@ export default function PageMatinas() {
               <Text className="versicle"> ℣. </Text>Dai-me, Senhor, a vossa
               bênção.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Bênção</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Nos cum prole pia benedicat Virgo Maria.
             </Text>
@@ -624,7 +625,7 @@ export default function PageMatinas() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Tabs>
             <TabItem label="Depois da Natal">
@@ -632,7 +633,7 @@ export default function PageMatinas() {
 
               <Text className="em">Ecl. 24, 11-13</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   In omnibus requiem quæsivi, et in hereditate Domini morabor.
                   Tunc præcepit, et dixit mihi Creator omnium: et qui creavit
@@ -707,13 +708,13 @@ export default function PageMatinas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Lição 2</Text>
 
               <Text className="em">Ecl. 24, 15-16</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Et sic in Sion firmata sum, et in civitate sanctificata
                   similiter requievi, et in Ierúsalem potestas mea. Et radicavi
@@ -767,14 +768,14 @@ export default function PageMatinas() {
                   <Text className="response"> ℟. </Text> Gerastes O que vos deu
                   o ser, e ficastes para sempre Virgem.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="aside">
                 Quando o Te Deum é dito depois da Terceira Lição, adiciona-se o
                 seguinte no fim do Responsório:
               </Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="versicle"> ℣. </Text>Glória Patri, et Fílio,
                   et Spirítui Sancto.
@@ -798,11 +799,11 @@ export default function PageMatinas() {
                   <Text className="versicle"> ℣. </Text>Dai-me, Senhor, a vossa
                   bênção.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Bênção</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Per Vírginem matrem concédat nobis Dóminus salútem et pacem.
                 </Text>
@@ -815,13 +816,13 @@ export default function PageMatinas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Lição 3</Text>
 
               <Text className="em">Ecl. 24, 17-20</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Quasi cedrus exaltata sum in Libano, et quasi cypressus in
                   monte Sion: Quasi palma exaltata sum in Cades, et quasi
@@ -852,7 +853,7 @@ export default function PageMatinas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Demos graças a Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="aside">
                 O Te Deum não é dito no Advento, ou da Septuagésima até à
@@ -860,7 +861,7 @@ export default function PageMatinas() {
                 Responsório é dito quando o Te Deum é omitido:
               </Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="response"> ℟. </Text> Felix namque es, sacra
                   Virgo Maria, et omni laude dignissima: Quia ex te ortus est
@@ -907,7 +908,7 @@ export default function PageMatinas() {
                   <Text className="response"> ℟. </Text> Jesus Cristo, nosso
                   Deus.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
 
             <TabItem label="No Advento">
@@ -915,7 +916,7 @@ export default function PageMatinas() {
 
               <Text className="em">Lc. 1, 26-28</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Missus est Angelus Gabriel a Deo in civitatem Galilææ, cui
                   nomen Nazareth, ad virginem desponsatam viro, cui nomen erat
@@ -997,13 +998,13 @@ export default function PageMatinas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Lição 2</Text>
 
               <Text className="em">Lc. 1, 29-33</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Quæ cum audisset, turbata est in sermone ejus, et cogitabat
                   qualis esset ista salutatio. Et ait Angelus ei: Ne timeas,
@@ -1067,14 +1068,14 @@ export default function PageMatinas() {
                   Espírito Santo, e a virtude do Altíssimo vos fará sombra; por
                   isso o santo que nascerá de vós será chamado Filho de Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="aside">
                 Quando o Te Deum é dito depois da Terceira Lição, adiciona-se o
                 seguinte no fim do Responsório:
               </Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="versicle"> ℣. </Text>Glória Patri, et Fílio,
                   et Spirítui Sancto.
@@ -1100,11 +1101,11 @@ export default function PageMatinas() {
                   <Text className="versicle"> ℣. </Text>Dai-me, Senhor, a vossa
                   bênção.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Bênção</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Per Vírginem Matrem concédat nobis Dóminus salútem et pacem.
                 </Text>
@@ -1117,13 +1118,13 @@ export default function PageMatinas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Lição 3</Text>
 
               <Text className="em">Lc. 1, 34-38</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Dixit autem Maria ad Angelum: Quomodo fiet istud, quoniam
                   virum non cognosco? Et respondens Angelus dixit ei: Spiritus
@@ -1159,7 +1160,7 @@ export default function PageMatinas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Demos graças a Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="aside">
                 O Te Deum não é dito no Advento, excluindo as Festas de Nossa
@@ -1167,7 +1168,7 @@ export default function PageMatinas() {
                 omitido:
               </Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="response"> ℟. </Text> Súscipe verbum, Virgo
                   María, quod tibi a Dómino per Angelum transmíssum est:
@@ -1214,7 +1215,7 @@ export default function PageMatinas() {
                   <Text className="response"> ℟. </Text> Pelo que sereis chamada
                   Bendita entre todas as mulheres.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
           </Tabs>
 
@@ -1228,7 +1229,7 @@ export default function PageMatinas() {
             Laudes. No entanto, se não continuar para as Laudes diz:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Domine, exaudi orationem
               meam.
@@ -1245,9 +1246,9 @@ export default function PageMatinas() {
               <Text className="response"> ℟. </Text> E o meu clamor chegue até
               Vós.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -1275,9 +1276,9 @@ export default function PageMatinas() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Domine, exaudi orationem
               meam.
@@ -1320,7 +1321,7 @@ export default function PageMatinas() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Acabar com uma{" "}

@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import { TabItem, Tabs } from "~/components/Tabs";
 import Benedicite from "./../../canticos/sacros/benedicite";
 import Benedictus from "./../../canticos/sacros/benedictus";
@@ -28,7 +29,7 @@ export default function PageLaudes() {
 
           <Tabs>
             <TabItem label="Depois da Purificação">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="versicle"> ℣. </Text>Deus{" "}
                   <Text className="cross"> ✠ </Text> in adjutórium meum inténde.
@@ -70,13 +71,13 @@ export default function PageLaudes() {
                   <Text className="vernacular">Ant.</Text> Maria foi exaltada ao
                   céu; os anjos se alegram, louvam, e glorificam o Senhor.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 92</Text>
 
               <Salmo92 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Assumpta est Maria in
                   cælum: gaudete angeli, laudantes benedicunt Dominum.
@@ -85,9 +86,9 @@ export default function PageLaudes() {
                   <Text className="vernacular">Ant.</Text> Maria foi exaltada ao
                   céu; os anjos se alegram, louvam, e glorificam o Senhor.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Maria Virgo assumpta est
                   ad ætherum thalamum, in quo Rex regum stellato sedet solio.
@@ -97,13 +98,13 @@ export default function PageLaudes() {
                   exaltada ao tálamo celeste, onde o Rei dos reis está sentado
                   num trono de estrelas.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 99</Text>
 
               <Salmo99 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Maria Virgo assumpta est
                   ad ætherum thalamum, in quo Rex regum stellato sedet solio.
@@ -113,9 +114,9 @@ export default function PageLaudes() {
                   exaltada ao tálamo celeste, onde o Rei dos reis está sentado
                   num trono de estrelas.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> In odorem unguentorum
                   tuorum currimus: adolescentulæ dilexerunt te nimis.
@@ -125,13 +126,13 @@ export default function PageLaudes() {
                   fragrância dos vossos aromas, as donzelas amar-vos-ão
                   grandemente.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 62</Text>
 
               <Salmo62 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> In odorem unguentorum
                   tuorum currimus: adolescentulæ dilexerunt te nimis.
@@ -141,9 +142,9 @@ export default function PageLaudes() {
                   fragrância dos vossos aromas, as donzelas amar-vos-ão
                   grandemente.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Benedicta filia tu a
                   Domino: quia per te fructum vitaæ communicavimus.
@@ -152,7 +153,7 @@ export default function PageLaudes() {
                   <Text className="vernacular">Ant.</Text> Sois a filha bendita
                   do Senhor, porque por vós recebemos o fruto da vida.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Benedicite</Text>
 
@@ -160,7 +161,7 @@ export default function PageLaudes() {
 
               <Text className="aside">Não se diz a Glória no fim.</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Benedicta filia tu a
                   Domino: quia per te fructum vitaæ communicavimus.
@@ -169,9 +170,9 @@ export default function PageLaudes() {
                   <Text className="vernacular">Ant.</Text> Sois a filha bendita
                   do Senhor, porque por vós recebemos o fruto da vida.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Pulchra es et decora,
                   filia Jerusalem: terribus ut castrorum acies ordinara.
@@ -181,13 +182,13 @@ export default function PageLaudes() {
                   sois bela e decorosa, terrível como um exército formado em
                   linha.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 148</Text>
 
               <Salmo148 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Pulchra es et decora,
                   filia Jerusalem: terribus ut castrorum acies ordinara.
@@ -197,13 +198,13 @@ export default function PageLaudes() {
                   sois bela e decorosa, terrível como um exército formado em
                   linha.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Ct. 6, 8</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Viderunt eam filiæ Sion, et beatissimam prædicaverunt, et
                   reginæ laudaverunt eam.
@@ -218,7 +219,7 @@ export default function PageLaudes() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Graças a Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Hino O Gloriosa Virginum</Text>
 
@@ -226,7 +227,7 @@ export default function PageLaudes() {
 
               <Text className="h2">Ofício 1</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Beata dei genitrix, Maria,
                   Virgo perpetua, templum Domini, sacrarium Spiritus Sancti,
@@ -241,11 +242,11 @@ export default function PageLaudes() {
                   Cristo: rezei por nós, intervinde pelo clero, intercedei pelo
                   devoto sexo feminino.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">No Tempo Pascal</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Regína Cæli, lætáre,
                   allelúja; Quia quem meruísti portáre, allelúja; Resurréxit,
@@ -257,7 +258,7 @@ export default function PageLaudes() {
                   vosso ventre, Aleluia! Ressuscitou como disse, Aleluia! Rogai
                   por nós a Deus, Aleluia!
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Benedictus</Text>
 
@@ -265,7 +266,7 @@ export default function PageLaudes() {
 
               <Text className="h2">Ofício 1</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Beata dei genitrix, Maria,
                   Virgo perpetua, templum Domini, sacrarium Spiritus Sancti,
@@ -280,11 +281,11 @@ export default function PageLaudes() {
                   Cristo: reza por nós, intervém pelo clero, intercede pelo
                   devoto sexo feminino.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">No Tempo Pascal</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Regína Cæli, lætáre,
                   allelúja; Quia quem meruísti portáre, allelúja; Resurréxit,
@@ -323,11 +324,11 @@ export default function PageLaudes() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
 
             <TabItem label="No Advento">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="versicle"> ℣. </Text>Deus{" "}
                   <Text className="cross"> ✠ </Text> in adjutórium meum inténde.
@@ -366,13 +367,13 @@ export default function PageLaudes() {
                   <Text className="latin">Ant.</Text> O Anjo Gabriel foi mandado
                   à Virgem Maria, desposada com José.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 92</Text>
 
               <Salmo92 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Missus est Gábriel Angelus
                   ad Maríam Vírginem desponsátam Joseph.
@@ -381,9 +382,9 @@ export default function PageLaudes() {
                   <Text className="vernacular">Ant.</Text> O Anjo Gabriel foi
                   mandado à Virgem Maria, desposada com José.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ave, María, grátia plena;
                   Dóminus tecum: benedícta tu in muliéribus.
@@ -393,13 +394,13 @@ export default function PageLaudes() {
                   graça, o Senhor é convosco; bendita sois vós entre as
                   mulheres.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 99</Text>
 
               <Salmo99 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ave, María, grátia plena;
                   Dóminus tecum: benedícta tu in muliéribus.
@@ -409,9 +410,9 @@ export default function PageLaudes() {
                   graça, o Senhor é convosco; bendita sois vós entre as
                   mulheres.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ne timeas, María,
                   invenísti grátiam apud Dóminum: ecce concípies et páries
@@ -422,13 +423,13 @@ export default function PageLaudes() {
                   achastes graça para com o Senhor: concebereis, e dareis à luz
                   um filho.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 62</Text>
 
               <Salmo62 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ne timeas, María,
                   invenísti grátiam apud Dóminum: ecce concípies et páries
@@ -439,9 +440,9 @@ export default function PageLaudes() {
                   achastes graça para com o Senhor: concebereis, e dareis à luz
                   um filho.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Dabit ei Dóminus sedem
                   David, patris ejus, et regnábit in ætérnum.
@@ -450,7 +451,7 @@ export default function PageLaudes() {
                   <Text className="vernacular">Ant.</Text> O Senhor lhe dará o
                   trono de David seu Pai, e reinará eternamente.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Benedicite</Text>
 
@@ -458,7 +459,7 @@ export default function PageLaudes() {
 
               <Text className="aside">Não se diz a Glória no fim.</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Dabit ei Dóminus sedem
                   David, patris ejus, et regnábit in ætérnum.
@@ -467,9 +468,9 @@ export default function PageLaudes() {
                   <Text className="vernacular">Ant.</Text> O Senhor lhe dará o
                   trono de David seu Pai, e reinará eternamente.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ecce ancílla Dómini: fiat
                   mihi secúndum verbum tuum.
@@ -478,13 +479,13 @@ export default function PageLaudes() {
                   <Text className="vernacular">Ant.</Text> Eis aqui a escrava do
                   Senhor, faça-se em mim segundo a vossa palavra.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 148</Text>
 
               <Salmo148 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ecce ancílla Dómini: fiat
                   mihi secúndum verbum tuum.
@@ -493,13 +494,13 @@ export default function PageLaudes() {
                   <Text className="vernacular">Ant.</Text> Eis aqui a escrava do
                   Senhor, faça-se em mim segundo a vossa palavra.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Is. 11, 1-2</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Egredietur virga de radice Jesse, et flos de radice ejus
                   ascendet. Et requiescet super eum Spiritus Domini.
@@ -514,13 +515,13 @@ export default function PageLaudes() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Graças a Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Hino O Gloriosa Virginum</Text>
 
               <OGloriosaVirginum />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="versicle"> ℣. </Text>Benedicta tu in
                   mulieribus.
@@ -537,9 +538,9 @@ export default function PageLaudes() {
                   <Text className="response"> ℟. </Text> E bendito é o fruto do
                   vosso ventre.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Spiritus Sanctus in te
                   descendet, Maria: ne timeas, habebis in utero filium Dei,
@@ -550,13 +551,13 @@ export default function PageLaudes() {
                   descerá sobre vós, ó Maria; não temais: concebereis, e tereis
                   no ventre o Filho de Deus, (aleluia).
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Benedictus</Text>
 
               <Benedictus />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Spiritus Sanctus in te
                   descendet, Maria: ne timeas, habebis in utero filium Dei,
@@ -652,11 +653,11 @@ export default function PageLaudes() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
 
             <TabItem label="No Natal">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="versicle"> ℣. </Text>Deus{" "}
                   <Text className="cross"> ✠ </Text> in adjutórium meum inténde.
@@ -702,13 +703,13 @@ export default function PageLaudes() {
                   nascer de uma Virgem; e, feito homem sem progenitor,
                   tornou-nos participantes da sua divindade.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 92</Text>
 
               <Salmo92 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> O admirabile commercium:
                   Creator generis humani, animatum corpus sumens, de Virgine
@@ -721,9 +722,9 @@ export default function PageLaudes() {
                   nascer de uma Virgem; e, feito homem sem progenitor,
                   tornou-nos participantes da sua divindade.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Quando natus es
                   inefabilitre ex Virgnine, tunc impletæ sunt Scripturæ: sicut
@@ -736,13 +737,13 @@ export default function PageLaudes() {
                   descestes como a chuva sobre a lã, para salvar a humanidade.
                   Nós Vos louvamos, ó Nosso Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 99</Text>
 
               <Salmo99 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Quando natus es
                   inefabilitre ex Virgnine, tunc impletæ sunt Scripturæ: sicut
@@ -755,9 +756,9 @@ export default function PageLaudes() {
                   descestes como a chuva sobre a lã, para salvar a humanidade.
                   Nós Vos louvamos, ó Nosso Deus.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Rubum, quem viderat Moyses
                   incombustum, conservatam agnovimus tuam laudabilem
@@ -768,13 +769,13 @@ export default function PageLaudes() {
                   via sem se consumir, reconhecemos a vossa admirável virgindade
                   conservada: rogai por nós, Santa Mãe de Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 62</Text>
 
               <Salmo62 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Rubum, quem viderat Moyses
                   incombustum, conservatam agnovimus tuam laudabilem
@@ -785,9 +786,9 @@ export default function PageLaudes() {
                   via sem se consumir, reconhecemos a vossa admirável virgindade
                   conservada: rogai por nós, Santa Mãe de Deus.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Germinavit radix Jesse,
                   orta est stella ex Jacob; virgo peperit Salvatorem: te
@@ -798,7 +799,7 @@ export default function PageLaudes() {
                   Jessé, surgiu a estrela de Jacob. A Virgem deu à luz o
                   Salvador: Nós Vos louvamos, ó Nosso Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Benedicite</Text>
 
@@ -806,7 +807,7 @@ export default function PageLaudes() {
 
               <Text className="aside">Não se diz a Glória no fim.</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Germinavit radix Jesse,
                   orta est stella ex Jacob; virgo peperit Salvatorem: te
@@ -817,9 +818,9 @@ export default function PageLaudes() {
                   Jessé, surgiu a estrela de Jacob. A Virgem deu à luz o
                   Salvador: Nós Vos louvamos, Senhor nosso Deus.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ecce, Maria genuit nobis
                   Salvatorem, quem Joannes videns exclamavit, dicens: Ecce Agnus
@@ -831,13 +832,13 @@ export default function PageLaudes() {
                   Cordeiro de Deus, Aquele que tira o pecado do mundo,
                   (aleluia).
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Salmo 148</Text>
 
               <Salmo148 />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ecce, Maria genuit nobis
                   Salvatorem, quem Joannes videns exclamavit, dicens: Ecce Agnus
@@ -849,13 +850,13 @@ export default function PageLaudes() {
                   Cordeiro de Deus, Aquele que tira o pecado do mundo,
                   (aleluia).
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Is. 11, 1-2</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Egredietur virga de radice Jesse, et flos de radice ejus
                   ascendet. Et requiescet super eum Spiritus Domini.
@@ -870,13 +871,13 @@ export default function PageLaudes() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Graças a Deus.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Hino O Gloriosa Virginum</Text>
 
               <OGloriosaVirginum />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="versicle"> ℣. </Text>Benedicta tu in
                   mulieribus.
@@ -905,13 +906,13 @@ export default function PageLaudes() {
                   homem: ficando o que era, tomando o que não era, sem permitir
                   divisão nem mistura.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Benedictus</Text>
 
               <Benedictus />
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Mirabile mysterium
                   declaratur hodie: innovantur naturæ, Deus homo factus est: id
@@ -1010,11 +1011,11 @@ export default function PageLaudes() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
           </Tabs>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Domine, exaudi orationem
               meam.
@@ -1057,7 +1058,7 @@ export default function PageLaudes() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Acabar com uma{" "}

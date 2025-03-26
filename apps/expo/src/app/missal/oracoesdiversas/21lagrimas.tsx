@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page21Lagrimas() {
   return (
@@ -12,7 +13,7 @@ export default function Page21Lagrimas() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens et mitíssime Deus, qui sitiénti pópulo fontem vivéntis
               aquæ de petra produxísti: educ de cordis nostri durítia lácrimas
@@ -26,11 +27,11 @@ export default function Page21Lagrimas() {
               chorar os nossos pecados, e, pela vossa misericórdia, alcançar a
               sua remissão. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hanc oblatiónem, quǽsumus, Dómine Deus, quam tuæ majestáti pro
               peccátis nostris offérimus, propítius réspice: et produc de óculis
@@ -44,11 +45,11 @@ export default function Page21Lagrimas() {
               capazes de extinguirem o ardor das chamas, que merecemos pelos
               nossos pecados...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Grátiam Spíritus Sancti, Dómine Deus, cordibus nostris cleménter
               infúnde: quæ nos gemítibus lacrimárum effíciat máculas nostrórum
@@ -62,7 +63,7 @@ export default function Page21Lagrimas() {
               nossos pecados, e assim possamos obter da vossa magnanimidade a
               indulgência tão ardentemente desejada. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

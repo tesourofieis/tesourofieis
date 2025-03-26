@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page12251() {
   return (
@@ -14,7 +15,7 @@ export default function Page12251() {
 
           <Text className="em">Is. 9, 2 & 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lux fulgébit hódie super nos: quia natus est nobis Dóminus: et
               vocábitur Admirábilis, Deus, Princeps pacis, Pater futúri sǽculi:
@@ -32,11 +33,11 @@ export default function Page12251() {
               fortaleza e cingiu-se para o combate.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da nobis, quǽsumus, omnípotens Deus: ut, qui nova incarnáti Verbi
               tui luce perfúndimur; hoc in nostro respléndeat ópere, quod per
@@ -48,13 +49,13 @@ export default function Page12251() {
               brilho desta mesma luz, que pela fé ilustra as nossas almas,
               resplandeça nas nossas acções. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Tt. 3, 4-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beati Pauli Apostoli ad Titum.
             </Text>
@@ -80,13 +81,13 @@ export default function Page12251() {
               vida eterna, segundo a esperança que depositamos em Jesus Cristo,
               nosso Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 117, 26, 27 & 23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedíctus, qui venit in nómine Dómini: Deus Dóminus, et illúxit
               nobis.<Text className="versicle"> ℣. </Text>A Dómino factum est
@@ -110,13 +111,13 @@ export default function Page12251() {
               revestiu-se de majestade: o Senhor revestiu-se com a túnica da
               fortaleza e cingiu-se para o combate. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 2, 15-20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -148,13 +149,13 @@ export default function Page12251() {
               Deus pelo que tinham visto e ouvido, segundo o que lhes havia sido
               revelado.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 92, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus firmávit orbem terræ, qui non commovébitur: paráta sedes tua,
               Deus, ex tunc, a sǽculo tu es.
@@ -164,11 +165,11 @@ export default function Page12251() {
               destruído: vosso trono, ó Deus, existe desde a eternidade, pois
               Vós existis antes dos séculos!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera nostra, quǽsumus, Dómine, Nativitátis hodiérnæ mystériis
               apta provéniant, et pacem nobis semper infúndant: ut, sicut homo
@@ -183,13 +184,13 @@ export default function Page12251() {
               esta Substância terrena (o pão e o vinho) nos comunique o que é
               divino. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Zc. 9, 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsúlta, fília Sion, lauda, fília Jerúsalem: ecce, Rex tuus venit
               sanctus et Salvátor mundi.
@@ -198,11 +199,11 @@ export default function Page12251() {
               Alegra-te, filha de Sião; canta alegremente, filha de Jerusalém:
               eis que vem o teu Rei, que é o Santo e o Salvador do mundo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hujus nos, Dómine, sacraménti semper nóvitas natális instáuret:
               cujus Natívitas singuláris humánam réppulit vetustátem. Per eúndem
@@ -213,7 +214,7 @@ export default function Page12251() {
               Nascimento d’Aquele que se dá neste sacramento, cujo admirável
               Nascimento destruiu o «homem velho». Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

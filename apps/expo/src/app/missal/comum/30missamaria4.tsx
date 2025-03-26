@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page30Missamaria4() {
   return (
@@ -23,7 +24,7 @@ export default function Page30Missamaria4() {
             , excepto o seguinte: Depois da Epístola diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Num. 17, 8</Text> Virga Jesse flóruit:
@@ -42,13 +43,13 @@ export default function Page30Missamaria4() {
               <Text className="em">Lc. 1, 28</Text> Ave, Maria, cheia de graça:
               o Senhor é convosco: bendita sois vós entre as mulheres. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 19, 25-27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -71,11 +72,11 @@ export default function Page30Missamaria4() {
               «Mulher, eis o vosso filho!». Depois disse ao discípulo: «Eis a
               tua Mãe!». E desde aquela hora levou-a o discípulo consigo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáta es, Virgo María, quæ ómnium portásti Greatórem: genuísti qui
               te fecit, et in ætérnum pérmanes Virgo, allelúja.
@@ -85,7 +86,7 @@ export default function Page30Missamaria4() {
               em vosso seio o Criador do mundo. Vós gerastes Aquele que vos
               criou e permanecestes eternamente Virgem. Aleluia.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

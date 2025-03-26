@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageRequiem() {
   return (
@@ -24,7 +25,7 @@ export default function PageRequiem() {
 
           <Text className="h2">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, cui próprium est miseréri semper et párcere, te súpplices
               exorámus pro ánima fámuli tui <Text className="latin">N.</Text>{" "}
@@ -46,13 +47,13 @@ export default function PageRequiem() {
               condenada ao sofrimento das penas do inferno, mas goze as alegrias
               eternas. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Epístola</Text>
 
           <Text className="em">1 Ts. 4, 13-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.
             </Text>
@@ -87,13 +88,13 @@ export default function PageRequiem() {
               ares, ao encontro de Cristo, e permaneceremos eternamente com o
               Senhor. Confortai-vos, pois, uns aos outros com estas palavras.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Evangelho</Text>
 
           <Text className="em">Jo. 11, 21-27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -125,11 +126,11 @@ export default function PageRequiem() {
               «Sim, Senhor, creio que sois Cristo, Filho de Deus vivo, que
               viestes a este mundo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Propitiáre, quǽsumus, Dómine, ánimæ famuli tui{" "}
               <Text className="latin">N.</Text> (fámulæ tuæ{" "}
@@ -145,11 +146,11 @@ export default function PageRequiem() {
               à vossa majestade que, por intercessão deste sacrifício de
               expiação, lhe concedais o descanso eterno. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut ánima fámuli tui{" "}
               <Text className="latin">N.</Text> (fámulæ tuæ{" "}
@@ -166,7 +167,7 @@ export default function PageRequiem() {
               deste sacrifício, alcance misericordiosamente de Vós o perdão das
               culpas e o repouso eterno. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h1">No 3.º, 7.º ou 30.º dia do Óbito</Text>
 
@@ -183,7 +184,7 @@ export default function PageRequiem() {
 
           <Text className="h2">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, Dómine, ut ánimæ fámuli tui{" "}
               <Text className="latin">N.</Text> (fámulæ tuæ{" "}
@@ -199,11 +200,11 @@ export default function PageRequiem() {
               gozar a companhia dos vossos Santos escolhidos; e espalhai sobre
               ela o orvalho perpétuo da vossa misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera, quǽsumus, Dómine, quæ tibi pro ánima fámuli tui{" "}
               <Text className="latin">N.</Text> (fámulæ tuæ{" "}
@@ -218,11 +219,11 @@ export default function PageRequiem() {
               com estes remédios celestiais, descanse no seio da vossa
               misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, preces nostras pro ánima fámuli tui{" "}
               <Text className="latin">N.</Text> (fámulæ tuæ{" "}
@@ -238,7 +239,7 @@ export default function PageRequiem() {
               deste mundo, todas sejam apagadas com vosso misericordioso perdão.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h1">No dia do Aniversário</Text>
 
@@ -252,7 +253,7 @@ export default function PageRequiem() {
 
           <Text className="h2">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, indulgentiárum Dómine: da ánimæ famuli tui{" "}
               <Text className="latin">N.</Text> (fámulæ tuæ{" "}
@@ -268,13 +269,13 @@ export default function PageRequiem() {
               bem-aventurança do repouso e o esplendor da luz. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Epístola</Text>
 
           <Text className="em">2 Mac. 12, 43-46</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Machabæórum.</Text>
             <Text className="vernacular">Lição do livro dos Macabeus.</Text>
             <Text className="latin">
@@ -299,13 +300,13 @@ export default function PageRequiem() {
               piedosamente. Na verdade, é um santo e salutar pensamento orar
               pelos mortos, para que sejam livres dos seus pecados.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Evangelho</Text>
 
           <Text className="em">Jo. 6, 37-40</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -334,11 +335,11 @@ export default function PageRequiem() {
               aquele que vê o Filho e acredita n’Ele alcance a vida eterna; e Eu
               o ressuscitarei no último dia».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Propitiáre, Dómine, supplicatiónibus nostris, pro anima famuli tui{" "}
               <Text className="latin">N.</Text> (fámulæ tuæ{" "}
@@ -355,11 +356,11 @@ export default function PageRequiem() {
               de louvor, a fim de que Vos digneis admiti-la na companhia dos
               vossos santos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, Dómine: ut ánima fámuli tui{" "}
               <Text className="latin">N.</Text> (fámulæ tuæ{" "}
@@ -375,7 +376,7 @@ export default function PageRequiem() {
               destes sacrifícios, receba ao mesmo tempo a indulgência e o
               sempiterno perdão. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h1">Quotidiana</Text>
 
@@ -391,7 +392,7 @@ export default function PageRequiem() {
 
           <Text className="aside">Bispos e Padres</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui inter apostólicos Sacerdotes fámulos tuos pontificáli
               seu sacerdotáli fecísti dignitáte vigére: præsta, quǽsumus; ut
@@ -403,13 +404,13 @@ export default function PageRequiem() {
               dos Apóstolos, concedei-lhes, Vos suplicamos, a graça de gozarem
               com eles a glória eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Oração</Text>
 
           <Text className="aside">Irmãos, Parentes e Benfeitores</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, véniæ largítor et humánæ salútis amátor: quǽsumus cleméntiam
               tuam; ut nostræ congregatiónis fratres, propínquos et
@@ -425,13 +426,13 @@ export default function PageRequiem() {
               mundo, a fim de que alcancem a bem-aventurança eterna. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Oração</Text>
 
           <Text className="aside">Fiéis</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fidélium, Deus, ómnium Cónditor et Redémptor: animábus famulórum
               famularúmque tuárum remissiónem cunctórum tríbue peccatórum; ut
@@ -445,13 +446,13 @@ export default function PageRequiem() {
               misericórdia o perdão que sempre desejaram. Ó Vós, que, sendo
               Deus, viveis e...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Epístola</Text>
 
           <Text className="em">Ap. 14, 13</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
             </Text>
@@ -470,13 +471,13 @@ export default function PageRequiem() {
               Espírito, eles vão logo descansar no Senhor, visto que suas obras
               os acompanham».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Gradual</Text>
 
           <Text className="em">4 Esd. 2, 34 & 35</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.
               <Text className="versicle"> ℣. </Text>
@@ -490,11 +491,11 @@ export default function PageRequiem() {
               homem justo permanecerá eternamente; este não temerá ouvir as
               sentenças más dos homens.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Trato</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Absólve, Dómine, ánimas ómnium fidélium defunctórum ab omni
               vínculo delictórum.<Text className="versicle"> ℣. </Text>Et grátia
@@ -509,13 +510,13 @@ export default function PageRequiem() {
               <Text className="versicle"> ℣. </Text>E alcancem a bem-aventurança
               da luz eterna.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Evangelho</Text>
 
           <Text className="em">Jo. 6, 51-55</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -546,13 +547,13 @@ export default function PageRequiem() {
               a vida em vós. Aquele que come a minha carne e bebe o meu sangue
               tem a vida eterna, e Eu o ressuscitarei no último dia».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Secreta</Text>
 
           <Text className="aside">Bispos e Padres</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súscipe, Dómine, quǽsumus, pro animábus famulórum tuórum
               Pontíficum seu Sacerdótum, quas offérimus, hóstias: ut, quibus in
@@ -566,13 +567,13 @@ export default function PageRequiem() {
               de Presbíteros sejam admitidos no reino celestial a compartilhar
               da felicidade dos vossos Santos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Secreta</Text>
 
           <Text className="aside">Irmãos, Parentes e Benfeitores</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, cujus misericórdiæ non est númerus, súscipe propítius preces
               humilitátis nostræ: et animábus fratrum, propinquórum et
@@ -587,13 +588,13 @@ export default function PageRequiem() {
               irmãos, parentes e benfeitores, aos quais permitistes a graça de
               confessarem o vosso nome. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Secreta</Text>
 
           <Text className="aside">Fiéis</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias, quǽsumus, Dómine, quas tibi pro animábus famulórum
               famularúmque tuárum offérimus, propitiátus inténde: ut, quibus
@@ -606,13 +607,13 @@ export default function PageRequiem() {
               lhes haverdes concedido o dom da fé cristã, lhes proporcioneis a
               recompensa. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Postcomúnio</Text>
 
           <Text className="aside">Bispos e Padres</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Prosit, quǽsumus, Dómine, animábus famulórum tuórum Pontíficum seu
               Sacerdótum misericórdiæ tuæ imploráta cleméntia: ut ejus, in quo
@@ -626,13 +627,13 @@ export default function PageRequiem() {
               fé e a esperança, os associeis à vossa eterna e gloriosa
               companhia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Postcomúnio</Text>
 
           <Text className="aside">Irmãos, Parentes e Benfeitores</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens et miséricors Deus: ut ánimæ fratrum,
               propinquórum et benefactórum nostrórum, pro quibus hoc sacrifícium
@@ -648,13 +649,13 @@ export default function PageRequiem() {
               expiação dos pecados e a felicidade da luz eterna. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Postcomúnio</Text>
 
           <Text className="aside">Fiéis</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Animábus, quǽsumus, Dómine, famulórum famularúmque tuárum orátio
               profíciat supplicántium: ut eas et a peccátis ómnibus éxuas, et
@@ -666,7 +667,7 @@ export default function PageRequiem() {
               pecados, participem dos frutos da vossa redenção. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

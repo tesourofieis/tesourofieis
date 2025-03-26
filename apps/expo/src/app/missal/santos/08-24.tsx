@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0824() {
   return (
@@ -14,7 +15,7 @@ export default function Page0824() {
 
           <Text className="em">Sl. 138, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortatus
               est principatus eórum.{" "}
@@ -30,11 +31,11 @@ export default function Page0824() {
               conhecendo quando me deito e quando me levanto.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui hujus diei venerándam sanctámque
               lætítiam in beáti Apóstoli tui Bartholomǽi festivitáte tribuísti:
@@ -48,13 +49,13 @@ export default function Page0824() {
               de amar o que ele acreditou e de pregar o que ensinou. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Cor. 12, 27-31</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -82,13 +83,13 @@ export default function Page0824() {
               Têm todos o dom de interpretá-las? Aspirai aos dons mais
               perfeitos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 17 & 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Constítues eos príncipes super omnem terram: mémores erunt nóminis
               tui, Dómine.<Text className="versicle"> ℣. </Text>Pro patribus
@@ -109,13 +110,13 @@ export default function Page0824() {
               Aleluia, aleluia.<Text className="versicle"> ℣. </Text>O coro
               glorioso dos Apóstolos canta os vossos louvores. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 6, 12-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -155,13 +156,13 @@ export default function Page0824() {
               aquela multidão procurava tocar em Jesus, pois d’Ele saía uma tal
               virtude que a todos sarava.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 138, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.
@@ -170,11 +171,11 @@ export default function Page0824() {
               Eu vejo, ó Deus, que honrais largamente os vossos amigos; e por
               isso o seu poder se tem fortalecido extraordinariamente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáti Apóstoli tui Bartholomǽi sollémnia recenséntes, quǽsumus,
               Dómine: ut ejus auxílio tua benefícia capiámus, pro quo tibi
@@ -186,13 +187,13 @@ export default function Page0824() {
               socorro daquele em cuja honra imolamos esta hóstia de louvor. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 19, 28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vos, qui secúti estis me, sedébitis super sedes, judicántes
               duódecim tribus Israël, dicit Dóminus.
@@ -201,11 +202,11 @@ export default function Page0824() {
               Vós, que me seguistes, vos assentareis sobre tronos e julgareis as
               doze tribos de Israel.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumptum, Dómine, pignus redemptiónis ætérnæ: sit nobis, quǽsumus;
               interveniénte beáto Bartholomǽo Apóstolo tuo, vitæ præséntis
@@ -216,7 +217,7 @@ export default function Page0824() {
               seja para nós, por intercessão do B. Bartolomeu, Apóstolo, auxílio
               na vida presente e na futura. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

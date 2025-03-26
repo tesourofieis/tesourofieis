@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageVidiaquam() {
   return (
@@ -14,7 +15,7 @@ export default function PageVidiaquam() {
             Desde a Páscoa até à Vigília da SS. Trindade, diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vidi aquam egrediéntem de templo a látere dextro, allelúja: et
               omnes ad quos pervénit aqua ista salvi facti sunt et dicent:
@@ -87,7 +88,7 @@ export default function PageVidiaquam() {
               proteja, visite e defenda todos aqueles que se encontram neste
               templo. Por Cristo, nosso Senhor. Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

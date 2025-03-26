@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0518() {
   return (
@@ -37,7 +38,7 @@ export default function Page0518() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui hunc diem beáfi Venántii Martyris tui triúmpho
               consecrásti: exáudi preces pópuli tui et præsta: ut, qui ejus
@@ -49,11 +50,11 @@ export default function Page0518() {
               honrando os seus méritos, imitemos também a constância da sua fé.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hanc oblatiónem, omnípotens Deus, beáti Venántii mérita tibi
               reddant accéptam: ut, ipsíus subsidiis adjuti, glóriæ ejus
@@ -64,11 +65,11 @@ export default function Page0518() {
               méritos do B. Venâncio, a fim de que, assistidos com seu auxílio,
               nos tornemos participantes da sua glória. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súmpsimus, Dómine, ætérnæ vitæ sacraménta, te humiliter
               deprecántes: ut, beáto Venántio Mártyre tuo pro nobis deprecánte,
@@ -79,7 +80,7 @@ export default function Page0518() {
               humildemente Vos suplicamos que as preces do B. Venâncio, vosso
               Mártir, nos alcancem o perdão e a graça. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

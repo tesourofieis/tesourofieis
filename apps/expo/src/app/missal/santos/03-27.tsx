@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0327() {
   return (
@@ -16,7 +17,7 @@ export default function Page0327() {
 
           <Text className="em">Sl. 72, 24</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tenuísti manum déxteram meam: et in voluntáte tua deduxísti me, et
               cum glória suscepísti me. (T. P. Allelúja, allelúja.){" "}
@@ -32,11 +33,11 @@ export default function Page0327() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens sempitérne Deus, qui, ad cultum sacrarum imáginum
               asseréndum, beátum Joánnem cœlésti doctrina et admirábili spíritus
@@ -52,13 +53,13 @@ export default function Page0327() {
               imagens honramos, e sintamos os efeitos desse patrocínio. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Sb. 10, 10-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -95,13 +96,13 @@ export default function Page0327() {
               servo de Deus e com prodígios e outros sinais fez frente aos reis
               temíveis. E ela deu aos justos a recompensa dos seus trabalhos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 17, 33 & 35</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui præcínxit me virtúte: et pósuit immaculátam viam meam.
               <Text className="versicle"> ℣. </Text>Qui docet manus meas ad
@@ -113,13 +114,13 @@ export default function Page0327() {
               adestrou as minhas mãos para o combate e tornou os meus braços
               rijos, como um arco de bronze.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">ibid., 38, 39 & 50</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pérsequar inimícos meos, et comprehéndam illos.
               <Text className="versicle"> ℣. </Text>Confríngam illos, nec
@@ -135,13 +136,13 @@ export default function Page0327() {
               louvar-Vos diante de todos os povos e cantarei hinos em honra do
               vosso nome.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual e o Trato, e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">1 Reg. 25, 26 & 28</Text> Dóminus salvávit
@@ -160,13 +161,13 @@ export default function Page0327() {
               Deus, pois adestrou minhas mãos para o combate e meus dedos para a
               batalha. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 6, 6-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -203,13 +204,13 @@ export default function Page0327() {
               fariseus, cheios de demência, conferenciaram uns com os outros
               para combinar o que haviam de fazer a Jesus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Jb. 14, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lignum habet spem: sipræcísum fúerit, rursum viréscit, et rami
               ejus púllulant.
@@ -218,11 +219,11 @@ export default function Page0327() {
               A árvore tem esperança; pois, se a cortarem, torna a reverdescer e
               a lançar suas ramagens.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ut, quæ tibi, Dómine, offérimus, dona tuo sint digna conspéctu:
               beáti Joánnis et Sanctórum, quos ejus ópera expósitos in templis
@@ -234,13 +235,13 @@ export default function Page0327() {
               tornar dignos dos vossos olhares os dons que Vos oferecemos. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 36, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Bráchia peccatórum conteréntur, confírmat autem justos Dóminus.
             </Text>
@@ -248,11 +249,11 @@ export default function Page0327() {
               Os braços dos maus serão quebrados; mas o Senhor fortificará os
               braços dos justos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumpta nos, quǽsumus, Dómine, dona cœléstibus armis tueántur: et
               beáti Joánnis patrocínia circúmdent Sanctórum unánimi suffrágio
@@ -265,7 +266,7 @@ export default function Page0327() {
               sufrágios unânimes dos Santos, cujas imagens fez venerar nos
               templos, seja a nossa salvaguarda. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

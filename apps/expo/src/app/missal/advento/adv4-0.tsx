@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageAdv40() {
   return (
@@ -14,7 +15,7 @@ export default function PageAdv40() {
 
           <Text className="em">Is. 45, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Rorate, cœli, cœli, désuper, et nubes pluant justum: aperiátur
               terra, et gérminet Salvatórem.{" "}
@@ -29,11 +30,11 @@ export default function PageAdv40() {
               glória de Deus: e o firmamento anuncia as obras das suas mãos.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Excita, quǽsumus, Dómine, poténtiam tuam, et veni: et magna nobis
               virtúte succúrre; ut per auxílium grátiæ tuæ, quod nostra peccáta
@@ -47,13 +48,13 @@ export default function PageAdv40() {
               remédio de que os nossos pecados necessitam. Vós, que, sendo Deus,
               viveis...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Cor. 4, 1–5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beati Pauli Apostoli ad Corinthios.
             </Text>
@@ -84,13 +85,13 @@ export default function PageAdv40() {
               desígnios do coração. Então cada um receberá de Deus a recompensa
               meritória.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 144, 18 & 21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Prope est Dóminus ómnibus invocántibus eum: ómnibus, qui ínvocant
               eum in veritáte.<Text className="versicle"> ℣. </Text>Laudem
@@ -114,13 +115,13 @@ export default function PageAdv40() {
               Senhor, e não retardeis mais: perdoai os crimes de Israel, vosso
               povo. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 3, 1–6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -157,13 +158,13 @@ export default function PageAdv40() {
               caminhos tortuosos serão endireitados e os ásperos aplanados; e
               toda a carne humana verá a salvação de Deus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Lc. 1, 28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ave María, gratia plena; Dóminus tecum: benedícta tu in
               muliéribus, et benedíctus fructus ventris tui.
@@ -172,11 +173,11 @@ export default function PageAdv40() {
               Ave, Maria, cheia de graça: o Senhor é convosco: bendita sois vós
               entre as mulheres: e bendito é o fruto do vosso ventre.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrificiis præséntibus, quǽsumus, Dómine, placátus inténde: ut et
               devotióni nostræ profíciant et salúti. Per Dóminum...
@@ -186,13 +187,13 @@ export default function PageAdv40() {
               Vos apresentamos, a fim de que sirvam para aumento da nossa
               devoção e para conseguirmos a salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Is. 7, 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce Virgo concípiet et páriet fílium: et vocábitur nomen ejus
               Emmánuel.
@@ -201,11 +202,11 @@ export default function PageAdv40() {
               Eis que uma Virgem conceberá e dará à luz um filho, que será
               chamado Emanuel.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumptis munéribus, quǽsumus, Dómine: ut, cum frequentatióne
               mystérii, crescat nostræ salútis efféctus. Per Dóminum...
@@ -215,7 +216,7 @@ export default function PageAdv40() {
               suplicamos, dignai-Vos aumentar em nós, pela frequente recepção
               deste mystério, o efeito da nossa salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageSantacruz() {
   return (
@@ -22,7 +23,7 @@ export default function PageSantacruz() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui unigéniti Fílii tui pretióso sanguine vivíficæ Crucis
               vexíllum sanctificáre voluísti: concéde, quǽsumus; eos, qui
@@ -36,7 +37,7 @@ export default function PageSantacruz() {
               santa Cruz, que gozem sempre e em todos os lugares a vossa
               protecção. Pelo mesmo...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal em vez da Oração Precedente diz-se a seguinte:
@@ -44,7 +45,7 @@ export default function PageSantacruz() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui pro nobis Fílium tuum Crucis patíbulum subíre voluísti,
               ut inimíci a nobis expélleres potestátem: concéde nobis, fámulis
@@ -57,13 +58,13 @@ export default function PageSantacruz() {
               servos que alcancem a graça de tomar parte na sua ressurreição.
               Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Fl. 2, 8-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.
             </Text>
@@ -88,7 +89,7 @@ export default function PageSantacruz() {
               no céu, na terra e nos infernos: e todas as línguas devem
               confessar que o senhor Jesus está na glória de Deus Pai.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Depois da Septuagésima omite-se o Aleluia e o Verso que se segue, e
@@ -97,7 +98,7 @@ export default function PageSantacruz() {
 
           <Text className="h3">Trato</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adorámus te, Christe, et benedícimus tibi: quia per Crucem tuam
               redemísti mundum.<Text className="versicle"> ℣. </Text>Tuam Crucem
@@ -114,13 +115,13 @@ export default function PageSantacruz() {
               <Text className="versicle"> ℣. </Text>Ó Cruz bendita, só tu foste
               digna de sustentar o Senhor, que é o Rei dos céus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual o Trato, e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 95, 10</Text> Dícite in géntibus, quia
@@ -137,13 +138,13 @@ export default function PageSantacruz() {
               aos benditos cravos, suportaste o doce fardo! Só tu foste digno de
               sustentar o Senhor, que é o Rei dos céus. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 20, 17-19</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -167,11 +168,11 @@ export default function PageSantacruz() {
               zombarem d’Ele, e depois será flagelado e crucificado; porém ao
               terceiro dia ressuscitará».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc oblátio, Dómine, quǽsumus, ab ómnibus nos purget offénsis: quæ
               in ara Crucis étiam totíus mundi tulit offénsam. Per eúndem
@@ -182,7 +183,7 @@ export default function PageSantacruz() {
               apagou os pecados do universo, nos purifique dos nossos pecados.
               Pelo mesmo...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

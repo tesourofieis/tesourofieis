@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageBenedictus() {
   return (
@@ -10,7 +11,7 @@ export default function PageBenedictus() {
         <View className="docs">
           <Text className="h1">Benedíctus</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedíctus Dóminus, Deus Israël: * quia visitávit, et fecit
               redemptiónem plebis suæ:
@@ -121,7 +122,7 @@ export default function PageBenedictus() {
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

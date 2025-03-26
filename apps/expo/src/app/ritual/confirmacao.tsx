@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageConfirmacao() {
   return (
@@ -16,7 +17,7 @@ export default function PageConfirmacao() {
             ajoelham diante do Bispo, que começa:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Spíritus Sanctus supervéniat
               in vos, et virtus Altíssimi custódiat vos a peccátis.
@@ -73,7 +74,7 @@ export default function PageConfirmacao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h1">Imposição das Mãos</Text>
 
@@ -82,7 +83,7 @@ export default function PageConfirmacao() {
             Confirmação, os quais as inclinam mediocremente:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -162,7 +163,7 @@ export default function PageConfirmacao() {
               da Cruz <Text className="cross"> ✠ </Text> de Cristo, a fim de os
               auxiliar na posse da vida eterna. Pelo mesmo...
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Todos se erguem, apresentando-se um a um ao Bispo (com ordem e
@@ -173,7 +174,7 @@ export default function PageConfirmacao() {
 
           <Text className="h1">A Unção</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">N.</Text> Signo te signo Cru{" "}
               <Text className="cross"> ✠ </Text> cis: et cornfírmo te Chrísmate
@@ -200,7 +201,7 @@ export default function PageConfirmacao() {
             <Text className="vernacular">
               <Text className="versicle"> ℣. </Text>A paz seja convosco!
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Um dos Clérigos Assistentes ao Bispo limpará a Unção do que recebeu
@@ -209,7 +210,7 @@ export default function PageConfirmacao() {
 
           <Text className="h1">A Bênção</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Confírma hoc, Deus, quod
               operátus es in nobis, a templo sancto tuo, quod est in Jerúsalem.
@@ -281,9 +282,9 @@ export default function PageConfirmacao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> E com vosso espírito.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -316,13 +317,13 @@ export default function PageConfirmacao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             O Bispo continua, estando ainda todos de joelhos:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce sic benedicétur omnis homo, qui timet Dóminum.
             </Text>
@@ -345,7 +346,7 @@ export default function PageConfirmacao() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

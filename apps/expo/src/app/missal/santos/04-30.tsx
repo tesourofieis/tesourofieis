@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0430() {
   return (
@@ -41,7 +42,7 @@ export default function Page0430() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, omnípotens Deus: ut, qui beátæ Catharínæ Vírginis
               tuæ natalítia cólimus; et ánnua sollemnitáte lætámur, et tantæ
@@ -53,11 +54,11 @@ export default function Page0430() {
               nesta solenidade anual e aproveitemos com o exemplo de tão grande
               virtude. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Acéndant ad te, Dómine, quas in beátæ Catharínæ sollemnitáte
               offérimus, preces, et hóstia salutáris, virgíneo fragrans odóre.
@@ -68,11 +69,11 @@ export default function Page0430() {
               solenidade da B. Catarina, e aceitai também esta salutar hóstia,
               perfumada com seu virginal odor. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Æternitátem nobis, Dómine, cónferat, qua pasti sumus, mensa
               cœléstis: quæ beátæ Catharinæ Vírginis vitam étiam áluit
@@ -83,7 +84,7 @@ export default function Page0430() {
               comunique a vida eterna, como ele alentou também a vida temporal
               da B. Virgem Catarina. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

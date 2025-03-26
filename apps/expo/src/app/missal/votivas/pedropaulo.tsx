@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PagePedropaulo() {
@@ -20,7 +21,7 @@ export default function PagePedropaulo() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, cujus déxtera beátum Petrum, ambulántem in flúctibus, ne
               mergerétur, eréxit, et coapóstolum ejus Paulum, tértio
@@ -36,13 +37,13 @@ export default function PagePedropaulo() {
               pelos méritos destes dois Apóstolos, obtenhamos a glória eterna. Ó
               Vós, que...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act. 5, 12-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolorum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -70,13 +71,13 @@ export default function PagePedropaulo() {
               trazendo enfermos, vindo também outros que estavam atormentados
               pelos espíritos imundos. E todos eram curados.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 44, 17 & 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Constítues eos príncipes super omnem terram: mémores erunt nóminis
               tui, Dómine.<Text className="versicle"> ℣. </Text>Pro pátribus
@@ -101,7 +102,7 @@ export default function PagePedropaulo() {
               os vossos amigos, ó Deus; o seu poder tem-se fortalecido
               extraordinariamente. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Depois da Septuagésima omite-se o Aleluia e o que se segue, e diz-se
@@ -112,7 +113,7 @@ export default function PagePedropaulo() {
 
           <Text className="em">Sl. 125, 5-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui séminant in lácrimis, in gáudio metent.
               <Text className="versicle"> ℣. </Text>Eúntes ibant et flébant,
@@ -127,7 +128,7 @@ export default function PagePedropaulo() {
               quando regressaram, vinham alegres, transportando feixes do seu
               trigo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -140,7 +141,7 @@ export default function PagePedropaulo() {
 
           <Text className="em">Sl. 18, 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In omnem terram exivit sonus eórum: et in fines orbis terræ verba
               eórum.
@@ -149,11 +150,11 @@ export default function PagePedropaulo() {
               O som da sua voz ecoou por toda a terra: e as suas palavras
               estenderam-se até às extremidades da terra.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Offérimus tibi, Dómine, preces et múnera: quæ ut tuo sint digna
               conspéctu. Apostolórum tuórum Petri et Pauli précibus adjuvémur.
@@ -164,13 +165,13 @@ export default function PagePedropaulo() {
               sejam dignas dos vossos olhares, fazei que os vossos Apóstolos
               Pedro e Paulo as acompanhem com suas preces. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 19, 28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vos, qui secuti estis me, sedebitis super sedes, judicantes
               duodecim tribus Israel.
@@ -179,11 +180,11 @@ export default function PagePedropaulo() {
               Ó vós, que me acompanhastes, assentar-vos-eis em doze tronos e
               julgareis as doze tribos de Israel.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Prótege, Dómine, pópulum tuum: et Apostolórum tuórum Petri et
               Pauli patrocínio confidéntem, perpétua defensióne consérva. Per
@@ -194,7 +195,7 @@ export default function PagePedropaulo() {
               patrocínio dos vossos Apóstolos Pedro e Paulo, dignai-Vos
               defendê-lo e guardá-lo perpetuamente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

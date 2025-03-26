@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0724Outro() {
   return (
@@ -32,7 +33,7 @@ export default function Page0724Outro() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Indulgéntiam nobis, quǽsumus, Dómine, beáta Christína Virgo et
               Martyr implóret: quæ tibi grata semper éxstitit, et merito
@@ -44,11 +45,11 @@ export default function Page0724Outro() {
               que sempre Vos foi agradável não só pelos méritos da castidade,
               mas também pela prática da vossa virtude..
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, beátæ Christínæ Vírginis et Martyris tuæ
               dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue
@@ -59,11 +60,11 @@ export default function Page0724Outro() {
               méritos da B. Cristina, Virgem e Mártir, e dignai-Vos permitir que
               nos sirvam de perpétuo socorro...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Divíni númeris largitáte satiáti, quǽsumus, Dómine, Deus noster:
               ut, intercedénte beáta Christína Vírgine et Mártyre tua, in ejus
@@ -74,7 +75,7 @@ export default function Page0724Outro() {
               suplicamos, permiti, pela intercessão da B. Catarina, vossa
               Virgem, que comparticipemos sempre deste dom durante a vida...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

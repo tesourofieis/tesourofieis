@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageAvemaria() {
   return (
@@ -10,7 +11,7 @@ export default function PageAvemaria() {
         <View className="docs">
           <Text className="h1">Ave Maria</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Ave, María, grátia plena,
               Dóminus tecum; benedícta tu in muliéribus, et benedíctus fructus
@@ -35,7 +36,7 @@ export default function PageAvemaria() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

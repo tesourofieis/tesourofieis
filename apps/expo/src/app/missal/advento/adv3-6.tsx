@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageAdv36() {
   return (
@@ -14,7 +15,7 @@ export default function PageAdv36() {
 
           <Text className="em">Sl. 79, 4 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veni, et osténde nobis fáciem tuam, Dómine, qui sedes super
               Chérubim: et salvi érimus.{" "}
@@ -31,9 +32,9 @@ export default function PageAdv36() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -52,11 +53,11 @@ export default function PageAdv36() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Levantai-vos!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui cónspicis, quia ex nostra pravitáte afflígimur: concéde
               propítius; ut ex tua visitatióne consolémur: Qui vivis...
@@ -66,13 +67,13 @@ export default function PageAdv36() {
               concedei-nos propício que sejamos consolados com vossa visita: Ó
               Vós, que, sendo Deus, viveis e...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">1.ª Lição</Text>
 
           <Text className="em">Is. 19, 20–22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Lectio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -93,13 +94,13 @@ export default function PageAdv36() {
               chaga e fechá-la-á; e converter-se-ão ao Senhor, que se deixará
               aplacar. O Senhor, nosso Deus, os curará.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 18, 7 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               A summo cœlo egréssio ejus: et occúrsus ejus usque ad summum ejus.
               <Text className="versicle"> ℣. </Text>Cœli enárrant glóriam Dei:
@@ -110,9 +111,9 @@ export default function PageAdv36() {
               extremo.<Text className="versicle"> ℣. </Text>Os céus proclamam a
               glória de Deus e o firmamento anuncia as obras das suas mãos.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -131,11 +132,11 @@ export default function PageAdv36() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Levantai-vos!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, omnípotens Deus: ut, qui sub peccáti jugo et
               vetústa servitúte deprímimur; exspectáta unigéniti Fílii tui nova
@@ -148,13 +149,13 @@ export default function PageAdv36() {
               nascimento, tão desejado, do vosso Filho Unigénito: Ele, que,
               sendo Deus, convosco vive e reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">2.ª Lição</Text>
 
           <Text className="em">Is. 35, 1–7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Lectio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -187,13 +188,13 @@ export default function PageAdv36() {
               a que tinha sede tornar-se-á em fontes de águas: diz o Senhor
               omnipotente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 18, 6 & 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               In sole pósuit tabernáculum suum: et ipse tamquam sponsus
               procédens de thálamo suo.<Text className="versicle"> ℣. </Text>A
@@ -204,9 +205,9 @@ export default function PageAdv36() {
               do seu tálamo.<Text className="versicle"> ℣. </Text>Surge em um
               extremo do céu e segue o seu curso até ao outro extremo.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -225,11 +226,11 @@ export default function PageAdv36() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Levantai-vos!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Indignos nos, quǽsumus, Dómine, fámulos tuos, quos actiónis
               própriæ culpa contrístat, unigéniti Fílii tui advéntu lætífica:
@@ -240,13 +241,13 @@ export default function PageAdv36() {
               suas acções, Vos suplicamos, alegrai-os com o advento do vosso
               Filho Unigénito. Ele, que, sendo Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">3.ª Lição</Text>
 
           <Text className="em">Is. 40, 9–11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Lectio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -268,13 +269,13 @@ export default function PageAdv36() {
               acolherá os cordeiros em seus braços e apertá-los-á ao seu seio:
               Ele, o Senhor, nosso Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 79, 20 & 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, Deus virtútum, convérte nos: et osténde fáciem tuam, et
               salvi érimus,<Text className="versicle"> ℣. </Text>Excita, Dómine,
@@ -285,9 +286,9 @@ export default function PageAdv36() {
               face e seremos salvos.<Text className="versicle"> ℣. </Text>
               Mostrai, Senhor, o vosso poder e vinde, para que sejamos salvos.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -306,11 +307,11 @@ export default function PageAdv36() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Levantai-vos!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut Fílii tui ventúra
               sollémnitas et præséntis nobis vitæ remédia cónferat, et prǽmia
@@ -322,13 +323,13 @@ export default function PageAdv36() {
               para a vida presente e nos proporcione os prémios eternos. Pelo
               mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">4.ª Lição</Text>
 
           <Text className="em">Is. 45, 1–8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Lectio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -369,13 +370,13 @@ export default function PageAdv36() {
               floresça ao mesmo tempo a justiça! Eu sou o Senhor, que criou tudo
               quanto existe».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 79, 3, 2 & 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Excita, Dómine, poténtiam tuam, et veni, ut salvos fácias nos.
               <Text className="versicle"> ℣. </Text>
@@ -389,9 +390,9 @@ export default function PageAdv36() {
               tendes um trono acima dos Querubins, manifestai-Vos ante Efraim,
               Benjamim e Manassés.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -410,11 +411,11 @@ export default function PageAdv36() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Levantai-vos!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Preces pópuli tui, quǽsumus, Dómine, cleménter exáudi: ut, qui
               juste pro peccátis nostris afflígimur, pietátis tuæ visitatióne
@@ -425,13 +426,13 @@ export default function PageAdv36() {
               que nós, que estamos aflitos com os nossos pecados, sejamos
               consolados com vossa misericordiosa visita. Ó Vós, que viveis...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">5.ª Lição</Text>
 
           <Text className="em">Dn. 3, 47–51</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Lectio Daniélis Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Daniel.</Text>
             <Text className="latin">
@@ -456,9 +457,9 @@ export default function PageAdv36() {
               incómodo! Então, estes três jovens louvavam, glorificavam e
               bendiziam Deus na fornalha, em voz uníssona, dizendo:
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -475,13 +476,13 @@ export default function PageAdv36() {
               concedei-nos misericordiosamente que nós, vossos servos, não
               sejamos queimados pelas chamas dos vícios. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Hino Benedictus Es</Text>
 
           <Text className="em">Dn. 3:52</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedíctus es, Dómine, Deus patrum nostrórum. Et laudábilis et
               gloriósus in sǽcula.
@@ -581,13 +582,13 @@ export default function PageAdv36() {
               Bendito sois, Senhor, Deus de nossos pais: e digno de louvor e de
               glória em todos os séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Ts. 2, 1–8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Lectio Epístolæ beati Pauli Apostoli ad Corinthios.
             </Text>
@@ -631,13 +632,13 @@ export default function PageAdv36() {
               exterminará com o sopro da sua boca e ofuscará com o esplendor do
               seu advento.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 79, 2–3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.
               <Text className="versicle"> ℣. </Text>Qui sedes super Chérubim,
@@ -651,13 +652,13 @@ export default function PageAdv36() {
               Querubins: manifestai-Vos ante Efraim, Benjamim e Manassés.
               Mostrai, Senhor, o vosso poder: e vinde, para que sejamos salvos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 3, 1–6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -694,13 +695,13 @@ export default function PageAdv36() {
               caminhos tortuosos serão endireitados e os ásperos aplanados; e
               toda a carne humana verá a salvação de Deus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Zc. 9, 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsúlta satis, fília Sion, prǽdica, fília Jerúsalem: ecce, Rex
               tuus venit tibi sanctus et Salvátor.
@@ -709,11 +710,11 @@ export default function PageAdv36() {
               Exulta de alegria, filha de Sião; rejubila, filha de Jerusalém:
               eis que vem a ti o teu Rei o Santo e Salvador.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifíciis præséntibus, quǽsumus, Dómine, placátus inténde: ut et
               devotióni nostræ profíciant et salúti. Per Dóminum...
@@ -723,13 +724,13 @@ export default function PageAdv36() {
               que sirvam para aumentar a nossa devoção e alcançar-nos a
               salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 18, 6–7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsultávit ut gigas ad curréndam viam: a summo cœlo egréssio ejus,
               et occúrsus ejus usque ad summum ejus.
@@ -738,11 +739,11 @@ export default function PageAdv36() {
               Lançou-se em seu caminho, como um gigante, partindo de uma
               extremidade do céu e terminando a sua carreira na outra.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, Dómine, Deus noster: ut sacrosáncta mystéria, quæ pro
               reparatiónis nostræ munímine contulísti; et præsens nobis remédium
@@ -753,7 +754,7 @@ export default function PageAdv36() {
               que nos concedestes para nossa reparação, sejam o nosso remédio
               para o presente e para o futuro. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

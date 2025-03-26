@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0128() {
   return (
@@ -35,7 +36,7 @@ export default function Page0128() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui in tuæ caritátis exémplum ad fidélium redemptiónem
               sanctum Petrum Ecclésiam tuam nova prole fœcundáre divínitus
@@ -51,11 +52,11 @@ export default function Page0128() {
               perpétua liberdade na pátria celestial. Ó Vós, que, sendo Deus,
               viveis...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração Comemoração Santa Inês</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos ánnua beátæ Agnetis Vírginis et Martyris tuæ
               sollemnitáte lætíficas: da, quǽsumus; ut, quam venerámur officio,
@@ -66,11 +67,11 @@ export default function Page0128() {
               Virgem e Mártir, concedei-nos a graça, Vos suplicamos, de imitar
               os exemplos daquela cuja festa celebramos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne
               Sanctórum quibus nos et præséntibus éxui malis confídimus et
@@ -81,11 +82,11 @@ export default function Page0128() {
               Santos, para que por meio deles nos livremos dos males presentes e
               futuros. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta Comemoração Santa Inês</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Super has, quǽsumus, Dómine, hóstias benedíctio copiósa descéndat:
               quæ et sanctificatiónem nobis cleménter operétur, et de Mártyrum
@@ -97,11 +98,11 @@ export default function Page0128() {
               clemência nossa santificação e nos alegre com a solenidade dos
               vossos Mártires. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus:
               ut, in cujus hæc commemoratióne percépimus, ejus muniámur et
@@ -112,11 +113,11 @@ export default function Page0128() {
               suplicamos humildemente, ó nosso Deus, que nos protejam as preces
               daquele em cuja memória os recebermos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio Comemoração Santa Inês</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Súmpsimus, Dómine, celebritátis ánnuæ votiva sacraménta: præsta,
               quǽsumus; ut et temporális vitæ nobis remédia prǽbeant et ætérnæ.
@@ -128,7 +129,7 @@ export default function Page0128() {
               alcancem os remédios para a vida presente e para a eterna. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

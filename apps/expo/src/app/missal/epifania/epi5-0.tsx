@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageEpi50() {
   return (
@@ -14,7 +15,7 @@ export default function PageEpi50() {
 
           <Text className="em">Sl. 96, 7-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et
               exsultavérunt fíliæ Judae.{" "}
@@ -29,11 +30,11 @@ export default function PageEpi50() {
               alegre-se a terra e as suas muitas ilhas.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi: ut, quæ
               in sola spe grátiæ cœléstis innítitur, tua semper protectióne
@@ -45,13 +46,13 @@ export default function PageEpi50() {
               vossa celestial graça, permiti que esteja sempre munida com vossa
               protecção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Cl. 3, 12-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.
             </Text>
@@ -90,13 +91,13 @@ export default function PageEpi50() {
               nome de nosso Senhor Jesus Cristo, dando graças por Ele a Deus
               Pai.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 101, 16-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam
               tuam.<Text className="versicle"> ℣. </Text>Quóniam ædificávit
@@ -118,13 +119,13 @@ export default function PageEpi50() {
               <Text className="vernacular">Sl. 96,1</Text> O Senhor reinou:
               alegre-se a terra e as suas muitas ilhas. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 13, 24-30</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -163,13 +164,13 @@ export default function PageEpi50() {
               ceifeiros: colhei primeiramente o joio e atai-o em molhos para
               serem queimados; e arrecadai o trigo no meu celeiro».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 117, 16 & 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Déxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non
               móriar, sed vivam, et narrábo ópera Dómini.
@@ -179,11 +180,11 @@ export default function PageEpi50() {
               exaltou-me. Não morrerei: viverei e narrarei os prodígios do
               Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, placatiónis offérimus: ut et delícta nostra
               miserátus absólvas, et nutántia corda tu dírigas. Per Dóminum...
@@ -193,24 +194,24 @@ export default function PageEpi50() {
               misericordiosamente perdoeis os nossos pecados e ampareis os
               nossos corações inconstantes. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Lc. 4, 22</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mirabántur omnes de his, quæ procedébant de ore Dei.
             </Text>
             <Text className="vernacular">
               Todos estavam admirados das palavras que saíam da boca de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut illíus salutáris capiámus efféctum,
               cujus per hæc mystéria pignus accépimus. Per Dóminum...
@@ -220,7 +221,7 @@ export default function PageEpi50() {
               da salvação eterna, da qual, nestes sagrados mystérios, já
               recebemos o penhor. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

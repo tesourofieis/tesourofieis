@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0623() {
@@ -15,7 +16,7 @@ export default function Page0623() {
 
           <Text className="em">Lc. 1,13, 15 & 14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ne tímeas, Zacharía, exaudíta est orátio tua: et Elísabeth uxor
               tua páriet tibi fílium, et vocábis nomen ejus Joánnem: et erit
@@ -35,11 +36,11 @@ export default function Page0623() {
               vossa salvação.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnipotens Deus: ut familia tua per viam salútis
               incedat; et, beáti Joánnis Præcursóris hortaménta sectándo ad eum,
@@ -52,13 +53,13 @@ export default function Page0623() {
               ensinos do B. João, o Precursor, consiga encontrar Aquele que ele
               anunciou: nosso Senhor Jesus Cristo, que convosco vive e reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Jr. 1, 4-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Jeremíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Jeremias.</Text>
             <Text className="latin">
@@ -90,13 +91,13 @@ export default function Page0623() {
               destruíres, para plantares e edificares», diz o Senhor
               omnipotente.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Jo. 1, 6-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Fuit homo missus a Deo, cui nomen erat Joánnes.
               <Text className="versicle"> ℣. </Text>Hic venit, ut testimónium
@@ -107,13 +108,13 @@ export default function Page0623() {
               <Text className="versicle"> ℣. </Text>Ele veio para dar testemunho
               da luz e preparar um povo perfeito para o Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 1, 5-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Initium sancti Evangélii
               secúndum Lucam.
@@ -169,7 +170,7 @@ export default function Page0623() {
               chamar os corações dos pais aos filhos e os rebeldes à prudência
               dos justos, e assim preparar para o Senhor um povo perfeito».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
@@ -180,7 +181,7 @@ export default function Page0623() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera, Dómine, obláta sanctífica: et, intercedénte beáto Joánne
               Baptista, nos per hæc a peccatórum nostrórum máculis emúnda. Per
@@ -191,13 +192,13 @@ export default function Page0623() {
               intercessão do B. João Baptista fazei que nos purifiquem das
               manchas dos nossos pecados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 20, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Magna est glória ejus in salutári tuo: glóriam et magnum decórem
               ímpones super eum, Dómine.
@@ -206,11 +207,11 @@ export default function Page0623() {
               Grande é, Senhor, a sua glória, graças à vossa protecção. Vós o
               rodeastes de glória e de magnificência.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáti Joánnis Baptístæ nos, Dómine, præclára comitétur orátio: et,
               quem ventúrum esse prædíxit, poscat nobis fore placátum, Dóminum
@@ -222,7 +223,7 @@ export default function Page0623() {
               ele profetizou: nosso Senhor Jesus Cristo, vosso Filho, que
               convosco vive e reina...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageUniversal() {
   return (
@@ -10,7 +11,7 @@ export default function PageUniversal() {
         <View className="docs">
           <Text className="h1">Oração Universal do Papa Clemente XI</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Credo Domine, sed credam firmius; spero, sed sperem securius; amo,
               sed amem ardentius; doleo, sed doleam vehementius.
@@ -144,7 +145,7 @@ export default function PageUniversal() {
             </Text>
             <Text className="latin">Per Christum Dominum nostrum. Amen.</Text>
             <Text className="vernacular">Por Cristo Nosso Senhor. Amen.</Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

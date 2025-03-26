@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0224() {
   return (
@@ -14,7 +15,7 @@ export default function Page0224() {
 
           <Text className="em">Sl. 138, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
               est principátus eórum.{" "}
@@ -30,11 +31,11 @@ export default function Page0224() {
               conhecendo quando me deito e quando me levanto.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Matthíam Apostolórum tuórum collégio sociásti:
               tríbue, quǽsumus; ut, ejus interventióne, tuæ circa nos pietátis
@@ -46,13 +47,13 @@ export default function Page0224() {
               sempre os efeitos dos abysmos da vossa misericórdia para connosco.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act 1, 15-26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolórum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -104,13 +105,13 @@ export default function Page0224() {
               afastou». E lançaram-lhes sortes, caindo a sorte em Matias, que
               foi associado aos Onze Apóstolos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 138, 17-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Nimis honoráti sunt amíci tui, Deus: nimis confortátus est
               principatus eórum.<Text className="versicle"> ℣. </Text>Dinumerábo
@@ -122,13 +123,13 @@ export default function Page0224() {
               <Text className="versicle"> ℣. </Text>Hei-de contá-los, e
               ultrapassarão os grãos de areia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 20, 3-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Desidérim ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
               fraudásti eum.<Text className="versicle"> ℣. </Text>Quóniam
@@ -143,13 +144,13 @@ export default function Page0224() {
               <Text className="versicle"> ℣. </Text>
               Impusestes na sua cabeça uma coroa de pedras preciosas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 11, 25-30</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -183,13 +184,13 @@ export default function Page0224() {
               repouso para as vossas almas. Meu jugo é suave e o meu ónus é
               leve.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 44, 17-18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Constítues eos príncipes super omnem terram: mémores erunt nóminis
               tui, Dómine, in omni progénie et generatióne.
@@ -198,11 +199,11 @@ export default function Page0224() {
               Vós os instituístes príncipes em toda a terra. Ó Senhor, eles
               perpetuarão de geração em geração a glória do vosso nome.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias tibi, Dómine, quas nómini tuo sacrándas offérimus, sancti
               Matthíæ Apóstoli tui prosequátur orátio: per quam nos expiári
@@ -214,13 +215,13 @@ export default function Page0224() {
               vosso santo Apóstolo Matias, em virtude da qual sejamos
               purificados e livres do mal. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 19, 28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Vos, qui secúti estis me, sedébitis super sedes, judicántes
               duódecim tribus Israël.
@@ -229,11 +230,11 @@ export default function Page0224() {
               Vós, que me seguistes, assentar-vos-eis em tronos e julgareis as
               doze tribos de Israel.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut per hæc sancta, quæ
               súmpsimus, interveniénte beáto Matthía Apóstolo tuo, véniam
@@ -245,7 +246,7 @@ export default function Page0224() {
               intercessão do B. Matias, vosso Apóstolo, o perdão e a paz. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

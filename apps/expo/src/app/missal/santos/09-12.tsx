@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0912() {
   return (
@@ -22,7 +23,7 @@ export default function Page0912() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde, quǽsumus, omnípotens Deus: ut fidéles tui, qui sub
               sanctíssimæ Vírginis Maríæ Nómine et protectióne lætántur; ejus
@@ -36,11 +37,11 @@ export default function Page0912() {
               de merecerem a posse das celestiais alegrias eternas. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis
               intercessióne, ad perpétuam atque præséntem hæc oblátio nobis
@@ -51,11 +52,11 @@ export default function Page0912() {
               sempre Virgem, fazei que esta oblação nos assegure a prosperidade
               e a paz, agora e sempre. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumptis, Dómine, salútis nostræ subsídiis: da, quǽsumus, beátæ
               Maríæ semper Vírginis patrocíniis nos úbique protegi; in cujus
@@ -67,7 +68,7 @@ export default function Page0912() {
               patrocínio da B. Maria, sempre Virgem, em cuja honra oferecemos
               este sacrifício à vossa majestade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0813() {
   return (
@@ -24,7 +25,7 @@ export default function Page0813() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, omnípotens Deus: ut beatórum Mártyrum tuórum
               Hippolýti et Cassiáni veneránda sollémnitas, et devotiónem nobis
@@ -35,11 +36,11 @@ export default function Page0813() {
               festa dos vossos B. B. Mártires Hipólito e Cassiano aumente a
               nossa piedade e nos faça alcançar a salvação. Por n...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Réspice, Dómine, múnera pópuli tui, Sanctórum festivitáte votíva:
               et tuæ testificátio veritátis nobis profíciat ad salútem. Per
@@ -51,11 +52,11 @@ export default function Page0813() {
               por eles dado à vossa verdade, nos seja útil para a salvação. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacramentórum tuórum, Dómine, commúnio sumpta nos salvet: et in
               tuæ veritátis luce confírmet. Per Dóminum...
@@ -65,7 +66,7 @@ export default function Page0813() {
               alcance a salvação e nos confirme na profissão da vossa doutrina.
               Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

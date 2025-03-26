@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent160() {
   return (
@@ -14,7 +15,7 @@ export default function PagePent160() {
 
           <Text className="em">Sl. 85, 3 & 5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Miserére mihi, Dómine, quóniam ad te clamávi tota die: quia tu,
               Dómine, suávis ac mitis es, et copiósus in misericórdia ómnibus
@@ -31,11 +32,11 @@ export default function PagePent160() {
               infeliz e pobre.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tua nos, quǽsumus, Dómine, grátia semper et prævéniat et sequátur:
               ac bonis opéribus júgiter præstet esse inténtos. Per Dóminum...
@@ -45,13 +46,13 @@ export default function PagePent160() {
               acompanhe sempre, e que nos mantenha incessantemente na prática
               das boas obras. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ef. 3, 13-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
@@ -90,13 +91,13 @@ export default function PagePent160() {
               nós, seja glorificado na Igreja e em Jesus Cristo, por todas as
               gerações e em todos os séculos dos séculos. Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 101, 16-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam
               tuam.<Text className="versicle"> ℣. </Text>Quóniam ædificávit
@@ -118,13 +119,13 @@ export default function PagePent160() {
               <Text className="vernacular">Sl. 97, 1</Text> Cantai em honra do
               Senhor um cântico, pois Ele operou maravilhas. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 14, 1-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -174,13 +175,13 @@ export default function PagePent160() {
               para vós, diante dos outros convivas. Aquele que se exaltar será
               humilhado; e aquele que se humilhar será exaltado».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 39, 14 & 15</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, in auxílium meum réspice: confundántur et revereántur, qui
               quærunt ánimam meam, ut áuferant eam: Dómine, in auxílium meum
@@ -191,11 +192,11 @@ export default function PagePent160() {
               confundidos e cheios de opróbrio aqueles que intentam tirar-me a
               vida. Senhor, lançai para mim um olhar de protecção!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Munda nos, quǽsumus, Dómine, sacrifícii præséntis efféctu: et
               pérfice miserátus in nobis; ut ejus mereámur esse partícipes. Per
@@ -207,13 +208,13 @@ export default function PagePent160() {
               permiti que nos tornemos dignos de participar deste mesmo
               sacrifício. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 70, 16-17 & 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, memorábor justítiæ tuæ solíus: Deus, docuísti me a
               juventúte mea: et usque in senéctam et sénium, Deus, ne
@@ -225,11 +226,11 @@ export default function PagePent160() {
               abandonareis até à minha velhice, até aos meus cabelos brancos, ó
               meu Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Purífica, quǽsumus, Dómine, mentes nostras benígnus, et rénova
               cœléstibus sacraméntis: ut consequénter et córporum præsens
@@ -241,7 +242,7 @@ export default function PagePent160() {
               nossos corpos encontrem auxílio, tanto para a vida presente, como
               para a futura. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

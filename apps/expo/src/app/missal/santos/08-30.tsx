@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0830() {
   return (
@@ -22,7 +23,7 @@ export default function Page0830() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Bonórum ómnium largítor, omnípotens Deus, qui beátam Rosam,
               cœléstis grátiæ rore prævéntam, virginitátis et patiéntiæ decóre
@@ -38,7 +39,7 @@ export default function Page0830() {
               correndo após o perfume das suas suaves virtudes, mereçamos
               tornar-nos o bom odor de Cristo: Que convosco vive e reina...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">
             Comemoração dos S. S. Mártires Félix e Adauto
@@ -46,7 +47,7 @@ export default function Page0830() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Majestátem tuam, Dómine, súpplices exorámus: ut, sicut nos júgiter
               Sanctórum tuórum commemoratióne lætíficas; ita semper
@@ -58,11 +59,11 @@ export default function Page0830() {
               motivo de alegria, assim também, graças às suas orações, nos
               defendais perpetuamente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hóstias, Dómine, tuæ plebis inténde: et, quas in honóre Sanctórum
               tuórum devóta mente célebrat, profícere sibi séntiat ad salútem.
@@ -74,11 +75,11 @@ export default function Page0830() {
               dos vossos Santos, fazei que sejam úteis à sua salvação. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Repléti, Dómine, munéribus sacris: quǽsumus: ut, intercedéntibus
               Sanctis tuis, in gratiárum semper actióne maneámus. Per Dóminum
@@ -89,7 +90,7 @@ export default function Page0830() {
               permiti, pela intercessão dos vossos Santos, que permaneçamos
               sempre em acção de graças. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

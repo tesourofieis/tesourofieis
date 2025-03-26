@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0808() {
@@ -17,7 +18,7 @@ export default function Page0808() {
 
           <Text className="em">Sl. 33, 10-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Timéte Dóminum, omnes sancti ejus, quóniam nihil deest timéntibus
               eum: dívites eguérunt et esuriérunt: inquiréntes autem Dóminum non
@@ -33,11 +34,11 @@ export default function Page0808() {
               em todo o tempo: sempre estará na minha boca o seu louvor.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui nos ánnua sanctórum Mártyrum tuórum Cyriáci, Largi et
               Smarágdi sollemnitáte lætíficas: concéde propítius; ut, quorum
@@ -50,13 +51,13 @@ export default function Page0808() {
               honrando o seu nascimento no céu, imitemos também a coragem do seu
               martírio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Ts. 2, 13-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.
             </Text>
@@ -91,13 +92,13 @@ export default function Page0808() {
               pecados; mas a ira do Senhor caiu já sobre eles e permanecerá até
               à consumação dos séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 33, 10 & 11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Timéte Dóminum, omnes sancti ejus: quóniam nihil deest timéntibus
               eum.<Text className="versicle"> ℣. </Text>Inquiréntes autem
@@ -121,7 +122,7 @@ export default function Page0808() {
               e, como as faíscas de fogo em um canavial, espalhar-se-ão
               perpetuamente. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -139,7 +140,7 @@ export default function Page0808() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accépta sit in conspéctu tuo, Dómine, nostra devótio: et eórum
               nobis fiat supplicatióne salutáris, pro quorum sollemnitáte
@@ -150,13 +151,13 @@ export default function Page0808() {
               e fazei que, pela súplica daqueles em cuja honra Vo-la
               apresentamos, ela nos seja salutar. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mc. 16, 17 & 18</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Signa autem eos, qui in me credunt, hæc sequéntur: dæmónia
               ejícient: super ægros manus impónent, et bene habébunt.
@@ -166,11 +167,11 @@ export default function Page0808() {
               expulsarão os demónios; imporão as mãos sobre os enfermos, que
               serão curados.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus
               noster: ut, cujus exséquimur cultum, intercedéntibus sanctis
@@ -183,7 +184,7 @@ export default function Page0808() {
               Ciríaco, Largo e Esmaragdo sintamos o efeito do mystério que
               celebramos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

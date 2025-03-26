@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad10() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad10() {
 
           <Text className="em">Sl. 90, 15 & 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Invocábit me, et ego exáudiam eum: erípiam eum, et glorificábo
               eum: longitúdine diérum adimplébo eum.{" "}
@@ -30,11 +31,11 @@ export default function PageQuad10() {
               à sombra do Altíssimo descansará sob a protecção de Deus do céu.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui Ecclésiam tuam ánnua quadragesimáli observatióne
               puríficas: præsta famíliæ tuæ; ut, quod a te obtinére abstinéndo
@@ -46,13 +47,13 @@ export default function PageQuad10() {
               pela abstinência o pratique com suas boas obras. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Cor. 6, 1-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -97,13 +98,13 @@ export default function PageQuad10() {
               à morte; como tristes, mas sempre alegres; como pobres, mas
               enriquecendo os outros; como não tendo nada, mas possuindo tudo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 90,11-1 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Angelis suis Deus mandávit de te, ut custódiant te in ómnibus viis
               tuis.<Text className="versicle"> ℣. </Text>In mánibus portábunt
@@ -114,13 +115,13 @@ export default function PageQuad10() {
               caminhos.<Text className="versicle"> ℣. </Text>Levar-te-ão nas
               suas mãos, para que não tropeces nas pedras.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">ibid., 1-7 & 11-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui hábitat in adjutório Altíssimi, in protectióne Dei cœli
               commorántur.<Text className="versicle"> ℣. </Text>Dicet Dómino:
@@ -178,13 +179,13 @@ export default function PageQuad10() {
               glorificá-lo-ei, conceder-lhe-ei longa vida e mostrar-lhe-ei a
               minha salvação.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 4, 1-11</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -232,13 +233,13 @@ export default function PageQuad10() {
               Deus, e só a Ele servirás», Logo o demónio deixou Jesus,
               aproximando-se d’Ele os Anjos, que O serviram.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 90, 4-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Scápulis suis obumbrábit tibi Dóminus, et sub pennis ejus
               sperábis: scuto circúmdabit te véritas ejus.
@@ -247,11 +248,11 @@ export default function PageQuad10() {
               O Senhor vos acolherá à sua sombra: e sob as suas asas vos
               esperará: a sua fidelidade proteger-vos-á, como um escudo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifícium quadragesimális inítii sollémniter immolámus, te,
               Dómine, deprecántes: ut, cum epulárum restrictióne carnálium, a
@@ -263,13 +264,13 @@ export default function PageQuad10() {
               carnes, nos abstenhamos também dos prazeres funestos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 90,4-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Scápulis suis obumbrábit tibi Dóminus, et sub pennis ejus
               sperábis: scuto circúmdabit te véritas ejus.
@@ -278,11 +279,11 @@ export default function PageQuad10() {
               O Senhor vos acolherá à sua sombra: e sob as suas asas vos
               esperará: a sua verdade proteger-vos-á, como um escudo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui nos, Dómine, sacraménti libátio sancta restáuret: et a
               vetustáte purgátos, in mystérii salutáris fáciat transíre
@@ -293,7 +294,7 @@ export default function PageQuad10() {
               restaure; e que, despojando-nos do «homem velho», nos faça
               alcançar o mystério da salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

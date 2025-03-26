@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function PageAnjos() {
@@ -23,7 +24,7 @@ export default function PageAnjos() {
           />
           <Text className="h3">Epístola</Text>
           <Text className="em">Ap. 5, 11-14</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
             </Text>
@@ -55,10 +56,10 @@ export default function PageAnjos() {
               «Amen!» E os vinte e quatro anciãos prostraram a face em terra e
               adoraram Aquele que vive em todos os séculos dos séculos!
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Gradual</Text>
           <Text className="em">Sl. 148,1-2</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Laudáte Dóminum de cœlis: laudáte eum in excélsis.
               <Text className="versicle"> ℣. </Text>Laudáte eum, omnes Angeli
@@ -81,12 +82,12 @@ export default function PageAnjos() {
               em vossa honra diante dos Anjos; adorar-Vos-ei no vosso santo
               templo: e glorificarei o vosso nome. Aleluia.
             </Text>
-          </View>
+          </Language>
           Depois da Septuagésima omite-se o Aleluia e o Verso que se segue, e
           diz-se:
           <Text className="h3">Trato</Text>
           <Text className="em">Sl. 102, 20</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícite Dóminum, omnes Angeli ejus: potentes virtúte, qui
               fácitis verbum ejus.<Text className="versicle"> ℣. </Text>
@@ -106,11 +107,11 @@ export default function PageAnjos() {
               todas do mesmo Senhor! Bendizei o Senhor em todos os lugares do
               seu domínio, ó minha alma.
             </Text>
-          </View>
+          </Language>
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual e o Trato, e diz-se:
           </Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 137, 1-2</Text> In conspéctu Angelórum
@@ -129,10 +130,10 @@ export default function PageAnjos() {
               <Text className="em">Mt. 28, 2</Text> Um Anjo do Senhor, havendo
               descido do céu, afastou a pedra e assentou-se sobre ela. Aleluia.
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Evangelho</Text>
           <Text className="em">Jo. 1, 47-51</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -164,7 +165,7 @@ export default function PageAnjos() {
               «Em verdade, em verdade te digo: verás o céu aberto e os Anjos de
               Deus, subindo e descendo sobre o Filho do homem».
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Ofertório</Text>
           <LinkCard
             href="/missal/santos/05-08#ofertório"
@@ -176,7 +177,7 @@ export default function PageAnjos() {
             title="Aparição de Arcanjo S. Miguel"
           />
           <Text className="h3">Comúnio</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Angeli, Archángeli, Throni et Dominatiónes, Principátus et
               Potestátes, Virtútes cœlórum, Chérubim atque Séraphim, Dóminum
@@ -187,9 +188,9 @@ export default function PageAnjos() {
               Dominações, Principados, Potestades, Virtudes do céu, Querubins e
               Serafins. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
           <Text className="h3">Postcomúnio</Text>
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Repléti, Dómine, benedictióne cœlésti, supplíciter implorámus: ut,
               quod fragili celebrámus offício, sanctórum Angelórum atque
@@ -202,7 +203,7 @@ export default function PageAnjos() {
               da nossa fragilidade, nos seja útil com o auxílio dos vossos
               Santos Anjos e Arcanjos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

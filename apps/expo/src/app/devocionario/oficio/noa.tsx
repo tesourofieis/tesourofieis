@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import { TabItem, Tabs } from "~/components/Tabs";
 import MementoRerumConditor from "./../../canticos/sacros/mementorerumconditor";
 import Salmo125 from "./../salterio/125";
@@ -22,7 +23,7 @@ export default function PageNoa() {
             lado aberto do seu Divino Esposo preso à Santa Cruz.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Deus{" "}
               <Text className="cross"> ✠ </Text> in adjutórium meum inténde.
@@ -56,13 +57,13 @@ export default function PageNoa() {
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Hino Memento rerum conditor</Text>
 
           <MementoRerumConditor />
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Ant.</Text> Pulchra es et decora, filia
               Jerusalem: terribus ut castrorum acies ordinara.
@@ -71,7 +72,7 @@ export default function PageNoa() {
               <Text className="vernacular">Ant.</Text> Filha de Jerusalém, sois
               bela e decorosa, terrível como um exército formado em linha.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Salmo 125</Text>
 
@@ -87,7 +88,7 @@ export default function PageNoa() {
 
           <Tabs>
             <TabItem label="Depois da Purificação">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Pulchra es et decora,
                   filia Jerusalem: terribus ut castrorum acies ordinara.
@@ -97,13 +98,13 @@ export default function PageNoa() {
                   sois bela e decorosa, terrível como um exército formado em
                   linha.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Ecl. 24, 19-20</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Sicut cinnamomum et balsamum aromatizans odorem dedi: quasi
                   myrrha electa dedi suavitatem odoris.
@@ -134,9 +135,9 @@ export default function PageNoa() {
                   <Text className="response"> ℟. </Text> Intercedei por nós, ó
                   Mãe de Deus.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Hic genuflectitur</Text> Kyrie eleison
                 </Text>
@@ -168,9 +169,9 @@ export default function PageNoa() {
                   <Text className="response"> ℟. </Text> E o meu clamor chegue
                   até Vós.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Orémus.</Text>
                 </Text>
@@ -195,10 +196,10 @@ export default function PageNoa() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
             <TabItem label="No Advento">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ecce ancilla Domini: fiat
                   mihi secundum verbum tuum.
@@ -207,13 +208,13 @@ export default function PageNoa() {
                   <Text className="vernacular">Ant.</Text> Eis aqui a escrava do
                   Senhor, faça-se em mim segundo a vossa palavra.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Is. 7, 14-15</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Ecce Virgo concipiet, et pariet filium, et vocabitur nomen
                   ejus Emmanuel. Butyrum et mel comedet, ut sciat reprobare
@@ -247,9 +248,9 @@ export default function PageNoa() {
                   <Text className="response"> ℟. </Text> E bendito é o fruto do
                   vosso ventre.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Hic genuflectitur</Text> Kyrie eleison
                 </Text>
@@ -281,9 +282,9 @@ export default function PageNoa() {
                   <Text className="response"> ℟. </Text> E o meu clamor chegue
                   até Vós.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Orémus.</Text>
                 </Text>
@@ -311,11 +312,11 @@ export default function PageNoa() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
 
             <TabItem label="No Natal">
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Ecce, Maria genuit nobis
                   Salvatorem, quem Joannes videns exclamavit, dicens: Ecce Agnus
@@ -327,13 +328,13 @@ export default function PageNoa() {
                   Cordeiro de Deus, Aquele que tira o pecado do mundo,
                   (aleluia).
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Pequeno Capítulo</Text>
 
               <Text className="em">Ecl. 24, 19-20</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   In plateis sicut cinnamomum et balsamum aromatizans odorem
                   dedi: quasi myrrha electa, dedi suavitatem odoris.
@@ -365,9 +366,9 @@ export default function PageNoa() {
                   <Text className="response"> ℟. </Text> Intercedei por nós, ó
                   Mãe de Deus.
                 </Text>
-              </View>
+              </Language>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Orémus.</Text>
                 </Text>
@@ -396,11 +397,11 @@ export default function PageNoa() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
           </Tabs>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Domine, exaudi orationem
               meam.
@@ -443,7 +444,7 @@ export default function PageNoa() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Acabar com uma{" "}

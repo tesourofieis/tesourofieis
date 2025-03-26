@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page31Missamaria5() {
   return (
@@ -25,7 +26,7 @@ export default function Page31Missamaria5() {
 
           <Text className="h3">Gradual</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris
               invénia es Mater Salvatóris.<Text className="versicle"> ℣. </Text>
@@ -49,13 +50,13 @@ export default function Page31Missamaria5() {
               haverdes dado à luz, permanecestes Virgem imaculada: Intercedei
               por nós, ó Mãe de Deus. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Lc. 1, 28 & 42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ave, María, grátia plena; Dóminus tecum: benedícta tu in
               muliéribus, et benedíctus fructus ventris tui.
@@ -64,7 +65,7 @@ export default function Page31Missamaria5() {
               Ave, Maria, cheia de graça: o Senhor é convosco: bendita sois vós
               entre as mulheres, e bendito é o fruto do vosso ventre.
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

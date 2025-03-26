@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0807() {
@@ -26,7 +27,7 @@ export default function Page0807() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beáto Cajetáno Confessóri tuo apostólicam vivéndi formam
               imitári tribuísti: da nobis, ejus intercessióne et exémplo, in te
@@ -40,11 +41,11 @@ export default function Page0807() {
               confiança e somente aspiremos aos bens celestiais. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração Comemoração S. Donato</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, tuórum glória sacerdótum: præsta, quǽsumus, ut sancti
               Martyris tui et Epíscopi Donáti, cujus festa gérimus, sentiámus
@@ -55,7 +56,7 @@ export default function Page0807() {
               suplicamos, que experimentemos o auxílio do vosso Santo Mártir e
               Bispo Donato, cuja festa celebramos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -66,7 +67,7 @@ export default function Page0807() {
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta nobis, quǽsumus, omnípotens Deus: ut nostræ humilitátis
               oblátio, et pro tuórum tibi grata sit honóre Sanctórum, et nos
@@ -77,11 +78,11 @@ export default function Page0807() {
               humildade em honra dos vossos Santos Vos seja agradável e nos
               purifique ao mesmo tempo o corpo e a alma. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta Comemoração S. Donato</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, Dómine: ut sancti Martyris tu iet Episcopi
               Donati intercessióne, quem ad laudem nóminis tui dicátis munéribus
@@ -94,11 +95,11 @@ export default function Page0807() {
               louvor do vosso nome, sintamos aumentar em nós os frutos de uma
               devoção piedosa. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus,
               intercedénte beáto Cajetáno Confessóre tuo, per hæc contra ómnia
@@ -110,11 +111,11 @@ export default function Page0807() {
               Confessor, sejamos fortalecidos contra todas as adversidades. Por
               nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio Comemoração S. Donato</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens et miséricors Deus, qui nos sacramentórum tuórum et
               partícipes éfficis et minístros: præsta, quǽsumus; ut,
@@ -128,7 +129,7 @@ export default function Page0807() {
               só gozemos a comparticipação da sua fé, mas como ele Vos sirvamos
               dignamente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

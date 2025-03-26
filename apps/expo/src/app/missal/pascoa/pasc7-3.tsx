@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc73() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc73() {
 
           <Text className="em">Sl. 67, 8 & 9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, dum egrederéris coram pópulo tuo, iter fáciens eis, hábitans
               in illis, allelúja: terra mota est, cœli distillavérunt, allelúja,
@@ -31,11 +32,11 @@ export default function PagePasc73() {
               diante da sua face.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Mentes nostras, quǽsumus, Dómine, Paráclitus, qui a te procédit,
               illúminet: et indúcat in omnem, sicut tuus promísit Fílius,
@@ -46,13 +47,13 @@ export default function PagePasc73() {
               Vós, ilumine as nossas almas e nos faça conhecer toda a verdade,
               como no-lo prometeu vosso Filho. O qual, sendo Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Lição</Text>
 
           <Text className="em">Act. 2, 14-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolórum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -87,9 +88,9 @@ export default function PagePasc73() {
               Senhor, o dia grande e glorioso. Então, todo aquele que invocar o
               nome do Senhor, será salvo».
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 32, 6</Text> Verbo Dómini cœli firmáti
@@ -101,11 +102,11 @@ export default function PagePasc73() {
               firmou os céus, e o Espírito da sua boca criou todos os espíritos
               da milícia celeste.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens et miséricors Deus: ut Spíritus
               Sanctus advéniens, templum nos glóriæ suæ dignánter inhabitándo
@@ -116,13 +117,13 @@ export default function PagePasc73() {
               descendo o Espírito Santo sobre nós, nos torne em suas moradas e
               em templos dignos da sua glória. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act. 5, 12-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolórum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -149,9 +150,9 @@ export default function PagePasc73() {
               corria a multidão a Jerusalém, conduzindo enfermos e outros
               atormentados pelos espíritos imundos, os quais eram todos curados.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.{" "}
               <Text className="latin">hic genuflectitur</Text>
@@ -165,13 +166,13 @@ export default function PagePasc73() {
               Vinde, ó Espírito Santo; enchei os corações dos vossos fiéis e
               acendei neles o fogo do vosso amor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 6, 44-52</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -206,13 +207,13 @@ export default function PagePasc73() {
               do céu. Se alguém comer deste pão, viverá eternamente. O pão que
               Eu der é a minha carne para a vida do mundo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 118, 47-48</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Meditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas
               ad mandáta tua, quæ diléxi, allelúja.
@@ -222,11 +223,11 @@ export default function PagePasc73() {
               minhas mãos para cumprir os vossos mandamentos, que muito amo,
               aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accipe, quǽsumus, Dómine, munus oblátum: et dignánter operáre; ut,
               quod mystériis ágimus, piis efféctibus celebrámus. Per Dóminum...
@@ -236,13 +237,13 @@ export default function PagePasc73() {
               dignai-Vos permitir-nos que celebremos piamente os mystérios que
               desempenhamos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 14, 27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Pacem relínquo vobis, allelúja: pacem meam do vobis, allelúja,
               allelúja.
@@ -250,11 +251,11 @@ export default function PagePasc73() {
             <Text className="vernacular">
               Deixo-vos a paz, aleluia: dou-vos a minha paz, aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Suméntes, Dómine, cœléstia sacraménta, quǽsumus cleméntiam tuam:
               ut quod temporáliter gérimus ætérnis gáudiis consequámur Per
@@ -265,7 +266,7 @@ export default function PagePasc73() {
               vossa clemência, a fim de que alcancemos nos gozos eternos o que
               celebramos durante o tempo. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

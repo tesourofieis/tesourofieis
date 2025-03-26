@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
 export default function Page0810() {
@@ -15,7 +16,7 @@ export default function Page0810() {
 
           <Text className="em">Sl. 95, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Conféssio et pulchritúdo in conspéctu ejus: sánctitas et
               magnificéntia in sanctificatióne ejus.{" "}
@@ -30,11 +31,11 @@ export default function Page0810() {
               do Senhor um hino novo: que toda a terra cante hinos ao Senhor.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da nobis, quǽsumus, omnípotens Deus: vitiórum nostrorum flammas
               exstínguere; qui beáto Lauréntio tribuísti tormentórum suórum
@@ -45,13 +46,13 @@ export default function Page0810() {
               das chamas do seu suplício, concedei-nos a graça, Vos suplicamos,
               de extinguirdes as chamas dos nossos vícios. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">2 Cor. 9, 6-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
             </Text>
@@ -85,13 +86,13 @@ export default function Page0810() {
               comida, multiplicará a vossa semente e dará incremento aos frutos
               da vossa justiça.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 16, 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Probásti, Dómine, cor meum, et visitásti nocte.
               <Text className="versicle"> ℣. </Text>Igne me examinásti, et non
@@ -113,7 +114,7 @@ export default function Page0810() {
               Lourenço praticou uma boa acção: pois restituiu a vista aos cegos
               com o sinal da Santa Cruz. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
@@ -126,7 +127,7 @@ export default function Page0810() {
 
           <Text className="em">Sl. 95, 6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Conféssio et pulchritúdo in conspéctu ejus: sánctitas, et
               magnificéntia in sanctificatióne ejus.
@@ -135,11 +136,11 @@ export default function Page0810() {
               Rodeiam-no a glória e a majestade: e no seu santuário reluzem a
               santidade e a magnificência.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Accipé, quǽsumus, Dómine, múnera dignánter obláta: et, beáti
               Lauréntii suffragántibus méritis, ad nostræ salútis auxílium
@@ -151,13 +152,13 @@ export default function Page0810() {
               que nos sirvam de auxílio para a salvação. Por nosso Senhor Jesus
               Cristo...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 12, 26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Qui mihi mínistrat, me sequátur: et ubi ego sum, illic et miníster
               meus erit.
@@ -166,11 +167,11 @@ export default function Page0810() {
               Se alguém me serve, siga-me; e onde eu estiver lá estará também o
               meu servo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacro múnere satiáti, súpplices te, Dómine, deprecámur: ut, quod
               débitæ servitútis celebrámus offício, intercedénte beáto Lauréntio
@@ -182,7 +183,7 @@ export default function Page0810() {
               ofício em reconhecimento da nossa escravidão, alcancemos cada vez
               mais os efeitos da vossa Redenção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

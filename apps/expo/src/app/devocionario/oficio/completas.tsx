@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 import { TabItem, Tabs } from "~/components/Tabs";
 import MementoRerumConditor from "./../../canticos/sacros/mementorerumconditor";
 import NuncDimittis from "./../../canticos/sacros/nuncdimittis";
@@ -21,7 +22,7 @@ export default function PageCompletas() {
             Meditemos naa sepultura de Jesus Cristo e na sua estadia no túmulo.
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Convérte nos{" "}
               <Text className="cross"> ✠ </Text> Deus, salutáris noster.
@@ -71,7 +72,7 @@ export default function PageCompletas() {
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h2">Salmo 128</Text>
 
@@ -95,7 +96,7 @@ export default function PageCompletas() {
 
               <Text className="em">Ecl. 24</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Ego mater pulchræ dilectionis, et timoris, et agnitionis, et
                   sanctæ spei.
@@ -126,11 +127,11 @@ export default function PageCompletas() {
                   <Text className="response"> ℟. </Text> Para que sejamos dignos
                   das promessas de Cristo.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Ofício 1</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Sub tuum præsídium
                   confúgimus, sancta Dei Génetrix; nostras deprecatiónes ne
@@ -149,11 +150,11 @@ export default function PageCompletas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Tempo Pascal</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Regína Cæli, lætáre,
                   allelúja; Quia quem meruísti portáre, allelúja; Resurréxit,
@@ -169,7 +170,7 @@ export default function PageCompletas() {
                   Maria, Aleluia! Porque o Senhor ressuscitou verdadeiramente,
                   Aleluia!
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Cântico Nunc Dimittis</Text>
 
@@ -177,7 +178,7 @@ export default function PageCompletas() {
 
               <Text className="h2">Ofício 1</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Sub tuum præsídium
                   confúgimus, sancta Dei Génetrix; nostras deprecatiónes ne
@@ -196,11 +197,11 @@ export default function PageCompletas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
 
               <Text className="h2">Tempo Pascal</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   <Text className="latin">Ant.</Text> Regína Cæli, lætáre,
                   allelúja; Quia quem meruísti portáre, allelúja; Resurréxit,
@@ -254,7 +255,7 @@ export default function PageCompletas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
 
             <TabItem label="No Advento">
@@ -262,7 +263,7 @@ export default function PageCompletas() {
 
               <Text className="em">Is. 7, 14-15</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Ecce Virgo concipiet, et pariet filium, et vocabitur nomen
                   ejus Emmanuel. Butyrum et mel comedet, ut sciat reprobare
@@ -333,7 +334,7 @@ export default function PageCompletas() {
                 <Text className="vernacular">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
 
             <TabItem label="No Natal">
@@ -341,7 +342,7 @@ export default function PageCompletas() {
 
               <Text className="em">Ecl. 24</Text>
 
-              <View className="side-by-side">
+              <Language>
                 <Text className="latin">
                   Ego mater pulchræ dilectionis, et timoris, et agnitionis, et
                   sanctæ spei. Eu sou a Mãe do amor belo e do temor, e do
@@ -410,11 +411,11 @@ export default function PageCompletas() {
                 <Text className="latin">
                   <Text className="response"> ℟. </Text> Amen.
                 </Text>
-              </View>
+              </Language>
             </TabItem>
           </Tabs>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="versicle"> ℣. </Text>Domine, exaudi orationem
               meam.
@@ -443,7 +444,7 @@ export default function PageCompletas() {
             <Text className="vernacular">
               <Text className="response"> ℟. </Text> Graças a Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Acabar com uma{" "}

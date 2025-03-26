@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageUnidadecrista() {
   return (
@@ -14,7 +15,7 @@ export default function PageUnidadecrista() {
 
           <Text className="em">Sl. 105, 47</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salvos nos fac, Dómine, Deus noster, et cóngrega nos de
               natiónibus: ut confiteámur nómini sancto tuo, et gloriémur in
@@ -32,11 +33,11 @@ export default function PageUnidadecrista() {
               Senhor, porque Ele é bom; porque a sua misericórdia é eterna.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui errata córrigis, et dispérsa cóngregas, et congregáta
               consérvas: quǽsumus, super pópulum christiánum tuæ uniónis grátiam
@@ -50,13 +51,13 @@ export default function PageUnidadecrista() {
               terminadas as divisões e unindo-se ao verdadeiro Pastor da vossa
               Igreja, possa servir-Vos dignamente. Por...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ef. 4, 1-7 et 13-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
@@ -117,13 +118,13 @@ export default function PageUnidadecrista() {
               o que aprendestes em Cristo, se é que O ouvistes falar e fostes
               instruídos na verdade da doutrina de Jesus Cristo, nosso Senhor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 121, 6-7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Rogáte quæ ad pacem sunt Jerúsalem: et abundántia diligéntibus te.
               <Text className="versicle"> ℣. </Text>Fiat pax in virtúte tua: et
@@ -144,7 +145,7 @@ export default function PageUnidadecrista() {
               <Text className="vernacular">Sl. 147, 12</Text> Louva o Senhor, ó
               Jerusalém; louva o teu Deus, ó Sião. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Depois da Septuagésima omite-se o Aleluia e o Verso seguinte, e
@@ -155,7 +156,7 @@ export default function PageUnidadecrista() {
 
           <Text className="em">Sl. 75, 2-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Notus in Judǽa Deus, in Israël magnum nomen ejus.
               <Text className="versicle"> ℣. </Text>Et factus est in pace locus
@@ -170,13 +171,13 @@ export default function PageUnidadecrista() {
               <Text className="versicle"> ℣. </Text>Ali quebrou as forças do
               arco, do escudo, da espada e dos combates.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Tempo Pascal omite-se o Gradual, e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 147, 12</Text> Lauda, Jerúsalem,
@@ -194,13 +195,13 @@ export default function PageUnidadecrista() {
               paz nas tuas fronteiras; e te sacia com a flor da farinha.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 17, 1 & 11-23</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -253,13 +254,13 @@ export default function PageUnidadecrista() {
               como nós somos um: Eu neles e Vós em mim, para que sejam
               consumados na unidade».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Rm. 15, 5-6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Det vobis Deus idípsum sápere in altérutrum: ut unánimes uno ore
               honorificétis Deum nostrum. (T. P. Allelúja.)
@@ -269,11 +270,11 @@ export default function PageUnidadecrista() {
               sentir, de modo que possais unanimemente com uma só voz glorificar
               o nosso Deus. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera hæc pro unióne pópuli christiáni tibi, Dómine, oblata
               sanctífica: per quæ unitátis et pacis in Ecclésia tua nobis dona
@@ -284,13 +285,13 @@ export default function PageUnidadecrista() {
               povo cristão, pelos quais, Vos pedimos, concedais à vossa Igreja a
               união e a paz. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">1 Cor. 10, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Unus panis, et unum corpus multi sumus, omnes, qui de uno pane et
               de uno cálice participámus. (T. P. Allelúja.)
@@ -299,11 +300,11 @@ export default function PageUnidadecrista() {
               Ainda que sejamos muitos, formamos um só pão e um só corpo, e
               todos participamos de um só pão e um só cálice. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc tua, Dómine, sumpta sacra commúnio: sicut fidélium in te
               uniónem præsígnat; sic in tua Ecclésia unitátis, quǽsumus,
@@ -314,7 +315,7 @@ export default function PageUnidadecrista() {
               dos fiéis em Vós, assim, Vos suplicamos, produza desde já o efeito
               da unidade na vossa Igreja. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

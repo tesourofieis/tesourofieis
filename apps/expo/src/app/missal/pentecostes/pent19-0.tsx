@@ -1,6 +1,7 @@
 import { View } from "react-native";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePent190() {
   return (
@@ -11,7 +12,7 @@ export default function PagePent190() {
 
           <Text className="h3">Intróito</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salus pópuli ego sum, dicit Dóminus: de quacúmque tribulatióne
               clamáverint ad me, exáudiam eos: et ero illórum Dóminus in
@@ -26,11 +27,11 @@ export default function PagePent190() {
               atentos à minha Lei, ó meu povo; escutai as palavras que saem da
               minha boca.<Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Omnípotens et miséricors Deus, univérsa nobis adversántia
               propitiátus exclúde: ut mente et córpore páriter expedíti, quæ tua
@@ -43,13 +44,13 @@ export default function PagePent190() {
               inteira liberdade de espírito cumprir o que diz respeito ao vosso
               serviço. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ef. 4, 23-28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
             </Text>
@@ -78,13 +79,13 @@ export default function PagePent190() {
               alguma obra boa e útil, para socorrer os que padecem de
               necessidade.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 140, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dirigátur orátio mea, sicut Incénsum in conspéctu tuo, Dómine.
               <Text className="versicle"> ℣. </Text>
@@ -106,13 +107,13 @@ export default function PagePent190() {
               invocai o seu nome: publicai as suas obras em todos os povos.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 22, 1-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -170,13 +171,13 @@ export default function PagePent190() {
               de choro e de ranger de dentes; pois muitos são os chamados, mas
               poucos os escolhidos».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 137, 7</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Si ambulávero in médio tribulatiónis, vivificábis me, Dómine: et
               super iram inimicórum meórum exténdes manum tuam, et salvum me
@@ -187,11 +188,11 @@ export default function PagePent190() {
               Estendereis a vossa mão contra o furor dos meus inimigos: e serei
               salvo pela vossa dextra.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc múnera, quǽsumus, Dómine, quæ óculis tuæ majestátis offérimus,
               salutária nobis esse concéde. Per Dóminum...
@@ -200,13 +201,13 @@ export default function PagePent190() {
               Senhor, permiti que estes dons, que colocamos diante da vossa
               majestade, sejam úteis à nossa salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 118,4-5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tu mandásti mandáta tua custodíri nimis: útinam dirigántur viæ
               meæ, ad custodiéndas justificatiónes tuas.
@@ -216,11 +217,11 @@ export default function PagePent190() {
               dignai-Vos, pois, dirigir os meus passos, para que sigam o caminho
               das vossas ordens.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tua nos, Dómine, medicinális operátio, et a nostris
               perversitátibus cleménter expédiat, et tuis semper fáciat inhærére
@@ -232,7 +233,7 @@ export default function PagePent190() {
               dignai-Vos livrar-nos das más inclinações e manter-nos no
               cumprimento dos vossos mandamentos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

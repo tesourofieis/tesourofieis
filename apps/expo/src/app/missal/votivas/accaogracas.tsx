@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { Link } from "expo-router";
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageAccaogracas() {
   return (
@@ -25,7 +26,7 @@ export default function PageAccaogracas() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, cujus misericórdiæ non est númerus et bonitátis infinítus
               est thesáurus: piíssimæ majestáti tuæ pro collátis donis grátias
@@ -41,11 +42,11 @@ export default function PageAccaogracas() {
               que estes não fiquem abandonados, e assim possam alcançar as
               recompensas futuras. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Odórem, Dómine, sacrifícii hujus cum gratiárum actiónibus súscipe,
               et præsta: ut, quos exaudíre et incólumes serváre dignátus es, ab
@@ -60,11 +61,11 @@ export default function PageAccaogracas() {
               de todas as adversidades e neles aumente o fervor e o amor pelo
               vosso santo serviço. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui néminem, in te sperántem, nímium afflígi permíttis, sed
               pium précibus præstas audítum: pro postulatiónibus nostris
@@ -80,7 +81,7 @@ export default function PageAccaogracas() {
               por virtude destes mystérios, que recebemos, afastai de nós todas
               as adversidades. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

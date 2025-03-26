@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0414() {
   return (
@@ -14,7 +15,7 @@ export default function Page0414() {
 
           <Text className="em">Sl. 118, 85 & 46</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Narravérunt mihi iníqui fabulatiónes, sed non ut lex tua: ego
               autem loquébar de testimóniis tuis in conspéctu regum, et non
@@ -32,11 +33,11 @@ export default function Page0414() {
               lei do Senhor.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui per stultítiam Crucis eminéntem Jesu Christi sciéntiam
               beátum Justínum Mártyrem mirabíliter docuísti: ejus nobis
@@ -50,13 +51,13 @@ export default function Page0414() {
               nos cercam, consigamos possuir uma fé firme. Pelo mesmo nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">
             Oração Comemoração S. S. Tibúrcio e Susana, Mártires
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Præsta, quǽsumus, omnípotens Deus: ut, qui sanctórum Mártyrum
               tuórum Tibúrtii, Valeriáni et Máximi sollémnia cólimus; eórum
@@ -68,13 +69,13 @@ export default function Page0414() {
               suplicamos, que imitemos também as suas virtudes. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">1 Cor. 1, 18-25 & 30</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
             </Text>
@@ -116,13 +117,13 @@ export default function Page0414() {
               homens. É por Ele que estais em Jesus Cristo, que por Deus se fez
               nossa sabedoria, justiça, santificação e redenção.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">1 Cor. 3, 19 & 20</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">1 Cor. 3, 19 & 20</Text> Sapiéntia hujus
@@ -143,13 +144,13 @@ export default function Page0414() {
               perda em comparação da eminente ciência de Jesus Cristo, meu
               Senhor. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 12, 2-8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -190,13 +191,13 @@ export default function Page0414() {
               que me confessar diante dos homens, o Filho do homem o reconhecerá
               igualmente diante dos Anjos de Deus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">1 Cor. 2, 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Non enim judicávi me scire áliquid inter vos, nisi Jesum Christum,
               et hunc crucifíxum. (T.P. Allelúja.)
@@ -205,11 +206,11 @@ export default function Page0414() {
               Eu julgo que não devo conhecer outra coisa entre vós senão Jesus
               Cristo, e Jesus Cristo crucificado. (T.P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera nostra, Dómine Deus, benígnus súscipe: quorum mirábile
               mystérium sanctus Martyr Justínus advérsum impiórum calúmnias
@@ -221,11 +222,11 @@ export default function Page0414() {
               defendeu ardentemente contra as calúnias dos ímpios. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta Comemoração S. Tibúrcio, Mártires</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc hóstia, quǽsumus, Dómine, quam sanctórum Mártyrum tuórum
               natalítia recenséntes offérimus: et víncula nostræ pravitátis
@@ -237,13 +238,13 @@ export default function Page0414() {
               laços da nossa perversidade e nos torne merecedores da vossa
               misericórdia. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">2 Tm. 4, 8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Repósita est mihi coróna justítiæ, quam reddet mihi Dóminus in
               illa die justus judex. (T.P. Allelúja.)
@@ -252,11 +253,11 @@ export default function Page0414() {
               Está reservada para mim a coroa da justiça, a qual o Senhor, que é
               Juiz justo, me entregará no dia da sua vinda. (T.P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cœlésti alimónia refécti, súpplices te, Dómine, deprecámur: ut,
               beáti Justíni Mártyris tui mónitis, de accéptis donis semper in
@@ -268,13 +269,13 @@ export default function Page0414() {
               em contínuas acções de graças pelos dons recebidos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">
             Postcomúnio Comemoração S. Tibúrcio, Mártires
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacro múnere satiáti, súpplices te, Dómine, deprecámur: ut, quod
               débitæ servitútis celebrámus offício, salvatiónis tuæ sentiámus
@@ -286,7 +287,7 @@ export default function Page0414() {
               homenagens da nossa servidão, sintamos em nós aumentar os efeitos
               da vossa redenção. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page26Festasmaria1() {
   return (
@@ -14,7 +15,7 @@ export default function Page26Festasmaria1() {
 
           <Text className="em">Sedulius</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Salve, sancta Parens, eníxa puérpera Regem: qui cœlum terrámque
               regit in sǽcula sæculórum. (T. P. Allelúja, allelúja.){" "}
@@ -29,11 +30,11 @@ export default function Page26Festasmaria1() {
               exprimiu uma excelente palavra: Consagro ao Rei as minhas obras.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpátua mentis
               et córporis sanitáte gaudére: et, gloriósa beátæ Maríæ semper
@@ -47,13 +48,13 @@ export default function Page26Festasmaria1() {
               do tempo presente e alcancemos o gozo da alegria eterna. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Ecl. 24, 14-16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio libri Sapiéntiæ.</Text>
             <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
             <Text className="latin">
@@ -72,11 +73,11 @@ export default function Page26Festasmaria1() {
               Arraiguei-me em um povo glorioso, da parte do meu Deus e da sua
               herança, e permaneço na companhia dos santos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris
               invénia es Mater Salvatóris.<Text className="versicle"> ℣. </Text>
@@ -99,13 +100,13 @@ export default function Page26Festasmaria1() {
               Aleluia, aleluia. Depois de haverdes dado à luz, permanecestes
               Virgem Imaculada: Intercedei por nós, ó Mãe de Deus. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No Advento, em vez do verso precedente, diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Luc. 1, 28</Text> Ave, María, grátia
@@ -117,7 +118,7 @@ export default function Page26Festasmaria1() {
               graça: o Senhor é convosco: bendita sois vós entre as mulheres.
               Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -125,7 +126,7 @@ export default function Page26Festasmaria1() {
 
           <Text className="h3">Trato</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Gaude, María Virgo, cunctas hǽreses sola interemísti.
               <Text className="versicle"> ℣. </Text>Quæ Gabriélis Archángeli
@@ -143,13 +144,13 @@ export default function Page26Festasmaria1() {
               Imaculada.<Text className="versicle"> ℣. </Text>
               Intercedei por nós, ó Mãe de Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Num. 17, 8</Text> Virga Jesse flóruit:
@@ -168,13 +169,13 @@ export default function Page26Festasmaria1() {
               Ave, Maria, cheia de graça: o Senhor é convosco: bendita sois vós
               entre as mulheres. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 11, 27-28</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -196,13 +197,13 @@ export default function Page26Festasmaria1() {
               amamentaram!». E Jesus respondeu, dizendo: «Bem-aventurados,
               antes, aqueles que ouvem a palavra de Deus e a cumprem».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Lc. 1, 28 & 42</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ave, María, grátia plena; Dóminus tecum: benedícta tu in
               muliéribus, et benedíctus fructus ventris tui. (T. P. Allelúja.)
@@ -212,11 +213,11 @@ export default function Page26Festasmaria1() {
               entre as mulheres, e bendito é o fruto do vosso ventre. (T. P.
               Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis
               intercessióne, ad perpétuam atque præséntem hæc oblátio nobis
@@ -227,11 +228,11 @@ export default function Page26Festasmaria1() {
               sempre Virgem, fazei que esta oblação nos assegure a prosperidade
               e a paz, agora e sempre. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beáta viscera Maríæ Vírginis, quæ portavérunt ætérni Patris
               Fílium. (T. P. Allelúja.)
@@ -240,11 +241,11 @@ export default function Page26Festasmaria1() {
               Bem-aventuradas as entranhas da Virgem Maria, que trouxeram
               encerrado o Filho do Pai Eterno. (T. P. Aleluia.)
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sumptis, Dómine, salútis nostræ subsídiis: da, quǽsumus, beátæ
               Maríæ semper Vírginis patrocíniis nos ubíque prótegi; in cujus
@@ -256,7 +257,7 @@ export default function Page26Festasmaria1() {
               patrocínio da B. Maria, sempre Virgem, em cuja honra oferecemos
               este sacrifício à vossa majestade. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

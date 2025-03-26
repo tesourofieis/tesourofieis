@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page12Confessorespontifices2() {
   return (
@@ -14,7 +15,7 @@ export default function Page12Confessorespontifices2() {
 
           <Text className="em">Sl. 131, 9-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacerdótes tui, Dómine, índuant justítiam, et sancti tui
               exsúltent: propter David servum tuum, non avértas fáciem Christi
@@ -31,11 +32,11 @@ export default function Page12Confessorespontifices2() {
               Senhor, de David e da sua grande mansidão.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exáudi, quǽsumus, Dómine, preces nostras, quas in beáti{" "}
               <Text className="latin">N.</Text> Confessóris tui atque Pontíficis
@@ -50,13 +51,13 @@ export default function Page12Confessorespontifices2() {
               tão dignamente Vos serviu, concedei-nos o perdão dos nossos
               pecados. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Heb. 7, 23-27</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
             </Text>
@@ -88,13 +89,13 @@ export default function Page12Confessorespontifices2() {
               depois pelos pecados do povo; pois isto N. S. Jesus Cristo fez uma
               vez, oferecendo-se a Si mesmo.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 131, 16-17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacerdótes ejus índuam salutári: et sancti ejus exsultatióne
               exsultábunt.<Text className="versicle"> ℣. </Text>Illuc prodúcam
@@ -118,7 +119,7 @@ export default function Page12Confessorespontifices2() {
               não se arrependerá: Tu és sacerdote para sempre, segundo a ordem
               de Melquisedeque. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
@@ -128,7 +129,7 @@ export default function Page12Confessorespontifices2() {
 
           <Text className="em">Sl. 111, 1-3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
               <Text className="versicle"> ℣. </Text>
@@ -144,13 +145,13 @@ export default function Page12Confessorespontifices2() {
               haverá glória e riqueza, e a sua justiça subsistirá em todos os
               séculos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="aside">
             No T. Pascal omite-se o Gradual e o Trato e diz-se:
           </Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 109, 4</Text> Jurávit Dóminus, et non
@@ -167,13 +168,13 @@ export default function Page12Confessorespontifices2() {
               <Text className="em">Ecl. 45, 9</Text> O Senhor amou-o, ornou-o e
               revestiu-o com a túnica da glória. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 24, 42-47</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -207,13 +208,13 @@ export default function Page12Confessorespontifices2() {
               verdade vos digo que o encarregará de administrar todos seus
               bens».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 88, 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Véritas mea et misericórdia mea cum ipso: et in nómine meo
               exaltábitur cornu ejus. (T. P. Allelúja.)
@@ -222,11 +223,11 @@ export default function Page12Confessorespontifices2() {
               A minha fidelidade e a minha misericórdia estarão com ele: e o seu
               poder elevar-se-á pelo meu nome. (T. P. Aleluia).
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sancti <Text className="latin">N.</Text> Confessóris tui atque
               Pontíficis, quǽsumus, Dómine, ánnua sollémnitas pietáti tuæ nos
@@ -242,13 +243,13 @@ export default function Page12Confessorespontifices2() {
               como recompensa, e nos obtenha os dons da vossa graça. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Mt. 24,46-47</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem:
               amen, dico vobis, super ómnia bona sua constítuet eum. (T. P.
@@ -259,11 +260,11 @@ export default function Page12Confessorespontifices2() {
               vigilante. Em verdade vos digo que o encarregará de administrar
               todos seus bens. (T. P. Aleluia).
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, fidélium remunerátor animárum: præsta; ut beáti{" "}
               <Text className="latin">N.</Text> Confessóris tui atque
@@ -277,7 +278,7 @@ export default function Page12Confessorespontifices2() {
               celebramos, obtenhamos o perdão dos nossos pecados. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

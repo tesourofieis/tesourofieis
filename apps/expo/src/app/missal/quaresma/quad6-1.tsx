@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageQuad61() {
   return (
@@ -14,7 +15,7 @@ export default function PageQuad61() {
 
           <Text className="em">Sl. 34, 1-2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Júdica, Dómine, nocéntes me, expúgna impugnántes me: apprehénde
               arma et scutum, et exsúrge in adjutórium meum, Dómine, virtus
@@ -33,11 +34,11 @@ export default function PageQuad61() {
               <Text className="versicle"> ℣. </Text>
               Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Da, quǽsumus, omnípotens Deus: ut, qui in tot advérsis ex nostra
               infirmitáte defícimus; intercedénte unigéniti Fílii tui passióne
@@ -49,13 +50,13 @@ export default function PageQuad61() {
               Vos suplicamos, a graça de conseguirmos algum alívio pelos méritos
               da Paixão de vosso Filho Unigénito: Ele, que, sendo Deus...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Is. 50, 5-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -88,13 +89,13 @@ export default function PageQuad61() {
               seu servo? Aquele que andou em trevas, privado da luz, confie no
               nome do Senhor, pois Deus será o seu sustentáculo».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 34, 23 & 3</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Exsúrge, Dómine, et inténde judício meo, Deus meus et Dóminus
               meus, in causam meam.<Text className="versicle"> ℣. </Text>Effúnde
@@ -106,13 +107,13 @@ export default function PageQuad61() {
               <Text className="versicle"> ℣. </Text>Desembainhai a vossa espada
               e enfrentai aqueles que me perseguem.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Trato</Text>
 
           <Text className="em">Sl. 102, 10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque
               secúndum iniquitátes nostras retríbuas nobis.
@@ -138,13 +139,13 @@ export default function PageQuad61() {
               Auxiliai-nos, ó Deus, nosso Salvador. Para glória do vosso Nome,
               perdoai-nos os nossos pecados, Senhor!
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 12, 1-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -188,13 +189,13 @@ export default function PageQuad61() {
               d’Ele, como para verem Lázaro, que Jesus havia ressuscitado dos
               mortos.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 142, 9-10</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Eripe me de inimícis meis, Dómine: ad te confúgi, doce me fácere
               voluntátem tuam: quia Deus meus es tu.
@@ -203,11 +204,11 @@ export default function PageQuad61() {
               Salvai-me dos meus inimigos, Senhor. Em Vós procurei refúgio;
               ensinai-me a obedecer à vossa vontade, porquanto sois o meu Deus.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc sacrifícia nos, omnípotens Deus, poténti virtúte mundátos, ad
               suum fáciant purióres veníre princípium. Per Dóminum...
@@ -217,13 +218,13 @@ export default function PageQuad61() {
               destes sacrifícios, fazei que nos aproximemos cada vez mais puros
               d’Aquele que é o seu princípio. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Sl. 34, 26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Erubéscant et revereántur simul, qui gratulántur malis meis:
               induántur pudóre et reveréntia, qui malígna loquúntur advérsus me.
@@ -233,11 +234,11 @@ export default function PageQuad61() {
               minha desgraça; que a infâmia e o temor revistam aqueles que falam
               mal de mim.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Prǽbeant nobis, Dómine, divínum tua sancta fervórem: quo eórum
               páriter et actu delectémur et fructu. Per Dóminum...
@@ -248,11 +249,11 @@ export default function PageQuad61() {
               durante a sua celebração, como nos seus frutos. Por nosso
               Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="latin">Orémus.</Text>
             </Text>
@@ -273,7 +274,7 @@ export default function PageQuad61() {
               graça de celebrarmos com alegria o aniversário dos benefícios com
               que Vos dignastes regenerar-nos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

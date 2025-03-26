@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page1003() {
   return (
@@ -16,7 +17,7 @@ export default function Page1003() {
 
           <Text className="em">Ct. 4, 8-9</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Veni de Líbano, sponsa mea, veni de Líbano, veni: vulnerásti cor
               meum, soror mea sponsa, vulnerásti cor meum.{" "}
@@ -31,11 +32,11 @@ export default function Page1003() {
               o Senhor, ó meninos; louvai o nome do Senhor.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Dómine, qui dixisti: Nisi efficiámini sicut párvuli, non
               intrábitis in regnum cœlórum: da nobis, quǽsumus: ita sanctæ
@@ -49,13 +50,13 @@ export default function Page1003() {
               da humildade e simplicidade da Virgem Santa Teresa que consigamos
               alcançar os prémios eternos. Ó Vós, que viveis e reinais...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Is. 66, 12-14</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -77,13 +78,13 @@ export default function Page1003() {
               ossos reconquistarão o vigor, como a erva dos campos; e a mão do
               Senhor se manifestará em favor dos seus servos».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Mt. 11, 25</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Confíteor tibi, Pater, Dómine cœli et terræ, quia abscondísti hæc
               a sapiéntibus, et prudéntibus, et revelásti ea párvulis.
@@ -115,13 +116,13 @@ export default function Page1003() {
               hinos e cânticos em honra do Senhor, louvando-O Pela magnificência
               das suas obras. Aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Mt. 18, 1-4</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Matthǽum.
@@ -145,13 +146,13 @@ export default function Page1003() {
               disse: «Em verdade vos digo: se vos não converteis e não vos
               tornais como os pequenos, não entrareis no reino dos céus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Lc. 1, 46-48 & 49</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Magníficat ánima mea Dóminum: et exsultávit spíritus meus in Deo
               salutári meo: quia respéxit humilitátem ancíllæ suæ: fecit mihi
@@ -162,11 +163,11 @@ export default function Page1003() {
               Deus, meu Salvador, pois Ele dignou-se olhar benignamente para a
               humildade da sua escrava; e praticou em mim grandes coisas.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Sacrifícium nostrum tibi, Dómine, quǽsumus, sanctæ Terésiæ
               Vírginis tuæ precátio sancta concíliet: ut, in cujus honóre
@@ -179,13 +180,13 @@ export default function Page1003() {
               Vós seja aceite, pelos méritos daquela em cuja honra Vo-lo
               oferecemos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Dt. 32, 10-12</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Circumdúxit eam, et dócuit: et custodívit quasi pupíllam óculi
               sui. Sicut aquila expándit alas suas, et assúmpsit eam, atque
@@ -196,11 +197,11 @@ export default function Page1003() {
               Como a águia, abriu suas asas, arrebatou-a e colocou-a sobre os
               seus joelhos. O Senhor foi o seu único guia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Illo nos, Dómine amóris igne cœléste mystérium inflámmet: quo
               sancta Teresia Virgo tua se tibi pro homínibus caritátis víctimam
@@ -211,7 +212,7 @@ export default function Page1003() {
               vossa Virgem Santa Teresa se ofereceu como vítima de amor pelos
               homens. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

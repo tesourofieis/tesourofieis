@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PagePasc71() {
   return (
@@ -14,7 +15,7 @@ export default function PagePasc71() {
 
           <Text className="em">Sl. 80, 17</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Cibávit eos ex ádipe fruménti, allelúja: et de petra, melle
               saturávit eos, allelúja, allelúja.{" "}
@@ -30,11 +31,11 @@ export default function PagePasc71() {
               hinos de alegria o Deus de Jacob.
               <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui Apóstolis tuis Sanctum dedísti Spíritum: concéde plebi
               tuæ piæ petitiónis efféctum; ut, quibus dedísti fidem, largiáris
@@ -45,13 +46,13 @@ export default function PagePasc71() {
               atendei às pias orações do vosso povo, a fim de que àqueles a quem
               já destes a fé concedais também a paz. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Act. 10, 34 & 42-48</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Actuum Apostolórum.</Text>
             <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
             <Text className="latin">
@@ -84,9 +85,9 @@ export default function PagePasc71() {
               Santo?». E mandou que fossem baptizados no nome do nosso Senhor
               Jesus Cristo.
             </Text>
-          </View>
+          </Language>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Act. 2, 4</Text> Loquebántur váriis
@@ -103,13 +104,13 @@ export default function PagePasc71() {
               enchei os corações dos vossos fiéis e acendei neles o fogo do
               vosso amor.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Jo. 3, 16-21</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Joánnem.
@@ -146,13 +147,13 @@ export default function PagePasc71() {
               à luz, para que se saiba que suas obras são praticadas em nome de
               Deus».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 17, 14 & 16</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Intónuit de cœlo Dóminus, et Altíssimus dedit vocem suam: et
               apparuérunt fontes aquárum, allelúja.
@@ -161,11 +162,11 @@ export default function PagePasc71() {
               Lá do céu o Senhor trovejou: e o Altíssimo fez ouvir a sua voz:
               então irromperam as fontes das águas, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Propítius, Dómine, quǽsumus, hæc dona sanctífica: et, hóstiæ
               spiritális oblatióne suscépta, nosmetípsos tibi pérfice munus
@@ -176,13 +177,13 @@ export default function PagePasc71() {
               recebendo a oblação desta hóstia espiritual, fazei que nos
               tornemos em um dom eterno a Vós oferecido. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Jo. 14, 26</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Spíritus Sanctus docébit vos, allelúja: quæcúmque díxero vobis,
               allelúja, allelúja.
@@ -191,11 +192,11 @@ export default function PagePasc71() {
               O Espírito Santo vos inspirará, aleluia, tudo o que vos tenho
               ensinado, aleluia, aleluia.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Adésto, quǽsumus, Dómine, pópulo tuo: et, quem mystériis
               cœléstibus imbuísti, ab hóstium furóre defénde. Per Dóminum...
@@ -205,7 +206,7 @@ export default function PagePasc71() {
               sustentado com os mystérios celestiais, defendei-o contra o furor
               dos inimigos. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

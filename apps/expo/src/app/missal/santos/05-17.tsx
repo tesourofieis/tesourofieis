@@ -4,6 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page0517() {
   return (
@@ -25,7 +26,7 @@ export default function Page0517() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, qui beátum Paschálem Confessórem tuum mirífica erga Córporis
               et Sánguinis tui sacra mystéria dilectióne decorásti: concéde
@@ -40,7 +41,7 @@ export default function Page0517() {
               a mesma abundância de graças que ele alcançou. Ó Vós, que viveis e
               reinais...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

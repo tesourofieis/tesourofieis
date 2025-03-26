@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function PageAdv35() {
   return (
@@ -14,7 +15,7 @@ export default function PageAdv35() {
 
           <Text className="em">Sl. 118, 151–152</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Prope es tu, Dómine, et omnes viæ tuæ véritas: inítio cognóvi de
               testimóniis tuis, quia in ætérnum tu es.{" "}
@@ -31,11 +32,11 @@ export default function PageAdv35() {
               lei do Senhor.<Text className="versicle"> ℣. </Text>Glória ao
               Pai...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Excita, quǽsumus, Dómine, poténtiam tuam, et veni: ut hi, qui in
               tua pietáte confídunt, ab omni cítius adversitáte liberéntur: Qui
@@ -46,13 +47,13 @@ export default function PageAdv35() {
               que aqueles que confiam na vossa bondade sejam bem depressa livres
               de toda a adversidade: Vós, que viveis e...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Epístola</Text>
 
           <Text className="em">Is. 11, 1–5</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
             <Text className="vernacular">Lição do Profeta Isaías.</Text>
             <Text className="latin">
@@ -79,13 +80,13 @@ export default function PageAdv35() {
               com um sopro dos seus lábios. A justiça será o cinto de suas
               entranhas e a fé o cinturão dos seus rins.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Gradual</Text>
 
           <Text className="em">Sl. 84, 8 & 2</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Osténde nobis, Dómine, misericórdiam tuam: et salutáre tuum da
               nobis.<Text className="versicle"> ℣. </Text>Benedixísti, Dómine,
@@ -96,13 +97,13 @@ export default function PageAdv35() {
               salvação. Abençoastes, Senhor, a vossa terra; afastastes o
               cativeiro de Jacob.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Evangelho</Text>
 
           <Text className="em">Lc. 1, 39–47</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
               secúndum Lucam.
@@ -138,13 +139,13 @@ export default function PageAdv35() {
               da parte do Senhor». Maria disse, então: «Minha alma glorifica ao
               Senhor: e o meu espírito se alegra em Deus, meu Salvador».
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Ofertório</Text>
 
           <Text className="em">Sl. 84, 7–8</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Deus, tu convérsus vivificábis nos, et plebs tua lætábitur in te:
               osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da
@@ -155,11 +156,11 @@ export default function PageAdv35() {
               o vosso povo rejubilará em Vós. Mostrai-nos, Senhor, a vossa
               misericórdia: e dai-nos a vossa salvação.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
               cœléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum
@@ -170,13 +171,13 @@ export default function PageAdv35() {
               orações, Vos suplicamos, purificai-nos com vossos celestiais
               mystérios e ouvi-nos clementemente. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Comúnio</Text>
 
           <Text className="em">Zc. 14, 5–6</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Ecce, Dóminus véniet et omnes Sancti ejus cum eo: et erit in die
               illa lux magna.
@@ -185,11 +186,11 @@ export default function PageAdv35() {
               Eis que o Senhor vem, e com Ele virão todos os Santos; e nesse dia
               raiará uma luz brilhantíssima.
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Tui nos, Dómine, sacraménti libátio sancta restáuret: et a
               vetustáte purgátos, in mystérii salutáris fáciat transíre
@@ -200,7 +201,7 @@ export default function PageAdv35() {
               restaure; e que, depois de nos haver purificado do «homem velho»,
               nos conduza ao gozo das alegrias da salvação. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>

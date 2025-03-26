@@ -2,6 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
+import Language from "~/components/Language";
 
 export default function Page6Rei() {
   return (
@@ -12,7 +13,7 @@ export default function Page6Rei() {
 
           <Text className="h3">Oração</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Quǽsumus, omnípotens Deus: ut fámulus tuus{" "}
               <Text className="latin">N.</Text>, rex noster, qui tua miseratióne
@@ -30,11 +31,11 @@ export default function Page6Rei() {
               vícios e, cheio de merecimentos, se aproxime de Vós, que sois o
               caminho, a verdade e a vida. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Secreta</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Múnera, Dómine, quǽsumus, oblata sanctífica: ut et nobis Unigéniti
               tui Corpus et Sanguis fiant; ei regi nostro ad obtinéndam ánimæ
@@ -49,11 +50,11 @@ export default function Page6Rei() {
               salvação da alma e do corpo e o auxiliarem a desempenhar o cargo
               de que foi investido. Pelo mesmo nosso Senhor...
             </Text>
-          </View>
+          </Language>
 
           <Text className="h3">Postcomúnio</Text>
 
-          <View className="side-by-side">
+          <Language>
             <Text className="latin">
               Hæc, Dómine, oblátio salutáris fámulum tuum{" "}
               <Text className="latin">N.</Text>, regem nostrum, ab ómnibus
@@ -68,7 +69,7 @@ export default function Page6Rei() {
               proporciona a paz da Igreja, e, após esta vida, consiga a herança
               eterna. Por nosso Senhor...
             </Text>
-          </View>
+          </Language>
         </View>
       </ScrollView>
     </SafeAreaView>
