@@ -26,14 +26,12 @@ import {
   Platform,
   Pressable,
   StatusBar,
-  Switch,
   Text,
   View,
 } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
-import { LanguageProvider, useLanguage } from "~/providers/language";
 import { NotificationsProvider } from "~/providers/notifications";
 
 SplashScreen.preventAutoHideAsync();
@@ -98,15 +96,13 @@ export default function PageRootLayout() {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <CalendarProvider>
-        <LanguageProvider>
-          {Platform.OS === "web" ? (
+        {Platform.OS === "web" ? (
+          <RootLayoutNav />
+        ) : (
+          <NotificationsProvider>
             <RootLayoutNav />
-          ) : (
-            <NotificationsProvider>
-              <RootLayoutNav />
-            </NotificationsProvider>
-          )}
-        </LanguageProvider>
+          </NotificationsProvider>
+        )}
       </CalendarProvider>
     </GestureHandlerRootView>
   );
@@ -226,7 +222,7 @@ const Breadcrumbs = () => {
   };
 
   return (
-    <View className="flex-row items-center">
+    <View className="flex-row items-center gap-1">
       {segments.map((segment, index) => (
         <React.Fragment key={segment}>
           {index !== 0 && (
@@ -237,12 +233,23 @@ const Breadcrumbs = () => {
             onPress={() =>
               handlePress(`/${segments.slice(0, index + 1).join("/")}`)
             }
+            style={({ pressed }) => [
+              {
+                backgroundColor: pressed ? "#e5c7a9" : "transparent", // Change color when pressed
+                borderRadius: 5,
+                paddingHorizontal: 8,
+                paddingVertical: 4,
+                borderWidth: 1,
+                borderColor:
+                  index === segments.length - 1 ? "transparent" : "#a07c5a",
+              },
+            ]}
           >
             <Text
-              className={`text-sm font-sans py-1 rounded ${
+              className={`text-xs p-1 rounded font-serif ${
                 index === segments.length - 1
                   ? "text-sepia-700 dark:text-sepia-300 font-bold"
-                  : "text-sepia-600 dark:text-sepia-400 bg-sepia-300 dark:bg-sepia-700 underline "
+                  : "text-sepia-600 dark:text-sepia-400 bg-sepia-200 dark:bg-sepia-800 underline"
               }`}
             >
               {formatSegmentName(segment)}
@@ -254,54 +261,17 @@ const Breadcrumbs = () => {
   );
 };
 
-const Header = ({ withBC }) => {
-  const { language, toggleLanguage } = useLanguage();
-
+const Header = ({ withBC }: { withBC: boolean }) => {
   if (withBC) {
     return (
-      <View className="flex-row items-center p-5 border-b bg-sepia-300 dark:bg-sepia-900 w-full justify-between">
-        <View className="flex-row items-center gap-2">
-          <Link href="/">
-            <FontAwesome6 name="arrow-left" size={15} color="#e53935" />
-          </Link>
-          <Breadcrumbs />
-        </View>
-
-        <View className="flex-row gap-1">
-          <Pressable onPressOut={() => toggleLanguage("latin")}>
-            <Text
-              className={`p-2 text-xs rounded text-sepia-700 dark:text-sepia-300 ${
-                language === "latin"
-                  ? "bg-sepia-200 dark:bg-sepia-800 bold"
-                  : "bg-sepia-300 dark:bg-sepia-700"
-              } `}
-            >
-              Latin
-            </Text>
-          </Pressable>
-          <Pressable onPressOut={() => toggleLanguage("vernacular")}>
-            <Text
-              className={`p-2 text-xs rounded text-sepia-700 dark:text-sepia-300 ${
-                language === "vernacular"
-                  ? "bg-sepia-200 dark:bg-sepia-800 bold"
-                  : "bg-sepia-300 dark:bg-sepia-700"
-              } `}
-            >
-              Vernacular
-            </Text>
-          </Pressable>
-          <Pressable onPressOut={() => toggleLanguage("ambas")}>
-            <Text
-              className={`p-2 text-xs rounded text-sepia-700 dark:text-sepia-300 ${
-                language === "ambas"
-                  ? "bg-sepia-200 dark:bg-sepia-800 bold"
-                  : "bg-sepia-300 dark:bg-sepia-700"
-              } `}
-            >
-              Ambas
-            </Text>
-          </Pressable>
-        </View>
+      <View className="flex-row items-center p-5 gap-5 border-b bg-sepia-300 dark:bg-sepia-900 w-full">
+        <Link
+          href="/"
+          className="rounded-full p-2 bg-sepia-200 dark:bg-sepia-800 shadow-md"
+        >
+          <FontAwesome6 name="arrow-left" size={15} color="#e53935" />
+        </Link>
+        <Breadcrumbs />
       </View>
     );
   }
