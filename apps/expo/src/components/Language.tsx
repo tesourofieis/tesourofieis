@@ -1,5 +1,12 @@
-import React, { useMemo, useState, useCallback, useRef } from "react";
-import { Dimensions, PanResponder, Pressable, Text, View } from "react-native";
+import React, { useMemo, useState, useRef } from "react";
+import {
+  Dimensions,
+  PanResponder,
+  Pressable,
+  ScrollView,
+  Text,
+  View,
+} from "react-native";
 import Animated, {
   useSharedValue,
   useAnimatedStyle,
@@ -12,7 +19,7 @@ type LanguageToggleProps = {
 
 function LanguageToggle({ children }: LanguageToggleProps) {
   const position = useSharedValue(100); // Default to Vernacular
-  const [isLatin, setIsLatin] = useState(false); // Start with Vernacular (PT) selected
+  const [isLatin, setIsLatin] = useState(false); // Start with Vernacular (PT)
   const initialPosition = useRef(100);
   const screenWidth = Dimensions.get("window").width;
 
@@ -38,10 +45,12 @@ function LanguageToggle({ children }: LanguageToggleProps) {
 
   const panResponder = useRef(
     PanResponder.create({
-      onStartShouldSetPanResponder: () => true,
+      onStartShouldSetPanResponder: () => false,
       onMoveShouldSetPanResponder: (_, gestureState) => {
-        // Only handle horizontal gesture if it's more horizontal than vertical
-        return Math.abs(gestureState.dx) > Math.abs(gestureState.dy) * 1.5;
+        return (
+          Math.abs(gestureState.dx) > 30 &&
+          Math.abs(gestureState.dx) > Math.abs(gestureState.dy) * 5
+        );
       },
       onPanResponderGrant: () => {
         initialPosition.current = position.value;
@@ -72,8 +81,16 @@ function LanguageToggle({ children }: LanguageToggleProps) {
     <View {...panResponder.panHandlers}>
       {/* Content */}
       <Animated.View style={[animatedStyle]} className="flex-row w-full">
-        <View className="w-full">{latinContent}</View>
-        <View className="w-full">{vernacularContent}</View>
+        <View className="w-full">
+          <ScrollView scrollEnabled={true} directionalLockEnabled={true}>
+            {latinContent}
+          </ScrollView>
+        </View>
+        <View className="w-full">
+          <ScrollView scrollEnabled={true} directionalLockEnabled={true}>
+            {vernacularContent}
+          </ScrollView>
+        </View>
       </Animated.View>
 
       {/* Chip Indicator */}
@@ -85,7 +102,6 @@ function LanguageToggle({ children }: LanguageToggleProps) {
           accessibilityRole="button"
         >
           <View className="flex-row bg-sepia-200 dark:bg-sepia-800 rounded-xl p-1">
-            {/* Latin Segment */}
             <View
               className={`px-2 rounded-lg ${
                 isLatin
@@ -103,7 +119,6 @@ function LanguageToggle({ children }: LanguageToggleProps) {
                 LA
               </Text>
             </View>
-            {/* Vernacular Segment */}
             <View
               className={`px-2 rounded-lg ${
                 !isLatin
