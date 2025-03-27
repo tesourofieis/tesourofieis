@@ -29,7 +29,6 @@ import {
   Text,
   View,
 } from "react-native";
-import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { NotificationsProvider } from "~/providers/notifications";
@@ -94,17 +93,15 @@ export default function PageRootLayout() {
   }
 
   return (
-    <GestureHandlerRootView style={{ flex: 1 }}>
-      <CalendarProvider>
-        {Platform.OS === "web" ? (
+    <CalendarProvider>
+      {Platform.OS === "web" ? (
+        <RootLayoutNav />
+      ) : (
+        <NotificationsProvider>
           <RootLayoutNav />
-        ) : (
-          <NotificationsProvider>
-            <RootLayoutNav />
-          </NotificationsProvider>
-        )}
-      </CalendarProvider>
-    </GestureHandlerRootView>
+        </NotificationsProvider>
+      )}
+    </CalendarProvider>
   );
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "@tesourofieis/expo",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "private": true,
   "main": "./index",
   "scripts": {
@@ -29,12 +29,12 @@
     "@shopify/flash-list": "1.7.3",
     "@tesourofieis/cal": "workspace:*",
     "date-fns": "catalog:",
-    "expo": "~52.0.40",
+    "expo": "~52.0.41",
     "expo-constants": "~17.0.8",
     "expo-dev-client": "~5.0.15",
     "expo-device": "~7.0.2",
     "expo-font": "~13.0.4",
-    "expo-image": "~2.0.6",
+    "expo-image": "~2.0.7",
     "expo-insights": "~0.8.2",
     "expo-intent-launcher": "~12.0.2",
     "expo-linking": "~7.0.5",
