@@ -190,7 +190,7 @@ export default function Page0327() {
               quidnam fácerent Jesu.
             </Text>
             <Text className="vernacular">
-              Naquele empo, em um outro dia de sábado, entrou Jesus na sinagoga
+              Naquele tempo, em um outro dia de sábado, entrou Jesus na sinagoga
               e aí ensinava. Estava lá um homem, que tinha a mão direita seca.
               Ora, os escribas e os fariseus observaram-n’O para ver se Ele
               fazia curas ao dia de sábado, para terem pretexto para O acusar;

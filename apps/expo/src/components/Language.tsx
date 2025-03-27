@@ -1,5 +1,5 @@
 import React, { useMemo, useState, useCallback, useRef } from "react";
-import { Dimensions, Pressable, View, PanResponder, Text } from "react-native";
+import { Dimensions, PanResponder, Pressable, Text, View } from "react-native";
 import Animated, {
   useSharedValue,
   useAnimatedStyle,
@@ -11,42 +11,42 @@ type LanguageToggleProps = {
 };
 
 function LanguageToggle({ children }: LanguageToggleProps) {
-  const position = useSharedValue(0);
-  const [isLatin, setIsLatin] = useState(true);
-  const initialPosition = useRef(0);
+  const position = useSharedValue(100); // Default to Vernacular
+  const [isLatin, setIsLatin] = useState(false); // Start with Vernacular (PT) selected
+  const initialPosition = useRef(100);
   const screenWidth = Dimensions.get("window").width;
 
-  // Separate Latin and Vernacular content
   const { latinContent, vernacularContent } = useMemo(() => {
     const childrenArray = React.Children.toArray(children);
     return {
       latinContent: childrenArray.filter(
         (child) =>
-          React.isValidElement(child) && child.props.className === "latin"
+          React.isValidElement(child) && child.props.className === "latin",
       ),
       vernacularContent: childrenArray.filter(
         (child) =>
-          React.isValidElement(child) && child.props.className === "vernacular"
+          React.isValidElement(child) && child.props.className === "vernacular",
       ),
     };
   }, [children]);
 
-  // Toggle language on tap
   const toggleLanguage = () => {
     const newPosition = isLatin ? 100 : 0;
     position.value = withTiming(newPosition, { duration: 300 });
     setIsLatin(!isLatin);
   };
 
-  // Handle swipe gestures
   const panResponder = useRef(
     PanResponder.create({
       onStartShouldSetPanResponder: () => true,
-      onMoveShouldSetPanResponder: () => true,
+      onMoveShouldSetPanResponder: (_, gestureState) => {
+        // Only handle horizontal gesture if it's more horizontal than vertical
+        return Math.abs(gestureState.dx) > Math.abs(gestureState.dy) * 1.5;
+      },
       onPanResponderGrant: () => {
         initialPosition.current = position.value;
       },
-      onPanResponderMove: (event, gestureState) => {
+      onPanResponderMove: (_, gestureState) => {
         const { dx } = gestureState;
         const delta = (dx / screenWidth) * 100;
         const newPosition = initialPosition.current - delta;
@@ -61,14 +61,12 @@ function LanguageToggle({ children }: LanguageToggleProps) {
           setIsLatin(true);
         }
       },
-    })
+    }),
   ).current;
 
   const animatedStyle = useAnimatedStyle(() => ({
-    transform: [{ translateX: `-${position.value}%` }],
+    transform: [{ translateX: `${-position.value}%` as const }],
   }));
-
-  // Determine which language is active for the chip
 
   return (
     <View {...panResponder.panHandlers}>
@@ -86,16 +84,20 @@ function LanguageToggle({ children }: LanguageToggleProps) {
           accessibilityHint="Swipe or tap to switch between Latin and Vernacular"
           accessibilityRole="button"
         >
-          <View className="flex-row bg-sepia-300 dark:bg-sepia-700 rounded-full p-1">
+          <View className="flex-row bg-sepia-200 dark:bg-sepia-800 rounded-xl p-1">
             {/* Latin Segment */}
             <View
-              className={`px-3 py-1 rounded-full ${
-                isLatin ? "bg-sepia-500" : "bg-transparent"
+              className={`px-2 rounded-lg ${
+                isLatin
+                  ? "bg-sepia-200 dark:bg-sepia-800 text-white"
+                  : "bg-transparent"
               }`}
             >
               <Text
                 className={`text-xs font-medium ${
-                  isLatin ? "text-white" : "text-sepia-600"
+                  isLatin
+                    ? "text-sepia-700 dark:text-sepia-300"
+                    : "text-sepia-500"
                 }`}
               >
                 LA
@@ -103,13 +105,17 @@ function LanguageToggle({ children }: LanguageToggleProps) {
             </View>
             {/* Vernacular Segment */}
             <View
-              className={`px-3 py-1 rounded-full ${
-                !isLatin ? "bg-sepia-500" : "bg-transparent"
+              className={`px-2 rounded-lg ${
+                !isLatin
+                  ? "bg-sepia-200 dark:bg-sepia-700 text-white"
+                  : "bg-transparent"
               }`}
             >
               <Text
                 className={`text-xs font-medium ${
-                  !isLatin ? "text-white" : "text-sepia-600"
+                  !isLatin
+                    ? "text-sepia-700 dark:text-sepia-300"
+                    : "text-sepia-500"
                 }`}
               >
                 PT
