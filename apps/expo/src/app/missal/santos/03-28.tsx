@@ -127,7 +127,7 @@ export default function Page0328() {
           <Text className="h3">Evangelho</Text>
 
           <LinkCard
-            href="/missal/pentecostes/pasc7-4#evangelho"
+            href="/missal/pascoa/pasc7-4#evangelho"
             title="Quinta-feira de Pentecostes - Estação em S. Lourenço fora de Muros"
           />
 

@@ -69,7 +69,7 @@ export default function Page0722Lisboa() {
           </Text>
           <Text className="h3">Evangelho</Text>
           <LinkCard
-            href="/missal/pentecostes/pasc7-5#evangelho"
+            href="/missal/pascoa/pasc7-5#evangelho"
             title="Sexta-feira das Têmporas de Pentecostes - Estação nos Doze Apóstolos"
           />
           <Text className="h3">Ofertório</Text>

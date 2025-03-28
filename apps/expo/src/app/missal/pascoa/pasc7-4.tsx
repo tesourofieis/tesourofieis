@@ -15,7 +15,7 @@ export default function PagePasc74() {
 
           <Text className="aside">
             Como no dia da{" "}
-            <Link className="link" href="/missal/pentecostes/pent7-0">
+            <Link className="link" href="/missal/pascoa/pasc7-0">
               Festa de Pentecostes
             </Link>{" "}
             , excepto:

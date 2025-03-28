@@ -15,7 +15,7 @@ export default function PageEspiritosanto() {
 
           <Text className="aside">
             Como na{" "}
-            <Link className="link" href="/missal/pentecostes/pent7-0">
+            <Link className="link" href="/missal/pascoa/pasc7-0">
               Missa do Domingo de Pentecostes
             </Link>{" "}
             , excepto:
