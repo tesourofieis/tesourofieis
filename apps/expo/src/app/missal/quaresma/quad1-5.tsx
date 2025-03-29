@@ -5,45 +5,33 @@ import React from "react";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 
-export default function PageQuad15() {
+export default function PageQuad16() {
   return (
     <SafeAreaView className="flex-1">
       <ScrollView>
         <View className="docs">
-          <Text className="h1">Sábado da 1.ª Semana da Quaresma</Text>
+          <Text className="h1">
+            Sexta-feira da 1.ª Semana da Quaresma - Têmporas da Primavera
+          </Text>
 
           <Text className="h3">Intróito</Text>
 
-          <Text className="em">Sl. 87, 3</Text>
+          <Text className="em">Sl. 24, 17 & 18</Text>
 
           <Language>
             <Text className="latin">
-              Intret orátio mea in conspéctu tuo: inclína aurem tuam ad precem
-              meam, Dómine. <Text className="latin">Ps. ibid., 2</Text> Dómine,
-              Deus salútis meæ: in die clamávi, et nocte coram te.
+              De necessitátibus meis éripe me, Dómine: vide humilitátem meam et
+              labórem meum, et dimítte ómnia peccáta mea.{" "}
+              <Text className="latin">Ps. ibid., 1-2</Text> Ad te, Dómine,
+              levávi ánimam meam: Deus meus, in te confído, non erubéscam.
               <Text className="versicle"> ℣. </Text>Gloria Patri...
             </Text>
             <Text className="vernacular">
-              Que a minha oração chegue à vossa presença! Senhor, ouvi benigno a
-              minha súplica. <Text className="vernacular">Sl. ibid., 2</Text>{" "}
-              Senhor, meu Deus e meu Salvador, de dia e de noite clamo diante de
-              Vós.<Text className="versicle"> ℣. </Text>
-              Glória ao Pai...
-            </Text>
-          </Language>
-
-          <Language>
-            <Text className="latin">
-              <Text className="latin">Orémus. Flectámus génua.</Text>
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Oremos. Ajoelhemos!</Text>
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Leváte.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Levantai-vos!
+              Livrai-me, Senhor, das minhas tribulações; vede a minha humilhação
+              e as minhas penas e perdoai-me todos meus pecados.{" "}
+              <Text className="vernacular">Sl. ibid., 1-2</Text> A Vós, Senhor,
+              elevo a minha alma: meu Deus, em Vós confio: não esperarei em vão.
+              <Text className="versicle"> ℣. </Text>Glória ao Pai...
             </Text>
           </Language>
 
@@ -51,494 +39,180 @@ export default function PageQuad15() {
 
           <Language>
             <Text className="latin">
-              Pópulum tuum, quǽsumus, Dómine, propítius réspice: atque ab eo
-              flagella tuæ iracúndiæ cleménter avérte. Per Dóminum...
+              Esto, Dómine, propítius plebi tuæ: et, quam tibi facis esse
+              devótam, benígno réfove miserátus auxílio. Per Dóminum...
             </Text>
             <Text className="vernacular">
-              Senhor, Vos suplicamos, olhai propício para o vosso povo e afastai
-              piedosamente dele os flagelos da vossa ira. Por nosso Senhor...
-            </Text>
-          </Language>
-
-          <Text className="h3">1.ª Lição</Text>
-
-          <Text className="em">Dt. 26, 12-19</Text>
-
-          <Language>
-            <Text className="latin">Léctio libri Deuteronómii.</Text>
-            <Text className="vernacular">Lição do Livro do Deuteronómio.</Text>
-            <Text className="latin">
-              In diébus illis: Locútus est Móyses ad pópulum, dicens: Quando
-              compléveris décimam cunctárum frugum tuárum, loquéris in conspéctu
-              Dómini, Dei tui: Abstuli, quod sanctificátum est de domo mea, et
-              dedi illud levítæ et ádvenæ et pupíllo ac víduæ, sicut jussísti
-              mihi: non præterívi mandáta tua, nec sum oblítus impérii tui.
-              Obœdívi voci Dómini, Dei mei, et feci ómnia, sicut præcepísti
-              mihi. Réspice de sanctuário tuo et de excélso cœlórum habitáculo,
-              et benedic pópulo tuo Israël, et terræ, quam dedísti nobis, sicut
-              jurásti pátribus nostris, terræ lacte et melle manánti. Hódie
-              Dóminus, Deus tuus, præcépit tibi, ut fácias mandáta hæc atque
-              judícia: et custódias et ímpleas ex toto corde tuo et ex tota
-              ánima tua. Dóminum elegísti hódie, ut sit tibi Deus, et ámbules in
-              viis ejus, et custódias cæremónias illíus et mandáta atque
-              judícia, et obǿdias ejus império. Et Dóminus elegit te hódie, ut
-              sis ei pópulus peculiáris, sicut locútus est tibi, et custódias
-              ómnia præcépta illíus: et fáciat te excelsiórem cunctis géntibus,
-              quas creávit in laudem et nomen et glóriam suam: ut sis populus
-              sanctus Dómini, Dei tui, sicut locútus est.
-            </Text>
-            <Text className="vernacular">
-              Naqueles dias, Moisés falou ao povo nestes termos: «Quando
-              acabardes de pagar o dízimo de todos vossos frutos, falareis assim
-              diante do Senhor, vosso Deus: «Tirei de minha casa o que era
-              Consagrado, entreguei-o ao Levita, ao peregrino, ao órfão e à
-              viúva, como mandastes; não transgredi, nem desprezei os vossos
-              Mandamentos; obedeci à voz do Senhor, meu Deus, e tenho procedido
-              segundo o que ordenastes. Então, Senhor, olhai lá do santuário e
-              do alto dos céus, onde habitais, e abençoai o vosso povo de Israel
-              e a terra, que nos destes, como jurastes a nossos pais, a terra
-              onde brota o leite e o mel». Hoje, o Senhor, vosso Deus, manda
-              guardar e cumprir de todo o coração e de toda a alma estas ordens
-              e estes preceitos. Escolhestes hoje o Senhor para que seja vosso
-              Deus, sigais os seus caminhos, guardeis as suas regras, preceitos
-              e ordens e obedeçais à sua voz? Pois o Senhor também vos escolheu
-              para que sejais o seu povo predilecto, como Ele disse, para que
-              observeis todos seus preceitos e para vos tornar o povo mais
-              ilustre de todas as nações, que criou, paraseu louvor, honra e
-              glória, e para que sejais o povo santo do Senhor, vosso Deus,
-              segundo a sua palavra».
-            </Text>
-          </Language>
-
-          <Text className="h3">Gradual</Text>
-
-          <Text className="em">Sl. 78, 9 & 10</Text>
-
-          <Language>
-            <Text className="latin">
-              Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes:
-              Ubi est Deus eórum?<Text className="versicle"> ℣. </Text>Adjuva
-              nos, Deus, salutáris noster: et propter honórem nóminis tui,
-              Dómine, líbera nos.
-            </Text>
-            <Text className="vernacular">
-              Perdoai os nossos pecados, Senhor, para que os povos não digam:
-              «Onde está o seu Deus?».<Text className="versicle"> ℣. </Text>
-              Auxiliai-nos, ó Deus, nosso Salvador; para honra do vosso nome,
-              Senhor, livrai-nos.
-            </Text>
-          </Language>
-
-          <Language>
-            <Text className="latin">
-              <Text className="latin">Orémus. Flectámus génua.</Text>
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Oremos. Ajoelhemos!</Text>
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Leváte.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Levantai-vos!
-            </Text>
-          </Language>
-
-          <Text className="h3">Oração</Text>
-
-          <Language>
-            <Text className="latin">
-              Potéctor noster, áspice, Deus: ut, qui malórum nostrórum póndere
-              prémimur, percépta misericórdia, líbera tibi mente famulémur. Per
-              Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, nosso protector, dignai-Vos olhar propício para nós, que
-              estamos oprimidos com o peso dos nossos males, a fim de que, por
-              efeito da vossa misericórdia, Vos sirvamos com o espírito livre.
-              Por nosso Senhor...
-            </Text>
-          </Language>
-
-          <Text className="h3">2.ª Lição</Text>
-
-          <Text className="em">Dt. 11, 22-25</Text>
-
-          <Language>
-            <Text className="latin">Léctio libri Deuteronómii.</Text>
-            <Text className="vernacular">Lição do Livro do Deuteronómio.</Text>
-            <Text className="latin">
-              In diébus illis: Dixit Móyses fíliis Israël: Si custodiéritis
-              mandáta, quæ ego præcípio vobis, et fecéritis ea, ut diligátis
-              Dóminum, Deum vestrum, et ambulétis in ómnibus viis ejus,
-              adhærén-tes ei, dispérdet Dóminus omnes gentes istas ante fáciem
-              vestram, et possidébitis eas, quæ majóres et fortióres vobis sunt.
-              Omnis locus quem calcáverit pes vester, vester erit. A desérto et
-              a Líbano, a flúmine magno Euphráte usque ad mare Occidentále,
-              erunt términi vestri. Nullus stabit contra vos: terrórem vestrum
-              et formídinem dabit Dóminus, Deus vester, super omnem terram, quam
-              calcatúri estis, sicut locútus est vobis Dóminus, Deus vester.
-            </Text>
-            <Text className="vernacular">
-              Naqueles dias, Moisés disse aos filhos de Israel: «Se guardardes
-              os Mandamentos, que vos entrego, amando o Senhor, vosso Deus,
-              seguindo os seus caminhos e unindo-vos a Ele, o Senhor afastará de
-              vós todas as outras nações e vos tornareis senhores de povos que
-              são maiores e mais fortes do qu e vós. Todos os lugares que vossos
-              pés pisarem serão vossos. Vossa fronteira estender-se-á desde o
-              deserto do Líbano e do grande rio Eufrates até ao mar Ocidental.
-              Ninguém poderá subsistir diante de vós, O Senhor, vosso Deus, como
-              Ele disse, espalhará o pânico do vosso nome em todos os povos por
-              onde passardes.
-            </Text>
-          </Language>
-
-          <Text className="h3">Gradual</Text>
-
-          <Text className="em">Sl. 83, 10 & 9</Text>
-
-          <Language>
-            <Text className="latin">
-              Protéctor noster, áspice, Deus, et réspice super servos tuos.
-              <Text className="versicle"> ℣. </Text>
-              Dómine, Deus virtútum, exáudi preces servórum tuórum.
-            </Text>
-            <Text className="vernacular">
-              Olhai para nós, ó Deus, que sois o nosso protector; lançai os
-              olhos para os vossos servos.<Text className="versicle"> ℣. </Text>
-              Senhor, Deus dos exércitos, ouvi as súplicas dos vossos servos.
-            </Text>
-          </Language>
-
-          <Language>
-            <Text className="latin">
-              <Text className="latin">Orémus. Flectámus génua.</Text>
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Oremos. Ajoelhemos!</Text>
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Leváte.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Levantai-vos!
-            </Text>
-          </Language>
-
-          <Text className="h3">Oração</Text>
-
-          <Language>
-            <Text className="latin">
-              Adésto, quǽsumus, Dómine, supplicatiónibus nostris: ut esse, te
-              largiénte, mereámur et inter próspera húmiles, et inter advérsa
-              secúri. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Senhor, Vos pedimos, dignai-Vos atender às nossas súplicas, para
-              que, por efeito da vossa graça, possamos ser humildes nas
-              prosperidades e confiantes nas contrariedades. Por nosso Senhor...
-            </Text>
-          </Language>
-
-          <Text className="h3">3.ª Lição</Text>
-
-          <Text className="em">2 Mac. l, 23-26 et 27</Text>
-
-          <Language>
-            <Text className="latin">Léctio libri Machabæórum.</Text>
-            <Text className="vernacular">Lição do Livro dos Macabeus.</Text>
-            <Text className="latin">
-              In diébus illis: Oratiónem faciebant omnes sacerdotes, dum
-              consummarétur sacrifícium, Jónatha inchoánte, céteris autem
-              respondéntibus. Et Nehemíæ erat orátio hunc habens modum: Dómine
-              Deus, ómnium Creátor, terríbilis et fortis, justus et miséricors,
-              qui solus es bonus rex, solus præstans, solus justus et omnípotens
-              et ætérnus, qui líberas Israël de omni malo, qui fecísti patres
-              electos et sanctificásti eos: accipe sacrifícium pro univérso
-              pópulo tuo Israël, et custódi partem tuam et sanctífica: ut sciant
-              gentes, quia tu es Deus noster.
-            </Text>
-            <Text className="vernacular">
-              Naqueles dias, enquanto se consumia o sacrifício das vítimas,
-              todos os sacerdotes oravam, principiando Jónatas e respondendo os
-              outros. E a oração de Nehemias era assim: «Senhor Deus, criador de
-              todas as coisas, temível e forte, justo e misericordioso: só Vós
-              sois rei suave; rei excelente; rei justo, omnipotente e eterno!
-              Vós, que livrastes Israel de todo o mal; Vós, que escolhestes
-              entre os outros homens os nossos pais e os santificastes, aceitai
-              este sacrifício em nome do vosso povo de Israel e conservai e
-              santificai a vossa herança, para que todos os povos conheçam que
-              sois nosso Deus».
-            </Text>
-          </Language>
-
-          <Text className="h3">Gradual</Text>
-
-          <Text className="em">Sl. 89, 13 & 1</Text>
-
-          <Language>
-            <Text className="latin">
-              Convértere, Dómine, aliquántulum, et deprecáre super servos tuos.
-              <Text className="versicle"> ℣. </Text>Dómine, refúgium factus es
-              nobis, a generatióne et progénie.
-            </Text>
-            <Text className="vernacular">
-              Vinde a nós quanto antes, Senhor, e deixai-Vos aplacar com as
-              preces dos vossos servos.<Text className="versicle"> ℣. </Text>
-              Senhor, tendes sido o nosso refúgio de geração em geração.
-            </Text>
-          </Language>
-
-          <Language>
-            <Text className="latin">
-              <Text className="latin">Orémus. Flectámus génua.</Text>
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Oremos. Ajoelhemos!</Text>
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Leváte.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Levantai-vos!
-            </Text>
-          </Language>
-
-          <Text className="h3">Oração</Text>
-
-          <Language>
-            <Text className="latin">
-              Preces pópuli tui, quǽsumus, Dómine, cleménter exáudi: ut, qui
-              juste pro peccátis nostris afflígimur, pro tui nóminis glória
-              misericórditer liberémur. Per Dóminum nostrum...
-            </Text>
-            <Text className="vernacular">
-              Ouvi benigno, Senhor, Vos suplicamos, as preces do vosso povo, a
-              fim de que nós, que fomos justamente castigados por causa dos
-              nossos pecados, sejamos misericordiosamente livres pela glória do
-              vosso nome. Por nosso Senhor...
-            </Text>
-          </Language>
-
-          <Text className="h3">4.ª Lição</Text>
-
-          <Text className="em">Ecl. 36, 1-10</Text>
-
-          <Language>
-            <Text className="latin">Léctio libri Sapientiae.</Text>
-            <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-            <Text className="latin">
-              Miserére nostri, Deus ómnium, et réspice nos, et osténde nobis
-              lucem miseratiónum tuárum: et immítte timórem tuum super gentes,
-              quæ non exquisiérunt te, ut cognóscant, quia non est Deus nisi tu,
-              et enárrent magnália tua. Alleva manum tuam super gentes aliénas,
-              ut vídeant poténtiam tuam. Sicut enim in conspéctu eórum
-              sanctificátus es in nobis, sic in conspéctu nostro magnificáberis
-              in eis, ut cognóscant te, sicut et nos cognóvimus, quóniam non est
-              Deus præter te, Dómine. Innova signa et immúta mirabília.
-              Glorífica manum et bráchium dextrum. Excita furórem et effúnde
-              iram. Tolle adversárium et afflíge inimícum. Festína tempus et
-              meménto finis, ut enárrent mirabília tua, Dómine, Deus noster.
-            </Text>
-            <Text className="vernacular">
-              Tende piedade de nós, ó Deus de todos os viventes, lançai benigno
-              os vossos olhares sobre nós e fazei resplandecer a nossos olhos a
-              luz das vossas misericórdias! Espalhai o vosso temor nos povos que
-              se não aproximam de Vós, para que conheçam que não existe senão um
-              só Deus, que sois Vós, e publiquem as vossas grandezas. Erguei a
-              vossa mão contra os povos estrangeiros, para que conheçam o vosso
-              poder; porquanto, assim como lhes mostrastes a vossa santidade,
-              castigando-nos pelas nossas faltas, assim também nos mostreis a
-              vossa grandeza, punindo-os, a fim de que conheçam, como nós, que
-              não há outro Deus senão Vós, Senhor. Repeti os milagres; renovai
-              as maravilhas; glorificai a vossa mão e o vosso braço direito.
-              Excitai a vossa indignação; manifestai a vossa ira; destruí o
-              adversário; importunai o inimigo. Apressai o tempo, para que
-              chegue depressa o fim e se publiquem as vossas maravilhas, ó
-              Senhor, nosso Deus.
-            </Text>
-          </Language>
-
-          <Text className="h3">Gradual</Text>
-
-          <Text className="em">Sl. 140, 2</Text>
-
-          <Language>
-            <Text className="latin">
-              Dirigátur orátio mea sicut incénsum in conspéctu tuo, Dómine.
-              <Text className="versicle"> ℣. </Text>
-              Elevátio mánuum meárum sacrifícium vespertínum.
-            </Text>
-            <Text className="vernacular">
-              Que a minha oração suba até à vossa presença, como incenso,
-              Senhor!<Text className="versicle"> ℣. </Text>E que o erguer das
-              minhas mãos Vos seja agradável, como o sacrifício da tarde.
-            </Text>
-          </Language>
-
-          <Language>
-            <Text className="latin">
-              <Text className="latin">Orémus. Flectámus génua.</Text>
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Oremos. Ajoelhemos!</Text>
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Leváte.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Levantai-vos!
-            </Text>
-          </Language>
-
-          <Text className="h3">Oração</Text>
-
-          <Language>
-            <Text className="latin">
-              Actiónes nostras, quǽsumus, Dómine, aspirándo prǽveni, et
-              adjuvándo proséquere: ut cuncta nostra orátio et operátio a te
-              semper incípiat, et per te cœpta finiátur. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Dignai-Vos, Senhor, insuflar as nossas acções com vosso espírito e
-              acompanhá-las com vossa graça, a fim de que as nossas orações e
-              obras, tendo princípio em Deus, tenham também n’Ele sua
-              finalidade. Por nosso Senhor...
-            </Text>
-          </Language>
-
-          <Text className="h3">5.ª Lição</Text>
-
-          <Text className="em">Dn. 3, 47-51</Text>
-
-          <Language>
-            <Text className="latin">Léctio Daniélis Prophétæ.</Text>
-            <Text className="vernacular">Lição do Profeta Daniel.</Text>
-            <Text className="latin">
-              In diébus illis: Angelus Dómini descéndit cum Azaría et sóciis
-              ejus in fornácem: et excússit flammam ignis de fornáce, et fecit
-              médium fornácis quasi ventum roris flantem. Flamma autem
-              effundebátur super fornácem cúbitis quadragínta novem: et erúpit,
-              et incéndit, quos répperit juxta fornácem de Chaldǽis, minístros
-              regis, qui eam incendébant. Et non tétigit eos omníno ignis, neque
-              contristavit, nec quidquam moléstiæ íntulit. Tunc hi tres quasi ex
-              uno ore lau-dábant, et glorificábant, et benedicébant Deum in
-              fornáce, dicéntes:
-            </Text>
-            <Text className="vernacular">
-              Naqueles dias, o Anjo do Senhor desceu à fornalha com Azarias e os
-              seus companheiros e afastou da fornalha as chamas do fogo,
-              soprando no meio delas como que um vento de orvalho. As chamas do
-              fogo, porém, cresciam acima da fornalha quarenta e nove côvados;
-              e, irrompendo fora dela, queimaram os Caldeus, ministros do rei,
-              que estavam perto da fornalha e atiçavam o fogo; e não queimaram
-              nenhum dos três jovens hebreus, nem os feriram, nem lhes causaram
-              qualquer incómodo! Então, estes três jovens louvavam, glorificavam
-              e bendiziam Deus na fornalha, em voz uníssona, dizendo:
-            </Text>
-          </Language>
-
-          <Text className="h3">Hino Benedictus Es</Text>
-
-          <LinkCard
-            href="/missal/advento/adv03-6#hino-benedictus-es"
-            title="Sábado das Têmporas do Inverno - Estação em São Pedro"
-          />
-
-          <Text className="h3">Oração</Text>
-
-          <Language>
-            <Text className="latin">
-              Deus, qui tribus púeris mitigásti flammas ígnium: concéde
-              propítius; ut nos fámulos tuos non exúrat flamma vitiórum. Per
-              Dóminum nostrum...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, que mitigastes as chamas do fogo aos três jovens,
-              concedei, misericordiosamente, a nós, que somos vossos servos, que
-              não sejamos queimados pelas chamas dos vícios. Por nosso Senhor...
+              Sede propício ao vosso povo, Senhor; e, visto que lhe concedestes
+              a graça da devoção para convosco, auxiliai-o agora benignamente
+              com vossa misericórdia. Por nosso Senhor...
             </Text>
           </Language>
 
           <Text className="h3">Epístola</Text>
 
-          <Text className="em">1 Ts. 5, 14-23</Text>
+          <Text className="em">Ez. 18, 20-28</Text>
+
+          <Language>
+            <Text className="latin">Léctio Ezechiélis Prophétæ.</Text>
+            <Text className="vernacular">Lição do Profeta Ezequiel.</Text>
+            <Text className="latin">
+              Hæc dicit Dóminus Deus: Anima, quae peccáverit, ipsa moriétur:
+              fílius non portábit iniquitátem patris, et pater non portábit
+              iniquitátem fílii: justítia justi super eum erit, et impíetas
+              ímpii erit super eum. Si autem ímpius égerit pæniténtiam ab
+              ómnibus peccátis suis, quæ operátus est, et custodíerit ómnia
+              præcépta mea, et fécerit judícium et justítiam: vita vivet, et non
+              moriétur. Omnium iniquitátum ejus, quas operátus est, non
+              recordábor: in justítia sua, quam operátus est, vivet. Numquid
+              voluntátis meæ est mors ímpii, dicit Dóminus Deus, et non ut
+              convertátur a viis suis, et vivat? Si autem avértent se justus a
+              justítia sua, et fécerit iniquitátem secúndum omnes abominatiónes,
+              quas operári solet ímpius, numquid vivet? omnes justítiæ ejus,
+              quas fécerat, non recordabúntur: in prævaricatióne, qua
+              prævaricátus est, et in peccáto suo, quod peccávit, in ipsis
+              moriétur. Et dixístis: Non est æqua via Dómini. Audíte ergo, domus
+              Israël: Numquid via mea non est æqua, et non magis viæ vestræ
+              pravæ sunt? Cum enim avértent se justus a justítia sua, et fecerit
+              iniquitátem, moriétur in eis: in injustítia, quam operátus est,
+              moriétur. Et cum avértent se ímpius ab impietáte sua, quam
+              operátus est, et fécerit judícium et justítiam: ipse ánimam suam
+              vivificábit. Consíderans enim, et avértens se ab ómnibus
+              iniquitátibus suis, quas operátus est, vita vivet, et non
+              moriétur, ait Dóminus omnípotens.
+            </Text>
+            <Text className="vernacular">
+              Isto diz o Senhor Deus: «A alma que pecar morrerá. O filho não
+              levará consigo a maldade do pai, e o pai não ficará com a maldade
+              do filho. A justiça do justo irá com ele, e a impiedade do iníquo
+              recairá sobre si. Mas, se o iníquo fizer penitência de todos os
+              pecados que tiver cometido; se observar os meus preceitos; se
+              proceder segundo o direito e a justiça: permanecerá na vida e não
+              morrerá. Não me recordarei mais das suas iniquidades; e, por causa
+              da justiça, que praticou, viverá. Porventura quero a morte do
+              iníquo? Diz o Senhor Deus. Porventura não quero antes que ele se
+              afaste dos maus caminhos, e viva? Se o justo se afasta da justiça
+              e comete as iniquidades e as abominações que o ímpio costuma
+              praticar, porventura viverá? Todas as boas obras de justiça que
+              praticara não serão recordadas, e, por causa da prevaricação em
+              que caiu e do pecado, que praticou, morrerá. Entretanto, vós
+              dizeis: «O caminho do Senhor não é direito». Ouvi, pois, ó casa de
+              Israel: porventura não é direito o meu caminho e não são antes
+              perversos os vossos caminhos? Porquanto, logo que o justo se
+              afasta da justiça, cometa iniquidades e morra neste estado, será
+              por ter praticado estas iniquidades que morrerá. Mas, logo que o
+              ímpio se afasta da iniquidade, que praticava, e proceda segundo o
+              direito e a justiça, ele próprio proporcionará a vida à sua alma.
+              Se ele, pois, medita no seu estado e se afasta de todas as
+              iniquidades que tinha cometido, certamente viverá na vida eterna e
+              não morrerá: diz o Senhor omnipotente».
+            </Text>
+          </Language>
+
+          <Text className="h3">Gradual</Text>
+
+          <Text className="em">Sl. 85, 2 & 6</Text>
 
           <Language>
             <Text className="latin">
-              Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.
+              Salvum fac servum tuum. Deus meus, sperántem in te.
+              <Text className="versicle"> ℣. </Text>Auribus pércipe, Dómine,
+              oratiónem meam.
             </Text>
             <Text className="vernacular">
-              Lição da Ep.ª do B. Ap.º Paulo aos Tessalonicenses.
-            </Text>
-            <Text className="latin">
-              Fratres: Rogámus vos, corrípite inquiétos, consolámini
-              pusillánimes, suscípite infirmos, patiéntes estóte ad omnes.
-              Vidéte, ne quis malum pro malo alicui reddat: sed semper quod
-              bonum est sectámini in ínvicem, et in omnes. Semper gaudéte. Sine
-              intermissióne oráte. In ómnibus grátias ágite: hæc est enim
-              volúntas Dei in Christo Jesu in ómnibus vobis. Spíritum nolíte
-              exstínguere. Prophetías nolíte spérnere. Omnia autem probáte: quod
-              bonum est tenéte. Ab omni spécie mala abstinéte vos. Ipse autem
-              Deus pacis sanctíficet vos per ómnia: ut ínteger spíritus vester,
-              et ánima, et corpus sine queréla, in advéntu Dómini nostri Jesu
-              Christi servétur.
-            </Text>
-            <Text className="vernacular">
-              Meus rmãos, vos pedimos, admoestai os que perturbam a ordem;
-              confortai os pusilânimes; amparai os fracos; sede pacientes para
-              com todos. Reparai que ninguém retribua com o mal o mal que recebe
-              de outrem; mas procurai sempre com ardor que os vossos irmãos
-              pratiquem o bem uns para com os outros e para com todos.
-              Regozijai-vos sempre. Orai sem cessar. Em todas as coisas dai
-              graças a Deus, pois esta é a vontade de Deus, em Jesus Cristo, a
-              vosso respeito. Não apagueis o Espírito, nem desprezeis as
-              Profecias. Examinai todas as coisas e conservai o que é bom.
-              Abstende-vos de toda a espécie do mal. Que o mesmo Deus de paz vos
-              santifique em todas as coisas, a fim de que o vosso espírito, alma
-              e corpo se conservem irrepreensíveis até à vinda de N. S. Jesus
-              Cristo.
+              Salvai, ó meu Deus, o vosso servo, pois em Vós pôs a sua
+              esperança. Escutai a minha oração, Senhor!
             </Text>
           </Language>
 
           <Text className="h3">Trato</Text>
 
-          <Text className="em">Sl. 116, 1-2</Text>
-
-          <Language>
-            <Text className="latin">
-              Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli.
-              <Text className="versicle"> ℣. </Text>
-              Quóniam confirmáta est super nos misericórdia ejus: et véritas
-              Dómini manet in ætérnum.
-            </Text>
-            <Text className="vernacular">
-              Que todas as nações louvem o Senhor; que todos os povos O
-              glorifiquem:<Text className="versicle"> ℣. </Text>Porque a sua
-              misericórdia é infinita para connosco e a verdade do Senhor
-              permanece eternamente.
-            </Text>
-          </Language>
+          <LinkCard
+            href="/missal/pre-quaresma/quadp3-3#trato"
+            title="Trato Quarta-feira de Cinzas"
+          />
 
           <Text className="h3">Evangelho</Text>
 
-          <LinkCard
-            href="/missal/quaresma/quad2-0#evangelho"
-            title="Segundo Domingo da Quaresma"
-          />
-
-          <Text className="h3">Ofertório</Text>
-
-          <Text className="em">Sl. 87, 2-3</Text>
+          <Text className="em">Jo. 5, 1-15</Text>
 
           <Language>
             <Text className="latin">
-              Dómine, Deus salútis meæ, in die clamávi et nocte coram te: intret
-              orátio mea in conspéctu tuo, Dómine.
+              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
+              secúndum Joánnem.
             </Text>
             <Text className="vernacular">
-              Senhor, meu Deus e meu Salvador, clamo dia e noite diante de Vós!
-              Que minha oração se eleve até à vossa presença.
+              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+              segundo S. João.
+            </Text>
+            <Text className="latin">
+              In illo témpore: Erat dies festus Judæórum, et ascéndit Jesus
+              Jerosólymam. Est autem Jerosólymis Probática piscína, quæ
+              cognominátur hebráice Bethsáida, quinque pórticus habens. In his
+              jacébat multitúdo magna languéntium, cæcórum, claudórum, aridórum
+              exspectántium aquæ motum. Angelus autem Dómini descendébat
+              secúndum tempus in piscínam, et movebátur aqua. Et, qui prior
+              descendísset in piscínam post motiónem aquæ, sanus fiébat, a
+              quacúmque detinebátur infirmitáte. Erat autem quidam homo ibi,
+              trigínta et octo annos habens in infirmitáte sua. Hunc cum
+              vidísset Jesus jacéntem, et cognovisset, quia jam multum tempus
+              habéret, dicit ei: Vis sanus fíeri? Respóndit ei lánguidus:
+              Dómine, hóminem non hábeo, ut, cum turbáta fúerit aqua, mittat me
+              in piscínam: dum vénio enim ego, álius ante me descéndit. Dicit ei
+              Jesus: Surge, tolle grabátum tuum, et ámbula. Et statim sanus
+              factus est homo ille: et sústulit grabátum suum, et ambulábat.
+              Erat autem sábbatum in die illo. Dicébant ergo Judǽi illi, qui
+              sanátus fúerat: Sábbatum est, non licet tibi tóllere grabátum
+              tuum. Respóndit eis: Qui me sanum fecit, ille mihi dixit: Tolle
+              grabátum tuum, et ámbula. Interrogavérunt ergo eum: Quis est ille
+              homo, qui dixit tibi: Tolle grabátum tuum et ámbula? Is autem, qui
+              sanus fúerat efféctus, nesciébat, quis esset. Jesus enim
+              declinávit a turba constitúta in loco. Póstea invénit eum Jesus in
+              templo, et dixit illi: Ecce, sanus factus es: jam noli peccáre, ne
+              detérius tibi áliquid contíngat. Abiit ille homo, et nuntiávit
+              Judǽis, quia Jesus esset, qui fecit eum sanum.
+            </Text>
+            <Text className="vernacular">
+              Naquele tempo, sendo o dia da festa dos judeus, Jesus subiu até
+              Jerusalém. Ora há perto de Jerusalém uma piscina que se chama em
+              hebreu Betsaida e tem cinco alpendres, debaixo dos quais costumava
+              estar deitada grande multidão de enfermos: cegos, coxos e
+              paralíticos, à espera de que a água se movesse; pois um Anjo do
+              Senhor descia de tempos a tempos à piscina, revolvia a água e o
+              primeiro que descia à piscina, depois do movimento da água, ficava
+              curado de qualquer enfermidade que tivesse. Havia um certo homem
+              doente que estava ali havia trinta e oito anos. Vendo-o Jesus
+              deitado e sabendo que estava doente havia tanto tempo, disse-lhe:
+              «Queres ser curado?». Respondeu-lhe o doente: «Senhor, não tenho
+              ninguém que me meta na piscina, quando a água é movida; pois,
+              enquanto vou, um outro chega primeiro». Jesus disse-lhe:
+              «Levanta-te, toma tua cama e anda». E naquele instante o homem
+              ficou curado; e, tomando a cama, andava. Era, porém, sábado aquele
+              dia. Disseram, pois, os judeus ao que tinha sido curado: «É
+              sábado, não te é lícito levar a cama». Ele respondeu-lhes: «Aquele
+              que me curou disse-me: «Toma a tua cama e anda». Perguntaram-lhe,
+              pois: «Quem é esse homem que te disse toma a tua cama e anda?».
+              Mas o que tinha sido curado não sabia quem era, pois Jesus
+              retirara-se da multidão que estava ali. Mais tarde Jesus
+              encontrou-o no templo e disse-lhe: «Agora, que já estás são, não
+              tornes a pecar, para que te não suceda coisa pior». Partiu este
+              homem e foi anunciar aos judeus que tinha sido Jesus quem o
+              curara.
+            </Text>
+          </Language>
+
+          <Text className="h3">Ofertório</Text>
+
+          <Text className="em">Sl. 102, 2 & 5</Text>
+
+          <Language>
+            <Text className="latin">
+              Bénedic, anima mea, Dómino, et noli oblivísci omnes retributiónes
+              ejus: et renovábitur, sicut áquilæ, juvéntus tua.
+            </Text>
+            <Text className="vernacular">
+              Bendizei o Senhor, ó minha alma, e não esqueçais nunca os seus
+              benefícios; e a vossa juventude se renovará, como a da águia.
             </Text>
           </Language>
 
@@ -546,29 +220,28 @@ export default function PageQuad15() {
 
           <Language>
             <Text className="latin">
-              Præséntibus sacrifíciis, quǽsumus, Dómine, jejúnia nostra
-              sanctífica: ut, quod observántia nostra profitétur extrínsecus,
-              intérius operétur. Per Dóminum...
+              Súscipe, quǽsumus, Dómine, múnera nostris obláta servítiis: et tua
+              propítius dona sanctífica. Per Dóminum...
             </Text>
             <Text className="vernacular">
-              Santificai, Senhor, Vos suplicamos, os nossos jejuns pelo presente
-              sacrifício, a fim de que esta observância exterior produza efeitos
-              espirituais interiores. Por nosso Senhor...
+              Aceitai, Senhor, Vos suplicamos, as oblatas que a nossa escravidão
+              Vos apresenta, e, propício, dignai-Vos santificar estes dons que
+              de Vós recebemos. Por nosso Senhor...
             </Text>
           </Language>
 
           <Text className="h3">Comúnio</Text>
 
-          <Text className="em">Sl. 7, 2</Text>
+          <Text className="em">Sl. 6, 11</Text>
 
           <Language>
             <Text className="latin">
-              Dómine, Deus meus, in te sperávi: líbera me ab ómnibus
-              persequéntibus me, et éripe me.
+              Erubéscant et conturbéntur omnes inimíci mei: avertántur
+              retrórsum, et erubéscant valde velóciter.
             </Text>
             <Text className="vernacular">
-              Senhor, meu Deus, em Vós esperei; salvai-me e livrai-me de todos
-              meus perseguidores.
+              Envergonhem-se e perturbem-se todos meus inimigos; apressem-se em
+              fugir, cheios de vergonha.
             </Text>
           </Language>
 
@@ -576,39 +249,30 @@ export default function PageQuad15() {
 
           <Language>
             <Text className="latin">
-              Sanctificatiónibus tuis, omnípotens Deus, et vítia nostra
-              curéntur, et remédia nobis ætérna provéniant. Per Dóminum...
+              Per hujus, Dómine, operatiónem mystérii, et vítia nostra
+              purgéntur, et justa desidéria compleántur. Per Dóminum nostrum...
             </Text>
             <Text className="vernacular">
-              Ó omnipotente Deus, permiti que os nossos vícios sejam curados
-              pela virtude deste vosso sacrifício e concedei-nos o remédio que
-              produz a salvação eterna. Por nosso Senhor...
+              Que por efeito deste mystério, Senhor, os nossos vícios
+              desapareçam e sejam realizados os nossos justos desejos. Por nosso
+              Senhor...
             </Text>
           </Language>
 
           <Text className="h3">Oração sobre o povo</Text>
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Orémus.</Text>
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Oremos.</Text>
-            </Text>
             <Text className="latin">Humiliáte cápita vestra Deo.</Text>
             <Text className="vernacular">
               Inclinai as vossas cabeças diante de Deus.
             </Text>
             <Text className="latin">
-              Fidéles tuos, Deus, benedíctio desideráta confírmet: quæ eos et a
-              tua voluntáte numquam fáciat discrepáre, et tuis semper indúlgeat
-              benefíciis gratulári. Per Dóminum...
+              Exáudi nos, miséricors Deus: et méntibus nostris grátiæ tuæ lumen
+              osténde. Per Dóminum...
             </Text>
             <Text className="vernacular">
-              Ó Deus, fortificai os fiéis com vossa bênção, que eles imploram; e
-              que, por efeito dela, nunca se afastem da vossa vontade e lhes
-              alcance a graça de se alegrarem sempre com vossos benefícios. Por
-              nosso Senhor...
+              Ó Deus de misericórdia, ouvi-nos; e mostrai às nossas almas a luz
+              da vossa graça. Por nosso Senhor...
             </Text>
           </Language>
         </View>
