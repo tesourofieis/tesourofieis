@@ -65,16 +65,15 @@ export default function PageEspiritosanto() {
             </Text>
             <Text className="latin">
               Allelúja, allelúja.{" "}
-              <Text className="latin">hic genuflectitur</Text>
+              <Text className="em">(hic genuflectitur)</Text>
               <Text className="versicle"> ℣. </Text>
               Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris
               in eis ignem accénde. Allelúja.
             </Text>
             <Text className="vernacular">
-              Aleluia, aleluia.{" "}
-              <Text className="vernacular">Genuflecte-se</Text> Vinde, Espírito
-              Santo, enchei os corações dos vossos fiéis e acendei neles o fogo
-              do vosso amor. Aleluia.
+              Aleluia, aleluia. <Text className="em">(Genuflecte-se)</Text>{" "}
+              Vinde, Espírito Santo, enchei os corações dos vossos fiéis e
+              acendei neles o fogo do vosso amor. Aleluia.
             </Text>
           </Language>
 
@@ -92,7 +91,7 @@ export default function PageEspiritosanto() {
               Emítte Spíritum tuum, et creabúntur: et renovábis fáciem terræ.
               <Text className="versicle"> ℣. </Text>O quam bonus et suávis est,
               Dómine, Spíritus tuus in nobis!{" "}
-              <Text className="latin">hic genuflectitur</Text>
+              <Text className="em">(hic genuflectitur)</Text>
               <Text className="versicle"> ℣. </Text>
               Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris
               in eis ignem accénde.
@@ -101,7 +100,7 @@ export default function PageEspiritosanto() {
               Enviai o vosso Espírito e eles serão criados: e renovarão a face
               da terra.<Text className="versicle"> ℣. </Text>Ó Senhor, como é
               bom e suave o vosso Espírito dentro de nós!{" "}
-              <Text className="vernacular">Genuflecte-se</Text>
+              <Text className="em">(Genuflecte-se)</Text>
               <Text className="versicle"> ℣. </Text>
               Vinde, Espírito Santo, enchei os corações dos vossos fiéis e
               acendei neles o fogo do vosso amor.
@@ -117,7 +116,7 @@ export default function PageEspiritosanto() {
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 103, 30</Text> Emítte Spíritum tuum,
               et creabúntur: et renovábis fáciem terræ. Allelúja.{" "}
-              <Text className="em">hic genuflectitur</Text>
+              <Text className="em">(hic genuflectitur)</Text>
               <Text className="versicle"> ℣. </Text>Veni, Sancte Spíritus, reple
               tuórum corda fidélium: et tui amóris in eis ignem accénde.
               Allelúja.
@@ -126,7 +125,7 @@ export default function PageEspiritosanto() {
               Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
               <Text className="vernacular">Sl. 103, 30</Text> Enviai o vosso
               Espírito e eles serão criados: e renovarão a face da terra.
-              Aleluia. <Text className="em">Genuflecte-se</Text>
+              Aleluia. <Text className="em">(Genuflecte-se)</Text>
               <Text className="versicle"> ℣. </Text>Vinde, Espírito Santo,
               enchei os corações dos vossos fiéis e acendei neles o fogo do
               vosso amor. Aleluia.

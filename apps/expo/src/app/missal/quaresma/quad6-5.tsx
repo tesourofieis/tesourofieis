@@ -709,13 +709,13 @@ export default function PageQuad65() {
               cabeça, entregou o espírito!
             </Text>
             <Text className="latin">
-              <Text className="latin">
-                Hic genuflectitur, et pausatur aliquantulum
+              <Text className="em">
+                (Hic genuflectitur, et pausatur aliquantulum)
               </Text>
             </Text>
             <Text className="vernacular">
-              <Text className="vernacular">
-                Ajoelha-se durante algum tempo, meditando-se no que se leu.
+              <Text className="em">
+                (Ajoelha-se durante algum tempo, meditando-se no que se leu.)
               </Text>
             </Text>
             <Text className="latin">

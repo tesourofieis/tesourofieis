@@ -88,7 +88,7 @@ export default function PagePasc75() {
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Sap 12, 1</Text> O quam bonus et suávis
               est, Dómine, Spíritus tuus in nobis! Allelúja.{" "}
-              <Text className="em">hic genuflectitur</Text>
+              <Text className="em">(hic genuflectitur)</Text>
               <Text className="versicle"> ℣. </Text>Veni, Sancte Spíritus, reple
               tuórum corda fidélium: et tui amóris in eis ignem accénde.
             </Text>
@@ -96,7 +96,7 @@ export default function PagePasc75() {
               Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
               <Text className="vernacular">Sb. 12, 1</Text> Senhor, como é bom e
               suave o vosso Espírito! Aleluia{" "}
-              <Text className="em">Genuflecte-se</Text>
+              <Text className="em">(Genuflecte-se)</Text>
               <Text className="versicle"> ℣. </Text>Vinde ó Espírito Santo;
               enchei os corações dos vossos fiéis e acendei neles o fogo do
               vosso amor.

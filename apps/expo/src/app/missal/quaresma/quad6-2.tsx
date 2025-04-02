@@ -690,14 +690,14 @@ export default function PageQuad62() {
               dando um grande brado, expirou.
             </Text>
             <Text className="latin">
-              <Text className="latin">
-                Hic genuflectitur, et pausatur aliquantulum
+              <Text className="em">
+                (Hic genuflectitur, et pausatur aliquantulum)
               </Text>
             </Text>
             <Text className="vernacular">
-              <Text className="vernacular">
-                Aqui ajoelha-se durante alguns instantes, meditando-se no que se
-                leu.
+              <Text className="em">
+                (Aqui ajoelha-se durante alguns instantes, meditando-se no que
+                se leu.)
               </Text>
             </Text>
             <Text className="latin">

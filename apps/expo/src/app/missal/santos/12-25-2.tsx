@@ -166,7 +166,7 @@ export default function Page12252() {
               dedit eis potestátem fílios Dei fíeri, his, qui credunt in nómine
               ejus: qui non ex sanguínibus, neque ex voluntáte carnis, neque ex
               voluntáte viri, sed ex Deo nati sunt.{" "}
-              <Text className="latin">Hic genuflectitur</Text> Et Verbum caro
+              <Text className="em">(Hic genuflectitur)</Text> Et Verbum caro
               factum est, et habitávit in nobis: et vídimus glóriam ejus,
               glóriam quasi Unigéniti a Patre, plenum grátiæ et veritátis.
             </Text>
@@ -186,9 +186,9 @@ export default function Page12252() {
               receberam e aos que acreditaram no seu nome deu o poder de serem
               filhos de Deus, os quais não nasceram do sangue, nem do desejo da
               carne, mas somente da vontade de Deus. E o Verbo fez-se carne{" "}
-              <Text className="vernacular">genuflecte-se</Text> e habitou entre
-              nós; e contemplamos a sua glória, como era própria do Filho
-              Unigénito do Pai, cheio de graça e de verdade.
+              <Text className="em">(genuflecte-se)</Text> e habitou entre nós; e
+              contemplamos a sua glória, como era própria do Filho Unigénito do
+              Pai, cheio de graça e de verdade.
             </Text>
           </Language>
 
@@ -282,7 +282,7 @@ export default function Page12252() {
               in Oriénte, antecedébat eos, usque dum véniens staret supra, ubi
               erat Puer. Vidéntes autem stellam, gavísi sunt gáudio magno valde.
               Et intrántes domum, invenérunt Púerum cum María Matre ejus,{" "}
-              <Text className="latin">hic genuflectitur</Text> ei procidéntes
+              <Text className="em">(hic genuflectitur)</Text> ei procidéntes
               adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei múnera,
               aurum, thus et myrrham. Et responso accépto in somnis, ne redírent
               ad Heródem, per aliam viam revérsi sunt in regiónem suam.
@@ -308,10 +308,10 @@ export default function Page12252() {
               chegando ao lugar onde estava o Menino, parou. Quando os Magos
               viram a estrela, alegraram-se muito. Entrando, então, na casa,
               encontraram o Menino com Maria, sua mãe; e, de joelhos, O
-              adoraram. <Text className="vernacular">Todos devem ajoelhar</Text>{" "}
-              E, tendo aberto os seus tesouros, ofereceram-Lhe presentes de
-              ouro, incenso e mirra. Depois, havendo tido aviso em sonhos de que
-              não deveriam voltar a encontrar Herodes, retiraram-se por outro
+              adoraram. <Text className="em">(Todos devem ajoelhar)</Text> E,
+              tendo aberto os seus tesouros, ofereceram-Lhe presentes de ouro,
+              incenso e mirra. Depois, havendo tido aviso em sonhos de que não
+              deveriam voltar a encontrar Herodes, retiraram-se por outro
               caminho para o seu país.
             </Text>
           </Language>

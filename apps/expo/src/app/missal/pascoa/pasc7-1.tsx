@@ -92,7 +92,7 @@ export default function PagePasc71() {
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Act. 2, 4</Text> Loquebántur váriis
               linguis Apóstoli magnália Dei. Allelúja.{" "}
-              <Text className="em">hic genuflectitur</Text>
+              <Text className="em">(hic genuflectitur)</Text>
               <Text className="versicle"> ℣. </Text>Veni, Sancte Spiritus, reple
               tuorum corda fidélium: et tui amóris in eis ignem accénde.
             </Text>
@@ -100,9 +100,9 @@ export default function PagePasc71() {
               Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
               <Text className="vernacular">Act. 2, 4</Text> Os Apóstolos
               publicavam em diversas línguas as maravilhas de Deus. Aleluia.{" "}
-              <Text className="em">Genuflecte-se</Text> Vinde, ó Espírito Santo;
-              enchei os corações dos vossos fiéis e acendei neles o fogo do
-              vosso amor.
+              <Text className="em">(Genuflecte-se)</Text> Vinde, ó Espírito
+              Santo; enchei os corações dos vossos fiéis e acendei neles o fogo
+              do vosso amor.
             </Text>
           </Language>
 

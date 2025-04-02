@@ -155,13 +155,13 @@ export default function PagePasc73() {
           <Language>
             <Text className="latin">
               Allelúja, allelúja.{" "}
-              <Text className="latin">hic genuflectitur</Text>
+              <Text className="em">(hic genuflectitur)</Text>
               <Text className="versicle"> ℣. </Text>
               Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris
               in eis ignem accénde.
             </Text>
             <Text className="vernacular">
-              Aleluia, aleluia <Text className="vernacular">Genuflecte-se</Text>
+              Aleluia, aleluia <Text className="em">(Genuflecte-se)</Text>
               <Text className="versicle"> ℣. </Text>
               Vinde, ó Espírito Santo; enchei os corações dos vossos fiéis e
               acendei neles o fogo do vosso amor.

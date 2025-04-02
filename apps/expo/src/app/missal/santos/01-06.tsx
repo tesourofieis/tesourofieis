@@ -144,7 +144,7 @@ export default function Page0106() {
               in Oriénte, antecedébat eos, usque dum véniens staret supra, ubi
               erat Puer. Vidéntes autem stellam, gavísi sunt gáudio magno valde.
               Et intrántes domum, invenérunt Púerum cum María Matre ejus,{" "}
-              <Text className="latin">hic genuflectitur</Text> ei procidéntes
+              <Text className="em">(hic genuflectitur)</Text> ei procidéntes
               adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei múnera,
               aurum, thus et myrrham. Et responso accépto in somnis, ne redírent
               ad Heródem, per aliam viam revérsi sunt in regiónem suam.
@@ -170,10 +170,10 @@ export default function Page0106() {
               chegando ao lugar onde estava o Menino, parou. Quando os Magos
               viram a estrela, alegraram-se muito. Entrando, então, na casa,
               encontraram o Menino com Maria, sua mãe; e, de joelhos, O
-              adoraram. <Text className="vernacular">Todos devem ajoelhar</Text>{" "}
-              E, tendo aberto os seus tesouros, ofereceram-Lhe presentes de
-              ouro, incenso e mirra. Depois, havendo tido em sonhos aviso de que
-              não deveriam voltar a encontrar Herodes, retiraram-se por outro
+              adoraram. <Text className="em">(Todos devem ajoelhar)</Text> E,
+              tendo aberto os seus tesouros, ofereceram-Lhe presentes de ouro,
+              incenso e mirra. Depois, havendo tido em sonhos aviso de que não
+              deveriam voltar a encontrar Herodes, retiraram-se por outro
               caminho para o seu país.
             </Text>
           </Language>

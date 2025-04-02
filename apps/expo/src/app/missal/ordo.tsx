@@ -742,7 +742,7 @@ export default function PageOrdo() {
               sǽcula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero.
               Génitum, non factum, consubstantiálem Patri: per quem ómnia facta
               sunt. Qui propter nos hómines et propter nostram salútem descéndit
-              de cœlis. <Text className="latin">(Hic genuflectitur).</Text>
+              de cœlis. <Text className="em">(Hic genuflectitur).</Text>
             </Text>
             <Text className="vernacular">
               Creio em um só Deus. Pai, todo poderoso, criador do Céu e da
@@ -752,7 +752,7 @@ export default function PageOrdo() {
               verdadeiro de Deus verdadeiro. Gerado, não criado, consubstancial
               ao Pai: por Ele todas as coisas foram feitas. E por nós, homens, e
               para nossa salvação desceu dos céus.{" "}
-              <Text className="vernacular">(todos se ajoelham).</Text>
+              <Text className="em">(todos se ajoelham).</Text>
             </Text>
             <Text className="latin">
               Et incarnátus est de Spíritu Sancto ex María Vírgine:{" "}
@@ -2368,7 +2368,7 @@ export default function PageOrdo() {
               dedit eis potestátem fílios Dei fíeri, his, qui credunt in nómine
               ejus: qui non ex sanguínibus, neque ex voluntáte carnis, neque ex
               voluntáte viri, sed ex Deo nati sunt.{" "}
-              <Text className="latin">Hic genuflectitur</Text> Et Verbum caro
+              <Text className="em">(Hic genuflectitur)</Text> Et Verbum caro
               factum est, et habitávit in nobis: et vídimus glóriam ejus,
               glóriam quasi Unigéniti a Patre, plenum grátiæ et veritátis.
             </Text>
@@ -2388,9 +2388,9 @@ export default function PageOrdo() {
               receberam e aos que acreditaram no seu nome deu o poder de serem
               filhos de Deus, os quais não nasceram do sangue, nem do desejo da
               carne, mas somente da vontade de Deus. E o Verbo fez-se carne{" "}
-              <Text className="vernacular">genuflecte-se</Text> e habitou entre
-              nós; e contemplamos a sua glória, como era própria do Filho
-              Unigénito do Pai, cheio de graça e de verdade.
+              <Text className="em">(genuflecte-se)</Text> e habitou entre nós; e
+              contemplamos a sua glória, como era própria do Filho Unigénito do
+              Pai, cheio de graça e de verdade.
             </Text>
             <Text className="latin">
               <Text className="response"> ℟. </Text> Deo grátias.

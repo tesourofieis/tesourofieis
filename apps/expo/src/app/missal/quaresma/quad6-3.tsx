@@ -273,7 +273,7 @@ export default function PageQuad63() {
               <Text className="latin">Ps. 78, 8-9</Text> Dómine, ne memíneris
               iniquitátum nostrarum antiquarum: cito antícipent nos misericórdiæ
               tuæ, quia páuperes facti sumus nimis.{" "}
-              <Text className="em">hic genuflectitur</Text>
+              <Text className="em">(hic genuflectitur)</Text>
               <Text className="versicle"> ℣. </Text>Adjuva nos, Deus, salutáris
               noster: et propter glóriam nóminis tui, Dómine, libera nos: et
               propítius esto peccátis nostris, propter nomen tuum.
@@ -898,12 +898,12 @@ export default function PageQuad63() {
               Proferidas estas palavras, Jesus expirou!
             </Text>
             <Text className="vernacular">
-              <Text className="vernacular">
+              <Text className="em">
                 (Hic genuflectitur, et pausatur aliquántulum)
               </Text>
             </Text>
             <Text className="latin">
-              <Text className="latin">
+              <Text className="em">
                 (Aqui a ajoelha-se durante alguns instantes, meditando-se no que
                 se leu.)
               </Text>

@@ -759,7 +759,7 @@ export default function PageQuad60() {
               Humiliávit semetípsum, factus obœdiens usque ad mortem, mortem
               autem crucis. Propter quod et Deus exaltávit illum: ei donávit
               illi nomen, quod est super omne nomen:{" "}
-              <Text className="latin">hic genuflectitur</Text> ut in nómine Jesu
+              <Text className="em">(hic genuflectitur)</Text> ut in nómine Jesu
               omne genu flectátur cœléstium, terréstrium et inférno rum: et
               omnis lingua confiteátur, quia Dóminus Jesus Christus in glória
               est Dei Patris.
@@ -772,10 +772,10 @@ export default function PageQuad60() {
               aos homens e reconhecido como homem pelas aparências. Humilhou-se
               a si próprio, obedecendo até à morte, e morte na cruz. Por isso
               Deus O exaltou e deu-Lhe um nome que é superior a todo o nome{" "}
-              <Text className="vernacular">devemos genuflectir</Text> para que
-              ao ser proferido o nome de Jesus todos os joelhos se dobrem nos
-              céus, na terra e até nos infernos; e todas as línguas confessem
-              que Nosso Senhor Jesus Cristo está na glória de Deus Pai!
+              <Text className="em">(devemos genuflectir)</Text> para que ao ser
+              proferido o nome de Jesus todos os joelhos se dobrem nos céus, na
+              terra e até nos infernos; e todas as línguas confessem que Nosso
+              Senhor Jesus Cristo está na glória de Deus Pai!
             </Text>
           </Language>
 
@@ -1560,12 +1560,12 @@ export default function PageQuad60() {
               soltando de novo um grande brado, expirou!
             </Text>
             <Text className="latin">
-              <Text className="latin">
-                Hic genuflectitur, et pausatur aliquántulum
+              <Text className="em">
+                (Hic genuflectitur, et pausatur aliquántulum)
               </Text>
             </Text>
             <Text className="vernacular">
-              <Text className="vernacular">
+              <Text className="em">
                 (Todos devem ajoelhar e recolher-se em meditação durante algum
                 tempo.)
               </Text>

@@ -87,7 +87,7 @@ export default function PageQuad40() {
               assim Agar. Com efeito, o Sinai é um monte situado na Arábia, o
               qual corresponde à actual Jerusalém, que está sob a escravidão,
               assim como seus filhos. Porém a outra (a Jerusalém do alto) é
-              livre. Esta é a nossa mãe; pis está escrito: «Alegra-te, ó
+              livre. Esta é a nossa mãe; pois está escrito: «Alegra-te, ó
               estéril, que não geras! Regozija-te; canta sonoramente, ó tu, que
               não geras; pois os filhos da abandonada serão mais numerosos do
               que os da mulher casada». Nós, meus irmãos, somos os filhos da

@@ -70,10 +70,11 @@ export default function Page0914() {
               similitudinem hóminum factus, et hábitu inventus ut homo.
               Humiliávit semetípsum, factus obǿdiens usque ad mortem, mortem
               autem crucis. Propter quod et Deus exaltávit illum: et donávit
-              illi nomen, quod est super omne nomen: (hic genuflectitur) ut in
-              nomine Jesu omne genu flectátur cœléstium, terréstrium et
-              infernórum: et omnis lingua confiteátur, quia Dóminus Jesus
-              Christus in glória est Dei Patris.
+              illi nomen, quod est super omne nomen:{" "}
+              <Text className="em">(hic genuflectitur)</Text> ut in nomine Jesu
+              omne genu flectátur cœléstium, terréstrium et infernórum: et omnis
+              lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei
+              Patris.
             </Text>
             <Text className="vernacular">
               Meus irmãos: Tende os mesmos sentimentos que animaram Jesus
@@ -83,10 +84,10 @@ export default function Page0914() {
               aos homens e reconhecido como homem pelas aparências. Humilhou-se
               a si próprio, obedecendo até à morte, e morte na cruz. Por isso
               Deus O exaltou e deu-Lhe um nome que é superior a todo o nome
-              (devemos genuflectir), para que ao ser proferido o Nome de Jesus
-              todos os joelhos se dobrem nos céus, na terra e até nos infernos;
-              e todas as línguas confessem que nosso Senhor Jesus Cristo está na
-              glória de Deus Pai!
+              <Text className="em">(devemos genuflectir)</Text>, para que ao ser
+              proferido o Nome de Jesus todos os joelhos se dobrem nos céus, na
+              terra e até nos infernos; e todas as línguas confessem que nosso
+              Senhor Jesus Cristo está na glória de Deus Pai!
             </Text>
           </Language>
 

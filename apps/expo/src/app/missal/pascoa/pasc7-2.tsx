@@ -80,7 +80,7 @@ export default function PagePasc72() {
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Joann. 14, 26</Text> Spíritus Sanctus
               docébit vos, quæcúmque díxero vobis. Allelúja.{" "}
-              <Text className="em">hic genuflectitur</Text>
+              <Text className="em">(hic genuflectitur)</Text>
               <Text className="versicle"> ℣. </Text>Veni, Sancte Spíritus, reple
               tuórum corda fidélium: et tui amóris in eis ignem accénde.
             </Text>
@@ -88,7 +88,7 @@ export default function PagePasc72() {
               Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
               <Text className="vernacular">Jo. 14, 26</Text> O Espírito Santo
               vos inspirará tudo o que vos tenho ensinado, aleluia.{" "}
-              <Text className="em">Genuflecte-se</Text>
+              <Text className="em">(Genuflecte-se)</Text>
               <Text className="versicle"> ℣. </Text>Vinde, Espírito Santo,
               enchei os corações dos vossos fiéis e acendei neles o fogo do
               vosso amor.

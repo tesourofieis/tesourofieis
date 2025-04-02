@@ -75,7 +75,7 @@ export default function PageSantacruz() {
               Fratres: Christus factus est pro nobis obǿdiens usque ad mortem,
               mortem autem crucis. Propter quod et Deus exaltávit illum, et
               donávit illi nomen, quod est super omne nomen:{" "}
-              <Text className="latin">hic genuflectitur</Text> ut in nómine Jesu
+              <Text className="em">(hic genuflectitur)</Text> ut in nómine Jesu
               omne genu flectátur cœléstium, terréstrium et infernórum, et omnis
               lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei
               Patris.
@@ -84,10 +84,10 @@ export default function PageSantacruz() {
               Meus irmãos: Cristo, por causa de nós, tornou-se obediente até à
               morte, e morte na cruz. Eis porque Deus o exaltou e lhe deu um
               nome que é superior a todos os outros.{" "}
-              <Text className="vernacular">Genuflecte-se</Text> De sorte que ao
-              ser pronunciado o nome de Jesus todos os joelhos se devem dobrar
-              no céu, na terra e nos infernos: e todas as línguas devem
-              confessar que o senhor Jesus está na glória de Deus Pai.
+              <Text className="em">(Genuflecte-se)</Text> De sorte que ao ser
+              pronunciado o nome de Jesus todos os joelhos se devem dobrar no
+              céu, na terra e nos infernos: e todas as línguas devem confessar
+              que o senhor Jesus está na glória de Deus Pai.
             </Text>
           </Language>
 

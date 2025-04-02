@@ -104,7 +104,7 @@ export default function PagePasc70() {
               Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
               <Text className="latin">Ps. 103, 30</Text> Emítte Spíritum tuum,
               et creabúntur, et renovábis fáciem terræ. Allelúja.{" "}
-              <Text className="em">hic genuflectitur</Text>
+              <Text className="em">(hic genuflectitur)</Text>
               <Text className="versicle"> ℣. </Text>Veni, Sancte Spíritus, reple
               tuórum corda fidélium: et tui amóris in eis ignem accénde.
             </Text>
@@ -112,7 +112,7 @@ export default function PagePasc70() {
               Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
               <Text className="vernacular">Sl. 103, 30</Text> Enviai o vosso
               Espírito, e uma nova criação se operará: e renovareis a face da
-              terra. Aleluia. <Text className="em">Genuflecte-se</Text>
+              terra. Aleluia. <Text className="em">(Genuflecte-se)</Text>
               <Text className="versicle"> ℣. </Text>
               Vinde, ó Espírito Santo; enchei os corações dos vossos fiéis e
               acendei neles o fogo do vosso amor.

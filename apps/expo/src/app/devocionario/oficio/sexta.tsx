@@ -138,11 +138,11 @@ export default function PageSexta() {
 
               <Language>
                 <Text className="latin">
-                  <Text className="latin">Hic genuflectitur</Text> Kyrie eleison
+                  <Text className="em">Hic genuflectitur</Text> Kyrie eleison
                 </Text>
                 <Text className="vernacular">
-                  <Text className="vernacular">Genuflectir</Text> Senhor, tende
-                  piedade de nós.
+                  <Text className="em">Genuflectir</Text> Senhor, tende piedade
+                  de nós.
                 </Text>
                 <Text className="latin">Christe, eléison.</Text>
                 <Text className="vernacular">
@@ -251,11 +251,11 @@ export default function PageSexta() {
 
               <Language>
                 <Text className="latin">
-                  <Text className="latin">Hic genuflectitur</Text> Kyrie eleison
+                  <Text className="em">Hic genuflectitur</Text> Kyrie eleison
                 </Text>
                 <Text className="vernacular">
-                  <Text className="vernacular">Genuflectir</Text> Senhor, tende
-                  piedade de nós.
+                  <Text className="em">Genuflectir</Text> Senhor, tende piedade
+                  de nós.
                 </Text>
                 <Text className="latin">Christe, eléison.</Text>
                 <Text className="vernacular">

@@ -273,7 +273,7 @@ export default function PageQuad43() {
               ille et dixit: Quis est, Dómine, ut credam in eum? Et dixit ei
               Jesus: Et vidísti eum, et qui lóquitur tecum, ipse est. At ille
               ait: Credo, Dómine.{" "}
-              <Text className="latin">hic genuflectitur</Text> Et prócidens
+              <Text className="em">(hic genuflectitur)</Text> Et prócidens
               adorávit eum.
             </Text>
             <Text className="vernacular">
@@ -337,8 +337,8 @@ export default function PageQuad43() {
               Deus?». Respondeu o cego, dizendo: «Quem é ele, Senhor, para que
               eu creia?». Jesus disse-lhe: «Já o tens visto. É Aquele que fala
               contigo!». E o cego disse: «Creio, Senhor!».{" "}
-              <Text className="vernacular">Todos devem ajoelhar</Text> E de
-              joelhos o adorou!
+              <Text className="em">(Todos devem ajoelhar)</Text> E de joelhos o
+              adorou!
             </Text>
           </Language>
 

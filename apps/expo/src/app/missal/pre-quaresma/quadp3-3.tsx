@@ -391,7 +391,7 @@ export default function PageQuadp33() {
               <Text className="latin">Ps. 78, 8-9</Text> Dómine, ne memíneris
               iniquitátum nostrarum antiquarum: cito antícipent nos misericórdiæ
               tuæ, quia páuperes facti sumus nimis.{" "}
-              <Text className="em">Hic genuflectitur</Text>
+              <Text className="em">(Hic genuflectitur)</Text>
               <Text className="versicle"> ℣. </Text>Adjuva nos, Deus, salutáris
               noster: et propter glóriam nóminis tui, Dómine, libera nos: et
               propítius esto peccátis nostris, propter nomen tuum.
@@ -403,7 +403,7 @@ export default function PageQuadp33() {
               <Text className="vernacular">Sl. 78, 8-9</Text> Esquecei-Vos,
               Senhor, das nossas iniquidades passa- das, apressai-Vos em
               revestir-nos com vossas misericórdias, pois grande é a nossa
-              miséria. <Text className="em">Aqui genuflectir</Text>
+              miséria. <Text className="em">(Aqui genuflectir)</Text>
               <Text className="versicle"> ℣. </Text>
               Auxiliai-nos, ó Deus, nosso Salvador, e, pela glória do vosso
               nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do
