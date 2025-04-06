@@ -34,7 +34,7 @@ export default function PageJamlucis() {
             </Text>
             <Text className="vernacular">
               Seja puro em nosso peito o coração, E banida a loucura: A carne
-              nos tempere a suberba, E a bebida reprima o orgulho.
+              nos tempere a soberba, E a bebida reprima o orgulho.
             </Text>
             <Text className="latin">
               Ut, cum dies abscésserit, Noctémque sors redúxerit, Mundi per

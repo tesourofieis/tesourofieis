@@ -21,7 +21,6 @@ export default function PageOracaomanha() {
             Senhor, nosso Deus, resplandeça a nossos olhos. Inspirai lá do vosso
             trono, as nossas obras, assim como o trabalho das nossas mãos.
           </Text>
-          <Text className="h2">Hino Jam lucis</Text>
           <JamLucis />
           <Text className="h2">Oferecimento de si mesmo</Text>
           <Text className="text-base">
