@@ -114,7 +114,7 @@ export default function PageNot() {
               : "Pode ter que activar nas definições do dispositivo."}
           </Text>
           <Pressable
-            className="bg-sepia-800 dark:bg-sepia-200 items-center justify-center rounded mt-3"
+            className="bg-sepia-800 dark:bg-sepia-200 items-center justify-center rounded mt-3 active:bg-sepia-700 dark:active:bg-sepia-300"
             onPressOut={requestPermission}
           >
             <Text className="m-5 text-sepia-300 dark:text-sepia-700">

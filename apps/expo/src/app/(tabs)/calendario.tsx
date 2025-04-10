@@ -131,7 +131,7 @@ function ChangePeriod({
     <View className="flex flex-row items-center justify-between px-4 py-5 bg-sepia-200 dark:bg-sepia-800">
       <Pressable
         onPressOut={handlePrevious}
-        className="rounded bg-gray-200 p-2 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700"
+        className="rounded bg-gray-200 p-2 active:bg-gray-300 dark:bg-gray-800 active:dark:bg-gray-700"
       >
         <FontAwesome name="chevron-left" color={COLORS["600"]} />
       </Pressable>
@@ -141,7 +141,7 @@ function ChangePeriod({
       </Text>
       <Pressable
         onPressOut={handleNext}
-        className="rounded bg-gray-200 p-2 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700"
+        className="rounded bg-gray-200 p-2 active:bg-gray-300 dark:bg-gray-800 active:dark:bg-gray-700"
       >
         <FontAwesome name="chevron-right" color={COLORS["600"]} />
       </Pressable>
@@ -161,8 +161,8 @@ function ChangePeriod({
           <Text
             className={`p-2 rounded-r text-sepia-700 dark:text-sepia-300 ${
               viewMode === "month"
-                ? "bg-sepia-300 dark:bg-sepia-700 bold"
-                : "bg-sepia-200 dark:bg-sepia-800"
+                ? "bg-sepia-300 dark:bg-sepia-700 bold acttive:bg-sepia-200 dark:active:bg-sepia-800"
+                : "bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
             } `}
           >
             Month

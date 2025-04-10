@@ -181,8 +181,8 @@ export default function PageQuad40() {
               de Tiberíades, acompanhando-O grande multidão; pois viam os
               milagres que operava, curando os doentes. Jesus subiu a um monte,
               e aí se assentou com seus discípulos. Ora a Páscoa, que era a
-              principal festa dos judeus, estava próxima. E, levantando Jesus
-              os olhos, viu que grande multidão de povo estava com Ele. Então,
+              principal festa dos judeus, estava próxima. E, levantando Jesus os
+              olhos, viu que grande multidão de povo estava com Ele. Então,
               disse a Filipe: «Onde compraremos pão para tanta gente?». Ele
               dizia isto para experimentar Filipe, pois bem sabia o que havia de
               fazer. Filipe respondeu-Lhe: «Duzentos dinheiros de pão não

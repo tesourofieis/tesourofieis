@@ -75,7 +75,7 @@ export default function ExternalLinks() {
               setLoadingLink(loading ? link.name : null),
             )
           }
-          className="flex-col items-start py-2 px-3 gap-1 rounded-lg bg-sepia-800"
+          className="flex-col items-start py-2 px-3 gap-1 rounded-lg bg-sepia-800 active:bg-sepia-700"
           disabled={loadingLink === link.name}
           accessibilityLabel={`${link.title}: ${link.desc}`}
           accessibilityRole="link"

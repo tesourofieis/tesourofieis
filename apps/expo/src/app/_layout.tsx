@@ -149,7 +149,7 @@ function RootLayoutNav() {
           name="missal"
           options={{
             presentation: "modal",
-            animation: "default",
+            animation: "simple_push",
             header: () => <Header withBC={true} />,
           }}
         />
@@ -157,7 +157,7 @@ function RootLayoutNav() {
           name="devocionario"
           options={{
             presentation: "modal",
-            animation: "default",
+            animation: "simple_push",
             header: () => <Header withBC={true} />,
           }}
         />
@@ -165,7 +165,7 @@ function RootLayoutNav() {
           name="ritual"
           options={{
             presentation: "modal",
-            animation: "default",
+            animation: "simple_push",
             header: () => <Header withBC={true} />,
           }}
         />
@@ -173,7 +173,7 @@ function RootLayoutNav() {
           name="fe"
           options={{
             presentation: "modal",
-            animation: "default",
+            animation: "simple_push",
             header: () => <Header withBC={true} />,
           }}
         />
@@ -181,6 +181,7 @@ function RootLayoutNav() {
           name="canticos"
           options={{
             presentation: "modal",
+            animation: "simple_push",
             header: () => <Header withBC={true} />,
           }}
         />
@@ -214,7 +215,7 @@ const Breadcrumbs = () => {
       .join(" ");
   };
 
-  const handlePress = (path: string) => {
+  const _handlePress = (path: string) => {
     router.navigate(path);
   };
 
@@ -226,32 +227,19 @@ const Breadcrumbs = () => {
             <Text className="text-sepia-400 dark:text-sepia-600">/</Text>
           )}
 
-          <Pressable
-            onPress={() =>
-              handlePress(`/${segments.slice(0, index + 1).join("/")}`)
-            }
-            style={({ pressed }) => [
-              {
-                backgroundColor: pressed ? "#e5c7a9" : "transparent", // Change color when pressed
-                borderRadius: 5,
-                paddingHorizontal: 8,
-                paddingVertical: 4,
-                borderWidth: 1,
-                borderColor:
-                  index === segments.length - 1 ? "transparent" : "#a07c5a",
-              },
-            ]}
-          >
-            <Text
-              className={`text-xs p-1 rounded font-serif ${
-                index === segments.length - 1
-                  ? "text-sepia-700 dark:text-sepia-300 font-bold"
-                  : "text-sepia-600 dark:text-sepia-400 bg-sepia-200 dark:bg-sepia-800 underline"
-              }`}
-            >
+          {index === segments.length - 1 ? (
+            <Text className="text-xs font-serif text-sepia-700 dark:text-sepia-300 font-bold">
               {formatSegmentName(segment)}
             </Text>
-          </Pressable>
+          ) : (
+            <Link href={`/${segments.slice(0, index + 1).join("/")}`} asChild>
+              <Pressable className="p-1 rounded bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700">
+                <Text className="text-xs font-serif text-sepia-600 dark:text-sepia-400 underline">
+                  {formatSegmentName(segment)}
+                </Text>
+              </Pressable>
+            </Link>
+          )}
         </React.Fragment>
       ))}
     </View>
@@ -261,27 +249,24 @@ const Breadcrumbs = () => {
 const Header = ({ withBC }: { withBC: boolean }) => {
   if (withBC) {
     return (
-      <View className="flex-row items-center p-5 gap-5 border-b bg-sepia-300 dark:bg-sepia-900 w-full">
-        <Link
-          href="/"
-          className="rounded-full p-2 bg-sepia-200 dark:bg-sepia-800 shadow-md"
-        >
-          <FontAwesome6 name="arrow-left" size={15} color="#e53935" />
+      <View className="flex-row items-center p-5 gap-5 border-b bg-sepia-300 dark:bg-sepia-900 w-full ">
+        <Link href="/" asChild className="rounded-full p-2 shadow-md">
+          <Pressable className="bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 active:dark:bg-sepia-700">
+            <FontAwesome6 name="arrow-left" size={15} color="#e53935" />
+          </Pressable>
         </Link>
         <Breadcrumbs />
       </View>
     );
   }
   return (
-    <View>
-      <Link href="/">
-        <View className="flex-row items-center p-5 gap-3 bg-sepia-300 dark:bg-sepia-900 w-full border-b">
-          <FontAwesome6 name="book-bible" size={15} color="#e53935" />
-          <Text className="text-lg text-sepia-800 dark:text-sepia-200 font-serif">
-            Tesouro dos Fiéis
-          </Text>
-        </View>
-      </Link>
-    </View>
+    <Link href="/">
+      <View className="flex-row items-center p-5 gap-3 bg-sepia-300 dark:bg-sepia-900 w-full border-b active:bg-sepia-200 active:dark:bg-sepia-800">
+        <FontAwesome6 name="book-bible" size={15} color="#e53935" />
+        <Text className="text-lg text-sepia-800 dark:text-sepia-200 font-serif">
+          Tesouro dos Fiéis
+        </Text>
+      </View>
+    </Link>
   );
 };

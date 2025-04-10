@@ -26,7 +26,7 @@ export function Tabs({ children }) {
               onPressOut={() => setActiveTab(index)}
               className={`px-4 py-2 mr-2 ${
                 activeTab === index
-                  ? "bg-sepia-300 dark:bg-sepia-700 border-b-2 border-sepia-500"
+                  ? "bg-sepia-300 dark:bg-sepia-700 border-b-2 border-sepia-500 active:bg-sepia-200 active:dark:bg-sepia-800"
                   : "border-b-2 border-transparent"
               }`}
             >

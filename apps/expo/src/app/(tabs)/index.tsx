@@ -3,7 +3,7 @@ import { format } from "date-fns";
 import { pt } from "date-fns/locale";
 import { Image } from "expo-image";
 import { Link } from "expo-router";
-import { Platform, useColorScheme } from "react-native";
+import { Platform, Pressable, useColorScheme } from "react-native";
 import { ScrollView, Text, View } from "react-native";
 import ExternalLinks from "~/components/External";
 
@@ -51,17 +51,32 @@ export default function PageRender() {
         </View>
 
         <View className="flex flex-row justify-center my-5 mx-5 gap-5">
-          <Text className="font-bold border-sepia-900 text-sepia-800 dark:border-sepia-200 dark:text-sepia-200 m-2 rounded-lg border px-4 py-2 text-center flex">
-            <Link href="/devocionario/introducao">Introdução</Link>
-          </Text>
+          <Link
+            className="border-sepia-900 dark:border-sepia-200 active:bg-sepia-300 dark:active:bg-sepia-700 m-2 rounded-lg border px-4 py-2 flex"
+            href="/devocionario/introducao"
+          >
+            <Text className="font-bold text-sepia-800 dark:text-sepia-200 text-center">
+              Introdução
+            </Text>
+          </Link>
 
-          <Text className="font-bold bg-sepia-900 text-sepia-200 dark:bg-sepia-200 dark:text-sepia-900 m-2 rounded-lg px-4 py-2 text-center">
-            <Link href="/devocionario/rosario">Rosário</Link>
-          </Text>
+          <Link
+            href="/devocionario/rosario"
+            className="bg-sepia-900 dark:bg-sepia-200 m-2 rounded-lg px-4 py-2 active:bg-sepia-300 active:dark:bg-sepia-700"
+          >
+            <Text className="font-bold text-sepia-200 dark:text-sepia-900 text-center">
+              Rosário
+            </Text>
+          </Link>
 
-          <Text className="font-bold border-red-500 text-red-600 m-2 rounded-lg border px-4 py-2 text-center flex">
-            <Link href="/devocionario/viasacra">Via Sacra</Link>
-          </Text>
+          <Link
+            href="/devocionario/viasacra"
+            className="border-red-500 active:bg-sepia-300 active:dark:bg-sepia-700 m-2 rounded-lg border px-4 py-2 flex"
+          >
+            <Text className="font-bold text-red-600 text-center ">
+              Via Sacra
+            </Text>
+          </Link>
         </View>
 
         <View className="border-t border-sepia-300 dark:border-sepia-700 mb-2" />
