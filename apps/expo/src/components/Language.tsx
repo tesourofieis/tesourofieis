@@ -1,5 +1,5 @@
 import * as Haptics from "expo-haptics";
-import React, { useMemo, useRef, useState, useEffect } from "react";
+import React, { useMemo, useRef } from "react";
 import {
   Dimensions,
   PanResponder,
@@ -21,14 +21,93 @@ type LanguageToggleProps = {
   children: React.ReactNode;
 };
 
-function LanguageToggle({ children }: LanguageToggleProps) {
-  const screenWidth = Dimensions.get("window").width;
-  const translateX = useSharedValue(-Dimensions.get("window").width);
-  const initialX = useRef(0);
-  const lastToggleTime = useRef(0);
-  const [isVernacular, setIsVernacular] = useState(true);
+const screenWidth = Dimensions.get("window").width;
+const toggleWidth = 20;
 
-  // Split children
+const springConfig = {
+  damping: 25,
+  stiffness: 120,
+  mass: 0.8,
+  restDisplacementThreshold: 0.1,
+  restSpeedThreshold: 0.1,
+};
+
+export default function LanguageToggle({ children }: LanguageToggleProps) {
+  // Shared values for content and toggle positions.
+  const translateX = useSharedValue(-screenWidth); // vernacular by default
+  const translateXToggle = useSharedValue(toggleWidth); // PT by default
+  const currentLanguage = useSharedValue<"latin" | "vernacular">("vernacular");
+
+  const initialX = useRef(0);
+
+  // Haptic feedback when switching languages
+  const triggerHaptic = () => {
+    try {
+      if (Platform.OS === "ios" || Platform.OS === "android") {
+        Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+      }
+    } catch {
+      Vibration.vibrate(10);
+    }
+  };
+
+  // Function to animate the translations to the desired target values.
+  const setLanguage = (vernacular: boolean) => {
+    const targetContent = vernacular ? -screenWidth : 0;
+    const targetToggle = vernacular ? toggleWidth : 0;
+    translateX.value = withSpring(targetContent, springConfig);
+    translateXToggle.value = withSpring(targetToggle, springConfig);
+    currentLanguage.value = vernacular ? "vernacular" : "latin";
+    triggerHaptic();
+  };
+
+  // Toggle language on tap.
+  const toggle = () => {
+    const toVernacular = currentLanguage.value === "latin";
+    setLanguage(toVernacular);
+  };
+
+  // PanResponder for horizontal swipe gestures.
+  const panResponder = useRef(
+    PanResponder.create({
+      onStartShouldSetPanResponder: () => false,
+      onMoveShouldSetPanResponder: (_, gesture) =>
+        Math.abs(gesture.dx) > 2 &&
+        Math.abs(gesture.dx) > Math.abs(gesture.dy) * 1.5,
+      onPanResponderGrant: () => {
+        initialX.current = translateX.value;
+      },
+      onPanResponderMove: (_, gesture) => {
+        const offset = initialX.current + gesture.dx;
+        // Clamp the content translation between -screenWidth and 0.
+        translateX.value = Math.max(-screenWidth, Math.min(0, offset));
+      },
+      onPanResponderRelease: (_, gesture) => {
+        const velocity = gesture.vx;
+        const dx = gesture.dx;
+        const swipeThreshold = 50;
+        // Choose target language based on swipe direction, distance, and velocity.
+        if (dx < -swipeThreshold || velocity < -0.5) {
+          runOnJS(setLanguage)(true);
+        } else if (dx > swipeThreshold || velocity > 0.5) {
+          runOnJS(setLanguage)(false);
+        } else {
+          const midpoint = -screenWidth / 2;
+          runOnJS(setLanguage)(translateX.value < midpoint);
+        }
+      },
+    }),
+  ).current;
+
+  const toggleStyle = useAnimatedStyle(() => ({
+    transform: [{ translateX: translateXToggle.value }],
+  }));
+
+  const contentStyle = useAnimatedStyle(() => ({
+    transform: [{ translateX: translateX.value }],
+  }));
+
+  // Separate children based on the provided className prop
   const { latinContent, vernacularContent } = useMemo(() => {
     const childrenArray = React.Children.toArray(children);
     return {
@@ -43,133 +122,42 @@ function LanguageToggle({ children }: LanguageToggleProps) {
     };
   }, [children]);
 
-  const triggerHaptic = () => {
-    if (Platform.OS === "ios" || Platform.OS === "android") {
-      try {
-        Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-      } catch {
-        Vibration.vibrate(10);
-      }
-    }
-  };
-
-  const toggleLanguage = () => {
-    const now = Date.now();
-    if (now - lastToggleTime.current < 300) return;
-    lastToggleTime.current = now;
-
-    const toVernacular = !isVernacular;
-    translateX.value = withSpring(toVernacular ? -screenWidth : 0, {
-      damping: 20,
-      stiffness: 150,
-    });
-    setIsVernacular(toVernacular);
-    triggerHaptic();
-  };
-
-  const panResponder = useRef(
-    PanResponder.create({
-      onStartShouldSetPanResponder: () => false,
-      onMoveShouldSetPanResponder: (_, gesture) =>
-        Math.abs(gesture.dx) > 1 &&
-        Math.abs(gesture.dx) > Math.abs(gesture.dy) * 2,
-      onPanResponderGrant: () => {
-        initialX.current = translateX.value;
-      },
-      onPanResponderMove: (_, gesture) => {
-        const offset = initialX.current + gesture.dx;
-        translateX.value = Math.max(-screenWidth, Math.min(0, offset));
-      },
-      onPanResponderRelease: (_, gesture) => {
-        const threshold = 50;
-        const finalOffset = gesture.dx;
-
-        if (finalOffset < -threshold) {
-          // Swipe to vernacular
-          translateX.value = withSpring(-screenWidth);
-          runOnJS(setIsVernacular)(true);
-          runOnJS(triggerHaptic)();
-        } else if (finalOffset > threshold) {
-          // Swipe to Latin
-          translateX.value = withSpring(0);
-          runOnJS(setIsVernacular)(false);
-          runOnJS(triggerHaptic)();
-        } else {
-          // Not enough movement: snap back to current position
-          translateX.value = withSpring(
-            translateX.value < -screenWidth / 2 ? -screenWidth : 0,
-          );
-          runOnJS(setIsVernacular)(translateX.value < -screenWidth / 2);
-        }
-      },
-    }),
-  ).current;
-
-  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
-  useEffect(() => {
-    translateX.value = isVernacular ? -screenWidth : 0;
-  }, [isVernacular, screenWidth]);
-
-  const animatedStyle = useAnimatedStyle(() => ({
-    transform: [{ translateX: translateX.value }],
-  }));
-
   return (
     <View {...panResponder.panHandlers}>
       <View className="flex-row justify-center mt-2">
         <Pressable
-          onPress={toggleLanguage}
+          onPress={toggle}
           accessibilityLabel="Toggle Language"
           accessibilityHint="Swipe or tap to switch between Latin and Vernacular"
           accessibilityRole="button"
-          className="flex-row bg-sepia-300 dark:bg-sepia-700 rounded-lg active:bg-sepia-300 dark:active:bg-sepia-800"
+          className="relative flex-row bg-sepia-100 dark:bg-sepia-900 border border-sepia-200 dark:border-sepia-800 rounded-lg"
+          style={{ width: toggleWidth * 2 }}
         >
-          <View
-            className={`px-2 py-1 rounded-lg ${
-              !isVernacular
-                ? "bg-sepia-300 dark:bg-sepia-800"
-                : "bg-sepia-200 dark:bg-sepia-700"
-            }`}
-          >
-            <Text
-              className={`text-xs font-medium ${
-                !isVernacular
-                  ? "text-sepia-700 dark:text-sepia-300"
-                  : "text-sepia-500 dark:text-sepia-400"
-              }`}
-            >
+          <Animated.View
+            style={[toggleStyle]}
+            className="absolute w-[20px] h-full rounded-lg bg-sepia-200 dark:bg-sepia-800"
+          />
+          <View className="w-[20px] items-center justify-center py-1">
+            <Text className="text-xs font-medium text-sepia-700 dark:text-sepia-300">
               LA
             </Text>
           </View>
-          <View
-            className={`px-2 py-1 rounded-lg ${
-              isVernacular ? "bg-sepia-200 dark:bg-sepia-800" : "bg-transparent"
-            }`}
-          >
-            <Text
-              className={`text-xs font-medium ${
-                isVernacular
-                  ? "text-sepia-700 dark:text-sepia-300"
-                  : "text-sepia-500 dark:text-sepia-400"
-              }`}
-            >
+          <View className="w-[20px] items-center justify-center py-1">
+            <Text className="text-xs font-medium text-sepia-700 dark:text-sepia-300">
               PT
             </Text>
           </View>
         </Pressable>
       </View>
-      <Animated.View style={[animatedStyle]} className="flex-row w-[200%]">
+
+      <Animated.View style={[contentStyle]} className="flex-row w-[200%]">
         <View className="w-screen">
-          <ScrollView scrollEnabled={true}>{latinContent}</ScrollView>
+          <ScrollView scrollEnabled>{latinContent}</ScrollView>
         </View>
         <View className="w-screen">
-          <ScrollView scrollEnabled={true}>{vernacularContent}</ScrollView>
+          <ScrollView scrollEnabled>{vernacularContent}</ScrollView>
         </View>
       </Animated.View>
-
-      {/* Toggle */}
     </View>
   );
 }
-
-export default LanguageToggle;
