@@ -86,7 +86,7 @@ export default function PageQuad60() {
               doze nascentes de água e setenta palmeiras, tendo acampado junto
               das águas. Partiu, então, de Elim toda a multidão dos filhos de
               Israel, havendo chegado ao deserto de Sin, que é situado entre
-              Elim e o Sinai, no dia 15 do segundo mês, depois que safram da
+              Elim e o Sinai, no dia 15 do segundo mês, depois que saíram da
               terra do Egipto. Apenas chegaram, começaram todos a murmurar
               contra Moisés e Aarão por estarem no deserto, dizendo: «Oxalá
               tivéssemos sido mortos pela mão do Senhor, quando na terra do
