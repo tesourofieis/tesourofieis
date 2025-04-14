@@ -891,15 +891,16 @@ export default function PageQuad60() {
               esset in Bethánia in domo Simónis leprósi, accéssit ad eum múlier
               habens alabástrum unguénti pretiósi, et effúdit super caput ipsíus
               recumbéntis. Vidéntes autem discípuli, indignáti sunt, dicéntes:{" "}
-              <Text className="em">S.</Text> Ut quid perdítio hæc? pótuit enim
-              istud venúmdari multo, et dari paupéribus.{" "}
-              <Text className="font-bold text-red-500">C.</Text> Sciens autem
-              Jesus, ait illis: <Text className="cross"> ✠ </Text> Quid molésti
-              estis huic mulíeri? opus enim bonum operáta est in me. Nam semper
-              páuperes habétis vobíscum: me autem non semper habétis. Mittens
-              enim hæc unguéntum hoc in corpus meum, ad sepeliéndum me fecit.
-              Amen, dico vobis, ubicúmque prædicátum fúerit hoc Evangélium in
-              toto mundo, dicétur et, quod hæc fecit, in memóriam ejus.{" "}
+              <Text className="font-bold text-red-500">S.</Text> Ut quid
+              perdítio hæc? pótuit enim istud venúmdari multo, et dari
+              paupéribus. <Text className="font-bold text-red-500">C.</Text>{" "}
+              Sciens autem Jesus, ait illis: <Text className="cross"> ✠ </Text>{" "}
+              Quid molésti estis huic mulíeri? opus enim bonum operáta est in
+              me. Nam semper páuperes habétis vobíscum: me autem non semper
+              habétis. Mittens enim hæc unguéntum hoc in corpus meum, ad
+              sepeliéndum me fecit. Amen, dico vobis, ubicúmque prædicátum
+              fúerit hoc Evangélium in toto mundo, dicétur et, quod hæc fecit,
+              in memóriam ejus.{" "}
               <Text className="font-bold text-red-500">C.</Text> Tunc ábiit unus
               de duódecim, qui dicebátur Judas Iscariótes, ad príncipes
               sacerdótum, et ait illis:{" "}

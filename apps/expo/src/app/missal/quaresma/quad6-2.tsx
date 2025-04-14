@@ -116,8 +116,9 @@ export default function PageQuad62() {
             <Text className="latin">
               In illo témpore: Erat Pascha, et ázyma post bíduum, et quærébant
               summi sacerdótes et scribæ, quómodo Jesum dolo tenérent et
-              occíderent. Dicébant autem: <Text className="latin">S.</Text> Non
-              in die festo, ne forte tumúltus fíeret in pópulo.{" "}
+              occíderent. Dicébant autem:{" "}
+              <Text className="font-bold text-red-500">S.</Text> Non in die
+              festo, ne forte tumúltus fíeret in pópulo.{" "}
               <Text className="font-bold text-red-500">C.</Text> Et cum esset
               Jesus Bethániæ in domo Simónis leprósi, et recúmberet: venit
               múlier habens alabástrum unguénti nardi spicáti pretiósi, et
@@ -144,8 +145,8 @@ export default function PageQuad62() {
               Naquele tempo, a Páscoa e os ázimos eram dois dias depois; e os
               príncipes dos sacerdotes e os escribas procuravam,
               traiçoeiramente, prender Jesus e matá-l’O. Diziam, portanto:{" "}
-              <Text className="vernacular">S.</Text> «Não o façamos, porém, no
-              dia da festa, para o povo se não amotinar».{" "}
+              <Text className="font-bold text-red-500">S.</Text> «Não o façamos,
+              porém, no dia da festa, para o povo se não amotinar».{" "}
               <Text className="font-bold text-red-500">C.</Text> E,
               encontrando-se Jesus em Betânia, na casa de Simão, o leproso, a
               cuja mesa se assentara, veio uma mulher com um vaso de alabastro,
@@ -172,8 +173,8 @@ export default function PageQuad62() {
             </Text>
             <Text className="latin">
               Et primo die azymórum quando pascha immolábant, dicunt ei
-              discípuli: <Text className="latin">S.</Text> Quo vis eámus, et
-              parémus tibi, ut mandúces pascha?{" "}
+              discípuli: <Text className="font-bold text-red-500">S.</Text> Quo
+              vis eámus, et parémus tibi, ut mandúces pascha?{" "}
               <Text className="font-bold text-red-500">C.</Text> Et mittit duos
               ex discípulis suis, et dicit eis:{" "}
               <Text className="cross"> ✠ </Text> Ite in civitátem: et occúrret
@@ -187,19 +188,19 @@ export default function PageQuad62() {
             </Text>
             <Text className="vernacular">
               No primeiro dia dos ázimos, em que se celebrava a Páscoa, disseram
-              os discípulos a Jesus: <Text className="vernacular">S.</Text>{" "}
-              «Onde quereis que vamos preparar o que é preciso para comer a
-              Páscoa?». <Text className="font-bold text-red-500">C.</Text> E
-              Jesus mandou dois discípulos, a quem disse:{" "}
-              <Text className="cross"> ✠ </Text> «Ide à cidade; lá encontrareis
-              um homem, conduzindo um cântaro de água. Acompanhai-o; e, onde ele
-              entrar, dizei ao dono da casa: «O Mestre manda dizer-te: onde está
-              a sala em que hei-de comer a Páscoa com meus discípulos?». Ele vos
-              mostrará um grande cenáculo mobilado. Aí preparareis o que é
-              necessário». <Text className="font-bold text-red-500">C.</Text>{" "}
-              Partiram logo os discípulos e chegaram à cidade, havendo
-              encontrado tudo, como lhes dissera Jesus, e tendo preparado aí a
-              Páscoa.
+              os discípulos a Jesus:{" "}
+              <Text className="font-bold text-red-500">S.</Text> «Onde quereis
+              que vamos preparar o que é preciso para comer a Páscoa?».{" "}
+              <Text className="font-bold text-red-500">C.</Text> E Jesus mandou
+              dois discípulos, a quem disse: <Text className="cross"> ✠ </Text>{" "}
+              «Ide à cidade; lá encontrareis um homem, conduzindo um cântaro de
+              água. Acompanhai-o; e, onde ele entrar, dizei ao dono da casa: «O
+              Mestre manda dizer-te: onde está a sala em que hei-de comer a
+              Páscoa com meus discípulos?». Ele vos mostrará um grande cenáculo
+              mobilado. Aí preparareis o que é necessário».{" "}
+              <Text className="font-bold text-red-500">C.</Text> Partiram logo
+              os discípulos e chegaram à cidade, havendo encontrado tudo, como
+              lhes dissera Jesus, e tendo preparado aí a Páscoa.
             </Text>
             <Text className="latin">
               Véspere autem facto, venit cum duódecim. Et discumbéntibus eis et
@@ -230,9 +231,10 @@ export default function PageQuad62() {
               esse homem não ter nascido!».
             </Text>
             <Text className="latin">
-              <Text className="latin">C.</Text> Et manducántibus illis, accépit
-              Jesus panem: et benedícens fregit, et dedit eis, et ait:{" "}
-              <Text className="cross"> ✠ </Text> Súmite, hoc est corpus meum.{" "}
+              <Text className="font-bold text-red-500">C.</Text> Et
+              manducántibus illis, accépit Jesus panem: et benedícens fregit, et
+              dedit eis, et ait: <Text className="cross"> ✠ </Text> Súmite, hoc
+              est corpus meum.{" "}
               <Text className="font-bold text-red-500">C.</Text> Et accépto
               cálice, grátias agens dedit eis: et bibérunt ex illo omnes. Et ait
               illis: <Text className="cross"> ✠ </Text> Hic est sanguis meus
@@ -241,19 +243,20 @@ export default function PageQuad62() {
               bibam novum in regno Dei.
             </Text>
             <Text className="vernacular">
-              <Text className="vernacular">C.</Text> Enquanto comiam, tomou
-              Jesus o pão, benzeu-o, partiu-o e deu-o a comer, dizendo:{" "}
-              <Text className="cross"> ✠ </Text> «Tomai; isto é o meu corpo».{" "}
-              <Text className="font-bold text-red-500">C.</Text> E, segurando
-              também o cálice, deu graças, entregou-o aos discípulos e todos
-              dele beberam. E disse-lhes: <Text className="cross"> ✠ </Text>{" "}
-              «Este é o meu sangue, o sangue do Novo Testamento, que será
-              derramado por muitos. Em verdade vos digo: já não tornarei a beber
-              deste fruto até ao dia em que de novo o beba no reino de Deus».
+              <Text className="font-bold text-red-500">C.</Text> Enquanto
+              comiam, tomou Jesus o pão, benzeu-o, partiu-o e deu-o a comer,
+              dizendo: <Text className="cross"> ✠ </Text> «Tomai; isto é o meu
+              corpo». <Text className="font-bold text-red-500">C.</Text> E,
+              segurando também o cálice, deu graças, entregou-o aos discípulos e
+              todos dele beberam. E disse-lhes:{" "}
+              <Text className="cross"> ✠ </Text> «Este é o meu sangue, o sangue
+              do Novo Testamento, que será derramado por muitos. Em verdade vos
+              digo: já não tornarei a beber deste fruto até ao dia em que de
+              novo o beba no reino de Deus».
             </Text>
             <Text className="latin">
-              <Text className="latin">C.</Text> Et hymno dicto, exiérunt in
-              montem Olivárum. Et ait eis Jesus:{" "}
+              <Text className="font-bold text-red-500">C.</Text> Et hymno dicto,
+              exiérunt in montem Olivárum. Et ait eis Jesus:{" "}
               <Text className="cross"> ✠ </Text> Omnes scandalizabímini in me in
               nocte ista: quia scriptum est: Percútiam pastórem, et dispergéntur
               oves. Sed postquam resurréxero, præcédam vos in Galilǽam,{" "}
@@ -271,12 +274,12 @@ export default function PageQuad62() {
               et omnes dicébant.
             </Text>
             <Text className="vernacular">
-              <Text className="vernacular">C.</Text> Após o cântico do hino,
-              saíram para o monte das Oliveiras. Então, disse-lhes Jesus:{" "}
-              <Text className="cross"> ✠ </Text> «Por minha causa esta noite
-              ficareis escandalizados, pois está escrito: «Ferirei o pastor e as
-              ovelhas ficarão dispersas». Mas, quando ressuscitar, irei adiante
-              de vós para a Galileia».{" "}
+              <Text className="font-bold text-red-500">C.</Text> Após o cântico
+              do hino, saíram para o monte das Oliveiras. Então, disse-lhes
+              Jesus: <Text className="cross"> ✠ </Text> «Por minha causa esta
+              noite ficareis escandalizados, pois está escrito: «Ferirei o
+              pastor e as ovelhas ficarão dispersas». Mas, quando ressuscitar,
+              irei adiante de vós para a Galileia».{" "}
               <Text className="font-bold text-red-500">C.</Text> Pedro
               disse-lhe: <Text className="font-bold text-red-500">S.</Text>{" "}
               «Ainda que todos se escandalizem, nunca me escandalizarei».{" "}
@@ -347,12 +350,12 @@ export default function PageQuad62() {
               me há-de entregar».
             </Text>
             <Text className="latin">
-              <Text className="latin">C.</Text> Et, adhuc eo loquénte, venit
-              Judas Iscariótes, unus de duódecim, et cum eo turba multa cum
-              gládiis et lignis, a summis sacerdótibus et scribis et senióribus.
-              Déderat autem tráditor ejus signum eis, diceris:{" "}
-              <Text className="font-bold text-red-500">S.</Text> Quemcúmque
-              osculátus fúero, ipse est, tenéte eum et dúcite caute.{" "}
+              <Text className="font-bold text-red-500">C.</Text> Et, adhuc eo
+              loquénte, venit Judas Iscariótes, unus de duódecim, et cum eo
+              turba multa cum gládiis et lignis, a summis sacerdótibus et
+              scribis et senióribus. Déderat autem tráditor ejus signum eis,
+              diceris: <Text className="font-bold text-red-500">S.</Text>{" "}
+              Quemcúmque osculátus fúero, ipse est, tenéte eum et dúcite caute.{" "}
               <Text className="font-bold text-red-500">C.</Text> Et cum
               venísset, statim accédens ad eum, ait:{" "}
               <Text className="font-bold text-red-500">S.</Text> Ave, Rabbi.{" "}
@@ -370,12 +373,12 @@ export default function PageQuad62() {
               ille, rejécta síndone, nudus profúgit ab eis.
             </Text>
             <Text className="vernacular">
-              <Text className="vernacular">C.</Text> Ainda Ele falava, quando
-              chegou Judas, um dos Doze, e com ele numerosa turba armada com
-              espadas e paus, enviada pelos príncipes dos sacerdotes, pelos
-              escribas e pelos anciãos. O traidor havia-lhes dado este sinal:{" "}
-              <Text className="font-bold text-red-500">S.</Text> «Aquele que eu
-              beijar é o próprio; prendei-o e segurai-o, cuidadosamente».{" "}
+              <Text className="font-bold text-red-500">C.</Text> Ainda Ele
+              falava, quando chegou Judas, um dos Doze, e com ele numerosa turba
+              armada com espadas e paus, enviada pelos príncipes dos sacerdotes,
+              pelos escribas e pelos anciãos. O traidor havia-lhes dado este
+              sinal: <Text className="font-bold text-red-500">S.</Text> «Aquele
+              que eu beijar é o próprio; prendei-o e segurai-o, cuidadosamente».{" "}
               <Text className="font-bold text-red-500">C.</Text> Logo que Judas
               foi ter com Jesus, disse-Lhe:{" "}
               <Text className="font-bold text-red-500">S.</Text> «Eu vos saúdo,
@@ -402,9 +405,9 @@ export default function PageQuad62() {
               tráderent, nec inveniébant. Multi enim testimónium falsum dicébant
               advérsus eum: et conveniéntia testimónia non erant. Et quidam
               surgéntes, falsum testimónium ferébant advérsus eum, dicéntes:{" "}
-              <Text className="latin">S.</Text> Quóniam nos audívimus eum
-              dicéntem: Ego dissólvant! templum hoc manufáctum, et per tríduum
-              áliud non manufáctum ædificábo.{" "}
+              <Text className="font-bold text-red-500">S.</Text> Quóniam nos
+              audívimus eum dicéntem: Ego dissólvant! templum hoc manufáctum, et
+              per tríduum áliud non manufáctum ædificábo.{" "}
               <Text className="font-bold text-red-500">C.</Text> Et non erat
               convéniens testimónium illórum. Et exsúrgens summus sacérdos in
               médium, interrogávit Jesum, dicens:{" "}
@@ -439,10 +442,10 @@ export default function PageQuad62() {
               Jesus, para o condenarem à morte; mas nada encontravam, pois,
               ainda que bastantes depusessem contra Ele, não eram concordes os
               depoimentos. Alguns, levantando-se, testemunhavam falsamente,
-              dizendo: <Text className="vernacular">S.</Text> «Ouvimo-l’O dizer:
-              «Destruirei este templo, construído pelos homens, e no espaço de
-              três dias edificarei outro sem ser obra dos homens».{" "}
-              <Text className="font-bold text-red-500">C.</Text> E não
+              dizendo: <Text className="font-bold text-red-500">S.</Text>{" "}
+              «Ouvimo-l’O dizer: «Destruirei este templo, construído pelos
+              homens, e no espaço de três dias edificarei outro sem ser obra dos
+              homens». <Text className="font-bold text-red-500">C.</Text> E não
               concordavam os testemunhos. Ergueu-se, então, o sumo sacerdote, no
               meio de todos, e interrogou Jesus:{" "}
               <Text className="font-bold text-red-500">S.</Text> «Nada
@@ -470,9 +473,10 @@ export default function PageQuad62() {
             <Text className="latin">
               Et cum esset Petrus in átrio deórsum, venit una ex ancíllis summi
               sacerdótis: et cum vidísset Petrum calefaciéntem se, aspíciens
-              illum, ait: <Text className="latin">S.</Text> Et tu cum Jesu
-              Nazaréno eras. <Text className="font-bold text-red-500">C.</Text>{" "}
-              At ille negávit, dicens:{" "}
+              illum, ait: <Text className="font-bold text-red-500">S.</Text> Et
+              tu cum Jesu Nazaréno eras.{" "}
+              <Text className="font-bold text-red-500">C.</Text> At ille
+              negávit, dicens:{" "}
               <Text className="font-bold text-red-500">S.</Text> Neque scio
               neque novi, quid dicas.{" "}
               <Text className="font-bold text-red-500">C.</Text> Et éxiit foras
@@ -490,8 +494,8 @@ export default function PageQuad62() {
             <Text className="vernacular">
               Entretanto, estando Pedro em baixo, no pátio, veio uma das criadas
               do sumo sacerdote; e, vendo que ele se aquecia, disse, fitando-o:{" "}
-              <Text className="vernacular">S.</Text> «Tu também estavas com
-              Jesus Nazareno».{" "}
+              <Text className="font-bold text-red-500">S.</Text> «Tu também
+              estavas com Jesus Nazareno».{" "}
               <Text className="font-bold text-red-500">C.</Text> Ele negou,
               dizendo: <Text className="font-bold text-red-500">S.</Text> «Nem O
               conheço, nem sei o que dizes!».{" "}
@@ -512,13 +516,14 @@ export default function PageQuad62() {
               Et conféstim mane consílium faciéntes summi sacerdótes, cum
               senióribus et scribis et univérso concílio, vinciéntes Jesum,
               duxérunt, et tradidérunt Piláto. Et interrogávit eum Pilátus:{" "}
-              <Text className="latin">S.</Text> Tu es Rex Judæórum?{" "}
-              <Text className="font-bold text-red-500">C.</Text> At ille
-              respóndens, ait illi: <Text className="cross"> ✠ </Text> Tu dicis.{" "}
-              <Text className="font-bold text-red-500">C.</Text> Et accusábant
-              eum summi sacerdótes in multis. Pilátus autem rursum interrogávit
-              eum, dicens: <Text className="font-bold text-red-500">S.</Text>{" "}
-              Non respóndes quidquam? vide, in quantis te accúsant.{" "}
+              <Text className="font-bold text-red-500">S.</Text> Tu es Rex
+              Judæórum? <Text className="font-bold text-red-500">C.</Text> At
+              ille respóndens, ait illi: <Text className="cross"> ✠ </Text> Tu
+              dicis. <Text className="font-bold text-red-500">C.</Text> Et
+              accusábant eum summi sacerdótes in multis. Pilátus autem rursum
+              interrogávit eum, dicens:{" "}
+              <Text className="font-bold text-red-500">S.</Text> Non respóndes
+              quidquam? vide, in quantis te accúsant.{" "}
               <Text className="font-bold text-red-500">C.</Text> Jesus autem
               ámplius nihil respóndit, ita ut mirarétur Pilátus. Per diem autem
               festum solébat dimíttere illis unum ex vinctis, quemcúmque
@@ -558,12 +563,12 @@ export default function PageQuad62() {
               sacerdotes com os anciãos, escribas e todos os que a ele
               pertenciam. Manietaram Jesus e conduziram-n’O à presença de
               Pilatos, a quem O entregaram. Este perguntou-Lhe:{" "}
-              <Text className="vernacular">S.</Text> «Sois o rei dos judeus?».{" "}
-              <Text className="font-bold text-red-500">C.</Text> Respondendo,
-              Jesus disse: <Text className="cross"> ✠ </Text> «Tu o dizes».{" "}
-              <Text className="font-bold text-red-500">C.</Text> Entretanto, os
-              príncipes dos sacerdotes acusavam-n’O de muitas coisas. Pilatos
-              voltou a interrogá-l’O, dizendo:{" "}
+              <Text className="font-bold text-red-500">S.</Text> «Sois o rei dos
+              judeus?». <Text className="font-bold text-red-500">C.</Text>{" "}
+              Respondendo, Jesus disse: <Text className="cross"> ✠ </Text> «Tu o
+              dizes». <Text className="font-bold text-red-500">C.</Text>{" "}
+              Entretanto, os príncipes dos sacerdotes acusavam-n’O de muitas
+              coisas. Pilatos voltou a interrogá-l’O, dizendo:{" "}
               <Text className="font-bold text-red-500">S.</Text> «Nada
               respondeis? Vede de quantas coisas Vos acusam».{" "}
               <Text className="font-bold text-red-500">C.</Text> Jesus, porém,
@@ -616,11 +621,11 @@ export default function PageQuad62() {
               unum a dextris et alium a sinístris ejus. Et impléta est
               Scriptúra, quæ dicit: Et cum iníquis reputátus est. Et
               prætereúntes blasphemábant eum, movéntes cápita sua et dicéntes:{" "}
-              <Text className="latin">S.</Text> Vah, qui déstruis templum Dei,
-              et in tribus diébus reædíficas: salvum fac temetípsum, descéndens
-              de cruce. <Text className="font-bold text-red-500">C.</Text>{" "}
-              Simíliter et summi sacerdótes illudéntes, ad altérutrum cum
-              scribis dicébant:{" "}
+              <Text className="font-bold text-red-500">S.</Text> Vah, qui
+              déstruis templum Dei, et in tribus diébus reædíficas: salvum fac
+              temetípsum, descéndens de cruce.{" "}
+              <Text className="font-bold text-red-500">C.</Text> Simíliter et
+              summi sacerdótes illudéntes, ad altérutrum cum scribis dicébant:{" "}
               <Text className="font-bold text-red-500">S.</Text> Alios salvos
               fecit, seípsum non potest salvum fácere. Christus Rex Israël
               descéndat nunc de cruce, ut videámus et credámus.{" "}
@@ -642,9 +647,9 @@ export default function PageQuad62() {
               esquerda, cumprindo-se assim o que dizia a Escritura: «Foi
               colocado no meio de malfeitores». Aqueles que passavam blasfemavam
               dele, abanando a cabeça e dizendo:{" "}
-              <Text className="vernacular">S.</Text> «Então, tu, que destróis o
-              templo de Deus e o reedificas em três dias, te não salvas agora a
-              ti mesmo, descendo da cruz?!».{" "}
+              <Text className="font-bold text-red-500">S.</Text> «Então, tu, que
+              destróis o templo de Deus e o reedificas em três dias, te não
+              salvas agora a ti mesmo, descendo da cruz?!».{" "}
               <Text className="font-bold text-red-500">C.</Text> Escarnecendo
               desta maneira, os príncipes dos sacerdotes e os escribas diziam
               uns aos outros: <Text className="font-bold text-red-500">S.</Text>{" "}
@@ -703,7 +708,8 @@ export default function PageQuad62() {
             <Text className="latin">
               Et velum templi scissum est in duo, a summo usque deórsum. Videns
               autem centúrio, qui ex advérso stabat, quia sic clamans
-              exspirásset, ait: <Text className="latin">S.</Text> Vere hic homo
+              exspirásset, ait:{" "}
+              <Text className="font-bold text-red-500">S.</Text> Vere hic homo
               Fílius Dei erat.{" "}
               <Text className="font-bold text-red-500">C.</Text> Erant autem et
               mulíeres de longe aspiciéntes: inter quas erat María Magdaléne, et
@@ -714,7 +720,8 @@ export default function PageQuad62() {
             <Text className="vernacular">
               Então, rasgou-se o véu do templo em duas partes, de alto a baixo.
               E o centurião, que estava em frente, vendo que Jesus expirava,
-              disse em voz alta: <Text className="vernacular">S.</Text>{" "}
+              disse em voz alta:{" "}
+              <Text className="font-bold text-red-500">S.</Text>{" "}
               «Verdadeiramente, este homem era o Filho de Deus!».{" "}
               <Text className="font-bold text-red-500">C.</Text> Encontravam-se
               também ali algumas mulheres, olhando de longe, entre as quais

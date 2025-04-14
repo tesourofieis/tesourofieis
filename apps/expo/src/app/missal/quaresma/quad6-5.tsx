@@ -313,16 +313,16 @@ export default function PageQuad65() {
               Porventura não hei-de beber o cálice que deu meu Pai?».
             </Text>
             <Text className="latin">
-              <Text className="latin">C.</Text> Cohors ergo et tribúnus et
-              minístri Judæórum comprehendérunt Jesum, et ligavérunt eum: et
-              adduxérunt eum ad Annam primum, erat enim socer Cáiphæ, qui erat
-              póntifex anni illíus. Erat autem Cáiphas, qui consílium déderat
-              Judǽis: Quia expédit, unum hóminem mori pro pópulo. Sequebátur
-              autem Jesum Simon Petrus et álius discípulus. Discípulus autem
-              ille erat notus pontífici, et introívit cum Jesu in átrium
-              pontíficis. Petrus autem stabat ad óstium foris. Exívit ergo
-              discípulus álius, qui erat notus pontífici, et dixit ostiáriæ: et
-              introdúxit Petrum. Dicit ergo Petro ancílla ostiária:{" "}
+              <Text className="font-bold text-red-500">C.</Text> Cohors ergo et
+              tribúnus et minístri Judæórum comprehendérunt Jesum, et ligavérunt
+              eum: et adduxérunt eum ad Annam primum, erat enim socer Cáiphæ,
+              qui erat póntifex anni illíus. Erat autem Cáiphas, qui consílium
+              déderat Judǽis: Quia expédit, unum hóminem mori pro pópulo.
+              Sequebátur autem Jesum Simon Petrus et álius discípulus.
+              Discípulus autem ille erat notus pontífici, et introívit cum Jesu
+              in átrium pontíficis. Petrus autem stabat ad óstium foris. Exívit
+              ergo discípulus álius, qui erat notus pontífici, et dixit
+              ostiáriæ: et introdúxit Petrum. Dicit ergo Petro ancílla ostiária:{" "}
               <Text className="font-bold text-red-500">S.</Text> Numquid et tu
               ex discípulis es hóminis istíus?{" "}
               <Text className="font-bold text-red-500">C.</Text> Dicit ille:{" "}
@@ -345,10 +345,10 @@ export default function PageQuad65() {
               cædis?
             </Text>
             <Text className="vernacular">
-              <Text className="vernacular">C.</Text> Então a coorte, o tribuno e
-              os satélites dos judeus prenderam e amarraram Jesus. Depois
-              conduziram-n’O à presença de Anás, que era sogro de Caifás e
-              pontífice naquele ano. Fora Caifás quem dera este conselho aos
+              <Text className="font-bold text-red-500">C.</Text> Então a coorte,
+              o tribuno e os satélites dos judeus prenderam e amarraram Jesus.
+              Depois conduziram-n’O à presença de Anás, que era sogro de Caifás
+              e pontífice naquele ano. Fora Caifás quem dera este conselho aos
               judeus: «Convém mais que morra um só homem, do que todo o povo!».
               Entretanto, Simão-Pedro seguia Jesus com outro discípulo, o qual,
               sendo conhecido do pontífice, saiu, falou à porteira e fez entrar
@@ -377,9 +377,9 @@ export default function PageQuad65() {
               bates?».
             </Text>
             <Text className="latin">
-              <Text className="latin">C.</Text> Et misit eum Annas ligátum ad
-              Cáipham pontíficem. Erat autem Simon Petrus stans et calefáciens
-              se. Dixérunt ergo ei:{" "}
+              <Text className="font-bold text-red-500">C.</Text> Et misit eum
+              Annas ligátum ad Cáipham pontíficem. Erat autem Simon Petrus stans
+              et calefáciens se. Dixérunt ergo ei:{" "}
               <Text className="font-bold text-red-500">S.</Text> Numquid et tu
               ex discípulis ejus es?{" "}
               <Text className="font-bold text-red-500">C.</Text> Negávit ille et
@@ -514,8 +514,9 @@ export default function PageQuad65() {
             <Text className="vernacular">
               Era já de manhã; e por isso não entraram, a fim de que se não
               contaminassem e pudessem comer a Páscoa. Saiu, pois, Pilatos fora,
-              a ouvi-los, e disse: <Text className="vernacular">S.</Text> «Que
-              acusação fazeis a este homem?».{" "}
+              a ouvi-los, e disse:{" "}
+              <Text className="font-bold text-red-500">S.</Text> «Que acusação
+              fazeis a este homem?».{" "}
               <Text className="font-bold text-red-500">C.</Text> Responderam e
               disseram: <Text className="font-bold text-red-500">S.</Text> «Se
               Ele não fosse um malfeitor não to teríamos entregue».{" "}
@@ -630,8 +631,9 @@ export default function PageQuad65() {
               Jesus Nazarénus, Rex Judæórum. Hunc ergo títulum multi Judæórum
               legérunt, quia prope civitátem erat locus, ubi crucifíxus est
               Jesus. Et erat scriptum hebráice, græce et latíne. Dicébant ergo
-              Piláto pontífices Judæórum: <Text className="latin">S.</Text> Noli
-              scríbere Rex Judæórum, sed quia ipse dixit: Rex sum Judæórum.{" "}
+              Piláto pontífices Judæórum:{" "}
+              <Text className="font-bold text-red-500">S.</Text> Noli scríbere
+              Rex Judæórum, sed quia ipse dixit: Rex sum Judæórum.{" "}
               <Text className="font-bold text-red-500">C.</Text> Respóndit
               Pilátus: <Text className="font-bold text-red-500">S.</Text> Quod
               scripsi, scripsi.{" "}
@@ -654,11 +656,12 @@ export default function PageQuad65() {
               Nazareno, Rei dos Judeus». Muitos judeus leram este título, pois o
               lugar onde Jesus fora crucificado era perto da cidade. O título
               estava escrito em hebreu, grego e latim. Os pontífices diziam a
-              Pilatos: <Text className="vernacular">S.</Text> «Não escrevas Rei
-              dos judeus; mas sim que Ele dizia: Sou o Rei dos judeus».{" "}
-              <Text className="font-bold text-red-500">C.</Text> Respondeu-lhes
-              Pilatos: <Text className="font-bold text-red-500">S.</Text> «O que
-              eu escrevi fica escrito».{" "}
+              Pilatos: <Text className="font-bold text-red-500">S.</Text> «Não
+              escrevas Rei dos judeus; mas sim que Ele dizia: Sou o Rei dos
+              judeus». <Text className="font-bold text-red-500">C.</Text>{" "}
+              Respondeu-lhes Pilatos:{" "}
+              <Text className="font-bold text-red-500">S.</Text> «O que eu
+              escrevi fica escrito».{" "}
               <Text className="font-bold text-red-500">C.</Text> Entretanto,
               havendo sido crucificado, tomaram-Lhe os vestidos e dividiram-nos
               em quatro partes, sendo uma para cada soldado. Quanto à túnica,
