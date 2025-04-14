@@ -23,6 +23,7 @@ import * as Updates from "expo-updates";
 import React from "react";
 import {
   ActivityIndicator,
+  Linking,
   Platform,
   Pressable,
   StatusBar,
@@ -250,15 +251,33 @@ const Breadcrumbs = () => {
 };
 
 const Header = ({ withBC }: { withBC: boolean }) => {
+  const path = usePathname();
+
+  const { colorScheme } = useColorScheme();
+  const isDarkMode = colorScheme === "dark";
   if (withBC) {
     return (
-      <View className="flex-row items-center p-5 gap-5 border-b bg-sepia-300 dark:bg-sepia-900 w-full ">
-        <Link href="/" asChild className="rounded-full p-2 shadow-md">
-          <Pressable className="bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 active:dark:bg-sepia-700">
-            <FontAwesome6 name="arrow-left" size={15} color="#e53935" />
-          </Pressable>
-        </Link>
-        <Breadcrumbs />
+      <View className="flex-row items-center p-5 gap-2 border-b bg-sepia-300 dark:bg-sepia-900 w-full justify-between">
+        <View className="flex-row gap-3">
+          <Link href="/" asChild className="rounded-full p-2 shadow-md">
+            <Pressable className="bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 active:dark:bg-sepia-700">
+              <FontAwesome6 name="arrow-left" size={15} color="#e53935" />
+            </Pressable>
+          </Link>
+          <Breadcrumbs />
+        </View>
+        <Pressable
+          onPress={async () =>
+            await Linking.openURL(`https://tesourofieis.com${path}`)
+          }
+          className="p-2 items-center border rounded-lg border-sepia-700 dark:border-sepia-400 active:bg-sepia-200 active:dark:bg-sepia-700"
+        >
+          <FontAwesome6
+            name="globe"
+            size={15}
+            color={isDarkMode ? COLORS["300"] : COLORS["700"]}
+          />
+        </Pressable>
       </View>
     );
   }
