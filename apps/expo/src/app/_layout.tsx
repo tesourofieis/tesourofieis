@@ -1,4 +1,5 @@
 import { BerkshireSwash_400Regular } from "@expo-google-fonts/berkshire-swash";
+import * as WebBrowser from "expo-web-browser";
 
 import {
   NotoSerif_400Regular,
@@ -253,7 +254,12 @@ const Header = ({ withBC }: { withBC: boolean }) => {
     return (
       <View className="flex-row items-center p-5 gap-2 border-b bg-sepia-300 dark:bg-sepia-900 w-full justify-between">
         <View className="flex-row gap-3">
-          <Link href="/" asChild className="rounded-full p-2 shadow-md">
+          <Link
+            href="/"
+            dismissTo
+            asChild
+            className="rounded-full p-2 shadow-md"
+          >
             <Pressable className="bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 active:dark:bg-sepia-700">
               <FontAwesome6 name="arrow-left" size={15} color="#e53935" />
             </Pressable>
@@ -261,7 +267,18 @@ const Header = ({ withBC }: { withBC: boolean }) => {
           <Breadcrumbs />
         </View>
         <Pressable
-          onPress={() => Linking.openURL(`https://tesourofieis.com${path}`)}
+          onPress={async () => {
+            const url = `https://tesourofieis.com${path}`;
+            if (Platform.OS === "web") {
+              window.open(url, "_blank");
+            } else {
+              try {
+                await WebBrowser.openBrowserAsync(url);
+              } catch (error) {
+                console.error("Error opening URL:", error);
+              }
+            }
+          }}
           className="p-2 items-center border rounded-lg border-sepia-700 dark:border-sepia-400 active:bg-sepia-200 active:dark:bg-sepia-700"
         >
           <FontAwesome6
@@ -274,7 +291,7 @@ const Header = ({ withBC }: { withBC: boolean }) => {
     );
   }
   return (
-    <Link href="/">
+    <Link href="/" dismissTo>
       <View className="flex-row items-center p-5 gap-3 bg-sepia-300 dark:bg-sepia-900 w-full border-b active:bg-sepia-200 active:dark:bg-sepia-800">
         <FontAwesome6 name="book-bible" size={15} color="#e53935" />
         <Text className="text-lg text-sepia-800 dark:text-sepia-200 font-serif">
