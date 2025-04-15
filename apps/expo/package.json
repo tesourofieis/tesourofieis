@@ -63,7 +63,7 @@
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
-    "@babel/runtime": "^7.25.0",
+    "@babel/runtime": "^7.26.10",
     "@tesourofieis/tailwind-config": "workspace:*",
     "@tesourofieis/tsconfig": "workspace:*",
     "@types/babel__core": "^7.20.5",
