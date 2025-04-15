@@ -43,7 +43,7 @@ const externalLinks: ExternalLink[] = [
   },
 ];
 
-const openLink = async (
+export const openLink = async (
   url: string,
   setLoading: (loading: boolean) => void,
 ) => {

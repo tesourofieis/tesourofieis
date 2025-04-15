@@ -18,7 +18,7 @@ import * as SplashScreen from "expo-splash-screen";
 
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { DefaultTheme, ThemeProvider } from "@react-navigation/native";
-import { Link, Stack, usePathname, useRouter } from "expo-router";
+import { Link, Stack, usePathname } from "expo-router";
 import * as Updates from "expo-updates";
 import React from "react";
 import {
@@ -197,8 +197,6 @@ function RootLayoutNav() {
 const Breadcrumbs = () => {
   const pathname = usePathname();
 
-  const router = useRouter();
-
   // Skip empty segments and remove (tabs)
   const segments = pathname
     .split("/")
@@ -217,10 +215,6 @@ const Breadcrumbs = () => {
       .split(/[-_]/)
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(" ");
-  };
-
-  const _handlePress = (path: string) => {
-    router.navigate(path);
   };
 
   return (
@@ -267,9 +261,7 @@ const Header = ({ withBC }: { withBC: boolean }) => {
           <Breadcrumbs />
         </View>
         <Pressable
-          onPress={async () =>
-            await Linking.openURL(`https://tesourofieis.com${path}`)
-          }
+          onPress={() => Linking.openURL(`https://tesourofieis.com${path}`)}
           className="p-2 items-center border rounded-lg border-sepia-700 dark:border-sepia-400 active:bg-sepia-200 active:dark:bg-sepia-700"
         >
           <FontAwesome6
