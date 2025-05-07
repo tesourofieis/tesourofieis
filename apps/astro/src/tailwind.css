@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+html
+  body
+  .sl-markdown-content
+  :is(iframe)#kofiframe:not(:where(.not-content *)) {
+  height: 712px !important;
+  max-height: 712px !important;
+  min-height: 712px !important;
+  height: 712px !important;
+}
+
 @font-face {
   font-family: "Display";
   src: url("./assets/fonts/BerkshireSwash-Regular.ttf");
