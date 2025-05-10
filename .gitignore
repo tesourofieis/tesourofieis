@@ -52,3 +52,4 @@ apps/astro/.turbo
 apps/expo/.expo
 credentials.json
 apps/expo/credentials/ios
+.direnv

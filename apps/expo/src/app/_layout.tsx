@@ -24,7 +24,6 @@ import * as Updates from "expo-updates";
 import React from "react";
 import {
   ActivityIndicator,
-  Linking,
   Platform,
   Pressable,
   StatusBar,

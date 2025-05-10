@@ -1,12 +1,9 @@
 import { yyyyMMDD } from "./utils";
-
 import {
   addDays,
   getDate,
   getDay,
   getMonth,
-  getYear,
-  isAfter,
   isSameDay,
   isSunday,
   nextSunday,
@@ -19,12 +16,8 @@ import { type Mass, massManager } from "./observanceManager";
 import { type RuleResult, Rules } from "./rules";
 
 export class Day {
-  date: string;
   mass: Mass[] = [];
-
-  constructor(date: string) {
-    this.date = date;
-  }
+  constructor(public date: string) {}
 
   get all() {
     return this.mass;
@@ -35,23 +28,23 @@ export class Day {
   }
 }
 
-class Calendar {
+export class Calendar {
   private container: Map<string, Day>;
-  public year: number;
 
-  constructor(year: number) {
-    this.year = year;
+  constructor(public year: number) {
     this.container = new Map();
-    this.buildEmptyCalendar(year);
+    this.buildEmptyCalendar();
     this.create();
   }
 
-  private buildEmptyCalendar(year: number): void {
-    let date = new Date(year, 0, 1);
-
-    while (date.getFullYear() === year) {
-      this.container.set(yyyyMMDD(date), new Day(yyyyMMDD(date)));
-      date = addDays(date, 1);
+  private buildEmptyCalendar(): void {
+    for (
+      let date = new Date(this.year, 0, 1);
+      date.getFullYear() === this.year;
+      date = addDays(date, 1)
+    ) {
+      const dateString = yyyyMMDD(date);
+      this.container.set(dateString, new Day(dateString));
     }
   }
 
@@ -62,79 +55,59 @@ class Calendar {
   }
 
   private fillInTemporaDays() {
-    // """
-    // Days depending on variable date, such as Easter or Advent
-    // """
-    // # Inserting blocks
-
-    // if (isAfter(this.calcHolyFamily(), new Date(this.year, 0, 7))) {
-    //   this.insertBlock(
-    //     new Date(this.year, 0, 7),
-    //     massManager.getFeriaByTypeId("post-epiphany")
-    //   );
-    // }
-
+    // Insert blocks
     this.insertBlock(
       this.calcHolyFamily(),
-      massManager.getByTypeId("post-epiphany"),
+      massManager.getByTypeId("post-epiphany")
     );
     this.insertBlock(
-      this.calcSeptuagesima(this.year),
-      massManager.getByTypeId("pre-lent-to-pentcost"),
+      this.calcSeptuagesima(),
+      massManager.getByTypeId("pre-lent-to-pentcost")
     );
     this.insertBlock(
-      this.calcSaturdayBefore24SundayAfterPentecost(this.year),
+      this.calcSaturdayBefore24SundayAfterPentecost(),
       massManager.getByTypeId("pentepi"),
       true,
       false,
-      this.calcFirstAdventSunday(this.year),
+      this.calcFirstAdventSunday()
     );
     this.insertBlock(
-      this.calc24SundayAfterPentecost(this.year),
-      massManager.getByTypeId("week-24-after-pentcost"),
+      this.calc24SundayAfterPentecost(),
+      massManager.getByTypeId("week-24-after-pentcost")
     );
     this.insertBlock(
-      this.calcFirstAdventSunday(this.year),
+      this.calcFirstAdventSunday(),
       massManager.getByTypeId("advent"),
       false,
       false,
-      new Date(this.year, 11, 23),
+      new Date(this.year, 11, 23)
     );
     this.insertBlock(
-      this.calcEmberWednesdaySeptember(this.year),
-      massManager.getByTypeId("ember-september"),
+      this.calcEmberWednesdaySeptember(),
+      massManager.getByTypeId("ember-september")
     );
 
-    // # Inserting single days
-    const holyNameDate = this.calcHolyName(this.year);
+    // Insert single days
+    this.insertSingleDay(this.calcHolyName(), "TEMPORA_NAT2_0");
 
-    const holyName = this.container.get(yyyyMMDD(holyNameDate));
-    if (holyName) {
-      holyName.mass.push(
-        massManager.createMassWithDate(
-          massManager.getById("TEMPORA_NAT2_0"),
-          yyyyMMDD(holyNameDate),
-        ),
-      );
+    this.insertSingleDay(this.calcChristKing(), "SANCTI_10_DUR");
+
+    const christmasOctaveSunday = this.calcSundayChristmasOctave();
+    if (christmasOctaveSunday) {
+      const mass = massManager.getById("TEMPORA_NAT1_0");
+      if (mass) {
+        this.insertBlock(christmasOctaveSunday, [mass]);
+      }
     }
+  }
 
-    const christKingDate = this.calcChristKing(this.year);
-
-    const christKing = this.container.get(yyyyMMDD(christKingDate));
-    if (christKing) {
-      christKing.mass.push(
-        massManager.createMassWithDate(
-          massManager.getById("SANCTI_10_DUR"),
-          yyyyMMDD(christKingDate),
-        ),
-      );
-    }
-
-    const christmasOctaveSunday = this.calcSundayChristmasOctave(this.year);
-    if (christmasOctaveSunday && massManager.getById("TEMPORA_NAT1_0")) {
-      this.insertBlock(christmasOctaveSunday, [
-        massManager.getById("TEMPORA_NAT1_0")!,
-      ]);
+  private insertSingleDay(date: Date, massId: string) {
+    const day = this.container.get(yyyyMMDD(date));
+    if (day) {
+      const mass = massManager.getById(massId);
+      if (mass) {
+        day.mass.push(massManager.createMassWithDate(mass, yyyyMMDD(date)));
+      }
     }
   }
 
@@ -143,181 +116,161 @@ class Calendar {
     block: Mass[],
     reverse = false,
     overwrite = true,
-    stopDate?: Date,
+    stopDate?: Date
   ) {
-    if (reverse) {
-      // TODO: use toReversed in order not to mutate the original
-      // or slice
-      block = block.slice().reverse();
-    }
+    const processBlock = reverse ? block.slice().reverse() : block;
 
-    for (const [ii, observance] of block.entries()) {
+    for (const [ii, observance] of processBlock.entries()) {
+      if (!observance) continue;
+
       const currentDate = addDays(new Date(date), reverse ? -ii : ii);
-
-      if (!observance) {
-        continue;
-      }
-
       const dateKey = yyyyMMDD(currentDate);
+      const day = this.container.get(dateKey);
 
-      if (this.container.get(dateKey)?.mass.length && !overwrite) {
-        break;
-      }
+      if (!day) continue;
+      if (day.mass.length && !overwrite) break;
+      if (stopDate && isSameDay(stopDate, subDays(currentDate, 1))) break;
 
-      if (stopDate && isSameDay(stopDate, subDays(currentDate, 1))) {
-        break;
-      }
-
-      const findDate = this.container.get(dateKey);
-      if (findDate && observance) {
-        findDate.mass.push(massManager.createMassWithDate(observance, dateKey));
-      }
+      day.mass.push(massManager.createMassWithDate(observance, dateKey));
     }
   }
 
   private fillInSanctiDays() {
-    for (const [date] of this.container) {
-      const m = new Date(date).getUTCMonth();
-      const d = new Date(date).getUTCDate();
-      const days = massManager
-        .getByFlexibility("santos")
-        .filter((ii) => ii.month === m + 1 && ii.day === d)
-        .map((ii) => massManager.createMassWithDate(ii, date));
+    for (const [date, day] of this.container) {
+      const dateObj = new Date(date);
+      const m = dateObj.getUTCMonth();
+      const d = dateObj.getUTCDate();
 
-      this.container.get(date)?.mass.push(...days);
+      const masses = massManager
+        .getByFlexibility("santos")
+        .filter((mass) => mass.month === m + 1 && mass.day === d)
+        .map((mass) => massManager.createMassWithDate(mass, date));
+
+      day.mass.push(...masses);
     }
   }
 
-  // Apply `kalendar.rules.*` to the initially instantiated Calendar to fix the situations
-  // where more than one Observance falls in the same day.
   private resolveConcurrency() {
-    for (const [date, day] of this.container.entries()) {
+    for (const [date, day] of this.container) {
       const rules = new Rules(day.mass, date, this);
       const result = this.applyRules(rules);
 
       if (result?.observances) {
         const temporaObservances = result.observances.filter(
-          (i) => i.flexibility === "tempora",
+          (obs) => obs.flexibility === "tempora"
         );
 
         if (temporaObservances.length > 1) {
-          const betterRanking = temporaObservances
-            .sort((a, b) => {
-              return a.rank - b.rank;
-            })
-            .sort((a, b) => {
-              if (a.week && b.week) {
-                return a.week - b.week;
-              }
-              return 0;
-            })[0];
+          // Keep only the highest ranking temporal observance
+          const bestTempora = temporaObservances.sort(
+            (a, b) =>
+              a.rank - b.rank || (a.week && b.week ? a.week - b.week : 0)
+          )[0];
+
           result.observances = [
-            ...result.observances.filter((i) => i.flexibility !== "tempora"),
-            betterRanking,
+            ...result.observances.filter(
+              (obs) => obs.flexibility !== "tempora"
+            ),
+            bestTempora,
           ];
         }
       }
 
-      if (!result.observances?.filter((i) => i.id).length) {
-        // Handle case where no result.observances exists
-        let currentDate = new Date(date);
-
-        // Find the latest Sunday or January 6th
-        while (
-          !isSunday(currentDate) &&
-          !(getMonth(currentDate) === 0 && getDate(currentDate) === 6)
-        ) {
-          if (
-            getYear(currentDate) === getYear(new Date(date)) &&
-            getMonth(currentDate) === 0 &&
-            getDate(currentDate) === 1
-          ) {
-            break;
-          }
-          currentDate = subDays(currentDate, 1);
-        }
-
-        const previousDay = this.getDay(yyyyMMDD(currentDate));
-
-        if (previousDay) {
-          this.updateDay(date, [
-            massManager.createMassWithDate(
-              {
-                ...previousDay.mass[0],
-                name: "Feria",
-              },
-              date,
-            ),
-          ]);
-        }
+      // Handle empty days
+      if (!result.observances?.some((obs) => obs.id)) {
+        this.handleEmptyDay(date);
       }
 
+      // Handle shifted observances
       if (result?.toShift?.date) {
-        const shiftedDay =
-          this.container.get(result.toShift.date) ||
-          new Day(result.toShift.date);
-
-        shiftedDay.mass = this.removeDuplicates([
-          ...shiftedDay.mass,
-          ...result.toShift.observances,
-        ]);
-
-        this.container.set(result.toShift.date, shiftedDay);
+        this.handleShiftedDay(result.toShift);
       }
 
+      // Update current day's observances
       if (result?.observances?.length) {
         day.mass = this.removeDuplicates(result.observances);
       }
-      this.container.set(date, day);
     }
+  }
+
+  private handleEmptyDay(date: string) {
+    let currentDate = new Date(date);
+    const yearStart = new Date(this.year, 0, 1);
+
+    // Find the latest Sunday or January 6th
+    while (
+      !isSunday(currentDate) &&
+      !(getMonth(currentDate) === 0 && getDate(currentDate) === 6)
+    ) {
+      if (isSameDay(currentDate, yearStart)) break;
+      currentDate = subDays(currentDate, 1);
+    }
+
+    const previousDay = this.getDay(yyyyMMDD(currentDate));
+    if (previousDay?.mass[0]) {
+      this.updateDay(date, [
+        massManager.createMassWithDate(
+          { ...previousDay.mass[0], name: "Feria" },
+          date
+        ),
+      ]);
+    }
+  }
+
+  private handleShiftedDay(toShift: { date?: string; observances: Mass[] }) {
+    const shiftedDay =
+      this.container.get(toShift.date ?? "") || new Day(toShift.date ?? "");
+    shiftedDay.mass = this.removeDuplicates([
+      ...shiftedDay.mass,
+      ...toShift.observances,
+    ]);
+    this.container.set(toShift.date ?? "", shiftedDay);
   }
 
   private applyRules(rules: Rules): RuleResult {
-    let currentObservances = rules.observances;
-
     const result = rules.applyRules();
 
-    if (result) {
-      if (result.toShift?.observances.length) {
-        // Remove shifted observances from current observances
-        currentObservances = currentObservances.filter(
-          (obs) =>
-            !result.toShift!.observances.some(
-              (shiftedObs) => shiftedObs.id === obs.id,
-            ),
-        );
-        return {
-          observances: result.observances || currentObservances,
-          toShift: result.toShift,
-        };
-      }
-      return result;
+    if (!result) {
+      return { observances: rules.observances };
     }
 
-    // If no rule was applied, return the original observances
-    return { observances: currentObservances };
+    if (result.toShift?.observances.length) {
+      // Remove shifted observances from current observances
+      const currentObservances = rules.observances.filter(
+        (obs) =>
+          !result.toShift!.observances.some((shifted) => shifted.id === obs.id)
+      );
+
+      return {
+        observances: result.observances || currentObservances,
+        toShift: result.toShift,
+      };
+    }
+
+    return result;
   }
 
   private removeDuplicates(masses: Mass[]): Mass[] {
+    // Sort masses by rank (and local status)
     masses.sort((a, b) => {
       if (a.rank === b.rank) {
-        if (a.local) return 1;
-        if (b.local) return -1;
-        return 0;
+        return a.local ? 1 : b.local ? -1 : 0;
       }
-
       return a.rank - b.rank;
     });
+
+    // Keep only unique IDs
     const seen = new Set<string>();
     return masses.filter((mass) => {
-      const id = mass.id; // Assuming each Mass has a unique `id`
-      if (seen.has(id)) return false;
-      seen.add(id);
+      if (seen.has(mass.id)) return false;
+      seen.add(mass.id);
       return true;
     });
   }
 
-  private calcEasterSunday(year: number): Date {
+  // Easter calculation - using algorithm for Julian calendar
+  private calcEasterSunday(): Date {
+    const year = this.year;
     const a = year % 19;
     const b = Math.floor(year / 100);
     const c = year % 100;
@@ -332,145 +285,97 @@ class Calendar {
     const m = Math.floor((a + 11 * h + 22 * l) / 451);
     const month = Math.floor((h + l - 7 * m + 114) / 31);
     const day = ((h + l - 7 * m + 114) % 31) + 1;
-    const easter = new Date(year, month - 1, day);
 
-    return easter;
+    return new Date(year, month - 1, day);
   }
 
+  // Calendar date calculations
   private calcHolyFamily(): Date {
     return nextSunday(new Date(this.year, 0, 6));
   }
 
-  private calcSeptuagesima(year: number): Date {
-    // """ Septuagesima Sunday.
-    //
-    // Beginning of the pre-Lenten season (Shrovetide).
-    // It's 63 days before Ressurection, ninth Sunday before Easter, the third before Ash Wednesday.
-    // First day of the Ressurection Sunday - related block.
-    // """
-    const easter = this.calcEasterSunday(year);
-    return subDays(easter, 63);
+  private calcSeptuagesima(): Date {
+    // 63 days before Easter
+    return subDays(this.calcEasterSunday(), 63);
   }
 
-  private calcFirstAdventSunday(year: number): Date {
-    // """
-    // First Sunday of Advent - November 27 if it's Sunday, otherwise closest Sunday.
-    // """
-    const christmasDay = new Date(year, 11, 25);
+  private calcFirstAdventSunday(): Date {
+    const christmasDay = new Date(this.year, 11, 25);
     const weekday = getDay(christmasDay);
 
-    switch (weekday) {
-      case 0: // Sunday
-        return new Date(getYear(christmasDay), 10, 27);
-      case 1: // Monday
-        return new Date(getYear(christmasDay), 11, 3);
-      case 2: // Tuesday
-        return new Date(getYear(christmasDay), 11, 2);
-      case 3: // Wednesday
-        return new Date(getYear(christmasDay), 11, 1);
-      case 4: // Thursday
-        return new Date(getYear(christmasDay), 10, 30);
-      case 5: // Friday
-        return new Date(getYear(christmasDay), 10, 29);
-      default: // Saturday
-        return new Date(getYear(christmasDay), 10, 28);
+    // Map Christmas weekday to Advent start date
+    const adventDates = [
+      new Date(this.year, 10, 27), // Sunday
+      new Date(this.year, 11, 3), // Monday
+      new Date(this.year, 11, 2), // Tuesday
+      new Date(this.year, 11, 1), // Wednesday
+      new Date(this.year, 10, 30), // Thursday
+      new Date(this.year, 10, 29), // Friday
+      new Date(this.year, 10, 28), // Saturday
+    ];
+
+    return adventDates[weekday];
+  }
+
+  private calc24SundayAfterPentecost(): Date {
+    return previousSunday(this.calcFirstAdventSunday());
+  }
+
+  private calcSaturdayBefore24SundayAfterPentecost(): Date {
+    return previousSaturday(this.calc24SundayAfterPentecost());
+  }
+
+  private calcEmberWednesdaySeptember(): Date {
+    // Find third Sunday in September
+    let date = new Date(this.year, 8, 15); // Start on 15th
+    while (!isSunday(date) || getDate(date) > 21) {
+      date = addDays(date, 1);
+      if (getMonth(date) > 8) break; // Safety check
     }
+    return nextWednesday(date);
   }
 
-  private calc24SundayAfterPentecost(year: number): Date {
-    // """ 24th Sunday after Pentecost.
-    //
-    // Last Sunday before First Sunday of Advent.
-    // It will be always TEMPORA_PENT24_0, which will be placed either:
-    // * instead of TEMPORA_PENT23_0
-    //   if the number of TEMPORA_PENT*_0 Sundays in given year == 23)
-    // * directly after a week starting with TEMPORA_PENT23_0
-    //   if the number of TEMPORA_PENT*_0 Sundays in given year == 24)
-    // * directly after a week starting with TEMPORA_EPI6_0 (moved from post-epiphania period)
-    //   if the number of TEMPORA_PENT*_0 Sundays in given year > 24)
-    // """
-    return previousSunday(new Date(this.calcFirstAdventSunday(year)));
-  }
+  private calcHolyName(): Date {
+    // First Sunday of year, unless it's 1st, 6th or 7th January
+    let date = new Date(this.year, 0, 1);
 
-  private calcSaturdayBefore24SundayAfterPentecost(year: number): Date {
-    // """ Last Saturday before 24th Sunday after Pentecost.
-    //
-    // This is the end of potentially "empty" period that might appear
-    // between 23rd and 24th Sunday after Pentecost if Easter is early.
-    // In such case one or more Sundays after Epiphany (TEMPORA_EPI*_0) are moved here to "fill the gap"
-
-    return previousSaturday(new Date(this.calc24SundayAfterPentecost(year)));
-  }
-
-  private calcEmberWednesdaySeptember(year: number): Date {
-    // """ Wednesday of the Ember Days of September.
-    //
-    // Ember Wednesday in September is a Wednesday after third Sunday
-    // of September according to John XXIII's motu proprio
-    // "Rubricarum instructum" of June 25 1960.
-    // """
-    let d = new Date(year, 8, 1);
-    while (getMonth(d) === 8) {
-      if (isSunday(d) && getDate(d) >= 15 && getDate(d) <= 21) {
-        break;
+    while (getDate(date) <= 7) {
+      if (isSunday(date)) {
+        const day = getDate(date);
+        return day === 1 || day === 6 || day === 7
+          ? new Date(this.year, 0, 2)
+          : date;
       }
-      d = addDays(d, 1);
-    }
-    return nextWednesday(d);
-  }
-
-  private calcHolyName(year: number) {
-    // """ The Feast of the Holy Name of Jesus.
-    //
-    // Kept on the First Sunday of the year; but if this Sunday falls on
-    // 1st, 6th or 7th January, the feast is kept on 2nd January.
-    // """
-    let d = new Date(year, 0, 1);
-
-    while (getDate(d) <= 7) {
-      if (isSunday(d)) {
-        if (getDate(d) === 1 || getDate(d) === 6 || getDate(d) === 7) {
-          return new Date(year, 0, 2);
-        }
-
-        return d;
-      }
-
-      d = addDays(d, 1);
+      date = addDays(date, 1);
     }
 
-    console.error("Unexpected condition: Holy Name date not found.");
+    // Fallback - should never reach here
+    return new Date(this.year, 0, 2);
   }
 
-  private calcChristKing(year: number): Date {
-    // The Feast of Christ the King, last Sunday of October.
-    const d = new Date(year, 10, 1);
-
-    return previousSunday(d);
+  private calcChristKing(): Date {
+    // Last Sunday of October
+    return previousSunday(new Date(this.year, 10, 1));
   }
 
-  private calcSundayChristmasOctave(year: number): Date | null {
-    // """
-    // Sunday within the Octave of Christmas, falls between Dec 26 and Dec 31
-    // """
-    let d = new Date(year, 11, 27); // December 27
-    while (d.getFullYear() === year) {
-      if (isSunday(d)) {
-        return d;
-      }
-      d = addDays(d, 1);
+  private calcSundayChristmasOctave(): Date | null {
+    // Sunday between Dec 26-31
+    for (let day = 26; day <= 31; day++) {
+      const date = new Date(this.year, 11, day);
+      if (isSunday(date)) return date;
     }
     return null;
   }
 
-  public get(date: string) {
+  public get(date: string): Day | undefined {
     return this.container.get(date);
   }
 
   public findDay(observanceId?: string): [string, Day] | undefined {
     if (!observanceId) return;
+
     for (const [date, day] of this.container) {
-      if (day.all.some((observance) => observance.id === observanceId)) {
+      if (day.all.some((obs) => obs.id === observanceId)) {
         return [date, day];
       }
     }
@@ -498,15 +403,10 @@ class Calendar {
     return days;
   }
 
-  // Method to allow adding or updating masses for a specific day
   public updateDay(date: string, masses: Mass[]): void {
     const day = this.getDay(date);
     if (day) {
       day.mass = masses;
-    } else {
-      console.warn(`Day ${date} not found in calendar`);
     }
   }
 }
-
-export { Calendar };

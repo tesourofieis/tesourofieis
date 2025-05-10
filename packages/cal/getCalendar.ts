@@ -33,4 +33,10 @@ function getNovenas(date: string) {
   return novenaObservances;
 }
 
+function getSeason(date: string) {
+  const calendar = new Calendar(getYear(date));
+
+  const day = calendar.getDay(date);
+}
+
 export { getCalendar, getCalendarDay, getNovenas };
