@@ -14,11 +14,11 @@ interface ExternalLink {
 
 const externalLinks: ExternalLink[] = [
   {
-    name: "Patreon",
-    url: "https://patreon.com/tesourofieis",
-    icon: "patreon",
+    name: "KO-FI",
+    url: "https://ko-fi.com/tesourofieis",
+    icon: "mug-hot",
     title: "Ajudar",
-    desc: "Ajude a manter o Tesouro dos Fiéis com uma doação mensal.",
+    desc: "Ajude a manter o Tesouro dos Fiéis com uma doação.",
   },
   {
     name: "Email",
@@ -45,7 +45,7 @@ const externalLinks: ExternalLink[] = [
 
 export const openLink = async (
   url: string,
-  setLoading: (loading: boolean) => void,
+  setLoading: (loading: boolean) => void
 ) => {
   setLoading(true);
   try {
@@ -72,7 +72,7 @@ export default function ExternalLinks() {
           key={link.name}
           onPress={() =>
             openLink(link.url, (loading) =>
-              setLoadingLink(loading ? link.name : null),
+              setLoadingLink(loading ? link.name : null)
             )
           }
           className="flex-col items-start py-2 px-3 gap-1 rounded-lg bg-sepia-800 active:bg-sepia-700"

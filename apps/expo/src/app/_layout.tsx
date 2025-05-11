@@ -11,7 +11,7 @@ import { NotoSans_400Regular } from "@expo-google-fonts/noto-sans";
 
 import { useFonts } from "expo-font";
 import { useColorScheme } from "nativewind";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import "../global.css";
 
@@ -34,6 +34,7 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { NotificationsProvider } from "~/providers/notifications";
+import { openLink } from "~/components/External";
 
 SplashScreen.preventAutoHideAsync();
 SplashScreen.setOptions({
@@ -246,6 +247,7 @@ const Breadcrumbs = () => {
 
 const Header = ({ withBC }: { withBC: boolean }) => {
   const path = usePathname();
+  const [_, setLoadingLink] = useState<string | null>(null);
 
   const { colorScheme } = useColorScheme();
   const isDarkMode = colorScheme === "dark";
@@ -266,18 +268,11 @@ const Header = ({ withBC }: { withBC: boolean }) => {
           <Breadcrumbs />
         </View>
         <Pressable
-          onPress={async () => {
-            const url = `https://tesourofieis.com${path}`;
-            if (Platform.OS === "web") {
-              window.open(url, "_blank");
-            } else {
-              try {
-                await WebBrowser.openBrowserAsync(url);
-              } catch (error) {
-                console.error("Error opening URL:", error);
-              }
-            }
-          }}
+          onPress={async () =>
+            openLink(`https://tesourofieis.com${path}`, (loading) =>
+              setLoadingLink(loading ? "tesourofieis" : null)
+            )
+          }
           className="p-2 items-center border rounded-lg border-sepia-700 dark:border-sepia-400 active:bg-sepia-200 active:dark:bg-sepia-700"
         >
           <FontAwesome6

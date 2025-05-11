@@ -13,86 +13,66 @@ type Prayer = {
 };
 
 const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
-  Epiphany: [
-    { title: "Orações da Epifania", href: "/devocionario/temporas/epifania" },
+  Epifania: [
     {
-      title: "Novena dos Reis Magos",
-      href: "/devocionario/temporas/reis-magos",
+      title: "Ave, Regína cælórum",
+      href: "/devocionario/antifonas/avereginacaelorum",
     },
   ],
-  Advent: [
-    { title: "Coroa do Advento", href: "/devocionario/temporas/coroa-advento" },
-    { title: "Novena de Natal", href: "/devocionario/temporas/novena-natal" },
+  Advento: [
+    {
+      title: "Ave, Regína cælórum",
+      href: "/devocionario/antifonas/avereginacaelorum",
+    },
   ],
-  Septuagesima: [
+  Septuagésima: [
     {
       title: "Preparação para Quaresma",
       href: "/devocionario/temporas/pre-quaresma",
     },
   ],
-  Lent: [
-    { title: "Via Sacra", href: "/devocionario/viasacra" },
-    { title: "Jejum e Abstinência", href: "/devocionario/temporas/jejum" },
+  Quaresma: [{ title: "Via Sacra", href: "/devocionario/viasacra" }],
+  Paixão: [{ title: "Via Sacra", href: "/devocionario/viasacra" }],
+  Páscoa: [
     {
-      title: "Meditações Quaresmais",
-      href: "/devocionario/temporas/meditacoes-quaresma",
+      title: "Regina Coeli",
+      href: "/devocionario/antifonas/reginacaeli",
+      description: "Antifona",
     },
   ],
-  Passiontide: [
-    { title: "Via Sacra", href: "/devocionario/viasacra" },
-    { title: "Jejum e Abstinência", href: "/devocionario/temporas/jejum" },
+  Natal: [
     {
-      title: "Meditações Quaresmais",
-      href: "/devocionario/temporas/meditacoes-quaresma",
+      title: "Ave, Regína cælórum",
+      href: "/devocionario/antifonas/avereginacaelorum",
     },
   ],
-  Easter: [
-    { title: "Regina Coeli", href: "/devocionario/temporas/regina-coeli" },
-    {
-      title: "Novena do Divino Espírito Santo",
-      href: "/devocionario/temporas/novena-espirito-santo",
-    },
-  ],
-  Christmas: [
-    { title: "Novena de Natal", href: "/devocionario/temporas/novena-natal" },
-    {
-      title: "Orações ao Menino Jesus",
-      href: "/devocionario/temporas/menino-jesus",
-    },
-  ],
-  Pentecost: [
-    {
-      title: "Novena do Espírito Santo",
-      href: "/devocionario/temporas/novena-espirito-santo",
-    },
+  Pentecostes: [
     {
       title: "Veni Creator Spiritus",
-      href: "/devocionario/temporas/veni-creator",
+      href: "/devocionario/oracoes/espiritosanto",
     },
+    { title: "Salve Regina", href: "/devocionario/antifonas/salveregina" },
   ],
-  "Time after Pentecost": [
-    {
-      title: "Novena do Espírito Santo",
-      href: "/devocionario/temporas/novena-espirito-santo",
-    },
+  "Tempo depois Pentecostes": [
     {
       title: "Veni Creator Spiritus",
-      href: "/devocionario/temporas/veni-creator",
+      href: "/devocionario/oracoes/espiritosanto",
     },
+    { title: "Salve Regina", href: "/devocionario/antifonas/salveregina" },
   ],
 };
 
 // Icons for each liturgical season
 const CATEGORY_ICONS: Record<Season, string> = {
-  Epiphany: "star-of-david",
-  Advent: "calendar-day",
-  Septuagesima: "seedling",
-  Lent: "cross",
-  Passiontide: "cross",
-  Easter: "dove",
-  Christmas: "baby",
-  Pentecost: "fire-flame-curved",
-  "Time after Pentecost": "praying-hands",
+  Epifania: "stars",
+  Advento: "calendar-day",
+  Septuagésima: "seedling",
+  Quaresma: "cross",
+  Paixão: "cross",
+  Páscoa: "dove",
+  Natal: "baby",
+  Pentecostes: "fire",
+  "Tempo depois Pentecostes": "fire",
 };
 
 // Component to display seasonal prayers based on current liturgical category
@@ -112,7 +92,7 @@ export default function LiturgicalSeason() {
   }
 
   return (
-    <View className="my-4">
+    <View className="m-5 border p-3 bg-sepia-300 dark:bg-gray-700 rounded-lg border-sepia-500">
       <View className="flex-row items-center mb-2">
         <FontAwesome6
           name={CATEGORY_ICONS[season] || "church"}
@@ -120,14 +100,14 @@ export default function LiturgicalSeason() {
           color={iconColor}
         />
         <Text className={`font-bold ${textColor} text-left pl-3 text-lg`}>
-          Orações do Tempo Litúrgico
+          {season}
         </Text>
       </View>
 
-      <View className="space-y-2">
+      <View className="">
         {prayers.map((prayer, index) => (
           <Link key={index} href={prayer.href} asChild>
-            <View className="bg-sepia-100 dark:bg-sepia-700 rounded-lg p-4 border border-sepia-300 dark:border-sepia-600 active:bg-sepia-200 active:dark:bg-sepia-600">
+            <View className="w-1/3 bg-sepia-100 dark:bg-sepia-700 rounded-lg p-4 border border-sepia-300 dark:border-sepia-600 active:bg-sepia-200 active:dark:bg-sepia-600">
               <Text className={`font-bold ${textColor}`}>{prayer.title}</Text>
               {prayer.description && (
                 <Text className="text-sepia-600 dark:text-sepia-400 text-sm mt-1">

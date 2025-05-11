@@ -17,16 +17,16 @@ import { type Mass, massManager } from "./observanceManager";
 import { type RuleResult, Rules } from "./rules";
 
 export enum LiturgicalSeason {
-  ADVENT = "Advent",
-  CHRISTMAS = "Christmas",
-  CHRISTMAS_EARLY = "Christmas", // Christmas season at the start of the year
-  EPIPHANY = "Epiphany",
-  SEPTUAGESIMA = "Septuagesima",
-  LENT = "Lent",
-  PASSIONTIDE = "Passiontide",
-  EASTER = "Easter",
-  PENTECOST = "Pentecost",
-  TIME_AFTER_PENTECOST = "Time after Pentecost",
+  ADVENT = "Advento",
+  CHRISTMAS = "Natal",
+  CHRISTMAS_EARLY = "Natal", // Christmas season at the start of the year
+  EPIPHANY = "Epifania",
+  SEPTUAGESIMA = "Septuagésima",
+  LENT = "Quaresma",
+  PASSIONTIDE = "Paixão",
+  EASTER = "Páscoa",
+  PENTECOST = "Pentecostes",
+  TIME_AFTER_PENTECOST = "Tempo depois Pentecostes",
 }
 
 export class Day {
