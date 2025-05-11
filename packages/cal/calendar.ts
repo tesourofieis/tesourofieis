@@ -1,6 +1,7 @@
 import { yyyyMMDD } from "./utils";
 import {
   addDays,
+  endOfYear,
   getDate,
   getDay,
   getMonth,
@@ -15,8 +16,23 @@ import {
 import { type Mass, massManager } from "./observanceManager";
 import { type RuleResult, Rules } from "./rules";
 
+export enum LiturgicalSeason {
+  ADVENT = "Advent",
+  CHRISTMAS = "Christmas",
+  CHRISTMAS_EARLY = "Christmas", // Christmas season at the start of the year
+  EPIPHANY = "Epiphany",
+  SEPTUAGESIMA = "Septuagesima",
+  LENT = "Lent",
+  PASSIONTIDE = "Passiontide",
+  EASTER = "Easter",
+  PENTECOST = "Pentecost",
+  TIME_AFTER_PENTECOST = "Time after Pentecost",
+}
+
 export class Day {
   mass: Mass[] = [];
+  private _season: LiturgicalSeason = "" as LiturgicalSeason;
+
   constructor(public date: string) {}
 
   get all() {
@@ -26,13 +42,23 @@ export class Day {
   getTemporaName() {
     return this.mass[0]?.name;
   }
+
+  get season(): LiturgicalSeason {
+    return this._season;
+  }
+
+  set season(value: LiturgicalSeason) {
+    this._season = value;
+  }
 }
 
 export class Calendar {
   private container: Map<string, Day>;
+  private _seasonBoundaries: Map<LiturgicalSeason, [Date, Date]>;
 
   constructor(public year: number) {
     this.container = new Map();
+    this._seasonBoundaries = new Map();
     this.buildEmptyCalendar();
     this.create();
   }
@@ -52,6 +78,102 @@ export class Calendar {
     this.fillInTemporaDays();
     this.fillInSanctiDays();
     this.resolveConcurrency();
+    this.calculateSeasonBoundaries();
+    this.applySeasons();
+  }
+
+  private calculateSeasonBoundaries() {
+    const christmas = new Date(this.year, 11, 25);
+    const epiphany = new Date(this.year, 0, 6);
+    const septuagesima = this.calcSeptuagesima();
+    const easterSunday = this.calcEasterSunday();
+    const ashWednesday = subDays(easterSunday, 46);
+    const passionSunday = subDays(easterSunday, 14);
+    const pentecostSunday = addDays(easterSunday, 49);
+    const adventStart = this.calcFirstAdventSunday();
+
+    // Set season boundaries
+    this._seasonBoundaries.set(LiturgicalSeason.ADVENT, [
+      adventStart,
+      subDays(christmas, 1),
+    ]);
+
+    this._seasonBoundaries.set(LiturgicalSeason.CHRISTMAS, [
+      christmas,
+      endOfYear(this.year),
+    ]);
+
+    this._seasonBoundaries.set(LiturgicalSeason.CHRISTMAS_EARLY, [
+      new Date(this.year, 0, 1),
+      subDays(epiphany, 1),
+    ]);
+
+    this._seasonBoundaries.set(LiturgicalSeason.EPIPHANY, [
+      epiphany,
+      subDays(septuagesima, 1),
+    ]);
+
+    this._seasonBoundaries.set(LiturgicalSeason.SEPTUAGESIMA, [
+      septuagesima,
+      subDays(ashWednesday, 1),
+    ]);
+
+    this._seasonBoundaries.set(LiturgicalSeason.LENT, [
+      ashWednesday,
+      subDays(passionSunday, 1),
+    ]);
+
+    this._seasonBoundaries.set(LiturgicalSeason.PASSIONTIDE, [
+      passionSunday,
+      subDays(easterSunday, 1),
+    ]);
+
+    this._seasonBoundaries.set(LiturgicalSeason.EASTER, [
+      easterSunday,
+      subDays(pentecostSunday, 1),
+    ]);
+
+    this._seasonBoundaries.set(LiturgicalSeason.PENTECOST, [
+      pentecostSunday,
+      nextSunday(pentecostSunday),
+    ]);
+
+    this._seasonBoundaries.set(LiturgicalSeason.TIME_AFTER_PENTECOST, [
+      nextSunday(pentecostSunday),
+      subDays(adventStart, 1),
+    ]);
+  }
+
+  private applySeasons() {
+    for (const [dateString, day] of this.container) {
+      const date = new Date(dateString);
+
+      // Apply seasons based on boundaries
+      for (const [season, [start, end]] of this._seasonBoundaries.entries()) {
+        if (date >= start && date <= end) {
+          if (season === LiturgicalSeason.CHRISTMAS_EARLY) {
+            day.season = LiturgicalSeason.CHRISTMAS;
+          } else {
+            day.season = season;
+          }
+          break; // Apply the first matching season
+        }
+      }
+
+      // Explicitly set Christmas for Dec 25-31 after the general application
+      const month = date.getMonth(); // 0-indexed (11 for December)
+      const dayOfMonth = date.getDate();
+
+      if (month === 11 && dayOfMonth >= 25 && dayOfMonth <= 31) {
+        day.season = LiturgicalSeason.CHRISTMAS;
+      }
+    }
+  }
+
+  // Get liturgical season name for display purposes
+  public getSeasonName(date: string) {
+    const day = this.getDay(date);
+    return day?.season;
   }
 
   private fillInTemporaDays() {

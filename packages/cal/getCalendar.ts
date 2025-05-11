@@ -36,7 +36,7 @@ function getNovenas(date: string) {
 function getSeason(date: string) {
   const calendar = new Calendar(getYear(date));
 
-  const day = calendar.getDay(date);
+  return calendar.getSeasonName(date);
 }
 
-export { getCalendar, getCalendarDay, getNovenas };
+export { getCalendar, getCalendarDay, getNovenas, getSeason };

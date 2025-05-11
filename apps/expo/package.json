@@ -70,6 +70,7 @@
     "@types/node": "^22.10.1",
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
+    "expo-atlas": "^0.4.0",
     "tailwindcss": "catalog:",
     "ts-node": "^10.9.2",
     "typescript": "catalog:"

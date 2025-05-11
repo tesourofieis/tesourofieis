@@ -8,6 +8,7 @@ import { ScrollView, Text, View } from "react-native";
 import ExternalLinks from "~/components/External";
 
 import LinkCard from "~/components/LinkCard";
+import LiturgicalSeason from "~/components/LiturgicalSeason";
 import Novenas from "~/components/Novenas";
 import Office from "~/components/Office";
 import { COLORS } from "~/constants/Colors";
@@ -141,6 +142,8 @@ export default function PageRender() {
           <Office />
           <Novenas />
         </View>
+
+        <LiturgicalSeason />
 
         <View className="border-t border-sepia-300 dark:border-sepia-700 my-3" />
 
