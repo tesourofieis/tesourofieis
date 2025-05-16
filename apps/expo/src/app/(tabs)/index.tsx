@@ -69,15 +69,6 @@ export default function PageRender() {
               Rosário
             </Text>
           </Link>
-
-          <Link
-            href="/devocionario/viasacra"
-            className="border-red-500 active:bg-sepia-300 active:dark:bg-sepia-700 m-2 rounded-lg border px-4 py-2 flex"
-          >
-            <Text className="font-bold text-red-600 text-center ">
-              Via Sacra
-            </Text>
-          </Link>
         </View>
 
         <View className="border-t border-sepia-300 dark:border-sepia-700 mb-2" />
@@ -144,16 +135,6 @@ export default function PageRender() {
         </View>
 
         <LiturgicalSeason />
-
-        <View className="border-t border-sepia-300 dark:border-sepia-700 my-3" />
-
-        <Image
-          source={require("../../../assets/images/1.jpeg")}
-          contentFit="contain"
-          style={{ height: 200 }}
-        />
-
-        <View className="border-t border-sepia-300 dark:border-sepia-700 mt-3" />
 
         <ExternalLinks />
       </View>

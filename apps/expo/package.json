@@ -30,6 +30,7 @@
     "@tesourofieis/cal": "workspace:*",
     "date-fns": "catalog:",
     "expo": "~52.0.46",
+    "expo-clipboard": "~7.0.1",
     "expo-constants": "~17.0.8",
     "expo-dev-client": "~5.0.20",
     "expo-device": "~7.0.3",
