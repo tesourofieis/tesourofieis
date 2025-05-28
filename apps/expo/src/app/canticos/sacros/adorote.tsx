@@ -13,15 +13,16 @@ export default function PageAdorote() {
 
           <Language>
             <Text className="latin">
-              Adóro te devóte, latens Déitas, Quae sub his figúris vere látitas:
-              Tibi se cor meum totum súbiicit, Quia te contémplans totum
-              déficit.
+              Adóro te devóte, latens Déitas,{"\n"}
+              Quae sub his figúris vere látitas:{"\n"}
+              Tibi se cor meum totum súbiicit,{"\n"}
+              Quia te contémplans totum déficit.
             </Text>
             <Text className="vernacular">
-              Eu Vos adoro com toda minha devoção, ó divindade oculta, que
-              estais realmente presente, sob o véu dessas figuras! Meu coração
-              submete-se inteiramente a Vós; pois, desde que Vos contemplo,
-              sinto-me completamente desfalecer.
+              Eu Vos adoro com toda minha devoção, ó divindade oculta,{"\n"}
+              que estais realmente presente, sob o véu dessas figuras!{"\n"}
+              Meu coração submete-se inteiramente a Vós;{"\n"}
+              pois, desde que Vos contemplo, sinto-me completamente desfalecer.
             </Text>
             <Text className="latin">
               Visus, tactus, gustus in te fállitur, Sed audítu solo tuto

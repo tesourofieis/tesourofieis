@@ -17,7 +17,7 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
   Advento: [
     {
       title: "Rorate Caeli",
-      href: "/devocionario/hinos/roratecaeli",
+      href: "/canticos/sacros/roratecaeli",
       description: "Hino de invocação ao Messias",
     },
     {
@@ -59,12 +59,12 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     },
     {
       title: "Adeste Fideles",
-      href: "/devocionario/hinos/adestefideles",
+      href: "/canticos/sacros/adestefideles",
       description: "Hino de Natal",
     },
     {
       title: "Puer Natus Est",
-      href: "/devocionario/cantos/puernatusest",
+      href: "/missal/santos/12-25-1",
       description: "Introito da Missa do Natal",
     },
     {
@@ -362,7 +362,6 @@ const CATEGORY_ICONS: Record<Season, string> = {
   "Tempo depois Pentecostes": "fire",
 };
 
-// Component to display seasonal prayers based on current liturgical category
 export default function LiturgicalSeason() {
   const colorScheme = useColorScheme();
   const textColor =

@@ -24,7 +24,7 @@ const externalLinks: ExternalLink[] = [
   },
   {
     name: "Bitcoin",
-    url: "bitcoin:BC1QAJM5VN255SEU2UGSSVNN3APXX7TQLEW4E0J7CV",
+    url: "bitcoin:bc1qh0sjg9m26ejhg7qxqevs5rldyysy0yc7mdpve5",
     icon: "bitcoin-sign",
     title: "Doar Bitcoin",
     desc: "Ajude-nos com uma doação em Bitcoin.",
