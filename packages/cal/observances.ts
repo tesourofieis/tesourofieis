@@ -6100,7 +6100,6 @@ export const OBSERVANCES: MassMap = {
     category: "santos",
     month: 3,
     day: 21,
-    novena: true,
   },
   SANCTI_03_24: {
     flexibility: "santos",

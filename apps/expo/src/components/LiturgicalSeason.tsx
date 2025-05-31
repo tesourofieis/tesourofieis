@@ -95,11 +95,6 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
       description: "Introito da Missa da Epifania",
     },
     {
-      title: "Magi Videntes Stellam",
-      href: "/devocionario/hinos/magividentesstellam",
-      description: "Hino dos Reis Magos",
-    },
-    {
       title: "Alma Redemptoris Mater",
       href: "/devocionario/antifonas/almaredemptorismater",
       description: "Antífona Mariana",
@@ -165,12 +160,12 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     },
     {
       title: "Stabat Mater",
-      href: "/devocionario/hinos/stabatmater",
+      href: "/missal/santos/09-15/#sequência",
       description: "Hino à Virgem Dolorosa",
     },
     {
       title: "Attende Domine",
-      href: "/devocionario/hinos/attendedomine",
+      href: "/canticos/sacros/attendedomine",
       description: "Hino penitencial",
     },
     {
@@ -207,7 +202,7 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     },
     {
       title: "Crux Fidelis",
-      href: "/devocionario/hinos/cruxfidelis",
+      href: "/missal/quaresma/quad6-5#veníte-adorémus",
       description: "Hino da Sexta-feira Santa",
     },
     {
@@ -238,16 +233,6 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
       description: "Antífona Mariana",
     },
     {
-      title: "Victimae Paschali Laudes",
-      href: "/devocionario/sequencias/victimaepaschali",
-      description: "Sequência Pascal",
-    },
-    {
-      title: "Haec Dies",
-      href: "/devocionario/cantos/haecdies",
-      description: "Gradual da Páscoa",
-    },
-    {
       title: "Adoro Te Devote",
       href: "/canticos/sacros/adorote",
       description: "Hino eucarístico",
@@ -271,7 +256,7 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
   Pentecostes: [
     {
       title: "Veni Creator Spiritus",
-      href: "/devocionario/hinos/venicreator",
+      href: "/canticos/sacros/venicreator",
       description: "Hino ao Espírito Santo",
     },
     {
