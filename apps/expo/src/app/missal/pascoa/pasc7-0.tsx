@@ -146,7 +146,7 @@ export default function PagePasc70() {
               Abrandai o que é duro; aquecei o que está frio; guiai o que anda
               errado. Concedei aos fiéis, que em Vós confiam, os sete dons
               sagrados. Dai-lhes o mérito da virtude; dai-lhes um fim feliz;
-              dai-lhes o gozo eterno. Ameno Aleluia.
+              dai-lhes o gozo eterno. Amen. Aleluia.
             </Text>
           </Language>
 
