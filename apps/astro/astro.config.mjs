@@ -9,6 +9,8 @@ import { defineConfig, passthroughImageService } from "astro/config";
 
 import { sidebar } from "./sidebar";
 
+import tailwindcss from "@tailwindcss/vite";
+
 const site = "https://tesourofieis.com";
 
 // https://astro.build/config
@@ -150,21 +152,26 @@ export default defineConfig({
       logo: {
         src: "./src/assets/favicon.svg",
       },
-      social: {
-        email: "mailto:info@tesourofieis.com",
-        "x.com": "https://x.com/tesourofieis",
-        github: "https://github.com/tesourofieis",
-        patreon: "https://www.patreon.com/tesourofieis",
-      },
+      social: [
+        { icon: "email", href: "mailto:info@tesourofieis.com", label: "email" },
+        { icon: "x.com", href: "https://x.com/tesourofieis", label: "x" },
+        {
+          icon: "github",
+          href: "https://github.com/tesourofieis",
+          label: "github",
+        },
+        {
+          icon: "patreon",
+          href: "https://ko-fi.com/tesourofieis",
+          label: "ko-fi",
+        },
+      ],
       sidebar: sidebar,
       customCss: [
         "@fontsource/berkshire-swash",
         "@fontsource-variable/eb-garamond",
-        "./src/tailwind.css",
+        "./src/styles/global.css",
       ],
-    }),
-    tailwind({
-      applyBaseStyles: false,
     }),
     react(),
     sitemap(),
@@ -184,6 +191,7 @@ export default defineConfig({
         ignored: ["**/src-tauri/**"],
       },
     },
+    plugins: [tailwindcss()],
   },
   image: {
     service: passthroughImageService(),

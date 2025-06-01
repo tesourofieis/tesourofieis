@@ -1,0 +1,179 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Display", serif;
+  --font-body: "Serif", serif;
+  --font-family-bold: "Bold", serif;
+  --font-family-italic: "Italic", serif;
+  --font-family-black: "Black", sans-serif;
+
+  --color-sepia-50: #f4eadd;
+  --color-sepia-100: #eee6d9;
+  --color-sepia-200: #f2ddc7;
+  --color-sepia-300: #e2c1a2;
+  --color-sepia-400: #cba57e;
+  --color-sepia-500: #bfae98;
+  --color-sepia-600: #7c6f64;
+  --color-sepia-700: #504945;
+  --color-sepia-800: #32302f;
+  --color-sepia-900: #1d2021;
+}
+
+@utility sl-markdown-content {
+  html body & :is(iframe)#kofiframe:not(:where(.not-content *)) {
+    height: 712px !important;
+    max-height: 712px !important;
+    min-height: 712px !important;
+    height: 712px !important;
+  }
+
+  @font-face {
+    font-family: "Display";
+    src: url("../assets/fonts/BerkshireSwash-Regular.ttf");
+    font-weight: normal;
+    font-style: bold;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Serif";
+    src: url("../assets/fonts/LibreCaslonText-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Bold";
+    src: url("../assets/fonts/LibreCaslonText-Bold.ttf");
+    font-weight: 700;
+    font-style: bold;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Italic";
+    src: url("../assets/fonts/LibreCaslonText-Italic.ttf");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Black";
+    src: url("../assets/fonts/Geist-Black.ttf");
+    font-weight: 800;
+    font-style: black;
+    font-display: swap;
+  }
+}
+
+@layer utilities {
+  @font-face {
+    font-family: "Display";
+    src: url("../assets/fonts/BerkshireSwash-Regular.ttf");
+    font-weight: normal;
+    font-style: bold;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Serif";
+    src: url("../assets/fonts/LibreCaslonText-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Bold";
+    src: url("../assets/fonts/LibreCaslonText-Bold.ttf");
+    font-weight: 700;
+    font-style: bold;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Italic";
+    src: url("../assets/fonts/LibreCaslonText-Italic.ttf");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Black";
+    src: url("../assets/fonts/Geist-Black.ttf");
+    font-weight: 800;
+    font-style: black;
+    font-display: swap;
+  }
+}
+
+/* Dark mode colors. */
+:root {
+  --sl-color-accent-low: theme(--color-sepia-300);
+  --sl-color-accent: theme(--color-sepia-400);
+  --sl-color-accent-high: theme(--color-sepia-600);
+  --sl-color-white: theme(--color-sepia-50);
+  --sl-color-gray-1: theme(--color-sepia-100);
+  --sl-color-gray-2: theme(--color-sepia-200);
+  --sl-color-gray-3: theme(--color-sepia-300);
+  --sl-color-gray-4: theme(--color-sepia-500);
+  --sl-color-gray-5: theme(--color-sepia-600);
+  --sl-color-gray-6: theme(--color-sepia-800);
+  --sl-color-black: theme(--color-sepia-900);
+}
+/* Light mode colors. */
+:root[data-theme="light"] {
+  --sl-color-accent-low: theme(--color-sepia-700);
+  --sl-color-accent: theme(--color-sepia-600);
+  --sl-color-accent-high: theme(--color-sepia-500);
+  --sl-color-white: theme(--color-sepia-900);
+  --sl-color-gray-1: theme(--color-sepia-800);
+  --sl-color-gray-2: theme(--color-sepia-700);
+  --sl-color-gray-3: theme(--color-sepia-600);
+  --sl-color-gray-4: theme(--color-sepia-500);
+  --sl-color-gray-5: theme(--color-sepia-400);
+  --sl-color-gray-6: theme(--color-sepia-300);
+  --sl-color-gray-7: theme(--color-sepia-200);
+  --sl-color-black: theme(--color-sepia-100);
+}
+
+body {
+  @apply font-body;
+  font-size: 1.26rem;
+  line-height: 1.6;
+}
+
+h1 {
+  @apply font-display;
+  color: theme(--color-red-600) !important;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-center font-display;
+}
+
+.side-by-side {
+  @apply grid grid-cols-2 gap-5 text-justify font-body;
+}
+
+.cross {
+  padding: 1px 10px;
+  text-align: center;
+}
+
+aside:not([class]) {
+  @apply rounded bg-sepia-200 p-4 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+  border-inline-start: 0.25rem solid;
+}
+
+em {
+  @apply rounded bg-sepia-200 px-1 py-1 italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+}
+
