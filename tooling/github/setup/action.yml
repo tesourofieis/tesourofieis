@@ -10,5 +10,9 @@ runs:
         node-version: 20
         cache: "pnpm"
 
+    - uses: biomejs/setup-biome@v2
+      with:
+        version: latest
+
     - shell: bash
       run: pnpm install
