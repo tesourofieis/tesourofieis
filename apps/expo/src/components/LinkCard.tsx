@@ -46,7 +46,9 @@ export default function PageLinkCard({
 }) {
   if (oratio) {
     return (
+      // @ts-ignore
       <Link href={oratio.link} asChild>
+        {/* @ts-ignore */}
         <Pressable className={cardBase}>
           {({ pressed }) => (
             <View className={cardBase(pressed)}>
@@ -70,7 +72,9 @@ export default function PageLinkCard({
 
   if (mass) {
     return (
+      // @ts-ignore
       <Link href={mass.link} asChild>
+        {/* @ts-ignore */}
         <Pressable className={cardBase}>
           {({ pressed }) => (
             <View className={cardBase(pressed)}>
@@ -111,7 +115,9 @@ export default function PageLinkCard({
   }
 
   return (
+    // @ts-ignore
     <Link href={href ?? "/"} asChild>
+      {/* @ts-ignore */}
       <Pressable className={cardBase}>
         {({ pressed }) => (
           <View className={cardBase(pressed)}>

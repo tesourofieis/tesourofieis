@@ -1,4 +1,3 @@
-import { yyyyMMDD } from "./utils";
 import {
   addDays,
   endOfYear,
@@ -15,6 +14,7 @@ import {
 } from "date-fns";
 import { type Mass, massManager } from "./observanceManager";
 import { type RuleResult, Rules } from "./rules";
+import { yyyyMMDD } from "./utils";
 
 export enum LiturgicalSeason {
   ADVENT = "Advento",
@@ -180,33 +180,33 @@ export class Calendar {
     // Insert blocks
     this.insertBlock(
       this.calcHolyFamily(),
-      massManager.getByTypeId("post-epiphany")
+      massManager.getByTypeId("post-epiphany"),
     );
     this.insertBlock(
       this.calcSeptuagesima(),
-      massManager.getByTypeId("pre-lent-to-pentcost")
+      massManager.getByTypeId("pre-lent-to-pentcost"),
     );
     this.insertBlock(
       this.calcSaturdayBefore24SundayAfterPentecost(),
       massManager.getByTypeId("pentepi"),
       true,
       false,
-      this.calcFirstAdventSunday()
+      this.calcFirstAdventSunday(),
     );
     this.insertBlock(
       this.calc24SundayAfterPentecost(),
-      massManager.getByTypeId("week-24-after-pentcost")
+      massManager.getByTypeId("week-24-after-pentcost"),
     );
     this.insertBlock(
       this.calcFirstAdventSunday(),
       massManager.getByTypeId("advent"),
       false,
       false,
-      new Date(this.year, 11, 23)
+      new Date(this.year, 11, 23),
     );
     this.insertBlock(
       this.calcEmberWednesdaySeptember(),
-      massManager.getByTypeId("ember-september")
+      massManager.getByTypeId("ember-september"),
     );
 
     // Insert single days
@@ -238,7 +238,7 @@ export class Calendar {
     block: Mass[],
     reverse = false,
     overwrite = true,
-    stopDate?: Date
+    stopDate?: Date,
   ) {
     const processBlock = reverse ? block.slice().reverse() : block;
 
@@ -279,19 +279,19 @@ export class Calendar {
 
       if (result?.observances) {
         const temporaObservances = result.observances.filter(
-          (obs) => obs.flexibility === "tempora"
+          (obs) => obs.flexibility === "tempora",
         );
 
         if (temporaObservances.length > 1) {
           // Keep only the highest ranking temporal observance
           const bestTempora = temporaObservances.sort(
             (a, b) =>
-              a.rank - b.rank || (a.week && b.week ? a.week - b.week : 0)
+              a.rank - b.rank || (a.week && b.week ? a.week - b.week : 0),
           )[0];
 
           result.observances = [
             ...result.observances.filter(
-              (obs) => obs.flexibility !== "tempora"
+              (obs) => obs.flexibility !== "tempora",
             ),
             bestTempora,
           ];
@@ -333,7 +333,7 @@ export class Calendar {
       this.updateDay(date, [
         massManager.createMassWithDate(
           { ...previousDay.mass[0], name: "Feria" },
-          date
+          date,
         ),
       ]);
     }
@@ -360,7 +360,7 @@ export class Calendar {
       // Remove shifted observances from current observances
       const currentObservances = rules.observances.filter(
         (obs) =>
-          !result.toShift!.observances.some((shifted) => shifted.id === obs.id)
+          !result.toShift!.observances.some((shifted) => shifted.id === obs.id),
       );
 
       return {

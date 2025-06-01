@@ -1,7 +1,7 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import * as Clipboard from "expo-clipboard";
 import { useState } from "react";
 import { Alert, Linking } from "react-native";
-import * as Clipboard from "expo-clipboard";
 import { Pressable, Text, View } from "react-native";
 import { COLORS } from "~/constants/Colors";
 
@@ -59,7 +59,7 @@ const copyToClipboard = async (text: string) => {
 
 export const openLink = async (
   url: string,
-  setLoading: (loading: boolean) => void
+  setLoading: (loading: boolean) => void,
 ) => {
   setLoading(true);
   try {
@@ -86,7 +86,7 @@ export default function ExternalLinks() {
           key={link.name}
           onPress={() =>
             openLink(link.url, (loading) =>
-              setLoadingLink(loading ? link.name : null)
+              setLoadingLink(loading ? link.name : null),
             )
           }
           className="flex-col items-start py-2 px-3 gap-1 rounded-lg bg-sepia-800 active:bg-sepia-700"

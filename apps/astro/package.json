@@ -8,10 +8,9 @@
     "preview": "astro preview",
     "astro": "astro",
     "deploy-preview": "wrangler pages dev ./dist",
-    "clean": "git clean -xdf .cache .next .turbo node_modules",
-    "lint": "biome check --write --unsafe --files-ignore-unknown=true",
     "test": "vitest ./src/tests",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "clean": "git clean -xdf .cache .next .turbo node_modules"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",

@@ -40,7 +40,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
   const translateXToggle = useSharedValue(toggleWidth);
   const currentLanguage = useSharedValue<"latin" | "vernacular">("vernacular");
   const [currentLang, setCurrentLang] = useState<"latin" | "vernacular">(
-    "vernacular"
+    "vernacular",
   );
 
   const triggerHaptic = () => {
@@ -63,7 +63,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
     });
     translateXToggle.value = withSpring(
       vernacular ? toggleWidth : 0,
-      springConfig
+      springConfig,
     );
   };
 
@@ -77,12 +77,12 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
     // Clamp translateX between 0 and -width
     translateX.value = Math.max(
       -width,
-      Math.min(0, offset + (currentLanguage.value === "latin" ? 0 : -width))
+      Math.min(0, offset + (currentLanguage.value === "latin" ? 0 : -width)),
     );
     const toggleProgress = -translateX.value / width;
     translateXToggle.value = Math.max(
       0,
-      Math.min(toggleWidth, toggleProgress * toggleWidth)
+      Math.min(toggleWidth, toggleProgress * toggleWidth),
     );
   };
 
@@ -113,11 +113,11 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
     return {
       latinContent: childrenArray.filter(
         (child) =>
-          React.isValidElement(child) && child.props.className === "latin"
+          React.isValidElement(child) && child.props.className === "latin",
       ),
       vernacularContent: childrenArray.filter(
         (child) =>
-          React.isValidElement(child) && child.props.className === "vernacular"
+          React.isValidElement(child) && child.props.className === "vernacular",
       ),
     };
   }, [children]);

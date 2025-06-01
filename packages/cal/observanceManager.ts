@@ -99,13 +99,13 @@ export class MassManager {
     return this.masses.filter(
       (mass) =>
         mass.category === "pascoa" &&
-        ((mass.weekday && mass.weekday < 5) || (mass.week && mass.week < 4))
+        ((mass.weekday && mass.weekday < 5) || (mass.week && mass.week < 4)),
     );
   }
 
   getTemporaSunday(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.id.startsWith("tempora:") && mass.id.includes("-0")
+      (mass) => mass.id.startsWith("tempora:") && mass.id.includes("-0"),
     );
   }
 
@@ -114,7 +114,7 @@ export class MassManager {
       (mass) =>
         mass.category === "quaresma" &&
         mass.week === 1 &&
-        mass.day === (3 || 5 || 6)
+        mass.day === (3 || 5 || 6),
     );
   }
 
@@ -127,7 +127,7 @@ export class MassManager {
       (mass) =>
         mass.category === "advento" &&
         mass.week === 3 &&
-        mass.day === (3 || 5 || 6)
+        mass.day === (3 || 5 || 6),
     );
   }
 
@@ -139,19 +139,19 @@ export class MassManager {
 
   getSanctiClass1(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.category === "santos" && mass.rank === 1
+      (mass) => mass.category === "santos" && mass.rank === 1,
     );
   }
 
   getSanctiClass2(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.category === "santos" && mass.rank === 2
+      (mass) => mass.category === "santos" && mass.rank === 2,
     );
   }
 
   match(
     observances: Mass[],
-    criteria: Mass | Mass[] | ((mass: Mass) => boolean)
+    criteria: Mass | Mass[] | ((mass: Mass) => boolean),
   ): Mass | undefined {
     const observanceArray = Array.isArray(observances)
       ? observances

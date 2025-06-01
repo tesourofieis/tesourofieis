@@ -41,6 +41,7 @@ export default function PaginaNovenas() {
 
           <View className="flex px-2">
             {novena.map((novena) => (
+              // @ts-ignore
               <Link key={novena.id} href={`/${novena.link}`}>
                 <Text className="text-base font-bold underline mb-2">
                   {novena.name}

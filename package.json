@@ -3,16 +3,14 @@
   "private": true,
   "packageManager": "pnpm@9.7.1",
   "scripts": {
-    "lint": "biome lint .",
-    "lint:fix": "biome lint --write --unsafe .",
-    "format": "biome format .",
-    "typecheck": "biome check .",
-    "typecheck:fix": "biome check --write .",
-    "format:fix": "biome format --write .",
-    "test": "pnpm test -r"
+    "check": "biome check --write .",
+    "lint": "biome lint --write .",
+    "format": "biome format --write .",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "clean": "pnpm -r clean"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
     "lefthook": "^1.7.14",
     "typescript": "^5.5.4"
   }

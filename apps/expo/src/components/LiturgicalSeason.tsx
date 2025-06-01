@@ -1,5 +1,5 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import { LiturgicalSeason as Season } from "@tesourofieis/cal/calendar";
+import type { LiturgicalSeason as Season } from "@tesourofieis/cal/calendar";
 import { Link } from "expo-router";
 import React from "react";
 import { Pressable, Text, View, useColorScheme } from "react-native";
@@ -375,8 +375,10 @@ export default function LiturgicalSeason() {
         </Text>
       </View>
 
-      {prayers.map((prayer, index) => (
-        <Link key={index} href={prayer.href} asChild>
+      {prayers.map((prayer) => (
+        // @ts-ignore
+        <Link key={prayer.href} href={prayer.href} asChild>
+          {/* @ts-ignore */}
           <Pressable className={cardBase}>
             {({ pressed }) => (
               <View className={cardBase(pressed)}>

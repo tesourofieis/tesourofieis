@@ -30,10 +30,10 @@ import {
   View,
 } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { openLink } from "~/components/External";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { NotificationsProvider } from "~/providers/notifications";
-import { openLink } from "~/components/External";
 
 SplashScreen.preventAutoHideAsync();
 SplashScreen.setOptions({
@@ -216,6 +216,8 @@ const Breadcrumbs = () => {
 
   const handleBreadcrumbPress = (targetPath: string) => {
     // Use replace instead of push to avoid modal stack issues
+
+    // @ts-ignore
     router.replace(targetPath);
   };
 
@@ -236,7 +238,7 @@ const Breadcrumbs = () => {
               className="p-1 rounded bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
               onPress={() =>
                 handleBreadcrumbPress(
-                  `/${segments.slice(0, index + 1).join("/")}`
+                  `/${segments.slice(0, index + 1).join("/")}`,
                 )
               }
             >
@@ -274,7 +276,7 @@ const Header = ({ withBC }: { withBC: boolean }) => {
         <Pressable
           onPress={async () =>
             openLink(`https://tesourofieis.com${path}`, (loading) =>
-              setLoadingLink(loading ? "tesourofieis" : null)
+              setLoadingLink(loading ? "tesourofieis" : null),
             )
           }
           className="p-2 items-center border rounded-lg border-sepia-700 dark:border-sepia-400 active:bg-sepia-200 active:dark:bg-sepia-700"

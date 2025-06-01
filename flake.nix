@@ -44,6 +44,7 @@
             nodejs_18
             nodePackages.npm
             pnpm
+            biome
             watchman
             # iOS development (for macOS)
             (lib.optional stdenv.isDarwin [
