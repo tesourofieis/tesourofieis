@@ -176,4 +176,3 @@ aside:not([class]) {
 em {
   @apply rounded bg-sepia-200 px-1 py-1 italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
 }
-

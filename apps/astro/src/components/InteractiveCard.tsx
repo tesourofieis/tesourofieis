@@ -23,9 +23,12 @@ export default function InteractiveCard() {
     // Timeout to set the interval at the start of the next hour
     const timeoutId = setTimeout(() => {
       setDate(new Date());
-      const intervalId = setInterval(() => {
-        setDate(new Date());
-      }, 1000 * 60 * 60);
+      const intervalId = setInterval(
+        () => {
+          setDate(new Date());
+        },
+        1000 * 60 * 60,
+      );
 
       return () => clearInterval(intervalId);
     }, msUntilNextHour);

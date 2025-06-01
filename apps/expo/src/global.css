@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@config '../tailwind.config.ts';
 
 @layer base {
   .font-body {
@@ -89,16 +89,16 @@
   }
 
   .aside {
-    @apply rounded bg-sepia-200 border-sepia-500 p-4 my-4 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+    @apply rounded-sm bg-sepia-200 border-sepia-500 p-4 my-4 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
     border-inline-start: 0.25rem solid;
   }
 
   .comment {
-    @apply rounded bg-sepia-300 border-red-500 p-4 my-4 text-sepia-800 dark:bg-sepia-700 dark:text-sepia-200;
+    @apply rounded-sm bg-sepia-300 border-red-500 p-4 my-4 text-sepia-800 dark:bg-sepia-700 dark:text-sepia-200;
     border-inline-start: 0.25rem solid;
   }
 
   .em {
-    @apply rounded bg-sepia-200 px-3 py-2 font-italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+    @apply rounded-sm bg-sepia-200 px-3 py-2 font-italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
   }
 }

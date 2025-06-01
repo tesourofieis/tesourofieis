@@ -63,7 +63,7 @@ export default function PageRender() {
 
           <Link
             href="/devocionario/rosario"
-            className="bg-sepia-900 dark:bg-sepia-200 m-2 rounded-lg px-4 py-2 active:bg-sepia-300 active:dark:bg-sepia-700"
+            className="bg-sepia-900 dark:bg-sepia-200 m-2 rounded-lg px-4 py-2 active:bg-sepia-300 dark:active:bg-sepia-700"
           >
             <Text className="font-bold text-sepia-200 dark:text-sepia-900 text-center">
               Rosário
