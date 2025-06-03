@@ -1,6 +1,6 @@
-import * as WebBrowser from "expo-web-browser";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import * as Clipboard from "expo-clipboard";
+import * as WebBrowser from "expo-web-browser";
 import { Pressable, Text, View } from "react-native";
 import { COLORS } from "~/constants/Colors";
 
@@ -62,7 +62,7 @@ export const openExternalLink = async (link: string) => {
 
 export default function ExternalLinks() {
   return (
-    <View className="flex-col gap-4 p-4 bg-sepia-900 border-t">
+    <View className="flex-col gap-4 mt-2 p-4 bg-sepia-900 border-t">
       {externalLinks.map((link) => (
         <Pressable
           key={link.name}

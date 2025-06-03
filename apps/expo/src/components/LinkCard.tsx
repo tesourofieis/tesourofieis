@@ -22,7 +22,7 @@ export function getColor(color?: string) {
 }
 
 export const cardBase = (pressed: boolean) =>
-  `m-1 w-full flex-1 justify-between rounded-lg border border-sepia-300 p-4 ${
+  `my-1 w-full flex-1 justify-between rounded-lg border border-sepia-300 p-4 ${
     pressed
       ? "bg-sepia-200 dark:bg-sepia-700 opacity-90"
       : "bg-sepia-100 dark:bg-sepia-800"

@@ -53,7 +53,7 @@ export default function PageRender() {
 
         <View className="flex flex-row justify-center my-5 mx-5 gap-5">
           <Link
-            className="border-sepia-900 dark:border-sepia-200 active:bg-sepia-300 dark:active:bg-sepia-700 m-2 rounded-lg border px-4 py-2 flex"
+            className="border-sepia-900 shadow-lg bg-sepia-200 dark:bg-gray-800 dark:border-sepia-200 active:bg-sepia-300 dark:active:bg-sepia-700 m-2 rounded-lg border px-4 py-2 flex"
             href="/devocionario/introducao"
           >
             <Text className="font-bold text-sepia-800 dark:text-sepia-200 text-center">
@@ -63,7 +63,7 @@ export default function PageRender() {
 
           <Link
             href="/devocionario/rosario"
-            className="bg-sepia-900 dark:bg-sepia-200 m-2 rounded-lg px-4 py-2 active:bg-sepia-300 dark:active:bg-sepia-700"
+            className="bg-sepia-900 dark:bg-sepia-200 shadow-lg m-2 rounded-lg px-4 py-2 active:bg-sepia-300 dark:active:bg-sepia-700"
           >
             <Text className="font-bold text-sepia-200 dark:text-sepia-900 text-center">
               Rosário
@@ -71,13 +71,8 @@ export default function PageRender() {
           </Link>
         </View>
 
-        <View className="border-t border-sepia-300 dark:border-sepia-700 mb-2" />
-
-        <View
-          className={`px-5 ${
-            Platform.OS === "web" ? "w-1/2 m-auto" : "w-full"
-          }`}
-        >
+        <View className="border-t border-sepia-300 dark:border-sepia-700 mt-2" />
+        <View className="px-5">
           <View className="flex-row items-center">
             <FontAwesome6
               name="calendar"
@@ -85,7 +80,7 @@ export default function PageRender() {
               color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
             />
             <Text className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
-              {format(date, "EEEE, dd MMMM HH:mm", {
+              {format(date, "EEEE, dd MMMM", {
                 locale: pt,
               })}
             </Text>
@@ -94,9 +89,18 @@ export default function PageRender() {
           {day.mass?.map((item) => (
             <LinkCard key={item.id} mass={item} />
           ))}
+        </View>
 
-          <View className="flex-1 items-center justify-center p-2">
-            <Text className="text-sepia-600 dark:text-sepia-400 text-sm font-bold">
+        <View className="border-t border-sepia-300 dark:border-sepia-700 mt-2" />
+
+        <View className="px-5">
+          <View className="flex-row items-center">
+            <FontAwesome6
+              name="clock"
+              size={15}
+              color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+            />
+            <Text className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
               {format(date, "HH:mm", {
                 locale: pt,
               }).toUpperCase()}
@@ -133,6 +137,8 @@ export default function PageRender() {
           <Office />
           <Novenas />
         </View>
+
+        <View className="border-t border-sepia-300 dark:border-sepia-700 mt-2" />
 
         <LiturgicalSeason />
 

@@ -5,7 +5,7 @@ import React from "react";
 import { Pressable, Text, View, useColorScheme } from "react-native";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
-import { cardBase } from "./LinkCard";
+import PageLinkCard from "./LinkCard";
 
 type Prayer = {
   title: string;
@@ -23,7 +23,7 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     {
       title: "Alma Redemptoris Mater",
       href: "/devocionario/antifonas/almaredemptorismater",
-      description: "Antífona Mariana",
+      description: "Antífona Nossa Senhora",
     },
     {
       title: "O Antífonas",
@@ -33,7 +33,7 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     {
       title: "Ave Maris Stella",
       href: "/canticos/sacros/avemarisstella",
-      description: "Hino mariano",
+      description: "Hino",
     },
     {
       title: "Benedictus",
@@ -48,14 +48,14 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     {
       title: "Ave Maria",
       href: "/devocionario/oracoes/avemaria",
-      description: "Oração mariana",
+      description: "Oração",
     },
   ],
   Natal: [
     {
       title: "Alma Redemptoris Mater",
       href: "/devocionario/antifonas/almaredemptorismater",
-      description: "Antífona Mariana",
+      description: "Antífona Nossa Senhora",
     },
     {
       title: "Adeste Fideles",
@@ -75,7 +75,7 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     {
       title: "O Gloriosa Virginum",
       href: "/canticos/sacros/ogloriosavirginum",
-      description: "Hino mariano",
+      description: "Hino",
     },
     {
       title: "Ladainha de São José",
@@ -97,7 +97,7 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     {
       title: "Alma Redemptoris Mater",
       href: "/devocionario/antifonas/almaredemptorismater",
-      description: "Antífona Mariana",
+      description: "Antífona Nossa Senhora",
     },
     {
       title: "Nunc Dimittis",
@@ -117,14 +117,14 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     {
       title: "Conversão dos Infiéis",
       href: "/devocionario/oracoes/conversaoinfieis",
-      description: "Oração missionária",
+      description: "Oração",
     },
   ],
   Septuagésima: [
     {
       title: "Ave Regina Caelorum",
       href: "/devocionario/antifonas/avereginacaelorum",
-      description: "Antífona Mariana",
+      description: "Antífona Nossa Senhora",
     },
     {
       title: "Circumdederunt Me",
@@ -133,7 +133,7 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     },
     {
       title: "Miserere (Salmo 50)",
-      href: "/devocionario/salmos/miserere",
+      href: "/devocionario/salterio/050",
       description: "Salmo penitencial",
     },
     {
@@ -181,12 +181,12 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     {
       title: "Acto de Reparação",
       href: "/devocionario/oracoes/actoreparacao",
-      description: "Oração eucarística",
+      description: "Oração",
     },
     {
       title: "Confesso",
       href: "/devocionario/oracoes/confesso",
-      description: "Ato penitencial",
+      description: "Acto penitencial",
     },
   ],
   Paixão: [
@@ -208,12 +208,12 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     {
       title: "Pange Lingua",
       href: "/canticos/sacros/pangelingua",
-      description: "Hino eucarístico",
+      description: "Hino",
     },
     {
       title: "Tantum Ergo",
       href: "/canticos/sacros/tantumergo",
-      description: "Hino eucarístico",
+      description: "Hino",
     },
     {
       title: "Ladainha do Preciosíssimo Sangue",
@@ -223,34 +223,34 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     {
       title: "Senhor dos Passos",
       href: "/devocionario/oracoes/senhorpassos",
-      description: "Devoção da Paixão",
+      description: "Oração da Paixão",
     },
   ],
   Páscoa: [
     {
       title: "Regina Coeli",
       href: "/devocionario/antifonas/reginacaeli",
-      description: "Antífona Mariana",
+      description: "Antífona Nossa Senhora",
     },
     {
       title: "Adoro Te Devote",
       href: "/canticos/sacros/adorote",
-      description: "Hino eucarístico",
+      description: "Hino",
     },
     {
       title: "O Salutaris Hostia",
       href: "/canticos/sacros/salutaris",
-      description: "Hino eucarístico",
+      description: "Hino",
     },
     {
       title: "Jesus Misericordioso",
       href: "/devocionario/oracoes/jesusmisericordioso",
-      description: "Devoção à Misericórdia",
+      description: "Oração",
     },
     {
       title: "Alma de Cristo",
       href: "/devocionario/oracoes/almacristo",
-      description: "Oração eucarística",
+      description: "Oração",
     },
   ],
   Pentecostes: [
@@ -267,7 +267,7 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     {
       title: "Regina Coeli",
       href: "/devocionario/antifonas/reginacaeli",
-      description: "Antífona Mariana",
+      description: "Antífona Nossa Senhora",
     },
     {
       title: "Te Deum",
@@ -284,7 +284,7 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     {
       title: "Salve Regina",
       href: "/devocionario/antifonas/salveregina",
-      description: "Antífona Mariana",
+      description: "Antífona Nossa Senhora",
     },
     {
       title: "Te Deum",
@@ -299,12 +299,12 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     {
       title: "Ave Verum Corpus",
       href: "/canticos/sacros/aveverum",
-      description: "Hino eucarístico",
+      description: "Hino",
     },
     {
       title: "Ecce Panis Angelorum",
       href: "/canticos/sacros/eccepanisangelorum",
-      description: "Hino eucarístico",
+      description: "Hino",
     },
     {
       title: "Te Lucis Ante Terminum",
@@ -334,65 +334,106 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
   ],
 };
 
-// Icons for each liturgical season
 const CATEGORY_ICONS: Record<Season, string> = {
-  Epifania: "stars",
-  Advento: "calendar-day",
+  Epifania: "star",
+  Advento: "candle-holder",
   Septuagésima: "seedling",
   Quaresma: "cross",
   Paixão: "cross",
   Páscoa: "dove",
-  Natal: "baby",
-  Pentecostes: "fire",
-  "Tempo depois Pentecostes": "fire",
+  Natal: "baby-carriage",
+  Pentecostes: "fire-flame-curved",
+  "Tempo depois Pentecostes": "church",
+};
+
+const SEASON_COLORS: Record<
+  Season,
+  { bg: string; border: string; accent: string }
+> = {
+  Advento: {
+    bg: "bg-violet-100 dark:bg-violet-900/30",
+    border: "border-violet-300 dark:border-violet-600",
+    accent: "text-violet-700 dark:text-violet-300",
+  },
+  Natal: {
+    bg: "bg-amber-50 dark:bg-amber-900/20",
+    border: "border-amber-200 dark:border-amber-600",
+    accent: "text-amber-700 dark:text-amber-300",
+  },
+  Epifania: {
+    bg: "bg-yellow-50 dark:bg-yellow-900/20",
+    border: "border-yellow-200 dark:border-yellow-600",
+    accent: "text-yellow-700 dark:text-yellow-300",
+  },
+  Septuagésima: {
+    bg: "bg-green-50 dark:bg-green-900/20",
+    border: "border-green-200 dark:border-green-600",
+    accent: "text-green-700 dark:text-green-300",
+  },
+  Quaresma: {
+    bg: "bg-purple-50 dark:bg-purple-900/20",
+    border: "border-purple-200 dark:border-purple-600",
+    accent: "text-purple-700 dark:text-purple-300",
+  },
+  Paixão: {
+    bg: "bg-red-50 dark:bg-red-900/20",
+    border: "border-red-200 dark:border-red-600",
+    accent: "text-red-700 dark:text-red-300",
+  },
+  Páscoa: {
+    bg: "bg-white dark:bg-white/5",
+    border: "border-gray-200 dark:border-gray-600",
+    accent: "text-gray-700 dark:text-gray-300",
+  },
+  Pentecostes: {
+    bg: "bg-red-50 dark:bg-red-900/20",
+    border: "border-red-200 dark:border-red-600",
+    accent: "text-red-700 dark:text-red-300",
+  },
+  "Tempo depois Pentecostes": {
+    bg: "bg-emerald-50 dark:bg-emerald-900/20",
+    border: "border-emerald-200 dark:border-emerald-600",
+    accent: "text-emerald-700 dark:text-emerald-300",
+  },
 };
 
 export default function LiturgicalSeason() {
   const colorScheme = useColorScheme();
-  const textColor =
-    colorScheme === "light" ? "text-sepia-800" : "text-sepia-200";
-  const iconColor = colorScheme === "light" ? COLORS["800"] : COLORS["200"];
-
   const { season } = useCalendar();
 
-  // Handle case where category doesn't have associated prayers
   const prayers = TEMPORAS_PRAYERS[season] || [];
 
   if (prayers.length === 0) {
     return null;
   }
 
+  const seasonColors = SEASON_COLORS[season];
+  const iconColor = colorScheme === "light" ? COLORS["700"] : COLORS["300"];
+
   return (
-    <View className="m-5 border p-3 bg-sepia-200 dark:bg-gray-800 rounded-lg border-sepia-500">
-      <View className="flex-row items-center mb-2">
+    <View className="mt-2 gap-2 flex-1 px-5">
+      <View className="flex-row items-center justify-left gap-1">
         <FontAwesome6
           name={CATEGORY_ICONS[season] || "church"}
-          size={18}
+          size={15}
           color={iconColor}
         />
-        <Text className={`font-bold ${textColor} text-left pl-3 text-lg`}>
+
+        <Text className={`text-xl font-bold ${seasonColors.accent}`}>
           {season}
         </Text>
       </View>
 
-      {prayers.map((prayer) => (
-        // @ts-ignore
-        <Link key={prayer.href} href={prayer.href} asChild>
-          {/* @ts-ignore */}
-          <Pressable className={cardBase}>
-            {({ pressed }) => (
-              <View className={cardBase(pressed)}>
-                <Text className={`font-bold ${textColor}`}>{prayer.title}</Text>
-                {prayer.description && (
-                  <Text className="text-sepia-600 dark:text-sepia-400 text-sm mt-1">
-                    {prayer.description}
-                  </Text>
-                )}
-              </View>
-            )}
-          </Pressable>
-        </Link>
-      ))}
+      <View>
+        {prayers.map((prayer) => (
+          <PageLinkCard
+            key={prayer.title}
+            title={prayer.title}
+            description={prayer.description}
+            href={prayer.href}
+          />
+        ))}
+      </View>
     </View>
   );
 }
