@@ -9,7 +9,7 @@
     "astro": "astro",
     "deploy-preview": "wrangler pages dev ./dist",
     "test": "vitest ./src/tests",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "astro check",
     "clean": "git clean -xdf .cache .next .turbo node_modules"
   },
   "dependencies": {

@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "check-types": "tsc --noEmit",
-    "update-snapshot": "vitest -u ./src/tests",
+    "update-snapshot": "vitest -u .",
     "coverage": "vitest --coverage ./src/tests",
     "test": "vitest .",
     "lint": "biome check --write --unsafe --files-ignore-unknown=true"
