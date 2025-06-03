@@ -35,7 +35,6 @@
     "@iconify-json/mdi": "^1.1.65",
     "@iconify/json": "^2.2.195",
     "@iconify/react": "^5.0.1",
-    "@tesourofieis/tailwind-config": "workspace:*",
     "@tesourofieis/tsconfig": "workspace:*",
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
@@ -44,5 +43,7 @@
     "typescript": "catalog:",
     "vitest": "^1.6.1"
   },
-  "trustedDependencies": ["protobufjs"]
+  "trustedDependencies": [
+    "protobufjs"
+  ]
 }

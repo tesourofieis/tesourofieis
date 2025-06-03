@@ -1,6 +1,7 @@
 // @ts-expect-error - no types
 import nativewind from "nativewind/preset";
 import type { Config } from "tailwindcss";
+import defaultTheme from "tailwindcss/defaultTheme";
 
 export const sepia = {
   900: "#1d2021",
@@ -19,6 +20,13 @@ export default {
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        serif: ["NotoSerif-Regular", ...defaultTheme.fontFamily.serif],
+        display: ["BerkshireSwash-Regular", "cursive"],
+        bold: ["NotoSerif-Bold", ...defaultTheme.fontFamily.serif],
+        italic: ["NotoSerif-Italic", ...defaultTheme.fontFamily.serif],
+        sans: ["NotoSans-Regular", ...defaultTheme.fontFamily.sans],
+      },
       colors: {
         gray: sepia,
         sepia: sepia,

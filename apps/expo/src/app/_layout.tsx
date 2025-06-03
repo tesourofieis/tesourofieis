@@ -10,7 +10,7 @@ import { NotoSans_400Regular } from "@expo-google-fonts/noto-sans";
 
 import { useFonts } from "expo-font";
 import { useColorScheme } from "nativewind";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 import "../global.css";
 
@@ -30,7 +30,7 @@ import {
   View,
 } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
-import { openLink } from "~/components/External";
+import { openExternalLink } from "~/components/External";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { NotificationsProvider } from "~/providers/notifications";
@@ -238,7 +238,7 @@ const Breadcrumbs = () => {
               className="p-1 rounded bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
               onPress={() =>
                 handleBreadcrumbPress(
-                  `/${segments.slice(0, index + 1).join("/")}`,
+                  `/${segments.slice(0, index + 1).join("/")}`
                 )
               }
             >
@@ -255,7 +255,6 @@ const Breadcrumbs = () => {
 
 const Header = ({ withBC }: { withBC: boolean }) => {
   const path = usePathname();
-  const [_, setLoadingLink] = useState<string | null>(null);
   const router = useRouter();
 
   const { colorScheme } = useColorScheme();
@@ -274,11 +273,7 @@ const Header = ({ withBC }: { withBC: boolean }) => {
           <Breadcrumbs />
         </View>
         <Pressable
-          onPress={async () =>
-            openLink(`https://tesourofieis.com${path}`, (loading) =>
-              setLoadingLink(loading ? "tesourofieis" : null),
-            )
-          }
+          onPress={() => openExternalLink(`https://tesourofieis.com${path}`)}
           className="p-2 items-center border rounded-lg border-sepia-700 dark:border-sepia-400 active:bg-sepia-200 dark:active:bg-sepia-700"
         >
           <FontAwesome6

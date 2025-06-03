@@ -1,7 +1,6 @@
+import * as WebBrowser from "expo-web-browser";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import * as Clipboard from "expo-clipboard";
-import { useState } from "react";
-import { Alert, Linking } from "react-native";
 import { Pressable, Text, View } from "react-native";
 import { COLORS } from "~/constants/Colors";
 
@@ -57,51 +56,24 @@ const copyToClipboard = async (text: string) => {
   await Clipboard.setStringAsync(text);
 };
 
-export const openLink = async (
-  url: string,
-  setLoading: (loading: boolean) => void,
-) => {
-  setLoading(true);
-  try {
-    const supported = await Linking.canOpenURL(url);
-    if (supported) {
-      await Linking.openURL(url);
-    } else {
-      Alert.alert("Error", `Cannot open this link: ${url}`);
-    }
-  } catch (_error) {
-    Alert.alert("Error", "Something went wrong while opening the link.");
-  } finally {
-    setLoading(false);
-  }
+export const openExternalLink = async (link: string) => {
+  await WebBrowser.openBrowserAsync(link);
 };
 
 export default function ExternalLinks() {
-  const [loadingLink, setLoadingLink] = useState<string | null>(null);
-
   return (
     <View className="flex-col gap-4 p-4 bg-sepia-900 border-t">
       {externalLinks.map((link) => (
         <Pressable
           key={link.name}
-          onPress={() =>
-            openLink(link.url, (loading) =>
-              setLoadingLink(loading ? link.name : null),
-            )
-          }
+          onPress={() => openExternalLink(link.url)}
           className="flex-col items-start py-2 px-3 gap-1 rounded-lg bg-sepia-800 active:bg-sepia-700"
-          disabled={loadingLink === link.name}
           accessibilityLabel={`${link.title}: ${link.desc}`}
           accessibilityRole="link"
         >
           <View className="flex-row justify-between w-full">
             <View className="flex-row gap-3">
-              <FontAwesome6
-                name={loadingLink === link.name ? "spinner" : link.icon}
-                size={20}
-                color={COLORS["400"]}
-                spin={loadingLink === link.name}
-              />
+              <FontAwesome6 name={link.icon} size={20} color={COLORS["400"]} />
               <Text className="text-sm bold text-sepia-500">{link.title}</Text>
             </View>
           </View>
