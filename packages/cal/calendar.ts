@@ -1,6 +1,5 @@
 import {
   addDays,
-  endOfYear,
   getDate,
   getDay,
   getMonth,
@@ -19,19 +18,19 @@ import { yyyyMMDD } from "./utils";
 export enum LiturgicalSeason {
   ADVENT = "Advento",
   CHRISTMAS = "Natal",
-  CHRISTMAS_EARLY = "Natal", // Christmas season at the start of the year
+  CHRISTMAS_EARLY = "Natal",
   EPIPHANY = "Epifania",
   SEPTUAGESIMA = "Septuagésima",
   LENT = "Quaresma",
   PASSIONTIDE = "Paixão",
+  HOLY_WEEK = "Semana Santa",
   EASTER = "Páscoa",
   PENTECOST = "Pentecostes",
-  TIME_AFTER_PENTECOST = "Tempo depois Pentecostes",
 }
 
 export class Day {
   mass: Mass[] = [];
-  private _season: LiturgicalSeason = "" as LiturgicalSeason;
+  season: LiturgicalSeason = "" as LiturgicalSeason;
 
   constructor(public date: string) {}
 
@@ -43,12 +42,12 @@ export class Day {
     return this.mass[0]?.name;
   }
 
-  get season(): LiturgicalSeason {
-    return this._season;
+  get getSeason(): LiturgicalSeason {
+    return this.season;
   }
 
-  set season(value: LiturgicalSeason) {
-    this._season = value;
+  set setSeason(value: LiturgicalSeason) {
+    this.season = value;
   }
 }
 
@@ -87,12 +86,14 @@ export class Calendar {
     const epiphany = new Date(this.year, 0, 6);
     const septuagesima = this.calcSeptuagesima();
     const easterSunday = this.calcEasterSunday();
-    const ashWednesday = subDays(easterSunday, 46);
+    const ashWednesday = subDays(easterSunday, 47);
     const passionSunday = subDays(easterSunday, 14);
-    const pentecostSunday = addDays(easterSunday, 49);
+    const holyWeek = subDays(easterSunday, 7);
+    const pentecostSunday = addDays(easterSunday, 50);
     const adventStart = this.calcFirstAdventSunday();
+    const yearEnd = new Date(this.year, 11, 31);
+    const yearStart = new Date(this.year, 0, 1);
 
-    // Set season boundaries
     this._seasonBoundaries.set(LiturgicalSeason.ADVENT, [
       adventStart,
       subDays(christmas, 1),
@@ -100,11 +101,11 @@ export class Calendar {
 
     this._seasonBoundaries.set(LiturgicalSeason.CHRISTMAS, [
       christmas,
-      endOfYear(this.year),
+      yearEnd,
     ]);
 
     this._seasonBoundaries.set(LiturgicalSeason.CHRISTMAS_EARLY, [
-      new Date(this.year, 0, 1),
+      yearStart,
       subDays(epiphany, 1),
     ]);
 
@@ -120,26 +121,26 @@ export class Calendar {
 
     this._seasonBoundaries.set(LiturgicalSeason.LENT, [
       ashWednesday,
-      subDays(passionSunday, 1),
+      passionSunday,
     ]);
 
     this._seasonBoundaries.set(LiturgicalSeason.PASSIONTIDE, [
       passionSunday,
-      subDays(easterSunday, 1),
+      holyWeek,
+    ]);
+
+    this._seasonBoundaries.set(LiturgicalSeason.HOLY_WEEK, [
+      holyWeek,
+      easterSunday,
     ]);
 
     this._seasonBoundaries.set(LiturgicalSeason.EASTER, [
       easterSunday,
-      subDays(pentecostSunday, 1),
+      pentecostSunday,
     ]);
 
     this._seasonBoundaries.set(LiturgicalSeason.PENTECOST, [
       pentecostSunday,
-      nextSunday(pentecostSunday),
-    ]);
-
-    this._seasonBoundaries.set(LiturgicalSeason.TIME_AFTER_PENTECOST, [
-      nextSunday(pentecostSunday),
       subDays(adventStart, 1),
     ]);
   }
@@ -148,7 +149,6 @@ export class Calendar {
     for (const [dateString, day] of this.container) {
       const date = new Date(dateString);
 
-      // Apply seasons based on boundaries
       for (const [season, [start, end]] of this._seasonBoundaries.entries()) {
         if (date >= start && date <= end) {
           if (season === LiturgicalSeason.CHRISTMAS_EARLY) {
@@ -156,12 +156,12 @@ export class Calendar {
           } else {
             day.season = season;
           }
-          break; // Apply the first matching season
+          break;
         }
       }
 
-      // Explicitly set Christmas for Dec 25-31 after the general application
-      const month = date.getMonth(); // 0-indexed (11 for December)
+      // Explicit Christmas season override for Dec 25-31
+      const month = date.getMonth();
       const dayOfMonth = date.getDate();
 
       if (month === 11 && dayOfMonth >= 25 && dayOfMonth <= 31) {
@@ -170,14 +170,12 @@ export class Calendar {
     }
   }
 
-  // Get liturgical season name for display purposes
   public getSeasonName(date: string) {
     const day = this.getDay(date);
     return day?.season;
   }
 
   private fillInTemporaDays() {
-    // Insert blocks
     this.insertBlock(
       this.calcHolyFamily(),
       massManager.getByTypeId("post-epiphany"),
@@ -209,9 +207,7 @@ export class Calendar {
       massManager.getByTypeId("ember-september"),
     );
 
-    // Insert single days
     this.insertSingleDay(this.calcHolyName(), "TEMPORA_NAT2_0");
-
     this.insertSingleDay(this.calcChristKing(), "SANCTI_10_DUR");
 
     const christmasOctaveSunday = this.calcSundayChristmasOctave();
@@ -260,8 +256,8 @@ export class Calendar {
   private fillInSanctiDays() {
     for (const [date, day] of this.container) {
       const dateObj = new Date(date);
-      const m = dateObj.getUTCMonth();
-      const d = dateObj.getUTCDate();
+      const m = dateObj.getMonth();
+      const d = dateObj.getDate();
 
       const masses = massManager
         .getByFlexibility("santos")
@@ -283,7 +279,6 @@ export class Calendar {
         );
 
         if (temporaObservances.length > 1) {
-          // Keep only the highest ranking temporal observance
           const bestTempora = temporaObservances.sort(
             (a, b) =>
               a.rank - b.rank || (a.week && b.week ? a.week - b.week : 0),
@@ -298,17 +293,14 @@ export class Calendar {
         }
       }
 
-      // Handle empty days
       if (!result.observances?.some((obs) => obs.id)) {
         this.handleEmptyDay(date);
       }
 
-      // Handle shifted observances
       if (result?.toShift?.date) {
         this.handleShiftedDay(result.toShift);
       }
 
-      // Update current day's observances
       if (result?.observances?.length) {
         day.mass = this.removeDuplicates(result.observances);
       }
@@ -319,7 +311,6 @@ export class Calendar {
     let currentDate = new Date(date);
     const yearStart = new Date(this.year, 0, 1);
 
-    // Find the latest Sunday or January 6th
     while (
       !isSunday(currentDate) &&
       !(getMonth(currentDate) === 0 && getDate(currentDate) === 6)
@@ -357,7 +348,6 @@ export class Calendar {
     }
 
     if (result.toShift?.observances.length) {
-      // Remove shifted observances from current observances
       const currentObservances = rules.observances.filter(
         (obs) =>
           !result.toShift!.observances.some((shifted) => shifted.id === obs.id),
@@ -373,7 +363,6 @@ export class Calendar {
   }
 
   private removeDuplicates(masses: Mass[]): Mass[] {
-    // Sort masses by rank (and local status)
     masses.sort((a, b) => {
       if (a.rank === b.rank) {
         return a.local ? 1 : b.local ? -1 : 0;
@@ -381,7 +370,6 @@ export class Calendar {
       return a.rank - b.rank;
     });
 
-    // Keep only unique IDs
     const seen = new Set<string>();
     return masses.filter((mass) => {
       if (seen.has(mass.id)) return false;
@@ -390,7 +378,6 @@ export class Calendar {
     });
   }
 
-  // Easter calculation - using algorithm for Julian calendar
   private calcEasterSunday(): Date {
     const year = this.year;
     const a = year % 19;
@@ -411,13 +398,11 @@ export class Calendar {
     return new Date(year, month - 1, day);
   }
 
-  // Calendar date calculations
   private calcHolyFamily(): Date {
     return nextSunday(new Date(this.year, 0, 6));
   }
 
   private calcSeptuagesima(): Date {
-    // 63 days before Easter
     return subDays(this.calcEasterSunday(), 63);
   }
 
@@ -425,7 +410,6 @@ export class Calendar {
     const christmasDay = new Date(this.year, 11, 25);
     const weekday = getDay(christmasDay);
 
-    // Map Christmas weekday to Advent start date
     const adventDates = [
       new Date(this.year, 10, 27), // Sunday
       new Date(this.year, 11, 3), // Monday
@@ -448,17 +432,15 @@ export class Calendar {
   }
 
   private calcEmberWednesdaySeptember(): Date {
-    // Find third Sunday in September
-    let date = new Date(this.year, 8, 15); // Start on 15th
+    let date = new Date(this.year, 8, 15);
     while (!isSunday(date) || getDate(date) > 21) {
       date = addDays(date, 1);
-      if (getMonth(date) > 8) break; // Safety check
+      if (getMonth(date) > 8) break;
     }
     return nextWednesday(date);
   }
 
   private calcHolyName(): Date {
-    // First Sunday of year, unless it's 1st, 6th or 7th January
     let date = new Date(this.year, 0, 1);
 
     while (getDate(date) <= 7) {
@@ -471,17 +453,14 @@ export class Calendar {
       date = addDays(date, 1);
     }
 
-    // Fallback - should never reach here
     return new Date(this.year, 0, 2);
   }
 
   private calcChristKing(): Date {
-    // Last Sunday of October
     return previousSunday(new Date(this.year, 10, 1));
   }
 
   private calcSundayChristmasOctave(): Date | null {
-    // Sunday between Dec 26-31
     for (let day = 26; day <= 31; day++) {
       const date = new Date(this.year, 11, day);
       if (isSunday(date)) return date;

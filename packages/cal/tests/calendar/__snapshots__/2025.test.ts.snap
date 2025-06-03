@@ -3,7 +3,6 @@
 exports[`calendar 2025 > should render the correct calendar 1`] = `
 [
   Day {
-    "_season": "Natal",
     "date": "2025-01-01",
     "mass": [
       {
@@ -21,9 +20,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
-    "_season": "Natal",
     "date": "2025-01-02",
     "mass": [
       {
@@ -41,9 +40,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
-    "_season": "Natal",
     "date": "2025-01-03",
     "mass": [
       {
@@ -61,9 +60,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
-    "_season": "Natal",
     "date": "2025-01-04",
     "mass": [
       {
@@ -81,9 +80,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
-    "_season": "Natal",
     "date": "2025-01-05",
     "mass": [
       {
@@ -116,9 +115,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Natal",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-06",
     "mass": [
       {
@@ -136,9 +135,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-07",
     "mass": [
       {
@@ -156,9 +155,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-08",
     "mass": [
       {
@@ -176,9 +175,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-09",
     "mass": [
       {
@@ -196,9 +195,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-10",
     "mass": [
       {
@@ -216,9 +215,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-11",
     "mass": [
       {
@@ -234,9 +233,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "feria",
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-12",
     "mass": [
       {
@@ -254,9 +253,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-13",
     "mass": [
       {
@@ -288,9 +287,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-14",
     "mass": [
       {
@@ -336,9 +335,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-15",
     "mass": [
       {
@@ -384,9 +383,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-16",
     "mass": [
       {
@@ -433,9 +432,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-17",
     "mass": [
       {
@@ -467,9 +466,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-18",
     "mass": [
       {
@@ -513,9 +512,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-19",
     "mass": [
       {
@@ -548,9 +547,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-20",
     "mass": [
       {
@@ -582,9 +581,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-21",
     "mass": [
       {
@@ -616,9 +615,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-22",
     "mass": [
       {
@@ -665,9 +664,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-23",
     "mass": [
       {
@@ -713,9 +712,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-24",
     "mass": [
       {
@@ -747,9 +746,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-25",
     "mass": [
       {
@@ -781,9 +780,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-26",
     "mass": [
       {
@@ -815,9 +814,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-27",
     "mass": [
       {
@@ -864,9 +863,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-28",
     "mass": [
       {
@@ -913,9 +912,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-29",
     "mass": [
       {
@@ -962,9 +961,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-30",
     "mass": [
       {
@@ -996,9 +995,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-01-31",
     "mass": [
       {
@@ -1030,9 +1029,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-02-01",
     "mass": [
       {
@@ -1064,9 +1063,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-02-02",
     "mass": [
       {
@@ -1098,9 +1097,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-02-03",
     "mass": [
       {
@@ -1132,9 +1131,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-02-04",
     "mass": [
       {
@@ -1181,9 +1180,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-02-05",
     "mass": [
       {
@@ -1215,9 +1214,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-02-06",
     "mass": [
       {
@@ -1263,9 +1262,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-02-07",
     "mass": [
       {
@@ -1297,9 +1296,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-02-08",
     "mass": [
       {
@@ -1331,9 +1330,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-02-09",
     "mass": [
       {
@@ -1379,9 +1378,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-02-10",
     "mass": [
       {
@@ -1413,9 +1412,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-02-11",
     "mass": [
       {
@@ -1447,9 +1446,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-02-12",
     "mass": [
       {
@@ -1481,9 +1480,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-02-13",
     "mass": [
       {
@@ -1516,9 +1515,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-02-14",
     "mass": [
       {
@@ -1550,9 +1549,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Epifania",
     "date": "2025-02-15",
     "mass": [
       {
@@ -1597,9 +1596,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Epifania",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-02-16",
     "mass": [
       {
@@ -1617,9 +1616,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-02-17",
     "mass": [
       {
@@ -1637,9 +1636,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-02-18",
     "mass": [
       {
@@ -1686,9 +1685,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-02-19",
     "mass": [
       {
@@ -1706,9 +1705,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-02-20",
     "mass": [
       {
@@ -1726,9 +1725,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-02-21",
     "mass": [
       {
@@ -1746,9 +1745,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-02-22",
     "mass": [
       {
@@ -1780,9 +1779,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-02-23",
     "mass": [
       {
@@ -1814,9 +1813,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-02-24",
     "mass": [
       {
@@ -1848,9 +1847,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-02-25",
     "mass": [
       {
@@ -1868,9 +1867,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-02-26",
     "mass": [
       {
@@ -1888,9 +1887,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-02-27",
     "mass": [
       {
@@ -1937,9 +1936,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-02-28",
     "mass": [
       {
@@ -1972,9 +1971,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-03-01",
     "mass": [
       {
@@ -2007,9 +2006,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-03-02",
     "mass": [
       {
@@ -2027,9 +2026,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-03-03",
     "mass": [
       {
@@ -2047,9 +2046,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
-    "_season": "Septuagésima",
     "date": "2025-03-04",
     "mass": [
       {
@@ -2095,9 +2094,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-05",
     "mass": [
       {
@@ -2115,9 +2114,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-06",
     "mass": [
       {
@@ -2149,9 +2148,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-07",
     "mass": [
       {
@@ -2183,9 +2182,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-08",
     "mass": [
       {
@@ -2217,9 +2216,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-09",
     "mass": [
       {
@@ -2251,9 +2250,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-10",
     "mass": [
       {
@@ -2285,9 +2284,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-11",
     "mass": [
       {
@@ -2305,9 +2304,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-12",
     "mass": [
       {
@@ -2339,9 +2338,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-13",
     "mass": [
       {
@@ -2374,9 +2373,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-14",
     "mass": [
       {
@@ -2394,9 +2393,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-15",
     "mass": [
       {
@@ -2414,9 +2413,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-16",
     "mass": [
       {
@@ -2434,9 +2433,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-17",
     "mass": [
       {
@@ -2468,9 +2467,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-18",
     "mass": [
       {
@@ -2502,9 +2501,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-19",
     "mass": [
       {
@@ -2537,9 +2536,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-20",
     "mass": [
       {
@@ -2572,9 +2571,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-21",
     "mass": [
       {
@@ -2606,9 +2605,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-22",
     "mass": [
       {
@@ -2626,9 +2625,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-23",
     "mass": [
       {
@@ -2646,9 +2645,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-24",
     "mass": [
       {
@@ -2695,9 +2694,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-25",
     "mass": [
       {
@@ -2730,9 +2729,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-26",
     "mass": [
       {
@@ -2750,9 +2749,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-27",
     "mass": [
       {
@@ -2784,9 +2783,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-28",
     "mass": [
       {
@@ -2818,9 +2817,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-29",
     "mass": [
       {
@@ -2838,9 +2837,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-30",
     "mass": [
       {
@@ -2858,9 +2857,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-03-31",
     "mass": [
       {
@@ -2878,9 +2877,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-04-01",
     "mass": [
       {
@@ -2898,9 +2897,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-04-02",
     "mass": [
       {
@@ -2932,9 +2931,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-04-03",
     "mass": [
       {
@@ -2952,9 +2951,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Quaresma",
     "date": "2025-04-04",
     "mass": [
       {
@@ -2986,9 +2985,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "",
     "date": "2025-04-05",
     "mass": [
       {
@@ -3020,9 +3019,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
-    "_season": "Paixão",
     "date": "2025-04-06",
     "mass": [
       {
@@ -3040,9 +3039,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Paixão",
   },
   Day {
-    "_season": "Paixão",
     "date": "2025-04-07",
     "mass": [
       {
@@ -3060,9 +3059,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Paixão",
   },
   Day {
-    "_season": "Paixão",
     "date": "2025-04-08",
     "mass": [
       {
@@ -3080,9 +3079,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Paixão",
   },
   Day {
-    "_season": "Paixão",
     "date": "2025-04-09",
     "mass": [
       {
@@ -3100,9 +3099,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Paixão",
   },
   Day {
-    "_season": "Paixão",
     "date": "2025-04-10",
     "mass": [
       {
@@ -3120,9 +3119,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Paixão",
   },
   Day {
-    "_season": "Paixão",
     "date": "2025-04-11",
     "mass": [
       {
@@ -3154,9 +3153,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Paixão",
   },
   Day {
-    "_season": "Paixão",
     "date": "2025-04-12",
     "mass": [
       {
@@ -3174,9 +3173,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Paixão",
   },
   Day {
-    "_season": "Paixão",
     "date": "2025-04-13",
     "mass": [
       {
@@ -3208,9 +3207,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Semana Santa",
   },
   Day {
-    "_season": "Paixão",
     "date": "2025-04-14",
     "mass": [
       {
@@ -3242,9 +3241,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Semana Santa",
   },
   Day {
-    "_season": "Paixão",
     "date": "2025-04-15",
     "mass": [
       {
@@ -3262,9 +3261,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Semana Santa",
   },
   Day {
-    "_season": "Paixão",
     "date": "2025-04-16",
     "mass": [
       {
@@ -3312,9 +3311,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Semana Santa",
   },
   Day {
-    "_season": "Paixão",
     "date": "2025-04-17",
     "mass": [
       {
@@ -3346,9 +3345,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Semana Santa",
   },
   Day {
-    "_season": "Paixão",
     "date": "2025-04-18",
     "mass": [
       {
@@ -3366,9 +3365,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Semana Santa",
   },
   Day {
-    "_season": "",
     "date": "2025-04-19",
     "mass": [
       {
@@ -3386,9 +3385,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Semana Santa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-04-20",
     "mass": [
       {
@@ -3406,9 +3405,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-04-21",
     "mass": [
       {
@@ -3440,9 +3439,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-04-22",
     "mass": [
       {
@@ -3474,9 +3473,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-04-23",
     "mass": [
       {
@@ -3509,9 +3508,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-04-24",
     "mass": [
       {
@@ -3543,9 +3542,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-04-25",
     "mass": [
       {
@@ -3563,9 +3562,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-04-26",
     "mass": [
       {
@@ -3612,9 +3611,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-04-27",
     "mass": [
       {
@@ -3646,9 +3645,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-04-28",
     "mass": [
       {
@@ -3694,9 +3693,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-04-29",
     "mass": [
       {
@@ -3728,9 +3727,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-04-30",
     "mass": [
       {
@@ -3762,9 +3761,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-01",
     "mass": [
       {
@@ -3825,9 +3824,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-02",
     "mass": [
       {
@@ -3859,9 +3858,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-03",
     "mass": [
       {
@@ -3907,9 +3906,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-04",
     "mass": [
       {
@@ -3956,9 +3955,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-05",
     "mass": [
       {
@@ -3990,9 +3989,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-06",
     "mass": [
       {
@@ -4024,9 +4023,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-07",
     "mass": [
       {
@@ -4058,9 +4057,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-08",
     "mass": [
       {
@@ -4092,9 +4091,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-09",
     "mass": [
       {
@@ -4126,9 +4125,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-10",
     "mass": [
       {
@@ -4160,9 +4159,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-11",
     "mass": [
       {
@@ -4180,9 +4179,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-12",
     "mass": [
       {
@@ -4229,9 +4228,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-13",
     "mass": [
       {
@@ -4279,9 +4278,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-14",
     "mass": [
       {
@@ -4328,9 +4327,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-15",
     "mass": [
       {
@@ -4377,9 +4376,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-16",
     "mass": [
       {
@@ -4411,9 +4410,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-17",
     "mass": [
       {
@@ -4445,9 +4444,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-18",
     "mass": [
       {
@@ -4479,9 +4478,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-19",
     "mass": [
       {
@@ -4513,9 +4512,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-20",
     "mass": [
       {
@@ -4547,9 +4546,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-21",
     "mass": [
       {
@@ -4567,9 +4566,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-22",
     "mass": [
       {
@@ -4631,9 +4630,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-23",
     "mass": [
       {
@@ -4651,9 +4650,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-24",
     "mass": [
       {
@@ -4700,9 +4699,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-25",
     "mass": [
       {
@@ -4734,9 +4733,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-26",
     "mass": [
       {
@@ -4782,9 +4781,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-27",
     "mass": [
       {
@@ -4830,9 +4829,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-28",
     "mass": [
       {
@@ -4864,9 +4863,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-29",
     "mass": [
       {
@@ -4898,9 +4897,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-30",
     "mass": [
       {
@@ -4932,9 +4931,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-05-31",
     "mass": [
       {
@@ -4981,9 +4980,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-06-01",
     "mass": [
       {
@@ -5015,9 +5014,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-06-02",
     "mass": [
       {
@@ -5049,9 +5048,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-06-03",
     "mass": [
       {
@@ -5084,9 +5083,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-06-04",
     "mass": [
       {
@@ -5118,9 +5117,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-06-05",
     "mass": [
       {
@@ -5152,9 +5151,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Páscoa",
     "date": "2025-06-06",
     "mass": [
       {
@@ -5186,9 +5185,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "",
     "date": "2025-06-07",
     "mass": [
       {
@@ -5206,9 +5205,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Pentecostes",
     "date": "2025-06-08",
     "mass": [
       {
@@ -5227,9 +5226,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
-    "_season": "Pentecostes",
     "date": "2025-06-09",
     "mass": [
       {
@@ -5261,9 +5260,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Pentecostes",
     "date": "2025-06-10",
     "mass": [
       {
@@ -5295,9 +5294,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Pentecostes",
     "date": "2025-06-11",
     "mass": [
       {
@@ -5329,9 +5328,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Pentecostes",
     "date": "2025-06-12",
     "mass": [
       {
@@ -5363,9 +5362,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Pentecostes",
     "date": "2025-06-13",
     "mass": [
       {
@@ -5398,9 +5397,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Pentecostes",
     "date": "2025-06-14",
     "mass": [
       {
@@ -5432,9 +5431,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-06-15",
     "mass": [
       {
@@ -5466,9 +5465,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-06-16",
     "mass": [
       {
@@ -5486,9 +5485,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-06-17",
     "mass": [
       {
@@ -5521,9 +5520,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-06-18",
     "mass": [
       {
@@ -5555,9 +5554,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-06-19",
     "mass": [
       {
@@ -5590,9 +5589,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-06-20",
     "mass": [
       {
@@ -5639,9 +5638,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-06-21",
     "mass": [
       {
@@ -5673,9 +5672,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-06-22",
     "mass": [
       {
@@ -5707,9 +5706,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-06-23",
     "mass": [
       {
@@ -5741,9 +5740,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-06-24",
     "mass": [
       {
@@ -5776,9 +5775,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-06-25",
     "mass": [
       {
@@ -5810,9 +5809,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-06-26",
     "mass": [
       {
@@ -5859,9 +5858,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-06-27",
     "mass": [
       {
@@ -5894,9 +5893,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-06-28",
     "mass": [
       {
@@ -5942,9 +5941,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-06-29",
     "mass": [
       {
@@ -5977,9 +5976,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-06-30",
     "mass": [
       {
@@ -6011,9 +6010,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-01",
     "mass": [
       {
@@ -6046,9 +6045,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-02",
     "mass": [
       {
@@ -6080,9 +6079,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-03",
     "mass": [
       {
@@ -6114,9 +6113,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-04",
     "mass": [
       {
@@ -6148,9 +6147,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-05",
     "mass": [
       {
@@ -6182,9 +6181,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-06",
     "mass": [
       {
@@ -6202,9 +6201,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-07",
     "mass": [
       {
@@ -6236,9 +6235,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-08",
     "mass": [
       {
@@ -6256,9 +6255,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-09",
     "mass": [
       {
@@ -6276,9 +6275,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-10",
     "mass": [
       {
@@ -6310,9 +6309,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-11",
     "mass": [
       {
@@ -6344,9 +6343,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-12",
     "mass": [
       {
@@ -6378,9 +6377,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-13",
     "mass": [
       {
@@ -6398,9 +6397,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-14",
     "mass": [
       {
@@ -6432,9 +6431,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-15",
     "mass": [
       {
@@ -6481,9 +6480,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-16",
     "mass": [
       {
@@ -6530,9 +6529,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-17",
     "mass": [
       {
@@ -6564,9 +6563,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-18",
     "mass": [
       {
@@ -6598,9 +6597,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-19",
     "mass": [
       {
@@ -6632,9 +6631,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-20",
     "mass": [
       {
@@ -6695,9 +6694,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-21",
     "mass": [
       {
@@ -6744,9 +6743,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-22",
     "mass": [
       {
@@ -6793,9 +6792,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-23",
     "mass": [
       {
@@ -6856,9 +6855,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-24",
     "mass": [
       {
@@ -6904,9 +6903,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-25",
     "mass": [
       {
@@ -6952,9 +6951,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-26",
     "mass": [
       {
@@ -6986,9 +6985,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-27",
     "mass": [
       {
@@ -7034,9 +7033,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-28",
     "mass": [
       {
@@ -7096,9 +7095,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-29",
     "mass": [
       {
@@ -7144,9 +7143,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-30",
     "mass": [
       {
@@ -7178,9 +7177,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-07-31",
     "mass": [
       {
@@ -7212,9 +7211,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-01",
     "mass": [
       {
@@ -7246,9 +7245,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-02",
     "mass": [
       {
@@ -7294,9 +7293,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-03",
     "mass": [
       {
@@ -7314,9 +7313,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-04",
     "mass": [
       {
@@ -7348,9 +7347,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-05",
     "mass": [
       {
@@ -7382,9 +7381,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-06",
     "mass": [
       {
@@ -7444,9 +7443,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-07",
     "mass": [
       {
@@ -7478,9 +7477,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-08",
     "mass": [
       {
@@ -7512,9 +7511,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-09",
     "mass": [
       {
@@ -7574,9 +7573,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-10",
     "mass": [
       {
@@ -7608,9 +7607,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-11",
     "mass": [
       {
@@ -7656,9 +7655,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-12",
     "mass": [
       {
@@ -7690,9 +7689,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-13",
     "mass": [
       {
@@ -7724,9 +7723,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-14",
     "mass": [
       {
@@ -7758,9 +7757,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-15",
     "mass": [
       {
@@ -7793,9 +7792,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-16",
     "mass": [
       {
@@ -7827,9 +7826,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-17",
     "mass": [
       {
@@ -7861,9 +7860,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-18",
     "mass": [
       {
@@ -7909,9 +7908,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-19",
     "mass": [
       {
@@ -7943,9 +7942,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-20",
     "mass": [
       {
@@ -7978,9 +7977,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-21",
     "mass": [
       {
@@ -8012,9 +8011,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-22",
     "mass": [
       {
@@ -8060,9 +8059,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-23",
     "mass": [
       {
@@ -8094,9 +8093,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-24",
     "mass": [
       {
@@ -8128,9 +8127,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-25",
     "mass": [
       {
@@ -8162,9 +8161,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-26",
     "mass": [
       {
@@ -8196,9 +8195,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-27",
     "mass": [
       {
@@ -8230,9 +8229,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-28",
     "mass": [
       {
@@ -8278,9 +8277,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-29",
     "mass": [
       {
@@ -8312,9 +8311,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-30",
     "mass": [
       {
@@ -8346,9 +8345,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-08-31",
     "mass": [
       {
@@ -8380,9 +8379,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-01",
     "mass": [
       {
@@ -8428,9 +8427,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-02",
     "mass": [
       {
@@ -8462,9 +8461,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-03",
     "mass": [
       {
@@ -8496,9 +8495,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-04",
     "mass": [
       {
@@ -8516,9 +8515,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-05",
     "mass": [
       {
@@ -8550,9 +8549,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-06",
     "mass": [
       {
@@ -8568,9 +8567,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "feria",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-07",
     "mass": [
       {
@@ -8588,9 +8587,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-08",
     "mass": [
       {
@@ -8622,9 +8621,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-09",
     "mass": [
       {
@@ -8671,9 +8670,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-10",
     "mass": [
       {
@@ -8705,9 +8704,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-11",
     "mass": [
       {
@@ -8739,9 +8738,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-12",
     "mass": [
       {
@@ -8773,9 +8772,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-13",
     "mass": [
       {
@@ -8791,9 +8790,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "feria",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-14",
     "mass": [
       {
@@ -8825,9 +8824,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-15",
     "mass": [
       {
@@ -8860,9 +8859,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-16",
     "mass": [
       {
@@ -8937,9 +8936,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-17",
     "mass": [
       {
@@ -8971,9 +8970,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-18",
     "mass": [
       {
@@ -9005,9 +9004,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-19",
     "mass": [
       {
@@ -9039,9 +9038,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-20",
     "mass": [
       {
@@ -9087,9 +9086,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-21",
     "mass": [
       {
@@ -9121,9 +9120,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-22",
     "mass": [
       {
@@ -9155,9 +9154,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-23",
     "mass": [
       {
@@ -9203,9 +9202,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-24",
     "mass": [
       {
@@ -9236,9 +9235,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-25",
     "mass": [
       {
@@ -9256,9 +9255,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-26",
     "mass": [
       {
@@ -9289,9 +9288,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-27",
     "mass": [
       {
@@ -9323,9 +9322,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-28",
     "mass": [
       {
@@ -9357,9 +9356,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-29",
     "mass": [
       {
@@ -9392,9 +9391,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-09-30",
     "mass": [
       {
@@ -9426,9 +9425,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-01",
     "mass": [
       {
@@ -9475,9 +9474,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-02",
     "mass": [
       {
@@ -9509,9 +9508,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-03",
     "mass": [
       {
@@ -9543,9 +9542,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-04",
     "mass": [
       {
@@ -9577,9 +9576,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-05",
     "mass": [
       {
@@ -9611,9 +9610,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-06",
     "mass": [
       {
@@ -9645,9 +9644,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-07",
     "mass": [
       {
@@ -9708,9 +9707,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-08",
     "mass": [
       {
@@ -9742,9 +9741,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-09",
     "mass": [
       {
@@ -9790,9 +9789,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-10",
     "mass": [
       {
@@ -9824,9 +9823,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-11",
     "mass": [
       {
@@ -9857,9 +9856,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-12",
     "mass": [
       {
@@ -9877,9 +9876,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-13",
     "mass": [
       {
@@ -9911,9 +9910,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-14",
     "mass": [
       {
@@ -9945,9 +9944,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-15",
     "mass": [
       {
@@ -9979,9 +9978,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-16",
     "mass": [
       {
@@ -10028,9 +10027,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-17",
     "mass": [
       {
@@ -10077,9 +10076,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-18",
     "mass": [
       {
@@ -10111,9 +10110,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-19",
     "mass": [
       {
@@ -10145,9 +10144,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-20",
     "mass": [
       {
@@ -10194,9 +10193,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-21",
     "mass": [
       {
@@ -10243,9 +10242,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-22",
     "mass": [
       {
@@ -10293,9 +10292,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-23",
     "mass": [
       {
@@ -10341,9 +10340,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-24",
     "mass": [
       {
@@ -10375,9 +10374,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-25",
     "mass": [
       {
@@ -10452,9 +10451,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-26",
     "mass": [
       {
@@ -10485,9 +10484,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-27",
     "mass": [
       {
@@ -10535,9 +10534,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-28",
     "mass": [
       {
@@ -10569,9 +10568,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-29",
     "mass": [
       {
@@ -10619,9 +10618,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-30",
     "mass": [
       {
@@ -10654,9 +10653,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-10-31",
     "mass": [
       {
@@ -10674,9 +10673,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-01",
     "mass": [
       {
@@ -10709,9 +10708,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-02",
     "mass": [
       {
@@ -10729,9 +10728,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-03",
     "mass": [
       {
@@ -10749,9 +10748,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-04",
     "mass": [
       {
@@ -10783,9 +10782,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-05",
     "mass": [
       {
@@ -10818,9 +10817,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-06",
     "mass": [
       {
@@ -10854,9 +10853,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-07",
     "mass": [
       {
@@ -10874,9 +10873,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-08",
     "mass": [
       {
@@ -10906,9 +10905,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-09",
     "mass": [
       {
@@ -10940,9 +10939,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-10",
     "mass": [
       {
@@ -10974,9 +10973,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-11",
     "mass": [
       {
@@ -11008,9 +11007,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-12",
     "mass": [
       {
@@ -11042,9 +11041,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-13",
     "mass": [
       {
@@ -11076,9 +11075,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-14",
     "mass": [
       {
@@ -11110,9 +11109,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-15",
     "mass": [
       {
@@ -11159,9 +11158,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-16",
     "mass": [
       {
@@ -11208,9 +11207,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-17",
     "mass": [
       {
@@ -11242,9 +11241,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-18",
     "mass": [
       {
@@ -11276,9 +11275,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-19",
     "mass": [
       {
@@ -11324,9 +11323,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-20",
     "mass": [
       {
@@ -11373,9 +11372,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-21",
     "mass": [
       {
@@ -11407,9 +11406,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-22",
     "mass": [
       {
@@ -11441,9 +11440,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-23",
     "mass": [
       {
@@ -11490,9 +11489,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-24",
     "mass": [
       {
@@ -11539,9 +11538,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-25",
     "mass": [
       {
@@ -11573,9 +11572,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-26",
     "mass": [
       {
@@ -11621,9 +11620,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-27",
     "mass": [
       {
@@ -11656,9 +11655,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-28",
     "mass": [
       {
@@ -11705,9 +11704,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Tempo depois Pentecostes",
     "date": "2025-11-29",
     "mass": [
       {
@@ -11751,9 +11750,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-11-30",
     "mass": [
       {
@@ -11771,9 +11770,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-01",
     "mass": [
       {
@@ -11820,9 +11819,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-02",
     "mass": [
       {
@@ -11854,9 +11853,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-03",
     "mass": [
       {
@@ -11888,9 +11887,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-04",
     "mass": [
       {
@@ -11922,9 +11921,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-05",
     "mass": [
       {
@@ -11956,9 +11955,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-06",
     "mass": [
       {
@@ -11990,9 +11989,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-07",
     "mass": [
       {
@@ -12038,9 +12037,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-08",
     "mass": [
       {
@@ -12073,9 +12072,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-09",
     "mass": [
       {
@@ -12108,9 +12107,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-10",
     "mass": [
       {
@@ -12142,9 +12141,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-11",
     "mass": [
       {
@@ -12176,9 +12175,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-12",
     "mass": [
       {
@@ -12211,9 +12210,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-13",
     "mass": [
       {
@@ -12245,9 +12244,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-14",
     "mass": [
       {
@@ -12280,9 +12279,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-15",
     "mass": [
       {
@@ -12300,9 +12299,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-16",
     "mass": [
       {
@@ -12334,9 +12333,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-17",
     "mass": [
       {
@@ -12354,9 +12353,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-18",
     "mass": [
       {
@@ -12374,9 +12373,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-19",
     "mass": [
       {
@@ -12409,9 +12408,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-20",
     "mass": [
       {
@@ -12443,9 +12442,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-21",
     "mass": [
       {
@@ -12463,9 +12462,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-22",
     "mass": [
       {
@@ -12497,9 +12496,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-23",
     "mass": [
       {
@@ -12517,9 +12516,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Advento",
     "date": "2025-12-24",
     "mass": [
       {
@@ -12537,9 +12536,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Advento",
   },
   Day {
-    "_season": "Natal",
     "date": "2025-12-25",
     "mass": [
       {
@@ -12582,9 +12581,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
-    "_season": "Natal",
     "date": "2025-12-26",
     "mass": [
       {
@@ -12602,9 +12601,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
-    "_season": "Natal",
     "date": "2025-12-27",
     "mass": [
       {
@@ -12622,9 +12621,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
-    "_season": "Natal",
     "date": "2025-12-28",
     "mass": [
       {
@@ -12656,9 +12655,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Natal",
   },
   Day {
-    "_season": "Natal",
     "date": "2025-12-29",
     "mass": [
       {
@@ -12676,9 +12675,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
-    "_season": "Natal",
     "date": "2025-12-30",
     "mass": [
       {
@@ -12696,9 +12695,9 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
-    "_season": "Natal",
     "date": "2025-12-31",
     "mass": [
       {
@@ -12716,6 +12715,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
 ]
 `;
