@@ -1,5 +1,9 @@
-import type { Day } from "@tesourofieis/cal/calendar";
-import { getCalendar, getCalendarDay } from "@tesourofieis/cal/getCalendar";
+import type { Day, LiturgicalSeason } from "@tesourofieis/cal/calendar";
+import {
+  getCalendar,
+  getCalendarDay,
+  getSeason,
+} from "@tesourofieis/cal/getCalendar";
 import type { Mass } from "@tesourofieis/cal/observanceManager";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import {
@@ -25,6 +29,7 @@ const CalendarContext = createContext<{
   mass: Mass[];
   novenas?: Mass[];
   date: Date;
+  season: LiturgicalSeason;
 }>(undefined);
 
 export function CalendarProvider({ children }: PropsWithChildren) {
@@ -63,6 +68,8 @@ export function CalendarProvider({ children }: PropsWithChildren) {
     return novenaObservances;
   }
 
+  const season = getSeason(yyyyMMDD(date));
+
   if (!calendar || !day) {
     return (
       <View className="flex-auto justify-center items-center bg-sepia-200 dark:bg-sepia-900">
@@ -73,7 +80,7 @@ export function CalendarProvider({ children }: PropsWithChildren) {
 
   return (
     <CalendarContext.Provider
-      value={{ mass, day, calendar, novenas: getNovenas(), date }}
+      value={{ mass, day, calendar, novenas: getNovenas(), date, season }}
     >
       {children}
     </CalendarContext.Provider>

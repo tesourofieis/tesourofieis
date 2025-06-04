@@ -23,7 +23,7 @@ banner:
 
 import LinkCard from "~/components/LinkCard";
 
-import { LinkButton, Card } from "@astrojs/starlight/components";
+import { LinkButton, Card, CardGrid } from "@astrojs/starlight/components";
 
 import { Icon } from "@iconify/react";
 
@@ -66,14 +66,14 @@ import InteractiveCard from "~/components/InteractiveCard";
 
 ![Missa S. Bernardo](../../assets/1.jpeg)
 
-<div className="">
+<CardGrid>
   <LinkCard href="/missal" title="Missal" />
   <LinkCard href="/ritual" title="Ritual" />
   <LinkCard href="/fe" title="Fé" />
   <LinkCard href="/canticos" title="Cânticos" />
   <LinkCard href="/devocionario" title="Devocionário" />
   <LinkCard href="/calendario" title="Calendário" />
-</div>
+</CardGrid>
 
 <iframe
   id="kofiframe"

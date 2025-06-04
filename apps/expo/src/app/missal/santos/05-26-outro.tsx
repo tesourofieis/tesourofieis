@@ -1,4 +1,4 @@
-import { View } from "react-native";
+import { SafeAreaView, ScrollView, Text, View } from "react-native";
 
 import React from "react";
 import Missa from "../comum/sumospontifices";

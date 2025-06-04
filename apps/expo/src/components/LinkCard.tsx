@@ -22,7 +22,7 @@ export function getColor(color?: string) {
 }
 
 export const cardBase = (pressed: boolean) =>
-  `m-1 w-full flex-1 justify-between rounded-lg border border-sepia-300 p-4 ${
+  `my-1 w-full flex-1 justify-between rounded-lg border border-sepia-300 p-4 ${
     pressed
       ? "bg-sepia-200 dark:bg-sepia-700 opacity-90"
       : "bg-sepia-100 dark:bg-sepia-800"
@@ -46,7 +46,9 @@ export default function PageLinkCard({
 }) {
   if (oratio) {
     return (
+      // @ts-ignore
       <Link href={oratio.link} asChild>
+        {/* @ts-ignore */}
         <Pressable className={cardBase}>
           {({ pressed }) => (
             <View className={cardBase(pressed)}>
@@ -70,7 +72,9 @@ export default function PageLinkCard({
 
   if (mass) {
     return (
+      // @ts-ignore
       <Link href={mass.link} asChild>
+        {/* @ts-ignore */}
         <Pressable className={cardBase}>
           {({ pressed }) => (
             <View className={cardBase(pressed)}>
@@ -111,7 +115,9 @@ export default function PageLinkCard({
   }
 
   return (
+    // @ts-ignore
     <Link href={href ?? "/"} asChild>
+      {/* @ts-ignore */}
       <Pressable className={cardBase}>
         {({ pressed }) => (
           <View className={cardBase(pressed)}>

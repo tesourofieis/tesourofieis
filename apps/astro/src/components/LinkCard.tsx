@@ -20,7 +20,7 @@ export default function LinkCard({
   return (
     <a
       href={href}
-      className={`my-2 flex w-full items-center justify-between rounded border text-sepia-600 shadow ${borderColor} p-4 no-underline hover:border-sepia-800 hover:bg-sepia-200 dark:hover:border-sepia-400 dark:hover:bg-sepia-900`}
+      className={`my-2 flex w-full items-center justify-between rounded border text-sepia-600 shadow-sm ${borderColor} p-4 no-underline hover:border-sepia-800 dark:hover:border-sepia-400`}
     >
       <div className="flex flex-col">
         {caption && <p className="font-sm font-bold">{caption}</p>}

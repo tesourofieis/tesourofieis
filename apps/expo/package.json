@@ -4,6 +4,7 @@
   "private": true,
   "main": "./index",
   "scripts": {
+    "typecheck": "tsc --noEmit",
     "clean": "git clean -xdf .cache .expo .turbo android ios node_modules",
     "dev": "expo start --clear",
     "start": "EXPO_UNSTABLE_ATLAS=1 expo start -d",
@@ -12,7 +13,6 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "lint": "biome check --write --unsafe --files-ignore-unknown=true",
-    "typecheck": "tsc --noEmit",
     "build:sidebar": "ts-node --esm build_sidebar.mjs"
   },
   "dependencies": {
@@ -30,6 +30,7 @@
     "@tesourofieis/cal": "workspace:*",
     "date-fns": "catalog:",
     "expo": "~52.0.46",
+    "expo-clipboard": "~7.0.1",
     "expo-constants": "~17.0.8",
     "expo-dev-client": "~5.0.20",
     "expo-device": "~7.0.3",
@@ -40,7 +41,7 @@
     "expo-intent-launcher": "~12.0.2",
     "expo-linking": "~7.0.5",
     "expo-notifications": "~0.29.14",
-    "expo-router": "~4.0.20",
+    "expo-router": "~4.0.21",
     "expo-secure-store": "^14.0.1",
     "expo-splash-screen": "~0.29.24",
     "expo-status-bar": "~2.0.1",
@@ -64,13 +65,13 @@
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
     "@babel/runtime": "^7.25.0",
-    "@tesourofieis/tailwind-config": "workspace:*",
     "@tesourofieis/tsconfig": "workspace:*",
     "@types/babel__core": "^7.20.5",
     "@types/node": "^22.10.1",
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
-    "tailwindcss": "catalog:",
+    "expo-atlas": "^0.4.0",
+    "tailwindcss": "^3.4.17",
     "ts-node": "^10.9.2",
     "typescript": "catalog:"
   },

@@ -35,7 +35,7 @@ export default function DailyCalendar() {
 
   return (
     <div className="text-xs">
-      <div className="mx-2 mb-4 flex flex-col gap-2 rounded p-4 bg-sepia-100 dark:bg-sepia-900">
+      <div className="mx-2 mb-4 flex flex-col gap-2 rounded p-4">
         <div className="mb-2 text-lg font-semibold">{formatDate(today)}</div>
         {day?.mass.map((item) => (
           <LinkCard

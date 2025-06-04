@@ -1,4 +1,4 @@
-import { getDate, getMonth, isSunday } from "date-fns";
+import { getDate, getMonth } from "date-fns";
 import { OBSERVANCES } from "./observances";
 
 export interface Mass {
@@ -75,38 +75,12 @@ export class MassManager {
     return OBSERVANCES[id];
   }
 
-  getAll(): Mass[] {
-    return this.masses;
-  }
-
   getByFlexibility(flexibility: Mass["flexibility"]): Mass[] {
     return this.masses.filter((mass) => mass.flexibility === flexibility);
   }
 
   getByTypeId(type: Mass["type"]): Mass[] {
     return this.masses.filter((mass) => mass.type === type);
-  }
-
-  getFeriaByTypeId(type: Mass["type"]): Mass[] {
-    return this.masses
-      .filter((mass) => mass.type === type)
-      .filter((mass) => mass.weekday !== 0);
-  }
-
-  getOutro(): Mass[] {
-    return this.masses.filter((mass) => mass.outro);
-  }
-
-  getLocal(): Mass[] {
-    return this.masses.filter((mass) => mass.local !== undefined);
-  }
-
-  getByRank(rank: number): Mass[] {
-    return this.masses.filter((mass) => mass.rank === rank);
-  }
-
-  getByColor(color: Mass["color"]): Mass[] {
-    return this.masses.filter((mass) => mass.color === color);
   }
 
   getTempora(): Mass[] {
@@ -121,37 +95,11 @@ export class MassManager {
     return this.masses.filter((mass) => mass.category === "advento");
   }
 
-  getAdventSunday(): Mass[] {
-    return this.masses.filter(
-      (mass) => mass.category === "advento" && mass.weekday === 0,
-    );
-  }
-
-  getAdventFeria(): Mass[] {
-    return this.masses.filter(
-      (mass) => mass.category === "advento" && mass.weekday !== 0,
-    );
-  }
-
-  getLent(): Mass[] {
-    return this.masses.filter((mass) => mass.category === "quaresma");
-  }
-
   getEaster(): Mass[] {
     return this.masses.filter(
       (mass) =>
         mass.category === "pascoa" &&
         ((mass.weekday && mass.weekday < 5) || (mass.week && mass.week < 4)),
-    );
-  }
-
-  getSunday(): Mass[] {
-    return this.masses.filter((mass) => mass.weekday === 0);
-  }
-
-  getLentSunday(): Mass[] {
-    return this.masses.filter(
-      (mass) => mass.category === "quaresma" && mass.weekday === 0,
     );
   }
 
@@ -166,7 +114,8 @@ export class MassManager {
       (mass) =>
         mass.category === "quaresma" &&
         mass.week === 1 &&
-        mass.day === (3 || 5 || 6),
+        mass.day &&
+        [3, 5, 6].includes(mass.day),
     );
   }
 
@@ -179,7 +128,8 @@ export class MassManager {
       (mass) =>
         mass.category === "advento" &&
         mass.week === 3 &&
-        mass.day === (3 || 5 || 6),
+        mass.day &&
+        [3, 5, 6].includes(mass.day),
     );
   }
 
@@ -187,22 +137,6 @@ export class MassManager {
     return this.getLentEmberDays()
       .concat(this.getSeptemberEmberDays())
       .concat(this.getAdventEmberDays());
-  }
-
-  getTemporaSundayClass2(): Mass[] {
-    return this.masses.filter(
-      (mass) =>
-        (mass.flexibility === "tempora" &&
-          mass.weekday === 0 &&
-          mass.rank === 2) ||
-        mass.id === "TEMPORA_NAT1_0",
-    );
-  }
-
-  getTemporaClass4(): Mass[] {
-    return this.masses.filter(
-      (mass) => mass.flexibility === "tempora" && mass.rank === 4,
-    );
   }
 
   getSanctiClass1(): Mass[] {
@@ -215,37 +149,6 @@ export class MassManager {
     return this.masses.filter(
       (mass) => mass.category === "santos" && mass.rank === 2,
     );
-  }
-
-  getSanctiClass3(): Mass[] {
-    return this.masses.filter(
-      (mass) => mass.category === "santos" && mass.rank === 3,
-    );
-  }
-
-  getSanctiClass4(): Mass[] {
-    return this.masses.filter(
-      (mass) => mass.category === "santos" && mass.rank === 4,
-    );
-  }
-
-  getSanctiClass1Or2(): Mass[] {
-    return this.masses.filter(
-      (mass) =>
-        mass.id.startsWith("santos:") && (mass.rank === 1 || mass.rank === 2),
-    );
-  }
-
-  getClass1(): Mass[] {
-    return this.masses.filter((mass) => mass.rank === 1);
-  }
-
-  getClass2(): Mass[] {
-    return this.masses.filter((mass) => mass.rank === 2);
-  }
-
-  getClass3(): Mass[] {
-    return this.masses.filter((mass) => mass.rank === 3);
   }
 
   match(
