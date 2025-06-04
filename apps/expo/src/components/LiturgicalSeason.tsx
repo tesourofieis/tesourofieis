@@ -1,8 +1,7 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import type { LiturgicalSeason as Season } from "@tesourofieis/cal/calendar";
-import { Link } from "expo-router";
 import React from "react";
-import { Pressable, Text, View, useColorScheme } from "react-native";
+import { Text, View, useColorScheme } from "react-native";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
 import PageLinkCard from "./LinkCard";
@@ -226,6 +225,43 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
       description: "Oração da Paixão",
     },
   ],
+  "Semana Santa": [
+    {
+      title: "Via Sacra",
+      href: "/devocionario/viasacra",
+      description: "Meditação da Paixão",
+    },
+    {
+      title: "Vexilla Regis",
+      href: "/canticos/sacros/vexillaregis",
+      description: "Hino da Cruz",
+    },
+    {
+      title: "Crux Fidelis",
+      href: "/missal/quaresma/quad6-5#veníte-adorémus",
+      description: "Hino da Sexta-feira Santa",
+    },
+    {
+      title: "Pange Lingua",
+      href: "/canticos/sacros/pangelingua",
+      description: "Hino",
+    },
+    {
+      title: "Tantum Ergo",
+      href: "/canticos/sacros/tantumergo",
+      description: "Hino",
+    },
+    {
+      title: "Ladainha do Preciosíssimo Sangue",
+      href: "/devocionario/ladainhas/sanguejesus",
+      description: "Invocação ao Sangue de Cristo",
+    },
+    {
+      title: "Senhor dos Passos",
+      href: "/devocionario/oracoes/senhorpassos",
+      description: "Oração da Paixão",
+    },
+  ],
   Páscoa: [
     {
       title: "Regina Coeli",
@@ -265,8 +301,8 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
       description: "Sequência de Pentecostes",
     },
     {
-      title: "Regina Coeli",
-      href: "/devocionario/antifonas/reginacaeli",
+      title: "Salve Regina",
+      href: "/devocionario/antifonas/salveregina",
       description: "Antífona Nossa Senhora",
     },
     {
@@ -278,18 +314,6 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
       title: "Oração ao Espírito Santo",
       href: "/devocionario/oracoes/espiritosanto",
       description: "Invocação ao Espírito Santo",
-    },
-  ],
-  "Tempo depois Pentecostes": [
-    {
-      title: "Salve Regina",
-      href: "/devocionario/antifonas/salveregina",
-      description: "Antífona Nossa Senhora",
-    },
-    {
-      title: "Te Deum",
-      href: "/canticos/sacros/tedeum",
-      description: "Hino de louvor",
     },
     {
       title: "Magnificat",
@@ -340,10 +364,10 @@ const CATEGORY_ICONS: Record<Season, string> = {
   Septuagésima: "seedling",
   Quaresma: "cross",
   Paixão: "cross",
+  "Semana Santa": "cross",
   Páscoa: "dove",
   Natal: "baby-carriage",
   Pentecostes: "fire-flame-curved",
-  "Tempo depois Pentecostes": "church",
 };
 
 const SEASON_COLORS: Record<
@@ -375,6 +399,11 @@ const SEASON_COLORS: Record<
     border: "border-purple-200 dark:border-purple-600",
     accent: "text-purple-700 dark:text-purple-300",
   },
+  "Semana Santa": {
+    bg: "bg-purple-50 dark:bg-purple-900/20",
+    border: "border-purple-200 dark:border-purple-600",
+    accent: "text-purple-700 dark:text-purple-300",
+  },
   Paixão: {
     bg: "bg-red-50 dark:bg-red-900/20",
     border: "border-red-200 dark:border-red-600",
@@ -389,11 +418,6 @@ const SEASON_COLORS: Record<
     bg: "bg-red-50 dark:bg-red-900/20",
     border: "border-red-200 dark:border-red-600",
     accent: "text-red-700 dark:text-red-300",
-  },
-  "Tempo depois Pentecostes": {
-    bg: "bg-emerald-50 dark:bg-emerald-900/20",
-    border: "border-emerald-200 dark:border-emerald-600",
-    accent: "text-emerald-700 dark:text-emerald-300",
   },
 };
 

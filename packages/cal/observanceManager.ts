@@ -114,7 +114,8 @@ export class MassManager {
       (mass) =>
         mass.category === "quaresma" &&
         mass.week === 1 &&
-        mass.day === (3 || 5 || 6),
+        mass.day &&
+        [3, 5, 6].includes(mass.day),
     );
   }
 
@@ -127,7 +128,8 @@ export class MassManager {
       (mass) =>
         mass.category === "advento" &&
         mass.week === 3 &&
-        mass.day === (3 || 5 || 6),
+        mass.day &&
+        [3, 5, 6].includes(mass.day),
     );
   }
 

@@ -160,9 +160,8 @@ export class Calendar {
         }
       }
 
-      // Explicit Christmas season override for Dec 25-31
-      const month = date.getMonth();
-      const dayOfMonth = date.getDate();
+      const month = getMonth(date);
+      const dayOfMonth = getDate(date);
 
       if (month === 11 && dayOfMonth >= 25 && dayOfMonth <= 31) {
         day.season = LiturgicalSeason.CHRISTMAS;
@@ -256,8 +255,8 @@ export class Calendar {
   private fillInSanctiDays() {
     for (const [date, day] of this.container) {
       const dateObj = new Date(date);
-      const m = dateObj.getMonth();
-      const d = dateObj.getDate();
+      const m = getMonth(dateObj);
+      const d = getDate(dateObj);
 
       const masses = massManager
         .getByFlexibility("santos")
