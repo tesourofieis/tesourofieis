@@ -1,11 +1,10 @@
 @import "tailwindcss";
+@import "@fontsource/berkshire-swash";
+@import "@fontsource-variable/eb-garamond";
 
 @theme {
-  --font-display: "Display", serif;
-  --font-body: "Serif", serif;
-  --font-family-bold: "Bold", serif;
-  --font-family-italic: "Italic", serif;
-  --font-family-black: "Black", sans-serif;
+  --font-display: "Berkshire Swash", serif;
+  --font-body: "EB Garamond Variable", serif;
 
   --color-sepia-50: #f4eadd;
   --color-sepia-100: #eee6d9;
@@ -24,111 +23,26 @@
     height: 712px !important;
     max-height: 712px !important;
     min-height: 712px !important;
-    height: 712px !important;
-  }
-
-  @font-face {
-    font-family: "Display";
-    src: url("../assets/fonts/BerkshireSwash-Regular.ttf");
-    font-weight: normal;
-    font-style: bold;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: "Serif";
-    src: url("../assets/fonts/LibreCaslonText-Regular.ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: "Bold";
-    src: url("../assets/fonts/LibreCaslonText-Bold.ttf");
-    font-weight: 700;
-    font-style: bold;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: "Italic";
-    src: url("../assets/fonts/LibreCaslonText-Italic.ttf");
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: "Black";
-    src: url("../assets/fonts/Geist-Black.ttf");
-    font-weight: 800;
-    font-style: black;
-    font-display: swap;
   }
 }
 
-@layer utilities {
-  @font-face {
-    font-family: "Display";
-    src: url("../assets/fonts/BerkshireSwash-Regular.ttf");
-    font-weight: normal;
-    font-style: bold;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: "Serif";
-    src: url("../assets/fonts/LibreCaslonText-Regular.ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: "Bold";
-    src: url("../assets/fonts/LibreCaslonText-Bold.ttf");
-    font-weight: 700;
-    font-style: bold;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: "Italic";
-    src: url("../assets/fonts/LibreCaslonText-Italic.ttf");
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: "Black";
-    src: url("../assets/fonts/Geist-Black.ttf");
-    font-weight: 800;
-    font-style: black;
-    font-display: swap;
-  }
-}
-
-/* Dark mode colors. */
 :root {
-  --sl-color-accent-low: theme(--color-sepia-300);
-  --sl-color-accent: theme(--color-sepia-400);
-  --sl-color-accent-high: theme(--color-sepia-600);
-  --sl-color-white: theme(--color-sepia-50);
-  --sl-color-gray-1: theme(--color-sepia-100);
-  --sl-color-gray-2: theme(--color-sepia-200);
-  --sl-color-gray-3: theme(--color-sepia-300);
-  --sl-color-gray-4: theme(--color-sepia-500);
-  --sl-color-gray-5: theme(--color-sepia-600);
+  --sl-color-white: theme(--color-sepia-200);
+  --sl-color-gray-1: theme(--color-sepia-300);
+  --sl-color-gray-2: theme(--color-sepia-400);
+  --sl-color-gray-3: theme(--color-sepia-500);
+  --sl-color-gray-4: theme(--color-sepia-600);
+  --sl-color-gray-5: theme(--color-sepia-700);
   --sl-color-gray-6: theme(--color-sepia-800);
+  --sl-color-gray-7: theme(--color-sepia-900);
+  --sl-color-text-accent: theme(--color-sepia-300);
+  --sl-color-bg-accent: theme(--color-sepia-700);
+  --sl-color-banner-text: theme(--color-sepia-300);
   --sl-color-black: theme(--color-sepia-900);
+  --sl-color-text: theme(--color-sepia-200);
 }
-/* Light mode colors. */
+
 :root[data-theme="light"] {
-  --sl-color-accent-low: theme(--color-sepia-700);
-  --sl-color-accent: theme(--color-sepia-600);
-  --sl-color-accent-high: theme(--color-sepia-500);
   --sl-color-white: theme(--color-sepia-900);
   --sl-color-gray-1: theme(--color-sepia-800);
   --sl-color-gray-2: theme(--color-sepia-700);
@@ -137,7 +51,12 @@
   --sl-color-gray-5: theme(--color-sepia-400);
   --sl-color-gray-6: theme(--color-sepia-300);
   --sl-color-gray-7: theme(--color-sepia-200);
+  --sl-color-text-accent: theme(--color-sepia-800);
+  --sl-color-bg-accent: theme(--color-sepia-300);
   --sl-color-black: theme(--color-sepia-100);
+  --sl-color-banner-text: theme(--color-sepia-700);
+  --sl-color-text: theme(--color-sepia-900);
+  --sl-color-bg-sidebar: theme(--color-sepia-200);
 }
 
 body {
