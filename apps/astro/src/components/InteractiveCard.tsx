@@ -47,7 +47,7 @@ export default function InteractiveCard() {
   const currentPrayer = getPrayer(date);
 
   return (
-    <div className="flex flex-col gap-5 rounded border border-sepia-500 p-4 no-underline shadow hover:border-sepia-800 hover:bg-sepia-100 dark:border-sepia-700 dark:hover:border-sepia-600 dark:hover:bg-sepia-900">
+    <div className="flex flex-col gap-5 rounded border border-sepia-500 p-4 no-underline shadow-sm hover:border-sepia-800 dark:border-sepia-700 dark:hover:border-sepia-600">
       <h2 className="flex items-center mt-2 gap-2">
         <Icon icon="mdi:calendar" />
         Hoje

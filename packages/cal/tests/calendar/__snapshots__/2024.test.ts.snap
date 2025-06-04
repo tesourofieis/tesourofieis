@@ -20,6 +20,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
     "date": "2024-01-02",
@@ -54,6 +55,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
     "date": "2024-01-03",
@@ -73,6 +75,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
     "date": "2024-01-04",
@@ -92,6 +95,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
     "date": "2024-01-05",
@@ -111,6 +115,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
     "date": "2024-01-06",
@@ -130,6 +135,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-07",
@@ -149,6 +155,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-08",
@@ -168,6 +175,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-09",
@@ -187,6 +195,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-10",
@@ -206,6 +215,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-11",
@@ -225,6 +235,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-12",
@@ -244,6 +255,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-13",
@@ -277,6 +289,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-14",
@@ -324,6 +337,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-15",
@@ -371,6 +385,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-16",
@@ -419,6 +434,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-17",
@@ -452,6 +468,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-18",
@@ -499,6 +516,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-19",
@@ -533,6 +551,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-20",
@@ -566,6 +585,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-21",
@@ -599,6 +619,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-22",
@@ -647,6 +668,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-23",
@@ -694,6 +716,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-24",
@@ -727,6 +750,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-25",
@@ -760,6 +784,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-26",
@@ -793,6 +818,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-27",
@@ -841,6 +867,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Epifania",
   },
   Day {
     "date": "2024-01-28",
@@ -889,6 +916,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-01-29",
@@ -937,6 +965,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-01-30",
@@ -970,6 +999,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-01-31",
@@ -1003,6 +1033,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-02-01",
@@ -1036,6 +1067,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-02-02",
@@ -1069,6 +1101,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-02-03",
@@ -1100,6 +1133,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-02-04",
@@ -1148,6 +1182,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-02-05",
@@ -1181,6 +1216,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-02-06",
@@ -1228,6 +1264,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-02-07",
@@ -1261,6 +1298,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-02-08",
@@ -1294,6 +1332,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-02-09",
@@ -1341,6 +1380,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-02-10",
@@ -1374,6 +1414,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-02-11",
@@ -1407,6 +1448,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-02-12",
@@ -1440,6 +1482,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-02-13",
@@ -1474,6 +1517,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-02-14",
@@ -1507,6 +1551,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-02-15",
@@ -1555,6 +1600,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-02-16",
@@ -1574,6 +1620,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-02-17",
@@ -1593,6 +1640,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-02-18",
@@ -1641,6 +1689,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-02-19",
@@ -1660,6 +1709,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-02-20",
@@ -1679,6 +1729,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-02-21",
@@ -1698,6 +1749,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-02-22",
@@ -1731,6 +1783,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-02-23",
@@ -1764,6 +1817,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-02-24",
@@ -1783,6 +1837,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-02-25",
@@ -1802,6 +1857,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-02-26",
@@ -1834,6 +1890,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-02-27",
@@ -1868,6 +1925,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-02-28",
@@ -1915,6 +1973,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-02-29",
@@ -1934,6 +1993,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-01",
@@ -1968,6 +2028,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-02",
@@ -1987,6 +2048,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-03",
@@ -2006,6 +2068,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-04",
@@ -2053,6 +2116,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-05",
@@ -2072,6 +2136,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-06",
@@ -2105,6 +2170,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-07",
@@ -2138,6 +2204,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-08",
@@ -2171,6 +2238,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-09",
@@ -2204,6 +2272,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-10",
@@ -2237,6 +2306,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-11",
@@ -2256,6 +2326,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-12",
@@ -2289,6 +2360,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-13",
@@ -2323,6 +2395,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-14",
@@ -2342,6 +2415,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-15",
@@ -2361,6 +2435,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-16",
@@ -2380,6 +2455,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-17",
@@ -2413,6 +2489,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Quaresma",
   },
   Day {
     "date": "2024-03-18",
@@ -2446,6 +2523,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Paixão",
   },
   Day {
     "date": "2024-03-19",
@@ -2480,6 +2558,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Paixão",
   },
   Day {
     "date": "2024-03-20",
@@ -2514,6 +2593,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Paixão",
   },
   Day {
     "date": "2024-03-21",
@@ -2528,7 +2608,6 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "link": "missal/santos/03-21",
         "month": 3,
         "name": "S. Bento, Abade",
-        "novena": true,
         "outro": false,
         "rank": 3,
         "type": "sancti",
@@ -2548,6 +2627,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Paixão",
   },
   Day {
     "date": "2024-03-22",
@@ -2567,6 +2647,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Paixão",
   },
   Day {
     "date": "2024-03-23",
@@ -2586,6 +2667,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Paixão",
   },
   Day {
     "date": "2024-03-24",
@@ -2634,6 +2716,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Paixão",
   },
   Day {
     "date": "2024-03-25",
@@ -2653,6 +2736,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Semana Santa",
   },
   Day {
     "date": "2024-03-26",
@@ -2672,6 +2756,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Semana Santa",
   },
   Day {
     "date": "2024-03-27",
@@ -2705,6 +2790,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Semana Santa",
   },
   Day {
     "date": "2024-03-28",
@@ -2738,6 +2824,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Semana Santa",
   },
   Day {
     "date": "2024-03-29",
@@ -2757,6 +2844,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Semana Santa",
   },
   Day {
     "date": "2024-03-30",
@@ -2776,6 +2864,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Semana Santa",
   },
   Day {
     "date": "2024-03-31",
@@ -2795,6 +2884,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Semana Santa",
   },
   Day {
     "date": "2024-04-01",
@@ -2814,6 +2904,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-02",
@@ -2847,6 +2938,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-03",
@@ -2866,6 +2958,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-04",
@@ -2899,6 +2992,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-05",
@@ -2932,6 +3026,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-06",
@@ -2951,6 +3046,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-07",
@@ -2970,6 +3066,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-08",
@@ -3004,6 +3101,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-09",
@@ -3023,6 +3121,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-10",
@@ -3042,6 +3141,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-11",
@@ -3075,6 +3175,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-12",
@@ -3094,6 +3195,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-13",
@@ -3127,6 +3229,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-14",
@@ -3160,6 +3263,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-15",
@@ -3179,6 +3283,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-16",
@@ -3228,6 +3333,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-17",
@@ -3261,6 +3367,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-18",
@@ -3280,6 +3387,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-19",
@@ -3299,6 +3407,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-20",
@@ -3316,6 +3425,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "feria",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-21",
@@ -3349,6 +3459,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-22",
@@ -3382,6 +3493,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-23",
@@ -3416,6 +3528,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-24",
@@ -3449,6 +3562,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-25",
@@ -3482,6 +3596,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-26",
@@ -3530,6 +3645,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-27",
@@ -3563,6 +3679,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-28",
@@ -3596,6 +3713,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-29",
@@ -3629,6 +3747,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-30",
@@ -3662,6 +3781,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-01",
@@ -3724,6 +3844,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-02",
@@ -3757,6 +3878,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-03",
@@ -3804,6 +3926,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-04",
@@ -3852,6 +3975,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-05",
@@ -3885,6 +4009,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-06",
@@ -3918,6 +4043,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-07",
@@ -3951,6 +4077,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-08",
@@ -3984,6 +4111,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-09",
@@ -4017,6 +4145,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-10",
@@ -4050,6 +4179,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-11",
@@ -4069,6 +4199,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-12",
@@ -4117,6 +4248,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-13",
@@ -4166,6 +4298,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-14",
@@ -4214,6 +4347,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-15",
@@ -4262,6 +4396,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-16",
@@ -4295,6 +4430,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-17",
@@ -4328,6 +4464,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-18",
@@ -4361,6 +4498,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-19",
@@ -4395,6 +4533,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-05-20",
@@ -4428,6 +4567,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-05-21",
@@ -4447,6 +4587,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-05-22",
@@ -4510,6 +4651,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-05-23",
@@ -4529,6 +4671,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-05-24",
@@ -4577,6 +4720,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-05-25",
@@ -4610,6 +4754,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-05-26",
@@ -4657,6 +4802,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-05-27",
@@ -4704,6 +4850,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-05-28",
@@ -4737,6 +4884,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-05-29",
@@ -4770,6 +4918,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-05-30",
@@ -4804,6 +4953,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-05-31",
@@ -4852,6 +5002,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-01",
@@ -4885,6 +5036,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-02",
@@ -4918,6 +5070,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-03",
@@ -4952,6 +5105,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-04",
@@ -4985,6 +5139,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-05",
@@ -5018,6 +5173,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-06",
@@ -5051,6 +5207,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-07",
@@ -5071,6 +5228,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-08",
@@ -5088,6 +5246,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "feria",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-09",
@@ -5121,6 +5280,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-10",
@@ -5154,6 +5314,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-11",
@@ -5187,6 +5348,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-12",
@@ -5220,6 +5382,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-13",
@@ -5254,6 +5417,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-14",
@@ -5287,6 +5451,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-15",
@@ -5320,6 +5485,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-16",
@@ -5339,6 +5505,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-17",
@@ -5373,6 +5540,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-18",
@@ -5406,6 +5574,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-19",
@@ -5439,6 +5608,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-20",
@@ -5487,6 +5657,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-21",
@@ -5520,6 +5691,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-22",
@@ -5553,6 +5725,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-23",
@@ -5586,6 +5759,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-24",
@@ -5620,6 +5794,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-25",
@@ -5653,6 +5828,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-26",
@@ -5701,6 +5877,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-27",
@@ -5734,6 +5911,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-28",
@@ -5781,6 +5959,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-29",
@@ -5815,6 +5994,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-06-30",
@@ -5848,6 +6028,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-01",
@@ -5882,6 +6063,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-02",
@@ -5915,6 +6097,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-03",
@@ -5948,6 +6131,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-04",
@@ -5981,6 +6165,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-05",
@@ -6014,6 +6199,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-06",
@@ -6031,6 +6217,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "feria",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-07",
@@ -6064,6 +6251,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-08",
@@ -6083,6 +6271,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-09",
@@ -6102,6 +6291,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-10",
@@ -6135,6 +6325,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-11",
@@ -6168,6 +6359,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-12",
@@ -6201,6 +6393,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-13",
@@ -6218,6 +6411,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "feria",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-14",
@@ -6251,6 +6445,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-15",
@@ -6299,6 +6494,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-16",
@@ -6347,6 +6543,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-17",
@@ -6380,6 +6577,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-18",
@@ -6413,6 +6611,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-19",
@@ -6446,6 +6645,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-20",
@@ -6508,6 +6708,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-21",
@@ -6556,6 +6757,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-22",
@@ -6604,6 +6806,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-23",
@@ -6666,6 +6869,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-24",
@@ -6713,6 +6917,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-25",
@@ -6760,6 +6965,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-26",
@@ -6793,6 +6999,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-27",
@@ -6838,6 +7045,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-28",
@@ -6899,6 +7107,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-29",
@@ -6946,6 +7155,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-30",
@@ -6979,6 +7189,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-07-31",
@@ -7012,6 +7223,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-01",
@@ -7045,6 +7257,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-02",
@@ -7092,6 +7305,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-03",
@@ -7109,6 +7323,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "feria",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-04",
@@ -7142,6 +7357,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-05",
@@ -7175,6 +7391,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-06",
@@ -7236,6 +7453,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-07",
@@ -7269,6 +7487,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-08",
@@ -7302,6 +7521,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-09",
@@ -7363,6 +7583,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-10",
@@ -7396,6 +7617,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-11",
@@ -7443,6 +7665,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-12",
@@ -7476,6 +7699,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-13",
@@ -7509,6 +7733,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-14",
@@ -7542,6 +7767,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-15",
@@ -7576,6 +7802,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-16",
@@ -7609,6 +7836,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-17",
@@ -7642,6 +7870,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-18",
@@ -7689,6 +7918,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-19",
@@ -7722,6 +7952,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-20",
@@ -7756,6 +7987,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-21",
@@ -7789,6 +8021,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-22",
@@ -7836,6 +8069,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-23",
@@ -7869,6 +8103,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-24",
@@ -7902,6 +8137,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-25",
@@ -7935,6 +8171,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-26",
@@ -7968,6 +8205,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-27",
@@ -8001,6 +8239,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-28",
@@ -8048,6 +8287,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-29",
@@ -8081,6 +8321,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-30",
@@ -8114,6 +8355,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-08-31",
@@ -8147,6 +8389,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-01",
@@ -8194,6 +8437,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-02",
@@ -8227,6 +8471,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-03",
@@ -8260,6 +8505,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-04",
@@ -8279,6 +8525,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-05",
@@ -8312,6 +8559,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-06",
@@ -8331,6 +8579,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-07",
@@ -8348,6 +8597,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "feria",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-08",
@@ -8381,6 +8631,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-09",
@@ -8429,6 +8680,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-10",
@@ -8462,6 +8714,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-11",
@@ -8495,6 +8748,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-12",
@@ -8528,6 +8782,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-13",
@@ -8547,6 +8802,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-14",
@@ -8580,6 +8836,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-15",
@@ -8614,6 +8871,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-16",
@@ -8690,6 +8948,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-17",
@@ -8723,6 +8982,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-18",
@@ -8755,6 +9015,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-19",
@@ -8788,6 +9049,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-20",
@@ -8820,6 +9082,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-21",
@@ -8852,6 +9115,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-22",
@@ -8885,6 +9149,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-23",
@@ -8932,6 +9197,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-24",
@@ -8965,6 +9231,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-25",
@@ -8984,6 +9251,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-26",
@@ -9017,6 +9285,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-27",
@@ -9050,6 +9319,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-28",
@@ -9083,6 +9353,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-29",
@@ -9117,6 +9388,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-09-30",
@@ -9150,6 +9422,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-01",
@@ -9198,6 +9471,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-02",
@@ -9231,6 +9505,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-03",
@@ -9264,6 +9539,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-04",
@@ -9297,6 +9573,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-05",
@@ -9328,6 +9605,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-06",
@@ -9361,6 +9639,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-07",
@@ -9423,6 +9702,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-08",
@@ -9456,6 +9736,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-09",
@@ -9503,6 +9784,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-10",
@@ -9536,6 +9818,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-11",
@@ -9569,6 +9852,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-12",
@@ -9586,6 +9870,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "feria",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-13",
@@ -9619,6 +9904,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-14",
@@ -9652,6 +9938,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-15",
@@ -9685,6 +9972,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-16",
@@ -9733,6 +10021,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-17",
@@ -9781,6 +10070,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-18",
@@ -9814,6 +10104,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-19",
@@ -9847,6 +10138,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-20",
@@ -9895,6 +10187,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-21",
@@ -9943,6 +10236,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-22",
@@ -9992,6 +10286,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-23",
@@ -10039,6 +10334,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-24",
@@ -10072,6 +10368,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-25",
@@ -10150,6 +10447,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-26",
@@ -10167,6 +10465,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "feria",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-27",
@@ -10229,6 +10528,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-28",
@@ -10262,6 +10562,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-29",
@@ -10311,6 +10612,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-30",
@@ -10345,6 +10647,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-10-31",
@@ -10364,6 +10667,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-01",
@@ -10398,6 +10702,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-02",
@@ -10416,6 +10721,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-03",
@@ -10435,6 +10741,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-04",
@@ -10468,6 +10775,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-05",
@@ -10502,6 +10810,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-06",
@@ -10537,6 +10846,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-07",
@@ -10556,6 +10866,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-08",
@@ -10589,6 +10900,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-09",
@@ -10622,6 +10934,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-10",
@@ -10655,6 +10968,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-11",
@@ -10688,6 +11002,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-12",
@@ -10721,6 +11036,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-13",
@@ -10754,6 +11070,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-14",
@@ -10787,6 +11104,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-15",
@@ -10835,6 +11153,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-16",
@@ -10883,6 +11202,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-17",
@@ -10916,6 +11236,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-18",
@@ -10949,6 +11270,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-19",
@@ -10996,6 +11318,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-20",
@@ -11044,6 +11367,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-21",
@@ -11077,6 +11401,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-22",
@@ -11110,6 +11435,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-23",
@@ -11158,6 +11484,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-24",
@@ -11206,6 +11533,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-25",
@@ -11239,6 +11567,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-26",
@@ -11286,6 +11615,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-27",
@@ -11320,6 +11650,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-28",
@@ -11368,6 +11699,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-29",
@@ -11415,6 +11747,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-11-30",
@@ -11448,6 +11781,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-12-01",
@@ -11482,6 +11816,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-02",
@@ -11515,6 +11850,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-03",
@@ -11548,6 +11884,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-04",
@@ -11581,6 +11918,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-05",
@@ -11614,6 +11952,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-06",
@@ -11647,6 +11986,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-07",
@@ -11680,6 +12020,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-08",
@@ -11714,6 +12055,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-09",
@@ -11748,6 +12090,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-10",
@@ -11781,6 +12124,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-11",
@@ -11814,6 +12158,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-12",
@@ -11848,6 +12193,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 4,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-13",
@@ -11881,6 +12227,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 5,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-14",
@@ -11915,6 +12262,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-15",
@@ -11934,6 +12282,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-16",
@@ -11967,6 +12316,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-17",
@@ -11986,6 +12336,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-18",
@@ -12005,6 +12356,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 3,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-19",
@@ -12039,6 +12391,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-20",
@@ -12072,6 +12425,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-21",
@@ -12105,6 +12459,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 6,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-22",
@@ -12124,6 +12479,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 0,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-23",
@@ -12143,6 +12499,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 1,
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-24",
@@ -12162,6 +12519,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Advento",
   },
   Day {
     "date": "2024-12-25",
@@ -12206,6 +12564,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
     "date": "2024-12-26",
@@ -12225,6 +12584,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
     "date": "2024-12-27",
@@ -12244,6 +12604,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
     "date": "2024-12-28",
@@ -12263,6 +12624,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
     "date": "2024-12-29",
@@ -12296,6 +12658,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
     "date": "2024-12-30",
@@ -12315,6 +12678,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
   Day {
     "date": "2024-12-31",
@@ -12334,6 +12698,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
+    "season": "Natal",
   },
 ]
 `;

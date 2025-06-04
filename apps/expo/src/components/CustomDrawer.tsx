@@ -112,6 +112,7 @@ const DrawerItem = ({
         }`}
       >
         {node.link ? (
+          // @ts-ignore
           <Link href={node.link} asChild>
             <Pressable
               className="flex-1"

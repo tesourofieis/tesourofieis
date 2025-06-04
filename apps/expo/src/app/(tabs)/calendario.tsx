@@ -176,13 +176,13 @@ function Header({
       <View className="flex flex-row items-center">
         <Pressable
           onPressOut={handlePrevious}
-          className="rounded bg-gray-200 p-2 active:bg-gray-300 dark:bg-gray-800 active:dark:bg-gray-700"
+          className="rounded bg-gray-200 p-2 active:bg-gray-300 dark:bg-gray-800 dark:active:bg-gray-700"
         >
           <FontAwesome name="chevron-left" color={COLORS["600"]} />
         </Pressable>
         <Pressable
           onPressOut={handleNext}
-          className="ml-3 rounded bg-gray-200 p-2 active:bg-gray-300 dark:bg-gray-800 active:dark:bg-gray-700"
+          className="ml-3 rounded bg-gray-200 p-2 active:bg-gray-300 dark:bg-gray-800 dark:active:bg-gray-700"
         >
           <FontAwesome name="chevron-right" color={COLORS["600"]} />
         </Pressable>

@@ -27,6 +27,7 @@ export default function PageSearchResults() {
 
   return (
     <FlatList
+      // @ts-ignore
       data={JSON.parse(results)}
       renderItem={renderItem}
       keyExtractor={(item) => item.path}

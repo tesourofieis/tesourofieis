@@ -1,5 +1,4 @@
 import { BerkshireSwash_400Regular } from "@expo-google-fonts/berkshire-swash";
-import * as WebBrowser from "expo-web-browser";
 
 import {
   NotoSerif_400Regular,
@@ -19,12 +18,11 @@ import * as SplashScreen from "expo-splash-screen";
 
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { DefaultTheme, ThemeProvider } from "@react-navigation/native";
-import { Link, Stack, usePathname } from "expo-router";
+import { Link, Stack, usePathname, useRouter } from "expo-router";
 import * as Updates from "expo-updates";
 import React from "react";
 import {
   ActivityIndicator,
-  Linking,
   Platform,
   Pressable,
   StatusBar,
@@ -32,6 +30,7 @@ import {
   View,
 } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { openExternalLink } from "~/components/External";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { NotificationsProvider } from "~/providers/notifications";
@@ -197,25 +196,29 @@ function RootLayoutNav() {
 
 const Breadcrumbs = () => {
   const pathname = usePathname();
+  const router = useRouter();
 
-  // Skip empty segments and remove (tabs)
   const segments = pathname
     .split("/")
     .filter((segment) => segment && segment !== "(tabs)");
 
-  // Don't show breadcrumbs if we're at root or only one level deep
   if (segments.length <= 1) {
     return null;
   }
 
   const formatSegmentName = (segment: string) => {
-    // Remove any parentheses and their contents
     segment = segment.replace(/\(.*?\)/g, "");
-
     return segment
       .split(/[-_]/)
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(" ");
+  };
+
+  const handleBreadcrumbPress = (targetPath: string) => {
+    // Use replace instead of push to avoid modal stack issues
+
+    // @ts-ignore
+    router.replace(targetPath);
   };
 
   return (
@@ -231,13 +234,18 @@ const Breadcrumbs = () => {
               {formatSegmentName(segment)}
             </Text>
           ) : (
-            <Link href={`/${segments.slice(0, index + 1).join("/")}`} asChild>
-              <Pressable className="p-1 rounded bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700">
-                <Text className="text-xs font-serif text-sepia-600 dark:text-sepia-400 underline">
-                  {formatSegmentName(segment)}
-                </Text>
-              </Pressable>
-            </Link>
+            <Pressable
+              className="p-1 rounded bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
+              onPress={() =>
+                handleBreadcrumbPress(
+                  `/${segments.slice(0, index + 1).join("/")}`,
+                )
+              }
+            >
+              <Text className="text-xs font-serif text-sepia-600 dark:text-sepia-400 underline">
+                {formatSegmentName(segment)}
+              </Text>
+            </Pressable>
           )}
         </React.Fragment>
       ))}
@@ -247,39 +255,26 @@ const Breadcrumbs = () => {
 
 const Header = ({ withBC }: { withBC: boolean }) => {
   const path = usePathname();
+  const router = useRouter();
 
   const { colorScheme } = useColorScheme();
   const isDarkMode = colorScheme === "dark";
+
   if (withBC) {
     return (
       <View className="flex-row items-center p-5 gap-2 border-b bg-sepia-300 dark:bg-sepia-900 w-full justify-between">
         <View className="flex-row gap-3">
-          <Link
-            href="/"
-            dismissTo
-            asChild
-            className="rounded-full p-2 shadow-md"
+          <Pressable
+            className="rounded-full p-2 shadow-md bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
+            onPress={() => router.dismissAll()}
           >
-            <Pressable className="bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 active:dark:bg-sepia-700">
-              <FontAwesome6 name="arrow-left" size={15} color="#e53935" />
-            </Pressable>
-          </Link>
+            <FontAwesome6 name="arrow-left" size={15} color="#e53935" />
+          </Pressable>
           <Breadcrumbs />
         </View>
         <Pressable
-          onPress={async () => {
-            const url = `https://tesourofieis.com${path}`;
-            if (Platform.OS === "web") {
-              window.open(url, "_blank");
-            } else {
-              try {
-                await WebBrowser.openBrowserAsync(url);
-              } catch (error) {
-                console.error("Error opening URL:", error);
-              }
-            }
-          }}
-          className="p-2 items-center border rounded-lg border-sepia-700 dark:border-sepia-400 active:bg-sepia-200 active:dark:bg-sepia-700"
+          onPress={() => openExternalLink(`https://tesourofieis.com${path}`)}
+          className="p-2 items-center border rounded-lg border-sepia-700 dark:border-sepia-400 active:bg-sepia-200 dark:active:bg-sepia-700"
         >
           <FontAwesome6
             name="globe"
@@ -292,7 +287,7 @@ const Header = ({ withBC }: { withBC: boolean }) => {
   }
   return (
     <Link href="/" dismissTo>
-      <View className="flex-row items-center p-5 gap-3 bg-sepia-300 dark:bg-sepia-900 w-full border-b active:bg-sepia-200 active:dark:bg-sepia-800">
+      <View className="flex-row items-center p-5 gap-3 bg-sepia-300 dark:bg-sepia-900 w-full border-b active:bg-sepia-200 dark:active:bg-sepia-800">
         <FontAwesome6 name="book-bible" size={15} color="#e53935" />
         <Text className="text-lg text-sepia-800 dark:text-sepia-200 font-serif">
           Tesouro dos Fiéis
