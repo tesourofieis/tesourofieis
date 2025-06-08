@@ -5226,7 +5226,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 0,
       },
     ],
-    "season": "Páscoa",
+    "season": "Pentecostes",
   },
   Day {
     "date": "2025-06-09",

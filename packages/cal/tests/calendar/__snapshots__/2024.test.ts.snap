@@ -4533,7 +4533,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
-    "season": "Páscoa",
+    "season": "Pentecostes",
   },
   Day {
     "date": "2024-05-20",
