@@ -143,7 +143,7 @@ export default function Page1009() {
             <Text className="vernacular">
               Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
               <Text className="vernacular">Sl. 70, 7</Text> Fui considerado por
-              muitos corno um prodígio: tu és um poderoso auxiliar. Aleluia.
+              muitos como um prodígio: tu és um poderoso auxiliar. Aleluia.
             </Text>
           </Language>
 

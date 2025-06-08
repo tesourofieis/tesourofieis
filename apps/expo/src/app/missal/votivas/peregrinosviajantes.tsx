@@ -81,7 +81,7 @@ export default function PagePeregrinosviajantes() {
             </Text>
             <Text className="vernacular">
               Naqueles dias, saiu Jacob de Bersabeia, dirigindo-se para Harão.
-              E, corno chegasse a certo lugar, preparou-se para passar ali a
+              E, como chegasse a certo lugar, preparou-se para passar ali a
               noite, porque já era sol-posto. Então, tomou uma das pedras
               daquele lugar como cabeceira e ali mesmo dormiu. E viu em sonhos o
               Senhor que lhe dizia: «Eu sou o Senhor, Deus de Abraão, teu pai, e

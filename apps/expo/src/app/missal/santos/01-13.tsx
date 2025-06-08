@@ -105,7 +105,7 @@ export default function Page0113() {
             </Text>
             <Text className="vernacular">
               Dignai-Vos assistir-nos sempre e em toda a parte com vossa
-              celestial luz, Senhor, Vos pedimos, a fim de que, assim corno
+              celestial luz, Senhor, Vos pedimos, a fim de que, assim como
               quisestes que participássemos deste mystério, assim também
               possamos contemplá-lo com olhos puros e recebê-lo com afecto
               digno. Por nosso Senhor...
