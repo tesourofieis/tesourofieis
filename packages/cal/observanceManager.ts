@@ -62,7 +62,7 @@ export class MassManager {
         date &&
         getMonth(date) === caseItem.month &&
         getDate(date) === caseItem.day &&
-        mass.category === "advento" &&
+        mass.type === "advent" &&
         mass.weekday !== 0
       ) {
         return caseItem.rank;
@@ -92,7 +92,7 @@ export class MassManager {
   }
 
   getAdvent(): Mass[] {
-    return this.masses.filter((mass) => mass.category === "advento");
+    return this.masses.filter((mass) => mass.type === "advent");
   }
 
   getEaster(): Mass[] {

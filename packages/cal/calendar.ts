@@ -89,7 +89,7 @@ export class Calendar {
     const ashWednesday = subDays(easterSunday, 47);
     const passionSunday = subDays(easterSunday, 14);
     const holyWeek = subDays(easterSunday, 7);
-    const pentecostSunday = addDays(easterSunday, 50);
+    const pentecostSunday = addDays(easterSunday, 49);
     const adventStart = this.calcFirstAdventSunday();
     const yearEnd = new Date(this.year, 11, 31);
     const yearStart = new Date(this.year, 0, 1);
