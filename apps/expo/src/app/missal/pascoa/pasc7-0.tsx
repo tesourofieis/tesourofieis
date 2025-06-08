@@ -82,7 +82,7 @@ export default function PagePasc70() {
               estavam reunidos. Então, apareceram-lhes línguas de fogo, que se
               dividiram umas das outras e pousaram sobre cada um deles, ficando
               ao mesmo tempo cheios de Espírito Santo e começando a falar várias
-              línguas, corno o Espírito Santo lhes concedia que falassem.
+              línguas, como o Espírito Santo lhes concedia que falassem.
               Estavam, então, em Jerusalém, judeus e homens religiosos de todas
               as nações, que existem na terra. Logo que este ruído foi ouvido
               correram muitas pessoas em multidão ao lugar e ficaram admiradas,

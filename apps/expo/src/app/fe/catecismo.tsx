@@ -273,8 +273,8 @@ export default function PageCatecismo() {
             A palavra Credo, eu creio quer dizer: eu tenho por absolutamente
             verdadeiro tudo o que nestes doze artigos se contém; e o creio mais
             firmemente do que se o visse com os meus olhos, porque Deus, que não
-            pode nem enganar-Se nem enganar-nos, revelou estas verdades à Santa
-            Igreja Católica, e por meio dEla eis revela também a nós.
+            pode nem enganar-se nem enganar-nos, revelou estas verdades à Santa
+            Igreja Católica, e por meio d'Ela eis revela também a nós.
           </Text>
           <Text className="h5">20 - Que contêm os artigos do Credo?</Text>
           <Text className="text-base">
@@ -282,10 +282,10 @@ export default function PageCatecismo() {
             crer acerca de Deus, de Jesus Cristo e da Igreja, sua Esposa.
           </Text>
           <Text className="h5">
-            21 - É muito útil rezar freqüentemente o Credo?
+            21 - É muito útil rezar frequentemente o Credo?
           </Text>
           <Text className="text-base">
-            É utilíssimo rezar freqüentemente o Credo, para imprimirmos cada vez
+            É utilíssimo rezar frequentemente o Credo, para imprimirmos cada vez
             mais no coração as verdades da Fé.
           </Text>
           <Text className="h2">
@@ -299,8 +299,8 @@ export default function PageCatecismo() {
             suportar com paciência, firmeza e alegria. Agradecei a Deus Pai que
             vos tornou capazes de participar da herança \* dos santos na luz.
             Ele nos livrou do poder das trevas e nos transportou ao reino de seu
-            Filho amado, no qual temos a libertação: o perdão dospecados.
-            Epístolas aos Colossences 1, 9-14
+            Filho amado, no qual temos a libertação: o perdão dos pecados.
+            Epístolas aos Colossenses 1, 9-14
           </Text>
 
           <Text className="h4">1º - De Deus Padre e da Criação</Text>
@@ -405,7 +405,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Deus não impede o pecado, porque até mesmo do abuso que o homem faz
             da liberdade que lhe concedeu, sabe tirar um bem, e fazer
-            resplandecer ainda maisa sua misericórdia ou a sua justiça.
+            resplandecer ainda mais a sua misericórdia ou a sua justiça.
           </Text>
           <Text className="h4">2º - Dos Anjos</Text>
 
@@ -428,7 +428,7 @@ export default function PageCatecismo() {
             comesse. Era só aparência o que víeis. Agora, bendizei o Senhor
             sobre a terra e dai graças a Deus. Eis que eu subo para junto de
             Quem me enviou. Escrevei tudo o que vos aconteceu. E ele subiu.
-            Então levantaram-se, masnão o viram mais. Tobias 12, 11-20
+            Então levantaram-se, mas não o viram mais. Tobias 12, 11-20
           </Text>
 
           <Text className="h5">
@@ -469,7 +469,7 @@ export default function PageCatecismo() {
             Inferno.
           </Text>
           <Text className="h5">
-            40 - Como se chamam osAnjos excluídos para sempre do Paraíso, e
+            40 - Como se chamam os Anjos excluídos para sempre do Paraíso, e
             condenados ao Inferno?
           </Text>
           <Text className="text-base">
@@ -546,22 +546,23 @@ export default function PageCatecismo() {
             banda dos assírios. E o quarto rio é o Eufrates. Tomou Pois, o
             Senhor Deus o homem, e colocou-o no paraíso de delícias, para que o
             cultivasse e guardasse. E deu-lhe este preceito, dizendo: Come de
-            todasasárvoresdo paraíso masnão comasdo fruto da árvore da ciência
-            do bem e do mal; porque em qualquer dia que comeres dele, morrerás
-            indubitavelmente. "Disse mais o Senhor Deus: Não é bom que o homem
-            esteja só; façamos-lhe um adjutório semelhante a ele Tendo, pois, o
-            Senhor Deus formado da terra todos os animais terrestres, e todas as
-            aves do céu. levou-os diante de Adão, para este ver como os havia de
-            chamar; e todo o nome que Adão pôs aos animais vivos, esse é o seu
-            verdadeiro nome. E Adão pôs nomes convenientes a todos os animais, a
-            todas as aves do céu, e a todos os animais selváticos; mas não se
-            achava para Adão um adjutório semelhante a ele. Formação da mulher e
-            instituição do matrimônio. Mandou, pois, o Senhor Deus um profundo
-            sono a Adão; e, enquanto ele estava dormindo, tirou uma das suas
-            costelas, e pôs carne no lugar dela. E da costela, que tinha tirado
-            de Adão, formou o Senhor Deus uma mulher; e a levou a Adão. E Adão
-            disse: Eis aqui agora o osso de meus ossos e a carne da minha carne;
-            ela se chamará Virago, porque do varão foi tomada. Gênesis 2, 7-23
+            todas as árvores do paraíso mas não comas do fruto da árvore da
+            ciência do bem e do mal; porque em qualquer dia que comeres dele,
+            morrerás indubitavelmente. "Disse mais o Senhor Deus: Não é bom que
+            o homem esteja só; façamos-lhe um adjutório semelhante a ele Tendo,
+            pois, o Senhor Deus formado da terra todos os animais terrestres, e
+            todas as aves do céu. levou-os diante de Adão, para este ver como os
+            havia de chamar; e todo o nome que Adão pôs aos animais vivos, esse
+            é o seu verdadeiro nome. E Adão pôs nomes convenientes a todos os
+            animais, a todas as aves do céu, e a todos os animais selváticos;
+            mas não se achava para Adão um adjutório semelhante a ele. Formação
+            da mulher e instituição do matrimônio. Mandou, pois, o Senhor Deus
+            um profundo sono a Adão; e, enquanto ele estava dormindo, tirou uma
+            das suas costelas, e pôs carne no lugar dela. E da costela, que
+            tinha tirado de Adão, formou o Senhor Deus uma mulher; e a levou a
+            Adão. E Adão disse: Eis aqui agora o osso de meus ossos e a carne da
+            minha carne; ela se chamará Virago, porque do varão foi tomada.
+            Gênesis 2, 7-23
           </Text>
 
           <Text className="h5">
@@ -612,8 +613,8 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Diz-se que o homem foi criado à imagem e semelhança de Deus, porque
             a alma humana é espiritual e racional, livre na sua ação, capaz de
-            conhecer e de amar a Deus, e de gozá-Lo eternamente, perfeiçõesque
-            refletem em nósum raio da infinita grandeza de Deus.
+            conhecer e de amar a Deus, e de gozá-Lo eternamente, perfeições que
+            refletem em nós um raio da infinita grandeza de Deus.
           </Text>
           <Text className="h5">
             56 - Em que estado criou Deus os nossos primeiros pais Adão e Eva?
@@ -651,7 +652,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Se Adão e Eva não tivessem pecado, mas se se tivessem conservado
-            fiéis a Deus, depois de uma permanência feliz e tranqüila neste
+            fiéis a Deus, depois de uma permanência feliz e tranquila neste
             mundo, teriam sido levados por Deus ao Céu, sem morrer, a gozar uma
             vida eterna e gloriosa.
           </Text>
@@ -671,8 +672,8 @@ export default function PageCatecismo() {
             título. É próprio de Adão, porque ele o cometeu com um ato da sua
             vontade, e por isso nele foi pessoal. É nosso, porque tendo Adão
             pecado como cabeça e fonte de todo o gênero humano, é transmitido
-            por geração natural a todosos seusdescendentes, e por isso para nós
-            é pecado original.
+            por geração natural a todos os seus descendentes, e por isso para
+            nós é pecado original.
           </Text>
 
           <Text className="h5">
@@ -729,20 +730,20 @@ export default function PageCatecismo() {
             e a passarem antes dele à outra margem do lago, en quanto ele
             despedia as turbas, Despedidas as turbas, subiu só a um monte para
             orar. Quando chegou a noite, achava-se ali. Entretanto, a barca
-            achava-se a muitos estádios da terra e era batida pelasondas, porque
-            o vento era contrário. Porém, na quarta vigília da noite, foi Jesus
-            ter com eles, andando sobre o mar. E (os discípulos), quando o viram
-            andar sobre o mar, turbaram-se dizendo : E um fantasma. E, com medo,
-            começaram a gritar. Mas Jesus falou-lhes imediatamente, dizendo:
-            Tende confiança; sou eu, não reinais. Respondendo Pedro, disse:
-            Senhor, se és tu, manda-me ir até onde estás por sobre as águas. Ele
-            disse: Vem. Descendo Pedro da barca, caminhava sobre a água para ir
-            a Jesus. Vendo, porém, que o vento era forte, temeu, e, começando a
-            submergir-se, gritou, dizendo: Senhor, salva-me! Imediata mente
-            Jesus estendendo a mão, o tomou e lhe disse: Homem de pouca fé,
-            porque duvidaste? Depoisque subiram para a barca, o vento cessou. Os
-            que estavam na barca aproximaram-se dele e o adoraram, dizendo:
-            Verdadeiramentetu éso Filho deDeus. Mt 14, 22-33
+            achava-se a muitos estádios da terra e era batida pelas ondas,
+            porque o vento era contrário. Porém, na quarta vigília da noite, foi
+            Jesus ter com eles, andando sobre o mar. E (os discípulos), quando o
+            viram andar sobre o mar, turbaram-se dizendo : E um fantasma. E, com
+            medo, começaram a gritar. Mas Jesus falou-lhes imediatamente,
+            dizendo: Tende confiança; sou eu, não reinais. Respondendo Pedro,
+            disse: Senhor, se és tu, manda-me ir até onde estás por sobre as
+            águas. Ele disse: Vem. Descendo Pedro da barca, caminhava sobre a
+            água para ir a Jesus. Vendo, porém, que o vento era forte, temeu, e,
+            começando a submergir-se, gritou, dizendo: Senhor, salva-me!
+            Imediata mente Jesus estendendo a mão, o tomou e lhe disse: Homem de
+            pouca fé, porque duvidaste? Depois que subiram para a barca, o vento
+            cessou. Os que estavam na barca aproximaram-se dele e o adoraram,
+            dizendo: Verdadeiramente tu és o Filho de Deus. Mt 14, 22-33
           </Text>
           <Text className="h5">
             68 - Que nos ensina o segundo artigo do Credo: e em Jesus Cristo, um
@@ -782,7 +783,7 @@ export default function PageCatecismo() {
             72 - Por que o Filho de Deus feito homem se o chama Jesus?
           </Text>
           <Text className="text-base">
-            O Filho de Deus feito homem chama-se Jesusque quer dizer Salvador,
+            O Filho de Deus feito homem chama-se Jesus que quer dizer Salvador,
             porque nos salvou da morte eterna que merecíamos por nossos pecados.
           </Text>
 
@@ -812,7 +813,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             A unção de Jesus Cristo não foi corporal, como a dos antigos reis,
             sacerdotes e profetas, mas toda espiritual e divina, porque a
-            plenitude da divindade habita nEle substancialmente.
+            plenitude da divindade habita n'Ele substancialmente.
           </Text>
 
           <Text className="h5">
@@ -822,8 +823,8 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Sim, os homens tiveram conhecimento de Jesus Cristo antes da sua
             vinda, pela promessa do Messias, que Deus fez aos nossos primeiros
-            paisAdão e Eva, a qual renovou aos santos Patriarcas; e também pelas
-            profecias e muitas figuras que O designavam.
+            pais Adão e Eva, a qual renovou aos santos Patriarcas; e também
+            pelas profecias e muitas figuras que O designavam.
           </Text>
 
           <Text className="h5">
@@ -832,7 +833,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Sabemos que Jesus Cristo é verdadeiramente o Messias e o Redentor
-            prometido, porque nEle se cumpriu:
+            prometido, porque n'Ele se cumpriu:
           </Text>
 
           <View className="list-styled">
@@ -848,7 +849,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             As profecias prediziam acerca do Redentor: a tribo e a família da
-            qual devia sair; o lugar e o tempo do nascimento; os seus milagrese
+            qual devia sair; o lugar e o tempo do nascimento; os seus milagres e
             as mais minuciosas circunstâncias da sua Paixão e morte; a sua
             ressurreição e ascensão ao Céu; o seu reino espiritual, universal e
             perpétuo, que é a Santa Igreja Católica.
@@ -876,7 +877,7 @@ export default function PageCatecismo() {
             <Text className="li text-justify">
               1º - pelo testemunho do Padre Eterno, quando disse: Este é O meu
               Filho muito amado, no qual tenho posto todas as minhas
-              complacências: ouvi-O ;
+              complacências: ouvi-O;
             </Text>
             <Text className="li text-justify">
               2º - pela afirmação do próprio Jesus Cristo, confirmada com os
@@ -904,7 +905,7 @@ export default function PageCatecismo() {
 
           <Text className="text-base">
             No sexto mês, o anjo Gabriel foi enviado da parte de Deus para uma
-            cidade da Galiléia, chamada Nazaré, a uma virgem, prometida em
+            cidade da Galileia, chamada Nazaré, a uma virgem, prometida em
             casamento a um homem, chamado José, da casa de Davi. O nome da
             virgem era Maria. Entrando onde ela estava, o anjo lhe disse: Deus
             te salve, cheia de graça, o Senhor está contigo! Ao ouvir as
@@ -1033,13 +1034,13 @@ export default function PageCatecismo() {
             Não entraram no Pretório para se não contaminarem, a fim de comerem
             a Páscoa. Pilatos, pois, Saiu fora para lhes falar e disse: Que
             acusação apresentais contra este homem? Responderam e disseram lhe:
-            Se este não fosse um malfeitor, não o entregaríamos nas tuasmãos.
-            Pilatos disse-lhes então: Tomai-o vós e julgai-o segundo a vos. sa
+            Se este não fosse um malfeitor, não o entregaríamos nas tuas mãos.
+            Pilatos disse-lhes então: Tomai-o vós e julgai-o segundo a vossa
             lei, Mas os judeus disseram-lhe: A nós não nos é permitido matar
             ninguém. Para se cumprir a palavra que Jesus dissera, significando
             de que morte havia de morrer. Tornou, pois, Pilatos a entrar no
             Pretório, chamou Jesus e disse-lhe: Tu és o rei dos judeus?
-            Respondeu Jesus: Tu dizes isso de ti mesmo, ou foram outrosque to
+            Respondeu Jesus: Tu dizes isso de ti mesmo, ou foram outros que to
             disseram de mim? Respondeu Pilatos: Porventura sou eu judeu? A tua
             nação e os pontífices são os que te entregaram nas minhas mãos. Que
             fizeste tu? Respondeu Jesus: O meu reino não é deste mundo; se o meu
@@ -1056,7 +1057,7 @@ export default function PageCatecismo() {
             Barrabás era um salteador. Pilatos tomou então Jesus e mandou-o
             flagelar. Os soldados, tecendo uma coroa de espinhos, puseram-lha
             sobre a cabeça e revestiram- no com um manto de púrpura. Depois,
-            aproximavam-se dele e diziamlhe: Salve, rei dos judeus! e davam-lhe
+            aproximavam-se dele e diziam-lhe: Salve, rei dos judeus! e davam-lhe
             bofetadas. Saiu Pilatos ainda entra vez fora, e disse-lhes: Eis que
             vo-lo trago fora, para que conheçais que não encontro nele crime
             algum. Saiu, pois, Jesus trazendo a coroa de espinhos e o manto de
@@ -1068,7 +1069,7 @@ export default function PageCatecismo() {
             morrer Porque se fez Filho de Deus. Pilatos, tendo ouvido estas
             palavras temeu ainda mais. Entrou novamente no Pretório e disse a
             Jesus: Donde és tu? Mas Jesus não lhe deu resposta Então disse-lhe
-            Pilatos: Não me falas? Não ves que tenho poder para te soltar, e
+            Pilatos: Não me falas? Não vês que tenho poder para te soltar, e
             também para te crucificar? Respondeu Jesus: Tu não terias poder
             algum sobre mim, se não fosse dado do alto. Por isso o que me
             entregou a ti, tem maio pecado. Desde este momento, procurava
@@ -1081,7 +1082,7 @@ export default function PageCatecismo() {
             o vosso rei. Mas eles gritaram: Tira-o, tira-o, crucifica-o!
             Disse-lhes Pilatos: Pois eu, hei de crucificar o vosso rei?
             Responderam os pontífices: Não rei temos rei, senão César. Então
-            entregou-lho, Para que fosse crucificado. S. João, 18, 28-40; 19,
+            entregou-Lho, Para que fosse crucificado. S. João, 18, 28-40; 19,
             1-23
           </Text>
 
@@ -1092,7 +1093,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             O quarto artigo do Credo ensina-nos que Jesus Cristo, para remir o
             mundo com o seu precioso Sangue, padeceu sob Pôncio Pilatos,
-            governador da Judéia, e morreu no madeiro da Cruz, da qual foi
+            governador da Judeia, e morreu no madeiro da Cruz, da qual foi
             descido, e no fim sepultado.
           </Text>
 
@@ -1123,20 +1124,20 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Quem condenou Jesus Cristo a ser crucificado foi Pôncio Pilatos,
-            governador da Judéia, o qual no entanto reconhecera a sua inocência;
+            governador da Judeia, o qual no entanto reconhecera a sua inocência;
             mas cedeu covardemente às ameaças dos judeus.
           </Text>
 
           <Text className="h5">
-            100 - Não poderia livrar-Se Jesus Cristo das mãos dos judeus ou de
+            100 - Não poderia livrar-se Jesus Cristo das mãos dos judeus ou de
             Pilatos?
           </Text>
           <Text className="text-base">
-            Sim, Jesus Cristo podia livrar-Se das mãos dos judeus ou de Pilatos;
+            Sim, Jesus Cristo podia livrar-se das mãos dos judeus ou de Pilatos;
             mas, conhecendo que a vontade do seu Eterno Padre era que Ele
-            padecesse e morresse pela nossa salvação, submeteu-Se
+            padecesse e morresse pela nossa salvação, submeteu-se
             voluntariamente, e até saiu ao encontro dos seus inimigos, e
-            deixou-Se espontaneamente prender e conduzir à morte.
+            deixou-se espontaneamente prender e conduzir à morte.
           </Text>
 
           <Text className="h5">101 - Onde foi crucificado Jesus Cristo?</Text>
@@ -1237,7 +1238,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Jesus Cristo morreu por todos, mas nem todos se salvam, porque nem
-            todosO reconhecem, nem todos seguem a sua lei, nem todos se servem
+            todos O reconhecem, nem todos seguem a sua lei, nem todos se servem
             dos meios de santificação que nos deixou.
           </Text>
 
@@ -1248,7 +1249,7 @@ export default function PageCatecismo() {
             Para nos salvarmos não basta que Jesus basta que Jesus Cristo tenha
             morrido por nós, mas é necessário que sejam aplicados, a cada um de
             nós, o fruto e os merecimentos da sua Paixão e morte, aplicação que
-            se faz, sobretudo, por meios dosSacramentos, instituídos para este
+            se faz, sobretudo, por meios dos Sacramentos, instituídos para este
             fim pelo mesmo Jesus Cristo; e como muitos ou não recebem os
             Sacramentos, ou não os recebem com as condições devidas, eles tornam
             inútil para si próprios a morte de Jesus Cristo.
@@ -1263,26 +1264,26 @@ export default function PageCatecismo() {
             que aquele impostor disse em vida: Depois de três dias
             ressuscitarei. Manda, pois, guardar o sepulcro até o terceiro dia
             para não acontecer que os seus discípulos venham roubar o corpo e
-            digam ao povo: Ele ressuscitou dosmortos. E esta última impostura
+            digam ao povo: Ele ressuscitou dos mortos. E esta última impostura
             será pior do que a primeira. Pilatos lhes disse: Vós tendes a
-            guarda. Ide e guardai-o como bem entendeis. Elesforam e puseram
-            guarda ao sepulcro depoisdeselarem a pedra. Passado o sábado, ao
+            guarda. Ide e guardai-o como bem entendeis. Eles foram e puseram
+            guarda ao sepulcro depois de selarem a pedra. Passado o sábado, ao
             amanhecer do primeiro dia da semana, Maria Madalena e a outra Maria
             foram ver o sepulcro. Subitamente houve um grande terremoto, pois um
             anjo do Senhor desceu do céu, aproximou-se, rolou a pedra do
             sepulcro e sentou-se nela. O seu aspecto era como o de um relâmpago
-            e sua veste, branca como a neve. Paralisados de medo, osguardas
-            ficaram como mortos. O anjo, dirigindo-se àsmulheres, disse: Não
+            e sua veste, branca como a neve. Paralisados de medo, os guardas
+            ficaram como mortos. O anjo, dirigindo-se às mulheres, disse: Não
             tenhais medo. Sei que procurais Jesus, o crucificado. Ele não está
             aqui! Ressuscitou conforme tinha dito. Vinde ver o lugar onde
             estava. Ide logo dizer a seus discípulos que ele ressuscitou dos
-            mortos e que vai à frentedevóspara a Galiléia. Lá o vereis. Eiso
-            queeu tinha a dizer. Jesus aparece às mulheres. Afastando-se logo do
-            túmulo, cheias de temor e grande alegria, correram para dar a
+            mortos e que vai à frente de vós para a Galileia. Lá o vereis. Eis o
+            que eu tinha a dizer. Jesus aparece às mulheres. Afastando-se logo
+            do túmulo, cheias de temor e grande alegria, correram para dar a
             notícia aos discípulos. De repente, Jesus saiu ao encontro delas e
             disse-lhes: Salve! Elas se aproximaram, abraçaram-lhe os pés e se
             prostraram diante dele. Disse-lhes então Jesus: Não tenhais medo!
-            Ide dizer a meus irmãos que se dirijam à Galiléia elá meverão. Mt
+            Ide dizer a meus irmãos que se dirijam à Galileia elá me verão. Mt
             27, 62-66; 28, 1-10.
           </Text>
 
@@ -1340,22 +1341,22 @@ export default function PageCatecismo() {
             os escribas e anciãos se haviam reunido. Pedro o seguiu de longe até
             o pátio do Sumo Sacerdote. Entrou ali e sentou-se junto com os
             guardas para ver como ia terminar. Os sumos sacerdotes e todo o
-            Sinédrio procuravam falsos testemunhoscontra Jesuspara condená-lo à
-            morte. Masnão os encontraram, embora muitas testemunhas falsas se
+            Sinédrio procuravam falsos testemunhos contra Jesus para condená-lo
+            à morte. Mas não os encontraram, embora muitas testemunhas falsas se
             tivessem apresentado. Finalmente apresentaram-se duas testemunhas
             que disseram: Este homem falou: Posso destruir o Santuário de Deus e
             em três dias reconstruí-lo. Então o Sumo Sacerdote levantou-se e
             perguntou: Nada respondes ao que estes depõem contra ti? Jesus,
             porém, permanecia calado. O Sumo Sacerdote lhe disse: Conjuro-te
             pelo Deus vivo: dize-nos se tu és o Cristo, o Filho de Deus. Jesus
-            respondeu-lhe: Tu o disseste. Entretanto eu vosdigo: Um dia vereis o
-            Filho do homem sentado à direita do Todo-poderoso, vindo sobre as
-            nuvens do céu. Então o Sumo Sacerdote rasgou asvestesn e disse:
-            Blasfemou! Que necessidade temosde maistestemunhas? Acabaisde ouvir
-            a blasfêmia. O que vosparece? Eles responderam: É réu de morte.
-            Então começaram a cuspir-lhe no rosto e a darlhe bofetadas, e outros
-            a ferir-lhe o rosto ; e diziam: Adivinha, ó Cristo, quem foi
-            quetebateu? Mt 7, 57-68
+            respondeu-lhe: Tu o disseste. Entretanto eu vos digo: Um dia vereis
+            o Filho do homem sentado à direita do Todo-poderoso, vindo sobre as
+            nuvens do céu. Então o Sumo Sacerdote rasgou as vestes e disse:
+            Blasfemou! Que necessidade temos de mais testemunhas? Acabais de
+            ouvir a blasfêmia. O que vos parece? Eles responderam: É réu de
+            morte. Então começaram a cuspir-lhe no rosto e a dar lhe bofetadas,
+            e outros a ferir-lhe o rosto ; e diziam: Adivinha, ó Cristo, quem
+            foi que te bateu? Mt 7, 57-68
           </Text>
 
           <Text className="h5">
@@ -1364,7 +1365,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             O sexto artigo do Credo ensina-nos que Jesus quarenta dias depois da
-            sua ressurreição na presença dos seusdiscípulos, subiu por Si mesmo
+            sua ressurreição na presença dos seus discípulos, subiu por Si mesmo
             tio Céu e que sendo, enquanto Deus, igual tio Padre Eterno na
             Glória, enquanto homem, foi elevado acima de todos os Anjos e de
             todos os Santos, e constituído Senhor de todas as coisas.
@@ -1391,7 +1392,7 @@ export default function PageCatecismo() {
             </Text>
             <Text className="li text-justify">
               2º - para preparar o nosso lugar na glória, e para ver nosso
-              Mediador eAdvogado junto do Padre Eterno;
+              Mediador e Advogado junto do Padre Eterno;
             </Text>
             <Text className="li text-justify">
               3º - para enviar o Espírito Santo aos seus Apóstolos.
@@ -1435,8 +1436,8 @@ export default function PageCatecismo() {
             estava na cadeia e viestes ver-me. E os justos perguntarão: Senhor,
             quando foi que te vimos com fome e te alimentamos, com sede e te
             demos de beber? Quando foi que te vimos peregrino e te acolhemos, nu
-            e te vestimos? Quando foi que te vimosenfermo ou na cadeia e te
-            fomos visitar? E o rei dirá: Eu vos garanto: todasas vezes que
+            e te vestimos? Quando foi que te vimos enfermo ou na cadeia e te
+            fomos visitar? E o rei dirá: Eu vos garanto: todas as vezes que
             fizestes isso a um desses meus irmãos menores, a mim o fizestes.
             Depois dirá aos da esquerda: Afastai-vos de mim, malditos, para o
             fogo eterno, preparado para o diabo e seus anjos. Porque eu tive
@@ -1445,8 +1446,8 @@ export default function PageCatecismo() {
             enfermo e na cadeia e não me visitastes. E eles perguntarão: Senhor,
             quando foi que te vimos faminto ou sedento, peregrino ou enfermo ou
             na cadeia e não te servimos? E ele lhes responderá: Eu vos garanto:
-            quando deixastes de fazer isso a um desses pequeninos, foi a mim
-            quenão o fizestes. E estesirão para o castigo eterno, enquanto os
+            quando deixastes de fazer isso a um desses pequeninos, foi a mim que
+            não o fizestes. E estes irão para o castigo eterno, enquanto os
             justos, para a vida eterna. Mt 25, 31-46
           </Text>
 
@@ -1545,7 +1546,7 @@ export default function PageCatecismo() {
             manifestavam sua admiração e diziam: Estes que estão falando não são
             todos galileus? Como, então, todos nós os ouvimos falar, cada um em
             nossa própria língua materna? Partos, medos, elamitas, os que
-            habitam a Mesopotâmia, a Judéia, a Capadócia, o Ponto, a Ásia, a
+            habitam a Mesopotâmia, a Judeia, a Capadócia, o Ponto, a Ásia, a
             Frígia, a Panfília, o Egito e as províncias da Líbia, próximas de
             Cirene, peregrinos romanos, judeus ou convertidos ao judaísmo,
             cretenses e árabes todos os ouvimos falar as grandezas de Deus em
@@ -1623,7 +1624,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             O Espírito Santo desceu sobre os Apóstolos no dia de Pentecostes,
-            isto é, cinqüenta dias depois da Ressurreição de Jesus Cristo, e dez
+            isto é, cinquenta dias depois da Ressurreição de Jesus Cristo, e dez
             dias depois da sua Ascensão.
           </Text>
 
@@ -1659,7 +1660,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             O Espírito Santo, como a alma no corpo, vivifica a Igreja com a sua
-            graça e com os seus dons; estabelece nEla o reino da verdade e do
+            graça e com os seus dons; estabelece n'Ela o reino da verdade e do
             amor; e assiste-Lhe a fim de que oriente os seus filhos com firmeza
             ao caminho do Céu.
           </Text>
@@ -1720,7 +1721,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Nós fomos chamados para a Igreja de Jesus Cristo por uma graça
             particular de Deus, a fim de que, com a luz da fé e pela observância
-            da lei divina, Lhe prestemoso culto devido, e cheguemos à vida
+            da lei divina, Lhe prestemos o culto devido, e cheguemos à vida
             eterna.
           </Text>
 
@@ -1851,7 +1852,7 @@ export default function PageCatecismo() {
             Chamo a verdadeira Igreja de Santa, porque Jesus Cristo, a sua
             cabeça invisível, é Santo, santos são muitos dos seus membros,
             santas são a sua Fé e a sua Lei, santos os seus Sacramentos, e fora
-            dEla não há nem pode haver verdadeira santidade.
+            d'Ela não há nem pode haver verdadeira santidade.
           </Text>
 
           <Text className="h5">
@@ -1861,7 +1862,7 @@ export default function PageCatecismo() {
             Chamo a verdadeira Igreja de Católica, que quer dizer universal,
             porque abrange os fiéis de todos os tempos, de todos os lugares, de
             todas as idades e condições, e todos os homens do mundo são chamados
-            a fazer parte dEla.
+            a fazer parte d'Ela.
           </Text>
 
           <Text className="h5">
@@ -1870,7 +1871,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             A verdadeira Igreja chama-se também Apostólica, porque remonta sem
             interrupção até aos Apóstolos; porque crê e ensina tudo o que creram
-            e ensinaram osApóstolos; e porque é guiada e governada pelos
+            e ensinaram os Apóstolos; e porque é guiada e governada pelos
             legítimos sucessores dos Apóstolos.
           </Text>
 
@@ -1889,7 +1890,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             A Igreja de Jesus Cristo é constituída como uma sociedade verdadeira
-            e perfeita. E nEla, como numa pessoa moral, podemos distinguir um
+            e perfeita. E n'Ela, como numa pessoa moral, podemos distinguir um
             corpo e uma alma.
           </Text>
 
@@ -1905,7 +1906,7 @@ export default function PageCatecismo() {
             164 - E o corpo da Igreja, em que consiste?
           </Text>
           <Text className="text-base">
-            O corpo da Igreja consiste no queEla tem de visível e de externo,
+            O corpo da Igreja consiste no que Ela tem de visível e de externo,
             quer na associação dos seus membros, quer no seu culto e no seu
             ministério de -ensino, quer no seu governo e ordem externa.
           </Text>
@@ -1927,7 +1928,7 @@ export default function PageCatecismo() {
             aqueles que estão atualmente em graça de Deus.
           </Text>
 
-          <Text className="h5">167 - E quais são nEla os membros mortos?</Text>
+          <Text className="h5">167 - E quais são n'Ela os membros mortos?</Text>
           <Text className="text-base">
             Membros mortos da Igreja são os fiéis que estão em pecado mortal.
           </Text>
@@ -1961,7 +1962,7 @@ export default function PageCatecismo() {
             Igreja, tivesse recebido o baptismo, ou tivesse desejo, ao menos
             implícito, de o receber e além disso procurasse sinceramente a
             verdade, e cumprisse a vontade de Deus o melhor que pudesse, ainda
-            que separado do corpo da Igreja, estaria unido à alma dEla, e
+            que separado do corpo da Igreja, estaria unido à alma d'Ela, e
             portanto no caminho da salvação.
           </Text>
 
@@ -1981,7 +1982,7 @@ export default function PageCatecismo() {
             ensina?
           </Text>
           <Text className="text-base">
-            Sim, somos obrigados a acreditar todasas verdades que a Igreja nos
+            Sim, somos obrigados a acreditar todas as verdades que a Igreja nos
             ensina, e Jesus Cristo declarou que quem não crê, já está condenado.
           </Text>
 
@@ -1995,12 +1996,12 @@ export default function PageCatecismo() {
           </Text>
 
           <Text className="h5">
-            174 - Pode enganar-Se a Igreja nas coisas que nos propõe para
+            174 - Pode enganar-se a Igreja nas coisas que nos propõe para
             crermos?
           </Text>
           <Text className="text-base">
             Não. Nas coisas que nos propõe para crer, a Igreja não pode
-            enganar-Se, porque, segundo a promessa de Jesus Cristo, é sempre
+            enganar-se, porque, segundo a promessa de Jesus Cristo, é sempre
             assistida pelo Espírito Santo.
           </Text>
 
@@ -2033,7 +2034,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Todo o cristão deve ter para com a Igreja um amor ilimitado,
             considerar-se feliz e infinitamente honrado por pertencer a Ela, e
-            empenhar-se pela glória e aumento dEla por todos os meios ao seu
+            empenhar-se pela glória e aumento d'Ela por todos os meios ao seu
             alcance.
           </Text>
 
@@ -2064,7 +2065,7 @@ export default function PageCatecismo() {
             Espírito do Senhor arrebatou Filipe n, e o camareiro já não o viu,
             mas alegre prosseguiu seu caminho. Quanto a Filipe, foi parar em
             Azoto e, de passagem, anunciava a boa-nova a todas as cidades até
-            chegar a Cesaréia Atos 8, 26-40
+            chegar a Cesareia Atos 8, 26-40
           </Text>
 
           <Text className="h5">
@@ -2126,8 +2127,8 @@ export default function PageCatecismo() {
             186 - Quais são as pessoas que têm na Igreja autoridade de ensinar?
           </Text>
           <Text className="text-base">
-            Os que têm na Igreja o poder de ensinar são o Papa e osBispos e, sob
-            a dependência destes, os outros ministros sagrados.
+            Os que têm na Igreja o poder de ensinar são o Papa e os Bispos e,
+            sob a dependência destes, os outros ministros sagrados.
           </Text>
 
           <Text className="h5">
@@ -2136,7 +2137,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Sim, sem dúvida, somos todos obrigados a ouvir a Igreja docente, sob
             pena de condenação eterna, porque Jesus Cristo disse aos Pastores da
-            Igreja, na pessoa dos Apóstolos: Quem vosouve, a Mim ouve, e quem
+            Igreja, na pessoa dos Apóstolos: Quem vos ouve, a Mim ouve, e quem
             vos despreza, a Mim despreza.
           </Text>
 
@@ -2168,7 +2169,7 @@ export default function PageCatecismo() {
 
           <Text className="h4">4º - Do Papa e dos Bispos</Text>
           <Text className="text-base">
-            Chegando à região de Cesaréia de Filipe, Jesus perguntou a seus
+            Chegando à região de Cesareia de Filipe, Jesus perguntou a seus
             discípulos: Quem as pessoas dizem que é o Filho do homem? Eles
             responderam: Alguns dizem que é João Batista; outros, Elias; outros,
             Jeremias ou um dos profetas. Então ele perguntou-lhes: E vós, quem
@@ -2308,9 +2309,9 @@ export default function PageCatecismo() {
 
           <Text className="h5">205 - Quem são os Bispos?</Text>
           <Text className="text-base">
-            OsBispos são osPastores aos fiéis, estabelecidos pelo Espírito Santo
-            para governar ti Igreja de Deus, nas sedesque lhes são confiadas sob
-            i] dependência do Romano Pontífice.
+            Os Bispos são os Pastores aos fiéis, estabelecidos pelo Espírito
+            Santo para governar ti Igreja de Deus, nas sedesque lhes são
+            confiadas sob i] dependência do Romano Pontífice.
           </Text>
 
           <Text className="h5">206 - Que é o Bispo na própria diocese?</Text>
@@ -2384,9 +2385,9 @@ export default function PageCatecismo() {
             O que era desde o princípio, o que ouvimos, o que vimos com os
             olhos, o que contemplamos e nossas mãos apalparam no tocante ao
             Verbo da vida a porque a vida se manifestou e nós vimos e
-            testemunhamos, anunciando-vosa vida eterna que estava com o Pai e
+            testemunhamos, anunciando-vos a vida eterna que estava com o Pai e
             nos foi manifestada o que vimos e ouvimos, nós também vos anunciamos
-            a fim de que também vós vivaisem comunhão conosco. Ora, nossa
+            a fim de que também vós vivai sem comunhão conosco. Ora, nossa
             comunhão é com o Pai e seu Filho, Jesus Cristo. Nós vos escrevemos
             estas coisas para nossa alegria ser completa! Para viver na luz. A
             mensagem que dele ouvimos e vos anunciamos é esta: Deus é luz, nele
@@ -2396,7 +2397,7 @@ export default function PageCatecismo() {
             outros e o sangue de Jesus, seu Filho, nos purifica de todo pecado.
             Se dizemos que em nós não há pecado, enganamos a nós mesmos e a
             verdade não está conosco. Se confessamos nossos pecados, fiel e
-            justo é Deus para nos perdoar e nos purificar de toda iniqüidade. Se
+            justo é Deus para nos perdoar e nos purificar de toda iniquidade. Se
             dizemos que não pecamos, chamamos Deus de mentiroso e sua palavra
             não está conosco. I João 1, 1-10
           </Text>
@@ -2419,7 +2420,7 @@ export default function PageCatecismo() {
             Os bens comuns internos na Igreja são: a graça que se recebe nos
             Sacramentos, a Fé, a Esperança, a Caridade, os merecimentos
             infinitos de Jesus Cristo, os merecimentos superabundantes da
-            Santíssima Virgem e dosSantos, e o fruto de todas as boas obras que
+            Santíssima Virgem e dos Santos, e o fruto de todas as boas obras que
             na mesma Igreja se fazem.
           </Text>
 
@@ -2602,17 +2603,17 @@ export default function PageCatecismo() {
             descobriram o teto no lugar em que ele se achava, e pela abertura
             desceram a maca em que estava deitado o paralítico. Ao ver a fé
             deles, Jesus disse ao paralítico: Filho, os teus pecados estão
-            perdoados. Ora, estavam sentadosali alguns escribas, pensando
-            consigo mesmos: Como estehomem pode falar assim? Ele blasfema! Quem
+            perdoados. Ora, estavam sentados ali alguns escribas, pensando
+            consigo mesmos: Como este homem pode falar assim? Ele blasfema! Quem
             pode perdoar pecados senão só Deus? Mas Jesus percebeu logo em seu
             espírito os pensamentos deles e disse: Por que estais pensando
-            assim? a O que é mais fácil dizer ao paralítico: teuspecados estão
+            assim? a O que é mais fácil dizer ao paralítico: teus pecados estão
             perdoados ou dizer: levanta-te, toma a tua maca e anda? Pois bem,
             para que saibais que o Filho do homem tem na terra poder de perdoar
             os pecados disse ao paralítico eu te digo: levanta-te, toma a tua
             maca e vai para casa. Ele se levantou, pegou logo a sua maca e saiu
             à vista de todos. Todos se espantaram e se puseram a louvar a Deus,
-            dizendo: Nunca vimoscoisa igual! Mar 2, 1-12
+            dizendo: Nunca vimos coisa igual! Mar 2, 1-12
           </Text>
 
           <Text className="h5">
@@ -2660,7 +2661,7 @@ export default function PageCatecismo() {
             que aquele impostor disse em vida: Depois de três dias
             ressuscitarei. Manda, pois, guardar o sepulcro até o terceiro dia
             para não acontecer que os seus discípulos venham roubar o corpo e
-            digam ao povo: Ele ressuscitou dosmortos. E esta última impostura
+            digam ao povo: Ele ressuscitou dos mortos. E esta última impostura
             será pior do que a primeira. Pilatos lhes disse: Vós tendes a
             guarda. Ide e guardai-o como bem entendeis. Eles foram e puseram
             guarda ao sepulcro depois de selarem a pedra. Passado o sábado, ao
@@ -2673,13 +2674,13 @@ export default function PageCatecismo() {
             tenhais medo. Sei que procurais Jesus, o crucificado. Ele não está
             aqui! Ressuscitou conforme tinha dito. Vinde ver o lugar onde
             estava. Ide logo dizer a seus discípulos que ele ressuscitou dos
-            mortos e que vai à frente de vós para a Galiléia. Lá o vereis. E
+            mortos e que vai à frente de vós para a Galileia. Lá o vereis. E
             isso que eu tinha a dizer. Jesus aparece às mulheres. Afastando-se
             logo do túmulo, cheias de temor e grande alegria, correram para dar
             a notícia aos discípulos. De repente, Jesus saiu ao encontro delas e
             disse-lhes: Salve! Elas se aproximaram, abraçaram-lhe os pés e se
             prostraram diante dele. Disse-lhes então Jesus: Não tenhais medo!
-            Ide dizer a meus irmãos que se dirijam à Galiléia e lá me verão. Mt
+            Ide dizer a meus irmãos que se dirijam à Galileia e lá me verão. Mt
             27, 62-65; 28, 1-10.
           </Text>
 
@@ -2772,9 +2773,9 @@ export default function PageCatecismo() {
             está doente. Quando ouviu isso, Jesus disse: Esta doença não causará
             a morte mas se destina à glória de Deus: por ela o Filho de Deus
             será glorificado. Ora, Jesus amava Marta, sua irmã e Lázaro. Embora
-            estivesse informado de que ele estava doente, demorou-se ainda
-            doisdiasnaquele lugar. Depois disse aos discípulos: Voltemos para a
-            Judéia. Os discípulos disseram: Mestre, há pouco os judeus te
+            estivesse informado de que ele estava doente, demorou-se ainda dois
+            dias naquele lugar. Depois disse aos discípulos: Voltemos para a
+            Judeia. Os discípulos disseram: Mestre, há pouco os judeus te
             queriam apedrejar e tu voltas para lá? Jesus respondeu: Não são doze
             as horas do dia? Se alguém caminha durante o dia, não tropeça porque
             vê a luz deste mundo; mas se caminha de noite, tropeça porque lhe
@@ -2797,11 +2798,11 @@ export default function PageCatecismo() {
             lhe disse: Eu sou a ressurreição e a vida. Quem crê em mim, ainda
             que esteja morto, viverá. E quem vive e crê em mim jamais morrerá.
             Crês isto? Sim, Senhor respondeu ela creio que és o Cristo, o Filho
-            deDeus, quedevia vir a estemundo. Dito isso, ela foi chamar sua irmã
-            Maria e disse-lhe baixinho: O Mestre está aí e te chama. Ao ouvir
-            isso, Maria levantou-se imediatamente e foi ao encontro dele. É que
-            Jesus ainda não havia entrado no povoado mas ficou lá onde Marta o
-            tinha encontrado. Os judeus, que estavam em casa com ela e a
+            de Deus, que devia vir a este mundo. Dito isso, ela foi chamar sua
+            irmã Maria e disse-lhe baixinho: O Mestre está aí e te chama. Ao
+            ouvir isso, Maria levantou-se imediatamente e foi ao encontro dele.
+            É que Jesus ainda não havia entrado no povoado mas ficou lá onde
+            Marta o tinha encontrado. Os judeus, que estavam em casa com ela e a
             consolavam, vendo que Maria se tinha levantado e saído às pressas,
             seguiram-na pensando: Ela vai ao sepulcro para chorar. Assim que
             Maria chegou onde Jesus estava, lançou-se aos pés dele e disse:
@@ -2840,7 +2841,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Não. Não podemos compreender a felicidade do Paraíso, porque excede
-            os conhecimentos da nossa inteligência limitada, e porque osbensao
+            os conhecimentos da nossa inteligência limitada, e porque os bens ao
             Céu não podem comparar-se aos bens deste mundo.
           </Text>
 
@@ -2903,14 +2904,14 @@ export default function PageCatecismo() {
             si mesmos, tendo-se por justos, e desprezavam os outros: Dois homens
             subiram ao Templo para orar; um era fariseu, o outro, um cobrador de
             impostos. O fariseu rezava, de pé, desta maneira: Ó meu Deus, eu te
-            agradeço por não ser como osoutroshomens, que são ladrões, injustos,
-            adúlteros, nem mesmo como este cobrador de impostos. Jejuo duas
-            vezes por semana, pago o dízimo de tudo que possuo. Mas o cobrador
-            de impostos, parado à distância, nem se atrevia a levantar os olhos
-            para o céu. Batia no peito, dizendo: Ó meu Deus, tem piedade de mim,
-            pecador! Eu vos digo: Este voltou justificado para casa e não
-            aquele. Porque todo aquele que se eleva será humilhado, e quem se
-            humilha será elevado. Luc 18, 9-14
+            agradeço por não ser como os outros homens, que são ladrões,
+            injustos, adúlteros, nem mesmo como este cobrador de impostos. Jejuo
+            duas vezes por semana, pago o dízimo de tudo que possuo. Mas o
+            cobrador de impostos, parado à distância, nem se atrevia a levantar
+            os olhos para o céu. Batia no peito, dizendo: Ó meu Deus, tem
+            piedade de mim, pecador! Eu vos digo: Este voltou justificado para
+            casa e não aquele. Porque todo aquele que se eleva será humilhado, e
+            quem se humilha será elevado. Luc 18, 9-14
             {"\n"} E quando orardes, não sejais como os hipócritas, que gostam
             de rezar em pé nas sinagogas e nas esquinas das praças para serem
             vistos pelos outros. Eu vos garanto: eles já receberam a recompensa.
@@ -2931,7 +2932,7 @@ export default function PageCatecismo() {
 
           <Text className="h5">253 - Que é a oração?</Text>
           <Text className="text-base">
-            A oração é uma elevação da alma a Deus, para adora-Lo, para Lhe dar
+            A oração é uma elevação da alma a Deus, para adorá-Lo, para Lhe dar
             graças e para Lhe pedir aquilo de que precisamos.
           </Text>
 
@@ -2979,7 +2980,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Devemos pedir a Deus as graças de que necessitamos, em nome de Jesus
-            Cristo, como Ele mesmo nosensinou e como pratica a Igreja, a qual
+            Cristo, como Ele mesmo nos ensinou e como pratica a Igreja, a qual
             termina sempre as suas orações com estas palavras:{" "}
             <Text className="font-italic">
               per Dominum nostrum Jesum Christum
@@ -2992,7 +2993,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Devemos pedir as graças em nome de Jesus Cristo, porque, sendo Ele o
-            nosso mediador, só por meio dEle podemos aproximar-nos do trono de
+            nosso mediador, só por meio d'Ele podemos aproximar-nos do trono de
             Deus.
           </Text>
 
@@ -3132,7 +3133,7 @@ export default function PageCatecismo() {
           <Text className="h5">276 - Quando devemos especialmente orar?</Text>
           <Text className="text-base">
             Devemos orar especialmente nos perigos, nas tentações e no momento
-            da morte; além disso, devemos orar freqüenternente, e é bom que o
+            da morte; além disso, devemos orar frequentemente, e é bom que o
             façamos pela manhã e à noite, e no princípio das ações importantes
             do dia.
           </Text>
@@ -3151,10 +3152,10 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Um dia, Jesus estava rezando num certo lugar. Quando terminou, um
             dos discípulos lhe pediu: Senhor, ensina-nos a rezar como João
-            ensinou a seusdiscípulos. Ele lhes disse: Quando rezardes, dizei:
+            ensinou a seus discípulos. Ele lhes disse: Quando rezardes, dizei:
             Pai, santificado seja o teu nome, venha o teu Reino. O pão nosso de
             cada dia nos dá hoje. E perdoa-nos os nossos pecados, pois também
-            nós perdoamos a todo o nosso devedor, e não nos deixescair em
+            nós perdoamos a todo o nosso devedor, e não nos deixes cair em
             tentação. Jesus acrescentou: Se algum de vós tiver um amigo e for
             procurá-lo à meia-noite e lhe disser: Amigo, empresta-me três pães,
             pois um amigo meu chegou de viagem e não tenho nada para oferecer, e
@@ -3165,7 +3166,7 @@ export default function PageCatecismo() {
             causa do incômodo e lhe dará quantos necessitar. Pedir com confiança
             Digo-vos, pois: Pedi e vos será dado; buscai e achareis; batei e vos
             abrirão. Pois quem pede, recebe; quem procura, acha; e a quem bate,
-            se abre. Que pai dentre vósdará uma pedra a seu filho que pede um
+            se abre. Que pai dentre vós dará uma pedra a seu filho que pede um
             pão? Ou lhe dará uma cobra se ele pedir um peixe? Ou se pedir um ovo
             lhe dará um escorpião? Se, pois, vós que sois maus, sabeis dar
             coisas boas aos vossos filhos, quanto mais o Pai do céu saberá dar o
@@ -3195,9 +3196,9 @@ export default function PageCatecismo() {
             280 - É também o Padre-Nosso a oração mais eficaz? -
           </Text>
           <Text className="text-base">
-            O Padre-Nosso é também a oração maiseficaz, porque é a maisagradável
-            a Deus, porque é feita com as mesmas palavras que nos ditou o seu
-            Divino Filho.
+            O Padre-Nosso é também a oração mais eficaz, porque é a mais
+            agradável a Deus, porque é feita com as mesmas palavras que nos
+            ditou o seu Divino Filho.
           </Text>
 
           <Text className="h5">
@@ -3330,7 +3331,7 @@ export default function PageCatecismo() {
           <Text className="h5">292 - Que entendemos por reino de Deus?</Text>
           <Text className="text-base">
             Por reino de Deus entendemos uni tríplice reino espiritual, a saber:
-            o reino de Deusem nós, ou o reino da graça; o reino de Deus na
+            o reino de Deus em nós, ou o reino da graça; o reino de Deus na
             terra, isto é, a Santa Igreja Católica; e o reino de Deus nos céus,
             ou o Paraíso.
           </Text>
@@ -3340,7 +3341,7 @@ export default function PageCatecismo() {
             relação à graça?
           </Text>
           <Text className="text-base">
-            Com relação à graça, pedimosque Deus reine em nós com a sua graça
+            Com relação à graça, pedimos que Deus reine em nós com a sua graça
             santificante, pela qual Ele se compraz em residir em nós como um rei
             em seu palácio, e que nos mantenha unidos a si pelas virtudes da fé,
             da esperança e da caridade, pelas quais reina sobre ti nossa
@@ -3495,7 +3496,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Na quinta petição: perdoai-nos as nossas dívidas, assim como nós
             perdoamos aos nossos devedores, pedimos a Deus que nos perdoe os
-            nossos pecados, corno nós perdoamos aos que nos ofendem.
+            nossos pecados, como nós perdoamos aos que nos ofendem.
           </Text>
           <Text className="h5">
             310 - Por que nossos pecados são chamados de dívidas?
@@ -3546,7 +3547,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Para evitar as tentações devemos fugir das ocasiões perigosas,
-            guardar os sentidos, receber com freqüência a os santos sacramentos,
+            guardar os sentidos, receber com frequência a os santos sacramentos,
             fazer uso da oração, especialmente da devoção a Maria Santíssima,
             Senhora Nossa.
           </Text>
@@ -3612,7 +3613,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             No sexto mês, o anjo Gabriel foi enviado da parte de Deus para uma
-            cidade da Galiléia, chamada Nazaré, a uma virgem, prometida em
+            cidade da Galileia, chamada Nazaré, a uma virgem, prometida em
             casamento a um homem, chamado José, da casa de Davi. O nome da
             virgem era Maria. Entrando onde ela estava, o anjo lhe disse:
             Alegra-te, cheia de graça, o Senhor está contigo! Ao ouvir as
@@ -3629,7 +3630,7 @@ export default function PageCatecismo() {
             tua parenta, concebeu um filho em sua velhice, e este é o sexto mês
             daquela que era considerada estéril, porque para Deus nada é
             impossível. Disse então Maria: Eis aqui a serva do Senhor. Aconteça
-            comigo segundo tua palavra! E dela seafastou o anjo. Naqueles dias,
+            comigo segundo tua palavra! E dela se afastou o anjo. Naqueles dias,
             Maria se pôs a caminho e foi apressadamente às montanhas para uma
             cidade de Judá. Entrou em casa de Zacarias e saudou Isabel.
             Aconteceu que, mal Isabel ouviu a saudação de Maria, a criança
@@ -3638,7 +3639,7 @@ export default function PageCatecismo() {
             ventre! Donde me vem a honra que a mãe do meu Senhor venha a mim?
             Pois quando soou em meus ouvidos a voz de tua saudação, a criança
             saltou de alegria em meu ventre. Feliz é aquela que teve fé no
-            cumprimento do que lhe foi dito da partedo Senhor. Luc 1, 26-4
+            cumprimento do que lhe foi dito da parte do Senhor. Luc 1, 26-4
           </Text>
           <Text className="h5">
             324 - Que oração costumamos rezar depois do Padre-Nosso?
@@ -3658,7 +3659,7 @@ export default function PageCatecismo() {
             326 - De quem são as palavras da Ave-Maria?
           </Text>
           <Text className="text-base">
-            Aspalavras da Ave-Maria são, em parte do Arcanjo São Gabriel, em
+            As palavras da Ave-Maria são, em parte do Arcanjo São Gabriel, em
             parte de Santa Isabel e em parte da Igreja.
           </Text>
           <Text className="h5">
@@ -3673,7 +3674,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             O Anjo disse a Maria estas palavras quando Lhe foi anunciar da parte
-            de Deus o mistério da Encarnação, que nEla devia operar-se.
+            de Deus o mistério da Encarnação, que n'Ela devia operar-se.
           </Text>
           <Text className="h5">
             329 - Que temos em vista ao saudarmos a Santíssima Virgem com as
@@ -3704,7 +3705,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Ao dizer estas palavras de Santa Isabel, congratulamo-nos com Maria
             Santíssima pela sua excelsa dignidade de Mãe de Deus, bendizemos a
-            Deus e darnos-Lhe graças por nos ter dado Jesus Cristo por meio de
+            Deus e damos-Lhe graças por nos ter dado Jesus Cristo por meio de
             Maria.
           </Text>
           <Text className="h5">
@@ -3746,7 +3747,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             A respeito da devoção a Maria, os Santos nos ensinam que os seus
             verdadeiros devotos são por Ela amados e protegidos com amor de Mãe
-            muito terna, e por meio dEla têm a certeza de encontrar a Jesus
+            muito terna, e por meio d'Ela têm a certeza de encontrar a Jesus
             Cristo, e de alcançar o Paraíso.
           </Text>
           <Text className="h5">
@@ -3769,21 +3770,21 @@ export default function PageCatecismo() {
             da colina. Enquanto mantinha a mão levantada, Israel vencia; quando
             abaixava a mão, vencia Amalec. Como as mãos de Moisés se tornassem
             pesadas, pegaram uma pedra e a colocaram debaixo dele para sentar.
-            Aarão e Hur, um de cada lado, sustentavam-lhe asmãos. Assim as mãos
+            Aarão e Hur, um de cada lado, sustentavam-lhe as mãos. Assim as mãos
             ficaram firmes até o pôr-do-sol, e Josué derrotou Amalec e sua gente
             a fio de espada. O Senhor disse a Moisés: Escreve isto para
             recordação num livro e comunica a Josué que eu apagarei a lembrança
             de Amalec debaixo do céu. Moisés construiu um altar e deu-lhe o nome
             o Senhor é meu estandarte, dizendo: Levantou a mão contra o trono do
-            Senhor, por isso o Senhor estará em guerra contra Amalec, degeração
-            em geração. Ex 17, 8-15 Quando o Senhor acabou de dirigir a Jó
-            estaspalavras, disse a Elifaz de Temã: Estou indignado contra ti e
-            teus dois companheiros, porque não falastes corretamente de mim,
-            como o fez meu servo Jó. Tomai, pois, sete novilhos e sete carneiros
-            e dirigi-vos ao meu servo Jó. Oferecei-os em holocausto em vosso
+            Senhor, por isso o Senhor estará em guerra contra Amalec, de geração
+            em geração. Ex 17, 8-15 Quando o Senhor acabou de dirigir a Jó estas
+            palavras, disse a Elifaz de Temã: Estou indignado contra ti e teus
+            dois companheiros, porque não falastes corretamente de mim, como o
+            fez meu servo Jó. Tomai, pois, sete novilhos e sete carneiros e
+            dirigi-vos ao meu servo Jó. Oferecei-os em holocausto em vosso
             favor, enquanto meu servo Jó intercederá por vós. Em atenção a ele,
-            não vos tratarei como merece vossa temeridade, por não terdesfalado
-            corretamente demim, como o fez meu servo Jó. Elifaz de Temã, Baldad
+            não vos tratarei como merece vossa temeridade, por não terdes falado
+            corretamente de mim, como o fez meu servo Jó. Elifaz de Temã, Baldad
             de Suás e Sofar de Naamat fizeram o que o Senhor lhes ordenara, e
             ele atendeu à oração de Jó. O Senhor mudou a sorte de Jó, porque
             intercedia por seus companheiros, e duplicou todas as suas posses.
@@ -3798,7 +3799,7 @@ export default function PageCatecismo() {
             belas que as filhas do Jó. Seu pai lhes repartiu heranças como a
             seus irmãos. Depois destes acontecimentos Jó viveu cento e quarenta
             anos e viu seus filhos, netos e bisnetos. E Jó morreu velho e cheio
-            dedias. Jó 42, 7-1
+            de dias. Jó 42, 7-1
           </Text>
           <Text className="h5">
             339 - É coisa boa e útil recorrer à intercessão dos Santos?
@@ -4090,7 +4091,7 @@ export default function PageCatecismo() {
           <Text className="h5">348 - Podemos observar os Mandamentos?</Text>
           <Text className="text-base">
             Podemos, sem dúvida, observar os Mandamentos da Lei de Deus, porque
-            Deus não nosmanda nenhuma coisa impossível, e dá a graça para os
+            Deus não nos manda nenhuma coisa impossível, e dá a graça para os
             observar a quem ti pede devidamente.
           </Text>
           <Text className="h5">
@@ -4116,7 +4117,7 @@ export default function PageCatecismo() {
             sinto vergonha de dizer, parece que fomos fracos. Quanto às
             pretensões que qualquer outro possa ter falo como louco também eu as
             tenho. São hebreus? Também sou. São israelitas? Também sou. São da
-            descendência deAbraão? Também sou. São ministros de Cristo? Falando
+            descendência de Abraão? Também sou. São ministros de Cristo? Falando
             como louco, eu sou mais ainda. Muito mais pelos trabalhos, muito
             mais pelas prisões, pelos açoites sem conta. Muitas vezes vi a morte
             de perto. Cinco vezes recebi dos judeus os quarenta açoites menos
@@ -4154,7 +4155,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Com as palavras do primeiro Mandamento: amar a Deus sobre todas as
-            coisas, Deus nosordena que o reconheçamos, adoremos, amemos e
+            coisas, Deus nos ordena que o reconheçamos, adoremos, amemos e
             sirvamos a Ele só, como nosso Soberano Senhor.
           </Text>
           <Text className="h5">
@@ -4274,7 +4275,7 @@ export default function PageCatecismo() {
             Não. Não é proibido honrar e invocar os Anjos e os Santos, e até o
             devemos fazer, porque é coisa boa e útil, e altamente recomendada
             pela Igreja, já que eles são amigos de Deus e nossos intercessores
-            junto dEle.
+            junto d'Ele.
           </Text>
           <Text className="h5">
             368 - Sendo Jesus Cristo o nosso único mediador junto de Deus, por
@@ -4284,7 +4285,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Jesus Cristo é o nosso mediador junto de Deus, enquanto, sendo
             verdadeiro Deus e verdadeiro Homem, só Ele, em virtude dos próprios
-            merecimentos, nos reconciliou com Deus e dEle nos obtém todas as
+            merecimentos, nos reconciliou com Deus e d'Ele nos obtém todas as
             graças. Mas, a Santíssima Virgem e os Santos, em virtude dos
             merecimentos de Jesus Cristo, e pela caridade que os une a Deus e a
             nós, auxiliam-nos com a sua intercessão a alcançar as graças que
@@ -4296,7 +4297,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Sim, porque a honra que se tributa às sagradas imagens de Jesus
-            Cristo e dosSantos, refere-se às suas mesmas pessoas.
+            Cristo e dos Santos, refere-se às suas mesmas pessoas.
           </Text>
           <Text className="h5">
             370 - E as relíquias dos Santos, podem honrar-se?
@@ -4315,15 +4316,15 @@ export default function PageCatecismo() {
             Santos há esta diferença: que a Deus adoramo-Lo pela sua infinita
             excelência, ao passo que aos Santos não os adoramos, mas só os
             honramos e veneramos como amigos de Deus e nossos intercessores
-            junto dEle. O culto que prestamos a Deus chama-se latria, isto é, de
-            adoração, e o culto que prestamos aos Santos chama-se dulia, isto é,
-            de veneração aos servos de Deus; enfim o culto especial que
+            junto d'Ele. O culto que prestamos a Deus chama-se latria, isto é,
+            de adoração, e o culto que prestamos aos Santos chama-se dulia, isto
+            é, de veneração aos servos de Deus; enfim o culto especial que
             prestamos a Maria Santíssima chama-se hiperdulia, isto é, de
             essencialíssima veneração, como Mãe de Deus.
           </Text>
           <Text className="h4">2º - Do segundo Mandamento da Lei de Deus</Text>
           <Text className="text-base">
-            Certo homem, chamado Ananias, decomum acordo com sua mulher Safira,
+            Certo homem, chamado Ananias, de comum acordo com sua mulher Safira,
             vendeu uma propriedade. Com a cumplicidade da mulher, reteve uma
             parte do preço e foi depositar o resto aos pés dos apóstolos. Pedro,
             porém, disse: Ananias, por que Satanás se apoderou de teu coração
@@ -4336,7 +4337,7 @@ export default function PageCatecismo() {
             envolveram o corpo num lençol e o retiraram dali para sepultar.
             Passadas umas três horas, entrou também a mulher, sem saber o que
             havia acontecido. Pedro perguntou-lhe: Dize-me: foi por tanto que
-            vendesteso terreno? Ela respondeu: Sim, foi por essepreço. Então
+            vendestes o terreno? Ela respondeu: Sim, foi por esse preço. Então
             Pedro disse: Por que combinastes tentar o Espírito do Senhor? Olha,
             já estão entrando pela porta aqueles que sepultaram o teu marido.
             Eles vão levar também a ti. Ela imediatamente caiu aos pés de Pedro
@@ -4384,7 +4385,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Há diferença, porque com a blasfêmia se amaldiçoa ou se deseja mal a
-            Deus, a Nossa Senhora, aosSantos; ao passo que, com a imprecação ou
+            Deus, a Nossa Senhora, aos Santos; ao passo que, com a imprecação ou
             praga, se amaldiçoa ou se deseja mal a si mesmo ou ao próximo.
           </Text>
           <Text className="h5">376 - Que é jurar?</Text>
@@ -4472,7 +4473,7 @@ export default function PageCatecismo() {
             aterrorizadas e baixassem os olhos para o chão, eles disseram: Por
             que procurais entre os mortos quem está vivo? Ele não está aqui mas
             ressuscitou! Lembrai-vos do que vos falou, quando estava ainda na
-            Galiléia: O Filho do homem deveria ser entregue ao poder de
+            Galileia: O Filho do homem deveria ser entregue ao poder de
             pecadores e ser crucificado mas ressuscitaria ao terceiro dia. Então
             elas se lembraram das palavras de Jesus. Luc 24, 1-8 No primeiro dia
             da semana, estávamos reunidos para partir o pão. Paulo, que ia
@@ -4484,8 +4485,8 @@ export default function PageCatecismo() {
             levantaram morto. Paulo desceu, debruçou-se sobre ele e,
             abraçando-o, disse: Não vos perturbeis. Ele está vivo. Depois subiu,
             partiu o pão, comeu e prosseguiu a pregação até ao amanhecer. Então
-            partiu. Quanto ao rapaz, levaram-no vivo, com grandeconsolo detodos.
-            Atos 20, 7-1
+            partiu. Quanto ao rapaz, levaram-no vivo, com grande consolo de
+            todos. Atos 20, 7-1
           </Text>
           <Text className="h5">
             388 - Que nos ordena o terceiro Mandamento: guardar domingos e
@@ -4525,7 +4526,7 @@ export default function PageCatecismo() {
               divinos;
             </Text>
             <Text className="li text-justify">
-              2º - recebendo com freqüência, com as devidas disposições, os
+              2º - recebendo com frequência, com as devidas disposições, os
               Sacramentos da Penitência e da Eucaristia;
             </Text>
             <Text className="li text-justify">
@@ -4621,8 +4622,8 @@ export default function PageCatecismo() {
             Por que me procuráveis? Não sabíeis que eu devia estar na casa do
             meu Pai? Eles não entenderam o que lhes dizia. Depois desceu com
             eles e foi para Nazaré, e lhes era submisso. Sua mãe conservava a
-            lembrança de tudo isso no coração. Jesus crescia em sabedoria,
-            idadeegraça diantedeDeusedaspessoas. Luc 2, 48-5
+            lembrança de tudo isso no coração. Jesus crescia em sabedoria, idade
+            e graça diante de Deus e das pessoas. Luc 2, 48-5
           </Text>
           <Text className="h5">
             399 - Que nos ordena o quarto Mandamento: honrar pai e mãe?
@@ -4670,10 +4671,10 @@ export default function PageCatecismo() {
             404 - Deu-nos Deus o modelo da família perfeita?
           </Text>
           <Text className="text-base">
-            Deus nosdeu o modelo da família perfeita na Sagrada Família, na qual
-            Jesus Cristo viveu sujeito a Maria Santíssima e a São José até aos
-            trinta anos, isto é, até quando começou a desempenhar a missão que o
-            Padre Eterno Lhe confiara, de pregar o Evangelho.
+            Deus nos deu o modelo da família perfeita na Sagrada Família, na
+            qual Jesus Cristo viveu sujeito a Maria Santíssima e a São José até
+            aos trinta anos, isto é, até quando começou a desempenhar a missão
+            que o Padre Eterno Lhe confiara, de pregar o Evangelho.
           </Text>
           <Text className="h5">
             405 - Poderiam as famílias, se vivessem isoladamente uma das outras,
@@ -4687,7 +4688,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="h5">406 - Que é a sociedade civil?</Text>
           <Text className="text-base">
-            A sociedade civil é a reunião de muitas famílias, dependentesda
+            A sociedade civil é a reunião de muitas famílias, dependentes da
             autoridade de um chefe, para se auxiliarem reciprocamente a
             conseguir o mútuo aperfeiçoamento e a felicidade tempora
           </Text>
@@ -4712,7 +4713,7 @@ export default function PageCatecismo() {
             autoridade civil?
           </Text>
           <Text className="text-base">
-            Devem respeitar-se todas as leisque a autoridade civil impõe, desde
+            Devem respeitar-se todas as leis que a autoridade civil impõe, desde
             que não sejam contrárias à Lei de Deus, pois esta é a ordem e o
             exemplo de Nosso Senhor Jesus Cristo.
           </Text>
@@ -4724,19 +4725,19 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Os que formam parte da sociedade civil, além da obrigação de
             respeitar e obedecer às leis, têm o dever de viver em harmonia e de
-            procurar, segundo suaspossibilidades, que a sociedade seja virtuosa,
-            pacífica, ordenada e próspera para o proveito comum, com vistas à
-            salvação eterna dos indivíduos.
+            procurar, segundo suas possibilidades, que a sociedade seja
+            virtuosa, pacífica, ordenada e próspera para o proveito comum, com
+            vistas à salvação eterna dos indivíduos.
           </Text>
           <Text className="h4">2º - Do quinto Mandamento da Lei de Deus</Text>
           <Text className="text-base">
-            Aconteceu, tempos depois, que Caim apresentou ao Senhor frutosda
-            terra como oferta. Abel, por sua vez, ofereceu osprimeiros
+            Aconteceu, tempos depois, que Caim apresentou ao Senhor frutos da
+            terra como oferta. Abel, por sua vez, ofereceu os primeiros
             cordeirinhos e a gordura das ovelhas. E o Senhor olhou para Abel e
             sua oferta, mas não deu atenção a Caim e sua oferta. Caim se
             enfureceu e ficou com o rosto abatido. O Senhor disse a Caim: Por
-            que estásenfurecido e andas com o rosto abatido? Não é verdade que,
-            se fizereso bem, andarásde cabeça erguida? Mas se não o fizeres, o
+            que estás enfurecido e andas com o rosto abatido? Não é verdade que,
+            se fizeres o bem, andarás de cabeça erguida? Mas se não o fizeres, o
             pecado não estará à porta, espreitando-te, como um assaltante? Tu,
             porém, terás de dominá-lo. Caim disse a Abel, o irmão: Vamos para o
             campo! Mas, quando estavam no campo, Caim agrediu o irmão Abel e o
@@ -4746,14 +4747,14 @@ export default function PageCatecismo() {
             por vingança! Agora serás amaldiçoado pela própria terra que engoliu
             o sangue de teu irmão, derramado por ti. Quando cultivares o solo,
             negar-te-á o sustento e virás a ser um fugitivo, errante sobre a
-            terra. Caim disse ao Senhor : O castigo é grande demaispara
-            suportá-lo. Eis que hoje me expulsasda face deste solo fértil e devo
-            ocultar-me diante de teu rosto. Quando estiver fugindo e vagueando
-            pela terra, quem me encontrar, matar-me-á. Mas o Senhor lhe disse:
-            Pois bem. Se alguém matar Caim, será vingado sete vezes. O Senhor
-            pôs, então, um sinal em Caim para que ninguém, ao encontrá-lo, o
-            matasse. Afastando-se da presença do Senhor, Caim foi habitar na
-            região deNod, ao oriente deÉden. Gênesis 4, 3-1
+            terra. Caim disse ao Senhor : O castigo é grande demais para
+            suportá-lo. Eis que hoje me expulsas da face deste solo fértil e
+            devo ocultar-me diante de teu rosto. Quando estiver fugindo e
+            vagueando pela terra, quem me encontrar, matar-me-á. Mas o Senhor
+            lhe disse: Pois bem. Se alguém matar Caim, será vingado sete vezes.
+            O Senhor pôs, então, um sinal em Caim para que ninguém, ao
+            encontrá-lo, o matasse. Afastando-se da presença do Senhor, Caim foi
+            habitar na região de Nod, ao oriente de Éden. Gênesis 4, 3-1
           </Text>
           <Text className="h5">
             411 - Que nos proíbe o quinto Mandamento: não matar?
@@ -4770,7 +4771,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Porque o que mata usurpa temerariamente o direito que só Deus tem
-            sobre a vida do homem; porque destroi a segurança da sociedade
+            sobre a vida do homem; porque destrói a segurança da sociedade
             humana, e porque tira ao próximo a vida, que é o maior bem natural
             que ele tem neste mundo.
           </Text>
@@ -4778,11 +4779,11 @@ export default function PageCatecismo() {
             413 - Haverá casos em que seja lícito matar o próximo?
           </Text>
           <Text className="text-base">
-            É lícito tirar a vida do próximo: durante o combate ein guerra
-            justa; quando se executa por ordem da autoridade suprema a
-            condenação à morte em castigo de algum crime; e finalmente quando se
-            trata de necessária e legítima defesa da vida, no momento de uma
-            injusta agressão.
+            É lícito tirar a vida do próximo: durante o combate em guerra justa;
+            quando se executa por ordem da autoridade suprema a condenação à
+            morte em castigo de algum crime; e finalmente quando se trata de
+            necessária e legítima defesa da vida, no momento de uma injusta
+            agressão.
           </Text>
           <Text className="h5">
             414 - No quinto Mandamento proíbe também Deus fazer mal à vida
@@ -4862,12 +4863,12 @@ export default function PageCatecismo() {
             dos ismaelitas que o tinham levado para lá. Mas o Senhor estava com
             José e ele se tornou um homem bem sucedido enquanto esteve na casa
             de seu senhor egípcio. O patrão notou que o Senhor estava com ele e
-            fazia prosperar todas as suas iniciativas. José conquistou
-            asboasgraçasde seu amo que o pôsa seu serviço, constituindo-o
-            administrador da casa e confiando-lhe todos osbens. E desde o
+            fazia prosperar todas as suas iniciativas. José conquistou as boas
+            graças de seu amo que o pôs a seu serviço, constituindo-o
+            administrador da casa e confiando-lhe todos os bens. E desde o
             momento em que o fez administrador, o Senhor abençoou em atenção a
             José a casa do egípcio e derramou sua bênção sobre tudo que possuía
-            em casa e no campo. Ele entregou tudo nas mãosde José e não se
+            em casa e no campo. Ele entregou tudo nas mãos de José e não se
             preocupava com coisa alguma a não ser com o que comia. Ora, José
             tinha um belo porte e era formoso de rosto. Aconteceu, depois, que a
             mulher de seu amo pôs nele os olhos e lhe disse: Dorme comigo. Ele
@@ -4880,7 +4881,7 @@ export default function PageCatecismo() {
             atendeu. Um dia José entrou na casa para cumprir as tarefas e nenhum
             dos empregados estava em casa. A mulher o agarrou pelo manto,
             dizendo: Dorme comigo. Mas ele largou-lhe nas mãos o manto e fugiu
-            correndo para fora. Vendo que lhe tinha deixado nas mãoso manto e
+            correndo para fora. Vendo que lhe tinha deixado nas mãos o manto e
             escapado para fora, ela se pôs a gritar e a chamar os empregados,
             dizendo: Vede! meu marido trouxe este hebreu para abusar de nós.
             Aproximou-se de mim para dormir comigo, mas pus-me a gritar em voz
@@ -4935,9 +4936,9 @@ export default function PageCatecismo() {
             427 - Quando são pecados os maus pensamentos?
           </Text>
           <Text className="text-base">
-            Osmauspensamentos, ainda que não sejam seguidosde ação, são pecados,
-            quando culpavelmente lhes damosmotivo, ou neles consentimos, ou nos
-            expomos ao perigo próximo de neles consentir.
+            Os maus pensamentos, ainda que não sejam seguidos de ação, são
+            pecados, quando culpavelmente lhes damos motivo, ou neles
+            consentimos, ou nos expomos ao perigo próximo de neles consentir.
           </Text>
           <Text className="h5">
             428 - Que nos ordenam o sexto e o nono Mandamentos?
@@ -4945,19 +4946,19 @@ export default function PageCatecismo() {
           <Text className="text-base">
             O sexto Mandamento ordena-nos que sejamos castos e modestos nas
             ações, nos olhares, no porte e nas palavras. O nono Mandamento
-            ordena-tios que sejamos castos e puros, ainda mesmo tio nosso
-            íntimo, isto é, tia alma e no coração.
+            ordena-nos que sejamos castos e puros, ainda mesmo tio nosso íntimo,
+            isto é, tia alma e no coração.
           </Text>
           <Text className="h5">
             429 - Que devemos fazer para observar o sexto e o nono Mandamentos?
           </Text>
           <Text className="text-base">
-            Para bem observarmoso sexto e o nono Mandamentos, devemos invocar
-            freqüenternente e de todo o coração a Deus, ser devotos de Maria
+            Para bem observarmos o sexto e o nono Mandamentos, devemos invocar
+            frequentemente e de todo o coração a Deus, ser devotos de Maria
             Virgem, Mãe da pureza, lembrar-nos de que Deus nos vê, pensar ria
             morte, nos castigos divinos, tia Paixão de Jesus Cristo, guardar os
-            nossos sentidos, praticar a mortificação cristã, e freqüentar os
-            sacramentos corri as devidas disposiçoes.
+            nossos sentidos, praticar a mortificação cristã, e frequentar os
+            sacramentos corri as devidas disposições.
           </Text>
           <Text className="h5">
             43O Que devemos evitar para nos conservarmos castos?
@@ -4965,8 +4966,8 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Para nos conservarmos castos, devemos evitar a ociosidade, os maus
             companheiros, as más leituras, a intemperança, o olhar para figuras
-            indecentes, osespetáculos licenciosos, osbailes, as conversase
-            diversõesperigosas, bem como todas asdemaisocasiões de pecado.
+            indecentes, os espetáculos licenciosos, os bailes, as conversas e
+            diversões perigosas, bem como todas as demais ocasiões de pecado.
           </Text>
           <Text className="h4">4º - Do sétimo Mandamento da Lei de Deus</Text>
           <Text className="text-base">
@@ -4975,13 +4976,13 @@ export default function PageCatecismo() {
             Jesus, mas não conseguia por causa da multidão, pois era muito
             baixo. Correndo na frente, subiu numa figueira brava para vê-lo,
             pois tinha de passar por ali. Ao chegar ao lugar, Jesus olhou para
-            cima e disselhe: Zaqueu, desce depressa, poishoje devo ficar em tua
-            casa. Ele desceu a toda pressa e o recebeu com alegria. Ao ver isso,
-            todos começaram a resmungar: Ele foi hospedar-se na casa de um
+            cima e disse-lhe: Zaqueu, desce depressa, pois hoje devo ficar em
+            tua casa. Ele desceu a toda pressa e o recebeu com alegria. Ao ver
+            isso, todos começaram a resmungar: Ele foi hospedar-se na casa de um
             pecador. Zaqueu entretanto, de pé, disse ao Senhor: Senhor, vou dar
-            a metade dos meus bens aospobres e, se em alguma coisa prejudiquei
+            a metade dos meus bens aos pobres e, se em alguma coisa prejudiquei
             alguém, vou restituir quatro vezes mais. Disse-lhe Jesus: Hoje a
-            salvação entrou nesta casa porque também este é um filho deAbraão.
+            salvação entrou nesta casa porque também este é um filho de Abraão.
             Poiso Filho do homem veio procurar e salvar o que estava perdido.
             Luc 19, 1-
           </Text>
@@ -5036,7 +5037,7 @@ export default function PageCatecismo() {
             suprir à necessidade urgente e extrema.
           </Text>
           <Text className="h5">
-            439 - È só com o furto e com o roubo que se prejudica o próximo nos
+            439 - É só com o furto e com o roubo que se prejudica o próximo nos
             seus bens?
           </Text>
           <Text className="text-base">
@@ -5063,8 +5064,8 @@ export default function PageCatecismo() {
           <Text className="text-base">
             São injustiças fazê-lo perder injustamente o que tem, danificá-lo
             nas suas propriedades, não trabalhar como se deve, não pagar, por
-            malícia, asdívidase mercadorias compradas, ferir ou matar
-            osanimaisdo próximo, estragar ou deixar estragar-se o que se tem em
+            malícia, as dívidas e mercadorias compradas, ferir ou matar os
+            animais do próximo, estragar ou deixar estragar-se o que se tem em
             depósito, impedir alguém de auferir um lucro justo, auxiliar os
             ladrões, e receber, esconder ou comprar as coisas roubadas.
           </Text>
@@ -5084,7 +5085,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             O sétimo Mandamento ordena-nos que respeitemos as coisas alheias,
             que paguemos o justo salário aos operários, e que observemos a
-            justiça ein tudo o que se refere à propriedade alheia.
+            justiça em tudo o que se refere à propriedade alheia.
           </Text>
           <Text className="h5">
             446 - Quem pecou contra o sétimo Mandamento, basta que se confesse
@@ -5101,14 +5102,14 @@ export default function PageCatecismo() {
           <Text className="text-base">
             A reparação dos danos causados é a compensação que se deve dar ao
             próximo pelos frutos e lucros perdidos por causa do furto e das
-            outras injustiças cometidas ein seu prejuízo.
+            outras injustiças cometidas em seu prejuízo.
           </Text>
           <Text className="h5">
             448 - A quem se devem restituir as coisas roubadas?
           </Text>
           <Text className="text-base">
             Àquele a quem se roubaram; aos seus herdeiros, se já tiver morrido;
-            e se isso for verdadeiramente impossível.deve - se dar o seu valor
+            e se isso for verdadeiramente impossível, deve-se dar o seu valor
             aos pobres e a obras pias.
           </Text>
           <Text className="h5">
@@ -5128,15 +5129,15 @@ export default function PageCatecismo() {
             um parque confinante com sua casa; junto dele afluíam os judeus, por
             ser o mais respeitado de todos. Ora, naquele ano dois anciãos do
             povo tinham sido apontados como juízes, a respeito dos quais o
-            Senhor tinha dito: De Babilônia brotou a iniqüidade, da parte de
+            Senhor tinha dito: De Babilônia brotou a iniquidade, da parte de
             anciãos-juízes que aparentemente governavam o povo. Eles
-            freqüentavam a casa de Joaquim, e todos os que tinham alguma questão
+            frequentavam a casa de Joaquim, e todos os que tinham alguma questão
             se dirigiam a eles. Ora, quando pelo meio-dia o povo se tinha
             dispersado, Susana ia passear no parque do marido. Os dois anciãos
             viam-na todos os dias entrar e passear, e acabaram se apaixonando
             por ela. Fizeram o contrário do que deveriam ter feito, evitando
             erguer os olhos para o Céu e esquecendo os justos juízos de Deus.
-            Embora ambos se sentissem perdidamente apaixonadospor ela, contudo
+            Embora ambos se sentissem perdidamente apaixonados por ela, contudo
             um não traía ao outro o seu sofrimento, porque ainda sentiam
             vergonha de manifestar o desejo ardente de a possuir. Todos os dias
             espreitavam avidamente por vê-la. Certo dia um disse ao outro: Vamos
@@ -5149,7 +5150,7 @@ export default function PageCatecismo() {
             costume, acompanhada apenas por duas mocinhas; é que queria tomar
             banho por causa do calor intenso. Não havia lá ninguém, exceto os
             dois velhos que estavam escondidos e a espreitavam. Então ela
-            ordenou àsmocinhas: Por favor, ide buscar-me azeite e perfumes e
+            ordenou às mocinhas: Por favor, ide buscar-me azeite e perfumes e
             trancai as portas do parque, enquanto tomo banho! Elas obedeceram,
             trancando as portas do parque e retirando- se por uma porta lateral,
             para buscar o que a patroa tinha pedido, sem se darem conta que os
@@ -5158,9 +5159,9 @@ export default function PageCatecismo() {
             as portas do parque estão trancadas e ninguém nos vê; nós estamos
             apaixonados por ti: faze-nos a vontade e entrega-te a nós! Caso
             contrário, nós deporemos contra ti que um moço estava contido e foi
-            por isso que mandaste embora asmeninas. Então Susana deu um suspiro,
-            exclamando: Vejo-me encurralada de todos os lados. Pois se fizer
-            isto, espera-me a morte, mas se não o fizer, não escaparei das
+            por isso que mandaste embora as meninas. Então Susana deu um
+            suspiro, exclamando: Vejo-me encurralada de todos os lados. Pois se
+            fizer isto, espera-me a morte, mas se não o fizer, não escaparei das
             vossas mãos. Contudo prefiro cair inocente em vossas mãos a pecar na
             presença do Senhor. Então ela se pôs a gritar em altas vozes, mas
             também os dois velhos gritaram contra ela. Um deles correu para as
@@ -5180,51 +5181,51 @@ export default function PageCatecismo() {
             embriagarem da sua beleza. Seus familiares e todos os parentes
             choravam. Os dois velhos se levantaram no meio do povo e puseram as
             mãos sobre a cabeça de Susana. Mas, entre lágrimas, ela olhou para o
-            céu, pois seu coração tinha confiança no Senhor. Em seguida
-            osanciãos deram este depoimento: Enquanto estávamos passeando a sós
-            no parque, esta mulher entrou com duasmocinhase mandou fechar
-            asportasdo parque, para depois mandá-las embora. Então um moço, que
+            céu, pois seu coração tinha confiança no Senhor. Em seguida os
+            anciãos deram este depoimento: Enquanto estávamos passeando a sós no
+            parque, esta mulher entrou com duas mocinhas e mandou fechar as
+            portas do parque, para depois mandá-las embora. Então um moço, que
             estava escondido, aproximou-se dela e com ela se deitou. Quando nós,
             do canto do parque onde estávamos, vimos esta infâmia, corremos para
             eles e os surpreendemos juntos. Não conseguimos, é verdade, agarrar
             o moço, porque era mais forte que nós, e assim abriu as portas e
-            sumiu. A esta mulher, porém, agarramose lhe perguntamos, quem era
+            sumiu. A esta mulher, porém, agarramos e lhe perguntamos, quem era
             aquele moço. Mas ela não o quis revelar. Disto nós damos testemunho.
-            A assembléia lhes deu crédito como a anciãos do povo e juízes que
+            A assembleia lhes deu crédito como a anciãos do povo e juízes que
             eram, e a condenou à morte. Susana, porém, gritou em alta voz e
             rezou: Ó Deus eterno que conheces os segredos e sabes tudo antes que
-            aconteça, tu bem sabes que elesproferiram falso testemunho contra
+            aconteça, tu bem sabes que eles proferiram falso testemunho contra
             mim! Eisque vou morrer, embora não tenha cometido o crime do qual
             maldosamente me acusam! E o Senhor escutou a sua voz. Enquanto
             Susana estava sendo conduzida para a execução, o Senhor excitou o
             santo espírito dum jovem de nome Daniel, e ele gritou em altas
             vozes: Sou inocente do sangue desta pessoa! Então todo o povo se
             voltou para ele e perguntou: O que queres dizer com isto? De pé, no
-            meio deles, elerespondeu: Então soistão insensatosassim, israelitas?
-            Sem inquérito sério e sem provas concludentes condenastes uma filha
-            de Israel! Voltai ao tribunal, por que estes malvados deram falso
-            testemunho contra ela! Então todo o povo voltou apressadamente, e os
-            anciãos convidaram a Daniel, dizendo: Tem a bondade de tomar lugar
-            em nosso meio e presta-nos o teu depoimento, pois Deus te concedeu o
-            privilégio da idade. Daniel lhes disse: Separai-os longe um do
-            outro, para os poder submeter a interrogatório! Quando foram
-            separados um do outro, Daniel chamou a um deles e lhe disse: Velho
-            encarquilhado e cheio de crimes! Agora vêm à luz os pecados que
-            cometias antes, proferindo sentenças injustas, condenando os
-            inocentes e absolvendo os culpados, quando o Senhor ordena: Ao
-            inocente e ao justo não os matarás! Poisbem! Se a viste tão bem,
-            dize-me à sombra de qual árvore os viste abraçados? O outro
-            respondeu: À sombra duma aroeira. Daniel respondeu: Mentiste direto
-            contra tua cabeça, pois o anjo de Deus já recebeu dele ordem de te
-            cortar pelo meio! Tendo-o despedido, mandou vir o outro e lhe disse:
-            Raça de Canaã e não de Judá! A beleza te fascinou e a paixão
+            meio deles, ele respondeu: Então sois tão insensatos assim,
+            israelitas? Sem inquérito sério e sem provas concludentes
+            condenastes uma filha de Israel! Voltai ao tribunal, por que estes
+            malvados deram falso testemunho contra ela! Então todo o povo voltou
+            apressadamente, e os anciãos convidaram a Daniel, dizendo: Tem a
+            bondade de tomar lugar em nosso meio e presta-nos o teu depoimento,
+            pois Deus te concedeu o privilégio da idade. Daniel lhes disse:
+            Separai-os longe um do outro, para os poder submeter a
+            interrogatório! Quando foram separados um do outro, Daniel chamou a
+            um deles e lhe disse: Velho encarquilhado e cheio de crimes! Agora
+            vêm à luz os pecados que cometias antes, proferindo sentenças
+            injustas, condenando os inocentes e absolvendo os culpados, quando o
+            Senhor ordena: Ao inocente e ao justo não os matarás! Pois bem! Se a
+            viste tão bem, dize-me à sombra de qual árvore os viste abraçados? O
+            outro respondeu: À sombra duma aroeira. Daniel respondeu: Mentiste
+            direto contra tua cabeça, pois o anjo de Deus já recebeu dele ordem
+            de te cortar pelo meio! Tendo-o despedido, mandou vir o outro e lhe
+            disse: Raça de Canaã e não de Judá! A beleza te fascinou e a paixão
             perverteu teu coração. É assim que procedíeis com as mulheres
-            israelitas, e elaspor medo vos faziam a vontade; mas esta mulher
-            judia não suportou vossa iniqüidade. Ora bem! Dize-me debaixo de que
+            israelitas, e elas por medo vos faziam a vontade; mas esta mulher
+            judia não suportou vossa iniquidade. Ora bem! Dize-me debaixo de que
             árvore os surpreendeste a se entreterem? Ele respondeu: Foi debaixo
             duma azinheira. Daniel lhe respondeu: Também tu mentiste diretamente
             contra tua cabeça! Pois o anjo de Deus já está à espera, com a
-            espada na mão, para te cortar ao meio e dar cabo devós. Toda a
+            espada na mão, para te cortar ao meio e dar cabo de vós. Toda a
             assistência pôs-se a gritar em voz alta, dando graças a Deus que
             salva os que nele esperam. Voltaram-se contra os dois velhos, porque
             Daniel os tinha convencido por suas próprias palavras que eram
@@ -5314,7 +5315,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Quem pecou contra o oitavo Mandamento, não basta que confesse o seu
-            pecado, masé também obrigado a retratar tudo o que disse caluniando
+            pecado, mas é também obrigado a retratar tudo o que disse caluniando
             o próximo, e a reparar, do melhor modo que possa, os danos que lhe
             causou.
           </Text>
@@ -5331,55 +5332,55 @@ export default function PageCatecismo() {
             Samaria. Acab falou com Nabot: Cede-me a tua vinha para que me sirva
             de horta, pois ela está bem perto da minha casa, e eu te darei uma
             vinha melhor, ou se preferires, posso pagar-te o preço em dinheiro.
-            Mas Nabot respondeu a Acab: Deusme livre de entregar-te a herança de
-            meuspais! Acab voltou para casa contrariado e furioso, por causa da
-            resposta que Nabot de Jezrael lhe tinha dado, negando-se a lhe ceder
-            a herança de seus pais. O rei se jogou na cama, virou o rosto e não
-            quis comer. Sua esposa Jezabel entrou no quarto e lhe perguntou: Por
-            que estás tão mal-humorado e não queres comer? Ele lhe respondeu: É
-            que tive uma conversa com Nabot de Jezrael e lhe fiz a proposta de
-            me ceder a sua vinha por dinheiro, ou se o preferisse, eu lhe daria
-            em troca outra vinha. Mas o homem me respondeu que não me cede a
-            vinha. Sua esposa Jezabel lhe disse: Bela figura de rei de Israel
-            estás fazendo! Levanta-te, toma alimento e fica de bom humor! Eu te
-            arranjarei a vinha de Nabot de Jezrael. Em seguida ela escreveu uma
-            carta em nome de Acab, selou-a com o selo do rei e a enviou aos
-            anciãos e nobres da cidade que moravam com Nabot. Na carta ela
-            escrevia como segue: Proclamai um jejum e colocai Nabot na primeira
-            fila. Fazei sentarem-se em frente dele dois cafajestes que dêem este
-            depoimento: Tu amaldiçoastea Deuse ao rei! Depois conduzi-o para
-            fora e apedrejai-o atémorrer. Os homens da cidade, anciãos e nobres,
-            seus concidadãos, procederam conforme a ordem recebida de Jezabel,
-            como estava escrito na carta que lhes tinha enviado. Proclamaram um
-            jejum e deram a Nabot o primeiro lugar na assembléia. Chegaram
-            também os dois cafajestes e se sentaram na frente dele. Os dois
-            cafajestes acusaram a Nabot na presença do povo, nestes termos:
-            Nabot amaldiçoou a Deus e ao rei! Em seguida o conduziram para fora
-            da cidade e o apedrejaram até morrer. Então avisaram a Jezabel:
-            Nabot foi apedrejado emorreu. Ao saber que Nabot tinha sido
-            apedrejado e estava morto, Jezabel disse a Acab: Levanta-te e toma
-            posse da vinha que Nabot de Jezrael não te quis vender, pois Nabot
-            não está mais vivo; ele morreu. Quando Acab soube que Nabot estava
-            morto, levantou-se para descer até a vinha de Nabot de Jezrael e
-            dela tomar posse. As ameaças de Elias. Então a palavra do Senhor foi
-            dirigida ao tesbita Eliasnestestermos: Levanta-te, desce ao encontro
-            de Acab, rei de Israel, que reside em Samaria. Olha, ele está na
-            vinha de Nabot, aonde desceu para dela tomar posse. Fala-lhe neste
-            teor: Assim fala o Senhor: Tu és um assassino e por cima ladrão! E
-            lhe falarás nestes termos: Assim fala o Senhor: No mesmo lugar onde
-            os cães lamberam o sangue de Nabot, lamberão também o teu próprio
-            sangue! Acab respondeu a Elias: Quer dizer que me surpreendeste, meu
-            inimigo? Ele respondeu: Sim, surpreendi! Porque te prestaste para
-            praticar o que desagrada ao Senhor, eisque vou trazer para ti
-            desgraças. Vou varrer-te, exterminando em Israel todas as pessoas do
-            sexo masculino da família de Acab, escravos e livres. Tratarei tua
-            família como as famílias de Jeroboão filho de Nabat, e de Baasa
-            filho de Aías, porque me causaste irritação e seduziste Israel ao
-            pecado. Também a respeito de Jezabel o Senhor falou assim: Os
-            cachorros devorarão a Jezabel na propriedade de Jezrael. Os membros
-            da família de Acab que morrerem na cidade, serão devorados pelos
-            cachorros, e os que morrerem na campanha, serão comidospelasavesdo
-            céu. I Reis 21, 1-2
+            Mas Nabot respondeu a Acab: Deus me livre de entregar-te a herança
+            de meus pais! Acab voltou para casa contrariado e furioso, por causa
+            da resposta que Nabot de Jezrael lhe tinha dado, negando-se a lhe
+            ceder a herança de seus pais. O rei se jogou na cama, virou o rosto
+            e não quis comer. Sua esposa Jezabel entrou no quarto e lhe
+            perguntou: Por que estás tão mal-humorado e não queres comer? Ele
+            lhe respondeu: É que tive uma conversa com Nabot de Jezrael e lhe
+            fiz a proposta de me ceder a sua vinha por dinheiro, ou se o
+            preferisse, eu lhe daria em troca outra vinha. Mas o homem me
+            respondeu que não me cede a vinha. Sua esposa Jezabel lhe disse:
+            Bela figura de rei de Israel estás fazendo! Levanta-te, toma
+            alimento e fica de bom humor! Eu te arranjarei a vinha de Nabot de
+            Jezrael. Em seguida ela escreveu uma carta em nome de Acab, selou-a
+            com o selo do rei e a enviou aos anciãos e nobres da cidade que
+            moravam com Nabot. Na carta ela escrevia como segue: Proclamai um
+            jejum e colocai Nabot na primeira fila. Fazei sentarem-se em frente
+            dele dois cafajestes que dêem este depoimento: Tu amaldiçoaste a
+            Deus e ao rei! Depois conduzi-o para fora e apedrejai-o até morrer.
+            Os homens da cidade, anciãos e nobres, seus concidadãos, procederam
+            conforme a ordem recebida de Jezabel, como estava escrito na carta
+            que lhes tinha enviado. Proclamaram um jejum e deram a Nabot o
+            primeiro lugar na assembleia. Chegaram também os dois cafajestes e
+            se sentaram na frente dele. Os dois cafajestes acusaram a Nabot na
+            presença do povo, nestes termos: Nabot amaldiçoou a Deus e ao rei!
+            Em seguida o conduziram para fora da cidade e o apedrejaram até
+            morrer. Então avisaram a Jezabel: Nabot foi apedrejado e morreu. Ao
+            saber que Nabot tinha sido apedrejado e estava morto, Jezabel disse
+            a Acab: Levanta-te e toma posse da vinha que Nabot de Jezrael não te
+            quis vender, pois Nabot não está mais vivo; ele morreu. Quando Acab
+            soube que Nabot estava morto, levantou-se para descer até a vinha de
+            Nabot de Jezrael e dela tomar posse. As ameaças de Elias. Então a
+            palavra do Senhor foi dirigida ao tesbita Elias nestes termos:
+            Levanta-te, desce ao encontro de Acab, rei de Israel, que reside em
+            Samaria. Olha, ele está na vinha de Nabot, aonde desceu para dela
+            tomar posse. Fala-lhe neste teor: Assim fala o Senhor: Tu és um
+            assassino e por cima ladrão! E lhe falarás nestes termos: Assim fala
+            o Senhor: No mesmo lugar onde os cães lamberam o sangue de Nabot,
+            lamberão também o teu próprio sangue! Acab respondeu a Elias: Quer
+            dizer que me surpreendeste, meu inimigo? Ele respondeu: Sim,
+            surpreendi! Porque te prestaste para praticar o que desagrada ao
+            Senhor, eisque vou trazer para ti desgraças. Vou varrer-te,
+            exterminando em Israel todas as pessoas do sexo masculino da família
+            de Acab, escravos e livres. Tratarei tua família como as famílias de
+            Jeroboão filho de Nabat, e de Baasa filho de Aías, porque me
+            causaste irritação e seduziste Israel ao pecado. Também a respeito
+            de Jezabel o Senhor falou assim: Os cachorros devorarão a Jezabel na
+            propriedade de Jezrael. Os membros da família de Acab que morrerem
+            na cidade, serão devorados pelos cachorros, e os que morrerem na
+            campanha, serão comidos pelas aves do céu. I Reis 21, 1-2
           </Text>
           <Text className="h5">
             465 - Que nos proíbe o décimo Mandamento: não cobiçar as coisas
@@ -5409,7 +5410,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             O cristão pode estar contente mesmo na pobreza, considerando que o
-            maior de todos os bens é a consciência pura e tranqüila, que a nossa
+            maior de todos os bens é a consciência pura e tranquila, que a nossa
             verdadeira pátria é o céu, e que Jesus Cristo se fez pobre por amor
             de nós, e prometeu um prêmio especial a todos aqueles que suportam
             com paciência a pobreza.
@@ -5425,26 +5426,26 @@ export default function PageCatecismo() {
             não escutar a igreja, seja para ti como um pagão e pecador público.
             Eu vos garanto: Tudo que ligardes na terra, será ligado no céu; e
             tudo que desligardes na terra, será desligado no céu. Digo-vos
-            ainda: Se doisde vósse unirem na terra para pedir qualquer coisa,
-            hão de conseguilo do meu Pai que está nos céusl Porque onde dois ou
+            ainda: Se dois de vós se unirem na terra para pedir qualquer coisa,
+            hão de consegui-lo do meu Pai que está nos céus! Porque onde dois ou
             três estiverem reunidos em meu nome, eu estarei ali no meio deles.
             Mt 18, 15-20 Então os apóstolos e presbíteros, de acordo com toda a
             Igreja, resolveram escolher alguns homens e enviá-los a Antioquia
-            com Paulo e Barnabé; escolheram Judas, chamado Barsabás, eSilas,
+            com Paulo e Barnabé; escolheram Judas, chamado Barsabás, e Silas,
             homens influentes entre os irmãos. Por seu intermédio enviaram a
             seguinte carta: Os irmãos, os apóstolos e presbíteros saúdam os
             irmãos de Antioquia, Síria e Cilícia, convertidos dentre os pagãos.
             Chegou ao nosso conhecimento que alguns dos nossos vos têm
             perturbado com palavras, confundindo vossas mentes, sem nenhuma
             autorização de nossa parte. Por isso resolvemos, de comum acordo,
-            enviar-vos alguns homens escolhidos, em companhia de nossos
-            amadosBarnabé ePaulo, que expuseram suas vidas pelo nome de Nosso
-            Senhor Jesus Cristo. Estamos enviando Judas e Silas para vos
-            comunicar de viva voz as mesmas coisas. Pareceu bem ao Espírito
-            Santo e a nós não vos impor nenhuma outra exigência além das
-            necessárias: que vos abstenhais das carnes imoladas aos ídolos, do
-            sangue, das carnes sufocadas e da prostituição. Procedereis bem
-            evitando estas coisas. Passai bem. Atos 15, 22-2
+            enviar-vos alguns homens escolhidos, em companhia de nossos amados
+            Barnabé e Paulo, que expuseram suas vidas pelo nome de Nosso Senhor
+            Jesus Cristo. Estamos enviando Judas e Silas para vos comunicar de
+            viva voz as mesmas coisas. Pareceu bem ao Espírito Santo e a nós não
+            vos impor nenhuma outra exigência além das necessárias: que vos
+            abstenhais das carnes imoladas aos ídolos, do sangue, das carnes
+            sufocadas e da prostituição. Procedereis bem evitando estas coisas.
+            Passai bem. Atos 15, 22-2
           </Text>
           <Text className="h4">1º - Dos preceitos da Igreja em geral</Text>
           <Text className="h5">
@@ -5609,7 +5610,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             O tempo mais próprio para cumprir o preceito da confissão anual é a
-            Quaresma, segundo o uso introduzido e aprovado ein toda a Igreja.
+            Quaresma, segundo o uso introduzido e aprovado em toda a Igreja.
           </Text>
           <Text className="h5">
             485 - Por que diz a Igreja que nos confessemos ao menos uma vez cada
@@ -5617,13 +5618,13 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             A Igreja diz ao menos, para dar a conhecer o seu desejo de que nos
-            aproximemos deste Sacramento com mais freqüência.
+            aproximemos deste Sacramento com mais frequência.
           </Text>
           <Text className="h5">
-            486 - É pois útil confessar-nos com freqüência?
+            486 - É pois útil confessar-nos com frequência?
           </Text>
           <Text className="text-base">
-            É muito útil confessar-nos com freqüência, sobretudo porque é
+            É muito útil confessar-nos com frequência, sobretudo porque é
             difícil que se confesse bem e se conserve isento de pecado mortal,
             quem se confessa raras vezes.
           </Text>
@@ -5669,7 +5670,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Porque a Igreja deseja vivamente que não somente na Páscoa, mas com
-            muita freqüência, nos aproximemos da Sagrada Comunhão, que é o
+            muita frequência, nos aproximemos da Sagrada Comunhão, que é o
             alimento divino das nossas almas.
           </Text>
           <Text className="h5">
@@ -5677,9 +5678,9 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Quem fizer uma Comunhão sacrílega não satisfaz ao terceiro preceito
-            da Igreja; porque a intenção da Igreja é que se receba
-            esteSacramento para o fim para que foi instituído, isto é, para
-            nossa santificação.
+            da Igreja; porque a intenção da Igreja é que se receba este
+            Sacramento para o fim para que foi instituído, isto é, para nossa
+            santificação.
           </Text>
           <Text className="h4">5º - Do quarto preceito da Igreja</Text>
           <Text className="h5">
@@ -5704,7 +5705,7 @@ export default function PageCatecismo() {
             qualquer outro alimento?
           </Text>
           <Text className="text-base">
-            Nos diasde jejum, a Igreja permite uma pequena parva pela manhã, e
+            Nos dias de jejum, a Igreja permite uma pequena parva pela manhã, e
             uma ligeira refeição à noite, ou, então, cerca do meio-dia, quando
             se deixa para a tarde a refeição maior.
           </Text>
@@ -5820,10 +5821,11 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Mandamentos No quarto Mandamento, sob o nome de pai e mãe,
-            entendem-se também todos osnossos superiores; assim deste Mandamento
-            derivam todos os deveres de obediência, de amor e de respeito dos
-            inferiores para com os seus superiores e todososdeveresde vigilância
-            que têm os superiores sobre os seus inferiores.
+            entendem-se também todos os nossos superiores; assim deste
+            Mandamento derivam todos os deveres de obediência, de amor e de
+            respeito dos inferiores para com os seus superiores e todos os
+            deveres de vigilância que têm os superiores sobre os seus
+            inferiores.
           </Text>
           <Text className="h5">
             509 - De que Mandamentos derivam os deveres dos operários, dos
@@ -5831,7 +5833,7 @@ export default function PageCatecismo() {
             semelhantes?
           </Text>
           <Text className="text-base">
-            Os deveres de fidelidade, de sinceridade, de justiça, de eqüidade,
+            Os deveres de fidelidade, de sinceridade, de justiça, de equidade,
             que eles têm, derivam do sétimo, do oitavo e do décimo Mandamento,
             que proíbem toda a fraude, injustiça, negligência e duplicidade.
           </Text>
@@ -5854,7 +5856,7 @@ export default function PageCatecismo() {
           <Text className="h5">512 - Quais são os conselhos evangélicos?</Text>
           <Text className="text-base">
             Os conselhos evangélicos são: pobreza voluntária, castidade perpétua
-            e obediência inteira, ein tudo o que não seja pecado.
+            e obediência inteira, em tudo o que não seja pecado.
           </Text>
           <Text className="h5">
             513 - Para que servem os conselhos evangélicos?
@@ -5905,8 +5907,8 @@ export default function PageCatecismo() {
             sensíveis e eficazes da graça.
           </Text>
           <Text className="text-base">
-            No Batismo, o ato de derramar a água sobre cabeça da pessoa, e
-            aspalavras: Eu te baptizo, isto é, eu te lavo, em nome do Padre e do
+            No Batismo, o ato de derramar a água sobre cabeça da pessoa, e as
+            palavras: Eu te baptizo, isto é, eu te lavo, em nome do Padre e do
             Filho e do Espírito Santo, são um sinal sensível do que o Batismo
             opera na alma; porque assim como a água lava o corpo, assim a graça,
             dada pelo Batismo, purifica a alma, do pecado.
@@ -5925,7 +5927,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="h5">521 - Que é a matéria dos Sacramentos?</Text>
           <Text className="text-base">
-            A matéria dosSacramentos é a coisa sensível que se emprega para os
+            A matéria dos Sacramentos é a coisa sensível que se emprega para os
             fazer; como, por exemplo, a água natural no Batismo, o óleo e o
             bálsamo na Confirmação.
           </Text>
@@ -5946,7 +5948,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             A graça de Deus é um dom interior, sobrenatural, que nos é dado sem
             merecimento algum da nossa parte, mas pelos merecimentos de Jesus
-            Cristo, ein ordem à vida eterna.
+            Cristo, em ordem à vida eterna.
           </Text>
           <Text className="h5">525 - Como se divide a graça?</Text>
           <Text className="text-base">
@@ -5968,7 +5970,7 @@ export default function PageCatecismo() {
           <Text className="h5">528 - Que é a graça primeira?</Text>
           <Text className="text-base">
             A graça primeira é aquela pela qual o homem passa do estado de
-            pecado rnortal ao estado de justiça, de amizade com Deus.
+            pecado mortal ao estado de justiça, de amizade com Deus.
           </Text>
           <Text className="h5">529 - E que é a graça segunda?</Text>
           <Text className="text-base">
@@ -5984,7 +5986,7 @@ export default function PageCatecismo() {
             531 - Podemos nós resistir à graça de Deus?
           </Text>
           <Text className="text-base">
-            Sim, podemos resistir à graça de Deus, porque ela não destroi o
+            Sim, podemos resistir à graça de Deus, porque ela não destrói o
             nosso livre arbítrio.
           </Text>
           <Text className="h5">
@@ -6011,7 +6013,7 @@ export default function PageCatecismo() {
           <Text className="h5">535 - Que é a graça sacramental?</Text>
           <Text className="text-base">
             A graça sacramental consiste no direito que se adquire, recebendo
-            qualquer Sacramento, de ter ein tempo oportuno as graças atuais
+            qualquer Sacramento, de ter em tempo oportuno as graças atuais
             necessárias, para cumprir as obrigações que derivam do Sacramento
             recebido. Assim, quando fomos baptizados, recebemos o direi to a ter
             as graças necessárias as para vi vermos cristãmente.
@@ -6042,7 +6044,7 @@ export default function PageCatecismo() {
             539 - Como se chamam, por este motivo, estes dois Sacramentos?
           </Text>
           <Text className="text-base">
-            Estes doisSacramentos, isto é, o Batismo e a Penitência, chamam-se
+            Estes dois Sacramentos, isto é, o Batismo e a Penitência, chamam-se
             por este motivo Sacramentos de mortos, porque são instituídos
             principalmente para restituir a vida da graça às almas mortas pelo
             pecado.
@@ -6097,12 +6099,12 @@ export default function PageCatecismo() {
             545 - Quais são os Sacramentos que se podem receber uma só vez?
           </Text>
           <Text className="text-base">
-            Os Sacramentosque se podem receber uma só vez, são três: Batismo,
+            Os Sacramentos que se podem receber uma só vez, são três: Batismo,
             Confirmação e Ordem.
           </Text>
           <Text className="h5">
-            546 - Por que os trêsSacramentos, Batismo, Confirmação e Ordem só se
-            podem receber uma vez?
+            546 - Por que os três Sacramentos, Batismo, Confirmação e Ordem só
+            se podem receber uma vez?
           </Text>
           <Text className="text-base">
             Os três Sacramentos, Batismo, Confirmação e Ordem, podem-se receber
@@ -6157,8 +6159,8 @@ export default function PageCatecismo() {
           <Text className="h4">2º - Ministro do Batismo</Text>
           <Text className="h5">553 - A quem compete baptizar?</Text>
           <Text className="text-base">
-            Batizar compete por direito aosBispose aospárocos; mas, em caso de
-            necessidade, qualquer pessoa pode baptizar, seja homem ou seja
+            Batizar compete por direito aos Bispos e aos párocos; mas, em caso
+            de necessidade, qualquer pessoa pode baptizar, seja homem ou seja
             mulher, e até um herege ou um infiel, contanto que realize o rito do
             Batismo e tenha intenção de fazer o que faz a Igreja.
           </Text>
@@ -6307,7 +6309,7 @@ export default function PageCatecismo() {
             570 - O que são os padrinhos e as madrinhas do Batismo?
           </Text>
           <Text className="text-base">
-            Ospadrinhose asmadrinhasdo Batismo são aquelaspessoasque por
+            Os padrinhos e as madrinhas do Batismo são aquelas pessoas que por
             disposição da Igreja seguram as crianças junto à pia baptismal,
             respondem por elas, e ficam responsáveis, diante de Deus, pela
             educação cristã das mesmas, especialmente se vierem a faltar os
@@ -6358,7 +6360,7 @@ export default function PageCatecismo() {
             cristãos?
           </Text>
           <Text className="text-base">
-            A Confirmação faz-nosperfeitos cristãos, confirmando-nosna fé, e
+            A Confirmação faz-nos perfeitos cristãos, confirmando-nos na fé, e
             aperfeiçoando em nós as outras virtudes e os dons recebidos no santo
             Batismo; e é por isso que se chama Confirmação.
           </Text>
@@ -6421,8 +6423,8 @@ export default function PageCatecismo() {
           <Text className="text-base">
             O Bispo, para administrar o Sacramento da Confirmação, primeiro
             estende as mãos sobre os que estão para se crismar, invocando sobre
-            eleso Espírito Santo; em seguida faz uma unção em forma de cruz com
-            o santo Crisma na fronte de cada um, dizendo aspalavrasda forma;
+            eles o Espírito Santo; em seguida faz uma unção em forma de cruz com
+            o santo Crisma na fronte de cada um, dizendo as palavras da forma;
             depois, com a mão direita, dá uma leve bofetada na face do crismado,
             dizendo: A paz seja contigo; e no fim abençoa solenemente todos os
             crismados.
@@ -6482,15 +6484,16 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Para conservar a graça da Confirmação, o cristão deve orar
-            freqüentemente, fazer boas obras, e viver segundo a lei de Jesus
+            frequentemente, fazer boas obras, e viver segundo a lei de Jesus
             Cristo, sem respeito humano.
           </Text>
           <Text className="h5">
             591 - Por que também na Confirmação há padrinhos e madrinhas?
           </Text>
           <Text className="text-base">
-            Para que estes, com as palavrase com osexemplos, orientem o crismado
-            no caminho da salvação e o auxiliem nos combates espirituais.
+            Para que estes, com as palavras e com os exemplos, orientem o
+            crismado no caminho da salvação e o auxiliem nos combates
+            espirituais.
           </Text>
           <Text className="h5">
             592 - Que condições se requerem no padrinho?
@@ -6633,13 +6636,13 @@ export default function PageCatecismo() {
             substância por virtude de Deus Onipotente.
           </Text>
           <Text className="h5">
-            610 - Debaixo das espéciesde pão está só o Corpo de Jesus Cristo, e
-            debaixo dasespécies de vinho está só o seu Sangue?
+            610 - Debaixo das espécies de pão está só o Corpo de Jesus Cristo, e
+            debaixo das espécies de vinho está só o seu Sangue?
           </Text>
           <Text className="text-base">
-            Tanto debaixo dasespéciesde pão, corno debaixo dasespéciesde vinho,
-            está Jesus Cristo vivo e todo inteiro com seu Corpo, Sangue. Alma e
-            Divindade.
+            Tanto debaixo das espécies de pão, corno debaixo das espécies de
+            vinho, está Jesus Cristo vivo e todo inteiro com seu Corpo, Sangue.
+            Alma e Divindade.
           </Text>
           <Text className="h5">
             611 - Podereis dizer-me por que tanto na hóstia como no cálice está
@@ -6664,7 +6667,7 @@ export default function PageCatecismo() {
             mundo?
           </Text>
           <Text className="text-base">
-            Sim, Jesus está presente ein todas as hóstias consagradas.
+            Sim, Jesus está presente em todas as hóstias consagradas.
           </Text>
           <Text className="h5">
             614 - Como é possível que Jesus Cristo esteja em todas as hóstias
@@ -6722,11 +6725,11 @@ export default function PageCatecismo() {
             celebrou com seus discípulos, na noite que precedeu sua Paixão.
           </Text>
           <Text className="h5">
-            621 - Por que instituiu Jesus Cristo a Santíssima Eucaristia? Jesus
-            Cristo instituiu
+            621 - Por que instituiu Jesus Cristo a Santíssima Eucaristia?
           </Text>
           <Text className="text-base">
-            a Santíssima Eucaristia, por três razões principais:
+            Jesus Cristo instituiu a Santíssima Eucaristia, por três razões
+            principais:
           </Text>
           <View className="list-styled">
             <Text className="li text-justify">
@@ -6895,8 +6898,8 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             A preparação antes da Comunhão consiste em nos entretermos algum
-            tempo a considerar quem é Aquele que vamos receber e quem somosnós;
-            e em fazer atosde fé, de esperança, de caridade, de contrição, de
+            tempo a considerar quem é Aquele que vamos receber e quem somos nós;
+            e em fazer atos de fé, de esperança, de caridade, de contrição, de
             adoração, de humildade e de desejo de receber a Jesus Cristo.
           </Text>
           <Text className="h5">
@@ -6904,12 +6907,11 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             A ação de graças depois da Comunhão consiste em nos conservarmos
-            recolhidos a honrar a presença do Senhor dentro de nósmesmos,
-            renovando os atosde fé, de esperança, de caridade, de adoração, de
+            recolhidos a honrar a presença do Senhor dentro de nós mesmos,
+            renovando os atos de fé, de esperança, de caridade, de adoração, de
             agradecimento, de oferecimento e de súplica, pedindo sobretudo
             aquelas graças que são mais necessárias para nós e para aqueles por
-            quem somos obrigados a orar. sobretudo licença especial em razão de
-            molésti
+            quem somos obrigados a orar.
           </Text>
           <Text className="h5">
             638 - Que se deve fazer no dia da Comunhão?
@@ -6987,17 +6989,17 @@ export default function PageCatecismo() {
             culpa, e hão de dar por isso severas contas a Deus.
           </Text>
           <Text className="h5">
-            647 - É coisa boa e útil comungar freqüentemente?
+            647 - É coisa boa e útil comungar frequentemente?
           </Text>
           <Text className="text-base">
-            É coisa ótima comungar freqüentemente e até todos os dias, contanto
+            É coisa ótima comungar frequentemente e até todos os dias, contanto
             que se faça com as devidas disposições.
           </Text>
           <Text className="h5">
-            648 - Qual a freqüência com que se deve comungar?
+            648 - Qual a frequência com que se deve comungar?
           </Text>
           <Text className="text-base">
-            Pode-se comungar tão freqüentemente quanto o permita o conselho de
+            Pode-se comungar tão frequentemente quanto o permita o conselho de
             um confessor piedoso e douto.
           </Text>
           <Text className="h2">
@@ -7033,7 +7035,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             A santa Missa é o sacrifício do Corpo e do Sangue de Jesus Cristo,
             oferecido sobre os nossos altares, debaixo das espécies de pão e de
-            vinho, ein memória do sacrifício da Cruz.
+            vinho, em memória do sacrifício da Cruz.
           </Text>
           <Text className="h5">
             653 - É o Sacrifício da Missa o mesmo que o da Cruz?
@@ -7275,7 +7277,7 @@ export default function PageCatecismo() {
             pecados?
           </Text>
           <Text className="text-base">
-            Jesus Cristo deu aos seusApóstoloso poder de perdoar ospecados,
+            Jesus Cristo deu aos seus Apóstolos o poder de perdoar os pecados,
             soprando sobre eles, e dizendo: Recebei o Espírito Santo: àqueles a
             quem perdoardes os pecados, ser-lhes-ão perdoados, e àqueles a quem
             os retiverdes ser-lhes-ão retidos.
@@ -7324,7 +7326,7 @@ export default function PageCatecismo() {
             680 - Que é a contrição ou a dor dos pecados?
           </Text>
           <Text className="text-base">
-            A contrição ou a dor dospecados é um desgosto da alma, pelo qual se
+            A contrição ou a dor dos pecados é um desgosto da alma, pelo qual se
             detestam os pecados cometidos, e se propõe não os tornar a cometer
             no futuro.
           </Text>
@@ -7403,9 +7405,9 @@ export default function PageCatecismo() {
             O Sacramento da Penitência é necessário, para se salvarem, a todos
             aqueles que, depois do Batismo, cometeram algum pecado mortal.
           </Text>
-          <Text className="h5">690 - É bom confessar-se com freqüência?</Text>
+          <Text className="h5">690 - É bom confessar-se com frequência?</Text>
           <Text className="text-base">
-            Confessar-se com freqüência é coisa ótima, porque o Sacramento da
+            Confessar-se com frequência é coisa ótima, porque o Sacramento da
             Penitência, além de apagar os pecados, dá as graças necessárias para
             evitá-los no futuro.
           </Text>
@@ -7520,8 +7522,8 @@ export default function PageCatecismo() {
             704 - Como se pode facilitar o exame para a confissão?
           </Text>
           <Text className="text-base">
-            Facilita-se o exame para a confissão, fazendo todasasnoiteso exame
-            de consciência sobre as ações do dia.
+            Facilita-se o exame para a confissão, fazendo todas as noites o
+            exame de consciência sobre as ações do dia.
           </Text>
           <Text className="h4">4º - Da dor ou arrependimento</Text>
           <Text className="h5">705 - Que é a dor dos pecados?</Text>
@@ -7580,10 +7582,10 @@ export default function PageCatecismo() {
             711 - Que é a dor imperfeita ou de atrição?
           </Text>
           <Text className="text-base">
-            A dor imperfeita ou de atrição é aquela pela qual nos arrependemosde
-            ter ofendido a Deus como nosso supremo Juiz, isto é, por temor dos
-            castigos que merecemos e nos esperam nesta ou na outra vida, ou pela
-            própria fealdade do pecado.
+            A dor imperfeita ou de atrição é aquela pela qual nos arrependemos
+            de ter ofendido a Deus como nosso supremo Juiz, isto é, por temor
+            dos castigos que merecemos e nos esperam nesta ou na outra vida, ou
+            pela própria fealdade do pecado.
           </Text>
           <Text className="h5">
             712 - Que condições deve ter a dor para ser boa?
@@ -7640,8 +7642,8 @@ export default function PageCatecismo() {
             às vezes se chora pelas desgraças desta vida?
           </Text>
           <Text className="text-base">
-            Não. Não é necessário que materialmente se chore pela dor
-            dospecados; masbasta que no íntimo do coração se deplore mais o ter
+            Não. Não é necessário que materialmente se chore pela dor dos
+            pecados; mas basta que no íntimo do coração se deplore mais o ter
             ofendido a Deus, do que qualquer outra desgraça.
           </Text>
           <Text className="h5">
@@ -7664,7 +7666,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Para ter dor dos nossos pecados, devemos pedi-la de todo o coração a
-            Deus e excitá-la ein tios com a consideração do grande mal que
+            Deus e excitá-la em tios com a consideração do grande mal que
             fizemos, pecando.
           </Text>
           <Text className="h5">
@@ -7699,7 +7701,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Sim, quando nos vamos confessar, devemos ter muito empenho em ter
-            verdadeira dor dosnossospecados, porque esta é a coisa mais
+            verdadeira dor dos nossos pecados, porque esta é a coisa mais
             importante de todas; e, se falta a dor, a confissão não é válida.
           </Text>
           <Text className="h5">
@@ -7730,10 +7732,10 @@ export default function PageCatecismo() {
             da vida passada, ainda que já confessado outras vezes.
           </Text>
           <Text className="h5">
-            728 - É bom fazer com freqüência o ato de contrição?
+            728 - É bom fazer com frequência o ato de contrição?
           </Text>
           <Text className="text-base">
-            É coisa boa e muito útil fazer, com freqüência, o ato de contrição,
+            É coisa boa e muito útil fazer, com frequência, o ato de contrição,
             principalmente antes de se deitar, e quando se tem certeza ou se
             duvida de ter caído em pecado mortal, para recuperar mais depressa a
             graça de Deus; é útil, sobretudo, para alcançar mais facilmente de
@@ -7778,7 +7780,7 @@ export default function PageCatecismo() {
             uma vontade decidida de perder todas as coisas antes que cometer um
             novo pecado, de fugir das ocasiões perigosas de pecar, de destruir
             os maus hábitos, e de satisfazer a todas as obrigações lícitas
-            contraídas em conseqüência dos nossos pecados.
+            contraídas em consequência dos nossos pecados.
           </Text>
           <Text className="h5">734 - Que é que se entende por mau hábito?</Text>
           <Text className="text-base">
@@ -7789,9 +7791,9 @@ export default function PageCatecismo() {
             735 - Que devemos fazer para corrigir os maus hábitos?
           </Text>
           <Text className="text-base">
-            Para corrigir osmaushábitos, devemos vigiar sobre nós mesmos, fazer
-            muita oração, confessar-nos com freqüência, ter um bom diretor sem
-            mudá-lo, e pôr em prática os conselhos e os remédios que ele nos
+            Para corrigir os maus hábitos, devemos vigiar sobre nós mesmos,
+            fazer muita oração, confessar-nos com frequência, ter um bom diretor
+            sem mudá-lo, e pôr em prática os conselhos e os remédios que ele nos
             propõe.
           </Text>
           <Text className="h5">
@@ -7823,14 +7825,15 @@ export default function PageCatecismo() {
             739 - Que considerações nos auxiliam a fazer o propósito?
           </Text>
           <Text className="text-base">
-            Para fazer o propósito auxiliam-nosasmesmas considerações que servem
-            para excitar a dor, isto é, a consideração dos motivos que temos
-            para temer a justiça de Deus, e para amar a sua infinita bondade.
+            Para fazer o propósito auxiliam-nos as mesmas considerações que
+            servem para excitar a dor, isto é, a consideração dos motivos que
+            temos para temer a justiça de Deus, e para amar a sua infinita
+            bondade.
           </Text>
           <Text className="h4">6º - Da acusação dos pecados ao confessor</Text>
           <Text className="h5">
-            740 - Depoisde vos terdesdisposto bem para a confissão com o exame,
-            com a dor e com o propósito, que haveis de fazer?
+            740 - Depois de vos terdes disposto bem para a confissão com o
+            exame, com a dor e com o propósito, que haveis de fazer?
           </Text>
           <Text className="text-base">
             Depois de me ter disposto bem com o exame, com a dor e com o
@@ -7913,7 +7916,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="h5">
             749 - Se uma pessoa não tiver a certeza de ter come tido um pecado,
-            deve confessálo?
+            deve confessá-lo?
           </Text>
           <Text className="text-base">
             Se uma pessoa não tiver a certeza de ter cometido um pecado, não é
@@ -8002,8 +8005,8 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             A confissão deve ser prudente, significa que, ao confessar os
-            pecados, devemos servir-nosdos termosmaismodestos, e que
-            devemosguardar-nosde descobrir ospecados alheios.
+            pecados, devemos servir-nos dos termos mais modestos, e que devemos
+            guardar-nos de descobrir os pecados alheios.
           </Text>
           <Text className="h5">
             758 - Que significam estas palavras: a confissão deve ser breve?
@@ -8139,8 +8142,8 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Não. Não há excesso de rigor no confessor que difere a absolvição do
             penitente, porque não o julga ainda bem disposto; há antes caridade,
-            pois procede como um bom médico, que tenta todosos remédios, ainda
-            os desagradáveise penosos, para salvar a vida ao doente.
+            pois procede como um bom médico, que tenta todos os remédios, ainda
+            os desagradáveis e penosos, para salvar a vida ao doente.
           </Text>
           <Text className="h5">
             772 - Deverá desesperar ou afastar-se inteiramente da confissão o
@@ -8149,7 +8152,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             O pecador a quem se difere ou se nega a absolvição não deve
             desesperar ou afastar- se inteiramente da confissão; mas deve
-            humilhar-se, reconhecer o seu estado deplorável, aproveitar osbons
+            humilhar-se, reconhecer o seu estado deplorável, aproveitar os bons
             conselhos que o confessor lhe dá, e assim pôr-se quanto antes em
             estado de merecer a absolvição.
           </Text>
@@ -8260,7 +8263,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Não; eles vão para o Purgatório, para ali satisfazerem à justiça de
-            Deuse se purificarem inteiramente.
+            Deus e se purificarem inteiramente.
           </Text>
           <Text className="h5">
             788 - Podem as almas que estão no Purgatório ser aliviadas por nós
@@ -8276,7 +8279,7 @@ export default function PageCatecismo() {
             confissão?
           </Text>
           <Text className="text-base">
-            O penitente, depoisda confissão, além de cumprir a penitência, se
+            O penitente, depois da confissão, além de cumprir a penitência, se
             danificou injustamente o próximo nos bens ou na honra, ou se lhe deu
             escândalo, deve, o mais breve e na medida em que for possível,
             restituir-lhe os bens, reparar-lhe a honra e remediar o escândalo.
@@ -8373,7 +8376,7 @@ export default function PageCatecismo() {
             A intenção da Igreja ao conceder as indulgências é auxiliar a nossa
             incapacidade de expiar neste mundo toda a pena temporal, fazendo-nos
             conseguir por meio de obras de piedade e de caridade cristã aquilo
-            que nos primeiros séculosEla obtinha com o rigor dos cânones
+            que nos primeiros séculos Ela obtinha com o rigor dos cânones
             penitenciais.
           </Text>
           <Text className="h5">
@@ -8459,7 +8462,7 @@ export default function PageCatecismo() {
             </Text>
             <Text className="text-base">
               A Extrema-Unção deve receber-se quando a doença é grave, e, se
-              puder ser, depois de o enfermo ter recebido osSacramentos da
+              puder ser, depois de o enfermo ter recebido os Sacramentos da
               Penitência e da Eucaristia; e deve procurar-se que o enfermo a
               receba quando está ainda com plena consciência e com alguma
               esperança de vida. ##### 808 - Por que é bom que o enfermo receba
@@ -8514,7 +8517,7 @@ export default function PageCatecismo() {
             Jesus Cristo instituiu a Ordem Sacerdotal na Última Ceia, quando
             conferiu aos Apóstolos e aos seus sucessores o poder de consagrar a
             Santíssima Eucaristia. E no dia da sua ressurreição conferiu aos
-            mesmos o poder de perdoar e de reter os pecados, constituindoos
+            mesmos o poder de perdoar e de reter os pecados, constituindo os
             assim os primeiros Sacerdotes da Nova Lei em toda a plenitude do seu
             poder.
           </Text>
@@ -8553,7 +8556,7 @@ export default function PageCatecismo() {
           <Text className="h5">819 - Será pecado desprezar os Sacerdotes?</Text>
           <Text className="text-base">
             É pecado gravíssimo, porque o desprezo e as injúrias que se dirigem
-            contra osSacerdotes recaem sobre o próprio Jesus Cristo, que disse
+            contra os Sacerdotes recaem sobre o próprio Jesus Cristo, que disse
             aos seus Apóstolos: Quem a vós despreza, a Mim despreza.
           </Text>
           <Text className="h5">
@@ -8622,7 +8625,7 @@ export default function PageCatecismo() {
               seguir a vocação divina;
             </Text>
             <Text className="li text-justify">
-              2º - pedir a Deus que se digne conceder à sua Igreja bonsPastores
+              2º - pedir a Deus que se digne conceder à sua Igreja bons Pastores
               e ministros zelosos; e até foram instituídos para este fim os
               jejuns das Quatro Têmporas;
             </Text>
@@ -8701,7 +8704,7 @@ export default function PageCatecismo() {
             2º - Ministros, cerimônias e disposições para o Matrimônio
           </Text>
           <Text className="h5">
-            833 - Quem são os ministros do Sacramento do Matriônio?
+            833 - Quem são os ministros do Sacramento do Matrimônio?
           </Text>
           <Text className="text-base">
             Os ministros deste Sacramento são os mesmos esposos, que
@@ -8827,7 +8830,7 @@ export default function PageCatecismo() {
             842 - Dai-me alguns exemplos de impedimentos dirimentes.
           </Text>
           <Text className="text-base">
-            Impedimentos dirimentes são, por exemplo, a consangüinidade até ao
+            Impedimentos dirimentes são, por exemplo, a consanguinidade até ao
             terceiro grau, o parentesco espiritual, o voto solene de castidade,
             a diversidade de culto entre baptizados e não baptizados etc.
           </Text>
@@ -8844,8 +8847,8 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Os fiéis são obrigados a manifestar à autoridade eclesiástica os
-            impedimentos matrimoniaisque conhecem; e é por isso que ospárocos
-            fazem aspublicações, isto é, lêem os pregões dos que se vão casar.
+            impedimentos matrimoniais que conhecem; e é por isso que os párocos
+            fazem as publicações, isto é, lêem os pregões dos que se vão casar.
           </Text>
           <Text className="h5">
             845 - Quem tem o poder de estabelecer impedimentos matrimoniais, de
@@ -8908,10 +8911,10 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Deve fazer-se também o contrato civil, porque, embora não seja ele
             Sacramento, serve, no entanto, para garantir aos casados e a seus
-            filhos os efeitos civis da sociedade conjugal; eisporque, como regra
-            geral, a autoridade eclesiástica não permite o casamento religioso,
-            quando não se cumprem as formalidades prescritas pela autoridade
-            civil.
+            filhos os efeitos civis da sociedade conjugal; eis porque, como
+            regra geral, a autoridade eclesiástica não permite o casamento
+            religioso, quando não se cumprem as formalidades prescritas pela
+            autoridade civil.
           </Text>
           <Text className="h1">Quinta Parte</Text>
           <Text className="aside">
@@ -8953,9 +8956,9 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             As virtudes teologais têm a Deus por objeto imediato, porque pela Fé
-            nós cremos em Deus, e cremos tudo o queEle revelou; pela Esperança
-            esperamospossuir a Deus; pela Caridade amamos a Deus e nEle amamos a
-            nós mesmos e ao próximo.
+            nós cremos em Deus, e cremos tudo o que Ele revelou; pela Esperança
+            esperamos possuir a Deus; pela Caridade amamos a Deus e n'Ele amamos
+            a nós mesmos e ao próximo.
           </Text>
           <Text className="h5">
             857 - Quando nos infunde Deus na alma as virtudes, teologais?
@@ -8972,7 +8975,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Para quem tem o uso da razão, não basta o ter recebido no Batismo as
-            virtudes teologais; mas é necessário fazer freqüentemente atos
+            virtudes teologais; mas é necessário fazer frequentemente atos
             destas virtudes.
           </Text>
           <Text className="h5">
@@ -9005,7 +9008,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Conhecemos as verdades reveladas por Deus, por meio da Santa Igreja
             que é infalível, isto é, por meio do Papa, sucessor de São Pedro, e
-            por meio dosBisposque, em união com o Papa, são sucessores dos
+            por meio dos Bispos que, em união com o Papa, são sucessores dos
             Apóstolos, os quais foram instruídos pelo próprio Jesus Cristo.
           </Text>
           <Text className="h5">
@@ -9037,13 +9040,13 @@ export default function PageCatecismo() {
           </Text>
           <Text className="h5">866 - Que são os mistérios?</Text>
           <Text className="text-base">
-            Os mistérios são verdades superioresà razão, as quaisdevemos crer,
+            Os mistérios são verdades superiores à razão, as quais devemos crer,
             ainda que não as possamos compreender.
           </Text>
           <Text className="h5">867 - Por que devemos crer os mistérios?</Text>
           <Text className="text-base">
             Devemos crer os mistérios, porque os revelou Deus, que, sendo
-            Verdade e Bondade infinitas, não pode engarnar-Se, nem enganar-nos.
+            Verdade e Bondade infinitas, não pode enganar-se, nem enganar-nos.
           </Text>
           <Text className="h5">
             868 - São porventura os mistérios contrários à razão?
@@ -9058,7 +9061,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Os mistérios não podem ser contrários à razão, porque é o mesmo Deus
             quem nos deu a luz da razão, e quem revelou OS mistérios, e Ele não
-            pode contradizer-Se a Si mesmo.
+            pode contradizer-se a Si mesmo.
           </Text>
           <Text className="h4">4º - Da Sagrada Escritura</Text>
           <Text className="h5">
@@ -9070,9 +9073,9 @@ export default function PageCatecismo() {
           </Text>
           <Text className="h5">871 - Que é a Sagrada Escritura?</Text>
           <Text className="text-base">
-            A Sagrada Escritura é a coleção dos livrosescritospelosProjetase
-            pelosHagiógrafos, pelos Apóstolos pelos Evangelistas, por inspiração
-            do Espírito Santo, recebidas pela Igreja como inspirados.
+            A Sagrada Escritura é a coleção dos livros escritos pelos Profetas e
+            pelos Hagiógrafos, pelos Apóstolos pelos Evangelistas, por
+            inspiração do Espírito Santo, recebidas pela Igreja como inspirados.
           </Text>
           <Text className="h5">
             872 - Em quantas partes se divide a Sagrada Escritura?
@@ -9083,7 +9086,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="h5">873 - Que contém o Antigo Testamento?</Text>
           <Text className="text-base">
-            O Antigo Testamento contém os livros inspiradosescritos antes da
+            O Antigo Testamento contém os livros inspirados escritos antes da
             vinda de Jesus Cristo.
           </Text>
           <Text className="h5">874 - Que contém o Novo Testamento?</Text>
@@ -9124,8 +9127,8 @@ export default function PageCatecismo() {
             879 É necessária a todos os cristãos a leitura da Bíblia?
           </Text>
           <Text className="text-base">
-            A leitura da Bíblia não é necessária a todosos cristãos, sendo, como
-            são, instruídos pela Igreja; mas é contudo útil e recomendada a
+            A leitura da Bíblia não é necessária a todos os cristãos, sendo,
+            como são, instruídos pela Igreja; mas é contudo útil e recomendada a
             todos.
           </Text>
           <Text className="h5">
@@ -9141,7 +9144,7 @@ export default function PageCatecismo() {
             aprovadas pela Igreja?
           </Text>
           <Text className="text-base">
-            Só se podem ler as traduçõesda Bíblia que são aprovadaspela Igreja
+            Só se podem ler as traduções da Bíblia que são aprovadas pela Igreja
             porque só Ela é legítima depositária e guarda da Bíblia.
           </Text>
           <Text className="h5">
@@ -9179,7 +9182,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             A Tradição é a palavra de Deus não escrita, mas comunicada de viva
             voz por Jesus Cristo e pelos Apóstolos, e que chegou sem alteração,
-            de século ein século, por meio da Igreja, até nós.
+            de século em século, por meio da Igreja, até nós.
           </Text>
           <Text className="h5">
             886 - Onde se acham os ensinamentos da Tradição?
@@ -9218,9 +9221,9 @@ export default function PageCatecismo() {
             890 - Quais são as condições necessárias para alcançar o Paraíso?
           </Text>
           <Text className="text-base">
-            As condiçõesnecessáriaspara alcançar o Paraíso são: a graça de Deus,
-            a prática das boas obras e a perseverança no seu santo amor até à
-            morte.
+            As condições necessárias para alcançar o Paraíso são: a graça de
+            Deus, a prática das boas obras e a perseverança no seu santo amor
+            até à morte.
           </Text>
           <Text className="h5">891 - Como se perde a Esperança?</Text>
           <Text className="text-base">
@@ -9229,8 +9232,8 @@ export default function PageCatecismo() {
           </Text>
           <Text className="h5">892 - Como recuperamos a Esperança?</Text>
           <Text className="text-base">
-            Recuperamosa Esperança perdida, arrependendo-nosdo pecado cometido,
-            e excitando-nos de novo à confiança na bondade divina.
+            Recuperamos a Esperança perdida, arrependendo-nos do pecado
+            cometido, e excitando-nos de novo à confiança na bondade divina.
           </Text>
           <Text className="h4">7º - Da Caridade</Text>
           <Text className="h5">893 - Que é a Caridade?</Text>
@@ -9243,7 +9246,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Devemos amar a Deus, porque Ele é o sumo Bem, infinitamente bom e
             perfeito, e além disso por que Ele o manda, e pelos inumeráveis
-            benefícios que dEle recebemos.
+            benefícios que d'Ele recebemos.
           </Text>
           <Text className="h5">895 - Como se deve amar a Deus?</Text>
           <Text className="text-base">
@@ -9285,8 +9288,8 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Amar a Deus com todas as nossas forças quer dizer: esforçar-se por
-            crescer cada vez maisno amor dEle, e proceder de maneira que todas
-            asnossasações tenham por motivo e por fim o seu amor e o desejo de
+            crescer cada vez mais no amor d'Ele, e proceder de maneira que todas
+            as nossas ações tenham por motivo e por fim o seu amor e o desejo de
             Lhe agradar.
           </Text>
           <Text className="h5">901 - Por que devemos amar o próximo?</Text>
@@ -9313,17 +9316,17 @@ export default function PageCatecismo() {
             904 - Quando amamos a nós mesmos retamente?
           </Text>
           <Text className="text-base">
-            Amamos retamente a nós mesmos quando procuramos servi r a Deus e pôr
+            Amamos retamente a nós mesmos quando procuramos servir a Deus e pôr
             n'Ele toda a nossa felicidade.
           </Text>
           <Text className="h5">905 - Como se perde a Caridade?</Text>
           <Text className="text-base">
-            Perde-se a Caridade com qualquer pecado rnortal.
+            Perde-se a Caridade com qualquer pecado mortal.
           </Text>
           <Text className="h5">906 - Como recuperamos a Caridade?</Text>
           <Text className="text-base">
-            Recuperamosa Caridade, fazendo atosde amor de Deus,
-            arrependendo-nose confessando-nos bem.
+            Recuperamos a Caridade, fazendo actos de amor de Deus,
+            arrependendo-nos e confessando-nos bem.
           </Text>
           <Text className="h4">8º - Das virtudes cardeais</Text>
           <Text className="h5">907 - Quais são as virtudes cardeais?</Text>
@@ -9380,8 +9383,8 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Os dons do Espírito Santo servem para nos confirmar na Fé, na
-            Esperança e na Caridade, e para nos tornar solícitospara osatosdas
-            virtudesnecessáriaspara conseguir a perfeição da vida cristã.
+            Esperança e na Caridade, e para nos tornar solícitos para os actos
+            das virtudes necessárias para conseguir a perfeição da vida cristã.
           </Text>
           <Text className="h5">915 - Que é a Sabedoria?</Text>
           <Text className="text-base">
@@ -9480,7 +9483,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             O inundo chama bem-aventurados aqueles que desfrutam abundância de
-            riquezas e de honras, que vi vem ein delícias e que não têm nada que
+            riquezas e de honras, que vi vem em delícias e que não têm nada que
             os faça sofrer.
           </Text>
           <Text className="h5">
@@ -9522,7 +9525,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="text-base">
             Os que usam de misericórdia são aqueles que amam, em Deus e por amor
-            de Deus, o seu próximo, se compadecem das suasmisérias, assim
+            de Deus, o seu próximo, se compadecem das suas misérias, assim
             corporais como espirituais, e procuram socorrê-lo conforme as suas
             forças e o seu estado.
           </Text>
@@ -9534,7 +9537,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="h5">931 - Quem são os pacíficos?</Text>
           <Text className="text-base">
-            Os pacíficos são aqueles que vivem ein paz com o próximo e consigo
+            Os pacíficos são aqueles que vivem em paz com o próximo e consigo
             mesmos, e procuram estabelecer a paz entre aqueles que estão em
             discórdia.
           </Text>
@@ -9561,7 +9564,7 @@ export default function PageCatecismo() {
           <Text className="text-base">
             As Bem-aventuranças não nos alcançam só a glória eterna do Paraíso;
             são também meios de tornar nossa vida feliz, tanto quanto é
-            possivel, neste mundo.
+            possível, neste mundo.
           </Text>
           <Text className="h5">
             935 - Recebem já alguma recompensa nesta vida os que seguem as
@@ -9577,8 +9580,8 @@ export default function PageCatecismo() {
             936 - Poderão dizer-se felizes os que seguem as máximas do mundo?
           </Text>
           <Text className="text-base">
-            Não. Osque seguem asmáximasdo mundo não são felizes, porque não têm
-            a verdadeira paz da alma e estão em risco de se condenar.
+            Não. Osque seguem as máximas do mundo não são felizes, porque não
+            têm a verdadeira paz da alma e estão em risco de se condenar.
           </Text>
           <Text className="h2">
             IV - <Text className="em">Das obras de misericórdia</Text>
@@ -9665,10 +9668,10 @@ export default function PageCatecismo() {
           <Text className="h5">
             944 - Que males nos causa o pecado de Adão?
           </Text>
-          <Text className="text-base">
-            Osmales causadospelo pecado deAdão são: a privação da graça, a perda
-            do Paraíso, a ignorância, a inclinação para o mal, a morte e todas
-            as demais misérias.
+          <Text className="text base">
+            Os males causados pelo pecado de Adão são: a privação da graça, a
+            perda do Paraíso, a ignorância, a inclinação para o mal, a morte e
+            todas as demais misérias.
           </Text>
           <Text className="h5">945 - Como se apaga o pecado original?</Text>
           <Text className="text-base">
@@ -9764,7 +9767,7 @@ export default function PageCatecismo() {
           <Text className="h5">956 - Que é o vício?</Text>
           <Text className="text-base">
             O vício é uma disposição má da alma que leva-a a fugir do bem e a
-            fazer o mal, causada pela freqüente repetição dos atos maus.
+            fazer o mal, causada pela frequente repetição dos atos maus.
           </Text>
           <Text className="h5">
             957 - Que diferença há entre pecado e vício?
@@ -9897,9 +9900,9 @@ export default function PageCatecismo() {
             968 - Quando devemos pensar nos Novíssimos?
           </Text>
           <Text className="text-base">
-            É bom pensar nosNovíssimos todososdias, e principalmente ao fazer a
-            oração da manha, apenas acordados, à noite antes do deitar, e todas
-            as vezes que somos tentados a fazer algum mal, porque este
+            É bom pensar nos Novíssimos todos os dias, e principalmente ao fazer
+            a oração da manha, apenas acordados, à noite antes do deitar, e
+            todas as vezes que somos tentados a fazer algum mal, porque este
             pensamento é eficacíssimo para nos fazer evitar o pecado.
           </Text>
           <Text className="h2">
@@ -9923,14 +9926,14 @@ export default function PageCatecismo() {
           <Text className="text-base">
             Ao levantar da cama e enquanto nos vestimos, deveríamos pensar que
             Deus está presente, que aquele dia pode ser o último da nossa vida;
-            e entretanto levantar-nose vestir-nos com toda a modéstia possível.
+            e entretanto levantar-nos e vestir-nos com toda a modéstia possível.
             <Text className="text-base">
               971 - Depois de se levantar e de se vestir, que deve fazer um bom
               cristão?
             </Text>
             <Text className="text-base">
               Um bom cristão, apenas se tenha levantado vestido, convém pôr-se
-              na presença de Deuse ajoelhar, se pode, diante de alguma devota
+              na presença de Deus e ajoelhar, se pode, diante de alguma devota
               imagem, dizendo com devoção: "Eu Vos adoro, meu Deus, e Vos amo de
               todo o coração; dou-Vos graças por me terdes criado, feito cristão
               e conservado nesta noite; ofereço-Vos todas as minhas ações, e
@@ -9973,9 +9976,10 @@ export default function PageCatecismo() {
               975 - Que convém fazer antes da refeição?
             </Text>
             <Text className="text-base">
-              Antesda refeição convém fazer o sinal da Cruz, estando de pé, e
-              depoisdizer com devoção: "Senhor, abençoai-nos a nós e ao alimento
-              que vamos tomar, para nos conservarmos no vosso santo serviço".
+              Antes da refeição convém fazer o sinal da Cruz, estando de pé, e
+              depois dizer com devoção: "Senhor, abençoai-nos a nós e ao
+              alimento que vamos tomar, para nos conservarmos no vosso santo
+              serviço".
             </Text>
             <Text className="h5">
               976 - Depois da refeição, que convém fazer?
@@ -9990,12 +9994,12 @@ export default function PageCatecismo() {
               devemos fazer?
             </Text>
             <Text className="text-base">
-              Quando nos vemosatormentadospor alguma tentação, devemos invocar
+              Quando nos vemos atormentados por alguma tentação, devemos invocar
               com fé o Santíssimo Nome de Jesus ou de Maria, ou recitar
               fervorosamente alguma oração jaculatória, como, por exemplo:
               "Dai-me a graça, Senhor, que eu nunca Vos ofenda"; ou então fazer
-              o sinal da Cruz, evitando porém que asoutraspessoas, pelos
-              sinaisexternos, suspeitem da tentação.
+              o sinal da Cruz, evitando porém que as outras pessoas, pelos
+              sinais externos, suspeitem da tentação.
             </Text>
             <Text className="h5">
               978 - Quando uma pessoa reconhece ou duvida que cometeu algum
@@ -10027,7 +10031,7 @@ export default function PageCatecismo() {
             981 - A noite, antes de deitar, que devemos fazer?
           </Text>
           <Text className="text-base">
-            À noite, antesde deitar, convém pôr-nos, como pela manhã, na
+            À noite, antes de deitar, convém pôr-nos, como pela manhã, na
             presença de Deus, recitar devotamente as mesmas orações, fazer um
             breve exame de consciência, e pedir perdão a Deus dos pecados
             cometidos durante o dia.
@@ -10036,7 +10040,7 @@ export default function PageCatecismo() {
             982 - Que haveis de fazer antes de adormecer?
           </Text>
           <Text className="text-base">
-            Antesde adormecer, farei o sinal da Cruz, pensarei que posso morrer
+            Antes de adormecer, farei o sinal da Cruz, pensarei que posso morrer
             naquela noite, e oferecerei o coração a Deus, dizendo: "Meu Senhor e
             meu Deus, eu Vos dou todo o meu coração. Trindade Santíssima,
             concedei-me a graça de bem viver e de bem morrer. Jesus, Maria e
@@ -10047,7 +10051,7 @@ export default function PageCatecismo() {
             pode recorrer a Deus no decurso do dia?
           </Text>
           <Text className="text-base">
-            No decurso do dia pode-se invocar a Deus freqüentemente com outras
+            No decurso do dia pode-se invocar a Deus frequentemente com outras
             orações breves, que se chamam jaculatórias.
           </Text>
           <Text className="h5">984 - Dizei algumas jaculatórias.</Text>
@@ -10080,7 +10084,7 @@ export default function PageCatecismo() {
           </Text>
           <Text className="h5">
             986 - Além das orações jaculatórias, em que outra coisa deveria
-            exercitar-se com freqüência o cristão?
+            exercitar-se com frequência o cristão?
           </Text>
           <Text className="text-base">
             Além das orações jaculatórias, o cristão deveria exercitar-se na
