@@ -297,7 +297,7 @@ const TEMPORAS_PRAYERS: Record<Season, Prayer[]> = {
     },
     {
       title: "Veni Sancte Spiritus",
-      href: "/devocionario/sequencias/venisanctespiritus",
+      href: "/missal/sequencias/venisanctespiritus",
       description: "Sequência de Pentecostes",
     },
     {
