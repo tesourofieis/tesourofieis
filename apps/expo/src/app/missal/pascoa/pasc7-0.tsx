@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import React from "react";
 import Language from "~/components/Language";
+import PageVeniSancteSpiritus from "../sequencias/venisanctespiritus";
 
 export default function PagePasc70() {
   return (
@@ -119,36 +120,7 @@ export default function PagePasc70() {
             </Text>
           </Language>
 
-          <Text className="h3">Sequência</Text>
-
-          <Language>
-            <Text className="latin">
-              Veni, Sancte Spíritus, et emítte cǽlitus lucis tuæ rádium. Veni,
-              pater páuperum; veni, dator rnúnerum; veni, lumen córdium.
-              Consolátor óptime, dulcis hospes ánimæ, dulce refrigérium. In
-              labóre réquies, in æstu tempéries, in fletu solácium. O lux
-              beatíssima, reple cordis íntima tuórum fidélium. Sine tuo númine
-              nihil est in hómine, nihil est innóxium. Lava quod est sórdidum,
-              riga quod est áridum, sana quod est sáucium. Flecte quod est
-              rígidum, fove quod est frígidum, rege quod est dévium. Da tuis
-              fidélibus, in te confidéntibus, sacrum septenárium. Da virtútis
-              méritum, da salútis éxitum, da perénne gáudium. Amen. Allelúja.
-            </Text>
-            <Text className="vernacular">
-              Vinde, ó Espírito Santo, e enviai do céu um raio da vossa divina
-              luz. Vinde, ó pai dos pobres; vinde, distribuidor de todos os
-              dons; vinde, luz dos corações. Consolador supremo, doce hóspede da
-              alma, suave refrigério! No trabalho sois repouso; sois calma no
-              ardor; e consolação no pranto. Ó luz felicíssima, enchei até ao
-              íntimo os corações dos vossos fiéis. Sem a vossa assistência nada
-              há bom no homem, nada há que seja puro. Lavai, pois, o que está
-              manchado; regai o que está seco; curai o que está enfermo.
-              Abrandai o que é duro; aquecei o que está frio; guiai o que anda
-              errado. Concedei aos fiéis, que em Vós confiam, os sete dons
-              sagrados. Dai-lhes o mérito da virtude; dai-lhes um fim feliz;
-              dai-lhes o gozo eterno. Amen. Aleluia.
-            </Text>
-          </Language>
+          <PageVeniSancteSpiritus />
 
           <Text className="h3">Evangelho</Text>
 
