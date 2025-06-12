@@ -1,10 +1,11 @@
 @import "tailwindcss";
 @import "@fontsource/berkshire-swash";
 @import "@fontsource-variable/eb-garamond";
+@import "@fontsource/noto-serif";
 
 @theme {
-  --font-display: "Berkshire Swash", serif;
-  --font-body: "EB Garamond Variable", serif;
+  --font-display: "Berkshire Swash", "Georgia", "Noto Serif", serif;
+  --font-body: "EB Garamond Variable", "Noto Serif", "Times New Roman", serif;
 
   --color-sepia-50: #f4eadd;
   --color-sepia-100: #eee6d9;
