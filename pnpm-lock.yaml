@@ -90,6 +90,9 @@ importers:
       '@fontsource/berkshire-swash':
         specifier: ^5.0.19
         version: 5.1.0
+      '@fontsource/noto-serif':
+        specifier: ^5.0.19
+        version: 5.2.7
       '@iconify-icon/react':
         specifier: ^2.0.1
         version: 2.1.0(react@18.3.1)
@@ -1735,6 +1738,9 @@ packages:
 
   '@fontsource/berkshire-swash@5.1.0':
     resolution: {integrity: sha512-iSTt085tPoI6jrI4UsgDAdAHYBDLGn6hANjSNhuYfsSLACQLbpEeBGQKnfa1w3pIHjY743MiIdsNurO7LL45Tw==}
+
+  '@fontsource/noto-serif@5.2.7':
+    resolution: {integrity: sha512-EcsWb3Pxrg5DwLcY1bg4fmRhdytzi+vX6JPJjtzPjPy0fxpBqmk12RqgF4vmAT7zjjppdCD7z2iwyXl3AqeNRQ==}
 
   '@iconify-icon/react@2.1.0':
     resolution: {integrity: sha512-OuEsW5Y474rg3WlseLFQ0uuJjnyk1DhLN1Ire5JGjF4sF8/rNxGJDLSItEogRcKuUbL+zzuoBsaTUVVInuixRA==}
@@ -9458,6 +9464,8 @@ snapshots:
   '@fontsource-variable/eb-garamond@5.1.1': {}
 
   '@fontsource/berkshire-swash@5.1.0': {}
+
+  '@fontsource/noto-serif@5.2.7': {}
 
   '@iconify-icon/react@2.1.0(react@18.3.1)':
     dependencies:
