@@ -18,34 +18,28 @@
           };
         };
 
-        # Use JDK 17 for Android tools compatibility
         jdk = pkgs.jdk17;
 
-        # Android SDK configuration with system images for emulator
         androidComposition = pkgs.androidenv.composeAndroidPackages {
           toolsVersion = "26.1.1";
-          platformToolsVersion = "33.0.3";
-          buildToolsVersions = [ "33.0.2" "30.0.3" ];
-          platformVersions = [ "33" "30" ];
+          platformToolsVersion = "36.0.0";
+          buildToolsVersions = [ "36.0.0" ];
+          platformVersions = [ "36" ];
           includeSources = false;
           includeSystemImages = true;
-          systemImageTypes = [ "google_apis" "google_apis_playstore" ];
-          abiVersions = [ "x86" "x86_64" ];
+          systemImageTypes = [ "google_apis" ];
+          abiVersions = [ "x86_64" ];
           cmakeVersions = [ "3.22.1" ];
-          ndkVersions = [ "25.2.9519653" ];
           includeEmulator = true;
-          emulatorVersion = "31.3.14";
+          emulatorVersion = "36.1.2";
         };
 
-        # Define the development shell with all necessary packages
         devShell = pkgs.mkShell {
           buildInputs = with pkgs; [
-            # Node.js and package managers
-            nodejs_18
+            nodejs
             nodePackages.npm
             pnpm
             watchman
-            # iOS development (for macOS)
             (lib.optional stdenv.isDarwin [
               cocoapods
               xcodeenv.composeXcodeWrapper
@@ -55,12 +49,11 @@
               }
             ])
 
-            # Android development - using JDK 17
             androidComposition.androidsdk
             jdk
             gradle
+            cmake  # Add CMake from nixpkgs as backup
 
-            # Additional dependencies for emulator on Linux
             (lib.optionals stdenv.isLinux [
               libGL
               libpulseaudio
@@ -79,9 +72,14 @@
               nspr
               fontconfig
               freetype
+              # Additional libraries needed for patching Android tools
+              glibc
+              gcc-unwrapped
+              patchelf
+              file
+              binutils
             ])
 
-            # General development tools
             git
             which
             curl
@@ -89,9 +87,7 @@
             bash
           ];
 
-          # Environment variables
           shellHook = ''
-            # Android SDK setup
             export ANDROID_HOME=${androidComposition.androidsdk}/libexec/android-sdk
             export ANDROID_SDK_ROOT=$ANDROID_HOME
             export ANDROID_AVD_HOME=$HOME/.android/avd
@@ -101,18 +97,12 @@
             export PATH=$PATH:$ANDROID_HOME/platform-tools
             export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
             export JAVA_HOME=${jdk}
+            export SKIP_JDK_VERSION_CHECK=1
+            export NODE_PATH=$NODE_PATH:$(npm root -g)
 
-            # Ensure directories exist
             mkdir -p $HOME/.android
             mkdir -p $HOME/.android/avd
 
-            # Override JDK version check for Android tools
-            export SKIP_JDK_VERSION_CHECK=1
-
-            # Node.js setup
-            export NODE_PATH=$NODE_PATH:$(npm root -g)
-
-            # For iOS development on macOS
             ${if pkgs.stdenv.isDarwin then ''
               export DEVELOPER_DIR=${pkgs.xcodeenv.composeXcodeWrapper}/Contents/Developer
               export PATH=$PATH:$DEVELOPER_DIR/Applications
@@ -126,35 +116,148 @@
             echo "Node version: $(node -v)"
             echo "NPM version: $(npm -v)"
 
-            # Setup wrapper for Expo to ensure it finds the emulator
+            # Fix Android build tools for NixOS
+            fix_android_tools() {
+              echo "Fixing Android build tools for NixOS..."
+              
+              # Patch CMake binaries in Android SDK
+              if [ -d "$ANDROID_HOME/cmake" ]; then
+                find "$ANDROID_HOME/cmake" -type f -executable -name "cmake*" | while read -r cmake_binary; do
+                  if file "$cmake_binary" | grep -q "ELF.*dynamically linked"; then
+                    echo "Patching CMake binary: $cmake_binary"
+                    patchelf --set-interpreter "$(cat $NIX_CC/nix-support/dynamic-linker)" "$cmake_binary" 2>/dev/null || true
+                    patchelf --set-rpath "${pkgs.lib.makeLibraryPath [ 
+                      pkgs.stdenv.cc.cc.lib 
+                      pkgs.zlib 
+                      pkgs.glibc 
+                      pkgs.ncurses
+                    ]}" "$cmake_binary" 2>/dev/null || true
+                  fi
+                done
+              fi
+              
+              # Also check for CMake in the NDK
+              if [ -d "$ANDROID_HOME/ndk" ]; then
+                find "$ANDROID_HOME/ndk" -type f -executable -name "cmake*" | while read -r cmake_binary; do
+                  if file "$cmake_binary" | grep -q "ELF.*dynamically linked"; then
+                    echo "Patching NDK CMake binary: $cmake_binary"
+                    patchelf --set-interpreter "$(cat $NIX_CC/nix-support/dynamic-linker)" "$cmake_binary" 2>/dev/null || true
+                    patchelf --set-rpath "${pkgs.lib.makeLibraryPath [ 
+                      pkgs.stdenv.cc.cc.lib 
+                      pkgs.zlib 
+                      pkgs.glibc 
+                      pkgs.ncurses
+                    ]}" "$cmake_binary" 2>/dev/null || true
+                  fi
+                done
+              fi
+              
+              # Patch Android SDK emulator binaries
+              if [ -d "$ANDROID_HOME/emulator" ]; then
+                find "$ANDROID_HOME/emulator" -type f -executable | while read -r emulator_binary; do
+                  if file "$emulator_binary" | grep -q "ELF.*dynamically linked"; then
+                    echo "Patching emulator binary: $emulator_binary"
+                    patchelf --set-interpreter "$(cat $NIX_CC/nix-support/dynamic-linker)" "$emulator_binary" 2>/dev/null || true
+                    patchelf --set-rpath "${pkgs.lib.makeLibraryPath [ 
+                      pkgs.stdenv.cc.cc.lib 
+                      pkgs.zlib 
+                      pkgs.glibc 
+                      pkgs.libGL 
+                      pkgs.libpulseaudio 
+                      pkgs.xorg.libX11 
+                      pkgs.xorg.libXext 
+                      pkgs.xorg.libXi 
+                      pkgs.xorg.libXrandr 
+                      pkgs.xorg.libXrender 
+                      pkgs.xorg.libXtst 
+                      pkgs.xorg.libxcb 
+                      pkgs.fontconfig 
+                      pkgs.freetype
+                    ]}" "$emulator_binary" 2>/dev/null || true
+                  fi
+                done
+              fi
+              
+              # Find and patch AAPT2 binaries
+              find ~/.gradle/caches -name "aapt2" -type f 2>/dev/null | while read -r aapt2_path; do
+                if file "$aapt2_path" | grep -q "ELF.*dynamically linked"; then
+                  echo "Patching $aapt2_path"
+                  patchelf --set-interpreter "$(cat $NIX_CC/nix-support/dynamic-linker)" "$aapt2_path" 2>/dev/null || true
+                  patchelf --set-rpath "${pkgs.lib.makeLibraryPath [ pkgs.stdenv.cc.cc.lib pkgs.zlib pkgs.glibc ]}" "$aapt2_path" 2>/dev/null || true
+                fi
+              done
+              
+              # Also patch any other problematic Android tools
+              for tool_dir in ~/.gradle/caches/transforms-*/transformed/*/; do
+                if [ -d "$tool_dir" ]; then
+                  find "$tool_dir" -type f -executable 2>/dev/null | while read -r tool_path; do
+                    if file "$tool_path" | grep -q "ELF.*dynamically linked"; then
+                      echo "Patching $tool_path"
+                      patchelf --set-interpreter "$(cat $NIX_CC/nix-support/dynamic-linker)" "$tool_path" 2>/dev/null || true
+                      patchelf --set-rpath "${pkgs.lib.makeLibraryPath [ pkgs.stdenv.cc.cc.lib pkgs.zlib pkgs.glibc ]}" "$tool_path" 2>/dev/null || true
+                    fi
+                  done
+                fi
+              done
+              
+              echo "Android tools patching complete"
+            }
+
+            # Alternative approach - use system cmake instead of Android SDK cmake
+            use_system_cmake() {
+              echo "Setting up to use system CMake instead of Android SDK CMake..."
+              export CMAKE_BIN="$(which cmake)"
+              echo "Using CMake from: $CMAKE_BIN"
+              echo "CMake version: $(cmake --version | head -n 1)"
+              
+              # Create a wrapper script to override Android SDK cmake
+              if [ -d "$ANDROID_HOME/cmake/3.22.1/bin" ]; then
+                echo "Creating CMake wrapper..."
+                cp "$CMAKE_BIN" "$ANDROID_HOME/cmake/3.22.1/bin/cmake.nixos"
+                cat > "$ANDROID_HOME/cmake/3.22.1/bin/cmake" << 'EOF'
+#!/bin/bash
+exec "$(dirname "$0")/cmake.nixos" "$@"
+EOF
+                chmod +x "$ANDROID_HOME/cmake/3.22.1/bin/cmake"
+                echo "CMake wrapper created successfully"
+              fi
+            }
+
+            # Debug emulator issues
+            debug_emulator() {
+              echo "Debugging emulator setup..."
+              echo "Available AVDs:"
+              emulator -list-avds
+              echo ""
+              echo "Emulator binary location: $ANDROID_HOME/emulator/emulator"
+              echo "Testing emulator binary:"
+              ldd "$ANDROID_HOME/emulator/emulator" 2>&1 | head -10 || echo "ldd failed - this is normal on NixOS"
+              echo ""
+              echo "GPU info:"
+              glxinfo | grep "OpenGL" | head -3 2>/dev/null || echo "No GPU acceleration info available"
+            }
+
             expo_with_emulator() {
-              # Check if an emulator is running
               if ! adb devices | grep -q "emulator"; then
                 echo "No Android emulator detected. Starting one..."
-                # Check if we have any AVDs
                 if [ -z "$(emulator -list-avds)" ]; then
                   echo "No Android Virtual Devices found. Creating one..."
                   create_and_setup_emulator
                 fi
-                # Start the first available AVD
                 start_first_avd
-                # Wait for emulator to boot
                 wait_for_emulator
               fi
               
-              # Start Expo
               expo "$@"
             }
 
-            # Create a simple default emulator if none exists
             create_and_setup_emulator() {
               echo "Installing system image..."
-              yes | sdkmanager "system-images;android-30;google_apis;x86_64"
+              yes | sdkmanager "system-images;android-36;google_apis;x86_64"
               
               echo "Creating Android Virtual Device..."
-              echo "no" | avdmanager create avd --name "default_emulator" --package "system-images;android-30;google_apis;x86_64" --device "pixel_5"
+              echo "no" | avdmanager create avd --name "default_emulator" --package "system-images;android-36;google_apis;x86_64" --device "pixel_5"
               
-              # Fix config to ensure emulator works well
               CONFIG_FILE="$ANDROID_AVD_HOME/default_emulator.avd/config.ini"
               if [ -f "$CONFIG_FILE" ]; then
                 echo "Optimizing emulator configuration..."
@@ -164,7 +267,6 @@
               fi
             }
 
-            # Start the first available AVD
             start_first_avd() {
               AVD_NAME=$(emulator -list-avds | head -n 1)
               if [ -n "$AVD_NAME" ]; then
@@ -177,12 +279,10 @@
               fi
             }
 
-            # Wait for emulator to fully boot
             wait_for_emulator() {
               echo "Waiting for emulator to boot..."
               adb wait-for-device
               
-              # Wait until the device is fully booted
               while [ "$(adb shell getprop sys.boot_completed 2>/dev/null)" != "1" ]; do
                 echo "."
                 sleep 2
@@ -191,15 +291,14 @@
               echo "Emulator is ready!"
             }
 
-            # Helper functions for Android emulator
             install_system_image() {
-              echo "Installing system image for Android 30 with Google APIs..."
-              yes | sdkmanager "system-images;android-30;google_apis;x86_64"
+              echo "Installing system image for Android 36 with Google APIs..."
+              yes | sdkmanager "system-images;android-36;google_apis;x86_64"
             }
 
             setup_android_emulator() {
               echo "Creating Android emulator..."
-              echo "no" | avdmanager create avd --name "react-native-emulator" --package "system-images;android-30;google_apis;x86_64" --device "pixel_5"
+              echo "no" | avdmanager create avd --name "react-native-emulator" --package "system-images;android-36;google_apis;x86_64" --device "pixel_5"
               echo "Android emulator created. Start it with: start_android_emulator"
             }
 
@@ -219,11 +318,12 @@
               emulator -list-avds
             }
 
-            # Create convenient aliases
             alias expo-android="expo_with_emulator"
 
-            # Print help information
             echo -e "\nUseful commands:"
+            echo "$ fix_android_tools        # Fix Android build tools for NixOS (run before building)"
+            echo "$ use_system_cmake         # Use system CMake instead of Android SDK CMake"
+            echo "$ debug_emulator           # Debug emulator issues"
             echo "$ install_system_image     # Install necessary system image"
             echo "$ list_system_images       # List available system images"
             echo "$ setup_android_emulator   # Create Android emulator"
@@ -236,13 +336,21 @@
             echo "1. $ install_system_image  # First time only"
             echo "2. $ setup_android_emulator # First time only"
             echo "3. $ start_android_emulator"
-            echo "4. $ expo start"
+            echo "4. $ fix_android_tools     # Run this if you get AAPT2/CMake errors"
+            echo "5. $ use_system_cmake      # Alternative CMake fix"
+            echo "6. $ expo start"
+            echo -e "\nTo run your Expo project with automatic emulator setup:"
+            echo "$ expo-android             # Automatically sets up and starts emulator if needed"
+            echo -e "\nOr follow these steps:"
+            echo "1. $ install_system_image  # First time only"
+            echo "2. $ setup_android_emulator # First time only"
+            echo "3. $ start_android_emulator"
+            echo "4. $ fix_android_tools     # Run this if you get AAPT2 errors"
+            echo "5. $ expo start"
           '';
         };
       in {
         devShells.default = devShell;
-
-        # For compatibility with older versions of nix
         devShell = devShell;
       });
 }
