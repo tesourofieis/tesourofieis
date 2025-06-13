@@ -110,7 +110,7 @@ export default function PageLaudaSion() {
               Debaixo de diversas espécies, distintas somente por sinais
               exteriores, ocultam-se sublimes realidades.
             </Text>
-            <Text className="vernacular">
+            <Text className="latin">
               Cáro cíbus, sánguis pótus: Mánet tamen Chrístus tótus, Sub utráque
               spécie.
             </Text>
