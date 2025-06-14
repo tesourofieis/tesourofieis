@@ -6,6 +6,16 @@ export type SidebarItem = {
 
 export const sidebar: SidebarItem[] = [
   {
+    title: "Lauda Sion Salvatorem",
+    description: "Sequência do Corpo de Cristo",
+    link: "/missal/sequencias/laudasion",
+  },
+  {
+    title: "Veni Sancte Spíritus",
+    description: "Sequência Pentecostes",
+    link: "/missal/sequencias/venisanctespiritus",
+  },
+  {
     title: "1.ª Para implorar os Sufrágios dos Santos",
     description: null,
     link: "/missal/oracoesdiversas/1sufragiosantos",

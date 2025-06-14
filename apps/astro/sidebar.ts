@@ -68,6 +68,11 @@ export const sidebar = [
         autogenerate: { directory: "missal/prefacios" },
       },
       {
+        label: "Sequências",
+        collapsed: true,
+        autogenerate: { directory: "missal/sequencias" },
+      },
+      {
         label: "Orações Preliminares",
         link: "/missal/oracoespreliminares",
       },
