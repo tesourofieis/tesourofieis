@@ -152,7 +152,6 @@ function RootLayoutNav() {
         <Stack.Screen
           name="missal"
           options={{
-            presentation: "modal",
             animation: "simple_push",
             header: () => <Header withBC={true} />,
           }}
@@ -160,7 +159,6 @@ function RootLayoutNav() {
         <Stack.Screen
           name="devocionario"
           options={{
-            presentation: "modal",
             animation: "simple_push",
             header: () => <Header withBC={true} />,
           }}
@@ -168,7 +166,6 @@ function RootLayoutNav() {
         <Stack.Screen
           name="ritual"
           options={{
-            presentation: "modal",
             animation: "simple_push",
             header: () => <Header withBC={true} />,
           }}
@@ -176,7 +173,6 @@ function RootLayoutNav() {
         <Stack.Screen
           name="fe"
           options={{
-            presentation: "modal",
             animation: "simple_push",
             header: () => <Header withBC={true} />,
           }}
@@ -184,7 +180,6 @@ function RootLayoutNav() {
         <Stack.Screen
           name="canticos"
           options={{
-            presentation: "modal",
             animation: "simple_push",
             header: () => <Header withBC={true} />,
           }}
@@ -215,7 +210,6 @@ const Breadcrumbs = () => {
   };
 
   const handleBreadcrumbPress = (targetPath: string) => {
-    // Use replace instead of push to avoid modal stack issues
 
     // @ts-ignore
     router.replace(targetPath);
@@ -272,16 +266,29 @@ const Header = ({ withBC }: { withBC: boolean }) => {
           </Pressable>
           <Breadcrumbs />
         </View>
-        <Pressable
-          onPress={() => openExternalLink(`https://tesourofieis.com${path}`)}
-          className="p-2 items-center border rounded-lg border-sepia-700 dark:border-sepia-400 active:bg-sepia-200 dark:active:bg-sepia-700"
-        >
-          <FontAwesome6
-            name="globe"
-            size={15}
-            color={isDarkMode ? COLORS["300"] : COLORS["700"]}
-          />
-        </Pressable>
+        <View className="flex-row gap-1">
+          <Pressable
+            onPress={() => router.navigate("/more")}
+            className="p-2 items-center border rounded-lg border-sepia-700 dark:border-sepia-400 active:bg-sepia-200 dark:active:bg-sepia-700"
+          >
+            <FontAwesome6
+              name="magnifying-glass"
+              size={15}
+              color={isDarkMode ? COLORS["300"] : COLORS["700"]}
+            />
+          </Pressable>
+
+          <Pressable
+            onPress={() => openExternalLink(`https://tesourofieis.com${path}`)}
+            className="p-2 items-center border rounded-lg border-sepia-700 dark:border-sepia-400 active:bg-sepia-200 dark:active:bg-sepia-700"
+          >
+            <FontAwesome6
+              name="globe"
+              size={15}
+              color={isDarkMode ? COLORS["300"] : COLORS["700"]}
+            />
+          </Pressable>
+        </View>
       </View>
     );
   }
