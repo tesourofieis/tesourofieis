@@ -10,7 +10,7 @@ import { NotoSans_400Regular } from "@expo-google-fonts/noto-sans";
 
 import { useFonts } from "expo-font";
 import { useColorScheme } from "nativewind";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import "../global.css";
 
@@ -57,6 +57,8 @@ export default function PageRootLayout() {
     }
   }, [loaded, error]);
 
+  const [loading, setLoading] = useState(false);
+
   useEffect(() => {
     async function checkForUpdates() {
       if (__DEV__) {
@@ -64,21 +66,20 @@ export default function PageRootLayout() {
         return;
       }
 
-      if (Updates.checkForUpdateAsync() === undefined) {
-        console.log("Updates module is not available.");
-        return;
-      }
-
       try {
-        const update = await Updates.checkForUpdateAsync();
-        if (update.isAvailable) {
+        const { isAvailable } = await Updates.checkForUpdateAsync();
+        if (isAvailable) {
+          setLoading(true);
           await Updates.fetchUpdateAsync();
           await Updates.reloadAsync();
         }
       } catch (error) {
         console.error("Error checking for updates:", error);
+      } finally {
+        setLoading(false);
       }
     }
+
     checkForUpdates();
   }, []);
 
@@ -86,10 +87,11 @@ export default function PageRootLayout() {
     return null;
   }
 
-  if (!loaded && Platform.OS !== "web") {
+  if ((!loaded || loading) && Platform.OS !== "web") {
     return (
       <View className="flex-auto justify-center items-center bg-sepia-200 dark:bg-sepia-900">
         <ActivityIndicator className="text-red-600" />
+        {loading && <Text className="mt-10">Actualizando...</Text>}
       </View>
     );
   }
@@ -210,7 +212,6 @@ const Breadcrumbs = () => {
   };
 
   const handleBreadcrumbPress = (targetPath: string) => {
-
     // @ts-ignore
     router.replace(targetPath);
   };
