@@ -1,4 +1,4 @@
-import { format } from "date-fns";
+import { format, parse } from "date-fns";
 import type { Mass } from "./observanceManager";
 
 type Pattern = string | RegExp;
@@ -37,4 +37,8 @@ function yyyyMMDD(date?: Date) {
   return format(date || new Date(), "yyyy-MM-dd");
 }
 
-export { match, yyyyMMDD };
+function parseLocalDate(dateString: string): Date {
+  return parse(dateString, 'yyyy-MM-dd', new Date());
+}
+
+export { match, yyyyMMDD, parseLocalDate };

@@ -8,7 +8,7 @@
     "check-types": "tsc --noEmit",
     "update-snapshot": "TZ=Europe/Lisbon vitest -u .",
     "coverage": "TZ=Europe/Lisbon vitest --coverage .",
-    "test": "TZ=Europe/Lisbon vitest .",
+    "test": "vitest .",
     "lint": "biome check --write --unsafe --files-ignore-unknown=true"
   },
   "dependencies": {

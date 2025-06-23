@@ -13,7 +13,7 @@ import {
 } from "date-fns";
 import { type Mass, massManager } from "./observanceManager";
 import { type RuleResult, Rules } from "./rules";
-import { yyyyMMDD } from "./utils";
+import { parseLocalDate, yyyyMMDD } from "./utils";
 
 export enum LiturgicalSeason {
   ADVENT = "Advento",
@@ -147,7 +147,7 @@ export class Calendar {
 
   private applySeasons() {
     for (const [dateString, day] of this.container) {
-      const date = new Date(dateString);
+      const date = parseLocalDate(dateString);
 
       for (const [season, [start, end]] of this._seasonBoundaries.entries()) {
         if (date >= start && date <= end) {
@@ -254,7 +254,7 @@ export class Calendar {
 
   private fillInSanctiDays() {
     for (const [date, day] of this.container) {
-      const dateObj = new Date(date);
+      const dateObj = parseLocalDate(date);
       const m = getMonth(dateObj);
       const d = getDate(dateObj);
 
@@ -307,7 +307,7 @@ export class Calendar {
   }
 
   private handleEmptyDay(date: string) {
-    let currentDate = new Date(date);
+    let currentDate = parseLocalDate(date);
     const yearStart = new Date(this.year, 0, 1);
 
     while (

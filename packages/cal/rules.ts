@@ -8,11 +8,12 @@ import {
   isLeapYear,
   isSaturday,
   isSunday,
+  parseISO,
 } from "date-fns";
 
 import type { Calendar } from "./calendar";
 import { type Mass, massManager } from "./observanceManager";
-import { yyyyMMDD } from "./utils";
+import { parseLocalDate, yyyyMMDD } from "./utils";
 
 type RuleFunction = (
   observances: Mass[],
@@ -176,7 +177,7 @@ export class Rules {
           observances: [temp],
           toShift: {
             observances: [massManager.getById("SANCTI_02_24")],
-            date: yyyyMMDD(addDays(new Date(date), 1)),
+            date: yyyyMMDD(addDays(parseLocalDate(date), 1)),
           },
         };
       }
@@ -187,10 +188,10 @@ export class Rules {
   ruleFeb27(observances: Mass[], date: string): RuleResult | undefined {
     if (
       massManager.match(observances, massManager.getById("SANCTI_02_27")) &&
-      getDate(new Date(date)) === 27
+      getDate(parseLocalDate(date)) === 27
     ) {
-      if (isLeapYear(new Date(date))) {
-        const shiftedDate = yyyyMMDD(addDays(new Date(date), 1));
+      if (isLeapYear(parseLocalDate(date))) {
+        const shiftedDate = yyyyMMDD(addDays(parseLocalDate(date), 1));
         return {
           observances: observances.filter((mass) => mass.id !== "SANCTI_02_27"),
           toShift: {
@@ -316,7 +317,7 @@ export class Rules {
     }
 
     function calcTargetDate() {
-      let targetDate = new Date(date);
+      let targetDate = parseLocalDate(date);
       while (getYear(targetDate) === getYear(date)) {
         targetDate = addDays(targetDate, 1);
         const allRanks = new Set(
@@ -350,7 +351,7 @@ export class Rules {
     calendar: Calendar,
   ): RuleResult | undefined {
     function calcTargetDate() {
-      let targetDate = new Date(date);
+      let targetDate = parseLocalDate(date);
       while (getYear(targetDate) === getYear(date)) {
         targetDate = addDays(targetDate, 1);
         const allRanks = new Set(
