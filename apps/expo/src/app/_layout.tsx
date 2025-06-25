@@ -1,12 +1,10 @@
 import { BerkshireSwash_400Regular } from "@expo-google-fonts/berkshire-swash";
-
+import { NotoSans_400Regular } from "@expo-google-fonts/noto-sans";
 import {
   NotoSerif_400Regular,
   NotoSerif_400Regular_Italic,
   NotoSerif_700Bold,
 } from "@expo-google-fonts/noto-serif";
-
-import { NotoSans_400Regular } from "@expo-google-fonts/noto-sans";
 
 import { useFonts } from "expo-font";
 import { useColorScheme } from "nativewind";
@@ -14,11 +12,10 @@ import { useEffect, useState } from "react";
 
 import "../global.css";
 
-import * as SplashScreen from "expo-splash-screen";
-
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { DefaultTheme, ThemeProvider } from "@react-navigation/native";
 import { Link, Stack, usePathname, useRouter } from "expo-router";
+import * as SplashScreen from "expo-splash-screen";
 import * as Updates from "expo-updates";
 import React from "react";
 import {

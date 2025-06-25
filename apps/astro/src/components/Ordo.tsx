@@ -1,7 +1,6 @@
+import { Icon } from "@iconify/react";
 import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
-
-import { Icon } from "@iconify/react";
 import LinkCard from "./LinkCard";
 import Loading from "./Loading";
 

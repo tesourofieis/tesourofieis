@@ -3,8 +3,6 @@ import { Link } from "expo-router";
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-import React from "react";
-
 export default function Page1212Porto() {
   return (
     <SafeAreaView className="flex-1">

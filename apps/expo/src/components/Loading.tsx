@@ -1,6 +1,6 @@
 export default function PageLoading() {
   return (
-    // biome-ignore lint/a11y/noSvgWithoutTitle: <explanation>
+    // biome-ignore lint: it's ok
     <svg
       className="text-gray-300 animate-spin"
       viewBox="0 0 64 64"

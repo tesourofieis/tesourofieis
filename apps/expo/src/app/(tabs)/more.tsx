@@ -1,13 +1,13 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { type RelativePathString, usePathname, useRouter } from "expo-router";
-import React, { useState, useEffect, useCallback } from "react";
+import { useCallback, useEffect, useState } from "react";
 import {
   ScrollView,
   Text,
   TextInput,
   TouchableOpacity,
-  View,
   useColorScheme,
+  View,
 } from "react-native";
 import { COLORS } from "~/constants/Colors";
 import { type SidebarItem, sidebar } from "~/sidebar";
@@ -54,7 +54,7 @@ const createHierarchy = (items: SidebarItem[]) => {
 
 const searchHierarchy = (
   hierarchy: { [key: string]: HierarchyNode },
-  searchText: string
+  searchText: string,
 ): { [key: string]: HierarchyNode } => {
   const filtered: { [key: string]: HierarchyNode } = {};
 
@@ -235,7 +235,6 @@ const SubMenuItem = ({
 );
 
 export default function MoreScreen() {
-  const router = useRouter();
   const [expanded, setExpanded] = useState<{ [key: string]: boolean }>({});
   const [searchQuery, setSearchQuery] = useState("");
   const hierarchy = createHierarchy(sidebar);
@@ -244,26 +243,13 @@ export default function MoreScreen() {
     ? searchHierarchy(hierarchy, searchQuery)
     : hierarchy;
 
-  const expandParentPaths = (link: string) => {
-    const parts = link.split("/").filter(Boolean);
-    const newExpanded: { [key: string]: boolean } = {};
-    let currentPath = "";
-
-    parts.forEach((part) => {
-      currentPath = currentPath ? `${currentPath}/${part}` : part;
-      newExpanded[currentPath] = true;
-    });
-
-    return newExpanded;
-  };
-
   useEffect(() => {
     if (searchQuery) {
       const allPaths = new Set<string>();
 
       function collectPaths(
         nodes: { [key: string]: HierarchyNode },
-        parentPath = ""
+        parentPath = "",
       ) {
         Object.entries(nodes).forEach(([key, node]) => {
           const currentPath = parentPath ? `${parentPath}/${key}` : key;

@@ -1,13 +1,12 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
 import { Calendar } from "@tesourofieis/cal/calendar";
 import { getNovenas } from "@tesourofieis/cal/getCalendar";
 import type { Mass } from "@tesourofieis/cal/observanceManager";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { getYear } from "date-fns";
 import { Link } from "expo-router";
-import React, { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
+import { ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 function getAllNovenasForYear(year: number) {
   const calendar = new Calendar(year);

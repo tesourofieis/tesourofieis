@@ -1,4 +1,4 @@
-import { format, parse, startOfDay } from "date-fns";
+import { format, parse } from "date-fns";
 import type { Mass } from "./observanceManager";
 
 type Pattern = string | RegExp;

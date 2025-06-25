@@ -1,4 +1,5 @@
 import FontAwesome from "@expo/vector-icons/FontAwesome";
+import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import {
   addMonths,
   addWeeks,
@@ -11,10 +12,8 @@ import {
   startOfWeek,
 } from "date-fns";
 import { pt } from "date-fns/locale";
-import React, { useState, useRef, useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Pressable, ScrollView, Text, View } from "react-native";
-
-import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import LinkCard from "~/components/LinkCard";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
@@ -86,7 +85,6 @@ export default function CalendarMasterpiece() {
   };
 
   // Scroll the view so that today is visible
-  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   useEffect(() => {
     const timeout = setTimeout(() => {
       if (todayRef.current) {

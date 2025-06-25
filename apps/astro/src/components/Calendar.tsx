@@ -1,10 +1,8 @@
+import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
+import type { Mass } from "@tesourofieis/cal/observanceManager";
+import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { format, startOfToday } from "date-fns";
 import { pt } from "date-fns/locale";
-
-import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
-import { yyyyMMDD } from "@tesourofieis/cal/utils";
-
-import type { Mass } from "@tesourofieis/cal/observanceManager";
 import LinkCard from "./LinkCard";
 
 export function getColor(color: Mass["color"]) {

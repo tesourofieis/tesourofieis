@@ -3,9 +3,9 @@ import React, { useMemo, useState } from "react";
 import {
   Platform,
   Pressable,
+  useWindowDimensions,
   Vibration,
   View,
-  useWindowDimensions,
 } from "react-native";
 import {
   ScrollView as GestureScrollView,
@@ -14,10 +14,10 @@ import {
   State,
 } from "react-native-gesture-handler";
 import Animated, {
-  useSharedValue,
-  useAnimatedStyle,
-  withSpring,
   runOnJS,
+  useAnimatedStyle,
+  useSharedValue,
+  withSpring,
 } from "react-native-reanimated";
 
 type LanguageToggleProps = {

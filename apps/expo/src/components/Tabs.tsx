@@ -11,9 +11,7 @@ export function Tabs({ children }) {
 
   const tabs = React.Children.toArray(children).filter(
     (child): child is ReactElement<TabItemProps> =>
-      React.isValidElement(child) &&
-      // biome-ignore lint/suspicious/noExplicitAny: <explanation>
-      (child.type as any) === TabItem,
+      React.isValidElement(child) && child.type === TabItem,
   );
 
   return (
@@ -48,7 +46,6 @@ export function Tabs({ children }) {
   );
 }
 
-// biome-ignore lint/correctness/noUnusedVariables: <explanation>
 export function TabItem({ label, children }) {
   return <>{children}</>;
 }

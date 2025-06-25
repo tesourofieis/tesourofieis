@@ -1,7 +1,5 @@
 import { useLocalSearchParams, useRouter } from "expo-router";
-import React from "react";
-import { useColorScheme } from "react-native";
-import { FlatList, Text, TouchableOpacity, View } from "react-native";
+import { FlatList, Text, TouchableOpacity, useColorScheme } from "react-native";
 import { COLORS } from "~/constants/Colors";
 
 export default function PageSearchResults() {

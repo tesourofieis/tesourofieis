@@ -1,10 +1,9 @@
 // @ts-nocheck
 import { readdirSync, statSync } from "node:fs";
 import { basename, resolve } from "node:path";
+import { getCalendar } from "@tesourofieis/cal/getCalendar";
 import { getYear } from "date-fns";
 import { describe, expect, test } from "vitest";
-
-import { getCalendar } from "@tesourofieis/cal/getCalendar";
 
 describe("link", () => {
   const currentYear = getYear(new Date());
