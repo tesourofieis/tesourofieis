@@ -2094,7 +2094,7 @@ exports[`calendar 2025 > should render the correct calendar 1`] = `
         "weekday": 2,
       },
     ],
-    "season": "Quaresma",
+    "season": "Septuagésima",
   },
   Day {
     "date": "2025-03-05",

@@ -1,6 +1,6 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import { useRouter } from "expo-router";
-import React, { useState, useEffect, useCallback, useRef } from "react";
+import { type RelativePathString, usePathname, useRouter } from "expo-router";
+import React, { useState, useEffect, useCallback } from "react";
 import {
   ScrollView,
   Text,
@@ -54,7 +54,7 @@ const createHierarchy = (items: SidebarItem[]) => {
 
 const searchHierarchy = (
   hierarchy: { [key: string]: HierarchyNode },
-  searchText: string,
+  searchText: string
 ): { [key: string]: HierarchyNode } => {
   const filtered: { [key: string]: HierarchyNode } = {};
 
@@ -82,13 +82,21 @@ const searchHierarchy = (
   return filtered;
 };
 
-const MenuItem = ({ node, path, level, expanded, toggleExpand, isActive }: MenuItemProps) => {
+const MenuItem = ({
+  node,
+  path,
+  level,
+  expanded,
+  toggleExpand,
+  isActive,
+}: MenuItemProps) => {
   const router = useRouter();
+  const pathname = usePathname();
   const colorScheme = useColorScheme();
   const textColor = colorScheme === "light" ? COLORS["800"] : COLORS["200"];
   const subtextColor = colorScheme === "light" ? COLORS["700"] : COLORS["300"];
   const iconColor = colorScheme === "light" ? COLORS["600"] : COLORS["400"];
-  
+
   const hasChildren = Object.keys(node.children).length > 0;
   const isExpanded = expanded[path];
 
@@ -97,7 +105,7 @@ const MenuItem = ({ node, path, level, expanded, toggleExpand, isActive }: MenuI
       toggleExpand(path);
     } else if (node.link) {
       router.push({
-        pathname: node.link.slice(1),
+        pathname: node.link.slice(1) as RelativePathString,
       });
     }
   };
@@ -127,7 +135,7 @@ const MenuItem = ({ node, path, level, expanded, toggleExpand, isActive }: MenuI
               level={level + 1}
               expanded={expanded}
               toggleExpand={toggleExpand}
-              isActive={childNode.link === router.pathname}
+              isActive={childNode.link === pathname}
             />
           ))}
         </View>
@@ -136,7 +144,17 @@ const MenuItem = ({ node, path, level, expanded, toggleExpand, isActive }: MenuI
   );
 };
 
-const MainMenuItem = ({ title, description, hasChildren, isExpanded, isActive, onPress, textColor, subtextColor, iconColor }) => (
+const MainMenuItem = ({
+  title,
+  description,
+  hasChildren,
+  isExpanded,
+  isActive,
+  onPress,
+  textColor,
+  subtextColor,
+  iconColor,
+}) => (
   <View className="bg-sepia-50 dark:bg-sepia-900 border rounded-lg border-sepia-300 p-1 m-1 dark:border-sepia-800">
     <TouchableOpacity
       className={`m-2 p-3 flex-row items-center justify-between rounded-lg ${
@@ -146,7 +164,10 @@ const MainMenuItem = ({ title, description, hasChildren, isExpanded, isActive, o
     >
       <View className="flex-row items-center flex-1">
         <View>
-          <Text className={`font-bold text-lg ${isActive ? "font-extrabold" : ""}`} style={{ color: textColor }}>
+          <Text
+            className={`font-bold text-lg ${isActive ? "font-extrabold" : ""}`}
+            style={{ color: textColor }}
+          >
             {title}
           </Text>
           {description && (
@@ -169,7 +190,17 @@ const MainMenuItem = ({ title, description, hasChildren, isExpanded, isActive, o
   </View>
 );
 
-const SubMenuItem = ({ title, description, hasChildren, isExpanded, isActive, onPress, textColor, subtextColor, iconColor }) => (
+const SubMenuItem = ({
+  title,
+  description,
+  hasChildren,
+  isExpanded,
+  isActive,
+  onPress,
+  textColor,
+  subtextColor,
+  iconColor,
+}) => (
   <TouchableOpacity
     className={`flex-row items-center justify-between p-3 gap-2 rounded-lg ${
       isActive ? "bg-sepia-100 dark:bg-sepia-800" : ""
@@ -178,7 +209,10 @@ const SubMenuItem = ({ title, description, hasChildren, isExpanded, isActive, on
   >
     <View className="flex-row items-center flex-1">
       <View>
-        <Text className={`text-base text-wrap ${isActive ? "font-bold" : ""}`} style={{ color: textColor }}>
+        <Text
+          className={`text-base text-wrap ${isActive ? "font-bold" : ""}`}
+          style={{ color: textColor }}
+        >
           {title}
         </Text>
         {description && (
@@ -229,7 +263,7 @@ export default function MoreScreen() {
 
       function collectPaths(
         nodes: { [key: string]: HierarchyNode },
-        parentPath = "",
+        parentPath = ""
       ) {
         Object.entries(nodes).forEach(([key, node]) => {
           const currentPath = parentPath ? `${parentPath}/${key}` : key;
@@ -273,7 +307,7 @@ export default function MoreScreen() {
         value={searchQuery}
         onChangeText={handleSearch}
       />
-      
+
       {Object.keys(filteredHierarchy).length > 0 ? (
         Object.entries(filteredHierarchy).map(([key, node]) => (
           <MenuItem
