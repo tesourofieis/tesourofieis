@@ -1,8 +1,7 @@
+import { Link } from "expo-router";
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-import { Link } from "expo-router";
-import React from "react";
 import Language from "~/components/Language";
 
 export default function Page0128() {

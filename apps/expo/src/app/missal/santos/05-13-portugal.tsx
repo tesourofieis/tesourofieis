@@ -1,7 +1,6 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-import React from "react";
 import Missa from "../santos/08-22";
 
 export default function Page0513Portugal() {

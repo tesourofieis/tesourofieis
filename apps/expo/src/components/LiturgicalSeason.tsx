@@ -1,7 +1,7 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import type { LiturgicalSeason as Season } from "@tesourofieis/cal/calendar";
-import React from "react";
-import { Text, View, useColorScheme } from "react-native";
+
+import { Text, useColorScheme, View } from "react-native";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
 import PageLinkCard from "./LinkCard";

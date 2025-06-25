@@ -1,7 +1,6 @@
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-import React from "react";
 import Language from "~/components/Language";
 import Salmo83 from "./../devocionario/salterio/083";
 import Salmo84 from "./../devocionario/salterio/084";

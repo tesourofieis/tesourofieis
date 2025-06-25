@@ -1,7 +1,6 @@
+import { Icon } from "@iconify/react";
 import { format } from "date-fns";
 import { useEffect, useState } from "react";
-
-import { Icon } from "@iconify/react";
 import LinkCard from "~/components/LinkCard";
 import Calendar from "./Calendar";
 import Novenas from "./Novenas";

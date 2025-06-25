@@ -53,12 +53,12 @@ console.log(
 );
 
 // Function to get a friendly title
-function getPageTitle(page) {
+function _getPageTitle(page) {
   // Use frontmatter title if available
   if (page.data.title) return page.data.title;
 
   // Otherwise get from filename or directory
-  const nameMatch = page.id.match(/([^\/]+)(\/index\.mdx)?$/);
+  const nameMatch = page.id.match(/([^/]+)(\/index\.mdx)?$/);
   const name = nameMatch ? nameMatch[1] : page.id;
 
   // Convert kebab-case to Title Case
@@ -70,7 +70,7 @@ function getPageTitle(page) {
 }
 
 // Get href path for a page
-function getPageHref(page) {
+function _getPageHref(page) {
   // Handle index pages
   const path = page.id.endsWith("/index.mdx")
     ? page.id.replace(/\/index\.mdx$/, "/")
@@ -83,8 +83,8 @@ function getPageHref(page) {
 <CardGrid stagger>
   {childPages.map((page) => (
     <LinkCard 
-      href={getPageHref(page)} 
-      title={getPageTitle(page)} 
+      href={_getPageHref(page)} 
+      title={_getPageTitle(page)} 
       description={page.data.description || ''} 
     />
   ))}

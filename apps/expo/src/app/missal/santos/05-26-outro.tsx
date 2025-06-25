@@ -1,6 +1,5 @@
 import { SafeAreaView, ScrollView, Text, View } from "react-native";
 
-import React from "react";
 import Missa from "../comum/sumospontifices";
 
 export default function Page0526Outro() {

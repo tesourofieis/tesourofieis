@@ -258,7 +258,7 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
       // Only prompt again if it's been at least 3 days since the last prompt
       const shouldPromptAgain =
         !lastPromptDate ||
-        new Date().getTime() - new Date(lastPromptDate).getTime() >
+        Date.now() - new Date(lastPromptDate).getTime() >
           3 * 24 * 60 * 60 * 1000;
 
       if (shouldPromptAgain) {
@@ -310,7 +310,6 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
   ]);
 
   // Load saved preferences and initialize permission
-  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   useEffect(() => {
     const init = async () => {
       // Load saved preferences
@@ -333,7 +332,6 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
   }, [handleFirstLaunch]);
 
   // Check permissions on app startup
-  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   useEffect(() => {
     const checkPermissionsOnStartup = async () => {
       await checkPermissionStatus();
@@ -496,7 +494,6 @@ export function NotificationsProvider({ children }: React.PropsWithChildren) {
   }, [permissionStatus, cancelAllNotifications, scheduleNotifications]);
 
   // Sync notifications whenever permission or preferences change
-  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   useEffect(() => {
     syncNotifications();
   }, [syncNotifications, permissionStatus, notificationPrefs]);

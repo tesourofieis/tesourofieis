@@ -1,3 +1,4 @@
+import React from "react";
 import { useCalendar } from "~/providers/calendar";
 import LinkCard from "./LinkCard";
 
@@ -6,7 +7,7 @@ export default function PageNovenas() {
 
   if (novenas?.length) {
     return (
-      <>
+      <React.Fragment>
         {novenas.map((novena) => (
           <LinkCard
             key={novena.id}
@@ -14,7 +15,7 @@ export default function PageNovenas() {
             description="Novena"
           />
         ))}
-      </>
+      </React.Fragment>
     );
   }
 }

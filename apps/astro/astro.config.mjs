@@ -4,12 +4,10 @@ import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import starlight from "@astrojs/starlight";
 import tailwind from "@astrojs/tailwind";
-import robotsTxt from "astro-robots-txt";
-import { defineConfig, passthroughImageService } from "astro/config";
-
-import { sidebar } from "./sidebar";
-
 import tailwindcss from "@tailwindcss/vite";
+import { defineConfig, passthroughImageService } from "astro/config";
+import robotsTxt from "astro-robots-txt";
+import { sidebar } from "./sidebar";
 
 const site = "https://tesourofieis.com";
 

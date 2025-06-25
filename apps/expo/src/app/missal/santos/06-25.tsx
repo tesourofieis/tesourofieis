@@ -1,6 +1,5 @@
 import { Link } from "expo-router";
 
-import React from "react";
 import { SafeAreaView, ScrollView, Text, View } from "react-native";
 import Language from "~/components/Language";
 

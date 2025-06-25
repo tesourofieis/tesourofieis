@@ -1,8 +1,6 @@
+import { Link } from "expo-router";
 import { ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-
-import { Link } from "expo-router";
-import React from "react";
 
 export default function Page1219Braga() {
   return (

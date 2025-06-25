@@ -1,7 +1,6 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { Link } from "expo-router";
 import { useState } from "react";
-import { useColorScheme } from "react-native";
 import {
   Platform,
   Pressable,
@@ -9,6 +8,7 @@ import {
   Switch,
   Text,
   TouchableOpacity,
+  useColorScheme,
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";

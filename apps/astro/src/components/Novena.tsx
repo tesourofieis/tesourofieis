@@ -3,7 +3,7 @@ import { getNovenas } from "@tesourofieis/cal/getCalendar";
 import type { Mass } from "@tesourofieis/cal/observanceManager";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { getYear } from "date-fns";
-import React, { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import LinkCard from "./LinkCard";
 
 function getAllNovenasForYear(year: number) {
