@@ -1,5 +1,5 @@
-import { getDate, getMonth } from "date-fns";
 import { OBSERVANCES } from "./observances";
+import { parseLocalDate } from "./utils";
 
 export interface Mass {
   flexibility: "santos" | "commune" | "tempora" | "votivas";
@@ -60,8 +60,8 @@ export class MassManager {
     for (const caseItem of TEMPORA_RANK_MAP) {
       if (
         date &&
-        getMonth(date) === caseItem.month &&
-        getDate(date) === caseItem.day &&
+        parseLocalDate(date).getMonth() === caseItem.month &&
+        parseLocalDate(date).getDate() === caseItem.day &&
         mass.type === "advent" &&
         mass.weekday !== 0
       ) {

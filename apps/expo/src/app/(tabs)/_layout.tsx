@@ -27,7 +27,7 @@ export default function PageTabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title:"Início",
+          title: "Início",
           href: isWeb ? null : "/",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 name="house" color={color} />
@@ -47,17 +47,15 @@ export default function PageTabLayout() {
       <Tabs.Screen
         name="notificacoes"
         options={{
-          title:"Notificações",
+          title: "Notificações",
           href: isWeb ? null : "/notificacoes",
-          tabBarIcon: ({ color }) => (
-            <FontAwesome6 name="bell" color={color} />
-          ),
+          tabBarIcon: ({ color }) => <FontAwesome6 name="bell" color={color} />,
         }}
       />
       <Tabs.Screen
         name="more"
         options={{
-          title:"Procura",
+          title: "Procura",
           href: isWeb ? null : "/more",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 name="magnifying-glass" color={color} />

@@ -1,4 +1,4 @@
-import { addDays, getYear, isWithinInterval } from "date-fns";
+import { addDays, isWithinInterval } from "date-fns";
 import { Calendar } from "./calendar";
 import type { Mass } from "./observanceManager";
 import { parseLocalDate } from "./utils";
@@ -10,13 +10,13 @@ function getCalendar(year: number) {
 }
 
 function getCalendarDay(date: string) {
-  const calendar = new Calendar(getYear(date)).get(date);
+  const calendar = new Calendar(parseLocalDate(date).getFullYear()).get(date);
 
   return calendar;
 }
 
 function getNovenas(date: string) {
-  const calendar = new Calendar(getYear(date));
+  const calendar = new Calendar(parseLocalDate(date).getFullYear());
 
   const allDays = calendar.getAllDays();
 
@@ -35,7 +35,7 @@ function getNovenas(date: string) {
 }
 
 function getSeason(date: string) {
-  const calendar = new Calendar(getYear(date));
+  const calendar = new Calendar(parseLocalDate(date).getFullYear());
 
   return calendar.getSeasonName(date);
 }

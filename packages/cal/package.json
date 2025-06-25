@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "check-types": "tsc --noEmit",
-    "update-snapshot": "TZ=Europe/Lisbon vitest -u .",
-    "coverage": "TZ=Europe/Lisbon vitest --coverage .",
+    "update-snapshot": "vitest -u .",
+    "coverage": "vitest --coverage .",
     "test": "vitest .",
     "lint": "biome check --write --unsafe --files-ignore-unknown=true"
   },

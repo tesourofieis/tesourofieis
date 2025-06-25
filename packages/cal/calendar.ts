@@ -1,8 +1,5 @@
 import {
   addDays,
-  getDate,
-  getDay,
-  getMonth,
   isSameDay,
   isSunday,
   nextSunday,
@@ -84,61 +81,73 @@ export class Calendar {
   private calculateSeasonBoundaries() {
     const christmas = new Date(this.year, 11, 25);
     const epiphany = new Date(this.year, 0, 6);
-    const septuagesima = this.calcSeptuagesima();
     const easterSunday = this.calcEasterSunday();
-    const ashWednesday = subDays(easterSunday, 47);
-    const passionSunday = subDays(easterSunday, 14);
-    const holyWeek = subDays(easterSunday, 7);
+    const ashWednesday = subDays(easterSunday, 46); // Ash Wednesday is 46 days before Easter
+    const septuagesima = subDays(ashWednesday, 17); // Septuagesima is 17 days before Ash Wednesday
+    const passionSunday = subDays(easterSunday, 14); // Passion Sunday (5th Sunday of Lent)
+    const palmSunday = subDays(easterSunday, 7); // Palm Sunday starts Holy Week
     const pentecostSunday = addDays(easterSunday, 49);
     const adventStart = this.calcFirstAdventSunday();
     const yearEnd = new Date(this.year, 11, 31);
     const yearStart = new Date(this.year, 0, 1);
+    const _christmasOctave = new Date(this.year + 1, 0, 1); // January 1st of next year
+    const _epiphanyNextYear = new Date(this.year + 1, 0, 6); // January 6th of next year
 
+    // Advent: First Sunday of Advent until Christmas Eve
     this._seasonBoundaries.set(LiturgicalSeason.ADVENT, [
       adventStart,
       subDays(christmas, 1),
     ]);
 
+    // Christmas: December 25 until January 5th (before Epiphany)
     this._seasonBoundaries.set(LiturgicalSeason.CHRISTMAS, [
       christmas,
       yearEnd,
     ]);
 
+    // Christmas continues into next year until Epiphany
     this._seasonBoundaries.set(LiturgicalSeason.CHRISTMAS_EARLY, [
       yearStart,
-      subDays(epiphany, 1),
+      subDays(epiphany, 1), // January 5th
     ]);
 
+    // Epiphany: January 6th until Septuagesima
     this._seasonBoundaries.set(LiturgicalSeason.EPIPHANY, [
       epiphany,
       subDays(septuagesima, 1),
     ]);
 
+    // Septuagesima: 17 days before Ash Wednesday until Ash Wednesday
     this._seasonBoundaries.set(LiturgicalSeason.SEPTUAGESIMA, [
       septuagesima,
       subDays(ashWednesday, 1),
     ]);
 
+    // Lent: Ash Wednesday until Passion Sunday
     this._seasonBoundaries.set(LiturgicalSeason.LENT, [
       ashWednesday,
-      passionSunday,
+      subDays(passionSunday, 1),
     ]);
 
+    // Passiontide: Passion Sunday until Palm Sunday
     this._seasonBoundaries.set(LiturgicalSeason.PASSIONTIDE, [
       passionSunday,
-      holyWeek,
+      subDays(palmSunday, 1),
     ]);
 
+    // Holy Week: Palm Sunday until Easter
     this._seasonBoundaries.set(LiturgicalSeason.HOLY_WEEK, [
-      holyWeek,
-      easterSunday,
+      palmSunday,
+      subDays(easterSunday, 1),
     ]);
 
+    // Easter: Easter Sunday until Pentecost
     this._seasonBoundaries.set(LiturgicalSeason.EASTER, [
       easterSunday,
-      pentecostSunday,
+      subDays(pentecostSunday, 1),
     ]);
 
+    // Pentecost: Day after Pentecost until First Sunday of Advent
     this._seasonBoundaries.set(LiturgicalSeason.PENTECOST, [
       pentecostSunday,
       subDays(adventStart, 1),
@@ -160,8 +169,8 @@ export class Calendar {
         }
       }
 
-      const month = getMonth(date);
-      const dayOfMonth = getDate(date);
+      const month = date.getMonth();
+      const dayOfMonth = date.getDate();
 
       if (month === 11 && dayOfMonth >= 25 && dayOfMonth <= 31) {
         day.season = LiturgicalSeason.CHRISTMAS;
@@ -255,8 +264,8 @@ export class Calendar {
   private fillInSanctiDays() {
     for (const [date, day] of this.container) {
       const dateObj = parseLocalDate(date);
-      const m = getMonth(dateObj);
-      const d = getDate(dateObj);
+      const m = dateObj.getMonth();
+      const d = dateObj.getDate();
 
       const masses = massManager
         .getByFlexibility("santos")
@@ -312,7 +321,7 @@ export class Calendar {
 
     while (
       !isSunday(currentDate) &&
-      !(getMonth(currentDate) === 0 && getDate(currentDate) === 6)
+      !(currentDate.getMonth() === 0 && currentDate.getDate() === 6)
     ) {
       if (isSameDay(currentDate, yearStart)) break;
       currentDate = subDays(currentDate, 1);
@@ -407,7 +416,7 @@ export class Calendar {
 
   private calcFirstAdventSunday(): Date {
     const christmasDay = new Date(this.year, 11, 25);
-    const weekday = getDay(christmasDay);
+    const weekday = christmasDay.getDay();
 
     const adventDates = [
       new Date(this.year, 10, 27), // Sunday
@@ -432,9 +441,9 @@ export class Calendar {
 
   private calcEmberWednesdaySeptember(): Date {
     let date = new Date(this.year, 8, 15);
-    while (!isSunday(date) || getDate(date) > 21) {
+    while (!isSunday(date) || date.getDate() > 21) {
       date = addDays(date, 1);
-      if (getMonth(date) > 8) break;
+      if (date.getMonth() > 8) break;
     }
     return nextWednesday(date);
   }
@@ -442,9 +451,9 @@ export class Calendar {
   private calcHolyName(): Date {
     let date = new Date(this.year, 0, 1);
 
-    while (getDate(date) <= 7) {
+    while (date.getDate() <= 7) {
       if (isSunday(date)) {
-        const day = getDate(date);
+        const day = date.getDate();
         return day === 1 || day === 6 || day === 7
           ? new Date(this.year, 0, 2)
           : date;

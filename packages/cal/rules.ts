@@ -1,14 +1,10 @@
 import {
   addDays,
-  getDate,
-  getMonth,
-  getYear,
   isAfter,
   isBefore,
   isLeapYear,
   isSaturday,
   isSunday,
-  parseISO,
 } from "date-fns";
 
 import type { Calendar } from "./calendar";
@@ -116,7 +112,7 @@ export class Rules {
       const allSouls = observances
         .filter((ld) => ld.id.startsWith("santos:11-02"))
         .reverse();
-      if (isSunday(date)) {
+      if (isSunday(parseLocalDate(date))) {
         const tempora = massManager.match(
           observances,
           massManager.getTemporaSunday(),
@@ -137,7 +133,7 @@ export class Rules {
       observances,
       massManager.getById("SANCTI_12_24"),
     );
-    if (nativityVigil && isSunday(date)) {
+    if (nativityVigil && isSunday(parseLocalDate(date))) {
       return {
         observances: [nativityVigil],
       };
@@ -153,7 +149,7 @@ export class Rules {
       observances,
       massManager.getById("SANCTI_01_01"),
     );
-    if (nativity && isSunday(date)) {
+    if (nativity && isSunday(parseLocalDate(date))) {
       return {
         observances: [nativity],
       };
@@ -164,8 +160,8 @@ export class Rules {
   ruleStMatthias(observances: Mass[], date: string): RuleResult | undefined {
     if (
       massManager.match(observances, massManager.getById("SANCTI_02_24")) &&
-      isLeapYear(date) &&
-      getDate(date) === 24
+      isLeapYear(parseLocalDate(date)) &&
+      parseLocalDate(date).getDate() === 24
     ) {
       const temp = massManager.match(
         observances,
@@ -188,7 +184,7 @@ export class Rules {
   ruleFeb27(observances: Mass[], date: string): RuleResult | undefined {
     if (
       massManager.match(observances, massManager.getById("SANCTI_02_27")) &&
-      getDate(parseLocalDate(date)) === 27
+      parseLocalDate(date).getDate() === 27
     ) {
       if (isLeapYear(parseLocalDate(date))) {
         const shiftedDate = yyyyMMDD(addDays(parseLocalDate(date), 1));
@@ -219,8 +215,14 @@ export class Rules {
       }
 
       if (
-        isAfter(date, new Date(getYear(date), 11, 25)) ||
-        isBefore(date, new Date(getYear(date), 1, 2))
+        isAfter(
+          parseLocalDate(date),
+          new Date(parseLocalDate(date).getFullYear(), 11, 25),
+        ) ||
+        isBefore(
+          parseLocalDate(date),
+          new Date(parseLocalDate(date).getFullYear(), 1, 2),
+        )
       ) {
         return massManager.getById("COMMUNE_C_10B"); // B. M. V. Saturdays between Nativity and Purification
       }
@@ -230,9 +232,12 @@ export class Rules {
       );
 
       if (
-        isAfter(date, new Date(getYear(date), 1, 2)) &&
+        isAfter(
+          parseLocalDate(date),
+          new Date(parseLocalDate(date).getFullYear(), 1, 2),
+        ) &&
         wednesdayInHolyWeek &&
-        isBefore(date, wednesdayInHolyWeek[0])
+        isBefore(parseLocalDate(date), parseLocalDate(wednesdayInHolyWeek[0]))
       ) {
         return massManager.getById("COMMUNE_C_10C"); // B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
       }
@@ -244,7 +249,7 @@ export class Rules {
       return massManager.getById("COMMUNE_C_10T"); // B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
     }
 
-    if (isSaturday(date)) {
+    if (isSaturday(parseLocalDate(date))) {
       const ranks = new Set(observances.map((i) => i.rank));
       if (
         ranks.size === 0 ||
@@ -273,7 +278,7 @@ export class Rules {
       massManager.getEmberDays().concat(massManager.getAdvent()),
     );
 
-    if (!isSunday(date) && advOrEmber) {
+    if (!isSunday(parseLocalDate(date)) && advOrEmber) {
       const sancti = massManager.match(observances, massManager.getSancti());
 
       if (!sancti) {
@@ -304,12 +309,14 @@ export class Rules {
     const sancti = massManager.match(observances, massManager.getSancti());
     const tempora = massManager.match(observances, massManager.getTempora());
 
+    const parsed = parseLocalDate(date);
+
     if (
       sancti &&
       tempora &&
-      getDate(date) === 8 &&
-      getMonth(date) === 11 &&
-      isSunday(date)
+      parsed.getDate() === 8 &&
+      parsed.getMonth() === 11 &&
+      isSunday(parsed)
     ) {
       return {
         observances: [sancti, tempora],
@@ -318,7 +325,7 @@ export class Rules {
 
     function calcTargetDate() {
       let targetDate = parseLocalDate(date);
-      while (getYear(targetDate) === getYear(date)) {
+      while (targetDate.getFullYear() === parseLocalDate(date).getFullYear()) {
         targetDate = addDays(targetDate, 1);
         const allRanks = new Set(
           calendar.get(yyyyMMDD(targetDate))?.all.map((ld) => ld.rank),
@@ -352,7 +359,7 @@ export class Rules {
   ): RuleResult | undefined {
     function calcTargetDate() {
       let targetDate = parseLocalDate(date);
-      while (getYear(targetDate) === getYear(date)) {
+      while (targetDate.getFullYear() === parseLocalDate(date).getFullYear()) {
         targetDate = addDays(targetDate, 1);
         const allRanks = new Set(
           calendar.get(yyyyMMDD(targetDate))?.all.map((ld) => ld.rank),

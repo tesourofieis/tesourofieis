@@ -1517,7 +1517,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 2,
       },
     ],
-    "season": "Quaresma",
+    "season": "Septuagésima",
   },
   Day {
     "date": "2024-02-14",
@@ -2489,7 +2489,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
-    "season": "Quaresma",
+    "season": "Paixão",
   },
   Day {
     "date": "2024-03-18",
@@ -2716,7 +2716,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
     ],
-    "season": "Paixão",
+    "season": "Semana Santa",
   },
   Day {
     "date": "2024-03-25",
@@ -2884,7 +2884,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "weekday": 0,
       },
     ],
-    "season": "Semana Santa",
+    "season": "Páscoa",
   },
   Day {
     "date": "2024-04-01",

@@ -82,13 +82,20 @@ const searchHierarchy = (
   return filtered;
 };
 
-const MenuItem = ({ node, path, level, expanded, toggleExpand, isActive }: MenuItemProps) => {
+const MenuItem = ({
+  node,
+  path,
+  level,
+  expanded,
+  toggleExpand,
+  isActive,
+}: MenuItemProps) => {
   const router = useRouter();
   const colorScheme = useColorScheme();
   const textColor = colorScheme === "light" ? COLORS["800"] : COLORS["200"];
   const subtextColor = colorScheme === "light" ? COLORS["700"] : COLORS["300"];
   const iconColor = colorScheme === "light" ? COLORS["600"] : COLORS["400"];
-  
+
   const hasChildren = Object.keys(node.children).length > 0;
   const isExpanded = expanded[path];
 
@@ -136,7 +143,17 @@ const MenuItem = ({ node, path, level, expanded, toggleExpand, isActive }: MenuI
   );
 };
 
-const MainMenuItem = ({ title, description, hasChildren, isExpanded, isActive, onPress, textColor, subtextColor, iconColor }) => (
+const MainMenuItem = ({
+  title,
+  description,
+  hasChildren,
+  isExpanded,
+  isActive,
+  onPress,
+  textColor,
+  subtextColor,
+  iconColor,
+}) => (
   <View className="bg-sepia-50 dark:bg-sepia-900 border rounded-lg border-sepia-300 p-1 m-1 dark:border-sepia-800">
     <TouchableOpacity
       className={`m-2 p-3 flex-row items-center justify-between rounded-lg ${
@@ -146,7 +163,10 @@ const MainMenuItem = ({ title, description, hasChildren, isExpanded, isActive, o
     >
       <View className="flex-row items-center flex-1">
         <View>
-          <Text className={`font-bold text-lg ${isActive ? "font-extrabold" : ""}`} style={{ color: textColor }}>
+          <Text
+            className={`font-bold text-lg ${isActive ? "font-extrabold" : ""}`}
+            style={{ color: textColor }}
+          >
             {title}
           </Text>
           {description && (
@@ -169,7 +189,17 @@ const MainMenuItem = ({ title, description, hasChildren, isExpanded, isActive, o
   </View>
 );
 
-const SubMenuItem = ({ title, description, hasChildren, isExpanded, isActive, onPress, textColor, subtextColor, iconColor }) => (
+const SubMenuItem = ({
+  title,
+  description,
+  hasChildren,
+  isExpanded,
+  isActive,
+  onPress,
+  textColor,
+  subtextColor,
+  iconColor,
+}) => (
   <TouchableOpacity
     className={`flex-row items-center justify-between p-3 gap-2 rounded-lg ${
       isActive ? "bg-sepia-100 dark:bg-sepia-800" : ""
@@ -178,7 +208,10 @@ const SubMenuItem = ({ title, description, hasChildren, isExpanded, isActive, on
   >
     <View className="flex-row items-center flex-1">
       <View>
-        <Text className={`text-base text-wrap ${isActive ? "font-bold" : ""}`} style={{ color: textColor }}>
+        <Text
+          className={`text-base text-wrap ${isActive ? "font-bold" : ""}`}
+          style={{ color: textColor }}
+        >
           {title}
         </Text>
         {description && (
@@ -273,7 +306,7 @@ export default function MoreScreen() {
         value={searchQuery}
         onChangeText={handleSearch}
       />
-      
+
       {Object.keys(filteredHierarchy).length > 0 ? (
         Object.entries(filteredHierarchy).map(([key, node]) => (
           <MenuItem
