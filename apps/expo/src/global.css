@@ -1,23 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @config '../tailwind.config.ts';
 
 @layer base {
   .font-body {
     @apply font-serif;
   }
+
+  html,
+  body {
+    @apply dark:bg-sepia-900 bg-sepia-100;
+  }
+
   :root {
-    @apply w-full m-auto;
+    @apply w-full;
+  }
+
+  /* Firefox scrollbar */
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: theme("colors.sepia.900") theme("colors.sepia.800");
+  }
+
+  html.dark {
+    scrollbar-color: theme("colors.sepia.800") theme("colors.sepia.900");
   }
 
   .text {
     @apply text-sepia-900 dark:text-sepia-100;
   }
 
-  .docs {
-    @apply flex-1 font-serif py-2 px-1;
+  .docs:not(.docs *) {
+    @apply flex-1 font-serif py-2 px-1 web:w-6/12 web:mx-auto;
   }
 
   .h1 {

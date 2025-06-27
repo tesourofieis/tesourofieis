@@ -123,7 +123,7 @@ export default function CalendarMasterpiece() {
             return (
               <View
                 key={dayString}
-                className={`flex flex-row items-center gap-4 p-3 border-t ${
+                className={`docs flex flex-row items-center gap-4 p-3 border-t ${
                   isToday
                     ? "bg-sepia-200 dark:bg-sepia-800"
                     : "bg-sepia-100 dark:bg-sepia-900"

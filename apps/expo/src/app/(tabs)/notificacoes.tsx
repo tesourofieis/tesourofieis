@@ -36,7 +36,7 @@ export default function PageNot() {
     return (
       <SafeAreaView className="flex-1">
         <ScrollView className="bg-sepia-200 dark:bg-sepia-800 p-5">
-          <View className="flex-row items-center">
+          <View className="docs">
             <FontAwesome6
               name="gear"
               size={15}
