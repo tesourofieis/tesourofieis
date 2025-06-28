@@ -4,6 +4,7 @@ import { useState } from "react";
 import {
   Platform,
   Pressable,
+  SafeAreaView,
   ScrollView,
   Switch,
   Text,
@@ -11,7 +12,7 @@ import {
   useColorScheme,
   View,
 } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import PageWrapper from "~/components/Page";
 import { COLORS } from "~/constants/Colors";
 import { useNotifications } from "~/providers/notifications";
 
@@ -34,57 +35,51 @@ export default function PageNot() {
 
   if (Platform.OS === "web") {
     return (
-      <SafeAreaView className="flex-1">
-        <ScrollView className="bg-sepia-200 dark:bg-sepia-800 p-5">
-          <View className="docs">
-            <FontAwesome6
-              name="gear"
-              size={15}
-              color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-            />
-            <Text className="font-bold dark:text-sepia-200 text-left p-3 text-xl text-bold">
-              Apenas em dispositivos móveis.
-            </Text>
+      <PageWrapper>
+        <View>
+          <FontAwesome6
+            name="gear"
+            size={15}
+            color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+          />
+          <Text className="font-bold dark:text-sepia-200 text-left p-3 text-xl text-bold">
+            Apenas em dispositivos móveis.
+          </Text>
+        </View>
+
+        <View>
+          <Text className="text-sm text-sepia-800 dark:text-sepia-200">
+            Para receber notificações instale a nossa aplicação para telemóvel
+            para receber notificações.
+          </Text>
+
+          <View className="flex-row items-center justify-center gap-5 mt-3">
+            <Link
+              className="bg-sepia-500 p-3"
+              href="https://apps.apple.com/no/app/tesouro-dos-fi%C3%A9is/id6689521725"
+            >
+              iOS{" "}
+              <FontAwesome6
+                name="apple"
+                size={15}
+                color={colorScheme === "light" ? COLORS["200"] : COLORS["800"]}
+              />
+            </Link>
+
+            <Link
+              className="bg-sepia-500 p-3"
+              href="https://play.google.com/store/apps/details?id=com.tesourofieis.app"
+            >
+              Android{" "}
+              <FontAwesome6
+                name="android"
+                size={15}
+                color={colorScheme === "light" ? COLORS["200"] : COLORS["800"]}
+              />
+            </Link>
           </View>
-
-          <View>
-            <Text className="text-sm text-sepia-800 dark:text-sepia-200">
-              Para receber notificações instale a nossa aplicação para telemóvel
-              para receber notificações.
-            </Text>
-
-            <View className="flex-row items-center justify-center gap-5 mt-3">
-              <Link
-                className="bg-sepia-500 p-3"
-                href="https://apps.apple.com/no/app/tesouro-dos-fi%C3%A9is/id6689521725"
-              >
-                iOS{" "}
-                <FontAwesome6
-                  name="apple"
-                  size={15}
-                  color={
-                    colorScheme === "light" ? COLORS["200"] : COLORS["800"]
-                  }
-                />
-              </Link>
-
-              <Link
-                className="bg-sepia-500 p-3"
-                href="https://play.google.com/store/apps/details?id=com.tesourofieis.app"
-              >
-                Android{" "}
-                <FontAwesome6
-                  name="android"
-                  size={15}
-                  color={
-                    colorScheme === "light" ? COLORS["200"] : COLORS["800"]
-                  }
-                />
-              </Link>
-            </View>
-          </View>
-        </ScrollView>
-      </SafeAreaView>
+        </View>
+      </PageWrapper>
     );
   }
 

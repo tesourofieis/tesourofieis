@@ -1,18 +1,14 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { Text, View } from "react-native";
+import PageWrapper from "~/components/Page";
 
 import Missa from "../comum/16abades";
 
 export default function Page1021() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">S. Hilarião, Abade, a 21 de Outubro</Text>
+    <PageWrapper>
+      <Text className="h1">S. Hilarião, Abade, a 21 de Outubro</Text>
 
-          <Missa />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Missa />
+    </PageWrapper>
   );
 }

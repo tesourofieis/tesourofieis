@@ -17,7 +17,6 @@
     @apply w-full;
   }
 
-  /* Firefox scrollbar */
   html {
     scrollbar-width: thin;
     scrollbar-color: theme("colors.sepia.900") theme("colors.sepia.800");
@@ -31,7 +30,7 @@
     @apply text-sepia-900 dark:text-sepia-100;
   }
 
-  .docs:not(.docs *) {
+  .docs {
     @apply flex-1 font-serif py-2 px-1 web:w-6/12 web:mx-auto;
   }
 
@@ -75,11 +74,6 @@
 
   .list-styled {
     @apply p-2;
-  }
-
-  .side-by-side {
-    @apply font-body;
-    min-width: 100%;
   }
 
   .text-base,

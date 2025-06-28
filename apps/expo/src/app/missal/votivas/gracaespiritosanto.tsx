@@ -1,80 +1,72 @@
 import { Link } from "expo-router";
 
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function PageGracaespiritosanto() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">Suplicando a Graça do Espírito Santo</Text>
+    <PageWrapper>
+      <Text className="h1">Suplicando a Graça do Espírito Santo</Text>
 
-          <Text className="aside">
-            Como na{" "}
-            <Link className="link" href="/missal/votivas/espiritosanto">
-              Missa do Espírito Santo
-            </Link>{" "}
-            , excepto:
-          </Text>
+      <Text className="aside">
+        Como na{" "}
+        <Link className="link" href="/missal/votivas/espiritosanto">
+          Missa do Espírito Santo
+        </Link>{" "}
+        , excepto:
+      </Text>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Deus, cui omne cor patet, et omnis volúntas lóquitur, et quem
-              nullum latet secrétum: purífica per infusiónem Sancti Spíritus
-              cogitatiónes cordis nostri; ut te perfécte dilígere et digne
-              laudáre mereámur. Per Dóminum... in unitáte ejúsdem Spíritus
-              Sancti...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, de quem é conhecido o íntimo de todo o coração e os
-              desejos de toda a vontade, assim como não ignorais nenhum segredo,
-              purificai, pela difusão do Espírito Santo, os pensamentos do nosso
-              coração, a fim de que Vos amemos com perfeição e mereçamos
-              louvar-Vos dignamente. Por nosso Senhor... em unidade do mesmo
-              Espírito Santo...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Deus, cui omne cor patet, et omnis volúntas lóquitur, et quem nullum
+          latet secrétum: purífica per infusiónem Sancti Spíritus cogitatiónes
+          cordis nostri; ut te perfécte dilígere et digne laudáre mereámur. Per
+          Dóminum... in unitáte ejúsdem Spíritus Sancti...
+        </Text>
+        <Text className="vernacular">
+          Ó Deus, de quem é conhecido o íntimo de todo o coração e os desejos de
+          toda a vontade, assim como não ignorais nenhum segredo, purificai,
+          pela difusão do Espírito Santo, os pensamentos do nosso coração, a fim
+          de que Vos amemos com perfeição e mereçamos louvar-Vos dignamente. Por
+          nosso Senhor... em unidade do mesmo Espírito Santo...
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Hæc oblátio, quǽsumus, Dómine, cordis nostri máculas emúndet: ut
-              Sancti Spíritus digna efficiátur habitátio. Per Dóminum... in
-              unitáte ejúsdem Spíritus Sancti...
-            </Text>
-            <Text className="vernacular">
-              Que esta oblação, Senhor, Vos suplicamos, apague as manchas do
-              nosso coração, a fim de que ele se torna em digno habitáculo do
-              Espírito Santo. Por nosso Senhor... em unidade do mesmo Espírito
-              Santo...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Hæc oblátio, quǽsumus, Dómine, cordis nostri máculas emúndet: ut
+          Sancti Spíritus digna efficiátur habitátio. Per Dóminum... in unitáte
+          ejúsdem Spíritus Sancti...
+        </Text>
+        <Text className="vernacular">
+          Que esta oblação, Senhor, Vos suplicamos, apague as manchas do nosso
+          coração, a fim de que ele se torna em digno habitáculo do Espírito
+          Santo. Por nosso Senhor... em unidade do mesmo Espírito Santo...
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Concéde, quǽsumus, omnípotens Deus, Sanctum nos Spíritum votis
-              promeréri sédulis: quaténus, ejus grátia, et ab ómnibus liberémur
-              tentatiónibus, et peccatórum nostrórum indulgéntiam percípere
-              mereámur. Per Dóminum... in unitáte ejúsdem Spíritus Sancti...
-            </Text>
-            <Text className="vernacular">
-              Ó omnipotente Deus, Vos suplicamos, concedei-nos que pelos nossos
-              votos nos tornemos dignos de o Espírito Santo habitar em nós, de
-              modo que pela sua graça sejamos livres de todas as tentações e
-              mereçamos alcançar o perdão dos nossos pecados. Por nosso
-              Senhor... em unidade do mesmo Espírito Santo...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Concéde, quǽsumus, omnípotens Deus, Sanctum nos Spíritum votis
+          promeréri sédulis: quaténus, ejus grátia, et ab ómnibus liberémur
+          tentatiónibus, et peccatórum nostrórum indulgéntiam percípere
+          mereámur. Per Dóminum... in unitáte ejúsdem Spíritus Sancti...
+        </Text>
+        <Text className="vernacular">
+          Ó omnipotente Deus, Vos suplicamos, concedei-nos que pelos nossos
+          votos nos tornemos dignos de o Espírito Santo habitar em nós, de modo
+          que pela sua graça sejamos livres de todas as tentações e mereçamos
+          alcançar o perdão dos nossos pecados. Por nosso Senhor... em unidade
+          do mesmo Espírito Santo...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

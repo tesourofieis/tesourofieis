@@ -1,18 +1,13 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import DirectoryList from "~/components/DirectoryList";
+import PageWrapper from "~/components/Page";
 
 export default function PageIndex() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">Antífonas de Nossa Senhora</Text>
+    <PageWrapper>
+      <Text className="h1">Antífonas de Nossa Senhora</Text>
 
-          <DirectoryList slug="devocionario/antifonas" />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <DirectoryList slug="devocionario/antifonas" />
+    </PageWrapper>
   );
 }

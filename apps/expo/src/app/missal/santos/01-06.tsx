@@ -1,247 +1,237 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function Page0106() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">Epifania do Senhor</Text>
+    <PageWrapper>
+      <Text className="h1">Epifania do Senhor</Text>
 
-          <Text className="h3">Intróito</Text>
+      <Text className="h3">Intróito</Text>
 
-          <Text className="em">Ml. 3, 1; 1 Cr. 29, 12</Text>
+      <Text className="em">Ml. 3, 1; 1 Cr. 29, 12</Text>
 
-          <Language>
-            <Text className="latin">
-              Ecce, advénit dominátor Dóminus: et regnum in manu ejus et
-              potéstas et impérium. <Text className="latin">Ps. 71, 1</Text>{" "}
-              Deus, judícium tuum Regi da: et justítiam tuam Fílio Regis.
-              <Text className="versicle"> ℣. </Text>Gloria Patri...
-            </Text>
-            <Text className="vernacular">
-              Eis que apareceu soberano Senhor: e traz empunhado o ceptro da
-              realeza, do poder e do império.{" "}
-              <Text className="vernacular">Sl. 71, 1</Text> Ó Deus, concedei ao
-              Rei a graça de saber julgar: e ao Filho do Rei a Vossa justiça.
-              <Text className="versicle"> ℣. </Text>Glória ao Pai...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Ecce, advénit dominátor Dóminus: et regnum in manu ejus et potéstas et
+          impérium. <Text className="latin">Ps. 71, 1</Text> Deus, judícium tuum
+          Regi da: et justítiam tuam Fílio Regis.
+          <Text className="versicle"> ℣. </Text>Gloria Patri...
+        </Text>
+        <Text className="vernacular">
+          Eis que apareceu soberano Senhor: e traz empunhado o ceptro da
+          realeza, do poder e do império.{" "}
+          <Text className="vernacular">Sl. 71, 1</Text> Ó Deus, concedei ao Rei
+          a graça de saber julgar: e ao Filho do Rei a Vossa justiça.
+          <Text className="versicle"> ℣. </Text>Glória ao Pai...
+        </Text>
+      </Language>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Deus, qui hodiérna die Unigénitum tuum géntibus steila duce
-              revelásti: concéde propítius; ut, qui jam te ex fide cognóvimus,
-              usque ad contemplándam spéciem tuæ celsitúdinis perducámur. Per
-              eúndem Dóminum nostrum...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, que neste dia manifestastes o vosso Filho Unigénito aos
-              gentios, enviando-lhes uma estrela para os guiar até onde Ele
-              estava, concedei-nos propício que, conhecendo-Vos nós, já, pela
-              fé, consigamos contemplar face a face o esplendor da vossa
-              majestade. Pelo mesmo nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Deus, qui hodiérna die Unigénitum tuum géntibus steila duce revelásti:
+          concéde propítius; ut, qui jam te ex fide cognóvimus, usque ad
+          contemplándam spéciem tuæ celsitúdinis perducámur. Per eúndem Dóminum
+          nostrum...
+        </Text>
+        <Text className="vernacular">
+          Ó Deus, que neste dia manifestastes o vosso Filho Unigénito aos
+          gentios, enviando-lhes uma estrela para os guiar até onde Ele estava,
+          concedei-nos propício que, conhecendo-Vos nós, já, pela fé, consigamos
+          contemplar face a face o esplendor da vossa majestade. Pelo mesmo
+          nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Epístola</Text>
+      <Text className="h3">Epístola</Text>
 
-          <Text className="em">Is. 60, 1-6</Text>
+      <Text className="em">Is. 60, 1-6</Text>
 
-          <Language>
-            <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="vernacular">Lição do Profeta Isaías.</Text>
-            <Text className="latin">
-              Surge, illumináre, Jerúsalem: quia venit lumen tuum, et glória
-              Dómini super te orta est. Quia ecce, ténebræ opérient terram et
-              caligo pópulos: super te autem oriétur Dóminus, et glória ejus in
-              te vidébitur. Et ambulábunt gentes in lúmine tuo, et reges in
-              splendóre ortus tui. Leva in circúitu óculos tuos, et vide: omnes
-              isti congregáti sunt, venérunt tibi: fílii tui de longe vénient,
-              et fíliæ tuæ de látere surgent. Tunc vidébis et áfflues, mirábitur
-              et dilatábitur cor tuum, quando convérsa fúerit ad te multitúdo
-              maris, fortitúdo géntium vénerit tibi. Inundátio camelórum opériet
-              te dromedárii Mádian et Epha: omnes de Saba vénient, aurum et thus
-              deferéntes, et laudem Dómino annuntiántes.
-            </Text>
-            <Text className="vernacular">
-              Ergue-te e resplandece, Jerusalém, pois a tua luz raiou, e a
-              glória do Senhor brilhou sobre ti. Enquanto as trevas cobrem a
-              terra, e uma noite escura envolve os povos, eis que desponta sobre
-              ti a aurora do Senhor; e a sua glória resplandece em ti. As nações
-              caminharão, guiadas pelo clarão da tua luz, e os reis pelo fulgor
-              da tua aurora. Ergue os teus olhos; volve-os em torno de ti e vê:
-              todos se congregam e vêm a ti. Os teus filhos vêm de longe e as
-              tuas filhas surgirão ao lado. Então, tu o verás e te encontrarás
-              na opulência. O teu coração se alegrará e dilatará, pois, as
-              riquezas do mar virão a ti; os tesouros das nações virão à tua
-              posse! Numerosos camelos e dromedários de Mádian e de Efa virão a
-              ti. Todos os de Sabá virão junto de ti, trazendo ouro e incenso e
-              louvando o Senhor.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
+        <Text className="vernacular">Lição do Profeta Isaías.</Text>
+        <Text className="latin">
+          Surge, illumináre, Jerúsalem: quia venit lumen tuum, et glória Dómini
+          super te orta est. Quia ecce, ténebræ opérient terram et caligo
+          pópulos: super te autem oriétur Dóminus, et glória ejus in te
+          vidébitur. Et ambulábunt gentes in lúmine tuo, et reges in splendóre
+          ortus tui. Leva in circúitu óculos tuos, et vide: omnes isti
+          congregáti sunt, venérunt tibi: fílii tui de longe vénient, et fíliæ
+          tuæ de látere surgent. Tunc vidébis et áfflues, mirábitur et
+          dilatábitur cor tuum, quando convérsa fúerit ad te multitúdo maris,
+          fortitúdo géntium vénerit tibi. Inundátio camelórum opériet te
+          dromedárii Mádian et Epha: omnes de Saba vénient, aurum et thus
+          deferéntes, et laudem Dómino annuntiántes.
+        </Text>
+        <Text className="vernacular">
+          Ergue-te e resplandece, Jerusalém, pois a tua luz raiou, e a glória do
+          Senhor brilhou sobre ti. Enquanto as trevas cobrem a terra, e uma
+          noite escura envolve os povos, eis que desponta sobre ti a aurora do
+          Senhor; e a sua glória resplandece em ti. As nações caminharão,
+          guiadas pelo clarão da tua luz, e os reis pelo fulgor da tua aurora.
+          Ergue os teus olhos; volve-os em torno de ti e vê: todos se congregam
+          e vêm a ti. Os teus filhos vêm de longe e as tuas filhas surgirão ao
+          lado. Então, tu o verás e te encontrarás na opulência. O teu coração
+          se alegrará e dilatará, pois, as riquezas do mar virão a ti; os
+          tesouros das nações virão à tua posse! Numerosos camelos e dromedários
+          de Mádian e de Efa virão a ti. Todos os de Sabá virão junto de ti,
+          trazendo ouro e incenso e louvando o Senhor.
+        </Text>
+      </Language>
 
-          <Text className="h3">Gradual</Text>
+      <Text className="h3">Gradual</Text>
 
-          <Text className="em">ibid., 6 & 1</Text>
+      <Text className="em">ibid., 6 & 1</Text>
 
-          <Language>
-            <Text className="latin">
-              Omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino
-              annuntiántes.<Text className="versicle"> ℣. </Text>Surge et
-              illumináre, Jerúsalem: quia glória Dómini super te orta est.
-            </Text>
-            <Text className="vernacular">
-              Todos os de Sabá virão, trazendo ouro em incenso e louvando o
-              Senhor.<Text className="versicle"> ℣. </Text>Ergue-te, Jerusalém,
-              e resplandece, porque a glória do Senhor brilhou sobre ti.
-            </Text>
-            <Text className="latin">
-              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-              <Text className="latin">Matth. 2, 2</Text> Vídimus stellam ejus in
-              Oriénte, et vénimus cum munéribus adoráre Dóminum. Allelúja.
-            </Text>
-            <Text className="vernacular">
-              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-              <Text className="vernacular">Mt. 2, 2</Text> Vimos a sua estrela
-              no Oriente e viemos com ofertas adorar o Senhor. Aleluia.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino
+          annuntiántes.<Text className="versicle"> ℣. </Text>Surge et
+          illumináre, Jerúsalem: quia glória Dómini super te orta est.
+        </Text>
+        <Text className="vernacular">
+          Todos os de Sabá virão, trazendo ouro em incenso e louvando o Senhor.
+          <Text className="versicle"> ℣. </Text>Ergue-te, Jerusalém, e
+          resplandece, porque a glória do Senhor brilhou sobre ti.
+        </Text>
+        <Text className="latin">
+          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+          <Text className="latin">Matth. 2, 2</Text> Vídimus stellam ejus in
+          Oriénte, et vénimus cum munéribus adoráre Dóminum. Allelúja.
+        </Text>
+        <Text className="vernacular">
+          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+          <Text className="vernacular">Mt. 2, 2</Text> Vimos a sua estrela no
+          Oriente e viemos com ofertas adorar o Senhor. Aleluia.
+        </Text>
+      </Language>
 
-          <Text className="h3">Evangelho</Text>
+      <Text className="h3">Evangelho</Text>
 
-          <Text className="em">Mt. 2, 1-12</Text>
+      <Text className="em">Mt. 2, 1-12</Text>
 
-          <Language>
-            <Text className="latin">
-              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
-              secúndum Matthǽu.
-            </Text>
-            <Text className="vernacular">
-              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
-              segundo S. Mateus.
-            </Text>
-            <Text className="latin">
-              Cum natus esset Jesus in Béthlehem Juda in diébus Heródis regis,
-              ecce, Magi ab Oriénte venerunt Jerosólymam, dicéntes: Ubi est, qui
-              natus est rex Judæórum? Vidimus enim stellam ejus in Oriénte, et
-              vénimus adoráre eum. Audiens autem Heródes rex, turbatus est, et
-              omnis Jerosólyma cum illo. Et cóngregans omnes principes
-              sacerdotum et scribas pópuli, sciscitabátur ab eis, ubi Christus
-              nasceretur. At illi dixérunt ei: In Béthlehem Judae: sic enim
-              scriptum est per Prophétam: Et tu, Béthlehem terra Juda, nequaquam
-              mínima es in princípibus Juda; ex te enim éxiet dux, qui regat
-              pópulum meum Israel. Tunc Heródes, clam vocátis Magis, diligénter
-              dídicit ab eis tempus stellæ, quæ appáruit eis: et mittens illos
-              in Béthlehem, dixit: Ite, et interrogáte diligénter de púero: et
-              cum invenéritis, renuntiáte mihi, ut et ego véniens adórem eum.
-              Qui cum audíssent regem, abiérunt. Et ecce, stella, quam víderant
-              in Oriénte, antecedébat eos, usque dum véniens staret supra, ubi
-              erat Puer. Vidéntes autem stellam, gavísi sunt gáudio magno valde.
-              Et intrántes domum, invenérunt Púerum cum María Matre ejus,{" "}
-              <Text className="em">(hic genuflectitur)</Text> ei procidéntes
-              adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei múnera,
-              aurum, thus et myrrham. Et responso accépto in somnis, ne redírent
-              ad Heródem, per aliam viam revérsi sunt in regiónem suam.
-            </Text>
-            <Text className="vernacular">
-              Havendo Jesus nascido em Belém, de Judá, no tempo do rei Herodes,
-              eis que vieram a Jerusalém os Magos do Oriente, dizendo: «Onde
-              está o rei dos Judeus, que acaba de nascer? Pois vimos a sua
-              estrela no Oriente e viemos adorá-l’O». Logo que o rei Herodes
-              ouviu esta notícia, ficou perturbado, assim como toda a gente de
-              Jerusalém, convocando logo todos os príncipes dos sacerdotes e os
-              escribas do povo, para saber deles onde deveria nascer Cristo.
-              Responderam-lhe eles: «Em Belém, de Judá, pois está escrito pelo
-              Profeta: «E tu, Belém, terra de Judá, não serás certamente a menos
-              importante entre as terras principais de Judá, pois em ti nascerá
-              o Rei, que governará o meu povo de Israel». Então Herodes mandou
-              chamar em segredo os Magos, informando-se com eles diligentemente
-              acerca do tempo em que a estrela havia aparecido. E, enviando-os a
-              Belém, disse-lhes: «Ide, procurai diligentemente o Menino, e, logo
-              que O houverdes achado, avisai-me, para que eu vá, também,
-              adorá-l’O». Os Magos, tendo ouvido estas palavras, partiram. Ora,
-              a estrela, que tinham visto no Oriente, ia adiante deles, até que,
-              chegando ao lugar onde estava o Menino, parou. Quando os Magos
-              viram a estrela, alegraram-se muito. Entrando, então, na casa,
-              encontraram o Menino com Maria, sua mãe; e, de joelhos, O
-              adoraram. <Text className="em">(Todos devem ajoelhar)</Text> E,
-              tendo aberto os seus tesouros, ofereceram-Lhe presentes de ouro,
-              incenso e mirra. Depois, havendo tido em sonhos aviso de que não
-              deveriam voltar a encontrar Herodes, retiraram-se por outro
-              caminho para o seu país.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+          Matthǽu.
+        </Text>
+        <Text className="vernacular">
+          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+          segundo S. Mateus.
+        </Text>
+        <Text className="latin">
+          Cum natus esset Jesus in Béthlehem Juda in diébus Heródis regis, ecce,
+          Magi ab Oriénte venerunt Jerosólymam, dicéntes: Ubi est, qui natus est
+          rex Judæórum? Vidimus enim stellam ejus in Oriénte, et vénimus adoráre
+          eum. Audiens autem Heródes rex, turbatus est, et omnis Jerosólyma cum
+          illo. Et cóngregans omnes principes sacerdotum et scribas pópuli,
+          sciscitabátur ab eis, ubi Christus nasceretur. At illi dixérunt ei: In
+          Béthlehem Judae: sic enim scriptum est per Prophétam: Et tu, Béthlehem
+          terra Juda, nequaquam mínima es in princípibus Juda; ex te enim éxiet
+          dux, qui regat pópulum meum Israel. Tunc Heródes, clam vocátis Magis,
+          diligénter dídicit ab eis tempus stellæ, quæ appáruit eis: et mittens
+          illos in Béthlehem, dixit: Ite, et interrogáte diligénter de púero: et
+          cum invenéritis, renuntiáte mihi, ut et ego véniens adórem eum. Qui
+          cum audíssent regem, abiérunt. Et ecce, stella, quam víderant in
+          Oriénte, antecedébat eos, usque dum véniens staret supra, ubi erat
+          Puer. Vidéntes autem stellam, gavísi sunt gáudio magno valde. Et
+          intrántes domum, invenérunt Púerum cum María Matre ejus,{" "}
+          <Text className="em">(hic genuflectitur)</Text> ei procidéntes
+          adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei múnera,
+          aurum, thus et myrrham. Et responso accépto in somnis, ne redírent ad
+          Heródem, per aliam viam revérsi sunt in regiónem suam.
+        </Text>
+        <Text className="vernacular">
+          Havendo Jesus nascido em Belém, de Judá, no tempo do rei Herodes, eis
+          que vieram a Jerusalém os Magos do Oriente, dizendo: «Onde está o rei
+          dos Judeus, que acaba de nascer? Pois vimos a sua estrela no Oriente e
+          viemos adorá-l’O». Logo que o rei Herodes ouviu esta notícia, ficou
+          perturbado, assim como toda a gente de Jerusalém, convocando logo
+          todos os príncipes dos sacerdotes e os escribas do povo, para saber
+          deles onde deveria nascer Cristo. Responderam-lhe eles: «Em Belém, de
+          Judá, pois está escrito pelo Profeta: «E tu, Belém, terra de Judá, não
+          serás certamente a menos importante entre as terras principais de
+          Judá, pois em ti nascerá o Rei, que governará o meu povo de Israel».
+          Então Herodes mandou chamar em segredo os Magos, informando-se com
+          eles diligentemente acerca do tempo em que a estrela havia aparecido.
+          E, enviando-os a Belém, disse-lhes: «Ide, procurai diligentemente o
+          Menino, e, logo que O houverdes achado, avisai-me, para que eu vá,
+          também, adorá-l’O». Os Magos, tendo ouvido estas palavras, partiram.
+          Ora, a estrela, que tinham visto no Oriente, ia adiante deles, até
+          que, chegando ao lugar onde estava o Menino, parou. Quando os Magos
+          viram a estrela, alegraram-se muito. Entrando, então, na casa,
+          encontraram o Menino com Maria, sua mãe; e, de joelhos, O adoraram.{" "}
+          <Text className="em">(Todos devem ajoelhar)</Text> E, tendo aberto os
+          seus tesouros, ofereceram-Lhe presentes de ouro, incenso e mirra.
+          Depois, havendo tido em sonhos aviso de que não deveriam voltar a
+          encontrar Herodes, retiraram-se por outro caminho para o seu país.
+        </Text>
+      </Language>
 
-          <Text className="h3">Ofertório</Text>
+      <Text className="h3">Ofertório</Text>
 
-          <Text className="em">Sl. 71, 10-11</Text>
+      <Text className="em">Sl. 71, 10-11</Text>
 
-          <Language>
-            <Text className="latin">
-              Reges Tharsis, et ínsulæ múnera ófferent: reges Arabum et Saba
-              dona addúcent: et adorábunt eum omnes reges terræ, omnes gentes
-              sérvient ei.
-            </Text>
-            <Text className="vernacular">
-              Os reis de Társis e as ilhas oferecer-Lhe-ão tributos: Os reis de
-              Arábia e de Sabá levar-Lhe-ão ofertas; todos os reis da terra O
-              adorarão; e todas as nações O servirão.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Reges Tharsis, et ínsulæ múnera ófferent: reges Arabum et Saba dona
+          addúcent: et adorábunt eum omnes reges terræ, omnes gentes sérvient
+          ei.
+        </Text>
+        <Text className="vernacular">
+          Os reis de Társis e as ilhas oferecer-Lhe-ão tributos: Os reis de
+          Arábia e de Sabá levar-Lhe-ão ofertas; todos os reis da terra O
+          adorarão; e todas as nações O servirão.
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Ecclésiæ tuæ, quǽsumus, Dómine, dona propítius intuere: quibus non
-              jam aurum, thus et myrrha profertur; sed quod eisdem munéribus
-              declarátur, immolátur et súmitur, Jesus Christus, fílius tuus,
-              Dóminus noster: Qui tecum vivit...
-            </Text>
-            <Text className="vernacular">
-              Dignai-Vos olhar benigno, Senhor, para os dons que a vossa Igreja
-              Vos oferece, não o ouro, o incenso e a mirra, mas o que estas
-              dádivas representam, e que agora é imolado e dado em alimento,
-              Jesus Cristo, vosso Filho, nosso Senhor: Que, sendo Deus...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Ecclésiæ tuæ, quǽsumus, Dómine, dona propítius intuere: quibus non jam
+          aurum, thus et myrrha profertur; sed quod eisdem munéribus declarátur,
+          immolátur et súmitur, Jesus Christus, fílius tuus, Dóminus noster: Qui
+          tecum vivit...
+        </Text>
+        <Text className="vernacular">
+          Dignai-Vos olhar benigno, Senhor, para os dons que a vossa Igreja Vos
+          oferece, não o ouro, o incenso e a mirra, mas o que estas dádivas
+          representam, e que agora é imolado e dado em alimento, Jesus Cristo,
+          vosso Filho, nosso Senhor: Que, sendo Deus...
+        </Text>
+      </Language>
 
-          <Text className="h3">Comúnio</Text>
+      <Text className="h3">Comúnio</Text>
 
-          <Text className="em">Mt. 2, 2</Text>
+      <Text className="em">Mt. 2, 2</Text>
 
-          <Language>
-            <Text className="latin">
-              Vídimus stellam ejus in Oriénte, et vénimus cum munéribus adoráre
-              Dóminum.
-            </Text>
-            <Text className="vernacular">
-              Vimos a sua estrela no Oriente e viemos com ofertas adorar o
-              Senhor.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Vídimus stellam ejus in Oriénte, et vénimus cum munéribus adoráre
+          Dóminum.
+        </Text>
+        <Text className="vernacular">
+          Vimos a sua estrela no Oriente e viemos com ofertas adorar o Senhor.
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Præsta, quǽsumus, omnípotens Deus: ut, quæ sollémni celebrámus
-              officio, purificátæ mentis intellegéntia consequámur. Per Dóminum
-              nostrum...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus omnipotente, dignai-Vos purificar inteiramente o nosso
-              espírito, a fim de que compreenda os mystérios que celebrámos
-              neste solene ofício. Por nosso Senhor...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Præsta, quǽsumus, omnípotens Deus: ut, quæ sollémni celebrámus
+          officio, purificátæ mentis intellegéntia consequámur. Per Dóminum
+          nostrum...
+        </Text>
+        <Text className="vernacular">
+          Ó Deus omnipotente, dignai-Vos purificar inteiramente o nosso
+          espírito, a fim de que compreenda os mystérios que celebrámos neste
+          solene ofício. Por nosso Senhor...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

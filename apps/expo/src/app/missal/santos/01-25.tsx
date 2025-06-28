@@ -1,346 +1,331 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
+import PageWrapper from "~/components/Page";
 
 export default function Page0125() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">Conversão de S. Paulo, a 25 de Janeiro</Text>
+    <PageWrapper>
+      <Text className="h1">Conversão de S. Paulo, a 25 de Janeiro</Text>
 
-          <Text className="comment">
-            Paulo de Tarso era judeu da tribo de Benjamim. Fariseu dos mais
-            zelosos, a Epístola nolo apresenta cheio de ódio «contra os
-            discípulos do Senhor» . Torna-se «vaso de eleição» tão «repleto do
-            Espírito Santo» (Ep.) «que todas as nações hão-de beber de sua
-            plenitude», diz S. Ambrósio, e por ele hão-de aprender que «Jesus é
-            o Filho de Deus» (Ep.). S. Paulo é o duodécimo apóstolo de Cristo
-            (Al.) «há-de assentar-se num dos treze tronos e julgará o mundo
-            quando o Filho do Homem em pessoa se assentar sobre o trono que lhe
-            pertence como Filho de Deus» (Ev.). Graças à festa de hoje, distando
-            apenas alguns dias da festa da Cátedra de S. Pedro em Roma, e
-            oriunda de uma trasladação do corpo de S. Paulo, podemos ver, em
-            todo o Tempo depois da Epifania, como um quadro da admirável visão
-            da realeza de Jesus. S. Pedro mais especialmente enviado aos filhos
-            de Israel, e S. Paulo aos Gentios (Or., Grad.). No centro, a
-            Galileia com as suas verdejantes colinas onde percebemos Cana, a
-            Sinagoga de Nazaré e o lago de Genesaré, onde Jesus, por seus
-            milagres, provou que era o Filho de Deus. Seguindo o exemplo de S.
-            Paulo, manifestemos por nossa fé e uma vida completamente nova, que
-            Jesus é Deus e nosso Rei.
-          </Text>
+      <Text className="comment">
+        Paulo de Tarso era judeu da tribo de Benjamim. Fariseu dos mais zelosos,
+        a Epístola nolo apresenta cheio de ódio «contra os discípulos do Senhor»
+        . Torna-se «vaso de eleição» tão «repleto do Espírito Santo» (Ep.) «que
+        todas as nações hão-de beber de sua plenitude», diz S. Ambrósio, e por
+        ele hão-de aprender que «Jesus é o Filho de Deus» (Ep.). S. Paulo é o
+        duodécimo apóstolo de Cristo (Al.) «há-de assentar-se num dos treze
+        tronos e julgará o mundo quando o Filho do Homem em pessoa se assentar
+        sobre o trono que lhe pertence como Filho de Deus» (Ev.). Graças à festa
+        de hoje, distando apenas alguns dias da festa da Cátedra de S. Pedro em
+        Roma, e oriunda de uma trasladação do corpo de S. Paulo, podemos ver, em
+        todo o Tempo depois da Epifania, como um quadro da admirável visão da
+        realeza de Jesus. S. Pedro mais especialmente enviado aos filhos de
+        Israel, e S. Paulo aos Gentios (Or., Grad.). No centro, a Galileia com
+        as suas verdejantes colinas onde percebemos Cana, a Sinagoga de Nazaré e
+        o lago de Genesaré, onde Jesus, por seus milagres, provou que era o
+        Filho de Deus. Seguindo o exemplo de S. Paulo, manifestemos por nossa fé
+        e uma vida completamente nova, que Jesus é Deus e nosso Rei.
+      </Text>
 
-          <Text className="h3">Intróito</Text>
+      <Text className="h3">Intróito</Text>
 
-          <Text className="em">2 Tm. 1, 12</Text>
+      <Text className="em">2 Tm. 1, 12</Text>
 
-          <Language>
-            <Text className="latin">
-              Scio, cui crédidi, et certus sum, quia potens est depósitum meum
-              serváre in illum diem, justus judex.{" "}
-              <Text className="latin">Ps. 138, 1-2</Text> Dómine, probásti me et
-              cognovísti me: tu cognovísti sessiónem meam et resurrectiónem
-              meam.<Text className="versicle"> ℣. </Text>Gloria Patri...
-            </Text>
-            <Text className="vernacular">
-              Sei em quem acreditar, e estou certo de que tem poder para guardar
-              o meu depósito até àquele dia em que me julgará como justo Juiz.{" "}
-              <Text className="vernacular">Sl. 138, 1-2</Text> Senhor, Vós me
-              perscrutastes e me conhecestes: conhecestes quando me deito e
-              quando me levanto.<Text className="versicle"> ℣. </Text>Glória ao
-              Pai...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Scio, cui crédidi, et certus sum, quia potens est depósitum meum
+          serváre in illum diem, justus judex.{" "}
+          <Text className="latin">Ps. 138, 1-2</Text> Dómine, probásti me et
+          cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.
+          <Text className="versicle"> ℣. </Text>Gloria Patri...
+        </Text>
+        <Text className="vernacular">
+          Sei em quem acreditar, e estou certo de que tem poder para guardar o
+          meu depósito até àquele dia em que me julgará como justo Juiz.{" "}
+          <Text className="vernacular">Sl. 138, 1-2</Text> Senhor, Vós me
+          perscrutastes e me conhecestes: conhecestes quando me deito e quando
+          me levanto.<Text className="versicle"> ℣. </Text>Glória ao Pai...
+        </Text>
+      </Language>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Deus, qui univérsum mundum beáti Pauli Apóstoli prædicatióne
-              docuísti: da nobis, quǽsumus; ut, qui ejus hódie Conversiónem
-              cólimus, per ejus ad te exémpla gradiámur. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, que instruístes o mundo inteiro com a pregação do B.
-              Apóstolo Paulo, concedei-nos, Vos suplicamos, que, celebrando hoje
-              a sua Conversão, caminhemos para Vós, seguindo os seus exemplos.
-              Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Deus, qui univérsum mundum beáti Pauli Apóstoli prædicatióne docuísti:
+          da nobis, quǽsumus; ut, qui ejus hódie Conversiónem cólimus, per ejus
+          ad te exémpla gradiámur. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Ó Deus, que instruístes o mundo inteiro com a pregação do B. Apóstolo
+          Paulo, concedei-nos, Vos suplicamos, que, celebrando hoje a sua
+          Conversão, caminhemos para Vós, seguindo os seus exemplos. Por nosso
+          Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Oração Comemoração de S. Pedro</Text>
+      <Text className="h3">Oração Comemoração de S. Pedro</Text>
 
-          <LinkCard
-            title="Oração Cadeira de S. Pedro em Roma"
-            href="/missal/santos/02-22#oração"
-          />
+      <LinkCard
+        title="Oração Cadeira de S. Pedro em Roma"
+        href="/missal/santos/02-22#oração"
+      />
 
-          <Text className="h3">Epístola</Text>
+      <Text className="h3">Epístola</Text>
 
-          <Text className="em">Act. 9, 1-22</Text>
+      <Text className="em">Act. 9, 1-22</Text>
 
-          <Language>
-            <Text className="latin">Léctio Actuum Apostolórum.</Text>
-            <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
-            <Text className="latin">
-              In diébus illis: Saulus adhuc spirans minárum et cædis in
-              discípulos Dómini, accéssit ad príncipem sacerdótum, et pétiit ab
-              eo epístolas in Damáscum ad synagógas: ut, si quos invenísset
-              hujus viæ viros ac mulíeres, vinctos perdúceret in Jerúsalem. Et
-              cum iter fáceret, cóntigit, ut appropinquáret Damásco: et súbito
-              circumfúlsit eum lux de cœlo. Et cadens in terram, audívit vocem
-              dicéntem sibi: Saule, Saule, quid me perséqueris? Qui dixit: Quis
-              es, Dómine? Et ille: Ego sum Jesus, quem tu perséqueris: durum est
-              tibi contra stímulum calcitráre. Et tremens ac stupens, dixit:
-              Dómine, quid me vis fácere? Et Dóminus ad eum: Surge et ingrédere
-              civitátem, et ibi dicétur tibi, quid te opórteat fácere. Viri
-              autem illi, qui comitabántur cum eo, stabant stupefácti, audiéntes
-              quidem vocem, néminem autem vidéntes. Surréxit autem Saulus de
-              terra, apertísque óculis nihil vidébat. Ad manus autem illum
-              trahéntes, introduxérunt Damáscum. Et erat ibi tribus diébus non
-              videns, et non manducávit neque bibit. Erat autem quidam
-              discípulus Damásci, nómine Ananías: et dixit ad illum in visu
-              Dóminus: Ananía. At ille ait: Ecce ego, Dómine. Et Dóminus ad eum:
-              Surge et vade in vicum, qui vocátur Rectus: et quære in domo Judæ
-              Saulum nómine Tarsénsem: ecce enim orat. (Et vidit virum, Ananíam
-              nómine, introeúntem et imponéntem sibi manus, ut visum recipiat.)
-              Respóndit autem Ananías: Dómine, audívi a multis de viro hoc,
-              quanta mala fécerit sanctis tuis in Jerúsalem: et hic habet
-              potestátem a princípibus sacerdótum alligándi omnes, qui ínvocant
-              nomen tuum. Dixit autem ad eum Dóminus: Vade, quóniam vas
-              electiónis est mihi iste, ut portet nomen meum coram géntibus et
-              régibus et fíliis Israël. Ego enim osténdam illi, quanta opórteat
-              eum pro nómine meo pati. Et ábiit Ananías et introívit in domum:
-              et impónens ei manus, dixit: Saule frater, Dóminus misit me Jesus,
-              qui appáruit tibi in via, qua veniébas, ut vídeas et impleáris
-              Spíritu Sancto. Ei conféstim cecidérunt ab óculis ejus tamquam
-              squamæ, et visum recépit: et surgens baptizátus est. Et cum
-              accepísset cibum, confortátus est. Fuit autem cum discípulis, qui
-              erant Damásci, per dies áliquot. Et contínuo in synagógis
-              prædicábat Jesum, quóniam hic est Fílius Dei. Stupébant autem
-              omnes, qui audiébant, et dicébant: Nonne hic est, qui expugnábat
-              in Jerúsalem eos, qui invocábant nomen istud: et huc ad hoc venit,
-              ut vinctos illos dúcere ad príncipes sacerdótum? Saulus autem
-              multo magis convalescébat, et confundébat Judǽos, qui habitábant
-              Damásci, affírmans, quóniam hic est Christus.
-            </Text>
-            <Text className="vernacular">
-              Naqueles dias, Saulo, respirando ainda ameaças e morte contra os
-              discípulos do Senhor, foi encontrar o príncipe dos sacerdotes e
-              pediu-lhe Cartas para as sinagogas de Damasco, a fim de que, se
-              encontrasse alguém desta crença, homem ou mulher, os trouxesse
-              presos para Jerusalém. Indo já de caminho e próximo de Damasco,
-              subitamente, uma luz, vinda do céu, resplandeceu em torno dele.
-              Então caiu por terra, ouvindo uma voz que lhe dizia: «Saulo,
-              Saulo, porque me persegues?». E ele respondeu: «Quem sois vós,
-              Senhor?». O Senhor disse-lhe: «Sou Jesus, a quem persegues. Duro é
-              para ti recalcitrar contra o aguilhão!». E Saulo, a tremer e
-              atónito, disse: «Senhor, que quereis que faça?». O Senhor
-              respondeu-lhe: «Levanta-te, entra na cidade e aí te será dito o
-              que convém que faças». Ora os homens que o acompanhavam pararam
-              aterrados, pois ouviam o som de uma voz, mas não viam ninguém.
-              Levantando-se Saulo e abrindo os olhos, não via nada.
-              Conduziram-no, então, pela mão e fizeram-no entrar em Damasco,
-              onde esteve três dias sem comer, nem beber, nem ver. Havia em
-              Damasco um certo discípulo chamado Ananias, a quem o Senhor disse
-              em visão: «Ananias!». Ele respondeu: «Eis-me aqui, Senhor». E o
-              Senhor disse-lhe: «Levanta-te, vai à rua chamada Direita e procura
-              em casa de Judas um homem, chamado Saulo, de Tarso, que lá está,
-              rezando, agora». (E Saulo viu que um varão, chamado Ananias,
-              entrava e lhe impunha as mãos, para que tornasse a ver). Respondeu
-              Ananias: «Senhor, tenho ouvido a muitos, quanto mal este homem tem
-              feito aos vossos santos em Jerusalém; e também que tem poder dos
-              príncipes dos sacerdotes para prender a todos que invoquem o vosso
-              nome». Porém o Senhor disse-lhe: «Vai, porque este é o meu vaso
-              escolhido para levar o meu nome diante dos pagãos, dos reis e dos
-              filhos de Israel. Eu lhe mostrarei quanto é preciso que padeça por
-              meu nome». Foi Ananias, entrou na casa e, pondo as mãos sobre ele,
-              disse: «Irmão Saulo, o Senhor Jesus, que te apareceu no caminho
-              por onde vinhas, enviou-me para que tornes a ver e sejas cheio do
-              Espírito Santo». Imediatamente caíram-lhe dos olhos como que
-              escamas, recobrou a vista e, levantando-se, foi baptizado; e,
-              comendo, ficou confortado. Então esteve com os discípulos, que
-              havia em Damasco, por alguns dias. E pregava a Jesus nas
-              sinagogas, dizendo que Este era o Filho de Deus. E todos que o
-              ouviam ficavam atónitos e diziam: «Não é este que em Jerusalém
-              combatia os que invocavam este nome e veio aqui com o intento de
-              levá-los aos príncipes dos sacerdotes?». Mas Saulo muito mais se
-              esforçava e confundia os judeus, que habitavam em Damasco,
-              pregando a Jesus e demonstrando que Este era o Cristo.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">Léctio Actuum Apostolórum.</Text>
+        <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
+        <Text className="latin">
+          In diébus illis: Saulus adhuc spirans minárum et cædis in discípulos
+          Dómini, accéssit ad príncipem sacerdótum, et pétiit ab eo epístolas in
+          Damáscum ad synagógas: ut, si quos invenísset hujus viæ viros ac
+          mulíeres, vinctos perdúceret in Jerúsalem. Et cum iter fáceret,
+          cóntigit, ut appropinquáret Damásco: et súbito circumfúlsit eum lux de
+          cœlo. Et cadens in terram, audívit vocem dicéntem sibi: Saule, Saule,
+          quid me perséqueris? Qui dixit: Quis es, Dómine? Et ille: Ego sum
+          Jesus, quem tu perséqueris: durum est tibi contra stímulum calcitráre.
+          Et tremens ac stupens, dixit: Dómine, quid me vis fácere? Et Dóminus
+          ad eum: Surge et ingrédere civitátem, et ibi dicétur tibi, quid te
+          opórteat fácere. Viri autem illi, qui comitabántur cum eo, stabant
+          stupefácti, audiéntes quidem vocem, néminem autem vidéntes. Surréxit
+          autem Saulus de terra, apertísque óculis nihil vidébat. Ad manus autem
+          illum trahéntes, introduxérunt Damáscum. Et erat ibi tribus diébus non
+          videns, et non manducávit neque bibit. Erat autem quidam discípulus
+          Damásci, nómine Ananías: et dixit ad illum in visu Dóminus: Ananía. At
+          ille ait: Ecce ego, Dómine. Et Dóminus ad eum: Surge et vade in vicum,
+          qui vocátur Rectus: et quære in domo Judæ Saulum nómine Tarsénsem:
+          ecce enim orat. (Et vidit virum, Ananíam nómine, introeúntem et
+          imponéntem sibi manus, ut visum recipiat.) Respóndit autem Ananías:
+          Dómine, audívi a multis de viro hoc, quanta mala fécerit sanctis tuis
+          in Jerúsalem: et hic habet potestátem a princípibus sacerdótum
+          alligándi omnes, qui ínvocant nomen tuum. Dixit autem ad eum Dóminus:
+          Vade, quóniam vas electiónis est mihi iste, ut portet nomen meum coram
+          géntibus et régibus et fíliis Israël. Ego enim osténdam illi, quanta
+          opórteat eum pro nómine meo pati. Et ábiit Ananías et introívit in
+          domum: et impónens ei manus, dixit: Saule frater, Dóminus misit me
+          Jesus, qui appáruit tibi in via, qua veniébas, ut vídeas et impleáris
+          Spíritu Sancto. Ei conféstim cecidérunt ab óculis ejus tamquam squamæ,
+          et visum recépit: et surgens baptizátus est. Et cum accepísset cibum,
+          confortátus est. Fuit autem cum discípulis, qui erant Damásci, per
+          dies áliquot. Et contínuo in synagógis prædicábat Jesum, quóniam hic
+          est Fílius Dei. Stupébant autem omnes, qui audiébant, et dicébant:
+          Nonne hic est, qui expugnábat in Jerúsalem eos, qui invocábant nomen
+          istud: et huc ad hoc venit, ut vinctos illos dúcere ad príncipes
+          sacerdótum? Saulus autem multo magis convalescébat, et confundébat
+          Judǽos, qui habitábant Damásci, affírmans, quóniam hic est Christus.
+        </Text>
+        <Text className="vernacular">
+          Naqueles dias, Saulo, respirando ainda ameaças e morte contra os
+          discípulos do Senhor, foi encontrar o príncipe dos sacerdotes e
+          pediu-lhe Cartas para as sinagogas de Damasco, a fim de que, se
+          encontrasse alguém desta crença, homem ou mulher, os trouxesse presos
+          para Jerusalém. Indo já de caminho e próximo de Damasco, subitamente,
+          uma luz, vinda do céu, resplandeceu em torno dele. Então caiu por
+          terra, ouvindo uma voz que lhe dizia: «Saulo, Saulo, porque me
+          persegues?». E ele respondeu: «Quem sois vós, Senhor?». O Senhor
+          disse-lhe: «Sou Jesus, a quem persegues. Duro é para ti recalcitrar
+          contra o aguilhão!». E Saulo, a tremer e atónito, disse: «Senhor, que
+          quereis que faça?». O Senhor respondeu-lhe: «Levanta-te, entra na
+          cidade e aí te será dito o que convém que faças». Ora os homens que o
+          acompanhavam pararam aterrados, pois ouviam o som de uma voz, mas não
+          viam ninguém. Levantando-se Saulo e abrindo os olhos, não via nada.
+          Conduziram-no, então, pela mão e fizeram-no entrar em Damasco, onde
+          esteve três dias sem comer, nem beber, nem ver. Havia em Damasco um
+          certo discípulo chamado Ananias, a quem o Senhor disse em visão:
+          «Ananias!». Ele respondeu: «Eis-me aqui, Senhor». E o Senhor
+          disse-lhe: «Levanta-te, vai à rua chamada Direita e procura em casa de
+          Judas um homem, chamado Saulo, de Tarso, que lá está, rezando, agora».
+          (E Saulo viu que um varão, chamado Ananias, entrava e lhe impunha as
+          mãos, para que tornasse a ver). Respondeu Ananias: «Senhor, tenho
+          ouvido a muitos, quanto mal este homem tem feito aos vossos santos em
+          Jerusalém; e também que tem poder dos príncipes dos sacerdotes para
+          prender a todos que invoquem o vosso nome». Porém o Senhor disse-lhe:
+          «Vai, porque este é o meu vaso escolhido para levar o meu nome diante
+          dos pagãos, dos reis e dos filhos de Israel. Eu lhe mostrarei quanto é
+          preciso que padeça por meu nome». Foi Ananias, entrou na casa e, pondo
+          as mãos sobre ele, disse: «Irmão Saulo, o Senhor Jesus, que te
+          apareceu no caminho por onde vinhas, enviou-me para que tornes a ver e
+          sejas cheio do Espírito Santo». Imediatamente caíram-lhe dos olhos
+          como que escamas, recobrou a vista e, levantando-se, foi baptizado; e,
+          comendo, ficou confortado. Então esteve com os discípulos, que havia
+          em Damasco, por alguns dias. E pregava a Jesus nas sinagogas, dizendo
+          que Este era o Filho de Deus. E todos que o ouviam ficavam atónitos e
+          diziam: «Não é este que em Jerusalém combatia os que invocavam este
+          nome e veio aqui com o intento de levá-los aos príncipes dos
+          sacerdotes?». Mas Saulo muito mais se esforçava e confundia os judeus,
+          que habitavam em Damasco, pregando a Jesus e demonstrando que Este era
+          o Cristo.
+        </Text>
+      </Language>
 
-          <Text className="h3">Gradual</Text>
+      <Text className="h3">Gradual</Text>
 
-          <Text className="em">Gl. 2, 8 & 9</Text>
+      <Text className="em">Gl. 2, 8 & 9</Text>
 
-          <Language>
-            <Text className="latin">
-              Qui operátus est Petro in apostolátum, operátus est ei mihi inter
-              gentes: et cognovérunt grátiam Dei, quæ data est mihi.
-              <Text className="versicle"> ℣. </Text>Grátia Dei in me vácua non
-              fuit: sed grátia ejus semper in me manet.
-            </Text>
-            <Text className="vernacular">
-              Aquele que eficazmente trabalhou com Pedro para o tornar Apóstolo
-              também fez de mim o Apóstolo dos gentios: e Conheceram a graça de
-              Deus, que me foi dada.<Text className="versicle"> ℣. </Text>A
-              graça de Deus em mim não foi estéril, mas permanece sempre em mim.
-            </Text>
-            <Text className="latin">
-              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Magnus
-              sanctus Paulus, vas electiónis, vere digne est glorificándus, qui
-              et méruit thronum duodécimum possídere. Allelúja.
-            </Text>
-            <Text className="vernacular">
-              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>O grande S.
-              Paulo, este vaso de eleição, é verdadeiramente digno de glória,
-              pois mereceu ocupar o duodécimo trono. Aleluia.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Qui operátus est Petro in apostolátum, operátus est ei mihi inter
+          gentes: et cognovérunt grátiam Dei, quæ data est mihi.
+          <Text className="versicle"> ℣. </Text>Grátia Dei in me vácua non fuit:
+          sed grátia ejus semper in me manet.
+        </Text>
+        <Text className="vernacular">
+          Aquele que eficazmente trabalhou com Pedro para o tornar Apóstolo
+          também fez de mim o Apóstolo dos gentios: e Conheceram a graça de
+          Deus, que me foi dada.<Text className="versicle"> ℣. </Text>A graça de
+          Deus em mim não foi estéril, mas permanece sempre em mim.
+        </Text>
+        <Text className="latin">
+          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Magnus
+          sanctus Paulus, vas electiónis, vere digne est glorificándus, qui et
+          méruit thronum duodécimum possídere. Allelúja.
+        </Text>
+        <Text className="vernacular">
+          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>O grande S.
+          Paulo, este vaso de eleição, é verdadeiramente digno de glória, pois
+          mereceu ocupar o duodécimo trono. Aleluia.
+        </Text>
+      </Language>
 
-          <Text className="aside">
-            Após a Septuagésima omite-se o Aleluia e o Verso e diz-se:
-          </Text>
+      <Text className="aside">
+        Após a Septuagésima omite-se o Aleluia e o Verso e diz-se:
+      </Text>
 
-          <Text className="h3">Trato</Text>
+      <Text className="h3">Trato</Text>
 
-          <Language>
-            <Text className="latin">
-              Tu es vas electiónis, sancte Paule Apóstole: vere digne es
-              glorificándus.<Text className="versicle"> ℣. </Text>Prædicátor
-              veritátis et doctor géntium in fide et veritáte.
-              <Text className="versicle"> ℣. </Text>Per te omnes gentes
-              cognovérunt grátiam Dei.<Text className="versicle"> ℣. </Text>
-              Intercéde pro nobis ad Deum, qui te elégit.
-            </Text>
-            <Text className="vernacular">
-              Sois um vaso de eleição, ó Apóstolo S. Paulo; e é com justa razão
-              que vos glorificamos.<Text className="versicle"> ℣. </Text>Sois o
-              pregador da verdade e o Doutor das nações, ensinando-lhes a fé e a
-              verdade.<Text className="versicle"> ℣. </Text>Pelo vosso
-              apostolado todas as nações conheceram a graça de Deus.
-              <Text className="versicle"> ℣. </Text>Intercedei, pois, por nós
-              junto de Deus, que vos escolheu.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Tu es vas electiónis, sancte Paule Apóstole: vere digne es
+          glorificándus.<Text className="versicle"> ℣. </Text>Prædicátor
+          veritátis et doctor géntium in fide et veritáte.
+          <Text className="versicle"> ℣. </Text>Per te omnes gentes cognovérunt
+          grátiam Dei.<Text className="versicle"> ℣. </Text>
+          Intercéde pro nobis ad Deum, qui te elégit.
+        </Text>
+        <Text className="vernacular">
+          Sois um vaso de eleição, ó Apóstolo S. Paulo; e é com justa razão que
+          vos glorificamos.<Text className="versicle"> ℣. </Text>Sois o pregador
+          da verdade e o Doutor das nações, ensinando-lhes a fé e a verdade.
+          <Text className="versicle"> ℣. </Text>Pelo vosso apostolado todas as
+          nações conheceram a graça de Deus.
+          <Text className="versicle"> ℣. </Text>Intercedei, pois, por nós junto
+          de Deus, que vos escolheu.
+        </Text>
+      </Language>
 
-          <Text className="h3">Evangelho</Text>
+      <Text className="h3">Evangelho</Text>
 
-          <Text className="em">Mt. 19, 27-29</Text>
+      <Text className="em">Mt. 19, 27-29</Text>
 
-          <Language>
-            <Text className="latin">
-              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
-              secúndum Matthǽum.
-            </Text>
-            <Text className="vernacular">
-              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
-              segundo S. Mateus.
-            </Text>
-            <Text className="latin">
-              In illo témpore: Dixit Petrus ad Jesum: Ecce, nos relíquimus
-              ómnia, et secúti sumus te: quid ergo erit nobis? Jesus autem dixit
-              illis: Amen, dico vobis, quod vos, qui secúti estis me, in
-              regeneratióne, cum séderit Fílius hóminis in sede majestátis suæ,
-              sedébitis et vos super sedes duódecim, judicántes duódecim tribus
-              Israël. Et omnis, qui relíquerit domum, vel fratres, aut soróres,
-              aut patrem, aut matrem, aut uxórem, aut fílios, aut agros, propter
-              nomen meum, céntuplum accípiet, et vitam ætérnam possidébit.
-            </Text>
-            <Text className="vernacular">
-              Naquele tempo, disse Pedro a Jesus: «Eis que deixámos tudo e Vos
-              seguimos. Que recompensa teremos por isso?». Jesus disse-lhes: «Em
-              verdade vos digo: vós, que me seguistes, quando, no tempo da
-              regeneração, o Filho do homem se assentar no trono da sua glória,
-              também vos assentareis sobre doze tronos para julgar as doze
-              tribos de Israel. Todo aquele que deixar a sua casa, ou os seus
-              irmãos, ou os seus campos, ou o seu pai, ou a sua mãe, ou a sua
-              mulher por causa do meu nome, receberá o cêntuplo e possuirá a
-              vida eterna».
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+          Matthǽum.
+        </Text>
+        <Text className="vernacular">
+          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+          segundo S. Mateus.
+        </Text>
+        <Text className="latin">
+          In illo témpore: Dixit Petrus ad Jesum: Ecce, nos relíquimus ómnia, et
+          secúti sumus te: quid ergo erit nobis? Jesus autem dixit illis: Amen,
+          dico vobis, quod vos, qui secúti estis me, in regeneratióne, cum
+          séderit Fílius hóminis in sede majestátis suæ, sedébitis et vos super
+          sedes duódecim, judicántes duódecim tribus Israël. Et omnis, qui
+          relíquerit domum, vel fratres, aut soróres, aut patrem, aut matrem,
+          aut uxórem, aut fílios, aut agros, propter nomen meum, céntuplum
+          accípiet, et vitam ætérnam possidébit.
+        </Text>
+        <Text className="vernacular">
+          Naquele tempo, disse Pedro a Jesus: «Eis que deixámos tudo e Vos
+          seguimos. Que recompensa teremos por isso?». Jesus disse-lhes: «Em
+          verdade vos digo: vós, que me seguistes, quando, no tempo da
+          regeneração, o Filho do homem se assentar no trono da sua glória,
+          também vos assentareis sobre doze tronos para julgar as doze tribos de
+          Israel. Todo aquele que deixar a sua casa, ou os seus irmãos, ou os
+          seus campos, ou o seu pai, ou a sua mãe, ou a sua mulher por causa do
+          meu nome, receberá o cêntuplo e possuirá a vida eterna».
+        </Text>
+      </Language>
 
-          <Text className="h3">Ofertório</Text>
+      <Text className="h3">Ofertório</Text>
 
-          <Text className="em">Sl. 138, 17</Text>
+      <Text className="em">Sl. 138, 17</Text>
 
-          <Language>
-            <Text className="latin">
-              Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus
-              est principátus eórum.
-            </Text>
-            <Text className="vernacular">
-              Largamente, ó meu Deus, tendes honrado os vossos amigos: e
-              extraordinariamente tendes favorecido o seu poder.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est
+          principátus eórum.
+        </Text>
+        <Text className="vernacular">
+          Largamente, ó meu Deus, tendes honrado os vossos amigos: e
+          extraordinariamente tendes favorecido o seu poder.
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Apóstoli tui Pauli précibus, Dómine, plebis tuæ dona sanctífica:
-              ut, quæ tibi tuo grata sunt institúto, gratióra fiant patrocínio
-              supplicántis. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Senhor, pelas orações do vosso Apóstolo Paulo, santificai as
-              ofertas do vosso povo, para que, sendo-vos elas já em si
-              agradáveis, porque foram por Vós instituídas, mais agradáveis
-              ainda Vos sejam, pelas súplicas do intercessor. Por nosso
-              Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Apóstoli tui Pauli précibus, Dómine, plebis tuæ dona sanctífica: ut,
+          quæ tibi tuo grata sunt institúto, gratióra fiant patrocínio
+          supplicántis. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Senhor, pelas orações do vosso Apóstolo Paulo, santificai as ofertas
+          do vosso povo, para que, sendo-vos elas já em si agradáveis, porque
+          foram por Vós instituídas, mais agradáveis ainda Vos sejam, pelas
+          súplicas do intercessor. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta Comemoração de S. Pedro</Text>
+      <Text className="h3">Secreta Comemoração de S. Pedro</Text>
 
-          <LinkCard
-            title="Secreta Cadeira de S. Pedro em Roma"
-            href="/missal/santos/02-22#secreta"
-          />
+      <LinkCard
+        title="Secreta Cadeira de S. Pedro em Roma"
+        href="/missal/santos/02-22#secreta"
+      />
 
-          <Text className="h3">Comúnio</Text>
+      <Text className="h3">Comúnio</Text>
 
-          <Text className="em">Mt. 19, 28 & 29</Text>
+      <Text className="em">Mt. 19, 28 & 29</Text>
 
-          <Language>
-            <Text className="latin">
-              Amen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis
-              me, céntuplum accipiétis, et vitam ætérnam possidébitis.
-            </Text>
-            <Text className="vernacular">
-              Em verdade vos digo: Vós, que tudo abandonastes e me seguistes,
-              recebereis o cêntuplo e alcançareis a vida eterna.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Amen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis me,
+          céntuplum accipiétis, et vitam ætérnam possidébitis.
+        </Text>
+        <Text className="vernacular">
+          Em verdade vos digo: Vós, que tudo abandonastes e me seguistes,
+          recebereis o cêntuplo e alcançareis a vida eterna.
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Sanctificáti, Dómine, salutári mystério: quǽsumus; ut nobis ejus
-              non desit orátio, cujus nos donásti patrocínio gubernári. Per
-              Dóminum nostrum...
-            </Text>
-            <Text className="vernacular">
-              Já santificados, Senhor, com este salutar mystério, Vos imploramos
-              que nunca nos falte a intercessão daquele a cujo amparo fomos
-              confiados. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Sanctificáti, Dómine, salutári mystério: quǽsumus; ut nobis ejus non
+          desit orátio, cujus nos donásti patrocínio gubernári. Per Dóminum
+          nostrum...
+        </Text>
+        <Text className="vernacular">
+          Já santificados, Senhor, com este salutar mystério, Vos imploramos que
+          nunca nos falte a intercessão daquele a cujo amparo fomos confiados.
+          Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio Comemoração de S. Pedro</Text>
+      <Text className="h3">Postcomúnio Comemoração de S. Pedro</Text>
 
-          <LinkCard
-            title="Postcomúnio Cadeira de S. Pedro em Roma"
-            href="/missal/santos/02-22#postcomúnio"
-          />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <LinkCard
+        title="Postcomúnio Cadeira de S. Pedro em Roma"
+        href="/missal/santos/02-22#postcomúnio"
+      />
+    </PageWrapper>
   );
 }

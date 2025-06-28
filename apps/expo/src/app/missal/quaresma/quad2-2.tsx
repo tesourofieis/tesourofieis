@@ -1,265 +1,255 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function PageQuad22() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">Terça-feira da 2.ª Semana da Quaresma</Text>
+    <PageWrapper>
+      <Text className="h1">Terça-feira da 2.ª Semana da Quaresma</Text>
 
-          <Text className="h3">Intróito</Text>
+      <Text className="h3">Intróito</Text>
 
-          <Text className="em">Sl. 26, 8 & 9</Text>
+      <Text className="em">Sl. 26, 8 & 9</Text>
 
-          <Language>
-            <Text className="latin">
-              Tibi dixit cor meum, quæsívi vultum tuum, vultum tuum, Dómine,
-              requíram: ne avértas fáciem tuam a me.{" "}
-              <Text className="latin">Ps. ibid., 1</Text> Dóminus illuminátio
-              mea, et salus mea: quem timébo?
-              <Text className="versicle"> ℣. </Text>Gloria Patri...
-            </Text>
-            <Text className="vernacular">
-              Da vossa parte, Senhor, me diz meu coração: «Procura a minha
-              presença». Sim, não deixarei, Senhor, de procurar a vossa
-              presença. Não Vos afasteis, pois, de mim.{" "}
-              <Text className="vernacular">Sl. ibid., 1</Text> O Senhor é a
-              minha luz e a minha salvação. A quem, pois, temerei?
-              <Text className="versicle"> ℣. </Text>
-              Glória ao Pai...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Tibi dixit cor meum, quæsívi vultum tuum, vultum tuum, Dómine,
+          requíram: ne avértas fáciem tuam a me.{" "}
+          <Text className="latin">Ps. ibid., 1</Text> Dóminus illuminátio mea,
+          et salus mea: quem timébo?
+          <Text className="versicle"> ℣. </Text>Gloria Patri...
+        </Text>
+        <Text className="vernacular">
+          Da vossa parte, Senhor, me diz meu coração: «Procura a minha
+          presença». Sim, não deixarei, Senhor, de procurar a vossa presença.
+          Não Vos afasteis, pois, de mim.{" "}
+          <Text className="vernacular">Sl. ibid., 1</Text> O Senhor é a minha
+          luz e a minha salvação. A quem, pois, temerei?
+          <Text className="versicle"> ℣. </Text>
+          Glória ao Pai...
+        </Text>
+      </Language>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Pérfice, quǽsumus, Dómine, benignus in nobis observántiæ sanctæ
-              subsídium: ut, quæ te auctóre faciénda cognóvimus, te operánte
-              impleámus. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Senhor, Vos imploramos, continuai a assistir-nos com vossa bondade
-              durante a observância deste santo jejum, a fim de que com vosso
-              auxílio pratiquemos esta boa obra que nos ensinastes com vosso
-              exemplo. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Pérfice, quǽsumus, Dómine, benignus in nobis observántiæ sanctæ
+          subsídium: ut, quæ te auctóre faciénda cognóvimus, te operánte
+          impleámus. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Senhor, Vos imploramos, continuai a assistir-nos com vossa bondade
+          durante a observância deste santo jejum, a fim de que com vosso
+          auxílio pratiquemos esta boa obra que nos ensinastes com vosso
+          exemplo. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Epístola</Text>
+      <Text className="h3">Epístola</Text>
 
-          <Text className="em">3 Rs. 17, 8-16</Text>
+      <Text className="em">3 Rs. 17, 8-16</Text>
 
-          <Language>
-            <Text className="latin">Léctio libri Regum.</Text>
-            <Text className="vernacular">Lição do Livro dos Reis.</Text>
-            <Text className="latin">
-              In diébus illis: Factus est sermo Dómini ad Elíam Thesbíten,
-              dicens: Surge et vade in Saréphta Sidoniórum, et manébis ibi:
-              præcépi enim ibi mulíeri víduæ, ut pascat te. Surréxit et ábiit in
-              Saréphta. Cumque venísset ad portam civitátis, appáruit ei múlier
-              vídua cólligens ligna, et vocávit eam, dixítque ei: Da mihi
-              páululum aquæ in vase, ut bibam. Cumque illa pérgeret, ut
-              afférret, clamávit post tergum ejus, dicens: Affer mihi, óbsecro,
-              et buccéllam panis in manu tua. Quæ respóndit: Vivit Dóminus, Deus
-              tuus, quia non habeo panem, nisi quantum pugíllus cápere potest
-              farínæ in hýdria, et páululum ólei in lécytho: en, collige duo
-              ligna, ut ingrédiar, et fáciam illum mihi et fílio meo, ut
-              comedámus et moriámur. Ad quam Elías ait: Noli timére, sed vade,
-              et fac, sicut dixísti: verúmtamen mihi primum fac de ipsa farínula
-              subcinerícium panem párvulum, et affer ad me: tibi autem et fílio
-              tuo fácies póstea. Hæc autem dicit Dóminus, Deus Israël: Hýdria
-              farínæ non defíciet, nec lécythus ólei minuétur, usque ad diem, in
-              qua Dóminus datúrus est plúviam super fáciem terræ. Quæ ábiit, et
-              fecit juxta verbum Elíæ: et comédit ipse et illa et domus ejus: et
-              ex illa die hýdria farínæ non defécit, et lécythus ólei non est
-              imminútus, juxta verbum Dómini, quod locútus fúerat in manu Elíæ.
-            </Text>
-            <Text className="vernacular">
-              Naqueles dias, falou o Senhor a Elias Tesbiteu, dizendo:
-              «Ergue-te, vai a Sarepta de Sídon e fica lá, pois mandei a uma
-              viúva daquela terra que te sustente». Elias obedeceu à voz de
-              Deus, caminhando para Sarepta. Quando chegou às portas da cidade,
-              encontrou uma viúva, que andava à procura de lenha. Chamou-a logo,
-              dizendo-lhe: «Dá-me um pouco de água num vaso, para eu beber». A
-              viúva dirigiu-se a casa, para trazer a água; mas Elias, que ficou
-              atrás dela, disse-lhe: «Traze-me também nas tuas mãos um bocado de
-              pão, para comer». Ela respondeu: «Viva o Senhor, teu Deus, como
-              não tenho pão algum! Apenas tenho em uma vasilha uma mão de
-              farinha e um pouco de azeite em uma almotolia. Eis que procuro
-              dois bocados de lenha para preparar, para mim e meu filho, quando
-              voltar para casa, esse pouco que possuo. Comeremos isso e
-              morreremos depois». Elias disse-lhe: «Não temas; vai e faz como
-              disseste; mas antes faz para mim um bolo dessa farinha, coze-o no
-              borralho e traze-mo. Para ti e teu filho prepararás depois; porque
-              (diz o Senhor, Deus de Israel) a farinha que está na talha se não
-              acabará e o azeite que está na almotolia se não extinguirá, até ao
-              dia em que o Senhor fizer cair a chuva na terra». Foi ela e
-              procedeu segundo a palavra de Elias. E comeram ele, ela e a
-              família de sua casa! E desde aquele dia não mais faltou a farinha
-              na talha, nem o azeite na almotolia, segundo a palavra que o
-              Senhor proferira pela boca de Elias.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">Léctio libri Regum.</Text>
+        <Text className="vernacular">Lição do Livro dos Reis.</Text>
+        <Text className="latin">
+          In diébus illis: Factus est sermo Dómini ad Elíam Thesbíten, dicens:
+          Surge et vade in Saréphta Sidoniórum, et manébis ibi: præcépi enim ibi
+          mulíeri víduæ, ut pascat te. Surréxit et ábiit in Saréphta. Cumque
+          venísset ad portam civitátis, appáruit ei múlier vídua cólligens
+          ligna, et vocávit eam, dixítque ei: Da mihi páululum aquæ in vase, ut
+          bibam. Cumque illa pérgeret, ut afférret, clamávit post tergum ejus,
+          dicens: Affer mihi, óbsecro, et buccéllam panis in manu tua. Quæ
+          respóndit: Vivit Dóminus, Deus tuus, quia non habeo panem, nisi
+          quantum pugíllus cápere potest farínæ in hýdria, et páululum ólei in
+          lécytho: en, collige duo ligna, ut ingrédiar, et fáciam illum mihi et
+          fílio meo, ut comedámus et moriámur. Ad quam Elías ait: Noli timére,
+          sed vade, et fac, sicut dixísti: verúmtamen mihi primum fac de ipsa
+          farínula subcinerícium panem párvulum, et affer ad me: tibi autem et
+          fílio tuo fácies póstea. Hæc autem dicit Dóminus, Deus Israël: Hýdria
+          farínæ non defíciet, nec lécythus ólei minuétur, usque ad diem, in qua
+          Dóminus datúrus est plúviam super fáciem terræ. Quæ ábiit, et fecit
+          juxta verbum Elíæ: et comédit ipse et illa et domus ejus: et ex illa
+          die hýdria farínæ non defécit, et lécythus ólei non est imminútus,
+          juxta verbum Dómini, quod locútus fúerat in manu Elíæ.
+        </Text>
+        <Text className="vernacular">
+          Naqueles dias, falou o Senhor a Elias Tesbiteu, dizendo: «Ergue-te,
+          vai a Sarepta de Sídon e fica lá, pois mandei a uma viúva daquela
+          terra que te sustente». Elias obedeceu à voz de Deus, caminhando para
+          Sarepta. Quando chegou às portas da cidade, encontrou uma viúva, que
+          andava à procura de lenha. Chamou-a logo, dizendo-lhe: «Dá-me um pouco
+          de água num vaso, para eu beber». A viúva dirigiu-se a casa, para
+          trazer a água; mas Elias, que ficou atrás dela, disse-lhe: «Traze-me
+          também nas tuas mãos um bocado de pão, para comer». Ela respondeu:
+          «Viva o Senhor, teu Deus, como não tenho pão algum! Apenas tenho em
+          uma vasilha uma mão de farinha e um pouco de azeite em uma almotolia.
+          Eis que procuro dois bocados de lenha para preparar, para mim e meu
+          filho, quando voltar para casa, esse pouco que possuo. Comeremos isso
+          e morreremos depois». Elias disse-lhe: «Não temas; vai e faz como
+          disseste; mas antes faz para mim um bolo dessa farinha, coze-o no
+          borralho e traze-mo. Para ti e teu filho prepararás depois; porque
+          (diz o Senhor, Deus de Israel) a farinha que está na talha se não
+          acabará e o azeite que está na almotolia se não extinguirá, até ao dia
+          em que o Senhor fizer cair a chuva na terra». Foi ela e procedeu
+          segundo a palavra de Elias. E comeram ele, ela e a família de sua
+          casa! E desde aquele dia não mais faltou a farinha na talha, nem o
+          azeite na almotolia, segundo a palavra que o Senhor proferira pela
+          boca de Elias.
+        </Text>
+      </Language>
 
-          <Text className="h3">Gradual</Text>
+      <Text className="h3">Gradual</Text>
 
-          <Text className="em">Sl. 54, 23, 17, 18 & 19</Text>
+      <Text className="em">Sl. 54, 23, 17, 18 & 19</Text>
 
-          <Language>
-            <Text className="latin">
-              Jacta cogitátum tuum in Dómino, et ipse te enútriet.
-              <Text className="versicle"> ℣. </Text>Dum clamárem ad Dóminum,
-              exaudívit vocem meam ab his, qui appropínquant mihi.
-            </Text>
-            <Text className="vernacular">
-              Deixai as vossas preocupações nas mãos do Senhor, que Ele cuidará
-              de vós!<Text className="versicle"> ℣. </Text>Quando eu rezava ao
-              Senhor, ouviu Ele a minha voz e salvou-me daqueles que me
-              cercavam.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Jacta cogitátum tuum in Dómino, et ipse te enútriet.
+          <Text className="versicle"> ℣. </Text>Dum clamárem ad Dóminum,
+          exaudívit vocem meam ab his, qui appropínquant mihi.
+        </Text>
+        <Text className="vernacular">
+          Deixai as vossas preocupações nas mãos do Senhor, que Ele cuidará de
+          vós!<Text className="versicle"> ℣. </Text>Quando eu rezava ao Senhor,
+          ouviu Ele a minha voz e salvou-me daqueles que me cercavam.
+        </Text>
+      </Language>
 
-          <Text className="h3">Evangelho</Text>
+      <Text className="h3">Evangelho</Text>
 
-          <Text className="em">Mt. 23, 1-12</Text>
+      <Text className="em">Mt. 23, 1-12</Text>
 
-          <Language>
-            <Text className="latin">
-              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
-              secúndum Matthǽum.
-            </Text>
-            <Text className="vernacular">
-              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
-              segundo S. Mateus.
-            </Text>
-            <Text className="latin">
-              In illo témpore: Locútus est Jesus ad turbas et ad discípulos
-              suos, dicens: Super cáthedram Moysi sedérunt scribæ et pharisǽi.
-              Omnia ergo, quæcúmque díxerint vobis, serváte et fácite: secúndum
-              ópera vero eórum nolíte fácere: dicunt enim, et non fáciunt.
-              Alligant enim ónera grávia et importabília, et impónunt in húmeros
-              hóminum: dígito autem suo nolunt ea movére. Omnia vero ópera sua
-              fáciunt, ut videántur ab homínibus: dilátant enim phylactéria sua,
-              et magníficant fímbrias. Amant autem primos recúbitus in cenis, et
-              primas cáthedras in synagógis, et salutatiónes in foro, et vocári
-              ab homínibus Rabbi. Vos autem nolíte vocári Rabbi: unus est enim
-              Magíster vester, omnes autem vos fratres estis. Et patrem nolíte
-              vocáre vobis super terram, unus est enim Pater vester, qui in
-              cœlis est. Nec vocémini magístri: quia Magíster vester unus est,
-              Christus. Qui major est vestrum, erit miníster vester. Qui autem
-              se exaltáverit, humiliábitur: et qui se humiliáverit, exaltábitur.
-            </Text>
-            <Text className="vernacular">
-              Naquele tempo, Jesus falou às turbas e aos discípulos, dizendo:
-              «Na cadeira de Moisés sentaram-se os escribas e os fariseus.
-              Observai, pois, e fazei tudo o que vos disserem, mas não procedais
-              segundo o exemplo das suas obras; pois eles ensinam, mas não
-              praticam. Preparam fardos pesados e difíceis de levar e põem-nos
-              às costas dos homens; mas eles nem com o dedo os querem mover.
-              Praticam todas as obras, para serem vistos pelos homens; usam
-              filactérios mais amplos e franjas mais compridas; querem tomar os
-              primeiros lugares nos banquetes e as primeiras cadeiras nas
-              sinagogas; procuram saudações na praça pública e querem que lhes
-              chamem Rabi (Mestre). Vós, porém, não queirais que vos chamem
-              Rabi, porque um só é o vosso Mestre e todos vós sois irmãos. Não
-              chameis a ninguém na terra vosso pai, porque um só é o vosso Pai:
-              Aquele que está nos céus. Não queirais ser chamados mestres,
-              porque um só é o vosso Mestre: Cristo. O maior entre vós será
-              vosso servo. ’Quem se exaltar a si mesmo será humilhado; e quem se
-              humilhar será exaltado».
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+          Matthǽum.
+        </Text>
+        <Text className="vernacular">
+          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+          segundo S. Mateus.
+        </Text>
+        <Text className="latin">
+          In illo témpore: Locútus est Jesus ad turbas et ad discípulos suos,
+          dicens: Super cáthedram Moysi sedérunt scribæ et pharisǽi. Omnia ergo,
+          quæcúmque díxerint vobis, serváte et fácite: secúndum ópera vero eórum
+          nolíte fácere: dicunt enim, et non fáciunt. Alligant enim ónera grávia
+          et importabília, et impónunt in húmeros hóminum: dígito autem suo
+          nolunt ea movére. Omnia vero ópera sua fáciunt, ut videántur ab
+          homínibus: dilátant enim phylactéria sua, et magníficant fímbrias.
+          Amant autem primos recúbitus in cenis, et primas cáthedras in
+          synagógis, et salutatiónes in foro, et vocári ab homínibus Rabbi. Vos
+          autem nolíte vocári Rabbi: unus est enim Magíster vester, omnes autem
+          vos fratres estis. Et patrem nolíte vocáre vobis super terram, unus
+          est enim Pater vester, qui in cœlis est. Nec vocémini magístri: quia
+          Magíster vester unus est, Christus. Qui major est vestrum, erit
+          miníster vester. Qui autem se exaltáverit, humiliábitur: et qui se
+          humiliáverit, exaltábitur.
+        </Text>
+        <Text className="vernacular">
+          Naquele tempo, Jesus falou às turbas e aos discípulos, dizendo: «Na
+          cadeira de Moisés sentaram-se os escribas e os fariseus. Observai,
+          pois, e fazei tudo o que vos disserem, mas não procedais segundo o
+          exemplo das suas obras; pois eles ensinam, mas não praticam. Preparam
+          fardos pesados e difíceis de levar e põem-nos às costas dos homens;
+          mas eles nem com o dedo os querem mover. Praticam todas as obras, para
+          serem vistos pelos homens; usam filactérios mais amplos e franjas mais
+          compridas; querem tomar os primeiros lugares nos banquetes e as
+          primeiras cadeiras nas sinagogas; procuram saudações na praça pública
+          e querem que lhes chamem Rabi (Mestre). Vós, porém, não queirais que
+          vos chamem Rabi, porque um só é o vosso Mestre e todos vós sois
+          irmãos. Não chameis a ninguém na terra vosso pai, porque um só é o
+          vosso Pai: Aquele que está nos céus. Não queirais ser chamados
+          mestres, porque um só é o vosso Mestre: Cristo. O maior entre vós será
+          vosso servo. ’Quem se exaltar a si mesmo será humilhado; e quem se
+          humilhar será exaltado».
+        </Text>
+      </Language>
 
-          <Text className="h3">Ofertório</Text>
+      <Text className="h3">Ofertório</Text>
 
-          <Text className="em">Sl. 50, 3</Text>
+      <Text className="em">Sl. 50, 3</Text>
 
-          <Language>
-            <Text className="latin">
-              Miserére mei, Dómine, secúndum magnam misericórdiam tuam: dele,
-              Dómine, iniquitátem meam.
-            </Text>
-            <Text className="vernacular">
-              Tende piedade de mim, Senhor, segundo a grandeza da vossa
-              misericórdia; dignai-Vos, Senhor, esquecer a minha iniquidade.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Miserére mei, Dómine, secúndum magnam misericórdiam tuam: dele,
+          Dómine, iniquitátem meam.
+        </Text>
+        <Text className="vernacular">
+          Tende piedade de mim, Senhor, segundo a grandeza da vossa
+          misericórdia; dignai-Vos, Senhor, esquecer a minha iniquidade.
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Sanctificatiónem tuam nobis, Dómine, his mystériis operáre
-              placátus: quæ nos et a terrénis purget vítiis, et ad cœléstia dona
-              perdúcat. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Senhor, dignai-Vos benignamente santificar-nos pela virtude destes
-              mystérios, a fim de que, estando purificados dos nossos vícios,
-              alcancemos as recompensas celestiais. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Sanctificatiónem tuam nobis, Dómine, his mystériis operáre placátus:
+          quæ nos et a terrénis purget vítiis, et ad cœléstia dona perdúcat. Per
+          Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Senhor, dignai-Vos benignamente santificar-nos pela virtude destes
+          mystérios, a fim de que, estando purificados dos nossos vícios,
+          alcancemos as recompensas celestiais. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Comúnio</Text>
+      <Text className="h3">Comúnio</Text>
 
-          <Text className="em">Sl. 9, 2-3</Text>
+      <Text className="em">Sl. 9, 2-3</Text>
 
-          <Language>
-            <Text className="latin">
-              Narrábo ómnia mirabília tua: lætábor, et exsultábo in te: psallam
-              nómini tuo, Altíssime.
-            </Text>
-            <Text className="vernacular">
-              Publicarei todas as vossas maravilhas: em Vós me alegrarei e
-              regozijarei: e cantarei hinos em louvor do vosso nome, ó
-              Altíssimo.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Narrábo ómnia mirabília tua: lætábor, et exsultábo in te: psallam
+          nómini tuo, Altíssime.
+        </Text>
+        <Text className="vernacular">
+          Publicarei todas as vossas maravilhas: em Vós me alegrarei e
+          regozijarei: e cantarei hinos em louvor do vosso nome, ó Altíssimo.
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Ut sacris, Dómine, reddámur digni munéribus: fac nos tuis,
-              quǽsumus, semper obœdíre mandátis. Per Dóminum nostrum...
-            </Text>
-            <Text className="vernacular">
-              Para que sejamos dignos dos vossos sacrossantos dons, fazei,
-              Senhor, Vos suplicamos, que obedeçamos sempre aos vossos
-              mandamentos. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Ut sacris, Dómine, reddámur digni munéribus: fac nos tuis, quǽsumus,
+          semper obœdíre mandátis. Per Dóminum nostrum...
+        </Text>
+        <Text className="vernacular">
+          Para que sejamos dignos dos vossos sacrossantos dons, fazei, Senhor,
+          Vos suplicamos, que obedeçamos sempre aos vossos mandamentos. Por
+          nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Oração sobre o povo</Text>
+      <Text className="h3">Oração sobre o povo</Text>
 
-          <Language>
-            <Text className="latin">
-              <Text className="latin">Orémus.</Text>
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Oremos.</Text>
-            </Text>
-            <Text className="latin">Humiliáte cápita vestra Deo.</Text>
-            <Text className="vernacular">
-              Inclinai as vossas cabeças diante de Deus.
-            </Text>
-            <Text className="latin">
-              Propitiáre, Dómine, supplicatiónibus nostris, et animárum
-              nostrárum medére languóribus: ut, remissióne percépta, in tua
-              semper benedictióne lætámur. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Sede propício às nossas súplicas, Senhor, e curai as doenças das
-              nossas almas, a fim de que, havendo alcançado o perdão, nos
-              alegremos sempre com vossa bênção. Por nosso Senhor...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          <Text className="latin">Orémus.</Text>
+        </Text>
+        <Text className="vernacular">
+          <Text className="vernacular">Oremos.</Text>
+        </Text>
+        <Text className="latin">Humiliáte cápita vestra Deo.</Text>
+        <Text className="vernacular">
+          Inclinai as vossas cabeças diante de Deus.
+        </Text>
+        <Text className="latin">
+          Propitiáre, Dómine, supplicatiónibus nostris, et animárum nostrárum
+          medére languóribus: ut, remissióne percépta, in tua semper
+          benedictióne lætámur. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Sede propício às nossas súplicas, Senhor, e curai as doenças das
+          nossas almas, a fim de que, havendo alcançado o perdão, nos alegremos
+          sempre com vossa bênção. Por nosso Senhor...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

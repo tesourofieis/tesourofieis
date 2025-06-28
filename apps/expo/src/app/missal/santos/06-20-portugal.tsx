@@ -1,88 +1,80 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import LinkCard from "~/components/LinkCard";
+import PageWrapper from "~/components/Page";
 
 export default function Page0620Portugal() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">
-            B. Francisco Pacheco e Outros, Márts., a 20 de Junho, Nalgumas
-            Dioceses
-          </Text>
-          <Text className="h3">Intróito</Text>
-          <Text className="text-base">
-            O Senhor dirigirá ao seu povo palavras de paz: e igualmente assim
-            falará aos seus fiéis e àqueles que se converterem a Ele.
-            Abençoastes, Senhor, a vossa terra e fizestes cessar o cativeiro de
-            Jacob.<Text className="versicle"> ℣. </Text>Glória ao Pai...
-          </Text>
-          <Text className="h3">Oração</Text>
-          <Text className="text-base">
-            Ó Deus, que nos alegrais com o aniversário solene do martírio do B.
-            Francisco e seus Companheiros, concedei-nos propício que aqueles
-            cujos méritos nos enchem de alegria, nos inflamem também com seus
-            exemplos. Por nosso Senhor...
-          </Text>
-          <Text className="h3">Epístola</Text>
-          <Text className="text-base">Lição da Ep.ª do B. Ap.º Pedro.</Text>
-          <Text className="text-base">
-            Caríssimos: Alegrai-vos, se tomais parte nos sofrimentos de Cristo;
-            pois exultareis de alegria na manifestação da sua glória. Sereis
-            felizes, se fordes ultrajados por causa do nome de Cristo; pois o
-            espírito de honra, de glória e de virtude de Deus, que é o seu
-            Espírito, repousará sobre vós. Porém, nenhum de vós sofra como
-            homicida, como ladrão, como malfeitor ou como cobiçador dos bens
-            alheios. Todavia, se é como cristão que padece, não se envergonhe, e
-            antes glorifique Deus neste nome. É chegado o tempo de principiar o
-            juízo pela casa de Deus. Ora, se começa por vós, qual será o fim
-            daqueles que não crêem no Evangelho de Deus? Se só o justo será
-            salvo, que acontecerá ao ímpio e ao pecador? Assim, pois, aqueles
-            que sofrem segundo a vontade de Deus encomendam as suas almas ao seu
-            fiel Criador, praticando obras boas.
-          </Text>
-          <Text className="h3">Gradual</Text>
-          <Text className="text-base">
-            Deus é glorificado nos seus Santos: Deus é admirável na sua
-            majestade: Deus pratica muitos prodígios. Vossa dextra esmagou os
-            vossos inimigos. Aleluia, aleluia. Esta é a verdadeira fraternidade
-            que venceu os crimes do mundo: ela segue Cristo e possuirá
-            gloriosamente o reino celestial. Aleluia.
-          </Text>
-          <Text className="h3">Evangelho</Text>
-          <LinkCard
-            href="/missal/comum/7muitosmartires2#evangelho"
-            title="Muitos Mártires - Missa Sapiéntiam sanctórum"
-          />
-          <Text className="h3">Ofertório</Text>
-          <Text className="text-base">
-            Ó justos, alegrai-vos no Senhor e exultai de júbilo: todos aqueles
-            que possuem o coração recto serão glorificados.
-          </Text>
-          <Text className="h3">Secreta</Text>
-          <Text className="text-base">
-            Deixai-Vos aplacar, Senhor, com a oferta que Vos apresentamos, e
-            pela intercessão dos vossos B. B. Mártires defendei-nos de todos os
-            perigos. Por nosso Senhor...
-          </Text>
-          <Text className="h3">Comúnio</Text>
-          <Text className="text-base">
-            Senhor, deram como alimento às aves do céu os corpos dos vossos
-            servos, que haviam sido mortos, e deram as carnes dos vossos Santos
-            às feras da terra. Pelo poder do vosso braço conservai os filhos
-            daqueles que foram mortos.
-          </Text>
-          <Text className="h3">Postcomúnio</Text>
-          <Text className="text-base">
-            Que esta comunhão, Senhor, nos purifique das nossas faltas; e pela
-            intercessão dos B. B. Mártires Francisco e seus Companheiros fazei
-            que nos torne participantes do remédio celestial. Por nosso
-            Senhor...
-          </Text>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <PageWrapper>
+      <Text className="h1">
+        B. Francisco Pacheco e Outros, Márts., a 20 de Junho, Nalgumas Dioceses
+      </Text>
+      <Text className="h3">Intróito</Text>
+      <Text className="text-base">
+        O Senhor dirigirá ao seu povo palavras de paz: e igualmente assim falará
+        aos seus fiéis e àqueles que se converterem a Ele. Abençoastes, Senhor,
+        a vossa terra e fizestes cessar o cativeiro de Jacob.
+        <Text className="versicle"> ℣. </Text>Glória ao Pai...
+      </Text>
+      <Text className="h3">Oração</Text>
+      <Text className="text-base">
+        Ó Deus, que nos alegrais com o aniversário solene do martírio do B.
+        Francisco e seus Companheiros, concedei-nos propício que aqueles cujos
+        méritos nos enchem de alegria, nos inflamem também com seus exemplos.
+        Por nosso Senhor...
+      </Text>
+      <Text className="h3">Epístola</Text>
+      <Text className="text-base">Lição da Ep.ª do B. Ap.º Pedro.</Text>
+      <Text className="text-base">
+        Caríssimos: Alegrai-vos, se tomais parte nos sofrimentos de Cristo; pois
+        exultareis de alegria na manifestação da sua glória. Sereis felizes, se
+        fordes ultrajados por causa do nome de Cristo; pois o espírito de honra,
+        de glória e de virtude de Deus, que é o seu Espírito, repousará sobre
+        vós. Porém, nenhum de vós sofra como homicida, como ladrão, como
+        malfeitor ou como cobiçador dos bens alheios. Todavia, se é como cristão
+        que padece, não se envergonhe, e antes glorifique Deus neste nome. É
+        chegado o tempo de principiar o juízo pela casa de Deus. Ora, se começa
+        por vós, qual será o fim daqueles que não crêem no Evangelho de Deus? Se
+        só o justo será salvo, que acontecerá ao ímpio e ao pecador? Assim,
+        pois, aqueles que sofrem segundo a vontade de Deus encomendam as suas
+        almas ao seu fiel Criador, praticando obras boas.
+      </Text>
+      <Text className="h3">Gradual</Text>
+      <Text className="text-base">
+        Deus é glorificado nos seus Santos: Deus é admirável na sua majestade:
+        Deus pratica muitos prodígios. Vossa dextra esmagou os vossos inimigos.
+        Aleluia, aleluia. Esta é a verdadeira fraternidade que venceu os crimes
+        do mundo: ela segue Cristo e possuirá gloriosamente o reino celestial.
+        Aleluia.
+      </Text>
+      <Text className="h3">Evangelho</Text>
+      <LinkCard
+        href="/missal/comum/7muitosmartires2#evangelho"
+        title="Muitos Mártires - Missa Sapiéntiam sanctórum"
+      />
+      <Text className="h3">Ofertório</Text>
+      <Text className="text-base">
+        Ó justos, alegrai-vos no Senhor e exultai de júbilo: todos aqueles que
+        possuem o coração recto serão glorificados.
+      </Text>
+      <Text className="h3">Secreta</Text>
+      <Text className="text-base">
+        Deixai-Vos aplacar, Senhor, com a oferta que Vos apresentamos, e pela
+        intercessão dos vossos B. B. Mártires defendei-nos de todos os perigos.
+        Por nosso Senhor...
+      </Text>
+      <Text className="h3">Comúnio</Text>
+      <Text className="text-base">
+        Senhor, deram como alimento às aves do céu os corpos dos vossos servos,
+        que haviam sido mortos, e deram as carnes dos vossos Santos às feras da
+        terra. Pelo poder do vosso braço conservai os filhos daqueles que foram
+        mortos.
+      </Text>
+      <Text className="h3">Postcomúnio</Text>
+      <Text className="text-base">
+        Que esta comunhão, Senhor, nos purifique das nossas faltas; e pela
+        intercessão dos B. B. Mártires Francisco e seus Companheiros fazei que
+        nos torne participantes do remédio celestial. Por nosso Senhor...
+      </Text>
+    </PageWrapper>
   );
 }

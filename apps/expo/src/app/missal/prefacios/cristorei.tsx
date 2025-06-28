@@ -1,52 +1,43 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function PageCristorei() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">Prefácio de N. S. Jesus Cristo-Rei</Text>
+    <PageWrapper>
+      <Text className="h1">Prefácio de N. S. Jesus Cristo-Rei</Text>
 
-          <Text className="aside">
-            Diz-se na Missa de N. S. Jesus Cristo-Rei.
-          </Text>
+      <Text className="aside">Diz-se na Missa de N. S. Jesus Cristo-Rei.</Text>
 
-          <Language>
-            <Text className="latin">
-              Vere dignum et justum est, æquum et salutáre, nos tibi semper et
-              ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
-              Deus: Qui unigénitum Fílium tuum, Dóminum nostrum Jesum Christum,
-              Sacerdótem ætérnum et universórum Regem, óleo exsultatiónis
-              unxísti: ut, seípsum in ara crucis hóstiam immaculátam et
-              pacíficam ófferens, redemptiónis humánæ sacraménta perágeret: et
-              suo subjéctis império ómnibus creatúris, ætérnum et universále
-              regnum, imménsæ tuæ tráderet Majestáti. Regnum veritátis et vitæ:
-              regnum sanctitátis et grátiæ: regnum justítiæ, amóris et pacis. Et
-              ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus
-              cumque omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus,
-              sine fine dicéntes:
-            </Text>
-            <Text className="vernacular">
-              É verdadeiramente digno e justo, racional e salutar dar-Vos graças
-              em todos os lugares e sempre, Senhor santo, Pai omnipotente,
-              eterno Deus, que ungistes com o óleo da alegria o vosso Filho
-              Unigénito, nosso Senhor Jesus Cristo, como Sacerdote eterno e Rei
-              de todas as coisas, a fim de que, oferecendo-se na ara da Cruz -
-              qual hóstia imaculada e pacífica -, realizasse as maravilhas da
-              redenção humana e, ficando todas as criaturas sujeitas ao seu
-              império, desse à vossa imensa majestade um reino eterno e
-              universal: um reino de verdade e de vida; um reino de santidade e
-              de graça; um reino de justiça, de amor e de paz. E por isso, com
-              os Anjos e Arcanjos, com os Tronos e Dominações e com toda a
-              milícia do exército celestial, cantamos um hino à vossa glória,
-              dizendo incessantemente:
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Vere dignum et justum est, æquum et salutáre, nos tibi semper et
+          ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus:
+          Qui unigénitum Fílium tuum, Dóminum nostrum Jesum Christum, Sacerdótem
+          ætérnum et universórum Regem, óleo exsultatiónis unxísti: ut, seípsum
+          in ara crucis hóstiam immaculátam et pacíficam ófferens, redemptiónis
+          humánæ sacraménta perágeret: et suo subjéctis império ómnibus
+          creatúris, ætérnum et universále regnum, imménsæ tuæ tráderet
+          Majestáti. Regnum veritátis et vitæ: regnum sanctitátis et grátiæ:
+          regnum justítiæ, amóris et pacis. Et ídeo cum Angelis et Archángelis,
+          cum Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus
+          hymnum glóriæ tuæ cánimus, sine fine dicéntes:
+        </Text>
+        <Text className="vernacular">
+          É verdadeiramente digno e justo, racional e salutar dar-Vos graças em
+          todos os lugares e sempre, Senhor santo, Pai omnipotente, eterno Deus,
+          que ungistes com o óleo da alegria o vosso Filho Unigénito, nosso
+          Senhor Jesus Cristo, como Sacerdote eterno e Rei de todas as coisas, a
+          fim de que, oferecendo-se na ara da Cruz - qual hóstia imaculada e
+          pacífica -, realizasse as maravilhas da redenção humana e, ficando
+          todas as criaturas sujeitas ao seu império, desse à vossa imensa
+          majestade um reino eterno e universal: um reino de verdade e de vida;
+          um reino de santidade e de graça; um reino de justiça, de amor e de
+          paz. E por isso, com os Anjos e Arcanjos, com os Tronos e Dominações e
+          com toda a milícia do exército celestial, cantamos um hino à vossa
+          glória, dizendo incessantemente:
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

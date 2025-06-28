@@ -1,70 +1,64 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function Page24Tentadosatribulados() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">24.ª Pelos tentados ou atribulados</Text>
+    <PageWrapper>
+      <Text className="h1">24.ª Pelos tentados ou atribulados</Text>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Deus, qui justíficas ímpium, et non vis mortem peccatóris,
-              majestátem tuam supplíciter deprecámur: ut fámulos tuos, de tua
-              misericórdia confidéntes, cœlésti prótegas benígnus auxílio, et
-              assídua protectióne consérves; ut tibi júgiter famuléntur, et
-              nullis tentatiónibus a te separéntur. Per Dóminum nostrum...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, que podeis tornar justo o ímpio e não quereis a morte do
-              pecador, imploramos e suplicamos à vossa majestade que Vos digneis
-              proteger com vossa celestial assistência e conservar com vossa
-              constante protecção estes vossos servos, que confiam intimamente
-              na vossa misericórdia, a fim de que Vos sirvam continuamente e não
-              sejam separados de Vós por tentação alguma. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Deus, qui justíficas ímpium, et non vis mortem peccatóris, majestátem
+          tuam supplíciter deprecámur: ut fámulos tuos, de tua misericórdia
+          confidéntes, cœlésti prótegas benígnus auxílio, et assídua protectióne
+          consérves; ut tibi júgiter famuléntur, et nullis tentatiónibus a te
+          separéntur. Per Dóminum nostrum...
+        </Text>
+        <Text className="vernacular">
+          Ó Deus, que podeis tornar justo o ímpio e não quereis a morte do
+          pecador, imploramos e suplicamos à vossa majestade que Vos digneis
+          proteger com vossa celestial assistência e conservar com vossa
+          constante protecção estes vossos servos, que confiam intimamente na
+          vossa misericórdia, a fim de que Vos sirvam continuamente e não sejam
+          separados de Vós por tentação alguma. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Hujus, quǽsumus, Dómine, virtúte mystérii, et a própriis nos munda
-              delíctis, et fámulos tuos ab ómnibus absólve peccátis. Per
-              Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Pela virtude deste mystério, Senhor, Vos suplicamos, dignai-Vos
-              purificar-nos dos nossos próprios delitos e absolver os vossos
-              servos de todos os pecados. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Hujus, quǽsumus, Dómine, virtúte mystérii, et a própriis nos munda
+          delíctis, et fámulos tuos ab ómnibus absólve peccátis. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Pela virtude deste mystério, Senhor, Vos suplicamos, dignai-Vos
+          purificar-nos dos nossos próprios delitos e absolver os vossos servos
+          de todos os pecados. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Puríficent nos, quǽsumus, Dómine, sacraménta, quæ súmpsimus: et
-              fámulos tuos ab omni culpa líberos esse concéde; ut, qui
-              consciéntiæ reátu constringúntur, cœléstis remédii plenitúdine
-              gloriéntur. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Que nós, Senhor, Vos suplicamos, possamos ser purificados pelo
-              sacramento, que acabamos de receber; e permiti que os vossos
-              servos sejam livres dos seus pecados, a fim de que, estando
-              presentemente esmagados com o peso da culpa da sua consciência,
-              bem cedo se alegrem de haverem recebido a plenitude dos remédios
-              celestiais. Por nosso Senhor...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Puríficent nos, quǽsumus, Dómine, sacraménta, quæ súmpsimus: et
+          fámulos tuos ab omni culpa líberos esse concéde; ut, qui consciéntiæ
+          reátu constringúntur, cœléstis remédii plenitúdine gloriéntur. Per
+          Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Que nós, Senhor, Vos suplicamos, possamos ser purificados pelo
+          sacramento, que acabamos de receber; e permiti que os vossos servos
+          sejam livres dos seus pecados, a fim de que, estando presentemente
+          esmagados com o peso da culpa da sua consciência, bem cedo se alegrem
+          de haverem recebido a plenitude dos remédios celestiais. Por nosso
+          Senhor...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

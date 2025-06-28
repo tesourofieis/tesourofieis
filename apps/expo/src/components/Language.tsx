@@ -125,7 +125,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
 
   if (isWeb) {
     return (
-      <View className="flex-row w-full max-w-6xl mx-auto gap-4">
+      <View className="flex-row">
         <View className="flex-1 min-w-0">{latinContent}</View>
         <View className="flex-1 min-w-0">{vernacularContent}</View>
       </View>

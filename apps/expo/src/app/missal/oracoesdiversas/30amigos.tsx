@@ -1,72 +1,65 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function Page30Amigos() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">30.ª Pelos amigos dedicados</Text>
+    <PageWrapper>
+      <Text className="h1">30.ª Pelos amigos dedicados</Text>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Deus, qui cantátis dona per grátiam Sancti Spíritus tuórum
-              fidélium córdibus infudísti: da fámulis et famulábus tuis, pro
-              quibus tuam deprecámur cleméntiam, salútem mentis et córporis; ut
-              te tota virtúte díligant et, quæ tibi plácita sunt, tota
-              dilectióne perfíciant. Per Dóminum... in unitáte ejúsdem Spíritus
-              Sancti.
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, que pela graça do Espírito Santo infundistes nos corações
-              dos vossos fiéis os dons da caridade, dignai-Vos conceder a
-              salvação da alma e do corpo aos vossos servos e servas, para quem
-              invocamos a vossa clemência, a fim de que eles Vos amem com todas
-              as potências de sua alma e pratiquem com todo o amor o que Vos é
-              agradável. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Deus, qui cantátis dona per grátiam Sancti Spíritus tuórum fidélium
+          córdibus infudísti: da fámulis et famulábus tuis, pro quibus tuam
+          deprecámur cleméntiam, salútem mentis et córporis; ut te tota virtúte
+          díligant et, quæ tibi plácita sunt, tota dilectióne perfíciant. Per
+          Dóminum... in unitáte ejúsdem Spíritus Sancti.
+        </Text>
+        <Text className="vernacular">
+          Ó Deus, que pela graça do Espírito Santo infundistes nos corações dos
+          vossos fiéis os dons da caridade, dignai-Vos conceder a salvação da
+          alma e do corpo aos vossos servos e servas, para quem invocamos a
+          vossa clemência, a fim de que eles Vos amem com todas as potências de
+          sua alma e pratiquem com todo o amor o que Vos é agradável. Por nosso
+          Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Miserére, quǽsumus, Dómine, fámulis et famulábus tuis, pro quibus
-              hoc sacrifícium laudis tuæ offérimus majestáti: ut, per hæc
-              sancta, supérnæ benedictiónis grátiam obtíneant, et glóriam ætérnæ
-              beatitúdinis acquírant. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Senhor, Vos pedimos, tende misericórdia dos vossos servos e
-              servas, por quem oferecemos este sacrifício de louvor em honra da
-              vossa majestade, a fim de que por estes mystérios sacratíssimos
-              alcancem a graça de uma especial bênção e adquiram a glória da
-              bem-aventurança eterna. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Miserére, quǽsumus, Dómine, fámulis et famulábus tuis, pro quibus hoc
+          sacrifícium laudis tuæ offérimus majestáti: ut, per hæc sancta,
+          supérnæ benedictiónis grátiam obtíneant, et glóriam ætérnæ
+          beatitúdinis acquírant. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Senhor, Vos pedimos, tende misericórdia dos vossos servos e servas,
+          por quem oferecemos este sacrifício de louvor em honra da vossa
+          majestade, a fim de que por estes mystérios sacratíssimos alcancem a
+          graça de uma especial bênção e adquiram a glória da bem-aventurança
+          eterna. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Divína libántes mystéria, quǽsumus, Dómine: ut hæc salutária
-              sacraménta illis profíciant ad prosperitátem et pacem; pro quorum
-              quarúmque dilectióne hæc tuæ obtúlimus majestáti. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Havendo nós comparticipado dos divinos mystérios, Vos pedimos,
-              Senhor, que Vos digneis aplicar a virtude destes mystérios de
-              salvação em favor da prosperidade e da paz daqueles e daquelas por
-              amor dos quais já os oferecemos à vossa majestade. Por nosso
-              Senhor...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Divína libántes mystéria, quǽsumus, Dómine: ut hæc salutária
+          sacraménta illis profíciant ad prosperitátem et pacem; pro quorum
+          quarúmque dilectióne hæc tuæ obtúlimus majestáti. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Havendo nós comparticipado dos divinos mystérios, Vos pedimos, Senhor,
+          que Vos digneis aplicar a virtude destes mystérios de salvação em
+          favor da prosperidade e da paz daqueles e daquelas por amor dos quais
+          já os oferecemos à vossa majestade. Por nosso Senhor...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

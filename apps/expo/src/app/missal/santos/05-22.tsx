@@ -1,210 +1,197 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
+import PageWrapper from "~/components/Page";
 
 export default function Page0522() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">S. Rita de Cássia, Viúva, a 22 de Maio</Text>
+    <PageWrapper>
+      <Text className="h1">S. Rita de Cássia, Viúva, a 22 de Maio</Text>
 
-          <Text className="h3">Intróito</Text>
+      <Text className="h3">Intróito</Text>
 
-          <Text className="em">Sl. 117, 19 & 22</Text>
+      <Text className="em">Sl. 117, 19 & 22</Text>
 
-          <Language>
-            <Text className="latin">
-              Aperíte mihi portas justítiæ, ingréssus in eas confitébor Dómino:
-              lápidem, quem reprobavérunt ædificántes, hic factus est in caput
-              ánguli. (T.P. Allelúja, Allelúja.){" "}
-              <Text className="latin">Ps. 117, 1</Text> Confitémini Dómino,
-              quóniam bonus, quóniam in sǽculum misericórdia ejus.
-              <Text className="versicle"> ℣. </Text>
-              Gloria Patri...
-            </Text>
-            <Text className="vernacular">
-              Abri-me as portas da justiça, e, ao entrar por elas, louvarei o
-              Senhor. A pedra que os edificadores rejeitaram tornou-se na pedra
-              angular. (T.P. Aleluia, aleluia.){" "}
-              <Text className="vernacular">Sl. 117, 1</Text> Louvai o Senhor,
-              porque Ele é bom; a sua misericórdia permanecerá em todos os
-              séculos dos séculos.<Text className="versicle"> ℣. </Text>Glória
-              ao Pai...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Aperíte mihi portas justítiæ, ingréssus in eas confitébor Dómino:
+          lápidem, quem reprobavérunt ædificántes, hic factus est in caput
+          ánguli. (T.P. Allelúja, Allelúja.){" "}
+          <Text className="latin">Ps. 117, 1</Text> Confitémini Dómino, quóniam
+          bonus, quóniam in sǽculum misericórdia ejus.
+          <Text className="versicle"> ℣. </Text>
+          Gloria Patri...
+        </Text>
+        <Text className="vernacular">
+          Abri-me as portas da justiça, e, ao entrar por elas, louvarei o
+          Senhor. A pedra que os edificadores rejeitaram tornou-se na pedra
+          angular. (T.P. Aleluia, aleluia.){" "}
+          <Text className="vernacular">Sl. 117, 1</Text> Louvai o Senhor, porque
+          Ele é bom; a sua misericórdia permanecerá em todos os séculos dos
+          séculos.<Text className="versicle"> ℣. </Text>Glória ao Pai...
+        </Text>
+      </Language>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Deus, qui sanctæ Ritæ tantam grátiam conférre dignátus es, ut
-              inimícos dilígeret et in corde ac fronte caritátis et passiónis
-              tuæ signa portáret: da nobis, quǽsumus, ejus intercessióne et
-              méritis; inimícis nostris sic párcere et passiónis tuæ dolóres
-              contemplári, ut promíssa mítibus ac lugéntibus prǽmia consequámur:
-              Qui vivis et regnas...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, que Vos dignastes conceder a Santa Rita abundante graça
-              para amar os inimigos e trazer no coração e na fronte os sinais da
-              vossa caridade e Paixão, concedei-nos por sua intercessão e
-              méritos que, perdoando nós aos nossos inimigos e contemplando os
-              sofrimentos da vossa Paixão, consigamos alcançar os prémios
-              prometidos aos que são mansos e misericordiosos de coração. Ó Vós,
-              que viveis e reinais...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Deus, qui sanctæ Ritæ tantam grátiam conférre dignátus es, ut inimícos
+          dilígeret et in corde ac fronte caritátis et passiónis tuæ signa
+          portáret: da nobis, quǽsumus, ejus intercessióne et méritis; inimícis
+          nostris sic párcere et passiónis tuæ dolóres contemplári, ut promíssa
+          mítibus ac lugéntibus prǽmia consequámur: Qui vivis et regnas...
+        </Text>
+        <Text className="vernacular">
+          Ó Deus, que Vos dignastes conceder a Santa Rita abundante graça para
+          amar os inimigos e trazer no coração e na fronte os sinais da vossa
+          caridade e Paixão, concedei-nos por sua intercessão e méritos que,
+          perdoando nós aos nossos inimigos e contemplando os sofrimentos da
+          vossa Paixão, consigamos alcançar os prémios prometidos aos que são
+          mansos e misericordiosos de coração. Ó Vós, que viveis e reinais...
+        </Text>
+      </Language>
 
-          <Text className="h3">Epístola</Text>
+      <Text className="h3">Epístola</Text>
 
-          <Text className="em">Pr. 2</Text>
+      <Text className="em">Pr. 2</Text>
 
-          <Language>
-            <Text className="latin">Lectio libri Sapiéntiæ.</Text>
-            <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-            <Text className="latin">
-              Ego flos campi, et lílium conválium. Sicut lílium inter spinas,
-              sic amíca mea inter fílias. Sicut malus inter ligna silvárum, sic
-              diléctus meus inter fílios. Sub umbra illíus, quem desideráveram,
-              sedi: et fructus ejus dulcis gútturi meo. Introdúxit me in cellam
-              vináriam, ordinávit in me caritátem. Fulcíte me flóribus, stipáte
-              me malis: quia amóre lángueo. Læva ejus sub cápite meo, et déxtera
-              illíus amplexábitur me. Adjúro vos, fíliæ Jerúsalem, per cápreas,
-              cervósque campórum, ne suscitétis, neque evigiláre faciátis
-              diléctam, quoadúsque ipsa velit. Vox dilécti mei, ecce iste venit
-              sáliens in móntibus, tansíliens colles. Símilis est diléctus meus
-              cápreæ, hinulóque cervórum. En ipse stat post paríetem nostrum,
-              respíciens per fenéstras, prospíciens per cancéllos. Et diléctus
-              meus lóquitur mihi: Surge, própera, amíca mea, colúmba mea,
-              formóisa mea, et veni. Jam enim hiems tránsiit, imber ábiit, et
-              recéssit. Flores apparuérunt in terra nostra: tempus putatiónis
-              advénit: vox túrturis audíta est in terra nostra: ficus prótulit
-              grossos suos: víneæ floréntes dedérunt odórem suum. Surge, amíca
-              mea, speciósa mea, et veni.
-            </Text>
-            <Text className="vernacular">
-              Sou a flor do campo e a açucena dos vales. Como a açucena entre os
-              espinhos, assim é a minha amiga entre as donzelas. Como a macieira
-              entre as árvores dos bosques, assim o meu amado entre os bosques.
-              Assentei-me à sombra daquele a quem tanto desejara, sendo o seu
-              fruto doce ao meu paladar. Introduziu-me na dispensa do vinho e
-              ordenou em mim a caridade. Confortai-me com flores e fortalecei-me
-              com frutos, pois desfaleço de amor! Sua mão esquerda está debaixo
-              de minha cabeça e a sua mão direita abraça-me. Conjuro-vos, ó
-              filhas de Jerusalém, pelas gazelas e veados do campo, que não
-              perturbeis nem acordeis a minha amada até que ela o queira. Ouço a
-              voz do meu amado. Eis que ele vem, galgando os montes e transpondo
-              os outeiros! Meu amado é semelhante ao gamo e ao filho das corças.
-              Eis que ele vem por detrás da nossa Parede, olhando pelas janelas
-              e espreitando pelas frestas. E o meu amado diz-me: «Ergue-te,
-              apressa-te e vem, ó minha amiga, ó minha pomba, ó minha beleza! Já
-              o inverno acabou; já as chuvas Cessaram: as flores brotaram nos
-              nossos jardins; já chegou o tempo da poda; ouve-se a rola nos
-              nossos campos; a figueira mostra os primeiros frutos e as vinhas
-              em flor exalam seus aromas! Ergue-te e vem, minha amiga, minha
-              beleza!».
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">Lectio libri Sapiéntiæ.</Text>
+        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
+        <Text className="latin">
+          Ego flos campi, et lílium conválium. Sicut lílium inter spinas, sic
+          amíca mea inter fílias. Sicut malus inter ligna silvárum, sic diléctus
+          meus inter fílios. Sub umbra illíus, quem desideráveram, sedi: et
+          fructus ejus dulcis gútturi meo. Introdúxit me in cellam vináriam,
+          ordinávit in me caritátem. Fulcíte me flóribus, stipáte me malis: quia
+          amóre lángueo. Læva ejus sub cápite meo, et déxtera illíus
+          amplexábitur me. Adjúro vos, fíliæ Jerúsalem, per cápreas, cervósque
+          campórum, ne suscitétis, neque evigiláre faciátis diléctam, quoadúsque
+          ipsa velit. Vox dilécti mei, ecce iste venit sáliens in móntibus,
+          tansíliens colles. Símilis est diléctus meus cápreæ, hinulóque
+          cervórum. En ipse stat post paríetem nostrum, respíciens per
+          fenéstras, prospíciens per cancéllos. Et diléctus meus lóquitur mihi:
+          Surge, própera, amíca mea, colúmba mea, formóisa mea, et veni. Jam
+          enim hiems tránsiit, imber ábiit, et recéssit. Flores apparuérunt in
+          terra nostra: tempus putatiónis advénit: vox túrturis audíta est in
+          terra nostra: ficus prótulit grossos suos: víneæ floréntes dedérunt
+          odórem suum. Surge, amíca mea, speciósa mea, et veni.
+        </Text>
+        <Text className="vernacular">
+          Sou a flor do campo e a açucena dos vales. Como a açucena entre os
+          espinhos, assim é a minha amiga entre as donzelas. Como a macieira
+          entre as árvores dos bosques, assim o meu amado entre os bosques.
+          Assentei-me à sombra daquele a quem tanto desejara, sendo o seu fruto
+          doce ao meu paladar. Introduziu-me na dispensa do vinho e ordenou em
+          mim a caridade. Confortai-me com flores e fortalecei-me com frutos,
+          pois desfaleço de amor! Sua mão esquerda está debaixo de minha cabeça
+          e a sua mão direita abraça-me. Conjuro-vos, ó filhas de Jerusalém,
+          pelas gazelas e veados do campo, que não perturbeis nem acordeis a
+          minha amada até que ela o queira. Ouço a voz do meu amado. Eis que ele
+          vem, galgando os montes e transpondo os outeiros! Meu amado é
+          semelhante ao gamo e ao filho das corças. Eis que ele vem por detrás
+          da nossa Parede, olhando pelas janelas e espreitando pelas frestas. E
+          o meu amado diz-me: «Ergue-te, apressa-te e vem, ó minha amiga, ó
+          minha pomba, ó minha beleza! Já o inverno acabou; já as chuvas
+          Cessaram: as flores brotaram nos nossos jardins; já chegou o tempo da
+          poda; ouve-se a rola nos nossos campos; a figueira mostra os primeiros
+          frutos e as vinhas em flor exalam seus aromas! Ergue-te e vem, minha
+          amiga, minha beleza!».
+        </Text>
+      </Language>
 
-          <Language>
-            <Text className="latin">
-              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-              <Text className="latin">Eccli. 24, 18</Text> Quasi palma exaltáta
-              sum in Cades, et quasi plantátio rosæ in Jéricho.
-              <Text className="versicle"> ℣. </Text>
-              <Text className="em">ibid., 20</Text> Sicut cinnamómum et bálsamum
-              aromatízans odórem dedi: quasi myrrha elécta dedi suavitátem
-              odóris. Allelúja.
-            </Text>
-            <Text className="vernacular">
-              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-              <Text className="vernacular">Ecl. 24, 18</Text> Fui exaltada como
-              a palmeira em Cades e como os roseirais das roseiras de Jericó.
-              Aleluia.<Text className="versicle"> ℣. </Text>
-              <Text className="em">ibid., 20</Text> Espalhei perfumes, como o
-              cinamomo e o bálsamo aromático: e como mirra escolhida exalei
-              suave odor. Aleluia.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+          <Text className="latin">Eccli. 24, 18</Text> Quasi palma exaltáta sum
+          in Cades, et quasi plantátio rosæ in Jéricho.
+          <Text className="versicle"> ℣. </Text>
+          <Text className="em">ibid., 20</Text> Sicut cinnamómum et bálsamum
+          aromatízans odórem dedi: quasi myrrha elécta dedi suavitátem odóris.
+          Allelúja.
+        </Text>
+        <Text className="vernacular">
+          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+          <Text className="vernacular">Ecl. 24, 18</Text> Fui exaltada como a
+          palmeira em Cades e como os roseirais das roseiras de Jericó. Aleluia.
+          <Text className="versicle"> ℣. </Text>
+          <Text className="em">ibid., 20</Text> Espalhei perfumes, como o
+          cinamomo e o bálsamo aromático: e como mirra escolhida exalei suave
+          odor. Aleluia.
+        </Text>
+      </Language>
 
-          <Text className="h3">Evangelho</Text>
+      <Text className="h3">Evangelho</Text>
 
-          <LinkCard
-            href="/missal/comum/18virgensmartires2#evangelho"
-            title="Virgens Mártires - Missa Me exspectavérunt"
-          />
+      <LinkCard
+        href="/missal/comum/18virgensmartires2#evangelho"
+        title="Virgens Mártires - Missa Me exspectavérunt"
+      />
 
-          <Text className="h3">Ofertório</Text>
+      <Text className="h3">Ofertório</Text>
 
-          <Text className="em">Gn. 40, 9-10</Text>
+      <Text className="em">Gn. 40, 9-10</Text>
 
-          <Language>
-            <Text className="latin">
-              Vidébam coram me vitem, in qua erant tres propágines, créscere
-              paulátim in gemmas, et post flores uvas maturéscera. (T. P.
-              Allelúja.)
-            </Text>
-            <Text className="vernacular">
-              Diante de mim via uma cepa, na qual havia três varas, pouco a
-              pouco a crescer em gomos: e, depois de as flores amadurecerem, as
-              uvas. (T.P. Aleluia.)
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Vidébam coram me vitem, in qua erant tres propágines, créscere
+          paulátim in gemmas, et post flores uvas maturéscera. (T. P. Allelúja.)
+        </Text>
+        <Text className="vernacular">
+          Diante de mim via uma cepa, na qual havia três varas, pouco a pouco a
+          crescer em gomos: e, depois de as flores amadurecerem, as uvas. (T.P.
+          Aleluia.)
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Corda nostra, quǽsumus, Dómine, Sanctæ Ritæ méritis, supérni
-              dolóris spina confíge: ut, a peccátis ómnibus tua grátia liberáti,
-              sacrificáre tibi hóstiam laudis pura mente valeámus. Per
-              Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Compungi, Senhor, Vos suplicamos, pelos méritos de Santa Rita, os
-              nossos corações com os espinhos de uma dor sobrenatural, a fim de
-              que pela vossa graça, livres de todo o pecado, possamos
-              sacrificar-Vos com o coração puro a hóstia de louvor. Por nosso
-              Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Corda nostra, quǽsumus, Dómine, Sanctæ Ritæ méritis, supérni dolóris
+          spina confíge: ut, a peccátis ómnibus tua grátia liberáti, sacrificáre
+          tibi hóstiam laudis pura mente valeámus. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Compungi, Senhor, Vos suplicamos, pelos méritos de Santa Rita, os
+          nossos corações com os espinhos de uma dor sobrenatural, a fim de que
+          pela vossa graça, livres de todo o pecado, possamos sacrificar-Vos com
+          o coração puro a hóstia de louvor. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Comúnio</Text>
+      <Text className="h3">Comúnio</Text>
 
-          <Text className="em">Sl. 20, 4</Text>
+      <Text className="em">Sl. 20, 4</Text>
 
-          <Language>
-            <Text className="latin">
-              Prævenísti eam, Dómine, in benedictiónibus dulcédinis: posuísti in
-              cápite ejus corónam de lápide pretióso. (T. P. Allelúja.)
-            </Text>
-            <Text className="vernacular">
-              Premuniste-la, Senhor, com bênçãos de doçura: Impusestes na sua
-              cabeça uma coroa de pedras preciosas. (T.P. Aleluia.)
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Prævenísti eam, Dómine, in benedictiónibus dulcédinis: posuísti in
+          cápite ejus corónam de lápide pretióso. (T. P. Allelúja.)
+        </Text>
+        <Text className="vernacular">
+          Premuniste-la, Senhor, com bênçãos de doçura: Impusestes na sua cabeça
+          uma coroa de pedras preciosas. (T.P. Aleluia.)
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Cæléstibus, Dómine, pasti delíciis, súpplices te rogámus: ut,
-              intercedénte sancta Rita, caritátis et passiónis tuæ in méntibus
-              nostris signa ferámus, et perpétuæ pacis fructu júgiter
-              perfruámur. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Apascentados, ó Senhor, com as delícias celestiais, suplicantes,
-              Vos pedimos a graça de, por intercessão de Santa Rita, trazermos
-              em nossas mentes os sinais da vossa caridade e Paixão e gozarmos
-              constantemente o fruto da perpétua paz. Por nosso Senhor...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Cæléstibus, Dómine, pasti delíciis, súpplices te rogámus: ut,
+          intercedénte sancta Rita, caritátis et passiónis tuæ in méntibus
+          nostris signa ferámus, et perpétuæ pacis fructu júgiter perfruámur.
+          Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Apascentados, ó Senhor, com as delícias celestiais, suplicantes, Vos
+          pedimos a graça de, por intercessão de Santa Rita, trazermos em nossas
+          mentes os sinais da vossa caridade e Paixão e gozarmos constantemente
+          o fruto da perpétua paz. Por nosso Senhor...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

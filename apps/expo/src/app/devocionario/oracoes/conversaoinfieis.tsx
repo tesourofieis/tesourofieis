@@ -1,48 +1,41 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function PageConversaoinfieis() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">
-            Para a conversão dos infiéis, São Francisco Xavier
-          </Text>
+    <PageWrapper>
+      <Text className="h1">
+        Para a conversão dos infiéis, São Francisco Xavier
+      </Text>
 
-          <Language>
-            <Text className="latin">
-              Ætérne rerum omnium effector Deus, memento abs te animas
-              infidelium procreatas, easque ad imaginem et similitúdinem tuam
-              conditas. Memento Jesum, Fílium tuum, pro illorum salúte
-              atrocissimam subiisse necem. Noli, quæso, Dómine, ultra
-              permittere, ut Filius tuus ab infidelibus contemnatur, sed
-              precibus sanctórum virorum et Ecclesiæ, sanctissimi Fílii tui
-              Sponsæ, placatus, recordare misericórdiæ tuæ et, oblitus
-              idololatriæ et infidelitatis eorum, effice ut ipsi quoque
-              agnoscant aliquando quem misisti Dóminum Jesum Christum, qui est
-              salus, vita et resurrectio nostra, per quem salvati et liberáti
-              sumus, cui sit glória per infinita sǽcula sæculórum. Amen.
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, eterno, autor de todas as coisas, lembrai-Vos das almas
-              dos infiéis, formadas por Vós à vossa imagem e semelhança: vede
-              Senhor, que, em opróbrio vosso, deles se vai enchendo o inferno.
-              Lembrai-Vos de que vosso Filho Jesus por sua salvação padeceu uma
-              atrocíssima morte. Não permitais Senhor, daqui em diante, que o
-              vosso Filho seja desprezado pelos infiéis; mas pelo contrário,
-              deixando-se aplacar pelas preces dos santos e da Igreja, Esposa do
-              vosso santíssimo Filho, e esquecendo a sua idolatria e
-              infidelidade, fazei que eles também venham a conhecer Aquele que
-              enviastes, Jesus Cristo Nosso senhor, que é a salvação, vida e
-              ressurreição nossa, por quem fomos salvos e livres, ao qual seja
-              dada glória por infinitos séculos. Amen.
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Ætérne rerum omnium effector Deus, memento abs te animas infidelium
+          procreatas, easque ad imaginem et similitúdinem tuam conditas. Memento
+          Jesum, Fílium tuum, pro illorum salúte atrocissimam subiisse necem.
+          Noli, quæso, Dómine, ultra permittere, ut Filius tuus ab infidelibus
+          contemnatur, sed precibus sanctórum virorum et Ecclesiæ, sanctissimi
+          Fílii tui Sponsæ, placatus, recordare misericórdiæ tuæ et, oblitus
+          idololatriæ et infidelitatis eorum, effice ut ipsi quoque agnoscant
+          aliquando quem misisti Dóminum Jesum Christum, qui est salus, vita et
+          resurrectio nostra, per quem salvati et liberáti sumus, cui sit glória
+          per infinita sǽcula sæculórum. Amen.
+        </Text>
+        <Text className="vernacular">
+          Ó Deus, eterno, autor de todas as coisas, lembrai-Vos das almas dos
+          infiéis, formadas por Vós à vossa imagem e semelhança: vede Senhor,
+          que, em opróbrio vosso, deles se vai enchendo o inferno. Lembrai-Vos
+          de que vosso Filho Jesus por sua salvação padeceu uma atrocíssima
+          morte. Não permitais Senhor, daqui em diante, que o vosso Filho seja
+          desprezado pelos infiéis; mas pelo contrário, deixando-se aplacar
+          pelas preces dos santos e da Igreja, Esposa do vosso santíssimo Filho,
+          e esquecendo a sua idolatria e infidelidade, fazei que eles também
+          venham a conhecer Aquele que enviastes, Jesus Cristo Nosso senhor, que
+          é a salvação, vida e ressurreição nossa, por quem fomos salvos e
+          livres, ao qual seja dada glória por infinitos séculos. Amen.
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

@@ -1,249 +1,238 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function PageQuad20() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">Segundo Domingo da Quaresma</Text>
+    <PageWrapper>
+      <Text className="h1">Segundo Domingo da Quaresma</Text>
 
-          <Text className="h3">Intróito</Text>
+      <Text className="h3">Intróito</Text>
 
-          <Text className="em">Sl. 24, 6, 3 & 22</Text>
+      <Text className="em">Sl. 24, 6, 3 & 22</Text>
 
-          <Language>
-            <Text className="latin">
-              Reminíscere miseratiónum tuarum, Dómine, et misericórdiæ tuæ, quæ
-              a sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera
-              nos, Deus Israël, ex ómnibus angústiis nostris.{" "}
-              <Text className="latin">Ps. ibid., 1-2</Text> Ad te, Dómine,
-              levávi ánimam meam: Deus meus, in te confído, non erubéscam.
-              <Text className="versicle"> ℣. </Text>Gloria Patri...
-            </Text>
-            <Text className="vernacular">
-              Lembrai-Vos, Senhor, de que a vossa bondade e misericórdia são
-              eternas! Que os nossos inimigos nunca triunfem de nós. Ó Deus de
-              Israel, livrai-nos de todas nossas angústias.{" "}
-              <Text className="vernacular">Sl. ibid., 1-2</Text> A Vós, Senhor,
-              elevei a minha alma: meu Deus, confio em Vós; não ficarei
-              confundido.<Text className="versicle"> ℣. </Text>Glória ao Pai...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Reminíscere miseratiónum tuarum, Dómine, et misericórdiæ tuæ, quæ a
+          sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera nos,
+          Deus Israël, ex ómnibus angústiis nostris.{" "}
+          <Text className="latin">Ps. ibid., 1-2</Text> Ad te, Dómine, levávi
+          ánimam meam: Deus meus, in te confído, non erubéscam.
+          <Text className="versicle"> ℣. </Text>Gloria Patri...
+        </Text>
+        <Text className="vernacular">
+          Lembrai-Vos, Senhor, de que a vossa bondade e misericórdia são
+          eternas! Que os nossos inimigos nunca triunfem de nós. Ó Deus de
+          Israel, livrai-nos de todas nossas angústias.{" "}
+          <Text className="vernacular">Sl. ibid., 1-2</Text> A Vós, Senhor,
+          elevei a minha alma: meu Deus, confio em Vós; não ficarei confundido.
+          <Text className="versicle"> ℣. </Text>Glória ao Pai...
+        </Text>
+      </Language>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Deus, qui cónspicis omni nos virtúte destítui: intérius
-              exteriúsque custódi; ut ab ómnibus adversitátibus muniámur In
-              córpore, et a pravis cogitatiónibus mundémur in mente. Per
-              Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, que conheceis como somos destituídos de toda a virtude,
-              guardai-nos interior e exteriormente, a fim de que o nosso corpo
-              seja preservado de todas as adversidades e a nossa alma purificada
-              de todos os maus pensamentos. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Deus, qui cónspicis omni nos virtúte destítui: intérius exteriúsque
+          custódi; ut ab ómnibus adversitátibus muniámur In córpore, et a pravis
+          cogitatiónibus mundémur in mente. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Ó Deus, que conheceis como somos destituídos de toda a virtude,
+          guardai-nos interior e exteriormente, a fim de que o nosso corpo seja
+          preservado de todas as adversidades e a nossa alma purificada de todos
+          os maus pensamentos. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Epístola</Text>
+      <Text className="h3">Epístola</Text>
 
-          <Text className="em">1 Ts. 4, 1-7</Text>
+      <Text className="em">1 Ts. 4, 1-7</Text>
 
-          <Language>
-            <Text className="latin">
-              Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.
-            </Text>
-            <Text className="vernacular">
-              Lição da Ep.ª do B. Ap.º Paulo aos Tessalonicenses.
-            </Text>
-            <Text className="latin">
-              Fratres: Rogámus vos et obsecrámus in Dómino Jesu: ut, quemádmodum
-              accepístis a nobis, quómodo opórteat vos ambuláre et placére Deo,
-              sic et ambulétis, ut abundétis magis. Scitis enim, quæ præcépta
-              déderim vobis per Dóminum Jesum. Hæc est enim volúntas Dei,
-              sanctificátio vestra: ut abstineátis vos a fornicatióne, ut sciat
-              unusquísque vestrum vas suum possidére in sanctifícatióne et
-              honóre; non in passióne desidérii, sicut et gentes, quæ ignórant
-              Deum: et ne quis supergrediátur neque circumvéniat in negótio
-              fratrem suum: quóniam vindex est Dóminus de his ómnibus, sicut
-              prædíximus vobis et testificáti sumus. Non enim vocávit nos Deus
-              in immundítiam, sed in sanctificatiónem: in Christo Jesu, Dómino
-              nostro.
-            </Text>
-            <Text className="vernacular">
-              Meus irmãos: Vos pedimos e exortamos, em nome do Senhor Jesus,
-              que, havendo aprendido de nós como deveis conduzir-vos para
-              agradar a Deus, tenhais uma conduta de modo a aperfeiçoar-vos cada
-              vez mais. Com efeito, conheceis os preceitos que vos dei da parte
-              do Senhor Jesus. O que Ele quer é a vossa santificação: que vos
-              abstenhais da impureza carnal, para que cada um saiba guardar o
-              vaso do seu corpo em santidade e honestidade, e não segundo os
-              apetites das paixões, como os pagãos, que desconhecem Deus; e que
-              ninguém engane o seu irmão, nem o prejudique, pois, o Senhor é
-              vingador destas coisas, como já provámos e testemunhámos.
-              Porquanto Deus vos não chamou para os gozos da carne, mas para a
-              santificação em nosso Senhor Jesus Cristo.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Léctio Epístolæ beáti Pauli Apóstoli ad Thessalonicénses.
+        </Text>
+        <Text className="vernacular">
+          Lição da Ep.ª do B. Ap.º Paulo aos Tessalonicenses.
+        </Text>
+        <Text className="latin">
+          Fratres: Rogámus vos et obsecrámus in Dómino Jesu: ut, quemádmodum
+          accepístis a nobis, quómodo opórteat vos ambuláre et placére Deo, sic
+          et ambulétis, ut abundétis magis. Scitis enim, quæ præcépta déderim
+          vobis per Dóminum Jesum. Hæc est enim volúntas Dei, sanctificátio
+          vestra: ut abstineátis vos a fornicatióne, ut sciat unusquísque
+          vestrum vas suum possidére in sanctifícatióne et honóre; non in
+          passióne desidérii, sicut et gentes, quæ ignórant Deum: et ne quis
+          supergrediátur neque circumvéniat in negótio fratrem suum: quóniam
+          vindex est Dóminus de his ómnibus, sicut prædíximus vobis et
+          testificáti sumus. Non enim vocávit nos Deus in immundítiam, sed in
+          sanctificatiónem: in Christo Jesu, Dómino nostro.
+        </Text>
+        <Text className="vernacular">
+          Meus irmãos: Vos pedimos e exortamos, em nome do Senhor Jesus, que,
+          havendo aprendido de nós como deveis conduzir-vos para agradar a Deus,
+          tenhais uma conduta de modo a aperfeiçoar-vos cada vez mais. Com
+          efeito, conheceis os preceitos que vos dei da parte do Senhor Jesus. O
+          que Ele quer é a vossa santificação: que vos abstenhais da impureza
+          carnal, para que cada um saiba guardar o vaso do seu corpo em
+          santidade e honestidade, e não segundo os apetites das paixões, como
+          os pagãos, que desconhecem Deus; e que ninguém engane o seu irmão, nem
+          o prejudique, pois, o Senhor é vingador destas coisas, como já
+          provámos e testemunhámos. Porquanto Deus vos não chamou para os gozos
+          da carne, mas para a santificação em nosso Senhor Jesus Cristo.
+        </Text>
+      </Language>
 
-          <Text className="h3">Gradual</Text>
+      <Text className="h3">Gradual</Text>
 
-          <Text className="em">Sl. 24, 17-18</Text>
+      <Text className="em">Sl. 24, 17-18</Text>
 
-          <Language>
-            <Text className="latin">
-              Tribulatiónes cordis mei dilatátæ sunt: de necessitátibus meis
-              éripe me, Dómine.<Text className="versicle"> ℣. </Text>Vide
-              humilitátem meam et labórem meum: et dimítte ómnia peccáta mea.
-            </Text>
-            <Text className="vernacular">
-              As tribulações do meu coração cresceram. Ó Senhor, livrai-me das
-              minhas misérias.<Text className="versicle"> ℣. </Text>Vede a minha
-              humilhação e fadiga e perdoai os meus pecados.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Tribulatiónes cordis mei dilatátæ sunt: de necessitátibus meis éripe
+          me, Dómine.<Text className="versicle"> ℣. </Text>Vide humilitátem meam
+          et labórem meum: et dimítte ómnia peccáta mea.
+        </Text>
+        <Text className="vernacular">
+          As tribulações do meu coração cresceram. Ó Senhor, livrai-me das
+          minhas misérias.<Text className="versicle"> ℣. </Text>Vede a minha
+          humilhação e fadiga e perdoai os meus pecados.
+        </Text>
+      </Language>
 
-          <Text className="h3">Trato</Text>
+      <Text className="h3">Trato</Text>
 
-          <Text className="em">Sl. 105, 1-1</Text>
+      <Text className="em">Sl. 105, 1-1</Text>
 
-          <Language>
-            <Text className="latin">
-              Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia
-              ejus.<Text className="versicle"> ℣. </Text>Quis loquétur poténtias
-              Dómini: audítas fáciet omnes laudes ejus?
-              <Text className="versicle"> ℣. </Text>Beáti, qui custódiunt
-              judícium et fáciunt justítiam in omni témpore.
-              <Text className="versicle"> ℣. </Text>Meménto nostri, Dómine, in
-              beneplácito pópuli tui: vísita nos in salutári tuo.
-            </Text>
-            <Text className="vernacular">
-              Louvai o Senhor, pois Ele é bom: a sua misericórdia é eterna.
-              <Text className="versicle"> ℣. </Text>
-              Quem será capaz de narrar as maravilhas da omnipotência do Senhor
-              e apregoar os seus louvores?<Text className="versicle"> ℣. </Text>
-              Bem-aventurados aqueles que procedem com equidade e justiça em
-              todas as ocasiões.<Text className="versicle"> ℣. </Text>Pela vossa
-              bondade para com vosso povo, Senhor, lembrai-Vos de nós:
-              visitai-nos para alcançarmos a salvação.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia
+          ejus.<Text className="versicle"> ℣. </Text>Quis loquétur poténtias
+          Dómini: audítas fáciet omnes laudes ejus?
+          <Text className="versicle"> ℣. </Text>Beáti, qui custódiunt judícium
+          et fáciunt justítiam in omni témpore.
+          <Text className="versicle"> ℣. </Text>Meménto nostri, Dómine, in
+          beneplácito pópuli tui: vísita nos in salutári tuo.
+        </Text>
+        <Text className="vernacular">
+          Louvai o Senhor, pois Ele é bom: a sua misericórdia é eterna.
+          <Text className="versicle"> ℣. </Text>
+          Quem será capaz de narrar as maravilhas da omnipotência do Senhor e
+          apregoar os seus louvores?<Text className="versicle"> ℣. </Text>
+          Bem-aventurados aqueles que procedem com equidade e justiça em todas
+          as ocasiões.<Text className="versicle"> ℣. </Text>Pela vossa bondade
+          para com vosso povo, Senhor, lembrai-Vos de nós: visitai-nos para
+          alcançarmos a salvação.
+        </Text>
+      </Language>
 
-          <Text className="h3">Evangelho</Text>
+      <Text className="h3">Evangelho</Text>
 
-          <Text className="em">Mt, 17, 1-9</Text>
+      <Text className="em">Mt, 17, 1-9</Text>
 
-          <Language>
-            <Text className="latin">
-              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
-              secúndum Matthǽum.
-            </Text>
-            <Text className="vernacular">
-              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
-              segundo S. Mateus.
-            </Text>
-            <Text className="latin">
-              In illo témpore: Assúmpsit Jesus Petrum, et Jacóbum, et Joánnem
-              fratrem eius, et duxit illos in montem excélsum seórsum: et
-              transfigurátus est ante eos. Et resplénduit fácies ejus sicut sol:
-              vestiménta autem ejus facta sunt alba sicut nix. Et ecce,
-              apparuérunt illis Móyses et Elías cum eo loquéntes. Respóndens
-              autem Petrus, dixit ad Jesum: Dómine, bonum est nos hic esse: si
-              vis, faciámus hic tria tabernácula, tibi unum, Móysi unum et Elíæ
-              unum. Adhuc eo loquénte, ecce, nubes lúcida obumbrávit eos. Et
-              ecce vox de nube, dicens: Hic est Fílius meus diléctus, in quo
-              mihi bene complácui: ipsum audíte. Et audiéntes discípuli,
-              cecidérunt in fáciem suam, et timuérunt valde. Et accéssit Jesus,
-              et tétigit eos, dixítque eis: Súrgite, et nolíte timére. Levántes
-              autem óculos suos, néminem vidérunt nisi solum Jesum. Et
-              descendéntibus illis de monte, præcépit eis Jesus, dicens: Némini
-              dixéritis visiónem, donec Fílius hóminis a mórtuis resúrgat.
-            </Text>
-            <Text className="vernacular">
-              Naquele tempo, Jesus levou consigo Pedro, Tiago e João e
-              conduziu-os a um monte alto e separado, transfigurando-se ante
-              eles: seu rosto resplandecia, como o sol, e os seus vestidos
-              tornaram-se brancos, como a neve! E Moisés e Elias apareceram,
-              conversando com Jesus. Então, Pedro disse a Jesus: «Senhor, é tão
-              bom estar aqui!... Se quereis, façamos aqui três tendas: uma para
-              Vós, outra para Moisés e outra para Elias!». Ainda ele falava, eis
-              que uma nuvem brilhante os envolveu, saindo do seio dela uma voz,
-              que dizia: «Este é o meu Filho muito amado, em quem pus as minhas
-              complacências; ouvi-O». Havendo escutado a voz, os discípulos
-              caíram com o rosto no chão e ficaram atemorizados. Mas Jesus
-              tocou-os e disse-lhes: «Levantai-vos; não vos amedronteis». Então,
-              erguendo os olhos, já nada viram senão só Jesus. Desceram do
-              monte, dando-lhes Jesus esta ordem: «Não conteis a ninguém esta
-              visão até que o Filho do homem ressuscite dos mortos».
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+          Matthǽum.
+        </Text>
+        <Text className="vernacular">
+          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+          segundo S. Mateus.
+        </Text>
+        <Text className="latin">
+          In illo témpore: Assúmpsit Jesus Petrum, et Jacóbum, et Joánnem
+          fratrem eius, et duxit illos in montem excélsum seórsum: et
+          transfigurátus est ante eos. Et resplénduit fácies ejus sicut sol:
+          vestiménta autem ejus facta sunt alba sicut nix. Et ecce, apparuérunt
+          illis Móyses et Elías cum eo loquéntes. Respóndens autem Petrus, dixit
+          ad Jesum: Dómine, bonum est nos hic esse: si vis, faciámus hic tria
+          tabernácula, tibi unum, Móysi unum et Elíæ unum. Adhuc eo loquénte,
+          ecce, nubes lúcida obumbrávit eos. Et ecce vox de nube, dicens: Hic
+          est Fílius meus diléctus, in quo mihi bene complácui: ipsum audíte. Et
+          audiéntes discípuli, cecidérunt in fáciem suam, et timuérunt valde. Et
+          accéssit Jesus, et tétigit eos, dixítque eis: Súrgite, et nolíte
+          timére. Levántes autem óculos suos, néminem vidérunt nisi solum Jesum.
+          Et descendéntibus illis de monte, præcépit eis Jesus, dicens: Némini
+          dixéritis visiónem, donec Fílius hóminis a mórtuis resúrgat.
+        </Text>
+        <Text className="vernacular">
+          Naquele tempo, Jesus levou consigo Pedro, Tiago e João e conduziu-os a
+          um monte alto e separado, transfigurando-se ante eles: seu rosto
+          resplandecia, como o sol, e os seus vestidos tornaram-se brancos, como
+          a neve! E Moisés e Elias apareceram, conversando com Jesus. Então,
+          Pedro disse a Jesus: «Senhor, é tão bom estar aqui!... Se quereis,
+          façamos aqui três tendas: uma para Vós, outra para Moisés e outra para
+          Elias!». Ainda ele falava, eis que uma nuvem brilhante os envolveu,
+          saindo do seio dela uma voz, que dizia: «Este é o meu Filho muito
+          amado, em quem pus as minhas complacências; ouvi-O». Havendo escutado
+          a voz, os discípulos caíram com o rosto no chão e ficaram
+          atemorizados. Mas Jesus tocou-os e disse-lhes: «Levantai-vos; não vos
+          amedronteis». Então, erguendo os olhos, já nada viram senão só Jesus.
+          Desceram do monte, dando-lhes Jesus esta ordem: «Não conteis a ninguém
+          esta visão até que o Filho do homem ressuscite dos mortos».
+        </Text>
+      </Language>
 
-          <Text className="h3">Ofertório</Text>
+      <Text className="h3">Ofertório</Text>
 
-          <Text className="em">Sl. 118,47 & 48</Text>
+      <Text className="em">Sl. 118,47 & 48</Text>
 
-          <Language>
-            <Text className="latin">
-              Meditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas
-              ad mandáta tua, quæ diléxi.
-            </Text>
-            <Text className="vernacular">
-              Meditarei nos vossos Mandamentos, que muito amo: e levantarei as
-              minhas mãos para cumprir esses Mandamentos, que, repito, muito
-              amo.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Meditábor in mandátis tuis, quæ diléxi valde: et levábo manus meas ad
+          mandáta tua, quæ diléxi.
+        </Text>
+        <Text className="vernacular">
+          Meditarei nos vossos Mandamentos, que muito amo: e levantarei as
+          minhas mãos para cumprir esses Mandamentos, que, repito, muito amo.
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Sacrifíciis præséntibus, Dómine, quǽsumus, inténde placátus: ut et
-              devotióni nostræ profíciant et salúti. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Senhor, Vos suplicamos, dignai-Vos olhar benigno para o presente
-              sacrifício, a fim de que sirva de proveito à nossa piedade e à
-              nossa salvação. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Sacrifíciis præséntibus, Dómine, quǽsumus, inténde placátus: ut et
+          devotióni nostræ profíciant et salúti. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Senhor, Vos suplicamos, dignai-Vos olhar benigno para o presente
+          sacrifício, a fim de que sirva de proveito à nossa piedade e à nossa
+          salvação. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Comúnio</Text>
+      <Text className="h3">Comúnio</Text>
 
-          <Text className="em">Sl. 5, 2-4</Text>
+      <Text className="em">Sl. 5, 2-4</Text>
 
-          <Language>
-            <Text className="latin">
-              Intéllege clamórem meum: inténde voci oratiónis meæ, Rex meus et
-              Deus meus: quóniam ad te orábo, Dómine.
-            </Text>
-            <Text className="vernacular">
-              Ouvi o meu clamor; ouvi a minha oração, ó meu Rei, ó meu Deus;
-              pois orei a Vós.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Intéllege clamórem meum: inténde voci oratiónis meæ, Rex meus et Deus
+          meus: quóniam ad te orábo, Dómine.
+        </Text>
+        <Text className="vernacular">
+          Ouvi o meu clamor; ouvi a minha oração, ó meu Rei, ó meu Deus; pois
+          orei a Vós.
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Súpplices te rogámus, omnípotens Deus: ut quos tuis réficis
-              sacraméntis, tibi etiam plácitis móribus dignánter deservíre
-              concédas. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus omnipotente, Vos suplicamos instantemente que aqueles a
-              quem sustentais com vossos sacramentos tenham uma conduta de vida
-              que Vos seja agradável. Por nosso Senhor...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Súpplices te rogámus, omnípotens Deus: ut quos tuis réficis
+          sacraméntis, tibi etiam plácitis móribus dignánter deservíre concédas.
+          Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Ó Deus omnipotente, Vos suplicamos instantemente que aqueles a quem
+          sustentais com vossos sacramentos tenham uma conduta de vida que Vos
+          seja agradável. Por nosso Senhor...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

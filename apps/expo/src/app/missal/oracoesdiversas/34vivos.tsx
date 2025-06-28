@@ -1,66 +1,60 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function Page34Vivos() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">34.ª Pelos vivos</Text>
+    <PageWrapper>
+      <Text className="h1">34.ª Pelos vivos</Text>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Præténde, Dómine, fidélibus tuis déxteram cœléstis auxílii: ut te
-              toto corde perquírant, et, quæ digne póstulant, cónsequi
-              mereantur. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Estendei do alto do céu, Senhor, aos vossos fiéis a vossa mão
-              caritativa, e fazei que eles Vos procurem de todo o coração e
-              mereçam alcançar o que dignamente suplicam. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Præténde, Dómine, fidélibus tuis déxteram cœléstis auxílii: ut te toto
+          corde perquírant, et, quæ digne póstulant, cónsequi mereantur. Per
+          Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Estendei do alto do céu, Senhor, aos vossos fiéis a vossa mão
+          caritativa, e fazei que eles Vos procurem de todo o coração e mereçam
+          alcançar o que dignamente suplicam. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Propitiáre, Dómine, supplicatiónibus nostris, et has oblatiónes
-              fidélium tuórum, quas tibi pro incolumitáte eórum offérimus,
-              benígnus assúme: et, ut nullíus sit írritum votum, nullíus vácua
-              postulátio, præsta, quǽsumus; ut, quod fidéliter pétimus,
-              efficáciter consequámur. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Sede propício às nossas súplicas e recebei benigno as oblações dos
-              vossos fiéis; e, Vos rogamos, permiti que consigamos eficazmente o
-              que pedimos com fé, para que os nossos desejos não sejam vãos, nem
-              as nossas preces ineficazes. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Propitiáre, Dómine, supplicatiónibus nostris, et has oblatiónes
+          fidélium tuórum, quas tibi pro incolumitáte eórum offérimus, benígnus
+          assúme: et, ut nullíus sit írritum votum, nullíus vácua postulátio,
+          præsta, quǽsumus; ut, quod fidéliter pétimus, efficáciter consequámur.
+          Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Sede propício às nossas súplicas e recebei benigno as oblações dos
+          vossos fiéis; e, Vos rogamos, permiti que consigamos eficazmente o que
+          pedimos com fé, para que os nossos desejos não sejam vãos, nem as
+          nossas preces ineficazes. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Da fidélibus tuis, quǽsumus, Dómine, in tua fide et sinceritáte
-              constántiam: ut, in caritáte divína firmáti, nullis tentatiónibus
-              ab ejus integritáte vellántur. Per Dóminum nostrum...
-            </Text>
-            <Text className="vernacular">
-              Senhor, Vos imploramos, concedei aos vossos fiéis a constância na
-              fé, que Vos dedicam, e a sinceridade no amor, que Vos consagram, a
-              fim de que, confirmados na caridade divina, nela permaneçam
-              inabalavelmente, a despeito de todas as tentações. Por nosso
-              Senhor...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Da fidélibus tuis, quǽsumus, Dómine, in tua fide et sinceritáte
+          constántiam: ut, in caritáte divína firmáti, nullis tentatiónibus ab
+          ejus integritáte vellántur. Per Dóminum nostrum...
+        </Text>
+        <Text className="vernacular">
+          Senhor, Vos imploramos, concedei aos vossos fiéis a constância na fé,
+          que Vos dedicam, e a sinceridade no amor, que Vos consagram, a fim de
+          que, confirmados na caridade divina, nela permaneçam inabalavelmente,
+          a despeito de todas as tentações. Por nosso Senhor...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }
