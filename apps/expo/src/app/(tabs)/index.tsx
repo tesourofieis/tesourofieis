@@ -9,6 +9,7 @@ import LinkCard from "~/components/LinkCard";
 import LiturgicalSeason from "~/components/LiturgicalSeason";
 import Novenas from "~/components/Novenas";
 import Office from "~/components/Office";
+import PageWrapper from "~/components/Page";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
 
@@ -29,15 +30,15 @@ export default function PageRender() {
   const currentPrayer = getPrayer(date);
 
   return (
-    <ScrollView className="flex-1 bg-sepia-200 dark:bg-sepia-800">
-      <View className="docs">
-        <View className="bg-sepia-700">
-          <Text className="font-serif text-sm p-3 text-center text-sepia-300">
-            Em Portugal se conservará sempre o dogma da fé - Nossa Senhora de
-            Fátima
-          </Text>
-        </View>
+    <View>
+      <View className="bg-sepia-700">
+        <Text className="font-serif text-sm p-3 text-center text-sepia-300">
+          Em Portugal se conservará sempre o dogma da fé - Nossa Senhora de
+          Fátima
+        </Text>
+      </View>
 
+      <PageWrapper>
         <View className="flex flex-col items-center mt-20 justify-center gap-5">
           <FontAwesome6 name="book-bible" size={180} color="#e53935" />
           <Text className="font-display text-3xl text-red-600 m-3">
@@ -141,7 +142,7 @@ export default function PageRender() {
         <LiturgicalSeason />
 
         <ExternalLinks />
-      </View>
-    </ScrollView>
+      </PageWrapper>
+    </View>
   );
 }
