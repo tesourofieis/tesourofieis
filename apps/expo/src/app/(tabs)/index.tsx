@@ -30,7 +30,7 @@ export default function PageRender() {
   const currentPrayer = getPrayer(date);
 
   return (
-    <View>
+    <ScrollView>
       <View className="bg-sepia-700">
         <Text className="font-serif text-sm p-3 text-center text-sepia-300">
           Em Portugal se conservará sempre o dogma da fé - Nossa Senhora de
@@ -38,18 +38,18 @@ export default function PageRender() {
         </Text>
       </View>
 
-      <PageWrapper>
-        <View className="flex flex-col items-center mt-20 justify-center gap-5">
-          <FontAwesome6 name="book-bible" size={180} color="#e53935" />
-          <Text className="font-display text-3xl text-red-600 m-3">
-            Tesouro dos Fiéis
-          </Text>
-          <Text className="font-serif text-sm text-center mx-8 text-sepia-800 dark:text-sepia-200">
-            Espaço dedicado à oração, exposição e preservação das santas
-            tradições da Igreja.
-          </Text>
-        </View>
+      <View className="flex flex-col items-center mt-20 justify-center gap-5">
+        <FontAwesome6 name="book-bible" size={180} color="#e53935" />
+        <Text className="font-display text-3xl text-red-600 m-3">
+          Tesouro dos Fiéis
+        </Text>
+        <Text className="font-serif text-sm text-center mx-8 text-sepia-800 dark:text-sepia-200">
+          Espaço dedicado à oração, exposição e preservação das santas tradições
+          da Igreja.
+        </Text>
+      </View>
 
+      <PageWrapper>
         <View className="flex flex-row justify-center my-5 mx-5 gap-5">
           <Link
             className="border-sepia-900 shadow-lg bg-sepia-200 dark:bg-gray-800 dark:border-sepia-200 active:bg-sepia-300 dark:active:bg-sepia-700 m-2 rounded-lg border px-4 py-2 flex"
@@ -143,6 +143,6 @@ export default function PageRender() {
 
         <ExternalLinks />
       </PageWrapper>
-    </View>
+    </ScrollView>
   );
 }

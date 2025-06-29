@@ -84,7 +84,7 @@ const createHierarchy = (items: Docs[]): Record<string, TreeNode> => {
 
 const searchHierarchy = (
   hierarchy: { [key: string]: HierarchyNode },
-  searchText: string
+  searchText: string,
 ): { [key: string]: HierarchyNode } => {
   const filtered: { [key: string]: HierarchyNode } = {};
 
@@ -450,7 +450,7 @@ export default function MoreScreen() {
 
       function collectPaths(
         nodes: { [key: string]: HierarchyNode },
-        parentPath = ""
+        parentPath = "",
       ) {
         Object.entries(nodes).forEach(([key, node]) => {
           const currentPath = parentPath ? `${parentPath}/${key}` : key;

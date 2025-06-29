@@ -1,5 +1,5 @@
 import type React from "react";
-import { ScrollView, View } from "react-native";
+import { Platform, ScrollView, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { PageProvider, useIsNested } from "~/providers/page";
 
@@ -9,6 +9,8 @@ type PageWrapperProps = {
 
 export default function PageWrapper({ children }: PageWrapperProps) {
   const isNested = useIsNested();
+
+  const isWeb = Platform.OS === "web";
 
   if (isNested) {
     // If nested, just return the content wrapped in PageProvider
@@ -20,9 +22,15 @@ export default function PageWrapper({ children }: PageWrapperProps) {
     <PageProvider>
       <SafeAreaView className="flex-1 dark:bg-sepia-900 bg-sepia-100">
         <ScrollView>
-          <View className="flex-1 font-serif py-2 px-1 web:w-6/12 web:mx-auto">
-            {children}
-          </View>
+          {isWeb ? (
+            <View className="flex-1 font-serif py-2 px-1 web:w-6/12 mx-auto">
+              {children}
+            </View>
+          ) : (
+            <View className="flex-1 font-serif py-2 px-1 w-full">
+              {children}
+            </View>
+          )}
         </ScrollView>
       </SafeAreaView>
     </PageProvider>

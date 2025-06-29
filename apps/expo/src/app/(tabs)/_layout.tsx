@@ -28,7 +28,7 @@ export default function PageTabLayout() {
         name="index"
         options={{
           title: "Início",
-          href: isWeb ? null : "/",
+          href: "/",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 name="house" color={color} />
           ),
@@ -38,7 +38,7 @@ export default function PageTabLayout() {
         name="calendario"
         options={{
           title: "Calendário",
-          href: isWeb ? null : "/calendario",
+          href: "/calendario",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 name="calendar" color={color} />
           ),
@@ -56,7 +56,7 @@ export default function PageTabLayout() {
         name="more"
         options={{
           title: "Procura",
-          href: isWeb ? null : "/more",
+          href: "/more",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 name="magnifying-glass" color={color} />
           ),
