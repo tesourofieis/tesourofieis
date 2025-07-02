@@ -1,318 +1,522 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import { type RelativePathString, usePathname, useRouter } from "expo-router";
-import { useCallback, useEffect, useState } from "react";
+import { useRouter, usePathname } from "expo-router";
+import React, {
+  useEffect,
+  useMemo,
+  useState,
+  useCallback,
+  useRef,
+} from "react";
 import {
-  ScrollView,
   Text,
   TextInput,
   TouchableOpacity,
-  useColorScheme,
   View,
+  useColorScheme,
+  Animated,
+  ActivityIndicator,
+  FlatList,
 } from "react-native";
+import FlexSearch from "flexsearch";
 import { COLORS } from "~/constants/Colors";
-import { type SidebarItem, sidebar } from "~/sidebar";
+import rawDocs from "../../../assets/search-index.json";
 
-type HierarchyNode = {
+interface Docs {
+  id: string;
   title: string;
+  body: string;
+  url: string;
+}
+
+interface TreeNode {
+  title: string;
+  children: Record<string, TreeNode>;
   description?: string;
   link?: string;
-  children: { [key: string]: HierarchyNode };
-};
+}
 
-type MenuItemProps = {
-  node: HierarchyNode;
-  path: string;
-  level: number;
-  expanded: { [key: string]: boolean };
-  toggleExpand: (path: string) => void;
-  isActive: boolean;
-};
+const ANIMATION_DURATION = 200;
+const INITIAL_RENDER_COUNT = 10;
+const RENDER_BATCH_SIZE = 5;
+const INDEXING_CHUNK_SIZE = 50;
 
-const createHierarchy = (items: SidebarItem[]) => {
-  const root: { [key: string]: HierarchyNode } = {};
-  for (const item of items) {
-    const parts = item.link.split("/").filter(Boolean);
+const createHierarchy = (items: Docs[]): Record<string, TreeNode> => {
+  const root: Record<string, TreeNode> = {};
+  for (const { id, title, body, url } of items) {
+    const parts = id.split("/").filter(Boolean);
     let current = root;
-    for (let index = 0; index < parts.length; index++) {
-      const part = parts[index];
-      if (!current[part]) {
-        current[part] = {
-          title: part,
-          children: {},
-        };
+    for (let i = 0; i < parts.length; i++) {
+      const key = parts[i];
+      if (!current[key]) current[key] = { title: key, children: {} };
+      if (i === parts.length - 1) {
+        current[key].title = title;
+        current[key].description = body.slice(0, 120);
+        current[key].link = url;
       }
-      if (index === parts.length - 1) {
-        current[part].title = item.title;
-        current[part].description = item.description;
-        current[part].link = item.link;
-      }
-      current = current[part].children;
+      current = current[key].children;
     }
   }
   return root;
 };
 
-const searchHierarchy = (
-  hierarchy: { [key: string]: HierarchyNode },
-  searchText: string,
-): { [key: string]: HierarchyNode } => {
-  const filtered: { [key: string]: HierarchyNode } = {};
-
-  Object.entries(hierarchy).forEach(([key, node]) => {
-    const matchesTitle = node.title
-      .toLowerCase()
-      .includes(searchText.toLowerCase());
-    const matchesDescription = node.description
-      ?.toLowerCase()
-      .includes(searchText.toLowerCase());
-    const childMatches = searchHierarchy(node.children, searchText);
-
-    if (
-      matchesTitle ||
-      matchesDescription ||
-      Object.keys(childMatches).length > 0
-    ) {
-      filtered[key] = {
-        ...node,
-        children: childMatches,
-      };
-    }
-  });
-
-  return filtered;
-};
-
-const MenuItem = ({
-  node,
-  path,
-  level,
-  expanded,
-  toggleExpand,
-  isActive,
-}: MenuItemProps) => {
-  const router = useRouter();
-  const pathname = usePathname();
-  const colorScheme = useColorScheme();
-  const textColor = colorScheme === "light" ? COLORS["800"] : COLORS["200"];
-  const subtextColor = colorScheme === "light" ? COLORS["700"] : COLORS["300"];
-  const iconColor = colorScheme === "light" ? COLORS["600"] : COLORS["400"];
-
-  const hasChildren = Object.keys(node.children).length > 0;
-  const isExpanded = expanded[path];
-
-  const handlePress = () => {
-    if (hasChildren) {
-      toggleExpand(path);
-    } else if (node.link) {
-      router.push({
-        pathname: node.link.slice(1) as RelativePathString,
-      });
-    }
-  };
-
-  const ItemComponent = level === 0 ? MainMenuItem : SubMenuItem;
-
+const highlightText = (text: string, highlight?: string) => {
+  if (!highlight || highlight.length < 2) return text;
+  const lowerHighlight = highlight.toLowerCase();
+  const lowerText = text.toLowerCase();
+  const index = lowerText.indexOf(lowerHighlight);
+  if (index === -1) return text;
   return (
-    <View style={{ marginLeft: level * 16 }}>
-      <ItemComponent
-        title={node.title}
-        description={node.description}
-        hasChildren={hasChildren}
-        isExpanded={isExpanded}
-        isActive={isActive}
-        onPress={handlePress}
-        textColor={textColor}
-        subtextColor={subtextColor}
-        iconColor={iconColor}
-      />
-      {hasChildren && isExpanded && (
-        <View>
-          {Object.entries(node.children).map(([key, childNode]) => (
-            <MenuItem
-              key={`${path}/${key}`}
-              node={childNode}
-              path={`${path}/${key}`}
-              level={level + 1}
-              expanded={expanded}
-              toggleExpand={toggleExpand}
-              isActive={childNode.link === pathname}
-            />
-          ))}
-        </View>
-      )}
-    </View>
+    <>
+      {text.slice(0, index)}
+      <Text className="bg-sepia-200 dark:bg-sepia-700">
+        {text.slice(index, index + highlight.length)}
+      </Text>
+      {text.slice(index + highlight.length)}
+    </>
   );
 };
 
-const MainMenuItem = ({
-  title,
-  description,
-  hasChildren,
-  isExpanded,
-  isActive,
-  onPress,
-  textColor,
-  subtextColor,
-  iconColor,
-}) => (
-  <View className="bg-sepia-50 dark:bg-sepia-900 border rounded-lg border-sepia-300 p-1 m-1 dark:border-sepia-800">
-    <TouchableOpacity
-      className={`m-2 p-3 flex-row items-center justify-between rounded-lg ${
-        isActive ? "bg-sepia-100 dark:bg-sepia-800" : ""
-      }`}
-      onPress={onPress}
-    >
-      <View className="flex-row items-center flex-1">
-        <View>
-          <Text
-            className={`font-bold text-lg ${isActive ? "font-extrabold" : ""}`}
-            style={{ color: textColor }}
-          >
-            {title}
-          </Text>
-          {description && (
-            <Text className="text-sm" style={{ color: subtextColor }}>
-              {description}
-            </Text>
-          )}
-        </View>
-      </View>
-      {hasChildren ? (
-        <FontAwesome6
-          name={isExpanded ? "chevron-up" : "chevron-down"}
-          size={16}
-          color={iconColor}
-        />
-      ) : (
-        <FontAwesome6 name="arrow-right" color={COLORS["500"]} size={16} />
-      )}
-    </TouchableOpacity>
-  </View>
-);
+const TreeItem = React.memo(
+  ({
+    node,
+    path,
+    level,
+    expanded,
+    toggleExpand,
+    isActive,
+    searchHighlight,
+    currentPathname,
+  }: {
+    node: TreeNode;
+    path: string;
+    level: number;
+    expanded: Record<string, boolean>;
+    toggleExpand: (path: string) => void;
+    isActive: boolean;
+    searchHighlight?: string;
+    currentPathname: string;
+  }) => {
+    const router = useRouter();
+    const isDark = useColorScheme() === "dark";
+    const hasKids = !!Object.keys(node.children).length;
+    const isOpen = expanded[path];
+    const handlePress = useCallback(() => {
+      if (hasKids) toggleExpand(path);
+      else if (node.link) router.push(node.link);
+    }, [hasKids, node.link, path]);
 
-const SubMenuItem = ({
-  title,
-  description,
-  hasChildren,
-  isExpanded,
-  isActive,
-  onPress,
-  textColor,
-  subtextColor,
-  iconColor,
-}) => (
-  <TouchableOpacity
-    className={`flex-row items-center justify-between p-3 gap-2 rounded-lg ${
-      isActive ? "bg-sepia-100 dark:bg-sepia-800" : ""
-    }`}
-    onPress={onPress}
-  >
-    <View className="flex-row items-center flex-1">
-      <View>
-        <Text
-          className={`text-base text-wrap ${isActive ? "font-bold" : ""}`}
-          style={{ color: textColor }}
+    const renderChild = useCallback(
+      ({ item: [key, child] }: any) => (
+        <TreeItem
+          node={child}
+          path={`${path}/${key}`}
+          level={level + 1}
+          expanded={expanded}
+          toggleExpand={toggleExpand}
+          isActive={child.link === currentPathname}
+          searchHighlight={searchHighlight}
+          currentPathname={currentPathname}
+        />
+      ),
+      [expanded, searchHighlight, currentPathname]
+    );
+
+    return (
+      <View style={{ paddingLeft: level * 16 }}>
+        <TouchableOpacity
+          onPress={handlePress}
+          className={`rounded-xl mx-4 my-1 py-3 px-4 flex-row items-center ${
+            isActive
+              ? "bg-sepia-200 dark:bg-sepia-700 border-l-3 border-accent"
+              : "bg-sepia-100 dark:bg-sepia-800 border-l-3 border-sepia-200 dark:border-sepia-700"
+          }`}
         >
-          {title}
-        </Text>
-        {description && (
-          <Text className="text-sm" style={{ color: subtextColor }}>
-            {description}
-          </Text>
+          <View className="flex-1">
+            <Text
+              className={`${
+                isActive ? "font-bold" : "font-semibold"
+              } text-base text-${isDark ? "sepia-100" : "sepia-900"}`}
+            >
+              {highlightText(node.title, searchHighlight)}
+            </Text>
+            {node.description && node.description !== node.title && (
+              <Text
+                className="text-sepia-600 dark:text-sepia-300 text-xs mt-1"
+                numberOfLines={2}
+              >
+                {highlightText(node.description, searchHighlight)}
+              </Text>
+            )}
+          </View>
+          <FontAwesome6
+            name={
+              hasKids ? (isOpen ? "chevron-up" : "chevron-down") : "arrow-right"
+            }
+            size={16}
+            color={!isDark ? COLORS["800"] : COLORS["200"]}
+          />
+        </TouchableOpacity>
+        {hasKids && isOpen && (
+          <FlatList
+            data={Object.entries(node.children)}
+            renderItem={renderChild}
+            keyExtractor={([k]) => `${path}/${k}`}
+            removeClippedSubviews
+            maxToRenderPerBatch={RENDER_BATCH_SIZE}
+            windowSize={10}
+            getItemLayout={(d, i) => ({ length: 60, offset: 60 * i, index: i })}
+          />
         )}
       </View>
-    </View>
-    {hasChildren ? (
-      <FontAwesome6
-        name={isExpanded ? "chevron-up" : "chevron-down"}
-        size={13}
-        color={iconColor}
+    );
+  }
+);
+
+const SearchResultItem = React.memo(
+  ({
+    item,
+    query,
+    onPress,
+    isActive,
+  }: {
+    item: Docs;
+    query: string;
+    onPress: (id: string) => void;
+    isActive: boolean;
+  }) => {
+    const isDark = useColorScheme() === "dark";
+    const handlePress = () => onPress(item.id);
+    return (
+      <TouchableOpacity
+        onPress={handlePress}
+        className={`rounded-lg mx-4 my-2 p-4 ${
+          isActive
+            ? "bg-sepia-100 dark:bg-sepia-700 border-l-3 border-sepia-500"
+            : "bg-sepia-50 dark:bg-sepia-800 border-l-3 border-sepia-200 dark:border-sepia-700"
+        }`}
+      >
+        <Text
+          className={`${
+            isActive ? "font-bold" : "font-semibold"
+          } text-base text-${isDark ? "sepia-100" : "sepia-900"}`}
+        >
+          {highlightText(item.title, query)}
+        </Text>
+        <Text
+          className="text-sepia-600 dark:text-sepia-300 text-sm mt-1"
+          numberOfLines={3}
+        >
+          {highlightText(item.body.slice(0, 150), query)}…
+        </Text>
+      </TouchableOpacity>
+    );
+  }
+);
+
+const SearchResults = React.memo(
+  ({
+    results,
+    query,
+    onPress,
+    pathname,
+  }: {
+    results: Docs[];
+    query: string;
+    onPress: (id: string) => void;
+    pathname: string;
+  }) => {
+    const fade = useRef(new Animated.Value(0)).current;
+    useEffect(() => {
+      fade.setValue(0);
+      Animated.timing(fade, {
+        toValue: 1,
+        duration: ANIMATION_DURATION,
+        useNativeDriver: true,
+      }).start();
+    }, [results.length]);
+
+    const renderItem = ({ item }: any) => (
+      <SearchResultItem
+        item={item}
+        query={query}
+        onPress={onPress}
+        isActive={pathname === item.url}
       />
-    ) : (
-      <FontAwesome6 name="arrow-right" color={iconColor} size={13} />
-    )}
-  </TouchableOpacity>
+    );
+
+    return (
+      <Animated.View style={{ opacity: fade, flex: 1 }}>
+        <FlatList
+          data={results}
+          keyExtractor={(item) => item.id}
+          renderItem={renderItem}
+          removeClippedSubviews
+          maxToRenderPerBatch={RENDER_BATCH_SIZE}
+          initialNumToRender={INITIAL_RENDER_COUNT}
+          windowSize={10}
+          getItemLayout={(d, i) => ({ length: 100, offset: 100 * i, index: i })}
+          contentContainerStyle={{ paddingVertical: 8 }}
+        />
+      </Animated.View>
+    );
+  }
 );
 
 export default function MoreScreen() {
-  const [expanded, setExpanded] = useState<{ [key: string]: boolean }>({});
+  const router = useRouter();
+  const pathname = usePathname();
+  const isDark = useColorScheme() === "dark";
   const [searchQuery, setSearchQuery] = useState("");
-  const hierarchy = createHierarchy(sidebar);
+  const [results, setResults] = useState<Docs[]>([]);
+  const [isSearching, setIsSearching] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [expanded, setExpanded] = useState<Record<string, boolean>>({});
 
-  const filteredHierarchy = searchQuery
-    ? searchHierarchy(hierarchy, searchQuery)
-    : hierarchy;
+  const [searchIndex, setSearchIndex] = useState<{
+    index: FlexSearch.Index;
+    store: Record<string, Docs>;
+  } | null>(null);
+  const [isIndexing, setIsIndexing] = useState(true);
+
+  const hierarchy = useMemo(() => createHierarchy(rawDocs), []);
+  const hierarchyEntries = useMemo(
+    () => Object.entries(hierarchy),
+    [hierarchy]
+  );
 
   useEffect(() => {
-    if (searchQuery) {
-      const allPaths = new Set<string>();
+    const buildIndex = async () => {
+      setIsIndexing(true);
 
-      function collectPaths(
-        nodes: { [key: string]: HierarchyNode },
-        parentPath = "",
-      ) {
-        Object.entries(nodes).forEach(([key, node]) => {
-          const currentPath = parentPath ? `${parentPath}/${key}` : key;
-          allPaths.add(currentPath);
-          collectPaths(node.children, currentPath);
+      await new Promise((resolve) => setTimeout(resolve, 0));
+
+      const store: Record<string, Docs> = {};
+      const idx = new FlexSearch.Index({
+        tokenize: "full",
+        cache: true,
+        resolution: 5,
+        depth: 3,
+      });
+
+      for (let i = 0; i < rawDocs.length; i += INDEXING_CHUNK_SIZE) {
+        const chunk = rawDocs.slice(i, i + INDEXING_CHUNK_SIZE);
+        chunk.forEach((d) => {
+          store[d.id] = d;
+          idx.add(d.id, `${d.title} ${d.body}`);
         });
+
+        await new Promise((resolve) => setTimeout(resolve, 0));
       }
 
-      collectPaths(filteredHierarchy);
+      setSearchIndex({ index: idx, store });
+      setIsIndexing(false);
+    };
 
-      setExpanded((prev) => {
-        const newExpanded = { ...prev };
-        allPaths.forEach((path) => {
-          newExpanded[path] = true;
-        });
-        return newExpanded;
-      });
-    } else {
-      // Reset to collapsed state when search is cleared
-      setExpanded({});
-    }
-  }, [searchQuery]); // Remove filteredHierarchy dependency
-
-  const toggleExpand = (path: string) => {
-    setExpanded((prev) => ({
-      ...prev,
-      [path]: !prev[path],
-    }));
-  };
-
-  const handleSearch = useCallback((text: string) => {
-    setSearchQuery(text);
+    buildIndex();
   }, []);
 
-  return (
-    <ScrollView className="flex-1 p-3 bg-sepia-200 dark:bg-sepia-800">
-      <TextInput
-        className="bg-sepia-100 dark:bg-sepia-800 text-sepia-800 dark:text-sepia-200 p-3 border border-sepia-300 dark:border-sepia-700 rounded-lg m-1 mb-4"
-        placeholder="Procurar..."
-        placeholderTextColor={COLORS["500"]}
-        value={searchQuery}
-        onChangeText={handleSearch}
-      />
+  useEffect(() => {
+    if (!searchIndex || !searchQuery.trim()) {
+      setResults([]);
+      setIsSearching(false);
+      setError(null);
+      return;
+    }
+    setIsSearching(true);
+    setTimeout(() => {
+      try {
+        const q = searchQuery.replace(/[.*+?^${}()|[\\]\\]/g, "");
+        let hits = searchIndex.index.search(q, { limit: 15 });
+        if (!hits.length) {
+          const lower = searchQuery.toLowerCase();
+          hits = rawDocs
+            .filter(
+              (d) =>
+                d.title.toLowerCase().includes(lower) ||
+                d.body.toLowerCase().includes(lower)
+            )
+            .slice(0, 15)
+            .map((d) => d.id);
+        }
+        const found = hits
+          .map((id) => searchIndex.store[id])
+          .filter(Boolean)
+          .slice(0, 15);
+        setResults(found);
+        setError(null);
+      } catch {
+        setError("Falha na busca");
+        setResults([]);
+      } finally {
+        setIsSearching(false);
+      }
+    }, 0);
+  }, [searchQuery, searchIndex]);
 
-      {Object.keys(filteredHierarchy).length > 0 ? (
-        Object.entries(filteredHierarchy).map(([key, node]) => (
-          <MenuItem
-            key={key}
+  const toggleExpand = useCallback(
+    (path) => setExpanded((p) => ({ ...p, [path]: !p[path] })),
+    []
+  );
+
+  const handleResultPress = useCallback(
+    (id) => {
+      if (!searchIndex) return;
+      const doc = searchIndex.store[id];
+      if (!doc) return setError(`Documento não encontrado: ${id}`);
+      router.push(doc.url);
+    },
+    [router, searchIndex]
+  );
+
+  const handleClear = useCallback(() => {
+    setSearchQuery("");
+    setResults([]);
+    setError(null);
+  }, []);
+
+  const colors = useMemo(
+    () => ({
+      placeholder: COLORS["500"],
+      inputBg: isDark ? COLORS["900"] : COLORS["100"],
+      inputBorder: isDark ? COLORS["600"] : COLORS["300"],
+    }),
+    [isDark]
+  );
+
+  const renderContent = () => {
+    if (isIndexing) {
+      return (
+        <View className="p-4 items-center justify-center flex-1">
+          <ActivityIndicator size="large" color={colors.placeholder} />
+          <Text className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
+            Indexando documentos...
+          </Text>
+        </View>
+      );
+    }
+
+    if (searchQuery.trim()) {
+      if (isSearching)
+        return (
+          <View className="p-4 items-center">
+            <ActivityIndicator size="large" color={colors.placeholder} />
+          </View>
+        );
+      if (error)
+        return (
+          <View className="p-4 items-center">
+            <FontAwesome6
+              name="exclamation-triangle"
+              size={24}
+              color={!isDark ? COLORS["800"] : COLORS["200"]}
+            />
+            <Text className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
+              {error}
+            </Text>
+          </View>
+        );
+      if (results.length)
+        return (
+          <SearchResults
+            results={results}
+            query={searchQuery}
+            onPress={handleResultPress}
+            pathname={pathname}
+          />
+        );
+      return (
+        <View className="p-4 items-center">
+          <FontAwesome6
+            name="search"
+            size={24}
+            color={!isDark ? COLORS["800"] : COLORS["200"]}
+          />
+          <Text className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
+            Nenhum resultado encontrado
+          </Text>
+        </View>
+      );
+    }
+
+    if (error)
+      return (
+        <View className="p-4 items-center">
+          <FontAwesome6
+            name="exclamation-triangle"
+            size={24}
+            color={!isDark ? COLORS["800"] : COLORS["200"]}
+          />
+          <Text className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
+            {error}
+          </Text>
+        </View>
+      );
+
+    return (
+      <FlatList
+        data={hierarchyEntries}
+        keyExtractor={([k]) => k}
+        renderItem={({ item: [key, node] }) => (
+          <TreeItem
             node={node}
             path={key}
             level={0}
             expanded={expanded}
             toggleExpand={toggleExpand}
-            isActive={false} // Remove router.pathname dependency for now
+            isActive={node.link === pathname}
+            searchHighlight={searchQuery}
+            currentPathname={pathname}
           />
-        ))
-      ) : (
-        <View className="p-4">
-          <Text className="text-sepia-500 dark:text-sepia-400 text-center">
-            Nenhum resultado encontrado
-          </Text>
+        )}
+        removeClippedSubviews
+        maxToRenderPerBatch={RENDER_BATCH_SIZE}
+        initialNumToRender={INITIAL_RENDER_COUNT}
+        windowSize={10}
+        contentContainerStyle={{ paddingVertical: 8 }}
+        ListEmptyComponent={() => (
+          <View className="p-4 items-center">
+            <FontAwesome6
+              name="folder-open"
+              size={24}
+              color={!isDark ? COLORS["800"] : COLORS["200"]}
+            />
+            <Text className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
+              Nenhum item disponível
+            </Text>
+          </View>
+        )}
+      />
+    );
+  };
+
+  return (
+    <View className="flex-1">
+      <View className="p-4 bg-sepia-100 dark:bg-sepia-900 border-b border-sepia-500">
+        <View className="flex-row px-3 py-2 items-center bg-sepia-200 dark:bg-sepia-800 rounded-lg">
+          <FontAwesome6
+            name="magnifying-glass"
+            size={16}
+            color={colors.placeholder}
+          />
+          <TextInput
+            placeholder="Procurar..."
+            placeholderTextColor={colors.placeholder}
+            value={searchQuery}
+            onChangeText={setSearchQuery}
+            autoCapitalize="none"
+            autoCorrect={false}
+            returnKeyType="search"
+            editable={!isIndexing}
+            className="flex-1 ml-2 text-sepia-900 dark:text-sepia-100"
+          />
+          {!!searchQuery && (
+            <TouchableOpacity onPress={handleClear} className="ml-2">
+              <FontAwesome6 name="xmark" size={16} color={colors.placeholder} />
+            </TouchableOpacity>
+          )}
         </View>
-      )}
-    </ScrollView>
+      </View>
+      {renderContent()}
+    </View>
   );
 }
