@@ -88,7 +88,9 @@ export default function PageRootLayout() {
     return (
       <View className="flex-auto justify-center items-center bg-sepia-200 dark:bg-sepia-900">
         <ActivityIndicator className="text-red-600" />
-        {loading && <Text className="mt-10">Actualizando...</Text>}
+        <Text className="mt-4 text-sepia-700 dark:text-sepia-300">
+          {loading ? "A actualizar..." : "A carregar..."}
+        </Text>
       </View>
     );
   }
@@ -230,7 +232,7 @@ const Breadcrumbs = () => {
               className="p-1 rounded bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
               onPress={() =>
                 handleBreadcrumbPress(
-                  `/${segments.slice(0, index + 1).join("/")}`,
+                  `/${segments.slice(0, index + 1).join("/")}`
                 )
               }
             >
