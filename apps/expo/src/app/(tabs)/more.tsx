@@ -29,6 +29,7 @@ interface Docs {
   body: string;
   url: string;
   level: number;
+  levels: string[];
   section?: string;
 }
 
@@ -38,6 +39,7 @@ interface TreeNode {
   description?: string;
   link?: string;
   level: number;
+  levels: string[];
   section?: string;
   hasChildren: boolean;
 }
@@ -49,7 +51,7 @@ const RENDER_BATCH_SIZE = 4;
 const createHierarchy = (items: Docs[]): Record<string, TreeNode> => {
   const root: Record<string, TreeNode> = {};
 
-  for (const { id, title, body, url, level, section } of items) {
+  for (const { id, title, body, url, level, levels, section } of items) {
     const parts = id.split("/").filter(Boolean);
     let current = root;
 
@@ -60,6 +62,7 @@ const createHierarchy = (items: Docs[]): Record<string, TreeNode> => {
           title: key,
           children: {},
           level: level || 0,
+          levels: levels.filter((i) => i !== section),
           section: section,
           hasChildren: false,
         };
@@ -219,11 +222,11 @@ const TreeItem = React.memo(
                 {highlightText(node.description, searchHighlight)}
               </Text>
             )}
-            {node.section && (
-              <Text className="text-sepia-400 dark:text-sepia-500 text-xs mt-1">
-                {node.section}
+            {node.levels.map((section) => (
+              <Text className="text-sm text-center w-fit text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900">
+                {section}
               </Text>
-            )}
+            ))}
           </View>
           <FontAwesome6
             name={

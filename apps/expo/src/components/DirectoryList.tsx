@@ -1,17 +1,20 @@
 import { View } from "react-native";
-import { sidebar } from "~/sidebar";
 import PageLinkCard from "./LinkCard";
+import { useSearch } from "~/providers/search";
 
 const DirectoryList = ({ slug }: { slug: string }) => {
-  // Filter logic to determine relevant pages for the current directory
-  const filteredPages = sidebar.filter((page) =>
-    page.link.includes(`/${slug}`),
-  );
+  const { searchEngine } = useSearch();
+  const searchResults = searchEngine.findBySlug(slug);
 
   return (
     <View className="">
-      {filteredPages.map((page, _index) => (
-        <PageLinkCard key={page.link} href={page.link} title={page.title} />
+      {searchResults.map((page, _index) => (
+        <PageLinkCard
+          key={page.url}
+          href={page.url}
+          title={page.title}
+          description={page.body}
+        />
       ))}
     </View>
   );

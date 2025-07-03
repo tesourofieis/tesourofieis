@@ -142,6 +142,22 @@ class UniversalSearchEngine {
       .map((r) => r.doc);
   }
 
+  findBySlug(slug: string) {
+    if (!this.index || !slug) return [];
+
+    const targetPath = `/${slug}/`;
+    return Object.values(this.index.documents).filter((doc) => {
+      if (!doc.url || !doc.url.includes(targetPath)) return false;
+
+      const pathAfterSlug = doc.url.substring(
+        doc.url.indexOf(targetPath) + targetPath.length
+      );
+      const segments = pathAfterSlug.split("/").filter(Boolean);
+
+      return segments.length === 1;
+    });
+  }
+
   getDocumentById(id) {
     return this.index?.documents[id] || null;
   }

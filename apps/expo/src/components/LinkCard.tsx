@@ -124,7 +124,10 @@ export default function PageLinkCard({
           <View className={cardBase(pressed)}>
             <View className="flex flex-col justify-start">
               <View className="flex flex-row">
-                <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-300">
+                <Text
+                  className="font-serif text-sm text-sepia-600 dark:text-sepia-300"
+                  numberOfLines={1}
+                >
                   {description ?? ""}
                 </Text>
               </View>
