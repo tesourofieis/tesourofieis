@@ -17,7 +17,7 @@ import {
   ActivityIndicator,
   FlatList,
 } from "react-native";
-import FlexSearch from "flexsearch";
+import * as SQLite from "expo-sqlite";
 import { COLORS } from "~/constants/Colors";
 import rawDocs from "../../../assets/search-index.json";
 
@@ -33,6 +33,106 @@ interface TreeNode {
   children: Record<string, TreeNode>;
   description?: string;
   link?: string;
+}
+
+class SearchIndexDB {
+  private db: SQLite.SQLiteDatabase | null = null;
+
+  async initialize() {
+    this.db = await SQLite.openDatabaseAsync("search_index.db");
+    
+    await this.db.execAsync(`
+      CREATE TABLE IF NOT EXISTS documents (
+        id TEXT PRIMARY KEY,
+        title TEXT NOT NULL,
+        body TEXT NOT NULL,
+        url TEXT NOT NULL,
+        search_text TEXT NOT NULL
+      );
+      
+      CREATE INDEX IF NOT EXISTS idx_search_text ON documents(search_text);
+      CREATE INDEX IF NOT EXISTS idx_title ON documents(title);
+    `);
+  }
+
+  async indexDocuments(docs: Docs[]) {
+    if (!this.db) throw new Error("Database not initialized");
+
+    const existingCount = await this.db.getFirstAsync<{count: number}>(
+      "SELECT COUNT(*) as count FROM documents"
+    );
+
+    if (existingCount?.count === docs.length) return;
+
+    await this.db.execAsync("DELETE FROM documents");
+
+    const insertStatement = await this.db.prepareAsync(
+      "INSERT INTO documents (id, title, body, url, search_text) VALUES (?, ?, ?, ?, ?)"
+    );
+
+    for (const doc of docs) {
+      const searchText = `${doc.title} ${doc.body}`.toLowerCase();
+      await insertStatement.executeAsync([
+        doc.id,
+        doc.title,
+        doc.body,
+        doc.url,
+        searchText
+      ]);
+    }
+
+    await insertStatement.finalizeAsync();
+  }
+
+  async search(query: string, limit: number = 15): Promise<Docs[]> {
+    if (!this.db || !query.trim()) return [];
+
+    const searchTerms = query.toLowerCase().split(/\s+/).filter(term => term.length > 0);
+    const likeConditions = searchTerms.map(() => "search_text LIKE ?").join(" AND ");
+    const likeParams = searchTerms.map(term => `%${term}%`);
+
+    const sql = `
+      SELECT id, title, body, url 
+      FROM documents 
+      WHERE ${likeConditions}
+      ORDER BY 
+        CASE 
+          WHEN title LIKE ? THEN 1
+          WHEN title LIKE ? THEN 2
+          ELSE 3
+        END,
+        LENGTH(title)
+      LIMIT ?
+    `;
+
+    const params = [
+      ...likeParams,
+      `%${query.toLowerCase()}%`,
+      `%${query.toLowerCase()}%`,
+      limit
+    ];
+
+    const results = await this.db.getAllAsync<Docs>(sql, params);
+    return results;
+  }
+
+  async getDocumentById(id: string): Promise<Docs | null> {
+    if (!this.db) return null;
+    
+    const result = await this.db.getFirstAsync<Docs>(
+      "SELECT id, title, body, url FROM documents WHERE id = ?",
+      [id]
+    );
+    
+    return result || null;
+  }
+
+  async close() {
+    if (this.db) {
+      await this.db.closeAsync();
+      this.db = null;
+    }
+  }
 }
 
 const ANIMATION_DURATION = 200;
@@ -271,11 +371,7 @@ export default function MoreScreen() {
   const [isSearching, setIsSearching] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
-
-  const [searchIndex, setSearchIndex] = useState<{
-    index: FlexSearch.Index;
-    store: Record<string, Docs>;
-  } | null>(null);
+  const [searchDB] = useState(() => new SearchIndexDB());
   const [isIndexing, setIsIndexing] = useState(true);
 
   const hierarchy = useMemo(() => createHierarchy(rawDocs), []);
@@ -285,73 +381,50 @@ export default function MoreScreen() {
   );
 
   useEffect(() => {
-    const buildIndex = async () => {
-      setIsIndexing(true);
-
-      await new Promise((resolve) => setTimeout(resolve, 0));
-
-      const store: Record<string, Docs> = {};
-      const idx = new FlexSearch.Index({
-        tokenize: "full",
-        cache: true,
-        resolution: 5,
-        depth: 3,
-      });
-
-      for (let i = 0; i < rawDocs.length; i += INDEXING_CHUNK_SIZE) {
-        const chunk = rawDocs.slice(i, i + INDEXING_CHUNK_SIZE);
-        chunk.forEach((d) => {
-          store[d.id] = d;
-          idx.add(d.id, `${d.title} ${d.body}`);
-        });
-
-        await new Promise((resolve) => setTimeout(resolve, 0));
+    const initializeDB = async () => {
+      try {
+        setIsIndexing(true);
+        await searchDB.initialize();
+        await searchDB.indexDocuments(rawDocs);
+        setIsIndexing(false);
+      } catch (err) {
+        setError("Erro ao inicializar banco de dados");
+        setIsIndexing(false);
       }
-
-      setSearchIndex({ index: idx, store });
-      setIsIndexing(false);
     };
 
-    buildIndex();
+    initializeDB();
+
+    return () => {
+      searchDB.close();
+    };
   }, []);
 
   useEffect(() => {
-    if (!searchIndex || !searchQuery.trim()) {
+    if (!searchQuery.trim()) {
       setResults([]);
       setIsSearching(false);
       setError(null);
       return;
     }
-    setIsSearching(true);
-    setTimeout(() => {
+
+    const performSearch = async () => {
+      setIsSearching(true);
       try {
-        const q = searchQuery.replace(/[.*+?^${}()|[\\]\\]/g, "");
-        let hits = searchIndex.index.search(q, { limit: 15 });
-        if (!hits.length) {
-          const lower = searchQuery.toLowerCase();
-          hits = rawDocs
-            .filter(
-              (d) =>
-                d.title.toLowerCase().includes(lower) ||
-                d.body.toLowerCase().includes(lower)
-            )
-            .slice(0, 15)
-            .map((d) => d.id);
-        }
-        const found = hits
-          .map((id) => searchIndex.store[id])
-          .filter(Boolean)
-          .slice(0, 15);
-        setResults(found);
+        const searchResults = await searchDB.search(searchQuery, 15);
+        setResults(searchResults);
         setError(null);
-      } catch {
+      } catch (err) {
         setError("Falha na busca");
         setResults([]);
       } finally {
         setIsSearching(false);
       }
-    }, 0);
-  }, [searchQuery, searchIndex]);
+    };
+
+    const timeoutId = setTimeout(performSearch, 300);
+    return () => clearTimeout(timeoutId);
+  }, [searchQuery]);
 
   const toggleExpand = useCallback(
     (path) => setExpanded((p) => ({ ...p, [path]: !p[path] })),
@@ -359,13 +432,16 @@ export default function MoreScreen() {
   );
 
   const handleResultPress = useCallback(
-    (id) => {
-      if (!searchIndex) return;
-      const doc = searchIndex.store[id];
-      if (!doc) return setError(`Documento não encontrado: ${id}`);
-      router.push(doc.url);
+    async (id) => {
+      try {
+        const doc = await searchDB.getDocumentById(id);
+        if (!doc) return setError(`Documento não encontrado: ${id}`);
+        router.push(doc.url);
+      } catch (err) {
+        setError("Erro ao abrir documento");
+      }
     },
-    [router, searchIndex]
+    [router]
   );
 
   const handleClear = useCallback(() => {
