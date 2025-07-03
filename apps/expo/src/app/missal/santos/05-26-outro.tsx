@@ -1,7 +1,6 @@
 import { Text } from "react-native";
-
-import Missa from "../comum/sumospontifices";
 import PageWrapper from "~/components/Page";
+import Missa from "../comum/sumospontifices";
 
 export default function Page0526Outro() {
   return (

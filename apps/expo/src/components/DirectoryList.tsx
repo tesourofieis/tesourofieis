@@ -1,6 +1,6 @@
 import { View } from "react-native";
-import PageLinkCard from "./LinkCard";
 import { useSearch } from "~/providers/search";
+import PageLinkCard from "./LinkCard";
 
 const DirectoryList = ({ slug }: { slug: string }) => {
   const { searchEngine } = useSearch();

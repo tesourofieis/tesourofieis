@@ -1,63 +1,77 @@
+import removeDiacritics from "diacritics";
 import React, {
   createContext,
+  type Dispatch,
+  type SetStateAction,
+  useCallback,
   useContext,
   useEffect,
   useMemo,
+  useRef,
   useState,
 } from "react";
-import removeDiacritics from "diacritics";
+import type { Docs } from "~/app/(tabs)/more";
 import rawDocs from "../../assets/search-index.json";
-import { Docs } from "~/app/(tabs)/more";
 
 class UniversalSearchEngine {
   private index = null;
   private isIndexing = false;
+  private indexingProgress = 0;
 
-  normalize(text) {
+  normalize(text: string) {
     return removeDiacritics.remove(text.toLowerCase());
   }
 
-  async buildIndex(docs) {
+  async buildIndex(
+    docs: Docs[],
+    onProgress?: Dispatch<SetStateAction<number>>,
+  ) {
     const documents = {};
     const terms = {};
     const titleTerms = {};
     const ngrams = {};
+    const batchSize = 50;
 
-    for (const doc of docs) {
-      const normalizedDoc = {
-        ...doc,
-        title: this.normalize(doc.title),
-        body: this.normalize(doc.body),
-      };
+    for (let i = 0; i < docs.length; i += batchSize) {
+      const batch = docs.slice(i, i + batchSize);
 
-      documents[doc.id] = doc;
+      for (const doc of batch) {
+        const normalizedDoc = {
+          ...doc,
+          title: this.normalize(doc.title),
+          body: this.normalize(doc.body),
+        };
 
-      const titleWords = this.tokenize(normalizedDoc.title);
-      const bodyWords = this.tokenize(normalizedDoc.body);
-      const allWords = [...titleWords, ...bodyWords];
+        documents[doc.id] = doc;
 
-      titleWords.forEach((word) => {
-        if (!titleTerms[word]) titleTerms[word] = [];
-        titleTerms[word].push(doc.id);
-      });
+        const titleWords = this.tokenize(normalizedDoc.title);
+        const bodyWords = this.tokenize(normalizedDoc.body);
+        const allWords = [...titleWords, ...bodyWords];
 
-      allWords.forEach((word) => {
-        if (!terms[word]) terms[word] = [];
-        terms[word].push(doc.id);
-      });
+        titleWords.forEach((word) => {
+          if (!titleTerms[word]) titleTerms[word] = [];
+          titleTerms[word].push(doc.id);
+        });
 
-      const text = `${normalizedDoc.title} ${normalizedDoc.body}`;
-      for (let i = 0; i < text.length - 2; i++) {
-        const trigram = text.slice(i, i + 3);
-        if (!ngrams[trigram]) ngrams[trigram] = [];
-        if (!ngrams[trigram].includes(doc.id)) {
-          ngrams[trigram].push(doc.id);
+        allWords.forEach((word) => {
+          if (!terms[word]) terms[word] = [];
+          terms[word].push(doc.id);
+        });
+
+        const text = `${normalizedDoc.title} ${normalizedDoc.body}`;
+        for (let j = 0; j < text.length - 2; j++) {
+          const trigram = text.slice(j, j + 3);
+          if (!ngrams[trigram]) ngrams[trigram] = [];
+          if (!ngrams[trigram].includes(doc.id)) {
+            ngrams[trigram].push(doc.id);
+          }
         }
       }
 
-      if (docs.length > 1000 && Object.keys(documents).length % 100 === 0) {
-        await new Promise((resolve) => setTimeout(resolve, 0));
-      }
+      this.indexingProgress = Math.round(((i + batchSize) / docs.length) * 100);
+      onProgress?.(this.indexingProgress);
+
+      await new Promise((resolve) => setTimeout(resolve, 0));
     }
 
     return { documents, terms, titleTerms, ngrams };
@@ -97,10 +111,13 @@ class UniversalSearchEngine {
     return score;
   }
 
-  async initialize(docs) {
+  async initialize(
+    docs: Docs[],
+    onProgress?: Dispatch<SetStateAction<number>>,
+  ) {
     if (this.isIndexing) return;
     this.isIndexing = true;
-    this.index = await this.buildIndex(docs);
+    this.index = await this.buildIndex(docs, onProgress);
     this.isIndexing = false;
   }
 
@@ -151,7 +168,7 @@ class UniversalSearchEngine {
       if (!doc.url || !doc.url.includes(targetPath)) return false;
 
       const pathAfterSlug = doc.url.substring(
-        doc.url.indexOf(targetPath) + targetPath.length
+        doc.url.indexOf(targetPath) + targetPath.length,
       );
       const segments = pathAfterSlug.split("/").filter(Boolean);
 
@@ -170,26 +187,40 @@ export const SearchProvider = ({ children }) => {
   const [searchEngine] = useState(() => new UniversalSearchEngine());
   const [isReady, setIsReady] = useState(false);
   const [error, setError] = useState(null);
+  const [indexingProgress, setIndexingProgress] = useState(0);
+  const initializationRef = useRef(false);
+
+  const initializeSearch = useCallback(async () => {
+    if (initializationRef.current) return;
+    initializationRef.current = true;
+
+    try {
+      await searchEngine.initialize(rawDocs, setIndexingProgress);
+      setIsReady(true);
+    } catch (e) {
+      console.error("Failed to initialize search engine", e);
+      setError("Failed to initialize search");
+    }
+  }, [searchEngine]);
 
   useEffect(() => {
-    (async () => {
-      try {
-        await searchEngine.initialize(rawDocs);
-        setIsReady(true);
-      } catch (e) {
-        console.error("Failed to initialize search engine", e);
-        setError("Failed to initialize search");
-      }
-    })();
-  }, []);
+    const initializeInBackground = async () => {
+      await new Promise((resolve) => setTimeout(resolve, 50));
+      initializeSearch();
+    };
+
+    initializeInBackground();
+  }, [initializeSearch]);
 
   const value = useMemo(
     () => ({
       searchEngine,
       isReady,
       error,
+      indexingProgress,
+      initializeSearch,
     }),
-    [isReady, error]
+    [isReady, error, indexingProgress, initializeSearch],
   );
 
   return (
@@ -201,4 +232,46 @@ export const useSearch = () => {
   const ctx = useContext(SearchContext);
   if (!ctx) throw new Error("useSearch must be used within a SearchProvider");
   return ctx;
+};
+
+export const useTreeBuilder = () => {
+  const { searchEngine, isReady } = useSearch();
+
+  const buildTree = useCallback(
+    (rootSlug?: string) => {
+      if (!isReady) return null;
+
+      if (rootSlug) {
+        return searchEngine.findBySlug(rootSlug);
+      }
+
+      // Build complete tree structure from all documents
+      const allDocs = Object.values(searchEngine.index.documents);
+      const tree = {};
+
+      allDocs.forEach((doc: Docs) => {
+        if (!doc.url) return;
+
+        const segments = doc.url.split("/").filter(Boolean);
+        let current = tree;
+
+        segments.forEach((segment, index) => {
+          if (!current[segment]) {
+            current[segment] = { children: {}, docs: [] };
+          }
+
+          if (index === segments.length - 1) {
+            current[segment].docs.push(doc);
+          } else {
+            current = current[segment].children;
+          }
+        });
+      });
+
+      return tree;
+    },
+    [searchEngine, isReady],
+  );
+
+  return { buildTree, isReady };
 };

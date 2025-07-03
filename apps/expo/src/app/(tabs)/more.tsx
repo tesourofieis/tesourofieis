@@ -1,27 +1,27 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import { useRouter, usePathname } from "expo-router";
+import { remove as removeDiacritics } from "diacritics";
+import { usePathname, useRouter } from "expo-router";
 import React, {
+  useCallback,
   useEffect,
   useMemo,
-  useState,
-  useCallback,
   useRef,
+  useState,
 } from "react";
 import {
+  ActivityIndicator,
+  Animated,
+  FlatList,
   Text,
   TextInput,
   TouchableOpacity,
-  View,
   useColorScheme,
-  Animated,
-  ActivityIndicator,
-  FlatList,
+  View,
 } from "react-native";
-import { COLORS } from "~/constants/Colors";
-import rawDocs from "../../../assets/search-index.json";
-import { useSearch } from "~/providers/search";
-import { remove as removeDiacritics } from "diacritics";
 import PageWrapper from "~/components/Page";
+import { COLORS } from "~/constants/Colors";
+import { useSearch } from "~/providers/search";
+import rawDocs from "../../../assets/search-index.json";
 
 export interface Docs {
   id: string;
@@ -86,17 +86,17 @@ const createHierarchy = (items: Docs[]): Record<string, TreeNode> => {
 };
 
 const getTopLevelNodes = (
-  hierarchy: Record<string, TreeNode>
+  hierarchy: Record<string, TreeNode>,
 ): [string, TreeNode][] => {
   return Object.entries(hierarchy).filter(
-    ([_, node]) => node.level === 0 || node.level === 1
+    ([_, node]) => node.level === 0 || node.level === 1,
   );
 };
 
 const shouldShowNode = (
   node: TreeNode,
   expandedSections: Set<string>,
-  maxLevel: number = 1
+  maxLevel: number = 1,
 ): boolean => {
   if (node.level <= maxLevel) return true;
   if (node.section && expandedSections.has(node.section)) return true;
@@ -161,6 +161,7 @@ const TreeItem = React.memo(
           toggleSection(node.section);
         }
       } else if (node.link) {
+        // @ts-ignore
         router.push(node.link);
       }
     }, [hasKids, node.link, node.section, path]);
@@ -168,7 +169,7 @@ const TreeItem = React.memo(
     const visibleChildren = useMemo(() => {
       if (!hasKids || !isOpen) return [];
       return Object.entries(node.children).filter(([_, child]) =>
-        shouldShowNode(child, expandedSections, level + 1)
+        shouldShowNode(child, expandedSections, level + 1),
       );
     }, [node.children, hasKids, isOpen, expandedSections, level]);
 
@@ -193,7 +194,7 @@ const TreeItem = React.memo(
         currentPathname,
         expandedSections,
         toggleSection,
-      ]
+      ],
     );
 
     return (
@@ -223,7 +224,7 @@ const TreeItem = React.memo(
               </Text>
             )}
             {node.levels.map((section) => (
-              <Text className="text-sm text-center w-fit text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900">
+              <Text className="text-sm text-center w-20 text-ellipsis text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900">
                 {section}
               </Text>
             ))}
@@ -249,7 +250,7 @@ const TreeItem = React.memo(
         )}
       </View>
     );
-  }
+  },
 );
 
 const SearchResultItem = React.memo(
@@ -295,7 +296,7 @@ const SearchResultItem = React.memo(
         )}
       </TouchableOpacity>
     );
-  }
+  },
 );
 
 const SearchResults = React.memo(
@@ -344,7 +345,7 @@ const SearchResults = React.memo(
         />
       </Animated.View>
     );
-  }
+  },
 );
 
 export default function MoreScreen() {
@@ -356,7 +357,7 @@ export default function MoreScreen() {
   const [isSearching, setIsSearching] = useState(false);
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [expandedSections, setExpandedSections] = useState<Set<string>>(
-    new Set()
+    new Set(),
   );
   const { searchEngine, isReady, error: searchError } = useSearch();
 
@@ -392,7 +393,7 @@ export default function MoreScreen() {
 
   const toggleExpand = useCallback(
     (path: string) => setExpanded((p) => ({ ...p, [path]: !p[path] })),
-    []
+    [],
   );
 
   const toggleSection = useCallback((section: string) => {
@@ -414,7 +415,7 @@ export default function MoreScreen() {
         // handle error
       }
     },
-    [router, searchEngine]
+    [router, searchEngine],
   );
 
   const handleClear = useCallback(() => {
@@ -428,7 +429,7 @@ export default function MoreScreen() {
       inputBg: isDark ? COLORS["900"] : COLORS["100"],
       inputBorder: isDark ? COLORS["600"] : COLORS["300"],
     }),
-    [isDark]
+    [isDark],
   );
 
   const renderContent = () => {
