@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageConclusoes() {
   return (
     <PageWrapper>
-      <Text className="h1">Conclusão das Orações, Secretas e Postcomúnios</Text>
+      <H1 text="Conclusão das Orações, Secretas e Postcomúnios" />
 
       <Text className="aside">
         Para maior facilidade, damos a seguir as conclusões por extenso das
@@ -13,7 +15,7 @@ export default function PageConclusoes() {
         estão indicadas no Missal, de modo abreviado.
       </Text>
 
-      <Text className="h1">1.ª - Quando se dirige ao Pai, concluir-se-á:</Text>
+      <H1 text="1.ª - Quando se dirige ao Pai, concluir-se-á:" />
 
       <Language>
         <Text className="latin">
@@ -28,7 +30,7 @@ export default function PageConclusoes() {
         </Text>
       </Language>
 
-      <Text className="h1">2.ª - Quando se menciona o Filho no princípio:</Text>
+      <H1 text="2.ª - Quando se menciona o Filho no princípio:" />
 
       <Language>
         <Text className="latin">
@@ -43,9 +45,7 @@ export default function PageConclusoes() {
         </Text>
       </Language>
 
-      <Text className="h1">
-        3.ª - Quando se menciona o Filho no fim, concluir-se-á:
-      </Text>
+      <H1 text="3.ª - Quando se menciona o Filho no fim, concluir-se-á:" />
 
       <Language>
         <Text className="latin">
@@ -58,7 +58,7 @@ export default function PageConclusoes() {
         </Text>
       </Language>
 
-      <Text className="h1">4.ª - Quando se dirige ao Filho concluir-se-á:</Text>
+      <H1 text="4.ª - Quando se dirige ao Filho concluir-se-á:" />
 
       <Language>
         <Text className="latin">
@@ -71,9 +71,7 @@ export default function PageConclusoes() {
         </Text>
       </Language>
 
-      <Text className="h1">
-        5.ª - Quando se menciona o Espírito Santo, concluir-se-á:
-      </Text>
+      <H1 text="5.ª - Quando se menciona o Espírito Santo, concluir-se-á:" />
 
       <Language>
         <Text className="latin">

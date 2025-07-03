@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -8,9 +10,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0707() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. S. Cirilo e Metódio, Bs. e Cs., a 7 de Julho
-      </Text>
+      <H1 text="S. S. Cirilo e Metódio, Bs. e Cs., a 7 de Julho" />
 
       <Text className="comment">
         Possuída de santo amor, para com seus Chefes, cuja Oitava terminou
@@ -35,7 +35,7 @@ export default function Page0707() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -53,14 +53,14 @@ export default function Page0707() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/santos/02-06#evangelho"
         title="S. Tito, B. e Conf."
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 67, 36</Text>
 
@@ -75,7 +75,7 @@ export default function Page0707() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -92,7 +92,7 @@ export default function Page0707() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 10, 27</Text>
 
@@ -107,7 +107,7 @@ export default function Page0707() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

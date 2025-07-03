@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,9 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0128LisboaFaro() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Sétimo dia dentro da Oitava de S. Vicente, Mártir, a 28 de Janeiro
-      </Text>
+      <H1 text="Sétimo dia dentro da Oitava de S. Vicente, Mártir, a 28 de Janeiro" />
 
       <Text className="aside">
         Como na{" "}
@@ -19,7 +19,7 @@ export default function Page0128LisboaFaro() {
         , e comemoração de Santa Inês:
       </Text>
 
-      <Text className="h3">Oração Comemoração Santa Inês</Text>
+      <H3 text="Oração Comemoração Santa Inês" />
 
       <Language>
         <Text className="latin">
@@ -34,7 +34,7 @@ export default function Page0128LisboaFaro() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta Comemoração Santa Inês</Text>
+      <H3 text="Secreta Comemoração Santa Inês" />
 
       <Language>
         <Text className="latin">
@@ -50,7 +50,7 @@ export default function Page0128LisboaFaro() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio Comemoração Santa Inês</Text>
+      <H3 text="Postcomúnio Comemoração Santa Inês" />
 
       <Language>
         <Text className="latin">

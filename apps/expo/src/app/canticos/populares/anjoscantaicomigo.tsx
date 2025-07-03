@@ -1,10 +1,12 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageAnjoscantaicomigo() {
   return (
     <PageWrapper>
-      <Text className="h1">Ó anjos cantai comigo</Text>
+      <H1 text="Ó anjos cantai comigo" />
 
       <View className="not-content">
         <Text className="text-base">

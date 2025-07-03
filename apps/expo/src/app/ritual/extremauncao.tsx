@@ -3,11 +3,13 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import AspergesMe from "./../missal/aspergesme";
+import { H1, H2 } from "~/components/Headings";
+
 
 export default function PageExtremauncao() {
   return (
     <PageWrapper>
-      <Text className="h1">Extrema-unção</Text>
+      <H1 text="Extrema-unção" />
       <Text className="aside">
         No quarto do enfermo Preparar-se-á uma mesa coberta com uma toalha
         branca e sobre esta um Crucifixo, duas velas, Água benta, um prato com
@@ -29,7 +31,7 @@ export default function PageExtremauncao() {
           <Text className="response"> ℟. </Text> E em todos seus habitantes.
         </Text>
       </Language>
-      <Text className="h2">Asperges Me</Text>
+      <H2 text="Asperges Me" />
       <AspergesMe />
       <Language>
         <Text className="latin">
@@ -189,8 +191,8 @@ export default function PageExtremauncao() {
           <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h1">Sagradas Unções</Text>
-      <Text className="h2">Da Olhos</Text>
+      <H1 text="Sagradas Unções" />
+      <H2 text="Da Olhos" />
       <Language>
         <Text className="latin">
           Per istam sanctam Unctió <Text className="cross"> ✠ </Text> nem, et
@@ -209,7 +211,7 @@ export default function PageExtremauncao() {
           <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h2">Dos Ouvidos</Text>
+      <H2 text="Dos Ouvidos" />
       <Language>
         <Text className="latin">
           Per istam sanctam Unctió <Text className="cross"> ✠ </Text> nem, et
@@ -228,7 +230,7 @@ export default function PageExtremauncao() {
           <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h2">Do Nariz</Text>
+      <H2 text="Do Nariz" />
       <Language>
         <Text className="latin">
           Per istam sanctam Unctió <Text className="cross"> ✠ </Text> nem, et
@@ -247,7 +249,7 @@ export default function PageExtremauncao() {
           <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h2">Da Boca</Text>
+      <H2 text="Da Boca" />
       <Language>
         <Text className="latin">
           Per istam sanctam Unctió <Text className="cross"> ✠ </Text> nem, et
@@ -266,7 +268,7 @@ export default function PageExtremauncao() {
           <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h2">Das Mãos</Text>
+      <H2 text="Das Mãos" />
       <Language>
         <Text className="latin">
           Per istam sanctam Unctió <Text className="cross"> ✠ </Text> nem, et
@@ -285,7 +287,7 @@ export default function PageExtremauncao() {
           <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h2">Dos Pés</Text>
+      <H2 text="Dos Pés" />
       <Language>
         <Text className="latin">
           Per istam sanctam Unctió <Text className="cross"> ✠ </Text> nem, et

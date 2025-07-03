@@ -2,13 +2,13 @@ import { Link } from "expo-router";
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0806() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Transfiguração de N. S. J. Cristo, a 6 de Agosto
-      </Text>
+      <H1 text="Transfiguração de N. S. J. Cristo, a 6 de Agosto" />
 
       <Text className="aside">
         Comemoração de S. Sixto, Felicíssimo e Agapito como na
@@ -17,7 +17,7 @@ export default function Page0806() {
         </Link>
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 76, 19</Text>
 
@@ -37,7 +37,7 @@ export default function Page0806() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -58,7 +58,7 @@ export default function Page0806() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">2 Pe. 1, 16-19</Text>
 
@@ -90,7 +90,7 @@ export default function Page0806() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 44, 3 & 2</Text>
 
@@ -117,7 +117,7 @@ export default function Page0806() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 17, 1-9</Text>
 
@@ -164,7 +164,7 @@ export default function Page0806() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 111, 3</Text>
 
@@ -179,7 +179,7 @@ export default function Page0806() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -195,7 +195,7 @@ export default function Page0806() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 17, 9</Text>
 
@@ -210,7 +210,7 @@ export default function Page0806() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

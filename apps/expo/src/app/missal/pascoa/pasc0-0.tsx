@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PagePasc00() {
   return (
     <PageWrapper>
-      <Text className="h1">Domingo da Ressurreição</Text>
+      <H1 text="Domingo da Ressurreição" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 138, 18 & 5-6</Text>
 
@@ -29,7 +31,7 @@ export default function PagePasc00() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -45,7 +47,7 @@ export default function PagePasc00() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">1 Cor. 5, 7-8</Text>
 
@@ -70,7 +72,7 @@ export default function PagePasc00() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 117, 24 & 1</Text>
 
@@ -99,7 +101,7 @@ export default function PagePasc00() {
         </Text>
       </Language>
 
-      <Text className="h3">Sequência</Text>
+      <H3 text="Sequência" />
 
       <Language>
         <Text className="latin">
@@ -124,7 +126,7 @@ export default function PagePasc00() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mc. 16, 1-7</Text>
 
@@ -165,7 +167,7 @@ export default function PagePasc00() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 75, 9-10</Text>
 
@@ -179,7 +181,7 @@ export default function PagePasc00() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -195,7 +197,7 @@ export default function PagePasc00() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">1 Cor. 5, 7-8</Text>
 
@@ -210,7 +212,7 @@ export default function PagePasc00() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

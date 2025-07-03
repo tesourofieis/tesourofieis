@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageNatal() {
   return (
     <PageWrapper>
-      <Text className="h1">Prefácio do Natal</Text>
+      <H1 text="Prefácio do Natal" />
 
       <Text className="aside">
         Diz-se desde o Natal até à Epifania, exclusivamente; na Festa do Corpo

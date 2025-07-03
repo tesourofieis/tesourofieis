@@ -1,10 +1,12 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageConsagracaosagradocoracaojesus() {
   return (
     <PageWrapper>
-      <Text className="h1">Consagração ao Sagrado Coração de Jesus</Text>
+      <H1 text="Consagração ao Sagrado Coração de Jesus" />
       <Text className="text-base">
         Ó Dulcíssimo Jesus, ó Redentor do género humano, lançai um olhar sobre
         nós, humildemente prostrados diante do vosso Altar! Somos vossos e

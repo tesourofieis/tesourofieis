@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageNuncdimittis() {
   return (
     <PageWrapper>
-      <Text className="h1">Nunc Dimíttis</Text>
+      <H1 text="Nunc Dimíttis" />
 
       <Language>
         <Text className="latin">

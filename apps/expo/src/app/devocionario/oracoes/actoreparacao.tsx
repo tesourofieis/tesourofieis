@@ -1,10 +1,12 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageActoreparacao() {
   return (
     <PageWrapper>
-      <Text className="h1">Acto de Reparação</Text>
+      <H1 text="Acto de Reparação" />
       <Text className="text-base">
         Com aquele profundíssimo respeito que a Fé me inspira, ó meu Deus e meu
         Salvador, Jesus Cristo, verdadeiro Deus e Homem, eu Vos adoro e amo com

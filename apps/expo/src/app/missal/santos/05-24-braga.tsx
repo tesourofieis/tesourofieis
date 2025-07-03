@@ -1,14 +1,13 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function Page0524Braga() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Trasl. das Rel. de S. Tiago Intercísio, a 24 de Maio, Arquidiocese de
-        Braga e noutros lugares
-      </Text>
+      <H1 text="Trasl. das Rel. de S. Tiago Intercísio, a 24 de Maio, Arquidiocese de Braga e noutros lugares" />
 
       <Text className="aside">
         Como na

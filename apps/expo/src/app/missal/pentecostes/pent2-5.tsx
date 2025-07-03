@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PagePent25() {
   return (
     <PageWrapper>
-      <Text className="h1">Santíssimo Coração de Jesus</Text>
+      <H1 text="Santíssimo Coração de Jesus" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 32, 11 & 19</Text>
 
@@ -28,7 +30,7 @@ export default function PagePent25() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -47,7 +49,7 @@ export default function PagePent25() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Ef. 3, 8 19</Text>
 
@@ -97,7 +99,7 @@ export default function PagePent25() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 24, 8-9</Text>
 
@@ -131,7 +133,7 @@ export default function PagePent25() {
         Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 102, 8-10</Text>
 
@@ -176,7 +178,7 @@ export default function PagePent25() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 19 ,11-37</Text>
 
@@ -219,7 +221,7 @@ export default function PagePent25() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 68, 21</Text>
 
@@ -238,7 +240,7 @@ export default function PagePent25() {
 
       <Text className="aside">No Tempo Pascal diz-se o seguinte:</Text>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 39, 7-9</Text>
 
@@ -256,7 +258,7 @@ export default function PagePent25() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -272,7 +274,7 @@ export default function PagePent25() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Jo. 19, 34</Text>
 
@@ -291,7 +293,7 @@ export default function PagePent25() {
         No Tempo Pascal diz-se o seguinte, em vez do Precedente:
       </Text>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Jo. 7, 37</Text>
 
@@ -304,7 +306,7 @@ export default function PagePent25() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

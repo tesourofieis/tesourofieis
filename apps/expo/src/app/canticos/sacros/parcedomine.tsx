@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageParcedomine() {
   return (
     <PageWrapper>
-      <Text className="h1">Parce domine</Text>
+      <H1 text="Parce domine" />
 
       <Language>
         <Text className="latin">

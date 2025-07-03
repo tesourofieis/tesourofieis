@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import LinkCard from "~/components/LinkCard";
@@ -7,7 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0416Braga() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Frutuoso, B., a 16 de Abril</Text>
+      <H1 text="S. Frutuoso, B., a 16 de Abril" />
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/11confessorespontifices1">
@@ -15,7 +17,7 @@ export default function Page0416Braga() {
         </Link>{" "}
         , excepto:
       </Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Text className="text-base">
         Ó Deus, que nos fizestes chegar com júbilo até à festa deste dia, em que
         veneramos o B. Frutuoso, vosso Confessor e Pontífice, concedei-nos, Vos
@@ -23,7 +25,7 @@ export default function Page0416Braga() {
         assim também pelas suas preces mereçamos alcançar indulgência nos céus.
         Por nosso Senhor...
       </Text>
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
       <Text className="text-base">
         Lição do Livro da Sabedoria. O justo aplicará o seu coração e vigiará
         desde o romper do dia para se unir ao Senhor, que o criou, e oferecer as
@@ -38,24 +40,24 @@ export default function Page0416Braga() {
         nome será honrado de geração em geração. As nações publicarão a sua
         sabedoria e a Igreja anunciará os seus louvores.
       </Text>
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
       <Text className="text-base">
         Aleluia, aleluia. O Anjo do Senhor desceu do céu, e, revolvendo a pedra
         do sepulcro, assentou-se sobre ela. Aleluia. Tu és sacerdote para sempre
         segundo a ordem de Melquisedeque. Aleluia.
       </Text>
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
       <LinkCard
         href="/missal/comum/10martires#evangelho"
         title="Mártires - Missa Sancti tui"
       />
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <Text className="text-base">
         Permiti, ó Deus omnipotente e sempiterno, que os dons oferecidos à vossa
         majestade por intercessão do B. Frutuoso, vosso Confessor e pontífice,
         nos sirvam de perpétuo socorro. Por nosso Senhor...
       </Text>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Text className="text-base">
         Ó Deus omnipotente, Vos suplicamos, dando-Vos graças pelos dons já
         recebidos, fazei que alcancemos dons ainda maiores por intercessão do B.

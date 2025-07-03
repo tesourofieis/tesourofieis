@@ -2,11 +2,13 @@ import { Link } from "expo-router";
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PageQuadp36() {
   return (
     <PageWrapper>
-      <Text className="h1">Sábado depois das Cinzas</Text>
+      <H1 text="Sábado depois das Cinzas" />
 
       <Text className="aside">
         Intróito, Gradual, Ofertório e Comúnio como na
@@ -16,7 +18,7 @@ export default function PageQuadp36() {
         </Link>
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -32,7 +34,7 @@ export default function PageQuadp36() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Is. 58, 9-14</Text>
 
@@ -78,7 +80,7 @@ export default function PageQuadp36() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mc. 6, 47-56</Text>
 
@@ -131,7 +133,7 @@ export default function PageQuadp36() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -147,7 +149,7 @@ export default function PageQuadp36() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -162,7 +164,7 @@ export default function PageQuadp36() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração sobre o povo</Text>
+      <H3 text="Oração sobre o povo" />
 
       <Language>
         <Text className="latin">

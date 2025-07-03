@@ -3,11 +3,13 @@ import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import AveMaria from "./../devocionario/oracoes/avemaria";
 import SaoMiguel from "./../devocionario/oracoes/saomiguel";
+import { H1, H2 } from "~/components/Headings";
+
 
 export default function PageOracoesleoninas() {
   return (
     <PageWrapper>
-      <Text className="h1">Orações Leoninas</Text>
+      <H1 text="Orações Leoninas" />
 
       <Text className="aside">
         De joelhos diante do altar, o Sacerdote diz com os fiéis as seguintes
@@ -16,13 +18,13 @@ export default function PageOracoesleoninas() {
         conversão da Rússia.
       </Text>
 
-      <Text className="h2">Ave Maria</Text>
+      <H2 text="Ave Maria" />
 
       <Text className="aside">Ave Maria repete-se três vezes</Text>
 
       <AveMaria />
 
-      <Text className="h2">Salve Regina</Text>
+      <H2 text="Salve Regina" />
 
       <Language>
         <Text className="latin">
@@ -88,11 +90,11 @@ export default function PageOracoesleoninas() {
         </Text>
       </Language>
 
-      <Text className="h1">Oração a São Miguel Arcanjo</Text>
+      <H1 text="Oração a São Miguel Arcanjo" />
 
       <SaoMiguel />
 
-      <Text className="h2">Sagrado Coração de Jesus</Text>
+      <H2 text="Sagrado Coração de Jesus" />
 
       <Text className="aside">
         S. Pio X pediu que se juntasse três vezes a seguinte jaculatória:

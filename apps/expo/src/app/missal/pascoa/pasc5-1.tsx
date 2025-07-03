@@ -2,15 +2,17 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import LadainhaSantos from "./../../devocionario/ladainhas/santos";
+import { H1, H2, H3 } from "~/components/Headings";
+
 
 export default function PagePasc51() {
   return (
     <PageWrapper>
-      <Text className="h1">Dias de Rogação</Text>
+      <H1 text="Dias de Rogação" />
 
-      <Text className="h2">Procissão</Text>
+      <H2 text="Procissão" />
 
-      <Text className="h3">Antífona</Text>
+      <H3 text="Antífona" />
 
       <Language>
         <Text className="latin">
@@ -30,13 +32,13 @@ export default function PagePasc51() {
 
       <Text className="aside">Salmo 69 encontra-se logo após a Ladaínha</Text>
 
-      <Text className="h3">Ladainha dos Santos</Text>
+      <H3 text="Ladainha dos Santos" />
 
       <LadainhaSantos />
 
-      <Text className="h2">Missa das Rogações</Text>
+      <H2 text="Missa das Rogações" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 17, 7</Text>
 
@@ -58,7 +60,7 @@ export default function PagePasc51() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -74,7 +76,7 @@ export default function PagePasc51() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Tg. 5, 16-20</Text>
 
@@ -117,7 +119,7 @@ export default function PagePasc51() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 11, 5-13</Text>
 
@@ -169,7 +171,7 @@ export default function PagePasc51() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 108, 30-31</Text>
 
@@ -186,7 +188,7 @@ export default function PagePasc51() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -200,7 +202,7 @@ export default function PagePasc51() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Lc. 11, 9-10</Text>
 
@@ -217,7 +219,7 @@ export default function PagePasc51() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

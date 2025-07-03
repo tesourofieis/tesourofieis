@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageSuscipedomine() {
   return (
     <PageWrapper>
-      <Text className="h1">Súscipe Dómine</Text>
+      <H1 text="Súscipe Dómine" />
 
       <Language>
         <Text className="latin">

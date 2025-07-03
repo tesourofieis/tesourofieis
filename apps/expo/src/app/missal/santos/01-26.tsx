@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -8,7 +10,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0126() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Policarpo, B. e Márt., a 26 de Janeiro</Text>
+      <H1 text="S. Policarpo, B. e Márt., a 26 de Janeiro" />
 
       <Text className="comment">
         S. Policarpo foi discípulo de S. João, que o revestiu da plenitude do
@@ -37,7 +39,7 @@ export default function Page0126() {
         , excepto:
       </Text>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">1 Jo. 3, 10-16</Text>
 
@@ -72,14 +74,14 @@ export default function Page0126() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/comum/5martirnaopontifice2#evangelho"
         title="Mártir não Pontífice - Missa Lætábitur justus"
       />
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

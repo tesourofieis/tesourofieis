@@ -1,12 +1,14 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 import Missa from "../comum/sumospontifices";
 
 export default function Page0729Outro() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Félix II, Papa e Mártir, a 29 de Julho</Text>
+      <H1 text="S. Félix II, Papa e Mártir, a 29 de Julho" />
 
       <Text className="comment">
         O Santo Pontífice Félix II foi Papa, no IV século; sofreu o martírio na

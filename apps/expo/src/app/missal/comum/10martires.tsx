@@ -2,13 +2,15 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page10Martires() {
   return (
     <PageWrapper>
-      <Text className="h1">Mártires</Text>
+      <H1 text="Mártires" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 144, 10-11</Text>
 
@@ -29,14 +31,14 @@ export default function Page10Martires() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <LinkCard
         title="Oração Muitos Mártires"
         href="/missal/comum/6muitosmartires1#oração"
       />
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">1 Pe. 1, 3-7</Text>
 
@@ -85,7 +87,7 @@ export default function Page10Martires() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 15, 5-11</Text>
 
@@ -129,7 +131,7 @@ export default function Page10Martires() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 31, 11</Text>
 
@@ -144,14 +146,14 @@ export default function Page10Martires() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <LinkCard
         title="Secreta Muitos Mártires"
         href="/missal/comum/6muitosmartires1#secreta"
       />
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 32, 1</Text>
 
@@ -166,7 +168,7 @@ export default function Page10Martires() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <LinkCard
         title="Postcomúnio Muitos Mártires"

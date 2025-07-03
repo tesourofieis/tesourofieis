@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0829() {
   return (
     <PageWrapper>
-      <Text className="h1">Degolação de S. João Baptista, a 29 de Agosto</Text>
+      <H1 text="Degolação de S. João Baptista, a 29 de Agosto" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 118, 46-47</Text>
 
@@ -28,7 +30,7 @@ export default function Page0829() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -43,9 +45,7 @@ export default function Page0829() {
         </Text>
       </Language>
 
-      <Text className="h3">
-        Oração Comemoração de Santa Sabina Santa Sabina
-      </Text>
+      <H3 text="Oração Comemoração de Santa Sabina Santa Sabina" />
 
       <Language>
         <Text className="latin">
@@ -62,7 +62,7 @@ export default function Page0829() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Jr. 1, 17-19</Text>
 
@@ -90,7 +90,7 @@ export default function Page0829() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 91, 13 & 14</Text>
 
@@ -119,7 +119,7 @@ export default function Page0829() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mc. 6, 17-29</Text>
 
@@ -181,7 +181,7 @@ export default function Page0829() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 20, 2-3</Text>
 
@@ -196,7 +196,7 @@ export default function Page0829() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -211,9 +211,7 @@ export default function Page0829() {
         </Text>
       </Language>
 
-      <Text className="h3">
-        Secreta Comemoração de Santa Sabina Santa Sabina
-      </Text>
+      <H3 text="Secreta Comemoração de Santa Sabina Santa Sabina" />
 
       <Language>
         <Text className="latin">
@@ -228,7 +226,7 @@ export default function Page0829() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 20, 4</Text>
 
@@ -241,7 +239,7 @@ export default function Page0829() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -257,9 +255,7 @@ export default function Page0829() {
         </Text>
       </Language>
 
-      <Text className="h3">
-        Postcomúnio Comemoração de Santa Sabina Santa Sabina
-      </Text>
+      <H3 text="Postcomúnio Comemoração de Santa Sabina Santa Sabina" />
 
       <Language>
         <Text className="latin">

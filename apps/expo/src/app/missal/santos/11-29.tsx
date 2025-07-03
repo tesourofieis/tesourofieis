@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,9 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1129() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Vigília de S. André, Apóstolo, a 29 de Novembro
-      </Text>
+      <H1 text="Vigília de S. André, Apóstolo, a 29 de Novembro" />
 
       <Text className="comment">
         S. João Baptista, nos diz o Evangelho, cumprindo a sua missão de
@@ -25,7 +25,7 @@ export default function Page1129() {
         cai no Domingo, será transferida para o primeiro dia livre.
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Mt. 4, 18 & 19</Text>
 
@@ -56,7 +56,7 @@ export default function Page1129() {
         Epístola Missa da Vigília dos Apóstolos - Missa Ego autem
       </Link>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 138, 17-18</Text>
 
@@ -74,7 +74,7 @@ export default function Page1129() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo, 1, 35-51</Text>
 
@@ -145,7 +145,7 @@ export default function Page1129() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -161,7 +161,7 @@ export default function Page1129() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Jo. 1, 41 & 42</Text>
 
@@ -176,7 +176,7 @@ export default function Page1129() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

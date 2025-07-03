@@ -7,16 +7,18 @@ import Gloria from "./oracoes/gloria";
 import PaiNosso from "./oracoes/painosso";
 import PageSimboloapostolos from "./oracoes/simboloapostolos";
 import PageSinalCruz from "./oracoes/sinalcruz";
+import { H1, H2 } from "~/components/Headings";
+
 
 export default function PageRosario() {
   return (
     <PageWrapper>
-      <Text className="h1">Rosário</Text>
-      <Text className="h1">Sinal da Cruz</Text>
+      <H1 text="Rosário" />
+      <H1 text="Sinal da Cruz" />
       <PageSinalCruz />
-      <Text className="h1">No Crucifixo</Text>
+      <H1 text="No Crucifixo" />
       <PageSimboloapostolos />
-      <Text className="h2">Oferecimento do Santo Rosário</Text>
+      <H2 text="Oferecimento do Santo Rosário" />
       <Text className="text-base">
         Santíssima Virgem, Mãe de Deus, eu Vos ofereço este rosário em desagravo
         do Santíssimo Coração de Nosso Senhor Jesus Cristo, Vosso Filho, e em
@@ -24,7 +26,7 @@ export default function PageRosario() {
         apresento:
       </Text>
       <Text className="text-base">Referir as intenções.</Text>
-      <Text className="h2">Intenções do Santo Padre</Text>
+      <H2 text="Intenções do Santo Padre" />
       <Language>
         <Text className="latin">Exaltatio S. Matris Ecclesiæ.</Text>
         <Text className="li vernacular">Exaltação da Santa Igreja.</Text>
@@ -39,13 +41,13 @@ export default function PageRosario() {
           Paz entre os Reis e Príncipes católicos.
         </Text>
       </Language>
-      <Text className="h1">Nas contas maiores</Text>
+      <H1 text="Nas contas maiores" />
       <PaiNosso />
-      <Text className="h1">Nas contas menores</Text>
+      <H1 text="Nas contas menores" />
       <AveMaria />
-      <Text className="h1">No fim das dezenas</Text>
+      <H1 text="No fim das dezenas" />
       <Gloria />
-      <Text className="h2">Nossa Senhora a Santa Catarina Labouré</Text>
+      <H2 text="Nossa Senhora a Santa Catarina Labouré" />
       <Language>
         <Text className="latin">
           <Text className="versicle"> ℣. </Text>O Maria sine labe concepta.
@@ -62,7 +64,7 @@ export default function PageRosario() {
           vós.
         </Text>
       </Language>
-      <Text className="h2">Nossa Senhora aos Santos Pastorinhos</Text>
+      <H2 text="Nossa Senhora aos Santos Pastorinhos" />
       <Language>
         <Text className="latin">
           <Text className="versicle"> ℣. </Text>Oh mi Jesu, dimitte nobis débita
@@ -81,8 +83,8 @@ export default function PageRosario() {
           Céu e socorrei principalmente as que mais precisarem.
         </Text>
       </Language>
-      <Text className="h1">Meditações do Rosário</Text>
-      <Text className="h2">Mistérios Gozosos</Text>
+      <H1 text="Meditações do Rosário" />
+      <H2 text="Mistérios Gozosos" />
       <Text className="aside">Segunda-feira e Quinta-feira</Text>
       <Text className="bold">Primeiro mistério:</Text>
       <Text className="text-base">
@@ -110,7 +112,7 @@ export default function PageRosario() {
         Meditemos na Perda e no Encontro do Menino Jesus no Templo, e roguemos o
         conhecimento das coisas divinas e a prontidão no serviço de Deus.
       </Text>
-      <Text className="h2">Mistérios Dolorosos</Text>
+      <H2 text="Mistérios Dolorosos" />
       <Text className="aside">Terça-feira e Sexta-feira</Text>
       <Text className="bold">Primeiro mistério:</Text>
       <Text className="text-base">
@@ -137,7 +139,7 @@ export default function PageRosario() {
         Meditemos na Crucifixão e Morte de N. S. Jesus Cristo, e roguemos o amor
         a Deus e a salvação das almas.
       </Text>
-      <Text className="h2">Mistérios Gloriosos</Text>
+      <H2 text="Mistérios Gloriosos" />
       <Text className="aside">
         <Text className="text-base">Quarta-feira, Sábado e Domingo</Text>
       </Text>
@@ -166,8 +168,8 @@ export default function PageRosario() {
         Meditemos na Coroação da Santíssima Virgem, e roguemos a perseverança
         final e a confiança em Nossa Senhora.
       </Text>
-      <Text className="h1">Orações no fim do Rosário</Text>
-      <Text className="h2">Salve Rainha</Text>
+      <H1 text="Orações no fim do Rosário" />
+      <H2 text="Salve Rainha" />
       <Language>
         <Text className="latin">
           Salve, Regina, Mater misericórdiæ, vita, dulcédo et spes nostra,

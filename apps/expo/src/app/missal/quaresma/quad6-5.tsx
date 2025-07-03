@@ -3,11 +3,13 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import VexillaRegis from "./../../canticos/sacros/vexillaregis";
+import { H1, H2, H3 } from "~/components/Headings";
+
 
 export default function PageQuad65() {
   return (
     <PageWrapper>
-      <Text className="h1">Sexta-feira Santa</Text>
+      <H1 text="Sexta-feira Santa" />
 
       <Text className="aside">
         A Estação é na basílica que, em Roma, representa Jerusalém, da qual tem
@@ -18,9 +20,9 @@ export default function PageQuad65() {
         reveste os seus ministros com paramentos de luto.
       </Text>
 
-      <Text className="h2">Missa dos Catecúmenos</Text>
+      <H2 text="Missa dos Catecúmenos" />
 
-      <Text className="h3">1.ª Lição</Text>
+      <H3 text="1.ª Lição" />
 
       <Text className="em">Os. 6, 1-6</Text>
 
@@ -55,7 +57,7 @@ export default function PageQuad65() {
         </Text>
       </Language>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Hab. 3</Text>
 
@@ -87,7 +89,7 @@ export default function PageQuad65() {
         </Text>
       </Language>
 
-      <Text className="h3">Oremos</Text>
+      <H3 text="Oremos" />
 
       <Language>
         <Text className="latin">
@@ -119,7 +121,7 @@ export default function PageQuad65() {
         </Text>
       </Language>
 
-      <Text className="h3">2.ª Lição</Text>
+      <H3 text="2.ª Lição" />
 
       <Text className="em">Ex. 12, 1-11</Text>
 
@@ -170,7 +172,7 @@ export default function PageQuad65() {
         </Text>
       </Language>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 139, 2-10 & 14</Text>
 
@@ -225,7 +227,7 @@ export default function PageQuad65() {
         </Text>
       </Language>
 
-      <Text className="h3">Narração da Paixão</Text>
+      <H3 text="Narração da Paixão" />
 
       <Text className="em">Jo. 18, 1-40; 19, 1-42</Text>
 
@@ -742,9 +744,9 @@ export default function PageQuad65() {
         </Text>
       </Language>
 
-      <Text className="h2">Missa dos Penitentes</Text>
+      <H2 text="Missa dos Penitentes" />
 
-      <Text className="h3">Pela Santa Igreja</Text>
+      <H3 text="Pela Santa Igreja" />
 
       <Language>
         <Text className="latin">
@@ -794,7 +796,7 @@ export default function PageQuad65() {
         </Text>
       </Language>
 
-      <Text className="h3">Pelo Santíssimo Padre</Text>
+      <H3 text="Pelo Santíssimo Padre" />
 
       <Language>
         <Text className="latin">
@@ -844,7 +846,7 @@ export default function PageQuad65() {
         </Text>
       </Language>
 
-      <Text className="h3">Por todo o Corpo da Igreja</Text>
+      <H3 text="Por todo o Corpo da Igreja" />
 
       <Language>
         <Text className="latin">
@@ -890,7 +892,7 @@ export default function PageQuad65() {
         </Text>
       </Language>
 
-      <Text className="h3">Pelo Imperador Romano</Text>
+      <H3 text="Pelo Imperador Romano" />
 
       <Language>
         <Text className="latin">
@@ -938,7 +940,7 @@ export default function PageQuad65() {
         </Text>
       </Language>
 
-      <Text className="h3">Pelos Catecúmenos</Text>
+      <H3 text="Pelos Catecúmenos" />
 
       <Language>
         <Text className="latin">
@@ -987,7 +989,7 @@ export default function PageQuad65() {
         </Text>
       </Language>
 
-      <Text className="h3">Pelas Necessidade dos Fiéis</Text>
+      <H3 text="Pelas Necessidade dos Fiéis" />
 
       <Language>
         <Text className="latin">
@@ -1037,7 +1039,7 @@ export default function PageQuad65() {
         </Text>
       </Language>
 
-      <Text className="h3">Pelos Hereges e Cismáticos</Text>
+      <H3 text="Pelos Hereges e Cismáticos" />
 
       <Language>
         <Text className="latin">
@@ -1085,7 +1087,7 @@ export default function PageQuad65() {
         </Text>
       </Language>
 
-      <Text className="h3">Pelos Judeus</Text>
+      <H3 text="Pelos Judeus" />
 
       <Language>
         <Text className="latin">
@@ -1121,7 +1123,7 @@ export default function PageQuad65() {
         </Text>
       </Language>
 
-      <Text className="h3">Pelos Pagãos</Text>
+      <H3 text="Pelos Pagãos" />
 
       <Language>
         <Text className="latin">
@@ -1170,9 +1172,9 @@ export default function PageQuad65() {
         </Text>
       </Language>
 
-      <Text className="h2">Adoração da Cruz</Text>
+      <H2 text="Adoração da Cruz" />
 
-      <Text className="h3">Veníte, adorémus</Text>
+      <H3 text="Veníte, adorémus" />
 
       <Language>
         <Text className="latin">
@@ -1663,14 +1665,14 @@ export default function PageQuad65() {
         </Text>
       </Language>
 
-      <Text className="h2">Missa dos Pré-Santificados</Text>
+      <H2 text="Missa dos Pré-Santificados" />
 
       <Text className="aside">
         Conduz-se Processionalmente a Divina Hóstia para o Altar onde se celebra
         o Ofício. Entretanto, canta-se o Hino:
       </Text>
 
-      <Text className="h3">Vexilla Regis</Text>
+      <H3 text="Vexilla Regis" />
 
       <VexillaRegis />
 

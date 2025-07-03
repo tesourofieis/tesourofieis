@@ -2,13 +2,15 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import PageVeniSancteSpiritus from "../sequencias/venisanctespiritus";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PagePasc70() {
   return (
     <PageWrapper>
-      <Text className="h1">Domingo de Pentecostes</Text>
+      <H1 text="Domingo de Pentecostes" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sb. 1, 7</Text>
 
@@ -29,7 +31,7 @@ export default function PagePasc70() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -45,7 +47,7 @@ export default function PagePasc70() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Act. 2, 1-11</Text>
 
@@ -115,7 +117,7 @@ export default function PagePasc70() {
 
       <PageVeniSancteSpiritus />
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 14, 23-31</Text>
 
@@ -165,7 +167,7 @@ export default function PagePasc70() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 67, 29-30</Text>
 
@@ -180,7 +182,7 @@ export default function PagePasc70() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -194,7 +196,7 @@ export default function PagePasc70() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Act. 2, 2 & 4</Text>
 
@@ -211,7 +213,7 @@ export default function PagePasc70() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

@@ -2,13 +2,15 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page1020() {
   return (
     <PageWrapper>
-      <Text className="h1">S. João Câncio, Conf., a 20 de Outubro</Text>
+      <H1 text="S. João Câncio, Conf., a 20 de Outubro" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 91, 13-14</Text>
 
@@ -32,7 +34,7 @@ export default function Page1020() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -49,7 +51,7 @@ export default function Page1020() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Tg. 2, 12-17</Text>
 
@@ -80,7 +82,7 @@ export default function Page1020() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 106, 8-9</Text>
 
@@ -108,14 +110,14 @@ export default function Page1020() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/comum/14confessoresnaopontifices1#evangelho"
         title="Confessores não Pontífices - Missa Os justi"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Jb 29, 14-16</Text>
 
@@ -131,7 +133,7 @@ export default function Page1020() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -147,7 +149,7 @@ export default function Page1020() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Lc. 6, 38</Text>
 
@@ -162,7 +164,7 @@ export default function Page1020() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

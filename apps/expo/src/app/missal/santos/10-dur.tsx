@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page10Dur() {
   return (
     <PageWrapper>
-      <Text className="h1">Nosso Senhor Jesus Cristo Rei</Text>
+      <H1 text="Nosso Senhor Jesus Cristo Rei" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Ap. 5, 12; 1, 6</Text>
 
@@ -29,7 +31,7 @@ export default function Page10Dur() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -46,7 +48,7 @@ export default function Page10Dur() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Cl. 1, 12-20</Text>
 
@@ -92,7 +94,7 @@ export default function Page10Dur() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 71, 8 & 11</Text>
 
@@ -121,7 +123,7 @@ export default function Page10Dur() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 18, 33-37</Text>
 
@@ -160,7 +162,7 @@ export default function Page10Dur() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 2, 8</Text>
 
@@ -175,7 +177,7 @@ export default function Page10Dur() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -193,7 +195,7 @@ export default function Page10Dur() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 28, 10 & 11</Text>
 
@@ -207,7 +209,7 @@ export default function Page10Dur() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,7 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0123() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Raimundo de Penhafort, a 23 de Janeiro</Text>
+      <H1 text="S. Raimundo de Penhafort, a 23 de Janeiro" />
 
       <Text className="comment">
         S. Raimundo nasceu em 1175 da nobre família de Penhafort, na Espanha.
@@ -41,7 +43,7 @@ export default function Page0123() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">

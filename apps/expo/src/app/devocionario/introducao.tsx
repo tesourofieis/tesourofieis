@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
@@ -6,7 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function PageIntroducao() {
   return (
     <PageWrapper>
-      <Text className="h1">Introdução, por São Pio X</Text>
+      <H1 text="Introdução, por São Pio X" />
 
       <Text className="text-base">
         Um bom cristão, pela manhã, assim que desperta, deve fazer o sinal da

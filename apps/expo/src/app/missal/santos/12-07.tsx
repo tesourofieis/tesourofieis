@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -8,7 +10,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1207() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Ambrósio. B. Conf. e Dr., a 7 de Dezembro</Text>
+      <H1 text="S. Ambrósio. B. Conf. e Dr., a 7 de Dezembro" />
 
       <Text className="comment">
         Santo Ambrósio, nascido em Tréveris, pelo ano de 335, é um dos quatro
@@ -34,7 +36,7 @@ export default function Page1207() {
         , excepto:
       </Text>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Ecl. 44, 16</Text>
 
@@ -65,7 +67,7 @@ export default function Page1207() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 88, 25</Text>
 
@@ -80,7 +82,7 @@ export default function Page1207() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -95,14 +97,14 @@ export default function Page1207() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <LinkCard
         href="/missal/santos/12-06#comúnio"
         title="S. Nicolau, B. e Conf."
       />
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

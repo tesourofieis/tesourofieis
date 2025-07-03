@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
@@ -6,10 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1027Evora() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. S. Vicente, Sabina e Cristeta, Márts, a 27 de Outubro, Na
-        Arquidiocese de Évora
-      </Text>
+      <H1 text="S. S. Vicente, Sabina e Cristeta, Márts, a 27 de Outubro, Na Arquidiocese de Évora" />
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/7muitosmartires2">
@@ -17,7 +16,7 @@ export default function Page1027Evora() {
         </Link>{" "}
         , excepto:
       </Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Text className="text-base">
         Ó Deus, que aos três beatíssimos Irmãos vossos Mártires Vicente, Sabina
         e Cristeta, já unidos em amor fraternal, ainda mais os unistes pelo
@@ -25,7 +24,7 @@ export default function Page1027Evora() {
         intercessão que pratiquemos o verdadeiro amor e sempre nos mantenhamos
         na unidade da Fé. Por nosso Senhor...
       </Text>
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
       <Text className="text-base">
         A nossa alma livrou-se, como um pássaro do laço dos caçadores; O laço
         quebrou-se e ficámos livres: o nosso auxílio está no nome do Senhor: que

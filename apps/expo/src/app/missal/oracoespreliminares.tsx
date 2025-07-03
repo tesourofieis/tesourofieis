@@ -6,12 +6,14 @@ import Salmo84 from "./../devocionario/salterio/084";
 import Salmo85 from "./../devocionario/salterio/085";
 import Salmo115 from "./../devocionario/salterio/115";
 import Salmo129 from "./../devocionario/salterio/129";
+import { H1, H2 } from "~/components/Headings";
+
 
 export default function PageOracoespreliminares() {
   return (
     <PageWrapper>
-      <Text className="h1">Orações Preliminares</Text>
-      <Text className="h1">Preparação para a Missa</Text>
+      <H1 text="Orações Preliminares" />
+      <H1 text="Preparação para a Missa" />
       <Text className="text-base">
         Antes de se Paramentar, o Sacerdote recita estas Preces:
       </Text>
@@ -212,7 +214,7 @@ export default function PageOracoespreliminares() {
           séculos. Amen.
         </Text>
       </Language>
-      <Text className="h2">Oração Santo Ambrósio</Text>
+      <H2 text="Oração Santo Ambrósio" />
       <Language>
         <Text className="latin">
           Ad mensam dulcíssimi convívii tui, pie Dómine Jesu Christe, ego
@@ -321,7 +323,7 @@ export default function PageOracoespreliminares() {
           <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h2">Oração São Tomás Aquino</Text>
+      <H2 text="Oração São Tomás Aquino" />
       <Language>
         <Text className="latin">
           Omnípotens sempiterne Deus, ecce, accédo ad sacraméntum unigéniti
@@ -395,7 +397,7 @@ export default function PageOracoespreliminares() {
           Santo, por todos os séculos dos séculos. Amen.
         </Text>
       </Language>
-      <Text className="h2">Oração à Santíssima Virgem</Text>
+      <H2 text="Oração à Santíssima Virgem" />
       <Language>
         <Text className="latin">
           O Mater pietátis et misericórdiæ, beatíssima Virgo María, ego miser et

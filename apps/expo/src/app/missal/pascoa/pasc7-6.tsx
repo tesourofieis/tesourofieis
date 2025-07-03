@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PagePasc76() {
   return (
     <PageWrapper>
-      <Text className="h1">Sábado das Têmporas de Pentecostes</Text>
+      <H1 text="Sábado das Têmporas de Pentecostes" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Rm. 5, 5</Text>
 
@@ -29,7 +31,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -44,7 +46,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">1.ª Lição</Text>
+      <H3 text="1.ª Lição" />
 
       <Text className="em">Jl. 2, 28-32</Text>
 
@@ -85,7 +87,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -100,7 +102,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">2.ª Lição</Text>
+      <H3 text="2.ª Lição" />
 
       <Text className="em">Lv. 23, 9-11, 15-17 & 21</Text>
 
@@ -154,7 +156,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -170,7 +172,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">3.ª Lição</Text>
+      <H3 text="3.ª Lição" />
 
       <Text className="em">Dt. 26, 1-11</Text>
 
@@ -225,7 +227,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -241,7 +243,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">4.ª Lição</Text>
+      <H3 text="4.ª Lição" />
 
       <Text className="em">Lv. 26, 3-12</Text>
 
@@ -302,7 +304,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -316,7 +318,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">5.ª Lição</Text>
+      <H3 text="5.ª Lição" />
 
       <Text className="em">Dn. 3, 47-51</Text>
 
@@ -376,7 +378,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -390,7 +392,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Rm. 5, 1-5</Text>
 
@@ -423,7 +425,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 116, 1-2</Text>
 
@@ -442,7 +444,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 4, 38-44</Text>
 
@@ -486,7 +488,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 87, 2-3</Text>
 
@@ -501,7 +503,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -517,7 +519,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Jo. 3, 8</Text>
 
@@ -532,7 +534,7 @@ export default function PagePasc76() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

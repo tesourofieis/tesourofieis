@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,9 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1109() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Dedicação da Basílica do Salvador, a 9 de Novembro
-      </Text>
+      <H1 text="Dedicação da Basílica do Salvador, a 9 de Novembro" />
 
       <Text className="aside">
         Como na{" "}
@@ -19,7 +19,7 @@ export default function Page1109() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -34,7 +34,7 @@ export default function Page1109() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -50,7 +50,7 @@ export default function Page1109() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

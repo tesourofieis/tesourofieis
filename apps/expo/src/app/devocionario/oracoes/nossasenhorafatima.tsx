@@ -1,10 +1,12 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageNossasenhorafatima() {
   return (
     <PageWrapper>
-      <Text className="h1">Oração a Nossa Senhora de Fátima</Text>
+      <H1 text="Oração a Nossa Senhora de Fátima" />
       <Text className="text-base">
         Virgem Imaculada, que pelo vosso Santo Rosário extinguistes outrora no
         seio da Igreja a nefasta heresia dos albigenses, por ele libertastes a

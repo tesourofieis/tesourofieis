@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PagePropagacaofe() {
   return (
     <PageWrapper>
-      <Text className="h1">Para a Propagação da Fé</Text>
+      <H1 text="Para a Propagação da Fé" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 66, 2-3</Text>
 
@@ -32,7 +34,7 @@ export default function PagePropagacaofe() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -53,7 +55,7 @@ export default function PagePropagacaofe() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Ecl. 36, 1-10 et 17-19</Text>
 
@@ -101,7 +103,7 @@ export default function PagePropagacaofe() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 66, 6-8</Text>
 
@@ -136,7 +138,7 @@ export default function PagePropagacaofe() {
         Após a Septuagésima omite-se o Aleluia e o que segue e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 95, 3-5</Text>
 
@@ -181,7 +183,7 @@ export default function PagePropagacaofe() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 9, 35-38</Text>
 
@@ -213,7 +215,7 @@ export default function PagePropagacaofe() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 95, 7-9</Text>
 
@@ -231,7 +233,7 @@ export default function PagePropagacaofe() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -250,7 +252,7 @@ export default function PagePropagacaofe() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 116, 1-2</Text>
 
@@ -267,7 +269,7 @@ export default function PagePropagacaofe() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

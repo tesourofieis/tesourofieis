@@ -2,11 +2,13 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page1206() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Nicolau, B. e Conf., a 6 de Dezembro</Text>
+      <H1 text="S. Nicolau, B. e Conf., a 6 de Dezembro" />
 
       <Text className="comment">
         S. Nicolau, chamado o Grande, nasceu na Ásia Menor. Deus o glorificou
@@ -24,14 +26,14 @@ export default function Page1206() {
         (Itália). Ajudemos o próximo nas suas necessidades de corpo e alma.
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <LinkCard
         title="Intróito Mártir Pontífice"
         href="/missal/comum/2martirpontificeforapascal#intróito"
       />
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -47,7 +49,7 @@ export default function Page1206() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Heb. 13, 7-17</Text>
 
@@ -98,7 +100,7 @@ export default function Page1206() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 88, 21-23</Text>
 
@@ -127,14 +129,14 @@ export default function Page1206() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         title="Evangelho Confessores Pontífices"
         href="/missal/comum/11confessorespontifices1#evangelho"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 88, 25</Text>
 
@@ -149,7 +151,7 @@ export default function Page1206() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -165,7 +167,7 @@ export default function Page1206() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 88, 36-38</Text>
 
@@ -182,7 +184,7 @@ export default function Page1206() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

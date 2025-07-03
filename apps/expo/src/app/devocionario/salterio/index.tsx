@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import DirectoryList from "~/components/DirectoryList";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageIndex() {
   return (
     <PageWrapper>
-      <Text className="h1">Saltério</Text>
+      <H1 text="Saltério" />
 
       <DirectoryList slug="devocionario/salterio" />
     </PageWrapper>

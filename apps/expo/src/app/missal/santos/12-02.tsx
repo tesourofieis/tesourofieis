@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,9 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1202() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Santa Bibiana, Virgem e Mártir, a 2 de Dezembro
-      </Text>
+      <H1 text="Santa Bibiana, Virgem e Mártir, a 2 de Dezembro" />
 
       <Text className="comment">
         Santa Bibiana, nascida em Roma, de família nobre e cristã, uniu, diz a
@@ -31,7 +31,7 @@ export default function Page1202() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">

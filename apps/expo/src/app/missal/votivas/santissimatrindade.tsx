@@ -2,11 +2,13 @@ import { Link } from "expo-router";
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PageSantissimatrindade() {
   return (
     <PageWrapper>
-      <Text className="h1">Missa da Santíssima Trindade</Text>
+      <H1 text="Missa da Santíssima Trindade" />
 
       <Text className="aside">
         Como na Missa do
@@ -16,7 +18,7 @@ export default function PageSantissimatrindade() {
         excepto:
       </Text>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">2 Cor. 13, 11 & 13</Text>
 
@@ -42,7 +44,7 @@ export default function PageSantissimatrindade() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Dan. 3, 55-56</Text>
 
@@ -74,7 +76,7 @@ export default function PageSantissimatrindade() {
         Depois da Septuagésima omite-se o Aleluia e o que se segues, e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Language>
         <Text className="latin">
@@ -118,7 +120,7 @@ export default function PageSantissimatrindade() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 15, 26-27; 16, 1-4</Text>
 

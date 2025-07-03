@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PageOracoesdepoiscomunhao() {
   return (
     <PageWrapper>
-      <Text className="h1">Orações depois da Comunhão</Text>
-      <Text className="h3">Acto de Fé e de Adoração</Text>
+      <H1 text="Orações depois da Comunhão" />
+      <H3 text="Acto de Fé e de Adoração" />
       <Text className="text-base">
         Ó Jesus, creio firmemente que sois Vós quem acabo de receber neste
         momento. Vós, o meu Deus, o meu Criador... Cheio de profundo respeito,
@@ -13,7 +15,7 @@ export default function PageOracoesdepoiscomunhao() {
         peito, e adoro-Vos respeitosa e jubilosamente, rendendo-Vos profundas e
         sinceras homenagens!...
       </Text>
-      <Text className="h3">Acto de Reconhecimento e de Amor</Text>
+      <H3 text="Acto de Reconhecimento e de Amor" />
       <Text className="text-base">
         Dulcíssimo Jesus, eu Vos agradeço reconhecidíssimo a inefável graça que
         acabais de conceder-me. Como poderei corresponder a tanto amor para
@@ -32,7 +34,7 @@ export default function PageOracoesdepoiscomunhao() {
         felicidade da eterna união convosco. Senhor, Senhor, ouvi esta minha
         súplica! Amen.
       </Text>
-      <Text className="h3">À B. Virgem Maria</Text>
+      <H3 text="À B. Virgem Maria" />
       <Text className="text-base">
         Santíssima Virgem, minha boa Mãe, auxiliai-me com vossa eficaz e
         maternal protecção, neste momento tão solene da minha vida. Que o Corpo

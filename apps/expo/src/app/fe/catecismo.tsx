@@ -1,4 +1,6 @@
 import { Text, View } from "react-native";
+import { H1, H2, H3, H4, H5 } from "~/components/Headings";
+
 
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -6,8 +8,8 @@ import PageWrapper from "~/components/Page";
 export default function PageCatecismo() {
   return (
     <PageWrapper>
-      <Text className="h1">Catecismo</Text>
-      <Text className="h1">Mandamentos da lei de Deus</Text>
+      <H1 text="Catecismo" />
+      <H1 text="Mandamentos da lei de Deus" />
       <Text className="text-base">
         Os mandamentos da lei de Deus são dez: os três primeiros pertencem à
         honra de Deus e os outros sete ao proveito do próximo.
@@ -42,7 +44,7 @@ export default function PageCatecismo() {
       <Text className="text-base">
         Amar a Deus sobre todas as coisas e ao próximo como a nós mesmos.
       </Text>
-      <Text className="h2">Mandamentos da Igreja</Text>
+      <H2 text="Mandamentos da Igreja" />
       <Text className="aside">Os mandamentos da Igreja são cinco:</Text>
       <View className="list-styled">
         <Text className="li text-justify">
@@ -61,7 +63,7 @@ export default function PageCatecismo() {
           5º - Pagar dízimos, segundo o costume.
         </Text>
       </View>
-      <Text className="h2">Sacramentos</Text>
+      <H2 text="Sacramentos" />
       <Text className="aside">
         Os sacramentos instituídos por Jesus Cristo são sete:
       </Text>
@@ -74,7 +76,7 @@ export default function PageCatecismo() {
         <Text className="li text-justify">6º - Ordem.</Text>
         <Text className="li text-justify">7º - Matrimônio.</Text>
       </View>
-      <Text className="h2">Lição Preliminar</Text>
+      <H2 text="Lição Preliminar" />
       <Text className="aside">Da Doutrina Cristã suas partes principais</Text>
 
       <Text className="text-base">
@@ -84,49 +86,39 @@ export default function PageCatecismo() {
         discípulos foram chamados cristãos. At 11, 25-26.
       </Text>
 
-      <Text className="h5">1 - Sois cristão?</Text>
+      <H5 text="1 - Sois cristão?" />
       <Text className="text-base">Sim, sou cristão pela graça de Deus.</Text>
-      <Text className="h5">2 - Por que dizeis pela graça de Deus?</Text>
+      <H5 text="2 - Por que dizeis pela graça de Deus?" />
       <Text className="text-base">
         Digo: pela graça de Deus, porque o ser cristão é um dom de Deus,
         inteiramente gratuito, que nós não podemos merecer.
       </Text>
-      <Text className="h5">3 - E quem é verdadeiro cristão?</Text>
+      <H5 text="3 - E quem é verdadeiro cristão?" />
       <Text className="text-base">
         Verdadeiro cristão é aquele que é baptizado, crê e professa a doutrina
         cristã e obedece aos legítimos Pastores da Igreja.
       </Text>
-      <Text className="h5">4 - Que é a Doutrina Cristã?</Text>
+      <H5 text="4 - Que é a Doutrina Cristã?" />
       <Text className="text-base">
         A Doutrina Cristã é a doutrina que Jesus Cristo Nosso Senhor nos
         ensinou, para nos mostrar o caminho da salvação.
       </Text>
-      <Text className="h5">
-        5 - É necessário aprender a doutrina ensinada por Jesus Cristo?
-      </Text>
+      <H5 text="5 - É necessário aprender a doutrina ensinada por Jesus Cristo?" />
       <Text className="text-base">
         Certamente, é necessário aprender a doutrina ensinada por Jesus Cristo,
         e cometem falta grave aqueles que se descuidam de o fazer.
       </Text>
-      <Text className="h5">
-        6 - Os pais e patrões estão obrigados a mandar ao catecismo os seus
-        filhos e dependentes?
-      </Text>
+      <H5 text="6 - Os pais e patrões estão obrigados a mandar ao catecismo os seus filhos e dependentes?" />
       <Text className="text-base">
         Os pais e patrões são obrigados a procurar que seus filhos e dependentes
         aprendam a Doutrina Cristã; e são culpados diante de Deus, se
         desprezarem esta obrigação.
       </Text>
-      <Text className="h5">
-        7 - De quem devemos nós receber e aprender a Doutrina Cristã?
-      </Text>
+      <H5 text="7 - De quem devemos nós receber e aprender a Doutrina Cristã?" />
       <Text className="text-base">
         Devemos receber e aprender a Doutrina Cristã da Santa Igreja Católica.
       </Text>
-      <Text className="h5">
-        8 - Como é que temos a certeza de que a Doutrina Cristã, que recebemos
-        da Santa Igreja Católica, é verdadeira?
-      </Text>
+      <H5 text="8 - Como é que temos a certeza de que a Doutrina Cristã, que recebemos da Santa Igreja Católica, é verdadeira?" />
       <Text className="text-base">
         Temos a certeza de que a Doutrina Cristã, que recebemos da Igreja
         Católica, é verdadeira, porque Jesus Cristo, autor divino desta
@@ -134,48 +126,41 @@ export default function PageCatecismo() {
         Ele fundada e constituída Mestra infalível de todos os homens,
         prometendo-Lhe a sua divina assistência até à consumação dos séculos.
       </Text>
-      <Text className="h5">
-        9 - Há mais provas da verdade da Doutrina Cristã?
-      </Text>
+      <H5 text="9 - Há mais provas da verdade da Doutrina Cristã?" />
       <Text className="text-base">
         A verdade da Doutrina Cristã é demonstrada ainda pela santidade eminente
         de tantos que a professaram e professam, pela heróica fortaleza dos
         mártires, pela sua rápida e admirável propagação no mundo, e pela sua
         plena conservação através de tantos séculos de muitas e contínuas lutas.
       </Text>
-      <Text className="h5">
-        10 - Quantas e quais são as partes principais e mais necessárias da
-        Doutrina Cristã?
-      </Text>
+      <H5 text="10 - Quantas e quais são as partes principais e mais necessárias da Doutrina Cristã?" />
       <Text className="text-base">
         As partes principais e mais necessárias da Doutrina Cristã são quatro: o
         Credo, o Padre-Nosso, os Mandamentos e os Sacramentos.
       </Text>
-      <Text className="h5">11 - Que nos ensina o Credo?</Text>
+      <H5 text="11 - Que nos ensina o Credo?" />
       <Text className="text-base">
         O Credo ensina-nos os principais artigos da nossa santa Fé.
       </Text>
-      <Text className="h5">12 - Que nos ensina o Padre-Nosso?</Text>
+      <H5 text="12 - Que nos ensina o Padre-Nosso?" />
       <Text className="text-base">
         O Padre-Nosso ensina-nos tudo o que devemos esperar de Deus, e tudo o
         que Lhe devemos pedir.
       </Text>
-      <Text className="h5">13 - Que nos ensinam os Mandamentos?</Text>
+      <H5 text="13 - Que nos ensinam os Mandamentos?" />
       <Text className="text-base">
         Os Mandamentos ensinam-nos tudo o que devemos fazer para agradar a Deus;
         em resumo, amar a Deus sobre todas as coisas, e amar ao próximo como a
         nós mesmos, por amor de Deus.
       </Text>
-      <Text className="h5">
-        14 - Que nos ensina a doutrina dos Sacramentos?
-      </Text>
+      <H5 text="14 - Que nos ensina a doutrina dos Sacramentos?" />
       <Text className="text-base">
         A doutrina dos Sacramentos faz-nos conhecer a natureza e o bom uso
         desses meios que Jesus Cristo instituiu Para nos perdoar os pecados,
         comunicar-nos a sua graça, e infundir e aumentar em nós as virtudes da
         fé, da esperança e da caridade.
       </Text>
-      <Text className="h1">Primeira Parte</Text>
+      <H1 text="Primeira Parte" />
       <Text className="aside">
         Do Símbolo dos Apóstolos, chamado vulgarmente o Credo
       </Text>
@@ -193,23 +178,19 @@ export default function PageCatecismo() {
       <Text className="h2">
         I - <Text className="em">Do Credo em geral</Text>
       </Text>
-      <Text className="h5">
-        15 - Qual é a primeira parte da Doutrina Cristã?
-      </Text>
+      <H5 text="15 - Qual é a primeira parte da Doutrina Cristã?" />
       <Text className="text-base">
         A primeira parte da Doutrina Cristã é o Símbolo dos Apóstolos, chamado
         vulgarmente Credo.
       </Text>
-      <Text className="h5">
-        16 - Por que chamamos ao Credo Símbolo dos Apóstolos?
-      </Text>
+      <H5 text="16 - Por que chamamos ao Credo Símbolo dos Apóstolos?" />
       <Text className="text-base">
         O Credo chama-se Símbolo dos Apóstolos, porque é um compêndio das
         verdades da Fé, ensinadas pelos Apóstolos.
       </Text>
-      <Text className="h5">17 - Quantos artigos tem o Credo?</Text>
+      <H5 text="17 - Quantos artigos tem o Credo?" />
       <Text className="text-base">O Credo tem doze artigos.</Text>
-      <Text className="h5">18 - Dizei-os.</Text>
+      <H5 text="18 - Dizei-os." />
       <View className="list-styled">
         <Text className="li text-justify">
           1º - Creio em Deus Padre, todo-poderoso, Criador do céu e da terra.
@@ -242,10 +223,7 @@ export default function PageCatecismo() {
         <Text className="li text-justify">11º - Na ressurreição da carne.</Text>
         <Text className="li text-justify">12º - Na vida eterna. Amén</Text>
       </View>
-      <Text className="h5">
-        19 - Que quer dizer a palavra Credo, eu creio que dizeis no começo do
-        Símbolo?
-      </Text>
+      <H5 text="19 - Que quer dizer a palavra Credo, eu creio que dizeis no começo do Símbolo?" />
       <Text className="text-base">
         A palavra Credo, eu creio quer dizer: eu tenho por absolutamente
         verdadeiro tudo o que nestes doze artigos se contém; e o creio mais
@@ -253,14 +231,12 @@ export default function PageCatecismo() {
         pode nem enganar-se nem enganar-nos, revelou estas verdades à Santa
         Igreja Católica, e por meio d'Ela eis revela também a nós.
       </Text>
-      <Text className="h5">20 - Que contêm os artigos do Credo?</Text>
+      <H5 text="20 - Que contêm os artigos do Credo?" />
       <Text className="text-base">
         Os artigos do Credo contêm tudo o que de mais importante devemos crer
         acerca de Deus, de Jesus Cristo e da Igreja, sua Esposa.
       </Text>
-      <Text className="h5">
-        21 - É muito útil rezar frequentemente o Credo?
-      </Text>
+      <H5 text="21 - É muito útil rezar frequentemente o Credo?" />
       <Text className="text-base">
         É utilíssimo rezar frequentemente o Credo, para imprimirmos cada vez
         mais no coração as verdades da Fé.
@@ -280,22 +256,19 @@ export default function PageCatecismo() {
         Colossenses 1, 9-14
       </Text>
 
-      <Text className="h4">1º - De Deus Padre e da Criação</Text>
-      <Text className="h5">
-        22 - Que nos ensina o primeiro artigo do Credo: creio em Deus Padre,
-        todo-poderoso, Criador do céu e da terra?
-      </Text>
+      <H4 text="1º - De Deus Padre e da Criação" />
+      <H5 text="22 - Que nos ensina o primeiro artigo do Credo: creio em Deus Padre, todo-poderoso, Criador do céu e da terra?" />
       <Text className="text-base">
         O primeiro artigo do Credo ensina-nos que há um só Deus, o qual é todo-
         poderoso, e criou o céu e a terra e todas as coisas que no céu e na
         terra se contêm, isto é, todo o universo.
       </Text>
-      <Text className="h5">23 - Como sabemos nós que há Deus?</Text>
+      <H5 text="23 - Como sabemos nós que há Deus?" />
       <Text className="text-base">
         Sabemos que há Deus, porque a nossa razão no-lo demonstra, e a fé no-lo
         confirma.
       </Text>
-      <Text className="h5">24 - Por que se dá a Deus o nome de Pai?</Text>
+      <H5 text="24 - Por que se dá a Deus o nome de Pai?" />
       <Text className="text-base">Dá-se a Deus o nome de Pai:</Text>
       <View className="list-styled">
         <Text className="li text-justify">
@@ -311,72 +284,60 @@ export default function PageCatecismo() {
           quais por isso se chamam filhos adotivos de Deus.
         </Text>
       </View>
-      <Text className="h5">
-        25 - Por que o Padre é a primeira Pessoa da Santíssima Trindade?
-      </Text>
+      <H5 text="25 - Por que o Padre é a primeira Pessoa da Santíssima Trindade?" />
       <Text className="text-base">
         O Padre é a primeira Pessoa da Santíssima Trindade, porque não procede
         de outra Pessoa, mas é o princípio das outras duas Pessoas, isto é, do
         Filho e do Espírito Santo.
       </Text>
-      <Text className="h5">26 - Que quer dizer a palavra todo-poderoso?</Text>
+      <H5 text="26 - Que quer dizer a palavra todo-poderoso?" />
       <Text className="text-base">
         A palavra todo-poderoso quer dizer que Deus pode fazer tudo o que quer.
       </Text>
-      <Text className="h5">
-        27 - Deus não pode pecar nem morrer; como é então que se diz que Ele
-        pode fazer tudo?
-      </Text>
+      <H5 text="27 - Deus não pode pecar nem morrer; como é então que se diz que Ele pode fazer tudo?" />
       <Text className="text-base">
         Diz-se que Deus pode fazer tudo, embora não possa pecar nem morrer,
         porque o poder pecar ou morrer não é efeito de potência mas de fraqueza,
         a qual não pode existir em Deus, que é perfeitíssimo.
       </Text>
-      <Text className="h5">28 - Que quer dizer Criador do céu e da terra?</Text>
+      <H5 text="28 - Que quer dizer Criador do céu e da terra?" />
       <Text className="text-base">
         Criar quer dizer fazer do nada; portanto, Deus diz-se Criador do céu e
         da terra, porque fez do nada o céu e a terra, e todas as coisas que no
         céu e na terra se contêm, isto é, todo o universo.
       </Text>
-      <Text className="h5">29 - O mundo foi criado somente pelo Padre?</Text>
+      <H5 text="29 - O mundo foi criado somente pelo Padre?" />
       <Text className="text-base">
         O mundo foi criado igualmente por todas as três Pessoas divinas, porque
         aquilo que uma Pessoa faz relativamente às criaturas, fazem-no com um só
         e o mesmo ato também as outras.
       </Text>
-      <Text className="h5">
-        30 - Por que então a criação se atribui particularmente ao Padre?
-      </Text>
+      <H5 text="30 - Por que então a criação se atribui particularmente ao Padre?" />
       <Text className="text-base">
         Atribui-se a criação particularmente ao Padre, porque a criação é efeito
         da onipotência divina a qual se atribui particularmente ao Padre, como
         se atribui a sabedoria ao Filho e a bondade ao Espírito Santo, embora
         todas as três Pessoas tenham a mesma onipotência, sabedoria e bondade.
       </Text>
-      <Text className="h5">
-        31 - Deus cuida do mundo e de todas as coisas que criou?
-      </Text>
+      <H5 text="31 - Deus cuida do mundo e de todas as coisas que criou?" />
       <Text className="text-base">
         Sim, Deus cuida do mundo e de todas as coisas que criou, conserva-as e
         governa-as com a sua infinita bondade e sabedoria, e nada sucede no
         mundo, sem que Deus o queira, ou o permita.
       </Text>
-      <Text className="h5">
-        32 - Por que dizeis que nada sucede, sem que Deus o queira, ou o
-        permita?
-      </Text>
+      <H5 text="32 - Por que dizeis que nada sucede, sem que Deus o queira, ou o permita?" />
       <Text className="text-base">
         Diz-se que nada sucede no mundo, sem que Deus o queira, ou o permita,
         porque há coisas que Deus quer e manda, e outras que Ele não quer,
         porém, não impede, como o pecado.
       </Text>
-      <Text className="h5">33 - Por que Deus não impede o pecado?</Text>
+      <H5 text="33 - Por que Deus não impede o pecado?" />
       <Text className="text-base">
         Deus não impede o pecado, porque até mesmo do abuso que o homem faz da
         liberdade que lhe concedeu, sabe tirar um bem, e fazer resplandecer
         ainda mais a sua misericórdia ou a sua justiça.
       </Text>
-      <Text className="h4">2º - Dos Anjos</Text>
+      <H4 text="2º - Dos Anjos" />
 
       <Text className="text-base">
         Vou declarar-vos toda a verdade e nada vos ocultarei. Já vos declarei e
@@ -399,55 +360,48 @@ export default function PageCatecismo() {
         levantaram-se, mas não o viram mais. Tobias 12, 11-20
       </Text>
 
-      <Text className="h5">
-        34 - Quais são as criaturas mais nobres que Deus criou?
-      </Text>
+      <H5 text="34 - Quais são as criaturas mais nobres que Deus criou?" />
       <Text className="text-base">
         As criaturas mais nobres, criadas por Deus, são os Anjos.
       </Text>
-      <Text className="h5">35 - Quem são os Anjos?</Text>
+      <H5 text="35 - Quem são os Anjos?" />
       <Text className="text-base">
         Os Anjos são criaturas inteligentes e puramente espirituais, sem corpo.
       </Text>
-      <Text className="h5">36 - Para que fim criou Deus os Anjos?</Text>
+      <H5 text="36 - Para que fim criou Deus os Anjos?" />
       <Text className="text-base">
         Deus criou os Anjos para ser por eles honrado e servido, e para os fazer
         eternamente felizes.
       </Text>
-      <Text className="h5">37 - Que forma e que figura têm os Anjos?</Text>
+      <H5 text="37 - Que forma e que figura têm os Anjos?" />
       <Text className="text-base">
         Os Anjos não têm forma nem figura alguma sensível, porque são puros
         espíritos, criados por Deus para subsistirem, sem terem de estar unidos
         a corpo algum.
       </Text>
-      <Text className="h5">
-        38 - Por que então se representam os Anjos com formas sensíveis?
-      </Text>
+      <H5 text="38 - Por que então se representam os Anjos com formas sensíveis?" />
       <Text className="text-base">
         Representam-se os Anjos com formas sensíveis: para auxiliar a nossa
         imaginação; porque assim apareceram muitas vezes aos homens, como lemos
         na Sagrada Escritura.
       </Text>
-      <Text className="h5">39 - Foram os Anjos todos fiéis a Deus?</Text>
+      <H5 text="39 - Foram os Anjos todos fiéis a Deus?" />
       <Text className="text-base">
         Os Anjos não foram todos fiéis a Deus, mas muitos por soberba
         pretenderam ser iguais a Ele, e independentes do seu poder; e por este
         pecado foram excluídos para sempre do Paraíso, e condenados ao Inferno.
       </Text>
-      <Text className="h5">
-        40 - Como se chamam os Anjos excluídos para sempre do Paraíso, e
-        condenados ao Inferno?
-      </Text>
+      <H5 text="40 - Como se chamam os Anjos excluídos para sempre do Paraíso, e condenados ao Inferno?" />
       <Text className="text-base">
         Os Anjos excluídos para sempre do Paraíso e condenados ao Inferno,
         chamam-se demônios, e o seu chefe chama-se Lúcifer ou Satanás.
       </Text>
-      <Text className="h5">41 - Os demônios podem fazer-nos algum mal?</Text>
+      <H5 text="41 - Os demônios podem fazer-nos algum mal?" />
       <Text className="text-base">
         Sim, os demônios podem fazer-nos muito mal à alma e ao corpo, se Deus
         lhes der licença, sobretudo tentando-nos a pecar.
       </Text>
-      <Text className="h5">42 - Por que nos tentam os demônios?</Text>
+      <H5 text="42 - Por que nos tentam os demônios?" />
       <Text className="text-base">
         Os demônios tentam-nos pela inveja que nos têm e que lhes faz desejar a
         nossa eterna condenação, e por ódio a Deus, cuja imagem em nós
@@ -455,43 +409,35 @@ export default function PageCatecismo() {
         com a sua graça, pratiquemos as virtudes e alcancemos merecimentos para
         o Céu.
       </Text>
-      <Text className="h5">43 - Como podemos vencer as tentações?</Text>
+      <H5 text="43 - Como podemos vencer as tentações?" />
       <Text className="text-base">
         Vencem-se as tentações com a vigilância, com a oração e com a
         mortificação cristã.
       </Text>
-      <Text className="h5">
-        44 - Os Anjos que se conservaram fiéis a Deus, como se chamam?
-      </Text>
+      <H5 text="44 - Os Anjos que se conservaram fiéis a Deus, como se chamam?" />
       <Text className="text-base">
         Os Anjos que se conservaram fiéis a Deus chamam-se Anjos bons, Espíritos
         celestes, ou simplesmente Anjos.
       </Text>
-      <Text className="h5">
-        45 - Que aconteceu aos Anjos que se conservaram fiéis a Deus?
-      </Text>
+      <H5 text="45 - Que aconteceu aos Anjos que se conservaram fiéis a Deus?" />
       <Text className="text-base">
         Os Anjos que se conservaram fiéis a Deus, foram confirmados em graça,
         gozam para sempre da vista de Deus, amam-No, bendizem-No e louvam-No
         eternamente.
       </Text>
-      <Text className="h5">
-        46 - Deus serve-se dos Anjos como seus ministros?
-      </Text>
+      <H5 text="46 - Deus serve-se dos Anjos como seus ministros?" />
       <Text className="text-base">
         Sim, Deus serve-se dos Anjos coma seus ministros, e especialmente confia
         a muitos dentre eles o ofício de nossos guardas e protetores.
       </Text>
-      <Text className="h5">
-        47 - Devemos ter particular devoção ao nosso Anjo da guarda?
-      </Text>
+      <H5 text="47 - Devemos ter particular devoção ao nosso Anjo da guarda?" />
       <Text className="text-base">
         Sim, devemos ter particular devoção ao nosso Anjo da guarda, honrá-lo,
         implorar o seu auxílio, seguir as suas inspirações rações e ser-lhe
         reconhecidos pela assistência contínua que nos dá.
       </Text>
 
-      <Text className="h4">3º - Do Homem</Text>
+      <H4 text="3º - Do Homem" />
 
       <Text className="text-base">
         O Senhor Deus formou, pois, o homem do barro da terra, e inspirou no seu
@@ -527,67 +473,55 @@ export default function PageCatecismo() {
         porque do varão foi tomada. Gênesis 2, 7-23
       </Text>
 
-      <Text className="h5">
-        48 - Qual é a criatura mais nobre que Deus colocou sobre a terra?
-      </Text>
+      <H5 text="48 - Qual é a criatura mais nobre que Deus colocou sobre a terra?" />
       <Text className="text-base">
         A criatura mais nobre que Deus colocou sobre a terra, é o homem.
       </Text>
-      <Text className="h5">49 - Que é o homem?</Text>
+      <H5 text="49 - Que é o homem?" />
       <Text className="text-base">
         O homem é uma criatura racional, composta de alma e corpo.
       </Text>
-      <Text className="h5">50 - Que é a alma?</Text>
+      <H5 text="50 - Que é a alma?" />
       <Text className="text-base">
         A alma é a parte mais nobre do homem, porque é substância espiritual,
         dotada de inteligência e de vontade, capaz de conhecer a Deus e de O
         possuir eternamente.
       </Text>
-      <Text className="h5">51 - Pode-se ver e apalpar a alma humana?</Text>
+      <H5 text="51 - Pode-se ver e apalpar a alma humana?" />
       <Text className="text-base">
         Não se pode ver nem apalpar a nossa alma, porque é espírito.
       </Text>
-      <Text className="h5">52 - Morre a alma humana com o corpo?</Text>
+      <H5 text="52 - Morre a alma humana com o corpo?" />
       <Text className="text-base">
         A alma humana nunca morre; a fé e a mesma razão provam que la é imortal.
       </Text>
 
-      <Text className="h5">53 - É livre o homem nas suas ações?</Text>
+      <H5 text="53 - É livre o homem nas suas ações?" />
       <Text className="text-base">
         Sim, o homem é livre nas suas ações; e cada qual sente, dentro de si
         mesmo, que pode fazer uma ação e deixar de fazê-la, ou fazer antes uma
         que outra.
       </Text>
 
-      <Text className="h5">
-        54 - Explicai com um exemplo a liberdade humana.
-      </Text>
+      <H5 text="54 - Explicai com um exemplo a liberdade humana." />
       <Text className="text-base">
         Se eu disser voluntariamente uma mentira, sinto que poderia deixar de
         dizê-la, e calar-me, e que poderia também falar de outro modo, dizendo a
         verdade.
       </Text>
-      <Text className="h5">
-        55 - Por que se diz que o homem foi criado à imagem e semelhança de
-        Deus?
-      </Text>
+      <H5 text="55 - Por que se diz que o homem foi criado à imagem e semelhança de Deus?" />
       <Text className="text-base">
         Diz-se que o homem foi criado à imagem e semelhança de Deus, porque a
         alma humana é espiritual e racional, livre na sua ação, capaz de
         conhecer e de amar a Deus, e de gozá-Lo eternamente, perfeições que
         refletem em nós um raio da infinita grandeza de Deus.
       </Text>
-      <Text className="h5">
-        56 - Em que estado criou Deus os nossos primeiros pais Adão e Eva?
-      </Text>
+      <H5 text="56 - Em que estado criou Deus os nossos primeiros pais Adão e Eva?" />
       <Text className="text-base">
         Deus criou Adão e Eva no estado de inocência e de graça; mas depressa o
         perderam, pelo pecado.
       </Text>
-      <Text className="h5">
-        57 - Além da inocência e da graça santificante, com cedeu Deus ao nossos
-        primeiros pais outros dons?
-      </Text>
+      <H5 text="57 - Além da inocência e da graça santificante, com cedeu Deus ao nossos primeiros pais outros dons?" />
       <Text className="text-base">
         Além da inocência e da graça santificante, Deus concedeu aos nossos
         primeiros pais outros dons, que eles deviam transmitir, juntamente com a
@@ -595,35 +529,31 @@ export default function PageCatecismo() {
         é, a perfeita sujeição dos sentidos à razão; a imortalidade; a imunidade
         de todas as dores e misérias; e a ciência proporcionada ao seu estado.
       </Text>
-      <Text className="h5">58 - Qual foi o pecado de Adão?</Text>
+      <H5 text="58 - Qual foi o pecado de Adão?" />
       <Text className="text-base">
         O pecado de Adão foi um pecado de soberba e de grave desobediência.
       </Text>
-      <Text className="h5">
-        59 - Qual foi o castigo do pecado de Adão e Eva?
-      </Text>
+      <H5 text="59 - Qual foi o castigo do pecado de Adão e Eva?" />
       <Text className="text-base">
         Adão e Eva perderam a graça de Deus e o direito que tinham ao céu, foram
         expulsos do Paraíso Terrestre, sujeitos a muitas misérias na alma e no
         corpo, e condenados a morrer.
       </Text>
-      <Text className="h5">
-        60 - Se Adão e Eva não tivessem pecado, ficariam livres da morte?
-      </Text>
+      <H5 text="60 - Se Adão e Eva não tivessem pecado, ficariam livres da morte?" />
       <Text className="text-base">
         Se Adão e Eva não tivessem pecado, mas se se tivessem conservado fiéis a
         Deus, depois de uma permanência feliz e tranquila neste mundo, teriam
         sido levados por Deus ao Céu, sem morrer, a gozar uma vida eterna e
         gloriosa.
       </Text>
-      <Text className="h5">61 - Eram estes dons devidos ao homem?</Text>
+      <H5 text="61 - Eram estes dons devidos ao homem?" />
       <Text className="text-base">
         Estes dons não eram devidos por nenhum título ao homem, mas eram
         absolutamente gratuitos e preternaturais; e por isso, tendo Adão
         desobedecido ao preceito divino, Deus pôde, sem injustiça, privar deles
         a Adão e a toda a sua descendência.
       </Text>
-      <Text className="h5">62 - Este pecado, é próprio somente de Adão?</Text>
+      <H5 text="62 - Este pecado, é próprio somente de Adão?" />
 
       <Text className="text-base">
         Este pecado não é só de Adão, mas é também nosso, embora por diverso
@@ -634,10 +564,7 @@ export default function PageCatecismo() {
         original.
       </Text>
 
-      <Text className="h5">
-        63 - Como é possível que o pecado original se transmita a todos os
-        homens?
-      </Text>
+      <H5 text="63 - Como é possível que o pecado original se transmita a todos os homens?" />
       <Text className="text-base">
         O pecado original transmite-se a todos os homens, porque tendo Deus
         conferido ao gênero humano, em Adão, a graça santificante e os outros
@@ -648,30 +575,24 @@ export default function PageCatecismo() {
         rebeldia contra Deus, privada da graça divina e dos outros dons.
       </Text>
 
-      <Text className="h5">
-        64 - Contraem todos os homens o pecado original?
-      </Text>
+      <H5 text="64 - Contraem todos os homens o pecado original?" />
       <Text className="text-base">
         Sim, todos os homens contraem o pecado original, exceto a Santíssima
         Virgem que dele foi preservada por Deus, com singular privilégio, na
         previsão dos merecimentos de Jesus Cristo Nosso Salvador.
       </Text>
-      <Text className="h5">
-        65 - Depois do pecado de Adão, já não poderiam os homens salvar-se?
-      </Text>
+      <H5 text="65 - Depois do pecado de Adão, já não poderiam os homens salvar-se?" />
       <Text className="text-base">
         Depois do pecado de Adão, os homens já não poderiam salvar-se, se Deus
         não tivesse usado para com eles de misericórdia.
       </Text>
-      <Text className="h5">
-        66 - Qual foi a misericórdia de que Deus usou para com o gênero humano?
-      </Text>
+      <H5 text="66 - Qual foi a misericórdia de que Deus usou para com o gênero humano?" />
       <Text className="text-base">
         A misericórdia de que Deus usou para com o gênero humano, foi prometer
         logo a Adão um Redentor divino, ou Messias, enviá-Lo depois a seu tempo,
         para libertar os homens da escravidão do demônio e do pecado.
       </Text>
-      <Text className="h5">67 - Quem é o Messias prometido?</Text>
+      <H5 text="67 - Quem é o Messias prometido?" />
       <Text className="text-base">
         O Messias prometido é Jesus Cristo, como nos ensina o segundo artigo do
         Credo.
@@ -700,78 +621,58 @@ export default function PageCatecismo() {
         aproximaram-se dele e o adoraram, dizendo: Verdadeiramente tu és o Filho
         de Deus. Mt 14, 22-33
       </Text>
-      <Text className="h5">
-        68 - Que nos ensina o segundo artigo do Credo: e em Jesus Cristo, um só
-        seu Filho, Nosso Senhor?
-      </Text>
+      <H5 text="68 - Que nos ensina o segundo artigo do Credo: e em Jesus Cristo, um só seu Filho, Nosso Senhor?" />
       <Text className="text-base">
         O segundo artigo do Credo ensina-nos que o Filho de Deus é a segunda
         Pessoa da Santíssima Trindade; que Ele é Deus eterno, todo-poderoso,
         Criador e Senhor, como o Padre; que se fez homem para nos salvar; e que
         o Filho, de Deus feito homem se chama Jesus Cristo.
       </Text>
-      <Text className="h5">69 - Por que se chama Filho a segunda Pessoa?</Text>
+      <H5 text="69 - Por que se chama Filho a segunda Pessoa?" />
       <Text className="text-base">
         A segunda Pessoa chama-se Filho porque é gerada pelo Padre por via de
         inteligência, desde toda da ti eternidade; e por este motivo se chama
         também Verbo eterno do Padre.
       </Text>
-      <Text className="h5">
-        70 - Sendo também nós filhos de Deus, por que Jesus Cristo se chama
-        Filho único de Deus Padre?
-      </Text>
+      <H5 text="70 - Sendo também nós filhos de Deus, por que Jesus Cristo se chama Filho único de Deus Padre?" />
       <Text className="text-base">
         Jesus Cristo chama-se Filho único de Deus porque só Ele é por natureza
         seu Filho, e nós seus filhos por criação e por adoção.
       </Text>
-      <Text className="h5">
-        71 - Por que Jesus Cristo se chama Nosso Senhor?
-      </Text>
+      <H5 text="71 - Por que Jesus Cristo se chama Nosso Senhor?" />
       <Text className="text-base">
         Chama-se Jesus Cristo Nosso Senhor não se porque, enquanto Deus,
         juntamente com o Padre e o Espírito Santo, rios criou, como também
         porque, em enquanto Deus e homem rios remiu com seu Sangue.
       </Text>
-      <Text className="h5">
-        72 - Por que o Filho de Deus feito homem se o chama Jesus?
-      </Text>
+      <H5 text="72 - Por que o Filho de Deus feito homem se o chama Jesus?" />
       <Text className="text-base">
         O Filho de Deus feito homem chama-se Jesus que quer dizer Salvador,
         porque nos salvou da morte eterna que merecíamos por nossos pecados.
       </Text>
 
-      <Text className="h5">
-        73 - Quem deu o nome de Jesus ao Filho de feito homem?
-      </Text>
+      <H5 text="73 - Quem deu o nome de Jesus ao Filho de feito homem?" />
       <Text className="text-base">
         Foi o mesmo Padre Eterno que deu o nome de Jesus ao Filho de Deus feito
         homem, por meio do Arcanjo São Gabriel, quando este anunciou à Virgem
         Santíssima o mistério da Encarnação.
       </Text>
 
-      <Text className="h5">
-        74 - Por que o Filho de Deus feito homem se chama também Cristo?
-      </Text>
+      <H5 text="74 - Por que o Filho de Deus feito homem se chama também Cristo?" />
       <Text className="text-base">
         O filho de Deus feito homem chama-se também Cristo, que quer dizer
         Ungido e consagrado, porque antigamente ungiam-se os reis, os sacerdotes
         e os profetas e Jesus é Rei dos reis, Sumo Sacerdote e Sumo Profeta.
       </Text>
 
-      <Text className="h5">
-        75 - Foi Jesus Cristo verdadeiramente ungido e consagrado com unção
-        corporal?
-      </Text>
+      <H5 text="75 - Foi Jesus Cristo verdadeiramente ungido e consagrado com unção corporal?" />
       <Text className="text-base">
         A unção de Jesus Cristo não foi corporal, como a dos antigos reis,
         sacerdotes e profetas, mas toda espiritual e divina, porque a plenitude
         da divindade habita n'Ele substancialmente.
       </Text>
 
-      <Text className="h5">
-        76 - Tiveram os homens algum conhecimento de Jesus Cristo antes da sua
-        vinda?
-      </Text>
+      <H5 text="76 - Tiveram os homens algum conhecimento de Jesus Cristo antes da sua vinda?" />
       <Text className="text-base">
         Sim, os homens tiveram conhecimento de Jesus Cristo antes da sua vinda,
         pela promessa do Messias, que Deus fez aos nossos primeiros pais Adão e
@@ -779,10 +680,7 @@ export default function PageCatecismo() {
         muitas figuras que O designavam.
       </Text>
 
-      <Text className="h5">
-        77 - Como sabemos nós que Jesus Cristo é verdadeira mente o Messias e o
-        Redentor prometido?
-      </Text>
+      <H5 text="77 - Como sabemos nós que Jesus Cristo é verdadeira mente o Messias e o Redentor prometido?" />
       <Text className="text-base">
         Sabemos que Jesus Cristo é verdadeiramente o Messias e o Redentor
         prometido, porque n'Ele se cumpriu:
@@ -796,9 +694,7 @@ export default function PageCatecismo() {
           2º - tudo o que representavam as figuras do Antigo Testamento.
         </Text>
       </View>
-      <Text className="h5">
-        78 - Que prediziam as profecias acerca do Redentor?
-      </Text>
+      <H5 text="78 - Que prediziam as profecias acerca do Redentor?" />
       <Text className="text-base">
         As profecias prediziam acerca do Redentor: a tribo e a família da qual
         devia sair; o lugar e o tempo do nascimento; os seus milagres e as mais
@@ -807,9 +703,7 @@ export default function PageCatecismo() {
         Santa Igreja Católica.
       </Text>
 
-      <Text className="h5">
-        79 - Quais são as principais figuras do Redentor no Antigo Testamento?
-      </Text>
+      <H5 text="79 - Quais são as principais figuras do Redentor no Antigo Testamento?" />
       <Text className="text-base">
         As principais figuras do Redentor no Antigo Testamento são o inocente
         Abel, o sumo sacerdote Melquisedec, o sacrifício de Isaac, José vendido
@@ -817,9 +711,7 @@ export default function PageCatecismo() {
         levantada por Moisés tio deserto.
       </Text>
 
-      <Text className="h5">
-        80 - Como sabemos nós que Jesus Cristo é verdadeiro Deus?
-      </Text>
+      <H5 text="80 - Como sabemos nós que Jesus Cristo é verdadeiro Deus?" />
       <Text className="text-base">
         Sabemos que Jesus Cristo é verdadeiro Deus:
       </Text>
@@ -841,9 +733,7 @@ export default function PageCatecismo() {
           4º - pela tradição constante da Igreja Católica.
         </Text>
       </View>
-      <Text className="h5">
-        81 - Quais são os principais milagres operados por Jesus Cristo?
-      </Text>
+      <H5 text="81 - Quais são os principais milagres operados por Jesus Cristo?" />
       <Text className="text-base">
         Os principais milagres operados por Jesus Cristo são, além da sua
         ressurreição, a saúde restituída aos enfermos, a vista aos cegos, o
@@ -875,97 +765,78 @@ export default function PageCatecismo() {
         comigo segundo tua palavra! E o anjo afastou-se dela. Luc 1, 26-33
       </Text>
 
-      <Text className="h5">
-        82 - Que nos ensina o terceiro artigo do Credo: o qual foi concebido
-        pelo poder do Espírito Santo, nasceu de Maria Virgem?
-      </Text>
+      <H5 text="82 - Que nos ensina o terceiro artigo do Credo: o qual foi concebido pelo poder do Espírito Santo, nasceu de Maria Virgem?" />
       <Text className="text-base">
         O terceiro artigo do Credo ensinam-nos que o Filho de Deus tomou um
         corpo e uma alma, como nós temos, no seio puríssimo de Maria Santíssima,
         pelo poder do Espírito Santo, e que nasceu desta Virgem.
       </Text>
 
-      <Text className="h5">
-        83 - Concorreram o Padre e o Filho também para for mar o corpo e para
-        criar a alma de Jesus Cristo?
-      </Text>
+      <H5 text="83 - Concorreram o Padre e o Filho também para for mar o corpo e para criar a alma de Jesus Cristo?" />
       <Text className="text-base">
         Sim, para formar o corpo e para criar a alma de Jesus Cristo,
         concorreram todas as três Pessoas divinas.
       </Text>
 
-      <Text className="h5">
-        84 - Por que se diz só: foi concebido pelo poder do Espírito Santo?
-      </Text>
+      <H5 text="84 - Por que se diz só: foi concebido pelo poder do Espírito Santo?" />
       <Text className="text-base">
         Diz-se só: foi concebido pelo poder do Espírito Santo, porque a
         Encarnação do Filho de Deus é obra de bondade e de amor, e as obras de
         bondade e de amor atribuem-se ao Espírito Santo.
       </Text>
 
-      <Text className="h5">
-        85 - Fazendo-se homem, deixou o Filho de ser Deus?
-      </Text>
+      <H5 text="85 - Fazendo-se homem, deixou o Filho de ser Deus?" />
       <Text className="text-base">
         O Filho de Deus, fazendo-se homem, não deixou de ser Deus.
       </Text>
 
-      <Text className="h5">
-        86 - Então Jesus Cristo é Deus e homem ao mesmo tempo?
-      </Text>
+      <H5 text="86 - Então Jesus Cristo é Deus e homem ao mesmo tempo?" />
       <Text className="text-base">
         Sim, o Filho de Deus encarnado, isto é, Jesus Cristo, é Deus e homem ao
         mesmo tempo, perfeito Deus e perfeito homem.
       </Text>
 
-      <Text className="h5">87 - Há então em Jesus Cristo duas naturezas?</Text>
+      <H5 text="87 - Há então em Jesus Cristo duas naturezas?" />
       <Text className="text-base">
         Sim, em Jesus Cristo, que é Deus e homem, há duas naturezas, a divina e
         a humana.
       </Text>
 
-      <Text className="h5">
-        88 - E haverá também em Jesus Cristo duas pessoas, a divina e a humana?
-      </Text>
+      <H5 text="88 - E haverá também em Jesus Cristo duas pessoas, a divina e a humana?" />
       <Text className="text-base">
         No Filho de Deus feito homem há só uma Pessoa, que é a divina.
       </Text>
 
-      <Text className="h5">89 - Quantas vontades há em Jesus Cristo?</Text>
+      <H5 text="89 - Quantas vontades há em Jesus Cristo?" />
       <Text className="text-base">
         Em Jesus Cristo há duas vontades, uma divina, outra humana.
       </Text>
 
-      <Text className="h5">90 - Tinha Jesus Cristo vontade livre?</Text>
+      <H5 text="90 - Tinha Jesus Cristo vontade livre?" />
       <Text className="text-base">
         Sim, Jesus Cristo tinha vontade livre, mas não podia fazer o mal, porque
         poder fazer o mal é defeito, e não perfeição da liberdade.
       </Text>
 
-      <Text className="h5">
-        91 - Serão uma e a mesma Pessoa o Filho de Deus e o Filho de Maria
-        Santíssima?
-      </Text>
+      <H5 text="91 - Serão uma e a mesma Pessoa o Filho de Deus e o Filho de Maria Santíssima?" />
       <Text className="text-base">
         O Filho de Deus e o Filho de Maria Santíssima são a mesma Pessoa, isto
         é, Jesus Cristo, verdadeiro Deus e verdadeiro homem.
       </Text>
 
-      <Text className="h5">92 - E a Virgem Maria, será Mãe de Deus?</Text>
+      <H5 text="92 - E a Virgem Maria, será Mãe de Deus?" />
       <Text className="text-base">
         Sim, Maria Santíssima é Mãe de Deus, porque é Mãe de Jesus Cristo, que é
         verdadeiro Deus.
       </Text>
 
-      <Text className="h5">
-        93 - De que maneira veio Maria a ser Mãe de Jesus Cristo?
-      </Text>
+      <H5 text="93 - De que maneira veio Maria a ser Mãe de Jesus Cristo?" />
       <Text className="text-base">
         Maria veio a ser Mãe de Jesus Cristo unicamente por virtude do Espírito
         Santo.
       </Text>
 
-      <Text className="h5">94 É de fé que Maria foi sempre Virgem?</Text>
+      <H5 text="94 É de fé que Maria foi sempre Virgem?" />
       <Text className="text-base">
         Sim, é de fé que Maria Santíssima foi sempre Virgem, e é chamada a
         Virgem por excelência.
@@ -1028,10 +899,7 @@ export default function PageCatecismo() {
         18, 28-40; 19, 1-23
       </Text>
 
-      <Text className="h5">
-        95 - Que nos ensina o quarto artigo do Credo: padeceu sob o poder de
-        Pôncio Pilatos, foi crucificado, morto e sepultado?
-      </Text>
+      <H5 text="95 - Que nos ensina o quarto artigo do Credo: padeceu sob o poder de Pôncio Pilatos, foi crucificado, morto e sepultado?" />
       <Text className="text-base">
         O quarto artigo do Credo ensina-nos que Jesus Cristo, para remir o mundo
         com o seu precioso Sangue, padeceu sob Pôncio Pilatos, governador da
@@ -1039,39 +907,32 @@ export default function PageCatecismo() {
         sepultado.
       </Text>
 
-      <Text className="h5">96 - Que quer dizer a palavra padeceu?</Text>
+      <H5 text="96 - Que quer dizer a palavra padeceu?" />
       <Text className="text-base">
         A palavra padeceu exprime todos os sofrimentos suportados por Jesus
         Cristo na sua Paixão.
       </Text>
 
-      <Text className="h5">
-        97 - Padeceu Jesus Cristo enquanto Deus ou enquanto homem?
-      </Text>
+      <H5 text="97 - Padeceu Jesus Cristo enquanto Deus ou enquanto homem?" />
       <Text className="text-base">
         Jesus Cristo padeceu enquanto homem somente, porque enquanto Deus não
         podia padecer nem morrer.
       </Text>
 
-      <Text className="h5">98 - Que espécie de suplício era o da cruz?</Text>
+      <H5 text="98 - Que espécie de suplício era o da cruz?" />
       <Text className="text-base">
         O suplício da cruz era, naqueles tempos, o mais cruel e ignominioso de
         todos os suplícios.
       </Text>
 
-      <Text className="h5">
-        99 - Quem foi que condenou Jesus Cristo a ser crucificado?
-      </Text>
+      <H5 text="99 - Quem foi que condenou Jesus Cristo a ser crucificado?" />
       <Text className="text-base">
         Quem condenou Jesus Cristo a ser crucificado foi Pôncio Pilatos,
         governador da Judeia, o qual no entanto reconhecera a sua inocência; mas
         cedeu covardemente às ameaças dos judeus.
       </Text>
 
-      <Text className="h5">
-        100 - Não poderia livrar-se Jesus Cristo das mãos dos judeus ou de
-        Pilatos?
-      </Text>
+      <H5 text="100 - Não poderia livrar-se Jesus Cristo das mãos dos judeus ou de Pilatos?" />
       <Text className="text-base">
         Sim, Jesus Cristo podia livrar-se das mãos dos judeus ou de Pilatos;
         mas, conhecendo que a vontade do seu Eterno Padre era que Ele padecesse
@@ -1080,12 +941,12 @@ export default function PageCatecismo() {
         conduzir à morte.
       </Text>
 
-      <Text className="h5">101 - Onde foi crucificado Jesus Cristo?</Text>
+      <H5 text="101 - Onde foi crucificado Jesus Cristo?" />
       <Text className="text-base">
         Jesus Cristo foi crucificado sobre o monte Calvário.
       </Text>
 
-      <Text className="h5">102 - Que fez Jesus Cristo na Cruz?</Text>
+      <H5 text="102 - Que fez Jesus Cristo na Cruz?" />
       <Text className="text-base">
         Jesus Cristo na Cruz orou pelos seus inimigos, deu por Mãe ao discípulo
         São João, e na pessoa dele a nós todos, a sua mesma Mãe, Maria
@@ -1093,92 +954,72 @@ export default function PageCatecismo() {
         Deus pelos pecados dos homens.
       </Text>
 
-      <Text className="h5">
-        103 - Não bastaria que viesse um Anjo satisfazer por nós?
-      </Text>
+      <H5 text="103 - Não bastaria que viesse um Anjo satisfazer por nós?" />
       <Text className="text-base">
         Não bastava que viesse um Anjo satisfazer por nós, porque a ofensa feita
         a Deus pelo pecado era, sob certo aspecto, infinita; e para satisfazê-la
         requeria-se uma pessoa que tivesse merecimento infinito.
       </Text>
 
-      <Text className="h5">
-        104 - Para satisfazer à justiça divina era necessário que Jesus Cristo
-        fosse Deus e homem ao mesmo tempo?
-      </Text>
+      <H5 text="104 - Para satisfazer à justiça divina era necessário que Jesus Cristo fosse Deus e homem ao mesmo tempo?" />
       <Text className="text-base">
         Sim, era necessário que Jesus Cristo fosse homem para poder padecer e
         morrer, e era necessário que fosse Deus, para que os seus sofrimentos
         fossem de valor infinito.
       </Text>
 
-      <Text className="h5">
-        105 - Por que razão era necessário que os merecimentos de Jesus Cristo
-        fossem de valor infinito?
-      </Text>
+      <H5 text="105 - Por que razão era necessário que os merecimentos de Jesus Cristo fossem de valor infinito?" />
       <Text className="text-base">
         Era necessário que os merecimentos de Jesus Cristo fossem de valor
         infinito, porque a majestade de Deus, ofendida pelo pecado, é infinita.
       </Text>
 
-      <Text className="h5">
-        106 - Era necessário que Jesus Cristo padecesse tanto?
-      </Text>
+      <H5 text="106 - Era necessário que Jesus Cristo padecesse tanto?" />
       <Text className="text-base">
         Não era absolutamente necessário que Jesus Cristo padecesse tanto,
         porque o menor dos seus sofrimentos bastaria para a nossa redenção, pois
         cada um dos seus atos era de valor infinito.
       </Text>
 
-      <Text className="h5">107 - Por que então Jesus quis sofrer tanto?</Text>
+      <H5 text="107 - Por que então Jesus quis sofrer tanto?" />
       <Text className="text-base">
         Jesus quis sofrer tanto, para satisfazer mais abundantemente à justiça
         divina, para nos mostrar mais claramente o seu amor, e para nos inspirar
         maior horror ao pecado.
       </Text>
 
-      <Text className="h5">108 - Aconteceram prodígios na morte de Jesus?</Text>
+      <H5 text="108 - Aconteceram prodígios na morte de Jesus?" />
       <Text className="text-base">
         Sim, na morte de Jesus obscureceu-se o sol, tremeu a terra, abriram-se
         algumas sepulturas, e muitos mortos ressuscitaram.
       </Text>
 
-      <Text className="h5">
-        109 - Onde foi sepultado o corpo de Jesus Cristo?
-      </Text>
+      <H5 text="109 - Onde foi sepultado o corpo de Jesus Cristo?" />
       <Text className="text-base">
         O corpo de Jesus Cristo foi sepultado num túmulo novo, escavado na rocha
         do monte, pouco distante do lugar onde Ele foi crucificado.
       </Text>
 
-      <Text className="h5">
-        110 - Na morte de Jesus Cristo, separou-se a divindade do corpo e dá
-        alma?
-      </Text>
+      <H5 text="110 - Na morte de Jesus Cristo, separou-se a divindade do corpo e dá alma?" />
       <Text className="text-base">
         Na morte de Jesus Cristo a divindade não se separou nem do corpo nem da
         alma; mas só a alma se separou do corpo.
       </Text>
 
-      <Text className="h5">111 - Por quem morreu Jesus Cristo?</Text>
+      <H5 text="111 - Por quem morreu Jesus Cristo?" />
       <Text className="text-base">
         Jesus Cristo morreu pela salvação de todos os homens, e satisfez por
         todos.
       </Text>
 
-      <Text className="h5">
-        112 - Se Jesus Cristo morreu pela salvação de todos, por que nem todos
-        se salvam?
-      </Text>
+      <H5 text="112 - Se Jesus Cristo morreu pela salvação de todos, por que nem todos se salvam?" />
       <Text className="text-base">
         Jesus Cristo morreu por todos, mas nem todos se salvam, porque nem todos
         O reconhecem, nem todos seguem a sua lei, nem todos se servem dos meios
         de santificação que nos deixou.
       </Text>
 
-      <Text className="h5">
-        113 - Para nos salvarmos não tenha morrido por nós?
-      </Text>
+      <H5 text="113 - Para nos salvarmos não tenha morrido por nós?" />
       <Text className="text-base">
         Para nos salvarmos não basta que Jesus basta que Jesus Cristo tenha
         morrido por nós, mas é necessário que sejam aplicados, a cada um de nós,
@@ -1219,26 +1060,20 @@ export default function PageCatecismo() {
         dirijam à Galileia elá me verão. Mt 27, 62-66; 28, 1-10.
       </Text>
 
-      <Text className="h5">
-        114 - Que nos ensina o quinto artigo do Credo: desceu aos infernos, ao
-        terceiro dia ressurgiu dos mortos?
-      </Text>
+      <H5 text="114 - Que nos ensina o quinto artigo do Credo: desceu aos infernos, ao terceiro dia ressurgiu dos mortos?" />
       <Text className="text-base">
         O quinto artigo do Credo ensina-nos que a alma de Jesus Cristo, assim
         que se separou do corpo, foi ao Limbo e que, no terceiro dia, se uniu de
         novo ao corpo, para nunca mais dele se separar.
       </Text>
 
-      <Text className="h5">115 - Que se entende aqui por inferno?</Text>
+      <H5 text="115 - Que se entende aqui por inferno?" />
       <Text className="text-base">
         Por inferno entende-se aqui o Limbo, isto é, aquele lugar onde estavam
         as almas dos justos, esperando ti redenção de Jesus Cristo.
       </Text>
 
-      <Text className="h5">
-        116 - Por que as almas dos justos não foram introduzidas no Paraíso
-        antes da morte de Jesus Cristo?
-      </Text>
+      <H5 text="116 - Por que as almas dos justos não foram introduzidas no Paraíso antes da morte de Jesus Cristo?" />
       <Text className="text-base">
         As almas dos justos não foram introduzidas no Paraíso antes da morte de
         Jesus Cristo, porque pelo pecado de Adão o Paraíso estava fechado; e
@@ -1246,19 +1081,13 @@ export default function PageCatecismo() {
         entrar nele.
       </Text>
 
-      <Text className="h5">
-        117 - Por que Jesus Cristo quis esperar até ao terceiro dia para
-        ressuscitar?
-      </Text>
+      <H5 text="117 - Por que Jesus Cristo quis esperar até ao terceiro dia para ressuscitar?" />
       <Text className="text-base">
         Jesus Cristo quis demorar até ao terceiro dia para ressuscitar, para
         mostrar de modo insofismável, que verdadeiramente tinha morrido.
       </Text>
 
-      <Text className="h5">
-        118 - Foi a ressurreição de Jesus Cristo semelhante à dos outros homens
-        ressuscitados?
-      </Text>
+      <H5 text="118 - Foi a ressurreição de Jesus Cristo semelhante à dos outros homens ressuscitados?" />
       <Text className="text-base">
         A ressurreição de Jesus Cristo não foi semelhante à dos outros homens
         ressuscitados, porque Jesus Cristo ressuscitou por virtude própria, e os
@@ -1290,10 +1119,7 @@ export default function PageCatecismo() {
         Cristo, quem foi que te bateu? Mt 7, 57-68
       </Text>
 
-      <Text className="h5">
-        119 - Que nos ensina o sexto artigo do Credo: subiu ao Céu, está sentado
-        à direita de Deus Padre todo-poderoso?
-      </Text>
+      <H5 text="119 - Que nos ensina o sexto artigo do Credo: subiu ao Céu, está sentado à direita de Deus Padre todo-poderoso?" />
       <Text className="text-base">
         O sexto artigo do Credo ensina-nos que Jesus quarenta dias depois da sua
         ressurreição na presença dos seus discípulos, subiu por Si mesmo tio Céu
@@ -1302,10 +1128,7 @@ export default function PageCatecismo() {
         constituído Senhor de todas as coisas.
       </Text>
 
-      <Text className="h5">
-        120 - Por que Jesus Cristo, depois da sua ressurreição, esteve quarenta
-        dias na terra, antes de subir ao Céu?
-      </Text>
+      <H5 text="120 - Por que Jesus Cristo, depois da sua ressurreição, esteve quarenta dias na terra, antes de subir ao Céu?" />
       <Text className="text-base">
         Jesus Cristo, depois da sua ressurreição, esteve quarenta dias na terra,
         antes de subir ao Céu, para provar, com várias aparições, que
@@ -1313,7 +1136,7 @@ export default function PageCatecismo() {
         confirmá-los nas verdades da fé.
       </Text>
 
-      <Text className="h5">121 - Por que Jesus Cristo subiu ao Céu?</Text>
+      <H5 text="121 - Por que Jesus Cristo subiu ao Céu?" />
       <Text className="text-base">Jesus Cristo subiu ao Céu:</Text>
 
       <View className="list-styled">
@@ -1328,10 +1151,7 @@ export default function PageCatecismo() {
           3º - para enviar o Espírito Santo aos seus Apóstolos.
         </Text>
       </View>
-      <Text className="h5">
-        122 - Por que se diz de Jesus Cristo que subiu ao Céu, e de sua Mãe
-        Santíssima se diz que foi levada para o Céu?
-      </Text>
+      <H5 text="122 - Por que se diz de Jesus Cristo que subiu ao Céu, e de sua Mãe Santíssima se diz que foi levada para o Céu?" />
       <Text className="text-base">
         Diz-se de Jesus Cristo que subiu, e de sua Mãe Santíssima que foi levada
         ao Céu, porque Jesus Cristo, sendo Homem-Deus, subiu ao Céu por virtude
@@ -1339,10 +1159,7 @@ export default function PageCatecismo() {
         foi levada ao Céu por virtude de Deus.
       </Text>
 
-      <Text className="h5">
-        123 - Explicai as palavras: Está sentado à direita de Deus Padre
-        todo-poderoso.
-      </Text>
+      <H5 text="123 - Explicai as palavras: Está sentado à direita de Deus Padre todo-poderoso." />
       <Text className="text-base">
         As palavras está sentado significam ti posse pacífica que Jesus Cristo
         tem da sua glória, o as palavras à direita de Deus Padre todo-poderoso
@@ -1379,10 +1196,7 @@ export default function PageCatecismo() {
         a vida eterna. Mt 25, 31-46
       </Text>
 
-      <Text className="h5">
-        124 - Que nos ensina o sétimo artigo do Credo: de onde ha de vir a
-        julgar os vivos e os mortos?
-      </Text>
+      <H5 text="124 - Que nos ensina o sétimo artigo do Credo: de onde ha de vir a julgar os vivos e os mortos?" />
       <Text className="text-base">
         O sétimo artigo do Credo ensina-nos que no fim do mundo Jesus Cristo
         cheio de glória e de majestade, há de vir do Céu para julgar todos os
@@ -1390,11 +1204,7 @@ export default function PageCatecismo() {
         tiver merecido.
       </Text>
 
-      <Text className="h5">
-        125 - Se cada um, logo depois da morte há de ser julgado por Jesus
-        Cristo no juízo particular, por que havemos de ser julgados todos no
-        Juízo universal?
-      </Text>
+      <H5 text="125 - Se cada um, logo depois da morte há de ser julgado por Jesus Cristo no juízo particular, por que havemos de ser julgados todos no Juízo universal?" />
       <Text className="text-base">
         Havemos de ser julgados todos no Juízo universal por várias razões:
       </Text>
@@ -1411,39 +1221,28 @@ export default function PageCatecismo() {
           tenha juntamente com a alma a sua sentença de prêmio ou de castigo.
         </Text>
       </View>
-      <Text className="h5">
-        126 - Como é que no Juízo universal há de manifestar-se a glória de
-        Deus?
-      </Text>
+      <H5 text="126 - Como é que no Juízo universal há de manifestar-se a glória de Deus?" />
       <Text className="text-base">
         No Juízo universal há de manifestar-se a de Deus, porque todos hão de
         reconhecer a justiça com que Deus governa o mundo, embora se vejam às
         vezes os bons a sofrer e o maus em prosperidade.
       </Text>
 
-      <Text className="h5">
-        127 - Como é que no Juízo universal há de manifestar-se glória de Jesus
-        Cristo?
-      </Text>
+      <H5 text="127 - Como é que no Juízo universal há de manifestar-se glória de Jesus Cristo?" />
       <Text className="text-base">
         No Juízo universal há de manifestar-se a glória de Jesus Cristo, porque,
         tendo Ele sido injustamente condenado pelos homens, aparecerá então à
         face do mundo inteiro como Juiz supremo de todos.
       </Text>
 
-      <Text className="h5">
-        128 - Como é que no Juízo universal há de manifestar-se a glória dos
-        Santos?
-      </Text>
+      <H5 text="128 - Como é que no Juízo universal há de manifestar-se a glória dos Santos?" />
       <Text className="text-base">
         No Juízo universal há de manifestar-se a glória dos Santos, porque
         muitos deles, que morreram desprezados pelos maus, hão de ser
         glorificados em presença de todos os homens.
       </Text>
 
-      <Text className="h5">
-        129 - No Juízo universal qual será a confusão dos maus?
-      </Text>
+      <H5 text="129 - No Juízo universal qual será a confusão dos maus?" />
       <Text className="text-base">
         No Juízo universal a confusão dos maus será enorme, especialmente a
         daqueles que oprimiram os justos, e ti daqueles que, durante a vida,
@@ -1477,9 +1276,7 @@ export default function PageCatecismo() {
         vinho. Atos 2, 1-13
       </Text>
 
-      <Text className="h5">
-        130 - Que nos ensina o oitavo artigo do Credo: creio no Espírito Santo?
-      </Text>
+      <H5 text="130 - Que nos ensina o oitavo artigo do Credo: creio no Espírito Santo?" />
       <Text className="text-base">
         O oitavo artigo do Credo ensina-nos que existe o Espírito Santo,
         terceira Pessoa da Santíssima Trindade, e que Ele é Deus eterno,
@@ -1487,92 +1284,68 @@ export default function PageCatecismo() {
         e o Filho.
       </Text>
 
-      <Text className="h5">131 - De quem procede o Espírito Santo?</Text>
+      <H5 text="131 - De quem procede o Espírito Santo?" />
       <Text className="text-base">
         O Espírito Santo procede do Padre e do Filho como de um só princípio,
         por via de vontade e de amor.
       </Text>
 
-      <Text className="h5">
-        132 - Se o Filho procede do Padre, e o Espírito Santo procede do Padre e
-        do Filho, parece que o Padre e o Filho existem antes do Espírito Santo.
-        Como então se diz que são eternas todas as três Pessoas divinas?
-      </Text>
+      <H5 text="132 - Se o Filho procede do Padre, e o Espírito Santo procede do Padre e do Filho, parece que o Padre e o Filho existem antes do Espírito Santo. Como então se diz que são eternas todas as três Pessoas divinas?" />
       <Text className="text-base">
         Diz-se que são eternas todas as três Pessoas divinas, porque o Padre
         gerou o Filho desde toda a eternidade, e do Padre e do Filho procede o
         Espírito Santo, também desde toda a eternidade.
       </Text>
 
-      <Text className="h5">
-        133 - Por que a tecera Pessoa da Santíssima Trindade se designas
-        particularmente com o nome de Espírito Santo?
-      </Text>
+      <H5 text="133 - Por que a tecera Pessoa da Santíssima Trindade se designas particularmente com o nome de Espírito Santo?" />
       <Text className="text-base">
         Designa-se a terceira Pessoa da Santíssima Trindade particularmente com
         o nome de Espírito Santo, porque procede do Padre e do Filho por meio de
         expiração e de amor.
       </Text>
 
-      <Text className="h5">
-        134 - Que obra se atribui especialmente ao Espírito Santo?
-      </Text>
+      <H5 text="134 - Que obra se atribui especialmente ao Espírito Santo?" />
       <Text className="text-base">
         Ao Espírito Santo atribui-se especialmente a santificação das almas.
       </Text>
 
-      <Text className="h5">
-        135 - O Padre e o filho santificam-nos também, como o Espírito Santo?
-      </Text>
+      <H5 text="135 - O Padre e o filho santificam-nos também, como o Espírito Santo?" />
       <Text className="text-base">
         Sim, todas as três Pessoas divinas nos santificam igualmente.
       </Text>
 
-      <Text className="h5">
-        136 - Se assim é, por que é atribuída em particular ao Espírito Santo a
-        santificação das almas?
-      </Text>
+      <H5 text="136 - Se assim é, por que é atribuída em particular ao Espírito Santo a santificação das almas?" />
       <Text className="text-base">
         Atribui-se em particular ao Espírito Santo a santificação das almas
         porque é obra de amor, e as obras de amor atribuem-se ao Espírito Santo.
       </Text>
 
-      <Text className="h5">
-        137 - Quando o Espírito Santo desceu sobre os Apóstolos?
-      </Text>
+      <H5 text="137 - Quando o Espírito Santo desceu sobre os Apóstolos?" />
       <Text className="text-base">
         O Espírito Santo desceu sobre os Apóstolos no dia de Pentecostes, isto
         é, cinquenta dias depois da Ressurreição de Jesus Cristo, e dez dias
         depois da sua Ascensão.
       </Text>
 
-      <Text className="h5">
-        138 - Onde ficaram os Apóstolos nos dez dias antes da festa de
-        Pentecostes?
-      </Text>
+      <H5 text="138 - Onde ficaram os Apóstolos nos dez dias antes da festa de Pentecostes?" />
       <Text className="text-base">
         Os Apóstolos ficaram reunidos no Cenáculo em companhia da Virgem Maria e
         os outros discípulos, e perseveravam na oração esperando o Espírito
         Santo que Jesus lhes havia prometido.
       </Text>
 
-      <Text className="h5">
-        139 - Quais foram os efeitos que o Espírito Santo produziu nos
-        Apóstolos?
-      </Text>
+      <H5 text="139 - Quais foram os efeitos que o Espírito Santo produziu nos Apóstolos?" />
       <Text className="text-base">
         O Espírito Santo confirmou na fé os Apóstolos, encheu-os de luzes, de
         forças, de caridade e da abundância de todos os seus dons.
       </Text>
 
-      <Text className="h5">
-        140 - Foi enviado o Espírito Santo só aos Apóstolos?
-      </Text>
+      <H5 text="140 - Foi enviado o Espírito Santo só aos Apóstolos?" />
       <Text className="text-base">
         O Espírito Santo foi enviado a toda a Igreja e a todas as almas fiéis.
       </Text>
 
-      <Text className="h5">141 - Que opera o Espírito Santo na Igreja?</Text>
+      <H5 text="141 - Que opera o Espírito Santo na Igreja?" />
       <Text className="text-base">
         O Espírito Santo, como a alma no corpo, vivifica a Igreja com a sua
         graça e com os seus dons; estabelece n'Ela o reino da verdade e do amor;
@@ -1602,51 +1375,41 @@ export default function PageCatecismo() {
         estas coisas. Passai bem. Atos 15, 22-29
       </Text>
 
-      <Text className="h4">1º - Da Igreja em geral</Text>
-      <Text className="h5">
-        142 - Que nos ensina o nono artigo do Credo: creio na Santa Igreja
-        Católica; na Comunhão dos Santos?
-      </Text>
+      <H4 text="1º - Da Igreja em geral" />
+      <H5 text="142 - Que nos ensina o nono artigo do Credo: creio na Santa Igreja Católica; na Comunhão dos Santos?" />
       <Text className="text-base">
         O nono artigo do Credo ensina-nos que Jesus Cristo fundou sobre a terra
         uma sociedade visível, a qual se chama Igreja Católica, e que todas as
         pessoas que fazem parte desta Igreja estão em comunhão entre si.
       </Text>
 
-      <Text className="h5">
-        143 - Por que, depois do artigo que trata do Espírito Santo, fala-se
-        imediatamente da Igreja Católica?
-      </Text>
+      <H5 text="143 - Por que, depois do artigo que trata do Espírito Santo, fala-se imediatamente da Igreja Católica?" />
       <Text className="text-base">
         Depois do artigo que trata do Espírito Santo, fala-se imediatamente da
         Igreja Católica, para indicar que toda a santidade da mesma Igreja
         procede do Espírito Santo, que é o autor de toda a santidade.
       </Text>
 
-      <Text className="h5">144 - Que quer dizer esta palavra Igreja?</Text>
+      <H5 text="144 - Que quer dizer esta palavra Igreja?" />
       <Text className="text-base">
         A palavra Igreja quer dizer convocação ou reunião de muitas pessoas.
       </Text>
 
-      <Text className="h5">
-        145 - Quem nos convocou ou chamou para a Igreja de Jesus Cristo?
-      </Text>
+      <H5 text="145 - Quem nos convocou ou chamou para a Igreja de Jesus Cristo?" />
       <Text className="text-base">
         Nós fomos chamados para a Igreja de Jesus Cristo por uma graça
         particular de Deus, a fim de que, com a luz da fé e pela observância da
         lei divina, Lhe prestemos o culto devido, e cheguemos à vida eterna.
       </Text>
 
-      <Text className="h5">146 - Onde se encontram os membros da Igreja?</Text>
+      <H5 text="146 - Onde se encontram os membros da Igreja?" />
       <Text className="text-base">
         Os membros da Igreja encontram-se parte no Céu, e formam a Igreja
         triunfante; parte no Purgatório, e formam a Igreja padecente; parte na
         terra, e formam a Igreja militante.
       </Text>
 
-      <Text className="h5">
-        147 - Estas diversas partes da Igreja constituem uma só Igreja?
-      </Text>
+      <H5 text="147 - Estas diversas partes da Igreja constituem uma só Igreja?" />
       <Text className="text-base">
         Sim, estas diversas partes da Igreja constituem uma só Igreja e um só
         corpo, porque têm a mesma cabeça que é Jesus Cristo, o mesmo espírito
@@ -1654,17 +1417,14 @@ export default function PageCatecismo() {
         já estão gozando e que outros esperam.
       </Text>
 
-      <Text className="h5">
-        148 - A qual das partes da Igreja se refere principalmente este nono
-        artigo?
-      </Text>
+      <H5 text="148 - A qual das partes da Igreja se refere principalmente este nono artigo?" />
       <Text className="text-base">
         Este nono artigo do Credo refere-se principalmente à Igreja militante,
         que é a Igreja na qual estamos atualmente.
       </Text>
 
-      <Text className="h4">2º - Da Igreja em particular</Text>
-      <Text className="h5">149 - Que é a Igreja Católica?</Text>
+      <H4 text="2º - Da Igreja em particular" />
+      <H5 text="149 - Que é a Igreja Católica?" />
       <Text className="text-base">
         A Igreja Católica é a sociedade ou reunião de todas as pessoas
         baptizadas que, vivendo na terra, professam a mesma fé e a mesma lei de
@@ -1672,19 +1432,14 @@ export default function PageCatecismo() {
         Pastores, principalmente ao Romano Pontífice.
       </Text>
 
-      <Text className="h5">
-        150 - Dizei precisamente o que é necessário para alguém ser membro da
-        Igreja.
-      </Text>
+      <H5 text="150 - Dizei precisamente o que é necessário para alguém ser membro da Igreja." />
       <Text className="text-base">
         Para alguém ser membro da Igreja, é necessário estar baptizado, crer e
         professar a doutrina de Jesus Cristo, participar dos mesmos Sacramentos,
         reconhecer o Papa e os outros legítimos Pastores da Igreja.
       </Text>
 
-      <Text className="h5">
-        151 - Quem são os legítimos Pastores da Igreja?
-      </Text>
+      <H5 text="151 - Quem são os legítimos Pastores da Igreja?" />
       <Text className="text-base">
         Os legítimos Pastores da Igreja são o Pontífice Romano, isto é, o Papa,
         que é o 1º Pastor universal, e os Bispos. Além disso, sob a dependência
@@ -1692,10 +1447,7 @@ export default function PageCatecismo() {
         Sacerdotes e especialmente os párocos.
       </Text>
 
-      <Text className="h5">
-        152 - Por que dizeis que o Pontífice Romano é o Pastor Universal da
-        Igreja?
-      </Text>
+      <H5 text="152 - Por que dizeis que o Pontífice Romano é o Pastor Universal da Igreja?" />
       <Text className="text-base">
         Porque Jesus Cristo disse a São Pedro, primeiro Papa: Tu és Pedro, e
         sobre esta pedra edificarei a minha Igreja, e dar-te-ei as chaves do
@@ -1705,26 +1457,20 @@ export default function PageCatecismo() {
         ovelhas.
       </Text>
 
-      <Text className="h5">
-        153 - Então não pertencem à Igreja, de Jesus Cristo as sociedades de
-        pessoas baptizados que não reconhecem o Romano Pontífice por seu chefe?
-      </Text>
+      <H5 text="153 - Então não pertencem à Igreja, de Jesus Cristo as sociedades de pessoas baptizados que não reconhecem o Romano Pontífice por seu chefe?" />
       <Text className="text-base">
         Todos os que não reconhecem o Romano Pontífice por seu chefe, não
         pertencem à Igreja de Jesus Cristo.
       </Text>
 
-      <Text className="h5">
-        154 - Como se pode distinguir a Igreja de Jesus Cristo, de tantas
-        sociedades ou seitas, fundadas pelos homens, e que se dizem cristãos?
-      </Text>
+      <H5 text="154 - Como se pode distinguir a Igreja de Jesus Cristo, de tantas sociedades ou seitas, fundadas pelos homens, e que se dizem cristãos?" />
       <Text className="text-base">
         Pode-se distinguir a verdadeira Igreja de Jesus Cristo, de tantas
         sociedades ou seitas fundadas pelos homens e que se dizem cristãs, por
         quatro notas características. Ela é Una, Santa, Católica e Apostólica.
       </Text>
 
-      <Text className="h5">155 - Por que dizeis que a Igreja é Una?</Text>
+      <H5 text="155 - Por que dizeis que a Igreja é Una?" />
       <Text className="text-base">
         Digo que a verdadeira Igreja é Una, porque os seus filhos, de qualquer
         tempo ou lugar, estão unidos entre si na mesma fé, no mesmo culto, na
@@ -1732,26 +1478,21 @@ export default function PageCatecismo() {
         visível, o Romano Pontífice.
       </Text>
 
-      <Text className="h5">156 - Não poderia haver mais de uma Igreja?</Text>
+      <H5 text="156 - Não poderia haver mais de uma Igreja?" />
       <Text className="text-base">
         Não pode haver mais de uma Igreja, porque, assim como há um só Deus, uma
         só Fé e um só Batismo, assim também não há nem pode ode haver senão uma
         só Igreja verdadeira.
       </Text>
 
-      <Text className="h5">
-        157 - Mas não se chamam também igrejas o conjunto dos fiéis de uma
-        nação, ou de uma diocese?
-      </Text>
+      <H5 text="157 - Mas não se chamam também igrejas o conjunto dos fiéis de uma nação, ou de uma diocese?" />
       <Text className="text-base">
         Chamam-se igrejas também o conjunto dos fiéis de uma nação ou de uma
         diocese, mas são sempre porções da Igreja universal, e formam com ela
         uma só Igreja.
       </Text>
 
-      <Text className="h5">
-        158 - Por que dizeis que a verdadeira Igreja é Santa?
-      </Text>
+      <H5 text="158 - Por que dizeis que a verdadeira Igreja é Santa?" />
       <Text className="text-base">
         Chamo a verdadeira Igreja de Santa, porque Jesus Cristo, a sua cabeça
         invisível, é Santo, santos são muitos dos seus membros, santas são a sua
@@ -1759,7 +1500,7 @@ export default function PageCatecismo() {
         haver verdadeira santidade.
       </Text>
 
-      <Text className="h5">159 - Por que dizeis que a Igreja é Católica?</Text>
+      <H5 text="159 - Por que dizeis que a Igreja é Católica?" />
       <Text className="text-base">
         Chamo a verdadeira Igreja de Católica, que quer dizer universal, porque
         abrange os fiéis de todos os tempos, de todos os lugares, de todas as
@@ -1767,9 +1508,7 @@ export default function PageCatecismo() {
         parte d'Ela.
       </Text>
 
-      <Text className="h5">
-        160 - Por que a Igreja se chama também Apostólica?
-      </Text>
+      <H5 text="160 - Por que a Igreja se chama também Apostólica?" />
       <Text className="text-base">
         A verdadeira Igreja chama-se também Apostólica, porque remonta sem
         interrupção até aos Apóstolos; porque crê e ensina tudo o que creram e
@@ -1777,25 +1516,21 @@ export default function PageCatecismo() {
         sucessores dos Apóstolos.
       </Text>
 
-      <Text className="h5">
-        161 - Por que a verdadeira Igreja se chama também Romana?
-      </Text>
+      <H5 text="161 - Por que a verdadeira Igreja se chama também Romana?" />
       <Text className="text-base">
         A verdadeira Igreja chama-se também Romana, porque os quatro caracteres
         da unidade, santidade, catolicidade e apostolicidade se encontram só na
         Igreja que tem por chefe o Bispo de Roma, sucessor de São Pedro.
       </Text>
 
-      <Text className="h5">
-        162 - Como é constituída a Igreja de Jesus Cristo?
-      </Text>
+      <H5 text="162 - Como é constituída a Igreja de Jesus Cristo?" />
       <Text className="text-base">
         A Igreja de Jesus Cristo é constituída como uma sociedade verdadeira e
         perfeita. E n'Ela, como numa pessoa moral, podemos distinguir um corpo e
         uma alma.
       </Text>
 
-      <Text className="h5">163 - Em que consiste a alma da Igreja?</Text>
+      <H5 text="163 - Em que consiste a alma da Igreja?" />
       <Text className="text-base">
         A alma da Igreja consiste no que Ela tem de interior e de espiritual,
         isto é, a Fé, a Esperança, a Caridade, os dons da graça e do Espírito
@@ -1803,56 +1538,45 @@ export default function PageCatecismo() {
         de Cristo Redentor e dos Santos.
       </Text>
 
-      <Text className="h5">164 - E o corpo da Igreja, em que consiste?</Text>
+      <H5 text="164 - E o corpo da Igreja, em que consiste?" />
       <Text className="text-base">
         O corpo da Igreja consiste no que Ela tem de visível e de externo, quer
         na associação dos seus membros, quer no seu culto e no seu ministério de
         -ensino, quer no seu governo e ordem externa.
       </Text>
 
-      <Text className="h5">
-        165 - Para nos salvarmos basta sermos de qualquer maneira membros da
-        Igreja Católica?
-      </Text>
+      <H5 text="165 - Para nos salvarmos basta sermos de qualquer maneira membros da Igreja Católica?" />
       <Text className="text-base">
         Não basta para nos salvarmos o sermos de qualquer maneira membros da
         Igreja Católica, mas é preciso que sejamos seus membros vivos.
       </Text>
 
-      <Text className="h5">166 - Quais são os membros vivos da Igreja?</Text>
+      <H5 text="166 - Quais são os membros vivos da Igreja?" />
       <Text className="text-base">
         Os membros vivos da Igreja são todos os justos e só eles, isto é,
         aqueles que estão atualmente em graça de Deus.
       </Text>
 
-      <Text className="h5">167 - E quais são n'Ela os membros mortos?</Text>
+      <H5 text="167 - E quais são n'Ela os membros mortos?" />
       <Text className="text-base">
         Membros mortos da Igreja são os fiéis que estão em pecado mortal.
       </Text>
 
-      <Text className="h5">
-        168 - Pode alguém salvar-se fora da Igreja Católica, Apostólica, Romana?
-      </Text>
+      <H5 text="168 - Pode alguém salvar-se fora da Igreja Católica, Apostólica, Romana?" />
       <Text className="text-base">
         Não. Fora da Igreja Católica, Apostólica, Romana, ninguém pode
         salvar-se, como ninguém pôde salvar-se do dilúvio fora da arca de Noé,
         que era figura desta Igreja.
       </Text>
 
-      <Text className="h5">
-        169 - Como então se salvaram os antigos Patriarcas, os Profetas, e todos
-        os outros justos do Antigo Testamento?
-      </Text>
+      <H5 text="169 - Como então se salvaram os antigos Patriarcas, os Profetas, e todos os outros justos do Antigo Testamento?" />
       <Text className="text-base">
         Todos os justos do Antigo Testamento se salvaram em virtude da fé que
         tinham em Cristo que havia de vir, por meio da qual eles já pertenciam
         espiritualmente a esta Igreja.
       </Text>
 
-      <Text className="h5">
-        170 - Mas quem se encontrasse, sem culpa sua, fora da Igreja, poderia
-        salvar-se?
-      </Text>
+      <H5 text="170 - Mas quem se encontrasse, sem culpa sua, fora da Igreja, poderia salvar-se?" />
       <Text className="text-base">
         Quem, encontrando-se sem culpa sua - quer dizer, em boa fé - fora da
         Igreja, tivesse recebido o baptismo, ou tivesse desejo, ao menos
@@ -1862,10 +1586,7 @@ export default function PageCatecismo() {
         salvação.
       </Text>
 
-      <Text className="h5">
-        171 - E quem, sendo muito embora membro da Igreja Católica, não pusesse
-        em prática os seus ensinamentos, salvar-se-ia?
-      </Text>
+      <H5 text="171 - E quem, sendo muito embora membro da Igreja Católica, não pusesse em prática os seus ensinamentos, salvar-se-ia?" />
       <Text className="text-base">
         Quem, sendo muito embora membro da Igreja Católica, não pusesse em
         prática os seus ensinamentos, seria membro morto, e portanto não se
@@ -1873,58 +1594,46 @@ export default function PageCatecismo() {
         e a Fé, mas também as obras conformes à Fé.
       </Text>
 
-      <Text className="h5">
-        172 - Somos obrigados a acreditar todas as verdades que a Igreja ensina?
-      </Text>
+      <H5 text="172 - Somos obrigados a acreditar todas as verdades que a Igreja ensina?" />
       <Text className="text-base">
         Sim, somos obrigados a acreditar todas as verdades que a Igreja nos
         ensina, e Jesus Cristo declarou que quem não crê, já está condenado.
       </Text>
 
-      <Text className="h5">
-        173 - Somos também obrigados a fazer tudo o que a Igreja manda?
-      </Text>
+      <H5 text="173 - Somos também obrigados a fazer tudo o que a Igreja manda?" />
       <Text className="text-base">
         Sim, somos obrigados a fazer tudo o que a Igreja manda, porque Jesus
         Cristo disse aos Pastores da Igreja: Quem vos ouve, a Mim ouve, e quem
         vos despreza, a Mim despreza.
       </Text>
 
-      <Text className="h5">
-        174 - Pode enganar-se a Igreja nas coisas que nos propõe para crermos?
-      </Text>
+      <H5 text="174 - Pode enganar-se a Igreja nas coisas que nos propõe para crermos?" />
       <Text className="text-base">
         Não. Nas coisas que nos propõe para crer, a Igreja não pode enganar-se,
         porque, segundo a promessa de Jesus Cristo, é sempre assistida pelo
         Espírito Santo.
       </Text>
 
-      <Text className="h5">175 - A Igreja Católica é então infalível?</Text>
+      <H5 text="175 - A Igreja Católica é então infalível?" />
       <Text className="text-base">
         Sim, a Igreja Católica é infalível. Por isso aqueles que rejeitam as
         suas definições, perdem a fé, e fazem-se hereges.
       </Text>
-      <Text className="h5">
-        176 - A Igreja Católica pode ser destruída ou perecer?
-      </Text>
+      <H5 text="176 - A Igreja Católica pode ser destruída ou perecer?" />
       <Text className="text-base">
         Não. A Igreja Católica pode ser perseguida, mas não pode ser destruída
         nem perecer. Ela há de durar até ao fim do mundo, porque até ao fim do
         mundo Jesus Cristo estará com Ela, como prometeu.
       </Text>
 
-      <Text className="h5">
-        177 - Por que é a Igreja Católica tão perseguida?
-      </Text>
+      <H5 text="177 - Por que é a Igreja Católica tão perseguida?" />
       <Text className="text-base">
         A Igreja Católica é tão perseguida, porque assim foi também perseguido o
         seu Divino Fundador, e porque reprova os vícios, combate as paixões e
         condena todas as injustiças e todos os erros.
       </Text>
 
-      <Text className="h5">
-        178 - Há mais alguns deveres dos católicos para com a Igreja?
-      </Text>
+      <H5 text="178 - Há mais alguns deveres dos católicos para com a Igreja?" />
       <Text className="text-base">
         Todo o cristão deve ter para com a Igreja um amor ilimitado,
         considerar-se feliz e infinitamente honrado por pertencer a Ela, e
@@ -1932,7 +1641,7 @@ export default function PageCatecismo() {
         alcance.
       </Text>
 
-      <Text className="h4">3º - Da Igreja docente e da Igreja discente</Text>
+      <H4 text="3º - Da Igreja docente e da Igreja discente" />
       <Text className="text-base">
         Um anjo do Senhor falou a Filipe: Vai para o sul pelo caminho que,
         através do deserto, desce de Jerusalém para Gaza. E Filipe partiu. Ora,
@@ -1959,72 +1668,53 @@ export default function PageCatecismo() {
         a Cesareia Atos 8, 26-40
       </Text>
 
-      <Text className="h5">
-        179 - Há alguma distinção entre os membros que compõem a Igreja?
-      </Text>
+      <H5 text="179 - Há alguma distinção entre os membros que compõem a Igreja?" />
       <Text className="text-base">
         Entre os membros que compõem a Igreja há distinção muito importante,
         porque há uns que mandam, outros que obedecem, uns que ensinam, outros
         que são ensinados.
       </Text>
 
-      <Text className="h5">
-        180 - Como se chama a parte da Igreja que ensina?
-      </Text>
+      <H5 text="180 - Como se chama a parte da Igreja que ensina?" />
       <Text className="text-base">
         A parte da Igreja que ensina chama-se docente, ou ensinante.
       </Text>
 
-      <Text className="h5">
-        181 - E a parte da Igreja que é ensinada, como se chama?
-      </Text>
+      <H5 text="181 - E a parte da Igreja que é ensinada, como se chama?" />
       <Text className="text-base">
         A parte da Igreja que é ensinada chama-se discente.
       </Text>
 
-      <Text className="h5">
-        182 - Quem estabeleceu esta distinção na Igreja?
-      </Text>
+      <H5 text="182 - Quem estabeleceu esta distinção na Igreja?" />
       <Text className="text-base">
         Esta distinção na Igreja estabeleceu-a o próprio Jesus Cristo.
       </Text>
 
-      <Text className="h5">
-        183 - A Igreja docente e a Igreja discente são, pois, duas Igrejas
-        distintas?
-      </Text>
+      <H5 text="183 - A Igreja docente e a Igreja discente são, pois, duas Igrejas distintas?" />
       <Text className="text-base">
         A Igreja docente e a Igreja discente são duas partes distintas de uma só
         e mesma Igreja, como no corpo humano a cabeça é distinta dos outros
         membros, e, não obstante, forma com eles um corpo só.
       </Text>
 
-      <Text className="h5">
-        184 - De que pessoas se compõe a Igreja docente?
-      </Text>
+      <H5 text="184 - De que pessoas se compõe a Igreja docente?" />
       <Text className="text-base">
         A Igreja docente compõe-se de todos os Bispos (quer se encontrem
         dispersos, quer se encontrem reunidos em Concílio), unidos à sua cabeça,
         o Romano Pontífice.
       </Text>
 
-      <Text className="h5">
-        185 - E a Igreja discente, de que pessoas é composta?
-      </Text>
+      <H5 text="185 - E a Igreja discente, de que pessoas é composta?" />
       <Text className="text-base">
         Á Igreja discente é composta de todos os fiéis.
       </Text>
-      <Text className="h5">
-        186 - Quais são as pessoas que têm na Igreja autoridade de ensinar?
-      </Text>
+      <H5 text="186 - Quais são as pessoas que têm na Igreja autoridade de ensinar?" />
       <Text className="text-base">
         Os que têm na Igreja o poder de ensinar são o Papa e os Bispos e, sob a
         dependência destes, os outros ministros sagrados.
       </Text>
 
-      <Text className="h5">
-        187 - Somos obrigados a ouvir a Igreja docente?
-      </Text>
+      <H5 text="187 - Somos obrigados a ouvir a Igreja docente?" />
       <Text className="text-base">
         Sim, sem dúvida, somos todos obrigados a ouvir a Igreja docente, sob
         pena de condenação eterna, porque Jesus Cristo disse aos Pastores da
@@ -2032,33 +1722,26 @@ export default function PageCatecismo() {
         despreza, a Mim despreza.
       </Text>
 
-      <Text className="h5">
-        188 - Além da autoridade de ensinar, tem a Igreja mais algum poder?
-      </Text>
+      <H5 text="188 - Além da autoridade de ensinar, tem a Igreja mais algum poder?" />
       <Text className="text-base">
         Sim, além da autoridade de ensinar, a Igreja tem especialmente o poder
         de administrar as coisas santas, de fazer leis e de exigir a sua
         observância.
       </Text>
 
-      <Text className="h5">
-        189 - Virá do povo o poder que têm os membros da hierarquia
-        eclesiástica?
-      </Text>
+      <H5 text="189 - Virá do povo o poder que têm os membros da hierarquia eclesiástica?" />
       <Text className="text-base">
         O poder que têm os membros da hierarquia eclesiástica não vem do Povo, e
         seria heresia o dizê-lo: vem unicamente de Deus.
       </Text>
 
-      <Text className="h5">
-        190 - A quem compete o exercício destes poderes?
-      </Text>
+      <H5 text="190 - A quem compete o exercício destes poderes?" />
       <Text className="text-base">
         O exercício destes poderes compete unicamente ao corpo hierárquico, isto
         é, ao Papa e aos Bispos a ele subordinados.
       </Text>
 
-      <Text className="h4">4º - Do Papa e dos Bispos</Text>
+      <H4 text="4º - Do Papa e dos Bispos" />
       <Text className="text-base">
         Chegando à região de Cesareia de Filipe, Jesus perguntou a seus
         discípulos: Quem as pessoas dizem que é o Filho do homem? Eles
@@ -2075,16 +1758,14 @@ export default function PageCatecismo() {
         era o Cristo. Mt 16, 13-20.
       </Text>
 
-      <Text className="h5">191 - Quem é o Papa?</Text>
+      <H5 text="191 - Quem é o Papa?" />
       <Text className="text-base">
         O Papa, a quem chamamos também Sumo Pontífice ou Romano Pontífice, é o
         sucessor de São Pedro na Sede de Roma, o Vigário de Jesus Cristo na
         terra, e o chefe visível da Igreja.
       </Text>
 
-      <Text className="h5">
-        192 - Por que o Romano Pontífice é o sucessor de São Pedro?
-      </Text>
+      <H5 text="192 - Por que o Romano Pontífice é o sucessor de São Pedro?" />
       <Text className="text-base">
         O Romano Pontífice é o sucessor de São Pedro. porque São Pedro reuniu na
         sua pessoa a dignidade de Bispo de Roma e de chefe da Igreja e porque,
@@ -2093,45 +1774,39 @@ export default function PageCatecismo() {
         autoridade.
       </Text>
 
-      <Text className="h5">
-        193 - Por que o Romano Pontífice é o Vigário de Jesus Cristo?
-      </Text>
+      <H5 text="193 - Por que o Romano Pontífice é o Vigário de Jesus Cristo?" />
       <Text className="text-base">
         O Romano Pontífice é o Vigário de Jesus Cristo porque ele O representa
         na terra, e faz as suas vezes no governo da Igreja.
       </Text>
 
-      <Text className="h5">
-        194 - Por que o Romano Pontífice é o Chefe visível da Igreja?
-      </Text>
+      <H5 text="194 - Por que o Romano Pontífice é o Chefe visível da Igreja?" />
       <Text className="text-base">
         O Romano Pontífice é o Chefe visível da Igreja porque a dirige
         visivelmente com a mesma autoridade de Jesus Cristo, que é a cabeça
         invisível da Igreja.
       </Text>
 
-      <Text className="h5">195 - Qual é, pois, a dignidade do Papa?</Text>
+      <H5 text="195 - Qual é, pois, a dignidade do Papa?" />
       <Text className="text-base">
         A dignidade do Papa é a maior entre todas as dignidades da terra e
         dá-lhe um poder supremo e imediato sobre todos e cada um dos Pastores e
         dos fiéis.
       </Text>
 
-      <Text className="h5">196 - Pode errar o Papa ao ensinar à Igreja?</Text>
+      <H5 text="196 - Pode errar o Papa ao ensinar à Igreja?" />
       <Text className="text-base">
         O Papa não pode errar, quer dizer, é infalível nas definições que dizem
         respeito à fé e aos costumes.
       </Text>
 
-      <Text className="h5">
-        197 - Qual é o motivo por que o Papa é infalível?
-      </Text>
+      <H5 text="197 - Qual é o motivo por que o Papa é infalível?" />
       <Text className="text-base">
         O Papa é infalível em razão da promessa de Jesus Cristo e da contínua
         assistência do Espírito Santo.
       </Text>
 
-      <Text className="h5">198 - Quando o Papa é infalível?</Text>
+      <H5 text="198 - Quando o Papa é infalível?" />
       <Text className="text-base">
         O Papa é infalível só quando, na sua qualidade de Pastor e Mestre de
         todos os cristãos, em virtude da sua suprema autoridade apostólica,
@@ -2139,37 +1814,27 @@ export default function PageCatecismo() {
         por toda a Igreja.
       </Text>
 
-      <Text className="h5">
-        199 - Quem não acreditasse nas definições solenes do Papa, que pecado
-        cometeria?
-      </Text>
+      <H5 text="199 - Quem não acreditasse nas definições solenes do Papa, que pecado cometeria?" />
       <Text className="text-base">
         Quem não acreditasse nas definições solenes do Papa, ou ainda só
         duvidasse delas, pecaria contra a fé; e, se se obstinasse nesta
         incredulidade, já não seria mais católico, mas herege.
       </Text>
 
-      <Text className="h5">
-        200 - Para que fim Deus concedeu ao Papa o dom da infalibilidade?
-      </Text>
+      <H5 text="200 - Para que fim Deus concedeu ao Papa o dom da infalibilidade?" />
       <Text className="text-base">
         Deus concedeu ao Papa o dom da infalibilidade, a fim de que todos
         estejam certos e seguros da verdade que ti Igreja ensina.
       </Text>
 
-      <Text className="h5">
-        201 - Quando foi definido que o Papa é infalível?
-      </Text>
+      <H5 text="201 - Quando foi definido que o Papa é infalível?" />
       <Text className="text-base">
         A infalibilidade do Papa foi definida pela Igreja rio Concílio do
         Vaticano; e, se alguém ousasse contradizer esta definição, seria herege
         e excomungado
       </Text>
 
-      <Text className="h5">
-        202 - A Igreja, ao definir que o Papa é infalível, estabeleceu
-        porventura uma nova verdade de fé?
-      </Text>
+      <H5 text="202 - A Igreja, ao definir que o Papa é infalível, estabeleceu porventura uma nova verdade de fé?" />
       <Text className="text-base">
         Não. A Igreja, ao definir que o Papa é infalível, não estabeleceu uma
         nova verdade de fé, mas só definiu, para se opor a erros novos, que a
@@ -2178,97 +1843,80 @@ export default function PageCatecismo() {
         dogma ou artigo de fé.
       </Text>
 
-      <Text className="h5">
-        203 - Como todo o católico deve proceder para com o Papa?
-      </Text>
+      <H5 text="203 - Como todo o católico deve proceder para com o Papa?" />
       <Text className="text-base">
         Todo o católico deve reconhecer o Papa como Pai, Pastor e Mestre
         universal, e estar unido a ele de espírito e coração.
       </Text>
 
-      <Text className="h5">
-        204 - Depois do Papa quais são, por instituição divina, as personagens
-        mais venerandas na Igreja?
-      </Text>
+      <H5 text="204 - Depois do Papa quais são, por instituição divina, as personagens mais venerandas na Igreja?" />
       <Text className="text-base">
         Depois do Papa, por instituição divina, as personagens mais venerandas
         da Igreja são os Bispos.
       </Text>
 
-      <Text className="h5">205 - Quem são os Bispos?</Text>
+      <H5 text="205 - Quem são os Bispos?" />
       <Text className="text-base">
         Os Bispos são os Pastores aos fiéis, estabelecidos pelo Espírito Santo
         para governar ti Igreja de Deus, nas sedesque lhes são confiadas sob i]
         dependência do Romano Pontífice.
       </Text>
 
-      <Text className="h5">206 - Que é o Bispo na própria diocese?</Text>
+      <H5 text="206 - Que é o Bispo na própria diocese?" />
       <Text className="text-base">
         O Bispo na própria diocese é o Pastor legítimo, o Pai, o Mestre, o
         superior de todos os fiéis, eclesiásticos e leigos, que pertencem à
         mesma diocese.
       </Text>
 
-      <Text className="h5">
-        207 - Por que o Bispo se chama Pastor legítimo?
-      </Text>
+      <H5 text="207 - Por que o Bispo se chama Pastor legítimo?" />
       <Text className="text-base">
         Chama-se o Bispo Pastor legítimo, porque a jurisdição, isto é, o poder
         que tem de governar os fiéis da própria diocese, foi-lhe conferido
         segundo as normas e leis da Igreja.
       </Text>
 
-      <Text className="h5">
-        208 - De quem são sucessores o Papa e os Bispos?
-      </Text>
+      <H5 text="208 - De quem são sucessores o Papa e os Bispos?" />
       <Text className="text-base">
         O Papa é sucessor de São Pedro, Príncipe dos Apóstolos, e os Bispos são
         sucessores dos Apóstolos, no que diz respeito ao governo ordinário da
         Igreja.
       </Text>
 
-      <Text className="h5">
-        209 - Deve o fiei estar unido ao próprio Bispo?
-      </Text>
+      <H5 text="209 - Deve o fiei estar unido ao próprio Bispo?" />
       <Text className="text-base">
         Sim, todo o fiel, eclesiástico ou leigo, deve estar unido de espírito e
         de coração ao próprio Bispo que está em graça e comunhão com a Se
         Apostólica.
       </Text>
 
-      <Text className="h5">
-        210 - Como deve proceder o fiei para com o próprio Bispo?
-      </Text>
+      <H5 text="210 - Como deve proceder o fiei para com o próprio Bispo?" />
       <Text className="text-base">
         Todo o fiel, eclesiástico ou leigo, deve respeitar, amar e honrar o
         próprio Bispo, e prestar-lhe obediência em tudo o que se refere ao bem
         das almas e ao governo espiritual da diocese.
       </Text>
 
-      <Text className="h5">
-        211 - Quais são os auxiliares do Bispo na cura das almas?
-      </Text>
+      <H5 text="211 - Quais são os auxiliares do Bispo na cura das almas?" />
       <Text className="text-base">
         Os auxiliares do Bispo na cura das almas são os Sacerdotes, e
         principalmente os párocos.
       </Text>
 
-      <Text className="h5">212 - Quem é o pároco?</Text>
+      <H5 text="212 - Quem é o pároco?" />
       <Text className="text-base">
         O pároco é uni Sacerdote delegado para presidir e dirigir, sob a
         dependência do Bispo, uma porção da diocese, que se chama paróquia.
       </Text>
 
-      <Text className="h5">
-        213 - Que deveres têm os fiéis para com o seu pároco?
-      </Text>
+      <H5 text="213 - Que deveres têm os fiéis para com o seu pároco?" />
       <Text className="text-base">
         Os fiéis devem conservar-se unidos ao seu pároco, ouvi-lo com
         docilidade, professar-lhe respeito e submissão em tudo o que interessa
         ao bem da paróquia.
       </Text>
 
-      <Text className="h4">5º - Da comunhão dos Santos</Text>
+      <H4 text="5º - Da comunhão dos Santos" />
       <Text className="text-base">
         O que era desde o princípio, o que ouvimos, o que vimos com os olhos, o
         que contemplamos e nossas mãos apalparam no tocante ao Verbo da vida a
@@ -2289,10 +1937,7 @@ export default function PageCatecismo() {
         João 1, 1-10
       </Text>
 
-      <Text className="h5">
-        214 - Que nos ensina o nono artigo do Credo com aquelas palavras: na
-        comunhão dos Santos?
-      </Text>
+      <H5 text="214 - Que nos ensina o nono artigo do Credo com aquelas palavras: na comunhão dos Santos?" />
       <Text className="text-base">
         Com as palavras: na comunhão dos Santos, o nono artigo do Credo
         ensina-nos que na Igreja, pela íntima união que existe entre todos os
@@ -2300,9 +1945,7 @@ export default function PageCatecismo() {
         externos, que lhe pertencem.
       </Text>
 
-      <Text className="h5">
-        215 - Quais são na Igreja os bens comuns internos?
-      </Text>
+      <H5 text="215 - Quais são na Igreja os bens comuns internos?" />
       <Text className="text-base">
         Os bens comuns internos na Igreja são: a graça que se recebe nos
         Sacramentos, a Fé, a Esperança, a Caridade, os merecimentos infinitos de
@@ -2310,28 +1953,21 @@ export default function PageCatecismo() {
         Santos, e o fruto de todas as boas obras que na mesma Igreja se fazem.
       </Text>
 
-      <Text className="h5">
-        216 - Quais são os bens externos comuns na Igreja?
-      </Text>
+      <H5 text="216 - Quais são os bens externos comuns na Igreja?" />
       <Text className="text-base">
         Os bens externos comuns na Igreja são: os sacramentos, o Santo
         Sacrifício da Missa, as orações públicas, as funções religiosas, e todas
         as outras práticas exteriores que unem entre si os fiéis.
       </Text>
 
-      <Text className="h5">
-        217 - Nesta comunhão de bens entram todos os filhos da Igreja?
-      </Text>
+      <H5 text="217 - Nesta comunhão de bens entram todos os filhos da Igreja?" />
       <Text className="text-base">
         Na comunhão dos bens internos entram somente os cristãos que estão em
         graça de Deus; os que estão em pecado mortal não participam de todos
         estes bens.
       </Text>
 
-      <Text className="h5">
-        218 - Por que não participam de todos estes bens aqueles que estão em
-        pecado mortal?
-      </Text>
+      <H5 text="218 - Por que não participam de todos estes bens aqueles que estão em pecado mortal?" />
       <Text className="text-base">
         Porque é a graça de Deus. vida sobrenatural da alma, que une os fiéis a
         Deus e a Jesus Cristo como seus membros vivos e os torna capazes de
@@ -2341,10 +1977,7 @@ export default function PageCatecismo() {
         obras meritórias rias para a vida eterna.
       </Text>
 
-      <Text className="h5">
-        219 - Então os cristãos que estão em pecado mortal não tiram proveito
-        nenhum dos bens internos e espirituais da Igreja?
-      </Text>
+      <H5 text="219 - Então os cristãos que estão em pecado mortal não tiram proveito nenhum dos bens internos e espirituais da Igreja?" />
       <Text className="text-base">
         Os cristãos que estão em pecado mortal tiram ainda assim algum proveito
         dos bens internos e espirituais da Igreja, porquanto conservam o caráter
@@ -2353,29 +1986,21 @@ export default function PageCatecismo() {
         fiéis, para obterem a graça da conversão.
       </Text>
 
-      <Text className="h5">
-        220 - Os que estão em pecado mortal podem participar dos bens externos
-        da Igreja?
-      </Text>
+      <H5 text="220 - Os que estão em pecado mortal podem participar dos bens externos da Igreja?" />
       <Text className="text-base">
         Os que estão em pecado mortal podem participar dos bens externos da
         Igreja, contanto que não estejam separados da mesma Igreja pela
         excomunhão.
       </Text>
 
-      <Text className="h5">
-        221 - Por que os membros desta comunhão, considerados no seu conjunto,
-        se chamam Santos?
-      </Text>
+      <H5 text="221 - Por que os membros desta comunhão, considerados no seu conjunto, se chamam Santos?" />
       <Text className="text-base">
         Os membros desta comunhão chamam-se Santos, porque todos são chamados à
         santidade, e foram santificados por meio do Batismo, e muitos deles já
         atingiram a santidade perfeita.
       </Text>
 
-      <Text className="h5">
-        222 - A comunhão dos Santos estende-se também ao Céu e ao Purgatório?
-      </Text>
+      <H5 text="222 - A comunhão dos Santos estende-se também ao Céu e ao Purgatório?" />
       <Text className="text-base">
         Sim, a comunhão dos Santos estende-se também ao Céu e ao Purgatório,
         porque a caridade une as três igrejas: triunfante, padecente e
@@ -2385,10 +2010,8 @@ export default function PageCatecismo() {
         e outras boas obras.
       </Text>
 
-      <Text className="h4">6º - Daqueles que estão fora da Igreja</Text>
-      <Text className="h5">
-        223 - Quem são os que não participam da comunhão dos Santos?
-      </Text>
+      <H4 text="6º - Daqueles que estão fora da Igreja" />
+      <H5 text="223 - Quem são os que não participam da comunhão dos Santos?" />
       <Text className="text-base">
         Aqueles que não participam da comunhão dos Santos são, na outra vida, os
         condenados, e nesta vida aqueles que não pertencem nem à alma nem ao
@@ -2396,15 +2019,13 @@ export default function PageCatecismo() {
         mortal e se encontram fora da verdadeira Igreja.
       </Text>
 
-      <Text className="h5">
-        224 - Quem são os que se encontram fora da verdadeira Igreja?
-      </Text>
+      <H5 text="224 - Quem são os que se encontram fora da verdadeira Igreja?" />
       <Text className="text-base">
         Encontram-se fora da verdadeira Igreja os infiéis, os judeus, os
         hereges, os apóstatas, os cismáticos e os excomungados.
       </Text>
 
-      <Text className="h5">225 - Quem são os infiéis?</Text>
+      <H5 text="225 - Quem são os infiéis?" />
       <Text className="text-base">
         Os infiéis são aqueles que não foram baptizados e não crêem em Jesus
         Cristo, seja porque crêem e adoram falsas divindades, como os idólatras;
@@ -2413,13 +2034,13 @@ export default function PageCatecismo() {
         vir ainda: tais são os maometanos e outros semelhantes.
       </Text>
 
-      <Text className="h5">226 - Quem são os judeus?</Text>
+      <H5 text="226 - Quem são os judeus?" />
       <Text className="text-base">
         Os judeus são aqueles que professam a lei de Moisés, não receberam o
         baptismo, nem crêem em Jesus Cristo.
       </Text>
 
-      <Text className="h5">227 - Quem são os hereges?</Text>
+      <H5 text="227 - Quem são os hereges?" />
       <Text className="text-base">
         Os hereges são as pessoas baptizadas que recusam com pertinácia crer em
         alguma verdade revelada por Deus e ensinada conto de fé pela Igreja
@@ -2427,44 +2048,40 @@ export default function PageCatecismo() {
         protestantes.
       </Text>
 
-      <Text className="h5">228 - Quem são os apóstatas?</Text>
+      <H5 text="228 - Quem são os apóstatas?" />
       <Text className="text-base">
         Os apóstatas são aqueles que abjuram, isto é, renegam, com ato externo,
         a fé católica, que antes professavam.
       </Text>
 
-      <Text className="h5">229 - Quem são os cismáticos?</Text>
+      <H5 text="229 - Quem são os cismáticos?" />
       <Text className="text-base">
         Os cismáticos são os cristãos que, não negando explicitamente dogma
         algum, se separam voluntariamente da Igreja de Jesus Cristo, ou dos
         legítimos Pastores.
       </Text>
 
-      <Text className="h5">230 - Quem são os excomungados?</Text>
+      <H5 text="230 - Quem são os excomungados?" />
       <Text className="text-base">
         Os excomungados são aqueles que por faltas graves são fulminados com
         excomunhão pelo Papa ou pelo Bispo, e portanto são separados, como
         indignos, do corpo da Igreja, a qual espera e deseja a sua conversão.
       </Text>
 
-      <Text className="h5">231 - Deve-se temer a excomunhão?</Text>
+      <H5 text="231 - Deve-se temer a excomunhão?" />
       <Text className="text-base">
         Deve-se temer grandemente a excomunhão, porque é o castigo mais grave e
         mais terrível que a Igreja pode infligir aos seus filhos rebeldes e
         obstinados.
       </Text>
 
-      <Text className="h5">
-        232 - De que bens ficam privados os excomungados?
-      </Text>
+      <H5 text="232 - De que bens ficam privados os excomungados?" />
       <Text className="text-base">
         Os excomungados ficam privados das orações publicas, dos Sacramentos,
         das indulgências e excluídos da sepultura eclesiástica.
       </Text>
 
-      <Text className="h5">
-        233 - Podemos nós auxiliar de alguma maneira os excomungados?
-      </Text>
+      <H5 text="233 - Podemos nós auxiliar de alguma maneira os excomungados?" />
       <Text className="text-base">
         Nós podemos auxiliar de alguma maneira os excomungados e todos os outros
         que estão fora da verdadeira Igreja com advertências salutares, com
@@ -2497,33 +2114,26 @@ export default function PageCatecismo() {
         dizendo: Nunca vimos coisa igual! Mar 2, 1-12
       </Text>
 
-      <Text className="h5">
-        234 - Que nos ensina o décimo artigo do Credo: na remissão dos pecados?
-      </Text>
+      <H5 text="234 - Que nos ensina o décimo artigo do Credo: na remissão dos pecados?" />
       <Text className="text-base">
         O décimo artigo do Credo ensina-nos que Jesus Cristo deixou à sua Igreja
         o poder de perdoar os pecados.
       </Text>
 
-      <Text className="h5">
-        235 - Pode a Igreja perdoar toda a espécie de pecados?
-      </Text>
+      <H5 text="235 - Pode a Igreja perdoar toda a espécie de pecados?" />
       <Text className="text-base">
         Sim, a Igreja pode perdoar todos os pecados, por numerosos e graves que
         sejam, porque Jesus Cristo Lhe concedeu pleno poder de ligar e desligar.
       </Text>
 
-      <Text className="h5">
-        236 - Quem são os que na Igreja exercem este poder de perdoar os
-        pecados?
-      </Text>
+      <H5 text="236 - Quem são os que na Igreja exercem este poder de perdoar os pecados?" />
       <Text className="text-base">
         Os que na Igreja exercem o poder de perdoar os pecados são, em primeiro
         lugar, o Papa que é o único que possui a plenitude de tal poder; depois
         os Bispos e, sob a dependência dos Bispos, os Sacerdotes.
       </Text>
 
-      <Text className="h5">237 - Como perdoa a Igreja os pecados?</Text>
+      <H5 text="237 - Como perdoa a Igreja os pecados?" />
       <Text className="text-base">
         A Igreja perdoa os pecados pelos merecimentos de Jesus Cristo,
         administrando os Sacramentos por Ele instituídos para esse fim,
@@ -2560,48 +2170,39 @@ export default function PageCatecismo() {
         dirijam à Galileia e lá me verão. Mt 27, 62-65; 28, 1-10.
       </Text>
 
-      <Text className="h5">
-        238 - Que nos ensina o undécimo artigo do Credo: na ressurreição da
-        carne?
-      </Text>
+      <H5 text="238 - Que nos ensina o undécimo artigo do Credo: na ressurreição da carne?" />
       <Text className="text-base">
         O undécimo artigo do Credo ensina-nos que todos os homens hão de
         ressuscitar, retomando cada alma o corpo que teve nesta vida.
       </Text>
 
-      <Text className="h5">239 - Como se fará a ressurreição dos mortos?</Text>
+      <H5 text="239 - Como se fará a ressurreição dos mortos?" />
       <Text className="text-base">
         A ressurreição dos mortos realizar-se-á por virtude de Deus Onipotente,
         a Quem nada é impossível.
       </Text>
 
-      <Text className="h5">240 - Quando será a ressurreição dos mortos?</Text>
+      <H5 text="240 - Quando será a ressurreição dos mortos?" />
       <Text className="text-base">
         A ressurreição de todos os mortos será no fim do mundo, e depois
         seguir-se-á o Juízo universal.
       </Text>
 
-      <Text className="h5">
-        241 - Por que quer Deus a ressurreição dos corpos?
-      </Text>
+      <H5 text="241 - Por que quer Deus a ressurreição dos corpos?" />
       <Text className="text-base">
         Deus quer a ressurreição dos corpos para que a nossa alma, tendo feito o
         bem ou o final unida ao corpo, receba juntamente com ele o prêmio ou o
         castigo.
       </Text>
 
-      <Text className="h5">
-        242 - Ressuscitarão os homens, todos da mesma maneira?
-      </Text>
+      <H5 text="242 - Ressuscitarão os homens, todos da mesma maneira?" />
       <Text className="text-base">
         Não. Haverá enorme diferença entre os corpos dos eleitos e os corpos dos
         condenados; porque somente os corpos dos eleitos terão, à semelhança de
         Jesus Cristo ressuscitado, os dotes dos corpos gloriosos.
       </Text>
 
-      <Text className="h5">
-        243 - Quais são estes dotes que adornarão os corpos dos bem-aventurados?
-      </Text>
+      <H5 text="243 - Quais são estes dotes que adornarão os corpos dos bem-aventurados?" />
       <Text className="text-base">
         Os dotes que adornarão os corpos gloriosos dos bem-aventurados são:
       </Text>
@@ -2625,7 +2226,7 @@ export default function PageCatecismo() {
           de qualquer corpo, como fez Jesus Cristo ressuscitado.
         </Text>
       </View>
-      <Text className="h5">244 - Como serão os corpos dos condenados?</Text>
+      <H5 text="244 - Como serão os corpos dos condenados?" />
       <Text className="text-base">
         Os corpos dos condenados serão destituídos dos dotes dos corpos
         gloriosos dos bem-aventurados, e trarão o horrível estigma da reprovação
@@ -2693,44 +2294,33 @@ export default function PageCatecismo() {
         Jesus ordenou: Desatai-o e deixai-o andar. João 11, 1-44
       </Text>
 
-      <Text className="h5">
-        245 - Que nos ensina o último artigo do Credo: na vida eterna?
-      </Text>
+      <H5 text="245 - Que nos ensina o último artigo do Credo: na vida eterna?" />
       <Text className="text-base">
         O último artigo do Credo ensina-nos que depois da vida presente há
         outra, ou eternamente feliz para os eleitos no Paraíso, ou eternamente
         desgraçada para os condenados no Inferno.
       </Text>
 
-      <Text className="h5">
-        246 - Podemos compreender a felicidade do Paraíso?
-      </Text>
+      <H5 text="246 - Podemos compreender a felicidade do Paraíso?" />
       <Text className="text-base">
         Não. Não podemos compreender a felicidade do Paraíso, porque excede os
         conhecimentos da nossa inteligência limitada, e porque os bens ao Céu
         não podem comparar-se aos bens deste mundo.
       </Text>
 
-      <Text className="h5">
-        247 - Em que consiste a felicidade dos eleitos?
-      </Text>
+      <H5 text="247 - Em que consiste a felicidade dos eleitos?" />
       <Text className="text-base">
         A felicidade dos eleitos consiste em ver, amar e possuir para sempre a
         Deus, fonte de todo o bem.
       </Text>
 
-      <Text className="h5">
-        248 - Em que consiste a desgraça dos condenados?
-      </Text>
+      <H5 text="248 - Em que consiste a desgraça dos condenados?" />
       <Text className="text-base">
         A desgraça dos condenados consiste em serem para sempre privados da
         vista de Deus, e punidos com tormentos eternos no Inferno.
       </Text>
 
-      <Text className="h5">
-        249 - Por agora são só para as almas os bens do Paraíso e os males do
-        Inferno?
-      </Text>
+      <H5 text="249 - Por agora são só para as almas os bens do Paraíso e os males do Inferno?" />
       <Text className="text-base">
         Os bens do Paraíso e os males do Inferno, por agora, são só para as
         almas porque por enquanto só as almas estão no Paraíso, ou no Inferno;
@@ -2739,10 +2329,7 @@ export default function PageCatecismo() {
         sempre.
       </Text>
 
-      <Text className="h5">
-        250 - Serão iguais Para os eleitos os bens do Paraíso, e para os
-        condenados os males do Inferno?
-      </Text>
+      <H5 text="250 - Serão iguais Para os eleitos os bens do Paraíso, e para os condenados os males do Inferno?" />
       <Text className="text-base">
         Os bens do Paraíso para os eleitos, e os males do Inferno para os
         condenados, serão iguais na substância e na duração eterna; mas na
@@ -2750,9 +2337,7 @@ export default function PageCatecismo() {
         deméritos de cada um.
       </Text>
 
-      <Text className="h5">
-        251 - Que quer dizer a palavra Amén no fim do Credo?
-      </Text>
+      <H5 text="251 - Que quer dizer a palavra Amén no fim do Credo?" />
       <Text className="text-base">
         A palavra Amén no fim das orações significa: assim seja; no fim do Credo
         significa: assim é, que quer dizer: creio que é absolutamente verdadeiro
@@ -2760,7 +2345,7 @@ export default function PageCatecismo() {
         que se o visse com os meus olhos.
       </Text>
 
-      <Text className="h1">Segunda Parte</Text>
+      <H1 text="Segunda Parte" />
       <Text className="aside">Da Oração</Text>
       <Text className="h2">
         I - <Text className="em">Da oração em geral</Text>
@@ -2787,41 +2372,37 @@ export default function PageCatecismo() {
         serão ouvidos por causa das muitas palavras. Não os imiteis, pois o Pai
         já sabe de vossas necessidades antes mesmo de pedirdes. Mt 6, 2-9
       </Text>
-      <Text className="h5">
-        252 - De que trata a segunda parte da Doutrina Cristã?
-      </Text>
+      <H5 text="252 - De que trata a segunda parte da Doutrina Cristã?" />
       <Text className="text-base">
         A segunda parte da Doutrina Cristã trata da oração em geral, e do
         Padre-Nosso em particular.
       </Text>
 
-      <Text className="h5">253 - Que é a oração?</Text>
+      <H5 text="253 - Que é a oração?" />
       <Text className="text-base">
         A oração é uma elevação da alma a Deus, para adorá-Lo, para Lhe dar
         graças e para Lhe pedir aquilo de que precisamos.
       </Text>
 
-      <Text className="h5">254 - Como se divide a oração?</Text>
+      <H5 text="254 - Como se divide a oração?" />
       <Text className="text-base">
         A oração divide-se em mental e vocal. Oração mental é a que se faz só
         com a alma; oração vocal a que se faz com as palavras acompanhadas da
         atenção do espírito e da devoção do coração.
       </Text>
 
-      <Text className="h5">
-        255 - Pode dividir-se de outra maneira a oração?
-      </Text>
+      <H5 text="255 - Pode dividir-se de outra maneira a oração?" />
       <Text className="text-base">
         A oração pode também dividir-se em particular e pública.
       </Text>
 
-      <Text className="h5">256 - Que é a oração particular?</Text>
+      <H5 text="256 - Que é a oração particular?" />
       <Text className="text-base">
         A oração particular é a que faz cada um em particular, por si ou pelos
         outros.
       </Text>
 
-      <Text className="h5">257 - Que é a oração pública?</Text>
+      <H5 text="257 - Que é a oração pública?" />
       <Text className="text-base">
         A oração pública é a que fazem os ministros sagrados, em nome da Igreja,
         e pela salvação do povo fiel. Pode-se chamar pública também a oração
@@ -2829,20 +2410,14 @@ export default function PageCatecismo() {
         peregrinações e na Igreja.
       </Text>
 
-      <Text className="h5">
-        258 - Temos nós esperança fundamentada de obter por meio da oração os
-        auxílios e graças de que necessitamos?
-      </Text>
+      <H5 text="258 - Temos nós esperança fundamentada de obter por meio da oração os auxílios e graças de que necessitamos?" />
       <Text className="text-base">
         A esperança de obter de Deus as graças de que necessitamos, é
         fundamentada nas promessas de Deus onipotente, muito misericordioso e
         fidelíssimo, e nos merecimentos de Jesus Cristo.
       </Text>
 
-      <Text className="h5">
-        259 - Em nome de quem devemos pedir a Deus as graças de que
-        necessitamos?
-      </Text>
+      <H5 text="259 - Em nome de quem devemos pedir a Deus as graças de que necessitamos?" />
       <Text className="text-base">
         Devemos pedir a Deus as graças de que necessitamos, em nome de Jesus
         Cristo, como Ele mesmo nos ensinou e como pratica a Igreja, a qual
@@ -2850,46 +2425,34 @@ export default function PageCatecismo() {
         <Text className="font-italic">per Dominum nostrum Jesum Christum</Text>,
         que quer dizer: por Nosso Senhor Jesus Cristo.
       </Text>
-      <Text className="h5">
-        260 - Por que devemos pedir a Deus as graças em nome de Jesus Cristo?
-      </Text>
+      <H5 text="260 - Por que devemos pedir a Deus as graças em nome de Jesus Cristo?" />
       <Text className="text-base">
         Devemos pedir as graças em nome de Jesus Cristo, porque, sendo Ele o
         nosso mediador, só por meio d'Ele podemos aproximar-nos do trono de
         Deus.
       </Text>
 
-      <Text className="h5">
-        261 - Se a oração tem tanta eficácia, como é que tantas vezes não são
-        atendidas as nossas orações?
-      </Text>
+      <H5 text="261 - Se a oração tem tanta eficácia, como é que tantas vezes não são atendidas as nossas orações?" />
       <Text className="text-base">
         Muitas vezes as nossas orações não são atendidas, ou porque pedimos
         coisas que não convêm à nossa eterna salvação, ou porque não pedimos
         como deveríamos.
       </Text>
 
-      <Text className="h5">
-        262 - Quais são as coisas que principalmente devemos pedir a Deus?
-      </Text>
+      <H5 text="262 - Quais são as coisas que principalmente devemos pedir a Deus?" />
       <Text className="text-base">
         Devemos principalmente pedir a Deus a sua glória, a nossa salvação e os
         meios para consegui-la.
       </Text>
 
-      <Text className="h5">
-        263 - Não é também lícito pedir bens temporais?
-      </Text>
+      <H5 text="263 - Não é também lícito pedir bens temporais?" />
       <Text className="text-base">
         Sim, é também lícito pedir a Deus os bens temporais, sempre com a
         condição de que sejam conformes à sua santíssima vontade, e não sejam
         obstáculo à nossa eterna salvação.
       </Text>
 
-      <Text className="h5">
-        264 - Se Deus sabe tudo aquilo de que necessitamos, por que devemos
-        rezar?
-      </Text>
+      <H5 text="264 - Se Deus sabe tudo aquilo de que necessitamos, por que devemos rezar?" />
       <Text className="text-base">
         Embora Deus saiba tudo aquilo de que necessitamos, quer todavia que nós
         Lho peçamos, para reconhecermos que é Ele que dá todos os bens, para Lhe
@@ -2897,34 +2460,27 @@ export default function PageCatecismo() {
         favores.
       </Text>
 
-      <Text className="h5">
-        265 - Qual é a primeira e a melhor disposição para tornar eficazes as
-        nossas orações?
-      </Text>
+      <H5 text="265 - Qual é a primeira e a melhor disposição para tornar eficazes as nossas orações?" />
       <Text className="text-base">
         A primeira e a melhor disposição, para tornar eficazes as nossas
         orações, é estar em estado de graça, ou, não o estando, ao menos desejar
         recuperar esse estado.
       </Text>
 
-      <Text className="h5">
-        266 - Que mais disposições se requerem para bem orar?
-      </Text>
+      <H5 text="266 - Que mais disposições se requerem para bem orar?" />
       <Text className="text-base">
         Para bem orar requerem-se especialmente o recolhimento, a humildade, a
         confiança, a perseverança e a resignação.
       </Text>
 
-      <Text className="h5">267 - Que quer dizer orar com recolhimento?</Text>
+      <H5 text="267 - Que quer dizer orar com recolhimento?" />
       <Text className="text-base">
         Quer dizer: pensar que estamos a falar com Deus; e por isso devemos orar
         com todo o respeito e a devoção possíveis, evitando, quanto for
         possível, as distrações, isto é, todo o pensamento estranho à oração.
       </Text>
 
-      <Text className="h5">
-        268 - Diminuem as distrações o merecimento da oração?
-      </Text>
+      <H5 text="268 - Diminuem as distrações o merecimento da oração?" />
       <Text className="text-base">
         Sim, quando nós mesmos as provocamos, ou não as repelimos com
         diligência. Se porém fizermos quanto podemos para estarmos recolhidos em
@@ -2932,50 +2488,46 @@ export default function PageCatecismo() {
         mas até o podem aumentar.
       </Text>
 
-      <Text className="h5">
-        269 - Que se requer para fazermos oração com recolhimento?
-      </Text>
+      <H5 text="269 - Que se requer para fazermos oração com recolhimento?" />
       <Text className="text-base">
         Devemos antes da oração afastar todas as ocasiões de distração, e
         durante a oração devemos pensar que estamos na presença de Deus, que nos
         vê e nos ouve.
       </Text>
 
-      <Text className="h5">270 - Que quer dizer orar com humildade?</Text>
+      <H5 text="270 - Que quer dizer orar com humildade?" />
       <Text className="text-base">
         Quer dizer: reconhecer sinceramente a nossa indignidade, incapacidade e
         miséria, acompanhando a oração com a compostura do corpo.
       </Text>
 
-      <Text className="h5">271 - Que quer dizer orar com confiança?</Text>
+      <H5 text="271 - Que quer dizer orar com confiança?" />
       <Text className="text-base">
         Quer dizer que devemos ter firme esperança de sermos atendidos, se daí
         provier a glória de Deus e o nosso verdadeiro bem.
       </Text>
 
-      <Text className="h5">272 - Que quer dizer orar com perseverança?</Text>
+      <H5 text="272 - Que quer dizer orar com perseverança?" />
       <Text className="text-base">
         Quer dizer que não nos devemos cansar de orar, se Deus não nos atender
         imediatamente, senão que devemos continuar a orar ainda com mais fervor.
       </Text>
 
-      <Text className="h5">273 - Que quer dizer orar com resignação?</Text>
+      <H5 text="273 - Que quer dizer orar com resignação?" />
       <Text className="text-base">
         Quer dizer que nos devemos conformar com a vontade de Deus, que conhece
         melhor do que nós quanto nos é necessário para a nossa salvação eterna,
         ainda mesmo no caso em que as nossas orações não fossem atendidas.
       </Text>
 
-      <Text className="h5">
-        274 - Atende Deus sempre as orações bem feitas?
-      </Text>
+      <H5 text="274 - Atende Deus sempre as orações bem feitas?" />
       <Text className="text-base">
         Sim, Deus atende sempre as orações bem feitas; mas da maneira que Ele
         sabe ser mais útil para a nossa salvação eterna, e não sempre segundo a
         nossa vontade.
       </Text>
 
-      <Text className="h5">275 - Que efeitos produz em nós a oração?</Text>
+      <H5 text="275 - Que efeitos produz em nós a oração?" />
       <Text className="text-base">
         A oração faz-nos reconhecer a nossa dependência, em todas as coisas, de
         Deus, supremo Senhor, faz-nos progredir na virtude, alcança-nos de Deus
@@ -2984,14 +2536,14 @@ export default function PageCatecismo() {
         da perseverança final.
       </Text>
 
-      <Text className="h5">276 - Quando devemos especialmente orar?</Text>
+      <H5 text="276 - Quando devemos especialmente orar?" />
       <Text className="text-base">
         Devemos orar especialmente nos perigos, nas tentações e no momento da
         morte; além disso, devemos orar frequentemente, e é bom que o façamos
         pela manhã e à noite, e no princípio das ações importantes do dia.
       </Text>
 
-      <Text className="h5">277 - Por quem devemos orar?</Text>
+      <H5 text="277 - Por quem devemos orar?" />
       <Text className="text-base">
         Devemos orar por todos; isto é, por nós mesmos pelos nossos parentes,
         superiores, benfeitores, amigos e inimigos; pela conversão dos pobres
@@ -3025,16 +2577,14 @@ export default function PageCatecismo() {
         saberá dar o Espírito Santo aos que pedirem! Luc 11, 1-13
       </Text>
 
-      <Text className="h4">1º - Da oração dominical em geral</Text>
-      <Text className="h5">278 - Qual é a oração vocal mais excelente?</Text>
+      <H4 text="1º - Da oração dominical em geral" />
+      <H5 text="278 - Qual é a oração vocal mais excelente?" />
       <Text className="text-base">
         A oração vocal mais excelente é aquela que o próprio. o Jesus Cristo nos
         ensinou, isto é, o Padre-Nosso.
       </Text>
 
-      <Text className="h5">
-        279 - Por que é o Padre-Nosso a oração mais excelente?
-      </Text>
+      <H5 text="279 - Por que é o Padre-Nosso a oração mais excelente?" />
       <Text className="text-base">
         O Padre-Nosso é ti oração mais excelente porque foi o próprio Jesus
         Cristo que a compôs e no-la ensinou,- porque contém claramente, em
@@ -3042,30 +2592,26 @@ export default function PageCatecismo() {
         e o modelo de todas as outras orações.
       </Text>
 
-      <Text className="h5">
-        280 - É também o Padre-Nosso a oração mais eficaz? -
-      </Text>
+      <H5 text="280 - É também o Padre-Nosso a oração mais eficaz? -" />
       <Text className="text-base">
         O Padre-Nosso é também a oração mais eficaz, porque é a mais agradável a
         Deus, porque é feita com as mesmas palavras que nos ditou o seu Divino
         Filho.
       </Text>
 
-      <Text className="h5">
-        281 - Por que se chama o Padre-Nosso oração dominical?
-      </Text>
+      <H5 text="281 - Por que se chama o Padre-Nosso oração dominical?" />
       <Text className="text-base">
         Chama-se o Padre-Nosso oração dominical, que quer dizer oração do
         Senhor, precisamente porque ti ensinou Jesus Cristo por sua própria
         boca.
       </Text>
 
-      <Text className="h5">282 - Quantas petições há no Padre-Nosso?</Text>
+      <H5 text="282 - Quantas petições há no Padre-Nosso?" />
       <Text className="text-base">
         No Padre-Nosso há sete petições precedidas de um preâmbulo.
       </Text>
 
-      <Text className="h5">283 - Rezai o Padre-Nosso.</Text>
+      <H5 text="283 - Rezai o Padre-Nosso." />
       <Text className="text-base">Padre-Nosso, que estais no Céu:</Text>
 
       <View className="list-styled">
@@ -3090,19 +2636,14 @@ export default function PageCatecismo() {
           7ª - Mas livrai-nos do mal. Amén
         </Text>
       </View>
-      <Text className="h5">
-        284 - Por que, invocando a Deus no princípio da oração dominical, O
-        chamamos nosso Pai?
-      </Text>
+      <H5 text="284 - Por que, invocando a Deus no princípio da oração dominical, O chamamos nosso Pai?" />
       <Text className="text-base">
         No princípio da oração dominical chamamos a Deus nosso Pai para
         despertar a nossa confiança na sua infinita bondade, visto sermos seus
         filhos.
       </Text>
 
-      <Text className="h5">
-        285 - Por que podemos nós dizer que somos filhos de Deus?
-      </Text>
+      <H5 text="285 - Por que podemos nós dizer que somos filhos de Deus?" />
       <Text className="text-base">Somos filhos de Deus:</Text>
 
       <View className="list-styled">
@@ -3116,40 +2657,29 @@ export default function PageCatecismo() {
           glória.
         </Text>
       </View>
-      <Text className="h5">
-        286 - Por que chamamos a Deus Pai nosso, e não Pai meu?
-      </Text>
+      <H5 text="286 - Por que chamamos a Deus Pai nosso, e não Pai meu?" />
       <Text className="text-base">
         Chamamos a Deus Pai nosso e não Pai meu, porque todos somos seus filhos,
         e portanto devemos considerar-nos e amar-nos todos como irmãos, e orar
         uns pelos outros.
       </Text>
 
-      <Text className="h5">
-        287 - Estando Deus em toda a parte, por que é que Lhe dizemos: que
-        estais no Céu?
-      </Text>
+      <H5 text="287 - Estando Deus em toda a parte, por que é que Lhe dizemos: que estais no Céu?" />
       <Text className="text-base">
         Deus está em toda a parte; mas dizemos: Padre Nosso que estais no Céu,
         para elevar os nossos corações ao Céu, onde Deus se manifesta na glória
         aos seus filhos.
       </Text>
 
-      <Text className="h4">2º - Da primeira petição do Padre-Nosso</Text>
-      <Text className="h5">
-        288 - Que pedimos a Deus na primeira petição: santificado seja o vosso
-        nome?
-      </Text>
+      <H4 text="2º - Da primeira petição do Padre-Nosso" />
+      <H5 text="288 - Que pedimos a Deus na primeira petição: santificado seja o vosso nome?" />
       <Text className="text-base">
         Na primeira petição: santificado seja o vosso nome, pedimos que Deus
         seja conhecido, amado, honrado e servido por todos os homens, e por nós
         em particular.
       </Text>
 
-      <Text className="h5">
-        289 - Que temos em vista, ao pedir que Deus seja conhecido, amado e
-        servido por todos os homens?
-      </Text>
+      <H5 text="289 - Que temos em vista, ao pedir que Deus seja conhecido, amado e servido por todos os homens?" />
       <Text className="text-base">
         Temos em vista pedir que os infiéis cheguem ao conhecimento do
         verdadeiro Deus, que os hereges reconheçam os seus erros, que os
@@ -3157,26 +2687,21 @@ export default function PageCatecismo() {
         que os justos sejam perseverantes no bem.
       </Text>
 
-      <Text className="h5">
-        290 - Por que em primeiro lugar pedimos que seja santificado o nome de
-        Deus?
-      </Text>
+      <H5 text="290 - Por que em primeiro lugar pedimos que seja santificado o nome de Deus?" />
       <Text className="text-base">
         Em primeiro lugar pedimos que seja santificado o nome de Deus, porque
         devemos prezar mais a glória de Deus do que todos os nossos bens e
         vantagens.
       </Text>
 
-      <Text className="h5">
-        291 - De que maneira podemos nós promover a glória de Deus?
-      </Text>
+      <H5 text="291 - De que maneira podemos nós promover a glória de Deus?" />
       <Text className="text-base">
         Podemos promover a glória de Deus com a oração, o bom exemplo e
         dirigindo para Ele todos os nossos pensamentos afetos e ações.
       </Text>
 
-      <Text className="h4">3º - Da segunda petição do Padre-Nosso</Text>
-      <Text className="h5">292 - Que entendemos por reino de Deus?</Text>
+      <H4 text="3º - Da segunda petição do Padre-Nosso" />
+      <H5 text="292 - Que entendemos por reino de Deus?" />
       <Text className="text-base">
         Por reino de Deus entendemos uni tríplice reino espiritual, a saber: o
         reino de Deus em nós, ou o reino da graça; o reino de Deus na terra,
@@ -3184,10 +2709,7 @@ export default function PageCatecismo() {
         Paraíso.
       </Text>
 
-      <Text className="h5">
-        293 - Que pedimos com as palavras: venha a nós o vosso reino, com
-        relação à graça?
-      </Text>
+      <H5 text="293 - Que pedimos com as palavras: venha a nós o vosso reino, com relação à graça?" />
       <Text className="text-base">
         Com relação à graça, pedimos que Deus reine em nós com a sua graça
         santificante, pela qual Ele se compraz em residir em nós como um rei em
@@ -3196,28 +2718,19 @@ export default function PageCatecismo() {
         sobre o nosso coração e sobre a nossa vontade.
       </Text>
 
-      <Text className="h5">
-        294 - Que pedimos com as palavras venha a nós o vosso reino, com relação
-        à Igreja?
-      </Text>
+      <H5 text="294 - Que pedimos com as palavras venha a nós o vosso reino, com relação à Igreja?" />
       <Text className="text-base">
         Com relação à Igreja, pedimos que Ela se dilate cada vez mais, e se
         propague por todo o mundo para salvação dos homens.
       </Text>
 
-      <Text className="h5">
-        295 - Que pedimos com as palavras venha a nós o vosso reino, com relação
-        à glória?
-      </Text>
+      <H5 text="295 - Que pedimos com as palavras venha a nós o vosso reino, com relação à glória?" />
       <Text className="text-base">
         Com relação à glória, pedimos que possamos um dia ser admitidos no Santo
         Paraíso, para o qual fomos criados e onde seremos plenamente felizes.
       </Text>
-      <Text className="h4">4º - Da terceira Petição do Padre-Nosso</Text>
-      <Text className="h5">
-        296 - Que pedimos na terceira petição: seja feita a vossa vontade, assim
-        na terra como no Céu?
-      </Text>
+      <H4 text="4º - Da terceira Petição do Padre-Nosso" />
+      <H5 text="296 - Que pedimos na terceira petição: seja feita a vossa vontade, assim na terra como no Céu?" />
       <Text className="text-base">
         Na terceira petição: seja feita a vossa vontade, assim na terra como no
         Céu. pedimos a graça de fazer em todas as coisas a vontade de Deus,
@@ -3226,18 +2739,13 @@ export default function PageCatecismo() {
         corresponder às inspirações divinas e de viver resignados à vontade de
         Deus, quando Ele nos manda tribulações.
       </Text>
-      <Text className="h5">
-        297 - É-nos necessário cumprir a vontade de Deus?
-      </Text>
+      <H5 text="297 - É-nos necessário cumprir a vontade de Deus?" />
       <Text className="text-base">
         É-nos tão necessário cumprir a vontade de Deus, como nos é necessário
         conseguir a salvação eterna, porque Jesus Cristo disse que só entrará
         tio reino dos céus quem tiver feito a vontade de seu Pai.
       </Text>
-      <Text className="h5">
-        298 - De que maneira podemos conhecer qual a Vontade de Deus a nosso
-        respeito?
-      </Text>
+      <H5 text="298 - De que maneira podemos conhecer qual a Vontade de Deus a nosso respeito?" />
       <Text className="text-base">
         A Vontade de Deus rios é manifestada pelos Mandamentos de sua Lei e
         pelos preceitos de sua Santa Igreja. Nossos superiores espirituais,
@@ -3246,19 +2754,13 @@ export default function PageCatecismo() {
         respeito, desígnios que se podem manifestar em divinas inspirações ou
         nas circunstâncias em que o Senhor nos tenha colocado.
       </Text>
-      <Text className="h5">
-        299 - Devemos sempre reconhecer a vontade de Deus nas prosperidades ou
-        adversidades da vida?
-      </Text>
+      <H5 text="299 - Devemos sempre reconhecer a vontade de Deus nas prosperidades ou adversidades da vida?" />
       <Text className="text-base">
         Tanto nas prosperidades como nas adversidades da vida presente, devemos
         reconhecer sempre a vontade de Deus, o qual tudo dispõe ou permite para
         nosso bem.
       </Text>
-      <Text className="h5">
-        300 - Quer dizer que Deus nos revela sua Vontade pelos sinais dos
-        tempos?
-      </Text>
+      <H5 text="300 - Quer dizer que Deus nos revela sua Vontade pelos sinais dos tempos?" />
       <Text className="text-base">
         Não. A revelação Divina encerrou-se com a morte do último Apóstolo, de
         maneira que não há mais Revelação pública necessária para a salvação. A
@@ -3269,173 +2771,136 @@ export default function PageCatecismo() {
         homens uma amorosa Providência, devemos ver em todos os acontecimentos,
         bons ou maus, um desígnio de Deus que visa nossa salvação eterna.
       </Text>
-      <Text className="h4">5º - Da quarta petição do Padre-Nosso</Text>
-      <Text className="h5">
-        301 - Que pedimos na quarta petição: o pão nosso de cada dia nos dai
-        hoje?
-      </Text>
+      <H4 text="5º - Da quarta petição do Padre-Nosso" />
+      <H5 text="301 - Que pedimos na quarta petição: o pão nosso de cada dia nos dai hoje?" />
       <Text className="text-base">
         Na quarta petição: o pão nosso de cada dia nos dai hoje, pedimos a Deus
         o que nos é necessário cada dia para a alma e para o corpo.
       </Text>
-      <Text className="h5">302 - Que pedimos a Deus para a nossa alma?</Text>
+      <H5 text="302 - Que pedimos a Deus para a nossa alma?" />
       <Text className="text-base">
         Para a nossa alma pedimos a Deus o sustento da vida espiritual, isto é,
         pedimos ao Senhor que nos dê a sua graça, da qual a todo o instante
         temos necessidade.
       </Text>
-      <Text className="h5">303 - Como se sustenta a vida da nossa alma?</Text>
+      <H5 text="303 - Como se sustenta a vida da nossa alma?" />
       <Text className="text-base">
         A vida da nossa alma sustenta-se especialmente com o alimento da palavra
         divina, e com o Santíssimo Sacramento do altar.
       </Text>
-      <Text className="h5">304 - Que pedimos a Deus para o nosso corpo?</Text>
+      <H5 text="304 - Que pedimos a Deus para o nosso corpo?" />
       <Text className="text-base">
         Para o nosso corpo pedimos o que é necessário para o sustento da vida
         temporal.
       </Text>
-      <Text className="h5">
-        305 - Por que dizemos: o pão nosso nos dai hoje, não dizemos antes:
-        dai-nos hoje o pão?
-      </Text>
+      <H5 text="305 - Por que dizemos: o pão nosso nos dai hoje, não dizemos antes: dai-nos hoje o pão?" />
       <Text className="text-base">
         Dizemos: O pão nosso nos dai hoje, e não dizemos: dai-nos hoje o pão,
         para excluir todo o desejo tio, bens alheios. Por isso pedimos ao Senhor
         que nos ajude nos ganhos justos e lícitos, a fim de granjearmos o
         sustento com o nosso trabalho, sem furtos nem fraudes.
       </Text>
-      <Text className="h5">
-        306 - Por que dizemos: o pão nos dai, e não: o pão me dai?
-      </Text>
+      <H5 text="306 - Por que dizemos: o pão nos dai, e não: o pão me dai?" />
       <Text className="text-base">
         Dizemos: nos dai, e não: me dai, para nos lembrarmos de que, assim como
         os bens nos vêm de Deus, assim também se Ele no-los dá em abundância, é
         para que distribuamos o supérfluo pelos pobres.
       </Text>
-      <Text className="h5">307 - Por que acrescentamos: de cada dia?</Text>
+      <H5 text="307 - Por que acrescentamos: de cada dia?" />
       <Text className="text-base">
         Acrescentamos de cada dia, porque devemos desejar o que nos é necessário
         para a vida, e não a fartura dos alimentos e dos bens da terra.
       </Text>
-      <Text className="h5">
-        308 - Que quer dizer mais a palavra hoje na quarta petição?
-      </Text>
+      <H5 text="308 - Que quer dizer mais a palavra hoje na quarta petição?" />
       <Text className="text-base">
         A palavra hoje quer dizer que não devemos estar demasiadamente
         preocupados com o futuro, irias pedir o que rios é necessário rio
         momento.
       </Text>
-      <Text className="h4">6º - Da quinta petição do Padre-Nosso</Text>
-      <Text className="h5">
-        309 - Que pedimos na quinta petição: Perdoai-nos as nossas dívidas,
-        assim como nós perdoamos aos nossos devedores?
-      </Text>
+      <H4 text="6º - Da quinta petição do Padre-Nosso" />
+      <H5 text="309 - Que pedimos na quinta petição: Perdoai-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores?" />
       <Text className="text-base">
         Na quinta petição: perdoai-nos as nossas dívidas, assim como nós
         perdoamos aos nossos devedores, pedimos a Deus que nos perdoe os nossos
         pecados, como nós perdoamos aos que nos ofendem.
       </Text>
-      <Text className="h5">
-        310 - Por que nossos pecados são chamados de dívidas?
-      </Text>
+      <H5 text="310 - Por que nossos pecados são chamados de dívidas?" />
       <Text className="text-base">
         Nossos pecados são chamados de dívidas porque por causa deles devemos
         satisfazer a divina justiça, seja nesta vida, seja na outra.
       </Text>
-      <Text className="h5">
-        311 - Os que não perdoam ao próximo, podem esperar que Deus lhes perdoe?
-      </Text>
+      <H5 text="311 - Os que não perdoam ao próximo, podem esperar que Deus lhes perdoe?" />
       <Text className="text-base">
         Os que não perdoam ao próximo não têm razão alguma para esperar que Deus
         lhes perdoe, tanto mais que se condenam por si mesmos, dizendo ti Deus
         que lhes perdoe, como eles perdoam ao próximo.
       </Text>
-      <Text className="h4">7º - Da sexta petição do Padre-Nosso</Text>
-      <Text className="h5">
-        312 - Que pedimos na sexta petição: e não nos deixeis cair em tentação?
-      </Text>
+      <H4 text="7º - Da sexta petição do Padre-Nosso" />
+      <H5 text="312 - Que pedimos na sexta petição: e não nos deixeis cair em tentação?" />
       <Text className="text-base">
         Na sexta petição: e não nos deixeis cair em tentação, pedimos a Deus que
         nos livre das tentações, ou não permitindo que sejamos tentados, ou
         dando-nos graças para não sermos vencidos.
       </Text>
-      <Text className="h5">313 - Que são as tentações?</Text>
+      <H5 text="313 - Que são as tentações?" />
       <Text className="text-base">
         As tentações são um incitamento ao pecado que nos vem do demônio, ou das
         pessoas más ou das nossas paixões.
       </Text>
-      <Text className="h5">314 - É pecado ter tentações?</Text>
+      <H5 text="314 - É pecado ter tentações?" />
       <Text className="text-base">
         Não é pecado ter tentações, mas é pecado consentir nelas, ou expor-se
         voluntariamente ao perigo de consentir.
       </Text>
-      <Text className="h5">
-        315 - Por que permite Deus que sejamos tentados?
-      </Text>
+      <H5 text="315 - Por que permite Deus que sejamos tentados?" />
       <Text className="text-base">
         Deus permite que sejamos tentados, para provar a nossa fidelidade, para
         fortalecer as nossas virtudes e para aumentar os nossos merecimentos.
       </Text>
-      <Text className="h5">
-        316 - Que devemos fazer para evitar as tentações?
-      </Text>
+      <H5 text="316 - Que devemos fazer para evitar as tentações?" />
       <Text className="text-base">
         Para evitar as tentações devemos fugir das ocasiões perigosas, guardar
         os sentidos, receber com frequência a os santos sacramentos, fazer uso
         da oração, especialmente da devoção a Maria Santíssima, Senhora Nossa.
       </Text>
-      <Text className="h4">8º - Da sétima petição do Padre-Nosso</Text>
-      <Text className="h5">
-        317 - Que pedimos na sétima petição: mas livrai-nos do mal?
-      </Text>
+      <H4 text="8º - Da sétima petição do Padre-Nosso" />
+      <H5 text="317 - Que pedimos na sétima petição: mas livrai-nos do mal?" />
       <Text className="text-base">
         Na sétima petição: mas livrai-nos do mal, pedimos a Deus que nos livre
         dos males passados, presentes, futuros, e especialmente do sumo mal, que
         é o pecado, da condenação eterna, que é o seu castigo.
       </Text>
-      <Text className="h5">
-        318 - Por que dizemos: livrai-nos do mal, e não: dos males?
-      </Text>
+      <H5 text="318 - Por que dizemos: livrai-nos do mal, e não: dos males?" />
       <Text className="text-base">
         Dizemos: livrai-nos do mal, e não: dos males, por que não devemos
         desejar ser isentos de todos os males desta vida, mas só daqueles que
         são nocivos à nossa alma, e por isso pedimos a libertação do mal em
         geral, isto é, de tudo aquilo que Deus vê que para nós é mal.
       </Text>
-      <Text className="h5">
-        319 - Não é lícito pedir a Deus que nos livre de algum mal em
-        particular, por exemplo, de uma doença?
-      </Text>
+      <H5 text="319 - Não é lícito pedir a Deus que nos livre de algum mal em particular, por exemplo, de uma doença?" />
       <Text className="text-base">
         Sim. é lícito pedir a libertação de algum mal em particular, mas sempre
         entregando-nos à vontade de Deus, que pode no entanto, ordenar aquela
         tribulação para proveito da nossa alma.
       </Text>
-      <Text className="h5">
-        320 - Para que nos servem as tribulações que Deus nos manda?
-      </Text>
+      <H5 text="320 - Para que nos servem as tribulações que Deus nos manda?" />
       <Text className="text-base">
         As tribulações que Deus nos envia nos são úteis para fazermos penitência
         das nossas culpas, para provar nossas virtudes, e sobretudo para
         levar-nos à imitação de Jesus Cristo, nossa cabeça, ao qual é justo que
         nos conformemos nos sofrimentos, se quisermos ter parte na sua glória.
       </Text>
-      <Text className="h5">
-        321 - Que quer dizer Amén no fim do Padre-Nosso?
-      </Text>
+      <H5 text="321 - Que quer dizer Amén no fim do Padre-Nosso?" />
       <Text className="text-base">
         Amén quer dizer: assim seja, assim desejo. assim peço ao Senhor e assim
         espero.
       </Text>
-      <Text className="h5">
-        322 - Para se alcançarem as graças pedidas no Padre-Nosso basta rezá-lo
-        de qualquer maneira?
-      </Text>
+      <H5 text="322 - Para se alcançarem as graças pedidas no Padre-Nosso basta rezá-lo de qualquer maneira?" />
       <Text className="text-base">
         Para se alcançarem as graças pedidas no Padre-Nosso é necessário rezá-lo
         sem precipitação, com atenção e acompanhá-lo com o coração.
       </Text>
-      <Text className="h5">323 - Quando devemos rezar o Padre-Nosso?</Text>
+      <H5 text="323 - Quando devemos rezar o Padre-Nosso?" />
       <Text className="text-base">
         Devemos rezar o Padre-Nosso todos os dias, por que todos os dias temos
         necessidade do auxílio de Deus.
@@ -3472,111 +2937,84 @@ export default function PageCatecismo() {
         teve fé no cumprimento do que lhe foi dito da parte do Senhor. Luc 1,
         26-4
       </Text>
-      <Text className="h5">
-        324 - Que oração costumamos rezar depois do Padre-Nosso?
-      </Text>
+      <H5 text="324 - Que oração costumamos rezar depois do Padre-Nosso?" />
       <Text className="text-base">
         Depois do Padre-Nosso rezamos a saudação angélica, isto é, a Ave-Maria,
         por meio da qual recorremos à Santíssima Virgem.
       </Text>
-      <Text className="h5">
-        325 - Por que é a Ave-Maria chamada saudação angélica?
-      </Text>
+      <H5 text="325 - Por que é a Ave-Maria chamada saudação angélica?" />
       <Text className="text-base">
         Chama-se a Ave-Maria saudação angélica, porque principia com a saudação
         que dirigiu à Virgem Maria o Arcanjo São Gabriel.
       </Text>
-      <Text className="h5">326 - De quem são as palavras da Ave-Maria?</Text>
+      <H5 text="326 - De quem são as palavras da Ave-Maria?" />
       <Text className="text-base">
         As palavras da Ave-Maria são, em parte do Arcanjo São Gabriel, em parte
         de Santa Isabel e em parte da Igreja.
       </Text>
-      <Text className="h5">
-        327 - Quais são as palavras do Arcanjo São Gabriel?
-      </Text>
+      <H5 text="327 - Quais são as palavras do Arcanjo São Gabriel?" />
       <Text className="text-base">
         As palavras do Arcanjo São Gabriel são: Ave, cheia de graça; o Senhor é
         convosco, bendita sois vós entre as mulheres.
       </Text>
-      <Text className="h5">
-        328 - Quando disse o Anjo a Maria estas palavras?
-      </Text>
+      <H5 text="328 - Quando disse o Anjo a Maria estas palavras?" />
       <Text className="text-base">
         O Anjo disse a Maria estas palavras quando Lhe foi anunciar da parte de
         Deus o mistério da Encarnação, que n'Ela devia operar-se.
       </Text>
-      <Text className="h5">
-        329 - Que temos em vista ao saudarmos a Santíssima Virgem com as mesmas
-        palavras do Arcanjo?
-      </Text>
+      <H5 text="329 - Que temos em vista ao saudarmos a Santíssima Virgem com as mesmas palavras do Arcanjo?" />
       <Text className="text-base">
         Ao saudarmos a Santíssima Virgem com as mesmas palavras do Arcanjo, nós
         nos congratulamos com Ela, lembrando os dons e singulares privilégios
         com que Deus a favoreceu de preferência a todas as outras criaturas.
       </Text>
-      <Text className="h5">330 - Quais são as palavras de Santa Isabel?</Text>
+      <H5 text="330 - Quais são as palavras de Santa Isabel?" />
       <Text className="text-base">
         As palavras de Santa Isabel são: Bendita sois vós entre as mulheres, e
         bendito é o fruto do vosso ventre.
       </Text>
-      <Text className="h5">
-        331 - Quando disse Santa Isabel estas palavras?
-      </Text>
+      <H5 text="331 - Quando disse Santa Isabel estas palavras?" />
       <Text className="text-base">
         Santa Isabel disse estas palavras, inspirada por Deus, quando, três
         meses antes de nascer seu filho João Batista, foi visitada pela
         Santíssima Virgem, que já trazia no seio o seu Divino Filho Jesus.
       </Text>
-      <Text className="h5">332 - Que fazemos ao dizer estas palavras?</Text>
+      <H5 text="332 - Que fazemos ao dizer estas palavras?" />
       <Text className="text-base">
         Ao dizer estas palavras de Santa Isabel, congratulamo-nos com Maria
         Santíssima pela sua excelsa dignidade de Mãe de Deus, bendizemos a Deus
         e damos-Lhe graças por nos ter dado Jesus Cristo por meio de Maria.
       </Text>
-      <Text className="h5">
-        333 - De quem são as demais palavras da Ave-Maria?
-      </Text>
+      <H5 text="333 - De quem são as demais palavras da Ave-Maria?" />
       <Text className="text-base">
         Todas as demais palavras da Ave-Maria foram acrescentadas pela Igreja.
       </Text>
-      <Text className="h5">
-        334 - Que pedimos com as últimas palavras da Ave-Maria?
-      </Text>
+      <H5 text="334 - Que pedimos com as últimas palavras da Ave-Maria?" />
       <Text className="text-base">
         Com as ultimas palavras da Ave-Maria pedimos o proteção da Santíssima
         Virgem no decurso desta vida e especialmente na hora da nossa morte, no
         qual nos será mais necessária.
       </Text>
-      <Text className="h5">
-        335 - Por que depois do Padre-Nosso, dizemos antes a Ave-Maria do que
-        outra qualquer oração?
-      </Text>
+      <H5 text="335 - Por que depois do Padre-Nosso, dizemos antes a Ave-Maria do que outra qualquer oração?" />
       <Text className="text-base">
         Porque a Santíssima Virgem é a Advogada mais poderosa junto de Jesus
         Cristo: por isso, depois de termos rezado a oração que Jesus Cristo nos
         ensinou, pedimos à Santíssima Virgem que nos alcance as graças que
         imploramos.
       </Text>
-      <Text className="h5">
-        336 - Por que motivo é tão poderosa a Santíssima Virgem?
-      </Text>
+      <H5 text="336 - Por que motivo é tão poderosa a Santíssima Virgem?" />
       <Text className="text-base">
         A Santíssima Virgem é tão poderosa, porque é Mãe de Deus, e é impossível
         que não seja atendida por Ele.
       </Text>
-      <Text className="h5">
-        337 - Que nos ensinam os Santos a respeito da devoção à Virgem Maria?
-      </Text>
+      <H5 text="337 - Que nos ensinam os Santos a respeito da devoção à Virgem Maria?" />
       <Text className="text-base">
         A respeito da devoção a Maria, os Santos nos ensinam que os seus
         verdadeiros devotos são por Ela amados e protegidos com amor de Mãe
         muito terna, e por meio d'Ela têm a certeza de encontrar a Jesus Cristo,
         e de alcançar o Paraíso.
       </Text>
-      <Text className="h5">
-        338 - Qual é a devoção à Virgem Maria, que a Igreja nos recomenda de
-        modo especial?
-      </Text>
+      <H5 text="338 - Qual é a devoção à Virgem Maria, que a Igreja nos recomenda de modo especial?" />
       <Text className="text-base">
         A devoção que a Igreja nos recomenda de modo especial em honra da
         Santíssima Virgem é a reza do santo Rosário.
@@ -3622,34 +3060,26 @@ export default function PageCatecismo() {
         acontecimentos Jó viveu cento e quarenta anos e viu seus filhos, netos e
         bisnetos. E Jó morreu velho e cheio de dias. Jó 42, 7-1
       </Text>
-      <Text className="h5">
-        339 - É coisa boa e útil recorrer à intercessão dos Santos?
-      </Text>
+      <H5 text="339 - É coisa boa e útil recorrer à intercessão dos Santos?" />
       <Text className="text-base">
         É coisa utilíssima invocar os Santos, e todo o Cristão o deve fazer.
         Devemos invocar particularmente nossos Anjos da Guarda, São José,
         protetor da Igreja, os Santos Apóstolos, o Santo do nosso nome e os
         Santos protetores da diocese e da paróquia.
       </Text>
-      <Text className="h5">
-        340 - Que diferença há entre as orações que fazemos a Deus e as que
-        fazemos aos Santos?
-      </Text>
+      <H5 text="340 - Que diferença há entre as orações que fazemos a Deus e as que fazemos aos Santos?" />
       <Text className="text-base">
         Entre as orações que fazemos a Deus e as que fazemos aos Santos, há esta
         diferença: que a Deus, invocamo-Lo a fim de que, como autor das graças,
         nos dê os bens e nos livre dos males, e aos Santos, invocamo-los para
         que, como advogados junto de Deus, intercedam por nós.
       </Text>
-      <Text className="h5">
-        341 - Que queremos dizer, quando dizemos que um Santo concedeu uma
-        graça?
-      </Text>
+      <H5 text="341 - Que queremos dizer, quando dizemos que um Santo concedeu uma graça?" />
       <Text className="text-base">
         Quando dizemos que um Santo concedeu uma graça, queremos dizer que esse
         Santo obteve de Deus aquela graça.
       </Text>
-      <Text className="h1">Terceira Parte</Text>
+      <H1 text="Terceira Parte" />
       <Text className="aside">Dos Mandamentos da Lei de Deus e da Igreja</Text>
       <Text className="h2">
         I - <Text className="em">Dos Mandamentos da Lei de Deus em geral</Text>
@@ -3830,16 +3260,12 @@ export default function PageCatecismo() {
           </Text>
         </Text>
       </Language>
-      <Text className="h5">
-        342 - De que trata a terceira parte da Doutrina Cristã?
-      </Text>
+      <H5 text="342 - De que trata a terceira parte da Doutrina Cristã?" />
       <Text className="text-base">
         A terceira parte da Doutrina Cristã traiu dos Mandamentos da Lei de Deus
         e da Igreja.
       </Text>
-      <Text className="h5">
-        343 - Quantos são os Mandamentos da Lei de Deus?
-      </Text>
+      <H5 text="343 - Quantos são os Mandamentos da Lei de Deus?" />
       <Text className="text-base">Os Mandamentos da Lei de Deus são dez:</Text>
       <View className="list-styled">
         <Text className="li text-justify">
@@ -3865,46 +3291,36 @@ export default function PageCatecismo() {
           10º - Não cobiçar as coisas alheias.
         </Text>
       </View>
-      <Text className="h5">
-        344 - Por que têm esse nome os Mandamentos da Lei de Deus?
-      </Text>
+      <H5 text="344 - Por que têm esse nome os Mandamentos da Lei de Deus?" />
       <Text className="text-base">
         Os Mandamentos da Lei de Deus têm esse nome porque foi o próprio Deus
         que os gravou na alma de todo o homem, os promulgou no monte Sinai, na
         antiga Lei, esculpidos em duas tábuas de pedra, e Jesus Cristo os
         confirmou na Lei nova.
       </Text>
-      <Text className="h5">
-        345 - Quais são os Mandamentos da primeira tábua?
-      </Text>
+      <H5 text="345 - Quais são os Mandamentos da primeira tábua?" />
       <Text className="text-base">
         Os Mandamentos da primeira tábua são os três primeiros, que se referem
         diretamente a Deus, e aos deveres que temos para com Ele.
       </Text>
-      <Text className="h5">
-        346 - Quais são os Mandamentos da segunda tábua?
-      </Text>
+      <H5 text="346 - Quais são os Mandamentos da segunda tábua?" />
       <Text className="text-base">
         Os Mandamentos da segunda tábua são os últimos sete, que se referem ao
         próximo e aos deveres que temos para com ele.
       </Text>
-      <Text className="h5">
-        347 - Somos obrigados a observar os Mandamentos?
-      </Text>
+      <H5 text="347 - Somos obrigados a observar os Mandamentos?" />
       <Text className="text-base">
         Sim, todos somos obrigados a observar os Mandamentos, porque todos
         devemos viver segundo a vontade de Deus que nos criou; e basta
         transgredir gravemente um só deles para merecermos o Inferno.
       </Text>
-      <Text className="h5">348 - Podemos observar os Mandamentos?</Text>
+      <H5 text="348 - Podemos observar os Mandamentos?" />
       <Text className="text-base">
         Podemos, sem dúvida, observar os Mandamentos da Lei de Deus, porque Deus
         não nos manda nenhuma coisa impossível, e dá a graça para os observar a
         quem ti pede devidamente.
       </Text>
-      <Text className="h5">
-        349 - Que se deve considerar em cada Mandamento?
-      </Text>
+      <H5 text="349 - Que se deve considerar em cada Mandamento?" />
       <Text className="text-base">
         Em cada Mandamento deve-se considerar a parte positiva e a parte
         negativa; isto é, o que nos é ordenado e o que nos é proibido.
@@ -3943,80 +3359,66 @@ export default function PageCatecismo() {
         prender, mas através de uma janela, fui descido numa cesta pelo muro, e
         escapei das suas mãos. II Cor 11, 16-3
       </Text>
-      <Text className="h4">1º - Do primeiro Mandamento da Lei de Deus</Text>
-      <Text className="h5">
-        350 - Por que disse o Senhor antes de ditar os Mandamentos: Eu sou o
-        Senhor teu Deus?
-      </Text>
+      <H4 text="1º - Do primeiro Mandamento da Lei de Deus" />
+      <H5 text="350 - Por que disse o Senhor antes de ditar os Mandamentos: Eu sou o Senhor teu Deus?" />
       <Text className="text-base">
         Antes de promulgar os seus Mandamentos, Deus disse: Eu sou o Senhor teu
         Deus, para que saibamos que Deus, sendo o nosso Criador e Senhor, pode
         mandar o que quiser, e nós, criaturas suas, somos obrigados a
         obedecer-Lhe.
       </Text>
-      <Text className="h5">
-        351 - Que nos ordena Deus com as palavras do primeiro Mandamento: amar a
-        Deus sobre todas as coisas?
-      </Text>
+      <H5 text="351 - Que nos ordena Deus com as palavras do primeiro Mandamento: amar a Deus sobre todas as coisas?" />
       <Text className="text-base">
         Com as palavras do primeiro Mandamento: amar a Deus sobre todas as
         coisas, Deus nos ordena que o reconheçamos, adoremos, amemos e sirvamos
         a Ele só, como nosso Soberano Senhor.
       </Text>
-      <Text className="h5">352 - Como se cumpre o primeiro Mandamento?</Text>
+      <H5 text="352 - Como se cumpre o primeiro Mandamento?" />
       <Text className="text-base">
         Cumpre-se o primeiro Mandamento com o exercício do culto interno e
         externo.
       </Text>
-      <Text className="h5">353 - Que é o culto interno?</Text>
+      <H5 text="353 - Que é o culto interno?" />
       <Text className="text-base">
         O culto interno é a honra que se presta a Deus só com as faculdades da
         alma isto é, com a inteligência e com a vontade.
       </Text>
-      <Text className="h5">354 - Que é o culto externo?</Text>
+      <H5 text="354 - Que é o culto externo?" />
       <Text className="text-base">
         O culto externo é a homenagem que se presta a Deus por meio de atos
         exteriores e de objetos sensíveis.
       </Text>
-      <Text className="h5">
-        355 - Não basta adorar a Deus interiormente, só com o coração?
-      </Text>
+      <H5 text="355 - Não basta adorar a Deus interiormente, só com o coração?" />
       <Text className="text-base">
         Não basta adorar a Deus interiormente, só com o coração, mas é
         necessário adorá- Lo também exteriormente, com a alma e com o corpo
         juntamente, porque Ele é Criador e Senhor absoluto de uma e de outro.
       </Text>
-      <Text className="h5">
-        356 - Poderá haver culto externo sem o interno?
-      </Text>
+      <H5 text="356 - Poderá haver culto externo sem o interno?" />
       <Text className="text-base">
         Não pode de forma alguma haver culto externo sem o interno, porque
         aquele, desacompanhado deste, fica privado de vida, de merecimento e de
         eficácia, como corpo sem alma.
       </Text>
-      <Text className="h5">357 - Que nos proíbe o primeiro Mandamento?</Text>
+      <H5 text="357 - Que nos proíbe o primeiro Mandamento?" />
       <Text className="text-base">
         O primeiro Mandamento proíbe-nos a idolatria, a superstição, o
         sacrilégio, a heresia, e todo e qualquer outro pecado contra a religião.
       </Text>
-      <Text className="h5">358 - Que é a idolatria?</Text>
+      <H5 text="358 - Que é a idolatria?" />
       <Text className="text-base">
         Chama-se idolatria o prestar a alguma criatura, por exemplo a uma
         estátua, a uma imagem, a um homem, o culto supremo de adoração, devido
         só a Deus.
       </Text>
-      <Text className="h5">
-        359 - Como está expressa na Sagrada Escritura esta proibição?
-      </Text>
+      <H5 text="359 - Como está expressa na Sagrada Escritura esta proibição?" />
       <Text className="text-base">
         Na Sagrada Escritura está expressa esta proibição com as palavras: Não
         farás para ti imagem de escultura, nem figura alguma de tudo o que há em
         cima, no céu, e do que há embaixo, na terra. E não adorarás tais coisas,
         nem lhes darás culto.
       </Text>
-      <Text className="h5">
-        360 - Proíbem estas palavras toda a espécie de imagens?
-      </Text>
+      <H5 text="360 - Proíbem estas palavras toda a espécie de imagens?" />
       <Text className="text-base">
         Não, por certo. Mas só as das falsas divindades, feitas com intuito de
         adoração, como faziam os idólatras. E tanto isto é verdade, que o
@@ -4024,59 +3426,46 @@ export default function PageCatecismo() {
         estátuas de querubins que estavam sobre a arca, e a serpente de bronze
         no deserto.
       </Text>
-      <Text className="h5">361 - Que é a superstição?</Text>
+      <H5 text="361 - Que é a superstição?" />
       <Text className="text-base">
         Chama-se superstição toda e qualquer devoção contrária à doutrina e ao
         uso da Igreja, bem como o atribuir a urna ação ou alguma coisa uma
         virtude sobrenatural que ela não tem.
       </Text>
-      <Text className="h5">362 - Que é o sacrilégio?</Text>
+      <H5 text="362 - Que é o sacrilégio?" />
       <Text className="text-base">
         O sacrilégio é a profanação de um lugar, de uma pessoa ou de uma coisa
         consagrada a Deus ou destinada ao seu culto.
       </Text>
-      <Text className="h5">363 - Que é a heresia?</Text>
+      <H5 text="363 - Que é a heresia?" />
       <Text className="text-base">
         A heresia é um erro culpável de inteligência, pelo qual se nega com
         pertinácia alguma verdade de fé.
       </Text>
-      <Text className="h5">
-        364 - Que mais coisas proíbe o primeiro Mandamento?
-      </Text>
+      <H5 text="364 - Que mais coisas proíbe o primeiro Mandamento?" />
       <Text className="text-base">
         O primeiro Mandamento proíbe também todo o comércio ou trato com o
         demônio, e o filiar-se às seitas anticristãs.
       </Text>
-      <Text className="h5">
-        365 - Quem recorresse ao demônio e o invocasse, cometeria pecado grave?
-      </Text>
+      <H5 text="365 - Quem recorresse ao demônio e o invocasse, cometeria pecado grave?" />
       <Text className="text-base">
         Quem recorresse ao demônio e o invocasse, cometeria um pecado enorme,
         porque o demônio é o mais perverso inimigo de Deus e do homem.
       </Text>
-      <Text className="h5">
-        366 - É lícito interrogar as mesas chamadas falantes ou escreventes, ou
-        consultar de algum modo as almas dos mortos, por meio de espiritismo?
-      </Text>
+      <H5 text="366 - É lícito interrogar as mesas chamadas falantes ou escreventes, ou consultar de algum modo as almas dos mortos, por meio de espiritismo?" />
       <Text className="text-base">
         Todas as práticas do espiritismo são proibidas, porque são
         supersticiosas, e muitas vezes não estão isentas de intervenção
         diabólica, e por isso foram justamente interditas pela Igreja.
       </Text>
-      <Text className="h5">
-        367 - O primeiro Mandamento proíbe acaso honrar e invocar os Anjos e os
-        Santos?
-      </Text>
+      <H5 text="367 - O primeiro Mandamento proíbe acaso honrar e invocar os Anjos e os Santos?" />
       <Text className="text-base">
         Não. Não é proibido honrar e invocar os Anjos e os Santos, e até o
         devemos fazer, porque é coisa boa e útil, e altamente recomendada pela
         Igreja, já que eles são amigos de Deus e nossos intercessores junto
         d'Ele.
       </Text>
-      <Text className="h5">
-        368 - Sendo Jesus Cristo o nosso único mediador junto de Deus, por que
-        recorremos também à intercessão da Santíssima Virgem e dos Santos?
-      </Text>
+      <H5 text="368 - Sendo Jesus Cristo o nosso único mediador junto de Deus, por que recorremos também à intercessão da Santíssima Virgem e dos Santos?" />
       <Text className="text-base">
         Jesus Cristo é o nosso mediador junto de Deus, enquanto, sendo
         verdadeiro Deus e verdadeiro Homem, só Ele, em virtude dos próprios
@@ -4086,26 +3475,18 @@ export default function PageCatecismo() {
         auxiliam-nos com a sua intercessão a alcançar as graças que pedimos. E
         este é um dos grandes bens da comunhão dos Santos.
       </Text>
-      <Text className="h5">
-        369 - Podemos honrar também as sagradas imagens de Jesus Cristo e dos
-        Santos?
-      </Text>
+      <H5 text="369 - Podemos honrar também as sagradas imagens de Jesus Cristo e dos Santos?" />
       <Text className="text-base">
         Sim, porque a honra que se tributa às sagradas imagens de Jesus Cristo e
         dos Santos, refere-se às suas mesmas pessoas.
       </Text>
-      <Text className="h5">
-        370 - E as relíquias dos Santos, podem honrar-se?
-      </Text>
+      <H5 text="370 - E as relíquias dos Santos, podem honrar-se?" />
       <Text className="text-base">
         Sim, também as relíquias dos Santos podem e devem honrar-se porque os
         seus corpos foram membros vivos de Jesus Cristo e templos do Espírito
         Santo, e devem ressurgir gloriosos para a vida eterna.
       </Text>
-      <Text className="h5">
-        371 - Que diferença há entre o culto que prestamos a Deus, e o culto que
-        prestamos aos Santos?
-      </Text>
+      <H5 text="371 - Que diferença há entre o culto que prestamos a Deus, e o culto que prestamos aos Santos?" />
       <Text className="text-base">
         Entre o culto que prestamos a Deus e o culto que prestamos aos Santos há
         esta diferença: que a Deus adoramo-Lo pela sua infinita excelência, ao
@@ -4116,7 +3497,7 @@ export default function PageCatecismo() {
         Deus; enfim o culto especial que prestamos a Maria Santíssima chama-se
         hiperdulia, isto é, de essencialíssima veneração, como Mãe de Deus.
       </Text>
-      <Text className="h4">2º - Do segundo Mandamento da Lei de Deus</Text>
+      <H4 text="2º - Do segundo Mandamento da Lei de Deus" />
       <Text className="text-base">
         Certo homem, chamado Ananias, de comum acordo com sua mulher Safira,
         vendeu uma propriedade. Com a cumplicidade da mulher, reteve uma parte
@@ -4138,10 +3519,7 @@ export default function PageCatecismo() {
         levaram para sepultar ao lado do marido. Grande medo se apoderou de toda
         a Igreja e de todos que ouviram tais coisas. Atos 5, 1-1
       </Text>
-      <Text className="h5">
-        372 - Que nos proíbe o segundo Mandamento: não tomar seu Santo Nome em
-        vão?
-      </Text>
+      <H5 text="372 - Que nos proíbe o segundo Mandamento: não tomar seu Santo Nome em vão?" />
       <Text className="text-base">
         O segundo Mandamento: não tomar seu Santo Nome em vão, proíbe-nos:
       </Text>
@@ -4158,100 +3536,88 @@ export default function PageCatecismo() {
           daquela maneira.
         </Text>
       </View>
-      <Text className="h5">
-        373 - Que quer dizer pronunciar o Nome de Deus sem respeito?
-      </Text>
+      <H5 text="373 - Que quer dizer pronunciar o Nome de Deus sem respeito?" />
       <Text className="text-base">
         Pronunciar o Nome de Deus sem respeito quer dizer: pronunciar este Santo
         Nome, e tudo o que se refere em modo especial ao próprio Deus como o
         Nome de Jesus Cristo, de Maria e dos Santos com ira, por escárnio, ou de
         outro modo pouco reverente.
       </Text>
-      <Text className="h5">374 - Que é a blasfêmia?</Text>
+      <H5 text="374 - Que é a blasfêmia?" />
       <Text className="text-base">
         A blasfêmia é um pecado horrível que consiste em palavras ou atos de
         desprezo ou maldição contra Deus, contra a Virgem, contra os Santos, ou
         contra as coisas santas.
       </Text>
-      <Text className="h5">
-        375 - Há diferença entre a blasfêmia e a imprecação ou praga?
-      </Text>
+      <H5 text="375 - Há diferença entre a blasfêmia e a imprecação ou praga?" />
       <Text className="text-base">
         Há diferença, porque com a blasfêmia se amaldiçoa ou se deseja mal a
         Deus, a Nossa Senhora, aos Santos; ao passo que, com a imprecação ou
         praga, se amaldiçoa ou se deseja mal a si mesmo ou ao próximo.
       </Text>
-      <Text className="h5">376 - Que é jurar?</Text>
+      <H5 text="376 - Que é jurar?" />
       <Text className="text-base">
         Jurar é tomar a Deus em testemunho da verdade do que se afirma ou se
         promete.
       </Text>
-      <Text className="h5">377 - É sempre proibido jurar?</Text>
+      <H5 text="377 - É sempre proibido jurar?" />
       <Text className="text-base">
         Não é sempre proibido o juramento, mas é lícito e até honroso para Deus,
         quando há necessidade, e se jura com verdade, discernimento e justiça.
       </Text>
-      <Text className="h5">378 - Quando não se jura com verdade?</Text>
+      <H5 text="378 - Quando não se jura com verdade?" />
       <Text className="text-base">
         Quando se afirma com juramento o que se sabe ou se julga ser falso, e
         quando com juramento se promete o que não se tem a intenção de cumprir.
       </Text>
-      <Text className="h5">379 - Quando não se jura com discernimento?</Text>
+      <H5 text="379 - Quando não se jura com discernimento?" />
       <Text className="text-base">
         Quando se jura sem prudência e sem madura ponderação, ou por coisas de
         pequena importância.
       </Text>
-      <Text className="h5">380 - Quando não se jura com justiça?</Text>
+      <H5 text="380 - Quando não se jura com justiça?" />
       <Text className="text-base">
         Quando se jura fazer uma coisa que não é justa ou permitida, como jurar
         vingar-se, roubar e outras coisas parecidas.
       </Text>
-      <Text className="h5">
-        381 - Somos obrigados a cumprir o juramento de fazer coisas injustas ou
-        proibidas?
-      </Text>
+      <H5 text="381 - Somos obrigados a cumprir o juramento de fazer coisas injustas ou proibidas?" />
       <Text className="text-base">
         Não só não somos obrigados, mas pecaríamos fazendo-as, porque são
         proibidas pela lei de Deus ou da Igreja.
       </Text>
-      <Text className="h5">382 - Quem jura falso, que pecado comete?</Text>
+      <H5 text="382 - Quem jura falso, que pecado comete?" />
       <Text className="text-base">
         Quem jura falso comete pecado mortal, porque desonra gravemente a Deus,
         verdade infinita, chamando-O em testemunho do que é falso.
       </Text>
-      <Text className="h5">383 - Que nos ordena o segundo Mandamento?</Text>
+      <H5 text="383 - Que nos ordena o segundo Mandamento?" />
       <Text className="text-base">
         O segundo Mandamento ordena-nos que honremos o Santo Nome de Deus, e que
         cumpramos, além dos juramentos, também os votos.
       </Text>
-      <Text className="h5">384 - Que é um voto?</Text>
+      <H5 text="384 - Que é um voto?" />
       <Text className="text-base">
         Um voto é uma promessa feita a Deus de uma coisa boa, para nós possível,
         e melhor que a coisa contrária, a que nós nos obrigamos, como se nos
         fosse preceituada.
       </Text>
-      <Text className="h5">
-        385 - Se a observância do voto se nos tornasse no todo ou em parte muito
-        difícil, que haveria a fazer?
-      </Text>
+      <H5 text="385 - Se a observância do voto se nos tornasse no todo ou em parte muito difícil, que haveria a fazer?" />
       <Text className="text-base">
         Podia-se pedir a comutação ou a dispensa ao Bispo próprio, ou ao Sumo
         Pontífice, conforme a qualidade do voto.
       </Text>
-      <Text className="h5">386 - É pecado transgredir os votos?</Text>
+      <H5 text="386 - É pecado transgredir os votos?" />
       <Text className="text-base">
         O transgredir os votos é pecado, e por isso não devemos fazer votos sem
         madura reflexão, e ordinariamente sem o conselho do confessor, ou de
         outra pessoa prudente, para não nos expormos ao perigo de pecar.
       </Text>
-      <Text className="h5">
-        387 - Podem fazer-se votos a Nossa Senhora e aos Santos?
-      </Text>
+      <H5 text="387 - Podem fazer-se votos a Nossa Senhora e aos Santos?" />
       <Text className="text-base">
         Os votos fazem-se só a Deus; pode-se, porém, prometer a Deus fazer
         alguma coisa em honra de Nossa Senhora ou dos Santos.
       </Text>
-      <Text className="h4">3º - Do terceiro Mandamento da Lei de Deus</Text>
+      <H4 text="3º - Do terceiro Mandamento da Lei de Deus" />
       <Text className="text-base">
         No primeiro dia da semana, de manhã muito cedo, as mulheres vieram ao
         túmulo trazer os perfumes que tinham preparado. Encontraram a pedra do
@@ -4274,35 +3640,27 @@ export default function PageCatecismo() {
         comeu e prosseguiu a pregação até ao amanhecer. Então partiu. Quanto ao
         rapaz, levaram-no vivo, com grande consolo de todos. Atos 20, 7-1
       </Text>
-      <Text className="h5">
-        388 - Que nos ordena o terceiro Mandamento: guardar domingos e festas?
-      </Text>
+      <H5 text="388 - Que nos ordena o terceiro Mandamento: guardar domingos e festas?" />
       <Text className="text-base">
         O terceiro Mandamento: guardar domingos e festas, ordena-nos que
         honremos a Deus com obras de culto nos dias de festa.
       </Text>
-      <Text className="h5">389 - Quais são os dias de festa?</Text>
+      <H5 text="389 - Quais são os dias de festa?" />
       <Text className="text-base">
         Na Antiga Lei, eram os sábados e outros dias particularmente solenes
         para o povo judeu; na Lei Nova, são os domingos e outras festividades
         estabelecidas pela Igreja.
       </Text>
-      <Text className="h5">
-        390 - Por que na Lei Nova se guarda o domingo e não o sábado?
-      </Text>
+      <H5 text="390 - Por que na Lei Nova se guarda o domingo e não o sábado?" />
       <Text className="text-base">
         O domingo, que significa dia do Senhor, substituiu o sábado, porque foi
         em dia de domingo que Nosso Senhor Jesus Cristo ressuscitou.
       </Text>
-      <Text className="h5">
-        391 - Que obra de culto nos é preceituada nos dias de festa?
-      </Text>
+      <H5 text="391 - Que obra de culto nos é preceituada nos dias de festa?" />
       <Text className="text-base">
         É-nos preceituado assistir devotamente ao Santo Sacrifício da Missa.
       </Text>
-      <Text className="h5">
-        392 - Com que outras obras costuma um bom cristão santificar as festas?
-      </Text>
+      <H5 text="392 - Com que outras obras costuma um bom cristão santificar as festas?" />
       <Text className="text-base">Um bom cristão santifica as festas:</Text>
       <View className="list-styled">
         <Text className="li text-justify">
@@ -4317,47 +3675,37 @@ export default function PageCatecismo() {
           próximo.
         </Text>
       </View>
-      <Text className="h5">393 - Que nos proíbe o terceiro Mandamento?</Text>
+      <H5 text="393 - Que nos proíbe o terceiro Mandamento?" />
       <Text className="text-base">
         O terceiro Mandamento proíbe-nos os trabalhos servis, e qualquer obra
         que nos impeça o culto de Deus.
       </Text>
-      <Text className="h5">
-        394 - Quais são os trabalhos servis proibidos nos dias santos?
-      </Text>
+      <H5 text="394 - Quais são os trabalhos servis proibidos nos dias santos?" />
       <Text className="text-base">
         Os trabalhos servis proibidos nos dias santos são os trabalhos chamados
         manuais, isto é, aqueles trabalhos materiais em que tem parte mais o
         corpo do que o espírito, como os que ordinariamente são próprios dos
         servidores, dos operários e dos artífices.
       </Text>
-      <Text className="h5">
-        395 - Que pecado se comete trabalhando em dia santo?
-      </Text>
+      <H5 text="395 - Que pecado se comete trabalhando em dia santo?" />
       <Text className="text-base">
         Trabalhando em dia santo, comete-se pecado mortal; não obstante não há
         culpa grave se o trabalho dura pouco tempo.
       </Text>
-      <Text className="h5">
-        396 - Não há nenhum trabalho servil que seja permitido nos dias santos?
-      </Text>
+      <H5 text="396 - Não há nenhum trabalho servil que seja permitido nos dias santos?" />
       <Text className="text-base">
         Nos dias santos são permitidos aqueles trabalhos que são necessários à
         vida, ou ao serviço de Deus, e os que se fazem por uma causa grave,
         pedindo licença, se for possível, ao próprio pároco.
       </Text>
-      <Text className="h5">
-        397 - Por que nos dias santos são proibidos os trabalhos servis?
-      </Text>
+      <H5 text="397 - Por que nos dias santos são proibidos os trabalhos servis?" />
       <Text className="text-base">
         São proibidos nos dias santos os trabalhos servis, a fim de que possamos
         melhor dedicar-nos ao culto divino e à salvação da nossa alma, e para
         repousar das nossas fadigas. Por isso não é proibido entregar-se a
         divertimentos honestos.
       </Text>
-      <Text className="h5">
-        398 - Que mais devemos evitar de modo especial nos dias santos?
-      </Text>
+      <H5 text="398 - Que mais devemos evitar de modo especial nos dias santos?" />
       <Text className="text-base">
         Nos dias santos devemos evitar principalmente o pecado e tudo o que
         possa induzir-nos a ele, como são os bailes e outras diversões e
@@ -4367,7 +3715,7 @@ export default function PageCatecismo() {
         III -{" "}
         <Text className="em">Dos Mandamentos que se referem ao próximo</Text>
       </Text>
-      <Text className="h4">1º - Do quarto Mandamento da Lei de Deus</Text>
+      <H4 text="1º - Do quarto Mandamento da Lei de Deus" />
       <Text className="text-base">
         Honra teu pai e tua mãe, como o Senhor teu Deus te mandou, para que
         vivas longos anos e sejas feliz na terra que o Senhor teu Deus te dá.
@@ -4402,99 +3750,75 @@ export default function PageCatecismo() {
         crescia em sabedoria, idade e graça diante de Deus e das pessoas. Luc 2,
         48-5
       </Text>
-      <Text className="h5">
-        399 - Que nos ordena o quarto Mandamento: honrar pai e mãe?
-      </Text>
+      <H5 text="399 - Que nos ordena o quarto Mandamento: honrar pai e mãe?" />
       <Text className="text-base">
         O quarto Mandamento: honrar pai e mãe, ordena-nos respeitar o pai e a
         mãe, obedecer-lhes em tudo o que não é pecado, e auxiliá-los em suas
         necessidades espirituais e temporais.
       </Text>
-      <Text className="h5">400 - Que nos proíbe o quarto Mandamento?</Text>
+      <H5 text="400 - Que nos proíbe o quarto Mandamento?" />
       <Text className="text-base">
         O quarto Mandamento proíbe-nos ofender os nossos pais com palavras,
         obras, ou de qualquer outra maneira.
       </Text>
-      <Text className="h5">
-        401 - Debaixo do nome de pai e de mãe, que mais pessoas compreende este
-        Mandamento?
-      </Text>
+      <H5 text="401 - Debaixo do nome de pai e de mãe, que mais pessoas compreende este Mandamento?" />
       <Text className="text-base">
         Debaixo do nome de pai e de mãe, este Mandamento também compreende todos
         os legítimos superiores tanto eclesiásticos como seculares, aos quais
         portanto devemos obedecer e respeitar.
       </Text>
-      <Text className="h5">
-        402 - De onde vem aos pais a autoridade de mandar nos filhos, e aos
-        filhos a obrigação de lhes obedecer?
-      </Text>
+      <H5 text="402 - De onde vem aos pais a autoridade de mandar nos filhos, e aos filhos a obrigação de lhes obedecer?" />
       <Text className="text-base">
         A autoridade que os pais têm de mandar nos filhos, e a obrigação que têm
         os filhos de obedecer, vêm-lhes de Deus que constituiu e ordenou a
         família, a fim de que nela o homem encontre os primeiros meios
         necessários para o seu aperfeiçoamento material e espiritual.
       </Text>
-      <Text className="h5">403 - Têm os pais deveres para com os filhos?</Text>
+      <H5 text="403 - Têm os pais deveres para com os filhos?" />
       <Text className="text-base">
         Os pais têm o dever de amar, cuidar e alimentar seus filhos, de prover à
         sua educação religiosa e civil, de dar-lhes o bom exemplo, de afastá-los
         das ocasiões de pecado, de corrigi-los nas suas faltas, e de auxiliá-los
         a abraçar o estado para o qual são chamados por Deus.
       </Text>
-      <Text className="h5">
-        404 - Deu-nos Deus o modelo da família perfeita?
-      </Text>
+      <H5 text="404 - Deu-nos Deus o modelo da família perfeita?" />
       <Text className="text-base">
         Deus nos deu o modelo da família perfeita na Sagrada Família, na qual
         Jesus Cristo viveu sujeito a Maria Santíssima e a São José até aos
         trinta anos, isto é, até quando começou a desempenhar a missão que o
         Padre Eterno Lhe confiara, de pregar o Evangelho.
       </Text>
-      <Text className="h5">
-        405 - Poderiam as famílias, se vivessem isoladamente uma das outras,
-        prover a todas as suas necessidades materiais e morais?
-      </Text>
+      <H5 text="405 - Poderiam as famílias, se vivessem isoladamente uma das outras, prover a todas as suas necessidades materiais e morais?" />
       <Text className="text-base">
         Se as famílias vivessem isoladamente umas das outras, não poderiam
         prover às suas necessidades, e é necessário o que elas se unam em
         sociedade civil, a fim de se auxiliarem mutuamente, para o seu
         aperfeiçoamento e para sua felicidade comum.
       </Text>
-      <Text className="h5">406 - Que é a sociedade civil?</Text>
+      <H5 text="406 - Que é a sociedade civil?" />
       <Text className="text-base">
         A sociedade civil é a reunião de muitas famílias, dependentes da
         autoridade de um chefe, para se auxiliarem reciprocamente a conseguir o
         mútuo aperfeiçoamento e a felicidade tempora
       </Text>
-      <Text className="h5">
-        407 - De onde vem à sociedade civil a autoridade que a governa?
-      </Text>
+      <H5 text="407 - De onde vem à sociedade civil a autoridade que a governa?" />
       <Text className="text-base">
         A autoridade que governa a sociedade civil vem de Deus, que a quer
         constituída para o bem comum.
       </Text>
-      <Text className="h5">
-        408 - Há obrigação de respeitar a autoridade que governa a sociedade
-        civil e de lhe prestar obediência?
-      </Text>
+      <H5 text="408 - Há obrigação de respeitar a autoridade que governa a sociedade civil e de lhe prestar obediência?" />
       <Text className="text-base">
         Sim, todos os que pertencem à sociedade civil, têm obrigação de
         respeitar a autoridade e de lhe obedecer, porque esta autoridade vem de
         Deus, e porque assim o exige o bem comum.
       </Text>
-      <Text className="h5">
-        409 - Devem respeitar-se todas as leis que são impostas pela autoridade
-        civil?
-      </Text>
+      <H5 text="409 - Devem respeitar-se todas as leis que são impostas pela autoridade civil?" />
       <Text className="text-base">
         Devem respeitar-se todas as leis que a autoridade civil impõe, desde que
         não sejam contrárias à Lei de Deus, pois esta é a ordem e o exemplo de
         Nosso Senhor Jesus Cristo.
       </Text>
-      <Text className="h5">
-        410 - Além do respeito e da obediência às leis impostas pela autoridade,
-        os que formam parte da sociedade civil têm mais alguns deveres?
-      </Text>
+      <H5 text="410 - Além do respeito e da obediência às leis impostas pela autoridade, os que formam parte da sociedade civil têm mais alguns deveres?" />
       <Text className="text-base">
         Os que formam parte da sociedade civil, além da obrigação de respeitar e
         obedecer às leis, têm o dever de viver em harmonia e de procurar,
@@ -4502,7 +3826,7 @@ export default function PageCatecismo() {
         ordenada e próspera para o proveito comum, com vistas à salvação eterna
         dos indivíduos.
       </Text>
-      <Text className="h4">2º - Do quinto Mandamento da Lei de Deus</Text>
+      <H4 text="2º - Do quinto Mandamento da Lei de Deus" />
       <Text className="text-base">
         Aconteceu, tempos depois, que Caim apresentou ao Senhor frutos da terra
         como oferta. Abel, por sua vez, ofereceu os primeiros cordeirinhos e a
@@ -4528,9 +3852,7 @@ export default function PageCatecismo() {
         presença do Senhor, Caim foi habitar na região de Nod, ao oriente de
         Éden. Gênesis 4, 3-1
       </Text>
-      <Text className="h5">
-        411 - Que nos proíbe o quinto Mandamento: não matar?
-      </Text>
+      <H5 text="411 - Que nos proíbe o quinto Mandamento: não matar?" />
       <Text className="text-base">
         O quinto Mandamento: não matar, proíbe dar a morte ao próximo, nele
         bater ou feri-lo, ou causar qualquer outro dano no seu corpo, por nós ou
@@ -4538,36 +3860,31 @@ export default function PageCatecismo() {
         querer-lhe o mal. Neste Mandamento Deus proíbe ainda ao homem dai, a
         morte a si mesmo, isto é, o suicídio.
       </Text>
-      <Text className="h5">412 - Por que é pecado grave matar o próximo?</Text>
+      <H5 text="412 - Por que é pecado grave matar o próximo?" />
       <Text className="text-base">
         Porque o que mata usurpa temerariamente o direito que só Deus tem sobre
         a vida do homem; porque destrói a segurança da sociedade humana, e
         porque tira ao próximo a vida, que é o maior bem natural que ele tem
         neste mundo.
       </Text>
-      <Text className="h5">
-        413 - Haverá casos em que seja lícito matar o próximo?
-      </Text>
+      <H5 text="413 - Haverá casos em que seja lícito matar o próximo?" />
       <Text className="text-base">
         É lícito tirar a vida do próximo: durante o combate em guerra justa;
         quando se executa por ordem da autoridade suprema a condenação à morte
         em castigo de algum crime; e finalmente quando se trata de necessária e
         legítima defesa da vida, no momento de uma injusta agressão.
       </Text>
-      <Text className="h5">
-        414 - No quinto Mandamento proíbe também Deus fazer mal à vida
-        espiritual do próximo?
-      </Text>
+      <H5 text="414 - No quinto Mandamento proíbe também Deus fazer mal à vida espiritual do próximo?" />
       <Text className="text-base">
         Sim, Deus no quinto Mandamento proíbe também fazer mal à vida espiritual
         do próximo com o escândalo.
       </Text>
-      <Text className="h5">415 - Que é o escândalo?</Text>
+      <H5 text="415 - Que é o escândalo?" />
       <Text className="text-base">
         O escândalo é toda palavra, ação ou omissão, que é ocasião para os
         outros de cometerem pecados.
       </Text>
-      <Text className="h5">416 - É pecado grave o escândalo?</Text>
+      <H5 text="416 - É pecado grave o escândalo?" />
       <Text className="text-base">
         O escândalo é um pecado grave, porque tende a destruir a maior obra de
         Deus, que é a redenção, com a perda das almas: pois que ele dá ao
@@ -4575,53 +3892,41 @@ export default function PageCatecismo() {
         que a vida do corpo; e porque é causa de uma multidão de pecados. Por
         isso, Deus ameaça os escandalosos com os mais severos castigos.
       </Text>
-      <Text className="h5">
-        417 - Por que no quinto Mandamento Deus proíbe ao homem dar a morte a si
-        mesmo, isto é, suicidar-se?
-      </Text>
+      <H5 text="417 - Por que no quinto Mandamento Deus proíbe ao homem dar a morte a si mesmo, isto é, suicidar-se?" />
       <Text className="text-base">
         No quinto Mandamento Deus proíbe o suicídio, porque o homem não é senhor
         da sua vida, como o não é da dos outros. A Igreja, por seu lado, castiga
         o suicida com a privação da sepultura eclesiástica.
       </Text>
-      <Text className="h5">
-        418 - É proibido no quinto Mandamento também o duelo?
-      </Text>
+      <H5 text="418 - É proibido no quinto Mandamento também o duelo?" />
       <Text className="text-base">
         Sim, o quinto Mandamento proíbe também o duelo, porque o duelo participa
         da malícia do suicídio e do homicídio, e fica excomungado todo o que
         voluntariamente nele toma parte, ainda que seja como simples espectador.
       </Text>
-      <Text className="h5">
-        419 - É também proibido o duelo, quando é excluído o perigo de morte?
-      </Text>
+      <H5 text="419 - É também proibido o duelo, quando é excluído o perigo de morte?" />
       <Text className="text-base">
         Sim, é também proibido este duelo, porque não só não podemos matar, mas
         nem sequer ferir voluntariamente a nós mesmos ou a outrem.
       </Text>
-      <Text className="h5">
-        420 - Pode a defesa da honra justificar o duelo?
-      </Text>
+      <H5 text="420 - Pode a defesa da honra justificar o duelo?" />
       <Text className="text-base">
         Não. Porque é falso que no duelo se repare a ofensa, e porque não se
         pode reparar a honra com uma ação injusta, irracional e bárbara, qual é
         o duelo.
       </Text>
-      <Text className="h5">421 - Que nos ordena o quinto Mandamento?</Text>
+      <H5 text="421 - Que nos ordena o quinto Mandamento?" />
       <Text className="text-base">
         O quinto Mandamento ordena-nos que perdoemos aos nossos inimigos e
         queiramos bem a todos.
       </Text>
-      <Text className="h5">
-        422 - Que deve fazer quem danificou o próximo na vida do corpo, ou na da
-        alma?
-      </Text>
+      <H5 text="422 - Que deve fazer quem danificou o próximo na vida do corpo, ou na da alma?" />
       <Text className="text-base">
         Quem danificou o próximo, não basta que se confesse, mas deve também
         reparar o mal que fez, compensando o próximo dos danos que lhe causou,
         retratando os erros que lhe ensinou, e dando-lhe bom exemplo.
       </Text>
-      <Text className="h4">3º - Do 6º e do 9º</Text>
+      <H4 text="3º - Do 6º e do 9º" />
       <Text className="text-base">
         Mandamentos da Lei de Deus José foi levado para o Egito. Putifar, um
         egípcio, ministro do Faraó e chefe da guarda do palácio, o comprou dos
@@ -4663,54 +3968,45 @@ export default function PageCatecismo() {
         coisa alguma que lhe fora confiada, porque o Senhor estava com José e
         fazia prosperar tudo o que ele fazia. Gênesis 39, 1-2
       </Text>
-      <Text className="h5">
-        423 - Que nos proíbe o sexto Mandamento: não pecar contra a castidade?
-      </Text>
+      <H5 text="423 - Que nos proíbe o sexto Mandamento: não pecar contra a castidade?" />
       <Text className="text-base">
         O sexto Mandamento: não pecar contra a castidade, proíbe qualquer ação,
         palavra ou olhar contrários à santa pureza, e a infidelidade no
         matrimônio.
       </Text>
-      <Text className="h5">424 - Que nos proíbe o nono Mandamento?</Text>
+      <H5 text="424 - Que nos proíbe o nono Mandamento?" />
       <Text className="text-base">
         O nono Mandamento proíbe expressamente todo o desejo contrário à
         fidelidade que os cônjuges se juraram ao contrair matrimônio; e proíbe
         também todo o pensamento culpável e todo desejo de ação proibida pelo
         sexto Mandamento.
       </Text>
-      <Text className="h5">425 - É um grande pecado a impureza?</Text>
+      <H5 text="425 - É um grande pecado a impureza?" />
       <Text className="text-base">
         É um pecado gravíssimo e abominável diante de Deus e dos homens; rebaixa
         o homem à condição dos irracionais, arrasta-o a muitos outros pecados e
         vícios, e provoca o, mais terríveis castigos de Deus nesta vida e na
         outra.
       </Text>
-      <Text className="h5">
-        426 - São pecados todos os pensamentos que nos vêm ao espírito contra a
-        pureza?
-      </Text>
+      <H5 text="426 - São pecados todos os pensamentos que nos vêm ao espírito contra a pureza?" />
       <Text className="text-base">
         Os pensamentos que nos vêm ao espírito contra ti pureza, por si mesmos
         não são pecados, mas antes tentações e incentivos ao pecado.
       </Text>
-      <Text className="h5">427 - Quando são pecados os maus pensamentos?</Text>
+      <H5 text="427 - Quando são pecados os maus pensamentos?" />
       <Text className="text-base">
         Os maus pensamentos, ainda que não sejam seguidos de ação, são pecados,
         quando culpavelmente lhes damos motivo, ou neles consentimos, ou nos
         expomos ao perigo próximo de neles consentir.
       </Text>
-      <Text className="h5">
-        428 - Que nos ordenam o sexto e o nono Mandamentos?
-      </Text>
+      <H5 text="428 - Que nos ordenam o sexto e o nono Mandamentos?" />
       <Text className="text-base">
         O sexto Mandamento ordena-nos que sejamos castos e modestos nas ações,
         nos olhares, no porte e nas palavras. O nono Mandamento ordena-nos que
         sejamos castos e puros, ainda mesmo tio nosso íntimo, isto é, tia alma e
         no coração.
       </Text>
-      <Text className="h5">
-        429 - Que devemos fazer para observar o sexto e o nono Mandamentos?
-      </Text>
+      <H5 text="429 - Que devemos fazer para observar o sexto e o nono Mandamentos?" />
       <Text className="text-base">
         Para bem observarmos o sexto e o nono Mandamentos, devemos invocar
         frequentemente e de todo o coração a Deus, ser devotos de Maria Virgem,
@@ -4719,16 +4015,14 @@ export default function PageCatecismo() {
         sentidos, praticar a mortificação cristã, e frequentar os sacramentos
         corri as devidas disposições.
       </Text>
-      <Text className="h5">
-        43O Que devemos evitar para nos conservarmos castos?
-      </Text>
+      <H5 text="43O Que devemos evitar para nos conservarmos castos?" />
       <Text className="text-base">
         Para nos conservarmos castos, devemos evitar a ociosidade, os maus
         companheiros, as más leituras, a intemperança, o olhar para figuras
         indecentes, os espetáculos licenciosos, os bailes, as conversas e
         diversões perigosas, bem como todas as demais ocasiões de pecado.
       </Text>
-      <Text className="h4">4º - Do sétimo Mandamento da Lei de Deus</Text>
+      <H4 text="4º - Do sétimo Mandamento da Lei de Deus" />
       <Text className="text-base">
         Jesus entrou em Jericó e atravessava a cidade. Havia ali um homem rico,
         chamado Zaqueu, chefe dos cobradores do imposto. Procurava ver Jesus,
@@ -4744,64 +4038,55 @@ export default function PageCatecismo() {
         também este é um filho de Abraão. Poiso Filho do homem veio procurar e
         salvar o que estava perdido. Luc 19, 1-
       </Text>
-      <Text className="h5">
-        431 - Que nos proíbe o sétimo Mandamento: não furtar?
-      </Text>
+      <H5 text="431 - Que nos proíbe o sétimo Mandamento: não furtar?" />
       <Text className="text-base">
         O sétimo Mandamento: não furtar, proíbe tirar ou reter injustamente as
         coisas alheias, e causar dano ao próximo nos seus bens de qualquer outro
         modo.
       </Text>
-      <Text className="h5">432 - Que quer dizer furtar?</Text>
+      <H5 text="432 - Que quer dizer furtar?" />
       <Text className="text-base">
         Furtar quer dizer: tirar injustamente as coisas alheias contra a vontade
         do dono, quando ele tem toda a razão e todo o direito de não querer ser
         privado do que lhe pertence.
       </Text>
-      <Text className="h5">433 - Por que se proíbe o furtar?</Text>
+      <H5 text="433 - Por que se proíbe o furtar?" />
       <Text className="text-base">
         Porque se peca contra a justiça, e se faz injúria ao próximo, tirando e
         retendo, contra o seu direito e contra a sua vontade, o que lhe
         pertence.
       </Text>
-      <Text className="h5">434 - Que são as coisas alheias?</Text>
+      <H5 text="434 - Que são as coisas alheias?" />
       <Text className="text-base">
         São todas as coisas que pertencem ao próximo, das quais tem a
         propriedade ou o uso, ou simplesmente as tem em depósito.
       </Text>
-      <Text className="h5">
-        435 - De quantos modos se tiram injustamente as coisas alheias?
-      </Text>
+      <H5 text="435 - De quantos modos se tiram injustamente as coisas alheias?" />
       <Text className="text-base">
         De dois modos: com o furto e com o roubo.
       </Text>
-      <Text className="h5">436 - Como se comete o furto?</Text>
+      <H5 text="436 - Como se comete o furto?" />
       <Text className="text-base">
         Comete-se o furto tirando ocultamente as coisas alheias.
       </Text>
-      <Text className="h5">437 - Como se comete o roubo?</Text>
+      <H5 text="437 - Como se comete o roubo?" />
       <Text className="text-base">
         Comete-se o roubo tirando com violência ou manifestamente as coisas
         alheias.
       </Text>
-      <Text className="h5">
-        438 - Em que casos se podem tirar as coisas alheias, sem cometer pecado?
-      </Text>
+      <H5 text="438 - Em que casos se podem tirar as coisas alheias, sem cometer pecado?" />
       <Text className="text-base">
         Quando o dono se não opõe, ou então, quando se opõe injustamente, como
         aconteceria se alguém estivesse em extrema necessidade, contanto, que
         tirasse só o que lhe é estritamente necessário para suprir à necessidade
         urgente e extrema.
       </Text>
-      <Text className="h5">
-        439 - É só com o furto e com o roubo que se prejudica o próximo nos seus
-        bens?
-      </Text>
+      <H5 text="439 - É só com o furto e com o roubo que se prejudica o próximo nos seus bens?" />
       <Text className="text-base">
         Prejudica-se também com a fraude, com a usura e com outra qualquer
         injustiça contra os seus bens.
       </Text>
-      <Text className="h5">44O Como se comete a fraude?</Text>
+      <H5 text="44O Como se comete a fraude?" />
       <Text className="text-base">
         Comete-se a fraude enganando o próximo no comércio com pesos, medidas ou
         moedas falsas, ou com gêneros deteriorados; falsificando escrituras e
@@ -4809,14 +4094,12 @@ export default function PageCatecismo() {
         qualquer outro contrato, e ainda quando se não quer dar o preço justo ou
         o preço combinado.
       </Text>
-      <Text className="h5">441 - De que modo se comete a usura?</Text>
+      <H5 text="441 - De que modo se comete a usura?" />
       <Text className="text-base">
         Comete-se a usura exigindo sem titulo legítimo um juro ilícito por uma
         quantia emprestada, abusando da necessidade ou da ignorância do próximo.
       </Text>
-      <Text className="h5">
-        442 - Que outras injustiças se cometem contra os bens do próximo?
-      </Text>
+      <H5 text="442 - Que outras injustiças se cometem contra os bens do próximo?" />
       <Text className="text-base">
         São injustiças fazê-lo perder injustamente o que tem, danificá-lo nas
         suas propriedades, não trabalhar como se deve, não pagar, por malícia,
@@ -4825,55 +4108,48 @@ export default function PageCatecismo() {
         impedir alguém de auferir um lucro justo, auxiliar os ladrões, e
         receber, esconder ou comprar as coisas roubadas.
       </Text>
-      <Text className="h5">443 - É pecado grave roubar?</Text>
+      <H5 text="443 - É pecado grave roubar?" />
       <Text className="text-base">
         É um pecado grave contra a justiça quando se trata de matéria grave,
         porque é de suma importância que seja respeitado o direito que cada um
         tem sobre os próprios bens, e isto para bem dos indivíduos, das famílias
         e da sociedade.
       </Text>
-      <Text className="h5">444 - Quando é grave a matéria do furto?</Text>
+      <H5 text="444 - Quando é grave a matéria do furto?" />
       <Text className="text-base">
         É grave quando se tira coisa importante, e ainda quando, tirando-se
         coisa de pouca monta, o próximo sofre com isso grave dano.
       </Text>
-      <Text className="h5">445 - Que nos ordena o sétimo Mandamento?</Text>
+      <H5 text="445 - Que nos ordena o sétimo Mandamento?" />
       <Text className="text-base">
         O sétimo Mandamento ordena-nos que respeitemos as coisas alheias, que
         paguemos o justo salário aos operários, e que observemos a justiça em
         tudo o que se refere à propriedade alheia.
       </Text>
-      <Text className="h5">
-        446 - Quem pecou contra o sétimo Mandamento, basta que se confesse
-        disso?
-      </Text>
+      <H5 text="446 - Quem pecou contra o sétimo Mandamento, basta que se confesse disso?" />
       <Text className="text-base">
         Quem pecou contra o sétimo Mandamento, não basta que se confesse, mas é
         necessário que faça o que puder para restituir as coisas alheias e
         reparar os danos causados ao próximo.
       </Text>
-      <Text className="h5">447 - Que é a reparação dos danos causados?</Text>
+      <H5 text="447 - Que é a reparação dos danos causados?" />
       <Text className="text-base">
         A reparação dos danos causados é a compensação que se deve dar ao
         próximo pelos frutos e lucros perdidos por causa do furto e das outras
         injustiças cometidas em seu prejuízo.
       </Text>
-      <Text className="h5">
-        448 - A quem se devem restituir as coisas roubadas?
-      </Text>
+      <H5 text="448 - A quem se devem restituir as coisas roubadas?" />
       <Text className="text-base">
         Àquele a quem se roubaram; aos seus herdeiros, se já tiver morrido; e se
         isso for verdadeiramente impossível, deve-se dar o seu valor aos pobres
         e a obras pias.
       </Text>
-      <Text className="h5">
-        449 - Que se deve fazer, quando se acha alguma coisa de grande valor?
-      </Text>
+      <H5 text="449 - Que se deve fazer, quando se acha alguma coisa de grande valor?" />
       <Text className="text-base">
         Deve-se empregar grande diligência para achar o dono, e restituir-lhe
         fielmente.
       </Text>
-      <Text className="h4">5º - Do oitavo Mandamento da Lei de Deus</Text>
+      <H4 text="5º - Do oitavo Mandamento da Lei de Deus" />
       <Text className="text-base">
         Em Babilônia vivia um homem de nome Joaquim. Estava casado com uma
         senhora chamada Susana filha de Helcias, que era muito bonita e
@@ -4984,90 +4260,84 @@ export default function PageCatecismo() {
         porque nela não foi achada qualquer coisa que merecesse reprovação. Dan
         13, 1-6
       </Text>
-      <Text className="h5">
-        450 - Que nos proíbe o oitavo Mandamento: não levantar falso testemunho?
-      </Text>
+      <H5 text="450 - Que nos proíbe o oitavo Mandamento: não levantar falso testemunho?" />
       <Text className="text-base">
         O oitavo Mandamento: não levantar falso testemunho, proíbe-nos atestar
         falsidade em juízo; proíbe também a detração ou murmuração, a calúnia, a
         adulação, o juízo e a suspeita temerários, e toda espécie de mentiras.
       </Text>
-      <Text className="h5">451 - Que é a detração ou murmuração?</Text>
+      <H5 text="451 - Que é a detração ou murmuração?" />
       <Text className="text-base">
         A detração ou murmuração é um pecado que consiste em manifestar, sem
         justo motivo, os pecados ou defeitos alheios.
       </Text>
-      <Text className="h5">452 - Que é a calúnia?</Text>
+      <H5 text="452 - Que é a calúnia?" />
       <Text className="text-base">
         A calúnia é um pecado que consiste em atribuir maliciosamente ao próximo
         culpas e defeitos que não tem.
       </Text>
-      <Text className="h5">453 - Que é a adulação?</Text>
+      <H5 text="453 - Que é a adulação?" />
       <Text className="text-base">
         A adulação é um pecado que consiste em enganar urna pessoa, dizendo-lhe
         falsamente bem dela mesma ou de outra, com o fim de tirar daí algum
         proveito.
       </Text>
-      <Text className="h5">454 - Que é o juízo ou suspeita temerária?</Text>
+      <H5 text="454 - Que é o juízo ou suspeita temerária?" />
       <Text className="text-base">
         O juízo ou suspeita temerária é um pecado que consiste em julgar ou
         suspeitar mal dos outros, sem justo fundamento.
       </Text>
-      <Text className="h5">455 - Que é a mentira?</Text>
+      <H5 text="455 - Que é a mentira?" />
       <Text className="text-base">
         A mentira é um pecado que consiste em afirmar como verdadeiro ou como
         falso, por meio de palavras ou de ações, o que se julga não ser assim.
       </Text>
-      <Text className="h5">456 - De quantas espécies é a mentira?</Text>
+      <H5 text="456 - De quantas espécies é a mentira?" />
       <Text className="text-base">
         A mentira é de três espécies: jocosa, oficiosa e nociva.
       </Text>
-      <Text className="h5">457 - Que é a mentira jocosa?</Text>
+      <H5 text="457 - Que é a mentira jocosa?" />
       <Text className="text-base">
         Mentira jocosa é aquela pela qual se mente por gracejo e sem prejuízo
         para ninguém.
       </Text>
-      <Text className="h5">458 - Que é a mentira oficiosa?</Text>
+      <H5 text="458 - Que é a mentira oficiosa?" />
       <Text className="text-base">
         Mentira oficiosa é a afirmação de urna falsidade para utilidade própria
         ou alheia, sem prejuízo para ninguém.
       </Text>
-      <Text className="h5">459 - Que é a mentira nociva?</Text>
+      <H5 text="459 - Que é a mentira nociva?" />
       <Text className="text-base">
         Mentira nociva é a afirmação de uma falsidade com prejuízo do próximo.
       </Text>
-      <Text className="h5">460 - É lícito alguma vez mentir?</Text>
+      <H5 text="460 - É lícito alguma vez mentir?" />
       <Text className="text-base">
         Nunca é lícito mentir nem por gracejo, nem para proveito próprio ou
         alheio, porque é coisa má por si mesma.
       </Text>
-      <Text className="h5">461 - Que pecado é a mentira?</Text>
+      <H5 text="461 - Que pecado é a mentira?" />
       <Text className="text-base">
         A mentira, quando é jocosa ou oficiosa, é pecado venial; mas, quando é
         nociva, é pecado mortal, se o prejuízo que causa é grave.
       </Text>
-      <Text className="h5">
-        462 - É necessário dizer sempre tudo conforme se pensa?
-      </Text>
+      <H5 text="462 - É necessário dizer sempre tudo conforme se pensa?" />
       <Text className="text-base">
         Não. Nem sempre é necessário, especialmente quando quem pergunta não tem
         o direito de saber o que pergunta.
       </Text>
-      <Text className="h5">
-        463 - Quem pecou contra o oitavo Mandamento, basta que se confesse?
-      </Text>
+      <H5 text="463 - Quem pecou contra o oitavo Mandamento, basta que se confesse?" />
       <Text className="text-base">
         Quem pecou contra o oitavo Mandamento, não basta que confesse o seu
         pecado, mas é também obrigado a retratar tudo o que disse caluniando o
         próximo, e a reparar, do melhor modo que possa, os danos que lhe causou.
       </Text>
-      <Text className="h5">464 - Que nos ordena o oitavo Mandamento?</Text>
+      <H5 text="464 - Que nos ordena o oitavo Mandamento?" />
       <Text className="text-base">
         O oitavo Mandamento ordena-nos que digamos oportunamente a verdade, e
         que interpretemos em bom sentido, tanto quanto pudermos, as ações do
         nosso próximo.
       </Text>
-      <Text className="h4">6º - Do décimo Mandamento da Lei de Deus</Text>
+      <H4 text="6º - Do décimo Mandamento da Lei de Deus" />
       <Text className="text-base">
         Eis o que se passou depois destes acontecimentos: Nabot de Jezrael
         possuía uma vinha em Jezrael ao lado do palácio de Acab, rei de Samaria.
@@ -5121,31 +4391,25 @@ export default function PageCatecismo() {
         Acab que morrerem na cidade, serão devorados pelos cachorros, e os que
         morrerem na campanha, serão comidos pelas aves do céu. I Reis 21, 1-2
       </Text>
-      <Text className="h5">
-        465 - Que nos proíbe o décimo Mandamento: não cobiçar as coisas alheias?
-      </Text>
+      <H5 text="465 - Que nos proíbe o décimo Mandamento: não cobiçar as coisas alheias?" />
       <Text className="text-base">
         O décimo Mandamento: não cobiçar as coisas alheias, proíbe o desejo de
         privar o próximo dos seus bens, e o desejo de adquirir bens por meios
         injustos.
       </Text>
-      <Text className="h5">
-        466 - Por que Deus proíbe o desejo dos bens alheios?
-      </Text>
+      <H5 text="466 - Por que Deus proíbe o desejo dos bens alheios?" />
       <Text className="text-base">
         Deus proíbe-nos o desejo dos bens alheios, porque Ele quer que nós, até
         interiormente, sejamos justos, e nos conservemos cada vez mais afastados
         das ações injustas.
       </Text>
-      <Text className="h5">467 - Que nos ordena o décimo Mandamento?</Text>
+      <H5 text="467 - Que nos ordena o décimo Mandamento?" />
       <Text className="text-base">
         O décimo Mandamento ordena-nos que nos contentemos com o estado em que
         Deus nos colocou, e que soframos com paciência a pobreza, quando Deus
         nos queira neste estado.
       </Text>
-      <Text className="h5">
-        468 - Como pode o cristão estar contente na pobreza?
-      </Text>
+      <H5 text="468 - Como pode o cristão estar contente na pobreza?" />
       <Text className="text-base">
         O cristão pode estar contente mesmo na pobreza, considerando que o maior
         de todos os bens é a consciência pura e tranquila, que a nossa
@@ -5184,45 +4448,34 @@ export default function PageCatecismo() {
         prostituição. Procedereis bem evitando estas coisas. Passai bem. Atos
         15, 22-2
       </Text>
-      <Text className="h4">1º - Dos preceitos da Igreja em geral</Text>
-      <Text className="h5">
-        469 - Além dos Mandamentos da Lei de Deus, que mais coisas somos nós
-        obrigados a observar?
-      </Text>
+      <H4 text="1º - Dos preceitos da Igreja em geral" />
+      <H5 text="469 - Além dos Mandamentos da Lei de Deus, que mais coisas somos nós obrigados a observar?" />
       <Text className="text-base">
         Além dos Mandamentos da Lei de Deus, somos obrigados a observar os
         mandamentos ou preceitos da Igreja.
       </Text>
-      <Text className="h5">47O Somos obrigados a obedecer à Igreja?</Text>
+      <H5 text="47O Somos obrigados a obedecer à Igreja?" />
       <Text className="text-base">
         Sem dúvida, somos obrigados a obedecer à Igreja, porque o próprio Jesus
         Cristo no-lo ordena, e porque os preceitos da Igreja facilitam a
         observância dos Mandamentos de Deus.
       </Text>
-      <Text className="h5">
-        471 - Quando começa a obrigação de observar os preceitos da Igreja?
-      </Text>
+      <H5 text="471 - Quando começa a obrigação de observar os preceitos da Igreja?" />
       <Text className="text-base">
         A obrigação de observar os preceitos da Igreja começa geralmente com o
         uso da razão.
       </Text>
-      <Text className="h5">
-        472 - É pecado transgredir um preceito da Igreja?
-      </Text>
+      <H5 text="472 - É pecado transgredir um preceito da Igreja?" />
       <Text className="text-base">
         Transgredir com advertência um preceito da Igreja em matéria grave é
         pecado grave.
       </Text>
-      <Text className="h5">
-        473 - Quem pode dispensar de um preceito da Igreja?
-      </Text>
+      <H5 text="473 - Quem pode dispensar de um preceito da Igreja?" />
       <Text className="text-base">
         De um preceito da Igreja só pode dispensar o Papa ou quem dele receber
         as competentes faculdades.
       </Text>
-      <Text className="h5">
-        474 - Quantos e quais são os preceitos da Igreja?
-      </Text>
+      <H5 text="474 - Quantos e quais são os preceitos da Igreja?" />
       <Text className="text-base">Os preceitos da Igreja são cinco:</Text>
       <View className="list-styled">
         <Text className="li text-justify">
@@ -5241,28 +4494,19 @@ export default function PageCatecismo() {
           5º - Pagar dízimos segando o costume.
         </Text>
       </View>
-      <Text className="h4">2º - Do primeiro preceito da Igreja</Text>
-      <Text className="h5">
-        475 - Que nos manda o primeiro preceito ou manda mento da Igreja: ouvir
-        Missa inteira nos domingos e festas de guarda?
-      </Text>
+      <H4 text="2º - Do primeiro preceito da Igreja" />
+      <H5 text="475 - Que nos manda o primeiro preceito ou manda mento da Igreja: ouvir Missa inteira nos domingos e festas de guarda?" />
       <Text className="text-base">
         O primeiro preceito da Igreja: ouvir Missa inteira nos domingos e festas
         de guarda, manda-nos assistir com devoção à Santa Missa nos domingos e
         nas outras festas de preceito.
       </Text>
-      <Text className="h5">
-        476 - Qual é a Missa à qual a Igreja deseja que se assista nos domingos
-        e nas outras festas de preceito?
-      </Text>
+      <H5 text="476 - Qual é a Missa à qual a Igreja deseja que se assista nos domingos e nas outras festas de preceito?" />
       <Text className="text-base">
         A Missa à qual a Igreja deseja que, sendo possível, se assista nos
         domingos e nas outras festas de guarda, é a Missa paroquial.
       </Text>
-      <Text className="h5">
-        477 - Por que recomenda a Igreja aos fiéis que assistam à Missa
-        paroquial?
-      </Text>
+      <H5 text="477 - Por que recomenda a Igreja aos fiéis que assistam à Missa paroquial?" />
       <Text className="text-base">
         A Igreja recomenda aos fiéis que assistam à Missa paroquial:
       </Text>
@@ -5284,37 +4528,29 @@ export default function PageCatecismo() {
           estação da referida Missa.
         </Text>
       </View>
-      <Text className="h5">478 - Que quer dizer domingo?</Text>
+      <H5 text="478 - Que quer dizer domingo?" />
       <Text className="text-base">
         Domingo quer dizer dia do Senhor, isto é, dia especialmente consagrado
         ao serviço de Deus.
       </Text>
-      <Text className="h5">
-        479 - Por que no primeiro mandamento da Igreja se faz menção especial do
-        domingo?
-      </Text>
+      <H5 text="479 - Por que no primeiro mandamento da Igreja se faz menção especial do domingo?" />
       <Text className="text-base">
         No primeiro mandamento da Igreja faz-se menção especial do domingo,
         porque é ele o principal dia de festa entre os cristãos, como entre os
         judeus o principal dia de festa era o sábado, por instituição do próprio
         Deus.
       </Text>
-      <Text className="h5">48O Que outras festas instituiu a Igreja?</Text>
+      <H5 text="48O Que outras festas instituiu a Igreja?" />
       <Text className="text-base">
         A Igreja instituiu também as festas de Nosso Senhor, da Santíssima
         Virgem, dos Anjos e dos Santos.
       </Text>
-      <Text className="h5">
-        481 - Por que instituiu a Igreja outras festas de Nosso Senhor?
-      </Text>
+      <H5 text="481 - Por que instituiu a Igreja outras festas de Nosso Senhor?" />
       <Text className="text-base">
         A Igreja instituiu outras festas de Nosso Senhor memória dos seus
         divinos mistérios.
       </Text>
-      <Text className="h5">
-        482 - Por que foram instituídas as festas da Santíssima Virgem, dos
-        Anjos e dos Santos?
-      </Text>
+      <H5 text="482 - Por que foram instituídas as festas da Santíssima Virgem, dos Anjos e dos Santos?" />
       <Text className="text-base">
         As festas da Santíssima Virgem, dos Anjos e dos Santos foram
         instituídas:
@@ -5329,97 +4565,68 @@ export default function PageCatecismo() {
           o auxílio de suas orações.
         </Text>
       </View>
-      <Text className="h4">3º - Do segundo preceito da Igreja</Text>
-      <Text className="h5">
-        483 - Que nos manda a Igreja com as palavras do segundo preceito:
-        confessar-se ao menos uma vez cada ano?
-      </Text>
+      <H4 text="3º - Do segundo preceito da Igreja" />
+      <H5 text="483 - Que nos manda a Igreja com as palavras do segundo preceito: confessar-se ao menos uma vez cada ano?" />
       <Text className="text-base">
         Com as palavras do segundo preceito: confessar-se ao menos uma vez cada
         ano, a Igreja obriga todos os cristãos que chegaram ao uso da razão, a
         receber, uma vez ao menos em cada ano, o Sacramento da Penitência.
       </Text>
-      <Text className="h5">
-        484 - Qual é o tempo mais próprio para cumprir o preceito da confissão
-        anual?
-      </Text>
+      <H5 text="484 - Qual é o tempo mais próprio para cumprir o preceito da confissão anual?" />
       <Text className="text-base">
         O tempo mais próprio para cumprir o preceito da confissão anual é a
         Quaresma, segundo o uso introduzido e aprovado em toda a Igreja.
       </Text>
-      <Text className="h5">
-        485 - Por que diz a Igreja que nos confessemos ao menos uma vez cada
-        ano?
-      </Text>
+      <H5 text="485 - Por que diz a Igreja que nos confessemos ao menos uma vez cada ano?" />
       <Text className="text-base">
         A Igreja diz ao menos, para dar a conhecer o seu desejo de que nos
         aproximemos deste Sacramento com mais frequência.
       </Text>
-      <Text className="h5">
-        486 - É pois útil confessar-nos com frequência?
-      </Text>
+      <H5 text="486 - É pois útil confessar-nos com frequência?" />
       <Text className="text-base">
         É muito útil confessar-nos com frequência, sobretudo porque é difícil
         que se confesse bem e se conserve isento de pecado mortal, quem se
         confessa raras vezes.
       </Text>
-      <Text className="h5">
-        487 - Satisfaz-se a este segundo preceito com uma confissão sacrílega?
-      </Text>
+      <H5 text="487 - Satisfaz-se a este segundo preceito com uma confissão sacrílega?" />
       <Text className="text-base">
         Quem fizer uma confissão sacrílega, não satisfaz ao segundo preceito da
         Igreja, porque a intenção da Igreja é que se receba este Sacramento para
         nossa santificação.
       </Text>
-      <Text className="h4">4º - Do terceiro preceito da Igreja</Text>
-      <Text className="h5">
-        488 - Que nos manda a Igreja com as palavras do terceiro preceito:
-        comungar ao menos pela Páscoa da Ressurreição?
-      </Text>
+      <H4 text="4º - Do terceiro preceito da Igreja" />
+      <H5 text="488 - Que nos manda a Igreja com as palavras do terceiro preceito: comungar ao menos pela Páscoa da Ressurreição?" />
       <Text className="text-base">
         Com as palavras do terceiro preceito: comungar ao menos pela Páscoa da
         Ressurreição, a Igreja obriga todos os cristãos que chegarem à idade da
         discrição a receber todos os anos a Santíssima Eucaristia, durante o
         tempo pascal; e é bom que seja na própria paróquia.
       </Text>
-      <Text className="h5">
-        489 - Qual o tempo útil para satisfazer, no Brasil, o preceito da
-        Comunhão Pascal?
-      </Text>
+      <H5 text="489 - Qual o tempo útil para satisfazer, no Brasil, o preceito da Comunhão Pascal?" />
       <Text className="text-base">
         No Brasil, o tempo útil para satisfazer o preceito da Comunhão Pascal
         vai do dia 2 de fevereiro, festa da Purificação de Nossa Senhora e da
         Apresentação do Menino Jesus no Templo, até o dia 16 de julho,
         comemoração de Nossa Senhora do Carmo.
       </Text>
-      <Text className="h5">
-        49O Somos obrigados a comungar em alguma outra ocasião, fora do tempo
-        pascal?
-      </Text>
+      <H5 text="49O Somos obrigados a comungar em alguma outra ocasião, fora do tempo pascal?" />
       <Text className="text-base">
         Sim, somos obrigados também a comungar em perigo de morte.
       </Text>
-      <Text className="h5">
-        491 - Por que se diz que devemos comungar ao menos pela Páscoa?
-      </Text>
+      <H5 text="491 - Por que se diz que devemos comungar ao menos pela Páscoa?" />
       <Text className="text-base">
         Porque a Igreja deseja vivamente que não somente na Páscoa, mas com
         muita frequência, nos aproximemos da Sagrada Comunhão, que é o alimento
         divino das nossas almas.
       </Text>
-      <Text className="h5">
-        492 - Satisfaz-se a este preceito com uma Comunhão sacrílega?
-      </Text>
+      <H5 text="492 - Satisfaz-se a este preceito com uma Comunhão sacrílega?" />
       <Text className="text-base">
         Quem fizer uma Comunhão sacrílega não satisfaz ao terceiro preceito da
         Igreja; porque a intenção da Igreja é que se receba este Sacramento para
         o fim para que foi instituído, isto é, para nossa santificação.
       </Text>
-      <Text className="h4">5º - Do quarto preceito da Igreja</Text>
-      <Text className="h5">
-        493 - Que nos manda o quarto preceito da Igreja com as palavras jejuar e
-        abster-se de carne quando manda a Santa Madre Igreja?
-      </Text>
+      <H4 text="5º - Do quarto preceito da Igreja" />
+      <H5 text="493 - Que nos manda o quarto preceito da Igreja com as palavras jejuar e abster-se de carne quando manda a Santa Madre Igreja?" />
       <Text className="text-base">
         O quarto preceito da Igreja: jejuar e abster-se de carne quando manda a
         Santa Madre Igreja, manda-nos que jejuemos e nos abstenhamos de carne na
@@ -5427,56 +4634,48 @@ export default function PageCatecismo() {
         carne em todas as sextas-feiras do ano. Esta abstinência pode ser
         comutada por outra obra pia, a juízo do Bispo Diocesano.
       </Text>
-      <Text className="h5">494 - Em que consiste o jejum?</Text>
+      <H5 text="494 - Em que consiste o jejum?" />
       <Text className="text-base">
         O jejum consiste em tomar uma só refeição, durante o dia, e em não comer
         coisas proibidas.
       </Text>
-      <Text className="h5">
-        495 - Nos dias de jejum, além da única refeição, é proibido tomar
-        qualquer outro alimento?
-      </Text>
+      <H5 text="495 - Nos dias de jejum, além da única refeição, é proibido tomar qualquer outro alimento?" />
       <Text className="text-base">
         Nos dias de jejum, a Igreja permite uma pequena parva pela manhã, e uma
         ligeira refeição à noite, ou, então, cerca do meio-dia, quando se deixa
         para a tarde a refeição maior.
       </Text>
-      <Text className="h5">496 - Para que serve o jejum?</Text>
+      <H5 text="496 - Para que serve o jejum?" />
       <Text className="text-base">
         O jejum serve para nos dispor melhor para a oração, para fazer
         penitência dos pecados cometidos, e para nos preservar de cometer outros
         novos.
       </Text>
-      <Text className="h5">497 - Quem é obrigado a jejuar?</Text>
+      <H5 text="497 - Quem é obrigado a jejuar?" />
       <Text className="text-base">
         São obrigados a jejuar todos os cristãos, desde os vinte e um anos
         completos até aos sessenta começados, se não estão dispensados ou
         escusados por legitimo impedimento. A abstinência começa a obrigar aos
         catorze anos.
       </Text>
-      <Text className="h5">
-        498 - Estão também dispensados de toda a mortificação os que não estão
-        obrigados a jejuar?
-      </Text>
+      <H5 text="498 - Estão também dispensados de toda a mortificação os que não estão obrigados a jejuar?" />
       <Text className="text-base">
         Os que não estão obrigados a jejuar, nem por isso estão dispensados de
         toda a mortificação, porque todos temos obrigação de fazer penitência.
       </Text>
-      <Text className="h5">499 - Para que fim foi instituída a Quaresma?</Text>
+      <H5 text="499 - Para que fim foi instituída a Quaresma?" />
       <Text className="text-base">
         A Quaresma foi instituída a fim de imitarmos, de algum modo, o rigoroso
         jejum de quarenta dias que Jesus Cristo observou no deserto, e a fim de
         nos prepararmos, por meio da penitência, para celebrar santamente a
         festa da Páscoa.
       </Text>
-      <Text className="h5">500 - Qual o fim do jejum do Advento?</Text>
+      <H5 text="500 - Qual o fim do jejum do Advento?" />
       <Text className="text-base">
         O jejum do Advento foi instituído para nos dispor a celebrar santamente
         a festa do Nata
       </Text>
-      <Text className="h5">
-        501 - Para que foi instituído o jejum das Quatro Têmporas?
-      </Text>
+      <H5 text="501 - Para que foi instituído o jejum das Quatro Têmporas?" />
       <Text className="text-base">
         O jejum das Quatro Têmporas foi instituído para consagrar cada uma das
         quatro estações do ano com a penitência de alguns dias; para pedir a
@@ -5484,16 +4683,12 @@ export default function PageCatecismo() {
         já concedidos, e para Lhe pedir que dê à sua Igreja santos ministros,
         que são ordenados nos sábados das Quatro Têmporas.
       </Text>
-      <Text className="h5">
-        502 - Para que foi instituído o jejum das vigílias?
-      </Text>
+      <H5 text="502 - Para que foi instituído o jejum das vigílias?" />
       <Text className="text-base">
         O jejum das vigílias foi instituído a fim de nos prepararmos para
         celebrar santamente as festas principais.
       </Text>
-      <Text className="h5">
-        503 - Que nos proíbe a Santa Igreja nos dias de jejum e abstinência?
-      </Text>
+      <H5 text="503 - Que nos proíbe a Santa Igreja nos dias de jejum e abstinência?" />
       <Text className="text-base">
         Quando a pessoa não está legitimamente dispensada, deve no dia de jejum
         e abstinência tornar uma só refeição plena, podendo fazer duas outras
@@ -5501,19 +4696,13 @@ export default function PageCatecismo() {
         por exemplo, uma forte dor de cabeça. Nos dias de abstinência, proíbe o
         uso da carne e do caldo de carne.
       </Text>
-      <Text className="h5">
-        504 - Por que a Igreja quer que nos abstenhamos de comer carne a
-        sexta-feira?
-      </Text>
+      <H5 text="504 - Por que a Igreja quer que nos abstenhamos de comer carne a sexta-feira?" />
       <Text className="text-base">
         A fim de que façamos penitência todas as semanas, e sobretudo à
         sexta-feira, em honra da Paixão de Jesus Cristo.
       </Text>
-      <Text className="h4">6º - Do quinto preceito da Igreja</Text>
-      <Text className="h5">
-        505 - Como se observa o quinto preceito da Igreja: pagar dízimos segundo
-        o costume?
-      </Text>
+      <H4 text="6º - Do quinto preceito da Igreja" />
+      <H5 text="505 - Como se observa o quinto preceito da Igreja: pagar dízimos segundo o costume?" />
       <Text className="text-base">
         Observa-se o quinto preceito: pagar dízimos segundo o costume, pagando
         aquelas ofertas ou contribuições, que foram estabelecidas, para
@@ -5527,26 +4716,19 @@ export default function PageCatecismo() {
           Dos deveres particulares do próprio estado e dos conselhos evangélicos{" "}
         </Text>
       </Text>
-      <Text className="h4">1º - Dos deveres do próprio estado</Text>
-      <Text className="h5">
-        506 - Que vêm a ser os deveres do próprio estado?
-      </Text>
+      <H4 text="1º - Dos deveres do próprio estado" />
+      <H5 text="506 - Que vêm a ser os deveres do próprio estado?" />
       <Text className="text-base">
         Por deveres do próprio estado entendem-se aquelas obrigações
         particulares que cada um tem por causa do seu estado, da sua condição e
         da situação em que se acha.
       </Text>
-      <Text className="h5">
-        507 - Quem impôs aos diversos estados os seus deveres particulares?
-      </Text>
+      <H5 text="507 - Quem impôs aos diversos estados os seus deveres particulares?" />
       <Text className="text-base">
         Foi o mesmo Deus que impôs aos diversos estados os deveres particulares,
         porque estes derivam dos seus divinos Mandamentos.
       </Text>
-      <Text className="h5">
-        508 - Explicai-me com algum exemplo como os deveres particulares derivam
-        dos Dez
-      </Text>
+      <H5 text="508 - Explicai-me com algum exemplo como os deveres particulares derivam dos Dez" />
       <Text className="text-base">
         Mandamentos No quarto Mandamento, sob o nome de pai e mãe, entendem-se
         também todos os nossos superiores; assim deste Mandamento derivam todos
@@ -5554,82 +4736,63 @@ export default function PageCatecismo() {
         os seus superiores e todos os deveres de vigilância que têm os
         superiores sobre os seus inferiores.
       </Text>
-      <Text className="h5">
-        509 - De que Mandamentos derivam os deveres dos operários, dos
-        comerciantes, dos administradores de bens alheios e outros semelhantes?
-      </Text>
+      <H5 text="509 - De que Mandamentos derivam os deveres dos operários, dos comerciantes, dos administradores de bens alheios e outros semelhantes?" />
       <Text className="text-base">
         Os deveres de fidelidade, de sinceridade, de justiça, de equidade, que
         eles têm, derivam do sétimo, do oitavo e do décimo Mandamento, que
         proíbem toda a fraude, injustiça, negligência e duplicidade.
       </Text>
-      <Text className="h5">
-        510 - De que Mandamento derivam os deveres das pessoas consagradas a
-        Deus?
-      </Text>
+      <H5 text="510 - De que Mandamento derivam os deveres das pessoas consagradas a Deus?" />
       <Text className="text-base">
         Os deveres das pessoas consagradas a Deus derivam do segundo Mandamento,
         que manda cumprir os votos e as promessas feitas a Deus; visto como
         essas pessoas se obrigaram por esta forma à observância de todos ou de
         alguns conselhos evangélicos.
       </Text>
-      <Text className="h4">2º - Dos conselhos evangélicos</Text>
-      <Text className="h5">511 - Que são os conselhos evangélicos?</Text>
+      <H4 text="2º - Dos conselhos evangélicos" />
+      <H5 text="511 - Que são os conselhos evangélicos?" />
       <Text className="text-base">
         Os conselhos evangélicos são alguns meios sugeridos por Jesus Cristo no
         santo Evangelho, para chegar à perfeição cristã.
       </Text>
-      <Text className="h5">512 - Quais são os conselhos evangélicos?</Text>
+      <H5 text="512 - Quais são os conselhos evangélicos?" />
       <Text className="text-base">
         Os conselhos evangélicos são: pobreza voluntária, castidade perpétua e
         obediência inteira, em tudo o que não seja pecado.
       </Text>
-      <Text className="h5">
-        513 - Para que servem os conselhos evangélicos?
-      </Text>
+      <H5 text="513 - Para que servem os conselhos evangélicos?" />
       <Text className="text-base">
         Os conselhos evangélicos servem para facilitar a observância dos
         Mandamentos e para assegurar melhor a salvação eterna.
       </Text>
-      <Text className="h5">
-        514 - Por que os conselhos evangélicos facilitam a observância dos
-        Mandamentos?
-      </Text>
+      <H5 text="514 - Por que os conselhos evangélicos facilitam a observância dos Mandamentos?" />
       <Text className="text-base">
         Os conselhos evangélicos facilitam a observância dos Mandamentos, porque
         nos ajudam a desapegar o coração do amor dos bens terrenos, dos prazeres
         e das honras, e assim nos afastam do pecado.
       </Text>
-      <Text className="h1">Quarta Parte</Text>
+      <H1 text="Quarta Parte" />
       <Text className="aside">Dos Sacramentos</Text>
       <Text className="h2">
         I - <Text className="em">Dos Sacramentos em geral</Text>
       </Text>
-      <Text className="h4">1º - Natureza dos Sacramentos</Text>
-      <Text className="h5">
-        515 - De que trata a quarta parte da Doutrina Cristã?
-      </Text>
+      <H4 text="1º - Natureza dos Sacramentos" />
+      <H5 text="515 - De que trata a quarta parte da Doutrina Cristã?" />
       <Text className="text-base">
         A quarta parte da Doutrina Cristã trata dos Sacramentos.
       </Text>
-      <Text className="h5">516 - Que se entende pela palavra Sacramento?</Text>
+      <H5 text="516 - Que se entende pela palavra Sacramento?" />
       <Text className="text-base">
         Pela palavra Sacramento entende-se um sinal sensível e eficaz da graça,
         instituído por Jesus Cristo, para santificar as nossas almas.
       </Text>
-      <Text className="h5">
-        517 - Por que chamais aos Sacramentos sinais sensíveis e eficazes da
-        graça?
-      </Text>
+      <H5 text="517 - Por que chamais aos Sacramentos sinais sensíveis e eficazes da graça?" />
       <Text className="text-base">
         Chamo aos Sacramentos sinais sensíveis e eficazes da graça, porque todos
         os Sacramentos significam, por meio de coisas sensíveis, a graça divina
         que eles produzem na nossa alma.
       </Text>
-      <Text className="h5">
-        518 - Explicai com um exemplo como os Sacramentos são sinais sensíveis e
-        eficazes da graça.
-      </Text>
+      <H5 text="518 - Explicai com um exemplo como os Sacramentos são sinais sensíveis e eficazes da graça." />
       <Text className="text-base">
         No Batismo, o ato de derramar a água sobre cabeça da pessoa, e as
         palavras: Eu te baptizo, isto é, eu te lavo, em nome do Padre e do Filho
@@ -5637,99 +4800,87 @@ export default function PageCatecismo() {
         alma; porque assim como a água lava o corpo, assim a graça, dada pelo
         Batismo, purifica a alma, do pecado.
       </Text>
-      <Text className="h5">519 - Quantos e quais são os Sacramentos?</Text>
+      <H5 text="519 - Quantos e quais são os Sacramentos?" />
       <Text className="text-base">
         Os Sacramentos são sete, a saber: Batismo, Confirmação, Eucaristia,
         Penitência, Extrema-Unção, Ordem e Matrimônio.
       </Text>
-      <Text className="h5">
-        520 - Quantas coisas se requerem para fazer um Sacramento?
-      </Text>
+      <H5 text="520 - Quantas coisas se requerem para fazer um Sacramento?" />
       <Text className="text-base">
         Para fazer um Sacramento requerem-se a matéria, a forma, e o ministro,
         que tenha intenção de fazer o que faz a Igreja.
       </Text>
-      <Text className="h5">521 - Que é a matéria dos Sacramentos?</Text>
+      <H5 text="521 - Que é a matéria dos Sacramentos?" />
       <Text className="text-base">
         A matéria dos Sacramentos é a coisa sensível que se emprega para os
         fazer; como, por exemplo, a água natural no Batismo, o óleo e o bálsamo
         na Confirmação.
       </Text>
-      <Text className="h5">522 - Que é a forma dos Sacramentos?</Text>
+      <H5 text="522 - Que é a forma dos Sacramentos?" />
       <Text className="text-base">
         A forma dos Sacramentos são as palavras que se proferem para os fazer.
       </Text>
-      <Text className="h5">523 - Quem é o ministro dos Sacramentos?</Text>
+      <H5 text="523 - Quem é o ministro dos Sacramentos?" />
       <Text className="text-base">
         O ministro dos Sacramentos é a pessoa que faz ou confere os Sacramentos.
       </Text>
-      <Text className="h4">
-        2º - Do efeito principal dos Sacramentos, que é a graça
-      </Text>
-      <Text className="h5">524 - Que é a graça?</Text>
+      <H4 text="2º - Do efeito principal dos Sacramentos, que é a graça" />
+      <H5 text="524 - Que é a graça?" />
       <Text className="text-base">
         A graça de Deus é um dom interior, sobrenatural, que nos é dado sem
         merecimento algum da nossa parte, mas pelos merecimentos de Jesus
         Cristo, em ordem à vida eterna.
       </Text>
-      <Text className="h5">525 - Como se divide a graça?</Text>
+      <H5 text="525 - Como se divide a graça?" />
       <Text className="text-base">
         Divide-se a graça em: graça santificante, que se chama também habitual;
         e graça atual.
       </Text>
-      <Text className="h5">526 - Que é a graça santificante?</Text>
+      <H5 text="526 - Que é a graça santificante?" />
       <Text className="text-base">
         A graça santificante é um dom sobrenatural, inerente à nossa alma, que
         nos faz justos, filhos adotivos de Deus e herdeiros do Paraíso.
       </Text>
-      <Text className="h5">
-        527 - Quantas espécies há de graça santificante?
-      </Text>
+      <H5 text="527 - Quantas espécies há de graça santificante?" />
       <Text className="text-base">
         Há duas espécies de graça santificante: graça primeira, e graça segunda.
       </Text>
-      <Text className="h5">528 - Que é a graça primeira?</Text>
+      <H5 text="528 - Que é a graça primeira?" />
       <Text className="text-base">
         A graça primeira é aquela pela qual o homem passa do estado de pecado
         mortal ao estado de justiça, de amizade com Deus.
       </Text>
-      <Text className="h5">529 - E que é a graça segunda?</Text>
+      <H5 text="529 - E que é a graça segunda?" />
       <Text className="text-base">
         A graça segunda é um aumento da graça primeira.
       </Text>
-      <Text className="h5">530 - Que é a graça atual?</Text>
+      <H5 text="530 - Que é a graça atual?" />
       <Text className="text-base">
         A graça atual é um dom sobrenatural que ilumina nossa inteligência, move
         e fortalece a nossa vontade, a fim de que pratiquemos o bem e evitemos o
         mal.
       </Text>
-      <Text className="h5">531 - Podemos nós resistir à graça de Deus?</Text>
+      <H5 text="531 - Podemos nós resistir à graça de Deus?" />
       <Text className="text-base">
         Sim, podemos resistir à graça de Deus, porque ela não destrói o nosso
         livre arbítrio.
       </Text>
-      <Text className="h5">
-        532 - Com as nossas forças, podemos nós fazer alguma coisa que nos seja
-        útil para a vida eterna?
-      </Text>
+      <H5 text="532 - Com as nossas forças, podemos nós fazer alguma coisa que nos seja útil para a vida eterna?" />
       <Text className="text-base">
         Sem o auxílio da graça de Deus, só com as nossas forças, não podemos
         fazer nada que nos seja útil para a vida eterna.
       </Text>
-      <Text className="h5">533 - Como nos comunica Deus a graça?</Text>
+      <H5 text="533 - Como nos comunica Deus a graça?" />
       <Text className="text-base">
         Deus nos comunica a graça principalmente por meio dos santos
         Sacramentos.
       </Text>
-      <Text className="h5">
-        534 - Além da graça santificante, conferem-nos os Sacramentos mais outra
-        graça?
-      </Text>
+      <H5 text="534 - Além da graça santificante, conferem-nos os Sacramentos mais outra graça?" />
       <Text className="text-base">
         Os Sacramentos, além da graça santificante, conferem também a graça
         sacramental.
       </Text>
-      <Text className="h5">535 - Que é a graça sacramental?</Text>
+      <H5 text="535 - Que é a graça sacramental?" />
       <Text className="text-base">
         A graça sacramental consiste no direito que se adquire, recebendo
         qualquer Sacramento, de ter em tempo oportuno as graças atuais
@@ -5737,106 +4888,75 @@ export default function PageCatecismo() {
         recebido. Assim, quando fomos baptizados, recebemos o direi to a ter as
         graças necessárias as para vi vermos cristãmente.
       </Text>
-      <Text className="h5">
-        536 - Dão sempre os Sacramentos a graça a quem os recebe?
-      </Text>
+      <H5 text="536 - Dão sempre os Sacramentos a graça a quem os recebe?" />
       <Text className="text-base">
         Os Sacramentos dão sempre a graça, contanto que se recebam com as
         disposições necessárias.
       </Text>
-      <Text className="h5">
-        537 - Quem deu aos Sacramentos a virtude de conferir a graça?
-      </Text>
+      <H5 text="537 - Quem deu aos Sacramentos a virtude de conferir a graça?" />
       <Text className="text-base">
         Foi Jesus Cristo que, por sua Paixão e Morte, deu aos Sacramentos a
         virtude de conferir a graça.
       </Text>
-      <Text className="h5">
-        538 - Quais são os Sacramentos que conferem a primeira graça
-        santificante?
-      </Text>
+      <H5 text="538 - Quais são os Sacramentos que conferem a primeira graça santificante?" />
       <Text className="text-base">
         Os Sacramentos que conferem a primeira graça santificante, que nos faz
         amigos de Deus, são dois: Batismo e Penitência.
       </Text>
-      <Text className="h5">
-        539 - Como se chamam, por este motivo, estes dois Sacramentos?
-      </Text>
+      <H5 text="539 - Como se chamam, por este motivo, estes dois Sacramentos?" />
       <Text className="text-base">
         Estes dois Sacramentos, isto é, o Batismo e a Penitência, chamam-se por
         este motivo Sacramentos de mortos, porque são instituídos principalmente
         para restituir a vida da graça às almas mortas pelo pecado.
       </Text>
-      <Text className="h5">
-        540 - Quais são os Sacramentos que aumentam a graça em quem a possui?
-      </Text>
+      <H5 text="540 - Quais são os Sacramentos que aumentam a graça em quem a possui?" />
       <Text className="text-base">
         Os Sacramentos que aumentam a graça em quem a possui, são os outros
         cinco, isto é, a Confirmação, a Eucaristia, a Extrema-Unção, a Ordem e o
         Matrimônio, os quais conferem a graça segunda.
       </Text>
-      <Text className="h5">
-        541 - Como se chamam, por esse motivo, estes cinco Sacramentos?
-      </Text>
+      <H5 text="541 - Como se chamam, por esse motivo, estes cinco Sacramentos?" />
       <Text className="text-base">
         Estes cinco Sacramentos, isto é, a Confirmação, a Eucaristia, a
         Extrema-Unção, a Ordem e o Matrimônio, chamam-se Sacramentos de vivos,
         porque aqueles que os recebem, devem estar isentos de pecado mortal,
         quer dizer, já vivos pela graça santificante.
       </Text>
-      <Text className="h5">
-        542 - Que pecado comete quem recebe um Sacramento de vivos, sabendo que
-        não está em estado de graça?
-      </Text>
+      <H5 text="542 - Que pecado comete quem recebe um Sacramento de vivos, sabendo que não está em estado de graça?" />
       <Text className="text-base">
         Quem recebe um Sacramento de vivos, sabendo que não está em estado de
         graça, comete um grave sacrilégio.
       </Text>
-      <Text className="h5">
-        543 - Quais são os Sacramentos mais necessários para nossa salvação?
-      </Text>
+      <H5 text="543 - Quais são os Sacramentos mais necessários para nossa salvação?" />
       <Text className="text-base">
         Os Sacramentos mais necessários para nossa salvação, são dois: o Batismo
         e a Penitência; o Batismo é necessário absolutamente para todos, e a
         Penitência é necessária para todos aqueles que pecaram mortalmente
         depois do Batismo.
       </Text>
-      <Text className="h5">544 - Qual é o maior de todos os Sacramentos?</Text>
+      <H5 text="544 - Qual é o maior de todos os Sacramentos?" />
       <Text className="text-base">
         O maior de todos os Sacramentos é o Sacramento da Eucaristia, porque
         contém não só a graça, mas também ao mesmo Jesus Cristo, autor da graça
         e dos Sacramentos.
       </Text>
-      <Text className="h4">
-        3º - Do caráter que imprimem alguns Sacramentos
-      </Text>
-      <Text className="h5">
-        545 - Quais são os Sacramentos que se podem receber uma só vez?
-      </Text>
+      <H4 text="3º - Do caráter que imprimem alguns Sacramentos" />
+      <H5 text="545 - Quais são os Sacramentos que se podem receber uma só vez?" />
       <Text className="text-base">
         Os Sacramentos que se podem receber uma só vez, são três: Batismo,
         Confirmação e Ordem.
       </Text>
-      <Text className="h5">
-        546 - Por que os três Sacramentos, Batismo, Confirmação e Ordem só se
-        podem receber uma vez?
-      </Text>
+      <H5 text="546 - Por que os três Sacramentos, Batismo, Confirmação e Ordem só se podem receber uma vez?" />
       <Text className="text-base">
         Os três Sacramentos, Batismo, Confirmação e Ordem, podem-se receber uma
         só vez, porque imprimem caráter.
       </Text>
-      <Text className="h5">
-        547 - Que é o caráter que cada um destes três Sacramentos imprime na
-        alma?
-      </Text>
+      <H5 text="547 - Que é o caráter que cada um destes três Sacramentos imprime na alma?" />
       <Text className="text-base">
         O caráter impresso na alma em cada um destes três Sacramentos, é um
         sinal espiritual que nunca se apaga.
       </Text>
-      <Text className="h5">
-        548 - Para que serve o caráter que estes três Sacramentos imprimem na
-        alma?
-      </Text>
+      <H5 text="548 - Para que serve o caráter que estes três Sacramentos imprimem na alma?" />
       <Text className="text-base">
         O caráter que estes três Sacramentos imprimem na alma, serve para nos
         distinguir, no Batismo como membros de Jesus Cristo, na Confirmação como
@@ -5845,15 +4965,13 @@ export default function PageCatecismo() {
       <Text className="h2">
         II - <Text className="em">Do Batismo</Text>
       </Text>
-      <Text className="h4">1º - Natureza e efeitos do Batismo</Text>
-      <Text className="h5">549 - Que é o Sacramento do Batismo?</Text>
+      <H4 text="1º - Natureza e efeitos do Batismo" />
+      <H5 text="549 - Que é o Sacramento do Batismo?" />
       <Text className="text-base">
         O Batismo é o Sacramento pelo qual renascemos para a graça de Deus, e
         nos tornamos cristãos.
       </Text>
-      <Text className="h5">
-        550 - Quais são os efeitos do Sacramento do Batismo?
-      </Text>
+      <H5 text="550 - Quais são os efeitos do Sacramento do Batismo?" />
       <Text className="text-base">
         O Sacramento do Batismo confere a primeira graça santificante, que apaga
         o pecado original e também o atual, se o há; perdoa toda a pena por eles
@@ -5861,28 +4979,25 @@ export default function PageCatecismo() {
         Igreja e herdeiros do Paraíso, e torna-nos capazes de receber os outros
         Sacramentos.
       </Text>
-      <Text className="h5">551 - Qual é a matéria do Batismo?</Text>
+      <H5 text="551 - Qual é a matéria do Batismo?" />
       <Text className="text-base">
         A matéria do Batismo é a água natural, que se derrama sobre a cabeça do
         que é baptizado, de maneira que escorra.
       </Text>
-      <Text className="h5">552 - Qual é a forma do Batismo?</Text>
+      <H5 text="552 - Qual é a forma do Batismo?" />
       <Text className="text-base">
         A forma do Batismo é esta: Eu te baptizo em nome do Padre e do Filho e
         do Espírito Santo.
       </Text>
-      <Text className="h4">2º - Ministro do Batismo</Text>
-      <Text className="h5">553 - A quem compete baptizar?</Text>
+      <H4 text="2º - Ministro do Batismo" />
+      <H5 text="553 - A quem compete baptizar?" />
       <Text className="text-base">
         Batizar compete por direito aos Bispos e aos párocos; mas, em caso de
         necessidade, qualquer pessoa pode baptizar, seja homem ou seja mulher, e
         até um herege ou um infiel, contanto que realize o rito do Batismo e
         tenha intenção de fazer o que faz a Igreja.
       </Text>
-      <Text className="h5">
-        554 - Se houver necessidade de baptizar uma pessoa que está em perigo de
-        morte, e estiverem muitas pessoas presentes, quem é que deverá baptizar?
-      </Text>
+      <H5 text="554 - Se houver necessidade de baptizar uma pessoa que está em perigo de morte, e estiverem muitas pessoas presentes, quem é que deverá baptizar?" />
       <Text className="text-base">
         Se houver necessidade de baptizar alguém em perigo de morte, e estiverem
         muitas pessoas presentes, deverá baptizá-lo o Sacerdote, se lá estiver;
@@ -5890,76 +5005,55 @@ export default function PageCatecismo() {
         leigo homem de preferência à mulher, a não ser que a perícia maior da
         mulher ou a decência exijam o contrário.
       </Text>
-      <Text className="h5">555 - Que intenção deve ter quem baptiza?</Text>
+      <H5 text="555 - Que intenção deve ter quem baptiza?" />
       <Text className="text-base">
         Quem baptiza deve ter a intenção de fazer o que faz a Santa Igreja ao
         baptizar.
       </Text>
-      <Text className="h4">
-        3º - Rito do Batismo e disposições de quem o recebe já adulto
-      </Text>
-      <Text className="h5">556 - Como se baptiza?</Text>
+      <H4 text="3º - Rito do Batismo e disposições de quem o recebe já adulto" />
+      <H5 text="556 - Como se baptiza?" />
       <Text className="text-base">
         Batiza-se derramando água sobre a cabeça do baptizando, ou, não podendo
         ser sobre a cabeça, sobre qualquer outra parte principal do corpo, e
         dizendo ao mesmo tempo: Eu te baptizo em nome do Padre e do Filho e do
         Espírito Santo.
       </Text>
-      <Text className="h5">
-        557 - Se alguém derramasse a água e outro proferisse as palavras, a
-        pessoa ficaria baptizada?
-      </Text>
+      <H5 text="557 - Se alguém derramasse a água e outro proferisse as palavras, a pessoa ficaria baptizada?" />
       <Text className="text-base">
         Se alguém derramasse a água, e outro proferisse as palavras, a pessoa
         não ficaria baptizada; é necessário que seja a mesma pessoa que derrame
         a água e pronuncie as palavras.
       </Text>
-      <Text className="h5">
-        558 - Quando se duvida se a pessoa está morta, deve-se deixar de
-        baptizá-la?
-      </Text>
+      <H5 text="558 - Quando se duvida se a pessoa está morta, deve-se deixar de baptizá-la?" />
       <Text className="text-base">
         Quando se duvida se a pessoa está morta, deve-se baptizá-la sob
         condição, dizendo: Se estás vivo, eu te baptizo em nome do Padre e do
         Filho e do Espírito Santo.
       </Text>
-      <Text className="h5">
-        559 - Quando se devem levar à Igreja as crianças para serem baptizadas?
-      </Text>
+      <H5 text="559 - Quando se devem levar à Igreja as crianças para serem baptizadas?" />
       <Text className="text-base">
         As crianças devem ser levadas à Igreja para serem baptizadas, o mais
         cedo possível.
       </Text>
-      <Text className="h5">
-        560 - Por que se deve ter tanta solicitude em levar as crianças ao
-        Batismo?
-      </Text>
+      <H5 text="560 - Por que se deve ter tanta solicitude em levar as crianças ao Batismo?" />
       <Text className="text-base">
         Deve-se ter suma solicitude em levar a baptizar as crianças, porque elas
         pela sua tenra idade estão expostas a muitos perigos de morrer, e não
         podem salvar-se sem o Batismo.
       </Text>
-      <Text className="h5">
-        561 - Pecam então os pais e as mães que, pela sua negligência, deixam
-        morrer os filhos sem Batismo ou simplesmente demoram em fazê-lo?
-      </Text>
+      <H5 text="561 - Pecam então os pais e as mães que, pela sua negligência, deixam morrer os filhos sem Batismo ou simplesmente demoram em fazê-lo?" />
       <Text className="text-base">
         Sim, os pais e as mães, que pela sua negligência deixam morrer os filhos
         sem Batismo, pecam gravemente, porque os privam da vida eterna; e pecam
         também gravemente, demorando muito tempo o Batismo, porque os expõem ao
         perigo de morrer sem o terem recebido.
       </Text>
-      <Text className="h5">
-        562 - Quando o que se baptiza é adulto, que disposições deve ter?
-      </Text>
+      <H5 text="562 - Quando o que se baptiza é adulto, que disposições deve ter?" />
       <Text className="text-base">
         O adulto que se baptiza deve ter, além da fé, a dor, pelo menos
         imperfeita, dos pecados mortais que tivesse cometido.
       </Text>
-      <Text className="h5">
-        563 - Se um adulto se baptizasse em pecado mortal, sem esta dor, que
-        receberia?
-      </Text>
+      <H5 text="563 - Se um adulto se baptizasse em pecado mortal, sem esta dor, que receberia?" />
       <Text className="text-base">
         Se um adulto se baptizasse em pecado mortal, sem esta dor, receberia o
         caráter do Batismo, mas não a remissão dos pecados, nem a graça
@@ -5967,90 +5061,67 @@ export default function PageCatecismo() {
         removido o impedimento pela dor perfeita dos pecados ou pelo Sacramento
         da Penitência.
       </Text>
-      <Text className="h4">
-        4º - Necessidade do Batismo e deveres dos baptizados
-      </Text>
-      <Text className="h5">564 - É o Batismo necessário para a salvação?</Text>
+      <H4 text="4º - Necessidade do Batismo e deveres dos baptizados" />
+      <H5 text="564 - É o Batismo necessário para a salvação?" />
       <Text className="text-base">
         O Batismo é absolutamente necessário para a salvação, porque o Senhor
         disse expressamente: Quem não renascer na água e no Espírito Santo, não
         poderá entrar no reino dos céus.
       </Text>
-      <Text className="h5">
-        565 - Pode suprir-se de algum modo a falta do Batismo?
-      </Text>
+      <H5 text="565 - Pode suprir-se de algum modo a falta do Batismo?" />
       <Text className="text-base">
         A falta do Batismo pode supri-la o martírio, que se chama Batismo de
         sangue, ou um ato de amor perfeito de Deus, ou de contrição, junto com o
         desejo, ao menos implícito, do Batismo, e este ato chama-se Batismo de
         desejo.
       </Text>
-      <Text className="h5">
-        566 - A que fica obrigado quem recebe o Batismo?
-      </Text>
+      <H5 text="566 - A que fica obrigado quem recebe o Batismo?" />
       <Text className="text-base">
         Quem recebe o Batismo, fica obrigado a professar sempre a fé e a
         observar a lei de Jesus Cristo e da sua Igreja.
       </Text>
-      <Text className="h5">
-        567 - A que se renuncia ao receber o santo Batismo?
-      </Text>
+      <H5 text="567 - A que se renuncia ao receber o santo Batismo?" />
       <Text className="text-base">
         Ao receber o santo Batismo renuncia-se para sempre ao demônio, às suas
         obras e às suas pompas.
       </Text>
-      <Text className="h5">
-        568 - Que se entende por obras e pompas do demônio?
-      </Text>
+      <H5 text="568 - Que se entende por obras e pompas do demônio?" />
       <Text className="text-base">
         Por obras e pompas do demônio, entendem-se os pecados e as máximas do
         mundo, contrárias às máximas do Santo Evangelho.
       </Text>
-      <Text className="h4">5º - Nome e padrinhos</Text>
-      <Text className="h5">
-        569 - Por que se impõe o nome de um Santo ao que se baptiza?
-      </Text>
+      <H4 text="5º - Nome e padrinhos" />
+      <H5 text="569 - Por que se impõe o nome de um Santo ao que se baptiza?" />
       <Text className="text-base">
         Ao que se baptiza, impõe-se o nome de um Santo, para o pôr sob a
         especial proteção de um padroeiro celeste, e para o animar a imitar-lhe
         os exemplos.
       </Text>
-      <Text className="h5">
-        570 - O que são os padrinhos e as madrinhas do Batismo?
-      </Text>
+      <H5 text="570 - O que são os padrinhos e as madrinhas do Batismo?" />
       <Text className="text-base">
         Os padrinhos e as madrinhas do Batismo são aquelas pessoas que por
         disposição da Igreja seguram as crianças junto à pia baptismal,
         respondem por elas, e ficam responsáveis, diante de Deus, pela educação
         cristã das mesmas, especialmente se vierem a faltar os pais.
       </Text>
-      <Text className="h5">
-        571 - Somos nós obrigados a cumprir as promessas e renúncias que por nós
-        fizeram nossos padrinhos?
-      </Text>
+      <H5 text="571 - Somos nós obrigados a cumprir as promessas e renúncias que por nós fizeram nossos padrinhos?" />
       <Text className="text-base">
         Sim, somos obrigados, sem dúvida, a cumprir as promessas e renúncias que
         por nós fizeram os nossos padrinhos, porque Deus, só mediante estas
         condições, nos recebeu na sua graça.
       </Text>
-      <Text className="h5">
-        572 - Que pessoas se devem escolher para padrinhos e madrinhas?
-      </Text>
+      <H5 text="572 - Que pessoas se devem escolher para padrinhos e madrinhas?" />
       <Text className="text-base">
         Devem escolher-se para padrinhos e madrinhas pessoas católicas e de bons
         costumes, e observantes das leis da Igreja.
       </Text>
-      <Text className="h5">
-        573 - Quais são as obrigações dos padrinhos e das madrinhas?
-      </Text>
+      <H5 text="573 - Quais são as obrigações dos padrinhos e das madrinhas?" />
       <Text className="text-base">
         Os padrinhos e as madrinhas são obrigados a cuidar que os seus filhos
         espirituais sejam instruídos nas verdades da fé, e vivam como bons
         cristãos, edificando-os com o bom exemplo.
       </Text>
-      <Text className="h5">
-        574 - Que vínculo contraem os padrinhos do Batismo?
-      </Text>
+      <H5 text="574 - Que vínculo contraem os padrinhos do Batismo?" />
       <Text className="text-base">
         Os padrinhos contraem um parentesco espiritual com o baptizado, e este
         parentesco origina impedimento de matrimônio com o mesmo.
@@ -6058,24 +5129,19 @@ export default function PageCatecismo() {
       <Text className="h2">
         III - <Text className="em">Da Confirmação ou Crisma</Text>
       </Text>
-      <Text className="h5">575 - Que é o Sacramento da Confirmação?</Text>
+      <H5 text="575 - Que é o Sacramento da Confirmação?" />
       <Text className="text-base">
         A Confirmação, ou Crisma, é um Sacramento que nos dá o Espírito Santo,
         imprime na nossa alma o caráter de soldados de Cristo, e nos faz
         perfeitos cristãos.
       </Text>
-      <Text className="h5">
-        576 - De que maneira o Sacramento da Confirmação nos faz perfeitos
-        cristãos?
-      </Text>
+      <H5 text="576 - De que maneira o Sacramento da Confirmação nos faz perfeitos cristãos?" />
       <Text className="text-base">
         A Confirmação faz-nos perfeitos cristãos, confirmando-nos na fé, e
         aperfeiçoando em nós as outras virtudes e os dons recebidos no santo
         Batismo; e é por isso que se chama Confirmação.
       </Text>
-      <Text className="h5">
-        577 - Quais são os dons do Espírito Santo que se recebem na Confirmação?
-      </Text>
+      <H5 text="577 - Quais são os dons do Espírito Santo que se recebem na Confirmação?" />
       <Text className="text-base">
         Os dons do Espírito Santo, que se recebem na Confirmação, são sete:
       </Text>
@@ -6088,20 +5154,18 @@ export default function PageCatecismo() {
         <Text className="li text-justify">6º - Piedade;</Text>
         <Text className="li text-justify">7º - Temor de Deus.</Text>
       </View>
-      <Text className="h5">578 - Qual é a matéria deste Sacramento?</Text>
+      <H5 text="578 - Qual é a matéria deste Sacramento?" />
       <Text className="text-base">
         A matéria deste Sacramento, além da imposição das mãos do Bispo, é a
         unção feita na fronte da pessoa baptizada, com o santo Crisma; por isso,
         este Sacramento se chama também Crisma, que significa Unção.
       </Text>
-      <Text className="h5">579 - Que é o santo Crisma?</Text>
+      <H5 text="579 - Que é o santo Crisma?" />
       <Text className="text-base">
         O santo Crisma é óleo de oliveira misturado com bálsamo, e consagrado
         pelo Bispo na Quinta-Feira Santa.
       </Text>
-      <Text className="h5">
-        580 - Que significam o óleo e o bálsamo neste Sacramento?
-      </Text>
+      <H5 text="580 - Que significam o óleo e o bálsamo neste Sacramento?" />
       <Text className="text-base">
         Neste Sacramento, o óleo, que se derrama e fortalece, significa a
         abundância da graça que se difunde na alma do cristão para o confirmar
@@ -6109,24 +5173,18 @@ export default function PageCatecismo() {
         que o cristão fortificado por esta graça é capaz de difundir o bom aroma
         das virtudes cristãs, e de preservar-se da corrupção dos vícios.
       </Text>
-      <Text className="h5">
-        581 - Qual é a forma do Sacramento da Confirmação?
-      </Text>
+      <H5 text="581 - Qual é a forma do Sacramento da Confirmação?" />
       <Text className="text-base">
         A forma atual do Sacramento da Confirmação é esta: Recebe o sinal do dom
         do Espírito Santo, que substituiu a antiga: Eu te assinalo com o sinal
         da Cruz, e te confirmo com o Crisma da salvação, em nome do Pai e do
         Filho e do Espírito Santo. Assim seja.
       </Text>
-      <Text className="h5">
-        582 - Quem é o ministro do Sacramento da Confirmação?
-      </Text>
+      <H5 text="582 - Quem é o ministro do Sacramento da Confirmação?" />
       <Text className="text-base">
         O ministro ordinário do Sacramento da Confirmação e só o Bispo.
       </Text>
-      <Text className="h5">
-        583 - Com que cerimônias administra o Bispo a Confirmação?
-      </Text>
+      <H5 text="583 - Com que cerimônias administra o Bispo a Confirmação?" />
       <Text className="text-base">
         O Bispo, para administrar o Sacramento da Confirmação, primeiro estende
         as mãos sobre os que estão para se crismar, invocando sobre eles o
@@ -6135,76 +5193,59 @@ export default function PageCatecismo() {
         mão direita, dá uma leve bofetada na face do crismado, dizendo: A paz
         seja contigo; e no fim abençoa solenemente todos os crismados.
       </Text>
-      <Text className="h5">584 - Por que se faz a unção na fronte?</Text>
+      <H5 text="584 - Por que se faz a unção na fronte?" />
       <Text className="text-base">
         Faz-se a unção na fronte, onde aparecem os sinais do temor e da
         vergonha, a fim de que o crismado entenda que não deve envergonhar-se do
         nome e da profissão de cristão, nem ter medo dos inimigos da fé.
       </Text>
-      <Text className="h5">
-        585 - Por que se dá uma leve bofetada na face do crismado?
-      </Text>
+      <H5 text="585 - Por que se dá uma leve bofetada na face do crismado?" />
       <Text className="text-base">
         Dá-se uma leve bofetada na face do crismado para que saiba que deve
         estar pronto a sofrer todas as afrontas e todas as penas pela fé e amor
         de Jesus Cristo.
       </Text>
-      <Text className="h5">
-        586 - Devem todos procurar receber o Sacramento da Confirmação?
-      </Text>
+      <H5 text="586 - Devem todos procurar receber o Sacramento da Confirmação?" />
       <Text className="text-base">
         Sim, todos devem procurar receber o Sacramento da Confirmação e fazer
         que os seus subordinados o recebam.
       </Text>
-      <Text className="h5">
-        587 - Em que idade é conveniente receber o Sacramento da Confirmação?
-      </Text>
+      <H5 text="587 - Em que idade é conveniente receber o Sacramento da Confirmação?" />
       <Text className="text-base">
         A idade em que é conveniente receber o Sacramento da Confirmação é a de
         sete anos, pouco mais ou menos, porque então costumam começar as
         tentações e já se pode conhecer bastante a graça deste Sacramento, e
         conservar-se a lembrança de tê-lo recebido.
       </Text>
-      <Text className="h5">
-        588 - Que disposições se requerem para receber o Sacramento da
-        Confirmação?
-      </Text>
+      <H5 text="588 - Que disposições se requerem para receber o Sacramento da Confirmação?" />
       <Text className="text-base">
         Para receber dignamente o Sacramento da Confirmação é necessário estar
         em estado de graça, saber os mistérios principais da nossa santa Fé, e
         aproximar-se deste Sacramento com reverência e devoção.
       </Text>
-      <Text className="h5">
-        589 - Cometeria pecado quem recebesse a Confirmação segunda vez?
-      </Text>
+      <H5 text="589 - Cometeria pecado quem recebesse a Confirmação segunda vez?" />
       <Text className="text-base">
         Cometeria um sacrilégio, porque a Confirmação é um daqueles Sacramentos
         que imprimem caráter na alma e que portanto só se podem receber uma vez.
       </Text>
-      <Text className="h5">
-        590 - Que deve fazer o cristão para conservar a graça da Confirmação?
-      </Text>
+      <H5 text="590 - Que deve fazer o cristão para conservar a graça da Confirmação?" />
       <Text className="text-base">
         Para conservar a graça da Confirmação, o cristão deve orar
         frequentemente, fazer boas obras, e viver segundo a lei de Jesus Cristo,
         sem respeito humano.
       </Text>
-      <Text className="h5">
-        591 - Por que também na Confirmação há padrinhos e madrinhas?
-      </Text>
+      <H5 text="591 - Por que também na Confirmação há padrinhos e madrinhas?" />
       <Text className="text-base">
         Para que estes, com as palavras e com os exemplos, orientem o crismado
         no caminho da salvação e o auxiliem nos combates espirituais.
       </Text>
-      <Text className="h5">592 - Que condições se requerem no padrinho?</Text>
+      <H5 text="592 - Que condições se requerem no padrinho?" />
       <Text className="text-base">
         O padrinho deve ser de idade conveniente, católico, crismado, instruído
         nas coisas mais necessárias da religião e de bons costumes; e deve ser
         do mesmo sexo que o crismado.
       </Text>
-      <Text className="h5">
-        593 - Contrai algum parentesco com o crismado o padrinho de Crisma?
-      </Text>
+      <H5 text="593 - Contrai algum parentesco com o crismado o padrinho de Crisma?" />
       <Text className="text-base">
         Sim, o padrinho de Crisma contrai parentesco espiritual com o crismado;
         mas este parentesco não é impedimento para o matrimônio.
@@ -6212,11 +5253,8 @@ export default function PageCatecismo() {
       <Text className="h2">
         IV - <Text className="em">Da Santíssima Eucaristia</Text>
       </Text>
-      <Text className="h4">
-        1º - Da natureza da Santíssima Eucaristia e da presença real de Jesus
-        Cristo neste Sacramento
-      </Text>
-      <Text className="h5">594 - Que é o Sacramento da Eucaristia?</Text>
+      <H4 text="1º - Da natureza da Santíssima Eucaristia e da presença real de Jesus Cristo neste Sacramento" />
+      <H5 text="594 - Que é o Sacramento da Eucaristia?" />
       <Text className="text-base">
         A Eucaristia é um Sacramento que, pela admirável conversão de toda a
         substância do pão no Corpo de Jesus Cristo, e de toda a substância do
@@ -6225,119 +5263,89 @@ export default function PageCatecismo() {
         debaixo das espécies de pão e de vinho, para ser nosso alimento,
         espiritual.
       </Text>
-      <Text className="h5">
-        595 - Está na Eucaristia o mesmo Jesus Cristo que está no Céu e que
-        nasceu, na terra, da Santíssima Virgem?
-      </Text>
+      <H5 text="595 - Está na Eucaristia o mesmo Jesus Cristo que está no Céu e que nasceu, na terra, da Santíssima Virgem?" />
       <Text className="text-base">
         Sim, na Eucaristia está verdadeiramente o mesmo Jesus Cristo que está no
         Céu e que nasceu, na terra, da Santíssima Virgem Maria.
       </Text>
-      <Text className="h5">
-        596 - Por que acreditais que no Sacramento da Eucaristia está
-        verdadeiramente Jesus Cristo?
-      </Text>
+      <H5 text="596 - Por que acreditais que no Sacramento da Eucaristia está verdadeiramente Jesus Cristo?" />
       <Text className="text-base">
         Eu acredito que no Sacramento da Eucaristia está verdadeiramente
         presente Jesus Cristo, porque Ele mesmo o disse, e assim no-lo ensina a
         Santa Igreja.
       </Text>
-      <Text className="h5">
-        597 - Qual é a matéria do Sacramento da Eucaristia?
-      </Text>
+      <H5 text="597 - Qual é a matéria do Sacramento da Eucaristia?" />
       <Text className="text-base">
         A matéria do Sacramento da Eucaristia é a que foi empregada por Jesus
         Cristo. a saber: o pão de trigo e o vinho de uva.
       </Text>
-      <Text className="h5">
-        598 - Qual é a forma do Sacramento da Eucaristia?
-      </Text>
+      <H5 text="598 - Qual é a forma do Sacramento da Eucaristia?" />
       <Text className="text-base">
         A forma do Sacramento da Eucaristia são as palavras usadas por Jesus
         Cristo: Isto é o meu Corpo: este é o meu Sangue.
       </Text>
-      <Text className="h5">599 - Que é a hóstia antes da consagração?</Text>
+      <H5 text="599 - Que é a hóstia antes da consagração?" />
       <Text className="text-base">
         A hóstia antes da consagração é pão de trigo.
       </Text>
-      <Text className="h5">600 - Depois da consagração, que é a hóstia?</Text>
+      <H5 text="600 - Depois da consagração, que é a hóstia?" />
       <Text className="text-base">
         Depois da consagração, a hóstia é o verdadeiro Corpo de Nosso Senhor
         Jesus Cristo, debaixo das espécies de pão.
       </Text>
-      <Text className="h5">601 - Que está no cálice antes da consagração?</Text>
+      <H5 text="601 - Que está no cálice antes da consagração?" />
       <Text className="text-base">
         No cálice, antes da consagração, está vinho com algumas gotas de água.
       </Text>
-      <Text className="h5">602 - Depois da consagração, que há no cálice?</Text>
+      <H5 text="602 - Depois da consagração, que há no cálice?" />
       <Text className="text-base">
         Depois da consagração, há no cálice o verdadeiro Sangue de Nosso Senhor
         Jesus Cristo, debaixo das espécies de vinho.
       </Text>
-      <Text className="h5">
-        603 - Quando se faz a mudança do pão no Corpo, e do vinho no Sangue de
-        Jesus Cristo?
-      </Text>
+      <H5 text="603 - Quando se faz a mudança do pão no Corpo, e do vinho no Sangue de Jesus Cristo?" />
       <Text className="text-base">
         A conversão do pão no Corpo, e do vinho no Sangue de Jesus Cristo,
         faz-se precisamente no ato em que o sacerdote, na santa Missa, pronuncia
         as palavras da consagração.
       </Text>
-      <Text className="h5">604 - Que é a consagração?</Text>
+      <H5 text="604 - Que é a consagração?" />
       <Text className="text-base">
         A consagração é a renovação, por meio do sacerdote, do milagre operado
         por Jesus Cristo na última Ceia, quando mudou o pão e o vinho no seu
         Corpo e no seu Sangue adorável, por estas palavras: Isto é o meu Corpo;
         este é o meu Sangue.
       </Text>
-      <Text className="h5">
-        605 - Como é chamada pela Igreja a miraculosa conversão do pão e do
-        vinho no Corpo e no Sangue de Jesus Cristo?
-      </Text>
+      <H5 text="605 - Como é chamada pela Igreja a miraculosa conversão do pão e do vinho no Corpo e no Sangue de Jesus Cristo?" />
       <Text className="text-base">
         A miraculosa conversão, que todos os dias se opera sobre os nossos
         altares. é chamada pela Igreja transubstanciação.
       </Text>
-      <Text className="h5">
-        606 - Quem deu tanta virtude às palavras da consagração?
-      </Text>
+      <H5 text="606 - Quem deu tanta virtude às palavras da consagração?" />
       <Text className="text-base">
         Foi o mesmo Jesus Cristo Nosso Senhor, Deus onipotente, que deu tanta
         virtude às palavras da consagração.
       </Text>
-      <Text className="h5">
-        607 - Depois da consagração não fica ainda alguma coisa do pão e do
-        vinho?
-      </Text>
+      <H5 text="607 - Depois da consagração não fica ainda alguma coisa do pão e do vinho?" />
       <Text className="text-base">
         Depois da consagração ficam só as espécies do pão e do vinho.
       </Text>
-      <Text className="h5">608 - Que são as espécies do pão e do vinho?</Text>
+      <H5 text="608 - Que são as espécies do pão e do vinho?" />
       <Text className="text-base">
         Dizem-se espécies a quantidade e as qualidades sensíveis do pão e do
         vinho, como a figura, a cor, o sabor.
       </Text>
-      <Text className="h5">
-        609 - De que maneira podem ficar as espécies do pão e do vinho sem a sua
-        substância?
-      </Text>
+      <H5 text="609 - De que maneira podem ficar as espécies do pão e do vinho sem a sua substância?" />
       <Text className="text-base">
         As espécies do pão e do vinho ficam maravilhosamente sem a sua
         substância por virtude de Deus Onipotente.
       </Text>
-      <Text className="h5">
-        610 - Debaixo das espécies de pão está só o Corpo de Jesus Cristo, e
-        debaixo das espécies de vinho está só o seu Sangue?
-      </Text>
+      <H5 text="610 - Debaixo das espécies de pão está só o Corpo de Jesus Cristo, e debaixo das espécies de vinho está só o seu Sangue?" />
       <Text className="text-base">
         Tanto debaixo das espécies de pão, corno debaixo das espécies de vinho,
         está Jesus Cristo vivo e todo inteiro com seu Corpo, Sangue. Alma e
         Divindade.
       </Text>
-      <Text className="h5">
-        611 - Podereis dizer-me por que tanto na hóstia como no cálice está
-        Jesus Cristo todo inteiro?
-      </Text>
+      <H5 text="611 - Podereis dizer-me por que tanto na hóstia como no cálice está Jesus Cristo todo inteiro?" />
       <Text className="text-base">
         Tanto na hóstia como no cálice está Jesus Cristo todo inteiro, porque
         Ele está na Eucaristia vivo e imortal como no céu; por isso onde está o
@@ -6345,75 +5353,52 @@ export default function PageCatecismo() {
         está seu Sangue está também seu Corpo, sua Alma e sua Divindade, pois
         tudo isto é inseparável em Jesus Cristo.
       </Text>
-      <Text className="h5">
-        612 - Quando Jesus está na hóstia, deixa de estar no Céu?
-      </Text>
+      <H5 text="612 - Quando Jesus está na hóstia, deixa de estar no Céu?" />
       <Text className="text-base">
         Quando Jesus está na hóstia, não deixa de estar no Céu, mas encontra-se
         ao mesmo tempo no Céu e no Santíssimo Sacramento.
       </Text>
-      <Text className="h5">
-        613 - Jesus Cristo está presente em todas as hóstias consagradas do
-        mundo?
-      </Text>
+      <H5 text="613 - Jesus Cristo está presente em todas as hóstias consagradas do mundo?" />
       <Text className="text-base">
         Sim, Jesus está presente em todas as hóstias consagradas.
       </Text>
-      <Text className="h5">
-        614 - Como é possível que Jesus Cristo esteja em todas as hóstias
-        consagradas?
-      </Text>
+      <H5 text="614 - Como é possível que Jesus Cristo esteja em todas as hóstias consagradas?" />
       <Text className="text-base">
         Jesus Cristo está em todas as hóstias consagradas, por efeito da
         onipotência de Deus, a quem nada é impossível.
       </Text>
-      <Text className="h5">
-        615 - Quando se parte a hóstia, parte-se também o Corpo de Jesus Cristo?
-      </Text>
+      <H5 text="615 - Quando se parte a hóstia, parte-se também o Corpo de Jesus Cristo?" />
       <Text className="text-base">
         Quando se parte a hóstia, não se parte o Corpo de Jesus Cristo, mas
         partem-se somente as espécies do pão.
       </Text>
-      <Text className="h5">
-        616 - Em que parte da hóstia fica o Corpo de Jesus Cristo?
-      </Text>
+      <H5 text="616 - Em que parte da hóstia fica o Corpo de Jesus Cristo?" />
       <Text className="text-base">
         O Corpo de Jesus Cristo fica inteiro em todas e em cada uma das partes
         em que a hóstia foi dividida.
       </Text>
-      <Text className="h5">
-        617 - Está Jesus Cristo tanto numa hóstia grande como na partícula de
-        uma hóstia?
-      </Text>
+      <H5 text="617 - Está Jesus Cristo tanto numa hóstia grande como na partícula de uma hóstia?" />
       <Text className="text-base">
         Tanto numa hóstia grande, como na partícula de uma hóstia, está sempre o
         mesmo Jesus Cristo.
       </Text>
-      <Text className="h5">
-        618 - Por que motivo se conserva nas igrejas a Santíssima Eucaristia?
-      </Text>
+      <H5 text="618 - Por que motivo se conserva nas igrejas a Santíssima Eucaristia?" />
       <Text className="text-base">
         Conserva-se nas igrejas a Santíssima Eucaristia, a fim de ser adorada
         pelos fiéis, e levada aos enfermos, quando for necessário.
       </Text>
-      <Text className="h5">619 - Deve-se adorar a Eucaristia?</Text>
+      <H5 text="619 - Deve-se adorar a Eucaristia?" />
       <Text className="text-base">
         A Eucaristia deve ser adorada por todos, porque Ela contém verdadeira,
         real e substancialmente o mesmo Jesus Cristo Nosso Senhor.
       </Text>
-      <Text className="h4">
-        2º - Da instituição e dos efeitos do Sacramento da Eucaristia
-      </Text>
-      <Text className="h5">
-        620 - Quando instituiu Jesus Cristo o Sacramento da Eucaristia?
-      </Text>
+      <H4 text="2º - Da instituição e dos efeitos do Sacramento da Eucaristia" />
+      <H5 text="620 - Quando instituiu Jesus Cristo o Sacramento da Eucaristia?" />
       <Text className="text-base">
         Jesus Cristo instituiu o Sacramento da Eucaristia na última ceia que
         celebrou com seus discípulos, na noite que precedeu sua Paixão.
       </Text>
-      <Text className="h5">
-        621 - Por que instituiu Jesus Cristo a Santíssima Eucaristia?
-      </Text>
+      <H5 text="621 - Por que instituiu Jesus Cristo a Santíssima Eucaristia?" />
       <Text className="text-base">
         Jesus Cristo instituiu a Santíssima Eucaristia, por três razões
         principais:
@@ -6430,18 +5415,13 @@ export default function PageCatecismo() {
           precioso do seu amor para conosco e da vida eterna.
         </Text>
       </View>
-      <Text className="h5">
-        622 - Por que Jesus Cristo instituiu este Sacramento debaixo das
-        espécies de pão e de vinho?
-      </Text>
+      <H5 text="622 - Por que Jesus Cristo instituiu este Sacramento debaixo das espécies de pão e de vinho?" />
       <Text className="text-base">
         Jesus Cristo instituiu este Sacramento debaixo das espécies de pão e de
         vinho, porque a Eucaristia devia ser nosso alimento espiritual, e era
         por isso conveniente que nos fosse dada em forma de comida e de bebida.
       </Text>
-      <Text className="h5">
-        623 - Que efeitos produz em nós a Santíssima Eucaristia?
-      </Text>
+      <H5 text="623 - Que efeitos produz em nós a Santíssima Eucaristia?" />
       <Text className="text-base">
         Os principais efeitos que a Santíssima Eucaristia produz em quem a
         recebe dignamente são estes:
@@ -6456,9 +5436,7 @@ export default function PageCatecismo() {
           consolação espiritual.
         </Text>
       </View>
-      <Text className="h5">
-        624 - Não produz em nós a Santíssima Eucaristia outros efeitos?
-      </Text>
+      <H5 text="624 - Não produz em nós a Santíssima Eucaristia outros efeitos?" />
       <Text className="text-base">
         Sim. A Santíssima Eucaristia produz em nós outros três efeitos, a saber:
       </Text>
@@ -6476,20 +5454,13 @@ export default function PageCatecismo() {
           corpo.
         </Text>
       </View>
-      <Text className="h4">
-        3º - Das disposições necessárias para bem comungar
-      </Text>
-      <Text className="h5">
-        625 - Produz o Sacramento da Eucaristia sempre em nós os seus
-        maravilhosos efeitos?
-      </Text>
+      <H4 text="3º - Das disposições necessárias para bem comungar" />
+      <H5 text="625 - Produz o Sacramento da Eucaristia sempre em nós os seus maravilhosos efeitos?" />
       <Text className="text-base">
         O Sacramento da Eucaristia produz em nós os seus maravilhosos efeitos,
         quando o recebemos com as devidas disposições.
       </Text>
-      <Text className="h5">
-        626 - Quantas coisas são necessárias para fazer uma comunhão bem feita?
-      </Text>
+      <H5 text="626 - Quantas coisas são necessárias para fazer uma comunhão bem feita?" />
       <Text className="text-base">
         Para fazer uma comunhão bem feita, são necessárias três coisas:
       </Text>
@@ -6503,86 +5474,66 @@ export default function PageCatecismo() {
           devoção.
         </Text>
       </View>
-      <Text className="h5">
-        627 - Que quer dizer: estar em estado de graça?
-      </Text>
+      <H5 text="627 - Que quer dizer: estar em estado de graça?" />
       <Text className="text-base">
         Estar em estado de graça quer dizer: ter a consciência limpa de todo o
         pecado mortal.
       </Text>
-      <Text className="h5">
-        628 - Que deve fazer antes de comungar quem sabe que está em pecado
-        mortal?
-      </Text>
+      <H5 text="628 - Que deve fazer antes de comungar quem sabe que está em pecado mortal?" />
       <Text className="text-base">
         Quem sabe que está em pecado mortal, deve fazer uma boa confissão antes
         de comungar; porque para quem está em pecado mortal, não basta o ato de
         contrição perfeita, sem a confissão, para fazer uma comunhão bem feita,
       </Text>
-      <Text className="h5">
-        629 - Por que não basta o ato de contrição perfeita, a quem sabe que
-        está em pecado mortal, para poder comungar?
-      </Text>
+      <H5 text="629 - Por que não basta o ato de contrição perfeita, a quem sabe que está em pecado mortal, para poder comungar?" />
       <Text className="text-base">
         Porque a Igreja ordenou, em sinal de respeito a este Sacramento, que
         quem é culpado de pecado mortal, não ouse receber a Comunhão, sem
         primeiro se confessar.
       </Text>
-      <Text className="h5">
-        630 - Quem comungasse em pecado mortal, receberia a Jesus Cristo?
-      </Text>
+      <H5 text="630 - Quem comungasse em pecado mortal, receberia a Jesus Cristo?" />
       <Text className="text-base">
         Quem comungasse em pecado mortal, receberia a Jesus Cristo, mas não a
         sua graça; pelo contrário, cometeria sacrilégio e incorreria na sentença
         de condenação.
       </Text>
-      <Text className="h5">631 - Em que consiste o jejum eucarístico?</Text>
+      <H5 text="631 - Em que consiste o jejum eucarístico?" />
       <Text className="text-base">
         O jejum eucarístico consiste em abster-se de qualquer espécie de comida
         ou bebida, exceto a água natural, que, na atual disciplina eucarística,
         não quebra o jejum.
       </Text>
-      <Text className="h5">
-        632 - Pode comungar quem engoliu restos de comida presos aos dentes?
-      </Text>
+      <H5 text="632 - Pode comungar quem engoliu restos de comida presos aos dentes?" />
       <Text className="text-base">
         Quem engoliu restos de comida presos aos dentes, pode comungar, porque
         já não são tomados como alimentos ou perderam tal condição.
       </Text>
-      <Text className="h5">
-        633 - Quem não está em jejum, pode comungar alguma vez?
-      </Text>
+      <H5 text="633 - Quem não está em jejum, pode comungar alguma vez?" />
       <Text className="text-base">
         Comungar sem estar em jejum é permitido aos doentes que estão em perigo
         de morte, e aos que obti prolongada. A comunhão feita pelos doentes em
         perigo de morte chama-se Viático, porque os sustenta na viagem que eles
         fazem desta vida à eternidade.
       </Text>
-      <Text className="h5">
-        634 - Que querem dizer as palavras: saber o que se vai receber?
-      </Text>
+      <H5 text="634 - Que querem dizer as palavras: saber o que se vai receber?" />
       <Text className="text-base">
         Saber o que se vai receber quer dizer: conhecer o que ensina com
         respeito a este Sacramento a Doutrina Cristã e acreditá-lo firmemente.
       </Text>
-      <Text className="h5">635 - Que quer dizer: comungar com devoção?</Text>
+      <H5 text="635 - Que quer dizer: comungar com devoção?" />
       <Text className="text-base">
         Comungar com devoção quer dizer: aproximar-se da sagrada Comunhão com
         humildade e modéstia, tanto na própria pessoa como no vestir, e fazer a
         preparação antes e a ação de graças depois da Comunhão.
       </Text>
-      <Text className="h5">
-        636 - Em que consiste a preparação antes da Comunhão?
-      </Text>
+      <H5 text="636 - Em que consiste a preparação antes da Comunhão?" />
       <Text className="text-base">
         A preparação antes da Comunhão consiste em nos entretermos algum tempo a
         considerar quem é Aquele que vamos receber e quem somos nós; e em fazer
         atos de fé, de esperança, de caridade, de contrição, de adoração, de
         humildade e de desejo de receber a Jesus Cristo.
       </Text>
-      <Text className="h5">
-        637 - Em que consiste a ação de graças depois da Comunhão?
-      </Text>
+      <H5 text="637 - Em que consiste a ação de graças depois da Comunhão?" />
       <Text className="text-base">
         A ação de graças depois da Comunhão consiste em nos conservarmos
         recolhidos a honrar a presença do Senhor dentro de nós mesmos, renovando
@@ -6591,25 +5542,20 @@ export default function PageCatecismo() {
         mais necessárias para nós e para aqueles por quem somos obrigados a
         orar.
       </Text>
-      <Text className="h5">638 - Que se deve fazer no dia da Comunhão?</Text>
+      <H5 text="638 - Que se deve fazer no dia da Comunhão?" />
       <Text className="text-base">
         No dia da Comunhão deve-se manter, o mais possível, o recolhimento,
         ocupar-se em obras de piedade, bem como cumprir com grande esmero os
         deveres de estado.
       </Text>
-      <Text className="h5">
-        639 - Depois da sagrada Comunhão, quanto tempo permanece Jesus Cristo em
-        nós?
-      </Text>
+      <H5 text="639 - Depois da sagrada Comunhão, quanto tempo permanece Jesus Cristo em nós?" />
       <Text className="text-base">
         Depois da sagrada Comunhão, Jesus Cristo permanece em nós com a sua
         graça enquanto se não peca mortalmente; e com a sua presença real
         permanece em nós enquanto se não consomem as espécies sacramentais.
       </Text>
-      <Text className="h4">4º - Da maneira de comungar</Text>
-      <Text className="h5">
-        640 - Como devemos apresentar-nos no ato de receber a sagrada Comunhão?
-      </Text>
+      <H4 text="4º - Da maneira de comungar" />
+      <H5 text="640 - Como devemos apresentar-nos no ato de receber a sagrada Comunhão?" />
       <Text className="text-base">
         No ato de receber a sagrada Comunhão devemos estar de joelhos, com a
         cabeça medianamente levantada, com os olhos modestos e voltados para a
@@ -6617,42 +5563,33 @@ export default function PageCatecismo() {
         pouco estendida sobre o lábio inferior. Senhoras e meninas devem estar
         com a cabeça coberta.
       </Text>
-      <Text className="h5">
-        641 - Como se deve segurar a toalha ou a patena da Comunhão?
-      </Text>
+      <H5 text="641 - Como se deve segurar a toalha ou a patena da Comunhão?" />
       <Text className="text-base">
         A toalha ou a patena da Comunhão deve-se segurar de maneira que recolha
         a sagrada Hóstia, caso ela viesse a cair.
       </Text>
-      <Text className="h5">642 - Quando se deve engolir a sagrada Hóstia?</Text>
+      <H5 text="642 - Quando se deve engolir a sagrada Hóstia?" />
       <Text className="text-base">
         Devemos procurar engolir a sagrada Hóstia o mais depressa possível, e
         convém abster-nos de cuspir algum tempo.
       </Text>
-      <Text className="h5">
-        643 - Se a sagrada Hóstia se pegar ao céu da boca, que se deve fazer?
-      </Text>
+      <H5 text="643 - Se a sagrada Hóstia se pegar ao céu da boca, que se deve fazer?" />
       <Text className="text-base">
         Se a sagrada Hóstia se pegar ao céu da boca, é preciso despegá-la com a
         língua, nunca porém com os dedos.
       </Text>
-      <Text className="h4">5º - Do preceito da comunhão</Text>
-      <Text className="h5">644 - Quando há obrigação de comungar?</Text>
+      <H4 text="5º - Do preceito da comunhão" />
+      <H5 text="644 - Quando há obrigação de comungar?" />
       <Text className="text-base">
         Há obrigação de comungar todos os anos pelei Páscoa, na própria
         paróquia, e além disso em perigo de morte.
       </Text>
-      <Text className="h5">
-        645 - Em que idade começa a obrigar o preceito da Comunhão pascal?
-      </Text>
+      <H5 text="645 - Em que idade começa a obrigar o preceito da Comunhão pascal?" />
       <Text className="text-base">
         O preceito da Comunhão pascal começa a obrigar na idade em que a criança
         é capaz de recebê-la com as devidas disposições.
       </Text>
-      <Text className="h5">
-        646 - Pecam aqueles que têm idade capaz para serem admitidos à Comunhão
-        e não comungam?
-      </Text>
+      <H5 text="646 - Pecam aqueles que têm idade capaz para serem admitidos à Comunhão e não comungam?" />
       <Text className="text-base">
         Aqueles que, tendo a idade capaz para serem admitidos à Comunhão, não
         comungam, ou porque não querem, ou porque não estão instruídos por sua
@@ -6660,16 +5597,12 @@ export default function PageCatecismo() {
         as vezes, se o adiamento da Comunhão se dá por sua culpa, e hão de dar
         por isso severas contas a Deus.
       </Text>
-      <Text className="h5">
-        647 - É coisa boa e útil comungar frequentemente?
-      </Text>
+      <H5 text="647 - É coisa boa e útil comungar frequentemente?" />
       <Text className="text-base">
         É coisa ótima comungar frequentemente e até todos os dias, contanto que
         se faça com as devidas disposições.
       </Text>
-      <Text className="h5">
-        648 - Qual a frequência com que se deve comungar?
-      </Text>
+      <H5 text="648 - Qual a frequência com que se deve comungar?" />
       <Text className="text-base">
         Pode-se comungar tão frequentemente quanto o permita o conselho de um
         confessor piedoso e douto.
@@ -6677,38 +5610,30 @@ export default function PageCatecismo() {
       <Text className="h2">
         V - <Text className="em">Do Santo Sacrifício da Missa</Text>
       </Text>
-      <Text className="h3">
-        1º - Da essência, da instituição e dos fins do Santo Sacrifício da Missa
-      </Text>
-      <Text className="h5">
-        649 - Deve considerar-se a Eucaristia só como Sacramento?
-      </Text>
+      <H3 text="1º - Da essência, da instituição e dos fins do Santo Sacrifício da Missa" />
+      <H5 text="649 - Deve considerar-se a Eucaristia só como Sacramento?" />
       <Text className="text-base">
         A Eucaristia não é somente um Sacramento; é também o sacrifício
         permanente da Nova Lei, que Jesus Cristo deixou à Igreja, para ser
         oferecido a Deus pelas mãos dos seus sacerdotes.
       </Text>
-      <Text className="h5">650 - Em que consiste em geral o sacrifício?</Text>
+      <H5 text="650 - Em que consiste em geral o sacrifício?" />
       <Text className="text-base">
         O sacrifício, em geral, consiste em oferecer a Deus uma coisa sensível,
         e destruí-la de alguma maneira, para reconhecer o supremo domínio que
         Ele tem sobre nós e sobre todas as coisas.
       </Text>
-      <Text className="h5">
-        651 - Como se chama este sacrifício da Nova Lei?
-      </Text>
+      <H5 text="651 - Como se chama este sacrifício da Nova Lei?" />
       <Text className="text-base">
         Este sacrifício da Nova Lei chama-se a santa Missa.
       </Text>
-      <Text className="h5">652 - Que é então a santa Missa?</Text>
+      <H5 text="652 - Que é então a santa Missa?" />
       <Text className="text-base">
         A santa Missa é o sacrifício do Corpo e do Sangue de Jesus Cristo,
         oferecido sobre os nossos altares, debaixo das espécies de pão e de
         vinho, em memória do sacrifício da Cruz.
       </Text>
-      <Text className="h5">
-        653 - É o Sacrifício da Missa o mesmo que o da Cruz?
-      </Text>
+      <H5 text="653 - É o Sacrifício da Missa o mesmo que o da Cruz?" />
       <Text className="text-base">
         O Sacrifício da Missa é substancialmente o mesmo que o da Cruz, porque o
         mesmo Jesus Cristo, que se ofereceu sobre a Cruz, é que se oferece pelas
@@ -6716,19 +5641,14 @@ export default function PageCatecismo() {
         ao modo por que é oferecido, o sacrifício da Missa difere do sacrifício
         da Cruz, conservando todavia a relação mais íntima e essencial com ele.
       </Text>
-      <Text className="h5">
-        654 - Que diferença, pois, e que relação há entre o Sacrifício da Missa
-        e o da Cruz?
-      </Text>
+      <H5 text="654 - Que diferença, pois, e que relação há entre o Sacrifício da Missa e o da Cruz?" />
       <Text className="text-base">
         Entre o Sacrifício da Missa e o sacrifício da Cruz há esta diferença e
         esta relação: que Jesus Cristo sobre se ofereceu derramando o seu sangue
         e merecendo para nós; ao passo que sobre os altares Ele se sacrifica sem
         derramamento de sangue, e nos aplica os frutos da sua Paixão e Morte.
       </Text>
-      <Text className="h5">
-        655 - Que outra relação tem o Sacrifício da Missa com o da Cruz?
-      </Text>
+      <H5 text="655 - Que outra relação tem o Sacrifício da Missa com o da Cruz?" />
       <Text className="text-base">
         Outra relação do Sacrifício da Missa com o da Cruz é que o Sacrifício da
         Missa representa de modo sensível o derramamento do Sangue de Jesus
@@ -6738,10 +5658,7 @@ export default function PageCatecismo() {
         concomitância natural e pela união hipostática, está presente, debaixo
         de cada uma das espécies, Jesus Cristo todo inteiro, vivo e verdadeiro.
       </Text>
-      <Text className="h5">
-        656 - Não é porventura o Sacrifício da Cruz o único sacrifício da Nova
-        Lei?
-      </Text>
+      <H5 text="656 - Não é porventura o Sacrifício da Cruz o único sacrifício da Nova Lei?" />
       <Text className="text-base">
         O Sacrifício da Cruz é o único sacrifício da Nova Lei, porquanto por ele
         Nosso Senhor aplacou a Justiça Divina, adquiriu todos os merecimentos
@@ -6750,9 +5667,7 @@ export default function PageCatecismo() {
         instituiu na sua Igreja, entre os quais está o Santo Sacrifício da
         Missa.
       </Text>
-      <Text className="h5">
-        657 - Para que fins se oferece o Santo Sacrifício da Missa?
-      </Text>
+      <H5 text="657 - Para que fins se oferece o Santo Sacrifício da Missa?" />
       <Text className="text-base">
         Oferece-se a Deus o Santo Sacrifício da Missa para quatro fins:
       </Text>
@@ -6775,32 +5690,23 @@ export default function PageCatecismo() {
           ponto de vista o sacrifício é impetratório.
         </Text>
       </View>
-      <Text className="h5">
-        658 - Quem oferece a Deus o Santo Sacrifício da Missa?
-      </Text>
+      <H5 text="658 - Quem oferece a Deus o Santo Sacrifício da Missa?" />
       <Text className="text-base">
         O primeiro e principal oferente do Santo Sacrifício da Missa é Jesus
         Cristo, e o sacerdote é o ministro que em nome de Jesus Cristo oferece
         este sacrifício ao Eterno Padre.
       </Text>
-      <Text className="h5">
-        659 - Quem instituiu o Santo Sacrifício da Missa?
-      </Text>
+      <H5 text="659 - Quem instituiu o Santo Sacrifício da Missa?" />
       <Text className="text-base">
         Foi o próprio Jesus Cristo que instituiu o Santo Sacrifício da Missa,
         quando instituiu o Sacramento da Eucaristia, e disse que fosse ele feito
         em memória da sua Paixão.
       </Text>
-      <Text className="h5">
-        660 - A quem se oferece o Santo Sacrifício da Missa?
-      </Text>
+      <H5 text="660 - A quem se oferece o Santo Sacrifício da Missa?" />
       <Text className="text-base">
         O Santo Sacrifício da Missa oferece-se só a Deus.
       </Text>
-      <Text className="h5">
-        661 - Se a santa Missa se oferece só a Deus, por que se celebram tantas
-        Missas em honra da Santíssima Virgem e dos Santos?
-      </Text>
+      <H5 text="661 - Se a santa Missa se oferece só a Deus, por que se celebram tantas Missas em honra da Santíssima Virgem e dos Santos?" />
       <Text className="text-base">
         A missa celebrada em honra da Santíssima Virgem e dos Santos é sempre um
         sacrifício oferecido só a Deus; diz-se, porém, celebrada em honra da
@@ -6808,7 +5714,7 @@ export default function PageCatecismo() {
         lhes concedeu, e para alcançar, pela intercessão deles, em maior
         abundância, as graças de que necessitamos.
       </Text>
-      <Text className="h5">662 - Quem participa dos frutos da Missa?</Text>
+      <H5 text="662 - Quem participa dos frutos da Missa?" />
       <Text className="text-base">
         Toda a Igreja participa dos frutos da Missa, mas particularmente:
       </Text>
@@ -6822,11 +5728,8 @@ export default function PageCatecismo() {
           defuntos.
         </Text>
       </View>
-      <Text className="h4">2º - Do modo de assistir à Missa</Text>
-      <Text className="h5">
-        663 - Quantas coisas são necessárias para ouvir bem e com fruto a santa
-        Missa?
-      </Text>
+      <H4 text="2º - Do modo de assistir à Missa" />
+      <H5 text="663 - Quantas coisas são necessárias para ouvir bem e com fruto a santa Missa?" />
       <Text className="text-base">
         Para ouvir bem e com fruto a santa Missa são necessárias duas coisas:
       </Text>
@@ -6834,17 +5737,14 @@ export default function PageCatecismo() {
         <Text className="li text-justify">1º - modéstia exterior,</Text>
         <Text className="li text-justify">2º - devoção interior.</Text>
       </View>
-      <Text className="h5">664 - Em que consiste a modéstia exterior?</Text>
+      <H5 text="664 - Em que consiste a modéstia exterior?" />
       <Text className="text-base">
         A modéstia exterior consiste particularmente em estar modestamente
         vestido, em observar o silêncio e o recolhimento, e em estar, quanto
         possível, de joelhos, excetuando o tempo dos dois evangelhos, que se
         ouvem estando de pé.
       </Text>
-      <Text className="h5">
-        665 - Ao ouvir a santa Missa qual é o melhor modo de praticar a devoção
-        interior?
-      </Text>
+      <H5 text="665 - Ao ouvir a santa Missa qual é o melhor modo de praticar a devoção interior?" />
       <Text className="text-base">
         O melhor modo de praticar a devoção interior ao ouvir a santa Missa é o
         seguinte:
@@ -6868,7 +5768,7 @@ export default function PageCatecismo() {
           em que o sacerdote comunga.
         </Text>
       </View>
-      <Text className="h5">666 - Que é a Comunhão espiritual?</Text>
+      <H5 text="666 - Que é a Comunhão espiritual?" />
       <Text className="text-base">
         A Comunhão espiritual é um grande desejo de se unir sacramentalmente a
         Jesus Cristo, dizendo por exemplo: Meu Senhor Jesus Cristo, eu desejo de
@@ -6876,24 +5776,18 @@ export default function PageCatecismo() {
         fazendo os mesmos atos que se fazem antes e depois da Comunhão
         sacramental.
       </Text>
-      <Text className="h5">
-        667 - Impede ouvir a Missa com fruto a recitação do Rosário ou de outras
-        orações durante o Santo Sacrifício?
-      </Text>
+      <H5 text="667 - Impede ouvir a Missa com fruto a recitação do Rosário ou de outras orações durante o Santo Sacrifício?" />
       <Text className="text-base">
         A recitação destas orações não impede ouvir com fruto a Missa, desde que
         haja um esforço possível de seguir as cerimônias do Santo Sacrifício.
       </Text>
-      <Text className="h5">
-        668 - É coisa boa também rezar pelos outros, quando se assiste à Santa
-        Missa?
-      </Text>
+      <H5 text="668 - É coisa boa também rezar pelos outros, quando se assiste à Santa Missa?" />
       <Text className="text-base">
         É coisa boa rezar também pelos outros, quando se assiste à santa Missa;
         e até o tempo da santa Missa é o mais oportuno para rezar pelos vivos e
         pelos mortos.
       </Text>
-      <Text className="h5">669 - Terminada a Missa, que se deve fazer?</Text>
+      <H5 text="669 - Terminada a Missa, que se deve fazer?" />
       <Text className="text-base">
         Terminada a Missa, devemos dar graças a Deus por nos ter concedido a
         graça de assistir a este grande sacrifício e pedir-Lhe perdão das faltas
@@ -6902,143 +5796,113 @@ export default function PageCatecismo() {
       <Text className="h2">
         VI - <Text className="em">Da Penitência</Text>
       </Text>
-      <Text className="h4">1º - Da Penitência em geral</Text>
-      <Text className="h5">670 - Que é o Sacramento da Penitência?</Text>
+      <H4 text="1º - Da Penitência em geral" />
+      <H5 text="670 - Que é o Sacramento da Penitência?" />
       <Text className="text-base">
         A Penitência, chamada também Confissão, é o Sacramento instituído por
         Jesus Cristo para perdoar os pecados cometidos depois do Batismo.
       </Text>
-      <Text className="h5">
-        671 - Por que se dá a este Sacramento o nome de Penitência?
-      </Text>
+      <H5 text="671 - Por que se dá a este Sacramento o nome de Penitência?" />
       <Text className="text-base">
         Dá-se a este Sacramento o nome de Penitência, porque, para obter o
         perdão dos pecados, é necessário detestá-los com arrependimento e porque
         quem cometeu uma falta deve sujeitar-se à pena que o Sacerdote impõe.
       </Text>
-      <Text className="h5">
-        672 - Por que este Sacramento se chama também Confissão?
-      </Text>
+      <H5 text="672 - Por que este Sacramento se chama também Confissão?" />
       <Text className="text-base">
         Chama-se este Sacramento também Confissão, porque, para alcançar o
         perdão dos pecados, não basta i detestá-los, mas é necessário acusar-se
         deles ao Sacerdote, isto é, confessá-los.
       </Text>
-      <Text className="h5">
-        673 - Quando Jesus Cristo instituiu o Sacramento da Penitência?
-      </Text>
+      <H5 text="673 - Quando Jesus Cristo instituiu o Sacramento da Penitência?" />
       <Text className="text-base">
         Jesus Cristo instituiu o Sacramento da Penitência no dia da sua
         Ressurreição, quando, depois de entrar no cenáculo, deu solenemente aos
         seus Apóstolos o poder de perdoar os pecados.
       </Text>
-      <Text className="h5">
-        674 - Como deu Jesus Cristo aos seus Apóstolos o poder de perdoar os
-        pecados?
-      </Text>
+      <H5 text="674 - Como deu Jesus Cristo aos seus Apóstolos o poder de perdoar os pecados?" />
       <Text className="text-base">
         Jesus Cristo deu aos seus Apóstolos o poder de perdoar os pecados,
         soprando sobre eles, e dizendo: Recebei o Espírito Santo: àqueles a quem
         perdoardes os pecados, ser-lhes-ão perdoados, e àqueles a quem os
         retiverdes ser-lhes-ão retidos.
       </Text>
-      <Text className="h5">
-        675 - Qual é a matéria do Sacramento da Penitência?
-      </Text>
+      <H5 text="675 - Qual é a matéria do Sacramento da Penitência?" />
       <Text className="text-base">
         Distingue-se a matéria do Sacramento da Penitência em remota e próxima.
         A remota é constituída pelos pecados cometidos pelo penitente depois do
         Batismo, e a matéria próxima são os atos do próprio penitente, isto é, a
         contrição, a acusação e a satisfação.
       </Text>
-      <Text className="h5">
-        676 - Qual é a forma do Sacramento da Penitência?
-      </Text>
+      <H5 text="676 - Qual é a forma do Sacramento da Penitência?" />
       <Text className="text-base">
         A forma do Sacramento da Penitência é esta: Eu te absolvo dos teus
         pecados.
       </Text>
-      <Text className="h5">
-        677 - Quem é o ministro do Sacramento da Penitência?
-      </Text>
+      <H5 text="677 - Quem é o ministro do Sacramento da Penitência?" />
       <Text className="text-base">
         O ministro do Sacramento da Penitência é o Sacerdote aprovado pelo Bispo
         para ouvir confissões.
       </Text>
-      <Text className="h5">
-        678 - Por que o Sacerdote deve ser aprovado pelo Bispo?
-      </Text>
+      <H5 text="678 - Por que o Sacerdote deve ser aprovado pelo Bispo?" />
       <Text className="text-base">
         O Sacerdote deve ser aprovado pelo Bispo para ouvir confissões, porque,
         para administrar validamente este Sacramento, não basta o poder da
         Ordem, mas é necessário também o poder de jurisdição, isto é, a
         faculdade de julgar, que deve ser dada pelo Bispo.
       </Text>
-      <Text className="h5">
-        679 - Quantas são as partes do Sacramento da Penitência?
-      </Text>
+      <H5 text="679 - Quantas são as partes do Sacramento da Penitência?" />
       <Text className="text-base">
         As partes do Sacramento da Penitência são: a contrição, a confissão e a
         satisfação da parte do pecador, a absolvição da parte do sacerdote.
       </Text>
-      <Text className="h5">680 - Que é a contrição ou a dor dos pecados?</Text>
+      <H5 text="680 - Que é a contrição ou a dor dos pecados?" />
       <Text className="text-base">
         A contrição ou a dor dos pecados é um desgosto da alma, pelo qual se
         detestam os pecados cometidos, e se propõe não os tornar a cometer no
         futuro.
       </Text>
-      <Text className="h5">681 - Que quer dizer esta palavra contrição?</Text>
+      <H5 text="681 - Que quer dizer esta palavra contrição?" />
       <Text className="text-base">
         A palavra contrição quer dizer fratura ou despedaçamento, como quando
         uma pedra é esmagada e reduzida a pó.
       </Text>
-      <Text className="h5">
-        682 - Por que se dá o nome de contrição à dor dos pecados?
-      </Text>
+      <H5 text="682 - Por que se dá o nome de contrição à dor dos pecados?" />
       <Text className="text-base">
         Dá-se o nome de contrição à dor dos pecados, para significar que o
         coração duro do pecador em certo modo se despedaça pela dor de ter
         ofendido a Deus.
       </Text>
-      <Text className="h5">683 - Em que consiste a confissão dos pecados?</Text>
+      <H5 text="683 - Em que consiste a confissão dos pecados?" />
       <Text className="text-base">
         A confissão consiste na acusação distinta dos nossos pecados ao
         confessor, para dele recebermos a absolvição e a penitência.
       </Text>
-      <Text className="h5">
-        684 - Por que é que a confissão se chama acusação?
-      </Text>
+      <H5 text="684 - Por que é que a confissão se chama acusação?" />
       <Text className="text-base">
         Chama-se a confissão acusação, porque não deve ser uma narração
         indiferente, mas sim uma verdadeira e dolorosa manifestação dos próprios
         pecados.
       </Text>
-      <Text className="h5">685 - Que é a satisfação ou penitência?</Text>
+      <H5 text="685 - Que é a satisfação ou penitência?" />
       <Text className="text-base">
         A satisfação ou penitência é a oração ou outra boa obra, que o confessor
         impõe ao pecador em expiação dos seus pecados.
       </Text>
-      <Text className="h5">686 - Que é a absolvição?</Text>
+      <H5 text="686 - Que é a absolvição?" />
       <Text className="text-base">
         A absolvição é a sentença que o Sacerdote pronuncia em nome de Jesus
         Cristo, para perdoar os pecados ao pecador.
       </Text>
-      <Text className="h5">
-        687 - Das partes do Sacramento da Penitência, qual é a mais necessária?
-      </Text>
+      <H5 text="687 - Das partes do Sacramento da Penitência, qual é a mais necessária?" />
       <Text className="text-base">
         Das partes do Sacramento da Penitência, a mais necessária é a contrição,
         porque sem ela nunca se pode obter o perdão dos pecados, e com ela só,
         quando é perfeita, pode obter-se o perdão, contanto que esteja unida com
         o desejo, ao menos implícito, de confessar-se.
       </Text>
-      <Text className="h4">
-        2º - Dos efeitos e da necessidade do Sacramento da Penitência e das
-        disposições para bem recebê-lo
-      </Text>
-      <Text className="h5">
-        688 - Quais são os efeitos do Sacramento da Penitência?
-      </Text>
+      <H4 text="2º - Dos efeitos e da necessidade do Sacramento da Penitência e das disposições para bem recebê-lo" />
+      <H5 text="688 - Quais são os efeitos do Sacramento da Penitência?" />
       <Text className="text-base">
         O Sacramento da Penitência confere a graça santificante, com a qual são
         perdoados os pecados mortais e também os veniais que se confessaram e de
@@ -7048,31 +5912,24 @@ export default function PageCatecismo() {
         cometer o pecado mortal; dá à alma auxílios oportunos para não recair no
         pecado e restitui a paz à consciência.
       </Text>
-      <Text className="h5">
-        689 - É o Sacramento da Penitência necessário a todos para se salvarem?
-      </Text>
+      <H5 text="689 - É o Sacramento da Penitência necessário a todos para se salvarem?" />
       <Text className="text-base">
         O Sacramento da Penitência é necessário, para se salvarem, a todos
         aqueles que, depois do Batismo, cometeram algum pecado mortal.
       </Text>
-      <Text className="h5">690 - É bom confessar-se com frequência?</Text>
+      <H5 text="690 - É bom confessar-se com frequência?" />
       <Text className="text-base">
         Confessar-se com frequência é coisa ótima, porque o Sacramento da
         Penitência, além de apagar os pecados, dá as graças necessárias para
         evitá-los no futuro.
       </Text>
-      <Text className="h5">
-        691 - Tem o Sacramento da Penitência virtude de per. doar todos os
-        pecados, por muitos e grandes que sejam?
-      </Text>
+      <H5 text="691 - Tem o Sacramento da Penitência virtude de per. doar todos os pecados, por muitos e grandes que sejam?" />
       <Text className="text-base">
         Sim, o Sacramento da Penitência tem virtude de perdoar todos os pecados,
         por muitos e grandes que sejam, contanto que se receba com as devidas
         disposições.
       </Text>
-      <Text className="h5">
-        692 - Quantas coisas são necessárias para fazer uma confissão bem feita?
-      </Text>
+      <H5 text="692 - Quantas coisas são necessárias para fazer uma confissão bem feita?" />
       <Text className="text-base">
         Para fazer uma boa confissão, são necessárias cinco coisas:
       </Text>
@@ -7089,107 +5946,89 @@ export default function PageCatecismo() {
         </Text>
         <Text className="li text-justify">5º - satisfação ou penitência.</Text>
       </View>
-      <Text className="h5">
-        693 - Que devemos fazer, antes de tudo, para bem nos confessarmos?
-      </Text>
+      <H5 text="693 - Que devemos fazer, antes de tudo, para bem nos confessarmos?" />
       <Text className="text-base">
         Para bem nos confessarmos devemos, antes de tudo, pedir de todo o
         coração ao Senhor que nos dê luz para conhecer todos os nossos pecados e
         força para os detestar.
       </Text>
-      <Text className="h4">3º - Do exame de consciência</Text>
-      <Text className="h5">694 - Que é o exame de consciência?</Text>
+      <H4 text="3º - Do exame de consciência" />
+      <H5 text="694 - Que é o exame de consciência?" />
       <Text className="text-base">
         O exame de consciência é uma diligente investigação dos pecados que se
         cometeram, desde a última confissão bem feita.
       </Text>
-      <Text className="h5">695 - Como se faz o exame de consciência?</Text>
+      <H5 text="695 - Como se faz o exame de consciência?" />
       <Text className="text-base">
         Faz-se o exame de consciência trazendo diligentemente à memória, na
         presença de Deus, todos os pecados ainda não confessados, cometidos por
         pensamentos, palavras, obras e omissões contra os Mandamentos de Deus e
         da Igreja, e contra as obrigações do próprio estado.
       </Text>
-      <Text className="h5">
-        696 - Sobre que mais coisas devemos examinar-nos?
-      </Text>
+      <H5 text="696 - Sobre que mais coisas devemos examinar-nos?" />
       <Text className="text-base">
         Devemos examinar-nos também sobre os maus hábitos e sobre as ocasiões de
         pecado.
       </Text>
-      <Text className="h5">
-        697 - No exame, devemos investigar também o número dos pecados?
-      </Text>
+      <H5 text="697 - No exame, devemos investigar também o número dos pecados?" />
       <Text className="text-base">
         No exame devemos investigar também o número dos pecados mortais.
       </Text>
-      <Text className="h5">
-        698 - Que é necessário para que um pecado seja mortal?
-      </Text>
+      <H5 text="698 - Que é necessário para que um pecado seja mortal?" />
       <Text className="text-base">
         Para que um pecado seja mortal são necessárias três coisas: matéria
         grave, plena advertência e consentimento perfeito da vontade.
       </Text>
-      <Text className="h5">699 - Quando há matéria grave?</Text>
+      <H5 text="699 - Quando há matéria grave?" />
       <Text className="text-base">
         Há matéria grave, quando se trata de uma coisa notavelmente contrária à
         Lei de Deus e da Igreja.
       </Text>
-      <Text className="h5">700 - Quando há plena advertência no pecado?</Text>
+      <H5 text="700 - Quando há plena advertência no pecado?" />
       <Text className="text-base">
         Há plena advertência no pecado, quando se conhece perfeitamente que se
         faz um mal grave.
       </Text>
-      <Text className="h5">
-        701 - Quando, no pecado, há o consentimento perfeito da vontade?
-      </Text>
+      <H5 text="701 - Quando, no pecado, há o consentimento perfeito da vontade?" />
       <Text className="text-base">
         Ha. no pecado, o consentimento perfeito da vontade, quando se quer fazer
         deliberadamente uma coisa, embora se reconheça que é culpável.
       </Text>
-      <Text className="h5">
-        702 - Que diligência se deve usar no exame de consciência?
-      </Text>
+      <H5 text="702 - Que diligência se deve usar no exame de consciência?" />
       <Text className="text-base">
         No exame de consciência deve usar-se aquela diligência que se usaria em
         um negócio de grande importância.
       </Text>
-      <Text className="h5">
-        703 - Quanto tempo se deve empregar no exame de consciência?
-      </Text>
+      <H5 text="703 - Quanto tempo se deve empregar no exame de consciência?" />
       <Text className="text-base">
         Deve empregar-se no exame de consciência mais ou menos tempo, conforme a
         necessidade, isto é, conforme o número e a qualidade dos pecados que
         sobrecarregam a consciência, e conforme o tempo decorrido desde a última
         confissão bem feita.
       </Text>
-      <Text className="h5">
-        704 - Como se pode facilitar o exame para a confissão?
-      </Text>
+      <H5 text="704 - Como se pode facilitar o exame para a confissão?" />
       <Text className="text-base">
         Facilita-se o exame para a confissão, fazendo todas as noites o exame de
         consciência sobre as ações do dia.
       </Text>
-      <Text className="h4">4º - Da dor ou arrependimento</Text>
-      <Text className="h5">705 - Que é a dor dos pecados?</Text>
+      <H4 text="4º - Da dor ou arrependimento" />
+      <H5 text="705 - Que é a dor dos pecados?" />
       <Text className="text-base">
         A dor dos pecados consiste num desgosto e numa detestação sincera da
         ofensa feita a Deus.
       </Text>
-      <Text className="h5">706 - De quantas espécies é a dor?</Text>
+      <H5 text="706 - De quantas espécies é a dor?" />
       <Text className="text-base">
         A dor é de duas espécies: perfeita ou de contrição; imperfeita ou de
         atrição.
       </Text>
-      <Text className="h5">707 - Que é a dor perfeita ou de contrição?</Text>
+      <H5 text="707 - Que é a dor perfeita ou de contrição?" />
       <Text className="text-base">
         A dor perfeita é o desgosto de ter ofendido a Deus, porque Deus é
         infinitamente bom e digno, por Si mesmo, de ser amado sobre todas as
         coisas.
       </Text>
-      <Text className="h5">
-        708 - Por que se chama perfeita a dor de contrição?
-      </Text>
+      <H5 text="708 - Por que se chama perfeita a dor de contrição?" />
       <Text className="text-base">
         Chama-se perfeita a dor de contrição por duas razões:
       </Text>
@@ -7203,63 +6042,51 @@ export default function PageCatecismo() {
           ficando-nos porém a obrigação de nos confessarmos.
         </Text>
       </View>
-      <Text className="h5">
-        709 - Então a dor perfeita alcança-nos o perdão dos pecados
-        independentemente da confissão?
-      </Text>
+      <H5 text="709 - Então a dor perfeita alcança-nos o perdão dos pecados independentemente da confissão?" />
       <Text className="text-base">
         A dor perfeita não nos alcança o perdão dos pecados independentemente da
         confissão, porque sempre inclui a vontade de se confessar.
       </Text>
-      <Text className="h5">
-        710 - Por que a dor perfeita, ou contrição, produz este efeito de nos
-        conceder o estado de graça?
-      </Text>
+      <H5 text="710 - Por que a dor perfeita, ou contrição, produz este efeito de nos conceder o estado de graça?" />
       <Text className="text-base">
         A dor perfeita, ou contrição, produz este efeito, porque procede da
         caridade, que não pode encontrar-se na alma juntamente com o pecado
         mortal.
       </Text>
-      <Text className="h5">711 - Que é a dor imperfeita ou de atrição?</Text>
+      <H5 text="711 - Que é a dor imperfeita ou de atrição?" />
       <Text className="text-base">
         A dor imperfeita ou de atrição é aquela pela qual nos arrependemos de
         ter ofendido a Deus como nosso supremo Juiz, isto é, por temor dos
         castigos que merecemos e nos esperam nesta ou na outra vida, ou pela
         própria fealdade do pecado.
       </Text>
-      <Text className="h5">
-        712 - Que condições deve ter a dor para ser boa?
-      </Text>
+      <H5 text="712 - Que condições deve ter a dor para ser boa?" />
       <Text className="text-base">
         A dor, para ser boa, deve ter quatro condições: deve ser interna,
         sobrenatural, suma e universal.
       </Text>
-      <Text className="h5">713 - Que quer dizer: a dor deve ser interna?</Text>
+      <H5 text="713 - Que quer dizer: a dor deve ser interna?" />
       <Text className="text-base">
         Quer dizer que deve estar no coração e na vontade, e não só nas
         palavras.
       </Text>
-      <Text className="h5">714 - Por que a dor deve ser interna?</Text>
+      <H5 text="714 - Por que a dor deve ser interna?" />
       <Text className="text-base">
         A dor deve ser interna, porque a vontade, que se afastou de Deus com o
         pecado, deve voltar para Deus, detestando o pecado cometido.
       </Text>
-      <Text className="h5">
-        715 - Que quer dizer: a dor deve ser sobrenatural?
-      </Text>
+      <H5 text="715 - Que quer dizer: a dor deve ser sobrenatural?" />
       <Text className="text-base">
         Quer dizer que deve ser excitada em nós pela graça do Senhor, e a
         devemos conceber levados por motivos que procedem da fé.
       </Text>
-      <Text className="h5">716 - Por que a dor deve ser sobrenatural?</Text>
+      <H5 text="716 - Por que a dor deve ser sobrenatural?" />
       <Text className="text-base">
         A dor deve ser sobrenatural, porque é sobrenatural o fim a que se
         dirige, isto é, o perdão de Deus, a aquisição da graça santificante e o
         direito à glória eterna.
       </Text>
-      <Text className="h5">
-        717 - Explicai melhor a diferença entre a dor sobrenatural e a natural.
-      </Text>
+      <H5 text="717 - Explicai melhor a diferença entre a dor sobrenatural e a natural." />
       <Text className="text-base">
         Quem se arrepende por ter ofendido a Deus infinitamente bom e digno por
         Si mesmo de ser amado, por ter perdido o Paraíso e merecido o inferno,
@@ -7269,45 +6096,33 @@ export default function PageCatecismo() {
         algum prejuízo puramente temporal, teria dor natural, porque se
         arrependeria só por motivos humanos.
       </Text>
-      <Text className="h5">718 - Por que a dor deve ser suma?</Text>
+      <H5 text="718 - Por que a dor deve ser suma?" />
       <Text className="text-base">
         A dor deve ser suma, porque devemos considerar e odiar o pecado como o
         maior de todos os males, visto ser ofensa de Deus, sumo Bem.
       </Text>
-      <Text className="h5">
-        719 - Para ter dor dos pecados, é porventura necessário chorar, como às
-        vezes se chora pelas desgraças desta vida?
-      </Text>
+      <H5 text="719 - Para ter dor dos pecados, é porventura necessário chorar, como às vezes se chora pelas desgraças desta vida?" />
       <Text className="text-base">
         Não. Não é necessário que materialmente se chore pela dor dos pecados;
         mas basta que no íntimo do coração se deplore mais o ter ofendido a
         Deus, do que qualquer outra desgraça.
       </Text>
-      <Text className="h5">
-        720 - Que quer dizer que a dor deve ser universal?
-      </Text>
+      <H5 text="720 - Que quer dizer que a dor deve ser universal?" />
       <Text className="text-base">
         Quer dizer que se deve estender a todos os pecados mortais cometidos.
       </Text>
-      <Text className="h5">
-        721 - Por que a dor se deve estender a todos os pecados mortais
-        cometidos?
-      </Text>
+      <H5 text="721 - Por que a dor se deve estender a todos os pecados mortais cometidos?" />
       <Text className="text-base">
         Porque quem se não arrepende, ainda que seja de um só pecado mortal,
         continua sendo inimigo de Deus.
       </Text>
-      <Text className="h5">
-        722 - Que devemos fazer para ter dor dos nossos pecados?
-      </Text>
+      <H5 text="722 - Que devemos fazer para ter dor dos nossos pecados?" />
       <Text className="text-base">
         Para ter dor dos nossos pecados, devemos pedi-la de todo o coração a
         Deus e excitá-la em tios com a consideração do grande mal que fizemos,
         pecando.
       </Text>
-      <Text className="h5">
-        723 - Como fareis para vos excitardes a detestar os pecados?
-      </Text>
+      <H5 text="723 - Como fareis para vos excitardes a detestar os pecados?" />
       <Text className="text-base">
         Para me excitar a detestar os pecados considerarei:
       </Text>
@@ -7331,45 +6146,32 @@ export default function PageCatecismo() {
           e servido fielmente.
         </Text>
       </View>
-      <Text className="h5">
-        724 - Devemos ter grande empenho, quando nos vamos confessar, em ter
-        verdadeira dor dos nossos pecados?
-      </Text>
+      <H5 text="724 - Devemos ter grande empenho, quando nos vamos confessar, em ter verdadeira dor dos nossos pecados?" />
       <Text className="text-base">
         Sim, quando nos vamos confessar, devemos ter muito empenho em ter
         verdadeira dor dos nossos pecados, porque esta é a coisa mais importante
         de todas; e, se falta a dor, a confissão não é válida.
       </Text>
-      <Text className="h5">
-        725 - Quem se confessa só de pecados veniais, deve ter dor de todos?
-      </Text>
+      <H5 text="725 - Quem se confessa só de pecados veniais, deve ter dor de todos?" />
       <Text className="text-base">
         Quem se confessa só de pecados veniais, para se confessar validamente,
         basta que se arrependa de algum deles; mas, para alcançar o perdão de
         todos, é necessário que se arrependa de todos os que reconhece ter
         cometido.
       </Text>
-      <Text className="h5">
-        726 - Quem se confessa só de pecados veniais, e não está arrependido nem
-        sequer de um só, faz uma boa confissão?
-      </Text>
+      <H5 text="726 - Quem se confessa só de pecados veniais, e não está arrependido nem sequer de um só, faz uma boa confissão?" />
       <Text className="text-base">
         Quem se confessa só de pecados veniais, e não está arrependido nem
         sequer de um só, faz uma confissão nula; a confissão além disso é
         sacrílega, se adverte que lhe falta a dor.
       </Text>
-      <Text className="h5">
-        727 - Que convém fazer para tornar mais segura a confissão só de pecados
-        veniais?
-      </Text>
+      <H5 text="727 - Que convém fazer para tornar mais segura a confissão só de pecados veniais?" />
       <Text className="text-base">
         Para tornar mais segura a confissão só de pecados veniais, é prudente
         acusar, com verdadeira dor, também algum pecado mais grave da vida
         passada, ainda que já confessado outras vezes.
       </Text>
-      <Text className="h5">
-        728 - É bom fazer com frequência o ato de contrição?
-      </Text>
+      <H5 text="728 - É bom fazer com frequência o ato de contrição?" />
       <Text className="text-base">
         É coisa boa e muito útil fazer, com frequência, o ato de contrição,
         principalmente antes de se deitar, e quando se tem certeza ou se duvida
@@ -7378,37 +6180,29 @@ export default function PageCatecismo() {
         de fazer semelhante ato na ocasião de maior necessidade, isto é, em
         perigo de morte.
       </Text>
-      <Text className="h4">5º - Do propósito</Text>
-      <Text className="h5">729 - Em que consiste o propósito?</Text>
+      <H4 text="5º - Do propósito" />
+      <H5 text="729 - Em que consiste o propósito?" />
       <Text className="text-base">
         O propósito consiste em uma vontade determinada de nunca mais cometer o
         pecado, e de empregar todos os meios necessários para o evitar.
       </Text>
-      <Text className="h5">
-        730 - Que condições deve ter esta resolução, para ser um bom propósito?
-      </Text>
+      <H5 text="730 - Que condições deve ter esta resolução, para ser um bom propósito?" />
       <Text className="text-base">
         Para ser um bom propósito, esta resolução deve ter principalmente três
         condições: deve ser absoluta, universal e eficaz.
       </Text>
-      <Text className="h5">
-        731 - Que quer dizer: o bom propósito deve ser absoluto?
-      </Text>
+      <H5 text="731 - Que quer dizer: o bom propósito deve ser absoluto?" />
       <Text className="text-base">
         Quer dizer que o propósito deve ser sem condição alguma de tempo, de
         lugar ou de pessoa.
       </Text>
-      <Text className="h5">
-        732 - Que quer dizer: o bom propósito deve ser universal?
-      </Text>
+      <H5 text="732 - Que quer dizer: o bom propósito deve ser universal?" />
       <Text className="text-base">
         O bom propósito deve ser universal, quer dizer que devemos ter a vontade
         de evitar todos os pecados mortais, tanto os que já tenhamos cometido no
         passado, como os que poderíamos cometer ainda.
       </Text>
-      <Text className="h5">
-        733 - Que quer dizer: o bom propósito deve ser eficaz?
-      </Text>
+      <H5 text="733 - Que quer dizer: o bom propósito deve ser eficaz?" />
       <Text className="text-base">
         O bom propósito deve ser eficaz, quer dizer que é necessário termos uma
         vontade decidida de perder todas as coisas antes que cometer um novo
@@ -7416,103 +6210,76 @@ export default function PageCatecismo() {
         hábitos, e de satisfazer a todas as obrigações lícitas contraídas em
         consequência dos nossos pecados.
       </Text>
-      <Text className="h5">734 - Que é que se entende por mau hábito?</Text>
+      <H5 text="734 - Que é que se entende por mau hábito?" />
       <Text className="text-base">
         Por mau hábito entende-se a disposição adquirida para cair com
         facilidade naqueles pecados aos quais nos acostumamos.
       </Text>
-      <Text className="h5">
-        735 - Que devemos fazer para corrigir os maus hábitos?
-      </Text>
+      <H5 text="735 - Que devemos fazer para corrigir os maus hábitos?" />
       <Text className="text-base">
         Para corrigir os maus hábitos, devemos vigiar sobre nós mesmos, fazer
         muita oração, confessar-nos com frequência, ter um bom diretor sem
         mudá-lo, e pôr em prática os conselhos e os remédios que ele nos propõe.
       </Text>
-      <Text className="h5">
-        736 - Que se entende por ocasiões perigosas de pecar?
-      </Text>
+      <H5 text="736 - Que se entende por ocasiões perigosas de pecar?" />
       <Text className="text-base">
         Por ocasiões perigosas de pecar entendem-se todas aquelas circunstâncias
         de tempo, de lugar, de pessoas ou de coisas, que, pela sua própria
         natureza, ou pela nossa fragilidade, nos induzem a cometer o pecado.
       </Text>
-      <Text className="h5">
-        737 - Somos gravemente obrigados a evitar todas as ocasiões perigosas?
-      </Text>
+      <H5 text="737 - Somos gravemente obrigados a evitar todas as ocasiões perigosas?" />
       <Text className="text-base">
         Somos gravemente obrigados a evitar as ocasiões perigosas que de
         ordinário nos levam a cometer o pecado mortal, e que se chamam ocasiões
         próximas de pecado.
       </Text>
-      <Text className="h5">
-        738 - Que deve fazer quem não pode evitar alguma ocasião de pecado?
-      </Text>
+      <H5 text="738 - Que deve fazer quem não pode evitar alguma ocasião de pecado?" />
       <Text className="text-base">
         Quem não pode evitar alguma ocasião de pecado diga-o ao confessor, e
         siga os conselhos dele.
       </Text>
-      <Text className="h5">
-        739 - Que considerações nos auxiliam a fazer o propósito?
-      </Text>
+      <H5 text="739 - Que considerações nos auxiliam a fazer o propósito?" />
       <Text className="text-base">
         Para fazer o propósito auxiliam-nos as mesmas considerações que servem
         para excitar a dor, isto é, a consideração dos motivos que temos para
         temer a justiça de Deus, e para amar a sua infinita bondade.
       </Text>
-      <Text className="h4">6º - Da acusação dos pecados ao confessor</Text>
-      <Text className="h5">
-        740 - Depois de vos terdes disposto bem para a confissão com o exame,
-        com a dor e com o propósito, que haveis de fazer?
-      </Text>
+      <H4 text="6º - Da acusação dos pecados ao confessor" />
+      <H5 text="740 - Depois de vos terdes disposto bem para a confissão com o exame, com a dor e com o propósito, que haveis de fazer?" />
       <Text className="text-base">
         Depois de me ter disposto bem com o exame, com a dor e com o propósito,
         irei fazer ao confessor a acusação dos meus pecados, para receber a
         absolvição.
       </Text>
-      <Text className="h5">
-        741 - De que pecados somos obrigados a confessar-nos?
-      </Text>
+      <H5 text="741 - De que pecados somos obrigados a confessar-nos?" />
       <Text className="text-base">
         Somos obrigados a confessar-nos de todos os pecados mortais; é bom,
         porém, confessar também os veniais.
       </Text>
-      <Text className="h5">
-        742 - Quais são as qualidades que deve ter a acusação dos pecados, ou
-        confissão?
-      </Text>
+      <H5 text="742 - Quais são as qualidades que deve ter a acusação dos pecados, ou confissão?" />
       <Text className="text-base">
         As qualidades principais que deve ter a acusação dos pecados são cinco:
         deve ser humilde, íntegra, sincera, prudente e breve.
       </Text>
-      <Text className="h5">
-        743 - Que querem dizer as palavras: a acusação deve ser humilde?
-      </Text>
+      <H5 text="743 - Que querem dizer as palavras: a acusação deve ser humilde?" />
       <Text className="text-base">
         A acusação deve ser humilde, quer dizer que o penitente deve acusar-se
         diante do seu confessor sem altivez de ânimo ou de palavras, mas com
         sentimentos de um réu que reconhece a sua culpa, e comparece diante do
         juiz.
       </Text>
-      <Text className="h5">
-        744 - Que quer dizer: a acusação deve ser íntegra?
-      </Text>
+      <H5 text="744 - Que quer dizer: a acusação deve ser íntegra?" />
       <Text className="text-base">
         A acusação deve ser íntegra, quer dizer que se devem confessar, com as
         suas circunstâncias e no seu número, todos os pecados mortais cometidos
         desde a última confissão bem feita, e dos quais se tem consciência.
       </Text>
-      <Text className="h5">
-        745 - Quais são as circunstâncias que se devem dizer para que a acusação
-        seja íntegra?
-      </Text>
+      <H5 text="745 - Quais são as circunstâncias que se devem dizer para que a acusação seja íntegra?" />
       <Text className="text-base">
         Para que a acusação seja íntegra, devem acusar-se as circunstâncias que
         mudam a espécie do pecado.
       </Text>
-      <Text className="h5">
-        746 - Quais são as circunstâncias que mudam a espécie do pecado?
-      </Text>
+      <H5 text="746 - Quais são as circunstâncias que mudam a espécie do pecado?" />
       <Text className="text-base">
         As circunstâncias que mudam a espécie do pecado são:
       </Text>
@@ -7526,80 +6293,53 @@ export default function PageCatecismo() {
           ou mais pecados mortais.
         </Text>
       </View>
-      <Text className="h5">
-        747 - Dai-me um exemplo de uma circunstância que faça tornar mortal um
-        pecado venial?
-      </Text>
+      <H5 text="747 - Dai-me um exemplo de uma circunstância que faça tornar mortal um pecado venial?" />
       <Text className="text-base">
         Quem, para se desculpar, dissesse uma mentira da qual resultasse dano
         grave para o próximo, deveria manifestar esta circunstância, que muda a
         mentira, de oficiosa em gravemente nociva.
       </Text>
-      <Text className="h5">
-        748 - Dai-me agora exemplo de uma circunstância pela qual uma e a mesma
-        ação pecaminosa contém a malícia de dois ou mais pecados?
-      </Text>
+      <H5 text="748 - Dai-me agora exemplo de uma circunstância pela qual uma e a mesma ação pecaminosa contém a malícia de dois ou mais pecados?" />
       <Text className="text-base">
         Quem tivesse roubado uma coisa sagrada, deveria acusar esta
         circunstância, que acrescenta ao furto a malícia do sacrilégio.
       </Text>
-      <Text className="h5">
-        749 - Se uma pessoa não tiver a certeza de ter come tido um pecado, deve
-        confessá-lo?
-      </Text>
+      <H5 text="749 - Se uma pessoa não tiver a certeza de ter come tido um pecado, deve confessá-lo?" />
       <Text className="text-base">
         Se uma pessoa não tiver a certeza de ter cometido um pecado, não é
         obrigada a confessá-lo; se porém o quiser acusar, deverá acrescentar que
         não tem a certeza de o ter cometido.
       </Text>
-      <Text className="h5">
-        750 - Quem não se lembra exatamente do número dos seus pecados, que deve
-        fazer?
-      </Text>
+      <H5 text="750 - Quem não se lembra exatamente do número dos seus pecados, que deve fazer?" />
       <Text className="text-base">
         Quem não se lembra exatamente do número dos seus pecados, deve acusar o
         número aproximado.
       </Text>
-      <Text className="h5">
-        751 - Quem deixou de confessar por esquecimento um pecado mortal, ou uma
-        circunstância necessária, fez uma boa confissão?
-      </Text>
+      <H5 text="751 - Quem deixou de confessar por esquecimento um pecado mortal, ou uma circunstância necessária, fez uma boa confissão?" />
       <Text className="text-base">
         Quem deixou de confessar por esquecimento um pecado mortal, ou uma
         circunstância necessária, fez uma boa confissão, contanto que tenha
         empregado a devida diligência no exame de consciência.
       </Text>
-      <Text className="h5">
-        752 - Se um pecado mortal esquecido na confissão volta depois à
-        lembrança, somos obrigados a acusá-lo noutra confissão?
-      </Text>
+      <H5 text="752 - Se um pecado mortal esquecido na confissão volta depois à lembrança, somos obrigados a acusá-lo noutra confissão?" />
       <Text className="text-base">
         Se um pecado mortal esquecido na confissão volta depois à lembrança,
         somos obrigados, sem dúvida, a acusá-lo na primeira vez que de novo nos
         confessarmos.
       </Text>
-      <Text className="h5">
-        753 - Quem por vergonha, ou por outro motivo culpável, cala
-        voluntariamente na confissão algum pecado mortal, que comete?
-      </Text>
+      <H5 text="753 - Quem por vergonha, ou por outro motivo culpável, cala voluntariamente na confissão algum pecado mortal, que comete?" />
       <Text className="text-base">
         Quem, por vergonha, ou por qualquer outro motivo culpável, cala
         voluntariamente algum pecado 'mortal na confissão, profana o Sacramento
         e por isso torna-se réu de gravíssimo mo sacrilégio.
       </Text>
-      <Text className="h5">
-        754 - Quem ocultou voluntariamente algum pecado mortal na confissão,
-        como há de conciliar a própria consciência?
-      </Text>
+      <H5 text="754 - Quem ocultou voluntariamente algum pecado mortal na confissão, como há de conciliar a própria consciência?" />
       <Text className="text-base">
         Quem ocultou culpavelmente algum pecado mortal na confissão, deve expor
         ao confessor o pecado ocultado, dizer em quantas confissões o ocultou, e
         repetir todas as confissões, desde a última bem feita.
       </Text>
-      <Text className="h5">
-        755 - Que deve considerar quem se vir tentado a calar algum pecado na
-        confissão?
-      </Text>
+      <H5 text="755 - Que deve considerar quem se vir tentado a calar algum pecado na confissão?" />
       <Text className="text-base">
         Quem se vir tentado a calar um pecado grave na confissão, deve
         considerar:
@@ -7619,115 +6359,88 @@ export default function PageCatecismo() {
           gravíssimo, e com a ameaça de severíssimas penas temporais e eternas.
         </Text>
       </View>
-      <Text className="h5">
-        756 - Que significam estas palavras: a acusação deve ser sincera?
-      </Text>
+      <H5 text="756 - Que significam estas palavras: a acusação deve ser sincera?" />
       <Text className="text-base">
         A acusação deve ser sincera, significa que é necessário declarar os
         pecados como eles são, sem os desculpar, sem os diminuir e sem os
         aumentar.
       </Text>
-      <Text className="h5">
-        757 - Que significam estas palavras: a confissão deve ser prudente?
-      </Text>
+      <H5 text="757 - Que significam estas palavras: a confissão deve ser prudente?" />
       <Text className="text-base">
         A confissão deve ser prudente, significa que, ao confessar os pecados,
         devemos servir-nos dos termos mais modestos, e que devemos guardar-nos
         de descobrir os pecados alheios.
       </Text>
-      <Text className="h5">
-        758 - Que significam estas palavras: a confissão deve ser breve?
-      </Text>
+      <H5 text="758 - Que significam estas palavras: a confissão deve ser breve?" />
       <Text className="text-base">
         A confissão deve ser breve, significa que não. devemos ir falar de
         coisas inúteis ao confessor.
       </Text>
-      <Text className="h5">
-        759 - Mas o dever de confessar a outro homem os próprios pecados, não
-        será muito custoso, sobretudo se são muito vergonhosos?
-      </Text>
+      <H5 text="759 - Mas o dever de confessar a outro homem os próprios pecados, não será muito custoso, sobretudo se são muito vergonhosos?" />
       <Text className="text-base">
         Ainda que confessar a outro homem os próprios pecados possa ser penoso,
         é necessário fazê-lo, porque é de preceito divino; e de outro modo não
         se pode obter o perdão dos pecados cometidos; além disso, a dificuldade
         de se confessar é compensada por muitas vantagens e grandes consolações.
       </Text>
-      <Text className="h4">7º - Do modo de se confessar</Text>
-      <Text className="h5">760 - Como vos apresentareis ao confessor?</Text>
+      <H4 text="7º - Do modo de se confessar" />
+      <H5 text="760 - Como vos apresentareis ao confessor?" />
       <Text className="text-base">
         Ponho-me de joelhos aos pés do confessor, e digo: Abençoai-me, Padre,
         porque pequei.
       </Text>
-      <Text className="h5">
-        761 - Que fareis enquanto o confessor vos der a bênção?
-      </Text>
+      <H5 text="761 - Que fareis enquanto o confessor vos der a bênção?" />
       <Text className="text-base">
         Inclino-me humildemente para receber a bênção, e faço o sinal da Cruz.
       </Text>
-      <Text className="h5">
-        762 - Depois de feito o sinal da Cruz, que direis?
-      </Text>
+      <H5 text="762 - Depois de feito o sinal da Cruz, que direis?" />
       <Text className="text-base">
         Depois de feito o sinal da Cruz, direi: Eu me confesso a Deus
         todo-poderoso, à bem-aventurada sempre Virgem Maria, a todos os Santos,
         e a vós, Padre, porque pequei.
       </Text>
-      <Text className="h5">763 - E depois, que direis?</Text>
+      <H5 text="763 - E depois, que direis?" />
       <Text className="text-base">
         Depois direi: Confessei-me em tal tempo; por graça de Deus recebi a
         absolvição, cumpri a penitência, e fui à Comunhão. Em seguida faz-se a
         acusação dos pecados.
       </Text>
-      <Text className="h5">
-        764 - Terminada a acusação dos pecados, que direis?
-      </Text>
+      <H5 text="764 - Terminada a acusação dos pecados, que direis?" />
       <Text className="text-base">
         Direi: Acuso-me ainda de todos os pecados da vida passada, especialmente
         contra tal ou tal virtude, por exemplo, contra a pureza, contra o quarto
         Mandamento, etc.
       </Text>
-      <Text className="h5">765 - Depois desta acusação, que direis ainda?</Text>
+      <H5 text="765 - Depois desta acusação, que direis ainda?" />
       <Text className="text-base">
         Direi: De todos estes pecados e de todos aqueles de que não me lembro,
         peço perdão a Deus de todo o meu coração; e a vós, Padre, peço a
         penitência e a absolvição.
       </Text>
-      <Text className="h5">
-        766 - Concluída assim a acusação dos pecados, que mais resta a fazer
-      </Text>
+      <H5 text="766 - Concluída assim a acusação dos pecados, que mais resta a fazer" />
       <Text className="text-base">
         Concluída a acusação dos pecados, é necessário ouvir com respeito o que
         disser o confessor; aceitar a penitência com sincera vontade de
         cumpri-la; e, enquanto ele dá a absolvição, renovar o ato de contrição.
       </Text>
-      <Text className="h5">
-        767 - Depois de recebida a absolvição, que há ainda a fazer?
-      </Text>
+      <H5 text="767 - Depois de recebida a absolvição, que há ainda a fazer?" />
       <Text className="text-base">
         Depois de recebida a absolvição, é preciso agradecer a Nosso Senhor,
         cumprir quanto antes a penitência, e pôr em prática os avisos do
         confessor.
       </Text>
-      <Text className="h4">8º - Da absolvição</Text>
-      <Text className="h5">
-        768 - Devem os confessores dar sempre a absolvição àqueles que se
-        confessam?
-      </Text>
+      <H4 text="8º - Da absolvição" />
+      <H5 text="768 - Devem os confessores dar sempre a absolvição àqueles que se confessam?" />
       <Text className="text-base">
         Os confessores devem dar a absolvição somente àqueles que julgam bem
         dispostos a recebê-la.
       </Text>
-      <Text className="h5">
-        769 - Podem os confessores diferir ou negar alguma vez a absolvição?
-      </Text>
+      <H5 text="769 - Podem os confessores diferir ou negar alguma vez a absolvição?" />
       <Text className="text-base">
         Os confessores não só podem, mas devem diferir ou negar a absolvição em
         certos casos, para não profanar o Sacramento.
       </Text>
-      <Text className="h5">
-        770 - Quais são os penitentes que se devem considerar mal dispostos, e
-        aos quais se deve ordinariamente diferir ou negar a absolvição?
-      </Text>
+      <H5 text="770 - Quais são os penitentes que se devem considerar mal dispostos, e aos quais se deve ordinariamente diferir ou negar a absolvição?" />
       <Text className="text-base">
         Os penitentes que se devem considerar mal dispostos são principalmente:
       </Text>
@@ -7756,20 +6469,14 @@ export default function PageCatecismo() {
           6º - aqueles que não querem fugir das ocasiões próximas de pecado.
         </Text>
       </View>
-      <Text className="h5">
-        771 - Não há excessivo rigor da parte do confessor em diferir a
-        absolvição ao penitente que ele não julga ainda bem disposto?
-      </Text>
+      <H5 text="771 - Não há excessivo rigor da parte do confessor em diferir a absolvição ao penitente que ele não julga ainda bem disposto?" />
       <Text className="text-base">
         Não. Não há excesso de rigor no confessor que difere a absolvição do
         penitente, porque não o julga ainda bem disposto; há antes caridade,
         pois procede como um bom médico, que tenta todos os remédios, ainda os
         desagradáveis e penosos, para salvar a vida ao doente.
       </Text>
-      <Text className="h5">
-        772 - Deverá desesperar ou afastar-se inteiramente da confissão o
-        pecador a quem se difere ou se nega a absolvição?
-      </Text>
+      <H5 text="772 - Deverá desesperar ou afastar-se inteiramente da confissão o pecador a quem se difere ou se nega a absolvição?" />
       <Text className="text-base">
         O pecador a quem se difere ou se nega a absolvição não deve desesperar
         ou afastar- se inteiramente da confissão; mas deve humilhar-se,
@@ -7777,52 +6484,42 @@ export default function PageCatecismo() {
         confessor lhe dá, e assim pôr-se quanto antes em estado de merecer a
         absolvição.
       </Text>
-      <Text className="h5">
-        773 - Que deve fazer o penitente quanto à escolha do confessor?
-      </Text>
+      <H5 text="773 - Que deve fazer o penitente quanto à escolha do confessor?" />
       <Text className="text-base">
         O verdadeiro penitente deve encomendar-se muito a Deus para escolher um
         confessor piedoso, douto e prudente, e deve depois entregar-se às suas
         mãos, e submeter-se a ele como a seu juiz e médico.
       </Text>
-      <Text className="h4">9º - Da satisfação ou penitência</Text>
-      <Text className="h5">774 - Que é a satisfação?</Text>
+      <H4 text="9º - Da satisfação ou penitência" />
+      <H5 text="774 - Que é a satisfação?" />
       <Text className="text-base">
         A satisfação, que também se chama penitência sacramental, é um dos atos
         do penitente, com o qual ele dá uma certa reparação à justiça divina
         pelos pecados cometidos pondo em prática aquelas obras que o confessor
         lhe impõe.
       </Text>
-      <Text className="h5">
-        775 - É obrigado o penitente a aceitar a penitência que o confessor lhe
-        impõe?
-      </Text>
+      <H5 text="775 - É obrigado o penitente a aceitar a penitência que o confessor lhe impõe?" />
       <Text className="text-base">
         O penitente é obrigado a aceitar a penitência que o confessor lhe impõe,
         se a pode cumprir, e, se não a pode cumprir, deve dizê-lo humildemente
         ao mesmo confessor, e pedir-lhe outra.
       </Text>
-      <Text className="h5">776 - Quando se deve cumprir a penitência?</Text>
+      <H5 text="776 - Quando se deve cumprir a penitência?" />
       <Text className="text-base">
         Se o confessor não marcou tempo, a penitência deve cumprir-se quanto
         antes, e deve fazer-se a diligência por cumpri-la em estado de graça.
       </Text>
-      <Text className="h5">777 - Como se deve cumprir a penitência?</Text>
+      <H5 text="777 - Como se deve cumprir a penitência?" />
       <Text className="text-base">
         A penitência deve cumprir-se na sua integridade e com devoção.
       </Text>
-      <Text className="h5">
-        778 - Porque na confissão se impõe uma penitência?
-      </Text>
+      <H5 text="778 - Porque na confissão se impõe uma penitência?" />
       <Text className="text-base">
         Impõe-se uma penitência porque de ordinário, depois da absolvição
         sacramental que perdoa a culpa e a pena eterna, resta uma pena temporal
         a pagar neste mundo ou no Purgatório.
       </Text>
-      <Text className="h5">
-        779 - Por que razão quis Nosso Senhor perdoar no Sacramento do Batismo
-        toda a pena devida aos pecados, e não no Sacramento da penitência?
-      </Text>
+      <H5 text="779 - Por que razão quis Nosso Senhor perdoar no Sacramento do Batismo toda a pena devida aos pecados, e não no Sacramento da penitência?" />
       <Text className="text-base">
         Nosso Senhor quis perdoar no Sacramento do Batismo toda a pena devida
         aos pecados, e não no Sacramento da Penitência, porque os pecados depois
@@ -7831,96 +6528,72 @@ export default function PageCatecismo() {
         obrigação de satisfazer por eles sirva de freio para não se recair no
         pecado.
       </Text>
-      <Text className="h5">
-        780 - Podemos nós, com as nossas forças, dar satisfação a Deus?
-      </Text>
+      <H5 text="780 - Podemos nós, com as nossas forças, dar satisfação a Deus?" />
       <Text className="text-base">
         Não; com nossas forças, não podemos dar satisfação a Deus; mas nós o
         podemos unindo-nos a Jesus Cristo que, com os merecimentos da sua Paixão
         e morte, dá valor às nossas ações.
       </Text>
-      <Text className="h5">
-        781 - É sempre bastante a penitência dada pelo confessor para pagar a
-        pena que ainda resta, devida aos pecados?
-      </Text>
+      <H5 text="781 - É sempre bastante a penitência dada pelo confessor para pagar a pena que ainda resta, devida aos pecados?" />
       <Text className="text-base">
         A penitência que dá o confessor, de ordinário não é bastante para pagar
         a pena devida pelos pecados; por isso deve-se fazer a diligência por
         suprir com outras penitências voluntárias.
       </Text>
-      <Text className="h5">782 - Quais são as obras de penitência?</Text>
+      <H5 text="782 - Quais são as obras de penitência?" />
       <Text className="text-base">
         As obras de penitência podem reduzir-se a três espécies: à oração, ao
         jejum, à esmola.
       </Text>
-      <Text className="h5">783 - Que se entende por oração?</Text>
+      <H5 text="783 - Que se entende por oração?" />
       <Text className="text-base">
         Por oração entende-se toda a espécie de exercícios de piedade.
       </Text>
-      <Text className="h5">784 - Que se entende por jejum?</Text>
+      <H5 text="784 - Que se entende por jejum?" />
       <Text className="text-base">
         Por jejum entende-se toda a espécie de mortificação.
       </Text>
-      <Text className="h5">785 - Que se entende por esmola?</Text>
+      <H5 text="785 - Que se entende por esmola?" />
       <Text className="text-base">
         Por esmola entende-se toda e qualquer obra de misericórdia espiritual e
         corporal.
       </Text>
-      <Text className="h5">
-        786 - Qual é a penitência mais meritória: a que dá o confessor, ou a que
-        nós fazemos por nossa escolha?
-      </Text>
+      <H5 text="786 - Qual é a penitência mais meritória: a que dá o confessor, ou a que nós fazemos por nossa escolha?" />
       <Text className="text-base">
         Á penitência que nos dá o confessor é mais meritória, porque, sendo
         parte do Sacramento, recebe maior virtude dos merecimentos da Paixão de
         Jesus Cristo.
       </Text>
-      <Text className="h5">
-        787 - Vão logo para o Céu os que morrem depois de ter recebido a
-        absolvição, mas antes de terem satisfeito plenamente à justiça de Deus?
-      </Text>
+      <H5 text="787 - Vão logo para o Céu os que morrem depois de ter recebido a absolvição, mas antes de terem satisfeito plenamente à justiça de Deus?" />
       <Text className="text-base">
         Não; eles vão para o Purgatório, para ali satisfazerem à justiça de Deus
         e se purificarem inteiramente.
       </Text>
-      <Text className="h5">
-        788 - Podem as almas que estão no Purgatório ser aliviadas por nós nas
-        suas penas?
-      </Text>
+      <H5 text="788 - Podem as almas que estão no Purgatório ser aliviadas por nós nas suas penas?" />
       <Text className="text-base">
         Sim, as almas que estão no Purgatório podem ser aliviadas com orações,
         com esmolas, com todas as demais obras boas e com as indulgências, mas
         sobretudo com o Santo Sacrifício da Missa.
       </Text>
-      <Text className="h5">
-        789 - Além da penitência, que mais deve fazer o penitente depois da
-        confissão?
-      </Text>
+      <H5 text="789 - Além da penitência, que mais deve fazer o penitente depois da confissão?" />
       <Text className="text-base">
         O penitente, depois da confissão, além de cumprir a penitência, se
         danificou injustamente o próximo nos bens ou na honra, ou se lhe deu
         escândalo, deve, o mais breve e na medida em que for possível,
         restituir-lhe os bens, reparar-lhe a honra e remediar o escândalo.
       </Text>
-      <Text className="h5">
-        790 - Como se pode reparar o escândalo que se causou?
-      </Text>
+      <H5 text="790 - Como se pode reparar o escândalo que se causou?" />
       <Text className="text-base">
         Pode-se reparar o escândalo que se causou fazendo cessar a ocasião dele,
         e edificando com as palavras e com o bom exemplo aqueles que se tenha
         escandalizado.
       </Text>
-      <Text className="h5">
-        791 - De que maneira devemos satisfazer o próximo quando o tivermos
-        ofendido?
-      </Text>
+      <H5 text="791 - De que maneira devemos satisfazer o próximo quando o tivermos ofendido?" />
       <Text className="text-base">
         Devemos satisfazer o próximo quando o tivermos ofendido, pedindo-lhe
         perdão ou dando-lhe alguma outra reparação conveniente.
       </Text>
-      <Text className="h5">
-        792 - Que frutos produz em nós uma boa confissão?
-      </Text>
+      <H5 text="792 - Que frutos produz em nós uma boa confissão?" />
       <Text className="text-base">Uma boa confissão:</Text>
       <View className="list-styled">
         <Text className="li text-justify">
@@ -7938,74 +6611,60 @@ export default function PageCatecismo() {
           indulgências.
         </Text>
       </View>
-      <Text className="h4">10º - Das indulgências</Text>
-      <Text className="h5">793 - Que é a indulgência?</Text>
+      <H4 text="10º - Das indulgências" />
+      <H5 text="793 - Que é a indulgência?" />
       <Text className="text-base">
         A indulgência é a remissão da pena temporal devida pelos pecados já
         perdoados quanto à culpa, remissão que a Igreja concede fora do
         Sacramento da Penitência.
       </Text>
-      <Text className="h5">
-        794 - De quem recebeu a Igreja o poder de conceder indulgências?
-      </Text>
+      <H5 text="794 - De quem recebeu a Igreja o poder de conceder indulgências?" />
       <Text className="text-base">
         Foi de Jesus Cristo que a Igreja recebeu o poder de conceder
         indulgências.
       </Text>
-      <Text className="h5">
-        795 - De que maneira nos perdoa a Igreja a pena temporal por meio das
-        indulgências?
-      </Text>
+      <H5 text="795 - De que maneira nos perdoa a Igreja a pena temporal por meio das indulgências?" />
       <Text className="text-base">
         A Igreja perdoa a pena temporal por meio das indulgências, aplicando-nos
         as satisfações superabundantes de Jesus Cristo, da Santíssima Virgem e
         dos Santos, as quais formam o que se chama o tesouro da Igreja.
       </Text>
-      <Text className="h5">
-        796 - Quem tem o poder de conceder indulgências?
-      </Text>
+      <H5 text="796 - Quem tem o poder de conceder indulgências?" />
       <Text className="text-base">
         O poder de conceder indulgências pertence ao Papa em toda a Igreja, e ao
         Bispo, na sua diocese, na medida em que lhe é concedido pelo Papa.
       </Text>
-      <Text className="h5">797 - Quantas espécies há de indulgências?</Text>
+      <H5 text="797 - Quantas espécies há de indulgências?" />
       <Text className="text-base">
         Há duas espécies de indulgências: a indulgência plenária e a indulgência
         parcial.
       </Text>
-      <Text className="h5">798 - Que é a indulgência plenária?</Text>
+      <H5 text="798 - Que é a indulgência plenária?" />
       <Text className="text-base">
         A indulgência plenária é a que perdoa toda a pena temporal devida pelos
         nossos pecados. Por isso, se alguém morresse depois de ter recebido esta
         indulgência, iria logo para o céu, inteiramente isento das penas do
         Purgatório.
       </Text>
-      <Text className="h5">799 - Que é a indulgência parcial?</Text>
+      <H5 text="799 - Que é a indulgência parcial?" />
       <Text className="text-base">
         A indulgência parcial é a que perdoa só uma parte da pena temporal,
         devida pelos nossos pecados.
       </Text>
-      <Text className="h5">
-        800 - Qual é a intenção da Igreja ao conceder as indulgências?
-      </Text>
+      <H5 text="800 - Qual é a intenção da Igreja ao conceder as indulgências?" />
       <Text className="text-base">
         A intenção da Igreja ao conceder as indulgências é auxiliar a nossa
         incapacidade de expiar neste mundo toda a pena temporal, fazendo-nos
         conseguir por meio de obras de piedade e de caridade cristã aquilo que
         nos primeiros séculos Ela obtinha com o rigor dos cânones penitenciais.
       </Text>
-      <Text className="h5">
-        801 - Em que apreço devemos ter as indulgências?
-      </Text>
+      <H5 text="801 - Em que apreço devemos ter as indulgências?" />
       <Text className="text-base">
         Devemos ter as indulgências em muito grande apreço, porque com elas se
         satisfaz a justiça de Deus e mais depressa e mais facilmente se alcança
         a posse do céu.
       </Text>
-      <Text className="h5">
-        802 - Quais são as condições requeridas para se ganharem as
-        indulgências?
-      </Text>
+      <H5 text="802 - Quais são as condições requeridas para se ganharem as indulgências?" />
       <Text className="text-base">
         As condições para se ganharem as indulgências são:
       </Text>
@@ -8020,14 +6679,12 @@ export default function PageCatecismo() {
         </Text>
         <Text className="li text-justify">3º - a intenção de ganhá-las.</Text>
       </View>
-      <Text className="h5">
-        803 - Podem as indulgências aplicar-se também às almas do Purgatório?
-      </Text>
+      <H5 text="803 - Podem as indulgências aplicar-se também às almas do Purgatório?" />
       <Text className="text-base">
         Sim, as indulgências podem aplicar-se também às almas do Purgatório
         quando quem as concede declara que se lhes podem aplicar.
       </Text>
-      <Text className="h5">804 - Que é o Jubileu?</Text>
+      <H5 text="804 - Que é o Jubileu?" />
       <Text className="text-base">
         O Jubileu, que ordinariamente se concede todos os vinte e cinco anos, é
         uma indulgência plenária, à qual estão anexos muitos privilégios e
@@ -8037,14 +6694,12 @@ export default function PageCatecismo() {
       <Text className="h2">
         VII - <Text className="em">Da Extrema-Unção</Text>
       </Text>
-      <Text className="h5">805 - Que é o Sacramento da Extrema-Unção?</Text>
+      <H5 text="805 - Que é o Sacramento da Extrema-Unção?" />
       <Text className="text-base">
         A Extrema-Unção é o Sacramento instituído para alívio espiritual e
         também temporal dos enfermos em perigo de vida.
       </Text>
-      <Text className="h5">
-        806 - Que efeitos produz o Sacramento da Extrema-Unção?
-      </Text>
+      <H5 text="806 - Que efeitos produz o Sacramento da Extrema-Unção?" />
       <Text className="text-base">
         O Sacramento da Extrema-Unção produz os seguintes efeitos:
         <View className="list-styled">
@@ -8068,9 +6723,7 @@ export default function PageCatecismo() {
             da alma.
           </Text>
         </View>
-        <Text className="h5">
-          807 - Em que tempo se deve receber a Extrema-Unção?
-        </Text>
+        <H5 text="807 - Em que tempo se deve receber a Extrema-Unção?" />
         <Text className="text-base">
           A Extrema-Unção deve receber-se quando a doença é grave, e, se puder
           ser, depois de o enfermo ter recebido os Sacramentos da Penitência e
@@ -8084,17 +6737,13 @@ export default function PageCatecismo() {
           saúde do corpo, se convém à alma auxiliando as forças da natureza, não
           se deve estar à espera de que se desespere da cura.
         </Text>
-        <Text className="h5">
-          809 - Com que disposições se deve receber a Extrema-Unção?
-        </Text>
+        <H5 text="809 - Com que disposições se deve receber a Extrema-Unção?" />
         <Text className="text-base">
           As principais disposições para receber a Extrema-Unção são: estar em
           estado de graça, confiar na eficácia do Sacramento e na misericórdia
           divina e resignar-se à vontade de Deus.
         </Text>
-        <Text className="h5">
-          810 - Que sentimento deve experimentar o enfermo à vista do Sacerdote?
-        </Text>
+        <H5 text="810 - Que sentimento deve experimentar o enfermo à vista do Sacerdote?" />
         À vista do Sacerdote, o enfermo deve experimentar sentimentos de
         gratidão para com Deus, por lho ter enviado, deve recebê-lo de boa
         vontade e pedir, se puder, por si mesmo, os confortos da Religião.
@@ -8102,26 +6751,24 @@ export default function PageCatecismo() {
       <Text className="h2">
         VIII - <Text className="em">Da Ordem</Text>
       </Text>
-      <Text className="h5">811 - Que é o Sacramento da Ordem?</Text>
+      <H5 text="811 - Que é o Sacramento da Ordem?" />
       <Text className="text-base">
         A Ordem é o Sacramento que dá o poder de exercitar os ministérios
         sagrados que se referem ao culto de Deus e à salvação das almas, e que
         imprime na alma de quem o recebe o caráter de ministro de Deus.
       </Text>
-      <Text className="h5">812 - Por que se chama Ordem?</Text>
+      <H5 text="812 - Por que se chama Ordem?" />
       <Text className="text-base">
         Chama-se Ordem porque consiste em vários graus, uns subordinados aos
         outros, dos quais resulta a sagrada Hierarquia.
       </Text>
-      <Text className="h5">813 - Quais são estes graus?</Text>
+      <H5 text="813 - Quais são estes graus?" />
       <Text className="text-base">
         Supremo entre eles é o Episcopado, que contém a plenitude do Sacerdócio;
         em seguida o Presbiterado ou Sacerdócio simples; depois o Diaconado e as
         Ordens que se chamam menores.
       </Text>
-      <Text className="h5">
-        814 - Quando Jesus Cristo instituiu a Ordem Sacerdotal?
-      </Text>
+      <H5 text="814 - Quando Jesus Cristo instituiu a Ordem Sacerdotal?" />
       <Text className="text-base">
         Jesus Cristo instituiu a Ordem Sacerdotal na Última Ceia, quando
         conferiu aos Apóstolos e aos seus sucessores o poder de consagrar a
@@ -8129,22 +6776,18 @@ export default function PageCatecismo() {
         o poder de perdoar e de reter os pecados, constituindo os assim os
         primeiros Sacerdotes da Nova Lei em toda a plenitude do seu poder.
       </Text>
-      <Text className="h5">815 - Quem é o ministro deste Sacramento?</Text>
+      <H5 text="815 - Quem é o ministro deste Sacramento?" />
       <Text className="text-base">
         O ministro deste Sacramento é só o Bispo.
       </Text>
-      <Text className="h5">
-        816 - É então grande a dignidade do Sacerdócio cristão?
-      </Text>
+      <H5 text="816 - É então grande a dignidade do Sacerdócio cristão?" />
       <Text className="text-base">
         A dignidade do Sacerdócio cristão é muito grande, pelo duplo poder que
         lhe conferiu Jesus Cristo sobre o seu Corpo real e sobre o seu Corpo
         místico, que é a Igreja, e pela divina missão, confiada aos Sacerdotes,
         de conduzir todos os homens à vida eterna.
       </Text>
-      <Text className="h5">
-        817 - É necessário o Sacerdócio católico na Igreja?
-      </Text>
+      <H5 text="817 - É necessário o Sacerdócio católico na Igreja?" />
       <Text className="text-base">
         O Sacerdócio católico é necessário na Igreja, porque sem ele os fiéis
         estariam privados do Santo Sacrifício da Missa e da maior parte dos
@@ -8152,39 +6795,30 @@ export default function PageCatecismo() {
         ovelhas sem pastor à mercê dos lobos; em suma, não existiria a Igreja
         como Cristo a instituiu.
       </Text>
-      <Text className="h5">
-        818 - Então não acabará nunca o Sacerdócio católico sobre a terra?
-      </Text>
+      <H5 text="818 - Então não acabará nunca o Sacerdócio católico sobre a terra?" />
       <Text className="text-base">
         O Sacerdócio católico, não obstante a guerra que contra ele move o
         Inferno, há de durar até o fim dos séculos, porque Jesus Cristo prometeu
         que as potências do Inferno não prevaleceriam jamais contra a sua
         Igreja.
       </Text>
-      <Text className="h5">819 - Será pecado desprezar os Sacerdotes?</Text>
+      <H5 text="819 - Será pecado desprezar os Sacerdotes?" />
       <Text className="text-base">
         É pecado gravíssimo, porque o desprezo e as injúrias que se dirigem
         contra os Sacerdotes recaem sobre o próprio Jesus Cristo, que disse aos
         seus Apóstolos: Quem a vós despreza, a Mim despreza.
       </Text>
-      <Text className="h5">
-        820 - Qual deve ser o fim de quem abraça o estado eclesiástico?
-      </Text>
+      <H5 text="820 - Qual deve ser o fim de quem abraça o estado eclesiástico?" />
       <Text className="text-base">
         O fim de quem abraça o estado eclesiástico deve ser unicamente a glória
         de Deus e a salvação das almas.
       </Text>
-      <Text className="h5">
-        821 - Que é necessário para entrar no estado eclesiástico?
-      </Text>
+      <H5 text="821 - Que é necessário para entrar no estado eclesiástico?" />
       <Text className="text-base">
         Para entrar no estado eclesiástico é necessário, antes de tudo, a
         vocação divina.
       </Text>
-      <Text className="h5">
-        822 - Que deve fazer o cristão para conhecer se Deus o chama ao estado
-        eclesiástico?
-      </Text>
+      <H5 text="822 - Que deve fazer o cristão para conhecer se Deus o chama ao estado eclesiástico?" />
       <Text className="text-base">
         Para conhecer se Deus o chama ao estado eclesiástico, o cristão deve:
       </Text>
@@ -8202,18 +6836,12 @@ export default function PageCatecismo() {
           estudos, para os ministérios e para as obrigações desse estado.
         </Text>
       </View>
-      <Text className="h5">
-        823 - Quem entrasse para o estado eclesiástico, sem vocação divina,
-        faria mal?
-      </Text>
+      <H5 text="823 - Quem entrasse para o estado eclesiástico, sem vocação divina, faria mal?" />
       <Text className="text-base">
         Quem entrasse para o estado eclesiástico, sem ser chamado por Deus,
         faria um mal muito grave e colocar-se-ia em risco de se perder.
       </Text>
-      <Text className="h5">
-        824 - Fazem mal os pais que, por motivos temporais, induzem os filhos a
-        abraçar o estado eclesiástico sem vocação?
-      </Text>
+      <H5 text="824 - Fazem mal os pais que, por motivos temporais, induzem os filhos a abraçar o estado eclesiástico sem vocação?" />
       <Text className="text-base">
         Os pais que, por motivos temporais, induzem os filhos a abraçar o estado
         eclesiástico sem vocação, cometem também culpa gravíssima, porque com
@@ -8221,10 +6849,7 @@ export default function PageCatecismo() {
         escolher os seus ministros, e porque põem os filhos em risco de
         condenação eterna.
       </Text>
-      <Text className="h5">
-        825 - Quais são os deveres dos fiéis para com aqueles que são chamados
-        às ordens sacras?
-      </Text>
+      <H5 text="825 - Quais são os deveres dos fiéis para com aqueles que são chamados às ordens sacras?" />
       <Text className="text-base">Os fiéis devem:</Text>
       <View className="list-styled">
         <Text className="li text-justify">
@@ -8244,56 +6869,44 @@ export default function PageCatecismo() {
       <Text className="h2">
         IX - <Text className="em">Do Matrimônio</Text>
       </Text>
-      <Text className="h4">1º - Natureza do Sacramento do Matrimônio</Text>
-      <Text className="h5">826 - Que é o Sacramento do Matrimônio?</Text>
+      <H4 text="1º - Natureza do Sacramento do Matrimônio" />
+      <H5 text="826 - Que é o Sacramento do Matrimônio?" />
       <Text className="text-base">
         O Matrimônio é um Sacramento instituído por Nosso Senhor Jesus Cristo,
         que estabelece uma união santa e indissolúvel entre o homem e a mulher,
         e lhes dá a graça de se amarem um ao outro santamente, e de educarem
         cristãmente seus filhos.
       </Text>
-      <Text className="h5">827 - Por quem foi instituído o Matrimônio?</Text>
+      <H5 text="827 - Por quem foi instituído o Matrimônio?" />
       <Text className="text-base">
         O Matrimônio foi instituído pelo próprio Deus no Paraíso terrestre; e no
         Novo Testamento foi elevado por Jesus Cristo à dignidade de Sacramento.
       </Text>
-      <Text className="h5">
-        828 - Tem o Sacramento do Matrimônio alguma significação especial?
-      </Text>
+      <H5 text="828 - Tem o Sacramento do Matrimônio alguma significação especial?" />
       <Text className="text-base">
         O Sacramento do Matrimônio significa a união indissolúvel de Jesus
         Cristo com a Santa Igreja, sua esposa e nossa Mãe amantíssima.
       </Text>
-      <Text className="h5">
-        829 - Por que se diz que o vínculo do Matrimônio é indissolúvel?
-      </Text>
+      <H5 text="829 - Por que se diz que o vínculo do Matrimônio é indissolúvel?" />
       <Text className="text-base">
         Diz-se que o vínculo do Matrimônio é indissolúvel, isto é, que não se
         pode quebrar senão pela morte de um dos cônjuges, porque assim o
         estabeleceu Deus desde o começo, e assim o proclamou solenemente Jesus
         Cristo, Senhor Nosso.
       </Text>
-      <Text className="h5">
-        830 - No Matrimônio cristão, poder-se-ia separar o contrato do
-        Sacramento?
-      </Text>
+      <H5 text="830 - No Matrimônio cristão, poder-se-ia separar o contrato do Sacramento?" />
       <Text className="text-base">
         Não. No Matrimônio entre cristãos o contrato não se pode separar do
         Sacramento, porque para eles o Matrimônio não é outra coisa senão o
         mesmo contrato natural, elevado por Jesus Cristo à dignidade de
         Sacramento.
       </Text>
-      <Text className="h5">
-        831 - Então, entre os cristãos não pode haver verdadeiro Matrimônio que
-        não seja Sacramento?
-      </Text>
+      <H5 text="831 - Então, entre os cristãos não pode haver verdadeiro Matrimônio que não seja Sacramento?" />
       <Text className="text-base">
         Entre os cristãos não pode haver verdadeiro Matrimônio que não seja
         Sacramento.
       </Text>
-      <Text className="h5">
-        832 - Que efeitos produz o Sacramento do Matrimônio?
-      </Text>
+      <H5 text="832 - Que efeitos produz o Sacramento do Matrimônio?" />
       <Text className="text-base">O Sacramento do Matrimônio:</Text>
       <View className="list-styled">
         <Text className="li text-justify">
@@ -8304,36 +6917,26 @@ export default function PageCatecismo() {
           deveres matrimoniais.
         </Text>
       </View>
-      <Text className="h4">
-        2º - Ministros, cerimônias e disposições para o Matrimônio
-      </Text>
-      <Text className="h5">
-        833 - Quem são os ministros do Sacramento do Matrimônio?
-      </Text>
+      <H4 text="2º - Ministros, cerimônias e disposições para o Matrimônio" />
+      <H5 text="833 - Quem são os ministros do Sacramento do Matrimônio?" />
       <Text className="text-base">
         Os ministros deste Sacramento são os mesmos esposos, que reciprocamente
         conferem e recebem o Sacramento.
       </Text>
-      <Text className="h5">
-        834 - De que maneira se administra este Sacramento?
-      </Text>
+      <H5 text="834 - De que maneira se administra este Sacramento?" />
       <Text className="text-base">
         Este Sacramento, porque conserva a natureza de contrato, é administrado
         pelos mesmos contraentes, declarando na presença do próprio pároco, ou
         de outro Sacerdote devidamente autorizado, e de duas testemunhas, que se
         unem em matrimônio.
       </Text>
-      <Text className="h5">
-        835 - Para que serve então a bênção que o pároco dá aos esposos?
-      </Text>
+      <H5 text="835 - Para que serve então a bênção que o pároco dá aos esposos?" />
       <Text className="text-base">
         A bênção que o pároco dá aos esposos não é necessária para constituir o
         Sacramento, mas é dada para sancionar em nome da Igreja a sua união, e
         para atrair sempre mais sobre eles as bênçãos de Deus.
       </Text>
-      <Text className="h5">
-        836 - Que intenção deve ter quem contrai Matrimônio?
-      </Text>
+      <H5 text="836 - Que intenção deve ter quem contrai Matrimônio?" />
       <Text className="text-base">
         Quem contrai Matrimônio deve ter intenção:
       </Text>
@@ -8348,10 +6951,7 @@ export default function PageCatecismo() {
           3º - de educar cristãmente os filhos, se Deus lhos der.
         </Text>
       </View>
-      <Text className="h5">
-        837 - De que maneira se devem dispor os esposos para receber com fruto o
-        Sacramento do Matrimônio?
-      </Text>
+      <H5 text="837 - De que maneira se devem dispor os esposos para receber com fruto o Sacramento do Matrimônio?" />
       <Text className="text-base">
         Os esposos, para receber com fruto o Sacramento do Matrimônio, devem:
       </Text>
@@ -8374,10 +6974,7 @@ export default function PageCatecismo() {
           conversarem mutuamente. antes de receberem este Sacramento.
         </Text>
       </View>
-      <Text className="h5">
-        838 - Quais são as principais obrigações das pessoas unidas em
-        Matrimônio?
-      </Text>
+      <H5 text="838 - Quais são as principais obrigações das pessoas unidas em Matrimônio?" />
       <Text className="text-base">As pessoas unidas em Matrimônio devem:</Text>
       <View className="list-styled">
         <Text className="li text-justify">
@@ -8394,67 +6991,50 @@ export default function PageCatecismo() {
           estado de vida a que Deus os chamar.
         </Text>
       </View>
-      <Text className="h4">3º - Condições e impedimentos do Matrimônio</Text>
-      <Text className="h5">
-        839 - Que é necessário para contrair validamente o Matrimônio cristão?
-      </Text>
+      <H4 text="3º - Condições e impedimentos do Matrimônio" />
+      <H5 text="839 - Que é necessário para contrair validamente o Matrimônio cristão?" />
       <Text className="text-base">
         Para contrair validamente o Matrimônio cristão é necessário estar livre
         de qualquer impedimento matrimonial dirimente, e dar livremente o
         próprio consentimento ao contrato do Matrimônio na presença do próprio
         pároco ou de um Sacerdote devidamente autorizado, e de duas testemunhas.
       </Text>
-      <Text className="h5">
-        840 - Que é necessário para contrair licitamente o Matrimônio cristão?
-      </Text>
+      <H5 text="840 - Que é necessário para contrair licitamente o Matrimônio cristão?" />
       <Text className="text-base">
         Para contrair licitamente o Matrimônio cristão, é necessário estar livre
         dos impedimentos matrimoniais impedientes, estar instruído nas verdades
         principais da religião, e estar em estado de graça. Não estando em
         estado de graça, cometer-se-ia um sacrilégio.
       </Text>
-      <Text className="h5">841 - Que são os impedimentos matrimoniais?</Text>
+      <H5 text="841 - Que são os impedimentos matrimoniais?" />
       <Text className="text-base">
         Os impedimentos matrimoniais são certas circunstâncias que tornam o
         matrimônio ou inválido ou ilícito. No primeiro caso chamam-se
         impedimentos dirimentes, no segundo impedimentos impedientes.
       </Text>
-      <Text className="h5">
-        842 - Dai-me alguns exemplos de impedimentos dirimentes.
-      </Text>
+      <H5 text="842 - Dai-me alguns exemplos de impedimentos dirimentes." />
       <Text className="text-base">
         Impedimentos dirimentes são, por exemplo, a consanguinidade até ao
         terceiro grau, o parentesco espiritual, o voto solene de castidade, a
         diversidade de culto entre baptizados e não baptizados etc.
       </Text>
-      <Text className="h5">
-        843 - Dai-me algum exemplo de impedimento impediente.
-      </Text>
+      <H5 text="843 - Dai-me algum exemplo de impedimento impediente." />
       <Text className="text-base">
         Impedimento impediente é, por exemplo, o voto simples de castidade etc.
       </Text>
-      <Text className="h5">
-        844 - São os fiéis obrigados a manifestar à autoridade eclesiástica os
-        impedimentos matrimoniais que conhecem?
-      </Text>
+      <H5 text="844 - São os fiéis obrigados a manifestar à autoridade eclesiástica os impedimentos matrimoniais que conhecem?" />
       <Text className="text-base">
         Os fiéis são obrigados a manifestar à autoridade eclesiástica os
         impedimentos matrimoniais que conhecem; e é por isso que os párocos
         fazem as publicações, isto é, lêem os pregões dos que se vão casar.
       </Text>
-      <Text className="h5">
-        845 - Quem tem o poder de estabelecer impedimentos matrimoniais, de
-        dispensar deles, e de julgar da validade do Matrimônio cristão?
-      </Text>
+      <H5 text="845 - Quem tem o poder de estabelecer impedimentos matrimoniais, de dispensar deles, e de julgar da validade do Matrimônio cristão?" />
       <Text className="text-base">
         Só a Igreja tem o poder de estabelecer impedimentos e de julgar da
         validade do Matrimônio entre os cristãos, como só a Igreja pode
         dispensar daqueles impedimentos que Ela estabeleceu.
       </Text>
-      <Text className="h5">
-        846 - Por que só a Igreja tem o poder de estabelecer impedimentos e de
-        julgar da validade do Matrimônio?
-      </Text>
+      <H5 text="846 - Por que só a Igreja tem o poder de estabelecer impedimentos e de julgar da validade do Matrimônio?" />
       <Text className="text-base">
         Só a Igreja tem o poder de estabelecer impedimentos, de julgar da
         validade do Matrimônio e de dispensar dos impedimentos que Ela própria
@@ -8463,38 +7043,30 @@ export default function PageCatecismo() {
         porque só a Ela conferiu Jesus Cristo o direito de promulgar leis e
         decisões acerca das coisas sagradas.
       </Text>
-      <Text className="h5">
-        847 - Pode a autoridade civil dissolver, com o divórcio, o vínculo do
-        Matrimônio cristão?
-      </Text>
+      <H5 text="847 - Pode a autoridade civil dissolver, com o divórcio, o vínculo do Matrimônio cristão?" />
       <Text className="text-base">
         Não. O vínculo do Matrimônio cristão não pode ser dissolvido pela
         autoridade civil, porque esta não pode ingerir-se em matéria de
         Sacramentos, nem separar o que Deus uniu.
       </Text>
-      <Text className="h5">848 - Que é o matrimônio ou casamento civil?</Text>
+      <H5 text="848 - Que é o matrimônio ou casamento civil?" />
       <Text className="text-base">
         O casamento civil não é mais que uma formalidade prescrita pela lei para
         os cidadãos, a fim de dar e de assegurar os efeitos civis aos casados e
         aos seus filhos.
       </Text>
-      <Text className="h5">
-        849 - Pode um cristão celebrar somente o casamento ou contrato civil?
-      </Text>
+      <H5 text="849 - Pode um cristão celebrar somente o casamento ou contrato civil?" />
       <Text className="text-base">
         Um cristão não pode celebrar somente o contrato civil, porque este não é
         Sacramento, e portanto não é um verdadeiro matrimônio.
       </Text>
-      <Text className="h5">
-        850 - Em que condições se encontrariam os esposos que convivessem
-        juntos, unidos somente pelo casamento civil?
-      </Text>
+      <H5 text="850 - Em que condições se encontrariam os esposos que convivessem juntos, unidos somente pelo casamento civil?" />
       <Text className="text-base">
         Os esposos que convivessem juntos, unidos somente pelo casamento civil,
         estariam em estado habitual de pecado mortal, e a sua união seria sempre
         ilegítima diante de Deus e da Igreja.
       </Text>
-      <Text className="h5">851 - Deve fazer-se também o contrato civil?</Text>
+      <H5 text="851 - Deve fazer-se também o contrato civil?" />
       <Text className="text-base">
         Deve fazer-se também o contrato civil, porque, embora não seja ele
         Sacramento, serve, no entanto, para garantir aos casados e a seus filhos
@@ -8502,69 +7074,55 @@ export default function PageCatecismo() {
         autoridade eclesiástica não permite o casamento religioso, quando não se
         cumprem as formalidades prescritas pela autoridade civil.
       </Text>
-      <Text className="h1">Quinta Parte</Text>
+      <H1 text="Quinta Parte" />
       <Text className="aside">
         Das virtudes principais e de outras coisas que o cristão deve saber
       </Text>
       <Text className="h2">
         I - <Text className="em">Das virtudes principais</Text>
       </Text>
-      <Text className="h4">1º - Das virtudes teologais</Text>
-      <Text className="h5">852 - Que é a virtude sobrenatural?</Text>
+      <H4 text="1º - Das virtudes teologais" />
+      <H5 text="852 - Que é a virtude sobrenatural?" />
       <Text className="text-base">
         A virtude sobrenatural é uma qualidade que Deus infunde na alma, pela
         qual se tem propensão, facilidade e prontidão para conhecer e praticar o
         bem, em ordem da vida eterna.
       </Text>
-      <Text className="h5">
-        853 - Quantas são as principais virtudes sobrenaturais?
-      </Text>
+      <H5 text="853 - Quantas são as principais virtudes sobrenaturais?" />
       <Text className="text-base">
         As principais virtudes sobrenaturais são sete, a saber, três teologais e
         quatro cardeais.
       </Text>
-      <Text className="h5">854 - Quais são as virtudes teologais?</Text>
+      <H5 text="854 - Quais são as virtudes teologais?" />
       <Text className="text-base">
         As virtudes teologais são: a Fé, a Esperança e a Caridade.
       </Text>
-      <Text className="h5">
-        855 - Por que a Fé, a Esperança e a Caridade se chamam virtudes
-        teologais?
-      </Text>
+      <H5 text="855 - Por que a Fé, a Esperança e a Caridade se chamam virtudes teologais?" />
       <Text className="text-base">
         Chamam-se a Fé, a Esperança e a Caridade virtudes teologais, porque têm
         a Deus por objeto imediato e principal e nos são infundidas por Ele.
       </Text>
-      <Text className="h5">
-        856 - De que modo têm as virtudes teologais a Deus por objeto imediato?
-      </Text>
+      <H5 text="856 - De que modo têm as virtudes teologais a Deus por objeto imediato?" />
       <Text className="text-base">
         As virtudes teologais têm a Deus por objeto imediato, porque pela Fé nós
         cremos em Deus, e cremos tudo o que Ele revelou; pela Esperança
         esperamos possuir a Deus; pela Caridade amamos a Deus e n'Ele amamos a
         nós mesmos e ao próximo.
       </Text>
-      <Text className="h5">
-        857 - Quando nos infunde Deus na alma as virtudes, teologais?
-      </Text>
+      <H5 text="857 - Quando nos infunde Deus na alma as virtudes, teologais?" />
       <Text className="text-base">
         Deus, pela sua bondade, infunde-nos no alma a, virtudes teologais,
         quando nos adorna com a graça santificante; e por isso, quando recebemos
         o Batismo, fomos enriquecidos com estas virtudes, e juntamente com os
         dons do Espírito Santo.
       </Text>
-      <Text className="h5">
-        858 - Basta, para o cristão se salvar, o Batismo as virtudes teologais?
-      </Text>
+      <H5 text="858 - Basta, para o cristão se salvar, o Batismo as virtudes teologais?" />
       <Text className="text-base">
         Para quem tem o uso da razão, não basta o ter recebido no Batismo as
         virtudes teologais; mas é necessário fazer frequentemente atos destas
         virtudes.
       </Text>
-      <Text className="h5">
-        859 - Quando somos obrigados a fazer atos de Fé, de Esperança e de
-        Caridade?
-      </Text>
+      <H5 text="859 - Quando somos obrigados a fazer atos de Fé, de Esperança e de Caridade?" />
       <Text className="text-base">
         Somos obrigados a fazer atos de Fé, de Esperança e de Caridade:
       </Text>
@@ -8577,126 +7135,105 @@ export default function PageCatecismo() {
         </Text>
         <Text className="li text-justify">3º - em perigo de morte.</Text>
       </View>
-      <Text className="h4">2º - Da Fé</Text>
-      <Text className="h5">860 - Que é a Fé?</Text>
+      <H4 text="2º - Da Fé" />
+      <H5 text="860 - Que é a Fé?" />
       <Text className="text-base">
         A Fé e uma virtude sobrenatural, infundida por Deus em nossa alma, pela
         qual nós, apoiados na autoridade do mesmo Deus, acreditamos que é
         verdade tudo o que Ele revelou e por meio da Santa Igreja nos propõe
         para crer.
       </Text>
-      <Text className="h5">
-        861 - Como conhecemos as verdades reveladas por Deus?
-      </Text>
+      <H5 text="861 - Como conhecemos as verdades reveladas por Deus?" />
       <Text className="text-base">
         Conhecemos as verdades reveladas por Deus, por meio da Santa Igreja que
         é infalível, isto é, por meio do Papa, sucessor de São Pedro, e por meio
         dos Bispos que, em união com o Papa, são sucessores dos Apóstolos, os
         quais foram instruídos pelo próprio Jesus Cristo.
       </Text>
-      <Text className="h5">
-        862 - Temos nós a certeza de que são verdadeiras as doutrinas que a
-        Santa Igreja nos ensina?
-      </Text>
+      <H5 text="862 - Temos nós a certeza de que são verdadeiras as doutrinas que a Santa Igreja nos ensina?" />
       <Text className="text-base">
         Sim, temos a certeza absoluta de que são verdadeiras as doutrinas que a
         Santa Igreja nos ensina, porque Jesus Cristo empenhou a sua palavra, que
         a Igreja nunca se enganaria.
       </Text>
-      <Text className="h5">863 - Com que pecado se perde a Fé?</Text>
+      <H5 text="863 - Com que pecado se perde a Fé?" />
       <Text className="text-base">
         A Fé perde-se negando ou duvidando voluntariamente, ainda que seja de um
         só artigo que nos é proposto para crer.
       </Text>
-      <Text className="h5">864 - Como recuperamos a Fé?</Text>
+      <H5 text="864 - Como recuperamos a Fé?" />
       <Text className="text-base">
         Recuperamos a Fé perdida, arrependendo-nos do pecado cometido e crendo
         de novo tudo o que crê a Santa Igreja.
       </Text>
-      <Text className="h4">3º - Dos mistérios</Text>
-      <Text className="h5">
-        865 - Podemos compreender todas as verdades da Fé?
-      </Text>
+      <H4 text="3º - Dos mistérios" />
+      <H5 text="865 - Podemos compreender todas as verdades da Fé?" />
       <Text className="text-base">
         Não; não podemos compreender todas as verdades da Fé, porque algumas
         destas verdades são mistérios.
       </Text>
-      <Text className="h5">866 - Que são os mistérios?</Text>
+      <H5 text="866 - Que são os mistérios?" />
       <Text className="text-base">
         Os mistérios são verdades superiores à razão, as quais devemos crer,
         ainda que não as possamos compreender.
       </Text>
-      <Text className="h5">867 - Por que devemos crer os mistérios?</Text>
+      <H5 text="867 - Por que devemos crer os mistérios?" />
       <Text className="text-base">
         Devemos crer os mistérios, porque os revelou Deus, que, sendo Verdade e
         Bondade infinitas, não pode enganar-se, nem enganar-nos.
       </Text>
-      <Text className="h5">
-        868 - São porventura os mistérios contrários à razão?
-      </Text>
+      <H5 text="868 - São porventura os mistérios contrários à razão?" />
       <Text className="text-base">
         Os mistérios são superiores, porém não contrários à razão; e até a
         própria razão nos persuade a admiti-los.
       </Text>
-      <Text className="h5">
-        869 - Por que os mistérios não podem ser contrários à razão?
-      </Text>
+      <H5 text="869 - Por que os mistérios não podem ser contrários à razão?" />
       <Text className="text-base">
         Os mistérios não podem ser contrários à razão, porque é o mesmo Deus
         quem nos deu a luz da razão, e quem revelou OS mistérios, e Ele não pode
         contradizer-se a Si mesmo.
       </Text>
-      <Text className="h4">4º - Da Sagrada Escritura</Text>
-      <Text className="h5">
-        870 - Onde se acham as verdades que Deus revelou?
-      </Text>
+      <H4 text="4º - Da Sagrada Escritura" />
+      <H5 text="870 - Onde se acham as verdades que Deus revelou?" />
       <Text className="text-base">
         As verdades que Deus revelou acham-se na Sagrada Escritura e na
         Tradição.
       </Text>
-      <Text className="h5">871 - Que é a Sagrada Escritura?</Text>
+      <H5 text="871 - Que é a Sagrada Escritura?" />
       <Text className="text-base">
         A Sagrada Escritura é a coleção dos livros escritos pelos Profetas e
         pelos Hagiógrafos, pelos Apóstolos pelos Evangelistas, por inspiração do
         Espírito Santo, recebidas pela Igreja como inspirados.
       </Text>
-      <Text className="h5">
-        872 - Em quantas partes se divide a Sagrada Escritura?
-      </Text>
+      <H5 text="872 - Em quantas partes se divide a Sagrada Escritura?" />
       <Text className="text-base">
         A Sagrada Escritura se divide em duas partes: Antigo e Novo Testamento.
       </Text>
-      <Text className="h5">873 - Que contém o Antigo Testamento?</Text>
+      <H5 text="873 - Que contém o Antigo Testamento?" />
       <Text className="text-base">
         O Antigo Testamento contém os livros inspirados escritos antes da vinda
         de Jesus Cristo.
       </Text>
-      <Text className="h5">874 - Que contém o Novo Testamento?</Text>
+      <H5 text="874 - Que contém o Novo Testamento?" />
       <Text className="text-base">
         O Novo Testamento contém os livros inspirados escritos depois da vinda
         de Jesus Cristo.
       </Text>
-      <Text className="h5">
-        875 - Que nome se dá comumente à Sagrada Escritura?
-      </Text>
+      <H5 text="875 - Que nome se dá comumente à Sagrada Escritura?" />
       <Text className="text-base">
         À Sagrada Escritura dá-se comumente o nome de Bíblia Sagrada.
       </Text>
-      <Text className="h5">876 - Que quer dizer a palavra Bíblia?</Text>
+      <H5 text="876 - Que quer dizer a palavra Bíblia?" />
       <Text className="text-base">
         A palavra Bíblia quer dizer coleção dos livros santos, o livro por
         excelência, o livro dos livros, o livro inspirado por Deus.
       </Text>
-      <Text className="h5">
-        877 - Por que é a Sagrada Escritura chamada o livro por excelência?
-      </Text>
+      <H5 text="877 - Por que é a Sagrada Escritura chamada o livro por excelência?" />
       <Text className="text-base">
         A Sagrada Escritura é chamada o livro por excelência, por causa da
         excelência da matéria de que trata e do Autor que a inspirou.
       </Text>
-      <Text className="h5">
-        878 - Não pode haver erro na Sagrada Escritura?
-      </Text>
+      <H5 text="878 - Não pode haver erro na Sagrada Escritura?" />
       <Text className="text-base">
         Na Sagrada Escritura não pode haver erro algum, porque, sendo toda
         inspirada, o Autor de todas as suas partes é o próprio Deus. Isto não
@@ -8705,51 +7242,36 @@ export default function PageCatecismo() {
         aprovadas pela Igreja Católica não pode haver erro no que respeita à fé
         ou à moral.
       </Text>
-      <Text className="h5">
-        879 É necessária a todos os cristãos a leitura da Bíblia?
-      </Text>
+      <H5 text="879 É necessária a todos os cristãos a leitura da Bíblia?" />
       <Text className="text-base">
         A leitura da Bíblia não é necessária a todos os cristãos, sendo, como
         são, instruídos pela Igreja; mas é contudo útil e recomendada a todos.
       </Text>
-      <Text className="h5">
-        880 - Pode-se ler qualquer tradução em língua vulgar da Bíblia?
-      </Text>
+      <H5 text="880 - Pode-se ler qualquer tradução em língua vulgar da Bíblia?" />
       <Text className="text-base">
         Podem ler-se as traduções em língua vulgar da Bíblia desde que sejam
         reconhecidas como fiéis pela Igreja Católica, e venham acompanhadas de
         explicações ou notas aprovadas pela mesma Igreja.
       </Text>
-      <Text className="h5">
-        881 - Por que só se podem ler as traduções da Bíblia que são aprovadas
-        pela Igreja?
-      </Text>
+      <H5 text="881 - Por que só se podem ler as traduções da Bíblia que são aprovadas pela Igreja?" />
       <Text className="text-base">
         Só se podem ler as traduções da Bíblia que são aprovadas pela Igreja
         porque só Ela é legítima depositária e guarda da Bíblia.
       </Text>
-      <Text className="h5">
-        882 - Por quem podemos nós conhecer o verdadeiro sem tido das Sagradas
-        Escrituras?
-      </Text>
+      <H5 text="882 - Por quem podemos nós conhecer o verdadeiro sem tido das Sagradas Escrituras?" />
       <Text className="text-base">
         O verdadeiro sentido das Sagradas Escrituras podemos conhecê-lo só por
         meio o da Igreja, porque só a Igreja é que não pode errar ao
         interpretá-las.
       </Text>
-      <Text className="h5">
-        883 - Que deveria fazer um cristão, se lhe fosse oferecida a Bíblia por
-        um protestante ou por algum emissário dos protestantes?
-      </Text>
+      <H5 text="883 - Que deveria fazer um cristão, se lhe fosse oferecida a Bíblia por um protestante ou por algum emissário dos protestantes?" />
       <Text className="text-base">
         Um cristão a quem fosse oferecida a Bíblia por um protestante, ou por
         algum emissário dos protestantes, deveria rejeitá-la com horror, por ser
         proibida pela Igreja. E, se a tivesse aceitado sem reparar, deveria logo
         lançá-la ao fogo ou entregá-la ao próprio pároco.
       </Text>
-      <Text className="h5">
-        884 - Por que proíbe a Igreja as Bíblias protestantes?
-      </Text>
+      <H5 text="884 - Por que proíbe a Igreja as Bíblias protestantes?" />
       <Text className="text-base">
         A Igreja proíbe as Bíblias protestantes, porque ou estão alteradas e
         contêm erros, ou então, faltando-lhes a sua aprovação e as notas
@@ -8757,182 +7279,156 @@ export default function PageCatecismo() {
         Igreja proíbe também as traduções da Sagrada Escritura já aprovadas por
         Ela, mas reimpressas sem as explicações que a mesma Igreja aprovou.
       </Text>
-      <Text className="h4">5º - Da Tradição</Text>
-      <Text className="h5">885 - Dizei-me: o que é a Tradição?</Text>
+      <H4 text="5º - Da Tradição" />
+      <H5 text="885 - Dizei-me: o que é a Tradição?" />
       <Text className="text-base">
         A Tradição é a palavra de Deus não escrita, mas comunicada de viva voz
         por Jesus Cristo e pelos Apóstolos, e que chegou sem alteração, de
         século em século, por meio da Igreja, até nós.
       </Text>
-      <Text className="h5">
-        886 - Onde se acham os ensinamentos da Tradição?
-      </Text>
+      <H5 text="886 - Onde se acham os ensinamentos da Tradição?" />
       <Text className="text-base">
         Os ensinamentos da Tradição acham-se principalmente nos decretos dos
         Concílios, nos escritos dos Santos Padres, nos atos da Santa Sé, nas
         palavras e nus usos da Sagrada Liturgia.
       </Text>
-      <Text className="h5">
-        887 - Em que consideração se deve ter a Tradição?
-      </Text>
+      <H5 text="887 - Em que consideração se deve ter a Tradição?" />
       <Text className="text-base">
         A Tradição deve ter-se na mesma consideração em que se tem a palavra de
         Deus contida na Sagrada Escritura.
       </Text>
-      <Text className="h4">6º - Da Esperança</Text>
-      <Text className="h5">888 - Que é a Esperança?</Text>
+      <H4 text="6º - Da Esperança" />
+      <H5 text="888 - Que é a Esperança?" />
       <Text className="text-base">
         A Esperança é uma virtude sobrenatural, infundida por Deus na nossa
         alma, pela qual desejamos e esperamos a vida eterna que Deus prometeu
         aos seus servos, e os auxílios necessários para alcançá-la.
       </Text>
-      <Text className="h5">
-        889 - Por que motivo devemos esperar de Deus o Paraíso e os auxílios
-        necessários para alcançá-lo?
-      </Text>
+      <H5 text="889 - Por que motivo devemos esperar de Deus o Paraíso e os auxílios necessários para alcançá-lo?" />
       <Text className="text-base">
         Devemos esperar de Deus o Paraíso e os auxílios necessários para
         alcançá-lo, porque Deus misericordiosíssimo, pelos merecimentos de Nosso
         Senhor Jesus Cristo, o prometeu a quem o serve de todo o coração; e,
         sendo fidelíssimo e onipotente, cumpre sempre a sua promessa.
       </Text>
-      <Text className="h5">
-        890 - Quais são as condições necessárias para alcançar o Paraíso?
-      </Text>
+      <H5 text="890 - Quais são as condições necessárias para alcançar o Paraíso?" />
       <Text className="text-base">
         As condições necessárias para alcançar o Paraíso são: a graça de Deus, a
         prática das boas obras e a perseverança no seu santo amor até à morte.
       </Text>
-      <Text className="h5">891 - Como se perde a Esperança?</Text>
+      <H5 text="891 - Como se perde a Esperança?" />
       <Text className="text-base">
         Perde-se a Esperança todas as vezes que se perde a Fé; perde-se também
         pelo pecado de desespero ou de presunção.
       </Text>
-      <Text className="h5">892 - Como recuperamos a Esperança?</Text>
+      <H5 text="892 - Como recuperamos a Esperança?" />
       <Text className="text-base">
         Recuperamos a Esperança perdida, arrependendo-nos do pecado cometido, e
         excitando-nos de novo à confiança na bondade divina.
       </Text>
-      <Text className="h4">7º - Da Caridade</Text>
-      <Text className="h5">893 - Que é a Caridade?</Text>
+      <H4 text="7º - Da Caridade" />
+      <H5 text="893 - Que é a Caridade?" />
       <Text className="text-base">
         A Caridade é uma virtude sobrenatural, infundida por Deus em nossa alma,
         pela qual amamos a Deus por Si mesmo sobre todas as coisas, e amamos o
         próximo como a nós mesmos, por amor de Deus.
       </Text>
-      <Text className="h5">894 - Por que motivos devemos amar a Deus?</Text>
+      <H5 text="894 - Por que motivos devemos amar a Deus?" />
       <Text className="text-base">
         Devemos amar a Deus, porque Ele é o sumo Bem, infinitamente bom e
         perfeito, e além disso por que Ele o manda, e pelos inumeráveis
         benefícios que d'Ele recebemos.
       </Text>
-      <Text className="h5">895 - Como se deve amar a Deus?</Text>
+      <H5 text="895 - Como se deve amar a Deus?" />
       <Text className="text-base">
         Devemos amar a Deus sobre todas as coisas, com todo o nosso coração, com
         toda a nossa mente, com toda a nossa alma, e com todas as nossas forças.
       </Text>
-      <Text className="h5">
-        896 - Que quer dizer: amar a Deus sobre todas as coisas?
-      </Text>
+      <H5 text="896 - Que quer dizer: amar a Deus sobre todas as coisas?" />
       <Text className="text-base">
         Amar a Deus sobre todas as coisas quer dizer: preferi-Lo a todas as
         criaturas mais caras e mais perfeitas, e estar disposto a perder tudo
         antes que ofendê-Lo ou deixar de amá-Lo.
       </Text>
-      <Text className="h5">
-        897 - Que quer dizer: amar a Deus com todo o nosso coração?
-      </Text>
+      <H5 text="897 - Que quer dizer: amar a Deus com todo o nosso coração?" />
       <Text className="text-base">
         Amar a Deus com todo o nosso coração quer dizer: consagrar-Lhe todos os
         nossos afetos.
       </Text>
-      <Text className="h5">
-        898 - Que quer dizer: amar a Deus com toda a nossa mente?
-      </Text>
+      <H5 text="898 - Que quer dizer: amar a Deus com toda a nossa mente?" />
       <Text className="text-base">
         Amar a Deus com toda a nossa mente quer dizer: dirigir para Ele todos os
         nossos pensamentos.
       </Text>
-      <Text className="h5">
-        899 - Que quer dizer: amar a Deus com toda a nossa alma?
-      </Text>
+      <H5 text="899 - Que quer dizer: amar a Deus com toda a nossa alma?" />
       <Text className="text-base">
         Amar a Deus com toda a nossa alma quer dizer: consagrar-Lhe o uso de
         todas as potências da nossa alma.
       </Text>
-      <Text className="h5">
-        900 - Que quer dizer: amar a Deus com todas as nossas forças?
-      </Text>
+      <H5 text="900 - Que quer dizer: amar a Deus com todas as nossas forças?" />
       <Text className="text-base">
         Amar a Deus com todas as nossas forças quer dizer: esforçar-se por
         crescer cada vez mais no amor d'Ele, e proceder de maneira que todas as
         nossas ações tenham por motivo e por fim o seu amor e o desejo de Lhe
         agradar.
       </Text>
-      <Text className="h5">901 - Por que devemos amar o próximo?</Text>
+      <H5 text="901 - Por que devemos amar o próximo?" />
       <Text className="text-base">
         Devemos amar o próximo por amor de Deus porque Ele o manda, e porque
         todo o homem é imagem de Deus.
       </Text>
-      <Text className="h5">
-        902 - Somos obrigados a amar também os inimigos?
-      </Text>
+      <H5 text="902 - Somos obrigados a amar também os inimigos?" />
       <Text className="text-base">
         Sim, somos obrigados a amar também os inimigos, porque também eles são
         nossos próximos, e porque Jesus Cristo o mandou expressamente.
       </Text>
-      <Text className="h5">
-        903 - Que quer dizer: amar o próximo como a nos mesmos?
-      </Text>
+      <H5 text="903 - Que quer dizer: amar o próximo como a nos mesmos?" />
       <Text className="text-base">
         Amar o próximo como a nós mesmos quer dizer: desejar-lhe e fazer-lhe,
         tanto quanto pudermos, todo o bem que devemos desejar para nós mesmos, e
         não lhe desejar nem fazer mal algum.
       </Text>
-      <Text className="h5">904 - Quando amamos a nós mesmos retamente?</Text>
+      <H5 text="904 - Quando amamos a nós mesmos retamente?" />
       <Text className="text-base">
         Amamos retamente a nós mesmos quando procuramos servir a Deus e pôr
         n'Ele toda a nossa felicidade.
       </Text>
-      <Text className="h5">905 - Como se perde a Caridade?</Text>
+      <H5 text="905 - Como se perde a Caridade?" />
       <Text className="text-base">
         Perde-se a Caridade com qualquer pecado mortal.
       </Text>
-      <Text className="h5">906 - Como recuperamos a Caridade?</Text>
+      <H5 text="906 - Como recuperamos a Caridade?" />
       <Text className="text-base">
         Recuperamos a Caridade, fazendo actos de amor de Deus, arrependendo-nos
         e confessando-nos bem.
       </Text>
-      <Text className="h4">8º - Das virtudes cardeais</Text>
-      <Text className="h5">907 - Quais são as virtudes cardeais?</Text>
+      <H4 text="8º - Das virtudes cardeais" />
+      <H5 text="907 - Quais são as virtudes cardeais?" />
       <Text className="text-base">
         As virtudes cardeais são: a Prudência, a Justiça, a Fortaleza e a
         Temperança.
       </Text>
-      <Text className="h5">
-        908 - Por que se chamam virtudes cardeais a Prudência, a Justiça, a
-        Fortaleza e a Temperança?
-      </Text>
+      <H5 text="908 - Por que se chamam virtudes cardeais a Prudência, a Justiça, a Fortaleza e a Temperança?" />
       <Text className="text-base">
         Chamam-se virtudes cardeais a Prudência, a Justiça, a Fortaleza e a
         Temperança, porque são a base e o fundamento das virtudes morais.
       </Text>
-      <Text className="h5">909 - Que é a Prudência?</Text>
+      <H5 text="909 - Que é a Prudência?" />
       <Text className="text-base">
         A Prudência é a virtude que dirige toda ação ao devido fim, e por isso
         procura os meios convenientes para que a ação seja em tudo bem feita, e
         portanto aceita ao Senhor.
       </Text>
-      <Text className="h5">910 - Que é a Justiça?</Text>
+      <H5 text="910 - Que é a Justiça?" />
       <Text className="text-base">
         A Justiça é a virtude pela qual damos a cada um o que lhe pertence.
       </Text>
-      <Text className="h5">911 - Que é a Fortaleza?</Text>
+      <H5 text="911 - Que é a Fortaleza?" />
       <Text className="text-base">
         A Fortaleza é a virtude que nos dá coragem parti não temer perigo algum,
         nem a própria morte, no serviço de Deus.
       </Text>
-      <Text className="h5">912 - Que é a Temperança?</Text>
+      <H5 text="912 - Que é a Temperança?" />
       <Text className="text-base">
         A Temperança é a virtude pela qual refreamos os desejos desordenados de
         prazeres sensuais, e usamos com moderação dos bens temporais.
@@ -8940,9 +7436,7 @@ export default function PageCatecismo() {
       <Text className="h2">
         II - <Text className="em">Dos dons do Espírito Santo</Text>
       </Text>
-      <Text className="h5">
-        913 - Quantos e quais são os dons do Espírito Santo?
-      </Text>
+      <H5 text="913 - Quantos e quais são os dons do Espírito Santo?" />
       <Text className="text-base">Os dons do Espírito Santo são sete:</Text>
       <View className="list-styled">
         <Text className="li text-justify">1º - Sabedoria;</Text>
@@ -8953,52 +7447,50 @@ export default function PageCatecismo() {
         <Text className="li text-justify">6º - Piedade;</Text>
         <Text className="li text-justify">7º - Temor de Deus.</Text>
       </View>
-      <Text className="h5">
-        914 - Para que servem os dons do Espírito Santo?
-      </Text>
+      <H5 text="914 - Para que servem os dons do Espírito Santo?" />
       <Text className="text-base">
         Os dons do Espírito Santo servem para nos confirmar na Fé, na Esperança
         e na Caridade, e para nos tornar solícitos para os actos das virtudes
         necessárias para conseguir a perfeição da vida cristã.
       </Text>
-      <Text className="h5">915 - Que é a Sabedoria?</Text>
+      <H5 text="915 - Que é a Sabedoria?" />
       <Text className="text-base">
         A Sabedoria é um dom pelo qual nós, elevando o espírito acima das coisas
         terrenas e frágeis, contemplamos as eternas, isto é, a Verdade, que é
         Deus, no qual pomos nossa complacência, amando-O como nosso Sumo bem.
       </Text>
-      <Text className="h5">916 - Que é o Entendimento?</Text>
+      <H5 text="916 - Que é o Entendimento?" />
       <Text className="text-base">
         O Entendimento é um dom pelo qual nos é facilitada, quanto é possível a
         um homem mortal, a inteligência das verdades da Fé e dos divinos
         mistérios, os quais não podemos conhecer com as luzes naturais da nossa
         razão.
       </Text>
-      <Text className="h5">917 - Que é o Conselho?</Text>
+      <H5 text="917 - Que é o Conselho?" />
       <Text className="text-base">
         O Conselho é um dom pelo qual, nas dúvidas e incertezas da vida humana,
         conhecemos o que mais convém à glória de Deus, à nossa salvação e à do
         próximo.
       </Text>
-      <Text className="h5">918 - Que é a Fortaleza?</Text>
+      <H5 text="918 - Que é a Fortaleza?" />
       <Text className="text-base">
         A Fortaleza é um dom que nos incute energia e coragem para observar
         fielmente a santa Lei de Deus e da Igreja, vencendo todos os obstáculos,
         e os assaltos dos nossos inimigos.
       </Text>
-      <Text className="h5">919 - Que é a Ciência?</Text>
+      <H5 text="919 - Que é a Ciência?" />
       <Text className="text-base">
         A Ciência é um dom pelo qual julgamos retamente das coisas criadas, e
         conhecemos o modo de bem usar delas e de as dirigir ao último fim, que é
         Deus.
       </Text>
-      <Text className="h5">920 - Que é a Piedade?</Text>
+      <H5 text="920 - Que é a Piedade?" />
       <Text className="text-base">
         Á Piedade é um dom pelo qual veneramos e amamos a Deus e aos Santos, e
         conservamos ânimo bondoso e benévolo para com o próximo, por amor de
         Deus.
       </Text>
-      <Text className="h5">921 - Que é o Temor de Deus?</Text>
+      <H5 text="921 - Que é o Temor de Deus?" />
       <Text className="text-base">
         O Temor de Deus é um dom que nos faz reverenciar a Deus, e ter receio de
         ofender a sua Divina Majestade, e que nos afasta do mal, incitando-nos
@@ -9007,9 +7499,7 @@ export default function PageCatecismo() {
       <Text className="h2">
         III - <Text className="em">Das Bem-aventuranças evangélicas</Text>
       </Text>
-      <Text className="h5">
-        922 - Quantas e quais são as Bem-aventuranças evangélicas?
-      </Text>
+      <H5 text="922 - Quantas e quais são as Bem-aventuranças evangélicas?" />
       <Text className="text-base">
         As Bem-aventuranças evangélicas são oito:
       </Text>
@@ -9044,109 +7534,86 @@ export default function PageCatecismo() {
           porque deles é o reino do Céu.
         </Text>
       </View>
-      <Text className="h5">
-        923 - Por que Jesus Cristo nos propôs as Bem-aventuranças?
-      </Text>
+      <H5 text="923 - Por que Jesus Cristo nos propôs as Bem-aventuranças?" />
       <Text className="text-base">
         Jesus Cristo propôs-nos as Bem-aventuranças para os fazer detestar as
         máximas do mundo, e para nos convidar a amar e praticar as máximas do
         seu Evangelho.
       </Text>
-      <Text className="h5">
-        924 - Quem são aqueles que o mundo chama bem-aventurados?
-      </Text>
+      <H5 text="924 - Quem são aqueles que o mundo chama bem-aventurados?" />
       <Text className="text-base">
         O inundo chama bem-aventurados aqueles que desfrutam abundância de
         riquezas e de honras, que vi vem em delícias e que não têm nada que os
         faça sofrer.
       </Text>
-      <Text className="h5">
-        925 - Quem são os pobres de espírito, que Jesus Cristo chama
-        bem-aventurados?
-      </Text>
+      <H5 text="925 - Quem são os pobres de espírito, que Jesus Cristo chama bem-aventurados?" />
       <Text className="text-base">
         Os pobres de espírito, segundo o Evangelho, são aqueles que têm o
         coração desapegado das riquezas; fazem bom uso delas, se as possuem; não
         as procuram com solicitude, se não as têm; e sofrem com resignação a
         perda delas se lhes são tiradas.
       </Text>
-      <Text className="h5">926 - Quem são os mansos?</Text>
+      <H5 text="926 - Quem são os mansos?" />
       <Text className="text-base">
         Os mansos são aqueles que tratam o próximo com brandura, e lhe sofrem
         com paciência os defeitos e as ofensas que dele recebem, sem alteração,
         ressentimentos ou vingança.
       </Text>
-      <Text className="h5">
-        927 - Quem são os que choram, e todavia são chamados bem-aventurados?
-      </Text>
+      <H5 text="927 - Quem são os que choram, e todavia são chamados bem-aventurados?" />
       <Text className="text-base">
         Os que choram, e todavia são chamados bem-aventurados, são aqueles que
         sofrem com resignação as tribulações, e que se afligem pelos pecados
         cometidos, pelos males e pelos escândalos que se vêem no mundo, pela
         ausência do céu, e pelo perigo de o perder.
       </Text>
-      <Text className="h5">
-        928 - Quem são os que têm fome e sede de justiça?
-      </Text>
+      <H5 text="928 - Quem são os que têm fome e sede de justiça?" />
       <Text className="text-base">
         Os que têm fome e sede de justiça são aqueles, que desejam ardentemente
         crescer cada vez mais na graça de Deus e na prática das obras boas e
         virtuosas.
       </Text>
-      <Text className="h5">929 - Quem são os que usam de misericórdia?</Text>
+      <H5 text="929 - Quem são os que usam de misericórdia?" />
       <Text className="text-base">
         Os que usam de misericórdia são aqueles que amam, em Deus e por amor de
         Deus, o seu próximo, se compadecem das suas misérias, assim corporais
         como espirituais, e procuram socorrê-lo conforme as suas forças e o seu
         estado.
       </Text>
-      <Text className="h5">930 - Quem são os puros de coração?</Text>
+      <H5 text="930 - Quem são os puros de coração?" />
       <Text className="text-base">
         Os puros de coração são aqueles que não têm nenhum afeto ao pecado,
         sempre se afastam dele, e evitam sobretudo toda a espécie de impureza.
       </Text>
-      <Text className="h5">931 - Quem são os pacíficos?</Text>
+      <H5 text="931 - Quem são os pacíficos?" />
       <Text className="text-base">
         Os pacíficos são aqueles que vivem em paz com o próximo e consigo
         mesmos, e procuram estabelecer a paz entre aqueles que estão em
         discórdia.
       </Text>
-      <Text className="h5">
-        932 - Quem são os que sofrem perseguição por amor da justiça?
-      </Text>
+      <H5 text="932 - Quem são os que sofrem perseguição por amor da justiça?" />
       <Text className="text-base">
         Os que sofrem perseguição por amor da justiça são aqueles que suportam
         com paciência os escárnios, as censuras, as perseguições por causa da Fé
         e da Lei de Jesus Cristo.
       </Text>
-      <Text className="h5">
-        933 - Que significam os diversos prêmios prometidos por Jesus Cristo nas
-        Bem- aventuranças?
-      </Text>
+      <H5 text="933 - Que significam os diversos prêmios prometidos por Jesus Cristo nas Bem- aventuranças?" />
       <Text className="text-base">
         Os diversos prêmios prometidos por Jesus Cristo nas Bem-aventuranças
         significam todos, sob diversos nomes, a glória eterna do Céu.
       </Text>
-      <Text className="h5">
-        934 - Alcançam-nos as Bem-aventuranças só a glória eterna do Paraíso?
-      </Text>
+      <H5 text="934 - Alcançam-nos as Bem-aventuranças só a glória eterna do Paraíso?" />
       <Text className="text-base">
         As Bem-aventuranças não nos alcançam só a glória eterna do Paraíso; são
         também meios de tornar nossa vida feliz, tanto quanto é possível, neste
         mundo.
       </Text>
-      <Text className="h5">
-        935 - Recebem já alguma recompensa nesta vida os que seguem as
-        Bem-aventuranças?
-      </Text>
+      <H5 text="935 - Recebem já alguma recompensa nesta vida os que seguem as Bem-aventuranças?" />
       <Text className="text-base">
         Sim, certamente, os que seguem as Bem-aventuranças recebem já alguma
         recompensa nesta vida, porque já gozam de uma paz e de um contentamento
         íntimos que são princípio, embora imperfeito, da felicidade eterna.
       </Text>
-      <Text className="h5">
-        936 - Poderão dizer-se felizes os que seguem as máximas do mundo?
-      </Text>
+      <H5 text="936 - Poderão dizer-se felizes os que seguem as máximas do mundo?" />
       <Text className="text-base">
         Não. Osque seguem as máximas do mundo não são felizes, porque não têm a
         verdadeira paz da alma e estão em risco de se condenar.
@@ -9154,27 +7621,22 @@ export default function PageCatecismo() {
       <Text className="h2">
         IV - <Text className="em">Das obras de misericórdia</Text>
       </Text>
-      <Text className="h5">
-        937 - Quais são as boas obras de que se nos pedirá conta particular no
-        dia do Juízo?
-      </Text>
+      <H5 text="937 - Quais são as boas obras de que se nos pedirá conta particular no dia do Juízo?" />
       <Text className="text-base">
         As boas obras de que se tios pedirá conta particular no dia do Juízo são
         as obras de misericórdia.
       </Text>
-      <Text className="h5">938 - Que se entende por obra de misericórdia?</Text>
+      <H5 text="938 - Que se entende por obra de misericórdia?" />
       <Text className="text-base">
         Obra de misericórdia é aquela com que se socorre o nosso próximo nas
         suas necessidades corporais ou espirituais.
       </Text>
-      <Text className="h5">939 - Quantas são as obras de misericórdia?</Text>
+      <H5 text="939 - Quantas são as obras de misericórdia?" />
       <Text className="text-base">
         As obras de misericórdia são catorze: sete corporais e sete espirituais,
         conforme são corporais ou espirituais as necessidades que se socorrem.
       </Text>
-      <Text className="h5">
-        940 - Quais são as obras de misericórdia corporais?
-      </Text>
+      <H5 text="940 - Quais são as obras de misericórdia corporais?" />
       <Text className="text-base">As obras de misericórdia corporais são:</Text>
       <View className="list-styled">
         <Text className="li text-justify">
@@ -9191,9 +7653,7 @@ export default function PageCatecismo() {
         <Text className="li text-justify">6ª - Visitar os presos;</Text>
         <Text className="li text-justify">7ª - Enterrar os mortos.</Text>
       </View>
-      <Text className="h5">
-        941 - Quais são as obras de misericórdia espirituais?
-      </Text>
+      <H5 text="941 - Quais são as obras de misericórdia espirituais?" />
       <Text className="text-base">
         As obras de misericórdia espirituais são:
       </Text>
@@ -9214,47 +7674,47 @@ export default function PageCatecismo() {
         V -{" "}
         <Text className="em">Dos pecados e das suas espécies principais</Text>
       </Text>
-      <Text className="h5">942 - Quantas espécies há de pecado?</Text>
+      <H5 text="942 - Quantas espécies há de pecado?" />
       <Text className="text-base">
         Há duas espécies de pecado: o pecado original e o pecado atual.
       </Text>
-      <Text className="h5">943 - Que é o pecado original?</Text>
+      <H5 text="943 - Que é o pecado original?" />
       <Text className="text-base">
         O pecado original é aquele com o qual todos nascemos, exceto a
         Santíssima Virgem Maria, e que contraímos pela desobediência do nosso
         primeiro pai Adão.
       </Text>
-      <Text className="h5">944 - Que males nos causa o pecado de Adão?</Text>
+      <H5 text="944 - Que males nos causa o pecado de Adão?" />
       <Text className="text base">
         Os males causados pelo pecado de Adão são: a privação da graça, a perda
         do Paraíso, a ignorância, a inclinação para o mal, a morte e todas as
         demais misérias.
       </Text>
-      <Text className="h5">945 - Como se apaga o pecado original?</Text>
+      <H5 text="945 - Como se apaga o pecado original?" />
       <Text className="text-base">
         O pecado original apaga-se com o santo Batismo.
       </Text>
-      <Text className="h5">946 - Que é o pecado atual?</Text>
+      <H5 text="946 - Que é o pecado atual?" />
       <Text className="text-base">
         O pecado atual é aquele que o homem, chegado ao uso da razão, comete por
         sua livre vontade.
       </Text>
-      <Text className="h5">947 - Quantas espécies há de pecado atual?</Text>
+      <H5 text="947 - Quantas espécies há de pecado atual?" />
       <Text className="text-base">
         Há duas espécies de pecado atual: o mortal e o venial.
       </Text>
-      <Text className="h5">948 - Que é o pecado mortal?</Text>
+      <H5 text="948 - Que é o pecado mortal?" />
       <Text className="text-base">
         O pecado mortal é uma transgressão da lei divina, pela qual se falta
         gravemente aos deveres para com Deus, para com o próximo, ou para com
         nós mesmos.
       </Text>
-      <Text className="h5">949 - Por que se chama mortal?</Text>
+      <H5 text="949 - Por que se chama mortal?" />
       <Text className="text-base">
         Chama-se mortal porque dá a morte à alma, fazendo-a perder a graça
         santificante, que é a vida da alma como a alma é a vida do corpo.
       </Text>
-      <Text className="h5">950 - Que males causa à alma o pecado mortal?</Text>
+      <H5 text="950 - Que males causa à alma o pecado mortal?" />
       <Text className="text-base">O pecado mortal:</Text>
       <View className="list-styled">
         <Text className="li text-justify">
@@ -9272,34 +7732,29 @@ export default function PageCatecismo() {
           5º - fá-la merecer o Inferno e também os castigos desta vida.
         </Text>
       </View>
-      <Text className="h5">
-        951 - Além da gravidade da matéria, que mais se requer para haver um
-        pecado mortal?
-      </Text>
+      <H5 text="951 - Além da gravidade da matéria, que mais se requer para haver um pecado mortal?" />
       <Text className="text-base">
         Além da gravidade da matéria, para haver um pecado mortal requer-se a
         plena advertência desta gravidade, e a vontade deliberada de cometer o
         pecado.
       </Text>
-      <Text className="h5">952 - Que é o pecado venial?</Text>
+      <H5 text="952 - Que é o pecado venial?" />
       <Text className="text-base">
         O pecado venial é uma leve transgressão da lei divina, pela qual se
         falta levemente a algum dever para com Deus, para com o próximo, ou para
         com nós mesmos.
       </Text>
-      <Text className="h5">953 - Por que se chama venial?</Text>
+      <H5 text="953 - Por que se chama venial?" />
       <Text className="text-base">
         Porque é leve em comparação com o pecado mortal; porque não nos faz
         perder a graça divina; e porque Deus facilmente o perdoa.
       </Text>
-      <Text className="h5">
-        954 - Então não se deve fazer grande caso do pecado venial?
-      </Text>
+      <H5 text="954 - Então não se deve fazer grande caso do pecado venial?" />
       <Text className="text-base">
         Isto seria um erro enorme, porque o pecado venial contém sempre uma
         ofensa a Deus, e causa prejuízos não pequenos à alma.
       </Text>
-      <Text className="h5">955 - Que prejuízos causa o pecado venial?</Text>
+      <H5 text="955 - Que prejuízos causa o pecado venial?" />
       <Text className="text-base">O pecado venial:</Text>
       <View className="list-styled">
         <Text className="li text-justify">
@@ -9319,19 +7774,17 @@ export default function PageCatecismo() {
           Dos pecados ou vícios capitais e de outros pecados mais graves
         </Text>
       </Text>
-      <Text className="h5">956 - Que é o vício?</Text>
+      <H5 text="956 - Que é o vício?" />
       <Text className="text-base">
         O vício é uma disposição má da alma que leva-a a fugir do bem e a fazer
         o mal, causada pela frequente repetição dos atos maus.
       </Text>
-      <Text className="h5">957 - Que diferença há entre pecado e vício?</Text>
+      <H5 text="957 - Que diferença há entre pecado e vício?" />
       <Text className="text-base">
         Entre pecado e vício há esta diferença: que o pecado é um ato que passa,
         enquanto o vício é o mau hábito contraído de cair em algum pecado.
       </Text>
-      <Text className="h5">
-        958 - Quais são os vícios que se chamam capitais?
-      </Text>
+      <H5 text="958 - Quais são os vícios que se chamam capitais?" />
       <Text className="text-base">
         Os vícios que se chamam capitais são sete:
       </Text>
@@ -9344,9 +7797,7 @@ export default function PageCatecismo() {
         <Text className="li text-justify">6º - inveja;</Text>
         <Text className="li text-justify">7º - preguiça.</Text>
       </View>
-      <Text className="h5">
-        959 - Como se vencem os vícios ou pecados capitais?
-      </Text>
+      <H5 text="959 - Como se vencem os vícios ou pecados capitais?" />
       <Text className="text-base">
         Os vícios ou pecados capitais vencem-se com a prática das virtudes
         opostas. Assim, a soberba vence-se com a humildade; a avareza, com a
@@ -9354,14 +7805,12 @@ export default function PageCatecismo() {
         gula, com a temperança; a inveja, com a caridade; a preguiça, com a
         diligência e fervor no serviço de Deus.
       </Text>
-      <Text className="h5">960 - Por que se chamam capitais estes vícios?</Text>
+      <H5 text="960 - Por que se chamam capitais estes vícios?" />
       <Text className="text-base">
         Chamam-se capitais estes vícios, porque são a fonte e a causa de muitos
         outros vícios e pecados.
       </Text>
-      <Text className="h5">
-        961 - Quantos são os pecados contra o Espírito Santo?
-      </Text>
+      <H5 text="961 - Quantos são os pecados contra o Espírito Santo?" />
       <Text className="text-base">
         Os pecados contra o Espírito Santo são seis:
       </Text>
@@ -9381,18 +7830,13 @@ export default function PageCatecismo() {
           6º - morrer na impenitência final.
         </Text>
       </View>
-      <Text className="h5">
-        962 - Por que se chamam estes pecados particularmente pecados contra o
-        Espírito Santo?
-      </Text>
+      <H5 text="962 - Por que se chamam estes pecados particularmente pecados contra o Espírito Santo?" />
       <Text className="text-base">
         Chamam-se estes pecados particularmente pecados contra o Espírito Santo,
         porque se cometem por pura malícia, o que é contrário à bondade que se
         atribui ao Espírito Santo.
       </Text>
-      <Text className="h5">
-        963 - Quais são os pecados que bradam ao Céu e pedem vingança a Deus?
-      </Text>
+      <H5 text="963 - Quais são os pecados que bradam ao Céu e pedem vingança a Deus?" />
       <Text className="text-base">
         Os pecados que bradam ao Céu e pedem vingança a Deus são quatro:
       </Text>
@@ -9408,9 +7852,7 @@ export default function PageCatecismo() {
           4º - não pagar o salário a quem trabalha.
         </Text>
       </View>
-      <Text className="h5">
-        964 - Por que se diz que estes pecados pedem vingança a Deus?
-      </Text>
+      <H5 text="964 - Por que se diz que estes pecados pedem vingança a Deus?" />
       <Text className="text-base">
         Diz-se que estes pecados pedem vingança a Deus, porque o diz o Espírito
         Santo, e porque a sua malícia é tão grave e manifesta, que provoca o
@@ -9422,20 +7864,17 @@ export default function PageCatecismo() {
           Dos Novíssimos e de outros meios principais para evitar o pecado
         </Text>
       </Text>
-      <Text className="h5">965 - Que se entende por Novíssimos?</Text>
+      <H5 text="965 - Que se entende por Novíssimos?" />
       <Text className="text-base">
         Novíssimos são chamados nos Livros Santos as últimas coisas que hão de
         acontecer ao homem.
       </Text>
-      <Text className="h5">966 - Quantos são os Novíssimos?</Text>
+      <H5 text="966 - Quantos são os Novíssimos?" />
       <Text className="text-base">
         Os Novíssimos, ou últimas coisas do homem, são quatro: Morte, Juízo,
         Inferno e Paraíso.
       </Text>
-      <Text className="h5">
-        967 - Por que é que esses Novíssimos se chamam últimas coisas que
-        acontecerão ao homem?
-      </Text>
+      <H5 text="967 - Por que é que esses Novíssimos se chamam últimas coisas que acontecerão ao homem?" />
       <Text className="text-base">
         Os Novíssimos chamam-se últimas coisas que acontecerão ao homem, porque
         a Morte é a última coisa que nos acontece neste mundo; o Juízo de Deus é
@@ -9443,7 +7882,7 @@ export default function PageCatecismo() {
         hão de sofrer os maus; e o Paraíso é sumo bem que hão de receber os
         bons.
       </Text>
-      <Text className="h5">968 - Quando devemos pensar nos Novíssimos?</Text>
+      <H5 text="968 - Quando devemos pensar nos Novíssimos?" />
       <Text className="text-base">
         É bom pensar nos Novíssimos todos os dias, e principalmente ao fazer a
         oração da manha, apenas acordados, à noite antes do deitar, e todas as
@@ -9456,9 +7895,7 @@ export default function PageCatecismo() {
           Dos exercícios piedosos que se aconselham ao cristão para cada dia
         </Text>
       </Text>
-      <Text className="h5">
-        969 - Que deve fazer um bom cristão, pela manhã, apenas acorda?
-      </Text>
+      <H5 text="969 - Que deve fazer um bom cristão, pela manhã, apenas acorda?" />
       <Text className="text-base">
         Um bom cristão, pela manhã, apenas acorda, deve fazer o sinal da Cruz, e
         oferecer o coração a Deus, dizendo estas ou outras palavras semelhantes:
@@ -9487,9 +7924,7 @@ export default function PageCatecismo() {
           atos de Fé, de Esperança e de Caridade, acompanhando-os com um vivo
           afeto do coração.
         </Text>
-        <Text className="h5">
-          972 - Que práticas de piedade deveria fazer todos os dias o cristão?
-        </Text>
+        <H5 text="972 - Que práticas de piedade deveria fazer todos os dias o cristão?" />
         <Text className="text-base">
           O cristão, podendo, deveria todos os dias:
         </Text>
@@ -9505,31 +7940,28 @@ export default function PageCatecismo() {
             3º - rezar o terço do santo Rosário.
           </Text>
         </View>
-        <Text className="h5">973 - Que se deve fazer antes do trabalho?</Text>
+        <H5 text="973 - Que se deve fazer antes do trabalho?" />
         <Text className="text-base">
           Antes do trabalho, convém oferecê-lo a Deus, dizendo do coração:
           "Senhor, eu Vos ofereço este trabalho, dai-me a vossa bênção".
         </Text>
-        <Text className="h5">974 - Para que fim se deve trabalhar?</Text>
+        <H5 text="974 - Para que fim se deve trabalhar?" />
         <Text className="text-base">
           Deve-se trabalhar para glória de Deus e para fazer a sua vontade.
         </Text>
-        <Text className="h5">975 - Que convém fazer antes da refeição?</Text>
+        <H5 text="975 - Que convém fazer antes da refeição?" />
         <Text className="text-base">
           Antes da refeição convém fazer o sinal da Cruz, estando de pé, e
           depois dizer com devoção: "Senhor, abençoai-nos a nós e ao alimento
           que vamos tomar, para nos conservarmos no vosso santo serviço".
         </Text>
-        <Text className="h5">976 - Depois da refeição, que convém fazer?</Text>
+        <H5 text="976 - Depois da refeição, que convém fazer?" />
         <Text className="text-base">
           Depois da refeição, convém fazer o sinal da Cruz, e dizer: "Senhor, eu
           Vos dou graças pelo alimento que me destes; fazei-me digno de
           participar da mesa celeste".
         </Text>
-        <Text className="h5">
-          977 - Quando nos vemos atormentados por alguma tentação, que devemos
-          fazer?
-        </Text>
+        <H5 text="977 - Quando nos vemos atormentados por alguma tentação, que devemos fazer?" />
         <Text className="text-base">
           Quando nos vemos atormentados por alguma tentação, devemos invocar com
           fé o Santíssimo Nome de Jesus ou de Maria, ou recitar fervorosamente
@@ -9538,41 +7970,29 @@ export default function PageCatecismo() {
           porém que as outras pessoas, pelos sinais externos, suspeitem da
           tentação.
         </Text>
-        <Text className="h5">
-          978 - Quando uma pessoa reconhece ou duvida que cometeu algum pecado,
-          que deve
-        </Text>
+        <H5 text="978 - Quando uma pessoa reconhece ou duvida que cometeu algum pecado, que deve" />
         <Text className="text-base">
           fazer? Quando uma pessoa reconhece, ou duvida que cometeu algum
           pecado, convém fazer imediatamente um ato de contrição, e procurar
           confessar-se quanto antes.
         </Text>
-        <Text className="h5">
-          979 - Quando fora da Igreja se ouve o sinal de elevação da hóstia na
-          Missa solene, ou da bênção do Santíssimo Sacramento, que se deve
-          fazer?
-        </Text>
+        <H5 text="979 - Quando fora da Igreja se ouve o sinal de elevação da hóstia na Missa solene, ou da bênção do Santíssimo Sacramento, que se deve fazer?" />
         É bom fazer, ao menos com o coração, um ato de adoração, dizendo, por
         exemplo: "Graças e louvores se dêem a todo o momento ao Santíssimo e
         diviníssimo Sacramento".
       </Text>
-      <Text className="h5">
-        980 - Que se deve fazer quando tocam às Ave-Marias, pela manhã, ao
-        meio-dia e à noite?
-      </Text>
+      <H5 text="980 - Que se deve fazer quando tocam às Ave-Marias, pela manhã, ao meio-dia e à noite?" />
       <Text className="text-base">
         Ao toque das Ave-Marias, o bom cristão recita o Anjo do Senhor com três
         Ave- Marias.
       </Text>
-      <Text className="h5">
-        981 - A noite, antes de deitar, que devemos fazer?
-      </Text>
+      <H5 text="981 - A noite, antes de deitar, que devemos fazer?" />
       <Text className="text-base">
         À noite, antes de deitar, convém pôr-nos, como pela manhã, na presença
         de Deus, recitar devotamente as mesmas orações, fazer um breve exame de
         consciência, e pedir perdão a Deus dos pecados cometidos durante o dia.
       </Text>
-      <Text className="h5">982 - Que haveis de fazer antes de adormecer?</Text>
+      <H5 text="982 - Que haveis de fazer antes de adormecer?" />
       <Text className="text-base">
         Antes de adormecer, farei o sinal da Cruz, pensarei que posso morrer
         naquela noite, e oferecerei o coração a Deus, dizendo: "Meu Senhor e meu
@@ -9580,15 +8000,12 @@ export default function PageCatecismo() {
         graça de bem viver e de bem morrer. Jesus, Maria e José eu Vos encomendo
         a minha alma".
       </Text>
-      <Text className="h5">
-        983 - Além das orações da manhã e da noite, por que outra forma se pode
-        recorrer a Deus no decurso do dia?
-      </Text>
+      <H5 text="983 - Além das orações da manhã e da noite, por que outra forma se pode recorrer a Deus no decurso do dia?" />
       <Text className="text-base">
         No decurso do dia pode-se invocar a Deus frequentemente com outras
         orações breves, que se chamam jaculatórias.
       </Text>
-      <Text className="h5">984 - Dizei algumas jaculatórias.</Text>
+      <H5 text="984 - Dizei algumas jaculatórias." />
       <View className="list-styled">
         <Text className="li text-justify">1º - Senhor, valei-me;</Text>
         <Text className="li text-justify">
@@ -9606,31 +8023,23 @@ export default function PageCatecismo() {
           6º - Doce Coração de Maria sede minha salvação.
         </Text>
       </View>
-      <Text className="h5">
-        985 - É útil recitar, durante o dia, muitas jaculatórias?
-      </Text>
+      <H5 text="985 - É útil recitar, durante o dia, muitas jaculatórias?" />
       <Text className="text-base">
         É muito útil recitar, durante o dia, muitas jaculatórias, e podem
         recitar-se também com o coração, sem proferir palavras, caminhando,
         trabalhando, etc.
       </Text>
-      <Text className="h5">
-        986 - Além das orações jaculatórias, em que outra coisa deveria
-        exercitar-se com frequência o cristão?
-      </Text>
+      <H5 text="986 - Além das orações jaculatórias, em que outra coisa deveria exercitar-se com frequência o cristão?" />
       <Text className="text-base">
         Além das orações jaculatórias, o cristão deveria exercitar-se na
         mortificação cristã.
       </Text>
-      <Text className="h5">987 - Que quer dizer mortificar-se?</Text>
+      <H5 text="987 - Que quer dizer mortificar-se?" />
       <Text className="text-base">
         Mortificar-se quer dizer privar-se, por amor de Deus, daquilo que
         agrada, e aceitar o que desagrada aos sentidos ou ao amor próprio.
       </Text>
-      <Text className="h5">
-        988 - Quando é o Santíssimo Sacramento levado a um enfermo, que se deve
-        fazer?
-      </Text>
+      <H5 text="988 - Quando é o Santíssimo Sacramento levado a um enfermo, que se deve fazer?" />
       <Text className="text-base">
         Quando é o Santíssimo Sacramento levado a algum enfermo, devemos, sendo
         possível, acompanhá-Lo com modéstia e recolhimento; e, se não é possível
@@ -9639,19 +8048,14 @@ export default function PageCatecismo() {
         graça de se conformar com a vossa santíssima vontade. e de conseguir a
         sua salvação".
       </Text>
-      <Text className="h5">
-        989 - Ouvindo tocar o sino pela agonia de algum moribundo, que haveis de
-        fazer?
-      </Text>
+      <H5 text="989 - Ouvindo tocar o sino pela agonia de algum moribundo, que haveis de fazer?" />
       <Text className="text-base">
         Ouvindo tocar o sino pela agonia de algum moribundo, irei, se puder, à
         igreja orar por ele; e, não podendo, encomendarei a Nosso Senhor a sua
         alma, pensando que dentro em breve tempo hei de encontrar-me também eu
         naquele estado.
       </Text>
-      <Text className="h5">
-        990 - Ao ouvir sinais pela morte de alguém, que haveis de fazer?
-      </Text>
+      <H5 text="990 - Ao ouvir sinais pela morte de alguém, que haveis de fazer?" />
       <Text className="text-base">
         Ao ouvir sinais pela morte de alguém, procurarei rezar um De profundis
         ou um Réquiem, ou um Padre-Nosso e uma Ave-Maria, pela alma daquele

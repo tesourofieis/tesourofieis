@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page25Dedicacaoigreja() {
   return (
     <PageWrapper>
-      <Text className="h1">Dedicação de uma Igreja</Text>
+      <H1 text="Dedicação de uma Igreja" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Gen. 28, 17</Text>
 
@@ -29,7 +31,7 @@ export default function Page25Dedicacaoigreja() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -53,7 +55,7 @@ export default function Page25Dedicacaoigreja() {
         da precedente, a seguinte:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -74,7 +76,7 @@ export default function Page25Dedicacaoigreja() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Ap. 21, 2-5</Text>
 
@@ -108,7 +110,7 @@ export default function Page25Dedicacaoigreja() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Language>
         <Text className="latin">
@@ -138,7 +140,7 @@ export default function Page25Dedicacaoigreja() {
         Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 124, 1-2</Text>
 
@@ -179,7 +181,7 @@ export default function Page25Dedicacaoigreja() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 19, 1-10</Text>
 
@@ -227,7 +229,7 @@ export default function Page25Dedicacaoigreja() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">1 Cr. 29, 17 et 18</Text>
 
@@ -245,7 +247,7 @@ export default function Page25Dedicacaoigreja() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Text className="aside">Na Igreja</Text>
 
@@ -267,7 +269,7 @@ export default function Page25Dedicacaoigreja() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Text className="aside">Fora da Igreja</Text>
 
@@ -289,7 +291,7 @@ export default function Page25Dedicacaoigreja() {
         precedente, a seguinte:
       </Text>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -305,7 +307,7 @@ export default function Page25Dedicacaoigreja() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 21, 13</Text>
 
@@ -322,7 +324,7 @@ export default function Page25Dedicacaoigreja() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -344,7 +346,7 @@ export default function Page25Dedicacaoigreja() {
         precedente, o seguinte:
       </Text>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -364,7 +366,7 @@ export default function Page25Dedicacaoigreja() {
         excepção do seguinte:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -382,7 +384,7 @@ export default function Page25Dedicacaoigreja() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -398,7 +400,7 @@ export default function Page25Dedicacaoigreja() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

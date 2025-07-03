@@ -1,10 +1,12 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageSalvenobrepadroeira() {
   return (
     <PageWrapper>
-      <Text className="h1">Salve, nobre Padroeira</Text>
+      <H1 text="Salve, nobre Padroeira" />
 
       <View className="not-content">
         <Text className="text-base">

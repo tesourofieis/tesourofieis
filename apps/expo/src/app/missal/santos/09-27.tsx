@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,9 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0927() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. S. Cosme e Damião, Mártires, a 27 de Setembro
-      </Text>
+      <H1 text="S. S. Cosme e Damião, Mártires, a 27 de Setembro" />
 
       <Text className="aside">
         Como na{" "}
@@ -19,7 +19,7 @@ export default function Page0927() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -35,7 +35,7 @@ export default function Page0927() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 33, 18-19</Text>
 
@@ -64,7 +64,7 @@ export default function Page0927() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 5, 12-13</Text>
 
@@ -80,7 +80,7 @@ export default function Page0927() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -95,7 +95,7 @@ export default function Page0927() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 78, 2 & 11</Text>
 
@@ -112,7 +112,7 @@ export default function Page0927() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

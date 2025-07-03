@@ -1,5 +1,7 @@
 import { Image } from "expo-image";
 import { Link } from "expo-router";
+import { H1, H2, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -8,7 +10,7 @@ import PageWrapper from "~/components/Page";
 export default function PageViasacra() {
   return (
     <PageWrapper>
-      <Text className="h1">Via Sacra</Text>
+      <H1 text="Via Sacra" />
       <Text className="text-base">
         Meu Senhor e meu Deus, sob o olhar amoroso de Nossa Mãe, dispomo-nos a
         acompanhar-Vos pelo caminho de dor que foi o preço do nosso resgate.
@@ -20,7 +22,7 @@ export default function PageViasacra() {
         <Text className="em">in libertatem gloriæ filiorum Dei</Text> (na
         liberdade e glória dos filhos de Deus.).
       </Text>
-      <Text className="h3">No inicio de cada Estação</Text>
+      <H3 text="No inicio de cada Estação" />
       <Language>
         <Text className="latin">
           <Text className="versicle"> ℣. </Text>Adorámus te, Christe, et
@@ -39,7 +41,7 @@ export default function PageViasacra() {
           redimistes o mundo.
         </Text>
       </Language>
-      <Text className="h3">No fim de cada Estação</Text>
+      <H3 text="No fim de cada Estação" />
       <Text className="aside">
         <Link className="link" href="/devocionario/oracoes/painosso">
           Pai nosso,
@@ -73,14 +75,14 @@ export default function PageViasacra() {
         </Link>
       </Text>
 
-      <Text className="h2">Primeira Estação</Text>
+      <H2 text="Primeira Estação" />
       <Image
         alt="estacao 1"
         source={require("../../../assets/images/station1.png")}
         contentFit="contain"
         style={{ height: 400 }}
       />
-      <Text className="h3">Jesus é condenado à morte</Text>
+      <H3 text="Jesus é condenado à morte" />
       <Text className="text-base">
         Nesta primeira estação contemplemos N. S. J. C., que, depois de
         cruelmente açoitado e coroado de espinhos, é levado pela segunda vez à
@@ -90,14 +92,14 @@ export default function PageViasacra() {
         fazei-nos compreender o vosso amor, e abrasai-nos nele.
       </Text>
 
-      <Text className="h2">Segunda Estação</Text>
+      <H2 text="Segunda Estação" />
       <Image
         alt="estacao 2"
         source={require("../../../assets/images/station2.png")}
         contentFit="contain"
         style={{ height: 400 }}
       />
-      <Text className="h3">Jesus leva a Cruz aos ombros</Text>
+      <H3 text="Jesus leva a Cruz aos ombros" />
       <Text className="text-base">
         Nesta segunda estação contemplemos N. S. J. C., tratado com desprezo
         pelos algozes, que O obrigam a levar às costas, sobre as chagas vivas
@@ -106,14 +108,14 @@ export default function PageViasacra() {
         por vosso amor os desprezos e humilhações de cada dia.
       </Text>
 
-      <Text className="h2">Terceira Estação</Text>
+      <H2 text="Terceira Estação" />
       <Image
         alt="estacao 3"
         source={require("../../../assets/images/station3.png")}
         contentFit="contain"
         style={{ height: 400 }}
       />
-      <Text className="h3">Jesus cai sob o peso da Cruz</Text>
+      <H3 text="Jesus cai sob o peso da Cruz" />
       <Text className="text-base">
         Nesta terceira estação contemplemos N. S. J. C., arrastado e empurrado
         pelos algozes! Então cai sob o peso da Cruz e fere os joelhos nas pedras
@@ -122,14 +124,14 @@ export default function PageViasacra() {
         vosso amor.
       </Text>
 
-      <Text className="h2">Quarta Estação</Text>
+      <H2 text="Quarta Estação" />
       <Image
         alt="estacao 4"
         source={require("../../../assets/images/station4.png")}
         contentFit="contain"
         style={{ height: 400 }}
       />
-      <Text className="h3">Jesus encontra sua Mãe</Text>
+      <H3 text="Jesus encontra sua Mãe" />
       <Text className="text-base">
         Nesta quarta estação contemplemos N. S. J. C., rodeado de seus inimigos
         e todo pisado e ensanguentado. Encontra sua Mãe, que num impulso de amor
@@ -138,14 +140,14 @@ export default function PageViasacra() {
         Filho!... Jesus e Maria, assisti-nos na última agonia.
       </Text>
 
-      <Text className="h2">Quinta Estação</Text>
+      <H2 text="Quinta Estação" />
       <Image
         alt="estacao 5"
         source={require("../../../assets/images/station5.png")}
         contentFit="contain"
         style={{ height: 400 }}
       />
-      <Text className="h3">Simão ajuda Jesus a levar a Cruz</Text>
+      <H3 text="Simão ajuda Jesus a levar a Cruz" />
       <Text className="text-base">
         Nesta quinta estação contemplemos N. S. J. C., vergado sob o peso da
         Cruz e atormentado com as dores da grande chaga que ela abriu em seu
@@ -155,14 +157,14 @@ export default function PageViasacra() {
         vontade enviar-nos.
       </Text>
 
-      <Text className="h2">Sexta Estação</Text>
+      <H2 text="Sexta Estação" />
       <Image
         alt="estacao 6"
         source={require("../../../assets/images/station6.png")}
         contentFit="contain"
         style={{ height: 400 }}
       />
-      <Text className="h3">Verónica enxuga a Face de Jesus</Text>
+      <H3 text="Verónica enxuga a Face de Jesus" />
       <Text className="text-base">
         Nesta sexta estação contemplemos N. S. J. C., que deixa seu retracto
         estampando no véu que uma caridosa mulher Lhe ofereceu, para limpar o
@@ -172,14 +174,14 @@ export default function PageViasacra() {
         por amor de nós.
       </Text>
 
-      <Text className="h2">Sétima Estação</Text>
+      <H2 text="Sétima Estação" />
       <Image
         alt="estacao 7"
         source={require("../../../assets/images/station7.png")}
         contentFit="contain"
         style={{ height: 400 }}
       />
-      <Text className="h3">Segunda queda de Jesus</Text>
+      <H3 text="Segunda queda de Jesus" />
       <Text className="text-base">
         Nesta sétima estação contemplemos N. S. J. C., exausto de forças,
         desfalecido e caído por terra, atordoado pela algazarra infernal da
@@ -189,14 +191,14 @@ export default function PageViasacra() {
         vosso serviço. Conformai-nos em tudo com vossa santíssima vontade.
       </Text>
 
-      <Text className="h2">Oitava Estação</Text>
+      <H2 text="Oitava Estação" />
       <Image
         alt="estacao 8"
         source={require("../../../assets/images/station8.png")}
         contentFit="contain"
         style={{ height: 400 }}
       />
-      <Text className="h3">Jesus conforta as mulheres de Jerusalém</Text>
+      <H3 text="Jesus conforta as mulheres de Jerusalém" />
       <Text className="text-base">
         Nesta oitava estação contemplemos N. S. J. C., que esquece as suas dores
         para se compadecer das piedosas mulheres, que por Ele choram, e lhes
@@ -206,14 +208,14 @@ export default function PageViasacra() {
         vossos tormentos.
       </Text>
 
-      <Text className="h2">Nona Estação</Text>
+      <H2 text="Nona Estação" />
       <Image
         alt="estacao 9"
         source={require("../../../assets/images/station9.png")}
         contentFit="contain"
         style={{ height: 400 }}
       />
-      <Text className="h3">Terceira queda de Jesus</Text>
+      <H3 text="Terceira queda de Jesus" />
       <Text className="text-base">
         Nesta nona estação contemplemos N. S. J. C., que chega ao Calvários,
         banhado em sangue, e mais morto que vivo; e, não podendo aguentar de pé
@@ -223,14 +225,14 @@ export default function PageViasacra() {
         pecado e nele vivem; salvai-nos!
       </Text>
 
-      <Text className="h2">Décima Estação</Text>
+      <H2 text="Décima Estação" />
       <Image
         alt="estacao 10"
         source={require("../../../assets/images/station10.png")}
         contentFit="contain"
         style={{ height: 400 }}
       />
-      <Text className="h3">Jesus é despojado dos vestidos</Text>
+      <H3 text="Jesus é despojado dos vestidos" />
       <Text className="text-base">
         Nesta décima estação contemplemos N. S. J. C., cruelmente despojado de
         seus vestidos, que estavam colados às feridas, as quais novamente
@@ -239,14 +241,14 @@ export default function PageViasacra() {
         tanto Vos temos ofendido e atraiçoado.
       </Text>
 
-      <Text className="h2">Décima primeira Estação</Text>
+      <H2 text="Décima primeira Estação" />
       <Image
         alt="estacao 11"
         source={require("../../../assets/images/station11.png")}
         contentFit="contain"
         style={{ height: 400 }}
       />
-      <Text className="h3">Jesus é pregado da Cruz</Text>
+      <H3 text="Jesus é pregado da Cruz" />
       <Text className="text-base">
         Nesta décima primeira estação contemplemos N. S. J. C., pregado na Cruz
         tão barbaramente que Lhe deslocam os ossos. Maria Santíssima, com o
@@ -255,14 +257,14 @@ export default function PageViasacra() {
         Santa Mãe das dores, gravai em meu coração as chagas do Salvador.
       </Text>
 
-      <Text className="h2">Décima segunda Estação</Text>
+      <H2 text="Décima segunda Estação" />
       <Image
         alt="estacao 12"
         source={require("../../../assets/images/station12.png")}
         contentFit="contain"
         style={{ height: 400 }}
       />
-      <Text className="h3">Morte de Jesus</Text>
+      <H3 text="Morte de Jesus" />
       <Text className="text-base">
         Nesta décima segunda estação contemplemos N. S. J. C., levantado na Cruz
         e exposto entre dois ladrões ao escárnio e insultos da plebe, até exalar
@@ -273,14 +275,14 @@ export default function PageViasacra() {
         hão-de morrer.
       </Text>
 
-      <Text className="h2">Décima terceira Estação</Text>
+      <H2 text="Décima terceira Estação" />
       <Image
         alt="estacao 13"
         source={require("../../../assets/images/station13.png")}
         contentFit="contain"
         style={{ height: 400 }}
       />
-      <Text className="h3">Jesus é descido da Cruz e entregue a sua Mãe</Text>
+      <H3 text="Jesus é descido da Cruz e entregue a sua Mãe" />
       <Text className="text-base">
         Nesta décima terceira estação contemplemos N. S. J. C., despregado
         piedosamente da Cruz pelos seus amigos e depositado no regaço de sua
@@ -294,21 +296,21 @@ export default function PageViasacra() {
         graça.
       </Text>
 
-      <Text className="h2">Décima quarta Estação</Text>
+      <H2 text="Décima quarta Estação" />
       <Image
         alt="estacao 14"
         source={require("../../../assets/images/station14.png")}
         contentFit="contain"
         style={{ height: 400 }}
       />
-      <Text className="h3">Jesus é sepultado</Text>
+      <H3 text="Jesus é sepultado" />
       <Text className="text-base">
         Nesta décima quarta estação contemplemos N. S. J. C. no sepulcro, e
         Maria Santíssima mais que nunca angustiada em triste saudade!... Ó Mãe,
         fonte de amor, fazei que eu sinta as vossas fortes dores e convosco
         chore. Pai eterno, misericórdia, pelo precioso sangue de Jesus.
       </Text>
-      <Text className="h2">Oração final</Text>
+      <H2 text="Oração final" />
       <Text className="aside">
         Depois desta Estação, reza-se o Pai nosso... a Ave Maria... e a Glória
         ao Pai... cinco vezes, em honra das cinco chagas de nosso Senhor Jesus

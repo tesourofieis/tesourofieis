@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,7 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function PagePasc53() {
   return (
     <PageWrapper>
-      <Text className="h1">Vigília da Festa da Ascensão de N. S. J. C.</Text>
+      <H1 text="Vigília da Festa da Ascensão de N. S. J. C." />
 
       <Text className="aside">
         Como no{" "}
@@ -17,7 +19,7 @@ export default function PagePasc53() {
         , excepto:
       </Text>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Ef. 4, 7-13</Text>
 
@@ -75,7 +77,7 @@ export default function PagePasc53() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 17, 1-11</Text>
 

@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageCoracaojesus() {
   return (
     <PageWrapper>
-      <Text className="h1">Prefácio do SS. Coração de Jesus</Text>
+      <H1 text="Prefácio do SS. Coração de Jesus" />
 
       <Text className="aside">
         Diz-se na Missa da festa do Sagrado Coração de Jesus e seu Oitavário e

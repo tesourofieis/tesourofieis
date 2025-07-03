@@ -3,18 +3,20 @@ import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
 import LadainhaSantos from "./../../devocionario/ladainhas/santos";
+import { H1, H2, H3 } from "~/components/Headings";
+
 
 export default function PagePasc66() {
   return (
     <PageWrapper>
-      <Text className="h1">Missa da Vigília de Pentecostes</Text>
-      <Text className="h2">Profecias</Text>
-      <Text className="h3">Primeira Profecia</Text>
+      <H1 text="Missa da Vigília de Pentecostes" />
+      <H2 text="Profecias" />
+      <H3 text="Primeira Profecia" />
       <LinkCard
         title="Terceira Profecia Vigília Páscoa"
         href="/missal/quaresma/quad6-6#terceira-profecia"
       />
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Deus, qui in Abrahæ fámuli tui opere humáno generi obœdiéntiæ exémpla
@@ -29,12 +31,12 @@ export default function PagePasc66() {
           santos preceitos. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">2.ª Profecia e Trato</Text>
+      <H3 text="2.ª Profecia e Trato" />
       <LinkCard
         title="Quarta Profecia e Trato Vigília Páscoa"
         href="/missal/quaresma/quad6-6#quarta-profecia"
       />
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Deus, qui primis tempóribus impléta mirácula novi Testaménti luce
@@ -52,12 +54,12 @@ export default function PagePasc66() {
           vosso Espírito. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">3.ª Profecia e Trato</Text>
+      <H3 text="3.ª Profecia e Trato" />
       <LinkCard
         title="Décima primeria Profecia e Trato Vigília Páscoa"
         href="/missal/quaresma/quad6-6#décima-primeira-profecia"
       />
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Deus, glorificátio fidélium et vita justórum, qui per Móysen, fámulum
@@ -75,12 +77,12 @@ export default function PagePasc66() {
           Senhor...
         </Text>
       </Language>
-      <Text className="h3">4.ª Profecia e Trato</Text>
+      <H3 text="4.ª Profecia e Trato" />
       <LinkCard
         title="Oitava Profecia e Trato Vigília Páscoa"
         href="/missal/quaresma/quad6-6#oitava-profecia"
       />
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Omnípotens sempitérne Deus, qui, per únicum Fílium tuum, Ecclésiæ tuæ
@@ -103,12 +105,12 @@ export default function PagePasc66() {
           mesmo nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">5.ª Profecia</Text>
+      <H3 text="5.ª Profecia" />
       <LinkCard
         title="Sexta Profecia e Trato Vigília Páscoa"
         href="/missal/quaresma/quad6-6#sexta-profecia"
       />
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Deus, qui nobis per Prophetárum ora præcepísti temporália relínquere
@@ -122,12 +124,12 @@ export default function PagePasc66() {
           cumpri-los, sob a vossa celestial inspiração. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">6.ª Profecia</Text>
+      <H3 text="6.ª Profecia" />
       <LinkCard
         title="Sétima Profecia e Trato Vigília Páscoa"
         href="/missal/quaresma/quad6-6#sétima-profecia"
       />
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Dómine, Deus virtútum, qui collápsa réparas et reparáta consérvas:
@@ -143,14 +145,14 @@ export default function PagePasc66() {
           dirigidos pelas vossas inspirações. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h2">Bênção da Pia Baptismal</Text>
-      <Text className="h3">Ladainha dos Santos</Text>
+      <H2 text="Bênção da Pia Baptismal" />
+      <H3 text="Ladainha dos Santos" />
       <LadainhaSantos />
       <Text className="text-base">
         Nas Missas rezadas suprimem-se as Profecias, a Bênção e as Ladainhas.
       </Text>
-      <Text className="h2">Missa da Vigília de Pentecostes</Text>
-      <Text className="h3">Intróito</Text>
+      <H2 text="Missa da Vigília de Pentecostes" />
+      <H3 text="Intróito" />
       <Text className="em">Ez. 36, 23, 24 & 25-26</Text>
       <Language>
         <Text className="latin">
@@ -170,7 +172,7 @@ export default function PagePasc66() {
           sua honra.<Text className="versicle"> ℣. </Text>Glória ao Pai...
         </Text>
       </Language>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut claritatis tuæ super nos
@@ -184,7 +186,7 @@ export default function PagePasc66() {
           a vossa graça fez renascer. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
       <Text className="em">Act. 19, 1-8</Text>
       <Language>
         <Text className="latin">Léctio Actuum Apostolorum.</Text>
@@ -232,7 +234,7 @@ export default function PagePasc66() {
           bom, pois a sua misericórdia é eterna.
         </Text>
       </Language>
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
       <Text className="em">Sl. 116, 1-2</Text>
       <Language>
         <Text className="latin">
@@ -247,7 +249,7 @@ export default function PagePasc66() {
           para nós: e a verdade do Senhor permanece perpetuamente.
         </Text>
       </Language>
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
       <Text className="em">Jo. 14, 15-21</Text>
       <Language>
         <Text className="latin">
@@ -285,7 +287,7 @@ export default function PagePasc66() {
           amarei e a ele me manifestarei».
         </Text>
       </Language>
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
       <Text className="em">Sl. 103, 30-31</Text>
       <Language>
         <Text className="latin">
@@ -297,7 +299,7 @@ export default function PagePasc66() {
           terra. Seja a glória do Senhor exaltada em todos os séculos, aleluia.
         </Text>
       </Language>
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <Language>
         <Text className="latin">
           Múnera, quǽsumus, Dómine, obláta sanctífica: et corda nostra Sancti
@@ -309,7 +311,7 @@ export default function PagePasc66() {
           nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
       <Text className="em">Jo. 7, 37-39</Text>
       <Language>
         <Text className="latin">
@@ -324,7 +326,7 @@ export default function PagePasc66() {
           aleluia.
         </Text>
       </Language>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Language>
         <Text className="latin">
           Sancti Spíritus, Dómine, corda nostra mundet infúsio: et sui roris

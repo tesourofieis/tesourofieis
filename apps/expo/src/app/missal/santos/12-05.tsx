@@ -1,12 +1,14 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 import Missa from "../comum/16abades";
 
 export default function Page1205() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Sabas, Abade, a 5 de Dezembro</Text>
+      <H1 text="S. Sabas, Abade, a 5 de Dezembro" />
 
       <Text className="comment">
         A ordem monástica devia ser representada no cortejo da Virgem Imaculada,

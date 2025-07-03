@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
@@ -6,9 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0603Angola() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. S. Carlos Lwanga e Outros, Mártires, a 3 de Junho, Em Angola
-      </Text>
+      <H1 text="S. S. Carlos Lwanga e Outros, Mártires, a 3 de Junho, Em Angola" />
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/6muitosmartires1">
@@ -16,7 +16,7 @@ export default function Page0603Angola() {
         </Link>{" "}
         , excepto:
       </Text>
-      <Text className="h3">Oração</Text>Ó Deus, que nos permitistes a graça de
+      <H3 text="Oração" />Ó Deus, que nos permitistes a graça de
       celebrarmos o nascimento no céu dos vossos Santos Mártires Carlos, Matias
       e seus Companheiros, concedei-nos ainda a graça de gozarmos na sua
       companhia a bem-aventurança eterna. Por nosso Senhor...

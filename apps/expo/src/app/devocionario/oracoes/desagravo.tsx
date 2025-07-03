@@ -1,10 +1,12 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageDesagravo() {
   return (
     <PageWrapper>
-      <Text className="h1">Oração de Desagravo</Text>
+      <H1 text="Oração de Desagravo" />
       <Text className="text-base">
         Ó Cruz adorável do meu amantíssimo Jesus!... Como vós sois bela!... Como
         vós faleis ao meu pobre coração!... De vós pendeu o meu Deus feito homem

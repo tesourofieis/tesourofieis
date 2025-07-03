@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,7 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0527() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Beda, Conf. e Doutor, a 27 de Maio</Text>
+      <H1 text="S. Beda, Conf. e Doutor, a 27 de Maio" />
 
       <Text className="comment">
         Beda, nascido em Jarrow, no Nortúmbria, desde a mais tenra idade foi
@@ -23,7 +25,7 @@ export default function Page0527() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">

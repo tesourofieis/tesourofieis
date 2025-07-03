@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
@@ -6,7 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0227Portugal() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Torquato, Bispo e Mártir, a 27 de Fevereiro</Text>
+      <H1 text="S. Torquato, Bispo e Mártir, a 27 de Fevereiro" />
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/5martirnaopontifice2">
@@ -14,7 +16,7 @@ export default function Page0227Portugal() {
         </Link>{" "}
         , excepto:
       </Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Text className="text-base">
         Dignai-Vos ouvir clementemente, Senhor, as preces do vosso povo, a fim
         de que sejamos auxiliados pelos méritos do B. Torquato, vosso Mártir e

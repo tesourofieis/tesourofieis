@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H2 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
@@ -6,10 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0228() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Trasladação de S. Agostinho, Bispo, Confessor e Doutor, a 27 de
-        Fevereiro
-      </Text>
+      <H1 text="Trasladação de S. Agostinho, Bispo, Confessor e Doutor, a 27 de Fevereiro" />
 
       <Text className="aside">
         Como na{" "}
@@ -19,11 +18,11 @@ export default function Page0228() {
         , excepto:
       </Text>
 
-      <Text className="h2">Oração</Text>
+      <H2 text="Oração" />
 
-      <Text className="h2">Secreta</Text>
+      <H2 text="Secreta" />
 
-      <Text className="h2">Postcomúnio</Text>
+      <H2 text="Postcomúnio" />
     </PageWrapper>
   );
 }

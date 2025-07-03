@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,7 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0505() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Pio V, Papa e Conf., a 5 de Maio</Text>
+      <H1 text="S. Pio V, Papa e Conf., a 5 de Maio" />
 
       <Text className="comment">
         Pio, nasceu em Bosco (Lombardia). Aos quatorze anos entrou para a Ordem
@@ -31,7 +33,7 @@ export default function Page0505() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">

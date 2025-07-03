@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,9 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0122() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. S. Vicente e Anastácio, Márts., a 22 de Janeiro
-      </Text>
+      <H1 text="S. S. Vicente e Anastácio, Márts., a 22 de Janeiro" />
 
       <Text className="comment">
         Vicente, o diácono de Saragoça, e Anastácio, monge da Pérsia, morreram
@@ -38,7 +38,7 @@ export default function Page0122() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -54,7 +54,7 @@ export default function Page0122() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -69,7 +69,7 @@ export default function Page0122() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

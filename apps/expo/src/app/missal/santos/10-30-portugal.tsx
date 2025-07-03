@@ -1,19 +1,18 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page1030Portugal() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Vitória dos Cristãos, a 30 de Outubro, Missa de Acção de Graças pela
-        vitória que os cristãos alcançaram na luta contra os sarracenos
-      </Text>
+      <H1 text="Vitória dos Cristãos, a 30 de Outubro, Missa de Acção de Graças pela vitória que os cristãos alcançaram na luta contra os sarracenos" />
       <Text className="aside">
         Evangelho, ofertório e secreta como na Missa da
         <Link href="/missal/santos/05-03">Invenção da Santa Cruz.</Link>
       </Text>
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
       <Text className="text-base">
         Alegremo-nos em Deus em todo este dia: e louvemos eternamente o vosso
         nome, Senhor; pois salvastes-nos dos nossos inimigos e confundistes os
@@ -22,14 +21,14 @@ export default function Page1030Portugal() {
         <Text className="versicle"> ℣. </Text>
         Glória ao Pai...
       </Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Text className="text-base">
         Ó Deus, que pela vossa Cruz quisestes conceder ao povo, que em Vós crê,
         a vitória contra os inimigos, permiti pela vossa piedade, Vos pedimos,
         que aqueles que adoram a Cruz, alcancem sempre a vitória na terra e o
         gozo eterno nos céus. Ó Vós, que viveis e reinais...
       </Text>
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
       <Text className="text-base">Lição do Livro dos Macabeus.</Text>
       <Text className="text-base">
         Naqueles dias, Macabeu esperava sempre com toda a confiança que um
@@ -56,7 +55,7 @@ export default function Page1030Portugal() {
         estrondosas ovações, aclamaram o omnipotente Senhor e decretaram que não
         mais passasse aquele dia sem que se realizasse festiva comemoração.
       </Text>
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
       <Text className="text-base">
         Eis o dia que o Senhor criou. Exultemos e alegremo-nos n’Ele. Assim
         devem cantar aqueles que o Senhor resgatou e tirou das mãos dos
@@ -64,13 +63,13 @@ export default function Page1030Portugal() {
         gloriosamente a sua grandeza, arrojando ao mar o cavalo e o cavaleiro.
         Aleluia.
       </Text>
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
       <Text className="text-base">
         Com o vosso poder, Senhor, assinalou-se a vossa dextra que esmagou o
         inimigo. Pela vossa misericórdia, fostes o guia do povo, que resgatastes
         e conduzistes pelo vosso poder ao vosso santo tabernáculo.
       </Text>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Text className="text-base">
         Ouvi-nos, ó Deus, nosso Salvador; e pela vitória da Santa Cruz
         livrai-nos de todos os perigos. Por nosso Senhor...

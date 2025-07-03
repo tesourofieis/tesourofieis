@@ -7,11 +7,13 @@ import MementoRerumConditor from "./../../canticos/sacros/mementorerumconditor";
 import Salmo119 from "./../salterio/119";
 import Salmo120 from "./../salterio/120";
 import Salmo121 from "./../salterio/121";
+import { H1, H2 } from "~/components/Headings";
+
 
 export default function PageTerca() {
   return (
     <PageWrapper>
-      <Text className="h1">Terça</Text>
+      <H1 text="Terça" />
 
       <Text className="aside">
         Meditemos na flagelação, na coroação de espinhos e na condenação à
@@ -54,7 +56,7 @@ export default function PageTerca() {
         </Text>
       </Language>
 
-      <Text className="h2">Memento rerum conditor</Text>
+      <H2 text="Memento rerum conditor" />
 
       <MementoRerumConditor />
 
@@ -70,15 +72,15 @@ export default function PageTerca() {
         </Text>
       </Language>
 
-      <Text className="h2">Salmo 119</Text>
+      <H2 text="Salmo 119" />
 
       <Salmo119 />
 
-      <Text className="h2">Salmo 120</Text>
+      <H2 text="Salmo 120" />
 
       <Salmo120 />
 
-      <Text className="h2">Salmo 121</Text>
+      <H2 text="Salmo 121" />
 
       <Salmo121 />
 
@@ -96,7 +98,7 @@ export default function PageTerca() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Ecl. 24, 15</Text>
 
@@ -206,7 +208,7 @@ export default function PageTerca() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Is. 6, 1-2</Text>
 

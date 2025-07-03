@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,7 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0504() {
   return (
     <PageWrapper>
-      <Text className="h1">Santa Mónica, Viúva, a 4 de Maio</Text>
+      <H1 text="Santa Mónica, Viúva, a 4 de Maio" />
 
       <Text className="comment">
         Nascida na África, Santa Mónica casou-se com um pagão, que, pelas suas
@@ -35,7 +37,7 @@ export default function Page0504() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -53,7 +55,7 @@ export default function Page0504() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">1 Tm. 5, 3-10</Text>
 
@@ -95,7 +97,7 @@ export default function Page0504() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 7, 11-16</Text>
 

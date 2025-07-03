@@ -3,11 +3,13 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page1019() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Pedro de Alcântara, Conf., a 19 de Outubro</Text>
+      <H1 text="S. Pedro de Alcântara, Conf., a 19 de Outubro" />
 
       <Text className="aside">
         Como na
@@ -17,7 +19,7 @@ export default function Page1019() {
         excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -35,7 +37,7 @@ export default function Page1019() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <LinkCard
         href="/missal/santos/01-15-1#epístola"

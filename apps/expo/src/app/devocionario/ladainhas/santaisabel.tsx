@@ -1,10 +1,12 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageSantaisabel() {
   return (
     <PageWrapper>
-      <Text className="h1">Ladainha Santa Isabel</Text>
+      <H1 text="Ladainha Santa Isabel" />
       <Text className="text-base">Senhor, tende piedade de nós.</Text>
       <Text className="text-base">
         Cristo, tende piedade de nós.{"\n"}

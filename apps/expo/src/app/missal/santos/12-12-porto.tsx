@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
@@ -6,10 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1212Porto() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Trasladação de S. Pantaleão, a 12 de Dezembro, Na cidade do Porto e
-        subúrbios
-      </Text>
+      <H1 text="Trasladação de S. Pantaleão, a 12 de Dezembro, Na cidade do Porto e subúrbios" />
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/5martirnaopontifice2">
@@ -17,7 +16,7 @@ export default function Page1212Porto() {
         </Link>{" "}
         , excepto:
       </Text>
-      <Text className="h3">Oração</Text>Ó Deus, que quiseste que o corpo do
+      <H3 text="Oração" />Ó Deus, que quiseste que o corpo do
       vosso glorioso Mártir Pantaleão fosse trasladado até nós e que esta cidade
       seja defendida com seu patrocínio, concedei-nos benigno, Vos suplicamos,
       que pelas suas preces e méritos sejamos trasladados após esta vida à

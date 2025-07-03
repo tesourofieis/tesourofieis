@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageSumopontifice() {
   return (
     <PageWrapper>
-      <Text className="h1">Pro Summo Pontifice</Text>
+      <H1 text="Pro Summo Pontifice" />
 
       <Language>
         <Text className="latin">

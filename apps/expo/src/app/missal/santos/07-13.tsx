@@ -1,12 +1,14 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 import Missa from "../comum/sumospontifices";
 
 export default function Page0713() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Anacleto, Papa e Mártir, a 13 de Julho</Text>
+      <H1 text="S. Anacleto, Papa e Mártir, a 13 de Julho" />
 
       <Text className="comment">
         «Em Roma, diz o Martirológio romano, festa de Santo Anacleto Papa e

@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PagePangelingua() {
   return (
     <PageWrapper>
-      <Text className="h1">Pange, lingua, gloriósi</Text>
+      <H1 text="Pange, lingua, gloriósi" />
 
       <Language>
         <Text className="latin">

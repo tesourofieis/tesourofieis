@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageAspergesme() {
   return (
     <PageWrapper>
-      <Text className="h1">Asperges me</Text>
+      <H1 text="Asperges me" />
 
       <Language>
         <Text className="latin">

@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageLoreto() {
   return (
     <PageWrapper>
-      <Text className="h1">Ladainha Nossa Senhora de Loreto</Text>
+      <H1 text="Ladainha Nossa Senhora de Loreto" />
 
       <Language>
         <Text className="latin">Kyrie, eléison.</Text>

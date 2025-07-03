@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,7 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1002() {
   return (
     <PageWrapper>
-      <Text className="h1">Santos Anjos da Guarda, a 2 de Outubro</Text>
+      <H1 text="Santos Anjos da Guarda, a 2 de Outubro" />
       <Text className="aside">
         Missa da Festa da{" "}
         <Link className="link" href="/missal/santos/05-08">
@@ -15,7 +17,7 @@ export default function Page1002() {
         </Link>{" "}
         , excepto:
       </Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Deus, qui ineffábili providéntia sanctos Angelos tuos ad nostram
@@ -29,7 +31,7 @@ export default function Page1002() {
           eternamente, a sua companhia. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
       <Text className="em">Ex. 23, 20-23</Text>
       <Language>
         <Text className="latin">Léctio libri Exodi.</Text>
@@ -52,7 +54,7 @@ export default function Page1002() {
           pois o meu Anjo preceder-vos-á».
         </Text>
       </Language>
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
       <Text className="em">Sl. 90,11-12</Text>
       <Language>
         <Text className="latin">
@@ -77,7 +79,7 @@ export default function Page1002() {
           desempenhais as suas ordens. Aleluia.
         </Text>
       </Language>
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
       <Text className="em">Sl. 102, 20 & 21</Text>
       <Language>
         <Text className="latin">
@@ -89,7 +91,7 @@ export default function Page1002() {
           ordens e sempre fiéis aos seus chamamentos.
         </Text>
       </Language>
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <Language>
         <Text className="latin">
           Súscipe, Dómine, múnera, quæ pro sanctórum Angelórum tuórum
@@ -104,7 +106,7 @@ export default function Page1002() {
           eterna. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Language>
         <Text className="latin">
           Súmpsimus, Dómine, divína mystéria, sanctórum Angelórum tuórum

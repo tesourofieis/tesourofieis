@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,7 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0728() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Nazário e Outros, Mártires, a 28 de Julho</Text>
+      <H1 text="S. Nazário e Outros, Mártires, a 28 de Julho" />
 
       <Text className="comment">
         A Igreja venera hoje Santos que viveram em épocas e países diferentes.
@@ -27,7 +29,7 @@ export default function Page0728() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -42,7 +44,7 @@ export default function Page0728() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Sb. 10, 17-20</Text>
 
@@ -70,7 +72,7 @@ export default function Page0728() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -86,7 +88,7 @@ export default function Page0728() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

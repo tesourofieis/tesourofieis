@@ -2,13 +2,15 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page1017() {
   return (
     <PageWrapper>
-      <Text className="h1">Santa Margarida Maria, Virgem, a 17 de Outubro</Text>
+      <H1 text="Santa Margarida Maria, Virgem, a 17 de Outubro" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Ct. 2, 3</Text>
 
@@ -29,7 +31,7 @@ export default function Page1017() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -47,14 +49,14 @@ export default function Page1017() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <LinkCard
         href="/missal/pentecostes/pent2-5#epístola"
         title="Santíssimo Coração de Jesus"
       />
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Ct. 8, 7</Text>
 
@@ -84,14 +86,14 @@ export default function Page1017() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/santos/01-15-1#evangelho"
         title="S. Paulo, 1.º Eremita, Conf."
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Zc. 9, 17</Text>
 
@@ -106,7 +108,7 @@ export default function Page1017() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -122,7 +124,7 @@ export default function Page1017() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Ct. 6, 2</Text>
 
@@ -136,7 +138,7 @@ export default function Page1017() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

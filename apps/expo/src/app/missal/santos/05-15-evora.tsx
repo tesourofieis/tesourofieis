@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -8,9 +10,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0515Evora() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. Mâncio, B. e Mártir, a 15 de Maio, Na Arquidiocese de Évora
-      </Text>
+      <H1 text="S. Mâncio, B. e Mártir, a 15 de Maio, Na Arquidiocese de Évora" />
 
       <Text className="aside">
         Como na{" "}
@@ -20,7 +20,7 @@ export default function Page0515Evora() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -37,7 +37,7 @@ export default function Page0515Evora() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard title="Missa S. Tito" href="/missal/santos/02-06#evangelho" />
     </PageWrapper>

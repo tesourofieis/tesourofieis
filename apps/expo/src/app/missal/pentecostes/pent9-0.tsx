@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PagePent90() {
   return (
     <PageWrapper>
-      <Text className="h1">Nono Domingo depois de Pentecostes</Text>
+      <H1 text="Nono Domingo depois de Pentecostes" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 53, 6-7</Text>
 
@@ -31,7 +33,7 @@ export default function PagePent90() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -47,7 +49,7 @@ export default function PagePent90() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">1 Cor. 10, 6-13</Text>
 
@@ -91,7 +93,7 @@ export default function PagePent90() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 8, 2</Text>
 
@@ -119,7 +121,7 @@ export default function PagePent90() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 19, 41-47</Text>
 
@@ -161,7 +163,7 @@ export default function PagePent90() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 18, 9, 10, 11 & 12</Text>
 
@@ -177,7 +179,7 @@ export default function PagePent90() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -192,7 +194,7 @@ export default function PagePent90() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Jo. 6, 57</Text>
 
@@ -207,7 +209,7 @@ export default function PagePent90() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

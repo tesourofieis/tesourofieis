@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PageQuad51() {
   return (
     <PageWrapper>
-      <Text className="h1">Segunda-feira da Semana da Paixão</Text>
+      <H1 text="Segunda-feira da Semana da Paixão" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 55, 2</Text>
 
@@ -27,7 +29,7 @@ export default function PageQuad51() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -40,7 +42,7 @@ export default function PageQuad51() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Jn. 3, 1-10</Text>
 
@@ -90,7 +92,7 @@ export default function PageQuad51() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 53,4 & 3</Text>
 
@@ -107,7 +109,7 @@ export default function PageQuad51() {
         </Text>
       </Language>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 102, 10</Text>
 
@@ -138,7 +140,7 @@ export default function PageQuad51() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 7, 32-39</Text>
 
@@ -182,7 +184,7 @@ export default function PageQuad51() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 6, 5</Text>
 
@@ -197,7 +199,7 @@ export default function PageQuad51() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -212,7 +214,7 @@ export default function PageQuad51() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 23, 10</Text>
 
@@ -223,7 +225,7 @@ export default function PageQuad51() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -236,7 +238,7 @@ export default function PageQuad51() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração sobre o povo</Text>
+      <H3 text="Oração sobre o povo" />
 
       <Language>
         <Text className="latin">

@@ -2,11 +2,13 @@ import { Link } from "expo-router";
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0124() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Timóteo, B. e Márt., a 24 de Janeiro</Text>
+      <H1 text="S. Timóteo, B. e Márt., a 24 de Janeiro" />
 
       <Text className="comment">
         S. Timóteo, nascido na Listra (Ásia Menor) de pai pagão e mãe judia, já
@@ -29,7 +31,7 @@ export default function Page0124() {
         excepto:
       </Text>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">1 Tm. 6, 11-16</Text>
 

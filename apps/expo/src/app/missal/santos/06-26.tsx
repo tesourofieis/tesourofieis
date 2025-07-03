@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -8,7 +10,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0626() {
   return (
     <PageWrapper>
-      <Text className="h1">S. S. João e Paulo, Mártires, a 26 de Junho</Text>
+      <H1 text="S. S. João e Paulo, Mártires, a 26 de Junho" />
 
       <Text className="comment">
         Os dois irmãos João e Paulo eram Romanos e serviam à Constância, filha
@@ -33,14 +35,14 @@ export default function Page0626() {
         reconhecerá como seus, em presença de seus Anjos (Ev.).
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <LinkCard
         href="/missal/santos/06-15#intróito"
         title="S. S. Vito, Modesto e Crescência, Mártires"
       />
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -57,7 +59,7 @@ export default function Page0626() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Ecl. 44, 10-15</Text>
 
@@ -84,7 +86,7 @@ export default function Page0626() {
           Igreja cante os seus louvores.
         </Text>
       </Language>
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 132, 1-2</Text>
 
@@ -111,14 +113,14 @@ export default function Page0626() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/comum/8muitosmartires3#evangelho"
         title="Muitos Mártires - Missa Salus autem"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 5, 12-13</Text>
 
@@ -134,7 +136,7 @@ export default function Page0626() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -150,7 +152,7 @@ export default function Page0626() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sb. 3, 4, 5 & 6</Text>
 
@@ -166,7 +168,7 @@ export default function Page0626() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

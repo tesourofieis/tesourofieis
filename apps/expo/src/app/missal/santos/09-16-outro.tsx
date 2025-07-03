@@ -1,12 +1,14 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 import Missa from "../comum/sumospontifices";
 
 export default function Page0916Outro() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Cornélio, Papa e Mártir, a 16 de Setembro</Text>
+      <H1 text="S. Cornélio, Papa e Mártir, a 16 de Setembro" />
 
       <Missa />
     </PageWrapper>

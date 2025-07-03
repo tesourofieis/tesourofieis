@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageTrindade() {
   return (
     <PageWrapper>
-      <Text className="h1">Prefácio da SS. Trindade</Text>
+      <H1 text="Prefácio da SS. Trindade" />
 
       <Text className="aside">
         Diz-se na Festa da Santíssima Trindade e nos Domingos que não tiverem

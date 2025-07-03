@@ -2,11 +2,13 @@ import { Link } from "expo-router";
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PageSantissimosacramento() {
   return (
     <PageWrapper>
-      <Text className="h1">Missa do Santíssimo Sacramento</Text>
+      <H1 text="Missa do Santíssimo Sacramento" />
 
       <Text className="aside">
         Como na
@@ -17,7 +19,7 @@ export default function PageSantissimosacramento() {
         e diz-se o:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Ml. 1, 11</Text>
 

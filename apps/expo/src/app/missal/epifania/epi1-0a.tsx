@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PageEpi10A() {
   return (
     <PageWrapper>
-      <Text className="h1">Sagrada Família</Text>
+      <H1 text="Sagrada Família" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Pr. 23, 24 & 25</Text>
 
@@ -29,7 +31,7 @@ export default function PageEpi10A() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -47,7 +49,7 @@ export default function PageEpi10A() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Cl. 3, 12-17</Text>
 
@@ -90,7 +92,7 @@ export default function PageEpi10A() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 26, 4</Text>
 
@@ -121,7 +123,7 @@ export default function PageEpi10A() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 2, 42-52</Text>
 
@@ -174,7 +176,7 @@ export default function PageEpi10A() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Lc. 2, 22</Text>
 
@@ -187,7 +189,7 @@ export default function PageEpi10A() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -204,7 +206,7 @@ export default function PageEpi10A() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Lc. 2, 51</Text>
 
@@ -217,7 +219,7 @@ export default function PageEpi10A() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

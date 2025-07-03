@@ -2,13 +2,15 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0328() {
   return (
     <PageWrapper>
-      <Text className="h1">S. João Capistrano, Conf., a 28 de Março</Text>
+      <H1 text="S. João Capistrano, Conf., a 28 de Março" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Hab. 3, 18-19</Text>
 
@@ -29,7 +31,7 @@ export default function Page0328() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -47,14 +49,14 @@ export default function Page0328() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <LinkCard
         href="/missal/comum/4martirnaopontifice1#epístola"
         title="Mártir não Pontífice - Missa In virtúte tua"
       />
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 21, 24-25</Text>
 
@@ -72,7 +74,7 @@ export default function Page0328() {
         </Text>
       </Language>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Ex. 15, 2 & 3</Text>
 
@@ -117,14 +119,14 @@ export default function Page0328() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/pascoa/pasc7-4#evangelho"
         title="Quinta-feira de Pentecostes - Estação em S. Lourenço fora de Muros"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Ecl. 46, 6</Text>
 
@@ -139,7 +141,7 @@ export default function Page0328() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -156,7 +158,7 @@ export default function Page0328() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sb. 10, 20</Text>
 
@@ -171,7 +173,7 @@ export default function Page0328() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

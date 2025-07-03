@@ -2,11 +2,13 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0125() {
   return (
     <PageWrapper>
-      <Text className="h1">Conversão de S. Paulo, a 25 de Janeiro</Text>
+      <H1 text="Conversão de S. Paulo, a 25 de Janeiro" />
 
       <Text className="comment">
         Paulo de Tarso era judeu da tribo de Benjamim. Fariseu dos mais zelosos,
@@ -28,7 +30,7 @@ export default function Page0125() {
         e uma vida completamente nova, que Jesus é Deus e nosso Rei.
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">2 Tm. 1, 12</Text>
 
@@ -49,7 +51,7 @@ export default function Page0125() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -65,14 +67,14 @@ export default function Page0125() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração Comemoração de S. Pedro</Text>
+      <H3 text="Oração Comemoração de S. Pedro" />
 
       <LinkCard
         title="Oração Cadeira de S. Pedro em Roma"
         href="/missal/santos/02-22#oração"
       />
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Act. 9, 1-22</Text>
 
@@ -162,7 +164,7 @@ export default function Page0125() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Gl. 2, 8 & 9</Text>
 
@@ -195,7 +197,7 @@ export default function Page0125() {
         Após a Septuagésima omite-se o Aleluia e o Verso e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Language>
         <Text className="latin">
@@ -217,7 +219,7 @@ export default function Page0125() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 19, 27-29</Text>
 
@@ -252,7 +254,7 @@ export default function Page0125() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 138, 17</Text>
 
@@ -267,7 +269,7 @@ export default function Page0125() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -283,14 +285,14 @@ export default function Page0125() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta Comemoração de S. Pedro</Text>
+      <H3 text="Secreta Comemoração de S. Pedro" />
 
       <LinkCard
         title="Secreta Cadeira de S. Pedro em Roma"
         href="/missal/santos/02-22#secreta"
       />
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 19, 28 & 29</Text>
 
@@ -305,7 +307,7 @@ export default function Page0125() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -320,7 +322,7 @@ export default function Page0125() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio Comemoração de S. Pedro</Text>
+      <H3 text="Postcomúnio Comemoração de S. Pedro" />
 
       <LinkCard
         title="Postcomúnio Cadeira de S. Pedro em Roma"

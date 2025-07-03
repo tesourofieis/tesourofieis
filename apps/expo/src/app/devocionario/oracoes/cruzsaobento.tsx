@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageCruzsaobento() {
   return (
     <PageWrapper>
-      <Text className="h1">Cruz São Bento</Text>
+      <H1 text="Cruz São Bento" />
 
       <Language>
         <Text className="latin">C.S.P.B.: Crux Sancti Patris Benedicti.</Text>

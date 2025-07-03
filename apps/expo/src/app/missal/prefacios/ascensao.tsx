@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageAscensao() {
   return (
     <PageWrapper>
-      <Text className="h1">Prefácio da Ascensão</Text>
+      <H1 text="Prefácio da Ascensão" />
 
       <Text className="aside">
         Diz-se desde a Ascensão até à Vigília de Pentecostes, excepto quando há

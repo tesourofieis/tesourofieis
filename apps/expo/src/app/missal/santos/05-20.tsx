@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -8,7 +10,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0520() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Bernardino de Sena, Conf., a 20 de Maio</Text>
+      <H1 text="S. Bernardino de Sena, Conf., a 20 de Maio" />
 
       <Text className="comment">
         Comemoração S. Bernardino de Sena, Confessor. Nesta época do ano em que
@@ -37,7 +39,7 @@ export default function Page0520() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -54,7 +56,7 @@ export default function Page0520() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/comum/16abades#evangelho"

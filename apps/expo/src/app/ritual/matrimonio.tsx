@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H2 } from "~/components/Headings";
+
 
 export default function PageMatrimonio() {
   return (
     <PageWrapper>
-      <Text className="h1">Matrimónio</Text>
+      <H1 text="Matrimónio" />
       <Text className="text-base">
         Os noivos, tendo entrado na igreja e depois de haverem feito oração
         diante do Altar do Santíssimo Sacramento dirigem-se para o Altar onde
@@ -16,7 +18,7 @@ export default function PageMatrimonio() {
         preparado, todos se erguem excepto os noivos. Aquele, após uma curta
         oração, em particular, volta-se para o noivo, interrogando-o:
       </Text>
-      <Text className="h2">Consentimento dos Noivos</Text>
+      <H2 text="Consentimento dos Noivos" />
       <Text className="versicle"> ℣. </Text>
       <Text className="text-red-500">N.</Text>
       <Text className="text-base">quereis receber </Text>
@@ -39,7 +41,7 @@ export default function PageMatrimonio() {
       </Text>
       <Text className="response"> ℟. </Text>
       <Text className="text-base">Quero!</Text>
-      <Text className="h2">União das Mãos</Text>
+      <H2 text="União das Mãos" />
       <Text className="aside">
         Após este consentimento mútuo, os nubentes unem as suas mãos direitas,
         pelo lado palmar destas. E o Sacerdote diz:
@@ -63,7 +65,7 @@ export default function PageMatrimonio() {
       <Text className="aside">
         O Sacerdote asperge com Água benta os noivos.
       </Text>
-      <Text className="h2">Bênção do Anel</Text>
+      <H2 text="Bênção do Anel" />
       <Language>
         <Text className="latin">
           <Text className="versicle"> ℣. </Text>Adjutórium nostrum in nómine
@@ -288,8 +290,8 @@ export default function PageMatrimonio() {
           <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h1">Missa do Matrimónio</Text>
-      <Text className="h2">Intróito</Text>
+      <H1 text="Missa do Matrimónio" />
+      <H2 text="Intróito" />
       <Text className="em">Tb. 7, 15; 8, 19</Text>
       <Language>
         <Text className="latin">
@@ -308,7 +310,7 @@ export default function PageMatrimonio() {
           <Text className="versicle"> ℣. </Text>Glória ao Pai...
         </Text>
       </Language>
-      <Text className="h2">Oração</Text>
+      <H2 text="Oração" />
       <Language>
         <Text className="latin">
           Exáudi nos, omnípotens et misericors Deus: ut, quod nostro ministrate
@@ -320,7 +322,7 @@ export default function PageMatrimonio() {
           vossa bênção. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h2">Epístola</Text>
+      <H2 text="Epístola" />
       <Text className="em">Ef. 5, 22-33</Text>
       <Language>
         <Text className="latin">
@@ -367,7 +369,7 @@ export default function PageMatrimonio() {
           como a si mesmo, e a mulher respeite o seu marido.
         </Text>
       </Language>
-      <Text className="h2">Gradual</Text>
+      <H2 text="Gradual" />
       <Text className="em">Sl. 127, 3</Text>
       <Language>
         <Text className="latin">
@@ -394,7 +396,7 @@ export default function PageMatrimonio() {
       <Text className="aside">
         Após a Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
       </Text>
-      <Text className="h2">Trato</Text>
+      <H2 text="Trato" />
       <Text className="em">Sl. 127, 4-6</Text>
       <Language>
         <Text className="latin">
@@ -433,7 +435,7 @@ export default function PageMatrimonio() {
           a terra, vos abençoe lá de Sião. Aleluia.
         </Text>
       </Language>
-      <Text className="h2">Evangelho</Text>
+      <H2 text="Evangelho" />
       <Text className="em">Mt. 19, 3-6</Text>
       <Language>
         <Text className="latin">
@@ -463,7 +465,7 @@ export default function PageMatrimonio() {
           Portanto que o homem não separe o que Deus uniu».
         </Text>
       </Language>
-      <Text className="h2">Ofertório</Text>
+      <H2 text="Ofertório" />
       <Text className="em">Sl. 30, 15-16</Text>
       <Language>
         <Text className="latin">
@@ -475,7 +477,7 @@ export default function PageMatrimonio() {
           nas vossas mãos está o meu destino. (T. P. Aleluia.)
         </Text>
       </Language>
-      <Text className="h2">Secreta</Text>
+      <H2 text="Secreta" />
       <Language>
         <Text className="latin">
           Suscipe, quǽsumus, Dómine, pro sacra conúbii lege munus oblátum: et,
@@ -491,7 +493,7 @@ export default function PageMatrimonio() {
         Após o Pater Noster... e antes do Libera-nos... os cônjuges ajoelham
         diante do Altar, próximo do Celebrante, enquanto este diz:
       </Text>
-      <Text className="h2">Bênção dos cônjuges</Text>
+      <H2 text="Bênção dos cônjuges" />
       <Language>
         <Text className="latin">
           Propitiáre, Dómine, supplicatiónibus nostris, et institútis tuis,
@@ -506,7 +508,7 @@ export default function PageMatrimonio() {
           de que fostes autor. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h2">Oração</Text>
+      <H2 text="Oração" />
       <Language>
         <Text className="latin">
           Deus, qui potestáte virtútis tuæ de níhilo cuncta fecísti: qui
@@ -564,7 +566,7 @@ export default function PageMatrimonio() {
         Os cônjuges retiram-se para os seus lugares e o Celebrante continua
         LIBERA NOS...
       </Text>
-      <Text className="h2">Comúnio</Text>
+      <H2 text="Comúnio" />
       <Text className="em">Sl. 127, 4 & 6</Text>
       <Language>
         <Text className="latin">
@@ -577,7 +579,7 @@ export default function PageMatrimonio() {
           Aleluia.)
         </Text>
       </Language>
-      <Text className="h2">Postcomúnio</Text>
+      <H2 text="Postcomúnio" />
       <Language>
         <Text className="latin">
           Quǽsumus, omnípotens Deus: institúta providéntiæ tuæ pio favóre

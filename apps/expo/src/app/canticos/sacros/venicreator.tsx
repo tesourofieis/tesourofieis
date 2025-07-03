@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageVeniCreator() {
   return (
     <PageWrapper>
-      <Text className="h1">Veni Creator Spiritus</Text>
+      <H1 text="Veni Creator Spiritus" />
       <Language>
         <Text className="latin">
           Veni, Creator Spiritus,{"\n"}

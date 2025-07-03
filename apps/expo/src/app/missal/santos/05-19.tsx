@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H2, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,7 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0519() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Pedro Celestino, Papa e Conf., a 19 de Maio</Text>
+      <H1 text="S. Pedro Celestino, Papa e Conf., a 19 de Maio" />
 
       <Text className="comment">
         Entre todos os Pastores, a quem Jesus Ressuscitado, confiou o encargo da
@@ -36,7 +38,7 @@ export default function Page0519() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -54,9 +56,9 @@ export default function Page0519() {
         </Text>
       </Language>
 
-      <Text className="h2">Comemoração de Santa Pudenciana</Text>
+      <H2 text="Comemoração de Santa Pudenciana" />
 
-      <Text className="h3">Oração, Secreta e Postcomúnio</Text>
+      <H3 text="Oração, Secreta e Postcomúnio" />
     </PageWrapper>
   );
 }

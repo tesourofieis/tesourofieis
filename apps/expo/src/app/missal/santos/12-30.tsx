@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
@@ -6,7 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1230() {
   return (
     <PageWrapper>
-      <Text className="h1">Sexto dia da Oitava do Natal, a 30 de Dezembro</Text>
+      <H1 text="Sexto dia da Oitava do Natal, a 30 de Dezembro" />
 
       <Text className="aside">
         Intróito, Oração, Gradual, Ofertório, Comúnio e Postcomúnio como na

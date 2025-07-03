@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0624() {
   return (
     <PageWrapper>
-      <Text className="h1">Nascimento de S. João Baptista, a 24 de Junho</Text>
+      <H1 text="Nascimento de S. João Baptista, a 24 de Junho" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Is. 49, 1 & 2</Text>
 
@@ -29,7 +31,7 @@ export default function Page0624() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -45,7 +47,7 @@ export default function Page0624() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Is. 49, 1-3, 5, 6 & 7</Text>
 
@@ -78,7 +80,7 @@ export default function Page0624() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Jr. 1, 5 & 9</Text>
 
@@ -107,7 +109,7 @@ export default function Page0624() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 1, 57-68</Text>
 
@@ -159,7 +161,7 @@ export default function Page0624() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 91, 13</Text>
 
@@ -174,7 +176,7 @@ export default function Page0624() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -191,7 +193,7 @@ export default function Page0624() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Lc. 1, 76</Text>
 
@@ -206,7 +208,7 @@ export default function Page0624() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

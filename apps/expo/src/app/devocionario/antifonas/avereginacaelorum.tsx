@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageAvereginacaelorum() {
   return (
     <PageWrapper>
-      <Text className="h1">Ave, Regína cælórum</Text>
+      <H1 text="Ave, Regína cælórum" />
 
       <Language>
         <Text className="latin">

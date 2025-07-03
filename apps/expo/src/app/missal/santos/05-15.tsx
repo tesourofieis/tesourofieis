@@ -1,13 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0515() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. João Baptista de la Salle, Conf., a 15 de Maio
-      </Text>
+      <H1 text="S. João Baptista de la Salle, Conf., a 15 de Maio" />
 
       <Text className="comment">
         Nascido em Reims, a 30 de Abril de 1651, duma ilustre família, S. João
@@ -36,7 +36,7 @@ export default function Page0515() {
         merecermos igual recompensa no céu».
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -58,7 +58,7 @@ export default function Page0515() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 18, 1-5</Text>
 

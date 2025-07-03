@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0721Portugal() {
   return (
     <PageWrapper>
-      <Text className="h1">Santo Anjo Custódio de Portugal, a 21 de Julho</Text>
-      <Text className="h3">Intróito</Text>
+      <H1 text="Santo Anjo Custódio de Portugal, a 21 de Julho" />
+      <H3 text="Intróito" />
       <Text className="text-base">
         Encomendou-te Deus aos seus Anjos, para que eles te guardem em todos
         teus caminhos; em suas mãos te conduzirão, para que o teu Pé não tropece
@@ -13,14 +15,14 @@ export default function Page0721Portugal() {
         sombra de Deus do céu.
         <Text className="versicle"> ℣. </Text>Glória ao Pai...
       </Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Text className="text-base">
         Ó Deus omnipotente e sempiterno, que com inefável providência destinais
         para cada nação um Anjo, que a guarde, concedei-nos, Vos suplicamos,
         que, pelas súplicas e pelo patrocínio do Anjo Custódio da nossa Nação,
         sejamos sempre livres de todas as adversidades. Por nosso Senhor...
       </Text>
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
       <Text className="text-base">
         Lição do Livro dos Reis. Naqueles dias, filho de Amós, mandou dizer a
         Ezequias: «Isto diz o Senhor, a respeito do rei dos Assírios: Ele não
@@ -33,7 +35,7 @@ export default function Page0721Portugal() {
         que todos estavam mortos. Então Senaqueribe, rei dos Assírios, partiu e
         voltou para os seus domínios.
       </Text>
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
       <Text className="text-base">
         O Anjo do Senhor acampará em redor dos que o temem e salvá-los-á.
         Clamaram os justos e o Senhor ouviu-os: e livrou-os de todas suas
@@ -54,7 +56,7 @@ export default function Page0721Portugal() {
         Nas Missas Votivas, depois da Septuagésima, omite-se o Aleluia e o Verso
         seguinte, e diz-se:
       </Text>
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
       <Text className="text-base">
         Bendizei o Senhor, ó vós, todos seus Anjos, poderosos em força, que
         obedeceis às suas palavras. Bendizei o Senhor, todos seus exércitos,
@@ -62,7 +64,7 @@ export default function Page0721Portugal() {
         suas obras, em todos os lugares doseu império; bendizei o Senhor, ó
         minha alma.
       </Text>
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
       <Text className="text-base">
         Continuação do santo Evangelho segundo S. Mateus. Naquele tempo, o Anjo
         do senhor apareceu em sonhos a José e disse-lhe: «Levanta-te, toma o
@@ -73,23 +75,23 @@ export default function Page0721Portugal() {
         cumprir o que havia sido anunciado pelo Senhor por meio do seu Profeta,
         quando disse: «Chamarei do Egipto o meu Filho».
       </Text>
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
       <Text className="text-base">
         Bendizei o Senhor, ó vós, todos seus Anjos, seus ministros, executores
         das suas ordens e sempre fiéis aos seus chamamentos.
       </Text>
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <Text className="text-base">
         Senhor Santo, Pai omnipotente, Deus eterno aceitai estes dons, que Vos
         oferecemos, suplicando-Vos que, pelos sufrágios do vosso Anjo Custódio,
         sejamos livres de todas as adversidades. Por nosso Senhor...
       </Text>
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
       <Text className="text-base">
         Anjos do Senhor, bendizei todos o Senhor: cantai hinos emseu louvor e
         exaltai-O em todos os séculos.
       </Text>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Text className="text-base">
         Sejam-nos proveitosos, Senhor, para a salvação do corpo e da alma os
         Sacramentos, que recebemos, a fim de que, pela defesa da angelical

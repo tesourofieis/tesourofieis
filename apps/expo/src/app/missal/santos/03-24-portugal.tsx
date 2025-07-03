@@ -1,11 +1,13 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function Page0324Portugal() {
   return (
     <PageWrapper>
-      <Text className="h1">Festa do Santíssimo Sacramento, a 24 de Março</Text>
+      <H1 text="Festa do Santíssimo Sacramento, a 24 de Março" />
 
       <Text className="aside">
         Em todoas as igrejas de Portugal é permitido, neste dia, celebrar em

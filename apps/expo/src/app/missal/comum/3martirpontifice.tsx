@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page3Martirpontifice() {
   return (
     <PageWrapper>
-      <Text className="h1">Mártir Pontífice</Text>
+      <H1 text="Mártir Pontífice" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Dn. 3, 84 & 87</Text>
 
@@ -27,7 +29,7 @@ export default function Page3Martirpontifice() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -44,7 +46,7 @@ export default function Page3Martirpontifice() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">2 Cor. 1, 3-7</Text>
 
@@ -84,7 +86,7 @@ export default function Page3Martirpontifice() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 8, 6-7</Text>
 
@@ -113,7 +115,7 @@ export default function Page3Martirpontifice() {
         Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 111, 1-3</Text>
 
@@ -134,7 +136,7 @@ export default function Page3Martirpontifice() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 16, 24-27</Text>
 
@@ -168,7 +170,7 @@ export default function Page3Martirpontifice() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 88, 21-22</Text>
 
@@ -183,7 +185,7 @@ export default function Page3Martirpontifice() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -198,7 +200,7 @@ export default function Page3Martirpontifice() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 20, 4</Text>
 
@@ -211,7 +213,7 @@ export default function Page3Martirpontifice() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

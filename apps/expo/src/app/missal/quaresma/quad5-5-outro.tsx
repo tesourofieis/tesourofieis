@@ -1,12 +1,14 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 import Missa from "../santos/09-15";
 
 export default function PageQuad55Outro() {
   return (
     <PageWrapper>
-      <Text className="h1">Sete Dores da B. Virgem Maria</Text>
+      <H1 text="Sete Dores da B. Virgem Maria" />
 
       <Text className="aside">
         No Ciclo do Natal, celebramos a missão da Santíssima Virgem no mistério

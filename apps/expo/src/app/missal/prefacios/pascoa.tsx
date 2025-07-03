@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PagePascoa() {
   return (
     <PageWrapper>
-      <Text className="h1">Prefácio da Páscoa</Text>
+      <H1 text="Prefácio da Páscoa" />
 
       <Text className="aside">
         Diz-se desde Domingo de Páscoa até à Vigília da Ascensão,

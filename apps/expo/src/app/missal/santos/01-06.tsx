@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0106() {
   return (
     <PageWrapper>
-      <Text className="h1">Epifania do Senhor</Text>
+      <H1 text="Epifania do Senhor" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Ml. 3, 1; 1 Cr. 29, 12</Text>
 
@@ -27,7 +29,7 @@ export default function Page0106() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -45,7 +47,7 @@ export default function Page0106() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Is. 60, 1-6</Text>
 
@@ -81,7 +83,7 @@ export default function Page0106() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">ibid., 6 & 1</Text>
 
@@ -108,7 +110,7 @@ export default function Page0106() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 2, 1-12</Text>
 
@@ -170,7 +172,7 @@ export default function Page0106() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 71, 10-11</Text>
 
@@ -187,7 +189,7 @@ export default function Page0106() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -204,7 +206,7 @@ export default function Page0106() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 2, 2</Text>
 
@@ -218,7 +220,7 @@ export default function Page0106() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

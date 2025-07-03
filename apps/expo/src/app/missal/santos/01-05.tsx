@@ -2,11 +2,13 @@ import { Link } from "expo-router";
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0105() {
   return (
     <PageWrapper>
-      <Text className="h1">Vigília Epifania</Text>
+      <H1 text="Vigília Epifania" />
 
       <Text className="aside">
         Como na
@@ -16,7 +18,7 @@ export default function Page0105() {
         com o Evangelho:
       </Text>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 2, 19-23</Text>
 

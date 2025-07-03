@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text } from "react-native";
 import Language from "~/components/Language";
@@ -7,7 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0625() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Guilherme, Abade, a 25 de Junho</Text>
+      <H1 text="S. Guilherme, Abade, a 25 de Junho" />
 
       <Text className="aside">
         Como na{" "}
@@ -17,7 +19,7 @@ export default function Page0625() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">

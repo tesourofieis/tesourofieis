@@ -1,12 +1,14 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 import Missa from "./12-08";
 
 export default function Page1209() {
   return (
     <PageWrapper>
-      <Text className="h1">Segundo Dia na Oitava, a 9 de Dezembro</Text>
+      <H1 text="Segundo Dia na Oitava, a 9 de Dezembro" />
 
       <Text className="comment">
         A Igreja prolonga durante oito dias a festa da vitória alcançada por

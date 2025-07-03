@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
@@ -6,9 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1020Portugal() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Santa Iria, Virgem e Mártir, a 20 de Outubro, Nalgumas Dioceses
-      </Text>
+      <H1 text="Santa Iria, Virgem e Mártir, a 20 de Outubro, Nalgumas Dioceses" />
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/18virgensmartires2">
@@ -16,13 +16,13 @@ export default function Page1020Portugal() {
         </Link>{" "}
         , excepto:
       </Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Text className="text-base">
         Ó Deus, que por um sinal celestial livrastes da infâmia a B. Iria, vossa
         Virgem e Mártir, concedei-nos propício pelos seus méritos e preces que
         sejamos purificados das manchas dos nossos pecados. Por nosso Senhor...
       </Text>
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
       <Text className="text-base">
         Continuação do santo Evangelho segundo S. Mateus.
       </Text>

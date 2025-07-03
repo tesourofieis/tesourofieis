@@ -2,13 +2,15 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PageQuad33() {
   return (
     <PageWrapper>
-      <Text className="h1">Quarta-feira da 3.ª Semana da Quaresma</Text>
+      <H1 text="Quarta-feira da 3.ª Semana da Quaresma" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 30, 7-8</Text>
 
@@ -31,7 +33,7 @@ export default function PageQuad33() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -47,7 +49,7 @@ export default function PageQuad33() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Ex. 20, 12-24</Text>
 
@@ -96,7 +98,7 @@ export default function PageQuad33() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 6, 3-4</Text>
 
@@ -113,14 +115,14 @@ export default function PageQuad33() {
         </Text>
       </Language>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <LinkCard
         href="/missal/pre-quaresma/quadp3-3#trato"
         title="Trato Quarta-feira de Cinzas"
       />
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 15, 1-20</Text>
 
@@ -192,7 +194,7 @@ export default function PageQuad33() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 108, 21</Text>
 
@@ -207,7 +209,7 @@ export default function PageQuad33() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -222,7 +224,7 @@ export default function PageQuad33() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 15, 10</Text>
 
@@ -237,7 +239,7 @@ export default function PageQuad33() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -252,7 +254,7 @@ export default function PageQuad33() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração sobre o povo</Text>
+      <H3 text="Oração sobre o povo" />
 
       <Language>
         <Text className="latin">

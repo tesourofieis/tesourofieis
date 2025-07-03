@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageAttendeDomine() {
   return (
     <PageWrapper>
-      <Text className="h1">Attende Domine</Text>
+      <H1 text="Attende Domine" />
       <Language>
         <Text className="latin">
           ℟. Attende, Domine, et miserere, quia peccavimus tibi.

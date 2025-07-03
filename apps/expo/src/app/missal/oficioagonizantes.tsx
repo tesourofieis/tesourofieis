@@ -2,14 +2,16 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import LadainhaSantos from "./../devocionario/ladainhas/santos";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageOficioagonizantes() {
   return (
     <PageWrapper>
-      <Text className="h1">Ofício dos agonizantes</Text>
-      <Text className="h1">Ladainha de Todos os Santos</Text>
+      <H1 text="Ofício dos agonizantes" />
+      <H1 text="Ladainha de Todos os Santos" />
       <LadainhaSantos />
-      <Text className="h1">Em agonia</Text>
+      <H1 text="Em agonia" />
       <Text className="aside">
         Quando o enfermo se encontra na agonia diz-se:
       </Text>
@@ -562,7 +564,7 @@ export default function PageOficioagonizantes() {
           <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h1">Prestes a Expirar</Text>
+      <H1 text="Prestes a Expirar" />
       <Text className="aside">
         Quando o moribundo está Prestes a expirar, diligenciar-se-á que ele
         diga:
@@ -624,7 +626,7 @@ export default function PageOficioagonizantes() {
           Jesus, Maria e José, repouse em paz, junto de vós, a minha alma.
         </Text>
       </Language>
-      <Text className="h1">No Último suspiro</Text>
+      <H1 text="No Último suspiro" />
       <Text className="aside">
         Quando o agonizante dá o último suspiro, diz-se:
       </Text>

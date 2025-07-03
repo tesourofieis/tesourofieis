@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -8,9 +10,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0614() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. Basílio Magno, B. Conf. e Doutor, a 14 de Junho
-      </Text>
+      <H1 text="S. Basílio Magno, B. Conf. e Doutor, a 14 de Junho" />
 
       <Text className="aside">
         Como na{" "}
@@ -20,14 +20,14 @@ export default function Page0614() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <LinkCard
         title="Oração Confessores Pontífices"
         href="/missal/comum/12confessorespontifices2#oração"
       />
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 14, 26-35</Text>
 
@@ -81,21 +81,21 @@ export default function Page0614() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <LinkCard
         title="Ofertório Confessores Pontífices"
         href="/missal/comum/12confessorespontifices2#ofertório"
       />
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <LinkCard
         title="Secreta Confessores Pontífices"
         href="/missal/comum/12confessorespontifices2#secreta"
       />
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <LinkCard
         title="Postcomúnio Confessores Pontífices"

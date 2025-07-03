@@ -1,12 +1,14 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 import Missa from "../comum/sumospontifices";
 
 export default function Page0703() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Leão II, Papa, Conf., a 3 de Julho</Text>
+      <H1 text="S. Leão II, Papa, Conf., a 3 de Julho" />
 
       <Text className="comment">
         Leão II, siciliano de origem, participou da plenitude do sacerdócio de

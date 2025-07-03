@@ -1,12 +1,14 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H2 } from "~/components/Headings";
+
 
 export default function PageEspiritosanto() {
   return (
     <PageWrapper>
-      <Text className="h1">Espírito Santo</Text>
-      <Text className="h2">Veni, Sancte Spíritus</Text>
+      <H1 text="Espírito Santo" />
+      <H2 text="Veni, Sancte Spíritus" />
       <Language>
         <Text className="latin">
           Veni, Sancte Spíritus! reple tuórum corda fidélium: et tui amóris in
@@ -49,8 +51,8 @@ export default function PageEspiritosanto() {
           Senhor Nosso. <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h2">Veni Sancte Spíritus, Sequência Pentecostes</Text>
-      <Text className="h2">Ao Espírito Santo</Text>Ó Deus clementíssimo, escutai
+      <H2 text="Veni Sancte Spíritus, Sequência Pentecostes" />
+      <H2 text="Ao Espírito Santo" />Ó Deus clementíssimo, escutai
       com piedade as nossas súplicas e iluminai o nosso coração com a graça do
       Espírito Santo, para que mereçamos servir com dignidade os vossos
       mystérios e amar-Vos com caridade eterna. Ó Deus, que conheceis o nosso

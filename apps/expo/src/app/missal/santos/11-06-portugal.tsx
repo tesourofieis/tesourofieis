@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -8,7 +10,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1106Portugal() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Nuno de Santa Maria, a 6 de Novembro</Text>
+      <H1 text="S. Nuno de Santa Maria, a 6 de Novembro" />
 
       <Text className="aside">
         Como na{" "}
@@ -18,7 +20,7 @@ export default function Page1106Portugal() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -36,21 +38,21 @@ export default function Page1106Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <LinkCard
         href="/missal/comum/16abades#epístola"
         title="Abades - Missa Os justi"
       />
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/comum/16abades#evangelho"
         title="Abades - Missa Os justi"
       />
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -68,7 +70,7 @@ export default function Page1106Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

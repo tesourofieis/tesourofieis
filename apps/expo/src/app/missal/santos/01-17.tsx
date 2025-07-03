@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import LinkCard from "~/components/LinkCard";
@@ -7,7 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0117() {
   return (
     <PageWrapper>
-      <Text className="h1">S. António, Abade, a 17 de Janeiro</Text>
+      <H1 text="S. António, Abade, a 17 de Janeiro" />
 
       <Text className="comment">
         Depois de S. Paulo, pai dos Anacoretas, o ciclo de Natal nos faz honrar
@@ -37,7 +39,7 @@ export default function Page0117() {
         , excepto:
       </Text>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/comum/14confessoresnaopontifices1#evangelho"

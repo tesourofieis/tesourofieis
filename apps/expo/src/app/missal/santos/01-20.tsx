@@ -3,13 +3,13 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0120() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. S. Fabião e Sebastião, Márts., a 20 de Janeiro
-      </Text>
+      <H1 text="S. S. Fabião e Sebastião, Márts., a 20 de Janeiro" />
 
       <Text className="comment">
         Os dois grandes mártires romanos, Fabiano e Sebastião, manifestaram, por
@@ -32,12 +32,12 @@ export default function Page0120() {
         (Or.) à poderosa protecção desses gloriosos mártires.
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
       <LinkCard
         href="/missal/comum/6muitosmartires1#intróito"
         title="Muitos Mártires - Missa Intret in"
       />
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ
@@ -51,7 +51,7 @@ export default function Page0120() {
           Sebastião. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
       <Text className="em">Heb. 11, 33-39</Text>
       <Language>
         <Text className="latin">
@@ -92,7 +92,7 @@ export default function Page0120() {
           em N. S. Jesus Cristo.
         </Text>
       </Language>
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
       <Text className="em">Ex. 15, 11</Text>
       <Language>
         <Text className="latin">
@@ -125,12 +125,12 @@ export default function Page0120() {
           Missa Intret in.
         </Link>
       </Text>
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
       <LinkCard
         href="/missal/comum/7muitosmartires2#evangelho"
         title="Muitos Mártires - Missa Sapiéntiam sanctórum"
       />
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
       <Text className="em">Sl. 31, 11</Text>
       <Language>
         <Text className="latin">
@@ -142,7 +142,7 @@ export default function Page0120() {
           recto serão glorificados.
         </Text>
       </Language>
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <Language>
         <Text className="latin">
           Hóstias tibi, Dómine, beatórum Mártyrum tuórum Fabiáni et Sebastiáni
@@ -156,7 +156,7 @@ export default function Page0120() {
           Senhor...
         </Text>
       </Language>
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
       <Text className="em">Lc. 6, 18 & 19</Text>
       <Language>
         <Text className="latin">
@@ -168,7 +168,7 @@ export default function Page0120() {
           Ele, pois de si saía uma tal virtude que a todos curava.
         </Text>
       </Language>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Language>
         <Text className="latin">
           Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster:

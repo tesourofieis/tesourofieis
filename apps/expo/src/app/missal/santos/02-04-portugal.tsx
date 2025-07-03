@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,7 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0204Portugal() {
   return (
     <PageWrapper>
-      <Text className="h1">S. João de Brito, Mártir, a 4 de Fevereiro</Text>
+      <H1 text="S. João de Brito, Mártir, a 4 de Fevereiro" />
 
       <Text className="aside">
         Como na{" "}
@@ -17,7 +19,7 @@ export default function Page0204Portugal() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -35,7 +37,7 @@ export default function Page0204Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração Comemoração S. André Corsino</Text>
+      <H3 text="Oração Comemoração S. André Corsino" />
 
       <Language>
         <Text className="latin">
@@ -51,7 +53,7 @@ export default function Page0204Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">2 Cor. 11, 19-33; 12, 1-9</Text>
 
@@ -106,7 +108,7 @@ export default function Page0204Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 111, 1-2</Text>
 
@@ -133,7 +135,7 @@ export default function Page0204Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -150,7 +152,7 @@ export default function Page0204Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta Comemoração S. André Corsino</Text>
+      <H3 text="Secreta Comemoração S. André Corsino" />
 
       <Language>
         <Text className="latin">
@@ -164,7 +166,7 @@ export default function Page0204Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -181,7 +183,7 @@ export default function Page0204Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio Comemoração S. André Corsino</Text>
+      <H3 text="Postcomúnio Comemoração S. André Corsino" />
 
       <Language>
         <Text className="latin">

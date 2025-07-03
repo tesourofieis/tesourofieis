@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,7 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function PageEspiritosanto() {
   return (
     <PageWrapper>
-      <Text className="h1">Missa do Espírito Santo</Text>
+      <H1 text="Missa do Espírito Santo" />
 
       <Text className="aside">
         Como na{" "}
@@ -17,7 +19,7 @@ export default function PageEspiritosanto() {
         , excepto:
       </Text>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Act. 8, 14-17</Text>
 
@@ -42,7 +44,7 @@ export default function PageEspiritosanto() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 32, 12 & 6</Text>
 
@@ -76,7 +78,7 @@ export default function PageEspiritosanto() {
         diz-se o:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 103, 30</Text>
 

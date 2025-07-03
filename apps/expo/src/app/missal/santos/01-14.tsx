@@ -1,12 +1,14 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 import Missa from "../comum/13doutores";
 
 export default function Page0114() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Hilário, B. Conf. e Dr., a 14 de Janeiro</Text>
+      <H1 text="S. Hilário, B. Conf. e Dr., a 14 de Janeiro" />
 
       <Text className="comment">
         Depois de terem sido perseguidores da Igreja nos primeiros séculos, os

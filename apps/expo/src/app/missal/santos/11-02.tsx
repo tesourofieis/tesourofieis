@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,10 +9,8 @@ import PageWrapper from "~/components/Page";
 export default function Page1102() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Comemoração dos Fiéis Defuntos, a 2 de Novembro
-      </Text>
-      <Text className="h3">Intróito</Text>
+      <H1 text="Comemoração dos Fiéis Defuntos, a 2 de Novembro" />
+      <H3 text="Intróito" />
       <Text className="em">4 Esd. 2, 34 & 35</Text>
       <Language>
         <Text className="latin">
@@ -27,7 +27,7 @@ export default function Page1102() {
           ante Vós.
         </Text>
       </Language>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Fidélium, Deus, ómnium Cónditor et Redémptor: animábus famulórum
@@ -42,7 +42,7 @@ export default function Page1102() {
           que sempre desejaram. Ó Vós, que, sendo Deus...
         </Text>
       </Language>
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
       <Text className="em">1 Cor. 15, 51-57</Text>
       <Language>
         <Text className="latin">
@@ -78,7 +78,7 @@ export default function Page1102() {
           a vitória por Jesus Cristo, Senhor nosso.
         </Text>
       </Language>
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
       <Text className="em">4 Esd. 2, 34 et 35</Text>
       <Language>
         <Text className="latin">
@@ -95,7 +95,7 @@ export default function Page1102() {
           dos homens.
         </Text>
       </Language>
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
       <Language>
         <Text className="latin">
           Absólve, Dómine, ánimas ómnium fidélium defunctórum ab omni vínculo
@@ -112,7 +112,7 @@ export default function Page1102() {
           eterna.
         </Text>
       </Language>
-      <Text className="h3">Sequência</Text>
+      <H3 text="Sequência" />
       <Language>
         <Text className="latin">
           Dies iræ, dies illa Solvet sæclum in favílla: Teste David cum Sibýlla.
@@ -268,7 +268,7 @@ export default function Page1102() {
           <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
       <Text className="em">Jo. 5, 25-29</Text>
       <Language>
         <Text className="latin">
@@ -302,7 +302,7 @@ export default function Page1102() {
           para a condenação».
         </Text>
       </Language>
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
       <Language>
         <Text className="latin">
           Dómine Jesu Christe, Rex glóriæ, líbera ánimas ómnium fidélium
@@ -328,7 +328,7 @@ export default function Page1102() {
           prometestes a Abraão e à sua posteridade.
         </Text>
       </Language>
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <Language>
         <Text className="latin">
           Hóstias, quǽsumus, Dómine, quas tibi pro animábus famulórum
@@ -342,7 +342,7 @@ export default function Page1102() {
           recompensa. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
       <Text className="em">4 Esd. 2, 35 & 34</Text>
       <Language>
         <Text className="latin">
@@ -359,7 +359,7 @@ export default function Page1102() {
           em todos os séculos, ó Senhor, pois sois misericordioso.
         </Text>
       </Language>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Language>
         <Text className="latin">
           Animábus, quǽsumus, Dómine, famulórum famularúmque tuárum orátio

@@ -1,14 +1,14 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 import Missa from "../santos/02-22";
 
 export default function Page0118() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Missa Votiva da Cadeira de S. Pedro em Roma, a 18 de Janeiro
-      </Text>
+      <H1 text="Missa Votiva da Cadeira de S. Pedro em Roma, a 18 de Janeiro" />
 
       <Text className="comment">
         A manifestação da divindade de Jesus, que caracteriza o Tempo depois da

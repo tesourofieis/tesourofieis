@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,7 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1129() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Saturnino, Mártir, a 29 de Novembro</Text>
+      <H1 text="S. Saturnino, Mártir, a 29 de Novembro" />
 
       <Text className="comment">
         Primeiro Bispo de Tolosa, morreu mártir sob Maximiano no ano 300.
@@ -21,7 +23,7 @@ export default function Page1129() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -35,7 +37,7 @@ export default function Page1129() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -50,7 +52,7 @@ export default function Page1129() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

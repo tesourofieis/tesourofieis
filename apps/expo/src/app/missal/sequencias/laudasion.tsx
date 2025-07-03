@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H3 } from "~/components/Headings";
+
 
 export default function PageLaudaSion() {
   return (
     <PageWrapper>
-      <Text className="h3">Sequência Corpo de Cristo</Text>
+      <H3 text="Sequência Corpo de Cristo" />
       <Language>
         <Text className="latin">
           Láuda Síon Salvatórem, Láuda dúcem et pastórem, In hýmnis et cánticis.

@@ -2,11 +2,13 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0502() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Atanásio, a 2 de Maio</Text>
+      <H1 text="S. Atanásio, a 2 de Maio" />
 
       <Text className="comment">
         A Igreja, coberta ainda pelo sangue de seus martyres, teve de sustentar,
@@ -23,7 +25,7 @@ export default function Page0502() {
         com Santo Atanásio, a Divindade de Jesus ressuscitado.
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Ecl. 15, 5</Text>
 
@@ -44,14 +46,14 @@ export default function Page0502() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração, Secreta e Postcomúnio</Text>
+      <H3 text="Oração, Secreta e Postcomúnio" />
 
       <LinkCard
         href="/missal/comum/12confessorespontifices2"
         title="Confessores Pontífices - Missa Sacerdótes tui"
       />
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">2 Cor. 4, 5-14</Text>
 
@@ -124,14 +126,14 @@ export default function Page0502() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/santos/03-18#evangelho"
         title="S. Cirilo de Jerusalém, B. Conf. e Doutor"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 88, 21-22</Text>
 
@@ -146,7 +148,7 @@ export default function Page0502() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 10, 27</Text>
 

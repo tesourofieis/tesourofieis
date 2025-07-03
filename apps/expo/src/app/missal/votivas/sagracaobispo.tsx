@@ -1,18 +1,20 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PageSagracaobispo() {
   return (
     <PageWrapper>
-      <Text className="h1">Na Sagração de um Bispo</Text>
+      <H1 text="Na Sagração de um Bispo" />
 
       <Text className="aside">
         Missa Própria do dia, acrescentando-se à Oração, à Secreta e ao
         Postcomúnio, sob a mesma conclusão, o seguinte:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -27,7 +29,7 @@ export default function PageSagracaobispo() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -41,7 +43,7 @@ export default function PageSagracaobispo() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

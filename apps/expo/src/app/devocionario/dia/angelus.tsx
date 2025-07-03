@@ -3,11 +3,13 @@ import { Link } from "expo-router";
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageAngelus() {
   return (
     <PageWrapper>
-      <Text className="h1">Angelus</Text>
+      <H1 text="Angelus" />
 
       <Image
         source={require("../../../../assets/images/angelus.jpg")}

@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PageAdv35() {
   return (
     <PageWrapper>
-      <Text className="h1">Sexta-feira das Têmporas do Inverno</Text>
+      <H1 text="Sexta-feira das Têmporas do Inverno" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 118, 151–152</Text>
 
@@ -29,7 +31,7 @@ export default function PageAdv35() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -43,7 +45,7 @@ export default function PageAdv35() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Is. 11, 1–5</Text>
 
@@ -75,7 +77,7 @@ export default function PageAdv35() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 84, 8 & 2</Text>
 
@@ -91,7 +93,7 @@ export default function PageAdv35() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 1, 39–47</Text>
 
@@ -133,7 +135,7 @@ export default function PageAdv35() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 84, 7–8</Text>
 
@@ -149,7 +151,7 @@ export default function PageAdv35() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -164,7 +166,7 @@ export default function PageAdv35() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Zc. 14, 5–6</Text>
 
@@ -179,7 +181,7 @@ export default function PageAdv35() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

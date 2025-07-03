@@ -2,11 +2,13 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import JamLucis from "./../../canticos/sacros/jamlucis";
+import { H1, H2 } from "~/components/Headings";
+
 
 export default function PageOracaomanha() {
   return (
     <PageWrapper>
-      <Text className="h1">Oração da Manhã</Text>
+      <H1 text="Oração da Manhã" />
       <Text className="text-base">
         Meu Senhor e meu Deus, humildemente Vos adoro em união com todos os
         Anjos e Santos. Eu Vos dou graças pelo vosso infinito amor,
@@ -18,7 +20,7 @@ export default function PageOracaomanha() {
         nossas obras, assim como o trabalho das nossas mãos.
       </Text>
       <JamLucis />
-      <Text className="h2">Oferecimento de si mesmo</Text>
+      <H2 text="Oferecimento de si mesmo" />
       <Text className="text-base">
         Tomai, Senhor, e recebei, toda minha liberdade, a minha memória, o meu
         entendimento e toda minha vontade. Tudo quanto tenho e possuo de Vós o
@@ -27,7 +29,7 @@ export default function PageOracaomanha() {
         vossa graça que isto me basta, nem outra coisa desejo da vossa
         misericórdia infinita.
       </Text>
-      <Text className="h2">Consagração do dia</Text>
+      <H2 text="Consagração do dia" />
       <Language>
         <Text className="latin">
           Dirigere et sanctificare, regere et gubernare dignare, Dómine Deus,
@@ -46,7 +48,7 @@ export default function PageOracaomanha() {
           séculos dos séculos. Amen.
         </Text>
       </Language>
-      <Text className="h2">Consagração a Maria Santíssima</Text>
+      <H2 text="Consagração a Maria Santíssima" />
       <Text className="text-base">
         Ó Senhora minha, ó minha Mãe, eu me ofereço todo a Vós. E em prova da
         minha devoção para convosco Vos consagro neste dia, os meus olhos, os

@@ -3,11 +3,13 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import Salmo94 from "./../devocionario/salterio/094";
+import { H1, H2 } from "~/components/Headings";
+
 
 export default function PageOficiodefuntos() {
   return (
     <PageWrapper>
-      <Text className="h1">Ofício dos Defuntos</Text>
+      <H1 text="Ofício dos Defuntos" />
 
       <Text className="aside">
         Rezar{" "}
@@ -24,7 +26,7 @@ export default function PageOficiodefuntos() {
         </Link>
       </Text>
 
-      <Text className="h2">Invitatório</Text>
+      <H2 text="Invitatório" />
 
       <Language>
         <Text className="latin">Regem, cui ómnia vivunt, Veníte adorémus.</Text>
@@ -37,7 +39,7 @@ export default function PageOficiodefuntos() {
         </Text>
       </Language>
 
-      <Text className="h2">Salmo 94</Text>
+      <H2 text="Salmo 94" />
 
       <Salmo94 />
 

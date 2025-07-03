@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageConcedemihi() {
   return (
     <PageWrapper>
-      <Text className="h1">Concede Mihi</Text>
+      <H1 text="Concede Mihi" />
 
       <Language>
         <Text className="latin">

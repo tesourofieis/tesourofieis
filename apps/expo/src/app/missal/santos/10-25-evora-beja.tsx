@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
@@ -6,10 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1025EvoraBeja() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. S. Crispim e Crispiniano, Márts., a 25 de Outubro, Na Arquidiocese de
-        Évora e Diocese de Beja
-      </Text>
+      <H1 text="S. S. Crispim e Crispiniano, Márts., a 25 de Outubro, Na Arquidiocese de Évora e Diocese de Beja" />
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/6muitosmartires1">
@@ -17,14 +16,14 @@ export default function Page1025EvoraBeja() {
         </Link>{" "}
         , excepto:
       </Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Text className="text-base">
         Senhor, ao vosso povo, a fim de que, em atenção aos preclaros méritos
         dos vossos B. B. Mártires Crispim e Crispiniano, ao implorar a vossa
         misericórdia, seja sempre auxiliado com sua protecção. Por nosso
         Senhor...
       </Text>
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
       <Text className="text-base">
         Deus é glorioso em seus Santos: e admirável na sua majestade, praticando
         prodígios. Senhor, a vossa dextra engrandeceu-se pela sua força: a vossa
@@ -32,13 +31,13 @@ export default function Page1025EvoraBeja() {
         fraternidade que Venceu os crimes do mundo. Ela seguiu Cristo, pelo que
         gozará com glória o reino celestial. Aleluia.
       </Text>
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <Text className="text-base">
         Recebei propício, Senhor, as dádivas que oferecemos, e permiti que a
         oração dos vossos B. B. Mártires Crispim e Crispiniano as torne
         agradáveis à vossa Majestade. Por nosso Senhor...
       </Text>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Text className="text-base">
         Que os sacramentos recebidos, Senhor, nos purifiquem, e pela intercessão
         dos B. B. Mártires Crispim e Crispiniano nos livrem de todos os males.

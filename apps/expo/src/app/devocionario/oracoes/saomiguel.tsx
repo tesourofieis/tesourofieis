@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageSaomiguel() {
   return (
     <PageWrapper>
-      <Text className="h1">São Miguel Arcanjo</Text>
+      <H1 text="São Miguel Arcanjo" />
 
       <Language>
         <Text className="latin">

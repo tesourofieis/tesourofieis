@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PageAdv33() {
   return (
     <PageWrapper>
-      <Text className="h1">Quarta-feira das Têmporas do Inverno</Text>
+      <H1 text="Quarta-feira das Têmporas do Inverno" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Is. 45, 8</Text>
 
@@ -50,7 +52,7 @@ export default function PageAdv33() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -65,7 +67,7 @@ export default function PageAdv33() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Is. 2, 2–5</Text>
 
@@ -99,7 +101,7 @@ export default function PageAdv33() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 23, 7, 3 & 4</Text>
 
@@ -119,7 +121,7 @@ export default function PageAdv33() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -135,7 +137,7 @@ export default function PageAdv33() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Is. 7, 10–15</Text>
 
@@ -164,7 +166,7 @@ export default function PageAdv33() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 144, 18 & 21</Text>
 
@@ -181,7 +183,7 @@ export default function PageAdv33() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 1, 26–38</Text>
 
@@ -237,7 +239,7 @@ export default function PageAdv33() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Is. 35, 4</Text>
 
@@ -252,7 +254,7 @@ export default function PageAdv33() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -268,7 +270,7 @@ export default function PageAdv33() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Is. 7, 14</Text>
 
@@ -283,7 +285,7 @@ export default function PageAdv33() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

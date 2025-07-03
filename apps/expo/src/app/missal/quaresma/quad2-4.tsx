@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PageQuad24() {
   return (
     <PageWrapper>
-      <Text className="h1">Quinta-feira da 2.ª Semana da Quaresma</Text>
+      <H1 text="Quinta-feira da 2.ª Semana da Quaresma" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 69, 2 & 3</Text>
 
@@ -30,7 +32,7 @@ export default function PageQuad24() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -46,7 +48,7 @@ export default function PageQuad24() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Jr. 17, 5-10</Text>
 
@@ -84,7 +86,7 @@ export default function PageQuad24() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 78, 9 & 10</Text>
 
@@ -101,7 +103,7 @@ export default function PageQuad24() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. J6, 19-31</Text>
 
@@ -167,7 +169,7 @@ export default function PageQuad24() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Ex. 32, 11, 13 & 14</Text>
 
@@ -187,7 +189,7 @@ export default function PageQuad24() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -202,7 +204,7 @@ export default function PageQuad24() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Jo. 6, 57</Text>
 
@@ -217,7 +219,7 @@ export default function PageQuad24() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -232,7 +234,7 @@ export default function PageQuad24() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração sobre o povo</Text>
+      <H3 text="Oração sobre o povo" />
 
       <Language>
         <Text className="latin">

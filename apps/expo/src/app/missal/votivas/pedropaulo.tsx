@@ -2,20 +2,22 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PagePedropaulo() {
   return (
     <PageWrapper>
-      <Text className="h1">Missa dos S. S. Apóstolos Pedro e Paulo</Text>
+      <H1 text="Missa dos S. S. Apóstolos Pedro e Paulo" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <LinkCard
         href="/missal/santos/11-30#intróito"
         title="S. André, Apóstolo"
       />
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -34,7 +36,7 @@ export default function PagePedropaulo() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Act. 5, 12-16</Text>
 
@@ -67,7 +69,7 @@ export default function PagePedropaulo() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 44, 17 & 18</Text>
 
@@ -101,7 +103,7 @@ export default function PagePedropaulo() {
         Depois da Septuagésima omite-se o Aleluia e o que se segue, e diz-se o:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 125, 5-6</Text>
 
@@ -120,14 +122,14 @@ export default function PagePedropaulo() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/comum/16abades#evangelho"
         title="Abades - Missa Os justi"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 18, 5</Text>
 
@@ -142,7 +144,7 @@ export default function PagePedropaulo() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -157,7 +159,7 @@ export default function PagePedropaulo() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 19, 28</Text>
 
@@ -172,7 +174,7 @@ export default function PagePedropaulo() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

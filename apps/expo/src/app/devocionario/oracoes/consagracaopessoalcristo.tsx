@@ -1,10 +1,12 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageConsagracaopessoalcristo() {
   return (
     <PageWrapper>
-      <Text className="h1">Consagração Pessoal a Jesus Cristo</Text>
+      <H1 text="Consagração Pessoal a Jesus Cristo" />
       <Text className="aside">
         Nos 30 dias anteriores à consagração devem-se rezar Ladainhas, o Veni
         Creator Spíritus e a Ave Maris Stella, deve-se ler o Santo Evangelho e a

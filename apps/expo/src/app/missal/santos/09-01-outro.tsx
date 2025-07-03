@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
@@ -6,7 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0901Outro() {
   return (
     <PageWrapper>
-      <Text className="h1">S. S. Doze Irmãos, Mártires, a 1 de Setembro</Text>
+      <H1 text="S. S. Doze Irmãos, Mártires, a 1 de Setembro" />
 
       <Text className="aside">
         Como na{" "}

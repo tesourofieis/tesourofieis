@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,9 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1204() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. Pedro Crisólogo, B. Conf. e Doutor, a 4 de Dezembro
-      </Text>
+      <H1 text="S. Pedro Crisólogo, B. Conf. e Doutor, a 4 de Dezembro" />
 
       <Text className="comment">
         A grande eloquência de S. Pedro valeu-lhe o nome de Crisólogo, que
@@ -33,7 +33,7 @@ export default function Page1204() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -51,7 +51,7 @@ export default function Page1204() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Ecl. 44, 16</Text>
 
@@ -80,7 +80,7 @@ export default function Page1204() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 25, 20 & 21</Text>
 

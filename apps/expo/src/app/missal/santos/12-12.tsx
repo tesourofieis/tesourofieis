@@ -1,12 +1,14 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 import Missa from "./12-08";
 
 export default function Page1212() {
   return (
     <PageWrapper>
-      <Text className="h1">Quinto Dia na Oitava, a 12 de Dezembro</Text>
+      <H1 text="Quinto Dia na Oitava, a 12 de Dezembro" />
 
       <Text className="comment">
         Para mostrar que a Mãe de Jesus ocupa lugar especial no seu culto, a

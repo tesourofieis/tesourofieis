@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function Page048() {
   return (
     <PageWrapper>
-      <Text className="h1">Salmo 48</Text>
+      <H1 text="Salmo 48" />
 
       <Language>
         <Text className="latin">

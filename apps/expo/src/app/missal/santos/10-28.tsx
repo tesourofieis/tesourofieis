@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page1028() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Simão e S. Judas, a 28 de Outubro</Text>
+      <H1 text="S. Simão e S. Judas, a 28 de Outubro" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 138, 17</Text>
 
@@ -29,7 +31,7 @@ export default function Page1028() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -45,7 +47,7 @@ export default function Page1028() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Ef. 4, 7-13</Text>
 
@@ -86,7 +88,7 @@ export default function Page1028() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 44, 17-18</Text>
 
@@ -115,7 +117,7 @@ export default function Page1028() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 15, 17-25</Text>
 
@@ -162,7 +164,7 @@ export default function Page1028() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 18, 5</Text>
 
@@ -177,7 +179,7 @@ export default function Page1028() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -193,7 +195,7 @@ export default function Page1028() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 19, 28</Text>
 
@@ -208,7 +210,7 @@ export default function Page1028() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

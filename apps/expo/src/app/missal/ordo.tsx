@@ -4,6 +4,8 @@ import { ActivityIndicator, Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H2, H3, H4 } from "~/components/Headings";
+
 
 export default function PageOrdo() {
   const mass = getCalendarDay(yyyyMMDD(new Date()))?.mass;
@@ -17,11 +19,11 @@ export default function PageOrdo() {
 
   return (
     <PageWrapper>
-      <Text className="h1">Ordo Missæ</Text>
+      <H1 text="Ordo Missæ" />
 
-      <Text className="h2">Missa dos Catecúmenos</Text>
+      <H2 text="Missa dos Catecúmenos" />
 
-      <Text className="h3">Orações ao pé do altar</Text>
+      <H3 text="Orações ao pé do altar" />
 
       <Text className="aside">
         De pé, diante dos degraus do altar, o Sacerdote começa a Missa, fazendo
@@ -66,7 +68,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Salmo 42</Text>
+      <H3 text="Salmo 42" />
 
       <Text className="aside">
         O Sacerdote e os Acólitos recitam o salmo alternadamente. Nas Missas de
@@ -382,7 +384,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Intróito do dia</Text>
+      <H3 text="Intróito do dia" />
 
       <Text className="aside">
         Nas Missas solenes, incensa-se o altar. O Sacerdote vai para o lado da
@@ -393,7 +395,7 @@ export default function PageOrdo() {
 
       <LinkCard mass={mass[0]} description="Intróito" />
 
-      <Text className="h3">Kyrie Eleison</Text>
+      <H3 text="Kyrie Eleison" />
 
       <Text className="aside">
         Os Kyries, são nove clamores dirigidos à Santíssima trindade. O
@@ -457,7 +459,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Glória in Excélsis</Text>
+      <H3 text="Glória in Excélsis" />
 
       <Text className="aside">
         Canto de alegria, a Glória só se diz nas Missas de carácter festivo:
@@ -519,7 +521,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Colecta do dia</Text>
+      <H3 text="Colecta do dia" />
 
       <Text className="aside">
         O Sacerdote, diante do missal, recita a Colecta. Breve oração que resume
@@ -554,7 +556,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola do dia</Text>
+      <H3 text="Epístola do dia" />
 
       <LinkCard mass={mass[0]} description="Epístola" />
 
@@ -567,7 +569,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual do dia</Text>
+      <H3 text="Gradual do dia" />
 
       <Text className="aside">
         A oração curta de acção de graças, consiste geralmente de dois ou três
@@ -581,7 +583,7 @@ export default function PageOrdo() {
         Pascal, omite-se o Gradual, e dizem-se dois Allelúja.
       </Text>
 
-      <Text className="h3">Munda cor</Text>
+      <H3 text="Munda cor" />
 
       <Text className="aside">
         Enquanto o Acólito muda o Missal, o Sacerdote inclina-se profundamente
@@ -633,7 +635,7 @@ export default function PageOrdo() {
         Sacerdote.
       </Text>
 
-      <Text className="h3">Evangelho do dia</Text>
+      <H3 text="Evangelho do dia" />
 
       <Text className="aside">
         É um momento solene! Toda a assistência está de pé.
@@ -691,7 +693,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Credo</Text>
+      <H3 text="Credo" />
 
       <Text className="aside">
         Aos Domingos e certos dias de festa, o celebrante vai ao meio do altar e
@@ -758,9 +760,9 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h2">Missa dos Fiéis</Text>
+      <H2 text="Missa dos Fiéis" />
 
-      <Text className="h3">Sacrifício Ofertório</Text>
+      <H3 text="Sacrifício Ofertório" />
 
       <Text className="aside">
         Com o Ofertório, começa a segunda parte da Missa ou Sacrifício
@@ -795,11 +797,11 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório do dia</Text>
+      <H3 text="Ofertório do dia" />
 
       <LinkCard mass={mass[0]} description="Ofertório" />
 
-      <Text className="h4">Oferecimento do pão:</Text>
+      <H4 text="Oferecimento do pão:" />
 
       <Text className="aside">
         Terminada esta leitura, o Sacerdote descobre o Cálice e toma nas mãos a
@@ -897,7 +899,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h4">Incensão</Text>
+      <H4 text="Incensão" />
 
       <Text className="aside">
         Segue-se, nas Missas solenes, o rito da incensão. Tudo o que é oferecido
@@ -905,7 +907,7 @@ export default function PageOrdo() {
         presentes.
       </Text>
 
-      <Text className="h4">Bênção do Incenso:</Text>
+      <H4 text="Bênção do Incenso:" />
 
       <Language>
         <Text className="latin">
@@ -977,7 +979,7 @@ export default function PageOrdo() {
         Missas de defuntos, é incensado só o Sacerdote.
       </Text>
 
-      <Text className="h4">Lavabo</Text>
+      <H4 text="Lavabo" />
 
       <Text className="aside">
         O lavar as mãos simboliza a pureza da alma, necessária para oferecer o
@@ -1031,7 +1033,7 @@ export default function PageOrdo() {
         Nas Missas de defuntos e do Tempo da Paixão omite-se o Glória Patri.
       </Text>
 
-      <Text className="h4">Oração à Santíssima Trindade</Text>
+      <H4 text="Oração à Santíssima Trindade" />
 
       <Text className="aside">
         Inclinado, ao meio do altar, o Sacerdote diz:
@@ -1066,7 +1068,7 @@ export default function PageOrdo() {
         com ele:
       </Text>
 
-      <Text className="h4">Orate Frates</Text>
+      <H4 text="Orate Frates" />
 
       <Language>
         <Text className="latin">
@@ -1107,7 +1109,7 @@ export default function PageOrdo() {
         Colecta.
       </Text>
 
-      <Text className="h3">Secreta do dia</Text>
+      <H3 text="Secreta do dia" />
 
       <LinkCard mass={mass[0]} description="Secreta" />
 
@@ -1127,7 +1129,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Canon Missæ</Text>
+      <H3 text="Canon Missæ" />
 
       <Text className="aside">
         O Cânon constitui a parte central da Missa. Com o Prefácio, começa a
@@ -1178,11 +1180,11 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Prefácio do dia</Text>
+      <H3 text="Prefácio do dia" />
 
       <LinkCard href="/missal/prefacios" description="Prefácios" />
 
-      <Text className="h3">Sanctus</Text>
+      <H3 text="Sanctus" />
 
       <Language>
         <Text className="latin">
@@ -1203,7 +1205,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Cânon</Text>
+      <H3 text="Cânon" />
 
       <Text className="aside">
         O Sacerdote, levanta os olhos para o céu, inclina-se, beija o altar e
@@ -1239,7 +1241,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h4">Memento dos vivos</Text>
+      <H4 text="Memento dos vivos" />
 
       <Language>
         <Text className="latin">
@@ -1263,7 +1265,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h4">Memória dos Santos</Text>
+      <H4 text="Memória dos Santos" />
 
       <Text className="aside">
         Para além destes Comunicantes, existem também para o Natal, Epifania,
@@ -1295,7 +1297,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Orações na Consagração</Text>
+      <H3 text="Orações na Consagração" />
 
       <Text className="aside">
         Estendendo as mãos sobre as oblatas, o celebrante diz:
@@ -1336,7 +1338,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h4">Consagração e Elevação da Hóstia</Text>
+      <H4 text="Consagração e Elevação da Hóstia" />
 
       <Text className="aside">
         Inclina-se sobre o altar, e profere as palavras da consagração da
@@ -1371,7 +1373,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h4">Consagração e Elevação do Cálice:</Text>
+      <H4 text="Consagração e Elevação do Cálice:" />
 
       <Language>
         <Text className="latin">
@@ -1416,7 +1418,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h4">Oblação da Vítima a Deus</Text>
+      <H4 text="Oblação da Vítima a Deus" />
 
       <Text className="aside">
         O Sacerdote continua depois as orações do Cânon:
@@ -1490,9 +1492,9 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Orações depois da Consagração</Text>
+      <H3 text="Orações depois da Consagração" />
 
-      <Text className="h4">Memento dos defuntos:</Text>
+      <H4 text="Memento dos defuntos:" />
 
       <Language>
         <Text className="latin">
@@ -1519,7 +1521,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h4">Invocação dos Santos</Text>
+      <H4 text="Invocação dos Santos" />
 
       <Text className="aside">O Sacerdote bate no peito, dizendo:</Text>
 
@@ -1558,7 +1560,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h4">Doxologia Final</Text>
+      <H4 text="Doxologia Final" />
 
       <Language>
         <Text className="latin">
@@ -1596,7 +1598,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Rito da Comunhão</Text>
+      <H3 text="Rito da Comunhão" />
 
       <Text className="aside">Participação no Sacrifício</Text>
 
@@ -1621,7 +1623,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Pater Noster</Text>
+      <H3 text="Pater Noster" />
 
       <Language>
         <Text className="latin">
@@ -1650,7 +1652,7 @@ export default function PageOrdo() {
         O Sacerdote diz Amen em voz baixa, e continua:
       </Text>
 
-      <Text className="h4">Líbera nos</Text>
+      <H4 text="Líbera nos" />
 
       <Language>
         <Text className="latin">
@@ -1676,7 +1678,7 @@ export default function PageOrdo() {
         e indicador da mão direita a Hóstia, que ergue até ao cimo do cálice.
       </Text>
 
-      <Text className="h4">Fracção da Hóstia</Text>
+      <H4 text="Fracção da Hóstia" />
 
       <Text className="aside">
         O Sacerdote parte a Hóstia ao meio, de uma das partes tira um pequeno
@@ -1752,7 +1754,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Agnus Dei</Text>
+      <H3 text="Agnus Dei" />
 
       <Text className="aside">
         O Sacerdote bate três vezes no peito, e diz a oração seguinte. Nas
@@ -1782,7 +1784,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Orações para a Comunhão</Text>
+      <H3 text="Orações para a Comunhão" />
 
       <Text className="aside">
         Inclinado, recita as três orações seguintes, pela paz, santificação e
@@ -1835,7 +1837,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Comunhão do celebrante</Text>
+      <H3 text="Comunhão do celebrante" />
 
       <Text className="aside">
         O Sacerdote genuflecte e pegando depois na sagrada Hóstia.
@@ -1913,7 +1915,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h4">Comunhão dos fiéis</Text>
+      <H4 text="Comunhão dos fiéis" />
 
       <Text className="aside">
         Os fiéis, ou o acólito por eles, recitam o Confíteor:
@@ -2051,9 +2053,9 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Acção de Graças</Text>
+      <H3 text="Acção de Graças" />
 
-      <Text className="h4">Abluções</Text>
+      <H4 text="Abluções" />
 
       <Text className="aside">
         O Sacerdote purifica primeiro o cálice e depois os dedos, e toma as
@@ -2091,7 +2093,7 @@ export default function PageOrdo() {
         credencia.
       </Text>
 
-      <Text className="h3">Comúnio do dia</Text>
+      <H3 text="Comúnio do dia" />
 
       <Text className="aside">
         O Sacerdote passa para o lado direito do altar, e recita a antífona da
@@ -2115,11 +2117,11 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio do dia</Text>
+      <H3 text="Postcomúnio do dia" />
 
       <LinkCard mass={mass[0]} description="Postcomúnio" />
 
-      <Text className="h3">Despedida e Bênção</Text>
+      <H3 text="Despedida e Bênção" />
 
       <Text className="aside">
         O Sacerdote volta ao meio do altar, beija-o, e, voltando-se para os
@@ -2234,7 +2236,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h3">Último Evangelho</Text>
+      <H3 text="Último Evangelho" />
 
       <Text className="aside">
         O Sacerdote passa para o lado esquerdo do altar e recita, como último
@@ -2322,7 +2324,7 @@ export default function PageOrdo() {
         </Text>
       </Language>
 
-      <Text className="h2">Orações Leoninas</Text>
+      <H2 text="Orações Leoninas" />
 
       <LinkCard title="Orações Leoninas" href="/missal/oracoesleoninas" />
     </PageWrapper>

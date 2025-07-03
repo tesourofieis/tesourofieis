@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PagePaixao() {
   return (
     <PageWrapper>
-      <Text className="h1">Missa da Paixão de N. S. Jesus Cristo</Text>
+      <H1 text="Missa da Paixão de N. S. Jesus Cristo" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Fl. 2, 8-9</Text>
 
@@ -31,7 +33,7 @@ export default function PagePaixao() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -51,7 +53,7 @@ export default function PagePaixao() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Zc. 12, 10-11; 13, 6-7</Text>
 
@@ -84,7 +86,7 @@ export default function PagePaixao() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 68,21-22</Text>
 
@@ -119,7 +121,7 @@ export default function PagePaixao() {
         diz-se o:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Is. 53, 4-5</Text>
 
@@ -166,7 +168,7 @@ export default function PagePaixao() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 19, 28-35</Text>
 
@@ -212,7 +214,7 @@ export default function PagePaixao() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Language>
         <Text className="latin">
@@ -228,7 +230,7 @@ export default function PagePaixao() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -242,7 +244,7 @@ export default function PagePaixao() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 21,17-18</Text>
 
@@ -257,7 +259,7 @@ export default function PagePaixao() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

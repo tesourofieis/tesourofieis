@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PageQuadp33() {
   return (
     <PageWrapper>
-      <Text className="h1">Quarta-feira de Cinzas</Text>
+      <H1 text="Quarta-feira de Cinzas" />
 
       <Text className="aside">
         A Estação em Roma é em Santa Sabina no Monte Aventiono, num Santuário
@@ -47,7 +49,7 @@ export default function PageQuadp33() {
         sagrado, terminemos essa carreira com impertubável devoção.
       </Text>
 
-      <Text className="h3">Antífona</Text>
+      <H3 text="Antífona" />
 
       <Text className="em">Sl. 68, 17</Text>
 
@@ -69,7 +71,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -102,7 +104,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -130,7 +132,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -154,7 +156,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -171,7 +173,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Antífona</Text>
+      <H3 text="Antífona" />
 
       <Text className="em">Jl. 2, 13</Text>
 
@@ -201,7 +203,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Responsório</Text>
+      <H3 text="Responsório" />
 
       <Text className="em">Est 13; Jl. 2</Text>
 
@@ -231,7 +233,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Imposição das Cinzas</Text>
+      <H3 text="Imposição das Cinzas" />
 
       <Text className="em">Gn 3, 19</Text>
 
@@ -244,7 +246,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -262,7 +264,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sb, 11, 24, 25 & 27</Text>
 
@@ -285,7 +287,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -300,7 +302,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Jl. 2, 12-19</Text>
 
@@ -348,7 +350,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 56, 2 et 4</Text>
 
@@ -366,7 +368,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 102, 10</Text>
 
@@ -398,7 +400,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 6, 16-21</Text>
 
@@ -439,7 +441,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 29,2-3</Text>
 
@@ -454,7 +456,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -469,7 +471,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 1, 2 & 3</Text>
 
@@ -484,7 +486,7 @@ export default function PageQuadp33() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

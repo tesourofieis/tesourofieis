@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageTelucis() {
   return (
     <PageWrapper>
-      <Text className="h1">Te lucis</Text>
+      <H1 text="Te lucis" />
 
       <Language>
         <Text className="latin">

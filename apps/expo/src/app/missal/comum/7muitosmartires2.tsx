@@ -2,12 +2,14 @@ import { Link } from "expo-router";
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page7Muitosmartires2() {
   return (
     <PageWrapper>
-      <Text className="h1">Muitos Mártires</Text>
-      <Text className="h3">Intróito</Text>
+      <H1 text="Muitos Mártires" />
+      <H3 text="Intróito" />
       <Text className="em">Ecl. 44, 15 & 14</Text>
       <Language>
         <Text className="latin">
@@ -26,7 +28,7 @@ export default function Page7Muitosmartires2() {
           Glória ao Pai...
         </Text>
       </Language>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Deus, qui nos concédis sanctórum Mártyrum tuórum{" "}
@@ -48,7 +50,7 @@ export default function Page7Muitosmartires2() {
           Missa precedente.
         </Link>
       </Text>
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
       <Text className="em">Sb. 5, 16-20</Text>
       <Language>
         <Text className="latin">Léctio libri Sapiéntiæ.</Text>
@@ -73,7 +75,7 @@ export default function Page7Muitosmartires2() {
           equidade como escudo inexpugnável.
         </Text>
       </Language>
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
       <Text className="em">Sl. 123,7-8</Text>
       <Language>
         <Text className="latin">
@@ -103,7 +105,7 @@ export default function Page7Muitosmartires2() {
       <Text className="aside">
         Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
       </Text>
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
       <Text className="em">Sl. 125, 5-6</Text>
       <Language>
         <Text className="latin">
@@ -120,7 +122,7 @@ export default function Page7Muitosmartires2() {
           de trigo.
         </Text>
       </Language>
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
       <Text className="em">Lc. 6, 17-23</Text>
       <Language>
         <Text className="latin">
@@ -162,7 +164,7 @@ export default function Page7Muitosmartires2() {
           no céu».
         </Text>
       </Language>
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
       <Text className="em">Sl. 149, 5-6</Text>
       <Language>
         <Text className="latin">
@@ -175,7 +177,7 @@ export default function Page7Muitosmartires2() {
           Deus.
         </Text>
       </Language>
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <Language>
         <Text className="latin">
           Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro tuórum
@@ -188,7 +190,7 @@ export default function Page7Muitosmartires2() {
           misericórdia fazei que nos sejam salutares. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
       <Text className="em">Lc. 12, 4</Text>
       <Language>
         <Text className="latin">
@@ -200,7 +202,7 @@ export default function Page7Muitosmartires2() {
           que vos perseguem.
         </Text>
       </Language>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Language>
         <Text className="latin">
           Præsta nobis, quǽsumus, Dómine: intercedéntibus sanctis Martýribus

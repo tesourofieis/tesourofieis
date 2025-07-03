@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
@@ -6,10 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1128Braga() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. Tiago Intercísio, Mártir, a 28 de Novembro, Na Arquidiocese de Braga
-        e noutros lugares
-      </Text>
+      <H1 text="S. Tiago Intercísio, Mártir, a 28 de Novembro, Na Arquidiocese de Braga e noutros lugares" />
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/5martirnaopontifice2">
@@ -17,20 +16,20 @@ export default function Page1128Braga() {
         </Link>{" "}
         , excepto:
       </Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Text className="text-base">
         A nós, Senhor, que somos vossos servos, sede propício pelos méritos do
         vosso Mártir Tiago, Vo-lo rogamos, a fim de que pela sua piedosa
         intercessão sejamos protegidos contra todas as adversidades. Por nosso
         Senhor...
       </Text>
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <Text className="text-base">
         Vos suplicamos, Senhor, que pela vossa clemência aceiteis de nossas mãos
         a dádiva apresentada; e pela oração do vosso Santo Mártir Tiago
         purificai-nos de todos os pecados. Por nosso Senhor...
       </Text>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Text className="text-base">
         Depois de libarmos os divinos mystérios, que, em veneração do vosso
         Santo Mártir Tiago oferecemos à vossa majestade, concedei-nos, Senhor,

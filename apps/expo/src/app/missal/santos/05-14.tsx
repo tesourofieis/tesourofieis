@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text } from "react-native";
 
@@ -8,7 +10,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0514() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Bonifácio, Mártir, a 14 de Maio</Text>
+      <H1 text="S. Bonifácio, Mártir, a 14 de Maio" />
 
       <Text className="comment">
         Comemoração S. Bonifácio, Mártir. A vitória de Jesus ressuscitado e da
@@ -31,7 +33,7 @@ export default function Page0514() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -46,7 +48,7 @@ export default function Page0514() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -61,7 +63,7 @@ export default function Page0514() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

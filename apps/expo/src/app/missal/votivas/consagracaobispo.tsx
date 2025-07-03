@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text } from "react-native";
 import Language from "~/components/Language";
@@ -7,9 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function PageConsagracaobispo() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        No Aniversário da Eleição ou Consagração do Bispo
-      </Text>
+      <H1 text="No Aniversário da Eleição ou Consagração do Bispo" />
 
       <Text className="aside">
         Como na{" "}
@@ -22,7 +22,7 @@ export default function PageConsagracaobispo() {
         </Link>{" "}
       </Text>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Heb. 5, 1-4</Text>
 
@@ -53,7 +53,7 @@ export default function PageConsagracaobispo() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mc. 13, 33-37</Text>
 

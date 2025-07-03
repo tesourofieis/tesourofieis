@@ -2,15 +2,15 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0915() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Sete Dores da B. Virgem Maria, a 15 de Setembro
-      </Text>
+      <H1 text="Sete Dores da B. Virgem Maria, a 15 de Setembro" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Jo. 19, 25</Text>
 
@@ -32,7 +32,7 @@ export default function Page0915() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -53,7 +53,7 @@ export default function Page0915() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Jdt. 13, 22 & 23-25</Text>
 
@@ -80,7 +80,7 @@ export default function Page0915() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Language>
         <Text className="latin">
@@ -108,7 +108,7 @@ export default function Page0915() {
         </Text>
       </Language>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Language>
         <Text className="latin">
@@ -127,7 +127,7 @@ export default function Page0915() {
         </Text>
       </Language>
 
-      <Text className="h3">Sequência</Text>
+      <H3 text="Sequência" />
 
       <Language>
         <Text className="latin">
@@ -277,14 +277,14 @@ export default function Page0915() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/comum/30missamaria4#evangelho"
         title="4.ª Missa - Desde a Páscoa até ao Pentecostes - Missa Salve, sancta Parens da Virgem Maria"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Jr. 18, 20</Text>
 
@@ -300,7 +300,7 @@ export default function Page0915() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -320,7 +320,7 @@ export default function Page0915() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Language>
         <Text className="latin">
@@ -333,7 +333,7 @@ export default function Page0915() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

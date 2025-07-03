@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageBenedictus() {
   return (
     <PageWrapper>
-      <Text className="h1">Benedíctus</Text>
+      <H1 text="Benedíctus" />
 
       <Language>
         <Text className="latin">

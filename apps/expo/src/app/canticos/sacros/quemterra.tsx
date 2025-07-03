@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageQuemterra() {
   return (
     <PageWrapper>
-      <Text className="h1">Quem terra</Text>
+      <H1 text="Quem terra" />
 
       <Language>
         <Text className="latin">

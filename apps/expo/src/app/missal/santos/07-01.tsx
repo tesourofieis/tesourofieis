@@ -2,13 +2,13 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0701() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Preciosíssimo Sangue de N. S. J. C., a 1 de Julho
-      </Text>
+      <H1 text="Preciosíssimo Sangue de N. S. J. C., a 1 de Julho" />
 
       <Text className="comment">
         A liturgia, esse admirável resumo da história da Igreja, recorda
@@ -27,7 +27,7 @@ export default function Page0701() {
         a Deus, sobre o altar.
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Apoc. 5, 9-10</Text>
 
@@ -51,7 +51,7 @@ export default function Page0701() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -71,14 +71,14 @@ export default function Page0701() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <LinkCard
         href="/missal/quaresma/quad5-0#epístola"
         title="Domingo da Paixão"
       />
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">1 Jo. 5, 6 & 7-8</Text>
 
@@ -111,7 +111,7 @@ export default function Page0701() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 19, 30-35</Text>
 
@@ -150,7 +150,7 @@ export default function Page0701() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">1 Cor. 10, 16</Text>
 
@@ -167,7 +167,7 @@ export default function Page0701() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -185,7 +185,7 @@ export default function Page0701() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Heb. 9, 28</Text>
 
@@ -201,7 +201,7 @@ export default function Page0701() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

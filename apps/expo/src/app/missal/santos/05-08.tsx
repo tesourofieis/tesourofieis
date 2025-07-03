@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0508() {
   return (
     <PageWrapper>
-      <Text className="h1">Aparição de Arcanjo S. Miguel, a 8 de Maio</Text>
+      <H1 text="Aparição de Arcanjo S. Miguel, a 8 de Maio" />
 
       <Text className="comment">
         Páscoa é a festa dos espíritos angélicos, pois a Ressurreição «é a
@@ -20,7 +22,7 @@ export default function Page0508() {
         todos os Anjos. Esse lugar tornou-se celebre por numerosos milagres.
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 102, 20</Text>
 
@@ -42,7 +44,7 @@ export default function Page0508() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -58,7 +60,7 @@ export default function Page0508() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Apoc. 1, 1-5</Text>
 
@@ -112,7 +114,7 @@ export default function Page0508() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 18, 1-10</Text>
 
@@ -168,7 +170,7 @@ export default function Page0508() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Ap. 8, 3 & 4</Text>
 
@@ -185,7 +187,7 @@ export default function Page0508() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -201,7 +203,7 @@ export default function Page0508() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Dn. 3, 58</Text>
 
@@ -216,7 +218,7 @@ export default function Page0508() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

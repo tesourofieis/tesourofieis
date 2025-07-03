@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PageQuad62() {
   return (
     <PageWrapper>
-      <Text className="h1">Terça-Feira Santa</Text>
+      <H1 text="Terça-Feira Santa" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Gl. 6, 14</Text>
 
@@ -30,7 +32,7 @@ export default function PageQuad62() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -44,7 +46,7 @@ export default function PageQuad62() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Jr. 11, 18-20</Text>
 
@@ -74,7 +76,7 @@ export default function PageQuad62() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 34, 13 & 1-2</Text>
 
@@ -94,7 +96,7 @@ export default function PageQuad62() {
         </Text>
       </Language>
 
-      <Text className="h3">Narração da Paixão</Text>
+      <H3 text="Narração da Paixão" />
 
       <Text className="em">Mc. 14, 1-72; 15, 1-46</Text>
 
@@ -722,7 +724,7 @@ export default function PageQuad62() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 139, 5</Text>
 
@@ -737,7 +739,7 @@ export default function PageQuad62() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -751,7 +753,7 @@ export default function PageQuad62() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 68, 13-14</Text>
 
@@ -770,7 +772,7 @@ export default function PageQuad62() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -784,7 +786,7 @@ export default function PageQuad62() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração sobre o povo</Text>
+      <H3 text="Oração sobre o povo" />
 
       <Language>
         <Text className="latin">

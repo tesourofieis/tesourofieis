@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -8,9 +10,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0922() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. Tomás de Vilanova, B. e C., a 22 de Setembro
-      </Text>
+      <H1 text="S. Tomás de Vilanova, B. e C., a 22 de Setembro" />
 
       <Text className="aside">
         Como na{" "}
@@ -20,7 +20,7 @@ export default function Page0922() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -37,7 +37,7 @@ export default function Page0922() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração Comemoração S. Maurício e Outros</Text>
+      <H3 text="Oração Comemoração S. Maurício e Outros" />
 
       <Language>
         <Text className="latin">
@@ -54,14 +54,14 @@ export default function Page0922() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <LinkCard
         href="/missal/comum/12confessorespontifices2#secreta"
         title="Confessores Pontífices - Missa Sacerdótes tui"
       />
 
-      <Text className="h3">Secreta Comemoração S. Maurício e Outros</Text>
+      <H3 text="Secreta Comemoração S. Maurício e Outros" />
 
       <Language>
         <Text className="latin">
@@ -79,14 +79,14 @@ export default function Page0922() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <LinkCard
         href="/missal/comum/12confessorespontifices2#postcomúnio"
         title="Confessores Pontífices - Missa Sacerdótes tui"
       />
 
-      <Text className="h3">Postcomúnio Comemoração S. Maurício e Outros</Text>
+      <H3 text="Postcomúnio Comemoração S. Maurício e Outros" />
 
       <Language>
         <Text className="latin">

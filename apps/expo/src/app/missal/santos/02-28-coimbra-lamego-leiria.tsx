@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H2 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,10 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0228CoimbraLamegoLeiria() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Trasladação de S. Agostinho, Bispo, Confessor e Doutor, a 27 de
-        Fevereiro
-      </Text>
+      <H1 text="Trasladação de S. Agostinho, Bispo, Confessor e Doutor, a 27 de Fevereiro" />
 
       <Text className="aside">
         Como na{" "}
@@ -20,7 +19,7 @@ export default function Page0228CoimbraLamegoLeiria() {
         , excepto:
       </Text>
 
-      <Text className="h2">Oração</Text>
+      <H2 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -35,7 +34,7 @@ export default function Page0228CoimbraLamegoLeiria() {
         </Text>
       </Language>
 
-      <Text className="h2">Secreta</Text>
+      <H2 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -50,7 +49,7 @@ export default function Page0228CoimbraLamegoLeiria() {
         </Text>
       </Language>
 
-      <Text className="h2">Postcomúnio</Text>
+      <H2 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

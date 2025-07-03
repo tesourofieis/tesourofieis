@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageEccepanisangelorum() {
   return (
     <PageWrapper>
-      <Text className="h1">Ecce panis angelorum</Text>
+      <H1 text="Ecce panis angelorum" />
 
       <Language>
         <Text className="latin">

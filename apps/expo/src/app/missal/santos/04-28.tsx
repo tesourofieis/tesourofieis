@@ -2,11 +2,13 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0428() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Paulo da Cruz, Conf., a 28 de Abril</Text>
+      <H1 text="S. Paulo da Cruz, Conf., a 28 de Abril" />
 
       <Text className="comment">
         São Paulo da Cruz nasceu em Novarda (Estado de Génova) em 1694. Como
@@ -21,7 +23,7 @@ export default function Page0428() {
         Salvador Crucificado, para nos podermos regozijar com Jesus Resuscitado.
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Gl. 2, 19-20</Text>
 
@@ -45,7 +47,7 @@ export default function Page0428() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -64,7 +66,7 @@ export default function Page0428() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">1 Cor. 1, 17-25</Text>
 
@@ -135,14 +137,14 @@ export default function Page0428() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/santos/02-06#evangelho"
         title="S. Tito, B. e Conf."
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Ef. 5, 2</Text>
 
@@ -159,7 +161,7 @@ export default function Page0428() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -175,7 +177,7 @@ export default function Page0428() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">1 Pe. 4, 13</Text>
 
@@ -191,7 +193,7 @@ export default function Page0428() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

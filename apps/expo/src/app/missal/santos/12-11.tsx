@@ -1,12 +1,14 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 import Missa from "../comum/sumospontifices";
 
 export default function Page1211() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Dâmaso I, Papa e Conf., a 11 de Dezembro</Text>
+      <H1 text="S. Dâmaso I, Papa e Conf., a 11 de Dezembro" />
 
       <Text className="comment">
         S. Dâmaso I, espanhol, sucedeu a Libério na cátedra de Pedro, no ano de

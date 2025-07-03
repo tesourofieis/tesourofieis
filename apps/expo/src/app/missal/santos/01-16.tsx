@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,7 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0116() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Marcelo, Papa e Mártir, a 16 de Janeiro</Text>
+      <H1 text="S. Marcelo, Papa e Mártir, a 16 de Janeiro" />
       <Text className="comment">
         Chefe supremo da Igreja (Intr., Grad.) por ocasião das últimas
         perseguições dos imperadores de Roma, S. Marcelo deu testemunho à
@@ -37,7 +39,7 @@ export default function Page0116() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">

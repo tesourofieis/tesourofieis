@@ -1,4 +1,6 @@
 import { Link } from "expo-router";
+import { H1, H3 } from "~/components/Headings";
+
 
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
@@ -7,7 +9,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0309() {
   return (
     <PageWrapper>
-      <Text className="h1">Santa Francisca Romana, Viúva, a 9 de Março</Text>
+      <H1 text="Santa Francisca Romana, Viúva, a 9 de Março" />
 
       <Text className="comment">
         Comemoração S. Francisca Romana, Viúva. Santa Francisca, nobre matrona
@@ -37,7 +39,7 @@ export default function Page0309() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">

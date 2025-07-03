@@ -3,11 +3,13 @@ import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import Magnificat from "./../../canticos/sacros/magnificat";
 import LadainhaSantos from "./../../devocionario/ladainhas/santos";
+import { H1, H2, H3 } from "~/components/Headings";
+
 
 export default function PageQuad66() {
   return (
     <PageWrapper>
-      <Text className="h1">Sábado Santo</Text>
+      <H1 text="Sábado Santo" />
       <Text className="aside">
         A Estação é em São João de Latrão. Na basílica mãe e mestra do mundo
         cristão, celebra a Igreja a primeira Missa de Páscoa e recebe em seu
@@ -27,7 +29,7 @@ export default function PageQuad66() {
         do Sábado, constatando-se assim uma transição súbita da tristeza à
         alegria e certas anomalias que esta observação faz compreender.
       </Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Deus, qui per Fílium tuum, angulárem scílicet lápidem, claritátis tuæ
@@ -48,7 +50,7 @@ export default function PageQuad66() {
           perpétua. Pelo mesmo Cristo, nosso Senhor. Amen.
         </Text>
       </Language>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Dómine Deus, Pater omnípotens, lumen indefíciens, qui es cónditor
@@ -71,7 +73,7 @@ export default function PageQuad66() {
           Cristo, nosso Senhor. <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Dómine sancte, Pater omnípotens, ætérne Deus: benedicéntibus nobis
@@ -89,7 +91,7 @@ export default function PageQuad66() {
           <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h3">Bênção do Incenso</Text>
+      <H3 text="Bênção do Incenso" />
       <Language>
         <Text className="latin">
           Véniat, quǽsumus, omnípotens Deus, super hoc incénsum larga tuæ
@@ -159,7 +161,7 @@ export default function PageQuad66() {
           <Text className="response"> ℟. </Text> Dêmos graças a Deus.
         </Text>
       </Language>
-      <Text className="h3">Bênção do Círio Pascal</Text>
+      <H3 text="Bênção do Círio Pascal" />
       <Text className="text-base">
         O Diácono pede a Bênção ao Celebrante e o Sacerdote:
       </Text>
@@ -396,7 +398,7 @@ export default function PageQuad66() {
           <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h3">Primeira Profecia</Text>
+      <H3 text="Primeira Profecia" />
       <Text className="em">Gn. 1, 1-31; 2, 1-2</Text>
       <Language>
         <Text className="latin">
@@ -545,7 +547,7 @@ export default function PageQuad66() {
           Senhor...
         </Text>
       </Language>
-      <Text className="h3">Segunda Profecia</Text>
+      <H3 text="Segunda Profecia" />
       <Text className="em">Gn. 5; 6; 7 & 8</Text>
       <Language>
         <Text className="latin">
@@ -749,7 +751,7 @@ export default function PageQuad66() {
           Senhor Jesus Cristo, vosso Filho, que convosco vive...
         </Text>
       </Language>
-      <Text className="h3">Terceira Profecia</Text>
+      <H3 text="Terceira Profecia" />
       <Text className="em">Gn. 22, 1-19</Text>
       <Language>
         <Text className="latin">
@@ -858,7 +860,7 @@ export default function PageQuad66() {
           Senhor...
         </Text>
       </Language>
-      <Text className="h3">Quarta Profecia</Text>
+      <H3 text="Quarta Profecia" />
       <Text className="em">Ex. 14, 24-31; 15, 1</Text>
       <Language>
         <Text className="latin">
@@ -902,7 +904,7 @@ export default function PageQuad66() {
           Moisés e os filhos de Israel cantaram a Deus este hino:
         </Text>
       </Language>
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
       <Text className="em">Ex. 15, 1 & 2</Text>
       <Language>
         <Text className="latin">
@@ -956,7 +958,7 @@ export default function PageQuad66() {
           concedidas ao povo de Israel. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Quinta Profecia</Text>
+      <H3 text="Quinta Profecia" />
       <Text className="em">Is. 54, 17; 55, 1-11</Text>
       <Language>
         <Text className="latin">
@@ -1047,7 +1049,7 @@ export default function PageQuad66() {
           haviam de se cumprir. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Sexta Profecia</Text>
+      <H3 text="Sexta Profecia" />
       <Text className="em">Br. 3, 9-38</Text>
       <Language>
         <Text className="latin">
@@ -1166,7 +1168,7 @@ export default function PageQuad66() {
           nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Sétima Profecia</Text>
+      <H3 text="Sétima Profecia" />
       <Text className="em">Ez. 37, 1-14</Text>
       <Language>
         <Text className="latin">
@@ -1260,7 +1262,7 @@ export default function PageQuad66() {
           Senhor...
         </Text>
       </Language>
-      <Text className="h3">Oitava Profecia</Text>
+      <H3 text="Oitava Profecia" />
       <Text className="em">Is. 4, 1-6</Text>
       <Language>
         <Text className="latin">
@@ -1297,7 +1299,7 @@ export default function PageQuad66() {
           calor do dia, e de refúgio e abrigo, durante a tempestade e a chuva.
         </Text>
       </Language>
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
       <Text className="em">Is. 5, 1 & 2</Text>
       <Language>
         <Text className="latin">
@@ -1350,7 +1352,7 @@ export default function PageQuad66() {
           abundantes frutos. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Nona Profecia</Text>
+      <H3 text="Nona Profecia" />
       <Text className="em">Ex. 12, 1-11</Text>
       <Language>
         <Text className="latin">
@@ -1429,7 +1431,7 @@ export default function PageQuad66() {
           tempos. O qual, sendo Deus...
         </Text>
       </Language>
-      <Text className="h3">Décima Profecia</Text>
+      <H3 text="Décima Profecia" />
       <Text className="em">Jn. 3, 1-10</Text>
       <Language>
         <Text className="latin">
@@ -1505,7 +1507,7 @@ export default function PageQuad66() {
           Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Décima Primeira Profecia</Text>
+      <H3 text="Décima Primeira Profecia" />
       <Text className="em">Dt. 31, 22-30</Text>
       <Language>
         <Text className="latin">
@@ -1548,7 +1550,7 @@ export default function PageQuad66() {
           palavras deste cântico até ao fim:
         </Text>
       </Language>
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
       <Text className="em">Dt. 32, 1-4</Text>
       <Language>
         <Text className="latin">
@@ -1609,7 +1611,7 @@ export default function PageQuad66() {
           se torne em salvação. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Décima Segunda Profecia</Text>
+      <H3 text="Décima Segunda Profecia" />
       <Text className="em">Dn. 3, 1-24</Text>
       <Language>
         <Text className="latin">
@@ -1760,12 +1762,12 @@ export default function PageQuad66() {
           nosso Senhor...
         </Text>
       </Language>
-      <Text className="h2">Bênção da Pia Baptismal</Text>
+      <H2 text="Bênção da Pia Baptismal" />
       <Text className="text-base">
         Dirige-se agora a Procissão para a Pia Baptismal. Durante o percurso
         canta-se:
       </Text>
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
       <Text className="em">Sl. 41, 2-4</Text>
       <Language>
         <Text className="latin">
@@ -1785,7 +1787,7 @@ export default function PageQuad66() {
           teu Deus?
         </Text>
       </Language>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Omnípotens sempitérne Deus, réspice propítius ad devotiónem pópuli
@@ -1802,7 +1804,7 @@ export default function PageQuad66() {
           Por nosso Senhor... <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Omnípotens sempitérne Deus, adésto magnæ pietátis tuæ mystériis,
@@ -1821,7 +1823,7 @@ export default function PageQuad66() {
           poder. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Prefácio</Text>
+      <H3 text="Prefácio" />
       <Language>
         <Text className="latin">
           Vere dignum et justum est, æquum et salutáre, nos tibi semper et
@@ -2123,10 +2125,10 @@ export default function PageQuad66() {
           <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h3">Ladainha dos Santos</Text>
+      <H3 text="Ladainha dos Santos" />
       <LadainhaSantos />
-      <Text className="h2">Missa de Sábado Santo</Text>
-      <Text className="h3">Oração</Text>
+      <H2 text="Missa de Sábado Santo" />
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Deus, qui hanc sacratíssimam noctem glória Domínicæ Resurrectiónis
@@ -2142,7 +2144,7 @@ export default function PageQuad66() {
           Senhor...
         </Text>
       </Language>
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
       <Text className="em">Cl. 3, 1-4</Text>
       <Language>
         <Text className="latin">
@@ -2177,7 +2179,7 @@ export default function PageQuad66() {
           pois a sua misericórdia é eterna!
         </Text>
       </Language>
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
       <Text className="em">Sl. 116, 1-2</Text>
       <Language>
         <Text className="latin">
@@ -2192,7 +2194,7 @@ export default function PageQuad66() {
           confirmou-se e a fidelidade do Senhor permanecerá eternamente.
         </Text>
       </Language>
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
       <Text className="em">Mt. 28, 1-7</Text>
       <Language>
         <Text className="latin">
@@ -2231,7 +2233,7 @@ export default function PageQuad66() {
           Galileia, onde o vereis. Eis o que antecipadamente vos anuncio».
         </Text>
       </Language>
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <Language>
         <Text className="latin">
           Suscipe, quǽsumus, Dómine, preces pópuli tui, cum oblatiónibus
@@ -2245,7 +2247,7 @@ export default function PageQuad66() {
           eternidade. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Comunicantes</Text>
+      <H3 text="Comunicantes" />
       <Text className="aside">Diz-se até ao Sábado seguinte</Text>
       <Language>
         <Text className="latin">
@@ -2262,7 +2264,7 @@ export default function PageQuad66() {
           mais como ordinariamente).
         </Text>
       </Language>
-      <Text className="h3">Hanc ígitur</Text>
+      <H3 text="Hanc ígitur" />
       <Text className="aside">Diz-se até ao Sábado seguinte</Text>
       <Language>
         <Text className="latin">
@@ -2287,13 +2289,13 @@ export default function PageQuad66() {
         E o restante como no Ordinário da Missa, menos o Agnus Dei. Após a
         Comunhão, cantam-se as:
       </Text>
-      <Text className="h2">Vésperas</Text>
-      <Text className="h3">Antífona</Text>
+      <H2 text="Vésperas" />
+      <H3 text="Antífona" />
       <Language>
         <Text className="latin">Allelúja, allelúja, allelúja!</Text>
         <Text className="vernacular">Aleluia, aleluia, aleluia!</Text>
       </Language>
-      <Text className="h3">Salmo 116</Text>
+      <H3 text="Salmo 116" />
       <Text className="em">Sl. 116, 1-2</Text>
       <Language>
         <Text className="latin">
@@ -2308,7 +2310,7 @@ export default function PageQuad66() {
         </Text>
       </Language>
       <Text className="aside">Repete-se a Antífona anterior.</Text>
-      <Text className="h3">Antífona</Text>
+      <H3 text="Antífona" />
       <Language>
         <Text className="latin">
           Véspere autem sábbati, quæ lucéscit in prima sábbati, venit María
@@ -2320,11 +2322,11 @@ export default function PageQuad66() {
           Aleluia.
         </Text>
       </Language>
-      <Text className="h3">Magnificat</Text>
+      <H3 text="Magnificat" />
       <Text className="em">Lc. 1, 46-55</Text>
       <Magnificat />
       <Text className="aside">Repete-se a Antífona anterior.</Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Spíritum nobis, Dómine, tuæ caritátis infúnde: ut, quos sacraméntis

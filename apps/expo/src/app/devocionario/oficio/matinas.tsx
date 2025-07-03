@@ -15,11 +15,13 @@ import Salmo94 from "./../salterio/094";
 import Salmo95 from "./../salterio/095";
 import Salmo96 from "./../salterio/096";
 import Salmo97 from "./../salterio/097";
+import { H1, H2 } from "~/components/Headings";
+
 
 export default function PageMatinas() {
   return (
     <PageWrapper>
-      <Text className="h1">Matinas</Text>
+      <H1 text="Matinas" />
 
       <Text className="aside">
         Meditemos no nascimento do Salvador, no monte das oliveiras, na sua
@@ -89,7 +91,7 @@ export default function PageMatinas() {
         </Text>
       </Language>
 
-      <Text className="h2">Invitatório</Text>
+      <H2 text="Invitatório" />
 
       <Language>
         <Text className="latin">Ave Maria, gratia plena, Dominus tecum.</Text>
@@ -98,7 +100,7 @@ export default function PageMatinas() {
         </Text>
       </Language>
 
-      <Text className="h2">Salmo 94</Text>
+      <H2 text="Salmo 94" />
 
       <Salmo94 />
 
@@ -217,13 +219,13 @@ export default function PageMatinas() {
         </Text>
       </Language>
 
-      <Text className="h2">Hino Quem terra</Text>
+      <H2 text="Hino Quem terra" />
 
       <QuemTerra />
 
       <Tabs>
         <TabItem label="Domingo, Segunda e Quinta feira">
-          <Text className="h2">Primeiro Nocturno</Text>
+          <H2 text="Primeiro Nocturno" />
 
           <Language>
             <Text className="latin">
@@ -236,7 +238,7 @@ export default function PageMatinas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 8</Text>
+          <H2 text="Salmo 8" />
 
           <Salmo8 />
 
@@ -262,7 +264,7 @@ export default function PageMatinas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 18</Text>
+          <H2 text="Salmo 18" />
 
           <Salmo18 />
 
@@ -288,7 +290,7 @@ export default function PageMatinas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 23</Text>
+          <H2 text="Salmo 23" />
 
           <Salmo23 />
 
@@ -304,7 +306,7 @@ export default function PageMatinas() {
           </Language>
         </TabItem>
         <TabItem label="Terça e Sexta feira">
-          <Text className="h2">Segundo Nocturno</Text>
+          <H2 text="Segundo Nocturno" />
 
           <Language>
             <Text className="latin">
@@ -317,7 +319,7 @@ export default function PageMatinas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 44</Text>
+          <H2 text="Salmo 44" />
 
           <Salmo44 />
 
@@ -344,7 +346,7 @@ export default function PageMatinas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 45</Text>
+          <H2 text="Salmo 45" />
 
           <Salmo45 />
 
@@ -371,7 +373,7 @@ export default function PageMatinas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 86</Text>
+          <H2 text="Salmo 86" />
 
           <Salmo86 />
 
@@ -388,7 +390,7 @@ export default function PageMatinas() {
         </TabItem>
 
         <TabItem label="Quarta-feira e Sábado">
-          <Text className="h2">Terceiro Nocturno</Text>
+          <H2 text="Terceiro Nocturno" />
 
           <Tabs>
             <TabItem label="Depois da Purificação">
@@ -419,7 +421,7 @@ export default function PageMatinas() {
             </TabItem>
           </Tabs>
 
-          <Text className="h2">Salmo 95</Text>
+          <H2 text="Salmo 95" />
 
           <Salmo95 />
 
@@ -447,7 +449,7 @@ export default function PageMatinas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 96</Text>
+          <H2 text="Salmo 96" />
 
           <Salmo96 />
 
@@ -492,7 +494,7 @@ export default function PageMatinas() {
             </TabItem>
           </Tabs>
 
-          <Text className="h2">Salmo 97</Text>
+          <H2 text="Salmo 97" />
 
           <Salmo97 />
 
@@ -527,7 +529,7 @@ export default function PageMatinas() {
         </TabItem>
       </Tabs>
 
-      <Text className="h2">Versículo</Text>
+      <H2 text="Versículo" />
 
       <Language>
         <Text className="latin">
@@ -564,7 +566,7 @@ export default function PageMatinas() {
         </Text>
       </Language>
 
-      <Text className="h2">Absolvição</Text>
+      <H2 text="Absolvição" />
 
       <Language>
         <Text className="latin">
@@ -589,7 +591,7 @@ export default function PageMatinas() {
         </Text>
       </Language>
 
-      <Text className="h2">Bênção</Text>
+      <H2 text="Bênção" />
 
       <Language>
         <Text className="latin">Nos cum prole pia benedicat Virgo Maria.</Text>
@@ -606,7 +608,7 @@ export default function PageMatinas() {
 
       <Tabs>
         <TabItem label="Depois da Natal">
-          <Text className="h2">Lição 1</Text>
+          <H2 text="Lição 1" />
 
           <Text className="em">Ecl. 24, 11-13</Text>
 
@@ -686,7 +688,7 @@ export default function PageMatinas() {
             </Text>
           </Language>
 
-          <Text className="h2">Lição 2</Text>
+          <H2 text="Lição 2" />
 
           <Text className="em">Ecl. 24, 15-16</Text>
 
@@ -776,7 +778,7 @@ export default function PageMatinas() {
             </Text>
           </Language>
 
-          <Text className="h2">Bênção</Text>
+          <H2 text="Bênção" />
 
           <Language>
             <Text className="latin">
@@ -793,7 +795,7 @@ export default function PageMatinas() {
             </Text>
           </Language>
 
-          <Text className="h2">Lição 3</Text>
+          <H2 text="Lição 3" />
 
           <Text className="em">Ecl. 24, 17-20</Text>
 
@@ -884,7 +886,7 @@ export default function PageMatinas() {
         </TabItem>
 
         <TabItem label="No Advento">
-          <Text className="h2">Lição 1</Text>
+          <H2 text="Lição 1" />
 
           <Text className="em">Lc. 1, 26-28</Text>
 
@@ -968,7 +970,7 @@ export default function PageMatinas() {
             </Text>
           </Language>
 
-          <Text className="h2">Lição 2</Text>
+          <H2 text="Lição 2" />
 
           <Text className="em">Lc. 1, 29-33</Text>
 
@@ -1070,7 +1072,7 @@ export default function PageMatinas() {
             </Text>
           </Language>
 
-          <Text className="h2">Bênção</Text>
+          <H2 text="Bênção" />
 
           <Language>
             <Text className="latin">
@@ -1087,7 +1089,7 @@ export default function PageMatinas() {
             </Text>
           </Language>
 
-          <Text className="h2">Lição 3</Text>
+          <H2 text="Lição 3" />
 
           <Text className="em">Lc. 1, 34-38</Text>
 
@@ -1184,7 +1186,7 @@ export default function PageMatinas() {
         </TabItem>
       </Tabs>
 
-      <Text className="h2">Te Deum</Text>
+      <H2 text="Te Deum" />
 
       <TeDeum />
 

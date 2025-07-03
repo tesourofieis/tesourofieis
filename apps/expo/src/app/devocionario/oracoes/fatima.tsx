@@ -1,16 +1,18 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1, H2 } from "~/components/Headings";
+
 
 export default function PageFatima() {
   return (
     <PageWrapper>
-      <Text className="h1">Fátima</Text>
-      <Text className="h2">Meu Deus pelo Anjo de Portugal</Text>
+      <H1 text="Fátima" />
+      <H2 text="Meu Deus pelo Anjo de Portugal" />
       <Text className="text-base">
         Meu Deus! Eu creio, adoro, espero e amo-Vos. Peço-Vos perdão para os que
         não crêem, não adoram, não esperam e não Vos amam!
       </Text>
-      <Text className="h2">Santíssima Trindade pelo Anjo de Portugal</Text>
+      <H2 text="Santíssima Trindade pelo Anjo de Portugal" />
       <Text className="text-base">
         Santíssima Trindade, Pai, Filho e Espírito Santo, adoro-Vos
         profundamente e ofereço-Vos o Preciosíssimo Corpo, Sangue, Alma e
@@ -20,23 +22,23 @@ export default function PageFatima() {
         Coração e do Coração Imaculado de Maria, peço-Vos a conversão dos pobres
         pecadores.
       </Text>
-      <Text className="h2">Nossa Senhora aos Santos Pastorinhos</Text>
+      <H2 text="Nossa Senhora aos Santos Pastorinhos" />
       <Text className="text-base">
         Ó meu Jesus, perdoai-nos e livrai-nos do fogo do inferno, levai as
         alminhas todas para o Céu e socorrei principalmente as que mais
         precisarem.
       </Text>
-      <Text className="h2">Imaculado Coração de Maria</Text>
+      <H2 text="Imaculado Coração de Maria" />
       <Text className="text-base">
         Ó Jesus, é por vosso amor, pela conversão dos pecadores e em reparação
         pelos pecados cometidos contra o Imaculado Coração de Maria!
       </Text>
-      <Text className="h2">Santíssimo Sacramento</Text>
+      <H2 text="Santíssimo Sacramento" />
       <Text className="text-base">
         Ó Santíssima Trindade, eu Vos adoro. Meu Deus, meu Deus, eu Vos amo no
         Santíssimo Sacramento.
       </Text>
-      <Text className="h2">Avé de Fátima</Text>
+      <H2 text="Avé de Fátima" />
       <Text className="text-base">
         Avé, Avé, Avé Maria! Avé, Avé, Avé Maria! A Virgem Maria, Cercada de
         luz, Nossa Mãe bendita, E Mãe de Jesus. Foi aos pastorinhos, Que a
@@ -54,7 +56,7 @@ export default function PageFatima() {
         Tenham nossas almas, Só bondade e amor. Avé, Virgem Santa, Estrela que
         nos guia, Avé, Mãe Pátria. Oh! Virgem Maria!
       </Text>
-      <Text className="h2">Hino dos Pastorinhos</Text>
+      <H2 text="Hino dos Pastorinhos" />
       <Text className="text-base">
         Cantemos, alegres, a uma só voz: Francisco e Jacinta rogai por nós.
         Salve, salve, Pastorinhos, Nosso encanto e alegria, Salve, salve,

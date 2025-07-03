@@ -2,13 +2,15 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0313Portugal() {
   return (
     <PageWrapper>
-      <Text className="h1">B. B. Sancha e Mafalda, Virgens, a 13 de Março</Text>
+      <H1 text="B. B. Sancha e Mafalda, Virgens, a 13 de Março" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 44, 9 & 16</Text>
 
@@ -31,7 +33,7 @@ export default function Page0313Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -49,14 +51,14 @@ export default function Page0313Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <LinkCard
         href="/missal/comum/19muitasvirgensmartires#epístola"
         title="Muitas Virgens Mártires"
       />
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 148, 12-13</Text>
 
@@ -74,7 +76,7 @@ export default function Page0313Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 44, 7</Text>
 
@@ -97,14 +99,14 @@ export default function Page0313Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/comum/17virgensmartires1#evangelho"
         title="Virgens Mártires - Missa Loquébar"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Language>
         <Text className="latin">
@@ -117,7 +119,7 @@ export default function Page0313Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -133,7 +135,7 @@ export default function Page0313Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Pr. 4, 1</Text>
 
@@ -149,7 +151,7 @@ export default function Page0313Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

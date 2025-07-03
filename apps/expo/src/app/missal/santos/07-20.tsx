@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0720() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Jerónimo Emiliano, Conf., a 20 de Julho</Text>
+      <H1 text="S. Jerónimo Emiliano, Conf., a 20 de Julho" />
 
       <Text className="comment">
         Nascido em Veneza, da familia patrícia dos Emiliani, Jerónimo
@@ -27,7 +29,7 @@ export default function Page0720() {
         indigentes e as crianças.
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Lm. 2, 11</Text>
 
@@ -49,7 +51,7 @@ export default function Page0720() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -67,7 +69,7 @@ export default function Page0720() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Is. 58, 7-11</Text>
 
@@ -107,7 +109,7 @@ export default function Page0720() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Pr. 5, 16</Text>
 
@@ -140,7 +142,7 @@ export default function Page0720() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 19, 13-21</Text>
 
@@ -188,7 +190,7 @@ export default function Page0720() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Tb. 12, 12</Text>
 
@@ -206,7 +208,7 @@ export default function Page0720() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -224,7 +226,7 @@ export default function Page0720() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Tg. 1, 27</Text>
 
@@ -241,7 +243,7 @@ export default function Page0720() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

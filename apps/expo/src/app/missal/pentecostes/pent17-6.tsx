@@ -2,13 +2,15 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PagePent176() {
   return (
     <PageWrapper>
-      <Text className="h1">Sábado das Têmporas de Setembro</Text>
+      <H1 text="Sábado das Têmporas de Setembro" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl 94:6-7</Text>
 
@@ -29,7 +31,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -47,7 +49,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">1.ª Lição</Text>
+      <H3 text="1.ª Lição" />
 
       <Text className="em">Lev. 23:26-32</Text>
 
@@ -83,7 +85,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl 78:9-10</Text>
 
@@ -101,7 +103,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -115,7 +117,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">2.ª Lição</Text>
+      <H3 text="2.ª Lição" />
 
       <Text className="em">Lev. 23:39-43</Text>
 
@@ -153,7 +155,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl 83:10, 9</Text>
 
@@ -170,7 +172,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -184,7 +186,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">3.ª Lição</Text>
+      <H3 text="3.ª Lição" />
 
       <Text className="em">Mq 7:14, 16, 18-20</Text>
 
@@ -216,7 +218,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl 89:13, 1</Text>
 
@@ -233,7 +235,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -247,7 +249,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">4.ª Lição</Text>
+      <H3 text="4.ª Lição" />
 
       <Text className="em">Zc 8:14-19</Text>
 
@@ -288,7 +290,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl 140:2</Text>
 
@@ -305,7 +307,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -319,7 +321,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">5.ª Lição</Text>
+      <H3 text="5.ª Lição" />
 
       <Text className="em">Dan 3:47-51</Text>
 
@@ -349,14 +351,14 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Hino Benedictus Es</Text>
+      <H3 text="Hino Benedictus Es" />
 
       <LinkCard
         href="/missal/advento/adv03-6#hino-benedictus-es"
         title="Sábado das Têmporas do Inverno - Estação em São Pedro"
       />
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -370,7 +372,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Heb 9:2-12</Text>
 
@@ -433,7 +435,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl 116:1-2</Text>
 
@@ -451,7 +453,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc 13:6-17</Text>
 
@@ -513,7 +515,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl 87:2-3</Text>
 
@@ -528,7 +530,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -543,7 +545,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Lev 21:41, 43</Text>
 
@@ -560,7 +562,7 @@ export default function PagePent176() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

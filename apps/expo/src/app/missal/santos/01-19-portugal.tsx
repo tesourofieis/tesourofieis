@@ -3,13 +3,13 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0119Portugal() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. Gonçalo de Amarante, Confesso, a 19 de Janeiro
-      </Text>
+      <H1 text="S. Gonçalo de Amarante, Confesso, a 19 de Janeiro" />
 
       <Text className="aside">
         Como na
@@ -19,7 +19,7 @@ export default function Page0119Portugal() {
         excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -36,9 +36,7 @@ export default function Page0119Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">
-        Oração Comemoração S. S. Mário e Outros Mártires
-      </Text>
+      <H3 text="Oração Comemoração S. S. Mário e Outros Mártires" />
 
       <Language>
         <Text className="latin">
@@ -53,7 +51,7 @@ export default function Page0119Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração Comemoração S. Canuto</Text>
+      <H3 text="Oração Comemoração S. Canuto" />
 
       <Language>
         <Text className="latin">
@@ -72,14 +70,14 @@ export default function Page0119Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <LinkCard
         href="/missal/santos/01-15-1#epístola"
         title="Epístola S. Paulo, 1.º Eremita"
       />
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 20, 4</Text>
 
@@ -114,7 +112,7 @@ export default function Page0119Portugal() {
         Após a Septuagésima omite-se o Aleluia e o Verso e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 111, 1-3</Text>
 
@@ -135,14 +133,14 @@ export default function Page0119Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/santos/01-15-1#evangelho"
         title="S. Paulo, 1.º Eremita, Conf."
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 91, 13</Text>
 
@@ -157,9 +155,7 @@ export default function Page0119Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">
-        Secreta Comemoração S. S. Mário e Outros Mártires
-      </Text>
+      <H3 text="Secreta Comemoração S. S. Mário e Outros Mártires" />
 
       <Language>
         <Text className="latin">
@@ -174,7 +170,7 @@ export default function Page0119Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Text className="em">S. Canuto</Text>
 
@@ -191,7 +187,7 @@ export default function Page0119Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 19, 91, 13</Text>
 
@@ -206,9 +202,7 @@ export default function Page0119Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">
-        Postcomúnio Comemoração S. S. Mário e Outros Mártires
-      </Text>
+      <H3 text="Postcomúnio Comemoração S. S. Mário e Outros Mártires" />
 
       <Language>
         <Text className="latin">
@@ -223,7 +217,7 @@ export default function Page0119Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio Comemoração S. Canuto</Text>
+      <H3 text="Postcomúnio Comemoração S. Canuto" />
 
       <Language>
         <Text className="latin">

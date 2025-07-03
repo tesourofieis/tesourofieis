@@ -1,11 +1,13 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 export default function PageRorate() {
   return (
     <PageWrapper>
-      <Text className="h1">Rorate Caeli</Text>
+      <H1 text="Rorate Caeli" />
 
       <Language>
         <Text className="latin">

@@ -1,14 +1,14 @@
 import { Text, View } from "react-native";
 import PageWrapper from "~/components/Page";
+import { H1 } from "~/components/Headings";
+
 
 import Missa from "./../comum/17virgensmartires1";
 
 export default function Page0130() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Santa Martinha, Virgem e Márt., a 30 de Janeiro
-      </Text>
+      <H1 text="Santa Martinha, Virgem e Márt., a 30 de Janeiro" />
 
       <Text className="comment">
         Honramos hoje uma virgem que, pela sua constância no meio dos mais

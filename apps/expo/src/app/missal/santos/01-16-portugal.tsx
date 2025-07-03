@@ -2,15 +2,15 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0116Portugal() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Os Santos Mártires de Marrocos, a 16 de Janeiro
-      </Text>
+      <H1 text="Os Santos Mártires de Marrocos, a 16 de Janeiro" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 33, 20-21</Text>
 
@@ -32,7 +32,7 @@ export default function Page0116Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -50,7 +50,7 @@ export default function Page0116Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração Comemoração S. Marcelo</Text>
+      <H3 text="Oração Comemoração S. Marcelo" />
 
       <Language>
         <Text className="latin">
@@ -65,14 +65,14 @@ export default function Page0116Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <LinkCard
         href="/missal/comum/15confessoresnaopontifices2#epístola"
         title="Confessores não Pontífices - Missa Justus ut palma"
       />
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 78, 10</Text>
 
@@ -107,7 +107,7 @@ export default function Page0116Portugal() {
         Após a Septuagésima, omite-se o Aleluia e o Verso, e diz-se o Trato:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 125, 5-6</Text>
 
@@ -127,7 +127,7 @@ export default function Page0116Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 10, 16-22</Text>
 
@@ -171,7 +171,7 @@ export default function Page0116Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Pr. 3, 1-3</Text>
 
@@ -187,7 +187,7 @@ export default function Page0116Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -203,7 +203,7 @@ export default function Page0116Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta Comemoração S. Marcelo</Text>
+      <H3 text="Secreta Comemoração S. Marcelo" />
 
       <Language>
         <Text className="latin">
@@ -219,7 +219,7 @@ export default function Page0116Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Lc. 12, 4</Text>
 
@@ -234,7 +234,7 @@ export default function Page0116Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -250,7 +250,7 @@ export default function Page0116Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio Comemoração S. Marcelo</Text>
+      <H3 text="Postcomúnio Comemoração S. Marcelo" />
 
       <Language>
         <Text className="latin">

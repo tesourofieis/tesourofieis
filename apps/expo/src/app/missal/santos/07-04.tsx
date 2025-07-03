@@ -3,11 +3,13 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function Page0704() {
   return (
     <PageWrapper>
-      <Text className="h1">Santa Isabel, Rainha de Portugal, a 4 de Julho</Text>
+      <H1 text="Santa Isabel, Rainha de Portugal, a 4 de Julho" />
 
       <Text className="comment">
         A Igreja nos exorta hoje a louvar a Deus pelas santas obras da
@@ -23,7 +25,7 @@ export default function Page0704() {
         Morreu em 1336, em Coimbra. Seu corpo conservou-se intacto.
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Language>
         <Text className="latin">
@@ -43,7 +45,7 @@ export default function Page0704() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -61,7 +63,7 @@ export default function Page0704() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Ecl. 26, 19-24</Text>
 
@@ -90,7 +92,7 @@ export default function Page0704() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Language>
         <Text className="latin">
@@ -119,14 +121,14 @@ export default function Page0704() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/comum/18virgensmartires2#evangelho"
         title="Virgens Mártires - Missa Me exspectavérunt"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 44, 13 & 10</Text>
 
@@ -141,7 +143,7 @@ export default function Page0704() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -159,7 +161,7 @@ export default function Page0704() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 44, 10</Text>
 
@@ -174,7 +176,7 @@ export default function Page0704() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

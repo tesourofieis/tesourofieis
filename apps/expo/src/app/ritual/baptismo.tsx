@@ -2,13 +2,15 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import PaiNosso from "./../devocionario/oracoes/painosso";
+import { H1, H2 } from "~/components/Headings";
+
 
 export default function PageBaptismo() {
   return (
     <PageWrapper>
-      <Text className="h1">Baptismo</Text>
+      <H1 text="Baptismo" />
 
-      <Text className="h1">Apresentação do neófito e interrogatório</Text>
+      <H1 text="Apresentação do neófito e interrogatório" />
 
       <Text className="aside">
         Aquele que vai receber o Baptismo, estacionará à entrada do Templo,
@@ -57,9 +59,9 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h1">Exorcismos e Ritos preparatórios</Text>
+      <H1 text="Exorcismos e Ritos preparatórios" />
 
-      <Text className="h2">Insuflação</Text>
+      <H2 text="Insuflação" />
 
       <Text className="aside">
         O Sacerdote sopra levemente três vezes sobre a cabeça do Neófito:
@@ -76,7 +78,7 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h2">Assinalação da Cruz no peito</Text>
+      <H2 text="Assinalação da Cruz no peito" />
 
       <Text className="aside">
         O Sacerdote fará o sinal da Cruz na testa e no peito do Neófito:
@@ -133,7 +135,7 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h2">Imposição da mão</Text>
+      <H2 text="Imposição da mão" />
 
       <Text className="aside">
         O Sacerdote coloca a sua mão direita sobre a cabeça do Neófito:
@@ -178,7 +180,7 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h2">Bênção do sal</Text>
+      <H2 text="Bênção do sal" />
 
       <Language>
         <Text className="latin">
@@ -303,7 +305,7 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h2">Abjuração</Text>
+      <H2 text="Abjuração" />
 
       <Text className="aside">O Sacerdote continua, em tom imperativo:</Text>
 
@@ -351,7 +353,7 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h2">Assinalação da Cruz na Testa</Text>
+      <H2 text="Assinalação da Cruz na Testa" />
 
       <Text className="aside">
         O Sacerdote impõe o sinal da Cruz na testa do Neófito:
@@ -376,7 +378,7 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h2">Imposição da mão</Text>
+      <H2 text="Imposição da mão" />
 
       <Text className="aside">
         O Sacerdote impõe sobre a cabeça do Neófito a sua mão direita:
@@ -417,9 +419,9 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h1">Entrada no Templo</Text>
+      <H1 text="Entrada no Templo" />
 
-      <Text className="h2">Imposição da estola</Text>
+      <H2 text="Imposição da estola" />
 
       <Text className="aside">
         O Sacerdote impõe a Estola sobre a cabeça do Neófito e entra com ele e
@@ -445,14 +447,14 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h1">Iniciação na fé</Text>
+      <H1 text="Iniciação na fé" />
 
       <Text className="aside">
         O cortejo caminha até próximo da Fonte Baptismal e recitam em voz alta o
         Credo e o Pater Noster.
       </Text>
 
-      <Text className="h2">Creio em Deus</Text>
+      <H2 text="Creio em Deus" />
 
       <Language>
         <Text className="latin">
@@ -478,13 +480,13 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h2">Pai-Nosso</Text>
+      <H2 text="Pai-Nosso" />
 
       <PaiNosso />
 
       <Text className="aside">O Sacerdote faz o:</Text>
 
-      <Text className="h1">Último Exorcismo</Text>
+      <H1 text="Último Exorcismo" />
 
       <Language>
         <Text className="latin">
@@ -518,7 +520,7 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h2">Insalivação</Text>
+      <H2 text="Insalivação" />
 
       <Text className="aside">
         O Sacerdote com a saliva da sua boca toca nas orelhas do Neófito:
@@ -544,7 +546,7 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h1">Renúncia a Satanás</Text>
+      <H1 text="Renúncia a Satanás" />
 
       <Text className="aside">
         O Sacerdote começa o interrogatório, ao qual devem responder com voz
@@ -592,7 +594,7 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h1">Unção Catecumenal</Text>
+      <H1 text="Unção Catecumenal" />
 
       <Text className="aside">
         O Sacerdote unge no peito e entre as espáduas o Neófito. Para que estas
@@ -624,7 +626,7 @@ export default function PageBaptismo() {
         substitui-a pela Estola de cor branca.
       </Text>
 
-      <Text className="h1">Confissão da Fé</Text>
+      <H1 text="Confissão da Fé" />
 
       <Text className="aside">
         O Sacerdote entra no Baptistério, acompanhado pelo Neófito e pelos
@@ -681,7 +683,7 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h1">Ablução Baptismal</Text>
+      <H1 text="Ablução Baptismal" />
 
       <Text className="aside">
         Terminada a Confissão da Fé, o Sacerdote interroga:
@@ -749,7 +751,7 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h1">Unção Crismal</Text>
+      <H1 text="Unção Crismal" />
 
       <Text className="aside">
         O Sacerdote dirige a Deus a seguinte súplica:
@@ -796,7 +798,7 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h2">Veste Branca</Text>
+      <H2 text="Veste Branca" />
 
       <Language>
         <Text className="latin">
@@ -817,7 +819,7 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h2">Vela Acesa</Text>
+      <H2 text="Vela Acesa" />
 
       <Language>
         <Text className="latin">
@@ -841,7 +843,7 @@ export default function PageBaptismo() {
         </Text>
       </Language>
 
-      <Text className="h2">Despedida</Text>
+      <H2 text="Despedida" />
 
       <Language>
         <Text className="latin">

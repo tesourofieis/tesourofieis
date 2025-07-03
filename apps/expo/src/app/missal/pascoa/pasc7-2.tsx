@@ -1,13 +1,15 @@
 import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PagePasc72() {
   return (
     <PageWrapper>
-      <Text className="h1">Terça-feira de Pentecostes</Text>
+      <H1 text="Terça-feira de Pentecostes" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">4 Esd. 2, 36 & 37</Text>
 
@@ -28,7 +30,7 @@ export default function PagePasc72() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -43,7 +45,7 @@ export default function PagePasc72() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Act. 8, 14-17</Text>
 
@@ -87,7 +89,7 @@ export default function PagePasc72() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 10, 1-10</Text>
 
@@ -135,7 +137,7 @@ export default function PagePasc72() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 77, 23-25</Text>
 
@@ -150,7 +152,7 @@ export default function PagePasc72() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -164,7 +166,7 @@ export default function PagePasc72() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Jo. 15, 26; 16, 14; 17, 1 & 5</Text>
 
@@ -179,7 +181,7 @@ export default function PagePasc72() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

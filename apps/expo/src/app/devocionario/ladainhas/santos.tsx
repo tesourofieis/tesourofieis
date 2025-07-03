@@ -2,11 +2,13 @@ import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import Salmo69 from "../salterio/069";
+import { H1, H3 } from "~/components/Headings";
+
 
 export default function PageSantos() {
   return (
     <PageWrapper>
-      <Text className="h1">Ladainha de Todos os Santos</Text>
+      <H1 text="Ladainha de Todos os Santos" />
 
       <Language>
         <Text className="latin">Kyrie eleison</Text>
@@ -486,7 +488,7 @@ export default function PageSantos() {
         <Text className="vernacular">Mais livrai-nos do mal.</Text>
       </Language>
 
-      <Text className="h3">Salmo 69</Text>
+      <H3 text="Salmo 69" />
 
       <Salmo69 />
 

@@ -10,11 +10,13 @@ import Salmo62 from "./../salterio/062";
 import Salmo92 from "./../salterio/092";
 import Salmo99 from "./../salterio/099";
 import Salmo148 from "./../salterio/148";
+import { H1, H2 } from "~/components/Headings";
+
 
 export default function PageLaudes() {
   return (
     <PageWrapper>
-      <Text className="h1">Laudes</Text>
+      <H1 text="Laudes" />
 
       <Text className="aside">
         Meditemos na ressurreição e na assunção de Maria, que, segundo piedosa
@@ -69,7 +71,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 92</Text>
+          <H2 text="Salmo 92" />
 
           <Salmo92 />
 
@@ -96,7 +98,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 99</Text>
+          <H2 text="Salmo 99" />
 
           <Salmo99 />
 
@@ -123,7 +125,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 62</Text>
+          <H2 text="Salmo 62" />
 
           <Salmo62 />
 
@@ -149,7 +151,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Benedicite</Text>
+          <H2 text="Benedicite" />
 
           <Benedicite />
 
@@ -177,7 +179,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 148</Text>
+          <H2 text="Salmo 148" />
 
           <Salmo148 />
 
@@ -192,7 +194,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Ct. 6, 8</Text>
 
@@ -213,11 +215,11 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Hino O Gloriosa Virginum</Text>
+          <H2 text="Hino O Gloriosa Virginum" />
 
           <OGloriosaVirginum />
 
-          <Text className="h2">Ofício 1</Text>
+          <H2 text="Ofício 1" />
 
           <Language>
             <Text className="latin">
@@ -235,7 +237,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">No Tempo Pascal</Text>
+          <H2 text="No Tempo Pascal" />
 
           <Language>
             <Text className="latin">
@@ -251,11 +253,11 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Benedictus</Text>
+          <H2 text="Benedictus" />
 
           <Benedictus />
 
-          <Text className="h2">Ofício 1</Text>
+          <H2 text="Ofício 1" />
 
           <Language>
             <Text className="latin">
@@ -273,7 +275,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">No Tempo Pascal</Text>
+          <H2 text="No Tempo Pascal" />
 
           <Language>
             <Text className="latin">
@@ -358,7 +360,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 92</Text>
+          <H2 text="Salmo 92" />
 
           <Salmo92 />
 
@@ -384,7 +386,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 99</Text>
+          <H2 text="Salmo 99" />
 
           <Salmo99 />
 
@@ -411,7 +413,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 62</Text>
+          <H2 text="Salmo 62" />
 
           <Salmo62 />
 
@@ -438,7 +440,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Benedicite</Text>
+          <H2 text="Benedicite" />
 
           <Benedicite />
 
@@ -466,7 +468,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 148</Text>
+          <H2 text="Salmo 148" />
 
           <Salmo148 />
 
@@ -481,7 +483,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Is. 11, 1-2</Text>
 
@@ -502,7 +504,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Hino O Gloriosa Virginum</Text>
+          <H2 text="Hino O Gloriosa Virginum" />
 
           <OGloriosaVirginum />
 
@@ -537,7 +539,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Benedictus</Text>
+          <H2 text="Benedictus" />
 
           <Benedictus />
 
@@ -688,7 +690,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 92</Text>
+          <H2 text="Salmo 92" />
 
           <Salmo92 />
 
@@ -722,7 +724,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 99</Text>
+          <H2 text="Salmo 99" />
 
           <Salmo99 />
 
@@ -754,7 +756,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 62</Text>
+          <H2 text="Salmo 62" />
 
           <Salmo62 />
 
@@ -784,7 +786,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Benedicite</Text>
+          <H2 text="Benedicite" />
 
           <Benedicite />
 
@@ -816,7 +818,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 148</Text>
+          <H2 text="Salmo 148" />
 
           <Salmo148 />
 
@@ -833,7 +835,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Is. 11, 1-2</Text>
 
@@ -854,7 +856,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Hino O Gloriosa Virginum</Text>
+          <H2 text="Hino O Gloriosa Virginum" />
 
           <OGloriosaVirginum />
 
@@ -888,7 +890,7 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <Text className="h2">Benedictus</Text>
+          <H2 text="Benedictus" />
 
           <Benedictus />
 
