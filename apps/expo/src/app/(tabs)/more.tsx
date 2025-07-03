@@ -17,11 +17,11 @@ import {
   ActivityIndicator,
   FlatList,
 } from "react-native";
-import PageWrapper from "~/components/Page";
 import { COLORS } from "~/constants/Colors";
 import rawDocs from "../../../assets/search-index.json";
 import { useSearch } from "~/providers/search";
 import { remove as removeDiacritics } from "diacritics";
+import PageWrapper from "~/components/Page";
 
 interface Docs {
   id: string;
@@ -82,95 +82,11 @@ const createHierarchy = (items: Docs[]): Record<string, TreeNode> => {
   return root;
 };
 
-const searchHierarchy = (
-  hierarchy: { [key: string]: HierarchyNode },
-  searchText: string,
-): { [key: string]: HierarchyNode } => {
-  const filtered: { [key: string]: HierarchyNode } = {};
-
-  Object.entries(hierarchy).forEach(([key, node]) => {
-    const matchesTitle = node.title
-      .toLowerCase()
-      .includes(searchText.toLowerCase());
-    const matchesDescription = node.description
-      ?.toLowerCase()
-      .includes(searchText.toLowerCase());
-    const childMatches = searchHierarchy(node.children, searchText);
-
-    if (
-      matchesTitle ||
-      matchesDescription ||
-      Object.keys(childMatches).length > 0
-    ) {
-      filtered[key] = {
-        ...node,
-        children: childMatches,
-      };
-    }
-  });
-
-  return filtered;
-};
-
-const MenuItem = ({
-  node,
-  path,
-  level,
-  expanded,
-  toggleExpand,
-  isActive,
-}: MenuItemProps) => {
-  const router = useRouter();
-  const pathname = usePathname();
-  const colorScheme = useColorScheme();
-  const textColor = colorScheme === "light" ? COLORS["800"] : COLORS["200"];
-  const subtextColor = colorScheme === "light" ? COLORS["700"] : COLORS["300"];
-  const iconColor = colorScheme === "light" ? COLORS["600"] : COLORS["400"];
-
-  const hasChildren = Object.keys(node.children).length > 0;
-  const isExpanded = expanded[path];
-
-  const handlePress = () => {
-    if (hasChildren) {
-      toggleExpand(path);
-    } else if (node.link) {
-      router.push({
-        pathname: node.link.slice(1) as RelativePathString,
-      });
-    }
-  };
-
-  const ItemComponent = level === 0 ? MainMenuItem : SubMenuItem;
-
-  return (
-    <View style={{ marginLeft: level * 16 }}>
-      <ItemComponent
-        title={node.title}
-        description={node.description}
-        hasChildren={hasChildren}
-        isExpanded={isExpanded}
-        isActive={isActive}
-        onPress={handlePress}
-        textColor={textColor}
-        subtextColor={subtextColor}
-        iconColor={iconColor}
-      />
-      {hasChildren && isExpanded && (
-        <View>
-          {Object.entries(node.children).map(([key, childNode]) => (
-            <MenuItem
-              key={`${path}/${key}`}
-              node={childNode}
-              path={`${path}/${key}`}
-              level={level + 1}
-              expanded={expanded}
-              toggleExpand={toggleExpand}
-              isActive={childNode.link === pathname}
-            />
-          ))}
-        </View>
-      )}
-    </View>
+const getTopLevelNodes = (
+  hierarchy: Record<string, TreeNode>
+): [string, TreeNode][] => {
+  return Object.entries(hierarchy).filter(
+    ([_, node]) => node.level === 0 || node.level === 1
   );
 };
 
@@ -445,32 +361,10 @@ export default function MoreScreen() {
   const topLevelNodes = useMemo(() => getTopLevelNodes(hierarchy), [hierarchy]);
 
   useEffect(() => {
-    if (searchQuery) {
-      const allPaths = new Set<string>();
-
-      function collectPaths(
-        nodes: { [key: string]: HierarchyNode },
-        parentPath = "",
-      ) {
-        Object.entries(nodes).forEach(([key, node]) => {
-          const currentPath = parentPath ? `${parentPath}/${key}` : key;
-          allPaths.add(currentPath);
-          collectPaths(node.children, currentPath);
-        });
-      }
-
-      collectPaths(filteredHierarchy);
-
-      setExpanded((prev) => {
-        const newExpanded = { ...prev };
-        allPaths.forEach((path) => {
-          newExpanded[path] = true;
-        });
-        return newExpanded;
-      });
-    } else {
-      // Reset to collapsed state when search is cleared
-      setExpanded({});
+    if (!searchQuery.trim()) {
+      setResults([]);
+      setIsSearching(false);
+      return;
     }
 
     if (!searchEngine || !searchEngine.isReady()) {
@@ -640,7 +534,7 @@ export default function MoreScreen() {
   };
 
   return (
-    <View className="flex-1">
+    <PageWrapper>
       <View className="p-4 bg-sepia-100 dark:bg-sepia-900 border-b border-sepia-500">
         <View className="flex-row px-3 py-2 items-center bg-sepia-200 dark:bg-sepia-800 rounded-lg">
           <FontAwesome6
@@ -666,6 +560,6 @@ export default function MoreScreen() {
         </View>
       </View>
       {renderContent()}
-    </View>
+    </PageWrapper>
   );
 }
