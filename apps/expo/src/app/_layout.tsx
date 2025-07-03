@@ -31,6 +31,7 @@ import { openExternalLink } from "~/components/External";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { NotificationsProvider } from "~/providers/notifications";
+import { SearchProvider } from "~/providers/search";
 
 SplashScreen.preventAutoHideAsync();
 SplashScreen.setOptions({
@@ -97,15 +98,17 @@ export default function PageRootLayout() {
 
   return (
     <CalendarProvider>
-      {Platform.OS === "web" ? (
-        <RootLayoutNav />
-      ) : (
-        <GestureHandlerRootView>
-          <NotificationsProvider>
-            <RootLayoutNav />
-          </NotificationsProvider>
-        </GestureHandlerRootView>
-      )}
+      <SearchProvider>
+        {Platform.OS === "web" ? (
+          <RootLayoutNav />
+        ) : (
+          <GestureHandlerRootView>
+            <NotificationsProvider>
+              <RootLayoutNav />
+            </NotificationsProvider>
+          </GestureHandlerRootView>
+        )}
+      </SearchProvider>
     </CalendarProvider>
   );
 }

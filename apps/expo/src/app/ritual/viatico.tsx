@@ -30,11 +30,14 @@ export default function PageViatico() {
             </Text>
           </Language>
           <Text className="h1">Asperges Me</Text>
-          <AspergesMe />O Acólito diz o Confiteor Deo...
-          <Link className="link" href="/devocionario/oracoes/confesso">
-            (como na página confiteor);
-          </Link>{" "}
-          e o Sacerdote, tendo dado as Absolvições, continua:
+          <AspergesMe />
+          <Text className="aside">
+            O Acólito diz o Confiteor Deo...
+            <Link className="link" href="/devocionario/oracoes/confesso">
+              (como na página confiteor);
+            </Link>{" "}
+            e o Sacerdote, tendo dado as Absolvições, continua:
+          </Text>
           <Text className="h1">Recepção da Comunhão</Text>
           <Language>
             <Text className="latin">

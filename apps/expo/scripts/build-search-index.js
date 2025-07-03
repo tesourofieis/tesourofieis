@@ -99,6 +99,11 @@ function processFile(file, baseDir) {
     const body = extractTextFromTSX(raw);
     const url = generateUrl(relativePath);
     const tags = generateTags(relativePath);
+    const pathParts = relativePath.split("/").filter(Boolean);
+    const section = pathParts[0];
+    const levels = pathParts.slice(0, -1);
+    const level = levels.length;
+    const parent = level > 0 ? levels.join("/") : null;
 
     return {
       id: relativePath,
@@ -106,6 +111,10 @@ function processFile(file, baseDir) {
       body: body || `${title} page content`,
       url,
       tags,
+      section,
+      levels,
+      level,
+      parent,
     };
   } catch (error) {
     console.error(`Erro ao processar ${file}:`, error);

@@ -17,15 +17,18 @@ import {
   ActivityIndicator,
   FlatList,
 } from "react-native";
-import * as SQLite from "expo-sqlite";
 import { COLORS } from "~/constants/Colors";
 import rawDocs from "../../../assets/search-index.json";
+import { useSearch } from "~/providers/search";
+import { remove as removeDiacritics } from "diacritics";
 
 interface Docs {
   id: string;
   title: string;
   body: string;
   url: string;
+  level: number;
+  section?: string;
 }
 
 interface TreeNode {
@@ -33,138 +36,80 @@ interface TreeNode {
   children: Record<string, TreeNode>;
   description?: string;
   link?: string;
-}
-
-class SearchIndexDB {
-  private db: SQLite.SQLiteDatabase | null = null;
-
-  async initialize() {
-    this.db = await SQLite.openDatabaseAsync("search_index.db");
-    
-    await this.db.execAsync(`
-      CREATE TABLE IF NOT EXISTS documents (
-        id TEXT PRIMARY KEY,
-        title TEXT NOT NULL,
-        body TEXT NOT NULL,
-        url TEXT NOT NULL,
-        search_text TEXT NOT NULL
-      );
-      
-      CREATE INDEX IF NOT EXISTS idx_search_text ON documents(search_text);
-      CREATE INDEX IF NOT EXISTS idx_title ON documents(title);
-    `);
-  }
-
-  async indexDocuments(docs: Docs[]) {
-    if (!this.db) throw new Error("Database not initialized");
-
-    const existingCount = await this.db.getFirstAsync<{count: number}>(
-      "SELECT COUNT(*) as count FROM documents"
-    );
-
-    if (existingCount?.count === docs.length) return;
-
-    await this.db.execAsync("DELETE FROM documents");
-
-    const insertStatement = await this.db.prepareAsync(
-      "INSERT INTO documents (id, title, body, url, search_text) VALUES (?, ?, ?, ?, ?)"
-    );
-
-    for (const doc of docs) {
-      const searchText = `${doc.title} ${doc.body}`.toLowerCase();
-      await insertStatement.executeAsync([
-        doc.id,
-        doc.title,
-        doc.body,
-        doc.url,
-        searchText
-      ]);
-    }
-
-    await insertStatement.finalizeAsync();
-  }
-
-  async search(query: string, limit: number = 15): Promise<Docs[]> {
-    if (!this.db || !query.trim()) return [];
-
-    const searchTerms = query.toLowerCase().split(/\s+/).filter(term => term.length > 0);
-    const likeConditions = searchTerms.map(() => "search_text LIKE ?").join(" AND ");
-    const likeParams = searchTerms.map(term => `%${term}%`);
-
-    const sql = `
-      SELECT id, title, body, url 
-      FROM documents 
-      WHERE ${likeConditions}
-      ORDER BY 
-        CASE 
-          WHEN title LIKE ? THEN 1
-          WHEN title LIKE ? THEN 2
-          ELSE 3
-        END,
-        LENGTH(title)
-      LIMIT ?
-    `;
-
-    const params = [
-      ...likeParams,
-      `%${query.toLowerCase()}%`,
-      `%${query.toLowerCase()}%`,
-      limit
-    ];
-
-    const results = await this.db.getAllAsync<Docs>(sql, params);
-    return results;
-  }
-
-  async getDocumentById(id: string): Promise<Docs | null> {
-    if (!this.db) return null;
-    
-    const result = await this.db.getFirstAsync<Docs>(
-      "SELECT id, title, body, url FROM documents WHERE id = ?",
-      [id]
-    );
-    
-    return result || null;
-  }
-
-  async close() {
-    if (this.db) {
-      await this.db.closeAsync();
-      this.db = null;
-    }
-  }
+  level: number;
+  section?: string;
+  hasChildren: boolean;
 }
 
 const ANIMATION_DURATION = 200;
-const INITIAL_RENDER_COUNT = 10;
-const RENDER_BATCH_SIZE = 5;
-const INDEXING_CHUNK_SIZE = 50;
+const INITIAL_RENDER_COUNT = 8;
+const RENDER_BATCH_SIZE = 4;
 
 const createHierarchy = (items: Docs[]): Record<string, TreeNode> => {
   const root: Record<string, TreeNode> = {};
-  for (const { id, title, body, url } of items) {
+
+  for (const { id, title, body, url, level, section } of items) {
     const parts = id.split("/").filter(Boolean);
     let current = root;
+
     for (let i = 0; i < parts.length; i++) {
       const key = parts[i];
-      if (!current[key]) current[key] = { title: key, children: {} };
+      if (!current[key]) {
+        current[key] = {
+          title: key,
+          children: {},
+          level: level || 0,
+          section: section,
+          hasChildren: false,
+        };
+      }
+
       if (i === parts.length - 1) {
         current[key].title = title;
         current[key].description = body.slice(0, 120);
         current[key].link = url;
+        current[key].level = level || 0;
+        current[key].section = section;
+      } else {
+        current[key].hasChildren = true;
       }
+
       current = current[key].children;
     }
   }
+
   return root;
 };
 
+const getTopLevelNodes = (
+  hierarchy: Record<string, TreeNode>
+): [string, TreeNode][] => {
+  return Object.entries(hierarchy).filter(
+    ([_, node]) => node.level === 0 || node.level === 1
+  );
+};
+
+const shouldShowNode = (
+  node: TreeNode,
+  expandedSections: Set<string>,
+  maxLevel: number = 1
+): boolean => {
+  if (node.level <= maxLevel) return true;
+  if (node.section && expandedSections.has(node.section)) return true;
+  return false;
+};
+
+const normalize = (text: string) => removeDiacritics(text).toLowerCase();
+
 const highlightText = (text: string, highlight?: string) => {
   if (!highlight || highlight.length < 2) return text;
-  const lowerHighlight = highlight.toLowerCase();
-  const lowerText = text.toLowerCase();
-  const index = lowerText.indexOf(lowerHighlight);
+
+  const normalizedText = normalize(text);
+  const normalizedHighlight = normalize(highlight);
+
+  const index = normalizedText.indexOf(normalizedHighlight);
   if (index === -1) return text;
+
   return (
     <>
       {text.slice(0, index)}
@@ -186,6 +131,8 @@ const TreeItem = React.memo(
     isActive,
     searchHighlight,
     currentPathname,
+    expandedSections,
+    toggleSection,
   }: {
     node: TreeNode;
     path: string;
@@ -195,15 +142,31 @@ const TreeItem = React.memo(
     isActive: boolean;
     searchHighlight?: string;
     currentPathname: string;
+    expandedSections: Set<string>;
+    toggleSection: (section: string) => void;
   }) => {
     const router = useRouter();
     const isDark = useColorScheme() === "dark";
     const hasKids = !!Object.keys(node.children).length;
     const isOpen = expanded[path];
+
     const handlePress = useCallback(() => {
-      if (hasKids) toggleExpand(path);
-      else if (node.link) router.push(node.link);
-    }, [hasKids, node.link, path]);
+      if (hasKids) {
+        toggleExpand(path);
+        if (node.section) {
+          toggleSection(node.section);
+        }
+      } else if (node.link) {
+        router.push(node.link);
+      }
+    }, [hasKids, node.link, node.section, path]);
+
+    const visibleChildren = useMemo(() => {
+      if (!hasKids || !isOpen) return [];
+      return Object.entries(node.children).filter(([_, child]) =>
+        shouldShowNode(child, expandedSections, level + 1)
+      );
+    }, [node.children, hasKids, isOpen, expandedSections, level]);
 
     const renderChild = useCallback(
       ({ item: [key, child] }: any) => (
@@ -216,9 +179,17 @@ const TreeItem = React.memo(
           isActive={child.link === currentPathname}
           searchHighlight={searchHighlight}
           currentPathname={currentPathname}
+          expandedSections={expandedSections}
+          toggleSection={toggleSection}
         />
       ),
-      [expanded, searchHighlight, currentPathname]
+      [
+        expanded,
+        searchHighlight,
+        currentPathname,
+        expandedSections,
+        toggleSection,
+      ]
     );
 
     return (
@@ -247,6 +218,11 @@ const TreeItem = React.memo(
                 {highlightText(node.description, searchHighlight)}
               </Text>
             )}
+            {node.section && (
+              <Text className="text-sepia-400 dark:text-sepia-500 text-xs mt-1">
+                {node.section}
+              </Text>
+            )}
           </View>
           <FontAwesome6
             name={
@@ -256,14 +232,14 @@ const TreeItem = React.memo(
             color={!isDark ? COLORS["800"] : COLORS["200"]}
           />
         </TouchableOpacity>
-        {hasKids && isOpen && (
+        {hasKids && isOpen && visibleChildren.length > 0 && (
           <FlatList
-            data={Object.entries(node.children)}
+            data={visibleChildren}
             renderItem={renderChild}
             keyExtractor={([k]) => `${path}/${k}`}
             removeClippedSubviews
             maxToRenderPerBatch={RENDER_BATCH_SIZE}
-            windowSize={10}
+            windowSize={8}
             getItemLayout={(d, i) => ({ length: 60, offset: 60 * i, index: i })}
           />
         )}
@@ -308,6 +284,11 @@ const SearchResultItem = React.memo(
         >
           {highlightText(item.body.slice(0, 150), query)}…
         </Text>
+        {item.section && (
+          <Text className="text-sepia-400 dark:text-sepia-500 text-xs mt-1">
+            {item.section}
+          </Text>
+        )}
       </TouchableOpacity>
     );
   }
@@ -353,7 +334,7 @@ const SearchResults = React.memo(
           removeClippedSubviews
           maxToRenderPerBatch={RENDER_BATCH_SIZE}
           initialNumToRender={INITIAL_RENDER_COUNT}
-          windowSize={10}
+          windowSize={8}
           getItemLayout={(d, i) => ({ length: 100, offset: 100 * i, index: i })}
           contentContainerStyle={{ paddingVertical: 8 }}
         />
@@ -369,85 +350,72 @@ export default function MoreScreen() {
   const [searchQuery, setSearchQuery] = useState("");
   const [results, setResults] = useState<Docs[]>([]);
   const [isSearching, setIsSearching] = useState(false);
-  const [error, setError] = useState<string | null>(null);
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
-  const [searchDB] = useState(() => new SearchIndexDB());
-  const [isIndexing, setIsIndexing] = useState(true);
+  const [expandedSections, setExpandedSections] = useState<Set<string>>(
+    new Set()
+  );
+  const { searchEngine, isReady, error: searchError } = useSearch();
 
   const hierarchy = useMemo(() => createHierarchy(rawDocs), []);
-  const hierarchyEntries = useMemo(
-    () => Object.entries(hierarchy),
-    [hierarchy]
-  );
-
-  useEffect(() => {
-    const initializeDB = async () => {
-      try {
-        setIsIndexing(true);
-        await searchDB.initialize();
-        await searchDB.indexDocuments(rawDocs);
-        setIsIndexing(false);
-      } catch (err) {
-        setError("Erro ao inicializar banco de dados");
-        setIsIndexing(false);
-      }
-    };
-
-    initializeDB();
-
-    return () => {
-      searchDB.close();
-    };
-  }, []);
+  const topLevelNodes = useMemo(() => getTopLevelNodes(hierarchy), [hierarchy]);
 
   useEffect(() => {
     if (!searchQuery.trim()) {
       setResults([]);
       setIsSearching(false);
-      setError(null);
       return;
     }
 
-    const performSearch = async () => {
+    if (!searchEngine || !searchEngine.isReady()) {
+      setIsSearching(true);
+      return;
+    }
+
+    const timeoutId = setTimeout(() => {
       setIsSearching(true);
       try {
-        const searchResults = await searchDB.search(searchQuery, 15);
+        const searchResults = searchEngine.search(searchQuery, 15);
         setResults(searchResults);
-        setError(null);
       } catch (err) {
-        setError("Falha na busca");
         setResults([]);
       } finally {
         setIsSearching(false);
       }
-    };
+    }, 300);
 
-    const timeoutId = setTimeout(performSearch, 300);
     return () => clearTimeout(timeoutId);
-  }, [searchQuery]);
+  }, [searchQuery, searchEngine]);
 
   const toggleExpand = useCallback(
-    (path) => setExpanded((p) => ({ ...p, [path]: !p[path] })),
+    (path: string) => setExpanded((p) => ({ ...p, [path]: !p[path] })),
     []
   );
 
+  const toggleSection = useCallback((section: string) => {
+    setExpandedSections((prev) => {
+      const newSet = new Set(prev);
+      if (newSet.has(section)) newSet.delete(section);
+      else newSet.add(section);
+      return newSet;
+    });
+  }, []);
+
   const handleResultPress = useCallback(
-    async (id) => {
+    (id: string) => {
       try {
-        const doc = await searchDB.getDocumentById(id);
-        if (!doc) return setError(`Documento não encontrado: ${id}`);
+        const doc = searchEngine.getDocumentById(id);
+        if (!doc) return;
         router.push(doc.url);
-      } catch (err) {
-        setError("Erro ao abrir documento");
+      } catch {
+        // handle error
       }
     },
-    [router]
+    [router, searchEngine]
   );
 
   const handleClear = useCallback(() => {
     setSearchQuery("");
     setResults([]);
-    setError(null);
   }, []);
 
   const colors = useMemo(
@@ -460,38 +428,63 @@ export default function MoreScreen() {
   );
 
   const renderContent = () => {
-    if (isIndexing) {
+    if (!isReady) {
       return (
-        <View className="p-4 items-center justify-center flex-1">
-          <ActivityIndicator size="large" color={colors.placeholder} />
-          <Text className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
-            Indexando documentos...
-          </Text>
+        <View className="flex-1">
+          <FlatList
+            data={topLevelNodes}
+            keyExtractor={([k]) => k}
+            renderItem={({ item: [key, node] }) => (
+              <TreeItem
+                node={node}
+                path={key}
+                level={0}
+                expanded={expanded}
+                toggleExpand={toggleExpand}
+                isActive={node.link === pathname}
+                searchHighlight={searchQuery}
+                currentPathname={pathname}
+                expandedSections={expandedSections}
+                toggleSection={toggleSection}
+              />
+            )}
+            contentContainerStyle={{ paddingVertical: 8 }}
+          />
+          <View className="absolute bottom-4 right-4 bg-sepia-800 dark:bg-sepia-200 rounded-full p-3">
+            <ActivityIndicator
+              size="small"
+              color={isDark ? COLORS["800"] : COLORS["200"]}
+            />
+          </View>
         </View>
       );
     }
 
     if (searchQuery.trim()) {
-      if (isSearching)
+      if (isSearching) {
         return (
           <View className="p-4 items-center">
             <ActivityIndicator size="large" color={colors.placeholder} />
           </View>
         );
-      if (error)
+      }
+
+      if (searchError) {
         return (
           <View className="p-4 items-center">
             <FontAwesome6
               name="exclamation-triangle"
               size={24}
-              color={!isDark ? COLORS["800"] : COLORS["200"]}
+              color={isDark ? COLORS["200"] : COLORS["800"]}
             />
             <Text className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
-              {error}
+              {searchError}
             </Text>
           </View>
         );
-      if (results.length)
+      }
+
+      if (results.length) {
         return (
           <SearchResults
             results={results}
@@ -500,12 +493,14 @@ export default function MoreScreen() {
             pathname={pathname}
           />
         );
+      }
+
       return (
         <View className="p-4 items-center">
           <FontAwesome6
             name="search"
             size={24}
-            color={!isDark ? COLORS["800"] : COLORS["200"]}
+            color={isDark ? COLORS["200"] : COLORS["800"]}
           />
           <Text className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
             Nenhum resultado encontrado
@@ -514,23 +509,9 @@ export default function MoreScreen() {
       );
     }
 
-    if (error)
-      return (
-        <View className="p-4 items-center">
-          <FontAwesome6
-            name="exclamation-triangle"
-            size={24}
-            color={!isDark ? COLORS["800"] : COLORS["200"]}
-          />
-          <Text className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
-            {error}
-          </Text>
-        </View>
-      );
-
     return (
       <FlatList
-        data={hierarchyEntries}
+        data={topLevelNodes}
         keyExtractor={([k]) => k}
         renderItem={({ item: [key, node] }) => (
           <TreeItem
@@ -542,25 +523,11 @@ export default function MoreScreen() {
             isActive={node.link === pathname}
             searchHighlight={searchQuery}
             currentPathname={pathname}
+            expandedSections={expandedSections}
+            toggleSection={toggleSection}
           />
         )}
-        removeClippedSubviews
-        maxToRenderPerBatch={RENDER_BATCH_SIZE}
-        initialNumToRender={INITIAL_RENDER_COUNT}
-        windowSize={10}
         contentContainerStyle={{ paddingVertical: 8 }}
-        ListEmptyComponent={() => (
-          <View className="p-4 items-center">
-            <FontAwesome6
-              name="folder-open"
-              size={24}
-              color={!isDark ? COLORS["800"] : COLORS["200"]}
-            />
-            <Text className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
-              Nenhum item disponível
-            </Text>
-          </View>
-        )}
       />
     );
   };
@@ -582,7 +549,6 @@ export default function MoreScreen() {
             autoCapitalize="none"
             autoCorrect={false}
             returnKeyType="search"
-            editable={!isIndexing}
             className="flex-1 ml-2 text-sepia-900 dark:text-sepia-100"
           />
           {!!searchQuery && (
