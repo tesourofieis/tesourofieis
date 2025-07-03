@@ -1,6 +1,7 @@
-import { SafeAreaView, Text, View } from "react-native";
+import { Text } from "react-native";
 
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function Page127() {
   return (

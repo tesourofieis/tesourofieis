@@ -7,6 +7,7 @@ import React, {
 } from "react";
 import removeDiacritics from "diacritics";
 import rawDocs from "../../assets/search-index.json";
+import { Docs } from "~/app/(tabs)/more";
 
 class UniversalSearchEngine {
   private index = null;
@@ -133,7 +134,7 @@ class UniversalSearchEngine {
     }
 
     return Array.from(candidateIds)
-      .map((id) => ({
+      .map((id: string) => ({
         doc: this.index.documents[id],
         score: this.calculateScore(id, normalizedQuery, queryTerms),
       }))
@@ -146,7 +147,7 @@ class UniversalSearchEngine {
     if (!this.index || !slug) return [];
 
     const targetPath = `/${slug}/`;
-    return Object.values(this.index.documents).filter((doc) => {
+    return Object.values(this.index.documents).filter((doc: Docs) => {
       if (!doc.url || !doc.url.includes(targetPath)) return false;
 
       const pathAfterSlug = doc.url.substring(

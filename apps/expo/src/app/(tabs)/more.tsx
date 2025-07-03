@@ -23,7 +23,7 @@ import { useSearch } from "~/providers/search";
 import { remove as removeDiacritics } from "diacritics";
 import PageWrapper from "~/components/Page";
 
-interface Docs {
+export interface Docs {
   id: string;
   title: string;
   body: string;

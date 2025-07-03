@@ -1,8 +1,8 @@
-import { Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { Text } from "react-native";
 
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
+import PageWrapper from "~/components/Page";
 
 export default function PageQuad11() {
   return (

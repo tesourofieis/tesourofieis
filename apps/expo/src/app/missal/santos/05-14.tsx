@@ -1,9 +1,9 @@
 import { Link } from "expo-router";
 
-import { Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { Text } from "react-native";
 
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function Page0514() {
   return (
