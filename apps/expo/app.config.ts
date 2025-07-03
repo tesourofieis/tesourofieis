@@ -80,6 +80,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   plugins: [
     "expo-router",
+    ["expo-sqlite", { enableFTS: true }],
     "expo-notifications",
     "expo-secure-store",
     [

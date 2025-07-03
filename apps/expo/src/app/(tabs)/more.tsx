@@ -1,5 +1,4 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import { remove as removeDiacritics } from "diacritics";
 import { usePathname, useRouter } from "expo-router";
 import React, {
   useCallback,
@@ -31,7 +30,7 @@ export interface Docs {
   level: number;
   levels: string[];
   section?: string;
-  headings: {
+  headings?: {
     level: number;
     text: string;
   };
@@ -108,7 +107,11 @@ const shouldShowNode = (
   return false;
 };
 
-const normalize = (text: string) => removeDiacritics(text).toLowerCase();
+const normalize = (s: string) =>
+  s
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
 
 const highlightText = (text: string, highlight?: string) => {
   if (!highlight || highlight.length < 2) return text;
@@ -119,13 +122,17 @@ const highlightText = (text: string, highlight?: string) => {
   const index = normalizedText.indexOf(normalizedHighlight);
   if (index === -1) return text;
 
+  // Get actual match in original text based on index
+  const start = index;
+  const end = start + highlight.length;
+
   return (
     <>
-      {text.slice(0, index)}
+      {text.slice(0, start)}
       <Text className="bg-sepia-200 dark:bg-sepia-700">
-        {text.slice(index, index + highlight.length)}
+        {text.slice(start, end)}
       </Text>
-      {text.slice(index + highlight.length)}
+      {text.slice(end)}
     </>
   );
 };
@@ -229,7 +236,10 @@ const TreeItem = React.memo(
               </Text>
             )}
             {node.levels.map((section) => (
-              <Text className="text-sm text-center w-20 text-ellipsis text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900">
+              <Text
+                key={section}
+                className="text-sm text-center w-20 text-ellipsis text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900"
+              >
                 {section}
               </Text>
             ))}
@@ -267,11 +277,11 @@ const SearchResultItem = React.memo(
   }: {
     item: Docs;
     query: string;
-    onPress: (id: string) => void;
+    onPress: (item: Docs) => void;
     isActive: boolean;
   }) => {
     const isDark = useColorScheme() === "dark";
-    const handlePress = () => onPress(item.id);
+    const handlePress = () => onPress(item);
     return (
       <TouchableOpacity
         onPress={handlePress}
@@ -313,7 +323,7 @@ const SearchResults = React.memo(
   }: {
     results: Docs[];
     query: string;
-    onPress: (id: string) => void;
+    onPress: (item: Docs) => void;
     pathname: string;
   }) => {
     const fade = useRef(new Animated.Value(0)).current;
@@ -364,7 +374,8 @@ export default function MoreScreen() {
   const [expandedSections, setExpandedSections] = useState<Set<string>>(
     new Set()
   );
-  const { searchEngine, isReady, error: searchError } = useSearch();
+
+  const { search, getDocumentById, isReady, error: searchError } = useSearch();
 
   const hierarchy = useMemo(() => createHierarchy(rawDocs), []);
   const topLevelNodes = useMemo(() => getTopLevelNodes(hierarchy), [hierarchy]);
@@ -376,17 +387,18 @@ export default function MoreScreen() {
       return;
     }
 
-    if (!searchEngine || !searchEngine.isReady()) {
+    if (!isReady) {
       setIsSearching(true);
       return;
     }
 
-    const timeoutId = setTimeout(() => {
+    const timeoutId = setTimeout(async () => {
       setIsSearching(true);
       try {
-        const searchResults = searchEngine.search(searchQuery, 15);
+        const searchResults = await search(searchQuery, 15);
         setResults(searchResults);
       } catch (err) {
+        console.error("Search error:", err);
         setResults([]);
       } finally {
         setIsSearching(false);
@@ -394,7 +406,7 @@ export default function MoreScreen() {
     }, 300);
 
     return () => clearTimeout(timeoutId);
-  }, [searchQuery, searchEngine]);
+  }, [searchQuery, search, isReady]);
 
   const toggleExpand = useCallback(
     (path: string) => setExpanded((p) => ({ ...p, [path]: !p[path] })),
@@ -411,16 +423,15 @@ export default function MoreScreen() {
   }, []);
 
   const handleResultPress = useCallback(
-    (id: string) => {
+    async (item: Docs) => {
       try {
-        const doc = searchEngine.getDocumentById(id);
-        if (!doc) return;
-        router.push(doc.url);
-      } catch {
-        // handle error
+        // @ts-ignore
+        router.push(item.url);
+      } catch (err) {
+        console.error("Navigation error:", err);
       }
     },
-    [router, searchEngine]
+    [router]
   );
 
   const handleClear = useCallback(() => {
@@ -543,7 +554,7 @@ export default function MoreScreen() {
   };
 
   return (
-    <PageWrapper>
+    <>
       <View className="p-4 bg-sepia-100 dark:bg-sepia-900 border-b border-sepia-500">
         <View className="flex-row px-3 py-2 items-center bg-sepia-200 dark:bg-sepia-800 rounded-lg">
           <FontAwesome6
@@ -569,6 +580,6 @@ export default function MoreScreen() {
         </View>
       </View>
       {renderContent()}
-    </PageWrapper>
+    </>
   );
 }

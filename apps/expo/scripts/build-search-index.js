@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { globSync } = require("glob");
+const Database = require("better-sqlite3");
 
 function extractTextFromTSX(content) {
   const textMatches = [...content.matchAll(/<Text[^>]*>([\s\S]*?)<\/Text>/gs)];
@@ -8,7 +9,7 @@ function extractTextFromTSX(content) {
     .map((match) => {
       const text = match[1]
         .replace(/<[^>]+>/g, "")
-        .replace(/{[^>]+}/g, "")
+        .replace(/{[^>]+}/g, "") // Remove JSX expressions
         .trim();
       return text;
     })
@@ -36,6 +37,7 @@ function extractHeadings(content) {
       }
     });
   }
+  // Sort by heading level first, then by appearance (though regex match order might be good enough)
   return headings.sort((a, b) => a.level - b.level);
 }
 
@@ -51,6 +53,7 @@ function extractComment(content) {
 }
 
 function generateTitle(filePath, content) {
+  // 1. Try to find an explicit heading
   for (let i = 1; i <= 6; i++) {
     const headingMatch = content.match(
       new RegExp(
@@ -63,102 +66,94 @@ function generateTitle(filePath, content) {
     }
   }
 
+  // 2. Fallback to first non-empty Text element (your original logic)
   const textMatches = [...content.matchAll(/<Text[^>]*>([\s\S]*?)<\/Text>/gs)];
   for (const match of textMatches) {
     const text = match[1].replace(/<[^>]+>/g, "").trim();
     if (text) return text;
   }
 
+  // 3. Fallback to filename (camelCase, kebab-case converted)
   const fileName = path.basename(filePath, ".tsx");
   return (
     fileName
-      .replace(/([A-Z])/g, " $1")
-      .replace(/[-_]/g, " ")
-      .replace(/\b\w/g, (l) => l.toUpperCase())
+      .replace(/([A-Z])/g, " $1") // Add space before capital letters
+      .replace(/[-_]/g, " ") // Replace hyphens/underscores with spaces
+      .replace(/\b\w/g, (l) => l.toUpperCase()) // Capitalize first letter of each word
       .trim() || "Sem título"
   );
 }
 
 function generateUrl(relativePath) {
+  // Normalize the relative path to be a URL path
   return `/${relativePath}`;
 }
 
-function generateTags(relativePath) {
-  const pathParts = relativePath.split("/").filter(Boolean);
-  const tags = [];
-
-  for (let i = 0; i < pathParts.length - 1; i++) {
-    tags.push(pathParts[i]);
-  }
-
-  let currentPath = "";
-  for (let i = 0; i < pathParts.length - 1; i++) {
-    currentPath += (currentPath ? "/" : "") + pathParts[i];
-    if (i > 0) {
-      tags.push(currentPath.replace("/", ":"));
-    }
-  }
-
-  return [...new Set(tags)];
-}
-
+// Function to determine if a file should be processed
 function shouldProcessFile(file, baseDir, targetDirs) {
   const relative = path.relative(baseDir, file);
+  // Ensure the file is within one of the target top-level directories
   const isInTargetDir = targetDirs.some((dir) =>
-    relative.startsWith(dir + "/")
+    relative.startsWith(`${dir}${path.sep}`)
   );
   const isLayout = path.basename(file) === "_layout.tsx";
 
   if (!isInTargetDir) {
-    console.log(`Ignorando ${file}: fora dos diretórios-alvo`);
+    // console.log(`Ignorando ${file}: fora dos diretórios-alvo`); // Uncomment for verbose logging
     return false;
   }
   if (isLayout) {
-    console.log(`Ignorando ${file}: arquivo _layout.tsx`);
+    // console.log(`Ignorando ${file}: arquivo _layout.tsx`); // Uncomment for verbose logging
     return false;
   }
   return true;
 }
 
+// Main function to process a single file and extract its data
 function processFile(file, baseDir) {
   try {
-    const raw = fs.readFileSync(file, "utf-8");
-    if (raw.trim().length < 100) {
-      console.log(`Ignorando ${file}: conteúdo muito curto`);
+    const rawContent = fs.readFileSync(file, "utf-8");
+    if (rawContent.trim().length < 100) {
+      // console.log(`Ignorando ${file}: conteúdo muito curto`); // Uncomment for verbose logging
       return null;
     }
 
-    let relativePath = path
-      .relative(baseDir, file)
-      .replace(/\\/g, "/")
-      .replace(/\.tsx$/, "");
+    // Determine the ID and URL based on relative path
+    let relativePath = path.relative(baseDir, file).replace(/\\/g, "/"); // Normalize path separators for URL/ID
 
+    // If it's an 'index.tsx', the path corresponds to its directory
     if (path.basename(file) === "index.tsx") {
       relativePath = path.dirname(relativePath);
     }
+    relativePath = relativePath.replace(/\.tsx$/, ""); // Remove .tsx extension
 
-    const title = generateTitle(file, raw);
-    const body = extractTextFromTSX(raw);
-    const comment = extractComment(raw);
-    const headings = extractHeadings(raw);
-    const url = generateUrl(relativePath);
-    const tags = generateTags(relativePath);
-    const pathParts = relativePath.split("/").filter(Boolean);
-    const section = pathParts[0];
-    const levels = pathParts.slice(0, -1);
-    const level = levels.length;
-    const parent = level > 0 ? levels.join("/") : null;
+    const id = relativePath; // Use relativePath as the unique ID
+    const url = generateUrl(relativePath); // Generate URL
+
+    const title = generateTitle(file, rawContent);
+    const body = extractTextFromTSX(rawContent);
+    const comment = extractComment(rawContent);
+    const headings = extractHeadings(rawContent);
+
+    // Derive section, levels, and parent_id from the ID/path
+    const pathParts = id.split("/").filter(Boolean); // e.g., ['missal', 'sunday-readings', 'doc1']
+    const section = pathParts.length > 0 ? pathParts[0] : null; // 'missal'
+    const levels = pathParts.slice(0, -1); // ['missal', 'sunday-readings']
+    const level = levels.length; // 2
+
+    // Parent ID: the ID of the directory directly above this document/folder
+    const parent = level > 0 ? pathParts.slice(0, level).join("/") : null; // 'missal/sunday-readings' if this is 'missal/sunday-readings/doc1'
 
     const result = {
-      id: relativePath,
+      id,
       title,
-      body: body || `${title} page content`,
+      body: body || `${title} page content`, // Ensure body is not empty
       url,
-      tags,
+      // tags: generateTags(relativePath), // You could re-add tags if needed for search or categorization
       section,
-      levels,
+      levels, // Keep for potential use in UI for breadcrumbs/metadata
       level,
-      parent,
+      parent, // This will be stored as parent_id in DB
     };
 
     if (comment) {
@@ -171,80 +166,130 @@ function processFile(file, baseDir) {
 
     return result;
   } catch (error) {
-    console.error(`Erro ao processar ${file}:`, error);
+    console.error(`Erro ao processar ${file}:`, error.message);
     return null;
   }
 }
 
-function buildIndex() {
-  console.log("🔍 Iniciando indexação...");
-  console.log("Diretório atual:", process.cwd());
+// --- Main Database Building Function ---
+function buildDatabase() {
+  console.log(
+    "🔍 Iniciando indexação e construção do banco de dados SQLite..."
+  );
 
   const targetDirs = ["canticos", "devocionario", "fe", "missal", "ritual"];
   const baseDir = "src/app";
-  const patterns = targetDirs.map((dir) => `${baseDir}/${dir}/**/*.tsx`);
+  const dbPath = path.resolve("./assets/docs.db"); // Output database file
 
-  if (!fs.existsSync(baseDir)) {
-    console.error(`❌ ${baseDir}/ não existe`);
-    return;
-  }
-
-  console.log(`${baseDir}/ existe, conteúdos:`, fs.readdirSync(baseDir));
-  targetDirs.forEach((dir) => {
-    const dirPath = path.join(baseDir, dir);
-    if (fs.existsSync(dirPath)) {
-      console.log(
-        `${dirPath}/ existe, conteúdos:`,
-        fs.readdirSync(dirPath).slice(0, 10)
-      );
-    } else {
-      console.warn(`⚠️ ${dirPath}/ não existe`);
-    }
-  });
-
-  let files = [];
-  for (const pattern of patterns) {
-    const found = globSync(pattern);
-    console.log(`Padrão "${pattern}": encontrou ${found.length} arquivos`);
-    files = files.concat(found);
-  }
-
-  files = [...new Set(files)].filter((file) =>
-    shouldProcessFile(file, baseDir, targetDirs)
-  );
-
-  console.log(`📁 Total de arquivos TSX após filtragem: ${files.length}`);
-
-  const index = files
-    .map((file) => processFile(file, baseDir))
-    .filter((doc) => doc !== null);
-
+  // Ensure output directory exists
   const outDir = path.resolve("./assets");
   if (!fs.existsSync(outDir)) {
     fs.mkdirSync(outDir, { recursive: true });
   }
 
-  try {
-    fs.writeFileSync(
-      path.join(outDir, "search-index.json"),
-      JSON.stringify(index, null, 2),
-      "utf-8"
-    );
-    console.log(
-      `✅ Indexados ${index.length} documentos → ${path.join(
-        outDir,
-        "search-index.json"
-      )}`
-    );
-    console.log(`📊 Amostra de entradas:`);
-    index.slice(0, 3).forEach((doc) => {
-      console.log(
-        `   ${doc.id}: "${doc.title}" (${doc.url}) [${doc.tags.join(", ")}]`
-      );
-    });
-  } catch (error) {
-    console.error("Erro ao gravar o índice:", error);
+  // Delete existing DB if it exists to ensure a clean build
+  if (fs.existsSync(dbPath)) {
+    fs.unlinkSync(dbPath);
+    console.log(`🗑️ Removido banco de dados existente: ${dbPath}`);
   }
+
+  // Open SQLite database connection
+  const db = new Database(dbPath);
+  db.pragma("journal_mode = WAL"); // Recommended for better performance
+
+  // --- Create Tables ---
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS docs (
+      id TEXT PRIMARY KEY,
+      title TEXT NOT NULL,
+      body TEXT NOT NULL,
+      url TEXT NOT NULL UNIQUE,
+      level INTEGER NOT NULL,
+      section TEXT,
+      parent_id TEXT, -- Foreign key if you had a separate folders table
+      headings_json TEXT, -- Store as JSON string
+      comment TEXT -- Store as TEXT, can be null
+    );
+  `);
+  console.log("✅ Tabela 'docs' criada.");
+
+  // --- Create FTS5 Table for Full-Text Search ---
+  // Removed UNSTORED - this was the cause of the error.
+  db.exec(`
+    CREATE VIRTUAL TABLE docs_fts USING fts5(
+      id,
+      title,
+      body,
+      tokenize = 'unicode61 remove_diacritics 2',
+      prefix = '2 3 4'
+    );
+  `);
+  console.log("✅ Tabela virtual 'docs_fts' (FTS5) criada.");
+
+  // Get all files
+  let files = [];
+  for (const pattern of targetDirs.map((dir) =>
+    path.join(baseDir, dir, "**", "*.tsx")
+  )) {
+    // Use path.join for cross-platform compatibility
+    const found = globSync(pattern, { cwd: process.cwd() }); // Ensure globSync runs from current working directory
+    files = files.concat(found);
+  }
+
+  // Filter out unwanted files (e.g., _layout.tsx, files outside target dirs)
+  files = [...new Set(files)].filter((file) =>
+    shouldProcessFile(file, baseDir, targetDirs)
+  );
+
+  console.log(`📁 Total de arquivos TSX a processar: ${files.length}`);
+
+  // Prepare insert statements outside the loop for performance
+  const insertDocStmt = db.prepare(`
+    INSERT INTO docs (id, title, body, url, level, section, parent_id, headings_json, comment)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);
+  `);
+  const insertFTSStmt = db.prepare(`
+    INSERT INTO docs_fts (id, title, body) VALUES (?, ?, ?);
+  `);
+
+  // Use a transaction for fast inserts
+  db.transaction(() => {
+    files.forEach((file, index) => {
+      const doc = processFile(file, baseDir);
+      if (doc) {
+        // Log the processed document to check its structure
+        // console.log(`Processing: ${doc.id}, Parent: ${doc.parent}, Level: ${doc.level}`);
+
+        insertDocStmt.run(
+          doc.id,
+          doc.title,
+          doc.body,
+          doc.url,
+          doc.level,
+          doc.section,
+          doc.parent, // Use the calculated parent ID
+          doc.headings ? JSON.stringify(doc.headings) : null,
+          doc.comment || null
+        );
+        insertFTSStmt.run(doc.id, doc.title, doc.body);
+      }
+      if ((index + 1) % 500 === 0 || index === files.length - 1) {
+        console.log(
+          `   Processados ${index + 1}/${files.length} documentos...`
+        );
+      }
+    });
+  })(); // Execute the transaction immediately
+
+  console.log(
+    `✅ Indexados ${
+      db.prepare("SELECT COUNT(*) FROM docs").get()["COUNT(*)"]
+    } documentos no SQLite.`
+  );
+
+  db.close();
+  console.log(`📊 Banco de dados SQLite criado com sucesso em: ${dbPath}`);
 }
 
-buildIndex();
+// Run the build process
+buildDatabase();
