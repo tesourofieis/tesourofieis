@@ -1,334 +1,324 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function PagePent25() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">Santíssimo Coração de Jesus</Text>
+    <PageWrapper>
+      <Text className="h1">Santíssimo Coração de Jesus</Text>
 
-          <Text className="h3">Intróito</Text>
+      <Text className="h3">Intróito</Text>
 
-          <Text className="em">Sl. 32, 11 & 19</Text>
+      <Text className="em">Sl. 32, 11 & 19</Text>
 
-          <Language>
-            <Text className="latin">
-              Cogitatiónes Cordis ejus in generatióne et generatiónem: ut éruat
-              a morte ánimas eórum et alat eos in fame. (T. P. Allelúja,
-              allelúja.) <Text className="latin">Ps. ibid., 1</Text> Exsultáte,
-              justi, in Dómino: rectos decet collaudátio.
-              <Text className="versicle"> ℣. </Text>Gloria Patri...
-            </Text>
-            <Text className="vernacular">
-              Os pensamentos do seu Coração subsistem de geração em geração,
-              para preservar suas almas da morte e alimentá-las quando tiverem
-              fome. <Text className="vernacular">Sl. ibid., 1</Text> Exultai no
-              Senhor, ó justos: Cantem seus louvores aqueles que possuem o
-              coração recto.<Text className="versicle"> ℣. </Text>Glória ao
-              Pai...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Cogitatiónes Cordis ejus in generatióne et generatiónem: ut éruat a
+          morte ánimas eórum et alat eos in fame. (T. P. Allelúja, allelúja.){" "}
+          <Text className="latin">Ps. ibid., 1</Text> Exsultáte, justi, in
+          Dómino: rectos decet collaudátio.
+          <Text className="versicle"> ℣. </Text>Gloria Patri...
+        </Text>
+        <Text className="vernacular">
+          Os pensamentos do seu Coração subsistem de geração em geração, para
+          preservar suas almas da morte e alimentá-las quando tiverem fome.{" "}
+          <Text className="vernacular">Sl. ibid., 1</Text> Exultai no Senhor, ó
+          justos: Cantem seus louvores aqueles que possuem o coração recto.
+          <Text className="versicle"> ℣. </Text>Glória ao Pai...
+        </Text>
+      </Language>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Deus, qui nobis in Corde Fílii tui, nostris vulneráto peccátis,
-              infinítos dilectiónis thesáuros misericórditer largíri dignáris:
-              concéde, quǽsumus; ut, illi devótum pietátis nostræ præstántes
-              obséquium, dignæ quoque satisfactiónis exhibeámus offícium. Per
-              eúndem Dóminum nostrum...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, que no Coração do vosso Filho, ferido pelos nossos
-              pecados, Vos dignastes prodigalizar-nos os tesouros infinitos do
-              seu amor, concedei-nos, Vos suplicamos, que, rendendo-Lhe a
-              homenagem da nossa filial devoção, Lhe apresentamos também os dons
-              da nossa reparação. Pelo mesmo nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Deus, qui nobis in Corde Fílii tui, nostris vulneráto peccátis,
+          infinítos dilectiónis thesáuros misericórditer largíri dignáris:
+          concéde, quǽsumus; ut, illi devótum pietátis nostræ præstántes
+          obséquium, dignæ quoque satisfactiónis exhibeámus offícium. Per eúndem
+          Dóminum nostrum...
+        </Text>
+        <Text className="vernacular">
+          Ó Deus, que no Coração do vosso Filho, ferido pelos nossos pecados,
+          Vos dignastes prodigalizar-nos os tesouros infinitos do seu amor,
+          concedei-nos, Vos suplicamos, que, rendendo-Lhe a homenagem da nossa
+          filial devoção, Lhe apresentamos também os dons da nossa reparação.
+          Pelo mesmo nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Epístola</Text>
+      <Text className="h3">Epístola</Text>
 
-          <Text className="em">Ef. 3, 8 19</Text>
+      <Text className="em">Ef. 3, 8 19</Text>
 
-          <Language>
-            <Text className="latin">
-              Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
-            </Text>
-            <Text className="vernacular">
-              Lição da Ep.ª do B. Ap. Paulo aos Efésios.
-            </Text>
-            <Text className="latin">
-              Fratres: Mihi, ómnium sanctórum mínimo, data est grátia hæc, in
-              géntibus evangelizáre investigábiles divítias Christi, et
-              illumináre omnes, quæ sit dispensátio sacraménti abscónditi a
-              sǽculis in Deo, qui ómnia creávit: ut innotéscat principátibus et
-              potestátibus in cœléstibus per Ecclésiam multifórmis sapiéntia
-              Dei, secúndum præfinitiónem sæculórum, quam fecit in Christo Jesu,
-              Dómino nostro, in quo habémus fidúciam et accéssum in confidéntia
-              per fidem ejus. Hujus rei grátia flecto génua mea ad Patrem Dómini
-              nostri Jesu Christi, ex quo omnis patérnitas in cœlis ei in terra
-              nominátur, ut det vobis, secúndum divítias glóriæ suæ, virtúte
-              corroborári per Spíritum ejus in interiórem hóminem, Christum
-              habitáre per fidem in córdibus vestris: in caritáte radicáti et
-              fundáti, ut póssitis comprehéndere cum ómnibus sanctis, quæ sit
-              latitúdo, et longitúdo, et sublímitas, et profúndum: scire étiam
-              supereminéntem sciéntiæ caritátem Christi, ut impleámini in omnem
-              plenitúdinem Dei.
-            </Text>
-            <Text className="vernacular">
-              Meus irmãos: Fui eu, que sou o mínimo de todos os santos, quem
-              recebeu esta graça de anunciar aos povos as riquezas
-              incompreensíveis de Jesus Cristo e de esclarecer todos os homens,
-              revelando-lhes a economia do mystério, que desde tantos séculos
-              está oculto em Deus, criador de todas as coisas, a fim de que, por
-              meio da Igreja, os potentados e as potestades nos céus conheçam a
-              sabedoria infinitamente variada de Deus, segundo o desígnio eterno
-              que Ele realizou por Jesus Cristo, nosso Senhor, em quem, pela fé
-              que n’Ele depositamos, temos a franca segurança de nos
-              aproximarmos de Deus com confiança. Por este motivo ajoelho diante
-              do Pai de nosso Senhor Jesus Cristo, que é o princípio desta
-              grande família no céu e na terra, para que, segundo as riquezas da
-              sua glória, sejais fortificados pelo seu Espírito e revestidos com
-              a graça de homens interiores. Permita Ele que Jesus Cristo habite
-              pela fé nos vossos corações, de modo que, enraizados e imbuídos na
-              caridade, possais compreender com todos os santos a largura, o
-              comprimento, a altura e a profundidade deste mystério e conhecer o
-              amor de Jesus Cristo, o qual ultrapassa toda a ciência; e, assim,
-              fiqueis repletos de plenitude dos dons de Deus.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
+        </Text>
+        <Text className="vernacular">
+          Lição da Ep.ª do B. Ap. Paulo aos Efésios.
+        </Text>
+        <Text className="latin">
+          Fratres: Mihi, ómnium sanctórum mínimo, data est grátia hæc, in
+          géntibus evangelizáre investigábiles divítias Christi, et illumináre
+          omnes, quæ sit dispensátio sacraménti abscónditi a sǽculis in Deo, qui
+          ómnia creávit: ut innotéscat principátibus et potestátibus in
+          cœléstibus per Ecclésiam multifórmis sapiéntia Dei, secúndum
+          præfinitiónem sæculórum, quam fecit in Christo Jesu, Dómino nostro, in
+          quo habémus fidúciam et accéssum in confidéntia per fidem ejus. Hujus
+          rei grátia flecto génua mea ad Patrem Dómini nostri Jesu Christi, ex
+          quo omnis patérnitas in cœlis ei in terra nominátur, ut det vobis,
+          secúndum divítias glóriæ suæ, virtúte corroborári per Spíritum ejus in
+          interiórem hóminem, Christum habitáre per fidem in córdibus vestris:
+          in caritáte radicáti et fundáti, ut póssitis comprehéndere cum ómnibus
+          sanctis, quæ sit latitúdo, et longitúdo, et sublímitas, et profúndum:
+          scire étiam supereminéntem sciéntiæ caritátem Christi, ut impleámini
+          in omnem plenitúdinem Dei.
+        </Text>
+        <Text className="vernacular">
+          Meus irmãos: Fui eu, que sou o mínimo de todos os santos, quem recebeu
+          esta graça de anunciar aos povos as riquezas incompreensíveis de Jesus
+          Cristo e de esclarecer todos os homens, revelando-lhes a economia do
+          mystério, que desde tantos séculos está oculto em Deus, criador de
+          todas as coisas, a fim de que, por meio da Igreja, os potentados e as
+          potestades nos céus conheçam a sabedoria infinitamente variada de
+          Deus, segundo o desígnio eterno que Ele realizou por Jesus Cristo,
+          nosso Senhor, em quem, pela fé que n’Ele depositamos, temos a franca
+          segurança de nos aproximarmos de Deus com confiança. Por este motivo
+          ajoelho diante do Pai de nosso Senhor Jesus Cristo, que é o princípio
+          desta grande família no céu e na terra, para que, segundo as riquezas
+          da sua glória, sejais fortificados pelo seu Espírito e revestidos com
+          a graça de homens interiores. Permita Ele que Jesus Cristo habite pela
+          fé nos vossos corações, de modo que, enraizados e imbuídos na
+          caridade, possais compreender com todos os santos a largura, o
+          comprimento, a altura e a profundidade deste mystério e conhecer o
+          amor de Jesus Cristo, o qual ultrapassa toda a ciência; e, assim,
+          fiqueis repletos de plenitude dos dons de Deus.
+        </Text>
+      </Language>
 
-          <Text className="h3">Gradual</Text>
+      <Text className="h3">Gradual</Text>
 
-          <Text className="em">Sl. 24, 8-9</Text>
+      <Text className="em">Sl. 24, 8-9</Text>
 
-          <Language>
-            <Text className="latin">
-              Dulcis et rectus Dóminus: propter hoc legem dabit delinquéntibus
-              in via.<Text className="versicle"> ℣. </Text>Díriget mansúetos in
-              judício, docébit mites vias suas.
-            </Text>
-            <Text className="vernacular">
-              O Senhor é bom e recto: eis porque dá uma lei aos delinquentes.
-              <Text className="versicle"> ℣. </Text>
-              Ele guia os pacíficos pela justiça e manifesta os seus caminhos
-              aos humildes.
-            </Text>
-            <Text className="latin">
-              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-              <Text className="latin">Matth. 11, 29</Text> Tóllite jugum meum
-              super vos, et díscite a me, quia mitis sum et húmilis Corde, et
-              inveniétis réquiem animábus vestris. Allelúja.
-            </Text>
-            <Text className="vernacular">
-              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-              <Text className="vernacular">Mt. 11, 29</Text> Tomai o meu jugo
-              sobre vós e aprendei de mim, que sou manso e humilde de Coração, e
-              achareis paz para as vossas almas. Aleluia.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Dulcis et rectus Dóminus: propter hoc legem dabit delinquéntibus in
+          via.<Text className="versicle"> ℣. </Text>Díriget mansúetos in
+          judício, docébit mites vias suas.
+        </Text>
+        <Text className="vernacular">
+          O Senhor é bom e recto: eis porque dá uma lei aos delinquentes.
+          <Text className="versicle"> ℣. </Text>
+          Ele guia os pacíficos pela justiça e manifesta os seus caminhos aos
+          humildes.
+        </Text>
+        <Text className="latin">
+          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+          <Text className="latin">Matth. 11, 29</Text> Tóllite jugum meum super
+          vos, et díscite a me, quia mitis sum et húmilis Corde, et inveniétis
+          réquiem animábus vestris. Allelúja.
+        </Text>
+        <Text className="vernacular">
+          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+          <Text className="vernacular">Mt. 11, 29</Text> Tomai o meu jugo sobre
+          vós e aprendei de mim, que sou manso e humilde de Coração, e achareis
+          paz para as vossas almas. Aleluia.
+        </Text>
+      </Language>
 
-          <Text className="aside">
-            Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
-          </Text>
+      <Text className="aside">
+        Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
+      </Text>
 
-          <Text className="h3">Trato</Text>
+      <Text className="h3">Trato</Text>
 
-          <Text className="em">Sl. 102, 8-10</Text>
+      <Text className="em">Sl. 102, 8-10</Text>
 
-          <Language>
-            <Text className="latin">
-              Miséricors et miserátor Dóminus, longánimis, et multum miséricors.
-              <Text className="versicle"> ℣. </Text>Non in perpétuum irascétur,
-              neque in ætérnum comminábitur.
-              <Text className="versicle"> ℣. </Text>
-              Non secúndum peccáta nostra fecit nobis, neque secúndum
-              iniquitátes nostras retríbuit nobis.
-            </Text>
-            <Text className="vernacular">
-              O Senhor é terno e compassivo, compadecente e misericordiosíssimo:
-              <Text className="versicle"> ℣. </Text>Não se irará perpetuamente,
-              nem ameaçará eternamente.<Text className="versicle"> ℣. </Text>Não
-              nos tratará segundo os nossos pecados, nem nos castigará segundo
-              as nossas iniquidades.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Miséricors et miserátor Dóminus, longánimis, et multum miséricors.
+          <Text className="versicle"> ℣. </Text>Non in perpétuum irascétur,
+          neque in ætérnum comminábitur.
+          <Text className="versicle"> ℣. </Text>
+          Non secúndum peccáta nostra fecit nobis, neque secúndum iniquitátes
+          nostras retríbuit nobis.
+        </Text>
+        <Text className="vernacular">
+          O Senhor é terno e compassivo, compadecente e misericordiosíssimo:
+          <Text className="versicle"> ℣. </Text>Não se irará perpetuamente, nem
+          ameaçará eternamente.<Text className="versicle"> ℣. </Text>Não nos
+          tratará segundo os nossos pecados, nem nos castigará segundo as nossas
+          iniquidades.
+        </Text>
+      </Language>
 
-          <Text className="aside">
-            No Tempo Pascal, em vez do Gradual e do Trato diz-se:
-          </Text>
+      <Text className="aside">
+        No Tempo Pascal, em vez do Gradual e do Trato diz-se:
+      </Text>
 
-          <Language>
-            <Text className="latin">
-              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-              <Text className="latin">Matth. 11, 29 et 28</Text> Tóllite jugum
-              meum super vos, et díscite a me, quia mitis sum et húmilis Corde:
-              et inveniétis réquiem animábus vestris. Allelúja.
-              <Text className="versicle"> ℣. </Text>Veníte ad me, omnes qui
-              laborátis, et oneráti estis, et ego refíciam vos. Allelúja.
-            </Text>
-            <Text className="vernacular">
-              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-              <Text className="vernacular">Mt. 11, 29 et 28</Text> Tomai o meu
-              jugo sobre vós e aprendei de mim, que sou manso e humilde de
-              Coração, e achareis paz para as vossas almas. Aleluia.
-              <Text className="versicle"> ℣. </Text>Vinde a mim, vós todos, que
-              sofreis e estais sobrecarregados, e vos aliviarei. Aleluia.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+          <Text className="latin">Matth. 11, 29 et 28</Text> Tóllite jugum meum
+          super vos, et díscite a me, quia mitis sum et húmilis Corde: et
+          inveniétis réquiem animábus vestris. Allelúja.
+          <Text className="versicle"> ℣. </Text>Veníte ad me, omnes qui
+          laborátis, et oneráti estis, et ego refíciam vos. Allelúja.
+        </Text>
+        <Text className="vernacular">
+          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+          <Text className="vernacular">Mt. 11, 29 et 28</Text> Tomai o meu jugo
+          sobre vós e aprendei de mim, que sou manso e humilde de Coração, e
+          achareis paz para as vossas almas. Aleluia.
+          <Text className="versicle"> ℣. </Text>Vinde a mim, vós todos, que
+          sofreis e estais sobrecarregados, e vos aliviarei. Aleluia.
+        </Text>
+      </Language>
 
-          <Text className="h3">Evangelho</Text>
+      <Text className="h3">Evangelho</Text>
 
-          <Text className="em">Jo. 19 ,11-37</Text>
+      <Text className="em">Jo. 19 ,11-37</Text>
 
-          <Language>
-            <Text className="latin">
-              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
-              secúndum Joánnem.
-            </Text>
-            <Text className="vernacular">
-              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
-              segundo S. João.
-            </Text>
-            <Text className="latin">
-              In illo témpore: Judǽi (quóniam Parascéve erat), ut non remanérent
-              in cruce córpora sábbato (erat enim magnus dies ille sábbati),
-              rogavérunt Pilátum, ut frangeréntur eórum crura, et tolleréntur.
-              Venérunt ergo mílites: et primi quidem fregérunt crura et
-              alteríus, qui crucifíxus est cum eo. Ad Jesum autem cum veníssent,
-              ut vidérunt eum jam mórtuum, non fregérunt ejus crura, sed unus
-              mílitum láncea latus ejus apéruit, et contínuo exívit sanguis et
-              aqua. Et qui vidit, testimónium perhíbuit: et verum est
-              testimónium ejus. Et ille scit quia vera dicit, ut et vos
-              credátis. Facta sunt enim hæc ut Scriptúra implerétur: Os non
-              comminuétis ex eo. Et íterum alia Scriptúra dicit: Vidébunt in
-              quem transfixérunt.
-            </Text>
-            <Text className="vernacular">
-              Naquele tempo, os judeus (porque era o dia da preparação da
-              Páscoa), não desejando que os corpos ficassem na cruz para o
-              sábado (pois o sábado era solene), pediram a Pilatos consentisse
-              que partissem as pernas aos crucificados e os descessem da cruz.
-              Os soldados vieram, pois, e quebraram as pernas do primeiro e do
-              outro que haviam sido crucificados com Jesus. Tendo vindo a Jesus,
-              como O vissem já morto, Lhe não quebraram as pernas, mas um dos
-              soldados abriu-Lhe o lado com a lança, do qual saiu sangue e água
-              imediatamente. E quem isto viu dá testemunho disso, e o seu
-              testemunho é verdadeiro, pois sabe que diz a verdade, para que
-              também vós acrediteis. Aconteceram estas coisas para se cumprir o
-              que dizia a Escritura: «Não quebrareis nenhum dos meus ossos». E
-              ainda a Escritura diz em outro lugar: «Contemplarão aquele que
-              traspassaram».
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+          Joánnem.
+        </Text>
+        <Text className="vernacular">
+          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+          segundo S. João.
+        </Text>
+        <Text className="latin">
+          In illo témpore: Judǽi (quóniam Parascéve erat), ut non remanérent in
+          cruce córpora sábbato (erat enim magnus dies ille sábbati), rogavérunt
+          Pilátum, ut frangeréntur eórum crura, et tolleréntur. Venérunt ergo
+          mílites: et primi quidem fregérunt crura et alteríus, qui crucifíxus
+          est cum eo. Ad Jesum autem cum veníssent, ut vidérunt eum jam mórtuum,
+          non fregérunt ejus crura, sed unus mílitum láncea latus ejus apéruit,
+          et contínuo exívit sanguis et aqua. Et qui vidit, testimónium
+          perhíbuit: et verum est testimónium ejus. Et ille scit quia vera
+          dicit, ut et vos credátis. Facta sunt enim hæc ut Scriptúra
+          implerétur: Os non comminuétis ex eo. Et íterum alia Scriptúra dicit:
+          Vidébunt in quem transfixérunt.
+        </Text>
+        <Text className="vernacular">
+          Naquele tempo, os judeus (porque era o dia da preparação da Páscoa),
+          não desejando que os corpos ficassem na cruz para o sábado (pois o
+          sábado era solene), pediram a Pilatos consentisse que partissem as
+          pernas aos crucificados e os descessem da cruz. Os soldados vieram,
+          pois, e quebraram as pernas do primeiro e do outro que haviam sido
+          crucificados com Jesus. Tendo vindo a Jesus, como O vissem já morto,
+          Lhe não quebraram as pernas, mas um dos soldados abriu-Lhe o lado com
+          a lança, do qual saiu sangue e água imediatamente. E quem isto viu dá
+          testemunho disso, e o seu testemunho é verdadeiro, pois sabe que diz a
+          verdade, para que também vós acrediteis. Aconteceram estas coisas para
+          se cumprir o que dizia a Escritura: «Não quebrareis nenhum dos meus
+          ossos». E ainda a Escritura diz em outro lugar: «Contemplarão aquele
+          que traspassaram».
+        </Text>
+      </Language>
 
-          <Text className="h3">Ofertório</Text>
+      <Text className="h3">Ofertório</Text>
 
-          <Text className="em">Sl. 68, 21</Text>
+      <Text className="em">Sl. 68, 21</Text>
 
-          <Language>
-            <Text className="latin">
-              Impropérium exspectávi Cor meum et misériam: et sustínui, qui
-              simul mecum contristarétur, et non fuit: consolántem me quæsívi,
-              et non invéni.
-            </Text>
-            <Text className="vernacular">
-              Impropérios e misérias afrontaram o meu coração: E procurei quem
-              compartilhasse a minha tristeza, mas não achei; Procurei alguém
-              que me consolasse, mas não encontrei.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Impropérium exspectávi Cor meum et misériam: et sustínui, qui simul
+          mecum contristarétur, et non fuit: consolántem me quæsívi, et non
+          invéni.
+        </Text>
+        <Text className="vernacular">
+          Impropérios e misérias afrontaram o meu coração: E procurei quem
+          compartilhasse a minha tristeza, mas não achei; Procurei alguém que me
+          consolasse, mas não encontrei.
+        </Text>
+      </Language>
 
-          <Text className="aside">No Tempo Pascal diz-se o seguinte:</Text>
+      <Text className="aside">No Tempo Pascal diz-se o seguinte:</Text>
 
-          <Text className="h3">Ofertório</Text>
+      <Text className="h3">Ofertório</Text>
 
-          <Text className="em">Sl. 39, 7-9</Text>
+      <Text className="em">Sl. 39, 7-9</Text>
 
-          <Language>
-            <Text className="latin">
-              Holocáustum et pro peccáto non postulásti; tunc dixi: Ecce, vénio.
-              In cápite libri scriptum est de me ut fácerem voluntátem tuam:
-              Deus meus, volui, et legem tuam in médio Cordis mei, allelúja.
-            </Text>
-            <Text className="vernacular">
-              Não pedistes holocaustos nem sacrifícios pelo pecado; e logo
-              dissestes: «Eis que eu venho. No princípio do livro está escrito a
-              meu respeito que vim para fazer a vossa vontade. E Eu, ó meu Deus,
-              assim o quis; a vossa lei está no íntimo do meu coração».
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Holocáustum et pro peccáto non postulásti; tunc dixi: Ecce, vénio. In
+          cápite libri scriptum est de me ut fácerem voluntátem tuam: Deus meus,
+          volui, et legem tuam in médio Cordis mei, allelúja.
+        </Text>
+        <Text className="vernacular">
+          Não pedistes holocaustos nem sacrifícios pelo pecado; e logo
+          dissestes: «Eis que eu venho. No princípio do livro está escrito a meu
+          respeito que vim para fazer a vossa vontade. E Eu, ó meu Deus, assim o
+          quis; a vossa lei está no íntimo do meu coração».
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Réspice, quǽsumus, Dómine, ad ineffábilem Cordis dilécti Fílii tui
-              caritátem: ut quod offérimus sit tibi munus accéptum et nostrórum
-              expiátio delictórum. Per eúndem Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Senhor, Vos suplicamos, atendei benigno à caridade inefável do
-              Coração do vosso amado Filho, a fim de que a oferta, que Vos
-              apresentamos, por Vós seja recebida, e nos sirva de expiação dos
-              nossos pecados. Pelo mesmo Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Réspice, quǽsumus, Dómine, ad ineffábilem Cordis dilécti Fílii tui
+          caritátem: ut quod offérimus sit tibi munus accéptum et nostrórum
+          expiátio delictórum. Per eúndem Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Senhor, Vos suplicamos, atendei benigno à caridade inefável do Coração
+          do vosso amado Filho, a fim de que a oferta, que Vos apresentamos, por
+          Vós seja recebida, e nos sirva de expiação dos nossos pecados. Pelo
+          mesmo Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Comúnio</Text>
+      <Text className="h3">Comúnio</Text>
 
-          <Text className="em">Jo. 19, 34</Text>
+      <Text className="em">Jo. 19, 34</Text>
 
-          <Language>
-            <Text className="latin">
-              Unus mílitum láncea latus ejus apéruit, et contínuo exívit sanguis
-              et aqua.
-            </Text>
-            <Text className="vernacular">
-              Um dos soldados abriu-Lhe o lado com uma lança, e logo saiu sangue
-              e água.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Unus mílitum láncea latus ejus apéruit, et contínuo exívit sanguis et
+          aqua.
+        </Text>
+        <Text className="vernacular">
+          Um dos soldados abriu-Lhe o lado com uma lança, e logo saiu sangue e
+          água.
+        </Text>
+      </Language>
 
-          <Text className="aside">
-            No Tempo Pascal diz-se o seguinte, em vez do Precedente:
-          </Text>
+      <Text className="aside">
+        No Tempo Pascal diz-se o seguinte, em vez do Precedente:
+      </Text>
 
-          <Text className="h3">Comúnio</Text>
+      <Text className="h3">Comúnio</Text>
 
-          <Text className="em">Jo. 7, 37</Text>
+      <Text className="em">Jo. 7, 37</Text>
 
-          <Language>
-            <Text className="latin">
-              Si quis sitit, véniat ad me et bibat, allelúja, allelúja.
-            </Text>
-            <Text className="vernacular">
-              Se alguém tem sede, venha a mim e beba. Aleluia, aleluia.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Si quis sitit, véniat ad me et bibat, allelúja, allelúja.
+        </Text>
+        <Text className="vernacular">
+          Se alguém tem sede, venha a mim e beba. Aleluia, aleluia.
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Prǽbeant nobis, Dómine Jesu, divínum tua sancta fervórem: quo
-              dulcíssimi Cordis tui suavitáte percépta; discámus terréna
-              despícere, et amáre cœléstia: Qui vivis et regnas...
-            </Text>
-            <Text className="vernacular">
-              Que os vossos sacrossantos mystérios nos comuniquem, ó Senhor
-              Jesus, o divino fervor, a fim de que, sentindo as suavidades do
-              vosso dulcíssimo Coração, aprendamos a desprezar as coisas
-              terrenas e a amar as celestiais. Ó Vós, que, sendo Deus...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Prǽbeant nobis, Dómine Jesu, divínum tua sancta fervórem: quo
+          dulcíssimi Cordis tui suavitáte percépta; discámus terréna despícere,
+          et amáre cœléstia: Qui vivis et regnas...
+        </Text>
+        <Text className="vernacular">
+          Que os vossos sacrossantos mystérios nos comuniquem, ó Senhor Jesus, o
+          divino fervor, a fim de que, sentindo as suavidades do vosso
+          dulcíssimo Coração, aprendamos a desprezar as coisas terrenas e a amar
+          as celestiais. Ó Vós, que, sendo Deus...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

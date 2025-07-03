@@ -1,71 +1,65 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function Page20Sacerdote() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">20.ª Pelo próprio Sacerdote</Text>
+    <PageWrapper>
+      <Text className="h1">20.ª Pelo próprio Sacerdote</Text>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Omnípotens et miséricors Deus, humilitátis meæ preces benígnus
-              inténde: ei me fámulum tuum, quem, nullis suffragántibus méritis,
-              sed imménsa cleméntiæ tuæ largitáte cœléstibus mystériis servíre
-              tribuísti, dignum sacris altáribus fac minístrum; ut, quod mea
-              voce deprómitur, tua sanctificatióne firmétur. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Omnipotente e misericordioso Deus, atendei benigno às preces que
-              humildemente Vos dirijo, e tornai digno ministro dos vossos
-              altares sagrados este vosso servo (que elevastes ao ministério dos
-              dons celestes, não pelos seus próprios méritos, mas pela vossa
-              imensa clemência), a fim de que as palavras que saem da minha boca
-              sejam por Vós confirmadas e santificadas. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Omnípotens et miséricors Deus, humilitátis meæ preces benígnus
+          inténde: ei me fámulum tuum, quem, nullis suffragántibus méritis, sed
+          imménsa cleméntiæ tuæ largitáte cœléstibus mystériis servíre
+          tribuísti, dignum sacris altáribus fac minístrum; ut, quod mea voce
+          deprómitur, tua sanctificatióne firmétur. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Omnipotente e misericordioso Deus, atendei benigno às preces que
+          humildemente Vos dirijo, e tornai digno ministro dos vossos altares
+          sagrados este vosso servo (que elevastes ao ministério dos dons
+          celestes, não pelos seus próprios méritos, mas pela vossa imensa
+          clemência), a fim de que as palavras que saem da minha boca sejam por
+          Vós confirmadas e santificadas. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Hujus, Dómine, virtúte sacraménti, peccatórum meórum máculas
-              abstérge: et præsta; ut, ad exsequéndum injúncti officii
-              ministérium, me tua grátia dignum effíciat. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Senhor, pela virtude deste mystério, purificai-me das máculas dos
-              meus pecados; e, Vos suplico insistenternente, pela vossa graça,
-              tornai-me digno das sagradas funções do ministério que me foi
-              imposto. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Hujus, Dómine, virtúte sacraménti, peccatórum meórum máculas abstérge:
+          et præsta; ut, ad exsequéndum injúncti officii ministérium, me tua
+          grátia dignum effíciat. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Senhor, pela virtude deste mystério, purificai-me das máculas dos meus
+          pecados; e, Vos suplico insistenternente, pela vossa graça, tornai-me
+          digno das sagradas funções do ministério que me foi imposto. Por nosso
+          Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Omnípotens sempitérne Deus, qui me peccatórem sacris altáribus
-              astáre voluísti, et sancti nóminis tui laudáre poténtiam: concéde
-              propítius, per hujus sacraménti mystérium, meórum mihi véniam
-              peccatórum; ut tuæ majestáti digne mérear famulári. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Deus omnipotente e sempiterno, que destinastes este indigno
-              pecador para servir os vossos sacrossantos altares e louvar a
-              majestade do vosso santo nome, concedei-me misericordiosa-mente,
-              pelo ministério deste sacrifício, a remissão dos meus pecados,
-              para que possa dignamente servir a vossa majestade. Por nosso
-              Senhor...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Omnípotens sempitérne Deus, qui me peccatórem sacris altáribus astáre
+          voluísti, et sancti nóminis tui laudáre poténtiam: concéde propítius,
+          per hujus sacraménti mystérium, meórum mihi véniam peccatórum; ut tuæ
+          majestáti digne mérear famulári. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Deus omnipotente e sempiterno, que destinastes este indigno pecador
+          para servir os vossos sacrossantos altares e louvar a majestade do
+          vosso santo nome, concedei-me misericordiosa-mente, pelo ministério
+          deste sacrifício, a remissão dos meus pecados, para que possa
+          dignamente servir a vossa majestade. Por nosso Senhor...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

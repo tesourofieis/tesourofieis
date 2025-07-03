@@ -1,167 +1,159 @@
 import { Link } from "expo-router";
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function PageSantissimatrindade() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">Missa da Santíssima Trindade</Text>
+    <PageWrapper>
+      <Text className="h1">Missa da Santíssima Trindade</Text>
 
-          <Text className="aside">
-            Como na Missa do
-            <Link className="link" href="/missal/pentecostes/pent1-0">
-              Domingo da Santíssima Trindade,
-            </Link>
-            excepto:
-          </Text>
+      <Text className="aside">
+        Como na Missa do
+        <Link className="link" href="/missal/pentecostes/pent1-0">
+          Domingo da Santíssima Trindade,
+        </Link>
+        excepto:
+      </Text>
 
-          <Text className="h3">Epístola</Text>
+      <Text className="h3">Epístola</Text>
 
-          <Text className="em">2 Cor. 13, 11 & 13</Text>
+      <Text className="em">2 Cor. 13, 11 & 13</Text>
 
-          <Language>
-            <Text className="latin">
-              Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
-            </Text>
-            <Text className="vernacular">
-              Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-            </Text>
-            <Text className="latin">
-              Fratres: Gaudéte, perfécti estóte, exhortámini, idem sápite, pacem
-              habéte, et Deus pacis et dilectiónis erit vobíscum. Grátia Dómini
-              nostri Jesu Christi, et cáritas Dei, et communicátio Sancti
-              Spíritus sit cum ómnibus vobis. Amen.
-            </Text>
-            <Text className="vernacular">
-              Meus irmãos: Regozijai-vos, sede perfeitos» confortai-vos
-              reciprocamente, sede unidos em vossos sentimentos, vivei em paz; e
-              Deus da paz e do amor permanecerá convosco. Que a graça de nosso
-              Senhor Jesus Cristo, o amor de Deus e a comunicação do Espírito
-              Santo estejam sempre convosco. Amen.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
+        </Text>
+        <Text className="vernacular">
+          Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
+        </Text>
+        <Text className="latin">
+          Fratres: Gaudéte, perfécti estóte, exhortámini, idem sápite, pacem
+          habéte, et Deus pacis et dilectiónis erit vobíscum. Grátia Dómini
+          nostri Jesu Christi, et cáritas Dei, et communicátio Sancti Spíritus
+          sit cum ómnibus vobis. Amen.
+        </Text>
+        <Text className="vernacular">
+          Meus irmãos: Regozijai-vos, sede perfeitos» confortai-vos
+          reciprocamente, sede unidos em vossos sentimentos, vivei em paz; e
+          Deus da paz e do amor permanecerá convosco. Que a graça de nosso
+          Senhor Jesus Cristo, o amor de Deus e a comunicação do Espírito Santo
+          estejam sempre convosco. Amen.
+        </Text>
+      </Language>
 
-          <Text className="h3">Gradual</Text>
+      <Text className="h3">Gradual</Text>
 
-          <Text className="em">Dan. 3, 55-56</Text>
+      <Text className="em">Dan. 3, 55-56</Text>
 
-          <Language>
-            <Text className="latin">
-              Benedíctus es, Dómine, qui íntuens abýssos, et sedes super
-              Chérubim.<Text className="versicle"> ℣. </Text>Benedíctus es,
-              Dómine, in firmaménto cœli, et laudábilis in sǽcula.
-            </Text>
-            <Text className="vernacular">
-              Senhor, que estais assentado acima dos Querubins e cujo olhar
-              penetra na profundeza dos abysmos, sois bendito!
-              <Text className="versicle"> ℣. </Text>Sim, Senhor, sois bendito no
-              firmamento do céu; e sois digno de louvor em todos os séculos.
-            </Text>
-            <Text className="latin">
-              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-              <Text className="latin">ibid., 52</Text> Benedíctus es, Dómine,
-              Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.
-            </Text>
-            <Text className="vernacular">
-              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-              <Text className="vernacular">ibid., 52</Text> Sois bendito,
-              Senhor, Deus dos nossos pais: e sois digno de louvor em todos os
-              séculos.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Benedíctus es, Dómine, qui íntuens abýssos, et sedes super Chérubim.
+          <Text className="versicle"> ℣. </Text>Benedíctus es, Dómine, in
+          firmaménto cœli, et laudábilis in sǽcula.
+        </Text>
+        <Text className="vernacular">
+          Senhor, que estais assentado acima dos Querubins e cujo olhar penetra
+          na profundeza dos abysmos, sois bendito!
+          <Text className="versicle"> ℣. </Text>Sim, Senhor, sois bendito no
+          firmamento do céu; e sois digno de louvor em todos os séculos.
+        </Text>
+        <Text className="latin">
+          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+          <Text className="latin">ibid., 52</Text> Benedíctus es, Dómine, Deus
+          patrum nostrórum, et laudábilis in sǽcula. Allelúja.
+        </Text>
+        <Text className="vernacular">
+          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+          <Text className="vernacular">ibid., 52</Text> Sois bendito, Senhor,
+          Deus dos nossos pais: e sois digno de louvor em todos os séculos.
+        </Text>
+      </Language>
 
-          <Text className="aside">
-            Depois da Septuagésima omite-se o Aleluia e o que se segues, e
-            diz-se:
-          </Text>
+      <Text className="aside">
+        Depois da Septuagésima omite-se o Aleluia e o que se segues, e diz-se:
+      </Text>
 
-          <Text className="h3">Trato</Text>
+      <Text className="h3">Trato</Text>
 
-          <Language>
-            <Text className="latin">
-              Te Deum, Patrem ingénitum, te, Fílium unigénitum, te, Spíritum
-              Sanctum Paráclitum, sanctam et indivíduam Trinitátem, toto corde
-              confitémur, laudámus atque benedícimus.
-              <Text className="versicle"> ℣. </Text>Quóniam magnus es tu, et
-              fáciens mirabília: tu es Deus solus.
-              <Text className="versicle"> ℣. </Text>Tibi laus, tibi glória, tibi
-              gratiárum áctio in sǽcula sempitérna, o beáta Trinitas.
-            </Text>
-            <Text className="vernacular">
-              A Vós, ó Deus Pai, que fostes criado; a Vós, ó Filho Unigénito; a
-              Vós, ó Espírito Santo Paráclito; a Vós, ó Santa e indivisível
-              Trindade: adoramos com todo o coração, louvamos bendizemos.
-              <Text className="versicle"> ℣. </Text>
-              Pois Vós sois imenso, Senhor, praticais prodígios e sois o único
-              Deus.<Text className="versicle"> ℣. </Text>A Vós, ó beatíssima
-              Trindade, louvor, glória e acção de graças em todos os séculos.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Te Deum, Patrem ingénitum, te, Fílium unigénitum, te, Spíritum Sanctum
+          Paráclitum, sanctam et indivíduam Trinitátem, toto corde confitémur,
+          laudámus atque benedícimus.
+          <Text className="versicle"> ℣. </Text>Quóniam magnus es tu, et fáciens
+          mirabília: tu es Deus solus.
+          <Text className="versicle"> ℣. </Text>Tibi laus, tibi glória, tibi
+          gratiárum áctio in sǽcula sempitérna, o beáta Trinitas.
+        </Text>
+        <Text className="vernacular">
+          A Vós, ó Deus Pai, que fostes criado; a Vós, ó Filho Unigénito; a Vós,
+          ó Espírito Santo Paráclito; a Vós, ó Santa e indivisível Trindade:
+          adoramos com todo o coração, louvamos bendizemos.
+          <Text className="versicle"> ℣. </Text>
+          Pois Vós sois imenso, Senhor, praticais prodígios e sois o único Deus.
+          <Text className="versicle"> ℣. </Text>A Vós, ó beatíssima Trindade,
+          louvor, glória e acção de graças em todos os séculos.
+        </Text>
+      </Language>
 
-          <Text className="aside">
-            No tempo Pascal omite-se o Gradual e o Trato, e diz-se:
-          </Text>
+      <Text className="aside">
+        No tempo Pascal omite-se o Gradual e o Trato, e diz-se:
+      </Text>
 
-          <Language>
-            <Text className="latin">
-              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-              <Text className="latin">Dan. 3, 52</Text> Benedíctus es, Dómine,
-              Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.
-              <Text className="versicle"> ℣. </Text>Benedicámus Patrem et Fílium
-              cum Sancto Spíritu. Allelúja.
-            </Text>
-            <Text className="vernacular">
-              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-              <Text className="vernacular">Dn. 3, 52</Text> Sois bendito,
-              Senhor, Deus dos nossos e digno de louvor em todos os séculos.
-              Aleluia.<Text className="versicle"> ℣. </Text>Bendigamos o Pai, e
-              o Filho com o Espírito Santo. Aleluia.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+          <Text className="latin">Dan. 3, 52</Text> Benedíctus es, Dómine, Deus
+          patrum nostrórum, et laudábilis in sǽcula. Allelúja.
+          <Text className="versicle"> ℣. </Text>Benedicámus Patrem et Fílium cum
+          Sancto Spíritu. Allelúja.
+        </Text>
+        <Text className="vernacular">
+          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+          <Text className="vernacular">Dn. 3, 52</Text> Sois bendito, Senhor,
+          Deus dos nossos e digno de louvor em todos os séculos. Aleluia.
+          <Text className="versicle"> ℣. </Text>Bendigamos o Pai, e o Filho com
+          o Espírito Santo. Aleluia.
+        </Text>
+      </Language>
 
-          <Text className="h3">Evangelho</Text>
+      <Text className="h3">Evangelho</Text>
 
-          <Text className="em">Jo. 15, 26-27; 16, 1-4</Text>
+      <Text className="em">Jo. 15, 26-27; 16, 1-4</Text>
 
-          <Language>
-            <Text className="latin">
-              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
-              secúndum Joánnem.
-            </Text>
-            <Text className="vernacular">
-              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
-              segundo S. João.
-            </Text>
-            <Text className="latin">
-              In illo témpore: Dixit Jesus discípulis suis: Cum vénerit
-              Paráclitus, quem ego mittam vobis a Patre, Spíritum veritátis, qui
-              a Patre procédit, ille testimónium perhibébit de me: et vos
-              testimónium perhibébitis, quia ab inítio mecum estis. Hæc locútus
-              sum vobis, ut non scandalizémini. Absque synagógis fácient vos:
-              sed venit hora, ut omnis, qui intérficit vos, arbitrétur obséquium
-              se præstáre Deo. Et hæc fácient vobis, quia non novérunt Patrem
-              neque me. Sed hæc locútus sum vobis, ut, cum vénerit hora eórum,
-              reminiscámini, quia ego dixi vobis.
-            </Text>
-            <Text className="vernacular">
-              Naquele tempo, disse Jesus aos seus discípulos: Quando vier o
-              Paráclito, o Espírito da verdade que procede do Pai, que Eu vos
-              enviarei do Pai. Ele dará testemunho de mim, e vós, que estais
-              comigo desde o princípio, Lhe dareis também testemunho de mim.
-              Digo-vos estas coisas para que vos não escandalizeis:
-              expulsar-vos-ão das sinagogas; e vem a hora em que qualquer que
-              vos mate, julgará que presta um serviço a Deus. Tratar-vos-ão
-              deste modo, porque não conhecem nem o Pai, nem me conhecem a mim.
-              Digo-vos estas coisas para que, quando chegar a hora, vos lembreis
-              de que vo-las disse.
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+          Joánnem.
+        </Text>
+        <Text className="vernacular">
+          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+          segundo S. João.
+        </Text>
+        <Text className="latin">
+          In illo témpore: Dixit Jesus discípulis suis: Cum vénerit Paráclitus,
+          quem ego mittam vobis a Patre, Spíritum veritátis, qui a Patre
+          procédit, ille testimónium perhibébit de me: et vos testimónium
+          perhibébitis, quia ab inítio mecum estis. Hæc locútus sum vobis, ut
+          non scandalizémini. Absque synagógis fácient vos: sed venit hora, ut
+          omnis, qui intérficit vos, arbitrétur obséquium se præstáre Deo. Et
+          hæc fácient vobis, quia non novérunt Patrem neque me. Sed hæc locútus
+          sum vobis, ut, cum vénerit hora eórum, reminiscámini, quia ego dixi
+          vobis.
+        </Text>
+        <Text className="vernacular">
+          Naquele tempo, disse Jesus aos seus discípulos: Quando vier o
+          Paráclito, o Espírito da verdade que procede do Pai, que Eu vos
+          enviarei do Pai. Ele dará testemunho de mim, e vós, que estais comigo
+          desde o princípio, Lhe dareis também testemunho de mim. Digo-vos estas
+          coisas para que vos não escandalizeis: expulsar-vos-ão das sinagogas;
+          e vem a hora em que qualquer que vos mate, julgará que presta um
+          serviço a Deus. Tratar-vos-ão deste modo, porque não conhecem nem o
+          Pai, nem me conhecem a mim. Digo-vos estas coisas para que, quando
+          chegar a hora, vos lembreis de que vo-las disse.
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

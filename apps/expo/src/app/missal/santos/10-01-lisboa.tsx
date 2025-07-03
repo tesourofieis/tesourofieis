@@ -1,48 +1,43 @@
 import { Link } from "expo-router";
 
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import LinkCard from "~/components/LinkCard";
+import PageWrapper from "~/components/Page";
 
 export default function Page1001Lisboa() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">
-            S. Veríssimo e Outros, Mártires, a 1 de Outubro, No Patriarcado de
-            Lisboa
-          </Text>
-          <Text className="aside">
-            Como na{" "}
-            <Link className="link" href="/missal/comum/6muitosmartires1">
-              Missa Intret in
-            </Link>{" "}
-            , excepto:
-          </Text>
-          <Text className="h3">Oração</Text>
-          <Text className="text-base">
-            Ó Deus, que permitistes assistíssemos a esta festa dos vossos Santos
-            Mártires Veríssimo, Máximo e Júlia, concedei-nos, Vos suplicamos,
-            que, celebrando o seu nascimento no céu, nos enchamos de zelo com
-            seus exemplos. Por nosso Senhor...
-          </Text>
-          <Text className="h3">Gradual</Text>
-          <Text className="text-base">
-            Deus é glorioso em seus Santos, e admirável na sua majestade,
-            praticando prodígios. Senhor, a vossa dextra engrandeceu-se pela sua
-            força: a vossa dextra esmagou os inimigos. Aleluia, aleluia. Esta é
-            a verdadeira fraternidade» que venceu os crimes do mundo. Ela seguiu
-            Cristo: Pelo que goza a glória do reino celestial. Aleluia.
-          </Text>
-          <Text className="h3">Secreta e Postcomúnio</Text>
-          <LinkCard
-            href="/missal/comum/7muitosmartires2#secreta"
-            title="Muitos Mártires - Missa Sapiéntiam sanctórum"
-          />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <PageWrapper>
+      <Text className="h1">
+        S. Veríssimo e Outros, Mártires, a 1 de Outubro, No Patriarcado de
+        Lisboa
+      </Text>
+      <Text className="aside">
+        Como na{" "}
+        <Link className="link" href="/missal/comum/6muitosmartires1">
+          Missa Intret in
+        </Link>{" "}
+        , excepto:
+      </Text>
+      <Text className="h3">Oração</Text>
+      <Text className="text-base">
+        Ó Deus, que permitistes assistíssemos a esta festa dos vossos Santos
+        Mártires Veríssimo, Máximo e Júlia, concedei-nos, Vos suplicamos, que,
+        celebrando o seu nascimento no céu, nos enchamos de zelo com seus
+        exemplos. Por nosso Senhor...
+      </Text>
+      <Text className="h3">Gradual</Text>
+      <Text className="text-base">
+        Deus é glorioso em seus Santos, e admirável na sua majestade, praticando
+        prodígios. Senhor, a vossa dextra engrandeceu-se pela sua força: a vossa
+        dextra esmagou os inimigos. Aleluia, aleluia. Esta é a verdadeira
+        fraternidade» que venceu os crimes do mundo. Ela seguiu Cristo: Pelo que
+        goza a glória do reino celestial. Aleluia.
+      </Text>
+      <Text className="h3">Secreta e Postcomúnio</Text>
+      <LinkCard
+        href="/missal/comum/7muitosmartires2#secreta"
+        title="Muitos Mártires - Missa Sapiéntiam sanctórum"
+      />
+    </PageWrapper>
   );
 }

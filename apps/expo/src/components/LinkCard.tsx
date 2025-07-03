@@ -21,12 +21,13 @@ export function getColor(color?: string) {
   }
 }
 
-export const cardBase = (pressed: boolean) =>
-  `my-1 w-full flex-1 justify-between rounded-lg border border-sepia-300 p-4 ${
+export const cardBase = (pressed: boolean) => {
+  return `my-1 w-full flex-1 justify-between rounded-lg shadow-xl p-4 ${
     pressed
       ? "bg-sepia-200 dark:bg-sepia-700 opacity-90"
       : "bg-sepia-100 dark:bg-sepia-800"
-  } dark:border-sepia-700`;
+  }`;
+};
 
 export default function PageLinkCard({
   mass,
@@ -49,7 +50,7 @@ export default function PageLinkCard({
       // @ts-ignore
       <Link href={oratio.link} asChild>
         {/* @ts-ignore */}
-        <Pressable className={cardBase}>
+        <Pressable>
           {({ pressed }) => (
             <View className={cardBase(pressed)}>
               <View className="flex flex-row">
@@ -75,7 +76,7 @@ export default function PageLinkCard({
       // @ts-ignore
       <Link href={mass.link} asChild>
         {/* @ts-ignore */}
-        <Pressable className={cardBase}>
+        <Pressable>
           {({ pressed }) => (
             <View className={cardBase(pressed)}>
               <View className="flex flex-col justify-start">
@@ -118,12 +119,15 @@ export default function PageLinkCard({
     // @ts-ignore
     <Link href={href ?? "/"} asChild>
       {/* @ts-ignore */}
-      <Pressable className={cardBase}>
+      <Pressable>
         {({ pressed }) => (
           <View className={cardBase(pressed)}>
             <View className="flex flex-col justify-start">
               <View className="flex flex-row">
-                <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-300">
+                <Text
+                  className="font-serif text-sm text-sepia-600 dark:text-sepia-300"
+                  numberOfLines={1}
+                >
                   {description ?? ""}
                 </Text>
               </View>

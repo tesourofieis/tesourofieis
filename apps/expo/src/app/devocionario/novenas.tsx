@@ -5,8 +5,8 @@ import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { getYear } from "date-fns";
 import { Link } from "expo-router";
 import { useEffect, useState } from "react";
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { Text, View } from "react-native";
+import PageWrapper from "~/components/Page";
 
 function getAllNovenasForYear(year: number) {
   const calendar = new Calendar(year);
@@ -33,59 +33,53 @@ export default function PaginaNovenas() {
   }, [year]);
 
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">Novenas</Text>
+    <PageWrapper>
+      <Text className="h1">Novenas</Text>
 
-          <View className="flex px-2">
-            {novena.map((novena) => (
-              // @ts-ignore
-              <Link key={novena.id} href={`/${novena.link}`}>
-                <Text className="text-base font-bold underline mb-2">
-                  {novena.name}
-                </Text>
-              </Link>
-            ))}
-          </View>
-
-          <Text className="text-base mb-2">
-            Não existem novenas oficiais estabelecidas pela Igreja, permitindo
-            que cada fiel as adapte às suas necessidades espirituais.
-          </Text>
-          <Text className="text-base mb-2">
-            Se não tiver uma novena específica para rezar, pode considerar a
-            seguinte estrutura:
-          </Text>
-          <View className="list-decimal list-inside mb-2">
-            <Text className="li text-justify">
-              Reze a oração da missa da novena.
+      <View className="flex px-2">
+        {novena.map((novena) => (
+          // @ts-ignore
+          <Link key={novena.id} href={`/${novena.link}`}>
+            <Text className="text-base font-bold underline mb-2">
+              {novena.name}
             </Text>
-            <Text className="li text-justify">
-              Adicione intenções pessoais.
-            </Text>
-            <Text className="li text-justify">
-              Termine com a Salve Regina, ou outra oração.
-            </Text>
-          </View>
+          </Link>
+        ))}
+      </View>
 
-          <Text className="h3 font-semibold mt-4 mb-2">
-            Todas as Novenas agendadas
-          </Text>
-          <View className="list-disc list-inside">
-            {allNovenas.map((novena) => {
-              const buidDate = `${year}-${novena.month}-${novena.day}`;
+      <Text className="text-base mb-2">
+        Não existem novenas oficiais estabelecidas pela Igreja, permitindo que
+        cada fiel as adapte às suas necessidades espirituais.
+      </Text>
+      <Text className="text-base mb-2">
+        Se não tiver uma novena específica para rezar, pode considerar a
+        seguinte estrutura:
+      </Text>
+      <View className="list-decimal list-inside mb-2">
+        <Text className="li text-justify">
+          Reze a oração da missa da novena.
+        </Text>
+        <Text className="li text-justify">Adicione intenções pessoais.</Text>
+        <Text className="li text-justify">
+          Termine com a Salve Regina, ou outra oração.
+        </Text>
+      </View>
 
-              return (
-                <Text className="li" key={novena.id}>
-                  <Text className="font-bold">{novena.name}</Text> - Dia{" "}
-                  {novena.date ? novena.date : buidDate}
-                </Text>
-              );
-            })}
-          </View>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Text className="h3 font-semibold mt-4 mb-2">
+        Todas as Novenas agendadas
+      </Text>
+      <View className="list-disc list-inside">
+        {allNovenas.map((novena) => {
+          const buidDate = `${year}-${novena.month}-${novena.day}`;
+
+          return (
+            <Text className="li" key={novena.id}>
+              <Text className="font-bold">{novena.name}</Text> - Dia{" "}
+              {novena.date ? novena.date : buidDate}
+            </Text>
+          );
+        })}
+      </View>
+    </PageWrapper>
   );
 }

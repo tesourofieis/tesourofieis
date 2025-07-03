@@ -1,49 +1,43 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function PageCruz() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">Prefácio da Santa Cruz</Text>
+    <PageWrapper>
+      <Text className="h1">Prefácio da Santa Cruz</Text>
 
-          <Text className="aside">
-            Diz-se quotidianamente desde Domingo da Paixão até Quinta-Feira
-            Santa, excepto nas Festas de Nossa Senhora e de S. José.
-          </Text>
+      <Text className="aside">
+        Diz-se quotidianamente desde Domingo da Paixão até Quinta-Feira Santa,
+        excepto nas Festas de Nossa Senhora e de S. José.
+      </Text>
 
-          <Language>
-            <Text className="latin">
-              Vere dignum et justum est, æquum et salutáre, nos tibi semper et
-              ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne
-              Deus: Qui salútem humáni géneris in ligno Crucis constituísti: ut,
-              unde mors oriebátur, inde vita resúrgeret: et, qui in ligno
-              vincébat, in ligno quoque vincerétur: per Christum, Dóminum
-              nostrum. Per quem majestátem tuam laudant Angeli, adórant
-              Dominatiónes, tremunt Potestátes. Cœli cœlorúmque Virtútes ac
-              beáta Séraphim sócia exsultatióne concélebrant. Cum quibus et
-              nostras voces ut admítti júbeas, deprecámur, súpplici confessióne
-              dicéntes:
-            </Text>
-            <Text className="vernacular">
-              É verdadeiramente digno e justo, racional e salutar render-Vos
-              graças em todos os lugares e sempre, ó Senhor santo, Pai
-              omnipotente, eterno Deus, que estabelecestes na árvore da Cruz a
-              salvação do género humano, para que renascesse a vida, onde a
-              morte houvera princípio, e que aquilo que outrora vencera na
-              árvore, fosse vencido na árvore também, por Jesus Cristo, nosso
-              Senhor: pelo qual os Anjos louvam a vossa majestade, as Dominações
-              a adoram, as Potestades a reverenciam, os Céus, as Virtudes dos
-              Céus e os bem-aventurados Serafins a celebram em comuns
-              transportes de alegria: aos quais, Vos suplicamos, permiti que se
-              unam as nossas vozes, dizendo em humilde e suplicante confissão:
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Vere dignum et justum est, æquum et salutáre, nos tibi semper et
+          ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus:
+          Qui salútem humáni géneris in ligno Crucis constituísti: ut, unde mors
+          oriebátur, inde vita resúrgeret: et, qui in ligno vincébat, in ligno
+          quoque vincerétur: per Christum, Dóminum nostrum. Per quem majestátem
+          tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Cœli
+          cœlorúmque Virtútes ac beáta Séraphim sócia exsultatióne concélebrant.
+          Cum quibus et nostras voces ut admítti júbeas, deprecámur, súpplici
+          confessióne dicéntes:
+        </Text>
+        <Text className="vernacular">
+          É verdadeiramente digno e justo, racional e salutar render-Vos graças
+          em todos os lugares e sempre, ó Senhor santo, Pai omnipotente, eterno
+          Deus, que estabelecestes na árvore da Cruz a salvação do género
+          humano, para que renascesse a vida, onde a morte houvera princípio, e
+          que aquilo que outrora vencera na árvore, fosse vencido na árvore
+          também, por Jesus Cristo, nosso Senhor: pelo qual os Anjos louvam a
+          vossa majestade, as Dominações a adoram, as Potestades a reverenciam,
+          os Céus, as Virtudes dos Céus e os bem-aventurados Serafins a celebram
+          em comuns transportes de alegria: aos quais, Vos suplicamos, permiti
+          que se unam as nossas vozes, dizendo em humilde e suplicante
+          confissão:
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

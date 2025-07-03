@@ -1,23 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @config '../tailwind.config.ts';
 
 @layer base {
   .font-body {
     @apply font-serif;
   }
-  :root {
-    @apply w-full m-auto;
+
+  html {
+    @apply w-full;
+    scrollbar-width: thin;
+    scrollbar-color: theme("colors.sepia.900") theme("colors.sepia.800");
   }
 
   .text {
     @apply text-sepia-900 dark:text-sepia-100;
-  }
-
-  .docs {
-    @apply flex-1 font-serif py-2 px-1;
   }
 
   .h1 {
@@ -60,11 +58,6 @@
 
   .list-styled {
     @apply p-2;
-  }
-
-  .side-by-side {
-    @apply font-body;
-    min-width: 100%;
   }
 
   .text-base,

@@ -1,20 +1,16 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { Text, View } from "react-native";
+import PageWrapper from "~/components/Page";
 
 import Missa from "../comum/sumospontifices";
 
 export default function Page1231() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">
-            S. Silvestre, Papa e Confessor, a 31 de Dezembro
-          </Text>
+    <PageWrapper>
+      <Text className="h1">
+        S. Silvestre, Papa e Confessor, a 31 de Dezembro
+      </Text>
 
-          <Missa />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Missa />
+    </PageWrapper>
   );
 }

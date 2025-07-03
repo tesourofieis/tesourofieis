@@ -1,190 +1,182 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
+import PageWrapper from "~/components/Page";
 
 export default function Page0810() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">S. Lourenço, a 10 de Agosto</Text>
+    <PageWrapper>
+      <Text className="h1">S. Lourenço, a 10 de Agosto</Text>
 
-          <Text className="h3">Intróito</Text>
+      <Text className="h3">Intróito</Text>
 
-          <Text className="em">Sl. 95, 6</Text>
+      <Text className="em">Sl. 95, 6</Text>
 
-          <Language>
-            <Text className="latin">
-              Conféssio et pulchritúdo in conspéctu ejus: sánctitas et
-              magnificéntia in sanctificatióne ejus.{" "}
-              <Text className="latin">Ps. ibid., 1</Text> Cantáte Dómino
-              cánticum novum: cantáte Dómino, omnis terra.
-              <Text className="versicle"> ℣. </Text>Gloria Patri...
-            </Text>
-            <Text className="vernacular">
-              Rodeiam-no a glória e a majestade: e no seu santuário reluzem a
-              santidade e a magnificência.{" "}
-              <Text className="vernacular">Sl. ibid., 1</Text> Cantai em honra
-              do Senhor um hino novo: que toda a terra cante hinos ao Senhor.
-              <Text className="versicle"> ℣. </Text>Glória ao Pai...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Conféssio et pulchritúdo in conspéctu ejus: sánctitas et magnificéntia
+          in sanctificatióne ejus. <Text className="latin">Ps. ibid., 1</Text>{" "}
+          Cantáte Dómino cánticum novum: cantáte Dómino, omnis terra.
+          <Text className="versicle"> ℣. </Text>Gloria Patri...
+        </Text>
+        <Text className="vernacular">
+          Rodeiam-no a glória e a majestade: e no seu santuário reluzem a
+          santidade e a magnificência.{" "}
+          <Text className="vernacular">Sl. ibid., 1</Text> Cantai em honra do
+          Senhor um hino novo: que toda a terra cante hinos ao Senhor.
+          <Text className="versicle"> ℣. </Text>Glória ao Pai...
+        </Text>
+      </Language>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Da nobis, quǽsumus, omnípotens Deus: vitiórum nostrorum flammas
-              exstínguere; qui beáto Lauréntio tribuísti tormentórum suórum
-              incéndia superáre. Per Dóminum nostrum...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus omnipotente, que permitistes que o B. Lourenço triunfasse
-              das chamas do seu suplício, concedei-nos a graça, Vos suplicamos,
-              de extinguirdes as chamas dos nossos vícios. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Da nobis, quǽsumus, omnípotens Deus: vitiórum nostrorum flammas
+          exstínguere; qui beáto Lauréntio tribuísti tormentórum suórum incéndia
+          superáre. Per Dóminum nostrum...
+        </Text>
+        <Text className="vernacular">
+          Ó Deus omnipotente, que permitistes que o B. Lourenço triunfasse das
+          chamas do seu suplício, concedei-nos a graça, Vos suplicamos, de
+          extinguirdes as chamas dos nossos vícios. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Epístola</Text>
+      <Text className="h3">Epístola</Text>
 
-          <Text className="em">2 Cor. 9, 6-10</Text>
+      <Text className="em">2 Cor. 9, 6-10</Text>
 
-          <Language>
-            <Text className="latin">
-              Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
-            </Text>
-            <Text className="vernacular">
-              Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-            </Text>
-            <Text className="latin">
-              Fratres: Qui parce séminat, parce et metet: et qui séminat in
-              benedictiónibus, de benedictiónibus et metet. Unusquísque prout
-              destinávit in corde suo, non ex tristítia aut ex necessitáte:
-              hilárem enim datórem díligit Deus. Potens est autem Deus omnem
-              grátiam abundáre fácere in vobis, ut, in ómnibus semper omnem
-              sufficiéntiam habéntes, abundétis in omne opus bonum, sicut
-              scriptum est: Dispérsit, dedit paupéribus: justítia ejus manet in
-              sǽculum sǽculi. Qui autem admínistrat semen seminánti: et panem ad
-              manducándum præstábit, et multiplicábit semen vestrum, et augébit
-              increménta frugum justítiæ vestræ.
-            </Text>
-            <Text className="vernacular">
-              Meus irmãos: Aquele que semeia pouco, colherá pouco também; e
-              aquele que semeia com abundância, colherá também com abundância.
-              Que cada um dê segundo o que tiver resolvido no seu coração; mas
-              não com tristeza, nem com constrangimento: pois Deus ama aquele
-              que dá com alegria. Deus é assaz poderoso para vos cumular de
-              todas as graças, a fim de que, possuindo, sempre, em todas as
-              coisas, aquilo que vos é necessário, tenhais com abundância, para
-              praticardes todas as espécies de boas obras, segundo o que está
-              escrito: «Distribuiu liberalmente os seus bens pelos pobres: a sua
-              justiça subsistirá em todos os séculos dos séculos». Com efeito,
-              aquele que dá a semente ao semeador dar-vos-á também o pão para
-              comida, multiplicará a vossa semente e dará incremento aos frutos
-              da vossa justiça.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
+        </Text>
+        <Text className="vernacular">
+          Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
+        </Text>
+        <Text className="latin">
+          Fratres: Qui parce séminat, parce et metet: et qui séminat in
+          benedictiónibus, de benedictiónibus et metet. Unusquísque prout
+          destinávit in corde suo, non ex tristítia aut ex necessitáte: hilárem
+          enim datórem díligit Deus. Potens est autem Deus omnem grátiam
+          abundáre fácere in vobis, ut, in ómnibus semper omnem sufficiéntiam
+          habéntes, abundétis in omne opus bonum, sicut scriptum est: Dispérsit,
+          dedit paupéribus: justítia ejus manet in sǽculum sǽculi. Qui autem
+          admínistrat semen seminánti: et panem ad manducándum præstábit, et
+          multiplicábit semen vestrum, et augébit increménta frugum justítiæ
+          vestræ.
+        </Text>
+        <Text className="vernacular">
+          Meus irmãos: Aquele que semeia pouco, colherá pouco também; e aquele
+          que semeia com abundância, colherá também com abundância. Que cada um
+          dê segundo o que tiver resolvido no seu coração; mas não com tristeza,
+          nem com constrangimento: pois Deus ama aquele que dá com alegria. Deus
+          é assaz poderoso para vos cumular de todas as graças, a fim de que,
+          possuindo, sempre, em todas as coisas, aquilo que vos é necessário,
+          tenhais com abundância, para praticardes todas as espécies de boas
+          obras, segundo o que está escrito: «Distribuiu liberalmente os seus
+          bens pelos pobres: a sua justiça subsistirá em todos os séculos dos
+          séculos». Com efeito, aquele que dá a semente ao semeador dar-vos-á
+          também o pão para comida, multiplicará a vossa semente e dará
+          incremento aos frutos da vossa justiça.
+        </Text>
+      </Language>
 
-          <Text className="h3">Gradual</Text>
+      <Text className="h3">Gradual</Text>
 
-          <Text className="em">Sl. 16, 3</Text>
+      <Text className="em">Sl. 16, 3</Text>
 
-          <Language>
-            <Text className="latin">
-              Probásti, Dómine, cor meum, et visitásti nocte.
-              <Text className="versicle"> ℣. </Text>Igne me examinásti, et non
-              est invénta in me iníquitas.
-            </Text>
-            <Text className="vernacular">
-              Experimentastes o meu coração e visitaste-lo durante a noite.
-              <Text className="versicle"> ℣. </Text>
-              Experimentastes-me com o fogo e não se encontrou em mim a
-              iniquidade.
-            </Text>
-            <Text className="latin">
-              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Levíta
-              Lauréntius bonum opus operátus est: qui per signum crucis cœcos
-              illuminávit. Allelúja.
-            </Text>
-            <Text className="vernacular">
-              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>O Levita
-              Lourenço praticou uma boa acção: pois restituiu a vista aos cegos
-              com o sinal da Santa Cruz. Aleluia.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Probásti, Dómine, cor meum, et visitásti nocte.
+          <Text className="versicle"> ℣. </Text>Igne me examinásti, et non est
+          invénta in me iníquitas.
+        </Text>
+        <Text className="vernacular">
+          Experimentastes o meu coração e visitaste-lo durante a noite.
+          <Text className="versicle"> ℣. </Text>
+          Experimentastes-me com o fogo e não se encontrou em mim a iniquidade.
+        </Text>
+        <Text className="latin">
+          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Levíta
+          Lauréntius bonum opus operátus est: qui per signum crucis cœcos
+          illuminávit. Allelúja.
+        </Text>
+        <Text className="vernacular">
+          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>O Levita
+          Lourenço praticou uma boa acção: pois restituiu a vista aos cegos com
+          o sinal da Santa Cruz. Aleluia.
+        </Text>
+      </Language>
 
-          <Text className="h3">Evangelho</Text>
+      <Text className="h3">Evangelho</Text>
 
-          <LinkCard
-            href="/missal/santos/01-22#evangelho"
-            title="S. S. Vicente e Anastácio, Márts."
-          />
+      <LinkCard
+        href="/missal/santos/01-22#evangelho"
+        title="S. S. Vicente e Anastácio, Márts."
+      />
 
-          <Text className="h3">Ofertório</Text>
+      <Text className="h3">Ofertório</Text>
 
-          <Text className="em">Sl. 95, 6</Text>
+      <Text className="em">Sl. 95, 6</Text>
 
-          <Language>
-            <Text className="latin">
-              Conféssio et pulchritúdo in conspéctu ejus: sánctitas, et
-              magnificéntia in sanctificatióne ejus.
-            </Text>
-            <Text className="vernacular">
-              Rodeiam-no a glória e a majestade: e no seu santuário reluzem a
-              santidade e a magnificência.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Conféssio et pulchritúdo in conspéctu ejus: sánctitas, et
+          magnificéntia in sanctificatióne ejus.
+        </Text>
+        <Text className="vernacular">
+          Rodeiam-no a glória e a majestade: e no seu santuário reluzem a
+          santidade e a magnificência.
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Accipé, quǽsumus, Dómine, múnera dignánter obláta: et, beáti
-              Lauréntii suffragántibus méritis, ad nostræ salútis auxílium
-              proveníre concéde. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Recebei, Senhor, Vos suplicamos, os dons que reverentemente Vos
-              oferecemos, e, pelo sufrágio dos méritos do B. Lourenço, permiti
-              que nos sirvam de auxílio para a salvação. Por nosso Senhor Jesus
-              Cristo...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Accipé, quǽsumus, Dómine, múnera dignánter obláta: et, beáti Lauréntii
+          suffragántibus méritis, ad nostræ salútis auxílium proveníre concéde.
+          Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Recebei, Senhor, Vos suplicamos, os dons que reverentemente Vos
+          oferecemos, e, pelo sufrágio dos méritos do B. Lourenço, permiti que
+          nos sirvam de auxílio para a salvação. Por nosso Senhor Jesus
+          Cristo...
+        </Text>
+      </Language>
 
-          <Text className="h3">Comúnio</Text>
+      <Text className="h3">Comúnio</Text>
 
-          <Text className="em">Jo. 12, 26</Text>
+      <Text className="em">Jo. 12, 26</Text>
 
-          <Language>
-            <Text className="latin">
-              Qui mihi mínistrat, me sequátur: et ubi ego sum, illic et miníster
-              meus erit.
-            </Text>
-            <Text className="vernacular">
-              Se alguém me serve, siga-me; e onde eu estiver lá estará também o
-              meu servo.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Qui mihi mínistrat, me sequátur: et ubi ego sum, illic et miníster
+          meus erit.
+        </Text>
+        <Text className="vernacular">
+          Se alguém me serve, siga-me; e onde eu estiver lá estará também o meu
+          servo.
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Sacro múnere satiáti, súpplices te, Dómine, deprecámur: ut, quod
-              débitæ servitútis celebrámus offício, intercedénte beáto Lauréntio
-              Mártyre tuo, salvatiónis tuæ sentiámus augméntum. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Saciados com este sacrossanto dom, humildemente Vos rogamos pela
-              intercessão do B. Lourenço, vosso Mártir, que, celebrando este
-              ofício em reconhecimento da nossa escravidão, alcancemos cada vez
-              mais os efeitos da vossa Redenção. Por nosso Senhor...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Sacro múnere satiáti, súpplices te, Dómine, deprecámur: ut, quod
+          débitæ servitútis celebrámus offício, intercedénte beáto Lauréntio
+          Mártyre tuo, salvatiónis tuæ sentiámus augméntum. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Saciados com este sacrossanto dom, humildemente Vos rogamos pela
+          intercessão do B. Lourenço, vosso Mártir, que, celebrando este ofício
+          em reconhecimento da nossa escravidão, alcancemos cada vez mais os
+          efeitos da vossa Redenção. Por nosso Senhor...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

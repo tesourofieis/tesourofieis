@@ -1,61 +1,55 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function Page10Perseguidoresigreja() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">10.ª Contra os perseguidores da Igreja</Text>
+    <PageWrapper>
+      <Text className="h1">10.ª Contra os perseguidores da Igreja</Text>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Ecclésiæ tuæ, quǽsumus, Dómine, preces placátus admítte: ut,
-              destrúctis adversitátibus et erróribus univérsis, secúra tibi
-              sérviat libertáte. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Senhor, Vos suplicamos, dignai-Vos acolher benigno as preces da
-              vossa Igreja, para que, destruídas todas as adversidades e todos
-              os obstáculos, ela Vos sirva com liberdade e segurança. Por nosso
-              Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Ecclésiæ tuæ, quǽsumus, Dómine, preces placátus admítte: ut,
+          destrúctis adversitátibus et erróribus univérsis, secúra tibi sérviat
+          libertáte. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Senhor, Vos suplicamos, dignai-Vos acolher benigno as preces da vossa
+          Igreja, para que, destruídas todas as adversidades e todos os
+          obstáculos, ela Vos sirva com liberdade e segurança. Por nosso
+          Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Prótege nos, Dómine, tuis mystériis serviéntes: ut, divinis rebus
-              inhæréntes, et córpore tibi famulémur et mente. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              A nós, que celebramos os vossos mystérios, protegei-nos, Senhor, a
-              fim de que, unindo-nos aos mystérios divinos, Vos sirvamos com o
-              corpo e com a alma. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Prótege nos, Dómine, tuis mystériis serviéntes: ut, divinis rebus
+          inhæréntes, et córpore tibi famulémur et mente. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          A nós, que celebramos os vossos mystérios, protegei-nos, Senhor, a fim
+          de que, unindo-nos aos mystérios divinos, Vos sirvamos com o corpo e
+          com a alma. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Quǽsumus, Dómine, Deus noster: ut, quos divína tríbuis
-              participatióne gaudére, humánis non sinas subjacére perículis. Per
-              Dóminum nostrum...
-            </Text>
-            <Text className="vernacular">
-              Ó Senhor, nosso Deus, Vos pedimos, não consintais que aqueles a
-              quem concedestes a graça de participar do divino banquete sejam
-              expostos aos perigos que ameaçam os homens. Por nosso Senhor...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Quǽsumus, Dómine, Deus noster: ut, quos divína tríbuis participatióne
+          gaudére, humánis non sinas subjacére perículis. Per Dóminum nostrum...
+        </Text>
+        <Text className="vernacular">
+          Ó Senhor, nosso Deus, Vos pedimos, não consintais que aqueles a quem
+          concedestes a graça de participar do divino banquete sejam expostos
+          aos perigos que ameaçam os homens. Por nosso Senhor...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

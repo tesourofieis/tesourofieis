@@ -1,330 +1,318 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function Page13Doutores() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">Doutores</Text>
+    <PageWrapper>
+      <Text className="h1">Doutores</Text>
 
-          <Text className="h3">Intróito</Text>
+      <Text className="h3">Intróito</Text>
 
-          <Text className="em">Ecl. 15, 5</Text>
+      <Text className="em">Ecl. 15, 5</Text>
 
-          <Language>
-            <Text className="latin">
-              In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu
-              sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (T. P.
-              Allelúja, allelúja.) <Text className="latin">Ps. 91, 2</Text>{" "}
-              Bonum est confitéri Dómino: et psállere nómini tuo, Altíssime.
-              <Text className="versicle"> ℣. </Text>Gloria Patri...
-            </Text>
-            <Text className="vernacular">
-              Abriu-lhe o Senhor a boca no meio da Igreja, encheu-o com o
-              espírito da sabedoria e da inteligência e revestiu-o com a túnica
-              da glória. (T. P. Aleluia, aleluia.){" "}
-              <Text className="vernacular">Sl. 91, 2</Text> É bom louvar o
-              Senhor: e cantar hinos em honra do vosso nome, ó Altíssimo!
-              <Text className="versicle"> ℣. </Text>Glória ao Pai...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu
+          sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (T. P. Allelúja,
+          allelúja.) <Text className="latin">Ps. 91, 2</Text> Bonum est
+          confitéri Dómino: et psállere nómini tuo, Altíssime.
+          <Text className="versicle"> ℣. </Text>Gloria Patri...
+        </Text>
+        <Text className="vernacular">
+          Abriu-lhe o Senhor a boca no meio da Igreja, encheu-o com o espírito
+          da sabedoria e da inteligência e revestiu-o com a túnica da glória.
+          (T. P. Aleluia, aleluia.){" "}
+          <Text className="vernacular">Sl. 91, 2</Text> É bom louvar o Senhor: e
+          cantar hinos em honra do vosso nome, ó Altíssimo!
+          <Text className="versicle"> ℣. </Text>Glória ao Pai...
+        </Text>
+      </Language>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Deus, qui pópulo tuo ætérnæ salútis beátum{" "}
-              <Text className="latin">N.</Text> minístrum tribuísti: præsta,
-              quǽsumus; ut, quem Doctórem vitæ habúimus in terris, intercessórem
-              habére mereámur in cœlis. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, que ao vosso povo destinastes o B.{" "}
-              <Text className="vernacular">N.</Text> para ministro da eterna
-              salvação, concedei-nos, Vos suplicamos, que, assim como o tivemos
-              como Doutor durante a nossa vida na terra, assim gozemos a sua
-              intercessão no céu. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Deus, qui pópulo tuo ætérnæ salútis beátum{" "}
+          <Text className="latin">N.</Text> minístrum tribuísti: præsta,
+          quǽsumus; ut, quem Doctórem vitæ habúimus in terris, intercessórem
+          habére mereámur in cœlis. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Ó Deus, que ao vosso povo destinastes o B.{" "}
+          <Text className="vernacular">N.</Text> para ministro da eterna
+          salvação, concedei-nos, Vos suplicamos, que, assim como o tivemos como
+          Doutor durante a nossa vida na terra, assim gozemos a sua intercessão
+          no céu. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Epístola</Text>
+      <Text className="h3">Epístola</Text>
 
-          <Text className="em">2, Tm. 4, 1-8</Text>
+      <Text className="em">2, Tm. 4, 1-8</Text>
 
-          <Language>
-            <Text className="latin">
-              Léctio Epístolæ beáti Pauli Apóstoli ad Timotheum.
-            </Text>
-            <Text className="vernacular">
-              Lição da Ep.ª do B. Ap.º Paulo a Timóteo.
-            </Text>
-            <Text className="latin">
-              Caríssime: Testíficor coram Deo, et Jesu Christo, qui judicatúrus
-              est vi vos et mórtuos, per advéntum ipsíus et regnum ejus: prǽdica
-              verbum, insta opportúne, importune: árgue, óbsecra, íncrepa in
-              omni patiéntia, et doctrína. Erit enim tempus, cum sanam doctrínam
-              non sustinébunt, sed ad sua desidéria, coacervábunt sibi
-              magistros, pruriéntes áuribus, et a veritáte quidem audítum
-              avértent, ad fábulas autem converténtur. Tu vero vígila, in
-              ómnibus labóra, opus fac Evangelístæ, ministérium tuum ímpie.
-              Sóbrius esto. Ego enim jam delíbor, et tempus resolutiónis meæ
-              instat. Bonum certámen certávi, cursum consummávi, fidem servávi.
-              In réliquo repósita est mihi coróna justítiæ, quam reddet mihi
-              Dóminus in illa die, justus judex: non solum autem mihi, sed et
-              iis, qui díligunt advéntum ejus.
-            </Text>
-            <Text className="vernacular">
-              Caríssimo: Conjuro-te diante de Deus e de Jesus Cristo, que há-de
-              julgar vivos e mortos na sua vinda e no seu reino, a que pregues a
-              palavra; instes oportuna e inoportunamente; repreendas; supliques;
-              e ameaces com toda a paciência e doutrina; pois virá tempo em que
-              não suportarão a sã doutrina, mas, indo ao sabor dos seus desejos,
-              procurarão para si muitos mestres, que lhes preguem o que os
-              ouvidos gostam de escutar, e fechem os ouvidos à verdade, para os
-              abrirem às fábulas. Tu, porém, vigia, trabalha em tudo, cumpre o
-              ministério de evangelista e desempenha o teu ministério. Sê
-              sóbrio. Pois quanto a mim sou como uma vítima já aspergida para o
-              sacrifício. O tempo da minha morte já se aproxima. Pelejei o bom
-              combate; acabei a vida; permaneci na fé. Não me falta mais do que
-              esperar a coroa da justiça, que me está reservada, a qual o
-              Senhor, como justo juiz, me dará no grande dia: e não somente a
-              mim, mas também àqueles que amam a sua vinda.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Léctio Epístolæ beáti Pauli Apóstoli ad Timotheum.
+        </Text>
+        <Text className="vernacular">
+          Lição da Ep.ª do B. Ap.º Paulo a Timóteo.
+        </Text>
+        <Text className="latin">
+          Caríssime: Testíficor coram Deo, et Jesu Christo, qui judicatúrus est
+          vi vos et mórtuos, per advéntum ipsíus et regnum ejus: prǽdica verbum,
+          insta opportúne, importune: árgue, óbsecra, íncrepa in omni patiéntia,
+          et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt,
+          sed ad sua desidéria, coacervábunt sibi magistros, pruriéntes áuribus,
+          et a veritáte quidem audítum avértent, ad fábulas autem converténtur.
+          Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium
+          tuum ímpie. Sóbrius esto. Ego enim jam delíbor, et tempus resolutiónis
+          meæ instat. Bonum certámen certávi, cursum consummávi, fidem servávi.
+          In réliquo repósita est mihi coróna justítiæ, quam reddet mihi Dóminus
+          in illa die, justus judex: non solum autem mihi, sed et iis, qui
+          díligunt advéntum ejus.
+        </Text>
+        <Text className="vernacular">
+          Caríssimo: Conjuro-te diante de Deus e de Jesus Cristo, que há-de
+          julgar vivos e mortos na sua vinda e no seu reino, a que pregues a
+          palavra; instes oportuna e inoportunamente; repreendas; supliques; e
+          ameaces com toda a paciência e doutrina; pois virá tempo em que não
+          suportarão a sã doutrina, mas, indo ao sabor dos seus desejos,
+          procurarão para si muitos mestres, que lhes preguem o que os ouvidos
+          gostam de escutar, e fechem os ouvidos à verdade, para os abrirem às
+          fábulas. Tu, porém, vigia, trabalha em tudo, cumpre o ministério de
+          evangelista e desempenha o teu ministério. Sê sóbrio. Pois quanto a
+          mim sou como uma vítima já aspergida para o sacrifício. O tempo da
+          minha morte já se aproxima. Pelejei o bom combate; acabei a vida;
+          permaneci na fé. Não me falta mais do que esperar a coroa da justiça,
+          que me está reservada, a qual o Senhor, como justo juiz, me dará no
+          grande dia: e não somente a mim, mas também àqueles que amam a sua
+          vinda.
+        </Text>
+      </Language>
 
-          <Text className="h3">Gradual</Text>
+      <Text className="h3">Gradual</Text>
 
-          <Text className="em">Sl. 36, 30-31</Text>
+      <Text className="em">Sl. 36, 30-31</Text>
 
-          <Language>
-            <Text className="latin">
-              Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.
-              <Text className="versicle"> ℣. </Text>Lex Dei ejus in corde
-              ipsíus: et non supplantabúntur gressus ejus.
-            </Text>
-            <Text className="vernacular">
-              A boca do justo falará com sabedoria e a sua língua proclamará a
-              justiça.<Text className="versicle"> ℣. </Text>A lei do seu Deus
-              está sempre no seu coração e os seus pés não tropeçarão.
-            </Text>
-            <Text className="latin">
-              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-              <Text className="latin">Eccli. 45, 9</Text> Amávit eum Dóminus, et
-              ornávit eum: stolam glóriæ índuit eum. Allelúja.
-            </Text>
-            <Text className="vernacular">
-              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-              <Text className="vernacular">Ecl. 45, 9</Text> Amou-o o Senhor e
-              revestiu-o com a túnica da glória. Aleluia.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.
+          <Text className="versicle"> ℣. </Text>Lex Dei ejus in corde ipsíus: et
+          non supplantabúntur gressus ejus.
+        </Text>
+        <Text className="vernacular">
+          A boca do justo falará com sabedoria e a sua língua proclamará a
+          justiça.<Text className="versicle"> ℣. </Text>A lei do seu Deus está
+          sempre no seu coração e os seus pés não tropeçarão.
+        </Text>
+        <Text className="latin">
+          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+          <Text className="latin">Eccli. 45, 9</Text> Amávit eum Dóminus, et
+          ornávit eum: stolam glóriæ índuit eum. Allelúja.
+        </Text>
+        <Text className="vernacular">
+          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+          <Text className="vernacular">Ecl. 45, 9</Text> Amou-o o Senhor e
+          revestiu-o com a túnica da glória. Aleluia.
+        </Text>
+      </Language>
 
-          <Text className="aside">
-            Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
-          </Text>
+      <Text className="aside">
+        Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
+      </Text>
 
-          <Text className="h3">Trato</Text>
+      <Text className="h3">Trato</Text>
 
-          <Text className="em">Sl. 111, 1-3</Text>
+      <Text className="em">Sl. 111, 1-3</Text>
 
-          <Language>
-            <Text className="latin">
-              Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
-              <Text className="versicle"> ℣. </Text>
-              Potens in terra erit semen ejus: generátio rectórum benedicétur.
-              <Text className="versicle"> ℣. </Text>Glória et divítiæ in domo
-              ejus: et justítia ejus manet in sǽculum sǽculi.
-            </Text>
-            <Text className="vernacular">
-              Bem-aventurado o varão que teme o Senhor e que emprega todo o zelo
-              em obedecer-Lhe.<Text className="versicle"> ℣. </Text>Sua
-              descendência será poderosa na terra, pois a geração dos justos
-              será abençoada.<Text className="versicle"> ℣. </Text>Na sua casa
-              haverá glória e riqueza: e a sua justiça subsistirá em todos os
-              séculos dos séculos.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
+          <Text className="versicle"> ℣. </Text>
+          Potens in terra erit semen ejus: generátio rectórum benedicétur.
+          <Text className="versicle"> ℣. </Text>Glória et divítiæ in domo ejus:
+          et justítia ejus manet in sǽculum sǽculi.
+        </Text>
+        <Text className="vernacular">
+          Bem-aventurado o varão que teme o Senhor e que emprega todo o zelo em
+          obedecer-Lhe.<Text className="versicle"> ℣. </Text>Sua descendência
+          será poderosa na terra, pois a geração dos justos será abençoada.
+          <Text className="versicle"> ℣. </Text>Na sua casa haverá glória e
+          riqueza: e a sua justiça subsistirá em todos os séculos dos séculos.
+        </Text>
+      </Language>
 
-          <Text className="aside">
-            No T. Pascal omite-se o Gradual e o Trato e diz-se:
-          </Text>
+      <Text className="aside">
+        No T. Pascal omite-se o Gradual e o Trato e diz-se:
+      </Text>
 
-          <Language>
-            <Text className="latin">
-              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-              <Text className="latin">Eccli. 45, 9</Text> Amávit eum Dóminus, et
-              ornávit eum: stolam glóriæ índuit eum. Allelúja.
-              <Text className="versicle"> ℣. </Text>
-              <Text className="em">Osee 14, 6</Text> Justus germinábit sicut
-              lílium: et florébit in ætérnum ante Dóminum. Allelúja.
-            </Text>
-            <Text className="vernacular">
-              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-              <Text className="vernacular">Ecl. 45, 9</Text> Amou-o o Senhor,
-              ornou-o e revestiu-o com a túnica da glória. Aleluia.
-              <Text className="versicle"> ℣. </Text>
-              <Text className="em">Os. 14, 6</Text> O justo germinará, como o
-              lírio, e florescerá para sempre diante do Senhor. Aleluia.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+          <Text className="latin">Eccli. 45, 9</Text> Amávit eum Dóminus, et
+          ornávit eum: stolam glóriæ índuit eum. Allelúja.
+          <Text className="versicle"> ℣. </Text>
+          <Text className="em">Osee 14, 6</Text> Justus germinábit sicut lílium:
+          et florébit in ætérnum ante Dóminum. Allelúja.
+        </Text>
+        <Text className="vernacular">
+          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+          <Text className="vernacular">Ecl. 45, 9</Text> Amou-o o Senhor,
+          ornou-o e revestiu-o com a túnica da glória. Aleluia.
+          <Text className="versicle"> ℣. </Text>
+          <Text className="em">Os. 14, 6</Text> O justo germinará, como o lírio,
+          e florescerá para sempre diante do Senhor. Aleluia.
+        </Text>
+      </Language>
 
-          <Text className="h3">Evangelho</Text>
+      <Text className="h3">Evangelho</Text>
 
-          <Text className="em">Mt. 5, 13-19</Text>
+      <Text className="em">Mt. 5, 13-19</Text>
 
-          <Language>
-            <Text className="latin">
-              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
-              secúndum Matthǽum.
-            </Text>
-            <Text className="vernacular">
-              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
-              segundo S. Mateus.
-            </Text>
-            <Text className="latin">
-              In illo témpore: Dixit Jesus discípulis suis: Vos estis sal terræ.
-              Quod si sal evanúerit, in quo saliétur? Ad níhilum valet ultra,
-              nisi ut mittátur foras, et conculcétur ab homínibus. Vos estis lux
-              mundi. Non potest cívitas abscóndi supra montem pósita. Neque
-              accéndunt lucérnam, et ponunt eam sub módio, sed super
-              candelábrum, ut lúceat ómnibus qui in domo sunt. Sic lúceat lux
-              vestra coram homínibus, ut vídeant ópera vestra bona, et
-              gloríficent Patrem vestrum, qui in cœlis est. Nolíte putáre,
-              quóniam veni sólvere legem aut prophétas: non veni sólvere, sed
-              adimplére. Amen, quippe dico vobis, donec tránseat cœlum et terra,
-              jota unum aut unus apex non præteríbit a lege, donec ómnia fiant.
-              Qui ergo solvent unum de mandátis istis mínimis, et docúerit sic
-              hómines, mínimus vocábitur in regno cœlórum: qui autem fécerit et
-              docúerit, hic magnus vocábitur in regno cœlórum.
-            </Text>
-            <Text className="vernacular">
-              Naquele tempo, disse Jesus a seus discípulos: «Sois o sal da
-              terra. Se o sal perde a força, com que salgará? Para nada mais
-              presta, senão para se lançar fora e ser pisado pelos homens. Sois
-              a luz do mundo. Uma cidade situada no cimo de um monte não pode
-              ficar escondida. Nem se acende uma luz para a meter debaixo do
-              alqueire, mas para a colocar no candeeiro, a fim de alumiar todos
-              os que estão em casa. Assim resplandeça a vossa luz diante dos
-              homens, para que vejam as vossas boas obras e glorifiquem vosso
-              Pai, que está nos céus. Não penseis que vim abrogar a Lei ou os
-              Profetas: não vim abrogar, mas aperfeiçoar; porque em verdade vos
-              digo: até que passe o céu e a terra, nem um iota, nem um til se
-              omitirá na Lei. Quem quer, pois, que transgrida, ainda um dos mais
-              pequenos mandamentos, ou ensine os homens a violá-los, será
-              chamado o menor no reino dos céus. Porém, quem os cumprir e
-              ensinar será chamado grande no reino dos céus.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+          Matthǽum.
+        </Text>
+        <Text className="vernacular">
+          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+          segundo S. Mateus.
+        </Text>
+        <Text className="latin">
+          In illo témpore: Dixit Jesus discípulis suis: Vos estis sal terræ.
+          Quod si sal evanúerit, in quo saliétur? Ad níhilum valet ultra, nisi
+          ut mittátur foras, et conculcétur ab homínibus. Vos estis lux mundi.
+          Non potest cívitas abscóndi supra montem pósita. Neque accéndunt
+          lucérnam, et ponunt eam sub módio, sed super candelábrum, ut lúceat
+          ómnibus qui in domo sunt. Sic lúceat lux vestra coram homínibus, ut
+          vídeant ópera vestra bona, et gloríficent Patrem vestrum, qui in cœlis
+          est. Nolíte putáre, quóniam veni sólvere legem aut prophétas: non veni
+          sólvere, sed adimplére. Amen, quippe dico vobis, donec tránseat cœlum
+          et terra, jota unum aut unus apex non præteríbit a lege, donec ómnia
+          fiant. Qui ergo solvent unum de mandátis istis mínimis, et docúerit
+          sic hómines, mínimus vocábitur in regno cœlórum: qui autem fécerit et
+          docúerit, hic magnus vocábitur in regno cœlórum.
+        </Text>
+        <Text className="vernacular">
+          Naquele tempo, disse Jesus a seus discípulos: «Sois o sal da terra. Se
+          o sal perde a força, com que salgará? Para nada mais presta, senão
+          para se lançar fora e ser pisado pelos homens. Sois a luz do mundo.
+          Uma cidade situada no cimo de um monte não pode ficar escondida. Nem
+          se acende uma luz para a meter debaixo do alqueire, mas para a colocar
+          no candeeiro, a fim de alumiar todos os que estão em casa. Assim
+          resplandeça a vossa luz diante dos homens, para que vejam as vossas
+          boas obras e glorifiquem vosso Pai, que está nos céus. Não penseis que
+          vim abrogar a Lei ou os Profetas: não vim abrogar, mas aperfeiçoar;
+          porque em verdade vos digo: até que passe o céu e a terra, nem um
+          iota, nem um til se omitirá na Lei. Quem quer, pois, que transgrida,
+          ainda um dos mais pequenos mandamentos, ou ensine os homens a
+          violá-los, será chamado o menor no reino dos céus. Porém, quem os
+          cumprir e ensinar será chamado grande no reino dos céus.
+        </Text>
+      </Language>
 
-          <Text className="h3">Ofertório</Text>
+      <Text className="h3">Ofertório</Text>
 
-          <Text className="em">Sl. 91, 13</Text>
+      <Text className="em">Sl. 91, 13</Text>
 
-          <Language>
-            <Text className="latin">
-              Justus ut palma florébit: sicut cedrus, quæ in Líbano est
-              multiplicábitur. (T. P. Allelúja.)
-            </Text>
-            <Text className="vernacular">
-              O justo florescerá, como a palmeira, e crescerá, como o cedro do
-              Líbano. (T. P. Aleluia.)
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Justus ut palma florébit: sicut cedrus, quæ in Líbano est
+          multiplicábitur. (T. P. Allelúja.)
+        </Text>
+        <Text className="vernacular">
+          O justo florescerá, como a palmeira, e crescerá, como o cedro do
+          Líbano. (T. P. Aleluia.)
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Sancti <Text className="latin">N.</Text> Pontíficis tui at que
-              Doctóris nobis, Dómine, pia non desit orátio: quæ et múnera nostra
-              concíliet; et tuam nobis indulgéntiam semper obtíneat. Per
-              Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Senhor, que a piedosa oração de Santo{" "}
-              <Text className="vernacular">N.</Text> vosso Pontífice e Doutor,
-              nos não abandone, e que por ela as nossas ofertas Vos sejam
-              agradáveis e alcancemos benigna e continuamente a vossa
-              misericórdia. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Sancti <Text className="latin">N.</Text> Pontíficis tui at que
+          Doctóris nobis, Dómine, pia non desit orátio: quæ et múnera nostra
+          concíliet; et tuam nobis indulgéntiam semper obtíneat. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Senhor, que a piedosa oração de Santo{" "}
+          <Text className="vernacular">N.</Text> vosso Pontífice e Doutor, nos
+          não abandone, e que por ela as nossas ofertas Vos sejam agradáveis e
+          alcancemos benigna e continuamente a vossa misericórdia. Por nosso
+          Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Comúnio</Text>
+      <Text className="h3">Comúnio</Text>
 
-          <Text className="em">Lc. 12, 42</Text>
+      <Text className="em">Lc. 12, 42</Text>
 
-          <Language>
-            <Text className="latin">
-              Fidélis servus et prudens, quem constítuit dóminus super famíliam
-              suam: ut det illis in témpore trítici mensúram. (T. P. Allelúja.)
-            </Text>
-            <Text className="vernacular">
-              O servo fiel e prudente é destinado pelo Senhor para distribuir,
-              oportunamente, na sua família a cada um a sua medida de trigo. (T.
-              P. Aleluia.)
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Fidélis servus et prudens, quem constítuit dóminus super famíliam
+          suam: ut det illis in témpore trítici mensúram. (T. P. Allelúja.)
+        </Text>
+        <Text className="vernacular">
+          O servo fiel e prudente é destinado pelo Senhor para distribuir,
+          oportunamente, na sua família a cada um a sua medida de trigo. (T. P.
+          Aleluia.)
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Ut nobis, Dómine, tua sacrifícia dent salútem: beátus{" "}
-              <Text className="latin">N.</Text> Póntifex tuus et Doctor
-              egrégius, quǽsumus, precátor accédat. Per Dóminum nostrum...
-            </Text>
-            <Text className="vernacular">
-              Ó Senhor, dignai-Vos conceder-nos que o B.{" "}
-              <Text className="vernacular">N.</Text>, vosso Pontífice e ilustre
-              Doutor, seja nosso intercessor perante Vós, a fim de que este
-              sacrifício nos alcance a salvação. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Ut nobis, Dómine, tua sacrifícia dent salútem: beátus{" "}
+          <Text className="latin">N.</Text> Póntifex tuus et Doctor egrégius,
+          quǽsumus, precátor accédat. Per Dóminum nostrum...
+        </Text>
+        <Text className="vernacular">
+          Ó Senhor, dignai-Vos conceder-nos que o B.{" "}
+          <Text className="vernacular">N.</Text>, vosso Pontífice e ilustre
+          Doutor, seja nosso intercessor perante Vós, a fim de que este
+          sacrifício nos alcance a salvação. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="aside">Outra Epístola (para certos dias):</Text>
+      <Text className="aside">Outra Epístola (para certos dias):</Text>
 
-          <Text className="h3">Epístola2</Text>
+      <Text className="h3">Epístola2</Text>
 
-          <Text className="em">Ecl. 39, 6-14</Text>
+      <Text className="em">Ecl. 39, 6-14</Text>
 
-          <Language>
-            <Text className="latin">Léctio libri Sapiéntiæ.</Text>
-            <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-            <Text className="latin">
-              Justus cor suum tradet ad vigilándum dilúculo ad Dóminum, qui
-              fecit illum, et in conspéctu Altíssimi deprecábitur. Apériet os
-              suum in oratióne, et pro delíctis suis deprecábitur. Si enim
-              Dóminus magnus volúerit, spíritu intellegéntias replébit illum: et
-              ipse tamquam imbres mittet elóquia sapiéntiæ suæ, et in oratióne
-              confitébitur Dómino: et ipse díriget consílium ejus et
-              disciplínam, et in abscónditis suis consiliábitur. Ipse palam
-              fáciet disciplínam doctrínæ suæ, et in lege testaménti Dómini
-              gloriábitur. Collaudábunt multi sapiéntiam ejus, et usque in
-              sǽculum non delébitur. Non recédet memória ejus, et nomen ejus
-              requirétur a generatióne in generatiónem. Sapiéntiam ejus
-              enarrábunt gentes, et laudem ejus enuntiábit ecclésia.
-            </Text>
-            <Text className="vernacular">
-              O justo aplicará o seu coração e vigiará desde o romper do dia
-              para se unir ao Senhor, que o criou, e oferecer as suas preces ao
-              Altíssimo. Abrirá a sua boca para orar e implorar o perdão dos
-              seus pecados; pois, se o soberano Senhor quiser, enchê-lo-á com o
-              espírito de inteligência. Então ele espalhará, como chuva, as
-              palavras da sua sabedoria e abençoará o Senhor na sua oração. O
-              Senhor inspirará os seus conselhos e instruções; e ele
-              compreenderá os mystérios divinos. Publicará a doutrina que tiver
-              aprendido, e a sua glória será manter-se na lei da aliança com o
-              Senhor. Sua sabedoria receberá louvor de muitos e não cairá no
-              esquecimento. Sua memória se não apagará. Seu nome será honrado de
-              geração em geração. As nações publicarão a sua sabedoria e a
-              Igreja anunciará os seus louvores.
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">Léctio libri Sapiéntiæ.</Text>
+        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
+        <Text className="latin">
+          Justus cor suum tradet ad vigilándum dilúculo ad Dóminum, qui fecit
+          illum, et in conspéctu Altíssimi deprecábitur. Apériet os suum in
+          oratióne, et pro delíctis suis deprecábitur. Si enim Dóminus magnus
+          volúerit, spíritu intellegéntias replébit illum: et ipse tamquam
+          imbres mittet elóquia sapiéntiæ suæ, et in oratióne confitébitur
+          Dómino: et ipse díriget consílium ejus et disciplínam, et in
+          abscónditis suis consiliábitur. Ipse palam fáciet disciplínam doctrínæ
+          suæ, et in lege testaménti Dómini gloriábitur. Collaudábunt multi
+          sapiéntiam ejus, et usque in sǽculum non delébitur. Non recédet
+          memória ejus, et nomen ejus requirétur a generatióne in generatiónem.
+          Sapiéntiam ejus enarrábunt gentes, et laudem ejus enuntiábit ecclésia.
+        </Text>
+        <Text className="vernacular">
+          O justo aplicará o seu coração e vigiará desde o romper do dia para se
+          unir ao Senhor, que o criou, e oferecer as suas preces ao Altíssimo.
+          Abrirá a sua boca para orar e implorar o perdão dos seus pecados;
+          pois, se o soberano Senhor quiser, enchê-lo-á com o espírito de
+          inteligência. Então ele espalhará, como chuva, as palavras da sua
+          sabedoria e abençoará o Senhor na sua oração. O Senhor inspirará os
+          seus conselhos e instruções; e ele compreenderá os mystérios divinos.
+          Publicará a doutrina que tiver aprendido, e a sua glória será
+          manter-se na lei da aliança com o Senhor. Sua sabedoria receberá
+          louvor de muitos e não cairá no esquecimento. Sua memória se não
+          apagará. Seu nome será honrado de geração em geração. As nações
+          publicarão a sua sabedoria e a Igreja anunciará os seus louvores.
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

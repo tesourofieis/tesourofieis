@@ -1,262 +1,251 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function Page1101() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">Todos os Santos, a 1 de Novembro</Text>
+    <PageWrapper>
+      <Text className="h1">Todos os Santos, a 1 de Novembro</Text>
 
-          <Text className="h3">Intróito</Text>
+      <Text className="h3">Intróito</Text>
 
-          <Language>
-            <Text className="latin">
-              Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
-              Sanctórum ómnium: de quorum sollemnitáte gaudent Angeli et
-              colláudant Fílium Dei. <Text className="latin">Ps. 32, 1</Text>{" "}
-              Exsultáte, justi, in Dómino: rectos decet collaudátio.
-              <Text className="versicle"> ℣. </Text>Gloria Patri...
-            </Text>
-            <Text className="vernacular">
-              Alegremo-nos todos no Senhor, neste dia em que celebramos a festa
-              em honra de Todos os Santos, de cuja solenidade se regozijam os
-              Anjos, louvando unissonamente o Filho de Deus.{" "}
-              <Text className="vernacular">Sl. 32, 1</Text> Aclamai o Senhor, ó
-              justos; pois é aos que possuem o coração recto que pertence louvar
-              o Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
+          Sanctórum ómnium: de quorum sollemnitáte gaudent Angeli et colláudant
+          Fílium Dei. <Text className="latin">Ps. 32, 1</Text> Exsultáte, justi,
+          in Dómino: rectos decet collaudátio.
+          <Text className="versicle"> ℣. </Text>Gloria Patri...
+        </Text>
+        <Text className="vernacular">
+          Alegremo-nos todos no Senhor, neste dia em que celebramos a festa em
+          honra de Todos os Santos, de cuja solenidade se regozijam os Anjos,
+          louvando unissonamente o Filho de Deus.{" "}
+          <Text className="vernacular">Sl. 32, 1</Text> Aclamai o Senhor, ó
+          justos; pois é aos que possuem o coração recto que pertence louvar o
+          Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
+        </Text>
+      </Language>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Omnípotensns sempitérne Deus, qui nos ómnium Sanctórum tuórum
-              mérita sub una tribuísti celebritáte venerári: quǽsumus; ut
-              desiderátam nobis tuæ propitiatiónis abundántiam, multiplicátis
-              intercessóribus, largiáris. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Omnipotente e eterno Deus, que nos permitistes a graça de celebrar
-              em uma só festividade os méritos de todos vossos Santos,
-              concedei-nos, Vos rogamos, que, assistidos de tão numerosos
-              intercessores, alcancemos cada vez mais a abundância tão desejada
-              das vossas graças. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Omnípotensns sempitérne Deus, qui nos ómnium Sanctórum tuórum mérita
+          sub una tribuísti celebritáte venerári: quǽsumus; ut desiderátam nobis
+          tuæ propitiatiónis abundántiam, multiplicátis intercessóribus,
+          largiáris. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Omnipotente e eterno Deus, que nos permitistes a graça de celebrar em
+          uma só festividade os méritos de todos vossos Santos, concedei-nos,
+          Vos rogamos, que, assistidos de tão numerosos intercessores,
+          alcancemos cada vez mais a abundância tão desejada das vossas graças.
+          Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Epístola</Text>
+      <Text className="h3">Epístola</Text>
 
-          <Text className="em">Ap. 7, 2-12</Text>
+      <Text className="em">Ap. 7, 2-12</Text>
 
-          <Language>
-            <Text className="latin">
-              Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
-            </Text>
-            <Text className="vernacular">
-              Lição do Livro do Apocalipse do B. Ap.º João.
-            </Text>
-            <Text className="latin">
-              In diébus illis: Ecce, ego Joánnes vidi álterum Angelum
-              ascendéntem ab ortu solis, habéntem signum Dei vivi: et clamávit
-              voce magna quátuor Angelis, quibus datum est nocére terræ et mari,
-              dicens: Nolíte nocére terræ et mari neque arbóribus, quoadúsque
-              signémus servos Dei nostri in fróntibus eórum. Et audívi númerum
-              signatórum, centum quadragínta quátuor mília signáti, ex omni
-              tribu filiórum Israël, Ex tribu Juda duódecim mília signáti. Ex
-              tribu Ruben duódecim mília signáti. Ex tribu Gad duódecim mília
-              signati. Ex tribu Aser duódecim mília signáti. Ex tribu Néphthali
-              duódecim mília signáti. Ex tribu Manásse duódecim mília signáti.
-              Ex tribu Símeon duódecim mília signáti. Ex tribu Levi duódecim
-              mília signáti. Ex tribu Issachar duódecim mília signati. Ex tribu
-              Zábulon duódecim mília signáti. Ex tribu Joseph duódecim mília
-              signati. Ex tribu Bénjamin duódecim mília signáti. Post hæc vidi
-              turbam magnam, quam dinumeráre nemo póterat, ex ómnibus géntibus
-              et tríbubus et pópulis et linguis: stantes ante thronum et in
-              conspéctu Agni, amícti stolis albis, et palmæ in mánibus eórum: et
-              clamábant voce magna, dicéntes: Salus Deo nostro, qui sedet super
-              thronum, et Agno. Et omnes Angeli stabant in circúitu throni et
-              seniorum et quatuor animalium: et ceciderunt in conspéctu throni
-              in fácies suas et adoravérunt Deum, dicéntes: Amen. Benedíctio et
-              cláritas et sapiéntia et gratiárum actio, honor et virtus et
-              fortitúdo Deo nostro in sǽcula sæculórum. Amen.
-            </Text>
-            <Text className="vernacular">
-              Naqueles dias, eu, João, vi um outro Anjo que subia do lado do
-              nascer do sol, tendo na mão o sinal de Deus vivo e clamando com
-              voz forte aos quatro Anjos, que haviam recebido o poder de ferirem
-              a terra e o mar, e dizendo: «Não prejudiqueis nem a terra, nem o
-              mar, nem as árvores, enquanto não houvermos marcado na fronte os
-              servos do nosso Deus». E ouvi que o número daqueles que haviam
-              sido marcados com o sinal, eram cento e quarenta e quatro mil de
-              todas as tribos de Israel: havia doze mil da tribo de Judá,
-              marcados com o sinal; doze mil da tribo de Ruben, marcados com o
-              sinal; doze mil da tribo de Gad, marcados com o sinal; doze mil da
-              tribo de Aser, marcados com o sinal; doze mil da tribo de Naftali,
-              marcados com o sinal; doze mil da tribo de Manassés, marcados com
-              o sinal; doze mil da tribo de Simeão, marcados com o sinal; doze
-              mil da tribo de Levi, marcados com o sinal; doze mil da tribo de
-              Issacar, marcados com o sinal; doze mil da tribo de Zabulão,
-              marcados com o sinal; doze mil da tribo de José, marcados com o
-              sinal; e doze mil da tribo de Benjamim, marcados com o sinal.
-              Depois disto vi uma grande multidão (que ninguém podia contar) de
-              todas as nações, de todas as tribos, de todos os povos e de todas
-              as línguas, que estavam de pé, diante do trono e do Cordeiro,
-              vestidos com túnicas brancas, empunhando palmas e clamando com voz
-              forte: «Glória ao nosso Deus, que está assentado no trono, e ao
-              Cordeiro!». E todos os Anjos se conservaram em volta do trono, dos
-              anciãos e dos quatro animais. E, prostrados diante do trono e com
-              o rosto em terra, adoravam Deus, dizendo: «Amen! Bênção, glória,
-              sabedoria, acção de graças, honra, soberania e império ao nosso
-              Deus em todos os séculos. Amen».
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
+        </Text>
+        <Text className="vernacular">
+          Lição do Livro do Apocalipse do B. Ap.º João.
+        </Text>
+        <Text className="latin">
+          In diébus illis: Ecce, ego Joánnes vidi álterum Angelum ascendéntem ab
+          ortu solis, habéntem signum Dei vivi: et clamávit voce magna quátuor
+          Angelis, quibus datum est nocére terræ et mari, dicens: Nolíte nocére
+          terræ et mari neque arbóribus, quoadúsque signémus servos Dei nostri
+          in fróntibus eórum. Et audívi númerum signatórum, centum quadragínta
+          quátuor mília signáti, ex omni tribu filiórum Israël, Ex tribu Juda
+          duódecim mília signáti. Ex tribu Ruben duódecim mília signáti. Ex
+          tribu Gad duódecim mília signati. Ex tribu Aser duódecim mília
+          signáti. Ex tribu Néphthali duódecim mília signáti. Ex tribu Manásse
+          duódecim mília signáti. Ex tribu Símeon duódecim mília signáti. Ex
+          tribu Levi duódecim mília signáti. Ex tribu Issachar duódecim mília
+          signati. Ex tribu Zábulon duódecim mília signáti. Ex tribu Joseph
+          duódecim mília signati. Ex tribu Bénjamin duódecim mília signáti. Post
+          hæc vidi turbam magnam, quam dinumeráre nemo póterat, ex ómnibus
+          géntibus et tríbubus et pópulis et linguis: stantes ante thronum et in
+          conspéctu Agni, amícti stolis albis, et palmæ in mánibus eórum: et
+          clamábant voce magna, dicéntes: Salus Deo nostro, qui sedet super
+          thronum, et Agno. Et omnes Angeli stabant in circúitu throni et
+          seniorum et quatuor animalium: et ceciderunt in conspéctu throni in
+          fácies suas et adoravérunt Deum, dicéntes: Amen. Benedíctio et
+          cláritas et sapiéntia et gratiárum actio, honor et virtus et fortitúdo
+          Deo nostro in sǽcula sæculórum. Amen.
+        </Text>
+        <Text className="vernacular">
+          Naqueles dias, eu, João, vi um outro Anjo que subia do lado do nascer
+          do sol, tendo na mão o sinal de Deus vivo e clamando com voz forte aos
+          quatro Anjos, que haviam recebido o poder de ferirem a terra e o mar,
+          e dizendo: «Não prejudiqueis nem a terra, nem o mar, nem as árvores,
+          enquanto não houvermos marcado na fronte os servos do nosso Deus». E
+          ouvi que o número daqueles que haviam sido marcados com o sinal, eram
+          cento e quarenta e quatro mil de todas as tribos de Israel: havia doze
+          mil da tribo de Judá, marcados com o sinal; doze mil da tribo de
+          Ruben, marcados com o sinal; doze mil da tribo de Gad, marcados com o
+          sinal; doze mil da tribo de Aser, marcados com o sinal; doze mil da
+          tribo de Naftali, marcados com o sinal; doze mil da tribo de Manassés,
+          marcados com o sinal; doze mil da tribo de Simeão, marcados com o
+          sinal; doze mil da tribo de Levi, marcados com o sinal; doze mil da
+          tribo de Issacar, marcados com o sinal; doze mil da tribo de Zabulão,
+          marcados com o sinal; doze mil da tribo de José, marcados com o sinal;
+          e doze mil da tribo de Benjamim, marcados com o sinal. Depois disto vi
+          uma grande multidão (que ninguém podia contar) de todas as nações, de
+          todas as tribos, de todos os povos e de todas as línguas, que estavam
+          de pé, diante do trono e do Cordeiro, vestidos com túnicas brancas,
+          empunhando palmas e clamando com voz forte: «Glória ao nosso Deus, que
+          está assentado no trono, e ao Cordeiro!». E todos os Anjos se
+          conservaram em volta do trono, dos anciãos e dos quatro animais. E,
+          prostrados diante do trono e com o rosto em terra, adoravam Deus,
+          dizendo: «Amen! Bênção, glória, sabedoria, acção de graças, honra,
+          soberania e império ao nosso Deus em todos os séculos. Amen».
+        </Text>
+      </Language>
 
-          <Text className="h3">Gradual</Text>
+      <Text className="h3">Gradual</Text>
 
-          <Text className="em">Sl. 33, 10 & 11</Text>
+      <Text className="em">Sl. 33, 10 & 11</Text>
 
-          <Language>
-            <Text className="latin">
-              Timéte Dóminum, omnes Sancti ejus: quóniam nihil deest timéntibus
-              eum.<Text className="versicle"> ℣. </Text>Inquiréntes autem
-              Dóminum, non defícient omni bono.
-            </Text>
-            <Text className="vernacular">
-              Temei o Senhor, ó vós, que sois os seus Anjos; pois àqueles que O
-              temem nada faltará.<Text className="versicle"> ℣. </Text>Aqueles
-              que procuram o Senhor não serão privados de nenhum bem.
-            </Text>
-            <Text className="latin">
-              Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-              <Text className="latin">Matth. 11, 28</Text> Veníte ad me, omnes,
-              qui laborátis et oneráti estis: et ego refíciam vos. Allelúja.
-            </Text>
-            <Text className="vernacular">
-              Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-              <Text className="vernacular">Mt. 11, 28</Text> Vinde a mim, vós,
-              todos, que estais aflitos: e Eu vos aliviarei. Aleluia.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Timéte Dóminum, omnes Sancti ejus: quóniam nihil deest timéntibus eum.
+          <Text className="versicle"> ℣. </Text>Inquiréntes autem Dóminum, non
+          defícient omni bono.
+        </Text>
+        <Text className="vernacular">
+          Temei o Senhor, ó vós, que sois os seus Anjos; pois àqueles que O
+          temem nada faltará.<Text className="versicle"> ℣. </Text>Aqueles que
+          procuram o Senhor não serão privados de nenhum bem.
+        </Text>
+        <Text className="latin">
+          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
+          <Text className="latin">Matth. 11, 28</Text> Veníte ad me, omnes, qui
+          laborátis et oneráti estis: et ego refíciam vos. Allelúja.
+        </Text>
+        <Text className="vernacular">
+          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
+          <Text className="vernacular">Mt. 11, 28</Text> Vinde a mim, vós,
+          todos, que estais aflitos: e Eu vos aliviarei. Aleluia.
+        </Text>
+      </Language>
 
-          <Text className="h3">Evangelho</Text>
+      <Text className="h3">Evangelho</Text>
 
-          <Text className="em">Mt. 5, 1-12</Text>
+      <Text className="em">Mt. 5, 1-12</Text>
 
-          <Language>
-            <Text className="latin">
-              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
-              secúndum Matthǽum.
-            </Text>
-            <Text className="vernacular">
-              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
-              segundo S. Mateus.
-            </Text>
-            <Text className="latin">
-              In illo témpore: Videns Jesus turbas, ascéndit in montem, et cum
-              sedísset, accessérunt ad eum discípuli ejus, et apériens os suum,
-              docébat eos, dicens: Beáti páuperes spíritu: quóniam ipsorum est
-              regnum cœlórum. Beáti mites: quóniam ipsi possidébunt terram.
-              Beáti, qui lugent: quóniam ipsi consolabúntur. Beáti, qui esúriunt
-              et sítiunt justítiam: quóniam ipsi saturabúntur. Beáti
-              misericórdes: quóniam ipsi misericórdiam consequéntur. Beáti mundo
-              corde: quóniam ipsi Deum vidébunt. Beáti pacífici: quóniam fílii
-              Dei vocabúntur. Beáti, qui persecutiónem patiúntur propter
-              justítiam: quóniam ipsorum est regnum cælórum. Beáti estis, cum
-              maledíxerint vobis, et persecúti vos fúerint, et dixérint omne
-              malum advérsum vos, mentiéntes, propter me: gaudéte et exsultáte,
-              quóniam merces vestra copiósa est in cœlis.
-            </Text>
-            <Text className="vernacular">
-              Naquele tempo, vendo Jesus as turbas do povo, que O seguiam, subiu
-              para uma montanha. Então assentou-se, aproximando-se d’Ele os
-              discípulos. Depois, tomando a palavra, pregou assim aos seus
-              discípulos: «Bem-aventurados os pobres de espírito, porque deles é
-              o reino dos céus. Bem-aventurados os mansos, porque possuirão a
-              terra. Bem-aventurados os que choram, porque serão consolados.
-              Bem-aventurados os que têm fome e sede de justiça, porque serão
-              saciados. Bem-aventurados os misericordiosos, porque serão
-              tratados com misericórdia. Bem-aventurados os que possuem o
-              coração puro, porque verão Deus. Bem-aventurados os pacíficos,
-              porque serão chamados filhos de Deus. Bem-aventurados os que
-              sofrem perseguição por amor da justiça, porque lhes pertencerá o
-              reino dos céus. Bem-aventurados, vós, quando os homens vos
-              amaldiçoarem, perseguirem e caluniarem por minha causa:
-              regozijai-vos, então, e exultai de alegria, pois uma copiosa
-              recompensa vos está preparada nos céus».
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+          Matthǽum.
+        </Text>
+        <Text className="vernacular">
+          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+          segundo S. Mateus.
+        </Text>
+        <Text className="latin">
+          In illo témpore: Videns Jesus turbas, ascéndit in montem, et cum
+          sedísset, accessérunt ad eum discípuli ejus, et apériens os suum,
+          docébat eos, dicens: Beáti páuperes spíritu: quóniam ipsorum est
+          regnum cœlórum. Beáti mites: quóniam ipsi possidébunt terram. Beáti,
+          qui lugent: quóniam ipsi consolabúntur. Beáti, qui esúriunt et sítiunt
+          justítiam: quóniam ipsi saturabúntur. Beáti misericórdes: quóniam ipsi
+          misericórdiam consequéntur. Beáti mundo corde: quóniam ipsi Deum
+          vidébunt. Beáti pacífici: quóniam fílii Dei vocabúntur. Beáti, qui
+          persecutiónem patiúntur propter justítiam: quóniam ipsorum est regnum
+          cælórum. Beáti estis, cum maledíxerint vobis, et persecúti vos
+          fúerint, et dixérint omne malum advérsum vos, mentiéntes, propter me:
+          gaudéte et exsultáte, quóniam merces vestra copiósa est in cœlis.
+        </Text>
+        <Text className="vernacular">
+          Naquele tempo, vendo Jesus as turbas do povo, que O seguiam, subiu
+          para uma montanha. Então assentou-se, aproximando-se d’Ele os
+          discípulos. Depois, tomando a palavra, pregou assim aos seus
+          discípulos: «Bem-aventurados os pobres de espírito, porque deles é o
+          reino dos céus. Bem-aventurados os mansos, porque possuirão a terra.
+          Bem-aventurados os que choram, porque serão consolados.
+          Bem-aventurados os que têm fome e sede de justiça, porque serão
+          saciados. Bem-aventurados os misericordiosos, porque serão tratados
+          com misericórdia. Bem-aventurados os que possuem o coração puro,
+          porque verão Deus. Bem-aventurados os pacíficos, porque serão chamados
+          filhos de Deus. Bem-aventurados os que sofrem perseguição por amor da
+          justiça, porque lhes pertencerá o reino dos céus. Bem-aventurados,
+          vós, quando os homens vos amaldiçoarem, perseguirem e caluniarem por
+          minha causa: regozijai-vos, então, e exultai de alegria, pois uma
+          copiosa recompensa vos está preparada nos céus».
+        </Text>
+      </Language>
 
-          <Text className="h3">Ofertório</Text>
+      <Text className="h3">Ofertório</Text>
 
-          <Text className="em">Sb. 3, 1, 2 & 3</Text>
+      <Text className="em">Sb. 3, 1, 2 & 3</Text>
 
-          <Language>
-            <Text className="latin">
-              Justórum ánimæ in manu Dei sunt, et non tanget illos torméntum
-              malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in
-              pace, allelúja.
-            </Text>
-            <Text className="vernacular">
-              As almas dos justos estão nas mãos de Deus: e o tormento da
-              malícia as não tocará. Aos olhos dos insensatos pareciam quase a
-              morrer, todavia, agora, estão na paz, aleluia.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Justórum ánimæ in manu Dei sunt, et non tanget illos torméntum
+          malítiæ: visi sunt óculis insipiéntium mori: illi autem sunt in pace,
+          allelúja.
+        </Text>
+        <Text className="vernacular">
+          As almas dos justos estão nas mãos de Deus: e o tormento da malícia as
+          não tocará. Aos olhos dos insensatos pareciam quase a morrer, todavia,
+          agora, estão na paz, aleluia.
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro
-              cunctórum tibi grata sint honóre Justórum, et nobis salutária, te
-              miseránte, reddántur. Per Dóminum nostrum...
-            </Text>
-            <Text className="vernacular">
-              Vos oferecemos, Senhor, estes dons da nossa piedade; e, em atenção
-              aos merecimentos dos vossos justos, dignai-Vos aceitá-los; e pela
-              vossa misericórdia fazei que nos sejam salutares. Por nosso
-              Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro cunctórum
+          tibi grata sint honóre Justórum, et nobis salutária, te miseránte,
+          reddántur. Per Dóminum nostrum...
+        </Text>
+        <Text className="vernacular">
+          Vos oferecemos, Senhor, estes dons da nossa piedade; e, em atenção aos
+          merecimentos dos vossos justos, dignai-Vos aceitá-los; e pela vossa
+          misericórdia fazei que nos sejam salutares. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Comúnio</Text>
+      <Text className="h3">Comúnio</Text>
 
-          <Text className="em">Mt. 5, 8-10</Text>
+      <Text className="em">Mt. 5, 8-10</Text>
 
-          <Language>
-            <Text className="latin">
-              Beáti mundo corde, quóniam ipsi Deum vidébunt; beáti pacífici,
-              quóniam filii Dei vocabúntur: beáti, qui persecutiónem patiúntur
-              propter justítiam, quóniam ipsórum est regnum cœlórum.
-            </Text>
-            <Text className="vernacular">
-              Bem-aventurados os que possuem o coração puro, porque verão a
-              Deus; bem-aventurados os pacíficos, porque serão chamados filhos
-              de Deus; bem-aventurados os que sofrem perseguição por amor da
-              justiça, porque o reino do céu lhes pertence.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Beáti mundo corde, quóniam ipsi Deum vidébunt; beáti pacífici, quóniam
+          filii Dei vocabúntur: beáti, qui persecutiónem patiúntur propter
+          justítiam, quóniam ipsórum est regnum cœlórum.
+        </Text>
+        <Text className="vernacular">
+          Bem-aventurados os que possuem o coração puro, porque verão a Deus;
+          bem-aventurados os pacíficos, porque serão chamados filhos de Deus;
+          bem-aventurados os que sofrem perseguição por amor da justiça, porque
+          o reino do céu lhes pertence.
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Da, quǽsumus, Dómine, fidélibus pópulis ómnium Sanctórum semper
-              veneratióne lætári: et eórum perpétua supplicatióne muníri. Per
-              Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Senhor, Vos rogamos, fazei que os vossos povos fiéis venerem
-              sempre com alegria os vossos Santos e sejam sempre protegidos pela
-              sua intercessão. Por nosso Senhor...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Da, quǽsumus, Dómine, fidélibus pópulis ómnium Sanctórum semper
+          veneratióne lætári: et eórum perpétua supplicatióne muníri. Per
+          Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Senhor, Vos rogamos, fazei que os vossos povos fiéis venerem sempre
+          com alegria os vossos Santos e sejam sempre protegidos pela sua
+          intercessão. Por nosso Senhor...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

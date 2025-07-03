@@ -1,68 +1,61 @@
 import { Link } from "expo-router";
 
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function Page0820() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">
-            S. Bernardo, Confessor e Doutor, a 20 de Agosto
-          </Text>
+    <PageWrapper>
+      <Text className="h1">
+        S. Bernardo, Confessor e Doutor, a 20 de Agosto
+      </Text>
 
-          <Text className="aside">
-            Como na{" "}
-            <Link className="link" href="/missal/comum/13doutores">
-              Missa In médio Ecclésiae
-            </Link>{" "}
-            , excepto:
-          </Text>
+      <Text className="aside">
+        Como na{" "}
+        <Link className="link" href="/missal/comum/13doutores">
+          Missa In médio Ecclésiae
+        </Link>{" "}
+        , excepto:
+      </Text>
 
-          <Text className="h3">Epístola</Text>
+      <Text className="h3">Epístola</Text>
 
-          <Text className="em">Ecl. 39, 6-14</Text>
+      <Text className="em">Ecl. 39, 6-14</Text>
 
-          <Language>
-            <Text className="latin">Léctio libri Sapiéntiæ.</Text>
-            <Text className="vernacular">
-              Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-            </Text>
-            <Text className="latin">
-              Justus cor suum tradet ad vigilándum dilúculo ad Dóminum, qui
-              fecit illum, et in conspéctu Altíssimi deprecábitur. Apériet os
-              suum in oratióne, et pro delíctis suis deprecábitur. Si enim
-              Dóminus magnus volúerit, spíritu intellegéntiæ replébit illum: et
-              ipse tamquam imbres mittet elóquia sapiéntiæ suæ, et in oratióne
-              confitébitur Dómino: et ipse díriget consílium ejus et
-              disciplínam, et in abscónditis suis consiliábitur. Ipse palam
-              fáciet disciplínam doctrínæ suæ, et in lege testaménti Dómini
-              gloriábitur. Collaudábunt multi sapiéntiam ejus, et usque in
-              sǽculum non delébitur. Non recédet memória ejus, et nomen ejus
-              requirétur a generatióne in generatiónem. Sapiéntiam ejus
-              enarrábunt gentes, et laudem ejus enuntiábit ecclésia.
-            </Text>
-            <Text className="vernacular">
-              O justo aplicará o seu coração e vigiará desde o romper do dia
-              para se unir ao Senhor, que o criou, e oferecer as suas preces ao
-              Altíssimo. Abrirá a sua boca para orar e implorar o perdão dos
-              seus pecados; pois, se o soberano Senhor quiser, enchê-lo-á com o
-              espírito da inteligência. Então ele espalhará, como chuva, as
-              palavras da sua sabedoria e abençoará o Senhor na sua oração. O
-              Senhor inspirará os seus conselhos e instruções; e ele
-              compreenderá os mystérios divinos. Publicará a doutrina, que tiver
-              aprendido, e a sua glória será manter-se na lei da aliança com o
-              Senhor. Sua sabedoria receberá louvor de muitos e não cairá no
-              esquecimento. Sua memória se não apagará. Seu nome será honrado de
-              geração em geração. As nações publicarão a sua sabedoria e a
-              Igreja anunciará os seus louvores.
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">Léctio libri Sapiéntiæ.</Text>
+        <Text className="vernacular">
+          Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
+        </Text>
+        <Text className="latin">
+          Justus cor suum tradet ad vigilándum dilúculo ad Dóminum, qui fecit
+          illum, et in conspéctu Altíssimi deprecábitur. Apériet os suum in
+          oratióne, et pro delíctis suis deprecábitur. Si enim Dóminus magnus
+          volúerit, spíritu intellegéntiæ replébit illum: et ipse tamquam imbres
+          mittet elóquia sapiéntiæ suæ, et in oratióne confitébitur Dómino: et
+          ipse díriget consílium ejus et disciplínam, et in abscónditis suis
+          consiliábitur. Ipse palam fáciet disciplínam doctrínæ suæ, et in lege
+          testaménti Dómini gloriábitur. Collaudábunt multi sapiéntiam ejus, et
+          usque in sǽculum non delébitur. Non recédet memória ejus, et nomen
+          ejus requirétur a generatióne in generatiónem. Sapiéntiam ejus
+          enarrábunt gentes, et laudem ejus enuntiábit ecclésia.
+        </Text>
+        <Text className="vernacular">
+          O justo aplicará o seu coração e vigiará desde o romper do dia para se
+          unir ao Senhor, que o criou, e oferecer as suas preces ao Altíssimo.
+          Abrirá a sua boca para orar e implorar o perdão dos seus pecados;
+          pois, se o soberano Senhor quiser, enchê-lo-á com o espírito da
+          inteligência. Então ele espalhará, como chuva, as palavras da sua
+          sabedoria e abençoará o Senhor na sua oração. O Senhor inspirará os
+          seus conselhos e instruções; e ele compreenderá os mystérios divinos.
+          Publicará a doutrina, que tiver aprendido, e a sua glória será
+          manter-se na lei da aliança com o Senhor. Sua sabedoria receberá
+          louvor de muitos e não cairá no esquecimento. Sua memória se não
+          apagará. Seu nome será honrado de geração em geração. As nações
+          publicarão a sua sabedoria e a Igreja anunciará os seus louvores.
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

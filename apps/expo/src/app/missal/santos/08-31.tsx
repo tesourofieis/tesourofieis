@@ -1,46 +1,40 @@
 import { Link } from "expo-router";
 
-import { SafeAreaView, ScrollView, Text, View } from "react-native";
+import { Text } from "react-native";
 
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function Page0831() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">S. Raimundo Nonato, Conf., a 31 de Agosto</Text>
+    <PageWrapper>
+      <Text className="h1">S. Raimundo Nonato, Conf., a 31 de Agosto</Text>
 
-          <Text className="aside">
-            Como na{" "}
-            <Link
-              className="link"
-              href="/missal/comum/14confessoresnaopontifices1"
-            >
-              Missa Os justi
-            </Link>{" "}
-            , excepto:
-          </Text>
+      <Text className="aside">
+        Como na{" "}
+        <Link className="link" href="/missal/comum/14confessoresnaopontifices1">
+          Missa Os justi
+        </Link>{" "}
+        , excepto:
+      </Text>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Deus, qui in liberándis fidélibus tuis ab impiórum captivitáte
-              beátum Raymúndum Confessórem tuum mirábilem effecísti: ejus nobis
-              intercessióne concéde; ut, a peccatórum vínculis absolúti, quæ
-              tibi sunt plácita, líberis méntibus exsequámur. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, que ao B. Raimundo, vosso Confessor, tornastes admirável
-              na dedicação com que libertava os vossos fiéis do cativeiro dos
-              ímpios, concedei-nos pela sua intercessão que, livres dos vínculos
-              dos pecados, cumpramos com liberdade de espírito o que Vos é
-              agradável. Por nosso Senhor...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Deus, qui in liberándis fidélibus tuis ab impiórum captivitáte beátum
+          Raymúndum Confessórem tuum mirábilem effecísti: ejus nobis
+          intercessióne concéde; ut, a peccatórum vínculis absolúti, quæ tibi
+          sunt plácita, líberis méntibus exsequámur. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Ó Deus, que ao B. Raimundo, vosso Confessor, tornastes admirável na
+          dedicação com que libertava os vossos fiéis do cativeiro dos ímpios,
+          concedei-nos pela sua intercessão que, livres dos vínculos dos
+          pecados, cumpramos com liberdade de espírito o que Vos é agradável.
+          Por nosso Senhor...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

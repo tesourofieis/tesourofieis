@@ -1,80 +1,71 @@
 import { Link } from "expo-router";
 
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function Page0525() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">
-            S. Gregório VII, Papa e Conf., a 25 de Maio
-          </Text>
+    <PageWrapper>
+      <Text className="h1">S. Gregório VII, Papa e Conf., a 25 de Maio</Text>
 
-          <Text className="comment">
-            Nascido em Soana na Toscana, Hildebrando foi monge do célebre
-            mosteiro benedictino de Cluny, do qual dependiam naquele tempo, duas
-            mil abadias. Foi Prior, depois eleito Abade do Mosteiro de S. Paulo
-            fora dos Muros, e Cardeal da Igreja Romana. Com a morte de Alexandre
-            II foi eleito Papa, tomando o nome de Gregório VII. Assim colocado
-            para governar a casa de Deus (Evangelho, Comúnio) participou da
-            plenitude do Sacerdócio de Jesus (Intróito, Epístola). Numa época em
-            que o episcopado, na maior parte simoníaco, dependia dos príncipes
-            civis, trabalhou com tal constância em defesa da liberdade da Igreja
-            (Oração) que se afirma não haver, desde o tempo dos Apóstolos,
-            nenhum Pontífice sustentado maiores trabalhos nem lutado mais
-            energeticamente pela sua independência. Enquanto celebrava o Santo
-            Sacrifício, uma pomba foi vista descer sobre ele. O Espírito Santo
-            testemunhava, por este sinal, as vistas sobrenaturais que o guiavam
-            na direcção da Igreja. Forçado a deixar Roma, morreu em Salerno, no
-            ano de 1085 pronunciando estas palavras de que as primeiras são
-            tiradas do Salmo 44: «Amei a justiça e odiei a iniquidade: eis
-            porque morro exilado». A exemplo de S. Gregório, tenhamos coragem
-            para vencer todas as adversidades (Oração).
-          </Text>
+      <Text className="comment">
+        Nascido em Soana na Toscana, Hildebrando foi monge do célebre mosteiro
+        benedictino de Cluny, do qual dependiam naquele tempo, duas mil abadias.
+        Foi Prior, depois eleito Abade do Mosteiro de S. Paulo fora dos Muros, e
+        Cardeal da Igreja Romana. Com a morte de Alexandre II foi eleito Papa,
+        tomando o nome de Gregório VII. Assim colocado para governar a casa de
+        Deus (Evangelho, Comúnio) participou da plenitude do Sacerdócio de Jesus
+        (Intróito, Epístola). Numa época em que o episcopado, na maior parte
+        simoníaco, dependia dos príncipes civis, trabalhou com tal constância em
+        defesa da liberdade da Igreja (Oração) que se afirma não haver, desde o
+        tempo dos Apóstolos, nenhum Pontífice sustentado maiores trabalhos nem
+        lutado mais energeticamente pela sua independência. Enquanto celebrava o
+        Santo Sacrifício, uma pomba foi vista descer sobre ele. O Espírito Santo
+        testemunhava, por este sinal, as vistas sobrenaturais que o guiavam na
+        direcção da Igreja. Forçado a deixar Roma, morreu em Salerno, no ano de
+        1085 pronunciando estas palavras de que as primeiras são tiradas do
+        Salmo 44: «Amei a justiça e odiei a iniquidade: eis porque morro
+        exilado». A exemplo de S. Gregório, tenhamos coragem para vencer todas
+        as adversidades (Oração).
+      </Text>
 
-          <Text className="aside">
-            Como na{" "}
-            <Link className="link" href="/missal/comum/sumospontifices">
-              Missa Si díligis me
-            </Link>{" "}
-            , excepto:
-          </Text>
+      <Text className="aside">
+        Como na{" "}
+        <Link className="link" href="/missal/comum/sumospontifices">
+          Missa Si díligis me
+        </Link>{" "}
+        , excepto:
+      </Text>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Deus, in te sperántium fortitúdo, qui beátum Gregórium Confessórem
-              tuum atque Pontíficem, pro tuénda Ecclésiæ libertáte, virtúte
-              constántiæ roborásti: da nobis, ejus exémplo et intercessióne,
-              ómnia adversántia fórtiter superáre. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, fortaleza daqueles que esperam em Vós, concedestes ao B.
-              Gregório, vosso Confessor e Pontífice, a virtude da constância
-              para defender a liberdade da Igreja, permiti que, imitando o seu
-              exemplo e pela sua intercessão, vençamos com coragem todas as
-              adversidade. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Deus, in te sperántium fortitúdo, qui beátum Gregórium Confessórem
+          tuum atque Pontíficem, pro tuénda Ecclésiæ libertáte, virtúte
+          constántiæ roborásti: da nobis, ejus exémplo et intercessióne, ómnia
+          adversántia fórtiter superáre. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Ó Deus, fortaleza daqueles que esperam em Vós, concedestes ao B.
+          Gregório, vosso Confessor e Pontífice, a virtude da constância para
+          defender a liberdade da Igreja, permiti que, imitando o seu exemplo e
+          pela sua intercessão, vençamos com coragem todas as adversidade. Por
+          nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h2">Comemoração de S. Urbano, Papa e Mártir</Text>
+      <Text className="h2">Comemoração de S. Urbano, Papa e Mártir</Text>
 
-          <Text className="aside">
-            Como na{" "}
-            <Link className="link" href="/missal/comum/sumospontifices">
-              Missa Si díligis me
-            </Link>{" "}
-            , excepto: Da mesma Missa Si díligis me, sendo a Oração a que está
-            em primeiro lugar e a Secreta e Postcomúnio as que estão em segundo
-            lugar.
-          </Text>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Text className="aside">
+        Como na{" "}
+        <Link className="link" href="/missal/comum/sumospontifices">
+          Missa Si díligis me
+        </Link>{" "}
+        , excepto: Da mesma Missa Si díligis me, sendo a Oração a que está em
+        primeiro lugar e a Secreta e Postcomúnio as que estão em segundo lugar.
+      </Text>
+    </PageWrapper>
   );
 }

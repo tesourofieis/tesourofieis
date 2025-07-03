@@ -1,143 +1,131 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function Page090() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">Salmo 90</Text>
+    <PageWrapper>
+      <Text className="h1">Salmo 90</Text>
 
-          <Language>
-            <Text className="latin">
-              Qui hábitat in adjutório Altíssimi, * in protectióne Dei cæli
-              commorábitur.
-            </Text>
-            <Text className="vernacular">
-              O que habita à sombra do Altíssimo, * descansará na protecção do
-              Deus do céu.
-            </Text>
-            <Text className="latin">
-              Dicet Dómino: suscéptor meus es Tu, et refúgium meum: * Deus meus
-              sperábo in eum.
-            </Text>
-            <Text className="vernacular">
-              Dirá ao Senhor: Vós sois o meu defensor e o meu refúgio: * o meu
-              Deus, em quem esperarei.
-            </Text>
-            <Text className="latin">
-              Quóniam ipse liberávit me de láqueo venántium, * et a verbo
-              áspero.
-            </Text>
-            <Text className="vernacular">
-              Porque Ele me livrou do laço dos caçadores, * e da palavra áspera.
-            </Text>
-            <Text className="latin">
-              Scápulis suis obumbrábit tibi: * et sub pennis ejus sperábis.
-            </Text>
-            <Text className="vernacular">
-              Com seus ombros fazer-te-á sombra: * e debaixo das suas asas
-              esperarás.
-            </Text>
-            <Text className="latin">
-              Scuto circúmdabit te véritas ejus: * non timébis a timóre
-              noctúrno,
-            </Text>
-            <Text className="vernacular">
-              Cercar-te-á como um escudo a sua verdade: * assombros nocturnos
-              não temerás,
-            </Text>
-            <Text className="latin">
-              A sagítta volánte in die, a negótio perambulánte in ténebris: * ab
-              incúrsu, et dæmónio meridiáno.
-            </Text>
-            <Text className="vernacular">
-              Da seta que voa de dia, nem da trama que ambula nas trevas: * de
-              assaltos, nem do demónio do meio-dia.
-            </Text>
-            <Text className="latin">
-              Cadent a látere tuo mille, et decem míllia a dextris tuis: * ad te
-              autem non appropinquábit.
-            </Text>
-            <Text className="vernacular">
-              Cairão mil a teu lado e dez mil à tua direita: * mas se não
-              aproximará de ti.
-            </Text>
-            <Text className="latin">
-              Verúmtamen óculis tuis considerábis: * et retributiónem peccatórum
-              vidébis.
-            </Text>
-            <Text className="vernacular">
-              Com teus olhos então contemplarás: * e verás o castigo dos
-              pecadores.
-            </Text>
-            <Text className="latin">
-              Quóniam Tu es, Dómine, spes mea: * Altíssimum posuísti refúgium
-              tuum.
-            </Text>
-            <Text className="vernacular">
-              Porque Vós sois, ó Senhor, a minha esperança: * o Altíssimo
-              tomaste por teu refúgio.
-            </Text>
-            <Text className="latin">
-              Non accédet ad te malum: * et flagéllum non appropinquábit
-              tabernáculo tuo.
-            </Text>
-            <Text className="vernacular">
-              O mal não virá sobre ti: * e o flagelo se não aproximará de tua
-              tenda.
-            </Text>
-            <Text className="latin">
-              Quóniam Ángelis suis mandávit de te: * ut custódiant te in ómnibus
-              viis tuis.
-            </Text>
-            <Text className="vernacular">
-              Porque mandou os seus anjos a ti: * para que te velem em todos
-              teus caminhos.
-            </Text>
-            <Text className="latin">
-              In mánibus portábunt te: * ne forte offéndas ad lápidem pedem
-              tuum.
-            </Text>
-            <Text className="vernacular">
-              Eles levar-te-ão nas suas mãos: * para que não tropece o teu pé em
-              pedra alguma.
-            </Text>
-            <Text className="latin">
-              Super áspidem, et basilíscum ambulábis: * et conculcábis leónem et
-              dracónem.
-            </Text>
-            <Text className="vernacular">
-              Sobre a víbora e o basilisco andarás: * e calcarás o leão e o
-              dragão.
-            </Text>
-            <Text className="latin">
-              Quóniam in me sperávit, liberábo eum: * prótegam eum, quóniam
-              cognóvit nomen meum.
-            </Text>
-            <Text className="vernacular">
-              Porque esperou em mim, livrá-lo-ei: * protegê-lo-ei, porque
-              conheceu o meu nome.
-            </Text>
-            <Text className="latin">
-              Clamábit ad me, et ego exáudiam eum: * cum ipso sum in
-              tribulatióne: erípiam eum et glorificábo eum.
-            </Text>
-            <Text className="vernacular">
-              A mim clamará e eu o ouvirei: * com ele estou na tribulação,
-              livrá-lo-ei e glorificá-lo-ei.
-            </Text>
-            <Text className="latin">
-              Longitúdine diérum replébo eum: * et osténdam illi salutáre meum.
-            </Text>
-            <Text className="vernacular">
-              Enchê-lo-ei de longos dias: * e mostrar-lhe-ei a minha salvação.
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Qui hábitat in adjutório Altíssimi, * in protectióne Dei cæli
+          commorábitur.
+        </Text>
+        <Text className="vernacular">
+          O que habita à sombra do Altíssimo, * descansará na protecção do Deus
+          do céu.
+        </Text>
+        <Text className="latin">
+          Dicet Dómino: suscéptor meus es Tu, et refúgium meum: * Deus meus
+          sperábo in eum.
+        </Text>
+        <Text className="vernacular">
+          Dirá ao Senhor: Vós sois o meu defensor e o meu refúgio: * o meu Deus,
+          em quem esperarei.
+        </Text>
+        <Text className="latin">
+          Quóniam ipse liberávit me de láqueo venántium, * et a verbo áspero.
+        </Text>
+        <Text className="vernacular">
+          Porque Ele me livrou do laço dos caçadores, * e da palavra áspera.
+        </Text>
+        <Text className="latin">
+          Scápulis suis obumbrábit tibi: * et sub pennis ejus sperábis.
+        </Text>
+        <Text className="vernacular">
+          Com seus ombros fazer-te-á sombra: * e debaixo das suas asas
+          esperarás.
+        </Text>
+        <Text className="latin">
+          Scuto circúmdabit te véritas ejus: * non timébis a timóre noctúrno,
+        </Text>
+        <Text className="vernacular">
+          Cercar-te-á como um escudo a sua verdade: * assombros nocturnos não
+          temerás,
+        </Text>
+        <Text className="latin">
+          A sagítta volánte in die, a negótio perambulánte in ténebris: * ab
+          incúrsu, et dæmónio meridiáno.
+        </Text>
+        <Text className="vernacular">
+          Da seta que voa de dia, nem da trama que ambula nas trevas: * de
+          assaltos, nem do demónio do meio-dia.
+        </Text>
+        <Text className="latin">
+          Cadent a látere tuo mille, et decem míllia a dextris tuis: * ad te
+          autem non appropinquábit.
+        </Text>
+        <Text className="vernacular">
+          Cairão mil a teu lado e dez mil à tua direita: * mas se não aproximará
+          de ti.
+        </Text>
+        <Text className="latin">
+          Verúmtamen óculis tuis considerábis: * et retributiónem peccatórum
+          vidébis.
+        </Text>
+        <Text className="vernacular">
+          Com teus olhos então contemplarás: * e verás o castigo dos pecadores.
+        </Text>
+        <Text className="latin">
+          Quóniam Tu es, Dómine, spes mea: * Altíssimum posuísti refúgium tuum.
+        </Text>
+        <Text className="vernacular">
+          Porque Vós sois, ó Senhor, a minha esperança: * o Altíssimo tomaste
+          por teu refúgio.
+        </Text>
+        <Text className="latin">
+          Non accédet ad te malum: * et flagéllum non appropinquábit tabernáculo
+          tuo.
+        </Text>
+        <Text className="vernacular">
+          O mal não virá sobre ti: * e o flagelo se não aproximará de tua tenda.
+        </Text>
+        <Text className="latin">
+          Quóniam Ángelis suis mandávit de te: * ut custódiant te in ómnibus
+          viis tuis.
+        </Text>
+        <Text className="vernacular">
+          Porque mandou os seus anjos a ti: * para que te velem em todos teus
+          caminhos.
+        </Text>
+        <Text className="latin">
+          In mánibus portábunt te: * ne forte offéndas ad lápidem pedem tuum.
+        </Text>
+        <Text className="vernacular">
+          Eles levar-te-ão nas suas mãos: * para que não tropece o teu pé em
+          pedra alguma.
+        </Text>
+        <Text className="latin">
+          Super áspidem, et basilíscum ambulábis: * et conculcábis leónem et
+          dracónem.
+        </Text>
+        <Text className="vernacular">
+          Sobre a víbora e o basilisco andarás: * e calcarás o leão e o dragão.
+        </Text>
+        <Text className="latin">
+          Quóniam in me sperávit, liberábo eum: * prótegam eum, quóniam cognóvit
+          nomen meum.
+        </Text>
+        <Text className="vernacular">
+          Porque esperou em mim, livrá-lo-ei: * protegê-lo-ei, porque conheceu o
+          meu nome.
+        </Text>
+        <Text className="latin">
+          Clamábit ad me, et ego exáudiam eum: * cum ipso sum in tribulatióne:
+          erípiam eum et glorificábo eum.
+        </Text>
+        <Text className="vernacular">
+          A mim clamará e eu o ouvirei: * com ele estou na tribulação,
+          livrá-lo-ei e glorificá-lo-ei.
+        </Text>
+        <Text className="latin">
+          Longitúdine diérum replébo eum: * et osténdam illi salutáre meum.
+        </Text>
+        <Text className="vernacular">
+          Enchê-lo-ei de longos dias: * e mostrar-lhe-ei a minha salvação.
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

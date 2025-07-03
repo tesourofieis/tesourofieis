@@ -1,56 +1,48 @@
 import { Link } from "expo-router";
 
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
+import PageWrapper from "~/components/Page";
 
 export default function Page0308() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">S. João de Deus, Confessor, a 8 de Março</Text>
+    <PageWrapper>
+      <Text className="h1">S. João de Deus, Confessor, a 8 de Março</Text>
 
-          <Text className="aside">
-            Como na{" "}
-            <Link
-              className="link"
-              href="/missal/comum/14confessoresnaopontifices1"
-            >
-              Missa Os justi
-            </Link>{" "}
-            , excepto:
-          </Text>
+      <Text className="aside">
+        Como na{" "}
+        <Link className="link" href="/missal/comum/14confessoresnaopontifices1">
+          Missa Os justi
+        </Link>{" "}
+        , excepto:
+      </Text>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Deus, qui beátum Joánnem, tuo amóre succénsum, inter flammas
-              innóxium incédere fecísti, et per eum Ecclésiam tuam nova prole
-              fœcundásti: præsta, ipsíus suffragántibus méritis; ut igne
-              caritátis tuæ vitia nostra curéntur, et remédia nobis ætérna
-              provéniant. Per Dóminum nostrum...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, que, depois de abrasardes a alma do B. João no vosso amor,
-              o fizestes passar incólume por entre as chamas, e que por meio
-              dele enriquecestes a Igreja com uma nova prole, concedei-nos pelos
-              seus méritos que com o fogo da vossa caridade sejamos curados de
-              nossos vícios e providos dos remédios eternos. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Deus, qui beátum Joánnem, tuo amóre succénsum, inter flammas innóxium
+          incédere fecísti, et per eum Ecclésiam tuam nova prole fœcundásti:
+          præsta, ipsíus suffragántibus méritis; ut igne caritátis tuæ vitia
+          nostra curéntur, et remédia nobis ætérna provéniant. Per Dóminum
+          nostrum...
+        </Text>
+        <Text className="vernacular">
+          Ó Deus, que, depois de abrasardes a alma do B. João no vosso amor, o
+          fizestes passar incólume por entre as chamas, e que por meio dele
+          enriquecestes a Igreja com uma nova prole, concedei-nos pelos seus
+          méritos que com o fogo da vossa caridade sejamos curados de nossos
+          vícios e providos dos remédios eternos. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Evangelho</Text>
+      <Text className="h3">Evangelho</Text>
 
-          <LinkCard
-            href="/missal/pentecostes/pent17-0#evangelho"
-            title="Décimo Sétimo Domingo depois de Pentecostes"
-          />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <LinkCard
+        href="/missal/pentecostes/pent17-0#evangelho"
+        title="Décimo Sétimo Domingo depois de Pentecostes"
+      />
+    </PageWrapper>
   );
 }

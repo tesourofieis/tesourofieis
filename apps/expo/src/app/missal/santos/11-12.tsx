@@ -1,20 +1,14 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { Text, View } from "react-native";
+import PageWrapper from "~/components/Page";
 
 import Missa from "../comum/sumospontifices";
 
 export default function Page1112() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">
-            S. Martinho, Papa e Mártir, a 12 de Novembro
-          </Text>
+    <PageWrapper>
+      <Text className="h1">S. Martinho, Papa e Mártir, a 12 de Novembro</Text>
 
-          <Missa />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Missa />
+    </PageWrapper>
   );
 }

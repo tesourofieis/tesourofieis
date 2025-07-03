@@ -55,7 +55,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
 
   const setLanguage = (vernacular: boolean) => {
     const newLang = vernacular ? "vernacular" : "latin";
-    setCurrentLang(newLang); // Update immediately
+    setCurrentLang(newLang);
     currentLanguage.value = newLang;
     const targetContent = vernacular ? -width : 0;
     translateX.value = withSpring(targetContent, springConfig, () => {
@@ -74,7 +74,6 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
 
   const handlePan = (event: { nativeEvent: { translationX: number } }) => {
     const offset = event.nativeEvent.translationX;
-    // Clamp translateX between 0 and -width
     translateX.value = Math.max(
       -width,
       Math.min(0, offset + (currentLanguage.value === "latin" ? 0 : -width)),
@@ -121,6 +120,17 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
       ),
     };
   }, [children]);
+
+  const isWeb = Platform.OS === "web";
+
+  if (isWeb) {
+    return (
+      <View className="flex-row">
+        <View className="flex-1 min-w-0">{latinContent}</View>
+        <View className="flex-1 min-w-0">{vernacularContent}</View>
+      </View>
+    );
+  }
 
   return (
     <View>

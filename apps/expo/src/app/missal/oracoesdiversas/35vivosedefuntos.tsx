@@ -1,84 +1,78 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function Page35Vivosedefuntos() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">35.ª Pelos vivos e defuntos</Text>
+    <PageWrapper>
+      <Text className="h1">35.ª Pelos vivos e defuntos</Text>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Omnípotens sempitérne Deus, qui vivórum domináris simul et
-              mortuórum, omniúmque miseréris, quos tuos fide et opere futúros
-              esse prænóscis: te súpplices exorámus; ut, pro quibus effúndere
-              preces decrévimus, quosque vel præsens sǽculum adhuc in carne
-              rétinet, vel futúrum jam exútos córpore suscépit, intercedéntibus
-              ómnibus Sanctis tuis, pietátis tuæ cleméntia ómnium delictórum
-              suórum véniam consequántur. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Ó omnipotente e sempiterno Deus, que dominais os vivos e os mortos
-              e sois misericordioso para com aqueles que antecipadamente
-              conheceis que pela sua fé e boas obras hão-de pertencer-Vos,
-              humildemente Vos suplicamos, permiti, pela vossa bondade e
-              clemência e pela intercessão de todos vossos Santos, que aqueles
-              por quem rezamos (ou vivam ainda neste mundo, na carne, mortal,
-              ou, despojados dos seus corpos, hajam penetrado na eternidade)
-              alcancem o perdão dos seus pecados. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Omnípotens sempitérne Deus, qui vivórum domináris simul et mortuórum,
+          omniúmque miseréris, quos tuos fide et opere futúros esse prænóscis:
+          te súpplices exorámus; ut, pro quibus effúndere preces decrévimus,
+          quosque vel præsens sǽculum adhuc in carne rétinet, vel futúrum jam
+          exútos córpore suscépit, intercedéntibus ómnibus Sanctis tuis,
+          pietátis tuæ cleméntia ómnium delictórum suórum véniam consequántur.
+          Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Ó omnipotente e sempiterno Deus, que dominais os vivos e os mortos e
+          sois misericordioso para com aqueles que antecipadamente conheceis que
+          pela sua fé e boas obras hão-de pertencer-Vos, humildemente Vos
+          suplicamos, permiti, pela vossa bondade e clemência e pela intercessão
+          de todos vossos Santos, que aqueles por quem rezamos (ou vivam ainda
+          neste mundo, na carne, mortal, ou, despojados dos seus corpos, hajam
+          penetrado na eternidade) alcancem o perdão dos seus pecados. Por nosso
+          Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Deus, cui soli cógnitus est númerus electórum in supérna
-              felicitáte locándus: tríbue, quǽsumus; ut, intercedéntibus ómnibus
-              Sanctis tuis, universórum, quos in oratióne commendátas
-              suscépimus, et ómnium fidélium nómina beátæ prædestinatiónis liber
-              adscrípta retíneat. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, de quem só é conhecido o número dos escolhidos, que hão-de
-              possuir um lugar na felicidade celestial, Vos rogamos, permiti,
-              pela intercessão de todos vossos Santos, que sejam inscritos no
-              livro da bem-aventurada predestinação os nomes daqueles que Vos
-              encomendamos nas nossas orações, e bem assim os de todos os fiéis.
-              Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Deus, cui soli cógnitus est númerus electórum in supérna felicitáte
+          locándus: tríbue, quǽsumus; ut, intercedéntibus ómnibus Sanctis tuis,
+          universórum, quos in oratióne commendátas suscépimus, et ómnium
+          fidélium nómina beátæ prædestinatiónis liber adscrípta retíneat. Per
+          Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Ó Deus, de quem só é conhecido o número dos escolhidos, que hão-de
+          possuir um lugar na felicidade celestial, Vos rogamos, permiti, pela
+          intercessão de todos vossos Santos, que sejam inscritos no livro da
+          bem-aventurada predestinação os nomes daqueles que Vos encomendamos
+          nas nossas orações, e bem assim os de todos os fiéis. Por nosso
+          Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Puríficent nos, quǽsumus, omnípotens et miséricors Deus,
-              sacraménta quæ súmpsimus: et, intercedéntibus ómnibus Sanctis
-              tuis, præsta; ut hoc tuum sacraméntum non sit nobis reátus ad
-              pœnam, sed intercéssio salutáris ad véniam: sit ablútio scélerum,
-              sit fortitúdo fragílium, sit contra ómnia mundi perícula
-              firmaméntum: sit vivórum atque mortuórum fidélium remíssio ómnium
-              delictórum. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Deus omnipotente e misericordioso, Vos imploramos, permiti que os
-              sacramentos, que recebemos, nos purifiquem; e, pela intercessão de
-              todos vossos Santos, concedei-nos que este vosso sacramento seja
-              para nós salutar meio de perdão, e não causa de castigo; que
-              apague todos nossos pecados; que seja o nosso sustentáculo no meio
-              da nossa fragilidade; que seja a nossa defesa contra os perigos
-              deste mundo, e que sirva de expiação dos delitos de todos os fiéis
-              vivos e defuntos. Por nosso Senhor...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Puríficent nos, quǽsumus, omnípotens et miséricors Deus, sacraménta
+          quæ súmpsimus: et, intercedéntibus ómnibus Sanctis tuis, præsta; ut
+          hoc tuum sacraméntum non sit nobis reátus ad pœnam, sed intercéssio
+          salutáris ad véniam: sit ablútio scélerum, sit fortitúdo fragílium,
+          sit contra ómnia mundi perícula firmaméntum: sit vivórum atque
+          mortuórum fidélium remíssio ómnium delictórum. Per Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Deus omnipotente e misericordioso, Vos imploramos, permiti que os
+          sacramentos, que recebemos, nos purifiquem; e, pela intercessão de
+          todos vossos Santos, concedei-nos que este vosso sacramento seja para
+          nós salutar meio de perdão, e não causa de castigo; que apague todos
+          nossos pecados; que seja o nosso sustentáculo no meio da nossa
+          fragilidade; que seja a nossa defesa contra os perigos deste mundo, e
+          que sirva de expiação dos delitos de todos os fiéis vivos e defuntos.
+          Por nosso Senhor...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

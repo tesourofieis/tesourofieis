@@ -1,69 +1,61 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function Page28Paciencia() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">28.ª Para pedir a paciência</Text>
+    <PageWrapper>
+      <Text className="h1">28.ª Para pedir a paciência</Text>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Deus, qui Unigéniti tui patiéntia antíqui hostis contrivísti
-              supérbiam: da nobis, quǽsumus, quæ idem pie pro nobis pértulit,
-              digne recólere; sicque, exémplo ejus, nobis adversántia
-              æquanímiter toleráre. Per eúndem Dóminum nostrum...
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, que, em virtude da paciência que o vosso Filho Unigénito
-              praticou, esmagastes o «homem antigo», permiti, Vos suplicamos,
-              que meditemos gravemente em tudo quanto Jesus sofreu com tanta
-              bondade por nós, a fim de que, sustentados com seu exemplo,
-              possamos suportar com resignação as adversidades. Por nosso
-              Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Deus, qui Unigéniti tui patiéntia antíqui hostis contrivísti
+          supérbiam: da nobis, quǽsumus, quæ idem pie pro nobis pértulit, digne
+          recólere; sicque, exémplo ejus, nobis adversántia æquanímiter
+          toleráre. Per eúndem Dóminum nostrum...
+        </Text>
+        <Text className="vernacular">
+          Ó Deus, que, em virtude da paciência que o vosso Filho Unigénito
+          praticou, esmagastes o «homem antigo», permiti, Vos suplicamos, que
+          meditemos gravemente em tudo quanto Jesus sofreu com tanta bondade por
+          nós, a fim de que, sustentados com seu exemplo, possamos suportar com
+          resignação as adversidades. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Múnera nostræ oblatiónis, quǽsumus, Dómine, súscipe placátus: quæ,
-              ut nobis patiéntiæ donum largíri dignéris, majestáti tuæ devota
-              offérimus actióne. Per Dóminum nostrum...
-            </Text>
-            <Text className="vernacular">
-              Senhor, Vos suplicamos, recebei os dons da nossa oblação, e
-              deixai-Vos aplacar; oferecemos devotadamente estes dons à vossa
-              majestade, para que Vos digneis conceder-nos a virtude da
-              paciência. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Múnera nostræ oblatiónis, quǽsumus, Dómine, súscipe placátus: quæ, ut
+          nobis patiéntiæ donum largíri dignéris, majestáti tuæ devota offérimus
+          actióne. Per Dóminum nostrum...
+        </Text>
+        <Text className="vernacular">
+          Senhor, Vos suplicamos, recebei os dons da nossa oblação, e deixai-Vos
+          aplacar; oferecemos devotadamente estes dons à vossa majestade, para
+          que Vos digneis conceder-nos a virtude da paciência. Por nosso
+          Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Mystéria, Dómine, sacrosáncta, quæ súmpsimus, amíssam nobis,
-              quǽsumus, reconcílient grátiam: atque munus patiéntiæ in illátis
-              ómnibus, semper et ubíque protegéndo, impértiant. Per Dóminum
-              nostrum...
-            </Text>
-            <Text className="vernacular">
-              Senhor, Vos imploramos, permiti que os sacrossantos mystérios que
-              recebemos nos restaurem na graça, que havíamos perdido, e que,
-              fazendo-nos sentir a vossa protecção, nos concedam sempre e em
-              toda a parte o dom da paciência em todas as adversidades. Por
-              nosso Senhor...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Mystéria, Dómine, sacrosáncta, quæ súmpsimus, amíssam nobis, quǽsumus,
+          reconcílient grátiam: atque munus patiéntiæ in illátis ómnibus, semper
+          et ubíque protegéndo, impértiant. Per Dóminum nostrum...
+        </Text>
+        <Text className="vernacular">
+          Senhor, Vos imploramos, permiti que os sacrossantos mystérios que
+          recebemos nos restaurem na graça, que havíamos perdido, e que,
+          fazendo-nos sentir a vossa protecção, nos concedam sempre e em toda a
+          parte o dom da paciência em todas as adversidades. Por nosso Senhor...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }

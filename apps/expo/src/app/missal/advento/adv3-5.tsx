@@ -1,208 +1,198 @@
-import { ScrollView, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
+import { Text, View } from "react-native";
 import Language from "~/components/Language";
+import PageWrapper from "~/components/Page";
 
 export default function PageAdv35() {
   return (
-    <SafeAreaView className="flex-1">
-      <ScrollView>
-        <View className="docs">
-          <Text className="h1">Sexta-feira das Têmporas do Inverno</Text>
+    <PageWrapper>
+      <Text className="h1">Sexta-feira das Têmporas do Inverno</Text>
 
-          <Text className="h3">Intróito</Text>
+      <Text className="h3">Intróito</Text>
 
-          <Text className="em">Sl. 118, 151–152</Text>
+      <Text className="em">Sl. 118, 151–152</Text>
 
-          <Language>
-            <Text className="latin">
-              Prope es tu, Dómine, et omnes viæ tuæ véritas: inítio cognóvi de
-              testimóniis tuis, quia in ætérnum tu es.{" "}
-              <Text className="latin">Ps. ibid., 1</Text> Beati immaculáti in
-              via: qui ámbulant in lege Dómini.
-              <Text className="versicle"> ℣. </Text>Gloria Patri...
-            </Text>
-            <Text className="vernacular">
-              Senhor, estais próximo: e todos vossos ensinos são verdadeiros.
-              Desde o princípio que conheço os vossos ensinos, porque os
-              ensinastes desde sempre.{" "}
-              <Text className="vernacular">Sl. ibid., 1</Text> Bem-aventurados
-              os que procedem sem mácula em seus caminhos: e os que caminham na
-              lei do Senhor.<Text className="versicle"> ℣. </Text>Glória ao
-              Pai...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Prope es tu, Dómine, et omnes viæ tuæ véritas: inítio cognóvi de
+          testimóniis tuis, quia in ætérnum tu es.{" "}
+          <Text className="latin">Ps. ibid., 1</Text> Beati immaculáti in via:
+          qui ámbulant in lege Dómini.
+          <Text className="versicle"> ℣. </Text>Gloria Patri...
+        </Text>
+        <Text className="vernacular">
+          Senhor, estais próximo: e todos vossos ensinos são verdadeiros. Desde
+          o princípio que conheço os vossos ensinos, porque os ensinastes desde
+          sempre. <Text className="vernacular">Sl. ibid., 1</Text>{" "}
+          Bem-aventurados os que procedem sem mácula em seus caminhos: e os que
+          caminham na lei do Senhor.<Text className="versicle"> ℣. </Text>Glória
+          ao Pai...
+        </Text>
+      </Language>
 
-          <Text className="h3">Oração</Text>
+      <Text className="h3">Oração</Text>
 
-          <Language>
-            <Text className="latin">
-              Excita, quǽsumus, Dómine, poténtiam tuam, et veni: ut hi, qui in
-              tua pietáte confídunt, ab omni cítius adversitáte liberéntur: Qui
-              vivis...
-            </Text>
-            <Text className="vernacular">
-              Mostrai o vosso poder, Senhor, Vos suplicamos, e vinde, a fim de
-              que aqueles que confiam na vossa bondade sejam bem depressa livres
-              de toda a adversidade: Vós, que viveis e...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Excita, quǽsumus, Dómine, poténtiam tuam, et veni: ut hi, qui in tua
+          pietáte confídunt, ab omni cítius adversitáte liberéntur: Qui vivis...
+        </Text>
+        <Text className="vernacular">
+          Mostrai o vosso poder, Senhor, Vos suplicamos, e vinde, a fim de que
+          aqueles que confiam na vossa bondade sejam bem depressa livres de toda
+          a adversidade: Vós, que viveis e...
+        </Text>
+      </Language>
 
-          <Text className="h3">Epístola</Text>
+      <Text className="h3">Epístola</Text>
 
-          <Text className="em">Is. 11, 1–5</Text>
+      <Text className="em">Is. 11, 1–5</Text>
 
-          <Language>
-            <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
-            <Text className="vernacular">Lição do Profeta Isaías.</Text>
-            <Text className="latin">
-              Hæc dicit Dóminus Deus: Egrediátur virga de radíce Jesse, et flos
-              de radíce ejus ascéndet. Et requiéscet super eum spíritus Dómini:
-              spíritus sapiéntiæ et intelléctus, spíritus consílii et
-              fortitúdinis, spíritus sciéntiæ et pietátis; et replébit eum
-              spíritus timóris Dómini. Non secundum visiónem oculórum judicábit:
-              neque secúndum audítum áurium árguet: sed judicábit in justítia
-              páuperes, et árguet in æquitáte pro mansuétis terræ: et percútiet
-              terram virga oris sui, et spíritu labiórum suórum interfíciet
-              ímpium. Et erit justítia cíngulum lumbórum ejus: et fides
-              cinctórium renum ejus.
-            </Text>
-            <Text className="vernacular">
-              Isto diz o Senhor Deus: Sairá uma vara do tronco de Jessé e uma
-              flor brotará da sua raiz. E o espírito do Senhor repousará sobre
-              ele: espírito de sabedoria e de inteligência; espírito de conselho
-              e de fortaleza; espírito de ciência e de piedade; e enchê-lo-á o
-              espírito do temor do Senhor. Não julgará segundo o que os olhos
-              vêem, nem segundo o que os ouvidos ouvem; mas julgará com justiça
-              os pobres e se pronunciará com rectidão para com os humildes da
-              terra. Com a vara da sua boca baterá na terra: e matará o ímpio
-              com um sopro dos seus lábios. A justiça será o cinto de suas
-              entranhas e a fé o cinturão dos seus rins.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
+        <Text className="vernacular">Lição do Profeta Isaías.</Text>
+        <Text className="latin">
+          Hæc dicit Dóminus Deus: Egrediátur virga de radíce Jesse, et flos de
+          radíce ejus ascéndet. Et requiéscet super eum spíritus Dómini:
+          spíritus sapiéntiæ et intelléctus, spíritus consílii et fortitúdinis,
+          spíritus sciéntiæ et pietátis; et replébit eum spíritus timóris
+          Dómini. Non secundum visiónem oculórum judicábit: neque secúndum
+          audítum áurium árguet: sed judicábit in justítia páuperes, et árguet
+          in æquitáte pro mansuétis terræ: et percútiet terram virga oris sui,
+          et spíritu labiórum suórum interfíciet ímpium. Et erit justítia
+          cíngulum lumbórum ejus: et fides cinctórium renum ejus.
+        </Text>
+        <Text className="vernacular">
+          Isto diz o Senhor Deus: Sairá uma vara do tronco de Jessé e uma flor
+          brotará da sua raiz. E o espírito do Senhor repousará sobre ele:
+          espírito de sabedoria e de inteligência; espírito de conselho e de
+          fortaleza; espírito de ciência e de piedade; e enchê-lo-á o espírito
+          do temor do Senhor. Não julgará segundo o que os olhos vêem, nem
+          segundo o que os ouvidos ouvem; mas julgará com justiça os pobres e se
+          pronunciará com rectidão para com os humildes da terra. Com a vara da
+          sua boca baterá na terra: e matará o ímpio com um sopro dos seus
+          lábios. A justiça será o cinto de suas entranhas e a fé o cinturão dos
+          seus rins.
+        </Text>
+      </Language>
 
-          <Text className="h3">Gradual</Text>
+      <Text className="h3">Gradual</Text>
 
-          <Text className="em">Sl. 84, 8 & 2</Text>
+      <Text className="em">Sl. 84, 8 & 2</Text>
 
-          <Language>
-            <Text className="latin">
-              Osténde nobis, Dómine, misericórdiam tuam: et salutáre tuum da
-              nobis.<Text className="versicle"> ℣. </Text>Benedixísti, Dómine,
-              terram tuam: avertísti captivitátem Jacob.
-            </Text>
-            <Text className="vernacular">
-              Mostrai-nos, Senhor, a vossa misericórdia; e dai-nos a vossa
-              salvação. Abençoastes, Senhor, a vossa terra; afastastes o
-              cativeiro de Jacob.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Osténde nobis, Dómine, misericórdiam tuam: et salutáre tuum da nobis.
+          <Text className="versicle"> ℣. </Text>Benedixísti, Dómine, terram
+          tuam: avertísti captivitátem Jacob.
+        </Text>
+        <Text className="vernacular">
+          Mostrai-nos, Senhor, a vossa misericórdia; e dai-nos a vossa salvação.
+          Abençoastes, Senhor, a vossa terra; afastastes o cativeiro de Jacob.
+        </Text>
+      </Language>
 
-          <Text className="h3">Evangelho</Text>
+      <Text className="h3">Evangelho</Text>
 
-          <Text className="em">Lc. 1, 39–47</Text>
+      <Text className="em">Lc. 1, 39–47</Text>
 
-          <Language>
-            <Text className="latin">
-              <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii
-              secúndum Lucam.
-            </Text>
-            <Text className="vernacular">
-              <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
-              segundo S. Lucas.
-            </Text>
-            <Text className="latin">
-              In illo tempore: Exsúrgens María ábiit in montána cum festinatióne
-              in civitátem Juda: et intrávit in domum Zacharíæ, et salutávit
-              Elísabeth. Et factum est, ut audivit salutatiónem Maríæ Elísabeth,
-              exsultávit infans in útero ejus: et repléta est Spíritu Sancto
-              Elísabeth, et exclamávit voce magna, et dixit: Benedícta tu inter
-              mulíeres, et benedíctus fructus ventris tui. Et unde hoc mihi, ut
-              véniat Mater Dómini mei ad me? Ecce enim, ut facta est vox
-              salutatiónis tuæ in áuribus meis, exsultávit in gáudio infans in
-              útero meo. Et beáta, quæ credidísti, quóniam perficiéntur ea, quæ
-              dicta sunt tibi a Dómino. Et ait María: Magníficat anima mea
-              Dóminum: et exsultávit spíritus meus in Deo, salutári meo.
-            </Text>
-            <Text className="vernacular">
-              Naquele tempo, levantando-se Maria, foi apressadamente às
-              montanhas de uma cidade de Judá, onde entrou em casa de Zacarias e
-              saudou Isabel. E aconteceu que, logo que Isabel ouviu a saudação
-              de Maria, saltou a criança no seu seio, e Isabel ficou cheia de
-              Espírito Santo, exclamando em voz alta e dizendo: «Bendita sois
-              vós entre todas as mulheres e bendito é o fruto do vosso ventre.
-              Donde me vem a mim que a Mãe do meu Senhor venha até mim? Pois,
-              desde que a voz da vossa saudação chegou a meus ouvidos, o meu
-              filho exultou de alegria no meu seio! Bem-aventurada sois, porque
-              acreditastes que se hão-de cumprir as coisas que vos foram ditas
-              da parte do Senhor». Maria disse, então: «Minha alma glorifica ao
-              Senhor: e o meu espírito se alegra em Deus, meu Salvador».
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+          Lucam.
+        </Text>
+        <Text className="vernacular">
+          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+          segundo S. Lucas.
+        </Text>
+        <Text className="latin">
+          In illo tempore: Exsúrgens María ábiit in montána cum festinatióne in
+          civitátem Juda: et intrávit in domum Zacharíæ, et salutávit Elísabeth.
+          Et factum est, ut audivit salutatiónem Maríæ Elísabeth, exsultávit
+          infans in útero ejus: et repléta est Spíritu Sancto Elísabeth, et
+          exclamávit voce magna, et dixit: Benedícta tu inter mulíeres, et
+          benedíctus fructus ventris tui. Et unde hoc mihi, ut véniat Mater
+          Dómini mei ad me? Ecce enim, ut facta est vox salutatiónis tuæ in
+          áuribus meis, exsultávit in gáudio infans in útero meo. Et beáta, quæ
+          credidísti, quóniam perficiéntur ea, quæ dicta sunt tibi a Dómino. Et
+          ait María: Magníficat anima mea Dóminum: et exsultávit spíritus meus
+          in Deo, salutári meo.
+        </Text>
+        <Text className="vernacular">
+          Naquele tempo, levantando-se Maria, foi apressadamente às montanhas de
+          uma cidade de Judá, onde entrou em casa de Zacarias e saudou Isabel. E
+          aconteceu que, logo que Isabel ouviu a saudação de Maria, saltou a
+          criança no seu seio, e Isabel ficou cheia de Espírito Santo,
+          exclamando em voz alta e dizendo: «Bendita sois vós entre todas as
+          mulheres e bendito é o fruto do vosso ventre. Donde me vem a mim que a
+          Mãe do meu Senhor venha até mim? Pois, desde que a voz da vossa
+          saudação chegou a meus ouvidos, o meu filho exultou de alegria no meu
+          seio! Bem-aventurada sois, porque acreditastes que se hão-de cumprir
+          as coisas que vos foram ditas da parte do Senhor». Maria disse, então:
+          «Minha alma glorifica ao Senhor: e o meu espírito se alegra em Deus,
+          meu Salvador».
+        </Text>
+      </Language>
 
-          <Text className="h3">Ofertório</Text>
+      <Text className="h3">Ofertório</Text>
 
-          <Text className="em">Sl. 84, 7–8</Text>
+      <Text className="em">Sl. 84, 7–8</Text>
 
-          <Language>
-            <Text className="latin">
-              Deus, tu convérsus vivificábis nos, et plebs tua lætábitur in te:
-              osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da
-              nobis.
-            </Text>
-            <Text className="vernacular">
-              Ó Deus, volvei para nós vossos olhares e dar-nos-eis a vida: então
-              o vosso povo rejubilará em Vós. Mostrai-nos, Senhor, a vossa
-              misericórdia: e dai-nos a vossa salvação.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Deus, tu convérsus vivificábis nos, et plebs tua lætábitur in te:
+          osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis.
+        </Text>
+        <Text className="vernacular">
+          Ó Deus, volvei para nós vossos olhares e dar-nos-eis a vida: então o
+          vosso povo rejubilará em Vós. Mostrai-nos, Senhor, a vossa
+          misericórdia: e dai-nos a vossa salvação.
+        </Text>
+      </Language>
 
-          <Text className="h3">Secreta</Text>
+      <Text className="h3">Secreta</Text>
 
-          <Language>
-            <Text className="latin">
-              Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
-              cœléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum
-              nostrum...
-            </Text>
-            <Text className="vernacular">
-              Senhor, depois de haverdes recebido as nossas ofertas e as nossas
-              orações, Vos suplicamos, purificai-nos com vossos celestiais
-              mystérios e ouvi-nos clementemente. Por nosso Senhor...
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
+          cœléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum
+          nostrum...
+        </Text>
+        <Text className="vernacular">
+          Senhor, depois de haverdes recebido as nossas ofertas e as nossas
+          orações, Vos suplicamos, purificai-nos com vossos celestiais mystérios
+          e ouvi-nos clementemente. Por nosso Senhor...
+        </Text>
+      </Language>
 
-          <Text className="h3">Comúnio</Text>
+      <Text className="h3">Comúnio</Text>
 
-          <Text className="em">Zc. 14, 5–6</Text>
+      <Text className="em">Zc. 14, 5–6</Text>
 
-          <Language>
-            <Text className="latin">
-              Ecce, Dóminus véniet et omnes Sancti ejus cum eo: et erit in die
-              illa lux magna.
-            </Text>
-            <Text className="vernacular">
-              Eis que o Senhor vem, e com Ele virão todos os Santos; e nesse dia
-              raiará uma luz brilhantíssima.
-            </Text>
-          </Language>
+      <Language>
+        <Text className="latin">
+          Ecce, Dóminus véniet et omnes Sancti ejus cum eo: et erit in die illa
+          lux magna.
+        </Text>
+        <Text className="vernacular">
+          Eis que o Senhor vem, e com Ele virão todos os Santos; e nesse dia
+          raiará uma luz brilhantíssima.
+        </Text>
+      </Language>
 
-          <Text className="h3">Postcomúnio</Text>
+      <Text className="h3">Postcomúnio</Text>
 
-          <Language>
-            <Text className="latin">
-              Tui nos, Dómine, sacraménti libátio sancta restáuret: et a
-              vetustáte purgátos, in mystérii salutáris fáciat transíre
-              consórtium. Per Dóminum...
-            </Text>
-            <Text className="vernacular">
-              Senhor, que a nossa comparticipação neste divino mystério nos
-              restaure; e que, depois de nos haver purificado do «homem velho»,
-              nos conduza ao gozo das alegrias da salvação. Por nosso Senhor...
-            </Text>
-          </Language>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <Language>
+        <Text className="latin">
+          Tui nos, Dómine, sacraménti libátio sancta restáuret: et a vetustáte
+          purgátos, in mystérii salutáris fáciat transíre consórtium. Per
+          Dóminum...
+        </Text>
+        <Text className="vernacular">
+          Senhor, que a nossa comparticipação neste divino mystério nos
+          restaure; e que, depois de nos haver purificado do «homem velho», nos
+          conduza ao gozo das alegrias da salvação. Por nosso Senhor...
+        </Text>
+      </Language>
+    </PageWrapper>
   );
 }
