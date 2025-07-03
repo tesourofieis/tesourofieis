@@ -53,34 +53,23 @@ function extractComment(content) {
 }
 
 function generateTitle(filePath, content) {
-  // 1. Try to find an explicit heading
-  for (let i = 1; i <= 6; i++) {
-    const headingMatch = content.match(
-      new RegExp(
-        `<[^>]*className="[^"]*h${i}[^"]*"[^>]*>([\\s\\S]*?)<\\/[^>]+>`
-      )
-    );
-    if (headingMatch) {
-      const text = headingMatch[1].replace(/<[^>]+>/g, "").trim();
-      if (text) return text;
+  // Match any heading tag <H1>, <H2>, ..., <H6> with a text prop
+  const headingMatches = [...content.matchAll(/<H[1-6][^>]*text\s*=\s*(["'])(.*?)\1[^>]*\/>/gs)];
+  for (const match of headingMatches) {
+    const text = match[2].trim(); // Extract and trim the text prop
+    if (text) {
+      return text; // Return the first non-empty text
     }
   }
 
-  // 2. Fallback to first non-empty Text element (your original logic)
-  const textMatches = [...content.matchAll(/<Text[^>]*>([\s\S]*?)<\/Text>/gs)];
-  for (const match of textMatches) {
-    const text = match[1].replace(/<[^>]+>/g, "").trim();
-    if (text) return text;
-  }
-
-  // 3. Fallback to filename (camelCase, kebab-case converted)
+  // Fallback to file name processing if no suitable heading is found
   const fileName = path.basename(filePath, ".tsx");
   return (
     fileName
-      .replace(/([A-Z])/g, " $1") // Add space before capital letters
-      .replace(/[-_]/g, " ") // Replace hyphens/underscores with spaces
-      .replace(/\b\w/g, (l) => l.toUpperCase()) // Capitalize first letter of each word
-      .trim() || "Sem título"
+      .replace(/([A-Z])/g, " $1") // Add spaces before capital letters
+      .replace(/[-_]/g, " ")       // Replace hyphens/underscores with spaces
+      .replace(/\b\w/g, (l) => l.toUpperCase()) // Capitalize each word
+      .trim() || "Sem título"      // Default to "Sem título" if empty
   );
 }
 

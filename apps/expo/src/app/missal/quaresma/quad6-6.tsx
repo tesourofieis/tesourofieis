@@ -115,8 +115,10 @@ export default function PageQuad66() {
           Senhor. <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      A Procissão dirige-se para o Altar-mor. O Diácono leva a serpentina e
-      canta:
+      <Text className="aside">
+        A Procissão dirige-se para o Altar-mor. O Diácono leva a serpentina e
+        canta:
+      </Text>
       <Language>
         <Text className="latin">
           <Text className="versicle"> ℣. </Text> Lumen Christi.

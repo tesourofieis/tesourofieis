@@ -174,7 +174,7 @@ const TreeItem = React.memo(
         }
       } else if (node.link) {
         // @ts-ignore
-        router.push(node.link);
+        router.push({pathname: node.link, params: node.title});
       }
     }, [hasKids, node.link, node.section, path]);
 
@@ -425,10 +425,11 @@ export default function MoreScreen() {
   const handleResultPress = useCallback(
     async (item: Docs) => {
       try {
-        // @ts-ignore
-        router.push(item.url);
-      } catch (err) {
-        console.error("Navigation error:", err);
+        const doc = searchEngine.getDocumentById(id);
+        if (!doc) return;
+        router.push({pathname: doc.url, params: doc.title });
+      } catch {
+        // handle error
       }
     },
     [router]
