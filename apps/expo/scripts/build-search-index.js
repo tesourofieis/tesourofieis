@@ -18,11 +18,55 @@ function extractTextFromTSX(content) {
     .trim();
 }
 
+function extractHeadings(content) {
+  const headings = [];
+  for (let i = 1; i <= 6; i++) {
+    const matches = [
+      ...content.matchAll(
+        new RegExp(
+          `<[^>]*className="[^"]*h${i}[^"]*"[^>]*>([\\s\\S]*?)<\\/[^>]+>`,
+          "g"
+        )
+      ),
+    ];
+    matches.forEach((match) => {
+      const text = match[1].replace(/<[^>]+>/g, "").trim();
+      if (text) {
+        headings.push({ level: i, text });
+      }
+    });
+  }
+  return headings.sort((a, b) => a.level - b.level);
+}
+
+function extractComment(content) {
+  const commentMatch = content.match(
+    /<[^>]*className="[^"]*comment[^"]*"[^>]*>([\s\S]*?)<\/[^>]+>/
+  );
+  if (commentMatch) {
+    const text = commentMatch[1].replace(/<[^>]+>/g, "").trim();
+    return text || null;
+  }
+  return null;
+}
+
 function generateTitle(filePath, content) {
+  for (let i = 1; i <= 6; i++) {
+    const headingMatch = content.match(
+      new RegExp(
+        `<[^>]*className="[^"]*h${i}[^"]*"[^>]*>([\\s\\S]*?)<\\/[^>]+>`
+      )
+    );
+    if (headingMatch) {
+      const text = headingMatch[1].replace(/<[^>]+>/g, "").trim();
+      if (text) return text;
+    }
+  }
+
   const textMatches = [...content.matchAll(/<Text[^>]*>([\s\S]*?)<\/Text>/gs)];
   for (const match of textMatches) {
     const text = match[1].replace(/<[^>]+>/g, "").trim();
-    return text;
+    if (text) return text;
   }
 
   const fileName = path.basename(filePath, ".tsx");
@@ -43,12 +87,10 @@ function generateTags(relativePath) {
   const pathParts = relativePath.split("/").filter(Boolean);
   const tags = [];
 
-  // Add each parent folder as a tag
   for (let i = 0; i < pathParts.length - 1; i++) {
     tags.push(pathParts[i]);
   }
 
-  // Add hierarchical tags for nested structure
   let currentPath = "";
   for (let i = 0; i < pathParts.length - 1; i++) {
     currentPath += (currentPath ? "/" : "") + pathParts[i];
@@ -97,6 +139,8 @@ function processFile(file, baseDir) {
 
     const title = generateTitle(file, raw);
     const body = extractTextFromTSX(raw);
+    const comment = extractComment(raw);
+    const headings = extractHeadings(raw);
     const url = generateUrl(relativePath);
     const tags = generateTags(relativePath);
     const pathParts = relativePath.split("/").filter(Boolean);
@@ -105,7 +149,7 @@ function processFile(file, baseDir) {
     const level = levels.length;
     const parent = level > 0 ? levels.join("/") : null;
 
-    return {
+    const result = {
       id: relativePath,
       title,
       body: body || `${title} page content`,
@@ -116,6 +160,16 @@ function processFile(file, baseDir) {
       level,
       parent,
     };
+
+    if (comment) {
+      result.comment = comment;
+    }
+
+    if (headings.length > 0) {
+      result.headings = headings;
+    }
+
+    return result;
   } catch (error) {
     console.error(`Erro ao processar ${file}:`, error);
     return null;

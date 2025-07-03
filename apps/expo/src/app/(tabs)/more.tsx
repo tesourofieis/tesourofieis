@@ -31,6 +31,11 @@ export interface Docs {
   level: number;
   levels: string[];
   section?: string;
+  headings: {
+    level: number;
+    text: string;
+  };
+  comment?: string;
 }
 
 interface TreeNode {
@@ -86,17 +91,17 @@ const createHierarchy = (items: Docs[]): Record<string, TreeNode> => {
 };
 
 const getTopLevelNodes = (
-  hierarchy: Record<string, TreeNode>,
+  hierarchy: Record<string, TreeNode>
 ): [string, TreeNode][] => {
   return Object.entries(hierarchy).filter(
-    ([_, node]) => node.level === 0 || node.level === 1,
+    ([_, node]) => node.level === 0 || node.level === 1
   );
 };
 
 const shouldShowNode = (
   node: TreeNode,
   expandedSections: Set<string>,
-  maxLevel: number = 1,
+  maxLevel: number = 1
 ): boolean => {
   if (node.level <= maxLevel) return true;
   if (node.section && expandedSections.has(node.section)) return true;
@@ -169,7 +174,7 @@ const TreeItem = React.memo(
     const visibleChildren = useMemo(() => {
       if (!hasKids || !isOpen) return [];
       return Object.entries(node.children).filter(([_, child]) =>
-        shouldShowNode(child, expandedSections, level + 1),
+        shouldShowNode(child, expandedSections, level + 1)
       );
     }, [node.children, hasKids, isOpen, expandedSections, level]);
 
@@ -194,7 +199,7 @@ const TreeItem = React.memo(
         currentPathname,
         expandedSections,
         toggleSection,
-      ],
+      ]
     );
 
     return (
@@ -250,7 +255,7 @@ const TreeItem = React.memo(
         )}
       </View>
     );
-  },
+  }
 );
 
 const SearchResultItem = React.memo(
@@ -296,7 +301,7 @@ const SearchResultItem = React.memo(
         )}
       </TouchableOpacity>
     );
-  },
+  }
 );
 
 const SearchResults = React.memo(
@@ -345,7 +350,7 @@ const SearchResults = React.memo(
         />
       </Animated.View>
     );
-  },
+  }
 );
 
 export default function MoreScreen() {
@@ -357,7 +362,7 @@ export default function MoreScreen() {
   const [isSearching, setIsSearching] = useState(false);
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [expandedSections, setExpandedSections] = useState<Set<string>>(
-    new Set(),
+    new Set()
   );
   const { searchEngine, isReady, error: searchError } = useSearch();
 
@@ -393,7 +398,7 @@ export default function MoreScreen() {
 
   const toggleExpand = useCallback(
     (path: string) => setExpanded((p) => ({ ...p, [path]: !p[path] })),
-    [],
+    []
   );
 
   const toggleSection = useCallback((section: string) => {
@@ -415,7 +420,7 @@ export default function MoreScreen() {
         // handle error
       }
     },
-    [router, searchEngine],
+    [router, searchEngine]
   );
 
   const handleClear = useCallback(() => {
@@ -429,7 +434,7 @@ export default function MoreScreen() {
       inputBg: isDark ? COLORS["900"] : COLORS["100"],
       inputBorder: isDark ? COLORS["600"] : COLORS["300"],
     }),
-    [isDark],
+    [isDark]
   );
 
   const renderContent = () => {
