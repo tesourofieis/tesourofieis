@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import Adorote from "./../canticos/sacros/adorote";
@@ -7,8 +8,6 @@ import Eccepanisangelorum from "./../canticos/sacros/eccepanisangelorum";
 import Parcedomine from "./../canticos/sacros/parcedomine";
 import Salutaris from "./../canticos/sacros/salutaris";
 import Tantumergo from "./../canticos/sacros/tantumergo";
-import { H1, H2 } from "~/components/Headings";
-
 
 export default function PageAdoracao() {
   return (

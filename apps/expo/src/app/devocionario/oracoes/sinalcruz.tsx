@@ -1,8 +1,7 @@
 import { Text, View } from "react-native";
+import { H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
-import { H2 } from "~/components/Headings";
-
 
 export default function PageSinalCruz() {
   return (

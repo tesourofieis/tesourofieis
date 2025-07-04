@@ -1,10 +1,9 @@
 import { Text, View } from "react-native";
+import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import PangeLingua from "../../canticos/sacros/pangelingua";
 import Salmo21 from "../../devocionario/salterio/021";
-import { H1, H2, H3 } from "~/components/Headings";
-
 
 export default function PageQuad64() {
   return (

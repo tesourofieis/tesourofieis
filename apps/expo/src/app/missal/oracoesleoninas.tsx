@@ -1,10 +1,9 @@
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import AveMaria from "./../devocionario/oracoes/avemaria";
 import SaoMiguel from "./../devocionario/oracoes/saomiguel";
-import { H1, H2 } from "~/components/Headings";
-
 
 export default function PageOracoesleoninas() {
   return (

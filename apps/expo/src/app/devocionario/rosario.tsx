@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import LadainhaLoreto from "./ladainhas/loreto";
@@ -7,8 +8,6 @@ import Gloria from "./oracoes/gloria";
 import PaiNosso from "./oracoes/painosso";
 import PageSimboloapostolos from "./oracoes/simboloapostolos";
 import PageSinalCruz from "./oracoes/sinalcruz";
-import { H1, H2 } from "~/components/Headings";
-
 
 export default function PageRosario() {
   return (

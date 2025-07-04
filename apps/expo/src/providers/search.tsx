@@ -1,4 +1,6 @@
-import React, {
+import { eq, sql } from "drizzle-orm";
+import type React from "react";
+import {
   createContext,
   useCallback,
   useContext,
@@ -9,7 +11,6 @@ import React, {
 import type { Docs } from "~/app/(tabs)/more";
 import { getDb, mapDbDocToDocs } from "~/db/db";
 import { docs as docsSchema } from "~/db/schema";
-import { eq, sql } from "drizzle-orm";
 
 type DrizzleDocSelect = typeof docsSchema.$inferSelect;
 
@@ -87,7 +88,7 @@ export const SearchProvider = ({ children }: { children: React.ReactNode }) => {
         throw new Error(`Failed to load children: ${e.message}`);
       }
     },
-    [isReady]
+    [isReady],
   );
 
   const search = useCallback(
@@ -117,7 +118,7 @@ export const SearchProvider = ({ children }: { children: React.ReactNode }) => {
               WHERE docs_fts MATCH ${searchTerm}
               ORDER BY rank
               LIMIT ${limit};
-            `
+            `,
         );
 
         if (ftsResultRows.length === 0) return [];
@@ -130,8 +131,8 @@ export const SearchProvider = ({ children }: { children: React.ReactNode }) => {
           .where(
             sql`${docsSchema.id} IN (${sql.join(
               docIds.map((id) => sql`${id}`),
-              sql`, `
-            )})`
+              sql`, `,
+            )})`,
           )
           .all();
 
@@ -145,7 +146,7 @@ export const SearchProvider = ({ children }: { children: React.ReactNode }) => {
         throw new Error(`Search failed: ${e.message}`);
       }
     },
-    [isReady]
+    [isReady],
   );
 
   const getDocumentById = useCallback(
@@ -170,7 +171,7 @@ export const SearchProvider = ({ children }: { children: React.ReactNode }) => {
         throw new Error(`Get document failed: ${e.message}`);
       }
     },
-    [isReady]
+    [isReady],
   );
 
   const findBySlug = useCallback(
@@ -204,7 +205,7 @@ export const SearchProvider = ({ children }: { children: React.ReactNode }) => {
         throw new Error(`Find by slug failed: ${e.message}`);
       }
     },
-    [isReady]
+    [isReady],
   );
 
   const value = useMemo(
@@ -229,7 +230,7 @@ export const SearchProvider = ({ children }: { children: React.ReactNode }) => {
       isReady,
       error,
       currentQuery,
-    ]
+    ],
   );
 
   return (

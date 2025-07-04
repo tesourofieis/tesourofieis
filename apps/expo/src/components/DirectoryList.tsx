@@ -1,7 +1,8 @@
-import { ActivityIndicator, View, Text } from "react-native"; // Add Text for error messages/no results
+import React, { useEffect, useState } from "react"; // Import useState and useEffect
+import { ActivityIndicator, Text, View } from "react-native"; // Add Text for error messages/no results
+import type { Docs } from "~/app/(tabs)/more";
 import { useSearch } from "~/providers/search";
 import PageLinkCard from "./LinkCard";
-import React, { useEffect, useState } from "react"; // Import useState and useEffect
 
 const DirectoryList = ({ slug }: { slug: string }) => {
   const { findBySlug, isReady, error: searchError } = useSearch(); // Get isReady and error too
@@ -69,7 +70,11 @@ const DirectoryList = ({ slug }: { slug: string }) => {
           key={page.url} // Use page.url as key, assuming it's unique
           href={page.url}
           title={page.title}
-          description={page.body}
+          description={
+            page.content.comment ??
+            page.content.introduction ??
+            page.content.headings.map((i) => i.body).toString()
+          }
         />
       ))}
     </View>

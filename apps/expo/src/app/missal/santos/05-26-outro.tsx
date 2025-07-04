@@ -1,8 +1,7 @@
 import { Text } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 import Missa from "../comum/sumospontifices";
-import { H1 } from "~/components/Headings";
-
 
 export default function Page0526Outro() {
   return (

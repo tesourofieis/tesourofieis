@@ -1,8 +1,7 @@
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
-import { H1, H2 } from "~/components/Headings";
-
 
 export default function PageEspiritosanto() {
   return (
@@ -52,13 +51,13 @@ export default function PageEspiritosanto() {
         </Text>
       </Language>
       <H2 text="Veni Sancte Spíritus, Sequência Pentecostes" />
-      <H2 text="Ao Espírito Santo" />Ó Deus clementíssimo, escutai
-      com piedade as nossas súplicas e iluminai o nosso coração com a graça do
-      Espírito Santo, para que mereçamos servir com dignidade os vossos
-      mystérios e amar-Vos com caridade eterna. Ó Deus, que conheceis o nosso
-      coração e a nossa vontade, e que não ignorais nenhum segredo: purificai os
-      nossos pensamentos infundindo-nos o Espírito Santo, para que mereçamos
-      amar-Vos com perfeição e louvar-Vos dignamente. Senhor, inflamai as nossas
+      <H2 text="Ao Espírito Santo" />Ó Deus clementíssimo, escutai com piedade
+      as nossas súplicas e iluminai o nosso coração com a graça do Espírito
+      Santo, para que mereçamos servir com dignidade os vossos mystérios e
+      amar-Vos com caridade eterna. Ó Deus, que conheceis o nosso coração e a
+      nossa vontade, e que não ignorais nenhum segredo: purificai os nossos
+      pensamentos infundindo-nos o Espírito Santo, para que mereçamos amar-Vos
+      com perfeição e louvar-Vos dignamente. Senhor, inflamai as nossas
       entranhas e o nosso coração com o fogo do Espírito Santo, para que Vos
       sirvamos com um corpo casto e Vos agrademos com um coração limpo. Nós Vos
       pedimos, Senhor, que o Paráclito que procede de Vós ilumine o nosso

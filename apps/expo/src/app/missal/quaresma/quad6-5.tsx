@@ -1,10 +1,9 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import VexillaRegis from "./../../canticos/sacros/vexillaregis";
-import { H1, H2, H3 } from "~/components/Headings";
-
 
 export default function PageQuad65() {
   return (

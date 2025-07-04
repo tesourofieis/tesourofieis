@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { TabItem, Tabs } from "~/components/Tabs";
@@ -10,8 +11,6 @@ import Salmo62 from "./../salterio/062";
 import Salmo92 from "./../salterio/092";
 import Salmo99 from "./../salterio/099";
 import Salmo148 from "./../salterio/148";
-import { H1, H2 } from "~/components/Headings";
-
 
 export default function PageLaudes() {
   return (

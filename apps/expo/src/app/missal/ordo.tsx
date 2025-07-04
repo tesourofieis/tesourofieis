@@ -1,11 +1,10 @@
 import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { ActivityIndicator, Text, View } from "react-native";
+import { H1, H2, H3, H4 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
-import { H1, H2, H3, H4 } from "~/components/Headings";
-
 
 export default function PageOrdo() {
   const mass = getCalendarDay(yyyyMMDD(new Date()))?.mass;

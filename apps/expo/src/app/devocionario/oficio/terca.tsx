@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { TabItem, Tabs } from "~/components/Tabs";
@@ -7,8 +8,6 @@ import MementoRerumConditor from "./../../canticos/sacros/mementorerumconditor";
 import Salmo119 from "./../salterio/119";
 import Salmo120 from "./../salterio/120";
 import Salmo121 from "./../salterio/121";
-import { H1, H2 } from "~/components/Headings";
-
 
 export default function PageTerca() {
   return (

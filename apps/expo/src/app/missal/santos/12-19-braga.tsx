@@ -1,8 +1,7 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
-import PageWrapper from "~/components/Page";
 import { H1, H3 } from "~/components/Headings";
-
+import PageWrapper from "~/components/Page";
 
 export default function Page1219Braga() {
   return (
@@ -15,10 +14,10 @@ export default function Page1219Braga() {
         </Link>
         excepto:
       </Text>
-      <H3 text="Oração" />Ó Deus, que enriquecestes a Igreja
-      Bracarense com o preciosíssimo corpo do B. Geraldo, concedei-nos propício
-      que imitemos fielmente os exemplos das virtudes daquele cujas relíquias
-      honramos com filial devoção. Por nosso Senhor...
+      <H3 text="Oração" />Ó Deus, que enriquecestes a Igreja Bracarense com o
+      preciosíssimo corpo do B. Geraldo, concedei-nos propício que imitemos
+      fielmente os exemplos das virtudes daquele cujas relíquias honramos com
+      filial devoção. Por nosso Senhor...
     </PageWrapper>
   );
 }

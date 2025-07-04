@@ -1,8 +1,6 @@
 import { Link } from "expo-router";
-import { H1, H3 } from "~/components/Headings";
-
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function Page0416LisboaGuarda() {
@@ -16,11 +14,11 @@ export default function Page0416LisboaGuarda() {
         </Link>{" "}
         , excepto:
       </Text>
-      <H3 text="Oração" />Ó Deus omnipotente e sempiterno, que
-      escolheis os fracos do mundo para com eles confundirdes os poderosos, a
-      nós, que celebramos esta solenidade em honra da B. Engrácia, vossa Virgem
-      e Mártir, concedei propício que junto de Vós sintamos o seu patrocínio.
-      Por nosso Senhor...
+      <H3 text="Oração" />Ó Deus omnipotente e sempiterno, que escolheis os
+      fracos do mundo para com eles confundirdes os poderosos, a nós, que
+      celebramos esta solenidade em honra da B. Engrácia, vossa Virgem e Mártir,
+      concedei propício que junto de Vós sintamos o seu patrocínio. Por nosso
+      Senhor...
     </PageWrapper>
   );
 }

@@ -1,9 +1,8 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import LadainhaSantos from "./../devocionario/ladainhas/santos";
-import { H1 } from "~/components/Headings";
-
 
 export default function PageOficioagonizantes() {
   return (

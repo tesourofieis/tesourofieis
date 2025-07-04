@@ -1,10 +1,9 @@
 import { Image } from "expo-image";
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
-import { H1 } from "~/components/Headings";
-
 
 export default function PageAngelus() {
   return (

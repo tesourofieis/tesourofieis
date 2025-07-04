@@ -1,8 +1,6 @@
 import { Link } from "expo-router";
-import { H1, H3 } from "~/components/Headings";
-
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function Page1212Porto() {
@@ -16,11 +14,11 @@ export default function Page1212Porto() {
         </Link>{" "}
         , excepto:
       </Text>
-      <H3 text="Oração" />Ó Deus, que quiseste que o corpo do
-      vosso glorioso Mártir Pantaleão fosse trasladado até nós e que esta cidade
-      seja defendida com seu patrocínio, concedei-nos benigno, Vos suplicamos,
-      que pelas suas preces e méritos sejamos trasladados após esta vida à
-      bem-aventurança eterna. Por nosso Senhor...
+      <H3 text="Oração" />Ó Deus, que quiseste que o corpo do vosso glorioso
+      Mártir Pantaleão fosse trasladado até nós e que esta cidade seja defendida
+      com seu patrocínio, concedei-nos benigno, Vos suplicamos, que pelas suas
+      preces e méritos sejamos trasladados após esta vida à bem-aventurança
+      eterna. Por nosso Senhor...
     </PageWrapper>
   );
 }

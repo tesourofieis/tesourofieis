@@ -1,9 +1,8 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
-import { H1, H3 } from "~/components/Headings";
-
 
 export default function Page1017() {
   return (

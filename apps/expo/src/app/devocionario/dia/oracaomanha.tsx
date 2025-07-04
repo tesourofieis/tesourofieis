@@ -1,9 +1,8 @@
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import JamLucis from "./../../canticos/sacros/jamlucis";
-import { H1, H2 } from "~/components/Headings";
-
 
 export default function PageOracaomanha() {
   return (

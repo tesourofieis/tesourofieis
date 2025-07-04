@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { TabItem, Tabs } from "~/components/Tabs";
@@ -10,8 +11,6 @@ import Salmo112 from "./../salterio/112";
 import Salmo121 from "./../salterio/121";
 import Salmo126 from "./../salterio/126";
 import Salmo147 from "./../salterio/147";
-import { H1, H2 } from "~/components/Headings";
-
 
 export default function PageVesperas() {
   return (

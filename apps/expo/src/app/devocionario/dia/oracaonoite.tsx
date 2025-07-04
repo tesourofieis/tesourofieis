@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import NuncDimittis from "./../../canticos/sacros/nuncdimittis";
@@ -8,8 +9,6 @@ import ActoCaridade from "./../oracoes/actocaridade";
 import ActoContricao from "./../oracoes/actocontricao";
 import ActoEsperanca from "./../oracoes/actoesperanca";
 import ActoFe from "./../oracoes/actofe";
-import { H1, H2, H3 } from "~/components/Headings";
-
 
 export default function PageOracaonoite() {
   return (

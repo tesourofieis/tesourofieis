@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { TabItem, Tabs } from "~/components/Tabs";
@@ -7,8 +8,6 @@ import MementoRerumConditor from "./../../canticos/sacros/mementorerumconditor";
 import Salmo122 from "./../salterio/122";
 import Salmo123 from "./../salterio/123";
 import Salmo124 from "./../salterio/124";
-import { H1, H2 } from "~/components/Headings";
-
 
 export default function PageSexta() {
   return (

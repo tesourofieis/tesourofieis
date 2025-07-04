@@ -220,7 +220,7 @@ const TreeItem = React.memo(
         />
       </View>
     );
-  }
+  },
 );
 
 const SearchResultItem = React.memo(
@@ -247,7 +247,7 @@ const SearchResultItem = React.memo(
         });
         onPress(item, headingId);
       },
-      [item, onPress]
+      [item, onPress],
     );
 
     const getSnippet = useCallback(() => {
@@ -313,7 +313,7 @@ const SearchResultItem = React.memo(
         )}
       </TouchableOpacity>
     );
-  }
+  },
 );
 
 const SearchResults = React.memo(
@@ -347,7 +347,7 @@ const SearchResults = React.memo(
           isActive={pathname === item.url}
         />
       ),
-      [query, onPress, pathname]
+      [query, onPress, pathname],
     );
 
     return (
@@ -365,7 +365,7 @@ const SearchResults = React.memo(
         />
       </Animated.View>
     );
-  }
+  },
 );
 
 export default function MoreScreen() {
@@ -398,7 +398,7 @@ export default function MoreScreen() {
           debugLog("Initial docs loaded:", docs.length);
           debugLog(
             "Docs children:",
-            docs.map((i) => i.hasChildren)
+            docs.map((i) => i.hasChildren),
           );
         } catch (err) {
           console.error("Error loading initial docs:", err);
@@ -409,13 +409,16 @@ export default function MoreScreen() {
   }, [isReady, allDocs.length, getAllTopLevelDocs]);
 
   const childrenMap = useMemo(() => {
-    return allDocs.reduce((map, doc) => {
-      if (doc.parent) {
-        map[doc.parent] = map[doc.parent] || [];
-        map[doc.parent].push(doc);
-      }
-      return map;
-    }, {} as Record<string, Docs[]>);
+    return allDocs.reduce(
+      (map, doc) => {
+        if (doc.parent) {
+          map[doc.parent] = map[doc.parent] || [];
+          map[doc.parent].push(doc);
+        }
+        return map;
+      },
+      {} as Record<string, Docs[]>,
+    );
   }, [allDocs]);
 
   const topLevelDocs = useMemo(() => {
@@ -464,14 +467,14 @@ export default function MoreScreen() {
             console.error("Error loading children:", err);
           } finally {
             setLoadingIds((prev) =>
-              prev.filter((loadingId) => loadingId !== id)
+              prev.filter((loadingId) => loadingId !== id),
             );
           }
         }
         setExpanded((prev) => ({ ...prev, [id]: true }));
       }
     },
-    [expanded, allDocs, getChildren]
+    [expanded, allDocs, getChildren],
   );
 
   const handleResultPress = useCallback(
@@ -491,7 +494,7 @@ export default function MoreScreen() {
         debugLog("Error in handleResultPress", error);
       }
     },
-    [router]
+    [router],
   );
 
   const handleClear = useCallback(() => {
@@ -505,7 +508,7 @@ export default function MoreScreen() {
       inputBg: isDark ? COLORS["900"] : COLORS["100"],
       inputBorder: isDark ? COLORS["600"] : COLORS["300"],
     }),
-    [isDark]
+    [isDark],
   );
 
   const renderContent = () => {

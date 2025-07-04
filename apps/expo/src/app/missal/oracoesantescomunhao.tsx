@@ -1,7 +1,6 @@
 import { Text, View } from "react-native";
-import PageWrapper from "~/components/Page";
 import { H1, H3 } from "~/components/Headings";
-
+import PageWrapper from "~/components/Page";
 
 export default function PageOracoesantescomunhao() {
   return (

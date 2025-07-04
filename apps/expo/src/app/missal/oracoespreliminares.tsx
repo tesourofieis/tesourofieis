@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import Salmo83 from "./../devocionario/salterio/083";
@@ -6,8 +7,6 @@ import Salmo84 from "./../devocionario/salterio/084";
 import Salmo85 from "./../devocionario/salterio/085";
 import Salmo115 from "./../devocionario/salterio/115";
 import Salmo129 from "./../devocionario/salterio/129";
-import { H1, H2 } from "~/components/Headings";
-
 
 export default function PageOracoespreliminares() {
   return (

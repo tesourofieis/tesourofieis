@@ -1,6 +1,5 @@
-import { Text, View } from "react-native";
 import { useEffect, useRef } from "react";
-import { Platform } from "react-native";
+import { Platform, Text, View } from "react-native";
 
 type HeadingProps = {
   text: string;

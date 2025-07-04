@@ -6,9 +6,8 @@ import { getYear } from "date-fns";
 import { Link } from "expo-router";
 import { useEffect, useState } from "react";
 import { Text, View } from "react-native";
-import PageWrapper from "~/components/Page";
 import { H1, H3 } from "~/components/Headings";
-
+import PageWrapper from "~/components/Page";
 
 function getAllNovenasForYear(year: number) {
   const calendar = new Calendar(year);

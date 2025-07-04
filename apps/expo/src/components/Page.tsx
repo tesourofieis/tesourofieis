@@ -1,8 +1,8 @@
+import { useLocalSearchParams } from "expo-router";
 import type React from "react";
+import { useEffect, useRef } from "react";
 import { Platform, ScrollView, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { useEffect, useRef } from "react";
-import { useLocalSearchParams } from "expo-router";
 import { PageProvider, useIsNested } from "~/providers/page";
 
 type PageWrapperProps = {

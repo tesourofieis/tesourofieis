@@ -1,8 +1,6 @@
 import { Link } from "expo-router";
-import { H1 } from "~/components/Headings";
-
-
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function Page0901Outro() {

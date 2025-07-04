@@ -1,8 +1,6 @@
 import { Link } from "expo-router";
-import { H1, H3 } from "~/components/Headings";
-
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function Page0603Angola() {
@@ -16,10 +14,10 @@ export default function Page0603Angola() {
         </Link>{" "}
         , excepto:
       </Text>
-      <H3 text="Oração" />Ó Deus, que nos permitistes a graça de
-      celebrarmos o nascimento no céu dos vossos Santos Mártires Carlos, Matias
-      e seus Companheiros, concedei-nos ainda a graça de gozarmos na sua
-      companhia a bem-aventurança eterna. Por nosso Senhor...
+      <H3 text="Oração" />Ó Deus, que nos permitistes a graça de celebrarmos o
+      nascimento no céu dos vossos Santos Mártires Carlos, Matias e seus
+      Companheiros, concedei-nos ainda a graça de gozarmos na sua companhia a
+      bem-aventurança eterna. Por nosso Senhor...
     </PageWrapper>
   );
 }

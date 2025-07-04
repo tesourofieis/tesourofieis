@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { TabItem, Tabs } from "~/components/Tabs";
@@ -8,16 +9,14 @@ import NuncDimittis from "./../../canticos/sacros/nuncdimittis";
 import Salmo128 from "./../salterio/128";
 import Salmo129 from "./../salterio/129";
 import Salmo130 from "./../salterio/130";
-import { Heading1, H2 } from "~/components/Headings";
-
 
 export default function PageCompletas() {
   return (
     <PageWrapper>
-      <Heading1 text="Completas" />
+      <H1 text="Completas" />
 
       <Text className="aside">
-        Meditemos naa sepultura de Jesus Cristo e na sua estadia no túmulo.
+        Meditemos na sepultura de Jesus Cristo e na sua estadia no túmulo.
       </Text>
 
       <Language>

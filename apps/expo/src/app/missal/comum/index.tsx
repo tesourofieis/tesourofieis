@@ -1,8 +1,7 @@
 import { Text, View } from "react-native";
 import DirectoryList from "~/components/DirectoryList";
-import PageWrapper from "~/components/Page";
 import { H1 } from "~/components/Headings";
-
+import PageWrapper from "~/components/Page";
 
 export default function PageIndex() {
   return (

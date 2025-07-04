@@ -1,13 +1,12 @@
-import { Text, View } from "react-native";
+import { Text } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
-import { Heading1, H3 } from "~/components/Headings";
-
 
 export default function Page0319() {
   return (
     <PageWrapper>
-      <Heading1 text="S. José, Esposo da B. Virgem Maria, a 19 de Março" />
+      <H1 text="S. José, Esposo da B. Virgem Maria, a 19 de Março" />
 
       <H3 text="Intróito" />
 

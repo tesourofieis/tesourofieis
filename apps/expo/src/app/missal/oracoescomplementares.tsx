@@ -1,12 +1,11 @@
 import { Image } from "expo-image";
 import { Text, View } from "react-native";
+import { H1, H2, H3, H4 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import AdoroTeDevote from "../canticos/sacros/adorote";
 import Benedicite from "../canticos/sacros/benedicite";
 import Salmo150 from "../devocionario/salterio/150";
-import { H1, H2, H3, H4 } from "~/components/Headings";
-
 
 export default function PageOracoescomplementares() {
   return (

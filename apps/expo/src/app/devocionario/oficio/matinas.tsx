@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { TabItem, Tabs } from "~/components/Tabs";
@@ -15,8 +16,6 @@ import Salmo94 from "./../salterio/094";
 import Salmo95 from "./../salterio/095";
 import Salmo96 from "./../salterio/096";
 import Salmo97 from "./../salterio/097";
-import { H1, H2 } from "~/components/Headings";
-
 
 export default function PageMatinas() {
   return (

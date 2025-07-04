@@ -1,8 +1,6 @@
 import { Link } from "expo-router";
-import { H1, H3 } from "~/components/Headings";
-
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function Page0522Evora() {
@@ -23,11 +21,11 @@ export default function Page0522Evora() {
         de Deus. Aleluia, aleluia. Amei, Senhor, o esplendor da vossa Casa e o
         lugar em que habita a vossa glória.
         <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        <H3 text="Oração" />Ó Deus, que quisestes reformar a
-        Igreja Eborense na festividade do B. Mâncio, vosso discípulo e Mártir,
-        Vos suplicamos que auxilieis com os dons celestes o vosso povo, a fim de
-        que, cumprindo sempre a disciplina eclesiástica, alcance a vida eterna.
-        Ó Vós, que viveis e reinais...
+        <H3 text="Oração" />Ó Deus, que quisestes reformar a Igreja Eborense na
+        festividade do B. Mâncio, vosso discípulo e Mártir, Vos suplicamos que
+        auxilieis com os dons celestes o vosso povo, a fim de que, cumprindo
+        sempre a disciplina eclesiástica, alcance a vida eterna. Ó Vós, que
+        viveis e reinais...
       </Text>
       <H3 text="Evangelho" />
       <Text className="text-base">

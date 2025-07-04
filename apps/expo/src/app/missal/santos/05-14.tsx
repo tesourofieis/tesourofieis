@@ -1,8 +1,6 @@
 import { Link } from "expo-router";
-import { H1, H3 } from "~/components/Headings";
-
-
 import { Text } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";

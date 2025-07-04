@@ -1,9 +1,8 @@
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import PaiNosso from "./../devocionario/oracoes/painosso";
-import { H1, H2 } from "~/components/Headings";
-
 
 export default function PageBaptismo() {
   return (

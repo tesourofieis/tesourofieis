@@ -1,10 +1,9 @@
 import { Text, View } from "react-native";
+import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import Magnificat from "./../../canticos/sacros/magnificat";
 import LadainhaSantos from "./../../devocionario/ladainhas/santos";
-import { H1, H2, H3 } from "~/components/Headings";
-
 
 export default function PageQuad66() {
   return (
