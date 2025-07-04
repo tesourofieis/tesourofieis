@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageRemissaopecados() {
   return (
     <PageWrapper>
-      <Text className="h1">Pela Remissão dos Pecados</Text>
+      <H1 text="Pela Remissão dos Pecados" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sb. 11,24, 25 & 27</Text>
 
@@ -31,7 +32,7 @@ export default function PageRemissaopecados() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -46,7 +47,7 @@ export default function PageRemissaopecados() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Rm. 7, 22-25</Text>
 
@@ -72,7 +73,7 @@ export default function PageRemissaopecados() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 78, 9-10</Text>
 
@@ -100,7 +101,7 @@ export default function PageRemissaopecados() {
         </Text>
       </Language>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 129, 1-4</Text>
 
@@ -148,7 +149,7 @@ export default function PageRemissaopecados() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 11, 9-13</Text>
 
@@ -184,7 +185,7 @@ export default function PageRemissaopecados() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 101, 2</Text>
 
@@ -199,7 +200,7 @@ export default function PageRemissaopecados() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -214,7 +215,7 @@ export default function PageRemissaopecados() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Lc. 11, 9-10</Text>
 
@@ -231,7 +232,7 @@ export default function PageRemissaopecados() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PagePainosso() {
   return (
     <PageWrapper>
-      <Text className="h1">Pai Nosso</Text>
+      <H1 text="Pai Nosso" />
 
       <Language>
         <Text className="latin">

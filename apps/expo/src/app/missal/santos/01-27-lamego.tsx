@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 import Missa from "./01-20";
@@ -6,9 +7,7 @@ import Missa from "./01-20";
 export default function Page0127Lamego() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Na Oitava de S. Sebastião, Mártir, a 27 de Janeiro
-      </Text>
+      <H1 text="Na Oitava de S. Sebastião, Mártir, a 27 de Janeiro" />
 
       <Missa />
     </PageWrapper>

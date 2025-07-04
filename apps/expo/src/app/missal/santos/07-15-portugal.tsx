@@ -1,15 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0715Portugal() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        B. Inácio de Azevedo e Companheiros, a 15 de Julho
-      </Text>
+      <H1 text="B. Inácio de Azevedo e Companheiros, a 15 de Julho" />
 
       <Text className="aside">
         Como na{" "}
@@ -19,7 +17,7 @@ export default function Page0715Portugal() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -38,7 +36,7 @@ export default function Page0715Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração Comemoração S. Henrique</Text>
+      <H3 text="Oração Comemoração S. Henrique" />
 
       <Language>
         <Text className="latin">
@@ -59,7 +57,7 @@ export default function Page0715Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -76,7 +74,7 @@ export default function Page0715Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta Comemoração S. Henrique</Text>
+      <H3 text="Secreta Comemoração S. Henrique" />
 
       <Language>
         <Text className="latin">
@@ -91,7 +89,7 @@ export default function Page0715Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -109,7 +107,7 @@ export default function Page0715Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio Comemoração S. Henrique</Text>
+      <H3 text="Postcomúnio Comemoração S. Henrique" />
 
       <Language>
         <Text className="latin">

@@ -1,13 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageApostolos() {
   return (
     <PageWrapper>
-      <Text className="h1">Missa de Todos os S. S. Apóstolos</Text>
+      <H1 text="Missa de Todos os S. S. Apóstolos" />
 
       <Text className="aside">
         Tudo como na Missa precedente, excepto o seguinte: Oração, Secreta e
@@ -18,7 +18,7 @@ export default function PageApostolos() {
         .
       </Text>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Ef. 4, 7-13</Text>
 
@@ -58,14 +58,14 @@ export default function PageApostolos() {
         </Text>
       </Language>
 
-      <Text className="h2">Missa de Todos os S. S. Apóstolos</Text>
+      <H2 text="Missa de Todos os S. S. Apóstolos" />
 
       <Text className="aside">
         Para Quarta-feira Dentro do Tempo Pascal Tudo como na Missa precedente,
         excepto o seguinte:
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 63, 3</Text>
 
@@ -108,7 +108,7 @@ export default function PageApostolos() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 44, 17-18</Text>
 
@@ -123,7 +123,7 @@ export default function PageApostolos() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 18, 5</Text>
 

@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 import Missa from "./06-24";
@@ -6,9 +7,7 @@ import Missa from "./06-24";
 export default function Page0627() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Terceiro dia na Oitava de São João, a 27 de Junho
-      </Text>
+      <H1 text="Terceiro dia na Oitava de São João, a 27 de Junho" />
 
       <Text className="comment">
         A Igreja, honrando os Santos segundo o maior ou menor papel por eles

@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageMementorerumconditor() {
   return (
     <PageWrapper>
-      <Text className="h1">Memento rerum conditor</Text>
+      <H1 text="Memento rerum conditor" />
 
       <Language>
         <Text className="latin">

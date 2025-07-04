@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -7,7 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0718() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Camilo de Lélis, Conf., a 18 de Julho</Text>
+      <H1 text="S. Camilo de Lélis, Conf., a 18 de Julho" />
 
       <Text className="comment">
         O Espírito Santo, que se manifestou de todos os modos na alma dos Santos
@@ -34,7 +35,7 @@ export default function Page0718() {
         </Link>
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Jo. 15, 13</Text>
 
@@ -54,7 +55,7 @@ export default function Page0718() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -73,21 +74,21 @@ export default function Page0718() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <LinkCard
         href="/missal/pentecostes/pent2-0#epístola"
         title="Segundo Domingo depois de Pentecostes"
       />
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <LinkCard
         href="/missal/comum/15confessoresnaopontifices2#gradual"
         title="Confessores não Pontífices - Missa Justus ut palma"
       />
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 15, 12-16</Text>
 
@@ -125,7 +126,7 @@ export default function Page0718() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 20, 2-3</Text>
 
@@ -141,7 +142,7 @@ export default function Page0718() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -160,7 +161,7 @@ export default function Page0718() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 25, 36 & 40</Text>
 
@@ -176,7 +177,7 @@ export default function Page0718() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

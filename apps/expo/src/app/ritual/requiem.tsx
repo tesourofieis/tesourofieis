@@ -1,15 +1,15 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageRequiem() {
   return (
     <PageWrapper>
-      <Text className="h1">Missa de Requiem, Ritual do Funeral</Text>
+      <H1 text="Missa de Requiem, Ritual do Funeral" />
 
-      <Text className="h1">No dia do óbito ou do Funeral</Text>
+      <H1 text="No dia do óbito ou do Funeral" />
 
       <Text className="aside">
         Como na{" "}
@@ -19,7 +19,7 @@ export default function PageRequiem() {
         , excepto:
       </Text>
 
-      <Text className="h2">Oração</Text>
+      <H2 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -43,7 +43,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Epístola</Text>
+      <H2 text="Epístola" />
 
       <Text className="em">1 Ts. 4, 13-18</Text>
 
@@ -83,7 +83,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Evangelho</Text>
+      <H2 text="Evangelho" />
 
       <Text className="em">Jo. 11, 21-27</Text>
 
@@ -120,7 +120,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Secreta</Text>
+      <H2 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -140,7 +140,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Postcomúnio</Text>
+      <H2 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -159,7 +159,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h1">No 3.º, 7.º ou 30.º dia do Óbito</Text>
+      <H1 text="No 3.º, 7.º ou 30.º dia do Óbito" />
 
       <Text className="aside">
         Como na{" "}
@@ -172,7 +172,7 @@ export default function PageRequiem() {
         , excepto:
       </Text>
 
-      <Text className="h2">Oração</Text>
+      <H2 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -192,7 +192,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Secreta</Text>
+      <H2 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -211,7 +211,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Postcomúnio</Text>
+      <H2 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -231,7 +231,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h1">No dia do Aniversário</Text>
+      <H1 text="No dia do Aniversário" />
 
       <Text className="aside">
         Como na{" "}
@@ -241,7 +241,7 @@ export default function PageRequiem() {
         , excepto:
       </Text>
 
-      <Text className="h2">Oração</Text>
+      <H2 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -260,7 +260,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Epístola</Text>
+      <H2 text="Epístola" />
 
       <Text className="em">2 Mac. 12, 43-46</Text>
 
@@ -291,7 +291,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Evangelho</Text>
+      <H2 text="Evangelho" />
 
       <Text className="em">Jo. 6, 37-40</Text>
 
@@ -325,7 +325,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Secreta</Text>
+      <H2 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -345,7 +345,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Postcomúnio</Text>
+      <H2 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -365,7 +365,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h1">Quotidiana</Text>
+      <H1 text="Quotidiana" />
 
       <Text className="aside">
         Como na{" "}
@@ -375,7 +375,7 @@ export default function PageRequiem() {
         , excepto:
       </Text>
 
-      <Text className="h2">Oração</Text>
+      <H2 text="Oração" />
 
       <Text className="aside">Bispos e Padres</Text>
 
@@ -393,7 +393,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Oração</Text>
+      <H2 text="Oração" />
 
       <Text className="aside">Irmãos, Parentes e Benfeitores</Text>
 
@@ -414,7 +414,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Oração</Text>
+      <H2 text="Oração" />
 
       <Text className="aside">Fiéis</Text>
 
@@ -433,7 +433,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Epístola</Text>
+      <H2 text="Epístola" />
 
       <Text className="em">Ap. 14, 13</Text>
 
@@ -455,7 +455,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Gradual</Text>
+      <H2 text="Gradual" />
 
       <Text className="em">4 Esd. 2, 34 & 35</Text>
 
@@ -475,7 +475,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Trato</Text>
+      <H2 text="Trato" />
 
       <Language>
         <Text className="latin">
@@ -494,7 +494,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Evangelho</Text>
+      <H2 text="Evangelho" />
 
       <Text className="em">Jo. 6, 51-55</Text>
 
@@ -530,7 +530,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Secreta</Text>
+      <H2 text="Secreta" />
 
       <Text className="aside">Bispos e Padres</Text>
 
@@ -550,7 +550,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Secreta</Text>
+      <H2 text="Secreta" />
 
       <Text className="aside">Irmãos, Parentes e Benfeitores</Text>
 
@@ -571,7 +571,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Secreta</Text>
+      <H2 text="Secreta" />
 
       <Text className="aside">Fiéis</Text>
 
@@ -590,7 +590,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Postcomúnio</Text>
+      <H2 text="Postcomúnio" />
 
       <Text className="aside">Bispos e Padres</Text>
 
@@ -609,7 +609,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Postcomúnio</Text>
+      <H2 text="Postcomúnio" />
 
       <Text className="aside">Irmãos, Parentes e Benfeitores</Text>
 
@@ -630,7 +630,7 @@ export default function PageRequiem() {
         </Text>
       </Language>
 
-      <Text className="h2">Postcomúnio</Text>
+      <H2 text="Postcomúnio" />
 
       <Text className="aside">Fiéis</Text>
 

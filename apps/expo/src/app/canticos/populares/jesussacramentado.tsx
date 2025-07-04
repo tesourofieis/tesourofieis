@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PageJesussacramentado() {
   return (
     <PageWrapper>
-      <Text className="h1">Cantemos a Jesus Sacramentado</Text>
+      <H1 text="Cantemos a Jesus Sacramentado" />
 
       <View className="not-content">
         <Text className="text-base">

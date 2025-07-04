@@ -1,16 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page30Missamaria4() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        4.ª Missa - Missa Salve, sancta Parens da Virgem Maria, desde a Páscoa
-        até ao Pentecostes
-      </Text>
+      <H1 text="4.ª Missa - Missa Salve, sancta Parens da Virgem Maria, desde a Páscoa até ao Pentecostes" />
 
       <Text className="aside">
         Como na{" "}
@@ -41,7 +38,7 @@ export default function Page30Missamaria4() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 19, 25-27</Text>
 
@@ -70,7 +67,7 @@ export default function Page30Missamaria4() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Language>
         <Text className="latin">

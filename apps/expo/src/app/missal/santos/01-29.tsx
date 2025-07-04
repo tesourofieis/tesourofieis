@@ -1,15 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0129() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. Francisco de Sales, B. C. e Doutor, a 29 de Janeiro
-      </Text>
+      <H1 text="S. Francisco de Sales, B. C. e Doutor, a 29 de Janeiro" />
 
       <Text className="comment">
         O Verbo feito carne nos manifesta, por sua doutrina, os mistérios da
@@ -39,7 +37,7 @@ export default function Page0129() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">

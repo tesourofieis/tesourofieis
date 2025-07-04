@@ -1,13 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0721() {
   return (
     <PageWrapper>
-      <Text className="h1">Santa Praxedes, Virgem, a 21 de Julho</Text>
+      <H1 text="Santa Praxedes, Virgem, a 21 de Julho" />
 
       <Text className="comment">
         A festa de S. Pio I, a 11 de Julho lembrou-nos a memória de Santa
@@ -45,7 +45,7 @@ export default function Page0721() {
         Gradual seguinte:
       </Text>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 44, 8</Text>
 

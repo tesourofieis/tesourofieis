@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page118() {
   return (
     <PageWrapper>
-      <Text className="h1">Salmo 118</Text>
+      <H1 text="Salmo 118" />
 
-      <Text className="h2">ALEPH</Text>
+      <H2 text="ALEPH" />
 
       <Language>
         <Text className="latin">
@@ -66,7 +67,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">BETH</Text>
+      <H2 text="BETH" />
 
       <Language>
         <Text className="latin">
@@ -127,7 +128,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">GHIMEL</Text>
+      <H2 text="GHIMEL" />
 
       <Language>
         <Text className="latin">
@@ -188,7 +189,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">DALETH</Text>
+      <H2 text="DALETH" />
 
       <Language>
         <Text className="latin">
@@ -247,7 +248,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">HE</Text>
+      <H2 text="HE" />
 
       <Language>
         <Text className="latin">
@@ -309,7 +310,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">VAU</Text>
+      <H2 text="VAU" />
 
       <Language>
         <Text className="latin">
@@ -373,7 +374,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">ZAIN</Text>
+      <H2 text="ZAIN" />
 
       <Language>
         <Text className="latin">
@@ -434,7 +435,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">HETH</Text>
+      <H2 text="HETH" />
 
       <Language>
         <Text className="latin">
@@ -496,7 +497,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">TETH</Text>
+      <H2 text="TETH" />
 
       <Language>
         <Text className="latin">
@@ -559,7 +560,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">JOD</Text>
+      <H2 text="JOD" />
 
       <Language>
         <Text className="latin">
@@ -627,7 +628,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">CAPH</Text>
+      <H2 text="CAPH" />
 
       <Language>
         <Text className="latin">
@@ -692,7 +693,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">LAMED</Text>
+      <H2 text="LAMED" />
 
       <Language>
         <Text className="latin">
@@ -754,7 +755,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">MEM</Text>
+      <H2 text="MEM" />
 
       <Language>
         <Text className="latin">
@@ -814,7 +815,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">NUN</Text>
+      <H2 text="NUN" />
 
       <Language>
         <Text className="latin">
@@ -877,7 +878,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">SAMECH</Text>
+      <H2 text="SAMECH" />
 
       <Language>
         <Text className="latin">
@@ -941,7 +942,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">AIN</Text>
+      <H2 text="AIN" />
 
       <Language>
         <Text className="latin">
@@ -1000,7 +1001,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">PHE</Text>
+      <H2 text="PHE" />
 
       <Language>
         <Text className="latin">
@@ -1064,7 +1065,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">SADE</Text>
+      <H2 text="SADE" />
 
       <Language>
         <Text className="latin">
@@ -1125,7 +1126,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">COPH</Text>
+      <H2 text="COPH" />
 
       <Language>
         <Text className="latin">
@@ -1186,7 +1187,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">RES</Text>
+      <H2 text="RES" />
 
       <Language>
         <Text className="latin">
@@ -1253,7 +1254,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">SIN</Text>
+      <H2 text="SIN" />
 
       <Language>
         <Text className="latin">
@@ -1313,7 +1314,7 @@ export default function Page118() {
         </Text>
       </Language>
 
-      <Text className="h2">TAU</Text>
+      <H2 text="TAU" />
 
       <Language>
         <Text className="latin">

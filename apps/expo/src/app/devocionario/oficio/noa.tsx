@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { TabItem, Tabs } from "~/components/Tabs";
@@ -11,7 +12,7 @@ import Salmo127 from "./../salterio/127";
 export default function PageNoa() {
   return (
     <PageWrapper>
-      <Text className="h1">Noa</Text>
+      <H1 text="Noa" />
 
       <Text className="aside">
         Meditemos em Jesus morrendo na cruz, na agitação da natureza neste
@@ -54,7 +55,7 @@ export default function PageNoa() {
         </Text>
       </Language>
 
-      <Text className="h2">Hino Memento rerum conditor</Text>
+      <H2 text="Hino Memento rerum conditor" />
 
       <MementoRerumConditor />
 
@@ -69,15 +70,15 @@ export default function PageNoa() {
         </Text>
       </Language>
 
-      <Text className="h2">Salmo 125</Text>
+      <H2 text="Salmo 125" />
 
       <Salmo125 />
 
-      <Text className="h2">Salmo 126</Text>
+      <H2 text="Salmo 126" />
 
       <Salmo126 />
 
-      <Text className="h2">Salmo 127</Text>
+      <H2 text="Salmo 127" />
 
       <Salmo127 />
 
@@ -94,7 +95,7 @@ export default function PageNoa() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Ecl. 24, 19-20</Text>
 
@@ -199,7 +200,7 @@ export default function PageNoa() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Is. 7, 14-15</Text>
 
@@ -312,7 +313,7 @@ export default function PageNoa() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Ecl. 24, 19-20</Text>
 

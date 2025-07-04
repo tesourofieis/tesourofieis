@@ -1,16 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
 
 export default function Page1001Lisboa() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. Veríssimo e Outros, Mártires, a 1 de Outubro, No Patriarcado de
-        Lisboa
-      </Text>
+      <H1 text="S. Veríssimo e Outros, Mártires, a 1 de Outubro, No Patriarcado de Lisboa" />
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/6muitosmartires1">
@@ -18,14 +15,14 @@ export default function Page1001Lisboa() {
         </Link>{" "}
         , excepto:
       </Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Text className="text-base">
         Ó Deus, que permitistes assistíssemos a esta festa dos vossos Santos
         Mártires Veríssimo, Máximo e Júlia, concedei-nos, Vos suplicamos, que,
         celebrando o seu nascimento no céu, nos enchamos de zelo com seus
         exemplos. Por nosso Senhor...
       </Text>
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
       <Text className="text-base">
         Deus é glorioso em seus Santos, e admirável na sua majestade, praticando
         prodígios. Senhor, a vossa dextra engrandeceu-se pela sua força: a vossa
@@ -33,7 +30,7 @@ export default function Page1001Lisboa() {
         fraternidade» que venceu os crimes do mundo. Ela seguiu Cristo: Pelo que
         goza a glória do reino celestial. Aleluia.
       </Text>
-      <Text className="h3">Secreta e Postcomúnio</Text>
+      <H3 text="Secreta e Postcomúnio" />
       <LinkCard
         href="/missal/comum/7muitosmartires2#secreta"
         title="Muitos Mártires - Missa Sapiéntiam sanctórum"

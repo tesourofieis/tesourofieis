@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageEpi60() {
   return (
     <PageWrapper>
-      <Text className="h1">Sexto Domingo depois da Epifania</Text>
+      <H1 text="Sexto Domingo depois da Epifania" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 96, 7-8</Text>
 
@@ -27,7 +28,7 @@ export default function PageEpi60() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -42,7 +43,7 @@ export default function PageEpi60() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">1 Ts, 1, 2-10</Text>
 
@@ -95,7 +96,7 @@ export default function PageEpi60() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 101, 16-17</Text>
 
@@ -122,7 +123,7 @@ export default function PageEpi60() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Language>
         <Text className="latin">
@@ -160,7 +161,7 @@ export default function PageEpi60() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 117, 16 & 17</Text>
 
@@ -175,7 +176,7 @@ export default function PageEpi60() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -188,7 +189,7 @@ export default function PageEpi60() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Lc. 4, 22</Text>
 
@@ -201,7 +202,7 @@ export default function PageEpi60() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

@@ -1,13 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0717() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Aleixo, Conf., a 17 de Julho</Text>
+      <H1 text="S. Aleixo, Conf., a 17 de Julho" />
 
       <Text className="comment">
         Santo Aleixo, nasceu em Roma, de familia rica, no ano de 350 mais ou
@@ -27,7 +27,7 @@ export default function Page0717() {
         , excepto:
       </Text>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">1 Tm. 6, 6-12</Text>
 
@@ -65,7 +65,7 @@ export default function Page0717() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 19, 27-29</Text>
 

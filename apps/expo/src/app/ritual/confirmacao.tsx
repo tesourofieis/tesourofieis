@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageConfirmacao() {
   return (
     <PageWrapper>
-      <Text className="h1">Confirmação</Text>
+      <H1 text="Confirmação" />
 
       <Text className="aside">
         Logo que é dado o respectivo sinal para começar a Cerimónia da
@@ -69,7 +70,7 @@ export default function PageConfirmacao() {
         </Text>
       </Language>
 
-      <Text className="h1">Imposição das Mãos</Text>
+      <H1 text="Imposição das Mãos" />
 
       <Text className="aside">
         O Bispo estende as mãos sobre as cabeças dos que vão receber a
@@ -163,7 +164,7 @@ export default function PageConfirmacao() {
         diz, fazendo
       </Text>
 
-      <Text className="h1">A Unção</Text>
+      <H1 text="A Unção" />
 
       <Language>
         <Text className="latin">
@@ -199,7 +200,7 @@ export default function PageConfirmacao() {
         Sacramento, o qual não poderá retirar-se do Templo sem receber
       </Text>
 
-      <Text className="h1">A Bênção</Text>
+      <H1 text="A Bênção" />
 
       <Language>
         <Text className="latin">

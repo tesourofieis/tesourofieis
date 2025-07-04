@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page8Muitosmartires3() {
   return (
     <PageWrapper>
-      <Text className="h1">Muitos Mártires</Text>
+      <H1 text="Muitos Mártires" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 36, 39</Text>
 
@@ -27,7 +28,7 @@ export default function Page8Muitosmartires3() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -45,7 +46,7 @@ export default function Page8Muitosmartires3() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Heb. 10, 32-38</Text>
 
@@ -85,7 +86,7 @@ export default function Page8Muitosmartires3() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 33, 18-19</Text>
 
@@ -117,7 +118,7 @@ export default function Page8Muitosmartires3() {
         Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 125, 5-6</Text>
 
@@ -137,7 +138,7 @@ export default function Page8Muitosmartires3() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 12, 1-8</Text>
 
@@ -186,7 +187,7 @@ export default function Page8Muitosmartires3() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sb. 3, 1, 2 & 3</Text>
 
@@ -203,7 +204,7 @@ export default function Page8Muitosmartires3() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -221,7 +222,7 @@ export default function Page8Muitosmartires3() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 10, 27</Text>
 
@@ -236,7 +237,7 @@ export default function Page8Muitosmartires3() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -256,7 +257,7 @@ export default function Page8Muitosmartires3() {
 
       <Text className="aside">Outro Evangelho (para certos dias):</Text>
 
-      <Text className="h3">Evangelho2</Text>
+      <H3 text="Evangelho2" />
 
       <Text className="em">Mt. 24, 3-13</Text>
 

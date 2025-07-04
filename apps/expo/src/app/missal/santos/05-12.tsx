@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -6,11 +7,9 @@ import PageWrapper from "~/components/Page";
 export default function Page0512() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S.S. Nereu, Achileu, Domitila, Virgem e Pancracio, Mártires
-      </Text>
+      <H1 text="S.S. Nereu, Achileu, Domitila, Virgem e Pancracio, Mártires" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl 32:18-20</Text>
 
@@ -34,7 +33,7 @@ export default function Page0512() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -49,7 +48,7 @@ export default function Page0512() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <LinkCard
         title="Epístola da Missa de S. Filipe e S. Tiago"
@@ -69,21 +68,21 @@ export default function Page0512() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         title="Evangelho do Vigésimo Domingo depois de Pentecostes"
         href="/missal/pentecostes/20-0#evangelho"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <LinkCard
         title="Ofertório Missa Protexísti me"
         href="/missal/comum/9martir#ofertório"
       />
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -100,14 +99,14 @@ export default function Page0512() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <LinkCard
         title="Comúnio Missa Sancti tui"
         href="/missal/comum/10martires#comúnio"
       />
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

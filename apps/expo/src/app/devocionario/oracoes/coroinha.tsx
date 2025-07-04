@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PageCoroinha() {
   return (
     <PageWrapper>
-      <Text className="h1">Coroinha do Sagrado Coração de Jesus</Text>
-      <Text className="h2">I</Text>
+      <H1 text="Coroinha do Sagrado Coração de Jesus" />
+      <H2 text="I" />
       <Text className="text-base">
         Amorosíssimo Jesus, quando medito no vosso Santíssimo Coração e O vejo
         todo piedade e bondade para com os pecadores, sinto o meu coração
@@ -16,7 +17,7 @@ export default function PageCoroinha() {
         Santíssimo Coração. Oxalá eu antes morra do que Vos ofenda! Que eu não
         viva senão para Vos Amar!
       </Text>
-      <Text className="h2">II</Text>
+      <H2 text="II" />
       <Text className="text-base">
         Bendigo o vosso humilíssimo Coração, ó meu bom Jesus, e Vos dou graças,
         porque ao dardes-m’O como exemplo, não só com veementes desejos me
@@ -27,7 +28,7 @@ export default function PageCoroinha() {
         entre as humilhações, e alcançar a paz e a salvação. Dai-me Vós a graça
         para isto, e bendizei sempre o vosso pacientíssimo Coração.
       </Text>
-      <Text className="h2">III</Text>
+      <H2 text="III" />
       <Text className="text-base">
         Ao meditar no vosso pacientíssimo Coração. ó meu Jesus, fico confundido,
         e Vos dou graças por tantos exemplos maravilhosos de invicto
@@ -38,7 +39,7 @@ export default function PageCoroinha() {
         acompanhando-Vos ao Calvário, chegue convosco à glória e alegria do
         Paraíso.
       </Text>
-      <Text className="h2">IV</Text>
+      <H2 text="IV" />
       <Text className="text-base">
         Que horror sinto de mim, ó meu amado Jesus, ao contemplar o vosso
         amantíssimo Coração e ao ver como o meu coração é tão diverso do vosso;
@@ -47,7 +48,7 @@ export default function PageCoroinha() {
         concedei-me para o futuro a graça de imitar em qualquer contrariedade a
         vossa inalterável mansidão e por tal modo gozar santa e perpétua paz.
       </Text>
-      <Text className="h2">V</Text>
+      <H2 text="V" />
       <Text className="text-base">
         Ó meu amado Jesus, vencedor da morte e do inferno, entoem-se louvores ao
         vosso generosíssimo Coração, que bem os merece. Quanto a mim, fico

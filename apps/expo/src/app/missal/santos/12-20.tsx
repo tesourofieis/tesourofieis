@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 import Missa from "../comum/1vigiliaapostolos";
@@ -6,7 +7,7 @@ import Missa from "../comum/1vigiliaapostolos";
 export default function Page1221() {
   return (
     <PageWrapper>
-      <Text className="h1">Vigília S. Tomé, Apóstolo, a 20 de Dezembro</Text>
+      <H1 text="Vigília S. Tomé, Apóstolo, a 20 de Dezembro" />
 
       <Text className="comment">
         A festa de S. Tomé é precedida por uma Vigília, como quase todas as

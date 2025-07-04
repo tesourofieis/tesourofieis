@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PageOracoesantescomunhao() {
   return (
     <PageWrapper>
-      <Text className="h1">Orações antes da Comunhão</Text>
-      <Text className="h3">Acto de Fé</Text>
+      <H1 text="Orações antes da Comunhão" />
+      <H3 text="Acto de Fé" />
       <Text className="text-base">
         Meu Senhor e Deus, creio que estais verdadeira, real e substancialmente
         presente, na Hóstia Consagrada, com vosso Corpo, Sangue, Alma e
@@ -16,7 +17,7 @@ export default function PageOracoesantescomunhao() {
         a minha fé, a qual confesso com todas as forças da minha alma e espero
         manter até à morte!
       </Text>
-      <Text className="h3">Acto de Humildade</Text>
+      <H3 text="Acto de Humildade" />
       <Text className="text-base">
         Reconheço e confesso, ó meu Deus, que sou uma miserável criatura,
         indigna das vossas graças, e, mais do que ninguém, de Vos receber na
@@ -28,7 +29,7 @@ export default function PageOracoesantescomunhao() {
         não sou digno de que entreis na minha morada, mas dizei uma só palavra e
         serei curado».
       </Text>
-      <Text className="h3">Acto de Desejo</Text>
+      <H3 text="Acto de Desejo" />
       <Text className="text-base">
         Ó Senhor Jesus, ó Deus do meu coração, ó Pão vivo descido do céu para
         alimento da minha alma, tenho o maior e o mais sincero desejo de Vos
@@ -40,7 +41,7 @@ export default function PageOracoesantescomunhao() {
         uma cruz; pois bem, ó bom Jesus, concedei-me a graça de Vos amar e de
         Vos amar para sempre e sinceramente.. Amen.
       </Text>
-      <Text className="h3">À B. Virgem Maria e aos Santos</Text>
+      <H3 text="À B. Virgem Maria e aos Santos" />
       <Text className="text-base">
         Ó Santíssima Senhora, Mãe de Deus e minha Mãe, alcançai-me a graça de
         receber o melhor possível a Sagrada Eucaristia. S. José, guarda fiel do

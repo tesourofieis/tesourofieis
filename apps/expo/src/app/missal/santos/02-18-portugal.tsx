@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -6,9 +7,9 @@ import PageWrapper from "~/components/Page";
 export default function Page0218Portugal() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Teotónio, Conf., a 18 de Fevereiro</Text>
+      <H1 text="S. Teotónio, Conf., a 18 de Fevereiro" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 131, 7 & 121, 2</Text>
 
@@ -30,7 +31,7 @@ export default function Page0218Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -47,14 +48,14 @@ export default function Page0218Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <LinkCard
         href="/missal/comum/16abades#epístola"
         title="Abades - Missa Os justi"
       />
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 118, 46</Text>
 
@@ -88,7 +89,7 @@ export default function Page0218Portugal() {
         Após a Septuagésima omite-se o Aleluia e o seguinte, e diz-se o:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Language>
         <Text className="latin">
@@ -109,14 +110,14 @@ export default function Page0218Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/comum/16abades#evangelho"
         title="Abades - Missa Os justi"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Gl. 6-14</Text>
 
@@ -130,7 +131,7 @@ export default function Page0218Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -147,7 +148,7 @@ export default function Page0218Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Rm. 12, 1-2</Text>
 
@@ -164,7 +165,7 @@ export default function Page0218Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

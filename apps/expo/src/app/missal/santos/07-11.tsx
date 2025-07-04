@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 import Missa from "../comum/sumospontifices";
@@ -6,7 +7,7 @@ import Missa from "../comum/sumospontifices";
 export default function Page0711() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Pio I, Papa e Mártir, a 11 de Julho</Text>
+      <H1 text="S. Pio I, Papa e Mártir, a 11 de Julho" />
 
       <Text className="comment">
         O ciclo nos faz hoje honrar um Santo que «Deus ungiu com o seu óleo

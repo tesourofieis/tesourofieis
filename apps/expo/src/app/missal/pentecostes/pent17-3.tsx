@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PagePent173() {
   return (
     <PageWrapper>
-      <Text className="h1">Quarta-feira das Têmporas de Setembro</Text>
+      <H1 text="Quarta-feira das Têmporas de Setembro" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl 80:2-5</Text>
 
@@ -32,7 +33,7 @@ export default function PagePent173() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -48,7 +49,7 @@ export default function PagePent173() {
         </Text>
       </Language>
 
-      <Text className="h3">1.ª Lição</Text>
+      <H3 text="1.ª Lição" />
 
       <Text className="em">Amós 9:13-15</Text>
 
@@ -77,7 +78,7 @@ export default function PagePent173() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl 112:5-7</Text>
 
@@ -96,7 +97,7 @@ export default function PagePent173() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -110,7 +111,7 @@ export default function PagePent173() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">2 Esd. 8:1-10</Text>
 
@@ -168,7 +169,7 @@ export default function PagePent173() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl 32:12, 6</Text>
 
@@ -187,7 +188,7 @@ export default function PagePent173() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mc 9:16-28</Text>
 
@@ -243,7 +244,7 @@ export default function PagePent173() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl 118:47-48</Text>
 
@@ -259,7 +260,7 @@ export default function PagePent173() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -274,7 +275,7 @@ export default function PagePent173() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 75, 12-13</Text>
 
@@ -291,7 +292,7 @@ export default function PagePent173() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

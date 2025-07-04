@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PageVirgempura() {
   return (
     <PageWrapper>
-      <Text className="h1">Virgem Pura</Text>
+      <H1 text="Virgem Pura" />
 
       <View className="not-content">
         <Text className="text-base">

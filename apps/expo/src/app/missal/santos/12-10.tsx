@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 import Missa from "../comum/sumospontifices";
@@ -6,7 +7,7 @@ import Missa from "../comum/sumospontifices";
 export default function Page1210() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Melquíades, Papa e Mártir, a 10 de Dezembro</Text>
+      <H1 text="S. Melquíades, Papa e Mártir, a 10 de Dezembro" />
 
       <Text className="comment">
         «Em Roma, morte de S. Melquíades, Papa, que, depois de haver sofrido

@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0201() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Inácio, B. e Márt., a 1 de Fevereiro</Text>
+      <H1 text="S. Inácio, B. e Márt., a 1 de Fevereiro" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Gl. 6, 14</Text>
 
@@ -29,7 +30,7 @@ export default function Page0201() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Rm. 8, 35-39</Text>
 
@@ -64,7 +65,7 @@ export default function Page0201() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Ecl. 44, 16</Text>
 
@@ -98,7 +99,7 @@ export default function Page0201() {
         Após a Septuagésima omite-se o Aleluia e o Verso, e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 20, 3-4</Text>
 
@@ -119,7 +120,7 @@ export default function Page0201() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 8, 6-7</Text>
 
@@ -134,7 +135,7 @@ export default function Page0201() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Palavras de S. Inácio</Text>
 

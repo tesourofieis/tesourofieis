@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageEpifania() {
   return (
     <PageWrapper>
-      <Text className="h1">Prefácio da Epifania</Text>
+      <H1 text="Prefácio da Epifania" />
 
       <Text className="aside">
         Diz-se na Festa da Epifania e durante o Oitavário.

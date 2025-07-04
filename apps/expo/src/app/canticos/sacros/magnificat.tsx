@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageMagnificat() {
   return (
     <PageWrapper>
-      <Text className="h1">Magnificat</Text>
+      <H1 text="Magnificat" />
 
       <Language>
         <Text className="latin">

@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -6,16 +7,16 @@ import PageWrapper from "~/components/Page";
 export default function Page1024() {
   return (
     <PageWrapper>
-      <Text className="h1">Arcanjo Rafael, a 24 de Outubro</Text>
+      <H1 text="Arcanjo Rafael, a 24 de Outubro" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <LinkCard
         href="/missal/santos/05-08#intróito"
         title="Aparição de Arcanjo S. Miguel"
       />
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -31,7 +32,7 @@ export default function Page1024() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Tb. 12, 7-15</Text>
 
@@ -72,7 +73,7 @@ export default function Page1024() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Tb. 8, 3</Text>
 
@@ -103,7 +104,7 @@ export default function Page1024() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 5, 1-4</Text>
 
@@ -137,7 +138,7 @@ export default function Page1024() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Ap. 8,3 & 4</Text>
 
@@ -154,7 +155,7 @@ export default function Page1024() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -169,7 +170,7 @@ export default function Page1024() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Dn. 3, 58</Text>
 
@@ -184,7 +185,7 @@ export default function Page1024() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

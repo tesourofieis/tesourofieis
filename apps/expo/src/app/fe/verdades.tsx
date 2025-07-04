@@ -1,12 +1,13 @@
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageVerdades() {
   return (
     <PageWrapper>
-      <Text className="h1">Verdades de Fé</Text>
-      <Text className="h2">Os dez mandamentos</Text>
+      <H1 text="Verdades de Fé" />
+      <H2 text="Os dez mandamentos" />
       <View className="list-group list-group-flush">
         <Text className="li list-group-item">
           Adorar a Deus e amá-Lo sobre todas as coisas.
@@ -41,16 +42,16 @@ export default function PageVerdades() {
           Não cobiçar as coisas alheias.
         </Text>
       </View>
-      <Text className="h2">Os dois mandamentos de caridade</Text>
+      <H2 text="Os dois mandamentos de caridade" />
       <Text className="text-base">
         Amarás o Senhor teu Deus, com todo teu coração, com toda tua alma e com
         toda tua mente Amarás ao próximo como a ti mesmo.
       </Text>
-      <Text className="h2">A regra de ouro</Text>
+      <H2 text="A regra de ouro" />
       <Text className="text-base">
         Tudo quanto quiserdes que os homens vos façam, fazei-lho vós também.
       </Text>
-      <Text className="h2">Os cinco preceitos da Igreja</Text>
+      <H2 text="Os cinco preceitos da Igreja" />
       <View className="list-group list-group-flush">
         <Text className="li list-group-item">
           Participar na Missa, aos domingos e festas de guarda e abster-se de
@@ -70,7 +71,7 @@ export default function PageVerdades() {
           possibilidades.
         </Text>
       </View>
-      <Text className="h2">Sacramentos</Text>
+      <H2 text="Sacramentos" />
       <Text className="text-base">
         Baptismo
         {"\n"}
@@ -86,7 +87,7 @@ export default function PageVerdades() {
         {"\n"}
         Matrimónio
       </Text>
-      <Text className="h2">As Bem-Aventuranças</Text>
+      <H2 text="As Bem-Aventuranças" />
       <Text className="text-base">
         Bem-aventurados os pobres em espírito, porque deles é o reino dos céus.
         {"\n"}
@@ -111,7 +112,7 @@ export default function PageVerdades() {
         {"\n"}
         Alegrai-vos e exultai, porque será grande a vossa recompensa nos céus.
       </Text>
-      <Text className="h2">Dias de Obrigação</Text>
+      <H2 text="Dias de Obrigação" />
       <Text className="aside">Para além de todos os Domingos</Text>
       <View className="list-group list-group-flush">
         <Text className="li list-group-item">
@@ -142,7 +143,7 @@ export default function PageVerdades() {
         </Text>
         <Text className="li list-group-item">25 de Dezembro - Natal</Text>
       </View>
-      <Text className="h2">Trabalhos de Misericórdia</Text>
+      <H2 text="Trabalhos de Misericórdia" />
       <Language>
         <Text className="latin">Corporais</Text>
         <Text className="vernacular">Espirituais</Text>
@@ -177,7 +178,7 @@ export default function PageVerdades() {
           Rezar a Deus por vivos e defuntos
         </Text>
       </Language>
-      <Text className="h2">Virtudes</Text>
+      <H2 text="Virtudes" />
       <Language>
         <Text className="latin">Cardeais</Text>
         <Text className="vernacular">Teologais</Text>
@@ -198,7 +199,7 @@ export default function PageVerdades() {
           Caridade
         </Text>
       </Language>
-      <Text className="h2">Pecados Contra o Espírito Santo</Text>
+      <H2 text="Pecados Contra o Espírito Santo" />
       <Text className="aside">
         Pecados de pura malícia, que são contrários à bondade que se atribui ao
         Espírito Santo.
@@ -216,7 +217,7 @@ export default function PageVerdades() {
         {"\n"}
         Morrer na impenitência final.
       </Text>
-      <Text className="h2">Pecados que Bradam aos Céus</Text>
+      <H2 text="Pecados que Bradam aos Céus" />
       <Text className="aside">
         Sua malícia é tão grave e manifesta, que provoca Deus a puni-los com os
         mais severos castigos.
@@ -226,7 +227,7 @@ export default function PageVerdades() {
         pobres, principalmente órfãos e viúvas; Não pagar o salário a quem
         trabalha.
       </Text>
-      <Text className="h2">Do Espírito Santo</Text>
+      <H2 text="Do Espírito Santo" />
       <Language>
         <Text className="latin">
           <Text className="latin">Dons</Text>
@@ -309,7 +310,7 @@ export default function PageVerdades() {
           Bondade
         </Text>
       </Language>
-      <Text className="h2">Novíssimos</Text>
+      <H2 text="Novíssimos" />
       <Language>
         <Text className="latin">
           Mors
@@ -330,7 +331,7 @@ export default function PageVerdades() {
           Paraíso
         </Text>
       </Language>
-      <Text className="h2">Assuntos para Meditação Diária</Text>
+      <H2 text="Assuntos para Meditação Diária" />
       <Language>
         <Text className="latin">
           Deum glorificare; {"\n"}

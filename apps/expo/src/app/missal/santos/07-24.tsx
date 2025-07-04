@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 import Missa from "../comum/1vigiliaapostolos";
@@ -6,7 +7,7 @@ import Missa from "../comum/1vigiliaapostolos";
 export default function Page0724() {
   return (
     <PageWrapper>
-      <Text className="h1">Vigília de S. Tiago, Apóstolo, a 24 de Julho</Text>
+      <H1 text="Vigília de S. Tiago, Apóstolo, a 24 de Julho" />
 
       <Text className="comment">
         Como a maior parte das festas dos Apóstolos, outrora dias santos de

@@ -1,13 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page1014() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Calisto I, Papa e Mártir, a 14 de Outubro</Text>
+      <H1 text="S. Calisto I, Papa e Mártir, a 14 de Outubro" />
 
       <Text className="aside">
         Como na{" "}
@@ -17,7 +17,7 @@ export default function Page1014() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -32,7 +32,7 @@ export default function Page1014() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -45,7 +45,7 @@ export default function Page1014() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

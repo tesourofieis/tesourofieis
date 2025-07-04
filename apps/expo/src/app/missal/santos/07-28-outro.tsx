@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 import Missa from "../comum/sumospontifices";
@@ -6,7 +7,7 @@ import Missa from "../comum/sumospontifices";
 export default function Page0728Outro() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Vítor, Papa e Mártir, a 28 de Julho</Text>
+      <H1 text="S. Vítor, Papa e Mártir, a 28 de Julho" />
 
       <Text className="comment">
         Victor I, nascido na África, sucedeu a Santo Eleutério, no trono

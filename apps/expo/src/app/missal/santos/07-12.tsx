@@ -1,13 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0712() {
   return (
     <PageWrapper>
-      <Text className="h1">S. João Gualberto, Abade, a 12 de Julho</Text>
+      <H1 text="S. João Gualberto, Abade, a 12 de Julho" />
 
       <Text className="comment">
         João Gualberto nasceu em Florença, cerca do ano 999. Numa Sexta-Feira
@@ -34,7 +34,7 @@ export default function Page0712() {
         , excepto:
       </Text>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 5, 48-48</Text>
 
@@ -73,9 +73,9 @@ export default function Page0712() {
         </Text>
       </Language>
 
-      <Text className="h2">Comemoração dos Santos Mártires Nabor e Félix</Text>
+      <H2 text="Comemoração dos Santos Mártires Nabor e Félix" />
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -90,7 +90,7 @@ export default function Page0712() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -106,7 +106,7 @@ export default function Page0712() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

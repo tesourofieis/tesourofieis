@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageQuad30() {
   return (
     <PageWrapper>
-      <Text className="h1">Terceiro Domingo da Quaresma</Text>
+      <H1 text="Terceiro Domingo da Quaresma" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 24, 15-16</Text>
 
@@ -29,7 +30,7 @@ export default function PageQuad30() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -44,7 +45,7 @@ export default function PageQuad30() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Ef. 5, 1-9</Text>
 
@@ -86,7 +87,7 @@ export default function PageQuad30() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 9, 20 & 4</Text>
 
@@ -104,7 +105,7 @@ export default function PageQuad30() {
         </Text>
       </Language>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 122, 1-3</Text>
 
@@ -129,7 +130,7 @@ export default function PageQuad30() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 11, 14-28</Text>
 
@@ -199,7 +200,7 @@ export default function PageQuad30() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 18, 9, 10, 11 & 12</Text>
 
@@ -215,7 +216,7 @@ export default function PageQuad30() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -230,7 +231,7 @@ export default function PageQuad30() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 83, 4-5</Text>
 
@@ -248,7 +249,7 @@ export default function PageQuad30() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

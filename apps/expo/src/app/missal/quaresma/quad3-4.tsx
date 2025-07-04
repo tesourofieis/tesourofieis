@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageQuad34() {
   return (
     <PageWrapper>
-      <Text className="h1">Quinta-feira da 3.ª Semana da Quaresma</Text>
+      <H1 text="Quinta-feira da 3.ª Semana da Quaresma" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Language>
         <Text className="latin">
@@ -26,7 +27,7 @@ export default function PageQuad34() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -42,7 +43,7 @@ export default function PageQuad34() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Jr. 7, l 7</Text>
 
@@ -82,7 +83,7 @@ export default function PageQuad34() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 144, 15-16</Text>
 
@@ -100,7 +101,7 @@ export default function PageQuad34() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 4, 38-44</Text>
 
@@ -146,7 +147,7 @@ export default function PageQuad34() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 137, 7</Text>
 
@@ -163,7 +164,7 @@ export default function PageQuad34() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -177,7 +178,7 @@ export default function PageQuad34() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 118, 4-5</Text>
 
@@ -192,7 +193,7 @@ export default function PageQuad34() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -206,7 +207,7 @@ export default function PageQuad34() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração sobre o povo</Text>
+      <H3 text="Oração sobre o povo" />
 
       <Language>
         <Text className="latin">

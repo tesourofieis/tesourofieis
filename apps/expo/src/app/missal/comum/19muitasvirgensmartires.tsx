@@ -1,6 +1,6 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page19Muitasvirgensmartires() {
   return (
     <PageWrapper>
-      <Text className="h1">Muitas Virgens Mártires</Text>
+      <H1 text="Muitas Virgens Mártires" />
 
       <Text className="aside">
         Como na{" "}
@@ -18,7 +18,7 @@ export default function Page19Muitasvirgensmartires() {
         , excepto o seguinte:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -38,14 +38,14 @@ export default function Page19Muitasvirgensmartires() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <LinkCard
         title="Epístola Virgens Mártires"
         href="/missal/comum/21virgemnaomartir2#epístola"
       />
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -65,7 +65,7 @@ export default function Page19Muitasvirgensmartires() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

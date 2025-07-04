@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import PangeLingua from "../../canticos/sacros/pangelingua";
@@ -7,7 +8,7 @@ import Salmo21 from "../../devocionario/salterio/021";
 export default function PageQuad64() {
   return (
     <PageWrapper>
-      <Text className="h1">Quinta-Feira Santa</Text>
+      <H1 text="Quinta-Feira Santa" />
 
       <Text className="aside">
         A Estação fazia-se outrora na igreja de S. João de Latrão,
@@ -21,7 +22,7 @@ export default function PageQuad64() {
         Subdiáconos, benze então os Santos Óleos na Catedral.
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Gl. 6, 14</Text>
 
@@ -41,7 +42,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -61,7 +62,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">1 Cor. 11, 20-32</Text>
 
@@ -121,7 +122,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Fl. 2, 8-9</Text>
 
@@ -138,7 +139,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 13, 1-15</Text>
 
@@ -207,7 +208,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 117, 16 & 17</Text>
 
@@ -222,7 +223,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -239,7 +240,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Jo. 13, 12, 13 & 15</Text>
 
@@ -256,7 +257,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -272,15 +273,15 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h2">Procissão do SS. Sacramento</Text>
+      <H2 text="Procissão do SS. Sacramento" />
 
-      <Text className="h3">Pange Lingua</Text>
+      <H3 text="Pange Lingua" />
 
       <PangeLingua />
 
-      <Text className="h2">Desnudação dos Altares</Text>
+      <H2 text="Desnudação dos Altares" />
 
-      <Text className="h3">Antífona</Text>
+      <H3 text="Antífona" />
 
       <Text className="em">Sl. 21, 19</Text>
 
@@ -294,7 +295,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Salmo 21</Text>
+      <H3 text="Salmo 21" />
 
       <Salmo21 />
 
@@ -302,11 +303,11 @@ export default function PageQuad64() {
         Depois do Salmo 21 repetir Antífona anterior.
       </Text>
 
-      <Text className="h2">Lava-Pés</Text>
+      <H2 text="Lava-Pés" />
 
       <Text className="aside">Evangelho igual ao anterior.</Text>
 
-      <Text className="h3">Antífona</Text>
+      <H3 text="Antífona" />
 
       <Text className="em">Jo. 13, 34</Text>
 
@@ -324,7 +325,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Antífona</Text>
+      <H3 text="Antífona" />
 
       <Text className="em">Jo. 13, 4, 5 & 15</Text>
 
@@ -345,7 +346,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Antífona</Text>
+      <H3 text="Antífona" />
 
       <Text className="em">Jo. 13, 12, 13 & 15</Text>
 
@@ -366,7 +367,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Antífona</Text>
+      <H3 text="Antífona" />
 
       <Text className="em">Jo. 13, 6-7 & 8</Text>
 
@@ -405,7 +406,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Antífona</Text>
+      <H3 text="Antífona" />
 
       <Language>
         <Text className="latin">
@@ -422,7 +423,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Antífona</Text>
+      <H3 text="Antífona" />
 
       <Text className="em">Jo. 13, 35</Text>
 
@@ -439,7 +440,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Antífona</Text>
+      <H3 text="Antífona" />
 
       <Text className="em">1 Cor. 13, 13</Text>
 
@@ -457,7 +458,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Antífona</Text>
+      <H3 text="Antífona" />
 
       <Language>
         <Text className="latin">
@@ -478,7 +479,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Antífona</Text>
+      <H3 text="Antífona" />
 
       <Text className="em">1 Jo. 2; 3; 4</Text>
 
@@ -611,7 +612,7 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">

@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageSanguejesus() {
   return (
     <PageWrapper>
-      <Text className="h1">Ladainha Sangue de Jesus</Text>
+      <H1 text="Ladainha Sangue de Jesus" />
 
       <Language>
         <Text className="latin">Kyrie, eleison.</Text>

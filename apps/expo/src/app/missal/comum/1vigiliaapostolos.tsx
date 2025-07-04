@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page1Vigiliaapostolos() {
   return (
     <PageWrapper>
-      <Text className="h1">Vigília dos Apóstolos</Text>
+      <H1 text="Vigília dos Apóstolos" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 51, 10 & 11</Text>
 
@@ -30,7 +31,7 @@ export default function Page1Vigiliaapostolos() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -52,7 +53,7 @@ export default function Page1Vigiliaapostolos() {
         substitui-se pela seguinte:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -69,7 +70,7 @@ export default function Page1Vigiliaapostolos() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Ecl. 44, 25-27; 45, 2-4 & 6-9</Text>
 
@@ -102,7 +103,7 @@ export default function Page1Vigiliaapostolos() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 91, 13 & 14</Text>
 
@@ -122,7 +123,7 @@ export default function Page1Vigiliaapostolos() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo, 15, 12-16</Text>
 
@@ -159,7 +160,7 @@ export default function Page1Vigiliaapostolos() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 8, 6-7</Text>
 
@@ -174,7 +175,7 @@ export default function Page1Vigiliaapostolos() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -192,7 +193,7 @@ export default function Page1Vigiliaapostolos() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 20, 6</Text>
 
@@ -207,7 +208,7 @@ export default function Page1Vigiliaapostolos() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

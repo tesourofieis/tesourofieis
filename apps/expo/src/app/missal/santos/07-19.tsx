@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -7,7 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0719() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Vicente de Paulo, Conf., a 19 de Julho</Text>
+      <H1 text="S. Vicente de Paulo, Conf., a 19 de Julho" />
 
       <Text className="comment">
         A Providência, sempre maternal em sua solicitude para com os homens,
@@ -44,7 +45,7 @@ export default function Page0719() {
         excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -62,7 +63,7 @@ export default function Page0719() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/santos/02-06#evangelho"

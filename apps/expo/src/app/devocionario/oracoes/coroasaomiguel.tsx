@@ -1,13 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageCoroasaomiguel() {
   return (
     <PageWrapper>
-      <Text className="h1">Coroa de São Miguel</Text>
+      <H1 text="Coroa de São Miguel" />
 
       <Language>
         <Text className="latin">
@@ -43,7 +43,7 @@ export default function PageCoroasaomiguel() {
         </Text>
       </Language>
 
-      <Text className="h2">Chorus 1, Salutatio</Text>
+      <H2 text="Chorus 1, Salutatio" />
 
       <Language>
         <Text className="latin">
@@ -65,7 +65,7 @@ export default function PageCoroasaomiguel() {
         </Link>{" "}
       </Text>
 
-      <Text className="h2">Chorus 2, Salutatio</Text>
+      <H2 text="Chorus 2, Salutatio" />
 
       <Language>
         <Text className="latin">
@@ -88,7 +88,7 @@ export default function PageCoroasaomiguel() {
         </Link>{" "}
       </Text>
 
-      <Text className="h2">Chorus 3, Salutatio</Text>
+      <H2 text="Chorus 3, Salutatio" />
 
       <Language>
         <Text className="latin">
@@ -111,7 +111,7 @@ export default function PageCoroasaomiguel() {
         </Link>{" "}
       </Text>
 
-      <Text className="h2">Chorus 4, Salutatio</Text>
+      <H2 text="Chorus 4, Salutatio" />
 
       <Language>
         <Text className="latin">
@@ -135,7 +135,7 @@ export default function PageCoroasaomiguel() {
         </Link>{" "}
       </Text>
 
-      <Text className="h2">Chorus 5, Salutatio</Text>
+      <H2 text="Chorus 5, Salutatio" />
 
       <Language>
         <Text className="latin">
@@ -159,7 +159,7 @@ export default function PageCoroasaomiguel() {
         </Link>{" "}
       </Text>
 
-      <Text className="h2">Chorus 6, Salutatio</Text>
+      <H2 text="Chorus 6, Salutatio" />
 
       <Language>
         <Text className="latin">
@@ -182,7 +182,7 @@ export default function PageCoroasaomiguel() {
         </Link>{" "}
       </Text>
 
-      <Text className="h2">Chorus 7, Salutatio</Text>
+      <H2 text="Chorus 7, Salutatio" />
 
       <Language>
         <Text className="latin">
@@ -206,7 +206,7 @@ export default function PageCoroasaomiguel() {
         </Link>{" "}
       </Text>
 
-      <Text className="h2">Chorus 8, Salutatio</Text>
+      <H2 text="Chorus 8, Salutatio" />
 
       <Language>
         <Text className="latin">
@@ -230,7 +230,7 @@ export default function PageCoroasaomiguel() {
         </Link>{" "}
       </Text>
 
-      <Text className="h2">Chorus 9, Salutatio</Text>
+      <H2 text="Chorus 9, Salutatio" />
 
       <Language>
         <Text className="latin">

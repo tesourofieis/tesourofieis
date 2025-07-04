@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageAdv10() {
   return (
     <PageWrapper>
-      <Text className="h1">Primeiro Domingo do Advento</Text>
+      <H1 text="Primeiro Domingo do Advento" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 24, 1–3</Text>
 
@@ -29,7 +30,7 @@ export default function PageAdv10() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -49,7 +50,7 @@ export default function PageAdv10() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Rm. 13, 11–14</Text>
 
@@ -79,7 +80,7 @@ export default function PageAdv10() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 24, 3–4</Text>
 
@@ -104,7 +105,7 @@ export default function PageAdv10() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 21, 25–33</Text>
 
@@ -149,7 +150,7 @@ export default function PageAdv10() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 24, 1–3</Text>
 
@@ -166,7 +167,7 @@ export default function PageAdv10() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -180,7 +181,7 @@ export default function PageAdv10() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 84, 13</Text>
 
@@ -193,7 +194,7 @@ export default function PageAdv10() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

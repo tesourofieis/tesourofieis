@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page062() {
   return (
     <PageWrapper>
-      <Text className="h1">Salmo 62</Text>
+      <H1 text="Salmo 62" />
 
       <Language>
         <Text className="latin">Deus, Deus meus, * ad Te de luce vígilo.</Text>

@@ -1,14 +1,12 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function Page0727Outro() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        B. Rodolfo Água-Viva e Outros, Márts, a 27 de Julho
-      </Text>
+      <H1 text="B. Rodolfo Água-Viva e Outros, Márts, a 27 de Julho" />
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/7muitosmartires2">
@@ -16,7 +14,7 @@ export default function Page0727Outro() {
         </Link>{" "}
         , excepto:
       </Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Text className="text-base">
         Vos pedimos, permiti que a veneranda oblação dos vossos B. B. Mártires
         Rodolfo, Afonso, Pedro, António e Francisco Vos recomende as nossas

@@ -1,15 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0427() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. Pedro Canísio, Conf. e Doutor, a 27 de Abril
-      </Text>
+      <H1 text="S. Pedro Canísio, Conf. e Doutor, a 27 de Abril" />
 
       <Text className="comment">
         Nascido em Nimegue (Holanda), a 8 de Maio de 1521, morreu em Friburgo
@@ -36,7 +34,7 @@ export default function Page0427() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">

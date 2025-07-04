@@ -1,15 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
 
 export default function Page0215() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. S. Faustino e Jovita, Mártires, a 15 de Fevereiro
-      </Text>
+      <H1 text="S. S. Faustino e Jovita, Mártires, a 15 de Fevereiro" />
 
       <Text className="aside">
         Como na{" "}
@@ -19,7 +17,7 @@ export default function Page0215() {
         , excepto:
       </Text>
 
-      <Text className="h3">Secreta e Postcomúnio</Text>
+      <H3 text="Secreta e Postcomúnio" />
 
       <LinkCard
         href="/missal/comum/6muitosmartires1#secreta"

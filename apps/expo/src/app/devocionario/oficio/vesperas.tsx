@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { TabItem, Tabs } from "~/components/Tabs";
@@ -14,7 +15,7 @@ import Salmo147 from "./../salterio/147";
 export default function PageVesperas() {
   return (
     <PageWrapper>
-      <Text className="h1">Vésperas</Text>
+      <H1 text="Vésperas" />
 
       <Text className="aside">
         Meditemos na descida da cruz, o corpo de Jesus Cristo colocado nos
@@ -68,7 +69,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 109</Text>
+          <H2 text="Salmo 109" />
 
           <Salmo109 />
 
@@ -94,7 +95,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 112</Text>
+          <H2 text="Salmo 112" />
 
           <Salmo112 />
 
@@ -122,7 +123,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 121</Text>
+          <H2 text="Salmo 121" />
 
           <Salmo121 />
 
@@ -150,7 +151,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 126</Text>
+          <H2 text="Salmo 126" />
 
           <Salmo126 />
 
@@ -176,7 +177,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 147</Text>
+          <H2 text="Salmo 147" />
 
           <Salmo147 />
 
@@ -191,7 +192,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Ecl. 24, 14</Text>
 
@@ -213,11 +214,11 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Ave Maris Stella</Text>
+          <H2 text="Ave Maris Stella" />
 
           <AveMarisStella />
 
-          <Text className="h2">Ofício 1</Text>
+          <H2 text="Ofício 1" />
 
           <Language>
             <Text className="latin">
@@ -236,7 +237,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Tempo Pascal</Text>
+          <H2 text="Tempo Pascal" />
 
           <Language>
             <Text className="latin">
@@ -254,11 +255,11 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Magnificat</Text>
+          <H2 text="Magnificat" />
 
           <Magnificat />
 
-          <Text className="h2">Ofício 1</Text>
+          <H2 text="Ofício 1" />
 
           <Language>
             <Text className="latin">
@@ -277,7 +278,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Tempo Pascal</Text>
+          <H2 text="Tempo Pascal" />
 
           <Language>
             <Text className="latin">
@@ -424,7 +425,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 109</Text>
+          <H2 text="Salmo 109" />
 
           <Salmo109 />
 
@@ -450,7 +451,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 112</Text>
+          <H2 text="Salmo 112" />
 
           <Salmo112 />
 
@@ -477,7 +478,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 121</Text>
+          <H2 text="Salmo 121" />
 
           <Salmo121 />
 
@@ -504,7 +505,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 126</Text>
+          <H2 text="Salmo 126" />
 
           <Salmo126 />
 
@@ -530,7 +531,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 147</Text>
+          <H2 text="Salmo 147" />
 
           <Salmo147 />
 
@@ -545,7 +546,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Is. 11, 1-2</Text>
 
@@ -566,7 +567,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Ave Maris Stella</Text>
+          <H2 text="Ave Maris Stella" />
 
           <AveMarisStella />
 
@@ -599,7 +600,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Magnificat</Text>
+          <H2 text="Magnificat" />
 
           <Magnificat />
 
@@ -750,7 +751,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 109</Text>
+          <H2 text="Salmo 109" />
 
           <Salmo109 />
 
@@ -784,7 +785,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 112</Text>
+          <H2 text="Salmo 112" />
 
           <Salmo112 />
 
@@ -816,7 +817,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 121</Text>
+          <H2 text="Salmo 121" />
 
           <Salmo121 />
 
@@ -846,7 +847,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 126</Text>
+          <H2 text="Salmo 126" />
 
           <Salmo126 />
 
@@ -876,7 +877,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Salmo 147</Text>
+          <H2 text="Salmo 147" />
 
           <Salmo147 />
 
@@ -893,7 +894,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Ecl. 24, 14</Text>
 
@@ -915,7 +916,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Ave Maris Stella</Text>
+          <H2 text="Ave Maris Stella" />
 
           <AveMarisStella />
 
@@ -950,7 +951,7 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <Text className="h2">Magnificat</Text>
+          <H2 text="Magnificat" />
 
           <Magnificat />
 

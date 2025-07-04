@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -6,9 +7,9 @@ import PageWrapper from "~/components/Page";
 export default function Page0522() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Rita de Cássia, Viúva, a 22 de Maio</Text>
+      <H1 text="S. Rita de Cássia, Viúva, a 22 de Maio" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 117, 19 & 22</Text>
 
@@ -32,7 +33,7 @@ export default function Page0522() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -52,7 +53,7 @@ export default function Page0522() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Pr. 2</Text>
 
@@ -122,14 +123,14 @@ export default function Page0522() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/comum/18virgensmartires2#evangelho"
         title="Virgens Mártires - Missa Me exspectavérunt"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Gn. 40, 9-10</Text>
 
@@ -145,7 +146,7 @@ export default function Page0522() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -161,7 +162,7 @@ export default function Page0522() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 20, 4</Text>
 
@@ -176,7 +177,7 @@ export default function Page0522() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

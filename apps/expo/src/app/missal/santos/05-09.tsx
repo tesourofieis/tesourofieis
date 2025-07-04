@@ -1,14 +1,12 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function Page0509() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. Gregório Nazianzeno, B. C. e Doutor, a 9 de Maio
-      </Text>
+      <H1 text="S. Gregório Nazianzeno, B. C. e Doutor, a 9 de Maio" />
 
       <Text className="comment">
         Gregório nasceu em Nazianzo na Capadócia, instruiu-se, em Atenas, em

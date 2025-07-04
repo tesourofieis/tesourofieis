@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -6,9 +7,9 @@ import PageWrapper from "~/components/Page";
 export default function Page0505CoimbraLamegoLeiria() {
   return (
     <PageWrapper>
-      <Text className="h1">Conversão de S. Agostinho, a 5 de Maio</Text>
+      <H1 text="Conversão de S. Agostinho, a 5 de Maio" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Is. 65, 16</Text>
 
@@ -29,7 +30,7 @@ export default function Page0505CoimbraLamegoLeiria() {
           <Text className="versicle"> ℣. </Text>Glória ao Pai...
         </Text>
 
-        <Text className="h3">Oração</Text>
+        <H3 text="Oração" />
 
         <Language>
           <Text className="latin">
@@ -47,7 +48,7 @@ export default function Page0505CoimbraLamegoLeiria() {
           </Text>
         </Language>
 
-        <Text className="h3">Epístola</Text>
+        <H3 text="Epístola" />
 
         <Text className="em">Rm. 13, 11-14</Text>
 
@@ -95,7 +96,7 @@ export default function Page0505CoimbraLamegoLeiria() {
           </Text>
         </Language>
 
-        <Text className="h3">Sequência</Text>
+        <H3 text="Sequência" />
 
         <Language>
           <Text className="latin">
@@ -256,7 +257,7 @@ export default function Page0505CoimbraLamegoLeiria() {
           </Text>
         </Language>
 
-        <Text className="h3">Evangelho</Text>
+        <H3 text="Evangelho" />
 
         <LinkCard
           href="/missal/pentecostes/pent3-0#evangelho"
@@ -264,7 +265,7 @@ export default function Page0505CoimbraLamegoLeiria() {
         />
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Mt. 11, 28</Text>
 
@@ -279,7 +280,7 @@ export default function Page0505CoimbraLamegoLeiria() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -295,7 +296,7 @@ export default function Page0505CoimbraLamegoLeiria() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Lc. 15, 7</Text>
 
@@ -310,7 +311,7 @@ export default function Page0505CoimbraLamegoLeiria() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

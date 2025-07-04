@@ -1,13 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0518() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Venâncio, Mártir, a 18 de Maio</Text>
+      <H1 text="S. Venâncio, Mártir, a 18 de Maio" />
 
       <Text className="comment">
         A Igreja nesta parte do Ciclo de Páscoa, preocupada em glorificar a Deus
@@ -31,7 +31,7 @@ export default function Page0518() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -46,7 +46,7 @@ export default function Page0518() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -61,7 +61,7 @@ export default function Page0518() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

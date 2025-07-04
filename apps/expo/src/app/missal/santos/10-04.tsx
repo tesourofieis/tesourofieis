@@ -1,13 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page1004() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Francisco, a 4 de Outubro</Text>
+      <H1 text="S. Francisco, a 4 de Outubro" />
 
       <Text className="aside">
         Como na{" "}
@@ -17,7 +17,7 @@ export default function Page1004() {
         , a 17 de Setembro, excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -33,7 +33,7 @@ export default function Page1004() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="aside">
         Como na
@@ -42,7 +42,7 @@ export default function Page1004() {
         </Link>
       </Text>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

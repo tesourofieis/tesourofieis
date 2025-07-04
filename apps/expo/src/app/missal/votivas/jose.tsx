@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageJose() {
   return (
     <PageWrapper>
-      <Text className="h1">Missa de S. José</Text>
+      <H1 text="Missa de S. José" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 32, 20-21</Text>
 
@@ -28,7 +29,7 @@ export default function PageJose() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -45,7 +46,7 @@ export default function PageJose() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Gn. 49, 22-26</Text>
 
@@ -85,7 +86,7 @@ export default function PageJose() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 20, 4-5</Text>
 
@@ -119,7 +120,7 @@ export default function PageJose() {
         diz-se o:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 111, 1-3</Text>
 
@@ -162,7 +163,7 @@ export default function PageJose() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 3, 21-23</Text>
 
@@ -193,7 +194,7 @@ export default function PageJose() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 147, 12 & 13</Text>
 
@@ -208,7 +209,7 @@ export default function PageJose() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -225,7 +226,7 @@ export default function PageJose() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt, 1, 16</Text>
 
@@ -240,7 +241,7 @@ export default function PageJose() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

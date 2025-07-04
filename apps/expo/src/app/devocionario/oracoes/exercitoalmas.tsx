@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PageExercitoalmas() {
   return (
     <PageWrapper>
-      <Text className="h1">Exército de Almas</Text>
+      <H1 text="Exército de Almas" />
       <Text className="text-base">
         Majestade Divina, Senhor da vida e da morte, dos que Vos amam e dos que
         Vos perseguem! Por intercessão da Santíssima Virgem de Fátima, Rainha da

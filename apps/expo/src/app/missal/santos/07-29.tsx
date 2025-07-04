@@ -1,13 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0729() {
   return (
     <PageWrapper>
-      <Text className="h1">Santa Marta, Virgem, a 29 de Julho</Text>
+      <H1 text="Santa Marta, Virgem, a 29 de Julho" />
 
       <Text className="comment">
         Depois de havermos celebrado a 22 deste mês a festa de Santa Maria
@@ -43,7 +43,7 @@ export default function Page0729() {
         , excepto:
       </Text>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 10, 38-42</Text>
 
@@ -80,9 +80,9 @@ export default function Page0729() {
         </Text>
       </Language>
 
-      <Text className="h2">Comemoração dos S. S. Mártires</Text>
+      <H2 text="Comemoração dos S. S. Mártires" />
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -100,7 +100,7 @@ export default function Page0729() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -117,7 +117,7 @@ export default function Page0729() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

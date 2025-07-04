@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { TabItem, Tabs } from "~/components/Tabs";
@@ -11,7 +12,7 @@ import Salmo124 from "./../salterio/124";
 export default function PageSexta() {
   return (
     <PageWrapper>
-      <Text className="h1">Sexta</Text>
+      <H1 text="Sexta" />
 
       <Text className="aside">
         Meditemos na crucifixão de Jesus Cristo e nas palavras pronunciadas por
@@ -53,7 +54,7 @@ export default function PageSexta() {
         </Text>
       </Language>
 
-      <Text className="h2">Memento rerum conditor</Text>
+      <H2 text="Memento rerum conditor" />
 
       <MementoRerumConditor />
 
@@ -68,15 +69,15 @@ export default function PageSexta() {
         </Text>
       </Language>
 
-      <Text className="h2">Salmo 122</Text>
+      <H2 text="Salmo 122" />
 
       <Salmo122 />
 
-      <Text className="h2">Salmo 123</Text>
+      <H2 text="Salmo 123" />
 
       <Salmo123 />
 
-      <Text className="h2">Salmo 124</Text>
+      <H2 text="Salmo 124" />
 
       <Salmo124 />
 
@@ -93,7 +94,7 @@ export default function PageSexta() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Ecl. 24, 16</Text>
 
@@ -199,7 +200,7 @@ export default function PageSexta() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Lc. 1, 32</Text>
 
@@ -309,7 +310,7 @@ export default function PageSexta() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Ecl. 24, 16</Text>
 

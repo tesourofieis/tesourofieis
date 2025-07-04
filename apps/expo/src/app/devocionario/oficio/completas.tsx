@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { TabItem, Tabs } from "~/components/Tabs";
@@ -12,10 +13,10 @@ import Salmo130 from "./../salterio/130";
 export default function PageCompletas() {
   return (
     <PageWrapper>
-      <Text className="h1">Completas</Text>
+      <H1 text="Completas" />
 
       <Text className="aside">
-        Meditemos naa sepultura de Jesus Cristo e na sua estadia no túmulo.
+        Meditemos na sepultura de Jesus Cristo e na sua estadia no túmulo.
       </Text>
 
       <Language>
@@ -67,25 +68,25 @@ export default function PageCompletas() {
         </Text>
       </Language>
 
-      <Text className="h2">Salmo 128</Text>
+      <H2 text="Salmo 128" />
 
       <Salmo128 />
 
-      <Text className="h2">Salmo 129</Text>
+      <H2 text="Salmo 129" />
 
       <Salmo129 />
 
-      <Text className="h2">Salmo 130</Text>
+      <H2 text="Salmo 130" />
 
       <Salmo130 />
 
-      <Text className="h2">Hino Memento rerum conditor</Text>
+      <H2 text="Hino Memento rerum conditor" />
 
       <MementoRerumConditor />
 
       <Tabs>
         <TabItem label="Depois da Purificação">
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Ecl. 24</Text>
 
@@ -122,7 +123,7 @@ export default function PageCompletas() {
             </Text>
           </Language>
 
-          <Text className="h2">Ofício 1</Text>
+          <H2 text="Ofício 1" />
 
           <Language>
             <Text className="latin">
@@ -145,7 +146,7 @@ export default function PageCompletas() {
             </Text>
           </Language>
 
-          <Text className="h2">Tempo Pascal</Text>
+          <H2 text="Tempo Pascal" />
 
           <Language>
             <Text className="latin">
@@ -163,11 +164,11 @@ export default function PageCompletas() {
             </Text>
           </Language>
 
-          <Text className="h2">Cântico Nunc Dimittis</Text>
+          <H2 text="Cântico Nunc Dimittis" />
 
           <NuncDimittis />
 
-          <Text className="h2">Ofício 1</Text>
+          <H2 text="Ofício 1" />
 
           <Language>
             <Text className="latin">
@@ -190,7 +191,7 @@ export default function PageCompletas() {
             </Text>
           </Language>
 
-          <Text className="h2">Tempo Pascal</Text>
+          <H2 text="Tempo Pascal" />
 
           <Language>
             <Text className="latin">
@@ -248,7 +249,7 @@ export default function PageCompletas() {
         </TabItem>
 
         <TabItem label="No Advento">
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Is. 7, 14-15</Text>
 
@@ -326,7 +327,7 @@ export default function PageCompletas() {
         </TabItem>
 
         <TabItem label="No Natal">
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Ecl. 24</Text>
 

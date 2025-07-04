@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageAntifonasdoo() {
   return (
     <PageWrapper>
-      <Text className="h1">Antífonas do Ó</Text>
+      <H1 text="Antífonas do Ó" />
 
-      <Text className="h2">17 de dezembro</Text>
+      <H2 text="17 de dezembro" />
 
       <Language>
         <Text className="latin">
@@ -22,7 +23,7 @@ export default function PageAntifonasdoo() {
         </Text>
       </Language>
 
-      <Text className="h2">18 de dezembro</Text>
+      <H2 text="18 de dezembro" />
 
       <Language>
         <Text className="latin">
@@ -37,7 +38,7 @@ export default function PageAntifonasdoo() {
         </Text>
       </Language>
 
-      <Text className="h2">19 de dezembro</Text>
+      <H2 text="19 de dezembro" />
 
       <Language>
         <Text className="latin">
@@ -52,7 +53,7 @@ export default function PageAntifonasdoo() {
         </Text>
       </Language>
 
-      <Text className="h2">20 de dezembro</Text>
+      <H2 text="20 de dezembro" />
 
       <Language>
         <Text className="latin">
@@ -67,7 +68,7 @@ export default function PageAntifonasdoo() {
         </Text>
       </Language>
 
-      <Text className="h2">21 de dezembro</Text>
+      <H2 text="21 de dezembro" />
 
       <Language>
         <Text className="latin">
@@ -80,7 +81,7 @@ export default function PageAntifonasdoo() {
         </Text>
       </Language>
 
-      <Text className="h2">22 de dezembro</Text>
+      <H2 text="22 de dezembro" />
 
       <Language>
         <Text className="latin">
@@ -93,7 +94,7 @@ export default function PageAntifonasdoo() {
         </Text>
       </Language>
 
-      <Text className="h2">23 de dezembro</Text>
+      <H2 text="23 de dezembro" />
 
       <Language>
         <Text className="latin">

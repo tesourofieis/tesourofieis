@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PageBendizemosoteunome() {
   return (
     <PageWrapper>
-      <Text className="h1">Bendizemos o Teu Nome</Text>
+      <H1 text="Bendizemos o Teu Nome" />
 
       <View className="not-content">
         <Text className="text-base">

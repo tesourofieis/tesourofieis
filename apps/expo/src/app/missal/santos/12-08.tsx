@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
@@ -31,11 +32,9 @@ export default function Page1208() {
         de Dezembro.
       </Text>
 
-      <Text className="h1">
-        Imaculada Conceição da B. Virgem Maria, a 8 de Dezembro
-      </Text>
+      <H1 text="Imaculada Conceição da B. Virgem Maria, a 8 de Dezembro" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Is. 61, 10</Text>
 
@@ -58,7 +57,7 @@ export default function Page1208() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -76,7 +75,7 @@ export default function Page1208() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Pr. 8, 22-35</Text>
 
@@ -125,7 +124,7 @@ export default function Page1208() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Jdt. 13, 23</Text>
 
@@ -155,7 +154,7 @@ export default function Page1208() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 1, 26-28</Text>
 
@@ -184,7 +183,7 @@ export default function Page1208() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Lc. 1, 28</Text>
 
@@ -199,7 +198,7 @@ export default function Page1208() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -218,7 +217,7 @@ export default function Page1208() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Language>
         <Text className="latin">
@@ -231,7 +230,7 @@ export default function Page1208() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

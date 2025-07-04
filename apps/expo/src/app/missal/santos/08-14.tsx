@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -7,18 +8,16 @@ import PageWrapper from "~/components/Page";
 export default function Page0814() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Vigília da Assunção da B. Virgem Maria, a 14 de Agosto
-      </Text>
+      <H1 text="Vigília da Assunção da B. Virgem Maria, a 14 de Agosto" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <LinkCard
         href="/missal/comum/21virgemnaomartir2#intróito"
         title="Virgem não Mártir - Missa Vultum tuum"
       />
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -41,28 +40,28 @@ export default function Page0814() {
         </Link>
       </Text>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <LinkCard
         href="/missal/santos/07-16#epístola"
         title="B. Virgem Maria do Monte Carmelo"
       />
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <LinkCard
         href="/missal/santos/07-02#gradual"
         title="Visitação da B. Virgem Maria"
       />
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/comum/26festasmaria1#evangelho"
         title="Festas da B. Virgem Maria - Missa Salve, sancta Parens"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Language>
         <Text className="latin">
@@ -76,7 +75,7 @@ export default function Page0814() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -92,7 +91,7 @@ export default function Page0814() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Language>
         <Text className="latin">
@@ -104,7 +103,7 @@ export default function Page0814() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

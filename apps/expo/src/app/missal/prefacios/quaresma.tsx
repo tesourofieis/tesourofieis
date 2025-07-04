@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageQuaresma() {
   return (
     <PageWrapper>
-      <Text className="h1">Prefácio da Quaresma</Text>
+      <H1 text="Prefácio da Quaresma" />
 
       <Text className="aside">
         Diz-se desde Quarta-Feira das Cinzas até à véspera do Domingo da Paixão,

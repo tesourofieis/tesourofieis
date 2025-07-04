@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -6,7 +7,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0526() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Filipe de Néri, a 26 de Maio</Text>
+      <H1 text="S. Filipe de Néri, a 26 de Maio" />
 
       <Text className="comment">
         S. Filipe nasceu na Florença no século XVI; tudo deixou para servir ao
@@ -22,7 +23,7 @@ export default function Page0526() {
         santa e amorosa alegria, na senda dos mandamentos de Deus (Oração).
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Rm. 5, 5</Text>
 
@@ -44,7 +45,7 @@ export default function Page0526() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -60,14 +61,14 @@ export default function Page0526() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <LinkCard
         title="Epístola S. Tomás Aquino"
         href="/missal/santos/03-07#epístola"
       />
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 33, 12 & 6</Text>
 
@@ -117,14 +118,14 @@ export default function Page0526() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         title="Evangelho Confessores não Pontífices"
         href="/missal/comum/14confessoresnaopontifices1#evangelho"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 18, 32</Text>
 
@@ -139,7 +140,7 @@ export default function Page0526() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -154,7 +155,7 @@ export default function Page0526() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 83, 3</Text>
 
@@ -167,7 +168,7 @@ export default function Page0526() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

@@ -6,6 +6,7 @@ import { getYear } from "date-fns";
 import { Link } from "expo-router";
 import { useEffect, useState } from "react";
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 function getAllNovenasForYear(year: number) {
@@ -34,7 +35,7 @@ export default function PaginaNovenas() {
 
   return (
     <PageWrapper>
-      <Text className="h1">Novenas</Text>
+      <H1 text="Novenas" />
 
       <View className="flex px-2">
         {novena.map((novena) => (
@@ -65,9 +66,7 @@ export default function PaginaNovenas() {
         </Text>
       </View>
 
-      <Text className="h3 font-semibold mt-4 mb-2">
-        Todas as Novenas agendadas
-      </Text>
+      <H3 text="Todas as Novenas agendadas" />
       <View className="list-disc list-inside">
         {allNovenas.map((novena) => {
           const buidDate = `${year}-${novena.month}-${novena.day}`;

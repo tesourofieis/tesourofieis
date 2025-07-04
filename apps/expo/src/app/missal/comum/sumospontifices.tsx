@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageSumospontifices() {
   return (
     <PageWrapper>
-      <Text className="h1">Um ou Muitos Sumos Pontífices</Text>
+      <H1 text="Um ou Muitos Sumos Pontífices" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Jo. 21, 15, 16 & 17</Text>
 
@@ -28,7 +29,7 @@ export default function PageSumospontifices() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -51,7 +52,7 @@ export default function PageSumospontifices() {
         dir-se-á a seguinte Oração, em vez da Precedente:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -71,7 +72,7 @@ export default function PageSumospontifices() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">l. Pe. 5, 1-4 & 10-11</Text>
 
@@ -105,7 +106,7 @@ export default function PageSumospontifices() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 106, 32, 31</Text>
 
@@ -137,7 +138,7 @@ export default function PageSumospontifices() {
         Depois da Septuagésima omite-se o Aleluia e o Verso e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 39, 10-11</Text>
 
@@ -184,7 +185,7 @@ export default function PageSumospontifices() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 16, 13-19</Text>
 
@@ -228,7 +229,7 @@ export default function PageSumospontifices() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Jr. 1, 9-10</Text>
 
@@ -245,7 +246,7 @@ export default function PageSumospontifices() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -267,7 +268,7 @@ export default function PageSumospontifices() {
         dir-se-á a seguinte Secreta, em vez da Precedente:
       </Text>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -285,7 +286,7 @@ export default function PageSumospontifices() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 16, 18</Text>
 
@@ -300,7 +301,7 @@ export default function PageSumospontifices() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -322,7 +323,7 @@ export default function PageSumospontifices() {
         dir-se-á o seguinte Postcomúnio, em vez do Precedente:
       </Text>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

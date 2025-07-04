@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PageJesusmisericordioso() {
   return (
     <PageWrapper>
-      <Text className="h1">Jesus misericordioso, tende compaixão de mim</Text>
+      <H1 text="Jesus misericordioso, tende compaixão de mim" />
       <Text className="text-base">
         Jesus Cristo, nosso Senhor, Deus de bondade e misericórdia, aqui me
         tendes em vossa presença, humilhado e contrito de coração; recomendo-Vos

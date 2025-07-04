@@ -1,12 +1,13 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageBencaos() {
   return (
     <PageWrapper>
-      <Text className="h1">Bênçãos</Text>
-      <Text className="h3">Ao Levantar</Text>
+      <H1 text="Bênçãos" />
+      <H3 text="Ao Levantar" />
       <Language>
         <Text className="latin">
           <Text className="versicle"> ℣. </Text> Benedicamus Domino.
@@ -39,7 +40,7 @@ export default function PageBencaos() {
           <Text className="response"> ℟. </Text>Amen.
         </Text>
       </Language>
-      <Text className="h3">Antes da Refeição</Text>
+      <H3 text="Antes da Refeição" />
       <Language>
         <Text className="latin">
           <Text className="cross"> ✠ </Text> In nómine Patris, et Fílii, et
@@ -72,7 +73,7 @@ export default function PageBencaos() {
           <Text className="response"> ℟. </Text>Amen.
         </Text>
       </Language>
-      <Text className="h3">Depois da Refeição</Text>
+      <H3 text="Depois da Refeição" />
       <Language>
         <Text className="latin">
           In nómine Patris, et Fílii, et Spíritus Sancti.
@@ -103,7 +104,7 @@ export default function PageBencaos() {
           <Text className="response"> ℟. </Text>Amen.
         </Text>
       </Language>
-      <Text className="h3">Viagem</Text>
+      <H3 text="Viagem" />
       <Language>
         <Text className="latin">
           Beata Maria intercedénte, bene ambulémus: et Dóminus sit in itínere
@@ -130,7 +131,7 @@ export default function PageBencaos() {
         </Text>
       </Language>
 
-      <Text className="h3">Antes do Trabalho</Text>
+      <H3 text="Antes do Trabalho" />
       <Text className="text-base">
         Abençoai, Senhor, o trabalho em que vou ocupar-me e permiti que sirva
         para vossa glória e para minha santificação.
@@ -143,7 +144,7 @@ export default function PageBencaos() {
         <Text className="response"> ℟. </Text>Amen.
       </Text>
 
-      <Text className="h3">Aos Filhos</Text>
+      <H3 text="Aos Filhos" />
       <Language>
         <Text className="latin">
           Pax et benedíctio Dei omnipoténtis, Patris, et Fílii, et Spíritus
@@ -161,7 +162,7 @@ export default function PageBencaos() {
         </Text>
       </Language>
 
-      <Text className="h3">A Adultos</Text>
+      <H3 text="A Adultos" />
       <Language>
         <Text className="latin">
           Benedíctio Dei omnipoténtis, Patris, et Fílii, et Spíritus Sancti,

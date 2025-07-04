@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -6,9 +7,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0716() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        B. Virgem Maria do Monte Carmelo, a 16 de Julho
-      </Text>
+      <H1 text="B. Virgem Maria do Monte Carmelo, a 16 de Julho" />
 
       <Text className="comment">
         Segundo piedosa tradição, autorizada pela liturgia, no dia de
@@ -35,7 +34,7 @@ export default function Page0716() {
         cristandade, por Bento XIII, em 1726.
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sedulius</Text>
 
@@ -57,7 +56,7 @@ export default function Page0716() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -75,7 +74,7 @@ export default function Page0716() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Ecl. 24, 23-31</Text>
 
@@ -108,7 +107,7 @@ export default function Page0716() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Language>
         <Text className="latin">
@@ -137,14 +136,14 @@ export default function Page0716() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/comum/26festasmaria1#evangelho"
         title="Festas da B. Virgem Maria - Missa Salve, sancta Parens"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Jr. 18, 20</Text>
 
@@ -159,7 +158,7 @@ export default function Page0716() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -174,7 +173,7 @@ export default function Page0716() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Language>
         <Text className="latin">
@@ -188,7 +187,7 @@ export default function Page0716() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

@@ -1,11 +1,12 @@
 import { Text } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageResponsorio() {
   return (
     <PageWrapper>
-      <Text className="h1">Responsório de Santo António</Text>
+      <H1 text="Responsório de Santo António" />
 
       <Language>
         <Text className="latin">

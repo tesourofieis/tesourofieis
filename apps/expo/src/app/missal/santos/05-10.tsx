@@ -1,13 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0510() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Antonino, B. Conf., a 10 de Maio</Text>
+      <H1 text="S. Antonino, B. Conf., a 10 de Maio" />
 
       <Text className="aside">
         Como na
@@ -17,7 +17,7 @@ export default function Page0510() {
         excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -33,9 +33,7 @@ export default function Page0510() {
         </Text>
       </Language>
 
-      <Text className="h2">
-        Comemoração dos S. S. Mártires Gordiano e Epímaco
-      </Text>
+      <H2 text="Comemoração dos S. S. Mártires Gordiano e Epímaco" />
 
       <Text className="aside">
         Aquando da celebração da Missa S. S. Mártires Gordiano e Epímaco Como na
@@ -45,7 +43,7 @@ export default function Page0510() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -60,7 +58,7 @@ export default function Page0510() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -75,7 +73,7 @@ export default function Page0510() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

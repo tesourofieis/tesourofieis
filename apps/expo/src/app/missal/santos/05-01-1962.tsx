@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page05011962() {
   return (
     <PageWrapper>
-      <Text className="h1">S. José, Operário, a 1 de Maio</Text>
+      <H1 text="S. José, Operário, a 1 de Maio" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sb. 10, 17</Text>
 
@@ -30,7 +31,7 @@ export default function Page05011962() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -46,7 +47,7 @@ export default function Page05011962() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Cl. 3, 14-15, 17, 23-24</Text>
 
@@ -98,7 +99,7 @@ export default function Page05011962() {
 
       <Text className="aside">Fora do Tempo Pascal diz-se:</Text>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 127, 1-2</Text>
 
@@ -129,7 +130,7 @@ export default function Page05011962() {
         Depois de Septuagésima, omitem-se o Aleluia e o Gradual, e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 111, 1-3</Text>
 
@@ -149,7 +150,7 @@ export default function Page05011962() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 13, 54-58</Text>
 
@@ -185,7 +186,7 @@ export default function Page05011962() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 89, 17</Text>
 
@@ -201,7 +202,7 @@ export default function Page05011962() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -217,7 +218,7 @@ export default function Page05011962() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 13, 54 & 55</Text>
 
@@ -232,7 +233,7 @@ export default function Page05011962() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

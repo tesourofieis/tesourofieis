@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -7,7 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1111() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Martinho, a 11 de Novembro</Text>
+      <H1 text="S. Martinho, a 11 de Novembro" />
 
       <Text className="aside">
         Comemoração de S. Mena como na
@@ -17,14 +18,14 @@ export default function Page1111() {
         .
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <LinkCard
         href="/missal/comum/2martirpontificeforapascal#intróito"
         title="Mártir Pontífice - Missa Státuit ei Dóminus"
       />
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -39,14 +40,14 @@ export default function Page1111() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <LinkCard
         href="/missal/comum/11confessorespontifices1#epístola"
         title="Confessores Pontífices - Missa Státuit ei Dóminus"
       />
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Ecl. 44, 16</Text>
 
@@ -76,7 +77,7 @@ export default function Page1111() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 11, 33-36</Text>
 
@@ -112,7 +113,7 @@ export default function Page1111() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 88, 25</Text>
 
@@ -127,7 +128,7 @@ export default function Page1111() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -143,7 +144,7 @@ export default function Page1111() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 24,46-47</Text>
 
@@ -158,7 +159,7 @@ export default function Page1111() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

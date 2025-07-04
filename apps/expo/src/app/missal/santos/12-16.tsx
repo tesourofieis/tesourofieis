@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 import Missa from "../comum/3martirpontifice";
@@ -6,7 +7,7 @@ import Missa from "../comum/3martirpontifice";
 export default function Page1216() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Eusébio, B. e Márt., a 16 de Dezembro</Text>
+      <H1 text="S. Eusébio, B. e Márt., a 16 de Dezembro" />
 
       <Text className="comment">
         S. Eusébio, nasceu na Sardenha no século IV, época em que o Arianismo se

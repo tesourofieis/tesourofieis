@@ -1,13 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0507() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Estanislau, B. e Mártir, a 7 de Maio</Text>
+      <H1 text="S. Estanislau, B. e Mártir, a 7 de Maio" />
 
       <Text className="comment">
         Nascido na Polónia, Estanislau foi nomeado bispo de Cracóvia em 1072.
@@ -25,7 +25,7 @@ export default function Page0507() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -41,7 +41,7 @@ export default function Page0507() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -56,7 +56,7 @@ export default function Page0507() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

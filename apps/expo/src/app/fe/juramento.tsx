@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageJuramento() {
   return (
     <PageWrapper>
-      <Text className="h1">Juramento Anti-Modernista</Text>
+      <H1 text="Juramento Anti-Modernista" />
 
       <Language>
         <Text className="latin">

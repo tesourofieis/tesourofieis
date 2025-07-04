@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageVeniSancteSpiritus() {
   return (
     <PageWrapper>
-      <Text className="h3">Sequência Pentecostes</Text>
+      <H3 text="Sequência Pentecostes" />
       <Language>
         <Text className="latin">
           Veni, Sancte Spíritus, et emítte cǽlitus lucis tuæ rádium.

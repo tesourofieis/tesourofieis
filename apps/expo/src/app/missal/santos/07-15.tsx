@@ -1,15 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0715() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. Henrique, Imperador e Confessor, a 15 de Julho
-      </Text>
+      <H1 text="S. Henrique, Imperador e Confessor, a 15 de Julho" />
 
       <Text className="comment">
         Henrique II, cognominado o Piedoso, foi rei da Baviera em 972, rei da
@@ -37,7 +35,7 @@ export default function Page0715() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">

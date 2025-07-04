@@ -1,6 +1,6 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -8,9 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1122() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Santa Cecília, Virgem e Mártir, a 22 de Novembro
-      </Text>
+      <H1 text="Santa Cecília, Virgem e Mártir, a 22 de Novembro" />
 
       <Text className="aside">
         Como na{" "}
@@ -20,7 +18,7 @@ export default function Page1122() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -35,14 +33,14 @@ export default function Page1122() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <LinkCard
         href="/missal/comum/18virgensmartires2#epístola"
         title="Virgens Mártires - Missa Me exspectavérunt"
       />
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 44, 11 & 12</Text>
 
@@ -76,7 +74,7 @@ export default function Page1122() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -91,7 +89,7 @@ export default function Page1122() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

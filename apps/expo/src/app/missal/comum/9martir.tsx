@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page9Martir() {
   return (
     <PageWrapper>
-      <Text className="h1">Mártir</Text>
+      <H1 text="Mártir" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 63, 3</Text>
 
@@ -30,7 +31,7 @@ export default function Page9Martir() {
 
       <Text className="aside">Por um Mártir Pontífice diz-se a seguinte:</Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -51,7 +52,7 @@ export default function Page9Martir() {
         Outras vezes, em vez da Precedente, diz-se esta:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -72,7 +73,7 @@ export default function Page9Martir() {
         Por um Mártir não Pontífice diz-se a seguinte:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -92,7 +93,7 @@ export default function Page9Martir() {
         Outras vezes, em vez da Precedente, diz-se esta:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -109,7 +110,7 @@ export default function Page9Martir() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Sb. 5, 1-5</Text>
 
@@ -159,7 +160,7 @@ export default function Page9Martir() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 15, 1-7</Text>
 
@@ -203,7 +204,7 @@ export default function Page9Martir() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sb. 88, 6</Text>
 
@@ -220,7 +221,7 @@ export default function Page9Martir() {
 
       <Text className="aside">Por um Mártir Pontífice diz-se a seguinte:</Text>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -240,7 +241,7 @@ export default function Page9Martir() {
         Outras vezes, em vez da Precedente, diz-se esta:
       </Text>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -260,7 +261,7 @@ export default function Page9Martir() {
         Por um Mártir não Pontífice diz-se a seguinte:
       </Text>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -279,7 +280,7 @@ export default function Page9Martir() {
         Outras vezes, em vez da Precedente, diz-se esta:
       </Text>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -294,7 +295,7 @@ export default function Page9Martir() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 63, 11</Text>
 
@@ -311,7 +312,7 @@ export default function Page9Martir() {
 
       <Text className="aside">Por um Mártir Pontífice diz-se o seguinte:</Text>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -332,7 +333,7 @@ export default function Page9Martir() {
         Outras vezes, em vez, do Precedente, diz-se o seguante:
       </Text>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -352,7 +353,7 @@ export default function Page9Martir() {
         Por um Mártir não Pontífice diz-se o seguinte:
       </Text>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -371,7 +372,7 @@ export default function Page9Martir() {
         Outras vezes, ena vez do Precedente, diz-se o seguinte:
       </Text>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

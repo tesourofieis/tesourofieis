@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -7,7 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1212Brasil() {
   return (
     <PageWrapper>
-      <Text className="h1">Nossa Senhora de Guadalupe, a 12 de Dezembro</Text>
+      <H1 text="Nossa Senhora de Guadalupe, a 12 de Dezembro" />
       <Text className="aside">
         Como na
         <Link href="/missal/comum/29missamaria3">
@@ -15,7 +16,7 @@ export default function Page1212Brasil() {
         </Link>
         excepto:
       </Text>
-      :<Text className="h3">Oração</Text>
+      :<H3 text="Oração" />
       <Language>
         <Text className="latin">
           Deus, qui sub beatíssimæ Vírginis Maríæ singulári patrocínio
@@ -30,12 +31,12 @@ export default function Page1212Brasil() {
           cuja comemoração hoje na terra festejamos. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
       <LinkCard
         href="/missal/santos/07-16#epístola"
         title="B. Virgem Maria do Monte Carmelo"
       />
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
       <Text className="em">Ct. 6, 9</Text>
       <Language>
         <Text className="latin">
@@ -59,12 +60,12 @@ export default function Page1212Brasil() {
           nossa terra; chegou o tempo da poda. Aleluía.
         </Text>
       </Language>
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
       <LinkCard
         href="/missal/santos/07-02#evangelho"
         title="Visitação da B. Virgem Maria"
       />
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
       <Text className="em">2 Cr. 7, 16</Text>
       <Language>
         <Text className="latin">
@@ -76,7 +77,7 @@ export default function Page1212Brasil() {
           estarem fixos nele os meus olhos e o meu coração, em todo o tempo.
         </Text>
       </Language>
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <Language>
         <Text className="latin">
           Tua Dómine, propitiatióne, et beátæ Maríæ semper Vírginis
@@ -89,7 +90,7 @@ export default function Page1212Brasil() {
           Virgem Maria. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
       <Text className="em">Sl. 147, 20</Text>
       <Language>
         <Text className="latin">
@@ -100,7 +101,7 @@ export default function Page1212Brasil() {
           desígnios.
         </Text>
       </Language>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Language>
         <Text className="latin">
           Sumptis, Dómine, salútis nostræ subsídiis: da, quǽsumus, beátæ Maríæ

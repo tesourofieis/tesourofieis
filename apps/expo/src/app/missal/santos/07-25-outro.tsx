@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 import Missa from "../comum/4martirnaopontifice1";
@@ -6,7 +7,7 @@ import Missa from "../comum/4martirnaopontifice1";
 export default function Page0725Outro() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Cristovão, Mártir, a 25 de Julho</Text>
+      <H1 text="S. Cristovão, Mártir, a 25 de Julho" />
 
       <Text className="comment">
         São Cristovão era Cananeu de origem. Seu nome (que carrega o Cristo)

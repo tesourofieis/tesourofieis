@@ -1,6 +1,6 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1213() {
   return (
     <PageWrapper>
-      <Text className="h1">Santa Luzia, Virgem e Mártir, a 13 de Dezembro</Text>
+      <H1 text="Santa Luzia, Virgem e Mártir, a 13 de Dezembro" />
 
       <Text className="comment">
         Nascida na Sicília, pelo fim do século III, de família nobre, Santa
@@ -37,7 +37,7 @@ export default function Page1213() {
         , excepto:
       </Text>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 44, 8</Text>
 
@@ -66,14 +66,14 @@ export default function Page1213() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/comum/21virgemnaomartir2#evangelho"
         title="Virgem não Mártir - Missa Vultum tuum"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 44, 15-16</Text>
 
@@ -89,7 +89,7 @@ export default function Page1213() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 118, 161-162</Text>
 

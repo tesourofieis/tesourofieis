@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PageRochanacao() {
   return (
     <PageWrapper>
-      <Text className="h1">Rocha sobre a qual a nossa nação se fundou</Text>
+      <H1 text="Rocha sobre a qual a nossa nação se fundou" />
       <Text className="text-base">
         Senhor Pai santo, confiamos o nosso Portugal à vossa misericórdia e
         protecção. Vós sois a rocha sobre a qual a nossa nação se fundou. Só Vós

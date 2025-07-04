@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageActocaridade() {
   return (
     <PageWrapper>
-      <Text className="h1">Acto de Caridade</Text>
+      <H1 text="Acto de Caridade" />
 
       <Language>
         <Text className="latin">

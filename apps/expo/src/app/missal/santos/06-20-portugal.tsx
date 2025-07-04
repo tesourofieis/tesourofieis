@@ -1,28 +1,27 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
 
 export default function Page0620Portugal() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        B. Francisco Pacheco e Outros, Márts., a 20 de Junho, Nalgumas Dioceses
-      </Text>
-      <Text className="h3">Intróito</Text>
+      <H1 text="B. Francisco Pacheco e Outros, Márts., a 20 de Junho, Nalgumas Dioceses" />
+      <H3 text="Intróito" />
       <Text className="text-base">
         O Senhor dirigirá ao seu povo palavras de paz: e igualmente assim falará
         aos seus fiéis e àqueles que se converterem a Ele. Abençoastes, Senhor,
         a vossa terra e fizestes cessar o cativeiro de Jacob.
         <Text className="versicle"> ℣. </Text>Glória ao Pai...
       </Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Text className="text-base">
         Ó Deus, que nos alegrais com o aniversário solene do martírio do B.
         Francisco e seus Companheiros, concedei-nos propício que aqueles cujos
         méritos nos enchem de alegria, nos inflamem também com seus exemplos.
         Por nosso Senhor...
       </Text>
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
       <Text className="text-base">Lição da Ep.ª do B. Ap.º Pedro.</Text>
       <Text className="text-base">
         Caríssimos: Alegrai-vos, se tomais parte nos sofrimentos de Cristo; pois
@@ -38,7 +37,7 @@ export default function Page0620Portugal() {
         pois, aqueles que sofrem segundo a vontade de Deus encomendam as suas
         almas ao seu fiel Criador, praticando obras boas.
       </Text>
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
       <Text className="text-base">
         Deus é glorificado nos seus Santos: Deus é admirável na sua majestade:
         Deus pratica muitos prodígios. Vossa dextra esmagou os vossos inimigos.
@@ -46,30 +45,30 @@ export default function Page0620Portugal() {
         do mundo: ela segue Cristo e possuirá gloriosamente o reino celestial.
         Aleluia.
       </Text>
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
       <LinkCard
         href="/missal/comum/7muitosmartires2#evangelho"
         title="Muitos Mártires - Missa Sapiéntiam sanctórum"
       />
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
       <Text className="text-base">
         Ó justos, alegrai-vos no Senhor e exultai de júbilo: todos aqueles que
         possuem o coração recto serão glorificados.
       </Text>
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <Text className="text-base">
         Deixai-Vos aplacar, Senhor, com a oferta que Vos apresentamos, e pela
         intercessão dos vossos B. B. Mártires defendei-nos de todos os perigos.
         Por nosso Senhor...
       </Text>
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
       <Text className="text-base">
         Senhor, deram como alimento às aves do céu os corpos dos vossos servos,
         que haviam sido mortos, e deram as carnes dos vossos Santos às feras da
         terra. Pelo poder do vosso braço conservai os filhos daqueles que foram
         mortos.
       </Text>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Text className="text-base">
         Que esta comunhão, Senhor, nos purifique das nossas faltas; e pela
         intercessão dos B. B. Mártires Francisco e seus Companheiros fazei que

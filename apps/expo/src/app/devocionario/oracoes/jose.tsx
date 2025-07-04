@@ -1,12 +1,13 @@
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageJose() {
   return (
     <PageWrapper>
-      <Text className="h1">Orações a São José</Text>
-      <Text className="h2">Oração a São José pelo Papa Leão XIII</Text>
+      <H1 text="Orações a São José" />
+      <H2 text="Oração a São José pelo Papa Leão XIII" />
       <Language>
         <Text className="latin">
           Ad te beáte Joseph, in tribulatióne nostra confúgimus, atque,
@@ -46,7 +47,7 @@ export default function PageJose() {
           piamente e alcançar no céu a bem-aventurança eterna. Amen
         </Text>
       </Language>
-      <Text className="h2">Oração</Text>
+      <H2 text="Oração" />
       <Text className="text-base">
         Ó glorioso S. José, Pai e protector das Virgens, guarda fiel a quem Deus
         confiou Jesus, a própria inocência, e Maria, Virgem das virgens! Em nome
@@ -54,7 +55,7 @@ export default function PageJose() {
         suplico que me conserveis livre de toda a impureza, para que com alma
         pura e corpo casto, sirva sempre, fielmente, a Jesus e a Maria. Amen.
       </Text>
-      <Text className="h2">Para o Trabalho</Text>
+      <H2 text="Para o Trabalho" />
       <Text className="text-base">
         Ó glorioso S. José, modelo de todos os que se consagram ao trabalho!
         Alcançai-me a graça de trabalhar com espírito de penitência, em expiação

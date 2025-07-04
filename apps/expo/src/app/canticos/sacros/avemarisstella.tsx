@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageAvemarisstella() {
   return (
     <PageWrapper>
-      <Text className="h1">Ave maris stella</Text>
+      <H1 text="Ave maris stella" />
 
       <Language>
         <Text className="latin">

@@ -1,13 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0121() {
   return (
     <PageWrapper>
-      <Text className="h1">Santa Inês, Virgem e Márt., a 21 de Janeiro</Text>
+      <H1 text="Santa Inês, Virgem e Márt., a 21 de Janeiro" />
 
       <Text className="comment">
         A Missa de hoje recorda um dos mais tocantes e gloriosos triunfos de
@@ -48,7 +48,7 @@ export default function Page0121() {
         , excepto:
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 118, 95-96</Text>
 
@@ -70,7 +70,7 @@ export default function Page0121() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -87,7 +87,7 @@ export default function Page0121() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 44, 3</Text>
 
@@ -121,7 +121,7 @@ export default function Page0121() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -136,7 +136,7 @@ export default function Page0121() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 25, 4 & 6</Text>
 
@@ -153,7 +153,7 @@ export default function Page0121() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

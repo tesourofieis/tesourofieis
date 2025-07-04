@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageVidiaquam() {
   return (
     <PageWrapper>
-      <Text className="h1">Vidi aquam</Text>
+      <H1 text="Vidi aquam" />
 
       <Text className="aside">
         Desde a Páscoa até à Vigília da SS. Trindade, diz-se:

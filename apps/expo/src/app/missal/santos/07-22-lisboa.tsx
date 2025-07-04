@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -7,8 +8,8 @@ import PageWrapper from "~/components/Page";
 export default function Page0722Lisboa() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Lourenço de Brindes, Conf., a 22 de Julho</Text>
-      <Text className="h3">Intróito</Text>
+      <H1 text="S. Lourenço de Brindes, Conf., a 22 de Julho" />
+      <H3 text="Intróito" />
       <Text className="text-base">
         Descobrirei as obras de Deus pelas suas palavras. O sol, iluminando o
         mundo, vê todas as coisas: e a glória do Senhor brilha nas suas obras.
@@ -16,7 +17,7 @@ export default function Page0722Lisboa() {
         odeiam fujam da sua presença.
         <Text className="versicle"> ℣. </Text>Glória ao Pai...
       </Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Deus, qui ad árdua quæque pro nóminis tui glória et animárum salúte
@@ -33,7 +34,7 @@ export default function Page0722Lisboa() {
           Senhor...
         </Text>
       </Language>
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
       <Text className="text-base">
         Lição da Ep.ª do B. Ap.º Paulo aos Coríntios. A caridade de Cristo
         obriga-nos. Se considerarmos que um só morreu por todos, então todos
@@ -52,7 +53,7 @@ export default function Page0722Lisboa() {
         amor de vós tratou Aquele que não tinha pecado como se o tivesse, a fim
         de que por Ele nos tornássemos justos na justiça que vem de Deus.
       </Text>
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
       <Text className="text-base">
         O Senhor é a minha fortaleza e a minha glória, pois foi o meu Salvador.
         Ele é o meu Deus: eu O glorificarei. O Senhor apareceu, como um
@@ -60,28 +61,28 @@ export default function Page0722Lisboa() {
         e o Omnipotente quando os inimigos o atacaram de todos os lados; e Deus,
         que é excelso e santo, ouviu-o. Aleluia.
       </Text>
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
       <LinkCard
         href="/missal/pascoa/pasc7-5#evangelho"
         title="Sexta-feira das Têmporas de Pentecostes - Estação nos Doze Apóstolos"
       />
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
       <Text className="text-base">
         Ele quis que minha boca fosse como uma espada aguda. Protegeu-me com a
         sombra da sua mão de reserva, como uma flecha escolhida.
       </Text>
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <Text className="text-base">
         Fazei, ó Deus, que as lágrimas da salutar penitência nos tornem dignos
         de nos aproximarmos deste celestial banquete, o qual era tão suave à
         candura da alma do B. Lourenço. Por nosso Senhor...
       </Text>
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
       <Text className="text-base">
         Os poderosos ficarão admirados quando me virem; e a face dos príncipes
         manifestará a sua admiração.
       </Text>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Text className="text-base">
         Possamos nós, Senhor, ficar eternamente saciados com esta alegria da
         vossa divindade, cujo gozo o B. Lourenço experimentou no sacrossanto

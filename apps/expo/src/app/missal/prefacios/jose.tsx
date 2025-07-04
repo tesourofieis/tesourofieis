@@ -1,4 +1,5 @@
 import { Text } from "react-native";
+import { H1 } from "~/components/Headings";
 
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -6,7 +7,7 @@ import PageWrapper from "~/components/Page";
 export default function PageJose() {
   return (
     <PageWrapper>
-      <Text className="h1">Prefácio do S. José</Text>
+      <H1 text="Prefácio do S. José" />
 
       <Text className="aside">
         Diz-se na Festa de S. José e do seu Patrocínio e Oitavário e nas Missas

@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0222() {
   return (
     <PageWrapper>
-      <Text className="h1">Cadeira de S. Pedro em Roma, a 22 de Fevereiro</Text>
+      <H1 text="Cadeira de S. Pedro em Roma, a 22 de Fevereiro" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Ecl. 45, 30</Text>
 
@@ -29,7 +30,7 @@ export default function Page0222() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -46,7 +47,7 @@ export default function Page0222() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração Comemoração S. Paulo</Text>
+      <H3 text="Oração Comemoração S. Paulo" />
 
       <Language>
         <Text className="latin">
@@ -61,7 +62,7 @@ export default function Page0222() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração Comemoração Santa Prisca</Text>
+      <H3 text="Oração Comemoração Santa Prisca" />
 
       <Language>
         <Text className="latin">
@@ -77,7 +78,7 @@ export default function Page0222() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">1 Pe. 1, 1-7</Text>
 
@@ -120,7 +121,7 @@ export default function Page0222() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 106, 32, 31</Text>
 
@@ -152,7 +153,7 @@ export default function Page0222() {
         Após a Septuagésima omite-se o Aleluia e o Verso e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Mt. 16, 18-19</Text>
 
@@ -176,7 +177,7 @@ export default function Page0222() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 16, 13-19</Text>
 
@@ -220,7 +221,7 @@ export default function Page0222() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Mt. 16, 18-19</Text>
 
@@ -237,7 +238,7 @@ export default function Page0222() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -253,7 +254,7 @@ export default function Page0222() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta Comemoração S. Paulo</Text>
+      <H3 text="Secreta Comemoração S. Paulo" />
 
       <Language>
         <Text className="latin">
@@ -269,7 +270,7 @@ export default function Page0222() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta Comemoração Santa Prisca</Text>
+      <H3 text="Secreta Comemoração Santa Prisca" />
 
       <Language>
         <Text className="latin">
@@ -284,7 +285,7 @@ export default function Page0222() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 16, 18</Text>
 
@@ -297,7 +298,7 @@ export default function Page0222() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -313,7 +314,7 @@ export default function Page0222() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio Comemoração S. Paulo</Text>
+      <H3 text="Postcomúnio Comemoração S. Paulo" />
 
       <Language>
         <Text className="latin">
@@ -328,7 +329,7 @@ export default function Page0222() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio Comemoração Santa Prisca</Text>
+      <H3 text="Postcomúnio Comemoração Santa Prisca" />
 
       <Language>
         <Text className="latin">

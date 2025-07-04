@@ -1,13 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PagePasc74() {
   return (
     <PageWrapper>
-      <Text className="h1">Quinta-feira de Pentecostes</Text>
+      <H1 text="Quinta-feira de Pentecostes" />
 
       <Text className="aside">
         Como no dia da{" "}
@@ -17,7 +17,7 @@ export default function PagePasc74() {
         , excepto:
       </Text>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Act. 8, 5-8</Text>
 
@@ -42,7 +42,7 @@ export default function PagePasc74() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 9, 1-6</Text>
 

@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -6,9 +7,9 @@ import PageWrapper from "~/components/Page";
 export default function Page0918() {
   return (
     <PageWrapper>
-      <Text className="h1">S. José Cupertino, Conf., a 18 de Setembro</Text>
+      <H1 text="S. José Cupertino, Conf., a 18 de Setembro" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Ecl. 1, 14-15</Text>
 
@@ -30,7 +31,7 @@ export default function Page0918() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -48,7 +49,7 @@ export default function Page0918() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">1 Cor. 13, 1-8</Text>
 
@@ -91,7 +92,7 @@ export default function Page0918() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 20, 4-5</Text>
 
@@ -123,14 +124,14 @@ export default function Page0918() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/pentecostes/pent19-0#evangelho"
         title="Décimo Nono Domingo depois de Pentecostes"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 34, 13</Text>
 
@@ -146,7 +147,7 @@ export default function Page0918() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -161,7 +162,7 @@ export default function Page0918() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 68, 30-31</Text>
 
@@ -176,7 +177,7 @@ export default function Page0918() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

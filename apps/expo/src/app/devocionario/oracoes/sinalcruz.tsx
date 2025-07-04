@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageSinalCruz() {
   return (
     <PageWrapper>
-      <Text className="h2">Sinal da Cruz</Text>
+      <H2 text="Sinal da Cruz" />
       <Language>
         <Text className="latin">
           <Text className="cross"> ✠ </Text> In nómine Patris, et Fílii, et

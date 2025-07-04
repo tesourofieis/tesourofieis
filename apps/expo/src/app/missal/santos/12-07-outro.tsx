@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function Page1207() {
   return (
     <PageWrapper>
-      <Text className="h1">Vigilia Imaculada Conceição da SS. Virgem</Text>
+      <H1 text="Vigilia Imaculada Conceição da SS. Virgem" />
 
       <Text className="comment">
         Uma novena de preces prepara ordinariamente as almas à grande festa de

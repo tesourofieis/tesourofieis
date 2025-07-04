@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PageAnjocustodioportugal() {
   return (
     <PageWrapper>
-      <Text className="h1">Anjo Custódio de Portugal</Text>
+      <H1 text="Anjo Custódio de Portugal" />
       <Text className="text-base">
         Ó Deus omnipotente e sempiterno, que com inefável providência destinais
         para cada nação um Anjo, que a guarde, concedei-nos, Vos suplicamos,

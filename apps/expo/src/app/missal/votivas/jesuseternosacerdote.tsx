@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageJesuseternosacerdote() {
   return (
     <PageWrapper>
-      <Text className="h1">N. S. Jesus Cristo Sumo e Eterno Sacerdote</Text>
+      <H1 text="N. S. Jesus Cristo Sumo e Eterno Sacerdote" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 109, 4</Text>
 
@@ -27,7 +28,7 @@ export default function PageJesuseternosacerdote() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -46,7 +47,7 @@ export default function PageJesuseternosacerdote() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Heb. 5, 1-11</Text>
 
@@ -98,7 +99,7 @@ export default function PageJesuseternosacerdote() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Lc. 4, 18</Text>
 
@@ -118,7 +119,7 @@ export default function PageJesuseternosacerdote() {
         Após a Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 9, 34 & 36</Text>
 
@@ -164,7 +165,7 @@ export default function PageJesuseternosacerdote() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 22, 14-20</Text>
 
@@ -201,7 +202,7 @@ export default function PageJesuseternosacerdote() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Heb. 10, 12 & 14</Text>
 
@@ -218,7 +219,7 @@ export default function PageJesuseternosacerdote() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -233,7 +234,7 @@ export default function PageJesuseternosacerdote() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">1 Cor. 11, 24 & 25</Text>
 
@@ -250,7 +251,7 @@ export default function PageJesuseternosacerdote() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

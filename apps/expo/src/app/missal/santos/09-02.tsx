@@ -1,6 +1,6 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0902() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Estêvão, Rei e Conf., a 2 de Setembro</Text>
+      <H1 text="S. Estêvão, Rei e Conf., a 2 de Setembro" />
 
       <Text className="aside">
         Como na{" "}
@@ -23,7 +23,7 @@ export default function Page0902() {
         title="Confessores não Pontífices - Missa Os justi"
       />
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -39,7 +39,7 @@ export default function Page0902() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 19, 12-26</Text>
 
@@ -104,7 +104,7 @@ export default function Page0902() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -119,7 +119,7 @@ export default function Page0902() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

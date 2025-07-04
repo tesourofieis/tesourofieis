@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 import Missa from "../comum/16abades";
@@ -6,7 +7,7 @@ import Missa from "../comum/16abades";
 export default function Page0115Outro() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Amaro, Abade, a 15 de Janeiro</Text>
+      <H1 text="S. Amaro, Abade, a 15 de Janeiro" />
 
       <Text className="comment">
         Confiado desde a mais tenra infância, pelo Senador Eutíquio, seu pai, ao

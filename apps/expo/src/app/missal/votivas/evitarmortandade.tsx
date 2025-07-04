@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageEvitarmortandade() {
   return (
     <PageWrapper>
-      <Text className="h1">Para Evitar a Mortandade</Text>
+      <H1 text="Para Evitar a Mortandade" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">2 Rs. 24, 16</Text>
 
@@ -30,7 +31,7 @@ export default function PageEvitarmortandade() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -47,7 +48,7 @@ export default function PageEvitarmortandade() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">2 Rs. 24, 15-19 & 25</Text>
 
@@ -89,7 +90,7 @@ export default function PageEvitarmortandade() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 106, 20-21</Text>
 
@@ -121,7 +122,7 @@ export default function PageEvitarmortandade() {
         Após a Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 102, 10</Text>
 
@@ -173,7 +174,7 @@ export default function PageEvitarmortandade() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 4, 38-44</Text>
 
@@ -220,7 +221,7 @@ export default function PageEvitarmortandade() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Nm. 16, 48</Text>
 
@@ -237,7 +238,7 @@ export default function PageEvitarmortandade() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -252,7 +253,7 @@ export default function PageEvitarmortandade() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Lc. 6, 17, 18 & 19</Text>
 
@@ -269,7 +270,7 @@ export default function PageEvitarmortandade() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

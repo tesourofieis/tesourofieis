@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -6,9 +7,9 @@ import PageWrapper from "~/components/Page";
 export default function PageContrapagaos() {
   return (
     <PageWrapper>
-      <Text className="h1">Missa Contra os Pagãos</Text>
+      <H1 text="Missa Contra os Pagãos" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 43, 23-24 & 25-26</Text>
 
@@ -33,7 +34,7 @@ export default function PageContrapagaos() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -50,7 +51,7 @@ export default function PageContrapagaos() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Est. 13, 8-11 & 15-17</Text>
 
@@ -87,7 +88,7 @@ export default function PageContrapagaos() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 82, 19 & 14</Text>
 
@@ -120,7 +121,7 @@ export default function PageContrapagaos() {
         Depois da Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 78, 9-11</Text>
 
@@ -169,14 +170,14 @@ export default function PageContrapagaos() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/pascoa/pasc5-1#evangelho"
         title="Dias de Rogação - 25 de Abril e nos 3 dias antes da Ascensão"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 17, 28 & 32</Text>
 
@@ -191,7 +192,7 @@ export default function PageContrapagaos() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -206,7 +207,7 @@ export default function PageContrapagaos() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 118, 81, 84 & 86</Text>
 
@@ -223,7 +224,7 @@ export default function PageContrapagaos() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

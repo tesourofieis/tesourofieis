@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageOgloriosavirginum() {
   return (
     <PageWrapper>
-      <Text className="h1">O gloriosa virginum</Text>
+      <H1 text="O gloriosa virginum" />
 
       <Language>
         <Text className="latin">

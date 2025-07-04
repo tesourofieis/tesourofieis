@@ -1,13 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageConversaoinfieis() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Para a conversão dos infiéis, São Francisco Xavier
-      </Text>
+      <H1 text="Para a conversão dos infiéis, São Francisco Xavier" />
 
       <Language>
         <Text className="latin">

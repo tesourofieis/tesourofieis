@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PagePureza() {
   return (
     <PageWrapper>
-      <Text className="h1">Pureza</Text>
+      <H1 text="Pureza" />
       <Text className="text-base">
         Dulcíssimo Menino Jesus, Cordeiro imaculado, cheio de bondade,
         misericórdia e amor! Para nos restituirdes a santa inocência, vieste do

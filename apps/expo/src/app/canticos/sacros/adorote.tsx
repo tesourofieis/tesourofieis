@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageAdorote() {
   return (
     <PageWrapper>
-      <Text className="h1">Adóro te devóte</Text>
+      <H1 text="Adóro te devóte" />
 
       <Language>
         <Text className="latin">

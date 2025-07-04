@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageTedeum() {
   return (
     <PageWrapper>
-      <Text className="h1">Te Deum</Text>
+      <H1 text="Te Deum" />
 
       <Language>
         <Text className="latin">

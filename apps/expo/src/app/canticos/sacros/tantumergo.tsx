@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageTantumergo() {
   return (
     <PageWrapper>
-      <Text className="h1">Tantum ergo</Text>
+      <H1 text="Tantum ergo" />
 
       <Language>
         <Text className="latin">

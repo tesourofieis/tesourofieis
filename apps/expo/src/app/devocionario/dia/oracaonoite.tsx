@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import NuncDimittis from "./../../canticos/sacros/nuncdimittis";
@@ -12,7 +13,7 @@ import ActoFe from "./../oracoes/actofe";
 export default function PageOracaonoite() {
   return (
     <PageWrapper>
-      <Text className="h1">Oração da Noite</Text>
+      <H1 text="Oração da Noite" />
       <Language>
         <Text className="latin">
           <Text className="versicle"> ℣. </Text>Convérte nos, Deus, salutáris
@@ -60,7 +61,7 @@ export default function PageOracaonoite() {
           agora e sempre, e por todos os séculos dos séculos. Amen.
         </Text>
       </Language>
-      <Text className="h2">Veni, Sancte Spíritus</Text>
+      <H2 text="Veni, Sancte Spíritus" />
       <Language>
         <Text className="latin">
           Veni, Sancte Spíritus! reple tuórum corda fidélium: et tui amóris in
@@ -85,7 +86,7 @@ export default function PageOracaonoite() {
           <Text className="response"> ℟. </Text> E renovareis a face da terra.
         </Text>
       </Language>
-      <Text className="h3">Breve lição:</Text>
+      <H3 text="Breve lição:" />
       <Text className="text-base">
         Sede sóbrios e vigilantes, pois o demónio gira em torno de vós,
         procurando devorar-vos. Resisti-lhe, sendo fortes na fé. E Vós, Senhor,
@@ -121,20 +122,20 @@ export default function PageOracaonoite() {
         </Link>{" "}
         . Depois o Hino:
       </Text>
-      <Text className="h2">Hino Te lucis</Text>
+      <H2 text="Hino Te lucis" />
       <TeLucis />
       <Text className="aside">
         Examina que pecados cometeste neste dia, por pensamentos, palavras,
         actos ou omissões. Depois diz o Acto de Fé, de Esperança, de Caridade e
         de Contrição.
       </Text>
-      <Text className="h2">Acto de Fé</Text>
+      <H2 text="Acto de Fé" />
       <ActoFe />
-      <Text className="h2">Acto de Esperança</Text>
+      <H2 text="Acto de Esperança" />
       <ActoEsperanca />
-      <Text className="h2">Acto de Caridade</Text>
+      <H2 text="Acto de Caridade" />
       <ActoCaridade />
-      <Text className="h2">Acto de Contrição</Text>
+      <H2 text="Acto de Contrição" />
       <ActoContricao />
       <Text className="text-base">
         Vos ofereço, Senhor minha vida, obras, e trabalhos em satisfação de
@@ -144,7 +145,7 @@ export default function PageOracaonoite() {
         emendar-me e perseverar em vosso santo serviço até o fim de minha vida.
         Amen.
       </Text>
-      <Text className="h2">Cântico Nunc Dimittis</Text>
+      <H2 text="Cântico Nunc Dimittis" />
       <NuncDimittis />
       <Text className="text-base">
         Visitai esta morada, Senhor, Vos suplicamos, e dignai-Vos afastar para

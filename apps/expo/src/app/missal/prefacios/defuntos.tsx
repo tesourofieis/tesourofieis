@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageDefuntos() {
   return (
     <PageWrapper>
-      <Text className="h1">Prefácio dos Defuntos</Text>
+      <H1 text="Prefácio dos Defuntos" />
 
       <Text className="aside">Diz-se em todas as Missas de Réquiem.</Text>
 

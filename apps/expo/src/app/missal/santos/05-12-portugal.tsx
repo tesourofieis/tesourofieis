@@ -1,13 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0512Portugal() {
   return (
     <PageWrapper>
-      <Text className="h1">B. Joana, Princesa, a 12 de Maio</Text>
+      <H1 text="B. Joana, Princesa, a 12 de Maio" />
 
       <Text className="aside">
         Como na{" "}
@@ -17,7 +17,7 @@ export default function Page0512Portugal() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -35,7 +35,7 @@ export default function Page0512Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração Comemoração S. S. Mártires</Text>
+      <H3 text="Oração Comemoração S. S. Mártires" />
 
       <Language>
         <Text className="latin">
@@ -50,7 +50,7 @@ export default function Page0512Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta Comemoração S. S. Mártires</Text>
+      <H3 text="Secreta Comemoração S. S. Mártires" />
 
       <Language>
         <Text className="latin">
@@ -67,7 +67,7 @@ export default function Page0512Portugal() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio Comemoração S. S. Mártires</Text>
+      <H3 text="Postcomúnio Comemoração S. S. Mártires" />
 
       <Language>
         <Text className="latin">

@@ -1,15 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageCoroacaopapa() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        No dia da Coroação do Sumo Pontífice e Aniversário da Coroação
-      </Text>
+      <H1 text="No dia da Coroação do Sumo Pontífice e Aniversário da Coroação" />
 
       <Text className="aside">
         Como na{" "}

@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -6,7 +7,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0629() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Pedro e S. Paulo, a 29 de Junho</Text>
+      <H1 text="S. Pedro e S. Paulo, a 29 de Junho" />
 
       <Text className="comment">
         A Igreja inteira está em festa, pois «Deus consagrou este dia pelo
@@ -33,7 +34,7 @@ export default function Page0629() {
         servo de Deus nosso Santo Padre o Papa» (Canon da Missa).
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Act. 12, 11</Text>
 
@@ -55,7 +56,7 @@ export default function Page0629() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -71,7 +72,7 @@ export default function Page0629() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Act. 12, 1-11</Text>
 
@@ -128,7 +129,7 @@ export default function Page0629() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 44, 17-18</Text>
 
@@ -157,14 +158,14 @@ export default function Page0629() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/santos/02-22#evangelho"
         title="Cadeira de S. Pedro em Roma"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 44, 17-18</Text>
 
@@ -179,7 +180,7 @@ export default function Page0629() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -194,7 +195,7 @@ export default function Page0629() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mt. 16, 18</Text>
 
@@ -207,7 +208,7 @@ export default function Page0629() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

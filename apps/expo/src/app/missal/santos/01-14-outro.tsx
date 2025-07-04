@@ -1,13 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0114Outro() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Félix, Presb. e Márt., a 14 de Janeiro</Text>
+      <H1 text="S. Félix, Presb. e Márt., a 14 de Janeiro" />
 
       <Text className="comment">
         Este santo Sacerdote nasceu em Nola, pequena cidade do sul da Itália e
@@ -27,7 +27,7 @@ export default function Page0114Outro() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -41,7 +41,7 @@ export default function Page0114Outro() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -56,7 +56,7 @@ export default function Page0114Outro() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

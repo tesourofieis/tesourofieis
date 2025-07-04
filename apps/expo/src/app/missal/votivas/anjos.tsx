@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -6,19 +7,19 @@ import PageWrapper from "~/components/Page";
 export default function PageAnjos() {
   return (
     <PageWrapper>
-      <Text className="h1">Missa dos Anjos</Text>
+      <H1 text="Missa dos Anjos" />
       <Text className="aside">Para a Terça-feira</Text>
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
       <LinkCard
         href="/missal/santos/03-24#intróito"
         title="S. Gabriel, Arcanjo"
       />
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <LinkCard
         href="/missal/santos/05-08#oração"
         title="Aparição de Arcanjo S. Miguel"
       />
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
       <Text className="em">Ap. 5, 11-14</Text>
       <Language>
         <Text className="latin">
@@ -50,7 +51,7 @@ export default function PageAnjos() {
           em todos os séculos dos séculos!
         </Text>
       </Language>
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
       <Text className="em">Sl. 148,1-2</Text>
       <Language>
         <Text className="latin">
@@ -78,7 +79,7 @@ export default function PageAnjos() {
       </Language>
       Depois da Septuagésima omite-se o Aleluia e o Verso que se segue, e
       diz-se:
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
       <Text className="em">Sl. 102, 20</Text>
       <Language>
         <Text className="latin">
@@ -122,7 +123,7 @@ export default function PageAnjos() {
           descido do céu, afastou a pedra e assentou-se sobre ela. Aleluia.
         </Text>
       </Language>
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
       <Text className="em">Jo. 1, 47-51</Text>
       <Language>
         <Text className="latin">
@@ -156,17 +157,17 @@ export default function PageAnjos() {
           homem».
         </Text>
       </Language>
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
       <LinkCard
         href="/missal/santos/05-08#ofertório"
         title="Aparição de Arcanjo S. Miguel"
       />
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <LinkCard
         href="/missal/santos/05-08#secreta"
         title="Aparição de Arcanjo S. Miguel"
       />
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
       <Language>
         <Text className="latin">
           Angeli, Archángeli, Throni et Dominatiónes, Principátus et Potestátes,
@@ -179,7 +180,7 @@ export default function PageAnjos() {
           Serafins. (T. P. Aleluia.)
         </Text>
       </Language>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Language>
         <Text className="latin">
           Repléti, Dómine, benedictióne cœlésti, supplíciter implorámus: ut,

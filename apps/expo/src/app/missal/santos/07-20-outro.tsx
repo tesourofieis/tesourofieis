@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 import Missa from "../comum/18virgensmartires2";
@@ -6,9 +7,7 @@ import Missa from "../comum/18virgensmartires2";
 export default function Page0720Outro() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Santa Margarida, Virgem e Mártir, a 20 de Julho
-      </Text>
+      <H1 text="Santa Margarida, Virgem e Mártir, a 20 de Julho" />
 
       <Text className="comment">
         Instruida, pela ama, na religião cristã, Margarida pereceu pela espada

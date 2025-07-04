@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page24Tentadosatribulados() {
   return (
     <PageWrapper>
-      <Text className="h1">24.ª Pelos tentados ou atribulados</Text>
+      <H1 text="24.ª Pelos tentados ou atribulados" />
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -27,7 +28,7 @@ export default function Page24Tentadosatribulados() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -41,7 +42,7 @@ export default function Page24Tentadosatribulados() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

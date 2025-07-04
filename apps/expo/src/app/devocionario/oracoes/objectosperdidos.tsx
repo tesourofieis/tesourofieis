@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PageObjectosperdidos() {
   return (
     <PageWrapper>
-      <Text className="h1">Objectos Perdidos, Santo António</Text>
+      <H1 text="Objectos Perdidos, Santo António" />
       <Text className="text-base">
         Eu, vos saúdo, glorioso Santo António, fiel protector dos que em vós
         esperam. Já que recebestes de Deus o poder especial de fazer achar os

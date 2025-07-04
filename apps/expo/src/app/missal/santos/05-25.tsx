@@ -1,13 +1,13 @@
 import { Link } from "expo-router";
-
 import { Text } from "react-native";
+import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0525() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Gregório VII, Papa e Conf., a 25 de Maio</Text>
+      <H1 text="S. Gregório VII, Papa e Conf., a 25 de Maio" />
 
       <Text className="comment">
         Nascido em Soana na Toscana, Hildebrando foi monge do célebre mosteiro
@@ -38,7 +38,7 @@ export default function Page0525() {
         , excepto:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -56,7 +56,7 @@ export default function Page0525() {
         </Text>
       </Language>
 
-      <Text className="h2">Comemoração de S. Urbano, Papa e Mártir</Text>
+      <H2 text="Comemoração de S. Urbano, Papa e Mártir" />
 
       <Text className="aside">
         Como na{" "}

@@ -1,12 +1,12 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function Page0426Braga() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Pedro de Rates, a 26 de Abril</Text>
+      <H1 text="S. Pedro de Rates, a 26 de Abril" />
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/9martir">
@@ -14,14 +14,14 @@ export default function Page0426Braga() {
         </Link>{" "}
         , excepto:
       </Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Text className="text-base">
         Ó Deus, que consagrastes este dia com o martírio do B. Pedro, vosso
         Mártir e Pontífice, concedei à vossa Igreja Bracarense a graça de seguir
         em todas as coisas os gloriosos vestígios daquele por cujo ministério
         ela recebeu as primícias da fé. Por nosso Senhor...
       </Text>
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
       <Text className="text-base">
         Continuação do santo Evangelho segundo S. João. Naquele tempo, disse
         Jesus aos fariseus: «Eu sou o bom Pastor. O bom Pastor dá a vida pelas
@@ -35,13 +35,13 @@ export default function Page0426Braga() {
         aprisco; mas é preciso que eu as atraia e ouçam a minha voz, para que
         não haja senão um só aprisco e um só Pastor».
       </Text>
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <Text className="text-base">
         Santificai, Senhor, os dons que Vos oferecemos, e pela intercessão do B.
         Pedro, vosso Mártir e Pontífice, e em virtude desses dons, purificai-nos
         de todas as manchas dos nossos pecados. Por nosso Senhor...
       </Text>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Text className="text-base">
         Que esta solenidade, que celebramos com estes celestiais mystérios em
         honra do B. Pedro, vosso Mártir e Pontífice, ó Deus omnipotente, nos

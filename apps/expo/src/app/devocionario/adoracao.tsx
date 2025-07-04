@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import Adorote from "./../canticos/sacros/adorote";
@@ -11,10 +12,10 @@ import Tantumergo from "./../canticos/sacros/tantumergo";
 export default function PageAdoracao() {
   return (
     <PageWrapper>
-      <Text className="h1">Adoração</Text>
-      <Text className="h2">O Salutáris Hóstia</Text>
+      <H1 text="Adoração" />
+      <H2 text="O Salutáris Hóstia" />
       <Salutaris />
-      <Text className="h1">Acto de Adoração</Text>
+      <H1 text="Acto de Adoração" />
       <Text className="text-base">
         Meu Senhor e meu Deus, creio que estais verdadeiramente, realmente e
         substancialmente nessa Hóstia Consagrada, como estais no céu! Creio-o,
@@ -35,16 +36,16 @@ export default function PageAdoracao() {
         afasteis nunca mais. Ah! Como é bom viver unido a Vós! Senhor, eu Vos
         amo; eu Vos adoro!
       </Text>
-      <Text className="h1">Hinos em Honra do Santíssimo Sacramento</Text>
-      <Text className="h2">Adoro Te Devote</Text>
+      <H1 text="Hinos em Honra do Santíssimo Sacramento" />
+      <H2 text="Adoro Te Devote" />
       <Adorote />
-      <Text className="h2">Ave Verum Corpus</Text>
+      <H2 text="Ave Verum Corpus" />
       <Aveverum />
-      <Text className="h2">Ecce Panis Angelorum</Text>
+      <H2 text="Ecce Panis Angelorum" />
       <Eccepanisangelorum />
-      <Text className="h2">Parce Domine</Text>
+      <H2 text="Parce Domine" />
       <Parcedomine />
-      <Text className="h2">Cor jesu sacratissimum</Text>
+      <H2 text="Cor jesu sacratissimum" />
       <Language>
         <Text className="latin">
           <Text className="versicle"> ℣. </Text> Cor Jesu sacratissimum:
@@ -59,8 +60,8 @@ export default function PageAdoracao() {
           <Text className="response"> ℟. </Text> Tende misericórdia de nós.
         </Text>
       </Language>
-      <Text className="h1">Hino para antes da Bênção</Text>
-      <Text className="h2">Tantum Ergo</Text>
+      <H1 text="Hino para antes da Bênção" />
+      <H2 text="Tantum Ergo" />
       <Tantumergo />
       <Language>
         <Text className="latin">
@@ -105,7 +106,7 @@ export default function PageAdoracao() {
           <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
-      <Text className="h1">Louvores Dívinos</Text>
+      <H1 text="Louvores Dívinos" />
       <Language>
         <Text className="latin">
           Benedíctus Deus. Benedíctum Nomen sanctum ejus.
@@ -166,8 +167,8 @@ export default function PageAdoracao() {
           Bendito Deus nos seus Anjos e nos seus Santos.
         </Text>
       </Language>
-      <Text className="h1">Hinos para depois da Bênção</Text>
-      <Text className="h2">Cristus Vincit</Text>
+      <H1 text="Hinos para depois da Bênção" />
+      <H2 text="Cristus Vincit" />
       <Language>
         <Text className="latin">Christus Vincit!</Text>
         <Text className="vernacular">Cristo Vence!</Text>
@@ -176,7 +177,7 @@ export default function PageAdoracao() {
         <Text className="latin">Christus, Cristus Imperat!</Text>
         <Text className="vernacular">Cristo, Cristo Impera!</Text>
       </Language>
-      <Text className="h2">Graças e Louvores</Text>
+      <H2 text="Graças e Louvores" />
       <Language>
         <Text className="latin">
           <Text className="versicle"> ℣. </Text>Adoremus in aeternum

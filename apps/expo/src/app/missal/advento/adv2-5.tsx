@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 import Missa from "./adv2-0";
@@ -6,7 +7,7 @@ import Missa from "./adv2-0";
 export default function PageAdv25() {
   return (
     <PageWrapper>
-      <Text className="h1">Sexta-feira da 2ª semana do Advento</Text>
+      <H1 text="Sexta-feira da 2ª semana do Advento" />
 
       <Missa />
     </PageWrapper>

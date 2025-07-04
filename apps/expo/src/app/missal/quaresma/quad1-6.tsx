@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -6,9 +7,9 @@ import PageWrapper from "~/components/Page";
 export default function PageQuad15() {
   return (
     <PageWrapper>
-      <Text className="h1">Sábado da 1.ª Semana da Quaresma</Text>
+      <H1 text="Sábado da 1.ª Semana da Quaresma" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 87, 3</Text>
 
@@ -43,7 +44,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -56,7 +57,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">1.ª Lição</Text>
+      <H3 text="1.ª Lição" />
 
       <Text className="em">Dt. 26, 12-19</Text>
 
@@ -104,7 +105,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 78, 9 & 10</Text>
 
@@ -137,7 +138,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -153,7 +154,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">2.ª Lição</Text>
+      <H3 text="2.ª Lição" />
 
       <Text className="em">Dt. 11, 22-25</Text>
 
@@ -185,7 +186,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 83, 10 & 9</Text>
 
@@ -217,7 +218,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -232,7 +233,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">3.ª Lição</Text>
+      <H3 text="3.ª Lição" />
 
       <Text className="em">2 Mac. l, 23-26 et 27</Text>
 
@@ -263,7 +264,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 89, 13 & 1</Text>
 
@@ -295,7 +296,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -311,7 +312,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">4.ª Lição</Text>
+      <H3 text="4.ª Lição" />
 
       <Text className="em">Ecl. 36, 1-10</Text>
 
@@ -349,7 +350,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 140, 2</Text>
 
@@ -381,7 +382,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -397,7 +398,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">5.ª Lição</Text>
+      <H3 text="5.ª Lição" />
 
       <Text className="em">Dn. 3, 47-51</Text>
 
@@ -427,14 +428,14 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Hino Benedictus Es</Text>
+      <H3 text="Hino Benedictus Es" />
 
       <LinkCard
         href="/missal/advento/adv03-6#hino-benedictus-es"
         title="Sábado das Têmporas do Inverno - Estação em São Pedro"
       />
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -448,7 +449,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">1 Ts. 5, 14-23</Text>
 
@@ -487,7 +488,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 116, 1-2</Text>
 
@@ -505,14 +506,14 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <LinkCard
         href="/missal/quaresma/quad2-0#evangelho"
         title="Segundo Domingo da Quaresma"
       />
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 87, 2-3</Text>
 
@@ -527,7 +528,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -542,7 +543,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 7, 2</Text>
 
@@ -557,7 +558,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -571,7 +572,7 @@ export default function PageQuad15() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração sobre o povo</Text>
+      <H3 text="Oração sobre o povo" />
 
       <Language>
         <Text className="latin">

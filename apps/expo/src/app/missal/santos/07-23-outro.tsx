@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 import Missa from "../comum/11confessorespontifices1";
@@ -6,7 +7,7 @@ import Missa from "../comum/11confessorespontifices1";
 export default function Page0723Outro() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Libório, B, e Conf., a 23 de Julho</Text>
+      <H1 text="S. Libório, B, e Conf., a 23 de Julho" />
 
       <Text className="comment">
         São Libório nasceu no século IV, de familia gaulesa. Deixou tudo para

@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 import Missa from "./12-08";
@@ -6,7 +7,7 @@ import Missa from "./12-08";
 export default function Page1214() {
   return (
     <PageWrapper>
-      <Text className="h1">Sétimo Dia na Oitava, a 14 de Dezembro</Text>
+      <H1 text="Sétimo Dia na Oitava, a 14 de Dezembro" />
 
       <Text className="comment">
         Para simbolizar a pureza da Santíssima Virgem, o Sacerdote reveste

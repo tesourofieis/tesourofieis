@@ -1,13 +1,12 @@
 import { Text, View } from "react-native";
+import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0202() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Purificação da B. Virgem Maria, a 2 de Fevereiro
-      </Text>
+      <H1 text="Purificação da B. Virgem Maria, a 2 de Fevereiro" />
 
       <Text className="comment">
         A festa da Purificação fecha o ciclo santoral do tempo depois da
@@ -41,7 +40,7 @@ export default function Page0202() {
         bênção, porém, das velas, é feita antes da Missa do Domingo.
       </Text>
 
-      <Text className="h2">Bênção das Velas</Text>
+      <H2 text="Bênção das Velas" />
 
       <Language>
         <Text className="latin">
@@ -221,7 +220,7 @@ export default function Page0202() {
 
       <Text className="aside">Durante a distribuição das velas canta-se:</Text>
 
-      <Text className="h3">Antífona</Text>
+      <H3 text="Antífona" />
 
       <Text className="em">Lc. 2, 32</Text>
 
@@ -234,7 +233,7 @@ export default function Page0202() {
         </Text>
       </Language>
 
-      <Text className="h3">Cântico</Text>
+      <H3 text="Cântico" />
 
       <Text className="em">ibid., 29-31</Text>
 
@@ -303,7 +302,7 @@ export default function Page0202() {
 
       <Text className="aside">Depois canta-se:</Text>
 
-      <Text className="h3">Antífona</Text>
+      <H3 text="Antífona" />
 
       <Text className="em">Sl. 43, 26</Text>
 
@@ -328,7 +327,7 @@ export default function Page0202() {
         diz-se:
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -367,9 +366,9 @@ export default function Page0202() {
         </Text>
       </Language>
 
-      <Text className="h2">Missa da Purificação da B. Virgem Maria</Text>
+      <H2 text="Missa da Purificação da B. Virgem Maria" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 47, 10-11</Text>
 
@@ -391,7 +390,7 @@ export default function Page0202() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -408,7 +407,7 @@ export default function Page0202() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Ml. 3, 1-4</Text>
 
@@ -442,7 +441,7 @@ export default function Page0202() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 47, 10-11 & 9</Text>
 
@@ -473,7 +472,7 @@ export default function Page0202() {
         Após a Septuagésima omite-se o Aleluia e o Verso e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Lc. 2, 29-32</Text>
 
@@ -496,7 +495,7 @@ export default function Page0202() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 2, 22-32</Text>
 
@@ -545,7 +544,7 @@ export default function Page0202() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 44, 3</Text>
 
@@ -560,7 +559,7 @@ export default function Page0202() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -575,7 +574,7 @@ export default function Page0202() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Lc. 2, 26</Text>
 
@@ -590,7 +589,7 @@ export default function Page0202() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

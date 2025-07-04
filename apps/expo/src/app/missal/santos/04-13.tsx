@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -7,7 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0413() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Hermenegildo, Mártir, a 13 de Abril</Text>
+      <H1 text="S. Hermenegildo, Mártir, a 13 de Abril" />
       <Text className="aside">
         Fora do Tempo Pascal como na Missa{" "}
         <Link className="link" href="/missal/comum/4martirnaopontifice1">
@@ -20,7 +21,7 @@ export default function Page0413() {
         , excepto a Oração e o Evangelho.
       </Text>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Deus, qui beátum Hermenegíldum Mártyrem tuum cœlésti regno terrénum
@@ -34,7 +35,7 @@ export default function Page0413() {
           eternos. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
       <LinkCard
         href="/missal/comum/2martirpontificeforapascal#evangelho"
         title="Mártir Pontífice - Missa Státuit ei Dóminus"

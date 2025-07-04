@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { TabItem, Tabs } from "~/components/Tabs";
@@ -11,7 +12,7 @@ import Salmo116 from "./../salterio/116";
 export default function PagePrima() {
   return (
     <PageWrapper>
-      <Text className="h1">Prima</Text>
+      <H1 text="Prima" />
 
       <Text className="aside">
         Meditemos nos ultrajes, sofrimentos e açoites, suportados por Jesus
@@ -54,7 +55,7 @@ export default function PagePrima() {
         </Text>
       </Language>
 
-      <Text className="h2">Memento rerum conditor</Text>
+      <H2 text="Memento rerum conditor" />
 
       <MementoRerumConditor />
 
@@ -69,15 +70,15 @@ export default function PagePrima() {
         </Text>
       </Language>
 
-      <Text className="h2">Salmo 53</Text>
+      <H2 text="Salmo 53" />
 
       <Salmo53 />
 
-      <Text className="h2">Salmo 84</Text>
+      <H2 text="Salmo 84" />
 
       <Salmo84 />
 
-      <Text className="h2">Salmo 116</Text>
+      <H2 text="Salmo 116" />
 
       <Salmo116 />
 
@@ -94,7 +95,7 @@ export default function PagePrima() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Ct. 6, 9</Text>
 
@@ -202,7 +203,7 @@ export default function PagePrima() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Is. 7, 14-15</Text>
 
@@ -318,7 +319,7 @@ export default function PagePrima() {
             </Text>
           </Language>
 
-          <Text className="h2">Pequeno Capítulo</Text>
+          <H2 text="Pequeno Capítulo" />
 
           <Text className="em">Ct. 6, 9</Text>
 

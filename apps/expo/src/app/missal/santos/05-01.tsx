@@ -1,4 +1,5 @@
 import { Text } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -6,7 +7,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0501() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Filipe e S. Tiago, Apóstolos, a 1 de Maio</Text>
+      <H1 text="S. Filipe e S. Tiago, Apóstolos, a 1 de Maio" />
 
       <Text className="comment">
         As festas dos Apóstolos que se sucedem no decorrer do ano, eram outrora
@@ -33,7 +34,7 @@ export default function Page0501() {
         Divindade do Cristo ressuscitado.
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Esd. 9, 27</Text>
 
@@ -54,7 +55,7 @@ export default function Page0501() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -69,7 +70,7 @@ export default function Page0501() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Sb. 5, 1-5</Text>
 
@@ -123,7 +124,7 @@ export default function Page0501() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 14, 1-13</Text>
 
@@ -182,7 +183,7 @@ export default function Page0501() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 88, 6</Text>
 
@@ -197,7 +198,7 @@ export default function Page0501() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -212,7 +213,7 @@ export default function Page0501() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Jo. 14, 9 & 10</Text>
 
@@ -229,7 +230,7 @@ export default function Page0501() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

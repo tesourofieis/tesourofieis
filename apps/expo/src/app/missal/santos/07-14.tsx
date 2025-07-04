@@ -1,6 +1,6 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -8,9 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page0714() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. Boaventura, B. Confessor e Doutor, a 14 de Julho
-      </Text>
+      <H1 text="S. Boaventura, B. Confessor e Doutor, a 14 de Julho" />
 
       <Text className="comment">
         S. Boaventura nasceu na Toscana, em 1221. Entrou para a Ordem franciscan
@@ -33,7 +31,7 @@ export default function Page0714() {
         , excepto:
       </Text>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 36, 30-31</Text>
 
@@ -62,7 +60,7 @@ export default function Page0714() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 88, 25</Text>
 
@@ -77,7 +75,7 @@ export default function Page0714() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta e Postcomúnio</Text>
+      <H3 text="Secreta e Postcomúnio" />
 
       <LinkCard
         href="/missal/comum/12confessorespontifices2"

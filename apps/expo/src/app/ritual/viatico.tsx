@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import AspergesMe from "../missal/aspergesme";
@@ -7,7 +8,7 @@ import AspergesMe from "../missal/aspergesme";
 export default function PageViatico() {
   return (
     <PageWrapper>
-      <Text className="h1">Viático, Extrema-unção</Text>
+      <H1 text="Viático, Extrema-unção" />
       <Text className="aside">
         O Sacerdote, entrando em casa do enfermo, diz:
       </Text>
@@ -25,7 +26,7 @@ export default function PageViatico() {
           <Text className="response"> ℟. </Text> E em todos seus habitantes.
         </Text>
       </Language>
-      <Text className="h1">Asperges Me</Text>
+      <H1 text="Asperges Me" />
       <AspergesMe />
       <Text className="aside">
         O Acólito diz o Confiteor Deo...
@@ -34,7 +35,7 @@ export default function PageViatico() {
         </Link>{" "}
         e o Sacerdote, tendo dado as Absolvições, continua:
       </Text>
-      <Text className="h1">Recepção da Comunhão</Text>
+      <H1 text="Recepção da Comunhão" />
       <Language>
         <Text className="latin">
           <Text className="versicle"> ℣. </Text>Ecce Agnus Dei, ecce qui tollit

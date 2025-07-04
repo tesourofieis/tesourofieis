@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -7,9 +8,7 @@ import PageWrapper from "~/components/Page";
 export default function Page1121() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Apresentação da B. Virgem Maria, a 21 de Novembro
-      </Text>
+      <H1 text="Apresentação da B. Virgem Maria, a 21 de Novembro" />
 
       <Text className="aside">
         Como na
@@ -24,7 +23,7 @@ export default function Page1121() {
         title="Festas da B. Virgem Maria - Missa Salve, sancta Parens"
       />
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">

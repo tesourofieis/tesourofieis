@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageMaria() {
   return (
     <PageWrapper>
-      <Text className="h1">Prefácio da B. Virgem Maria</Text>
+      <H1 text="Prefácio da B. Virgem Maria" />
 
       <Text className="aside">
         Diz-se nas Festas da Santíssima Virgem (excepto na da Purificação) e nos

@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PageJaculatorias() {
   return (
     <PageWrapper>
-      <Text className="h1">Jaculatórias</Text>
+      <H1 text="Jaculatórias" />
       <Text className="text-base">Meu Jesus, misericórdia!</Text>
       <Text className="text-base">
         Jesus, manso e humilde de coração, fazei o meu coração semelhante ao

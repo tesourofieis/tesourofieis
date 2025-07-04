@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PagePortugaldominios() {
   return (
     <PageWrapper>
-      <Text className="h1">Para Portugal e seus Domínios</Text>
-      <Text className="h3">Colecta</Text>
+      <H1 text="Para Portugal e seus Domínios" />
+      <H3 text="Colecta" />
       <Text className="aside">
         Por Determinação da Sagrada Congregação dos Ritos (19 de Maio de 1952)
         em todas as Missas, excepto nas de Réquiem, a seguir à última Oração, à

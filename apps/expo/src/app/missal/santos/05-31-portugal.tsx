@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -6,10 +7,8 @@ import PageWrapper from "~/components/Page";
 export default function Page0531Portugal() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        B. V. Maria, Mediadora das Graças, a 31 de Maio
-      </Text>
-      <Text className="h3">Intróito</Text>
+      <H1 text="B. V. Maria, Mediadora das Graças, a 31 de Maio" />
+      <H3 text="Intróito" />
       <Text className="em">Heb. 4, 16</Text>
       <Language>
         <Text className="latin">
@@ -28,7 +27,7 @@ export default function Page0531Portugal() {
           <Text className="versicle"> ℣. </Text>Glória ao Pai...
         </Text>
       </Language>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Dómine Jesu Christe, noster apud Patrem mediátor, qui beatíssimam
@@ -45,7 +44,7 @@ export default function Page0531Portugal() {
           Maria. Ó Vós, que viveis e reinais...
         </Text>
       </Language>
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
       <Text className="em">Is. 55, 1-3 & 5</Text>
       <Language>
         <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
@@ -91,12 +90,12 @@ export default function Page0531Portugal() {
           longe e as tuas filhas surgirão dos lados. Aleluia.
         </Text>
       </Language>
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
       <LinkCard
         href="/missal/santos/09-05#evangelho"
         title="Evangelho das Sete Dores da B. Virgem Maria"
       />
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
       <Text className="em">Jr. 18, 20</Text>
       <Language>
         <Text className="latin">
@@ -109,13 +108,13 @@ export default function Page0531Portugal() {
           nós a sua indignação.
         </Text>
       </Language>
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <Text className="text-base">
         Vos suplicamos, Senhor, que pelas preces da nossa Mediadora a oblação
         desta hóstia nos torne, mediante a Vossa graça, em um dom eterno a Vós
         oferecido. Ó Vós, que viveis e reinais...
       </Text>
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
       <Language>
         <Text className="latin">
           Valde mirábilis es, o Maria, et fácies tua plena est gratiárum.
@@ -126,7 +125,7 @@ export default function Page0531Portugal() {
           Aleluia.
         </Text>
       </Language>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Language>
         <Text className="latin">
           Subvéniat nobis, Dómine, beátæ Mariæ Matris tuæ ac nostræ Mediatrícis

@@ -1,12 +1,12 @@
 import { Link } from "expo-router";
-
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function Page0727() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Pantaleão, Mártir, a 27 de Julho</Text>
+      <H1 text="S. Pantaleão, Mártir, a 27 de Julho" />
       <Text className="comment">
         Em Nicomédia, traz o Martirológio romano, o martírio de São Pantaleão,
         médico, o qual preso pela fé, por ordem do imperador Maximiano, foi
@@ -24,7 +24,7 @@ export default function Page0727() {
         </Link>{" "}
         , excepto:
       </Text>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Text className="aside">Na Diocese do Porto</Text>Ó Deus, que permitistes
       que o B. Pantaleão, vosso Mártir, sofresse vários tormentos e orasse pelos
       seus perseguidores, concedei-nos propício que, implorando o seu auxílio,

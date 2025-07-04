@@ -1,15 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page1021ViseuLisboa() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        S. Úrsula e Outras, Virgens e Mártires, a 21 de Outubro
-      </Text>
+      <H1 text="S. Úrsula e Outras, Virgens e Mártires, a 21 de Outubro" />
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -27,7 +26,7 @@ export default function Page1021ViseuLisboa() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -45,7 +44,7 @@ export default function Page1021ViseuLisboa() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

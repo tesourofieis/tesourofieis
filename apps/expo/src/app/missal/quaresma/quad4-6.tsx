@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageQuad46() {
   return (
     <PageWrapper>
-      <Text className="h1">Sábado da 4.ª Semana da Quaresma</Text>
+      <H1 text="Sábado da 4.ª Semana da Quaresma" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Is. 55, 1</Text>
 
@@ -28,7 +29,7 @@ export default function PageQuad46() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -43,7 +44,7 @@ export default function PageQuad46() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Is. 49, 8-15</Text>
 
@@ -88,7 +89,7 @@ export default function PageQuad46() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 9, 14 & 1-2</Text>
 
@@ -107,7 +108,7 @@ export default function PageQuad46() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Jo. 8, 12-20</Text>
 
@@ -157,7 +158,7 @@ export default function PageQuad46() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 17, 3</Text>
 
@@ -172,7 +173,7 @@ export default function PageQuad46() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -186,7 +187,7 @@ export default function PageQuad46() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 22, 1-2</Text>
 
@@ -201,7 +202,7 @@ export default function PageQuad46() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -215,7 +216,7 @@ export default function PageQuad46() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração sobre o povo</Text>
+      <H3 text="Oração sobre o povo" />
 
       <Language>
         <Text className="latin">

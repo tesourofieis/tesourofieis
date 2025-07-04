@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PageTrezemaio() {
   return (
     <PageWrapper>
-      <Text className="h1">A treze de Maio</Text>
+      <H1 text="A treze de Maio" />
 
       <View className="not-content">
         <Text className="text-base">

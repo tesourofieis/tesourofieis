@@ -1,12 +1,13 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page5Martirnaopontifice2() {
   return (
     <PageWrapper>
-      <Text className="h1">Mártir não Pontífice</Text>
-      <Text className="h3">Intróito</Text>
+      <H1 text="Mártir não Pontífice" />
+      <H3 text="Intróito" />
       <Text className="em">Sl. 63, 11</Text>
       <Language>
         <Text className="latin">
@@ -23,7 +24,7 @@ export default function Page5Martirnaopontifice2() {
           <Text className="versicle"> ℣. </Text>Glória ao Pai...
         </Text>
       </Language>
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
       <Language>
         <Text className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, intercedénte beáto{" "}
@@ -38,7 +39,7 @@ export default function Page5Martirnaopontifice2() {
           purificada dos maus pensamentos. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
       <Text className="em">2 Tm. 2, 8-10; 3, 10-12</Text>
       <Language>
         <Text className="latin">
@@ -74,7 +75,7 @@ export default function Page5Martirnaopontifice2() {
           em Jesus Cristo padecerão perseguição.
         </Text>
       </Language>
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
       <Text className="em">Sl. 36, 24</Text>
       <Language>
         <Text className="latin">
@@ -104,7 +105,7 @@ export default function Page5Martirnaopontifice2() {
       <Text className="aside">
         Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
       </Text>
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
       <Text className="em">Sl. 111, 1-3</Text>
       <Language>
         <Text className="latin">
@@ -122,7 +123,7 @@ export default function Page5Martirnaopontifice2() {
           casa e a sua justiça subsistirá para sempre.
         </Text>
       </Language>
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
       <Text className="em">Mt. 10, 26-32</Text>
       <Language>
         <Text className="latin">
@@ -159,7 +160,7 @@ export default function Page5Martirnaopontifice2() {
           presença de meu Pai, que está nos céus».
         </Text>
       </Language>
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
       <Text className="em">Sl. 20,4-5</Text>
       <Language>
         <Text className="latin">
@@ -171,7 +172,7 @@ export default function Page5Martirnaopontifice2() {
           pediu-Vos a vida e concedestes-lha. Aleluia.
         </Text>
       </Language>
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
       <Language>
         <Text className="latin">
           Accépta sit in conspéctu tuo, Dómine, nostra devótio: et ejus nobis
@@ -184,7 +185,7 @@ export default function Page5Martirnaopontifice2() {
           nós Vo-la apresentamos. Por nosso Senhor...
         </Text>
       </Language>
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
       <Text className="em">Jo. 12, 26</Text>
       <Language>
         <Text className="latin">
@@ -196,7 +197,7 @@ export default function Page5Martirnaopontifice2() {
           servo.
         </Text>
       </Language>
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
       <Language>
         <Text className="latin">
           Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster:
@@ -212,7 +213,7 @@ export default function Page5Martirnaopontifice2() {
         </Text>
       </Language>
       <Text className="aside">Outra Epístola (para certos dias):</Text>
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
       <Text className="em">Tg. 1, 2-12</Text>
       <Language>
         <Text className="latin">Léctio Epístolæ beáti Jacóbi Apóstoli.</Text>

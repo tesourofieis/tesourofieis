@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PageSenhorpassos() {
   return (
     <PageWrapper>
-      <Text className="h1">Nosso Senhor dos Passos</Text>
+      <H1 text="Nosso Senhor dos Passos" />
       <Text className="text-base">
         Ó Jesus, Filho Unigénito de Deus e da Virgem Imaculada, que pela
         salvação do mundo quisestes ser condenado, traído, atado a uma coluna,

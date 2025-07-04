@@ -1,15 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PagePent230() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Vigésimo Terceiro Domingo depois de Pentecostes
-      </Text>
+      <H1 text="Vigésimo Terceiro Domingo depois de Pentecostes" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Jr. 29,11,12 & 14</Text>
 
@@ -30,7 +29,7 @@ export default function PagePent230() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -45,7 +44,7 @@ export default function PagePent230() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Fl. 3, 17-21: 4, 1-3</Text>
 
@@ -91,7 +90,7 @@ export default function PagePent230() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 43, 8-9</Text>
 
@@ -119,7 +118,7 @@ export default function PagePent230() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 9, 18-26</Text>
 
@@ -166,7 +165,7 @@ export default function PagePent230() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 129, 1-2</Text>
 
@@ -181,7 +180,7 @@ export default function PagePent230() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -197,7 +196,7 @@ export default function PagePent230() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Mc. 11, 24</Text>
 
@@ -212,7 +211,7 @@ export default function PagePent230() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

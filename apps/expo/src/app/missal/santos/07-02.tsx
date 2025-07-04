@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0702() {
   return (
     <PageWrapper>
-      <Text className="h1">Visitação da B. Virgem Maria, a 2 de Julho</Text>
+      <H1 text="Visitação da B. Virgem Maria, a 2 de Julho" />
 
       <Text className="comment">
         O Anjo Gabriel anunciára a Maria que Deus daria, em breve, um filho a
@@ -26,7 +27,7 @@ export default function Page0702() {
         cântico» (Intr.), do Magníficat.
       </Text>
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sedulius</Text>
 
@@ -46,7 +47,7 @@ export default function Page0702() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -62,7 +63,7 @@ export default function Page0702() {
         </Text>
       </Language>
 
-      <Text className="h3">Segunda Oração</Text>
+      <H3 text="Segunda Oração" />
 
       <Text className="em">S. S. Mártires</Text>
 
@@ -80,7 +81,7 @@ export default function Page0702() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Ct. 2, 8-14</Text>
 
@@ -116,7 +117,7 @@ export default function Page0702() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Language>
         <Text className="latin">
@@ -145,7 +146,7 @@ export default function Page0702() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 1, 39-47</Text>
 
@@ -186,7 +187,7 @@ export default function Page0702() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Language>
         <Text className="latin">
@@ -200,7 +201,7 @@ export default function Page0702() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -218,7 +219,7 @@ export default function Page0702() {
         </Text>
       </Language>
 
-      <Text className="h3">Segunda Secreta</Text>
+      <H3 text="Segunda Secreta" />
 
       <Text className="em">S. S. Mártires</Text>
 
@@ -234,7 +235,7 @@ export default function Page0702() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Language>
         <Text className="latin">
@@ -246,7 +247,7 @@ export default function Page0702() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -261,7 +262,7 @@ export default function Page0702() {
         </Text>
       </Language>
 
-      <Text className="h3">Segundo Postcomúnio</Text>
+      <H3 text="Segundo Postcomúnio" />
 
       <Text className="em">S. S. Mártires</Text>
 

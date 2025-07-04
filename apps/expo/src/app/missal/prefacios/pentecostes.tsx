@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PagePentecostes() {
   return (
     <PageWrapper>
-      <Text className="h1">Prefácio do Pentecostes</Text>
+      <H1 text="Prefácio do Pentecostes" />
 
       <Text className="aside">
         Diz-se desde a Vigília de Pentecostes até ao fim do Oitavário. Diz-se

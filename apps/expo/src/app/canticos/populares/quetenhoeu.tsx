@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PageQuetenhoeu() {
   return (
     <PageWrapper>
-      <Text className="h1">Que tenho eu, meu Deus</Text>
+      <H1 text="Que tenho eu, meu Deus" />
 
       <View className="not-content">
         <Text className="text-base">

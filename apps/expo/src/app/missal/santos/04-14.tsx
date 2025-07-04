@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page0414() {
   return (
     <PageWrapper>
-      <Text className="h1">S. Justino, Mártir, a 14 de Abril</Text>
+      <H1 text="S. Justino, Mártir, a 14 de Abril" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 118, 85 & 46</Text>
 
@@ -29,7 +30,7 @@ export default function Page0414() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -46,9 +47,7 @@ export default function Page0414() {
         </Text>
       </Language>
 
-      <Text className="h3">
-        Oração Comemoração S. S. Tibúrcio e Susana, Mártires
-      </Text>
+      <H3 text="Oração Comemoração S. S. Tibúrcio e Susana, Mártires" />
 
       <Language>
         <Text className="latin">
@@ -63,7 +62,7 @@ export default function Page0414() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">1 Cor. 1, 18-25 & 30</Text>
 
@@ -110,7 +109,7 @@ export default function Page0414() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">1 Cor. 3, 19 & 20</Text>
 
@@ -137,7 +136,7 @@ export default function Page0414() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Lc. 12, 2-8</Text>
 
@@ -183,7 +182,7 @@ export default function Page0414() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">1 Cor. 2, 2</Text>
 
@@ -198,7 +197,7 @@ export default function Page0414() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -213,7 +212,7 @@ export default function Page0414() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta Comemoração S. Tibúrcio, Mártires</Text>
+      <H3 text="Secreta Comemoração S. Tibúrcio, Mártires" />
 
       <Language>
         <Text className="latin">
@@ -229,7 +228,7 @@ export default function Page0414() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">2 Tm. 4, 8</Text>
 
@@ -244,7 +243,7 @@ export default function Page0414() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -259,7 +258,7 @@ export default function Page0414() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio Comemoração S. Tibúrcio, Mártires</Text>
+      <H3 text="Postcomúnio Comemoração S. Tibúrcio, Mártires" />
 
       <Language>
         <Text className="latin">

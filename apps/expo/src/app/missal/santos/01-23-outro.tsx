@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 import Missa from "./../comum/18virgensmartires2";
@@ -6,9 +7,7 @@ import Missa from "./../comum/18virgensmartires2";
 export default function Page0123Outro() {
   return (
     <PageWrapper>
-      <Text className="h1">
-        Santa Emerenciana, Virgem e Márt., a 23 de Janeiro
-      </Text>
+      <H1 text="Santa Emerenciana, Virgem e Márt., a 23 de Janeiro" />
 
       <Text className="comment">
         Irmã de leite de Santa Inês, a virgem Emerenciana, ainda catecúmena,

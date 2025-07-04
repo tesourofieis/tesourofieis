@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function Page17Virgensmartires1() {
   return (
     <PageWrapper>
-      <Text className="h1">Virgens Mártires</Text>
+      <H1 text="Virgens Mártires" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Sl. 118, 46-47</Text>
 
@@ -29,7 +30,7 @@ export default function Page17Virgensmartires1() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -47,7 +48,7 @@ export default function Page17Virgensmartires1() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Ecl. 51, 1-8 et 12</Text>
 
@@ -86,7 +87,7 @@ export default function Page17Virgensmartires1() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 44, 8</Text>
 
@@ -118,7 +119,7 @@ export default function Page17Virgensmartires1() {
         Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
       </Text>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Language>
         <Text className="latin">
@@ -168,7 +169,7 @@ export default function Page17Virgensmartires1() {
         </Text>
       </Language>
 
-      <Text className="h3">Evangelho</Text>
+      <H3 text="Evangelho" />
 
       <Text className="em">Mt. 25, 1-13</Text>
 
@@ -221,7 +222,7 @@ export default function Page17Virgensmartires1() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 44, 15 & 16</Text>
 
@@ -238,7 +239,7 @@ export default function Page17Virgensmartires1() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -255,7 +256,7 @@ export default function Page17Virgensmartires1() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 118, 78 & 80</Text>
 
@@ -272,7 +273,7 @@ export default function Page17Virgensmartires1() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">

@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PageLentaecalma() {
   return (
     <PageWrapper>
-      <Text className="h1">Lenta e calma sobre a terra</Text>
+      <H1 text="Lenta e calma sobre a terra" />
 
       <View className="not-content">
         <Text className="text-base">

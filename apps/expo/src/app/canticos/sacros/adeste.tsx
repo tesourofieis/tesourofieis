@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageAdeste() {
   return (
     <PageWrapper>
-      <Text className="h1">Adeste Fideles</Text>
+      <H1 text="Adeste Fideles" />
 
       <Language>
         <Text className="latin">

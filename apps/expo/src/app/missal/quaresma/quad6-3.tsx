@@ -1,13 +1,14 @@
 import { Text, View } from "react-native";
+import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageQuad63() {
   return (
     <PageWrapper>
-      <Text className="h1">Quarta-Feira Santa</Text>
+      <H1 text="Quarta-Feira Santa" />
 
-      <Text className="h3">Intróito</Text>
+      <H3 text="Intróito" />
 
       <Text className="em">Fl. 2, 10, 8 & 11</Text>
 
@@ -46,7 +47,7 @@ export default function PageQuad63() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -62,7 +63,7 @@ export default function PageQuad63() {
         </Text>
       </Language>
 
-      <Text className="h3">Lição</Text>
+      <H3 text="Lição" />
 
       <Text className="em">Is. 62, 11; 63, 1-7</Text>
 
@@ -107,7 +108,7 @@ export default function PageQuad63() {
         </Text>
       </Language>
 
-      <Text className="h3">Gradual</Text>
+      <H3 text="Gradual" />
 
       <Text className="em">Sl. 68, 18 & 2-3</Text>
 
@@ -127,7 +128,7 @@ export default function PageQuad63() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração</Text>
+      <H3 text="Oração" />
 
       <Language>
         <Text className="latin">
@@ -143,7 +144,7 @@ export default function PageQuad63() {
         </Text>
       </Language>
 
-      <Text className="h3">Epístola</Text>
+      <H3 text="Epístola" />
 
       <Text className="em">Is. 53, 1-12</Text>
 
@@ -216,7 +217,7 @@ export default function PageQuad63() {
         </Text>
       </Language>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 101, 2-5 & 14</Text>
 
@@ -251,7 +252,7 @@ export default function PageQuad63() {
         </Text>
       </Language>
 
-      <Text className="h3">Trato</Text>
+      <H3 text="Trato" />
 
       <Text className="em">Sl. 102, 10</Text>
 
@@ -282,7 +283,7 @@ export default function PageQuad63() {
         </Text>
       </Language>
 
-      <Text className="h3">Narração da Paixão</Text>
+      <H3 text="Narração da Paixão" />
 
       <Text className="em">Lc. 22, 1-71; 23, 1-53</Text>
 
@@ -913,7 +914,7 @@ export default function PageQuad63() {
         </Text>
       </Language>
 
-      <Text className="h3">Ofertório</Text>
+      <H3 text="Ofertório" />
 
       <Text className="em">Sl. 101, 2-3</Text>
 
@@ -928,7 +929,7 @@ export default function PageQuad63() {
         </Text>
       </Language>
 
-      <Text className="h3">Secreta</Text>
+      <H3 text="Secreta" />
 
       <Language>
         <Text className="latin">
@@ -944,7 +945,7 @@ export default function PageQuad63() {
         </Text>
       </Language>
 
-      <Text className="h3">Comúnio</Text>
+      <H3 text="Comúnio" />
 
       <Text className="em">Sl. 101,10, 13 & 14</Text>
 
@@ -962,7 +963,7 @@ export default function PageQuad63() {
         </Text>
       </Language>
 
-      <Text className="h3">Postcomúnio</Text>
+      <H3 text="Postcomúnio" />
 
       <Language>
         <Text className="latin">
@@ -978,7 +979,7 @@ export default function PageQuad63() {
         </Text>
       </Language>
 
-      <Text className="h3">Oração sobre o povo</Text>
+      <H3 text="Oração sobre o povo" />
 
       <Language>
         <Text className="latin">

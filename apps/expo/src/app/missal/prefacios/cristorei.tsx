@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageCristorei() {
   return (
     <PageWrapper>
-      <Text className="h1">Prefácio de N. S. Jesus Cristo-Rei</Text>
+      <H1 text="Prefácio de N. S. Jesus Cristo-Rei" />
 
       <Text className="aside">Diz-se na Missa de N. S. Jesus Cristo-Rei.</Text>
 

@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
 export default function PageBracosazinheira() {
   return (
     <PageWrapper>
-      <Text className="h1">Sobre os braços da azinheira</Text>
+      <H1 text="Sobre os braços da azinheira" />
 
       <View className="not-content">
         <Text className="text-base">

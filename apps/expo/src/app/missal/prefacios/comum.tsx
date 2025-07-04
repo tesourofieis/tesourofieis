@@ -1,11 +1,12 @@
 import { Text, View } from "react-native";
+import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 
 export default function PageComum() {
   return (
     <PageWrapper>
-      <Text className="h1">Prefácio Comum</Text>
+      <H1 text="Prefácio Comum" />
 
       <Text className="aside">
         Diz-se em todas as Festas e Férias que não têm Prefácio próprio e até
