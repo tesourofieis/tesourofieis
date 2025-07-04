@@ -39,7 +39,7 @@ const DirectoryList = ({ slug }: { slug: string }) => {
       <View className="flex-1 justify-center items-center p-4">
         <ActivityIndicator size="large" />
         <Text className="mt-2 text-gray-600 dark:text-gray-400">
-          Carregando diretório...
+          Carregando directório...
         </Text>
       </View>
     );
