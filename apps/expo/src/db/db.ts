@@ -1,18 +1,20 @@
 import * as FileSystem from "expo-file-system";
 import { Asset } from "expo-asset";
 import { openDatabaseAsync, type SQLiteDatabase } from "expo-sqlite";
-import type { Docs } from "~/app/(tabs)/more";
+// Import the canonical Docs and SubHeading types from your shared location
+import type { Docs, SubHeading } from "~/app/(tabs)/more"; // Adjust this path if your types file is elsewhere, e.g., '~/src/types'
 import { drizzle } from "drizzle-orm/expo-sqlite";
 import * as schema from "~/db/schema";
 
 // This is the precise type that Drizzle returns from a select query.
 // It's derived directly from your schema, ensuring it's always accurate.
+// DrizzleDocSelect will now reflect the new schema with `contentJson`.
 type DrizzleDocSelect = typeof schema.docs.$inferSelect;
 
 const DATABASE_NAME = "docs.db";
 let _dbInstance: SQLiteDatabase | null = null;
 
-async function copyDatabaseFromAssets() {
+async function copyDatabaseFromAssets(): Promise<void> {
   const asset = Asset.fromModule(require(`../../assets/${DATABASE_NAME}`));
   if (!asset.localUri) {
     await asset.downloadAsync();
@@ -71,20 +73,18 @@ export function getLevelsFromId(id: string, level: number): string[] {
  * @returns The final 'Docs' object ready for the UI.
  */
 export function mapDbDocToDocs(dbDoc: DrizzleDocSelect): Docs {
-  // TypeScript now knows that dbDoc has properties like `id`, `title`, `parentId`, etc.
+  // Parse the contentJson field into the structured 'content' object
+  const parsedContent: Docs["content"] = JSON.parse(dbDoc.contentJson);
+
   return {
     id: dbDoc.id,
     title: dbDoc.title,
-    body: dbDoc.body,
     url: dbDoc.url,
     level: dbDoc.level,
-    section: dbDoc.section ?? undefined, // Use ?? for nullish coalescing
-    // The `levels` property seems to be derived, so we compute it here.
+    section: dbDoc.section ?? null, // Use nullish coalescing to explicitly set null if undefined
     levels: getLevelsFromId(dbDoc.id, dbDoc.level),
-    // Safely parse the JSON string, providing an empty array as a fallback.
-    headings: dbDoc.headingsJson ? JSON.parse(dbDoc.headingsJson) : [],
-    comment: dbDoc.comment ?? undefined,
-    // Note: The parentId from the schema is likely named `parentId` (camelCase)
-    // but your final `Docs` type might not need it if you only use it for querying.
+    parent: dbDoc.parent ?? null, // Map parent from DB to parent in Docs, explicitly null
+    content: parsedContent, // Assign the parsed structured content
+    hasChildren: dbDoc.hasChildren, // Map parent from DB to parent in Docs, explicitly null
   };
 }

@@ -17,34 +17,29 @@ import {
   useColorScheme,
   View,
 } from "react-native";
-import PageWrapper from "~/components/Page";
 import { COLORS } from "~/constants/Colors";
 import { useSearch } from "~/providers/search";
-import rawDocs from "../../../assets/search-index.json";
+
+export interface SubHeading {
+  title: string;
+  id: string;
+  level: number;
+  body: string;
+}
 
 export interface Docs {
   id: string;
   title: string;
-  body: string;
   url: string;
   level: number;
   levels: string[];
-  section?: string;
-  headings?: {
-    level: number;
-    text: string;
+  section?: string | null;
+  parent?: string | null;
+  content: {
+    introduction?: string;
+    headings: SubHeading[];
+    comment?: string | null;
   };
-  comment?: string;
-}
-
-interface TreeNode {
-  title: string;
-  children: Record<string, TreeNode>;
-  description?: string;
-  link?: string;
-  level: number;
-  levels: string[];
-  section?: string;
   hasChildren: boolean;
 }
 
@@ -52,59 +47,10 @@ const ANIMATION_DURATION = 200;
 const INITIAL_RENDER_COUNT = 8;
 const RENDER_BATCH_SIZE = 4;
 
-const createHierarchy = (items: Docs[]): Record<string, TreeNode> => {
-  const root: Record<string, TreeNode> = {};
-
-  for (const { id, title, body, url, level, levels, section } of items) {
-    const parts = id.split("/").filter(Boolean);
-    let current = root;
-
-    for (let i = 0; i < parts.length; i++) {
-      const key = parts[i];
-      if (!current[key]) {
-        current[key] = {
-          title: key,
-          children: {},
-          level: level || 0,
-          levels: levels.filter((i) => i !== section),
-          section: section,
-          hasChildren: false,
-        };
-      }
-
-      if (i === parts.length - 1) {
-        current[key].title = title;
-        current[key].description = body.slice(0, 120);
-        current[key].link = url;
-        current[key].level = level || 0;
-        current[key].section = section;
-      } else {
-        current[key].hasChildren = true;
-      }
-
-      current = current[key].children;
-    }
+const debugLog = (message: string, data?: any) => {
+  if (__DEV__) {
+    console.log(`[ANCHOR DEBUG] ${message}`, data || "");
   }
-
-  return root;
-};
-
-const getTopLevelNodes = (
-  hierarchy: Record<string, TreeNode>
-): [string, TreeNode][] => {
-  return Object.entries(hierarchy).filter(
-    ([_, node]) => node.level === 0 || node.level === 1
-  );
-};
-
-const shouldShowNode = (
-  node: TreeNode,
-  expandedSections: Set<string>,
-  maxLevel: number = 1
-): boolean => {
-  if (node.level <= maxLevel) return true;
-  if (node.section && expandedSections.has(node.section)) return true;
-  return false;
 };
 
 const normalize = (s: string) =>
@@ -122,7 +68,6 @@ const highlightText = (text: string, highlight?: string) => {
   const index = normalizedText.indexOf(normalizedHighlight);
   if (index === -1) return text;
 
-  // Get actual match in original text based on index
   const start = index;
   const end = start + highlight.length;
 
@@ -139,75 +84,74 @@ const highlightText = (text: string, highlight?: string) => {
 
 const TreeItem = React.memo(
   ({
-    node,
-    path,
+    doc,
     level,
     expanded,
     toggleExpand,
     isActive,
     searchHighlight,
     currentPathname,
-    expandedSections,
-    toggleSection,
+    loadingIds,
+    childrenMap,
   }: {
-    node: TreeNode;
-    path: string;
+    doc: Docs;
     level: number;
     expanded: Record<string, boolean>;
-    toggleExpand: (path: string) => void;
+    toggleExpand: (id: string, hasChildren: boolean) => void;
     isActive: boolean;
     searchHighlight?: string;
     currentPathname: string;
-    expandedSections: Set<string>;
-    toggleSection: (section: string) => void;
+    loadingIds: string[];
+    childrenMap: Record<string, Docs[]>;
   }) => {
     const router = useRouter();
     const isDark = useColorScheme() === "dark";
-    const hasKids = !!Object.keys(node.children).length;
-    const isOpen = expanded[path];
+
+    // Check if this document has children either from the hasChildren flag or from already loaded children
+    const hasChildren = doc.hasChildren;
+    const isOpen = expanded[doc.id];
 
     const handlePress = useCallback(() => {
-      if (hasKids) {
-        toggleExpand(path);
-        if (node.section) {
-          toggleSection(node.section);
-        }
-      } else if (node.link) {
-        // @ts-ignore
-        router.push({pathname: node.link, params: node.title});
+      if (hasChildren) {
+        toggleExpand(doc.id, hasChildren);
+      } else {
+        debugLog("TreeItem navigation", {
+          link: doc.url,
+          docId: doc.id,
+          anchor: undefined,
+          hasLink: !!doc.url,
+          hasTitle: !!doc.title,
+        });
+        router.push({
+          pathname: doc.url,
+          params: { docId: doc.id },
+        } as any);
       }
-    }, [hasKids, node.link, node.section, path]);
+    }, [hasChildren, doc.url, doc.id, router, toggleExpand]);
 
     const visibleChildren = useMemo(() => {
-      if (!hasKids || !isOpen) return [];
-      return Object.entries(node.children).filter(([_, child]) =>
-        shouldShowNode(child, expandedSections, level + 1)
-      );
-    }, [node.children, hasKids, isOpen, expandedSections, level]);
+      if (!hasChildren || !isOpen) return [];
+      return childrenMap[doc.id] || [];
+    }, [hasChildren, isOpen, childrenMap, doc.id]);
 
-    const renderChild = useCallback(
-      ({ item: [key, child] }: any) => (
-        <TreeItem
-          node={child}
-          path={`${path}/${key}`}
-          level={level + 1}
-          expanded={expanded}
-          toggleExpand={toggleExpand}
-          isActive={child.link === currentPathname}
-          searchHighlight={searchHighlight}
-          currentPathname={currentPathname}
-          expandedSections={expandedSections}
-          toggleSection={toggleSection}
-        />
-      ),
-      [
-        expanded,
-        searchHighlight,
-        currentPathname,
-        expandedSections,
-        toggleSection,
-      ]
+    const renderChild = ({ item }: { item: Docs }) => (
+      <TreeItem
+        doc={item}
+        level={level + 1}
+        expanded={expanded}
+        toggleExpand={toggleExpand}
+        isActive={item.url === currentPathname}
+        searchHighlight={searchHighlight}
+        currentPathname={currentPathname}
+        loadingIds={loadingIds}
+        childrenMap={childrenMap}
+      />
     );
+
+    const description = !hasChildren
+      ? doc.content.introduction ||
+        (doc.content.headings.length > 0 ? doc.content.headings[0].body : "")
+      : "";
 
     return (
       <View style={{ paddingLeft: level * 16 }}>
@@ -225,17 +169,17 @@ const TreeItem = React.memo(
                 isActive ? "font-bold" : "font-semibold"
               } text-base text-${isDark ? "sepia-100" : "sepia-900"}`}
             >
-              {highlightText(node.title, searchHighlight)}
+              {highlightText(doc.title, searchHighlight)}
             </Text>
-            {node.description && node.description !== node.title && (
+            {description && description !== doc.title && (
               <Text
                 className="text-sepia-600 dark:text-sepia-300 text-xs mt-1"
                 numberOfLines={2}
               >
-                {highlightText(node.description, searchHighlight)}
+                {highlightText(description, searchHighlight)}
               </Text>
             )}
-            {node.levels.map((section) => (
+            {doc.levels.map((section) => (
               <Text
                 key={section}
                 className="text-sm text-center w-20 text-ellipsis text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900"
@@ -244,25 +188,34 @@ const TreeItem = React.memo(
               </Text>
             ))}
           </View>
-          <FontAwesome6
-            name={
-              hasKids ? (isOpen ? "chevron-up" : "chevron-down") : "arrow-right"
-            }
-            size={16}
-            color={!isDark ? COLORS["800"] : COLORS["200"]}
-          />
+          {hasChildren ? (
+            loadingIds.includes(doc.id) ? (
+              <ActivityIndicator size="small" color={COLORS["500"]} />
+            ) : (
+              <FontAwesome6
+                name={isOpen ? "chevron-up" : "chevron-down"}
+                size={16}
+                color={!isDark ? COLORS["800"] : COLORS["200"]}
+              />
+            )
+          ) : (
+            <FontAwesome6
+              name="arrow-right"
+              size={16}
+              color={!isDark ? COLORS["800"] : COLORS["200"]}
+            />
+          )}
         </TouchableOpacity>
-        {hasKids && isOpen && visibleChildren.length > 0 && (
-          <FlatList
-            data={visibleChildren}
-            renderItem={renderChild}
-            keyExtractor={([k]) => `${path}/${k}`}
-            removeClippedSubviews
-            maxToRenderPerBatch={RENDER_BATCH_SIZE}
-            windowSize={8}
-            getItemLayout={(d, i) => ({ length: 60, offset: 60 * i, index: i })}
-          />
-        )}
+
+        <FlatList
+          data={visibleChildren}
+          renderItem={renderChild}
+          keyExtractor={(item) => item.id}
+          removeClippedSubviews
+          maxToRenderPerBatch={RENDER_BATCH_SIZE}
+          windowSize={8}
+          getItemLayout={(d, i) => ({ length: 60, offset: 60 * i, index: i })}
+        />
       </View>
     );
   }
@@ -277,14 +230,40 @@ const SearchResultItem = React.memo(
   }: {
     item: Docs;
     query: string;
-    onPress: (item: Docs) => void;
+    onPress: (item: Docs, headingId?: string) => void;
     isActive: boolean;
   }) => {
     const isDark = useColorScheme() === "dark";
-    const handlePress = () => onPress(item);
+
+    const handlePress = useCallback(
+      (headingId?: string) => {
+        debugLog("SearchResultItem pressed", {
+          id: item.id,
+          title: item.title,
+          url: item.url,
+          headingId: headingId,
+        });
+        onPress(item, headingId);
+      },
+      [item, onPress]
+    );
+
+    const getSnippet = useCallback(() => {
+      const fullText = [
+        item.content.introduction,
+        ...item.content.headings.map((h) => `${h.title} ${h.body}`),
+        item.content.comment,
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .replace(/\s+/g, " ")
+        .trim();
+      return fullText.slice(0, 150) + "…";
+    }, [item.content]);
+
     return (
       <TouchableOpacity
-        onPress={handlePress}
+        onPress={() => handlePress()}
         className={`rounded-lg mx-4 my-2 p-4 ${
           isActive
             ? "bg-sepia-100 dark:bg-sepia-700 border-l-3 border-sepia-500"
@@ -302,8 +281,29 @@ const SearchResultItem = React.memo(
           className="text-sepia-600 dark:text-sepia-300 text-sm mt-1"
           numberOfLines={3}
         >
-          {highlightText(item.body.slice(0, 150), query)}…
+          {highlightText(getSnippet(), query)}
         </Text>
+        {item.content.headings.length > 0 && (
+          <View className="mt-2">
+            <Text className="text-xs text-sepia-500 dark:text-sepia-400 italic">
+              Seções:
+            </Text>
+            {item.content.headings.map((heading) => (
+              <TouchableOpacity
+                key={heading.id}
+                onPress={() => handlePress(heading.id)}
+                className="mt-1 ml-2"
+              >
+                <Text
+                  className="text-sm text-blue-600 dark:text-blue-400 underline"
+                  numberOfLines={1}
+                >
+                  {highlightText(heading.title, query)}
+                </Text>
+              </TouchableOpacity>
+            ))}
+          </View>
+        )}
         {item.section && (
           <Text className="text-sepia-400 dark:text-sepia-500 text-xs mt-1">
             {item.section}
@@ -323,7 +323,7 @@ const SearchResults = React.memo(
   }: {
     results: Docs[];
     query: string;
-    onPress: (item: Docs) => void;
+    onPress: (item: Docs, headingId?: string) => void;
     pathname: string;
   }) => {
     const fade = useRef(new Animated.Value(0)).current;
@@ -336,13 +336,16 @@ const SearchResults = React.memo(
       }).start();
     }, [results.length]);
 
-    const renderItem = ({ item }: any) => (
-      <SearchResultItem
-        item={item}
-        query={query}
-        onPress={onPress}
-        isActive={pathname === item.url}
-      />
+    const renderItem = useCallback(
+      ({ item }: { item: Docs }) => (
+        <SearchResultItem
+          item={item}
+          query={query}
+          onPress={onPress}
+          isActive={pathname === item.url}
+        />
+      ),
+      [query, onPress, pathname]
     );
 
     return (
@@ -355,7 +358,7 @@ const SearchResults = React.memo(
           maxToRenderPerBatch={RENDER_BATCH_SIZE}
           initialNumToRender={INITIAL_RENDER_COUNT}
           windowSize={8}
-          getItemLayout={(d, i) => ({ length: 100, offset: 100 * i, index: i })}
+          getItemLayout={(d, i) => ({ length: 150, offset: 150 * i, index: i })}
           contentContainerStyle={{ paddingVertical: 8 }}
         />
       </Animated.View>
@@ -371,14 +374,51 @@ export default function MoreScreen() {
   const [results, setResults] = useState<Docs[]>([]);
   const [isSearching, setIsSearching] = useState(false);
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
-  const [expandedSections, setExpandedSections] = useState<Set<string>>(
-    new Set()
-  );
+  const [allDocs, setAllDocs] = useState<Docs[]>([]);
+  const [loadingIds, setLoadingIds] = useState<string[]>([]);
 
-  const { search, getDocumentById, isReady, error: searchError } = useSearch();
+  const {
+    search,
+    getDocumentById,
+    getAllTopLevelDocs,
+    getChildren,
+    isReady,
+    error: searchError,
+  } = useSearch();
 
-  const hierarchy = useMemo(() => createHierarchy(rawDocs), []);
-  const topLevelNodes = useMemo(() => getTopLevelNodes(hierarchy), [hierarchy]);
+  useEffect(() => {
+    if (isReady && allDocs.length === 0) {
+      const loadDocs = async () => {
+        try {
+          debugLog("Loading initial docs...");
+          const docs = await getAllTopLevelDocs();
+          setAllDocs(docs);
+          debugLog("Initial docs loaded:", docs.length);
+          debugLog(
+            "Docs children:",
+            docs.map((i) => i.hasChildren)
+          );
+        } catch (err) {
+          console.error("Error loading initial docs:", err);
+        }
+      };
+      loadDocs();
+    }
+  }, [isReady, allDocs.length, getAllTopLevelDocs]);
+
+  const childrenMap = useMemo(() => {
+    return allDocs.reduce((map, doc) => {
+      if (doc.parent) {
+        map[doc.parent] = map[doc.parent] || [];
+        map[doc.parent].push(doc);
+      }
+      return map;
+    }, {} as Record<string, Docs[]>);
+  }, [allDocs]);
+
+  const topLevelDocs = useMemo(() => {
+    return allDocs.filter((doc) => !doc.parent);
+  }, [allDocs]);
 
   useEffect(() => {
     if (!searchQuery.trim()) {
@@ -409,27 +449,45 @@ export default function MoreScreen() {
   }, [searchQuery, search, isReady]);
 
   const toggleExpand = useCallback(
-    (path: string) => setExpanded((p) => ({ ...p, [path]: !p[path] })),
-    []
+    async (id: string, hasChildren: boolean) => {
+      if (expanded[id]) {
+        setExpanded((prev) => ({ ...prev, [id]: false }));
+      } else {
+        if (hasChildren && !allDocs.some((doc) => doc.parent === id)) {
+          setLoadingIds((prev) => [...prev, id]);
+          try {
+            const children = await getChildren(id);
+            console.info("children", children);
+            setAllDocs((prev) => [...prev, ...children]);
+          } catch (err) {
+            console.error("Error loading children:", err);
+          } finally {
+            setLoadingIds((prev) =>
+              prev.filter((loadingId) => loadingId !== id)
+            );
+          }
+        }
+        setExpanded((prev) => ({ ...prev, [id]: true }));
+      }
+    },
+    [expanded, allDocs, getChildren]
   );
 
-  const toggleSection = useCallback((section: string) => {
-    setExpandedSections((prev) => {
-      const newSet = new Set(prev);
-      if (newSet.has(section)) newSet.delete(section);
-      else newSet.add(section);
-      return newSet;
-    });
-  }, []);
-
   const handleResultPress = useCallback(
-    async (item: Docs) => {
+    async (item: Docs, headingId?: string) => {
       try {
-        const doc = searchEngine.getDocumentById(id);
-        if (!doc) return;
-        router.push({pathname: doc.url, params: doc.title });
-      } catch {
-        // handle error
+        debugLog("handleResultPress called", {
+          itemId: item.id,
+          itemTitle: item.title,
+          itemUrl: item.url,
+          headingId: headingId,
+        });
+        router.push({
+          pathname: item.url,
+          params: { docId: item.id, anchor: headingId },
+        } as any);
+      } catch (error) {
+        debugLog("Error in handleResultPress", error);
       }
     },
     [router]
@@ -450,39 +508,26 @@ export default function MoreScreen() {
   );
 
   const renderContent = () => {
-    if (!isReady) {
+    const showSearchUI = searchQuery.trim();
+    const isLoadingInitialDocs = !isReady && allDocs.length === 0;
+
+    if (isLoadingInitialDocs) {
       return (
-        <View className="flex-1">
-          <FlatList
-            data={topLevelNodes}
-            keyExtractor={([k]) => k}
-            renderItem={({ item: [key, node] }) => (
-              <TreeItem
-                node={node}
-                path={key}
-                level={0}
-                expanded={expanded}
-                toggleExpand={toggleExpand}
-                isActive={node.link === pathname}
-                searchHighlight={searchQuery}
-                currentPathname={pathname}
-                expandedSections={expandedSections}
-                toggleSection={toggleSection}
-              />
-            )}
-            contentContainerStyle={{ paddingVertical: 8 }}
-          />
-          <View className="absolute bottom-4 right-4 bg-sepia-800 dark:bg-sepia-200 rounded-full p-3">
-            <ActivityIndicator
-              size="small"
-              color={isDark ? COLORS["800"] : COLORS["200"]}
-            />
-          </View>
+        <View className="flex-1 justify-center items-center">
+          <ActivityIndicator size="large" color={colors.placeholder} />
+          <Text className="text-sepia-500 dark:text-sepia-400 mt-2">
+            A carregar documentos...
+          </Text>
+          {searchError && (
+            <Text className="text-red-500 dark:text-red-400 mt-2 text-center">
+              Erro: {searchError}
+            </Text>
+          )}
         </View>
       );
     }
 
-    if (searchQuery.trim()) {
+    if (showSearchUI) {
       if (isSearching) {
         return (
           <View className="p-4 items-center">
@@ -533,20 +578,19 @@ export default function MoreScreen() {
 
     return (
       <FlatList
-        data={topLevelNodes}
-        keyExtractor={([k]) => k}
-        renderItem={({ item: [key, node] }) => (
+        data={topLevelDocs}
+        keyExtractor={(doc) => doc.id}
+        renderItem={({ item: doc }) => (
           <TreeItem
-            node={node}
-            path={key}
+            doc={doc}
             level={0}
             expanded={expanded}
             toggleExpand={toggleExpand}
-            isActive={node.link === pathname}
+            isActive={doc.url === pathname}
             searchHighlight={searchQuery}
             currentPathname={pathname}
-            expandedSections={expandedSections}
-            toggleSection={toggleSection}
+            loadingIds={loadingIds}
+            childrenMap={childrenMap}
           />
         )}
         contentContainerStyle={{ paddingVertical: 8 }}

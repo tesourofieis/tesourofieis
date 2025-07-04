@@ -6,18 +6,18 @@ import React, {
   useMemo,
   useState,
 } from "react";
-import type { Docs as RawDocsType } from "~/app/(tabs)/more";
+import type { Docs } from "~/app/(tabs)/more";
 import { getDb, mapDbDocToDocs } from "~/db/db";
 import { docs as docsSchema } from "~/db/schema";
-import { eq, like, sql } from "drizzle-orm";
+import { eq, sql } from "drizzle-orm";
 
 type DrizzleDocSelect = typeof docsSchema.$inferSelect;
-
-type Docs = RawDocsType;
 
 interface SearchContextType {
   search: (query: string, limit?: number) => Promise<Docs[]>;
   getDocumentById: (id: string) => Promise<Docs | null>;
+  getAllTopLevelDocs: () => Promise<Docs[]>;
+  getChildren: (parent: string) => Promise<Docs[]>; // NEW: Added for lazy loading
   findBySlug: (slug: string) => Promise<Docs[]>;
   isReady: boolean;
   error: string | null;
@@ -48,6 +48,48 @@ export const SearchProvider = ({ children }: { children: React.ReactNode }) => {
     initializeDb();
   }, []);
 
+  const getAllTopLevelDocs = useCallback(async (): Promise<Docs[]> => {
+    if (!isReady) {
+      console.warn("Database not ready, cannot fetch top-level docs.");
+      return [];
+    }
+    try {
+      const db = await getDb();
+      const results = db
+        .select()
+        .from(docsSchema)
+        .where(eq(docsSchema.level, 0)) // Fetch only level 0 docs as top-level
+        .all();
+      return results.map(mapDbDocToDocs);
+    } catch (e: any) {
+      console.error("Failed to fetch top-level documents:", e);
+      throw new Error(`Failed to load initial documents: ${e.message}`);
+    }
+  }, [isReady]);
+
+  // NEW: Function to fetch children of a parent document
+  const getChildren = useCallback(
+    async (parent: string): Promise<Docs[]> => {
+      if (!isReady) {
+        console.warn("Database not ready, cannot fetch children.");
+        return [];
+      }
+      try {
+        const db = await getDb();
+        const results = db
+          .select()
+          .from(docsSchema)
+          .where(eq(docsSchema.parent, parent))
+          .all();
+        return results.map(mapDbDocToDocs);
+      } catch (e: any) {
+        console.error("Failed to fetch children:", e);
+        throw new Error(`Failed to load children: ${e.message}`);
+      }
+    },
+    [isReady]
+  );
+
   const search = useCallback(
     async (query: string, limit = 15): Promise<Docs[]> => {
       if (!isReady) throw new Error("Database not ready for search.");
@@ -55,26 +97,28 @@ export const SearchProvider = ({ children }: { children: React.ReactNode }) => {
 
       try {
         const db = await getDb();
-
         const normalizedQuery = query.trim();
         const searchTerm = normalizedQuery
           .split(/\s+/)
-          .map((word) => `"${word}"*`) // Quote words to handle potential FTS operators
-          .join(" "); // Use space for an implicit AND, or 'NEAR' for proximity
+          .map((word) => `"${word}"*`)
+          .join(" ");
 
-        const ftsResultRows: { id: string; title: string; body: string }[] =
-          db.all(
-            sql`
+        const ftsResultRows: {
+          id: string;
+          title: string;
+          search_body: string;
+        }[] = db.all(
+          sql`
               SELECT
                 id,
-                highlight(docs_fts, 1, '<b>', '</b>') as title, -- Highlight column 1 (title)
-                highlight(docs_fts, 2, '<b>', '</b>') as body   -- Highlight column 2 (body)
+                highlight(docs_fts, 1, '<b>', '</b>') as title,
+                highlight(docs_fts, 2, '<b>', '</b>') as search_body
               FROM docs_fts
               WHERE docs_fts MATCH ${searchTerm}
               ORDER BY rank
               LIMIT ${limit};
             `
-          );
+        );
 
         if (ftsResultRows.length === 0) return [];
 
@@ -89,13 +133,8 @@ export const SearchProvider = ({ children }: { children: React.ReactNode }) => {
               sql`, `
             )})`
           )
-          // Drizzle's `orderBy` doesn't have a direct `INSTR` equivalent for custom ordering like this.
-          // For preserving the FTS rank order, you'll need to do the sorting in JavaScript
-          // after fetching, or construct a more complex SQL query with Drizzle's `sql` template.
-          // For now, we'll fetch and sort in JS as your original code did.
           .all();
 
-        // Re-order based on FTS rank (docIds order)
         const orderedResults = docIds
           .map((id) => docsDataRows.find((doc) => doc.id === id))
           .filter(Boolean) as DrizzleDocSelect[];
@@ -148,7 +187,7 @@ export const SearchProvider = ({ children }: { children: React.ReactNode }) => {
         const results = db
           .select()
           .from(docsSchema)
-          .where(like(docsSchema.url, `${targetUrlPrefix}%`))
+          .where(sql`${docsSchema.url} LIKE ${targetUrlPrefix + "%"}`)
           .all();
 
         const filteredResults = results.filter((doc: DrizzleDocSelect) => {
@@ -172,6 +211,8 @@ export const SearchProvider = ({ children }: { children: React.ReactNode }) => {
     () => ({
       search,
       getDocumentById,
+      getAllTopLevelDocs,
+      getChildren, // NEW: Included in context value
       findBySlug,
       isReady,
       error,
@@ -179,7 +220,16 @@ export const SearchProvider = ({ children }: { children: React.ReactNode }) => {
       currentQuery,
       setCurrentQuery,
     }),
-    [search, getDocumentById, findBySlug, isReady, error, currentQuery]
+    [
+      search,
+      getDocumentById,
+      getAllTopLevelDocs,
+      getChildren,
+      findBySlug,
+      isReady,
+      error,
+      currentQuery,
+    ]
   );
 
   return (

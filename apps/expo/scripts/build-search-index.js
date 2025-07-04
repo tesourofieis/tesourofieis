@@ -124,7 +124,7 @@ function processFile(file, baseDir) {
     const comment = extractComment(rawContent);
     const headings = extractHeadings(rawContent);
 
-    // Derive section, levels, and parent_id from the ID/path
+    // Derive section, levels, and parent from the ID/path
     const pathParts = id.split("/").filter(Boolean); // e.g., ['missal', 'sunday-readings', 'doc1']
     const section = pathParts.length > 0 ? pathParts[0] : null; // 'missal'
     const levels = pathParts.slice(0, -1); // ['missal', 'sunday-readings']
@@ -142,7 +142,7 @@ function processFile(file, baseDir) {
       section,
       levels, // Keep for potential use in UI for breadcrumbs/metadata
       level,
-      parent, // This will be stored as parent_id in DB
+      parent, // This will be stored as parent in DB
     };
 
     if (comment) {
@@ -195,7 +195,7 @@ function buildDatabase() {
       url TEXT NOT NULL UNIQUE,
       level INTEGER NOT NULL,
       section TEXT,
-      parent_id TEXT, -- Foreign key if you had a separate folders table
+      parent TEXT, -- Foreign key if you had a separate folders table
       headings_json TEXT, -- Store as JSON string
       comment TEXT -- Store as TEXT, can be null
     );
@@ -234,7 +234,7 @@ function buildDatabase() {
 
   // Prepare insert statements outside the loop for performance
   const insertDocStmt = db.prepare(`
-    INSERT INTO docs (id, title, body, url, level, section, parent_id, headings_json, comment)
+    INSERT INTO docs (id, title, body, url, level, section, parent, headings_json, comment)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);
   `);
   const insertFTSStmt = db.prepare(`
