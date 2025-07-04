@@ -8,7 +8,7 @@ import {
 
 import { useFonts } from "expo-font";
 import { useColorScheme } from "nativewind";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 import "../global.css";
 
@@ -17,6 +17,7 @@ import { DefaultTheme, ThemeProvider } from "@react-navigation/native";
 import { Link, Stack, usePathname, useRouter } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import * as Updates from "expo-updates";
+import { useUpdates } from "expo-updates";
 import React from "react";
 import {
   ActivityIndicator,
@@ -49,49 +50,53 @@ export default function PageRootLayout() {
     ...FontAwesome6.font,
   });
 
+  const { isUpdateAvailable, isUpdatePending, isChecking, isDownloading } =
+    useUpdates();
+
   useEffect(() => {
     if (loaded || error) {
       SplashScreen.hideAsync();
     }
   }, [loaded, error]);
 
-  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    if (isUpdateAvailable) {
+      Updates.fetchUpdateAsync();
+    }
+  }, [isUpdateAvailable]);
 
   useEffect(() => {
-    async function checkForUpdates() {
-      if (__DEV__) {
-        console.log("Update checking is disabled in development mode.");
-        return;
-      }
-
-      try {
-        const { isAvailable } = await Updates.checkForUpdateAsync();
-        if (isAvailable) {
-          setLoading(true);
-          await Updates.fetchUpdateAsync();
-          await Updates.reloadAsync();
-        }
-      } catch (error) {
-        console.error("Error checking for updates:", error);
-      } finally {
-        setLoading(false);
-      }
+    if (isUpdatePending) {
+      Updates.reloadAsync();
     }
+  }, [isUpdatePending]);
 
-    checkForUpdates();
-  }, []);
+  const getUpdateMessage = () => {
+    if (isChecking) return "A verificar actualizações...";
+    if (isDownloading) return "A transferir actualização...";
+    if (isUpdatePending) return "A instalar actualização...";
+    return "A carregar...";
+  };
 
   if (!loaded && !error) {
     return null;
   }
 
-  if ((!loaded || loading) && Platform.OS !== "web") {
+  const shouldShowLoading =
+    !loaded || isChecking || isDownloading || isUpdatePending;
+
+  if (shouldShowLoading && Platform.OS !== "web") {
     return (
       <View className="flex-auto justify-center items-center bg-sepia-200 dark:bg-sepia-900">
         <ActivityIndicator className="text-red-600" />
         <Text className="mt-4 text-sepia-700 dark:text-sepia-300">
-          {loading ? "A actualizar..." : "A carregar..."}
+          {getUpdateMessage()}
         </Text>
+        {isDownloading && (
+          <Text className="mt-2 text-xs text-sepia-600 dark:text-sepia-400">
+            Isto pode demorar alguns momentos...
+          </Text>
+        )}
       </View>
     );
   }
@@ -235,7 +240,7 @@ const Breadcrumbs = () => {
               className="p-1 rounded bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
               onPress={() =>
                 handleBreadcrumbPress(
-                  `/${segments.slice(0, index + 1).join("/")}`,
+                  `/${segments.slice(0, index + 1).join("/")}`
                 )
               }
             >
