@@ -3,7 +3,6 @@ import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { H1 } from "~/components/Headings";
 
-
 export default function PageVexillaregis() {
   return (
     <PageWrapper>

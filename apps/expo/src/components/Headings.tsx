@@ -7,13 +7,18 @@ type HeadingProps = {
   id?: string;
 };
 
-const createHeadingComponent = (level: number, className: string) => {
+const createHeadingComponent = (className: string) => {
   return ({ text, id }: HeadingProps) => {
     const headingRef = useRef<Text>(null);
-    const anchorId = id || text.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+    const anchorId =
+      id ||
+      text
+        .toLowerCase()
+        .replace(/\s+/g, "-")
+        .replace(/[^a-z0-9-]/g, "");
 
     useEffect(() => {
-      if (Platform.OS !== 'web') {
+      if (Platform.OS !== "web") {
         if (!global.anchorRegistry) {
           global.anchorRegistry = {};
         }
@@ -23,7 +28,7 @@ const createHeadingComponent = (level: number, className: string) => {
             headingRef.current.measureInWindow((x, y) => {
               global.anchorRegistry[anchorId] = {
                 yPosition: y,
-                text: text
+                text: text,
               };
             });
           }
@@ -36,30 +41,25 @@ const createHeadingComponent = (level: number, className: string) => {
       }
     }, [anchorId, text]);
 
-    if (Platform.OS === 'web') {
+    if (Platform.OS === "web") {
       return (
         <View nativeID={anchorId}>
-          <Text className={className}>
-            {text}
-          </Text>
+          <Text className={className}>{text}</Text>
         </View>
       );
     }
 
     return (
-      <Text 
-        ref={headingRef}
-        className={className}
-      >
+      <Text ref={headingRef} className={className}>
         {text}
       </Text>
     );
   };
 };
 
-export const H1 = createHeadingComponent(1, "text-3xl font-bold mb-4");
-export const H2 = createHeadingComponent(2, "text-2xl font-bold mb-3");
-export const H3 = createHeadingComponent(3, "text-xl font-bold mb-2");
-export const H4 = createHeadingComponent(4, "text-lg font-bold mb-2");
-export const H5 = createHeadingComponent(5, "text-base font-bold mb-1");
-export const H6 = createHeadingComponent(6, "text-sm font-bold mb-1");
+export const H1 = createHeadingComponent("heading1");
+export const H2 = createHeadingComponent("h2");
+export const H3 = createHeadingComponent("h3");
+export const H4 = createHeadingComponent("h4");
+export const H5 = createHeadingComponent("h5");
+export const H6 = createHeadingComponent("h6");

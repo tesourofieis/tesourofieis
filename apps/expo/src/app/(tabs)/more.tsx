@@ -179,14 +179,16 @@ const TreeItem = React.memo(
                 {highlightText(description, searchHighlight)}
               </Text>
             )}
-            {doc.levels.map((section) => (
-              <Text
-                key={section}
-                className="text-sm text-center w-20 text-ellipsis text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900"
-              >
-                {section}
-              </Text>
-            ))}
+            <View className="flex-row mt-2">
+              {doc.levels.map((section) => (
+                <Text
+                  key={section}
+                  className="text-xs text-center w-fit text-ellipsis text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900"
+                >
+                  {section}
+                </Text>
+              ))}
+            </View>
           </View>
           {hasChildren ? (
             loadingIds.includes(doc.id) ? (
@@ -286,7 +288,7 @@ const SearchResultItem = React.memo(
         {item.content.headings.length > 0 && (
           <View className="mt-2">
             <Text className="text-xs text-sepia-500 dark:text-sepia-400 italic">
-              Seções:
+              Secções:
             </Text>
             {item.content.headings.map((heading) => (
               <TouchableOpacity
@@ -305,7 +307,7 @@ const SearchResultItem = React.memo(
           </View>
         )}
         {item.section && (
-          <Text className="text-sepia-400 dark:text-sepia-500 text-xs mt-1">
+          <Text className="text-ellipsis text-sepia-400 dark:text-sepia-500 text-xs px-2 py-1">
             {item.section}
           </Text>
         )}
@@ -457,7 +459,6 @@ export default function MoreScreen() {
           setLoadingIds((prev) => [...prev, id]);
           try {
             const children = await getChildren(id);
-            console.info("children", children);
             setAllDocs((prev) => [...prev, ...children]);
           } catch (err) {
             console.error("Error loading children:", err);

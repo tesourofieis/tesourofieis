@@ -52,13 +52,11 @@ export default function PageWrapper({ children }: PageWrapperProps) {
       <SafeAreaView className="flex-1 dark:bg-sepia-900 bg-sepia-100">
         <ScrollView ref={scrollViewRef}>
           {isWeb ? (
-            <View className="flex-1 font-serif py-2 px-1 web:w-6/12 mx-auto">
+            <View className="flex-1 py-2 px-1 web:w-6/12 mx-auto">
               {children}
             </View>
           ) : (
-            <View className="flex-1 font-serif py-2 px-1 w-full">
-              {children}
-            </View>
+            <View className="flex-1 py-2 px-1 w-full">{children}</View>
           )}
         </ScrollView>
       </SafeAreaView>
