@@ -1,9 +1,7 @@
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
-import partytown from "@astrojs/partytown";
 import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import starlight from "@astrojs/starlight";
-import tailwind from "@astrojs/tailwind";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig, passthroughImageService } from "astro/config";
 import robotsTxt from "astro-robots-txt";
@@ -168,11 +166,6 @@ export default defineConfig({
     react(),
     sitemap(),
     robotsTxt(),
-    partytown({
-      config: {
-        forward: ["dataLayer.push"],
-      },
-    }),
   ],
   markdown: {
     rehypePlugins: [rehypeHeadingIds],
