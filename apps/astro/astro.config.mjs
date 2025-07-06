@@ -122,22 +122,16 @@ export default defineConfig({
         {
           tag: "script",
           attrs: {
-            type: "text/partytown",
             src: "https://www.googletagmanager.com/gtag/js?id=G-CYLKZM1NJQ",
-            defer: true,
+            async: true,
           },
         },
         {
           tag: "script",
-          attrs: {
-            type: "text/partytown",
-            defer: true,
-          },
           content: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-          
             gtag('config', 'G-CYLKZM1NJQ');`,
         },
       ],
