@@ -11,7 +11,7 @@ export default function Page1019() {
       <H1 text="S. Pedro de Alcântara, Conf., a 19 de Outubro" />
 
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/comum/15confessoresnaopontifices2">
           Missa Justus ut palma,
         </Link>

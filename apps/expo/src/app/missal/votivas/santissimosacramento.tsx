@@ -10,7 +10,7 @@ export default function PageSantissimosacramento() {
       <H1 text="Missa do Santíssimo Sacramento" />
 
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/pentecostes/pent1-4">
           Missa do Santíssimo Corpo de Cristo,
         </Link>

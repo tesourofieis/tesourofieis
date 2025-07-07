@@ -8,7 +8,7 @@ export default function Page1219Braga() {
     <PageWrapper>
       <H1 text="Trasladação de S. Geraldo, a 19 de Dezembro, Na Arquidiocese de Braga" />
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/comum/11confessorespontifices1">
           Missa Státuit ei Dóminus,
         </Link>

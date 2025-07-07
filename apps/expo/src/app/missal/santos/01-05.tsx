@@ -10,7 +10,7 @@ export default function Page0105() {
       <H1 text="Vigília Epifania" />
 
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/natal/nat1-0">
           Missa Domingo dentro do Oitavário do Natal,
         </Link>

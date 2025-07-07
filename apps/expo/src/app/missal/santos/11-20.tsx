@@ -10,7 +10,7 @@ export default function Page1120() {
       <H1 text="S. Félix de Valois, Conf., a 20 de Novembro" />
 
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/comum/15confessoresnaopontifices2">
           Missa Justus ut palma,
         </Link>

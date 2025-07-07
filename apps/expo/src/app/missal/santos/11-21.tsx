@@ -11,7 +11,7 @@ export default function Page1121() {
       <H1 text="Apresentação da B. Virgem Maria, a 21 de Novembro" />
 
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/comum/29missamaria3">
           Missa Salve, sancta Parens da Virgem Maria,
         </Link>

@@ -10,7 +10,7 @@ export default function Page1113() {
       <H1 text="S. Diogo, Conf., a 13 de Novembro" />
 
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/comum/15confessoresnaopontifices2">
           Missa Justus ut palma,
         </Link>

@@ -10,7 +10,7 @@ export default function Page0920() {
       <H1 text="Vigilia de S. Mateus, Apóstolo e Evangelista, a 20 de Setembro" />
 
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/comum/1vigiliaapostolos">
           Missa da Vigília dos Apóstolos - Missa Ego autem,
         </Link>

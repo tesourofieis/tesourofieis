@@ -38,7 +38,7 @@ export default function Page0719() {
       </Text>
 
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/comum/15confessoresnaopontifices2">
           Missa Justus ut palma,
         </Link>

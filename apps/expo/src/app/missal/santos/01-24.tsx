@@ -23,7 +23,7 @@ export default function Page0124() {
       </Text>
 
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/comum/2martirpontificeforapascal">
           Missa Státuit ei Dóminus,
         </Link>

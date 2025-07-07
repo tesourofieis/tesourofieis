@@ -5609,7 +5609,7 @@ export default function PageCatecismo() {
       <Text className="h2">
         V - <Text className="em">Do Santo Sacrifício da Missa</Text>
       </Text>
-      <H3 text="1º - Da essência, da instituição e dos fins do Santo Sacrifício da Missa" />
+      <H4 text="1º - Da essência, da instituição e dos fins do Santo Sacrifício da Missa" />
       <H5 text="649 - Deve considerar-se a Eucaristia só como Sacramento?" />
       <Text className="text-base">
         A Eucaristia não é somente um Sacramento; é também o sacrifício

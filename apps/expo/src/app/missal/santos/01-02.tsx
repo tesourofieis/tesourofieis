@@ -10,7 +10,7 @@ export default function Page0102() {
       <H1 text="Oitava de S. Estevão, Mártir, a 2 de Janeiro" />
 
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/santos/12-26">
           Missa S. Estêvão, Primeiro Mártir, a 26 de Dezembro,
         </Link>

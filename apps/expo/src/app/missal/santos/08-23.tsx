@@ -10,7 +10,7 @@ export default function Page0823() {
       <H1 text="S. Filipe Benício, Conf., a 23 de Agosto" />
 
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/comum/15confessoresnaopontifices2">
           Missa Justus ut palma,
         </Link>

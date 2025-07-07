@@ -10,7 +10,7 @@ export default function Page1029Portugal() {
       <H1 text="Trasl. de Santa Isabel, Rainha, a 29 de Outubro" />
 
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/santos/07-04">
           Missa da Santa Isabel, Rainha de Portugal,
         </Link>

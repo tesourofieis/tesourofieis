@@ -11,7 +11,7 @@ export default function Page0119Portugal() {
       <H1 text="S. Gonçalo de Amarante, Confesso, a 19 de Janeiro" />
 
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/comum/15confessoresnaopontifices2">
           Missa Justus ut palma,
         </Link>

@@ -10,7 +10,7 @@ export default function Page0929() {
       <H1 text="Dedicação de S. Miguel Arcanjo, a 29 de Setembro" />
 
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/santos/05-08">
           Missa da Festa da Aparição de Arcanjo Miguel,
         </Link>

@@ -8,7 +8,7 @@ export default function Page0818Outro() {
     <PageWrapper>
       <H1 text="S. Roque, Confessor, a 18 de Agosto" />
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/comum/15confessoresnaopontifices2">
           Missa Justus ut palma,
         </Link>

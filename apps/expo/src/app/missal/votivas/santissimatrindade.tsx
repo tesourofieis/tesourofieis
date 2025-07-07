@@ -10,7 +10,7 @@ export default function PageSantissimatrindade() {
       <H1 text="Missa da Santíssima Trindade" />
 
       <Text className="aside">
-        Como na Missa do
+        Como na Missa do{" "}
         <Link className="link" href="/missal/pentecostes/pent1-0">
           Domingo da Santíssima Trindade,
         </Link>

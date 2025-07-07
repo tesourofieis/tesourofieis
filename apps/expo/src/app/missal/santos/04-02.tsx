@@ -10,7 +10,7 @@ export default function Page0402() {
       <H1 text="S. Francisco de Paula, Conf., a 2 de Abril" />
 
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/comum/15confessoresnaopontifices2">
           Missa Justus ut palma,
         </Link>

@@ -10,7 +10,7 @@ export default function Page1116() {
       <H1 text="S. Gertrudes, Virgem, a 16 de Novembro" />
 
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/comum/20virgemnaomartir1">
           Missa Dilexísti justitiam,
         </Link>
