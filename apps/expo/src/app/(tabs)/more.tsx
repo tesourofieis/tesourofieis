@@ -18,7 +18,12 @@ import {
   View,
 } from "react-native";
 import { COLORS } from "~/constants/Colors";
-import { getAllTopLevelDocs, getChildren, search } from "~/services/search";
+import {
+  SearchResult,
+  getAllTopLevelDocs,
+  getChildren,
+  search,
+} from "~/services/search";
 
 export interface SubHeading {
   title: string;
@@ -58,29 +63,6 @@ const normalize = (s: string) =>
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase();
-
-const highlightText = (text: string, highlight?: string) => {
-  if (!highlight || highlight.length < 2) return text;
-
-  const normalizedText = normalize(text);
-  const normalizedHighlight = normalize(highlight);
-
-  const index = normalizedText.indexOf(normalizedHighlight);
-  if (index === -1) return text;
-
-  const start = index;
-  const end = start + highlight.length;
-
-  return (
-    <>
-      {text.slice(0, start)}
-      <Text className="bg-sepia-200 dark:bg-sepia-700">
-        {text.slice(start, end)}
-      </Text>
-      {text.slice(end)}
-    </>
-  );
-};
 
 const TreeItem = React.memo(
   ({
@@ -212,6 +194,48 @@ const TreeItem = React.memo(
   }
 );
 
+const highlightText = (text: string, highlight?: string) => {
+  if (!highlight || highlight.length < 2) return text;
+
+  const normalizedText = normalize(text);
+  const normalizedHighlight = normalize(highlight);
+  const words = normalizedHighlight
+    .split(/\s+/)
+    .filter((word) => word.length > 1);
+
+  let result = text;
+  words.forEach((word) => {
+    const regex = new RegExp(
+      `(${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`,
+      "gi"
+    );
+    result = result.replace(regex, "<mark>$1</mark>");
+  });
+
+  if (result === text) return text;
+
+  const parts = result.split(/(<mark>.*?<\/mark>)/);
+  return (
+    <>
+      {parts.map((part, index) => {
+        if (part.startsWith("<mark>") && part.endsWith("</mark>")) {
+          const text = part.slice(6, -7);
+          return (
+            <Text
+              key={index}
+              className="bg-sepia-200 dark:bg-sepia-700 font-semibold"
+            >
+              {text}
+            </Text>
+          );
+        }
+        return <Text key={index}>{part}</Text>;
+      })}
+    </>
+  );
+};
+
+// Update the SearchResultItem component
 const SearchResultItem = React.memo(
   ({
     item,
@@ -219,7 +243,7 @@ const SearchResultItem = React.memo(
     onPress,
     isActive,
   }: {
-    item: Docs; // Type is now from schema
+    item: SearchResult;
     query: string;
     onPress: (item: Docs, headingId?: string) => void;
     isActive: boolean;
@@ -239,22 +263,26 @@ const SearchResultItem = React.memo(
       [item, onPress]
     );
 
-    const getSnippet = useCallback(() => {
-      const fullText = [
-        item.content.introduction, // Access content directly
-        ...item.content.headings.map((h) => `${h.title} ${h.body}`), // Access content directly
-        item.content.comment, // Access content directly
-      ]
-        .filter(Boolean)
-        .join(" ")
-        .replace(/\s+/g, " ")
-        .trim();
-      return fullText.slice(0, 150) + "…";
-    }, [item.content]);
+    const handleHeadingPress = useCallback(() => {
+      if (item.matchedHeading) {
+        handlePress(item.matchedHeading.id);
+      } else {
+        handlePress();
+      }
+    }, [item.matchedHeading, handlePress]);
+
+    const displayTitle =
+      item.highlightedTitle?.replace(/<b>/g, "").replace(/<\/b>/g, "") ||
+      item.title;
+    const displaySnippet =
+      item.matchedText ||
+      item.content.introduction ||
+      (item.content.headings.length > 0 ? item.content.headings[0].body : "") ||
+      "No content available";
 
     return (
       <TouchableOpacity
-        onPress={() => handlePress()}
+        onPress={handleHeadingPress}
         className={`rounded-lg mx-4 my-2 p-4 ${
           isActive
             ? "bg-sepia-100 dark:bg-sepia-700 border-l-3 border-sepia-500"
@@ -266,37 +294,49 @@ const SearchResultItem = React.memo(
             isActive ? "font-bold" : "font-semibold"
           } text-base text-${isDark ? "sepia-100" : "sepia-900"}`}
         >
-          {highlightText(item.title, query)}
+          {highlightText(displayTitle, query)}
         </Text>
+
+        {item.matchedHeading && (
+          <Text className="text-blue-600 dark:text-blue-400 text-sm mt-1 font-medium">
+            {highlightText(item.matchedHeading.title, query)}
+          </Text>
+        )}
+
         <Text
           className="text-sepia-600 dark:text-sepia-300 text-sm mt-1"
           numberOfLines={3}
         >
-          {highlightText(getSnippet(), query)}
+          {highlightText(displaySnippet, query)}
         </Text>
-        {item.content.headings.length > 0 && (
+
+        {item.content.headings.length > 1 && (
           <View className="mt-2">
             <Text className="text-xs text-sepia-500 dark:text-sepia-400 italic">
-              Secções:
+              Outras secções:
             </Text>
-            {item.content.headings.map((heading) => (
-              <TouchableOpacity
-                key={heading.id}
-                onPress={() => handlePress(heading.id)}
-                className="mt-1 ml-2"
-              >
-                <Text
-                  className="text-sm text-blue-600 dark:text-blue-400 underline"
-                  numberOfLines={1}
+            {item.content.headings
+              .filter((heading) => heading.id !== item.matchedHeading?.id)
+              .slice(0, 3)
+              .map((heading) => (
+                <TouchableOpacity
+                  key={heading.id}
+                  onPress={() => handlePress(heading.id)}
+                  className="mt-1 ml-2"
                 >
-                  {highlightText(heading.title, query)}
-                </Text>
-              </TouchableOpacity>
-            ))}
+                  <Text
+                    className="text-sm text-sepia-500 dark:text-sepia-400"
+                    numberOfLines={1}
+                  >
+                    {heading.title}
+                  </Text>
+                </TouchableOpacity>
+              ))}
           </View>
         )}
+
         {item.section && (
-          <Text className="text-ellipsis text-sepia-400 dark:text-sepia-500 text-xs px-2 py-1">
+          <Text className="text-ellipsis text-sepia-400 dark:text-sepia-500 text-xs px-2 py-1 mt-2">
             {item.section}
           </Text>
         )}
@@ -305,6 +345,7 @@ const SearchResultItem = React.memo(
   }
 );
 
+// Update the SearchResults component
 const SearchResults = React.memo(
   ({
     results,
@@ -312,7 +353,7 @@ const SearchResults = React.memo(
     onPress,
     pathname,
   }: {
-    results: Docs[]; // Type is now from schema
+    results: SearchResult[];
     query: string;
     onPress: (item: Docs, headingId?: string) => void;
     pathname: string;
@@ -328,7 +369,7 @@ const SearchResults = React.memo(
     }, [results.length]);
 
     const renderItem = useCallback(
-      ({ item }: { item: Docs }) => (
+      ({ item }: { item: SearchResult }) => (
         <SearchResultItem
           item={item}
           query={query}
@@ -349,7 +390,7 @@ const SearchResults = React.memo(
           maxToRenderPerBatch={RENDER_BATCH_SIZE}
           initialNumToRender={INITIAL_RENDER_COUNT}
           windowSize={8}
-          getItemLayout={(d, i) => ({ length: 150, offset: 150 * i, index: i })}
+          getItemLayout={(d, i) => ({ length: 180, offset: 180 * i, index: i })}
           contentContainerStyle={{ paddingVertical: 8 }}
         />
       </Animated.View>
@@ -357,15 +398,16 @@ const SearchResults = React.memo(
   }
 );
 
+// Update the main component's state type
 export default function MoreScreen() {
   const router = useRouter();
   const pathname = usePathname();
   const isDark = useColorScheme() === "dark";
   const [searchQuery, setSearchQuery] = useState("");
-  const [results, setResults] = useState<Docs[]>([]); // Type is now from schema
+  const [results, setResults] = useState<SearchResult[]>([]);
   const [isSearching, setIsSearching] = useState(false);
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
-  const [allDocs, setAllDocs] = useState<Docs[]>([]); // Type is now from schema
+  const [allDocs, setAllDocs] = useState<Docs[]>([]);
   const [loadingIds, setLoadingIds] = useState<string[]>([]);
 
   useEffect(() => {
