@@ -2,8 +2,8 @@ import { useLocalSearchParams } from "expo-router";
 import type React from "react";
 import { createContext, useContext, useEffect, useRef, useState } from "react";
 import { Platform, ScrollView, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
 import { Gesture, GestureDetector } from "react-native-gesture-handler";
+import { SafeAreaView } from "react-native-safe-area-context";
 import { PageProvider, useIsNested } from "~/providers/page";
 
 const FontSizeContext = createContext<number>(16);
@@ -56,7 +56,7 @@ export default function PageWrapper({ children }: PageWrapperProps) {
     .onUpdate((event) => {
       const newScale = Math.max(
         0.5,
-        Math.min(3, baseScale.current * event.scale)
+        Math.min(3, baseScale.current * event.scale),
       );
       const newFontSize = Math.round(16 * newScale);
       setFontSize(newFontSize);

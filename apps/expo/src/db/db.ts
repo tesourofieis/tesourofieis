@@ -5,7 +5,7 @@ import { openDatabaseAsync, type SQLiteDatabase } from "expo-sqlite";
 import type { Docs } from "~/app/(tabs)/more";
 import * as schema from "~/db/schema";
 import { settings } from "~/db/schema";
-import { DrizzleDocSelect } from "~/services/search";
+import type { DrizzleDocSelect } from "~/services/search";
 
 const DATABASE_NAME = "docs.db";
 let dbInstance: SQLiteDatabase | null = null;
@@ -35,7 +35,7 @@ async function migrateDatabase(db: SQLiteDatabase): Promise<void> {
 
 async function ensureDatabase(): Promise<void> {
   const asset = await Asset.fromModule(
-    require(`../../assets/${DATABASE_NAME}`)
+    require(`../../assets/${DATABASE_NAME}`),
   ).downloadAsync();
   const databaseDir = `${FileSystem.documentDirectory}SQLite/`;
   const databasePath = `${databaseDir}${DATABASE_NAME}`;
@@ -45,7 +45,7 @@ async function ensureDatabase(): Promise<void> {
 
   if (!dbInfo.exists) {
     console.log(
-      `Database does not exist. Copying from asset to ${databasePath}`
+      `Database does not exist. Copying from asset to ${databasePath}`,
     );
     await FileSystem.copyAsync({ from: asset.localUri!, to: databasePath });
   } else if (__DEV__) {

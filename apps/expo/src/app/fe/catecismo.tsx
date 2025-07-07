@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import { H1, H2, H3, H4, H5 } from "~/components/Headings";
+import { H1, H2, H4, H5 } from "~/components/Headings";
 
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";

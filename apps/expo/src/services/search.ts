@@ -1,7 +1,7 @@
+import { eq, sql } from "drizzle-orm";
+import type { Docs, SubHeading } from "~/app/(tabs)/more";
 import { getDb, mapDbDocToDocs } from "~/db/db";
 import { docs } from "~/db/schema";
-import { eq, sql } from "drizzle-orm";
-import { Docs, SubHeading } from "~/app/(tabs)/more";
 
 export type DrizzleDocSelect = typeof docs.$inferSelect;
 
@@ -20,7 +20,7 @@ const normalize = (s: string) =>
 const extractContextualSnippet = (
   fullText: string | undefined | null,
   query: string,
-  wordContext = 10 // Number of words before and after
+  wordContext = 10, // Number of words before and after
 ): string => {
   if (!fullText || !query.trim()) {
     return fullText || "";
@@ -46,7 +46,7 @@ const extractContextualSnippet = (
     // If no specific match found (e.g., FTS matched on synonyms not in raw text string),
     // return a default truncated snippet or the full text.
     return fullText.length > 200
-      ? fullText.substring(0, 200) + "..."
+      ? `${fullText.substring(0, 200)}...`
       : fullText;
   }
 
@@ -68,7 +68,7 @@ const extractContextualSnippet = (
   const startIndex = Math.max(0, wordIndex - wordContext);
   const endIndex = Math.min(words.length, wordIndex + wordContext + 1); // +1 because slice is exclusive
 
-  let snippetWords = words.slice(startIndex, endIndex);
+  const snippetWords = words.slice(startIndex, endIndex);
 
   // Add ellipses if truncated
   if (startIndex > 0) {
@@ -83,11 +83,11 @@ const extractContextualSnippet = (
   // --- Optional: Logic for finding nearest punctuation for a "quote" ---
   // This is more complex and depends on desired punctuation.
   // For example, to find a sentence:
-  const sentenceEndings = /[.!?。？！]/; // Common sentence endings
+  const _sentenceEndings = /[.!?。？！]/; // Common sentence endings
   const fullSentenceMatch = fullText.match(
-    new RegExp(`[^.!?。？！]*${normalizedQuery}[^.!?。？！]*[.!?。？！]?`, "i")
+    new RegExp(`[^.!?。？！]*${normalizedQuery}[^.!?。？！]*[.!?。？！]?`, "i"),
   );
-  if (fullSentenceMatch && fullSentenceMatch[0]) {
+  if (fullSentenceMatch?.[0]) {
     // Prioritize full sentence if it's not too long and contains the match
     if (fullSentenceMatch[0].length < 300) {
       // Limit sentence length for snippet
@@ -101,7 +101,7 @@ const extractContextualSnippet = (
 // Modify search function
 export async function search(
   query: string,
-  limit = 15
+  limit = 15,
 ): Promise<SearchResult[]> {
   try {
     const db = await getDb();
@@ -127,7 +127,7 @@ export async function search(
         WHERE docs_fts MATCH ${searchTerm}
         ORDER BY rank
         LIMIT ${limit};
-      `
+      `,
     );
 
     const docIds = ftsResultRows.map((row) => row.id).filter(Boolean);
@@ -137,13 +137,13 @@ export async function search(
       .where(
         sql`${docs.id} IN (${sql.join(
           docIds.map((id) => sql`${id}`),
-          sql`, `
-        )})`
+          sql`, `,
+        )})`,
       )
       .all();
 
     const ftsTitleMap = new Map(
-      ftsResultRows.map((row) => [row.id, row.title])
+      ftsResultRows.map((row) => [row.id, row.title]),
     );
 
     const orderedResults = docIds
@@ -180,7 +180,9 @@ export async function search(
               normalize(section.text).includes(normalizedQuery)
             ) {
               rawMatchedContent = section.text;
+              // @ts-ignore
               if (section.type.startsWith("heading") && section.heading) {
+                // @ts-ignore
                 matchedHeading = section.heading;
               }
               break; // Found the first matching section, break
@@ -200,7 +202,7 @@ export async function search(
 
           const contextualSnippet = extractContextualSnippet(
             rawMatchedContent,
-            query
+            query,
           );
 
           return {
@@ -231,7 +233,7 @@ export async function findBySlug(slug: string) {
     const results = db
       .select()
       .from(docs)
-      .where(sql`${docs.url} LIKE ${targetUrlPrefix + "%"}`)
+      .where(sql`${docs.url} LIKE ${`${targetUrlPrefix}%`}`)
       .all();
 
     const filteredResults = results.filter((doc: DrizzleDocSelect) => {

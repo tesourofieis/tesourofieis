@@ -24,7 +24,7 @@ const createHeadingComponent = (className: string) => {
 
         const timer = setTimeout(() => {
           if (headingRef.current) {
-            headingRef.current.measureInWindow((x, y) => {
+            headingRef.current.measureInWindow((_x, y) => {
               global.anchorRegistry[anchorId] = {
                 yPosition: y,
                 text: text,

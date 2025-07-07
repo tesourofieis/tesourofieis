@@ -1,4 +1,3 @@
-import { Text, View } from "react-native";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 

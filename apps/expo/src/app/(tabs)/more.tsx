@@ -19,9 +19,9 @@ import {
 } from "react-native";
 import { COLORS } from "~/constants/Colors";
 import {
-  SearchResult,
   getAllTopLevelDocs,
   getChildren,
+  type SearchResult,
   search,
 } from "~/services/search";
 
@@ -187,7 +187,7 @@ const TreeItem = React.memo(
           removeClippedSubviews
           maxToRenderPerBatch={RENDER_BATCH_SIZE}
           windowSize={8}
-          getItemLayout={(d, i) => ({ length: 60, offset: 60 * i, index: i })}
+          getItemLayout={(_, i) => ({ length: 60, offset: 60 * i, index: i })}
         />
       </View>
     );
@@ -197,7 +197,6 @@ const TreeItem = React.memo(
 const highlightText = (text: string, highlight?: string) => {
   if (!highlight || highlight.length < 2) return <Text>{text}</Text>; // Wrap if no highlight
 
-  const normalizedText = normalize(text);
   const normalizedHighlight = normalize(highlight);
   const words = normalizedHighlight
     .split(/\s+/)
@@ -216,19 +215,19 @@ const highlightText = (text: string, highlight?: string) => {
   const parts = result.split(/(<mark>.*?<\/mark>)/g).filter(Boolean);
   return (
     <>
-      {parts.map((part, index) => {
+      {parts.map((part) => {
         if (part.startsWith("<mark>") && part.endsWith("</mark>")) {
           const markedText = part.slice(6, -7);
           return (
             <Text
-              key={index}
+              key={part}
               className="bg-sepia-200 dark:bg-sepia-700 font-semibold"
             >
               {markedText}
             </Text>
           );
         }
-        return <Text key={index}>{part}</Text>;
+        return <Text key={part}>{part}</Text>;
       })}
     </>
   );
@@ -240,19 +239,19 @@ const renderFTSHighlightedText = (text: string) => {
   return (
     // Wrap in a parent Text component if this is the root to ensure proper text flow
     <Text>
-      {parts.map((part, index) => {
+      {parts.map((part) => {
         if (part.startsWith("<b>") && part.endsWith("</b>")) {
           const highlightedContent = part.slice(3, -4);
           return (
             <Text
-              key={index}
+              key={part}
               className="bg-sepia-200 dark:bg-sepia-700 font-semibold"
             >
               {highlightedContent}
             </Text>
           );
         }
-        return <Text key={index}>{part}</Text>;
+        return <Text key={part}>{part}</Text>;
       })}
     </Text>
   );
@@ -421,7 +420,7 @@ const SearchResults = React.memo(
           maxToRenderPerBatch={RENDER_BATCH_SIZE}
           initialNumToRender={INITIAL_RENDER_COUNT}
           windowSize={8}
-          getItemLayout={(d, i) => ({ length: 180, offset: 180 * i, index: i })}
+          getItemLayout={(_, i) => ({ length: 180, offset: 180 * i, index: i })}
           contentContainerStyle={{ paddingVertical: 8 }}
         />
       </Animated.View>

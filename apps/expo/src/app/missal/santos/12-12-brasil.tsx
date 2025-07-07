@@ -1,5 +1,5 @@
 import { Link } from "expo-router";
-import { Text, View } from "react-native";
+import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -10,7 +10,7 @@ export default function Page1212Brasil() {
     <PageWrapper>
       <H1 text="Nossa Senhora de Guadalupe, a 12 de Dezembro" />
       <Text className="aside">
-        Como na
+        Como na{" "}
         <Link href="/missal/comum/29missamaria3">
           Missa Salve, sancta Parens da Virgem Maria,
         </Link>

@@ -1,6 +1,6 @@
-import { getDb } from "~/db/db";
-import { settings, type Settings } from "~/db/schema";
 import { eq } from "drizzle-orm";
+import { getDb } from "~/db/db";
+import { type Settings, settings } from "~/db/schema";
 
 const SETTINGS_ID = 1;
 
@@ -36,7 +36,7 @@ export async function getSettings(): Promise<Settings> {
  * @param newValues An object with the settings to update.
  */
 export async function updateSettings(
-  newValues: Partial<Settings>
+  newValues: Partial<Settings>,
 ): Promise<Settings> {
   const db = await getDb();
   const updatedSettings = db
