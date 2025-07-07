@@ -17,66 +17,88 @@ const normalize = (s: string) =>
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase();
 
-const findMatchingHeading = (
-  doc: Docs,
-  query: string
-): { heading?: SubHeading; matchedText?: string } => {
-  const normalizedQuery = normalize(query.toLowerCase());
-  const queryWords = normalizedQuery
-    .split(/\s+/)
-    .filter((word) => word.length > 1);
+const extractContextualSnippet = (
+  fullText: string | undefined | null,
+  query: string,
+  wordContext = 10 // Number of words before and after
+): string => {
+  if (!fullText || !query.trim()) {
+    return fullText || "";
+  }
 
-  // Check introduction first
-  if (doc.content.introduction) {
-    const normalizedIntro = normalize(doc.content.introduction);
-    const introMatches = queryWords.some((word) =>
-      normalizedIntro.includes(word)
-    );
-    if (introMatches) {
-      return {
-        matchedText: doc.content.introduction,
-      };
+  const normalizedFullText = normalize(fullText);
+  const normalizedQuery = normalize(query.trim());
+  const queryWords = normalizedQuery.split(/\s+/).filter(Boolean);
+
+  let bestSnippet = "";
+  let bestMatchIndex = -1;
+
+  // Find the first occurrence of any query word to get a starting point
+  for (const qWord of queryWords) {
+    const index = normalizedFullText.indexOf(qWord);
+    if (index !== -1) {
+      bestMatchIndex = index;
+      break;
     }
   }
 
-  // Check each heading's title and body
-  for (const heading of doc.content.headings) {
-    const normalizedTitle = normalize(heading.title);
-    const normalizedBody = normalize(heading.body);
+  if (bestMatchIndex === -1) {
+    // If no specific match found (e.g., FTS matched on synonyms not in raw text string),
+    // return a default truncated snippet or the full text.
+    return fullText.length > 200
+      ? fullText.substring(0, 200) + "..."
+      : fullText;
+  }
 
-    const titleMatches = queryWords.some((word) =>
-      normalizedTitle.includes(word)
-    );
-    const bodyMatches = queryWords.some((word) =>
-      normalizedBody.includes(word)
-    );
+  // --- Logic for surrounding words ---
+  const words = fullText.split(/\s+/);
+  let wordIndex = 0;
+  let charCount = 0;
+  for (let i = 0; i < words.length; i++) {
+    if (
+      charCount <= bestMatchIndex &&
+      charCount + words[i].length >= bestMatchIndex
+    ) {
+      wordIndex = i;
+      break;
+    }
+    charCount += words[i].length + 1; // +1 for space
+  }
 
-    if (titleMatches || bodyMatches) {
-      const matchedText = heading.body;
+  const startIndex = Math.max(0, wordIndex - wordContext);
+  const endIndex = Math.min(words.length, wordIndex + wordContext + 1); // +1 because slice is exclusive
 
-      return {
-        heading,
-        matchedText: matchedText || heading.title,
-      };
+  let snippetWords = words.slice(startIndex, endIndex);
+
+  // Add ellipses if truncated
+  if (startIndex > 0) {
+    snippetWords.unshift("...");
+  }
+  if (endIndex < words.length) {
+    snippetWords.push("...");
+  }
+
+  bestSnippet = snippetWords.join(" ");
+
+  // --- Optional: Logic for finding nearest punctuation for a "quote" ---
+  // This is more complex and depends on desired punctuation.
+  // For example, to find a sentence:
+  const sentenceEndings = /[.!?。？！]/; // Common sentence endings
+  const fullSentenceMatch = fullText.match(
+    new RegExp(`[^.!?。？！]*${normalizedQuery}[^.!?。？！]*[.!?。？！]?`, "i")
+  );
+  if (fullSentenceMatch && fullSentenceMatch[0]) {
+    // Prioritize full sentence if it's not too long and contains the match
+    if (fullSentenceMatch[0].length < 300) {
+      // Limit sentence length for snippet
+      bestSnippet = fullSentenceMatch[0].trim();
     }
   }
 
-  // Check comment as fallback
-  if (doc.content.comment) {
-    const normalizedComment = normalize(doc.content.comment);
-    const commentMatches = queryWords.some((word) =>
-      normalizedComment.includes(word)
-    );
-    if (commentMatches) {
-      return {
-        matchedText: doc.content.comment,
-      };
-    }
-  }
-
-  return {};
+  return bestSnippet;
 };
 
+// Modify search function
 export async function search(
   query: string,
   limit = 15
@@ -89,16 +111,18 @@ export async function search(
       .map((word) => `"${word}"*`)
       .join(" ");
 
+    // For FTS, we still get the highlighted title.
+    // We DON'T use highlight(docs_fts, 2, ...) anymore if we want custom snippets.
     const ftsResultRows: {
       id: string;
-      title: string;
-      search_body: string;
+      title: string; // FTS highlighted title
+      // We don't need search_body here if we're generating custom snippets.
+      // However, if you want FTS rank for ordering, keep the FTS query as is.
     }[] = db.all(
       sql`
         SELECT
           id,
-          highlight(docs_fts, 1, '<b>', '</b>') as title,
-          highlight(docs_fts, 2, '<b>', '</b>') as search_body
+          highlight(docs_fts, 1, '<b>', '</b>') as title -- Still get highlighted title
         FROM docs_fts
         WHERE docs_fts MATCH ${searchTerm}
         ORDER BY rank
@@ -118,24 +142,72 @@ export async function search(
       )
       .all();
 
-    const ftsMap = new Map(ftsResultRows.map((row) => [row.id, row]));
+    const ftsTitleMap = new Map(
+      ftsResultRows.map((row) => [row.id, row.title])
+    );
 
     const orderedResults = docIds
       .map((id) => {
-        const doc = docsDataRows.find((doc) => doc.id === id);
-        const ftsResult = ftsMap.get(id);
-        if (doc && ftsResult) {
+        const doc = docsDataRows.find((d) => d.id === id);
+        const highlightedTitle = ftsTitleMap.get(id);
+
+        if (doc) {
           const mappedDoc = mapDbDocToDocs(doc);
-          const { heading, matchedText } = findMatchingHeading(
-            mappedDoc,
-            normalizedQuery
+
+          let matchedHeading: SubHeading | undefined;
+          let rawMatchedContent: string | undefined; // This will hold the full raw text of the matched section
+
+          // Try to find the section that contains the query
+          // Prioritize headings, then introduction, then comment
+          const sectionsToCheck = [
+            { text: mappedDoc.content.introduction, type: "intro" },
+            ...mappedDoc.content.headings.map((h) => ({
+              text: h.title,
+              type: "heading-title",
+              heading: h,
+            })),
+            ...mappedDoc.content.headings.map((h) => ({
+              text: h.body,
+              type: "heading-body",
+              heading: h,
+            })),
+            { text: mappedDoc.content.comment, type: "comment" },
+          ];
+
+          for (const section of sectionsToCheck) {
+            if (
+              section.text &&
+              normalize(section.text).includes(normalizedQuery)
+            ) {
+              rawMatchedContent = section.text;
+              if (section.type.startsWith("heading") && section.heading) {
+                matchedHeading = section.heading;
+              }
+              break; // Found the first matching section, break
+            }
+          }
+
+          // If no specific section matched directly (maybe FTS matched a synonym or an edge case)
+          // Fallback to introduction or first heading body
+          if (!rawMatchedContent) {
+            rawMatchedContent =
+              mappedDoc.content.introduction ||
+              (mappedDoc.content.headings.length > 0
+                ? mappedDoc.content.headings[0].body
+                : undefined) ||
+              mappedDoc.content.comment;
+          }
+
+          const contextualSnippet = extractContextualSnippet(
+            rawMatchedContent,
+            query
           );
 
           return {
             ...mappedDoc,
-            matchedHeading: heading,
-            matchedText,
-            highlightedTitle: ftsResult.title,
+            matchedHeading,
+            matchedText: contextualSnippet, // This is your custom snippet
+            highlightedTitle: highlightedTitle,
           } as SearchResult;
         }
         return null;

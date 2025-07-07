@@ -195,7 +195,7 @@ const TreeItem = React.memo(
 );
 
 const highlightText = (text: string, highlight?: string) => {
-  if (!highlight || highlight.length < 2) return text;
+  if (!highlight || highlight.length < 2) return <Text>{text}</Text>; // Wrap if no highlight
 
   const normalizedText = normalize(text);
   const normalizedHighlight = normalize(highlight);
@@ -205,27 +205,26 @@ const highlightText = (text: string, highlight?: string) => {
 
   let result = text;
   words.forEach((word) => {
-    const regex = new RegExp(
-      `(${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`,
-      "gi"
-    );
+    const escapedWord = word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    // Using \b for whole word matching. Remove if partial word matches are desired.
+    const regex = new RegExp(`(\\b${escapedWord}\\b)`, "gi");
     result = result.replace(regex, "<mark>$1</mark>");
   });
 
-  if (result === text) return text;
+  if (result === text) return <Text>{text}</Text>; // Wrap if no changes
 
-  const parts = result.split(/(<mark>.*?<\/mark>)/);
+  const parts = result.split(/(<mark>.*?<\/mark>)/g).filter(Boolean);
   return (
     <>
       {parts.map((part, index) => {
         if (part.startsWith("<mark>") && part.endsWith("</mark>")) {
-          const text = part.slice(6, -7);
+          const markedText = part.slice(6, -7);
           return (
             <Text
               key={index}
               className="bg-sepia-200 dark:bg-sepia-700 font-semibold"
             >
-              {text}
+              {markedText}
             </Text>
           );
         }
@@ -235,7 +234,30 @@ const highlightText = (text: string, highlight?: string) => {
   );
 };
 
-// Update the SearchResultItem component
+const renderFTSHighlightedText = (text: string) => {
+  if (!text) return null;
+  const parts = text.split(/(<b>.*?<\/b>)/g).filter(Boolean); // Filter out empty strings from split
+  return (
+    // Wrap in a parent Text component if this is the root to ensure proper text flow
+    <Text>
+      {parts.map((part, index) => {
+        if (part.startsWith("<b>") && part.endsWith("</b>")) {
+          const highlightedContent = part.slice(3, -4);
+          return (
+            <Text
+              key={index}
+              className="bg-sepia-200 dark:bg-sepia-700 font-semibold"
+            >
+              {highlightedContent}
+            </Text>
+          );
+        }
+        return <Text key={index}>{part}</Text>;
+      })}
+    </Text>
+  );
+};
+
 const SearchResultItem = React.memo(
   ({
     item,
@@ -263,7 +285,7 @@ const SearchResultItem = React.memo(
       [item, onPress]
     );
 
-    const handleHeadingPress = useCallback(() => {
+    const handleCardPress = useCallback(() => {
       if (item.matchedHeading) {
         handlePress(item.matchedHeading.id);
       } else {
@@ -271,18 +293,19 @@ const SearchResultItem = React.memo(
       }
     }, [item.matchedHeading, handlePress]);
 
-    const displayTitle =
-      item.highlightedTitle?.replace(/<b>/g, "").replace(/<\/b>/g, "") ||
-      item.title;
-    const displaySnippet =
-      item.matchedText ||
+    // Now, displayTitle comes from FTS, but displaySnippet is a raw string from extractContextualSnippet
+    const displayTitle = item.highlightedTitle;
+    const displaySnippet = item.matchedText; // This is the raw custom snippet
+
+    // Fallback for snippet if for some reason matchedText is empty
+    const fallbackSnippet =
       item.content.introduction ||
       (item.content.headings.length > 0 ? item.content.headings[0].body : "") ||
       "No content available";
 
     return (
       <TouchableOpacity
-        onPress={handleHeadingPress}
+        onPress={handleCardPress}
         className={`rounded-lg mx-4 my-2 p-4 ${
           isActive
             ? "bg-sepia-100 dark:bg-sepia-700 border-l-3 border-sepia-500"
@@ -294,11 +317,18 @@ const SearchResultItem = React.memo(
             isActive ? "font-bold" : "font-semibold"
           } text-base text-${isDark ? "sepia-100" : "sepia-900"}`}
         >
-          {highlightText(displayTitle, query)}
+          {/* Title can still use FTS highlight if present, or fallback to client-side */}
+          {displayTitle
+            ? renderFTSHighlightedText(displayTitle)
+            : highlightText(item.title, query)}
         </Text>
 
         {item.matchedHeading && (
-          <Text className="text-blue-600 dark:text-blue-400 text-sm mt-1 font-medium">
+          <Text
+            className="text-blue-600 dark:text-blue-400 text-sm mt-1 font-medium"
+            numberOfLines={1}
+          >
+            {/* Highlight the matched heading title client-side */}
             {highlightText(item.matchedHeading.title, query)}
           </Text>
         )}
@@ -307,7 +337,8 @@ const SearchResultItem = React.memo(
           className="text-sepia-600 dark:text-sepia-300 text-sm mt-1"
           numberOfLines={3}
         >
-          {highlightText(displaySnippet, query)}
+          {/* Now, the displaySnippet is a raw string, so always use highlightText */}
+          {highlightText(displaySnippet || fallbackSnippet, query)}
         </Text>
 
         {item.content.headings.length > 1 && (
