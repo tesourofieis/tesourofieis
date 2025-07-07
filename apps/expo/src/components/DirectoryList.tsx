@@ -1,38 +1,32 @@
-import React, { useEffect, useState } from "react"; // Import useState and useEffect
-import { ActivityIndicator, Text, View } from "react-native"; // Add Text for error messages/no results
-import type { Docs } from "~/app/(tabs)/more";
-import { useSearch } from "~/providers/search";
+import React, { useEffect, useState } from "react";
+import { ActivityIndicator, Text, View } from "react-native";
 import PageLinkCard from "./LinkCard";
+import { findBySlug } from "~/services/search";
+import { Docs } from "~/db/schema";
 
 const DirectoryList = ({ slug }: { slug: string }) => {
-  const { findBySlug, isReady, error: searchError } = useSearch(); // Get isReady and error too
-  const [searchResults, setSearchResults] = useState<Docs[]>([]); // State to store results
-  const [isLoading, setIsLoading] = useState(true); // State for loading
-  const [error, setError] = useState<string | null>(null); // State for errors
+  const [searchResults, setSearchResults] = useState<Docs[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchResults = async () => {
-      if (!isReady) {
-        // If search provider isn't ready yet, set loading and wait
-        setIsLoading(true);
-        return; // Exit and wait for `isReady` to become true
-      }
-
-      setIsLoading(true); // Start loading
-      setError(null); // Clear previous errors
+      setIsLoading(true);
+      setError(null);
       try {
-        const results = await findBySlug(slug); // Await the promise
+        setIsLoading(true);
+        const results = await findBySlug(slug);
         setSearchResults(results);
       } catch (err: any) {
         console.error("Error fetching by slug:", err);
         setError(err.message || "Failed to load directory.");
       } finally {
-        setIsLoading(false); // Stop loading regardless of success or failure
+        setIsLoading(false);
       }
     };
 
     fetchResults();
-  }, [slug, isReady, findBySlug]); // Re-run effect when slug changes or provider becomes ready
+  }, [slug, findBySlug]);
 
   if (isLoading) {
     return (
@@ -67,7 +61,7 @@ const DirectoryList = ({ slug }: { slug: string }) => {
     <View className="">
       {searchResults.map((page) => (
         <PageLinkCard
-          key={page.url} // Use page.url as key, assuming it's unique
+          key={page.url}
           href={page.url}
           title={page.title}
           description={

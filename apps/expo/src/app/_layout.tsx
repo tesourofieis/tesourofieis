@@ -31,8 +31,7 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { openExternalLink } from "~/components/External";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
-import { NotificationsProvider } from "~/providers/notifications";
-import { SearchProvider, useSearch } from "~/providers/search";
+import { SettingsProvider } from "~/providers/settings";
 
 SplashScreen.preventAutoHideAsync();
 SplashScreen.setOptions({
@@ -103,17 +102,15 @@ export default function PageRootLayout() {
 
   return (
     <CalendarProvider>
-      <SearchProvider>
-        {Platform.OS === "web" ? (
-          <RootLayoutNav />
-        ) : (
-          <GestureHandlerRootView>
-            <NotificationsProvider>
-              <RootLayoutNav />
-            </NotificationsProvider>
-          </GestureHandlerRootView>
-        )}
-      </SearchProvider>
+      {Platform.OS === "web" ? (
+        <RootLayoutNav />
+      ) : (
+        <GestureHandlerRootView>
+          <SettingsProvider>
+            <RootLayoutNav />
+          </SettingsProvider>
+        </GestureHandlerRootView>
+      )}
     </CalendarProvider>
   );
 }
@@ -258,7 +255,6 @@ const Breadcrumbs = () => {
 const Header = ({ withBC }: { withBC: boolean }) => {
   const path = usePathname();
   const router = useRouter();
-  const { isReady } = useSearch();
 
   const { colorScheme } = useColorScheme();
   const isDarkMode = colorScheme === "dark";
@@ -269,13 +265,12 @@ const Header = ({ withBC }: { withBC: boolean }) => {
         <View className="flex-row gap-3">
           <Pressable
             className="rounded-full p-2 shadow-md bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
-            onPress={() => router.dismissAll()}
+            onPress={() => router.navigate("/")}
           >
             <FontAwesome6 name="arrow-left" size={15} color="#e53935" />
           </Pressable>
           <Breadcrumbs />
         </View>
-        {!isReady && <ActivityIndicator className="text-red-600" />}
         <View className="flex-row gap-1">
           <Pressable
             onPress={() => router.navigate("/more")}
@@ -303,17 +298,15 @@ const Header = ({ withBC }: { withBC: boolean }) => {
     );
   }
   return (
-    <Link href="/" dismissTo>
-      <View className="flex-row items-center justify-between p-5 bg-sepia-300 dark:bg-sepia-900 w-full border-b active:bg-sepia-200 dark:active:bg-sepia-800">
+    <View className="flex-row items-center justify-between p-5 bg-sepia-300 dark:bg-sepia-900 w-full border-b active:bg-sepia-200 dark:active:bg-sepia-800">
+      <Pressable onPress={() => router.navigate("/")}>
         <View className="flex-row items-center gap-3">
           <FontAwesome6 name="book-bible" size={15} color="#e53935" />
           <Text className="text-lg text-sepia-800 dark:text-sepia-200 font-serif">
             Tesouro dos Fiéis
           </Text>
         </View>
-
-        {!isReady && <ActivityIndicator className="text-red-600" />}
-      </View>
-    </Link>
+      </Pressable>
+    </View>
   );
 };

@@ -18,7 +18,7 @@ import {
   View,
 } from "react-native";
 import { COLORS } from "~/constants/Colors";
-import { useSearch } from "~/providers/search";
+import { getAllTopLevelDocs, getChildren, search } from "~/services/search";
 
 export interface SubHeading {
   title: string;
@@ -94,10 +94,10 @@ const TreeItem = React.memo(
     loadingIds,
     childrenMap,
   }: {
-    doc: Docs;
+    doc: Docs; // Type is now from schema
     level: number;
     expanded: Record<string, boolean>;
-    toggleExpand: (id: string, hasChildren: boolean) => void;
+    toggleExpand: (id: string, children: boolean) => void;
     isActive: boolean;
     searchHighlight?: string;
     currentPathname: string;
@@ -107,13 +107,12 @@ const TreeItem = React.memo(
     const router = useRouter();
     const isDark = useColorScheme() === "dark";
 
-    // Check if this document has children either from the hasChildren flag or from already loaded children
-    const hasChildren = doc.hasChildren;
+    const children = doc.hasChildren;
     const isOpen = expanded[doc.id];
 
     const handlePress = useCallback(() => {
-      if (hasChildren) {
-        toggleExpand(doc.id, hasChildren);
+      if (children) {
+        toggleExpand(doc.id, children);
       } else {
         debugLog("TreeItem navigation", {
           link: doc.url,
@@ -127,12 +126,12 @@ const TreeItem = React.memo(
           params: { docId: doc.id },
         } as any);
       }
-    }, [hasChildren, doc.url, doc.id, router, toggleExpand]);
+    }, [children, doc.url, doc.id, router, toggleExpand]);
 
     const visibleChildren = useMemo(() => {
-      if (!hasChildren || !isOpen) return [];
+      if (!children || !isOpen) return [];
       return childrenMap[doc.id] || [];
-    }, [hasChildren, isOpen, childrenMap, doc.id]);
+    }, [children, isOpen, childrenMap, doc.id]);
 
     const renderChild = ({ item }: { item: Docs }) => (
       <TreeItem
@@ -148,7 +147,7 @@ const TreeItem = React.memo(
       />
     );
 
-    const description = !hasChildren
+    const description = !children
       ? doc.content.introduction ||
         (doc.content.headings.length > 0 ? doc.content.headings[0].body : "")
       : "";
@@ -179,18 +178,8 @@ const TreeItem = React.memo(
                 {highlightText(description, searchHighlight)}
               </Text>
             )}
-            <View className="flex-row mt-2">
-              {doc.levels.map((section) => (
-                <Text
-                  key={section}
-                  className="text-xs text-center w-fit text-ellipsis text-sepia-200 ml-2 px-2 py-1 rounded-full bg-sepia-900"
-                >
-                  {section}
-                </Text>
-              ))}
-            </View>
           </View>
-          {hasChildren ? (
+          {children ? (
             loadingIds.includes(doc.id) ? (
               <ActivityIndicator size="small" color={COLORS["500"]} />
             ) : (
@@ -220,7 +209,7 @@ const TreeItem = React.memo(
         />
       </View>
     );
-  },
+  }
 );
 
 const SearchResultItem = React.memo(
@@ -230,7 +219,7 @@ const SearchResultItem = React.memo(
     onPress,
     isActive,
   }: {
-    item: Docs;
+    item: Docs; // Type is now from schema
     query: string;
     onPress: (item: Docs, headingId?: string) => void;
     isActive: boolean;
@@ -247,14 +236,14 @@ const SearchResultItem = React.memo(
         });
         onPress(item, headingId);
       },
-      [item, onPress],
+      [item, onPress]
     );
 
     const getSnippet = useCallback(() => {
       const fullText = [
-        item.content.introduction,
-        ...item.content.headings.map((h) => `${h.title} ${h.body}`),
-        item.content.comment,
+        item.content.introduction, // Access content directly
+        ...item.content.headings.map((h) => `${h.title} ${h.body}`), // Access content directly
+        item.content.comment, // Access content directly
       ]
         .filter(Boolean)
         .join(" ")
@@ -313,7 +302,7 @@ const SearchResultItem = React.memo(
         )}
       </TouchableOpacity>
     );
-  },
+  }
 );
 
 const SearchResults = React.memo(
@@ -323,7 +312,7 @@ const SearchResults = React.memo(
     onPress,
     pathname,
   }: {
-    results: Docs[];
+    results: Docs[]; // Type is now from schema
     query: string;
     onPress: (item: Docs, headingId?: string) => void;
     pathname: string;
@@ -347,7 +336,7 @@ const SearchResults = React.memo(
           isActive={pathname === item.url}
         />
       ),
-      [query, onPress, pathname],
+      [query, onPress, pathname]
     );
 
     return (
@@ -365,7 +354,7 @@ const SearchResults = React.memo(
         />
       </Animated.View>
     );
-  },
+  }
 );
 
 export default function MoreScreen() {
@@ -373,32 +362,24 @@ export default function MoreScreen() {
   const pathname = usePathname();
   const isDark = useColorScheme() === "dark";
   const [searchQuery, setSearchQuery] = useState("");
-  const [results, setResults] = useState<Docs[]>([]);
+  const [results, setResults] = useState<Docs[]>([]); // Type is now from schema
   const [isSearching, setIsSearching] = useState(false);
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
-  const [allDocs, setAllDocs] = useState<Docs[]>([]);
+  const [allDocs, setAllDocs] = useState<Docs[]>([]); // Type is now from schema
   const [loadingIds, setLoadingIds] = useState<string[]>([]);
 
-  const {
-    search,
-    getDocumentById,
-    getAllTopLevelDocs,
-    getChildren,
-    isReady,
-    error: searchError,
-  } = useSearch();
-
   useEffect(() => {
-    if (isReady && allDocs.length === 0) {
+    if (allDocs.length === 0) {
       const loadDocs = async () => {
         try {
           debugLog("Loading initial docs...");
+
           const docs = await getAllTopLevelDocs();
           setAllDocs(docs);
           debugLog("Initial docs loaded:", docs.length);
           debugLog(
             "Docs children:",
-            docs.map((i) => i.hasChildren),
+            docs.map((i) => i.hasChildren)
           );
         } catch (err) {
           console.error("Error loading initial docs:", err);
@@ -406,19 +387,16 @@ export default function MoreScreen() {
       };
       loadDocs();
     }
-  }, [isReady, allDocs.length, getAllTopLevelDocs]);
+  }, [allDocs.length]);
 
   const childrenMap = useMemo(() => {
-    return allDocs.reduce(
-      (map, doc) => {
-        if (doc.parent) {
-          map[doc.parent] = map[doc.parent] || [];
-          map[doc.parent].push(doc);
-        }
-        return map;
-      },
-      {} as Record<string, Docs[]>,
-    );
+    return allDocs.reduce((map, doc) => {
+      if (doc.parent) {
+        map[doc.parent] = map[doc.parent] || [];
+        map[doc.parent].push(doc);
+      }
+      return map;
+    }, {} as Record<string, Docs[]>);
   }, [allDocs]);
 
   const topLevelDocs = useMemo(() => {
@@ -429,11 +407,6 @@ export default function MoreScreen() {
     if (!searchQuery.trim()) {
       setResults([]);
       setIsSearching(false);
-      return;
-    }
-
-    if (!isReady) {
-      setIsSearching(true);
       return;
     }
 
@@ -451,14 +424,19 @@ export default function MoreScreen() {
     }, 300);
 
     return () => clearTimeout(timeoutId);
-  }, [searchQuery, search, isReady]);
+  }, [searchQuery]); // Removed search from dependencies, assuming it's stable.
 
   const toggleExpand = useCallback(
-    async (id: string, hasChildren: boolean) => {
+    async (id: string, children: boolean) => {
       if (expanded[id]) {
         setExpanded((prev) => ({ ...prev, [id]: false }));
       } else {
-        if (hasChildren && !allDocs.some((doc) => doc.parent === id)) {
+        // This logic needs to consider if children are already loaded in `allDocs`
+        // before making another DB call.
+        // We filter for parent === id to check if its children are already in allDocs
+        const childrenAlreadyLoaded = allDocs.some((doc) => doc.parent === id);
+
+        if (children && !childrenAlreadyLoaded) {
           setLoadingIds((prev) => [...prev, id]);
           try {
             const children = await getChildren(id);
@@ -467,14 +445,14 @@ export default function MoreScreen() {
             console.error("Error loading children:", err);
           } finally {
             setLoadingIds((prev) =>
-              prev.filter((loadingId) => loadingId !== id),
+              prev.filter((loadingId) => loadingId !== id)
             );
           }
         }
         setExpanded((prev) => ({ ...prev, [id]: true }));
       }
     },
-    [expanded, allDocs, getChildren],
+    [expanded, allDocs] // Added allDocs here, so the useCallback dependency array is correct.
   );
 
   const handleResultPress = useCallback(
@@ -494,7 +472,7 @@ export default function MoreScreen() {
         debugLog("Error in handleResultPress", error);
       }
     },
-    [router],
+    [router]
   );
 
   const handleClear = useCallback(() => {
@@ -508,12 +486,12 @@ export default function MoreScreen() {
       inputBg: isDark ? COLORS["900"] : COLORS["100"],
       inputBorder: isDark ? COLORS["600"] : COLORS["300"],
     }),
-    [isDark],
+    [isDark]
   );
 
   const renderContent = () => {
     const showSearchUI = searchQuery.trim();
-    const isLoadingInitialDocs = !isReady && allDocs.length === 0;
+    const isLoadingInitialDocs = allDocs.length === 0;
 
     if (isLoadingInitialDocs) {
       return (
@@ -522,11 +500,6 @@ export default function MoreScreen() {
           <Text className="text-sepia-500 dark:text-sepia-400 mt-2">
             A carregar documentos...
           </Text>
-          {searchError && (
-            <Text className="text-red-500 dark:text-red-400 mt-2 text-center">
-              Erro: {searchError}
-            </Text>
-          )}
         </View>
       );
     }
@@ -536,21 +509,6 @@ export default function MoreScreen() {
         return (
           <View className="p-4 items-center">
             <ActivityIndicator size="large" color={colors.placeholder} />
-          </View>
-        );
-      }
-
-      if (searchError) {
-        return (
-          <View className="p-4 items-center">
-            <FontAwesome6
-              name="exclamation-triangle"
-              size={24}
-              color={isDark ? COLORS["200"] : COLORS["800"]}
-            />
-            <Text className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
-              {searchError}
-            </Text>
           </View>
         );
       }

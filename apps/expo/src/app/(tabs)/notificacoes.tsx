@@ -14,20 +14,20 @@ import {
 } from "react-native";
 import PageWrapper from "~/components/Page";
 import { COLORS } from "~/constants/Colors";
-import { useNotifications } from "~/providers/notifications";
+import { useSettings } from "~/providers/settings";
 
 export default function PageNot() {
   const colorScheme = useColorScheme();
   const [isExpanded, setIsExpanded] = useState(false);
 
   const {
-    notificationPrefs,
+    settings,
     setNotificationPref,
     list,
     permissionStatus,
     requestPermission,
     isSoftRejected,
-  } = useNotifications();
+  } = useSettings();
 
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
@@ -150,9 +150,9 @@ export default function PageNot() {
           icon="bell"
           description="Receba o toque das Trindades"
           times={["6:00", "12:00", "18:00"]}
-          enabled={notificationPrefs.ANGELUS.enabled}
+          enabled={settings.angelusEnabled}
           toggle={() =>
-            setNotificationPref("ANGELUS", !notificationPrefs.ANGELUS.enabled)
+            setNotificationPref("ANGELUS", !settings.angelusEnabled)
           }
         />
 
@@ -161,10 +161,8 @@ export default function PageNot() {
           icon="calendar"
           description="Receba informações sobre as celebrações e comemorações do dia."
           times={["7:00"]}
-          enabled={notificationPrefs.MASS.enabled}
-          toggle={() =>
-            setNotificationPref("MASS", !notificationPrefs.MASS.enabled)
-          }
+          enabled={settings.massEnabled}
+          toggle={() => setNotificationPref("MASS", !settings.massEnabled)}
         />
 
         <NotificationToggle
@@ -172,10 +170,8 @@ export default function PageNot() {
           icon="circle"
           description="Receba alertas nos dias de novena."
           times={["20:00"]}
-          enabled={notificationPrefs.NOVENA.enabled}
-          toggle={() =>
-            setNotificationPref("NOVENA", !notificationPrefs.NOVENA.enabled)
-          }
+          enabled={settings.novenaEnabled}
+          toggle={() => setNotificationPref("NOVENA", !settings.novenaEnabled)}
         />
 
         <NotificationToggle
@@ -192,10 +188,8 @@ export default function PageNot() {
             "18:00",
             "21:00",
           ]}
-          enabled={notificationPrefs.OFFICE.enabled}
-          toggle={() =>
-            setNotificationPref("OFFICE", !notificationPrefs.OFFICE.enabled)
-          }
+          enabled={settings.officeEnabled}
+          toggle={() => setNotificationPref("OFFICE", !settings.officeEnabled)}
         />
 
         <View className="mt-5">

@@ -53,16 +53,26 @@ export default function PageLinkCard({
         <Pressable>
           {({ pressed }) => (
             <View className={cardBase(pressed)}>
-              <View className="flex flex-row">
-                <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-300">
-                  {description}
-                </Text>
-              </View>
+              <View className="flex flex-row justify-between items-center">
+                <View className="flex-1">
+                  <View className="flex flex-row">
+                    <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-300">
+                      {description}
+                    </Text>
+                  </View>
 
-              <View className="flex flex-row items-center gap-2">
-                <Text className="font-black text-sepia-600 dark:text-sepia-400">
-                  {oratio.name}
-                </Text>
+                  <View className="flex flex-row items-center gap-2">
+                    <Text className="font-black text-sepia-600 dark:text-sepia-400">
+                      {oratio.name}
+                    </Text>
+                  </View>
+                </View>
+
+                <FontAwesome
+                  name="chevron-right"
+                  size={16}
+                  color={pressed ? COLORS[600] : COLORS[500]}
+                />
               </View>
             </View>
           )}
@@ -79,34 +89,42 @@ export default function PageLinkCard({
         <Pressable>
           {({ pressed }) => (
             <View className={cardBase(pressed)}>
-              <View className="flex flex-col justify-start">
-                <View className="flex flex-row">
-                  <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-300">
-                    {description ?? "Missa"}
-                  </Text>
-                  {mass.rank && (
-                    <Text className="font-serif text-sm font-bold text-sepia-700 dark:text-sepia-300">
-                      {" "}
-                      | Classe: {mass.rank}
+              <View className="flex flex-row justify-between items-center">
+                <View className="flex-1">
+                  <View className="flex flex-row">
+                    <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-300">
+                      {description ?? "Missa"}
                     </Text>
+                    {mass.rank && (
+                      <Text className="font-serif text-sm font-bold text-sepia-700 dark:text-sepia-300">
+                        {" "}
+                        | Classe: {mass.rank}
+                      </Text>
+                    )}
+                  </View>
+
+                  <View className="flex flex-row items-center gap-2">
+                    <FontAwesome name="circle" color={getColor(mass.color)} />
+                    <Text className="font-black text-sepia-600 dark:text-sepia-400">
+                      {mass.name}
+                    </Text>
+                  </View>
+
+                  {mass.local && (
+                    <View className="flex-row items-center gap-2">
+                      <FontAwesome name="map" color={COLORS[500]} />
+                      <Text className="font-black text-sepia-500">
+                        Local: {mass.local.toUpperCase()}
+                      </Text>
+                    </View>
                   )}
                 </View>
 
-                <View className="flex flex-row items-center gap-2">
-                  <FontAwesome name="circle" color={getColor(mass.color)} />
-                  <Text className="font-black text-sepia-600 dark:text-sepia-400">
-                    {mass.name}
-                  </Text>
-                </View>
-
-                {mass.local && (
-                  <View className="flex-row items-center gap-2">
-                    <FontAwesome name="map" color={COLORS[500]} />
-                    <Text className="font-black text-sepia-500">
-                      Local: {mass.local.toUpperCase()}
-                    </Text>
-                  </View>
-                )}
+                <FontAwesome
+                  name="chevron-right"
+                  size={16}
+                  color={pressed ? COLORS[600] : COLORS[500]}
+                />
               </View>
             </View>
           )}
@@ -122,21 +140,29 @@ export default function PageLinkCard({
       <Pressable>
         {({ pressed }) => (
           <View className={cardBase(pressed)}>
-            <View className="flex flex-col justify-start">
-              <View className="flex flex-row">
-                <Text
-                  className="font-serif text-sm text-sepia-600 dark:text-sepia-300"
-                  numberOfLines={1}
-                >
-                  {description ?? ""}
-                </Text>
+            <View className="flex flex-row justify-between items-center">
+              <View className="flex-1">
+                <View className="flex flex-row">
+                  <Text
+                    className="font-serif text-sm text-sepia-600 dark:text-sepia-300"
+                    numberOfLines={1}
+                  >
+                    {description ?? ""}
+                  </Text>
+                </View>
+
+                <View className="flex flex-row items-center gap-2">
+                  <Text className="font-black text-sepia-600 dark:text-sepia-400">
+                    {title}
+                  </Text>
+                </View>
               </View>
 
-              <View className="flex flex-row items-center gap-2">
-                <Text className="font-black text-sepia-600 dark:text-sepia-400">
-                  {title}
-                </Text>
-              </View>
+              <FontAwesome
+                name="chevron-right"
+                size={16}
+                color={pressed ? COLORS[600] : COLORS[500]}
+              />
             </View>
           </View>
         )}

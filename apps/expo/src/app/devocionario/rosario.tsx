@@ -28,15 +28,15 @@ export default function PageRosario() {
       <H2 text="Intenções do Santo Padre" />
       <Language>
         <Text className="latin">Exaltatio S. Matris Ecclesiæ.</Text>
-        <Text className="li vernacular">Exaltação da Santa Igreja.</Text>
+        <Text className="vernacular">Exaltação da Santa Igreja.</Text>
         <Text className="latin">Propagatio fidei.</Text>
-        <Text className="li vernacular">Propagação da fé.</Text>
+        <Text className="vernacular">Propagação da fé.</Text>
         <Text className="latin">Extirpatio hæresum.</Text>
-        <Text className="li vernacular">Extirpação das heresias.</Text>
+        <Text className="vernacular">Extirpação das heresias.</Text>
         <Text className="latin">Conversio peccatorum.</Text>
-        <Text className="li vernacular">Conversão dos pecadores.</Text>
+        <Text className="vernacular">Conversão dos pecadores.</Text>
         <Text className="latin">Pax inter principes christianos.</Text>
-        <Text className="li vernacular">
+        <Text className="vernacular">
           Paz entre os Reis e Príncipes católicos.
         </Text>
       </Language>
