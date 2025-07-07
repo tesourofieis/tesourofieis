@@ -76,7 +76,7 @@ const TreeItem = React.memo(
     loadingIds,
     childrenMap,
   }: {
-    doc: Docs;
+    doc: Docs; // Type is now from schema
     level: number;
     expanded: Record<string, boolean>;
     toggleExpand: (id: string, children: boolean) => void;
@@ -363,6 +363,7 @@ const SearchResultItem = React.memo(
   }
 );
 
+// Update the SearchResults component
 const SearchResults = React.memo(
   ({
     results,
@@ -415,6 +416,7 @@ const SearchResults = React.memo(
   }
 );
 
+// Update the main component's state type
 export default function MoreScreen() {
   const router = useRouter();
   const pathname = usePathname();

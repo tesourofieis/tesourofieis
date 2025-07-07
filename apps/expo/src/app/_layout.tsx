@@ -239,7 +239,7 @@ const Breadcrumbs = () => {
               className="rounded bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
               onPress={() =>
                 handleBreadcrumbPress(
-                  `/${segments.slice(0, index + 1).join("/")}`
+                  `/${segments.slice(0, index + 1).join("/")}`,
                 )
               }
             >
