@@ -4,10 +4,34 @@ import * as FileSystem from "expo-file-system";
 import { openDatabaseAsync, type SQLiteDatabase } from "expo-sqlite";
 import type { Docs } from "~/app/(tabs)/more";
 import * as schema from "~/db/schema";
+import { settings } from "~/db/schema";
 import type { DrizzleDocSelect } from "~/services/search";
 
 const DATABASE_NAME = "docs.db";
 let dbInstance: SQLiteDatabase | null = null;
+
+async function migrateDatabase(db: SQLiteDatabase): Promise<void> {
+  console.log("Running database migrations...");
+  try {
+    await db.execAsync(`
+      CREATE TABLE IF NOT EXISTS settings (
+        id INTEGER PRIMARY KEY,
+        font_size_multiplier REAL NOT NULL DEFAULT 1,
+        angelus_enabled INTEGER NOT NULL DEFAULT 1,
+        mass_enabled INTEGER NOT NULL DEFAULT 1,
+        novena_enabled INTEGER NOT NULL DEFAULT 1,
+        office_enabled INTEGER NOT NULL DEFAULT 0,
+        permission_requested INTEGER NOT NULL DEFAULT 0,
+        permission_soft_rejected INTEGER NOT NULL DEFAULT 0,
+        last_prompt_date TEXT
+      );
+    `);
+    console.log("Initial tables created/ensured.");
+  } catch (e) {
+    console.error("Error running initial schema setup:", e);
+    throw e;
+  }
+}
 
 async function ensureDatabase(): Promise<void> {
   const asset = await Asset.fromModule(
@@ -39,8 +63,36 @@ export async function getDb(): Promise<
   if (!dbInstance) {
     await ensureDatabase();
     dbInstance = await openDatabaseAsync(DATABASE_NAME);
-  }
 
+    await migrateDatabase(dbInstance);
+
+    const db = drizzle(dbInstance, { schema });
+
+    try {
+      const existingSettings = await db.select().from(settings).limit(1);
+
+      if (existingSettings.length === 0) {
+        console.log("Initializing settings table with default values.");
+        await db.insert(settings).values({
+          fontSizeMultiplier: 1,
+          angelusEnabled: true,
+          massEnabled: true,
+          novenaEnabled: true,
+          officeEnabled: false,
+          permissionRequested: false,
+          permissionSoftRejected: false,
+        });
+      } else {
+        console.log("Settings table already contains data.");
+      }
+    } catch (error) {
+      console.error("Error initializing settings table:", error);
+
+      throw new Error(`Failed to initialize settings: ${error.message}`);
+    }
+
+    return db;
+  }
   return drizzle(dbInstance, { schema });
 }
 
