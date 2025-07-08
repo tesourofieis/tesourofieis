@@ -15,7 +15,7 @@ export default function Page0522Evora() {
         , excepto:
       </Text>
       <H3 text="Intróito" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Exultemos todos no Senhor, celebrando a festa da Dedicação da Igreja
         Eborense, de cuja santificação se alegram os Anjos, que louvam o Filho
         de Deus. Aleluia, aleluia. Amei, Senhor, o esplendor da vossa Casa e o
@@ -28,7 +28,7 @@ export default function Page0522Evora() {
         viveis e reinais...
       </Text>
       <H3 text="Evangelho" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Continuação do santo Evangelho segundo S. João. Naquele tempo,
         celebrava-se em Jerusalém a festa da Dedicação. Era no Inverno. E Jesus
         passeava no templo, no pórtico de Salomão. Rodearam-n’O, então, os

@@ -20,7 +20,7 @@ const normalize = (s: string) =>
 const extractContextualSnippet = (
   fullText: string | undefined | null,
   query: string,
-  wordContext = 10, // Number of words before and after
+  wordContext = 10 // Number of words before and after
 ): string => {
   if (!fullText || !query.trim()) {
     return fullText || "";
@@ -83,9 +83,12 @@ const extractContextualSnippet = (
   // --- Optional: Logic for finding nearest punctuation for a "quote" ---
   // This is more complex and depends on desired punctuation.
   // For example, to find a sentence:
-  const _sentenceEndings = /[.!?。？！]/; // Common sentence endings
+  const sentenceEndings = /[.!?;]/; // Common sentence endings
   const fullSentenceMatch = fullText.match(
-    new RegExp(`[^.!?。？！]*${normalizedQuery}[^.!?。？！]*[.!?。？！]?`, "i"),
+    new RegExp(
+      `${sentenceEndings}*${normalizedQuery}${sentenceEndings}*${sentenceEndings}?`,
+      "i"
+    )
   );
   if (fullSentenceMatch?.[0]) {
     // Prioritize full sentence if it's not too long and contains the match
@@ -101,7 +104,7 @@ const extractContextualSnippet = (
 // Modify search function
 export async function search(
   query: string,
-  limit = 15,
+  limit = 15
 ): Promise<SearchResult[]> {
   try {
     const db = await getDb();
@@ -127,7 +130,7 @@ export async function search(
         WHERE docs_fts MATCH ${searchTerm}
         ORDER BY rank
         LIMIT ${limit};
-      `,
+      `
     );
 
     const docIds = ftsResultRows.map((row) => row.id).filter(Boolean);
@@ -137,13 +140,13 @@ export async function search(
       .where(
         sql`${docs.id} IN (${sql.join(
           docIds.map((id) => sql`${id}`),
-          sql`, `,
-        )})`,
+          sql`, `
+        )})`
       )
       .all();
 
     const ftsTitleMap = new Map(
-      ftsResultRows.map((row) => [row.id, row.title]),
+      ftsResultRows.map((row) => [row.id, row.title])
     );
 
     const orderedResults = docIds
@@ -202,7 +205,7 @@ export async function search(
 
           const contextualSnippet = extractContextualSnippet(
             rawMatchedContent,
-            query,
+            query
           );
 
           return {

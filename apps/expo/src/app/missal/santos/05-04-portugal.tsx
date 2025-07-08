@@ -15,7 +15,7 @@ export default function Page0504Portugal() {
         , excepto:
       </Text>
       <H3 text="Oração" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Que a fé da ressurreição, Senhor, cresça em nós em virtude das
         maravilhas que operais pelas Relíquias do vosso Santo Mártir Vicente; e
         fazei que alcancemos a glória imortal, de que estas cinzas, que

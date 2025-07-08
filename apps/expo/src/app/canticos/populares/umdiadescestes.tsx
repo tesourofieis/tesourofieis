@@ -8,31 +8,31 @@ export default function PageUmdiadescestes() {
       <H1 text="Senhora, um dia descestes" />
 
       <View className="not-content">
-        <Text className="text-base">
+        <Text className="text-pretty">
           Senhora, um dia descestes À terra que em vós confia: Descestes à Serra
           d’ Aire, Em plena Cova da Iria.
         </Text>
-        <Text className="text-base">{"\n"}</Text>
-        <Text className="text-base">
+        <Text className="text-pretty">{"\n"}</Text>
+        <Text className="text-pretty">
           Refrão: Salve, Regina! Salve, Regina! Ora pro nobis, Maria! (2x)
         </Text>
-        <Text className="text-base">{"\n"}</Text>
-        <Text className="text-base">
+        <Text className="text-pretty">{"\n"}</Text>
+        <Text className="text-pretty">
           Nas mãos trazíeis o terço, Que pende da vossa imagem: Na fronte uma
           estrela de ouro, Nos lábios doce mensagem.
         </Text>
-        <Text className="text-base">{"\n"}</Text>
-        <Text className="text-base">
+        <Text className="text-pretty">{"\n"}</Text>
+        <Text className="text-pretty">
           Falando a três pastorinhos De cima duma azinheira Pregastes a
           penitência Aos povos da terra inteira.
         </Text>
-        <Text className="text-base">{"\n"}</Text>
-        <Text className="text-base">
+        <Text className="text-pretty">{"\n"}</Text>
+        <Text className="text-pretty">
           Pedistes que nos uníssemos Em oração e concórdia, Com pena dos
           pecadores, Ó Mãe de misericórdia.
         </Text>
-        <Text className="text-base">{"\n"}</Text>
-        <Text className="text-base">
+        <Text className="text-pretty">{"\n"}</Text>
+        <Text className="text-pretty">
           Olhai, ó Virgem, do Céu O mundo que pede luz. Bendita sejais, Senhora!
           Bendito seja Jesus!
         </Text>

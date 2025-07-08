@@ -22,7 +22,7 @@ export function getColor(color?: string) {
 }
 
 export const cardBase = (pressed: boolean) => {
-  return `my-1 w-full flex-1 justify-between rounded-lg shadow-xl p-4 ${
+  return `border border-sepia my-1 w-full flex-1 justify-between rounded-xl shadow-md p-2 ${
     pressed
       ? "bg-sepia-200 dark:bg-sepia-700 opacity-90"
       : "bg-sepia-100 dark:bg-sepia-800"
@@ -35,6 +35,7 @@ export default function PageLinkCard({
   description,
   href,
   title,
+  hasChildren,
 }: {
   mass?: Mass;
   oratio?: {
@@ -44,6 +45,7 @@ export default function PageLinkCard({
   description?: string;
   href?: string;
   title?: string;
+  hasChildren?: boolean;
 }) {
   if (oratio) {
     return (
@@ -53,16 +55,16 @@ export default function PageLinkCard({
         <Pressable>
           {({ pressed }) => (
             <View className={cardBase(pressed)}>
-              <View className="flex flex-row justify-between items-center">
+              <View className="flex flex-row justify-between items-center gap-1">
                 <View className="flex-1">
                   <View className="flex flex-row">
-                    <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-300">
+                    <Text className="text-pretty text-sm text-sepia-600 dark:text-sepia-200">
                       {description}
                     </Text>
                   </View>
 
                   <View className="flex flex-row items-center gap-2">
-                    <Text className="font-black text-sepia-600 dark:text-sepia-400">
+                    <Text className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
                       {oratio.name}
                     </Text>
                   </View>
@@ -89,26 +91,23 @@ export default function PageLinkCard({
         <Pressable>
           {({ pressed }) => (
             <View className={cardBase(pressed)}>
-              <View className="flex flex-row justify-between items-center">
+              <View className="flex flex-row justify-between items-center gap-1">
                 <View className="flex-1">
-                  <View className="flex flex-row">
-                    <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-300">
+                  <View className="px-3 flex flex-row items-center gap-2">
+                    <FontAwesome name="circle" color={getColor(mass.color)} />
+                    <Text className="text-sm text-sepia-600 dark:text-sepia-200">
                       {description ?? "Missa"}
                     </Text>
                     {mass.rank && (
-                      <Text className="font-serif text-sm font-bold text-sepia-700 dark:text-sepia-300">
-                        {" "}
-                        | Classe: {mass.rank}
+                      <Text className="text-sm font-bold text-sepia-700 dark:text-sepia-200">
+                        Classe: {mass.rank}
                       </Text>
                     )}
                   </View>
 
-                  <View className="flex flex-row items-center gap-2">
-                    <FontAwesome name="circle" color={getColor(mass.color)} />
-                    <Text className="font-black text-sepia-600 dark:text-sepia-400">
-                      {mass.name}
-                    </Text>
-                  </View>
+                  <Text className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
+                    {mass.name}
+                  </Text>
 
                   {mass.local && (
                     <View className="flex-row items-center gap-2">
@@ -121,7 +120,7 @@ export default function PageLinkCard({
                 </View>
 
                 <FontAwesome
-                  name="chevron-right"
+                  name={hasChildren ? "chevron-down" : "chevron-right"}
                   size={16}
                   color={pressed ? COLORS[600] : COLORS[500]}
                 />
@@ -140,11 +139,11 @@ export default function PageLinkCard({
       <Pressable>
         {({ pressed }) => (
           <View className={cardBase(pressed)}>
-            <View className="flex flex-row justify-between items-center">
+            <View className="flex flex-row justify-between items-center gap-1">
               <View className="flex-1">
                 <View className="flex flex-row">
                   <Text
-                    className="font-serif text-sm text-sepia-600 dark:text-sepia-300"
+                    className="text-pretty text-xs text-sepia-600 dark:text-sepia-200"
                     numberOfLines={1}
                   >
                     {description ?? ""}
@@ -152,14 +151,14 @@ export default function PageLinkCard({
                 </View>
 
                 <View className="flex flex-row items-center gap-2">
-                  <Text className="font-black text-sepia-600 dark:text-sepia-400">
+                  <Text className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
                     {title}
                   </Text>
                 </View>
               </View>
 
               <FontAwesome
-                name="chevron-right"
+                name={hasChildren ? "chevron-down" : "chevron-right"}
                 size={16}
                 color={pressed ? COLORS[600] : COLORS[500]}
               />

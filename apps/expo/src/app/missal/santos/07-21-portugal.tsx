@@ -7,7 +7,7 @@ export default function Page0721Portugal() {
     <PageWrapper>
       <H1 text="Santo Anjo Custódio de Portugal, a 21 de Julho" />
       <H3 text="Intróito" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Encomendou-te Deus aos seus Anjos, para que eles te guardem em todos
         teus caminhos; em suas mãos te conduzirão, para que o teu Pé não tropece
         na pedra. Aquele que se abriga sob a protecção do Altíssimo e habita à
@@ -15,14 +15,14 @@ export default function Page0721Portugal() {
         <Text className="versicle"> ℣. </Text>Glória ao Pai...
       </Text>
       <H3 text="Oração" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ó Deus omnipotente e sempiterno, que com inefável providência destinais
         para cada nação um Anjo, que a guarde, concedei-nos, Vos suplicamos,
         que, pelas súplicas e pelo patrocínio do Anjo Custódio da nossa Nação,
         sejamos sempre livres de todas as adversidades. Por nosso Senhor...
       </Text>
       <H3 text="Epístola" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Lição do Livro dos Reis. Naqueles dias, filho de Amós, mandou dizer a
         Ezequias: «Isto diz o Senhor, a respeito do rei dos Assírios: Ele não
         entrará nesta cidade, nem nela usará a sua espada, nem ocupará o seu
@@ -35,7 +35,7 @@ export default function Page0721Portugal() {
         voltou para os seus domínios.
       </Text>
       <H3 text="Gradual" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         O Anjo do Senhor acampará em redor dos que o temem e salvá-los-á.
         Clamaram os justos e o Senhor ouviu-os: e livrou-os de todas suas
         tribulações. Aleluia, aleluia. Adorai o Senhor, ó vós, todos seus Anjos;
@@ -45,7 +45,7 @@ export default function Page0721Portugal() {
       <Text className="aside">
         No Tempo Pascal, omite-se o Gradual e diz-se:
       </Text>
-      <Text className="text-base">
+      <Text className="text-pretty">
         Aleluia, aleluia. Diante dos Anjos cantarei Salmos em vosso louvor;
         adorar-Vos-ei no vosso Templo Sagrado e louvarei o vosso nome. Aleluia.
         O Anjo do Senhor desceu do céu, e, aproximando-se, revolveu a pedra e
@@ -56,7 +56,7 @@ export default function Page0721Portugal() {
         seguinte, e diz-se:
       </Text>
       <H3 text="Trato" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Bendizei o Senhor, ó vós, todos seus Anjos, poderosos em força, que
         obedeceis às suas palavras. Bendizei o Senhor, todos seus exércitos,
         seus ministros, que executais a sua vontade. Bendizei o Senhor, todas
@@ -64,7 +64,7 @@ export default function Page0721Portugal() {
         minha alma.
       </Text>
       <H3 text="Evangelho" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Continuação do santo Evangelho segundo S. Mateus. Naquele tempo, o Anjo
         do senhor apareceu em sonhos a José e disse-lhe: «Levanta-te, toma o
         Menino e sua Mãe e foge com eles para o Egipto, permanecendo ali até que
@@ -75,23 +75,23 @@ export default function Page0721Portugal() {
         quando disse: «Chamarei do Egipto o meu Filho».
       </Text>
       <H3 text="Ofertório" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Bendizei o Senhor, ó vós, todos seus Anjos, seus ministros, executores
         das suas ordens e sempre fiéis aos seus chamamentos.
       </Text>
       <H3 text="Secreta" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Senhor Santo, Pai omnipotente, Deus eterno aceitai estes dons, que Vos
         oferecemos, suplicando-Vos que, pelos sufrágios do vosso Anjo Custódio,
         sejamos livres de todas as adversidades. Por nosso Senhor...
       </Text>
       <H3 text="Comúnio" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Anjos do Senhor, bendizei todos o Senhor: cantai hinos emseu louvor e
         exaltai-O em todos os séculos.
       </Text>
       <H3 text="Postcomúnio" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Sejam-nos proveitosos, Senhor, para a salvação do corpo e da alma os
         Sacramentos, que recebemos, a fim de que, pela defesa da angelical
         custódia, sejamos livres de todos os perigos e dignos de participar dos

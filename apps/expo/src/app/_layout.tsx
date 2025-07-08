@@ -1,10 +1,9 @@
-import { BerkshireSwash_400Regular } from "@expo-google-fonts/berkshire-swash";
 import { NotoSans_400Regular } from "@expo-google-fonts/noto-sans";
-import {
-  NotoSerif_400Regular,
-  NotoSerif_400Regular_Italic,
-  NotoSerif_700Bold,
-} from "@expo-google-fonts/noto-serif";
+import { Cardo_700Bold } from "@expo-google-fonts/cardo/700Bold";
+import { DMSerifDisplay_400Regular } from "@expo-google-fonts/dm-serif-display/400Regular";
+import { DMSerifDisplay_400Regular_Italic } from "@expo-google-fonts/dm-serif-display/400Regular_Italic";
+import { DMSerifText_400Regular } from "@expo-google-fonts/dm-serif-text/400Regular";
+import { DMSerifText_400Regular_Italic } from "@expo-google-fonts/dm-serif-text/400Regular_Italic";
 
 import { useFonts } from "expo-font";
 import { useColorScheme } from "nativewind";
@@ -41,11 +40,12 @@ SplashScreen.setOptions({
 
 export default function PageRootLayout() {
   const [loaded, error] = useFonts({
-    "NotoSerif-Regular": NotoSerif_400Regular,
-    "BerkshireSwash-Regular": BerkshireSwash_400Regular,
-    "NotoSerif-Bold": NotoSerif_700Bold,
-    "NotoSerif-Italic": NotoSerif_400Regular_Italic,
     "NotoSans-Regular": NotoSans_400Regular,
+    Cardo_700Bold,
+    DMSerifDisplay_400Regular,
+    DMSerifDisplay_400Regular_Italic,
+    DMSerifText_400Regular,
+    DMSerifText_400Regular_Italic,
     ...FontAwesome6.font,
   });
 
@@ -126,7 +126,7 @@ function RootLayoutNav() {
       background: COLORS["50"],
       card: COLORS["300"],
       text: COLORS["900"],
-      border: COLORS["400"],
+      border: COLORS["300"],
       notification: COLORS["500"],
     },
     fonts: DefaultTheme.fonts,
@@ -139,7 +139,7 @@ function RootLayoutNav() {
       background: COLORS["900"],
       card: COLORS["700"],
       text: COLORS["100"],
-      border: COLORS["600"],
+      border: COLORS["700"],
       notification: COLORS["500"],
     },
     fonts: DefaultTheme.fonts,
@@ -223,30 +223,32 @@ const Breadcrumbs = () => {
   return (
     <View className="flex-row items-center gap-1">
       {segments.map((segment, index) => (
-        <React.Fragment key={segment}>
+        <View className="flex-row items-center gap-1" key={segment}>
           {index !== 0 && (
-            <Text className="text-sepia-400 dark:text-sepia-600">/</Text>
+            <Text className="font-serif text-xs text-sepia-400 dark:text-sepia-600">
+              /
+            </Text>
           )}
 
           {index === segments.length - 1 ? (
-            <Text className="text-xs font-serif text-sepia-700 dark:text-sepia-300 font-bold">
+            <Text className="font-serif text-xs text-sepia-700 dark:text-sepia-300">
               {formatSegmentName(segment)}
             </Text>
           ) : (
             <Pressable
-              className="p-1 rounded bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
+              className="rounded bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
               onPress={() =>
                 handleBreadcrumbPress(
-                  `/${segments.slice(0, index + 1).join("/")}`,
+                  `/${segments.slice(0, index + 1).join("/")}`
                 )
               }
             >
-              <Text className="text-xs font-serif text-sepia-600 dark:text-sepia-400 underline">
+              <Text className="font-serif text-xs text-sepia-600 dark:text-sepia-400 underline">
                 {formatSegmentName(segment)}
               </Text>
             </Pressable>
           )}
-        </React.Fragment>
+        </View>
       ))}
     </View>
   );
@@ -261,7 +263,7 @@ const Header = ({ withBC }: { withBC: boolean }) => {
 
   if (withBC) {
     return (
-      <View className="flex-row items-center p-5 gap-2 border-b bg-sepia-300 dark:bg-sepia-900 w-full justify-between">
+      <View className="flex-row items-center p-5 gap-2 border-b bg-sepia-200 dark:bg-sepia-800 w-full justify-between">
         <View className="flex-row gap-3">
           <Pressable
             className="rounded-full p-2 shadow-md bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
@@ -274,7 +276,7 @@ const Header = ({ withBC }: { withBC: boolean }) => {
         <View className="flex-row gap-1">
           <Pressable
             onPress={() => router.navigate("/more")}
-            className="p-2 items-center border rounded-lg border-sepia-700 dark:border-sepia-400 active:bg-sepia-200 dark:active:bg-sepia-700"
+            className="p-2 items-center border rounded-xl border-sepia-700 dark:border-sepia-200 active:bg-sepia-200 dark:active:bg-sepia-700"
           >
             <FontAwesome6
               name="magnifying-glass"
@@ -285,7 +287,7 @@ const Header = ({ withBC }: { withBC: boolean }) => {
 
           <Pressable
             onPress={() => openExternalLink(`https://tesourofieis.com${path}`)}
-            className="p-2 items-center border rounded-lg border-sepia-700 dark:border-sepia-400 active:bg-sepia-200 dark:active:bg-sepia-700"
+            className="p-2 items-center border rounded-xl border-sepia-700 dark:border-sepia-200 active:bg-sepia-200 dark:active:bg-sepia-700"
           >
             <FontAwesome6
               name="globe"
@@ -298,10 +300,10 @@ const Header = ({ withBC }: { withBC: boolean }) => {
     );
   }
   return (
-    <View className="flex-row items-center justify-between p-5 bg-sepia-300 dark:bg-sepia-900 w-full border-b active:bg-sepia-200 dark:active:bg-sepia-800">
+    <View className="flex-row items-center justify-between p-5 bg-sepia-200 dark:bg-sepia-800 w-full border-b active:bg-sepia-100 dark:active:bg-sepia-900">
       <Pressable onPress={() => router.navigate("/")}>
         <View className="flex-row items-center gap-3">
-          <FontAwesome6 name="book-bible" size={15} color="#e53935" />
+          <FontAwesome6 name="book-bible" size={25} color="#e53935" />
           <Text className="text-lg text-sepia-800 dark:text-sepia-200 font-serif">
             Tesouro dos Fiéis
           </Text>

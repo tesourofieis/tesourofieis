@@ -56,7 +56,7 @@ export default function PageWrapper({ children }: PageWrapperProps) {
     .onUpdate((event) => {
       const newScale = Math.max(
         0.5,
-        Math.min(3, baseScale.current * event.scale),
+        Math.min(3, baseScale.current * event.scale)
       );
       const newFontSize = Math.round(16 * newScale);
       setFontSize(newFontSize);

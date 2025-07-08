@@ -12,7 +12,7 @@ export default function Page1030Portugal() {
         <Link href="/missal/santos/05-03">Invenção da Santa Cruz.</Link>
       </Text>
       <H3 text="Intróito" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Alegremo-nos em Deus em todo este dia: e louvemos eternamente o vosso
         nome, Senhor; pois salvastes-nos dos nossos inimigos e confundistes os
         que nos odiavam. Ó Deus, ouvimos com os nossos ouvidos e nossos país
@@ -21,15 +21,15 @@ export default function Page1030Portugal() {
         Glória ao Pai...
       </Text>
       <H3 text="Oração" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ó Deus, que pela vossa Cruz quisestes conceder ao povo, que em Vós crê,
         a vitória contra os inimigos, permiti pela vossa piedade, Vos pedimos,
         que aqueles que adoram a Cruz, alcancem sempre a vitória na terra e o
         gozo eterno nos céus. Ó Vós, que viveis e reinais...
       </Text>
       <H3 text="Epístola" />
-      <Text className="text-base">Lição do Livro dos Macabeus.</Text>
-      <Text className="text-base">
+      <Text className="text-pretty">Lição do Livro dos Macabeus.</Text>
+      <Text className="text-pretty">
         Naqueles dias, Macabeu esperava sempre com toda a confiança que um
         socorro lhe viria de Deus. E exortava os seus a que se não amedrontassem
         com a chegada das nações, mas que se lembrassem dos socorros, que lhes
@@ -55,7 +55,7 @@ export default function Page1030Portugal() {
         mais passasse aquele dia sem que se realizasse festiva comemoração.
       </Text>
       <H3 text="Gradual" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Eis o dia que o Senhor criou. Exultemos e alegremo-nos n’Ele. Assim
         devem cantar aqueles que o Senhor resgatou e tirou das mãos dos
         inimigos. Aleluia, aleluia. Cantemos em honra do Senhor, pois assinalou
@@ -63,13 +63,13 @@ export default function Page1030Portugal() {
         Aleluia.
       </Text>
       <H3 text="Comúnio" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Com o vosso poder, Senhor, assinalou-se a vossa dextra que esmagou o
         inimigo. Pela vossa misericórdia, fostes o guia do povo, que resgatastes
         e conduzistes pelo vosso poder ao vosso santo tabernáculo.
       </Text>
       <H3 text="Postcomúnio" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ouvi-nos, ó Deus, nosso Salvador; e pela vitória da Santa Cruz
         livrai-nos de todos os perigos. Por nosso Senhor...
       </Text>

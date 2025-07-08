@@ -376,47 +376,47 @@ const SEASON_COLORS: Record<
 > = {
   Advento: {
     bg: "bg-violet-100 dark:bg-violet-900/30",
-    border: "border-violet-300 dark:border-violet-600",
+    border: "border-violet-300 dark:border-violet-700",
     accent: "text-violet-700 dark:text-violet-300",
   },
   Natal: {
     bg: "bg-amber-50 dark:bg-amber-900/20",
-    border: "border-amber-200 dark:border-amber-600",
+    border: "border-amber-300 dark:border-amber-700",
     accent: "text-amber-700 dark:text-amber-300",
   },
   Epifania: {
     bg: "bg-yellow-50 dark:bg-yellow-900/20",
-    border: "border-yellow-200 dark:border-yellow-600",
+    border: "border-yellow-300 dark:border-yellow-700",
     accent: "text-yellow-700 dark:text-yellow-300",
   },
   Septuagésima: {
     bg: "bg-green-50 dark:bg-green-900/20",
-    border: "border-green-200 dark:border-green-600",
+    border: "border-green-300 dark:border-green-700",
     accent: "text-green-700 dark:text-green-300",
   },
   Quaresma: {
     bg: "bg-purple-50 dark:bg-purple-900/20",
-    border: "border-purple-200 dark:border-purple-600",
+    border: "border-purple-300 dark:border-purple-700",
     accent: "text-purple-700 dark:text-purple-300",
   },
   "Semana Santa": {
     bg: "bg-purple-50 dark:bg-purple-900/20",
-    border: "border-purple-200 dark:border-purple-600",
+    border: "border-purple-300 dark:border-purple-700",
     accent: "text-purple-700 dark:text-purple-300",
   },
   Paixão: {
     bg: "bg-red-50 dark:bg-red-900/20",
-    border: "border-red-200 dark:border-red-600",
+    border: "border-red-300 dark:border-red-700",
     accent: "text-red-700 dark:text-red-300",
   },
   Páscoa: {
     bg: "bg-white dark:bg-white/5",
-    border: "border-gray-200 dark:border-gray-600",
+    border: "border-gray-300 dark:border-gray-700",
     accent: "text-gray-700 dark:text-gray-300",
   },
   Pentecostes: {
     bg: "bg-red-50 dark:bg-red-900/20",
-    border: "border-red-200 dark:border-red-600",
+    border: "border-red-300 dark:border-red-700",
     accent: "text-red-700 dark:text-red-300",
   },
 };
@@ -443,7 +443,7 @@ export default function LiturgicalSeason() {
           color={iconColor}
         />
 
-        <Text className={`text-xl font-bold ${seasonColors.accent}`}>
+        <Text className={`text-pretty text-xl ${seasonColors.accent}`}>
           {season}
         </Text>
       </View>

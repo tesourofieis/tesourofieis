@@ -67,25 +67,35 @@ export default function ExternalLinks() {
         <Pressable
           key={link.name}
           onPress={() => openExternalLink(link.url)}
-          className="flex-col items-start py-2 px-3 gap-1 rounded-lg bg-sepia-800 active:bg-sepia-700"
+          className="flex-col items-start py-2 px-3 gap-1 rounded-xl bg-sepia-800 border border-sepia-700 active:bg-sepia-700"
           accessibilityLabel={`${link.title}: ${link.desc}`}
           accessibilityRole="link"
         >
           <View className="flex-row justify-between w-full">
-            <View className="flex-row gap-3">
-              <FontAwesome6 name={link.icon} size={20} color={COLORS["400"]} />
-              <Text className="text-sm bold text-sepia-500">{link.title}</Text>
+            <View className="flex-row items-center">
+              <View className="ml-3">
+                <FontAwesome6
+                  name={link.icon}
+                  size={20}
+                  color={COLORS["200"]}
+                />
+              </View>
+              <Text className="text-sm text-pretty text-sepia-300">
+                {link.title}
+              </Text>
             </View>
           </View>
-          <Text className="text-xs bold text-sepia-600">{link.desc}</Text>
+          <Text className="text-xs text-pretty text-sepia-400">
+            {link.desc}
+          </Text>
           {link.copyValue && (
             <Pressable
               onPress={() => copyToClipboard(link.copyValue as string)}
-              className="mt-1 py-1 px-2 bg-sepia-700 rounded-md active:bg-sepia-500 w-full"
+              className="mt-1 py-1 px-2 bg-sepia-600 rounded-xl active:bg-sepia-500 w-full"
             >
               <View className="flex-row items-center justify-between">
                 <Text
-                  className="text-xs font-mono text-sepia-400"
+                  className="text-xs font-mono text-sepia-200"
                   numberOfLines={1}
                   ellipsizeMode="middle"
                 >

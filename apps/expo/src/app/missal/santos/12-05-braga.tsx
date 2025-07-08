@@ -23,7 +23,7 @@ export default function Page1205Braga() {
         </Text>
       </Language>
       <H3 text="Oração" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ó Senhor, Vos suplicamos, que os preciosos méritos do B. Geraldo, vosso
         Confessor e Pontífice, nos defendam; e que por suas preces seja bem
         dirigida a Igreja. Por nosso Senhor...
@@ -52,25 +52,25 @@ export default function Page1205Braga() {
         title="Confessores não Pontífices - Missa Os justi"
       />
       <H3 text="Ofertório" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Alegra-te, cidade de Braga, com tão excelso Padroeiro, o qual permitiu
         Deus que fosse sepultado dentro dos teus muros. Por seu intermédio
         obtiveste de Deus milagres inumeráveis.
       </Text>
       <H3 text="Secreta" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Seja aceite na vossa presença, ó Senhor, a oblação do vosso fiel povo e
         permiti que lhe seja salutar, por intercessão do B. Geraldo, vosso
         Confessor e Pontífice, em cuja solenidade ela Vos é oferecida. Por nosso
         Senhor...
       </Text>
       <H3 text="Comúnio" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ó quão glorioso é este Confessor de Deus, com o qual no céu exultam os
         exércitos dos Santos!
       </Text>
       <H3 text="Postcomúnio" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ó Deus, remunerador das almas fiéis, concedei-nos a graça de alcançarmos
         o perdão por intermédio das preces do B. Geraldo, vosso Confessor e
         Pontífice, cuja veneranda festividade hoje celebramos. Por nosso

@@ -76,7 +76,7 @@ const TreeItem = React.memo(
     loadingIds,
     childrenMap,
   }: {
-    doc: Docs; // Type is now from schema
+    doc: Docs;
     level: number;
     expanded: Record<string, boolean>;
     toggleExpand: (id: string, children: boolean) => void;
@@ -135,67 +135,65 @@ const TreeItem = React.memo(
       : "";
 
     return (
-      <View style={{ paddingLeft: level * 16 }}>
-        <TouchableOpacity
-          onPress={handlePress}
-          className={`rounded-xl mx-4 my-1 py-3 px-4 flex-row items-center ${
-            isActive
-              ? "bg-sepia-200 dark:bg-sepia-700 border-l-3 border-accent"
-              : "bg-sepia-100 dark:bg-sepia-800 border-l-3 border-sepia-200 dark:border-sepia-700"
-          }`}
-        >
-          <View className="flex-1">
-            <Text
-              className={`${
-                isActive ? "font-bold" : "font-semibold"
-              } text-base text-${isDark ? "sepia-100" : "sepia-900"}`}
-            >
-              {highlightText(doc.title, searchHighlight)}
-            </Text>
-            {description && description !== doc.title && (
-              <Text
-                className="text-sepia-600 dark:text-sepia-300 text-xs mt-1"
-                numberOfLines={2}
-              >
-                {highlightText(description, searchHighlight)}
+      <View>
+        <View className="mx-4 py-3 border-b border-sepia">
+          <TouchableOpacity
+            onPress={handlePress}
+            className="flex-row items-center"
+          >
+            <View className="flex-1" style={{ paddingLeft: level * 16 }}>
+              <Text className="text-pretty">
+                {highlightText(doc.title, searchHighlight)}
               </Text>
-            )}
-          </View>
-          {children ? (
-            loadingIds.includes(doc.id) ? (
-              <ActivityIndicator size="small" color={COLORS["500"]} />
-            ) : (
-              <FontAwesome6
-                name={isOpen ? "chevron-up" : "chevron-down"}
-                size={16}
-                color={!isDark ? COLORS["800"] : COLORS["200"]}
-              />
-            )
-          ) : (
-            <FontAwesome6
-              name="arrow-right"
-              size={16}
-              color={!isDark ? COLORS["800"] : COLORS["200"]}
-            />
-          )}
-        </TouchableOpacity>
+              {description && description !== doc.title && (
+                <Text
+                  className="text-pretty text-sepia-600 dark:text-sepia-300 text-xs mt-1"
+                  numberOfLines={2}
+                >
+                  {highlightText(description, searchHighlight)}
+                </Text>
+              )}
+            </View>
+            <View className="mr-2">
+              {children ? (
+                loadingIds.includes(doc.id) ? (
+                  <ActivityIndicator size="small" color={COLORS["500"]} />
+                ) : (
+                  <FontAwesome6
+                    name={isOpen ? "chevron-up" : "chevron-down"}
+                    size={12}
+                    color={!isDark ? COLORS["700"] : COLORS["300"]}
+                  />
+                )
+              ) : (
+                <FontAwesome6
+                  name="arrow-right"
+                  size={12}
+                  color={!isDark ? COLORS["700"] : COLORS["300"]}
+                />
+              )}
+            </View>
+          </TouchableOpacity>
+        </View>
 
-        <FlatList
-          data={visibleChildren}
-          renderItem={renderChild}
-          keyExtractor={(item) => item.id}
-          removeClippedSubviews
-          maxToRenderPerBatch={RENDER_BATCH_SIZE}
-          windowSize={8}
-          getItemLayout={(_, i) => ({ length: 60, offset: 60 * i, index: i })}
-        />
+        {visibleChildren.length > 0 && (
+          <FlatList
+            data={visibleChildren}
+            renderItem={renderChild}
+            keyExtractor={(item) => item.id}
+            removeClippedSubviews
+            maxToRenderPerBatch={RENDER_BATCH_SIZE}
+            windowSize={8}
+            getItemLayout={(_, i) => ({ length: 60, offset: 60 * i, index: i })}
+          />
+        )}
       </View>
     );
   }
 );
 
 const highlightText = (text: string, highlight?: string) => {
-  if (!highlight || highlight.length < 2) return <Text>{text}</Text>; // Wrap if no highlight
+  if (!highlight || highlight.length < 2) return <Text>{text}</Text>;
 
   const normalizedHighlight = normalize(highlight);
   const words = normalizedHighlight
@@ -205,29 +203,28 @@ const highlightText = (text: string, highlight?: string) => {
   let result = text;
   words.forEach((word) => {
     const escapedWord = word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    // Using \b for whole word matching. Remove if partial word matches are desired.
     const regex = new RegExp(`(\\b${escapedWord}\\b)`, "gi");
     result = result.replace(regex, "<mark>$1</mark>");
   });
 
-  if (result === text) return <Text>{text}</Text>; // Wrap if no changes
+  if (result === text) return <Text>{text}</Text>;
 
   const parts = result.split(/(<mark>.*?<\/mark>)/g).filter(Boolean);
   return (
     <>
-      {parts.map((part) => {
+      {parts.map((part, i) => {
         if (part.startsWith("<mark>") && part.endsWith("</mark>")) {
           const markedText = part.slice(6, -7);
           return (
             <Text
-              key={part}
+              key={part + i}
               className="bg-sepia-200 dark:bg-sepia-700 font-semibold"
             >
               {markedText}
             </Text>
           );
         }
-        return <Text key={part}>{part}</Text>;
+        return <Text key={part + i}>{part}</Text>;
       })}
     </>
   );
@@ -237,21 +234,20 @@ const renderFTSHighlightedText = (text: string) => {
   if (!text) return null;
   const parts = text.split(/(<b>.*?<\/b>)/g).filter(Boolean); // Filter out empty strings from split
   return (
-    // Wrap in a parent Text component if this is the root to ensure proper text flow
     <Text>
-      {parts.map((part) => {
+      {parts.map((part, i) => {
         if (part.startsWith("<b>") && part.endsWith("</b>")) {
           const highlightedContent = part.slice(3, -4);
           return (
             <Text
-              key={part}
+              key={part + i}
               className="bg-sepia-200 dark:bg-sepia-700 font-semibold"
             >
               {highlightedContent}
             </Text>
           );
         }
-        return <Text key={part}>{part}</Text>;
+        return <Text key={part + i}>{part}</Text>;
       })}
     </Text>
   );
@@ -292,11 +288,9 @@ const SearchResultItem = React.memo(
       }
     }, [item.matchedHeading, handlePress]);
 
-    // Now, displayTitle comes from FTS, but displaySnippet is a raw string from extractContextualSnippet
     const displayTitle = item.highlightedTitle;
-    const displaySnippet = item.matchedText; // This is the raw custom snippet
+    const displaySnippet = item.matchedText;
 
-    // Fallback for snippet if for some reason matchedText is empty
     const fallbackSnippet =
       item.content.introduction ||
       (item.content.headings.length > 0 ? item.content.headings[0].body : "") ||
@@ -305,18 +299,9 @@ const SearchResultItem = React.memo(
     return (
       <TouchableOpacity
         onPress={handleCardPress}
-        className={`rounded-lg mx-4 my-2 p-4 ${
-          isActive
-            ? "bg-sepia-100 dark:bg-sepia-700 border-l-3 border-sepia-500"
-            : "bg-sepia-50 dark:bg-sepia-800 border-l-3 border-sepia-200 dark:border-sepia-700"
-        }`}
+        className="rounded-xl mx-4 my-2 p-4 bg-sepia-100 dark:bg-sepia-700 active:bg:sepia-200 dark:active:bg-sepia-800"
       >
-        <Text
-          className={`${
-            isActive ? "font-bold" : "font-semibold"
-          } text-base text-${isDark ? "sepia-100" : "sepia-900"}`}
-        >
-          {/* Title can still use FTS highlight if present, or fallback to client-side */}
+        <Text className="text-pretty">
           {displayTitle
             ? renderFTSHighlightedText(displayTitle)
             : highlightText(item.title, query)}
@@ -327,7 +312,6 @@ const SearchResultItem = React.memo(
             className="text-blue-600 dark:text-blue-400 text-sm mt-1 font-medium"
             numberOfLines={1}
           >
-            {/* Highlight the matched heading title client-side */}
             {highlightText(item.matchedHeading.title, query)}
           </Text>
         )}
@@ -336,13 +320,12 @@ const SearchResultItem = React.memo(
           className="text-sepia-600 dark:text-sepia-300 text-sm mt-1"
           numberOfLines={3}
         >
-          {/* Now, the displaySnippet is a raw string, so always use highlightText */}
           {highlightText(displaySnippet || fallbackSnippet, query)}
         </Text>
 
         {item.content.headings.length > 1 && (
           <View className="mt-2">
-            <Text className="text-xs text-sepia-500 dark:text-sepia-400 italic">
+            <Text className="text-xs text-sepia-600 dark:text-sepia-400 italic">
               Outras secções:
             </Text>
             {item.content.headings
@@ -355,7 +338,7 @@ const SearchResultItem = React.memo(
                   className="mt-1 ml-2"
                 >
                   <Text
-                    className="text-sm text-sepia-500 dark:text-sepia-400"
+                    className="text-sm underline text-sepia-600 dark:text-sepia-400"
                     numberOfLines={1}
                   >
                     {heading.title}
@@ -365,17 +348,21 @@ const SearchResultItem = React.memo(
           </View>
         )}
 
-        {item.section && (
-          <Text className="text-ellipsis text-sepia-400 dark:text-sepia-500 text-xs px-2 py-1 mt-2">
-            {item.section}
-          </Text>
-        )}
+        <View className="flex-row flex-wrap items-center mt-1 gap-2">
+          {item.id
+            .split("/")
+            .slice(0, -1)
+            .map((path) => (
+              <Text className="text-ellipsis text-sepia-800 dark:text-sepia-200 text-xs px-2 py-1 mt-2 rounded-full bg-sepia-100 dark:bg-sepia-900">
+                {path}
+              </Text>
+            ))}
+        </View>
       </TouchableOpacity>
     );
   }
 );
 
-// Update the SearchResults component
 const SearchResults = React.memo(
   ({
     results,
@@ -428,7 +415,6 @@ const SearchResults = React.memo(
   }
 );
 
-// Update the main component's state type
 export default function MoreScreen() {
   const router = useRouter();
   const pathname = usePathname();
@@ -496,16 +482,13 @@ export default function MoreScreen() {
     }, 300);
 
     return () => clearTimeout(timeoutId);
-  }, [searchQuery]); // Removed search from dependencies, assuming it's stable.
+  }, [searchQuery]);
 
   const toggleExpand = useCallback(
     async (id: string, children: boolean) => {
       if (expanded[id]) {
         setExpanded((prev) => ({ ...prev, [id]: false }));
       } else {
-        // This logic needs to consider if children are already loaded in `allDocs`
-        // before making another DB call.
-        // We filter for parent === id to check if its children are already in allDocs
         const childrenAlreadyLoaded = allDocs.some((doc) => doc.parent === id);
 
         if (children && !childrenAlreadyLoaded) {
@@ -524,7 +507,7 @@ export default function MoreScreen() {
         setExpanded((prev) => ({ ...prev, [id]: true }));
       }
     },
-    [expanded, allDocs] // Added allDocs here, so the useCallback dependency array is correct.
+    [expanded, allDocs]
   );
 
   const handleResultPress = useCallback(
@@ -556,7 +539,7 @@ export default function MoreScreen() {
     () => ({
       placeholder: COLORS["500"],
       inputBg: isDark ? COLORS["900"] : COLORS["100"],
-      inputBorder: isDark ? COLORS["600"] : COLORS["300"],
+      inputBorder: isDark ? COLORS["700"] : COLORS["300"],
     }),
     [isDark]
   );
@@ -601,7 +584,7 @@ export default function MoreScreen() {
           <FontAwesome6
             name="search"
             size={24}
-            color={isDark ? COLORS["200"] : COLORS["800"]}
+            color={isDark ? COLORS["300"] : COLORS["700"]}
           />
           <Text className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
             Nenhum resultado encontrado
@@ -634,11 +617,11 @@ export default function MoreScreen() {
 
   return (
     <>
-      <View className="p-4 bg-sepia-100 dark:bg-sepia-900 border-b border-sepia-500">
-        <View className="flex-row px-3 py-2 items-center bg-sepia-200 dark:bg-sepia-800 rounded-lg">
+      <View className="p-4 bg-sepia-50 dark:bg-sepia-900 border-b border-sepia">
+        <View className="flex-row px-3 py-2 items-center bg-sepia-100 dark:bg-sepia-800 rounded-xl border border-sepia">
           <FontAwesome6
             name="magnifying-glass"
-            size={16}
+            size={12}
             color={colors.placeholder}
           />
           <TextInput
@@ -653,12 +636,12 @@ export default function MoreScreen() {
           />
           {!!searchQuery && (
             <TouchableOpacity onPress={handleClear} className="ml-2">
-              <FontAwesome6 name="xmark" size={16} color={colors.placeholder} />
+              <FontAwesome6 name="xmark" size={12} color={colors.placeholder} />
             </TouchableOpacity>
           )}
         </View>
       </View>
-      {renderContent()}
+      <View className="bg-sepia-100 dark:bg-sepia-800">{renderContent()}</View>
     </>
   );
 }

@@ -15,7 +15,7 @@ export default function Page0301Braga() {
         , excepto:
       </Text>
       <H3 text="Oração" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Senhor, que os vossos B. B. Miguel e seus Companheiros nos confortem com
         sua preciosa profissão de fé; e que pela sua piedosa intercessão sejamos
         continuamente favorecidos. Por nosso Senhor...

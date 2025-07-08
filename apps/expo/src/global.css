@@ -14,63 +14,67 @@
     scrollbar-color: theme("colors.sepia.900") theme("colors.sepia.800");
   }
 
-  .text {
-    @apply text-sepia-900 dark:text-sepia-100;
+  .text-sepia {
+    @apply text-sepia-900 dark:text-sepia-100 font-serif;
+  }
+
+  .border-sepia {
+    @apply border-sepia-200 dark:border-sepia-700;
   }
 
   .heading1 {
-    @apply text-4xl font-display py-6 text-center text-red-600;
+    @apply text-4xl font-display text-pretty py-6 text-center text-red-600;
   }
 
   .h2 {
-    @apply text-center font-display text-3xl py-5 text-red-600;
+    @apply text-center font-display text-pretty text-3xl py-5 text-red-600;
   }
 
   .h3 {
-    @apply text-center font-display text-2xl py-4 text;
+    @apply text-center font-display text-pretty text-2xl py-4 text-sepia;
   }
 
   .h4 {
-    @apply text-center font-display text-xl py-3 text;
+    @apply text-center font-display text-pretty text-xl py-3 text-sepia;
   }
 
   .h5 {
-    @apply text-center font-display text-lg py-2 text;
+    @apply text-center font-display text-pretty text-lg py-2 text-sepia;
   }
 
   .h6 {
-    @apply text-center font-serif py-1 text;
+    @apply text-center text-pretty py-1 text-sepia;
   }
 
   .card {
-    @apply flex items-center justify-center rounded-md border border-sepia-300 bg-sepia-200 p-8 px-3 text-sepia-600 no-underline hover:bg-sepia-200 dark:border-sepia-700 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900;
+    @apply flex items-center justify-center rounded-xl border border-sepia-300 bg-sepia-200 p-8 px-3 text-sepia-600 no-underline hover:bg-sepia-200 dark:border-sepia-700 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900;
   }
 
   .li {
-    @apply list-item ml-2 py-1 text;
+    @apply list-item ml-2 py-1 text-sepia;
   }
 
   .bold {
-    @apply font-bold text;
+    @apply font-bold text-sepia;
   }
 
   .list-styled {
     @apply p-2;
   }
 
-  .text-base,
+  .text-pretty,
   .latin,
   .vernacular {
-    @apply py-2 text font-serif px-3;
+    @apply py-2 text-sepia font-serif px-3;
     text-rendering: optimizeLegibility;
   }
 
   .cross {
-    @apply text-red-500;
+    @apply text-red-600;
   }
 
   .response {
-    @apply font-bold text-red-500;
+    @apply font-bold text-red-600;
   }
 
   .versicle {
@@ -82,16 +86,16 @@
   }
 
   .aside {
-    @apply rounded-sm bg-sepia-200 border-sepia-500 p-4 my-4 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+    @apply text-pretty rounded-xl bg-sepia-200 border-sepia-300 dark:border-sepia-700 p-4 my-4 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
     border-inline-start: 0.25rem solid;
   }
 
   .comment {
-    @apply rounded-sm bg-sepia-300 border-red-500 p-4 my-4 text-sepia-800 dark:bg-sepia-700 dark:text-sepia-200;
+    @apply text-pretty rounded-xl bg-sepia-300 border-red-300 dark:border-red-700 p-4 my-4 text-sepia-800 dark:bg-sepia-700 dark:text-sepia-200;
     border-inline-start: 0.25rem solid;
   }
 
   .em {
-    @apply rounded-sm bg-sepia-200 px-3 py-2 font-italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+    @apply text-pretty rounded-xl bg-sepia-200 px-3 py-2 font-italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
   }
 }

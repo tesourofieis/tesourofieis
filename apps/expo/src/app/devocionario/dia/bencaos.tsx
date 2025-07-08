@@ -132,15 +132,15 @@ export default function PageBencaos() {
       </Language>
 
       <H3 text="Antes do Trabalho" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Abençoai, Senhor, o trabalho em que vou ocupar-me e permiti que sirva
         para vossa glória e para minha santificação.
       </Text>
-      <Text className="text-base">
+      <Text className="text-pretty">
         <Text className="cross"> ✠ </Text>
         Em nome do Pai e do Filho e do Espírito Santo.
       </Text>
-      <Text className="text-base">
+      <Text className="text-pretty">
         <Text className="response"> ℟. </Text>Amen.
       </Text>
 

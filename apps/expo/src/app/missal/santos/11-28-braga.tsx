@@ -15,20 +15,20 @@ export default function Page1128Braga() {
         , excepto:
       </Text>
       <H3 text="Oração" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         A nós, Senhor, que somos vossos servos, sede propício pelos méritos do
         vosso Mártir Tiago, Vo-lo rogamos, a fim de que pela sua piedosa
         intercessão sejamos protegidos contra todas as adversidades. Por nosso
         Senhor...
       </Text>
       <H3 text="Secreta" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Vos suplicamos, Senhor, que pela vossa clemência aceiteis de nossas mãos
         a dádiva apresentada; e pela oração do vosso Santo Mártir Tiago
         purificai-nos de todos os pecados. Por nosso Senhor...
       </Text>
       <H3 text="Postcomúnio" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Depois de libarmos os divinos mystérios, que, em veneração do vosso
         Santo Mártir Tiago oferecemos à vossa majestade, concedei-nos, Senhor,
         Vos suplicamos, a graça de por eles merecermos o perdão de nossos

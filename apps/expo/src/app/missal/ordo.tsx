@@ -12,7 +12,7 @@ export default function PageOrdo() {
   if (!mass?.length)
     return (
       <View className="mt-2 flex flex-col items-center justify-center">
-        <ActivityIndicator className="text-red-500" />
+        <ActivityIndicator className="text-red-600" />
       </View>
     );
 
@@ -1221,8 +1221,8 @@ export default function PageOrdo() {
           primis, quæ tibi offérimus pro Ecclésia tua sancta cathólica: quam
           pacificáre, custodíre, adunáre et régere dignéris toto orbe terrárum:
           una cum fámulo tuo Papa nostro{" "}
-          <Text className="text-red-500">N.</Text> et Antístite nostro{" "}
-          <Text className="text-red-500">N.</Text> et ómnibus orthodóxis, atque
+          <Text className="text-red-600">N.</Text> et Antístite nostro{" "}
+          <Text className="text-red-600">N.</Text> et ómnibus orthodóxis, atque
           cathólicæ et apostólicæ fídei cultóribus.
         </Text>
         <Text className="vernacular">
@@ -1234,8 +1234,8 @@ export default function PageOrdo() {
           sejam agradáveis e os abençoeis, os quais, antes de tudo, Vos
           oferecemos pela nossa santa Igreja Católica: dignai-Vos conceder-lhe a
           paz, guardá-la, uni-la e governá-la por toda a terra, em comunhão com
-          vosso servo, nosso Papa <Text className="text-red-500">N.</Text> com o
-          nosso Bispo <Text className="text-red-500">N.</Text> e com todos os
+          vosso servo, nosso Papa <Text className="text-red-600">N.</Text> com o
+          nosso Bispo <Text className="text-red-600">N.</Text> e com todos os
           ortodoxos e os que professam a fé católica e apostólica.
         </Text>
       </Language>
@@ -1246,7 +1246,7 @@ export default function PageOrdo() {
         <Text className="latin">
           Meménto, Dómine, famulórum famularúmque tuarum{" "}
           <Text className="latin">N.</Text> et{" "}
-          <Text className="text-red-500">N.</Text> et ómnium circumstántium,
+          <Text className="text-red-600">N.</Text> et ómnium circumstántium,
           quorum tibi fides cógnita est et nota devótio, pro quibus tibi
           offérimus: vel qui tibi ófferunt hoc sacrifícium laudis, pro se
           suísque ómnibus: pro redemptióne animárum suárum, pro spe salútis et
@@ -1255,7 +1255,7 @@ export default function PageOrdo() {
         <Text className="vernacular">
           Lembrai-Vos, Senhor, dos vossos servos{" "}
           <Text className="vernacular">N.</Text>e{" "}
-          <Text className="text-red-500">N.</Text> e de todos os que aqui estão
+          <Text className="text-red-600">N.</Text> e de todos os que aqui estão
           presentes, cuja fé Vos é conhecida e a piedade é notória: pelos quais
           Vos oferecemos, ou eles Vos oferecem, este sacrifício de louvor por si
           próprios e por todos seus, pela redenção das suas almas, pela
@@ -1499,13 +1499,13 @@ export default function PageOrdo() {
         <Text className="latin">
           Meménto étiam, Dómine, famulórum famularúmque tuárum{" "}
           <Text className="latin">N.</Text> et{" "}
-          <Text className="text-red-500">N.</Text> , qui nos præcessérunt cum
+          <Text className="text-red-600">N.</Text> , qui nos præcessérunt cum
           signo fídei, et dórmiunt in somno pacis.
         </Text>
         <Text className="vernacular">
           Lembrai-Vos também Senhor, dos vossos servos e servas{" "}
           <Text className="vernacular">N.</Text> e{" "}
-          <Text className="text-red-500">N.</Text>, que partiram antes de nós,
+          <Text className="text-red-600">N.</Text>, que partiram antes de nós,
           marcados com o sinal da fé, e agora dormem o sono da paz.
         </Text>
         <Text className="latin">

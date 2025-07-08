@@ -8,42 +8,42 @@ export default function PageSalvenobrepadroeira() {
       <H1 text="Salve, nobre Padroeira" />
 
       <View className="not-content">
-        <Text className="text-base">
+        <Text className="text-pretty">
           Salve, nobre Padroeira Do Povo, teu protegido, Entre todos escolhido,
           Para povo do Senhor.
         </Text>
-        <Text className="text-base">{"\n"}</Text>
-        <Text className="text-base">
+        <Text className="text-pretty">{"\n"}</Text>
+        <Text className="text-pretty">
           Refrão: Ó glória da nossa terra, Que tens salvado mil vezes, Enquanto
           houver Portugueses, Tu serás o seu amor.
         </Text>
-        <Text className="text-base">{"\n"}</Text>
-        <Text className="text-base">
+        <Text className="text-pretty">{"\n"}</Text>
+        <Text className="text-pretty">
           Com tua graça e beleza Um jardim não ornas só, Linda flor de Jericó,
           De Portugal és a Flor!
         </Text>
-        <Text className="text-base">{"\n"}</Text>
-        <Text className="text-base">
+        <Text className="text-pretty">{"\n"}</Text>
+        <Text className="text-pretty">
           Flor de suave perfume Para toda a Lusa Gente, Entre nós, em cada
           crente Tens esmerado cultor.
         </Text>
-        <Text className="text-base">{"\n"}</Text>
-        <Text className="text-base">
+        <Text className="text-pretty">{"\n"}</Text>
+        <Text className="text-pretty">
           És a obra mais sublime Que saiu das mãos de Deus. Nem na terra nem nos
           céus, Há criatura maior!
         </Text>
-        <Text className="text-base">{"\n"}</Text>
-        <Text className="text-base">
+        <Text className="text-pretty">{"\n"}</Text>
+        <Text className="text-pretty">
           A Tua glória é valer-nos, Não tens maior alegria; Ninguém chama por
           Maria, Que não alcance favor.
         </Text>
-        <Text className="text-base">{"\n"}</Text>
-        <Text className="text-base">
+        <Text className="text-pretty">{"\n"}</Text>
+        <Text className="text-pretty">
           És a nossa padroeira Não largues o padroado Do rebanho confiado Ao eu
           poder protector.
         </Text>
-        <Text className="text-base">{"\n"}</Text>
-        <Text className="text-base">
+        <Text className="text-pretty">{"\n"}</Text>
+        <Text className="text-pretty">
           Portugal, qual outra Fénix, À vida torne outra vez: Não se chame
           português Quem cristão de fé não for.
         </Text>

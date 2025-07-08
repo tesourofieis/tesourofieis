@@ -15,7 +15,7 @@ export default function Page0607() {
         , excepto:
       </Text>
       <H3 text="Oração" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ó Deus, que pelo sigílio sacramental, inviolávelmente mantido pelo B.
         João, coroastes a vossa Igreja com a glória de um novo martírio,
         concedei-nos pela sua intercessão e exemplo que vigiemos cuidadosamente
@@ -23,13 +23,13 @@ export default function Page0607() {
         mundo do que perder a nossa alma. Por nosso Senhor...
       </Text>
       <H3 text="Secreta" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Possamos nós, Senhor, pela virtude destes sacrossantos mystérios, ser
         abrasados no fogo da caridade, no qual ardia o ínclito Mártir João,
         quando os celebrava. Por nosso Senhor...
       </Text>
       <H3 text="Postcomúnio" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Que esta mesa celestial nos comunique, Senhor, o Espírito de fortaleza,
         que constantemente amparou e guiou até à vitória o B. João, vosso
         Mártir, cuja firmeza ao vosso sacramento foi violentamente

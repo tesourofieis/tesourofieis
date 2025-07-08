@@ -8,7 +8,7 @@ export default function PageOracaomanha() {
   return (
     <PageWrapper>
       <H1 text="Oração da Manhã" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Meu Senhor e meu Deus, humildemente Vos adoro em união com todos os
         Anjos e Santos. Eu Vos dou graças pelo vosso infinito amor,
         particularmente por me haverdes conservado com tanta bondade e
@@ -20,7 +20,7 @@ export default function PageOracaomanha() {
       </Text>
       <JamLucis />
       <H2 text="Oferecimento de si mesmo" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Tomai, Senhor, e recebei, toda minha liberdade, a minha memória, o meu
         entendimento e toda minha vontade. Tudo quanto tenho e possuo de Vós o
         recebi. Por isso a Vós, Senhor, o entrego e restituo para que disponhais
@@ -48,14 +48,14 @@ export default function PageOracaomanha() {
         </Text>
       </Language>
       <H2 text="Consagração a Maria Santíssima" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ó Senhora minha, ó minha Mãe, eu me ofereço todo a Vós. E em prova da
         minha devoção para convosco Vos consagro neste dia, os meus olhos, os
         meus ouvidos, a minha boca, o meu coração e todo meu ser. E porque assim
         sou vosso, ó incomparável Mãe, guardai-me e defendei-me como propriedade
         vossa.
       </Text>
-      <Text className="text-base">
+      <Text className="text-pretty">
         Que o Senhor nos abençoe, nos preserve de todo o mal e nos conduza até à
         vida eterna; e que as almas dos fiéis defuntos, pela misericórdia de
         Deus, descansem em paz. Amen.

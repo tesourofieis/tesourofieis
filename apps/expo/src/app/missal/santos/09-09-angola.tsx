@@ -7,7 +7,7 @@ export default function Page0909Angola() {
     <PageWrapper>
       <H1 text="S. Pedro Claver, Conf., a 9 de Setembro" />
       <H3 text="Intróito" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         O Senhor saciou a alma exausta: e aqueles que estavam nas trevas e nas
         sombras da morte; e os que estavam cativos pela indigência e em ferros.
         Glorificai o Senhor pela sua misericórdia: e pelas suas maravilhas em
@@ -15,7 +15,7 @@ export default function Page0909Angola() {
         <Text className="versicle"> ℣. </Text>Glória ao Pai...
       </Text>
       <H3 text="Oração" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ó Deus, que, a fim de chamar ao conhecimento do vosso nome os Negritas
         sujeitos à escravatura, fortalecestes B. Pedro com admirável caridade e
         paciência para os auxiliar, concedei-nos por sua intercessão que,
@@ -23,7 +23,7 @@ export default function Page0909Angola() {
         e em verdade. Pelo mesmo nosso Senhor...
       </Text>
       <H3 text="Epístola" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Lição do Profeta Isaías. Isto diz o Senhor: «Quebrai as algemas da
         impiedade; tirai do jugo os oprimidos; deixai livres aqueles que estão
         cativos; desonerai-os de toda a sujeição. Reparti o vosso pão com os que
@@ -37,7 +37,7 @@ export default function Page0909Angola() {
         tornar-se-ão como a luz do meio-dia».
       </Text>
       <H3 text="Gradual" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Livrará das mãos do poderoso o pobre e o indigente, desprovido de
         auxílio: usará de clemência para com o pobre e o desprovido: e salvará
         as almas dos pobres. Resgatará as suas almas da usura e da iniquidade e
@@ -46,7 +46,7 @@ export default function Page0909Angola() {
         abandona o pobre: sereis o amparo do órfão. Aleluia.
       </Text>
       <H3 text="Evangelho" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Continuação do santo Evangelho segundo S. Lucas. Naquele tempo, um certo
         doutor da lei, querendo justificar-se, disse a Jesus: «E quem é o meu
         próximo?». Então Jesus, tomando a palavra, disse: «Caminhando um homem
@@ -66,26 +66,26 @@ export default function Page0909Angola() {
         «Pois tu vai e procede semelhantemente».
       </Text>
       <H3 text="Ofertório" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Livrei o pobre, que gritava, assim como o órfão, desprovido de auxílio;
         a bênção do agonizante descia sobre mim; consolei o coração da viúva.
         Fui olhos para o cego e pés para o coxo: fui o pai dos pobres.
       </Text>
       <H3 text="Secreta" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Que pela vossa misericórdia, Senhor, nos seja propícia a vítima de
         caridade, que Vos oferecemos imolando-a, e, pelas preces e méritos do B.
         Pedro, permiti que ela nos seja eficaz e salutar para obter aumento de
         paciência e de caridade. Pelo mesmo nosso Senhor...
       </Text>
       <H3 text="Comúnio" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Apascentei as minhas ovelhas e levei-as ao repouso, diz o Senhor Deus.
         Procurei a que se perdera; conduzi ao redil a que se tresmalhara; sarei
         as que tinham membros quebrados; e fortaleci as que estavam fracas.
       </Text>
       <H3 text="Postcomúnio" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Cresça em nós, Senhor, o salutar efeito da vossa piedade, a fim de que,
         saciados com o alimento celeste, possamos com felicidade alcançar, por
         intercessão do B. Pedro, a coroa da vida eterna. Por nosso Senhor...

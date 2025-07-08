@@ -56,13 +56,13 @@ export default function CalendarMasterpiece() {
   // Navigation handlers for previous and next periods
   const handlePrevious = () => {
     setCurrentDate((prevDate) =>
-      viewMode === "month" ? addMonths(prevDate, -1) : addWeeks(prevDate, -1),
+      viewMode === "month" ? addMonths(prevDate, -1) : addWeeks(prevDate, -1)
     );
   };
 
   const handleNext = () => {
     setCurrentDate((prevDate) =>
-      viewMode === "month" ? addMonths(prevDate, 1) : addWeeks(prevDate, 1),
+      viewMode === "month" ? addMonths(prevDate, 1) : addWeeks(prevDate, 1)
     );
   };
 
@@ -70,7 +70,7 @@ export default function CalendarMasterpiece() {
   const handleViewSwitch = (mode: "month" | "week") => {
     setViewMode(mode);
     setCurrentDate((prevDate) =>
-      mode === "month" ? startOfMonth(prevDate) : startOfWeek(prevDate),
+      mode === "month" ? startOfMonth(prevDate) : startOfWeek(prevDate)
     );
   };
 
@@ -79,7 +79,7 @@ export default function CalendarMasterpiece() {
     if (!isTodayVisible) {
       const newDate = new Date();
       setCurrentDate(
-        viewMode === "week" ? startOfWeek(newDate) : startOfMonth(newDate),
+        viewMode === "week" ? startOfWeek(newDate) : startOfMonth(newDate)
       );
     }
   };

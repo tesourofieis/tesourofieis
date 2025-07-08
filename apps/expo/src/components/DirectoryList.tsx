@@ -3,6 +3,7 @@ import { ActivityIndicator, Text, View } from "react-native";
 import type { Docs } from "~/app/(tabs)/more";
 import { findBySlug } from "~/services/search";
 import PageLinkCard from "./LinkCard";
+import PageWrapper from "./Page";
 
 const DirectoryList = ({ slug }: { slug: string }) => {
   const [searchResults, setSearchResults] = useState<Docs[]>([]);
@@ -42,7 +43,7 @@ const DirectoryList = ({ slug }: { slug: string }) => {
   if (error) {
     return (
       <View className="flex-1 justify-center items-center p-4">
-        <Text className="text-red-500 text-center">{error}</Text>
+        <Text className="text-red-600 text-center">{error}</Text>
       </View>
     );
   }
@@ -58,16 +59,19 @@ const DirectoryList = ({ slug }: { slug: string }) => {
   }
 
   return (
-    <View className="">
+    <View className="flex-1 px-3 gap-2">
       {searchResults.map((page) => (
         <PageLinkCard
           key={page.url}
           href={page.url}
           title={page.title}
+          hasChildren={page.hasChildren}
           description={
             page.content.comment ??
             page.content.introduction ??
-            page.content.headings.map((i) => i.body).toString()
+            page.content.headings
+              .sort((a, b) => a.level - b.level)
+              .find((i) => i.body.length)?.body
           }
         />
       ))}

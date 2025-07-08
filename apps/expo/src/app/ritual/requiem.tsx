@@ -25,7 +25,7 @@ export default function PageRequiem() {
         <Text className="latin">
           Deus, cui próprium est miseréri semper et párcere, te súpplices
           exorámus pro ánima fámuli tui <Text className="latin">N.</Text>{" "}
-          (fámulæ tuæ <Text className="text-red-500">N.</Text>), quam hódie de
+          (fámulæ tuæ <Text className="text-red-600">N.</Text>), quam hódie de
           hoc sǽculo migráre jussísti: ut non tradas eam in manus inimíci, neque
           obliviscáris in finem, sed júbeas eam a sanctis Angelis suscipi et ad
           pátriam paradísi perdúci; ut, quia in te sperávit et crédidit, non
@@ -126,7 +126,7 @@ export default function PageRequiem() {
         <Text className="latin">
           Propitiáre, quǽsumus, Dómine, ánimæ famuli tui{" "}
           <Text className="latin">N.</Text> (fámulæ tuæ{" "}
-          <Text className="text-red-500">N.</Text>), pro qua hóstiam laudis tibi
+          <Text className="text-red-600">N.</Text>), pro qua hóstiam laudis tibi
           immolámus, majestátem tuam supplíciter deprecántes: ut, per hæc piæ
           placatiónis offícia, perveníre mereátur ad réquiem sempitérnam. Per
           Dóminum nostrum...
@@ -146,7 +146,7 @@ export default function PageRequiem() {
         <Text className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut ánima fámuli tui{" "}
           <Text className="latin">N.</Text> (fámulæ tuæ{" "}
-          <Text className="text-red-500">N.</Text>), quæ hódie de hoc sǽculo
+          <Text className="text-red-600">N.</Text>), quæ hódie de hoc sǽculo
           migrávit, his sacrifíciis purgáta et a peccátis expedíta, indulgéntiam
           páriter et réquiem cápiat sempitérnam. Per Dóminum nostrum...
         </Text>
@@ -178,7 +178,7 @@ export default function PageRequiem() {
         <Text className="latin">
           Quǽsumus, Dómine, ut ánimæ fámuli tui{" "}
           <Text className="latin">N.</Text> (fámulæ tuæ{" "}
-          <Text className="text-red-500">N.</Text>), cujus depositiónis diem
+          <Text className="text-red-600">N.</Text>), cujus depositiónis diem
           tértium (vel séptimum, vel trigésimum) commemorámus, Sanctórum atque
           electórum tuórum largíri dignéris consórtium: et rorem misericórdiæ
           tuæ perénnem infúndas. Per Dóminum...
@@ -198,7 +198,7 @@ export default function PageRequiem() {
         <Text className="latin">
           Múnera, quǽsumus, Dómine, quæ tibi pro ánima fámuli tui{" "}
           <Text className="latin">N.</Text> (fámulæ tuæ{" "}
-          <Text className="text-red-500">N.</Text>) offérimus, placátus inténde:
+          <Text className="text-red-600">N.</Text>) offérimus, placátus inténde:
           ut, remédiis purgáta cœléstibus, in tua pietáte requiéscat. Per
           Dóminum...
         </Text>
@@ -217,7 +217,7 @@ export default function PageRequiem() {
         <Text className="latin">
           Súscipe, Dómine, preces nostras pro ánima fámuli tui{" "}
           <Text className="latin">N.</Text> (fámulæ tuæ{" "}
-          <Text className="text-red-500">N.</Text>): ut, si quæ ei máculæ de
+          <Text className="text-red-600">N.</Text>): ut, si quæ ei máculæ de
           terrénis contágiis adhæsérunt, remissiónis tuæ misericórdia deleántur.
           Per Dóminum...
         </Text>
@@ -247,7 +247,7 @@ export default function PageRequiem() {
         <Text className="latin">
           Deus, indulgentiárum Dómine: da ánimæ famuli tui{" "}
           <Text className="latin">N.</Text> (fámulæ tuæ{" "}
-          <Text className="text-red-500">N.</Text>, vel animábus famulórum
+          <Text className="text-red-600">N.</Text>, vel animábus famulórum
           famularúmque tuárum), cujus (quorum) anniversárium depositiónis diem
           commemorámus, refrigérii sedem, quiétis beatitúdinem et lúminis
           claritátem. Per Dóminum...
@@ -331,7 +331,7 @@ export default function PageRequiem() {
         <Text className="latin">
           Propitiáre, Dómine, supplicatiónibus nostris, pro anima famuli tui{" "}
           <Text className="latin">N.</Text> (fámulæ tuæ{" "}
-          <Text className="text-red-500">N.</Text>, vel animábus famulórum
+          <Text className="text-red-600">N.</Text>, vel animábus famulórum
           famularúmque tuárum), cujus (quorum) hódie ánnua dies ágitur: pro qua
           (quibus) tibi off érimus sacrifícium laudis; ut eam (eas) Sanctórum
           tuórum consórtio soci áre dignéris. Per Dóminum...
@@ -351,7 +351,7 @@ export default function PageRequiem() {
         <Text className="latin">
           Præsta, quǽsumus, Dómine: ut ánima fámuli tui{" "}
           <Text className="latin">N.</Text> (fámulæ tuæ{" "}
-          <Text className="text-red-500">N.</Text>, vel ánimæ famulórum
+          <Text className="text-red-600">N.</Text>, vel ánimæ famulórum
           famularúmque tuárum), cujus (quorum) anniversárium depositiónis diem
           commemorámus; his purgáta (purgátæ) sacrifíciis, indulgéntiam páriter
           et réquiem cápiat (cápiant) sempitérnam. Per Dóminum...

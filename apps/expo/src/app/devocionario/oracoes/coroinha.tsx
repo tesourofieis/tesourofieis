@@ -7,7 +7,7 @@ export default function PageCoroinha() {
     <PageWrapper>
       <H1 text="Coroinha do Sagrado Coração de Jesus" />
       <H2 text="I" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Amorosíssimo Jesus, quando medito no vosso Santíssimo Coração e O vejo
         todo piedade e bondade para com os pecadores, sinto o meu coração
         encher-se de alegria e de confiança de que será por Vós bem acolhido. Ai
@@ -18,7 +18,7 @@ export default function PageCoroinha() {
         viva senão para Vos Amar!
       </Text>
       <H2 text="II" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Bendigo o vosso humilíssimo Coração, ó meu bom Jesus, e Vos dou graças,
         porque ao dardes-m’O como exemplo, não só com veementes desejos me
         incitastes a imitá-l’O, senão que, à custa de tantas humilhações vossas,
@@ -29,7 +29,7 @@ export default function PageCoroinha() {
         para isto, e bendizei sempre o vosso pacientíssimo Coração.
       </Text>
       <H2 text="III" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ao meditar no vosso pacientíssimo Coração. ó meu Jesus, fico confundido,
         e Vos dou graças por tantos exemplos maravilhosos de invicto
         sofrimentos, que nos deixastes. Eu me arrependo da minha indigna
@@ -40,7 +40,7 @@ export default function PageCoroinha() {
         Paraíso.
       </Text>
       <H2 text="IV" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Que horror sinto de mim, ó meu amado Jesus, ao contemplar o vosso
         amantíssimo Coração e ao ver como o meu coração é tão diverso do vosso;
         pois eu me inquieto, agasto e lamento à menor sombra, gesto ou palavra
@@ -49,7 +49,7 @@ export default function PageCoroinha() {
         vossa inalterável mansidão e por tal modo gozar santa e perpétua paz.
       </Text>
       <H2 text="V" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ó meu amado Jesus, vencedor da morte e do inferno, entoem-se louvores ao
         vosso generosíssimo Coração, que bem os merece. Quanto a mim, fico
         confundido ao ver o meu coração tão pusilânime, que estremece com
@@ -60,7 +60,7 @@ export default function PageCoroinha() {
       <Text className="aside">
         Volvamo-nos para o maternal Coração de Maria Santíssima
       </Text>
-      <Text className="text-base">
+      <Text className="text-pretty">
         Pelas singulares prerrogativas do vosso dulcíssimo Coração, alcançai-me,
         ó Maria, Mãe de Deus e minha Mãe, uma verdadeira e permanente devoção ao
         Santíssimo Coração de Jesus, vosso Filho; e, assim, eu cumpra fielmente
@@ -70,7 +70,7 @@ export default function PageCoroinha() {
         Coração de Jesus, abrasado em amor por nós.
       </Text>
       <Text className="response"> ℟. </Text>
-      <Text className="text-base">
+      <Text className="text-pretty">
         Inflamai os nossos corações de amor por Vós. Oremos. Vos suplicamos, ó
         Senhor, que o Divino Espírito Santo nos inflame naquele fogo que nosso
         Senhor Jesus Cristo do íntimo doseu Coração lançou no mundo e quis que

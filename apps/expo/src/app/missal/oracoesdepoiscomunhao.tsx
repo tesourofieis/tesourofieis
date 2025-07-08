@@ -7,7 +7,7 @@ export default function PageOracoesdepoiscomunhao() {
     <PageWrapper>
       <H1 text="Orações depois da Comunhão" />
       <H3 text="Acto de Fé e de Adoração" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ó Jesus, creio firmemente que sois Vós quem acabo de receber neste
         momento. Vós, o meu Deus, o meu Criador... Cheio de profundo respeito,
         prostro-me diante da vossa Divina Majestade, que tenho encerrada no meu
@@ -15,7 +15,7 @@ export default function PageOracoesdepoiscomunhao() {
         sinceras homenagens!...
       </Text>
       <H3 text="Acto de Reconhecimento e de Amor" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Dulcíssimo Jesus, eu Vos agradeço reconhecidíssimo a inefável graça que
         acabais de conceder-me. Como poderei corresponder a tanto amor para
         comigo, sendo tão miserável pecador?!... Oh! farei de hoje em diante o
@@ -34,7 +34,7 @@ export default function PageOracoesdepoiscomunhao() {
         súplica! Amen.
       </Text>
       <H3 text="À B. Virgem Maria" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Santíssima Virgem, minha boa Mãe, auxiliai-me com vossa eficaz e
         maternal protecção, neste momento tão solene da minha vida. Que o Corpo
         e o Sangue de vosso Filho, que possuo, agora, no meu coração, sejam o

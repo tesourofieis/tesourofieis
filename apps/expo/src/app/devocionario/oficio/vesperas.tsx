@@ -958,7 +958,7 @@ export default function PageVesperas() {
           <Language>
             <Text className="latin">
               <Text className="latin">Ant.</Text>
-              <Text className="text-base">
+              <Text className="text-pretty">
                 Magnum hæreditatis mysterium: templum Dei factus est uterus
                 nescientis virum: non est pollutus ex ea carnem assumens; omnes
                 gentes venient, dicentes: Gloria tibi, Domine.
@@ -966,7 +966,7 @@ export default function PageVesperas() {
             </Text>
             <Text className="vernacular">
               <Text className="vernacular">Ant.</Text>
-              <Text className="text-base">
+              <Text className="text-pretty">
                 Grande mystério de herança: o ventre daquela que não conheceu
                 varão, é feito templo de Deus; o qual se não manchou, tomando
                 dela carne humana. Virão todas as gentes, dizendo: Glória a Vós,

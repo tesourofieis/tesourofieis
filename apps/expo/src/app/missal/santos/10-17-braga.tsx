@@ -15,20 +15,20 @@ export default function Page1017Braga() {
         , excepto:
       </Text>
       <H3 text="Oração" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ó Deus, que de um modo admirável nos destes como primeiro Pastor o B.
         Mártir Pedro, permiti, Vos imploramos, que, celebrando a sua
         Trasladação, nos tornemos dignos filhos de tão grande pai. Por nosso
         Senhor
       </Text>
       <H3 text="Secreta" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Olhai benignamente, Senhor, para as dádivas que Vos pela intercessão
         daquele cujos méritos Vos foram agradáveis, elas nos sejam salutares.
         Por nosso Senhor...
       </Text>
       <H3 text="Postcomúnio" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Humildemente Vos suplicamos, Senhor, que nos guardeis com a graça da
         contínua oração do B. Pedro, vosso Mártir e Pontífice, para que pelos
         seus méritos seja dignamente governada a Igreja que se ufana de o haver

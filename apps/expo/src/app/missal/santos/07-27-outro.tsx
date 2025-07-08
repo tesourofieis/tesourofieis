@@ -15,7 +15,7 @@ export default function Page0727Outro() {
         , excepto:
       </Text>
       <H3 text="Oração" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Vos pedimos, permiti que a veneranda oblação dos vossos B. B. Mártires
         Rodolfo, Afonso, Pedro, António e Francisco Vos recomende as nossas
         orações, a fim de que, pelo seu exemplo e intercessão, também nos

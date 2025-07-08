@@ -30,7 +30,6 @@ export default function PageExtremauncao() {
           <Text className="response"> ℟. </Text> E em todos seus habitantes.
         </Text>
       </Language>
-      <H2 text="Asperges Me" />
       <AspergesMe />
       <Language>
         <Text className="latin">
@@ -309,7 +308,7 @@ export default function PageExtremauncao() {
         Se o enfermo se encontra em necessidade extrema, o Sacerdote, fazendo
         uma só unção, dirá:
       </Text>
-      <Text className="text-base">
+      <Text className="text-pretty">
         Em virtude desta Unção, que o Senhor vos perdoe todas as faltas que
         cometestes. Amen.
       </Text>
@@ -485,7 +484,7 @@ export default function PageExtremauncao() {
         <Text className="latin">
           Réspice, quæsumus, Dómine fámulum tuum{" "}
           <Text className="latin">N.</Text> (fámulam tuam{" "}
-          <Text className="text-red-500">N.</Text>) in infirmitáte sui córporis
+          <Text className="text-red-600">N.</Text>) in infirmitáte sui córporis
           fatiscéntem, et ánimam réfove, quam creásti: ut, castigatiónibus
           emendátus (-a), se tua séntiat medicína salvátum (-am). Per Christum
           Dóminum nostrum.

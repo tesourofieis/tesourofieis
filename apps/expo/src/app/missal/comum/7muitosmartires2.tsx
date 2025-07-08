@@ -32,13 +32,13 @@ export default function Page7Muitosmartires2() {
         <Text className="latin">
           Deus, qui nos concédis sanctórum Mártyrum tuórum{" "}
           <Text className="latin">N.</Text> et{" "}
-          <Text className="text-red-500">N.</Text> natalítia cólere: da nobis in
+          <Text className="text-red-600">N.</Text> natalítia cólere: da nobis in
           ætérna beatitúdine de eórum societéte gaudére. Per Dóminum...
         </Text>
         <Text className="vernacular">
           Ó Deus, que nos permitistes a graça de celebrarmos o nascimento no céu
           dos vossos Santos Mártires <Text className="vernacular">N.</Text> e{" "}
-          <Text className="text-red-500">N.</Text>, concedei-nos ainda a graça
+          <Text className="text-red-600">N.</Text>, concedei-nos ainda a graça
           de gozarmos na sua companhia a bem-aventurança eterna. Por nosso
           Senhor...
         </Text>
@@ -206,13 +206,13 @@ export default function Page7Muitosmartires2() {
         <Text className="latin">
           Præsta nobis, quǽsumus, Dómine: intercedéntibus sanctis Martýribus
           tuis <Text className="latin">N.</Text> et{" "}
-          <Text className="text-red-500">N.</Text>; ut, quod ore contíngimus,
+          <Text className="text-red-600">N.</Text>; ut, quod ore contíngimus,
           pura mente capiámus. Per Dóminum...
         </Text>
         <Text className="vernacular">
           Senhor, por intercessão dos vossos santos Mártires{" "}
           <Text className="vernacular">N.</Text> e{" "}
-          <Text className="text-red-500">N.</Text>, dignai-Vos conceder-nos a
+          <Text className="text-red-600">N.</Text>, dignai-Vos conceder-nos a
           graça de guardarmos com o coração sempre puro o que a nossa boca agora
           recebeu. Por nosso Senhor...
         </Text>

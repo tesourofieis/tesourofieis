@@ -4,6 +4,7 @@ import { pt } from "date-fns/locale";
 import { Link } from "expo-router";
 import { ScrollView, Text, useColorScheme, View } from "react-native";
 import ExternalLinks from "~/components/External";
+import { H1 } from "~/components/Headings";
 
 import LinkCard from "~/components/LinkCard";
 import LiturgicalSeason from "~/components/LiturgicalSeason";
@@ -40,9 +41,7 @@ export default function PageRender() {
 
       <View className="flex flex-col items-center mt-20 justify-center gap-5">
         <FontAwesome6 name="book-bible" size={180} color="#e53935" />
-        <Text className="font-display text-3xl text-red-600 m-3">
-          Tesouro dos Fiéis
-        </Text>
+        <H1 text="Tesouro dos Fiéis" />
         <Text className="font-serif text-sm text-center mx-8 text-sepia-800 dark:text-sepia-200">
           Espaço dedicado à oração, exposição e preservação das santas tradições
           da Igreja.
@@ -52,25 +51,25 @@ export default function PageRender() {
       <PageWrapper>
         <View className="flex flex-row justify-center my-5 mx-5 gap-5">
           <Link
-            className="border-sepia-900 shadow-lg bg-sepia-200 dark:bg-gray-800 dark:border-sepia-200 active:bg-sepia-300 dark:active:bg-sepia-700 m-2 rounded-lg border px-4 py-2 flex"
+            className="shadow-md border-sepia-700 dark:border-sepia-200 bg-sepia-100 dark:bg-sepia-800 active:bg-sepia-200 dark:active:bg-sepia-700 m-2 rounded-xl border px-4 py-3"
             href="/devocionario/introducao"
           >
-            <Text className="font-bold text-sepia-800 dark:text-sepia-200 text-center">
+            <Text className="text-pretty text-sepia-800 dark:text-sepia-200 text-center">
               Introdução
             </Text>
           </Link>
 
           <Link
             href="/devocionario/rosario"
-            className="bg-sepia-900 dark:bg-sepia-200 shadow-lg m-2 rounded-lg px-4 py-2 active:bg-sepia-300 dark:active:bg-sepia-700"
+            className="shadow-md border-sepia-700 dark:border-sepia-300 bg-sepia-800 dark:bg-sepia-200 active:bg-sepia-700 dark:active:bg-sepia-300 m-2 rounded-xl border px-4 py-3"
           >
-            <Text className="font-bold text-sepia-200 dark:text-sepia-900 text-center">
+            <Text className="text-pretty text-sepia-200 dark:text-sepia-900 text-center">
               Rosário
             </Text>
           </Link>
         </View>
 
-        <View className="border-t border-sepia-300 dark:border-sepia-700 mt-2" />
+        <View className="border-t border-sepia mt-2" />
         <View className="px-5">
           <View className="flex-row items-center">
             <FontAwesome6
@@ -90,7 +89,7 @@ export default function PageRender() {
           ))}
         </View>
 
-        <View className="border-t border-sepia-300 dark:border-sepia-700 mt-2" />
+        <View className="border-t border-sepia mt-2" />
 
         <View className="px-5">
           <View className="flex-row items-center">
@@ -137,7 +136,7 @@ export default function PageRender() {
           <Novenas />
         </View>
 
-        <View className="border-t border-sepia-300 dark:border-sepia-700 mt-2" />
+        <View className="border-t border-sepia mt-2" />
 
         <LiturgicalSeason />
 

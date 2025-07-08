@@ -81,15 +81,12 @@ importers:
         specifier: 'catalog:'
         version: 18.3.1(react@18.3.1)
     devDependencies:
-      '@fontsource-variable/eb-garamond':
-        specifier: ^5.0.18
-        version: 5.1.1
-      '@fontsource/berkshire-swash':
+      '@fontsource/dm-serif-display':
         specifier: ^5.0.19
-        version: 5.1.0
-      '@fontsource/noto-serif':
+        version: 5.2.6
+      '@fontsource/dm-serif-text':
         specifier: ^5.0.19
-        version: 5.2.7
+        version: 5.2.6
       '@iconify-icon/react':
         specifier: ^2.0.1
         version: 2.1.0(react@18.3.1)
@@ -126,13 +123,16 @@ importers:
 
   apps/expo:
     dependencies:
-      '@expo-google-fonts/berkshire-swash':
-        specifier: ^0.2.3
-        version: 0.2.3
+      '@expo-google-fonts/cardo':
+        specifier: ^0.4.0
+        version: 0.4.0
+      '@expo-google-fonts/dm-serif-display':
+        specifier: ^0.4.1
+        version: 0.4.1
+      '@expo-google-fonts/dm-serif-text':
+        specifier: ^0.4.0
+        version: 0.4.0
       '@expo-google-fonts/noto-sans':
-        specifier: ^0.2.3
-        version: 0.2.3
-      '@expo-google-fonts/noto-serif':
         specifier: ^0.2.3
         version: 0.2.3
       '@expo/html-elements':
@@ -1847,14 +1847,17 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@expo-google-fonts/berkshire-swash@0.2.3':
-    resolution: {integrity: sha512-H23q2qrhvazxuLkN90AdH58o4c0we1a+6q393JaSELGZ8Q3XisPB6mwA2HY0MIKKuH4an/VkUcIKW0NToenUYw==}
+  '@expo-google-fonts/cardo@0.4.0':
+    resolution: {integrity: sha512-lWcWrPR5y7TfA1OHesu6Vbrb0Z5B4LaRAJUC5nCGrthBqxjjdVRiQ0SgXqW35XluNpskg/NqABMrqL2xVxesVw==}
+
+  '@expo-google-fonts/dm-serif-display@0.4.1':
+    resolution: {integrity: sha512-sA1sT3WBdW0nB98m44IBzmG3kLi4ZJfwUtdPWkYutb6TlUn59m2FBYDnsuqMx2Hn+kL1duA1FIe6y0n/KvkOrg==}
+
+  '@expo-google-fonts/dm-serif-text@0.4.0':
+    resolution: {integrity: sha512-AkjQFn4pLiWTC48L9b2E61Ekh+JKMA6GuzVEbXvEaq4VnI97c5LTuff40sMnTD7Dl0/6ur4R7f0XANKyZf1OdA==}
 
   '@expo-google-fonts/noto-sans@0.2.3':
     resolution: {integrity: sha512-W/KyYHSclbPF/M2Grm4vRLGebo+qrgij2avlosDRpO5ymORfhhrBxdA+C1duPd2K0OC6Gg61uwe8AER2DwDzEQ==}
-
-  '@expo-google-fonts/noto-serif@0.2.3':
-    resolution: {integrity: sha512-0nmybjIbhflFWUyOxB+NjVQVZxyTC3UlG4bZWOzcJ6EQO0vW3+8C1zmodRJoAbBGrbOU1iBQLC8eE1BSm9RIYw==}
 
   '@expo/bunyan@4.0.1':
     resolution: {integrity: sha512-+Lla7nYSiHZirgK+U/uYzsLv/X+HaJienbD5AKX1UQZHYfWaP+9uuQluRB4GrEVWF0GZ7vEVp/jzaOT9k/SQlg==}
@@ -1967,14 +1970,11 @@ packages:
   '@expressive-code/plugin-text-markers@0.41.2':
     resolution: {integrity: sha512-JFWBz2qYxxJOJkkWf96LpeolbnOqJY95TvwYc0hXIHf9oSWV0h0SY268w/5N3EtQaD9KktzDE+VIVwb9jdb3nw==}
 
-  '@fontsource-variable/eb-garamond@5.1.1':
-    resolution: {integrity: sha512-8rSdgPsFk96vvJPL7i47VsEaTOdhKvoSOFPSizrX5JcrLuWvTRngT2p9cPFL4WROGCA5TDNa+m68w7pdk4HYoQ==}
+  '@fontsource/dm-serif-display@5.2.6':
+    resolution: {integrity: sha512-V/JaidjpfZu8TD9rGM3bIhDMCzS79C/mMWHPK9EtJT8S2qghXahDFZdlfria5T+OGpffGuHKL4st4UIFMdTM4A==}
 
-  '@fontsource/berkshire-swash@5.1.0':
-    resolution: {integrity: sha512-iSTt085tPoI6jrI4UsgDAdAHYBDLGn6hANjSNhuYfsSLACQLbpEeBGQKnfa1w3pIHjY743MiIdsNurO7LL45Tw==}
-
-  '@fontsource/noto-serif@5.2.7':
-    resolution: {integrity: sha512-EcsWb3Pxrg5DwLcY1bg4fmRhdytzi+vX6JPJjtzPjPy0fxpBqmk12RqgF4vmAT7zjjppdCD7z2iwyXl3AqeNRQ==}
+  '@fontsource/dm-serif-text@5.2.6':
+    resolution: {integrity: sha512-cAseLZfZ+B1q67quhbuikCrT8ID3RxXXdNOs6FRvkA2JbqBO90Tf9kdf2tRmuNQjaD3p59y3XU4cr/XnJnfrLg==}
 
   '@iconify-icon/react@2.1.0':
     resolution: {integrity: sha512-OuEsW5Y474rg3WlseLFQ0uuJjnyk1DhLN1Ire5JGjF4sF8/rNxGJDLSItEogRcKuUbL+zzuoBsaTUVVInuixRA==}
@@ -9602,11 +9602,13 @@ snapshots:
   '@esbuild/win32-x64@0.25.5':
     optional: true
 
-  '@expo-google-fonts/berkshire-swash@0.2.3': {}
+  '@expo-google-fonts/cardo@0.4.0': {}
+
+  '@expo-google-fonts/dm-serif-display@0.4.1': {}
+
+  '@expo-google-fonts/dm-serif-text@0.4.0': {}
 
   '@expo-google-fonts/noto-sans@0.2.3': {}
-
-  '@expo-google-fonts/noto-serif@0.2.3': {}
 
   '@expo/bunyan@4.0.1':
     dependencies:
@@ -9993,11 +9995,9 @@ snapshots:
     dependencies:
       '@expressive-code/core': 0.41.2
 
-  '@fontsource-variable/eb-garamond@5.1.1': {}
+  '@fontsource/dm-serif-display@5.2.6': {}
 
-  '@fontsource/berkshire-swash@5.1.0': {}
-
-  '@fontsource/noto-serif@5.2.7': {}
+  '@fontsource/dm-serif-text@5.2.6': {}
 
   '@iconify-icon/react@2.1.0(react@18.3.1)':
     dependencies:

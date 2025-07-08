@@ -8,7 +8,7 @@ export default function PageIntroducao() {
     <PageWrapper>
       <H1 text="Introdução, por São Pio X" />
 
-      <Text className="text-base">
+      <Text className="text-pretty">
         Um bom cristão, pela manhã, assim que desperta, deve fazer o sinal da
         Cruz, e oferecer o coração a Deus, dizendo estas ou outras palavras
         semelhantes: «Meu Deus, eu Vos dou o meu coração e a minha alma». Ao
@@ -46,13 +46,13 @@ export default function PageIntroducao() {
         , acompanhando-os com um vivo afecto do coração.
       </Text>
 
-      <Text className="text-base">
+      <Text className="text-pretty">
         O cristão, podendo, deveria todos os dias: 1º. Assistir com devoção à
         Santa Missa; 2º. Fazer uma visita, por breve que fosse, ao Santíssimo
         Sacramento; 3º. Rezar o terço do Santo Rosário.
       </Text>
 
-      <Text className="text-base">
+      <Text className="text-pretty">
         <Link
           className="link"
           href="/devocionario/dia/bencaos#antes-do-trabalho"
@@ -69,7 +69,7 @@ export default function PageIntroducao() {
         fazei-me digno de participar da mesa celeste».
       </Text>
 
-      <Text className="text-base">
+      <Text className="text-pretty">
         Quando nos vemos atormentados por alguma tentação, devemos invocar com
         fé o Santíssimo Nome de Jesus ou de Maria, ou recitar fervorosamente
         alguma oração jaculatória, como, por exemplo: «Dai-me a graça, Senhor,
@@ -84,7 +84,7 @@ export default function PageIntroducao() {
         Santíssimo e diviníssimo Sacramento».
       </Text>
 
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ao toque das Ave-Marias pela manhã, ao meio-dia e à noite, o bom cristão
         recita o{" "}
         <Link className="link" href="/devocionario/dia/angelus">
@@ -104,31 +104,31 @@ export default function PageIntroducao() {
         encomendo a minha alma».
       </Text>
 
-      <Text className="text-base">
+      <Text className="text-pretty">
         No decurso do dia pode-se invocar a Deus frequentemente com as orações
         breves que se chamam «jaculatórias». Eis algumas:
       </Text>
 
-      <Text className="text-base">«Senhor, valei-me»;</Text>
+      <Text className="text-pretty">«Senhor, valei-me»;</Text>
 
-      <Text className="text-base">
+      <Text className="text-pretty">
         «Senhor, seja feita vossa santíssima vontade»;
       </Text>
 
-      <Text className="text-base">«Meu Jesus, eu quero ser todo vosso»;</Text>
+      <Text className="text-pretty">«Meu Jesus, eu quero ser todo vosso»;</Text>
 
-      <Text className="text-base">«Meu Jesus, misericórdia»;</Text>
+      <Text className="text-pretty">«Meu Jesus, misericórdia»;</Text>
 
-      <Text className="text-base">
+      <Text className="text-pretty">
         «Doce Coração de Jesus, que tanto nos amou, fazei que eu Vos ame cada
         vez mais»;
       </Text>
 
-      <Text className="text-base">
+      <Text className="text-pretty">
         «Doce Coração de Maria, sede minha salvação»;
       </Text>
 
-      <Text className="text-base">
+      <Text className="text-pretty">
         É muito útil recitar, durante o dia, muitas jaculatórias, e podem
         recitar-se também com o coração, sem preferir palavras, caminhando,
         trabalhando, etc. Além das orações jaculatórias, o cristão deveria
@@ -142,7 +142,7 @@ export default function PageIntroducao() {
         com vossa Santíssima vontade e de conseguir a sua salvação».
       </Text>
 
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ao tocar o sino pela agonia de algum moribundo, irei, se puder, à igreja
         orar por ele; e, não podendo, encomendarei a Nosso Senhor a sua alma,
         pensando que dentro em breve hei de encontrar-me também eu nesse estado.

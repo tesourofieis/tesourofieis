@@ -19,7 +19,7 @@ export default function Page0522Braga() {
         , excepto:
       </Text>
       <H3 text="Oração" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Deixai-Vos aplacar, Senhor, Vos pedimos, e concedei-nos o vosso auxílio;
         e pela intercessão dos vossos B. B. Mártires João Baptista e seus
         Companheiros estendei sobre nós a vossa mão misericordiosa. Por nosso

@@ -214,7 +214,8 @@ export default function PageNot() {
                   style={{
                     padding: 10,
                     borderBottomWidth: 1,
-                    borderColor: "#ccc",
+                    borderColor:
+                      colorScheme === "light" ? COLORS["300"] : COLORS["700"],
                   }}
                 >
                   <Text className="text-sepia-800 dark:text-sepia-200">

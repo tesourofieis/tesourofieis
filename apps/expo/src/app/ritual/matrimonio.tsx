@@ -7,7 +7,7 @@ export default function PageMatrimonio() {
   return (
     <PageWrapper>
       <H1 text="Matrimónio" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Os noivos, tendo entrado na igreja e depois de haverem feito oração
         diante do Altar do Santíssimo Sacramento dirigem-se para o Altar onde
         será celebrado o Matrimónio, ficando o noivo à direita da noiva, com a
@@ -19,27 +19,27 @@ export default function PageMatrimonio() {
       </Text>
       <H2 text="Consentimento dos Noivos" />
       <Text className="versicle"> ℣. </Text>
-      <Text className="text-red-500">N.</Text>
-      <Text className="text-base">quereis receber </Text>
-      <Text className="text-red-500">N.</Text>
-      <Text className="text-base">
+      <Text className="text-red-600">N.</Text>
+      <Text className="text-pretty">quereis receber </Text>
+      <Text className="text-red-600">N.</Text>
+      <Text className="text-pretty">
         , aqui presente, como vossa legítima esposa, segundo o rito da Santa
         Madre Igreja?
       </Text>
       <Text className="response"> ℟. </Text>
-      <Text className="text-base">
+      <Text className="text-pretty">
         Quero! E logo, dirigindo-se à noiva, interroga-a também:
         <Text className="versicle"> ℣. </Text>
       </Text>
-      <Text className="text-red-500">N.</Text>{" "}
-      <Text className="text-base">quereis receber</Text>{" "}
-      <Text className="text-red-500">N.</Text>
-      <Text className="text-base">
+      <Text className="text-red-600">N.</Text>{" "}
+      <Text className="text-pretty">quereis receber</Text>{" "}
+      <Text className="text-red-600">N.</Text>
+      <Text className="text-pretty">
         , aqui presente, como vossa legítima esposo, segundo o rito da Santa
         Madre Igreja?{" "}
       </Text>
       <Text className="response"> ℟. </Text>
-      <Text className="text-base">Quero!</Text>
+      <Text className="text-pretty">Quero!</Text>
       <H2 text="União das Mãos" />
       <Text className="aside">
         Após este consentimento mútuo, os nubentes unem as suas mãos direitas,

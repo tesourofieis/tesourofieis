@@ -15,16 +15,16 @@ export default function Page1020Portugal() {
         , excepto:
       </Text>
       <H3 text="Oração" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ó Deus, que por um sinal celestial livrastes da infâmia a B. Iria, vossa
         Virgem e Mártir, concedei-nos propício pelos seus méritos e preces que
         sejamos purificados das manchas dos nossos pecados. Por nosso Senhor...
       </Text>
       <H3 text="Evangelho" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Continuação do santo Evangelho segundo S. Mateus.
       </Text>
-      <Text className="text-base">
+      <Text className="text-pretty">
         Naquele tempo, disse Jesus aos seus discípulos esta parábola: O reino
         dos céus é semelhante a dez virgens que, empunhando suas lâmpadas,
         saíram ao encontro do esposo e da esposa. Porém, cinco destas virgens

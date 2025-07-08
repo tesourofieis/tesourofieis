@@ -158,8 +158,8 @@ export default defineConfig({
       ],
       sidebar: sidebar,
       customCss: [
-        "@fontsource/berkshire-swash",
-        "@fontsource-variable/eb-garamond",
+        "@fontsource/dm-serif-display",
+        "@fontsource/dm-serif-text",
         "./src/styles/global.css",
       ],
     }),

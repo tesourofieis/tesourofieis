@@ -1,22 +1,24 @@
 @import "tailwindcss";
-@import "@fontsource/berkshire-swash";
-@import "@fontsource-variable/eb-garamond";
-@import "@fontsource/noto-serif";
+@import "@fontsource/dm-serif-display";
+@import "@fontsource/dm-serif-text";
 
 @theme {
-  --font-display: "Berkshire Swash", "Georgia", "Noto Serif", serif;
-  --font-body: "EB Garamond Variable", "Noto Serif", "Times New Roman", serif;
+  --font-display: "DM Serif Display", "ui-serif", "Georgia", "Cambria",
+    "Times New Roman", "Times", serif;
+  --font-body: "DM Serif Text", "ui-serif", "Georgia", "Cambria",
+    "Times New Roman", "Times", serif;
 
   --color-sepia-50: #f4eadd;
   --color-sepia-100: #eee6d9;
   --color-sepia-200: #f2ddc7;
   --color-sepia-300: #e2c1a2;
   --color-sepia-400: #cba57e;
-  --color-sepia-500: #bfae98;
-  --color-sepia-600: #7c6f64;
-  --color-sepia-700: #504945;
-  --color-sepia-800: #32302f;
-  --color-sepia-900: #1d2021;
+  /* --color-sepia-500: #bfae98; */
+  --color-sepia-500: #7c6f64;
+  --color-sepia-600: #40403c;
+  --color-sepia-700: #32302f;
+  --color-sepia-800: #2b2b29;
+  --color-sepia-900: #262624;
 }
 
 @utility sl-markdown-content {

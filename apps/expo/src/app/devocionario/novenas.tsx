@@ -41,18 +41,18 @@ export default function PaginaNovenas() {
         {novena.map((novena) => (
           // @ts-ignore
           <Link key={novena.id} href={`/${novena.link}`}>
-            <Text className="text-base font-bold underline mb-2">
+            <Text className="text-pretty font-bold underline mb-2">
               {novena.name}
             </Text>
           </Link>
         ))}
       </View>
 
-      <Text className="text-base mb-2">
+      <Text className="text-pretty mb-2">
         Não existem novenas oficiais estabelecidas pela Igreja, permitindo que
         cada fiel as adapte às suas necessidades espirituais.
       </Text>
-      <Text className="text-base mb-2">
+      <Text className="text-pretty mb-2">
         Se não tiver uma novena específica para rezar, pode considerar a
         seguinte estrutura:
       </Text>

@@ -40,7 +40,7 @@ export default function Page8Muitosmartires3() {
         <Text className="vernacular">
           Ó Deus, que nos alegrais com a festividade anual dos vossos santos
           Mártires <Text className="vernacular">N.</Text> e{" "}
-          <Text className="text-red-500">N.</Text>, concedei-nos benigno que
+          <Text className="text-red-600">N.</Text>, concedei-nos benigno que
           sejamos afervorados com os exemplos daqueles cujos méritos nos enchem
           de alegria. Por nosso Senhor...
         </Text>
@@ -210,14 +210,14 @@ export default function Page8Muitosmartires3() {
         <Text className="latin">
           Oblátis, quǽsumus, Dómine, placáre munéribus: et, intercedéntibus
           sanctis Martýribus tuis <Text className="latin">N.</Text> et{" "}
-          <Text className="text-red-500">N.</Text>, a cunctis nos defénde
+          <Text className="text-red-600">N.</Text>, a cunctis nos defénde
           perículis. Per Dóminum...
         </Text>
         <Text className="vernacular">
           Deixai-Vos aplacar com os dons que Vos oferecemos, Senhor, e, por
           intercessão dos vossos santos Mártires{" "}
           <Text className="vernacular">N.</Text>e{" "}
-          <Text className="text-red-500">N.</Text>, preservai-nos de todos os
+          <Text className="text-red-600">N.</Text>, preservai-nos de todos os
           perigos. Por nosso Senhor...
         </Text>
       </Language>
@@ -243,14 +243,14 @@ export default function Page8Muitosmartires3() {
         <Text className="latin">
           Hæc nos commúnio, Dómine, purget a crímine: et, intercedéntibus
           sanctis Martýribus tuis <Text className="latin">N.</Text> et{" "}
-          <Text className="text-red-500">N.</Text>, cœléstis remédii fáciat esse
+          <Text className="text-red-600">N.</Text>, cœléstis remédii fáciat esse
           consórtes. Per Dóminum...
         </Text>
         <Text className="vernacular">
           Que esta comunhão nos purifique dos nossos crimes, Senhor, e que por
           intercessão dos vossos santos Mártires{" "}
           <Text className="vernacular">N.</Text>e{" "}
-          <Text className="text-red-500">N.</Text> nos faça participantes do
+          <Text className="text-red-600">N.</Text> nos faça participantes do
           remédio celestial. Por nosso Senhor...
         </Text>
       </Language>

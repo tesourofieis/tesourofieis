@@ -43,7 +43,7 @@ export default function Page6Muitosmartires1() {
         <Text className="vernacular">
           Vos suplicamos, Senhor, que a festa dos vossos B. B. Mártires e
           Pontífices <Text className="vernacular">N.</Text> e{" "}
-          <Text className="text-red-500">N.</Text>, nos proteja, e que sua
+          <Text className="text-red-600">N.</Text>, nos proteja, e que sua
           veneranda oração nos sirva de recomendação junto de Vós. Por nosso
           Senhor...
         </Text>

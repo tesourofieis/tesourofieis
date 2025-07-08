@@ -40,7 +40,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
   const translateXToggle = useSharedValue(toggleWidth);
   const currentLanguage = useSharedValue<"latin" | "vernacular">("vernacular");
   const [currentLang, setCurrentLang] = useState<"latin" | "vernacular">(
-    "vernacular",
+    "vernacular"
   );
 
   const triggerHaptic = () => {
@@ -63,7 +63,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
     });
     translateXToggle.value = withSpring(
       vernacular ? toggleWidth : 0,
-      springConfig,
+      springConfig
     );
   };
 
@@ -76,12 +76,12 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
     const offset = event.nativeEvent.translationX;
     translateX.value = Math.max(
       -width,
-      Math.min(0, offset + (currentLanguage.value === "latin" ? 0 : -width)),
+      Math.min(0, offset + (currentLanguage.value === "latin" ? 0 : -width))
     );
     const toggleProgress = -translateX.value / width;
     translateXToggle.value = Math.max(
       0,
-      Math.min(toggleWidth, toggleProgress * toggleWidth),
+      Math.min(toggleWidth, toggleProgress * toggleWidth)
     );
   };
 
@@ -112,11 +112,11 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
     return {
       latinContent: childrenArray.filter(
         (child) =>
-          React.isValidElement(child) && child.props.className === "latin",
+          React.isValidElement(child) && child.props.className === "latin"
       ),
       vernacularContent: childrenArray.filter(
         (child) =>
-          React.isValidElement(child) && child.props.className === "vernacular",
+          React.isValidElement(child) && child.props.className === "vernacular"
       ),
     };
   }, [children]);
@@ -162,7 +162,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
           }`}
           accessibilityHint="Swipe or tap to switch between Latin and Vernacular"
           accessibilityRole="button"
-          className="flex-row gap-1 px-2 py-1 justify-center bg-sepia-100 dark:bg-sepia-900 border border-sepia-200 dark:border-sepia-800 rounded-lg"
+          className="flex-row gap-1 px-2 py-1 justify-center bg-sepia-100 dark:bg-sepia-900 border border-sepia rounded-xl"
         >
           <View
             className={`w-2 h-2 rounded-full ${

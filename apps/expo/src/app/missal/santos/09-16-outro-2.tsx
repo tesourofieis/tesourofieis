@@ -16,7 +16,7 @@ export default function Page0916Outro2() {
         , excepto:
       </Text>
       <H3 text="Oração" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Concedei aos vossos servos, Senhor, um jubiloso socorro, a fim de que,
         celebrando devotamente neste dia, em cada ano, a paixão dos vossos S. S.
         Mártires Eufémia, Lúcia e Geminiano, imitemos também a constância da sua
@@ -28,13 +28,13 @@ export default function Page0916Outro2() {
         href="/missal/santos/7muitosmartires2#evangelho"
       />
       <H3 text="Secreta" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Atendei propício aos votos do vosso povo, Senhor, Vos rogamos, e permiti
         que gozemos a protecção dos sufrágios daqueles de quem pela vossa graça
         celebramos esta solenidade. Por nosso Senhor...
       </Text>
       <H3 text="Postcomúnio" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ouvi as nossas preces, Senhor, e permiti que sejamos protegidos
         incessantemente com os auxílios daqueles cuja solenidade celebramos. Por
         nosso Senhor...

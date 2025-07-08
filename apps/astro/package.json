@@ -28,9 +28,8 @@
     "react-dom": "catalog:"
   },
   "devDependencies": {
-    "@fontsource-variable/eb-garamond": "^5.0.18",
-    "@fontsource/berkshire-swash": "^5.0.19",
-    "@fontsource/noto-serif": "^5.0.19",
+    "@fontsource/dm-serif-display": "^5.0.19",
+    "@fontsource/dm-serif-text": "^5.0.19",
     "@iconify-icon/react": "^2.0.1",
     "@iconify-json/mdi": "^1.1.65",
     "@iconify/json": "^2.2.195",

@@ -15,7 +15,7 @@ export default function Page0818Outro() {
         excepto:
       </Text>
       <H3 text="Oração" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Senhor, Vos rogamos, o vosso povo com incessante bondade; e, pelos
         sufrágios e méritos do B. Roque, livrai-o de todo o contágio na alma e
         no corpo. Por nosso Senhor...

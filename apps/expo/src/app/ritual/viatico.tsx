@@ -26,7 +26,6 @@ export default function PageViatico() {
           <Text className="response"> ℟. </Text> E em todos seus habitantes.
         </Text>
       </Language>
-      <H1 text="Asperges Me" />
       <AspergesMe />
       <Text className="aside">
         O Acólito diz o Confiteor Deo...

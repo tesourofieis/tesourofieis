@@ -6,7 +6,7 @@ export default function PageAnjocustodioportugal() {
   return (
     <PageWrapper>
       <H1 text="Anjo Custódio de Portugal" />
-      <Text className="text-base">
+      <Text className="text-pretty">
         Ó Deus omnipotente e sempiterno, que com inefável providência destinais
         para cada nação um Anjo, que a guarde, concedei-nos, Vos suplicamos,
         que, pelas súplicas e pelo patrocínio do Anjo Custódio da nossa Nação,
