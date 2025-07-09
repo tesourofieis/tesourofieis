@@ -12,7 +12,7 @@
     "android": "expo run:android",
     "submit": "eas build --platform all --auto-submit --profile production --non-interactive --no-wait",
     "ios": "expo run:ios",
-    "lint": "biome check --write --unsafe --files-ignore-unknown=true",
+    "lint": "pnpx biome check --write --unsafe --files-ignore-unknown=true",
     "prebuild": "pnpx tsx ./scripts/build-search-index.ts",
     "dev": "npm run prebuild && expo start --clear"
   },

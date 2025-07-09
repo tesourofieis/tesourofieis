@@ -487,8 +487,6 @@ export default function PageSantos() {
         <Text className="vernacular">Mais livrai-nos do mal.</Text>
       </Language>
 
-      <H3 text="Salmo 69" />
-
       <Salmo69 />
 
       <Language>

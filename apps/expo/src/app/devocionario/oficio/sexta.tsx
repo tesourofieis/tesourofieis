@@ -54,8 +54,6 @@ export default function PageSexta() {
         </Text>
       </Language>
 
-      <H2 text="Memento rerum conditor" />
-
       <MementoRerumConditor />
 
       <Language>
@@ -69,15 +67,9 @@ export default function PageSexta() {
         </Text>
       </Language>
 
-      <H2 text="Salmo 122" />
-
       <Salmo122 />
 
-      <H2 text="Salmo 123" />
-
       <Salmo123 />
-
-      <H2 text="Salmo 124" />
 
       <Salmo124 />
 

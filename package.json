@@ -3,9 +3,9 @@
   "private": true,
   "packageManager": "pnpm@9.7.1",
   "scripts": {
-    "check": "biome check --write .",
-    "lint": "biome lint --write .",
-    "format": "biome format --write .",
+    "check": "pnpx biome check --write .",
+    "lint": "pnpx biome lint --write .",
+    "format": "pnpx biome format --write .",
     "typecheck": "pnpm -r typecheck",
     "test": "pnpm -r test",
     "clean": "pnpm -r clean"

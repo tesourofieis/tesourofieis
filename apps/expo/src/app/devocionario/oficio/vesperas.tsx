@@ -69,8 +69,6 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 109" />
-
           <Salmo109 />
 
           <Language>
@@ -94,8 +92,6 @@ export default function PageVesperas() {
               debaixo de minha cabeça, e a sua direita me dará um abraço.
             </Text>
           </Language>
-
-          <H2 text="Salmo 112" />
 
           <Salmo112 />
 
@@ -123,8 +119,6 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 121" />
-
           <Salmo121 />
 
           <Language>
@@ -151,8 +145,6 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 126" />
-
           <Salmo126 />
 
           <Language>
@@ -176,8 +168,6 @@ export default function PageVesperas() {
               nas vossas delicias, ó santa Mãe de Deus.
             </Text>
           </Language>
-
-          <H2 text="Salmo 147" />
 
           <Salmo147 />
 
@@ -213,8 +203,6 @@ export default function PageVesperas() {
               <Text className="response"> ℟. </Text> Graças a Deus.
             </Text>
           </Language>
-
-          <H2 text="Ave Maris Stella" />
 
           <AveMarisStella />
 
@@ -254,8 +242,6 @@ export default function PageVesperas() {
               Porque o Senhor ressuscitou verdadeiramente, Aleluia!
             </Text>
           </Language>
-
-          <H2 text="Magnificat" />
 
           <Magnificat />
 
@@ -425,8 +411,6 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 109" />
-
           <Salmo109 />
 
           <Language>
@@ -450,8 +434,6 @@ export default function PageVesperas() {
               graça, o Senhor é convosco; bendita sois vós entre as mulheres.
             </Text>
           </Language>
-
-          <H2 text="Salmo 112" />
 
           <Salmo112 />
 
@@ -478,8 +460,6 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 121" />
-
           <Salmo121 />
 
           <Language>
@@ -505,8 +485,6 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 126" />
-
           <Salmo126 />
 
           <Language>
@@ -530,8 +508,6 @@ export default function PageVesperas() {
               Senhor, faça-se em mim segundo a vossa palavra.
             </Text>
           </Language>
-
-          <H2 text="Salmo 147" />
 
           <Salmo147 />
 
@@ -567,8 +543,6 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <H2 text="Ave Maris Stella" />
-
           <AveMarisStella />
 
           <Language>
@@ -599,8 +573,6 @@ export default function PageVesperas() {
               Filho de Deus, (aleluia).
             </Text>
           </Language>
-
-          <H2 text="Magnificat" />
 
           <Magnificat />
 
@@ -751,8 +723,6 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 109" />
-
           <Salmo109 />
 
           <Language>
@@ -785,8 +755,6 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 112" />
-
           <Salmo112 />
 
           <Language>
@@ -817,8 +785,6 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 121" />
-
           <Salmo121 />
 
           <Language>
@@ -847,8 +813,6 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 126" />
-
           <Salmo126 />
 
           <Language>
@@ -876,8 +840,6 @@ export default function PageVesperas() {
               Deus, Aquele que tira o pecado do mundo, (aleluia).
             </Text>
           </Language>
-
-          <H2 text="Salmo 147" />
 
           <Salmo147 />
 
@@ -916,8 +878,6 @@ export default function PageVesperas() {
             </Text>
           </Language>
 
-          <H2 text="Ave Maris Stella" />
-
           <AveMarisStella />
 
           <Language>
@@ -950,8 +910,6 @@ export default function PageVesperas() {
               todas as gentes, dizendo: Glória a Vós, ó Senhor.
             </Text>
           </Language>
-
-          <H2 text="Magnificat" />
 
           <Magnificat />
 

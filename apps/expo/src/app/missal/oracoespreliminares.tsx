@@ -28,10 +28,15 @@ export default function PageOracoespreliminares() {
           vingar-Vos dos nossos pecados. (T. P. Aleluia.)
         </Text>
       </Language>
+
       <Salmo83 />
+
       <Salmo84 />
+
       <Salmo85 />
+
       <Salmo115 />
+
       <Salmo129 />
       <Language>
         <Text className="latin">

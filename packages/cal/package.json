@@ -9,7 +9,7 @@
     "update-snapshot": "vitest -u .",
     "coverage": "vitest --coverage .",
     "test": "vitest .",
-    "lint": "biome check --write --unsafe --files-ignore-unknown=true"
+    "lint": "pnpx biome check --write --unsafe --files-ignore-unknown=true"
   },
   "dependencies": {
     "date-fns": "catalog:"

@@ -55,8 +55,6 @@ export default function PageNoa() {
         </Text>
       </Language>
 
-      <H2 text="Hino Memento rerum conditor" />
-
       <MementoRerumConditor />
 
       <Language>
@@ -70,15 +68,9 @@ export default function PageNoa() {
         </Text>
       </Language>
 
-      <H2 text="Salmo 125" />
-
       <Salmo125 />
 
-      <H2 text="Salmo 126" />
-
       <Salmo126 />
-
-      <H2 text="Salmo 127" />
 
       <Salmo127 />
 

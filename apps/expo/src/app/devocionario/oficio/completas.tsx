@@ -68,19 +68,11 @@ export default function PageCompletas() {
         </Text>
       </Language>
 
-      <H2 text="Salmo 128" />
-
       <Salmo128 />
-
-      <H2 text="Salmo 129" />
 
       <Salmo129 />
 
-      <H2 text="Salmo 130" />
-
       <Salmo130 />
-
-      <H2 text="Hino Memento rerum conditor" />
 
       <MementoRerumConditor />
 
@@ -163,8 +155,6 @@ export default function PageCompletas() {
               Porque o Senhor ressuscitou verdadeiramente, Aleluia!
             </Text>
           </Language>
-
-          <H2 text="Cântico Nunc Dimittis" />
 
           <NuncDimittis />
 

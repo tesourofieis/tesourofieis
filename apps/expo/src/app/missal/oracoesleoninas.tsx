@@ -17,8 +17,6 @@ export default function PageOracoesleoninas() {
         conversão da Rússia.
       </Text>
 
-      <H2 text="Ave Maria" />
-
       <Text className="aside">Ave Maria repete-se três vezes</Text>
 
       <AveMaria />

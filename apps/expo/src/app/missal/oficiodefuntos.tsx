@@ -38,8 +38,6 @@ export default function PageOficiodefuntos() {
         </Text>
       </Language>
 
-      <H2 text="Salmo 94" />
-
       <Salmo94 />
 
       <Language>

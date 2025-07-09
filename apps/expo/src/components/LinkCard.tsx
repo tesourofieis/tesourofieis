@@ -95,11 +95,12 @@ export default function PageLinkCard({
                 <View className="flex-1">
                   <View className="px-3 flex flex-row items-center gap-2">
                     <FontAwesome name="circle" color={getColor(mass.color)} />
-                    <Text className="text-sm text-sepia-600 dark:text-sepia-200">
+                    <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-200">
                       {description ?? "Missa"}
                     </Text>
+                    <Text className="text-sepia">|</Text>
                     {mass.rank && (
-                      <Text className="text-sm font-bold text-sepia-700 dark:text-sepia-200">
+                      <Text className="font-serif text-sm text-sepia-700 dark:text-sepia-200">
                         Classe: {mass.rank}
                       </Text>
                     )}
@@ -112,7 +113,7 @@ export default function PageLinkCard({
                   {mass.local && (
                     <View className="flex-row items-center gap-2">
                       <FontAwesome name="map" color={COLORS[500]} />
-                      <Text className="font-black text-sepia-500">
+                      <Text className="text-pretty text-sepia-500">
                         Local: {mass.local.toUpperCase()}
                       </Text>
                     </View>

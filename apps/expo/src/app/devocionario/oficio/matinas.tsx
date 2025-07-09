@@ -99,8 +99,6 @@ export default function PageMatinas() {
         </Text>
       </Language>
 
-      <H2 text="Salmo 94" />
-
       <Salmo94 />
 
       <Language>
@@ -218,8 +216,6 @@ export default function PageMatinas() {
         </Text>
       </Language>
 
-      <H2 text="Hino Quem terra" />
-
       <QuemTerra />
 
       <Tabs>
@@ -236,8 +232,6 @@ export default function PageMatinas() {
               mulheres, e bendito é o fruto do vosso ventre.
             </Text>
           </Language>
-
-          <H2 text="Salmo 8" />
 
           <Salmo8 />
 
@@ -263,8 +257,6 @@ export default function PageMatinas() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 18" />
-
           <Salmo18 />
 
           <Language>
@@ -288,8 +280,6 @@ export default function PageMatinas() {
               cânticos ante o precioso leito desta Virgem.
             </Text>
           </Language>
-
-          <H2 text="Salmo 23" />
 
           <Salmo23 />
 
@@ -318,8 +308,6 @@ export default function PageMatinas() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 44" />
-
           <Salmo44 />
 
           <Language>
@@ -345,8 +333,6 @@ export default function PageMatinas() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 45" />
-
           <Salmo45 />
 
           <Language>
@@ -371,8 +357,6 @@ export default function PageMatinas() {
               nossos que por amor habitam convosco estão cheios de alegria.
             </Text>
           </Language>
-
-          <H2 text="Salmo 86" />
 
           <Salmo86 />
 
@@ -420,8 +404,6 @@ export default function PageMatinas() {
             </TabItem>
           </Tabs>
 
-          <H2 text="Salmo 95" />
-
           <Salmo95 />
 
           <Language>
@@ -447,8 +429,6 @@ export default function PageMatinas() {
               inimigos.
             </Text>
           </Language>
-
-          <H2 text="Salmo 96" />
 
           <Salmo96 />
 
@@ -492,8 +472,6 @@ export default function PageMatinas() {
               </Language>
             </TabItem>
           </Tabs>
-
-          <H2 text="Salmo 97" />
 
           <Salmo97 />
 
@@ -1184,8 +1162,6 @@ export default function PageMatinas() {
           </Language>
         </TabItem>
       </Tabs>
-
-      <H2 text="Te Deum" />
 
       <TeDeum />
 

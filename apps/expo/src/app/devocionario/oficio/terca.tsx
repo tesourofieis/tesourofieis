@@ -55,8 +55,6 @@ export default function PageTerca() {
         </Text>
       </Language>
 
-      <H2 text="Memento rerum conditor" />
-
       <MementoRerumConditor />
 
       <Language>
@@ -71,15 +69,9 @@ export default function PageTerca() {
         </Text>
       </Language>
 
-      <H2 text="Salmo 119" />
-
       <Salmo119 />
 
-      <H2 text="Salmo 120" />
-
       <Salmo120 />
-
-      <H2 text="Salmo 121" />
 
       <Salmo121 />
 

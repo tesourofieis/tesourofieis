@@ -76,7 +76,7 @@ const TreeItem = React.memo(
     loadingIds,
     childrenMap,
   }: {
-    doc: Docs; // Type is now from schema
+    doc: Docs;
     level: number;
     expanded: Record<string, boolean>;
     toggleExpand: (id: string, children: boolean) => void;
@@ -232,7 +232,7 @@ const highlightText = (text: string, highlight?: string) => {
 
 const renderFTSHighlightedText = (text: string) => {
   if (!text) return null;
-  const parts = text.split(/(<b>.*?<\/b>)/g).filter(Boolean); // Filter out empty strings from split
+  const parts = text.split(/(<b>.*?<\/b>)/g).filter(Boolean);
   return (
     <Text>
       {parts.map((part, i) => {
@@ -299,7 +299,7 @@ const SearchResultItem = React.memo(
     return (
       <TouchableOpacity
         onPress={handleCardPress}
-        className="rounded-xl mx-4 my-2 p-4 bg-sepia-100 dark:bg-sepia-700 active:bg:sepia-200 dark:active:bg-sepia-800"
+        className="rounded-xl mx-4 my-2 p-4 border-b border-sepia active:bg:sepia-200 dark:active:bg-sepia-800"
       >
         <Text className="text-pretty">
           {displayTitle
@@ -363,7 +363,6 @@ const SearchResultItem = React.memo(
   }
 );
 
-// Update the SearchResults component
 const SearchResults = React.memo(
   ({
     results,
@@ -377,6 +376,7 @@ const SearchResults = React.memo(
     pathname: string;
   }) => {
     const fade = useRef(new Animated.Value(0)).current;
+
     useEffect(() => {
       fade.setValue(0);
       Animated.timing(fade, {
@@ -408,7 +408,7 @@ const SearchResults = React.memo(
           maxToRenderPerBatch={RENDER_BATCH_SIZE}
           initialNumToRender={INITIAL_RENDER_COUNT}
           windowSize={8}
-          getItemLayout={(_, i) => ({ length: 180, offset: 180 * i, index: i })}
+          getItemLayout={(_, i) => ({ length: 60, offset: 60 * i, index: i })}
           contentContainerStyle={{ paddingVertical: 8 }}
         />
       </Animated.View>
@@ -416,7 +416,6 @@ const SearchResults = React.memo(
   }
 );
 
-// Update the main component's state type
 export default function MoreScreen() {
   const router = useRouter();
   const pathname = usePathname();
@@ -470,10 +469,14 @@ export default function MoreScreen() {
       return;
     }
 
+    console.log("Search query:", searchQuery);
+
     const timeoutId = setTimeout(async () => {
       setIsSearching(true);
       try {
+        console.log("Starting search for:", searchQuery);
         const searchResults = await search(searchQuery, 15);
+        console.log("Search results:", searchResults);
         setResults(searchResults);
       } catch (err) {
         console.error("Search error:", err);
@@ -564,7 +567,7 @@ export default function MoreScreen() {
     if (showSearchUI) {
       if (isSearching) {
         return (
-          <View className="p-4 items-center">
+          <View className="flex-1 justify-center items-center">
             <ActivityIndicator size="large" color={colors.placeholder} />
           </View>
         );
@@ -582,7 +585,7 @@ export default function MoreScreen() {
       }
 
       return (
-        <View className="p-4 items-center">
+        <View className="flex-1 justify-center items-center">
           <FontAwesome6
             name="search"
             size={24}
@@ -618,7 +621,7 @@ export default function MoreScreen() {
   };
 
   return (
-    <>
+    <View className="flex-1">
       <View className="p-4 bg-sepia-50 dark:bg-sepia-900 border-b border-sepia">
         <View className="flex-row px-3 py-2 items-center bg-sepia-100 dark:bg-sepia-800 rounded-xl border border-sepia">
           <FontAwesome6
@@ -643,7 +646,11 @@ export default function MoreScreen() {
           )}
         </View>
       </View>
-      <View className="bg-sepia-100 dark:bg-sepia-800">{renderContent()}</View>
-    </>
+      <View className="flex-1 bg-sepia-100 dark:bg-sepia-800">
+        {" "}
+        {/* Add flex-1 here */}
+        {renderContent()}
+      </View>
+    </View>
   );
 }

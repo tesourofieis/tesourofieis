@@ -55,8 +55,6 @@ export default function PagePrima() {
         </Text>
       </Language>
 
-      <H2 text="Memento rerum conditor" />
-
       <MementoRerumConditor />
 
       <Language>
@@ -70,15 +68,9 @@ export default function PagePrima() {
         </Text>
       </Language>
 
-      <H2 text="Salmo 53" />
-
       <Salmo53 />
 
-      <H2 text="Salmo 84" />
-
       <Salmo84 />
-
-      <H2 text="Salmo 116" />
 
       <Salmo116 />
 

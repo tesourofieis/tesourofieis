@@ -13,7 +13,7 @@ export default function PageAdoracao() {
   return (
     <PageWrapper>
       <H1 text="Adoração" />
-      <H2 text="O Salutáris Hóstia" />
+
       <Salutaris />
       <H1 text="Acto de Adoração" />
       <Text className="text-pretty">
@@ -37,14 +37,15 @@ export default function PageAdoracao() {
         amo; eu Vos adoro!
       </Text>
       <H1 text="Hinos em Honra do Santíssimo Sacramento" />
-      <H2 text="Adoro Te Devote" />
+
       <Adorote />
-      <H2 text="Ave Verum Corpus" />
+
       <Aveverum />
-      <H2 text="Ecce Panis Angelorum" />
+
       <Eccepanisangelorum />
-      <H2 text="Parce Domine" />
+
       <Parcedomine />
+
       <H2 text="Cor jesu sacratissimum" />
       <Language>
         <Text className="latin">
@@ -61,7 +62,7 @@ export default function PageAdoracao() {
         </Text>
       </Language>
       <H1 text="Hino para antes da Bênção" />
-      <H2 text="Tantum Ergo" />
+
       <Tantumergo />
       <Language>
         <Text className="latin">
@@ -168,6 +169,7 @@ export default function PageAdoracao() {
         </Text>
       </Language>
       <H1 text="Hinos para depois da Bênção" />
+
       <H2 text="Cristus Vincit" />
       <Language>
         <Text className="latin">Christus Vincit!</Text>

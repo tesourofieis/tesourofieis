@@ -22,9 +22,9 @@ export default function PageOracoescomplementares() {
           fornalha do fogo, glorificando o Senhor. (T. P. Aleluia.)
         </Text>
       </Language>
-      <H3 text="Benedícite" />
+
       <Benedicite />
-      <H3 text="Salmo 150" />
+
       <Salmo150 />
       <Language>
         <Text className="latin">

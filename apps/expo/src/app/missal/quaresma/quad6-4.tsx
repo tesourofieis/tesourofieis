@@ -295,8 +295,6 @@ export default function PageQuad64() {
         </Text>
       </Language>
 
-      <H3 text="Salmo 21" />
-
       <Salmo21 />
 
       <Text className="aside">

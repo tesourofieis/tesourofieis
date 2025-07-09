@@ -70,8 +70,6 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 92" />
-
           <Salmo92 />
 
           <Language>
@@ -96,8 +94,6 @@ export default function PageLaudes() {
               trono de estrelas.
             </Text>
           </Language>
-
-          <H2 text="Salmo 99" />
 
           <Salmo99 />
 
@@ -124,8 +120,6 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 62" />
-
           <Salmo62 />
 
           <Language>
@@ -149,8 +143,6 @@ export default function PageLaudes() {
               Senhor, porque por vós recebemos o fruto da vida.
             </Text>
           </Language>
-
-          <H2 text="Benedicite" />
 
           <Benedicite />
 
@@ -177,8 +169,6 @@ export default function PageLaudes() {
               bela e decorosa, terrível como um exército formado em linha.
             </Text>
           </Language>
-
-          <H2 text="Salmo 148" />
 
           <Salmo148 />
 
@@ -213,8 +203,6 @@ export default function PageLaudes() {
               <Text className="response"> ℟. </Text> Graças a Deus.
             </Text>
           </Language>
-
-          <H2 text="Hino O Gloriosa Virginum" />
 
           <OGloriosaVirginum />
 
@@ -251,8 +239,6 @@ export default function PageLaudes() {
               Deus, Aleluia!
             </Text>
           </Language>
-
-          <H2 text="Benedictus" />
 
           <Benedictus />
 
@@ -359,8 +345,6 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 92" />
-
           <Salmo92 />
 
           <Language>
@@ -384,8 +368,6 @@ export default function PageLaudes() {
               graça, o Senhor é convosco; bendita sois vós entre as mulheres.
             </Text>
           </Language>
-
-          <H2 text="Salmo 99" />
 
           <Salmo99 />
 
@@ -412,8 +394,6 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 62" />
-
           <Salmo62 />
 
           <Language>
@@ -438,8 +418,6 @@ export default function PageLaudes() {
               de David seu Pai, e reinará eternamente.
             </Text>
           </Language>
-
-          <H2 text="Benedicite" />
 
           <Benedicite />
 
@@ -466,8 +444,6 @@ export default function PageLaudes() {
               Senhor, faça-se em mim segundo a vossa palavra.
             </Text>
           </Language>
-
-          <H2 text="Salmo 148" />
 
           <Salmo148 />
 
@@ -503,8 +479,6 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <H2 text="Hino O Gloriosa Virginum" />
-
           <OGloriosaVirginum />
 
           <Language>
@@ -537,8 +511,6 @@ export default function PageLaudes() {
               Filho de Deus, (aleluia).
             </Text>
           </Language>
-
-          <H2 text="Benedictus" />
 
           <Benedictus />
 
@@ -689,8 +661,6 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 92" />
-
           <Salmo92 />
 
           <Language>
@@ -723,8 +693,6 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 99" />
-
           <Salmo99 />
 
           <Language>
@@ -755,8 +723,6 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <H2 text="Salmo 62" />
-
           <Salmo62 />
 
           <Language>
@@ -784,8 +750,6 @@ export default function PageLaudes() {
               Nós Vos louvamos, ó Nosso Deus.
             </Text>
           </Language>
-
-          <H2 text="Benedicite" />
 
           <Benedicite />
 
@@ -816,8 +780,6 @@ export default function PageLaudes() {
               Deus, Aquele que tira o pecado do mundo, (aleluia).
             </Text>
           </Language>
-
-          <H2 text="Salmo 148" />
 
           <Salmo148 />
 
@@ -855,8 +817,6 @@ export default function PageLaudes() {
             </Text>
           </Language>
 
-          <H2 text="Hino O Gloriosa Virginum" />
-
           <OGloriosaVirginum />
 
           <Language>
@@ -888,8 +848,6 @@ export default function PageLaudes() {
               mistura.
             </Text>
           </Language>
-
-          <H2 text="Benedictus" />
 
           <Benedictus />
 

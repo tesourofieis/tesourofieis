@@ -15,6 +15,7 @@ export default function PageRosario() {
       <H1 text="Rosário" />
       <PageSinalCruz />
       <H1 text="No Crucifixo" />
+
       <PageSimboloapostolos />
       <H2 text="Oferecimento do Santo Rosário" />
       <Text className="text-pretty">
@@ -39,13 +40,21 @@ export default function PageRosario() {
           Paz entre os Reis e Príncipes católicos.
         </Text>
       </Language>
+
       <H1 text="Nas contas maiores" />
+
       <PaiNosso />
+
       <H1 text="Nas contas menores" />
+
       <AveMaria />
+
       <H1 text="No fim das dezenas" />
+
       <Gloria />
+
       <H2 text="Nossa Senhora a Santa Catarina Labouré" />
+
       <Language>
         <Text className="latin">
           <Text className="versicle"> ℣. </Text>O Maria sine labe concepta.
@@ -228,6 +237,7 @@ export default function PageRosario() {
           <Text className="response"> ℟. </Text> Amen.
         </Text>
       </Language>
+
       <LadainhaLoreto />
       <PageSinalCruz />
     </PageWrapper>
