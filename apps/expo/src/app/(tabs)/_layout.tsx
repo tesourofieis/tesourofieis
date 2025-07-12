@@ -2,6 +2,7 @@ import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { Tabs } from "expo-router";
 
 import { Platform, useColorScheme } from "react-native";
+import { burgundy } from "tailwind.config";
 
 import { COLORS } from "~/constants/Colors";
 
@@ -15,12 +16,17 @@ export default function PageTabLayout() {
     <Tabs
       screenOptions={{
         headerShown: false,
-        tabBarActiveTintColor: isDarkMode ? COLORS["200"] : COLORS["800"],
-        tabBarActiveBackgroundColor: isDarkMode ? COLORS["700"] : COLORS["300"],
+        tabBarActiveTintColor: isDarkMode ? COLORS[400] : COLORS[600],
+        tabBarActiveBackgroundColor: isDarkMode ? COLORS[700] : COLORS[300],
         tabBarStyle: {
-          borderTopWidth: 0,
-          borderTopColor: isDarkMode ? COLORS["700"] : COLORS["300"],
-          backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+          borderTopLeftRadius: 8,
+          borderTopRightRadius: 8,
+          borderColor: isDarkMode ? COLORS[600] : COLORS[400],
+          backgroundColor: isDarkMode ? COLORS[900] : COLORS[200],
+        },
+        tabBarLabelStyle: {
+          fontSize: 9,
+          fontFamily: "DMSerifDisplay_400Regular",
         },
       }}
     >

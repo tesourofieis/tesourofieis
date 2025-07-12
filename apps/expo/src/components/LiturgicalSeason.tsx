@@ -406,8 +406,8 @@ const SEASON_COLORS: Record<
   },
   Paixão: {
     bg: "bg-red-50 dark:bg-red-900/20",
-    border: "border-red-300 dark:border-red-700",
-    accent: "text-red-700 dark:text-red-300",
+    border: "border-red-500 dark:border-red-700",
+    accent: "text-red-700 dark:text-red-500",
   },
   Páscoa: {
     bg: "bg-white dark:bg-white/5",
@@ -416,8 +416,8 @@ const SEASON_COLORS: Record<
   },
   Pentecostes: {
     bg: "bg-red-50 dark:bg-red-900/20",
-    border: "border-red-300 dark:border-red-700",
-    accent: "text-red-700 dark:text-red-300",
+    border: "border-red-500 dark:border-red-700",
+    accent: "text-red-700 dark:text-red-500",
   },
 };
 

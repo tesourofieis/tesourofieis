@@ -19,9 +19,9 @@ export default function PageMatrimonio() {
       </Text>
       <H2 text="Consentimento dos Noivos" />
       <Text className="versicle"> ℣. </Text>
-      <Text className="text-red-600">N.</Text>
+      <Text className="text-red-500">N.</Text>
       <Text className="text-pretty">quereis receber </Text>
-      <Text className="text-red-600">N.</Text>
+      <Text className="text-red-500">N.</Text>
       <Text className="text-pretty">
         , aqui presente, como vossa legítima esposa, segundo o rito da Santa
         Madre Igreja?
@@ -31,9 +31,9 @@ export default function PageMatrimonio() {
         Quero! E logo, dirigindo-se à noiva, interroga-a também:
         <Text className="versicle"> ℣. </Text>
       </Text>
-      <Text className="text-red-600">N.</Text>{" "}
+      <Text className="text-red-500">N.</Text>{" "}
       <Text className="text-pretty">quereis receber</Text>{" "}
-      <Text className="text-red-600">N.</Text>
+      <Text className="text-red-500">N.</Text>
       <Text className="text-pretty">
         , aqui presente, como vossa legítima esposo, segundo o rito da Santa
         Madre Igreja?{" "}

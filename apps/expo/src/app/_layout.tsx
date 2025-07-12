@@ -27,10 +27,12 @@ import {
   View,
 } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
-import { openExternalLink } from "~/components/External";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { SettingsProvider } from "~/providers/settings";
+import { SQLiteProvider } from "expo-sqlite";
+import { migrateDatabase } from "~/db/db";
+import { burgundy } from "tailwind.config";
 
 SplashScreen.preventAutoHideAsync();
 SplashScreen.setOptions({
@@ -87,7 +89,7 @@ export default function PageRootLayout() {
   if (shouldShowLoading && Platform.OS !== "web") {
     return (
       <View className="flex-auto justify-center items-center bg-sepia-200 dark:bg-sepia-900">
-        <ActivityIndicator className="text-red-600" />
+        <ActivityIndicator className="text-red-500" />
         <Text className="mt-4 text-sepia-700 dark:text-sepia-300">
           {getUpdateMessage()}
         </Text>
@@ -101,17 +103,19 @@ export default function PageRootLayout() {
   }
 
   return (
-    <CalendarProvider>
-      {Platform.OS === "web" ? (
-        <RootLayoutNav />
-      ) : (
-        <GestureHandlerRootView>
-          <SettingsProvider>
-            <RootLayoutNav />
-          </SettingsProvider>
-        </GestureHandlerRootView>
-      )}
-    </CalendarProvider>
+    <SQLiteProvider onInit={migrateDatabase} databaseName="docs.db">
+      <CalendarProvider>
+        {Platform.OS === "web" ? (
+          <RootLayoutNav />
+        ) : (
+          <GestureHandlerRootView>
+            <SettingsProvider>
+              <RootLayoutNav />
+            </SettingsProvider>
+          </GestureHandlerRootView>
+        )}
+      </CalendarProvider>
+    </SQLiteProvider>
   );
 }
 
@@ -239,7 +243,7 @@ const Breadcrumbs = () => {
               className="rounded bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
               onPress={() =>
                 handleBreadcrumbPress(
-                  `/${segments.slice(0, index + 1).join("/")}`,
+                  `/${segments.slice(0, index + 1).join("/")}`
                 )
               }
             >
@@ -269,7 +273,7 @@ const Header = ({ withBC }: { withBC: boolean }) => {
             className="rounded-full p-2 shadow-md bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
             onPress={() => router.navigate("/")}
           >
-            <FontAwesome6 name="arrow-left" size={15} color="#e53935" />
+            <FontAwesome6 name="arrow-left" size={15} color={burgundy[500]} />
           </Pressable>
           <Breadcrumbs />
         </View>
@@ -284,17 +288,6 @@ const Header = ({ withBC }: { withBC: boolean }) => {
               color={isDarkMode ? COLORS["300"] : COLORS["700"]}
             />
           </Pressable>
-
-          <Pressable
-            onPress={() => openExternalLink(`https://tesourofieis.com${path}`)}
-            className="p-2 items-center border rounded-xl border-sepia-700 dark:border-sepia-200 active:bg-sepia-200 dark:active:bg-sepia-700"
-          >
-            <FontAwesome6
-              name="globe"
-              size={15}
-              color={isDarkMode ? COLORS["300"] : COLORS["700"]}
-            />
-          </Pressable>
         </View>
       </View>
     );
@@ -303,7 +296,7 @@ const Header = ({ withBC }: { withBC: boolean }) => {
     <View className="flex-row items-center justify-between p-5 bg-sepia-200 dark:bg-sepia-800 w-full border-b active:bg-sepia-100 dark:active:bg-sepia-900">
       <Pressable onPress={() => router.navigate("/")}>
         <View className="flex-row items-center gap-3">
-          <FontAwesome6 name="book-bible" size={25} color="#e53935" />
+          <FontAwesome6 name="book-bible" size={25} color={burgundy[500]} />
           <Text className="text-lg text-sepia-800 dark:text-sepia-200 font-serif">
             Tesouro dos Fiéis
           </Text>

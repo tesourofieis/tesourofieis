@@ -157,7 +157,7 @@ const TreeItem = React.memo(
             <View className="mr-2">
               {children ? (
                 loadingIds.includes(doc.id) ? (
-                  <ActivityIndicator size="small" color={COLORS["500"]} />
+                  <ActivityIndicator size="small" className="text-red-500" />
                 ) : (
                   <FontAwesome6
                     name={isOpen ? "chevron-up" : "chevron-down"}
@@ -216,10 +216,7 @@ const highlightText = (text: string, highlight?: string) => {
         if (part.startsWith("<mark>") && part.endsWith("</mark>")) {
           const markedText = part.slice(6, -7);
           return (
-            <Text
-              key={part + i}
-              className="bg-sepia-200 dark:bg-sepia-700 font-semibold"
-            >
+            <Text key={part + i + "mark"} className="bg-red-400 italic">
               {markedText}
             </Text>
           );
@@ -309,25 +306,20 @@ const SearchResultItem = React.memo(
 
         {item.matchedHeading && (
           <Text
-            className="text-blue-600 dark:text-blue-400 text-sm mt-1 font-medium"
+            className="text-pretty text-sm mt-1 font-medium"
             numberOfLines={1}
           >
             {highlightText(item.matchedHeading.title, query)}
           </Text>
         )}
 
-        <Text
-          className="text-sepia-600 dark:text-sepia-300 text-sm mt-1"
-          numberOfLines={3}
-        >
+        <Text className="text-pretty text-xs mt-1" numberOfLines={3}>
           {highlightText(displaySnippet || fallbackSnippet, query)}
         </Text>
 
         {item.content.headings.length > 1 && (
           <View className="mt-2">
-            <Text className="text-xs text-sepia-600 dark:text-sepia-400 italic">
-              Outras secções:
-            </Text>
+            <Text className="text-pretty text-xs italic">Outras secções:</Text>
             {item.content.headings
               .filter((heading) => heading.id !== item.matchedHeading?.id)
               .slice(0, 3)
@@ -338,7 +330,7 @@ const SearchResultItem = React.memo(
                   className="mt-1 ml-2"
                 >
                   <Text
-                    className="text-sm underline text-sepia-600 dark:text-sepia-400"
+                    className="text-pretty text-sm underline"
                     numberOfLines={1}
                   >
                     {heading.title}
@@ -556,7 +548,7 @@ export default function MoreScreen() {
     if (isLoadingInitialDocs) {
       return (
         <View className="flex-1 justify-center items-center">
-          <ActivityIndicator size="large" color={colors.placeholder} />
+          <ActivityIndicator size="large" className="text-red-500" />
           <Text className="text-sepia-500 dark:text-sepia-400 mt-2">
             A carregar documentos...
           </Text>
@@ -568,7 +560,7 @@ export default function MoreScreen() {
       if (isSearching) {
         return (
           <View className="flex-1 justify-center items-center">
-            <ActivityIndicator size="large" color={colors.placeholder} />
+            <ActivityIndicator size="large" className="text-red-500" />
           </View>
         );
       }
@@ -647,8 +639,6 @@ export default function MoreScreen() {
         </View>
       </View>
       <View className="flex-1 bg-sepia-100 dark:bg-sepia-800">
-        {" "}
-        {/* Add flex-1 here */}
         {renderContent()}
       </View>
     </View>

@@ -69,7 +69,7 @@ export default function PageOficioagonizantes() {
           miserationum tuarum peccata paenitentium deles, et praeteritorum
           criminum culpas venia remissionis evacuas: respice propitius super
           hunc famulum tuum <Text className="latin">N.</Text> (hanc famulam tuam{" "}
-          <Text className="text-red-600">N.</Text>), et remissionem ominum
+          <Text className="text-red-500">N.</Text>), et remissionem ominum
           peccatorum suorum tota cordis confessione poscentem deprecatus exaudi.
           Renova in eo (ea), piissime Pater, quidquid terrena fragilitate
           corruptum, vel quidquid diabolica fraude violatum est; et unitati
@@ -413,7 +413,7 @@ export default function PageOficioagonizantes() {
         <Text className="latin">
           Commendamus tibi, Domine, animam famuli tui{" "}
           <Text className="latin">N.</Text> (famulae tuae{" "}
-          <Text className="text-red-600">N.</Text>), precamurque te, Domine Iesu
+          <Text className="text-red-500">N.</Text>), precamurque te, Domine Iesu
           Christe, Salvator mundi, ut, propter quam ad terram misericorditer
           descendisti, Patriarcharum tuorum sinibus insinuare non renuas.
           Agnosce, Domine, creaturam tuam, non a diis alienis creatam, sed a te,
@@ -765,7 +765,7 @@ export default function PageOficioagonizantes() {
         <Text className="latin">
           Tibi, Domine, commendamus animam famuli tui{" "}
           <Text className="latin">N.</Text> (famulae tuae){" "}
-          <Text className="text-red-600">N.</Text> ut defunctus (-a) saeculo,
+          <Text className="text-red-500">N.</Text> ut defunctus (-a) saeculo,
           tibi vivat, et, quae per fragilitatem humanae conversationis peccata
           commisit, tu venia misericordissimae pietatis absterge. Per Christum
           Dominum nostrum. R. Amen. Si defunctus fuerit sacerdos, post nomen

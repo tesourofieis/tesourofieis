@@ -1,12 +1,11 @@
 import * as fs from "fs";
 import * as path from "path";
 import { globSync } from "glob";
+import { drizzle } from "drizzle-orm/better-sqlite3";
 import Database from "better-sqlite3";
+import { docs } from "~/db/schema";
+import type { Docs } from "~/app/(tabs)/more";
 
-// Import the canonical Docs and SubHeading types
-import type { Docs, SubHeading } from "~/app/(tabs)/more"; // Adjust path as needed
-
-// Utility function for slugifying text
 function slugify(text: string): string {
   return text
     .toLowerCase()
@@ -15,35 +14,70 @@ function slugify(text: string): string {
     .replace(/^-+|-+$/g, "");
 }
 
-// --------------------------- Content Extraction Functions ---------------------------
-
 interface ParsedContentSegment {
   type: "text" | "heading" | "comment";
-  content: string; // The extracted text/title
-  index: number; // Start index in the rawContent
-  level?: number; // For headings
-  id?: string; // For headings
-  length?: number; // Added length to simplify calculation in loop
+  content: string;
+  index: number;
+  level?: number;
+  length?: number;
+}
+
+function extractTextFromNestedTags(content: string): string[] {
+  const textContents: string[] = [];
+  let startIndex = 0;
+
+  while (startIndex < content.length) {
+    const openTag = content.indexOf("<Text", startIndex);
+    if (openTag === -1) break;
+
+    const tagEnd = content.indexOf(">", openTag);
+    if (tagEnd === -1) break;
+
+    // Find the matching closing tag by counting nested tags
+    let depth = 1;
+    let currentIndex = tagEnd + 1;
+    let textContent = "";
+
+    while (currentIndex < content.length && depth > 0) {
+      const nextOpen = content.indexOf("<Text", currentIndex);
+      const nextClose = content.indexOf("</Text>", currentIndex);
+
+      if (nextClose === -1) break;
+
+      if (nextOpen !== -1 && nextOpen < nextClose) {
+        // Found nested opening tag
+        textContent += content.substring(currentIndex, nextOpen);
+        depth++;
+        currentIndex = content.indexOf(">", nextOpen) + 1;
+      } else {
+        // Found closing tag
+        textContent += content.substring(currentIndex, nextClose);
+        depth--;
+        currentIndex = nextClose + 7; // Skip '</Text>'
+      }
+    }
+
+    if (depth === 0) {
+      const cleanContent = textContent
+        .replace(/<[^>]+>/g, "")
+        .replace(/{[^}]+}/g, "")
+        .trim();
+
+      if (cleanContent) {
+        textContents.push(cleanContent);
+      }
+    }
+
+    startIndex = currentIndex;
+  }
+
+  return textContents;
 }
 
 function parseRawContentToSegments(rawContent: string): ParsedContentSegment[] {
   const segments: ParsedContentSegment[] = [];
   const headingTags = ["H1", "H2", "H3", "H4", "H5", "H6"];
 
-  // Find all JSX <Text> elements (This part was actually fine before as it was already spread)
-  const allTextMatches = [
-    ...rawContent.matchAll(/<Text[^>]*>([\s\S]*?)<\/Text>/gs),
-  ].map((match) => ({
-    type: "text" as const,
-    content: match[1]
-      .replace(/<[^>]+>/g, "")
-      .replace(/{[^>]+}/g, "")
-      .trim(),
-    index: match.index!,
-    length: match[0].length, // Added length here
-  }));
-
-  // Find all Hn elements
   const headingMatches = headingTags
     .flatMap((tag) => {
       const regex = new RegExp(
@@ -54,13 +88,12 @@ function parseRawContentToSegments(rawContent: string): ParsedContentSegment[] {
         type: "heading" as const,
         content: match[2].trim(),
         index: match.index!,
-        length: match[0].length, // Added length here
+        length: match[0].length,
         level: parseInt(tag.substring(1), 10),
       }));
     })
     .sort((a, b) => a.index - b.index);
 
-  // Find the comment element
   const commentMatch = rawContent.match(
     /<[^>]*className="[^"]*comment[^"]*"[^>]*>([\s\S]*?)<\/[^>]+>/
   );
@@ -69,37 +102,25 @@ function parseRawContentToSegments(rawContent: string): ParsedContentSegment[] {
         type: "comment",
         content: commentMatch[1].replace(/<[^>]+>/g, "").trim(),
         index: commentMatch.index!,
-        length: commentMatch[0].length, // Added length here
+        length: commentMatch[0].length,
       }
     : null;
 
-  // Combine all found structural elements (headings, comments) and sort them by their start index
   const allStructuralElements: ParsedContentSegment[] = [
     ...headingMatches,
     ...(commentSegment ? [commentSegment] : []),
-  ].sort((a, b) => a.index! - b.index!); // Add ! for non-null assertion on index
+  ].sort((a, b) => a.index! - b.index!);
 
-  let lastIndex = 0; // Tracks position in rawContent
+  let lastIndex = 0;
 
   for (const structuralElement of allStructuralElements) {
-    // Add any plain text content that precedes this structural element
     if (structuralElement.index! > lastIndex) {
-      // ! for non-null assertion
       const textChunk = rawContent.substring(
         lastIndex,
         structuralElement.index!
-      ); // ! for non-null assertion
-      const extractedTexts = [
-        // <<< ADDED SPREAD OPERATOR HERE
-        ...textChunk.matchAll(/<Text[^>]*>([\s\S]*?)<\/Text>/gs),
-      ]
-        .map((match) =>
-          match[1]
-            .replace(/<[^>]+>/g, "")
-            .replace(/{[^>]+}/g, "")
-            .trim()
-        )
-        .filter(Boolean);
+      );
+
+      const extractedTexts = extractTextFromNestedTags(textChunk);
 
       if (extractedTexts.length > 0) {
         segments.push({
@@ -111,23 +132,12 @@ function parseRawContentToSegments(rawContent: string): ParsedContentSegment[] {
     }
 
     segments.push(structuralElement);
-    lastIndex = structuralElement.index! + structuralElement.length!; // ! for non-null assertion
+    lastIndex = structuralElement.index! + structuralElement.length!;
   }
 
-  // Add any remaining plain text content after the last structural element
   if (lastIndex < rawContent.length) {
     const textChunk = rawContent.substring(lastIndex);
-    const extractedTexts = [
-      // <<< ADDED SPREAD OPERATOR HERE
-      ...textChunk.matchAll(/<Text[^>]*>([\s\S]*?)<\/Text>/gs),
-    ]
-      .map((match) =>
-        match[1]
-          .replace(/<[^>]+>/g, "")
-          .replace(/{[^>]+}/g, "")
-          .trim()
-      )
-      .filter(Boolean);
+    const extractedTexts = extractTextFromNestedTags(textChunk);
 
     if (extractedTexts.length > 0) {
       segments.push({
@@ -138,7 +148,6 @@ function parseRawContentToSegments(rawContent: string): ParsedContentSegment[] {
     }
   }
 
-  // Final cleanup and consolidation of consecutive text segments
   const consolidatedSegments: ParsedContentSegment[] = [];
   let currentTextContent: string = "";
 
@@ -158,6 +167,7 @@ function parseRawContentToSegments(rawContent: string): ParsedContentSegment[] {
       consolidatedSegments.push(segment);
     }
   });
+
   if (currentTextContent) {
     consolidatedSegments.push({
       type: "text",
@@ -170,9 +180,7 @@ function parseRawContentToSegments(rawContent: string): ParsedContentSegment[] {
   return consolidatedSegments;
 }
 
-// This function now builds the structured 'content' object for Docs
 function buildDocumentContent(rawContent: string): Docs["content"] {
-  // Return type is specific to the 'content' field of Docs
   const parsedSegments = parseRawContentToSegments(rawContent);
 
   const content: Docs["content"] = {
@@ -181,28 +189,24 @@ function buildDocumentContent(rawContent: string): Docs["content"] {
     comment: undefined,
   };
 
-  let currentHeadingBody: string[] = []; // Collects text for the current heading's body
-  let inIntroduction = true; // True until the first heading is found
+  let currentHeadingBody: string[] = [];
+  let inIntroduction = true;
 
-  parsedSegments.forEach((segment, index) => {
+  parsedSegments.forEach((segment) => {
     if (segment.type === "heading") {
-      // If we were collecting introduction text
       if (inIntroduction && currentHeadingBody.length > 0) {
         content.introduction = currentHeadingBody.join(" ").trim();
-        if (content.introduction === "") content.introduction = undefined; // Remove empty intro
+        if (content.introduction === "") content.introduction = undefined;
       }
-      inIntroduction = false; // First heading found, no longer in intro
+      inIntroduction = false;
 
-      // Add the collected body text to the *previous* heading
       if (content.headings.length > 0) {
         content.headings[content.headings.length - 1].body = currentHeadingBody
           .join(" ")
           .trim();
       }
 
-      // Generate unique ID for this heading
       const baseId = slugify(segment.content);
-      // Ensure unique ID across all headings, use overall count as suffix if needed
       const uniqueId =
         baseId +
         (content.headings.filter((h) => h.id.startsWith(baseId)).length > 0
@@ -212,10 +216,10 @@ function buildDocumentContent(rawContent: string): Docs["content"] {
       content.headings.push({
         title: segment.content,
         id: uniqueId,
-        level: segment.level!, // ! because we know it's a heading
-        body: "", // Will be filled by subsequent text segments
+        level: segment.level!,
+        body: "",
       });
-      currentHeadingBody = []; // Reset for the new heading
+      currentHeadingBody = [];
     } else if (segment.type === "text") {
       currentHeadingBody.push(segment.content);
     } else if (segment.type === "comment") {
@@ -223,23 +227,16 @@ function buildDocumentContent(rawContent: string): Docs["content"] {
     }
   });
 
-  // After iterating all segments, add any remaining body text to the LAST heading
   if (content.headings.length > 0) {
     content.headings[content.headings.length - 1].body = currentHeadingBody
       .join(" ")
       .trim();
   } else if (currentHeadingBody.length > 0 && inIntroduction) {
-    // If no headings found, all text is introduction
     content.introduction = currentHeadingBody.join(" ").trim();
     if (content.introduction === "") content.introduction = undefined;
   }
 
-  // Sort headings to ensure H1s come before H2s, etc. (though parsing order helps)
-  content.headings.sort((a, b) => {
-    // Primary sort by appearance (if needed based on `match.index` from parseRawContentToSegments)
-    // Secondary sort by level
-    return a.level - b.level; // Or combine with original position if stored in SubHeading
-  });
+  content.headings.sort((a, b) => a.level - b.level);
 
   return content;
 }
@@ -267,8 +264,6 @@ function generateUrl(relativePath: string): string {
   return `/${relativePath}`;
 }
 
-// --------------------------- File Processing & Database Build ---------------------------
-
 function shouldProcessFile(
   file: string,
   baseDir: string,
@@ -293,7 +288,6 @@ function processFile(file: string, baseDir: string): Docs | null {
 
     let relativePath: string = path.relative(baseDir, file).replace(/\\/g, "/");
 
-    // Determine if this is a folder (index.tsx) or file
     const isFolder = path.basename(file) === "index.tsx";
 
     if (isFolder) {
@@ -307,7 +301,6 @@ function processFile(file: string, baseDir: string): Docs | null {
     const title: string = generateTitle(file, rawContent);
     const documentContent = buildDocumentContent(rawContent);
 
-    // Derive section, levels, and parent from the ID/path
     const pathParts: string[] = id.split("/").filter(Boolean);
     const section: string | null = pathParts.length > 0 ? pathParts[0] : null;
     const levels: string[] = pathParts.slice(0, -1);
@@ -315,7 +308,6 @@ function processFile(file: string, baseDir: string): Docs | null {
     const parent: string | null =
       level > 0 ? pathParts.slice(0, level).join("/") : null;
 
-    // A folder (index.tsx) has children, a regular file does not
     const hasChildren = isFolder;
 
     const result: Docs = {
@@ -337,11 +329,8 @@ function processFile(file: string, baseDir: string): Docs | null {
   }
 }
 
-// --- Main Database Building Function ---
 function buildDatabase(): void {
-  console.log(
-    "🔍 Iniciando indexação e construção do banco de dados SQLite..."
-  );
+  console.log("🔍 Iniciando indexação e construção do banco de dados...");
 
   const targetDirs: string[] = [
     "canticos",
@@ -363,10 +352,10 @@ function buildDatabase(): void {
     console.log(`🗑️ Removido banco de dados existente: ${dbPath}`);
   }
 
-  const db: Database.Database = new Database(dbPath);
-  db.pragma("journal_mode = WAL");
+  const sqlite = new Database(dbPath);
+  const db = drizzle(sqlite);
 
-  db.exec(`
+  sqlite.exec(`
     CREATE TABLE IF NOT EXISTS docs (
       id TEXT PRIMARY KEY,
       title TEXT NOT NULL,
@@ -378,9 +367,22 @@ function buildDatabase(): void {
       content_json TEXT NOT NULL
     );
   `);
-  console.log("✅ Tabela 'docs' criada.");
 
-  db.exec(`
+  sqlite.exec(`
+    CREATE TABLE IF NOT EXISTS settings (
+      id INTEGER PRIMARY KEY,
+      font_size_multiplier REAL NOT NULL DEFAULT 1,
+      angelus_enabled INTEGER NOT NULL DEFAULT 1,
+      mass_enabled INTEGER NOT NULL DEFAULT 1,
+      novena_enabled INTEGER NOT NULL DEFAULT 1,
+      office_enabled INTEGER NOT NULL DEFAULT 0,
+      permission_requested INTEGER NOT NULL DEFAULT 0,
+      permission_soft_rejected INTEGER NOT NULL DEFAULT 0,
+      last_prompt_date TEXT
+    );
+  `);
+
+  sqlite.exec(`
     CREATE VIRTUAL TABLE docs_fts USING fts5(
       id,
       title,
@@ -389,7 +391,20 @@ function buildDatabase(): void {
       prefix = '2 3 4'
     );
   `);
-  console.log("✅ Tabela virtual 'docs_fts' (FTS5) criada.");
+
+  sqlite.exec(`
+    INSERT INTO settings (
+      font_size_multiplier,
+      angelus_enabled,
+      mass_enabled,
+      novena_enabled,
+      office_enabled,
+      permission_requested,
+      permission_soft_rejected
+    ) VALUES (1, 1, 1, 1, 0, 0, 0);
+  `);
+
+  console.log("✅ Tabelas docs, settings e docs_fts criadas");
 
   let files: string[] = [];
   for (const pattern of targetDirs.map((dir) =>
@@ -405,24 +420,15 @@ function buildDatabase(): void {
 
   console.log(`📁 Total de arquivos TSX a processar: ${files.length}`);
 
-  // Prepare insert statements
-  const insertDocStmt = db.prepare(
-    `INSERT INTO docs (id, title, url, level, section, parent, hasChildren, content_json)
-     VALUES (?, ?, ?, ?, ?, ?, ?, ?);`
-  );
-  const insertFTSStmt = db.prepare(
-    `INSERT INTO docs_fts (id, title, search_body) VALUES (?, ?, ?);`
-  );
+  const processedDocs: Docs[] = [];
 
-  db.transaction(() => {
-    const docs: Docs[] = [];
+  files.forEach((file) => {
+    const doc = processFile(file, baseDir);
+    if (doc) processedDocs.push(doc);
+  });
 
-    files.forEach((file) => {
-      const doc = processFile(file, baseDir);
-      if (doc) docs.push(doc);
-    });
-
-    docs.forEach((doc, index) => {
+  sqlite.transaction(() => {
+    processedDocs.forEach((doc, index) => {
       const fullSearchableBody = [
         doc.content.introduction,
         ...doc.content.headings.map((h) => `${h.title} ${h.body}`),
@@ -433,33 +439,37 @@ function buildDatabase(): void {
         .replace(/\s+/g, " ")
         .trim();
 
-      insertDocStmt.run(
-        doc.id,
-        doc.title,
-        doc.url,
-        doc.level,
-        doc.section || null,
-        doc.parent || null,
-        doc.hasChildren ? 1 : 0,
-        JSON.stringify(doc.content)
-      );
+      db.insert(docs)
+        .values({
+          id: doc.id,
+          title: doc.title,
+          url: doc.url,
+          level: doc.level,
+          section: doc.section,
+          parent: doc.parent,
+          hasChildren: doc.hasChildren,
+          contentJson: JSON.stringify(doc.content),
+        })
+        .run();
 
-      insertFTSStmt.run(doc.id, doc.title, fullSearchableBody);
+      sqlite
+        .prepare(
+          `INSERT INTO docs_fts (id, title, search_body) VALUES (?, ?, ?)`
+        )
+        .run(doc.id, doc.title, fullSearchableBody);
 
-      if ((index + 1) % 500 === 0 || index === docs.length - 1) {
-        console.log(`   Processados ${index + 1}/${docs.length} documentos...`);
+      if ((index + 1) % 500 === 0 || index === processedDocs.length - 1) {
+        console.log(
+          `   Processados ${index + 1}/${processedDocs.length} documentos...`
+        );
       }
     });
   })();
 
-  const docCountResult: { "COUNT(*)": number } = db
-    .prepare("SELECT COUNT(*) FROM docs")
-    .get() as { "COUNT(*)": number };
-  console.log(
-    `✅ Indexados ${docCountResult["COUNT(*)"]} documentos no SQLite.`
-  );
+  const docCount = db.select().from(docs).all().length;
+  console.log(`✅ Indexados ${docCount} documentos no SQLite.`);
 
-  db.close();
+  sqlite.close();
   console.log(`📊 Banco de dados SQLite criado com sucesso em: ${dbPath}`);
 }
 

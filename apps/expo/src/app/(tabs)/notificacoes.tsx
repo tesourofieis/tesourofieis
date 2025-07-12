@@ -266,7 +266,7 @@ const NotificationToggle = ({
             <Switch
               trackColor={{ false: COLORS["600"], true: COLORS["400"] }}
               thumbColor={enabled ? COLORS["200"] : COLORS["500"]}
-              ios_backgroundColor="#3e3e3e"
+              ios_backgroundColor={COLORS["500"]}
               onValueChange={toggle}
               value={enabled}
               accessibilityLabel={`Toggle ${title.toLowerCase()} notifications`}

@@ -319,32 +319,32 @@ export default function PageQuad63() {
           Venit autem dies azymórum, in qua necésse erat occídi pascha. Et misit
           Petrum et Joánnem, dicens: <Text className="cross"> ✠ </Text> Eúntes
           paráte nobis pascha, ut manducémus.{" "}
-          <Text className="font-bold text-red-600">C.</Text> At illi dixérunt:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Ubi vis parémus?{" "}
-          <Text className="font-bold text-red-600">C.</Text> Et dixit ad eos:{" "}
+          <Text className="font-bold text-red-500">C.</Text> At illi dixérunt:{" "}
+          <Text className="font-bold text-red-500">S.</Text> Ubi vis parémus?{" "}
+          <Text className="font-bold text-red-500">C.</Text> Et dixit ad eos:{" "}
           <Text className="cross"> ✠ </Text> Ecce, introëúntibus vobis in
           civitátem, occúrret vobis homo quidam ámphoram aquæ portans: sequímini
           eum in domum, in quam intrat, et dicétis patrifamílias domus: Dicit
           tibi Magister: Ubi est diversórium, ubi pascha cum discípulis meis
           mandúcem? Et ipse osténdet vobis cenáculum magnum stratum, et ibi
-          paráte. <Text className="font-bold text-red-600">C.</Text> Eúntes
+          paráte. <Text className="font-bold text-red-500">C.</Text> Eúntes
           autem invenérunt, sicut dixit illis, et paravérunt pascha.
         </Text>
         <Text className="vernacular">
           Entretanto, chegou o dia dos ázimos, em que devia ser imolada a
           Páscoa. Jesus enviou, pois, Pedro e João, dizendo:{" "}
           <Text className="cross"> ✠ </Text> «Ide preparar-nos Páscoa para a
-          comermos». <Text className="font-bold text-red-600">C.</Text> Eles
-          perguntaram-Lhe: <Text className="font-bold text-red-600">S.</Text>{" "}
+          comermos». <Text className="font-bold text-red-500">C.</Text> Eles
+          perguntaram-Lhe: <Text className="font-bold text-red-500">S.</Text>{" "}
           «Onde quereis que a preparemos?».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Ele respondeu-lhes:{" "}
+          <Text className="font-bold text-red-500">C.</Text> Ele respondeu-lhes:{" "}
           <Text className="cross"> ✠ </Text> «Logo que entrardes na cidade,
           encontrareis um homem, que levará um cântaro de água. Segui-o até à
           casa em que entrar, e direis ao pai de família dessa casa: «O Mestre
           manda dizer-te: «Onde está o aposento em que hei-de comer a Páscoa com
           meus discípulos?». Ele vos mostrará uma grande sala ornada. Preparai
           aí o que é preciso».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Indo eles,
+          <Text className="font-bold text-red-500">C.</Text> Indo eles,
           encontraram como Jesus lhes dissera e prepararam a Páscoa.
         </Text>
         <Text className="latin">
@@ -352,21 +352,21 @@ export default function PageQuad63() {
           ait illis: <Text className="cross"> ✠ </Text> Desidério desiderávi hoc
           pascha manducáre vobíscum, ántequam pátiar. Dico enim vobis, quia ex
           hoc non manducábo illud, donec impleátur in regno Dei.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Et accépto cálice,
+          <Text className="font-bold text-red-500">C.</Text> Et accépto cálice,
           grátias egit, et dixit: <Text className="cross"> ✠ </Text> Accípite,
           et divídite inter vos. Dico enim vobis, quod non bibam de generatióne
           vitis, donec regnum Dei véniat.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Et accépto pane,
+          <Text className="font-bold text-red-500">C.</Text> Et accépto pane,
           grátias egit, et fregit, et dedit eis, dicens:{" "}
           <Text className="cross"> ✠ </Text> Hoc est corpus meum, quod pro vobis
           datur: hoc fácite in meam commemoratiónem.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Simíliter et
+          <Text className="font-bold text-red-500">C.</Text> Simíliter et
           cálicem, postquam cenávit, dicens: <Text className="cross"> ✠ </Text>{" "}
           Hic est calix novum Testaméntum in sánguine meo, qui pro vobis
           fundétur. Verúmtamen ecce manus tradéntis me mecum est in mensa. Et
           quidem Fílius hóminis, secúndum quod definítum est, vadit: verúmtamen
           væ hómini illi, per quem tradétur.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Et ipsi cœpérunt
+          <Text className="font-bold text-red-500">C.</Text> Et ipsi cœpérunt
           quǽrere inter se, quis esset ex eis, qui hoc factúrus esset. Facta est
           autem et conténtio inter eos, quis eórum viderétur esse major. Dixit
           autem eis: <Text className="cross"> ✠ </Text> Reges géntium dominántur
@@ -378,30 +378,30 @@ export default function PageQuad63() {
           tentatiónibus meis. Et ego dispóno vobis, sicut dispósuit mihi Pater
           meus regnum, ut edátis et bibátis super mensam meam in regno meo: et
           sedeátis super thronos, judicántes duódecim tribus Israël.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Ait autem Dóminus:{" "}
+          <Text className="font-bold text-red-500">C.</Text> Ait autem Dóminus:{" "}
           <Text className="cross"> ✠ </Text> Simon, Simon, ecce, sátanas
           expetívit vos, ut cribráret sicut tríticum: ego autem rogávi pro te,
           ut non defíciat fides tua: et tu aliquándo convérsus confírma fratres
-          tuos. <Text className="font-bold text-red-600">C.</Text> Qui dixit ei:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Dómine, tecum
+          tuos. <Text className="font-bold text-red-500">C.</Text> Qui dixit ei:{" "}
+          <Text className="font-bold text-red-500">S.</Text> Dómine, tecum
           parátus sum, et in cárcerem et in mortem ire.{" "}
-          <Text className="font-bold text-red-600">C.</Text> At ille dixit:{" "}
+          <Text className="font-bold text-red-500">C.</Text> At ille dixit:{" "}
           <Text className="cross"> ✠ </Text> Dico tibi, Petre: Non cantábit
           hódie gallus, donec ter ábneges nosse me.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Et dixit eis:{" "}
+          <Text className="font-bold text-red-500">C.</Text> Et dixit eis:{" "}
           <Text className="cross"> ✠ </Text> Quando misi vos sine sǽculo et pera
           et calceaméntis, numquid aliquid défuit vobis?{" "}
-          <Text className="font-bold text-red-600">C.</Text> At illi dixérunt:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Nihil.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Dixit ergo eis:{" "}
+          <Text className="font-bold text-red-500">C.</Text> At illi dixérunt:{" "}
+          <Text className="font-bold text-red-500">S.</Text> Nihil.{" "}
+          <Text className="font-bold text-red-500">C.</Text> Dixit ergo eis:{" "}
           <Text className="cross"> ✠ </Text> Sed nunc, qui habet sǽculum, tollat
           simíliter et peram: et qui non habet, vendat túnicam suam, et emat
           gládium: Dico enim vobis, quóniam adhuc hoc, quod scriptum est,
           oportet impléri in me: Et cum iníquis deputátus est. Etenim ea, quæ
           sunt de me, finem habent.{" "}
-          <Text className="font-bold text-red-600">C.</Text> At illi dixérunt:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Dómine, ecce duo
-          gládii hic. <Text className="font-bold text-red-600">C.</Text> At ille
+          <Text className="font-bold text-red-500">C.</Text> At illi dixérunt:{" "}
+          <Text className="font-bold text-red-500">S.</Text> Dómine, ecce duo
+          gládii hic. <Text className="font-bold text-red-500">C.</Text> At ille
           dixit eis: <Text className="cross"> ✠ </Text> Satis est.
         </Text>
         <Text className="vernacular">
@@ -409,22 +409,22 @@ export default function PageQuad63() {
           disse-lhes: <Text className="cross"> ✠ </Text> «Tenho desejado
           ardentemente comer convosco esta Páscoa antes de morrer; pois,
           digo-vos, não tornarei mais a comê-la, até que ela se cumpra no reino
-          de Deus». <Text className="font-bold text-red-600">C.</Text> Logo,
+          de Deus». <Text className="font-bold text-red-500">C.</Text> Logo,
           segurando no cálice, deu graças a Deus e disse:{" "}
           <Text className="cross"> ✠ </Text> «Tomai e distribuí-o entre vós,
           porque, digo-vos, não beberei mais do fruto da videira até que venha o
-          reino de Deus». <Text className="font-bold text-red-600">C.</Text> E,
+          reino de Deus». <Text className="font-bold text-red-500">C.</Text> E,
           havendo segurado no pão, deu graças, partiu-o e deu-lho, dizendo:{" "}
           <Text className="cross"> ✠ </Text> «Isto é o meu corpo, que se dá por
           vós. Fazei isto em memória de mim».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Tomou, também,
+          <Text className="font-bold text-red-500">C.</Text> Tomou, também,
           igualmente, o cálice, depois de cear, e disse:{" "}
           <Text className="cross"> ✠ </Text> «Este cálice é o Novo Testamento no
           meu sangue que será derramado por vós. Entretanto, eis que a mão do
           que me há-de entregar está comigo à mesa. Na verdade, o Filho do homem
           vai morrer, segundo o que está determinado; mas infeliz do homem por
           quem Ele há-de ser entregue!».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Então começaram a
+          <Text className="font-bold text-red-500">C.</Text> Então começaram a
           perguntar uns aos outros qual seria o que faria tal coisa?! E
           levantou-se entre os Apóstolos uma contenda para saber qual deles se
           devia julgar o maior. Porém, Jesus disse-lhes:{" "}
@@ -438,132 +438,132 @@ export default function PageQuad63() {
           tentações; por isso vos preparo um reino, como meu Pai o preparou para
           mim, para que possais comer e beber à minha mesa no meu reino, e vos
           assenteis em tronos, julgando as doze tribos de Israel».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Disse, então, o
+          <Text className="font-bold text-red-500">C.</Text> Disse, então, o
           Senhor: <Text className="cross"> ✠ </Text> «Simão, Simão, eis que
           Satanás vos tenta com instância para vos joeirar, como trigo; mas
           supliquei por ti, para que a tua fé não desfaleça; e tu, depois de te
           converteres, confirma os teus irmãos».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Pedro
-          respondeu-Lhe: <Text className="font-bold text-red-600">S.</Text>{" "}
+          <Text className="font-bold text-red-500">C.</Text> Pedro
+          respondeu-Lhe: <Text className="font-bold text-red-500">S.</Text>{" "}
           «Senhor, estou pronto para ir convosco, quer para o cárcere, quer para
-          a morte». <Text className="font-bold text-red-600">C.</Text> Ao que
+          a morte». <Text className="font-bold text-red-500">C.</Text> Ao que
           Jesus lhe respondeu: <Text className="cross"> ✠ </Text> «Digo-te,
           Pedro: não cantará hoje o galo sem que tu digas três vezes que me não
-          conheces!». <Text className="font-bold text-red-600">C.</Text> E
+          conheces!». <Text className="font-bold text-red-500">C.</Text> E
           continuou a dizer-lhes: <Text className="cross"> ✠ </Text> «Quando vos
           enviei sem saco, nem bolsa, nem sapatos, porventura vos faltou alguma
-          coisa?». <Text className="font-bold text-red-600">C.</Text>{" "}
+          coisa?». <Text className="font-bold text-red-500">C.</Text>{" "}
           Responderam-Lhe eles:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Nada».{" "}
-          <Text className="font-bold text-red-600">C.</Text> E prosseguiu:{" "}
+          <Text className="font-bold text-red-500">S.</Text> «Nada».{" "}
+          <Text className="font-bold text-red-500">C.</Text> E prosseguiu:{" "}
           <Text className="cross"> ✠ </Text> «Pois, agora, quem tem bolsa que a
           tome; e o mesmo quem tem saco; e aquele que o não tem venda a túnica
           para comprar espada; pois Eu vo-lo digo: é necessário que se cumpra em
           mim o que está escrito: «foi julgado como os malfeitores». Porquanto,
           as coisas que foram ditas a meu respeito aproximam-se do seu fim».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Eles, porém,
-          disseram-Lhe: <Text className="font-bold text-red-600">S.</Text>{" "}
+          <Text className="font-bold text-red-500">C.</Text> Eles, porém,
+          disseram-Lhe: <Text className="font-bold text-red-500">S.</Text>{" "}
           «Senhor, estão aqui duas espadas».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Jesus
+          <Text className="font-bold text-red-500">C.</Text> Jesus
           respondeu-lhes: <Text className="cross"> ✠ </Text> «Basta!».
         </Text>
         <Text className="latin">
-          <Text className="font-bold text-red-600">C.</Text> Et egréssus ibat
+          <Text className="font-bold text-red-500">C.</Text> Et egréssus ibat
           secúndum consuetúdinem in montem Olivárum. Secúti sunt autem illum et
           discípuli. Et cum pervenísset ad locum, dixit illis:{" "}
           <Text className="cross"> ✠ </Text> Oráte, ne intrétis in tentatiónem.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Et ipse avúlsus est
+          <Text className="font-bold text-red-500">C.</Text> Et ipse avúlsus est
           ab eis, quantum jactus est lápidis, et pósitis génibus orábat, dicens:{" "}
           <Text className="cross"> ✠ </Text> Pater, si vis, transfer cálicem
           istum a me: verúmtamen non mea volúntas, sed tua fiat.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Appáruit autem illi
+          <Text className="font-bold text-red-500">C.</Text> Appáruit autem illi
           Angelus de cœlo, confórtans eum. Et factus in agónia, prolíxius
           orábat. Et factus est sudor ejus, sicut guttæ sánguinis decurréntis in
           terram. Et cum surrexísset ab oratióne, et venísset ad discípulos
           suos, invénit eos dormiéntes præ tristítia. Et ait illis:{" "}
           <Text className="cross"> ✠ </Text> Quid dormítis? súrgite, oráte, ne
           intrétis in tentatiónem.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Adhuc eo loquénte,
+          <Text className="font-bold text-red-500">C.</Text> Adhuc eo loquénte,
           ecce turba: et qui vocabátur Judas, unus de duódecim, antecedébat eos:
           et appropinquávit Jesu, ut oscularétur eum. Jesus autem dixit illi:{" "}
           <Text className="cross"> ✠ </Text> Juda, ósculo Fílium hóminis tradis?{" "}
-          <Text className="font-bold text-red-600">C.</Text> Vidéntes autem hi,
+          <Text className="font-bold text-red-500">C.</Text> Vidéntes autem hi,
           qui circa ipsum erant, quod futúrum erat, dixérunt ei:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Dómine, si
+          <Text className="font-bold text-red-500">S.</Text> Dómine, si
           percútimus in gladio?{" "}
-          <Text className="font-bold text-red-600">C.</Text> Et percússit unus
+          <Text className="font-bold text-red-500">C.</Text> Et percússit unus
           ex illis servum príncipis sacerdótum, et amputávit aurículam ejus
           déxteram. Respóndens autem Jesus, ait:{" "}
           <Text className="cross"> ✠ </Text> Sínite usque huc.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Et cum tetigísset
+          <Text className="font-bold text-red-500">C.</Text> Et cum tetigísset
           aurículam ejus, sanávit eum. Dixit autem Jesus ad eos, qui vénerant ad
           se, príncipes sacerdótum et magistrátus templi et senióres:{" "}
           <Text className="cross"> ✠ </Text> Quasi ad latrónem exístis cum
           gládiis et fústibus? Cum cotídie vobíscum fúerim in templo, non
           extendístis manus in me: sed hæc est hora vestra et potéstas
-          tenebrárum. <Text className="font-bold text-red-600">C.</Text>{" "}
+          tenebrárum. <Text className="font-bold text-red-500">C.</Text>{" "}
           Comprehendéntes autem eum, duxérunt ad domum príncipis sacerdótum:
           Petrus vero sequebátur a longe.
         </Text>
         <Text className="vernacular">
-          <Text className="font-bold text-red-600">C.</Text> Havendo Jesus
+          <Text className="font-bold text-red-500">C.</Text> Havendo Jesus
           saído, dirigiu-se, segundo o costume, ao monte das Oliveiras,
           acompanhado dos discípulos. Quando chegou àquele lugar, disse-lhes:{" "}
           <Text className="cross"> ✠ </Text> «Orai, para que não entreis em
-          tentação». <Text className="font-bold text-red-600">C.</Text> Depois
+          tentação». <Text className="font-bold text-red-500">C.</Text> Depois
           afastou-se deles, à distância de um tiro de pedra, e, posto de
           joelhos, orava, dizendo: <Text className="cross"> ✠ </Text> «Pai, se é
           do vosso agrado, afastai de mim este cálice! Mas que se não faça a
           minha vontade, e sim a vossa».{" "}
-          <Text className="font-bold text-red-600">C.</Text>E apareceu-Lhe um
+          <Text className="font-bold text-red-500">C.</Text>E apareceu-Lhe um
           Anjo do céu, que o confortava. Entrando na agonia, rezava mais
           instantemente. Veio-lhe um suor, como gotas de sangue, que corria até
           à terra. Levantando-se da oração, veio ter com os discípulos, que
           achou dormindo, por causa da tristeza, e disse-lhes: «Porque dormis?
           Erguei-vos; orai, para não cairdes em tentação».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Ainda Jesus falava,
+          <Text className="font-bold text-red-500">C.</Text> Ainda Jesus falava,
           quando veio ter com Ele uma multidão de gente, na frente da qual vinha
           Judas, um dos Doze, que se aproximou de Jesus para o beijar. Jesus
           disse-lhe: <Text className="cross"> ✠ </Text> «Judas, com um ósculo
           entregas o Filho do homem?!».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Então, os que
+          <Text className="font-bold text-red-500">C.</Text> Então, os que
           estavam com Jesus, vendo o que ia acontecer, disseram-Lhe:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Senhor,
+          <Text className="font-bold text-red-500">S.</Text> «Senhor,
           passemo-los à espada?».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Logo um deles feriu
+          <Text className="font-bold text-red-500">C.</Text> Logo um deles feriu
           um servo do sumo sacerdote, cortando-lhe a orelha direita. Porém,
           Jesus, respondendo, disse: <Text className="cross"> ✠ </Text>{" "}
           «Deixai-os por agora».{" "}
-          <Text className="font-bold text-red-600">C.</Text> E, havendo tocado
+          <Text className="font-bold text-red-500">C.</Text> E, havendo tocado
           na orelha do ferido, sarou-o. Depois, dirigindo-se aos que tinham
           vindo contra Ele - príncipes dos sacerdotes, magistrados do templo e
           anciãos - continuou: <Text className="cross"> ✠ </Text> «Viestes com
           espadas e paus, como se Eu fora um ladrão? Quando estava todos os dias
           convosco no templo nunca ousastes pôr-me a mão; mas agora eis que
           chega a vossa hora e a do poder das trevas».{" "}
-          <Text className="font-bold text-red-600">C.</Text> E prenderam-n’O,
+          <Text className="font-bold text-red-500">C.</Text> E prenderam-n’O,
           conduzindo-O para casa do sumo sacerdote. Pedro seguia-O de longe.
         </Text>
         <Text className="latin">
           Accénso autem igne in médio átrii, et circumsedéntibus illis, erat
           Petrus in médio eórum. Quem cum vidísset ancílla quædam sedéntem ad
           lumen, et eum fuísset intúita, dixit:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Et hic cum illo
-          erat. <Text className="font-bold text-red-600">C.</Text> At ille
+          <Text className="font-bold text-red-500">S.</Text> Et hic cum illo
+          erat. <Text className="font-bold text-red-500">C.</Text> At ille
           negávit eum, dicens:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Múlier, non novi
-          illum. <Text className="font-bold text-red-600">C.</Text> Et post
+          <Text className="font-bold text-red-500">S.</Text> Múlier, non novi
+          illum. <Text className="font-bold text-red-500">C.</Text> Et post
           pusíllum álius videns eum, dixit:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Et tu de illis es.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Petrus vero ait:{" "}
-          <Text className="font-bold text-red-600">S.</Text>O homo, non sum.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Et intervállo facto
+          <Text className="font-bold text-red-500">S.</Text> Et tu de illis es.{" "}
+          <Text className="font-bold text-red-500">C.</Text> Petrus vero ait:{" "}
+          <Text className="font-bold text-red-500">S.</Text>O homo, non sum.{" "}
+          <Text className="font-bold text-red-500">C.</Text> Et intervállo facto
           quasi horæ uníus, álius quidam affirmábat, dicens:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Vere et hic cum
+          <Text className="font-bold text-red-500">S.</Text> Vere et hic cum
           illo erat: nam et Galilǽus est.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Et ait Petrus:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Homo, néscio, quid
-          dicis. <Text className="font-bold text-red-600">C.</Text> Et contínuo
+          <Text className="font-bold text-red-500">C.</Text> Et ait Petrus:{" "}
+          <Text className="font-bold text-red-500">S.</Text> Homo, néscio, quid
+          dicis. <Text className="font-bold text-red-500">C.</Text> Et contínuo
           adhuc illo loquénte cantávit gallus. Et convérsus Dóminus respéxit
           Petrum. Et recordátus est Petrus verbi Dómini, sicut díxerat: Quia
           priúsquam gallus cantet, ter me negábis. Et egréssus foras Petrus
@@ -572,22 +572,22 @@ export default function PageQuad63() {
         <Text className="vernacular">
           Acenderam fogo no meio do pátio e assentaram-se em torno. Pedro estava
           no meio de todos. Viu-o uma criada, e, olhando-o fixamente, disse:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Este também estava
-          com Ele». <Text className="font-bold text-red-600">C.</Text> Pedro
-          negou, dizendo: <Text className="font-bold text-red-600">S.</Text>{" "}
+          <Text className="font-bold text-red-500">S.</Text> «Este também estava
+          com Ele». <Text className="font-bold text-red-500">C.</Text> Pedro
+          negou, dizendo: <Text className="font-bold text-red-500">S.</Text>{" "}
           «Mulher, não O conheço».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Passado pouco
+          <Text className="font-bold text-red-500">C.</Text> Passado pouco
           tempo, um outro, vendo-o, disse:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Tu também és dos
-          deles». <Text className="font-bold text-red-600">C.</Text> E Pedro
-          respondeu: <Text className="font-bold text-red-600">S.</Text> «Ó
-          homem, não sou». <Text className="font-bold text-red-600">C.</Text>{" "}
+          <Text className="font-bold text-red-500">S.</Text> «Tu também és dos
+          deles». <Text className="font-bold text-red-500">C.</Text> E Pedro
+          respondeu: <Text className="font-bold text-red-500">S.</Text> «Ó
+          homem, não sou». <Text className="font-bold text-red-500">C.</Text>{" "}
           Passado um intervalo, cerca de uma hora, afirmou outro, dizendo:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Com certeza este
+          <Text className="font-bold text-red-500">S.</Text> «Com certeza este
           estava também com Ele, pois é galileu».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Pedro disse:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Homem, não sei o
-          que dizes». <Text className="font-bold text-red-600">C.</Text> No
+          <Text className="font-bold text-red-500">C.</Text> Pedro disse:{" "}
+          <Text className="font-bold text-red-500">S.</Text> «Homem, não sei o
+          que dizes». <Text className="font-bold text-red-500">C.</Text> No
           mesmo instante cantou o galo; e, voltando-se o Senhor, fitou Pedro.
           Então lembrou-se este da palavra que o Senhor lhe havia dito: «Antes
           de o galo cantar, negar-me-ás três vezes». E, saindo do pátio, começou
@@ -596,87 +596,87 @@ export default function PageQuad63() {
         <Text className="latin">
           Et viri, qui tenébant illum, illudébant ei, cædéntes. Et velavérunt
           eum et percutiébant fáciem ejus: et interrogábant eum, dicéntes:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Prophetíza, quis
+          <Text className="font-bold text-red-500">S.</Text> Prophetíza, quis
           est, qui te percússit?{" "}
-          <Text className="font-bold text-red-600">C.</Text> Et alia multa
+          <Text className="font-bold text-red-500">C.</Text> Et alia multa
           blasphemántes dicébant in eum. Et ut factus est dies, convenérunt
           senióres plebis et príncipes sacerdótum et scribæ, et duxérunt illum
           in concílium suum, dicente?{" "}
-          <Text className="font-bold text-red-600">S.</Text> Si tu es Christus,
-          dic nobis. <Text className="font-bold text-red-600">C.</Text> Et ait
+          <Text className="font-bold text-red-500">S.</Text> Si tu es Christus,
+          dic nobis. <Text className="font-bold text-red-500">C.</Text> Et ait
           illis: <Text className="cross"> ✠ </Text> Si vobis díxero, non
           credétis mihi: si autem et interrogávero, non respondébitis mihi,
-          neque dimítte ti <Text className="font-bold text-red-600">S.</Text> Ex
+          neque dimítte ti <Text className="font-bold text-red-500">S.</Text> Ex
           hoc autem erit Fílius hóminis sedens a dextris virtútis Dei.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Dixérunt autem
-          omnes: <Text className="font-bold text-red-600">S.</Text> Tu ergo es
-          Fílius Dei? <Text className="font-bold text-red-600">C.</Text> Qui
+          <Text className="font-bold text-red-500">C.</Text> Dixérunt autem
+          omnes: <Text className="font-bold text-red-500">S.</Text> Tu ergo es
+          Fílius Dei? <Text className="font-bold text-red-500">C.</Text> Qui
           ait: <Text className="cross"> ✠ </Text> Vos dicitis, quia ego sum.{" "}
-          <Text className="font-bold text-red-600">C.</Text> At illi dixérunt:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Quid adhuc de sider
+          <Text className="font-bold text-red-500">C.</Text> At illi dixérunt:{" "}
+          <Text className="font-bold text-red-500">S.</Text> Quid adhuc de sider
           ámus te stimónium? Ipsi enim audívimus de ore ejus.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Et surgens omnis
+          <Text className="font-bold text-red-500">C.</Text> Et surgens omnis
           multitúdo eórum, duxérunt illum ad Pilátum. Cœpérunt autem illum
-          accusáre, dicéntes: <Text className="font-bold text-red-600">S.</Text>{" "}
+          accusáre, dicéntes: <Text className="font-bold text-red-500">S.</Text>{" "}
           Hunc invénimus subverténtem gentem nostram, et prohibéntem tribúta
           dare Cǽsari, et dicéntem se Christum regem esse.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Pilátus autem
+          <Text className="font-bold text-red-500">C.</Text> Pilátus autem
           interrogávit eum, dicens:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Tu es Rex Judæórum?{" "}
-          <Text className="font-bold text-red-600">C.</Text> At ille respóndens,
+          <Text className="font-bold text-red-500">S.</Text> Tu es Rex Judæórum?{" "}
+          <Text className="font-bold text-red-500">C.</Text> At ille respóndens,
           ait: <Text className="cross"> ✠ </Text> Tu dicis.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Ait autem Pilátus
+          <Text className="font-bold text-red-500">C.</Text> Ait autem Pilátus
           ad príncipes sacerdótum et turbas:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Nihil invénio causæ
-          in hoc hómine. <Text className="font-bold text-red-600">C.</Text> At
+          <Text className="font-bold text-red-500">S.</Text> Nihil invénio causæ
+          in hoc hómine. <Text className="font-bold text-red-500">C.</Text> At
           illi invalescébant, dicéntes:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Cómmovet pópulum,
+          <Text className="font-bold text-red-500">S.</Text> Cómmovet pópulum,
           docens per univérsam Judǽam, incípiens a Galilǽa usque huc.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Pilátus autem
+          <Text className="font-bold text-red-500">C.</Text> Pilátus autem
           áudiens Galilǽam, interrogávit, si homo Galilǽus esset.
         </Text>
         <Text className="vernacular">
           Entretanto, aqueles que haviam prendido Jesus, escarneciam d’Ele,
           batendo-Lhe. Vendaram-Lhe os olhos, batiam-Lhe no rosto e
           interrogavam-n’O, dizendo:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Adivinha quem te
-          bateu?». <Text className="font-bold text-red-600">C.</Text> Proferiram
+          <Text className="font-bold text-red-500">S.</Text> «Adivinha quem te
+          bateu?». <Text className="font-bold text-red-500">C.</Text> Proferiram
           também muitas blasfémias contra Ele. De manhã cedo reuniram-se os
           anciãos do povo, os príncipes dos sacerdotes e os escribas e levaram
           Jesus a esse conselho, dizendo:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Se tu és o Cristo,
-          diz-no-lo». <Text className="font-bold text-red-600">C.</Text> Jesus
+          <Text className="font-bold text-red-500">S.</Text> «Se tu és o Cristo,
+          diz-no-lo». <Text className="font-bold text-red-500">C.</Text> Jesus
           respondeu: <Text className="cross"> ✠ </Text> «Se vo-lo disser, me não
           acreditareis; e, se vos interrogar, me não respondereis, nem me
           deixareis ir embora. Contudo, depois disto, assentar-se-á o Filho do
           homem à direita do poder de Deus».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Disseram então
-          todos: <Text className="font-bold text-red-600">S.</Text> «Portanto,
+          <Text className="font-bold text-red-500">C.</Text> Disseram então
+          todos: <Text className="font-bold text-red-500">S.</Text> «Portanto,
           és tu Filho de Deus?».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Ele respondeu:{" "}
+          <Text className="font-bold text-red-500">C.</Text> Ele respondeu:{" "}
           <Text className="cross"> ✠ </Text> «Vós dizeis que eu o sou».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Continuaram eles:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Que mais provas
+          <Text className="font-bold text-red-500">C.</Text> Continuaram eles:{" "}
+          <Text className="font-bold text-red-500">S.</Text> «Que mais provas
           queremos? Ouvimo-lo, dito pela sua boca».{" "}
-          <Text className="font-bold text-red-600">C.</Text> E toda a assembleia
+          <Text className="font-bold text-red-500">C.</Text> E toda a assembleia
           se levantou, conduzindo Jesus à presença de Pilatos. Começaram então a
           acusar Jesus, dizendo:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Encontrámos este
+          <Text className="font-bold text-red-500">S.</Text> «Encontrámos este
           homem sublevando a nossa nação, proibindo que se pague o tributo a
           César e dizendo que é o Cristo-Rei».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Pilatos
-          interrogou-O: <Text className="font-bold text-red-600">S.</Text> «Sois
-          o Rei dos judeus?». <Text className="font-bold text-red-600">C.</Text>{" "}
+          <Text className="font-bold text-red-500">C.</Text> Pilatos
+          interrogou-O: <Text className="font-bold text-red-500">S.</Text> «Sois
+          o Rei dos judeus?». <Text className="font-bold text-red-500">C.</Text>{" "}
           Jesus respondeu: <Text className="cross"> ✠ </Text> «Tu o dizes».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Então disse Pilatos
+          <Text className="font-bold text-red-500">C.</Text> Então disse Pilatos
           aos príncipes dos sacerdotes e ao povo:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Eu não encontro
+          <Text className="font-bold text-red-500">S.</Text> «Eu não encontro
           crime algum neste homem».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Porém, eles
-          insistiam, dizendo: <Text className="font-bold text-red-600">S.</Text>{" "}
+          <Text className="font-bold text-red-500">C.</Text> Porém, eles
+          insistiam, dizendo: <Text className="font-bold text-red-500">S.</Text>{" "}
           «Subleva o povo com a doutrina que ensina em toda a Judeia, começando
           na Galileia até aqui».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Ouvindo Pilatos
+          <Text className="font-bold text-red-500">C.</Text> Ouvindo Pilatos
           falar na Galileia, perguntou se este homem era galileu. Sabendo, pois,
           que pertencia à jurisdição de Herodes, remeteu-O a este, que se
           encontrava em Jerusalém naquele dia.
@@ -693,26 +693,26 @@ export default function PageQuad63() {
           sunt amíci Heródes et Pilátus in ipsa die: nam ántea inimíci erant ad
           ínvicem. Pilátus autem, convocátis princípibus sacerdótum et
           magistrátibus et plebe, dixit ad illos:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Obtulístis mihi
+          <Text className="font-bold text-red-500">S.</Text> Obtulístis mihi
           hunc hóminem, quasi averténtem pópulum, et ecce, ego coram vobis
           intérrogans, nullam causam invéni in hómine isto ex his, in quibus eum
           accusátis. Sed neque Heródes: nam remísi vos ad illum, et ecce, nihil
           dignum morte actum est ei. Emendátum ergo illum dimíttam.{" "}
-          <Text className="font-bold text-red-600">C. </Text> Necésse autem
+          <Text className="font-bold text-red-500">C. </Text> Necésse autem
           habébat dimíttere eis per diem festum, unum. Exclamávit autem simul
           univérsa turba, dicens:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Tolle hunc, et
+          <Text className="font-bold text-red-500">S.</Text> Tolle hunc, et
           dimítte nobis Barábbam.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Qui erat propter
+          <Text className="font-bold text-red-500">C.</Text> Qui erat propter
           seditiónem quandam fáciam in civitáte et homicídium missus in
           cárcerem. Iterum autem Pilátus locútus est ad eos, volens dimíttere
           Jesum. At illi succlamábant, dicéntes:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Crucifíge,
-          crucifíge eum. <Text className="font-bold text-red-600">C.</Text> Ille
+          <Text className="font-bold text-red-500">S.</Text> Crucifíge,
+          crucifíge eum. <Text className="font-bold text-red-500">C.</Text> Ille
           autem tértio dixit ad illos:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Quid enim mali
+          <Text className="font-bold text-red-500">S.</Text> Quid enim mali
           fecit iste? Nullam causam mortis invénio in eo: corrípiam ergo illum
-          et dimíttam. <Text className="font-bold text-red-600">C.</Text> At
+          et dimíttam. <Text className="font-bold text-red-500">C.</Text> At
           illi instábant vócibus magnis, postulántes, ut crucifigerétur. Et
           invalescébant voces eórum. Et Pilátus adjudicávit fíeri petitiónem
           eórum. Dimísit autem illis eum, qui propter homicídium et seditiónem
@@ -730,26 +730,26 @@ export default function PageQuad63() {
           Neste dia reconciliaram-se Herodes e Pilatos e tornaram-se amigos,
           pois até então eram inimigos. Logo, Pilatos reuniu os príncipes dos
           sacerdotes, os magistrados e o povo, dizendo:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Apresentastes-me
+          <Text className="font-bold text-red-500">S.</Text> «Apresentastes-me
           este homem como desorientador do povo; ora, interrugando-O diante de
           vós, lhe não encontrei nenhum dos crimes de que O acusais. Do mesmo
           modo Herodes (pois bem sabeis que lh’O enviei) nada apurou contra Ele
           que mereça o castigo de morte. Vou, pois, castigá-l’O, mas depois
-          libertá-l’O-ei». <Text className="font-bold text-red-600">C.</Text>{" "}
+          libertá-l’O-ei». <Text className="font-bold text-red-500">C.</Text>{" "}
           Pilatos estava obrigado pela Páscoa a soltar um criminoso. E toda a
           multidão começou a gritar ao mesmo tempo;{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Condena este e
-          solta Barrabás». <Text className="font-bold text-red-600">C.</Text>{" "}
+          <Text className="font-bold text-red-500">S.</Text> «Condena este e
+          solta Barrabás». <Text className="font-bold text-red-500">C.</Text>{" "}
           Havia Barrabás sido preso por causa de uma sedição que se fizera na
           cidade e de um homicídio. Novamente Pilatos, querendo soltar Jesus,
           lhes falou; porém, a multidão gritava cada vez mais, dizendo:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Crucificai-O,
-          crucificai-O!». <Text className="font-bold text-red-600">C.</Text>{" "}
+          <Text className="font-bold text-red-500">S.</Text> «Crucificai-O,
+          crucificai-O!». <Text className="font-bold text-red-500">C.</Text>{" "}
           Pela terceira vez disse-lhes Pilatos:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Pois que mal fez
+          <Text className="font-bold text-red-500">S.</Text> «Pois que mal fez
           Ele? Não encontro n’Ele nada que mereça a morte. Contudo,
           castigá-l’O-ei, e depois soltá-l’O-ei».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Porém, eles
+          <Text className="font-bold text-red-500">C.</Text> Porém, eles
           instantemente clamavam, pedindo que fosse crucificado, sendo o clamor
           cada vez mais forte. Pilatos ordenou então que se fizesse como pediam,
           soltando o que estava no cárcere por causa do crime de homicídio e
@@ -767,43 +767,43 @@ export default function PageQuad63() {
           genuérunt, et úbera, quæ non lactavérunt. Tunc incípient dícere
           móntibus: Cádite super nos; et cóllibus: Operíte nos. Quia si in
           víridi ligno hæc fáciunt, in árido quid fiet?{" "}
-          <Text className="font-bold text-red-600">C.</Text> Ducebántur autem et
+          <Text className="font-bold text-red-500">C.</Text> Ducebántur autem et
           alii duo nequam cum eo, ut interficeréntur. Et postquam venérunt in
           locum, qui vocátur Calváriæ, ibi crucifixérunt eum: et latrónes, unum
           a dextris et álterum a sinístris. Jesus autem dicebat:{" "}
           <Text className="cross"> ✠ </Text> Pater, dimítte illis: non enim
           sciunt, quid fáciunt.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Dividéntes vero
+          <Text className="font-bold text-red-500">C.</Text> Dividéntes vero
           vestiménta ejus, misérunt sortes. Et stabat pópulus spectans, et
           deridébant eum príncipes cum eis, dicéntes:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Alios salvos fecit:
+          <Text className="font-bold text-red-500">S.</Text> Alios salvos fecit:
           se salvum fáciat, si hic est Christus Dei electus.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Illudébant autem ei
+          <Text className="font-bold text-red-500">C.</Text> Illudébant autem ei
           et mílites accedéntes, et acétum offeréntes ei, et dicéntes:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Si tu es Rex
+          <Text className="font-bold text-red-500">S.</Text> Si tu es Rex
           Judæórum, salvum te fac.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Erat autem et
+          <Text className="font-bold text-red-500">C.</Text> Erat autem et
           superscríptio scripta super eum lítteris græcis et latínis et
           hebráicis: Hic est Rex Judæórum. Unus autem de his, qui pendébant,
           latrónibus, blasphemábat eum, dicens:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Si tu es Christus,
+          <Text className="font-bold text-red-500">S.</Text> Si tu es Christus,
           salvum fac temetípsum, et nos.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Respóndens autem
+          <Text className="font-bold text-red-500">C.</Text> Respóndens autem
           alter increpábat eum, dicens:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Neque tu times
+          <Text className="font-bold text-red-500">S.</Text> Neque tu times
           Deum, quod in eadem damnatióne es. Et nos quidem juste, nam digna
           factis recípimus: hic vero nihil mali gessit.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Et dicebat ad
-          Jesum: <Text className="font-bold text-red-600">S.</Text> Dómine,
+          <Text className="font-bold text-red-500">C.</Text> Et dicebat ad
+          Jesum: <Text className="font-bold text-red-500">S.</Text> Dómine,
           meménto mei, cum véneris in regnum tuum.{" "}
-          <Text className="font-bold text-red-600">C.</Text> Et dixit illi
+          <Text className="font-bold text-red-500">C.</Text> Et dixit illi
           Jesus: <Text className="cross"> ✠ </Text> Amen, dico tibi: Hódie mecum
-          eris in paradíso. <Text className="font-bold text-red-600">C.</Text>{" "}
+          eris in paradíso. <Text className="font-bold text-red-500">C.</Text>{" "}
           Erat autem fere hora sexta, et ténebræ factæ sunt in univérsam terram
           usque in horam nonam. Et obscurátus est sol: et velum templi scissum
           est médium. Et clamans voce magna Jesus, ait:{" "}
           <Text className="cross"> ✠ </Text> Pater, in manus tuas comméndo
-          spíritum meum. <Text className="font-bold text-red-600">C.</Text> Et
+          spíritum meum. <Text className="font-bold text-red-500">C.</Text> Et
           hæc dicens, exspirávit. Levando-O eles já, detiveram um certo Simão,
           de Cirene, que vinha de uma propriedade, e puseram-lhe aos ombros a
           cruz para a levar atrás de Jesus. Seguia-O uma grande multidão de povo
@@ -814,45 +814,45 @@ export default function PageQuad63() {
           que não geraram e os peitos que não amamentaram! Então começarão a
           dizer às montanhas: caí em cima de nós! E às colinas: cobri-nos!
           Porquanto, se a lenha verde é tratada assim, que acontecerá com a
-          lenha seca?!» <Text className="font-bold text-red-600">C.</Text> Os
+          lenha seca?!» <Text className="font-bold text-red-500">C.</Text> Os
           soldados conduziam também com Ele dois malfeitores, para lhes dar a
           morte. Chegados que foram ao Calvário, crucificaram-n’O, assim como
           aos ladrões, ficando um à direita e o outro à esquerda. E Jesus dizia:{" "}
           <Text className="cross"> ✠ </Text> «Pai, perdoai-lhes, porque não
-          sabem o que fazem». <Text className="font-bold text-red-600">C.</Text>{" "}
+          sabem o que fazem». <Text className="font-bold text-red-500">C.</Text>{" "}
           Depois, dividiram os seus vestidos, tirando-os à sorte. O povo estava
           voltado para Jesus, olhando-O, e os príncipes dos sacerdotes
           juntavam-se com outros do povo para O escarnecerem, dizendo:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Salvou os outros;
+          <Text className="font-bold text-red-500">S.</Text> «Salvou os outros;
           que se salve, pois, a si mesmo, se porventura é o Cristo, escolhido de
-          Deus». <Text className="font-bold text-red-600">C.</Text> Os soldados
+          Deus». <Text className="font-bold text-red-500">C.</Text> Os soldados
           mofavam também d’Ele, oferecendo-Lhe vinagre e dizendo:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Se sois o Rei dos
+          <Text className="font-bold text-red-500">S.</Text> «Se sois o Rei dos
           judeus, salvai-Vos».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Por cima da sua
+          <Text className="font-bold text-red-500">C.</Text> Por cima da sua
           cabeça estava esta inscrição, escrita em letras gregas, latinas e
           hebraicas: «Este é o Rei dos judeus!». Um dos ladrões que estavam
           pendurados blasfemava contra Ele, dizendo:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Se sois o Cristo,
+          <Text className="font-bold text-red-500">S.</Text> «Se sois o Cristo,
           salvai-Vos a Vós e salvai-nos a nós».{" "}
-          <Text className="font-bold text-red-600">C.</Text> E o outro
+          <Text className="font-bold text-red-500">C.</Text> E o outro
           repreendia-o, dizendo:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Não tendes temor
+          <Text className="font-bold text-red-500">S.</Text> «Não tendes temor
           de Deus, nem ainda condenado ao suplício?! Na verdade, fomos
           condenados com justiça, pois recebemos o que as nossas acções merecem;
           mas Ele não fez mal algum».{" "}
-          <Text className="font-bold text-red-600">C.</Text> E dizia a Jesus:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Senhor,
+          <Text className="font-bold text-red-500">C.</Text> E dizia a Jesus:{" "}
+          <Text className="font-bold text-red-500">S.</Text> «Senhor,
           lembrai-Vos de mim quando entrardes no vosso reino!».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Jesus
+          <Text className="font-bold text-red-500">C.</Text> Jesus
           respondeu-lhe: <Text className="cross"> ✠ </Text> «Em verdade te digo:
           hoje estarás comigo no Paraíso».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Era quase a hora
+          <Text className="font-bold text-red-500">C.</Text> Era quase a hora
           sexta; eis que toda a terra se cobriu de trevas até quase à hora nona.
           Então o sol escureceu e o véu do templo rasgou-se ao meio, de alto a
           baixo. E Jesus deu um grande brado, dizendo:{" "}
           <Text className="cross"> ✠ </Text> «Pai, nas vossas mãos entrego o meu
-          espírito». <Text className="font-bold text-red-600">C.</Text>{" "}
+          espírito». <Text className="font-bold text-red-500">C.</Text>{" "}
           Proferidas estas palavras, Jesus expirou!
         </Text>
         <Text className="vernacular">
@@ -868,8 +868,8 @@ export default function PageQuad63() {
         </Text>
         <Text className="vernacular">
           Videns autem centúrio quod factum fúerat, glorificávit Deum, dicens:{" "}
-          <Text className="font-bold text-red-600">S.</Text> Vere hic homo
-          justus erat. <Text className="font-bold text-red-600">C.</Text> Et
+          <Text className="font-bold text-red-500">S.</Text> Vere hic homo
+          justus erat. <Text className="font-bold text-red-500">C.</Text> Et
           omnis turba eórum, qui simul áderant ad spectáculum istud et vidébant,
           quæ fiébant, percutiéntes péctora sua revertebántur. Stabant autem
           omnes noti ejus a longe, et mulíeres, quæ secútæ eum erant a Galilǽa,
@@ -877,9 +877,9 @@ export default function PageQuad63() {
         </Text>
         <Text className="latin">
           Vendo o centurião o que havia acontecido, glorificou o Senhor e disse:{" "}
-          <Text className="font-bold text-red-600">S.</Text> «Verdadeiramente
+          <Text className="font-bold text-red-500">S.</Text> «Verdadeiramente
           este homem era justo!».{" "}
-          <Text className="font-bold text-red-600">C.</Text> Todo o povo que
+          <Text className="font-bold text-red-500">C.</Text> Todo o povo que
           assistia a este espectáculo e via o que se passava retirava-se,
           batendo no peito. E os que eram conhecidos de Jesus estavam vendo
           estas coisas à distância com as mulheres que O haviam acompanhado

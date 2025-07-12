@@ -364,11 +364,11 @@ export default function PageQuad66() {
           Precámur ergo te, Dómine: ut nos fámulos tuos, omnémque clerum, et
           devotíssimum pópulum: una cum beatíssimo Papa nostro{" "}
           <Text className="latin">N.</Text> et Antístite nostro{" "}
-          <Text className="text-red-600">N.</Text> quiéte témporum concéssa, in
+          <Text className="text-red-500">N.</Text> quiéte témporum concéssa, in
           his paschálibus gáudiis, assídua protectióne régere, gubernáre et
           conserváre dignéris. Réspice étiam ad devotíssimum Imperatórem (Si non
           est coronatus, dicatur: eléctum. nostrum{" "}
-          <Text className="text-red-600">N.</Text>) cujus tu, Deus, desidérii
+          <Text className="text-red-500">N.</Text>) cujus tu, Deus, desidérii
           vota prænóscens, ineffábili pietátis et misericórdiæ tuæ múnere,
           tranquíllum perpétuæ pacis accómmoda: et cæléstem victóriam cum omni
           pópulo suo. Per eúndem Dóminum nostrum Jesum Christum, Fílium tuum:
@@ -389,9 +389,9 @@ export default function PageQuad66() {
           vossa constante protecção governe, conserve e dirija a todos nós,
           vossos servos, a todo o clero e ao povo fiel, com o nosso beatíssimo
           Santo Padre <Text className="vernacular">N.</Text> e com o nosso
-          Prelado <Text className="text-red-600"> N. </Text>. Observai também o
+          Prelado <Text className="text-red-500"> N. </Text>. Observai também o
           nosso devotíssimo Imperador (Se não é coroado, diz-se: eleito.{" "}
-          <Text className="text-red-600">N.</Text>), e já que Vós sabeis, ó
+          <Text className="text-red-500">N.</Text>), e já que Vós sabeis, ó
           Senhor, os desejos do seu coração, concedei por vossa inefável graça,
           bondade e misericórdia, que ele desfrute, com todo seu povo, a
           tranquilidade da paz perpétua e da vitória celeste. Que convosco, e

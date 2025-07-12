@@ -32,7 +32,7 @@ const DirectoryList = ({ slug }: { slug: string }) => {
   if (isLoading) {
     return (
       <View className="flex-1 justify-center items-center p-4">
-        <ActivityIndicator size="large" />
+        <ActivityIndicator size="large" className="text-red-500" />
         <Text className="mt-2 text-gray-600 dark:text-gray-400">
           Carregando directório...
         </Text>
@@ -43,7 +43,7 @@ const DirectoryList = ({ slug }: { slug: string }) => {
   if (error) {
     return (
       <View className="flex-1 justify-center items-center p-4">
-        <Text className="text-red-600 text-center">{error}</Text>
+        <Text className="text-red-500 text-center">{error}</Text>
       </View>
     );
   }

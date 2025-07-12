@@ -17,12 +17,8 @@ const config = withTurborepoManagedCache(
   )
 );
 
-// XXX: Resolve our exports in workspace packages
-// https://github.com/expo/expo/issues/26926
-config.resolver.unstable_enablePackageExports = true;
-
+// Add wasm asset support
 config.resolver.assetExts.push("wasm");
-config.resolver.sourceExts.push("sql");
 
 // Add COEP and COOP headers to support SharedArrayBuffer
 config.server.enhanceMiddleware = (middleware) => {

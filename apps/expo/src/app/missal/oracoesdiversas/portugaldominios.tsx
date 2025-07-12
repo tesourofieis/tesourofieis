@@ -15,10 +15,10 @@ export default function PagePortugaldominios() {
       <Text className="text-pretty">
         E livrai de todas as adversidades no ar, na terra e no mar os vossos
         servos: o nosso Papa
-        <Text className="text-red-600">N.</Text> o nosso Patriarca{" "}
-        <Text className="text-red-600">N.</Text> (Arcebispo{" "}
-        <Text className="text-red-600">N.</Text> ou Bispo{" "}
-        <Text className="text-red-600">N.</Text>) , o nosso Presidente e os
+        <Text className="text-red-500">N.</Text> o nosso Patriarca{" "}
+        <Text className="text-red-500">N.</Text> (Arcebispo{" "}
+        <Text className="text-red-500">N.</Text> ou Bispo{" "}
+        <Text className="text-red-500">N.</Text>) , o nosso Presidente e os
         nossos Governantes, assim como o povo que lhes foi confiado e o seu
         exército; concedei a paz e a prosperidade aos nossos tempos e afastai da
         nossa Igreja toda a maldade, destruindo a soberba dos pagãos e dos

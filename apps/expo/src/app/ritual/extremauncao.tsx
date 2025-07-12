@@ -484,7 +484,7 @@ export default function PageExtremauncao() {
         <Text className="latin">
           Réspice, quæsumus, Dómine fámulum tuum{" "}
           <Text className="latin">N.</Text> (fámulam tuam{" "}
-          <Text className="text-red-600">N.</Text>) in infirmitáte sui córporis
+          <Text className="text-red-500">N.</Text>) in infirmitáte sui córporis
           fatiscéntem, et ánimam réfove, quam creásti: ut, castigatiónibus
           emendátus (-a), se tua séntiat medicína salvátum (-am). Per Christum
           Dóminum nostrum.

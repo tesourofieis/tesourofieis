@@ -21,11 +21,11 @@ export default function PageBaptismo() {
       <Language>
         <Text className="latin">
           <Text className="latin">Sac.</Text>{" "}
-          <Text className="text-red-600">N.</Text> Quid petis ab Ecclésia Dei?
+          <Text className="text-red-500">N.</Text> Quid petis ab Ecclésia Dei?
         </Text>
         <Text className="vernacular">
           <Text className="vernacular">Sac.</Text>{" "}
-          <Text className="text-red-600">N.</Text> O que pedes à Igreja de Deus?
+          <Text className="text-red-500">N.</Text> O que pedes à Igreja de Deus?
         </Text>
         <Text className="latin">
           <Text className="response"> ℟. </Text> Fidem.
@@ -110,7 +110,7 @@ export default function PageBaptismo() {
         <Text className="latin">
           Preces nostras, quæsumus, Dómine, cleménter exáudi: et hunc eléctum
           tuum <Text className="latin">N.</Text> (hanc eléctam tuam{" "}
-          <Text className="text-red-600">N.</Text>) crucis Domínicæ impressióne
+          <Text className="text-red-500">N.</Text>) crucis Domínicæ impressióne
           signátum (signátam) perpétua virtúte custódi: ut magnitúdinis glóriæ
           tuæ rudiménta servans, per custódiam mandatórum tuórum ad
           regeneratiónis glóriam perveníre mereátur. Per Christum Dóminum
@@ -120,7 +120,7 @@ export default function PageBaptismo() {
           Pela vossa clemência, Vos suplicamos, Senhor, dignai-Vos ouvir as
           nossas preces; e com vosso poder guardai sempre este vosso escolhido{" "}
           <Text className="vernacular">N.</Text> (ou esta vossa escolhida{" "}
-          <Text className="text-red-600">N.</Text>) que acaba de ser assinalado
+          <Text className="text-red-500">N.</Text>) que acaba de ser assinalado
           (a) com a Cruz do Senhor, a fim de que, conservando as primeiras
           instruções da vossa infinita glória, possa alcançar a glória da
           regeneração pela prática dos vossos Mandamentos. Por Cristo, nosso
@@ -151,7 +151,7 @@ export default function PageBaptismo() {
           Omnípotens, sempitérne Deus, Pater Dómini nostri Jesu Christi,
           respícere dignáre super hunc fámulum tuum{" "}
           <Text className="latin">N.</Text> (hanc fámulam tuam{" "}
-          <Text className="text-red-600">N.</Text>) quem (quam) ad rudiménta
+          <Text className="text-red-500">N.</Text>) quem (quam) ad rudiménta
           fídei vocáre dignátus es; omnem cæcitátem cordis ab eo (ea) expélle;
           disrúmpe omnes láqueos sátanæ, quibus fúerat colligátus (colligáta);
           áperi ei, Dómine, jánuam pietátis tuæ, ut signo sapiéntiæ tuæ imbútus
@@ -275,7 +275,7 @@ export default function PageBaptismo() {
           Deus patrum nostrórum, Deus univérsæ cónditor veritátis, te súpplices
           exorámus, ut hunc fámulum tuum <Text className="latin">N.</Text> (hanc
           fámulam tuam
-          <Text className="text-red-600">N.</Text>) respícere dignéris
+          <Text className="text-red-500">N.</Text>) respícere dignéris
           propítius, et hoc primum pábulum salis gustántem, non diútius esuríre
           permíttas, quo minus cibo expleátur cælésti, quátenus sit semper
           spíritu fervens, spe gaudens, tuo semper nómini sérviens. Perduc eum
@@ -287,7 +287,7 @@ export default function PageBaptismo() {
           Deus de nossos pais, ó Deus, Autor de toda a verdade, Vos pedimos e
           suplicamos que Vos digneis olhar benignamente para o vosso servo{" "}
           <Text className="vernacular">N.</Text> (para a vossa serva{" "}
-          <Text className="text-red-600">N.</Text>) que, que havendo provado
+          <Text className="text-red-500">N.</Text>) que, que havendo provado
           pela primeira vez este sal, não sofra por mais tempo fome, antes
           permiti que seja sustentado (a) com o alimento celestial,
           conservando-se sempre ao serviço do vosso Nome, animado (a) com
@@ -314,7 +314,7 @@ export default function PageBaptismo() {
           <Text className="cross"> ✠ </Text>, et Fílii{" "}
           <Text className="cross"> ✠ </Text>, et Spíritus{" "}
           <Text className="cross"> ✠ </Text> Sancti, ut éxeas, et recédas ab hoc
-          fámulo (hac fámula) Dei <Text className="text-red-600">N.</Text>: Ipse
+          fámulo (hac fámula) Dei <Text className="text-red-500">N.</Text>: Ipse
           enim tibi ímperat, maledícte damnáte, qui pédibus super mare
           ambulávit, et Petro mergénti déxteram porréxit.
         </Text>
@@ -323,7 +323,7 @@ export default function PageBaptismo() {
           <Text className="cross"> ✠ </Text> e do Espírito{" "}
           <Text className="cross"> ✠ </Text> Santo, eu te exorcizo, ó espírito
           impuro, a fim de que saias e te afastes deste servo (ou serva) de
-          Deus, <Text className="text-red-600">N.</Text> Quem isto te ordena, ó
+          Deus, <Text className="text-red-500">N.</Text> Quem isto te ordena, ó
           espírito maligno, é Aquele Senhor que caminhou por cima das ondas do
           mar e que estendeu a mão a Pedro, quando este se submergia.
         </Text>
@@ -332,7 +332,7 @@ export default function PageBaptismo() {
           Ergo, maledícte diábole, recognósce senténtiam tuam, et da honórem Deo
           vivo et vero, da honórem Jesu Christo Fílio ejus, et Spirítui Sancto,
           et recéde ab hoc fámulo (hac fámula) Dei{" "}
-          <Text className="text-red-600">N.</Text>, quia istum (istam) sibi
+          <Text className="text-red-500">N.</Text>, quia istum (istam) sibi
           Deus, et Dóminus noster Jesus Christus ad suam sanctam grátiam, et
           benedictiónem, fontémque Baptísmatis vocáre dignátus est.
         </Text>
@@ -340,7 +340,7 @@ export default function PageBaptismo() {
           Portanto, tu, demónio maldito, submete-te à sua condenação e dá glória
           ao Deus vivo e verdadeiro, a Jesus Cristo, seu Filho, e ao Espírito
           Santo. Retira-te deste servo (ou serva) de Deus,{" "}
-          <Text className="text-red-600">N.</Text>, porque Deus assim manda, e
+          <Text className="text-red-500">N.</Text>, porque Deus assim manda, e
           nosso Senhor Jesus Cristo dignou-se chamá-lo (ou chamá-la) à sua graça
           e bênção, e à fonte baptismal.
         </Text>
@@ -394,7 +394,7 @@ export default function PageBaptismo() {
           Aetérnam ac justíssimam pietátem tuam déprecor, Dómine sancte, Pater
           omnípotens, ætérne Deus, auctor lúminis et veritátis, super hunc
           fámulum tuum <Text className="latin">N.</Text> (hanc fámulam tuam{" "}
-          <Text className="text-red-600">N.</Text>) ut dignéris eum (eam)
+          <Text className="text-red-500">N.</Text>) ut dignéris eum (eam)
           illumináre lúmine intelligéntiæ tuæ: munda eum (eam) et sanctífica: da
           ei sciéntiam veram, ut dignus (digna) grátia Baptísmi tui efféctus
           (effécta), téneat firmam spem, consílium rectum, doctrínam sanctam.
@@ -494,7 +494,7 @@ export default function PageBaptismo() {
           Jesu <Text className="cross"> ✠ </Text> Christi Fílii ejus, Dómini et
           Júdicis nostri, et in virtúte Spíritus{" "}
           <Text className="cross"> ✠ </Text> Sancti, ut discédas ab hoc plásmate
-          Dei <Text className="text-red-600">N.</Text>, quod Dóminus noster ad
+          Dei <Text className="text-red-500">N.</Text>, quod Dóminus noster ad
           templum sanctum suum vocáre dignátus est, ut fiat templum Dei vivi, et
           Spíritus Sanctus hábitet in eo. Per eúmdem Christum Dóminum nostrum,
           qui ventúrus est judicáre vivos et mórtuos, et sæculum per ignem.
@@ -505,7 +505,7 @@ export default function PageBaptismo() {
           <Text className="cross"> ✠ </Text> Cristo, seu Filho, nosso Senhor e
           nosso Juiz, e pelo poder do Espírito{" "}
           <Text className="cross"> ✠ </Text> Santo, para que saias desta
-          criatura de Deus, <Text className="text-red-600">N.</Text>, que nosso
+          criatura de Deus, <Text className="text-red-500">N.</Text>, que nosso
           Senhor se dignou chamar ao seu sagrado templo, a fim de que se torne
           em templo do Deus vivo e morada do Espírito Santo. Pelo mesmo Cristo,
           nosso Senhor, que há-de vir a julgar os vivos e os mortos, e o mundo
@@ -555,11 +555,11 @@ export default function PageBaptismo() {
       <Language>
         <Text className="latin">
           <Text className="latin">Sac.</Text>{" "}
-          <Text className="text-red-600">N.</Text> Abrenúntias sátanæ?
+          <Text className="text-red-500">N.</Text> Abrenúntias sátanæ?
         </Text>
         <Text className="vernacular">
           <Text className="vernacular">Sac.</Text>{" "}
-          <Text className="text-red-600">N.</Text> Renuncias a Satanás?
+          <Text className="text-red-500">N.</Text> Renuncias a Satanás?
         </Text>
         <Text className="latin">
           <Text className="response"> ℟. </Text> Abrenúntio.
@@ -636,12 +636,12 @@ export default function PageBaptismo() {
       <Language>
         <Text className="latin">
           <Text className="latin">Sac.</Text>{" "}
-          <Text className="text-red-600">N.</Text> Credis in Deum Patrem
+          <Text className="text-red-500">N.</Text> Credis in Deum Patrem
           omnipoténtem, Creatórem cæli et terræ?
         </Text>
         <Text className="vernacular">
           <Text className="vernacular">Sac.</Text>{" "}
-          <Text className="text-red-600">N.</Text> Crês em Deus, Pai
+          <Text className="text-red-500">N.</Text> Crês em Deus, Pai
           omnipotente, Criador do céu e da terra?
         </Text>
         <Text className="latin">
@@ -691,11 +691,11 @@ export default function PageBaptismo() {
       <Language>
         <Text className="latin">
           <Text className="latin">Sac.</Text>{" "}
-          <Text className="text-red-600">N.</Text> Vis baptizári?
+          <Text className="text-red-500">N.</Text> Vis baptizári?
         </Text>
         <Text className="vernacular">
           <Text className="vernacular">Sac.</Text>{" "}
-          <Text className="text-red-600">N.</Text> Queres ser baptizado?
+          <Text className="text-red-500">N.</Text> Queres ser baptizado?
         </Text>
         <Text className="latin">
           <Text className="response"> ℟. </Text> Volo.
@@ -714,14 +714,14 @@ export default function PageBaptismo() {
       <Language>
         <Text className="latin">
           <Text className="latin">Sac.</Text>{" "}
-          <Text className="text-red-600">N.</Text> Ego te baptízo in nómine Pa{" "}
+          <Text className="text-red-500">N.</Text> Ego te baptízo in nómine Pa{" "}
           <Text className="cross"> ✠ </Text> tris, fundit primo, et Fí{" "}
           <Text className="cross"> ✠ </Text> lii, fundit secundo, et Spíritus{" "}
           <Text className="cross"> ✠ </Text> Sancti, fundit tertio.
         </Text>
         <Text className="vernacular">
           <Text className="vernacular">Sac.</Text>{" "}
-          <Text className="text-red-600">N.</Text> Eu te baptizo em Nome do Pai{" "}
+          <Text className="text-red-500">N.</Text> Eu te baptizo em Nome do Pai{" "}
           <Text className="cross"> ✠ </Text> e do Filho{" "}
           <Text className="cross"> ✠ </Text> e do Espírito{" "}
           <Text className="cross"> ✠ </Text> Santo.
@@ -736,14 +736,14 @@ export default function PageBaptismo() {
       <Language>
         <Text className="latin">
           <Text className="latin">Sac.</Text>{" "}
-          <Text className="text-red-600">N.</Text> Si non es baptizátus (-a),
+          <Text className="text-red-500">N.</Text> Si non es baptizátus (-a),
           ego te baptízo in nómine Pa <Text className="cross"> ✠ </Text> tris,
           et Fí <Text className="cross"> ✠ </Text> lii, et Spíritus{" "}
           <Text className="cross"> ✠ </Text> Sancti.
         </Text>
         <Text className="vernacular">
           <Text className="vernacular">Sac.</Text>{" "}
-          <Text className="text-red-600">N.</Text> Se não és baptizado (a), eu
+          <Text className="text-red-500">N.</Text> Se não és baptizado (a), eu
           te baptizo em Nome do Pai <Text className="cross"> ✠ </Text>, e do Fi{" "}
           <Text className="cross"> ✠ </Text> lho, e do Espírito{" "}
           <Text className="cross"> ✠ </Text> Santo.
@@ -847,12 +847,12 @@ export default function PageBaptismo() {
       <Language>
         <Text className="latin">
           <Text className="latin">Sac.</Text>{" "}
-          <Text className="text-red-600">N.</Text> Vade in pace, et Dóminus sit
+          <Text className="text-red-500">N.</Text> Vade in pace, et Dóminus sit
           tecum.
         </Text>
         <Text className="vernacular">
           <Text className="vernacular">Sac.</Text>{" "}
-          <Text className="text-red-600">N.</Text> Vai em paz, que o Senhor seja
+          <Text className="text-red-500">N.</Text> Vai em paz, que o Senhor seja
           contigo.
         </Text>
         <Text className="latin">

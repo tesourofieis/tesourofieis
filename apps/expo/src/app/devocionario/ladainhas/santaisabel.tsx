@@ -73,7 +73,7 @@ export default function PageSantaisabel() {
         <Text className="response"> ℟. </Text>
         Para que sejamos dignos das promessas de Cristo.
       </Text>
-      <Text className="text-center text-red-600">Oremos.</Text>
+      <Text className="text-center text-red-500">Oremos.</Text>
       <Text className="text-pretty">
         Ó Deus clementíssimo, que entre outros eminentes dotes ornastes a Rainha
         Santa Isabel com a prerrogativa de aplacar os horrores da guerra,

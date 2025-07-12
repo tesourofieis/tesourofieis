@@ -73,7 +73,7 @@ export function CalendarProvider({ children }: PropsWithChildren) {
   if (!calendar || !day) {
     return (
       <View className="flex-auto justify-center items-center bg-sepia-200 dark:bg-sepia-900">
-        <ActivityIndicator className="text-red-600" />
+        <ActivityIndicator className="text-red-500" />
       </View>
     );
   }

@@ -2,6 +2,7 @@ import FontAwesome from "@expo/vector-icons/FontAwesome";
 import type { Mass } from "@tesourofieis/cal/observanceManager";
 import { Link } from "expo-router";
 import { Pressable, Text, View } from "react-native";
+import { burgundy } from "tailwind.config";
 import { COLORS } from "~/constants/Colors";
 
 export function getColor(color?: string) {
@@ -9,7 +10,7 @@ export function getColor(color?: string) {
     case "w":
       return "white";
     case "r":
-      return "red";
+      return burgundy[500];
     case "g":
       return "green";
     case "v":
@@ -55,7 +56,7 @@ export default function PageLinkCard({
         <Pressable>
           {({ pressed }) => (
             <View className={cardBase(pressed)}>
-              <View className="flex flex-row justify-between items-center gap-1">
+              <View className="flex flex-row justify-between items-center gap-1 mr-2">
                 <View className="flex-1">
                   <View className="flex flex-row">
                     <Text className="text-pretty text-sm text-sepia-600 dark:text-sepia-200">
@@ -91,7 +92,7 @@ export default function PageLinkCard({
         <Pressable>
           {({ pressed }) => (
             <View className={cardBase(pressed)}>
-              <View className="flex flex-row justify-between items-center gap-1">
+              <View className="flex flex-row justify-between items-center gap-1 mr-2">
                 <View className="flex-1">
                   <View className="px-3 flex flex-row items-center gap-2">
                     <FontAwesome name="circle" color={getColor(mass.color)} />
@@ -140,7 +141,7 @@ export default function PageLinkCard({
       <Pressable>
         {({ pressed }) => (
           <View className={cardBase(pressed)}>
-            <View className="flex flex-row justify-between items-center gap-1">
+            <View className="flex flex-row justify-between items-center gap-1 mr-2">
               <View className="flex-1">
                 <View className="flex flex-row">
                   <Text

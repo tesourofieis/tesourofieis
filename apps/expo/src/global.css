@@ -23,11 +23,11 @@
   }
 
   .heading1 {
-    @apply text-4xl font-display text-pretty py-6 text-center text-red-600;
+    @apply text-4xl font-display text-pretty py-6 text-center text-red-500;
   }
 
   .h2 {
-    @apply text-center font-display text-pretty text-3xl py-5 text-red-600;
+    @apply text-center font-display text-pretty text-3xl py-5 text-red-500;
   }
 
   .h3 {
@@ -70,11 +70,11 @@
   }
 
   .cross {
-    @apply text-red-600;
+    @apply text-red-500;
   }
 
   .response {
-    @apply font-bold text-red-600;
+    @apply font-bold text-red-500;
   }
 
   .versicle {
@@ -86,16 +86,16 @@
   }
 
   .aside {
-    @apply text-pretty rounded-xl bg-sepia-200 border-sepia-300 dark:border-sepia-700 p-4 my-4 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+    @apply m-2 text-pretty rounded-xl bg-sepia-200 border-sepia-300 dark:border-sepia-700 p-4 my-4 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
     border-inline-start: 0.25rem solid;
   }
 
   .comment {
-    @apply text-pretty rounded-xl bg-sepia-300 border-red-300 dark:border-red-700 p-4 my-4 text-sepia-800 dark:bg-sepia-700 dark:text-sepia-200;
+    @apply m-2 text-pretty rounded-xl bg-sepia-300 border-red-500 dark:border-red-700 p-4 my-4 text-sepia-800 dark:bg-sepia-700 dark:text-sepia-200;
     border-inline-start: 0.25rem solid;
   }
 
   .em {
-    @apply text-pretty rounded-xl bg-sepia-200 px-3 py-2 font-italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+    @apply mx-1 text-pretty rounded-xl bg-sepia-200 px-3 py-2 font-italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
   }
 }

@@ -1,4 +1,5 @@
 import { eq, sql } from "drizzle-orm";
+import * as cheerio from "cheerio";
 import type { Docs, SubHeading } from "~/app/(tabs)/more";
 import { getDb, mapDbDocToDocs } from "~/db/db";
 import { docs } from "~/db/schema";
@@ -255,9 +256,11 @@ export async function findBySlug(slug: string) {
 }
 
 export async function getAllTopLevelDocs(): Promise<Docs[]> {
+  console.debug("inside getAllTopLevelDocs");
   try {
     const db = await getDb();
     const results = db.select().from(docs).where(eq(docs.level, 0)).all();
+    console.info(results);
     return results.map(mapDbDocToDocs);
   } catch (e: any) {
     console.error("Failed to fetch top-level documents:", e);
