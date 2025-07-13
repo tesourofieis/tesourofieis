@@ -147,7 +147,7 @@ export default function PagePent50() {
           entrareis no reino dos céus. Sabeis o que foi dito aos antigos: «Não
           matareis: aquele que matar será réu no juízo»? Pois digo-vos: Aquele
           que se irar contra seu irmão será réu no juízo; aquele que disser a
-          seu irmão faca será réu no conselho (Sinédrio); e aquele que chamar a
+          seu irmão raca será réu no conselho (Sinédrio); e aquele que chamar a
           outrem louco será réu do fogo do inferno. Se, pois, tu trouxeres a tua
           oferta ao altar, e aí te recordares de que teu irmão tem alguma coisa
           contra ti, deixa a tua oferta diante do altar e vai primeiramente
