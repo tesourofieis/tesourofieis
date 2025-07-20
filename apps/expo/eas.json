@@ -5,16 +5,13 @@
   },
   "build": {
     "development": {
+      "channel": "dev",
       "developmentClient": true,
       "distribution": "internal"
     },
     "production": {
       "autoIncrement": true,
       "channel": "production"
-    },
-    "preview": {
-      "distribution": "internal",
-      "channel": "staging"
     }
   },
   "submit": {

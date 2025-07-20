@@ -36,6 +36,7 @@
 
         devShell = pkgs.mkShell {
           buildInputs = with pkgs; [
+            nodejs
             watchman
             androidComposition.androidsdk
             jdk
