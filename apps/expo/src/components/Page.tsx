@@ -56,34 +56,19 @@ export default function PageWrapper({ children }: PageWrapperProps) {
     }
   };
 
-  const onPinchEvent = (event: any) => {
-    const scale = event.nativeEvent.scale;
-    const newScale = Math.max(0.5, Math.min(3, baseScale.current * scale));
-    currentScale.current = newScale;
-    const newFontSize = Math.round(16 * newScale);
-    setFontSize(newFontSize);
-
-    console.log("[Pinch] Pinch event triggered");
-    console.log(`[Pinch] Raw scale: ${scale}`);
-    console.log(`[Pinch] New scale: ${newScale}`);
-    console.log(`[Pinch] Font size set to: ${newFontSize}`);
-  };
-
-  const onPinchStateChange = (event: any) => {
-    if (event.nativeEvent.oldState === State.ACTIVE) {
+  const pinchGesture = Gesture.Pinch()
+    .onUpdate((event) => {
+      const newScale = Math.max(
+        0.5,
+        Math.min(3, baseScale.current * event.scale)
+      );
+      currentScale.current = newScale;
+      runOnJS(setFontSize)(Math.round(16 * newScale));
+    })
+    .onEnd(() => {
       lastScale.current = currentScale.current;
-      console.log(
-        "[Pinch] Gesture ended, last scale updated:",
-        lastScale.current
-      );
-    } else if (event.nativeEvent.state === State.BEGAN) {
       baseScale.current = lastScale.current;
-      console.log(
-        "[Pinch] Gesture began, base scale set to:",
-        baseScale.current
-      );
-    }
-  };
+    });
 
   const contentWithFontSize = (
     <FontSizeContext.Provider value={fontSize}>
@@ -106,14 +91,11 @@ export default function PageWrapper({ children }: PageWrapperProps) {
   return (
     <PageProvider>
       <SafeAreaView className="flex-1 dark:bg-sepia-900 bg-sepia-100">
-        <PinchGestureHandler
-          onGestureEvent={onPinchEvent}
-          onHandlerStateChange={onPinchStateChange}
-        >
+        <GestureDetector gesture={pinchGesture}>
           <GestureScrollView scrollEnabled ref={scrollViewRef}>
             {scrollContent}
           </GestureScrollView>
-        </PinchGestureHandler>
+        </GestureDetector>
       </SafeAreaView>
     </PageProvider>
   );
