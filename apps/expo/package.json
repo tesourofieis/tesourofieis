@@ -1,6 +1,6 @@
 {
   "name": "@tesourofieis/expo",
-  "version": "0.4.9",
+  "version": "0.5.4",
   "private": true,
   "main": "./index",
   "scripts": {
