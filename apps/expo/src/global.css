@@ -4,6 +4,7 @@
 @config '../tailwind.config.ts';
 
 @layer base {
+  /* Define CSS Variables for colors */
   :root {
     /* Sepia Palette */
     --color-sepia-900: #262624;
@@ -28,24 +29,38 @@
     --color-burgundy-200: #e8b5b6;
     --color-burgundy-100: #f4e0e1;
 
-    /* Primary Accent */
-    --color-primary-accent: var(--color-burgundy-500);
+    /* Primary Accent Color (e.g., for red-500) */
+    --color-primary-accent: var(
+      --color-burgundy-500
+    ); /* Can be easily changed */
 
-    /* Scrollbar */
+    /* Scrollbar colors */
     --scrollbar-thumb-color: var(--color-sepia-900);
     --scrollbar-track-color: var(--color-sepia-800);
 
     /* Text Colors */
-    --text-color-sepia: var(--color-sepia-900);
+    --text-color-base: var(--color-sepia-900);
+    --text-color-dark-mode: var(--color-sepia-100);
+    --text-color-sepia: var(--color-sepia-900); /* Default for .text-sepia */
+    --text-color-sepia-dark: var(
+      --color-sepia-100
+    ); /* Dark mode for .text-sepia */
   }
 
+  /* Dark mode overrides */
   html.dark {
     --text-color-sepia: var(--color-sepia-100);
-    --scrollbar-thumb-color: var(--color-sepia-100);
+    --text-color-sepia-dark: var(--color-sepia-900); /* If needed to reverse */
+    --scrollbar-thumb-color: var(
+      --color-sepia-100
+    ); /* Example for dark mode scrollbar */
     --scrollbar-track-color: var(--color-sepia-900);
   }
 
-  /* Responsive Font System - Base Classes */
+  .font-body {
+    @apply font-serif;
+  }
+
   .text-responsive-xs {
     font-size: var(--font-size-xs);
     line-height: var(--line-height-xs);
@@ -128,7 +143,6 @@
     line-height: var(--heading-line-height-6xl);
   }
 
-  /* Override Tailwind defaults with responsive classes */
   .text-xs {
     @apply text-responsive-xs;
   }
@@ -160,41 +174,106 @@
     @apply text-responsive-6xl;
   }
 
-  /* Heading System */
-  .h1,
-  .heading1 {
-    @apply heading-responsive-6xl font-display text-pretty py-6 text-center;
-    color: var(--color-primary-accent);
-  }
-  .h2 {
-    @apply heading-responsive-5xl text-center font-display text-pretty py-5;
-    color: var(--color-primary-accent);
-  }
-  .h3 {
-    @apply heading-responsive-4xl text-center font-display text-pretty py-4;
-    color: var(--text-color-sepia);
-  }
-  .h4 {
-    @apply heading-responsive-3xl text-center font-display text-pretty py-3;
-    color: var(--text-color-sepia);
-  }
-  .h5 {
-    @apply heading-responsive-2xl text-center font-display text-pretty py-2;
-    color: var(--text-color-sepia);
-  }
-  .h6 {
-    @apply heading-responsive-xl text-center text-pretty py-1;
-    color: var(--text-color-sepia);
-  }
-
-  /* Global Styles */
   html {
     @apply w-full;
     scrollbar-width: thin;
     scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
   }
 
-  /* Text Components */
+  .text-sepia {
+    /* Use CSS variables for colors directly */
+    color: var(--text-color-sepia);
+    @apply font-serif; /* Keep other Tailwind utilities */
+  }
+
+  .border-sepia {
+    /* Use CSS variables for border colors with dark mode support */
+    border-color: var(--color-sepia-200);
+  }
+  html.dark .border-sepia {
+    border-color: var(--color-sepia-700);
+  }
+
+  .heading1 {
+    font-size: var(--heading-font-size-6xl);
+    line-height: var(--heading-line-height-6xl);
+    @apply font-display text-pretty py-6 text-center;
+    color: var(--color-primary-accent);
+    @apply heading-responsive-6xl;
+  }
+
+  .h2 {
+    @apply heading-responsive-5xl;
+    font-size: var(--heading-font-size-5xl);
+    line-height: var(--heading-line-height-5xl);
+    @apply text-center font-display text-pretty py-5;
+    color: var(--color-primary-accent);
+  }
+
+  .h3 {
+    @apply heading-responsive-4xl;
+    font-size: var(--heading-font-size-4xl);
+    line-height: var(--heading-line-height-4xl);
+    @apply text-center font-display text-pretty py-4;
+    color: var(--text-color-sepia);
+  }
+
+  .h4 {
+    @apply heading-responsive-3xl;
+    font-size: var(--heading-font-size-3xl);
+    line-height: var(--heading-line-height-3xl);
+    @apply text-center font-display text-pretty py-3;
+    color: var(--text-color-sepia);
+  }
+
+  .h5 {
+    @apply heading-responsive-2xl;
+    font-size: var(--heading-font-size-2xl);
+    line-height: var(--heading-line-height-2xl);
+    @apply text-center font-display text-pretty py-2;
+    color: var(--text-color-sepia);
+  }
+
+  .h6 {
+    @apply heading-responsive-xl;
+    font-size: var(--heading-font-size-xl);
+    line-height: var(--heading-line-height-xl);
+    @apply text-center text-pretty py-1;
+    color: var(--text-color-sepia);
+  }
+
+  .card {
+    @apply flex items-center justify-center rounded-xl p-8 px-3 no-underline;
+    border: 1px solid var(--color-sepia-300);
+    background-color: var(--color-sepia-200);
+    color: var(--color-sepia-600);
+  }
+  .card:hover {
+    background-color: var(--color-sepia-200); /* Or a specific hover var */
+  }
+  html.dark .card {
+    border-color: var(--color-sepia-700);
+    background-color: var(--color-sepia-800);
+    color: var(--color-sepia-300);
+  }
+  html.dark .card:hover {
+    background-color: var(--color-sepia-900);
+  }
+
+  .li {
+    @apply list-item ml-2 py-1;
+    color: var(--text-color-sepia);
+  }
+
+  .bold {
+    @apply font-bold;
+    color: var(--text-color-sepia);
+  }
+
+  .list-styled {
+    @apply p-2;
+  }
+
   .text-pretty,
   .latin,
   .vernacular {
@@ -205,29 +284,15 @@
     text-rendering: optimizeLegibility;
   }
 
-  .text-sepia {
-    color: var(--text-color-sepia);
-    @apply font-serif;
-  }
-
-  .bold {
-    @apply font-bold;
-    color: var(--text-color-sepia);
-  }
-
-  .li {
-    @apply list-item ml-2 py-1;
-    color: var(--text-color-sepia);
-  }
-
-  /* Special Text */
   .cross {
     color: var(--color-primary-accent);
   }
+
   .response {
     @apply font-bold;
     color: var(--color-primary-accent);
   }
+
   .versicle {
     @apply font-bold;
   }
@@ -238,25 +303,6 @@
   }
   html.dark .link {
     color: var(--color-sepia-200);
-  }
-
-  /* Containers */
-  .card {
-    @apply flex items-center justify-center rounded-xl p-8 px-3 no-underline;
-    border: 1px solid var(--color-sepia-300);
-    background-color: var(--color-sepia-200);
-    color: var(--color-sepia-600);
-  }
-  .card:hover {
-    background-color: var(--color-sepia-200);
-  }
-  html.dark .card {
-    border-color: var(--color-sepia-700);
-    background-color: var(--color-sepia-800);
-    color: var(--color-sepia-300);
-  }
-  html.dark .card:hover {
-    background-color: var(--color-sepia-900);
   }
 
   .aside {
@@ -276,11 +322,11 @@
     @apply m-2 text-pretty rounded-xl p-4 my-4;
     border-inline-start: 0.25rem solid;
     background-color: var(--color-sepia-300);
-    border-color: var(--color-burgundy-500);
+    border-color: var(--color-burgundy-500); /* Red 500 equivalent */
     color: var(--color-sepia-800);
   }
   html.dark .comment {
-    border-color: var(--color-burgundy-700);
+    border-color: var(--color-burgundy-700); /* Dark Red 700 equivalent */
     background-color: var(--color-sepia-700);
     color: var(--color-sepia-200);
   }
@@ -293,12 +339,5 @@
   html.dark .em {
     background-color: var(--color-sepia-800);
     color: var(--color-sepia-300);
-  }
-
-  .border-sepia {
-    border-color: var(--color-sepia-200);
-  }
-  html.dark .border-sepia {
-    border-color: var(--color-sepia-700);
   }
 }
