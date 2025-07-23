@@ -51,11 +51,11 @@ export default function PageTabLayout() {
         }}
       />
       <Tabs.Screen
-        name="notificacoes"
+        name="configurar"
         options={{
-          title: "Notificações",
-          href: isWeb ? null : "/notificacoes",
-          tabBarIcon: ({ color }) => <FontAwesome6 name="bell" color={color} />,
+          title: "Configurar",
+          href: isWeb ? null : "/configurar",
+          tabBarIcon: ({ color }) => <FontAwesome6 name="gear" color={color} />,
         }}
       />
       <Tabs.Screen

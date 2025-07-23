@@ -232,7 +232,7 @@ const Breadcrumbs = () => {
       {segments.map((segment, index) => (
         <View className="flex-row items-center gap-1" key={segment}>
           {index !== 0 && (
-            <Text className="font-serif text-xs text-sepia-400 dark:text-sepia-600">
+            <Text className="font-serif text-xs text-sepia-700 dark:text-sepia-300">
               /
             </Text>
           )}

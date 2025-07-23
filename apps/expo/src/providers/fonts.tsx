@@ -19,11 +19,11 @@ const FONT_DEFINITIONS = {
   base: { base: 12, lineHeight: 1.5, headingScale: 1.0 },
   lg: { base: 14, lineHeight: 1.56, headingScale: 1.05 },
   xl: { base: 16, lineHeight: 1.4, headingScale: 1.1 },
-  "2xl": { base: 18, lineHeight: 1.33, headingScale: 1.15 },
-  "3xl": { base: 20, lineHeight: 1.2, headingScale: 1.2 },
-  "4xl": { base: 22, lineHeight: 1.11, headingScale: 1.25 },
-  "5xl": { base: 24, lineHeight: 1.0, headingScale: 1.3 },
-  "6xl": { base: 26, lineHeight: 0.95, headingScale: 1.35 },
+  "2xl": { base: 18, lineHeight: 1.33, headingScale: 1.1 },
+  "3xl": { base: 20, lineHeight: 1.2, headingScale: 1.1 },
+  "4xl": { base: 22, lineHeight: 1.11, headingScale: 1.1 },
+  "5xl": { base: 24, lineHeight: 1.0, headingScale: 1.1 },
+  "6xl": { base: 26, lineHeight: 0.95, headingScale: 1.1 },
 } as const;
 
 function generateFontVariables(fontSize: FontSize): FontVariables {

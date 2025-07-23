@@ -12,6 +12,7 @@ import {
   useColorScheme,
   View,
 } from "react-native";
+import { H6 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 import { COLORS } from "~/constants/Colors";
 import { useSettings } from "~/providers/settings";
@@ -53,9 +54,7 @@ export default function PageNot() {
             size={15}
             color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
           />
-          <Text className="font-bold dark:text-sepia-200 text-left p-3 text-xl text-bold">
-            Apenas em dispositivos móveis.
-          </Text>
+          <H6 text="Apenas em dispositivos móveis." />
         </View>
 
         <View>
@@ -104,9 +103,7 @@ export default function PageNot() {
               size={15}
               color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
             />
-            <Text className="font-bold dark:text-sepia-200 text-left p-3 text-xl text-bold">
-              Notificações Desativadas
-            </Text>
+            <H6 text="Notificações Desativadas" />
           </View>
 
           <Text className="font-serif dark:text-sepia-200 text-sm">
@@ -135,15 +132,19 @@ export default function PageNot() {
   return (
     <SafeAreaView className="flex-1">
       <ScrollView className="px-5 bg-sepia-200 dark:bg-sepia-800 h-full">
+        <FontSizeSelector
+          selectedSize={settings.fontSize}
+          onSizeChange={(size) => setFontSize(size)}
+          colorScheme={colorScheme}
+        />
+
         <View className="flex-row items-center">
           <FontAwesome6
             name="gear"
             size={15}
             color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
           />
-          <Text className="font-bold dark:text-sepia-200 text-left p-3 text-xl text-bold">
-            Configurar Notificações
-          </Text>
+          <H6 text="Configurar Notificações" />
         </View>
 
         <Text className="font-serif dark:text-sepia-200 text-sm">
@@ -155,12 +156,6 @@ export default function PageNot() {
           necessitam de que o utilizador use a aplicação pelo menos uma vez por
           semana.
         </Text>
-
-        <FontSizeSelector
-          selectedSize={settings.fontSize}
-          onSizeChange={(size) => setFontSize(size)}
-          colorScheme={colorScheme}
-        />
 
         <NotificationToggle
           title="Angelus"
@@ -265,16 +260,14 @@ const FontSizeSelector = ({
   const sizes: FontSize[] = ["small", "normal", "big"];
 
   return (
-    <View className="py-3 my-3 border-t border-b border-sepia-300 dark:border-sepia-700">
+    <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
       <View className="flex-row items-center mb-3">
         <FontAwesome6
           name="text-height"
           size={15}
           color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
         />
-        <Text className="font-bold text-sepia-800 dark:text-sepia-200 ml-3">
-          Tamanho da Letra
-        </Text>
+        <H6 text="Tamanho da Letra" />
       </View>
 
       <View className="flex-row justify-between items-center">
