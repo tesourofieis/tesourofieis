@@ -33,6 +33,7 @@ import { SettingsProvider } from "~/providers/settings";
 import { SQLiteProvider } from "expo-sqlite";
 import { migrateDatabase } from "~/db/db";
 import { burgundy } from "tailwind.config";
+import { FontProvider } from "~/providers/fonts";
 
 SplashScreen.preventAutoHideAsync();
 SplashScreen.setOptions({
@@ -105,15 +106,17 @@ export default function PageRootLayout() {
   return (
     <SQLiteProvider onInit={migrateDatabase} databaseName="docs.db">
       <CalendarProvider>
-        {Platform.OS === "web" ? (
-          <RootLayoutNav />
-        ) : (
-          <GestureHandlerRootView>
-            <SettingsProvider>
+        <SettingsProvider>
+          <FontProvider>
+            {Platform.OS === "web" ? (
               <RootLayoutNav />
-            </SettingsProvider>
-          </GestureHandlerRootView>
-        )}
+            ) : (
+              <GestureHandlerRootView>
+                <RootLayoutNav />
+              </GestureHandlerRootView>
+            )}
+          </FontProvider>
+        </SettingsProvider>
       </CalendarProvider>
     </SQLiteProvider>
   );
@@ -297,7 +300,7 @@ const Header = ({ withBC }: { withBC: boolean }) => {
       <Pressable onPress={() => router.navigate("/")}>
         <View className="flex-row items-center gap-3">
           <FontAwesome6 name="book-bible" size={25} color={burgundy[500]} />
-          <Text className="text-lg text-sepia-800 dark:text-sepia-200 font-serif">
+          <Text className="h5 text-sepia-800 dark:text-sepia-200 font-serif">
             Tesouro dos Fiéis
           </Text>
         </View>

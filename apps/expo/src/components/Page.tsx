@@ -1,24 +1,26 @@
 import { useLocalSearchParams } from "expo-router";
 import type React from "react";
-import { createContext, useContext, useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { Platform, ScrollView, View } from "react-native";
-import {
-  Gesture,
-  ScrollView as GestureScrollView,
-  GestureDetector,
-  PinchGestureHandler,
-  State,
-} from "react-native-gesture-handler";
-import { runOnJS } from "react-native-reanimated";
+import { ScrollView as GestureScrollView } from "react-native-gesture-handler";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { vars } from "nativewind";
 import { PageProvider, useIsNested } from "~/providers/page";
-
-const FontSizeContext = createContext<number>(16);
-export const useFontSize = () => useContext(FontSizeContext);
+import { FontProvider, useFontVariables } from "~/providers/fonts";
 
 type PageWrapperProps = {
   children: React.ReactNode;
 };
+
+function PageContent({ children }: { children: React.ReactNode }) {
+  const fontVariables = useFontVariables();
+
+  return (
+    <View style={vars(fontVariables)} className="flex-1">
+      {children}
+    </View>
+  );
+}
 
 export default function PageWrapper({ children }: PageWrapperProps) {
   const isNested = useIsNested();
@@ -26,10 +28,6 @@ export default function PageWrapper({ children }: PageWrapperProps) {
   const scrollViewRef = useRef<ScrollView>(null);
   const { anchor } = useLocalSearchParams();
   const anchorString = Array.isArray(anchor) ? anchor[0] : anchor;
-  const [fontSize, setFontSize] = useState(16);
-  const baseScale = useRef(1);
-  const lastScale = useRef(1);
-  const currentScale = useRef(1);
 
   useEffect(() => {
     if (anchorString && scrollViewRef.current) {
@@ -56,24 +54,10 @@ export default function PageWrapper({ children }: PageWrapperProps) {
     }
   };
 
-  const pinchGesture = Gesture.Pinch()
-    .onUpdate((event) => {
-      const newScale = Math.max(
-        0.5,
-        Math.min(3, baseScale.current * event.scale)
-      );
-      currentScale.current = newScale;
-      runOnJS(setFontSize)(Math.round(16 * newScale));
-    })
-    .onEnd(() => {
-      lastScale.current = currentScale.current;
-      baseScale.current = lastScale.current;
-    });
-
   const contentWithFontSize = (
-    <FontSizeContext.Provider value={fontSize}>
-      {children}
-    </FontSizeContext.Provider>
+    <FontProvider>
+      <PageContent>{children}</PageContent>
+    </FontProvider>
   );
 
   if (isNested) {
@@ -91,11 +75,9 @@ export default function PageWrapper({ children }: PageWrapperProps) {
   return (
     <PageProvider>
       <SafeAreaView className="flex-1 dark:bg-sepia-900 bg-sepia-100">
-        <GestureDetector gesture={pinchGesture}>
-          <GestureScrollView scrollEnabled ref={scrollViewRef}>
-            {scrollContent}
-          </GestureScrollView>
-        </GestureDetector>
+        <GestureScrollView scrollEnabled ref={scrollViewRef}>
+          {scrollContent}
+        </GestureScrollView>
       </SafeAreaView>
     </PageProvider>
   );

@@ -4,98 +4,301 @@
 @config '../tailwind.config.ts';
 
 @layer base {
-  .font-body {
-    @apply font-serif;
+  :root {
+    /* Sepia Palette */
+    --color-sepia-900: #262624;
+    --color-sepia-800: #2b2b29;
+    --color-sepia-700: #32302f;
+    --color-sepia-600: #40403c;
+    --color-sepia-500: #7c6f64;
+    --color-sepia-400: #cba57e;
+    --color-sepia-300: #e2c1a2;
+    --color-sepia-200: #f2ddc7;
+    --color-sepia-100: #eee6d9;
+    --color-sepia-50: #f4eadd;
+
+    /* Burgundy Palette */
+    --color-burgundy-900: #4a1a1c;
+    --color-burgundy-800: #5c2022;
+    --color-burgundy-700: #7d2d30;
+    --color-burgundy-600: #8c3437;
+    --color-burgundy-500: #9b3d3f;
+    --color-burgundy-400: #b85d5f;
+    --color-burgundy-300: #d48385;
+    --color-burgundy-200: #e8b5b6;
+    --color-burgundy-100: #f4e0e1;
+
+    /* Primary Accent */
+    --color-primary-accent: var(--color-burgundy-500);
+
+    /* Scrollbar */
+    --scrollbar-thumb-color: var(--color-sepia-900);
+    --scrollbar-track-color: var(--color-sepia-800);
+
+    /* Text Colors */
+    --text-color-sepia: var(--color-sepia-900);
   }
 
+  html.dark {
+    --text-color-sepia: var(--color-sepia-100);
+    --scrollbar-thumb-color: var(--color-sepia-100);
+    --scrollbar-track-color: var(--color-sepia-900);
+  }
+
+  /* Responsive Font System - Base Classes */
+  .text-responsive-xs {
+    font-size: var(--font-size-xs);
+    line-height: var(--line-height-xs);
+  }
+  .text-responsive-sm {
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
+  }
+  .text-responsive-base {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+  }
+  .text-responsive-lg {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-lg);
+  }
+  .text-responsive-xl {
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-xl);
+  }
+  .text-responsive-2xl {
+    font-size: var(--font-size-2xl);
+    line-height: var(--line-height-2xl);
+  }
+  .text-responsive-3xl {
+    font-size: var(--font-size-3xl);
+    line-height: var(--line-height-3xl);
+  }
+  .text-responsive-4xl {
+    font-size: var(--font-size-4xl);
+    line-height: var(--line-height-4xl);
+  }
+  .text-responsive-5xl {
+    font-size: var(--font-size-5xl);
+    line-height: var(--line-height-5xl);
+  }
+  .text-responsive-6xl {
+    font-size: var(--font-size-6xl);
+    line-height: var(--line-height-6xl);
+  }
+
+  .heading-responsive-xs {
+    font-size: var(--heading-font-size-xs);
+    line-height: var(--heading-line-height-xs);
+  }
+  .heading-responsive-sm {
+    font-size: var(--heading-font-size-sm);
+    line-height: var(--heading-line-height-sm);
+  }
+  .heading-responsive-base {
+    font-size: var(--heading-font-size-base);
+    line-height: var(--heading-line-height-base);
+  }
+  .heading-responsive-lg {
+    font-size: var(--heading-font-size-lg);
+    line-height: var(--heading-line-height-lg);
+  }
+  .heading-responsive-xl {
+    font-size: var(--heading-font-size-xl);
+    line-height: var(--heading-line-height-xl);
+  }
+  .heading-responsive-2xl {
+    font-size: var(--heading-font-size-2xl);
+    line-height: var(--heading-line-height-2xl);
+  }
+  .heading-responsive-3xl {
+    font-size: var(--heading-font-size-3xl);
+    line-height: var(--heading-line-height-3xl);
+  }
+  .heading-responsive-4xl {
+    font-size: var(--heading-font-size-4xl);
+    line-height: var(--heading-line-height-4xl);
+  }
+  .heading-responsive-5xl {
+    font-size: var(--heading-font-size-5xl);
+    line-height: var(--heading-line-height-5xl);
+  }
+  .heading-responsive-6xl {
+    font-size: var(--heading-font-size-6xl);
+    line-height: var(--heading-line-height-6xl);
+  }
+
+  /* Override Tailwind defaults with responsive classes */
+  .text-xs {
+    @apply text-responsive-xs;
+  }
+  .text-sm {
+    @apply text-responsive-sm;
+  }
+  .text-base {
+    @apply text-responsive-base;
+  }
+  .text-lg {
+    @apply text-responsive-lg;
+  }
+  .text-xl {
+    @apply text-responsive-xl;
+  }
+  .text-2xl {
+    @apply text-responsive-2xl;
+  }
+  .text-3xl {
+    @apply text-responsive-3xl;
+  }
+  .text-4xl {
+    @apply text-responsive-4xl;
+  }
+  .text-5xl {
+    @apply text-responsive-5xl;
+  }
+  .text-6xl {
+    @apply text-responsive-6xl;
+  }
+
+  /* Heading System */
+  .h1,
+  .heading1 {
+    @apply heading-responsive-6xl font-display text-pretty py-6 text-center;
+    color: var(--color-primary-accent);
+  }
+  .h2 {
+    @apply heading-responsive-5xl text-center font-display text-pretty py-5;
+    color: var(--color-primary-accent);
+  }
+  .h3 {
+    @apply heading-responsive-4xl text-center font-display text-pretty py-4;
+    color: var(--text-color-sepia);
+  }
+  .h4 {
+    @apply heading-responsive-3xl text-center font-display text-pretty py-3;
+    color: var(--text-color-sepia);
+  }
+  .h5 {
+    @apply heading-responsive-2xl text-center font-display text-pretty py-2;
+    color: var(--text-color-sepia);
+  }
+  .h6 {
+    @apply heading-responsive-xl text-center text-pretty py-1;
+    color: var(--text-color-sepia);
+  }
+
+  /* Global Styles */
   html {
     @apply w-full;
     scrollbar-width: thin;
-    scrollbar-color: theme("colors.sepia.900") theme("colors.sepia.800");
+    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
   }
 
-  .text-sepia {
-    @apply text-sepia-900 dark:text-sepia-100 font-serif;
-  }
-
-  .border-sepia {
-    @apply border-sepia-200 dark:border-sepia-700;
-  }
-
-  .heading1 {
-    @apply text-4xl font-display text-pretty py-6 text-center text-red-500;
-  }
-
-  .h2 {
-    @apply text-center font-display text-pretty text-3xl py-5 text-red-500;
-  }
-
-  .h3 {
-    @apply text-center font-display text-pretty text-2xl py-4 text-sepia;
-  }
-
-  .h4 {
-    @apply text-center font-display text-pretty text-xl py-3 text-sepia;
-  }
-
-  .h5 {
-    @apply text-center font-display text-pretty text-lg py-2 text-sepia;
-  }
-
-  .h6 {
-    @apply text-center text-pretty py-1 text-sepia;
-  }
-
-  .card {
-    @apply flex items-center justify-center rounded-xl border border-sepia-300 bg-sepia-200 p-8 px-3 text-sepia-600 no-underline hover:bg-sepia-200 dark:border-sepia-700 dark:bg-sepia-800 dark:text-sepia-300 dark:hover:bg-sepia-900;
-  }
-
-  .li {
-    @apply list-item ml-2 py-1 text-sepia;
-  }
-
-  .bold {
-    @apply font-bold text-sepia;
-  }
-
-  .list-styled {
-    @apply p-2;
-  }
-
+  /* Text Components */
   .text-pretty,
   .latin,
   .vernacular {
-    @apply py-2 text-sepia font-serif px-3;
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    @apply py-2 font-serif px-3;
+    color: var(--text-color-sepia);
     text-rendering: optimizeLegibility;
   }
 
+  .text-sepia {
+    color: var(--text-color-sepia);
+    @apply font-serif;
+  }
+
+  .bold {
+    @apply font-bold;
+    color: var(--text-color-sepia);
+  }
+
+  .li {
+    @apply list-item ml-2 py-1;
+    color: var(--text-color-sepia);
+  }
+
+  /* Special Text */
   .cross {
-    @apply text-red-500;
+    color: var(--color-primary-accent);
   }
-
   .response {
-    @apply font-bold text-red-500;
+    @apply font-bold;
+    color: var(--color-primary-accent);
   }
-
   .versicle {
     @apply font-bold;
   }
 
   .link {
-    @apply underline text-sepia-800 dark:text-sepia-200;
+    @apply underline;
+    color: var(--color-sepia-800);
+  }
+  html.dark .link {
+    color: var(--color-sepia-200);
+  }
+
+  /* Containers */
+  .card {
+    @apply flex items-center justify-center rounded-xl p-8 px-3 no-underline;
+    border: 1px solid var(--color-sepia-300);
+    background-color: var(--color-sepia-200);
+    color: var(--color-sepia-600);
+  }
+  .card:hover {
+    background-color: var(--color-sepia-200);
+  }
+  html.dark .card {
+    border-color: var(--color-sepia-700);
+    background-color: var(--color-sepia-800);
+    color: var(--color-sepia-300);
+  }
+  html.dark .card:hover {
+    background-color: var(--color-sepia-900);
   }
 
   .aside {
-    @apply m-2 text-pretty rounded-xl bg-sepia-200 border-sepia-300 dark:border-sepia-700 p-4 my-4 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+    @apply m-2 text-pretty rounded-xl p-4 my-4;
     border-inline-start: 0.25rem solid;
+    background-color: var(--color-sepia-200);
+    border-color: var(--color-sepia-300);
+    color: var(--color-sepia-700);
+  }
+  html.dark .aside {
+    border-color: var(--color-sepia-700);
+    background-color: var(--color-sepia-800);
+    color: var(--color-sepia-300);
   }
 
   .comment {
-    @apply m-2 text-pretty rounded-xl bg-sepia-300 border-red-500 dark:border-red-700 p-4 my-4 text-sepia-800 dark:bg-sepia-700 dark:text-sepia-200;
+    @apply m-2 text-pretty rounded-xl p-4 my-4;
     border-inline-start: 0.25rem solid;
+    background-color: var(--color-sepia-300);
+    border-color: var(--color-burgundy-500);
+    color: var(--color-sepia-800);
+  }
+  html.dark .comment {
+    border-color: var(--color-burgundy-700);
+    background-color: var(--color-sepia-700);
+    color: var(--color-sepia-200);
   }
 
   .em {
-    @apply mx-1 text-pretty rounded-xl bg-sepia-200 px-3 py-2 font-italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+    @apply mx-1 text-pretty rounded-xl px-3 py-2 font-italic;
+    background-color: var(--color-sepia-200);
+    color: var(--color-sepia-700);
+  }
+  html.dark .em {
+    background-color: var(--color-sepia-800);
+    color: var(--color-sepia-300);
+  }
+
+  .border-sepia {
+    border-color: var(--color-sepia-200);
+  }
+  html.dark .border-sepia {
+    border-color: var(--color-sepia-700);
   }
 }

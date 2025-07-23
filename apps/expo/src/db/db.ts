@@ -14,13 +14,11 @@ let drizzleInstance: ReturnType<typeof drizzle> | null = null;
 export async function migrateDatabase(db: SQLiteDatabase): Promise<void> {
   console.log("Running database migrations...");
   try {
-    // Check what tables actually exist
     const allTables = await db.getAllAsync(`
       SELECT name FROM sqlite_master WHERE type='table'
     `);
     console.log("Existing tables:", allTables);
 
-    // Check for required tables individually
     const docsTable = await db.getFirstAsync(`
       SELECT name FROM sqlite_master 
       WHERE type='table' AND name='docs'
@@ -31,7 +29,6 @@ export async function migrateDatabase(db: SQLiteDatabase): Promise<void> {
       WHERE type='table' AND name='settings'
     `);
 
-    // Create tables if they don't exist
     if (!docsTable) {
       console.log("Creating docs table...");
       await db.execAsync(`
@@ -52,10 +49,19 @@ export async function migrateDatabase(db: SQLiteDatabase): Promise<void> {
       console.log("Creating settings table...");
       await db.execAsync(`
         CREATE TABLE IF NOT EXISTS settings (
-          id INTEGER PRIMARY KEY AUTOINCREMENT,
-          key TEXT UNIQUE NOT NULL,
-          value TEXT
+          font_size TEXT NOT NULL DEFAULT 'normal',
+          angelus_enabled INTEGER NOT NULL DEFAULT 1,
+          mass_enabled INTEGER NOT NULL DEFAULT 1,
+          novena_enabled INTEGER NOT NULL DEFAULT 1,
+          office_enabled INTEGER NOT NULL DEFAULT 0,
+          permission_requested INTEGER NOT NULL DEFAULT 0,
+          permission_soft_rejected INTEGER NOT NULL DEFAULT 0,
         )
+      `);
+
+      // Insert default row since your schema expects a single settings record
+      await db.execAsync(`
+        INSERT INTO settings (id) VALUES (1)
       `);
     }
 
@@ -68,15 +74,13 @@ export async function migrateDatabase(db: SQLiteDatabase): Promise<void> {
 
 async function ensureDatabase(): Promise<void> {
   try {
-    // More explicit asset loading with error handling
     let asset: Asset;
     try {
       asset = Asset.fromModule(require(`../../assets/${DATABASE_NAME}`));
       await asset.downloadAsync();
     } catch (assetError) {
-      console.error("Asset loading failed:", assetError);
-      // Try alternative path resolution
-      const assetModule = require("../../assets/docs.db");
+      console.error("Asset loading failed, trying fallback:", assetError);
+      const assetModule = require("../../assets/docs.db"); // Fallback to literal path
       asset = Asset.fromModule(assetModule);
       await asset.downloadAsync();
     }
@@ -99,15 +103,11 @@ async function ensureDatabase(): Promise<void> {
         from: asset.localUri,
         to: databasePath,
       });
-    } else if (__DEV__) {
-      console.log("In DEV mode, replacing existing database for fresh copy.");
-      await FileSystem.deleteAsync(databasePath, { idempotent: true });
-      await FileSystem.copyAsync({
-        from: asset.localUri,
-        to: databasePath,
-      });
-    } else {
-      console.log("Database already exists. Skipping copy in production.");
+    }
+    // Remove the __DEV__ block that deletes and recopies
+    // This allows migrateDatabase to modify the copied file persistently.
+    else {
+      console.log("Database already exists. Skipping copy.");
     }
   } catch (error) {
     console.error("Error ensuring database:", error);

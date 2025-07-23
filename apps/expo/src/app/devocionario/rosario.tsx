@@ -1,5 +1,5 @@
 import { Text } from "react-native";
-import { H1, H2 } from "~/components/Headings";
+import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import LadainhaLoreto from "./ladainhas/loreto";
@@ -14,7 +14,7 @@ export default function PageRosario() {
     <PageWrapper>
       <H1 text="Rosário" />
       <PageSinalCruz />
-      <H1 text="No Crucifixo" />
+      <H2 text="No Crucifixo" />
 
       <PageSimboloapostolos />
       <H2 text="Oferecimento do Santo Rosário" />
@@ -41,15 +41,15 @@ export default function PageRosario() {
         </Text>
       </Language>
 
-      <H1 text="Nas contas maiores" />
+      <H2 text="Nas contas maiores" />
 
       <PaiNosso />
 
-      <H1 text="Nas contas menores" />
+      <H2 text="Nas contas menores" />
 
       <AveMaria />
 
-      <H1 text="No fim das dezenas" />
+      <H2 text="No fim das dezenas" />
 
       <Gloria />
 
@@ -90,8 +90,8 @@ export default function PageRosario() {
           Céu e socorrei principalmente as que mais precisarem.
         </Text>
       </Language>
-      <H1 text="Meditações do Rosário" />
-      <H2 text="Mistérios Gozosos" />
+      <H2 text="Meditações do Rosário" />
+      <H3 text="Mistérios Gozosos" />
       <Text className="aside">Segunda-feira e Quinta-feira</Text>
       <Text className="bold">Primeiro mistério:</Text>
       <Text className="text-pretty">
@@ -119,7 +119,7 @@ export default function PageRosario() {
         Meditemos na Perda e no Encontro do Menino Jesus no Templo, e roguemos o
         conhecimento das coisas divinas e a prontidão no serviço de Deus.
       </Text>
-      <H2 text="Mistérios Dolorosos" />
+      <H3 text="Mistérios Dolorosos" />
       <Text className="aside">Terça-feira e Sexta-feira</Text>
       <Text className="bold">Primeiro mistério:</Text>
       <Text className="text-pretty">
@@ -146,7 +146,7 @@ export default function PageRosario() {
         Meditemos na Crucifixão e Morte de N. S. Jesus Cristo, e roguemos o amor
         a Deus e a salvação das almas.
       </Text>
-      <H2 text="Mistérios Gloriosos" />
+      <H3 text="Mistérios Gloriosos" />
       <Text className="aside">
         <Text className="text-pretty">Quarta-feira, Sábado e Domingo</Text>
       </Text>
@@ -175,8 +175,8 @@ export default function PageRosario() {
         Meditemos na Coroação da Santíssima Virgem, e roguemos a perseverança
         final e a confiança em Nossa Senhora.
       </Text>
-      <H1 text="Orações no fim do Rosário" />
-      <H2 text="Salve Rainha" />
+      <H2 text="Orações no fim do Rosário" />
+      <H3 text="Salve Rainha" />
       <Language>
         <Text className="latin">
           Salve, Regina, Mater misericórdiæ, vita, dulcédo et spes nostra,

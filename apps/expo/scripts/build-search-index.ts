@@ -370,15 +370,13 @@ function buildDatabase(): void {
 
   sqlite.exec(`
     CREATE TABLE IF NOT EXISTS settings (
-      id INTEGER PRIMARY KEY,
-      font_size_multiplier REAL NOT NULL DEFAULT 1,
+      font_size TEXT NOT NULL DEFAULT "normal",
       angelus_enabled INTEGER NOT NULL DEFAULT 1,
       mass_enabled INTEGER NOT NULL DEFAULT 1,
       novena_enabled INTEGER NOT NULL DEFAULT 1,
       office_enabled INTEGER NOT NULL DEFAULT 0,
       permission_requested INTEGER NOT NULL DEFAULT 0,
-      permission_soft_rejected INTEGER NOT NULL DEFAULT 0,
-      last_prompt_date TEXT
+      permission_soft_rejected INTEGER NOT NULL DEFAULT 0
     );
   `);
 
@@ -394,14 +392,14 @@ function buildDatabase(): void {
 
   sqlite.exec(`
     INSERT INTO settings (
-      font_size_multiplier,
+      font_size,
       angelus_enabled,
       mass_enabled,
       novena_enabled,
       office_enabled,
       permission_requested,
       permission_soft_rejected
-    ) VALUES (1, 1, 1, 1, 0, 0, 0);
+    ) VALUES ('normal', 1, 1, 1, 0, 0, 0);
   `);
 
   console.log("✅ Tabelas docs, settings e docs_fts criadas");

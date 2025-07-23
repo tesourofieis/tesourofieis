@@ -16,6 +16,14 @@ import PageWrapper from "~/components/Page";
 import { COLORS } from "~/constants/Colors";
 import { useSettings } from "~/providers/settings";
 
+export type FontSize = "small" | "normal" | "big";
+
+const FONT_SIZE_MAP: Record<FontSize, number> = {
+  small: 14,
+  normal: 16,
+  big: 20,
+};
+
 export default function PageNot() {
   const colorScheme = useColorScheme();
   const [isExpanded, setIsExpanded] = useState(false);
@@ -23,11 +31,14 @@ export default function PageNot() {
   const {
     settings,
     setNotificationPref,
+    setFontSize,
     list,
     permissionStatus,
     requestPermission,
     isSoftRejected,
   } = useSettings();
+
+  console.log("page", settings.fontSize);
 
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
@@ -145,6 +156,12 @@ export default function PageNot() {
           semana.
         </Text>
 
+        <FontSizeSelector
+          selectedSize={settings.fontSize}
+          onSizeChange={(size) => setFontSize(size)}
+          colorScheme={colorScheme}
+        />
+
         <NotificationToggle
           title="Angelus"
           icon="bell"
@@ -235,6 +252,58 @@ export default function PageNot() {
     </SafeAreaView>
   );
 }
+
+const FontSizeSelector = ({
+  selectedSize,
+  onSizeChange,
+  colorScheme,
+}: {
+  selectedSize: string;
+  onSizeChange: (size: FontSize) => void;
+  colorScheme: string | null | undefined;
+}) => {
+  const sizes: FontSize[] = ["small", "normal", "big"];
+
+  return (
+    <View className="py-3 my-3 border-t border-b border-sepia-300 dark:border-sepia-700">
+      <View className="flex-row items-center mb-3">
+        <FontAwesome6
+          name="text-height"
+          size={15}
+          color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+        />
+        <Text className="font-bold text-sepia-800 dark:text-sepia-200 ml-3">
+          Tamanho da Letra
+        </Text>
+      </View>
+
+      <View className="flex-row justify-between items-center">
+        {sizes.map((size) => (
+          <TouchableOpacity
+            key={size}
+            onPress={() => onSizeChange(size)}
+            className={`flex-1 mx-1 py-3 px-4 rounded-lg items-center ${
+              selectedSize === size
+                ? "bg-sepia-800 dark:bg-sepia-200"
+                : "bg-sepia-300 dark:bg-sepia-700"
+            }`}
+          >
+            <Text
+              className={`font-medium ${
+                selectedSize === size
+                  ? "text-sepia-200 dark:text-sepia-800"
+                  : "text-sepia-800 dark:text-sepia-200"
+              }`}
+              style={{ fontSize: FONT_SIZE_MAP[size] }}
+            >
+              {size}
+            </Text>
+          </TouchableOpacity>
+        ))}
+      </View>
+    </View>
+  );
+};
 
 const NotificationToggle = ({
   title,

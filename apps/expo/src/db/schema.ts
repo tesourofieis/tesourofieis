@@ -12,8 +12,7 @@ export const docs = sqliteTable("docs", {
 });
 
 export const settings = sqliteTable("settings", {
-  id: integer("id").primaryKey(),
-  fontSizeMultiplier: real("font_size_multiplier").notNull().default(1),
+  fontSize: text("font_size").notNull().default("normal"),
   angelusEnabled: integer("angelus_enabled", { mode: "boolean" })
     .notNull()
     .default(true),
@@ -34,7 +33,6 @@ export const settings = sqliteTable("settings", {
   })
     .notNull()
     .default(false),
-  lastPromptDate: text("last_prompt_date"),
 });
 
 export type Docs = typeof docs.$inferSelect;

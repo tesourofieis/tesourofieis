@@ -1,5 +1,4 @@
 import { eq, sql } from "drizzle-orm";
-import * as cheerio from "cheerio";
 import type { Docs, SubHeading } from "~/app/(tabs)/more";
 import { getDb, mapDbDocToDocs } from "~/db/db";
 import { docs } from "~/db/schema";

@@ -33,6 +33,29 @@ export default {
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
+      fontSize: {
+        // These already use CSS variables and are handled correctly by your PageWrapper
+        xs: ["var(--font-size-xs)", { lineHeight: "var(--line-height-xs)" }],
+        sm: ["var(--font-size-sm)", { lineHeight: "var(--line-height-sm)" }],
+        base: [
+          "var(--font-size-base)",
+          { lineHeight: "var(--line-height-base)" },
+        ],
+        lg: ["var(--font-size-lg)", { lineHeight: "var(--line-height-lg)" }],
+        xl: ["var(--font-size-xl)", { lineHeight: "var(--line-height-xl)" }],
+        "2xl": [
+          "var(--font-size-2xl)",
+          { lineHeight: "var(--line-height-2xl)" },
+        ],
+        "3xl": [
+          "var(--font-size-3xl)",
+          { lineHeight: "var(--line-height-3xl)" },
+        ],
+        "4xl": [
+          "var(--font-size-4xl)",
+          { lineHeight: "var(--line-height-4xl)" },
+        ],
+      },
       fontFamily: {
         serif: ["DMSerifText_400Regular", ...defaultTheme.fontFamily.serif],
         display: ["DMSerifDisplay_400Regular", "cursive"],
@@ -45,9 +68,11 @@ export default {
         sans: ["NotoSans-Regular", ...defaultTheme.fontFamily.sans],
       },
       colors: {
+        // Keep these definitions. Tailwind still needs them to generate classes like `bg-sepia-100` if you use them directly.
+        // Your custom classes in global.css will now prefer the CSS variables.
         gray: sepia,
         sepia: sepia,
-        red: burgundy,
+        red: burgundy, // Naming this `red` is important if you want `text-red-500` to work directly.
       },
     },
   },

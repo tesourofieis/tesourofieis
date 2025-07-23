@@ -18,6 +18,7 @@ import type { Settings } from "~/db/schema";
 import { getSettings, updateSettings } from "~/services/settings";
 import { useCalendar } from "./calendar";
 import { burgundy } from "tailwind.config";
+import { FontSize } from "~/app/(tabs)/notificacoes";
 
 const NOTIFICATIONS = {
   ANGELUS: {
@@ -82,7 +83,7 @@ const prefKeyMap = {
 
 // --- Define the Context's Shape ---
 type SettingsContextType = {
-  settings: Settings | null;
+  settings: Settings;
   isLoading: boolean;
   setNotificationPref: (
     key: keyof typeof prefKeyMap,
@@ -91,6 +92,7 @@ type SettingsContextType = {
   list: Notifications.NotificationRequest[];
   permissionStatus: Notifications.PermissionStatus;
   requestPermission: () => Promise<boolean>;
+  setFontSize: (fontSize: FontSize) => Promise<void>;
   openSettings: () => Promise<void>;
   isSoftRejected: boolean;
 };
@@ -115,10 +117,14 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
     );
 
   // --- Core Functions ---
-  const updateSetting = useCallback(async (newValues: Partial<Settings>) => {
-    const updated = await updateSettings(newValues);
-    setSettings(updated);
-  }, []);
+  const updateSetting = useCallback(
+    async (newValues: Partial<Settings>) => {
+      console.debug("updateSetting", newValues);
+      const updated = await updateSettings(newValues);
+      setSettings(updated);
+    },
+    [setSettings]
+  );
 
   const checkPermissionStatus = useCallback(async () => {
     const { status } = await Notifications.getPermissionsAsync();
@@ -185,7 +191,6 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
     if (!shouldProceed) {
       await updateSetting({
         permissionSoftRejected: true,
-        lastPromptDate: new Date().toISOString(),
       });
       return false;
     }
@@ -361,7 +366,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       }
     };
     init();
-  }, [checkPermissionStatus]);
+  }, []);
 
   // Re-sync notifications if permissions or settings change
   useEffect(() => {
@@ -394,12 +399,21 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
     [permissionStatus, requestPermission, updateSetting]
   );
 
+  const setFontSize = useCallback(
+    async (fontSize: FontSize) => {
+      console.debug("setFontSize", fontSize);
+      await updateSetting({ fontSize: fontSize });
+    },
+    [updateSetting]
+  );
+
   return (
     <SettingsContext.Provider
       value={{
         settings,
         isLoading,
         setNotificationPref,
+        setFontSize,
         list,
         permissionStatus,
         requestPermission,
