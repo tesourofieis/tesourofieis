@@ -1,16 +1,14 @@
 import { createContext, useContext, ReactNode } from "react";
-import { vars } from "nativewind";
 import { useSettings } from "~/providers/settings";
-import { FontSize } from "~/app/(tabs)/notificacoes";
-import { View } from "react-native";
+import { FontSize } from "~/app/(tabs)/configurar";
 
 type FontVariables = Record<string, string>;
 const FontContext = createContext<FontVariables>({});
 
 const BASE_SCALE_FACTORS = {
-  small: 0.875,
+  small: 0.9,
   normal: 1.0,
-  big: 1.25,
+  big: 1.1,
 } as const;
 
 const FONT_DEFINITIONS = {

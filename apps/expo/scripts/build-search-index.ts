@@ -1,9 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
 import { globSync } from "glob";
-import { drizzle } from "drizzle-orm/better-sqlite3";
-import Database from "better-sqlite3";
-import { docs } from "~/db/schema";
 import type { Docs } from "~/app/(tabs)/more";
 
 function slugify(text: string): string {
@@ -33,7 +30,6 @@ function extractTextFromNestedTags(content: string): string[] {
     const tagEnd = content.indexOf(">", openTag);
     if (tagEnd === -1) break;
 
-    // Find the matching closing tag by counting nested tags
     let depth = 1;
     let currentIndex = tagEnd + 1;
     let textContent = "";
@@ -329,8 +325,8 @@ function processFile(file: string, baseDir: string): Docs | null {
   }
 }
 
-function buildDatabase(): void {
-  console.log("🔍 Iniciando indexação e construção do banco de dados...");
+function buildJsonDocs(): void {
+  console.log("🔍 Iniciando indexação e construção do arquivo JSON...");
 
   const targetDirs: string[] = [
     "canticos",
@@ -340,70 +336,17 @@ function buildDatabase(): void {
     "ritual",
   ];
   const baseDir: string = "src/app";
-  const dbPath: string = path.resolve("./assets/docs.db");
+  const jsonFilePath: string = path.resolve("./assets/docs.json");
 
   const outDir: string = path.resolve("./assets");
   if (!fs.existsSync(outDir)) {
     fs.mkdirSync(outDir, { recursive: true });
   }
 
-  if (fs.existsSync(dbPath)) {
-    fs.unlinkSync(dbPath);
-    console.log(`🗑️ Removido banco de dados existente: ${dbPath}`);
+  if (fs.existsSync(jsonFilePath)) {
+    fs.unlinkSync(jsonFilePath);
+    console.log(`🗑️ Removido arquivo JSON existente: ${jsonFilePath}`);
   }
-
-  const sqlite = new Database(dbPath);
-  const db = drizzle(sqlite);
-
-  sqlite.exec(`
-    CREATE TABLE IF NOT EXISTS docs (
-      id TEXT PRIMARY KEY,
-      title TEXT NOT NULL,
-      url TEXT NOT NULL UNIQUE,
-      level INTEGER NOT NULL,
-      section TEXT,
-      parent TEXT,
-      hasChildren INTEGER NOT NULL,
-      content_json TEXT NOT NULL
-    );
-  `);
-
-  sqlite.exec(`
-    CREATE TABLE IF NOT EXISTS settings (
-      id INTEGER PRIMARY KEY,
-      font_size TEXT NOT NULL DEFAULT "normal",
-      angelus_enabled INTEGER NOT NULL DEFAULT 1,
-      mass_enabled INTEGER NOT NULL DEFAULT 1,
-      novena_enabled INTEGER NOT NULL DEFAULT 1,
-      office_enabled INTEGER NOT NULL DEFAULT 0,
-      permission_requested INTEGER NOT NULL DEFAULT 0,
-      permission_soft_rejected INTEGER NOT NULL DEFAULT 0
-    );
-  `);
-
-  sqlite.exec(`
-    CREATE VIRTUAL TABLE docs_fts USING fts5(
-      id,
-      title,
-      search_body,
-      tokenize = 'unicode61 remove_diacritics 2',
-      prefix = '2 3 4'
-    );
-  `);
-
-  sqlite.exec(`
-    INSERT INTO settings (
-      font_size,
-      angelus_enabled,
-      mass_enabled,
-      novena_enabled,
-      office_enabled,
-      permission_requested,
-      permission_soft_rejected
-  ) VALUES ('normal', 1, 1, 1, 0, 0, 0);
-  `);
-
-  console.log("✅ Tabelas docs, settings e docs_fts criadas");
 
   let files: string[] = [];
   for (const pattern of targetDirs.map((dir) =>
@@ -421,55 +364,31 @@ function buildDatabase(): void {
 
   const processedDocs: Docs[] = [];
 
-  files.forEach((file) => {
+  files.forEach((file, index) => {
     const doc = processFile(file, baseDir);
-    if (doc) processedDocs.push(doc);
+    if (doc) {
+      processedDocs.push(doc);
+    }
+
+    if ((index + 1) % 500 === 0 || index === files.length - 1) {
+      console.log(`   Processados ${index + 1}/${files.length} documentos...`);
+    }
   });
 
-  sqlite.transaction(() => {
-    processedDocs.forEach((doc, index) => {
-      const fullSearchableBody = [
-        doc.content.introduction,
-        ...doc.content.headings.map((h) => `${h.title} ${h.body}`),
-        doc.content.comment,
-      ]
-        .filter(Boolean)
-        .join(" ")
-        .replace(/\s+/g, " ")
-        .trim();
+  try {
+    fs.writeFileSync(
+      jsonFilePath,
+      JSON.stringify(processedDocs, null, 2),
+      "utf-8"
+    );
+    console.log(
+      `✅ ${processedDocs.length} documentos salvos em: ${jsonFilePath}`
+    );
+  } catch (error: any) {
+    console.error(`❌ Erro ao salvar o arquivo JSON:`, error.message);
+  }
 
-      db.insert(docs)
-        .values({
-          id: doc.id,
-          title: doc.title,
-          url: doc.url,
-          level: doc.level,
-          section: doc.section,
-          parent: doc.parent,
-          hasChildren: doc.hasChildren,
-          contentJson: JSON.stringify(doc.content),
-        })
-        .run();
-
-      sqlite
-        .prepare(
-          `INSERT INTO docs_fts (id, title, search_body) VALUES (?, ?, ?)`
-        )
-        .run(doc.id, doc.title, fullSearchableBody);
-
-      if ((index + 1) % 500 === 0 || index === processedDocs.length - 1) {
-        console.log(
-          `   Processados ${index + 1}/${processedDocs.length} documentos...`
-        );
-      }
-    });
-  })();
-
-  const docCount = db.select().from(docs).all().length;
-  console.log(`✅ Indexados ${docCount} documentos no SQLite.`);
-
-  sqlite.close();
-  console.log(`📊 Banco de dados SQLite criado com sucesso em: ${dbPath}`);
+  console.log(`📊 Geração do arquivo JSON concluída!`);
 }
 
-buildDatabase();
+buildJsonDocs();

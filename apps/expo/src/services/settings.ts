@@ -1,88 +1,61 @@
-import { eq } from "drizzle-orm";
-import { getDb } from "~/db/db";
-import { type Settings, settings } from "~/db/schema";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import { Settings } from "~/providers/settings";
+
+const SETTINGS_STORAGE_KEY = "app_settings";
+
+const DEFAULT_SETTINGS: Settings = {
+  fontSize: "normal",
+  angelusEnabled: true,
+  massEnabled: true,
+  novenaEnabled: true,
+  officeEnabled: false,
+  permissionRequested: false,
+  permissionSoftRejected: false,
+};
 
 export async function getSettings(): Promise<Settings> {
-  const db = await getDb();
-
-  const allRows = db.select().from(settings).all();
-  console.log("All settings rows:", allRows);
-
-  const existingSettings = db.select().from(settings).get();
-
-  console.log("Existing settings:", existingSettings);
-
-  if (existingSettings) {
-    return existingSettings;
+  console.log("Attempting to retrieve settings from AsyncStorage...");
+  try {
+    const jsonValue = await AsyncStorage.getItem(SETTINGS_STORAGE_KEY);
+    if (jsonValue != null) {
+      const parsedSettings: Settings = JSON.parse(jsonValue);
+      console.log("Settings retrieved from AsyncStorage:", parsedSettings);
+      return parsedSettings;
+    } else {
+      console.log("No settings found in AsyncStorage, returning default.");
+      await AsyncStorage.setItem(
+        SETTINGS_STORAGE_KEY,
+        JSON.stringify(DEFAULT_SETTINGS)
+      );
+      return DEFAULT_SETTINGS;
+    }
+  } catch (e: any) {
+    console.error("Error retrieving settings from AsyncStorage:", e);
+    // Fallback to default in case of any read error
+    return DEFAULT_SETTINGS;
   }
-
-  const defaultSettings = db
-    .insert(settings)
-    .values({
-      angelusEnabled: true,
-      fontSize: "normal",
-      massEnabled: true,
-      novenaEnabled: true,
-      officeEnabled: false,
-    })
-    .returning()
-    .get();
-
-  return defaultSettings;
 }
 
 export async function updateSettings(
   newValues: Partial<Settings>
 ): Promise<Settings> {
   console.debug("updateSettings called with:", newValues);
-  const db = await getDb();
-
-  // Check if the record exists before updating
-  // Add a try-catch block to specifically catch issues during selection
-  let existingRecord: Settings | undefined;
   try {
-    existingRecord = db.select().from(settings).get();
-    console.log("Existing record retrieved:", existingRecord);
-  } catch (selectError) {
-    console.error("Error retrieving existing record:", selectError);
-    // Depending on your application, you might want to re-throw or handle this
-    throw selectError;
+    const currentSettings = await getSettings();
+
+    const updatedSettings: Settings = {
+      ...currentSettings,
+      ...newValues,
+    };
+
+    await AsyncStorage.setItem(
+      SETTINGS_STORAGE_KEY,
+      JSON.stringify(updatedSettings)
+    );
+    console.log("Settings successfully updated and saved:", updatedSettings);
+    return updatedSettings;
+  } catch (e: any) {
+    console.error("Error updating settings in AsyncStorage:", e);
+    throw new Error(`Failed to update settings: ${e.message}`);
   }
-
-  // --- Crucial Debugging Step ---
-  // Log the exact value of existingRecord and its type
-  console.log(
-    `Type of existingRecord: ${typeof existingRecord}, Value:`,
-    existingRecord
-  );
-
-  if (!existingRecord) {
-    console.log("No record found, attempting to create one first...");
-    let inserted: Settings;
-    try {
-      inserted = db.insert(settings).values(newValues).returning().get();
-      console.log("Successfully inserted new record:", inserted);
-      return inserted; // Function returns here
-    } catch (insertError) {
-      console.error("Error inserting new record:", insertError);
-      // Re-throw the error so you can see it or handle it upstream
-      throw insertError;
-    }
-  }
-
-  console.log("Existing record found, attempting to update...");
-  let updatedSettings: Settings;
-  try {
-    updatedSettings = db.update(settings).set(newValues).returning().get();
-    console.log("Update result:", updatedSettings); // This is the log you're missing
-  } catch (updateError) {
-    console.error("Error updating existing record:", updateError);
-    throw updateError;
-  }
-
-  // Verify the update actually persisted
-  const afterUpdate = db.select().from(settings).get();
-  console.log("Record after update (verification):", afterUpdate);
-
-  return updatedSettings;
 }

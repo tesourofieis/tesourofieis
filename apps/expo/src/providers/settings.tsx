@@ -1,4 +1,5 @@
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
+import AsyncStorage from "@react-native-async-storage/async-storage"; // Import AsyncStorage
 import { addDays, subDays } from "date-fns";
 import * as Application from "expo-application";
 import * as IntentLauncher from "expo-intent-launcher";
@@ -14,11 +15,19 @@ import {
   useState,
 } from "react";
 import { Alert, Platform } from "react-native";
-import type { Settings } from "~/db/schema";
-import { getSettings, updateSettings } from "~/services/settings";
 import { useCalendar } from "./calendar";
 import { burgundy } from "tailwind.config";
-import { FontSize } from "~/app/(tabs)/notificacoes";
+import { FontSize } from "~/app/(tabs)/configurar";
+
+export type Settings = {
+  fontSize: "small" | "normal" | "big";
+  angelusEnabled: boolean;
+  massEnabled: boolean;
+  novenaEnabled: boolean;
+  officeEnabled: boolean;
+  permissionRequested: boolean;
+  permissionSoftRejected: boolean;
+};
 
 const NOTIFICATIONS = {
   ANGELUS: {
@@ -73,7 +82,7 @@ function getColor(color?: string) {
   }
 }
 
-// Map UI keys to database schema keys for easier updates
+// Map UI keys to "actual" settings keys for easier updates
 const prefKeyMap = {
   ANGELUS: "angelusEnabled",
   MASS: "massEnabled",
@@ -81,9 +90,23 @@ const prefKeyMap = {
   OFFICE: "officeEnabled",
 } as const;
 
+// Define a key for your settings in AsyncStorage
+const SETTINGS_STORAGE_KEY = "app_settings";
+
+// Default settings object - ensure this matches your Settings type
+const DEFAULT_SETTINGS: Settings = {
+  fontSize: "normal",
+  angelusEnabled: true,
+  massEnabled: true,
+  novenaEnabled: true,
+  officeEnabled: false,
+  permissionRequested: false,
+  permissionSoftRejected: false,
+};
+
 // --- Define the Context's Shape ---
 type SettingsContextType = {
-  settings: Settings;
+  settings: Settings; // No longer nullable if you provide defaults
   isLoading: boolean;
   setNotificationPref: (
     key: keyof typeof prefKeyMap,
@@ -108,7 +131,8 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   const { calendar, novenas } = useCalendar();
 
   // --- State Management ---
-  const [settings, setSettings] = useState<Settings | null>(null);
+  // Initialize with DEFAULT_SETTINGS to ensure 'settings' is never null in consuming components
+  const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS);
   const [isLoading, setIsLoading] = useState(true);
   const [list, setList] = useState<Notifications.NotificationRequest[]>([]);
   const [permissionStatus, setPermissionStatus] =
@@ -116,14 +140,72 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       Notifications.PermissionStatus.UNDETERMINED
     );
 
-  // --- Core Functions ---
+  // --- AsyncStorage Functions (moved from services/settings.ts) ---
+
+  const getSettingsFromStorage = useCallback(async (): Promise<Settings> => {
+    console.log("Attempting to retrieve settings from AsyncStorage...");
+    try {
+      const jsonValue = await AsyncStorage.getItem(SETTINGS_STORAGE_KEY);
+      if (jsonValue != null) {
+        const parsedSettings: Settings = JSON.parse(jsonValue);
+        console.log("Settings retrieved from AsyncStorage:", parsedSettings);
+        // Merge with defaults to ensure all keys exist in case of schema evolution
+        return { ...DEFAULT_SETTINGS, ...parsedSettings };
+      } else {
+        console.log("No settings found in AsyncStorage, using default.");
+        // Store defaults if not found for future consistency
+        await AsyncStorage.setItem(
+          SETTINGS_STORAGE_KEY,
+          JSON.stringify(DEFAULT_SETTINGS)
+        );
+        return DEFAULT_SETTINGS;
+      }
+    } catch (e: any) {
+      console.error("Error retrieving settings from AsyncStorage:", e);
+      // Fallback to default in case of any read error
+      return DEFAULT_SETTINGS;
+    }
+  }, []); // No dependencies, as DEFAULT_SETTINGS is a constant
+
+  const updateSettingsInStorage = useCallback(
+    async (newValues: Partial<Settings>): Promise<Settings> => {
+      console.debug("updateSettingsInStorage called with:", newValues);
+      try {
+        // Get current settings (already managed by useState)
+        const currentSettings = settings;
+
+        // Merge new values with current settings
+        const updatedSettings: Settings = {
+          ...currentSettings,
+          ...newValues,
+        };
+
+        // Save the merged settings back to AsyncStorage
+        await AsyncStorage.setItem(
+          SETTINGS_STORAGE_KEY,
+          JSON.stringify(updatedSettings)
+        );
+        console.log(
+          "Settings successfully updated and saved:",
+          updatedSettings
+        );
+        return updatedSettings;
+      } catch (e: any) {
+        console.error("Error updating settings in AsyncStorage:", e);
+        throw new Error(`Failed to update settings: ${e.message}`);
+      }
+    },
+    [settings] // Dependency: `settings` state for merging
+  );
+
+  // --- Core Functions (remaining as is, using `updateSettingsInStorage`) ---
   const updateSetting = useCallback(
     async (newValues: Partial<Settings>) => {
-      console.debug("updateSetting", newValues);
-      const updated = await updateSettings(newValues);
-      setSettings(updated);
+      console.debug("updateSetting (internal)", newValues);
+      const updated = await updateSettingsInStorage(newValues);
+      setSettings(updated); // Update React state after successful storage update
     },
-    [setSettings]
+    [updateSettingsInStorage]
   );
 
   const checkPermissionStatus = useCallback(async () => {
@@ -152,64 +234,6 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
     }
   }, []);
 
-  const requestPermission = useCallback(async () => {
-    if (!settings) return false;
-
-    const { status: currentStatus } = await Notifications.getPermissionsAsync();
-    if (currentStatus === "granted") {
-      setPermissionStatus(Notifications.PermissionStatus.GRANTED);
-      await updateSetting({ permissionSoftRejected: false });
-      return true;
-    }
-
-    if (
-      currentStatus === Notifications.PermissionStatus.DENIED &&
-      settings.permissionRequested
-    ) {
-      Alert.alert(
-        "Notificações desativadas",
-        "Para receber lembretes de oração, por favor active as notificações nas configurações do sistema.",
-        [
-          { text: "Mais tarde", style: "cancel" },
-          { text: "Abrir Configurações", onPress: openSettings },
-        ]
-      );
-      return false;
-    }
-
-    const shouldProceed = await new Promise<boolean>((resolve) => {
-      Alert.alert(
-        "Notificações do Tesouro dos Fiéis",
-        "Pode configurar as notificações para o Angelus, a Missa do Dia, as Novenas ou o Pequeno Oficio",
-        [
-          { text: "Agora não", style: "cancel", onPress: () => resolve(false) },
-          { text: "Permitir", onPress: () => resolve(true) },
-        ]
-      );
-    });
-
-    if (!shouldProceed) {
-      await updateSetting({
-        permissionSoftRejected: true,
-      });
-      return false;
-    }
-
-    const { status } = await Notifications.requestPermissionsAsync();
-    setPermissionStatus(status);
-    await updateSetting({
-      permissionRequested: true,
-      permissionSoftRejected: false,
-    });
-
-    if (status === "granted") {
-      // Immediately sync notifications after permission is granted
-      await syncNotifications();
-    }
-
-    return status === "granted";
-  }, [openSettings, settings, updateSetting]);
-
   const scheduleNotification = useCallback(
     async (
       notification: Notifications.NotificationRequestInput,
@@ -225,13 +249,20 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   );
 
   const syncNotifications = useCallback(async () => {
+    // Only proceed if settings are loaded and permissions are granted
     if (permissionStatus !== "granted" || !settings) {
+      console.log(
+        "Cancelling all scheduled notifications due to permissions or settings state."
+      );
       await Notifications.cancelAllScheduledNotificationsAsync();
-      setList([]);
+      setList([]); // Clear current list of notifications
       return;
     }
 
-    await Notifications.cancelAllScheduledNotificationsAsync();
+    console.log(
+      "Syncing notifications based on current settings and permissions."
+    );
+    await Notifications.cancelAllScheduledNotificationsAsync(); // Clear existing to prevent duplicates
 
     // Schedule Angelus
     if (settings.angelusEnabled) {
@@ -323,8 +354,6 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         }
       }
     }
-    // --- Effects ---
-
     // Schedule Office
     if (settings.officeEnabled) {
       for (const office of NOTIFICATIONS.OFFICE.times) {
@@ -352,12 +381,70 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
     setList(scheduled);
   }, [permissionStatus, settings, calendar, novenas, scheduleNotification]);
 
-  // Initial load from database
+  const requestPermission = useCallback(async () => {
+    if (!settings) return false; // Should not happen with default initialization
+
+    const { status: currentStatus } = await Notifications.getPermissionsAsync();
+    if (currentStatus === "granted") {
+      setPermissionStatus(Notifications.PermissionStatus.GRANTED);
+      await updateSetting({ permissionSoftRejected: false });
+      return true;
+    }
+
+    if (
+      currentStatus === Notifications.PermissionStatus.DENIED &&
+      settings.permissionRequested === true
+    ) {
+      Alert.alert(
+        "Notificações desativadas",
+        "Para receber lembretes de oração, por favor active as notificações nas configurações do sistema.",
+        [
+          { text: "Mais tarde", style: "cancel" },
+          { text: "Abrir Configurações", onPress: openSettings },
+        ]
+      );
+      return false;
+    }
+
+    const shouldProceed = await new Promise<boolean>((resolve) => {
+      Alert.alert(
+        "Notificações do Tesouro dos Fiéis",
+        "Pode configurar as notificações para o Angelus, a Missa do Dia, as Novenas ou o Pequeno Oficio",
+        [
+          { text: "Agora não", style: "cancel", onPress: () => resolve(false) },
+          { text: "Permitir", onPress: () => resolve(true) },
+        ]
+      );
+    });
+
+    if (!shouldProceed) {
+      await updateSetting({
+        permissionSoftRejected: true,
+      });
+      return false;
+    }
+
+    const { status } = await Notifications.requestPermissionsAsync();
+    setPermissionStatus(status);
+    await updateSetting({
+      permissionRequested: true,
+      permissionSoftRejected: false,
+    });
+
+    if (status === "granted") {
+      // Immediately sync notifications after permission is granted
+      await syncNotifications();
+    }
+
+    return status === "granted";
+  }, [openSettings, settings, updateSetting, syncNotifications]);
+
+  // Initial load from AsyncStorage
   useEffect(() => {
     const init = async () => {
       try {
-        const loadedSettings = await getSettings();
-        setSettings(loadedSettings);
+        const loadedSettings = await getSettingsFromStorage();
+        setSettings(loadedSettings); // Set state with loaded settings
         await checkPermissionStatus();
       } catch (error) {
         console.error("Failed to initialize settings:", error);
@@ -366,12 +453,15 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       }
     };
     init();
-  }, []);
+  }, [getSettingsFromStorage, checkPermissionStatus]); // Dependencies
 
   // Re-sync notifications if permissions or settings change
   useEffect(() => {
-    syncNotifications();
-  }, [syncNotifications, permissionStatus, settings]);
+    // Only call syncNotifications if not in loading state and settings are loaded
+    if (!isLoading) {
+      syncNotifications();
+    }
+  }, [syncNotifications, isLoading]); // Dependency: isLoading, as syncNotifications depends on 'settings' being ready
 
   // Handle notification taps
   useEffect(() => {
@@ -418,7 +508,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         permissionStatus,
         requestPermission,
         openSettings,
-        isSoftRejected: settings?.permissionSoftRejected ?? false,
+        isSoftRejected: settings.permissionSoftRejected === true,
       }}
     >
       {children}

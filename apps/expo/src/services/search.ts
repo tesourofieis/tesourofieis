@@ -1,9 +1,8 @@
-import { eq, sql } from "drizzle-orm";
 import type { Docs, SubHeading } from "~/app/(tabs)/more";
-import { getDb, mapDbDocToDocs } from "~/db/db";
-import { docs } from "~/db/schema";
 
-export type DrizzleDocSelect = typeof docs.$inferSelect;
+import rawDocsData from "../../assets/docs.json";
+
+const allDocs: Docs[] = rawDocsData as Docs[];
 
 export interface SearchResult extends Docs {
   matchedHeading?: SubHeading;
@@ -17,10 +16,14 @@ const normalize = (s: string) =>
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase();
 
+const escapeRegExp = (text: string) => {
+  return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+};
+
 const extractContextualSnippet = (
   fullText: string | undefined | null,
   query: string,
-  wordContext = 10 // Number of words before and after
+  wordContext = 10
 ): string => {
   if (!fullText || !query.trim()) {
     return fullText || "";
@@ -30,47 +33,45 @@ const extractContextualSnippet = (
   const normalizedQuery = normalize(query.trim());
   const queryWords = normalizedQuery.split(/\s+/).filter(Boolean);
 
-  let bestSnippet = "";
-  let bestMatchIndex = -1;
-
-  // Find the first occurrence of any query word to get a starting point
-  for (const qWord of queryWords) {
-    const index = normalizedFullText.indexOf(qWord);
-    if (index !== -1) {
-      bestMatchIndex = index;
-      break;
-    }
-  }
-
-  if (bestMatchIndex === -1) {
-    // If no specific match found (e.g., FTS matched on synonyms not in raw text string),
-    // return a default truncated snippet or the full text.
+  if (queryWords.length === 0) {
     return fullText.length > 200
       ? `${fullText.substring(0, 200)}...`
       : fullText;
   }
 
-  // --- Logic for surrounding words ---
-  const words = fullText.split(/\s+/);
-  let wordIndex = 0;
-  let charCount = 0;
-  for (let i = 0; i < words.length; i++) {
-    if (
-      charCount <= bestMatchIndex &&
-      charCount + words[i].length >= bestMatchIndex
-    ) {
-      wordIndex = i;
-      break;
-    }
-    charCount += words[i].length + 1; // +1 for space
+  const queryRegex = new RegExp(queryWords.map(escapeRegExp).join("|"), "gi");
+
+  let bestSnippet = "";
+  let bestMatchIndex = -1;
+
+  const match = normalizedFullText.match(queryRegex);
+  if (match && match.index !== undefined) {
+    bestMatchIndex = match.index;
   }
 
-  const startIndex = Math.max(0, wordIndex - wordContext);
-  const endIndex = Math.min(words.length, wordIndex + wordContext + 1); // +1 because slice is exclusive
+  if (bestMatchIndex === -1) {
+    return fullText.length > 200
+      ? `${fullText.substring(0, 200)}...`
+      : fullText;
+  }
+
+  const words = fullText.split(/\s+/);
+  let charCount = 0;
+  let wordIndexAtMatch = 0;
+
+  for (let i = 0; i < words.length; i++) {
+    if (charCount + words[i].length >= bestMatchIndex) {
+      wordIndexAtMatch = i;
+      break;
+    }
+    charCount += words[i].length + 1;
+  }
+
+  const startIndex = Math.max(0, wordIndexAtMatch - wordContext);
+  const endIndex = Math.min(words.length, wordIndexAtMatch + wordContext + 1);
 
   const snippetWords = words.slice(startIndex, endIndex);
 
-  // Add ellipses if truncated
   if (startIndex > 0) {
     snippetWords.unshift("...");
   }
@@ -80,215 +81,195 @@ const extractContextualSnippet = (
 
   bestSnippet = snippetWords.join(" ");
 
-  // --- Optional: Logic for finding nearest punctuation for a "quote" ---
-  // This is more complex and depends on desired punctuation.
-  // For example, to find a sentence:
-  const sentenceEndings = /[.!?;]/; // Common sentence endings
-  const fullSentenceMatch = fullText.match(
-    new RegExp(
-      `${sentenceEndings}*${normalizedQuery}${sentenceEndings}*${sentenceEndings}?`,
-      "i"
-    )
+  const highlightRegex = new RegExp(
+    `(${queryWords.map(escapeRegExp).join("|")})`,
+    "gi"
   );
-  if (fullSentenceMatch?.[0]) {
-    // Prioritize full sentence if it's not too long and contains the match
-    if (fullSentenceMatch[0].length < 300) {
-      // Limit sentence length for snippet
-      bestSnippet = fullSentenceMatch[0].trim();
-    }
-  }
+  bestSnippet = bestSnippet.replace(highlightRegex, "<b>$1</b>");
 
   return bestSnippet;
 };
 
-// Modify search function
-export async function search(
-  query: string,
-  limit = 15
-): Promise<SearchResult[]> {
-  try {
-    const db = await getDb();
-    const normalizedQuery = query.trim();
-    const searchTerm = normalizedQuery
-      .split(/\s+/)
-      .map((word) => `"${word}"*`)
+const highlightTitle = (title: string, query: string): string => {
+  if (!query.trim()) return title;
+  const normalizedQuery = normalize(query.trim());
+  const queryWords = normalizedQuery.split(/\s+/).filter(Boolean);
+
+  if (queryWords.length === 0) return title;
+
+  const highlightRegex = new RegExp(
+    `(${queryWords.map(escapeRegExp).join("|")})`,
+    "gi"
+  );
+  return title.replace(highlightRegex, "<b>$1</b>");
+};
+
+export function search(query: string, limit = 15): SearchResult[] {
+  const normalizedQuery = normalize(query.trim());
+
+  if (!normalizedQuery) {
+    return [];
+  }
+
+  const queryTerms = normalizedQuery.split(/\s+/).filter(Boolean);
+
+  const filteredAndRankedDocs: {
+    doc: Docs;
+    rank: number;
+    matchedContentForSnippet?: string;
+  }[] = [];
+
+  for (const doc of allDocs) {
+    let rank = 0;
+    let matchedContentForSnippet: string | undefined;
+
+    const fullSearchableBody = [
+      doc.title,
+      doc.content.introduction,
+      ...doc.content.headings.map((h) => `${h.title} ${h.body}`),
+      doc.content.comment,
+    ]
+      .filter(Boolean)
+      .map(normalize)
       .join(" ");
 
-    // For FTS, we still get the highlighted title.
-    // We DON'T use highlight(docs_fts, 2, ...) anymore if we want custom snippets.
-    const ftsResultRows: {
-      id: string;
-      title: string; // FTS highlighted title
-      // We don't need search_body here if we're generating custom snippets.
-      // However, if you want FTS rank for ordering, keep the FTS query as is.
-    }[] = db.all(
-      sql`
-        SELECT
-          id,
-          highlight(docs_fts, 1, '<b>', '</b>') as title -- Still get highlighted title
-        FROM docs_fts
-        WHERE docs_fts MATCH ${searchTerm}
-        ORDER BY rank
-        LIMIT ${limit};
-      `
-    );
+    if (fullSearchableBody.includes(normalizedQuery)) {
+      rank += 100;
+    }
 
-    const docIds = ftsResultRows.map((row) => row.id).filter(Boolean);
-    const docsDataRows = db
-      .select()
-      .from(docs)
-      .where(
-        sql`${docs.id} IN (${sql.join(
-          docIds.map((id) => sql`${id}`),
-          sql`, `
-        )})`
-      )
-      .all();
+    for (const term of queryTerms) {
+      if (fullSearchableBody.includes(term)) {
+        rank += 10;
+      }
+    }
 
-    const ftsTitleMap = new Map(
-      ftsResultRows.map((row) => [row.id, row.title])
-    );
+    if (normalize(doc.title).includes(normalizedQuery)) {
+      rank += 200;
+      if (!matchedContentForSnippet) matchedContentForSnippet = doc.title;
+    }
 
-    const orderedResults = docIds
-      .map((id) => {
-        const doc = docsDataRows.find((d) => d.id === id);
-        const highlightedTitle = ftsTitleMap.get(id);
+    for (const heading of doc.content.headings) {
+      if (normalize(heading.title).includes(normalizedQuery)) {
+        rank += 150;
+        if (!matchedContentForSnippet) matchedContentForSnippet = heading.title;
+      }
+      if (normalize(heading.body).includes(normalizedQuery)) {
+        rank += 50;
+        if (!matchedContentForSnippet) matchedContentForSnippet = heading.body;
+      }
+    }
 
-        if (doc) {
-          const mappedDoc = mapDbDocToDocs(doc);
+    if (
+      doc.content.introduction &&
+      normalize(doc.content.introduction).includes(normalizedQuery)
+    ) {
+      rank += 30;
+      if (!matchedContentForSnippet)
+        matchedContentForSnippet = doc.content.introduction;
+    }
 
-          let matchedHeading: SubHeading | undefined;
-          let rawMatchedContent: string | undefined; // This will hold the full raw text of the matched section
+    if (
+      doc.content.comment &&
+      normalize(doc.content.comment).includes(normalizedQuery)
+    ) {
+      rank += 10;
+      if (!matchedContentForSnippet)
+        matchedContentForSnippet = doc.content.comment;
+    }
 
-          // Try to find the section that contains the query
-          // Prioritize headings, then introduction, then comment
-          const sectionsToCheck = [
-            { text: mappedDoc.content.introduction, type: "intro" },
-            ...mappedDoc.content.headings.map((h) => ({
-              text: h.title,
-              type: "heading-title",
-              heading: h,
-            })),
-            ...mappedDoc.content.headings.map((h) => ({
-              text: h.body,
-              type: "heading-body",
-              heading: h,
-            })),
-            { text: mappedDoc.content.comment, type: "comment" },
-          ];
-
-          for (const section of sectionsToCheck) {
-            if (
-              section.text &&
-              normalize(section.text).includes(normalizedQuery)
-            ) {
-              rawMatchedContent = section.text;
-              // @ts-ignore
-              if (section.type.startsWith("heading") && section.heading) {
-                // @ts-ignore
-                matchedHeading = section.heading;
-              }
-              break; // Found the first matching section, break
-            }
-          }
-
-          // If no specific section matched directly (maybe FTS matched a synonym or an edge case)
-          // Fallback to introduction or first heading body
-          if (!rawMatchedContent) {
-            rawMatchedContent =
-              mappedDoc.content.introduction ||
-              (mappedDoc.content.headings.length > 0
-                ? mappedDoc.content.headings[0].body
-                : undefined) ||
-              mappedDoc.content.comment;
-          }
-
-          const contextualSnippet = extractContextualSnippet(
-            rawMatchedContent,
-            query
-          );
-
-          return {
-            ...mappedDoc,
-            matchedHeading,
-            matchedText: contextualSnippet, // This is your custom snippet
-            highlightedTitle: highlightedTitle,
-          } as SearchResult;
-        }
-        return null;
-      })
-      .filter(Boolean) as SearchResult[];
-
-    return orderedResults;
-  } catch (e: any) {
-    console.error("Drizzle search error:", e);
-    throw new Error(`Search failed: ${e.message}`);
+    if (rank > 0) {
+      filteredAndRankedDocs.push({
+        doc: doc,
+        rank: rank,
+        matchedContentForSnippet:
+          matchedContentForSnippet || fullSearchableBody,
+      });
+    }
   }
-}
 
-export async function findBySlug(slug: string) {
-  if (!slug.trim()) return [];
+  filteredAndRankedDocs.sort((a, b) => {
+    if (b.rank !== a.rank) {
+      return b.rank - a.rank;
+    }
+    return a.doc.title.localeCompare(b.doc.title);
+  });
 
-  try {
-    const db = await getDb();
-    const targetUrlPrefix = `/${slug}/`;
+  const searchResults: SearchResult[] = filteredAndRankedDocs
+    .slice(0, limit)
+    .map((item) => {
+      let matchedHeading: SubHeading | undefined;
 
-    const results = db
-      .select()
-      .from(docs)
-      .where(sql`${docs.url} LIKE ${`${targetUrlPrefix}%`}`)
-      .all();
+      for (const heading of item.doc.content.headings) {
+        if (
+          (item.matchedContentForSnippet &&
+            normalize(heading.title).includes(normalizedQuery)) ||
+          (item.matchedContentForSnippet &&
+            normalize(heading.body).includes(normalizedQuery))
+        ) {
+          matchedHeading = heading;
+          break;
+        }
+      }
 
-    const filteredResults = results.filter((doc: DrizzleDocSelect) => {
-      if (!doc.url) return false;
-      if (!doc.url.startsWith(targetUrlPrefix)) return false;
-      const pathAfterSlug = doc.url.substring(targetUrlPrefix.length);
-      const segments = pathAfterSlug.split("/").filter(Boolean);
-      return segments.length === 1;
+      return {
+        ...item.doc,
+        matchedHeading: matchedHeading,
+        matchedText: extractContextualSnippet(
+          item.matchedContentForSnippet,
+          query
+        ),
+        highlightedTitle: highlightTitle(item.doc.title, query),
+      };
     });
 
-    return filteredResults.map(mapDbDocToDocs);
-  } catch (e: any) {
-    console.error("Drizzle findBySlug error:", e);
-    throw new Error(`Find by slug failed: ${e.message}`);
-  }
+  return searchResults;
 }
 
-export async function getAllTopLevelDocs(): Promise<Docs[]> {
-  console.debug("inside getAllTopLevelDocs");
-  try {
-    const db = await getDb();
-    const results = db.select().from(docs).where(eq(docs.level, 0)).all();
-    console.info(results);
-    return results.map(mapDbDocToDocs);
-  } catch (e: any) {
-    console.error("Failed to fetch top-level documents:", e);
-    throw new Error(`Failed to load initial documents: ${e.message}`);
-  }
-}
+export function findBySlug(slug: string): Docs[] {
+  if (!slug.trim()) return [];
 
-export async function getChildren(parent: string) {
-  try {
-    const db = await getDb();
-    const results = db.select().from(docs).where(eq(docs.parent, parent)).all();
-    return results.map(mapDbDocToDocs);
-  } catch (e: any) {
-    console.error("Failed to fetch children:", e);
-    throw new Error(`Failed to load children: ${e.message}`);
-  }
-}
+  const targetUrlPrefix = `/${slug}`;
 
-export async function getDocumentById(id: string) {
-  try {
-    const db = await getDb();
-    const result = db.select().from(docs).where(eq(docs.id, id)).get();
+  const results = allDocs.filter((doc: Docs) => {
+    const docUrlNormalized = doc.url.startsWith("/") ? doc.url : `/${doc.url}`;
+    const targetUrlNormalized = targetUrlPrefix.startsWith("/")
+      ? targetUrlPrefix
+      : `/${targetUrlPrefix}`;
 
-    if (result) {
-      return mapDbDocToDocs(result);
+    if (docUrlNormalized === targetUrlNormalized) {
+      return true;
     }
-    return null;
-  } catch (e: any) {
-    console.error("Drizzle getDocumentById error:", e);
-    throw new Error(`Get document failed: ${e.message}`);
-  }
+
+    if (docUrlNormalized.startsWith(`${targetUrlNormalized}/`)) {
+      const pathAfterSlug = docUrlNormalized.substring(
+        `${targetUrlNormalized}/`.length
+      );
+      const segments = pathAfterSlug.split("/").filter(Boolean);
+      return segments.length === 1;
+    }
+    return false;
+  });
+
+  results.sort((a, b) => a.title.localeCompare(b.title));
+
+  return results;
+}
+
+export function getAllTopLevelDocs(): Docs[] {
+  console.debug("inside getAllTopLevelDocs (JSON)");
+  const results = allDocs.filter((doc) => doc.level === 0);
+  console.info(`Found ${results.length} top-level docs.`);
+  results.sort((a, b) => a.title.localeCompare(b.title));
+  return results;
+}
+
+export function getChildren(parent: string): Docs[] {
+  const results = allDocs.filter((doc) => doc.parent === parent);
+  results.sort((a, b) => a.title.localeCompare(b.title));
+  return results;
+}
+
+export function getDocumentById(id: string): Docs | null {
+  const result = allDocs.find((doc) => doc.id === id);
+  return result || null;
 }

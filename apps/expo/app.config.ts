@@ -10,7 +10,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   newArchEnabled: true,
   platforms: ["android", "web", "ios"],
   githubUrl: "https://github.com/tesourofieis/tesourofieis",
-  version: "0.5.5",
+  version: "0.5.6",
   orientation: "portrait",
   icon: "./assets/images/icon.png",
   userInterfaceStyle: "automatic",
@@ -80,7 +80,6 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   plugins: [
     "expo-router",
-    ["expo-sqlite", { enableFTS: true, enableWebSupport: true }],
     "expo-notifications",
     "expo-secure-store",
     [

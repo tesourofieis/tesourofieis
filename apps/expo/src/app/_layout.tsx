@@ -30,8 +30,6 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { SettingsProvider } from "~/providers/settings";
-import { SQLiteProvider } from "expo-sqlite";
-import { migrateDatabase } from "~/db/db";
 import { burgundy } from "tailwind.config";
 import { FontProvider } from "~/providers/fonts";
 
@@ -104,21 +102,19 @@ export default function PageRootLayout() {
   }
 
   return (
-    <SQLiteProvider onInit={migrateDatabase} databaseName="docs.db">
-      <CalendarProvider>
-        <SettingsProvider>
-          <FontProvider>
-            {Platform.OS === "web" ? (
+    <CalendarProvider>
+      <SettingsProvider>
+        <FontProvider>
+          {Platform.OS === "web" ? (
+            <RootLayoutNav />
+          ) : (
+            <GestureHandlerRootView>
               <RootLayoutNav />
-            ) : (
-              <GestureHandlerRootView>
-                <RootLayoutNav />
-              </GestureHandlerRootView>
-            )}
-          </FontProvider>
-        </SettingsProvider>
-      </CalendarProvider>
-    </SQLiteProvider>
+            </GestureHandlerRootView>
+          )}
+        </FontProvider>
+      </SettingsProvider>
+    </CalendarProvider>
   );
 }
 
@@ -262,7 +258,6 @@ const Breadcrumbs = () => {
 };
 
 const Header = ({ withBC }: { withBC: boolean }) => {
-  const path = usePathname();
   const router = useRouter();
 
   const { colorScheme } = useColorScheme();
