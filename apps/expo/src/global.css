@@ -4,9 +4,7 @@
 @config '../tailwind.config.ts';
 
 @layer base {
-  /* Define CSS Variables for colors */
   :root {
-    /* Sepia Palette */
     --color-sepia-900: #262624;
     --color-sepia-800: #2b2b29;
     --color-sepia-700: #32302f;
@@ -18,7 +16,6 @@
     --color-sepia-100: #eee6d9;
     --color-sepia-50: #f4eadd;
 
-    /* Burgundy Palette */
     --color-burgundy-900: #4a1a1c;
     --color-burgundy-800: #5c2022;
     --color-burgundy-700: #7d2d30;
@@ -29,31 +26,21 @@
     --color-burgundy-200: #e8b5b6;
     --color-burgundy-100: #f4e0e1;
 
-    /* Primary Accent Color (e.g., for red-500) */
-    --color-primary-accent: var(
-      --color-burgundy-500
-    ); /* Can be easily changed */
+    --color-primary-accent: var(--color-burgundy-500);
 
-    /* Scrollbar colors */
     --scrollbar-thumb-color: var(--color-sepia-900);
     --scrollbar-track-color: var(--color-sepia-800);
 
-    /* Text Colors */
     --text-color-base: var(--color-sepia-900);
     --text-color-dark-mode: var(--color-sepia-100);
-    --text-color-sepia: var(--color-sepia-900); /* Default for .text-sepia */
-    --text-color-sepia-dark: var(
-      --color-sepia-100
-    ); /* Dark mode for .text-sepia */
+    --text-color-sepia: var(--color-sepia-900);
+    --text-color-sepia-dark: var(--color-sepia-100);
   }
 
-  /* Dark mode overrides */
   html.dark {
     --text-color-sepia: var(--color-sepia-100);
-    --text-color-sepia-dark: var(--color-sepia-900); /* If needed to reverse */
-    --scrollbar-thumb-color: var(
-      --color-sepia-100
-    ); /* Example for dark mode scrollbar */
+    --text-color-sepia-dark: var(--color-sepia-900);
+    --scrollbar-thumb-color: var(--color-sepia-100);
     --scrollbar-track-color: var(--color-sepia-900);
   }
 
@@ -177,28 +164,21 @@
   html {
     @apply w-full;
     scrollbar-width: thin;
-    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+    scrollbar-color: theme("colors.sepia.900") theme("colors.sepia.800");
   }
 
   .text-sepia {
-    /* Use CSS variables for colors directly */
-    color: var(--text-color-sepia);
-    @apply font-serif; /* Keep other Tailwind utilities */
+    @apply text-sepia-900 font-serif dark:text-sepia-100;
   }
 
   .border-sepia {
-    /* Use CSS variables for border colors with dark mode support */
-    border-color: var(--color-sepia-200);
-  }
-  html.dark .border-sepia {
-    border-color: var(--color-sepia-700);
+    @apply border-sepia-200 dark:border-sepia-700;
   }
 
   .heading1 {
     font-size: var(--heading-font-size-6xl);
     line-height: var(--heading-line-height-6xl);
-    @apply font-display text-pretty py-6 text-center;
-    color: var(--color-primary-accent);
+    @apply font-display text-pretty py-6 text-center text-burgundy-500;
     @apply heading-responsive-6xl;
   }
 
@@ -206,68 +186,63 @@
     @apply heading-responsive-5xl;
     font-size: var(--heading-font-size-5xl);
     line-height: var(--heading-line-height-5xl);
-    @apply text-center font-display text-pretty py-5;
-    color: var(--color-primary-accent);
+    @apply text-center font-display text-pretty py-5 text-burgundy-500;
   }
 
   .h3 {
     @apply heading-responsive-4xl;
     font-size: var(--heading-font-size-4xl);
     line-height: var(--heading-line-height-4xl);
-    @apply text-center font-display text-pretty py-4;
-    color: var(--text-color-sepia);
+    @apply text-center font-display text-pretty py-4 text-sepia-900 dark:text-sepia-100;
   }
 
   .h4 {
     @apply heading-responsive-3xl;
     font-size: var(--heading-font-size-3xl);
     line-height: var(--heading-line-height-3xl);
-    @apply text-center font-display text-pretty py-3;
-    color: var(--text-color-sepia);
+    @apply text-center font-display text-pretty py-3 text-sepia-900 dark:text-sepia-100;
   }
 
   .h5 {
     @apply heading-responsive-2xl;
     font-size: var(--heading-font-size-2xl);
     line-height: var(--heading-line-height-2xl);
-    @apply text-center font-display text-pretty py-2;
-    color: var(--text-color-sepia);
+    @apply text-center font-display text-pretty py-2 text-sepia-900 dark:text-sepia-100;
   }
 
   .h6 {
     @apply heading-responsive-xl;
     font-size: var(--heading-font-size-xl);
     line-height: var(--heading-line-height-xl);
-    @apply text-center text-pretty py-1;
-    color: var(--text-color-sepia);
+    @apply text-center text-pretty py-1 text-sepia-900 dark:text-sepia-100;
   }
 
   .card {
-    @apply flex items-center justify-center rounded-xl p-8 px-3 no-underline;
-    border: 1px solid var(--color-sepia-300);
-    background-color: var(--color-sepia-200);
-    color: var(--color-sepia-600);
+    @apply flex
+    items-center
+    justify-center
+    rounded-xl
+    p-8
+    px-3
+    no-underline
+    border
+    border-sepia-300
+    bg-sepia-200
+    text-sepia-600
+    dark:border-sepia-700
+    dark:bg-sepia-800
+    dark:text-sepia-300;
   }
   .card:hover {
-    background-color: var(--color-sepia-200); /* Or a specific hover var */
-  }
-  html.dark .card {
-    border-color: var(--color-sepia-700);
-    background-color: var(--color-sepia-800);
-    color: var(--color-sepia-300);
-  }
-  html.dark .card:hover {
-    background-color: var(--color-sepia-900);
+    @apply bg-sepia-200 dark:hover:bg-sepia-900;
   }
 
   .li {
-    @apply list-item ml-2 py-1;
-    color: var(--text-color-sepia);
+    @apply list-item ml-2 py-1 text-sepia-900 dark:text-sepia-100;
   }
 
   .bold {
-    @apply font-bold;
-    color: var(--text-color-sepia);
+    @apply font-bold text-sepia-900 dark:text-sepia-100;
   }
 
   .list-styled {
@@ -279,65 +254,66 @@
   .vernacular {
     font-size: var(--font-size-base);
     line-height: var(--line-height-base);
-    @apply py-2 font-serif px-3;
-    color: var(--text-color-sepia);
+    @apply py-2 font-serif px-3 text-sepia-900 dark:text-sepia-100;
     text-rendering: optimizeLegibility;
   }
 
   .cross {
-    color: var(--color-primary-accent);
+    @apply text-burgundy-500;
   }
 
   .response {
-    @apply font-bold;
-    color: var(--color-primary-accent);
+    @apply font-bold text-burgundy-500;
   }
 
   .versicle {
-    @apply font-bold;
+    @apply font-bold text-sepia-900 dark:text-sepia-100;
   }
 
   .link {
-    @apply underline;
-    color: var(--color-sepia-800);
-  }
-  html.dark .link {
-    color: var(--color-sepia-200);
+    @apply underline text-sepia-800 dark:text-sepia-200;
   }
 
   .aside {
-    @apply m-2 text-pretty rounded-xl p-4 my-4;
-    border-inline-start: 0.25rem solid;
-    background-color: var(--color-sepia-200);
-    border-color: var(--color-sepia-300);
-    color: var(--color-sepia-700);
-  }
-  html.dark .aside {
-    border-color: var(--color-sepia-700);
-    background-color: var(--color-sepia-800);
-    color: var(--color-sepia-300);
+    @apply m-2
+    text-pretty
+    rounded-xl
+    p-4
+    my-4
+    border-l-4
+    border-sepia-300
+    bg-sepia-200
+    text-sepia-700
+    dark:border-sepia-700
+    dark:bg-sepia-800
+    dark:text-sepia-300;
   }
 
   .comment {
-    @apply m-2 text-pretty rounded-xl p-4 my-4;
-    border-inline-start: 0.25rem solid;
-    background-color: var(--color-sepia-300);
-    border-color: var(--color-burgundy-500); /* Red 500 equivalent */
-    color: var(--color-sepia-800);
-  }
-  html.dark .comment {
-    border-color: var(--color-burgundy-700); /* Dark Red 700 equivalent */
-    background-color: var(--color-sepia-700);
-    color: var(--color-sepia-200);
+    @apply m-2
+    text-pretty
+    rounded-xl
+    p-4
+    my-4
+    border-l-4
+    border-burgundy-500
+    bg-sepia-300
+    text-sepia-800
+    dark:border-burgundy-700
+    dark:bg-sepia-700
+    dark:text-sepia-200;
   }
 
   .em {
-    @apply mx-1 text-pretty rounded-xl px-3 py-2 font-italic;
-    background-color: var(--color-sepia-200);
-    color: var(--color-sepia-700);
-  }
-  html.dark .em {
-    background-color: var(--color-sepia-800);
-    color: var(--color-sepia-300);
+    @apply mx-1
+    text-pretty
+    rounded-xl
+    px-3
+    py-2
+    font-italic
+    bg-sepia-200
+    text-sepia-700
+    dark:bg-sepia-800
+    dark:text-sepia-300;
   }
 }

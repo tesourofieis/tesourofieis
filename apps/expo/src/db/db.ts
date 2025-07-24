@@ -49,6 +49,7 @@ export async function migrateDatabase(db: SQLiteDatabase): Promise<void> {
       console.log("Creating settings table...");
       await db.execAsync(`
         CREATE TABLE IF NOT EXISTS settings (
+          id INTEGER PRIMARY KEY,
           font_size TEXT NOT NULL DEFAULT 'normal',
           angelus_enabled INTEGER NOT NULL DEFAULT 1,
           mass_enabled INTEGER NOT NULL DEFAULT 1,
@@ -74,13 +75,15 @@ export async function migrateDatabase(db: SQLiteDatabase): Promise<void> {
 
 async function ensureDatabase(): Promise<void> {
   try {
+    // More explicit asset loading with error handling
     let asset: Asset;
     try {
       asset = Asset.fromModule(require(`../../assets/${DATABASE_NAME}`));
       await asset.downloadAsync();
     } catch (assetError) {
-      console.error("Asset loading failed, trying fallback:", assetError);
-      const assetModule = require("../../assets/docs.db"); // Fallback to literal path
+      console.error("Asset loading failed:", assetError);
+      // Try alternative path resolution
+      const assetModule = require("../../assets/docs.db");
       asset = Asset.fromModule(assetModule);
       await asset.downloadAsync();
     }
@@ -103,11 +106,15 @@ async function ensureDatabase(): Promise<void> {
         from: asset.localUri,
         to: databasePath,
       });
-    }
-    // Remove the __DEV__ block that deletes and recopies
-    // This allows migrateDatabase to modify the copied file persistently.
-    else {
-      console.log("Database already exists. Skipping copy.");
+    } else if (__DEV__) {
+      console.log("In DEV mode, replacing existing database for fresh copy.");
+      await FileSystem.deleteAsync(databasePath, { idempotent: true });
+      await FileSystem.copyAsync({
+        from: asset.localUri,
+        to: databasePath,
+      });
+    } else {
+      console.log("Database already exists. Skipping copy in production.");
     }
   } catch (error) {
     console.error("Error ensuring database:", error);
@@ -120,7 +127,6 @@ export async function getDb() {
     try {
       await ensureDatabase();
       dbInstance = await openDatabaseAsync(DATABASE_NAME);
-      await migrateDatabase(dbInstance);
       drizzleInstance = drizzle(dbInstance, { schema });
       console.log("Database connection established successfully.");
     } catch (error) {

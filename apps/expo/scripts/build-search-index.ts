@@ -370,6 +370,7 @@ function buildDatabase(): void {
 
   sqlite.exec(`
     CREATE TABLE IF NOT EXISTS settings (
+      id INTEGER PRIMARY KEY,
       font_size TEXT NOT NULL DEFAULT "normal",
       angelus_enabled INTEGER NOT NULL DEFAULT 1,
       mass_enabled INTEGER NOT NULL DEFAULT 1,
@@ -399,7 +400,7 @@ function buildDatabase(): void {
       office_enabled,
       permission_requested,
       permission_soft_rejected
-    ) VALUES ('normal', 1, 1, 1, 0, 0, 0);
+  ) VALUES ('normal', 1, 1, 1, 0, 0, 0);
   `);
 
   console.log("✅ Tabelas docs, settings e docs_fts criadas");

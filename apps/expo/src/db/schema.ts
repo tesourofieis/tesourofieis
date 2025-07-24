@@ -12,6 +12,7 @@ export const docs = sqliteTable("docs", {
 });
 
 export const settings = sqliteTable("settings", {
+  id: integer("id").primaryKey(),
   fontSize: text("font_size").notNull().default("normal"),
   angelusEnabled: integer("angelus_enabled", { mode: "boolean" })
     .notNull()

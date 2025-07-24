@@ -73,6 +73,7 @@ export default {
         gray: sepia,
         sepia: sepia,
         red: burgundy, // Naming this `red` is important if you want `text-red-500` to work directly.
+        burgundy: burgundy, // Naming this `red` is important if you want `text-red-500` to work directly.
       },
     },
   },
