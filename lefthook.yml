@@ -1,4 +1,9 @@
 pre-commit:
   commands:
     check:
+      run: pnpm lint
+
+pre-push:
+  commands:
+    check:
       run: pnpm check

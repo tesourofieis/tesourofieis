@@ -1,10 +1,9 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { Settings } from "~/providers/settings";
+import type { Settings } from "~/providers/settings";
 
 const SETTINGS_STORAGE_KEY = "app_settings";
 
 const DEFAULT_SETTINGS: Settings = {
-  fontSize: "normal",
   angelusEnabled: true,
   massEnabled: true,
   novenaEnabled: true,

@@ -1,5 +1,5 @@
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
-import AsyncStorage from "@react-native-async-storage/async-storage"; // Import AsyncStorage
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import { addDays, subDays } from "date-fns";
 import * as Application from "expo-application";
 import * as IntentLauncher from "expo-intent-launcher";
@@ -17,10 +17,8 @@ import {
 import { Alert, Platform } from "react-native";
 import { useCalendar } from "./calendar";
 import { burgundy } from "tailwind.config";
-import { FontSize } from "~/app/(tabs)/configurar";
 
 export type Settings = {
-  fontSize: "small" | "normal" | "big";
   angelusEnabled: boolean;
   massEnabled: boolean;
   novenaEnabled: boolean;
@@ -68,21 +66,20 @@ const NOTIFICATIONS = {
 function getColor(color?: string) {
   switch (color) {
     case "w":
-      return "#FFFFFFFF"; // white
+      return "#FFFFFFFF";
     case "r":
-      return burgundy[500]; // red
+      return burgundy[500];
     case "g":
-      return "#FF00FF00"; // green
+      return "#FF00FF00";
     case "v":
-      return "#FFEE82EE"; // violet
+      return "#FFEE82EE";
     case "b":
-      return "#FF000000"; // black
+      return "#FF000000";
     default:
-      return "#FF808080"; // gray
+      return "#FF808080";
   }
 }
 
-// Map UI keys to "actual" settings keys for easier updates
 const prefKeyMap = {
   ANGELUS: "angelusEnabled",
   MASS: "massEnabled",
@@ -90,12 +87,9 @@ const prefKeyMap = {
   OFFICE: "officeEnabled",
 } as const;
 
-// Define a key for your settings in AsyncStorage
 const SETTINGS_STORAGE_KEY = "app_settings";
 
-// Default settings object - ensure this matches your Settings type
 const DEFAULT_SETTINGS: Settings = {
-  fontSize: "normal",
   angelusEnabled: true,
   massEnabled: true,
   novenaEnabled: true,
@@ -104,9 +98,8 @@ const DEFAULT_SETTINGS: Settings = {
   permissionSoftRejected: false,
 };
 
-// --- Define the Context's Shape ---
 type SettingsContextType = {
-  settings: Settings; // No longer nullable if you provide defaults
+  settings: Settings;
   isLoading: boolean;
   setNotificationPref: (
     key: keyof typeof prefKeyMap,
@@ -115,23 +108,18 @@ type SettingsContextType = {
   list: Notifications.NotificationRequest[];
   permissionStatus: Notifications.PermissionStatus;
   requestPermission: () => Promise<boolean>;
-  setFontSize: (fontSize: FontSize) => Promise<void>;
   openSettings: () => Promise<void>;
   isSoftRejected: boolean;
 };
 
-// --- Create the Context ---
 const SettingsContext = createContext<SettingsContextType | undefined>(
   undefined
 );
 
-// --- Create the Provider Component ---
 export function SettingsProvider({ children }: React.PropsWithChildren) {
   const router = useRouter();
   const { calendar, novenas } = useCalendar();
 
-  // --- State Management ---
-  // Initialize with DEFAULT_SETTINGS to ensure 'settings' is never null in consuming components
   const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS);
   const [isLoading, setIsLoading] = useState(true);
   const [list, setList] = useState<Notifications.NotificationRequest[]>([]);
@@ -140,20 +128,13 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       Notifications.PermissionStatus.UNDETERMINED
     );
 
-  // --- AsyncStorage Functions (moved from services/settings.ts) ---
-
   const getSettingsFromStorage = useCallback(async (): Promise<Settings> => {
-    console.log("Attempting to retrieve settings from AsyncStorage...");
     try {
       const jsonValue = await AsyncStorage.getItem(SETTINGS_STORAGE_KEY);
       if (jsonValue != null) {
         const parsedSettings: Settings = JSON.parse(jsonValue);
-        console.log("Settings retrieved from AsyncStorage:", parsedSettings);
-        // Merge with defaults to ensure all keys exist in case of schema evolution
         return { ...DEFAULT_SETTINGS, ...parsedSettings };
       } else {
-        console.log("No settings found in AsyncStorage, using default.");
-        // Store defaults if not found for future consistency
         await AsyncStorage.setItem(
           SETTINGS_STORAGE_KEY,
           JSON.stringify(DEFAULT_SETTINGS)
@@ -162,32 +143,21 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       }
     } catch (e: any) {
       console.error("Error retrieving settings from AsyncStorage:", e);
-      // Fallback to default in case of any read error
       return DEFAULT_SETTINGS;
     }
-  }, []); // No dependencies, as DEFAULT_SETTINGS is a constant
+  }, []);
 
   const updateSettingsInStorage = useCallback(
     async (newValues: Partial<Settings>): Promise<Settings> => {
-      console.debug("updateSettingsInStorage called with:", newValues);
       try {
-        // Get current settings (already managed by useState)
         const currentSettings = settings;
-
-        // Merge new values with current settings
         const updatedSettings: Settings = {
           ...currentSettings,
           ...newValues,
         };
-
-        // Save the merged settings back to AsyncStorage
         await AsyncStorage.setItem(
           SETTINGS_STORAGE_KEY,
           JSON.stringify(updatedSettings)
-        );
-        console.log(
-          "Settings successfully updated and saved:",
-          updatedSettings
         );
         return updatedSettings;
       } catch (e: any) {
@@ -195,15 +165,13 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         throw new Error(`Failed to update settings: ${e.message}`);
       }
     },
-    [settings] // Dependency: `settings` state for merging
+    [settings]
   );
 
-  // --- Core Functions (remaining as is, using `updateSettingsInStorage`) ---
   const updateSetting = useCallback(
     async (newValues: Partial<Settings>) => {
-      console.debug("updateSetting (internal)", newValues);
       const updated = await updateSettingsInStorage(newValues);
-      setSettings(updated); // Update React state after successful storage update
+      setSettings(updated);
     },
     [updateSettingsInStorage]
   );
@@ -249,22 +217,14 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   );
 
   const syncNotifications = useCallback(async () => {
-    // Only proceed if settings are loaded and permissions are granted
     if (permissionStatus !== "granted" || !settings) {
-      console.log(
-        "Cancelling all scheduled notifications due to permissions or settings state."
-      );
       await Notifications.cancelAllScheduledNotificationsAsync();
-      setList([]); // Clear current list of notifications
+      setList([]);
       return;
     }
 
-    console.log(
-      "Syncing notifications based on current settings and permissions."
-    );
-    await Notifications.cancelAllScheduledNotificationsAsync(); // Clear existing to prevent duplicates
+    await Notifications.cancelAllScheduledNotificationsAsync();
 
-    // Schedule Angelus
     if (settings.angelusEnabled) {
       for (const time of NOTIFICATIONS.ANGELUS.times) {
         const identifier = `angelus-${time.hour}-${time.minute}`;
@@ -285,7 +245,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         );
       }
     }
-    // Schedule Mass
+
     if (settings.massEnabled) {
       const today = new Date();
       for (let i = 0; i < 30; i++) {
@@ -318,7 +278,6 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       }
     }
 
-    // Schedule Novena
     if (settings.novenaEnabled && novenas) {
       const today = new Date();
       for (const novena of novenas) {
@@ -354,7 +313,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         }
       }
     }
-    // Schedule Office
+
     if (settings.officeEnabled) {
       for (const office of NOTIFICATIONS.OFFICE.times) {
         const identifier = `office-${office.name}`;
@@ -382,7 +341,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   }, [permissionStatus, settings, calendar, novenas, scheduleNotification]);
 
   const requestPermission = useCallback(async () => {
-    if (!settings) return false; // Should not happen with default initialization
+    if (!settings) return false;
 
     const { status: currentStatus } = await Notifications.getPermissionsAsync();
     if (currentStatus === "granted") {
@@ -432,19 +391,17 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
     });
 
     if (status === "granted") {
-      // Immediately sync notifications after permission is granted
       await syncNotifications();
     }
 
     return status === "granted";
   }, [openSettings, settings, updateSetting, syncNotifications]);
 
-  // Initial load from AsyncStorage
   useEffect(() => {
     const init = async () => {
       try {
         const loadedSettings = await getSettingsFromStorage();
-        setSettings(loadedSettings); // Set state with loaded settings
+        setSettings(loadedSettings);
         await checkPermissionStatus();
       } catch (error) {
         console.error("Failed to initialize settings:", error);
@@ -453,17 +410,14 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       }
     };
     init();
-  }, [getSettingsFromStorage, checkPermissionStatus]); // Dependencies
+  }, [getSettingsFromStorage, checkPermissionStatus]);
 
-  // Re-sync notifications if permissions or settings change
   useEffect(() => {
-    // Only call syncNotifications if not in loading state and settings are loaded
     if (!isLoading) {
       syncNotifications();
     }
-  }, [syncNotifications, isLoading]); // Dependency: isLoading, as syncNotifications depends on 'settings' being ready
+  }, [syncNotifications, isLoading]);
 
-  // Handle notification taps
   useEffect(() => {
     const subscription = Notifications.addNotificationResponseReceivedListener(
       (response) => {
@@ -489,21 +443,12 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
     [permissionStatus, requestPermission, updateSetting]
   );
 
-  const setFontSize = useCallback(
-    async (fontSize: FontSize) => {
-      console.debug("setFontSize", fontSize);
-      await updateSetting({ fontSize: fontSize });
-    },
-    [updateSetting]
-  );
-
   return (
     <SettingsContext.Provider
       value={{
         settings,
         isLoading,
         setNotificationPref,
-        setFontSize,
         list,
         permissionStatus,
         requestPermission,
@@ -516,7 +461,6 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   );
 }
 
-// --- Custom Hook ---
 export const useSettings = () => {
   const context = useContext(SettingsContext);
   if (context === undefined) {

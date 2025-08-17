@@ -3,7 +3,6 @@ import { ActivityIndicator, Text, View } from "react-native";
 import type { Docs } from "~/app/(tabs)/more";
 import { findBySlug } from "~/services/search";
 import PageLinkCard from "./LinkCard";
-import PageWrapper from "./Page";
 
 const DirectoryList = ({ slug }: { slug: string }) => {
   const [searchResults, setSearchResults] = useState<Docs[]>([]);
@@ -15,9 +14,12 @@ const DirectoryList = ({ slug }: { slug: string }) => {
       setIsLoading(true);
       setError(null);
       try {
-        setIsLoading(true);
         const results = await findBySlug(slug);
-        setSearchResults(results);
+        const currentDirUrl = `/${slug}`;
+        const childrenOnly = results.filter(
+          (item) => item.url !== currentDirUrl
+        );
+        setSearchResults(childrenOnly);
       } catch (err: any) {
         console.error("Error fetching by slug:", err);
         setError(err.message || "Failed to load directory.");

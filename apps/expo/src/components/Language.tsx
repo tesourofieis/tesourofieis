@@ -1,5 +1,5 @@
 import * as Haptics from "expo-haptics";
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import {
   Platform,
   Pressable,
@@ -19,6 +19,7 @@ import Animated, {
   useSharedValue,
   withSpring,
 } from "react-native-reanimated";
+import { useDefaultLanguage } from "./LanguageSelector";
 
 type LanguageToggleProps = {
   children: React.ReactNode;
@@ -36,12 +37,19 @@ const springConfig = {
 
 export default function LanguageToggle({ children }: LanguageToggleProps) {
   const { width } = useWindowDimensions();
+  const defaultLanguage = useDefaultLanguage();
   const translateX = useSharedValue(-width);
   const translateXToggle = useSharedValue(toggleWidth);
   const currentLanguage = useSharedValue<"latin" | "vernacular">("vernacular");
   const [currentLang, setCurrentLang] = useState<"latin" | "vernacular">(
     "vernacular"
   );
+
+  useEffect(() => {
+    if (defaultLanguage) {
+      setLanguage(defaultLanguage === "vernacular");
+    }
+  }, [defaultLanguage]);
 
   const triggerHaptic = () => {
     try {
