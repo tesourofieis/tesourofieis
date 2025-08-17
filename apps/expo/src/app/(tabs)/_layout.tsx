@@ -1,16 +1,13 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { Tabs } from "expo-router";
 
-import { Platform, useColorScheme } from "react-native";
-import { burgundy } from "tailwind.config";
+import { useColorScheme } from "react-native";
 
 import { COLORS } from "~/constants/Colors";
 
 export default function PageTabLayout() {
   const colorScheme = useColorScheme();
   const isDarkMode = colorScheme === "dark";
-
-  const isWeb = Platform.OS === "web";
 
   return (
     <Tabs
@@ -54,7 +51,7 @@ export default function PageTabLayout() {
         name="configurar"
         options={{
           title: "Configurar",
-          href: isWeb ? null : "/configurar",
+          href: "/configurar",
           tabBarIcon: ({ color }) => <FontAwesome6 name="gear" color={color} />,
         }}
       />

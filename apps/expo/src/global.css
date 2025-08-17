@@ -183,38 +183,38 @@
   }
 
   .h2 {
-    @apply heading-responsive-5xl;
     font-size: var(--heading-font-size-5xl);
     line-height: var(--heading-line-height-5xl);
     @apply text-center font-display text-pretty py-5 text-burgundy-500;
+    @apply heading-responsive-5xl;
   }
 
   .h3 {
-    @apply heading-responsive-4xl;
     font-size: var(--heading-font-size-4xl);
     line-height: var(--heading-line-height-4xl);
     @apply text-center font-display text-pretty py-4 text-sepia-900 dark:text-sepia-100;
+    @apply heading-responsive-4xl;
   }
 
   .h4 {
-    @apply heading-responsive-3xl;
     font-size: var(--heading-font-size-3xl);
     line-height: var(--heading-line-height-3xl);
     @apply text-center font-display text-pretty py-3 text-sepia-900 dark:text-sepia-100;
+    @apply heading-responsive-3xl;
   }
 
   .h5 {
-    @apply heading-responsive-2xl;
     font-size: var(--heading-font-size-2xl);
     line-height: var(--heading-line-height-2xl);
     @apply text-center font-display text-pretty py-2 text-sepia-900 dark:text-sepia-100;
+    @apply heading-responsive-2xl;
   }
 
   .h6 {
-    @apply heading-responsive-xl;
     font-size: var(--heading-font-size-xl);
     line-height: var(--heading-line-height-xl);
     @apply text-center text-pretty py-1 text-sepia-900 dark:text-sepia-100;
+    @apply heading-responsive-xl;
   }
 
   .card {
@@ -256,6 +256,7 @@
     line-height: var(--line-height-base);
     @apply py-2 font-serif px-3 text-sepia-900 dark:text-sepia-100;
     text-rendering: optimizeLegibility;
+    @apply heading-responsive-base;
   }
 
   .cross {

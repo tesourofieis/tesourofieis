@@ -463,8 +463,9 @@ export default function MoreScreen() {
 
     console.log("Search query:", searchQuery);
 
+    setIsSearching(true);
+
     const timeoutId = setTimeout(async () => {
-      setIsSearching(true);
       try {
         console.log("Starting search for:", searchQuery);
         const searchResults = await search(searchQuery, 15);
@@ -478,7 +479,9 @@ export default function MoreScreen() {
       }
     }, 300);
 
-    return () => clearTimeout(timeoutId);
+    return () => {
+      clearTimeout(timeoutId);
+    };
   }, [searchQuery]);
 
   const toggleExpand = useCallback(
