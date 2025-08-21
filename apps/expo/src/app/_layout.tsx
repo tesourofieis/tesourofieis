@@ -7,7 +7,7 @@ import { DMSerifText_400Regular_Italic } from "@expo-google-fonts/dm-serif-text/
 
 import { useFonts } from "expo-font";
 import { useColorScheme } from "nativewind";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import "../global.css";
 
@@ -25,6 +25,7 @@ import {
   StatusBar,
   Text,
   View,
+  Alert,
 } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { COLORS } from "~/constants/Colors";
@@ -50,8 +51,8 @@ export default function PageRootLayout() {
     ...FontAwesome6.font,
   });
 
-  const { isUpdateAvailable, isUpdatePending, isChecking, isDownloading } =
-    useUpdates();
+  const { isUpdateAvailable, isUpdatePending, isChecking, isDownloading } = useUpdates();
+  const [updateError, setUpdateError] = useState<string | null>(null);
 
   useEffect(() => {
     if (loaded || error) {
@@ -60,30 +61,85 @@ export default function PageRootLayout() {
   }, [loaded, error]);
 
   useEffect(() => {
-    if (isUpdateAvailable) {
-      Updates.fetchUpdateAsync();
+    if (isUpdateAvailable && !isDownloading && !isUpdatePending) {
+      handleUpdateAvailable();
     }
   }, [isUpdateAvailable]);
 
+  const handleUpdateAvailable = async () => {
+    try {
+      Alert.alert(
+        "Actualização Disponível",
+        "Uma nova versão da aplicação está disponível. Deseja actualizar agora?",
+        [
+          {
+            text: "Mais tarde",
+            style: "cancel",
+          },
+          {
+            text: "Actualizar",
+            onPress: async () => {
+              try {
+                await Updates.fetchUpdateAsync();
+              } catch (error) {
+                console.error('Update fetch failed:', error);
+                setUpdateError("Falha ao transferir actualização");
+              }
+            },
+          },
+        ]
+      );
+    } catch (error) {
+      console.error('Update check failed:', error);
+      setUpdateError("Erro ao verificar actualizações");
+    }
+  };
+
   useEffect(() => {
     if (isUpdatePending) {
-      Updates.reloadAsync();
+      Alert.alert(
+        "Actualização Pronta",
+        "A actualização foi transferida. A aplicação será reiniciada.",
+        [
+          {
+            text: "Reiniciar Agora",
+            onPress: async () => {
+              try {
+                await Updates.reloadAsync();
+              } catch (error) {
+                console.error('Update reload failed:', error);
+                setUpdateError("Falha ao aplicar actualização");
+              }
+            },
+          },
+        ]
+      );
     }
   }, [isUpdatePending]);
 
   const getUpdateMessage = () => {
+    if (updateError) return updateError;
     if (isChecking) return "A verificar actualizações...";
     if (isDownloading) return "A transferir actualização...";
     if (isUpdatePending) return "A instalar actualização...";
     return "A carregar...";
   };
 
-  if (!loaded && !error) {
+  if (error) {
+    return (
+      <View className="flex-auto justify-center items-center bg-sepia-200 dark:bg-sepia-900">
+        <Text className="text-red-500 text-center px-4">
+          Erro ao carregar fontes. Reinicie a aplicação.
+        </Text>
+      </View>
+    );
+  }
+
+  if (!loaded) {
     return null;
   }
 
-  const shouldShowLoading =
-    !loaded || isChecking || isDownloading || isUpdatePending;
+  const shouldShowLoading = isChecking || isDownloading;
 
   if (shouldShowLoading && Platform.OS !== "web") {
     return (
@@ -92,10 +148,20 @@ export default function PageRootLayout() {
         <Text className="mt-4 text-sepia-700 dark:text-sepia-300">
           {getUpdateMessage()}
         </Text>
-        {isDownloading && (
-          <Text className="mt-2 text-xs text-sepia-600 dark:text-sepia-400">
-            Isto pode demorar alguns momentos...
+        {(isDownloading || updateError) && (
+          <Text className="mt-2 text-xs text-sepia-600 dark:text-sepia-400 text-center px-4">
+            {updateError ? "Tente novamente mais tarde" : "Isto pode demorar alguns momentos..."}
           </Text>
+        )}
+        {updateError && (
+          <Pressable
+            className="mt-4 px-4 py-2 bg-burgundy-500 rounded"
+            onPress={() => {
+              setUpdateError(null);
+            }}
+          >
+            <Text className="text-white">Continuar sem actualização</Text>
+          </Pressable>
         )}
       </View>
     );
@@ -259,7 +325,6 @@ const Breadcrumbs = () => {
 
 const Header = ({ withBC }: { withBC: boolean }) => {
   const router = useRouter();
-
   const { colorScheme } = useColorScheme();
   const isDarkMode = colorScheme === "dark";
 
