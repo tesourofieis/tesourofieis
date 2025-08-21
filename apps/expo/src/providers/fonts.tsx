@@ -24,9 +24,9 @@ type FontContextType = {
 const FontContext = createContext<FontContextType | undefined>(undefined);
 
 const BASE_SCALE_FACTORS = {
-  small: 0.85,
+  pequeno: 0.85,
   normal: 1.0,
-  big: 1.25,
+  grande: 1.25,
 } as const;
 
 const FONT_DEFINITIONS = {
