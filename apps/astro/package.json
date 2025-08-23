@@ -14,18 +14,18 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/markdown-remark": "^6.3.2",
+    "@astrojs/markdown-remark": "^6.3.6",
     "@astrojs/react": "^4.3.0",
-    "@astrojs/sitemap": "^3.4.1",
-    "@astrojs/starlight": "^0.34.4",
+    "@astrojs/sitemap": "^3.5.1",
+    "@astrojs/starlight": "^0.35.2",
     "@astrojs/starlight-tailwind": "^4.0.1",
     "@astrojs/tailwind": "^6.0.2",
     "@tailwindcss/vite": "^4.1.8",
     "@tesourofieis/cal": "workspace:*",
-    "astro": "^5.10.2",
+    "astro": "^5.13.3",
     "date-fns": "catalog:",
-    "react": "catalog:",
-    "react-dom": "catalog:"
+    "react": "catalog:astro",
+    "react-dom": "catalog:astro"
   },
   "devDependencies": {
     "@fontsource/dm-serif-display": "^5.0.19",
@@ -35,10 +35,10 @@
     "@iconify/json": "^2.2.195",
     "@iconify/react": "^5.0.1",
     "@tesourofieis/tsconfig": "workspace:*",
-    "@types/react": "catalog:",
-    "@types/react-dom": "catalog:",
+    "@types/react": "catalog:astro",
+    "@types/react-dom": "catalog:astro",
     "astro-robots-txt": "^1.0.0",
-    "tailwindcss": "catalog:",
+    "tailwindcss": "catalog:astro",
     "typescript": "catalog:",
     "vitest": "^1.6.1"
   },

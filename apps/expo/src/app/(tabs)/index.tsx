@@ -56,7 +56,7 @@ export default function PageRender() {
       <PageWrapper>
         <View className="flex flex-row justify-center my-5 mx-5 gap-5">
           <Link
-            className="shadow-md border-sepia-700 dark:border-sepia-200 bg-sepia-100 dark:bg-sepia-800 active:bg-sepia-200 dark:active:bg-sepia-700 m-2 rounded-xl border px-4 py-3"
+            className="shadow-sm border-sepia-700 dark:border-sepia-200 bg-sepia-100 dark:bg-sepia-800 active:bg-sepia-200 dark:active:bg-sepia-700 m-2 rounded-xl border px-4 py-3"
             href="/devocionario/introducao"
           >
             <Text className="text-pretty text-sepia-800 dark:text-sepia-200 text-center">
@@ -66,7 +66,7 @@ export default function PageRender() {
 
           <Link
             href="/devocionario/rosario"
-            className="shadow-md border-sepia-700 dark:border-sepia-300 bg-sepia-800 dark:bg-sepia-200 active:bg-sepia-700 dark:active:bg-sepia-300 m-2 rounded-xl border px-4 py-3"
+            className="shadow-sm border-sepia-700 dark:border-sepia-300 bg-sepia-800 dark:bg-sepia-200 active:bg-sepia-700 dark:active:bg-sepia-300 m-2 rounded-xl border px-4 py-3"
           >
             <Text className="text-pretty text-sepia-200 dark:text-sepia-900 text-center">
               Rosário

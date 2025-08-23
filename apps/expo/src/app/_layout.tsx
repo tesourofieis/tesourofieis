@@ -333,7 +333,7 @@ const Header = ({ withBC }: { withBC: boolean }) => {
       <View className="flex-row items-center p-5 gap-2 border-b bg-sepia-200 dark:bg-sepia-800 w-full justify-between">
         <View className="flex-row gap-3">
           <Pressable
-            className="rounded-full p-2 shadow-md bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
+            className="rounded-full p-2 shadow-sm bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
             onPress={() => router.navigate("/")}
           >
             <FontAwesome6 name="arrow-left" size={15} color={burgundy[500]} />
