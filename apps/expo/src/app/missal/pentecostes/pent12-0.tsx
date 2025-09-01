@@ -164,7 +164,7 @@ export default function PagePent120() {
           modo lês tu?». Respondeu o doutor: «Amareis ao Senhor, vosso Deus, com
           todo o coração, com toda a alma, com todas as forças e com todo o
           entendimento; e amar reis ao vosso próximo como a vós mesmos». Jesus
-          disse-lhe: «Respondeste com rectidão. Fale assim, e viverás». Mas o
+          disse-lhe: «Respondeste com rectidão. Faze assim, e viverás». Mas o
           doutor, querendo justificar a sua pergunta, de novo interrogou Jesus:
           «E quem é o meu próximo?». Então Jesus, tomando a palavra,
           acrescentou: «Caminhando um homem de Jerusalém para Jericó, caiu em
