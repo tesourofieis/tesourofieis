@@ -15,8 +15,8 @@
     "lint": "pnpx biome check --write --unsafe --files-ignore-unknown=true",
     "prebuild": "pnpx tsx ./scripts/build-search-index.ts",
     "dev": "pnpm run prebuild --clean && expo start --clear",
-    "deploy": "eas build --platform all --auto-submit --profile production --non-interactive --no-wait",
-    "update": "eas update --auto"
+    "deploy": "pnpx eas-cli build --platform all --auto-submit --profile production --non-interactive --no-wait",
+    "update": "pnpx eas-cli update --auto"
   },
   "dependencies": {
     "@expo-google-fonts/cardo": "^0.4.0",
