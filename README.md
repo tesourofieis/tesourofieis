@@ -32,6 +32,9 @@ Adicionar ao .bashrc
 export ANDROID_HOME=/opt/android-sdk
 export JAVA_HOME=/usr/lib/jvm/java-25-openjdk
 export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator:$PATH"
+export ANDROID_SDK_ROOT="$ANDROID_HOME"
+export ANDROID_SDK_HOME="$HOME/.config/.android"
+export ANDROID_AVD_HOME="$HOME/.config/.android/avd"
 ```
 
 Instalar

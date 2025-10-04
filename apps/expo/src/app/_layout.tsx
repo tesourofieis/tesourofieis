@@ -4,35 +4,23 @@ import { DMSerifDisplay_400Regular } from "@expo-google-fonts/dm-serif-display/4
 import { DMSerifDisplay_400Regular_Italic } from "@expo-google-fonts/dm-serif-display/400Regular_Italic";
 import { DMSerifText_400Regular } from "@expo-google-fonts/dm-serif-text/400Regular";
 import { DMSerifText_400Regular_Italic } from "@expo-google-fonts/dm-serif-text/400Regular_Italic";
-
 import { useFonts } from "expo-font";
 import { useColorScheme } from "nativewind";
-import { useEffect, useState } from "react";
-
+import { useEffect } from "react";
 import "../global.css";
-
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { DefaultTheme, ThemeProvider } from "@react-navigation/native";
 import { Stack, usePathname, useRouter } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
-import * as Updates from "expo-updates";
-import { useUpdates } from "expo-updates";
-import React from "react";
-import {
-  ActivityIndicator,
-  Platform,
-  Pressable,
-  StatusBar,
-  Text,
-  View,
-  Alert,
-} from "react-native";
+import { Platform, Pressable, StatusBar, Text, View } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { SettingsProvider } from "~/providers/settings";
 import { burgundy } from "tailwind.config";
 import { FontProvider } from "~/providers/fonts";
+import { UpdateProvider, useUpdate } from "~/providers/update";
+import { Update } from "~/components/Update";
 
 SplashScreen.preventAutoHideAsync();
 SplashScreen.setOptions({
@@ -51,85 +39,25 @@ export default function PageRootLayout() {
     ...FontAwesome6.font,
   });
 
-  const { isUpdateAvailable, isUpdatePending, isChecking, isDownloading } = useUpdates();
-  const [updateError, setUpdateError] = useState<string | null>(null);
-
   useEffect(() => {
     if (loaded || error) {
       SplashScreen.hideAsync();
     }
   }, [loaded, error]);
 
-  useEffect(() => {
-    if (isUpdateAvailable && !isDownloading && !isUpdatePending) {
-      handleUpdateAvailable();
-    }
-  }, [isUpdateAvailable]);
-
-  const handleUpdateAvailable = async () => {
-    try {
-      Alert.alert(
-        "Actualização Disponível",
-        "Uma nova versão da aplicação está disponível. Deseja actualizar agora?",
-        [
-          {
-            text: "Mais tarde",
-            style: "cancel",
-          },
-          {
-            text: "Actualizar",
-            onPress: async () => {
-              try {
-                await Updates.fetchUpdateAsync();
-              } catch (error) {
-                console.error('Update fetch failed:', error);
-                setUpdateError("Falha ao transferir actualização");
-              }
-            },
-          },
-        ]
-      );
-    } catch (error) {
-      console.error('Update check failed:', error);
-      setUpdateError("Erro ao verificar actualizações");
-    }
-  };
-
-  useEffect(() => {
-    if (isUpdatePending) {
-      Alert.alert(
-        "Actualização Pronta",
-        "A actualização foi transferida. A aplicação será reiniciada.",
-        [
-          {
-            text: "Reiniciar Agora",
-            onPress: async () => {
-              try {
-                await Updates.reloadAsync();
-              } catch (error) {
-                console.error('Update reload failed:', error);
-                setUpdateError("Falha ao aplicar actualização");
-              }
-            },
-          },
-        ]
-      );
-    }
-  }, [isUpdatePending]);
-
-  const getUpdateMessage = () => {
-    if (updateError) return updateError;
-    if (isChecking) return "A verificar actualizações...";
-    if (isDownloading) return "A transferir actualização...";
-    if (isUpdatePending) return "A instalar actualização...";
-    return "A carregar...";
-  };
-
   if (error) {
     return (
-      <View className="flex-auto justify-center items-center bg-sepia-200 dark:bg-sepia-900">
-        <Text className="text-red-500 text-center px-4">
-          Erro ao carregar fontes. Reinicie a aplicação.
+      <View className="flex-1 justify-center items-center bg-sepia-200 dark:bg-sepia-900 p-4">
+        <FontAwesome6
+          name="triangle-exclamation"
+          size={48}
+          color={burgundy[500]}
+        />
+        <Text className="text-burgundy-700 dark:text-burgundy-300 text-center mt-4 font-serif text-lg">
+          Erro ao carregar fontes
+        </Text>
+        <Text className="text-sepia-600 dark:text-sepia-400 text-center mt-2">
+          Reinicie a aplicação
         </Text>
       </View>
     );
@@ -139,48 +67,22 @@ export default function PageRootLayout() {
     return null;
   }
 
-  const shouldShowLoading = isChecking || isDownloading;
-
-  if (shouldShowLoading && Platform.OS !== "web") {
-    return (
-      <View className="flex-auto justify-center items-center bg-sepia-200 dark:bg-sepia-900">
-        <ActivityIndicator className="text-red-500" />
-        <Text className="mt-4 text-sepia-700 dark:text-sepia-300">
-          {getUpdateMessage()}
-        </Text>
-        {(isDownloading || updateError) && (
-          <Text className="mt-2 text-xs text-sepia-600 dark:text-sepia-400 text-center px-4">
-            {updateError ? "Tente novamente mais tarde" : "Isto pode demorar alguns momentos..."}
-          </Text>
-        )}
-        {updateError && (
-          <Pressable
-            className="mt-4 px-4 py-2 bg-burgundy-500 rounded"
-            onPress={() => {
-              setUpdateError(null);
-            }}
-          >
-            <Text className="text-white">Continuar sem actualização</Text>
-          </Pressable>
-        )}
-      </View>
-    );
-  }
-
   return (
-    <CalendarProvider>
-      <SettingsProvider>
-        <FontProvider>
-          {Platform.OS === "web" ? (
-            <RootLayoutNav />
-          ) : (
-            <GestureHandlerRootView>
+    <UpdateProvider>
+      <CalendarProvider>
+        <SettingsProvider>
+          <FontProvider>
+            {Platform.OS === "web" ? (
               <RootLayoutNav />
-            </GestureHandlerRootView>
-          )}
-        </FontProvider>
-      </SettingsProvider>
-    </CalendarProvider>
+            ) : (
+              <GestureHandlerRootView style={{ flex: 1 }}>
+                <RootLayoutNav />
+              </GestureHandlerRootView>
+            )}
+          </FontProvider>
+        </SettingsProvider>
+      </CalendarProvider>
+    </UpdateProvider>
   );
 }
 
@@ -189,6 +91,7 @@ function RootLayoutNav() {
   const isDarkMode = colorScheme === "dark";
 
   const CustomLightTheme = {
+    ...DefaultTheme,
     dark: false,
     colors: {
       primary: COLORS["100"],
@@ -198,10 +101,10 @@ function RootLayoutNav() {
       border: COLORS["300"],
       notification: COLORS["500"],
     },
-    fonts: DefaultTheme.fonts,
   };
 
   const CustomDarkTheme = {
+    ...DefaultTheme,
     dark: true,
     colors: {
       primary: COLORS["800"],
@@ -211,56 +114,67 @@ function RootLayoutNav() {
       border: COLORS["700"],
       notification: COLORS["500"],
     },
-    fonts: DefaultTheme.fonts,
   };
 
   return (
     <ThemeProvider value={isDarkMode ? CustomDarkTheme : CustomLightTheme}>
       <StatusBar backgroundColor={isDarkMode ? COLORS["800"] : COLORS["200"]} />
-      <Stack>
-        <Stack.Screen
-          name="(tabs)"
-          options={{
-            header: () => <Header withBC={false} />,
-          }}
-        />
-        <Stack.Screen
-          name="missal"
-          options={{
-            animation: "simple_push",
-            header: () => <Header withBC={true} />,
-          }}
-        />
-        <Stack.Screen
-          name="devocionario"
-          options={{
-            animation: "simple_push",
-            header: () => <Header withBC={true} />,
-          }}
-        />
-        <Stack.Screen
-          name="ritual"
-          options={{
-            animation: "simple_push",
-            header: () => <Header withBC={true} />,
-          }}
-        />
-        <Stack.Screen
-          name="fe"
-          options={{
-            animation: "simple_push",
-            header: () => <Header withBC={true} />,
-          }}
-        />
-        <Stack.Screen
-          name="canticos"
-          options={{
-            animation: "simple_push",
-            header: () => <Header withBC={true} />,
-          }}
-        />
-      </Stack>
+      <UpdateAwareStack />
     </ThemeProvider>
+  );
+}
+
+function UpdateAwareStack() {
+  const { updateState } = useUpdate();
+
+  if (updateState !== "idle") {
+    return <Update />;
+  }
+
+  return (
+    <Stack>
+      <Stack.Screen
+        name="(tabs)"
+        options={{
+          header: () => <Header withBC={false} />,
+        }}
+      />
+      <Stack.Screen
+        name="missal"
+        options={{
+          animation: "simple_push",
+          header: () => <Header withBC={true} />,
+        }}
+      />
+      <Stack.Screen
+        name="devocionario"
+        options={{
+          animation: "simple_push",
+          header: () => <Header withBC={true} />,
+        }}
+      />
+      <Stack.Screen
+        name="ritual"
+        options={{
+          animation: "simple_push",
+          header: () => <Header withBC={true} />,
+        }}
+      />
+      <Stack.Screen
+        name="fe"
+        options={{
+          animation: "simple_push",
+          header: () => <Header withBC={true} />,
+        }}
+      />
+      <Stack.Screen
+        name="canticos"
+        options={{
+          animation: "simple_push",
+          header: () => <Header withBC={true} />,
+        }}
+      />
+    </Stack>
   );
 }
 
@@ -276,7 +190,7 @@ const Breadcrumbs = () => {
     return null;
   }
 
-  const formatSegmentName = (segment: string) => {
+  const formatSegmentName = (segment: string): string => {
     segment = segment.replace(/\(.*?\)/g, "");
     return segment
       .split(/[-_]/)
@@ -285,14 +199,16 @@ const Breadcrumbs = () => {
   };
 
   const handleBreadcrumbPress = (targetPath: string) => {
-    // @ts-ignore
-    router.replace(targetPath);
+    router.replace(targetPath as any);
   };
 
   return (
     <View className="flex-row items-center gap-1">
       {segments.map((segment, index) => (
-        <View className="flex-row items-center gap-1" key={segment}>
+        <View
+          className="flex-row items-center gap-1"
+          key={`${segment}-${index}`}
+        >
           {index !== 0 && (
             <Text className="font-serif text-xs text-sepia-700 dark:text-sepia-300">
               /
@@ -305,7 +221,7 @@ const Breadcrumbs = () => {
             </Text>
           ) : (
             <Pressable
-              className="rounded bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
+              className="rounded px-1 py-0.5 bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
               onPress={() =>
                 handleBreadcrumbPress(
                   `/${segments.slice(0, index + 1).join("/")}`
@@ -331,7 +247,7 @@ const Header = ({ withBC }: { withBC: boolean }) => {
   if (withBC) {
     return (
       <View className="flex-row items-center p-5 gap-2 border-b bg-sepia-200 dark:bg-sepia-800 w-full justify-between">
-        <View className="flex-row gap-3">
+        <View className="flex-row gap-3 flex-1 items-center">
           <Pressable
             className="rounded-full p-2 shadow-sm bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
             onPress={() => router.navigate("/")}
@@ -355,9 +271,13 @@ const Header = ({ withBC }: { withBC: boolean }) => {
       </View>
     );
   }
+
   return (
-    <View className="flex-row items-center justify-between p-5 bg-sepia-200 dark:bg-sepia-800 w-full border-b active:bg-sepia-100 dark:active:bg-sepia-900">
-      <Pressable onPress={() => router.navigate("/")}>
+    <View className="flex-row items-center justify-between p-5 bg-sepia-200 dark:bg-sepia-800 w-full border-b">
+      <Pressable
+        onPress={() => router.navigate("/")}
+        className="active:opacity-70"
+      >
         <View className="flex-row items-center gap-3">
           <FontAwesome6 name="book-bible" size={25} color={burgundy[500]} />
           <Text className="h5 text-sepia-800 dark:text-sepia-200 font-serif">
