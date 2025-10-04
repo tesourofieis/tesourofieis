@@ -24,6 +24,39 @@ pnpm i
 pnpm run dev
 ```
 
+### Setup para arch linux
+
+Adicionar ao .bashrc
+
+```bash
+export ANDROID_HOME=/opt/android-sdk
+export JAVA_HOME=/usr/lib/jvm/java-25-openjdk
+export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator:$PATH"
+```
+
+Instalar
+
+```bash
+yay -Sy android-sdk android-sdk-cmdline-tools-latest android-sdk-platform-tools jdk-openjdk
+```
+
+Permissões necessárias
+
+```bash
+sudo chmod -R 777 /opt/android-sdk
+```
+
+E por fim instalar
+
+```bash
+yes | sdkmanager --licenses && sdkmanager \
+  "platforms;android-35" \
+  "build-tools;35.0.0" \
+  "platform-tools" \
+  "emulator" \
+  "system-images;android-35;default;x86_64"
+```
+
 ## Ficheiros
 
 ```text
