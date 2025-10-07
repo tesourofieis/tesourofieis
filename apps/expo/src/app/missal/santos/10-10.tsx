@@ -9,6 +9,14 @@ export default function Page1010() {
     <PageWrapper>
       <H1 text="S. Francisco de Bórgia, a 10 de Outubro" />
 
+      <Text className="comment">
+        Depois de ter-se ocupado da instalação de seus filhos, S. Francisco
+        entrou para a Companhia de Jesus, onde, desprezando as honras, vedou-se,
+        por votos, em espirito de humildade (Or.) o accesso às dignidades.
+        Todavia, em obediência, teve de aceitar o cargo de geral da Companhia.
+        Morreu em 1572.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/16abades">

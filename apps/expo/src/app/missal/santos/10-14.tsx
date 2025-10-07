@@ -9,6 +9,14 @@ export default function Page1014() {
     <PageWrapper>
       <H1 text="S. Calisto I, Papa e Mártir, a 14 de Outubro" />
 
+      <Text className="comment">
+        S. Calixto I, Papa e Martyr (2). D. Param. vermelhos. Calixto romano,
+        Papa, successor de S. Zepherino, foi chamado a participar do sacerdócio
+        de Cristo em toda a sua plenitude (Ep., Or..) Foi ele quem estabeleceu
+        as Têmporas; teve papel importantíssimo na organização da catacumba que
+        traz o seu nome. Morreu martyr em 223.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/sumospontifices">

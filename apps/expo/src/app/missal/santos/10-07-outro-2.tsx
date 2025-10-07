@@ -9,6 +9,18 @@ export default function Page1007Outro2() {
     <PageWrapper>
       <H1 text="S. S. Sérgio, Baco e Outros, Mártires, a 7 de Outubro" />
 
+      <Text className="comment">
+        Na Baixa-Syria, diz o Martyrologio Romano, os santos Martyres Sérgio e
+        Baco, nobres romanos que viveram sob o imperador Maximiano. Baco foi
+        açoitado até ter as carnes despedaçadas; nesse suplício, expirou,
+        confessando o nome de Jesus. Sergio, calçado com sapatos cujos pregos
+        lhe rasgavam os pés, permaneceu firme na fé e foi degolado. Em Roma, os
+        santos Martyres Marcello e Apuleo os quais, tendo sido primeiramente
+        discípulos de Simão o Mágico, abandonaram-no para seguir a doutrina do
+        Apóstolo S. Pedro. Após o suplício dos Apóstolos, eles próprios
+        obtiveram a corda do martyrio sob Aureliano, e foram sepultados em Roma.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/7muitosmartires2">

@@ -9,6 +9,29 @@ export default function Page1015() {
     <PageWrapper>
       <H1 text="Santa Teresa, a 15 de Outubro" />
 
+      <Text className="comment">
+        Nascida em Ávila, na Espanha, Santa Teresa sentiu-se, desde a mais tenra
+        infância, abrasada de desejo do martyrio. Aos dezoito anos entrou para o
+        convento de Santa Maria do Monte Carmelo e consagrou-se ao Cristo a quem
+        escolhera por esposo (Ep.). Devorada pelas chamas do amor divino,
+        escrevia: Como a alma arrebatada sente neste corpo o cativeiro e a
+        miséria da vida! Considera-se qual escrava, vendida em terra estranha e,
+        o que lhe é mais amargo é ver, de todos os lados, o amor apaixonado que
+        prende à vida, e tão poucos exilados que, à sua semelhança, gemem e
+        pedem o fim do desterro. A conselho de Jesus, pronunciou a Santa o voto
+        tão difícil de fazer sempre o que julgasse mais perfeito. Na oração
+        atingiu o mais elevado grau da vida mystica e aí encontrou luzes tão
+        vivas sobre as coisas divinas (Or.) que valeram aos seus trabalhos, da
+        parte dos Papas Gregorio XV e Urbano VII, o augusto título de Doutora da
+        Igreja, jamais outorgado a outra mulher. A oração mais bem feita e
+        agradável a Deus, escrevia ela, é a que deixa melhores efeitos,
+        manifestando-se pelas obras, e não o gozo que somente produz a
+        satisfação propria. A acção dessa humilde virgem, que converteu milhares
+        de almas, prova assaz o papel preponderante da vida contemplativa,
+        provindo do facto de ser dirigida directamente a Deus, autor de todo
+        bem. Morreu por efeito do amor divino a 5-15 de Outubro de 1582.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/20virgemnaomartir1">

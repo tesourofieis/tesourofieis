@@ -10,6 +10,23 @@ export default function Page1008() {
     <PageWrapper>
       <H1 text="Santa Brígida, Viúva, a 8 de Outubro" />
 
+      <Text className="comment">
+        Santa Brigida era descendente de sangue real da Suécia. Casada com o
+        principe de Mericia, educou santamente seus oito filhos, entre os quais
+        figura Santa Catharina de Suécia. Estimulou de tal sorte o esposo na
+        prática da virtude que o levou ao completo desprendimento do mundo e a
+        abraçar a Regra dos Cistercienses, no mosteiro de Alvastra, onde morreu
+        em odor de santidade (1344). Brigida redobrou de fervor no santo estado
+        de viuvez aplicando-se a toda sorte de boas obras e perseverando dia e
+        noite na oração e meditações (Ep.). Á semelhança de quem encontra um
+        tesouro e vende tudo para adquiri-lo (Ev.), distribuiu os bens entre os
+        filhos e, desapegada de tudo, só buscava o reino do céu. Penetrada do
+        temor de Deus, infligia ao corpo as mais duras penitências (Intr.) e
+        Jesus, cuja paixão imitava, recompensou-a, revelando-lhe os segredos
+        celestes (Or.). Deu-lhe as constituições da Ordem por ela fundada, sob a
+        regra de Santo Agostinho. Morreu em Roma em 1373.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/24nemvirgensnemmartires">

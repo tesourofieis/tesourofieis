@@ -9,6 +9,31 @@ export default function Page1024() {
     <PageWrapper>
       <H1 text="Arcanjo Rafael, a 24 de Outubro" />
 
+      <Text className="comment">
+        São Raphael é um dos sete espíritos que estão sempre ante o trono de
+        Deus (Ant. do Magnificat), oferecendo lhe o incenso de sua adoração a
+        dos homens (Off.). «Quando tu oravas com lágrimas, declara ele a Tobias,
+        sepultavas os mortos, deixavas as tuas refeições, ocultavas, durante o
+        dia, os defuntos na tua casa e, durante a noite, lhes davas sepultura,
+        eu apresentei a tua oração ao Senhor. E como eras agradável ao Senhor,
+        foi necessário seres provado pela tentação (2ª Lição) Tobias ficou cego.
+        A perda da vista, diz Santo Agostinho, redundou para esse ancião no
+        beneficio de receber um médico angélico (4ª lição). São Raphael, palavra
+        que significa medicina de Deus, foi enviado pelo Senhor, como o Anjo que
+        devia mover a água na piscina probática, para curar a Tobias (Ev.),
+        indicou ao jovem Tobias o remédio que devia restituir a vista ao pai,
+        acompanhou e protegeu o rapaz na sua viagem, fez-lhe encontrar uma
+        esposa e conjurou os malefícios do demónio. Nós louvamos com sentimentos
+        de veneração, canta a Igreja, todos os principes da côrte celeste, mas
+        especialmente o Arcanjo Raphael, médico e fiel companheiro, a encadear o
+        demónio sob o seu poder. Oh! Cristo, Rei cheio de bondade, dando-nos tal
+        guarda, fazei que o inimigo não nos possa prejudicar (Hymno).
+        Assista-nos do alto do céu o Anjo Raphael, médico de nossa salvação, a
+        fim de curar todas as doenças e dirigir para a verdadeira vida nossos
+        passos incertos (Hymno de Laudes). Bento XV estendeu a sua festa á
+        Igreja universal.
+      </Text>
+
       <H3 text="Intróito" />
 
       <LinkCard

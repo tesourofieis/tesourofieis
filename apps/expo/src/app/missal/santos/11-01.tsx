@@ -8,6 +8,51 @@ export default function Page1101() {
     <PageWrapper>
       <H1 text="Todos os Santos, a 1 de Novembro" />
 
+      <Text className="comment">
+        O templo de Agrippa foi dedicado, sob Augusto, a todos os deuses do
+        paganismo, de onde o seu nome de Panteão. Sob o imperador Phocas entre
+        607 e 610, o papa Bonifácio IV para ali transportou numeroso restos de
+        Martyres tirados das Catacumbas. A 13 de Maio de 610, o papa dedicou a
+        nova basilica cristã á Santa Maria e aos Martyres. A festa dessa
+        dedicação tomou, em seguida, caracter mais universal e esse templo foi
+        consagrado á Santa Maria e a todos os Santos. Como já existia uma festa
+        da comemoração de todos os Santos, celebrada, em diversas épocas, nas
+        differentes igrejas, depois fixada em 835, por Gregorio IV para o dia 1º
+        de Novembro, o Papa Gregorio VII mudou para essa data o aniversário da
+        dedicação do Panteão. A festa de todos os Santos recorda o triunfo de
+        Cristo sobre as falsas divindades pagās; nesse templo faz-se a Estação
+        na Sexta-Feira na Oitava de Páscoa. Sendo os Santos honrados nos tres
+        primeiros seculos da Igreja, eram os Martyres a quem o Panteão foi
+        primeiramente dedicado; a Missa compõe-se de citações da liturgia dos
+        Martyres. O Introito é o da Missa de Santa Águeda, mais tarde também
+        usado em outras festas. O Evangelho, o Ofertório e a Comunhão são
+        extraídos do Comum dos Martyres. A Igreja nos dá hoje uma admirável
+        visão do céu, onde nos mostra, com S. João os doze mil inscriptos (doze
+        é considerado numero perfeito) de cada tribo de Israel, e grande
+        multidão, que ninguém pode contar, de toda nação, tribo, povo e lingua,
+        de pé, ante o trono e o Cordeiro, vestidos de branco e tendo palmas nas
+        mãos (Ep.). O Cristo, a Virgem, as bem-aventuradas Phalanges,
+        distribuídas em nove coros, os apóstolos e os prophetas, os Martyres na
+        purpura do proprio sangue, os Confessores vestidos de branco, e os
+        castos coros das virgens formam, nos diz o Hymno de Vésperas, esse
+        majestoso de todos os que, neste mundo, foram desapegados dos bens
+        terrestres, mansos, provados, justos, misericordiosos, puros, pacíficos
+        e perseguidos pelo nome de Jesus. Regozijai-vos, anunciava-lhes o
+        Mestre, pois grande recompensa vos está preparada no céu (Ev., Comm.).
+        Entre os milhões de justos, que foram fiéis discípulos de Jesus na
+        terra, encontram-se diversos dos nossos pais, amigos, membros de nossa
+        familia paroquial, que hoje, beneficiando deste culto, adoram o Senhor,
+        Rei dos reis e Coroa de todos os Santos (Invitatorio de Matinas) e obtêm
+        para nós a tão desejada abundância de suas misericórdias (Or.). O
+        sacerdócio invisivelmente exercido por Jesus sobre os altares, onde Ele
+        se oferece a Deus, identifica-se com o que Ele exerce visivelmente no
+        céu. Os altares da terra, onde se encontra o Cordeiro de Deus e o altar
+        do céu onde está de pé, o Cordeiro como que imolado, são um só altar. Na
+        Missa tudo nos fala da pátria celeste. O Prefácio une os nossos cantos
+        aos louvores dos Anjos e o Comunicantes faz-nos entrar em comunhão com a
+        Santíssima Virgem e todos os Santos.
+      </Text>
+
       <H3 text="Intróito" />
 
       <Language>

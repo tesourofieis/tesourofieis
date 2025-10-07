@@ -10,6 +10,16 @@ export default function Page1019() {
     <PageWrapper>
       <H1 text="S. Pedro de Alcântara, Conf., a 19 de Outubro" />
 
+      <Text className="comment">
+        Nascido em Alcântara, na Espanha, de pais nobres, Pedro distribuiu seus
+        bens em esmolas (Ev.) e, aos dezesseis annos, entrou na Ordem Seráfica
+        de São Francisco. Rigoroso observador da regra primitiva do instituto
+        franciscano, levou uma vida muito austera. Da sua grande devoção à
+        paixão de Jesus, nasceu-lhe extraordinário amor à penitência. Morreu em
+        1562 e, aparecendo a Santa Teresa, disse-lhe Bendita penitência que me
+        valeu tão grande glória.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link href="/missal/comum/15confessoresnaopontifices2">

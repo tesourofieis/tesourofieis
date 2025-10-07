@@ -9,6 +9,14 @@ export default function Page1025() {
     <PageWrapper>
       <H1 text="S. S. Crisanto e Daria, Mártires, a 25 de Outubro" />
 
+      <Text className="comment">
+        Em Roma, diz o Martyrologio romano, triunfo de S. Crisanto e de Santa
+        Daria, sua esposa, martyres; após diversos suplícios, suportados por
+        Jesus Cristo sob o prefeito Celerino, foram condenados pelo imperador
+        Numeriano e lançados num areal na via Salaria, onde foram sepultados
+        vivos sob um montão de terra e pedras no anno de 283.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/6muitosmartires1">

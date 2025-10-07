@@ -8,6 +8,28 @@ export default function Page1011() {
   return (
     <PageWrapper>
       <H1 text="Maternidade da B. Virgem Maria, a 11 de Outubro" />
+      <Text className="comment">
+        O mundo exalta a maternidade celebrando a festa das mães. E a Igreja nos
+        manda honrar a maternidade virginal ou a virgindade maternal daquela que
+        é a Mãe por excelência e o modelo de todas as mães. Mãe de Jesus porque
+        ela lhe deu seu corpo e seu sangue (Intr., Or., Εp., Off., Com.), Maria
+        é nossa Mãe porque nos dá a graça (Ep.) que de modo sobrenatural nos une
+        a seu divino Filho. A Maternidade de Maria estende-se, pois, ao Cristo,
+        que é nosso Chefe, e a todos os membros do corpo místico de Cristo. Como
+        estávamos todos em Adão, no principio, quanto á semente da geração
+        carnal, diz S. Bernardo, estamos todos em Jesus Cristo pela semente da
+        geração espiritual. A Mãe de Cristo é, pois, a mãe dos cristãos, não só
+        por causa de sua afeição, mas por causa do mistério mesmo (de nossa
+        incorporação no Filho de Maria). (In Assumpt. S. IV). Não é Maria a mãe
+        de Cristo? pergunta Pio X. Pois, é também nossa mãe. É por isso que nós
+        todos que somos unidos a Jesus Cristo, e, como o escreve o Apóstolo
+        (Eph. II, 30) membros de seu corpo, de sua carne e de seus ossos, saímos
+        de seio de Maria como um corpo unido ao seu Chefe. Dai que, num sentido
+        espiritual e místico, somos chamados filhos de Maria, e que para nós
+        todos é nossa mãe; mãe espiritual, sem dúvida, mas verdadeiramente mãe
+        dos membros de Cristo e nós mesmos somos seus membros. (Ad diem illum.,
+        22 fev. de 1914).
+      </Text>
 
       <H3 text="Intróito" />
 

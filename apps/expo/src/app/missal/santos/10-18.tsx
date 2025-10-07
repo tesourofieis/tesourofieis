@@ -9,6 +9,25 @@ export default function Page1018() {
     <PageWrapper>
       <H1 text="S. Lucas, a 18 de Outubro" />
 
+      <Text className="comment">
+        S. Lucas, de origem pagã, nasceu, diz Eusébio, em Antioquia, capital dos
+        reis da Syria. S. Paulo nos diz que exercia a profissão de medico.
+        Companheiro de viagem do Apostolo das Nações, seguiu-o na maior parte de
+        suas missões e no seu duplo cativeiro em Roma. Graças ás relações com
+        esse mestre e os outros Apóstolos, pôde escrever o terceiro Evangelho
+        designado por São Jerónimo e S. João Crisóstomo sob o nome de Evangelho
+        de São Paulo. Á semelhança do Doutor dos Gentios, dirige-se aos pagãos,
+        para provar-lhes que a salvação foi trazida por Jesus, sem excepção, a
+        todos os homens que nele acreditarem. É designado sob o simbolo do
+        touro, um dos quatro animais da visão de Ezequiel, porque inicia o seu
+        Evangelho falando do sacerdócio de Zacarias, sacerdote e sacrificador da
+        antiga lei. A missa de São Lucas tem a mesma particularidade que a de S.
+        Marcos: a de ser lido o Evangelho das instruções do Salvador aos seus
+        setenta e dois discipulos, porque esses dois Evangelistas não foram
+        Apóstolos, mas somente discípulos de Nosso Senhor. Relata S. Jerónimo
+        que São Lucas morreu na Achaia, com oitenta e quatro annos de idade.
+      </Text>
+
       <H3 text="Intróito" />
 
       <Text className="em">Sl. 138, 17</Text>

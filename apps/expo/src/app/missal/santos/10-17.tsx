@@ -9,6 +9,27 @@ export default function Page1017() {
     <PageWrapper>
       <H1 text="Santa Margarida Maria, Virgem, a 17 de Outubro" />
 
+      <Text className="comment">
+        Margarida Maria Alacoque nasceu em Vérosvres (diocese de Autun) em 1647.
+        Muito jovem consagrou-se a Jesus Cristo pelo voto de virgindade perpétua
+        (Off., Comm.). Aos 23 annos entrou para o convento das Visitandinas de
+        Paray-le-Monial. O Sagrado Coração revelou-se a ela por três grandes
+        revelações (Or., Ev.) sem que a comunidade o suspeitasse. Santa
+        Margarida Maria empregou os seus últimos anos em espalhar essa admirável
+        devoção ao divino Coração e morreu a 17 de Outubro de 1690 na idade de
+        43 annos. O seu corpo virginal foi sepultado sob uma lage do coro perto
+        da grade aonde estava de joelhos quando lhe apareceu o divino Mestre.
+        Foi beatificada por Pio IX em 1864 e Bento XV canonizou-a na festa da
+        Ascensão, a 13 de Maio de 1920. Para seguir o espirito litúrgico, que é
+        o espirito da Igreja, e consagrar-lhe, como nos exorta, por indulgências
+        concedidas à primeira Sexta-feira do mês ao Sagrado, Coração, adaptemos
+        esta devoção ao Cyclo. Será dar-lhe grande variedade, tanto no seu
+        objecto material (o Coração de Jesus nascendo pelo Natal, morrendo na
+        Sexta-feira Santa, e ressuscitando pela Páscoa), como no seu objecto
+        formal, o amor de Jesus nos seus mysterios gozosos, dolorosos e
+        gloriosos.
+      </Text>
+
       <H3 text="Intróito" />
 
       <Text className="em">Ct. 2, 3</Text>

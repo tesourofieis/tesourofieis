@@ -9,6 +9,18 @@ export default function Page1013() {
     <PageWrapper>
       <H1 text="S. Eduardo, Conf., a 13 de Outubro" />
 
+      <Text className="comment">
+        Eduardo, cognominado o Confessor, era neto de Santo Eduardo, rei e
+        martyr. Elevado ao trono da Inglaterra mostrou, diz um historiador, o
+        que pode um rei verdadeiramente pai de seus súbditos. Todos os que se
+        lhe aproximavam queriam imitar, na conduta própria, a vida do rei. Na
+        sua côrte não se conhecia ambição, amor às riquezas, nem as paixões
+        desgraçadamente tão comuns entre os cortesãos. Era por todos chamado o
+        pai dos orfãos e dos indigentes, e a sua maior alegria era poder dar
+        esmolas (Ep.). Concedia tudo o que se pedia em nome de S. João
+        Evangelista. Morreu em 1066.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/14confessoresnaopontifices1">

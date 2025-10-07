@@ -9,6 +9,26 @@ export default function Page1020() {
     <PageWrapper>
       <H1 text="S. João Câncio, Conf., a 20 de Outubro" />
 
+      <Text className="comment">
+        Nascido num subúrbio de Câncio, na diocese de Cracóvia, São João foi
+        suscitado pela Providencia para manter acesa, no curso do seculo XV, a
+        luz da fé e o fogo da caridade cristã, na Polónia. Conquistou todos os
+        graus académicos na Universidade de Cracóvia onde ensinou durante alguns
+        anos. Ordenado sacerdote, oferecia todos os dias, o Santo Sacrifício
+        para aplacar a justiça do céu, pois, afligia-se profundamente com as
+        ofensas dos homens a Deus. Brilhou sobretudo por sua extrema caridade
+        enaltecida no Introito, Orações, Epistola, Gradual, Ofertório e Comunhão
+        de sua missa. Tirava do proprio alimento para socorrer os necessitados e
+        abandonava-lhes a própria roupa e calçado (Ep.), envolvendo-se no seu
+        manto para ocultar os pés descalços. Por ocasião de uma peregrinação a
+        Roma alguns bandidos o despojaram; tendo o Santo declarado nada mais
+        possuir, deixaram-no prosseguir caminho. João, lembrando-se de que havia
+        escondido algumas moedas no manto, chamou os ladrões para lhas entregar;
+        estes, movidos por sua bondade e candura, restituíram-lhe tudo quanto
+        haviam tomado. S. João Câncio morreu na véspera do Natal, de 1473. É
+        especialmente invocado contra a tuberculose.
+      </Text>
+
       <H3 text="Intróito" />
 
       <Text className="em">Sl. 91, 13-14</Text>

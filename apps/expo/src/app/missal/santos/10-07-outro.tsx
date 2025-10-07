@@ -9,6 +9,14 @@ export default function Page1007Outro() {
     <PageWrapper>
       <H1 text="S. Marcos, Papa e Conf., a 7 de Outubro" />
 
+      <Text className="comment">
+        Marcos, de origem romana, ocupou a Cathedra de S. Pedro durante 8 meses
+        sob o reinado de Constantino o Grande. Sucedeu a S. Silvestre e
+        continuou, com grande zelo, o trabalho da organização da Igreja que esse
+        último havia empreendido, aproveitando a longa era de paz, inaugurada
+        pelo imperador. Morreu em 336.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/sumospontifices">

@@ -8,6 +8,22 @@ export default function Page1028() {
     <PageWrapper>
       <H1 text="S. Simão e S. Judas, a 28 de Outubro" />
 
+      <Text className="comment">
+        Judas ou Tadeu havia perguntado ao Mestre, na última Ceia, porque Ele se
+        manifestava aos Apóstolos e não ao mundo. Respondeu-lhe Jesus que só se
+        manifestava ás almas que lhe testemunhavam a sua fidelidade observando
+        os seus mandamentos. Enquanto Simão anuncia o Evangelho no Oriente,
+        Judas escreve a sua Epístola católica, ainda hoje lida no Ocidente a
+        qual, em poucas linhas, declara Origenes, contém sólida doutrina. A
+        primeira parte prediz a condenação exemplar dos hereges, por ele
+        comparados a nuvens sem água, árvores do outono, sem frutos, e astros
+        errantes, aos quais a escuridão das trevas é reservada por toda a
+        eternidade. Á semelhança dos anjos infiéis, queimarão para sempre nas
+        chamas vingadoras. Na segunda parte, exorta os fiéis a não se deixarem
+        corromper por esses sedutores, mas permanecerem firmes na fé em Deus e
+        no Cristo.
+      </Text>
+
       <H3 text="Intróito" />
 
       <Text className="em">Sl. 138, 17</Text>

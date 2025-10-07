@@ -8,6 +8,38 @@ export default function Page1007() {
     <PageWrapper>
       <H1 text="SS. Rosário da B. Virgem Maria, a 7 de Outubro" />
 
+      <Text className="comment">
+        Era costume, na Idade Média, como outrora entre os Romanos, as pessoas
+        nobres trazerem cordas de flores chamadas capelas, as quais foram mais
+        tarde transformadas em diademas de oiro a cingir a fronte dos reis.
+        Essas cordas eram oferecidas às pessoas de distinção, a titulo de
+        sujeição. Soberana do Céu e das almas, a Virgem tem direito às mesmas
+        homenagens; por essa razão, a Igreja manda reconhecermos o título de
+        Maria como Rainha do S. Rosário e nos exorta a oferecer-lhe como Filha
+        do Pai, Mãe do Filho e Esposa do Espirito Santo, uma triplice capela ou
+        tres corôas de rosas, cujas belezas revela no Oficio deste dia e ao qual
+        dá o nome de rosário. A oração lembra ser o Rosário uma oração mental,
+        na qual meditamos os mysterios da vida, morte e ressurreição de Jesus,
+        aos quais Maria se associou intimamente. O Evangelho, dando-nos a
+        principal fórmula da saudação angélica, mostra ser o Rosário uma oração
+        vocal. O Padre-nosso, Creio em Deus Padre e o Glória ao Padre,
+        acrescentados ao Rosário, encontram-se, assim como a Avé Maria, nos
+        textos da Missa ou do Oficio divino. É, pois, o Rosário, como devoção
+        privada, constituído por elementos tomados no Cyclo litúrgico, e, como
+        solenidade, faz parte integrante da Igreja. A sua recitação tem obtido,
+        no correr dos séculos, numerosas graças para a cristandade; para lembrar
+        de modo especial o insigne benefício da vitória de Lepanto, Domingo 7 de
+        Outubro de 1571, devida á recitação do Rosário. Quando foram derrotadas
+        as forças vivas do Islamismo, que ameaçavam invadir a Europa, foi
+        instituída a festa de Nossa Senhora do Rosário, substituição bem
+        significativa da festa de Nossa Senhora das Vitórias. Prescrita por
+        Gregorio XIII para certas igrejas, foi estendida ao universo católico
+        por Clemente XI, em acção de graças por um novo triunfo, alcançado na
+        Hungria sobre os mesmos inimigos, por Carlos VI, em 1716. Leão ΧΙΙΙ,
+        comovido pelas dolorosas provações da Igreja, elevou-a à ordem de festa
+        de 2 classe, com Missa e Oficio novos.
+      </Text>
+
       <H3 text="Intróito" />
 
       <Language>

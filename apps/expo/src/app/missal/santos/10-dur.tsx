@@ -8,6 +8,64 @@ export default function Page10Dur() {
     <PageWrapper>
       <H1 text="Nosso Senhor Jesus Cristo Rei" />
 
+      <Text className="comment">
+        Em sua Encyclica de 11 de Dezembro de 1925, Pio XI declara que o,
+        Laicismo é directamente opposto aos direitos de Deus e de seu Cristo,
+        sobre as pessoas e os povos porque esta heresia moderna recusa
+        reconhecer autoridade suprema do Ser divino e de Jesus sobre eles,
+        organizando a vida individual e social como si Ele não existisse. O Papa
+        mostra como, por consequência desastrosa, mas infelizmente de longa
+        data, o mesmo laicismo é a perda da sociedade que arruína. Esta
+        apostasia geral produz, com efeito, frutos amargos de orgulho e egoismo
+        a substituírem o amor de Deus e do proximo. Gera o ciume entre os
+        indivíduos, o ódio entre as classes e a rivalidade entre as nações: E
+        esses vícios, desenvolvendo-se, produzem as dilacerações fraternais,
+        discórdias civis e guerras homicidas. O laicismo eis o inimigo depois de
+        haver produzido esses males, impede os indivíduos e as sociedades de
+        livrarem-se dele, pondo-os em rebelião contra Deus e o Cristo, os únicos
+        que lhe podem assegurar a paz e livrá-los de piores catástrofes. Entre
+        os meios de vencer esse adversário temível, Pio XI julga ser a liturgia
+        o mais eficaz, porque é uma afirmação pública, social e official dos
+        direitos divinos de Jesus sobre os homens, Por isso, instituiu no Cyclo
+        uma nova festa em honra do Cristo Rei. O mundo renega a Jesus porque
+        ignora as suas prerrogativas reais como Deus e como Homem, como Verbo
+        encarnado e Redemptor. É preciso instruí-lo a respeito, e uma solenidade
+        anual terá mais eficácia para realizá-lo do que todos os documentos,
+        mesmo os mais graves do magistério ecclesiastico (Encyclica). A festa do
+        Cristo Rei faz conhecer de modo que se adapta perfeitamente á psicologia
+        humana individual e social, os direitos reais de Deus e de seu Cristo; e
+        ao mesmo tempo os faz reconhecer pelos homens e sociedades por meio dos
+        actos mais distinctos do culto. Entre esses actos devemos nomear, antes
+        de tudo, a Santa Missa, Nela a Santa Igreja concentrará o ensinamento
+        que nos quer dar sobre a realeza de Jesus e por ela prestará a este
+        divino Rei as suas supremas homenagens, pois o Santo Sacrifício tem por
+        fim o reconhecimento em Deus da mais alta soberania e em nós da mais
+        profunda dependência. E este acto realiza-se, não somente no Calvário,
+        mas também no sacerdócio real que Jesus não cessa de exercer no seu
+        reino. A grande realidade do Cristianismo não é um cadaver suspenso da
+        cruz, porém, o Cristo ressuscitado, reinando em todo o brilho de sua
+        vitória entre os seus eleitos, conquista sua (Ep.). Eis porque a Missa
+        começa por uma das mais belas visões do Apocalypse onde o Cordeiro de
+        Deus é aclamado pelos Anjos e os Santos (Intr.). O Santo Padre quis que
+        esta festa fosse celebrada no fim do Ciclo litúrgico, no último domingo
+        de Outubro, como coroação de todos os mysterios pelos quais Jesus
+        estabeleceu plenamente os seus poderes reais e na véspera de Todos os
+        Santos em que os realiza já em parte, sendo o Rei dos reis e a corda de
+        todos os Santos (Inv.) enquanto espera ser também o de todos os que
+        ainda estão nesta terra, e que salva, graças sobretudo á Santa Missa.
+        Com efeito, é principalmente pela Eucaristia, sacrifício e Sacramento,
+        ao mesmo tempo, que o Cristo, na glória, assegura os resultados do
+        sacrifício conquistador do Calvário, tornando-se senhor das almas, pela
+        aplicação que Ele próprio lhes faz dos méritos de sua Paixão (Secr.), e
+        unindo-os a si como membros á cabeça (Secr.). O fim da Eucaristia, diz o
+        Catecismo do Concilio de Trento, é formar um só corpo mystico de todos
+        os fieis a fim de levá-los ao culto que o Cristo, rei adorador, como
+        sacerdote e vitima prestou de modo sangrento sobre a Cruz, e ainda o
+        presta de modo incruento sobre o altar de pedra de nossas igrejas e
+        sobre o altar de oiro do céu, ao Cristo, Rei adorado como Filho de Deus
+        e a seu Pai ao qual oferece essas almas (Pref.).
+      </Text>
+
       <H3 text="Intróito" />
 
       <Text className="em">Ap. 5, 12; 1, 6</Text>

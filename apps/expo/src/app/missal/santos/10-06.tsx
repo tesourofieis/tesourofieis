@@ -9,6 +9,14 @@ export default function Page1006() {
     <PageWrapper>
       <H1 text="S. Bruno, Conf., a 6 de Outubro" />
 
+      <Text className="comment">
+        Bruno nasceu em Colónia no século XI. Com seis amigos, retirou-se para
+        um dos cumes solitários do Delfinado, chamado Cartuxa, cedido pelo bispo
+        de Grenoble (Ev.), onde fundou o primeiro mosteiro de sua Ordem de
+        penitência e contemplação. S. Bruno morreu apertando aos lábios o
+        Crucifixo, no dia 6 de Outubro de 1101.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/14confessoresnaopontifices1">

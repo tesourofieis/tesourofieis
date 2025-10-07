@@ -8,6 +8,13 @@ export default function Page1021ViseuLisboa() {
     <PageWrapper>
       <H1 text="S. Úrsula e Outras, Virgens e Mártires, a 21 de Outubro" />
 
+      <Text className="comment">
+        Em Colonia, diz o Martyrologio romano, o nascimento para o céu de Santa
+        Ursula e suas santas companheiras, martirizadas pelos Hunos por ódio à
+        religião cristã e à sua virginal pureza Diversas estão enterradas nesta
+        cidade (454).
+      </Text>
+
       <H3 text="Oração" />
 
       <Language>
