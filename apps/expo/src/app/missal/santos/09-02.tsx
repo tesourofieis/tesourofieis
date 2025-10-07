@@ -10,6 +10,28 @@ export default function Page0902() {
     <PageWrapper>
       <H1 text="S. Estêvão, Rei e Conf., a 2 de Setembro" />
 
+      <Text className="comment">
+        Descendente dos orgulhosos e terríveis invasores, conhecidos pelo nome
+        de Hunos, Estevão foi escolhido por Deus, para unir seus súbditos a
+        Cristo e ao seu vigário. O nome de Estevão lhe foi dado no baptismo
+        porque sua mãe tivera uma visão do Mártir Santo Estevão, predizendo-lhe
+        que havia de converter a Hungria, sendo o seu primeiro rei, após a
+        erecção do pais em reino, pelo Papa. Casando-se com a irmã do imperador
+        Santo Henrique, cercou-se, para governar o seu reino, de homens de
+        santidade e prudência comprovadas. Passava noites inteiras na
+        contemplação das coisas do céu (Intr.), praticando as maiores
+        austeridades, e, auxiliado pela rainha, sua piedosa esposa, dava grandes
+        esmolas (Ep.) às viúvas, aos órfãos e às igrejas. Com justa razão, a
+        grandeza de seu zelo pela extensão da fé lhe mereceu o titulo de Rei
+        apostólico ou de Apostolo da Hungria, recebendo da Santa Sé o
+        privilégio, transmitido também aos seus sucessores, de fazer levar a
+        cruz diante de si. Fez construir uma grande basílica em honra de Maria,
+        instituindo-a Padroeira da Hungria - seu zelo em propagar e fortalecer a
+        fé no pais lhe valeu a glória da realeza celeste (Postcomm.). Morreu em
+        1038 no dia da - Grande Senhora - denominação que, em virtude dum édito
+        do Santo rei, os Húngaros dão à festa da Assunção.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/14confessoresnaopontifices1">

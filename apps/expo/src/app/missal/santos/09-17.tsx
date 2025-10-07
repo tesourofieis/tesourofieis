@@ -9,6 +9,24 @@ export default function Page0917() {
     <PageWrapper>
       <H1 text="Imp. dos Estigmas em S. Francisco, a 17 de Setembro" />
 
+      <Text className="comment">
+        Dois annos antes de sua morte, S. Francisco retirou-se para o monte
+        Alverne, onde começou um jejum de 40 dias, em honra de S. Miguel
+        Arcanjo. Aconteceu-lhe, no meio de sua meditação, ver como um Seraphim
+        tendo seis asas tão resplandecentes quanto inflamadas e cujos pés e mãos
+        estavam pregados a uma cruz. Sabendo ser o estado de sofrimento
+        incompatível com a imortalidade dos espíritos serápicos, compreendeu
+        então que ele se tornaria mais semelhante a Jesus e carregaria a sua
+        cruz após o Mestre (Ev.), não por um martírio exterior, mas por um
+        mistico abrasar do amor divino. E, para que esse amor crucificado
+        pudesse nos servir de exemplo a todos, cinco chagas, semelhantes ás de
+        Jesus sobre a cruz, formaram-se em seus pés, mãos e lado. Da última saía
+        o sangue em abundância. O facto veio a ser tão bem constatado, que Bento
+        XI quis fosse anualmente celebrada a sua memória e Paulo V, para excitar
+        no coração dos fieis o amor de Jesus crucificado, estendeu a festa à
+        Igreja universal.
+      </Text>
+
       <H3 text="Intróito" />
 
       <Text className="em">Gl. 6, 14</Text>

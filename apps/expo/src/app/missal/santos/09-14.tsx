@@ -8,6 +8,50 @@ export default function Page0914() {
     <PageWrapper>
       <H1 text="Exaltação da Santa Cruz, a 14 de Setembro" />
 
+      <Text className="comment">
+        A 14 de Setembro de 335 fez-se a dedicação da basilica constantiniana
+        que compreendia em seu recinto o Calvário e também o Santo Sepulchro.
+        Foi nessa data, diz Etheria, que se descobriu a cruz, pelo que se lhe
+        celebra o aniversário com tanta solenidade como a Pascoá e a Epifania.
+        Dai a origem da festa da Exaltação da Cruz. «Quando eu för exaltado,
+        atrairei tudo a mim (Ev.), havia dito Jesus. Porque o Salvador se
+        humilhou, fazendo-se obediente até á morte da cruz, é que Deus o exaltou
+        e lhe deu um nome acima de todo nome (Ep.). Devemos, pois,
+        glorificar-nos na Cruz de Jesus, a nossa vida e salvação (Intr.), que
+        protege os seus servos contra as ciladas dos inimigos (Off., Comm.,
+        Postcomm.). Pelos fins do reino de Phocas, Chosroa, rei dos Persas, diz
+        a legenda do Breviario, apoderou-se de Jerusalem, fazendo perecer muitos
+        milhares de cristãos e levando para a Persia, a Cruz de Nosso Senhor
+        Jesus Christo, colocada por Helena, sobre o monte Calvário. Heraclio,
+        successor de Phocas, recorreu a jejuns e a múltiplas orações,
+        implorando, com muito fervor, o socorro de Deus. Reuniu um exercito e
+        venceu Chosroa, exigindo, então, a restituição da Cruz do Senhor. Assim,
+        foi recobrada a preciosa relíquia quatorze annos depois de ter caído em
+        poder dos Persas. De volta a Jerusalem, Heraclio tomou-a sobre os
+        ombros, levando-a, com grande pompa, para a montanha onde fora carregada
+        pelo proprio Salvador. (A. D. 629). Esse acontecimento ficou assinalado
+        por extraordinário milagre. Heraclio carregado de oiro e de pedras
+        preciosas, sentiu uma força invencível detê-lo á porta que dava accesso
+        ao monte Calvário; quanto mais esforços fazia para caminhar, tanto mais
+        fortemente detido parecia ficar. Estando o imperador e todas as
+        testemunhas da cena estupefactos, Zacharias, bispo de Jerusalem, the
+        disse: Notae, ó imperador, que com esses ornamentos de triunfo, não
+        imitais bastante a pobreza de Jesus Cristo e a humildade com que
+        carregou a sua Cruz. Heraclio, despojando-se das esplendidas vestimentas
+        e largando o calçado, lançou aos ombros um manto vulgar e pôs-se de novo
+        a caminho, realizando facilmente o restante do trajecto; colocou a Cruz
+        sobre o monte Calvário, no mesmo logar de onde os Persas a haviam
+        tirado. A solenidade da exaltação da santa Cruz, celebrada anualmente
+        nesse mesmo dia, adquiriu, então, grande importância, com a lembrança de
+        ter sido posta por Heraclio, no mesmo logar onde tinha sido levantada
+        para o Salvador, pela primeira vez». Unamo-nos em espirito aos fiéis
+        que, na igreja da Santa Cruz, em Roma, veneram hoje as reliquias do
+        madeiro sagrado aí expostas, a fim de que, admitidos a adorá-lo sobre a
+        terra, nesta solenidade, em que nos alegramos de sua Exaltação, sejamos
+        também por toda a eternidade, possuidores da salvação e da gloria que
+        ele nos mereceu (Or., Secr.).
+      </Text>
+
       <H3 text="Intróito" />
 
       <Text className="em">Gl. 6, 14</Text>

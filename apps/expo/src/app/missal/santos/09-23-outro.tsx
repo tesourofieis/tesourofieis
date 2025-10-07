@@ -8,6 +8,13 @@ export default function Page0923Outro() {
     <PageWrapper>
       <H1 text="Santa Tecla, Virgem e Mártir, a 23 de Setembro" />
 
+      <Text className="comment">
+        Em Lycaonia, diz o Martyrologio Romano, Santa Thecla, virgem e Martyr,
+        que convertida á fé pelo Apostolo S. Paulo, em Iconio (Asia Menor),
+        sofreu vitoriosamente o suplício das chamas e das feras, a fim de
+        confessar o Cristo, no tempo do imperador Nero.
+      </Text>
+
       <H3 text="Oração" />
 
       <Language>

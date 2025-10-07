@@ -8,6 +8,33 @@ export default function Page0930() {
   return (
     <PageWrapper>
       <H1 text="S. Jerónimo, Presb. C. e Doutor, a 30 de Setembro" />
+      <Text className="comment">
+        Jerónimo nasceu em Stridon, na Dalmacia e recebeu o baptismo em Roma;
+        instruiu-se na escola de sábios muito afamados. Ordenado Sacerdote,
+        retirou-se para o mosteiro fundado por duas grandes senhoras romanas,
+        Santa Paula e Santa Eustachia, em Belem, perto do presépio onde nasceu
+        Nosso Senhor. Mortificou-se por uma perpetua abstinência e entregou-se á
+        meditação dos Livros Santos (Grad.); passava os dias e as noites a ler e
+        a escrever. Foi quem fixou o texto latino na tradução chamada Vulgata e
+        adoptada pela Igreja como versão official da Bíblia. Faleceu em 420 e
+        seu corpo descansa em Santa Maria Maior, onde estão as reliquias do
+        presépio. Os Apóstolos e os Doutores são chamados sal, diz S. Jerónimo
+        explicando o Evangelho, visto ser a sua doutrina o condimento de todo o
+        genero humano. « Pois, se o sal perder a sua força, com que se salgará?
+        Se um Doutor se transvia, por qual outro Doutor será ele levantado? Não
+        será útil para nada senão para ser jogado fora e pisado pelos homens. A
+        comparação é tirada da agricultura. Se o sal é necessario para temperar
+        os alimentos e impedir a corrupção da carne, realmente, não tem outra
+        utilidade. Pelo menos lemos nos escritos, que em algumas cidades, a
+        vingança dos vencedores, foi espalhar sal, a fim de impedir que brotasse
+        do solo alguma vegetação. Sois a luz do mundo. Uma cidade sitiada sobre
+        uma montanha não pode estar escondida, e não se accende uma lampada para
+        colocá-la sob o alqueire, mas sim num candelabro para que ilumine todos
+        que estão na casa. É a audácia da pregação ensinada por Jesus, desejando
+        que seus Apóstolos, em logar de se esconderem por temor, assemelhando-se
+        assim á uma lampada occulta sob o alqueire, se manifestem com inteira
+        liberdade e preguem sobre os tectos o que ouviram em segredo (Matinas).
+      </Text>
 
       <Text className="aside">
         Como na{" "}
@@ -16,9 +43,7 @@ export default function Page0930() {
         </Link>{" "}
         , excepto:
       </Text>
-
       <H3 text="Oração" />
-
       <Language>
         <Text className="latin">
           Deus, qui Ecclésiæ tuæ in exponéndis sacris Scriptúris beátum
@@ -34,9 +59,7 @@ export default function Page0930() {
           ensinou, tanto pelas palavras, como pelas acções. Por nosso Senhor...
         </Text>
       </Language>
-
       <H3 text="Secreta" />
-
       <Language>
         <Text className="latin">
           Donis cœléstibus da nobis, quǽsumus, Dómine, líbera tibi mente
@@ -51,9 +74,7 @@ export default function Page0930() {
           Senhor...
         </Text>
       </Language>
-
       <H3 text="Postcomúnio" />
-
       <Language>
         <Text className="latin">
           Repleti alimónia cœlésti, quǽsumus, Dómine: ut, interveniénte beáto

@@ -9,6 +9,12 @@ export default function Page0911() {
     <PageWrapper>
       <H1 text="S. S. Proto e Jacinto, Mártires, a 11 de Setembro" />
 
+      <Text className="comment">
+        Cruelmente açoitados, estes dois irmãos foram vitimados pelo machado e
+        colocados no candido exército dos Mártires (All.). Deu-se isto em Roma,
+        cerca do ano de 260, sob Valeriano e Galliano.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/8muitosmartires3">

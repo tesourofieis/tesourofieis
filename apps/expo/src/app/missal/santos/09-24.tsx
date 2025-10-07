@@ -9,6 +9,26 @@ export default function Page0924() {
     <PageWrapper>
       <H1 text="B. Virgem Maria das Mercês, a 24 de Setembro" />
 
+      <Text className="comment">
+        A Santíssima Virgem apareceu no XIII seculo a S. Pedro Nolasco, a S.
+        Raymundo de Pennafort e a Thiago, rei de Aragão, para lhes sugerir a
+        fundação de um instituto religioso com o fim de libertar os cristãos do
+        bárbaro jugo dos Sarracenos (Or.) que, nessa época, ocupavam grande
+        parte da Espanha. Foi, por conseguinte, a 10 do mês de Agosto do anno de
+        1218, que o rei Tiago decretou o estabelecimento da Ordem real, militar
+        e religiosa de Nossa Senhora das Mercês e concedeu a seus membros o
+        privilégio de trazer sobre o peito as suas proprias armas. O maior
+        numero deles eram cavalheiros, e, enquanto os clérigos recitavam o
+        officio divino nas comendadorias, eles vigiavam as costas e libertavam
+        os prisioneiros. A obra espalhou-se por toda a superficie do globo,
+        produzindo heróis de santidade, homens de caridade e piedade
+        incomparáveis, que se dedicavam a recolher esmolas dos Cristãos para o
+        resgate de seus irmãos e muitas vezes se entregavam como resgate a fim
+        de libertarem um grande numero de cativos. Celebra da primeiramente pela
+        Ordem de Nossa Senhora das Mercês, a festa de hoje estendeu-se á Igreja
+        universal por Inocêncio XII, no seculo XVII.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/26festasmaria1">

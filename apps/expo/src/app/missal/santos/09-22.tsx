@@ -10,6 +10,20 @@ export default function Page0922() {
     <PageWrapper>
       <H1 text="S. Tomás de Vilanova, B. e C., a 22 de Setembro" />
 
+      <Text className="comment">
+        Nascido na Espanha, no XV seculo, Thomaz concebeu, desde a mais tenra
+        idade, sentimentos de grande misericórdia para com os pobres. Tendo
+        entrado para o Instituto dos Eremitas de Santo Agostinho, foi logo
+        colocado á frente de seus irmãos como Superior, e, depois de haver
+        recusado a sede archiepiscopal de Granada, foi forçado a aceitar a de
+        Valença. Participou assim do sacerdócio eterno do Christo (Intr., Ep.,
+        Grad., Off.). Não poupou aos indigentes as rendas consideráveis de sua
+        igreja e, mandando dar até o ultimo óbolo, no dia de sua morte, em 1555,
+        entregou a alma a Deus numa cama que nem mesmo lhe pertencia. A Igreja
+        celebra sobretudo, neste Pontifice sua insigne caridade para com os
+        pobres (Or., Ant. do Benedictus).
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/11confessorespontifices1">

@@ -8,6 +8,20 @@ export default function Page0921() {
     <PageWrapper>
       <H1 text="S. Mateus, a 21 de Setembro" />
 
+      <Text className="comment">
+        Lemos no Evangelho, a narração, feita pelo proprio São Mateus de sua
+        conversão. A Epístola descreve a celebre visão em que aparecem a
+        Ezequiel quatro animais simbólicos, nos quais foram reconhecidos, desde
+        os primeiros seculos, os quatro Evangelistas. São Mateus é representado
+        pelo animal com o rosto humano, visto começar o seu Evangelho pela série
+        dos antepassados de quem Jesus descendia como homem. O seu fim,
+        escrevendo esse livro, impregnado de sabedoria toda divina (Intr.), foi
+        provar que Jesus realizou os oráculos relativos ao libertador de Israel,
+        sendo Ele, portanto, o Messias. Depois de Pentecostes, esse Apóstolo
+        pregou a boa nova na Palestina e na Ethiopia, onde morreu martyr. O nome
+        de São Mateus acha-se no Canon da Missa, no grupo dos Apóstolos.
+      </Text>
+
       <H3 text="Intróito" />
 
       <Text className="em">Sl. 36, 30-31</Text>

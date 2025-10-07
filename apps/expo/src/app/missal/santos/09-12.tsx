@@ -9,6 +9,28 @@ export default function Page0912() {
     <PageWrapper>
       <H1 text="Santíssimo Nome de Maria, a 12 de Setembro" />
 
+      <Text className="comment">
+        Assim como, alguns dias depois do Natal, celebramos o Santo Nome de
+        Jesus, também, depois da festa da Natividade de Maria, glorificamos o
+        seu Santo Nome. Oito dias depois do nascimento da Santíssima Virgem,
+        segundo a prática dos Judeus, seus santos Pais, inspirados por Deus,
+        dizem S. Jerónimo e Santo Antonino, chamaram-na Maria. Por isso no curso
+        da Oitava da Natividade, a liturgia tem uma festa em honra desse santo
+        Nome. A Espanha, com a aprovação de Roma, em 1513, foi a primeira a
+        celebrá-la, e, em 1683, o Papa Inocêncio XI estendeu-a á toda a Igreja,
+        a fim de agradecer á Maria a victoria obtida por João Sobieski, rei da
+        Polónia, contra os Turcos que sitiavam Vienna e ameaçavam o Ocidente. O
+        nome da Virgem, diz o Evangelho, era Maria». « O nome hebraico de Maria,
+        em latim Domina, significa Senhora ou Soberana; realmente, a autoridade
+        de seu Filho, Dominador do mundo, a constitue Soberana de facto e pelo
+        nome, desde o seu nascimento» (1). Como chamamos a Jesus Nosso Senhor,
+        chamamos a Maria Nossa Senhora. Pronunciar-lhe o nome é afirmar o seu
+        poder sem limites. Ofereçamos o Santo Sacrifício a Deus, a fim de
+        honrarmos o Santíssimo Nome de Maria, e obtermos, por sua oração, a
+        graça de experimentarmos em todos os logares a sua protecção
+        (Postcomm.).
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/8muitosmartires3">

@@ -9,6 +9,18 @@ export default function Page0909() {
     <PageWrapper>
       <H1 text="S. Gorgónio, Mártir, a 9 de Setembro" />
 
+      <Text className="comment">
+        Gorgonio nasceu na Nicomedia. Oficial da casa do imperador Diocleciano,
+        converteu à fé cristã, com o auxilio de Dorotheu, seu colega, todos os
+        outros servos do palácio imperial. Como castigo dessa audácia, diz o
+        Martirológio Romano, foram pendurados e despedaçados por todo o corpo
+        com açoites; em seguida, derramaram-lhes vinagre e sal sobre as
+        entranhas descobertas; depois de queimados sobre uma grelha, foram,
+        finalmente, estrangulados. Morreram ao mesmo tempo que S. Theodoro em
+        Nicomedia, em 303. Mais tarde inumaram o corpo de S. Gorgonio em Roma,
+        na via Latina, de onde foi transferido para a basílica de S. Pedro.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/5martirnaopontifice2">

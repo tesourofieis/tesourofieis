@@ -9,6 +9,24 @@ export default function Page0927() {
     <PageWrapper>
       <H1 text="S. S. Cosme e Damião, Mártires, a 27 de Setembro" />
 
+      <Text className="comment">
+        Irmãos pelo sangue, os SS. Cosme e Damião o foram sobretudo pela fé em
+        Jesus e pelo martírio comum, sofrido pelo Cristo (All.). Naturais de
+        Egeu, na Arabia, medicos distinctos do reinado de Diocleciano e
+        Maximiano, curavam, pela virtude de Cristo e pela sua ciência medica, as
+        mais graves doenças, estendendo-se a sua reputação, muito em breve, por
+        todo o país. Apóstolos ainda mais do que medicos, curavam as almas ao
+        mesmo tempo que os corpos, a exemplo de Jesus na Palestina (Ev.).
+        Denunciados ao prefeito Lydiano, sofreram os mais terríveis suplícios,
+        sendo, finalmente, acorrentados e jogados no mar, apedrejados e expostos
+        ás chamas dum braseiro. Depois de varios tormentos, morreram cerca do
+        anno de 285, e seus corpos foram transportados a Roma, para o antigo
+        templo de Romulo, transformado em igreja, a ambos consagrada, e onde se
+        faz a Estação na Quinta-Feira da 3ª Semana da Quaresma (1). Seus nomes
+        estão inscriptos no Canon da Missa, em seguida a alguns mártires
+        romanos.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/7muitosmartires2">

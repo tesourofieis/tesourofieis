@@ -8,6 +8,15 @@ export default function Page0916Outro2() {
   return (
     <PageWrapper>
       <H1 text="Santa Eufémia e Outros, Mártires, a 16 de Setembro" />
+
+      <Text className="comment">
+        Na Chalcedonia, diz o Martirológio Romano, nascimento para o céu, de
+        Santa Euphemia, virgem e Martyr, que, sob o imperador Diocleciano, em
+        307, foi condenada a ser entregue aos animais. Em Roma, os santos
+        Mártires Lucia, nobre matrona, e Geminiano, decapitados por ordem do
+        imperador Diocleciano cerca do ano de 300..
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/6muitosmartires1">

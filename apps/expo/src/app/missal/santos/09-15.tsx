@@ -9,6 +9,25 @@ export default function Page0915() {
     <PageWrapper>
       <H1 text="Sete Dores da B. Virgem Maria, a 15 de Setembro" />
 
+      <Text className="comment">
+        Maria estava de pé junto á Cruz de onde pendia Jesus (Intr., Grad.,
+        All., Seq., Ev.) e, como predissera Simeão (Or.) um gladio de dor lhe
+        traspassou a alma (Secr.). Sem poder fazer coisa alguma, vê seu meigo
+        filho desolado nas angústias da morte e recebe seu ultimo suspiro
+        (Seq.). A compaixão sofrida pelo seu coração materno ao pé da Cruz The
+        mereceu alcançar, sem passar pela morte, a palma do martírio (Comm.).
+        Esta festa era celebrada com grande solenidade pelos Servitas no XVII
+        seculo. Pio VII, em 1817, a estendeu á toda a Igreja, a fim de recordar
+        os sofrimentos por Ella passados na pessoa de seu Chefe exilado e
+        cativo, mas libertado, graças á protecção da Santíssima Virgem. Como a
+        primeira festa das Dores de Maria, no Tempo da Paixão, mostra a parte
+        que Ella tomou sacrifício de Jesus, a segunda, no Tempo de Pentecostes,
+        nos diz toda a compaixão da Mãe do Salvador para com a Igreja, Esposa de
+        Jesus, crucificada também, por sua vez, e cuja devoção ás Dores de Maria
+        augmenta nos tempos calamitosos que atravessa. Sua Santidade Pio X
+        elevou a festa, em 1908, á categoria das solenidades de 2ª classe.
+      </Text>
+
       <H3 text="Intróito" />
 
       <Text className="em">Jo. 19, 25</Text>

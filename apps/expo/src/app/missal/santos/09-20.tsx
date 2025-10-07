@@ -9,6 +9,19 @@ export default function Page0920() {
     <PageWrapper>
       <H1 text="Vigilia de S. Mateus, Apóstolo e Evangelista, a 20 de Setembro" />
 
+      <Text className="comment">
+        Desejando honrar a alta dignidade dos Apóstolos (Secr.), a Igreja nos
+        prepara à sua festa por uma vigília. Faz hoje memória de S. Mateus, por
+        Orações especiais e pela leitura, na Missa, do Evangelho onde São Lucas
+        descreve a vocação do Apóstolo. Galileu pelo nascimento, Mateus, antes
+        de convertido, chamara-se Levi, e era publicano, profissão que consistia
+        em receber impostos para os Romanos, sendo para os Judeus muito odiosa
+        visto lembrar-lhes a sua dependência. Ordinariamente duro e avaro, o
+        publicano era considerado pelos Fariseus como o tipo do pecador. A
+        Igreja faz sobressair o papel de Jesus, como médico das almas por Ele
+        chamadas à penitência (Ev.).
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link href="/missal/comum/1vigiliaapostolos">

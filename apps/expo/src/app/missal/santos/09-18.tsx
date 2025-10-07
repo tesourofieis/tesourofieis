@@ -9,6 +9,19 @@ export default function Page0918() {
     <PageWrapper>
       <H1 text="S. José Cupertino, Conf., a 18 de Setembro" />
 
+      <Text className="comment">
+        Humilde filho de S. Francisco cujos Estigmas, ontem celebramos, S. José
+        glorifica também a cruz de Jesus exaltada ha poucos dias pela liturgia
+        (14 de Setembro). Como o Seraphico patriarcha, aplicou-se em permanecer
+        preso á Cruz por meio de completa pobreza, obediência heroica e virginal
+        pureza. Graças ao espirito de sacrifício e de oração, aceitava com santa
+        paciência e grande serenidade d'alma os ultrajes, repreensões e toda
+        sorte de injurias (Off.). Deus, que exalta os humildes, fê-lo passar
+        para a categoria dos Clérigos e elevou-o ao sacerdócio. O Santo operava
+        tais milagres, que suplicou ao céu retirar-lhe os dons extraordinários
+        de que era cumulado. Morreu santamente em Orsino. (1663).
+      </Text>
+
       <H3 text="Intróito" />
 
       <Text className="em">Ecl. 1, 14-15</Text>
