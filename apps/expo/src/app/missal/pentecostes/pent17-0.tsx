@@ -135,7 +135,7 @@ export default function PagePent170() {
         </Text>
         <Text className="vernacular">
           Naquele tempo aproximaram-se de Jesus os fariseus. Um deles que era
-          doutor da Lei, perguntou-Lhe para D tentar: «Mestre, qual é o
+          doutor da Lei, perguntou-Lhe para O tentar: «Mestre, qual é o
           principal mandamento da Lei?». Jesus respondeu-lhe: «Amarás ao Senhor,
           teu Deus, com todo o coração, com toda a alma e com todo o
           entendimento». Este é o maior e o principal mandamento. Porém, eis o
