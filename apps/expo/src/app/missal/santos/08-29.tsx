@@ -8,6 +8,26 @@ export default function Page0829() {
     <PageWrapper>
       <H1 text="Degolação de S. João Baptista, a 29 de Agosto" />
 
+      <Text className="comment">
+        Tendo celebrado, a 24 de Junho, a alegre vinda de S. João Baptista à
+        terra, a Igreja honra hoje o seu glorioso nascimento para o céu. A
+        excepção de Nosso Senhor e da Santíssima Virgem, é o unico Santo de quem
+        se honra o nascimento. Aliás, S. João Baptista ocupa no culto da Igreja
+        o 1º lugar depois dos Anjos. João o Precursor - que havia passado tantos
+        anos no deserto, onde floresceu como a palmeira e cresceu como o cedro
+        do Líbano (Grad.), teve a coragem de censurar a Herodes o escândalo de
+        sua união ilícita com Herodiades, sua cunhada, esposa de Philippe ainda
+        vivo (Intr., Ep., Ev.). Não vos é permitido, disse ele ao príncipe
+        guardar a mulher de vosso irmão. Herodiades obrigou a Herodes a
+        aprisioná-lo e aproveitou da ocasião inesperada para obter, por sua
+        filha Salomé, a degolação do Santo, que importunava a sua paixão
+        criminosa. São João completa hoje a sua missão acrescentando o
+        testemunho de seu martírio ao que prestara ao Cristo no baptismo. Foi
+        morto proximo à festa de Páscoa, um ano antes da paixão de Jesus mas
+        celebra-se esse aniversário no dia em que sua venerável cabeça foi
+        encontrada em Emesa, na Syria, no anno de 453.
+      </Text>
+
       <H3 text="Intróito" />
 
       <Text className="em">Sl. 118, 46-47</Text>

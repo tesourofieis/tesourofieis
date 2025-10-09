@@ -9,6 +9,13 @@ export default function Page0828Outro() {
     <PageWrapper>
       <H1 text="S. Hermes, Mártir, a 28 de Agosto" />
 
+      <Text className="comment">
+        Em Roma, diz o Martirológio Romano: triunfo de S. Hermes, personagem
+        muito considerável que, depois de haver estado por algum tempo na
+        prisão, foi decapitado com varios outros santos sob o juiz Aureliano,
+        como relatam as actas do Papa Santo Alexandre († cerca do ano 133).
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/5martirnaopontifice2">

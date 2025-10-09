@@ -9,6 +9,37 @@ export default function Page0828() {
     <PageWrapper>
       <H1 text="S. Agostinho, a 28 de Agosto" />
 
+      <Text className="comment">
+        Agostinho nasceu em 354, em Tagaste (na actual Argélia). Sua mãe, Santa
+        Mónica, muito cedo ensinou-lhe a rezar; depois de haver saboreado com
+        delícias suas santas lições, deixou-se, logo, arrastar ás mais graves
+        desordens. Não oferecendo Cartago teatro assaz vasto para o seu génio,
+        foi á Roma, obtendo o lugar de Mestre de eloquência em Milão. Minhas
+        iniquidades, confessa ele, se assemelhavam à bola de neve crescendo a
+        medida que a fazem rolar. Sua mãe, consternada, dirigia a Deus continuas
+        orações, acompanhadas de lágrimas, e seguia os passos do filho. A pedido
+        seu, Santo Ambrósio o acolheu com bondade e o esclareceu sobre as
+        ciências divinas. Um dia, por inspiração do céu, Agostinho abriu as
+        Epístolas de S. Paulo e leu: Não vos entregueis à desordem e à impureza,
+        porém, revesti-vos de N. S. J. C.. Imediatamente suas irresoluções
+        cessaram; recebeu o baptismo aos 33 annos, na vigília da Páscoa de 387.
+        Sete meses depois dessa grande felicidade, Santa Mónica morreu, pedindo
+        ao filho que se lembrasse dela no altar do Senhor. Agostinho, ordenado
+        sacerdote, celebrava pela mãe o Santo Sacrifício. Senhor, dizia
+        frequentemente, tende piedade de minha mãe; era boa, perdoava facilmente
+        perdoai-lhe também as suas faltas. Bispo de Hippona aos 41 annos (All.,
+        Comm.) começou a viver canonicamente, isto é, em comum com os seus
+        clérigos. A comunidade forneceu, a numerosas igrejas, bispos e padres e
+        assim o Instituto de Santo Agostinho espalhou-se pouco a pouco na
+        África, e, mais especialmente, nas Gallias. A Regra de Santo Agostinho,
+        que dele faz um dos quatro fundadores de Ordens religiosas, é tirada da
+        epístola 211 por ele escrita a religiosas e adaptada, em época mais
+        remota, aos homens. Graças à sublimidade da sua ciência e ao ardor de
+        seu amor, o Santo é um dos quatro grandes Doutores do Ocidente. Morreu
+        depois de 36 anos de episcopado, no ano 430, recitando os Psalmos
+        penitenciais.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/13doutores">

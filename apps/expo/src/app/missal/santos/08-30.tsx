@@ -9,6 +9,23 @@ export default function Page0830() {
     <PageWrapper>
       <H1 text="Santa Rosa de Lima, Virgem, a 30 de Agosto" />
 
+      <Text className="comment">
+        Cem anos depois da descoberta do Novo Continente, nasceu em Lima,
+        capital do Peru, a virgem Rosa, primeira flor de santidade produzida
+        pela América do Sul. Recebeu este nome porque, certo dia, o seu rosto
+        apareceu maravilhosamente transfigurado, tendo a beleza de uma rosa
+        acrescentou-lhe o nome da Santíssima Virgem, querendo, de ora em diante,
+        ser chamada Rosa de Santa Maria. Fecundada pelo orvalho da graça
+        celeste, produziu magníficas flores de virgindade e paciência (Or.).
+        Desde a idade de cinco annos, fez o voto de permanecer sempre virgem e
+        tomar a Jesus por esposo (Ep.). A fim de evitar ser mais tarde
+        constrangida a casar-se, cortou sua bela cabeleira. Tendo recebido o
+        hábito da Ordem Terceira de S. Domingos, deu-se à oração e a rudes
+        mortificações. Na idade de trinta e um anos, a 29 de Agosto de 1617, seu
+        divino Esposo veio buscá-la (Ev., Comm.). Ornada do esplendor da sua
+        beleza, foi triunfante para a côrte do Rei celeste (Grad., All.).
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/20virgemnaomartir1">

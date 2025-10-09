@@ -9,6 +9,28 @@ export default function Page0827() {
     <PageWrapper>
       <H1 text="S. José Calasans, Conf., a 27 de Agosto" />
 
+      <Text className="comment">
+        A Igreja acaba de celebrar a festa da Assunção, e hoje honra a um Santo
+        que consagrou á Santíssima Virgem culto todo particular. São José
+        Calasans nasceu em Aragão, de familia nobre, dando, desde a juventude,
+        signais de caridade para com as crianças. Quando estudava theologia, em
+        Valença, teve de defender-se contra as seduções de uma mulher poderosa e
+        nobre e fez voto de entrar nas sagradas Ordens. Ordenado sacerdote,
+        soube, por revelação divina, que era destinado a instruir e formar na
+        piedade as crianças e, principalmente, as crianças pobres (Off.).
+        Fundou, então, a Ordem dos Pobres Clérigos, regulares das Escolas Pias
+        da Mãe de Deus (Or.). Como Jesus, chamou a si os pequeninos (Comm.) e
+        lhes ensinou o temor de Deus (Intr.). O Evangelho traz a consoladora
+        palavra do Mestre Quem recebe em meu nome um destes pequeninos, a mim
+        mesmo recebe. Apesar das solicitudes do governo geral de sua Ordem, diz
+        o Breviário, e, apesar de continuar a trabalhar com todas as suas forças
+        na salvação das almas, nunca cessou de instruir as crianças, sobretudo
+        as indigentes. Varrer-lhes as classes e reconduzi-las às suas casas,
+        era-lhe isso habitual. Perseverou, durante cinquenta e dois anos, mesmo
+        doente, nessas admiráveis praticas de paciência e humildade. S. João
+        Calasans morreu com 92 annos, em 1648.
+      </Text>
+
       <H3 text="Intróito" />
 
       <Text className="em">Sl. 33, 12</Text>

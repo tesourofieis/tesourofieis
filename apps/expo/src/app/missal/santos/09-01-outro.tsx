@@ -8,6 +8,11 @@ export default function Page0901Outro() {
     <PageWrapper>
       <H1 text="S. S. Doze Irmãos, Mártires, a 1 de Setembro" />
 
+      <Text className="comment">
+        Africanos pelo nascimento, estes Santos foram martirizados em lugares
+        diferentes, no III século, sob os imperadores Diocleciano e Maximiano.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/santos/03-10">
