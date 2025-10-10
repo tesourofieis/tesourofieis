@@ -60,13 +60,13 @@ export default function PageLinkCard({
                 <View className="flex-1">
                   <View className="flex flex-row">
                     <Text className="text-pretty text-sm text-sepia-600 dark:text-sepia-200">
-                      {description}
+                      {description || ""}
                     </Text>
                   </View>
 
                   <View className="flex flex-row items-center gap-2">
                     <Text className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
-                      {oratio.name}
+                      {oratio.name || ""}
                     </Text>
                   </View>
                 </View>
@@ -97,25 +97,25 @@ export default function PageLinkCard({
                   <View className="px-3 flex flex-row items-center gap-2">
                     <FontAwesome name="circle" color={getColor(mass.color)} />
                     <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-200">
-                      {description ?? "Missa"}
+                      {description || "Missa"}
                     </Text>
                     <Text className="text-sepia">|</Text>
                     {mass.rank && (
                       <Text className="font-serif text-sm text-sepia-700 dark:text-sepia-200">
-                        Classe: {mass.rank}
+                        Classe: {String(mass.rank)}
                       </Text>
                     )}
                   </View>
 
                   <Text className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
-                    {mass.name}
+                    {mass.name || ""}
                   </Text>
 
                   {mass.local && (
                     <View className="flex-row items-center gap-2">
                       <FontAwesome name="map" color={COLORS[500]} />
                       <Text className="text-pretty text-sepia-500">
-                        Local: {mass.local.toUpperCase()}
+                        Local: {String(mass.local).toUpperCase()}
                       </Text>
                     </View>
                   )}
@@ -148,13 +148,13 @@ export default function PageLinkCard({
                     className="text-pretty text-xs text-sepia-600 dark:text-sepia-200"
                     numberOfLines={1}
                   >
-                    {description ?? ""}
+                    {description || ""}
                   </Text>
                 </View>
 
                 <View className="flex flex-row items-center gap-2">
                   <Text className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
-                    {title}
+                    {title || ""}
                   </Text>
                 </View>
               </View>

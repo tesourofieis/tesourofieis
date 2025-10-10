@@ -41,4 +41,4 @@ function parseLocalDate(dateString: string): Date {
   return parse(dateString, "yyyy-MM-dd", new Date());
 }
 
-export { match, yyyyMMDD, parseLocalDate };
+export { yyyyMMDD, parseLocalDate };

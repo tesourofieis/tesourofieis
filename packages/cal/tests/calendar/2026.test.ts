@@ -64,9 +64,9 @@ describe("calendar 2026", () => {
 
         expect(calendar2025).not.toEqual(calendar2026);
         expect(calendar2026).toMatchSnapshot(
-          `year-boundary-2026-${timezone.replace("/", "-")}`,
+          `year-boundary-2026-${timezone.replace("/", "-")}`
         );
-      },
+      }
     );
   });
 });

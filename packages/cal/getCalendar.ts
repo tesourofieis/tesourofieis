@@ -5,14 +5,12 @@ import { parseLocalDate } from "./utils";
 
 function getCalendar(year: number) {
   const calendar = new Calendar(year);
-
   return calendar.getAllDays();
 }
 
 function getCalendarDay(date: string) {
-  const calendar = new Calendar(parseLocalDate(date).getFullYear()).get(date);
-
-  return calendar;
+  const calendar = new Calendar(parseLocalDate(date).getFullYear());
+  return calendar.getAllDays().find((day) => day.date === date);
 }
 
 function getNovenas(date: string) {
@@ -36,8 +34,7 @@ function getNovenas(date: string) {
 
 function getSeason(date: string) {
   const calendar = new Calendar(parseLocalDate(date).getFullYear());
-
-  return calendar.getSeasonName(date);
+  return calendar.getAllDays().find((day) => day.date === date)?.season;
 }
 
 export { getCalendar, getCalendarDay, getNovenas, getSeason };

@@ -18,20 +18,16 @@ import LinkCard from "~/components/LinkCard";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
 
-// Main Calendar Component
 export default function CalendarMasterpiece() {
   const scrollViewRef = useRef<ScrollView>(null);
   const todayRef = useRef<View>(null);
   const { calendar, date } = useCalendar();
 
-  // Today's date formatted for comparison with calendar entries
   const todayString = yyyyMMDD(date);
 
-  // Local state for current date and view mode (month or week)
   const [currentDate, setCurrentDate] = useState<Date>(new Date());
   const [viewMode, setViewMode] = useState<"month" | "week">("month");
 
-  // Calculate the visible days interval based on the view mode
   const intervalStart =
     viewMode === "month" ? startOfMonth(currentDate) : startOfWeek(currentDate);
   const intervalEnd =
@@ -39,13 +35,11 @@ export default function CalendarMasterpiece() {
 
   const days = eachDayOfInterval({ start: intervalStart, end: intervalEnd });
 
-  // Determine if today's date is visible in the current interval
   const isTodayVisible = isWithinInterval(new Date(), {
     start: intervalStart,
     end: intervalEnd,
   });
 
-  // Format the period string for display
   const formattedPeriod =
     viewMode === "month"
       ? format(intervalStart, "MMMM yyyy", { locale: pt })
@@ -53,7 +47,6 @@ export default function CalendarMasterpiece() {
           locale: pt,
         })} - ${format(endOfWeek(currentDate), "MMM dd", { locale: pt })}`;
 
-  // Navigation handlers for previous and next periods
   const handlePrevious = () => {
     setCurrentDate((prevDate) =>
       viewMode === "month" ? addMonths(prevDate, -1) : addWeeks(prevDate, -1)
@@ -66,7 +59,6 @@ export default function CalendarMasterpiece() {
     );
   };
 
-  // Switch view handler that resets the current date to align with the new mode
   const handleViewSwitch = (mode: "month" | "week") => {
     setViewMode(mode);
     setCurrentDate((prevDate) =>
@@ -74,7 +66,6 @@ export default function CalendarMasterpiece() {
     );
   };
 
-  // “Today” button recenter logic – only update if not already centered on today
   const handleToday = () => {
     if (!isTodayVisible) {
       const newDate = new Date();
@@ -84,7 +75,6 @@ export default function CalendarMasterpiece() {
     }
   };
 
-  // Scroll the view so that today is visible
   useEffect(() => {
     const timeout = setTimeout(() => {
       if (todayRef.current) {
@@ -136,9 +126,11 @@ export default function CalendarMasterpiece() {
                   ref={isToday ? todayRef : null}
                   className="flex-1 p-1 rounded"
                 >
-                  {dayData?.mass?.map((item) => (
-                    <LinkCard key={item.id} mass={item} />
-                  ))}
+                  {dayData?.mass && dayData.mass.length > 0
+                    ? dayData.mass.map((item) => (
+                        <LinkCard key={item.id} mass={item} />
+                      ))
+                    : null}
                 </View>
               </View>
             );
@@ -149,7 +141,6 @@ export default function CalendarMasterpiece() {
   );
 }
 
-// Header component: Displays period navigation, view-mode switches, and the recenter "Today" button.
 type HeaderProps = {
   formattedPeriod: string;
   handlePrevious: () => void;
@@ -191,7 +182,6 @@ function Header({
       </Text>
 
       <View className="flex flex-row items-center">
-        {/* Week/Month toggle */}
         <Pressable onPressOut={() => onViewSwitch("week")}>
           <Text
             className={`p-2 rounded-l text-sepia-700 dark:text-sepia-300 ${

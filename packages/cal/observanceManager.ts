@@ -46,9 +46,35 @@ export type MassMap = {
 
 export class MassManager {
   private masses: Mass[];
+  private byFlexibility: Map<Mass["flexibility"], Mass[]>;
+  private byType: Map<Mass["type"], Mass[]>;
+  private santosByMonthDay: Map<string, Mass[]>; // key: "m-d"
 
   constructor() {
     this.masses = Object.values(OBSERVANCES);
+    this.byFlexibility = new Map();
+    this.byType = new Map();
+    this.santosByMonthDay = new Map();
+
+    for (const mass of this.masses) {
+      // index by flexibility
+      const flexList = this.byFlexibility.get(mass.flexibility) || [];
+      flexList.push(mass);
+      this.byFlexibility.set(mass.flexibility, flexList);
+
+      // index by type
+      const typeList = this.byType.get(mass.type) || [];
+      typeList.push(mass);
+      this.byType.set(mass.type, typeList);
+
+      // index santos by month-day
+      if (mass.flexibility === "santos" && mass.month && mass.day) {
+        const key = `${mass.month}-${mass.day}`;
+        const list = this.santosByMonthDay.get(key) || [];
+        list.push(mass);
+        this.santosByMonthDay.set(key, list);
+      }
+    }
   }
 
   createMassWithDate(mass: Mass, date: string): Mass {
@@ -75,12 +101,8 @@ export class MassManager {
     return OBSERVANCES[id];
   }
 
-  getByFlexibility(flexibility: Mass["flexibility"]): Mass[] {
-    return this.masses.filter((mass) => mass.flexibility === flexibility);
-  }
-
   getByTypeId(type: Mass["type"]): Mass[] {
-    return this.masses.filter((mass) => mass.type === type);
+    return this.byType.get(type) || [];
   }
 
   getTempora(): Mass[] {
@@ -88,7 +110,11 @@ export class MassManager {
   }
 
   getSancti(): Mass[] {
-    return this.masses.filter((mass) => mass.flexibility === "santos");
+    return this.byFlexibility.get("santos") || [];
+  }
+
+  getSanctiByMonthDay(month: number, day: number): Mass[] {
+    return this.santosByMonthDay.get(`${month}-${day}`) || [];
   }
 
   getAdvent(): Mass[] {
@@ -99,13 +125,13 @@ export class MassManager {
     return this.masses.filter(
       (mass) =>
         mass.category === "pascoa" &&
-        ((mass.weekday && mass.weekday < 5) || (mass.week && mass.week < 4)),
+        ((mass.weekday && mass.weekday < 5) || (mass.week && mass.week < 4))
     );
   }
 
   getTemporaSunday(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.id.startsWith("tempora:") && mass.id.includes("-0"),
+      (mass) => mass.id.startsWith("tempora:") && mass.id.includes("-0")
     );
   }
 
@@ -115,7 +141,7 @@ export class MassManager {
         mass.category === "quaresma" &&
         mass.week === 1 &&
         mass.day &&
-        [3, 5, 6].includes(mass.day),
+        [3, 5, 6].includes(mass.day)
     );
   }
 
@@ -129,7 +155,7 @@ export class MassManager {
         mass.category === "advento" &&
         mass.week === 3 &&
         mass.day &&
-        [3, 5, 6].includes(mass.day),
+        [3, 5, 6].includes(mass.day)
     );
   }
 
@@ -141,19 +167,19 @@ export class MassManager {
 
   getSanctiClass1(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.category === "santos" && mass.rank === 1,
+      (mass) => mass.category === "santos" && mass.rank === 1
     );
   }
 
   getSanctiClass2(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.category === "santos" && mass.rank === 2,
+      (mass) => mass.category === "santos" && mass.rank === 2
     );
   }
 
   match(
     observances: Mass[],
-    criteria: Mass | Mass[] | ((mass: Mass) => boolean),
+    criteria: Mass | Mass[] | ((mass: Mass) => boolean)
   ): Mass | undefined {
     const observanceArray = Array.isArray(observances)
       ? observances
@@ -178,7 +204,7 @@ export class MassManager {
 export const massManager = new MassManager();
 
 // TEMPORA_RANK_MAP can be used within the class methods if needed
-export const TEMPORA_RANK_MAP: {
+const TEMPORA_RANK_MAP: {
   pattern: string;
   month: number;
   day: number;

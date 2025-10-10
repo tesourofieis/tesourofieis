@@ -49,7 +49,7 @@ export function CalendarProvider({ children }: PropsWithChildren) {
   ];
 
   const day = getCalendarDay(yyyyMMDD(date));
-  const mass = day.mass;
+  const mass = day?.mass || [];
 
   function getNovenas() {
     const endDate = addDays(date, 9);
