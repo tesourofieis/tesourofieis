@@ -9111,7 +9111,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "name": "Sábado das Têmporas de Setembro",
         "outro": false,
         "rank": 2,
-        "type": "pre-lent-to-pentcost",
+        "type": "ember-september",
         "weekday": 6,
       },
     ],

@@ -9236,7 +9236,7 @@ exports[`calendar 2026 > edge cases across timezones > should handle year bounda
         "name": "Sábado das Têmporas de Setembro",
         "outro": false,
         "rank": 2,
-        "type": "pre-lent-to-pentcost",
+        "type": "ember-september",
         "weekday": 6,
       },
       {
@@ -21912,7 +21912,7 @@ exports[`calendar 2026 > edge cases across timezones > should handle year bounda
         "name": "Sábado das Têmporas de Setembro",
         "outro": false,
         "rank": 2,
-        "type": "pre-lent-to-pentcost",
+        "type": "ember-september",
         "weekday": 6,
       },
       {
@@ -34588,7 +34588,7 @@ exports[`calendar 2026 > edge cases across timezones > should handle year bounda
         "name": "Sábado das Têmporas de Setembro",
         "outro": false,
         "rank": 2,
-        "type": "pre-lent-to-pentcost",
+        "type": "ember-september",
         "weekday": 6,
       },
       {
@@ -47264,7 +47264,7 @@ exports[`calendar 2026 > should render the correct calendar 1`] = `
         "name": "Sábado das Têmporas de Setembro",
         "outro": false,
         "rank": 2,
-        "type": "pre-lent-to-pentcost",
+        "type": "ember-september",
         "weekday": 6,
       },
       {
@@ -59940,7 +59940,7 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Am
         "name": "Sábado das Têmporas de Setembro",
         "outro": false,
         "rank": 2,
-        "type": "pre-lent-to-pentcost",
+        "type": "ember-september",
         "weekday": 6,
       },
       {
@@ -72616,7 +72616,7 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Am
         "name": "Sábado das Têmporas de Setembro",
         "outro": false,
         "rank": 2,
-        "type": "pre-lent-to-pentcost",
+        "type": "ember-september",
         "weekday": 6,
       },
       {
@@ -85292,7 +85292,7 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in As
         "name": "Sábado das Têmporas de Setembro",
         "outro": false,
         "rank": 2,
-        "type": "pre-lent-to-pentcost",
+        "type": "ember-september",
         "weekday": 6,
       },
       {
@@ -97968,7 +97968,7 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Au
         "name": "Sábado das Têmporas de Setembro",
         "outro": false,
         "rank": 2,
-        "type": "pre-lent-to-pentcost",
+        "type": "ember-september",
         "weekday": 6,
       },
       {
@@ -110644,7 +110644,7 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Eu
         "name": "Sábado das Têmporas de Setembro",
         "outro": false,
         "rank": 2,
-        "type": "pre-lent-to-pentcost",
+        "type": "ember-september",
         "weekday": 6,
       },
       {
@@ -123320,7 +123320,7 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Eu
         "name": "Sábado das Têmporas de Setembro",
         "outro": false,
         "rank": 2,
-        "type": "pre-lent-to-pentcost",
+        "type": "ember-september",
         "weekday": 6,
       },
       {
@@ -135996,7 +135996,7 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Pa
         "name": "Sábado das Têmporas de Setembro",
         "outro": false,
         "rank": 2,
-        "type": "pre-lent-to-pentcost",
+        "type": "ember-september",
         "weekday": 6,
       },
       {
@@ -148672,7 +148672,7 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in UT
         "name": "Sábado das Têmporas de Setembro",
         "outro": false,
         "rank": 2,
-        "type": "pre-lent-to-pentcost",
+        "type": "ember-september",
         "weekday": 6,
       },
       {
