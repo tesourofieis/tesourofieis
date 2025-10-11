@@ -22,7 +22,7 @@
     "@astrojs/tailwind": "^6.0.2",
     "@tailwindcss/vite": "^4.1.8",
     "@tesourofieis/cal": "workspace:*",
-    "astro": "^5.13.3",
+    "astro": "^5.14.3",
     "date-fns": "catalog:",
     "react": "catalog:astro",
     "react-dom": "catalog:astro"
