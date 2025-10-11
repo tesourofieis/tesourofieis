@@ -8,6 +8,29 @@ export default function Page0824() {
     <PageWrapper>
       <H1 text="S. Bartolomeu, Apóstolo, a 24 de Agosto" />
 
+      <Text className="comment">
+        O filho de Tolomeu ou Bartolomeu, é, segundo a opinião comum, o
+        discípulo apresentado a Nosso Senhor por Philippe, com o nome de
+        Natanael, elogiado pelo Mestre por sua inocência e simplicidade de
+        coração). O Evangelho de S. João que nunca menciona Bartolomeu entre os
+        Apóstolos, diz que Philippe e Natanael foram juntos ao encontro de Jesus
+        e que ele se achava entre os Discípulos aos quais o Salvador apareceu na
+        margem do mar de Galileia, após a ressurreição. Os outros evangelhos
+        nunca empregam o nome de Natanael, mas, depois de Philippe, mencionam
+        sempre Bartolomeu. Nascido em Caná, na Galileia, foi posto por Jesus no
+        numero dos doze (Ev.), sendo testemunha das principais acções de Cristo
+        sobre a terra. O primeiro dom, diz São Paulo, feito pelo Divino Espírito
+        à Igreja é a graça do Apostolado (Ep.). Pregou a fé na Arábia Feliz, e,
+        segundo algumas tradições, foi esfolado vivo. Assim, é representado na
+        magnifica estatuá de mármore branco de Cibo, da Cathedral de Milão. Suas
+        relíquias são veneradas em Roma, na igreja de S. Bartolomeu na ilha
+        formada pelo Tibre. Seu nome está inscrito no Canon da Missa entre os
+        Apóstolos. Celebremos com alegria a festa de S. Bartolomeu que, no céu,
+        louva a Deus no glorioso coro dos Apóstolos (All.), e peçamos ao Senhor
+        conceder à sua Igreja a graça de amar o que ele creu e pregar o que
+        ensinou (Or.).
+      </Text>
+
       <H3 text="Intróito" />
 
       <Text className="em">Sl. 138, 17</Text>

@@ -9,6 +9,23 @@ export default function Page0822() {
     <PageWrapper>
       <H1 text="Imaculado Coração da B. Virgem Maria, a 22 de Agosto" />
 
+      <aside>
+        Depois de ter em plena guerra consagrado o género humano ao Imaculado
+        Coração de Maria para o colocar por este modo debaixo da particular
+        protecção da Mãe do Salvador, Pio XII decretou em 1944 que todos os anos
+        se celebrasse doravante na Igreja inteira uma festa especial em honra do
+        Imaculado Coração no dia 22 de agosto. É já antiga a devoção ao Coração
+        Imaculado de Maria. No século XVII propagou-a muito São João Eudes,
+        juntamente com a do Sagrado Coração de Jesus. No século XIX, Pio VII e
+        depois Pio IX concederam a várias Igrejas particulares uma festa do
+        "Coração puríssimo de Maria", fixada primeiramente no Domingo depois da
+        Assunção e mais tarde no Sábado que se segue à festa do Sagrado Coração.
+        Pio XII transferiu-a para 22 de agosto e designou-lhe como principal
+        intenção pedir, por intercessão da Santíssima Virgem, a "paz para os
+        povos, a liberdade da Igreja, a conversão dos pecadores, o amor da
+        pureza e prática da virtude"
+      </aside>
+
       <H3 text="Intróito" />
 
       <Text className="em">Heb. 4, 16</Text>

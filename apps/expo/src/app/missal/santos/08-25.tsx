@@ -9,6 +9,46 @@ export default function Page0825() {
     <PageWrapper>
       <H1 text="S. Luís, Rei de França, a 25 de Agosto" />
 
+      <Text className="comment">
+        Luiz IX, nascido em 1215, tornou-se rei de França aos doze anos; foi mui
+        piedosamente educado pela rainha Branca, sua mãe, que lhe ensinou a
+        preferir a morte a cometer um pecado mortal. Gostava de chamar-se Luiz
+        de Poissy, lugar onde fora baptizado, a fim de indicar ser o seu mais
+        glorioso título de nobreza, o de cristão. Desprezando as delícias do
+        mundo, procurou unicamente agradar a Jesus Cristo, o verdadeiro Rei
+        (Secr.) e foi, diz Bossuet, o mais santo e o mais justo rei que tenha
+        trazido uma corda. Assíduo aos oficios da Igreja, fazia celebrá-los
+        solenemente em seu palácio, onde diariamente assistia a duas missas.
+        Levantava-se à meia-noite para dizer Matinas, começando pelo oficio de
+        Prima o seu dia real. Introduziu em sua capela o hábito de dobrar-se o
+        joelho a estas palavras do Credo: Homo factus est, e de prostrar-se à
+        leitura da Paixão, quando se narra a morte de Jesus Christo. Essas duas
+        piedosas práticas foram, depois, adoptadas pela Igreja. Julgam um crime
+        a minha assiduidade à oração, dizia ele, porém, nada diriam se as horas
+        nela empregadas as passasse no jogo ou na caça. A piedade jamais o
+        impediu de dar a maior parte de seu tempo aos negócios do reino. Depois
+        de uma doença, fez voto de empreender uma cruzada, a fim de reconquistar
+        Jerusalém. Primeiramente vitorioso, caiu em seguida nas mãos dos
+        Sarracenos. Libertado, permaneceu ainda cinco anos no Oriente para
+        socorrer os cristãos; voltando à França, ocupou-se com numerosas
+        fundações piedosas e fez construir a Santa Capela, com o insigne
+        relicário da santa corôa de espinhos e da importante parcela da
+        verdadeira Cruz que lhe oferecera Balduino II, imperador de
+        Constantinopla. Muito austero para consigo e muito caridoso para com os
+        outros, dizia: Mais vale a um rei arruinar-se pelas esmolas feitas por
+        amor de Deus do que pelo fausto e a vã glória. Muitas vezes, diz
+        Joinville, vi o bom rei, depois da missa, ir ao bosque de Vincennes,
+        assentar-se junto a um carvalho e dar audiência a todos que precisavam
+        falar-lhe. Sargento de Cristo, trazia continuamente a cruz, a fim de
+        indicar que seu voto estava por se realizar. Em 1270, empreendeu nova
+        cruzada, porém uma epidemia lhe decimou o exército na África,
+        atingindo-o também. Com os braços em cruz, deitado na cinza, entregou a
+        alma a Deus, em 1270, à mesma hora em que Cristo morreu sobre a Cruz. Na
+        véspera de morrer ouviam-no repetir: Iremos a Jerusalém. Na Jerusalém
+        celeste, conquistada pela sua paciência no meio das adversidades, devia
+        ele reinar com o Rei dos Reis (Or.).
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/14confessoresnaopontifices1">
