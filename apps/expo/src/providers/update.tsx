@@ -63,6 +63,20 @@ export const UpdateProvider = ({ children }: { children: ReactNode }) => {
   }, []);
 
   useEffect(() => {
+    const checkForUpdates = async () => {
+      if (__DEV__ || Platform.OS === "web") return;
+
+      try {
+        await Updates.checkForUpdateAsync();
+      } catch (err) {
+        console.error("Update check failed:", err);
+      }
+    };
+
+    checkForUpdates();
+  }, []);
+
+  useEffect(() => {
     if (isChecking && Platform.OS !== "web") {
       setUpdateState("checking");
     } else if (!isChecking && updateState === "checking") {

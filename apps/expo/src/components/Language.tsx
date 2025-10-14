@@ -1,12 +1,5 @@
-import * as Haptics from "expo-haptics";
 import React, { useEffect, useMemo, useState } from "react";
-import {
-  Platform,
-  Pressable,
-  useWindowDimensions,
-  Vibration,
-  View,
-} from "react-native";
+import { Platform, Pressable, useWindowDimensions, View } from "react-native";
 import {
   ScrollView as GestureScrollView,
   PanGestureHandler,
@@ -26,7 +19,6 @@ type LanguageToggleProps = {
 };
 
 const toggleWidth = 20;
-
 const springConfig = {
   damping: 20,
   stiffness: 150,
@@ -51,24 +43,12 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
     }
   }, [defaultLanguage]);
 
-  const triggerHaptic = () => {
-    try {
-      if (Platform.OS === "ios" || Platform.OS === "android") {
-        Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-      }
-    } catch {
-      Vibration.vibrate(10);
-    }
-  };
-
   const setLanguage = (vernacular: boolean) => {
     const newLang = vernacular ? "vernacular" : "latin";
     setCurrentLang(newLang);
     currentLanguage.value = newLang;
     const targetContent = vernacular ? -width : 0;
-    translateX.value = withSpring(targetContent, springConfig, () => {
-      runOnJS(triggerHaptic)();
-    });
+    translateX.value = withSpring(targetContent, springConfig);
     translateXToggle.value = withSpring(
       vernacular ? toggleWidth : 0,
       springConfig
@@ -99,7 +79,6 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
       const vx = event.nativeEvent.velocityX;
       const swipeThreshold = width * 0.25;
       const velocityThreshold = 0.5;
-
       if (dx < -swipeThreshold || vx < -velocityThreshold) {
         runOnJS(setLanguage)(true);
       } else if (dx > swipeThreshold || vx > velocityThreshold) {
@@ -130,7 +109,6 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
   }, [children]);
 
   const isWeb = Platform.OS === "web";
-
   if (isWeb) {
     return (
       <View className="flex-row">
@@ -161,7 +139,6 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
           </View>
         </Animated.View>
       </PanGestureHandler>
-
       <View className="flex-row justify-center">
         <Pressable
           onPress={toggle}
