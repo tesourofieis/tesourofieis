@@ -2,7 +2,7 @@
 
 <p align="center">
   <samp>
-    <img width="50px" src="./public/favicon.svg" />
+    <img width="50px" src="./public/favicon.png" />
   </samp>
 </p>
 

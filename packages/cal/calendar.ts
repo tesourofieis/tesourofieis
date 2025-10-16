@@ -1251,7 +1251,7 @@ export class Calendar {
     return day?.season;
   }
 
-  private get(date: string): Day | undefined {
+  public get(date: string): Day | undefined {
     return this.container.get(date);
   }
 
@@ -1261,7 +1261,7 @@ export class Calendar {
    * Returns the first [date, Day] pair where the observanceId is present.
    * If observanceId is falsy, returns undefined immediately.
    */
-  private findDay(observanceId?: string): [string, Day] | undefined {
+  public findDay(observanceId?: string): [string, Day] | undefined {
     if (!observanceId) return;
 
     for (const [date, day] of this.container) {

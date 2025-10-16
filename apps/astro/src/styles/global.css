@@ -19,6 +19,29 @@
   --color-sepia-700: #32302f;
   --color-sepia-800: #2b2b29;
   --color-sepia-900: #262624;
+
+  --color-gray-50: #f4eadd;
+  --color-gray-100: #eee6d9;
+  --color-gray-200: #f2ddc7;
+  --color-gray-300: #e2c1a2;
+  --color-gray-400: #cba57e;
+  --color-gray-500: #7c6f64;
+  --color-gray-600: #40403c;
+  --color-gray-700: #32302f;
+  --color-gray-800: #2b2b29;
+  --color-gray-900: #262624;
+
+  --color-accent-50: #f4e0e1;
+  --color-accent-100: #e8b5b6;
+  --color-accent-200: #d48385;
+  --color-accent-300: #b85d5f;
+  --color-accent-400: #9b3d3f;
+  --color-accent-500: #8c3437;
+  --color-accent-600: #7d2d30;
+  --color-accent-700: #5c2022;
+  --color-accent-800: #4a1a1c;
+  --color-accent-900: #4a1a1c;
+  --color-accent-950: #4a1a1c;
 }
 
 @utility sl-markdown-content {
@@ -64,13 +87,11 @@
 
 body {
   @apply font-body;
-  font-size: 1.26rem;
-  line-height: 1.6;
 }
 
 h1 {
   @apply font-display;
-  color: theme(--color-red-600) !important;
+  color: theme(--color-accent-500) !important;
 }
 
 h2,
@@ -91,10 +112,12 @@ h6 {
 }
 
 aside:not([class]) {
-  @apply rounded bg-sepia-200 p-4 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+  @apply rounded p-4;
   border-inline-start: 0.25rem solid;
+  border: 1px solid;
 }
 
 em {
-  @apply rounded bg-sepia-200 px-1 py-1 italic text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
+  @apply rounded px-1 py-1 italic;
+  border: 1px solid;
 }

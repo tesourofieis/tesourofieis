@@ -140,7 +140,7 @@ export default defineConfig({
         },
       },
       logo: {
-        src: "./src/assets/favicon.svg",
+        src: "./src/assets/favicon.png",
       },
       social: [
         { icon: "email", href: "mailto:info@tesourofieis.com", label: "email" },

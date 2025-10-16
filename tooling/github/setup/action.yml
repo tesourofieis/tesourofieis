@@ -15,4 +15,4 @@ runs:
         version: latest
 
     - shell: bash
-      run: pnpm install
+      run: pnpm install --no-frozen-lockfile

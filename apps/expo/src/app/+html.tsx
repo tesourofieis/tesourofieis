@@ -21,7 +21,7 @@ export default function PageRoot({ children }: PropsWithChildren) {
           defer
         />
         <script type="text/partytown" defer />
-        <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
         <meta name="generator" content="Astro v4.12.3" />
         <meta name="generator" content="Starlight v0.25.3" />
         <meta property="og:title" content="Início" />
