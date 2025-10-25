@@ -10,6 +10,35 @@ export default function Page1122() {
     <PageWrapper>
       <H1 text="Santa Cecília, Virgem e Mártir, a 22 de Novembro" />
 
+      <Text className="comment">
+        Nascida em Roma, da illustre familia dos Cæcilii, Cecília, desde a
+        infância, consagrou a Deus a sua virgindade. Mais tarde, constrangida a
+        desposar Valeriano, jovem pagão, disse-lhe na tarde das núpcias:
+        Valeriano, eu estou colocada sob a guarda de um Anjo que protege a minha
+        virgindade; portanto, nada tenteis a meu respeito, a fim de não atrair
+        sobre vós a cólera de Deus. Valeriano não ousou aproximar-se e
+        declarou-lhe que acreditaria em Jesus Christo, se visse esse Anjo.
+        Cecilia respondeu-lhe que isso não era possível sem primeiro ter
+        recebido o baptismo e mandou-o ao Papa Urbano que se ocultara, por causa
+        das perseguições, nas Catacumbas. Urbano baptizou-o e Valeriano viu
+        junto à sua virginal esposa um anjo brilhante de claridade divina. Ela
+        instruiu também a Tiburcio, irmão de Valeriano, na fé em Jesus Christo,
+        e Tiburcio, baptizado, também viu o anjo de Cecilia. Pouco tempo depois,
+        foram ambos martirizados sob o prefeito Almachio, o mesmo que mandou
+        prender Cecilia e ordenou fosse morta em sua própria casa. Era pelo ano
+        de 230. O seu corpo foi descoberto pelo Cardeal Sfondrati, em 1599, tal
+        qual estava no momento de sua morte. Estevão Maderno esculpiu a sua
+        celebre reprodução que se vê sob o altar-mor da igreja de Santa Cecilia
+        em Roma. A casa onde morava foi transformada em santuário, no qual
+        repousa o seu corpo. Desde muitos séculos, um coro de Virgens da Ordem
+        de S. Bento vela sobre o precioso tesouro. Essa igreja é um dos dois
+        ornamentos do Transtevere (o outro é Santa Maria do Transtevere). Ali é
+        feita a Estação na Quarta-Feira da 2ª semana da Quaresma. Santa Cecilia
+        tem o seu nome no Canon da Missa. Ao som dos instrumentos de música, diz
+        o 1º responso de Matinas, a Virgem Cecilia dirigia do seu coração um
+        cântico ao Senhor. Santa Cecilia é a padroeira dos musicos.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/17virgensmartires1">

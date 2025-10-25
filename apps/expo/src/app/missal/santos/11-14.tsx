@@ -9,6 +9,19 @@ export default function Page1114() {
     <PageWrapper>
       <H1 text="S. Josafá, B. e Mártir, a 14 de Novembro" />
 
+      <Text className="comment">
+        Originário de Wladimir, em Volhynia, oriundo de família nobre, Josaphat
+        Kuncewitcz abraçou, aos vinte annos, a vida monástica entre os
+        religiosos da Ordem de São Basílio. Conservou sempre em sua frescura a
+        flor da castidade que havia, desde a sua adolescência, consagrado à
+        Maria. Encarregado, não obstante a sua pouca idade, do governo do
+        mosteiro de Bytena, foi feito logo depois Archimandrita de Vilna e,
+        finalmente, mau grado seu, Arcebispo de Polotsk. O zelo apostólico do
+        jovem Arcebispo excitou contra ele o ódio do inferno. Atacado pelos
+        cismáticos em Vitebsk, pereceu de crudelíssima morte em 1623 e obteve de
+        Deus a conversão de seus assassinos.
+      </Text>
+
       <H3 text="Intróito" />
 
       <Language>

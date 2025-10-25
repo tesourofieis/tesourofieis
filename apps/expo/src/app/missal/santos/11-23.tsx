@@ -9,6 +9,35 @@ export default function Page1123() {
     <PageWrapper>
       <H1 text="S. Clemente, Papa e Mártir, a 23 de Novembro" />
 
+      <Text className="comment">
+        Successor de S. Pedro, São Clemente é nomeado, em terceiro logar no
+        Canon da Missa, depois dos Apostolos (Lini, Cleti, Clementis, p. 89). A
+        carta de S. Clemente aos Corinthios é um dos mais preciosos escriptos
+        dos primeiros seculos christãos. Baseando-se na affirmação de Origenes,
+        o breviario romano confunde esse Santo com outro Clemente, auxiliar de
+        S. Paulo. A Epistola, fala do Clemente que trabalhou com o Apostolo para
+        o Evangelho e cujo nome está escripto no livro da vida. Seguindo as
+        Actas gregas de S. Clemente, datadas do seculo IV, o martyrologio romano
+        declara tambem que relegado no Chersoneso, durante a persegui-ção de
+        Trajano, elle foi, finalmente, coroado por glorioso martyrio, tendo sido
+        precipitado no mar, com uma ancora amarrada ao pescoço O seu corpo,
+        accrescenta, foi transportado para Roma sob o pontificado de Nicoláo 1º
+        e depositado, com honra, na egreja previamente construida sob o seu
+        vocabulo». Essa egreja, onde se faz a Estação na Segunda-Feira da 2ª
+        semana da Quaresma (2), é uma das mais interessantes de Roma, por
+        representar fielmente a disposição antiga das basilicas christās. E'
+        precedida por uma area rodeada de porticos, tendo a fonte no centro,
+        onde era costume purificar-se antes de entrar no logar santo, o que
+        ainda hoje nos recordam as nossas pias baptismaes e as pias de agua
+        benta, á entrada de nossas egrejas. O interior comprehende tres naves
+        separadas por columnas; a nave central tendo no meio duas estantes onde
+        se liam a Epistola e o Evangelho. As naves lateraes eram reservadas, uma
+        aos homens e a outra ás mulheres. Sob a arcada principal, em arco de
+        trium-pho, o altar, disposto de modo a ficar o sacerdote celebrante
+        voltado para o povo. Atraz do altar, no fundo do abside, a cathedra do
+        bispo em roda da qual reunia-se o clero.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/sumospontifices">

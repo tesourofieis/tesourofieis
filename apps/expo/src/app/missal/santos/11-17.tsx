@@ -9,6 +9,17 @@ export default function Page1117() {
     <PageWrapper>
       <H1 text="S. Gregório Taumaturgo, B. e C., a 17 de Novembro" />
 
+      <Text className="comment">
+        Gregorio nasceu em Neocesaréa, no Ponto, pelo ano de 200, e foi feito
+        bispo de sua cidade natal. Célebre por sua santidade e doutrina, ainda o
+        foi mais pelos prodígios e milagres multiplicados por Deus no curso de
+        sua vida, de tal modo que foi chamado o Taumaturgo, isto é, o operador
+        de milagres. Uma vez, pondo em prática a palavra de Nosso Senhor, citada
+        no Evangelho deste dia, ordenou a uma montanha que recuasse a fim de dar
+        o espaço necessário para a construção de uma igreja e a ordem foi
+        executada. Morreu em 276.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/11confessorespontifices1">

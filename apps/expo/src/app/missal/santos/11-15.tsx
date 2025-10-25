@@ -9,6 +9,18 @@ export default function Page1115() {
     <PageWrapper>
       <H1 text="S. Alberto Magno, B. C. e Doutor, a 15 de Novembro" />
 
+      <Text className="comment">
+        Alberto, Suevo de origem, foi desde a infância devotíssimo à
+        bem-aventurada Virgem. Resolvido a entrar na Ordem dos Pregadores, se
+        deixou enganar pelos artifícios do demónio, a que já renunciara quando o
+        bem-aventurado Jordão de Saxónia conseguiu fazê-lo voltar à sua vocação.
+        Estudou a philosophia em Colónia e a ensinou em seguida em Paris, onde
+        se tornou um dos mais célebres mestres da universidade. Tendo regressado
+        a Colónia, teve por discípulo S. Tomás de Aquino. Urbano IV o elegeu
+        bispo de Ratisbona. Combateu os erros de Guilherme de Santo Amor.
+        Faleceu em Colónia no ano de 1280.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/13doutores">

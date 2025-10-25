@@ -10,6 +10,22 @@ export default function Page1110() {
     <PageWrapper>
       <H1 text="S. André Avelino, Conf., a 10 de Novembro" />
 
+      <Text className="comment">
+        André Avelino nasceu no reino de Nápoles, em Castro-Nuovo. Sendo notável
+        a sua beleza, teve que repelir, até mesmo pela força, as ciladas armadas
+        à sua virtude. «Podia fazer o mal, diz a Epistola e não o fez». Elevado
+        à dignidade sacerdotal, depois de haver estudado o direito, só demandou
+        no foro eclesiástico. Tendo-lhe, porém, uma vez escapado ligeira mentira
+        no discurso e lendo, logo depois, a passagem da Sagrada Escritura: A
+        boca que profere a mentira dá a morte à alma ficou tão impressionado que
+        renunciou para sempre à carreira de advogado. Entrou para a Congregação
+        dos Theatinos ou Clérigos regulares de S. Paulo, em Nápoles, onde, por
+        seu grande amor à Cruz, obteve o nome de André. Nomeado superior do
+        Instituto (Comm.), dava, todo o tempo que lhe permitia o seu cargo, à
+        oração e aos cuidados das almas. Morreu em Nápoles, em 1608, em idade
+        avançada, ao pé do altar onde ia subir para celebrar.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/14confessoresnaopontifices1">

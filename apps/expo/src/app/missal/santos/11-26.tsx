@@ -9,6 +9,23 @@ export default function Page1126() {
     <PageWrapper>
       <H1 text="S. Silvestre, Abade, a 26 de Novembro" />
 
+      <Text className="comment">
+        Silvestre nasceu de pais nobres, em Osimo, na Marcha de Ancona. Por seu
+        alto valor, foi associado à dignidade dos cónegos da cátedra de Osimo.
+        Assistindo um dia aos funerais de um personagem ilustre seu parente, e
+        considerando, no caixão descoberto, o horrendo cadáver desse homem,
+        outrora notável por sua beleza, fez a seguinte reflexão: Eu sou hoje o
+        que ele foi um dia, serei o que ele é (Or.). Abandonou tudo
+        imediatamente (Ev.) e retirou-se para o deserto, onde se entregou à
+        penitência e meditação (Intr.). Elevou mais tarde, em Monte Fano, diz o
+        Breviário romano, uma igreja em honra do Patriarca S. Bento, que lhe
+        aconselhara, em visão, a instituir uma Ordem religiosa, indicando-lhe
+        também a regra e o hábito. É a Ordem dos Silvestrinos. Esse ramo da
+        Ordem beneditina propagou-se, em pouco tempo, e já contava vinte e cinco
+        casas na Itália, quando, em 1267, morreu o seu Santo Fundador, na idade
+        de noventa anos.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/16abades">

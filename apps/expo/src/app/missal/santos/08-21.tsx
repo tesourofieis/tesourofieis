@@ -13,12 +13,31 @@ export default function Page0821() {
         Semelhante á Maria, de quem ha sete dias celebramos a Assunção Santa
         Joanna Francisca de Chantal, foi esposa, mãe e viúva. Nasceu como São
         Bernardo, em Dijon e recebeu no baptismo o nome de Joana pois, o
-        calendário marcava nesse dia, 3 de Janeiro, São João-o Esmoler O nome de
-        Francisca, por ela acrescentado na Confirmação, lembra o meigo Santo de
-        Genebra. Como outrora Bento e Escolástica, como Francisco de Assis e
+        calendário marcava nesse dia, 3 de Janeiro, São João-o Esmoler. O nome
+        de Francisca, por ela acrescentado na Confirmação, lembra o meigo Santo
+        de Genebra. Como outrora Bento e Escolástica, como Francisco de Assis e
         Clara, Francisco de Sales e Joana Francisca, correspondendo aos
         desígnios da divina Providência, uniram seus piedosos esforços e
-        ilustraram a Igreja pela fundação de uma nova familia (Or.).
+        ilustraram a Igreja pela fundação de uma nova familia (Or.). Morto o
+        barão de Chantal (1601) a jovem viúva se consagra ao Senhor pelo voto de
+        perpétua castidade, escrevendo com ferro em brasa, sobre o peito, o nome
+        de Jesus. Mulher forte, da qual nos fala a Epístola, deixa tudo,
+        comprando, por esse preço, a pérola preciosa da vida religiosa (Ev.).
+        Dos seis filhos, ainda lhe restavam quatro e seu velho pai. Sequemos as
+        nossas lágrimas, lhe diz o venerável ancião, a fim de mais honrar a
+        santa vontade de Deus. Seu filho, Celso Benigno, opõe-se à partida da
+        mãe e estende-se à soleira da porta: Se não posso impedir a vossa saída,
+        pelo menos passareis sobre o corpo de vosso filho. A Senhora de Chantal
+        luta contra as revoltas de seu coração e, depois de dar livre curso ás
+        lágrimas, arma-se de coragem e passa sobre o соrpo do filho. Torna-se
+        mãe de numerosas virgens da Ordem da Visitação, hoje espalhada no mundo
+        inteiro, ás quais, cheia do espírito de caridade divina (Postcomm.),
+        repetia sem cessar, como S. João, o seu padroeiro: Amemos a Deus de todo
+        o nosso coração e ao próximo como a nós mesmos, por amor de Deus. Morreu
+        em 1641, em Moulins. A exemplo e pela intercessão de Santa Joanna
+        Francisca, roguemos a Deus, a fim de que, conhecendo a nossa fraqueza e
+        confiados em sua força, vençamos, por sua graça, todos os obstáculos
+        (Or.).
       </Text>
 
       <Text className="aside">

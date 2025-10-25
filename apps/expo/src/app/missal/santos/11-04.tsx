@@ -9,6 +9,19 @@ export default function Page1104() {
     <PageWrapper>
       <H1 text="S. Carlos Borromeu, B. e Conf., a 4 de Novembro" />
 
+      <Text className="comment">
+        São Carlos foi suscitado por Deus para ser um dos principais
+        instrumentos da verdadeira reforma da Igreja no século XVI. À sua
+        prudência deve-se, em grande parte, a feliz conclusão do Concílio de
+        Trento. Feito cardeal aos 23 anos de idade, e logo depois arcebispo de
+        Milão (Intr., Ep., Grad., Comm., Off.) presidiu a Synodos e Concílios,
+        estabeleceu colégios e comunidades, renovou o espírito de seu clero e
+        dos mosteiros, e fundou asilos para os pobres e órfãos. A mais
+        maravilhosa de suas obras foi a criação de seminários diocesanos, cujos
+        regulamentos serviram de modelo a todos os que se estabeleceram mais
+        tarde. Morreu em 1584.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/11confessorespontifices1">

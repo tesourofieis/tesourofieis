@@ -9,6 +9,42 @@ export default function Page1116() {
     <PageWrapper>
       <H1 text="S. Gertrudes, Virgem, a 16 de Novembro" />
 
+      <Text className="comment">
+        Santa Gertrudes, chamada a Grande, pertence à Ordem do grande Patriarca
+        dos Monges do Ocidente, São Bento. Sua vida passou-se quasi inteira no
+        claustro, onde foi oferecida a Deus na idade de cinco anos em 1261. No
+        dia 27 de Janeiro de 1281, tendo Gertrudes 25 anos, o Esposo de sua alma
+        revelou-se a ela de modo maravilhoso; consolou-a de uma provação que a
+        atormentava e favoreceu-a, durante os oito anos seguintes, com notáveis
+        visões. Por ordem de Deus, deixou-as por escrito à Santa no maravilhoso
+        livro intitulado: As Revelações de Santa Gertrudes. Possuímos da mesma o
+        Livro da Graça especial, os Exercícios de Santa Gertrudes e as Orações
+        Gertrudianas. Ninguém pode ler, escreve o Padre Faber, os escritores da
+        antiga escola de São Bento, sem notar com admiração a liberdade de
+        espírito que os penetrava. Deles é Gertrudes um belo exemplo, respira
+        por toda a parte o espírito de São Bento. O espírito da religião
+        católica é um espírito fácil, espírito de liberdade, e esse era, de modo
+        especial, o apanágio dos Beneditinos ascéticos da velha escola. As obras
+        de Santa Gertrudes são, realmente, apenas o eco dos pensamentos colhidos
+        na santa liturgia. Filha dócil da Igreja, ouvia diariamente a sua voz
+        maternal ora chorando, ora regozijando-se na divina Psalmodia e nos
+        textos de sua oração oficial. Essa direcção certa e infalível conduziu-a
+        rapidamente aos cumes da perfeição. Vós me encontrareis, declarava
+        Jesus, no Santíssimo Sacramento e no coração de Gertrudes (Or.).
+        Profetiza do amor de Deus, foi a primeira grande reveladora da devoção
+        ao Sagrado Coração. Nosso Senhor apareceu-lhe um dia com S. João e este
+        disse-lhe que se inclinasse sobre o peito do Mestre a fim de ouvir as
+        pulsações do Coração divino; acrescentou que ele próprio as havia ouvido
+        na última Ceia, mas que não as pudera mencionar então, porque essa
+        manifestação estava reservada para os ultimos tempos, quando arrefecesse
+        a caridade na Igreja. Pediu-lhe, em seguida, que o revelasse ás almas.
+        Gertrudes, tendo na mão a sua lampada acesa, esperava a chegada do
+        Esposo; morreu, diz o Breviário romano, em 1334 mais consumida pelo
+        ardor de seu amor do que pela doença. Foi declarada Padroeira das Índias
+        ocidentais, e, no novo México, foi construída uma cidade em sua honra e
+        que ainda conserva o seu nome.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link href="/missal/comum/20virgemnaomartir1">

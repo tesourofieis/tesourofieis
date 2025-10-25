@@ -9,6 +9,12 @@ export default function Page1108() {
     <PageWrapper>
       <H1 text="Os Quatro S. S. Mártires Coroados, a 8 de Novembro" />
 
+      <Text className="comment">
+        Estes Santos eram quatro irmãos, cujos nomes foram muito tempo
+        ignorados. Receberam o nome de 4 coroados porque obtiveram a palma do
+        martírio e a corda no céu no ano de 304.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/6muitosmartires1">

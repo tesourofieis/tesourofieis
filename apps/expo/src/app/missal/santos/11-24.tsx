@@ -9,6 +9,26 @@ export default function Page1124() {
     <PageWrapper>
       <H1 text="S. João da Cruz, Conf. e Doutor, a 24 de Novembro" />
 
+      <Text className="comment">
+        Depois de St. Theresa, a reformadora do Carmelo, a Egreja honra hoje a
+        São João da Cruz, poderoso auxiliar da Santa nessa grande obra. Por
+        elle, introduziu Santa Theresa a observancia primitiva nos mosteiros dos
+        Carmos, como fizéra para as Carmelitas. A Santa Sé o julga egual a Sta
+        Theresa nas explicações dos arcanos divinos. João, diz essa Santa, era
+        uma das almas mais puras da Egreja. Deus The havia communicado ricos
+        thesouros de luz e o seu entendimento estava repleto da sciencia dos
+        Santos. Nascido na Antiga Castilha, em 1542, tomou o nome de João da
+        Cruz ao entrar para a Ordem da Bemaventurada Virgem Maria do Monte
+        Carmelo. Teve sempre grande devoção á Paixão do Senhor e sua virtude
+        principal foi a perfeita abnegação de si mesmo, fazendo-o procurar os
+        soffrimentos e as humilhações (Or.); pedia muitas vezes a Deus para não
+        passar um só dia da vida sem soffrer, e morrer em logar onde fosse
+        ignorado por todos. Foi plenamente attendido, pois a reforma do Carmelo
+        valeu-lhe muitas penas. Atacado por cruel enfermidade, em Ubeda, morreu
+        no amplexo de Jesus crucificado, exclamando: Gloria a Deus. Era o anno
+        de 1591. Pio XI o proclamou Doutor da Egreja em 1926.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/13doutores">
