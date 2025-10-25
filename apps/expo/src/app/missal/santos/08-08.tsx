@@ -9,6 +9,13 @@ export default function Page0808() {
     <PageWrapper>
       <H1 text="S. Ciríaco e Outros, Mártires, a 8 de Agosto" />
 
+      <Text className="comment">
+        Ciríaco, diácono da Igreja romana sob os Papas Marcelino e Marcelo, foi
+        condenado à morte em 303, durante a perseguição de Diocleciano. Teve por
+        companheiros vinte e dois cristãos, entre os quais Largo e Smaragdo. S.
+        Ciríaco é um dos 14 Santos.
+      </Text>
+
       <H3 text="Intróito" />
 
       <Text className="em">Sl. 33, 10-11</Text>

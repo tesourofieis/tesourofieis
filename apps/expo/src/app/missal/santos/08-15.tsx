@@ -8,6 +8,40 @@ export default function Page0815() {
     <PageWrapper>
       <H1 text="Assunção da B. Virgem Maria, a 15 de Agosto" />
 
+      <Text className="comment">
+        Nesta festa, a mais antiga e a mais solene do Ciclo Mariano (VI século),
+        a Igreja convida todos os seus filhos a unir no universo católico, sua
+        alegria (Intr.) e gratidão (Pref.) à dos Anjos, que louvam o Filho de
+        Deus pela entrada em corpo e alma, de sua SSma Mãe, no Céu (All.). É na
+        basílica de Santa Maria Maior onde se celebrava no Natal, o mistério,
+        ponto de partida de todas as glórias da Virgem, que também se celebra
+        ainda hoje a Assunção, que é a sua coroação. Maria trouxe em si a
+        humanidade de Jesus, à sua entrada neste mundo e, nesta festa, Jesus
+        recebe, por sua vez, o corpo de Maria no céu. Admitida a gozar das
+        delícias da contemplação eterna, a Mãe escolheu aos pés de seu divino
+        Filho a melhor parte, que jamais lhe será tirada (Ev., Comm.). Outrora,
+        lia-se o Evangelho da Vigília em seguida ao do dia de hoje, a fim de
+        mostrar que a Mãe de Jesus é feliz entre todas, porque, melhor do que as
+        outras ela escuta a palavra de Deus. Essa palavra, esse Verbo, a
+        Sabedoria divina que, na Antiga Lei, estabeleceu sua morada entre o povo
+        de Israel (Ep.). na Nova Lei desceu à Maria. O Verbo se encarnou no seio
+        da Virgem e agora, nos esplendores da celeste Sião, Ele a cumula com as
+        delícias da visão beatifica. Como Marta, a Igreja na terra se entrega ás
+        preocupações necessárias à vida presente, porém, reclama igualmente o
+        auxílio de Maria (Or., Secr., Postcomm.). A festa da Assunção foi sempre
+        acompanhada de procissão. Em Jerusalém, era formada pelos numerosos
+        peregrinos, vindos para rezar junto ao túmulo da Virgem, contribuído,
+        assim, para a instituição desta solenidade. O Clero de Constantinopla
+        também fazia uma procissão na festa do Repouso ou Assunção de Maria. Em
+        Roma, do século VII ao XVI o cortejo papal em que tomavam parte os
+        representantes do Senado e do povo, ia, nesse dia, da Igreja de S. João
+        de Latrão à de Santa Maria Maior; é o que se chamava fazer a Ladainha.
+        Na França a procissão de 15 de Agosto, depois das Vésperas tem por fim
+        lembrar a consagração à Maria, feita por Luiz XIII no dia de hoje, em
+        1638, de sua pessoa, familia e reino, e permitir ratificar o voto, que
+        deve atrair sobre ela a protecção todo-poderosa da Santíssima Virgem.
+      </Text>
+
       <H3 text="Intróito" />
 
       <Text className="em">Ap. 12, 1</Text>

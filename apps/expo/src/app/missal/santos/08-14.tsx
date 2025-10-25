@@ -10,6 +10,17 @@ export default function Page0814() {
     <PageWrapper>
       <H1 text="Vigília da Assunção da B. Virgem Maria, a 14 de Agosto" />
 
+      <Text className="comment">
+        O Cristo não descansou senão três dias no túmulo, ressuscitou em seguida
+        e subiu ao Céu. A morte de Maria também se assemelha a um curto sono,
+        donde seu nome de Dormitio. Antes que a corrupção pudesse atingir seu
+        corpo, Deus a ressuscitou e glorificou no céu. É o tríplice objecto da
+        festa da Assunção, como a consequência lógica do privilégio da Imaculada
+        Conceição e do Mistério da Encarnação. O pecado jamais tendo atingido a
+        alma de Maria, convinha ao seu corpo, isento de toda mancha e no qual o
+        Verbo se encarnara, não passar pela corrupção do túmulo.
+      </Text>
+
       <H3 text="Intróito" />
 
       <LinkCard

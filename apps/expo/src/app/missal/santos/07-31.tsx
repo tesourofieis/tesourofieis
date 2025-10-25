@@ -30,7 +30,7 @@ export default function Page0731() {
         combater o protestantismo, o jansenismo e o paganismo renascente. Sobre
         a montanha, os filhos de S. Bento preludiando a liturgia celeste,
         continuarão a celebrar solenemente os ofícios divinos que Inácio
-        recomendára aos fiéis, e cujas melodias sagradas jamais ouvia sem
+        recomendara aos fiéis, e cujas melodias sagradas jamais ouvia sem
         chorar. Sacrificando-se por sua missão, desce à planície para afrontar
         com seus valerosos soldados os ataques do exército inimigo, cujos rudes
         golpes o seu Instituto é sempre o primeiro a receber (Ep.). A fim de
@@ -55,10 +55,10 @@ export default function Page0731() {
         quem, em 1819, a restabeleceu em todos os seus direitos. Deus uniu aos
         pés da SS Virgem essas duas Ordens, auxiliares poderosos da Igreja,
         pois, Marta e Maria, a acção, e a contemplação, contribuem ambas, por
-        meios diferentes, para a glória de Deus. As divisas das duas familias
+        meios diferentes, para a glória de Deus. As divisas das duas famílias
         religiosas são bem semelhantes: «Em todas as coisas seja Deus
         glorificado! - U. O. G. D.» e «Para a maior glória de Deus! - A. M. D.
-        G.» Nada fazer senão para a glória de Deus e faze-lo para a sua maior
+        G.» Nada fazer senão para a glória de Deus e fazê-lo para a sua maior
         glória, eis toda a santidade. É o fim da criação, o fim da elevação do
         homem ao mundo sobrenatural, o fim dos preceitos evangélicos em que as
         almas generosas renunciam, pelos votos, a coisas lícitas para se
@@ -67,11 +67,11 @@ export default function Page0731() {
         ilícitas o havia privado. Bento encheu a Europa de seus monges
         missionários, cuja obra principal é o louvor divino, e Inácio de seu
         Padres apóstolos (Ev.) que manifestam a vida interior pela sua
-        incansável actividade. De Montserrat partem com Cristovão Colombo, para
+        incansável actividade. De Montserrat partem com Cristóvão Colombo, para
         o novo Continente, doze monges e seu superior. De Lisboa parte Francisco
         Xavier, o primeiro evangelizador do Japão e da China: é a mesma árvore
         do amor de Deus que, em ramos diferentes, produz os mesmos frutos. A 31
-        de Junho de 1556, more Santo Inácio pronunciando o nome de Jesus; sua
+        de Junho de 1556, morre Santo Inácio pronunciando o nome de Jesus; sua
         Companhia, espalhada pelo mundo inteiro, contava, então, doze províncias
         e cem colégios. Oxalá a intercessão de Santo Inácio nos obtenha que os
         mistérios sacrossantos da Missa e da comunhão, fonte de toda santidade,

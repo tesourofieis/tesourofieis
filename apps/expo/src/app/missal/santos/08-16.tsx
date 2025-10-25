@@ -9,6 +9,38 @@ export default function Page0816() {
     <PageWrapper>
       <H1 text="S. Joaquim, a 16 de Agosto" />
 
+      <Text className="comment">
+        Querendo associar o nome de Joaquim ao triunfo de sua bendita filha, a
+        Igreja transferiu-lhe a festa de 20 de Março para o dia seguinte ao da
+        Assunção. Leão XIII, que recebera no baptismo o nome de Joaquim, elevou
+        essa festa e a de Santa Ana ao rito duplo de 2ª classe (1879). Joaquim e
+        Ana, diz Santo Epiphanio, atraíram por uma vida irrepreensível, as
+        divinas complacências, e mereceram um tão belo fruto de sua união, a SS
+        Virgem Maria, templo e Mãe de Deus. Joaquim, Ana e Maria, os três
+        manifestamente ofereceram um sacrifício de louvor a SS Trindade. O nome
+        de Joaquim significa preparação do Senhor. Não é ele, realmente, quem
+        prepara o Templo do Senhor, a Virgem Santíssima? O Introito e o Gradual
+        fazem sobressair as virtudes do grande Confessor, recordando imensas
+        esmolas feitas pelo Santo, pois, segundo uma tradição, ele dividia seus
+        bens em três partes: a primeira era destinada ao templo e aos seus
+        ministros, a segunda aos pobres, Às viúvas e aos órfãos; somente a
+        terceira reservava para si. Bem-aventurado casal, diz S. João Damasceno,
+        toda a criação vos é devedora, por vós ela pode oferecer ao Criador um
+        presente superior a todos os presentes, a casta mãe, única digna do
+        Criador. Alegra-te, Joaquim, pois um Filho nos nasceu de tua filha. O
+        Evangelho é consagrado a mostrar-nos a descendência real desse Filho;
+        desposando Maria, filha de Joaquim ou Heliachim, José, filho de Jacob,
+        fez de Jesus o herdeiro legal de David. Como a graça aperfeiçoa a
+        natureza sem destruí-la, pode-se afirmar que Joaquim, unido, como São
+        José e Santa Ana, por um laço muito íntimo à Mãe de Deus e a seu Filho,
+        é chamado a exercer seu patrocínio perpétuo (Or.) em favor da Igreja,
+        prolongamento de Jesus, ou de nossas almas, de quem Maria é a Mãe.
+        Ofereçamos neste dia a Deus o Santo Sacrifício em honra do Santo
+        Patriarca Joaquim, pai da Virgem Maria, a fim de que sua oração, unida à
+        de sua esposa e à de sua bendita filha, nos mereça a plena remissão de
+        nossos pecados e a glória eterna (Secreta).
+      </Text>
+
       <H3 text="Intróito" />
 
       <Text className="em">Sl. 111, 9</Text>

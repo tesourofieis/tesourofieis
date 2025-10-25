@@ -10,6 +10,19 @@ export default function Page0811() {
     <PageWrapper>
       <H1 text="S. S. Tibúrcio e Susana, Mártires, a 11 de Agosto" />
 
+      <Text className="comment">
+        Como S. Lourenço, Tibúrcio, filho do prefeito de Roma, foi lançado ás
+        chamas. Munindo-se do sinal da Cruz, o Mártir caminhou, cheio de
+        confiança, sobre o braseiro. Conduzido, então, fora da cidade, foi
+        decapitado, na via Lavicana em 286. No mesmo dia, Susana, virgem de
+        grande nobreza, que recusara, em virtude do seu voto de virgindade, a
+        aliança de Galério Maximo, filho do imperador Diocleciano, foi
+        decapitada em sua casa. Seu corpo, juntamente com o do pai, S. Gabino e
+        o de Santa Felicidade, a mãe dos 7 Mártires, honrados a 10 de Julho,
+        descansa na igreja de Santa Susana, onde se faz a Estação no Sábado da
+        3ª Semana da Quaresma.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/8muitosmartires3">

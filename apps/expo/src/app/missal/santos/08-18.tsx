@@ -8,6 +8,12 @@ export default function Page0818() {
     <PageWrapper>
       <H1 text="S. Agapito, Mártir, a 18 de Agosto" />
 
+      <Text className="comment">
+        Na Palestina: nascimento para o céu de Santo Agapito, que, tendo apenas
+        quinze annos, foi morto em Preneste (Itália) com uma estocada, que lhe
+        alcançou a corôa da imortalidade (275).
+      </Text>
+
       <H3 text="Oração" />
 
       <Language>

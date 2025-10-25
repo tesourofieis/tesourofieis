@@ -9,6 +9,16 @@ export default function Page0819() {
     <PageWrapper>
       <H1 text="S. João Eudes, Conf., a 19 de Agosto" />
 
+      <Text className="comment">
+        Ordenado sacerdote em 1625, fundou em 1643 a Congregação das religiosas
+        de Jesus e de Maria, chamadas Eudistas, e, cerca de 1644, a Congregação
+        das Filhas de Nossa Senhora da Caridade. Celebre como pregador e como
+        escritor ascético, foi o promotor do culto público dos Sagrado Corações
+        de Jesus e de Maria (Or.). Faleceu em Caen a 19 de Agosto de 1680. Sua
+        santidade o Papa Pio XI o incluiu no número dos santos no dia de
+        Pentecostes do ano santo e estendeu o ofício e a missa à toda a Igreja.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/14confessoresnaopontifices1">

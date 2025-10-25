@@ -9,6 +9,16 @@ export default function Page0813() {
     <PageWrapper>
       <H1 text="S. S. Hipólito e Cassiano, Mártires, a 13 de Agosto" />
 
+      <Text className="comment">
+        A legenda do Breviário ensina que Hipólito, encarregado de guardar São
+        Lourenço na prisão, foi pelo Santo convertido. Morreu Mártir, cerca do
+        ano 260, sendo sepultado não longe do túmulo de São Lourenço, onde
+        construíram um santuário, em sua honra. No mesmo dia Cassiano d'Imola,
+        mestre-escola, foi entregue com as mãos atadas ás costas, aos seus
+        jovens discípulos pagãos que armados de estiletes, o mataram, cerca do
+        ano 317.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/8muitosmartires3">

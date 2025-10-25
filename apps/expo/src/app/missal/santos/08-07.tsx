@@ -10,6 +10,16 @@ export default function Page0807() {
     <PageWrapper>
       <H1 text="S. Caetano, Conf., a 7 de Agosto" />
 
+      <Text className="comment">
+        S. Caetano fundou a primeira Congregação de Clérigos regulares na qual
+        se imita a vida dos Apóstolos (Or.). A confiança em Deus, de que fala o
+        Evangelho, era sua grande lei, por isso eles se abstinham de pedir
+        esmolas, esperando recebê-las espontaneamente dos fiéis. O zelo
+        desempenhado pelo Santo em prol da salvação do proximo o fez denominar o
+        Caçador de almas. Diziam ser ele Anjo no altar e Apóstolo no púlpito.
+        Morreu em Nápoles, a 7 de Agosto de 1547.
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/14confessoresnaopontifices1">

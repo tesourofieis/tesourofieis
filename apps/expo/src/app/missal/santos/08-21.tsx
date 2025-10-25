@@ -9,6 +9,18 @@ export default function Page0821() {
     <PageWrapper>
       <H1 text="Santa Joana de Chantal, Viúva, a 21 de Agosto" />
 
+      <Text className="comment">
+        Semelhante á Maria, de quem ha sete dias celebramos a Assunção Santa
+        Joanna Francisca de Chantal, foi esposa, mãe e viúva. Nasceu como São
+        Bernardo, em Dijon e recebeu no baptismo o nome de Joana pois, o
+        calendário marcava nesse dia, 3 de Janeiro, São João-o Esmoler O nome de
+        Francisca, por ela acrescentado na Confirmação, lembra o meigo Santo de
+        Genebra. Como outrora Bento e Escolástica, como Francisco de Assis e
+        Clara, Francisco de Sales e Joana Francisca, correspondendo aos
+        desígnios da divina Providência, uniram seus piedosos esforços e
+        ilustraram a Igreja pela fundação de uma nova familia (Or.).
+      </Text>
+
       <Text className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/24nemvirgensnemmartires">

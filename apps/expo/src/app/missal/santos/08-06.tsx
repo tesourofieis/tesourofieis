@@ -9,6 +9,17 @@ export default function Page0806() {
     <PageWrapper>
       <H1 text="Transfiguração de N. S. J. Cristo, a 6 de Agosto" />
 
+      <Text className="comment">
+        A festa da Transfiguração de Jesus ha muito já era celebrada a 6 de
+        Agosto, nas diversas igrejas do Oriente e do Occidente. A fim de
+        comemorar a victoria que impediu, proximo de Belgrado, em 1456, a onda
+        invasora do Islamismo e cuja noticia chegou á Roma, precisamente a 6 de
+        Agosto, Calisto III estendeu a solenidade á toda a Igreja. É a festa das
+        igrejas que têm por orago o Santo Salvador. Pio X elevou-a ao rito de 2
+        classe, pois, é o título secundário de S. João de Latrão, outrora
+        chamada basílica do Santo Salvador.
+      </Text>
+
       <Text className="aside">
         Comemoração de S. Sixto, Felicíssimo e Agapito como na
         <Link href="/missal/comum/7muitosmartires2">
