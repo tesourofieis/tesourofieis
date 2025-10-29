@@ -1,51 +1,92 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@config '../tailwind.config.ts';
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css";
 
-@layer base {
-  :root {
-    --color-sepia-900: #262624;
-    --color-sepia-800: #2b2b29;
-    --color-sepia-700: #32302f;
-    --color-sepia-600: #40403c;
-    --color-sepia-500: #7c6f64;
-    --color-sepia-400: #cba57e;
-    --color-sepia-300: #e2c1a2;
-    --color-sepia-200: #f2ddc7;
-    --color-sepia-100: #eee6d9;
-    --color-sepia-50: #f4eadd;
+@import "nativewind/theme";
 
-    --color-burgundy-900: #4a1a1c;
-    --color-burgundy-800: #5c2022;
-    --color-burgundy-700: #7d2d30;
-    --color-burgundy-600: #8c3437;
-    --color-burgundy-500: #9b3d3f;
-    --color-burgundy-400: #b85d5f;
-    --color-burgundy-300: #d48385;
-    --color-burgundy-200: #e8b5b6;
-    --color-burgundy-100: #f4e0e1;
+@theme {
+  --color-sepia-900: #262624;
+  --color-sepia-800: #2b2b29;
+  --color-sepia-700: #32302f;
+  --color-sepia-600: #40403c;
+  --color-sepia-500: #7c6f64;
+  --color-sepia-400: #cba57e;
+  --color-sepia-300: #e2c1a2;
+  --color-sepia-200: #f2ddc7;
+  --color-sepia-100: #eee6d9;
+  --color-sepia-50: #f4eadd;
 
-    --color-primary-accent: var(--color-burgundy-500);
+  --color-burgundy-900: #4a1a1c;
+  --color-burgundy-800: #5c2022;
+  --color-burgundy-700: #7d2d30;
+  --color-burgundy-600: #8c3437;
+  --color-burgundy-500: #9b3d3f;
+  --color-burgundy-400: #b85d5f;
+  --color-burgundy-300: #d48385;
+  --color-burgundy-200: #e8b5b6;
+  --color-burgundy-100: #f4e0e1;
 
-    --scrollbar-thumb-color: var(--color-sepia-900);
-    --scrollbar-track-color: var(--color-sepia-800);
+  --color-gray-50: var(--color-sepia-50);
+  --color-gray-100: var(--color-sepia-100);
+  --color-gray-200: var(--color-sepia-200);
+  --color-gray-300: var(--color-sepia-300);
+  --color-gray-400: var(--color-sepia-400);
+  --color-gray-500: var(--color-sepia-500);
+  --color-gray-600: var(--color-sepia-600);
+  --color-gray-700: var(--color-sepia-700);
+  --color-gray-800: var(--color-sepia-800);
+  --color-gray-900: var(--color-sepia-900);
 
-    --text-color-base: var(--color-sepia-900);
-    --text-color-dark-mode: var(--color-sepia-100);
-    --text-color-sepia: var(--color-sepia-900);
-    --text-color-sepia-dark: var(--color-sepia-100);
-  }
+  --color-red-100: var(--color-burgundy-100);
+  --color-red-200: var(--color-burgundy-200);
+  --color-red-300: var(--color-burgundy-300);
+  --color-red-400: var(--color-burgundy-400);
+  --color-red-500: var(--color-burgundy-500);
+  --color-red-600: var(--color-burgundy-600);
+  --color-red-700: var(--color-burgundy-700);
+  --color-red-800: var(--color-burgundy-800);
+  --color-red-900: var(--color-burgundy-900);
 
-  html.dark {
+  --font-serif: "DMSerifText_400Regular", ui-serif, Georgia, Cambria,
+    "Times New Roman", Times, serif;
+  --font-display: "DMSerifDisplay_400Regular", cursive;
+  --font-display-italic: "DMSerifDisplay_400Regular_Italic", cursive;
+  --font-bold: "Cardo_700Bold", ui-serif, Georgia, Cambria, "Times New Roman",
+    Times, serif;
+  --font-italic: "DMSerifText_400Regular_Italic", ui-serif, Georgia, Cambria,
+    "Times New Roman", Times, serif;
+  --font-sans: "NotoSans-Regular", ui-sans-serif, system-ui, sans-serif;
+
+  --font-size-xs: var(--font-size-xs);
+  --font-size-sm: var(--font-size-sm);
+  --font-size-base: var(--font-size-base);
+  --font-size-lg: var(--font-size-lg);
+  --font-size-xl: var(--font-size-xl);
+  --font-size-2xl: var(--font-size-2xl);
+  --font-size-3xl: var(--font-size-3xl);
+  --font-size-4xl: var(--font-size-4xl);
+}
+
+:root {
+  --color-primary-accent: var(--color-burgundy-500);
+  --scrollbar-thumb-color: var(--color-sepia-900);
+  --scrollbar-track-color: var(--color-sepia-800);
+  --text-color-base: var(--color-sepia-900);
+  --text-color-dark-mode: var(--color-sepia-100);
+  --text-color-sepia: var(--color-sepia-900);
+  --text-color-sepia-dark: var(--color-sepia-100);
+
+  @media (prefers-color-scheme: dark) {
     --text-color-sepia: var(--color-sepia-100);
     --text-color-sepia-dark: var(--color-sepia-900);
     --scrollbar-thumb-color: var(--color-sepia-100);
     --scrollbar-track-color: var(--color-sepia-900);
   }
+}
 
+@layer base {
   .font-body {
-    @apply font-serif;
+    font-family: var(--font-serif);
   }
 
   .text-responsive-xs {
@@ -130,123 +171,148 @@
     line-height: var(--heading-line-height-6xl);
   }
 
-  .text-xs {
-    @apply text-responsive-xs;
-  }
-  .text-sm {
-    @apply text-responsive-sm;
-  }
-  .text-base {
-    @apply text-responsive-base;
-  }
-  .text-lg {
-    @apply text-responsive-lg;
-  }
-  .text-xl {
-    @apply text-responsive-xl;
-  }
-  .text-2xl {
-    @apply text-responsive-2xl;
-  }
-  .text-3xl {
-    @apply text-responsive-3xl;
-  }
-  .text-4xl {
-    @apply text-responsive-4xl;
-  }
-  .text-5xl {
-    @apply text-responsive-5xl;
-  }
-  .text-6xl {
-    @apply text-responsive-6xl;
-  }
-
   html {
-    @apply w-full;
+    width: 100%;
     scrollbar-width: thin;
-    scrollbar-color: theme("colors.sepia.900") theme("colors.sepia.800");
+    scrollbar-color: var(--color-sepia-900) var(--color-sepia-800);
   }
 
   .text-sepia {
-    @apply text-sepia-900 font-serif dark:text-sepia-100;
+    color: var(--color-sepia-900);
+    font-family: var(--font-serif);
+  }
+  .dark .text-sepia {
+    color: var(--color-sepia-100);
   }
 
   .border-sepia {
-    @apply border-sepia-200 dark:border-sepia-700;
+    border-color: var(--color-sepia-200);
+  }
+  .dark .border-sepia {
+    border-color: var(--color-sepia-700);
   }
 
   .heading1 {
     font-size: var(--heading-font-size-6xl);
     line-height: var(--heading-line-height-6xl);
-    @apply font-display text-pretty py-6 text-center text-burgundy-500;
-    @apply heading-responsive-6xl;
+    font-family: var(--font-display);
+    text-wrap: pretty;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    color: var(--color-burgundy-500);
   }
 
   .h2 {
     font-size: var(--heading-font-size-5xl);
     line-height: var(--heading-line-height-5xl);
-    @apply text-center font-display text-pretty py-5 text-burgundy-500;
-    @apply heading-responsive-5xl;
+    text-align: center;
+    font-family: var(--font-display);
+    text-wrap: pretty;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: var(--color-burgundy-500);
   }
 
   .h3 {
     font-size: var(--heading-font-size-4xl);
     line-height: var(--heading-line-height-4xl);
-    @apply text-center font-display text-pretty py-4 text-sepia-900 dark:text-sepia-100;
-    @apply heading-responsive-4xl;
+    text-align: center;
+    font-family: var(--font-display);
+    text-wrap: pretty;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--color-sepia-900);
+  }
+  .dark .h3 {
+    color: var(--color-sepia-100);
   }
 
   .h4 {
     font-size: var(--heading-font-size-3xl);
     line-height: var(--heading-line-height-3xl);
-    @apply text-center font-display text-pretty py-3 text-sepia-900 dark:text-sepia-100;
-    @apply heading-responsive-3xl;
+    text-align: center;
+    font-family: var(--font-display);
+    text-wrap: pretty;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: var(--color-sepia-900);
+  }
+  .dark .h4 {
+    color: var(--color-sepia-100);
   }
 
   .h5 {
     font-size: var(--heading-font-size-2xl);
     line-height: var(--heading-line-height-2xl);
-    @apply text-center font-display text-pretty py-2 text-sepia-900 dark:text-sepia-100;
-    @apply heading-responsive-2xl;
+    text-align: center;
+    font-family: var(--font-display);
+    text-wrap: pretty;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: var(--color-sepia-900);
+  }
+  .dark .h5 {
+    color: var(--color-sepia-100);
   }
 
   .h6 {
     font-size: var(--heading-font-size-xl);
     line-height: var(--heading-line-height-xl);
-    @apply text-center text-pretty py-1 text-sepia-900 dark:text-sepia-100;
-    @apply heading-responsive-xl;
+    text-align: center;
+    text-wrap: pretty;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    color: var(--color-sepia-900);
+  }
+  .dark .h6 {
+    color: var(--color-sepia-100);
   }
 
   .card {
-    @apply flex
-    items-center
-    justify-center
-    rounded-xl
-    p-8
-    px-3
-    no-underline
-    border
-    border-sepia-300
-    bg-sepia-200
-    text-sepia-600
-    dark:border-sepia-700
-    dark:bg-sepia-800
-    dark:text-sepia-300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.75rem;
+    padding: 2rem 0.75rem;
+    text-decoration: none;
+    border: 1px solid var(--color-sepia-300);
+    background-color: var(--color-sepia-200);
+    color: var(--color-sepia-600);
+  }
+  .dark .card {
+    border-color: var(--color-sepia-700);
+    background-color: var(--color-sepia-800);
+    color: var(--color-sepia-300);
   }
   .card:hover {
-    @apply bg-sepia-200 dark:hover:bg-sepia-900;
+    background-color: var(--color-sepia-200);
+  }
+  .dark .card:hover {
+    background-color: var(--color-sepia-900);
   }
 
   .li {
-    @apply list-item ml-2 py-1 text-sepia-900 dark:text-sepia-100;
+    display: list-item;
+    margin-left: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    color: var(--color-sepia-900);
+  }
+  .dark .li {
+    color: var(--color-sepia-100);
   }
 
   .bold {
-    @apply font-bold text-sepia-900 dark:text-sepia-100;
+    font-weight: 700;
+    color: var(--color-sepia-900);
+  }
+  .dark .bold {
+    color: var(--color-sepia-100);
   }
 
   .list-styled {
-    @apply p-2;
+    padding: 0.5rem;
   }
 
   .text-pretty,
@@ -254,67 +320,88 @@
   .vernacular {
     font-size: var(--font-size-base);
     line-height: var(--line-height-base);
-    @apply py-2 font-serif px-3 text-sepia-900 dark:text-sepia-100;
+    padding: 0.5rem 0.75rem;
+    font-family: var(--font-serif);
+    color: var(--color-sepia-900);
     text-rendering: optimizeLegibility;
-    @apply heading-responsive-base;
+  }
+  .dark .text-pretty,
+  .dark .latin,
+  .dark .vernacular {
+    color: var(--color-sepia-100);
   }
 
   .cross {
-    @apply text-burgundy-500;
+    color: var(--color-burgundy-500);
   }
 
   .response {
-    @apply font-bold text-burgundy-500;
+    font-weight: 700;
+    color: var(--color-burgundy-500);
   }
 
   .versicle {
-    @apply font-bold text-sepia-900 dark:text-sepia-100;
+    font-weight: 700;
+    color: var(--color-sepia-900);
+  }
+  .dark .versicle {
+    color: var(--color-sepia-100);
   }
 
   .link {
-    @apply underline text-sepia-800 dark:text-sepia-200;
+    text-decoration: underline;
+    color: var(--color-sepia-800);
+  }
+  .dark .link {
+    color: var(--color-sepia-200);
   }
 
   .aside {
-    @apply m-2
-    text-pretty
-    rounded-xl
-    p-4
-    my-4
-    border-l-4
-    border-sepia-300
-    bg-sepia-200
-    text-sepia-700
-    dark:border-sepia-700
-    dark:bg-sepia-800
-    dark:text-sepia-300;
+    margin: 0.5rem;
+    text-wrap: pretty;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid var(--color-sepia-300);
+    background-color: var(--color-sepia-200);
+    color: var(--color-sepia-700);
+  }
+  .dark .aside {
+    border-left-color: var(--color-sepia-700);
+    background-color: var(--color-sepia-800);
+    color: var(--color-sepia-300);
   }
 
   .comment {
-    @apply m-2
-    text-pretty
-    rounded-xl
-    p-4
-    my-4
-    border-l-4
-    border-burgundy-500
-    bg-sepia-300
-    text-sepia-800
-    dark:border-burgundy-700
-    dark:bg-sepia-700
-    dark:text-sepia-200;
+    margin: 0.5rem;
+    text-wrap: pretty;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid var(--color-burgundy-500);
+    background-color: var(--color-sepia-300);
+    color: var(--color-sepia-800);
+  }
+  .dark .comment {
+    border-left-color: var(--color-burgundy-700);
+    background-color: var(--color-sepia-700);
+    color: var(--color-sepia-200);
   }
 
   .em {
-    @apply mx-1
-    text-pretty
-    rounded-xl
-    px-3
-    py-2
-    font-italic
-    bg-sepia-200
-    text-sepia-700
-    dark:bg-sepia-800
-    dark:text-sepia-300;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    text-wrap: pretty;
+    border-radius: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    font-style: italic;
+    background-color: var(--color-sepia-200);
+    color: var(--color-sepia-700);
+  }
+  .dark .em {
+    background-color: var(--color-sepia-800);
+    color: var(--color-sepia-300);
   }
 }

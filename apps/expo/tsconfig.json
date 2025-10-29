@@ -3,9 +3,14 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./src/*", "./assets/*"]
+      "~/*": [
+        "./src/*",
+        "./assets/*"
+      ]
     },
-    "types": ["nativewind/types"]
+    "types": [
+      "nativewind/types"
+    ]
   },
   "include": [
     "src",
@@ -14,6 +19,7 @@
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
     "index.js",
-    "build_sidebar.js"
+    "build_sidebar.js",
+    "nativewind-env.d.ts"
   ]
 }

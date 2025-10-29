@@ -16,7 +16,7 @@ import {
 } from "react";
 import { Alert, Platform } from "react-native";
 import { useCalendar } from "./calendar";
-import { burgundy } from "tailwind.config";
+import { burgundy } from "config";
 
 export type Settings = {
   angelusEnabled: boolean;

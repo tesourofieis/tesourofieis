@@ -6,7 +6,7 @@ import {
   Pressable,
 } from "react-native";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import { burgundy } from "tailwind.config";
+import { burgundy } from "config";
 import { useEffect, useState } from "react";
 import { useUpdate } from "~/providers/update";
 import { H6 } from "./Headings";

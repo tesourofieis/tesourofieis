@@ -17,7 +17,7 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { SettingsProvider } from "~/providers/settings";
-import { burgundy } from "tailwind.config";
+import { burgundy } from "config";
 import { FontProvider } from "~/providers/fonts";
 import { UpdateProvider, useUpdate } from "~/providers/update";
 import { Update } from "~/components/Update";

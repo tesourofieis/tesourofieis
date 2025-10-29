@@ -2,7 +2,7 @@ import FontAwesome from "@expo/vector-icons/FontAwesome";
 import type { Mass } from "@tesourofieis/cal/observanceManager";
 import { Link } from "expo-router";
 import { Pressable, Text, View } from "react-native";
-import { burgundy } from "tailwind.config";
+import { burgundy } from "config";
 import { COLORS } from "~/constants/Colors";
 
 export function getColor(color?: string) {

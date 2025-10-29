@@ -3,7 +3,7 @@ import { format } from "date-fns";
 import { pt } from "date-fns/locale";
 import { Link } from "expo-router";
 import { ScrollView, Text, useColorScheme, View } from "react-native";
-import { burgundy } from "tailwind.config";
+import { burgundy } from "config";
 import ExternalLinks from "~/components/External";
 import { H1 } from "~/components/Headings";
 
@@ -41,11 +41,7 @@ export default function PageRender() {
       </View>
 
       <View className="flex flex-col items-center mt-20 justify-center gap-5">
-        <FontAwesome6
-          name="book-bible"
-          size={180}
-          color={burgundy[500]}
-        />
+        <FontAwesome6 name="book-bible" size={180} color={burgundy[500]} />
         <H1 text="Tesouro dos Fiéis" />
         <Text className="font-serif text-sm text-center mx-8 text-sepia-800 dark:text-sepia-200">
           Espaço dedicado à oração, exposição e preservação das santas tradições
