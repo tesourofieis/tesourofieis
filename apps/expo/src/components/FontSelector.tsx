@@ -2,23 +2,14 @@ import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { Text, TouchableOpacity, useColorScheme, View } from "react-native";
 import { H6 } from "~/components/Headings";
 import { COLORS } from "~/constants/Colors";
-import { useFont } from "~/providers/fonts";
+import { useFontContext } from "~/providers/fonts";
 
-export type FontSize = "pequeno" | "normal" | "grande";
-
-const FONT_SIZE_MAP: Record<FontSize, number> = {
-  pequeno: 14,
-  normal: 18,
-  grande: 24,
-};
+const SIZES = ["small", "medium", "large"] as const;
+const SIZE_LABEL: Record<string, string> = { small: "Pequeno", medium: "Médio", large: "Grande" };
 
 export const FontSizeSelector = () => {
   const colorScheme = useColorScheme();
-
-  const { setFontSize, fontSize } = useFont();
-
-  const sizes: FontSize[] = ["pequeno", "normal", "grande"];
-
+  const { fontSize, setFontSize } = useFontContext();
   return (
     <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
       <View className="flex-row items-center mb-3">
@@ -31,7 +22,7 @@ export const FontSizeSelector = () => {
       </View>
 
       <View className="flex-row justify-between items-center">
-        {sizes.map((size) => (
+        {SIZES.map((size) => (
           <TouchableOpacity
             key={size}
             onPress={() => setFontSize(size)}
@@ -47,9 +38,8 @@ export const FontSizeSelector = () => {
                   ? "text-sepia-200 dark:text-sepia-800"
                   : "text-sepia-800 dark:text-sepia-200"
               }`}
-              style={{ fontSize: FONT_SIZE_MAP[size] }}
             >
-              {size}
+              {SIZE_LABEL[size]}
             </Text>
           </TouchableOpacity>
         ))}

@@ -1,8 +1,14 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { format } from "date-fns";
 import { pt } from "date-fns/locale";
-import { Link } from "expo-router";
-import { ScrollView, Text, useColorScheme, View } from "react-native";
+import { Link, useRouter } from "expo-router";
+import {
+  Pressable,
+  ScrollView,
+  Text,
+  useColorScheme,
+  View,
+} from "react-native";
 import { burgundy } from "config";
 import ExternalLinks from "~/components/External";
 import { H1 } from "~/components/Headings";
@@ -31,6 +37,8 @@ export default function PageRender() {
 
   const currentPrayer = getPrayer(date);
 
+  const router = useRouter();
+
   return (
     <ScrollView>
       <View className="bg-sepia-700">
@@ -51,23 +59,23 @@ export default function PageRender() {
 
       <PageWrapper>
         <View className="flex flex-row justify-center my-5 mx-5 gap-5">
-          <Link
-            className="shadow-sm border-sepia-700 dark:border-sepia-200 bg-sepia-100 dark:bg-sepia-800 active:bg-sepia-200 dark:active:bg-sepia-700 m-2 rounded-xl border px-4 py-3"
-            href="/devocionario/introducao"
+          <Pressable
+            className="shadow-sm border-sepia-700 dark:border-red-200 bg-sepia-100 dark:bg-sepia-800 active:bg-sepia-200 dark:active:bg-sepia-700 m-2 rounded-xl border px-4 py-3"
+            onPress={() => router.navigate("/devocionario/introducao")}
           >
             <Text className="text-pretty text-sepia-800 dark:text-sepia-200 text-center">
               Introdução
             </Text>
-          </Link>
+          </Pressable>
 
-          <Link
-            href="/devocionario/rosario"
+          <Pressable
+            onPress={() => router.navigate("/devocionario/rosario")}
             className="shadow-sm border-sepia-700 dark:border-sepia-300 bg-sepia-800 dark:bg-sepia-200 active:bg-sepia-700 dark:active:bg-sepia-300 m-2 rounded-xl border px-4 py-3"
           >
             <Text className="text-pretty text-sepia-200 dark:text-sepia-900 text-center">
               Rosário
             </Text>
-          </Link>
+          </Pressable>
         </View>
 
         <View className="border-t border-sepia mt-2" />

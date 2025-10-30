@@ -4,19 +4,22 @@ import { useEffect, useRef } from "react";
 import { Platform, ScrollView, View } from "react-native";
 import { ScrollView as GestureScrollView } from "react-native-gesture-handler";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { vars } from "nativewind";
 import { PageProvider, useIsNested } from "~/providers/page";
-import { FontProvider, useFontVariables } from "~/providers/fonts";
+import { FontProvider, useFontContext } from "~/providers/fonts";
 
 type PageWrapperProps = {
   children: React.ReactNode;
 };
 
+const PAGE_FONT_SIZE_CLASS = {
+  small: "text-base",
+  medium: "text-lg",
+  large: "text-xl",
+};
 function PageContent({ children }: { children: React.ReactNode }) {
-  const fontVariables = useFontVariables();
-
+  const { fontSize } = useFontContext();
   return (
-    <View style={vars(fontVariables)} className="flex-1">
+    <View className={`flex-1 ${PAGE_FONT_SIZE_CLASS[fontSize]}`}>
       {children}
     </View>
   );

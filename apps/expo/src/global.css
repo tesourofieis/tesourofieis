@@ -1,31 +1,30 @@
+/* globals.css — Importa e define theme/base/utilities como per NativeWind v5. */
 @import "tailwindcss/theme.css" layer(theme);
 @import "tailwindcss/preflight.css" layer(base);
 @import "tailwindcss/utilities.css";
-
 @import "nativewind/theme";
 
 @theme {
-  --color-sepia-900: #262624;
-  --color-sepia-800: #2b2b29;
-  --color-sepia-700: #32302f;
-  --color-sepia-600: #40403c;
-  --color-sepia-500: #7c6f64;
-  --color-sepia-400: #cba57e;
-  --color-sepia-300: #e2c1a2;
-  --color-sepia-200: #f2ddc7;
-  --color-sepia-100: #eee6d9;
+  /* Cores sepia e burgundy: Imutáveis, como substâncias primeiras. */
   --color-sepia-50: #f4eadd;
-
-  --color-burgundy-900: #4a1a1c;
-  --color-burgundy-800: #5c2022;
-  --color-burgundy-700: #7d2d30;
-  --color-burgundy-600: #8c3437;
-  --color-burgundy-500: #9b3d3f;
-  --color-burgundy-400: #b85d5f;
-  --color-burgundy-300: #d48385;
-  --color-burgundy-200: #e8b5b6;
+  --color-sepia-100: #eee6d9;
+  --color-sepia-200: #f2ddc7;
+  --color-sepia-300: #e2c1a2;
+  --color-sepia-400: #cba57e;
+  --color-sepia-500: #7c6f64;
+  --color-sepia-600: #40403c;
+  --color-sepia-700: #32302f;
+  --color-sepia-800: #2b2b29;
+  --color-sepia-900: #262624;
   --color-burgundy-100: #f4e0e1;
-
+  --color-burgundy-200: #e8b5b6;
+  --color-burgundy-300: #d48385;
+  --color-burgundy-400: #b85d5f;
+  --color-burgundy-500: #9b3d3f;
+  --color-burgundy-600: #8c3437;
+  --color-burgundy-700: #7d2d30;
+  --color-burgundy-800: #5c2022;
+  --color-burgundy-900: #4a1a1c;
   --color-gray-50: var(--color-sepia-50);
   --color-gray-100: var(--color-sepia-100);
   --color-gray-200: var(--color-sepia-200);
@@ -36,7 +35,6 @@
   --color-gray-700: var(--color-sepia-700);
   --color-gray-800: var(--color-sepia-800);
   --color-gray-900: var(--color-sepia-900);
-
   --color-red-100: var(--color-burgundy-100);
   --color-red-200: var(--color-burgundy-200);
   --color-red-300: var(--color-burgundy-300);
@@ -47,361 +45,183 @@
   --color-red-800: var(--color-burgundy-800);
   --color-red-900: var(--color-burgundy-900);
 
-  --font-serif: "DMSerifText_400Regular", ui-serif, Georgia, Cambria,
-    "Times New Roman", Times, serif;
-  --font-display: "DMSerifDisplay_400Regular", cursive;
-  --font-display-italic: "DMSerifDisplay_400Regular_Italic", cursive;
-  --font-bold: "Cardo_700Bold", ui-serif, Georgia, Cambria, "Times New Roman",
-    Times, serif;
-  --font-italic: "DMSerifText_400Regular_Italic", ui-serif, Georgia, Cambria,
-    "Times New Roman", Times, serif;
-  --font-sans: "NotoSans-Regular", ui-sans-serif, system-ui, sans-serif;
+  /* Fontes: Nomes exatos para injeção RN via expo-font; sem fallbacks aqui. */
+  --font-family-serif: "DMSerifText_400Regular";
+  --font-family-display: "DMSerifDisplay_400Regular"; /* Para cursiva; match exato com useFonts. */
+  --font-family-display-italic: "DMSerifDisplay_400Regular_Italic";
+  --font-family-bold: "Cardo_700Bold";
+  --font-family-italic: "DMSerifText_400Regular_Italic";
+  --font-family-sans: "NotoSans-Regular";
 
-  --font-size-xs: var(--font-size-xs);
-  --font-size-sm: var(--font-size-sm);
-  --font-size-base: var(--font-size-base);
-  --font-size-lg: var(--font-size-lg);
-  --font-size-xl: var(--font-size-xl);
-  --font-size-2xl: var(--font-size-2xl);
-  --font-size-3xl: var(--font-size-3xl);
-  --font-size-4xl: var(--font-size-4xl);
+  /* Tamanhos e lines: Ancorados em rems v4 para consistência com text-*. */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 3.75rem;
+  --line-height-xs: 1rem;
+  --line-height-sm: 1.25rem;
+  --line-height-base: 1.5rem;
+  --line-height-lg: 1.75rem;
+  --line-height-xl: 2rem;
+  --line-height-2xl: 2.25rem;
+  --line-height-3xl: 2.5rem;
+  --line-height-4xl: 2.75rem;
+  --line-height-5xl: 3.5rem;
+  --line-height-6xl: 4rem;
 }
 
-:root {
-  --color-primary-accent: var(--color-burgundy-500);
-  --scrollbar-thumb-color: var(--color-sepia-900);
-  --scrollbar-track-color: var(--color-sepia-800);
-  --text-color-base: var(--color-sepia-900);
-  --text-color-dark-mode: var(--color-sepia-100);
-  --text-color-sepia: var(--color-sepia-900);
-  --text-color-sepia-dark: var(--color-sepia-100);
-
-  @media (prefers-color-scheme: dark) {
+@layer base {
+  :root {
+    --color-primary-accent: var(--color-burgundy-500);
+    --scrollbar-thumb-color: var(--color-sepia-900);
+    --scrollbar-track-color: var(--color-sepia-800);
+    --text-color-base: var(--color-sepia-900);
+    --text-color-dark-mode: var(--color-sepia-100);
+    --text-color-sepia: var(--color-sepia-900);
+    --text-color-sepia-dark: var(--color-sepia-100);
+  }
+  html.dark {
     --text-color-sepia: var(--color-sepia-100);
     --text-color-sepia-dark: var(--color-sepia-900);
     --scrollbar-thumb-color: var(--color-sepia-100);
     --scrollbar-track-color: var(--color-sepia-900);
   }
-}
 
-@layer base {
-  .font-body {
-    font-family: var(--font-serif);
-  }
-
-  .text-responsive-xs {
+  /* Overrides para text-*: Usa vars para harmonia responsiva. */
+  .text-xs {
     font-size: var(--font-size-xs);
     line-height: var(--line-height-xs);
   }
-  .text-responsive-sm {
+  .text-sm {
     font-size: var(--font-size-sm);
     line-height: var(--line-height-sm);
   }
-  .text-responsive-base {
+  .text-base {
     font-size: var(--font-size-base);
     line-height: var(--line-height-base);
   }
-  .text-responsive-lg {
+  .text-lg {
     font-size: var(--font-size-lg);
     line-height: var(--line-height-lg);
   }
-  .text-responsive-xl {
+  .text-xl {
     font-size: var(--font-size-xl);
     line-height: var(--line-height-xl);
   }
-  .text-responsive-2xl {
+  .text-2xl {
     font-size: var(--font-size-2xl);
     line-height: var(--line-height-2xl);
   }
-  .text-responsive-3xl {
+  .text-3xl {
     font-size: var(--font-size-3xl);
     line-height: var(--line-height-3xl);
   }
-  .text-responsive-4xl {
+  .text-4xl {
     font-size: var(--font-size-4xl);
     line-height: var(--line-height-4xl);
   }
-  .text-responsive-5xl {
+  .text-5xl {
     font-size: var(--font-size-5xl);
     line-height: var(--line-height-5xl);
   }
-  .text-responsive-6xl {
+  .text-6xl {
     font-size: var(--font-size-6xl);
     line-height: var(--line-height-6xl);
   }
 
-  .heading-responsive-xs {
-    font-size: var(--heading-font-size-xs);
-    line-height: var(--heading-line-height-xs);
-  }
-  .heading-responsive-sm {
-    font-size: var(--heading-font-size-sm);
-    line-height: var(--heading-line-height-sm);
-  }
-  .heading-responsive-base {
-    font-size: var(--heading-font-size-base);
-    line-height: var(--heading-line-height-base);
-  }
-  .heading-responsive-lg {
-    font-size: var(--heading-font-size-lg);
-    line-height: var(--heading-line-height-lg);
-  }
-  .heading-responsive-xl {
-    font-size: var(--heading-font-size-xl);
-    line-height: var(--heading-line-height-xl);
-  }
-  .heading-responsive-2xl {
-    font-size: var(--heading-font-size-2xl);
-    line-height: var(--heading-line-height-2xl);
-  }
-  .heading-responsive-3xl {
-    font-size: var(--heading-font-size-3xl);
-    line-height: var(--heading-line-height-3xl);
-  }
-  .heading-responsive-4xl {
-    font-size: var(--heading-font-size-4xl);
-    line-height: var(--heading-line-height-4xl);
-  }
-  .heading-responsive-5xl {
-    font-size: var(--heading-font-size-5xl);
-    line-height: var(--heading-line-height-5xl);
-  }
-  .heading-responsive-6xl {
-    font-size: var(--heading-font-size-6xl);
-    line-height: var(--heading-line-height-6xl);
-  }
-
+  /* Base styles: Scrollbar e text-sepia. */
   html {
     width: 100%;
     scrollbar-width: thin;
-    scrollbar-color: var(--color-sepia-900) var(--color-sepia-800);
+    scrollbar-color: theme(colors.sepia.900) theme(colors.sepia.800);
   }
-
   .text-sepia {
-    color: var(--color-sepia-900);
-    font-family: var(--font-serif);
+    font-family: var(--font-family-serif);
+    @apply text-sepia-900 dark:text-sepia-100;
   }
-  .dark .text-sepia {
-    color: var(--color-sepia-100);
-  }
-
   .border-sepia {
-    border-color: var(--color-sepia-200);
+    @apply border-sepia-200 dark:border-sepia-700;
   }
-  .dark .border-sepia {
-    border-color: var(--color-sepia-700);
-  }
+}
 
-  .heading1 {
-    font-size: var(--heading-font-size-6xl);
-    line-height: var(--heading-line-height-6xl);
-    font-family: var(--font-display);
-    text-wrap: pretty;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    text-align: center;
-    color: var(--color-burgundy-500);
-  }
-
-  .h2 {
-    font-size: var(--heading-font-size-5xl);
-    line-height: var(--heading-line-height-5xl);
-    text-align: center;
-    font-family: var(--font-display);
-    text-wrap: pretty;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-    color: var(--color-burgundy-500);
-  }
-
-  .h3 {
-    font-size: var(--heading-font-size-4xl);
-    line-height: var(--heading-line-height-4xl);
-    text-align: center;
-    font-family: var(--font-display);
-    text-wrap: pretty;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    color: var(--color-sepia-900);
-  }
-  .dark .h3 {
-    color: var(--color-sepia-100);
-  }
-
-  .h4 {
-    font-size: var(--heading-font-size-3xl);
-    line-height: var(--heading-line-height-3xl);
-    text-align: center;
-    font-family: var(--font-display);
-    text-wrap: pretty;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    color: var(--color-sepia-900);
-  }
-  .dark .h4 {
-    color: var(--color-sepia-100);
-  }
-
-  .h5 {
-    font-size: var(--heading-font-size-2xl);
-    line-height: var(--heading-line-height-2xl);
-    text-align: center;
-    font-family: var(--font-display);
-    text-wrap: pretty;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    color: var(--color-sepia-900);
-  }
-  .dark .h5 {
-    color: var(--color-sepia-100);
-  }
-
-  .h6 {
-    font-size: var(--heading-font-size-xl);
-    line-height: var(--heading-line-height-xl);
-    text-align: center;
-    text-wrap: pretty;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    color: var(--color-sepia-900);
-  }
-  .dark .h6 {
-    color: var(--color-sepia-100);
-  }
-
+@layer components {
+  /* Components: Card, li, etc. — Sem .h1/.h2, pois usas classes dinâmicas. */
   .card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0.75rem;
-    padding: 2rem 0.75rem;
-    text-decoration: none;
-    border: 1px solid var(--color-sepia-300);
-    background-color: var(--color-sepia-200);
-    color: var(--color-sepia-600);
-  }
-  .dark .card {
-    border-color: var(--color-sepia-700);
-    background-color: var(--color-sepia-800);
-    color: var(--color-sepia-300);
+    @apply flex items-center justify-center rounded-xl p-8 px-3 no-underline border border-sepia-300 bg-sepia-200 text-sepia-600 dark:border-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
   }
   .card:hover {
-    background-color: var(--color-sepia-200);
+    @apply bg-sepia-200 dark:bg-sepia-900;
   }
-  .dark .card:hover {
-    background-color: var(--color-sepia-900);
-  }
-
   .li {
-    display: list-item;
-    margin-left: 0.5rem;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    color: var(--color-sepia-900);
+    @apply list-item ml-2 py-1 text-sepia-900 dark:text-sepia-100;
   }
-  .dark .li {
-    color: var(--color-sepia-100);
-  }
-
   .bold {
-    font-weight: 700;
-    color: var(--color-sepia-900);
+    font-family: var(--font-family-bold);
+    @apply text-sepia-900 dark:text-sepia-100;
   }
-  .dark .bold {
-    color: var(--color-sepia-100);
-  }
-
   .list-styled {
-    padding: 0.5rem;
+    @apply p-2;
   }
-
   .text-pretty,
   .latin,
   .vernacular {
     font-size: var(--font-size-base);
     line-height: var(--line-height-base);
-    padding: 0.5rem 0.75rem;
-    font-family: var(--font-serif);
-    color: var(--color-sepia-900);
+    font-family: var(--font-family-serif);
+    @apply py-2 px-3 text-sepia-900 dark:text-sepia-100;
     text-rendering: optimizeLegibility;
   }
-  .dark .text-pretty,
-  .dark .latin,
-  .dark .vernacular {
-    color: var(--color-sepia-100);
+  .font-serif {
+    font-family: var(--font-family-serif);
+    @apply text-sepia-900 dark:text-sepia-100;
   }
-
   .cross {
-    color: var(--color-burgundy-500);
+    @apply text-burgundy-500;
   }
-
   .response {
-    font-weight: 700;
-    color: var(--color-burgundy-500);
+    font-family: var(--font-family-bold);
+    @apply text-burgundy-500;
   }
-
   .versicle {
-    font-weight: 700;
-    color: var(--color-sepia-900);
+    font-family: var(--font-family-bold);
+    @apply text-sepia-900 dark:text-sepia-100;
   }
-  .dark .versicle {
-    color: var(--color-sepia-100);
-  }
-
   .link {
-    text-decoration: underline;
-    color: var(--color-sepia-800);
+    @apply underline text-sepia-800 dark:text-sepia-200;
   }
-  .dark .link {
-    color: var(--color-sepia-200);
-  }
-
   .aside {
-    margin: 0.5rem;
-    text-wrap: pretty;
-    border-radius: 0.75rem;
-    padding: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border-left: 4px solid var(--color-sepia-300);
-    background-color: var(--color-sepia-200);
-    color: var(--color-sepia-700);
+    @apply m-2 text-pretty rounded-xl p-4 my-4 border-l-4 border-sepia-300 bg-sepia-200 text-sepia-700 dark:border-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
   }
-  .dark .aside {
-    border-left-color: var(--color-sepia-700);
-    background-color: var(--color-sepia-800);
-    color: var(--color-sepia-300);
-  }
-
   .comment {
-    margin: 0.5rem;
-    text-wrap: pretty;
-    border-radius: 0.75rem;
-    padding: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border-left: 4px solid var(--color-burgundy-500);
-    background-color: var(--color-sepia-300);
-    color: var(--color-sepia-800);
+    @apply m-2 text-pretty rounded-xl p-4 my-4 border-l-4 border-burgundy-500 bg-sepia-300 text-sepia-800 dark:border-burgundy-700 dark:bg-sepia-700 dark:text-sepia-200;
   }
-  .dark .comment {
-    border-left-color: var(--color-burgundy-700);
-    background-color: var(--color-sepia-700);
-    color: var(--color-sepia-200);
-  }
-
   .em {
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
-    text-wrap: pretty;
-    border-radius: 0.75rem;
-    padding: 0.5rem 0.75rem;
-    font-style: italic;
-    background-color: var(--color-sepia-200);
-    color: var(--color-sepia-700);
+    font-family: var(--font-family-italic);
+    @apply mx-1 text-pretty rounded-xl px-3 py-2 bg-sepia-200 text-sepia-700 dark:bg-sepia-800 dark:text-sepia-300;
   }
-  .dark .em {
-    background-color: var(--color-sepia-800);
-    color: var(--color-sepia-300);
-  }
+}
+
+/* Utilitários custom: Autônomos, fora de @layer — sintaxe v4 pura para evitar nesting. */
+@utility font-display {
+  font-family: var(
+    --font-family-display
+  ); /* Compila para 'DMSerifDisplay_400Regular'. */
+}
+@utility font-display-italic {
+  font-family: var(--font-family-display-italic);
+}
+@utility font-serif-custom {
+  font-family: var(--font-family-serif);
+}
+@utility font-bold-custom {
+  font-family: var(--font-family-bold);
+}
+@utility font-italic-custom {
+  font-family: var(--font-family-italic);
 }
