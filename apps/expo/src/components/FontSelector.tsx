@@ -5,14 +5,18 @@ import { COLORS } from "~/constants/Colors";
 import { useFontContext } from "~/providers/fonts";
 
 const SIZES = ["small", "medium", "large"] as const;
-const SIZE_LABEL: Record<string, string> = { small: "Pequeno", medium: "Médio", large: "Grande" };
+const SIZE_LABEL: Record<string, string> = {
+  small: "Pequeno",
+  medium: "Médio",
+  large: "Grande",
+};
 
 export const FontSizeSelector = () => {
   const colorScheme = useColorScheme();
   const { fontSize, setFontSize } = useFontContext();
   return (
     <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
-      <View className="flex-row items-center mb-3">
+      <View className="flex-row items-center mb-3 gap-1">
         <FontAwesome6
           name="text-height"
           size={15}

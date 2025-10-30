@@ -85,8 +85,8 @@ export const Notifications = () => {
   if (permissionStatus !== "granted") {
     return (
       <SafeAreaView className="flex-1">
-        <View className="bg-sepia-200 dark:bg-sepia-800 p-5">
-          <View className="flex-row items-center">
+        <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
+          <View className="flex-row items-center gap-1">
             <FontAwesome6
               name="gear"
               size={15}
@@ -120,8 +120,8 @@ export const Notifications = () => {
 
   return (
     <SafeAreaView className="flex-1">
-      <ScrollView className="px-5 bg-sepia-200 dark:bg-sepia-800 h-full">
-        <View className="flex-row items-center">
+      <ScrollView className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
+        <View className="flex-row items-center gap-1">
           <FontAwesome6
             name="gear"
             size={15}

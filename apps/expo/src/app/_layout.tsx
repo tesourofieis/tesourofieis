@@ -53,7 +53,7 @@ export default function PageRootLayout() {
           size={48}
           color={burgundy[500]}
         />
-        <Text className="text-burgundy-700 dark:text-burgundy-300 text-center mt-4 text-pretty text-lg">
+        <Text className="text-burgundy-700 dark:text-burgundy-300 text-center mt-4 font-serif text-lg">
           Erro ao carregar fontes
         </Text>
         <Text className="text-sepia-600 dark:text-sepia-400 text-center mt-2">
@@ -210,13 +210,13 @@ const Breadcrumbs = () => {
           key={`${segment}-${index}`}
         >
           {index !== 0 && (
-            <Text className="text-pretty text-xs text-sepia-700 dark:text-sepia-300">
+            <Text className="font-serif text-xs text-sepia-700 dark:text-sepia-300">
               /
             </Text>
           )}
 
           {index === segments.length - 1 ? (
-            <Text className="text-pretty text-xs text-sepia-700 dark:text-sepia-300">
+            <Text className="font-serif text-xs text-sepia-700 dark:text-sepia-300">
               {formatSegmentName(segment)}
             </Text>
           ) : (
@@ -228,7 +228,7 @@ const Breadcrumbs = () => {
                 )
               }
             >
-              <Text className="text-pretty text-xs text-sepia-600 dark:text-sepia-400 underline">
+              <Text className="font-serif text-xs text-sepia-600 dark:text-sepia-400 underline">
                 {formatSegmentName(segment)}
               </Text>
             </Pressable>
@@ -280,7 +280,7 @@ const Header = ({ withBC }: { withBC: boolean }) => {
       >
         <View className="flex-row items-center gap-3">
           <FontAwesome6 name="book-bible" size={25} color={burgundy[500]} />
-          <Text className="h5 text-sepia-800 dark:text-sepia-200 text-pretty">
+          <Text className="h5 text-sepia-800 dark:text-sepia-200 font-serif">
             Tesouro dos Fiéis
           </Text>
         </View>

@@ -23,6 +23,7 @@ import { useCalendar } from "~/providers/calendar";
 
 export default function PageRender() {
   const { day, date } = useCalendar();
+  const router = useRouter();
 
   const colorScheme = useColorScheme();
 
@@ -37,11 +38,9 @@ export default function PageRender() {
 
   const currentPrayer = getPrayer(date);
 
-  const router = useRouter();
-
   return (
     <ScrollView>
-      <View className="bg-sepia-700">
+      <View className="bg-sepia-300 dark:bg-sepia-700">
         <Text className="font-serif text-sm p-3 text-center text-sepia-300">
           Em Portugal se conservará sempre o dogma da fé - Nossa Senhora de
           Fátima
@@ -57,100 +56,98 @@ export default function PageRender() {
         </Text>
       </View>
 
-      <PageWrapper>
-        <View className="flex flex-row justify-center my-5 mx-5 gap-5">
-          <Pressable
-            className="shadow-sm border-sepia-700 dark:border-red-200 bg-sepia-100 dark:bg-sepia-800 active:bg-sepia-200 dark:active:bg-sepia-700 m-2 rounded-xl border px-4 py-3"
-            onPress={() => router.navigate("/devocionario/introducao")}
-          >
-            <Text className="text-pretty text-sepia-800 dark:text-sepia-200 text-center">
-              Introdução
-            </Text>
-          </Pressable>
+      <View className="flex flex-row justify-center my-5 mx-5 gap-5">
+        <Pressable
+          className="shadow-sm bg-sepia-100 dark:bg-sepia-800 active:bg-sepia-200 dark:active:bg-sepia-700 m-2 rounded-xl px-4 py-3"
+          onPress={() => router.navigate("/devocionario/introducao")}
+        >
+          <Text className="text-pretty text-sepia-800 dark:text-sepia-200 text-center">
+            Introdução
+          </Text>
+        </Pressable>
 
-          <Pressable
-            onPress={() => router.navigate("/devocionario/rosario")}
-            className="shadow-sm border-sepia-700 dark:border-sepia-300 bg-sepia-800 dark:bg-sepia-200 active:bg-sepia-700 dark:active:bg-sepia-300 m-2 rounded-xl border px-4 py-3"
-          >
-            <Text className="text-pretty text-sepia-200 dark:text-sepia-900 text-center">
-              Rosário
-            </Text>
-          </Pressable>
+        <Pressable
+          className="shadow-sm bg-sepia-100 dark:bg-sepia-800 active:bg-sepia-200 dark:active:bg-sepia-700 m-2 rounded-xl px-4 py-3"
+          onPress={() => router.navigate("/devocionario/rosario")}
+        >
+          <Text className="text-pretty text-sepia-900 text-center">
+            Rosário
+          </Text>
+        </Pressable>
+      </View>
+
+      <View className="border-t border-sepia mt-2" />
+      <View className="px-5">
+        <View className="flex-row items-center">
+          <FontAwesome6
+            name="calendar"
+            size={15}
+            color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+          />
+          <Text className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
+            {format(date, "EEEE, dd MMMM", {
+              locale: pt,
+            })}
+          </Text>
         </View>
 
-        <View className="border-t border-sepia mt-2" />
-        <View className="px-5">
-          <View className="flex-row items-center">
-            <FontAwesome6
-              name="calendar"
-              size={15}
-              color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-            />
-            <Text className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
-              {format(date, "EEEE, dd MMMM", {
-                locale: pt,
-              })}
-            </Text>
-          </View>
+        {day.mass?.map((item) => (
+          <LinkCard key={item.id} mass={item} />
+        ))}
+      </View>
 
-          {day.mass?.map((item) => (
-            <LinkCard key={item.id} mass={item} />
-          ))}
+      <View className="border-t border-sepia mt-2" />
+
+      <View className="px-5">
+        <View className="flex-row items-center">
+          <FontAwesome6
+            name="clock"
+            size={15}
+            color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+          />
+          <Text className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
+            {format(date, "HH:mm", {
+              locale: pt,
+            }).toUpperCase()}
+          </Text>
         </View>
 
-        <View className="border-t border-sepia mt-2" />
+        {currentPrayer.isAngelus && (
+          <LinkCard
+            oratio={{ link: "/devocionario/dia/angelus", name: "Angelus" }}
+            description="Hora do Angelus"
+          />
+        )}
 
-        <View className="px-5">
-          <View className="flex-row items-center">
-            <FontAwesome6
-              name="clock"
-              size={15}
-              color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-            />
-            <Text className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
-              {format(date, "HH:mm", {
-                locale: pt,
-              }).toUpperCase()}
-            </Text>
-          </View>
+        {currentPrayer.isMorning && (
+          <LinkCard
+            oratio={{
+              link: "/devocionario/dia/oracaomanha",
+              name: "Oração da Manhã",
+            }}
+            description="Orações do dia"
+          />
+        )}
 
-          {currentPrayer.isAngelus && (
-            <LinkCard
-              oratio={{ link: "/devocionario/dia/angelus", name: "Angelus" }}
-              description="Hora do Angelus"
-            />
-          )}
+        {currentPrayer.isNight && (
+          <LinkCard
+            oratio={{
+              link: "/devocionario/dia/oracaonoite",
+              name: "Oração da Noite",
+            }}
+            description="Orações do dia"
+          />
+        )}
 
-          {currentPrayer.isMorning && (
-            <LinkCard
-              oratio={{
-                link: "/devocionario/dia/oracaomanha",
-                name: "Oração da Manhã",
-              }}
-              description="Orações do dia"
-            />
-          )}
+        <Office />
+        <Novenas />
+      </View>
 
-          {currentPrayer.isNight && (
-            <LinkCard
-              oratio={{
-                link: "/devocionario/dia/oracaonoite",
-                name: "Oração da Noite",
-              }}
-              description="Orações do dia"
-            />
-          )}
+      <View className="border-t border-sepia mt-2" />
 
-          <Office />
-          <Novenas />
-        </View>
+      <LiturgicalSeason />
 
-        <View className="border-t border-sepia mt-2" />
-
-        <LiturgicalSeason />
-
-        <ExternalLinks />
-      </PageWrapper>
+      <ExternalLinks />
     </ScrollView>
   );
 }

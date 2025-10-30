@@ -76,7 +76,7 @@ export const DefaultLanguageSelector = () => {
 
   return (
     <View className="py-3 my-3 border-b border-sepia-300 dark:border-sepia-700">
-      <View className="flex-row items-center mb-3">
+      <View className="flex-row items-center mb-3 gap-1">
         <FontAwesome6
           name="language"
           size={15}

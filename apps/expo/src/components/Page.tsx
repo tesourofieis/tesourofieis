@@ -5,7 +5,7 @@ import { Platform, ScrollView, View } from "react-native";
 import { ScrollView as GestureScrollView } from "react-native-gesture-handler";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { PageProvider, useIsNested } from "~/providers/page";
-import { FontProvider, useFontContext } from "~/providers/fonts";
+import { useFontContext } from "~/providers/fonts";
 
 type PageWrapperProps = {
   children: React.ReactNode;
@@ -57,11 +57,7 @@ export default function PageWrapper({ children }: PageWrapperProps) {
     }
   };
 
-  const contentWithFontSize = (
-    <FontProvider>
-      <PageContent>{children}</PageContent>
-    </FontProvider>
-  );
+  const contentWithFontSize = <PageContent>{children}</PageContent>;
 
   if (isNested) {
     return <PageProvider>{contentWithFontSize}</PageProvider>;

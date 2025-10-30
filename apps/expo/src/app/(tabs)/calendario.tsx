@@ -56,15 +56,24 @@ export default function SimpleLiturgicalList() {
       return { start, end };
     } else {
       let last = firstToday;
-      while (last + 1 < allMasses.length && allMasses[last + 1].date === todayString) last++;
+      while (
+        last + 1 < allMasses.length &&
+        allMasses[last + 1].date === todayString
+      )
+        last++;
       // mostra as missas de hoje; se demasiadas, limita em LOAD_MORE_COUNT
       const start = Math.max(0, firstToday - Math.floor(LOAD_MORE_COUNT / 3));
-      const end = Math.min(allMasses.length - 1, last + Math.floor(LOAD_MORE_COUNT / 3));
+      const end = Math.min(
+        allMasses.length - 1,
+        last + Math.floor(LOAD_MORE_COUNT / 3)
+      );
       return { start, end };
     }
   }, [allMasses, todayString]);
 
-  const [window, setWindow] = useState<{ start: number; end: number }>(initialWindow);
+  const [window, setWindow] = useState<{ start: number; end: number }>(
+    initialWindow
+  );
 
   const listRef = useRef<FlatList<MassWithDate> | null>(null);
 
@@ -114,10 +123,30 @@ export default function SimpleLiturgicalList() {
   const renderItem = ({ item }: ListRenderItemInfo<MassWithDate>) => {
     if (LinkCard) return <LinkCard mass={item.mass} />;
     return (
-      <View style={{ padding: 12, borderBottomWidth: 1, borderColor: "#eee", backgroundColor: "white" }}>
+      <View
+        style={{
+          padding: 12,
+          borderBottomWidth: 1,
+          borderColor: "#eee",
+          backgroundColor: "white",
+        }}
+      >
         <Text style={{ fontWeight: "700" }}>{item.mass.name}</Text>
-        <Text style={{ color: "#666", marginTop: 4 }}>{item.mass.local ?? ""}</Text>
-        <Text style={{ color: "#999", marginTop: 4 }}>{format(new Date(`${item.date.slice(0, 4)}-${item.date.slice(4, 6)}-${item.date.slice(6, 8)}`), "dd/MM/yyyy", { locale: pt })}</Text>
+        <Text style={{ color: "#666", marginTop: 4 }}>
+          {item.mass.local ?? ""}
+        </Text>
+        <Text style={{ color: "#999", marginTop: 4 }}>
+          {format(
+            new Date(
+              `${item.date.slice(0, 4)}-${item.date.slice(
+                4,
+                6
+              )}-${item.date.slice(6, 8)}`
+            ),
+            "dd/MM/yyyy",
+            { locale: pt }
+          )}
+        </Text>
       </View>
     );
   };
@@ -125,7 +154,11 @@ export default function SimpleLiturgicalList() {
   // onScroll: se perto do topo, pede mais (com guardas)
   const handleScroll = (e: NativeSyntheticEvent<NativeScrollEvent>) => {
     const offsetY = e.nativeEvent.contentOffset.y;
-    if (offsetY < 120 && !isLoadingRef.current && Date.now() - lastLoadAt.current > 300) {
+    if (
+      offsetY < 120 &&
+      !isLoadingRef.current &&
+      Date.now() - lastLoadAt.current > 300
+    ) {
       if (window.start > 0) loadMorePast();
     }
   };
@@ -136,7 +169,7 @@ export default function SimpleLiturgicalList() {
   };
 
   return (
-    <View style={{ flex: 1, backgroundColor: "#fbf7f3" }}>
+    <View className="p-3">
       <FlatList
         ref={(r) => (listRef.current = r)}
         data={rendered}
@@ -153,8 +186,13 @@ export default function SimpleLiturgicalList() {
         windowSize={11}
         ListEmptyComponent={
           <View style={{ padding: 20, alignItems: "center" }}>
-            <Text style={{ color: "#6b5f57", marginBottom: 8 }}>Hoje não tem missas registadas.</Text>
-            <Text style={{ color: "#999" }}>Carrega "Carregar mais antigas" ou "Mostrar tudo" para ver outras datas.</Text>
+            <Text style={{ color: "#6b5f57", marginBottom: 8 }}>
+              Hoje não tem missas registadas.
+            </Text>
+            <Text style={{ color: "#999" }}>
+              Carrega "Carregar mais antigas" ou "Mostrar tudo" para ver outras
+              datas.
+            </Text>
           </View>
         }
       />

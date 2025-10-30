@@ -1,7 +1,7 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import * as Clipboard from "expo-clipboard";
 import * as WebBrowser from "expo-web-browser";
-import { Pressable, Text, View } from "react-native";
+import { Pressable, Text, useColorScheme, View } from "react-native";
 import { COLORS } from "~/constants/Colors";
 
 interface ExternalLink {
@@ -61,13 +61,14 @@ export const openExternalLink = async (link: string) => {
 };
 
 export default function ExternalLinks() {
+  const colorScheme = useColorScheme();
   return (
-    <View className="flex-col gap-4 mt-2 p-4 bg-sepia-900 border-t">
+    <View className="flex-col gap-4 mt-2 p-4 border-t">
       {externalLinks.map((link) => (
         <Pressable
           key={link.name}
           onPress={() => openExternalLink(link.url)}
-          className="flex-col items-start py-2 px-3 gap-1 rounded-xl bg-sepia-800 border border-sepia-700 active:bg-sepia-700"
+          className="flex-col items-start py-2 px-3 gap-1 rounded-xl border border-sepia-700 active:bg-sepia-700"
           accessibilityLabel={`${link.title}: ${link.desc}`}
           accessibilityRole="link"
         >
@@ -77,7 +78,7 @@ export default function ExternalLinks() {
                 <FontAwesome6
                   name={link.icon}
                   size={20}
-                  color={COLORS["200"]}
+                  color={colorScheme === "dark" ? COLORS["200"] : COLORS["800"]}
                 />
               </View>
               <Text className="text-sm text-pretty text-sepia-300">
