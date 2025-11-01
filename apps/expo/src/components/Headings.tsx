@@ -60,7 +60,7 @@ export function H1({ text, id, className = "" }: HeadingProps) {
   return (
     <Text
       nativeID={anchorId}
-      className={`font-display text-center text-sepia-800 dark:text-sepia-200 py-6 ${H1_SIZE[fontSize]} ${className}`}
+      className={`font-display text-center text-red-500 py-6 ${H1_SIZE[fontSize]} ${className}`}
       // Depuração temporária: Força a fonte via inline para testar carregamento.
       // style={{ fontFamily: 'DMSerifDisplay_400Regular' }} — Remove após sucesso.
       // Razão: Se inline funcionar mas classe não, o @utility falha; ajusta nome exato.

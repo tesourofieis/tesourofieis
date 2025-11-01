@@ -95,7 +95,9 @@ export default function PageLinkCard({
               <View className="flex flex-row justify-between items-center gap-1 mr-2">
                 <View className="flex-1">
                   <View className="px-3 flex flex-row items-center gap-2">
-                    <FontAwesome name="circle" color={getColor(mass.color)} />
+                    <Text>
+                      <FontAwesome name="circle" color={getColor(mass.color)} />
+                    </Text>
                     <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-200">
                       {description || "Missa"}
                     </Text>

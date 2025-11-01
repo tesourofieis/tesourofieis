@@ -9,7 +9,7 @@ export default function PageViasacra() {
   return (
     <PageWrapper>
       <H1 text="Via Sacra" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Meu Senhor e meu Deus, sob o olhar amoroso de Nossa Mãe, dispomo-nos a
         acompanhar-Vos pelo caminho de dor que foi o preço do nosso resgate.
         Queremos sofrer tudo o que Vós sofrestes, oferecer-Vos o nosso pobre
@@ -81,7 +81,7 @@ export default function PageViasacra() {
         style={{ height: 400 }}
       />
       <H3 text="Jesus é condenado à morte" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Nesta primeira estação contemplemos N. S. J. C., que, depois de
         cruelmente açoitado e coroado de espinhos, é levado pela segunda vez à
         presença de Pilatos, que por instigação dos judeus O condena à morte. E
@@ -98,7 +98,7 @@ export default function PageViasacra() {
         style={{ height: 400 }}
       />
       <H3 text="Jesus leva a Cruz aos ombros" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Nesta segunda estação contemplemos N. S. J. C., tratado com desprezo
         pelos algozes, que O obrigam a levar às costas, sobre as chagas vivas
         dos açoites, a pesadíssima Cruz em que vai ser crucificado para nos
@@ -114,7 +114,7 @@ export default function PageViasacra() {
         style={{ height: 400 }}
       />
       <H3 text="Jesus cai sob o peso da Cruz" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Nesta terceira estação contemplemos N. S. J. C., arrastado e empurrado
         pelos algozes! Então cai sob o peso da Cruz e fere os joelhos nas pedras
         do caminho!... Ó misericordiosíssimo Jesus, pelas vossas chagas,
@@ -130,7 +130,7 @@ export default function PageViasacra() {
         style={{ height: 400 }}
       />
       <H3 text="Jesus encontra sua Mãe" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Nesta quarta estação contemplemos N. S. J. C., rodeado de seus inimigos
         e todo pisado e ensanguentado. Encontra sua Mãe, que num impulso de amor
         e dor corre pare Ele através da multidão, que cruelmente O escarnece e
@@ -146,7 +146,7 @@ export default function PageViasacra() {
         style={{ height: 400 }}
       />
       <H3 text="Simão ajuda Jesus a levar a Cruz" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Nesta quinta estação contemplemos N. S. J. C., vergado sob o peso da
         Cruz e atormentado com as dores da grande chaga que ela abriu em seu
         ombro. Mal se mexe; já não pode caminhar; e os algozes, temendo que
@@ -163,7 +163,7 @@ export default function PageViasacra() {
         style={{ height: 400 }}
       />
       <H3 text="Verónica enxuga a Face de Jesus" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Nesta sexta estação contemplemos N. S. J. C., que deixa seu retracto
         estampando no véu que uma caridosa mulher Lhe ofereceu, para limpar o
         rosto do suor e sangue que Lhe toldavam a vista!... Ó
@@ -180,7 +180,7 @@ export default function PageViasacra() {
         style={{ height: 400 }}
       />
       <H3 text="Segunda queda de Jesus" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Nesta sétima estação contemplemos N. S. J. C., exausto de forças,
         desfalecido e caído por terra, atordoado pela algazarra infernal da
         plebe, que O insulta e Lhe escarra no rosto. Os algozes, impacientes por
@@ -197,7 +197,7 @@ export default function PageViasacra() {
         style={{ height: 400 }}
       />
       <H3 text="Jesus conforta as mulheres de Jerusalém" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Nesta oitava estação contemplemos N. S. J. C., que esquece as suas dores
         para se compadecer das piedosas mulheres, que por Ele choram, e lhes
         diz: Filhas de Jerusalém, não choreis sobre Mim; chorai sobre vós mesmas
@@ -214,7 +214,7 @@ export default function PageViasacra() {
         style={{ height: 400 }}
       />
       <H3 text="Terceira queda de Jesus" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Nesta nona estação contemplemos N. S. J. C., que chega ao Calvários,
         banhado em sangue, e mais morto que vivo; e, não podendo aguentar de pé
         os empurrões e pancadas que Lhe dão os algozes, cai desamparado e chega
@@ -231,7 +231,7 @@ export default function PageViasacra() {
         style={{ height: 400 }}
       />
       <H3 text="Jesus é despojado dos vestidos" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Nesta décima estação contemplemos N. S. J. C., cruelmente despojado de
         seus vestidos, que estavam colados às feridas, as quais novamente
         sangram, fazendo-o tremer com dores!... Ó misericordiosíssimo Jesus,
@@ -247,7 +247,7 @@ export default function PageViasacra() {
         style={{ height: 400 }}
       />
       <H3 text="Jesus é pregado da Cruz" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Nesta décima primeira estação contemplemos N. S. J. C., pregado na Cruz
         tão barbaramente que Lhe deslocam os ossos. Maria Santíssima, com o
         coração despedaçado de dor, ouve as pancadas do martelo que enterram os
@@ -263,7 +263,7 @@ export default function PageViasacra() {
         style={{ height: 400 }}
       />
       <H3 text="Morte de Jesus" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Nesta décima segunda estação contemplemos N. S. J. C., levantado na Cruz
         e exposto entre dois ladrões ao escárnio e insultos da plebe, até exalar
         o último suspiro!... Ó clementíssimo Jesus, que Vos abrasais em ardente
@@ -281,7 +281,7 @@ export default function PageViasacra() {
         style={{ height: 400 }}
       />
       <H3 text="Jesus é descido da Cruz e entregue a sua Mãe" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Nesta décima terceira estação contemplemos N. S. J. C., despregado
         piedosamente da Cruz pelos seus amigos e depositado no regaço de sua
         Mãe, que, banhada em lágrimas, beija e abraça o corpo de seu Filho,
@@ -302,7 +302,7 @@ export default function PageViasacra() {
         style={{ height: 400 }}
       />
       <H3 text="Jesus é sepultado" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Nesta décima quarta estação contemplemos N. S. J. C. no sepulcro, e
         Maria Santíssima mais que nunca angustiada em triste saudade!... Ó Mãe,
         fonte de amor, fazei que eu sinta as vossas fortes dores e convosco

@@ -142,8 +142,11 @@
     scrollbar-color: theme(colors.sepia.900) theme(colors.sepia.800);
   }
   .text-sepia {
-    font-family: var(--font-family-serif);
     @apply text-sepia-900 dark:text-sepia-100;
+  }
+
+  .text-sepia-invert {
+    @apply dark:text-sepia-900 text-sepia-100;
   }
   .border-sepia {
     @apply border-sepia-200 dark:border-sepia-700;
@@ -168,7 +171,14 @@
   .list-styled {
     @apply p-2;
   }
-  .text-pretty,
+  .text-pretty {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    font-family: var(--font-family-serif);
+    @apply py-2 px-3;
+    text-rendering: optimizeLegibility;
+  }
+
   .latin,
   .vernacular {
     font-size: var(--font-size-base);
@@ -179,7 +189,6 @@
   }
   .font-serif {
     font-family: var(--font-family-serif);
-    @apply text-sepia-900 dark:text-sepia-100;
   }
   .cross {
     @apply text-burgundy-500;

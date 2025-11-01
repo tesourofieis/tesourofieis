@@ -8,12 +8,12 @@ export default function PageLentaecalma() {
       <H1 text="Lenta e calma sobre a terra" />
 
       <View className="not-content">
-        <Text className="text-pretty">
+        <Text className="vernacular">
           Lenta e calma sobre a terra desce a noite, vai-se a luz, Quero agora
           despedir-me, boa noite meu Jesus.
         </Text>
-        <Text className="text-pretty">{"\n"}</Text>
-        <Text className="text-pretty">
+        <Text className="vernacular">{"\n"}</Text>
+        <Text className="vernacular">
           E vós ó Virgem Maria, dai-nos a bênção também velai por nós esta
           noite, Boa noite minha Mãe.
         </Text>

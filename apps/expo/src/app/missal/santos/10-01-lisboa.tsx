@@ -16,14 +16,14 @@ export default function Page1001Lisboa() {
         , excepto:
       </Text>
       <H3 text="Oração" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó Deus, que permitistes assistíssemos a esta festa dos vossos Santos
         Mártires Veríssimo, Máximo e Júlia, concedei-nos, Vos suplicamos, que,
         celebrando o seu nascimento no céu, nos enchamos de zelo com seus
         exemplos. Por nosso Senhor...
       </Text>
       <H3 text="Gradual" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Deus é glorioso em seus Santos, e admirável na sua majestade, praticando
         prodígios. Senhor, a vossa dextra engrandeceu-se pela sua força: a vossa
         dextra esmagou os inimigos. Aleluia, aleluia. Esta é a verdadeira

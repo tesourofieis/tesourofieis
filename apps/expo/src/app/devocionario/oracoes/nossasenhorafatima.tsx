@@ -6,7 +6,7 @@ export default function PageNossasenhorafatima() {
   return (
     <PageWrapper>
       <H1 text="Oração a Nossa Senhora de Fátima" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Virgem Imaculada, que pelo vosso Santo Rosário extinguistes outrora no
         seio da Igreja a nefasta heresia dos albigenses, por ele libertastes a
         cristandade do perigo muçulmano e robustecestes a piedade dos fiéis,

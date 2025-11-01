@@ -6,7 +6,7 @@ export default function PagePureza() {
   return (
     <PageWrapper>
       <H1 text="Pureza" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Dulcíssimo Menino Jesus, Cordeiro imaculado, cheio de bondade,
         misericórdia e amor! Para nos restituirdes a santa inocência, vieste do
         céu à terra, sofrestes pobreza e perseguições. Eu Vos agradeço e Vos amo

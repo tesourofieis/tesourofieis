@@ -11,7 +11,7 @@ export default function PageConsagracaopessoalcristo() {
         Creator Spíritus e a Ave Maris Stella, deve-se ler o Santo Evangelho e a
         Imitação de Cristo, assim como rezar o terço.
       </Text>
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó sabedoria eterna e encarnada! Ó Amabilíssimo e adorável Jesus,
         verdadeiro Deus e verdadeiro homem, Filho Unigénito do Pai Eterno e da
         sempre Virgem Maria. Adoro-Vos profundamente, no seio e nos esplendores

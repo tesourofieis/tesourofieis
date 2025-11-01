@@ -15,14 +15,14 @@ export default function Page0426Braga() {
         , excepto:
       </Text>
       <H3 text="Oração" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó Deus, que consagrastes este dia com o martírio do B. Pedro, vosso
         Mártir e Pontífice, concedei à vossa Igreja Bracarense a graça de seguir
         em todas as coisas os gloriosos vestígios daquele por cujo ministério
         ela recebeu as primícias da fé. Por nosso Senhor...
       </Text>
       <H3 text="Evangelho" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Continuação do santo Evangelho segundo S. João. Naquele tempo, disse
         Jesus aos fariseus: «Eu sou o bom Pastor. O bom Pastor dá a vida pelas
         ovelhas. Porém, o mercenário, que não é pastor e a quem as ovelhas não
@@ -36,13 +36,13 @@ export default function Page0426Braga() {
         não haja senão um só aprisco e um só Pastor».
       </Text>
       <H3 text="Secreta" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Santificai, Senhor, os dons que Vos oferecemos, e pela intercessão do B.
         Pedro, vosso Mártir e Pontífice, e em virtude desses dons, purificai-nos
         de todas as manchas dos nossos pecados. Por nosso Senhor...
       </Text>
       <H3 text="Postcomúnio" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Que esta solenidade, que celebramos com estes celestiais mystérios em
         honra do B. Pedro, vosso Mártir e Pontífice, ó Deus omnipotente, nos
         alcance o perdão da vossa misericórdia. Por nosso Senhor...

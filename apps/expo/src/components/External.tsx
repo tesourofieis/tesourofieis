@@ -1,8 +1,37 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import * as Clipboard from "expo-clipboard";
 import * as WebBrowser from "expo-web-browser";
-import { Pressable, Text, useColorScheme, View } from "react-native";
+import {
+  Pressable,
+  Text,
+  useColorScheme,
+  View,
+  Platform,
+  ToastAndroid,
+  Alert,
+  ScrollView,
+} from "react-native";
+import { burgundy } from "config";
 import { COLORS } from "~/constants/Colors";
+import { cardBase } from "./LinkCard";
+import type { GestureResponderEvent } from "react-native";
+
+export function getColor(color?: string) {
+  switch (color) {
+    case "w":
+      return "white";
+    case "r":
+      return burgundy[500];
+    case "g":
+      return "green";
+    case "v":
+      return "violet";
+    case "b":
+      return "black";
+    default:
+      return "gray";
+  }
+}
 
 interface ExternalLink {
   name: string;
@@ -56,58 +85,106 @@ const copyToClipboard = async (text: string) => {
   await Clipboard.setStringAsync(text);
 };
 
+const showCopiedFeedback = (
+  message = "Copiado para a área de transferência"
+) => {
+  if (Platform.OS === "android") {
+    ToastAndroid.show(message, ToastAndroid.SHORT);
+  } else {
+    Alert.alert("", message);
+  }
+};
+
 export const openExternalLink = async (link: string) => {
-  await WebBrowser.openBrowserAsync(link);
+  try {
+    await WebBrowser.openBrowserAsync(link);
+  } catch (err) {
+    // opcional: lidar com erro de abertura do browser
+    console.warn("Erro ao abrir link:", err);
+  }
 };
 
 export default function ExternalLinks() {
   const colorScheme = useColorScheme();
+
   return (
-    <View className="flex-col gap-4 mt-2 p-4 border-t">
+    <ScrollView className="gap-1 mt-1 p-4 border-t">
       {externalLinks.map((link) => (
         <Pressable
           key={link.name}
           onPress={() => openExternalLink(link.url)}
-          className="flex-col items-start py-2 px-3 gap-1 rounded-xl border border-sepia-700 active:bg-sepia-700"
+          className="w-full"
           accessibilityLabel={`${link.title}: ${link.desc}`}
           accessibilityRole="link"
         >
-          <View className="flex-row justify-between w-full">
-            <View className="flex-row items-center">
-              <View className="ml-3">
-                <FontAwesome6
-                  name={link.icon}
-                  size={20}
-                  color={colorScheme === "dark" ? COLORS["200"] : COLORS["800"]}
-                />
+          {({ pressed }) => (
+            <View className={cardBase(pressed)}>
+              <View className="flex flex-row justify-between items-center gap-1 mr-2">
+                <View className="flex-1">
+                  <View className="flex text-pretty flex-row items-center gap-2">
+                    <FontAwesome6
+                      name={link.icon}
+                      size={16}
+                      color={
+                        colorScheme === "dark" ? COLORS["200"] : COLORS["800"]
+                      }
+                    />
+                    <Text className="text-lg font-serif text-sepia-600 dark:text-sepia-300">
+                      {link.title}
+                    </Text>
+                  </View>
+
+                  <View className="flex flex-row">
+                    <Text
+                      className="text-pretty text-xs text-sepia-600 dark:text-sepia-200"
+                      numberOfLines={1}
+                    >
+                      {link.desc}
+                    </Text>
+                  </View>
+
+                  {link.copyValue && (
+                    <View className="flex-row items-center gap-2 mt-1">
+                      {/* Important: stopPropagation to avoid opening the external link when pressing copy */}
+                      <Pressable
+                        onPress={async (e: GestureResponderEvent) => {
+                          // evita que o Pressable pai seja acionado
+                          e.stopPropagation?.();
+                          try {
+                            await copyToClipboard(link.copyValue as string);
+                            showCopiedFeedback();
+                          } catch (err) {
+                            console.warn("Erro ao copiar:", err);
+                            showCopiedFeedback("Erro ao copiar");
+                          }
+                        }}
+                        accessibilityRole="button"
+                        accessibilityLabel={`Copiar ${link.name}`}
+                      >
+                        <View className="flex-row gap-2 items-center text-xs text-sepia bg-sepia-900 dark:bg-sepia-100 rounded-xl p-1 pr-1 ml-2">
+                          <Text
+                            className="p-1 font-mono text-xs"
+                            numberOfLines={1}
+                            ellipsizeMode="middle"
+                          >
+                            {link.copyValue}
+                          </Text>
+
+                          <FontAwesome6
+                            name="copy"
+                            size={12}
+                            color={COLORS[500]}
+                          />
+                        </View>
+                      </Pressable>
+                    </View>
+                  )}
+                </View>
               </View>
-              <Text className="text-sm text-pretty text-sepia-300">
-                {link.title}
-              </Text>
             </View>
-          </View>
-          <Text className="text-xs text-pretty text-sepia-400">
-            {link.desc}
-          </Text>
-          {link.copyValue && (
-            <Pressable
-              onPress={() => copyToClipboard(link.copyValue as string)}
-              className="mt-1 py-1 px-2 bg-sepia-600 rounded-xl active:bg-sepia-500 w-full"
-            >
-              <View className="flex-row items-center justify-between">
-                <Text
-                  className="text-xs font-mono text-sepia-200"
-                  numberOfLines={1}
-                  ellipsizeMode="middle"
-                >
-                  {link.copyValue}
-                </Text>
-                <FontAwesome6 name="copy" size={12} color={COLORS["400"]} />
-              </View>
-            </Pressable>
           )}
         </Pressable>
       ))}
-    </View>
+    </ScrollView>
   );
 }

@@ -6,7 +6,7 @@ export default function PageExercitoalmas() {
   return (
     <PageWrapper>
       <H1 text="Exército de Almas" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Majestade Divina, Senhor da vida e da morte, dos que Vos amam e dos que
         Vos perseguem! Por intercessão da Santíssima Virgem de Fátima, Rainha da
         Paz e nossa Mãe, Vos pedimos que não deixeis a nossa Pátria onde Maria

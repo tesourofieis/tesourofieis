@@ -6,7 +6,7 @@ export default function PageObjectosperdidos() {
   return (
     <PageWrapper>
       <H1 text="Objectos Perdidos, Santo António" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Eu, vos saúdo, glorioso Santo António, fiel protector dos que em vós
         esperam. Já que recebestes de Deus o poder especial de fazer achar os
         objectos perdidos, socorrei-me neste momento, a fim de que, mediante

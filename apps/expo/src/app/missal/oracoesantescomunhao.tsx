@@ -7,7 +7,7 @@ export default function PageOracoesantescomunhao() {
     <PageWrapper>
       <H1 text="Orações antes da Comunhão" />
       <H3 text="Acto de Fé" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Meu Senhor e Deus, creio que estais verdadeira, real e substancialmente
         presente, na Hóstia Consagrada, com vosso Corpo, Sangue, Alma e
         Divindade, como estais no céu! Creio-o firmemente, porque Vós, que sois
@@ -18,7 +18,7 @@ export default function PageOracoesantescomunhao() {
         manter até à morte!
       </Text>
       <H3 text="Acto de Humildade" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Reconheço e confesso, ó meu Deus, que sou uma miserável criatura,
         indigna das vossas graças, e, mais do que ninguém, de Vos receber na
         Hóstia Consagrada, onde estais por amor de mim. E reconheço e confesso
@@ -30,7 +30,7 @@ export default function PageOracoesantescomunhao() {
         serei curado».
       </Text>
       <H3 text="Acto de Desejo" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó Senhor Jesus, ó Deus do meu coração, ó Pão vivo descido do céu para
         alimento da minha alma, tenho o maior e o mais sincero desejo de Vos
         receber, e de viver convosco. Oh! vinde à minha alma! Vós, Senhor, sois
@@ -42,7 +42,7 @@ export default function PageOracoesantescomunhao() {
         Vos amar para sempre e sinceramente.. Amen.
       </Text>
       <H3 text="À B. Virgem Maria e aos Santos" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó Santíssima Senhora, Mãe de Deus e minha Mãe, alcançai-me a graça de
         receber o melhor possível a Sagrada Eucaristia. S. José, guarda fiel do
         Senhor Jesus que vai descer ao meu coração; Santo Anjo da minha guarda;

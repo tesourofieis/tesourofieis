@@ -16,7 +16,7 @@ export default function Page0416Braga() {
         , excepto:
       </Text>
       <H3 text="Oração" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó Deus, que nos fizestes chegar com júbilo até à festa deste dia, em que
         veneramos o B. Frutuoso, vosso Confessor e Pontífice, concedei-nos, Vos
         rogamos, que, assim como o acompanhamos na terra, sendo nosso Pastor,
@@ -24,7 +24,7 @@ export default function Page0416Braga() {
         Por nosso Senhor...
       </Text>
       <H3 text="Epístola" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Lição do Livro da Sabedoria. O justo aplicará o seu coração e vigiará
         desde o romper do dia para se unir ao Senhor, que o criou, e oferecer as
         suas preces ao Altíssimo. Abrirá a sua boca para orar e implorar o
@@ -39,7 +39,7 @@ export default function Page0416Braga() {
         sabedoria e a Igreja anunciará os seus louvores.
       </Text>
       <H3 text="Gradual" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Aleluia, aleluia. O Anjo do Senhor desceu do céu, e, revolvendo a pedra
         do sepulcro, assentou-se sobre ela. Aleluia. Tu és sacerdote para sempre
         segundo a ordem de Melquisedeque. Aleluia.
@@ -50,13 +50,13 @@ export default function Page0416Braga() {
         title="Mártires - Missa Sancti tui"
       />
       <H3 text="Secreta" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Permiti, ó Deus omnipotente e sempiterno, que os dons oferecidos à vossa
         majestade por intercessão do B. Frutuoso, vosso Confessor e pontífice,
         nos sirvam de perpétuo socorro. Por nosso Senhor...
       </Text>
       <H3 text="Postcomúnio" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó Deus omnipotente, Vos suplicamos, dando-Vos graças pelos dons já
         recebidos, fazei que alcancemos dons ainda maiores por intercessão do B.
         Frutuoso, vosso Confessor e Pontífice. Por nosso Senhor...

@@ -163,7 +163,7 @@ export default function PageQuad66() {
         </Text>
       </Language>
       <H3 text="Bênção do Círio Pascal" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         O Diácono pede a Bênção ao Celebrante e o Sacerdote:
       </Text>
       <Language>
@@ -1764,7 +1764,7 @@ export default function PageQuad66() {
         </Text>
       </Language>
       <H2 text="Bênção da Pia Baptismal" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Dirige-se agora a Procissão para a Pia Baptismal. Durante o percurso
         canta-se:
       </Text>

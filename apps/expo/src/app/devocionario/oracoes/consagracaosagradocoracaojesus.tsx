@@ -6,7 +6,7 @@ export default function PageConsagracaosagradocoracaojesus() {
   return (
     <PageWrapper>
       <H1 text="Consagração ao Sagrado Coração de Jesus" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó Dulcíssimo Jesus, ó Redentor do género humano, lançai um olhar sobre
         nós, humildemente prostrados diante do vosso Altar! Somos vossos e
         vossos queremos ser; e para podermos viver mais estreitamente unidos a

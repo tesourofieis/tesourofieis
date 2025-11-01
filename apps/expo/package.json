@@ -53,7 +53,6 @@
     "expo-updates": "~29.0.12",
     "expo-web-browser": "^15.0.8",
     "glob": "^11.0.3",
-    "gray-matter": "^4.0.3",
     "nativewind": "5.0.0-preview.2",
     "postcss": "^8.5.6",
     "react": "catalog:react19",

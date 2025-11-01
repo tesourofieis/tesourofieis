@@ -87,7 +87,7 @@ export default function PageOracaonoite() {
         </Text>
       </Language>
       <H3 text="Breve lição:" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Sede sóbrios e vigilantes, pois o demónio gira em torno de vós,
         procurando devorar-vos. Resisti-lhe, sendo fortes na fé. E Vós, Senhor,
         tende piedade de nós.
@@ -95,7 +95,7 @@ export default function PageOracaonoite() {
       <Text className="aside">
         Coloquemo-nos na presença de Deus e adoremo-Lo humildemente:
       </Text>
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Deus meu, Senhor dos céus e da terra! Eu aqui me prostro diante de Vós.
         Com todos os Anjos e Santos eu Vos adoro e Vos amo com todo o coração.
         Dou-Vos graças por me terdes criado, feito Cristão e conservado neste
@@ -104,7 +104,7 @@ export default function PageOracaonoite() {
         graça esteja sempre comigo e com os que me são caros.
       </Text>
       <Text className="aside">
-        <Text className="text-pretty">Em seguida rezar:</Text>
+        <Text className="vernacular">Em seguida rezar:</Text>
         <Link className="link" href="/devocionario/oracoes/painosso">
           Pai Nosso,
         </Link>{" "}
@@ -137,7 +137,7 @@ export default function PageOracaonoite() {
       <ActoCaridade />
       <H2 text="Acto de Contrição" />
       <ActoContricao />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Vos ofereço, Senhor minha vida, obras, e trabalhos em satisfação de
         todos meus pecados e assim como Vos suplico, assim confio em vossa
         bondade e misericórdia infinitas que mos perdoareis pelos méritos de
@@ -147,7 +147,7 @@ export default function PageOracaonoite() {
       </Text>
       <H2 text="Cântico Nunc Dimittis" />
       <NuncDimittis />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Visitai esta morada, Senhor, Vos suplicamos, e dignai-Vos afastar para
         bem longe dela todas as insídias do inimigo; que os vossos Anjos nela
         habitem para nos conservarem na paz, e que a vossa bênção nos guarde
@@ -160,7 +160,7 @@ export default function PageOracaonoite() {
         vossas asas e abençoai, Senhor, o meu repouso a fim de que renove as
         minhas forças, para melhor Vos servir e amar.
       </Text>
-      <Text className="text-pretty">
+      <Text className="vernacular">
         E que a paz e a bênção de Deus Todo-Poderoso, Pai, Filho
         <Text className="cross"> ✠ </Text> e Espírito Santo, desça sobre nós e
         permaneça para sempre connosco. Amen.

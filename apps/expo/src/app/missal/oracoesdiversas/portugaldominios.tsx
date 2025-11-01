@@ -12,7 +12,7 @@ export default function PagePortugaldominios() {
         em todas as Missas, excepto nas de Réquiem, a seguir à última Oração, à
         última Secreta e ao último Postcomúnio.
       </Text>
-      <Text className="text-pretty">
+      <Text className="vernacular">
         E livrai de todas as adversidades no ar, na terra e no mar os vossos
         servos: o nosso Papa
         <Text className="text-red-500">N.</Text> o nosso Patriarca{" "}

@@ -16,7 +16,7 @@ export default function PageAdoracao() {
 
       <Salutaris />
       <H1 text="Acto de Adoração" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Meu Senhor e meu Deus, creio que estais verdadeiramente, realmente e
         substancialmente nessa Hóstia Consagrada, como estais no céu! Creio-o,
         Senhor, porque Vós o disseste! Humildemente prostrado no abysmo do meu
@@ -190,12 +190,12 @@ export default function PageAdoracao() {
           o momento.
         </Text>
       </Language>
-      <Text className="text-pretty">
+      <Text className="vernacular">
         <Text className="em">Sl. 116</Text> Que todas as nações louvem o Senhor;
         que todos os povos O aclamem. Porquanto grandiosa é para connosco a sua
         misericórdia, e a fidelidade do Senhor permanecerá eternamente.
       </Text>
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Glória ao Pai, e ao Filho e ao Espírito Santo. Assim como era no
         princípio, agora e sempre, e por todos os séculos dos séculos.
       </Text>

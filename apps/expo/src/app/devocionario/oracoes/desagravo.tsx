@@ -6,7 +6,7 @@ export default function PageDesagravo() {
   return (
     <PageWrapper>
       <H1 text="Oração de Desagravo" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó Cruz adorável do meu amantíssimo Jesus!... Como vós sois bela!... Como
         vós faleis ao meu pobre coração!... De vós pendeu o meu Deus feito homem
         por meu amor!... Pregado em vós deu-me até à última gota o sangue

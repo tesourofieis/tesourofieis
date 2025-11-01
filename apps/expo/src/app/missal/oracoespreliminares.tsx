@@ -13,7 +13,7 @@ export default function PageOracoespreliminares() {
     <PageWrapper>
       <H1 text="Orações Preliminares" />
       <H1 text="Preparação para a Missa" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Antes de se Paramentar, o Sacerdote recita estas Preces:
       </Text>
       <Language>

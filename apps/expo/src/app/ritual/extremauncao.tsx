@@ -308,7 +308,7 @@ export default function PageExtremauncao() {
         Se o enfermo se encontra em necessidade extrema, o Sacerdote, fazendo
         uma só unção, dirá:
       </Text>
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Em virtude desta Unção, que o Senhor vos perdoe todas as faltas que
         cometestes. Amen.
       </Text>

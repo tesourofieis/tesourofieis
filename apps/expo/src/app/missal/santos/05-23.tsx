@@ -15,20 +15,20 @@ export default function Page0523() {
         , excepto:
       </Text>
       <H3 text="Oração" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Dignai-Vos acolher em vossa clemência, Senhor, Vos suplicamos, as preces
         do vosso povo, a fim de que sejamos auxiliados pelos méritos do B.
         Basileu, vosso Mártir e Pontífice, que nos conforta com a recordação dos
         seus sofrimentos. Por nosso Senhor...
       </Text>
       <H3 text="Secreta" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Recebei, Senhor, os dons que devidamente Vos oferecemos; e, tendo Vós em
         atenção os méritos do B. Basileu, vosso Mártir e Pontífice, permiti que
         nos sirvam de auxílio para alcançarmos a salvação. Por nosso Senhor...
       </Text>
       <H3 text="Postcomúnio" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Havendo Vós, Senhor, saciado a vossa família com os sacrossantos dons,
         confortai-nos constantemente, Vos suplicamos, com a intercessão daquele
         cuja solenidade celebramos. Por nosso Senhor...

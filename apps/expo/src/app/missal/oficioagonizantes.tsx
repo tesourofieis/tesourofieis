@@ -568,7 +568,7 @@ export default function PageOficioagonizantes() {
         Quando o moribundo está Prestes a expirar, diligenciar-se-á que ele
         diga:
       </Text>
-      <Text className="text-pretty">Jesus! Jesus! Jesus!</Text>
+      <Text className="vernacular">Jesus! Jesus! Jesus!</Text>
       <Text className="aside">
         Se ele não pode Pronunciar estes nomes, serão Proferidos por quem diz o
         Ofício da Agonia, de maneira que ele os ouça; e do mesmo modo se

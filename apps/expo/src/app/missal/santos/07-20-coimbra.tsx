@@ -8,7 +8,7 @@ export default function Page0720Coimbra() {
     <PageWrapper>
       <H1 text="Santa Colomba, Virgem e Mártir, a 20 de Julho, Na Diocese de Coimbra" />
       <H3 text="Intróito" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Quem me dará asas, como as da pomba! Então voarei e descansarei. Eis que
         me afastei, fugindo, e permaneci na solidão. Esperava Aquele que me
         salvou. Ouvi, ó Deus, a minha oração; não desprezeis a minha súplica;
@@ -16,7 +16,7 @@ export default function Page0720Coimbra() {
         Glória ao Pai...
       </Text>
       <H3 text="Oração" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó omnipotente e eterno Deus, olhai propício para a nossa fraqueza; e,
         assim como concedestes a fortaleza à B. Colomba, vossa Virgem, para
         suportar o martírio da Cruz, assim também, protegendo-nos com sua
@@ -29,7 +29,7 @@ export default function Page0720Coimbra() {
         title="Virgem não Mártir - Missa Vultum tuum"
       />
       <H3 text="Gradual" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         O meu inimigo arruinou as minhas veredas e afligiu-me até à desolação.
         Armou o seu arco, apontou-o para mim, como alvo da sua seta, e cravou
         nos meus rins as setas da sua aljava. Aleluia, aleluia. Suportei a dor
@@ -42,25 +42,25 @@ export default function Page0720Coimbra() {
         title="Virgens Mártires - Missa Loquébar"
       />
       <H3 text="Ofertório" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Nunca Deus permita que me glorie senão na Cruz de nosso Senhor Jesus
         Cristo, por quem o mundo está crucificado para mim e eu para o mundo.
       </Text>
       <H3 text="Secreta" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Senhor, que este sacrifício, que Vos é oferecido pelos auxílios dos
         méritos da B. Colomba, vossa Virgem e Mártir, nos conserve a vida e nos
         proteja. Por nosso Senhor...
       </Text>
       <H3 text="Comúnio" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ergue-te, minha amiga, minha única beleza, e vem. Ó minha pomba,
         escondida nas fendas das rochas e nas cavernas dos muros em ruínas,
         mostra-me o teu rosto e faz-me ouvir a tua voz. A tua voz é doce, o teu
         rosto é belo.
       </Text>
       <H3 text="Postcomúnio" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Pela participação que tivemos neste mystério, Senhor, confirmai os
         vossos servos na confissão da verdadeira fé, pela qual a B. Colomba não
         duvidou sofrer o martírio da Cruz e derramar o sangue. Por nosso

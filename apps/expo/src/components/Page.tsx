@@ -12,9 +12,9 @@ type PageWrapperProps = {
 };
 
 const PAGE_FONT_SIZE_CLASS = {
-  small: "text-base",
-  medium: "text-lg",
-  large: "text-xl",
+  small: "text-base text-sepia",
+  medium: "text-lg text-sepia",
+  large: "text-xl text-sepia",
 };
 function PageContent({ children }: { children: React.ReactNode }) {
   const { fontSize } = useFontContext();

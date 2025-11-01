@@ -6,7 +6,7 @@ export default function PageActoreparacao() {
   return (
     <PageWrapper>
       <H1 text="Acto de Reparação" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Com aquele profundíssimo respeito que a Fé me inspira, ó meu Deus e meu
         Salvador, Jesus Cristo, verdadeiro Deus e Homem, eu Vos adoro e amo com
         todo o coração no Augustíssimo Sacramento do Altar, em reparação de

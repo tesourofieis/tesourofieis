@@ -13,7 +13,7 @@ export default function PagePenitencia() {
         Presença de Deus, dirá:
       </Text>
       <H2 text="Oração" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Deus de bondade e de misericórdia, que estais sempre benignamente
         disposto a acolher os pecadores e a perdoar-lhes, dignai-Vos receber e
         atender a esta pobre alma que deseja lavar as suas nódoas nas águas
@@ -27,7 +27,7 @@ export default function PagePenitencia() {
       </Text>
       <H2 text="Exame de Consciência" />
       <H3 text="Oração" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Divino Espírito Santo, concedei-me a graça de conhecer todos meus
         pecados tão distintamente como os conhecerei quando, ao terminar os dias
         nesta vida, tiver de comparecer diante de Vós, Para ser julgado.
@@ -39,14 +39,14 @@ export default function PagePenitencia() {
         eterna.
       </Text>
       <H1 text="Formulário para o Exame" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Há quanto tempo me confessei pela última vez? Recebi a Absolvição,
         Confessei, tive emenda e contrição de todos meus pecados? Cumpri
         devidamente a Satisfação Sacramental (a Penitência)? Fiz bem o Exame de
         Consciência para esta Confissão?
       </Text>
       <H2 text="Virtude da Fé:" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Fui negligente em instruir-me nas verdades da Fé ou não acredito
         nalguma? Tenho escandalizado o próximo com as minhas dúvidas sobre a Fé?
         Tenho falado ou escrito contra Deus, contra a Religião, contra a Igreja
@@ -58,7 +58,7 @@ export default function PagePenitencia() {
         Profanei os templos ou as imagens sagradas?
       </Text>
       <H2 text="Virtude da Esperança:" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Tenho desesperado de me salvar ou de corrigir dos meus defeitos? Tenho
         falta de resignação nas contrariedades e sofrimentos? Murmurei contra a
         Divina Providência? Tenho tido presunção? Tenho abusado da misericórdia
@@ -66,7 +66,7 @@ export default function PagePenitencia() {
         o céu? Tenho confiança em Deus? Resisti às boas inspirações?
       </Text>
       <H2 text="Virtude da Caridade:" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Tenho sido negligente no serviço divino? Tenho feito a Oração da manhã e
         da noite e recebido com frequência os Sacramentos? Tenho perdido
         demasiado tempo nas coisas mundanas? Tenho estado com falta de atenção
@@ -81,7 +81,7 @@ export default function PagePenitencia() {
         doentes e os abandonados? Procurei socorrer o próximo?
       </Text>
       <H2 text="Sobre os Mandamentos:" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Blasfemei contra Deus ou contra os Santos e fui causa ou não evitei que
         outros dissessem blasfémias? Disse imprecações contra Deus ou pronunciei
         o seu Nome sem respeito? Jurei falso ou inutilmente, ou fui causa de que
@@ -94,7 +94,7 @@ export default function PagePenitencia() {
         mandei trabalhar sem necessidade e durante mais de três horas?
       </Text>
       <H2 text="Deveres dos filhos:" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Tive falta de amor e de confiança para com meus pais, avós e superiores?
         Fui desatencioso, incorrecto ou desobediente para com eles? Tive-lhes
         aversão, ódio ou repliquei-lhes com Palavras impróprias? Desejei-lhes
@@ -104,7 +104,7 @@ export default function PagePenitencia() {
         me obriguei?
       </Text>
       <H2 text="Deveres dos pais:" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Faltei ao afecto e à solicitude que devia a meus filhos? Tenho-os
         repreendido ou castigado com muito rigor ou injustamente? Tenho tido
         preferência por algum deles? Retardei o seu Baptismo e fui negligente em
@@ -117,14 +117,14 @@ export default function PagePenitencia() {
         repreendido quando deixam de cumprir os deveres?
       </Text>
       <H2 text="Deveres dos casados:" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Tenho faltado ao afecto, confiança e mútuo auxílio? Tenho estado com mau
         humor, ira, rancor ou impaciência? Injuriei ou maltratei o marido ou a
         esposa? Desobedeci ou não fui condescendente, podendo sê-lo? Faltei aos
         deveres do Matrimónio e abusei deles? Evitei o nascimento de filhos?
       </Text>
       <H2 text="Deveres dos inferiores:" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Faltei ao respeito e obediência aos superiores? Violei os segredos da
         família ou dos superiores, e bem assim violei a sua correspondência ou
         abusei da sua confiança? Fui negligente no cumprimento dos deveres do
@@ -132,7 +132,7 @@ export default function PagePenitencia() {
         a sua autorização? Disse mal deles por ira, inveja ou vingança?
       </Text>
       <H2 text="Deveres dos superiores:" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Consenti na minha casa servos ímpios ou de maus costumes? Não facilitei
         aos meus servos o cumprimento dos deveres religiosos? Providenciei para
         que vivessem com moralidade? Fui rude, caprichoso, orgulhoso, injusto ou
@@ -140,7 +140,7 @@ export default function PagePenitencia() {
         paguei os ordenados? Tenho-os alimentado convenientemente?
       </Text>
       <H2 text="Sobre outras virtudes, deveres e cargos:" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Tenho ódio ou má vontade contra o próximo? Desejei-lhe algum mal? Deixei
         de falar a alguém por ódio ou rancor? Tenho auxiliado o próximo? Causei
         algum dano ao próximo? Injuriei, feri, bati ou matei alguém, ou mandei
@@ -204,7 +204,7 @@ export default function PagePenitencia() {
       </Text>
       <H1 text="Depois do Exame de Consciência" />
       <H2 text="Acto de dor" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Que confusão a minha, ó meu Deus, ao reconhecer que caí tantas vezes e
         tão facilmente nos mesmos pecados, e depois de Vos haver prometido
         emendar-me!... Como tenho tido coragem, ó meu Deus, de cair tantas vezes
@@ -226,7 +226,7 @@ export default function PagePenitencia() {
         renovado com vossa graça, me sinta penetrado de dor e tristeza mortais!
       </Text>
       <H2 text="Acto de bom Propósito" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó meu Deus, eu não deveria viver senão para Vos amar; mas, visto que
         tenho tido a infelicidade de pecar, faço o propósito bem firme,
         auxiliado com vossa graça, de nunca mais pecar, vigiando continuamente
@@ -238,7 +238,7 @@ export default function PagePenitencia() {
         resolvestes a aceitar a morte na Cruz, para salvação da humanidade.
       </Text>
       <H2 text="Acto de Esperança" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Sei, ó Deus, até que ponto Vos tenho ofendido, e o que devia esperar da
         vossa indignação, se não se interpusesse a vossa misericórdia, e os
         méritos do meu Salvador não aplacassem a vossa justiça. Ó meu Deus, não
@@ -250,7 +250,7 @@ export default function PagePenitencia() {
         misericórdia e perdão.
       </Text>
       <H2 text="À B. Virgem Maria e Anjo da Guarda" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó Virgem Santíssima, Mãe de graça e de misericórdia, e refúgio seguro
         dos pecadores, intercedei neste momento por mim, a fim de que a
         Confissão, que vou fazer, não me torne ainda mais culpável, mas que me
@@ -264,14 +264,14 @@ export default function PagePenitencia() {
         Após esta Preparação, o Penitente aproximar-se-á com humildade do
         Confessor e dirá:
       </Text>
-      <Text className="text-pretty">Abençoai-me, Padre, porque pequei!</Text>
+      <Text className="vernacular">Abençoai-me, Padre, porque pequei!</Text>
       <Text className="aside">O Sacerdote abençoa, dizendo:</Text>
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Que o Senhor seja no teu coração e nos teus lábios, para que possas
         dignamente confessar os teus pecados.
       </Text>
       <Text className="cross"> ✠ </Text>
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Em Nome do Pai e do Filho e do Espírito Santo. Amen. Recitará, então, o
         «Eu Pecador me confesso a Deus...», até às Palavras «minha tão grande
         culpa»; ou, ao menos, dirá, «Eu me confesso a Deus omnipotente e a vós,
@@ -290,7 +290,7 @@ export default function PagePenitencia() {
         disser o Confessor. Depois dirá:
       </Text>
       <H2 text="Acto de Contrição" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Meu Deus, porque sois infinitamente bom e Vos amo de todo meu coração,
         pesa-me de Vos ter ofendido; e com o auxílio da vossa divina graça
         proponho firmemente emendar-me e nunca mais Vos tornar a ofender; peço e
@@ -303,7 +303,7 @@ export default function PagePenitencia() {
       </Text>
       <H1 text="Depois da Confissão" />
       <H2 text="Acto de Fé na Absolvição" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ousarei persuadir-me, ó meu Deus, de que me encontro, presentemente,
         pela graça da Absolvição sacramental, perdoado e lavado das manchas das
         minhas culpas?! Sim, ó Deus de bondade, acabo de ser absolvido; e esta
@@ -313,7 +313,7 @@ export default function PagePenitencia() {
         me dá a esperança da eterna salvação.
       </Text>
       <H2 text="Acção de Graças" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó minha alma, agradece rendidamente ao Senhor os prodígios da sua
         misericórdia! É preciso, ó meu Deus, que sejais cheio de infinita
         indulgência para usardes de tanta liberalidade para com esta pobre
@@ -328,7 +328,7 @@ export default function PagePenitencia() {
         para os gozos da glória incomparável da vida eternal...
       </Text>
       <H2 text="Propósito de nunca pecar" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó meu Deus, o benefício que acabais de praticar em meu favor inspira-me
         tal ódio ao pecado, que me obriga a tomar sinceramente a resolução de
         nunca mais pecar. Vos prometo, ó Deus, que hei-de esforçar-me tanto

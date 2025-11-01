@@ -147,7 +147,7 @@ export default function PagePasc66() {
       <H2 text="Bênção da Pia Baptismal" />
       <H3 text="Ladainha dos Santos" />
       <LadainhaSantos />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Nas Missas rezadas suprimem-se as Profecias, a Bênção e as Ladainhas.
       </Text>
       <H2 text="Missa da Vigília de Pentecostes" />

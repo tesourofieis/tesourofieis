@@ -6,8 +6,8 @@ export default function PageSantaisabel() {
   return (
     <PageWrapper>
       <H1 text="Ladainha Santa Isabel" />
-      <Text className="text-pretty">Senhor, tende piedade de nós.</Text>
-      <Text className="text-pretty">
+      <Text className="vernacular">Senhor, tende piedade de nós.</Text>
+      <Text className="vernacular">
         Cristo, tende piedade de nós.{"\n"}
         Senhor, tende piedade de nós.{"\n"}
         Jesus Cristo, ouvi-nos.{"\n"}
@@ -66,15 +66,15 @@ export default function PageSantaisabel() {
         Cordeiro de Deus, que tirais os pecados do mundo, tende piedade de nós.
         {"\n"}
       </Text>
-      <Text className="text-pretty">
+      <Text className="vernacular">
         <Text className="versicle"> ℣. </Text> Rogai por nós, Santa Isabel.
       </Text>
-      <Text className="text-pretty">
+      <Text className="vernacular">
         <Text className="response"> ℟. </Text>
         Para que sejamos dignos das promessas de Cristo.
       </Text>
       <Text className="text-center text-red-500">Oremos.</Text>
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó Deus clementíssimo, que entre outros eminentes dotes ornastes a Rainha
         Santa Isabel com a prerrogativa de aplacar os horrores da guerra,
         concedei-nos por sua intercessão que, depois de passarmos em paz esta

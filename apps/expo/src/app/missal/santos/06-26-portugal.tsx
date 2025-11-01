@@ -8,7 +8,7 @@ export default function Page0626Portugal() {
     <PageWrapper>
       <H1 text="S. Pelágio, a 26 de Junho, Nalgumas Dioceses" />
       <H3 text="Intróito" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Fizestes-Vos, Senhor, o meu auxiliar e o meu protector: e livrastes-me
         da perdição: livrastes-me das mãos daqueles que procuravam tirar-me a
         vida, assim como do rei iníquo e das línguas injustas. Entoai em honra
@@ -16,7 +16,7 @@ export default function Page0626Portugal() {
         <Text className="versicle"> ℣. </Text>Glória ao Pai...
       </Text>
       <H3 text="Oração" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó Deus, que pela magnitude da vossa inefável piedade permitistes que o
         B. Pelágio, sendo de pouca idade, se mostrasse grande na fé e virtude,
         Concedei-nos, Vos suplicamos, que, assim como Veneramos a sua glória,
@@ -28,7 +28,7 @@ export default function Page0626Portugal() {
         title="Mártir não Pontífice - Missa In virtúte tua"
       />
       <H3 text="Gradual" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Sois a minha esperança, Senhor, desde a minha juventude: por Vós fui
         fortalecido ainda antes de nascer: desde o seio de minha mãe que sois o
         meu protector. Aceitastes-me por causa da minha inocência e
@@ -42,24 +42,24 @@ export default function Page0626Portugal() {
         title="Mártir não Pontífice - Missa Lætábitur justus"
       />
       <H3 text="Ofertório" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Sua vida consumou-se em breve; contudo encheu seus anos com muitas
         coisas, pois sua alma era agradável a Deus. Eis porque Ele se apressou a
         tirá-lo do meio das iniquidades.
       </Text>
       <H3 text="Secreta" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Vos oferecemos, Senhor, a hóstia imaculada, rogando-Vos insistentemente
         que em virtude das preces e da intercessão do B. Pelágio, vosso Mártir,
         alcancemos o que humildemente Vos pedimos. Por nosso Senhor...
       </Text>
       <H3 text="Comúnio" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Aquele que vencer envergará os vestidos brancos: e Eu confessarei o seu
         nome na presença de meu Pai e dos seus Anjos, aleluia.
       </Text>
       <H3 text="Postcomúnio" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Saciados com o banquete do alimento espiritual e animados com a
         sacratíssima bebida, Vos suplicamos, Senhor, nosso Deus, que, assim como
         nos alegramos com a coroa triunfal do B. Pelágio, vosso Mártir, assim

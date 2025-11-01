@@ -142,7 +142,7 @@ const TreeItem = React.memo(
             className="flex-row items-center"
           >
             <View className="flex-1" style={{ paddingLeft: level * 16 }}>
-              <Text className="text-pretty">
+              <Text className="vernacular">
                 {highlightText(doc.title, searchHighlight)}
               </Text>
               {description && description !== doc.title && (
@@ -298,7 +298,7 @@ const SearchResultItem = React.memo(
         onPress={handleCardPress}
         className="rounded-xl mx-4 my-2 p-4 border-b border-sepia active:bg:sepia-200 dark:active:bg-sepia-800"
       >
-        <Text className="text-pretty">
+        <Text className="vernacular">
           {displayTitle
             ? renderFTSHighlightedText(displayTitle)
             : highlightText(item.title, query)}
@@ -632,7 +632,7 @@ export default function MoreScreen() {
             autoCapitalize="none"
             autoCorrect={false}
             returnKeyType="search"
-            className="flex-1 ml-2 text-sepia-900 dark:text-sepia-100"
+            className="flex-1 ml-2 text-sepia-invert"
           />
           {!!searchQuery && (
             <TouchableOpacity onPress={handleClear} className="ml-2">

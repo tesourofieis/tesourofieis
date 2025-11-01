@@ -8,16 +8,16 @@ export default function PageComminhamaeestarei() {
       <H1 text="Com minha Mãe estarei" />
 
       <View className="not-content">
-        <Text className="text-pretty">
+        <Text className="vernacular">
           Com minha Mãe estarei na santa glória um dia; junto à Virgem Maria, no
           Céu triunfarei.
         </Text>
-        <Text className="text-pretty">{"\n"}</Text>
-        <Text className="text-pretty">
+        <Text className="vernacular">{"\n"}</Text>
+        <Text className="vernacular">
           Refrão: No Céu, no Céu, com minha Mãe estarei. (2x)
         </Text>
-        <Text className="text-pretty">{"\n"}</Text>
-        <Text className="text-pretty">
+        <Text className="vernacular">{"\n"}</Text>
+        <Text className="vernacular">
           Com minha Mãe estarei; mas já que hei ofendido a seu Jesus querido, as
           culpas chorarei.
         </Text>

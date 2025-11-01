@@ -48,7 +48,7 @@ export default function PageJose() {
         </Text>
       </Language>
       <H2 text="Oração" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó glorioso S. José, Pai e protector das Virgens, guarda fiel a quem Deus
         confiou Jesus, a própria inocência, e Maria, Virgem das virgens! Em nome
         de Jesus e de Maria, este duplo tesouro que vos foi tão caro, vos
@@ -56,7 +56,7 @@ export default function PageJose() {
         pura e corpo casto, sirva sempre, fielmente, a Jesus e a Maria. Amen.
       </Text>
       <H2 text="Para o Trabalho" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ó glorioso S. José, modelo de todos os que se consagram ao trabalho!
         Alcançai-me a graça de trabalhar com espírito de penitência, em expiação
         dos meus pecados; de trabalhar com consciência, pondo o cumprimento do

@@ -6,7 +6,7 @@ export default function PageRochanacao() {
   return (
     <PageWrapper>
       <H1 text="Rocha sobre a qual a nossa nação se fundou" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Senhor Pai santo, confiamos o nosso Portugal à vossa misericórdia e
         protecção. Vós sois a rocha sobre a qual a nossa nação se fundou. Só Vós
         sois a fonte da verdade e do amor. Reclamai esta terra para a vossa

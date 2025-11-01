@@ -10,7 +10,7 @@ export default function Page0722Lisboa() {
     <PageWrapper>
       <H1 text="S. Lourenço de Brindes, Conf., a 22 de Julho" />
       <H3 text="Intróito" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Descobrirei as obras de Deus pelas suas palavras. O sol, iluminando o
         mundo, vê todas as coisas: e a glória do Senhor brilha nas suas obras.
         Apareça o Senhor e desapareçam os seus inimigos! Que aqueles que O
@@ -35,7 +35,7 @@ export default function Page0722Lisboa() {
         </Text>
       </Language>
       <H3 text="Epístola" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Lição da Ep.ª do B. Ap.º Paulo aos Coríntios. A caridade de Cristo
         obriga-nos. Se considerarmos que um só morreu por todos, então todos
         morreremos. Ora Cristo morreu por todos, para que os que vivem, já não
@@ -54,7 +54,7 @@ export default function Page0722Lisboa() {
         de que por Ele nos tornássemos justos na justiça que vem de Deus.
       </Text>
       <H3 text="Gradual" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         O Senhor é a minha fortaleza e a minha glória, pois foi o meu Salvador.
         Ele é o meu Deus: eu O glorificarei. O Senhor apareceu, como um
         guerreiro: e chama-se omnipotente. Aleluia, aleluia. Invocou o Altíssimo
@@ -67,23 +67,23 @@ export default function Page0722Lisboa() {
         title="Sexta-feira das Têmporas de Pentecostes - Estação nos Doze Apóstolos"
       />
       <H3 text="Ofertório" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Ele quis que minha boca fosse como uma espada aguda. Protegeu-me com a
         sombra da sua mão de reserva, como uma flecha escolhida.
       </Text>
       <H3 text="Secreta" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Fazei, ó Deus, que as lágrimas da salutar penitência nos tornem dignos
         de nos aproximarmos deste celestial banquete, o qual era tão suave à
         candura da alma do B. Lourenço. Por nosso Senhor...
       </Text>
       <H3 text="Comúnio" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Os poderosos ficarão admirados quando me virem; e a face dos príncipes
         manifestará a sua admiração.
       </Text>
       <H3 text="Postcomúnio" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Possamos nós, Senhor, ficar eternamente saciados com esta alegria da
         vossa divindade, cujo gozo o B. Lourenço experimentou no sacrossanto
         mystério do altar. Por nosso Senhor...

@@ -43,12 +43,12 @@ export default function PageVerdades() {
         </Text>
       </View>
       <H2 text="Os dois mandamentos de caridade" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Amarás o Senhor teu Deus, com todo teu coração, com toda tua alma e com
         toda tua mente Amarás ao próximo como a ti mesmo.
       </Text>
       <H2 text="A regra de ouro" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Tudo quanto quiserdes que os homens vos façam, fazei-lho vós também.
       </Text>
       <H2 text="Os cinco preceitos da Igreja" />
@@ -72,7 +72,7 @@ export default function PageVerdades() {
         </Text>
       </View>
       <H2 text="Sacramentos" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Baptismo
         {"\n"}
         Confirmação
@@ -88,7 +88,7 @@ export default function PageVerdades() {
         Matrimónio
       </Text>
       <H2 text="As Bem-Aventuranças" />
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Bem-aventurados os pobres em espírito, porque deles é o reino dos céus.
         {"\n"}
         Bem-aventurados os que choram, porque serão consolados.
@@ -204,7 +204,7 @@ export default function PageVerdades() {
         Pecados de pura malícia, que são contrários à bondade que se atribui ao
         Espírito Santo.
       </Text>
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Desesperar da salvação;
         {"\n"}
         Presunção de se salvar sem merecimentos;
@@ -222,7 +222,7 @@ export default function PageVerdades() {
         Sua malícia é tão grave e manifesta, que provoca Deus a puni-los com os
         mais severos castigos.
       </Text>
-      <Text className="text-pretty">
+      <Text className="vernacular">
         Homicídio voluntário; Pecado impuro contra a natureza; Opressão dos
         pobres, principalmente órfãos e viúvas; Não pagar o salário a quem
         trabalha.
