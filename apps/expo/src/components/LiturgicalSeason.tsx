@@ -435,7 +435,7 @@ export default function LiturgicalSeason() {
   const iconColor = colorScheme === "light" ? COLORS["700"] : COLORS["300"];
 
   return (
-    <View className="mt-2 gap-2 flex-1 px-5">
+    <View className="mt-2 gap-2 flex-1 px-5 h-full">
       <View className="flex-row items-center justify-left gap-1">
         <FontAwesome6
           name={CATEGORY_ICONS[season] || "church"}
