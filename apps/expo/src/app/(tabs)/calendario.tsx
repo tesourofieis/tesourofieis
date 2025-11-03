@@ -167,17 +167,13 @@ function Header({
           onPressOut={handlePrevious}
           className="rounded bg-gray-200 p-2 active:bg-gray-300 dark:bg-gray-800 dark:active:bg-gray-700"
         >
-          <Text>
-            <FontAwesome name="chevron-left" color={COLORS["600"]} />
-          </Text>
+          <FontAwesome name="chevron-left" color={COLORS["600"]} />
         </Pressable>
         <Pressable
           onPressOut={handleNext}
           className="ml-3 rounded bg-gray-200 p-2 active:bg-gray-300 dark:bg-gray-800 dark:active:bg-gray-700"
         >
-          <Text>
-            <FontAwesome name="chevron-right" color={COLORS["600"]} />
-          </Text>
+          <FontAwesome name="chevron-right" color={COLORS["600"]} />
         </Pressable>
       </View>
 
@@ -217,9 +213,7 @@ function Header({
               : "bg-sepia-200 dark:bg-sepia-800"
           }`}
         >
-          <Text>
-            <FontAwesome name="crosshairs" size={18} color={COLORS["500"]} />
-          </Text>
+          <FontAwesome name="crosshairs" size={18} color={COLORS["500"]} />
         </Pressable>
       </View>
     </View>

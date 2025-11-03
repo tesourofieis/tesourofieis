@@ -88,25 +88,21 @@ export default function PageLinkCard({
     return (
       // @ts-ignore
       <Link href={mass.link} asChild>
-        {/* @ts-ignore */}
         <Pressable>
           {({ pressed }) => (
             <View className={cardBase(pressed)}>
               <View className="flex flex-row justify-between items-center gap-1 mr-2">
                 <View className="flex-1">
                   <View className="px-3 flex flex-row items-center gap-2">
-                    <Text>
-                      <FontAwesome name="circle" color={getColor(mass.color)} />
-                    </Text>
+                    <FontAwesome name="circle" color={getColor(mass.color)} />
                     <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-200">
                       {description || "Missa"}
                     </Text>
                     <Text className="text-sepia">|</Text>
-                    {mass.rank && (
-                      <Text className="font-serif text-sm text-sepia-700 dark:text-sepia-200">
-                        Classe: {String(mass.rank)}
-                      </Text>
-                    )}
+
+                    <Text className="font-serif text-sm text-sepia-700 dark:text-sepia-200">
+                      Classe: {mass.rank}
+                    </Text>
                   </View>
 
                   <Text className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">

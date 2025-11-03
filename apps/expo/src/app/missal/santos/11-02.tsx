@@ -437,15 +437,17 @@ export default function Page1102() {
           participem dos frutos da vossa redenção. Por nosso Senhor...
         </Text>
       </Language>
-      2.ª Missa, como a
-      <Link href="/ritual/requiem#no-dia-do-aniversário">
-        Missa do Dia do Aniversário.
-      </Link>{" "}
-      3.ª Missa, como a
-      <Link className="link" href="/ritual/requiem#quotidiana">
-        Missa Quotidiana,
-      </Link>{" "}
-      omitindo-se a 1.ª e 3.ª Oração, Secreta e Postcomúnio.
+      <Text className="aside">
+        2.ª Missa, como a
+        <Link href="/ritual/requiem#no-dia-do-aniversário">
+          Missa do Dia do Aniversário.
+        </Link>{" "}
+        3.ª Missa, como a
+        <Link className="link" href="/ritual/requiem#quotidiana">
+          Missa Quotidiana,
+        </Link>{" "}
+        omitindo-se a 1.ª e 3.ª Oração, Secreta e Postcomúnio.
+      </Text>
     </PageWrapper>
   );
 }

@@ -8,7 +8,6 @@ import type { Mass } from "@tesourofieis/cal/observanceManager";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import {
   addDays,
-  addYears,
   getMonth,
   getYear,
   isWithinInterval,
@@ -19,6 +18,7 @@ import {
   type PropsWithChildren,
   useContext,
   useEffect,
+  useMemo,
   useState,
 } from "react";
 import { ActivityIndicator, View } from "react-native";
@@ -39,36 +39,40 @@ export function CalendarProvider({ children }: PropsWithChildren) {
     const timer = setInterval(() => {
       setDate(new Date());
     }, 60000);
-
     return () => clearInterval(timer);
   }, []);
 
-  const calendar = [
-    ...getCalendar(getYear(date)),
-    ...(getMonth(date) === 11 ? getCalendar(getYear(addYears(date, 1))) : []),
-  ];
+  const currentYear = getYear(date);
+  const currentMonth = getMonth(date);
 
-  const day = getCalendarDay(yyyyMMDD(date));
+  const calendar = useMemo(
+    () => [
+      ...getCalendar(currentYear),
+      ...(currentMonth === 11 ? getCalendar(currentYear + 1) : []),
+    ],
+    [currentYear, currentMonth]
+  );
+
+  const dateKey = yyyyMMDD(date);
+  const day = useMemo(() => getCalendarDay(dateKey), [dateKey]);
   const mass = day?.mass || [];
 
-  function getNovenas() {
+  const novenas = useMemo(() => {
     const endDate = addDays(date, 9);
     const novenaObservances: Mass[] = [];
-
-    for (const day of calendar) {
-      const dayDate = parseISO(day.date);
+    for (const calDay of calendar) {
+      const dayDate = parseISO(calDay.date);
       if (isWithinInterval(dayDate, { start: date, end: endDate })) {
-        const novenas = day.mass
+        const dayNovenas = calDay.mass
           .filter((mass) => mass.novena)
           .map((i) => ({ ...i, date: yyyyMMDD(dayDate) }));
-        novenaObservances.push(...novenas);
+        novenaObservances.push(...dayNovenas);
       }
     }
-
     return novenaObservances;
-  }
+  }, [calendar, date]);
 
-  const season = getSeason(yyyyMMDD(date));
+  const season = useMemo(() => getSeason(dateKey), [dateKey]);
 
   if (!calendar || !day) {
     return (
@@ -80,7 +84,7 @@ export function CalendarProvider({ children }: PropsWithChildren) {
 
   return (
     <CalendarContext.Provider
-      value={{ mass, day, calendar, novenas: getNovenas(), date, season }}
+      value={{ mass, day, calendar, novenas, date, season }}
     >
       {children}
     </CalendarContext.Provider>
