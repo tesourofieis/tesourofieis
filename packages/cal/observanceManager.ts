@@ -11,6 +11,7 @@ export interface Mass {
   link: string;
   outro: boolean; // to be used by flexibility santos
   weekday?: number; // to be used by flexibility tempora
+  calendar?: "pre-55" | "62";
   type:
     | "feria"
     | "advent"
@@ -125,13 +126,13 @@ export class MassManager {
     return this.masses.filter(
       (mass) =>
         mass.category === "pascoa" &&
-        ((mass.weekday && mass.weekday < 5) || (mass.week && mass.week < 4)),
+        ((mass.weekday && mass.weekday < 5) || (mass.week && mass.week < 4))
     );
   }
 
   getTemporaSunday(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.flexibility === "tempora" && mass.weekday === 0,
+      (mass) => mass.flexibility === "tempora" && mass.weekday === 0
     );
   }
 
@@ -141,7 +142,7 @@ export class MassManager {
         mass.category === "quaresma" &&
         mass.week === 1 &&
         mass.day &&
-        [3, 5, 6].includes(mass.day),
+        [3, 5, 6].includes(mass.day)
     );
   }
 
@@ -155,7 +156,7 @@ export class MassManager {
         mass.category === "advento" &&
         mass.week === 3 &&
         mass.day &&
-        [3, 5, 6].includes(mass.day),
+        [3, 5, 6].includes(mass.day)
     );
   }
 
@@ -167,19 +168,19 @@ export class MassManager {
 
   getSanctiClass1(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.category === "santos" && mass.rank === 1,
+      (mass) => mass.category === "santos" && mass.rank === 1
     );
   }
 
   getSanctiClass2(): Mass[] {
     return this.masses.filter(
-      (mass) => mass.category === "santos" && mass.rank === 2,
+      (mass) => mass.category === "santos" && mass.rank === 2
     );
   }
 
   match(
     observances: Mass[],
-    criteria: Mass | Mass[] | ((mass: Mass) => boolean),
+    criteria: Mass | Mass[] | ((mass: Mass) => boolean)
   ): Mass | undefined {
     const observanceArray = Array.isArray(observances)
       ? observances

@@ -64,11 +64,9 @@ export default function PageWrapper({ children }: PageWrapperProps) {
   }
 
   const scrollContent = isWeb ? (
-    <View className="flex-1 py-2 px-1 web:w-6/12 mx-auto">
-      {contentWithFontSize}
-    </View>
+    <View className="flex-1 web:w-6/12 mx-auto">{contentWithFontSize}</View>
   ) : (
-    <View className="flex-1 py-2 px-1 w-full">{contentWithFontSize}</View>
+    <View className="flex-1 w-full">{contentWithFontSize}</View>
   );
 
   return (

@@ -69,19 +69,15 @@ export default function PageRootLayout() {
 
   return (
     <UpdateProvider>
-      <CalendarProvider>
-        <SettingsProvider>
-          <FontProvider>
-            {Platform.OS === "web" ? (
-              <RootLayoutNav />
-            ) : (
-              <GestureHandlerRootView style={{ flex: 1 }}>
-                <RootLayoutNav />
-              </GestureHandlerRootView>
-            )}
-          </FontProvider>
-        </SettingsProvider>
-      </CalendarProvider>
+      <FontProvider>
+        {Platform.OS === "web" ? (
+          <RootLayoutNav />
+        ) : (
+          <GestureHandlerRootView style={{ flex: 1 }}>
+            <RootLayoutNav />
+          </GestureHandlerRootView>
+        )}
+      </FontProvider>
     </UpdateProvider>
   );
 }

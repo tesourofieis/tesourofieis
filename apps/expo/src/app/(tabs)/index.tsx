@@ -1,14 +1,8 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { format } from "date-fns";
 import { pt } from "date-fns/locale";
-import { Link, useRouter } from "expo-router";
-import {
-  Pressable,
-  ScrollView,
-  Text,
-  useColorScheme,
-  View,
-} from "react-native";
+import { useRouter } from "expo-router";
+import { Pressable, Text, useColorScheme, View } from "react-native";
 import { burgundy } from "config";
 import ExternalLinks from "~/components/External";
 import { H1 } from "~/components/Headings";
