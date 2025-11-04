@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,20 +9,20 @@ export default function PageParcedomine() {
       <H1 text="Parce domine" />
 
       <Language>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text>Parce, Domine, parce populo tuo:
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>Perdoai, Senhor, perdoai ao
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography>Parce, Domine, parce populo tuo:
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Perdoai, Senhor, perdoai ao
           vosso povo.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Ne in aeternum irascaris nobis.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Não fiqueis sempre irritado
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Ne in aeternum irascaris nobis.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Não fiqueis sempre irritado
           contra nós.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

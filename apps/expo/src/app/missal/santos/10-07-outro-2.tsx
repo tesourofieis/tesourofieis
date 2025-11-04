@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page1007Outro2() {
     <PageWrapper>
       <H1 text="S. S. Sérgio, Baco e Outros, Mártires, a 7 de Outubro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Na Baixa-Syria, diz o Martyrologio Romano, os santos Martyres Sérgio e
         Baco, nobres romanos que viveram sob o imperador Maximiano. Baco foi
         açoitado até ter as carnes despedaçadas; nesse suplício, expirou,
@@ -19,59 +19,59 @@ export default function Page1007Outro2() {
         discípulos de Simão o Mágico, abandonaram-no para seguir a doutrina do
         Apóstolo S. Pedro. Após o suplício dos Apóstolos, eles próprios
         obtiveram a corda do martyrio sob Aureliano, e foram sepultados em Roma.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/7muitosmartires2">
           Missa Sapiéntiam sanctórum
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sanctórum Martyrum tuórum nos, Dómine, Sérgii, Bacchi, Marcélli et
           Apuléji beáta mérita prosequántur: et tuo semper fáciant amóre
           fervéntes. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Fazei, Senhor, que os méritos dos vossos Santos Mártires Sérgio, Baco,
           Marcelo e Apúlio nos acompanhem e nos comuniquem incessantemente o
           fervor do vosso amor. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Majestátem tuam nobis, Dómine, quǽsumus, hæc hóstia reddat immolánda
           placátam, tuórum digna postulatióne Sanctórum. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que esta hóstia, que vai ser imolada em vosso louvor, Vos rogamos,
           Senhor, possa pelas dignas preces dos vossos Santos aplacar a vossa
           majestade. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacraméntis, Dómine, muniámur accéptis: et sanctórum Mártyrum tuórum
           Sérgii, Bacchi, Marcélli et Apuléji intercessióne, contra omnes
           nequítias irruéntes, annis cœléstibus protegámur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que os sacramentos que recebemos, Senhor, nos confortem; e que pela
           intercessão dos vossos Santos Sérgio, Baco, Marcelo e Apúlio sejamos
           fortalecidos com as armas celestiais e defendidos contra todos os
           ataques dos espíritos malignos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

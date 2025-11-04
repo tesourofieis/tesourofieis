@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -6,7 +6,7 @@ export default function PageSenhorpassos() {
   return (
     <PageWrapper>
       <H1 text="Nosso Senhor dos Passos" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó Jesus, Filho Unigénito de Deus e da Virgem Imaculada, que pela
         salvação do mundo quisestes ser condenado, traído, atado a uma coluna,
         conduzido como um cordeiro ao matadouro, acusado injustamente num
@@ -21,7 +21,7 @@ export default function PageSenhorpassos() {
         paraíso, para onde levastes convosco o bom ladrão. Tende piedade de nós,
         Senhor, que com o Pai e o Espírito Santo viveis e reinais pelos séculos
         dos séculos. Amen.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

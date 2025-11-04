@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,52 +10,52 @@ export default function PageQuad50() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 42, 1-2</Text>
+      <Typography className="em">Sl. 42, 1-2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Júdica me, Deus, et discérne causam meam de gente non sancta: ab
           homine iníquo et dolóso éripe me: quia tu es Deus meus et fortitúdo
-          mea. <Text className="latin">Ps. ibid., 3</Text> Emítte lucem tuam et
+          mea. <Typography className="latin">Ps. ibid., 3</Typography> Emítte lucem tuam et
           veritátem tuam: ipsa me de duxérunt et adduxérunt in montem sanctum
           tuum et in tabernácula tua.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Julgai-me, ó Deus, e defendei a minha causa da causa de um povo
           infiel; livrai-me do homem iníquo e ardiloso: pois sois, ó meu Deus, a
-          minha fortaleza. <Text className="vernacular">Sl. ibid., 3</Text>{" "}
+          minha fortaleza. <Typography className="vernacular">Sl. ibid., 3</Typography>{" "}
           Enviai-me a vossa luz e a vossa verdade, para que me guiem até ao
           vosso monte sagrado, até aos vossos tabernáculos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quǽsumus, omnípotens Deus, familiam tuam propítius réspice: ut, te
           largiénte, regátur in córpore; et, te servánte, custodiátur in mente.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, olhai propício para a vossa família, Vos rogamos,
           a fim de que com vossa graça sejam dominados os nossos corpos e com
           vossa protecção sejam preservadas as nossas almas. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Heb. 9, 11-15</Text>
+      <Typography className="em">Heb. 9, 11-15</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fatres: Christus assístens Pontifex futurórum bonórum, per ámplius et
           perféctius tabernáculum non manufáctum, id est, non hujus creatiónis:
           neque per sánguinem hircórum aut vitulórum, sed per próprium sánguinem
@@ -68,8 +68,8 @@ export default function PageQuad50() {
           prævaricatiónum, quæ erant sub prióri Testaménto, repromissiónem
           accípiant, qui vocáti sunt ætérnæ hereditátis, in Christo Jesu, Dómino
           nostro.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Jesus Cristo, vindo como Pontífice dos bens futuros,
           penetrou em um tabernáculo maior e mais que não foi fabricado por mão
           humana, isto é, que não teve criação terrena; e, sem recorrer ao
@@ -84,70 +84,70 @@ export default function PageQuad50() {
           morte, servindo de resgate das prevaricações cometidas no Antigo
           Testamento, transmita a eterna aliança prometida àqueles que foram
           chamados em N. S. Jesus Cristo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 142, 9 & 10</Text>
+      <Typography className="em">Sl. 142, 9 & 10</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Eripe me, Dómine, de inimícis meis: doce me fácere voluntátem tuam.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 17, 48-49</Text> Liberátor meus, Dómine,
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 17, 48-49</Typography> Liberátor meus, Dómine,
           de géntibus iracúndis: ab insurgéntibus in me exaltábis me: a viro
           iníquo erípies me.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Livrai-me dos meus inimigos, Senhor: ensinai-me a cumprir a vossa
-          vontade.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 17, 48-49</Text> Livrai-me, ó Senhor,
+          vontade.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 17, 48-49</Typography> Livrai-me, ó Senhor,
           das iras dos meus inimigos: elevai-me sobre aqueles que se insurgem
           contra mim e defendei-me do homem iníquo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 128, 1-4</Text>
+      <Typography className="em">Sl. 128, 1-4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sæpe expugnavérunt me a juventúte mea.
-          <Text className="versicle"> ℣. </Text>Dicat nunc Israël: sæpe
+          <Typography className="versicle"> ℣. </Typography>Dicat nunc Israël: sæpe
           expugnavérunt me a juventúte mea.
-          <Text className="versicle"> ℣. </Text>Etenim non potuérunt mihi: supra
+          <Typography className="versicle"> ℣. </Typography>Etenim non potuérunt mihi: supra
           dorsum meum fabricavérunt peccatóres.
-          <Text className="versicle"> ℣. </Text>Prolongavérunt iniquitátes suas:
+          <Typography className="versicle"> ℣. </Typography>Prolongavérunt iniquitátes suas:
           Dóminus justus cóncidit cervíces peccatórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Combateram-me desde a minha juventude.
-          <Text className="versicle"> ℣. </Text>Diga agora Israel: combateram-me
+          <Typography className="versicle"> ℣. </Typography>Diga agora Israel: combateram-me
           desde a minha juventude.
-          <Text className="versicle"> ℣. </Text>Mas nada puderam contra mim. Nas
+          <Typography className="versicle"> ℣. </Typography>Mas nada puderam contra mim. Nas
           minhas costas ficaram sinais das pancadas dos pecadores.
-          <Text className="versicle"> ℣. </Text>Durante bastante tempo
+          <Typography className="versicle"> ℣. </Typography>Durante bastante tempo
           continuaram as suas iniquidades; mas o Senhor, que é justo, cortará a
           cabeça dos pecadores.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 8, 46-59</Text>
+      <Typography className="em">Jo. 8, 46-59</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dicébat Jesus turbis Judæórum: Quis ex vobis árguet
           me de peccáto? Si veritátem dico vobis, quare non créditis mihi? Qui
           ex Deo est, verba Dei audit. Proptérea vos non audítis, quia ex Deo
@@ -170,8 +170,8 @@ export default function PageQuad50() {
           Amen, amen, dico vobis, antequam Abraham fíeret, ego sum. Tulérunt
           ergo lápides, ut jácerent in eum: Jesus autem abscóndit se, et exívit
           de templo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, dizia Jesus à multidão dos judeus: «Qual de vós me
           acusará de pecado? Se vos digo a verdade, porque não me acreditais?
           Aquele que é de Deus, ouve a palavra de Deus. Vós não atendeis à
@@ -197,67 +197,67 @@ export default function PageQuad50() {
           Abraão viesse a ser feito (isto é, nascesse) já Eu existo!». Então,
           eles tomaram pedras, para Lhas atirarem; mas Jesus ocultou-se e saiu
           do templo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 118, 17 & 107</Text>
+      <Typography className="em">Sl. 118, 17 & 107</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Confitébor tibi, Dómine, in toto corde meo: retríbue servo tuo: vivam,
           et custódiam sermónes tuos: vivífica me secúndum verbum tuum, Dómine.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, louvar-Vos-ei de todo meu coração. Recompensai o vosso servo:
           Então viverei e observarei os vossos preceitos. Vivificai-me, segundo
           a vossa palavra, Senhor!
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc múnera, quǽsumus Dómine, ei víncula nostræ pravitátis absólvant,
           et tuæ nobis misericórdiæ dona concílient. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que estas ofertas, Senhor, Vos suplicamos, esmaguem os laços da nossa
           malícia e nos alcancem os dons da vossa misericórdia. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">1 Cor. 11, 24 & 25</Text>
+      <Typography className="em">1 Cor. 11, 24 & 25</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hoc corpus, quod pro vobis tradétur: hic calix novi Testaménti est in
           meo sánguine, dicit Dóminus: hoc fácite, quotiescúmque súmitis, in
           meam commemoratiónem.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Este é o meu corpo, que será entregue por vós. Este é o cálice da nova
           aliança no meu sangue: diz o Senhor. Fazei isto em memória de mim
           todas as vezes que os receberdes.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Adésto nobis, Dómine, Deus noster: et, quos tuis mystériis recreásti,
           perpétuis defénde subsidiis. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Assisti-nos, ó Senhor, nosso Deus; e concedei o vosso perpétuo auxílio
           aqueles a quem restaurastes com vossos mystérios. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

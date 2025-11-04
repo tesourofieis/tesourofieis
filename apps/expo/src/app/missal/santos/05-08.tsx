@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ export default function Page0508() {
     <PageWrapper>
       <H1 text="Aparição de Arcanjo S. Miguel, a 8 de Maio" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Páscoa é a festa dos espíritos angélicos, pois a Ressurreição «é a
         alegria dos Anjos», diz S. Gregório, visto que, abrindo-nos o céu,
         repara as perdas causadas nas suas fileiras. A festa da Aparição de S.
@@ -19,58 +19,58 @@ export default function Page0508() {
         Gargano, próximo ao Mar Adriático, em frente de Roma. Pediu que lhe
         construíssem um santuário onde se honrasse a Deus, em sua memória e de
         todos os Anjos. Esse lugar tornou-se celebre por numerosos milagres.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 102, 20</Text>
+      <Typography className="em">Sl. 102, 20</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis
           verbum ejus, ad audiéndam vocem sermónum ejus.{" "}
-          <Text className="latin">Ps. ibid., 1</Text> Benedic, ánima mea.
+          <Typography className="latin">Ps. ibid., 1</Typography> Benedic, ánima mea.
           Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Bendizei o Senhor, ó vós, todos os Anjos do Senhor: Sois cheios de
           poder e virtude: e fazeis o que Ele vos manda, obedecendo às suas
-          palavras e ordens. <Text className="vernacular">Sl. ibid., 1</Text>{" "}
+          palavras e ordens. <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
           Bendiz o Senhor, ó minha alma: Que tudo quanto houver em mim bendiga o
-          santo Nome do Senhor.<Text className="versicle"> ℣. </Text>Glória ao
+          santo Nome do Senhor.<Typography className="versicle"> ℣. </Typography>Glória ao
           Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui, miro órdine, Angelórum ministéria hominúmque dispénsas:
           concéde propítius; ut, a quibus tibi ministrántibus in cœlo semper
           assístitur, ab his in terra vita nostra muniátur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que com sublime harmonia dispusestes os ministérios dos Anjos
           e dos homens, concedei-nos propício que sejamos protegidos durante a
           vida na terra por aqueles que, servindo-Vos no céu, gozam sempre a
           vossa companhia. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Apoc. 1, 1-5</Text>
+      <Typography className="em">Apoc. 1, 1-5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição do Livro do Apocalipse do B. Ap.º João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In diébus illis: Significávit Deus, quæ opórtet fíeri cito, mittens
           per Angelum suum servo suo Joánni, qui testimónium perhíbuit verbo
           Dei, et testimónium Jesu Christi, quæcúmque vidit. Beátus, qui legit
@@ -81,8 +81,8 @@ export default function Page0508() {
           Christo, qui est testis fidélis, primogénitus mortuórum et princeps
           regum terræ, qui diléxit nos et lavit nos a peccátis nostris in
           sánguine suo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, manifestou Deus o que logo deveria acontecer, enviando
           o seu Anjo ao seu servo João, o qual deu testemunho pela palavra de
           Deus e deu testemunho de tudo o que viu em Jesus Cristo.
@@ -93,40 +93,40 @@ export default function Page0508() {
           diante do seu trono, e por Jesus Cristo, que é a testemunha fiel, o
           primogénito dos mortos e o príncipe dos reis da terra, O qual nos amou
           e nos lavou das manchas dos nossos pecados no seu sangue».
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Sancte
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Sancte
           Míchael Archángele, defénde nos in prǿlio: ut non pereámus in treméndo
-          judício. Allelúja.<Text className="versicle"> ℣. </Text>
+          judício. Allelúja.<Typography className="versicle"> ℣. </Typography>
           Concússum est mare et contrémuit terra, ubi Archángelus Míchaël
           descéndit de cœlo. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>S. Miguel
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>S. Miguel
           Arcanjo, defendei-nos neste combate, a fim de que não pereçamos no dia
           do juízo tremendo. Aleluia.
-          <Text className="versicle"> ℣. </Text>O mar ficou agitado e a terra
+          <Typography className="versicle"> ℣. </Typography>O mar ficou agitado e a terra
           tremeu, quando o Arcanjo S. Miguel desceu do céu. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 18, 1-10</Text>
+      <Typography className="em">Mt. 18, 1-10</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis,
           putas, major est in regno cœlórum? Et ádvocans Jesus parvulum, statuit
           eum in médio eórum et dixit: Amen, dico vobis, nisi convérsi fuéritis
@@ -145,8 +145,8 @@ export default function Page0508() {
           gehénnam ignis. Vidéte, ne contemnátis unum ex his pusíllis: dico enim
           vobis, quia Angeli eórum in cœlis semper vident fáciem Patris mei, qui
           in cœlis est.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, os discípulos aproximaram-se de Jesus, dizendo-Lhe:
           «Quem, pois, pensais Vós que é o maior no reino dos céus?». Jesus,
           havendo chamado um pequeno, colocou-o no meio deles e disse: «Em
@@ -166,70 +166,70 @@ export default function Page0508() {
           eterno, tendo os dois olhos. Vede que não seja desprezado nenhum
           destes pequeninos; pois, digo-vos: os seus Anjos nos céus estão sempre
           na presença de meu Pai, que está nos céus».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Ap. 8, 3 & 4</Text>
+      <Typography className="em">Ap. 8, 3 & 4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Stetit Angelus juxta aram templi, habens thuríbulum áureum in manu
           sua, et data sunt ei incénsa multa: et ascéndit fumus aromátum in
           conspéctu Dei, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Junto ao altar, no templo, estava de pé um Anjo, tendo na mão um
           turíbulo de ouro: e deitaram-lhe muito incenso, subindo o fumo dos
           perfumes à presença de Deus. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hóstias tibi, Dómine, laudis offérimus, supplíciter deprecántes: ut
           easdem, angélico pro nobis interveniénte suffrágio, et placátus
           accípias, et ad salútem nostram proveníre concédas. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos oferecemos estas hóstias de louvor, Senhor, implorando-Vos
           humildemente que as aceiteis com indulgência pela intercessão do vosso
           Santo Anjo, e que elas sejam úteis à nossa salvação. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Dn. 3, 58</Text>
+      <Typography className="em">Dn. 3, 58</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Benedícite, omnes Angeli Dómini, Dóminum: hymnum dícite et
           superexaltáte eum in sǽcula.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Anjos do Senhor, bendizei todos o Senhor: cantai hinos em seu louvor e
           exaltai-O em todos os séculos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Beáti Archángeli tui Michaelis intercessióne suffúlti: súpplices te,
           Dómine, deprecámur; ut, quod ore prosequimur, contingamus et mente.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Confiado na intercessão do vosso B. Arcanjo Miguel, Senhor, Vos
           oferecemos as nossas humildes súplicas, para que a nossa alma alcance
           o que a nossa boca pede. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

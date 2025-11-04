@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -10,31 +10,31 @@ export default function Page0308() {
     <PageWrapper>
       <H1 text="S. João de Deus, Confessor, a 8 de Março" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/14confessoresnaopontifices1">
           Missa Os justi
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beátum Joánnem, tuo amóre succénsum, inter flammas innóxium
           incédere fecísti, et per eum Ecclésiam tuam nova prole fœcundásti:
           præsta, ipsíus suffragántibus méritis; ut igne caritátis tuæ vitia
           nostra curéntur, et remédia nobis ætérna provéniant. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que, depois de abrasardes a alma do B. João no vosso amor, o
           fizestes passar incólume por entre as chamas, e que por meio dele
           enriquecestes a Igreja com uma nova prole, concedei-nos pelos seus
           méritos que com o fogo da vossa caridade sejamos curados de nossos
           vícios e providos dos remédios eternos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />

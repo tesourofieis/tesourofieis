@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ export default function Page1028() {
     <PageWrapper>
       <H1 text="S. Simão e S. Judas, a 28 de Outubro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Judas ou Tadeu havia perguntado ao Mestre, na última Ceia, porque Ele se
         manifestava aos Apóstolos e não ao mundo. Respondeu-lhe Jesus que só se
         manifestava ás almas que lhe testemunhavam a sua fidelidade observando
@@ -22,58 +22,58 @@ export default function Page1028() {
         chamas vingadoras. Na segunda parte, exorta os fiéis a não se deixarem
         corromper por esses sedutores, mas permanecerem firmes na fé em Deus e
         no Cristo.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 138, 17</Text>
+      <Typography className="em">Sl. 138, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est
-          principátus eórum. <Text className="latin">Ps. ibid., 1-2</Text>{" "}
+          principátus eórum. <Typography className="latin">Ps. ibid., 1-2</Typography>{" "}
           Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et
-          resurrectiónem meam.<Text className="versicle"> ℣. </Text>Gloria
+          resurrectiónem meam.<Typography className="versicle"> ℣. </Typography>Gloria
           Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eu vejo, ó Deus, que honrais largamente os vossos amigos: e que seu
           poder se tem fortalecido extraordinariamente.{" "}
-          <Text className="vernacular">Sl. ibid., 1-2</Text> Senhor,
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Senhor,
           perscrutastes o meu íntimo e ficastes conhecendo-me: ficastes
           conhecendo quando me deito e me levanto.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui nos per beatos Apóstolos tuos Simónem et Judam ad agnitiónem
           tui nóminis veníre tribuísti: da nobis eórum glóriam sempitérnam et
           proficiéndo celebráre, et celebrándo profícere. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que pelos vossos B. B. Apóstolos Simão e Judas nos
           proporcionastes o conhecimento do vosso Nome, concedei-nos a graça de
           celebrar a sua eterna glória, progredindo na virtude, e celebrando
           esta mesma glória, alcancemos novos progressos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ef. 4, 7-13</Text>
+      <Typography className="em">Ef. 4, 7-13</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Unicuíque nostrum data est grátia secúndum mensúram
           donatiónis Christi. Propter quod dicit: Ascéndens in altum, captívam
           duxit captivitátem: dedit dona homínibus. Quod autem ascéndit, quid
@@ -85,8 +85,8 @@ export default function Page1028() {
           córporis Christi: donec occurrámus omnes in unitátem fídei, et
           agnitiónis Fílii Dei, in virum perféctum, in mensúram ætátis
           plenitúdinis Christi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: A graça é dada a cada um de nós, segundo a medida do dom
           de Cristo. Por isso se diz na Escritura: «Subindo ao alto, levou
           consigo os cativos e repartiu os seus dons pelos homens». Que quer
@@ -100,52 +100,52 @@ export default function Page1028() {
           uma só fé e do mesmo conhecimento do Filho de Deus, ao estado de um
           homem perfeito a um desenvolvimento orgânico proporcionado à plenitude
           de Cristo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 44, 17-18</Text>
+      <Typography className="em">Sl. 44, 17-18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Constítues eos príncipes super omnem terram: mémores erunt nóminis
-          tui, Dómine.<Text className="versicle"> ℣. </Text>Pro pátribus tuis
+          tui, Dómine.<Typography className="versicle"> ℣. </Typography>Pro pátribus tuis
           nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós os instituístes príncipes em todo o universo: e eles, Senhor,
           perpetuarão a glória do vosso nome em toda a terra.
-          <Text className="versicle"> ℣. </Text>Para substituir os vossos pais,
+          <Typography className="versicle"> ℣. </Typography>Para substituir os vossos pais,
           nascer-vos-ão filhos: pelo que os povos vos louvarão.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 138, 17</Text> Nimis honoráti sunt amíci
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 138, 17</Typography> Nimis honoráti sunt amíci
           tui, Deus: nimis confortátus est principátus eórum. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 138, 17</Text> Honrais largamente os
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 138, 17</Typography> Honrais largamente os
           vossos filhos, ó Deus; o seu poder tem-se fortalecido
           extraordinariamente. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 15, 17-25</Text>
+      <Typography className="em">Jo. 15, 17-25</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Hæc mando vobis, ut
           diligátis ínvicem. Si mundus vos odit: scitóte, quia me priórem vobis
           odio hábuit. Si de mundo fuissétis, mundus quod suum erat dilígeret;
@@ -160,8 +160,8 @@ export default function Page1028() {
           háberent: nunc autem et vidérunt et odérunt et me et Patrem meum. Sed
           ut adimpleátur sermo, qui in lege eórum scriptus est: Quia ódio
           habuérunt me gratis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Recomendo-vos que vos
           ameis uns aos outros. Se o mundo vos odeia, lembrai-vos de que me
           odiou a mim antes. Se fôsseis do mundo, o mundo amaria o que lhe
@@ -176,70 +176,70 @@ export default function Page1028() {
           praticado obras, que ninguém pratica, não teriam pecado; porém, as
           viram e me odeiam, bem como a meu Pai. Assim se cumpre neles aquela
           sentença que está escrita na sua lei: «Odiaram-me sem motivo algum».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 18, 5</Text>
+      <Typography className="em">Sl. 18, 5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In omnem terram exívit sonus eórum: et in fines orbis terræ verba
           eórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O som da sua voz ecoou por toda a parte, e as suas palavras
           estenderam-se até às extremidades da terra.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Glóriam, Dómine, sanctórum Apostolórum tuórum Simónis et Judæ
           perpétuam venerántes: quǽsumus; ut eam, sacris mystériis expiati,
           dígnius celebrémus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Venerando nós, Senhor, a perpétua glória dos vossos Santos Apóstolos
           Simão e Judas, purificai-nos, Vos imploramos, por estes sacrossantos
           mystérios, a fim de que os celebremos mais dignamente. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 19, 28</Text>
+      <Typography className="em">Mt. 19, 28</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vos, qui secúti estis me, sedébitis super sedes, judicántes duódecim
           tribus Israël.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós, que me seguistes, assentar-vos-eis sobre tronos e julgareis as
           doze tribos de Israel.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Percéptis, Dómine, sacraméntis, supplíciter exorámus: ut,
           intercedéntibus beátis Apóstolis tuis Simóne et Juda, quæ pro illórum
           veneránda gérimus passióne, nobis profíciant ad medélam. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo participado destes sacramentos, Vos pedimos humildemente,
           Senhor, que pela intercessão dos vossos B. B. Apóstolos Simão e Judas,
           o mystério que celebramos em honra do seu martírio, nos sirva de
           remédio para os nossos males. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

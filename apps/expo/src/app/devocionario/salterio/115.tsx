@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,62 +9,62 @@ export default function Page115() {
       <H1 text="Salmo 115" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Crédidi, propter quod locútus sum: * ego autem humiliátus sum nimis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Acreditei, por isso falei: * contudo, fui grandemente humilhado.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Ego dixi in excéssu meo: * Omnis homo mendax.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Disse eu no meu êxtase: * todo o homem é mentiroso.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Quid retríbuam Dómino, * pro ómnibus, quæ retríbuit mihi?
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que darei em retribuição ao Senhor, * por tudo que me deu?
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Cálicem salutáris accípiam: * et nomen Dómini invocábo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Tomarei o cálice da salvação: * e invocarei o nome do Senhor.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Vota mea Dómino reddam coram omni pópulo ejus: * pretiósa in conspéctu
           Dómini mors sanctórum ejus:
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Cumprirei os meus votos ao Senhor, ante todo seu povo: * é preciosa
           aos olhos do Senhor a morte dos seus santos:
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           O Dómine, quia ego servus tuus: * ego servus tuus, et fílius ancíllæ
           tuæ.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Senhor, eu sou vosso servo: * eu sou vosso servo e filho de vossa
           serva.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Dirupísti víncula mea: * tibi sacrificábo hóstiam laudis, et nomen
           Dómini invocábo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Quebrastes as minhas cadeias: * Vos oferecerei uma hóstia de louvor e
           invocarei o nome do Senhor.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Vota mea Dómino reddam in conspéctu omnis pópuli ejus: * in átriis
           domus Dómini, in médio tui, Jerúsalem.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Cumprirei os meus votos ao Senhor ante todo seu povo: * nos átrios da
           casa do Senhor, no meio de Vós, ó Jerusalém.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

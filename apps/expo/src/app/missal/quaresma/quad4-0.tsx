@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,53 +10,53 @@ export default function PageQuad40() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Is. 66, 10 & 11</Text>
+      <Typography className="em">Is. 66, 10 & 11</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Lætáre, Jerúsalem: et convéntum fácite, omnes qui dilígitis eam:
           gaudéte cum lætítia, qui in tristítia fuístis: ut exsultétis, et
           satiémini ab ubéribus consolatiónis vestræ.{" "}
-          <Text className="latin">Ps. 121, 1</Text> Lætátus sum in his, quæ
+          <Typography className="latin">Ps. 121, 1</Typography> Lætátus sum in his, quæ
           dicta sunt mihi: in domum Dómini íbimus.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Rejubilai, ó Jerusalém; ó vós todos, que a amais, uni-vos com júbilo;
           exultai de alegria, ó vós, que tendes estado tristes: e ficareis
           alegres e saciados com o leite das suas consolações.{" "}
-          <Text className="vernacular">Sl. 121, 1</Text> Alegrei-me com estas
+          <Typography className="vernacular">Sl. 121, 1</Typography> Alegrei-me com estas
           palavras que me disseram: Iremos à Casa do Senhor.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Concéde, quǽsumus, omnípotens Deus: ut, qui ex merito nostræ actiónis
           afflígimur, tuæ grátiæ consolatióne respirémus. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos suplicamos, visto que estamos justamente
           aflitos com o peso dos nossos pecados, concedei-nos que sejamos
           aliviados com a consolação da vossa graça. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Gl. 4, 22-31</Text>
+      <Typography className="em">Gl. 4, 22-31</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Gálatas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Scriptum est: Quóniam Abraham duos fílios habuit: unum de
           ancílla, et unum de líbera. Sed qui de ancílla, secúndum carnem natus
           est: qui autem de líbera, per repromissiónem: quæ sunt per allegóriam
@@ -72,8 +72,8 @@ export default function PageQuad40() {
           Scriptura? Ejice ancillam et fílium ejus: non enim heres erit fílius
           ancíllæ cum fílio líberæ. Itaque, fratres, non sumus ancíllæ fílii,
           sed líberæ: qua libertáte Christus nos liberávit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Está escrito que Abraão teve dois filhos: um da escrava e
           outro da mulher livre. O da escrava nasceu segundo a carne, enquanto
           que o da mulher livre nasceu segundo a promessa. Digo-vos estas coisas
@@ -91,59 +91,59 @@ export default function PageQuad40() {
           porque o filho da escrava não será herdeiro como o filho da mulher
           livre». Assim, meus irmãos, nós não somos filhos da escrava, mas da
           mulher livre, em cuja liberdade Cristo nos libertou.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 121, 1 & 7</Text>
+      <Typography className="em">Sl. 121, 1 & 7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.
-          <Text className="versicle"> ℣. </Text>Fiat pax in virtúte tua: et
+          <Typography className="versicle"> ℣. </Typography>Fiat pax in virtúte tua: et
           abundántia in túrribus tuis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Alegrei-me com estas palavras que me disseram: Iremos à Casa do
-          Senhor.<Text className="versicle"> ℣. </Text>Que a paz reine dentro
+          Senhor.<Typography className="versicle"> ℣. </Typography>Que a paz reine dentro
           dos teus muros: e a abundância nos teus palácios.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 124, 1-2</Text>
+      <Typography className="em">Sl. 124, 1-2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Qui confídunt in Dómino, sicut mons Sion: non commovébitur in ætérnum,
           qui hábitat in Jerúsalem.
-          <Text className="versicle"> ℣. </Text>Montes in circúitu ejus: et
+          <Typography className="versicle"> ℣. </Typography>Montes in circúitu ejus: et
           Dóminus in circúitu pópuli sui, ex hoc nunc et usque in sǽculum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aqueles que confiam no Senhor estão firmes, como o monte Sião. Aquele
           que habita em Jerusalém nunca será abalado.
-          <Text className="versicle"> ℣. </Text>O Senhor cerca com montanhas o
+          <Typography className="versicle"> ℣. </Typography>O Senhor cerca com montanhas o
           seu povo, e fica em torno dele agora e em todos os séculos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 6, 1-15</Text>
+      <Typography className="em">Jo. 6, 1-15</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Abiit Jesus trans mare Galilǽæ, quod est Tiberíadis:
           et sequebátur eum multitúdo magna, quia vidébant signa, quæ faciébat
           super his, qui infírmabántur. Súbiit ergo in montem Jesus: et ibi
@@ -167,8 +167,8 @@ export default function PageQuad40() {
           ventúrus est in mundum. Jesus ergo cum cognovísset, quia ventúri
           essent, ut ráperent eum et fácerent eum regem, fugit íterum in montem
           ipse solus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, foi Jesus para a outra margem do mar da Galileia ou de
           Tiberíades, acompanhando-O grande multidão; pois viam os milagres que
           operava, curando os doentes. Jesus subiu a um monte, e aí se assentou
@@ -191,67 +191,67 @@ export default function PageQuad40() {
           diziam: «Verdadeiramente este é o Profeta que deve vir ao mundo!».
           Porém Jesus, sabendo que eles queriam aclamá-l’O Rei, fugiu só para o
           monte.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 134, 3 & 6</Text>
+      <Typography className="em">Sl. 134, 3 & 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Laudáte Dóminum, quia benígnus est: psállite nómini ejus, quóniam
           suávis est: ómnia, quæcúmque vóluit, fecit in cœlo et in terra.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Louvai o Senhor, porque Ele é bom: Cantai hinos em louvor do seu nome,
           porque Ele é suave. O Senhor criou no céu e na terra tudo quanto quis.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacrifíciis præséntibus, Dómine, quǽsumus, inténde placátus: ut et
           devotióni nostræ profíciant et salúti. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicamos, olhai aplacado para este sacrifício; e que ele
           alente a nossa piedade e nos alcance a salvação. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 121,3-4</Text>
+      <Typography className="em">Sl. 121,3-4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Jerúsalem, quæ ædificátur ut cívitas, cujus participátio ejus in
           idípsum: illuc enim ascendérunt tribus, tribus Dómini, ad confiténdum
           nómini tuo. Dómine.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Jerusalém é uma cidade tão bem edificada, que está agrupada em um
           conjunto. Foi lá que subiram as tribos (as tribos do Senhor) para
           louvar o vosso nome, ó Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Da nobis, quǽsumus, miséricors Deus: ut sancta tua, quibus incessánter
           explémur, sincéris tractémus obséquiis, et fidéli semper mente
           sumámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus de misericórdia, concedei-nos a graça de nos aproximarmos com
           respeito sincero dos vossos sagrados mystérios, de que fomos saciados,
           e de os recebermos sempre com espírito de fé. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

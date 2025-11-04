@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ export default function Page0824() {
     <PageWrapper>
       <H1 text="S. Bartolomeu, Apóstolo, a 24 de Agosto" />
 
-      <Text className="comment">
+      <Typography className="comment">
         O filho de Tolomeu ou Bartolomeu, é, segundo a opinião comum, o
         discípulo apresentado a Nosso Senhor por Philippe, com o nome de
         Natanael, elogiado pelo Mestre por sua inocência e simplicidade de
@@ -29,60 +29,60 @@ export default function Page0824() {
         louva a Deus no glorioso coro dos Apóstolos (All.), e peçamos ao Senhor
         conceder à sua Igreja a graça de amar o que ele creu e pregar o que
         ensinou (Or.).
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 138, 17</Text>
+      <Typography className="em">Sl. 138, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortatus est
-          principatus eórum. <Text className="latin">Ps. ibid., 1-2</Text>{" "}
+          principatus eórum. <Typography className="latin">Ps. ibid., 1-2</Typography>{" "}
           Dómine, probásti me et cognovísti me: tu cognovisti sessiónem meam et
-          resurrectionem meam.<Text className="versicle"> ℣. </Text>Gloria
+          resurrectionem meam.<Typography className="versicle"> ℣. </Typography>Gloria
           Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eu vejo, ó Deus, que honrais largamente os vossos amigos: e que seu
           poder se tem fortalecido extraordinariamente.{" "}
-          <Text className="vernacular">Sl. ibid., 1-2</Text> Senhor,
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Senhor,
           perscrutastes o meu íntimo e ficastes-me conhecendo; ficastes
           conhecendo quando me deito e quando me levanto.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Omnípotens sempitérne Deus, qui hujus diei venerándam sanctámque
           lætítiam in beáti Apóstoli tui Bartholomǽi festivitáte tribuísti: da
           Ecclésiæ tuæ, quǽsumus; et amáre quod crédidit, et prædicáre quod
           dócuit. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente e sempiterno, que neste dia, em que celebramos a
           festa do B. Bartolomeu, Apóstolo, nos proporcionais uma santa e
           veneranda alegria, concedei à vossa Igreja, Vos suplicamos, o dom de
           amar o que ele acreditou e de pregar o que ensinou. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Cor. 12, 27-31</Text>
+      <Typography className="em">1 Cor. 12, 27-31</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Vos estis corpus Christi et membra de membro. Et quosdam
           quidem pósuit Deus in Ecclésia primum apóstolos, secúndo prophetas,
           tertio doctores, deinde virtútes, exinde grátias curationum,
@@ -91,8 +91,8 @@ export default function Page0824() {
           omnes doctóres? numquid omnes virtútes? numquid omnes grátiam habent
           curationum? numquid omnes linguis loquúntur? numquid omnes
           interpretántur? Æmulámini autem charísmata melióra.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Sois os corpos de Cristo e os membros uns dos outros.
           Assim, Deus estabeleceu na sua Igreja primeiramente Apóstolos, em
           segundo lugar Profetas, em terceiro lugar Doutores, depois os que
@@ -101,50 +101,50 @@ export default function Page0824() {
           Apóstolos? São todos Profetas? São todos Doutores? Fazem todos
           milagres? Têm todos o dom de curar? Falam todos as línguas? Têm todos
           o dom de interpretá-las? Aspirai aos dons mais perfeitos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 44, 17 & 18</Text>
+      <Typography className="em">Sl. 44, 17 & 18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Constítues eos príncipes super omnem terram: mémores erunt nóminis
-          tui, Dómine.<Text className="versicle"> ℣. </Text>Pro patribus tuis
+          tui, Dómine.<Typography className="versicle"> ℣. </Typography>Pro patribus tuis
           nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Serão constituídos príncipes em toda a terra e perpetuarão a glória do
           vosso nome, Senhor!
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Para substituir os vossos pais, nascer-vos-ão filhos; por isso os
           povos Vos honrarão eternamente.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Te gloriósus
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Te gloriósus
           Apostolórum chorus laudat, Dómine. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>O coro glorioso
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O coro glorioso
           dos Apóstolos canta os vossos louvores. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 6, 12-19</Text>
+      <Typography className="em">Lc. 6, 12-19</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Exiit Jesus in montem oráre, et erat pernóctans in
           oratióne Dei. Et cum dies factus esset, vocavit discípulos suos, et
           elégit duódecim ex ipsis (quos et Apóstolos nominávit): Simónem, quem
@@ -157,8 +157,8 @@ export default function Page0824() {
           audírent eum et sanaréntur a languóribus suis. Et, qui vexabántur a
           spirítibus immúndis, curabántur. Et omnis turba quærébat eum tángere:
           quia virtus de illo exíbat, et sanábat omnes.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, retirara-se Jesus para um monte, e aí passara toda a
           noite em oração a Deus. Quando o dia rompeu, chamou os discípulos e
           escolheu doze de entre eles, aos quais chamou Apóstolos: Simão, a quem
@@ -172,68 +172,68 @@ export default function Page0824() {
           alguns que estavam possessos de espíritos imundos, os quais foram
           curados. Toda aquela multidão procurava tocar em Jesus, pois d’Ele
           saía uma tal virtude que a todos sarava.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 138, 17</Text>
+      <Typography className="em">Sl. 138, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est
           principátus eórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eu vejo, ó Deus, que honrais largamente os vossos amigos; e por isso o
           seu poder se tem fortalecido extraordinariamente.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Beáti Apóstoli tui Bartholomǽi sollémnia recenséntes, quǽsumus,
           Dómine: ut ejus auxílio tua benefícia capiámus, pro quo tibi laudis
           hóstias immolámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Celebrando a festa do B. Bartolomeu, vosso Apóstolo, fazei, Senhor,
           Vos suplicamos, que alcancemos os vossos benefícios pelo socorro
           daquele em cuja honra imolamos esta hóstia de louvor. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 19, 28</Text>
+      <Typography className="em">Mt. 19, 28</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vos, qui secúti estis me, sedébitis super sedes, judicántes duódecim
           tribus Israël, dicit Dóminus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós, que me seguistes, vos assentareis sobre tronos e julgareis as
           doze tribos de Israel.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sumptum, Dómine, pignus redemptiónis ætérnæ: sit nobis, quǽsumus;
           interveniénte beáto Bartholomǽo Apóstolo tuo, vitæ præséntis auxílium
           páriter et futúræ. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Permiti, Senhor, que o penhor da redenção eterna, que recebemos, seja
           para nós, por intercessão do B. Bartolomeu, Apóstolo, auxílio na vida
           presente e na futura. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

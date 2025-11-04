@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -6,7 +6,7 @@ export default function PageActoreparacao() {
   return (
     <PageWrapper>
       <H1 text="Acto de Reparação" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Com aquele profundíssimo respeito que a Fé me inspira, ó meu Deus e meu
         Salvador, Jesus Cristo, verdadeiro Deus e Homem, eu Vos adoro e amo com
         todo o coração no Augustíssimo Sacramento do Altar, em reparação de
@@ -24,7 +24,7 @@ export default function PageActoreparacao() {
         conversão de todos eles. Ah! Sim, meu Jesus, permiti que todos Vos
         conheçam, adorem e amem, e Vos dêem graças a todo o momento no
         Santíssimo e diviníssimo Sacramento. Amen.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

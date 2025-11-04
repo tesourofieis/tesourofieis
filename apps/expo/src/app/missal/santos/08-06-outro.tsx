@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page0806Outro() {
     <PageWrapper>
       <H1 text="S. S. Sixto, Felicíssimo e Agapito, Márts., a 6 de Agosto" />
 
-      <Text className="comment">
+      <Typography className="comment">
         O Papa S. Sixto II foi martirizado com os dois diáconos Felicíssimo e
         Agapito, no III século, por ocasião da cruel perseguição de Décio. Seu
         nome acha-se inscrito no Canon da Missa entre os Papas. Lourenço, seu
@@ -17,7 +17,7 @@ export default function Page0806Outro() {
         abandonais, ó Pai, vós que nunca oferecíeis o sacrifício sem vosso
         diácono? Sixto respondeu-lhe: dentro de três dias me seguireis. O
         aniversário do martírio de São Lourenço celebrar-se-á dentro de três
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

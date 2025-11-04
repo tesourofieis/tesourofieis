@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,53 +10,53 @@ export default function Page12252() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Is. 9, 6</Text>
+      <Typography className="em">Is. 9, 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Puer natus est nobis, et fílius datus est nobis: cujus impérium super
           húmerum ejus: et vocábitur nomen ejus magni consílii Angelus.{" "}
-          <Text className="latin">Ps. 97, 1</Text> Cantáte Dómino cánticum
+          <Typography className="latin">Ps. 97, 1</Typography> Cantáte Dómino cánticum
           novum, quia mirabília fecit.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Nasceu para nós um Menino e foi-nos dado um Filho, que traz sobre os
           seus ombros o manto da realeza, o qual será chamado «Anjo do admirável
-          conselho». <Text className="vernacular">Sl. 97, 1</Text> Cantai ao
+          conselho». <Typography className="vernacular">Sl. 97, 1</Typography> Cantai ao
           Senhor um hino novo, pois Ele praticou maravilhas.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Concéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per
           carnem Natívitas líberet; quos sub peccáti jugo vetústa sérvitus
           tenet. Per eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos imploramos, dignai-Vos permitir que o novo
           Nascimento do vosso Filho Unigénito Incarnado nos livre do antigo
           cativeiro em que nos conserva o jugo do pecado. Pelo mesmo nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Heb. 1, 1-12</Text>
+      <Typography className="em">Heb. 1, 1-12</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Multifáriam, multísque modis olim Deus loquens pátribus in Prophétis:
           novíssime diébus istis locútus est nobis in Fílio, quem constítuit
           herédem universórum, per quem fecit et sǽcula: qui cum sit splendor
@@ -75,8 +75,8 @@ export default function Page12252() {
           ópera mánuum tuárum sunt cœli. Ipsi períbunt, tu autem permanébis; et
           omnes ut vestiméntum veteráscent: et velut amíctum mutábis eos, et
           mutabúntur: tu autem idem ipse es, et anni tui non defícient.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deus, que falara muitas vezes e de muitas maneiras a nossos pais pelos
           Profetas, falou-nos nos últimos tempos pelo seu Filho, que constituíra
           herdeiro de todas as coisas, e por quem, também, criou os séculos, o
@@ -100,50 +100,50 @@ export default function Page12252() {
           mas Vós permanecereis; eles envelhecerão todos, como um vestido, e Vós
           os mudareis, como se fossem um manto, e ficarão mudados; mas Vós sois
           sempre o mesmo, e os anos não acabarão para Vós».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 97, 3 & 2</Text>
+      <Typography className="em">Sl. 97, 3 & 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vidérunt omnes fines terræ salutare Dei nostri: jubiláte Deo, omnis
-          terra.<Text className="versicle"> ℣. </Text>Notum fecit Dominus
+          terra.<Typography className="versicle"> ℣. </Typography>Notum fecit Dominus
           salutare suum: ante conspéctum géntium revelávit justitiam suam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Toda a terra viu o Salvador, que o nosso Deus enviou: aclamai Deus, ó
           povos de toda a terra. O Senhor manifestou o Salvador, que havia
           prometido: e manifestou a sua justiça aos olhos dos povos.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Dies
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Dies
           sanctificátus illúxit nobis: veníte, gentes, et adoráte Dóminum: quia
           hódie descéndit lux magna super terram. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Um dia de
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Um dia de
           santidade resplandeceu para nós: vinde, ó povos, e adorai o Senhor:
           pois hoje desceu a grande luz à terra. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo, 1, 1-14</Text>
+      <Typography className="em">Jo, 1, 1-14</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Initium sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Initium sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Início do santo Evangelho segundo
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Início do santo Evangelho segundo
           S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In princípio erat Verbum, et Verbum erat apud Deum, et Deus erat
           Verbum. Hoc erat in princípio apud Deum. Omnia per ipsum facta sunt:
           et sine ipso factum est nihil, quod factum est: in ipso vita erat, et
@@ -157,11 +157,11 @@ export default function Page12252() {
           Quotquot autem recepérunt eum, dedit eis potestátem fílios Dei fíeri,
           his, qui credunt in nómine ejus: qui non ex sanguínibus, neque ex
           voluntáte carnis, neque ex voluntáte viri, sed ex Deo nati sunt.{" "}
-          <Text className="em">(Hic genuflectitur)</Text> Et Verbum caro factum
+          <Typography className="em">(Hic genuflectitur)</Typography> Et Verbum caro factum
           est, et habitávit in nobis: et vídimus glóriam ejus, glóriam quasi
           Unigéniti a Patre, plenum grátiæ et veritátis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           No princípio existia o Verbo, e o Verbo estava com Deus, e o Verbo era
           Deus. Este estava no princípio com Deus. Todas as coisas foram por Ele
           criadas, e nada daquilo que foi criado teria sido criado sem Ele.
@@ -176,85 +176,85 @@ export default function Page12252() {
           Ele a todos quantos O receberam e aos que acreditaram no seu nome deu
           o poder de serem filhos de Deus, os quais não nasceram do sangue, nem
           do desejo da carne, mas somente da vontade de Deus. E o Verbo fez-se
-          carne <Text className="em">(genuflecte-se)</Text> e habitou entre nós;
+          carne <Typography className="em">(genuflecte-se)</Typography> e habitou entre nós;
           e contemplamos a sua glória, como era própria do Filho Unigénito do
           Pai, cheio de graça e de verdade.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 88, 12 & 15</Text>
+      <Typography className="em">Sl. 88, 12 & 15</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tui sunt cœli et tua est terra: orbem terrárum et plenitúdinem ejus tu
           fundásti: justítia et judícium præparátio sedis tuæ.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A Vós, Senhor, pertencem os céus e a terra; pois criastes o universo e
           tudo o que ele encerra. A justiça e a equidade são a base do vosso
           trono.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Obláta, Dómine, múnera, nova Unigéniti tui Nativitáte sanctífica:
           nosque a peccatórum nostrórum máculis emúnda. Per eúndem Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Santificai, Senhor, pelo novo Nascimento do vosso Filho Unigénito, as
           oblatas que Vos apresentamos, e purificai-nos das manchas dos nossos
           pecados. Pelo mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 97, 3</Text>
+      <Typography className="em">Sl. 97, 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vidérunt omnes fines terræ salutáre Dei nostri.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Toda a terra contemplou o Salvador que o nosso Deus enviou.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut natus hódie Salvátor mundi,
           sicut divínæ nobis generatiónis est auctor; ita et immortalitátis sit
           ipse largítor: Qui tecum vivit et regnat...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, dignai-Vos permitir que, assim como o Salvador do
           mundo, nascendo neste dia, nos comunicou a geração divina, assim
           também nos conceda a imortalidade. Ele, que, sendo Deus...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Último Evangelho" />
 
-      <Text className="em">Mt. 2, 19-23</Text>
+      <Typography className="em">Mt. 2, 19-23</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Cum natus esset Jesus in Béthlehem Juda in diébus Heródis regis, ecce,
           Magi ab Oriénte venerunt Jerosólymam, dicéntes: Ubi est, qui natus est
           rex Judæórum? Vidimus enim stellam ejus in Oriénte, et vénimus adoráre
@@ -271,12 +271,12 @@ export default function Page12252() {
           Oriénte, antecedébat eos, usque dum véniens staret supra, ubi erat
           Puer. Vidéntes autem stellam, gavísi sunt gáudio magno valde. Et
           intrántes domum, invenérunt Púerum cum María Matre ejus,{" "}
-          <Text className="em">(hic genuflectitur)</Text> ei procidéntes
+          <Typography className="em">(hic genuflectitur)</Typography> ei procidéntes
           adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei múnera,
           aurum, thus et myrrham. Et responso accépto in somnis, ne redírent ad
           Heródem, per aliam viam revérsi sunt in regiónem suam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo Jesus nascido em Belém, de Judá, no tempo do rei Herodes, eis
           que vieram a Jerusalém os Magos do Oriente, dizendo: «Onde está o Rei
           dos Judeus, que acaba de nascer? Pois vimos a sua estrela no Oriente e
@@ -296,11 +296,11 @@ export default function Page12252() {
           chegando ao lugar onde estava o Menino, parou. Quando os Magos viram a
           estrela, alegraram-se muito. Entrando, então, na casa, encontraram o
           Menino com Maria, sua mãe; e, de joelhos, O adoraram.{" "}
-          <Text className="em">(Todos devem ajoelhar)</Text> E, tendo aberto os
+          <Typography className="em">(Todos devem ajoelhar)</Typography> E, tendo aberto os
           seus tesouros, ofereceram-Lhe presentes de ouro, incenso e mirra.
           Depois, havendo tido aviso em sonhos de que não deveriam voltar a
           encontrar Herodes, retiraram-se por outro caminho para o seu país.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

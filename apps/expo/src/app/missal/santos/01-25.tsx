@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -9,7 +9,7 @@ export default function Page0125() {
     <PageWrapper>
       <H1 text="Conversão de S. Paulo, a 25 de Janeiro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Paulo de Tarso era judeu da tribo de Benjamim. Fariseu dos mais zelosos,
         a Epístola nolo apresenta cheio de ódio «contra os discípulos do Senhor»
         . Torna-se «vaso de eleição» tão «repleto do Espírito Santo» (Ep.) «que
@@ -27,43 +27,43 @@ export default function Page0125() {
         o lago de Genesaré, onde Jesus, por seus milagres, provou que era o
         Filho de Deus. Seguindo o exemplo de S. Paulo, manifestemos por nossa fé
         e uma vida completamente nova, que Jesus é Deus e nosso Rei.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">2 Tm. 1, 12</Text>
+      <Typography className="em">2 Tm. 1, 12</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Scio, cui crédidi, et certus sum, quia potens est depósitum meum
           serváre in illum diem, justus judex.{" "}
-          <Text className="latin">Ps. 138, 1-2</Text> Dómine, probásti me et
+          <Typography className="latin">Ps. 138, 1-2</Typography> Dómine, probásti me et
           cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Sei em quem acreditar, e estou certo de que tem poder para guardar o
           meu depósito até àquele dia em que me julgará como justo Juiz.{" "}
-          <Text className="vernacular">Sl. 138, 1-2</Text> Senhor, Vós me
+          <Typography className="vernacular">Sl. 138, 1-2</Typography> Senhor, Vós me
           perscrutastes e me conhecestes: conhecestes quando me deito e quando
-          me levanto.<Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          me levanto.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui univérsum mundum beáti Pauli Apóstoli prædicatióne docuísti:
           da nobis, quǽsumus; ut, qui ejus hódie Conversiónem cólimus, per ejus
           ad te exémpla gradiámur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que instruístes o mundo inteiro com a pregação do B. Apóstolo
           Paulo, concedei-nos, Vos suplicamos, que, celebrando hoje a sua
           Conversão, caminhemos para Vós, seguindo os seus exemplos. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração Comemoração de S. Pedro" />
@@ -75,12 +75,12 @@ export default function Page0125() {
 
       <H3 text="Epístola" />
 
-      <Text className="em">Act. 9, 1-22</Text>
+      <Typography className="em">Act. 9, 1-22</Typography>
 
       <Language>
-        <Text className="latin">Léctio Actuum Apostolórum.</Text>
-        <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Actuum Apostolórum.</Typography>
+        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="latin">
           In diébus illis: Saulus adhuc spirans minárum et cædis in discípulos
           Dómini, accéssit ad príncipem sacerdótum, et pétiit ab eo epístolas in
           Damáscum ad synagógas: ut, si quos invenísset hujus viæ viros ac
@@ -118,8 +118,8 @@ export default function Page0125() {
           istud: et huc ad hoc venit, ut vinctos illos dúcere ad príncipes
           sacerdótum? Saulus autem multo magis convalescébat, et confundébat
           Judǽos, qui habitábant Damásci, affírmans, quóniam hic est Christus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, Saulo, respirando ainda ameaças e morte contra os
           discípulos do Senhor, foi encontrar o príncipe dos sacerdotes e
           pediu-lhe Cartas para as sinagogas de Damasco, a fim de que, se
@@ -160,78 +160,78 @@ export default function Page0125() {
           sacerdotes?». Mas Saulo muito mais se esforçava e confundia os judeus,
           que habitavam em Damasco, pregando a Jesus e demonstrando que Este era
           o Cristo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Gl. 2, 8 & 9</Text>
+      <Typography className="em">Gl. 2, 8 & 9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Qui operátus est Petro in apostolátum, operátus est ei mihi inter
           gentes: et cognovérunt grátiam Dei, quæ data est mihi.
-          <Text className="versicle"> ℣. </Text>Grátia Dei in me vácua non fuit:
+          <Typography className="versicle"> ℣. </Typography>Grátia Dei in me vácua non fuit:
           sed grátia ejus semper in me manet.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aquele que eficazmente trabalhou com Pedro para o tornar Apóstolo
           também fez de mim o Apóstolo dos gentios: e Conheceram a graça de
-          Deus, que me foi dada.<Text className="versicle"> ℣. </Text>A graça de
+          Deus, que me foi dada.<Typography className="versicle"> ℣. </Typography>A graça de
           Deus em mim não foi estéril, mas permanece sempre em mim.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Magnus
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Magnus
           sanctus Paulus, vas electiónis, vere digne est glorificándus, qui et
           méruit thronum duodécimum possídere. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>O grande S.
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O grande S.
           Paulo, este vaso de eleição, é verdadeiramente digno de glória, pois
           mereceu ocupar o duodécimo trono. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         Após a Septuagésima omite-se o Aleluia e o Verso e diz-se:
-      </Text>
+      </Typography>
 
       <H3 text="Trato" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tu es vas electiónis, sancte Paule Apóstole: vere digne es
-          glorificándus.<Text className="versicle"> ℣. </Text>Prædicátor
+          glorificándus.<Typography className="versicle"> ℣. </Typography>Prædicátor
           veritátis et doctor géntium in fide et veritáte.
-          <Text className="versicle"> ℣. </Text>Per te omnes gentes cognovérunt
-          grátiam Dei.<Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>Per te omnes gentes cognovérunt
+          grátiam Dei.<Typography className="versicle"> ℣. </Typography>
           Intercéde pro nobis ad Deum, qui te elégit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Sois um vaso de eleição, ó Apóstolo S. Paulo; e é com justa razão que
-          vos glorificamos.<Text className="versicle"> ℣. </Text>Sois o pregador
+          vos glorificamos.<Typography className="versicle"> ℣. </Typography>Sois o pregador
           da verdade e o Doutor das nações, ensinando-lhes a fé e a verdade.
-          <Text className="versicle"> ℣. </Text>Pelo vosso apostolado todas as
+          <Typography className="versicle"> ℣. </Typography>Pelo vosso apostolado todas as
           nações conheceram a graça de Deus.
-          <Text className="versicle"> ℣. </Text>Intercedei, pois, por nós junto
+          <Typography className="versicle"> ℣. </Typography>Intercedei, pois, por nós junto
           de Deus, que vos escolheu.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 19, 27-29</Text>
+      <Typography className="em">Mt. 19, 27-29</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Petrus ad Jesum: Ecce, nos relíquimus ómnia, et
           secúti sumus te: quid ergo erit nobis? Jesus autem dixit illis: Amen,
           dico vobis, quod vos, qui secúti estis me, in regeneratióne, cum
@@ -240,8 +240,8 @@ export default function Page0125() {
           relíquerit domum, vel fratres, aut soróres, aut patrem, aut matrem,
           aut uxórem, aut fílios, aut agros, propter nomen meum, céntuplum
           accípiet, et vitam ætérnam possidébit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Pedro a Jesus: «Eis que deixámos tudo e Vos
           seguimos. Que recompensa teremos por isso?». Jesus disse-lhes: «Em
           verdade vos digo: vós, que me seguistes, quando, no tempo da
@@ -250,38 +250,38 @@ export default function Page0125() {
           Israel. Todo aquele que deixar a sua casa, ou os seus irmãos, ou os
           seus campos, ou o seu pai, ou a sua mãe, ou a sua mulher por causa do
           meu nome, receberá o cêntuplo e possuirá a vida eterna».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 138, 17</Text>
+      <Typography className="em">Sl. 138, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est
           principátus eórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Largamente, ó meu Deus, tendes honrado os vossos amigos: e
           extraordinariamente tendes favorecido o seu poder.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Apóstoli tui Pauli précibus, Dómine, plebis tuæ dona sanctífica: ut,
           quæ tibi tuo grata sunt institúto, gratióra fiant patrocínio
           supplicántis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, pelas orações do vosso Apóstolo Paulo, santificai as ofertas
           do vosso povo, para que, sendo-vos elas já em si agradáveis, porque
           foram por Vós instituídas, mais agradáveis ainda Vos sejam, pelas
           súplicas do intercessor. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta Comemoração de S. Pedro" />
@@ -293,32 +293,32 @@ export default function Page0125() {
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 19, 28 & 29</Text>
+      <Typography className="em">Mt. 19, 28 & 29</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Amen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis me,
           céntuplum accipiétis, et vitam ætérnam possidébitis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Em verdade vos digo: Vós, que tudo abandonastes e me seguistes,
           recebereis o cêntuplo e alcançareis a vida eterna.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sanctificáti, Dómine, salutári mystério: quǽsumus; ut nobis ejus non
           desit orátio, cujus nos donásti patrocínio gubernári. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Já santificados, Senhor, com este salutar mystério, Vos imploramos que
           nunca nos falte a intercessão daquele a cujo amparo fomos confiados.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio Comemoração de S. Pedro" />

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,49 +10,49 @@ export default function PagePent175() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl 104:3-4</Text>
+      <Typography className="em">Sl 104:3-4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Lætétur cor quæréntium Dóminum: quǽrite Dóminum, et confirmámini:
-          quǽrite fáciem ejus semper. <Text className="latin">Ps 104:1</Text>{" "}
+          quǽrite fáciem ejus semper. <Typography className="latin">Ps 104:1</Typography>{" "}
           Confitémini Dómino et invocáte nomen ejus: annuntiáte inter gentes
           ópera ejus.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Alegre-se o coração daqueles que procuram o Senhor: procurai o Senhor;
           procurai-o incessantemente; procurai a sua presença sempre.{" "}
-          <Text className="vernacular">Sl 104:1</Text> Louvai o Senhor e invocai
+          <Typography className="vernacular">Sl 104:1</Typography> Louvai o Senhor e invocai
           o seu nome: anunciai aos povos as suas obras.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, observatiónes sacras ánnua
           devotióne recoléntes, et córpore tibi placeámus et mente. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deus omnipotente, Vos suplicamos, permiti que, observando nós,
           anualmente, com religiosa devoção estas sacrossantas práticas, Vos
           possamos agradar tanto com o nosso corpo, como com a nossa alma. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Os 14:2-10</Text>
+      <Typography className="em">Os 14:2-10</Typography>
 
       <Language>
-        <Text className="latin">Léctio Osee Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Oseas.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Osee Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Oseas.</Typography>
+        <Typography className="latin">
           Hæc dicit Dóminus Deus: Convértere, Israël, ad Dóminum, Deum tuum:
           quóniam corruísti in iniquitáte tua. Tóllite vobíscum verba, et
           convertímini ad Dóminum et dícite ei: Omnem aufer iniquitátem, áccipe
@@ -69,8 +69,8 @@ export default function PagePent175() {
           sápiens, et intélleget ista? intéllegens, et sciet hæc? Quia rectæ viæ
           Dómini, et justi ambulábunt in eis: prævaricatóres vero córruent in
           eis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eis o que diz o Senhor Deus: «Ó Israel, converte-te ao Senhor, teu
           Deus; pois foi a tua iniquidade, que te fez cair. Fala como se fossem
           tuas estas palavras, converte-te ao Senhor e diz-Lhe: «extingui toda a
@@ -92,40 +92,40 @@ export default function PagePent175() {
           não compreende estas coisas? Quem é inteligente, e as não penetra?
           Pois os caminhos do Senhor são direitos: os justos andarão neles, mas
           os rebeldes cairão».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl 89:13, 1</Text>
+      <Typography className="em">Sl 89:13, 1</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Convértere, Dómine, aliquántulum, et deprecáre super servos tuos.
-          <Text className="versicle"> ℣. </Text>Dómine, refúgium factus es
+          <Typography className="versicle"> ℣. </Typography>Dómine, refúgium factus es
           nobis, a generatióne et progénie.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Volvei-Vos para nós, Senhor, ainda que seja um pouco, e atendei aos
-          Vossos servos.<Text className="versicle"> ℣. </Text>Senhor, tendes
+          Vossos servos.<Typography className="versicle"> ℣. </Typography>Senhor, tendes
           sido de geração em geração o nosso refúgio.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc 7:36-50</Text>
+      <Typography className="em">Lc 7:36-50</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Rogábat Jesum quidam de pharisǽis, ut manducáret cum
           illo. Et ingréssus domum pharisǽi, discúbuit. Et ecce, múlier, quæ
           erit in civitáte peccátrix, ut cognóvit, quod accubuísset in domo
@@ -150,8 +150,8 @@ export default function PagePent175() {
           peccáta. Et cœpérunt, qui simul accumbébant, dícere intra se: Quis est
           hic, qui étiam peccáta dimíttit? Dixit autem ad mulíerem: Fides tua te
           salvam fecit: vade in pace.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, um fariseu pediu a Jesus que comesse com ele à sua
           mesa. Havendo, pois, Jesus entrado em sua casa, sentou-se à mesa. E
           eis que uma mulher pecadora que havia na cidade, sabendo que Jesus
@@ -179,68 +179,68 @@ export default function PagePent175() {
           pecados são-te perdoados!». Então aqueles que estavam à mesa começaram
           a dizer uns aos outros: «Quem é este que também perdoa pecados?» E
           Jesus disse à mulher: «A tua fé te salvou, vai em paz».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl 102:2, 5</Text>
+      <Typography className="em">Sl 102:2, 5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Bénedic, ánima mea, Dómino, et noli oblivísci omnes retributiónes
           ejus: et renovábitur, sicut áquilæ, juvéntus tua.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó minha alma, louva o Senhor; não esqueças nunca os benefícios que te
           fez: e a tua juventude se renovará, como a da água.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Accépta tibi sint, Dómine, quǽsumus, nostri dona jejúnii: quæ et
           expiándo nos tua grátia dignos effíciant, et ad sempitérna promíssa
           perdúcant. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicamos, dignai-Vos aceitar a oferta do nosso jejum,
           para que, servindo de expiação das nossas faltas, nos tornemos dignos
           da vossa graça e sejamos conduzidos aos bens eternos, que nos
           prometestes. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl 118:22, 24</Text>
+      <Typography className="em">Sl 118:22, 24</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Aufer a me oppróbrium et contémptum, quia mandáta tua exquisívi,
           Dómine: nam et testimónia tua meditátio mea est.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Afastai de mim a desonra e o desprezo, porque, Senhor, cumpri so
           vossos mandamentos. A vossa lei é objecto da minha constante
           meditação.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias
           exhibéntes, benefícia potióra sumámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos imploramos, permiti que, dando-Vos nós graças pelos
           benefícios que recebemos, alcancemos outros ainda mais preciosos. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

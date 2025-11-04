@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -10,7 +10,7 @@ export default function Page1213() {
     <PageWrapper>
       <H1 text="Santa Luzia, Virgem e Mártir, a 13 de Dezembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Nascida na Sicília, pelo fim do século III, de família nobre, Santa
         Luzia, como nos recorda por duas vezes o Evangelho, desfez-se de todos
         os seus bens em favor dos pobres e, quando nada mais possuía, deu-se a
@@ -27,43 +27,43 @@ export default function Page1213() {
         milhares de Sacerdotes que glorificam a Deus em seu nome. Morreu em 303.
         Com a lâmpada acesa, isto é, com a alma em estado de graça, esperemos
         neste Tempo do Advento o Esposo que virá brevemente.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/20virgemnaomartir1">
           Missa Dilexísti justitiam
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 44, 8</Text>
+      <Typography className="em">Sl. 44, 8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dilexísti justítiam, et odísti iniquitátem.
-          <Text className="versicle"> ℣. </Text>Proptérea unxit te Deus, Deus
+          <Typography className="versicle"> ℣. </Typography>Proptérea unxit te Deus, Deus
           tuus, óleo lætítiæ.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Amastes a justiça e odiastes a iniquidade.
-          <Text className="versicle"> ℣. </Text>Por isso o Senhor, vosso Deus,
+          <Typography className="versicle"> ℣. </Typography>Por isso o Senhor, vosso Deus,
           ungiu-vos com o óleo da alegria, de preferência às vossas
           companheiras.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 3</Text> Diffúsa est grátia in lábiis
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 3</Typography> Diffúsa est grátia in lábiis
           tuis: proptérea benedíxit te Deus in ætérnum. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 3</Text> A graça espalhou-se nos
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 3</Typography> A graça espalhou-se nos
           vossos lábios; por isso Deus vos abençoou por todos os séculos.
           Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -75,34 +75,34 @@ export default function Page1213() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 44, 15-16</Text>
+      <Typography className="em">Sl. 44, 15-16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Afferéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in
           lætítia et exsultatióne: adducéntur in templum Regi Dómino.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Após ela serão apresentadas virgens ao Rei; as suas companheiras serão
           introduzidas no meio da alegria e júbilo: serão conduzidas ao Senhor
           no templo do Rei.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 118, 161-162</Text>
+      <Typography className="em">Sl. 118, 161-162</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Príncipes persecúti sunt me gratis, et a verbis tuis formidávit cor
           meum: lætábor ego super elóquia tua, quasi qui invénit spólia multa.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Os príncipes perseguiram-me injustamente, mas o meu coração não temeu
           senão as vossas palavras. Regozijar-me-ei com vossas palavras, como se
           um homem houvera achado ricos despojos.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

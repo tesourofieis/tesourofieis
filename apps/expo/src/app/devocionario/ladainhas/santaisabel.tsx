@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -6,8 +6,8 @@ export default function PageSantaisabel() {
   return (
     <PageWrapper>
       <H1 text="Ladainha Santa Isabel" />
-      <Text className="vernacular">Senhor, tende piedade de nós.</Text>
-      <Text className="vernacular">
+      <Typography className="vernacular">Senhor, tende piedade de nós.</Typography>
+      <Typography className="vernacular">
         Cristo, tende piedade de nós.{"\n"}
         Senhor, tende piedade de nós.{"\n"}
         Jesus Cristo, ouvi-nos.{"\n"}
@@ -65,23 +65,23 @@ export default function PageSantaisabel() {
         {"\n"}
         Cordeiro de Deus, que tirais os pecados do mundo, tende piedade de nós.
         {"\n"}
-      </Text>
-      <Text className="vernacular">
-        <Text className="versicle"> ℣. </Text> Rogai por nós, Santa Isabel.
-      </Text>
-      <Text className="vernacular">
-        <Text className="response"> ℟. </Text>
+      </Typography>
+      <Typography className="vernacular">
+        <Typography className="versicle"> ℣. </Typography> Rogai por nós, Santa Isabel.
+      </Typography>
+      <Typography className="vernacular">
+        <Typography className="response"> ℟. </Typography>
         Para que sejamos dignos das promessas de Cristo.
-      </Text>
-      <Text className="text-center text-red-500">Oremos.</Text>
-      <Text className="vernacular">
+      </Typography>
+      <Typography className="text-center text-red-500">Oremos.</Typography>
+      <Typography className="vernacular">
         Ó Deus clementíssimo, que entre outros eminentes dotes ornastes a Rainha
         Santa Isabel com a prerrogativa de aplacar os horrores da guerra,
         concedei-nos por sua intercessão que, depois de passarmos em paz esta
         vida mortal, como humildemente pedimos, alcancemos as alegrias eternas.
         Por Nosso Senhor Jesus Cristo, vosso Filho, que convosco vive e reina
         com o Espírito Santo por todos os séculos dos séculos. Amen.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

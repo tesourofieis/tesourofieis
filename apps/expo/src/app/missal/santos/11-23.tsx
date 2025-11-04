@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page1123() {
     <PageWrapper>
       <H1 text="S. Clemente, Papa e Mártir, a 23 de Novembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Successor de S. Pedro, São Clemente é nomeado, em terceiro logar no
         Canon da Missa, depois dos Apostolos (Lini, Cleti, Clementis, p. 89). A
         carta de S. Clemente aos Corinthios é um dos mais preciosos escriptos
@@ -36,50 +36,50 @@ export default function Page1123() {
         trium-pho, o altar, disposto de modo a ficar o sacerdote celebrante
         voltado para o povo. Atraz do altar, no fundo do abside, a cathedra do
         bispo em roda da qual reunia-se o clero.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/sumospontifices">
           Missa Si díligis me
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Is. 59, 21; 56, 7</Text>
+      <Typography className="em">Is. 59, 21; 56, 7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dicit Dóminus: Sermónes mei, quos dedi in os tuum, non defícient de
           ore tuo: et múnera tua accépta erunt super altáre meum.{" "}
-          <Text className="latin">Ps. 111, 1</Text> Beátus vir, qui timet
+          <Typography className="latin">Ps. 111, 1</Typography> Beátus vir, qui timet
           Dóminum: in mandátis ejus cupit nimis.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Disse o Senhor: Minhas palavras, que pus na vossa boca, não cessarão
           de estar nos vossos lábios; e então os dons, que apresentardes nos
           meus altares, ser-me-ão agradáveis.{" "}
-          <Text className="vernacular">Sl. 111, 1</Text> Bem-aventurado o varão
+          <Typography className="vernacular">Sl. 111, 1</Typography> Bem-aventurado o varão
           que teme o Senhor: e cujo zelo é ardente no cumprimento dos seus
-          mandamentos.<Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          mandamentos.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Fl. 3, 17-21; 4, 1-3</Text>
+      <Typography className="em">Fl. 3, 17-21; 4, 1-3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Philippenses.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Imitatóres mei estóte, et observáte eos, qui ita ámbulant,
           sicut habétis formam nostram. Multi enim ámbulant, quos sæpe dicébam
           vobis (nunc autem et flens dico) inimícos Crucis Christi: quorum finis
@@ -93,8 +93,8 @@ export default function Page1123() {
           idípsum sápere in Dómino. Etiam rogo et te, germáne compar, ádjuva
           illas, quæ mecum laboravérunt in Evangélio cum Cleménte et céteris
           adjutóribus meis, quorum nómina sunt in libro vitæ.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Sede meus imitadores e segui aqueles que se conduzem
           segundo o modelo que tendes em nós, porque há muitos, de quem vos
           tenho falado (e ainda falo deles com lágrimas), que se portam como
@@ -111,7 +111,7 @@ export default function Page1123() {
           rogo, ó fiel companheiro, que auxilieis aqueles que trabalharam comigo
           pelo Evangelho com Clemente e com os outros meus coadjutores, cujos
           nomes estão escritos no livro da vida.
-        </Text>
+        </Typography>
       </Language>
 
       <H2 text="Comemoração de Santa Felicidade" />
@@ -119,45 +119,45 @@ export default function Page1123() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, beátæ Felicitátis Martyris tuæ
           sollémnia recenséntes, méritis ipsíus protegámur et précibus. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedei-nos, ó Deus omnipotente, Vos suplicamos, que, celebrando nós
           a solenidade da B. Felicidade, vossa Mártir, sejamos protegidos pelos
           seus méritos e preces. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vota pópuli tui, Dómine, propitiátus inténde: et, cujus nos tríbuis
           sollémnia celebráre, fac gaudére suffrágiis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aceitai propício, Senhor, os votos do vosso povo e fazei-nos gozar o
           efeito dos sufrágios daquela cuja festa nos permitis celebrar. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Súpplices te rogámus, omnípotens Deus: ut, intercedéntibus Sanctis
           tuis, et tua in nobis dona multíplices, et témpora nostra dispónas.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, humildemente Vos suplicamos, pela intercessão dos
           vossos Santos, que multipliqueis sobre nós os vossos benefícios e
           governeis os dias da nossa vida. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

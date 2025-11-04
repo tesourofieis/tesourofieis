@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0927() {
     <PageWrapper>
       <H1 text="S. S. Cosme e Damião, Mártires, a 27 de Setembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Irmãos pelo sangue, os SS. Cosme e Damião o foram sobretudo pela fé em
         Jesus e pelo martírio comum, sofrido pelo Cristo (All.). Naturais de
         Egeu, na Arabia, medicos distinctos do reinado de Diocleciano e
@@ -25,122 +25,122 @@ export default function Page0927() {
         faz a Estação na Quinta-Feira da 3ª Semana da Quaresma (1). Seus nomes
         estão inscriptos no Canon da Missa, em seguida a alguns mártires
         romanos.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/7muitosmartires2">
           Missa Sapiéntiam sanctórum
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, qui sanctórum Mártyrum tuórum
           Cosmæ et Damiáni natalítia cólimus, a cunctis malis imminéntibus,
           eórum intercessiónibus, liberémur. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedei-nos, ó Deus omnipotente, Vos rogamos, que, celebrando o
           nascimento no céu dos vossos B. B. Mártires Cosme e Damião, sejamos
           livres, graças à sua intercessão, de todos os males que nos ameaçam.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 33, 18-19</Text>
+      <Typography className="em">Sl. 33, 18-19</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus
           tribulatiónibus eórum liberávit eos.
-          <Text className="versicle"> ℣. </Text>Juxta est Dóminus his, qui
+          <Typography className="versicle"> ℣. </Typography>Juxta est Dóminus his, qui
           tribuláto sunt corde: et húmiles spíritu salvabit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Clamaram os justos; então o Senhor ouviu-os e livrou-os de todas suas
-          aflições.<Text className="versicle"> ℣. </Text>O Senhor está próximo
+          aflições.<Typography className="versicle"> ℣. </Typography>O Senhor está próximo
           daqueles que têm o coração atribulado; e salvará os que têm o espírito
           humilhado.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Hæc est vera
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Hæc est vera
           fratérnitas, quæ vicit mundi crímina: Christum secuta est, ínclita
           tenens regna cœléstia. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Esta é a
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Esta é a
           verdadeira fraternidade que venceu os crimes do mundo: Ela seguiu
           Cristo, possuindo gloriosamente o reino celestial. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 5, 12-13</Text>
+      <Typography className="em">Sl. 5, 12-13</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Gloriabúntur in te omnes, qui díligunt nomen tuum: quóniam tu, Dómine,
           benedíces justo: Dómine, ut scuto bonæ voluntátis tuæ coronásti nos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Em Vós se alegrarão, Senhor, os que amam o vosso nome; pois, Senhor,
           abençoais o justo. Rodeastes-nos, Senhor, com vosso amor, como se fora
           um escudo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sanctórum tuórum nobis, Dómine, pia non desit orátio: quæ et múnera
           nostra concíliet, et tuam nobis indulgéntiam semper obtíneat. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que a piedosa oração dos vossos Santos, Senhor, nos não falte; e que
           Vos torne recomendáveis as nossas ofertas e nos obtenha sempre a vossa
           misericórdia. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 78, 2 & 11</Text>
+      <Typography className="em">Sl. 78, 2 & 11</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Posuérunt mortália servórum tuórum, Dómine, escas volatilíbus cœli,
           carnes Sanctórum tuórum béstiis terræ: secúndum magnitúdinem bráchii
           tui pósside fílios morte punitórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deram os cadáveres dos vossos servos, Senhor, em alimento às aves do
           céu, e as carnes dos vossos Santos às feras da terra. Com o poder do
           vosso braço, salvai os filhos daqueles que foram condenados à morte.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Prótegat, quǽsumus, Dómine, pópulum tuum et participátio cœléstis
           indúlta convívii, et deprecátio colláta Sanctórum. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que o vosso povo, Senhor, Vos suplicamos, seja protegido pela
           participação, do celestial banquete, que lhe proporcionastes, e pela
           intercessão, que lhe concedestes, dos vossos Santos. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

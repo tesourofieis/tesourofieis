@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -6,7 +6,7 @@ export default function PageDesagravo() {
   return (
     <PageWrapper>
       <H1 text="Oração de Desagravo" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó Cruz adorável do meu amantíssimo Jesus!... Como vós sois bela!... Como
         vós faleis ao meu pobre coração!... De vós pendeu o meu Deus feito homem
         por meu amor!... Pregado em vós deu-me até à última gota o sangue
@@ -30,7 +30,7 @@ export default function PageDesagravo() {
         amem, ó Cruz da minha alma, ó Cruz do meu Jesus!... E, se para ser
         ouvido é necessário um sacrifício, eu, aqui estou por vós pronto para
         tudo, contando que me salveis e salveis Portugal. Amen.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

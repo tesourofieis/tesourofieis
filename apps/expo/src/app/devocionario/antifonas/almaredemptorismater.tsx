@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,108 +9,108 @@ export default function PageAlmaredemptorismater() {
       <H1 text="Alma Redemptóris Mater" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Alma Redemptóris Mater, quæ pérvia cæli porta manes, et stella maris,
           succúrre cadénti, Súrgere qui curat, pópulo: tu quæ genuísti, Natúra
           miránte, tuum sanctum Genitórem, Virgo prius ac postérius, Gabriélis
           ab ore Sumens illud Ave, peccatórum miserére.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Santa Mãe do Redentor, Porta do Céu, Estrela do Mar, socorrei o povo
           cristão que procura levantar-se do abysmo da culpa. Vós que, acolhendo
           a saudação do Anjo, gerastes, com admiração da natureza, o vosso santo
           Criador, ó sempre Virgem Maria, tende misericórdia dos pecadores.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">Durante o Advento:</Text>
+      <Typography className="aside">Durante o Advento:</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text>Angelus Dómini nuntiávit Maríæ.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>O Anjo do Senhor anunciou a
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography>Angelus Dómini nuntiávit Maríæ.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>O Anjo do Senhor anunciou a
           Maria.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Et concépit de Spíritu Sancto.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> E Ela concebeu do Espírito
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Et concépit de Spíritu Sancto.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> E Ela concebeu do Espírito
           Santo.
-        </Text>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
           Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde: ut qui,
           Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus, per
           passiónem ejus et crucem ad resurrectiónis glóriam perducámur. Per
           eumdem Christum, Dóminum nostrum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Infundi, Senhor, Vos suplicamos, a vossa graça em nossas almas, para
           que nós, que pela anunciação do Anjo conhecemos a Incarnação do vosso
           Filho, sejamos conduzidos à glória da ressurreição pela sua Paixão e
           Cruz. Pelo mesmo Jesus Cristo Senhor Nosso.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         A partir das Vésperas do Natal até à Purificação:
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text>Post partum Virgo invioláta
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography>Post partum Virgo invioláta
           permansísti.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>Despois do parto, Virgem,
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Despois do parto, Virgem,
           permaneceste inviolada.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Dei Génitrix, intercéde pro
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Dei Génitrix, intercéde pro
           nobis.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Mãe de Deus, intercedei por
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Mãe de Deus, intercedei por
           nós.
-        </Text>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
           Deus, qui salútis ætérnæ beátæ Maríæ virginitáte fecúnda humáno géneri
           práemia præstitísti: tríbue, quáesumus, ut ipsam pro nobis intercédere
           sentiámus, per quam merúimus, Auctórem vitæ suscípere Dóminum nostrum
           Jesum Christum Fílium tuum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deus, que prestastes ao género humano o prémio da salvação eterna,
           pela fecunda virgindade da bem-aventurada Maria, dai, pedimos, que a
           sintamos interceder por nós, por quem merecemos receber o autor da
           vida, nosso Senhor Jesus Cristo, vosso Filho.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
       </Language>
     </PageWrapper>
   );

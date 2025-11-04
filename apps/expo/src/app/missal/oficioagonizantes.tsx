@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -11,17 +11,17 @@ export default function PageOficioagonizantes() {
       <H1 text="Ladainha de Todos os Santos" />
       <LadainhaSantos />
       <H1 text="Em agonia" />
-      <Text className="aside">
+      <Typography className="aside">
         Quando o enfermo se encontra na agonia diz-se:
-      </Text>
+      </Typography>
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
           Proficiscere, anima christiana, de hoc mundo, in nomine Dei Patris
           omnipotentis, qui te creavit: in nomine Iesu Christi, Filii Dei vivi,
           qui pro te passus est: in nomine Spiritus Sancti, qui in te effusus
@@ -35,8 +35,8 @@ export default function PageOficioagonizantes() {
           sanctarum Virginum, et omnium Sanctorum et Sanctarum Dei. Hodie sit in
           pace locus tuus, et habitatio tua in sancta Sion. Per eundem Christum
           Dominum nostrum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Parti deste mundo, ó alma cristã, em Nome de Deus Pai omnipotente, que
           Vos criou; em Nome de Jesus Cristo, Filho de Deus vivo, que padeceu
           por amor de vós; em Nome do Espírito Santo, de quem recebestes a
@@ -49,27 +49,27 @@ export default function PageOficioagonizantes() {
           Santos Monges e Eremitas; em nome das Santas Virgens e de todos os
           Santos e Santas de Deus: que a vossa morada seja desde hoje na paz e a
           vossa habitação na santa Sião. Pelo mesmo Cristo nosso Senhor.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
       </Language>
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
           Deus misericors, Deus clemens, Deus qui secundum multitudinem
           miserationum tuarum peccata paenitentium deles, et praeteritorum
           criminum culpas venia remissionis evacuas: respice propitius super
-          hunc famulum tuum <Text className="latin">N.</Text> (hanc famulam tuam{" "}
-          <Text className="text-red-500">N.</Text>), et remissionem ominum
+          hunc famulum tuum <Typography className="latin">N.</Typography> (hanc famulam tuam{" "}
+          <Typography className="text-red-500">N.</Typography>), et remissionem ominum
           peccatorum suorum tota cordis confessione poscentem deprecatus exaudi.
           Renova in eo (ea), piissime Pater, quidquid terrena fragilitate
           corruptum, vel quidquid diabolica fraude violatum est; et unitati
@@ -77,13 +77,13 @@ export default function PageOficioagonizantes() {
           gemituum, miserere lacrimarum eius; et, non habentem fiduciam, nisi in
           tua misericordia, ad tuae sacramentum reconciliationis admitte. Per
           Christum Dominum nostrum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus clemente e misericordioso, que, segundo a grandeza e abundância
           das vossas misericórdias, apagais os pecados dos corações penitentes e
           que, pelo poder do vosso perdão, fazeis desaparecer as nódoas das suas
           culpas passadas, dignai-Vos olhar propício para o vosso servo (ou
-          vossa serva) <Text className="vernacular">N.</Text>, ouvi a súplica
+          vossa serva) <Typography className="vernacular">N.</Typography>, ouvi a súplica
           que Vos dirige e concedei-lhe a remissão de todos seus pecados, como
           Vos pede agora, confessando-os e detestando-os do íntimo do coração.
           Renovai nele (ou nela) , ó Pai clementíssimo, tudo aquilo que a
@@ -93,16 +93,16 @@ export default function PageOficioagonizantes() {
           lágrimas; e, visto que ele (ou ela) tem confiança na vossa
           misericórdia, admiti-o ao mystério da reconciliação. Por Cristo Senhor
           nosso.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
       </Language>
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Commendo te omnipotenti Deo, carissime frater (carissima soror), et
           ei, cuius es creatura, committo ; ut, cum humanitatis debitum morte
           interveniente persolveris, ad auctorem tuum qui te de limo terrae
@@ -133,8 +133,8 @@ export default function PageOficioagonizantes() {
           videas, et, praesens semper assistens, manifestissimam beatis oculis
           aspicias veritatem. Constitutus (-a) igitur inter agmina Beatorum,
           contemplationis divinae dulcedine potiaris in saecula saeculorum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meu caríssimo irmão (ou irmã), eu vos confio a Deus omnipotente e Vos
           entrego Àquele que vos criou, a fim de que, depois de haverdes pago
           com vossa morte a dívida que todos os homens contraíram, volteis para
@@ -172,248 +172,248 @@ export default function PageOficioagonizantes() {
           inteiramente manifestada. Finalmente, tendo ocupado um lugar nas
           fileiras dos escolhidos, gozeis a suave alegria de contemplar o vosso
           Deus em todos os séculos dos séculos.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
       </Language>
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
           Suscipe, Domine, servum tuum (ancillam tuam) in locum sperandae sibi
           salvationis a misericordia tua.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Recebei, Senhor, a alma do vosso servo (ou serva) no lugar da salvação
           como ele (ou ela) deseja, segundo a sua esperança na vossa
           misericórdia.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="latin">
           Libera, Domine, animam servi tui (ancillae tuae) ex omnibus periculis
           inferni, et de laqueis poenarum, et ex omnibus tribulationibus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Livrai, Senhor, a alma do vosso servo (ou serva) de todos os perigos
           do inferno, das penas que a ameaçam e de todas as tribulações.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="latin">
           Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
           Henoch et Eliam de communi morte mundi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Livrai, Senhor, a alma do vosso servo (ou serva) como outrora
           livrastes Henoc e Elias da morte comum ao homem.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="latin">
           Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti Noe
           de diluvio.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Livrai, Senhor, a alma do vosso servo (ou serva) como outrora
           livrastes Noé do dilúvio.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="latin">
           Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
           Abraham de Ur Chaldaeorum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Livrai, Senhor, a alma do vosso servo (ou serva) como outrora
           livrastes Abraão de Ur, na Caldeia.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="latin">
           Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti Job
           de passionibus suis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Livrai, Senhor, a alma do vosso servo (ou serva) como outrora
           livrastes Job dos seus sofrimentos.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="latin">
           Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
           Isaac de hostia, et de manu patris sui Abrahae.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Livrai, Senhor, a alma do vosso servo (ou serva) como outrora
           livrastes Isaque das mãos de seu pai Abraão, quando este ia imolá-lo.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="latin">
           Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti Lot
           de Sodomis, et de flamma ignis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Livrai, Senhor, a alma do vosso servo (ou serva) como outrora
           livrastes Lot de Sodoma e das chamas de fogo.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="latin">
           Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
           Moysen de manu pharaonis regis Aegyptiorum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Livrai, Senhor, a alma do vosso servo (ou serva) como outrora
           livrastes Moisés das mãos de Faraó, rei do Egipto.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="latin">
           Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
           Danielem de lacu leonum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Livrai, Senhor, a alma do vosso servo (ou serva) como outrora
           livrastes Daniel da cova dos leões.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="latin">
           Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti tres
           pueros de camino ignis ardentis, et de manu regis iniqui.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Livrai, Senhor, a alma do vosso servo (ou serva) como outrora
           livrastes os três jovens das chamas da fornalha ardente e das mãos de
           um rei iníquo.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="latin">
           Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
           Susannam de falso crimine.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Livrai, Senhor, a alma do vosso servo (ou serva) como outrora
           livrastes Susana de uma acusação falsa.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="latin">
           Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
           David de manu regis Saul, et de manu Goliae.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Livrai, Senhor, a alma do vosso servo (ou serva) como outrora
           livrastes David das mãos do rei Saúl e de Golias.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="latin">
           Libera, Domine, animam servi tui (ancillae tuae), sicut liberasti
           Petrum et Paulum de carceribus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Livrai, Senhor, a alma do vosso servo (ou serva) como outrora
           livrastes S. Pedro e S. Paulo do cárcere.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="latin">
           Et sicut beatissimam Theclam Virginem et Martyrem tuam de tribus
           atrocissimis tormentis liberasti, sic liberare digneris animam huius
           servi tui ( ancillae tuae), et tecum facias in bonis congaudere
           caelestibus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           E como outrora livrastes a bem-aventurada Tecla, vossa Virgem e
           Mártir, de três horríveis tormentos, dignai-Vos também livrar a alma
           do vosso servo (ou serva) e concedei-lhe o gozo dos bens celestiais.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
       </Language>
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
           Commendamus tibi, Domine, animam famuli tui{" "}
-          <Text className="latin">N.</Text> (famulae tuae{" "}
-          <Text className="text-red-500">N.</Text>), precamurque te, Domine Iesu
+          <Typography className="latin">N.</Typography> (famulae tuae{" "}
+          <Typography className="text-red-500">N.</Typography>), precamurque te, Domine Iesu
           Christe, Salvator mundi, ut, propter quam ad terram misericorditer
           descendisti, Patriarcharum tuorum sinibus insinuare non renuas.
           Agnosce, Domine, creaturam tuam, non a diis alienis creatam, sed a te,
@@ -424,10 +424,10 @@ export default function PageOficioagonizantes() {
           tamen Patrem, et Filium, et Spiritum Sanctum non negavit, sed
           credidit; et zelum Dei in se habuit, et Deum, qui fecit omnia,
           fideliter adoravit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos entregamos, Senhor, a alma do vosso servo (ou serva){" "}
-          <Text className="vernacular">N.</Text> e, Vos suplicamos, ó Senhor
+          <Typography className="vernacular">N.</Typography> e, Vos suplicamos, ó Senhor
           Jesus Cristo, salvador do mundo, não recuseis receber, no seio dos
           vossos Patriarcas, esta alma, pela qual viestes misericordiosamente ao
           mundo. Reconhecei, Senhor, a vossa criatura que não foi criada por
@@ -439,22 +439,22 @@ export default function PageOficioagonizantes() {
           embora ela tenha pecado, não renegou o Pai, o Filho e o Espírito
           Santo, mas acreditou e amou o seu Deus; foi fiel em adorar Deus,
           criador de todas as coisas.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
       </Language>
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
           Delicta iuventutis et ignorantias eius, quaesumus, ne memineris,
           Domine; sed secundum magnam misericordiam tuam memor esto illius in
           gloria claritatis tuae. Aperiantur ei caeli, collaetentur illi Angeli.
@@ -472,8 +472,8 @@ export default function PageOficioagonizantes() {
           vinculis carnis exutus (-a), pervenire mereatur ad gloriam regni
           caelestis, praestante Domino nostro Iesu Christo: Qui cum Patre et
           Spiritu Sancto vivit et regnat in saecula saeculorum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos suplicamos, Senhor, dignai-Vos esquecer as faltas e os erros da
           sua juventude; e, segundo a grandeza da vossa misericórdia,
           lembrai-Vos, no seio da vossa glória, dele (ou dela). Que as portas do
@@ -493,291 +493,291 @@ export default function PageOficioagonizantes() {
           livre dos laços da carne mortal, mereça alcançar a glória do reino
           celestial, pela graça de nosso Senhor Jesus Cristo: que vive e reina
           com o Pai e o Espírito Santo em todos os séculos dos séculos.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
       </Language>
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
           Clementissima Virgo Dei Genetrix, Maria, maerentium piissima
-          consolatrix, famuli (-ae) <Text className="latin">N.</Text> spiritum
+          consolatrix, famuli (-ae) <Typography className="latin">N.</Typography> spiritum
           Filio suo commendet: ut, hoc materno interventu, terrores mortis non
           timeat; sed desideratam caelestis patriae mansionem, ea comite, laetus
           (-a) adeat.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que a clementíssima Virgem Maria, Mãe de Deus e piíssima consoladora
           dos aflitos, recomende a seu Filho a alma do vosso servo (ou serva){" "}
-          <Text className="vernacular">N.</Text>, a fim de que, graças à sua
+          <Typography className="vernacular">N.</Typography>, a fim de que, graças à sua
           maternal intercessão, ela não tema os terrores da morte, mas em sua
           companhia penetre na mansão, tão ardentemente desejada, da pátria
           celestial.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
       </Language>
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
           Ad te confugio, sancte Ioseph, Patrone morientium, tibique, in cuius
           beato transitu vigiles adstiterunt Iesus et Maria, per hoc utrumque
           carissimum pignus, animam huius famuli (-ae){" "}
-          <Text className="latin">N.</Text> in extremo agone laborantem enixe
+          <Typography className="latin">N.</Typography> in extremo agone laborantem enixe
           commendo, ut ab insidiis diaboli, et a morte perpetua, te progente,
           liberetur, et ad gaudia aeterna pervenire mereatur. Per eundem
           Christum Dominum nostrum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Patrono dos moribundos, S. José, cuja bem-aventurada passagem ao céu
           foi acompanhada da presença e dos cuidados de Jesus e Maria, a vós
           recorro; e, em recordação de um e de outro, que vos foram tão
           queridos, recomendo-vos instantemente a alma deste servo (ou serva) de
-          Deus, <Text className="vernacular">N.</Text>, que agora se encontra no
+          Deus, <Typography className="vernacular">N.</Typography>, que agora se encontra no
           derradeiro combate, a fim de que, protegida por vós, seja preservada
           das ciladas do demónio e da morte eterna e mereça alcançar a posse das
           alegrias eternas. Por Cristo, nosso Senhor.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
       </Language>
       <H1 text="Prestes a Expirar" />
-      <Text className="aside">
+      <Typography className="aside">
         Quando o moribundo está Prestes a expirar, diligenciar-se-á que ele
         diga:
-      </Text>
-      <Text className="vernacular">Jesus! Jesus! Jesus!</Text>
-      <Text className="aside">
+      </Typography>
+      <Typography className="vernacular">Jesus! Jesus! Jesus!</Typography>
+      <Typography className="aside">
         Se ele não pode Pronunciar estes nomes, serão Proferidos por quem diz o
         Ofício da Agonia, de maneira que ele os ouça; e do mesmo modo se
         continuará:
-      </Text>
+      </Typography>
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In manus tuas, Domine, commendo spiritum meum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, nas vossas mãos entrego o meu espírito!
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Domine Iesu Christe, suscipe spiritum meum.
-        </Text>
-        <Text className="vernacular">Senhor, recebei o meu espírito!</Text>
-        <Text className="latin">Sancta Maria, ora pro me.</Text>
-        <Text className="vernacular">Santa Maria, rogai por mim.</Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="vernacular">Senhor, recebei o meu espírito!</Typography>
+        <Typography className="latin">Sancta Maria, ora pro me.</Typography>
+        <Typography className="vernacular">Santa Maria, rogai por mim.</Typography>
+        <Typography className="latin">
           Maria, mater gratiae, mater misericordiae, tu me ab hoste protege, et
           hora mortis suscipe.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Santa Maria, Mãe de graça e Mãe de misericórdia, defendei-me contra o
           inimigo e recebei-me na hora da morte.
-        </Text>
-        <Text className="latin">Sancte Ioseph, ora pro me.</Text>
-        <Text className="vernacular">José, rogai por mim.</Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">Sancte Ioseph, ora pro me.</Typography>
+        <Typography className="vernacular">José, rogai por mim.</Typography>
+        <Typography className="latin">
           Sancte Ioseph, cum Virgine Sponsa tua, aperi mihi divinae
           misericordiae sinum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           S. José, abri-me, juntamente com a B. Virgem Maria, vossa Esposa, o
           seio da misericórdia divina.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Iesu, Maria, Ioseph, vobis cor et animam meam dono.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Jesus, Maria e José, eu vos dou o meu coração, a minha alma e a minha
           vida.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Iesu, Maria, Ioseph, adstate mihi in extremo agone.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Jesus, Maria e José, assisti-me na última hora da minha agonia.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Iesu, Maria, Ioseph, in pace vobiscum dormiam et requiescam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Jesus, Maria e José, repouse em paz, junto de vós, a minha alma.
-        </Text>
+        </Typography>
       </Language>
       <H1 text="No Último suspiro" />
-      <Text className="aside">
+      <Typography className="aside">
         Quando o agonizante dá o último suspiro, diz-se:
-      </Text>
+      </Typography>
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Subvenite, Sancti Dei, occurrite, Angeli Domini, Suscipientes animam
           eius, Offerentes eam in conspectu Altissimi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vinde em meu auxílio, ó Santos de Deus; vinde ao seu encontro, ó Anjos
           do Senhor: Recebei a sua alma: Apresentai-a ao Altíssimo.
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text>Suscipiat te Christus, qui
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography>Suscipiat te Christus, qui
           vocavit te, et in sinum Abrahae Angeli deducant te.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>Receba-vos Jesus Cristo, que vos
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Receba-vos Jesus Cristo, que vos
           chamou; e que os Anjos vos conduzam ao seio de Abraão.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Suscipientes animam eius,
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Suscipientes animam eius,
           Offerentes eam in conspectu Altissimi.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Recebei a sua alma:
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Recebei a sua alma:
           Apresentai-a ao Altíssimo.
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text>Requiem aeternam dona ei,
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography>Requiem aeternam dona ei,
           Domine: et lux perpetua luceat ei. Offerentes eam in conspectu
           Altissimi.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>Dai-lhe, Senhor, o repouso
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Dai-lhe, Senhor, o repouso
           eterno, e que a luz eterna lhe resplandeça para sempre: Apresentai-a
           ao Altíssimo.
-        </Text>
-        <Text className="latin">Kyrie, eleison.</Text>
-        <Text className="vernacular">Senhor, tende piedade de nós.</Text>
-        <Text className="latin">Christe, eleison.</Text>
-        <Text className="vernacular">Cristo, tende piedade de nós.</Text>
-        <Text className="latin">Kyrie, eleison.</Text>
-        <Text className="vernacular">Senhor, tende piedade de nós.</Text>
-        <Text className="latin">
-          Pater noster... <Text className="latin">in secreto usque ad:</Text>
-        </Text>
-        <Text className="vernacular">
-          Pai-nosso... <Text className="vernacular">(em voz secreta).</Text>
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text>Et ne nos inducas in
+        </Typography>
+        <Typography className="latin">Kyrie, eleison.</Typography>
+        <Typography className="vernacular">Senhor, tende piedade de nós.</Typography>
+        <Typography className="latin">Christe, eleison.</Typography>
+        <Typography className="vernacular">Cristo, tende piedade de nós.</Typography>
+        <Typography className="latin">Kyrie, eleison.</Typography>
+        <Typography className="vernacular">Senhor, tende piedade de nós.</Typography>
+        <Typography className="latin">
+          Pater noster... <Typography className="latin">in secreto usque ad:</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          Pai-nosso... <Typography className="vernacular">(em voz secreta).</Typography>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography>Et ne nos inducas in
           tentationem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>E não nos deixeis cair em
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>E não nos deixeis cair em
           tentação.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Sed libera nos a malo.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Mas livrai-nos do mal.
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text>Requiem aeternam dona ei,
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Sed libera nos a malo.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Mas livrai-nos do mal.
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography>Requiem aeternam dona ei,
           Domine.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>Dai-lhe, Senhor, o repouso
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Dai-lhe, Senhor, o repouso
           eterno.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Et lux perpetua luceat ei.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> E que lhe resplandeça a luz
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Et lux perpetua luceat ei.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> E que lhe resplandeça a luz
           perpétua.
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text> A porta inferi.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>Das portas do inferno.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Erue, Domine, animam eius.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Livrai, Senhor, esta alma.
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text> Requiescat in pace.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>Que ela descanse em paz.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text>Dómine, exáudi oratiónem meam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>Senhor, ouvi a minha oração.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Et clamor meus ad te véniat.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> E que meu clamor chegue até
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography> A porta inferi.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Das portas do inferno.
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Erue, Domine, animam eius.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Livrai, Senhor, esta alma.
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography> Requiescat in pace.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Que ela descanse em paz.
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi oratiónem meam.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha oração.
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Et clamor meus ad te véniat.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> E que meu clamor chegue até
           Vós.
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text> Dominus vobíscum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>O Senhor seja convosco.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Et cum spíritu tuo.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> E com vosso espírito.
-        </Text>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography> Dominus vobíscum.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>O Senhor seja convosco.
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+        </Typography>
       </Language>
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
           Tibi, Domine, commendamus animam famuli tui{" "}
-          <Text className="latin">N.</Text> (famulae tuae){" "}
-          <Text className="text-red-500">N.</Text> ut defunctus (-a) saeculo,
+          <Typography className="latin">N.</Typography> (famulae tuae){" "}
+          <Typography className="text-red-500">N.</Typography> ut defunctus (-a) saeculo,
           tibi vivat, et, quae per fragilitatem humanae conversationis peccata
           commisit, tu venia misericordissimae pietatis absterge. Per Christum
           Dominum nostrum. R. Amen. Si defunctus fuerit sacerdos, post nomen
           proprium addatur vox sacerdotis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos recomendamos, Senhor, a alma do vosso servo (ou serva){" "}
-          <Text className="vernacular">N.</Text>, a fim de que, saindo deste
+          <Typography className="vernacular">N.</Typography>, a fim de que, saindo deste
           mundo, viva unida a Vós; e que a vossa infinita misericórdia se digne
           apagar-lhe todos os pecados que a fraqueza humana lhe fez cometer
           durante a sua vida neste mundo. Por nosso Senhor Jesus Cristo.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

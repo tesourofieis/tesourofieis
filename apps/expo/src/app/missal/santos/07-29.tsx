@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0729() {
     <PageWrapper>
       <H1 text="Santa Marta, Virgem, a 29 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Depois de havermos celebrado a 22 deste mês a festa de Santa Maria
         Madalena, veneramos hoje Marta, sua irmã. Descendente de parentes nobres
         e ricos, morava na Betânia, a duas milhas de Jerusalém. «Jesus, diz S.
@@ -33,30 +33,30 @@ export default function Page0729() {
         Maria, e, se Ele nos chama a partilhar das solicitudes de Marta,
         procuremos, como os Santos, compensar, pelo espírito de oração, o que
         falta à vida activa.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/20virgemnaomartir1">
           Missa Dilexísti justitiam
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 10, 38-42</Text>
+      <Typography className="em">Lc. 10, 38-42</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Intrávit Jesus in quoddam castéllum: et múlier
           quædam, Martha nómine, excépit illum in domum suam: et huic erat soror
           nómine María, quæ étiam sedens secus pedes Dómini, audiébat verbum
@@ -66,8 +66,8 @@ export default function Page0729() {
           Dóminus: Martha, Martha, sollícita es et turbáris erga plúrima: porro
           unum est necessárium. María óptimam partem elégit, quæ non auferétur
           ab ea.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, entrou Jesus em um castelo, onde uma mulher, chamada
           Marta, O recebeu em sua casa. Tinha esta uma irmã, de nome Maria, que
           se assentou aos pés do Senhor, escutando suas palavras. Porém, Marta
@@ -77,7 +77,7 @@ export default function Page0729() {
           Senhor disse: «Marta, Marta, inquietai-vos e embaraçai-vos, cuidando
           solícitamente de muitas coisas, quando na verdade só uma é necessária.
           Maria escolheu a melhor parte, a qual lhe não será tirada».
-        </Text>
+        </Typography>
       </Language>
 
       <H2 text="Comemoração dos S. S. Mártires" />
@@ -85,53 +85,53 @@ export default function Page0729() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, Dómine: ut, sicut pópulus christiánus Mártyrum
           tuórum Felícis, Simplícii, Faustíni et Beatrícis temporáli
           sollemnitáte congáudet, ita perfruátur ætérna; et, quod votis
           célebrat, comprehéndat efféctu. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Permiti, Senhor, Vos suplicamos, que, assim como o povo cristão
           celebra com júbilo durante esta vida a festa dos vossos Santos
           Mártires Félix, Simplício, Faustino e Beatriz, assim também possa
           alegrar-se na eternidade, e alcance na realidade mais tarde o que
           agora honra com seus votos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hóstias tibi, Dómine, pro sanctórum Mártyrum tuórum Felícis,
           Simplícii, Faustíni et Beatrícis commemoratióne deférimus: supplíciter
           deprecántes; ut indulgéntiam nobis páriter cónferant et salútem. Per
           Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos oferecemos, Senhor, estas hóstias em memória dos vossos Santos
           Mártires Félix. Simplício, Faustino e Beatriz, suplicando-Vos
           humildemente que por eles nos concedais simultaneamente o perdão e a
           salvação. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut sanctórum Martyrum tuórum
           Felícis, Simplícii, Faustíni et Beatrícis cœléstibus mýsteriis
           celebráta sollémnitas, indulgéntiam nobis tuæ propitiatiónis acquírat.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos suplicamos, fazei que a solenidade dos vossos
           Santos Mártires Félix, Simplício, Faustino e Beatriz, que celebramos
           com estes celestiais mystérios, nos obtenha o perdão da vossa
           misericórdia. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

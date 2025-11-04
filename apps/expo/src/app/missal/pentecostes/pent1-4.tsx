@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -11,55 +11,55 @@ export default function PagePent14() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 80, 17</Text>
+      <Typography className="em">Sl. 80, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cibávit eos ex ádipe fruménti, allelúja: et de petra, melle saturávit
           eos, allelúja, allelúja, allelúja.{" "}
-          <Text className="latin">Ps. ib., 2</Text> Exsultáte Deo, adjutóri
-          nostro: jubiláte Deo Jacob.<Text className="versicle"> ℣. </Text>
+          <Typography className="latin">Ps. ib., 2</Typography> Exsultáte Deo, adjutóri
+          nostro: jubiláte Deo Jacob.<Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O Senhor alimentou-os com a flor da farinha, aleluia: e saciou-os com
           o mel tirado do rochedo, aleluia, aleluia, aleluia.{" "}
-          <Text className="vernacular">Sl. ib., 2</Text> Exultai de alegria e
+          <Typography className="vernacular">Sl. ib., 2</Typography> Exultai de alegria e
           louvai a Deus, que é o nosso sustentáculo: Aclamai com júbilo Deus de
-          Jacob.<Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          Jacob.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui nobis sub Sacraménto mirábili passiónis tuæ memóriam
           reliquísti: tríbue, quǽsumus, ita nos Córporis et Sánguinis tui sacra
           mystéria venerári; ut redemptiónis tuæ fructum in nobis júgiter
           sentiámus: Qui vivis et regnas...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que neste admirável sacramento nos deixastes o memorial da
           vossa Paixão, concedei-nos, Vos pedimos, que de tal sorte veneremos os
           sacratíssimos mystérios do vosso Corpo e Sangue, que sintamos
           perpetuamente no nosso íntimo o fruto da vossa Redenção. Vós, que,
           viveis e reinais...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Cor. 11, 23-29</Text>
+      <Typography className="em">1 Cor. 11, 23-29</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epistolæ beáti Pauli Apóstoli ad Corinthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Ego enim accépi a Dómino quod et trádidí vobis, quóniam
           Dóminus Jesus, in qua nocte tradebátur, accépit panem, et grátias
           agens fregit, et dixit: Accípite, et manducáte: hoc est corpus meum,
@@ -73,8 +73,8 @@ export default function PagePent14() {
           pane illo e dat et de calice bibat. Qui enim mánducat et bibit
           indígne, judícium sibi mánducat et bibit: non dijúdicans corpus
           Dómini.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Foi com o Senhor que aprendi aquilo que vos ensinei: Que
           o Senhor Jesus, naquela mesma noite em que foi traído, tomou o pão, e,
           dando graças, partiu-o e disse: «Tomai e comei: isto é o meu corpo,
@@ -88,55 +88,55 @@ export default function PagePent14() {
           pois, o homem a si mesmo; e, depois, coma deste pão e beba deste
           cálice; pois o que come e bebe indignamente, come e bebe a sua própria
           condenação, não distinguindo o Corpo do Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 144, 15-16</Text>
+      <Typography className="em">Sl. 144, 15-16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Oculi ómnium in te sperant, Dómine: et tu das illis escam in témpore
-          opportúno.<Text className="versicle"> ℣. </Text>Aperis tu manum tuam:
+          opportúno.<Typography className="versicle"> ℣. </Typography>Aperis tu manum tuam:
           et imples omne animal benedictióne.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Todos os olhos, Senhor, estão voltados para Vós, cheios de esperança:
           Pois dais a cada um, oportunamente, o seu sustento.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Abris as vossas mãos e saciais todos os viventes com vossas bênçãos.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Joann. 6, 56-57</Text> Caro mea vere est
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Joann. 6, 56-57</Typography> Caro mea vere est
           cibus, et sanguis meus vere est potus: qui mandúcat meam carnem et
           bibit meum sánguinem, in me manet et ego in eo.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Jo. 6, 56-57</Text> Minha Carne é
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Jo. 6, 56-57</Typography> Minha Carne é
           verdadeira comida; e o meu Sangue é verdadeira bebida. Aquele, pois,
           que come a minha carne e bebe o meu sangue permanece em mim e Eu nele.
-        </Text>
+        </Typography>
       </Language>
 
       <PageLaudaSion />
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 6, 56-59</Text>
+      <Typography className="em">Jo. 6, 56-59</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangéli secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangéli secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus turbis Judæórum: Caro mea vere est cibus
           et sanguis meus vere est potus. Qui mandúcat meam carnem e bibit meum
           sánguinem, in me manet et ego in illo. Sicu misit me vivens Pater, et
@@ -144,8 +144,8 @@ export default function PagePent14() {
           Hic est panis, qu de cœlo descéndit. Non sicu manducavérunt patres
           vestri manna, et mórtui sunt. Qu manducat hunc panem, vivet in
           ætérnum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos judeus: «Minha Carne é verdadeira
           comida e o meu Sangue é verdadeira bebida. Quem come a minha Carne e
           bebe o meu Sangue permanece em mim e Eu nele. Assim como meu Pai, que
@@ -153,72 +153,72 @@ export default function PagePent14() {
           que me comer viverá de mim. Este é o pão que desceu do céu. Porém não
           é como o maná, que os vossos pais comeram havendo morrido mais tarde.
           Quem comer este pão viverá eternamente».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Lv. 21, 6</Text>
+      <Typography className="em">Lv. 21, 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacerdótes Dómini incénsum it panes ófferunt Deo: et deo sancti erunt
           Deo suo, et lon pólluent nomen ejus, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Os sacerdotes do Senhor oferecem a Deus incenso e pães: eis porque
           serão santos diante de Deus e não profanarão o seu nome, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ecclésiæ tuæ, quǽsumus, Dómine, unitátis et pacis propítius dona
           concéde: quæ sub oblátis munéribus mýstice designántur. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos imploramos, dignai-Vos conceder à vossa Igreja os dons da
           unidade e da paz, que misticamente se figuram nas ofertas que Vos
           apresentamos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">1 Cor. 11, 26-27</Text>
+      <Typography className="em">1 Cor. 11, 26-27</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quotiescúmque manducábitis panem hunc et cálicem bibétis, mortem
           Dómini annuntiábitis, donec véniat: itaque quicúmque manducáverit
           panem vel bíberit calicem Dómini indígne, reus erit córporis et
           sánguinis Dómini, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Todas as vezes que comerdes este Pão e beberdes este Cálice
           anunciareis a morte do Senhor, até que Ele venha. Assim, todo aquele
           que comer este Pão ou beber este Cálice indignamente será réu do Corpo
           e do Sangue do Senhor. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Fac nos, quǽsumus, Dómine, divinitátis tuæ sempitérna fruitióne
           repléri: quam pretiósi Corporis et Sanguinis tui temporalis percéptio
           præfigúrat: Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Fazei, Senhor, Vos imploramos, que alcancemos eternamente a vossa
           divindade na glória eterna, que é figurada neste mundo pela recepção
           temporal do vosso Corpo e Sangue preciosíssimos. Ó Vós, que viveis
           e...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,13 +8,13 @@ export default function PageCoracaojesus() {
     <PageWrapper>
       <H1 text="Prefácio do SS. Coração de Jesus" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Diz-se na Missa da festa do Sagrado Coração de Jesus e seu Oitavário e
         nas Missas votivas do Sagrado Coração de Jesus.
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vere dignum et justum est, æquum et salutáre, nos tibi semper et
           ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus:
           Qui Unigénitum tuum, in Cruce pendéntem, láncea mílitis transfígi
@@ -24,8 +24,8 @@ export default function PageCoracaojesus() {
           refúgium. Et ídeo cum Angelis et Archángelis, cum Thronis et
           Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ
           tuæ cánimus, sine fine dicéntes:
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           É verdadeiramente digno e justo, racional e salutar que sempre e em
           todos os lugares Vos demos graças, Senhor santo, Pai omnipotente,
           eterno Deus, que quisestes que o vosso Filho Unigénito, suspenso na
@@ -36,7 +36,7 @@ export default function PageCoracaojesus() {
           penitentes. E por isso, com os Anjos e Arcanjos, com os Tronos e
           Dominações e com toda a milícia celestial, cantamos o hino da vossa
           glória, dizendo sem cessar:
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

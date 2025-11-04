@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 
 import Language from "~/components/Language";
@@ -10,7 +10,7 @@ export default function Page0831() {
     <PageWrapper>
       <H1 text="S. Raimundo Nonato, Conf., a 31 de Agosto" />
 
-      <Text className="comment">
+      <Typography className="comment">
         A Igreja celebra a 23 e a 31 de Janeiro as festas de São Raymundo de
         Pennafort e de S. Pedro Nolasco, que instituíram a Ordem de Nossa
         Senhora das Mercês; festeja hoje S. Raymundo Nonnato uma das suas
@@ -27,32 +27,32 @@ export default function Page0831() {
         resgate. Fecharam-lhe a boca com um cadeado cujo anel lhe traspassava
         cruelmente os lábios, e lançaram-no em estreita masmorra, morreu em
         1240.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/14confessoresnaopontifices1">
           Missa Os justi
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui in liberándis fidélibus tuis ab impiórum captivitáte beátum
           Raymúndum Confessórem tuum mirábilem effecísti: ejus nobis
           intercessióne concéde; ut, a peccatórum vínculis absolúti, quæ tibi
           sunt plácita, líberis méntibus exsequámur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que ao B. Raimundo, vosso Confessor, tornastes admirável na
           dedicação com que libertava os vossos fiéis do cativeiro dos ímpios,
           concedei-nos pela sua intercessão que, livres dos vínculos dos
           pecados, cumpramos com liberdade de espírito o que Vos é agradável.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

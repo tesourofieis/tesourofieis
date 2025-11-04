@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page0812() {
     <PageWrapper>
       <H1 text="S. Clara, Virgem, a 12 de Agosto" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Deus fizera surgir ao lado de S. Bento sua irmã Santa Escolástica e
         colocou ao lado de S. Francisco de Assis Santa Clara, proposta por ele à
         segunda Ordem, por eles fundada. A santa nasceu em Assis na Itália, no
@@ -31,7 +31,7 @@ export default function Page0812() {
         de Virgens, vestidas de branco, entre as quais se distinguia uma
         excedendo as outras em beleza (Off.), partiu para o esposo (Comm.) sendo
         canonizada dois anos depois pelo Papa Alexandre IV.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

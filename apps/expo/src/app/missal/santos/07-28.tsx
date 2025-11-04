@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0728() {
     <PageWrapper>
       <H1 text="S. Nazário e Outros, Mártires, a 28 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         A Igreja venera hoje Santos que viveram em épocas e países diferentes.
         Nazário, baptizado pelo Papa S. Lino, em Roma, baptizou por sua vez o
         jovem Celso, nascido em Cimiez, próximo de Nice. Foram, em seguida para
@@ -17,39 +17,39 @@ export default function Page0728() {
         68. Em 395 seus corpos foram descobertos, encontrando-se no túmulo de S.
         Nazário uma garrafinha de sangue tão vermelho como se tivesse sido
         derramado naquele mesmo dia. Uma cidade de França tem o nome do Santo.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/6muitosmartires1">
           Missa Intret in
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sanctórum tuórum nos, Dómine, Nazarii, Celsi, Vittóris et Innocéntii
           conféssio beáta commúniat: et fragilitáti nostræ subsídium dignánter
           exóret. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que a gloriosa profissão de fé dos vossos Santos Nazário, Celso, Vítor
           e Inocêncio nos fortaleça, Senhor, e que da vossa bondade alcancemos
           socorro para a nossa fraqueza. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Sb. 10, 17-20</Text>
+      <Typography className="em">Sb. 10, 17-20</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Sapiéntiæ.</Text>
-        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="latin">
           Réddidit Deus justis mercédem labórum suorum, et deduxit illos in via
           mirábili: et fuit illis in velaménto diei et in luce stellárum per
           noctem: tránstulit illos per Mare Rubrum, et transvéxit illos per
@@ -57,8 +57,8 @@ export default function Page0728() {
           altitúdine inferórum edúxit illos. Ideo justi tulérunt spolia
           impiórum, et decantavérunt, Dómine, nomen sanctum tuum, et victrícem
           manum tuam laudavérunt páriter, Dómine, Deus noster.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deus concedeu aos justos a recompensa dos seus trabalhos,
           conduzindo-os por um caminho admirável. Foi para eles sombra durante o
           dia e luz das estrelas durante a noite. Fê-los atravessar o mar
@@ -67,39 +67,39 @@ export default function Page0728() {
           arrebataram os despojos dos ímpios, cantaram hinos em honra do vosso
           santo nome, ó Senhor, e louvaram em harmonia a vossa mão vitoriosa, ó
           Senhor, nosso Deus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Concéde nobis, omnípotens Deus: ut his munéribus, quæ in sanctórum
           tuórum Nazarii, Celsi, Victóris et Innocéntii honóre deférimus, et te
           placémus exhíbitis, et nos vivificémur accéptis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, permiti que, oferecendo-Vos estas oblatas em honra
           dos vossos Santos Nazário, Celso, Vítor e Inocêncio, possamos
           aplacar-Vos, e, aceitando-as Vós, por elas alcancemos a vida. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sanctórum Nazárii, Celsi, Victóris et Innocéntii, Dómine,
           intercessióne placátus: præsta, quǽsumus; ut, quod temporáli
           celebrámus actióne, perpétua salvatióne capiámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deixai-Vos aplacar, Senhor, pela intercessão dos vossos Santos
           Nazário, Celso, Vítor e Inocêncio e, Vos suplicamos, permiti que estes
           mystérios, celebrados temporalmente, nos façam alcançar a salvação
           perpétua. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

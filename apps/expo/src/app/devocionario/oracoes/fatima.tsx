@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H2 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -7,12 +7,12 @@ export default function PageFatima() {
     <PageWrapper>
       <H1 text="Fátima" />
       <H2 text="Meu Deus pelo Anjo de Portugal" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Meu Deus! Eu creio, adoro, espero e amo-Vos. Peço-Vos perdão para os que
         não crêem, não adoram, não esperam e não Vos amam!
-      </Text>
+      </Typography>
       <H2 text="Santíssima Trindade pelo Anjo de Portugal" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Santíssima Trindade, Pai, Filho e Espírito Santo, adoro-Vos
         profundamente e ofereço-Vos o Preciosíssimo Corpo, Sangue, Alma e
         Divindade de Nosso Senhor Jesus Cristo, presente em todos os sacrários
@@ -20,25 +20,25 @@ export default function PageFatima() {
         Ele mesmo é ofendido. E, pelos méritos infinitos do seu Santíssimo
         Coração e do Coração Imaculado de Maria, peço-Vos a conversão dos pobres
         pecadores.
-      </Text>
+      </Typography>
       <H2 text="Nossa Senhora aos Santos Pastorinhos" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó meu Jesus, perdoai-nos e livrai-nos do fogo do inferno, levai as
         alminhas todas para o Céu e socorrei principalmente as que mais
         precisarem.
-      </Text>
+      </Typography>
       <H2 text="Imaculado Coração de Maria" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó Jesus, é por vosso amor, pela conversão dos pecadores e em reparação
         pelos pecados cometidos contra o Imaculado Coração de Maria!
-      </Text>
+      </Typography>
       <H2 text="Santíssimo Sacramento" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó Santíssima Trindade, eu Vos adoro. Meu Deus, meu Deus, eu Vos amo no
         Santíssimo Sacramento.
-      </Text>
+      </Typography>
       <H2 text="Avé de Fátima" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Avé, Avé, Avé Maria! Avé, Avé, Avé Maria! A Virgem Maria, Cercada de
         luz, Nossa Mãe bendita, E Mãe de Jesus. Foi aos pastorinhos, Que a
         Virgem falou, Desde então nas almas, Nova luz brilhou. Com doces
@@ -54,9 +54,9 @@ export default function PageFatima() {
         À Virgem Maria, Nossa querida Mãe! E para pagarmos, Tal graça e favor,
         Tenham nossas almas, Só bondade e amor. Avé, Virgem Santa, Estrela que
         nos guia, Avé, Mãe Pátria. Oh! Virgem Maria!
-      </Text>
+      </Typography>
       <H2 text="Hino dos Pastorinhos" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Cantemos, alegres, a uma só voz: Francisco e Jacinta rogai por nós.
         Salve, salve, Pastorinhos, Nosso encanto e alegria, Salve, salve,
         pastorinhos, Predilectos de Maria, vossos olhos inocentes, Contemplaram
@@ -69,7 +69,7 @@ export default function PageFatima() {
         conversão. Contemplando Deus no Céu, Pelos anjos adorado, Alcançai o dom
         da paz, Para o mundo extraviado. Protegei a nossa Pátria, Para que, à
         sombra da cruz, Guarde sempre a fé cristã, E a verdade de Jesus.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

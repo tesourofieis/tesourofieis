@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -11,46 +11,46 @@ export default function PageQuad34() {
       <H3 text="Intróito" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Salus pópuli ego sum, dicit Dóminus: de quacúmque tribulatióne
           clamáverint ad me, exáudiam eos: et ero illórum Dóminus in perpétuum.{" "}
-          <Text className="latin">Ps. 77, 1</Text> Atténdite, pópule meus, legem
+          <Typography className="latin">Ps. 77, 1</Typography> Atténdite, pópule meus, legem
           meam: inclináte aurem vestram in verba oris mei.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Eu sou a salvação do povo, diz o Senhor; em todas as tribulações em
           que me invocarem atendê-los-ei: e serei sempre o seu Senhor.{" "}
-          <Text className="vernacular">Sl. 77, 1</Text> Escutai, ó meu povo, a
+          <Typography className="vernacular">Sl. 77, 1</Typography> Escutai, ó meu povo, a
           minha lei: inclinai os vossos ouvidos às palavras que pronuncio.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Magníficet te, Dómine, sanctórum tuórum Cosmæ et Damiáni beáta
           sollémnitas: qua et illis glóriam sempitérnam, et opem nobis
           ineffábili providéntia contulísti. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, que nos sirva para Vos glorificar a venturosa festividade dos
           vossos santos Cosme e Damião, durante a qual concedestes àqueles a
           felicidade eterna e a nós o socorro da vossa inefável providência. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Jr. 7, l 7</Text>
+      <Typography className="em">Jr. 7, l 7</Typography>
 
       <Language>
-        <Text className="latin">Léctio Jeremíæ Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Jeremias.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Jeremíæ Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Jeremias.</Typography>
+        <Typography className="latin">
           In diébus illis: Factum est verbum Dómini ad me, dicens: Sta in porta
           domus Dómini: et prǽdica ibi verbum istud, et dic: Audíte verbum
           Dómini, omnis Juda, qui ingredímini per portas has, ut adorétis
@@ -64,8 +64,8 @@ export default function PageQuad34() {
           ambulavéritis in malum vobismetípsis: habitábo vobíscum in loco isto,
           in terra, quam dedi patribus vestris a sǽculo et usque in sǽculum: ait
           Dóminus omnípotens.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, a palavra do Senhor foi-me dirigida nestes termos:
           «Fica à porta da casa do Senhor, prega aí estas palavras e diz: Ouvi a
           palavra do Senhor, vós todos, homens de Judá, que entrais por estas
@@ -80,41 +80,41 @@ export default function PageQuad34() {
           vossa desgraça: então habitarei convosco em todos os séculos dos
           séculos, neste lugar e nesta terra, que dei a vossos pais»: diz o
           Senhor omnipotente.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 144, 15-16</Text>
+      <Typography className="em">Sl. 144, 15-16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Oculi ómnium in te sperant, Dómine: et tu das illis escam in témpore
-          opportúno.<Text className="versicle"> ℣. </Text>Aperis tu manum tuam:
+          opportúno.<Typography className="versicle"> ℣. </Typography>Aperis tu manum tuam:
           et imples omne ánimal benedictióne.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Todos os olhos estão voltados para Vós, Senhor; pois dais a cada um o
           sustento em tempo oportuno.
-          <Text className="versicle"> ℣. </Text>Abris a vossa mão e encheis de
+          <Typography className="versicle"> ℣. </Typography>Abris a vossa mão e encheis de
           bênçãos todos os viventes.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 4, 38-44</Text>
+      <Typography className="em">Lc. 4, 38-44</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Surgens Jesus de synagóga, introívit in domum
           Simónis. Socrus autem Simónis tenebátur magnis fébribus: et rogavérunt
           illum pro ea. Et stans super illam, imperávit febri: et dimísit illam.
@@ -128,8 +128,8 @@ export default function PageQuad34() {
           eis. Quibus ille ait: Quia et áliis civitátibus opórtet me
           evangelizáre regnum Dei: quia ídeo missus sum. Et erat prǽdicans in
           synagógis Galilǽæ.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, levantando-se Jesus da sinagoga, entrou em casa de
           Simão. Ora, como a sogra de Simão padecia de uma grande febre,
           rogaram-Lhe por ela. Então, indo Jesus ao pé dela, impôs o seu poder à
@@ -144,91 +144,91 @@ export default function PageQuad34() {
           detiveram-n’O, com medo de que se afastasse. Então Ele disse-lhes: «É
           preciso que eu também anuncie o reino de Deus às outras cidades,
           porque para isso fui mandado». E pregava nas sinagogas da Galileia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 137, 7</Text>
+      <Typography className="em">Sl. 137, 7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Si ambulávero in médio tribulatiónis, vivificábis me, Dómine: et super
           iram inimicórum meorum exténdes manum tuam, et salvum me fáciet
           déxtera tua.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Se eu estiver no meio da tribulação, Vós me salvareis a vida, Senhor:
           estendereis a vossa mão contra a ira dos meus inimigos: e a vossa
           dextra me salvará.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In tuorum, Dómine, pretiósa morte justórum sacrifícium illud
           offérimus, de quo martýrium sumpsit omne princípium. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Para honrar a morte preciosa dos vossos justos, Senhor, Vos oferecemos
           este sacrifício, que foi o verdadeiro princípio do seu martírio. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 118, 4-5</Text>
+      <Typography className="em">Sl. 118, 4-5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tu mandásti, mandáta tua custodíri nimis: útinam dirigántur viæ meæ,
           ad custodiéndas justificatiónes tuas.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ordenastes que os vossos mandamentos fossem observados com exactidão;
           oxalá que meus passos se não afastem do cumprimento das vossas leis.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sit nobis, Dómine, sacraménti tui certa salvátio: quæ cum beatórum
           Mártyrum tuórum Cosmæ et Damiáni méritis implorátur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dignai-Vos permitir, Senhor, que este Sacramento sirva para nos
           assegurar a salvação, que imploramos pelos merecimentos dos vossos
           santos Mártires Cosme e Damião. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração sobre o povo" />
 
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">Humiliáte cápita vestra Deo.</Text>
-        <Text className="vernacular">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">Humiliáte cápita vestra Deo.</Typography>
+        <Typography className="vernacular">
           Inclinai as vossas cabeças diante de Deus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Subjéctum tibi pópulum, quǽsumus, Dómine, propitiátio cœléstis
           amplíficet: et tuis semper fáciat servíre mandátis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos rogamos, permiti que a vossa celestial bondade se digne
           aumentar o povo que Vos é submisso; e o torne sempre cumpridor dos
           vossos mandamentos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,51 +10,51 @@ export default function PagePasc50() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Is. 48, 20</Text>
+      <Typography className="em">Is. 48, 20</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vocem jucunditátis annuntiáte, et audiátur, allelúja: annuntiáte usque
           ad extrémum terræ: liberávit Dóminus pópulum suum, allelúja, allelúja.{" "}
-          <Text className="latin">Ps. 65, 1-2</Text> Jubiláte Deo, omnis terra,
+          <Typography className="latin">Ps. 65, 1-2</Typography> Jubiláte Deo, omnis terra,
           psalmum dícite nómini ejus: date glóriam laudi ejus.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Com voz de alegria anunciai, fazei ouvir: aleluia; proclamai até aos
           confins da terra; o Senhor libertou o povo, aleluia, aleluia.{" "}
-          <Text className="vernacular">Sl. 65, 1-2</Text> Ó povos de toda a
+          <Typography className="vernacular">Sl. 65, 1-2</Typography> Ó povos de toda a
           terra, aclamai Deus com júbilo: cantai hinos em honra do seu nome:
           rendei-Lhe honras e louvores.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, a quo bona cuncta procédunt, largíre supplícibus tuis: ut
           cogitémus, te inspiránte, quæ recta sunt; et, te gubernánte, eadem
           faciámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, origem de todos os bens, dignai-Vos conceder a estes fiéis
           suplicantes que por vossa inspiração meditemos naquilo que é recto, e,
           sob o vosso império, cumpramos aquilo em que meditámos. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Tg. 1, 22-27</Text>
+      <Typography className="em">Tg. 1, 22-27</Typography>
 
       <Language>
-        <Text className="latin">Léctio Epístolæ beáti Jacóbi Apóstoli.</Text>
-        <Text className="vernacular">Lição da Ep.ª do B. Ap.º Tiago.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Epístolæ beáti Jacóbi Apóstoli.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Tiago.</Typography>
+        <Typography className="latin">
           Caríssimi: Estóte factóres verbi, et non auditóres tantum: falléntes
           vosmetípsos. Quia si quis audítor est verbi et non factor: hic
           comparábitur viro consideránti vultum nativitátis suæ in spéculo:
@@ -66,8 +66,8 @@ export default function PagePasc50() {
           munda et immaculáta apud Deum et Patrem hæc est: Visitáre pupíllos et
           viduas in tribulatióne eórum, et immaculátum se custodíre ab hoc
           sǽculo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimos: Sede praticantes do ensino da palavra, e não vos
           contenteis em ouvi-la, pois vos enganais. Se alguém ouve a palavra e a
           não cumpre, é semelhante a um homem que vê em um espelho o seu rosto
@@ -79,40 +79,40 @@ export default function PagePasc50() {
           Próprio coração, e a sua religião é vã. A religião pura e imaculada
           para com o nosso Deus ai consiste em visitar os órfãos e as viúvas nas
           tribulações e em conservar-se puro no meio da corrupção do mundo.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Surréxit
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Surréxit
           Christus, et illúxit nobis, quos rédemit sánguine suo. Allelúja.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="latin">Joann. 16, 28</Text> Exívi a Patre, et veni in
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Joann. 16, 28</Typography> Exívi a Patre, et veni in
           mundum: íterum relínquo mundum, et vado ad Patrem. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Cristo
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Cristo
           ressuscitou e fez brilhar a sua luz sobre nós, que fomos remidos com
-          seu sangue. Aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Jo. 16, 28</Text> Eu saí do Pai e vim ao
+          seu sangue. Aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Jo. 16, 28</Typography> Eu saí do Pai e vim ao
           mundo: e agora deixo o mundo e volto para o Pai. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 16, 23-30</Text>
+      <Typography className="em">Jo. 16, 23-30</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Amen, amen, dico vobis:
           si quid petiéritis Patrem in nómine meo, dabit vobis. Usque modo non
           petístis quidquam in nómine meo: Pétite, et accipiétis, ut gáudium
@@ -125,8 +125,8 @@ export default function PagePasc50() {
           Ecce, nunc palam loquéris et provérbium nullum dicis. Nunc scimus,
           quia scis ómnia et non opus est tibi, ut quis te intérroget: in hoc
           crédimus, quia a Deo exísti.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Em verdade, em
           verdade vos digo: Se pedirdes ao meu Pai alguma coisa em meu nome, Ele
           vo-la dará. Até agora nada pedistes em meu nome. Pedi e recebereis,
@@ -139,72 +139,72 @@ export default function PagePasc50() {
           Pai». Então os discípulos disseram-Lhe: «Agora falais claramente e sem
           parábolas; agora conhecemos que sabeis tudo e que não é mister que
           ninguém Vos interrogue. Eis porque cremos que saístes do Pai».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 65, 8-9 & 20</Text>
+      <Typography className="em">Sl. 65, 8-9 & 20</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Benedícite, gentes, Dóminum, Deum nostrum, et obaudíte vocem laudis
           ejus: qui pósuit ánimam meam ad vitam, et non dedit commovéri pedes
           meos: benedíctus Dóminus, qui non amóvit deprecatiónem meam et
           misericórdiam suam a me, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó povos, bendizei o Senhor, nosso Deus, e fazei ressoar cânticos em
           seu louvor; pois foi Ele quem conservou a vida à minha alma e não
           permitiu que meus pés tropeçassem. Bendito seja Deus, que não rejeitou
           a minha oração, nem me faltou com sua misericórdia, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Súscipe, Dómine, fidélium preces cum oblatiónibus hostiárum: ut, per
           hæc piæ devotiónis offícia, ad cœléstem glóriam transeámus. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dignai-Vos, Senhor, aceitar as preces dos fiéis juntamente com as
           hóstias que Vos são oferecidas; e, em recompensa deste dever da nossa
           pia devoção, permiti que alcancemos a glória celestial. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 95, 2</Text>
+      <Typography className="em">Sl. 95, 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cantáte Dómino, allelúja: cantáte Dómino et benedícite nomen ejus:
           bene nuntiáte de die in diem salutáre ejus, allelúja, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Cantai hinos em honra do Senhor: cantai hinos em honra do Senhor:
           bendizei o seu nome; proclamai constantemente, dia a dia, a salvação
           que nos concede, aleluia, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tríbue nobis, Dómine, cæ léstis mensæ virtúte satiátis: et desideráre,
           quæ recta sunt, et desideráta percípere. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo nós sido fortalecidos com o Pão da mesa celestial,
           concedei-nos, Senhor, a graça de desejarmos o que é justo e de
           alcançarmos o que desejamos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

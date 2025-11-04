@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ export default function Page0921() {
     <PageWrapper>
       <H1 text="S. Mateus, a 21 de Setembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Lemos no Evangelho, a narração, feita pelo proprio São Mateus de sua
         conversão. A Epístola descreve a celebre visão em que aparecem a
         Ezequiel quatro animais simbólicos, nos quais foram reconhecidos, desde
@@ -20,53 +20,53 @@ export default function Page0921() {
         sendo Ele, portanto, o Messias. Depois de Pentecostes, esse Apóstolo
         pregou a boa nova na Palestina e na Ethiopia, onde morreu martyr. O nome
         de São Mateus acha-se no Canon da Missa, no grupo dos Apóstolos.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 36, 30-31</Text>
+      <Typography className="em">Sl. 36, 30-31</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Os justi meditábitur sapiéntiam, et lingua ejus loquétur judíci‚ um:
           lex Dei ejus in corde ipsíus.{" "}
-          <Text className="latin">Ps. ibid., 1</Text> Noli æmulári in
+          <Typography className="latin">Ps. ibid., 1</Typography> Noli æmulári in
           malignántibus: neque zeláveris faciéntes iniquitátem.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           A boca do justo falará com sabedoria e a sua língua proclamará a
           justiça. A lei do seu Deus está no seu coração.{" "}
-          <Text className="vernacular">Sl. ibid., 1</Text> Não vos irriteis
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Não vos irriteis
           contra os maus, nem tenhais inveja daqueles que cometem iniquidades.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Beáti Apóstoli et Evangelístæ Matthǽi, Dómine, précibus adjuvémur: ut,
           quod possibílitas nostra non óbtinet, ejus nobis intercessióne
           donétur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Socorrei-nos, Senhor, em virtude das preces, do B. Mateus, vosso
           Apóstolo e Evangelista, a fim de que nos sejam concedidas aquelas
           graças que não temos possibilidade de obter por nós próprios. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ez. 1, 10-14</Text>
+      <Typography className="em">Ez. 1, 10-14</Typography>
 
       <Language>
-        <Text className="latin">Léctio Ezechiélis Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Ezequiel.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Ezechiélis Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Ezequiel.</Typography>
+        <Typography className="latin">
           Similitúdo vultus quátuor animálium: fácies hóminis, et fácies leónis
           a dextris ipsórum quátuor: fácies autem bovis a sinístris ipsórum
           quátuor, et fácies áquilæ désuper ipsórum quátuor. Fácies eórum et
@@ -78,8 +78,8 @@ export default function Page0921() {
           vísio discúrrens in médio animálium, splendor ignis, et de igne fulgur
           egrédiens. Et animália ibant et revertebántur in similitúdinem
           fúlguris coruscántis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eis a semelhança do rosto dos quatro seres animados: Tinham todos
           quatro uma face de homem; todos os quatro à direita uma face de leão;
           todos os quatro à esquerda uma face de touro; e todos os quatro por
@@ -91,48 +91,48 @@ export default function Page0921() {
           arder e de lâmpadas acesas. Viam-se crepitar no meio deles chamas de
           fogo, saindo do fogo relâmpagos. E eles iam e vinham, semelhante ao
           fuzilar dos relâmpagos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 111, 1-2</Text>
+      <Typography className="em">Sl. 111, 1-2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Potens in terra erit semen ejus: generátio rectórum benedicétur.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em
-          obedecer-Lhe.<Text className="versicle"> ℣. </Text>Sua descendência
+          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua descendência
           será poderosa na terra; pois a geração dos justos será abençoada.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Te gloriosus
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Te gloriosus
           Apostolórum chorus laudat, Dómine. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>O coro glorioso
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O coro glorioso
           dos Apóstolos Vos louva, ó Senhor. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 9, 9-13</Text>
+      <Typography className="em">Mt. 9, 9-13</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Vidit Jesus hóminem sedéntem in telónio, Matthǽum
           nómine. Et ait illi: Séquere me. Et surgens, secútus est eum. Et
           factum est, discumbénte eo in domo, ecce, multi publicáni et
@@ -142,8 +142,8 @@ export default function Page0921() {
           opus valéntibus médicus, sed male habéntibus. Eúntes autem díscite,
           quid est: Misericórdiam volo, et non sacrifícium. Non enim veni vocáre
           justos, sed peccatóres.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, Jesus viu um homem, chamado Levi, assentado ao telónio,
           e disse-lhe: «Segue-me!». Levantando-se este, seguiu-O. Ora, aconteceu
           que, estando Jesus assentado à mesa em casa dele aproximaram-se e
@@ -154,69 +154,69 @@ export default function Page0921() {
           que estão enfermos. Ide, pois, e aprendei o que significam estas
           palavras: «Prefiro a misericórdia ao sacrifício»; pois não vim Eu
           chamar os justos mas os pecadores.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 20, 4-5</Text>
+      <Typography className="em">Sl. 20, 4-5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Possuísti, Dómine, in cápite ejus corónam de lápide pretióso: vitam
           pétiit a te, et tribuísti ei, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós o coroastes, Senhor, com glória e com honras: e o colocastes acima
           das obras das vossas mãos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Supplicatiónibus beáti Matthǽi Apóstoli et Evangelístæ, quǽsumus,
           Dómine, Ecclésiæ tuæ commendétur oblátio: cujus magníficis
           prædicatiónibus erúditur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Permiti, Senhor, Vos rogamos, que as súplicas do B. Apóstolo e
           Evangelista Mateus Vos tornem agradáveis a oblação da vossa Igreja,
           que foi brilhantemente instruída pelas suas admiráveis pregações. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 20, 6</Text>
+      <Typography className="em">Sl. 20, 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Magna est glória ejus in salutári tuo: glóriam et magnum del córem
           ímpones super eum, Dómine.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Grande é, Senhor, a sua glória que lhe concedestes na salvação. Vós o
           rodeareis de glória e de magnificência.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Percéptis, Dómine, sacraméntis, beáto Matthǽo Apóstolo tuo et
           Evangelísta interveniénte, deprecámur: ut, quæ pro ejus celebráta sunt
           glória, nobis profíciant ad medélam. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo recebido os vossos sacramentos, Vos pedimos, Senhor, pela
           intercessão do B. Mateus, vosso Apóstolo e Evangelista, permitais que
           este sacrifício, oferecido em sua honra, nos sirva de remédio. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

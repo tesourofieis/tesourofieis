@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,48 +10,48 @@ export default function Page1227() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Ecl. 15, 5</Text>
+      <Typography className="em">Ecl. 15, 5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu
           sapiéntiæ et intelléctus: stolam glóriæ índuit eum.{" "}
-          <Text className="latin">Ps. 91, 2</Text> Bonum est confitéri Dómino:
+          <Typography className="latin">Ps. 91, 2</Typography> Bonum est confitéri Dómino:
           et psállere nómini tuo, Altíssime.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Abriu-lhe o Senhor a boca no meio da Igreja, encheu-o com o espírito
           da sabedoria e da inteligência e revestiu-o com a túnica da glória.{" "}
-          <Text className="vernacular">Sl. 91, 2</Text> É bom louvar o Senhor: e
+          <Typography className="vernacular">Sl. 91, 2</Typography> É bom louvar o Senhor: e
           cantar hinos em honra do vosso nome, ó Altíssimo!
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ecclésiam tuam, Dómine, benígnus illústra: ut, beáti Joánnis Apóstoli
           tui et Evangelístæ illumináta doctrínis, ad dona pervéniat sempitérna.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, ilustrai benigno a vossa Igreja, para que, instruída com os
           ensinos do B. João, vosso Apóstolo e Evangelista, alcance os bens
           eternos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ecl. 15, 1-6</Text>
+      <Typography className="em">Ecl. 15, 1-6</Typography>
 
       <Language>
-        <Text className="latin">Lectio libri Sapiéntiæ.</Text>
-        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-        <Text className="latin">
+        <Typography className="latin">Lectio libri Sapiéntiæ.</Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="latin">
           Qui timet Deum, fáciet bona: et qui cóntinens est justítiæ,
           apprehéndet illam, et obviábit illi quasi mater honorificáta. Cibábit
           illum pane vitæ et intelléctus, et aqua sapiéntiæ salutáris potábit
@@ -61,8 +61,8 @@ export default function Page1227() {
           intelléctus, et stola glóriæ véstiet illum. Jucunditátem et
           exsultatiónem thesaurizábit super illum, et nómine ætérno hereditábit
           illum, Dóminus, Deus noster.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aquele que teme Deus praticará o bem; e aquele que cultivar a justiça
           alcançará a sabedoria, que virá ao seu encontro, como uma mãe cheia de
           dignidade. Ela o sustentará com o pão da vida e da inteligência e lhe
@@ -73,54 +73,54 @@ export default function Page1227() {
           inteligência; e o revestirá com a túnica da glória. Guardará para ele
           um tesouro de alegria e de glória, e o Senhor, nosso Deus, o tornará
           herdeiro dum nome eterno.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Jo. 21, 23 & 19</Text>
+      <Typography className="em">Jo. 21, 23 & 19</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exiit sermo inter fratres, quod discípulus ille non móritur: et non
           dixit Jesus: Non móritur.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Sed: Sic eum volo manére, donec véniam: tu me séquere.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Espalhou-se entre os irmãos a notícia de que aquele discípulo não
           morreria. Ora Jesus não disse: «Não morrerá».
-          <Text className="versicle"> ℣. </Text>Mas disse: «Quero que permaneça
+          <Typography className="versicle"> ℣. </Typography>Mas disse: «Quero que permaneça
           assim, até que eu venha: E tu, segue-me».
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 24</Text> Hic est discípulus ille, qui
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 24</Typography> Hic est discípulus ille, qui
           testimónium pérhibet de his: et scimus, quia verum est testimónium
           ejus. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 24</Text> Este é o próprio
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 24</Typography> Este é o próprio
           discípulo que dá testemunho destas coisas; e sabemos que seu
           testemunho é verdadeiro. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 21, 19-24</Text>
+      <Typography className="em">Jo. 21, 19-24</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joannem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus Petro: Séquere me. Convérsus Petrus vidit
           illum discípulum, quem diligébat Jesus, sequéntem, qui et recúbuit in
           cena super pectus ejus, et dixit: Dómine, quis est qui tradet te? Hunc
@@ -130,8 +130,8 @@ export default function Page1227() {
           Et non dixit ei Jesus: Non móritur; sed: Sic eum volo manére, donec
           véniam: quid ad te? Hic est discípulus ille, qui testimónium pérhibet
           de his, et scripsit hæc: et scimus, quia verum est testimónium ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus a Pedro: «Segue-me». Então, voltando-se
           para Pedro, viu que o seguia aquele discípulo, a quem Jesus amava, o
           qual, durante a ceia, reclinara a cabeça sobre o seu peito e Lhe havia
@@ -144,66 +144,66 @@ export default function Page1227() {
           venha, que te importa?». Este é o próprio discípulo que dá testemunho
           destas coisas e as escreveu; e sabemos que seu testemunho é
           verdadeiro.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 91, 13</Text>
+      <Typography className="em">Sl. 91, 13</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Justus ut palma florébit: sicut cedrus, quæ in Líbano est,
           mulliplicábitur.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O justo florescerá, como a palmeira, e crescerá, como o cedro do
           Líbano.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Súscipe, Dómine, múnera, quæ in ejus tibi sollemnitáte deférimus,
           cujus nos confídimus patrocínio libcrári. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Recebei, Senhor, as ofertas que Vos apresentamos na solenidade daquele
           com o auxílio do qual esperamos ser livres do mal. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 21, 2</Text>
+      <Typography className="em">Jo. 21, 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exiit sermo inter fratres, quod discípulus ille non móritur: et non
           dixit Jesus: Non móritur; sed: Sic eum volo manére, donec véniam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Correu, pois, entre os irmãos que aquele discípulo não havia de
           morrer. Ora Jesus não havia dito: «Não morrerá». Mas disse: «Quero que
           ele assim permaneça até que Eu venha».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Refécti cibo potúque cœlésti, Deus noster, te súpplices deprecámur:
           ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Confortados com o alimento e a bebida celestiais, nós Vos imploramos,
           ó nosso Deus, que sejamos protegidos pelas preces daquele em cuja
           memória recebemos este augusto sacramento. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

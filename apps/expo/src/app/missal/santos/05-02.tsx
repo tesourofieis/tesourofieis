@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -9,7 +9,7 @@ export default function Page0502() {
     <PageWrapper>
       <H1 text="S. Atanásio, a 2 de Maio" />
 
-      <Text className="comment">
+      <Typography className="comment">
         A Igreja, coberta ainda pelo sangue de seus martyres, teve de sustentar,
         no século V, os terríveis assaltos da heresia. Ario ousa despojar o
         divino Ressuscitado de sua glória de Filho de Deus, para torná-l'O
@@ -22,27 +22,27 @@ export default function Page0502() {
         É representado, muitas vezes, tendo um symbolo da Santíssima Trindade
         como atributo. Morreu em 373 e foi nomeado Doutor da Igreja. Afirmemos,
         com Santo Atanásio, a Divindade de Jesus ressuscitado.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Ecl. 15, 5</Text>
+      <Typography className="em">Ecl. 15, 5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu
           sapiéntiæ et intelléctus: stolam glóriæ índuit eum, allelúja,
-          allelúja. <Text className="latin">Ps. 91, 2</Text> Bonum est confitéri
+          allelúja. <Typography className="latin">Ps. 91, 2</Typography> Bonum est confitéri
           Dómino: et psállere nómini tuo, Altíssime.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Abriu-lhe o Senhor a boca no meio da Igreja e encheu-o com o espírito
           da sabedoria e da inteligência: cobriu-o com o manto da glória,
-          aleluia, aleluia. <Text className="vernacular">Sl. 91, 2</Text> É bom
+          aleluia, aleluia. <Typography className="vernacular">Sl. 91, 2</Typography> É bom
           louvar o Senhor e cantar o vosso nome, ó Altíssimo.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração, Secreta e Postcomúnio" />
@@ -54,16 +54,16 @@ export default function Page0502() {
 
       <H3 text="Epístola" />
 
-      <Text className="em">2 Cor. 4, 5-14</Text>
+      <Typography className="em">2 Cor. 4, 5-14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Non nosmetípsos prædicámus, sed Jesum Christum, Dóminum
           nostrum: nos autem servos vestros per Jesum: quóniam Deus, qui dixit
           de ténebris lucem splendéscere, ipse illúxit in córdibus nostris ad
@@ -80,8 +80,8 @@ export default function Page0502() {
           propter quod locútus sum: et nos crédimus, propter quod et lóquimur:
           sciéntes, quóniam, qui suscitávit Jesum, et nos cum Jesu suscitábit et
           constítuet vobíscum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Não nos pregamos a nós próprios, mas a Jesus Cristo,
           nosso Senhor. Consideramo-nos como vossos servos por Jesus, pois o
           mesmo Deus, que fez sair a luz das trevas, fez também brilhar a sua
@@ -101,28 +101,28 @@ export default function Page0502() {
           acreditamos, por isso mesmo é que falamos, convencidos de que Aquele
           que ressuscitou Jesus nos ressuscitará também com Jesus e nos colocará
           convosco.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 109, 4</Text> Tu es sacérdos in ætérnum,
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 109, 4</Typography> Tu es sacérdos in ætérnum,
           secúndum órdinem Melchísedech. Allelúja.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Jac. 1, 12</Text> Beátus vir, qui suffert
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Jac. 1, 12</Typography> Beátus vir, qui suffert
           tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ.
           Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 109, 4</Text> Tu és sacerdote para
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 109, 4</Typography> Tu és sacerdote para
           sempre, segundo a ordem de Melquisedeque! Aleluia.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Tg. 1, 12</Text> Bem-aventurado o varão que sofre
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Tg. 1, 12</Typography> Bem-aventurado o varão que sofre
           tentação; pois, quando acabar a tentação, receberá a coroa da vida.
           Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -134,31 +134,31 @@ export default function Page0502() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 88, 21-22</Text>
+      <Typography className="em">Sl. 88, 21-22</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
           auxiliábitur ei, et bráchium meum confortábit eum, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Encontrei o meu servo David e ungi-o com meu óleo sagrado: e a minha
           mão o auxiliará e o meu braço o fortalecerá, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 10, 27</Text>
+      <Typography className="em">Mt. 10, 27</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quod dico vobis in ténebris, dícite in lúmine, dicit Dóminus: et quod
           in aure audítis, prædicáte super tecta, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aquilo que vos digo ao ouvido pregai-o sobre os tectos, aleluia.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

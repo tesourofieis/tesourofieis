@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,45 +9,45 @@ export default function Page0206() {
     <PageWrapper>
       <H1 text="S. Tito, B. e Conf., a 6 de Fevereiro" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/11confessorespontifices1">
           Missa Státuit ei
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beátum Titum Confessórem tuum atque Pontíficem apostólicis
           virtútibus decorásti: ejus méritis et intercessióne concéde; ut, juste
           et pie vivéntes in hoc sǽculo, ad cœléstem pátriam perveníre mereámur.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que ornastes o B. Tito, vosso Confessor e Pontífice, com as
           virtudes apostólicas, concedei-nos, pelos seus méritos e intercessão,
           que vivendo neste mundo justa e piamente, mereçamos alcançar a pátria
           celestial. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 10, 1-9</Text>
+      <Typography className="em">Lc. 10, 1-9</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Designávit Dóminus et álios septuagínta duos: et
           misit illos binos ante fáciem suam in omnem civitátem et locum, quo
           erat ipse ventúrus. Et dicebat illis: Messis quidem multa, operárii
@@ -62,8 +62,8 @@ export default function Page0206() {
           civitátem intravéritis, et suscéperint vos, manducáte quæ apponúntur
           vobis: et curáte infírmos, qui in illa sunt, et dícite illis:
           Appropinquávit in vos regnum Dei.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, escolheu o Senhor ainda setenta e dois discípulos e
           mandou-os, dois a dois, adiante d’Ele, a todas as cidades e lugares
           onde devia ir, dizendo-lhes: «A messe é abundante, mas os operários
@@ -78,7 +78,7 @@ export default function Page0206() {
           que entrardes e vos receberem comei do que vos derem, curai os
           enfermos que aí houver, e dizei-lhes: «Eis que se aproxima o reino de
           Deus».
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

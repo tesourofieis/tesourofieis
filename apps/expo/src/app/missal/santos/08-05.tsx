@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page0805() {
     <PageWrapper>
       <H1 text="Dedicação de Santa Maria das Neves, a 5 de Agosto" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Esta Igreja foi edificada no IV seculo, em Roma, no pontificado de
         Libério, sobre o Monte Esquilino. Na idade media, uma legenda graciosa e
         popular atribuiu essa fundação a um nobre patrício que, favorecido por
@@ -29,7 +29,7 @@ export default function Page0805() {
         commemora, inaugura-se o anno litúrgico, no primeiro Domingo do Advento,
         ai se faz a Estação nas festas de Natal, de São João, e da Pascoá, na
         Segunda-Feira das Rogações e todas as Quartas-Feiras das Temporãs.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -6,7 +6,7 @@ export default function PageExercitoalmas() {
   return (
     <PageWrapper>
       <H1 text="Exército de Almas" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Majestade Divina, Senhor da vida e da morte, dos que Vos amam e dos que
         Vos perseguem! Por intercessão da Santíssima Virgem de Fátima, Rainha da
         Paz e nossa Mãe, Vos pedimos que não deixeis a nossa Pátria onde Maria
@@ -24,7 +24,7 @@ export default function PageExercitoalmas() {
         inimigo. Deus Santo, Deus Forte, Deus Todo-Poderoso, Deus Imortal, em
         união com todos os Santos Anjos, pedimo-Vos auxílio e Bênção para a
         nossa Pátria, por Jesus Cristo Nosso Senhor. Amen.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

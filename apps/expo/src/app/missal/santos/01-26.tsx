@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -10,7 +10,7 @@ export default function Page0126() {
     <PageWrapper>
       <H1 text="S. Policarpo, B. e Márt., a 26 de Janeiro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         S. Policarpo foi discípulo de S. João, que o revestiu da plenitude do
         sacerdócio (Intr.) e nomeou Bispo de Esmirna. Em carta escrita aos
         Filipenses, ele cita a primeira epístola de seu Mestre, da qual a
@@ -27,24 +27,24 @@ export default function Page0126() {
         de 86 anos, no ano de 166. Imitando a Policarpo, procuremos colher
         muitos frutos (significado do nome Policarpo) amando ao próximo por amor
         a Jesus.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/12confessorespontifices2">
           Missa Sacerdótes tui
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Jo. 3, 10-16</Text>
+      <Typography className="em">1 Jo. 3, 10-16</Typography>
 
       <Language>
-        <Text className="latin">Léctio Epístolæ beáti Joánnis Apóstoli.</Text>
-        <Text className="vernacular">Lição da Ep.ª do B. Ap.º S. João.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Epístolæ beáti Joánnis Apóstoli.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º S. João.</Typography>
+        <Typography className="latin">
           Caríssimi: Omnis qui non est justus, non est ex Deo, et qui non
           díligit fratrem suum: quóniam hæc est annuntiátio, quam audístis ab
           inítio, ut diligátis altérutrum. Non sicut Cain, qui ex malígno erat,
@@ -56,8 +56,8 @@ export default function Page0126() {
           homicída non habet vitam ætérnam in semetípso manéntem. In hoc
           cognóvimus caritátem Dei, quóniam ille ánimam suam pro nobis pósuit:
           et nos debémus pro frátribus ánimas pónere.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimos: Aquele que não é justo e não ama seu irmão não é de Deus.
           Porque esta é a recomendação que ouvistes desde o princípio: «Que vos
           ameis uns aos outros». Não seja, porém, como Caim, que era maligno o
@@ -69,7 +69,7 @@ export default function Page0126() {
           o homicida não tem a vida eterna, permanecendo em si. Nisto conhecemos
           o amor de Deus: porquanto Ele deu sua vida por nós; e nós devemos
           também dar a nossa vida por nossos irmãos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -82,17 +82,17 @@ export default function Page0126() {
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster:
           ut, cujus exséquimur cultum, intercedénte beáto Polycárpo Mártyre tuo
           atque Pontífice, sentiámus efféctum. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Fortalecidos com a participação deste dom sacratíssimo, Vos
           suplicamos, Senhor, nosso Deus, que, por intercessão do B. Policarpo,
           vosso Mártir e Pontífice, sintamos o efeito do mystério que
           celebrámos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

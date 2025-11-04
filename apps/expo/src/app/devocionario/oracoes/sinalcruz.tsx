@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,20 +8,20 @@ export default function PageSinalCruz() {
     <PageWrapper>
       <H2 text="Sinal da Cruz" />
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> In nómine Patris, et Fílii, et
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> In nómine Patris, et Fílii, et
           Spíritus Sancti.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Em nome do Pai e do Filho e do
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Em nome do Pai e do Filho e do
           Espírito Santo.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
       </Language>
     </PageWrapper>
   );

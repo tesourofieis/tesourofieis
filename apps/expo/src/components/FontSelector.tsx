@@ -1,8 +1,9 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import { Text, TouchableOpacity, useColorScheme, View } from "react-native";
+import { TouchableOpacity, useColorScheme, View } from "react-native";
 import { H6 } from "~/components/Headings";
 import { COLORS } from "~/constants/Colors";
 import { useFontContext } from "~/providers/fonts";
+import { Typography } from "./typography";
 
 const SIZES = ["small", "medium", "large"] as const;
 const SIZE_LABEL: Record<string, string> = {
@@ -36,7 +37,7 @@ export const FontSizeSelector = () => {
                 : "bg-sepia-300 dark:bg-sepia-700"
             }`}
           >
-            <Text
+            <Typography
               className={`font-medium ${
                 fontSize === size
                   ? "text-sepia-200 dark:text-sepia-800"
@@ -44,7 +45,7 @@ export const FontSizeSelector = () => {
               }`}
             >
               {SIZE_LABEL[size]}
-            </Text>
+            </Typography>
           </TouchableOpacity>
         ))}
       </View>

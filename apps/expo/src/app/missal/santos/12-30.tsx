@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -8,7 +8,7 @@ export default function Page1230() {
     <PageWrapper>
       <H1 text="Sexto dia da Oitava do Natal, a 30 de Dezembro" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Intróito, Oração, Gradual, Ofertório, Comúnio e Postcomúnio como na
         <Link className="link" href="/missal/santos/12-25-2">
           Terceira Missa do Natal
@@ -18,7 +18,7 @@ export default function Page1230() {
           Segunda Missa do Natal
         </Link>{" "}
         .
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

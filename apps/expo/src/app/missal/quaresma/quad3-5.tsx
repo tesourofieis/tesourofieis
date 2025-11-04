@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -11,49 +11,49 @@ export default function PageQuad35() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 85, 17</Text>
+      <Typography className="em">Sl. 85, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Fac mecum, Dómine, signum in bonum: ut vídeant, qui me oderunt, et
           confundántur: quóniam tu, Dómine, adjuvísti me et consolátus es me.{" "}
-          <Text className="latin">Ps. ibid., 1</Text> Inclína, Dómine, aurem
+          <Typography className="latin">Ps. ibid., 1</Typography> Inclína, Dómine, aurem
           tuam, et exáudi me: quóniam inops et pauper sum ego.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Praticai, Senhor, um dos vossos prodígios em meu favor, para que meus
           inimigos contemplem o vosso poder e sejam confundidos; Pois Vós,
           Senhor, sois o meu auxílio e conforto.{" "}
-          <Text className="vernacular">Sl. ibid., 1</Text> Inclinai, Senhor, os
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Inclinai, Senhor, os
           vossos ouvidos para mim e escutai-me; porque sou pobre e infeliz.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Jejúnia nostra, quǽsumus, Dómine, benígno favóre proséquere: ut, sicut
           ab aliméntis abstinémus in córpore; ita a vítiis jejunémus in mente.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Acompanhai os nossos jejuns com vossa benigna graça, Senhor, a fim de
           que, assim como o nosso corpo se abstém das carnes, assim a nossa alma
           se abstenha dos nossos vícios. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Nm. 20, 1, 3 et 6-13</Text>
+      <Typography className="em">Nm. 20, 1, 3 et 6-13</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Numeri.</Text>
-        <Text className="vernacular">Lição do Livro dos Números.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Numeri.</Typography>
+        <Typography className="vernacular">Lição do Livro dos Números.</Typography>
+        <Typography className="latin">
           In diébus illis: Convenérunt fílii Israël adversum Móysen et Aaron: et
           versi in seditiónem, dixérunt: Date nobis aquam, ut bibámus.
           Ingressúsque Móyses et Aaron, dimíssa multitúdine, tabernáculum
@@ -73,8 +73,8 @@ export default function PageQuad35() {
           coram fíliis Israël, non introducétis hos pópulos in terram, quam dabo
           eis. Hæc est aqua contradictiónis, ubi jurgáti sunt fílii Israël
           contra Dóminum, et sanctificátus est in eis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, os filhos de Israel reuniram-se contra Moisés e Aarão,
           e, havendo formado uma sedição, disseram: «Dai-nos água para
           bebermos». Então Moisés e Aarão, deixando a multidão, entraram no
@@ -97,26 +97,26 @@ export default function PageQuad35() {
           lhes darei. Esta é a água da contradição: quando os filhos de Israel
           murmuraram contra o Senhor, e quando o Senhor manifestou a sua
           santidade diante deles».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 27, 7 & 1</Text>
+      <Typography className="em">Sl. 27, 7 & 1</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In Deo sperávit cor meum, et adjútus sum: et reflóruit caro mea, et ex
           voluntáte mea confitébor illi.
-          <Text className="versicle"> ℣. </Text>Ad te, Dómine, clamávi: Deus
+          <Typography className="versicle"> ℣. </Typography>Ad te, Dómine, clamávi: Deus
           meus, ne síleas, ne discédas a me.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O meu coração esperou em Deus e foi socorrido. Então a minha carne
           rejuvenesceu. Por isso hei-de celebrar com alegria os louvores do
-          Senhor.<Text className="versicle"> ℣. </Text>A Vós, Senhor, clamei:
+          Senhor.<Typography className="versicle"> ℣. </Typography>A Vós, Senhor, clamei:
           meu Deus, não fecheis os ouvidos, nem Vos afasteis de mim.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Trato" />
@@ -128,18 +128,18 @@ export default function PageQuad35() {
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 4, 5-42</Text>
+      <Typography className="em">Jo. 4, 5-42</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Venit Jesus in civitátem Samaríæ, quæ dícitur Sichar:
           juxta prǽdium, quod dedit Jacob Joseph, fílio suo. Erat autem ibi fons
           Jacob. Jesus ergo fatigátus ex itínere, sedébat sic supra fontem. Hora
@@ -195,8 +195,8 @@ export default function PageQuad35() {
           Et multo plures credidérunt in eum propter sermónem ejus. Et mulíeri
           dicébant: Quia jam non propter tuam loquélam crédimus: ipsi enim
           audívimus, et scimus, quia hic est vere Salvátor mundi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, veio Jesus a uma cidade de Samaria, chamada Sichar,
           próximo do campo que Jacob havia dado a seu filho José. Era ah a fonte
           de Jacob. Jesus, estando fatigado da viagem, sentou-se à beira do
@@ -255,90 +255,90 @@ export default function PageQuad35() {
           haver escutado a sua palavra. E diziam à mulher: «Agora, já não
           acreditamos por causa do que nos dissestes, porquanto nós próprios
           ouvimos; e sabemos que este é verdadeiramente o Salvador do mundo».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 5, 3-4</Text>
+      <Typography className="em">Sl. 5, 3-4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Inténde voci oratiónis meæ, Rex meus, et Deus meus: quóniam ad te
           orábo, Dómine.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Sede atento à voz da minha oração, ó meu Rei e meu Deus; pois a Vós,
           Senhor, orarei.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Réspice, quǽsumus, Dómine, propítius ad múnera, quæ sacrámus: ut tibi
           grata sint, et nobis salutária semper exsístant. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Olhai propício, Senhor, Vos suplicamos, para estes dons que Vos
           consagramos, a fim de que Vos sejam agradáveis, e a nós sejam sempre
           salutares. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 4, 13 & 14</Text>
+      <Typography className="em">Jo. 4, 13 & 14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Qui bíberit aquam, quam ego dabo ei, dicit Dóminus, fiet in eo fons
           aquæ saliéntis in vitam ætérnam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aquele que beber da água que Eu lhe der, diz o Senhor, terá em si uma
           fonte de água impetuosa para a vida eterna.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hujus nos, Dómine, percéptio sacraménti mundet a crimine: et ad
           cœléstia regna perdúcat. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que a recepção deste Sacramento, Senhor, nos limpe dos nossos crimes e
           nos guie até ao reino celestial. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração sobre o povo" />
 
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">Humiliáte cápita vestra Deo.</Text>
-        <Text className="vernacular">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">Humiliáte cápita vestra Deo.</Typography>
+        <Typography className="vernacular">
           Inclinai as vossas cabeças diante de Deus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, qui in tua protectióne
           confídimus, cuncta nobis adversántia, te adjuvánte, vincámus. Per
           Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos imploramos, dignai-Vos corroborar a confiança
           que em Vós depositamos, a fim de que com vosso socorro possamos vencer
           todas as adversidades. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

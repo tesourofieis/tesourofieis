@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,48 +10,48 @@ export default function PagePasc10() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">1 Pe. 2, 2</Text>
+      <Typography className="em">1 Pe. 2, 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quasi modo géniti infántes, allelúja: rationabiles, sine dolo lac
           concupíscite, allelúja, allelúja allelúja.{" "}
-          <Text className="latin">Ps. 80, 2</Text> Exsultáte Deo, adjutóri
-          nostro: jubiláte Deo Jacob.<Text className="versicle"> ℣. </Text>
+          <Typography className="latin">Ps. 80, 2</Typography> Exsultáte Deo, adjutóri
+          nostro: jubiláte Deo Jacob.<Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Como meninos recém-nascidos, aleluia, e raciocinando convenientemente,
           desejai com ardor beber o leite puro, aleluia, aleluia, aleluia.{" "}
-          <Text className="vernacular">Sl. 80, 2</Text> Aclamai a Deus, que é o
+          <Typography className="vernacular">Sl. 80, 2</Typography> Aclamai a Deus, que é o
           nosso Sustentáculo: cantai hinos de júbilo em honra de Deus de Jacob.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, qui paschália festa perégimus,
           hæc, te largiénte, móribus et vita teneámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos suplicamos, agora, que celebrámos as festas
           pascais, concedei-nos a graça de conservarmos sempre o seu espírito,
           tanto nos nossos costumes, como na nossa vida. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Jo. 5, 4-10</Text>
+      <Typography className="em">1 Jo. 5, 4-10</Typography>
 
       <Language>
-        <Text className="latin">Léctio Epístolæ beáti Joannis Apóstoli.</Text>
-        <Text className="vernacular">Lição da Ep.ª do B. Ap.º S. João.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Epístolæ beáti Joannis Apóstoli.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º S. João.</Typography>
+        <Typography className="latin">
           Caríssimi: Omne, quod natum est ex Deo, vincit mundum: et hæc est
           victoria, quæ vincit mundum, fides nostra. Quis est, qui vincit
           mundum, nisi qui credit, quóniam Jesus est Fílius Dei? Hic est, qui
@@ -64,8 +64,8 @@ export default function PagePasc10() {
           majus est: quóniam hoc est testimónium Dei, quod majus est: quóniam
           testificátus est de Fílio suo. Qui credit in Fílium Dei, habet
           testimónium Dei in se.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimos: Todo aquele que nasceu de Deus é vencedor do mundo. O que
           alcança vitória contra o mundo é a nossa fé. Quem é que vence o mundo,
           senão o que crê que Jesus Cristo é o Filho de Deus? Este mesmo Jesus
@@ -78,44 +78,44 @@ export default function PagePasc10() {
           testemunho de Deus. Este testemunho de Deus, que é maior, foi por Ele
           dado a respeito do seu Filho. Aquele que crê no Filho de Deus tem este
           testemunho de Deus em si mesmo.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Matth. 28, 7</Text> In die resurrectiónis meæ,
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Matth. 28, 7</Typography> In die resurrectiónis meæ,
           dicit Dóminus, præcédam vos in Galilǽam. Allelúja.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Joann. 20, 26</Text> Post dies octo, jánuis
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Joann. 20, 26</Typography> Post dies octo, jánuis
           clausis, stetit Jesus in médio discipulórum suórum, et dixit: Pax
           vobis. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Mt. 28, 7</Text> No dia da minha
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Mt. 28, 7</Typography> No dia da minha
           ressurreição, diz o Senhor, irei adiante de vós para a Galileia,
-          aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="em">Jo. 20, 26</Text> Oito dias depois, estando as
+          aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Jo. 20, 26</Typography> Oito dias depois, estando as
           portas fechadas, Jesus veio e, estando no meio dos seus discípulos,
           disse: «A paz seja convosco», aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 20, 19-31</Text>
+      <Typography className="em">Jo. 20, 19-31</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Cum sero esset die illo, una sabbatórum, et fores
           essent clausæ, ubi erant discípuli congregáti propter metum Judæórum:
           venit Jesus, et stetit in médio, et dixit eis: Pax vobis. Et cum hoc
@@ -138,8 +138,8 @@ export default function PagePasc10() {
           Jesus in conspéctu discipulórum suórum, quæ non sunt scripta in libro
           hoc. Hæc autem scripta sunt, ut credátis, quia Jesus est Christus,
           Fílius Dei: et ut credéntes vitam habeátis in nómine ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, chegada a tarde daquele dia, que era o primeiro da
           semana, encontrando-se os discípulos reunidos em um lugar, cujas
           portas estavam fechadas, por causa do medo que tinham dos judeus, veio
@@ -165,68 +165,68 @@ export default function PagePasc10() {
           outros milagres, que não foram escritos neste livro; mas estes foram,
           a fim de que acrediteis que Jesus Cristo é Filho de Deus; e,
           acreditando, alcanceis a vida eterna em seu nome.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Mt. 28, 2, 5 & 6</Text>
+      <Typography className="em">Mt. 28, 2, 5 & 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Angelus Dómini descéndit de cœlo, et dixit muliéribus: Quem quǽritis,
           surréxit, sicut dixit, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Um anjo do Senhor desceu do céu e disse às mulheres: «Aquele a quem
           procurais ressuscitou, como havia anunciado», aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Suscipe múnera, Dómine, quǽsumus, exsultántis Ecclésiæ: et, cui causam
           tanti gáudii præstitísti, perpétuæ fructum concéde lætítiæ. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aceitai, Senhor, Vos suplicamos, as ofertas que a vossa Igreja
           alegremente Vos consagra; e, assim como lhe proporcionastes a graça de
           tão grande gozo; concedei-lhe, também o fruto da eterna alegria. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 20, 27</Text>
+      <Typography className="em">Jo. 20, 27</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mitte manum tuam, et cognósce loca clavórum, allelúja: et noli esse
           incrédulus, sed fidélis, allelúja, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Mete aqui o teu dedo e toca no lugar dos cravos, aleluia; não sejas
           incrédulo, mas fiel, aleluia, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quǽsumus, Dómine, Deus noster: ut sacrosáncta mystéria, quæ pro
           reparatiónis nostræ munímine contulísti; et præsens nobis remédium
           esse fácias et futúrum. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos suplicamos, Senhor, nosso Deus, permiti que estes sacrossantos
           mystérios, que instituístes para alcançarmos a regeneração, sejam
           nosso remédio salutar no presente e no futuro. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

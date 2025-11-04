@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,14 +8,14 @@ export default function PageMaria() {
     <PageWrapper>
       <H1 text="Prefácio da B. Virgem Maria" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Diz-se nas Festas da Santíssima Virgem (excepto na da Purificação) e nos
         seus Oitavários, alterando-se, porém, algumas palavras (segundo a Festa
         que se celebra), como se diz na nota de rodapé.
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vere dignum et justum est, æquum et salutáre, nos tibi semper et
           ubique grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: Et
           te in (Conceptióne immaculáta - na Imaculada Conceição; Præsentatióne
@@ -31,8 +31,8 @@ export default function PageMaria() {
           cœlorúmque Virtútes ac beáta Séraphim sócia exsultatióne concélebrant.
           Cum quibus et nostras voces ut admitti jubeas, deprecámur, súpplici
           confessióne dicéntes:
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           É verdadeiramente digno e justo, racional e salutar render-Vos graças
           em todos os lugares e sempre, ó Senhor santo, Pai omnipotente, eterno
           Deus, e de sempre Vos louvar, bendizer e anunciar da Bem-aventurada
@@ -44,7 +44,7 @@ export default function PageMaria() {
           bem-aventurados Serafins a festejam em transportes de alegria. E, Vos
           imploramos, permiti que unamos as nossas vozes às de todos estes,
           dizendo em suplicante confissão:
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

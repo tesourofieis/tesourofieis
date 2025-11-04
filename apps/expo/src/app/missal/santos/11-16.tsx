@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page1116() {
     <PageWrapper>
       <H1 text="S. Gertrudes, Virgem, a 16 de Novembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Santa Gertrudes, chamada a Grande, pertence à Ordem do grande Patriarca
         dos Monges do Ocidente, São Bento. Sua vida passou-se quasi inteira no
         claustro, onde foi oferecida a Deus na idade de cinco anos em 1261. No
@@ -43,31 +43,31 @@ export default function Page1116() {
         ardor de seu amor do que pela doença. Foi declarada Padroeira das Índias
         ocidentais, e, no novo México, foi construída uma cidade em sua honra e
         que ainda conserva o seu nome.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link href="/missal/comum/20virgemnaomartir1">
           Missa Dilexísti justitiam,
         </Link>
         excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui in corde beátæ Gertrudis Vírginis jucúndam tibi mansionem
           præparásti: ipsíus méritis et intercessióne; cordis nostri máculas
           cleménter abstérge, et ejúsdem tríbue gaudére consórtio. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que para Vós preparastes uma morada agradável no coração da B.
           Virgem Gertrudes, atendendo aos seus méritos e intercessão, apagai
           misericordiosamente as máculas do nosso coração e concedei-nos o gozo
           da sua companhia. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

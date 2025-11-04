@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function PageJose() {
       <H1 text="Orações a São José" />
       <H2 text="Oração a São José pelo Papa Leão XIII" />
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ad te beáte Joseph, in tribulatióne nostra confúgimus, atque,
           imploráto Sponsæ tuæ sanctíssimæ auxílio, patrocínium quoque tuum
           fidenter expóscimus. Per eam, quǽsumus, quæ te cum immaculáta Vírgine
@@ -26,8 +26,8 @@ export default function PageJose() {
           perpétuo tege patrocínio, ut ad tui exémplar et ope tua suffúlti,
           sancte vívere, pie émori, sempiternámque in cælis beatitúdinem ássequi
           possímus. Amen
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Bem-aventurado S. José, a vós recorremos na nossa tribulação, e,
           havendo implorado da Santíssima Virgem, vossa esposa, pedimos também
           com toda a confiança a vossa protecção. Por aquele afecto que vos uniu
@@ -45,18 +45,18 @@ export default function PageJose() {
           nós concedei a vossa constante protecção, a fim de que, imitando-vos e
           fortalecidos com vosso auxílio, possamos viver santamente, morrer
           piamente e alcançar no céu a bem-aventurança eterna. Amen
-        </Text>
+        </Typography>
       </Language>
       <H2 text="Oração" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó glorioso S. José, Pai e protector das Virgens, guarda fiel a quem Deus
         confiou Jesus, a própria inocência, e Maria, Virgem das virgens! Em nome
         de Jesus e de Maria, este duplo tesouro que vos foi tão caro, vos
         suplico que me conserveis livre de toda a impureza, para que com alma
         pura e corpo casto, sirva sempre, fielmente, a Jesus e a Maria. Amen.
-      </Text>
+      </Typography>
       <H2 text="Para o Trabalho" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó glorioso S. José, modelo de todos os que se consagram ao trabalho!
         Alcançai-me a graça de trabalhar com espírito de penitência, em expiação
         dos meus pecados; de trabalhar com consciência, pondo o cumprimento do
@@ -71,7 +71,7 @@ export default function PageJose() {
         meus trabalhos, tão contrárias à obra de Deus. Tudo por Jesus, tudo por
         Maria, tudo à vossa imitação, ó Patriarca São José! Este será o meu lema
         na vida a na morte. Amen.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

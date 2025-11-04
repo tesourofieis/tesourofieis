@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,52 +10,52 @@ export default function PagePasc40() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 97, 1 & 2</Text>
+      <Typography className="em">Sl. 97, 1 & 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cantáte Dómino cánticum novum, allelúja: quia mirabília fecit Dóminus,
           allelúja: ante conspéctum géntium revelávit justítiam suam, allelúja,
-          allelúja, allelúja. <Text className="latin">Ps. ibid., 1</Text>{" "}
+          allelúja, allelúja. <Typography className="latin">Ps. ibid., 1</Typography>{" "}
           Salvávit sibi déxtera ejus: et bráchium sanctum ejus.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Cantai em honra do Senhor um hino novo, aleluia: porque operou
           maravilhas, aleluia: revelou a sua justiça, perante os olhos dos
           povos, aleluia, aleluia, aleluia.{" "}
-          <Text className="vernacular">Sl. ibid., 1</Text> Alcançou vitória com
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Alcançou vitória com
           sua dextra e com seu santo braço.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui fidélium mentes uníus éfficis voluntátis: da pópulis tuis id
           amáre quod prǽcipis, id desideráre quod promíttis; ut inter mundánas
           varietátes ibi nostra fixa sint corda, ubi vera sunt gáudia. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que unis os espíritos dos fiéis em uma só vontade, concedei
           aos vossos povos a graça de amarem o que mandais e de desejarem o que
           prometeis, a fim de que durante as inconstâncias deste mundo os nossos
           corações permaneçam fixos onde estão as verdadeiras alegrias. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Tg. 1, 17-21</Text>
+      <Typography className="em">Tg. 1, 17-21</Typography>
 
       <Language>
-        <Text className="latin">Léctio Epístolæ beáti Jacóbi Apóstoli.</Text>
-        <Text className="vernacular">Lição da Ep.ª do B. Ap.º Tiago.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Epístolæ beáti Jacóbi Apóstoli.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Tiago.</Typography>
+        <Typography className="latin">
           Caríssimi: Omne datum óptimum, et omne donum perféctum desúrsum est,
           descéndens a Patre lúminum, apud quem non est transmutátio nec
           vicissitúdinis obumbrátio. Voluntárie enim génuit nos verbo veritátis,
@@ -65,8 +65,8 @@ export default function PagePasc40() {
           Propter quod abjiciéntes omnem immundítiam et abundántiam malítiæ, in
           mansuetúdine suscípite ínsitum verbum, quod potest salváre ánimas
           vestras.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimos: Toda a graça excelente e todo o dom perfeito vêm do alto e
           descem do Pai das luzes, em quem não há inconstância, nem sombra de
           mudança. Espontaneamente criou-nos pela palavra da verdade, para que
@@ -76,44 +76,44 @@ export default function PagePasc40() {
           em harmonia com a justiça de Deus. Por isso deveis desprezar todas as
           impurezas e malícias e receber com docilidade a palavra que ouvistes,
           a qual tem poder para salvar as almas.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 117, 16</Text> Déxtera Dómini fecit
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 117, 16</Typography> Déxtera Dómini fecit
           virtútem: déxtera Dómini exaltávit me. Allelúja.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Rom. 6, 9</Text> Christus resúrgens ex mórtuis
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Rom. 6, 9</Typography> Christus resúrgens ex mórtuis
           jam non móritur: mors illi ultra non dominábitur. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Ps. 117, 16</Text> A dextra do Senhor
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Ps. 117, 16</Typography> A dextra do Senhor
           mostrou o poder: a dextra do Senhor exaltou-me. Aleluia.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Rm. 6, 9</Text> Cristo ressuscitou dos mortos, já
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Rm. 6, 9</Typography> Cristo ressuscitou dos mortos, já
           não morrerá: a morte não mais O vencerá. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 16, 5-14</Text>
+      <Typography className="em">Jo. 16, 5-14</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Vado ad eum, qui misit
           me: et nemo ex vobis intérrogat me: Quo vadis? Sed quia hæc locútus
           sum vobis, tristítia implévit cor vestrum. Sed ego veritátem dico
@@ -127,8 +127,8 @@ export default function PagePasc40() {
           docébit vos omnem veritátem. Non enim loquétur a semetípso: sed
           quæcúmque áudiet, loquétur, et quæ ventúra sunt, annuntiábit vobis.
           Ille me clarificábit: quia de meo accípiet et annuntiábit vobis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Vou para Aquele que
           me enviou e nenhum de vós me pergunta: Para onde ides? Mas, porque
           disse estas coisas, encheu-se o vosso coração de tristeza! Pois
@@ -143,72 +143,72 @@ export default function PagePasc40() {
           Ele não falará especialmente de si mesmo, mas daquilo que tiver ouvido
           e das coisas que hão-de acontecer; e me glorificará, porque receberá
           do que é meu, e vo-lo anunciará.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 65, 1-2 & 16</Text>
+      <Typography className="em">Sl. 65, 1-2 & 16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Jubiláte Deo, univérsa terra, psalmum dícite nómini ejus: veníte et
           audíte, et narrábo vobis, omnes qui timétis Deum, quanta fecit Dóminus
           ánimæ meæ, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó povos de toda a terra, aclamai Deus com júbilo: cantai hinos em
           honra do seu nome: vinde, vós todos, que temeis Deus, vinde e escutai:
           e contar-vos-ei as mercês que Ele fez à minha alma, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui nos, per hujus sacrificii veneránda commércia, uníus summæ
           divinitátis partícipes effecísti: præsta, quǽsumus; ut, sicut tuam
           cognóscimus veritátem, sic eam dignis móribus assequámur. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que pelo sagrado comércio deste sacrifício nos tornastes
           participantes da vossa divindade una e suprema, fazei, Vos imploramos,
           que, assim como já conhecemos a vossa verdade, assim também,
           procedendo dignamente em os nossos costumes, consigamos alcançá-la.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 16, 8</Text>
+      <Typography className="em">Jo. 16, 8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cum vénerit Paráclitus Spíritus veritátis, ille árguet mundum de
           peccáto et de justítia et de judício, allelúja, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Quando o Consolador Espírito da verdade vier, convencerá o mundo
           acerca do pecado, da justiça e do juízo, aleluia, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Adésto nobis, Dómine, Deus noster: ut per hæc, quæ fidéliter
           súmpsimus, et purgémur a vítiis et a perículis ómnibus eruámur. Per
           Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Assisti-nos, Senhor, nosso Deus, a fim de que por este sacramento, que
           recebemos com fé e sinceridade, sejamos purificados dos vícios e
           livres dos perigos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

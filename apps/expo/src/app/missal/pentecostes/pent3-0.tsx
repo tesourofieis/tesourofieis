@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,53 +10,53 @@ export default function PagePent30() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 24, 16 & 18</Text>
+      <Typography className="em">Sl. 24, 16 & 18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Réspice in me et miserére mei, Dómine: quóniam únicus et pauper sum
           ego: vide humilitátem meam et labórem meum: et dimítte ómnia peccáta
-          mea, Deus meus. <Text className="latin">Ps. ibid., 1-2</Text> Ad te,
+          mea, Deus meus. <Typography className="latin">Ps. ibid., 1-2</Typography> Ad te,
           Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Volvei propício vossos olhos para mim e tende compaixão de mim, pois
           estou só e sou pobre. Vede a minha miséria e as minhas dores, ó meu
           Deus, e perdoai-me todos os pecados.{" "}
-          <Text className="vernacular">Sl. ibid., 1-2</Text> A Vós, Senhor,
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> A Vós, Senhor,
           elevei a minha alma. Ó meu Deus, confio em Vós: não permitireis que
-          fique envergonhado.<Text className="versicle"> ℣. </Text>
+          fique envergonhado.<Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Protéctor in te sperántium, Deus, sine quo nihil est válidum, nihil
           sanctum: multíplica super nos misericórdiam tuam; ut, te rectóre, te
           duce, sic transeámus per bona temporália, ut non amittámus ætérna. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, protector daqueles que esperam em Vós, e sem o qual nada
           existe, nem sólido nem santo, multiplicai a vossa misericórdia sobre
           nós, de maneira que, sendo sempre governados e guiados por Vós,
           transitemos de tal modo pelos bens terrenos que não deixemos de gozar
           os eternos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Pe. 5, 6-11</Text>
+      <Typography className="em">1 Pe. 5, 6-11</Typography>
 
       <Language>
-        <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
-        <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
           Caríssimi: Humiliámini sub coténti manu Dei, ut vos exáltet in témpore
           visitatiónis: omnem sollicitúdinem vestram projiciéntes in eum,
           quóniam ipsi cura est de vobis. Sóbrii estote et vigiláte: quia
@@ -66,8 +66,8 @@ export default function PagePent30() {
           qui vocávit nos in ætérnam suam glóriam in Christo Jesu, módicum
           passos ipse perfíciet, confirmábit solidabítque. Ipsi glória et
           impérium in sǽcula sæculórum. Amen.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimos: Humilhai-vos sob a mão poderosa de Deus, para que Ele vos
           exalte no tempo da sua visita. Confiai a Deus todas as inquietações,
           porque tomará cuidado delas. Sede sóbrios e vigilantes, pois o vosso
@@ -78,50 +78,50 @@ export default function PagePent30() {
           por meio de Jesus Cristo) depois de haverdes padecido alguns
           sofrimentos vos aperfeiçoará, confirmará e fortificará. A Ele seja
           dada glória e soberania em todos os séculos dos séculos! Amen.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 54, 23, 17 & 19</Text>
+      <Typography className="em">Sl. 54, 23, 17 & 19</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Jacta cogitátum tuum in Dómino: et ipse te enútriet.
-          <Text className="versicle"> ℣. </Text>Dum clamárem ad Dóminum,
+          <Typography className="versicle"> ℣. </Typography>Dum clamárem ad Dóminum,
           exaudívit vocem meam ab his, qui appropínquant mihi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Confiai ao Senhor vossas inquietações: Ele vos sustentará.
-          <Text className="versicle"> ℣. </Text>Logo que invoquei o Senhor,
+          <Typography className="versicle"> ℣. </Typography>Logo que invoquei o Senhor,
           ouviu Ele a minha voz, livrando-me daqueles que me cercavam.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 7, 12</Text> Deus judex justus, fortis et
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 7, 12</Typography> Deus judex justus, fortis et
           pátiens, numquid iráscitur per síngulos dies? Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 7, 12</Text> Deus é juiz justo, forte
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 7, 12</Typography> Deus é juiz justo, forte
           e paciente: sua ira manifesta-se, porventura, todos os dias? Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 15, 1-10</Text>
+      <Typography className="em">Lc. 15, 1-10</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Erant appropinquántes ad Jesum publicáni et
           peccatóres, ut audírent illum. Et murmurábant pharisǽi et scribæ,
           dicéntes: Quia hic peccatóres recipit et mandúcat cum illis. Et ait ad
@@ -138,8 +138,8 @@ export default function PagePent30() {
           invénerit, cónvocat amícas et vicínas, dicens: Congratulámini mihi,
           quia invéni drachmam, quam perdíderam? Ita dico vobis: gáudium erit
           coram Angelis Dei super uno peccatóre pœniténtiam agénte.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, aproximaram-se de Jesus os publicanos e os pecadores
           para O ouvirem. E os fariseus e os escribas murmuravam, dizendo: «Este
           homem recebe os pecadores e come com eles». E Jesus propôs-lhes esta
@@ -157,67 +157,67 @@ export default function PagePent30() {
           «congratulai-vos comigo, pois encontrei a dracma que perdera?». Assim,
           vos digo: «Haverá muita alegria perante os Anjos de Deus por um só
           pecador que faça penitência».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 9, 11-12 & 13</Text>
+      <Typography className="em">Sl. 9, 11-12 & 13</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sperent in te omnes, qui novérunt nomen tuum, Dómine: quóniam non
           derelínquis quæréntes te: psállite Dómino, qui hábitat in Sion:
           quóniam non est oblítus oratiónem páuperum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Confiem em Vós, Senhor, aqueles que conhecem o vosso nome; porque
           nunca abandonais os que a Vós recorrem. Cantai hinos ao Senhor, que
           habita em Sião. Ele se não esqueceu da oração dos pobres.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Réspice, Dómine, múnera supplicántis Ecclésiæ: et salúti credéntium
           perpétua sanctificatióne suménda concéde. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Olhai benignamente, Senhor, para estas ofertas da Igreja suplicante, e
           concedei aos fiéis a graça de as receberem sempre santamente, e com
           fruto para a sua santificação. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Lc. 15, 10</Text>
+      <Typography className="em">Lc. 15, 10</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dico vobis: gáudium est Angelis Dei super uno peccatóre pœniténtiam
           agénte.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos digo: há muita alegria perante os Anjos de Deus por um só pecador
           que faça penitência.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sancta tua nos, Dómine, sumpta vivíficent: et misericórdiæ sempitérnæ
           prǽparent expiátos. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, que a recepção dos vossos sacramentos nos vivifique, e que,
           servindo de expiação dos nossos pecados, nos torne dignos da
           misericórdia eterna. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

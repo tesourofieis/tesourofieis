@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -6,12 +6,12 @@ export default function PageConsagracaopessoalcristo() {
   return (
     <PageWrapper>
       <H1 text="Consagração Pessoal a Jesus Cristo" />
-      <Text className="aside">
+      <Typography className="aside">
         Nos 30 dias anteriores à consagração devem-se rezar Ladainhas, o Veni
         Creator Spíritus e a Ave Maris Stella, deve-se ler o Santo Evangelho e a
         Imitação de Cristo, assim como rezar o terço.
-      </Text>
-      <Text className="vernacular">
+      </Typography>
+      <Typography className="vernacular">
         Ó sabedoria eterna e encarnada! Ó Amabilíssimo e adorável Jesus,
         verdadeiro Deus e verdadeiro homem, Filho Unigénito do Pai Eterno e da
         sempre Virgem Maria. Adoro-Vos profundamente, no seio e nos esplendores
@@ -64,7 +64,7 @@ export default function PageConsagracaopessoalcristo() {
         Encarnada, Jesus Cristo, vosso Filho, que eu chegue um dia, por vossa
         intercessão e a vosso exemplo, à plenitude da sua idade na Terra e da
         sua glória no Céu. Amen.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

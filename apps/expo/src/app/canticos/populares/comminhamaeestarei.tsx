@@ -1,4 +1,5 @@
-import { Text, View } from "react-native";
+import { Typography } from "~/components/typography";
+import { View } from "react-native";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -8,19 +9,19 @@ export default function PageComminhamaeestarei() {
       <H1 text="Com minha Mãe estarei" />
 
       <View className="not-content">
-        <Text className="vernacular">
+        <Typography className="vernacular">
           Com minha Mãe estarei na santa glória um dia; junto à Virgem Maria, no
           Céu triunfarei.
-        </Text>
-        <Text className="vernacular">{"\n"}</Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">{"\n"}</Typography>
+        <Typography className="vernacular">
           Refrão: No Céu, no Céu, com minha Mãe estarei. (2x)
-        </Text>
-        <Text className="vernacular">{"\n"}</Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">{"\n"}</Typography>
+        <Typography className="vernacular">
           Com minha Mãe estarei; mas já que hei ofendido a seu Jesus querido, as
           culpas chorarei.
-        </Text>
+        </Typography>
       </View>
     </PageWrapper>
   );

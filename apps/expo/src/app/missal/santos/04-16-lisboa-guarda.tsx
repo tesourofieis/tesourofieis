@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -7,13 +7,13 @@ export default function Page0416LisboaGuarda() {
   return (
     <PageWrapper>
       <H1 text="S. Engrácia, Virgem e Mártir, a 16 de Abril" />
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/20virgemnaomartir1">
           Missa Loquébar
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
       <H3 text="Oração" />Ó Deus omnipotente e sempiterno, que escolheis os
       fracos do mundo para com eles confundirdes os poderosos, a nós, que
       celebramos esta solenidade em honra da B. Engrácia, vossa Virgem e Mártir,

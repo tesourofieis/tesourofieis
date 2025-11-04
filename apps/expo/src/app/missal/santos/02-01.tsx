@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,38 +10,38 @@ export default function Page0201() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Gl. 6, 14</Text>
+      <Typography className="em">Gl. 6, 14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu Christi:
           per quem mihi mundus crucifíxus est, et ego mundo.{" "}
-          <Text className="latin">Ps. 131, 1</Text> Meménto, Dómine, David: et
-          omnis mansuetúdinis ejus.<Text className="versicle"> ℣. </Text>
+          <Typography className="latin">Ps. 131, 1</Typography> Meménto, Dómine, David: et
+          omnis mansuetúdinis ejus.<Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Longe esteja de mim gloriar-me nalguma coisa senão na Cruz de N. S.
           Jesus Cristo, pela qual o mundo foi crucificado para mim e eu para o
-          mundo. <Text className="vernacular">Sl. 131, 1</Text> Lembrai-Vos de
+          mundo. <Typography className="vernacular">Sl. 131, 1</Typography> Lembrai-Vos de
           David, Senhor, assim como da sua mansidão.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Rm. 8, 35-39</Text>
+      <Typography className="em">Rm. 8, 35-39</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epistolæ beáti Pauli Apóstoli ad Romános.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Quis nos separábit a cantáte Christi: tribulátio, an
           angustia, an fames, an núditas, an perículum, an persecútio, an
           gládius? (sicut scriptum est: Quia propter te mortificámur tota die:
@@ -51,8 +51,8 @@ export default function Page0201() {
           instántia, neque futúra, neque fortitúdo, neque altitúdo, neque
           profúndum, neque creatúra alia poterit nos separáre a cantáte Dei, quæ
           est in Christo Jesu, Dómino nostro.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Quem nos separará do amor de Cristo? A tribulação, a angústia, a fome,
           a nudez, os perigos, a perseguição, a espada? Segundo o que está
           escrito: «Por ti somos entregues à morte todos os dias; somos
@@ -62,92 +62,92 @@ export default function Page0201() {
           nem as coisas presentes, nem as futuras, nem a força, nem a altura,
           nem a profundidade, nem nenhuma outra criatura poderá separar-nos do
           amor de Deus, que está em nosso Senhor Jesus Cristo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Ecl. 44, 16</Text>
+      <Typography className="em">Ecl. 44, 16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ecce sacérdos magnus, qui m diébus suis plácuit Deo.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ibid , 20</Text> Non est invéntus símilis
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ibid , 20</Typography> Non est invéntus símilis
           illi, qui conserváret legem Excélsi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eis o grande sacerdote que durante a vida agradou a Deus.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Ibid , 20</Text> Não houve quem, como
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Ibid , 20</Typography> Não houve quem, como
           ele, guardasse a observância da Lei do Altíssimo.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Gal 2, 19-20</Text> Christo confíxus sum
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Gal 2, 19-20</Typography> Christo confíxus sum
           Cruci: vivo ego, jam non ego, vivit vero in me Christus. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Gl 2, 19-20</Text> Estou crucificado com
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Gl 2, 19-20</Typography> Estou crucificado com
           Cristo. Vivo, mas já não sou eu que vivo: é Cristo que vive em mim.
           Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         Após a Septuagésima omite-se o Aleluia e o Verso, e diz-se:
-      </Text>
+      </Typography>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 20, 3-4</Text>
+      <Typography className="em">Sl. 20, 3-4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Desirérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
-          fraudásti eum.<Text className="versicle"> ℣. </Text>Quoniam prævenísti
+          fraudásti eum.<Typography className="versicle"> ℣. </Typography>Quoniam prævenísti
           eum in benedictiónibus dulcedinis.
-          <Text className="versicle"> ℣. </Text>Posuísti in cápite ejus coronam
+          <Typography className="versicle"> ℣. </Typography>Posuísti in cápite ejus coronam
           de lápide pretióso.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Satisfizestes os desejos do seu coração e o não iludistes nas preces
           proferidas por seus lábios.
-          <Text className="versicle"> ℣. </Text>Vós, Senhor, o enchestes com
-          bênçãos faustosas.<Text className="versicle"> ℣. </Text>Colocastes na
+          <Typography className="versicle"> ℣. </Typography>Vós, Senhor, o enchestes com
+          bênçãos faustosas.<Typography className="versicle"> ℣. </Typography>Colocastes na
           sua cabeça o diadema de ouro.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 8, 6-7</Text>
+      <Typography className="em">Sl. 8, 6-7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Glória et honóre coronásti eum: et constituísti eum super ópera mánuum
           tuárum, Domine.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós o coroastes, Senhor, com glória e honras: Vós lhe concedestes
           domínio sobre as obras das vossas mãos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Palavras de S. Inácio</Text>
+      <Typography className="em">Palavras de S. Inácio</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Fruméntum Christi sum: déntibus bestiárum molar, ut panis mundus
           invéniar.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Sou o trigo de Cristo, que hei-de ser moído nos dentes das feras para
           me tornar em pão puríssimo.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

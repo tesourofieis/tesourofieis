@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -9,7 +9,7 @@ export default function Page0723() {
     <PageWrapper>
       <H1 text="S. Apolinário, B. e Mártir, a 23 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Apolinário veio da Antióquia para Roma com o príncipe dos Apóstolos que
         o sagrou bispo (Intr., Grad., Al.) e o enviou a Ravena, a pregar o
         Evangelho de Jesus Cristo. A Epístola é a de S. Pedro, descrevendo os
@@ -22,7 +22,7 @@ export default function Page0723() {
         valer os talentos que Deus lhe confiara (Com.). Nas nossas provações
         permaneçamos unidos a Jesus e Ele nos preparará como a esse Santo, um
         lugar no seu reino (Ev.).
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
@@ -34,28 +34,28 @@ export default function Page0723() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, fidélium remunerátor animárum, qui hunc diem beáti Apollináris
           Sacerdótis tui martýrio consecrásti: tríbue nobis, quǽsumus, fámulis
           tuis; ut, cujus venerándam celebrámus festivitátem, précibus ejus
           indulgéntiam consequámur. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, remunerador das almas fiéis, que consagrastes este dia com o
           martírio do B. Apolinário, vosso Sacerdote, fazei que estes vossos
           servos alcancem a indulgência das suas faltas, pelas preces daquele
           cuja venerável festa celebramos. Por...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Pe. 5, 1-11</Text>
+      <Typography className="em">1 Pe. 5, 1-11</Typography>
 
       <Language>
-        <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
-        <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
           Caríssimi: Senióres, qui in vobis sunt, obsecro, consénior et testis
           Christi passiónum: qui et ejus, quae in futúro revelánda est, glóriæ
           communicátor: páscite qui in vobis est gregem Dei, providéntes non
@@ -74,8 +74,8 @@ export default function Page0723() {
           ætérnam suam glóriam in Christo Jesu, módicum passos ipse perfíciet,
           confirmábit solidabítque. Ipsi glória et impérium in sǽcula sæculórum.
           Amen.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimos: Aos sacerdotes, que estão entre vós, rogo eu, sacerdote,
           como eles, e testemunha dos sofrimentos de Cristo, e, além disso,
           participante da glória, que deve ser manifestada: apascentai o rebanho
@@ -97,54 +97,54 @@ export default function Page0723() {
           Jesus Cristo à eterna glória, vos aperfeiçoará, confirmará e
           consolidará. A Ele seja dada glória e homenagem em todos os séculos
           dos séculos. Amen.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 88, 21-23</Text>
+      <Typography className="em">Sl. 88, 21-23</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
           auxiliábitur ei, et bráchium meum confortábit eum.
-          <Text className="versicle"> ℣. </Text>Nihil profíciet inimícus in eo,
+          <Typography className="versicle"> ℣. </Typography>Nihil profíciet inimícus in eo,
           et fílius iniquitátis non nocébit ei.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Encontrei o meu servo David e ungi-o com meu óleo sagrado: a minha mão
           o auxiliará e o meu braço o fortalecerá.
-          <Text className="versicle"> ℣. </Text>O inimigo não terá nele domínio
+          <Typography className="versicle"> ℣. </Typography>O inimigo não terá nele domínio
           algum; o filho da iniquidade não poderá prejudicá-lo.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 109, 4</Text> Jurávit Dóminus, et non
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 109, 4</Typography> Jurávit Dóminus, et non
           pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem
           Melchísedech. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Ps. 109, 4</Text> Jurou o Senhor e não se
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Ps. 109, 4</Typography> Jurou o Senhor e não se
           arrependerá: tu és sacerdote para sempre segundo a ordem de
           Melquisedeque. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 22, 24-30</Text>
+      <Typography className="em">Lc. 22, 24-30</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Facta est conténtio inter discípulos, quis eórum
           viderétur esse major. Dixit autem eis Jesus: Reges géntium dominántur
           eórum; et qui potestátem habent super eos, benéfici vocántur. Vos
@@ -155,8 +155,8 @@ export default function Page0723() {
           tentatiónibus meis: et ego dispóno vobis, sicut dispósuii mihi Pater
           meus regnum, ut edátis et bibátis super mensam meam in regno meo: et
           sedeátis super thronos, judicántes duódecim tribus Israël.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, levantou-se entre os discípulos uma contenda acerca de
           qual deles devia ser considerado o maior. Jesus disse-lhes: «Os reis
           das nações as dominam com sua autoridade, e aqueles que têm poder nela
@@ -169,71 +169,71 @@ export default function Page0723() {
           como meu Pai o preparou para mim, a fim de que possais comer e beber à
           minha mesa no meu reino, e estejais sentados nos tronos, para julgar
           as doze tribos de Israel».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 88, 25</Text>
+      <Typography className="em">Sl. 88, 25</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur
           cornu ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A minha fidelidade e a minha misericórdia estarão com ele: e por
           virtude de meu nome será exaltado o seu poder.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Réspice, Dómine, propítius super hæc múnera: quæ pro beáti Sacerdótis
           et Martyris tui Apollináris commemoratióne deférimus, et pro nostris
           offensiónibus immolámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Olhai propício, Senhor, para os dons que vos apresentamos em memória
           do vosso B. Sacerdote e Mártir Apolinário, os quais Vos oferecemos em
           sacrifício de expiação pelas nossas ofensas. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 25, 20 & 21</Text>
+      <Typography className="em">Mt. 25, 20 & 21</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dómine, quinque talénta tradidísti mihi, ecce, ália quinque
           superlucrátus sum. Euge, serve bone et fidélis, quia in pauca fuísti
           fidélis, supra multa te constítuam, intra in gáudium Dómini tui.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Entregastes-me, Senhor, cinco talentos; eis outros cinco que lucrei.
           Muito bem, servo fiel e bom. Porque foste fiel em bens de pouca
           importância, eu te estabelecerei sobre bens mais importantes. Entra no
           gozo do teu senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tua sancta suméntes, quǽsumus, Dómine, ut beáti Apollináris nos
           fóveant continuáta præsídia: quia non désinis propítius intuéri, quos
           tálibus auxíliis concésseris adjuvári. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Tendo participado dos vossos sacrossantos mystérios, Vos suplicamos,
           Senhor, queirais defender-nos sempre com a protecção do B. Apolinário,
           pois não cessais de olhar propício para aqueles a quem concedeis tal
           socorro. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

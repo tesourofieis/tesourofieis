@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,137 +9,137 @@ export default function PageUniversal() {
       <H1 text="Oração Universal do Papa Clemente XI" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Credo Domine, sed credam firmius; spero, sed sperem securius; amo, sed
           amem ardentius; doleo, sed doleam vehementius.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, creio em Vós, fazei que creia com mais firmeza; espero em Vós,
           fazei que espere com mais confiança; amo-Vos, aumentai o meu amor;
           arrependo-me, avivai a minha dor.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Adoro te ut primum principium; desidero ut finem ultimum; laudo ut
           benefactorem perpetuum; invoco ut defensorem propitium.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Adoro-Vos como primeiro princípio; desejo-Vos como último fim;
           exalto-Vos como benfeitor perpétuo; invoco-Vos como defensor propício.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Tua me sapientia dirige, iustitia contine, clementia solare, potentia
           protege.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dirigi-me com vossa sabedoria; atai-me com vossa justiça; consolai-me
           com vossa clemência; protegei-me com vosso poder.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Offero tibi, Domine cogitanda, ut sint ad te; dicenda, ut sint de te;
           facienda, ut sint secundum te; ferenda, ut sint propter te.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ofereço-Vos os meus pensamentos, para que se dirijam a Vós; minhas
           palavras, para que falem de Vós; minhas obras, para que sejam vossas;
           minhas contrariedades, para que as aceite por Vós.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Volo quidquid vis, volo quia vis, volo quomodo vis, volo quamdiu vis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Quero o que quereis, quero porque o quereis, quero como o quereis,
           quero enquanto o queirais.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Oro, Domine, intellectum illumines, voluntatem inflammes, cor emundes,
           animam sanctifices.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, peço-Vos que ilumineis a minha mente, inflameis a minha
           vontade, limpeis o meu coração, santifiqueis a minha alma.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Defleam praeteritas iniquitates, repellam futuras tentationes,
           corrigam vitiosas propensiones, excolam idoneas virtutes.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que me afaste das faltas passadas, rejeite as tentações futuras,
           corrija as más inclinações, pratique as virtudes necessárias.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Tribue mihi, bone Deus, amorem tui, odium mei, zelum proximi,
           contemptum mundi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedei-me, Deus de bondade, amor por Vós, ódio por mim, zelo pelo
           próximo, desprezo pelo mundano.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Studeam superioribus oboedire, inferioribus subvenire, amicis
           consulere, inimicis parcere.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que saiba obedecer aos superiores, ajudar os inferiores, acolher os
           amigos, perdoar os inimigos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Vincam voluptatem austeritate, avaritiam largitate, iracundiam
           lenitate, tepiditatem fervore.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que vença a sensualidade com a mortificação, a avareza com a
           generosidade, a ira com a bondade, a tibieza com a piedade.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Redde me prudentem in consiliis, constantem in periculis, patientem in
           adversis, humilem in prosperis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Fazei-me prudente nos conselhos, constante nos perigos, paciente nas
           contrariedades, humilde na prosperidade.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fac, Domine, ut sim in oratione attentus, in epulis sobrius, in munere
           sedulus, in proposito firmus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, fazei-me atento na oração, sóbrio na comida, perseverante no
           trabalho, firme nos propósitos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Curem habere innocentiam interiorem, modestiam exteriorem,
           conversationem exemplarem, vitam regularem.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que procure ter inocência interior, modéstia exterior, conversa
           exemplar, vida ordenada.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Assidue invigilem naturae domandae, gratiae fovendae, legi servandae,
           saluti promerendae.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que lute por dominar a minha natureza, fomentar a graça, servir a
           vossa lei e obter a salvação.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Discam a te quam tenue quod terrenum, quam grande quod divinum, quam
           breve quod temporaneum, quam durabile quod aeternum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que aprenda de Vós como é pouco o terreno, como é grande o divino,
           como é breve o tempo, como é duradouro o eterno.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Da mortem praeveniam, iudicium pertineam, infernum effugiam, paradisum
           obtineam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Fazei-me preparar a morte, temer o juízo, evitar o inferno e alcançar
           o Paraíso.
-        </Text>
-        <Text className="latin">Per Christum Dominum nostrum. Amen.</Text>
-        <Text className="vernacular">Por Cristo Nosso Senhor. Amen.</Text>
+        </Typography>
+        <Typography className="latin">Per Christum Dominum nostrum. Amen.</Typography>
+        <Typography className="vernacular">Por Cristo Nosso Senhor. Amen.</Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,3 +1,4 @@
+import { Typography } from "~/components/typography";
 import { Calendar } from "@tesourofieis/cal/calendar";
 import { getNovenas } from "@tesourofieis/cal/getCalendar";
 import type { Mass } from "@tesourofieis/cal/observanceManager";
@@ -5,7 +6,7 @@ import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import { getYear } from "date-fns";
 import { Link } from "expo-router";
 import { useEffect, useState } from "react";
-import { Text, View } from "react-native";
+import { View } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -41,29 +42,29 @@ export default function PaginaNovenas() {
         {novena.map((novena) => (
           // @ts-ignore
           <Link key={novena.id} href={`/${novena.link}`}>
-            <Text className="text-pretty font-bold underline mb-2">
+            <Typography className="text-pretty font-bold underline mb-2">
               {novena.name}
-            </Text>
+            </Typography>
           </Link>
         ))}
       </View>
 
-      <Text className="text-pretty mb-2">
+      <Typography className="text-pretty mb-2">
         Não existem novenas oficiais estabelecidas pela Igreja, permitindo que
         cada fiel as adapte às suas necessidades espirituais.
-      </Text>
-      <Text className="text-pretty mb-2">
+      </Typography>
+      <Typography className="text-pretty mb-2">
         Se não tiver uma novena específica para rezar, pode considerar a
         seguinte estrutura:
-      </Text>
+      </Typography>
       <View className="list-decimal list-inside mb-2">
-        <Text className="li text-justify">
+        <Typography className="li text-justify">
           Reze a oração da missa da novena.
-        </Text>
-        <Text className="li text-justify">Adicione intenções pessoais.</Text>
-        <Text className="li text-justify">
+        </Typography>
+        <Typography className="li text-justify">Adicione intenções pessoais.</Typography>
+        <Typography className="li text-justify">
           Termine com a Salve Regina, ou outra oração.
-        </Text>
+        </Typography>
       </View>
 
       <H3 text="Todas as Novenas agendadas" />
@@ -72,10 +73,10 @@ export default function PaginaNovenas() {
           const buidDate = `${year}-${novena.month}-${novena.day}`;
 
           return (
-            <Text className="li" key={novena.id}>
-              <Text className="font-bold">{novena.name}</Text> - Dia{" "}
+            <Typography className="li" key={novena.id}>
+              <Typography className="font-bold">{novena.name}</Typography> - Dia{" "}
               {novena.date ? novena.date : buidDate}
-            </Text>
+            </Typography>
           );
         })}
       </View>

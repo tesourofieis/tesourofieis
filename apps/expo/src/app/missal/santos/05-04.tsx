@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0504() {
     <PageWrapper>
       <H1 text="Santa Mónica, Viúva, a 4 de Maio" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Nascida na África, Santa Mónica casou-se com um pagão, que, pelas suas
         virtudes, conseguiu converter. Tendo enviuvado, dedicou se a seu filho
         Agostinho, cujo espírito estava corrompido pelo erro dos Maniqueus, e o
@@ -25,46 +25,46 @@ export default function Page0504() {
         caridade da bem-aventurada Mónica»; ambas essas almas compartilham hoje
         da alegria de Jesus ressuscitado. Santa Mónica morreu em Óstia, no ano
         de 387.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/24nemvirgensnemmartires">
           Missa Cognóvi, Dómine
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, mæréntium consolátor et in te sperántium salus, qui beátæ Mónicæ
           pias lácrimas in conversióne fílii sui Augustíni misericórditer
           suscepísti: da nobis utriúsque intervéntu; peccáta nostra deploráre,
           et grátiæ tuæ indulgéntiam inveníre. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que consolais os tristes e salvais os que em Vós esperam, e
           que Vos dignastes atender misericordiosamente às piedosas lágrimas da
           B. Mónica para a conversão de seu filho Agostinho, concedei-nos pela
           intercessão de ambos que choremos os nossos pecados e alcancemos a
           indulgência da vossa graça. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Tm. 5, 3-10</Text>
+      <Typography className="em">1 Tm. 5, 3-10</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo a Timóteo.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Caríssime: Víduas honóra, quæ vere víduæ sunt. Si qua autem vidua
           fílios aut nepótes habet, discat primum domum suam régere, et mútuam
           vicem réddere paréntibus: hoc enim accéptum est coram Deo. Quæ autem
@@ -76,8 +76,8 @@ export default function Page0504() {
           viri uxor, in opéribus bonis testimónium habens, si fílios educávit,
           si hospítio recépit, si sanctórum pedes lavit, si tribulatiónem
           patiéntibus subministrávit, si omne opus bonum subsecúta est.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimo: Honrai as viúvas que são verdadeiramente viúvas. Se alguma
           viúva tem filhos ou netos, ensine-os, primeiramente, a governar a sua
           casa e a retribuir a seus pais, conforme o que haviam recebido deles;
@@ -92,23 +92,23 @@ export default function Page0504() {
           praticado boas obras; educado os seus filhos; praticado a
           hospitalidade; lavado os pés aos santos; socorrido os aflitos; e,
           enfim, praticado toda a espécie de boas obras.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 7, 11-16</Text>
+      <Typography className="em">Lc. 7, 11-16</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Ibat Jesus in civitátem, quæ vocátur Naïm: et ibant
           cum eo discípuli ejus et turba copiósa. Cum autem appropinquáret portæ
           civitátis, ecce, defúnctus efferebátur fílius únicus matris suæ: et
@@ -119,8 +119,8 @@ export default function Page0504() {
           cœpit loqui. Et dedit illum matri suæ. Accépit autem omnes timor: et
           magnificábant Deum, dicéntes: Quia Prophéta magnus surréxit in nobis:
           et quia Deus visitávit plebem suam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, dirigiu-se Jesus para uma cidade chamada Naim, sendo
           acompanhado pelos discípulos e muito povo. Tendo chegado próximo da
           porta da cidade, viu que levavam um morto daquela terra, filho único
@@ -133,7 +133,7 @@ export default function Page0504() {
           a sua mãe. E toda a multidão ficou aterrada; e glorificavam Deus,
           dizendo: «Apareceu entre nós um grande Profeta: Deus visitou o seu
           povo».
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

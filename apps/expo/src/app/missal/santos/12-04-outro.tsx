@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,10 +9,10 @@ export default function Page1204Outro() {
     <PageWrapper>
       <H1 text="Santa Bárbara, Virgem e Mártir, a 4 de Dezembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Morta na Ásia Menor em 235, está na lista dos «Quatorze Santos
         Auxiliadores».
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

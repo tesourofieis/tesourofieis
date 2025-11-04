@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,11 +9,11 @@ export default function Page1210() {
     <PageWrapper>
       <H1 text="S. Melquíades, Papa e Mártir, a 10 de Dezembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         «Em Roma, morte de S. Melquíades, Papa, que, depois de haver sofrido
         muito na perseguição de Maximiano, viu a paz restituída à Igreja e
         morreu tranquilamente em 314.»
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

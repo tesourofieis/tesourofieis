@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page0703() {
     <PageWrapper>
       <H1 text="S. Leão II, Papa, Conf., a 3 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Leão II, siciliano de origem, participou da plenitude do sacerdócio de
         Cristo (Intr., Ep., Grad., Ale.), tornando-se Papa. Guiado pelo Espírito
         Santo, soube valorizar as riquezas espirituais da Igreja a ele confiadas
@@ -20,7 +20,7 @@ export default function Page0703() {
         palavra, todo o mundo à virtude. Morreu em 683 sendo sepultado na
         basílica de S. Pedro. Imitemos os exemplos (Or.) deste sucessor de S.
         Pedro no trono pontifical.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page0724() {
     <PageWrapper>
       <H1 text="Vigília de S. Tiago, Apóstolo, a 24 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Como a maior parte das festas dos Apóstolos, outrora dias santos de
         guarda, a festa de S. Tiago é precedida de uma vigília. O Santo foi um
         dos membros do Colégio dos Doze que, à semelhança dos doze filhos de
@@ -22,7 +22,7 @@ export default function Page0724() {
         o Mestre, a prova do maior amor, que consiste em sacrificar a própria
         vida pelos que se ama (Ev.). Preparemo-nos com a Igreja, no recolhimento
         e espírito de penitência, para a festa de amanhã.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

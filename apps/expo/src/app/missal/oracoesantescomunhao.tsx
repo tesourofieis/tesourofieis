@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -7,7 +7,7 @@ export default function PageOracoesantescomunhao() {
     <PageWrapper>
       <H1 text="Orações antes da Comunhão" />
       <H3 text="Acto de Fé" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Meu Senhor e Deus, creio que estais verdadeira, real e substancialmente
         presente, na Hóstia Consagrada, com vosso Corpo, Sangue, Alma e
         Divindade, como estais no céu! Creio-o firmemente, porque Vós, que sois
@@ -16,9 +16,9 @@ export default function PageOracoesantescomunhao() {
         dais a mim, para que goze abundantemente os dons da graça divina. Esta é
         a minha fé, a qual confesso com todas as forças da minha alma e espero
         manter até à morte!
-      </Text>
+      </Typography>
       <H3 text="Acto de Humildade" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Reconheço e confesso, ó meu Deus, que sou uma miserável criatura,
         indigna das vossas graças, e, mais do que ninguém, de Vos receber na
         Hóstia Consagrada, onde estais por amor de mim. E reconheço e confesso
@@ -28,9 +28,9 @@ export default function PageOracoesantescomunhao() {
         e curai-me! Deixai que diga, como outrora dizia o Centurião: «Senhor,
         não sou digno de que entreis na minha morada, mas dizei uma só palavra e
         serei curado».
-      </Text>
+      </Typography>
       <H3 text="Acto de Desejo" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó Senhor Jesus, ó Deus do meu coração, ó Pão vivo descido do céu para
         alimento da minha alma, tenho o maior e o mais sincero desejo de Vos
         receber, e de viver convosco. Oh! vinde à minha alma! Vós, Senhor, sois
@@ -40,16 +40,16 @@ export default function PageOracoesantescomunhao() {
         Vós. Senhor, amais-me e por amor de mim vieste ao mundo e morreste em
         uma cruz; pois bem, ó bom Jesus, concedei-me a graça de Vos amar e de
         Vos amar para sempre e sinceramente.. Amen.
-      </Text>
+      </Typography>
       <H3 text="À B. Virgem Maria e aos Santos" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó Santíssima Senhora, Mãe de Deus e minha Mãe, alcançai-me a graça de
         receber o melhor possível a Sagrada Eucaristia. S. José, guarda fiel do
         Senhor Jesus que vai descer ao meu coração; Santo Anjo da minha guarda;
         Santo do meu nome; S. João Evangelista e todos os Santos do Paraíso,
         intercedei por mim, principalmente agora que vou receber a Divina
         Eucaristia. Amen.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

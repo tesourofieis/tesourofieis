@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page0713() {
     <PageWrapper>
       <H1 text="S. Anacleto, Papa e Mártir, a 13 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         «Em Roma, diz o Martirológio romano, festa de Santo Anacleto Papa e
         Mártir, que governou a Igreja de Deus e a honrou com ilustre martírio».
         Participando da plenitude do sacerdócio de Cristo (Intr., Ale., Of.), o
@@ -21,7 +21,7 @@ export default function Page0713() {
         próprio Bispo e que, terminada a consagração, comungariam todos na
         Missa. Recebeu a coroa do martírio (Com.), depois de ter ocupado a Santa
         Sé cerca de dez anos. Foi sepultado no Vaticano (112).
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

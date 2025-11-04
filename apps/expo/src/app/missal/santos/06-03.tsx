@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -7,7 +7,7 @@ export default function Page0603() {
   return (
     <PageWrapper>
       <H1 text="S. Ovídio, B. e Mártir, a 3 de Junho, Na Arquidiocese de Braga e noutras Dioceses" />
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/9martir">
           Missa Protexísti me,
@@ -17,7 +17,7 @@ export default function Page0603() {
           Missa Sacerdótes tui,
         </Link>{" "}
         excepto:
-      </Text>
+      </Typography>
       <H3 text="Oração" />Ó Deus, que maravilhosamente ilustrastes a vossa
       Igreja com a pregação apostólica do B. Ovídio, vosso Mártir e Pontífice,
       concedei-nos propício que intercedam por nós os sufrágios daquele de quem

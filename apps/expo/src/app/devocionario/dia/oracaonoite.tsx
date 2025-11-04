@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -15,96 +15,96 @@ export default function PageOracaonoite() {
     <PageWrapper>
       <H1 text="Oração da Noite" />
       <Language>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text>Convérte nos, Deus, salutáris
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography>Convérte nos, Deus, salutáris
           noster.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>Convertei-nos, ó Deus nosso
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Convertei-nos, ó Deus nosso
           Salvador.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Et avérte iram tuam a nobis.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> E afastai de nós a vossa ira.
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text>Deus, in adjutórium meum
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Et avérte iram tuam a nobis.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> E afastai de nós a vossa ira.
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography>Deus, in adjutórium meum
           inténde.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>Deus, vinde em nosso auxílio.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Dómine, ad adjuvándum me
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Deus, vinde em nosso auxílio.
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Dómine, ad adjuvándum me
           festína.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Senhor, socorrei-nos e
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Senhor, socorrei-nos e
           salvai-nos.
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text>Glória Patri, et Fílio, et
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography>Glória Patri, et Fílio, et
           Spirítui Sancto.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>Glória ao Pai, e ao Filho e ao
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai, e ao Filho e ao
           Espírito Santo.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Sicut erat in princípio, et
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Sicut erat in princípio, et
           nunc, et semper, et in sǽcula sæculórum. Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Assim como era no princípio,
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Assim como era no princípio,
           agora e sempre, e por todos os séculos dos séculos. Amen.
-        </Text>
+        </Typography>
       </Language>
       <H2 text="Veni, Sancte Spíritus" />
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Veni, Sancte Spíritus! reple tuórum corda fidélium: et tui amóris in
           eis ignem accénde.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vinde, ó Espírito Santo, enchei os corações dos vossos fiéis e acendei
           neles o fogo do vosso amor.
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text>Emitte Spíritum tuum, et
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography>Emitte Spíritum tuum, et
           creabúntur.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>Enviai o vosso Espírito e tudo
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Enviai o vosso Espírito e tudo
           será criado.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Et renovábis faciem terræ.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> E renovareis a face da terra.
-        </Text>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Et renovábis faciem terræ.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> E renovareis a face da terra.
+        </Typography>
       </Language>
       <H3 text="Breve lição:" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Sede sóbrios e vigilantes, pois o demónio gira em torno de vós,
         procurando devorar-vos. Resisti-lhe, sendo fortes na fé. E Vós, Senhor,
         tende piedade de nós.
-      </Text>
-      <Text className="aside">
+      </Typography>
+      <Typography className="aside">
         Coloquemo-nos na presença de Deus e adoremo-Lo humildemente:
-      </Text>
-      <Text className="vernacular">
+      </Typography>
+      <Typography className="vernacular">
         Deus meu, Senhor dos céus e da terra! Eu aqui me prostro diante de Vós.
         Com todos os Anjos e Santos eu Vos adoro e Vos amo com todo o coração.
         Dou-Vos graças por me terdes criado, feito Cristão e conservado neste
         dia. Perdoai-me os pecados que hoje cometi e, se algum bem fiz,
         aceitai-o. Guardai-me durante o repouso e livrai-me dos perigos. Vossa
         graça esteja sempre comigo e com os que me são caros.
-      </Text>
-      <Text className="aside">
-        <Text className="vernacular">Em seguida rezar:</Text>
+      </Typography>
+      <Typography className="aside">
+        <Typography className="vernacular">Em seguida rezar:</Typography>
         <Link className="link" href="/devocionario/oracoes/painosso">
           Pai Nosso,
         </Link>{" "}
@@ -121,14 +121,14 @@ export default function PageOracaonoite() {
           Confesso
         </Link>{" "}
         . Depois o Hino:
-      </Text>
+      </Typography>
       <H2 text="Hino Te lucis" />
       <TeLucis />
-      <Text className="aside">
+      <Typography className="aside">
         Examina que pecados cometeste neste dia, por pensamentos, palavras,
         actos ou omissões. Depois diz o Acto de Fé, de Esperança, de Caridade e
         de Contrição.
-      </Text>
+      </Typography>
       <H2 text="Acto de Fé" />
       <ActoFe />
       <H2 text="Acto de Esperança" />
@@ -137,17 +137,17 @@ export default function PageOracaonoite() {
       <ActoCaridade />
       <H2 text="Acto de Contrição" />
       <ActoContricao />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Vos ofereço, Senhor minha vida, obras, e trabalhos em satisfação de
         todos meus pecados e assim como Vos suplico, assim confio em vossa
         bondade e misericórdia infinitas que mos perdoareis pelos méritos de
         vosso preciosíssimo sangue, paixão e morte e me dareis graça para
         emendar-me e perseverar em vosso santo serviço até o fim de minha vida.
         Amen.
-      </Text>
+      </Typography>
       <H2 text="Cântico Nunc Dimittis" />
       <NuncDimittis />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Visitai esta morada, Senhor, Vos suplicamos, e dignai-Vos afastar para
         bem longe dela todas as insídias do inimigo; que os vossos Anjos nela
         habitem para nos conservarem na paz, e que a vossa bênção nos guarde
@@ -159,12 +159,12 @@ export default function PageOracaonoite() {
         sempre me governa, rege, guarda e ilumina. Protegei-me à sombra das
         vossas asas e abençoai, Senhor, o meu repouso a fim de que renove as
         minhas forças, para melhor Vos servir e amar.
-      </Text>
-      <Text className="vernacular">
+      </Typography>
+      <Typography className="vernacular">
         E que a paz e a bênção de Deus Todo-Poderoso, Pai, Filho
-        <Text className="cross"> ✠ </Text> e Espírito Santo, desça sobre nós e
+        <Typography className="cross"> ✠ </Typography> e Espírito Santo, desça sobre nós e
         permaneça para sempre connosco. Amen.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

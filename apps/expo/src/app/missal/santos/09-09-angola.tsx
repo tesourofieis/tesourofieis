@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -7,23 +7,23 @@ export default function Page0909Angola() {
     <PageWrapper>
       <H1 text="S. Pedro Claver, Conf., a 9 de Setembro" />
       <H3 text="Intróito" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         O Senhor saciou a alma exausta: e aqueles que estavam nas trevas e nas
         sombras da morte; e os que estavam cativos pela indigência e em ferros.
         Glorificai o Senhor pela sua misericórdia: e pelas suas maravilhas em
         favor dos filhos dos homens.
-        <Text className="versicle"> ℣. </Text>Glória ao Pai...
-      </Text>
+        <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+      </Typography>
       <H3 text="Oração" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó Deus, que, a fim de chamar ao conhecimento do vosso nome os Negritas
         sujeitos à escravatura, fortalecestes B. Pedro com admirável caridade e
         paciência para os auxiliar, concedei-nos por sua intercessão que,
         procurando o que é pertença de Jesus Cristo, amemos o próximo com obras
         e em verdade. Pelo mesmo nosso Senhor...
-      </Text>
+      </Typography>
       <H3 text="Epístola" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Lição do Profeta Isaías. Isto diz o Senhor: «Quebrai as algemas da
         impiedade; tirai do jugo os oprimidos; deixai livres aqueles que estão
         cativos; desonerai-os de toda a sujeição. Reparti o vosso pão com os que
@@ -35,18 +35,18 @@ export default function Page0909Angola() {
         «Eis-me aqui!». Quando abrirdes a vossa alma ao faminto e saciardes as
         suas almas aflitas, nascerá nas trevas a vossa luz e as trevas
         tornar-se-ão como a luz do meio-dia».
-      </Text>
+      </Typography>
       <H3 text="Gradual" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Livrará das mãos do poderoso o pobre e o indigente, desprovido de
         auxílio: usará de clemência para com o pobre e o desprovido: e salvará
         as almas dos pobres. Resgatará as suas almas da usura e da iniquidade e
         seus nomes serão respeitados diante dele. Aleluia, aleluia. Erguei-Vos,
         ó Senhor Deus, elevai a vossa mão; não Olvideis os pobres. A Vós se
         abandona o pobre: sereis o amparo do órfão. Aleluia.
-      </Text>
+      </Typography>
       <H3 text="Evangelho" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Continuação do santo Evangelho segundo S. Lucas. Naquele tempo, um certo
         doutor da lei, querendo justificar-se, disse a Jesus: «E quem é o meu
         próximo?». Então Jesus, tomando a palavra, disse: «Caminhando um homem
@@ -64,32 +64,32 @@ export default function Page0909Angola() {
         te parece ser o próximo do homem que caiu em poder dos ladrões?». O
         doutor respondeu: «Aquele que teve misericórdia dele». E Jesus terminou:
         «Pois tu vai e procede semelhantemente».
-      </Text>
+      </Typography>
       <H3 text="Ofertório" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Livrei o pobre, que gritava, assim como o órfão, desprovido de auxílio;
         a bênção do agonizante descia sobre mim; consolei o coração da viúva.
         Fui olhos para o cego e pés para o coxo: fui o pai dos pobres.
-      </Text>
+      </Typography>
       <H3 text="Secreta" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Que pela vossa misericórdia, Senhor, nos seja propícia a vítima de
         caridade, que Vos oferecemos imolando-a, e, pelas preces e méritos do B.
         Pedro, permiti que ela nos seja eficaz e salutar para obter aumento de
         paciência e de caridade. Pelo mesmo nosso Senhor...
-      </Text>
+      </Typography>
       <H3 text="Comúnio" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Apascentei as minhas ovelhas e levei-as ao repouso, diz o Senhor Deus.
         Procurei a que se perdera; conduzi ao redil a que se tresmalhara; sarei
         as que tinham membros quebrados; e fortaleci as que estavam fracas.
-      </Text>
+      </Typography>
       <H3 text="Postcomúnio" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Cresça em nós, Senhor, o salutar efeito da vossa piedade, a fim de que,
         saciados com o alimento celeste, possamos com felicidade alcançar, por
         intercessão do B. Pedro, a coroa da vida eterna. Por nosso Senhor...
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

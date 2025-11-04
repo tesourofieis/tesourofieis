@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -11,39 +11,39 @@ export default function Page0310() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 33, 18</Text>
+      <Typography className="em">Sl. 33, 18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus
           tribulatiónibus eórum liberávit eos.{" "}
-          <Text className="latin">Ps. ibid., 2</Text> Benedícam Dóminum in omni
+          <Typography className="latin">Ps. ibid., 2</Typography> Benedícam Dóminum in omni
           témpore: semper laus ejus in ore meo.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Os justos clamaram por Deus; então o Senhor ouviu-os e livrou-os de
-          todas as tribulações. <Text className="vernacular">Sl. ibid., 2</Text>{" "}
+          todas as tribulações. <Typography className="vernacular">Sl. ibid., 2</Typography>{" "}
           Bendirei o Senhor em todo o tempo; o seu louvor estará sempre na minha
           boca.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, qui gloriósos Mártyres fortes
           in sua confessióne cognóvimus, pios apud te in nostra intercessióne
           sentiámus. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedei-nos, Vos pedimos, ó Deus omnipotente, que, reconhecendo nós a
           fortaleza com que estes Santos Mártires confessaram a fé, sintamos
           também em nosso favor a caridade da sua intercessão junto de Vós. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
@@ -55,19 +55,19 @@ export default function Page0310() {
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 132, 1-2</Text>
+      <Typography className="em">Sl. 132, 1-2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ecce, quam bonum et quam jucundum, habitáre fratres in unum!
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Sicut unguéntum in cápite, quod descéndit in barbam, barbam Aaron.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Oh! como é bom e suave que os irmãos habitem juntos!
-          <Text className="versicle"> ℣. </Text>É como o perfume suave espalhado
+          <Typography className="versicle"> ℣. </Typography>É como o perfume suave espalhado
           na cabeça de Aarão, e que corre pela barba: pela barba de Aarão.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Trato" />
@@ -86,62 +86,62 @@ export default function Page0310() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 31, 11</Text>
+      <Typography className="em">Sl. 31, 11</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Lætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti
           corde.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Alegrai-vos no Senhor, ó justos! Exultai de júbilo! Todos aqueles que
           possuem o coração recto serão glorificados.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Preces, Dómine, tuórum réspice oblationésque fidélium: ut et tibi
           gratæ sint pro tuórum festivitáte Sanctórum, et nobis cónferant tuæ
           propitiatiónis auxílium. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dignai-Vos olhar benigno, Senhor, para as preces e ofertas dos vossos
           fiéis; e fazei que na festa dos vossos Santos Vos sejam agradáveis e
           nos alcancem o socorro da vossa misericórdia. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 12, 50</Text>
+      <Typography className="em">Mt. 12, 50</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quicúmque fécerit voluntátem Patris mei, qui in cœlis est: ipse meus
           frater et soror et mater est, dicit Dóminus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aquele que faz a vontade de meu Pai, que está nos céus, é para mim,
           meu irmão, minha irmã e minha mãe: diz o Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sanctórum tuórum, Dómine, intercessióne placátus: præsta, quǽsumus;
           ut, quæ temporáli celebrámus actióne, perpétua salvatióne capiámus.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aplacado, Senhor, com a intercessão dos vossos Santos, permiti, Vos
           imploramos, que alcancemos a salvação eterna com a celebração desta
           acção temporal. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

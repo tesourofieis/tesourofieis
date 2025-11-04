@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -11,13 +11,13 @@ export default function Page33Mareantes() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui transtulísti patres nostros per Mare Rubrum, et transvexísti
           eos per aquam nímiam, laudem tui nóminis decantántes: te supplíciter
           deprecámur; ut in navi fámulos tuos, repúlsis adversitátibus, portu
           semper optábili cursúque tranquíllo tueáris. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que permitistes que os nossos pais atravessassem o mar
           Vermelho e os transportastes de uma à outra margem, através da
           profundeza das águas, durante o que eles cantaram louvores em honra do
@@ -25,42 +25,42 @@ export default function Page33Mareantes() {
           que neste momento estão embarcados, e afastar deles todos os perigos,
           conduzindo-os, após uma viagem feliz, ao porto tão desejado. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Súscipe, quǽsumus, Dómine, preces famulórum tuórum, cum oblatiónibus
           hostiárum: et eos, pro quibus tua mystéria celebrámus, ab ómnibus
           defénde perículis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aceitai, Senhor, Vos pedimos, a oferta da oblação destes vossos
           servos, juntamente com suas orações, e protegei contra todos os
           perigos os viajantes, por cuja salvação celebramos os vossos
           sacrossantos mystérios. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sanctificáti divíno mystério, majestátem tuam, Dómine, supplíciter
           deprecámur et pétimus: ut fámulos tuos, quos donis facis cœléstibus
           memorári; per lignum sanctæ Crucis, et a peccátis ábstrahas, et a
           perículis cunctis miserátus erípias. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Santificados com estes divinos mystérios, invocamos humildemente a
           vossa suprema majestade, ó Senhor, e, pelo Lenho Sagrado da vossa
           Cruz, Vos suplicamos que aqueles de quem permitistes nos lembrássemos
           durante este banquete celestial sejam retirados do caminho do pecado,
           e, pela vossa misericórdia, sejam livres de todos os perigos, Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

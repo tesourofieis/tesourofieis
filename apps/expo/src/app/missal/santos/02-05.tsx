@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,46 +9,46 @@ export default function Page0205() {
     <PageWrapper>
       <H1 text="Santa Águeda, Virgem e Márt., a 5 de Fevereiro" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/17virgensmartires1">
           Missa Loquébar
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ
           Agathæ Vírginis et Martyris: de cujus passióne gaudent Angeli et
-          colláudant Fílium Dei. <Text className="latin">Ps. 44, 2</Text>{" "}
+          colláudant Fílium Dei. <Typography className="latin">Ps. 44, 2</Typography>{" "}
           Eructávit cor meum verbum bonum: dico ego ópera mea Regi.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Alegremo-nos todos no Senhor, celebrando neste dia a festividade em
           honra da B. Águeda, Virgem e Mártir, de cujo martírio se regozijam os
           Anjos, que louvam o Filho de Deus.{" "}
-          <Text className="vernacular">Sl. 44, 2</Text> Meu coração exprimiu uma
+          <Typography className="vernacular">Sl. 44, 2</Typography> Meu coração exprimiu uma
           excelente palavra: «Consagro ao Rei as minhas obras!».
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Cor. 1, 26-31</Text>
+      <Typography className="em">1 Cor. 1, 26-31</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Vidéte vocatiónem vestram: quia non multi sapiéntes secúndum
           carnem, non multi poténtes, non multi nóbiles: sed quæ stulta sunt
           mundi elégit Deus, ut confúndat sapiéntes: et infírma mundi elégit
@@ -58,8 +58,8 @@ export default function Page0205() {
           qui factus est nobis sapiéntia a Deo, et justítia, et sanctificátio,
           et redémptio: ut, quemádmodum scriptum est: Qui gloriátur, in Dómino
           gloriétur.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Examinai a vossa vocação, porque não há, segundo a carne, nem muitos
           sábios, nem muitos poderosos, nem muitos nobres; mas Deus escolheu
           aquele que o mundo julga insensato, para confundir os sábios; e aquele
@@ -69,74 +69,74 @@ export default function Page0205() {
           d’Ele. É por Ele que estais em Jesus Cristo, que nos foi dado por Deus
           para ser nossa sabedoria, justiça, santificação e redenção, para que
           se cumpra o que está escrito: «O que se gloria, glorie-se no Senhor».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 45, 6 & 5</Text>
+      <Typography className="em">Sl. 45, 6 & 5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Adjuvábit eam Deus vultu suo: Deus in médio ejus, non commovébitur.
-          <Text className="versicle"> ℣. </Text>Flúminis impetus lætíficat
+          <Typography className="versicle"> ℣. </Typography>Flúminis impetus lætíficat
           civitátem Dei: sanctificávit tabernáculum suum Altíssimus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O Senhor a auxiliará com seu olhar: Deus está no meio dela e a não
-          deixará vacilar.<Text className="versicle"> ℣. </Text>Um rio com suas
+          deixará vacilar.<Typography className="versicle"> ℣. </Typography>Um rio com suas
           águas alegra a cidade de Deus. O Altíssimo santificou o seu
           tabernáculo.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 118, 46</Text> Loquébar de testimóniis
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 118, 46</Typography> Loquébar de testimóniis
           tuis in conspéctu regum, et non confundébar. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 118, 46</Text> Perante os reis,
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 118, 46</Typography> Perante os reis,
           publicarei os vossos testemunhos e não me envergonharei. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         Após a Septuagésima, omite-se o Aleluia e o Verso, e diz-se o:
-      </Text>
+      </Typography>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 125, 5-6</Text>
+      <Typography className="em">Sl. 125, 5-6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Qui séminant in lácrimis, in gáudio metent.
-          <Text className="versicle"> ℣. </Text>Eúntes ibant et fiébant,
-          mitténtes semina sua.<Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>Eúntes ibant et fiébant,
+          mitténtes semina sua.<Typography className="versicle"> ℣. </Typography>
           Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aqueles que semearam com lágrimas colherão com alegria.
-          <Text className="versicle"> ℣. </Text>Iam, caminhavam e lançavam a
-          semente à terra, chorando.<Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>Iam, caminhavam e lançavam a
+          semente à terra, chorando.<Typography className="versicle"> ℣. </Typography>
           Mas regressaram com alegria, transportando os seus molhos de trigo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 19, 3-12</Text>
+      <Typography className="em">Mt. 19, 3-12</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Accessérunt ad Jesum pharisǽi, tentántes eum et
           dicéntes: Si licet hómini dimíttere uxórem suam quacúmque ex causa?
           Qui respóndens, ait eis: Non legístis, quia, qui fecit hóminem ab
@@ -154,8 +154,8 @@ export default function Page0205() {
           útero sic nati sunt; et sunt eunúchi, qui facti sunt ab homínibus; et
           sunt eunúchi, qui seípsos castravérunt propter regnum cœlórum. Qui
           potest cápere, cápiat.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, aproximaram-se os fariseus de Jesus para O tentar e
           disseram-Lhe: «É lícito ao homem repudiar sua mulher por qualquer
           causa?». Respondendo Jesus, disse-lhes: «Não lestes: «Aquele que criou
@@ -176,20 +176,20 @@ export default function Page0205() {
           outros que foram feitos pelos homens; e há ainda outros que se fizeram
           a si mesmo, por causa do reino dos céus. Quem pode compreender isto,
           compreenda».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Qui me dignátus est ab omni plaga curáre et mamíllam meam meo péctori
           restitúere, ipsum ínvoco Deum vivum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Invoco como Deus vivo Aquele que se dignou curar as minhas chagas e
           restituir o meu seio ao meu peito!
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

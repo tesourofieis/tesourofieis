@@ -1,4 +1,5 @@
-import { Text, View } from "react-native";
+import { Typography } from "~/components/typography";
+import { View } from "react-native";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -8,15 +9,15 @@ export default function PageLentaecalma() {
       <H1 text="Lenta e calma sobre a terra" />
 
       <View className="not-content">
-        <Text className="vernacular">
+        <Typography className="vernacular">
           Lenta e calma sobre a terra desce a noite, vai-se a luz, Quero agora
           despedir-me, boa noite meu Jesus.
-        </Text>
-        <Text className="vernacular">{"\n"}</Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">{"\n"}</Typography>
+        <Typography className="vernacular">
           E vós ó Virgem Maria, dai-nos a bênção também velai por nós esta
           noite, Boa noite minha Mãe.
-        </Text>
+        </Typography>
       </View>
     </PageWrapper>
   );

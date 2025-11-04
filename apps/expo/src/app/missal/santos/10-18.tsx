@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -9,7 +9,7 @@ export default function Page1018() {
     <PageWrapper>
       <H1 text="S. Lucas, a 18 de Outubro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         S. Lucas, de origem pagã, nasceu, diz Eusébio, em Antioquia, capital dos
         reis da Syria. S. Paulo nos diz que exercia a profissão de medico.
         Companheiro de viagem do Apostolo das Nações, seguiu-o na maior parte de
@@ -26,57 +26,57 @@ export default function Page1018() {
         setenta e dois discipulos, porque esses dois Evangelistas não foram
         Apóstolos, mas somente discípulos de Nosso Senhor. Relata S. Jerónimo
         que São Lucas morreu na Achaia, com oitenta e quatro annos de idade.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 138, 17</Text>
+      <Typography className="em">Sl. 138, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est
-          principátus eórum. <Text className="latin">Ps. ibid., 1-2</Text>{" "}
+          principátus eórum. <Typography className="latin">Ps. ibid., 1-2</Typography>{" "}
           Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et
-          resurrectiónem meam.<Text className="versicle"> ℣. </Text>Gloria
+          resurrectiónem meam.<Typography className="versicle"> ℣. </Typography>Gloria
           Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vejo, ó Deus, que honrais largamente os vossos amigos; e que seu poder
           se tem fortalecido extraordinariamente.{" "}
-          <Text className="vernacular">Sl. ibid., 1-2</Text> Senhor,
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Senhor,
           perscrutastes o meu íntimo e ficastes conhecendo-me: ficastes
           conhecendo quando me deito e quando me levanto.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Intervéniat pro nobis, quǽsumus, Dómine, sanctus tuus Lucas
           Evangélista: qui crucis mortificatiónem júgiter in suo córpore, pro
           tui nóminis honóre, portávit. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos rogamos, permiti que o vosso Santo Evangelista Lucas, que,
           para glória do vosso nome, sempre praticou em seu corpo a mortificação
           da Cruz, interceda por nós. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">2 Cor. 8, 16-24</Text>
+      <Typography className="em">2 Cor. 8, 16-24</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Grátias ago Deo, qui dedit eandem sollicitúdinem pro vobis in
           corde Titi, quóniam exhortatiónem quidem suscépit: sed cum sollicítior
           esset, sua voluntáte proféctus est ad vos. Mísimus étiam cum illo
@@ -92,8 +92,8 @@ export default function Page1018() {
           ecclesiárum, glória Christi. Ostensiónem ergo, quæ est caritátis
           vestræ, et nostræ glóriæ pro vobis, in illos osténdite in fáciem
           ecclesiárum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Dou graças a Deus por haver despertado no coração de Tito
           a mesma solicitude por vós; pois não só recebeu a exortação que lhe
           fiz, mas, estando cheio de trabalho, partiu voluntariamente para junto
@@ -111,35 +111,35 @@ export default function Page1018() {
           vós, seja por causa dos nossos irmãos, Apóstolos das igrejas, e glória
           de Cristo. Mostrai-lhes perante as igrejas a vossa caridade e
           justificai que temos razão de nos alegrarmos a vosso respeito.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 18, 5 & 2</Text>
+      <Typography className="em">Sl. 18, 5 & 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In omne terram exívit sonus eórum: et in fines orbis terræ verba
-          eórum.<Text className="versicle"> ℣. </Text>Cœli enárrant glóriam Dei:
+          eórum.<Typography className="versicle"> ℣. </Typography>Cœli enárrant glóriam Dei:
           et ópera mánuum ejus annúntiat firmaméntum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O som da sua voz retiniu por toda a terra: as suas palavras ecoaram
           até aos confins do mundo.
-          <Text className="versicle"> ℣. </Text>Os céus publicam a glória de
+          <Typography className="versicle"> ℣. </Typography>Os céus publicam a glória de
           Deus e o firmamento anuncia as maravilhas que praticou.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Joann. 15, 16</Text> Ego vos elégi de mundo,
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Joann. 15, 16</Typography> Ego vos elégi de mundo,
           ut eátis et fructum afferátis: et fructus vester máneat. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Jo. 15, 16</Text> Escolhi-vos no mundo
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Jo. 15, 16</Typography> Escolhi-vos no mundo
           para que ir e alcanceis fruto: e que esse fruto permaneça. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -151,65 +151,65 @@ export default function Page1018() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 138, 17</Text>
+      <Typography className="em">Sl. 138, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est
           principátus eórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eu vejo, ó Deus, que honrais largamente os vossos amigos; por isso o
           seu poder se tem fortalecido extraordinariamente.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Donis cœléstibus da nobis, quǽsumus, Dómine, líbera tibi mente
           servíre: ut múnera quæ deférimus, interveniénte beáto Evangelísta tuo
           Luca, et medélam nobis operéntur et glóriam. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Pela virtude destes dons celestiais, Vos suplicamos, Senhor,
           concedei-nos a graça de Vos servirmos com inteira liberdade de
           espírito, a fim de que os dons, que Vos apresentamos, nos alcancem,
           por intercessão do B. Evangelista Lucas, o remédio para os nossos
           males e a glória eterna. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 19, 28</Text>
+      <Typography className="em">Mt. 19, 28</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vos, qui secúti estis me, sedébitis super sedes, judicántes duódecim
           tribus Israël.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós me seguistes, assentar-vos-eis sobre tronos, para julgar as doze
           tribos de Israel.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, quod de sancto altári tuo
           accépimus, précibus beáti Evangelístæ tui Lucæ, sanctíficet ánimas
           nostras, per quod tuti esse póssimus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó omnipotente Deus, Vos rogamos, fazei que o dom, agora recebido no
           sagrado altar, santifique, pelas preces do vosso B. Evangelista Lucas,
           as nossas almas, a fim de que nos defenda dos perigos. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

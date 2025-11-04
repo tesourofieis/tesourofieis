@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,7 +10,7 @@ export default function PageOficiodefuntos() {
     <PageWrapper>
       <H1 text="Ofício dos Defuntos" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Rezar{" "}
         <Link className="link" href="/devocionario/oracoes/painosso">
           Pai-nosso
@@ -23,45 +23,45 @@ export default function PageOficiodefuntos() {
         <Link className="link" href="/devocionario/oracoes/simboloapostolos">
           Creio em Deus.
         </Link>
-      </Text>
+      </Typography>
 
       <H2 text="Invitatório" />
 
       <Language>
-        <Text className="latin">Regem, cui ómnia vivunt, Veníte adorémus.</Text>
-        <Text className="vernacular">
+        <Typography className="latin">Regem, cui ómnia vivunt, Veníte adorémus.</Typography>
+        <Typography className="vernacular">
           Vinde, adoremos o Rei para quem todas as criatura vivem.
-        </Text>
-        <Text className="latin">Regem, cui ómnia vivunt, Veníte adorémus.</Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="latin">Regem, cui ómnia vivunt, Veníte adorémus.</Typography>
+        <Typography className="vernacular">
           Vinde, adoremos o Rei para quem todas as criatura vivem.
-        </Text>
+        </Typography>
       </Language>
 
       <Salmo94 />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Veníte, exsultémus Dómino: * jubilémus Deo salutári nostro:
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vinde, exultemos no Senhor: * cantemos alegres a de Deus nosso
           salvador:
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Præoccupémus fáciem ejus in confessióne: * et in psalmis jubilémus ei.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Apresentemo-nos diante d’Ele em acção de graças: * e celebremo-l’O com
           salmos.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">Regem, cui ómnia vivunt, Veníte adorémus.</Text>
-        <Text className="vernacular">
+        <Typography className="latin">Regem, cui ómnia vivunt, Veníte adorémus.</Typography>
+        <Typography className="vernacular">
           Vinde, adoremos o Rei para quem todas as criatura vivem.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

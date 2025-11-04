@@ -1,5 +1,6 @@
 import React, { type ReactElement, type ReactNode, useState } from "react";
-import { Pressable, ScrollView, Text, View } from "react-native";
+import { Pressable, ScrollView, View } from "react-native";
+import { Typography } from "./typography";
 
 interface TabItemProps {
   label: string;
@@ -28,7 +29,7 @@ export function Tabs({ children }) {
                   : "border-b-2 border-transparent"
               }`}
             >
-              <Text
+              <Typography
                 className={`text-pretty font-medium ${
                   activeTab === index
                     ? "text-sepia-600 dark:text-sepia-400"
@@ -36,7 +37,7 @@ export function Tabs({ children }) {
                 }`}
               >
                 {tab.props.label}
-              </Text>
+              </Typography>
             </Pressable>
           ))}
         </View>

@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -10,38 +10,38 @@ export default function Page0425() {
     <PageWrapper>
       <H1 text="S. Marcos, Evangelista, a 25 de Abril" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/9martir">
           Missa Protexísti me
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beátum Marcum Evangelístam tuum evangélicæ prædicatiónis
           grátia sublimásti: tríbue, quǽsumus; ejus nos semper et eruditióne
           profícere et oratióne deféndi. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que glorificastes o Beato Marcos, vosso Evangelista,
           elevando-o à dignidade de pregador do vosso Evangelho, concedei-nos a
           graça, Vos suplicamos, de aproveitarmos sempre os seus ensinos e de
           sermos defendidos pela sua oração. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ez. 1, 10-14</Text>
+      <Typography className="em">Ez. 1, 10-14</Typography>
 
       <Language>
-        <Text className="latin">Léctio Ezechiélis Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Ezequiel.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Ezechiélis Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Ezequiel.</Typography>
+        <Typography className="latin">
           Similitúdo vultus quátuor animálium: fácies hóminis, et fácies leónis
           a dextris ipsórum quatuor: fácies autem bovis a sinístris ipsórum
           quátuor, et fácies áquilæ désuper ipsórum quátuor. Fácies eórum et
@@ -53,8 +53,8 @@ export default function Page0425() {
           visio discúrrens in médio animálium, splendor ignis, et de igne fulgur
           egrédiens. Et animália ibant et revertebántur in similitúdinem
           fúlguris coruscántis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eis a semelhança do rosto dos quatro seres animados: Tinham todos os
           quatro uma face de homem; todos os quatro à direita uma face de leão;
           todos os quatro à esquerda uma face de touro; e todos os quatro por
@@ -66,7 +66,7 @@ export default function Page0425() {
           arder e de lâmpadas acesas. Viam-se crepitar no meio deles chamas de
           fogo, saindo do fogo relâmpagos. E eles iam e vinham, semelhante ao
           fuzilar dos relâmpagos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -79,35 +79,35 @@ export default function Page0425() {
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Beáti Marci Evangelístæ tui sollemnitáte tibi múnera deferéntes,
           quǽsumus, Dómine: ut, sicut illum prædicátio evangélica fecit
           gloriósum: ita nos ejus intercéssio et verbo et ópere tibi reddat
           accéptos. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Oferecendo-Vos estes dons na solenidade do B. Marcos, vosso
           Evangelista, Vos rogamos, Senhor, que, assim como a pregação do
           Evangelho tornou o seu nome glorioso, assim também a sua intercessão
           nos torne agradáveis à vossa majestade, tanto pelas nossas palavras,
           como pelas nossas obras. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tríbuant nobis, quǽsumus, Dómine, contínuum tua sancta præsídium: quo,
           beáti Marci evangelístæ tui précibus, nos ab ómnibus semper tueántur
           advérsis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos imploramos, Senhor, que os vossos sacrossantos mystérios nos
           sirvam de contínua protecção, e que pelas preces do B. Marcos, vosso
           Evangelista, nos defendam de todas as adversidades. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

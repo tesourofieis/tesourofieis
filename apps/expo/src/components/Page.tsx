@@ -1,38 +1,14 @@
 import { useLocalSearchParams } from "expo-router";
 import type React from "react";
 import { useEffect, useRef } from "react";
-import { Platform, ScrollView, View, Text } from "react-native";
+import { Platform, View } from "react-native";
 import { ScrollView as GestureScrollView } from "react-native-gesture-handler";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { PageProvider, useIsNested } from "~/providers/page";
-import { useFontContext } from "~/providers/fonts";
 
 type PageWrapperProps = {
   children: React.ReactNode;
 };
-
-const PAGE_FONT_SIZE_CLASS = {
-  small: "text-xs",
-  medium: "text-base",
-  large: "text-lg",
-};
-
-export function P({
-  children,
-  className = "",
-}: {
-  children: React.ReactNode;
-  className?: string;
-}) {
-  const { fontSize } = useFontContext();
-  return (
-    <Text
-      className={`font-serif-custom text-sepia ${PAGE_FONT_SIZE_CLASS[fontSize]} ${className}`}
-    >
-      {children}
-    </Text>
-  );
-}
 
 function PageContent({ children }: { children: React.ReactNode }) {
   return <View className="flex-1">{children}</View>;
@@ -41,12 +17,12 @@ function PageContent({ children }: { children: React.ReactNode }) {
 export default function PageWrapper({ children }: PageWrapperProps) {
   const isNested = useIsNested();
   const isWeb = Platform.OS === "web";
-  const scrollViewRef = useRef<ScrollView>(null);
+  const scrollViewRef = useRef<GestureScrollView>(null);
   const { anchor } = useLocalSearchParams();
   const anchorString = Array.isArray(anchor) ? anchor[0] : anchor;
 
   useEffect(() => {
-    if (anchorString && scrollViewRef.current) {
+    if (anchorString) {
       setTimeout(() => {
         scrollToAnchor(anchorString);
       }, 300);

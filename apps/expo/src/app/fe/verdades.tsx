@@ -1,4 +1,5 @@
-import { Text, View } from "react-native";
+import { Typography } from "~/components/typography";
+import { View } from "react-native";
 import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,70 +10,70 @@ export default function PageVerdades() {
       <H1 text="Verdades de Fé" />
       <H2 text="Os dez mandamentos" />
       <View className="list-group list-group-flush">
-        <Text className="li list-group-item">
+        <Typography className="li list-group-item">
           Adorar a Deus e amá-Lo sobre todas as coisas.
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           Não invocar o santo nome de Deus em vão.
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           Santificar os domingos e festas de guarda.
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           Honrar pai e mãe (e os outros legítimos superiores).
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           Não matar (nem causar outro dano, no corpo ou na alma, a si mesmo ou
           ao próximo).
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           Guardar castidade nas palavras e nas obras.
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           Não furtar (nem injustamente reter ou danificar os bens do próximo).
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           Não levantar falsos testemunhos (nem de qualquer outro modo faltar à
           verdade ou difamar o próximo).
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           Guardar castidade nos pensamentos e nos desejos.
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           Não cobiçar as coisas alheias.
-        </Text>
+        </Typography>
       </View>
       <H2 text="Os dois mandamentos de caridade" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Amarás o Senhor teu Deus, com todo teu coração, com toda tua alma e com
         toda tua mente Amarás ao próximo como a ti mesmo.
-      </Text>
+      </Typography>
       <H2 text="A regra de ouro" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Tudo quanto quiserdes que os homens vos façam, fazei-lho vós também.
-      </Text>
+      </Typography>
       <H2 text="Os cinco preceitos da Igreja" />
       <View className="list-group list-group-flush">
-        <Text className="li list-group-item">
+        <Typography className="li list-group-item">
           Participar na Missa, aos domingos e festas de guarda e abster-se de
           trabalhos e actividades que impeçam a santificação desses dias.
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           Confessar os pecados ao menos uma vez cada ano.
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           Comungar o sacramento da Eucaristia ao menos pela Páscoa.
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           Guardar a abstinência e jejuar nos dias determinados pela Igreja.
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           Contribuir para as necessidades materiais da Igreja, segundo as
           possibilidades.
-        </Text>
+        </Typography>
       </View>
       <H2 text="Sacramentos" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Baptismo
         {"\n"}
         Confirmação
@@ -86,9 +87,9 @@ export default function PageVerdades() {
         Ordem
         {"\n"}
         Matrimónio
-      </Text>
+      </Typography>
       <H2 text="As Bem-Aventuranças" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Bem-aventurados os pobres em espírito, porque deles é o reino dos céus.
         {"\n"}
         Bem-aventurados os que choram, porque serão consolados.
@@ -111,43 +112,43 @@ export default function PageVerdades() {
         mentindo, disserem toda a espécie de calúnias contra vós.
         {"\n"}
         Alegrai-vos e exultai, porque será grande a vossa recompensa nos céus.
-      </Text>
+      </Typography>
       <H2 text="Dias de Obrigação" />
-      <Text className="aside">Para além de todos os Domingos</Text>
+      <Typography className="aside">Para além de todos os Domingos</Typography>
       <View className="list-group list-group-flush">
-        <Text className="li list-group-item">
+        <Typography className="li list-group-item">
           1 de Janeiro - Circuncisão do Senhor
-        </Text>
-        <Text className="li list-group-item">6 de Janeiro - Epifania</Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">6 de Janeiro - Epifania</Typography>
+        <Typography className="li list-group-item">
           19 de Março - Solenidade de São José
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           Ascensão de Jesus - Quinta-feira da sexta semana da Páscoa
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           Corpus Christi - Primeira quinta-feira após o Domingo da Santíssima
           Trindade
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           29 de Junho - Solenidade dos Apóstolos São Pedro e São Paulo
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           15 de Agosto - Assunção de Maria
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           1 de Novembro - Dia de Todos-os-Santos
-        </Text>
-        <Text className="li list-group-item">
+        </Typography>
+        <Typography className="li list-group-item">
           8 de Dezembro - Imaculada Conceição de Maria
-        </Text>
-        <Text className="li list-group-item">25 de Dezembro - Natal</Text>
+        </Typography>
+        <Typography className="li list-group-item">25 de Dezembro - Natal</Typography>
       </View>
       <H2 text="Trabalhos de Misericórdia" />
       <Language>
-        <Text className="latin">Corporais</Text>
-        <Text className="vernacular">Espirituais</Text>
-        <Text className="latin">
+        <Typography className="latin">Corporais</Typography>
+        <Typography className="vernacular">Espirituais</Typography>
+        <Typography className="latin">
           Dar de comer a quem tem fome
           {"\n"}
           Dar de beber a quem tem sede
@@ -161,8 +162,8 @@ export default function PageVerdades() {
           Visitar os presos
           {"\n"}
           Enterrar os mortos
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dar bons conselhos
           {"\n"}
           Ensinar os ignorantes
@@ -176,13 +177,13 @@ export default function PageVerdades() {
           Suportar com paciência as fraquezas do nosso próximo
           {"\n"}
           Rezar a Deus por vivos e defuntos
-        </Text>
+        </Typography>
       </Language>
       <H2 text="Virtudes" />
       <Language>
-        <Text className="latin">Cardeais</Text>
-        <Text className="vernacular">Teologais</Text>
-        <Text className="latin">
+        <Typography className="latin">Cardeais</Typography>
+        <Typography className="vernacular">Teologais</Typography>
+        <Typography className="latin">
           Prudência
           {"\n"}
           Justiça
@@ -190,21 +191,21 @@ export default function PageVerdades() {
           Fortaleza
           {"\n"}
           Temperança
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Fé
           {"\n"}
           Esperança
           {"\n"}
           Caridade
-        </Text>
+        </Typography>
       </Language>
       <H2 text="Pecados Contra o Espírito Santo" />
-      <Text className="aside">
+      <Typography className="aside">
         Pecados de pura malícia, que são contrários à bondade que se atribui ao
         Espírito Santo.
-      </Text>
-      <Text className="vernacular">
+      </Typography>
+      <Typography className="vernacular">
         Desesperar da salvação;
         {"\n"}
         Presunção de se salvar sem merecimentos;
@@ -216,26 +217,26 @@ export default function PageVerdades() {
         Obstinar-se no pecado;
         {"\n"}
         Morrer na impenitência final.
-      </Text>
+      </Typography>
       <H2 text="Pecados que Bradam aos Céus" />
-      <Text className="aside">
+      <Typography className="aside">
         Sua malícia é tão grave e manifesta, que provoca Deus a puni-los com os
         mais severos castigos.
-      </Text>
-      <Text className="vernacular">
+      </Typography>
+      <Typography className="vernacular">
         Homicídio voluntário; Pecado impuro contra a natureza; Opressão dos
         pobres, principalmente órfãos e viúvas; Não pagar o salário a quem
         trabalha.
-      </Text>
+      </Typography>
       <H2 text="Do Espírito Santo" />
       <Language>
-        <Text className="latin">
-          <Text className="latin">Dons</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Frutos</Text>
-        </Text>
-        <Text className="latin">
+        <Typography className="latin">
+          <Typography className="latin">Dons</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Frutos</Typography>
+        </Typography>
+        <Typography className="latin">
           Sabedoria
           {"\n"}
           Entendimento
@@ -249,8 +250,8 @@ export default function PageVerdades() {
           Piedade
           {"\n"}
           Temor de Deus
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Amor
           {"\n"}
           Alegria
@@ -274,16 +275,16 @@ export default function PageVerdades() {
           Continência
           {"\n"}
           Castidade
-        </Text>
+        </Typography>
       </Language>
       <Language>
-        <Text className="latin">
-          <Text className="latin">Pecados Capitais</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Virtudes Opostas</Text>
-        </Text>
-        <Text className="latin">
+        <Typography className="latin">
+          <Typography className="latin">Pecados Capitais</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Virtudes Opostas</Typography>
+        </Typography>
+        <Typography className="latin">
           Soberba
           {"\n"}
           Avareza
@@ -295,8 +296,8 @@ export default function PageVerdades() {
           Gula
           {"\n"}
           Inveja
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Humildade
           {"\n"}
           Caridade
@@ -308,11 +309,11 @@ export default function PageVerdades() {
           Temperança
           {"\n"}
           Bondade
-        </Text>
+        </Typography>
       </Language>
       <H2 text="Novíssimos" />
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mors
           {"\n"}
           Iudicium
@@ -320,8 +321,8 @@ export default function PageVerdades() {
           Infernus
           {"\n"}
           Paradisus
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Morte
           {"\n"}
           Juízo
@@ -329,11 +330,11 @@ export default function PageVerdades() {
           Inferno
           {"\n"}
           Paraíso
-        </Text>
+        </Typography>
       </Language>
       <H2 text="Assuntos para Meditação Diária" />
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deum glorificare; {"\n"}
           Jesum imitari; {"\n"}
           Beatissimam Virginem et Sanctos venerari; {"\n"}
@@ -352,8 +353,8 @@ export default function PageVerdades() {
           Passiones frenare; {"\n"}
           Mortem semper exspectare; {"\n"}
           Ad iudicium te præparare.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deus para glorificar;{"\n"}
           Jesus para imitar;{"\n"}A abençoada Virgem e os Santos para venerar;
           {"\n"}
@@ -368,7 +369,7 @@ export default function PageVerdades() {
           Demónios para combater;{"\n"}
           Paixões para refrear;{"\n"}A morte sempre esperar;{"\n"}E o julgamento
           para se preparar.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

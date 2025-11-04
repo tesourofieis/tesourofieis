@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -10,7 +10,7 @@ export default function Page1122() {
     <PageWrapper>
       <H1 text="Santa Cecília, Virgem e Mártir, a 22 de Novembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Nascida em Roma, da illustre familia dos Cæcilii, Cecília, desde a
         infância, consagrou a Deus a sua virgindade. Mais tarde, constrangida a
         desposar Valeriano, jovem pagão, disse-lhe na tarde das núpcias:
@@ -37,29 +37,29 @@ export default function Page1122() {
         tem o seu nome no Canon da Missa. Ao som dos instrumentos de música, diz
         o 1º responso de Matinas, a Virgem Cecilia dirigia do seu coração um
         cântico ao Senhor. Santa Cecilia é a padroeira dos musicos.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/17virgensmartires1">
           Missa Loquébar
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui nos ánnua beátæ Caeciliae Vírginis et Mártyris tuæ
           sollemnitáte lætíficas: da, ut, quam venerámur offício, étiam piæ
           conversatiónis sequámur exémplo. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que nos alegrais com a solenidade anual da B. Cecília, vossa
           Virgem e Mártir, dignai-Vos permitir que, honrando-a com estes cultos,
           imitemos também os exemplos da sua piedosa vida. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
@@ -71,66 +71,66 @@ export default function Page1122() {
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 44, 11 & 12</Text>
+      <Typography className="em">Sl. 44, 11 & 12</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Audi, fília, et vide, et inclína aurem tuam: quia concupívit Rex
-          spéciem tuam.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 5</Text> Spécie tua et pulchritúdine
+          spéciem tuam.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 5</Typography> Spécie tua et pulchritúdine
           tua inténde, próspere procéde et regna.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Escutai, ó minha filha, vede e inclinai o vosso ouvido; o Rei está
           cheio de amor por vós, por causa da vossa beleza!
-          <Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 5</Text> Com a vossa glória e com
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 5</Typography> Com a vossa glória e com
           vossa formosura caminhai, triunfai e reinai.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Matth. 25, 4 & 6</Text> Quinque prudéntes
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Matth. 25, 4 & 6</Typography> Quinque prudéntes
           vírgines accepérunt óleum in vasis suis cum lampádibus: média autem
           nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo
           Dómino. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Mt. 25, 4 & 6</Text> As cinco virgens
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Mt. 25, 4 & 6</Typography> As cinco virgens
           prudentes tomaram óleo em seus vasos para suas lâmpadas. No meio da
           noite uma voz soou: eis que chega o esposo: ide ao encontro de Cristo,
           Senhor. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc hóstia, Dómine, placatiónis et laudis, quǽsumus: ut, intercedénte
           beáta Cæcília Vírgine et Mártyre tua, nos propitiatióne tua dignos
           semper effíciat. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que esta hóstia de propiciação e de louvor, Senhor, Vos rogamos, nos
           torne sempre dignos da vossa misericórdia, pela intercessão da B.
           Cecília, vossa Virgem e Mártir. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus,
           semper interventióne nos réfove, cujus sollémnia celebrámus. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Saciastes, Senhor, a vossa família com vossos sacratíssimos dons; e
           dignai-Vos favorecer-nos sempre, Vos imploramos, pela intercessão
           daquela cuja festa celebramos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

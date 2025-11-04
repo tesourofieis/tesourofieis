@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0919() {
     <PageWrapper>
       <H1 text="S. Januário e Outros, Mártires, a 19 de Setembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Em Pozzola, na Campania, diz o Martyrologio Romano, festa dos santos
         Martyres Januario, bispo de Benevento, Festo, seu diácono, Didier, seu
         leitor, Socio, diácono da Igreja de Misena, Proculo, diácono de Pozzola,
@@ -27,15 +27,15 @@ export default function Page0919() {
         do ano; durante as festas de Maio, que duram nove dias, a partir do 1º
         Domingo do mês; em Setembro durante oito dias, de 19 a 26 e em Dezembro
         no dia 16.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/8muitosmartires3">
           Missa Salus autem
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Evangelho" />
 

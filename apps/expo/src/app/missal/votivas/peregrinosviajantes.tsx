@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,50 +10,50 @@ export default function PagePeregrinosviajantes() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 25, 11-12</Text>
+      <Typography className="em">Sl. 25, 11-12</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Rédime me, Dómine, et miserére mei: pes enim meus stetit in via recta:
           in ecclésiis benedícam Dóminum. (T. P. Allelúja, allelúja.){" "}
-          <Text className="latin">Ps. ibid., 1</Text> Júdica me. Dómine, quóniam
+          <Typography className="latin">Ps. ibid., 1</Typography> Júdica me. Dómine, quóniam
           ego in innocéntia mea ingréssus sum: et in Dómino sperans non
-          infirmábor.<Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          infirmábor.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Resgatai-me, Senhor, e tende misericórdia de mim, pois o meu pé está
           assente em caminho direito; bendirei o Senhor nas assembleias. (T. P.
-          Aleluia, aleluia.) <Text className="vernacular">Sl. ibid., 1</Text>{" "}
+          Aleluia, aleluia.) <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
           Julgai-me, Senhor, porquanto tenho caminhado com a minha inocência, e,
           confiando no Senhor, não vacilarei.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Adésto, Dómine, supplicatiónibus nostris: et viam famulórum tuorum in
           salútis tuæ prosperitáte dispóne; ut, inter omnes viæ et vitæ hujus
           varietátes, tuo semper protegántur auxílio. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Atendei, Senhor, às nossas súplicas, e conduzi os vossos servos com
           prosperidade na via da salvação, a fim de que, em todas as
           circunstâncias do caminho da sua vida, sempre sejam amparados com
           vosso auxílio. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Gn. 28,10-12,13-15,18 & 20-22</Text>
+      <Typography className="em">Gn. 28,10-12,13-15,18 & 20-22</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Genesis.</Text>
-        <Text className="vernacular">Lição do Livro do Génesis.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Genesis.</Typography>
+        <Typography className="vernacular">Lição do Livro do Génesis.</Typography>
+        <Typography className="latin">
           In diébus illis: Egréssus Jacob de Bersabée, pergébat Haran. Cumque
           venísset ad quendam locum, et vellet in eo requiéscere post solis
           occúbitum, tulit de lapídibus qui jacébant, et suppónens cápiti suo,
@@ -71,8 +71,8 @@ export default function PagePeregrinosviajantes() {
           próspere ad domum patris mei: erit mihi Dóminus in Deum, et lapis
           iste, quem eréxi in títulum, vocábitur domus Dei: cunctorúmque, quæ
           déderis mihi, décimas ófferam tibi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, saiu Jacob de Bersabeia, dirigindo-se para Harão. E,
           como chegasse a certo lugar, preparou-se para passar ali a noite,
           porque já era sol-posto. Então, tomou uma das pedras daquele lugar
@@ -91,101 +91,101 @@ export default function PagePeregrinosviajantes() {
           regressar com felicidade a casa de meus pais, o Senhor será o meu Deus
           e esta pedra, que erigi como monumento, será chamada casa de Deus e de
           tudo o que me derdes Vos oferecerei fielmente o dízimo».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 22, 4</Text>
+      <Typography className="em">Sl. 22, 4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Si ámbulem in médio umbræ mortis, non timébo mala, quóniam tu mecum
-          es, Dómine.<Text className="versicle"> ℣. </Text>Virga tua et báculus
+          es, Dómine.<Typography className="versicle"> ℣. </Typography>Virga tua et báculus
           tuus, ipsa me consoláta sunt.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ainda que eu caminhe no meio das sombras da morte, não recearei mal
           algum, porque Vós, Senhor, estareis comigo.
-          <Text className="versicle"> ℣. </Text>Vossa vara e o vosso bastão me
+          <Typography className="versicle"> ℣. </Typography>Vossa vara e o vosso bastão me
           consolarão.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 118, 133</Text> Gressus meos dírige
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 118, 133</Typography> Gressus meos dírige
           secúndum elóquium tuum: ut non dominétur mei omnis injustítia.
           Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 118, 133</Text> Encaminhei os meus
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 118, 133</Typography> Encaminhei os meus
           passos segundo a vossa doutrina, para que nenhuma injustiça me possa
           dominar. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         A pós a Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
-      </Text>
+      </Typography>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 90, 11-13</Text>
+      <Typography className="em">Sl. 90, 11-13</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Angelis suis Deus mandávit de te, ut custódiant te in ómnibus viis
-          tuis.<Text className="versicle"> ℣. </Text>In mánibus portábunt te, ne
+          tuis.<Typography className="versicle"> ℣. </Typography>In mánibus portábunt te, ne
           umquam offéndas ad lápidem pedem tuum.
-          <Text className="versicle"> ℣. </Text>Super áspidem et basilíscum
+          <Typography className="versicle"> ℣. </Typography>Super áspidem et basilíscum
           ambulábis, et conculcábis leónem et dracónem.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ordenou Deus aos seus Anjos que te guardassem em todos teus caminhos.
-          <Text className="versicle"> ℣. </Text>Conduzir-te-ão com suas mãos,
+          <Typography className="versicle"> ℣. </Typography>Conduzir-te-ão com suas mãos,
           para que as pedras te não magoem.
-          <Text className="versicle"> ℣. </Text>Caminharás sobre a áspide e o
+          <Typography className="versicle"> ℣. </Typography>Caminharás sobre a áspide e o
           basilisco e calcarás o leão e o dragão.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         No Tempo Pascal omite-se Gradual e o Trato, dizendo-se:
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 118, 133</Text> Gressus meos dírige
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 118, 133</Typography> Gressus meos dírige
           secúndum elóquium tuum: ut non dominétur mei omnis injustítia.
-          Allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="em">Ps. 121, 1</Text> Lætátus sum in his, quæ dicta
+          Allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Ps. 121, 1</Typography> Lætátus sum in his, quæ dicta
           sunt mihi: in domum Dómini íbimus. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 118, 133</Text> Encaminhei os meus
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 118, 133</Typography> Encaminhei os meus
           passos segundo a vossa doutrina, para que nenhuma injustiça me possa
-          dominar. Aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="em">Sl. 121, 1</Text> Alegrei-me quando me foram
+          dominar. Aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Sl. 121, 1</Typography> Alegrei-me quando me foram
           ditas estas palavras: «Iremos até à casa do Senhor». Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 10, 7-14</Text>
+      <Typography className="em">Mt. 10, 7-14</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Eúntes, prædicáte,
           dicéntes: Quia appropinquávit regnum cœlórum. Infirmos curáte, mortuos
           suscitáte, leprósos mundáte, dǽmones ejícite: gratis accepístis,
@@ -199,8 +199,8 @@ export default function PagePeregrinosviajantes() {
           digna, pax vestra revertétur ad vos. Et quicúmque non recéperit vos,
           neque audiérit sermónes vestros: exeúntes foras de domo vel civitáte,
           excútite púlverem de pédibus vestris.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Ide, pregai e dizei:
           eis que se aproxima o reino dos céus. Curai os enfermos, ressuscitai
           aos mortos, limpai os leprosos, expulsai os demónios. Dai
@@ -215,75 +215,75 @@ export default function PagePeregrinosviajantes() {
           reverterá para vós. E se alguém vos não receber nem ouvir as vossas
           palavras, quando sairdes daquela casa ou cidade, sacudi o pó dos
           vossos pés».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 16, 5 & 6-7</Text>
+      <Typography className="em">Sl. 16, 5 & 6-7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Pérfice gressus meos in sémitis tuis, ut non moveántur vestígia mea:
           inclína aurem tuam mihi, et exáudi verba mea: mirífica misericórdias
           tuas, qui salvos facis sperántes in te, Dómine. (T. P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Firmai os meus pés nos vossos caminhos, para que se não apaguem as
           minhas pegadas: inclinai os vossos ouvidos para mim e ouvi as minhas
           palavras: Senhor, que salvais os que em Vós confiam, fazei brilhar as
           vossas misericórdias. (T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Propitiáre, Dómine, supplicatiónibus nostris, et has oblationes, quas
           tibi offérimus pro fámulis tuis, benígnus assúme: ut viam illórum et
           præcedénte grátia tua dírigas et subsequénte comitári dignéris; ut de
           actu atque incolumitáte eórum, secúndum misericórdiæ tuæ præsídia,
           gaudeámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Atendei propício, Senhor, às nossas súplicas, e aceitai benignamente
           as oblações que Vos oferecemos em nome dos vossos servos, a fim de
           que, caminhando com vossa graça, dirijais o seu caminho e Vos digneis
           acompanhá-los, de modo que nos alegremos que eles cheguem incólumes ao
           termo da sua viagem, com o socorro da vossa misericórdia. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 118, 4-5</Text>
+      <Typography className="em">Sl. 118, 4-5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tu mandásti mandáta tua custodíri nimis: útinam dirigántur viæ meæ, ad
           custodiéndas justificatiónes tuas. (T. P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ordenastes que os vossos Mandamentos fossem rigorosamente observados:
           praza a Deus que meus passos sejam conduzidos segundo os vossos
           preceitos. (T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tua, Dómine, sacraménta, quæ súmpsimus, fámulos tuos in te sperántes
           custódiant: et contra omnes advérsos tueántur incúrsus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que estes sacramentos, que recebemos, Senhor, guardem aqueles que em
           Vós Confiam e os protejam contra todos os embates adversários. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

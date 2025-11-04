@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,10 +8,10 @@ export default function PageDefuntos() {
     <PageWrapper>
       <H1 text="Prefácio dos Defuntos" />
 
-      <Text className="aside">Diz-se em todas as Missas de Réquiem.</Text>
+      <Typography className="aside">Diz-se em todas as Missas de Réquiem.</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vere dignum et justum est, æquum et salutáre, nos tibi semper et
           ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus:
           per Christum, Dóminum nostrum. In quo nobis spes beátæ resurrectiónis
@@ -22,8 +22,8 @@ export default function PageDefuntos() {
           Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni
           milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine
           dicéntes:
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           É verdadeiramente digno e justo, racional e salutar que sempre e em
           todos os lugares Vos dêmos graças, Senhor santo, Pai omnipotente,
           eterno Deus, por meio de nosso Senhor Jesus Cristo, em quem nos
@@ -35,7 +35,7 @@ export default function PageDefuntos() {
           Anjos e Arcanjos, com os Tronos e Dominações e com toda a milícia do
           exército celestial, cantamos o hino da vossa glória, dizendo sem
           cessar:
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

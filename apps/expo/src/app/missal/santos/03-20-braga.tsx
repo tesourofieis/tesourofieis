@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -7,22 +7,22 @@ export default function Page0320Braga() {
   return (
     <PageWrapper>
       <H1 text="S. Martinho de Dume, B. e Conf., a 20 de Março, Na Arquidiocese de Braga" />
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/13doutores">
           Missa In médio Ecclésiae
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
       <H3 text="Oração" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó Deus, que ao vosso povo concedestes o B. Martinho como ministro da
         salvação eterna, permiti, Vos rogamos, que mereçamos sempre ter como
         intercessor nos céus aquele que na terra possuímos como Patrono e Mestre
         de vida. Por nosso Senhor...
-      </Text>
+      </Typography>
       <H3 text="Epístola" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Lição do Livro da Sabedoria. Desejei a inteligência, e foi-me dada;
         invoquei o espírito da sabedoria, e veio a mim. Preferi-a aos reinos e
         aos tronos; e creio que as riquezas nada são comparadas com ela. Nem
@@ -36,38 +36,38 @@ export default function Page0320Braga() {
         fingimento e comunico-a sem inveja, não ocultando as suas riquezas. Ela
         é um tesouro infinito para os homens. Aqueles que a aproveitam tornam-se
         amigos de Deus e recomendam-se pelos dons da ciência.
-      </Text>
+      </Typography>
       <H3 text="Gradual" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Encontrei o meu servo David e ungi-o com meu óleo sagrado; a minha mão,
         pois, o auxiliará e o meu braço o fortalecerá. O inimigo nunca alcançará
         vitória contra ele: e o filho da iniquidade o não prejudicará.
-      </Text>
+      </Typography>
       <H3 text="Ofertório" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Bem-aventurado o varão que o Senhor, quando vier, encontrar vigilante.
         Em verdade vos digo que o colocará à testa de todos seus bens.
-      </Text>
+      </Typography>
       <H3 text="Secreta" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Deus omnipotente e sempiterno, fazei que estes dons, que oferecemos à
         vossa majestade por intercessão do B. Martinho, vosso Confessor e
         Pontífice, nos sirvam de proveito para a salvação eterna. Por nosso
         Senhor...
-      </Text>
+      </Typography>
       <H3 text="Comúnio" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Senhor, entregastes-me cinco talentos; eis outros cinco que lucrei. Está
         bem, servo bom e fiel; visto que foste fiel em pouca coisa, Eu te
         estabelecerei sobre muitas: entra no gozo do teu senhor.
-      </Text>
+      </Typography>
       <H3 text="Postcomúnio" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Havendo recebido os sacramentos da nossa salvação, concedei-nos, ó
         misericordioso Deus, Vos suplicamos, que nos sirvam sempre de auxílio as
         preces do B. Martinho, em cuja veneração os oferecemos à vossa
         majestade. Por nosso...
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

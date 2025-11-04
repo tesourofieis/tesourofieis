@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page1021() {
     <PageWrapper>
       <H1 text="S. Hilarião, Abade, a 21 de Outubro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Depois da era dos martyres, aos quais a Igreja havia reservado a honra
         do culto público, começou-se a colocar sobre os altares os servos de
         Deus que se tinham ilustrado por suas elevadas virtudes sem, contudo,
@@ -29,7 +29,7 @@ export default function Page1021() {
         da multidão de admiradores que lhe atraía o brilho de suas virtudes, e
         ali morreu santamente na idade de oitenta annos, cerca do anno de 372.
         São Jerónimo foi seu historiador.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

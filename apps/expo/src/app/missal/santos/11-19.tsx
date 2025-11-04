@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page1119() {
     <PageWrapper>
       <H1 text="Santa Isabel, Viúva, a 19 de Novembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Isabel, filha de André, rei da Hungria, foi dada em casamento ao
         landgrave de Thuringia Luiz IV, do qual teve três filhos, Hermano,
         Sophia e Gertrudes. O marido, que era um santo, deixou-a inteiramente
@@ -26,30 +26,30 @@ export default function Page1119() {
         Wartburg, e, aquela que era chamada a mãe dos pobres, não encontrou
         sequer um tecto hospitaleiro para abrigá-la. Morreu aos 24 annos, em
         1231.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/24nemvirgensnemmartires">
           Missa Cognóvi, Dómine
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tuórum corda fidélium, Deus miserátor, illústra: et, beátæ Elisabeth
           précibus gloriósis; fac nos próspera mundi despícere, et cœlésti
           semper consolatióne gaudére. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus de misericórdia, esclarecei os corações dos vossos fiéis; e,
           pelas gloriosas preces da B. Isabel, concedei-nos a graça de
           desprezarmos as prosperidades deste mundo e de gozarmos perpetuamente
           a consolação celestial. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

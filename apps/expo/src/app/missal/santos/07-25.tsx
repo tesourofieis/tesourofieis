@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ export default function Page0725() {
     <PageWrapper>
       <H1 text="S. Tiago, Apóstolo, a 25 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         São Tiago, irmão de S. João e filho de Zebedeu, era de Betsaida na
         Galileia e cognominado o Maior. Certo dia, sua mãe, aproximando-se do
         Salvador, lhe pediu «para seus dois filhos, o favor de assentar um à sua
@@ -27,58 +27,58 @@ export default function Page0725() {
         venerado. O dia 25 de Julho lembra-nos a data da transladação. O nome de
         São Tiago está inscrito no Canon da Missa, como o de São João, seu
         irmão.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 138, 17</Text>
+      <Typography className="em">Sl. 138, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mihi autem nimis bonoráti sunt amíci tui, Deus: nimis confortátus est
-          principátus eórum. <Text className="latin">Ps. ibid., 1-2</Text>{" "}
+          principátus eórum. <Typography className="latin">Ps. ibid., 1-2</Typography>{" "}
           Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam ei
-          resurrectiónem meam.<Text className="versicle"> ℣. </Text>Gloria
+          resurrectiónem meam.<Typography className="versicle"> ℣. </Typography>Gloria
           Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eu vejo, ó Deus, que honrais largamente os vossos amigos: e que seu
           poder se tem fortalecido extraordinariamente.{" "}
-          <Text className="vernacular">Sl. ibid., 1-2</Text> Senhor,
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Senhor,
           perscrutastes o meu íntimo e ficastes-me conhecendo: ficastes
           conhecendo quando me deito e quando me levanto.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Esto, Dómine, plebi tuæ sanctificátor et custos: ut, Apóstoli tui
           Jacóbi muníta præsídiis, et conversatióne tibi pláceat, et secúra
           mente desérviat. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Sede, Senhor, o santificador e o protector do povo, a fim de que,
           munido com o auxílio do vosso Apóstolo Tiago, ele Vos seja agradável
           pela sua sã conduta e Vos sirva com tranquilidade de espírito. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Cor. 4, 9-15</Text>
+      <Typography className="em">1 Cor. 4, 9-15</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Puto, quod Deus nos Apóstolos novíssimos osténdit, tamquam
           morti destinátos: quia spectáculum facti sumus mundo et Angelis et
           homínibus. Nos stulti propter Christum, vos autem prudéntes in
@@ -91,8 +91,8 @@ export default function Page0725() {
           hæc scribo, sed ut fílios meos caríssimos móneo. Nam si decem mília
           pædagogórum habeátis in Christo: sed non multos patres. Nam in Christo
           Jesu per Evangélium ego vos génui.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Penso que Deus nos trata a nós, seus Apóstolos, como se
           fôssemos os últimos homens destinados à morte, pois nos tornámos
           espectáculo do mundo, dos Anjos e dos homens. Tornámo-nos insensatos
@@ -107,52 +107,52 @@ export default function Page0725() {
           meus filhos caríssimos que sois, pois, ainda que tivésseis dez mil
           mestres em Cristo, nem por isso teríeis muitos pais, visto que fui eu
           que pelo Evangelho vos gerei em Jesus Cristo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 44, 17 & 18</Text>
+      <Typography className="em">Sl. 44, 17 & 18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Constítues eos príncipes super omnem terram: mémores erunt nóminis
-          tui, Dómine.<Text className="versicle"> ℣. </Text>Pro pátribus tuis
+          tui, Dómine.<Typography className="versicle"> ℣. </Typography>Pro pátribus tuis
           nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós os instituístes príncipes em todo o universo: e eles, Senhor,
           perpetuarão a glória do vosso nome em toda a terra.
-          <Text className="versicle"> ℣. </Text>Para substituir os vossos pais,
+          <Typography className="versicle"> ℣. </Typography>Para substituir os vossos pais,
           nascer-vos-ão filhos: pelo que os povos vos louvarão.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Joann. 15, 16</Text> Ego vos elegi de mundo,
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Joann. 15, 16</Typography> Ego vos elegi de mundo,
           ut eátis, et fructum afferátis, et fructus vester máneat. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Jo. 15, 16</Text> Eu vos escolhi para
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Jo. 15, 16</Typography> Eu vos escolhi para
           irdes pelo mundo e alcançardes fruto; e que o vosso fruto permaneça.
           Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 20, 20-23</Text>
+      <Typography className="em">Mt. 20, 20-23</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In llo témpore: Accessit ad Jesum mater filiórum Zebedǽi cum fíliis
           suis, adórans et petens áliquid ab eo. Qui dixit ei: Quid vis? Ait
           illi: Dic, ut sédeant hi duo fílii mei, unus ad déxteram tuam et unus
@@ -161,8 +161,8 @@ export default function Page0725() {
           ei: Póssumus. Ait illis: Cálicem quidem meum bibétis: sédere autem ad
           déxteram meam vel sinístram, non est meum dare vobis, sed quibus
           parátum est a Patre meo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, a mãe dos filhos de Zebedeu aproximou-se de Jesus com
           seus dois filhos, adorando-O e querendo pedir-Lhe alguma coisa. Jesus
           disse-lhe: «Que quereis?». Ela respondeu: «Ordenai que estes meus dois
@@ -172,68 +172,68 @@ export default function Page0725() {
           Jesus disse-lhes: «Bebereis, com efeito, o meu cálice; porém não
           depende de mim conceder-vos um lugar à minha direita ou à minha
           esquerda, pois isso é para aqueles para quem meu Pai o preparou».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 18, 5</Text>
+      <Typography className="em">Sl. 18, 5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In omnem terram exívit sonus eórum: et in fines orbis terræ verba
           eórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O som da sua voz ecoou por toda a terra; e as suas palavras
           prolongaram-se até às extremidades da terra.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Oblatiónes pópuli tui, quǽsumus, Dómine, beáti Jacóbi Apóstoli pássio
           beáta concíliet: et, quæ nostris non aptæ sunt méritis, fiant tibi
           plácitæ ejus deprecatióne. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Permiti, Senhor, Vos suplicamos, que o glorioso martírio do B.
           Apóstolo Tiago nos alcance a graça de receberdes as ofertas do vosso
           povo, e, apesar dos nossos méritos serem insuficientes, fazei que sua
           deprecação Vo-las torne agradáveis. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 19, 28</Text>
+      <Typography className="em">Mt. 19, 28</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vos, qui secúti estis me, sedébitis super sedes, judicántes duódecim
           tribus Israël.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós, que me seguistes, assentar-vos-eis sobre tronos e julgareis as
           doze tribos de Israel.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Beáti Apóstoli tui Jacóbi, quǽsumus, Dómine, intercessióne nos ádjuva:
           pro cujus festivitáte percépimus tua sancta lætántes. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Auxiliai-nos, Senhor, Vos suplicamos, pela intercessão do vosso B.
           Apóstolo Tiago, em cuja festa recebemos com júbilo os sacrossantos
           méritos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

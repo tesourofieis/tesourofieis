@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,26 +9,26 @@ export default function PagePasc53() {
     <PageWrapper>
       <H1 text="Vigília da Festa da Ascensão de N. S. J. C." />
 
-      <Text className="aside">
+      <Typography className="aside">
         Como no{" "}
         <Link className="link" href="/missal/pascoa/pasc5-0">
           5.º Domingo depois da Páscoa
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ef. 4, 7-13</Text>
+      <Typography className="em">Ef. 4, 7-13</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Unicuíque nostrum data est grátia secúndum mensúram
           donatiónis Christi. Propter quod dicit: Ascéndens in altum, captívam
           duxit captivitátem: dedit dona homínibus. Quod autem ascéndit, quid
@@ -40,8 +40,8 @@ export default function PagePasc53() {
           córporis Christi: donec occurrámus omnes in unitátem fídei, et
           agnitiónis Fílii Dei, in virum perféctum, in mensúram ætátis
           plenitúdinis Christi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: A graça é dada a cada um de nós, segundo a medida do dom
           de Cristo. Por isso se diz na Escritura: «Subindo ao alto, levou
           consigo os cativos e repartiu os seus dons pelos homens». Que quer
@@ -55,40 +55,40 @@ export default function PagePasc53() {
           uma só fé e do mesmo conhecimento do Filho de Deus, ao estado de um
           homem perfeito, a um desenvolvimento orgânico proporcionado à
           plenitude de Cristo.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Surréxit
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Surréxit
           Christus, et illúxit nobis, quos rédemit sánguine suo. Allelúja.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="latin">Joann. 16, 28</Text> Exívi a Patre, et veni in
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Joann. 16, 28</Typography> Exívi a Patre, et veni in
           mundum: íterum relínquo mundum, et vado ad Patrem. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Ressuscitou
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Ressuscitou
           Cristo: e fez brilhar a sua luz sobre nós, a quem remiu com o sen
-          sangue. Aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Jo. 16, 28</Text> Saí do Pai e vim ao
+          sangue. Aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Jo. 16, 28</Typography> Saí do Pai e vim ao
           mundo; agora, outra vez, deixo o mundo e vou ao Pai. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 17, 1-11</Text>
+      <Typography className="em">Jo. 17, 1-11</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Sublevátis Jesus oculis in cœlum, dixit: Pater, venit
           hora, clarífica Fílium tuum, ut Fílius tuus claríficet te: sicut
           dedísti ei potestátem omnis carnis, ut omne, quod dedísti ei, det eis
@@ -105,8 +105,8 @@ export default function PagePasc53() {
           dedísti mihi: quia tui sunt: et mea ómnia tua sunt, et tua mea sunt:
           et clarificátus sum in eis. Et jam non sum in mundo, et hi in mundo
           sunt, et ego ad te vénio.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, levantou Jesus os olhos ao céu e disse: «Pai, veio a
           hora: glorificai o vosso Filho, para que o vosso Filho Vos glorifique,
           pois que Lhe concedestes poder sobre toda a carne humana, para que a
@@ -124,7 +124,7 @@ export default function PagePasc53() {
           vossos: todas minhas coisas são vossas, e sou glorificado neles. Já
           não pertenço mais ao mundo, porém eles ficam no mundo. E Eu vou para
           Vós».
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

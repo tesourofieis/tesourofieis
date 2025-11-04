@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,14 +8,14 @@ export default function PagePentecostes() {
     <PageWrapper>
       <H1 text="Prefácio do Pentecostes" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Diz-se desde a Vigília de Pentecostes até ao fim do Oitavário. Diz-se
         também nas Missas Votivas do Espírito Santo, mas omitem-se as palavras:
         neste dia.
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vere dignum et justum est, æquum et salutáre, nos tibi semper et
           ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus:
           per Christum, Dóminum nostrum. Qui, ascéndens super omnes cœlos
@@ -23,8 +23,8 @@ export default function PagePentecostes() {
           in fílios adoptiónis effúdit. Quaprópter profúsis gáudiis totus in
           orbe terrárum mundus exsúltat. Sed et supérnæ Virtútes atque angélicæ
           Potestátes hymnum glóriæ tuæ cóncinunt, sine fine dicéntes:
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           É verdadeiramente digno e justo, racional e salutar dar-Vos graças, em
           todos os lugares e sempre, Senhor santo, Pai omnipotente, eterno Deus,
           por nosso Senhor Jesus Cristo, que, subindo ao mais alto dos céus e
@@ -33,7 +33,7 @@ export default function PagePentecostes() {
           mundo inteiro, em transportes de alegria, exulta de contentamento,
           enquanto as Virtudes do céu e as Potestades angelicais cantam um hino
           à vossa glória, dizendo incessantemente:
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

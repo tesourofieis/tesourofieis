@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page0826() {
     <PageWrapper>
       <H1 text="S. Zeferino, Papa e Mártir, a 26 de Agosto" />
 
-      <Text className="comment">
+      <Typography className="comment">
         São Zepherino sucedeu no trono pontifical a S. Victor, sendo, como ele,
         martirizado (Ev.). Aboliu, na celebração do Santo Sacrifício, o uso dos
         cálices de madeira, substituindo-os pelos de vidro. Estabeleceu que
@@ -19,7 +19,7 @@ export default function Page0826() {
         sustentou no meio das provações, a fim de poder o Santo, por sua vez,
         sustentar o rebanho de Cristo (Ep.). Morreu em 218, após um pontificado
         de dezessete annos.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -10,7 +10,7 @@ export default function Page1121() {
     <PageWrapper>
       <H1 text="Apresentação da B. Virgem Maria, a 21 de Novembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Depois de ter celebrado no dia 8 de Setembro a Natividade da SSma
         Virgem, e quatro dias mais tarde a festa do Santo Nome de Maria, que lhe
         foi imposto logo depois de seu nascimento, o Ciclo celebra hoje, a
@@ -31,15 +31,15 @@ export default function Page1121() {
         introduziu-a em Avignon e Sixto V tornou-a obrigatória na Igreja romana,
         em 1585. Clemente VIII elevou-a à ordem de duplo maior e remodelou o seu
         ofício.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link href="/missal/comum/29missamaria3">
           Missa Salve, sancta Parens da Virgem Maria,
         </Link>
         excepto:
-      </Text>
+      </Typography>
 
       <LinkCard
         href="/missal/comum/26festasmaria1"
@@ -49,18 +49,18 @@ export default function Page1121() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beátam Maríam semper Vírginem, Spíritus Sancti habitáculum,
           hodiérna die in templo præsentári voluísti: præsta, quǽsumus; ut, ejus
           intercessióne, in templo glóriæ tuæ præsentári mereámur. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que quisestes que a B. Virgem Maria, em quem habitava o
           Espírito Santo, fosse neste dia apresentada no templo, permiti pela
           sua intercessão que mereçamos ser apresentados no templo da vossa
           glória. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

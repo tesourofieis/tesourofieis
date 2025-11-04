@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,55 +10,55 @@ export default function PageQuadp30() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 30, 3-4</Text>
+      <Typography className="em">Sl. 30, 3-4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Esto mihi in Deum protectórem, et in locum refúgii, ut salvum me
           fácias: quóniam firmaméntum meum et refúgium meum es tu: et propter
           nomen tuum dux mihi eris, et enútries me.{" "}
-          <Text className="latin">Ps. ibid., 2</Text> In te, Dómine, sperávi,
+          <Typography className="latin">Ps. ibid., 2</Typography> In te, Dómine, sperávi,
           non confúndar in ætérnum: in justítia tua líbera me et éripe me.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Sede, ó Deus, o meu protector e o lugar de refúgio, onde encontre a
           salvação; pois sois o meu sustentáculo e o meu refúgio, e, pela glória
           do vosso nome, me conduzireis e sustentareis.{" "}
-          <Text className="vernacular">Sl. ibid., 2</Text> Em Vós, Senhor, pus a
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Em Vós, Senhor, pus a
           minha confiança; não serei confundido para sempre. Segundo a vossa
           justiça, livrai-me, salvai-me.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Preces nostras, quǽsumus, Dómine, cleménter exáudi: atque, a
           peccatórum vínculis absolútos, ab omni nos adversitáte custódi. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, dignai-Vos ouvir clemente as nossas orações; e, depois de nos
           livrardes dos laços dos nossos pecados, defendei-nos de todas as
           adversidades. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Cor. 13, 1-13</Text>
+      <Typography className="em">1 Cor. 13, 1-13</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Si linguis hóminum loquar et Angelórum, caritátem autem non
           hábeam, factus sum velut æs sonans aut cýmbalum tínniens. Et si
           habúero prophétiam, et nóverim mystéria ómnia et omnem sciéntiam: et
@@ -79,8 +79,8 @@ export default function PageQuadp30() {
           Nunc cognósco ex parte: tunc autem cognóscam, sicut et cógnitus sum.
           Nunc autem manent fides, spes, cáritas, tria hæc: major autem horum
           est cáritas.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Se eu falar as línguas dos homens e dos Anjos, mas não
           tiver caridade, sou como o metal, que tine, ou como o sino, que soa. E
           se eu tiver o dom de profecia, conhecer todos os mystérios e possuir
@@ -103,61 +103,61 @@ export default function PageQuadp30() {
           imperfeitamente; mais tarde conhecê-las-ei, como sou conhecido. Agora
           permanecem estas três coisas: a fé, a esperança e a caridade; mas a
           maior das três é a caridade.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 76, 15 & 16</Text>
+      <Typography className="em">Sl. 76, 15 & 16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tu es Deus qui facis mirabília solus: notam fecísti in géntibus
-          virtútem tuam.<Text className="versicle"> ℣. </Text>Liberásti in
+          virtútem tuam.<Typography className="versicle"> ℣. </Typography>Liberásti in
           bráchio tuo pópulum tuum, fílios Israel et Joseph.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, só Vós praticais maravilhas! Fizestes conhecer aos povos o
           vosso poder. Com o vosso braço forte livrastes o vosso povo os filhos
           de Israel e de José.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 99, 1-2</Text>
+      <Typography className="em">Sl. 99, 1-2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Jubiláte Deo, omnis terra: servíte Dómino in lætítia.
-          <Text className="versicle"> ℣. </Text>Intráte in conspéctu ejus in
+          <Typography className="versicle"> ℣. </Typography>Intráte in conspéctu ejus in
           exsultatióne: scitóte, quod Dóminus ipse est Deus.
-          <Text className="versicle"> ℣. </Text>Ipse fecit nos, et non ipsi nos:
+          <Typography className="versicle"> ℣. </Typography>Ipse fecit nos, et non ipsi nos:
           nos autem pópulus ejus, et oves páscuæ ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó povos de toda a terra, louvai a Deus com júbilo. Vinde à sua
           presença com transportes de alegria; pois sabeis que o Senhor é
-          verdadeiro Deus.<Text className="versicle"> ℣. </Text>Foi Ele quem nos
+          verdadeiro Deus.<Typography className="versicle"> ℣. </Typography>Foi Ele quem nos
           criou, e não nós a nós mesmos. Somos, pois, o seu povo, e as ovelhas
           de que Ele é o pastor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 18, 31-43</Text>
+      <Typography className="em">Lc. 18, 31-43</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Assúmpsit Jesus duódecim, et ait illis: Ecce,
           ascéndimus Jerosólymam, et consummabúntur ómnia, quæ scripta sunt per
           Prophétas de Fílio hominis. Tradátur enim Géntibus, et illudétur, et
@@ -174,8 +174,8 @@ export default function PageQuadp30() {
           fáciam? At ille dixit: Dómine, ut vídeam. Et Jesus dixit illi:
           Réspice, fides tua te salvum fecit. Et conféstim vidit, et sequebátur
           illum, magníficans Deum. Et omnis plebs ut vidit, dedit laudem Deo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, levou Jesus consigo os Doze e disse-lhes: «Eis que
           subimos para Jerusalém, onde se vai cumprir o que os Profetas
           escreveram a respeito do Filho do homem, pois será entregue aos
@@ -195,66 +195,66 @@ export default function PageQuadp30() {
           «Pois vê! A tua fé salvou-te!». Logo, começou a ver. E, acompanhando
           Jesus, glorificava Deus. E todo o povo que presenciou isto louvou a
           Deus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 118, 12-13</Text>
+      <Typography className="em">Sl. 118, 12-13</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Benedíctus es, Dómine, doce me justificatiónes tuas: in lábiis meis
           pronuntiávi ómnia judícia oris tui.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bendito sois, Senhor. Ensinai-me a conhecer a vossa lei. Pronunciei
           com meus lábios todas as sentenças da vossa boca.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad
           sacrifícium celebrándum, subditórum tibi córpora mentésque
           sanctíficet. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicamos, permiti que esta hóstia apague os nossos
           pecados; e, para que dignamente se celebre este sacrifício, fazei que
           ela santifique os corpos e as almas dos vossos fiéis. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 77, 29-30</Text>
+      <Typography className="em">Sl. 77, 29-30</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Manducavérunt, et saturári sunt nimis, et desidérium eórum áttulit eis
           Dóminus: non sunt fraudáti a desidério suo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Comeram e saciaram-se abundantemente. O Senhor deu-lhes segundo os
           seus desejos: e não ficaram frustrados os seus desejos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus, per
           hæc contra ómnia adversa muniámur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos pedimos, ó Deus, que este alimento celestial que recebemos nos
           fortifique contra todas as adversidades. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -7,13 +7,13 @@ export default function Page1025Braga() {
   return (
     <PageWrapper>
       <H1 text="Trasl. de S. Martinho de Dume, a 25 de Outubro, Na Arquidiocese de Braga" />
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/13doutores">
           Missa In médio Ecclésiae
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
       <H3 text="Oração" />Ó Deus, que Vos gloriais com as festivas solenidades
       em honra dos vossos Santos, celebrando nós devotadamente a Trasladação do
       B. Martinho, vosso Pontífice e Doutor, concedei-nos propício a graça de

@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page1015() {
     <PageWrapper>
       <H1 text="Santa Teresa, a 15 de Outubro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Nascida em Ávila, na Espanha, Santa Teresa sentiu-se, desde a mais tenra
         infância, abrasada de desejo do martyrio. Aos dezoito anos entrou para o
         convento de Santa Maria do Monte Carmelo e consagrou-se ao Cristo a quem
@@ -30,30 +30,30 @@ export default function Page1015() {
         de almas, prova assaz o papel preponderante da vida contemplativa,
         provindo do facto de ser dirigida directamente a Deus, autor de todo
         bem. Morreu por efeito do amor divino a 5-15 de Outubro de 1582.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/20virgemnaomartir1">
           Missa Dilexísti justitiam
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exáudi nos, Deus, salutáris noster: ut, sicut de beátæ Terésiæ
           Vírginis tuæ festivitáte gaudémus; ita cœléstis ejus doctrínæ pábulo
           nutriámur, et piæ devotiónis erudiámur affectu. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ouvi-nos, ó Deus, nosso Salvador, a fim de que, assim como nos
           alegramos na festa da vossa B. Virgem Teresa, assim também sejamos
           sustentados com o pão da sua celestial doutrina e Consigamos alcançar
           os afectos da sua piedosa devoção. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

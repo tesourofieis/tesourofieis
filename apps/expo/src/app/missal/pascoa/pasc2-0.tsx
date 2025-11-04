@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,49 +10,49 @@ export default function PagePasc20() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 32, 5-6</Text>
+      <Typography className="em">Sl. 32, 5-6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Misericórdia Dómini plena est terra, allelúja: verbo Dómini cœli
           firmáti sunt, allelúja, allelúja.{" "}
-          <Text className="latin">Ps. ibid., 1</Text> Exsultáte, justi, in
+          <Typography className="latin">Ps. ibid., 1</Typography> Exsultáte, justi, in
           Dómino: rectos decet collaudátio.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           A misericórdia do Senhor enche toda a terra, aleluia! A palavra do
           Senhor criou os céus, aleluia, aleluia.{" "}
-          <Text className="vernacular">Sl. ibid., 1</Text> Ó justos, exultai de
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Ó justos, exultai de
           alegria e aclamai o Senhor; pois é bom que os justos O louvem.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui in Filii tui humilitate jacéntem mundum erexísti: fidelibus
           tuis perpétuam concéde lætítiam; ut, quos perpétuæ mortis eripuísti
           casibus, gaudiis fácias perfrui sempitérnis. Per eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que pela humilhação do vosso Filho livrastes o mundo do
           abatimento em que jazia, concedei aos vossos fiéis a alegria perpétua,
           a fim de que aqueles que livrastes da morte eterna se tornem
           participantes dos gozos sempiternos. Pelo mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Pe. 2, 21-25</Text>
+      <Typography className="em">1 Pe. 2, 21-25</Typography>
 
       <Language>
-        <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
-        <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
           Caríssimi: Christus passus est pro nobis, vobis relínquens exémplum,
           ut sequámini vestígia ejus. Qui peccátum non fecit, nec invéntus est
           dolus in ore ejus: qui cum male dicerétur, non maledicébat: cum
@@ -61,8 +61,8 @@ export default function PagePasc20() {
           mórtui, justítiæ vivámus: cujus livóre sanáti estis. Erátis enim sicut
           oves errántes, sed convérsi estis nunc ad pastórem et epíscopum
           animárum vestrárum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimos: Cristo padeceu por nós, deixando-nos o exemplo, para que
           seguíssemos as suas pegadas: Ele, que não cometeu pecado; Ele, em cuja
           boca não apareceu qualquer engano; Ele, que, mesmo injuriado, não
@@ -72,42 +72,42 @@ export default function PagePasc20() {
           mortos para os pecados, vivamos para a justiça; Ele, em cujas chagas
           fomos curados. Pois vós éreis como ovelhas desgarradas, mas agora
           estais convertidos ao pastor e ao bispo das vossas almas.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Luc. 24, 35</Text> Cognovérunt discípuli
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Luc. 24, 35</Typography> Cognovérunt discípuli
           Dóminum Jesum in fractióne panis. Allelúja.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Joann. 10, 14</Text> Ego sum pastor bonus: ei
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Joann. 10, 14</Typography> Ego sum pastor bonus: ei
           cognósco oves meas, et cognóscunt me meæ. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Lc. 24, 35</Text> Os dois discípulos
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Lc. 24, 35</Typography> Os dois discípulos
           reconheceram o Senhor Jesus pela fracção do pão. Aleluia.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Jo. 10, 14</Text> Eu sou o bom Pastor; conheço as
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Jo. 10, 14</Typography> Eu sou o bom Pastor; conheço as
           minhas ovelhas, e elas conhecem-me, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 10, 11-16</Text>
+      <Typography className="em">Jo. 10, 11-16</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus pharisǽis: Ego sum pastor bonus. Bonus
           pastor ánimam suam dat pro óvibus suis. Mercennárius autem et qui non
           est pastor, cujus non sunt oves própriæ, videt lupum veniéntem, et
@@ -118,8 +118,8 @@ export default function PagePasc20() {
           meis. Et alias oves hábeo, quæ non sunt ex hoc o vili: et illas
           opórtet me addúcere, et vocem meam áudient, et fiet unum ovíle et unus
           pastor.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos fariseus: «Eu sou o bom Pastor. O bom
           Pastor dá a vida pelas suas ovelhas. Porém o mercenário, e o que não é
           pastor e a quem as ovelhas não pertencem, vê vir o lobo, abandona as
@@ -130,66 +130,66 @@ export default function PagePasc20() {
           Eu dou a vida pelas minhas ovelhas. Tenho ainda outras ovelhas que não
           pertencem a este aprisco. É preciso que as atraia, e que ouçam a minha
           voz, para que não haja senão um só aprisco e um só pastor».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 62, 2 & 5</Text>
+      <Typography className="em">Sl. 62, 2 & 5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, Deus meus, ad te de luce vígilo: et in nómine tuo levábo manus
           meas, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, ó meu Deus, a Vós recorro desde manhã: E erguerei as minhas
           mãos em honra do vosso nome, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Benedictiónem nobis, Dómine, cónferat salutárem sacra semper oblátio:
           ut, quod agit mystério, virtúte perfíciat. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, que esta oblação sagrada nos alcance sempre a vossa salutar
           bênção, a fim de que produza os efeitos do mystério que ela renova.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 10, 14</Text>
+      <Typography className="em">Jo. 10, 14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ego sum pastor bonus, allelúja: et cognósco oves meas, et cognóscunt
           me meæ, allelúja, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eu sou o bom Pastor, aleluia; conheço as minhas ovelhas, e elas
           conhecem-me, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta nobis, quǽsumus, omnípotens Deus: ut, vivificatiónis tuæ
           grátiam consequéntes, in tuo semper múnere gloriémur. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos suplicamos, permiti que, havendo alcançado de
           Vós a graça da vida nova, sempre nos gloriemos com este dom, que nos
           dispensais. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

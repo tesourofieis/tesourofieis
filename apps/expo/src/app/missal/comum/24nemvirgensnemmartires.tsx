@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,51 +10,51 @@ export default function Page24Nemvirgensnemmartires() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 118, 75 & 120</Text>
+      <Typography className="em">Sl. 118, 75 & 120</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cognóvi, Dómine, quia ǽquitas judícia tua, et in veritáte tua
           humiliásti me: confíge timóre tuo carnes meas, a mandátis tuis tímui.
           (T. P. Allelúja, allelúja.){" "}
-          <Text className="latin">Ps. ibid., 1</Text> Beáti immaculáti in via:
+          <Typography className="latin">Ps. ibid., 1</Typography> Beáti immaculáti in via:
           qui ámbulant in lege Dómini.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Conheço, Senhor, que os vossos juízos são equitativos e que me
           humilhastes com justiça. Esmagai as minhas carnes com vosso temor; os
           vossos Mandamentos inspiram-me temor. (T. P. Aleluia, aleluia.){" "}
-          <Text className="vernacular">Sl. ibid., 1</Text> Bem-aventurados
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Bem-aventurados
           aqueles que são imaculados nos seus caminhos e cumprem a lei do
-          Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          Senhor.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exáudi nos, Deus, salutáris noster: ut, sicut de beátæ{" "}
-          <Text className="latin">N.</Text> festivitáte gaudémus; ita piæ
+          <Typography className="latin">N.</Typography> festivitáte gaudémus; ita piæ
           devotiónis erudiámur afféctu. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ouvi-nos, ó Deus, nosso salvador, a fim de que, assim como nos
           alegramos com a festa da vossa B.{" "}
-          <Text className="vernacular">N.</Text>, assim também consigamos os
+          <Typography className="vernacular">N.</Typography>, assim também consigamos os
           afectos de uma pia devoção. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Pr. 31, 10-31</Text>
+      <Typography className="em">Pr. 31, 10-31</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Sapiéntiæ.</Text>
-        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="latin">
           Mulíerem fortem quis invéniet? Procul et de últimis fínibus prétium
           ejus. Confídit in ea cor viri sui, et spóliis non indigébit. Reddet ei
           bonum, et non malum, ómnibus diébus vitæ suæ. Quæsívit lanam et linum,
@@ -78,8 +78,8 @@ export default function Page24Nemvirgensnemmartires() {
           supergréssa es univérsas. Fallax grátia, et vana est pulchritúdo:
           mulier timens Dóminum, ipsa laudábitur. Date ei de fructu mánuum
           suárum, et laudent eam in portis ópera ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Quem encontrará uma mulher forte? Seu valor é maior do que o das
           pérolas que vêm dos confins do mundo. Nela confia o coração do marido,
           que por isso lhe não faltará proveito. Ela procurará praticar o bem, e
@@ -104,102 +104,102 @@ export default function Page24Nemvirgensnemmartires() {
           excedeste-las». Enganadora é a graça e vã é a formosura. Só a mulher,
           que teme o Senhor, será louvada. Dai-lhe o produto de suas mãos, e que
           a louvem às portas da cidade, por causa das suas obras.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 44, 3 & 5</Text>
+      <Typography className="em">Sl. 44, 3 & 5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Diffúsa est grátia in labiis tuis: proptérea benedíxit te Deus in
-          ætérnum.<Text className="versicle"> ℣. </Text>Propter veritátem et
+          ætérnum.<Typography className="versicle"> ℣. </Typography>Propter veritátem et
           mansuetúdinem et justítiam: et de ducet te mirabíliter déxtera tua.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A graça espalhou-se nos vossos lábios: eis porque Deus vos abençoou
-          para a eternidade.<Text className="versicle"> ℣. </Text>
+          para a eternidade.<Typography className="versicle"> ℣. </Typography>
           Por causa da vossa verdade, mansidão e justiça, a vossa dextra
           praticará maravilhas.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 5</Text> Spécie tua et pulchritúdine
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 5</Typography> Spécie tua et pulchritúdine
           tua inténde, próspere procéde et regna. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 5</Text> Caminhai, pois, com
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 5</Typography> Caminhai, pois, com
           beleza e com majestade; ide gozar a vitória e reinai. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
-      </Text>
+      </Typography>
 
       <H3 text="Trato" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Veni, Sponsa Christi, áccipe coronam, quam tibi Dóminus præparávit in
-          ætérnum.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 44, 8 & 5</Text> Dilexísti justítiam, et
+          ætérnum.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 44, 8 & 5</Typography> Dilexísti justítiam, et
           odísti iniquitátem: proptérea unxit te Deus, Deus tuus, oleo lætítiæ
           præ consórtibus tuis.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Spécie tua et pulchritúdine tua inténde, próspere procéde et regna.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vinde, ó esposa de Cristo; vinde e recebei a coroa que o Senhor vos
           preparou para a eternidade.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 44, 8 & 5</Text> Amastes a justiça e
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 44, 8 & 5</Typography> Amastes a justiça e
           odiastes a iniquidade: eis porque o Senhor, vosso Deus, vos ungiu com
           o óleo da alegria, de preferências às vossas semelhantes.
-          <Text className="versicle"> ℣. </Text>Caminhai, pois, com beleza e com
+          <Typography className="versicle"> ℣. </Typography>Caminhai, pois, com beleza e com
           majestade; ide gozar a vitória e reinai.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         No T. Pascal omite-se o Gradual e o Trato e diz-se:
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 44, 5</Text> Spécie tua et pulchritúdine
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 44, 5</Typography> Spécie tua et pulchritúdine
           tua inténde, próspere procéde et regna. Allelúja.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Propter veritátem et mansuetúdinem et justítiam: et dedúcet te
           mirabíliter déxtera tua. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 44, 5</Text> Caminhai, pois, com
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 44, 5</Typography> Caminhai, pois, com
           beleza e com majestade; ide gozar a vitória e reinai.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Por causa da vossa verdade, mansidão e justiça, a vossa dextra
           praticará maravilhas. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 13, 44-52</Text>
+      <Typography className="em">Mt. 13, 44-52</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Símile
           est regnum cœlórum thesáuro abscóndito in agro: quem qui invénit homo,
           abscóndit, et præ gáudio illíus vadit, et vendit univérsa, quæ habet,
@@ -214,8 +214,8 @@ export default function Page24Nemvirgensnemmartires() {
           stridor déntium. Intellexístis hæc ómnia? Dicunt ei: Etiam. Ait illis:
           Ideo omnis scriba doctus in regno cœlórum símilis est hómini
           patrifamílias, qui profert de thesáuro suo nova et vétera.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos esta parábola: «O reino
           dos céus é semelhante a um tesouro escondido no campo, o qual um homem
           achou e esconde; e, alegre com o achado, vai, vende tudo o que tem e
@@ -231,84 +231,84 @@ export default function Page24Nemvirgensnemmartires() {
           responderam eles. E Jesus disse-lhes: «Por esta razão todo o escriba
           douto, a respeito do reino dos céus, é semelhante a um pai de família,
           que tira dos seus tesouros coisas novas e velhas».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 44, 3</Text>
+      <Typography className="em">Sl. 44, 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in
           ætérnum, et in sǽculum sǽculi, allelúja. (T. P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A graça espalhou-se nos vossos lábios; eis porque Deus vos abençoou
           para a eternidade e para os séculos dos séculos. (T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre
           Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit
           auxílium. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aceitai, Senhor, esta oferta que Vos consagra o vosso povo fiel, em
           honra dos vossos Santos, pelos méritos dos quais reconhece que tem
           alcançado a vossa assistência nas tribulações. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 44, 8</Text>
+      <Typography className="em">Sl. 44, 8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus,
           Deus tuus, óleo lætítiæ præ consórtibus tuis. (T. P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Amastes a justiça e odiastes a iniquidade: eis porque o Senhor, vosso
           Deus, vos ungiu com o óleo da alegria, de preferência às vossas
           companheiras. (T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus,
           semper interventióne nos réfove, cujus sollémnia celebrámus. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo saciado, Senhor, a vossa família com os dons sagrados,
           dignai-Vos favorecer-nos sempre pela intercessão daquela cuja
           Solenidade celebrámos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">Outra Epístola (em certos dias):</Text>
+      <Typography className="aside">Outra Epístola (em certos dias):</Typography>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Pr. 31, 10-31</Text>
+      <Typography className="em">Pr. 31, 10-31</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Timotheum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.º do B. Ap.º Paulo a Timóteo.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Caríssime: Víduas hónora, quæ vere víduæ sunt. Si qua autem vídua
           fílios aut nepótes habet, discat primum domum suam régere, et mútuam
           vicem réddere paréntibus: hoc enim accéptum est coram Deo. Quæ autem
@@ -320,8 +320,8 @@ export default function Page24Nemvirgensnemmartires() {
           viri uxor, in opéribus bonis testimónium habens, si fílios educávit,
           si hospítio recépit, si sanctórum pedes lavit, si tribulatiónem
           patiéntibus subministrávit, si omne opus bonum subsecúta est.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimos: Honrai as, viúvas que são verdadeiramente viúvas. Se
           alguma viúva tem filhos ou netos, ensine-os, primeiramente, a governar
           a sua casa e a retribuir a seus pais conforme o que havia recebido
@@ -336,7 +336,7 @@ export default function Page24Nemvirgensnemmartires() {
           ter praticado boas obras; que tenha educado os seus filhos; praticado
           a hospitalidade; lavado os pés aos santos; socorrido os aflitos; e,
           enfim, praticado toda a espécie de boas obras.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,27 +9,27 @@ export default function PageApostolos() {
     <PageWrapper>
       <H1 text="Missa de Todos os S. S. Apóstolos" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Tudo como na Missa precedente, excepto o seguinte: Oração, Secreta e
         Postcomúnio como na{" "}
         <Link className="link" href="/missal/santos/10-28">
           Missa S. Simão e S. Judas
         </Link>{" "}
         .
-      </Text>
+      </Typography>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ef. 4, 7-13</Text>
+      <Typography className="em">Ef. 4, 7-13</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da do B. Ap.º Paulo aos Efésios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Unicuíque nostrum data est grátia secúndum mensúram
           donatiónis Christi. Propter quod dicit: Ascéndens in altum captívam
           duxit captivitátem: dedit dona homínibus. Quod autem ascéndit, quid
@@ -41,8 +41,8 @@ export default function PageApostolos() {
           ædificatiónem córporis Christi: donec occurrámus omnes in unitátem
           fídei et agnitiónis Fílii Dei, in virum perféctum, in mensúram ætatis
           plenitúdinis Christi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: A graça foi dada a cada um de nós segundo a medida do dom
           de Jesus Cristo. É por isso que a Escritura diz: «Subindo ao céu, Ele
           levou consigo muitos cativos e distribuiu dons pelos homens». Mas,
@@ -55,87 +55,87 @@ export default function PageApostolos() {
           Cristo, até que nós todos cheguemos à unidade, da fé e do conhecimento
           do Filho de Deus, ao estado da perfeição humana, à medida da plenitude
           de Cristo.
-        </Text>
+        </Typography>
       </Language>
 
       <H2 text="Missa de Todos os S. S. Apóstolos" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Para Quarta-feira Dentro do Tempo Pascal Tudo como na Missa precedente,
         excepto o seguinte:
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 63, 3</Text>
+      <Typography className="em">Sl. 63, 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Protexísti me, Deus, a convéntu malignántium, allelúja: a multitúdine
           operántium iniquitátem, allelúja, allelúja.{" "}
-          <Text className="latin">Ps. ib., 2</Text> Exáudi, Dómine, orationem
+          <Typography className="latin">Ps. ib., 2</Typography> Exáudi, Dómine, orationem
           meam, cum déprecor: a timóre inimíci éripe ánimam meam.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, livrastes-me da companhia dos maus, aleluia: livrastes-me do
           meio daqueles que procedem com iniquidade. Aleluia, aleluia.{" "}
-          <Text className="vernacular">Sl. ib., 2</Text> Senhor, quando eu Vos
+          <Typography className="vernacular">Sl. ib., 2</Typography> Senhor, quando eu Vos
           invocar, ouvi a minha oração: livrai a minha alma do temor do inimigo.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
-      <Text className="aside">Depois da Epistola:</Text>
+      <Typography className="aside">Depois da Epistola:</Typography>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 88, 6</Text> Confitebúntur cœli mirabília
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 88, 6</Typography> Confitebúntur cœli mirabília
           tua, Dómine: étenim veritátem tuam in ecclésia sanctórum. Allelúja.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Joann. 15, 16</Text> Ego vos elégi de mundo, ut
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Joann. 15, 16</Typography> Ego vos elégi de mundo, ut
           eátis, et fructum afferátis, et fructus vester máneat. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 88, 6</Text> Senhor, os céus
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 88, 6</Typography> Senhor, os céus
           proclamam as vossas maravilhas e a vossa verdade na assembleia dos
-          Santos. Aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="em">Jo. 15, 16</Text> Fui Eu quem vos escolheu no
+          Santos. Aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Jo. 15, 16</Typography> Fui Eu quem vos escolheu no
           mundo, a fim de que possais ir (pelo mundo), alcanceis frutos e esses
           frutos permaneçam Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 44, 17-18</Text>
+      <Typography className="em">Sl. 44, 17-18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Constítues eos príncipes super omnem terram: mémores erunt nóminis
           tui, Dómine, in omni progénie et generatióne, allelúja, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós os instituístes príncipes em toda a terra: eles se recordarão do
           vosso nome em todas as gerações. Aleluia, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 18, 5</Text>
+      <Typography className="em">Sl. 18, 5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In omnem terram exívit sonus eórum: et in fines orbis terræ verba
           eórum, allelúja, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O som da sua voz ecoa por toda a terra, fazendo-se ouvir as suas
           palavras até às extremidades do mundo, aleluia, aleluia.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

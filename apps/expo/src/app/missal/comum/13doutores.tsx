@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,56 +10,56 @@ export default function Page13Doutores() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Ecl. 15, 5</Text>
+      <Typography className="em">Ecl. 15, 5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu
           sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (T. P. Allelúja,
-          allelúja.) <Text className="latin">Ps. 91, 2</Text> Bonum est
+          allelúja.) <Typography className="latin">Ps. 91, 2</Typography> Bonum est
           confitéri Dómino: et psállere nómini tuo, Altíssime.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Abriu-lhe o Senhor a boca no meio da Igreja, encheu-o com o espírito
           da sabedoria e da inteligência e revestiu-o com a túnica da glória.
           (T. P. Aleluia, aleluia.){" "}
-          <Text className="vernacular">Sl. 91, 2</Text> É bom louvar o Senhor: e
+          <Typography className="vernacular">Sl. 91, 2</Typography> É bom louvar o Senhor: e
           cantar hinos em honra do vosso nome, ó Altíssimo!
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui pópulo tuo ætérnæ salútis beátum{" "}
-          <Text className="latin">N.</Text> minístrum tribuísti: præsta,
+          <Typography className="latin">N.</Typography> minístrum tribuísti: præsta,
           quǽsumus; ut, quem Doctórem vitæ habúimus in terris, intercessórem
           habére mereámur in cœlis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que ao vosso povo destinastes o B.{" "}
-          <Text className="vernacular">N.</Text> para ministro da eterna
+          <Typography className="vernacular">N.</Typography> para ministro da eterna
           salvação, concedei-nos, Vos suplicamos, que, assim como o tivemos como
           Doutor durante a nossa vida na terra, assim gozemos a sua intercessão
           no céu. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">2, Tm. 4, 1-8</Text>
+      <Typography className="em">2, Tm. 4, 1-8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Timotheum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo a Timóteo.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Caríssime: Testíficor coram Deo, et Jesu Christo, qui judicatúrus est
           vi vos et mórtuos, per advéntum ipsíus et regnum ejus: prǽdica verbum,
           insta opportúne, importune: árgue, óbsecra, íncrepa in omni patiéntia,
@@ -72,8 +72,8 @@ export default function Page13Doutores() {
           In réliquo repósita est mihi coróna justítiæ, quam reddet mihi Dóminus
           in illa die, justus judex: non solum autem mihi, sed et iis, qui
           díligunt advéntum ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimo: Conjuro-te diante de Deus e de Jesus Cristo, que há-de
           julgar vivos e mortos na sua vinda e no seu reino, a que pregues a
           palavra; instes oportuna e inoportunamente; repreendas; supliques; e
@@ -89,98 +89,98 @@ export default function Page13Doutores() {
           que me está reservada, a qual o Senhor, como justo juiz, me dará no
           grande dia: e não somente a mim, mas também àqueles que amam a sua
           vinda.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 36, 30-31</Text>
+      <Typography className="em">Sl. 36, 30-31</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.
-          <Text className="versicle"> ℣. </Text>Lex Dei ejus in corde ipsíus: et
+          <Typography className="versicle"> ℣. </Typography>Lex Dei ejus in corde ipsíus: et
           non supplantabúntur gressus ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A boca do justo falará com sabedoria e a sua língua proclamará a
-          justiça.<Text className="versicle"> ℣. </Text>A lei do seu Deus está
+          justiça.<Typography className="versicle"> ℣. </Typography>A lei do seu Deus está
           sempre no seu coração e os seus pés não tropeçarão.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Eccli. 45, 9</Text> Amávit eum Dóminus, et
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Eccli. 45, 9</Typography> Amávit eum Dóminus, et
           ornávit eum: stolam glóriæ índuit eum. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Ecl. 45, 9</Text> Amou-o o Senhor e
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Ecl. 45, 9</Typography> Amou-o o Senhor e
           revestiu-o com a túnica da glória. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
-      </Text>
+      </Typography>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 111, 1-3</Text>
+      <Typography className="em">Sl. 111, 1-3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Potens in terra erit semen ejus: generátio rectórum benedicétur.
-          <Text className="versicle"> ℣. </Text>Glória et divítiæ in domo ejus:
+          <Typography className="versicle"> ℣. </Typography>Glória et divítiæ in domo ejus:
           et justítia ejus manet in sǽculum sǽculi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bem-aventurado o varão que teme o Senhor e que emprega todo o zelo em
-          obedecer-Lhe.<Text className="versicle"> ℣. </Text>Sua descendência
+          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua descendência
           será poderosa na terra, pois a geração dos justos será abençoada.
-          <Text className="versicle"> ℣. </Text>Na sua casa haverá glória e
+          <Typography className="versicle"> ℣. </Typography>Na sua casa haverá glória e
           riqueza: e a sua justiça subsistirá em todos os séculos dos séculos.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         No T. Pascal omite-se o Gradual e o Trato e diz-se:
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Eccli. 45, 9</Text> Amávit eum Dóminus, et
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Eccli. 45, 9</Typography> Amávit eum Dóminus, et
           ornávit eum: stolam glóriæ índuit eum. Allelúja.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Osee 14, 6</Text> Justus germinábit sicut lílium:
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Osee 14, 6</Typography> Justus germinábit sicut lílium:
           et florébit in ætérnum ante Dóminum. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Ecl. 45, 9</Text> Amou-o o Senhor,
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Ecl. 45, 9</Typography> Amou-o o Senhor,
           ornou-o e revestiu-o com a túnica da glória. Aleluia.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Os. 14, 6</Text> O justo germinará, como o lírio,
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Os. 14, 6</Typography> O justo germinará, como o lírio,
           e florescerá para sempre diante do Senhor. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 5, 13-19</Text>
+      <Typography className="em">Mt. 5, 13-19</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Vos estis sal terræ.
           Quod si sal evanúerit, in quo saliétur? Ad níhilum valet ultra, nisi
           ut mittátur foras, et conculcétur ab homínibus. Vos estis lux mundi.
@@ -194,8 +194,8 @@ export default function Page13Doutores() {
           fiant. Qui ergo solvent unum de mandátis istis mínimis, et docúerit
           sic hómines, mínimus vocábitur in regno cœlórum: qui autem fécerit et
           docúerit, hic magnus vocábitur in regno cœlórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus a seus discípulos: «Sois o sal da terra. Se
           o sal perde a força, com que salgará? Para nada mais presta, senão
           para se lançar fora e ser pisado pelos homens. Sois a luz do mundo.
@@ -210,83 +210,83 @@ export default function Page13Doutores() {
           ainda um dos mais pequenos mandamentos, ou ensine os homens a
           violá-los, será chamado o menor no reino dos céus. Porém, quem os
           cumprir e ensinar será chamado grande no reino dos céus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 91, 13</Text>
+      <Typography className="em">Sl. 91, 13</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Justus ut palma florébit: sicut cedrus, quæ in Líbano est
           multiplicábitur. (T. P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O justo florescerá, como a palmeira, e crescerá, como o cedro do
           Líbano. (T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
-          Sancti <Text className="latin">N.</Text> Pontíficis tui at que
+        <Typography className="latin">
+          Sancti <Typography className="latin">N.</Typography> Pontíficis tui at que
           Doctóris nobis, Dómine, pia non desit orátio: quæ et múnera nostra
           concíliet; et tuam nobis indulgéntiam semper obtíneat. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, que a piedosa oração de Santo{" "}
-          <Text className="vernacular">N.</Text> vosso Pontífice e Doutor, nos
+          <Typography className="vernacular">N.</Typography> vosso Pontífice e Doutor, nos
           não abandone, e que por ela as nossas ofertas Vos sejam agradáveis e
           alcancemos benigna e continuamente a vossa misericórdia. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Lc. 12, 42</Text>
+      <Typography className="em">Lc. 12, 42</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Fidélis servus et prudens, quem constítuit dóminus super famíliam
           suam: ut det illis in témpore trítici mensúram. (T. P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O servo fiel e prudente é destinado pelo Senhor para distribuir,
           oportunamente, na sua família a cada um a sua medida de trigo. (T. P.
           Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ut nobis, Dómine, tua sacrifícia dent salútem: beátus{" "}
-          <Text className="latin">N.</Text> Póntifex tuus et Doctor egrégius,
+          <Typography className="latin">N.</Typography> Póntifex tuus et Doctor egrégius,
           quǽsumus, precátor accédat. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Senhor, dignai-Vos conceder-nos que o B.{" "}
-          <Text className="vernacular">N.</Text>, vosso Pontífice e ilustre
+          <Typography className="vernacular">N.</Typography>, vosso Pontífice e ilustre
           Doutor, seja nosso intercessor perante Vós, a fim de que este
           sacrifício nos alcance a salvação. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">Outra Epístola (para certos dias):</Text>
+      <Typography className="aside">Outra Epístola (para certos dias):</Typography>
 
       <H3 text="Epístola2" />
 
-      <Text className="em">Ecl. 39, 6-14</Text>
+      <Typography className="em">Ecl. 39, 6-14</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Sapiéntiæ.</Text>
-        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="latin">
           Justus cor suum tradet ad vigilándum dilúculo ad Dóminum, qui fecit
           illum, et in conspéctu Altíssimi deprecábitur. Apériet os suum in
           oratióne, et pro delíctis suis deprecábitur. Si enim Dóminus magnus
@@ -298,8 +298,8 @@ export default function Page13Doutores() {
           sapiéntiam ejus, et usque in sǽculum non delébitur. Non recédet
           memória ejus, et nomen ejus requirétur a generatióne in generatiónem.
           Sapiéntiam ejus enarrábunt gentes, et laudem ejus enuntiábit ecclésia.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O justo aplicará o seu coração e vigiará desde o romper do dia para se
           unir ao Senhor, que o criou, e oferecer as suas preces ao Altíssimo.
           Abrirá a sua boca para orar e implorar o perdão dos seus pecados;
@@ -312,7 +312,7 @@ export default function Page13Doutores() {
           louvor de muitos e não cairá no esquecimento. Sua memória se não
           apagará. Seu nome será honrado de geração em geração. As nações
           publicarão a sua sabedoria e a Igreja anunciará os seus louvores.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

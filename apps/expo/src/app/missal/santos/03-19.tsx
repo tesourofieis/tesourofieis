@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -11,46 +11,46 @@ export default function Page0319() {
       <H3 text="Intróito" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Justus ut palma florébit: sicut cedrus Líbani multiplicábitur:
           plantátus in domo Dómini: in átriis domus Dei nostri. (T. P. Allelúja,
-          allelúja.) <Text className="latin">Ps. ibid., 2</Text> Bonum est
+          allelúja.) <Typography className="latin">Ps. ibid., 2</Typography> Bonum est
           confiteri Dómino: et psállere nómini tuo, Altíssime.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           O justo florescerá, como a palmeira, e multiplicar-se-á, como o cedro
           do Líbano: Ele está plantado na casa do Senhor, nos átrios da casa do
-          nosso Deus. <Text className="vernacular">Sl. ibid., 2</Text> É bom
+          nosso Deus. <Typography className="vernacular">Sl. ibid., 2</Typography> É bom
           louvar o Senhor: e cantar hinos em honra do vosso nome, ó Altíssimo.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sanctíssimæ Genetrícis tuæ Sponsi, quǽsumus. Dómine, méritis
           adjuvémur: ut, quod possibílitas nostra non óbtinet, ejus nobis
           intercessióne donétur: Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicamos, permiti que sejamos auxiliados pelos méritos
           do Esposo da vossa Santíssima Mãe, a fim de que aquelas graças que não
           temos possibilidade de obter por causa da nossa fraqueza as alcancemos
           pela sua intercessão. Ó Vós, que viveis e reinais...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ecl. 45, 1-6</Text>
+      <Typography className="em">Ecl. 45, 1-6</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Sapiéntiæ.</Text>
-        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="latin">
           Diléctus Deo et homínibus, cujus memória in benedictióne est. Símilem
           illum fecit in glória sanctórum, et magnificávit eum in timóre
           inimicórum, et in verbis suis monstra placávit. Glorificávit illum in
@@ -59,8 +59,8 @@ export default function Page0319() {
           elégit eum ex omni carne. Audívit enim eum et vocem ipsíus, et indúxit
           illum in nubem. Et dedit illi coram præcépta, et legem vitæ et
           disciplínæ.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Foi amado de Deus e dos homens; a sua memória é uma bênção. O Senhor
           deu-lhe uma glória, semelhante à dos Santos; tornou-o temeroso e
           invencível perante seus inimigos; e com suas palavras aplacou os
@@ -69,86 +69,86 @@ export default function Page0319() {
           pela sua fé e mansidão; e escolheu-o entre todos os homens. Deus
           escutou-o; ouviu a sua voz; e fê-lo entrar na nuvem. Então, deu-lhe
           face a face os seus preceitos e a lei da vida e da doutrina.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 20, 4-5</Text>
+      <Typography className="em">Sl. 20, 4-5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in
           cápite ejus corónam de lápide pretióso.
-          <Text className="versicle"> ℣. </Text>Vitam pétiit a te, et tribuísti
+          <Typography className="versicle"> ℣. </Typography>Vitam pétiit a te, et tribuísti
           ei longitúdinem diérum in sǽculum sǽculi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, concedestes-lhe bênçãos escolhidas as mais suaves; e
           impusestes na sua cabeça uma coroa de pedras preciosas.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Concedestes-lhe a vida, que ele Vos suplicara, e prolongastes-lhe a
           duração dos seus dias pelos séculos dos séculos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 111, 1-3</Text>
+      <Typography className="em">Sl. 111, 1-3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Potens in terra erit semen ejus: generátio rectórum benedicétur.
-          <Text className="versicle"> ℣. </Text>Glória et divítiæ in domo ejus:
+          <Typography className="versicle"> ℣. </Typography>Glória et divítiæ in domo ejus:
           et justítia ejus manet in sǽculum sǽculi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bem-aventuradourado o varão que teme o Senhor e que emprega todo o
           zelo em obedecer-Lhe. Sua descendência será poderosa na terra; pois a
           geração dos justos será abençoada. Na sua casa haverá glória e
           riqueza: e a sua justiça subsistirá em todos os séculos dos séculos.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         No Tempo da Quaresma, omite-se o Gradual e o Trato e diz-se:
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Eccli. 45, 9</Text> Amávit eum Dóminus, et
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Eccli. 45, 9</Typography> Amávit eum Dóminus, et
           ornávit eum: stolam glóriæ índuit eum. Allelúja.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Osee 14, 6</Text> Justus germinábit sicut lílium:
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Osee 14, 6</Typography> Justus germinábit sicut lílium:
           et florébit in ætérnum ante Dóminum. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Ecl. 45, 9</Text> O Senhor o amou e
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Ecl. 45, 9</Typography> O Senhor o amou e
           adornou: e revestiu-o com uma túnica de glória. Aleluia.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Os. 14, 6</Text> O justo florescerá, como a
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Os. 14, 6</Typography> O justo florescerá, como a
           palmeira, e crescerá, como o cedro do Líbano.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 1, 18-21</Text>
+      <Typography className="em">Mt. 1, 18-21</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Cum esset desponsáta Mater Jesu María Joseph, ántequam convenírent,
           invénta est in útero habens de Spíritu Sancto. Joseph autem, vir ejus,
           cum esset justus et nollet eam tradúcere, vóluit occúlte dimíttere
@@ -157,8 +157,8 @@ export default function Page0319() {
           tuam: quod enim in ea natum est, de Spíritu Sancto est. Páriet autem
           fílium, et vocábis nomen ejus Jesum: ipse enim salvum fáciet pópulum
           suum a peccátis eórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, estando Maria, Mãe de Jesus, desposada com José, achou
           este que, sem que os dois houvessem coabitado, havia ela concebido por
           obra do Espírito Santo. Então José, seu marido, que era justo e não
@@ -168,71 +168,71 @@ export default function Page0319() {
           que ela gerou vem do Espírito Santo. Ela dará à luz um filho, e tu Lhe
           darás o nome de Jesus, O qual salvará o seu povo, livrando-o dos seus
           pecados».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 88, 25</Text>
+      <Typography className="em">Sl. 88, 25</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur
           cornu ejus. (T. P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A minha verdade e a minha misericórdia estarão com ele; e o seu poder
           será exaltado em meu nome. (T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Débitum tibi, Dómine, nostræ réddimus servitútis, supplíciter
           exorántes: ut, suffrágiis beáti Joseph, Sponsi Genetrícis Fílii tui
           Jesu Christi, Dómini nostri, in nobis tua múnera tueáris, ob cujus
           venerándam festivitátem laudis tibi hóstias immolámus. Per eúndem
           Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos oferecemos, Senhor, o justo tributo da nossa servidão, e
           instantemente Vos suplicamos queirais conservar em nós os vossos dons
           pela intercessão do B. José, Esposo da Mãe de Jesus Cristo, vosso
           Filho e nosso Senhor, em cuja festa, que celebramos, imolamos nossas
           hóstias em vossa honra. Pelo mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 1, 20</Text>
+      <Typography className="em">Mt. 1, 20</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Joseph, fili David, noli timére accípere Maríam cónjugem tuam: quod
           enim in ea natum est, de Spíritu Sancto est. (T. P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           José, filho de David, não temas receber Maria como tua esposa, porque
           Aquele que ela gerou vem do Espírito Santo. (T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Adésto nobis, quǽsumus, miséricors Deus: et, intercedénte pro nobis
           beáto Joseph Confessóre, tua circa nos propitiátus dona custódi. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Assisti-nos, ó Deus de misericórdia, Vos suplicamos; e pela
           intercessão do B. José, Confessor, dignai-Vos propício conservar em
           nós os vossos dons. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

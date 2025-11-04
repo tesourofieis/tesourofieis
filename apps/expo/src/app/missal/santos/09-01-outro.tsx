@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -8,12 +8,12 @@ export default function Page0901Outro() {
     <PageWrapper>
       <H1 text="S. S. Doze Irmãos, Mártires, a 1 de Setembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Africanos pelo nascimento, estes Santos foram martirizados em lugares
         diferentes, no III século, sob os imperadores Diocleciano e Maximiano.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/santos/03-10">
           Missa de Os Quarenta Mártires
@@ -23,7 +23,7 @@ export default function Page0901Outro() {
           Comemoração dos S. S. Macabeus, Mártires,
         </Link>{" "}
         a 1 de Agosto.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

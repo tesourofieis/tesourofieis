@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -10,7 +10,7 @@ export default function Page0626() {
     <PageWrapper>
       <H1 text="S. S. João e Paulo, Mártires, a 26 de Junho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Os dois irmãos João e Paulo eram Romanos e serviam à Constância, filha
         de Constantino. Juliano o Apóstata, convidou-os a tomar parte entre os
         seus familiares, eles, porém, recusaram a fim de guardar a Jesus a sua
@@ -31,7 +31,7 @@ export default function Page0626() {
         com a Igreja pelo trinfo de São João e de São Paulo (Or.) e,
         imitando-os, confessemos a fé em Jesus, diante dos homens, e Ele nos
         reconhecerá como seus, em presença de seus Anjos (Ev.).
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
@@ -43,28 +43,28 @@ export default function Page0626() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quǽsumus, omnípotens Deus: ut nos gemináta lætítia hodiérnæ
           festivitátis excípiat, quæ de beatórum Joánnis et Pauli glorificatióne
           procédit; quos eadem fides et pássio vere fecit esse germános. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Senhor omnipotente, Vos rogamos, permiti que participemos da alegria
           desta dupla festa, neste dia em que são glorificados os B. B. João e
           Paulo, que a mesma fé e o mesmo martírio tornaram verdadeiramente
           irmãos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ecl. 44, 10-15</Text>
+      <Typography className="em">Ecl. 44, 10-15</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Sapiéntiæ.</Text>
-        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="latin">
           Hi viri misericórdiæ sunt, quorum pietátes non defuérunt: cum semine
           eórum pérmanent bona, heréditas sancta nepótes eórum, et in
           testaméntis stetit semen eórum: et fílii eórum propter illos usque in
@@ -72,8 +72,8 @@ export default function Page0626() {
           ipsórum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et
           generatiónem. Sapiéntiam ipsórum narrent pópuli, et laudem eórum
           núntiet Ecclésia.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           São homens de misericórdia e as obras da sua piedade não faltaram. Os
           bens, que deixaram à posteridade, permanecerão sempre. Seus
           descendentes constituirão uma herança sagrada; a sua raça manterá a
@@ -82,33 +82,33 @@ export default function Page0626() {
           glória. Seus corpos foram sepultados em paz e o seu nome vive em todas
           as gerações. Que os povos, pois, publiquem a sua sabedoria e que a
           Igreja cante os seus louvores.
-        </Text>
+        </Typography>
       </Language>
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 132, 1-2</Text>
+      <Typography className="em">Sl. 132, 1-2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ecce, quam bonum et quam jucúndum, habitáre fratres in unum!
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Sicut unguéntum in cápite, quod descéndit in barbam, barbam Aaron.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ah! como é bom e consolador que os irmãos habitem juntamente.
-          <Text className="versicle"> ℣. </Text>É como o perfume espalhado na
+          <Typography className="versicle"> ℣. </Typography>É como o perfume espalhado na
           cabeça, que desceu sobre a barba de Aarão.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Hæc est vera
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Hæc est vera
           fratérnitas, quæ vicit mundi crímina: Christum secúta est, ínclita
           tenens regna cœléstia. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Esta é a
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Esta é a
           verdadeira fraternidade que venceu os crimes do mundo: ela seguiu
           Cristo e por isso possuirá gloriosamente o reino do céu. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -120,66 +120,66 @@ export default function Page0626() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 5, 12-13</Text>
+      <Typography className="em">Sl. 5, 12-13</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Gloriabúntur in te omnes, qui díligunt nomen tuum, quóniam tu, Dómine,
           benedíces justo: Dómine, ut scuto bonæ voluntátis tuæ coronásti nos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Todos aqueles que amam o vosso nome, Senhor, serão glorificados
           convosco, pois abençoais o justo. Vós o protegereis, Senhor, com vossa
           boa vontade, como se fora um escudo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hóstias tibi, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli
           dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue
           proveníre subsídium. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aceitai benigno, Senhor, as hóstias que Vos oferecemos pelos méritos
           dos vossos Santos Mártires João e Paulo e dignai-Vos, em virtude
           delas, fazer descer sobre nós o vosso perpétuo socorro. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sb. 3, 4, 5 & 6</Text>
+      <Typography className="em">Sb. 3, 4, 5 & 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Est si coram homínibus torménta passi sunt, Deus tentavit eos: tamquam
           aurum in fornáce probávit eos, et quasi holocáusta accépit eos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Se sofreram tormentos diante dos homens, foi porque Deus os provou.
           Deus provou-os, como ao ouro, na fornalha, e recebeu-os, como hóstia
           de holocausto.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Súmpsimus, Dómine, sanctórum Martyrum tuórum Joánnis et Pauli
           sollémnia celebrántes, sacraménta cœléstia: præsta, quǽsumus; ut, quod
           temporáliter gérimus, ætérnis gáudiis consequámur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Recebemos, Senhor, os vossos celestiais sacramentos, celebrando a
           festa dos vossos Santos Mártires João e Paulo; e concedei-nos, Vos
           suplicamos, que alcancemos nos gozos eternos o que agora celebrámos.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

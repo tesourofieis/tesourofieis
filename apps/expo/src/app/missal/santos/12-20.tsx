@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page1221() {
     <PageWrapper>
       <H1 text="Vigília S. Tomé, Apóstolo, a 20 de Dezembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         A festa de S. Tomé é precedida por uma Vigília, como quase todas as
         festas dos Apóstolos, para melhor preparação de nossa alma. O Evangelho
         lembra a vocação do grande Apóstolo que teve a felicidade de ouvir
@@ -22,7 +22,7 @@ export default function Page1221() {
         deu-lhe a sua parte de herança entre as doze tribos». O pais dos Parthas
         e dos Persas coube a S. Tomé, quando os Apóstolos se dividiram o mundo.
         Em união com a Santa Igreja, preparemo-nos para a solenidade de amanhã.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

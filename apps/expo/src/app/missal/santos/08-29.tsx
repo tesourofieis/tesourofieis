@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ export default function Page0829() {
     <PageWrapper>
       <H1 text="Degolação de S. João Baptista, a 29 de Agosto" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Tendo celebrado, a 24 de Junho, a alegre vinda de S. João Baptista à
         terra, a Igreja honra hoje o seu glorioso nascimento para o céu. A
         excepção de Nosso Senhor e da Santíssima Virgem, é o unico Santo de quem
@@ -26,69 +26,69 @@ export default function Page0829() {
         morto proximo à festa de Páscoa, um ano antes da paixão de Jesus mas
         celebra-se esse aniversário no dia em que sua venerável cabeça foi
         encontrada em Emesa, na Syria, no anno de 453.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 118, 46-47</Text>
+      <Typography className="em">Sl. 118, 46-47</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Loquébar de testimóniis tuis in conspéctu regum, et non confundébar:
           et meditábar in mandátis tuis, quæ diléxi nimis.{" "}
-          <Text className="latin">Ps. 91, 2</Text> Bonum est confitéri Dómino:
+          <Typography className="latin">Ps. 91, 2</Typography> Bonum est confitéri Dómino:
           et psállere nómini tuo, Altíssime.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Falava na presença dos reis sobre a vossa lei e não me envergonhava:
           meditava nos vossos mandamentos, que muito amei.{" "}
-          <Text className="vernacular">Sl. 91, 2</Text> É bom louvar o Senhor e
+          <Typography className="vernacular">Sl. 91, 2</Typography> É bom louvar o Senhor e
           cantar hinos em honra do vosso nome, ó Altíssimo.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sancti Joánnis Baptístæ Præcursóris et Martyris tui, quǽsumus, Dómine,
           veneránda festívitas: salutáris auxílii nobis præstet efféctum: Qui
           vivis et regnas...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Permiti, Senhor, Vos rogamos, que a veneranda festividade de S. João
           Baptista, vosso Precursor e Mártir, nos alcance o efeito do vosso
           salutar auxílio. Ó Vós, que...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração Comemoração de Santa Sabina Santa Sabina" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui inter cétera poténtiæ tuæ mirácula étiam in sexu frágili
           victóriam martýrii contulísti: concéde propítius; ut, qui beátæ Sabínæ
           Mártyris tuæ natalítia cólimus, per ejus ad te exémpla gradiámur. Per
           Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que entre outros milagres do vosso poder permitistes que o
           sexo frágil alcançasse a vitória do martírio, concedei-nos propício
           que, venerando o nascimento da vossa B, Virgem e Mártir Sabina,
           caminhemos para Vós, imitando os seus exemplos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Jr. 1, 17-19</Text>
+      <Typography className="em">Jr. 1, 17-19</Typography>
 
       <Language>
-        <Text className="latin">Léctio Jeremíæ Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Jeremias.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Jeremíæ Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Jeremias.</Typography>
+        <Typography className="latin">
           In diébus illis: Factum est verbum Dómini ad me, dicens: Accínge
           lumbos tuos, et surge, et lóquere ad Juda ómnia, quæ ego præcípio
           tibi. Ne formides a fácie eórum: nec enim timére te fáciam vultum
@@ -97,8 +97,8 @@ export default function Page0829() {
           princípibus ejus, et sacerdótibus, et pópulo terræ. Et bellábunt
           advérsum te, et non prævalebunt: quia ego tecum sum, ait Dóminus, ut
           líberem te.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, o Senhor falou-me e disse-me: «Cinge os teus rins,
           levanta-te e diz à Judeia tudo quanto te ordenar. Não temas aparecer
           diante deles, porque farei que tu não tenhas medo. Formei-te hoje como
@@ -106,52 +106,52 @@ export default function Page0829() {
           em toda a terra, diante dos reis de Judá, dos seus príncipes, dos seus
           sacerdotes e do seu povo. Eles combaterão contra ti, mas não
           triunfarão, pois estou contigo para te livrar», diz o Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 91, 13 & 14</Text>
+      <Typography className="em">Sl. 91, 13 & 14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo
-          Dómini.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 3</Text> Ad annuntiándum mane
+          Dómini.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 3</Typography> Ad annuntiándum mane
           misericórdiam tuam, et veritátem tuam per noctem.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O justo florescerá, como a palmeira, e crescerá, como o cedro do
-          Líbano, na casa do Senhor.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 3</Text> Para publicar de manhã a
+          Líbano, na casa do Senhor.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 3</Typography> Para publicar de manhã a
           vossa misericórdia; e de noite a vossa verdade.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Osee 14, 6</Text> Justus germinábit sicut
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Osee 14, 6</Typography> Justus germinábit sicut
           lílium: et florébit in ætérnum ante Dóminum. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Os. 14, 6</Text> O justo germinará, como
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Os. 14, 6</Typography> O justo germinará, como
           o lírio, e florescerá eternamente perante o Senhor. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mc. 6, 17-29</Text>
+      <Typography className="em">Mc. 6, 17-29</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Marcum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Marcos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Misit Heródes, ac ténuit Joánnem, et vinxit eum in
           cárcere propter Herodíadem, uxorem Philíppi fratris sui, quia dúxerat
           eam. Dicebat enim Joánnes Heródi: Non licet tibi habére uxórem fratris
@@ -172,8 +172,8 @@ export default function Page0829() {
           eum in cárcere. Et áttulit caput ejus in disco: et dedit illud puéllæ,
           et puella dedit matri suæ. Quo audíto, discípuli ejus venérunt et
           tulérunt corpus ejus: et posueérunt illud in monuménto.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, mandou Herodes prender João, ligá-lo e metê-lo no
           cárcere, para agradar a Herodíade, mulher de Filipe, seu irmão, a qual
           ele havia desposado. Ora, João dizia a Herodes: «Não te é lícito tomar
@@ -197,97 +197,97 @@ export default function Page0829() {
           cortou-lhe a cabeça na prisão, colocou-a em um prato, deu-a à filha de
           Herodíade e esta deu-a a sua mãe. Ouvindo isto, os discípulos vieram,
           levaram o seu corpo e colocaram-no em um túmulo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 20, 2-3</Text>
+      <Typography className="em">Sl. 20, 2-3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In virtúte tua, Dómine, lætábitur justus, et super salutáre tuum
           exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O justo, Senhor, alegrar-se-á com vosso poder e rejubilará, vendo-se
           salvo por Vós: concedestes-lhe o desejo do seu coração.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Múnera, quæ tibi, Dómine, pro sancti Martyris tui Joánnis Baptístæ
           passióne deférimus: quǽsumus; ut ejus obténtu nobis profíciant ad
           salútem. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos apresentamos, Senhor, estas oblatas em honra dos sofrimentos do
           vosso santo Mártir João Baptista, e, Vos suplicamos, fazei pelos seus
           méritos que sirvam de proveito à nossa salvação. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta Comemoração de Santa Sabina Santa Sabina" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hóstias tibi, Dómine, beátæ Sabínæ Mártyris tuæ dicátas méritis,
           benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aceitai benignamente, Senhor, as hóstias que Vos oferecemos pelos
           méritos da B. Virgem e Mártir Sabina, e dignai-Vos permitir que ela
           nos sirva de perpétuo auxílio. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 20, 4</Text>
+      <Typography className="em">Sl. 20, 4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Posuísti, Dómine, in cápite ejus corónam de lápide pretióso.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, colocastes na sua cabeça uma coroa de pedras preciosas.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cónferat nobis, Dómine, sancti Joánnis Baptístæ sollémnitas: ut et
           magnífica sacraménta, quæ súmpsimus, significáta venerémur, et in
           nobis pótius édita gaudeámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que a solenidade de S. João Baptista, Senhor, nos alcance a graça de
           venerarmos nos augustos sacramentos, que recebemos, o que as
           aparências dos mesmos significam; e, mais ainda, de gozarmos a alegria
           de os haver recebido. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio Comemoração de Santa Sabina Santa Sabina" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Divíni muneris largitáte satiáti, quǽsumus, Dómine, Deus noster: ut,
           intercedénte beáta Sabína Mártyre tua, in ejus semper participatióne
           vivámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Saciados com a liberalidade do dom divino, ó Senhor, nosso Deus, Vos
           suplicamos pela intercessão da B. Virgem Sabina, vossa Mártir, que
           durante a nossa vida comparticipemos sempre deste dom divino. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

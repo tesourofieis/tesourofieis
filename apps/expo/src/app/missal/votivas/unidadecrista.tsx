@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,58 +10,58 @@ export default function PageUnidadecrista() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 105, 47</Text>
+      <Typography className="em">Sl. 105, 47</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Salvos nos fac, Dómine, Deus noster, et cóngrega nos de natiónibus: ut
           confiteámur nómini sancto tuo, et gloriémur in laude tua. (T. P.
-          Allelúja, allelúja.) <Text className="latin">Ps. ibid., 1</Text>{" "}
+          Allelúja, allelúja.) <Typography className="latin">Ps. ibid., 1</Typography>{" "}
           Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia
           ejus.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Salvai-nos, Senhor, Deus nosso, e uni-nos entre as nações, para
           confessarmos o vosso nome e alegrarmo-nos com vossos louvores. (T. P.
-          Aleluia, aleluia.) <Text className="vernacular">Sl. ibid., 1</Text>{" "}
+          Aleluia, aleluia.) <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
           Glorificai o Senhor, porque Ele é bom; porque a sua misericórdia é
           eterna.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui errata córrigis, et dispérsa cóngregas, et congregáta
           consérvas: quǽsumus, super pópulum christiánum tuæ uniónis grátiam
           cleménter infúnde; ut, divisióne rejécta, vero pastóri Ecclésiæ tuæ se
           úniens, tibi digne váleat famulári. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que corrigis os erros, unis o que anda disperso e conservais o
           que reunis, infundi clementemente sobre o povo cristão, Vos
           suplicamos, a graça da vossa união, a fim de que, terminadas as
           divisões e unindo-se ao verdadeiro Pastor da vossa Igreja, possa
           servir-Vos dignamente. Por...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ef. 4, 1-7 et 13-21</Text>
+      <Typography className="em">Ef. 4, 1-7 et 13-21</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Obsecro vos, ut digne ambulétis vocatióne, qua vocáti estis,
           cum omni humilitáte, et mansuetúdine, cum patiéntia, supportántes
           ínvicem in caritáte, sollíciti serváre unitátem spíritus in vínculo
@@ -85,8 +85,8 @@ export default function PageUnidadecrista() {
           impudicítia?, in operatiónem immundítiæ omnis, in avarítiam. Vos autem
           non ita didicístis Christum: si tamen illum audístis, et in ipso
           edócti estis, sicut est véritas in Christo Jesu, Dómino nostro.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Rogo-vos que procedais de modo digno da vocação a que
           fostes chamados, com toda a humildade, mansidão e paciência,
           suportando-vos reciprocamente com caridade e sendo solícitos em
@@ -111,98 +111,98 @@ export default function PageUnidadecrista() {
           todo o género de impureza. Não foi isto o que aprendestes em Cristo,
           se é que O ouvistes falar e fostes instruídos na verdade da doutrina
           de Jesus Cristo, nosso Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 121, 6-7</Text>
+      <Typography className="em">Sl. 121, 6-7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Rogáte quæ ad pacem sunt Jerúsalem: et abundántia diligéntibus te.
-          <Text className="versicle"> ℣. </Text>Fiat pax in virtúte tua: et
+          <Typography className="versicle"> ℣. </Typography>Fiat pax in virtúte tua: et
           abundántia in túrribus tuis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Rogai a paz para os que estão em Jerusalém: e a abundância para
-          aqueles que te amam.<Text className="versicle"> ℣. </Text>Reine a paz
+          aqueles que te amam.<Typography className="versicle"> ℣. </Typography>Reine a paz
           dentro dos teus muros e a abundância nas tuas fortalezas.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 147, 12</Text> Lauda, Jerúsalem, Dóminum:
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 147, 12</Typography> Lauda, Jerúsalem, Dóminum:
           lauda Deum tuum, Sion. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 147, 12</Text> Louva o Senhor, ó
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 147, 12</Typography> Louva o Senhor, ó
           Jerusalém; louva o teu Deus, ó Sião. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         Depois da Septuagésima omite-se o Aleluia e o Verso seguinte, e diz-se:
-      </Text>
+      </Typography>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 75, 2-4</Text>
+      <Typography className="em">Sl. 75, 2-4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Notus in Judǽa Deus, in Israël magnum nomen ejus.
-          <Text className="versicle"> ℣. </Text>Et factus est in pace locus
+          <Typography className="versicle"> ℣. </Typography>Et factus est in pace locus
           ejus, et habitátio ejus in Sion.
-          <Text className="versicle"> ℣. </Text>Ibi confrégit poténtias árcuum,
+          <Typography className="versicle"> ℣. </Typography>Ibi confrégit poténtias árcuum,
           scutum, gládium, et bellum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deus é conhecido na Judeia: e o seu nome é grande em Israel.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Sua habitação é no lugar da paz; a sua morada é em Sião.
-          <Text className="versicle"> ℣. </Text>Ali quebrou as forças do arco,
+          <Typography className="versicle"> ℣. </Typography>Ali quebrou as forças do arco,
           do escudo, da espada e dos combates.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         No Tempo Pascal omite-se o Gradual, e o Trato e diz-se:
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 147, 12</Text> Lauda, Jerúsalem, Dóminum:
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 147, 12</Typography> Lauda, Jerúsalem, Dóminum:
           lauda Deum tuum, Sion. Allelúja.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">ibid., 14</Text> Quid pósuit fines tuos pacem, et
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">ibid., 14</Typography> Quid pósuit fines tuos pacem, et
           ádipe fruménti sátiat te. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Ps. 147, 12</Text> Louva o Senhor, ó
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Ps. 147, 12</Typography> Louva o Senhor, ó
           Jerusalém; louva o teu Deus, ó Sião. Aleluia.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">ibid., 14</Text> Foi Ele quem estabeleceu a paz
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">ibid., 14</Typography> Foi Ele quem estabeleceu a paz
           nas tuas fronteiras; e te sacia com a flor da farinha. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 17, 1 & 11-23</Text>
+      <Typography className="em">Jo. 17, 1 & 11-23</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Sublevátis Jesus oculis in cœlum, dixit: Pater
           sancte, serva eos in nómine tuo, quos dedísti mihi: ut sint unum,
           sicut et nos. Cum essem cum eis, ego servábam eos in nómine tuo. Quos
@@ -221,8 +221,8 @@ export default function PageUnidadecrista() {
           misísti. Et ego claritátem, quam dedísti mihi, dedi eis, ut sint unum,
           sicut et nos unum sumus. Ego in eis, et tu in me, ut sint consummáti
           in unum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, erguendo Jesus os olhos para o céu, disse: «Pai santo,
           pelo vosso nome, guardai aqueles que me entregastes, a fim de que
           sejam um só, como nós. Quando estive com eles, guardei pelo vosso nome
@@ -243,68 +243,68 @@ export default function PageUnidadecrista() {
           dou-lhes a glória que Vós me destes, a fim de que eles sejam um, como
           nós somos um: Eu neles e Vós em mim, para que sejam consumados na
           unidade».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Rm. 15, 5-6</Text>
+      <Typography className="em">Rm. 15, 5-6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Det vobis Deus idípsum sápere in altérutrum: ut unánimes uno ore
           honorificétis Deum nostrum. (T. P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que Deus vos conceda uns para com os outros um unânime modo de sentir,
           de modo que possais unanimemente com uma só voz glorificar o nosso
           Deus. (T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Múnera hæc pro unióne pópuli christiáni tibi, Dómine, oblata
           sanctífica: per quæ unitátis et pacis in Ecclésia tua nobis dona
           concédas. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Santificai, Senhor, os dons que Vos oferecemos pela unidade do povo
           cristão, pelos quais, Vos pedimos, concedais à vossa Igreja a união e
           a paz. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">1 Cor. 10, 17</Text>
+      <Typography className="em">1 Cor. 10, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Unus panis, et unum corpus multi sumus, omnes, qui de uno pane et de
           uno cálice participámus. (T. P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ainda que sejamos muitos, formamos um só pão e um só corpo, e todos
           participamos de um só pão e um só cálice. (T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc tua, Dómine, sumpta sacra commúnio: sicut fidélium in te uniónem
           præsígnat; sic in tua Ecclésia unitátis, quǽsumus, operétur efféctum.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que esta sagrada comunhão, Senhor, assim como representa a união dos
           fiéis em Vós, assim, Vos suplicamos, produza desde já o efeito da
           unidade na vossa Igreja. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

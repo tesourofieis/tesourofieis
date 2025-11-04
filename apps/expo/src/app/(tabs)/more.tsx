@@ -1,3 +1,4 @@
+import { Typography } from "~/components/typography";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { usePathname, useRouter } from "expo-router";
 import React, {
@@ -11,7 +12,6 @@ import {
   ActivityIndicator,
   Animated,
   FlatList,
-  Text,
   TextInput,
   TouchableOpacity,
   useColorScheme,
@@ -52,12 +52,6 @@ const ANIMATION_DURATION = 200;
 const INITIAL_RENDER_COUNT = 8;
 const RENDER_BATCH_SIZE = 4;
 
-const debugLog = (message: string, data?: any) => {
-  if (__DEV__) {
-    console.log(`[ANCHOR DEBUG] ${message}`, data || "");
-  }
-};
-
 const normalize = (s: string) =>
   s
     .normalize("NFD")
@@ -70,7 +64,6 @@ const TreeItem = React.memo(
     level,
     expanded,
     toggleExpand,
-    isActive,
     searchHighlight,
     currentPathname,
     loadingIds,
@@ -80,7 +73,6 @@ const TreeItem = React.memo(
     level: number;
     expanded: Record<string, boolean>;
     toggleExpand: (id: string, children: boolean) => void;
-    isActive: boolean;
     searchHighlight?: string;
     currentPathname: string;
     loadingIds: string[];
@@ -96,13 +88,6 @@ const TreeItem = React.memo(
       if (children) {
         toggleExpand(doc.id, children);
       } else {
-        debugLog("TreeItem navigation", {
-          link: doc.url,
-          docId: doc.id,
-          anchor: undefined,
-          hasLink: !!doc.url,
-          hasTitle: !!doc.title,
-        });
         router.push({
           pathname: doc.url,
           params: { docId: doc.id },
@@ -121,7 +106,6 @@ const TreeItem = React.memo(
         level={level + 1}
         expanded={expanded}
         toggleExpand={toggleExpand}
-        isActive={item.url === currentPathname}
         searchHighlight={searchHighlight}
         currentPathname={currentPathname}
         loadingIds={loadingIds}
@@ -142,16 +126,16 @@ const TreeItem = React.memo(
             className="flex-row items-center"
           >
             <View className="flex-1" style={{ paddingLeft: level * 16 }}>
-              <Text className="vernacular">
+              <Typography className="vernacular">
                 {highlightText(doc.title, searchHighlight)}
-              </Text>
+              </Typography>
               {description && description !== doc.title && (
-                <Text
+                <Typography
                   className="text-pretty text-sepia-600 dark:text-sepia-300 text-xs mt-1"
                   numberOfLines={2}
                 >
                   {highlightText(description, searchHighlight)}
-                </Text>
+                </Typography>
               )}
             </View>
             <View className="mr-2">
@@ -193,7 +177,8 @@ const TreeItem = React.memo(
 );
 
 const highlightText = (text: string, highlight?: string) => {
-  if (!highlight || highlight.length < 2) return <Text>{text}</Text>;
+  if (!highlight || highlight.length < 2)
+    return <Typography>{text}</Typography>;
 
   const normalizedHighlight = normalize(highlight);
   const words = normalizedHighlight
@@ -207,7 +192,7 @@ const highlightText = (text: string, highlight?: string) => {
     result = result.replace(regex, "<mark>$1</mark>");
   });
 
-  if (result === text) return <Text>{text}</Text>;
+  if (result === text) return <Typography>{text}</Typography>;
 
   const parts = result.split(/(<mark>.*?<\/mark>)/g).filter(Boolean);
   return (
@@ -216,12 +201,12 @@ const highlightText = (text: string, highlight?: string) => {
         if (part.startsWith("<mark>") && part.endsWith("</mark>")) {
           const markedText = part.slice(6, -7);
           return (
-            <Text key={part + i + "mark"} className="bg-red-400 italic">
+            <Typography key={part + i + "mark"} className="bg-red-400 italic">
               {markedText}
-            </Text>
+            </Typography>
           );
         }
-        return <Text key={part + i}>{part}</Text>;
+        return <Typography key={part + i}>{part}</Typography>;
       })}
     </>
   );
@@ -231,22 +216,22 @@ const renderFTSHighlightedText = (text: string) => {
   if (!text) return null;
   const parts = text.split(/(<b>.*?<\/b>)/g).filter(Boolean);
   return (
-    <Text>
+    <Typography>
       {parts.map((part, i) => {
         if (part.startsWith("<b>") && part.endsWith("</b>")) {
           const highlightedContent = part.slice(3, -4);
           return (
-            <Text
+            <Typography
               key={part + i}
               className="bg-sepia-200 dark:bg-sepia-700 font-semibold"
             >
               {highlightedContent}
-            </Text>
+            </Typography>
           );
         }
-        return <Text key={part + i}>{part}</Text>;
+        return <Typography key={part + i}>{part}</Typography>;
       })}
-    </Text>
+    </Typography>
   );
 };
 
@@ -255,23 +240,13 @@ const SearchResultItem = React.memo(
     item,
     query,
     onPress,
-    isActive,
   }: {
     item: SearchResult;
     query: string;
     onPress: (item: Docs, headingId?: string) => void;
-    isActive: boolean;
   }) => {
-    const isDark = useColorScheme() === "dark";
-
     const handlePress = useCallback(
       (headingId?: string) => {
-        debugLog("SearchResultItem pressed", {
-          id: item.id,
-          title: item.title,
-          url: item.url,
-          headingId: headingId,
-        });
         onPress(item, headingId);
       },
       [item, onPress]
@@ -298,28 +273,30 @@ const SearchResultItem = React.memo(
         onPress={handleCardPress}
         className="rounded-xl mx-4 my-2 p-4 border-b border-sepia active:bg:sepia-200 dark:active:bg-sepia-800"
       >
-        <Text className="vernacular">
+        <Typography className="vernacular">
           {displayTitle
             ? renderFTSHighlightedText(displayTitle)
             : highlightText(item.title, query)}
-        </Text>
+        </Typography>
 
         {item.matchedHeading && (
-          <Text
+          <Typography
             className="text-pretty text-sm mt-1 font-medium"
             numberOfLines={1}
           >
             {highlightText(item.matchedHeading.title, query)}
-          </Text>
+          </Typography>
         )}
 
-        <Text className="text-pretty text-xs mt-1" numberOfLines={3}>
+        <Typography className="text-pretty text-xs mt-1" numberOfLines={3}>
           {highlightText(displaySnippet || fallbackSnippet, query)}
-        </Text>
+        </Typography>
 
         {item.content.headings.length > 1 && (
           <View className="mt-2">
-            <Text className="text-pretty text-xs italic">Outras secções:</Text>
+            <Typography className="text-pretty text-xs italic">
+              Outras secções:
+            </Typography>
             {item.content.headings
               .filter((heading) => heading.id !== item.matchedHeading?.id)
               .slice(0, 3)
@@ -329,12 +306,12 @@ const SearchResultItem = React.memo(
                   onPress={() => handlePress(heading.id)}
                   className="mt-1 ml-2"
                 >
-                  <Text
+                  <Typography
                     className="text-pretty text-sm underline"
                     numberOfLines={1}
                   >
                     {heading.title}
-                  </Text>
+                  </Typography>
                 </TouchableOpacity>
               ))}
           </View>
@@ -345,9 +322,9 @@ const SearchResultItem = React.memo(
             .split("/")
             .slice(0, -1)
             .map((path) => (
-              <Text className="text-ellipsis text-sepia-800 dark:text-sepia-200 text-xs px-2 py-1 mt-2 rounded-full bg-sepia-100 dark:bg-sepia-900">
+              <Typography className="text-ellipsis text-sepia-800 dark:text-sepia-200 text-xs px-2 py-1 mt-2 rounded-full bg-sepia-100 dark:bg-sepia-900">
                 {path}
-              </Text>
+              </Typography>
             ))}
         </View>
       </TouchableOpacity>
@@ -380,12 +357,7 @@ const SearchResults = React.memo(
 
     const renderItem = useCallback(
       ({ item }: { item: SearchResult }) => (
-        <SearchResultItem
-          item={item}
-          query={query}
-          onPress={onPress}
-          isActive={pathname === item.url}
-        />
+        <SearchResultItem item={item} query={query} onPress={onPress} />
       ),
       [query, onPress, pathname]
     );
@@ -423,15 +395,8 @@ export default function MoreScreen() {
     if (allDocs.length === 0) {
       const loadDocs = async () => {
         try {
-          debugLog("Loading initial docs...");
-
-          const docs = await getAllTopLevelDocs();
+          const docs = getAllTopLevelDocs();
           setAllDocs(docs);
-          debugLog("Initial docs loaded:", docs.length);
-          debugLog(
-            "Docs children:",
-            docs.map((i) => i.hasChildren)
-          );
         } catch (err) {
           console.error("Error loading initial docs:", err);
         }
@@ -461,15 +426,11 @@ export default function MoreScreen() {
       return;
     }
 
-    console.log("Search query:", searchQuery);
-
     setIsSearching(true);
 
     const timeoutId = setTimeout(async () => {
       try {
-        console.log("Starting search for:", searchQuery);
-        const searchResults = await search(searchQuery, 15);
-        console.log("Search results:", searchResults);
+        const searchResults = search(searchQuery, 15);
         setResults(searchResults);
       } catch (err) {
         console.error("Search error:", err);
@@ -494,7 +455,7 @@ export default function MoreScreen() {
         if (children && !childrenAlreadyLoaded) {
           setLoadingIds((prev) => [...prev, id]);
           try {
-            const children = await getChildren(id);
+            const children = getChildren(id);
             setAllDocs((prev) => [...prev, ...children]);
           } catch (err) {
             console.error("Error loading children:", err);
@@ -513,18 +474,12 @@ export default function MoreScreen() {
   const handleResultPress = useCallback(
     async (item: Docs, headingId?: string) => {
       try {
-        debugLog("handleResultPress called", {
-          itemId: item.id,
-          itemTitle: item.title,
-          itemUrl: item.url,
-          headingId: headingId,
-        });
         router.push({
           pathname: item.url,
           params: { docId: item.id, anchor: headingId },
         } as any);
       } catch (error) {
-        debugLog("Error in handleResultPress", error);
+        console.error("Error in handleResultPress", error);
       }
     },
     [router]
@@ -552,9 +507,9 @@ export default function MoreScreen() {
       return (
         <View className="flex-1 justify-center items-center">
           <ActivityIndicator size="large" className="text-red-500" />
-          <Text className="text-sepia-500 dark:text-sepia-400 mt-2">
+          <Typography className="text-sepia-500 dark:text-sepia-400 mt-2">
             A carregar documentos...
-          </Text>
+          </Typography>
         </View>
       );
     }
@@ -586,9 +541,9 @@ export default function MoreScreen() {
             size={24}
             color={isDark ? COLORS["300"] : COLORS["700"]}
           />
-          <Text className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
+          <Typography className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
             Nenhum resultado encontrado
-          </Text>
+          </Typography>
         </View>
       );
     }
@@ -603,7 +558,6 @@ export default function MoreScreen() {
             level={0}
             expanded={expanded}
             toggleExpand={toggleExpand}
-            isActive={doc.url === pathname}
             searchHighlight={searchQuery}
             currentPathname={pathname}
             loadingIds={loadingIds}
@@ -632,7 +586,7 @@ export default function MoreScreen() {
             autoCapitalize="none"
             autoCorrect={false}
             returnKeyType="search"
-            className="flex-1 ml-2 text-sepia-invert"
+            className="flex-1 ml-2 text-sepia"
           />
           {!!searchQuery && (
             <TouchableOpacity onPress={handleClear} className="ml-2">

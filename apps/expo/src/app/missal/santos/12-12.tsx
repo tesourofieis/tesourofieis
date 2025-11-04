@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page1212() {
     <PageWrapper>
       <H1 text="Quinto Dia na Oitava, a 12 de Dezembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Para mostrar que a Mãe de Jesus ocupa lugar especial no seu culto, a
         Igreja reserva-lhe um Prefácio a ser dito em cada uma de suas festas, no
         qual são citados, à medida que se celebram, os diversos mistérios da
@@ -20,7 +20,7 @@ export default function Page1212() {
         ao mundo Jesus Cristo Nosso Senhor». Agradeçamos a Deus o privilégio da
         Imaculada Conceição bem como pela festa de sua celebração anual, que nos
         permite imitar sempre mais esse modelo de toda pureza.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

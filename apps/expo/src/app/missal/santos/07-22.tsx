@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -9,7 +9,7 @@ export default function Page0722() {
     <PageWrapper>
       <H1 text="Santa Maria Madalena, a 22 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Jesus, dando o Espírito Santo aos Apóstolos, lhes recomendára perdoar os
         pecados, como Ele o fizera, e a liturgia lembra hoje um exemplo celebre
         para sempre, da misericórdia do Salvador para com os que se arrependem.
@@ -36,7 +36,7 @@ export default function Page0722() {
         nossos louvores (Secr.), cerquemo-lo no altar, com espírito de fé que
         não receia o escândalo farisaico, de todo o luxo conveniente à casa de
         Deus.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
@@ -48,27 +48,27 @@ export default function Page0722() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Beátæ Maríæ Magdalénæ, quǽsumus, Dómine, suffrágiis adjuvémur: cujus
           précibus exorátus, quatriduánum fratrem Lázarum vivum ab ínferis
           resuscitásti: Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que nós sejamos socorridos, ó Deus, Vos suplicamos, pela intercessão
           da B. Maria Madalena, cujas preces de Vós obtiveram a ressurreição de
           seu irmão Lázaro, que falecera havia quatro dias. Ó Vós, que, viveis e
           reinais...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ct. 3, 2-5; 8, 6-7</Text>
+      <Typography className="em">Ct. 3, 2-5; 8, 6-7</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Sapiéntiæ.</Text>
-        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="latin">
           Surgam, et circuíbo civitátem: per vicos et pláteas quæram, quem
           díligit ánima mea: quæsívi illum, et non invéni. Invenérunt me
           vígiles, qui custódiunt civitátem. Num quem díligit ánima mea,
@@ -82,8 +82,8 @@ export default function Page0722() {
           Aquæ multæ non potuérunt exstínguere caritátem, nec flúmina óbruent
           illam: si déderit homo omnem substántiam domus suæ pro dilectióne,
           quasi nihil despíciet eam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Erguer-me-ei, percorrerei toda a cidade e procurarei pelas ruas e
           praças aquele que minha alma ama! Procurei-o e o não encontrei. As
           sentinelas que vigiam a cidade encontraram-me. Então disse-lhes: «Não
@@ -99,34 +99,34 @@ export default function Page0722() {
           chamas; nem as águas caudalosas puderam extinguir o amor, nem os rios
           submergi-lo; pois, ainda que o homem haja dado todas as riquezas da
           sua casa pelo seu amor, desprezá-las-á, como se nada fossem.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 44, 8</Text>
+      <Typography className="em">Sl. 44, 8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dilexísti justítiam, et odísti iniquitátem.
-          <Text className="versicle"> ℣. </Text>Proptérea unxit te Deus, Deus
+          <Typography className="versicle"> ℣. </Typography>Proptérea unxit te Deus, Deus
           tuus, óleo lætítiæ.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Amastes a justiça e odiastes a iniquidade.
-          <Text className="versicle"> ℣. </Text>Pelo que o Senhor, vosso Deus,
+          <Typography className="versicle"> ℣. </Typography>Pelo que o Senhor, vosso Deus,
           vos ungiu com o óleo da alegria.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 3</Text> Diffúsa est grátia in lábiis
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 3</Typography> Diffúsa est grátia in lábiis
           tuis: proptérea benedíxit te Deus in ætérnum. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 3</Text> A graça espalhou-se nos
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 3</Typography> A graça espalhou-se nos
           vossos lábios: eis porque Deus vos abençoou para sempre. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -138,66 +138,66 @@ export default function Page0722() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 44, 10</Text>
+      <Typography className="em">Sl. 44, 10</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Fíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu
           deauráto, circúmdata varietáte.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           As filhas dos reis formam a vossa corte de glória: a própria rainha
           está colocada à vossa direita, envergando um vestido de ouro, recamado
           da mais rica variedade.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Múnera nostra, quǽsumus, Dómine, beátæ Maríæ Magdalénæ gloriósa mérita
           tibi reddant accépta: cujus oblatiónis obséquium unigénitus Fílius
           tuus cleménter suscépit impénsum: Qui tecum vivit et regnat...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dignai-Vos aceitar, Senhor, Vos pedimos, as oblatas que Vos
           apresentamos pelos gloriosos méritos da B. Maria Madalena, da qual o
           vosso Filho Unigénito recebeu misericordiosamente a sua oferta e os
           seus serviços. Ele, que convosco vive e reina...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 118, 121, 122 & 128</Text>
+      <Typography className="em">Sl. 118, 121, 122 & 128</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Feci judícium et justítiam, Dómine, non calumniéntur mihi supérbi: ad
           ómnia mandáta tua dirigébar, omnem viam iniquitátis odio hábui.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Pratiquei a equidade e a justiça; não me entregueis, pois, àqueles que
           me perseguem. Procurei em tudo dirigir-me segundo os vossos
           Mandamentos: e odiei todas as vias da iniquidade.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sumpto, quǽsumus, Dómine, único ac salutári remédio, Córpore et
           Sánguine tuo pretióso: ab ómnibus malis, sanctæ Maríæ Magdalénæ
           patrocíniis, eruámur: Qui vivis et regnas...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo nós recebido o único e salutar remédio, o vosso Corpo e o
           vosso Sangue preciosíssimo permiti, Senhor, Vos pedimos, que sejamos
           livres de todos os males pelo patrocínio de Santa Maria Madalena. Ó
           Vós, que viveis e...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

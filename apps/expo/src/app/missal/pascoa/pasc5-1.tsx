@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -14,22 +14,22 @@ export default function PagePasc51() {
       <H3 text="Antífona" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exsurge, Dómine, ádjuva nos, et líbera nos propter nomen tuum.{" "}
-          <Text className="latin">Psalm</Text> Deus, áuribus nostris audívimus,
+          <Typography className="latin">Psalm</Typography> Deus, áuribus nostris audívimus,
           patres nostri annuntiavérunt nobis.
-          <Text className="versicle"> ℣. </Text>Glória Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Glória Patri...
+        </Typography>
+        <Typography className="vernacular">
           Levantai-Vos, ó Senhor, ajudai-nos, e resgatai-nos por causa do vosso
-          nome. <Text className="vernacular">Salmo</Text> Nós ouvimos, ó Deus,
+          nome. <Typography className="vernacular">Salmo</Typography> Nós ouvimos, ó Deus,
           com os nossos próprios ouvidos, anunciaram-nos nossos pais a obra que
           fizestes nos seus dias e nos dias antigos.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
-      <Text className="aside">Salmo 69 encontra-se logo após a Ladaínha</Text>
+      <Typography className="aside">Salmo 69 encontra-se logo após a Ladaínha</Typography>
 
       <H3 text="Ladainha dos Santos" />
 
@@ -39,50 +39,50 @@ export default function PagePasc51() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 17, 7</Text>
+      <Typography className="em">Sl. 17, 7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exaudívit de templo sancto suo vocem meam, allelúja: et clamor meus in
           conspectu ejus, introívit in aures ejus, allelúja, allelúja.{" "}
-          <Text className="latin">Ps. ibid., 2-3</Text> Díligam te, Dómine,
+          <Typography className="latin">Ps. ibid., 2-3</Typography> Díligam te, Dómine,
           virtus mea: Dóminus firmaméntum meum et refúgium meum et liberátor
-          meus.<Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          meus.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Lá no seu santo templo ouviu Ele a minha voz, aleluia: e o meu clamor
           chegou à sua presença e soou a seus ouvidos: aleluia, aleluia.{" "}
-          <Text className="vernacular">Sl. ibid., 2-3</Text> Eu vos amo, Senhor,
+          <Typography className="vernacular">Sl. ibid., 2-3</Typography> Eu vos amo, Senhor,
           que sois a minha força; sois, ó Senhor, o meu sustentáculo, o meu
           refúgio e a minha salvação.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, qui in afflictióne nostra de
           tua pietáte confídimus; contra advérsa ómnia, tua semper protectióne
           muniámur. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos suplicamos, concedei-nos a graça de confiarmos
           sempre na vossa bondade no meio das nossas tribulações e de estarmos
           sempre munidos com vosso socorro no meio das adversidades. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Tg. 5, 16-20</Text>
+      <Typography className="em">Tg. 5, 16-20</Typography>
 
       <Language>
-        <Text className="latin">Léctio Epístolæ beáti Jacóbi Apóstoli.</Text>
-        <Text className="vernacular">Lição da Ep.ª do B. Ap.º Tiago.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Epístolæ beáti Jacóbi Apóstoli.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Tiago.</Typography>
+        <Typography className="latin">
           Caríssimi: Confitémini altérutrum peccáta vestra, et oráte pro
           ínvicem, ut salvémini: multum enim valet deprecátio justi assídua.
           Elías homo erat símilis nobis passíbilis: et oratióne orávit, ut non
@@ -91,8 +91,8 @@ export default function PagePasc51() {
           mei, si quis ex vobis erráverit a veritáte et convérterit quis eum:
           scire debet, quóniam, qui convérti fécerit peccatórem ab erróre viæ
           suæ, salvábit ánimam ejus a morte, et opériet multitúdinem peccatórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimos: Confessai as vossas culpas uns aos outros e orai uns pelos
           outros, a fim de que sejais salvos; pois a oração assídua do justo
           vale muito. Elias era um homem sujeito às mesmas misérias do que nós.
@@ -102,36 +102,36 @@ export default function PagePasc51() {
           da verdade e alguém o tenha convertido, saiba que aquele que afastar
           um pecador do caminho do erro salvará a sua alma da morte e apagará
           uma multidão de pecados.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 117, 1</Text> Confitémini Dómino, quóniam
+        <Typography className="latin">
+          Allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 117, 1</Typography> Confitémini Dómino, quóniam
           bonus: quóniam in sǽculum misericórdia ejus.
-        </Text>
-        <Text className="vernacular">
-          Aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 117, 1</Text> Louvai o Senhor, pois
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 117, 1</Typography> Louvai o Senhor, pois
           Ele é bom: a sua misericórdia é eterna.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 11, 5-13</Text>
+      <Typography className="em">Lc. 11, 5-13</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Quis vestrum habébit
           amícum, et íbit ad illum média nocte, et dicet illi: Amíce, cómmoda
           mihi tres panes, quóniam amícus meus venit de via ad me, et non hábeo
@@ -148,8 +148,8 @@ export default function PagePasc51() {
           numquid pórriget illi scorpiónem? Si ergo vos, cum sitis mali, nostis
           bona data dare fíliis vestris: quanto magis Pater vester de cœlo dabit
           spíritum bonum peténtibus se?
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Se algum de vós tiver
           um amigo, e for à meia-noite encontrá-lo, dizendo-lhe: «Empresta-me
           três pães, porque um dos meus amigos chegou agora de viagem a minha
@@ -167,70 +167,70 @@ export default function PagePasc51() {
           escorpião? Pois se vós, sendo maus, sabeis, contudo, dar coisas boas a
           vossos filhos, quanto mais vosso Pai celestial dará o Espírito Santo
           àqueles que lho pedirem».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 108, 30-31</Text>
+      <Typography className="em">Sl. 108, 30-31</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Confitébor Dómino nimis in ore meo: et in médio multórum laudábo eum,
           qui ástitit a dextris páuperis: ut salvam fáceret a persequéntibus
           ánimam meam, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Louvarei o Senhor com a minha boca, sonoramente: louvá-l’O-ci perante
           a multidão: pois esteve à direita do pobre para salvar a minha alma
           dos que a perseguiam, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc múnera, quǽsumus, Dómine, et víncula nostræ pravitátis absólvant,
           et tuæ nobis misericórdiæ dona concílient. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que estas oblações, Senhor, Vos suplicamos, nos livrem dos laços da
           nossa malícia e nos alcancem os dons da vossa misericórdia. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Lc. 11, 9-10</Text>
+      <Typography className="em">Lc. 11, 9-10</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Petite, et accipiétis: quǽrite, et inveniétis: pulsáte, et aperiétur
           vobis: omnis enim qui pétii, áccipit: et qui quærit, invénit: et
           pulsánti aperiétur, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Pedi e recebereis; buscai e achareis; batei e abrir-se-vos-á. Pois
           todo o que pede recebe; todo o que procura acha; todo o que bate
           abrir-se-lhe-á, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vota nostra, quǽsumus, Dómine, pio favóre proséquere: ut, dum dona tua
           in tribulatióne percípimus, de consolatióne nostra in tuo amóre
           crescámus. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dignai-Vos acolher favoravelmente, Senhor, Vos suplicamos, os nossos
           votos, a fim de que, recebendo os vossos dons na tribulação, cresçamos
           no vosso amor com a consolação que nos dais. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

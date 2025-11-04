@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -17,191 +17,191 @@ export default function PageVesperas() {
     <PageWrapper>
       <H1 text="Vésperas" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Meditemos na descida da cruz, o corpo de Jesus Cristo colocado nos
         braços de sua santa Mãe e na instituição do adorável Sacramento da
         Eucaristia.
-      </Text>
+      </Typography>
 
       <Tabs>
         <TabItem label="Depois da Purificação">
           <Language>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Deus{" "}
-              <Text className="cross"> ✠ </Text> in adjutórium meum inténde.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>Deus,{" "}
-              <Text className="cross"> ✠ </Text> vinde em meu auxílio.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Dómine, ad adjuvándum me
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Deus{" "}
+              <Typography className="cross"> ✠ </Typography> in adjutórium meum inténde.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>Deus,{" "}
+              <Typography className="cross"> ✠ </Typography> vinde em meu auxílio.
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Dómine, ad adjuvándum me
               festína.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Senhor, apressai-Vos em
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Senhor, apressai-Vos em
               socorrer-me.
-            </Text>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Glória Patri, et Fílio, et
+            </Typography>
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Glória Patri, et Fílio, et
               Spíritui Sancto.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>Glória ao Pai, e ao Filho e
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>Glória ao Pai, e ao Filho e
               ao Espírito Santo.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Sicut erat in pricípio, et
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Sicut erat in pricípio, et
               nunc, et semper, et in sǽcula sæculórum. Amen.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Assim como era no
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Assim como era no
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
-            </Text>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Dum esset Rex in acubitu suo,
+            </Typography>
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Dum esset Rex in acubitu suo,
               nardus mea dedit odorem suavitatis.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Estando o Rei no seu
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Estando o Rei no seu
               repouso, exalou o meu frasco um suavíssimo cheiro.
-            </Text>
+            </Typography>
           </Language>
 
           <Salmo109 />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Dum esset Rex in acubitu suo,
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Dum esset Rex in acubitu suo,
               nardus mea dedit odorem suavitatis.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Estando o Rei no seu
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Estando o Rei no seu
               repouso, exalou o meu frasco um suavíssimo cheiro.
-            </Text>
+            </Typography>
           </Language>
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Læva ejus sub capite meo, et
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Læva ejus sub capite meo, et
               dextera ilius amplexabitur me.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Sua mão esquerda estará
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Sua mão esquerda estará
               debaixo de minha cabeça, e a sua direita me dará um abraço.
-            </Text>
+            </Typography>
           </Language>
 
           <Salmo112 />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Læva ejus sub capite meo, et
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Læva ejus sub capite meo, et
               dextera ilius amplexabitur me.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Sua mão esquerda estará
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Sua mão esquerda estará
               debaixo de minha cabeça, e a sua direita me dará um abraço.
-            </Text>
+            </Typography>
           </Language>
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Nigra sum, sed formosa, filiæ
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Nigra sum, sed formosa, filiæ
               Jerusalem; ideo dilexit me rex, et introduxit me in cubiculom
               suum.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Sou negra, mas sou
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Sou negra, mas sou
               formosa, ó filhas de Jerusalém; por isso o Rei me amou, e me levou
               a seu aposento.
-            </Text>
+            </Typography>
           </Language>
 
           <Salmo121 />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Nigra sum, sed formosa, filiæ
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Nigra sum, sed formosa, filiæ
               Jerusalem; ideo dilexit me rex, et introduxit me in cubiculom
               suum.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Sou negra, mas sou
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Sou negra, mas sou
               formosa, ó filhas de Jerusalém; por isso o Rei me amou, e me levou
               a seu aposento.
-            </Text>
+            </Typography>
           </Language>
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Jam hiems transiit, imber
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Jam hiems transiit, imber
               abiit et recessit: surge, amica mea, et veni.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Já se foi o Inverno, e
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Já se foi o Inverno, e
               passou o chuveiro; levanta-te e vem, ó minha amada.
-            </Text>
+            </Typography>
           </Language>
 
           <Salmo126 />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Jam hiems transiit, imber
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Jam hiems transiit, imber
               abiit et recessit: surge, amica mea, et veni.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Já se foi o Inverno, e
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Já se foi o Inverno, e
               passou o chuveiro; levanta-te e vem, ó minha amada.
-            </Text>
+            </Typography>
           </Language>
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Speciosa facta es et suavis in
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Speciosa facta es et suavis in
               deliciis tuis, sancta Dei Genitrix.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Especiosa sois, e suave
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Especiosa sois, e suave
               nas vossas delicias, ó santa Mãe de Deus.
-            </Text>
+            </Typography>
           </Language>
 
           <Salmo147 />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Speciosa facta es et suavis in
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Speciosa facta es et suavis in
               deliciis tuis, sancta Dei Genitrix.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Especiosa sois, e suave
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Especiosa sois, e suave
               nas vossas delicias, ó santa Mãe de Deus.
-            </Text>
+            </Typography>
           </Language>
 
           <H2 text="Pequeno Capítulo" />
 
-          <Text className="em">Ecl. 24, 14</Text>
+          <Typography className="em">Ecl. 24, 14</Typography>
 
           <Language>
-            <Text className="latin">
+            <Typography className="latin">
               Ab initio et ante sæcula creata sum, et usque ad futurum sæculum
               non desinam, et in habitatione sancta coram ipso ministravi.
-            </Text>
-            <Text className="vernacular">
+            </Typography>
+            <Typography className="vernacular">
               Eu fui criada desde o princípio, antes dos séculos, e não deixarei
               de existir até ao fim dos séculos, e exerci diante dele o meu
               ministério na morada santa.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Deo grátias.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Graças a Deus.
-            </Text>
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Deo grátias.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Graças a Deus.
+            </Typography>
           </Language>
 
           <AveMarisStella />
@@ -209,38 +209,38 @@ export default function PageVesperas() {
           <H2 text="Ofício 1" />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Beata Mater et intacta Virgo,
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Beata Mater et intacta Virgo,
               gloriosa Regina mundi, intercede pro nobis ad Dominum.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Santa Mãe e Virgem
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Santa Mãe e Virgem
               intacta, gloriosa Rainha do mundo, intercedei a Deus por nós.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Amen.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Amen.
-            </Text>
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Amen.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Amen.
+            </Typography>
           </Language>
 
           <H2 text="Tempo Pascal" />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Regína Cæli, lætáre, allelúja;
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Regína Cæli, lætáre, allelúja;
               Quia quem meruísti portáre, allelúja; Resurréxit, sicut dixit,
               allelúja; Ora pro nóbis Deum, allelúja. Gaude et lætáre, Virgo
               Maria, allelúja. Quia surréxit Dóminus vere, allelúja.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Rainha do Céu,
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Rainha do Céu,
               alegrai-Vos, Aleluia! Porque Aquele que merecestes trazer em vosso
               ventre, Aleluia! Ressuscitou como disse, Aleluia! Rogai por nós a
               Deus, Aleluia! Alegrai-Vos e exultai, ó Virgem Maria, Aleluia!
               Porque o Senhor ressuscitou verdadeiramente, Aleluia!
-            </Text>
+            </Typography>
           </Language>
 
           <Magnificat />
@@ -248,786 +248,786 @@ export default function PageVesperas() {
           <H2 text="Ofício 1" />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Beata Mater et intacta Virgo,
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Beata Mater et intacta Virgo,
               gloriosa Regina mundi, intercede pro nobis ad Dominum.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Santa Mãe e Virgem
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Santa Mãe e Virgem
               intacta, gloriosa Rainha do mundo, intercedei a Deus por nós.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Amen.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Amen.
-            </Text>
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Amen.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Amen.
+            </Typography>
           </Language>
 
           <H2 text="Tempo Pascal" />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Regína Cæli, lætáre, allelúja;
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Regína Cæli, lætáre, allelúja;
               Quia quem meruísti portáre, allelúja; Resurréxit, sicut dixit,
               allelúja; Ora pro nóbis Deum, allelúja. Gaude et lætáre, Virgo
               Maria, allelúja. Quia surréxit Dóminus vere, allelúja.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Rainha do Céu,
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Rainha do Céu,
               alegrai-Vos, Aleluia! Porque Aquele que merecestes trazer em vosso
               ventre, Aleluia! Ressuscitou como disse, Aleluia! Rogai por nós a
               Deus, Aleluia! Alegrai-Vos e exultai, ó Virgem Maria, Aleluia!
               Porque o Senhor ressuscitou verdadeiramente, Aleluia!
-            </Text>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Domine, exaudi orationem
+            </Typography>
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Domine, exaudi orationem
               meam.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>Ouvi, Senhor, a minha
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a minha
               oração.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Et clamor meus ad te
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Et clamor meus ad te
               veniat.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> E o meu clamor chegue até
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> E o meu clamor chegue até
               Vós.
-            </Text>
-            <Text className="latin">
-              <Text className="latin">Orémus.</Text>
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Oremos.</Text>
-            </Text>
-            <Text className="latin">
+            </Typography>
+            <Typography className="latin">
+              <Typography className="latin">Orémus.</Typography>
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Oremos.</Typography>
+            </Typography>
+            <Typography className="latin">
               Concede nos famulos tuos, quǽsumus, Domine Deus, perpetua mentis
               et corporis sanitate gaudere: et gloriosa beatæ Mariæ semper
               Virginis intercessione, a præsenti liberari tristitia, et æterna
               perfrui lætitia. Per Dominum nostrum Jesum Christum.
-            </Text>
-            <Text className="vernacular">
+            </Typography>
+            <Typography className="vernacular">
               Senhor Deus, nós Vos suplicamos que concedais a vossos servos
               lograr uma perpétua saúde de corpo e alma, e que pela intercessão
               gloriosa da bem-aventurada sempre Virgem Maria sejamos livres da
               presente tristeza, e gozemos da eterna alegria. Por Jesus Cristo
               nosso Senhor.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Amen.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Amen.
-            </Text>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Domine, exaudi orationem
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Amen.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Amen.
+            </Typography>
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Domine, exaudi orationem
               meam.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>Ouvi, Senhor, a minha
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a minha
               oração.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Et clamor meus ad te
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Et clamor meus ad te
               veniat.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> E o meu clamor chegue até
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> E o meu clamor chegue até
               Vós.
-            </Text>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text> Benedicamus Domino.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>Bendigamos o Senhor.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Deo gratias.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Graças a Deus.
-            </Text>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Fidelium animæ per
+            </Typography>
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography> Benedicamus Domino.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>Bendigamos o Senhor.
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Deo gratias.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Graças a Deus.
+            </Typography>
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Fidelium animæ per
               misericordiam Dei, requiescant in pace.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>E que as almas dos fiéis,
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>E que as almas dos fiéis,
               pela misericórdia de Deus, descansem em paz.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Amen.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Amen.
-            </Text>
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Amen.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Amen.
+            </Typography>
           </Language>
         </TabItem>
 
         <TabItem label="No Advento">
           <Language>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Deus{" "}
-              <Text className="cross"> ✠ </Text> in adjutórium meum inténde.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>Deus,{" "}
-              <Text className="cross"> ✠ </Text> vinde em meu auxílio.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Dómine, ad adjuvándum me
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Deus{" "}
+              <Typography className="cross"> ✠ </Typography> in adjutórium meum inténde.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>Deus,{" "}
+              <Typography className="cross"> ✠ </Typography> vinde em meu auxílio.
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Dómine, ad adjuvándum me
               festína.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Senhor, apressai-Vos em
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Senhor, apressai-Vos em
               socorrer-me.
-            </Text>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Glória Patri, et Fílio, et
+            </Typography>
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Glória Patri, et Fílio, et
               Spíritui Sancto.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>Glória ao Pai, e ao Filho e
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>Glória ao Pai, e ao Filho e
               ao Espírito Santo.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Sicut erat in pricípio, et
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Sicut erat in pricípio, et
               nunc, et semper, et in sǽcula sæculórum. Amen.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Assim como era no
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Assim como era no
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
-            </Text>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Missus est Gábriel Angelus ad
+            </Typography>
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Missus est Gábriel Angelus ad
               Maríam Vírginem desponsátam Joseph.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> O Anjo Gabriel foi
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> O Anjo Gabriel foi
               mandado à Virgem Maria, desposada com José.
-            </Text>
+            </Typography>
           </Language>
 
           <Salmo109 />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Missus est Gábriel Angelus ad
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Missus est Gábriel Angelus ad
               Maríam Vírginem desponsátam Joseph.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> O Anjo Gabriel foi
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> O Anjo Gabriel foi
               mandado à Virgem Maria, desposada com José.
-            </Text>
+            </Typography>
           </Language>
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Ave, María, grátia plena;
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Ave, María, grátia plena;
               Dóminus tecum: benedícta tu in muliéribus.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Ave, Maria, cheia de
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Ave, Maria, cheia de
               graça, o Senhor é convosco; bendita sois vós entre as mulheres.
-            </Text>
+            </Typography>
           </Language>
 
           <Salmo112 />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Ave, María, grátia plena;
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Ave, María, grátia plena;
               Dóminus tecum: benedícta tu in muliéribus.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Ave, Maria, cheia de
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Ave, Maria, cheia de
               graça, o Senhor é convosco; bendita sois vós entre as mulheres.
-            </Text>
+            </Typography>
           </Language>
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Ne timeas, María, invenísti
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Ne timeas, María, invenísti
               grátiam apud Dóminum: ecce concípies et páries fílium.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Não temais, ó Maria,
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Não temais, ó Maria,
               achastes graça para com o Senhor: concebereis, e dareis à luz um
               filho.
-            </Text>
+            </Typography>
           </Language>
 
           <Salmo121 />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Ne timeas, María, invenísti
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Ne timeas, María, invenísti
               grátiam apud Dóminum: ecce concípies et páries fílium.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Não temais, ó Maria,
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Não temais, ó Maria,
               achastes graça para com o Senhor: concebereis, e dareis à luz um
               filho.
-            </Text>
+            </Typography>
           </Language>
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Dabit ei Dóminus sedem David,
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Dabit ei Dóminus sedem David,
               patris ejus, et regnábit in ætérnum.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> O Senhor lhe dará o trono
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> O Senhor lhe dará o trono
               de David seu Pai, e reinará eternamente.
-            </Text>
+            </Typography>
           </Language>
 
           <Salmo126 />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Dabit ei Dóminus sedem David,
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Dabit ei Dóminus sedem David,
               patris ejus, et regnábit in ætérnum.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> O Senhor lhe dará o trono
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> O Senhor lhe dará o trono
               de David seu Pai, e reinará eternamente.
-            </Text>
+            </Typography>
           </Language>
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Ecce ancílla Dómini: fiat mihi
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Ecce ancílla Dómini: fiat mihi
               secúndum verbum tuum.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Eis aqui a escrava do
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Eis aqui a escrava do
               Senhor, faça-se em mim segundo a vossa palavra.
-            </Text>
+            </Typography>
           </Language>
 
           <Salmo147 />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Ecce ancílla Dómini: fiat mihi
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Ecce ancílla Dómini: fiat mihi
               secúndum verbum tuum.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Eis aqui a escrava do
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Eis aqui a escrava do
               Senhor, faça-se em mim segundo a vossa palavra.
-            </Text>
+            </Typography>
           </Language>
 
           <H2 text="Pequeno Capítulo" />
 
-          <Text className="em">Is. 11, 1-2</Text>
+          <Typography className="em">Is. 11, 1-2</Typography>
 
           <Language>
-            <Text className="latin">
+            <Typography className="latin">
               Egredietur virga de radice Jesse, et flos de radice ejus ascendet.
               Et requiescet super eum Spiritus Domini.
-            </Text>
-            <Text className="vernacular">
+            </Typography>
+            <Typography className="vernacular">
               Sairá uma vara da raiz de Jessé, e subirá uma flor da sua raiz, e
               descansará sobre ele o Espírito do Senhor.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Deo grátias.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Graças a Deus.
-            </Text>
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Deo grátias.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Graças a Deus.
+            </Typography>
           </Language>
 
           <AveMarisStella />
 
           <Language>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Diffusa est gratia in labiis
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Diffusa est gratia in labiis
               tuis.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>A graça derramou-se nos
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>A graça derramou-se nos
               vossos lábios.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Propterea benedixit te Deus
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Propterea benedixit te Deus
               in æternum.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Por isso vos abençoou Deus
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Por isso vos abençoou Deus
               para sempre.
-            </Text>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Spiritus Sanctus in te
+            </Typography>
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Spiritus Sanctus in te
               descendet, Maria: ne timeas, habebis in utero filium Dei,
               (allelúja).
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> O Espírito Santo descerá
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> O Espírito Santo descerá
               sobre vós, ó Maria; não temais: concebereis, e tereis no ventre o
               Filho de Deus, (aleluia).
-            </Text>
+            </Typography>
           </Language>
 
           <Magnificat />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Spiritus Sanctus in te
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Spiritus Sanctus in te
               descendet, Maria: ne timeas, habebis in utero filium Dei,
               (allelúja).
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> O Espírito Santo descerá
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> O Espírito Santo descerá
               sobre vós, ó Maria; não temais: concebereis, e tereis no ventre o
               Filho de Deus, (aleluia).
-            </Text>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Domine, exaudi orationem
+            </Typography>
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Domine, exaudi orationem
               meam.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>Ouvi, Senhor, a minha
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a minha
               oração.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Et clamor meus ad te
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Et clamor meus ad te
               veniat.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> E o meu clamor chegue até
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> E o meu clamor chegue até
               Vós.
-            </Text>
-            <Text className="latin">
-              <Text className="latin">Orémus.</Text>
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Oremos.</Text>
-            </Text>
-            <Text className="latin">
+            </Typography>
+            <Typography className="latin">
+              <Typography className="latin">Orémus.</Typography>
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Oremos.</Typography>
+            </Typography>
+            <Typography className="latin">
               Deus, qui de beatæ Mariæ Virginis utero Verbum tuum, Angelo
               nuntiante, carnem suscipere voluisti: præsta supplicibus tuis; ut
               qui vere eam Genetricem Dei credimus, ejus apud te
               intercessionibus adjuvemur. Per eundem Dominum nostrum Jesum
               Christum.
-            </Text>
-            <Text className="vernacular">
+            </Typography>
+            <Typography className="vernacular">
               Ó Deus, que pela anunciação do Anjo quisestes que o vosso Verbo se
               vestisse da nossa carne nas entranhas da bem-aventurada Virgem
               Maria: nós, vossos humildes servos, cremos ser ela a verdadeira
               Mãe de Deus, concedei-nos que nos ajudem as suas intercessões para
               convosco. Pelo mesmo Jesus Cristo Senhor Nosso.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Amen.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Amen.
-            </Text>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Domine, exaudi orationem
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Amen.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Amen.
+            </Typography>
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Domine, exaudi orationem
               meam.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>Ouvi, Senhor, a minha
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a minha
               oração.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Et clamor meus ad te
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Et clamor meus ad te
               veniat.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> E o meu clamor chegue até
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> E o meu clamor chegue até
               Vós.
-            </Text>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text> Benedicamus Domino.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>Bendigamos o Senhor.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Deo gratias.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Graças a Deus.
-            </Text>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Fidelium animæ per
+            </Typography>
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography> Benedicamus Domino.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>Bendigamos o Senhor.
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Deo gratias.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Graças a Deus.
+            </Typography>
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Fidelium animæ per
               misericordiam Dei, requiescant in pace.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>E que as almas dos fiéis,
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>E que as almas dos fiéis,
               pela misericórdia de Deus, descansem em paz.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Amen.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Amen.
-            </Text>
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Amen.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Amen.
+            </Typography>
           </Language>
         </TabItem>
 
         <TabItem label="No Natal">
           <Language>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Deus{" "}
-              <Text className="cross"> ✠ </Text> in adjutórium meum inténde.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>Deus,{" "}
-              <Text className="cross"> ✠ </Text> vinde em meu auxílio.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Dómine, ad adjuvándum me
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Deus{" "}
+              <Typography className="cross"> ✠ </Typography> in adjutórium meum inténde.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>Deus,{" "}
+              <Typography className="cross"> ✠ </Typography> vinde em meu auxílio.
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Dómine, ad adjuvándum me
               festína.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Senhor, apressai-Vos em
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Senhor, apressai-Vos em
               socorrer-me.
-            </Text>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Glória Patri, et Fílio, et
+            </Typography>
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Glória Patri, et Fílio, et
               Spíritui Sancto.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>Glória ao Pai, e ao Filho e
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>Glória ao Pai, e ao Filho e
               ao Espírito Santo.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Sicut erat in pricípio, et
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Sicut erat in pricípio, et
               nunc, et semper, et in sǽcula sæculórum. Amen.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Assim como era no
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Assim como era no
               princípio, agora e sempre, e por todos os séculos dos séculos.
               Amen.
-            </Text>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> O admirabile commercium:
+            </Typography>
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> O admirabile commercium:
               Creator generis humani, animatum corpus sumens, de Virgine nasci
               dignatus est: et procedens homo sine semine, largitus est nobis
               suam Deitatem.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Ó admirável permuta! O
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Ó admirável permuta! O
               Criador do género humano, tomando corpo e alma, dignou-se nascer
               de uma Virgem; e, feito homem sem progenitor, tornou-nos
               participantes da sua divindade.
-            </Text>
+            </Typography>
           </Language>
 
           <Salmo109 />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> O admirabile commercium:
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> O admirabile commercium:
               Creator generis humani, animatum corpus sumens, de Virgine nasci
               dignatus est: et procedens homo sine semine, largitus est nobis
               suam Deitatem.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Ó admirável permuta! O
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Ó admirável permuta! O
               Criador do género humano, tomando corpo e alma, dignou-se nascer
               de uma Virgem; e, feito homem sem progenitor, tornou-nos
               participantes da sua divindade.
-            </Text>
+            </Typography>
           </Language>
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Quando natus es inefabilitre
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Quando natus es inefabilitre
               ex Virgnine, tunc impletæ sunt Scripturæ: sicut pluvia in vellus
               descendisti, ut salvum faceres genus humanum: te laudamus, Deus
               noster.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Quando nascestes
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Quando nascestes
               misteriosamente da Virgem, então se cumpriram as Escrituras:
               descestes como a chuva sobre a lã, para salvar a humanidade. Nós
               Vos louvamos, ó Nosso Deus.
-            </Text>
+            </Typography>
           </Language>
 
           <Salmo112 />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Quando natus es inefabilitre
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Quando natus es inefabilitre
               ex Virgnine, tunc impletæ sunt Scripturæ: sicut pluvia in vellus
               descendisti, ut salvum faceres genus humanum: te laudamus, Deus
               noster.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Quando nascestes
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Quando nascestes
               misteriosamente da Virgem, então se cumpriram as Escrituras:
               descestes como a chuva sobre a lã, para salvar a humanidade. Nós
               Vos louvamos, ó Nosso Deus.
-            </Text>
+            </Typography>
           </Language>
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Rubum, quem viderat Moyses
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Rubum, quem viderat Moyses
               incombustum, conservatam agnovimus tuam laudabilem virginitatem:
               Dei Genitrix, intercede pro nobis.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Na sarça que Moisés via
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Na sarça que Moisés via
               sem se consumir, reconhecemos a vossa admirável virgindade
               conservada: rogai por nós, Santa Mãe de Deus.
-            </Text>
+            </Typography>
           </Language>
 
           <Salmo121 />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Rubum, quem viderat Moyses
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Rubum, quem viderat Moyses
               incombustum, conservatam agnovimus tuam laudabilem virginitatem:
               Dei Genitrix, intercede pro nobis.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Na sarça que Moisés via
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Na sarça que Moisés via
               sem se consumir, reconhecemos a vossa admirável virgindade
               conservada: rogai por nós, Santa Mãe de Deus.
-            </Text>
+            </Typography>
           </Language>
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Germinavit radix Jesse, orta
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Germinavit radix Jesse, orta
               est stella ex Jacob; virgo peperit Salvatorem: te laudamus, Deus
               noster.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Floresceu a raiz de
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Floresceu a raiz de
               Jessé, surgiu a estrela de Jacob. A Virgem deu à luz o Salvador:
               Nós Vos louvamos, ó Nosso Deus.
-            </Text>
+            </Typography>
           </Language>
 
           <Salmo126 />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Germinavit radix Jesse, orta
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Germinavit radix Jesse, orta
               est stella ex Jacob; virgo peperit Salvatorem: te laudamus, Deus
               noster.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Floresceu a raiz de
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Floresceu a raiz de
               Jessé, surgiu a estrela de Jacob. A Virgem deu à luz o Salvador:
               Nós Vos louvamos, Senhor nosso Deus.
-            </Text>
+            </Typography>
           </Language>
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Ecce, Maria genuit nobis
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Ecce, Maria genuit nobis
               Salvatorem, quem Joannes videns exclamavit, dicens: Ecce Agnus
               Dei, ecce qui tollit peccata mundi, (allelúja).
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Eis, Maria deu à luz o
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Eis, Maria deu à luz o
               nosso Salvador, que João reconheceu e exclamou: eis o Cordeiro de
               Deus, Aquele que tira o pecado do mundo, (aleluia).
-            </Text>
+            </Typography>
           </Language>
 
           <Salmo147 />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Ecce, Maria genuit nobis
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Ecce, Maria genuit nobis
               Salvatorem, quem Joannes videns exclamavit, dicens: Ecce Agnus
               Dei, ecce qui tollit peccata mundi, (allelúja).
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Eis, Maria deu à luz o
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Eis, Maria deu à luz o
               nosso Salvador, que João reconheceu e exclamou: eis o Cordeiro de
               Deus, Aquele que tira o pecado do mundo, (aleluia).
-            </Text>
+            </Typography>
           </Language>
 
           <H2 text="Pequeno Capítulo" />
 
-          <Text className="em">Ecl. 24, 14</Text>
+          <Typography className="em">Ecl. 24, 14</Typography>
 
           <Language>
-            <Text className="latin">
+            <Typography className="latin">
               Ab initio et ante sæcula creata sum, et usque ad futurum sæculum
               non desinam, et in habitatione sancta coram ipso ministravi.
-            </Text>
-            <Text className="vernacular">
+            </Typography>
+            <Typography className="vernacular">
               Eu fui criada desde o princípio, antes dos séculos, e não deixarei
               de existir até ao fim dos séculos, e exerci diante dele o meu
               ministério na morada santa.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Deo grátias.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Graças a Deus.
-            </Text>
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Deo grátias.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Graças a Deus.
+            </Typography>
           </Language>
 
           <AveMarisStella />
 
           <Language>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Diffusa est gratia in labiis
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Diffusa est gratia in labiis
               tuis.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>A graça derramou-se nos
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>A graça derramou-se nos
               vossos lábios.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Propterea benedixit te Deus
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Propterea benedixit te Deus
               in æternum.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Por isso vos abençoou Deus
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Por isso vos abençoou Deus
               para sempre.
-            </Text>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text> Magnum hæreditatis mysterium:
+            </Typography>
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography> Magnum hæreditatis mysterium:
               templum Dei factus est uterus nescientis virum: non est pollutus
               ex ea carnem assumens; omnes gentes venient, dicentes: Gloria
               tibi, Domine.
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text> Grande mystério de
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography> Grande mystério de
               herança: o ventre daquela que não conheceu varão, é feito templo
               de Deus; o qual se não manchou, tomando dela carne humana. Virão
               todas as gentes, dizendo: Glória a Vós, ó Senhor.
-            </Text>
+            </Typography>
           </Language>
 
           <Magnificat />
 
           <Language>
-            <Text className="latin">
-              <Text className="latin">Ant.</Text>
-              <Text className="vernacular">
+            <Typography className="latin">
+              <Typography className="latin">Ant.</Typography>
+              <Typography className="vernacular">
                 Magnum hæreditatis mysterium: templum Dei factus est uterus
                 nescientis virum: non est pollutus ex ea carnem assumens; omnes
                 gentes venient, dicentes: Gloria tibi, Domine.
-              </Text>
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Ant.</Text>
-              <Text className="vernacular">
+              </Typography>
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Ant.</Typography>
+              <Typography className="vernacular">
                 Grande mystério de herança: o ventre daquela que não conheceu
                 varão, é feito templo de Deus; o qual se não manchou, tomando
                 dela carne humana. Virão todas as gentes, dizendo: Glória a Vós,
                 ó Senhor.
-              </Text>
-            </Text>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Domine, exaudi orationem
+              </Typography>
+            </Typography>
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Domine, exaudi orationem
               meam.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>Ouvi, Senhor, a minha
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a minha
               oração.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Et clamor meus ad te
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Et clamor meus ad te
               veniat.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> E o meu clamor chegue até
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> E o meu clamor chegue até
               Vós.
-            </Text>
-            <Text className="latin">
-              <Text className="latin">Orémus.</Text>
-            </Text>
-            <Text className="vernacular">
-              <Text className="vernacular">Oremos.</Text>
-            </Text>
-            <Text className="latin">
+            </Typography>
+            <Typography className="latin">
+              <Typography className="latin">Orémus.</Typography>
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="vernacular">Oremos.</Typography>
+            </Typography>
+            <Typography className="latin">
               Deus, qui salutis æternæ, beatæ Mariæ virginitate fœcunda, humano
               generi præmia præstitisti: tribue, quǽsumus; ut ipsam pro nobis
               intercedere sentiamus, per quam meruimus auctorem vitæ suscipere,
               Dominum nostrum Jesum Christum Filium tuum. Qui tecum vivit et
               regnat in unitate Spiritus Sancti, Deus, per omnia sæcula
               sæculorum.
-            </Text>
-            <Text className="vernacular">
+            </Typography>
+            <Typography className="vernacular">
               Ó Deus, que pela virgindade fecunda da bem-aventurada Maria,
               destes ao género humano as gratificações da salvação eterna:
               concedei-nos, Vos rogamos, que experienciemos sua intercessão por
               nós, dela pela qual recebemos o autor da vida, Nosso Senhor Jesus
               Cristo, vosso Filho. Que convosco, e com o Espírito Santo, vive e
               reina por todos os séculos.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Amen.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Amen.
-            </Text>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Domine, exaudi orationem
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Amen.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Amen.
+            </Typography>
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Domine, exaudi orationem
               meam.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>Ouvi, Senhor, a minha
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a minha
               oração.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Et clamor meus ad te
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Et clamor meus ad te
               veniat.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> E o meu clamor chegue até
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> E o meu clamor chegue até
               Vós.
-            </Text>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text> Benedicamus Domino.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>Bendigamos o Senhor.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Deo gratias.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Graças a Deus.
-            </Text>
-            <Text className="latin">
-              <Text className="versicle"> ℣. </Text>Fidelium animæ per
+            </Typography>
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography> Benedicamus Domino.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>Bendigamos o Senhor.
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Deo gratias.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Graças a Deus.
+            </Typography>
+            <Typography className="latin">
+              <Typography className="versicle"> ℣. </Typography>Fidelium animæ per
               misericordiam Dei, requiescant in pace.
-            </Text>
-            <Text className="vernacular">
-              <Text className="versicle"> ℣. </Text>E que as almas dos fiéis,
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="versicle"> ℣. </Typography>E que as almas dos fiéis,
               pela misericórdia de Deus, descansem em paz.
-            </Text>
-            <Text className="latin">
-              <Text className="response"> ℟. </Text> Amen.
-            </Text>
-            <Text className="vernacular">
-              <Text className="response"> ℟. </Text> Amen.
-            </Text>
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Amen.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> Amen.
+            </Typography>
           </Language>
         </TabItem>
       </Tabs>
 
-      <Text className="aside">
+      <Typography className="aside">
         Acabar com uma{" "}
         <Link className="link" href="/devocionario/antifonas">
           Antífona de Nossa Senhora
         </Link>{" "}
         .
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

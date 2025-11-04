@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,55 +10,55 @@ export default function PageJesuseternosacerdote() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 109, 4</Text>
+      <Typography className="em">Sl. 109, 4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Jurávit Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum
           secúndum órdinem Melchísedech. (T. P. Allelúja, allelúja.){" "}
-          <Text className="latin">Ps. ibid., 1</Text> Dixit Dóminus Dómino meo:
-          Sede a dextris meis.<Text className="versicle"> ℣. </Text>
+          <Typography className="latin">Ps. ibid., 1</Typography> Dixit Dóminus Dómino meo:
+          Sede a dextris meis.<Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Jurou o Senhor, e não se arrependerá: Tu és sacerdote eternamente,
           segundo a ordem de Melquisedeque (T. P. Aleluia, aleluia). Disse o
           Senhor ao meu Senhor: Assenta-te à minha direita.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui, ad majestátis tuæ glóriam et géneris humáni salútem,
           Unigénitum tuum summum atque ætérnum constituísti Sacerdótem: præsta;
           ut, quos minístros et mysteriórum suórum dispensatóres elégit, in
           accépto ministério adimpléndo fidéles inveniántur. Per eúndem
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que para glória da vossa majestade e salvação do género humano
           constituístes o vosso Unigénito Filho sumo e eterno sacerdote, fazei
           que aqueles que Ele escolheu como ministros e dispensadores dos seus
           mystérios, sejam fiéis no cumprimento do ministério recebido. Pelo
           mesmo nosso...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Heb. 5, 1-11</Text>
+      <Typography className="em">Heb. 5, 1-11</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B, Ap.º Paulo aos Hebreus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Omnis póntifex ex homínibus assúmptus, pro homínibus
           constitúitur in iis, quæ sunt ad Deum, ut ófferat dona, et sacrifícia
           pro peccátis: qui condolére possit iis, qui ígnorant, et errant:
@@ -76,8 +76,8 @@ export default function PageJesuseternosacerdote() {
           causa salútis ætérnæ, appelátus a Deo póntifex juxta órdinem
           Melchísedech. De quo nobis grandis sermo, et ininterpretábilis ad
           dicéndum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Todo o pontífice é escolhido entre os homens e
           estabelecido para os homens no que respeita às suas relações com Deus,
           a fim de que ofereça dons e sacrifícios pelos pecados, e se compadeça
@@ -96,89 +96,89 @@ export default function PageJesuseternosacerdote() {
           sendo chamado por Deus Pontífice segundo a ordem de Melquisedeque:
           sobre cujo assunto tínhamos muito a dizer a respeito de coisas
           difíceis de explicar.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Lc. 4, 18</Text>
+      <Typography className="em">Lc. 4, 18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Spíritus Dómini super me: propter quod unxit me.
-          <Text className="versicle"> ℣. </Text>Evangelizáre paupéribus misit
+          <Typography className="versicle"> ℣. </Typography>Evangelizáre paupéribus misit
           me, sanáre contrítos corde.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O Espírito do Senhor repousou sobre mim: e ungiu-me. Enviou-me a
           evangelizar os pobres e a sarar os contritos de coração.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         Após a Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
-      </Text>
+      </Typography>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 9, 34 & 36</Text>
+      <Typography className="em">Sl. 9, 34 & 36</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exsúrge, Dómine Deus, exaltétur manus tua: ne obliviscáris páuperum.
-          <Text className="versicle"> ℣. </Text>Vide quóniam tu labórem et
+          <Typography className="versicle"> ℣. </Typography>Vide quóniam tu labórem et
           dolórem consíderas:
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Tibi derelíctus est pauper: órphano tu eris adjútor.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Erguei-Vos, ó Senhor Deus: elevai a vossa mão: não olvideis os pobres.
-          <Text className="versicle"> ℣. </Text>Pois Vós apreciais e considerais
+          <Typography className="versicle"> ℣. </Typography>Pois Vós apreciais e considerais
           o trabalho e a dor.
-          <Text className="versicle"> ℣. </Text>A Vós se abandona o infeliz:
+          <Typography className="versicle"> ℣. </Typography>A Vós se abandona o infeliz:
           sois amparo do órfão.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         No Tempo Pascal omite-se o Gradual e o Trato, e diz-se:
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Hebr. 7, 24</Text> Jesus autem eo quod máneat
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Hebr. 7, 24</Typography> Jesus autem eo quod máneat
           in ætérnum, sempitérnum habet sacerdótium. Allelúja.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Luc. 4, 18</Text> Spíritus Dómini super me:
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Luc. 4, 18</Typography> Spíritus Dómini super me:
           propter quod unxit me, evangelizáre paupéribus misit me, sanáre
           contrítos corde. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Heb. 7, 24</Text> Jesus, porque permanece
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Heb. 7, 24</Typography> Jesus, porque permanece
           para sempre, tem um sacerdócio sempiterno. Aleluia.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Lc. 4, 18</Text> O Espírito do Senhor repousou
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Lc. 4, 18</Typography> O Espírito do Senhor repousou
           sobre mim: e ungiu-me, mandando-me evangelizar os pobres e sarar os
           contritos de coração. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 22, 14-20</Text>
+      <Typography className="em">Lc. 22, 14-20</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Discúbuit Jesus, et duódecim Apóstoli cum eo. Et ait
           illis: Desidério desiderávi hoc Pascha manducáre vobíscum, antequam
           pátiar. Dico enim vobis, quia ex hoc non manducábo illud, donec
@@ -189,8 +189,8 @@ export default function PageJesuseternosacerdote() {
           vobis datur: hoc fácite in meam commemoratiónem. Simíliter et cálicem,
           postquam cœnávit, dicens: Hic est calix novum testaméntum in sánguine
           meo, qui pro vobis fundétur.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, assentou-se Jesus à mesa e com Ele os Doze Apóstolos. E
           disse-lhes Jesus: «Tenho desejado ardentemente comer convosco esta
           Páscoa antes de morrer; pois, digo-vos, não beberei mais do fruto da
@@ -199,71 +199,71 @@ export default function PageJesuseternosacerdote() {
           por vós. Fazei isto em memória de mim». Tomou, também, igualmente o
           cálice depois de cear e disse: «Este cálice é o Novo Testamento no meu
           sangue, que será derramado por vós».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Heb. 10, 12 & 14</Text>
+      <Typography className="em">Heb. 10, 12 & 14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Christus unam pro peccátis ófferens hóstiam, in sempitérnum sedet in
           déxtera Dei: una enim oblatióne consummávit in ætérnum sanctificátos.
           (T. P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Cristo, tendo oferecido uma hóstia pelos pecados, está assentado para
           sempre à direita de Deus; porquanto com uma só oblação consumou
           eternamente os que foram santificados (T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc múnera, Dómine, mediátor noster Jesus Christus tibi reddat
           accépta: et nos, una secum, hóstias tibi gratas exhíbeat: Qui tecum
           vivit et regnat...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que o nosso mediador Jesus Cristo torne agradáveis a Vós estes dons, ó
           Senhor, e que nos ofereça juntamente consigo como hóstias a Vós
           agradáveis. O qual convosco vive e reina...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">1 Cor. 11, 24 & 25</Text>
+      <Typography className="em">1 Cor. 11, 24 & 25</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hoc Corpus, quod pro vobis tradétur: hic calix novi testaménti est in
           meo sánguine, dicit Dóminus: hoc fácite, quotiescúmque súmitis, in
           meam commemoratiónem. (T. P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Isto é o meu Corpo, que será entregue por amor de vós: Este cálice é a
           nova aliança no meu sangue, diz o Senhor; fazei isto em minha memória
           todas as vezes que o beberdes. (T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vivíficet nos, quǽsumus, Dómine, divína quam obtúlimus et súmpsimus
           hóstia: ut, perpétua tibi caritáte conjúncti, fructum, qui semper
           máneat, afferámus. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos rogamos, Senhor, que, a hóstia divina, que oferecemos e recebemos,
           nos vivifique, de modo que a Vós unidos pela perpétua caridade,
           produzamos fruto que sempre permaneça. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

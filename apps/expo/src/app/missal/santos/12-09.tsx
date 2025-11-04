@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page1209() {
     <PageWrapper>
       <H1 text="Segundo Dia na Oitava, a 9 de Dezembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         A Igreja prolonga durante oito dias a festa da vitória alcançada por
         Maria sobre o demónio, e retoma a Missa de ontem. As festas principais
         da Santíssima Virgem são a Assunção e a Imaculada Conceição, ambas de
@@ -18,7 +18,7 @@ export default function Page1209() {
         cantado nas reuniões mais solenes do culto. Preparemo-nos para o
         Nascimento de Jesus em nossos corações imitando, embora longe, algo da
         pureza de sua Mãe.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

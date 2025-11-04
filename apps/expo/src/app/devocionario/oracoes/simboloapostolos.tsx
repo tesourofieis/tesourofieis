@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function PageSimboloapostolos() {
       <H1 text="Símbolo dos Apóstolos" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Credo in Deum, Patrem omnipoténtem, Creatórem cæli et terræ. Et in
           Jesum Christum, Fílium ejus únicum, Dóminùm nostrum: qui concéptus est
           de Spíritu Sancto, natus ex María Vírgine, passus sub Pontio Piláto,
@@ -18,8 +18,8 @@ export default function PageSimboloapostolos() {
           omnipoténtis: inde ventúrus est judicáre vivos et mórtuos. Credo in
           Spíritum Sanctum, sanctam Ecclésiam cathólicam, Sanctórum communionem,
           remissiónem peccatórum, carnis resurrectiónem, vitam ætérnam. Amen.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Creio em Deus, Pai todo-poderoso, Criador do Céu e da Terra; e em
           Jesus Cristo, seu único Filho, Nosso Senhor, que foi concebido pelo
           poder do Espírito Santo; nasceu da Virgem Maria; padeceu sob Pôncio
@@ -29,7 +29,7 @@ export default function PageSimboloapostolos() {
           vivos e os mortos. Creio no Espírito Santo, na santa Igreja Católica;
           na comunhão dos Santos; na remissão dos pecados; na ressurreição da
           carne; na vida eterna. Amen.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

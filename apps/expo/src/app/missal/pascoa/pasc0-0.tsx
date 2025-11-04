@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,100 +10,100 @@ export default function PagePasc00() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 138, 18 & 5-6</Text>
+      <Typography className="em">Sl. 138, 18 & 5-6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Resurréxi, et adhuc tecum sum, allelúja: posuísti super me manum tuam,
           allelúja: mirábilis facta est sciéntia tua, allelúja, allelúja.{" "}
-          <Text className="latin">Ps. ibid., 1-2</Text> Dómine, probásti me et
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Dómine, probásti me et
           cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Ressuscitei e ainda estou convosco, aleluia. Pusestes sobre mim a
           vossa mão, aleluia. Vossa sabedoria mostrou-se admirável, aleluia,
-          aleluia. <Text className="vernacular">Sl. ibid., 1-2</Text>{" "}
+          aleluia. <Typography className="vernacular">Sl. ibid., 1-2</Typography>{" "}
           Experimentastes-me, Senhor, e ficastes-me conhecendo: Ficastes
           conhecendo quando me deito e quando me levanto.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui hodiérna die per Unigénitum tuum æternitátis nobis áditum,
           devícta morte, reserásti: vota nostra, quæ præveniéndo aspíras, étiam
           adjuvándo proséquere. Per eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que neste dia pelo triunfo do vosso Filho Unigénito, vencedor
           da morte, nos abristes o caminho da eternidade, auxiliai-nos com vosso
           socorro a realizar os votos que nos inspirais com vossa graça. Pelo
           mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Cor. 5, 7-8</Text>
+      <Typography className="em">1 Cor. 5, 7-8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fatres: Expurgáte vetus ferméntum, ut sitis nova conspérsio, sicut
           estis ázymi. Etenim Pascha nostrum immolátus est Christus. Itaque
           epulémur: non in ferménto véteri, neque in ferménto malítiae et
           nequitiæ: sed in ázymis sinceritátis et veritátis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Agora, que já sois ázimos, limpai-vos do fermento velho,
           para que vos torneis massa nova; pois Cristo, nossa Páscoa, foi
           imolado. Celebremos, então, a festa, não com o fermento da malícia e
           perversidade, mas com os ázimos da sinceridade e verdade.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 117, 24 & 1</Text>
+      <Typography className="em">Sl. 117, 24 & 1</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia
           ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eis o dia que o Senhor fez: exultemos e alegremo-nos n’Ele.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Louvai o Senhor, porque Ele é bom: e porque a sua misericórdia é
           eterna.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">1 Cor. 5, 7</Text> Pascha nostrum immolátus
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">1 Cor. 5, 7</Typography> Pascha nostrum immolátus
           est Christus.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">1 Cor. 5, 7</Text> Cristo nossa Páscoa,
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">1 Cor. 5, 7</Typography> Cristo nossa Páscoa,
           foi imolado.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Sequência" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Víctimæ pascháli laudes ímmolent Christiáni. Agnus rédemit oves:
           Christus ínnocens Patri reconciliávit peccatóres. Mors et vita duéllo
           conflixére mirándo: dux vitæ mórtuus regnat vivus. Dic nobis, María,
@@ -111,8 +111,8 @@ export default function PagePasc00() {
           resurgéntis. Angélicos testes, sudárium et vestes. Surréxit Christus,
           spes mea: præcédet vos in Galilǽam. Scimus Christum surrexísse a
           mórtuis vere: tu nobis, victor Rex, miserére. Amen. Allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Venham os cristãos oferecer louvores à Vítima Pascal! O Cordeiro remiu
           as ovelhas; Cristo inocente reconciliou os pecadores com o Pai. A
           morte e a vida travaram combate estupendo: o autor da vida morreu, mas
@@ -122,23 +122,23 @@ export default function PagePasc00() {
           minha esperança, que precederá na Galileia os discípulos. Sabemos que
           Cristo ressuscitou dos mortos, verdadeiramente. Ó Rei vencedor, tende
           piedade de nós. Amen. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mc. 16, 1-7</Text>
+      <Typography className="em">Mc. 16, 1-7</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Marcum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Marcos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: María Magdaléne et María Jacóbi et Salóme emérunt
           arómata, ut venientes úngerent Jesum. Et valde mane una sabbatórum,
           veniunt ad monuméntum, orto jam sole. Et dicébant ad ínvicem: Quis
@@ -149,8 +149,8 @@ export default function PagePasc00() {
           quǽritis Nazarénum, crucifíxum: surréxit, non est hic, ecce locus, ubi
           posuérunt eum. Sed ite, dícite discípulis ejus et Petro, quia præcédit
           vos in Galilǽam: ibi eum vidébitis, sicut dixit vobis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, Maria Madalena, Maria, mãe de Tiago, e Salomé compraram
           perfumes para ungir Jesus. Partindo, pois, de manhã cedo, no primeiro
           dia depois do sábado, chegaram ao sepulcro, tendo já nascido o sol. E
@@ -163,67 +163,67 @@ export default function PagePasc00() {
           aqui: eis o lugar onde fora colocado! Ide, pois, dizer a seus
           discípulos e a Pedro, que Ele vos precede na Galileia e lá O vereis,
           como vos disse».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 75, 9-10</Text>
+      <Typography className="em">Sl. 75, 9-10</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Terra trémuit, et quiévit, dum resúrgeret in judício Deus, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A terra tremeu e aquietou-se, logo que Deus se ergueu para a julgar,
           aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Súscipe, quǽsumus, Dómine, preces pópuli tui cum oblatiónibus
           hostiárum: ut, paschálibus initiáta mystériis, ad æternitátis nobis
           medélam, te operánte, profíciant. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, dignai-Vos aceitar com a oferta destas hóstias as preces do
           vosso povo, para que os mystérios da Páscoa, agora iniciados, nos
           sirvam, com vosso auxílio, de remédio para a eternidade. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">1 Cor. 5, 7-8</Text>
+      <Typography className="em">1 Cor. 5, 7-8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Pascha nostrum immolátus est Christus, allelúja: itaque epulémur in
           ázymis sinceritátis et veritátis, allelúja, allelúja, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Cristo, nossa Páscoa, foi imolado, aleluia. Celebremos, pois, a Páscoa
           com os ázimos da sinceridade e verdade, aleluia, aleluia, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Spíritum nobis, Dómine, tuæ caritátis infúnde: ut, quos sacraméntis
           paschálibus satiásti, tua fácias pietáte concordes. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Infundi em nós, Senhor, o espírito da vossa caridade, para que todos
           aqueles que foram alimentados com vossos sacramentos nesta festa
           pascal vivam unidos em perfeita concórdia, pela vossa bondade. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

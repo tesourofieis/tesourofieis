@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ export default function Page0515() {
     <PageWrapper>
       <H1 text="S. João Baptista de la Salle, Conf., a 15 de Maio" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Nascido em Reims, a 30 de Abril de 1651, duma ilustre família, S. João
         Baptista de la Salle, tornou-se caro a todos, desde a sua infância,
         pelas virtudes de sua alma, a doçura de sua natureza e vivacidade de
@@ -33,20 +33,20 @@ export default function Page0515() {
         sua obra, no universo inteiro. À imitação do Santo, «tenhamos grande
         zelo em procurar a glória de Deus salvando-lhes almas, a fim de
         merecermos igual recompensa no céu».
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui, ad christiánam páuperum eruditiónem et ad juvéntam in via
           veritátis firmándam, sanctum Joánnem Baptístam Confessórem excitásti,
           et novam per eum in Ecclésia famíliam collegísti: concéde propítius;
           ut ejus intercessióne et exémplo, stúdio glóriæ tuæ in animárum salúte
           fervéntes, ejus in cœlis corónæ partícipes fíeri valeámus. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que para o ensino dos pobres e para a firmeza dos jovens no
           caminho da verdade fizestes aparecer o Santo Confessor João Baptista,
           pelo qual fundastes uma nova família na Igreja, concedei-nos propício
@@ -54,23 +54,23 @@ export default function Page0515() {
           pelo zelo da glória de Deus para a salvação das almas, a fim de que
           possamos tornar-nos seus companheiros de glória no céu. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 18, 1-5</Text>
+      <Typography className="em">Mt. 18, 1-5</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis,
           putas, major est in regno cœlórum? Et ádvocans Jesus párvulum, státuit
           eum in médio eórum et dixit: Amen, dico vobis, nisi convérsi fuéritis
@@ -78,8 +78,8 @@ export default function Page0515() {
           Quicumque ergo humiliáverit se sicut párvulus iste, hic est major in
           regno cœlórum. Et qui suscéperit unum párvulum talem in nómine meo, me
           súscipit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, aproximaram-se de Jesus os seus discípulos,
           dizendo-Lhe: «Qual pensais Vós que é o maior no reino dos céus?». E
           Jesus, havendo chamado um pequeno, colocou-o no meio deles e disse:
@@ -88,7 +88,7 @@ export default function Page0515() {
           fizer pequeno, como este menino, esse é o maior no reino dos céus; e
           quem receber um pequeno, como este, em meu nome, recebe-me a mim
           mesmo».
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

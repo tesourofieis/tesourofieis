@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,111 +10,111 @@ export default function PageAdv30() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Fl. 4, 4–6</Text>
+      <Typography className="em">Fl. 4, 4–6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Gaudéte in Dómino semper: íterum dico, gaudéte. Modéstia vestra nota
           sit ómnibus homínibus: Dóminus enim prope est. Nihil sollíciti sitis:
           sed in omni oratióne petitiónes vestræ innotéscant apud Deum.{" "}
-          <Text className="latin">Ps. 84, 2</Text> Benedixísti, Dómine, terram
+          <Typography className="latin">Ps. 84, 2</Typography> Benedixísti, Dómine, terram
           tuam: avertísti captivitátem Jacob.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Regozijai-vos incessantemente no Senhor. Eu vo-lo repito:
           regozijai-vos. Que todos os homens vejam a vossa modéstia, Pois o
           Senhor está perto. Não vos inquieteis com coisa alguma; mas mostrai a
           Deus nas vossas orações e súplicas todas vossas necessidades.{" "}
-          <Text className="vernacular">Sl. 84, 2</Text> Abençoastes, Senhor, a
+          <Typography className="vernacular">Sl. 84, 2</Typography> Abençoastes, Senhor, a
           vossa terra: e livrastes Jacob do cativeiro.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Aurem tuam, quǽsumus, Dómine, précibus nostris accómmoda: et mentis
           nostræ ténebras, grátia tuæ visitatiónis illústra: Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ouvi, Senhor, Vos suplicamos, as nossas orações; e, pela graça da
           vossa visita, esclarecei as trevas da nossa alma: Vós, que, sendo
           Deus, viveis e...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Fl. 4, 4–7</Text>
+      <Typography className="em">Fl. 4, 4–7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Lectio Epístolæ beati Pauli Apóstoli ad Philippénses.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Gaudéte in Dómino semper: íterum dico, gaudéte. Modéstia
           vestra nota sit ómnibus homínibus: Dóminus prope est. Nihil sollíciti
           sitis: sed in omni oratióne et obsecratióne, cum gratiárum actióne,
           petitiónes vestræ innotéscant apud Deum. Et pax Dei, quæ exsúperat
           omnem sensum, custódiat corda vestra et intellegéntias vestras, in
           Christo Jesu, Dómino nostro.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Regozijai-vos incessantemente no Senhor. Eu vo-lo repito:
           regozijai-vos. Que todos os homens vejam a vossa modéstia. Não vos
           inquieteis com coisa alguma; mas mostrai a Deus pelas vossas orações e
           súplicas todas vossas necessidades. A paz de Deus, que ultrapassa toda
           nossa inteligência, guardará os vossos corações e inteligências em
           Jesus Cristo, nosso Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 79, 2, 3 & 2</Text>
+      <Typography className="em">Sl. 79, 2, 3 & 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Qui sedes, Dómine, super Chérubim, éxcita poténtiam tuam, et veni.
-          <Text className="versicle"> ℣. </Text>Qui regis Israël, inténde: qui
+          <Typography className="versicle"> ℣. </Typography>Qui regis Israël, inténde: qui
           dedúcis, velut ovem, Joseph.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, que estais assentado acima dos Querubins, mostrai o vosso
-          poder, e vinde.<Text className="versicle"> ℣. </Text>Ouvi, ó vós, que
+          poder, e vinde.<Typography className="versicle"> ℣. </Typography>Ouvi, ó vós, que
           governais Israel; ó vós, que conduzis José, como um pastor conduz um
           rebanho.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Excita,
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Excita,
           Dómine, potentiam tuam, et veni, ut salvos fácias nos. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Mostrai,
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Mostrai,
           Senhor, o vosso poder, e vinde, para que sejamos salvos. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 1, 19–28</Text>
+      <Typography className="em">Jo. 1, 19–28</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo tempore: Misérunt Judǽi ab Jerosólymis sacerdótes et levítas
           ad Joánnem, ut interrogárent eum: Tu quis es? Et conféssus est, et non
           negávit: et conféssus est: Quia non sum ego Christus. Et
@@ -129,8 +129,8 @@ export default function PageAdv30() {
           post me ventúrus est, qui ante me factus est: cujus ego non sum dignus
           ut solvam ejus corrígiam calceaménti. Hæc in Bethánia facta sunt trans
           Jordánem, ubi erat Joánnes baptízans.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, os judeus enviaram de Jerusalém alguns sacerdotes e
           levitas a João, perguntando-lhe: «Quem és tu?». Ele confessou e não
           negou. Ele confessou: «Eu não sou Cristo». E de novo o interrogaram:
@@ -146,68 +146,68 @@ export default function PageAdv30() {
           havia de vir depois de mim, mas que já existia antes de mim, e a quem
           não sou digno de desatar as correias das sandálias». Isto aconteceu em
           Betânia, além-Jordão, onde João baptizava.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 84, 2</Text>
+      <Typography className="em">Sl. 84, 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob:
           remisísti iniquitatem plebis tuæ.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Abençoastes Senhor, a vossa terra; e livrastes Jacob do cativeiro:
           perdoastes a iniquidade do vosso povo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Devotiónis nostræ tibi, quǽsumus, Dómine, hóstia iúgiter immolétur:
           quæ et sacri péragat institúta mystérii, et salutáre tuum in nobis
           mirabíliter operétur. Per Dominum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicamos, fazei que a nossa piedade Vos ofereça
           continuamente o sacrifício desta hóstia, para que ela nos alcance
           aquelas graças para que instituístes estes sagrados mystérios,
           produzindo em nós de uma maneira admirável a salvação que esperamos da
           vossa bondade. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Is. 35, 4</Text>
+      <Typography className="em">Is. 35, 4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dícite: pusillánimes, confortámini et nolíte timére: ecce, Deus noster
           véniet et salvábit nos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dizei:«Pusilânimes, confortai-vos e nada receeis: Eis que vem o nosso
           Deus e nos salvará».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Implorámus, Dómine, cleméntiam tuam: ut hæc divína subsídia, a vítiis
           expiátos, ad festa ventúra nos præparent. Per Dominum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Imploramos, Senhor, a vossa clemência, a fim de que estes divinos
           mystérios, purificando-nos dos nossos vícios, nos Preparem para a
           solenidade que se aproxima. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

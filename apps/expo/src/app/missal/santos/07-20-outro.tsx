@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,13 +9,13 @@ export default function Page0720Outro() {
     <PageWrapper>
       <H1 text="Santa Margarida, Virgem e Mártir, a 20 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Instruida, pela ama, na religião cristã, Margarida pereceu pela espada
         durante a última perseguição geral, em Antioquia da Pisídia, cerca de
         255 a 275. Seu culto passou do Oriente ao Ocidente no tempo das
         Cruzadas. É sobretudo invocada pelas senhoras prestes a serem mães, e
         está na lista dos Quatorze Santos Auxiliares.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

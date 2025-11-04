@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,53 +10,53 @@ export default function PagePent50() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 26, 7 & 9</Text>
+      <Typography className="em">Sl. 26, 7 & 9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exáudi, Dómine, vocem meam, qua clamávi ad te: adjútor meus esto, ne
           derelínquas me neque despícias me, Deus, salutáris meus.{" "}
-          <Text className="latin">Ps. ibid., 1</Text> Dóminus illuminátio mea et
+          <Typography className="latin">Ps. ibid., 1</Typography> Dóminus illuminátio mea et
           salus mea, quem timébo?
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ouvi, Senhor, a oração com que Vos imploro. Sede o meu auxílio: me não
           abandoneis, nem me desprezeis, ó meu Deus e meu Salvador!{" "}
-          <Text className="vernacular">Sl. ibid., 1</Text> O Senhor é a minha
+          <Typography className="vernacular">Sl. ibid., 1</Typography> O Senhor é a minha
           luz e a minha salvação: a quem, pois, temerei?
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui diligéntibus te bona invisibília præparásti: infúnde
           córdibus nostris tui amóris afféctum; ut te in ómnibus et super ómnia
           diligéntes, promissiónes tuas, quæ omne desidérium súperant,
           consequámur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que preparastes os bens invisíveis para aqueles que Vos amam,
           infundi nos nossos corações os afectos do vosso amor, a fim de que,
           amando-Vos em todas as coisas e acima de todas elas, consigamos
           alcançar os bens prometidos, os quais ultrapassam todos nossos
           desejos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Pe. 3, 8-15</Text>
+      <Typography className="em">1 Pe. 3, 8-15</Typography>
 
       <Language>
-        <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
-        <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
           Caríssimi: Omnes unánimes in oratióne estóte, compatiéntes,
           fraternitátis amatóres, misericórdes, modésti, húmiles: non reddéntes
           malum pro malo, nec maledíctum pro maledícto, sed e contrário
@@ -69,8 +69,8 @@ export default function PagePent50() {
           boni æmulatóres fuéritis? Sed et si quid patímini propter justítiam,
           beáti. Timórem autem eórum ne timuéritis: et non conturbémini. Dóminum
           autem Christum sanctificáte in córdibus vestris.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimos: Sede todos unidos na oração e igualmente compassivos,
           amando-vos como irmãos; sede misericordiosos, modestos e humildes, não
           retribuindo o mal com o mal, nem a injúria com a injúria; mas, pelo
@@ -85,51 +85,51 @@ export default function PagePent50() {
           praticar o bem? Mas se, apesar disso, sofrerdes por amor da justiça,
           sereis bem-aventurados. Não receeis, pois, os males, nem vos
           perturbeis; santificai nosso Senhor Jesus Cristo nos vossos corações.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 83, 10 & 9</Text>
+      <Typography className="em">Sl. 83, 10 & 9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Protéctor noster, áspice, Deus, et réspice super servos tuos.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Dómine, Deus virtútum, exáudi preces servórum tuórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que sois o nosso protector, fitai-nos; volvei vossos olhos
-          para os vossos servos.<Text className="versicle"> ℣. </Text>
+          para os vossos servos.<Typography className="versicle"> ℣. </Typography>
           Senhor, Deus dos exércitos, ouvi as preces dos vossos servos.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 20, 1</Text> Dómine, in virtúte tua
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 20, 1</Typography> Dómine, in virtúte tua
           lætábitur rex: et super salutáre tuum exsultábit veheménter. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 20, 1</Text> Senhor, o rei
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 20, 1</Typography> Senhor, o rei
           regozija-se com vosso poder, e, vendo-se salvo por Vós, exultará em
           transportes de alegria! Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 5, 20-24</Text>
+      <Typography className="em">Mt. 5, 20-24</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Nisi abundáverit
           justítia vestra plus quam scribárum et pharisæórum, non intrábitis in
           regnum cœlórum. Audístis, quia dic tum est antíquis: Non occídes: qui
@@ -140,8 +140,8 @@ export default function PagePent50() {
           fúeris, quia frater tuus habet áliquid advérsum te: relínque ibi munus
           tuum ante altáre et vade prius reconciliári fratri tuo: et tunc
           véniens ófferes munus tuum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, Jesus disse aos seus discípulos: Se a vossa justiça não
           for mais perfeita do que a dos escribas e a dos fariseus, não
           entrareis no reino dos céus. Sabeis o que foi dito aos antigos: «Não
@@ -152,70 +152,70 @@ export default function PagePent50() {
           oferta ao altar, e aí te recordares de que teu irmão tem alguma coisa
           contra ti, deixa a tua oferta diante do altar e vai primeiramente
           reconciliar-te com teu irmão. Depois vem e oferece a tua dádiva.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 15, 7 & 8</Text>
+      <Typography className="em">Sl. 15, 7 & 8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Benedícam Dóminum, qui tríbuit mihi intelléctum: providébam Deum in
           conspéctu meo semper: quóniam a dextris est mihi, ne commóvear.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bendirei o Senhor, que me deu a inteligência: tenho sempre o Senhor na
           minha presença, pois está à minha dextra para que nunca seja abalado.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Propitiáre, Dómine, supplicatiónibus nostris: et has oblatiónes
           famulórum famularúmque tuárum benígnus assúme; ut, quod sínguli
           obtulérunt ad honórem nóminis tui, cunctis profíciat ad salútem. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, em virtude das nossas orações, tornai-Vos propício às nossas
           súplicas e recebei benigno estas oblações dos vossos servos e servas,
           a fim de que aquilo que Vos é oferecido por cada um de nós em
           homenagem ao vosso nome seja proveitoso para a salvação de todos. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 26, 4</Text>
+      <Typography className="em">Sl. 26, 4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Unam pétii a Dómino, hanc requíram: ut inhábitem in domo Dómini
           ómnibus diébus vitæ meæ.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Uma só coisa pedi a Deus e pedi-la-ei sempre: habitar todos os dias da
           minha vida na casa do Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quos cœlésti, Dómine, dono satiásti: præsta, quǽsumus; ut a nostris
           mundémur occúltis et ab hóstium liberémur insídiis. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós nos saciastes, Senhor, com os dons celestiais; e permiti, Vos
           suplicamos, que sejamos purificados das faltas ocultas e livres das
           ciladas dos inimigos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

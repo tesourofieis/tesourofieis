@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,57 +10,57 @@ export default function PagePent100() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 54, 17, 18, 20 & 23</Text>
+      <Typography className="em">Sl. 54, 17, 18, 20 & 23</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cum clamárem ad Dóminum, exaudívit vocem meam, ab his, qui
           appropínquant mihi: et humiliávit eos, qui est ante sǽcula et manet in
           ætérnum: jacta cogitátum tuum in Dómino, et ipse te enútriet.{" "}
-          <Text className="latin">Ps. ibid., 2</Text> Exáudi, Deus, oratiónem
+          <Typography className="latin">Ps. ibid., 2</Typography> Exáudi, Deus, oratiónem
           meam, et ne despéxeris deprecatiónem meam: inténde mihi et exáudi me.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Como invocasse o Senhor, ouviu Ele a minha voz e protegeu-me contra os
           que me combatem. Aquele que existia antes dos séculos e subsistirá
           eternamente humilhou-os. Depositai nas mãos do Senhor todas as
           preocupações, pois Ele vos sustentará.{" "}
-          <Text className="vernacular">Sl. ibid., 2</Text> Ouvi, Senhor, a minha
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Ouvi, Senhor, a minha
           oração e não desprezeis a minha humilde súplica: escutai-me, ouvi-me.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui omnipoténtiam tuam parcéndo máxime et miserándo maniféstas:
           multíplica super nos misericórdiam tuam; ut, ad tua promíssa
           curréntes, cœléstium bonórum fácias esse consórtes. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que manifestais principalmente o vosso poder perdoando ao
           pecador e compadecendo-Vos das suas misérias, multiplicai sobre nós a
           abundância da vossa misericórdia, a fim de que, suspirando durante
           esta vida pelos bens que nos prometestes, nos tornamos participantes
           deles no céu. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Cor 12, 2-11</Text>
+      <Typography className="em">1 Cor 12, 2-11</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Scitis, quóniam, cum gentes essétis, ad simulácra muta prout
           ducebámini eúntes. Ideo notum vobisfacio, quod nemo in Spíritu Dei
           loquens, dicit anáthema Jesu. Et nemo potest dícere, Dóminus Jesus,
@@ -74,8 +74,8 @@ export default function PagePent100() {
           prophétia, álii discrétio spirítuum, álii génera linguárum, álii
           interpretátio sermónum. Hæc autem ómnia operátur unus atque idem
           Spíritus, dívidens síngulis, prout vult.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Recordai-vos de que, quando éreis pagãos, íeis aos ídolos
           mudos, sempre que vos conduziam. Ora, eu vos digo que ninguém,
           inspirado pelo Espírito de Deus, poderá anatematizar Jesus; nem
@@ -93,52 +93,52 @@ export default function PagePent100() {
           dom de as interpretar. É, porém, só um e o mesmo Espírito que produz
           todos este dons, distribuindo-os a cada um em particular como Lhe
           apraz.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 16, 8 & 2</Text>
+      <Typography className="em">Sl. 16, 8 & 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum prótege
-          me.<Text className="versicle"> ℣. </Text>De vultu tuo judícium meum
+          me.<Typography className="versicle"> ℣. </Typography>De vultu tuo judícium meum
           pródeat: óculi tui vídeant æquitátem.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Guardai-me, Senhor, como a pupila olhos: acolhei-me à sombra das
-          vossas o Senhor.<Text className="versicle"> ℣. </Text>Que os vossos
+          vossas o Senhor.<Typography className="versicle"> ℣. </Typography>Que os vossos
           lábios pronunciem o meu juízo: e que os vossos olhos vejam a minha
           justiça.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps 64, 2</Text> Te decet hymnus, De us, in
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps 64, 2</Typography> Te decet hymnus, De us, in
           Sion: et tibi redde tu votum in Jerúsalem. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Ps 64, 2</Text> Diante de Vós, Senhor, é
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Ps 64, 2</Typography> Diante de Vós, Senhor, é
           conveniente cantar hinos em Sião: diante de Vós deve cada um cumprir
           os seus votos em Jerusalém. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 18, 9-14</Text>
+      <Typography className="em">Lc. 18, 9-14</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus ad quosdam, qui in se confidébant tamquam
           justi et aspernabántur céteros, parábolam istam: Duo hómines
           ascendérunt in templum, ut orárent: unus pharisǽus, et alter
@@ -150,8 +150,8 @@ export default function PagePent100() {
           peccatóri. Dico vobis: descéndit hic justificátus in domum suam ab
           illo: quia omnis qui se exáltat, humiliábitur: et qui se humíliat,
           exaltábitur.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus esta parábola a uns certos que se presumiam
           justos e punham a confiança em si próprios, desprezando os outros:
           «dois homens subiram ao templo a orar, sendo um fariseu e o outro
@@ -164,69 +164,69 @@ export default function PagePent100() {
           tende piedade de mim, que sou um pobre pecador». Eu vos declaro, disse
           Jesus, que este voltou para sua casa justificado, mas não o outro;
           pois quem se eleva será humilhado, e quem se humilha será exaltado».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 24, 1-3</Text>
+      <Typography className="em">Sl. 24, 1-3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non
           erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te
           exspéctant, non confundéntur.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A Vós elevei a minha alma. O Deus, confio em Vós: não permitireis que
           e confundido e envergonhado: nem vencido meus inimigos; porquanto
           aqueles que em Vós confiam não serão confundidos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tibi, Dómine, sacrifícia dicáta reddántur: quæ sic ad honórem nóminis
           tui deferénda tribuísti, ut eadem remédia fíeri nostra præstáres. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A Vós, Senhor, é devida a homenagem destes sacrifícios, pois fostes
           Vós que permitindo-nos que os oferecêssemos em glória do vosso nome,
           os tornastes remédio das nossas almas. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 50, 21</Text>
+      <Typography className="em">Sl. 50, 21</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Acceptábis sacrificium justítiæ, oblatiónes et holocáusta, super
           altáre tuum, Dómine.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dignai-Vos, Senhor, aceitar sobre o vosso Altar o sacrifício da
           justiça, as ofertas e os holocaustos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quǽsumus, Dómine, Deus noster: ut, quos divínis reparáre non désinis
           sacraméntis, tuis non destítuas benígnus auxíliis. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos suplicamos, ó Senhor, nosso Deus, não priveis do vosso auxílio
           àqueles a quem não cessais de alimentar com os divinos sacramentos.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -24,7 +24,7 @@ function extractTextFromNestedTags(content: string): string[] {
   let startIndex = 0;
 
   while (startIndex < content.length) {
-    const openTag = content.indexOf("<Text", startIndex);
+    const openTag = content.indexOf("<Typography", startIndex);
     if (openTag === -1) break;
 
     const tagEnd = content.indexOf(">", openTag);
@@ -35,8 +35,8 @@ function extractTextFromNestedTags(content: string): string[] {
     let textContent = "";
 
     while (currentIndex < content.length && depth > 0) {
-      const nextOpen = content.indexOf("<Text", currentIndex);
-      const nextClose = content.indexOf("</Text>", currentIndex);
+      const nextOpen = content.indexOf("<Typography", currentIndex);
+      const nextClose = content.indexOf("</Typography>", currentIndex);
 
       if (nextClose === -1) break;
 
@@ -49,7 +49,8 @@ function extractTextFromNestedTags(content: string): string[] {
         // Found closing tag
         textContent += content.substring(currentIndex, nextClose);
         depth--;
-        currentIndex = nextClose + 7; // Skip '</Text>'
+        const closingTagLength = "</Typography>".length; // 13; generalize as const TAG_NAME = "Typography"; then `</${TAG_NAME}>`.length
+        currentIndex = nextClose + closingTagLength;
       }
     }
 
@@ -345,7 +346,7 @@ function buildJsonDocs(): void {
 
   if (fs.existsSync(jsonFilePath)) {
     fs.unlinkSync(jsonFilePath);
-    console.log(`🗑️ Removido arquivo JSON existente: ${jsonFilePath}`);
+    console.log(`🗑 Removido arquivo JSON existente: ${jsonFilePath}`);
   }
 
   let files: string[] = [];

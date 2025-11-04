@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,52 +10,52 @@ export default function PagePent10A() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 12, 6</Text>
+      <Typography className="em">Sl. 12, 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dómine, in tua misericórdia sperávi: exsultávit cor meum in salutári
           tuo: cantábo Dómino, qui bona tríbuit mihi.{" "}
-          <Text className="latin">Ps. ib., 1</Text> Usquequo, Dómine,
+          <Typography className="latin">Ps. ib., 1</Typography> Usquequo, Dómine,
           oblivísceris me in finem? usquequo avértis fáciem tuam a me?
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Senhor, esperei na vossa misericórdia: Meu coração exultou de alegria
           pela salvação que me alcançastes; louvarei o Senhor, que me encheu de
-          benefícios. <Text className="vernacular">Ps. ib., 1</Text> Até quando,
+          benefícios. <Typography className="vernacular">Ps. ib., 1</Typography> Até quando,
           Senhor, Vos esquecereis de mim? Esquecer-me-eis para sempre? Até
           quando afastareis de mim a vossa face?
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, in te sperántium fortitúdo, adésto propítius invocatiónibus
           nostris: et, quia sine te nihil potest mortális infírmitas, præsta
           auxílium grátiæ tuæ; ut, in exsequéndis mandátis tuis, et voluntáte
           tibi et actióne placeámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, fortaleza daqueles que em Vós esperam, sede propício às nossas
           preces; e, visto que sem o vosso auxílio nada pode a fraqueza humana,
           concedei-nos o socorro da vossa graça, para que, cumprindo os vossos
           mandamentos, Vos sejamos agradáveis com a nossa vontade e acções. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Jo. 4, 8-21</Text>
+      <Typography className="em">1 Jo. 4, 8-21</Typography>
 
       <Language>
-        <Text className="latin">Léctio Epístolæ beáti Joánni Apóstoli.</Text>
-        <Text className="vernacular">Lição da Ep.ª do B. Ap.º João.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Epístolæ beáti Joánni Apóstoli.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º João.</Typography>
+        <Typography className="latin">
           Caríssimi: Deus cáritas est. In hoc appáruit cáritas Dei in nobis,
           quóniam Fílium suum unigénitum misit Deus in mundum, ut vivámus per
           eum. In hoc est cáritas: non quasi nos dilexérimus Deum, sed quóniam
@@ -78,8 +78,8 @@ export default function PagePent10A() {
           díligit fratrem suum, quem videt, Deum, quem non videt, quómodo potest
           dilígere? Et hoc mandátum habémus a Deo: ut, qui diligit Deum, díligat
           et fratrem suum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimos: Deus é caridade. A caridade de Deus para connosco
           manifestou-se em Ele ter enviado ao mundo o seu Filho Unigénito, para
           que vivamos por Ele. E esta caridade consiste em que não fomos nós
@@ -104,51 +104,51 @@ export default function PagePent10A() {
           mentiroso; pois aquele que não ama o irmão, que está visível, decerto
           não pode amar a Deus, que é invisível. Recebemos de Deus este
           mandamento: «Aquele que ama a Deus deve também amar o seu próximo».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 40, 5 & 2</Text>
+      <Typography className="em">Sl. 40, 5 & 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ego dixi: Dómine, miserére mei: sana ánimam meam, quia peccávi tibi.
-          <Text className="versicle"> ℣. </Text>Beátus, qui intéllegit super
+          <Typography className="versicle"> ℣. </Typography>Beátus, qui intéllegit super
           egénum et páuperem: in die mala liberábit eum Dóminus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eu disse: Senhor, tende piedade de mim: curai a minha alma, porque
-          pequei contra Vós.<Text className="versicle"> ℣. </Text>
+          pequei contra Vós.<Typography className="versicle"> ℣. </Typography>
           Bem-aventurado aquele que pensa no pobre e no miserável, pois o Senhor
           o livrará no dia mau.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 5, 2</Text> Verba mea áuribus pércipe,
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 5, 2</Typography> Verba mea áuribus pércipe,
           Dómine: intéllege clamórem meum. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 5, 2</Text> Atendei às minhas
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 5, 2</Typography> Atendei às minhas
           palavras, Senhor! Ouvi o meu clamor. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 6, 36-42</Text>
+      <Typography className="em">Lc. 6, 36-42</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Estóte misericórdes,
           sicut et Pater vester miséricors est. Nolíte judicáre, et non
           judicabímini: nolíte condemnáre, et non condemnabímini. Dimíttite, et
@@ -163,8 +163,8 @@ export default function PagePent10A() {
           óculo tuo: ipse in oculo tuo trabem non videns? Hypócrita, ejice
           primum trabem de oculo tuo: et tunc perspícies, ut edúcas festúcam de
           óculo fratris tui.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Sede misericordiosos,
           como misericordioso é o vosso Pai. Não julgueis, e não sereis
           julgados. Não condeneis, e não sereis condenados. Perdoai, e sereis
@@ -180,65 +180,65 @@ export default function PagePent10A() {
           teu olho», se não vês a tranca que está no teu? Hipócrita, tira
           primeiramente a tranca do teu olho; depois cuidarás de tirar a palha
           do olho do teu irmão.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 5, 3-4</Text>
+      <Typography className="em">Sl. 5, 3-4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Inténde voci orationis meæ, Rex meus et Deus meus: quóniam ad te
           orábo, Dómine.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Atendei à minha súplica, ó meu Rei e meu Deus: pois é a Vós que dirijo
           a minha oração.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hóstias nostras, quǽsumus, Dómine, tibi dicátas placátus assúme: et ad
           perpétuum nobis tríbue proveníre subsídium. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aceitai benigno, Senhor, as ofertas que Vos oferecemos; e, Vos
           suplicamos, fazei que nos alcancem o vosso perpétuo auxílio. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 9, 2-3</Text>
+      <Typography className="em">Sl. 9, 2-3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Narrábo ómnia mirabília tua: lætábor et exsultábo in te: psallam
           nómini tuo, Altíssime.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Publicarei todas as vossas maravilhas: e alegrar-me-ei e rejubilarei
           em Vós! Cantarei louvores ao vosso nome, ó Altíssimo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tantis, Dómine, repléti munéribus: præsta, quǽsumus; ut et salutária
           dona capiámus, et a tua numquam laude cessémus. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Depois de havermos sido saciados com tantos dons, fazei, Senhor, Vos
           suplicamos, que nos sejam proveitosos e que nunca cessemos de Vos
           louvar. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

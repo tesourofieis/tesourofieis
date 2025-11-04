@@ -1,9 +1,10 @@
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import type { Mass } from "@tesourofieis/cal/observanceManager";
 import { Link } from "expo-router";
-import { Pressable, Text, View } from "react-native";
+import { Pressable, View } from "react-native";
 import { burgundy } from "config";
 import { COLORS } from "~/constants/Colors";
+import { Typography } from "./typography";
 
 export function getColor(color?: string) {
   switch (color) {
@@ -59,15 +60,15 @@ export default function PageLinkCard({
               <View className="flex flex-row justify-between items-center gap-1 mr-2">
                 <View className="flex-1">
                   <View className="flex flex-row">
-                    <Text className="text-pretty text-sm text-sepia-600 dark:text-sepia-200">
+                    <Typography className="text-pretty text-sm text-sepia-600 dark:text-sepia-200">
                       {description || ""}
-                    </Text>
+                    </Typography>
                   </View>
 
                   <View className="flex flex-row items-center gap-2">
-                    <Text className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
+                    <Typography className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
                       {oratio.name || ""}
-                    </Text>
+                    </Typography>
                   </View>
                 </View>
 
@@ -95,26 +96,26 @@ export default function PageLinkCard({
                 <View className="flex-1">
                   <View className="px-3 flex flex-row items-center gap-2">
                     <FontAwesome name="circle" color={getColor(mass.color)} />
-                    <Text className="font-serif text-sm text-sepia-600 dark:text-sepia-200">
+                    <Typography className="font-serif text-sm text-sepia-600 dark:text-sepia-200">
                       {description || "Missa"}
-                    </Text>
-                    <Text className="text-sepia">|</Text>
+                    </Typography>
+                    <Typography className="text-sepia">|</Typography>
 
-                    <Text className="font-serif text-sm text-sepia-700 dark:text-sepia-200">
+                    <Typography className="font-serif text-sm text-sepia-700 dark:text-sepia-200">
                       Classe: {mass.rank}
-                    </Text>
+                    </Typography>
                   </View>
 
-                  <Text className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
+                  <Typography className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
                     {mass.name || ""}
-                  </Text>
+                  </Typography>
 
                   {mass.local && (
                     <View className="flex-row items-center gap-2">
                       <FontAwesome name="map" color={COLORS[500]} />
-                      <Text className="text-pretty text-sepia-500">
+                      <Typography className="text-pretty text-sepia-500">
                         Local: {String(mass.local).toUpperCase()}
-                      </Text>
+                      </Typography>
                     </View>
                   )}
                 </View>
@@ -142,18 +143,18 @@ export default function PageLinkCard({
             <View className="flex flex-row justify-between items-center gap-1 mr-2">
               <View className="flex-1">
                 <View className="flex flex-row">
-                  <Text
+                  <Typography
                     className="text-pretty text-xs text-sepia-600 dark:text-sepia-200"
                     numberOfLines={1}
                   >
                     {description || ""}
-                  </Text>
+                  </Typography>
                 </View>
 
                 <View className="flex flex-row items-center gap-2">
-                  <Text className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
+                  <Typography className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
                     {title || ""}
-                  </Text>
+                  </Typography>
                 </View>
               </View>
 

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ export default function PagePasc23() {
     <PageWrapper>
       <H1 text="S. José, Padroeiro da Santa Igreja e dos Moribundos" />
 
-      <Text className="aside">
+      <Typography className="aside">
         A Missa de hoje pode ser representada em tríptico a mostrar-nos que S.
         José é o protector escolhido para sua Igreja pela divina Providência. A
         Epístola fala de José que no Antigo Testamento é a figura de S. José.
@@ -44,53 +44,53 @@ export default function PagePasc23() {
         maniqueus, o assassinou no caminho de Coma a Milão, em 1252. Peçamos a
         Deus, pelos méritos de S. Pedro, uma fé tão forte, que nos obtenha,
         depois de todas as adversidades desta vida, as alegrias da ressurreição.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl 32:20-21</Text>
+      <Typography className="em">Sl 32:20-21</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Adjútor et protéctor noster est Dóminus: in eo lætábitur cor nostrum,
           et in nómine sancto ejus sperávimus, allelúja, allelúja *Ps 79:2* Qui
           regis Israël, inténde: qui dedúcis, velut ovem, Joseph.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           O Senhor é o nosso auxílio e protecção: o nosso coração sente n’Ele
           toda a alegria: e no seu santo nome depositamos toda nossa esperança.
           (T. P. Aleluia, aleluia.) *Sl 79:2* Vós, que conduzis José, como um
           pastor guia a ovelha, ouvi.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui ineffábili providéntia beátum Joseph sanctíssimæ Genetrícis
           tuæ sponsum elígere dignátus es: præsta, quǽsumus; ut, quem
           protectórem venerámur in terris, intercessórem habére mereámur in
           cœlis: Qui vivis…
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que por vossa inefável providência Vos dignastes escolher o B.
           José para esposo da vossa santíssima Mãe, permiti, Vos imploramos,
           que, venerando-o nós na terra, como nosso protector, mereçamos
           alcançar a sua intercessão nos céus. Ó Vós, que viveis...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Gn 49:22-26</Text>
+      <Typography className="em">Gn 49:22-26</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Génesis.</Text>
-        <Text className="vernacular">Lição do Livro Génesis.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Génesis.</Typography>
+        <Typography className="vernacular">Lição do Livro Génesis.</Typography>
+        <Typography className="latin">
           Fílius accréscens Joseph, fílius accréscens, et decórus aspéctu: fíliæ
           discurrérunt super murum. Sed exasperavérunt eum, et jurgáti sunt,
           inviderúntque illi habéntes jácula. Sedit in forti arcus ejus, et
@@ -102,8 +102,8 @@ export default function PagePasc23() {
           benedictiónibus patrum ejus, donec veníret Desidérium cóllium
           æternórum: fiant in cápite Joseph, et in vértice Nazarǽi inter fratres
           suos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O meu filho José cresceu em glória; Seu poder vai-se desenvolvendo
           sempre. Até as donzelas subiram à muralha para o verem. Antes da sua
           grandeza, os seus irmãos moveram-lhe insídias, suscitaram rixas e, na
@@ -120,47 +120,47 @@ export default function PagePasc23() {
           permanecerão em ti até que se cumpram os desejos das colinas eternas.
           Que estas bênçãos recaiam na fronte de José, que é como que um
           Nazareno (Príncipe) no meio de seus irmãos.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>De quacúmque
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>De quacúmque
           tribulatióne clamáverint ad me, exáudiam eos, et ero protéctor eórum
           semper. Allelúja.
-          <Text className="versicle"> ℣. </Text>Fac nos innócuam, Joseph,
+          <Typography className="versicle"> ℣. </Typography>Fac nos innócuam, Joseph,
           decúrrere vitam: sitque tuo semper tuta patrocínio. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>De qualquer
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>De qualquer
           tribulação que clamem a mim, ouvir-lhes-ei, serei sempre o seu
-          protector. Aleluia.<Text className="versicle"> ℣. </Text>Fazei, ó
+          protector. Aleluia.<Typography className="versicle"> ℣. </Typography>Fazei, ó
           José, que sigamos uma vida inocente e que seja ela sempre amparada com
           o vosso patrocínio. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc 3:21-23</Text>
+      <Typography className="em">Lc 3:21-23</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Factum est autem, cum baptizarétur omnis pópulus, et
           Jesu baptizáto et oránte, apértum est cœlum: et descéndit Spíritus
           Sanctus corporáli spécie sicut colúmba in ipsum: et vox de cœlo facta
           est: Tu es Fílius meus diléctus, in te complácui mihi. Et ipse Jesus
           erat incípiens quasi annórum trigínta, ut putabátur, fílius Joseph.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, aconteceu que, havendo sido baptizado todo o povo, veio
           também Jesus receber o baptismo; e, tendo sido baptizado, enquanto
           orava, abriu-se o céu e o Espírito Santo desceu sobre Ele em forma
@@ -168,69 +168,69 @@ export default function PagePasc23() {
           dizia: «Sois o meu filho muito amado em quem pus todas minhas
           complacências!». Jesus começava então a contar cerca de trinta anos,
           sendo considerado como filho de José.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl 147:12-13</Text>
+      <Typography className="em">Sl 147:12-13</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Lauda, Jerúsalem, Dóminum: quóniam confortávit seras portárum tuárum,
           benedíxit fíliis tuis in te, allelúja, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Jerusalém, louva o Senhor, pois foi Ele quem consolidou as tuas
           portas; foi Ele quem abençoou os teus filhos. (T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sanctíssimæ Genetrícis tuæ sponsi patrocínio suffúlti, rogámus,
           Dómine, cleméntiam tuam: ut corda nostra fácias terréna cuncta
           despícere, ac te verum Deum perfécta caritáte dilígere: Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Fortalecidos com o patrocínio do esposo da vossa Santíssima Mãe,
           suplicamos à vossa clemência, Senhor, que nos façais desdenhar as
           coisas terrenas e com caridade perfeita amar-Vos a Vós, que sois o
           verdadeiro Deus. Ó Vós, que viveis...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt 1:16</Text>
+      <Typography className="em">Mt 1:16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Jacob autem génuit Joseph, virum Maríæ, de qua natus est Jesus, qui
           vocátur Christus, allelúja, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Jacob gerou José, esposo de Maria, de quem nasceu Jesus, que se chama
           Cristo.(T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Divíni múneris fonte refécti, quǽsumus, Dómine, Deus noster: ut, sicut
           nos facis beáti Joseph protectióne gaudére; ita, ejus méritis et
           intercessióne, cœléstis glóriæ fácias esse partícipes. Per Dominum…
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo nós reparado as nossas forças na própria fonte do dom divino,
           Vos suplicamos, Senhor, nosso Deus, que nos façais gozar o patrocínio
           do B. José, tornando-nos participantes da glória celestial, em virtude
           dos seus méritos e da sua intercessão. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

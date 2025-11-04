@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -20,31 +20,31 @@ export default function Page0602() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui nos ánnua beatórum Mártyrum tuórum Marcellíni, Petri atque
           Erásmi sollemnitáte lætíficas: præsta, quǽsumus; ut, quorum gaudémus
           méritis, accendámur exémplis. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que nos alegrais com a festa anual dos vosso Santos Mártires
           Marcelino, Pedro e Erasmo, concedei-nos, Vos suplicamos, que sejamos
           inflamados pelos exemplos daqueles cujos méritos nos alegram. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Rm. 8, 18-23</Text>
+      <Typography className="em">Rm. 8, 18-23</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Exístimo, quod non sunt condignæ passiónes hujus ttémporis ad
           futúram glóriam, quæ revelábitur in nobis. Nam exspectátio creatúra
           revelatiónem filiórum Dei exspéctat. Vanitáti enim creatúra subjécta
@@ -55,8 +55,8 @@ export default function Page0602() {
           habéntes: et ipsi intra nos gémimus adoptiónem filiórum Dei
           exspectántes, redemptiónem córporis nostri: in Christo Jesu, Dómino
           nostro.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Os sofrimentos da vida presente não têm proporção alguma
           com a glória que um dia deveremos possuir. Assim, as criaturas esperam
           com vivo desejo a manifestação dos filhos de Deus; pois estão sujeitos
@@ -68,37 +68,37 @@ export default function Page0602() {
           apesar de possuirmos as primícias do Espírito. Sim; também gememos
           dentro de nós, esperando a adopção dos filhos de Deus, a redenção do
           nosso corpo, em Jesus Cristo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 33, 18-19</Text>
+      <Typography className="em">Sl. 33, 18-19</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus
           tribulatiónibus eórum liberávit eos.
-          <Text className="versicle"> ℣. </Text>Juxta est Dóminus his, qui
+          <Typography className="versicle"> ℣. </Typography>Juxta est Dóminus his, qui
           tribuláto sunt corde: et húmiles spíritu salvabit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Os justos clamaram e o Senhor ouviu-os, livrando-os de todas as
-          tribulações.<Text className="versicle"> ℣. </Text>O Senhor está
+          tribulações.<Typography className="versicle"> ℣. </Typography>O Senhor está
           próximo daqueles cujo coração está aflito; e salvará os que possuem
           espírito humilde.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Joann. 15, 16</Text> Ego vos elégi de mundo,
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Joann. 15, 16</Typography> Ego vos elégi de mundo,
           ut eátis, et fructum afferátis; et fructus vester máneat. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Jo. 15, 16</Text> Eu vos escolhi no meio
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Jo. 15, 16</Typography> Eu vos escolhi no meio
           do mundo, para que possais ir e alcanceis fruto; e para que esse fruto
           permaneça. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -115,93 +115,93 @@ export default function Page0602() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 31, 11</Text>
+      <Typography className="em">Sl. 31, 11</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Lætámini in Dómino et exsultáte, justi: et gloriámini, omnes recti
           corde.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó justos, alegrai-vos no Senhor e exultai: ó vós, que tendes o coração
           recto, glorificai-vos no Senhor. (T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc hóstia, quǽsumus, Dómine, quam sanctórum Martyrum tuórum natalítia
           recenséntes offérimus: et víncula nostræ pravitátis absólvat, et tuæ
           nobis misericórdiæ dona concíliet. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Permiti, Senhor, Vos suplicamos, que esta hóstia, que Vos oferecemos
           em honra do nascimento no céu dos vossos Santos Mártires, nos livre
           dos laços dos nossos pecados e nos obtenha os dons da vossa
           misericórdia. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sb. 3, 1, 2 & 3</Text>
+      <Typography className="em">Sb. 3, 1, 2 & 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Justórum ánimæ in manu Dei sunt, et non tanget illos torméntum malítiæ
           visi sunt óculis insipiéntium mori: illi autem sunt in pace.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           As almas dos justos estão na mão de Deus, e o tormento da malícia as
           não atingirá: aos olhos dos insensatos pareciam mortos, porém estão em
           paz. (T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacro múnere satiáti, súpplices te, Dómine, deprecámur: ut, quod
           débitæ servitútis celebrámus offício, salvatiónis tuæ sentiámus
           augméntum. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Saciados com o sacrossanto dom, humildemente Vos imploramos, ó Senhor,
           que pela celebração deste sacrifício, que é um tributo da nossa
           dependência, sintamos aumentar em nós os efeitos da vossa redenção.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         No T. Pascal será a{" "}
         <Link className="link" href="/missal/comum/10martires">
           Missa Sancti tui
         </Link>{" "}
         , com as Orações e Epístola da Missa Precedente; e, em vez do Gradual,
         diz-se:
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Joann. 15, 16</Text> Ego vos elégi de mundo,
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Joann. 15, 16</Typography> Ego vos elégi de mundo,
           ut eátis, et fructum afferátis; et fructus vester máneat. Allelúja.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Ps. 115, 15</Text> Pretiósa in conspéctu Dómini
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Ps. 115, 15</Typography> Pretiósa in conspéctu Dómini
           mors Sanctórum ejus. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Jo. 15, 16</Text> Escolhi-vos no meio do
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Jo. 15, 16</Typography> Escolhi-vos no meio do
           mundo, para que possais ir e alcanceis fruto: e o vosso fruto
-          permaneça. Aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="em">Sl. 115, 15</Text> Preciosa na presença do Senhor
+          permaneça. Aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Sl. 115, 15</Typography> Preciosa na presença do Senhor
           é a morte dos seus Santos. Aleluia.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,51 +10,51 @@ export default function PageQuad24() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 69, 2 & 3</Text>
+      <Typography className="em">Sl. 69, 2 & 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, in adjutórium meum inténde: Dómine, ad adjuvándum me festína:
           confundántur et revereántur inimíci mei, qui quærunt ánimam meam.{" "}
-          <Text className="latin">Ps. ibid., 4</Text> Avertántur retrórsum et
+          <Typography className="latin">Ps. ibid., 4</Typography> Avertántur retrórsum et
           erubéscant: qui cógitant mihi mala.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, vinde em meu auxílio; apressai-Vos, Senhor, em socorrer-me.
           Sejam confundidos e cobertos de opróbrio os meus inimigos que procuram
-          tirar-me a vida. <Text className="vernacular">Sl. ibid., 4</Text> Que
+          tirar-me a vida. <Typography className="vernacular">Sl. ibid., 4</Typography> Que
           se afastem de mim, cheios de vergonha, os que conjuram contra mim!
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta nobis, quǽsumus, Dómine, auxílium grátiæ tuæ: ut, jejúniis et
           oratiónibus conveniénter inténti, liberémur ab hóstibus mentis et
           córporis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedei-nos, Senhor, Vos suplicamos, o auxílio da vossa graça, a fim
           de que, estando nós convenientemente aplicados aos jejuns e às
           orações, sejamos livres dos inimigos da alma e do corpo. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Jr. 17, 5-10</Text>
+      <Typography className="em">Jr. 17, 5-10</Typography>
 
       <Language>
-        <Text className="latin">Léctio Jeremíæ Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Jeremias.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Jeremíæ Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Jeremias.</Typography>
+        <Typography className="latin">
           Hæc dicit Dóminus Deus: Maledíctus homo, qui confídit in hómine, et
           ponit carnem bráchium suum, et a Dómino recédit cor ejus. Erit enim
           quasi myrícæ in desérto, et non vidébit, cum vénerit bonum: sed
@@ -67,8 +67,8 @@ export default function PageQuad24() {
           ómnium et inscrutábile: quis cognóscet illud? Ego Dóminus scrutans
           cor, et probans renes: qui do unicuique juxta viam suam, et juxta
           fructum adinventiónum suárum: dicit Dóminus omnípotens.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Isto diz o Senhor e Deus: «Maldito seja o homem que confia no homem;
           que faz da carne o seu arrimo; e cujo coração se afasta do Senhor;
           pois ele será como as tamargas do deserto. Quando vier a felicidade,
@@ -82,40 +82,40 @@ export default function PageQuad24() {
           ausculto o seu coração e observo o seu íntimo, recompensando cada qual
           segundo os seus intentos e o mérito das suas obras: diz o Senhor
           omnipotente».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 78, 9 & 10</Text>
+      <Typography className="em">Sl. 78, 9 & 10</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi
-          est Deus eórum?<Text className="versicle"> ℣. </Text>Adjuva nos, Deus,
+          est Deus eórum?<Typography className="versicle"> ℣. </Typography>Adjuva nos, Deus,
           salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Perdoai os nossos pecados, Senhor, para que os povos não digam: «Onde
           está o seu Deus?». Socorrei-nos, Senhor, nosso Salvador, e, por causa
           da glória do vosso nome, livrai-nos, Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. J6, 19-31</Text>
+      <Typography className="em">Lc. J6, 19-31</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus pharisǽis: Homo quidam erat dives, qui
           induebátur púrpura et bysso: et epulabátur cotídie spléndide. Et erat
           quidam mendícus, nómine Lázarus, qui jacébat ad jánuam ejus, ulcéribus
@@ -138,8 +138,8 @@ export default function PageQuad24() {
           quis ex mórtuis íerit ad eos, pæniténtiam agent. Ait autem illi: Si
           Móysen et Prophétas non áudiunt, neque si quis ex mórtuis
           resurréxerit, credent.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos fariseus: «Havia um certo homem rico,
           que se vestia de púrpura e de linho fino e se banqueteava todos os
           dias com o maior esplendor. Havia, também, um certo mendigo, chamado
@@ -165,98 +165,98 @@ export default function PageQuad24() {
           os ouvirão; mas, se algum dos mortos lhes falar, farão penitência».
           Abraão disse-lhe: «Se não ouvem nem Moisés nem os Profetas, ainda
           mesmo que algum dos mortos ressuscite, tão-pouco o acreditarão».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Ex. 32, 11, 13 & 14</Text>
+      <Typography className="em">Ex. 32, 11, 13 & 14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Precátus est Móyses in conspéctu Dómini, Dei sui, et dixit: Quare,
           Dómine, irascéris in pópulo tuo? parce iræ ánimæ tuæ: meménto Abraham,
           Isaac et Jacob, quibus jurásti dare terram fluéntem lac et mel. Et
           placátus est Dóminus de malignitáte, quam dixit fácere pópulo suo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Orou Moisés ante o Senhor, seu Deus, e disse: «Porque, Senhor, Vos
           irais contra o vosso povo? Saí do ardor da vossa ira: lembrai-Vos de
           Abraão, de Isaque e de Jacob, aos quais jurastes dar a terra onde
           correm leite e mel». Então o Senhor acalmou-se e não mandou ao seu
           povo o mal que anunciara.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Pæsénti sacrifício, nómini tuo nos, Dómine, jejúnia dicáta
           sanctíficent: ut, quod observántia nostra profitétur extérius,
           intérius operétur efféctu. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que o presente sacrifício, Senhor, santifique os jejuns que
           empreendemos para glória do vosso nome, a fim de que sua observância
           exterior seja acompanhada de frutos interiores. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 6, 57</Text>
+      <Typography className="em">Jo. 6, 57</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Qui mandúcat meam carnem, et bibit meum sánguinem, in me manet, et ego
           in eo, dicit Dóminus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aquele que come a minha carne e bebe o meu sangue permanece em mim e
           eu permaneço nele: diz o Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Grátia tua nos, quǽsumus, Dómine, non derelínquat: quæ et sacræ nos
           déditos fáciat servitúti, et tuam nobis opem semper acquírat. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicamos, concedei-nos que a vossa graça nos não
           abandone; que nos torne dedicados ao vosso santo serviço; e que nos
           alcance sempre o vosso auxílio. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração sobre o povo" />
 
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">Humiliáte cápita vestra Deo.</Text>
-        <Text className="vernacular">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">Humiliáte cápita vestra Deo.</Typography>
+        <Typography className="vernacular">
           Inclinai as vossas cabeças diante de Deus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Adésto, Dómine, fámulis tuis, et perpétuam benignitátem largíre
           poscéntibus: ut iis, qui te auctóre et gubernatóre gloriántur, ei
           congregáta restáures et restauráta consérves. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Amparai, Senhor, os vossos servos e concedei-lhes a misericórdia
           perpétua, que Vos imploram; e, como eles se gloriam de Vos ter como
           Autor e Rei, restabelecei-os na posse dos bens em que os unistes, e
           mantende o que restabelecestes. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

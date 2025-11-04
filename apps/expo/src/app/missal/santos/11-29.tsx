@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,41 +9,41 @@ export default function Page1129() {
     <PageWrapper>
       <H1 text="Vigília de S. André, Apóstolo, a 29 de Novembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         S. João Baptista, nos diz o Evangelho, cumprindo a sua missão de
         preparar as almas para a vinda de Jesus, designou o Messias ao seu
         discípulo André, o qual imediatamente se dirigiu a Jesus e o seguiu.
         Preparemo-nos santamente para a festa de amanhã.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Se a festa de S. André cai numa Segunda-Feira, diz-se a Missa da Vigília
         no Sábado, porém, comemora-se S. Saturnino no Domingo. Observar-se-á o
         mesmo nas outras Vigílias, excepto a de Natal. Se a festa de S. André
         cai no Domingo, será transferida para o primeiro dia livre.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Mt. 4, 18 & 19</Text>
+      <Typography className="em">Mt. 4, 18 & 19</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dóminus secus mare Galilǽæ vidit duos fratres, Petrum et Andréam, et
           vocávit eos: Veníte post me: fáciam vos fíeri piscatóres hóminum.
-          <Text className="vernacular">Ps. 18, 2</Text> probásti Cœli enárrant
+          <Typography className="vernacular">Ps. 18, 2</Typography> probásti Cœli enárrant
           glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Caminhando o Senhor ao longo do mar de Galileia, viu dois irmãos,
           Pedro e André e chamou-os dizendo: Vinde, segui-me: e farei de vós
           pescadores de homens.
-          <Text className="vernacular">Sl. 18, 2</Text> probásti Os céus
+          <Typography className="vernacular">Sl. 18, 2</Typography> probásti Os céus
           proclamam a glória de Deus: e o firmamento publica as obras das suas
-          mãos. firmaméntum.<Text className="versicle"> ℣. </Text>
+          mãos. firmaméntum.<Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <Link href="/missal/comum/1vigiliaapostolos#oração">
@@ -56,36 +56,36 @@ export default function Page1129() {
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 138, 17-18</Text>
+      <Typography className="em">Sl. 138, 17-18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus
-          eórum.<Text className="versicle"> ℣. </Text>Dinumerábo eos: et super
+          eórum.<Typography className="versicle"> ℣. </Typography>Dinumerábo eos: et super
           arénam multiplicabúntur.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Têm sido singularmente honrados os vossos amigos, ó Deus, muito se tem
           fortalecido a sua dignidade de príncipes da Igreja.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Contá-los-eis: e mais que a areia se multiplicarão.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo, 1, 35-51</Text>
+      <Typography className="em">Jo, 1, 35-51</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Stabat Joánnes, et ex discípulis ejus duo. Et
           respíciens Jesum ambulántem, dicit: Ecce Agnus Dei. Et audiérunt eum
           duo discípuli loquéntem, et secúti sunt Jesum. Convérsus autem Jesus,
@@ -111,8 +111,8 @@ export default function Page1129() {
           dixit ei: Quia dixi tibi: Vidi te sub ficu, credis: majus his vidébis.
           Et dicit ei: Amen, amen, dico vobis, vidébitis cœlum apértum, et
           Angelos Dei ascendéntes et descendéntes supra Fílium hóminis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, estava João com dois dos seus discípulos. E vendo a
           Jesus que passava disse: Eis ali o cordeiro de Deus. Então, os dois
           discípulos, ouvindo-o assim falar, foram logo seguindo a Jesus. Então,
@@ -140,54 +140,54 @@ export default function Page1129() {
           que estas, verás. Também lhe disse: Em verdade, em verdade, vos digo,
           vereis o céu aberto e os anjos de Deus subindo e descendo sobre o
           Filho do homem.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacrándum tibi, Dómine, munus offérimus: quo beáti Andréæ Apóstoli
           sollémnia recoléntes, purificatiónem quoque nostris méntibus
           implorámus. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, nós Vos oferecemos os dons que Vos devem ser consagrados, e
           com os quais celebramos a solenidade do Bem-aventurado Apóstolo André,
           implorando ao mesmo tempo a purfificação de nossas almas. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 1, 41 & 42</Text>
+      <Typography className="em">Jo. 1, 41 & 42</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dicit Andréas Simóni fratri suo: Invénimus Messíam, qui dícitur
           Christus: et addúxit eum ad Jesum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Disse André a Simão seu irmão: Encontrámos o Messias que se chama
           Cristo: e o levou a Jesus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Percéptis, Dómine, sacraméntis supplíciter exorámus: ut, intercedénte
           beáto Andréa Apostolo tuo, quæ pro illíus veneránda gérimus passióne,
           nobis profíciant ad medélam. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Tendo recebido, Senhor, os mystérios sagrados, suplices Vos pedimos
           que, pela intercessão de vosso Bem-aventurado Apóstolo André, o
           sacrifício por nós celebrado em honra de seu martyrio nos sirva de
           remédio. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

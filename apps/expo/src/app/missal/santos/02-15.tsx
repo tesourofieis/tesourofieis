@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -9,13 +9,13 @@ export default function Page0215() {
     <PageWrapper>
       <H1 text="S. S. Faustino e Jovita, Mártires, a 15 de Fevereiro" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/8muitosmartires3">
           Missa Salus autem
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Secreta e Postcomúnio" />
 

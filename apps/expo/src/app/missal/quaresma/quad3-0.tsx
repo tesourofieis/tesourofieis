@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,53 +10,53 @@ export default function PageQuad30() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 24, 15-16</Text>
+      <Typography className="em">Sl. 24, 15-16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Oculi mei semper ad Dóminum, quia ipse evéllet de láqueo pedes meos:
           réspice in me, et miserére mei, quóniam únicus et pauper sum ego.{" "}
-          <Text className="latin">Ps. ibid., 1-2</Text> Ad te, Dómine, levávi
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Ad te, Dómine, levávi
           ánimam meam: Deus meus, in te confído, non erubéscam.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Os meus olhos estão sempre fitos no Senhor, pois Ele livrará os meus
           pés do laço. Volvei vossos olhos para mim e tende misericórdia de mim,
           meu Deus, pois sou só e pobre.{" "}
-          <Text className="vernacular">Sl. ibid., 1-2</Text> A Vós, Senhor,
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> A Vós, Senhor,
           elevei a minha alma: meu Deus, confio em Vós, não ficarei
-          envergonhado.<Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          envergonhado.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quǽsumus, omnípotens Deus, vota humílium réspice: atque, ad
           defensiónem nostram, déxteram tuæ majestátis exténde. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos suplicamos, atendei aos humildes votos da
           nossa humildade; e que a dextra da vossa majestade nos conceda a sua
           protecção. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ef. 5, 1-9</Text>
+      <Typography className="em">Ef. 5, 1-9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Estote imitatores Dei, sicut fílii caríssimi: et ambuláte in
           dilectióne, sicut et Christus dilexit nos, et tradidit semetipsum pro
           nobis oblatiónem, et hostiam Deo in odorem suavitátis. Fornicatio
@@ -69,8 +69,8 @@ export default function PageQuad30() {
           diffidéntiæ. Nolíte ergo effici participes eórum. Erátis enim
           aliquando tenebrae: nunc autem lux in Dómino. Ut fílii lucis ambuláte:
           fructus enim lucis est in omni bonitate et justítia et veritáte.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Sede imitadores de Deus, como filhos caríssimos, e vivei
           na caridade, como Cristo, que nos amou e se entregou por nós a Deus,
           como uma oblação e uma hóstia de agradável odor. Que a incontinência,
@@ -84,66 +84,66 @@ export default function PageQuad30() {
           tenhais nada de comum com eles; pois, outrora, estáveis nas trevas,
           mas, agora, possuís a luz do Senhor. Procedei como filhos da luz, cujo
           fruto consiste em toda a espécie de bondade, justiça e verdade.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 9, 20 & 4</Text>
+      <Typography className="em">Sl. 9, 20 & 4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exsúrge, Dómine, non præváleat homo: judicéntur gentes in conspéctu
-          tuo.<Text className="versicle"> ℣. </Text>In converténdo inimícum meum
+          tuo.<Typography className="versicle"> ℣. </Typography>In converténdo inimícum meum
           retrórsum, infirmabúntur, et períbunt a facie tua.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Erguei-Vos, Senhor, para que o homem não triunfe: que os povos sejam
           julgados na vossa presença!
-          <Text className="versicle"> ℣. </Text>Quando o meu inimigo tiver
+          <Typography className="versicle"> ℣. </Typography>Quando o meu inimigo tiver
           fugido, eles tremerão e morrerão diante de Vós.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 122, 1-3</Text>
+      <Typography className="em">Sl. 122, 1-3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ad te levávi óculos meos, qui hábitas in cœlis.
-          <Text className="versicle"> ℣. </Text>Ecce, sicut óculi servórum in
-          mánibus dominórum suórum.<Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>Ecce, sicut óculi servórum in
+          mánibus dominórum suórum.<Typography className="versicle"> ℣. </Typography>
           Et sicut óculi ancíllæ in mánibus dóminæ suæ: ita óculi nostri ad
           Dóminum, Deum nostrum, donec misereátur nostri.
-          <Text className="versicle"> ℣. </Text>Miserére nobis, Dómine, miserére
+          <Typography className="versicle"> ℣. </Typography>Miserére nobis, Dómine, miserére
           nobis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A Vós, que habitais nos céus, ergui os meus olhos. Como os olhos dos
           servos estão fixos na mão do seu senhor.
-          <Text className="versicle"> ℣. </Text>E os olhos da escrava nas mãos
+          <Typography className="versicle"> ℣. </Typography>E os olhos da escrava nas mãos
           da sua senhora; assim os nossos olhos se volvem e fixam em o Senhor,
           nosso Deus, até que tenha piedade de nós.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Tende piedade de nós, Senhor, tende piedade de nós.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 11, 14-28</Text>
+      <Typography className="em">Lc. 11, 14-28</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Erat Jesus ejíciens dæmónium, et illud erat mutum. Et
           cum ejecísset dæmónium, locútus est mutus, et admirátæ sunt turbæ.
           Quidam autem ex eis dixérunt: In Beélzebub, príncipe dæmoniórum,
@@ -167,8 +167,8 @@ export default function PageQuad30() {
           múlier de turba, dixit illi: Beátus venter, qui te portávit, et úbera,
           quæ suxísti. At ille dixit: Quinímmo beáti, qui áudiunt verbum Dei, et
           custódiunt illud.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, estava Jesus a expulsar um demónio, o qual era mudo.
           Logo que o expulsou, o mudo falou, ficando as turbas admiradas. Alguns
           dos presentes disseram: «É pelo poder de Belzebu, príncipe dos
@@ -197,70 +197,70 @@ export default function PageQuad30() {
           «Bem-aventurado o seio que te encerrou e os peitos que te aleitaram!».
           Ele respondeu: «Bem-aventurados antes aqueles que ouvem a palavra de
           Deus e a observam».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 18, 9, 10, 11 & 12</Text>
+      <Typography className="em">Sl. 18, 9, 10, 11 & 12</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Justítiæ Dómini rectæ, lætificántes corda, et judícia ejus dulci ora
           super mel et favum: nam et servus tuus custódit ea.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Os preceitos do Senhor são rectos, alegrando o coração: e os seus
           juízos são mais doces que o favo de mel; assim, pois, ó Deus, o vosso
           servo guarda-os fielmente.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad
           sacrifícium celebrándum, subditórum tibi córpora mentésque
           sanctíficet. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que esta hóstia, Senhor, Vos suplicamos, nos purifique dos nossos
           pecados e santifique os corpos e as almas dos vossos servos, a fim de
           que celebrem dignamente este sacrifício. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 83, 4-5</Text>
+      <Typography className="em">Sl. 83, 4-5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Passer invénit sibi domum, et turtur nidum, ubi repónat pullos suos:
           altária tua, Dómine virtútum, Rex meus, et Deus meus: beáti, qui
           hábitant in domo tua, in sǽculum sǽculi laudábunt te.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O pássaro encontra um abrigo e a rola um ninho, para aí criarem os
           filhos. Assim eu encontre os vossos altares, Senhor dos exércitos, meu
           Rei e meu Deus! Felizes os que habitam na vossa casa e Vos louvam em
           todos os séculos dos séculos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           A cunctis nos, quǽsumus, Dómine, reátibus et perículis propitiátus
           absólve: quos tanti mystérii tríbuis esse partícipes. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, assim como nos tornastes participantes de tão grande mystério,
           assim também, pela vossa misericórdia, livrai-nos de todos os pecados
           e perigos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page0123Outro() {
     <PageWrapper>
       <H1 text="Santa Emerenciana, Virgem e Márt., a 23 de Janeiro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Irmã de leite de Santa Inês, a virgem Emerenciana, ainda catecúmena,
         chorava sobre o túmulo da amiga que acabava de ser martirizada. Alguns
         pagãos insultaram aquela dor. Emerenciana, repleta da virtude divina, da
@@ -17,7 +17,7 @@ export default function Page0123Outro() {
         sua crueldade para com Inês. Esses, irritados, apedrejaram-na ali mesmo,
         sobre o túmulo da amiga, de onde, baptizada no próprio sangue, foi
         unir-se eternamente ao Esposo e à sua irmã (pelo ano de 304).
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

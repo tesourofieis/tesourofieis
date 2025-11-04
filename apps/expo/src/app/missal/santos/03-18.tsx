@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,40 +9,40 @@ export default function Page0318() {
     <PageWrapper>
       <H1 text="S. Cirilo de Jerusalém, B. Conf. e Doutor, a 18 de Março" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/13doutores">
           Missa In médio Ecclésiae
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Da nobis, quǽsumus, omnípotens Deus, beáto Cyríllo Pontífice
           intercedénte: te solum verum Deum, et quem misísti Jesum Christum ita
           cognóscere; ut inter oves, quæ vocem ejus áudiunt, perpétuo
           connumerári mereámur. Per eúndem Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos suplicamos, permiti que, por intercessão do B.
           Pontífice Cirilo, conheçamos que sois o único e verdadeiro Deus e
           Aquele que enviastes ao mundo, Jesus Cristo, de tal sorte que
           mereçamos ser contados eternamente entre as ovelhas que escutam a
           vossa voz. Pelo mesmo...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ecl. 39, 6-14</Text>
+      <Typography className="em">Ecl. 39, 6-14</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Sapiéntiæ.</Text>
-        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="latin">
           Justus cor suum tradet ad vigilándum dilúculo ad Dóminum, qui fecit
           illum, et in conspéctu Altíssimi deprecábitur. Apériet os suum in
           oratióne, et pro delíctis suis deprecábitur. Si enim Dóminus magnus
@@ -54,8 +54,8 @@ export default function Page0318() {
           usque in sǽculum non delébitur. Non recédet memória ejus, et nomen
           ejus requirétur a generatióne in generatiónem. Sapiéntiam ejus
           enarrábunt gentes, et laudem ejus enuntiábit ecclésia.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O justo aplicará o seu coração e vigiará desde o romper do dia para se
           unir ao Senhor, que o criou, e oferecer as suas preces ao Altíssimo.
           Abrirá a sua boca para orar e implorar o perdão dos seus pecados; pois
@@ -68,23 +68,23 @@ export default function Page0318() {
           louvor de muitos e não cairá no esquecimento. Sua memória se não
           apagará. Seu nome será honrado de geração em geração. As nações
           publicarão a sua sabedoria e a Igreja anunciará os seus louvores.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 10, 23-28</Text>
+      <Typography className="em">Mt. 10, 23-28</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Cum persequéntur vos in
           civitáte ista, fúgite in áliam. Amen, dico vobis, non consummábitis
           civitátes Israël, donec véniat Fílius hóminis. Non est discípulus
@@ -97,8 +97,8 @@ export default function Page0318() {
           timére eos, qui occídunt corpus, ánimam autem non possunt occídere:
           sed pótius timéte eum, qui potest et ánimam et corpus pérdere in
           gehénnam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Quando vos
           perseguirem em uma cidade, fugi para outra. Em verdade vos digo: não
           acabareis de percorrer as cidades de Israel sem que venha o Filho do
@@ -111,39 +111,39 @@ export default function Page0318() {
           os tectos. E nunca temais aqueles que matam o corpo, mas não podem
           matar a alma; temei antes Aquele que pode condenar a alma e o corpo ao
           inferno».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Réspice, Dómine, immaculátam hóstiam, quam tibi offérimus: et præsta;
           ut, méritis beáti Pontíficis et Confessóris tui Cyrílli, eam mundo
           corde suscípere studeámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Olhai, Senhor, para a Hóstia Imaculada que Vos oferecemos; e permiti
           que pelos méritos do B. Cirilo, vosso Confessor e Pontífice,
           diligenciemos recebê-la com o coração puro. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacraménta Córporis et Sánguinis tui, quæ súmpsimus, Dómine Jesu
           Christe: beáti Cyrílli Pontíficis précibus, mentes et corda nostra
           sanctíficent; ut divínæ consórtes natúræ éffici mereámur: Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Senhor Jesus Cristo, fazei que os sacramentos do vosso Corpo e
           Sangue, que acabámos de receber, santifiquem, pelas preces do B.
           Cirilo, os nossos espíritos e os nossos corações, a fim de que
           mereçamos ser participantes da natureza divina. Ó Vós, que viveis e
           reinais...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

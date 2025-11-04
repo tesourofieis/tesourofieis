@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -11,59 +11,59 @@ export default function Page6Muitosmartires1() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 78, 11, 12 & 10</Text>
+      <Typography className="em">Sl. 78, 11, 12 & 10</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Intret in conspéctu tuo, Dómine, gémitus compeditórum: redde vicínis
           nostris séptuplum in sinu eórum: víndica sánguinem Sanctórum tuórum,
-          qui effúsus est. <Text className="latin">Ps. ibid., 1</Text> Deus,
+          qui effúsus est. <Typography className="latin">Ps. ibid., 1</Typography> Deus,
           venérunt gentes in hereditátem tuam: polluérunt templum sanctum tuum:
           posuérunt Jerúsalem in pomórum custódiam.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Que os gemidos dos cativos cheguem à vossa presença, Senhor. Castigai
           os nossos inimigos sete vezes por cada injúria que nos têm feito:
           vingai o sangue que os vossos Santos derramaram.{" "}
-          <Text className="vernacular">Ps. ibid., 1</Text> Ó Deus, os povos
+          <Typography className="vernacular">Ps. ibid., 1</Typography> Ó Deus, os povos
           invadiram a vossa herança, profanaram o vosso sagrado templo e
           reduziram Jerusalém a um monte de ruínas!
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Beatórum Mártyrum paritérque Pontíficum nos, quǽsumus, Dómine, festa
           tueántur: et eórum comméndet orátio veneránda. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos suplicamos, Senhor, que a festa dos vossos B. B. Mártires e
-          Pontífices <Text className="vernacular">N.</Text> e{" "}
-          <Text className="text-red-500">N.</Text>, nos proteja, e que sua
+          Pontífices <Typography className="vernacular">N.</Typography> e{" "}
+          <Typography className="text-red-500">N.</Typography>, nos proteja, e que sua
           veneranda oração nos sirva de recomendação junto de Vós. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         Não sendo Pontífice, diz-se a
         <Link href="/missal/comum/7muitosmartires2#oração">
           Oração da Missa seguinte.
         </Link>
-      </Text>
+      </Typography>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Sb. 3, 1-8</Text>
+      <Typography className="em">Sb. 3, 1-8</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Sapiéntiæ.</Text>
-        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="latin">
           Justorum ánimæ in manu Dei sunt, et non tanget illos torméntum mortis.
           Visi sunt oculis insipiéntium mori: et æstimála est afflíctio exitus
           illórum: et quod a nobis est iter, extermínium: illi autem sunt in
@@ -74,8 +74,8 @@ export default function Page6Muitosmartires1() {
           et in témpore erit respéctus illorum. Fulgébunt justi, et tamquam
           scintíllæ in arundinéto discúrrent. Judicábunt natiónes, et
           dominabúntur pópulis, et regnábit Dóminus illórum in perpétuum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           As almas dos justos estão nas mãos de Deus; por isso o tormento da
           morte os não tocará. Pareciam mortos aos olhos dos insensatos: a sua
           saída do mundo parecia uma aflição; a sua separação de nós uma
@@ -88,78 +88,78 @@ export default function Page6Muitosmartires1() {
           resplandecerão, como as chamas, que se ateiam entre os canaviais. Eles
           julgarão as nações e dominarão os povos; e o Senhor reinará com eles
           para sempre.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Ex. 15,11</Text>
+      <Typography className="em">Ex. 15,11</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Gloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens
-          prodígia.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 6</Text> Déxtera tua, Dómine,
+          prodígia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 6</Typography> Déxtera tua, Dómine,
           glorificáta est in virtúte: déxtera manus tua confrégit inimícos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deus é glorioso em seus Santos: e admirável na sua majestade,
-          praticando prodígios.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 6</Text> Senhor, a vossa dextra
+          praticando prodígios.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 6</Typography> Senhor, a vossa dextra
           engrandeceu-se pela sua força: a vossa dextra esmagou os inimigos.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Eccli. 44, 14</Text> Córpora Sanctórum in pace
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Eccli. 44, 14</Typography> Córpora Sanctórum in pace
           sepúlta sunt, et nómina eórum vivent in generatiónem et generatiónem.
           Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Ecl. 44, 14</Text> Senhor, os corpos dos
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Ecl. 44, 14</Typography> Senhor, os corpos dos
           vossos Santos foram sepultados em paz e o seu nome subsistirá de
           geração em geração. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
-      </Text>
+      </Typography>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 125, 5-6</Text>
+      <Typography className="em">Sl. 125, 5-6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Qui séminant in lácrimis, in gáudio metent.
-          <Text className="versicle"> ℣. </Text>Eúntes ibant et flébant,
-          mitténtes sémina sua.<Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>Eúntes ibant et flébant,
+          mitténtes sémina sua.<Typography className="versicle"> ℣. </Typography>
           Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aqueles que semeiam com lágrimas ceifarão com júbilo.
-          <Text className="versicle"> ℣. </Text>Iam, caminhavam e lançavam a
-          semente à terra, chorando.<Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>Iam, caminhavam e lançavam a
+          semente à terra, chorando.<Typography className="versicle"> ℣. </Typography>
           Porém, quando voltavam, exultavam de alegria, trazendo os seus molhos
           de trigo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 21, 9-19</Text>
+      <Typography className="em">Lc. 21, 9-19</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Cum audieritis prǿlia et
           seditiónes, nolíte terréri: opórtet primum hæc fíeri, sed nondum
           statim finis. Tunc dicébat illis: Surget gens contra gentem, et regnum
@@ -174,8 +174,8 @@ export default function Page6Muitosmartires1() {
           cognátis, et amícis, et morte affícient ex vobis: et éritis ódio
           ómnibus propter nomen meum: et capíllus de cápite vestro non períbit.
           In patiéntia vestra possidébitis ánimas vestras.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos discípulos: «Quando ouvirdes falar em
           guerras e sedições, não vos assusteis; pois é necessário que estas
           coisas aconteçam, primeiramente; mas isto não será logo o fim».
@@ -194,68 +194,68 @@ export default function Page6Muitosmartires1() {
           aborrecidos de todos, por causa do meu nome; todavia, não se perderá
           nem um só cabelo das vossas cabeças. Com a vossa paciência possuireis
           as vossas almas».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 67, 36</Text>
+      <Typography className="em">Sl. 67, 36</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mirábilis Deus in Sanctis suis: Deus Israël, ipse dabit virtútem et
           fortitúdinem plebi suæ: benedíctus Deus, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deus é admirável em seus Santos. Deus de Israel dará ao seu povo a
           força e a coragem. Bendito Ele seja, pois. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Adésto, Dómine, supplicatiónibus nostris, quas in Sanctórum tuórum
           commemoratióne deférimus: ut, qui nostræ justítiæ fidúciam non
           habémus, eórum, qui tibi placuérunt, méritis adjuvémur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Atendei, Senhor, às súplicas que Vos dirigimos em memória dos vossos
           Santos, a fim de que nós, que não temos confiança na nossa própria
           justiça, sejamos auxiliados pelos méritos daqueles que Vos agradaram
           nesta vida. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sb. 3, 4, 5 & 6</Text>
+      <Typography className="em">Sb. 3, 4, 5 & 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Et si coram homínibus torménta passi sunt, Deus tentávit eos: tamquam
           aurum in fornáce probávit eos, et quasi holocáusta accépit eos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Se sofreram tormentos diante dos homens, foi para Deus os provar. Deus
           provou-os na fornalha, como ao ouro, e recebeu-os, como hóstia de
           holocausto.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quǽsumus, Dómine, salutáribus repléti mystériis: ut, quorum sollémnia
           celebrámus, eórum oratiónibus adjuvémur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Fortificados com vossos salutares mystérios, dignai-Vos conceder-nos,
           Senhor, a graça da assistência das orações daqueles cuja festa
           celebrámos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

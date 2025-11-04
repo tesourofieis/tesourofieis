@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0721() {
     <PageWrapper>
       <H1 text="Santa Praxedes, Virgem, a 21 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         A festa de S. Pio I, a 11 de Julho lembrou-nos a memória de Santa
         Pudenciana e sua irmã Santa Praxedes, que puzeram sua casa à disposição
         do Santo Pontífice. A primeira aparece no Ciclo a 19 de Maio, sob o
@@ -27,9 +27,9 @@ export default function Page0721() {
         no cemitério de sua avó Priscilla. Celebremos com alegria a festa da bem
         aventurada Virgem Santa Praxedes, a fim de haurirmos os sentimentos de
         terna devoção (Or.).
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Intróito, como na{" "}
         <Link className="link" href="/missal/comum/17virgensmartires1">
           Missa Loquébar.
@@ -43,33 +43,33 @@ export default function Page0721() {
           Missa Loquébar.
         </Link>{" "}
         Gradual seguinte:
-      </Text>
+      </Typography>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 44, 8</Text>
+      <Typography className="em">Sl. 44, 8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dilexísti justítiam, et odísti iniquitátem.
-          <Text className="versicle"> ℣. </Text>Proptérea unxit te Deus, Deus
+          <Typography className="versicle"> ℣. </Typography>Proptérea unxit te Deus, Deus
           tuus, óleo lætítiæ.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Amastes a justiça e odiastes a iniquidade.
-          <Text className="versicle"> ℣. </Text>Pelo que o Senhor, vosso Deus,
+          <Typography className="versicle"> ℣. </Typography>Pelo que o Senhor, vosso Deus,
           vos ungiu com o óleo da alegria.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 5</Text> Spécie tua et pulchritúdine
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 5</Typography> Spécie tua et pulchritúdine
           tua inténde, próspere procéde et regna. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 5</Text> Caminhai, pois, com
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 5</Typography> Caminhai, pois, com
           beleza e com majestade; ide gozar a glória e reinai. Aleluia.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

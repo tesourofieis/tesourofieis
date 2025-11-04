@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 
 import Language from "~/components/Language";
@@ -9,14 +9,14 @@ export default function PageJose() {
     <PageWrapper>
       <H1 text="Prefácio do S. José" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Diz-se na Festa de S. José e do seu Patrocínio e Oitavário e nas Missas
         Votivas de S. José. Nas Missas Votivas diz-se...in Veneratióne (em
         Veneração) em vez de...in Festivitáte (na Festividade).
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vere dignum et justum est, æquum et salutáre, nos tibi semper et
           ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: Et
           te in Festivitáte (Veneratióne) beáti Joseph débitis magnificáre
@@ -28,8 +28,8 @@ export default function PageJose() {
           Dominatiónes, tremunt Potestátes. Cœli cœlorúmque Virtútes ac beáta
           Séraphim sócia exsultatióne concélebrant. Cum quibus et nostras voces
           ut admítti júbeas, deprecámur, súpplici confessióne dicéntes:
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           É verdadeiramente digno e justo, racional e salutar dar-Vos graças em
           todos os lugares e sempre, ó Senhor santo, Pai omnipotente, eterno
           Deus: e na festividade do bem-aventurado José devemos proclamar, como
@@ -42,7 +42,7 @@ export default function PageJose() {
           se prostram reverentes, os Céus e os bem-aventurados Serafins a
           celebram em comuns transportes. Dignai-Vos permitir, Vos suplicamos,
           que as nossas vozes se unam às deles, dizendo em suplicante confissão:
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,49 +9,49 @@ export default function PageSumopontifice() {
       <H1 text="Pro Summo Pontifice" />
 
       <Language>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text>Orémus pro Pontífice nostro N.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>Oremos pelo nosso Pontífice N.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Dóminus consérvet eum, et
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography>Orémus pro Pontífice nostro N.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Oremos pelo nosso Pontífice N.
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Dóminus consérvet eum, et
           vivíficet eum, et beátum fáciat eum in terra, et non tradat eum in
           ánimam inimicórum ejus.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Que o Senhor o conserve e
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Que o Senhor o conserve e
           vivifique, que o faça santo na terra e o não entregue à vontade dos
           seus inimigos.
-        </Text>
-        <Text className="latin">Pater Noster... Ave Maria...</Text>
-        <Text className="vernacular">Pai Nosso... Ave Maria...</Text>
-        <Text className="latin">
-          <Text className="latin">
-            <Text className="versicle"> ℣. </Text>{" "}
-          </Text>
+        </Typography>
+        <Typography className="latin">Pater Noster... Ave Maria...</Typography>
+        <Typography className="vernacular">Pai Nosso... Ave Maria...</Typography>
+        <Typography className="latin">
+          <Typography className="latin">
+            <Typography className="versicle"> ℣. </Typography>{" "}
+          </Typography>
           Deus, ómnium fidélium pastor et rector, fámulum tuum N., quem pastórem
           Ecclésiæ tuæ præésse voluísti, propítius réspice: da ei, quǽsumus,
           verbo et exémplo, quibus præest, profícere: ut ad vitam, una cum grege
           sibi crédito, pervéniat sempitérnam. Per Christum, Dóminum nostrum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">
-            <Text className="versicle"> ℣. </Text>{" "}
-          </Text>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">
+            <Typography className="versicle"> ℣. </Typography>{" "}
+          </Typography>
           Ó Deus, pastor e guia de todos os fieis, olhai misericordiosamente
           sobre vosso Servo N. que escolheestes para pastor da vossa Igreja;
           concedei-lhe que, com sua palavra e exemplo, encaminhe o rebanho que
           lhe confiastes, e juntamente com ele, possa alcançar a vida eterna.
           Por Cristo Senhor nosso.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text>Amen.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text>Amen.
-        </Text>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography>Amen.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography>Amen.
+        </Typography>
       </Language>
     </PageWrapper>
   );

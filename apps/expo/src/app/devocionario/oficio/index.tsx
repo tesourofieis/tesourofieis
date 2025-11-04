@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import DirectoryList from "~/components/DirectoryList";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
@@ -8,10 +8,10 @@ export default function PageIndex() {
     <PageWrapper>
       <H1 text="Pequeno Ofício de Nossa Senhora" />
 
-      <Text className="aside">
-        Em conformidade com <Text className="em">Editio Typica</Text> do
+      <Typography className="aside">
+        Em conformidade com <Typography className="em">Editio Typica</Typography> do
         Breviário Romano.
-      </Text>
+      </Typography>
 
       <DirectoryList slug="devocionario/oficio" />
     </PageWrapper>

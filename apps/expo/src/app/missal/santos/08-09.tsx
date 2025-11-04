@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0809() {
     <PageWrapper>
       <H1 text="S. João Maria Vianney, a 8 de Agosto" />
 
-      <Text className="comment">
+      <Typography className="comment">
         João Vianney nasceu em Dardilly, perto de Lyon a 8 de Maio de 1786
         Ordenado Sacerdote em Grenoble a 13 de Agosto de 1815 foi pároco de Ars
         cerca de 42 anos. Eu suscitarei para mim um sacerdote fiel que agirá
@@ -37,33 +37,33 @@ export default function Page0809() {
         nossos padres a fim de que pelo exemplo e intercessão do Bem-aventurado
         Vianney, ardam no amor das almas (Grad.) e ganhem todas ao Cristo e com
         elas alcancem a glória eterna (Or.).
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/14confessoresnaopontifices1">
           Missa Os justi
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Omnípotens et miséricors Deus, qui sanctum Joánnem Maríam pastoráli
           stúdio et jugi oratiónis ac pœniténtiæ ardóre mirábilem effecísti: da,
           quǽsumus; ut, ejus exémplo et intercessióne, ánimas fratrum lucrári
           Christo, et cum eis ætérnam glóriam cónsequi valeámus. Per eúndem
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Omnipotente e misericordioso Deus, que, pelo seu zelo pastoral e pelo
           seu ardor na oração e na penitência, tornastes admirável o B. João
           Maria, concedei-nos, Vos suplicamos, que, seguindo o seu exemplo e
           pela sua intercessão, possamos conquistar para Cristo as almas dos
           nossos irmãos e com eles alcançar a glória eterna. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,13 +8,13 @@ export default function PageCruz() {
     <PageWrapper>
       <H1 text="Prefácio da Santa Cruz" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Diz-se quotidianamente desde Domingo da Paixão até Quinta-Feira Santa,
         excepto nas Festas de Nossa Senhora e de S. José.
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vere dignum et justum est, æquum et salutáre, nos tibi semper et
           ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus:
           Qui salútem humáni géneris in ligno Crucis constituísti: ut, unde mors
@@ -24,8 +24,8 @@ export default function PageCruz() {
           cœlorúmque Virtútes ac beáta Séraphim sócia exsultatióne concélebrant.
           Cum quibus et nostras voces ut admítti júbeas, deprecámur, súpplici
           confessióne dicéntes:
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           É verdadeiramente digno e justo, racional e salutar render-Vos graças
           em todos os lugares e sempre, ó Senhor santo, Pai omnipotente, eterno
           Deus, que estabelecestes na árvore da Cruz a salvação do género
@@ -37,7 +37,7 @@ export default function PageCruz() {
           em comuns transportes de alegria: aos quais, Vos suplicamos, permiti
           que se unam as nossas vozes, dizendo em humilde e suplicante
           confissão:
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

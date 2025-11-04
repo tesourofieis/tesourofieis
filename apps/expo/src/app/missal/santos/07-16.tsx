@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -9,7 +9,7 @@ export default function Page0716() {
     <PageWrapper>
       <H1 text="B. Virgem Maria do Monte Carmelo, a 16 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Segundo piedosa tradição, autorizada pela liturgia, no dia de
         Pentecostes, grande número de homens que haviam seguido os exemplos dos
         Santos Profetas Elias e Eliseu, e tinham sido preparados para a vinda de
@@ -32,56 +32,56 @@ export default function Page0716() {
         publicada a 3 de Março de 1322. A festa de Nossa Senhora do Carmo, a
         princípio peculiar às igrejas da Ordem, foi estendida a toda a
         cristandade, por Bento XIII, em 1726.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sedulius</Text>
+      <Typography className="em">Sedulius</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ
           Maríæ Vírginis: de cujus sollemnitáte gaudent Angeli et colláudant
-          Fílium Dei. <Text className="latin">Ps. 44, 2</Text> Eructávit cor
+          Fílium Dei. <Typography className="latin">Ps. 44, 2</Typography> Eructávit cor
           meum verbum bonum: dico ego ópera mea Regi.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Alegremo-nos todos no Senhor, no dia em que celebramos a festa em
           honra da B. Virgem Maria: os Anjos regozijam-se com esta festa e
           louvam unissonamente o Filho de Deus.{" "}
-          <Text className="vernacular">Sl. 44, 2</Text> Meu coração exprimiu uma
+          <Typography className="vernacular">Sl. 44, 2</Typography> Meu coração exprimiu uma
           excelente palavra: Consagro ao Rei as minhas obras.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beatíssimæ semper Vírginis et Genetrícis tuæ Maríæ singulári
           título Carméli órdinem decorásti: concéde propítius; ut, cujus hódie
           Commemoratiónem sollémni celebrámus offício, ejus muníti præsídiis, ad
           gáudia sempitérna perveníre mereámur: Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que ornastes a Ordem do Carmelo com a insigne honra de usar o
           nome da B. Maria, sempre Virgem e vossa Mãe, concedei-nos propício
           que, sendo nós auxiliados pela protecção daquela cuja comemoração
           celebramos hoje, solenemente, sejamos dignos de alcançar as eternas
           alegrias. Ó Vós, que...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ecl. 24, 23-31</Text>
+      <Typography className="em">Ecl. 24, 23-31</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Sapiéntiæ.</Text>
-        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="latin">
           Ego quasi vitis fructificávi suavitátem odóris: et flores mei fructus
           honóris et honestátis. Ego mater pulchræ dilectiónis et timóris et
           agnitiónis et sanctæ spei. In me grátia omnis viæ et veritátis: in me
@@ -91,8 +91,8 @@ export default function Page0716() {
           generatiónes sæculórum. Qui edunt me, adhuc esúrient: et qui bibunt
           me, adhuc sítient. Qui audit me, non confundétur: et qui operántur in
           me, non peccábunt. Qui elúcidant me, vitam ætérnam habébunt.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eu produzi, como a vinha, flores de suave odor, e as minhas flores são
           frutos de honra e de honestidade. Eu sou a mãe do amor puro, do temor,
           da ciência e da esperança santa. Em mim existe toda a graça do caminho
@@ -104,36 +104,36 @@ export default function Page0716() {
           e aqueles que me beberem terão ainda sede. Aqueles que me escutam não
           serão confundidos; aqueles que se orientarem em mim não pecarão; e
           aqueles que me tornarem conhecida alcançarão a vida eterna.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Bendeícta et venerábilis es, Virgo María: quæ sine tactu pudóris
-          invénta es Mater Salvatóris.<Text className="versicle"> ℣. </Text>
+          invénta es Mater Salvatóris.<Typography className="versicle"> ℣. </Typography>
           Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit
           víscera factus homo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bendita e venerável sois, ó Virgem Maria, que, sem a mais leve mancha
           de impureza, fostes a Mãe do Salvador.
-          <Text className="versicle"> ℣. </Text>Ó Virgem, Mãe de Deus, Aquele
+          <Typography className="versicle"> ℣. </Typography>Ó Virgem, Mãe de Deus, Aquele
           que nem todo o universo é capaz de conter, esteve encerrado no vosso
           seio, fazendo-se homem.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Per te, Dei
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Per te, Dei
           Génetrix, nobis est vita pérdita data: quæ de cœlo suscepísti prolem,
           et mundo genuísti Salvatórem. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Por vós, ó Mãe
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Por vós, ó Mãe
           de Deus, nos foi restituída a vida que havíamos perdido! Vós
           recebestes do céu a graça de serdes Mãe, gerando o Salvador do mundo.
           Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -145,64 +145,64 @@ export default function Page0716() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Jr. 18, 20</Text>
+      <Typography className="em">Jr. 18, 20</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Recordáre, Virgo Mater, in conspéctu Dei, ut loquáris pro nobis bona,
           et ut avértat indignatiónem suam a nobis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Recordai-vos, ó Virgem Maria, de interceder por nós junto de Deus e de
           conseguirdes afastar de nós a sua indignação.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sanctífica, Dómine, quǽsumus, obláta libámina: et, beátæ Dei
           Genetrícis Maríæ salubérrima intercessióne, nobis salutária fore
           concéde. Per eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Santificai, Senhor, Vos pedimos, as oblatas que Vos são apresentadas,
           e, pela eficacíssima intercessão da B. Virgem Maria, fazei que nos
           sejam salutares. Pelo mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Regina mundi digníssima, María, Virgo perpétua, intercéde pro nostra
           pace et salúte, quæ genuísti Christum Dóminum, Salvatórem ómnium.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Maria, digníssima Rainha do mundo e sempre Virgem, que gerastes
           Cristo, Senhor e Salvador de todos, alcançai-nos pela vossa
           intercessão a paz e a salvação.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Adjuvet nos, quǽsumus, Dómine, gloriósæ tuæ Genetrícis sempérque
           Vírginis Maríæ intercéssio veneránda: ut, quos perpétuis cumulávit
           benefíciis, a cunctis perículis absolútos, sua fáciat pietáte
           concórdes: Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que a augusta intercessão de Maria, vossa gloriosa Mãe e sempre
           Virgem, nos sirva de auxílio, Senhor, Vos rogamos; e que, depois de
           havermos sido perpetuamente cumulados dos seus benefícios e livres de
           todos os perigos, a sua bondade nos faça viver em concórdia. Ó Vós,
           que, sendo Deus...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

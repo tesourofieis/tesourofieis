@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -7,15 +7,15 @@ export default function PageOracoesdepoiscomunhao() {
     <PageWrapper>
       <H1 text="Orações depois da Comunhão" />
       <H3 text="Acto de Fé e de Adoração" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó Jesus, creio firmemente que sois Vós quem acabo de receber neste
         momento. Vós, o meu Deus, o meu Criador... Cheio de profundo respeito,
         prostro-me diante da vossa Divina Majestade, que tenho encerrada no meu
         peito, e adoro-Vos respeitosa e jubilosamente, rendendo-Vos profundas e
         sinceras homenagens!...
-      </Text>
+      </Typography>
       <H3 text="Acto de Reconhecimento e de Amor" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Dulcíssimo Jesus, eu Vos agradeço reconhecidíssimo a inefável graça que
         acabais de conceder-me. Como poderei corresponder a tanto amor para
         comigo, sendo tão miserável pecador?!... Oh! farei de hoje em diante o
@@ -32,14 +32,14 @@ export default function PageOracoesdepoiscomunhao() {
         que, vivendo sempre segundo a vossa vontade, possa depois gozar no céu a
         felicidade da eterna união convosco. Senhor, Senhor, ouvi esta minha
         súplica! Amen.
-      </Text>
+      </Typography>
       <H3 text="À B. Virgem Maria" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Santíssima Virgem, minha boa Mãe, auxiliai-me com vossa eficaz e
         maternal protecção, neste momento tão solene da minha vida. Que o Corpo
         e o Sangue de vosso Filho, que possuo, agora, no meu coração, sejam o
         meu fiel companheiro em toda minha vida.. Amen.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

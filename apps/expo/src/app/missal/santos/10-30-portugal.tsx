@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -7,29 +7,29 @@ export default function Page1030Portugal() {
   return (
     <PageWrapper>
       <H1 text="Vitória dos Cristãos, a 30 de Outubro, Missa de Acção de Graças pela vitória que os cristãos alcançaram na luta contra os sarracenos" />
-      <Text className="aside">
+      <Typography className="aside">
         Evangelho, ofertório e secreta como na Missa da
         <Link href="/missal/santos/05-03">Invenção da Santa Cruz.</Link>
-      </Text>
+      </Typography>
       <H3 text="Intróito" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Alegremo-nos em Deus em todo este dia: e louvemos eternamente o vosso
         nome, Senhor; pois salvastes-nos dos nossos inimigos e confundistes os
         que nos odiavam. Ó Deus, ouvimos com os nossos ouvidos e nossos país
         contaram-nos os feitos que praticastes nestes dias e nos dias passados.
-        <Text className="versicle"> ℣. </Text>
+        <Typography className="versicle"> ℣. </Typography>
         Glória ao Pai...
-      </Text>
+      </Typography>
       <H3 text="Oração" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó Deus, que pela vossa Cruz quisestes conceder ao povo, que em Vós crê,
         a vitória contra os inimigos, permiti pela vossa piedade, Vos pedimos,
         que aqueles que adoram a Cruz, alcancem sempre a vitória na terra e o
         gozo eterno nos céus. Ó Vós, que viveis e reinais...
-      </Text>
+      </Typography>
       <H3 text="Epístola" />
-      <Text className="vernacular">Lição do Livro dos Macabeus.</Text>
-      <Text className="vernacular">
+      <Typography className="vernacular">Lição do Livro dos Macabeus.</Typography>
+      <Typography className="vernacular">
         Naqueles dias, Macabeu esperava sempre com toda a confiança que um
         socorro lhe viria de Deus. E exortava os seus a que se não amedrontassem
         com a chegada das nações, mas que se lembrassem dos socorros, que lhes
@@ -53,26 +53,26 @@ export default function Page1030Portugal() {
         tinha caído morto, coberto com suas armas. Então, com forte alarido e
         estrondosas ovações, aclamaram o omnipotente Senhor e decretaram que não
         mais passasse aquele dia sem que se realizasse festiva comemoração.
-      </Text>
+      </Typography>
       <H3 text="Gradual" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Eis o dia que o Senhor criou. Exultemos e alegremo-nos n’Ele. Assim
         devem cantar aqueles que o Senhor resgatou e tirou das mãos dos
         inimigos. Aleluia, aleluia. Cantemos em honra do Senhor, pois assinalou
         gloriosamente a sua grandeza, arrojando ao mar o cavalo e o cavaleiro.
         Aleluia.
-      </Text>
+      </Typography>
       <H3 text="Comúnio" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Com o vosso poder, Senhor, assinalou-se a vossa dextra que esmagou o
         inimigo. Pela vossa misericórdia, fostes o guia do povo, que resgatastes
         e conduzistes pelo vosso poder ao vosso santo tabernáculo.
-      </Text>
+      </Typography>
       <H3 text="Postcomúnio" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ouvi-nos, ó Deus, nosso Salvador; e pela vitória da Santa Cruz
         livrai-nos de todos os perigos. Por nosso Senhor...
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

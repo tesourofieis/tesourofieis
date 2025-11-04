@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -10,7 +10,7 @@ export default function Page0520() {
     <PageWrapper>
       <H1 text="S. Bernardino de Sena, Conf., a 20 de Maio" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Comemoração S. Bernardino de Sena, Confessor. Nesta época do ano em que
         Jesus, pelo seu triunfo, realizou o nome de Salvador, o Ciclo faz
         celebrar a festa de São Bernardino, abrasado «de ardente amor por este
@@ -27,31 +27,31 @@ export default function Page0520() {
         Ascensão, do ano 1444. Peçamos a Deus, pela intercessão e méritos de S.
         Bernardino, que nos conceda grande amor pelo santo Nome de Jesus e
         acenda em nossos corações a chama da sua divina Caridade (Oração).
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/14confessoresnaopontifices1">
           Missa Os justi
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dómine Jesu, qui beáto Bernardíno Confessóri tuo exímium sancti
           nóminis tui amórem tribuísti: ejus, quǽsumus, méritis et
           intercessióne, spíritum nobis tuæ dilectiónis benígnus infúnde: Qui
           vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor Jesus Cristo, que concedestes ao B. Bernardino, vosso
           Confessor, um ardente amor ao vosso Santo nome, dignai-Vos infundir em
           nossas almas pelos seus méritos e intercessão o espírito da vossa
           caridade. Ó Vós, que viveis e...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />

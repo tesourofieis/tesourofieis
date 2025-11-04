@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0820() {
     <PageWrapper>
       <H1 text="S. Bernardo, Confessor e Doutor, a 20 de Agosto" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Apraz à Igreja celebrar no curso da Oitava da Assunção, São Bernardo, o
         Doutor das palavras de mel, Doctor mellifluus, cujo principal título de
         glória, foi o de ter cantado, com indizível ternura e ardente piedade,
@@ -47,26 +47,26 @@ export default function Page0820() {
         Virgem, Mãe de Deus, e digamos com piedade a antífona do Tempo: Salve
         Regina, cujos últimos três brados: Ó clemente, ó piedosa, ó doce Virgem
         Maria, lhe são atribuídos.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/13doutores">
           Missa In médio Ecclésiae
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ecl. 39, 6-14</Text>
+      <Typography className="em">Ecl. 39, 6-14</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Sapiéntiæ.</Text>
-        <Text className="vernacular">
+        <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Justus cor suum tradet ad vigilándum dilúculo ad Dóminum, qui fecit
           illum, et in conspéctu Altíssimi deprecábitur. Apériet os suum in
           oratióne, et pro delíctis suis deprecábitur. Si enim Dóminus magnus
@@ -78,8 +78,8 @@ export default function Page0820() {
           usque in sǽculum non delébitur. Non recédet memória ejus, et nomen
           ejus requirétur a generatióne in generatiónem. Sapiéntiam ejus
           enarrábunt gentes, et laudem ejus enuntiábit ecclésia.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O justo aplicará o seu coração e vigiará desde o romper do dia para se
           unir ao Senhor, que o criou, e oferecer as suas preces ao Altíssimo.
           Abrirá a sua boca para orar e implorar o perdão dos seus pecados;
@@ -92,7 +92,7 @@ export default function Page0820() {
           louvor de muitos e não cairá no esquecimento. Sua memória se não
           apagará. Seu nome será honrado de geração em geração. As nações
           publicarão a sua sabedoria e a Igreja anunciará os seus louvores.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

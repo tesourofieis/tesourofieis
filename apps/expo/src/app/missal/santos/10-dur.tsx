@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ export default function Page10Dur() {
     <PageWrapper>
       <H1 text="Nosso Senhor Jesus Cristo Rei" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Em sua Encyclica de 11 de Dezembro de 1925, Pio XI declara que o,
         Laicismo é directamente opposto aos direitos de Deus e de seu Cristo,
         sobre as pessoas e os povos porque esta heresia moderna recusa
@@ -64,59 +64,59 @@ export default function Page10Dur() {
         presta de modo incruento sobre o altar de pedra de nossas igrejas e
         sobre o altar de oiro do céu, ao Cristo, Rei adorado como Filho de Deus
         e a seu Pai ao qual oferece essas almas (Pref.).
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Ap. 5, 12; 1, 6</Text>
+      <Typography className="em">Ap. 5, 12; 1, 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dignus est Agnus, qui occísus est, accípere virtútem, et divinitátem,
           et sapiéntiam, et fortitúdinem, et honórem. Ipsi glória et impérium in
-          sǽcula sæculórum. <Text className="latin">Ps. 71, 1</Text> Deus,
+          sǽcula sæculórum. <Typography className="latin">Ps. 71, 1</Typography> Deus,
           judícium tuum Regi da: et justítiam tuam Fílio Regis.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           O Cordeiro, que foi imolado, é digno de receber o poder, a divindade,
           a sabedoria, a fortaleza, a honra: A Ele a glória e o império em todos
-          os séculos dos séculos. <Text className="vernacular">Sl. 71, 1</Text>{" "}
+          os séculos dos séculos. <Typography className="vernacular">Sl. 71, 1</Typography>{" "}
           Ó Deus, dai ao Rei o poder de julgar; e a vossa justiça ao Filho do
           Rei.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Omnípotens sempitérne Deus, qui in dilécto Fílio tuo, universórum
           Rege, ómnia instauráre voluísti: concéde propítius; ut cunctæ famíliæ
           géntium, peccáti vúlnere disgregátæ, ejus suavissímo subdántur
           império: Qui tecum vivit et regnat...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Omnipotente e eterno Deus, que tudo quisestes restaurar no vosso
           dilecto Filho, Rei de todas as coisas, concedei-nos propício que todas
           as famílias do mundo, livres da chaga do pecado, se submetam ao Seu
           suavíssimo império. Ele, que, sendo Deus, vive e reina...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Cl. 1, 12-20</Text>
+      <Typography className="em">Cl. 1, 12-20</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Colossenses.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Grátias ágimus Deo Patri, qui dignos nos fecit in partem
           sortis sanctórum in lúmine: qui eripuit nos de potestáte tenebrárum,
           et tránstulit in regnum Fílii dilectiónis suæ, in quo habémus
@@ -131,8 +131,8 @@ export default function Page10Dur() {
           eum reconciliáre ómnia in ipsum, pacíficans per sánguinem crucis ejus,
           sive quæ in terris, sive quæ in cœlis sunt, in Christo, Jesu, Dómino
           nostro.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Damos graças a Deus Pai, porque nos fez dignos de
           participar da herança dos Santos na luz, nos livrou do poder das
           trevas e nos conduziu para o reino do seu muito amado Filho, no qual
@@ -148,52 +148,52 @@ export default function Page10Dur() {
           plenitude e por Ele se reconciliem em si próprio todas as coisas,
           pacificando pelo seu sangue na Cruz tanto o que está na terra, como o
           que está no céu, em nosso Senhor Jesus Cristo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 71, 8 & 11</Text>
+      <Typography className="em">Sl. 71, 8 & 11</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dominábitur a mari usque ad mare, et a flúmine usque ad términos orbis
-          terrárum.<Text className="versicle"> ℣. </Text>Et adorábunt eum omnes
+          terrárum.<Typography className="versicle"> ℣. </Typography>Et adorábunt eum omnes
           reges terræ: omnes gentes sérvient ei.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dominará de mar a mar e desde o rio aos confins da redondeza da terra!
-          <Text className="versicle"> ℣. </Text>Adorá-l’O-ão todos os reis da
+          <Typography className="versicle"> ℣. </Typography>Adorá-l’O-ão todos os reis da
           terra: e todos os povos O servirão!
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Dan. 7, 14</Text> Potéstas ejus, potéstas
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Dan. 7, 14</Typography> Potéstas ejus, potéstas
           ætérna, quæ non auferétur: et regnum ejus, quod non corrumpétur.
           Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Dn. 7, 14</Text> Seu poder é eterno,
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Dn. 7, 14</Typography> Seu poder é eterno,
           nunca Lhe será tirado; seu reino é tal que nunca será corrompido.
           Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 18, 33-37</Text>
+      <Typography className="em">Jo. 18, 33-37</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Pilátus ad Jesum: Tu es Rex Judæórum? Respóndit
           Jesus: A temetípso hoc dicis, an alii dixérunt tibi de me? Respóndit
           Pilátus: Numquid ego Judǽus sum? Gens tua et pontífices tradidérunt te
@@ -203,8 +203,8 @@ export default function Page10Dur() {
           ei Pilátus: Ergo Rex es tu? Respóndit Jesus: Tu dicis, quia Rex sum
           ego. Ego in hoc natus sum et ad hoc veni in mundum, ut testimónium
           perhíbeam veritáti: omnis, qui est ex veritáte, audit vocem meam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Pilatos a Jesus: «Tu és o rei dos Judeus?».
           Respondeu Jesus: «Tu dizes isso de ti mesmo, ou foram outros que to
           disseram de mim?». Respondeu Pilatos: «Sou, porventura, judeu? Foram
@@ -216,70 +216,70 @@ export default function Page10Dur() {
           «És, portanto, rei?». Jesus respondeu: «Tu dizes que Eu sou rei. Eu
           para isso nasci e para isso vim a este mundo, a fim de dar testemunho
           da verdade. Todo aquele que é da verdade, escuta a minha voz».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 2, 8</Text>
+      <Typography className="em">Sl. 2, 8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Póstula a me, et dabo tibi gentes hereditátem tuam, et possessiónem
           tuam términos terræ.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Pede-me: e dar-te-ei as nações como herança; e como domínio os confins
           da terra!
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hóstiam tibi, Dómine, humánæ reconciliatiónis offérimus: præsta,
           quǽsumus; ut, quem sacrifíciis præséntibus immolámus, ipse cunctis
           géntibus unitátis et pacis dona concédat, Jesus Christus Fílius tuus,
           Dóminus noster: Qui tecum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos oferecemos, Senhor, a hóstia da reconciliação humana,
           implorando-Vos que este mesmo Jesus Cristo, vosso Filho e Senhor
           nosso, o qual imolamos no presente sacrifício, conceda a todos os
           povos os benefícios da união e da paz: Ele, que convosco vive e
           reina...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 28, 10 & 11</Text>
+      <Typography className="em">Sl. 28, 10 & 11</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sedébit Dóminus Rex in ætérnum: Dóminus benedícet pópulo suo in pace.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Assentar-se-á, eternamente, o Senhor como Rei e abençoará o seu povo
           em paz.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Immortalitátis alimóniam consecúti, quǽsumus, Dómine: ut, qui sub
           Christi Regis vexíllis militáre gloriámur, cum ipso, in cœlésti sede,
           júgiter regnáre póssimus: Qui tecum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Tendo nós alcançado o alimento da imortalidade, Vos suplicamos,
           Senhor, permiti que possamos reinar perpetuamente na celestial mansão,
           juntamente com Jesus Cristo, sob cujas bandeiras nos gloriamos de
           militar: Ele, que, sendo Deus, convosco vive e reina...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

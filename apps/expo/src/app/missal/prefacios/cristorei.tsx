@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,10 +8,10 @@ export default function PageCristorei() {
     <PageWrapper>
       <H1 text="Prefácio de N. S. Jesus Cristo-Rei" />
 
-      <Text className="aside">Diz-se na Missa de N. S. Jesus Cristo-Rei.</Text>
+      <Typography className="aside">Diz-se na Missa de N. S. Jesus Cristo-Rei.</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vere dignum et justum est, æquum et salutáre, nos tibi semper et
           ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus:
           Qui unigénitum Fílium tuum, Dóminum nostrum Jesum Christum, Sacerdótem
@@ -23,8 +23,8 @@ export default function PageCristorei() {
           regnum justítiæ, amóris et pacis. Et ídeo cum Angelis et Archángelis,
           cum Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus
           hymnum glóriæ tuæ cánimus, sine fine dicéntes:
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           É verdadeiramente digno e justo, racional e salutar dar-Vos graças em
           todos os lugares e sempre, Senhor santo, Pai omnipotente, eterno Deus,
           que ungistes com o óleo da alegria o vosso Filho Unigénito, nosso
@@ -37,7 +37,7 @@ export default function PageCristorei() {
           paz. E por isso, com os Anjos e Arcanjos, com os Tronos e Dominações e
           com toda a milícia do exército celestial, cantamos um hino à vossa
           glória, dizendo incessantemente:
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

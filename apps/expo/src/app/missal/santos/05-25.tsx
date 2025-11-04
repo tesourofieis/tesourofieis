@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0525() {
     <PageWrapper>
       <H1 text="S. Gregório VII, Papa e Conf., a 25 de Maio" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Nascido em Soana na Toscana, Hildebrando foi monge do célebre mosteiro
         benedictino de Cluny, do qual dependiam naquele tempo, duas mil abadias.
         Foi Prior, depois eleito Abade do Mosteiro de S. Paulo fora dos Muros, e
@@ -28,44 +28,44 @@ export default function Page0525() {
         Salmo 44: «Amei a justiça e odiei a iniquidade: eis porque morro
         exilado». A exemplo de S. Gregório, tenhamos coragem para vencer todas
         as adversidades (Oração).
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/sumospontifices">
           Missa Si díligis me
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, in te sperántium fortitúdo, qui beátum Gregórium Confessórem
           tuum atque Pontíficem, pro tuénda Ecclésiæ libertáte, virtúte
           constántiæ roborásti: da nobis, ejus exémplo et intercessióne, ómnia
           adversántia fórtiter superáre. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, fortaleza daqueles que esperam em Vós, concedestes ao B.
           Gregório, vosso Confessor e Pontífice, a virtude da constância para
           defender a liberdade da Igreja, permiti que, imitando o seu exemplo e
           pela sua intercessão, vençamos com coragem todas as adversidade. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H2 text="Comemoração de S. Urbano, Papa e Mártir" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/sumospontifices">
           Missa Si díligis me
         </Link>{" "}
         , excepto: Da mesma Missa Si díligis me, sendo a Oração a que está em
         primeiro lugar e a Secreta e Postcomúnio as que estão em segundo lugar.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

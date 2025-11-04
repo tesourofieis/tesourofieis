@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0825() {
     <PageWrapper>
       <H1 text="S. Luís, Rei de França, a 25 de Agosto" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Luiz IX, nascido em 1215, tornou-se rei de França aos doze anos; foi mui
         piedosamente educado pela rainha Branca, sua mãe, que lhe ensinou a
         preferir a morte a cometer um pecado mortal. Gostava de chamar-se Luiz
@@ -47,42 +47,42 @@ export default function Page0825() {
         véspera de morrer ouviam-no repetir: Iremos a Jerusalém. Na Jerusalém
         celeste, conquistada pela sua paciência no meio das adversidades, devia
         ele reinar com o Rei dos Reis (Or.).
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/14confessoresnaopontifices1">
           Missa Os justi
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beátum Ludovícum Confessórem tuum de terréno regno ad
           cœléstis regni glóriam transtulísti: ejus, quǽsumus, méritis et
           intercessióne; Regis regum Jesu Christi, Fílii tui, fácias nos esse
           consórtes: Qui tecum vivit et regnat...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que trasladastes o B. Luís, vosso Confessor, do reino
           terrestre para a glória do reino celestial, humildemente Vos
           suplicamos, pelos seus méritos e intercessão, que um dia nos façais
           participar da glória do Rei dos reis, Jesus Cristo, vosso Filho. Que
           convosco vive e reina...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Sb. 10, 10-14</Text>
+      <Typography className="em">Sb. 10, 10-14</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Sapiéntiæ.</Text>
-        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="latin">
           Justum dedúxit Dóminus per vias rectas, et ostendit illi regnum Dei,
           et dedit illi sciéntiam sanctórum: honestávit illum in labóribus, et
           complévit labores illíus. In fraude circumveniéntium illum áffuit
@@ -94,8 +94,8 @@ export default function Page0825() {
           illi sceptrum regni, et poténtiam advérsus eos, qui eum deprimébant:
           et mendáces osténdit, qui maculavérunt illum, et dedit illi claritátem
           ætérnam, Dóminus, Deus noster.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O Senhor conduziu o justo por caminhos direitos; mostrou-lhe o reino
           de Deus; transmitiu-lhe a ciência das coisas santas; enriqueceu-o nos
           seus trabalhos; e fez frutificar esses seus labores. O Senhor
@@ -109,23 +109,23 @@ export default function Page0825() {
           o poder sobre os seus opressores. O Senhor, nosso Deus, provou que
           eram mentirosos aqueles que o desacreditaram e tornou-o ilustre para
           sempre.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 19, 12-26</Text>
+      <Typography className="em">Lc. 19, 12-26</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo
           quidam nóbilis ábiit in regionem longínquam accípere sibi regnum, et
           revérti. Vocátis autem decem servis suis, dedit eis decem mnas, et ait
@@ -147,8 +147,8 @@ export default function Page0825() {
           illi, qui decem mnas habet. Et dixérunt ei: Dómine, habet decem mnas.
           Dico autem vobis: Quia omni habénti dábitur, et abundábit: ab eo
           autem, qui non habet, et, quod habet, auferétur ab eo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, Jesus disse aos seus discípulos esta parábola: «Certo
           homem de linhagem nobre partiu para um país longínquo, a fim de
           conseguir a posse desse reino e voltar depois. Chamou, pois, dez dos
@@ -174,39 +174,39 @@ export default function Page0825() {
           moedas». «Eu vos digo, retorquiu o Senhor, dar-se-á àquele que tem, e
           ficará na abundância; mas àquele que nada tem tirar-se-lhe-á até o que
           tiver».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, sicut beátus Ludovícus
           Conféssor tuus, spretis mundi oblectaméntis, soli Regi Christo placére
           stúduit; ita ejus orátio nos tibi reddat accéptos. Per eúndem
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos suplicamos, fazei que, assim como o B. Luís,
           vosso Confessor, desprezando as delícias do mundo só procurou agradar
           a Cristo-Rei, assim também a sua oração nos torne agradáveis a Vós.
           Pelo mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beátum Confessórem tuum Ludovícum mirificásti in terris, et
           gloriósum in cœlis fecísti: eúndem, quǽsumus, Ecclésiæ tuæ constítue
           defensórem. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que engrandecestes na terra e glorificastes no céu o B. Luís,
           vosso Confessor, constituí-o, Vo-lo pedimos, defensor da vossa Igreja.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

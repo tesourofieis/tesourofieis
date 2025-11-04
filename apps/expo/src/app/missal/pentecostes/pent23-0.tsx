@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,52 +10,52 @@ export default function PagePent230() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Jr. 29,11,12 & 14</Text>
+      <Typography className="em">Jr. 29,11,12 & 14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis:
           invocábitis me, et ego exáudiam vos: et redúcam captivitátem vestram
-          de cunctis locis. <Text className="latin">Ps. 84, 2</Text>{" "}
+          de cunctis locis. <Typography className="latin">Ps. 84, 2</Typography>{" "}
           Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Disse o Senhor: tenho pensamentos de paz e não de ira: invocar-me-eis
           e ouvir-vos-ei; e farei regressar de todos os países os vossos
-          cativos. <Text className="vernacular">Sl. 84, 2</Text> Abençoastes,
+          cativos. <Typography className="vernacular">Sl. 84, 2</Typography> Abençoastes,
           Senhor, a vossa terra e livrastes Jacob do cativeiro.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Absólve, quǽsumus, Dómine, tuórum delícta populórum: ut a peccatórum
           néxibus, quae pro nostra fraglitáte contráximus, tua benignitáte
           liberémur. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Perdoai, Senhor, os delitos do vosso povo, a fim de que pela vossa
           benignidade sejamos livres dos liames dos pecados em que a nossa
           fraqueza nos fez cair. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Fl. 3, 17-21: 4, 1-3</Text>
+      <Typography className="em">Fl. 3, 17-21: 4, 1-3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Imitatóres mei estóte, et observáte eos, qui ita ámbulant,
           sicut habétis formam nostram. Multi enim ámbulant, quos sæpe dicébam
           vobis (nunc autem et flens dico) inimícos Crucis Christi: quorum finis
@@ -69,8 +69,8 @@ export default function PagePent230() {
           idípsum sápere in Dómino. Etiam rogo et te, germáne compar, ádjuva
           illas, quæ mecum laboravérunt in Evangélio cum Cleménte et céteris
           adjutóribus meis, quorum nómina sunt in libro vitæ.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Sede meus imitadores e segui aqueles que se conduzem
           segundo o modelo que tendes em nós; porque há muitos, de quem vos
           tenho falado (e ainda falo deles com lágrimas), que se portam como
@@ -87,51 +87,51 @@ export default function PagePent230() {
           rogo, ó fiel companheiro, que auxilieis aqueles que trabalharam comigo
           pelo Evangelho, com Clemente e com os outros meus coadjutores, cujos
           nomes estão no livro da vida.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 43, 8-9</Text>
+      <Typography className="em">Sl. 43, 8-9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos odérunt,
-          confudísti.<Text className="versicle"> ℣. </Text>In Deo laudábimur
+          confudísti.<Typography className="versicle"> ℣. </Typography>In Deo laudábimur
           tota die, et in nómine tuo confitébimur in sǽcula.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Livrastes-nos, Senhor, daqueles que nos afligiam: e confundistes os
-          que nos odiavam.<Text className="versicle"> ℣. </Text>
+          que nos odiavam.<Typography className="versicle"> ℣. </Typography>
           Glorificar-nos-emos constantemente em Deus e louvaremos eternamente o
           vosso nome.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 129, 12</Text> De profúndis clamávi ad te,
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 129, 12</Typography> De profúndis clamávi ad te,
           Dómine: Dómine, exáudi oratiónem meam. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 129, 12</Text> Do fundo do abysmo Vos
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 129, 12</Typography> Do fundo do abysmo Vos
           invoquei, Senhor: escutai a minha oração. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 9, 18-26</Text>
+      <Typography className="em">Mt. 9, 18-26</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Loquénte Jesu ad turbas, ecce, princeps unus accéssit
           et adorábat eum, dicens: Dómine, fília mea modo defúncta est: sed
           veni, impóne manum tuam super eam, et vivet. Et surgens Jesus
@@ -145,8 +145,8 @@ export default function PagePent230() {
           sed dormit. Et deridébant eum. Et cum ejécta esset turba, intrávit et
           ténuit manum ejus. Et surréxit puella. Et éxiit fama hæc in univérsam
           terram illam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, falando Jesus ao povo, um dos príncipes da sinagoga
           aproximou-se d’Ele e, adorando-O, disse-Lhe: «Senhor, a minha filha
           acaba de morrer, mas vinde, colocai vossas mãos sobre ela e recobrará
@@ -162,67 +162,67 @@ export default function PagePent230() {
           adormecida». Eles riam-se de Jesus! Havendo, porém, saído a turba,
           entrou Jesus e pegou na mão da menina, que logo ressuscitou! E correu
           a fama deste acontecimento em todo o país.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 129, 1-2</Text>
+      <Typography className="em">Sl. 129, 1-2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           De profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam: de
           profúndis clamávi ad te, Dómine.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Das profundezas dos abysmos Vos invoquei, Senhor; escutai, Senhor, a
           minha voz: das profundezas dos abysmos Vos invoquei.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Pro nostræ servitútis augménto sacrifícium tibi, Dómine, laudis
           offérimus: ut, quod imméritis contulísti, propítius exsequáris. Per
           Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Para aumento do nosso zelo em Vos servir, Senhor, Vos oferecemos um
           sacrifício de louvor, a fim de que pela vossa bondade alcancemos o
           efeito dos dons que nos concedestes sem nenhuns merecimentos da nossa
           parte. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mc. 11, 24</Text>
+      <Typography className="em">Mc. 11, 24</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Amen, dico vobis, quidquid orántes pétitis, crédite, quia accipiétis,
           et fiet vobis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Na verdade vos digo: «Tudo o que pedirdes nas vossas orações,
           acreditai que o recebereis; e far-se-á como pedirdes».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quǽsumus, omnípotens Deus: ut, quos divína tríbuis participatióne
           gaudére, humánis non sinas subjacére perículis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos suplicamos, não permitais que aqueles a quem
           concedestes a alegria de participarem dos vossos sagrados mystérios
           fiquem expostos aos perigos humanos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

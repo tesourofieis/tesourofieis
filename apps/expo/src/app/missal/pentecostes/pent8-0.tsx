@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,54 +10,54 @@ export default function PagePent80() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 47, 10-11</Text>
+      <Typography className="em">Sl. 47, 10-11</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Suscépimus, Deus, misericórdiam tuam in médio templi tui: secúndum
           nomen tuum, Deus, ita et laus tua in fines terræ: justítia plena est
-          déxtera tua. <Text className="latin">Ps. ibid., 2</Text> Magnus
+          déxtera tua. <Typography className="latin">Ps. ibid., 2</Typography> Magnus
           Dóminus, et laudábilis nimis: in civitate Dei nostri, in monte sancto
-          ejus.<Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          ejus.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Alcançámos, ó Deus, a vossa misericórdia no meio do vosso templo. Como
           o vosso nome, assim a vossa glória, Senhor, se estende até aos confins
           da terra: e a vossa dextra está cheia de justiça.{" "}
-          <Text className="vernacular">Sl. ibid., 2</Text> O Senhor é grande e
+          <Typography className="vernacular">Sl. ibid., 2</Typography> O Senhor é grande e
           digno de todos os louvores, tanto na cidade de Deus, como no seu monte
-          santo.<Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          santo.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Largíre nobis, quǽsumus, Dómine, semper spíritum cogitándi quæ recta
           sunt, propítius et agéndi: ut, qui sine te esse non póssumus, secúndum
           te vívere valeámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedei-nos propício, Senhor, Vos imploramos, a graça de pensar e de
           praticar sempre segundo a justiça, a fim de que, não podendo nós
           existir sem Vós, conformemos sempre a nossa vida com vossa vontade.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Rm. 8, 12-17</Text>
+      <Typography className="em">Rm. 8, 12-17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Debitóres sumus non carni, ut secúndum carnem vivámus. Si
           enim secúndum carnem vixéritis, moriémini: si autem spíritu facta
           carnis mortificavéritis, vivétis. Quicúmque enim spíritu Dei aguntur,
@@ -66,8 +66,8 @@ export default function PagePent80() {
           Abba (Pater). Ipse enim Spíritus testimónium reddit spirítui nostro,
           quod sumus fílii Dei. Si autem fílii, et herédes: herédes quidem Dei,
           coherédes autem Christi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Não somos devedores à carne para vivermos segundo a
           carne. Se, pois, viverdes segundo a carne, morrereis; mas se, pelo
           contrário, com o Espírito mortificardes as obras da carne, vivereis;
@@ -78,53 +78,53 @@ export default function PagePent80() {
           espírito de que somos filhos de Deus. Se, pois, somos filhos de Deus,
           somos também herdeiros: herdeiros verdadeiros de Deus e co-herdeiros
           de Jesus Cristo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 30, 3</Text>
+      <Typography className="em">Sl. 30, 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Esto mihi in Deum protectórem, et in locum refúgii, ut salvum me
-          fácias.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 70, 1</Text> Deus, in te sperávi: Dómine,
+          fácias.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 70, 1</Typography> Deus, in te sperávi: Dómine,
           non confúndar in ætérnum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Sede para mim Deus protector: e um lugar de refúgio para me salvar.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 70, 1</Text> Ó Deus, em Vós pus a
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 70, 1</Typography> Ó Deus, em Vós pus a
           minha esperança: não serei para sempre confundido, Senhor.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 47, 2</Text> Magnus Dóminus, et laudábilis
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 47, 2</Typography> Magnus Dóminus, et laudábilis
           valde, in civitáte Dei nostri, in monte sancto ejus. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 47, 2</Text> O Senhor é grande e
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 47, 2</Typography> O Senhor é grande e
           digno de todos os louvores, tanto na cidade de Deus, como no seu monte
           santo. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 16, 1-9</Text>
+      <Typography className="em">Lc. 16, 1-9</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo
           quidam erat dives, qui habébat víllicum: et hic diffamátus est apud
           illum, quasi dissipásset bona ipsíus. Et vocávit illum et ait illi:
@@ -142,8 +142,8 @@ export default function PagePent80() {
           generatióne sua sunt. Et ego vobis dico: fácite vobis amicos de
           mammóna iniquitátis: ut, cum defecéritis, recípiant vos in ætérna
           tabernácula.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos esta parábola: Um homem
           rico tinha um feitor, que foi acusado diante dele de haver dissipado
           os seus bens. Então, chamou-o, dizendo-lhe: «Que é isto que ouço dizer
@@ -163,68 +163,68 @@ export default function PagePent80() {
           vos digo, acrescentou Jesus: «Granjeai amigos com as riquezas da
           iniquidade, a fim de que, quando vos encontrardes com necessidade, vos
           recebam nas suas moradas eternas».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 17, 28 & 32</Text>
+      <Typography className="em">Sl. 17, 28 & 32</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Pópulum húmilem salvum fácies, Dómine, et óculos superbórum
           humiliábis: quóniam quis Deus præter te, Dómine?
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Salvareis, Senhor, o povo humilde, e humilhareis os soberbos, pois
           quem é Deus senão Vós, Senhor?
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Súscipe, quǽsumus, Dómine, múnera, quæ tibi de tua largitáte
           deférimus: ut hæc sacrosáncta mystéria, grátiæ tuæ operánte virtúte,
           et præséntis vitæ nos conversatióne sanctíficent, et ad gáudia
           sempitérna perdúcant. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aceitai, Senhor, Vos suplicamos, estes dons, que recebemos da vossa
           liberalidade, a fim de que pela eficácia da vossa graça estes
           sacrossantos mystérios nos santifiquem durante a vida presente e nos
           conduzam à posse das alegrias eternas. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 33, 9</Text>
+      <Typography className="em">Sl. 33, 9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Gustáte et vidéte, quóniam suávis est Dóminus: beátus vir, qui sperat
           in eo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Provai e vede como o Senhor é suave: Bem-aventurado o varão que confia
           n’Ele.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sit nobis, Dómine, reparátio mentis et córporis cæléste mystérium: ut,
           cujus exséquimur cultum, sentiámus efféctum. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que este celestial mystério, Senhor, renove o nosso espírito e o nosso
           corpo» a fim de que sintamos os efeitos do sacramento que honrámos.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,54 +10,54 @@ export default function Page1228() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 8, 3</Text>
+      <Typography className="em">Sl. 8, 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ex ore infántium, Deus, et lacténtium perfecísti laudem propter
-          inimicos tuos. <Text className="latin">Ps. ib., 2</Text> Dómine,
+          inimicos tuos. <Typography className="latin">Ps. ib., 2</Typography> Dómine,
           Dóminus noster: quam admirábile est nomen tuum in univérsa terra!
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Da boca dos meninos e das crianças de peito fazeis sair louvores em
           vossa honra, para confusão dos vossos inimigos.{" "}
-          <Text className="vernacular">Sl. ib., 2</Text> Ó Senhor, nosso Deus,
+          <Typography className="vernacular">Sl. ib., 2</Typography> Ó Senhor, nosso Deus,
           como o vosso nome é admirável em todo o universo!
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, cujus hodicrna die præcónium Innocéntes Mártyres non loquéndo,
           sed moriéndo conféssi sunt: ómnia in nobis vitiórum mala mortífica; ut
           fidem tuam, quam lingua nostra lóquitur, étiam móribus vita fateátur.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, cuja glória os Inocentes Mártires confessaram neste dia, não
           com suas palavras, mas com sua morte, mortificai no nosso íntimo as
           paixões e os vícios, a fim de que a vossa fé, que a nossa boca
           confessa, seja Confirmada com os nossos costumes. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ap. 14, 1-5</Text>
+      <Typography className="em">Ap. 14, 1-5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição do Livro Apocalipse do B. Ap.º João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In diébus illis: Vidi supra montem Sion Agnum stantem, et cum eo
           centum quadragínta quatuor mília, habéntes nomen ejus, et nomen Patris
           ejus scriptum in fróntibus suis. Et audívi vocem de cœlo, tamquam
@@ -70,8 +70,8 @@ export default function Page1228() {
           Agnum, quocúmque íerit. Hi empti sunt ex homínibus primítiæ Deo, et
           Agno: et in ore eórum non est invéntum mendácium: sine mácula enim
           sunt ante thronum Dei.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, vi o Cordeiro de pé sobre a montanha de Sião e com ele
           cento e quarenta e quatro mil pessoas, que tinham o seu nome e o nome
           de seu Pai escritos na fronte, e ouvi uma voz do céu, semelhante ao
@@ -86,76 +86,76 @@ export default function Page1228() {
           para serem oferecidos como primícias a Deus e ao Cordeiro, não tendo
           eles nunca procedido falsamente, pois foram julgados sem mancha diante
           do trono de Deus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 123, 7-8</Text>
+      <Typography className="em">Sl. 123, 7-8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Anima nostra, sicut passer, erépta est de láqueo venántium.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in
           nómine Dómini, qui fecit cœlum et terram.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A nossa alma escapou-se, como um pássaro do laço do caçador. O laço
           quebrou-se, e ficámos livres.
-          <Text className="versicle"> ℣. </Text>A nossa esperança está no nome
+          <Typography className="versicle"> ℣. </Typography>A nossa esperança está no nome
           do Senhor, que criou o céu e a terra.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 78, 3 & 10</Text>
+      <Typography className="em">Sl. 78, 3 & 10</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Effudérunt sánguinem Sanctórum, velut aquam, in circuitu Jerúsalem.
-          <Text className="versicle"> ℣. </Text>Et non erat, qui sepelíret.
-          <Text className="versicle"> ℣. </Text>Víndica, Dómine, sánguinem
+          <Typography className="versicle"> ℣. </Typography>Et non erat, qui sepelíret.
+          <Typography className="versicle"> ℣. </Typography>Víndica, Dómine, sánguinem
           Sanctórum tuórum, qui effúsus est super terram.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Derramaram o sangue dos Santos, como água, em redor de Jerusalém.
-          <Text className="versicle"> ℣. </Text>E não houve ninguém que os
-          sepultasse.<Text className="versicle"> ℣. </Text>Vingai, Senhor, o
+          <Typography className="versicle"> ℣. </Typography>E não houve ninguém que os
+          sepultasse.<Typography className="versicle"> ℣. </Typography>Vingai, Senhor, o
           sangue dos vossos Santos que correu pela terra.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">Ao Domingo suprime-se o Trato e diz-se:</Text>
+      <Typography className="aside">Ao Domingo suprime-se o Trato e diz-se:</Typography>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 112, 1</Text> Laudáte, púeri, Dóminum,
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 112, 1</Typography> Laudáte, púeri, Dóminum,
           laudáte nomen Dómini. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 112, 1</Text> Ó meninos, louvai o
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 112, 1</Typography> Ó meninos, louvai o
           Senhor; louvai o seu santo nome. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 2, 13-18</Text>
+      <Typography className="em">Mt. 2, 13-18</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Angelus Dómini appáruit in somnis Joseph, dicens:
           Surge, et áccipe Púerum et Matrem ejus, et fuge in Ægýptum, et esto
           ibi, usque dum dicam tibi. Futúrum est enim, ut Heródes quærat Púerum
@@ -169,8 +169,8 @@ export default function Page1228() {
           per Jeremíam Prophetam dicéntem: Vox in Rama audíta est, plorátus et
           ululátus multus: Rachel plorans fílios suos, et nóluit consolári, quia
           non sunt.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, um Anjo do Senhor apareceu em sonhos a José,
           dizendo-lhe: «Ergue-te, toma o Menino e a sua Mãe e foge para o
           Egipto, onde ficarás até que novamente te avise; pois Herodes procura
@@ -185,68 +185,68 @@ export default function Page1228() {
           profeta Jeremias: «Uma voz se ouviu em Rama: muitos soluços e
           lamentações. É Raquel que chora os seus filhos; e ela não quer ser
           consolada, porque já não existem!».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 123, 7</Text>
+      <Typography className="em">Sl. 123, 7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Anima nostra, sicut passer, erépta est de láqueo venántium: láqueus
           contrítus est, et nos liberáti sumus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A nossa alma escapou-se, como um pássaro do laço do caçador. O laço
           quebrou-se, e ficámos livres.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sanctórum tuórum, Dómine, nobis pia non desit orátio: quæ et múnera
           nostra concíliet, et tuam nobis indulgéntiam semper obtíneat. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Não nos falte, Senhor, a pia oração dos vossos Santos e que ela Vos
           torne agradáveis as nossas ofertas e sempre nos alcance a vossa
           indulgência. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 2, 18</Text>
+      <Typography className="em">Mt. 2, 18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vox in Rama audíta est, plorátus, et ululátus: Rachel plorans fílios
           suos, et nóluit consolári, quia non sunt.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Uma voz se ouviu em Rama: muitos soluços e lamentações. É Raquel que
           chora os seus filhos; e ela não quer ser consolada, porque já não
           existem!
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Votíva, Dómine, dona percépimus: quæ Sanctórum nobis précibus, et
           præséntis, quǽsumus, vitæ páriter et ætérnæ tríbue conférre subsídium.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo nós participado dos dons que Vos oferecemos, dignai-Vos
           permitir que as orações dos vossos Santos nos sirvam de auxílio para a
           vida presente e para a futura. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

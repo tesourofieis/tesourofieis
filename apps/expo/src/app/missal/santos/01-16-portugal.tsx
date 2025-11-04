@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -11,57 +11,57 @@ export default function Page0116Portugal() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 33, 20-21</Text>
+      <Typography className="em">Sl. 33, 20-21</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Multæ tribulatiónes justórum, et de his ómnibus liberábit eos Dóminus:
           Dóminus custódit ómnia ossa eórum, unum ex his non conterétur.{" "}
-          <Text className="latin">ibid., 1</Text> Benedícam Dóminum in omni
+          <Typography className="latin">ibid., 1</Typography> Benedícam Dóminum in omni
           témpore: semper laus ejus in ore meo.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Muitas são as tribulações dos justos, mas de todas elas o Senhor os
           livrará. O Senhor guarda todos seus ossos e nem um só deles será
-          quebrado. <Text className="vernacular">ibid., 1</Text> Bendirei o
+          quebrado. <Typography className="vernacular">ibid., 1</Typography> Bendirei o
           Senhor em todo o tempo; os seus louvores estarão sempre na minha boca.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui sanctórum Mártyrum tuórum Bérardi, Petri, Accúrsii, Adjúti,
           atque Othónis glorióso certámine órdinis Minórum inítia consecrásti:
           concéde nobis fámulis tuis; ut quorum lætámur triúmphis, eórum
           virtútes imitémur. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que consagrastes os princípios da Ordem dos Menores com o
           glorioso martírio dos vossos Santos Mártires Berardo, Pedro, Acúrsio,
           Adjuto e Otão, permiti que nós, vossos servos, imitemos as suas
           virtudes, assim como nos alegramos com seus triunfos. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração Comemoração S. Marcelo" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Preces pópuli tui, quæsumus, Dómine, cleménter exáudi: ut beáti
           Marcéllis Mártyris tui atque Pontíficis méritis adjuvémur, cujus
           passióne lætámur. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, dignai-Vos ouvir clementemente as preces do vosso povo, a fim
           de que sejamos auxiliados pelos méritos do B. Marcelo, vosso Mártir e
           Pontífice, cujo martírio festejamos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
@@ -73,73 +73,73 @@ export default function Page0116Portugal() {
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 78, 10</Text>
+      <Typography className="em">Sl. 78, 10</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Víndica, Dómine, sánguinem Sanctórum tuórum, qui effúsus est.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. ibid., 2</Text> Posuérunt morticína
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. ibid., 2</Typography> Posuérunt morticína
           servórum tuórum, Dómine, escas volatílibus cælis: carnes Sanctórum
           tuórum béstiis terræ.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vingai, Senhor, o sangue dos vossos Santos que foi derramado.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. ibid., 2</Text> Deram para alimento
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Deram para alimento
           às aves do céu os corpos dos vossos servos, que haviam sido mortos; e
           deram as carnes dos vossos Santos às feras da terra.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Hæc est vera
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Hæc est vera
           fratérnitas, quæ vicit mundi crímina: Christum secúta est, ínclyta
           tenes regna cæléstia. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Eis a
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Eis a
           verdadeira fraternidade que venceu os crimes do mundo. Ela seguiu
           Cristo, possuindo gloriosamente o reino celestial. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         Após a Septuagésima, omite-se o Aleluia e o Verso, e diz-se o Trato:
-      </Text>
+      </Typography>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 125, 5-6</Text>
+      <Typography className="em">Sl. 125, 5-6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Qui séminant in lácrimis, in gáudio metent.
-          <Text className="versicle"> ℣. </Text>Eúntes ibant et flébant,
-          mitténtes sémina sua.<Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>Eúntes ibant et flébant,
+          mitténtes sémina sua.<Typography className="versicle"> ℣. </Typography>
           Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aqueles que semeiam com lágrimas ceifarão com júbilo.
-          <Text className="versicle"> ℣. </Text>Iam, caminhavam e lançavam a
-          semente à terra, chorando.<Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>Iam, caminhavam e lançavam a
+          semente à terra, chorando.<Typography className="versicle"> ℣. </Typography>
           Porém, quando voltavam, exultavam de alegria, trazendo os seus molhos
           de trigo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 10, 16-22</Text>
+      <Typography className="em">Mt. 10, 16-22</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discipulis suis: Ecce ego mitto vos sicut
           oves in médio lupórum. Estóte ergo prudéntes sicut serpéntes, et
           simplices sicut colúmbæ. Cavéte autem ab homínibus. Tradent enim vos
@@ -151,8 +151,8 @@ export default function Page0116Portugal() {
           Tradet autem frater fratrem in mortem, et pater fílium: et insúrgent
           fílii in paréntes, et morte eos affícient: et éritis ódio ómnibus
           autem perseveráverit usque in finem, hic salvus erit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Eis que vos envio,
           como ovelhas no meio de lobos. Sede, pois, prudentes, como as
           serpentes, e simples, como as pombas. Acautelai-vos dos homens, porque
@@ -167,102 +167,102 @@ export default function Page0116Portugal() {
           levantarão contra os pais e lhes darão a morte. Sereis odiados por
           todos por causa do meu nome, mas quem perseverar até ao fim será
           salvo».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Pr. 3, 1-3</Text>
+      <Typography className="em">Pr. 3, 1-3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Justórum ánimæ in manu Dei sunt, et non tanget ilos torméntum malítiæ:
           visi sunt óculis insipiéntium mori: illi autem sunt in pace. Allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           As almas dos justos estão nas mãos de Deus e o tormento da malícia as
           não tocará! Aos olhos dos insensatos pareciam quase a morrer, todavia
           estão na paz. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Pro pretiósa, Dómine, tuórum morte Sanctórum sacrifícium istud
           offérimus: quo opem tuam nostris tempóribus cleménter impéndas, et
           grátiam nobis veræ devotiónis exhíbeas. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos oferecemos, Senhor, este sacrifício em honra da preciosa morte dos
           vossos Santos, a fim de que em virtude dele nos concedais
           clementemente em nossos dias o vosso auxílio e a graça da verdadeira
           piedade. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta Comemoração S. Marcelo" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Súscipe, quæsumus, Dómine, múnera dignánter obláta: et beáti Marcélli
           Mártyris tui atque Pontíficis, suffragántibus méritis, ad nostræ
           salútis auxílium provenire concéde. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Com as ofertas destes dons, Vos suplicamos, Senhor, iluminai
           benignamente a vossa Igreja, a fim de que não só o vosso rebanho
           triunfe em toda a parte, mas também pelo poder do vosso nome os
           Pastores sejam bem acolhidos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Lc. 12, 4</Text>
+      <Typography className="em">Lc. 12, 4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dico autem vobis amícis meis: ne terreámini ab his, qui vos
           persequúntur.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Digo-vos, pois, a vós, que sois meus amigos: «Não tenhais medo
           daqueles que vos perseguem».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cæléstia, Dómine, domina, quæ súmpsimus, vitam nobis tríbuant
           sempitérnam: quam cum beatórum Mártyrum tuórum Berárdi, Petri,
           Accúrsii, Adjúti, atque Othónis, gloriósis méritis implorámus. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que os dons celestiais que recebemos, Senhor, nos comuniquem a vida
           eterna, a qual Vos suplicamos pelos gloriosos méritos dos vossos
           Mártires Berardo, Pedro, Acúrsio, Adjuto e Otão. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio Comemoração S. Marcelo" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quæsumus,
           semper interventióne nos réfove, cujus solémnia celebrámus. Per
           Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicamos, governai com mansidão a vossa Igreja, agora
           que foi alimentada com a sagrada refeição, a fim de que, dirigida com
           firme suavidade, alcance o incremento da sua liberdade e persista na
           integridade da sua doutrina. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

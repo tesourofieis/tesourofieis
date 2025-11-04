@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0717() {
     <PageWrapper>
       <H1 text="S. Aleixo, Conf., a 17 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Santo Aleixo, nasceu em Roma, de familia rica, no ano de 350 mais ou
         menos, sendo seu pai o senador Eufemiano. Guiado pelo Espírito Santo
         renunciou a todo o seu património, e visitou em piedosa peregrinação so
@@ -17,28 +17,28 @@ export default function Page0717() {
         Inocêncio I. Seu corpo foi depositado em Roma, no Monte Aventino, na
         igreja de seu nome, onde é venerado com S. Bonifácio, a quem foi
         primitivamente consagrada.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/14confessoresnaopontifices1">
           Missa Os justi
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Tm. 6, 6-12</Text>
+      <Typography className="em">1 Tm. 6, 6-12</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo a Timóteo.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Caríssime: Est quæstus magnus píetas cum sufficiéntia. Nihil enim
           intúlimus in hunc mundum: haud dúbium, quod nec auférre quid póssumus.
           Habéntes autem aliménta, et quibus tegámur, his conténti simus. Nam
@@ -49,8 +49,8 @@ export default function Page0717() {
           multis. Tu autem, o homo Dei, hæc fuge: sectáre vero justítiam,
           pietátem, fidem, caritátem, patiéntiam, mansuetúdinem. Certa bonum
           certámen fídei, apprehénde vitam ætérnam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimo: É uma grande riqueza possuir a piedade e contentar-se com o
           suficiente. Na verdade, não trouxemos nada a este mundo e sem dúvida
           nada poderemos levar dele. Se, portanto, temos de comer e de vestir,
@@ -62,23 +62,23 @@ export default function Page0717() {
           tu, ó homem de Deus, foge destas coisas e procura a justiça, a
           piedade, a fé, a caridade, a paciência e a mansidão. Pugna com valor
           no bom combate da fé e alcança a vida eterna.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 19, 27-29</Text>
+      <Typography className="em">Mt. 19, 27-29</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Petrus ad Jesum: Ecce, nos relíquimus ómnia, et
           secúti sumus te: quid ergo erit nobis? Jesus autem dixit illis: Amen,
           dico vobis, quod vos, qui secúti estis me, in regeneratióne, cum
@@ -87,8 +87,8 @@ export default function Page0717() {
           relíquerit domum, vel fratres, aut soróres, aut patrem, aut matrem,
           aut uxórem, aut fílios, aut agros, propter nomen meum, céntuplum
           accípiet, et vitam ætérnam possidebit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele Naquele tempo, disse Pedro a Jesus: «Eis que deixámos tudo e
           Vos seguimos. Que recompensa teremos por isso?». Jesus respondeu-lhe:
           «Em verdade vos digo: vós, que me seguistes, quando, no tempo da
@@ -97,7 +97,7 @@ export default function Page0717() {
           de Israel. Todo aquele que deixar a sua casa, ou os seus irmãos, ou os
           seus campos, ou o seu pai, ou a sua mãe, ou a sua mulher por causa do
           meu nome receberá o cêntuplo e possuirá a vida eterna».
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

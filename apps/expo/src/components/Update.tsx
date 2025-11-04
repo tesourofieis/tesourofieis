@@ -1,15 +1,10 @@
-import {
-  ActivityIndicator,
-  View,
-  Text,
-  Animated,
-  Pressable,
-} from "react-native";
+import { ActivityIndicator, View, Animated, Pressable } from "react-native";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { burgundy } from "config";
 import { useEffect, useState } from "react";
 import { useUpdate } from "~/providers/update";
 import { H6 } from "./Headings";
+import { P } from "./typography";
 
 export const Update = () => {
   const {
@@ -117,9 +112,9 @@ export const Update = () => {
           <H6 text={content.title} />
         </View>
 
-        <Text className="font-serif text-sepia-700 dark:text-sepia-300 text-center mb-6 leading-relaxed">
+        <Typography className="font-serif text-sepia-700 dark:text-sepia-300 text-center mb-6 leading-relaxed">
           {content.message}
-        </Text>
+        </Typography>
 
         <View className="gap-3 p-5">
           {content.primaryAction && (
@@ -130,9 +125,9 @@ export const Update = () => {
                 updateState === "downloading" || updateState === "checking"
               }
             >
-              <Text className="text-sepia-300 p-1 text-center font-serif">
+              <Typography className="text-sepia-300 p-1 text-center font-serif">
                 {content.primaryAction.text}
-              </Text>
+              </Typography>
             </Pressable>
           )}
 
@@ -141,9 +136,9 @@ export const Update = () => {
               onPress={content.secondaryAction.onPress}
               className="bg-sepia-200 py-3 rounded-lg active:bg-sepia-300 dark:active:bg-sepia-600"
             >
-              <Text className="text-sepia-700 p-1 text-center font-serif">
+              <Typography className="text-sepia-700 p-1 text-center font-serif">
                 {content.secondaryAction.text}
-              </Text>
+              </Typography>
             </Pressable>
           )}
         </View>

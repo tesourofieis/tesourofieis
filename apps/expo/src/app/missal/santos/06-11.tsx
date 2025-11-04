@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -19,27 +19,27 @@ export default function Page0611() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui nos beáti Bárnabæ Apóstoli tui méritis et intercessióne
           lætíficas: concéde propítius; ut, qui tua per eum benefícia póscimus,
           dono tuæ grátiæ consequámur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que nos alegrais com os méritos e intercessão do B. Barnabé,
           vosso Apóstolo, concedei-nos propício que, suplicando os vossos
           benefícios pela sua intercessão, os obtenhamos por efeito da vossa
           graça. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Act. 11, 21-26; 13, 1-3</Text>
+      <Typography className="em">Act. 11, 21-26; 13, 1-3</Typography>
 
       <Language>
-        <Text className="latin">Léctio Actuum Apostolórum.</Text>
-        <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Actuum Apostolórum.</Typography>
+        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="latin">
           In diébus illis: Multus numerus credentium Antiochíæ convérsus est ad
           Dóminum. Pervénit autem sermo ad aures ecclésiæ, quæ erat Jerosólymis,
           super istis: et misérunt Bárnabam usque ad Antiochíam. Qui cum
@@ -56,8 +56,8 @@ export default function Page0611() {
           et jejunántibus, dixit illis Spíritus Sanctus: Segregáte mihi Saulum
           et Bárnabam in opus, ad quod assúmpsi eos. Tunc jejunántes et orantes
           imponentésque eis manus, dimisérunt illos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, um grande número de pessoas acreditaram e
           converteram-se ao Senhor em Antioquia; e, havendo esta notícia chegado
           à igreja de Jerusalém, mandaram Barnabé a Antioquia, o qual, tendo lá
@@ -75,36 +75,36 @@ export default function Page0611() {
           disse-lhes: «Separai Saulo e Barnabé para a obra a que os destinei».
           E, então, tendo jejuado e orado, impuseram-lhes as mãos e
           enviaram-nos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 18, 5 & 2</Text>
+      <Typography className="em">Sl. 18, 5 & 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In omnem terram exívit sonus eórum: et in fines orbis terræ verba
-          eórum.<Text className="versicle"> ℣. </Text>Cœli enárrant glóriam Dei:
+          eórum.<Typography className="versicle"> ℣. </Typography>Cœli enárrant glóriam Dei:
           et ópera mánuum ejus annúntiat firmaméntum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O som da sua voz espalhou-se por toda a terra: as suas palavras soaram
           até aos confins do mundo.
-          <Text className="versicle"> ℣. </Text>Os céus apregoam a glória do
+          <Typography className="versicle"> ℣. </Typography>Os céus apregoam a glória do
           Senhor e o firmamento manifesta as obras das suas mãos.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Joann. 15, 16</Text> Ego vos elégi de mundo,
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Joann. 15, 16</Typography> Ego vos elégi de mundo,
           ut eátis et fructum afferátis: et fructus vester maneat. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Jo. 15, 16</Text> Eu vos escolhi para que
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Jo. 15, 16</Typography> Eu vos escolhi para que
           possais ir e alcançar fruto; e para que esse vosso fruto permaneça.
           Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -116,63 +116,63 @@ export default function Page0611() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 44, 17-18</Text>
+      <Typography className="em">Sl. 44, 17-18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Constítues eos príncipes super omnem terram: mémores erunt nóminis
           tui, Dómine, in omni progénie et generatióne.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós os constituireis príncipes em toda a terra: e perpetuarão o vosso
           nome, Senhor, de geração em geração.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Múnera, Dómine, obláta sanctífica, et, intercedénte beáto Bárnaba
           Apostolo tuo, nos per hæc a peccatórum nostrórum máculis emúnda. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Santificai, Senhor, estes dons que Vos são oferecidos, e, por
           intercessão do B. Barnabé, vosso Apóstolo, fazei que nos purifiquem
           das manchas dos nossos pecados. Por nosso Senhor Jesus Cristo...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 19, 28</Text>
+      <Typography className="em">Mt. 19, 28</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vos, qui secúti estis me, sedébitis super sedes, judicántes duódecim
           tribus Israël.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós, que me seguistes, vos assentareis sobre tronos e julgareis as
           dozes tribos de Israel.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis
           sacraméntis, intercedénte beáto Bárnaba Apóstolo tuo, tibi étiam
           plácitis móribus dignánter tríbuas deservíre. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos rogamos humildemente que pela intercessão do
           B. Barnabé, vosso Apóstolo, concedais àqueles que alimentais com
           vossos sacramentos a graça de Vos servirem dignamente com acções que
           Vos sejam agradáveis. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

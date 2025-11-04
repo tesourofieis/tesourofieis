@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,56 +10,56 @@ export default function PageQuadp10() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 43, 23-26</Text>
+      <Typography className="em">Sl. 43, 23-26</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exsúrge, quare obdórmis, Dómine? exsúrge, et ne repéllas in finem:
           quare fáciem tuam avértis, oblivísceris tribulatiónem nostram? adhǽsit
           in terra venter noster: exsúrge, Dómine, ádjuva nos, et líbera nos.{" "}
-          <Text className="latin">Ps. ibid., 2</Text> Deus, áuribus nostris
+          <Typography className="latin">Ps. ibid., 2</Typography> Deus, áuribus nostris
           audívimus: patres nostri annuntiavérunt nobis.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Levantai-Vos, Senhor, porque dormis? Levantai-Vos, e nos não
           desampareis para sempre. Porque afastais de nós a vossa face e
           esqueceis a nossa tribulação? O nosso peito está oprimido pela terra.
           Levantai-Vos, Senhor, socorrei-nos, salvai-nos.{" "}
-          <Text className="vernacular">Sl. ibid., 2</Text> Ó Deus, nós ouvimos
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Ó Deus, nós ouvimos
           com os nossos ouvidos; os nossos antepassados contaram-nos as vossas
-          maravilhas.<Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          maravilhas.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui cónspicis, quia ex nulla nostra actióne confídimus: concéde
           propítius; ut, contra advérsa ómnia, Doctóris géntium protectióne
           muniámur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que conheceis não podermos confiar nas nossas obras,
           dignai-Vos proteger-nos com a assistência do «Doutor das gentes»
           contra todas as adversidades. Por nosso Senhor Jesus Cristo, vosso
           Filho, que...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">2 Cor. 11, 19-33; 12, 1-9</Text>
+      <Typography className="em">2 Cor. 11, 19-33; 12, 1-9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Libénter suffértis insipiéntes: cum sitis ipsi sapiéntes.
           Sustinétis enim, si quis vos in servitútem rédigit, si quis dévorat,
           si quis áccipit, si quis extóllitur, si quis in fáciem vos cædit.
@@ -97,8 +97,8 @@ export default function PageQuadp10() {
           rogávi, ut discéderet a me: et dixit mihi: Súfficit tibi grátia mea:
           nam virtus in infirmitáte perfícitur. Libénter ígitur gloriábor in
           infirmitátibus meis, ut inhábitet in me virtus Christi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Como homens sensatos que sois, generosamente suportais os
           insensatos. E suportais, também, se vos sujeitam à escravidão, se vos
           devoram, se vos roubam, se vos tratam com arrogância, ou se vos
@@ -143,59 +143,59 @@ export default function PageQuadp10() {
           minha graça, pois a virtude aperfeiçoa-se nas tribulações». Glorio-me,
           pois, voluntariamente, com as minhas fraquezas, para que a virtude de
           Cristo resida em mim.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 82, 19 & 14</Text>
+      <Typography className="em">Sl. 82, 19 & 14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sciant gentes, quóniam nomen tibi Deus: tu solus Altíssimus super
-          omnem terram,<Text className="versicle"> ℣. </Text>Deus meus, pone
+          omnem terram,<Typography className="versicle"> ℣. </Typography>Deus meus, pone
           illos ut rotam, et sicut stípulam ante fáciem venti.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Saibam as nações que o vosso nome é Deus; que só Vós sois o Altíssimo
-          em todo o mundo.<Text className="versicle"> ℣. </Text>Ó meu Deus,
+          em todo o mundo.<Typography className="versicle"> ℣. </Typography>Ó meu Deus,
           tornai os meus inimigos semelhantes à roda, que gira sem cessar, ou à
           palha, que o vento agita e arrebata.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 59, 4 & 6</Text>
+      <Typography className="em">Sl. 59, 4 & 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Commovísti, Dómine, terram, et conturbásti eam.
-          <Text className="versicle"> ℣. </Text>Sana contritiónes ejus, quia
-          mota est.<Text className="versicle"> ℣. </Text>Ut fúgiant a fácie
+          <Typography className="versicle"> ℣. </Typography>Sana contritiónes ejus, quia
+          mota est.<Typography className="versicle"> ℣. </Typography>Ut fúgiant a fácie
           arcus: ut liberéntur elécti tui.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, abalastes e arruinastes a terra. Reparai as suas ruínas,
           porque ela está abalada. Que os vossos escolhidos possam fugir diante
           do arco armado contra eles, e que sejam livres.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 8, 4-15</Text>
+      <Typography className="em">Lc. 8, 4-15</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Cum turba plúrima convenírent, et de civitátibus
           properárent ad Jesum, dixit per similitúdinem: Exiit, qui séminat,
           semináre semen suum: et dum séminat, áliud cécidit secus viam, et
@@ -216,8 +216,8 @@ export default function PageQuadp10() {
           voluptátibus vitæ eúntes, suffocántur, et non réferunt fructum. Quod
           autem in bonam terram: hi sunt, qui in corde bono et óptimo audiéntes
           verbum rétinent, et fructum áfferunt in patiéntia.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, como concorresse grande multidão de diversas cidades e
           viessem ter com Jesus, disse-lhes Ele esta parábola: «Saiu um semeador
           a semear a sua semente; e, enquanto ele semeava, caiu uma porção de
@@ -243,66 +243,66 @@ export default function PageQuadp10() {
           produzem fruto algum. Enfim, a semente que caiu na terra boa
           representa aqueles que ouvem a palavra com o coração recto e bom e a
           guardam, produzindo depois fruto pela paciência».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 16, 5, 6-7</Text>
+      <Typography className="em">Sl. 16, 5, 6-7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Pérfice gressus meos in sémitis tuis, ut non moveántur vestígia mea:
           inclína aurem tuam, et exáudi verba mea: mirífica misericórdias tuas,
           qui salvos facis sperántes in te, Dómine.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Firmai os meus passos nas vossas veredas, para que meus pés não
           tropecem: Inclinai para mim os vossos ouvidos e escutai as minhas
           palavras: manifestai as vossas admiráveis misericórdias, Senhor, pois
           salvais os que em Vós confiam!
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Oblátum tibi, Dómine, sacrifícium, vivíficet nos semper et múniat. Per
           Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, que o sacrifício que Vos oferecemos nos vivifique sempre. Por
           nosso Senhor Jesus Cristo, vosso Filho, que...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 42, 4</Text>
+      <Typography className="em">Sl. 42, 4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Introíbo ad altáre Dei, ad Deum, qui lætíficat juventútem meam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Subirei ao altar de Deus: de Deus, que é a alegria da minha juventude.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis
           sacraméntis, tibi étiam plácitis móribus dignánter deservíre concédas.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deus omnipotente, humildemente Vos rogamos, concedei àqueles que
           alimentais com vossos sacramentos a graça de Vos servirem com uma
           conduta que Vos seja agradável. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

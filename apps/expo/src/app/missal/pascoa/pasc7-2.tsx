@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,98 +10,98 @@ export default function PagePasc72() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">4 Esd. 2, 36 & 37</Text>
+      <Typography className="em">4 Esd. 2, 36 & 37</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Accípite jucunditátem glóriæ vestræ, allelúja: grátias agéntes Deo,
           allelúja: qui vos ad cœléstia regna vocávit, allelúja, allelúja,
-          allelúja. <Text className="latin">Ps. 77, 1</Text> Atténdite, pópule
+          allelúja. <Typography className="latin">Ps. 77, 1</Typography> Atténdite, pópule
           meus, legem meam: inclináte aurem vestram in verba oris mei.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Recebei com alegria as delícias da vossa glória, aleluia: dai graças a
           Deus, aleluia: que vos chamou aos reinos celestiais, aleluia, aleluia.{" "}
-          <Text className="vernacular">Sl. 77, 1</Text> Escutai a minha lei, ó
+          <Typography className="vernacular">Sl. 77, 1</Typography> Escutai a minha lei, ó
           meu povo: escutai as palavras que saem da minha boca.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Adsit nobis, quǽsumus, Dómine, virtus Spíritus Sancti: quæ et corda
           nostra cleménter expúrget, et ab ómnibus tueátur advérsis. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicamos, fazei que a virtude do Espírito Santo nos
           assista; e que pela sua clemência purifique os nossos corações e nos
           defenda de todas as adversidades. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Act. 8, 14-17</Text>
+      <Typography className="em">Act. 8, 14-17</Typography>
 
       <Language>
-        <Text className="latin">Léctio Actuum Apostolórum.</Text>
-        <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Actuum Apostolórum.</Typography>
+        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="latin">
           In diébus illis: Cum audíssent Apóstoli, qui erant Jerosólymis, quod
           recepísset Samaría verbum Dei, misérunt ad eos Petrum et Joánnem. Qui
           cum veníssent, oravérunt pro ipsis, ut accíperent Spíritum Sanctum:
           nondum enim in quemquam illórum vénerat, sed baptizáti tantum erant in
           nómine Dómini Jesu. Tunc imponébant manus super illos, et accipiébant
           Spíritum Sanctum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, quando os Apóstolos estavam em Jerusalém, souberam que
           a Samaria recebera a palavra de Deus; e por isso enviaram para lá
           Pedro e João, os quais, logo que chegaram, oraram por eles, para que
           recebessem o Espírito Santo, que não havia ainda descido sobre nenhum
           deles, pois somente haviam sido baptizados no nome do Senhor Jesus.
           Então impuseram-lhes as mãos, recebendo o Espírito Santo.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Joann. 14, 26</Text> Spíritus Sanctus docébit
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Joann. 14, 26</Typography> Spíritus Sanctus docébit
           vos, quæcúmque díxero vobis. Allelúja.{" "}
-          <Text className="em">(hic genuflectitur)</Text>
-          <Text className="versicle"> ℣. </Text>Veni, Sancte Spíritus, reple
+          <Typography className="em">(hic genuflectitur)</Typography>
+          <Typography className="versicle"> ℣. </Typography>Veni, Sancte Spíritus, reple
           tuórum corda fidélium: et tui amóris in eis ignem accénde.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Jo. 14, 26</Text> O Espírito Santo vos
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Jo. 14, 26</Typography> O Espírito Santo vos
           inspirará tudo o que vos tenho ensinado, aleluia.{" "}
-          <Text className="em">(Genuflecte-se)</Text>
-          <Text className="versicle"> ℣. </Text>Vinde, Espírito Santo, enchei os
+          <Typography className="em">(Genuflecte-se)</Typography>
+          <Typography className="versicle"> ℣. </Typography>Vinde, Espírito Santo, enchei os
           corações dos vossos fiéis e acendei neles o fogo do vosso amor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 10, 1-10</Text>
+      <Typography className="em">Jo. 10, 1-10</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus pharisǽis: Amen, amen, dico vobis: qui
           non intrat per óstium in ovíle óvium, sed ascéndit aliúnde, ille fur
           est et latro. Qui autem intrat per óstium, pastor est óvium. Huic
@@ -116,8 +116,8 @@ export default function PagePasc72() {
           introíerit, salvábitur: et ingrediétur et egrediátur et páscua
           invéniet. Fur non venit, nisi ut furétur et mactet et perdat. Ego
           veni, ut vitam hábeant et abundántius hábeant.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos fariseus: «Em verdade, em verdade vos
           digo: aquele que não entra pela porta no estábulo das ovelhas, mas
           entra por outro lugar, é ladrão e salteador. O pastor das ovelhas
@@ -133,65 +133,65 @@ export default function PagePasc72() {
           entrará e sairá e encontrará alimento. O ladrão não vem senão para
           devorar, roubar e destruir. Eu, porém, venho para que minhas ovelhas
           possuam a vida, e a possuam com abundância».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 77, 23-25</Text>
+      <Typography className="em">Sl. 77, 23-25</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Portas cœli aperuit Dóminus: et pluit illis manna, ut éderent: panem
           cœli dedit eis, panem Angelórum manducávit homo, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O Senhor abriu as portas do céu: fez chover maná, para que o comessem:
           e deu-lhes o pão do céu. O homem comeu o pão dos Anjos, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Puríficet nos, quǽsumus. Dómine, múneris præséntis oblátio: et dignos
           sacra participatióne effíciat. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicamos, fazei que a oferta deste sacrifício nos
           purifique e nos torne dignos de participarmos deste mystério sagrado.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 15, 26; 16, 14; 17, 1 & 5</Text>
+      <Typography className="em">Jo. 15, 26; 16, 14; 17, 1 & 5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Spíritus qui a Patre procédit, allelúja: ille me clarificábit,
           allelúja, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O Espírito, que procede do Pai, aleluia, glorificar-me-á, aleluia,
           aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mentes nostras, quǽsumus, Dómine, Spíritus Sanctus divínis réparet
           sacraméntis: quia ipse est remíssio ómnium peccatórum. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicamos, permiti que o Espírito Santo restaure com
           estes divinos sacramentos as nossas almas, pois Ele é a remissão de
           todos os pecados. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

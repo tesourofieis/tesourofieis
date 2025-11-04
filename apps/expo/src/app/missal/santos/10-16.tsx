@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page1016() {
     <PageWrapper>
       <H1 text="Santa Hedviges, Viúva, a 16 de Outubro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Hedviges, nascida de familia real, e ainda mais ilustre pela inocência
         de sua vida, era filha de Bertholdo, príncipe de Carinthia e tia materna
         de Santa Isabel de Hungria. Dada em casamento a Henrique, duque da
@@ -28,32 +28,32 @@ export default function Page1016() {
         Cistercienses, do qual era Abadessa sua filha Gertrudes. Morreu a 15 de
         Outubro de 1243 e, na Polónia, é venerada como Padroeira, com particular
         devoção.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/24nemvirgensnemmartires">
           Missa Cognóvi, Dómine
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beátam Hedwígem a sǽculi pompa ad húmilem tuæ Crucis
           sequélam toto corde transíre docuísti: concéde; ut ejus méritis et
           exémplo discámus peritúras mundi calcáre delícias, et in ampléxu tuæ
           Crucis ómnia nobis adversántia superáre: Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que inspirastes a B. Hedviges a deixar as pompas do mundo para
           abraçar com fervor a humildade da vossa Cruz, concedei-nos pelos seus
           méritos e exemplos que aprendamos a esmagar as delícias caducas deste
           mundo e, abraçando a vossa Cruz, a vencer todas as adversidades. Ó
           Vós, que viveis e reinais...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

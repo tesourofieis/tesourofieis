@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,55 +10,55 @@ export default function PagePent210() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Est. 13, 9 & 10-11</Text>
+      <Typography className="em">Est. 13, 9 & 10-11</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In voluntáte tua, Dómine, univérsa sunt pósita, et non est, qui possit
           resístere voluntáti tuæ: tu enim fecísti ómnia, cœlum et terram et
           univérsa, quæ cœli ámbitu continéntur: Dominus universórum tu es.{" "}
-          <Text className="latin">Ps. 118, 1</Text> Beáti immaculáti in via: qui
+          <Typography className="latin">Ps. 118, 1</Typography> Beáti immaculáti in via: qui
           ámbulant in lege Dómini.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Todas as coisas, Senhor, estão sujeitas à vossa vontade, e ninguém
           pode resistir-lhe; pois criastes tudo: o céu, a terra e o que se
           encerra no âmbito dos céus. Sois o Senhor do universo.{" "}
-          <Text className="vernacular">Sl. 118, 1</Text> Bem-aventurados aqueles
+          <Typography className="vernacular">Sl. 118, 1</Typography> Bem-aventurados aqueles
           cuja vida é imaculada: aqueles que praticam a Lei do Senhor.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi: ut a
           cunctis adversitátibus, te protegénte, sit líbera, et in bonis áctibus
           tuo nómini sit devóta. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Guardai com vossa contínua misericórdia a vossa família, Senhor, Vos
           suplicamos, a fim de que sob a vossa protecção seja preservada de
           todas as adversidades e se dedique à prática das boas obras, em honra
           do vosso nome. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ef. 6, 10-17</Text>
+      <Typography className="em">Ef. 6, 10-17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Lectio Epistolæ beáti Pauli Apóstoli ad Ephésios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Confortámini in Dómino et in poténtia virtútis ejus. Indúite
           vos armatúram Dei, ut póssitis stare advérsus insídias diáboli.
           Quóniam non est nobis colluctátio advérsus carnem et sánguinem: sed
@@ -70,8 +70,8 @@ export default function PagePent210() {
           pacis: in ómnibus suméntes scutum fídei, in quo póssitis ómnia tela
           nequíssimi ígnea exstínguere: et gáleam salútis assúmite: et gládium
           spíritus, quod est verbum Dei.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Confortai-vos no Senhor e no seu poder omnipotente.
           Revesti-vos de todas armas de Deus, a fim de que possais suportar as
           ciladas do demónio; pois temos de combater, não só contra a carne e o
@@ -86,52 +86,52 @@ export default function PagePent210() {
           quebrar os dardos inflamados do espírito maligno. Revesti-vos, também,
           com o capacete da salvação e com a espada espiritual, que é a palavra
           de Deus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 89, 1-2</Text>
+      <Typography className="em">Sl. 89, 1-2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dómine, refúgium factus es nobis, a generatióne et progénie.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Priúsquam montes fíerent aut formarétur terra et orbis: a sǽculo et
           usque in sǽculum tu es, Deus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Tendes sido, Senhor, o nosso refúgio de geração em geração.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Antes que as montanhas houvessem sido formadas e que a terra e o mundo
           tivessem sido criados, já, desde toda a eternidade, Vós éreis Deus.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 113, 1</Text> In éxitu Israël de Ægýpto,
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 113, 1</Typography> In éxitu Israël de Ægýpto,
           domus Jacob de pópulo bárbaro. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 113, 1</Text> Quando Israel saiu do
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 113, 1</Typography> Quando Israel saiu do
           Egipto e a casa de Jacob do meio de um povo bárbaro. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 18, 23-35</Text>
+      <Typography className="em">Mt. 18, 23-35</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis parábolam hanc:
           Assimilátum est regnum cœlórum hómini regi, qui vóluit ratiónem pónere
           cum servis suis. Et cum cœpísset ratiónem pónere, oblátus est ei unus,
@@ -153,8 +153,8 @@ export default function PagePent210() {
           tortóribus, quoadúsque rédderet univérsum débitum. Sic et Pater meus
           cœléstis fáciet vobis, si non remiséritis unusquísque fratri suo de
           córdibus vestris.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, Jesus disse aos seus discípulos esta parábola: O reino
           dos céus é semelhante a um rei que quis fazer contas com seus servos.
           Logo que começou as contas, apresentou-se um servo que lhe devia dez
@@ -177,72 +177,72 @@ export default function PagePent210() {
           algozes da justiça, até que lhe pagasse a sua dívida. Pois bem,
           terminou Jesus, assim vos tratará meu Pai celeste se cada um não
           perdoar do íntimo do coração a sua dívida ao seu irmão.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Jb 1</Text>
+      <Typography className="em">Jb 1</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vir erat in terra Hus, nómine Job: simplex et rectus ac timens Deum:
           quem Satan pétiit ut tentáret: et data est ei potéstas a Dómino in
           facultátes et in carnem ejus: perdidítque omnem substántiam ipsíus et
           fílios: carnem quoque ejus gravi úlcere vulnerávit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vivia no país de Hus um homem chamado Job, que era simples, justo e
           temente a Deus. Então Satanás pediu licença ao Senhor para o tentar, o
           que lhe foi permitido, mas somente quanto aos bens e ao corpo: e
           Satanás fez-lhe perder todos os bens e os filhos, e ainda lhe afligiu
           o corpo com uma chaga.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Suscipe, Dómine, propítius hóstias: quibus et te placári voluísti, et
           nobis salútem poténti pietáte restítui. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aceitai propício, Senhor, estas hóstias com as quais quisestes
           aplacar-Vos, e, pela vossa infinita bondade, concedei-nos a salvação.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 118, 81, 84 & 86</Text>
+      <Typography className="em">Sl. 118, 81, 84 & 86</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In salutári tuo ánima mea, et in verbum tuum sperávi: quando fácies de
           persequéntibus me judícium? iníqui persecúti sunt me, ádjuva me,
           Dómine, Deus meus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A minha alma suspira pela salvação: e pus toda minha esperança na
           vossa palavra. Quando tratareis com justiça os meus perseguidores?
           Homens injustos perseguem-me; auxiliai-me, Senhor!
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Immortalitátis alimóniam consecúti, quǽsumus, Dómine: ut, quod ore
           percépimus, pura mente sectémur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo recebido o alimento da imortalidade, permiti, Senhor, Vos
           suplicamos, que guardemos com o coração puro aquilo que a nossa boca
           recebeu. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

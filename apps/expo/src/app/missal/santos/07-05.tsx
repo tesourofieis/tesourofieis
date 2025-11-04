@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ export default function Page0705() {
     <PageWrapper>
       <H1 text="S. António Maria Zacarias, Conf., a 5 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         António Maria nasceu de nobre família de Cremona. A sagacidade do
         espírito, aumentada ainda pela integridade da vida, deu-lhe a
         superioridade sobre os seus condiscípulos. Depois de haver recebido, em
@@ -24,60 +24,60 @@ export default function Page0705() {
         na qual o Doutor dos Gentios, dá a seu discípulo Timóteo os conselhos
         que o guiaram nos seus ensinamentos. Consolado com a visão celeste dos
         Apóstolos, morreu mui santamente, na idade de 36 anos, em 1539.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">1 Cor. 2, 4</Text>
+      <Typography className="em">1 Cor. 2, 4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sermo meus et prædicátio mea non in persuasibílibus humánæ sapiéntiæ
           verbis, sed in ostensióne spíritus et virtútis.{" "}
-          <Text className="latin">Ps. 110, 1</Text> Confitébor tibi, Dómine, in
+          <Typography className="latin">Ps. 110, 1</Typography> Confitébor tibi, Dómine, in
           toto corde meo, in consílio justórum et congregatióne.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           A minha conversação e a minha pregação não são apoiadas nos argumentos
           persuasivos da sabedoria humana, mas na manifestação do espírito e do
-          poder de Deus. <Text className="vernacular">Sl. 110, 1</Text> Senhor,
+          poder de Deus. <Typography className="vernacular">Sl. 110, 1</Typography> Senhor,
           eu vos louvarei de todo meu coração no conselho dos justos e na
-          assembleia do povo!<Text className="versicle"> ℣. </Text>Glória ao
+          assembleia do povo!<Typography className="versicle"> ℣. </Typography>Glória ao
           Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Fac nos, Dómine Deus, supereminéntem Jesu Christi sciéntiam, spíritu
           Pauli Apóstoli, edíscere: qua beátus Antónius María mirabíliter
           erudítus, novas in Ecclésia tua clericórum et vírginum famílias
           congregávit. Per eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus e Senhor, fazei-nos adquirir a eminente ciência de Jesus
           Cristo, segundo o espírito do Apóstolo Paulo, em cuja ciência o B.
           António Maria foi admiravelmente instruído, e lhe fez estabelecer na
           vossa Igreja novas congregações de clérigos e de virgens. Pelo mesmo
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Tm. 4, 8-16</Text>
+      <Typography className="em">1 Tm. 4, 8-16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo a Timóteo.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Caríssime: Píetas ad ómnia utilis est: promissiónem habens vitæ, quæ
           nunc est, et futúræ. Fidélis sermo et omni acceptióne dignus. In hoc
           enim laborámus et maledícimur, quia sperámus in Deum vivum, qui est
@@ -89,8 +89,8 @@ export default function Page0705() {
           presbytérii. Hæc meditáre, in his esto: ut proféctus tuus maniféstus
           sit ómnibus. Attende tibi et doctrínæ: insta in illis. Hoc enim
           fáciens, et teípsum salvum fácies, et eos qui te áudiunt.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimo: A piedade é útil para tudo, tendo a promessa certa e digna
           de toda a aceitação. Nós, pois, suportamos tantos trabalhos e ultrajes
           porque temos esperança em Deus vivo, que é o Salvador de todos os
@@ -104,57 +104,57 @@ export default function Page0705() {
           de que os teus progressos sejam evidentes a todos. Vigia-te a ti mesmo
           e à tua doutrina; aplica-te constantemente nisso, porque, procedendo
           assim, serás salvo, assim como aqueles que te ouvem.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Fl. 1, 8-9</Text>
+      <Typography className="em">Fl. 1, 8-9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Testis mihi est Deus, quo modo cúpiam omnes vos in viscéribus Jesu
           Christi. Et hoc oro, ut cáritas vestra magis ac magis abúndet in
-          sciéntia et in omni sensu.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 10</Text> Ut probétis potióra, ut sitis
+          sciéntia et in omni sensu.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 10</Typography> Ut probétis potióra, ut sitis
           sincéri et sine offénsa in diem Christi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deus é testemunha do modo como vos amo a todos nas entranhas de Jesus
           Cristo. E o que vos peço é que a vossa caridade aumente cada vez mais
           na vossa inteligência e em todos vossos sentidos.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 10</Text> A fim de que possais
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 10</Typography> A fim de que possais
           distinguir o que é melhor e estejais puros e irrepreensíveis no dia de
           Cristo.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 11</Text> Repléti fructu justítiæ per
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 11</Typography> Repléti fructu justítiæ per
           Jesum Christum, in glóriam et laudem Dei. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 11</Text> Que sejais cheios dos
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 11</Typography> Que sejais cheios dos
           frutos da justiça por Jesus Cristo, para glória e louvor de Deus.
           Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mc. 10, 15-21</Text>
+      <Typography className="em">Mc. 10, 15-21</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Marcum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Marcos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Quisquis non recéperit
           regnum Dei velut párvulus, non intrábit in illud. Et compléxans
           párvulos et impónens manus super illos, benedicébat eos. Et cum
@@ -167,8 +167,8 @@ export default function Page0705() {
           juventúte mea. Jesus autem intúitus eum, diléxit eum et dixit ei: Unum
           tibi deest: vade, quæcúmque habes, vende et da paupéribus, et habébis
           thesáurum in cælo: et veni, séquere me.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Todo aquele que não
           receber o reino de Deus, como um menino, não entrará nele». E,
           abraçando os meninos e pondo as mãos sobre eles, abençoava-os. Então,
@@ -182,71 +182,71 @@ export default function Page0705() {
           desde a minha juventude». E Jesus fitou-o, mostrou-lhe amizade e
           disse-lhe: «Uma coisa te falta: vai, vende tudo quanto tens, dá-o aos
           pobres, e terás um tesouro no céu; depois vem e segue-me».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 137, 1-2</Text>
+      <Typography className="em">Sl. 137, 1-2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In conspéctu Angelórum psallam tibi: adorábo ad templum sanctum tuum,
           et confitébor nómini tuo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Cantarei os vossos louvores na presença dos Anjos; ajoelharei no vosso
           sagrado templo e louvarei o vosso nome.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ad mensam cœléstis convívii fac nos, Dómine, eam mentis et córporis
           puritátem afférre, qua beátus Antónius María, hanc sacratíssimam
           hóstiam ófferens, mirífice ornátus enítuit. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Permiti, Senhor, que me acompanhe à mesa do celestial banquete aquela
           pureza de alma e de corpo que ornava de um modo tão brilhante e
           maravilhoso o B. António Maria, quando oferecia esta hóstia. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Fl. 8, 17</Text>
+      <Typography className="em">Fl. 8, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Imitatóres mei estóte, fratres, et observáte eos, qui ita ámbulant,
           sicut habétis formam nostram.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos, sede meus imitadores e olhai para aqueles que procedem
           segundo o exemplo que tendes em nós.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cœlésti dape, qua pasti sumus, Dómine Jesu Christe, eo corda nostra
           caritátis igne flamméscant: quo beátus Antónius María salutáris hóstiæ
           vexíllum, contra Ecclésiæ tuæ hostes, éxtulit ad victóriam: Qui
           vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor Jesus Cristo, fazei que, pela virtude do celestial festim, de
           que nos saciastes, os nossos corações se inflamem naquele fogo da
           Caridade que deu ao B. António Maria a coragem de levar contra os
           inimigos da vossa Igreja o estandarte da hóstia da salvação, que o
           conduziu à vitória. Ó Vós, que viveis e reinais...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

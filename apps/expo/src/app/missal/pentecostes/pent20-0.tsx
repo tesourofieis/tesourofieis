@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,54 +10,54 @@ export default function PagePent200() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Dn. 3, 31, 29 & 35</Text>
+      <Typography className="em">Dn. 3, 31, 29 & 35</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Omnia, quæ fecísti nobis, Dómine, in vero judício fecísti, quia
           peccávimus tibi et mandátis tuis non obœdívimus: sed da glóriam nómini
           tuo, et fac nobíscum secúndum multitúdinem misericórdiæ tuæ.{" "}
-          <Text className="latin">Ps. 118, 1</Text> Beáti immaculáti in via: qui
+          <Typography className="latin">Ps. 118, 1</Typography> Beáti immaculáti in via: qui
           ámbulant in lege Dómini.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Tudo quanto fizestes contra nós, Senhor, foi com justiça, pois pecámos
           e não Obedecemos aos vossos mandamentos; mas glorificai o vosso nome e
           tratai-nos segundo a grandeza da vossa misericórdia.{" "}
-          <Text className="vernacular">Sl. 118, 1</Text> Bem-aventurados aqueles
+          <Typography className="vernacular">Sl. 118, 1</Typography> Bem-aventurados aqueles
           cuja vida é imaculada: aqueles que praticam a Lei do Senhor.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Largíre, quǽsumus, Dómine, fidélibus tuis indulgéntiam placátus et
           pacem: ut páriter ab ómnibus mundéntur offénsis, et secúra tibi mente
           desérviant. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Compadecei-Vos dos vossos fiéis, Senhor, e dignai-Vos conceder-lhes o
           perdão e a paz, a fim de que, havendo sido limpos de suas faltas,
           possam servir-Vos com toda a confiança. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ef. 5, 15-21</Text>
+      <Typography className="em">Ef. 5, 15-21</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Vidéte, quómodo caute ambulétis: non quasi insipiéntes, sed
           ut sapiéntes, rediméntes tempus, quóniam dies mali sunt. Proptérea
           nolíte fíeri imprudéntes, sed intellegéntes, quae sit volúntas Dei. Et
@@ -66,8 +66,8 @@ export default function PagePent200() {
           spirituálibus, cantántes et psalléntes in córdibus vestris Dómino:
           grátias agéntes semper pro ómnibus, in nómine Dómini nostri Jesu
           Christi, Deo et Patri. Subjecti ínvicem in timóre Christi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Tende cuidado de vos conduzirdes com prudência, não como
           insensatos, mas como prudentes, aproveitando o tempo, pois os dias são
           maus. Assim, pois, não sejais imprudentes, mas procurai conhecer qual
@@ -77,52 +77,52 @@ export default function PagePent200() {
           saídos do íntimo dos vossos corações, para glória do Senhor, dando
           graças sempre e em tudo a Deus Pai, em nome de nosso Senhor Jesus
           Cristo, e submetendo-vos uns aos outros no temor de Cristo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 144, 15-16</Text>
+      <Typography className="em">Sl. 144, 15-16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Oculi ómnium in te sperant, Dómine: et tu das illis escam in témpore
-          opportúno.<Text className="versicle"> ℣. </Text>Aperis tu manum tuam:
+          opportúno.<Typography className="versicle"> ℣. </Typography>Aperis tu manum tuam:
           et imples omne ánimal benedictióne.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Todos os olhares se volvem para Vós, Senhor; a todos os entes dais
           alimento em tempo conveniente.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Abris as mãos e encheis de bênçãos tudo o que tem vida.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 107, 2</Text> Parátum cor meum, Deus,
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 107, 2</Typography> Parátum cor meum, Deus,
           parátum cor meum: cantábo, et psallam tibi, glória mea. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 107, 2</Text> Meu coração está
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 107, 2</Typography> Meu coração está
           preparado, ó Deus; o meu coração está preparado: cantarei vossos
           louvores, ó Vós, que sois a minha glória. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 4, 46-53</Text>
+      <Typography className="em">Jo. 4, 46-53</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Erat quidam régulus, cujus fílius infirmabátur
           Caphárnaum. Hic cum audísset, quia Jesus adveníret a Judǽa in
           Galilǽam, ábiit ad eum, et rogábat eum, ut descénderet et sanáret
@@ -135,8 +135,8 @@ export default function PagePent200() {
           mélius habúerit. Et dixérunt ei: Quia heri hora séptima relíquit eum
           febris. Cognóvit ergo pater, quia illa hora erat, in qua dixit ei
           Jesus: Fílius tuus vivit: et crédidit ipse et domus ejus tota.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, havia um oficial em Cafarnaum, cujo filho estava
           enfermo. Tendo ele sabido que Jesus vinha da Judeia para a Galileia,
           foi ter com Ele, rogando-Lhe que fosse a sua casa curar seu filho, que
@@ -150,66 +150,66 @@ export default function PagePent200() {
           febre». E o pai reconheceu ter sido aquela a hora em que Jesus lhe
           dissera: «O teu filho vive». Ele, pois, assim como toda sua família,
           acreditou.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 136, 1</Text>
+      <Typography className="em">Sl. 136, 1</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Super flúmina Babylónis illic sédimus et flévimus: dum recordarémur
           tui, Sion.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Junto das margens dos rios da Babilónia nos assentámos, chorando as
           recordações do vosso passado, ó Sião.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cœléstem nobis prǽbeant hæc mystéria, quǽsumus, Dómine, medicínam: et
           vítia nostri cordis expúrgent. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que estes mystérios, Senhor, nos sirvam de remédio celestial, Vos
           suplicamos, e purifiquem os nossos corações de todas nossas
           iniquidades. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 118, 49-50</Text>
+      <Typography className="em">Sl. 118, 49-50</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Meménto verbi tui servo tuo, Dómine, in quo mihi spem dedísti: hæc me
           consoláta est in humilitáte mea.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lembrai-Vos da vossa promessa ao vosso servo, Senhor, na qual tenho
           esperado com toda a confiança: é ela que me consola na minha
           humilhação.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ut sacris, Dómine, reddámur digni munéribus: fac nos, quǽsumus, tuis
           semper obœdíre mandátis. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, permiti que para sermos dignos dos vossos sacratíssimos
           mystérios obedeçamos sempre aos vossos mandamentos. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

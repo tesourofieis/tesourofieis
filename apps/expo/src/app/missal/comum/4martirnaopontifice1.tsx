@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,50 +10,50 @@ export default function Page4Martirnaopontifice1() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 20, 2-3</Text>
+      <Typography className="em">Sl. 20, 2-3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In virtúte tua, Dómine, lætábitur justus: et super salutáre tuum
           exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.{" "}
-          <Text className="latin">Ps. ibid., 4</Text> Quóniam prævenísti eum in
+          <Typography className="latin">Ps. ibid., 4</Typography> Quóniam prævenísti eum in
           benedictiónibus dulcédinis: posuísti in cápite ejus corónam de lápide
-          pretióso.<Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          pretióso.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           O justo rejubilará com vosso poder, Senhor, e exultará de alegria,
           vendo-se salvo por Vós; pois concedestes-lhe o que seu coração
-          desejava. <Text className="vernacular">Sl. ibid., 4</Text> Com efeito,
+          desejava. <Typography className="vernacular">Sl. ibid., 4</Typography> Com efeito,
           Vós o premunistes com bênçãos de doçura: e impusestes na sua cabeça
           uma coroa de pedras preciosas.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, qui beáti{" "}
-          <Text className="latin">N.</Text> Mártyris tui natalícia cólimus,
+          <Typography className="latin">N.</Typography> Mártyris tui natalícia cólimus,
           intercessióne ejus, in tui nóminis amóre roborémur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, permiti que, celebrando nós o nascimento do B.{" "}
-          <Text className="vernacular">N.</Text>, vosso Mártir, e pela sua
+          <Typography className="vernacular">N.</Typography>, vosso Mártir, e pela sua
           intercessão, alcancemos a graça de sermos confirmados no amor ao vosso
           Nome. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Sb. 10, 10-14</Text>
+      <Typography className="em">Sb. 10, 10-14</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Sapiéntiæ.</Text>
-        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="latin">
           Justum dedúxit Dóminus per vias rectas, et ostendit illi regnum Dei,
           et dedit illi sciéntiam sanctórum: honestávit illum in labóribus, et
           complévit labores illíus. In fraude circumveniéntium illum áffuit
@@ -65,8 +65,8 @@ export default function Page4Martirnaopontifice1() {
           illi sceptrum regni, et poténtiam advérsus eos, qui eum deprimébant:
           et mendáces osténdit, qui maculavérunt illum, et dedit illi claritátem
           ætérnam, Dóminus, Deus noster.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O Senhor conduziu o justo por caminhos direitos; mostrou-lhe o reino
           de Deus; transmitiu-lhe a ciência das coisas santas; enriqueceu-o nos
           seus trabalhos; e fez frutificar esses seus labores. O Senhor
@@ -80,75 +80,75 @@ export default function Page4Martirnaopontifice1() {
           o poder sobre os seus opressores. O Senhor, nosso Deus, provou que
           eram mentirosos aqueles que o desacreditaram e tornou-o ilustre para
           sempre.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 111, 1-2</Text>
+      <Typography className="em">Sl. 111, 1-2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Potens in terra erit semen ejus: generátio rectórum benedicétur.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em
-          obedecer-Lhe.<Text className="versicle"> ℣. </Text>Sua descendência
+          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua descendência
           será poderosa na terra; pois a geração dos justos será abençoada.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 20, 4</Text> Posuísti, Dómine, super caput
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 20, 4</Typography> Posuísti, Dómine, super caput
           ejus corónam de lápide pretióso. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 20, 4</Text> Senhor, impusestes na
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 20, 4</Typography> Senhor, impusestes na
           sua cabeça uma coroa de pedras preciosas. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
-      </Text>
+      </Typography>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 20, 3-4</Text>
+      <Typography className="em">Sl. 20, 3-4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Desidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
-          fraudásti eum.<Text className="versicle"> ℣. </Text>Quóniam prævenísti
+          fraudásti eum.<Typography className="versicle"> ℣. </Typography>Quóniam prævenísti
           eum in benedictiónibus dulcédinis.
-          <Text className="versicle"> ℣. </Text>Posuísti in cápite ejus corónam
+          <Typography className="versicle"> ℣. </Typography>Posuísti in cápite ejus corónam
           de lápide pretióso.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedestes-lhe o desejo da sua alma; lhe não negastes o que seus
-          lábios Vos pediram.<Text className="versicle"> ℣. </Text>
+          lábios Vos pediram.<Typography className="versicle"> ℣. </Typography>
           Premuniste-lo com bênçãos de doçura.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Impusestes na sua cabeça uma coroa de pedras preciosas.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 10, 34-42</Text>
+      <Typography className="em">Mt. 10, 34-42</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Nolíte arbitrári, quia
           pacem vénerim míttere in terram: non veni pacem míttere, sed gládium.
           Veni enim separáre hóminem advérsus patrem suum, et fíliam advérsus
@@ -163,8 +163,8 @@ export default function Page4Martirnaopontifice1() {
           justi, mercédem justi accípiet. Et quicúmque potum déderit uni ex
           mínimis istis cálicem aquæ frígidæ tantum in nómine discípuli: amen,
           dico vobis, non perdet mercédem suam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos discípulos: «Não penseis que vim trazer
           a paz à terra; não vim trazer a paz, mas o gládio; pois vim separar o
           homem de seu pai; a filha de sua mãe; e a nora de sua sogra. O homem
@@ -180,68 +180,68 @@ export default function Page4Martirnaopontifice1() {
           der de beber, mesmo que seja um copo de água fria, a um destes
           pequenos, como sendo meu discípulo, eu vos digo, na verdade, que não
           perderá a recompensa.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 8, 6-7</Text>
+      <Typography className="em">Sl. 8, 6-7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Glória et honóre coronásti eum: et constituísti eum super ópera mánuum
           tuárum, Dómine.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós o coroastes, Senhor, com glória e com honras; Vós lhe concedestes
           o domínio sobre as obras das vossas mãos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
           cœléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo Vós, Senhor, aceitado as nossas ofertas e orações, dignai-Vos
           purificar-nos com vossos celestiais mystérios e ouvir-nos
           benignamente. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 16, 24</Text>
+      <Typography className="em">Mt. 16, 24</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Qui vult veníre post me, ábneget semetípsum, et tollat crucem suam, et
           sequátur me.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Se alguém quer vir após mim, negue-se a si mesmo, tome a sua cruz e
           siga-me!
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Da, quǽsumus, Dómine, Deus noster: ut, sicut tuórum commemoratióne
           Sanctórum temporáli gratulámur offício; ita perpétuo lætámur aspéctu.
           Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Permiti, ó Senhor, nosso Deus, Vos suplicamos, que, assim como nos
           alegramos, comemorando nesta vida pelo nosso ministério a memória dos
           vossos Santos, assim também tenhamos a felicidade de os contemplar na
           eternidade. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

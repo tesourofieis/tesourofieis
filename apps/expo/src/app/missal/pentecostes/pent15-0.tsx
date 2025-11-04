@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,54 +10,54 @@ export default function PagePent150() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 85, 1 & 2-3</Text>
+      <Typography className="em">Sl. 85, 1 & 2-3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Inclína, Dómine, aurem tuam ad me, et exáudi me: salvum fac servum
           tuum, Deus meus, sperántem in te: miserére mihi, Dómine, quóniam ad te
-          clamávi tota die. <Text className="latin">Ps. ibid., 4</Text> Lætífica
+          clamávi tota die. <Typography className="latin">Ps. ibid., 4</Typography> Lætífica
           ánimam servi tui: quia ad te, Dómine, ánimam meam levávi.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Inclinai, Senhor, vossos ouvidos para mim e ouvi-me. Salvai, ó meu
           Deus, o vosso servo, que em Vós espera. Tende misericórdia de mim,
           Senhor, pois clamei por Vós todo o dia!{" "}
-          <Text className="vernacular">Sl. ibid., 4</Text> Alegrai a alma do
+          <Typography className="vernacular">Sl. ibid., 4</Typography> Alegrai a alma do
           vosso servo, porque a Vós, Senhor, se elevou a minha alma.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ecclésiam tuam, Dómine, miserátio continuáta mundet et múniat: et quia
           sine te non potest salva consístere; tuo semper múnere gubernétur. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que a vossa misericórdia purifique e proteja continuamente a vossa
           Igreja; e, visto que ela não pode subsistir sem Vós, assisti-lhe
           sempre com vossa graça. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Gl. 5, 25-26; 6, 1-10</Text>
+      <Typography className="em">Gl. 5, 25-26; 6, 1-10</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Gálatas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Si spíritu vívimus, spíritu et ambulémus. Non efficiámur
           inanis glóriæ cúpidi, ínvicem provocántes, ínvicem invidéntes.
           Fratres, et si præoccupátus fúerit homo in áliquo delícto, vos, qui
@@ -74,8 +74,8 @@ export default function PagePent150() {
           faciéntes, non deficiámus: témpore enim suo metémus, non deficiéntes.
           Ergo, dum tempus habémus, operémur bonum ad omnes, maxime autem ad
           domésticos fídei.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Se vivemos pelo espírito, tenhamos uma conduta também
           pelo espírito. Não procuremos a vanglória, provocando-nos uns aos
           outros e tendo mútua inveja. Meus irmãos, se algum caiu em pecado por
@@ -95,50 +95,50 @@ export default function PagePent150() {
           desfalecermos. Assim, pois, enquanto temos tempo, pratiquemos boas
           acções uns para com os outros e principalmente para com os nossos
           irmãos na fé.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 91, 2-3</Text>
+      <Typography className="em">Sl. 91, 2-3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Bonum est confitéri Dómino: et psallere nómini tuo, Altíssime.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           É bom louvar o Senhor: e cantar salmos em honra do vosso nome, ó
-          Altíssimo!<Text className="versicle"> ℣. </Text>É bom publicar a vossa
+          Altíssimo!<Typography className="versicle"> ℣. </Typography>É bom publicar a vossa
           bondade pela manhã; e a vossa verdade durante a noite.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 94, 3</Text> Quóniam Deus magnus Dóminus,
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 94, 3</Typography> Quóniam Deus magnus Dóminus,
           et Rex magnus super omnem terram. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 94, 3</Text> Pois o Senhor é o
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 94, 3</Typography> Pois o Senhor é o
           excelso Deus e o excelso Rei, superior a todo o universo. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 7, 11-16</Text>
+      <Typography className="em">Lc. 7, 11-16</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Ibat Jesus in civitátem, quæ vocátur Naim: et ibant
           cum eo discípuli ejus et turba copiósa. Cum autem appropinquáret portæ
           civitátis, ecce, defúnctus efferebátur fílius únicus matris suæ: et
@@ -149,8 +149,8 @@ export default function PagePent150() {
           cœpit loqui. Et dedit illum matri suæ. Accépit autem omnes timor: et
           magnificábant Deum, dicéntes: Quia Prophéta magnus surréxit in nobis:
           et quia Deus visitávit plebem suam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, dirigiu-se Jesus para uma cidade chamada Naim, sendo
           acompanhado pelos discípulos e muito Povo. Tendo chegado próximo da
           porta da cidade, viu que levavam um morto daquela terra, filho único
@@ -163,66 +163,66 @@ export default function PagePent150() {
           sua mãe. E toda a multidão ficou aterrada; e glorificavam Deus,
           dizendo: «Apareceu entre nós um grande Profeta: Deus visitou o seu
           povo».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 39,2,3 & 4</Text>
+      <Typography className="em">Sl. 39,2,3 & 4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exspéctans exspectávi Dóminum, et respéxit me: et exaudívit
           deprecatiónem meam: et immísit in os meum cánticum novum, hymnum Deo
           nostro.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Esperei com perseverança no Senhor: e Ele atendeu-me: ouviu a minha
           deprecação e pôs nos meus lábios um cântico novo: um hino de louvor ao
           nosso Deus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tua nos, Dómine, sacramenta custodiant: et contra diabólicos semper
           tueántur incúrsus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que os vossos sacramentos nos guardem, Senhor; e que nos defendam
           sempre dos ataques do demónio. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 6, 52</Text>
+      <Typography className="em">Jo. 6, 52</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Panis, quem ego dédero, caro mea est pro sǽculi vita.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O pão que Vos darei para a vida do mundo é a minha Carne.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mentes nostras et córpora possídeat, quǽsumus, Dómine, doni cœléstis
           operátio: ut non noster sensus in nobis, sed júgiter ejus prævéniat
           efféctus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Permiti, Senhor, Vos suplicamos, que a nossa alma e o nosso corpo
           sejam completamente submissos à vontade deste dom celestial, de sorte
           que seja sempre o efeito deste sacramento que nos domine, e não os
           nossos próprios sentidos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,50 +10,50 @@ export default function Page27Missamaria1() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Is. 45, 8</Text>
+      <Typography className="em">Is. 45, 8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Roráte, cœli, désuper, et nubes pluant justum: aperiátur terra, et
-          gérminet Salvatórem. <Text className="latin">Ps. 84, 2</Text>{" "}
+          gérminet Salvatórem. <Typography className="latin">Ps. 84, 2</Typography>{" "}
           Benedixísti, Domine, terram tuam: avertísti captivitátem Jacob.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Ó céus, derramai dessas alturas o vosso orvalho: e que as nuvens
           chovam o Justo! Abra-se a terra e floresça o Salvador!{" "}
-          <Text className="vernacular">Sl. 84, 2</Text> Abençoastes, Senhor, a
+          <Typography className="vernacular">Sl. 84, 2</Typography> Abençoastes, Senhor, a
           vossa terra e acabastes com a escravidão de Jacob.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo nuntiánte,
           carnem suscípere voluísti: præsta supplícibus tuis; ut, qui vere eam
           Genetrícem Dei crédimus, ejus apud te intercessiónibus adjuvémur. Per
           eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que, segunda a anunciação do Anjo, quisestes que o vosso Verbo
           assumisse a carne humana no seio da bem-aventurada Virgem Maria,
           concedei aos vossos suplicantes que os que crêem que Ela é verdadeira
           Mãe de Deus, sejam amparados na vossa presença com o auxílio das suas
           preces. Pelo mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Is. 7, 10-15</Text>
+      <Typography className="em">Is. 7, 10-15</Typography>
 
       <Language>
-        <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Isaías.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Isaíæ Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Isaías.</Typography>
+        <Typography className="latin">
           In diébus illis: Locútus est i Dóminus ad Achaz, dicens: Pete tibi
           signum a Dómino, Deo tuo, in profúndum inférni, sive in excélsum
           supra. Et dixit Achaz: Non petam et non tentábo Dóminum. Et dixit:
@@ -62,8 +62,8 @@ export default function Page27Missamaria1() {
           ipse vobis signum. Ecce, Virgo concípiet et páriet fílium, et
           vocábitur nomen ejus Emmánuel. Butýrum et mel cómedet, ut sciat
           reprobare malum et elígere bonum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, falou o Senhor a Acaz e disse-lhe: «Pedi ao Senhor,
           vosso Deus, um prodígio nas profundezas do inferno ou nas alturas do
           céu». Acaz respondeu: «Não pedirei tal coisa e não tentarei o Senhor».
@@ -72,56 +72,56 @@ export default function Page27Missamaria1() {
           do meu Deus? Eis porque o Senhor vos dará um sinal: «Uma virgem
           conceberá e dará à luz um filho, e o seu nome será Emanuel: Ele comerá
           manteiga e mel, para que saiba condenar o mal e escolher o bem».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 23, 7</Text>
+      <Typography className="em">Sl. 23, 7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tóllite portas, príncipes, vestras: et elevámini, portæ æternáles: et
-          introívit Rex glóriæ.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 3-4</Text> Quis ascéndet in montem
+          introívit Rex glóriæ.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 3-4</Typography> Quis ascéndet in montem
           Dómini? aut quis stabit in loco sancto ejus? Innocens mánibus et mundo
           corde.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Abri inteiramente as vossas frentes, ó portas; abri-vos, ó portas
           eternas! Então entrará o Rei da glória!
-          <Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 3-4</Text> Quem subirá ao monte do
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 3-4</Typography> Quem subirá ao monte do
           Senhor? Quem permanecerá no seu santuário? Aquele que tiver as mãos
           inocentes e o coração limpo.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Luc. 1, 28</Text> Ave, María, grátia plena;
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Luc. 1, 28</Typography> Ave, María, grátia plena;
           Dóminus tecum: benedícta tu in muliéribus. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Lc. 1, 28</Text> Ave, Maria, cheia de
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Lc. 1, 28</Typography> Ave, Maria, cheia de
           graça: o Senhor é convosco: bendita sois vós entre as mulheres.
           Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 1, 26-38</Text>
+      <Typography className="em">Lc. 1, 26-38</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Missus est Angelus Gábriël a Deo in civitátem
           Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen
           erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus
@@ -140,8 +140,8 @@ export default function Page27Missamaria1() {
           sextus est illi, quæ vocátur stérilis: quia non erit impossíbile apud
           Deum omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi
           secúndum verbum tuum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, foi mandado por Deus o Anjo Gabriel a uma cidade da
           Galileia, chamada Nazaré, a uma Virgem, desposada com um varão, cujo
           nome era José, da casa de David; e o nome da Virgem era Maria.
@@ -161,72 +161,72 @@ export default function Page27Missamaria1() {
           mês daquela que é chamada estéril: porque nada é impossível a Deus».
           Então disse Maria: «Eis aqui a escrava do Senhor, faça-se em mim
           segundo a tua palavra».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Lc. 1, 28 & 42</Text>
+      <Typography className="em">Lc. 1, 28 & 42</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ave, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus,
           et benedíctus fructus ventris tui.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ave, Maria, cheia de graça: o Senhor é convosco: bendita sois vós
           entre as mulheres, e bendito é o fruto do vosso ventre.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In méntibus nostris, quǽsumus, Dómine, veræ fídei sacraménta confírma:
           ut, qui concéptum de Vírgine Deum verum et hóminem confitémur; per
           ejus salutíferæ resurrectiónis poténtiam, ad ætérnam mereámur
           perveníre lætítiam. Per eúndem Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dignai-Vos confirmar nas nossas almas, Senhor, os mystérios da
           verdadeira fé, a fim de que nós, que confessamos que Aquele que foi
           concebido pela Virgem Maria é verdadeiro Deus e Homem, mereçamos
           alcançar pela virtude da sua salutar ressurreição a felicidade eterna.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Is. 7, 14</Text>
+      <Typography className="em">Is. 7, 14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ecce, Virgo concípiet et páriet fílium: et vocábitur nomen ejus
           Emmánuel.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eis que a Virgem conceberá, dará à luz um filho e o seu nome será
           Emanuel.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde: ut, qui,
           Angelo nuntiánte, Christi, Fílii tui, incarnatiónem cognóvimus; per
           passiónem ejus et crucem, ad resurrectiónis glóriam perducámur. Per
           eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Infundi, Senhor, Vos suplicamos, a vossa graça em nossas almas, para
           que nós que pela anunciação do Anjo conhecemos a Incarnação do vosso
           Filho, sejamos conduzidos à glória da ressurreição pela sua Paixão e
           Cruz. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

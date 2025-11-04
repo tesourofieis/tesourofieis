@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -11,48 +11,48 @@ export default function PageQuad45() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 18, 15</Text>
+      <Typography className="em">Sl. 18, 15</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deditátio cordis mei in conspéctu tuo semper: Dómine, adjútor meus, et
-          redémptor meus. <Text className="latin">Ps. ibid., 2</Text> Cœli
+          redémptor meus. <Typography className="latin">Ps. ibid., 2</Typography> Cœli
           enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Os pensamentos do meu coração estarão sempre na vossa presença.
           Senhor, sois o meu sustentáculo e o meu Redentor.{" "}
-          <Text className="vernacular">Sl. ibid., 2</Text> Os céus publicam a
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Os céus publicam a
           glória do Senhor e o firmamento anuncia as obras das suas mãos.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui ineffabílibus mundum rénovas sacraméntis: præsta, quǽsumus;
           ut Ecclésia tua et ætérnis profíciat institútis, et temporálibus non
           destituátur auxíliis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que restaurais o mundo com inefáveis mystérios, permiti, Vos
           imploramos, que a vossa Igreja prossiga o seu fim pelos meios eternos
           que lhe conferistes, e não seja desprovida do vosso socorro nas
           necessidades temporais. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">3 Rs. 17, 17-24</Text>
+      <Typography className="em">3 Rs. 17, 17-24</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Regum.</Text>
-        <Text className="vernacular">Lição do Livro dos Reis.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Regum.</Typography>
+        <Typography className="vernacular">Lição do Livro dos Reis.</Typography>
+        <Typography className="latin">
           In diébus illis: Ægrotávit fílius mulíeris matrisfamílias, et erat
           lánguor fortíssimus, ita ut non remanéret in eo hálitus. Dixit ergo ad
           Elíam: Quid mihi et tibi, vir Dei? Ingréssus es ad me, ut
@@ -69,8 +69,8 @@ export default function PageQuad45() {
           suæ, et ait illi: En, vivit fílius tuus. Dixítque múlier ad Elíam:
           Nunc in isto cognóvi, quóniam vir Dei es tu, et verbum Dómini in ore
           tuo verum est.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, adoeceu tão gravemente o filho de uma mãe de família,
           que já não havia nele sopro de vida. Esta mãe disse, então, a Elias:
           «Que há entre ti e mim, ó homem de Deus? Porventura vieste à minha
@@ -87,23 +87,23 @@ export default function PageQuad45() {
           mãe, dizendo-lhe: «Eis o teu filho. Agora está vivo». Então a mulher
           disse a Elias: «Agora reconheço que sois um homem de Deus e que a
           palavra do Senhor, que anunciais, é verdadeira».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 117, 8-9</Text>
+      <Typography className="em">Sl. 117, 8-9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Bonum est confídere in Dómino, quam confídere in hómine.
-          <Text className="versicle"> ℣. </Text>Bonum est speráre in Dómino,
+          <Typography className="versicle"> ℣. </Typography>Bonum est speráre in Dómino,
           quam speráre in princípibus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           É melhor confiar no Senhor do que no homem. É melhor ter esperança no
           Senhor do que nos príncipes.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Trato" />
@@ -115,18 +115,18 @@ export default function PageQuad45() {
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 11, 1-45</Text>
+      <Typography className="em">Jo. 11, 1-45</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Erat quidam languens Lázarus a Bethánia, de castéllo
           Maríæ et Marthæ, soróris ejus. (María autem erat, quæ unxit Dóminum
           unguento, et extérsit pedes ejus capíllis suis: cujus frater Lázarus
@@ -187,8 +187,8 @@ export default function PageQuad45() {
           Dixit eis Jesus: Sólvite eum, et sínite abíre. Multi ergo ex Judǽis,
           qui vénerant ad Maríam et Martham, et víderant quæ fecit Jesus,
           credidérunt in eum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, estava doente um certo homem chamado Lázaro, de
           Betânia, aldeia de Maria e de Marta, suas irmãs. (Maria era aquela que
           ungira o Senhor com perfumes e Lhe enxugara os pés com os cabelos; e o
@@ -250,94 +250,94 @@ export default function PageQuad45() {
           e as mãos ligados com faixas e o rosto envolvido no sudário! E Jesus
           continuou: «Desatai-o e deixai-o ir!». Então muitos judeus, que tinham
           acompanhado Maria e Marta, vendo isto, acreditaram em Jesus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 17, 28 & 32</Text>
+      <Typography className="em">Sl. 17, 28 & 32</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Pópulum húmilem salvum fácies, Dómine, et óculos superbórum
           humiliábis: quóniam quis Deus præter te, Dómine?
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós, Senhor, salvais o povo humilde e abateis os olhos dos soberbos.
           Quem é, pois, Deus senão Vós, Senhor?
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Múnera nos, Dómine, quǽsumus, obláta puríficent: et te nobis jugiter
           fáciant esse placátum. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos imploramos, permiti que estes dons, que Vos oferecemos,
           nos purifiquem e aplaquem incessantemente a vossa ira contra nós. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 11, 33, 35, 43, 44 & 39</Text>
+      <Typography className="em">Jo. 11, 33, 35, 43, 44 & 39</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Videns Dóminus flentes soróres Lázari ad monuméntum, lacrimátus est
           coram Judǽis, et exclamávit: Lázare, veni foras: et pródiit ligátis
           mánibus et pédibus, qui fúerat quatriduánus mórtuus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O Senhor, vendo chorar as irmãs de Lázaro, perto do sepulcro, chorou
           também, na presença dos judeus, e clamou: «Lázaro, sai para fora». E
           aquele que estava morto havia quatro dias apareceu com os pés e as
           mãos ligados!
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc nos, quǽsumus, Dómine, participátio sacraménti: et a propriis
           reátibus indesinénter expédiat, et ab ómnibus tueátur advérsis. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que esta nossa participação nos celestiais mystérios, Senhor, Vos
           suplicamos, nos livre sempre das nossas culpas e nos defenda de todas
           as adversidades. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração sobre o povo" />
 
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">Humiliáte cápita vestra Deo.</Text>
-        <Text className="vernacular">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">Humiliáte cápita vestra Deo.</Typography>
+        <Typography className="vernacular">
           Inclinai as vossas cabeças diante de Deus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Da nobis, quǽsumus, omnípotens Deus: ut, qui infirmitátis nostræ
           cónscii, de tua virtúte confídimus, sub tua semper pietáte gaudeámus.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, conhecendo nós a nossa fraqueza e tendo confiança
           no vosso poder, concedei-nos, Vos suplicamos, que gozemos sempre os
           efeitos da vossa bondade. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0307() {
     <PageWrapper>
       <H1 text="S. Tomás Aquino, Conf. e Doutor, a 7 de Março" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Comemoração S. Tomás de Aquino, Confessor e Doutor da Igreja. Santo
         Tomás, filho do conde de Aquino e de Theodora de Nápoles, foi confiado,
         desde a idade de 5 anos, aos monges benedictinos do Monte Cassino.
@@ -30,41 +30,41 @@ export default function Page0307() {
         peçamos a Santo Tomás que nos penetra de tal modo com o espírito de
         penitência que possamos, como ele, ter a visão clara dos ensinamentos do
         Mestre, e pô-los em prática.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/13doutores">
           Missa In médio Ecclésiae
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui Ecclésiam tuam beáti Thomæ Confessóris tui mira eruditióne
           claríficas, et sancta operatióne fecúndas: da nobis, quǽsumus; et quæ
           dócuit, intelléctu conspícere, et quæ egit, imitatióne complére. Per
           Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que ilustrais a vossa Igreja com a admirável sabedoria do B.
           Tomás, vosso Confessor, e a fecundais com a santidade das suas acções,
           concedei-nos, Vos suplicamos, que compreendamos o que ele ensinou e
           imitemos com as nossas acções o que ele praticou. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Sb. 7, 7-14</Text>
+      <Typography className="em">Sb. 7, 7-14</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Sapiéntiæ.</Text>
-        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="latin">
           Optávi, et datus est mihi sensus: et invocávi, et venit in me spíritus
           sapiéntiæ: et præpósui illam regnis et sédibus, et divítias nihil esse
           duxi in comparatióne illíus: nec comparávi illi lápidem pretiósum:
@@ -78,8 +78,8 @@ export default function Page0307() {
           et sine invídia commúnico, et honestátem illíus non abscóndo.
           Infinítus enim thesáurus est homínibus: quo qui usi sunt, partícipes
           facti sunt amicítiæ Dei, propter disciplínæ dona commendáti.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Desejei a inteligência, e foi-me dada; invoquei o espírito da
           sabedoria, e veio a mim. Preferia-a aos reinos e aos tronos; e creio
           que as riquezas nada são comparadas com ela. Nem mesmo a compararei
@@ -91,7 +91,7 @@ export default function Page0307() {
           inveja, não ocultando as suas riquezas. Ela é um tesouro infinito para
           os homens. Aqueles que a aproveitam tornam-se amigos de Deus e
           recomendam-se pelos dons da ciência.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

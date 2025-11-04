@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -11,51 +11,51 @@ export default function Page28Paciencia() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui Unigéniti tui patiéntia antíqui hostis contrivísti
           supérbiam: da nobis, quǽsumus, quæ idem pie pro nobis pértulit, digne
           recólere; sicque, exémplo ejus, nobis adversántia æquanímiter
           toleráre. Per eúndem Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que, em virtude da paciência que o vosso Filho Unigénito
           praticou, esmagastes o «homem antigo», permiti, Vos suplicamos, que
           meditemos gravemente em tudo quanto Jesus sofreu com tanta bondade por
           nós, a fim de que, sustentados com seu exemplo, possamos suportar com
           resignação as adversidades. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Múnera nostræ oblatiónis, quǽsumus, Dómine, súscipe placátus: quæ, ut
           nobis patiéntiæ donum largíri dignéris, majestáti tuæ devota offérimus
           actióne. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicamos, recebei os dons da nossa oblação, e deixai-Vos
           aplacar; oferecemos devotadamente estes dons à vossa majestade, para
           que Vos digneis conceder-nos a virtude da paciência. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mystéria, Dómine, sacrosáncta, quæ súmpsimus, amíssam nobis, quǽsumus,
           reconcílient grátiam: atque munus patiéntiæ in illátis ómnibus, semper
           et ubíque protegéndo, impértiant. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos imploramos, permiti que os sacrossantos mystérios que
           recebemos nos restaurem na graça, que havíamos perdido, e que,
           fazendo-nos sentir a vossa protecção, nos concedam sempre e em toda a
           parte o dom da paciência em todas as adversidades. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

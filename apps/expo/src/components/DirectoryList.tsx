@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import { ActivityIndicator, Text, View } from "react-native";
+import { ActivityIndicator, View } from "react-native";
 import type { Docs } from "~/app/(tabs)/more";
 import { findBySlug } from "~/services/search";
 import PageLinkCard from "./LinkCard";
+import { P } from "./typography";
 
 const DirectoryList = ({ slug }: { slug: string }) => {
   const [searchResults, setSearchResults] = useState<Docs[]>([]);
@@ -35,9 +36,9 @@ const DirectoryList = ({ slug }: { slug: string }) => {
     return (
       <View className="flex-1 justify-center items-center p-4">
         <ActivityIndicator size="large" className="text-red-500" />
-        <Text className="mt-2 text-gray-600 dark:text-gray-400">
+        <Typography className="mt-2 text-gray-600 dark:text-gray-400">
           Carregando directório...
-        </Text>
+        </Typography>
       </View>
     );
   }
@@ -45,7 +46,7 @@ const DirectoryList = ({ slug }: { slug: string }) => {
   if (error) {
     return (
       <View className="flex-1 justify-center items-center p-4">
-        <Text className="text-red-500 text-center">{error}</Text>
+        <Typography className="text-red-500 text-center">{error}</Typography>
       </View>
     );
   }
@@ -53,9 +54,9 @@ const DirectoryList = ({ slug }: { slug: string }) => {
   if (searchResults.length === 0) {
     return (
       <View className="flex-1 justify-center items-center p-4">
-        <Text className="text-gray-600 dark:text-gray-400">
+        <Typography className="text-gray-600 dark:text-gray-400">
           Nenhum item encontrado neste diretório.
-        </Text>
+        </Typography>
       </View>
     );
   }

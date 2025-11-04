@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -11,54 +11,54 @@ export default function Page0623() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Lc. 1,13, 15 & 14</Text>
+      <Typography className="em">Lc. 1,13, 15 & 14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ne tímeas, Zacharía, exaudíta est orátio tua: et Elísabeth uxor tua
           páriet tibi fílium, et vocábis nomen ejus Joánnem: et erit magnus
           coram Dómino: et Spíritu Sancto replébitur adhuc ex útero matris suæ:
           et multi in nativitáte ejus gaudébunt.{" "}
-          <Text className="latin">Ps. 20, 2</Text> Dómine, in virtúte tua
+          <Typography className="latin">Ps. 20, 2</Typography> Dómine, in virtúte tua
           lætábitur rex: et super salutáre tuum exsultábit veheménter.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Não temas, Zacarias, pois a tua oração foi ouvida: Isabel, tua esposa,
           dará à luz um filho, a quem darás o nome de João. Ele será grande
           diante de Deus e cheio do Espírito Santo desde o seio de sua mãe.
           Muitos se regozijarão com seu nascimento.{" "}
-          <Text className="vernacular">Sl. 20, 2</Text> Senhor, alegrar-se-á o
+          <Typography className="vernacular">Sl. 20, 2</Typography> Senhor, alegrar-se-á o
           Rei com seu poder: e exultará com viva alegria, esperando a vossa
-          salvação.<Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          salvação.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnipotens Deus: ut familia tua per viam salútis
           incedat; et, beáti Joánnis Præcursóris hortaménta sectándo ad eum,
           quem prædíxit, secura perveniat, Dóminum nostrum Jesum Christum,
           Fílium tuum: Qui tecum vivit et regnat...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos suplicamos, permiti que a vossa família
           caminhe sempre pela via da salvação, a fim de que, sendo fiel aos
           ensinos do B. João, o Precursor, consiga encontrar Aquele que ele
           anunciou: nosso Senhor Jesus Cristo, que convosco vive e reina...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Jr. 1, 4-10</Text>
+      <Typography className="em">Jr. 1, 4-10</Typography>
 
       <Language>
-        <Text className="latin">Léctio Jeremíæ Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Jeremias.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Jeremíæ Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Jeremias.</Typography>
+        <Typography className="latin">
           In diébus illis: Factum est verbum Dómini ad me, dicens: Priúsquam te
           formárem in útero, novi te: et ántequam exíres de vulva, sanctificári
           te, et prophétam in géntibus dedi te. Et dixi: A a a, Dómine Deus:
@@ -70,8 +70,8 @@ export default function Page0623() {
           in ore tuo; ecce, constítui te hódie super gentes et super regna, ut
           evéllas, et déstruas et dispérdas et díssipes et ædífices et plantes:
           dicit Dóminus omnípotens.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele dias, foi-me dirigida a palavra do Senhor, dizendo-me: «Antes
           de te formar no seio de tua mãe, já te conhecia; e antes de saíres
           dele, já te santificara e consagrara Profeta entre os povos». E eu
@@ -84,40 +84,40 @@ export default function Page0623() {
           as minhas palavras na tua boca; e te estabeleci hoje sobre os povos e
           os reinos, para arrancares e destruíres, para plantares e edificares»,
           diz o Senhor omnipotente.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Jo. 1, 6-7</Text>
+      <Typography className="em">Jo. 1, 6-7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Fuit homo missus a Deo, cui nomen erat Joánnes.
-          <Text className="versicle"> ℣. </Text>Hic venit, ut testimónium
+          <Typography className="versicle"> ℣. </Typography>Hic venit, ut testimónium
           perhibéret de lúmine, paráre Dómino plebem perféctam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Foi enviado por Deus um homem que se chamava João.
-          <Text className="versicle"> ℣. </Text>Ele veio para dar testemunho da
+          <Typography className="versicle"> ℣. </Typography>Ele veio para dar testemunho da
           luz e preparar um povo perfeito para o Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 1, 5-17</Text>
+      <Typography className="em">Lc. 1, 5-17</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Initium sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Initium sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Início do santo Evangelho segundo
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Início do santo Evangelho segundo
           S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fuit in diébus Heródis, regis Judǽæ, sacérdos quidam nómine Zacharías,
           de vice Abía, et uxor illíus de filiábus Aaron, et nomen ejus
           Elísabeth. Erant autem justi ambo ante Deum, incedéntes in ómnibus
@@ -138,8 +138,8 @@ export default function Page0623() {
           ante illum in spíritu et virtúte Elíæ: ut convértat corda patrum in
           fílios, et incrédulos ad prudéntiam justórum, paráre Dómino plebem
           perféctam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           No tempo em que Herodes reinava na Judeia, havia um sacerdote chamado
           Zacarias, da classe de Abias. Sua mulher era filha de Aarão e
           chamava-se Isabel. Ambos eram justos diante de Deus, cumprindo
@@ -161,7 +161,7 @@ export default function Page0623() {
           adiante d’Ele com o espírito e o poder de Elias para chamar os
           corações dos pais aos filhos e os rebeldes à prudência dos justos, e
           assim preparar para o Senhor um povo perfeito».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
@@ -174,47 +174,47 @@ export default function Page0623() {
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Múnera, Dómine, obláta sanctífica: et, intercedénte beáto Joánne
           Baptista, nos per hæc a peccatórum nostrórum máculis emúnda. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Santificai, Senhor os dons que Vos são oferecidos e pela intercessão
           do B. João Baptista fazei que nos purifiquem das manchas dos nossos
           pecados. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 20, 6</Text>
+      <Typography className="em">Sl. 20, 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Magna est glória ejus in salutári tuo: glóriam et magnum decórem
           ímpones super eum, Dómine.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Grande é, Senhor, a sua glória, graças à vossa protecção. Vós o
           rodeastes de glória e de magnificência.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Beáti Joánnis Baptístæ nos, Dómine, præclára comitétur orátio: et,
           quem ventúrum esse prædíxit, poscat nobis fore placátum, Dóminum
           nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Fazei, Senhor, que a insigne Oração do B. João Baptista acompanhe a
           nossa e que implore em nosso favor a misericórdia d’Aquele que ele
           profetizou: nosso Senhor Jesus Cristo, vosso Filho, que convosco vive
           e reina...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

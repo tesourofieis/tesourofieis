@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,46 +10,46 @@ export default function PageQuad52() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 26, 14</Text>
+      <Typography className="em">Sl. 26, 14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exspécta Dóminum, viríliter age: et confortétur cor tuum, et sústine
-          Dóminum. <Text className="latin">Ps. ibid., 1</Text> Dóminus
+          Dóminum. <Typography className="latin">Ps. ibid., 1</Typography> Dóminus
           illuminátio mea et salus mea: quem timebo?
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Esperai no Senhor; procedei com firmeza e o vosso coração será
           confortado. Esperai, pois, no Senhor.{" "}
-          <Text className="vernacular">Sl. ibid., 1</Text> O Senhor é a minha
+          <Typography className="vernacular">Sl. ibid., 1</Typography> O Senhor é a minha
           luz e salvação. A quem hei-de temer?
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Nostra tibi, Dómine, quǽsumus, sint accepta jejúnia: quæ nos et
           expiándo grátia tua dignos effíciant; et ad remédia perdúcant ætérna.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos rogamos, Senhor, permiti que os nossos jejuns Vos sejam
           agradáveis, a fim de que, servindo de expiação das nossas faltas, nos
           tornem dignos da vossa graça e nos sirvam de remédio para alcançarmos
           a salvação eterna. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Dn. 14, 27 & 28-42</Text>
+      <Typography className="em">Dn. 14, 27 & 28-42</Typography>
 
       <Language>
-        <Text className="latin">Léctio Daniélis Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Daniel.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Daniélis Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Daniel.</Typography>
+        <Typography className="latin">
           In diébus illis: Congregáti sunt Babylónii ad regem, et dixérunt ei:
           Trade nobis Daniélem, qui Bel destrúxit et dracónem interfecit,
           alioquin interficiémus te et domum tuam. Vidit ergo rex, quod
@@ -75,8 +75,8 @@ export default function PageQuad52() {
           in moménto coram eo. Tunc rex ait: Páveant omnes habitántes in
           univérsa terra Deum Daniélis: quia ipse est salvátor, fáciens signa et
           mirabília in terra: qui liberávit Daniélem de lacu leónum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, reuniram-se os babilónios, foram ao rei e disseram-lhe:
           «Entrega-nos Daniel, que destruiu Bel e matou o dragão; senão
           matar-te-emos a ti e à tua família». Vendo o rei que eles instavam e o
@@ -105,41 +105,41 @@ export default function PageQuad52() {
           Então o rei disse: «Que todos os habitantes da terra temam Aquele que
           é o Deus de Daniel, pois Ele é o Salvador, que opera milagres e
           maravilhas na terra e que livrou Daniel da cova dos leões!».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 42, 1 & 3</Text>
+      <Typography className="em">Sl. 42, 1 & 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Discérne causam meam, Dómine: ab homine iníquo et dolóso éripe me.
-          <Text className="versicle"> ℣. </Text>Emítte lucem tuam et veritátem
+          <Typography className="versicle"> ℣. </Typography>Emítte lucem tuam et veritátem
           tuam: ipsa me deduxérunt, et adduxérunt in montem sanctum tuum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Defendei a minha causa, Senhor: livrai-me do homem iníquo e
-          fraudulento.<Text className="versicle"> ℣. </Text>Que resplandeça em
+          fraudulento.<Typography className="versicle"> ℣. </Typography>Que resplandeça em
           mim a vossa luz e a vossa verdade: e elas me conduzirão e guiarão até
           ao monte sagrado.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 7, 1-13</Text>
+      <Typography className="em">Jo. 7, 1-13</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Ambulábat Jesus in Galilǽam, non enim volébat in
           Judǽam ambuláre, quia quærébant eum Judǽi interfícere. Erat autem in
           próximo dies festus Judæórum, Scenopégia. Dixérunt autem ad eum
@@ -158,8 +158,8 @@ export default function PageQuad52() {
           eo. Quidam enim dicébant: Quia bonus est. Alii autem dicébant: Non,
           sed sedúcit turbas. Nemo tamen palam loquebátur de illo, propter metum
           Judæórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, andava Jesus pela Galileia e já não queria ir à Judeia,
           porque os judeus intentavam matá-lo. Estava já próximo o dia da festa
           dos tabernáculos. Disseram-Lhe, então, os seus irmãos: «Saí daqui e
@@ -178,92 +178,92 @@ export default function PageQuad52() {
           afirmavam: é um homem de bem; outros diziam: não, pois seduz as
           turbas. Todavia, ninguém falava d’Ele abertamente» porque receavam os
           judeus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 9, 11-12 & 13</Text>
+      <Typography className="em">Sl. 9, 11-12 & 13</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sperent in te omnes, qui novérunt nomen tuum, Dómine: quóniam non
           derelínquis quæréntes te: psállite Dómino, qui habitat in Sion:
           quóniam non est oblítus oratiónes páuperum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que todos aqueles que conhecem o vosso nome, Senhor, confiem em Vós,
           porque não abandonais os que Vos procuram. Cantai hinos ao Senhor que
           habita em Sião: pois não esquecerá as orações dos pobres.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hóstias tibi, Dómine, deférimus immolándas: quæ temporálem
           consolatiónem signíficent; ut promíssa non desperémus ætérna. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, que estas hóstias, que imolamos e oferecemos em vosso louvor,
           nos façam sentir consolação temporal, a fim de não perdermos a
           esperança das promessas eternas. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 24, 22</Text>
+      <Typography className="em">Sl. 24, 22</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Rédime me, Deus Israël, ex ómnibus angústiis meis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Livrai-me, ó Deus de Israel, de todas minhas angústias.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Da, quǽsumus, omnípotens Deus: ut, quæ divína sunt, jugiter
           exsequéntes, donis mereámur cœléstibus propinquáre. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos pedimos, fazei que, recebendo nós
           incessantemente os divinos mystérios, mereçamos alcançar os bens
           celestiais. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração sobre o povo" />
 
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">Humiliáte cápita vestra Deo.</Text>
-        <Text className="vernacular">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">Humiliáte cápita vestra Deo.</Typography>
+        <Typography className="vernacular">
           Inclinai as vossas cabeças diante de Deus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Da nobis, quǽsumus, Dómine: perseverántem in tua voluntáte famulátum;
           ut in diébus nostris, et mérito et número, pópulus tibi sérviens
           augeátur. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos suplicamos, Senhor, concedei-nos a graça da perseverança no
           cumprimento da vossa vontade, para que em nossos dias o povo, que Vos
           serve, cresça em número e em merecimentos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

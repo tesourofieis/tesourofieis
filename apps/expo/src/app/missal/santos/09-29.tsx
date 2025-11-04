@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0929() {
     <PageWrapper>
       <H1 text="Dedicação de S. Miguel Arcanjo, a 29 de Setembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         O dia 29 de Setembro era outrora consagrado a todos os Anjos (Intr.,
         Or., Grad., Comm.) e o Papa Bonifácio II, cerca do anno 530 escolheu
         essa data para consagrar a S. Miguel uma igreja no grande circo, em
@@ -31,42 +31,42 @@ export default function Page0929() {
         dos Anjos. Anjo protector da Sinagoga, S. Miguel também o é da Igreja,
         que lhe sucedeu, e a liturgia atribui-lhe a revelação do futuro feito a
         S João no Apocalypse (Ep.).
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link href="/missal/santos/05-08">
           Missa da Festa da Aparição de Arcanjo Miguel,
         </Link>
         excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 102, 20 & 1</Text>
+      <Typography className="em">Sl. 102, 20 & 1</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis
-          verbum ejus.<Text className="versicle"> ℣. </Text>Benedic, ánima mea,
+          verbum ejus.<Typography className="versicle"> ℣. </Typography>Benedic, ánima mea,
           Dóminum, et ómnia interióra mea, nomen sanctum ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bendizei o Senhor, ó Anjos do Senhor, que sois poderosos e cheios de
           força, e cumpris as ordens do Senhor.
-          <Text className="versicle"> ℣. </Text>Bendizei o Senhor, ó minha alma;
+          <Typography className="versicle"> ℣. </Typography>Bendizei o Senhor, ó minha alma;
           que toda minha alma bendiga o nome do Senhor.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Sancte
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Sancte
           Míchaël Archángele, defénde nos in prǿlio: ut non pereámus in treméndo
           judício. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>S. Miguel
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>S. Miguel
           Arcanjo, defendei-nos neste combate, para que não pereçamos no dia do
           tremendo juízo. Aleluia.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

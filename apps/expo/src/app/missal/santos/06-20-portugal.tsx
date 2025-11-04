@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -8,22 +8,22 @@ export default function Page0620Portugal() {
     <PageWrapper>
       <H1 text="B. Francisco Pacheco e Outros, Márts., a 20 de Junho, Nalgumas Dioceses" />
       <H3 text="Intróito" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         O Senhor dirigirá ao seu povo palavras de paz: e igualmente assim falará
         aos seus fiéis e àqueles que se converterem a Ele. Abençoastes, Senhor,
         a vossa terra e fizestes cessar o cativeiro de Jacob.
-        <Text className="versicle"> ℣. </Text>Glória ao Pai...
-      </Text>
+        <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+      </Typography>
       <H3 text="Oração" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó Deus, que nos alegrais com o aniversário solene do martírio do B.
         Francisco e seus Companheiros, concedei-nos propício que aqueles cujos
         méritos nos enchem de alegria, nos inflamem também com seus exemplos.
         Por nosso Senhor...
-      </Text>
+      </Typography>
       <H3 text="Epístola" />
-      <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
-      <Text className="vernacular">
+      <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+      <Typography className="vernacular">
         Caríssimos: Alegrai-vos, se tomais parte nos sofrimentos de Cristo; pois
         exultareis de alegria na manifestação da sua glória. Sereis felizes, se
         fordes ultrajados por causa do nome de Cristo; pois o espírito de honra,
@@ -36,44 +36,44 @@ export default function Page0620Portugal() {
         só o justo será salvo, que acontecerá ao ímpio e ao pecador? Assim,
         pois, aqueles que sofrem segundo a vontade de Deus encomendam as suas
         almas ao seu fiel Criador, praticando obras boas.
-      </Text>
+      </Typography>
       <H3 text="Gradual" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Deus é glorificado nos seus Santos: Deus é admirável na sua majestade:
         Deus pratica muitos prodígios. Vossa dextra esmagou os vossos inimigos.
         Aleluia, aleluia. Esta é a verdadeira fraternidade que venceu os crimes
         do mundo: ela segue Cristo e possuirá gloriosamente o reino celestial.
         Aleluia.
-      </Text>
+      </Typography>
       <H3 text="Evangelho" />
       <LinkCard
         href="/missal/comum/7muitosmartires2#evangelho"
         title="Muitos Mártires - Missa Sapiéntiam sanctórum"
       />
       <H3 text="Ofertório" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó justos, alegrai-vos no Senhor e exultai de júbilo: todos aqueles que
         possuem o coração recto serão glorificados.
-      </Text>
+      </Typography>
       <H3 text="Secreta" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Deixai-Vos aplacar, Senhor, com a oferta que Vos apresentamos, e pela
         intercessão dos vossos B. B. Mártires defendei-nos de todos os perigos.
         Por nosso Senhor...
-      </Text>
+      </Typography>
       <H3 text="Comúnio" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Senhor, deram como alimento às aves do céu os corpos dos vossos servos,
         que haviam sido mortos, e deram as carnes dos vossos Santos às feras da
         terra. Pelo poder do vosso braço conservai os filhos daqueles que foram
         mortos.
-      </Text>
+      </Typography>
       <H3 text="Postcomúnio" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Que esta comunhão, Senhor, nos purifique das nossas faltas; e pela
         intercessão dos B. B. Mártires Francisco e seus Companheiros fazei que
         nos torne participantes do remédio celestial. Por nosso Senhor...
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

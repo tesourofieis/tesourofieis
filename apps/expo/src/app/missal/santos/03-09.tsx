@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0309() {
     <PageWrapper>
       <H1 text="Santa Francisca Romana, Viúva, a 9 de Março" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Comemoração S. Francisca Romana, Viúva. Santa Francisca, nobre matrona
         Romana, foi a mulher forte da qual fala a Epístola. Unida desde a idade
         de 11 anos pelos laços matrimoniais a Lourenço de Ponziani, foi, durante
@@ -27,31 +27,31 @@ export default function Page0309() {
         conversava familiarmente. Morreu em 1440. Neste sagrado tempo de
         penitência, imitemos, como a Santa Francisca, a vida de sacrifícios do
         Salvador.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/24nemvirgensnemmartires">
           Missa Cognóvi, Dómine
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beátam Francíscam fámulam tuam, inter cétera grátiæ tuæ
           dona, familiári Angeli consuetúdine decorásti: concéde, quǽsumus; ut,
           intercessiónis ejus auxílio, Angelórum consórtium cónsequi mereámur.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que concedestes à B. Francisca, vossa serva, entre outros
           dons, a graça da presença familiar de um Anjo, permiti-nos, Vos
           rogamos, que com o auxílio da sua intercessão mereçamos alcançar a
           companhia dos Anjos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

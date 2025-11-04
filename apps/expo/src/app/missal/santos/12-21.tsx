@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ export default function Page1221() {
     <PageWrapper>
       <H1 text="S. Tomé, Apóstolo, a 21 de Dezembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Na Missa de São Tomé, a liturgia recorda serem os Apóstolos os alicerces
         da Igreja, da qual Cristo é a pedra angular (Ep.); por esse motivo, as
         suas festas outrora eram guardadas, à semelhança do Domingo. O Evangelho
@@ -26,116 +26,116 @@ export default function Page1221() {
         indulgência de 7 anos e 7 quarentenas e com indulgência plenária uma vez
         por semana nas condições ordinárias. Esta dupla elevação lembra a
         separação real do Corpo e Sangue de Nosso Senhor sobre a cruz.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 138, 17</Text>
+      <Typography className="em">Sl. 138, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confórtátus est
-          principatus eórum. <Text className="latin">Ps. ibid., 1-2</Text>{" "}
+          principatus eórum. <Typography className="latin">Ps. ibid., 1-2</Typography>{" "}
           Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et
-          resurrectiónem meam.<Text className="versicle"> ℣. </Text>Gloria
+          resurrectiónem meam.<Typography className="versicle"> ℣. </Typography>Gloria
           Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eu vejo, ó Deus, que honrastes largamente os vossos amigos: e que seu
           poder se fortaleceu extraordinariamente.{" "}
-          <Text className="vernacular">Sl. ibid., 1-2</Text> Senhor,
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Senhor,
           perscrutastes o meu íntimo e ficastes conhecendo-me: ficastes
           conhecendo quando me deito e quando me levanto.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Da nobis, quǽsumus, Dómine, beáti Apóstoli tui Thomæ sollemnitátibus
           gloriári: ut ejus semper et patrocíniis sublevémur; et fidem cóngrua
           devotióne sectémur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedei-nos, Senhor, Vos suplicamos, que nos alegremos nas
           festividades do vosso B. Ap.º Tomé, a fim de que sejamos sempre
           amparados com seu patrocínio e imitemos a sua fé com a devida devoção.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ef. 2, 19-22</Text>
+      <Typography className="em">Ef. 2, 19-22</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Jam non estis hóspites et ádvenæ: sed estis cives sanctórum
           et doméstici Dei: superædificáti super fundaméntum Apostolórum et
           Prophetárum, ipso summo angulári lápide Christo Jesu: in quo omnis
           ædificátio constrúcta crescit in templum sanctum in Dómino, in quo et
           vos coædificámini in habitáculum Dei in Spíritu.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Já não sois estrangeiros, nem hóspedes, mas concidadãos
           dos santos e da família de Deus, instituídos sobre o fundamento dos
           Apóstolos e dos Profetas, de que o próprio Jesus Cristo é a pedra
           angular e em quem todo o edifício bem construído se deve elevar para
           formar um templo santo no Senhor. É n’Ele que também sois edificados
           para vos tornardes pelo Espírito Santo em morada de Deus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 138, 17-18</Text>
+      <Typography className="em">Sl. 138, 17-18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Nimis honorati sunt amíci tui, Deus: nimis confortátus est principátus
-          eórum.<Text className="versicle"> ℣. </Text>Dinumerábo eos, et super
+          eórum.<Typography className="versicle"> ℣. </Typography>Dinumerábo eos, et super
           arénam multiplicabúntur.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Honrais largamente os vossos amigos, ó Deus; e o seu poder
           fortaleceu-se extraordinariamente. Hei-de contá-los e verei que
           ultrapassam os grãos de areia da praia.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 32, 1</Text> Gaudéte, justi, in Dómino:
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 32, 1</Typography> Gaudéte, justi, in Dómino:
           rectos decet collaudátio. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 32, 1</Text> Ó justos, alegrai-vos no
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 32, 1</Typography> Ó justos, alegrai-vos no
           Senhor; pois aos corações rectos convém celebrar os louvores do
           Senhor. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 20, 24-29</Text>
+      <Typography className="em">Jo. 20, 24-29</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Thomas, unus ex duódecim, qui dícitur Dídymus, non
           erat cum eis, quando venit Jesus. Dixérunt ergo ei alii discípuli:
           Vídimus Dóminum. Ille autem dixit eis: Nisi videre in mánibus ejus
@@ -147,8 +147,8 @@ export default function Page1221() {
           latus meum: et noli esse incrédulus, sed fidélis. Respóndit Thomas et
           dixit ei: Dóminus meus et Deus meus. Dixit ei Jesus: Quia vidisti me,
           Thoma, credidísti: beáti, qui non vidérunt, et crediderunt.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, Tomé, um dos Doze, que era chamado Dídimo, não estava
           com eles. Disseram-lhe, então, os outros discípulos: «Vimos o
           Senhor!». Ele disse-lhes: «Se não vir nas suas mãos o sinal dos
@@ -161,69 +161,69 @@ export default function Page1221() {
           meu lado; não sejas incrédulo, mas fiel». Respondeu Tomé: «Meu Senhor
           e meu Deus!». Disse-lhe Jesus: «Porque me viste, ó Tomé, acreditaste:
           bem-aventurados aqueles que não viram e acreditaram».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 18, 5</Text>
+      <Typography className="em">Sl. 18, 5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In omnem terram exívit sonus eórum: et in fines orbis terræ verba
           eórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O som da sua voz ecoou por toda a terra; e as suas palavras
           prolongaram-se até às extremidades da terra.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Débitum tibi, Dómine, nostræ réddimus servitútis, supplíciter
           exorántes: ut, suffrágiis beáti Thomæ Apóstoli, in nobis tua múnera
           tueáris, cujus honoránda confessióne laudis tibi hóstias immolámus.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, a vossos pés depomos o tributo da nossa sujeição,
           suplicando-Vos instantemente que em nós conserveis os vossos dons por
           intercessão do B. Tomé, Apóstolo, em quem honramos a gloriosa
           confissão, imolando hóstias em vosso louvor. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 20, 27</Text>
+      <Typography className="em">Jo. 20, 27</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mitte manum tuam, et cognósce loca clavórum: et noli esse incrédulus,
           sed fidélis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Mete aqui a tua mão e reconhece o lugar dos cravos. Não sejas
           incrédulo, mas fiel.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Adésto nobis, miséricors Deus: et, intercedénte pro nobis beáto Thoma
           Apóstolo, tua circa nos propitiátus dona custódi. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Assisti-nos, ó Deus de misericórdia; e, por intercessão do B. Apóstolo
           Tomé dignai-Vos conservar a nossa alma na posse dos dons que
           benignamente nos concedestes. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

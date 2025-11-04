@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0127() {
     <PageWrapper>
       <H1 text="S. João Crisóstomo, B. C. e Doutor, a 27 de Janeiro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         S. João Crisóstomo, nascido em Antioquia pelo ano de 347, era homem de
         grande génio, e sua poderosa eloquência valeu-lhe o sobrenome de
         Crisóstomo, boca de oiro. O povo de Constantinopla, ávido de ouvi-lo,
@@ -27,60 +27,60 @@ export default function Page0127() {
         da Transladação das suas relíquias sob Teodósio II em 438. Ouçamos com
         amor a palavra divina e coloquemo-lo no nosso coração, a fim de que a
         nossa vida seja o reflexo da vida de Deus.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/13doutores">
           Missa In médio Ecclésiae
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ecclésiam tuam, quǽsumus, Dómine, grátia cœléstis amplíficet: quam
           beáti Joánnis Chrysóstomi Confessóris tui atque Pontíficis illustráre
           voluísti gloriósis méritis et doctrínis. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos suplicamos, Senhor, que a graça celestial aumente a vossa Igreja,
           a qual quisestes ilustrar com os gloriosos méritos e ensinos do B.
           João Crisóstomo, vosso Confessor e Pontífice. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Ecl. 44, 16</Text>
+      <Typography className="em">Ecl. 44, 16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ecce sacérdos magnus, qui in diébus suis plácuit Deo.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 20</Text> Non est inventus símilis
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 20</Typography> Non est inventus símilis
           illi, qui conserváret legem Excélsi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eis o grande sacerdote que nos dias da sua vida agradou a Deus.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 20</Text> Ninguém o igualou na
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 20</Typography> Ninguém o igualou na
           observância das leis do Altíssimo.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Jac. 1, 12</Text> Beátus vir, qui suffert
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Jac. 1, 12</Typography> Beátus vir, qui suffert
           tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ.
           Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Tg. 1, 12</Text> Bem-aventurado o varão
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Tg. 1, 12</Typography> Bem-aventurado o varão
           que sofre com paciência a tentação, porque, quando acabar a provação,
           alcançará a coroa da vida. Aleluia.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

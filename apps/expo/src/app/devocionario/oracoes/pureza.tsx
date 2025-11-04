@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -6,7 +6,7 @@ export default function PagePureza() {
   return (
     <PageWrapper>
       <H1 text="Pureza" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Dulcíssimo Menino Jesus, Cordeiro imaculado, cheio de bondade,
         misericórdia e amor! Para nos restituirdes a santa inocência, vieste do
         céu à terra, sofrestes pobreza e perseguições. Eu Vos agradeço e Vos amo
@@ -17,7 +17,7 @@ export default function PagePureza() {
         contagiosa. Ó Jesus inocentíssimo e todo imaculado, pelo vosso amor e
         pela vossa inocência concedei-me a virtude da santa pureza, para que eu,
         depois da minha morte, tenha a felicidade de ver Vos no céu.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

@@ -1,15 +1,10 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useEffect, useState } from "react";
-import {
-  Platform,
-  Text,
-  TouchableOpacity,
-  useColorScheme,
-  View,
-} from "react-native";
+import { Platform, TouchableOpacity, useColorScheme, View } from "react-native";
 import { H6 } from "~/components/Headings";
 import { COLORS } from "~/constants/Colors";
+import { Typography } from "./typography";
 
 type Language = "latin" | "vernacular";
 
@@ -93,7 +88,7 @@ export const DefaultLanguageSelector = () => {
               : "bg-sepia-300 dark:bg-sepia-700"
           }`}
         >
-          <Text
+          <Typography
             className={`font-medium ${
               defaultLanguage === "vernacular"
                 ? "text-sepia-200 dark:text-sepia-800"
@@ -101,7 +96,7 @@ export const DefaultLanguageSelector = () => {
             }`}
           >
             Vernáculo
-          </Text>
+          </Typography>
         </TouchableOpacity>
         <TouchableOpacity
           onPress={() => saveDefaultLanguage("latin")}
@@ -111,7 +106,7 @@ export const DefaultLanguageSelector = () => {
               : "bg-sepia-300 dark:bg-sepia-700"
           }`}
         >
-          <Text
+          <Typography
             className={`font-medium ${
               defaultLanguage === "latin"
                 ? "text-sepia-200 dark:text-sepia-800"
@@ -119,7 +114,7 @@ export const DefaultLanguageSelector = () => {
             }`}
           >
             Latim
-          </Text>
+          </Typography>
         </TouchableOpacity>
       </View>
     </View>

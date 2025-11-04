@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0518() {
     <PageWrapper>
       <H1 text="S. Venâncio, Mártir, a 18 de Maio" />
 
-      <Text className="comment">
+      <Typography className="comment">
         A Igreja nesta parte do Ciclo de Páscoa, preocupada em glorificar a Deus
         pela vitória de seu Filho, «consagra o dia de hoje ao triunfo do
         bem-aventurado Mártir Venâncio»(Oração). «Permanecendo em Jesus e Jesus
@@ -21,59 +21,59 @@ export default function Page0518() {
         muitos se converteram. Foi decapitado cerca do ano 250. Seu corpo
         descansa em Camerino, na Igreja que lhe foi consagrada. «Honremos os
         méritos de São Venâncio e imitemos a constância de sua fé»(Oração).
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/9martir">
           Missa Protexísti me
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui hunc diem beáfi Venántii Martyris tui triúmpho consecrásti:
           exáudi preces pópuli tui et præsta: ut, qui ejus mérita venerámur,
           fídei constántiam imitémur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que consagrastes este dia com o triunfo do B. Venâncio, vosso
           Mártir, ouvi as preces do vosso povo, e permiti que, honrando os seus
           méritos, imitemos também a constância da sua fé. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hanc oblatiónem, omnípotens Deus, beáti Venántii mérita tibi reddant
           accéptam: ut, ipsíus subsidiis adjuti, glóriæ ejus consortes
           efficiámur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que esta oferta, ó Deus omnipotente, Vos seja agradável pelos méritos
           do B. Venâncio, a fim de que, assistidos com seu auxílio, nos tornemos
           participantes da sua glória. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Súmpsimus, Dómine, ætérnæ vitæ sacraménta, te humiliter deprecántes:
           ut, beáto Venántio Mártyre tuo pro nobis deprecánte, véniam nobis
           concílient et grátiam. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, havendo recebido os sacramentos da vida eterna, humildemente
           Vos suplicamos que as preces do B. Venâncio, vosso Mártir, nos
           alcancem o perdão e a graça. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

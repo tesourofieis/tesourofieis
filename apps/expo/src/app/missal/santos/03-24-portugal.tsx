@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -8,7 +8,7 @@ export default function Page0324Portugal() {
     <PageWrapper>
       <H1 text="Festa do Santíssimo Sacramento, a 24 de Março" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Em todoas as igrejas de Portugal é permitido, neste dia, celebrar em
         honra do Santíssimo Sacramento, a Missa, que será do
         <Link href="/missal/pentecostes/pent1-4">
@@ -16,7 +16,7 @@ export default function Page0324Portugal() {
           Santíssimo Corpo de Cristo{" "}
         </Link>
         com Glória e Credo.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

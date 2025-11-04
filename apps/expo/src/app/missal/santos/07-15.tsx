@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0715() {
     <PageWrapper>
       <H1 text="S. Henrique, Imperador e Confessor, a 15 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Henrique II, cognominado o Piedoso, foi rei da Baviera em 972, rei da
         Germânia em 1002, e Chefe do Império Romano de 1014 a 1024. Prestou a
         Bento VIII, que o havia sagrado, o juramento «de guardar-lhe, bem como
@@ -25,34 +25,34 @@ export default function Page0715() {
         de acordo com sua santa esposa Cunegundes, fazer a Jesus Cristo seu
         herdeiro. Fundou, com esse fim, o bispado de Bamberg deixando-lhe todos
         os seus bens. Foi inhumado nessa igreja, em 1024.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/14confessoresnaopontifices1">
           Missa Os justi
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui hodiérna die beátum Henrícum Confessórem tuum e terréni
           cúlmine impérii ad regnum ætérnum transtulísti: te súpplices exorámus;
           ut, sicut illum, grátiæ tuæ ubertáte prævéntum, illécebras sǽculi
           superáre fecísti, ita nos fácias, ejus imitatióne, mundi hujus
           blandiménta vitáre, et ad te puris méntibus perveníre. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus que neste dia fizestes passar o nosso confessor S. Henrique de
           um trono da terra ao reino dos céus, nós Vos pedimos humildemente,
           que, como preservando-o pela abundância de nossa graça Vós o fizestes
           triunfar dos atractivos do século, assim também fazei-nos, à sua
           imitação, evitar as seduções do mundo e chegar até a Vós com os
           corações puros. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

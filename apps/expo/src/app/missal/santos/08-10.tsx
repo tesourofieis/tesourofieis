@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -9,7 +9,7 @@ export default function Page0810() {
     <PageWrapper>
       <H1 text="S. Lourenço, a 10 de Agosto" />
 
-      <Text className="comment">
+      <Typography className="comment">
         A basilica de São Lourenço fora dos Muros, onde descansam os restos do
         glorioso diácono, é a quinta igreja patriarcal de Roma. Com S. João de
         Latrão, S. Pedro, Santa Maria Maior, e S. Paulo fora dos Muros, é uma
@@ -42,55 +42,55 @@ export default function Page0810() {
         em nós os ardores das nossas paixões, como concedeu a S. Lourenço que,
         provado pelo fogo, foi julgado puro (Grad.), para triunfar das chamas de
         seu cruel martírio (Or.).
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 95, 6</Text>
+      <Typography className="em">Sl. 95, 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Conféssio et pulchritúdo in conspéctu ejus: sánctitas et magnificéntia
-          in sanctificatióne ejus. <Text className="latin">Ps. ibid., 1</Text>{" "}
+          in sanctificatióne ejus. <Typography className="latin">Ps. ibid., 1</Typography>{" "}
           Cantáte Dómino cánticum novum: cantáte Dómino, omnis terra.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Rodeiam-no a glória e a majestade: e no seu santuário reluzem a
           santidade e a magnificência.{" "}
-          <Text className="vernacular">Sl. ibid., 1</Text> Cantai em honra do
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Cantai em honra do
           Senhor um hino novo: que toda a terra cante hinos ao Senhor.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Da nobis, quǽsumus, omnípotens Deus: vitiórum nostrorum flammas
           exstínguere; qui beáto Lauréntio tribuísti tormentórum suórum incéndia
           superáre. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, que permitistes que o B. Lourenço triunfasse das
           chamas do seu suplício, concedei-nos a graça, Vos suplicamos, de
           extinguirdes as chamas dos nossos vícios. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">2 Cor. 9, 6-10</Text>
+      <Typography className="em">2 Cor. 9, 6-10</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Qui parce séminat, parce et metet: et qui séminat in
           benedictiónibus, de benedictiónibus et metet. Unusquísque prout
           destinávit in corde suo, non ex tristítia aut ex necessitáte: hilárem
@@ -101,8 +101,8 @@ export default function Page0810() {
           admínistrat semen seminánti: et panem ad manducándum præstábit, et
           multiplicábit semen vestrum, et augébit increménta frugum justítiæ
           vestræ.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Aquele que semeia pouco, colherá pouco também; e aquele
           que semeia com abundância, colherá também com abundância. Que cada um
           dê segundo o que tiver resolvido no seu coração; mas não com tristeza,
@@ -115,34 +115,34 @@ export default function Page0810() {
           séculos». Com efeito, aquele que dá a semente ao semeador dar-vos-á
           também o pão para comida, multiplicará a vossa semente e dará
           incremento aos frutos da vossa justiça.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 16, 3</Text>
+      <Typography className="em">Sl. 16, 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Probásti, Dómine, cor meum, et visitásti nocte.
-          <Text className="versicle"> ℣. </Text>Igne me examinásti, et non est
+          <Typography className="versicle"> ℣. </Typography>Igne me examinásti, et non est
           invénta in me iníquitas.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Experimentastes o meu coração e visitaste-lo durante a noite.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Experimentastes-me com o fogo e não se encontrou em mim a iniquidade.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Levíta
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Levíta
           Lauréntius bonum opus operátus est: qui per signum crucis cœcos
           illuminávit. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>O Levita
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O Levita
           Lourenço praticou uma boa acção: pois restituiu a vista aos cegos com
           o sinal da Santa Cruz. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -154,64 +154,64 @@ export default function Page0810() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 95, 6</Text>
+      <Typography className="em">Sl. 95, 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Conféssio et pulchritúdo in conspéctu ejus: sánctitas, et
           magnificéntia in sanctificatióne ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Rodeiam-no a glória e a majestade: e no seu santuário reluzem a
           santidade e a magnificência.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Accipé, quǽsumus, Dómine, múnera dignánter obláta: et, beáti Lauréntii
           suffragántibus méritis, ad nostræ salútis auxílium proveníre concéde.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Recebei, Senhor, Vos suplicamos, os dons que reverentemente Vos
           oferecemos, e, pelo sufrágio dos méritos do B. Lourenço, permiti que
           nos sirvam de auxílio para a salvação. Por nosso Senhor Jesus
           Cristo...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 12, 26</Text>
+      <Typography className="em">Jo. 12, 26</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Qui mihi mínistrat, me sequátur: et ubi ego sum, illic et miníster
           meus erit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Se alguém me serve, siga-me; e onde eu estiver lá estará também o meu
           servo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacro múnere satiáti, súpplices te, Dómine, deprecámur: ut, quod
           débitæ servitútis celebrámus offício, intercedénte beáto Lauréntio
           Mártyre tuo, salvatiónis tuæ sentiámus augméntum. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Saciados com este sacrossanto dom, humildemente Vos rogamos pela
           intercessão do B. Lourenço, vosso Mártir, que, celebrando este ofício
           em reconhecimento da nossa escravidão, alcancemos cada vez mais os
           efeitos da vossa Redenção. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

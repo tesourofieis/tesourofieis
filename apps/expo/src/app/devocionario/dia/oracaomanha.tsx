@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ export default function PageOracaomanha() {
   return (
     <PageWrapper>
       <H1 text="Oração da Manhã" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Meu Senhor e meu Deus, humildemente Vos adoro em união com todos os
         Anjos e Santos. Eu Vos dou graças pelo vosso infinito amor,
         particularmente por me haverdes conservado com tanta bondade e
@@ -17,27 +17,27 @@ export default function PageOracaomanha() {
         preserveis do pecado, e me livreis de todo o mal. Que a graça do Senhor,
         nosso Deus, resplandeça a nossos olhos. Inspirai lá do vosso trono, as
         nossas obras, assim como o trabalho das nossas mãos.
-      </Text>
+      </Typography>
       <JamLucis />
       <H2 text="Oferecimento de si mesmo" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Tomai, Senhor, e recebei, toda minha liberdade, a minha memória, o meu
         entendimento e toda minha vontade. Tudo quanto tenho e possuo de Vós o
         recebi. Por isso a Vós, Senhor, o entrego e restituo para que disponhais
         de tudo segundo a vossa vontade. Concedei-me somente o vosso amor e a
         vossa graça que isto me basta, nem outra coisa desejo da vossa
         misericórdia infinita.
-      </Text>
+      </Typography>
       <H2 text="Consagração do dia" />
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dirigere et sanctificare, regere et gubernare dignare, Dómine Deus,
           Rex cæli et terræ, hodie corda et corpora nostra, sensus, sermones et
           actus nostros in lege tua et in operibus mandatorum tuórum, ut hic et
           in æternum, te auxiliante salvi et liberi esse mereámur, Salvator
           mundi, qui vivis et regnas in sǽcula sæculórum. Amen.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Senhor Deus, Rei do céu e da terra, dignai-Vos dirigir e santificar,
           mandar e governar os nossos corações e os nossos corpos, os nossos
           pensamentos, as nossas palavras e as nossas acções, segundo a vossa
@@ -45,21 +45,21 @@ export default function PageOracaomanha() {
           eternamente com vosso auxílio mereçamos alcançar a salvação e a
           liberdade, Ó Salvador do mundo, que viveis e reinais por todos os
           séculos dos séculos. Amen.
-        </Text>
+        </Typography>
       </Language>
       <H2 text="Consagração a Maria Santíssima" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó Senhora minha, ó minha Mãe, eu me ofereço todo a Vós. E em prova da
         minha devoção para convosco Vos consagro neste dia, os meus olhos, os
         meus ouvidos, a minha boca, o meu coração e todo meu ser. E porque assim
         sou vosso, ó incomparável Mãe, guardai-me e defendei-me como propriedade
         vossa.
-      </Text>
-      <Text className="vernacular">
+      </Typography>
+      <Typography className="vernacular">
         Que o Senhor nos abençoe, nos preserve de todo o mal e nos conduza até à
         vida eterna; e que as almas dos fiéis defuntos, pela misericórdia de
         Deus, descansem em paz. Amen.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

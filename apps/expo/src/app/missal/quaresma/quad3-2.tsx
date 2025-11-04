@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,47 +10,47 @@ export default function PageQuad32() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 16, 6 & 8</Text>
+      <Typography className="em">Sl. 16, 6 & 8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ego clamávi, quóniam exaudísti me, Deus: inclína aurem tuam, et exáudi
           verba mea: custódi me, Dómine, ut pupíllam óculi: sub umbra alárum
-          tuárum prótege me. <Text className="latin">Ps. ib., 1</Text> Exáudi,
+          tuárum prótege me. <Typography className="latin">Ps. ib., 1</Typography> Exáudi,
           Dómine, justítiam meam: inténde deprecatiónem meam.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Clamei por Vós, ó Deus, porque sei que me ouvireis: inclinai, pois,
           para mim os vossos ouvidos e escutai a minha prece, Senhor.
           Guardai-me, Senhor, como a pupila dos olhos: protegei-me sob as vossas
-          asas. <Text className="vernacular">Sl. ib., 1</Text> Ouvi, Senhor, a
+          asas. <Typography className="vernacular">Sl. ib., 1</Typography> Ouvi, Senhor, a
           minha súplica, que é justa: atendei à minha oração, que é muito
-          humilde.<Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          humilde.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exáudi nos, omnípotens et miséricors Deus: et continéntiæ salutáris
           propítius nobis dona concéde. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ouvi-nos, ó Deus omnipotente e misericordioso, e concedei-nos propício
           o dom da salutar continência. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">4 Rs. 4, 1-7</Text>
+      <Typography className="em">4 Rs. 4, 1-7</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Regum.</Text>
-        <Text className="vernacular">Lição do Livro dos Reis.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Regum.</Typography>
+        <Typography className="vernacular">Lição do Livro dos Reis.</Typography>
+        <Typography className="latin">
           In diébus illis: Múlier quædam clamábat ad Eliséum Prophétam, dicens:
           Servus tuus vir meus mórtuus est, et tu nosti, quia servus tuus fuit
           timens Dóminum: et ecce, créditor venit, ut tollat duos fílios meos ad
@@ -66,8 +66,8 @@ export default function PageQuad32() {
           Stetítque óleum. Venit autem illa, et indicávit hómini Dei. Et ille:
           Vade, inquit, vende oleum, et redde creditóri tuo: tu autem et fílii
           tui vívite de réliquo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, certa mulher dirigiu-se ao Profeta Eliseu, dizendo: «O
           teu servo, meu marido, morreu; e tu sabes que ele foi temente ao
           Senhor. Eis que vem agora um credor buscar os meus dois filhos para os
@@ -84,40 +84,40 @@ export default function PageQuad32() {
           vaso». Responderam: «Já não há». Logo o azeite deixou de correr. Então
           foi ela contar isto ao homem de Deus. Este disse-lhe: «Vai, vende o
           azeite, paga ao teu credor e viverás do restante com teus filhos».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 18,13-14</Text>
+      <Typography className="em">Sl. 18,13-14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ab occúltis meis munda me, Dómine: et ab aliénis parce servo tuo.
-          <Text className="versicle"> ℣. </Text>Si mei non fúerint domináti,
+          <Typography className="versicle"> ℣. </Typography>Si mei non fúerint domináti,
           tunc immaculátus ero: et emundábor a delícto máximo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Purificai-me dos meus delitos ocultos, Senhor: Perdoai ao vosso servo
           os delitos alheios. Se os meus delitos me não escravizarem, então
           serei perfeito: e ficarei purificado dos grandes delitos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt, 18, 15-22</Text>
+      <Typography className="em">Mt, 18, 15-22</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Si peccáverit in te
           frater tuus, vade, et córripe eum inter te et ipsum solum. Si te
           audíerit, lucrátus eris fratrem tuum. Si autem te non audíerit, ádhibe
@@ -132,8 +132,8 @@ export default function PageQuad32() {
           médio eórum. Tunc accédens Petrus ad eum, dixit: Dómine, quóties
           peccábit in me frater meus, et dimíttam ei? usque sépties? Dicit illi
           Jesus: Non dico tibi usque sépties, sed usque septuágies sépties.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Se o teu irmão pecar
           contra ti, vai e admoesta-o só, entre ti e ele. Se ele te ouvir, terás
           ganho o teu irmão. Se, porém, te não ouvir, leva contigo ainda uma ou
@@ -149,84 +149,84 @@ export default function PageQuad32() {
           «Senhor: se meu irmão pecar contra mim, quantas vezes lhe perdoarei?
           Até sete vezes?». Disse-lhe Jesus: «Não te digo até sete vezes, mas
           até setenta vezes sete vezes!».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 117, 16 & 17</Text>
+      <Typography className="em">Sl. 117, 16 & 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non
           móriar, sed vivam, et narrábo ópera Dómini.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A dextra do Senhor triunfou; a dextra do Senhor exaltou-me. Não
           morrerei; mas viverei e contarei as obras do Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Per hæc véniat, quǽsumus, Dómine, sacraménta nostræ redemptiónis
           efféctus: qui nos et ab humánis rétrahat semper excéssibus, et ad
           salutária dona perdúcat. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Permiti, Senhor, Vos suplicamos, que por estes sacramentos alcancemos
           o efeito da redenção, a fim de que, livrando-nos dos excessos próprios
           da natureza humana, obtenhamos a graça da salvação. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 14, 1-2</Text>
+      <Typography className="em">Sl. 14, 1-2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dómine, quis habitábit in tabernáculo tuo? aut quis requiéscet in
           monte sancto tuo? Qui ingréditur sine mácula, et operátur justítiam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, quem habitará no vosso tabernáculo? Quem repousará na vossa
           montanha sagrada? Aquele que não tiver manchas e proceder com justiça.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacris, Dómine, mystériis expiáti: et véniam, quǽsumus, consequámur et
           grátiam. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicamos, havendo nós sido purificados com estes
           sagrados mystérios, concedei-nos o perdão e a graça. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração sobre o povo" />
 
       <Language>
-        <Text className="latin">Humiliáte cápita vestra Deo.</Text>
-        <Text className="vernacular">
+        <Typography className="latin">Humiliáte cápita vestra Deo.</Typography>
+        <Typography className="vernacular">
           Inclinai as vossas cabeças diante de Deus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Tua nos, Dómine, protectióne defénde: et ab omni semper iniquitáte
           custódi. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Defendei-nos, Senhor, com vossa protecção e livrai-nos perpetuamente
           de todas as iniquidades. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

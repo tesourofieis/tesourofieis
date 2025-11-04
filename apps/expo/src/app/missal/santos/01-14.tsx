@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page0114() {
     <PageWrapper>
       <H1 text="S. Hilário, B. Conf. e Dr., a 14 de Janeiro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Depois de terem sido perseguidores da Igreja nos primeiros séculos, os
         imperadores cristãos, porém hereges, continuaram os seus ataques
         prestando apoio ao Arianismo que negava a divindade de Cristo. Neste
@@ -28,7 +28,7 @@ export default function Page0114() {
         concedeu-lhe, pela voz de Pio IX, o título de Doutro (Or.), morreu em
         368. Recorramos à intercessão de S. Hilário a fim de sermos sempre os
         intrépidos atletas da divindade de Cristo.
-      </Text>
+      </Typography>
       <Missa />
     </PageWrapper>
   );

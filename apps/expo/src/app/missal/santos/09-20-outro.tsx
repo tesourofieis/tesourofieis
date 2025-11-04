@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page0920Outro() {
     <PageWrapper>
       <H1 text="S. Eustáquio e Outros, Mártires, a 20 de Setembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Eustachio, chamado também Placido, era ilustre em Roma por seu
         nascimento, riquezas e valor militar. Certo dia, narra a legenda,
         perseguindo na caça um veado de tamanho prodigioso, o animal pára de
@@ -25,7 +25,7 @@ export default function Page0920Outro() {
         declara o Martyrologio, e consumaram o seu martírio por esse suplicio
         sob o imperador Adriano no anno 120. Santo Eustachio é um dos quatorze
         Santos Auxiliares.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

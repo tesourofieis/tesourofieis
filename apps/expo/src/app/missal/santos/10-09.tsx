@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -9,7 +9,7 @@ export default function Page1009() {
     <PageWrapper>
       <H1 text="S. João Leonardo, Conf., a 9 de Outubro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         S. Dionysio, primeiro bispo de Paris, acompanhado pelo sacerdote Rustico
         e pelo diácono Eleutherio, foi enviado, no século III, para Lutecia,
         onde, depois de ter exercido durante alguns anos a missão que lhe fora
@@ -24,62 +24,62 @@ export default function Page1009() {
         circunstâncias da conversão de S. Dionysio o Areopagita realizada por
         ocasião da passagem de S. Paulo pela Grécia na sua segunda viagem (v. p.
         808).
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Ecl. 42, 15-16</Text>
+      <Typography className="em">Ecl. 42, 15-16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In sermónibus Dómini ópera ejus: sol illúminans per ómnia respéxit, et
           glória Dómini plenum est opus ejus.{" "}
-          <Text className="latin">Ps. 95, 1</Text> Cantáte Dómino cánticum
+          <Typography className="latin">Ps. 95, 1</Typography> Cantáte Dómino cánticum
           novum: cantáte Dómino, omnis terra.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Pelas palavras do Senhor existem as suas obras. Assim como o sol
           resplandecente ilumina todas as coisas, assim as suas obras estão
           cheias da glória do Senhor.{" "}
-          <Text className="vernacular">Sl. 95, 1</Text> Cantai ao Senhor um
+          <Typography className="vernacular">Sl. 95, 1</Typography> Cantai ao Senhor um
           cântico novo: cantai ao Senhor, ó habitantes de toda a terra.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beátum Joánnem Confessórem tuum ad fidem in géntibus
           propagándam mirabíliter excitáre dignátus es, ac per eum in erudiéndis
           fidélibus novam in Ecclésia tua famíliam congregásti: da nobis fámulis
           tuis; ita ejus institútis profícere, ut prǽmia consequámur ætérna. Per
           Dominum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que pelo B. João, vosso Confessor, Vos dignastes animar de um
           modo admirável a propagação da fé entre os gentios, e por ele
           instituístes na vossa Igreja uma nova família para a instrução dos
           fiéis, concedei-nos a nós, vossos servos, que de tal maneira nos
           aproveitem os seus conselhos que alcancemos os prémios eternos. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">2 Cor. 4, 1-6 & 15-18</Text>
+      <Typography className="em">2 Cor. 4, 1-6 & 15-18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Lectio Epístolæ beati Pauli Apóstoli ad Corinthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Habéntes administratiónem juxta quod misericórdiam consecúti
           sumus, non defícimus, sed abdicámus occúlta dedécóris, non ambulántes
           in astútia, neque adulterántes verbum Dei, sed in manifestatióne
@@ -99,8 +99,8 @@ export default function Page1009() {
           glóriæ pondus operátur in nobis, non contemplántibus nobis quæ
           vidéntur, sed quæ non vidéntur. Quæ enim vidéntur, temporália sunt:
           quæ autem non vidéntur, ætérna sunt.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Pelo que, tendo nós tal ministério em virtude da
           misericórdia que alcançámos, não perdemos a coragem, antes renunciámos
           a coisas que a vergonha manda ocultar, não nos conduzindo com
@@ -124,38 +124,38 @@ export default function Page1009() {
           estado eterno de uma sublime e incomparável glória, não atendendo nós
           às coisas que se vêem, mas sim às que se não vêem, pois as coisas que
           se vêem são passageiras, e as que se não vêem são eternas.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 72, 21; 68, 10</Text>
+      <Typography className="em">Sl. 72, 21; 68, 10</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Inflammátum est cor meum, et renes mei commutáti sunt: zelus domus tuæ
-          comédit me.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Isai. 49, 2</Text> Pósuit os meum quasi
+          comédit me.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Isai. 49, 2</Typography> Pósuit os meum quasi
           gládium acutum: in umbra manus suæ protéxit me, et pósuit me sicut
           sagíttam eléctam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Inflamou-se o meu coração e comoveram-se as minhas entranhas: o zelo
-          da tua casa devorou-me.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Is. 49, 2</Text> O Senhor tornou a minha
+          da tua casa devorou-me.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Is. 49, 2</Typography> O Senhor tornou a minha
           boca como uma espada aguda: protegeu-me com a sombra da sua mão: e fez
           de mim como que uma seta escolhida.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 70, 7</Text> Tamquam prodígium factus sum
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 70, 7</Typography> Tamquam prodígium factus sum
           multis: et tu adjútor fortis, Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 70, 7</Text> Fui considerado por
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 70, 7</Typography> Fui considerado por
           muitos como um prodígio: tu és um poderoso auxiliar. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -167,63 +167,63 @@ export default function Page1009() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Col. 1, 25</Text>
+      <Typography className="em">Col. 1, 25</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Christi factus sum ego miníster secúndum dispensatiónem Dei, quæ data
           est mihi, ut ímpleam verbum Dómini.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eu fui constituído ministro de Cristo, segundo o cargo que Deus me deu
           junto de vós, para que se cumpra a palavra do Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Súscipe, Dómine, oblatiónem mundam salutáris hóstiæ: et præsta; ut,
           intercedénte beáto Joánne Confessóre tuo, úbique géntium júgiter
           offerátur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Recebei, Senhor, a oblação pura da hóstia salutar; e concedei-nos por
           intercessão do B. João, vosso Confessor, que ela seja oferecida
           constantemente em todos os povos da terra. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Fl. 3, 7</Text>
+      <Typography className="em">Fl. 3, 7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quæ mihi fúerunt lucra, hæc arbitrátus sum propter Christum
           detriménta.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aquelas coisas que reputava como lucro, considerei-as depois, por amor
           de Cristo, como prejudiciais.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Pretiósi córporis, et sánguinis tui sacris refécti mystériis, Dómine,
           adprecámur: ut beáti Joánnis Confessóris tui exémplo, studeámus
           confitéri quod crédidit, et ópere exercére quod dócuit: Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Alimentados, Senhor, com os sacrossantos mystérios do vosso precioso
           Corpo e Sangue, Vos rogamos instantemente que com o exemplo do B.
           João, vosso Confessor, procuremos confessar o que ele acreditou e
           praticar com nossas obras o que ele ensinou. Ó Vós, que...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

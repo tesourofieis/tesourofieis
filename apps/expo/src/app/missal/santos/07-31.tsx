@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -9,7 +9,7 @@ export default function Page0731() {
     <PageWrapper>
       <H1 text="S. Inácio de Loiola, a 31 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Inácio, nasceu na Espanha do Norte, em 1491. Era o décimo primeiro filho
         do senhor de Loiola e entrou, aos quinze anos, como pagem na corte do
         rei Fernando V. Dotado de temperamento ardente e belicoso, a carreira
@@ -78,46 +78,46 @@ export default function Page0731() {
         nos santifiquem na verdade (Secr.), de modo a podermos, ajudados pelo
         socorro e exemplos do Santo, combater na terra, a fim de sermos com ele
         coroados no céu (Or.).
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Fl. 2, 10-11</Text>
+      <Typography className="em">Fl. 2, 10-11</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In nómine Jesu omne genu fléctitur, cœléstium, terréstrium et
           infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus
-          in glória est Dei Patris. <Text className="latin">Ps. 5, 12-13</Text>{" "}
+          in glória est Dei Patris. <Typography className="latin">Ps. 5, 12-13</Typography>{" "}
           Gloriabúntur in te omnes, qui díligunt nomen tuum: quóniam tu
           benedíces justo.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Que ao ser pronunciado o nome de Jesus se dobrem todos os joelhos dos
           que estão no céu, na terra e no inferno: e que toda a língua humana
           confesse que o Senhor Jesus Cristo está na glória de Deus Pai.{" "}
-          <Text className="vernacular">Sl. 5, 12-13</Text> Em Vós serão
+          <Typography className="vernacular">Sl. 5, 12-13</Typography> Em Vós serão
           glorificados todos aqueles que amam o vosso nome, pois abençoais o
-          justo.<Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          justo.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui ad majórem tui nóminis glóriam propagándam, novo per beátum
           Ignátium subsídio militántem Ecclésiam roborásti: concéde; ut, ejus
           auxílio et imitatióne certántes in terris, coronári cum ipso mereámur
           in cœlis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que, para a propagação da maior glória do vosso nome
           fortalecestes a vossa Igreja militante com um novo subsídio pelo B.
           Inácio, permiti que, combatendo nós na terra, como ele e com seu
           auxílio, mereçamos ser coroados com ele nos céus. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
@@ -143,63 +143,63 @@ export default function Page0731() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 88, 25</Text>
+      <Typography className="em">Sl. 88, 25</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur
           cornu ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A minha fidelidade e a minha misericórdia estarão com eles, e por
           virtude do meu nome será exaltado o seu poder.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Adsint, Dómine Deus, oblatiónibus nostris sancti Ignátii benígna
           suffrágia: ut sacrosáncta mystéria, in quibus omnis sanctitátis fontem
           constituísti, nos quoque in veritáte sanctíficet. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que a benigna intercessão de santo Inácio acompanhe as nossas oblatas,
           ó Senhor, nosso Deus, a fim de que os sacrossantos mystérios, de que
           fazeis depender a origem de toda a santidade, nos alcancem a
           verdadeira santificação. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Lc. 12, 49</Text>
+      <Typography className="em">Lc. 12, 49</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ignem veni míttere in terram: et quid volo, nisi ut accendátur?
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eu vim trazer o fogo à terra: e que quero senão que ele se acenda?
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Laudis hóstia, Dómine, quam pro sancto Ignátio grátias agentes
           obtúlimus: ad perpétuam nos majestátis tuæ laudatiónem, ejus
           intercessióne, pérducat. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, que este sacrifício de louvor, que Vos é oferecido em acção de
           graças em honra de Santo Inácio, nos alcance por sua intercessão o
           céu, onde a vossa majestade recebe perpétuo louvor. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

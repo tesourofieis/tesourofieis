@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -7,26 +7,26 @@ export default function PagePortugaldominios() {
     <PageWrapper>
       <H1 text="Para Portugal e seus Domínios" />
       <H3 text="Colecta" />
-      <Text className="aside">
+      <Typography className="aside">
         Por Determinação da Sagrada Congregação dos Ritos (19 de Maio de 1952)
         em todas as Missas, excepto nas de Réquiem, a seguir à última Oração, à
         última Secreta e ao último Postcomúnio.
-      </Text>
-      <Text className="vernacular">
+      </Typography>
+      <Typography className="vernacular">
         E livrai de todas as adversidades no ar, na terra e no mar os vossos
         servos: o nosso Papa
-        <Text className="text-red-500">N.</Text> o nosso Patriarca{" "}
-        <Text className="text-red-500">N.</Text> (Arcebispo{" "}
-        <Text className="text-red-500">N.</Text> ou Bispo{" "}
-        <Text className="text-red-500">N.</Text>) , o nosso Presidente e os
+        <Typography className="text-red-500">N.</Typography> o nosso Patriarca{" "}
+        <Typography className="text-red-500">N.</Typography> (Arcebispo{" "}
+        <Typography className="text-red-500">N.</Typography> ou Bispo{" "}
+        <Typography className="text-red-500">N.</Typography>) , o nosso Presidente e os
         nossos Governantes, assim como o povo que lhes foi confiado e o seu
         exército; concedei a paz e a prosperidade aos nossos tempos e afastai da
         nossa Igreja toda a maldade, destruindo a soberba dos pagãos e dos
         hereges com o poder da vossa dextra. (Por nosso Senhor... ou Pelo mesmo
         nosso Senhor segundo a conclusão da Oração, da Secreta ou do Postcomúnio
         a que fica acrescentada) ADVERTÊNCIAS:
-      </Text>
-      <Text className="aside">
+      </Typography>
+      <Typography className="aside">
         Se a Missa tiver uma única Oração, dir-se-á esta Colecta imediatamente à
         Oração e sob a mesma e única conclusão; o mesmo quanto à Secreta e
         Postcomúnio. Quando na Missa se recitar a Oração «Pelo Papa»,
@@ -38,7 +38,7 @@ export default function PagePortugaldominios() {
         toda a maldade». Quando se diz a Oração «Pela Paz», omitem-se as
         Palavras: «concedei a paz e a prosperidade aos nossos tempos». Nas
         Secretas e Postcomúnios não há alteração.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page0118() {
     <PageWrapper>
       <H1 text="Missa Votiva da Cadeira de S. Pedro em Roma, a 18 de Janeiro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         A manifestação da divindade de Jesus, que caracteriza o Tempo depois da
         Epifania, leva-nos ao reconhecimento de sua realeza sobre as nossas
         almas. Cristo é o chefe da Igreja. Devendo, porém, um dia, tornar a
@@ -33,7 +33,7 @@ export default function Page0118() {
         primeiro bispo de Roma. Rezemos hoje pelo Papa, sucessor de S. Pedro,
         suplicando que el possa exercer os poderes divinos que lhe foram
         comunicados por Jesus, Filho de Deus.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

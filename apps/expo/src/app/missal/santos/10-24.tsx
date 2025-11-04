@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -9,7 +9,7 @@ export default function Page1024() {
     <PageWrapper>
       <H1 text="Arcanjo Rafael, a 24 de Outubro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         São Raphael é um dos sete espíritos que estão sempre ante o trono de
         Deus (Ant. do Magnificat), oferecendo lhe o incenso de sua adoração a
         dos homens (Off.). «Quando tu oravas com lágrimas, declara ele a Tobias,
@@ -32,7 +32,7 @@ export default function Page1024() {
         fim de curar todas as doenças e dirigir para a verdadeira vida nossos
         passos incertos (Hymno de Laudes). Bento XV estendeu a sua festa á
         Igreja universal.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
@@ -44,27 +44,27 @@ export default function Page1024() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beátum Raphǽlem Archángelum Tobíæ fámulo tuo cómitem dedísti
           in via: concéde nobis fámulis tuis; ut ejúsdem semper protegámur
           custódia et muniámur auxílio. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que designastes o Arcanjo Rafael para guia do vosso servo
           Tobias, concedei-nos a nós, que somos vossos servos, a graça de sermos
           sempre protegidos por ele e fortalecidos com seu auxílio. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Tb. 12, 7-15</Text>
+      <Typography className="em">Tb. 12, 7-15</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Tobíæ.</Text>
-        <Text className="vernacular">Lição do Livro de Tobias.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Tobíæ.</Typography>
+        <Typography className="vernacular">Lição do Livro de Tobias.</Typography>
+        <Typography className="latin">
           In diébus illis: Dixit Angelus Ráphaël ad Tobíam: Sacraméntum regis
           abscóndere bonum est: ópera autem Dei reveláre et confitéri
           honoríficum est. Bona est orátio cum jejúnio, et eleemósyna magis quam
@@ -79,8 +79,8 @@ export default function Page1024() {
           misit me Dóminus, ut curárem te, et Saram uxórem fílii tui a dæmónio
           liberárem. Ego enim sum Raphaël Angelus, unus ex septem, qui astámus
           ante Dóminum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, disse o Anjo Rafael a Tobias: «É bom ocultar o segredo
           de um rei, mas é honroso descobrir e publicar as obras de Deus. A
           oração, acompanhada com o jejum e com a esmola, vale mais do que os
@@ -95,54 +95,54 @@ export default function Page1024() {
           Mas logo o Senhor me mandou para vos curar e para do demónio livrar
           Sara, mulher do vosso filho. Pois sou o Anjo Rafael, um dos sete que
           estão sempre presentes, diante do Senhor».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Tb. 8, 3</Text>
+      <Typography className="em">Tb. 8, 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Angelus Dómini Raphaël apprehéndit et ligávit dǽmonem.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 146, 5</Text> Magnus Dóminus noster, et
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 146, 5</Typography> Magnus Dóminus noster, et
           magna virtus ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Rafael, o Anjo do Senhor, dominou o demónio e amarrou-o.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 146, 5</Text> Grande é o Senhor,
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 146, 5</Typography> Grande é o Senhor,
           nosso Deus; grande é o seu poder.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 137, 1-2</Text> In conspéctu Angelórum
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 137, 1-2</Typography> In conspéctu Angelórum
           psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini
           tuo, Dómine. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 137, 1-2</Text> Cantarei Salmos na
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 137, 1-2</Typography> Cantarei Salmos na
           presença dos Anjos; adorar-Vos-ei no vosso santo templo e glorificarei
           o vosso santo nome, ó Senhor. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 5, 1-4</Text>
+      <Typography className="em">Jo. 5, 1-4</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Erat dies festus Judæórum, et ascéndit Jesus
           Jerosólymam. Est autem Jerosólymis Probática piscína, quæ cognominátur
           hebráice Bethsaida, quinque pórticus habens. In his jacébat multitúdo
@@ -150,8 +150,8 @@ export default function Page1024() {
           motum. Angelus autem Dómini descendébat secúndum tempus in piscínam,
           et movebátur aqua. Et, qui prior descendísset in piscínam post
           motiónem aquæ, sanus fiebat, a quacúmque detinebátur infirmitáte.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, sendo o dia da festa dos judeus, Jesus subiu até
           Jerusalém. Ora há perto de Jerusalém uma piscina que se chama em
           hebreu Betsaida, e tem cinco alpendres, debaixo dos quais costumava
@@ -160,70 +160,70 @@ export default function Page1024() {
           tempos a tempos à piscina, revolvia a água e o primeiro que descia à
           piscina, depois do movimento da água, ficava curado de qualquer
           enfermidade.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Ap. 8,3 & 4</Text>
+      <Typography className="em">Ap. 8,3 & 4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Stetit Angelus juxta aram templi, habens thuríbulum áureum in manu
           sua, et data sunt ei incénsa multa: et ascéndit fumus aromátum in
           conspéctu Dei.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Junto ao altar, no templo, estava de pé um Anjo, tendo na mão um
           turíbulo de ouro: e deitaram-lhe muito incenso, subindo o fumo dos
           perfumes à presença de Deus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hóstias tibi, Dómine, laudis offérimus, supplíciter deprecántes: ut
           eásdem, angélico pro nobis interveniénte suffrágio, et placátus
           accípias, et ad salútem nostram proveníre concédas. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos oferecemos estas hóstias de louvor, suplicando-Vos
           humildemente que, por intercessão do santo Anjo, as aceiteis propício
           e nos concedais que sejam úteis à nossa salvação. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Dn. 3, 58</Text>
+      <Typography className="em">Dn. 3, 58</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Benedícite, omnes Angeli Dómini, Dóminum: hymnum dícite et
           superexaltáte eum in sǽcula.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Anjos do Senhor, bendizei todos o Senhor: cantai hinos em seu louvor e
           exaltai-O em todos os séculos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dirigere dignáre, Dómine Deus, in adjutórium nostrum sanctum Raphǽlem
           Archángelum: et, quem tuæ majestáti semper assístere crédimus, tibi
           nostras exíguas preces benedicéndas assígnet. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Senhor, nosso Deus, dignai-Vos mandar para nosso guarda o santo
           Arcanjo Rafael; e que as nossas humildes preces Vos sejam apresentadas
           para serem abençoadas por aquele que sabemos estar sempre na presença
           de vossa majestade. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

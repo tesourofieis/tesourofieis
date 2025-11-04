@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,12 +8,12 @@ export default function PageApostolos() {
     <PageWrapper>
       <H1 text="Prefácio dos Apóstolos" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Diz-se nas Festas dos Apóstolos e Evangelistas.
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vere dignum et justum est, æquum et salutáre: Te, Dómine, supplíciter
           exoráre, ut gregem tuum, Pastor ætérne, non déseras: sed per beátos
           Apóstolos tuos contínua protectióne custódias. Ut iísdem rectóribus
@@ -21,8 +21,8 @@ export default function PageApostolos() {
           pastóres. Et ídeo cum Angelis et Archángelis, cum Thronis et
           Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ
           tuæ cánimus, sine fine dicéntes:
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           É verdadeiramente digno e justo, racional e salutar suplicar-Vos
           humildemente, Senhor, que, como Pastor eterno, que sois, não
           abandoneis o vosso rebanho, mas antes, por intercessão dos vossos
@@ -32,7 +32,7 @@ export default function PageApostolos() {
           Pastores. E, por isso, com os Anjos e Arcanjos, com os Tronos e
           Dominações e com toda a milícia do exército celestial, cantamos um
           hino à vossa glória, dizendo incessantemente:
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

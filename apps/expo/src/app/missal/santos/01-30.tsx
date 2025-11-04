@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page0130() {
     <PageWrapper>
       <H1 text="Santa Martinha, Virgem e Márt., a 30 de Janeiro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Honramos hoje uma virgem que, pela sua constância no meio dos mais
         atrozes suplícios, prestou pública homenagem à divindade do Cristo seu
         Esposo (Ev.). «Sou cristã, declara aos carrascos, e confesso a Jesus
@@ -21,7 +21,7 @@ export default function Page0130() {
         repousam no antigo templo de Marte, nome evocando o rei da guerra,
         transformado em igreja que tomou o nome dessa virgem. Armemo-nos, para
         defender a divindade de Jesus, com o amor à pureza.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

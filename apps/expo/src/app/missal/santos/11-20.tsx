@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page1120() {
     <PageWrapper>
       <H1 text="S. Félix de Valois, Conf., a 20 de Novembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         São Felix de Valois, sustentado por Deus, instituiu, com São João da
         Matha, a Ordem dos Trinitários para o resgate dos cativos. Felix
         pertencia à familia real de França; distinguiu-se desde a infância por
@@ -24,32 +24,32 @@ export default function Page1120() {
         liberalidades. O senhor de Chatillon deu-lhes um lugar chamado Cerfroi,
         onde eles fundaram o mosteiro que foi o principal de sua Ordem. São
         Felix entregou a alma a Deus no ano de 1212.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link href="/missal/comum/15confessoresnaopontifices2">
           Missa Justus ut palma,
         </Link>
         excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beátum Felicem Confessórem tuum ex eremo ad munus rediméndi
           captívos cœlitus vocáre dignátus es: præsta, quǽsumus; ut per grátiam
           tuam ex peccatórum nostrórum captivitáte, ejus intercessióne,
           liberáti, ad cœléstem pátriam perducámur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que, de um modo celestial, ao B. Félix, vosso Confessor, Vos
           dignastes chamar da solidão do deserto para a missão de remir os
           cativos, concedei-nos, Vos rogamos, que, sendo nós pela sua
           intercessão e pela vossa graça, livres do cativeiro dos nosso pecados,
           alcancemos a pátria celestial. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

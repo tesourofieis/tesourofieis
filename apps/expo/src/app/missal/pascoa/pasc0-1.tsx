@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,49 +10,49 @@ export default function PagePasc01() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Ex. 13, 5 & 9</Text>
+      <Typography className="em">Ex. 13, 5 & 9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Introdúxit vos Dóminus in terram fluéntem lac et mel, allelúja: et ut
           lex Dómini semper sit in ore vestro, allelúja, allelúja.{" "}
-          <Text className="latin">Ps. 104, 1</Text> Confitémini Dómino et
+          <Typography className="latin">Ps. 104, 1</Typography> Confitémini Dómino et
           invocáte nomen ejus: annuntiáte inter gentes ópera ejus.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           O Senhor vos introduziu em um país onde correm leite e mel, aleluia:
           para que a Lei do Senhor esteja sempre na vossa boca, aleluia,
-          aleluia. <Text className="vernacular">Sl. 104, 1</Text> Louvai o
+          aleluia. <Typography className="vernacular">Sl. 104, 1</Typography> Louvai o
           Senhor, invocai o seu nome e anunciai as suas obras em todos os povos.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui sollemnitáte pascháli, mundo remédia contulísti: pópulum
           tuum, quǽsumus, cœlésti dono proséquere; ut et perféctam libertátem
           consequi mereátur, et ad vitam profíciat sempitérnam. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que nesta solenidade pascal trouxestes ao mundo os remédios
           eficazes, continuai a espalhar, Vos suplicamos, os dons celestiais
           sobre o vosso povo, para que mereça alcançar a perfeita liberdade e
           consiga a vida eterna. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Act. 10, 37-43</Text>
+      <Typography className="em">Act. 10, 37-43</Typography>
 
       <Language>
-        <Text className="latin">Léctio Actuum Apostólorum.</Text>
-        <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Actuum Apostólorum.</Typography>
+        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="latin">
           In diébus illis: Stans Petrus in médio plebis, dixit: Viri fratres,
           vos scitis, quod factum est verbum per universam Judǽam: incípiens
           enim a Galilǽa, post baptísmum, quod prædicávit Joánnes, Jesum a
@@ -67,8 +67,8 @@ export default function PagePasc01() {
           Deo judex vivórum et mortuórum. Huic omnes Prophétæ testimónium
           pérhibent, remissiónem peccatórum accípere per nomen ejus omnes, qui
           credunt in eum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, estando Pedro no meio do povo, disse: «Meus irmãos:
           Sabeis o que se passou em toda a Judeia, a começar pela Galileia, a
           respeito de Jesus de Nazaré, desde, o baptismo, que João pregou; como
@@ -84,50 +84,50 @@ export default function PagePasc01() {
           mortos. É a Ele que todos os Profetas se referem quando testemunham:
           «que todos os que acreditaram n’Ele alcançarão em virtude do seu nome
           a remissão de seus pecados».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 117, 24 & 2</Text>
+      <Typography className="em">Sl. 117, 24 & 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Dicat nunc Israël, quóniam bonus: quóniam in sǽculum misericórdia
           ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eis o dia que o -Senhor fez: exultemos e alegremo-nos nele. Diga,
           agora, Israel: Deus é bom; a sua misericórdia é eterna.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Matth. 28, 2</Text> Angelus Dómini descéndit
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Matth. 28, 2</Typography> Angelus Dómini descéndit
           de cœlo: et accédens revólvit lápidem, et sedébat super eum.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Mt. 28, 2</Text> Um anjo do Senhor desceu
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Mt. 28, 2</Typography> Um anjo do Senhor desceu
           do céu, e, chegando-se, revolveu a pedra e assentou-se sobre ela.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 24, 13-35</Text>
+      <Typography className="em">Lc. 24, 13-35</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Duo ex discípulis Jesu ibant ipsa die in castéllum,
           quod erat in spátio stadiórum sexagínta ab Jerúsalem, nómine Emmaus.
           Et ipsi loquebántur ad ínvicem de his ómnibus, quæ accíderant. Et
@@ -162,8 +162,8 @@ export default function PagePasc01() {
           eos, qui cum illis erant, dicéntes: Quod surréxit Dóminus vere, et
           appáruit Simóni. Et ipsi narrábant, quæ gesta erant in via: et quómodo
           cognovérunt eum in fractióne panis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, iam dois discípulos, naquele mesmo dia, para uma aldeia
           chamada Emaús, distante de Jerusalém sessenta estádios, os quais iam
           conversando nas coisas que haviam sucedido. Ora aconteceu que,
@@ -202,39 +202,39 @@ export default function PagePasc01() {
           lhes disseram: «O Senhor ressuscitou, verdadeiramente; já apareceu a
           Simão». E eles contaram o que se havia passado no caminho e, como O
           tinham reconhecido pela fracção do pão.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Mt. 28, 2, 5 & 6</Text>
+      <Typography className="em">Mt. 28, 2, 5 & 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Angelus Dómini descéndit de cœlo, et dixit muliéribus: Quem quǽritis,
           surréxit, sicut dixit, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Um Anjo do Senhor desceu do céu e disse às mulheres: «Aquele a quem
           buscais ressuscitou, como Ele havia dito», aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta e Postcomúnio" />
 
-      <Text className="aside">Como no dia precedente</Text>
+      <Typography className="aside">Como no dia precedente</Typography>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Lc. 24, 34</Text>
+      <Typography className="em">Lc. 24, 34</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Surréxit Dóminus, et appáruit Petro, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ressuscitou o Senhor e apareceu a Pedro, aleluia.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -8,7 +8,7 @@ export default function Page1011() {
   return (
     <PageWrapper>
       <H1 text="Maternidade da B. Virgem Maria, a 11 de Outubro" />
-      <Text className="comment">
+      <Typography className="comment">
         O mundo exalta a maternidade celebrando a festa das mães. E a Igreja nos
         manda honrar a maternidade virginal ou a virgindade maternal daquela que
         é a Mãe por excelência e o modelo de todas as mães. Mãe de Jesus porque
@@ -29,43 +29,43 @@ export default function Page1011() {
         todos é nossa mãe; mãe espiritual, sem dúvida, mas verdadeiramente mãe
         dos membros de Cristo e nós mesmos somos seus membros. (Ad diem illum.,
         22 fev. de 1914).
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Is. 7, 14</Text>
+      <Typography className="em">Is. 7, 14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ecce Virgo concípiet, et páriet fílium, et vocábitur nomen ejus
-          Emmánuel. <Text className="latin">Ps. 97, 1</Text> Cantáte Dómino
+          Emmánuel. <Typography className="latin">Ps. 97, 1</Typography> Cantáte Dómino
           cánticum novum: quia mirabília fecit.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Eis que a virgem conceberá e dará à luz um Filho, cujo nome será
-          Emanuel. <Text className="vernacular">Sl. 97, 1</Text> Cantai ao
+          Emanuel. <Typography className="vernacular">Sl. 97, 1</Typography> Cantai ao
           Senhor um cântico novo, porque Ele praticou maravilhas.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo nuntiánte,
           carnem suscípere voluísti: præsta supplícibus tuis; ut, qui vere eam
           Genitrícem Dei crédimus, ejus apud te intercessiónibus adjuvémur. Per
           eumdem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que segundo a anunciação do Anjo quisestes que o vosso Verbo
           assumisse a carne humana no seio da B. Virgem Maria, concedei-nos, Vos
           suplicamos, que, assim como acreditamos que ela é verdadeira Mãe de
           Deus, assim sejamos auxiliados na vossa presença com a intercessão das
           suas preces. Pelo mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
@@ -77,45 +77,45 @@ export default function Page1011() {
 
       <H3 text="Gradual" />
 
-      <Text className="em">Is. 11, 1-2</Text>
+      <Typography className="em">Is. 11, 1-2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Egrediétur virga de rádice Jesse, et flos de rádice ejus ascéndet.
-          <Text className="versicle"> ℣. </Text>Et requiéscet super eum Spíritus
+          <Typography className="versicle"> ℣. </Typography>Et requiéscet super eum Spíritus
           Dómini.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Sairá uma vara do tronco de Jessé e uma flor brotará da sua raiz.
-          <Text className="versicle"> ℣. </Text>E o espírito do Senhor repousará
+          <Typography className="versicle"> ℣. </Typography>E o espírito do Senhor repousará
           sobre ela.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Virgo Dei
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Virgo Dei
           Génitrix, quem totus non capit orbis, in tua se clausit víscera factus
           homo. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Ó Virgem,
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Ó Virgem,
           Aquele que todo o mundo não é capaz de conter, quando se fez homem,
           esteve encerrado no vosso seio. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 2, 43-51</Text>
+      <Typography className="em">Lc. 2, 43-51</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Cum redírent, remánsit puer Jesus in Jerúsalem, et
           non cognovérunt paréntes ejus. Existimántes autem illum esse in
           comitátu, venérunt iter diei, et requirébant eum inter cognátos, et
@@ -129,8 +129,8 @@ export default function Page1011() {
           quæ Patris mei sunt, opórtet me esse. Et ipsi non intellexérunt
           verbum, quod locútus est ad eos. Et descéndit cum eis, et venit
           Názareth: et erat súbditus illis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, quando voltaram para casa, ficou o Menino Jesus em
           Jerusalém, sem que de tal seus pais se apercebessem. Pensando que Ele
           viria com seus companheiros de jornada, fizeram um dia de viagem,
@@ -145,64 +145,64 @@ export default function Page1011() {
           sabeis que é preciso que me ocupe das coisas de meu Pai?». Porém, eles
           não compreenderam o que Jesus lhes disse. Então desceu com eles, veio
           para Nazaré e era-lhes obediente.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Mt. 1, 18</Text>
+      <Typography className="em">Mt. 1, 18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cum esset desponsáta mater ejus María Joseph, invénta est in útero
           habens de Spíritu Sancto.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Estando Maria, sua Mãe, desposada com José, achou este que ela havia
           concebido do Espírito Santo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis, Unigéniti
           tui matris intercessióne, ad perpétuam atque præséntem hæc oblátio
           nobis profíciat prosperitátem, et pacem. Per eumdem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Pela vossa misericórdia, Senhor, e pela intercessão da B. Maria,
           sempre Virgem, fazei que esta oferta nos assegure agora e sempre a
           prosperidade e a paz. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris Fílium.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bem-aventuradas as entranhas da Virgem Maria, que trouxeram encerrado
           o Filho do Pai Eterno.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáta
           Vírgine Dei Genitríce María, cœléstis remédii fáciat esse consórtes.
           Per eumdem...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que esta comunhão, Senhor, nos purifique de nossos crimes e que por
           intercessão da B. Virgem Maria, Mãe de Deus, nos torne participantes
           do remédio celestial. Pelo mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

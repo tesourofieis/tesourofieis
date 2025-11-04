@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -11,55 +11,55 @@ export default function Page20Sacerdote() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Omnípotens et miséricors Deus, humilitátis meæ preces benígnus
           inténde: ei me fámulum tuum, quem, nullis suffragántibus méritis, sed
           imménsa cleméntiæ tuæ largitáte cœléstibus mystériis servíre
           tribuísti, dignum sacris altáribus fac minístrum; ut, quod mea voce
           deprómitur, tua sanctificatióne firmétur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Omnipotente e misericordioso Deus, atendei benigno às preces que
           humildemente Vos dirijo, e tornai digno ministro dos vossos altares
           sagrados este vosso servo (que elevastes ao ministério dos dons
           celestes, não pelos seus próprios méritos, mas pela vossa imensa
           clemência), a fim de que as palavras que saem da minha boca sejam por
           Vós confirmadas e santificadas. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hujus, Dómine, virtúte sacraménti, peccatórum meórum máculas abstérge:
           et præsta; ut, ad exsequéndum injúncti officii ministérium, me tua
           grátia dignum effíciat. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, pela virtude deste mystério, purificai-me das máculas dos meus
           pecados; e, Vos suplico insistenternente, pela vossa graça, tornai-me
           digno das sagradas funções do ministério que me foi imposto. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Omnípotens sempitérne Deus, qui me peccatórem sacris altáribus astáre
           voluísti, et sancti nóminis tui laudáre poténtiam: concéde propítius,
           per hujus sacraménti mystérium, meórum mihi véniam peccatórum; ut tuæ
           majestáti digne mérear famulári. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deus omnipotente e sempiterno, que destinastes este indigno pecador
           para servir os vossos sacrossantos altares e louvar a majestade do
           vosso santo nome, concedei-me misericordiosa-mente, pelo ministério
           deste sacrifício, a remissão dos meus pecados, para que possa
           dignamente servir a vossa majestade. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

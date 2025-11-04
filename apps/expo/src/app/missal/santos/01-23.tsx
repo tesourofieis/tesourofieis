@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0123() {
     <PageWrapper>
       <H1 text="S. Raimundo de Penhafort, a 23 de Janeiro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         S. Raimundo nasceu em 1175 da nobre família de Penhafort, na Espanha.
         Foi por sua doutrina e milagres, que o Cristo se mostrou Filho de Deus:
         Hoje, pela ciência e pelos milagres de S. Raimundo, é o que a Igreja nos
@@ -31,32 +31,32 @@ export default function Page0123() {
         insigne ministro do sacramento da penitência e atravessou milagrosamente
         o mar, façamos dignos frutos de penitência para chegarmos ao porto da
         salvação eterna (Or.).
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/16abades">
           Missa Os justi
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beátum Raymúndum pœniténtiæ sacraménti insígnem minístrum
           elegísti, et per maris undas mirabíliter traduxísti: concéde; ut ejus
           intercessióne dignos pœniténtiæ fructus fácere, et ad ætérnæ salútis
           portum perveníre valeámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que Vos dignastes escolher o B. Raimundo para o tornar em um
           insigne ministro do sacramento da penitência e que milagrosamente o
           fizestes atravessar as águas do mar, concedei-nos que por sua
           intercessão «façamos frutos dignos de penitência» e possamos chegar ao
           porto da salvação eterna. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

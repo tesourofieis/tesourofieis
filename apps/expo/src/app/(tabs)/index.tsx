@@ -1,8 +1,9 @@
+import { Typography } from "~/components/typography";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { format } from "date-fns";
 import { pt } from "date-fns/locale";
 import { useRouter } from "expo-router";
-import { Pressable, Text, useColorScheme, View } from "react-native";
+import { Pressable, useColorScheme, View } from "react-native";
 import { burgundy } from "config";
 import ExternalLinks from "~/components/External";
 import { H1 } from "~/components/Headings";
@@ -35,19 +36,19 @@ export default function PageRender() {
   return (
     <PageWrapper>
       <View className="bg-sepia-300 dark:bg-sepia-700">
-        <Text className="font-serif text-sm p-3 text-center text-sepia">
+        <Typography className="font-serif text-sm p-3 text-center text-sepia">
           Em Portugal se conservará sempre o dogma da fé - Nossa Senhora de
           Fátima
-        </Text>
+        </Typography>
       </View>
 
       <View className="flex flex-col items-center mt-20 justify-center gap-5">
         <FontAwesome6 name="book-bible" size={180} color={burgundy[500]} />
         <H1 text="Tesouro dos Fiéis" />
-        <Text className="font-serif text-sm text-center mx-8 text-sepia-800 dark:text-sepia-200">
+        <Typography className="font-serif text-sm text-center mx-8 text-sepia-800 dark:text-sepia-200">
           Espaço dedicado à oração, exposição e preservação das santas tradições
           da Igreja.
-        </Text>
+        </Typography>
       </View>
 
       <View className="flex flex-row justify-center my-5 mx-5 gap-5">
@@ -55,18 +56,18 @@ export default function PageRender() {
           className="shadow-sm bg-sepia-100 dark:bg-sepia-800 active:bg-sepia-200 dark:active:bg-sepia-700 m-2 rounded-xl px-4 py-3"
           onPress={() => router.navigate("/devocionario/introducao")}
         >
-          <Text className="text-pretty text-sepia-800 dark:text-sepia-200 text-center">
+          <Typography className="text-pretty text-sepia-800 dark:text-sepia-200 text-center">
             Introdução
-          </Text>
+          </Typography>
         </Pressable>
 
         <Pressable
           className="shadow-sm bg-sepia-800 dark:bg-sepia-200 active:bg-sepia-700 dark:active:bg-sepia-300 m-2 rounded-xl px-4 py-3"
           onPress={() => router.navigate("/devocionario/rosario")}
         >
-          <Text className="text-pretty text-sepia-invert text-center">
+          <Typography className="text-pretty text-sepia-invert text-center">
             Rosário
-          </Text>
+          </Typography>
         </Pressable>
       </View>
 
@@ -78,11 +79,11 @@ export default function PageRender() {
             size={15}
             color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
           />
-          <Text className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
+          <Typography className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
             {format(date, "EEEE, dd MMMM", {
               locale: pt,
             })}
-          </Text>
+          </Typography>
         </View>
 
         {day.mass?.map((item) => (
@@ -99,11 +100,11 @@ export default function PageRender() {
             size={15}
             color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
           />
-          <Text className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
+          <Typography className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
             {format(date, "HH:mm", {
               locale: pt,
             }).toUpperCase()}
-          </Text>
+          </Typography>
         </View>
 
         {currentPrayer.isAngelus && (

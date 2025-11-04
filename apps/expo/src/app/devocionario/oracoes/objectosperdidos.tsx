@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -6,7 +6,7 @@ export default function PageObjectosperdidos() {
   return (
     <PageWrapper>
       <H1 text="Objectos Perdidos, Santo António" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Eu, vos saúdo, glorioso Santo António, fiel protector dos que em vós
         esperam. Já que recebestes de Deus o poder especial de fazer achar os
         objectos perdidos, socorrei-me neste momento, a fim de que, mediante
@@ -16,7 +16,7 @@ export default function PageObjectosperdidos() {
         apenas nas coisas deste mundo. Saiba valorizá-las e utilizá-las como
         algo que nos foi emprestado e lute sobretudo por aquelas coisas que
         ladrão nenhum pode nos arrebatar e nem iremos perder jamais. Amen.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

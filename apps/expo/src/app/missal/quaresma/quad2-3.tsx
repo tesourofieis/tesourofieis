@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -11,48 +11,48 @@ export default function PageQuad23() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 37, 22-23</Text>
+      <Typography className="em">Sl. 37, 22-23</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ne derelínquas me, Dómine, Deus meus, ne discédas a me: inténde in
           adjutórium meum, Dómine, virtus salútis meæ.{" "}
-          <Text className="latin">Ps. ibid., 2</Text> Dómine, ne in furóre tuo
+          <Typography className="latin">Ps. ibid., 2</Typography> Dómine, ne in furóre tuo
           árguas me: neque in ira tua corrípias me.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Não me abandoneis, Senhor, meu Deus; não Vos afasteis de mim.
           Apressai-Vos em socorrer-me, ó Senhor, que sois a minha força e
-          salvação. <Text className="vernacular">Sl. ibid., 2</Text> Senhor, não
+          salvação. <Typography className="vernacular">Sl. ibid., 2</Typography> Senhor, não
           me repreendais com furor, nem me castigueis com ira.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Pópulum tuum, quǽsumus, Dómine, propítius réspice: et, quos ab escis
           carnálibus prǽcipis abstinére, a noxiis quoque vítiis cessáre concéde.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Olhai propício para o vosso povo, Senhor, Vos suplicamos, e permiti
           que aqueles a quem ordenais a abstinência das carnes se abstenham
           também dos vícios, que prejudicam as suas almas. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Est. 13, 8-11 & 15-17</Text>
+      <Typography className="em">Est. 13, 8-11 & 15-17</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Esther.</Text>
-        <Text className="vernacular">Lição do Livro de Ester.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Esther.</Typography>
+        <Typography className="vernacular">Lição do Livro de Ester.</Typography>
+        <Typography className="latin">
           In diébus illis: Orávit Mardochǽus ad Dóminum, dicens: Dómine, Dómine,
           Rex omnípotens, in dicióne enim tua cuncta sunt pósita, et non est,
           qui possit tuæ resístere voluntáti, si decréveris salváre Israël. Tu
@@ -64,8 +64,8 @@ export default function PageQuad23() {
           sorti et funículo tuo, et convérte luctum nostrum in gáudium, ut
           vivéntes laudémus nomen tuum, Dómine, et ne claudas ora te canéntium,
           Dómine, Deus noster.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, orava Mardoqueu ao Senhor, dizendo: «Senhor, Senhor,
           Rei omnipotente, todas as coisas estão submetidas ao vosso poder.
           Nada, pois, poderá resistir à vossa vontade, se determinardes salvar o
@@ -78,24 +78,24 @@ export default function PageQuad23() {
           que se tornou a vossa herança; convertei o nosso luto em alegria, a
           fim de que, conservando a vida, louvemos o vosso nome, Senhor» Não
           fecheis a boca àqueles que Vos louvam, ó Senhor, nosso Deus!».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 27, 9 & 1</Text>
+      <Typography className="em">Sl. 27, 9 & 1</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Salvum fac pópulum tuum, Dómine, et bénedic hereditáti tuæ.
-          <Text className="versicle"> ℣. </Text>Ad te, Dómine, clamávi: Deus
+          <Typography className="versicle"> ℣. </Typography>Ad te, Dómine, clamávi: Deus
           meus, ne síleas a me, et ero símilis descendéntibus in lacum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Salvai o vosso povo, Senhor, e abençoai a vossa herança. A Vós,
           Senhor, clamei. Meu Deus, não fecheis os ouvidos à minha voz. Se me
           não escutais, serei semelhante àqueles que desceram ao túmulo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Trato" />
@@ -107,18 +107,18 @@ export default function PageQuad23() {
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 20, 17-28</Text>
+      <Typography className="em">Mt. 20, 17-28</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Ascéndens Jesus Jerosólymam, assúmpsit duódecim
           discípulos secréto, et ait illis: Ecce, ascéndimus Jerosólymam, et
           Fílius hóminis tradétur princípibus sacerdótum, et scribis, et
@@ -138,8 +138,8 @@ export default function PageQuad23() {
           vester miníster: et qui volúerit inter vos primus esse, erit vester
           servus. Sicut Fílius hóminis non venit ministrári, sed ministráre, et
           dare ánimam suam, redemptiónem pro multis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, subindo Jesus para Jerusalém, chamou de parte os doze
           discípulos e disse-lhes: «Vamos subindo para Jerusalém, onde o Filho
           do homem será entregue aos príncipes dos sacerdotes e aos escribas. E
@@ -161,91 +161,91 @@ export default function PageQuad23() {
           superior aos outros será seu inferior; e o que quiser ser o primeiro
           será o seu escravo. Assim como o Filho do homem, que não veio para ser
           servido, mas para servir e dar a vida em redenção de muitos».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 24, 1-3</Text>
+      <Typography className="em">Sl. 24, 1-3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non
           erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te
           exspéctant, non confundéntur.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A Vós, Senhor, elevei a minha alma. Ó meu Deus, confio em Vós; não
           serei confundido, nem vencido pelos meus inimigos., porquanto todos
           aqueles que em Vós confiam não serão confundidos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hóstias, Dómine, quas tibi offérimus, propítius réspice: et, per hæc
           sancta commércia, víncula peccatórum nostrórum absólve. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Olhai propício, Senhor, para as hóstias que Vos oferecemos, e, por
           este sagrado Cornércio, desligai-nos das cadeias dos nossos pecados.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 10, 8</Text>
+      <Typography className="em">Sl. 10, 8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Justus Dóminus, et justítiam diléxit: æquitátem vidit vultus ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O Senhor é justo e amou a justiça; seu rosto volta-se benévolo para os
           justos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sumptis, Dómine, sacraméntis: ad redemptiónis ætérnæ, quǽsumus,
           proficiámus augméntum. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo nós recebido estes sacramentos, Senhor, concedei-nos, Vos
           suplicamos, que nos sirvam de aumento dos frutos da redenção eterna.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração sobre o povo" />
 
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">Humiliáte cápita vestra Deo.</Text>
-        <Text className="vernacular">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">Humiliáte cápita vestra Deo.</Typography>
+        <Typography className="vernacular">
           Inclinai as vossas cabeças diante de Deus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Deus, innocéntiæ restitútor et amátor, dírige ad te tuórum corda
           servórum: ut, spíritus tui fervóre concépto, et in fide inveniántur
           stábiles, et in ópere efficáces. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, reparador e amigo da inocência, encaminhai para Vós os
           corações dos vossos servos, a fim de que, afervorados com vosso
           Espírito, sejam firmes na fé e activos nas obras. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

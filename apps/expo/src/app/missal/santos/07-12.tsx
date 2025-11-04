@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0712() {
     <PageWrapper>
       <H1 text="S. João Gualberto, Abade, a 12 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         João Gualberto nasceu em Florença, cerca do ano 999. Numa Sexta-Feira
         Santa, escoltado pelos seus homens armados, encontrou, só e sem defesa,
         o assassino de seu irmão. Ia atravessa-lo com a lança, quando este,
@@ -24,30 +24,30 @@ export default function Page0712() {
         integridade da fé e dos costumes. Quando morreu, em 1073, escreveram
         sobre o seu túmulo: A João Gualberto, cidadão de Florença, libertador da
         Itália.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/16abades">
           Missa Os justi
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 5, 48-48</Text>
+      <Typography className="em">Mt. 5, 48-48</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Audístis, quia dictum
           est: Diliges próximum tuum, et ódio habébis inimícum tuum. Ego autem
           dico vobis: Dilígite inimícos vestros, benefácite his, qui odérunt
@@ -58,8 +58,8 @@ export default function Page0712() {
           fáciunt? Et si salutavéritis fratres vestros tantum, quid ámplius
           tácitis? nonne et éthnici hoc fáciunt? Estóte ergo vos perfécti, sicut
           et Pater vester cœléstis perféctus est.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Aprendestes o que vos
           ensinaram: «amareis o vosso próximo e aborreceis o vosso inimigo?».
           Pois Eu vos digo: amai os vossos inimigos; fazei bem àqueles que vos
@@ -70,7 +70,7 @@ export default function Page0712() {
           publicanos? Se saudais somente os vossos irmãos, que fazeis mais do
           que os outros? Não procedem assim os pagãos? Sede, portanto,
           perfeitos, como o vosso Pai celestial é perfeito».
-        </Text>
+        </Typography>
       </Language>
 
       <H2 text="Comemoração dos Santos Mártires Nabor e Félix" />
@@ -78,48 +78,48 @@ export default function Page0712() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, Dómine: ut, sicut nos sanctórum Martyrum tuórum
           Nabóris et Felícis natalítia celebránda non desérunt; ita júgiter
           suffrágiis comitántur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, assim como nós não cessamos de celebrar o natalício dos vossos
           Santos Mártires Nabor e Félix, assim também, Vos suplicamos, sejamos
           sempre socorridos com seus sufrágios. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Múnera plebis tuæ, quǽsumus, Dómine, sanetórum Mártyrum tuórum Nabóris
           et Felícis fiant grata suffrágiis: et, quorum triúmphis tuo nómini
           offeruntur, ipsorum digna perficiantur et méritis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dignai-Vos permitir, Senhor, Vos imploramos, que os dons do vosso povo
           Vos sejam agradáveis pelos sufrágios dos vossos Santos Nabor e Félix;
           e, pelos méritos daqueles em cuja honra são oferecidos ao vosso nome,
           fazei que sejam dignos de Vós. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Natalítiis Sanctórum tuórum, quǽsumus, Dómine: ut, sacraménti múnere
           vegetáti, bonis, quibus per tuam grátiam nunc fovémur, perfruámur
           ætérnis. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Fortalecidos com a recepção do sacramento que recebemos neste
           natalício dos vossos Santos, Vos suplicamos, Senhor, permiti que
           gozemos na eternidade aqueles bens com que a vossa graça nos favoreceu
           nesta vida. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

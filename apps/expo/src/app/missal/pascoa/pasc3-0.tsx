@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,53 +10,53 @@ export default function PagePasc30() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 65, 1-2</Text>
+      <Typography className="em">Sl. 65, 1-2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Jubiláte Deo, omnis terra, allelúja: psalmum dícite nómini ejus,
           allelúja: date glóriam laudi ejus, allelúja, allelúja, allelúja.{" "}
-          <Text className="latin">Ps. ibid., 3</Text> Dícite Deo, quam
+          <Typography className="latin">Ps. ibid., 3</Typography> Dícite Deo, quam
           terribília sunt ópera tua, Dómine! in multitúdine virtútis tuæ
-          mentiéntur tibi inimíci tui.<Text className="versicle"> ℣. </Text>
+          mentiéntur tibi inimíci tui.<Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que todos os povos da terra entoem cânticos de alegria em honra de
           Deus, aleluia: cantai a glória do seu nome, aleluia: rendei honra e
           louvor ao Senhor, aleluia, aleluia.{" "}
-          <Text className="vernacular">Sl. ibid., 3</Text> Dizei a Deus: «Quão
+          <Typography className="vernacular">Sl. ibid., 3</Typography> Dizei a Deus: «Quão
           admiráveis, Senhor, são as vossas obras! Tão grande é o vosso poder,
           que sois glorificado até pelos vossos inimigos!».
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui errántibus, ut in viam possint redíre justítiæ, veritátis
           tuæ lumen osténdis: da cunctis, qui christiána professióne censéntur,
           et illa respúere, quæ huic inimíca sunt nómini; et ea, quæ sunt apta,
           sectári. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que com a luz da verdade esclareceis aqueles que estão no
           caminho do erro para que possam voltar ao caminho da justiça, concedei
           aos que professam a fé cristã, que rejeitem tudo quanto é contrário ao
           nome cristão e sigam o que lhe é conforme. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Pe. 2, 11-19</Text>
+      <Typography className="em">1 Pe. 2, 11-19</Typography>
 
       <Language>
-        <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
-        <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
           Caríssimi: Obsecro vos tamquam ádvenas et peregrínos abstinére vos a
           carnálibus desidériis, quæ mílitant advérsus ánimam, conversatiónem
           vestram inter gentes habéntes bonam: ut in eo, quod detréctant de
@@ -71,8 +71,8 @@ export default function PagePasc30() {
           Servi, súbditi estóte in omni timóre dóminis, non tantum bonis et
           modéstis, sed étiam dýscolis. Hæc est enim grátia: in Christo Jesu,
           Dómino nostro.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimos: Como estrangeiros e peregrinos que sois, exorto-vos a que
           vos abstenhais dos apetites carnais, que são contrários à alma. Tende
           uma conduta honesta entre os povos, a fim de que, em vez de vos
@@ -89,40 +89,40 @@ export default function PagePasc30() {
           senhores, não somente àqueles que são bons e pacíficos, mas também aos
           que são rigorosos; porquanto isto agrada a Deus, em nosso Senhor Jesus
           Cristo.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 110, 9</Text> Redemptiónem misit Dóminus
-          pópulo suo. Allelúja. <Text className="em">Luc. 24, 46</Text>{" "}
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 110, 9</Typography> Redemptiónem misit Dóminus
+          pópulo suo. Allelúja. <Typography className="em">Luc. 24, 46</Typography>{" "}
           Oportebat pati Christum, et resúrgere a mórtuis: et ita intráre in
           glóriam suam. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 110, 9</Text> O Senhor mandou a
-          salvação ao seu povo. Aleluia. <Text className="em">Lc. 24, 46</Text>{" "}
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 110, 9</Typography> O Senhor mandou a
+          salvação ao seu povo. Aleluia. <Typography className="em">Lc. 24, 46</Typography>{" "}
           Era preciso que Cristo sofresse, para que depois ressuscitasse dos
           mortos e entrasse assim na glória, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 16, 16-22</Text>
+      <Typography className="em">Jo. 16, 16-22</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Módicum, et jam non
           vidébitis me: et íterum módicum, et vidébitis me: quia vado ad Patrem.
           Dixérunt ergo ex discípulis ejus ad ínvicem: Quid est hoc, quod dicit
@@ -138,8 +138,8 @@ export default function PagePasc30() {
           natus est homo in mundum. Et vos igitur nunc quidem tristítiam
           habétis, íterum autem vidébo vos, et gaudébit cor vestrum: et gáudium
           vestrum nemo tollet a vobis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos discípulos: «Ainda um pouco de tempo e
           me não vereis mais; e ainda um pouco de tempo e me tornareis a ver,
           porque vou ao Pai». Disseram, então, alguns discípulos uns aos outros:
@@ -157,67 +157,67 @@ export default function PagePasc30() {
           a alegria de ter trazido ao mundo uma criatura humana. Assim, vós,
           agora, estais tristes; mas outra vez vos verei e o vosso coração
           estará cheio de gozo; e ninguém vos tirará a alegria».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 145, 2</Text>
+      <Typography className="em">Sl. 145, 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Lauda, anima mea, Dóminum: laudábo Dóminum in vita mea: psallam Deo
           meo, quámdiu ero, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Louvai o Senhor, ó minha alma. Louvarei o Senhor durante toda a vida:
           cantarei hinos ao meu Deus, enquanto viver, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           His nobis, Dómine, mystériis conferátur, quo, terréna desidéria
           mitigántes, discámus amáre cœléstia. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Senhor, por meio destes sagrados mystérios mitigai-nos os desejos
           terrenos e ensinai-nos a amar as coisas celestiais. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 16, 16</Text>
+      <Typography className="em">Jo. 16, 16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Módicum, et non vidébitis me, allelúja: íterum módicum, et vidébitis
           me, quia vado ad Patrem, allelúja, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ainda um pouco de tempo e me não vereis mais, aleluia; e ainda um
           pouco de tempo e me tornareis a ver, porque vou para meu Pai, aleluia,
           aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacramenta quæ súmpsimus, quǽsumus, Dómine: et spirituálibus nos
           instáurent aliméntis, et corporálibus tueántur auxíliis. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicamos, permiti que os sacramentos, que recebemos, nos
           restaurem, tornando-se em alimento para as nossas almas e em auxílio
           para os nossos corpos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

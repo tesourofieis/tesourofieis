@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0908() {
     <PageWrapper>
       <H1 text="Natividade da B. Virgem Maria, a 8 de Setembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Esta festa muito antiga celebrava-se em Roma desde o VII seculo; o Papa
         Inocêncio IV, para realizar o desejo dos Cardeais, antes da eleição do
         seu predecessor acrescentou-lhe uma Oitava, no 1º Concilio de Leão,
@@ -21,16 +21,16 @@ export default function Page0908() {
         da criação, pois, sendo escolhida de toda a eternidade para nos dar o
         Salvador, foi Ela com o seu Filho que Deus teve principalmente em vista
         quando criava o mundo.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/santos/07-02">
           Missa da Visitação da B. Virgem Maria
         </Link>{" "}
         , excepto: Na Oração e Secreta substituir a palavra Visitação por
         Natividade.
-      </Text>
+      </Typography>
 
       <H3 text="Epístola" />
 

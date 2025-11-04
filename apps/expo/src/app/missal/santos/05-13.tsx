@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -10,7 +10,7 @@ export default function Page0513() {
     <PageWrapper>
       <H1 text="S. Roberto Belarmino, B. C. e Doutor, a 13 de Maio" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Nascido em Montepulciano (Itália) a 4 de Outubro de 1542, faleceu em
         Roma a 17 de Setembro de 1621, canonizado por Pio XI em 29 de Junho de
         1930, proclamado Doutor da Igreja em 15 de Agosto de 1931.
@@ -31,34 +31,34 @@ export default function Page0513() {
         vigilância e caridade para com os pobres. No fim da carreira foi
         autorizado pelo Papa a retirar-se para o noviciado de S. André, berço de
         sua vida religiosa, onde se preparou para a mais santa das mortes.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/13doutores">
           Missa In médio Ecclésiae
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui ad errórem insídias repelléndas et apostólicæ Sedis jura
           propugnánda, beátum Robértum Pontíficem tuuam atque Doctórem mira
           eruditióne et virtúte decorásti: ejus méritis et intercessióne
           concéde; ut nos in veritátis amóre crescámus et errántium corda ad
           Ecclésiæ tuæ rédeant unitátem. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que para refutar as insídias dos erros e defender os direitos
           da Santa Sé Apostólica enriquecestes o B. Roberto, vosso Pontífice e
           Doutor, com admirável erudição e constância, concedei-nos pelos seus
           méritos e intercessão que em nós aumente o amor à verdade e regressem
           à unidade da vossa Igreja os corações dos que permanecem no erro. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
@@ -70,67 +70,67 @@ export default function Page0513() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 72, 28</Text>
+      <Typography className="em">Sl. 72, 28</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mihi autem adhærére Deo bonum est, pónere in Dómino Deo spem meam: ut
           annúntiem pmnes prædicatiónes tuas in portis fíliæ Sion, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Por isso bom é para mim unir-me a Deus e pôr no Senhor Deus a minha
           esperança, a fim de publicar todos seus louvores às portas da filha de
           Sião, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hóstias tibi, Dómine, in odórem suavitátis offérimus: et præsta; ut,
           beáti Robérti mónitis et exémplis edócti, per sémitam mandatórum
           tuórum dilatáto corde currámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A Vós, Senhor, oferecemos estas hóstias em odor de suavidade; e
           concedei-nos que, edificados com os ensinos e exemplos do B. Roberto,
           caminhemos generosamente pela via dos vossos preceitos. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 5, 14, 16</Text>
+      <Typography className="em">Mt. 5, 14, 16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vos estis lux mundi: sic lúceat lux vestra coram homínibus, ut vídeant
           ópera vestra bona, et gloríficent Patrem vestrum qui in cœlis est,
           allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Sois a luz do mundo. Assim a vossa luz brilhe diante dos homens, para
           que vejam as vossas boas obras e glorifiquem o vosso Pai, que está nos
           céus, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacraménta, quæ súmpsimus, Dómine Deus noster, in nobis fóveant
           caritátis ardórem: quo beátus Robértus veheménter accénsus, pro
           Ecclésia tua se júgiter impendébat. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que os sacramentos, que recebemos, Senhor, nosso Deus, em nós infundam
           o ardor da caridade com o qual o B. Roberto, intensamente abrasado, se
           esforçava incessantemente em defender a vossa Igreja. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

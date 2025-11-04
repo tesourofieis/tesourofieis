@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -10,13 +10,13 @@ export default function Page0614() {
     <PageWrapper>
       <H1 text="S. Basílio Magno, B. Conf. e Doutor, a 14 de Junho" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/13doutores">
           Missa In médio Ecclésiae
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
@@ -27,18 +27,18 @@ export default function Page0614() {
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 14, 26-35</Text>
+      <Typography className="em">Lc. 14, 26-35</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus turbis: Si quis venit ad me, et non odit
           patrem suum, et matrem, et uxórem, et fílios, et fratres, et soróres,
           adhuc autem et ánimam suam, non potest meus esse discípulus. Et qui
@@ -56,8 +56,8 @@ export default function Page0614() {
           Bonum est sal. Si autem sal evanúerit, in quo condiétur? Neque in
           terram neque in sterquilínium útile est, sed foras mittétur. Qui habet
           aures audiéndi, áudiat.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus às turbas: «Se alguém vem a mim e não
           despreza seu pai, sua mãe, sua mulher e filhos, seus irmãos e irmãs e
           até mesmo a sua própria vida, não pode ser meu discípulo. E todo
@@ -76,7 +76,7 @@ export default function Page0614() {
           O sal é bom; mas, se perder a força, com que se há-de salgar? Ele não
           será útil nem para a terra, nem para o lugar imundo: porém, será
           lançado fora».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />

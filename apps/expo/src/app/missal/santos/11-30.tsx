@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ export default function Page1130() {
     <PageWrapper>
       <H1 text="S. André, Apóstolo, a 30 de Novembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Desde o século IV, a festa de S. André é celebrada a 30 de Novembro. S.
         André foi ao mesmo tempo Apóstolo e Mártir. Foi chamado, diz a Oração,
         para governar e instruir a Igreja. A Epístola e o Evangelho falam da
@@ -26,57 +26,57 @@ export default function Page1130() {
         depositada por Pio II junto da confissão de S. Pedro, de quem era irmão.
         O seu nome está escrito no Canon da Missa. Com S. André sigamos o Cristo
         até à Cruz.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 138, 17</Text>
+      <Typography className="em">Sl. 138, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est
-          principatus eórum. <Text className="latin">Ps. ibid., 1-2</Text>{" "}
+          principatus eórum. <Typography className="latin">Ps. ibid., 1-2</Typography>{" "}
           Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et
-          resurrectiónem meam.<Text className="versicle"> ℣. </Text>Gloria
+          resurrectiónem meam.<Typography className="versicle"> ℣. </Typography>Gloria
           Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vejo, ó Deus, que honrastes largamente os vossos amigos: e que seu
           poder se fortaleceu extraordinariamente.{" "}
-          <Text className="vernacular">Sl. ibid., 1-2</Text> Senhor,
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Senhor,
           perscrutastes o meu íntimo e ficastes conhecendo-me: ficastes
           conhecendo quando me deito e quando me levanto.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Majestátem tuam, Dómine, supplíciter exorámus: ut, sicut Ecclésiæ tuæ
           beátus Andréas Apóstolus éxstitit prædicátor et rector; ita apud te
           sit pro nobis perpétuus intercéssor. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Humildemente suplicamos à vossa divina majestade que, assim como o
           Apóstolo André foi pregador e guia da vossa Igreja, assim também
           interceda por nós perpetuamente junto de Vós. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Rm. 10, 10-18</Text>
+      <Typography className="em">Rm. 10, 10-18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Corde enim créditur ad justítiam: ore autem conféssio fit ad
           salútem. Dicit enim Scriptúra: Omnis, qui credit in illum, non
           confundétur. Non enim est distínctio Judǽi et Græci: nam idem Dóminus
@@ -90,8 +90,8 @@ export default function Page1130() {
           audítu, audítus autem per verbum Christi. Sed dico: Numquid non
           audiérunt? Et quidem in omnem terram exívit sonus eórum, et in fines
           orbis terræ verba eórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Com o coração se crê para chegar à justiça; e com a boca
           se faz profissão de fé para alcançar a salvação. Com efeito diz a
           Escritura: «Todo aquele que crê n’Ele não será confundido», porque não
@@ -108,50 +108,50 @@ export default function Page1130() {
           vos pergunto: «Porventura eles a não ouviram?». Sim, por certo: pois
           por toda a terra se espalhou a sua voz, e suas palavras soaram até aos
           extremos do mundo!
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 44, 17-18</Text>
+      <Typography className="em">Sl. 44, 17-18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Constítues eos príncipes super omnem terram: mémores erunt nóminis
-          tui, Dómine.<Text className="versicle"> ℣. </Text>Pro pátribus tuis
+          tui, Dómine.<Typography className="versicle"> ℣. </Typography>Pro pátribus tuis
           nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Serão constituídos príncipes em toda a terra e perpetuarão a glória do
           vosso nome, Senhor!
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Para substituir os vossos pais nasceram-vos filhos; por isso os povos
           Vos louvarão eternamente.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Diléxit
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Diléxit
           Andréam Dóminus in odórem suavitátis. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>O Senhor amou
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O Senhor amou
           André, como um perfume suave. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 4, 18-22</Text>
+      <Typography className="em">Mt. 4, 18-22</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Ambulans Jesus juxta mare Galilǽæ, vidit duos
           fratres, Simónem, qui vocátur Petrus, et Andréam fratrem ejus,
           mitténtes rete in mare (erant enim piscatóres), et ait illis: Veníte
@@ -160,8 +160,8 @@ export default function Page1130() {
           fratres, Jacóbum Zebedǽi et Joánnem, fratrem ejus, in navi cum Zebedǽo
           patre eórum reficiéntes rétia sua: et vocávit eos. Illi autem statim,
           relíctis rétibus et patre, secúti sunt eum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, caminhando Jesus junto ao mar da Galileia, viu dois
           irmãos: Simão, que se chama Pedro, e André, irmão deste, os quais
           lançavam as redes no mar, pois eram pescadores. Disse-lhes Jesus:
@@ -171,68 +171,68 @@ export default function Page1130() {
           Tiago, filho de Zebedeu, e João, seu irmão, com seu pai Zebedeu. Então
           chamou-os. Logo, no mesmo instante, eles, deixando as redes e o pai,
           seguiram-n’O.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 138, 17</Text>
+      <Typography className="em">Sl. 138, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est
           principátus eórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vejo, ó Deus, que honrastes largamente os vossos amigos; por isso o
           seu poder se fortaleceu extraordinariamente.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacrificium nostrum tibi, Dómine, quǽsumus, beáti Andréæ Apóstoli
           precátio sancta concíliet: ut, in cujus honóre sollémniter exhibétur,
           ejus méritis efficiátur accéptum. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, permiti que a oração do B. Apóstolo André Vos torne agradável
           este nosso sacrifício, a fim de que seja aceite, em virtude dos
           méritos daquele em cuja honra Vos é solenemente oferecido. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 4, 19-20</Text>
+      <Typography className="em">Mt. 4, 19-20</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Veníte post me: fáciam vos fíeri piscatóres hóminum; at illi contínuo,
           relíctis rétibus, secúti sunt Dóminum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vinde comigo: e far-vos-ei pescadores de homens. Imediatamente eles,
           deixando as redes, seguiram o Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Súmpsimus, Dómine, divína mystéria, beáti Andréæ Apóstoli festivitáte
           lætántes: quæ, sicut tuis Sanctis ad glóriam, ita nobis, quǽsumus, ad
           véniam prodésse perfícias. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, que os divinos mystérios, que com alegria recebemos nesta
           festa do B. André, servindo para a glória dos vossos Santos, nos
           alcancem, também, o perdão das nossas culpas. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

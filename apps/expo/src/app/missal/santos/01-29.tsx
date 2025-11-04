@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0129() {
     <PageWrapper>
       <H1 text="S. Francisco de Sales, B. C. e Doutor, a 29 de Janeiro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         O Verbo feito carne nos manifesta, por sua doutrina, os mistérios da
         sabedoria divina e, por seus milagres, o seu amor eterno. S. Francisco
         de Sales, Doutor da Igreja (Intr.) participou desta ciência do Verbo
@@ -27,33 +27,33 @@ export default function Page0129() {
         de Sales morreu em Lyon no ano de 1622. Recordemos também a dupla
         palavra do Santo: «uma colherada de mel pega mais moscas do que cem
         barris de vinagre». «O bem não faz barulho, o barulho não faz o bem».
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/13doutores">
           Missa In médio Ecclésiae
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui ad animárum salútem beátum Francíscum Confessórem tuum atque
           Pontíficem ómnibus ómnium factum esse voluísti: concéde propítius; ut,
           caritátis tuæ dulcédine perfúsi, ejus dirigéntibus mónitis ac
           suffragántibus méritis, ætérna gáudia consequámur. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que para a salvação das almas quisestes que o B. Francisco,
           vosso Confessor e Pontífice, se fizesse tudo para todos, concedei-nos
           benigno que, cheios da doçura do vosso amor, guiados pelos seus
           conselhos e protegidos pelos seus merecimentos, alcancemos as alegrias
           eternas. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

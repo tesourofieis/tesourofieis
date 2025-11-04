@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -19,33 +19,33 @@ export default function Page0622() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui ómnia pro te in hoc sǽculo relinquéntibus, céntuplum in
           futúro et vitam ætérnam promisísti: concéde propítius; ut, sancti
           Pontíficis Paulíni vestígiis inhæréntes, valeámus terréna despícere et
           sola cœléstia desideráre: Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que àqueles que tudo abandonaram neste mundo para Vos seguirem
           prometestes o cêntuplo e a vida eterna, concedei-nos propício que,
           seguindo os exemplos do santo Pontífice Paulino, desprezemos sempre as
           coisas terrenas e aspiremos somente às celestiais. Ó Vós, que
           viveis...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">2 Cor. 8, 9-15</Text>
+      <Typography className="em">2 Cor. 8, 9-15</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Lectio Epístolæ beati Pauli Apostoli ad Corinthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Scitis grátiam Dómini nostri Jesu Christi, quóniam propter
           vos egénus factus est, cum esset dives, ut illíus inópia vos dívites
           essétis. Et consílium in hoc do: hoc enim vobis útile est, qui non
@@ -58,8 +58,8 @@ export default function Page0622() {
           súppleat: ut et illórum abundántia vestræ inópiæ sit suppleméntum, ut
           fiat æquálitas, sicut scriptum est: Qui multum, non abundávit: et qui
           módicum, non minorávit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Conheceis a bondade de nosso Senhor Jesus Cristo, que,
           sendo rico, se fez pobre, por causa de vos tornar ricos pela sua
           pobreza. A este respeito dou-vos um conselho, que vos é tanto mais
@@ -74,36 +74,36 @@ export default function Page0622() {
           necessidades dos outros, de sorte que haja igualdade, assim como está
           escrito: «Àquele que recolheu muito lhe não sobejou; e àquele que
           recolheu pouco lhe não faltou».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Ecl. 44, 16</Text>
+      <Typography className="em">Ecl. 44, 16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ecce sacérdos magnus, qui in diébus suis plácuit Deo.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 20</Text> Non est invéntus símilis
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 20</Typography> Non est invéntus símilis
           illi, qui conserváret legem Excélsi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eis o grande sacerdote que nos dias da sua vida agradou a Deus.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 20</Text> Ninguém o igualou na
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 20</Typography> Ninguém o igualou na
           observância das leis do Altíssimo.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 109, 4</Text> Tu es sacérdos in ætérnum,
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 109, 4</Typography> Tu es sacérdos in ætérnum,
           secúndum órdinem Melchísedech. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 109, 4</Text> Tu és sacerdote para
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 109, 4</Typography> Tu és sacerdote para
           sempre, segundo a ordem de Melquisedeque.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -115,67 +115,67 @@ export default function Page0622() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 88, 21-22</Text>
+      <Typography className="em">Sl. 88, 21-22</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
           auxiliábitur ei, et bráchium meum confortábit eum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Encontrei o seu servo David e ungi-o com meu óleo sagrado. Minha mão o
           socorrerá e o meu braço o fortalecerá.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Da nobis, Dómine, perféctæ caritátis sacrifícium, exémplo sancti
           Pontíficis Paulíni, cum altáris oblatióne conjúngere: et beneficéntiæ
           stúdio sempitérnam misericórdiam promeréri. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedei-nos, Senhor, que, imitando o exemplo do Santo Pontífice
           Paulino, juntemos à oferta do altar o sacrifício da caridade perfeita;
           e permiti que, aplicando-nos ao exercício da beneficência, mereçamos
           alcançar o perdão. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Lc. 12, 42</Text>
+      <Typography className="em">Lc. 12, 42</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Fidélis servus et prudens, quem constítuit dóminus super famíliam
           suam: ut det illis in témpore trítici mensúram.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eis o servo fiel e prudente que o Senhor estabeleceu acima da sua
           família para distribuir, oportunamente, a cada um a sua medida de
           trigo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tríbue nobis per hæc sancta, Dómine, illum pietátis et humilitátis
           afféctum, quem ex hoc divíno fonte hausit sanctus Póntifex tuus
           Paulínus: et, ipsíus intercessióne, in omnes, qui te deprecántur,
           grátiæ tuæ divítias benígnus effúnde. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedei-nos, Senhor, em virtude destes sacramentos aqueles
           sentimentos de piedade e de humildade que o vosso Santo Pontífice
           Paulino auria nesta fonte divina; e pela sua intercessão infundi
           benigno as riquezas da vossa graça naqueles que Vo-las suplicam. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

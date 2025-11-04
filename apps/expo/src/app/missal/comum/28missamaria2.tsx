@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,64 +10,64 @@ export default function Page28Missamaria2() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 44, 13,15 & 16</Text>
+      <Typography className="em">Sl. 44, 13,15 & 16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vultum tuum deprecabúntur omnes dívites plebis: adducántur Regi
           Vírgines post eam: próximæ ejus adducéntur tibi in lætítia et
-          exsultatióne. <Text className="latin">Ps. ibid., 2</Text> Eructávit
+          exsultatióne. <Typography className="latin">Ps. ibid., 2</Typography> Eructávit
           cor meum verbum bonum: dico ego ópera mea Regi.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Todos os poderosos da terra imploram o vosso olhar; as virgens serão
           introduzidas perante o Rei após ela: e as suas companheiras serão
           apresentadas ao Rei, em transportes de alegria e de júbilo.{" "}
-          <Text className="vernacular">Sl. ibid., 2</Text> Meu coração exprimiu
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Meu coração exprimiu
           uma excelente palavra: Consagro ao Rei as minhas obras!
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui salútis ætérnæ, beátæ Maríæ virginitáte fœcúnda, humáno
           generi prǽmia præstitísti: tríbue, quǽsumus; ut ipsam pro nobis
           intercédere sentiámus, per quam merúimus auctórem vitæ suscípere,
           Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que, pela Virgindade fecunda da B. Virgem Maria concedestes ao
           género humano o prémio da salvação eterna, fazei, Vos imploramos, que
           gozemos os efeitos da intercessão daquela pela qual fomos julgados
           dignos de receber o autor da vida, N. S. Jesus Cristo, vosso Filho:
           que convosco Vive e reina...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Tt. 3, 4-7</Text>
+      <Typography className="em">Tt. 3, 4-7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Titum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo a Tito.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Caríssime: Appáruit benígnitas et humánitas Salvatóris nostri Dei: non
           ex opéribus justítiæ, quæ fécimus nos, sed secúndum suam misericórdiam
           salvos nos fecit, per lavácrum regeneratiónis et renovatiónis Spíritus
           Sancti, quem effúdit in nos abúnde per Jesum Christum, Salvatórem
           nostrum: ut, justificáti grátia ipsíus, herédes simus secúndum spem
           vitæ ætérnæ: in Christo Jesu, Dómino nostro.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimo: A bondade e o amor de Deus, nosso Salvador, se
           manifestaram. Ele salvou-nos, não por causa das obras de justiça que
           houvéssemos praticado, mas pela sua misericórdia, lavando-nos em um
@@ -75,78 +75,78 @@ export default function Page28Missamaria2() {
           copiosamente sobre nós por Jesus Cristo, nosso Salvador, a fim de que,
           justificados pela sua graça, nos tornemos herdeiros da vida eterna,
           segundo a esperança que depositamos em Jesus Cristo, nosso Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 44, 3 & 2</Text>
+      <Typography className="em">Sl. 44, 3 & 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Speciósus forma præ fíliis hóminum: diffúsa est grátia in lábiis tuis.
-          <Text className="versicle"> ℣. </Text>Eructávit cor meum verbum bonum:
+          <Typography className="versicle"> ℣. </Typography>Eructávit cor meum verbum bonum:
           dico ego ópera mea Regi: lingua mea cálamus scribæ velóciter
           scribéntis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Sois mais bela do que todos os filhos dos homens: pois a graça
           espalhou-se nos vossos lábios.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Meu coração exprimiu uma excelente palavra: Consagro ao Rei as minhas
           obras. Minha língua é como a pena de um escritor perito.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Post partum,
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Post partum,
           Virgo, invioláta permansísti: Dei Génetrix, intercéde pro nobis.
           Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>Depois de
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Depois de
           haverdes dado à luz, permanecestes Virgem Imaculada. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
-      </Text>
+      </Typography>
 
       <H3 text="Trato" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Gaude, María Virgo, cunctas hǽreses sola interemísti.
-          <Text className="versicle"> ℣. </Text>Quæ Gabriélis Archángeli dictis
-          credidísti.<Text className="versicle"> ℣. </Text>Dum Virgo Deum et
+          <Typography className="versicle"> ℣. </Typography>Quæ Gabriélis Archángeli dictis
+          credidísti.<Typography className="versicle"> ℣. </Typography>Dum Virgo Deum et
           hóminem genuísti: et post partum, Virgo, invioláta permansísti.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Dei Génetrix, intercéde pro nobis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Regozijai-vos, ó Virgem Maria, pois só vós fostes capaz de destruir
-          todas as heresias.<Text className="versicle"> ℣. </Text>
+          todas as heresias.<Typography className="versicle"> ℣. </Typography>
           Acreditastes nas palavras do Arcanjo Gabriel.
-          <Text className="versicle"> ℣. </Text>Sendo Virgem, gerastes o
+          <Typography className="versicle"> ℣. </Typography>Sendo Virgem, gerastes o
           Homem-Deus: e, depois de haverdes dado à luz, permanecestes Virgem
-          Imaculada.<Text className="versicle"> ℣. </Text>
+          Imaculada.<Typography className="versicle"> ℣. </Typography>
           Intercedei por nós, ó Mãe de Deus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 2, 15-20</Text>
+      <Typography className="em">Lc. 2, 15-20</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Pastóres loquebántur ad ínvicem: Transeámus usque
           Béthlehem, et videámus hoc verbum, quod factum est, quod Dóminus
           osténdit nobis. Et venérunt festinántes, et invenérunt Maríam, et
@@ -156,8 +156,8 @@ export default function Page28Missamaria2() {
           autem conservábat ómnia verba hæc, cónferens in corde suo. Et revérsi
           sunt pastores, glorificántes et laudántes Deum in ómnibus, quæ
           audíerant et víderant, sicut dictum est ad illos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disseram os pastores uns aos outros: «Vamos até Belém e
           vejamos o que foi isto que aconteceu, que o Senhor nos revelou».
           Vieram, então, a toda a pressa, e encontraram Maria, José e o Menino
@@ -167,62 +167,62 @@ export default function Page28Missamaria2() {
           todas estas coisas e meditava-as no seu íntimo. E os pastores
           retiraram-se, glorificando e louvando Deus pelo que tinham visto e
           ouvido, segundo o que lhes havia sido revelado.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Felix namque es, sacra Virgo María, et omni laude digníssima: quia ex
           te ortus est sol justítiæ, Christus, Deus noster.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Sois feliz e digna de todos os louvores, ó Santa Virgem Maria, pois de
           vós nasceu «o sol da justiça», Cristo, nosso Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dómine, propitiatióne, et beátæ Maríæ semper Vírginis intercessióne,
           ad perpétuam atque præséntem hæc oblátio nobis profíciat prosperitátem
           et pacem. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Pela vossa misericórdia, Senhor, e por intercessão da B. Maria, sempre
           Virgem, permiti que esta oferta nos assegure agora e sempre a
           prosperidade e a paz. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris Fílium.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bem-aventuradas as entranhas da Virgem Maria, que trouxeram encerrado
           o Filho do Pai Eterno.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáta
           Vírgine Dei Genetríce María, cœléstis remédii fáciat esse consórtes.
           Per eúndem Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que esta comunhão, Senhor, nos purifique de nossos crimes; e que, por
           intercessão da B. Virgem Maria, Mãe de Deus, nos torne participantes
           do remédio celestial. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

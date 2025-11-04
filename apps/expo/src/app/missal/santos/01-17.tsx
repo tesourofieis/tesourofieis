@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0117() {
     <PageWrapper>
       <H1 text="S. António, Abade, a 17 de Janeiro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Depois de S. Paulo, pai dos Anacoretas, o ciclo de Natal nos faz honrar
         S. Antão, pai dos Cenobitas. Retirando-se para o deserto do Egipto aos
         dezoito anos de idade, ali viveu primeiramente a vida eremítica. O
@@ -27,15 +27,15 @@ export default function Page0117() {
         honrava com sua amizade, defendeu brilhantemente o dogma da divindade de
         Cristo. Morreu em 356, na idade de 105 anos. Pela perfeição de nossa
         vida, tornemos patente que participamos da divindade de Jesus.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/16abades">
           Missa Os justi
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Evangelho" />
 

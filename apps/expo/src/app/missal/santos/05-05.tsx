@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0505() {
     <PageWrapper>
       <H1 text="S. Pio V, Papa e Conf., a 5 de Maio" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Pio, nasceu em Bosco (Lombardia). Aos quatorze anos entrou para a Ordem
         dos Dominicanos. Bispo, Cardeal e Papa fez valer os talentos de Deus
         recebidos. Seu Pontificado, embora curto, foi um dos mais gloriosos do
@@ -21,34 +21,34 @@ export default function Page0505() {
         ocasião, a festa de Nossa Senhora das Victórias, que mais tarde se
         tornou a do Santíssimo Rosário. Morreu a 5 de Maio de 1572, recitando o
         hino do Tempo Pascal.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/sumospontifices">
           Missa Si díligis me
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui, ad conteréndos Ecclésiæ tuæ hostes et ad divínum cultum
           reparándum, beátum Pium Pontíficem Máximum elígere dignátus es: fac
           nos ipsíus deféndi præsídiis et ita tuis inhærére obséquiis; ut,
           ómnium hóstium superátis insídiis, perpétua pace lætémur. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que para esmagar os inimigos da vossa Igreja e reformar o
           culto divino Vos dignastes escolher o B. Pio para Sumo Pontífice,
           permiti que sejamos munidos com o socorro da sua protecção; e de tal
           modo nos liguemos ao vosso serviço que, depois de havermos triunfado
           das insídias de todos os inimigos, gozemos a alegria da eterna paz.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

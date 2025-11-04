@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,15 +8,15 @@ export default function PagePascoa() {
     <PageWrapper>
       <H1 text="Prefácio da Páscoa" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Diz-se desde Domingo de Páscoa até à Vigília da Ascensão,
         inclusivamente, excepto quando há Prefácio próprio. Intercala-se: hac
         potíssimum die (naquele dia); hac potíssimum nocte (naquela noite); hac
         potíssimum (neste tempo).
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni
           témpore, sed in hac potissímum die (vel in hoc potíssimum) gloriósius
           prædicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus
@@ -24,8 +24,8 @@ export default function PagePascoa() {
           destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et
           Archángelis, cum Thronis et Dominatiónibus cumque omni milítia
           cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           É verdadeiramente digno e justo, racional e salutar, que Vos louvemos
           sempre, mas principalmente... em que Jesus Cristo foi imolado, como
           nova Páscoa. Pois Ele é o verdadeiro Cordeiro que tirou os pecados do
@@ -33,7 +33,7 @@ export default function PagePascoa() {
           os Anjos e Arcanjos, com os Tronos e Dominações e com toda a milícia
           do exército celestial, cantamos o hino da vossa glória, dizendo
           incessantemente:
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

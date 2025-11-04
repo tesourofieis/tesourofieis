@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,46 +9,46 @@ export default function PageEspiritosanto() {
       <H1 text="Espírito Santo" />
       <H2 text="Veni, Sancte Spíritus" />
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Veni, Sancte Spíritus! reple tuórum corda fidélium: et tui amóris in
           eis ignem accénde.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vinde, ó Espírito Santo, enchei os corações dos vossos fiéis e acendei
           neles o fogo do vosso amor.
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text>Emitte Spíritum tuum, et
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography>Emitte Spíritum tuum, et
           creabúntur.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>Enviai o vosso Espírito e tudo
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Enviai o vosso Espírito e tudo
           será criado.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Et renovábis faciem terræ.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> E renovareis a face da terra.
-        </Text>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Et renovábis faciem terræ.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> E renovareis a face da terra.
+        </Typography>
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
           Deus, qui corda fidélium Sancti Spíritus illustratióne docuísti, da
           nobis in eódem Spíritu recta sápere; et de ejus semper consola Tione
           gaudére. Per Christum Dóminum nostrum.{" "}
-          <Text className="response"> ℟. </Text> Amen.
-        </Text>
-        <Text className="vernacular">
+          <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que haveis instruído os corações dos vossos fiéis com a luz do
           Espírito Santo, concedei-nos, segundo o mesmo Espírito, conhecer as
           coisas rectas e gozar sempre das suas divinas consolações. Por Cristo,
-          Senhor Nosso. <Text className="response"> ℟. </Text> Amen.
-        </Text>
+          Senhor Nosso. <Typography className="response"> ℟. </Typography> Amen.
+        </Typography>
       </Language>
       <H2 text="Veni Sancte Spíritus, Sequência Pentecostes" />
       <H2 text="Ao Espírito Santo" />Ó Deus clementíssimo, escutai com piedade

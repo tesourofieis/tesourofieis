@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,54 +10,54 @@ export default function Page8Muitosmartires3() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 36, 39</Text>
+      <Typography className="em">Sl. 36, 39</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Salus autem justórum a Dómino: et protéctor eórum est in témpore
-          tribulatiónis. <Text className="latin">Ps. ibid., 1</Text> Noli
+          tribulatiónis. <Typography className="latin">Ps. ibid., 1</Typography> Noli
           æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           A salvação dos justos, porém, está no Senhor; Ele é o seu refúgio na
           ocasião da tribulação.{" "}
-          <Text className="vernacular">Sl. ibid., 1</Text> Não invejeis os maus,
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Não invejeis os maus,
           nem tenhais emulação daqueles que cometem iniquidades.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui nos ánnua sanctórum Mártyrum tuórum et{" "}
-          <Text className="latin">N.</Text> sollemnitáte lætíficas: concéde
+          <Typography className="latin">N.</Typography> sollemnitáte lætíficas: concéde
           propítius; ut, quorum gaudémus méritis, accendámur exémplis. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que nos alegrais com a festividade anual dos vossos santos
-          Mártires <Text className="vernacular">N.</Text> e{" "}
-          <Text className="text-red-500">N.</Text>, concedei-nos benigno que
+          Mártires <Typography className="vernacular">N.</Typography> e{" "}
+          <Typography className="text-red-500">N.</Typography>, concedei-nos benigno que
           sejamos afervorados com os exemplos daqueles cujos méritos nos enchem
           de alegria. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Heb. 10, 32-38</Text>
+      <Typography className="em">Heb. 10, 32-38</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Rememorámini prístinos dies, in quibus illumináti magnum
           certámen sustinuístis passiónum: et in áltero quidem oppróbriis et
           tribulatiónibus spectáculum facti: in áltero autem sócii táliter
@@ -68,8 +68,8 @@ export default function Page8Muitosmartires3() {
           necéssaria est: ut, voluntátem Dei faciéntes, reportétis promissiónem.
           Adhuc enim módicum aliquántulum, qui ventúrus est, véniet, et non
           tardábit. Justus autem meus ex fide vivit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Lembrai-vos dos primeiros dias em que, depois de haverdes
           recebido as luzes da fé, sofrestes grandes combates dolorosos, havendo
           sido, por um lado, expostos, diante de toda a gente, aos opróbrios e
@@ -83,75 +83,75 @@ export default function Page8Muitosmartires3() {
           alcanceis o prémio prometido. Esperai ainda algum tempo, e então
           chegará aquele que deve vir, o qual não tardará. Meu justo vive, pois,
           da sua fé.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 33, 18-19</Text>
+      <Typography className="em">Sl. 33, 18-19</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus
           tribulatiónibus eórum liberávit eos.
-          <Text className="versicle"> ℣. </Text>Juxta est Dóminus his, qui
+          <Typography className="versicle"> ℣. </Typography>Juxta est Dóminus his, qui
           tribuláto sunt corde: et húmiles spíritu salvábit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Clamaram os justos; então o senhor ouviu-os e livrou-os de todas suas
-          aflições.<Text className="versicle"> ℣. </Text>O Senhor está próximo
+          aflições.<Typography className="versicle"> ℣. </Typography>O Senhor está próximo
           daqueles que têm o coração atribulado; e salvará os que têm o espírito
           humilhado.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Te Mártyrum
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Te Mártyrum
           candidátus laudat exércitus, Dómine. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>O exército
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O exército
           cândido dos mártires, ó Senhor, canta louvores em vossa honra!
           Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         Após a Septuagésima omite-se o Aleluia e o seguinte e diz-se:
-      </Text>
+      </Typography>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 125, 5-6</Text>
+      <Typography className="em">Sl. 125, 5-6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Qui séminant in lácrimis, in gáudio metent.
-          <Text className="versicle"> ℣. </Text>Eúntes ibant et flébant,
-          mitténtes sémina sua.<Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>Eúntes ibant et flébant,
+          mitténtes sémina sua.<Typography className="versicle"> ℣. </Typography>
           Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aqueles que semeiam com lágrimas ceifarão com júbilo.
-          <Text className="versicle"> ℣. </Text>Iam, caminhavam e lançavam a
-          semente à terra, chorando.<Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>Iam, caminhavam e lançavam a
+          semente à terra, chorando.<Typography className="versicle"> ℣. </Typography>
           Porém, quando voltavam, exultavam de alegria, trazendo os seus molhos
           de trigo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 12, 1-8</Text>
+      <Typography className="em">Lc. 12, 1-8</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Atténdite a ferménto
           pharisæórum, quod est hypócrisis. Nihil autem opértum est, quod non
           revelétur: neque abscónditum, quod non sciátur. Quóniam, quæ in
@@ -166,8 +166,8 @@ export default function Page8Muitosmartires3() {
           estis vos. Dico autem vobis: Omnis, quicúmque conféssus fúerit me
           coram homínibus, et Fílius hóminis confiténtur illum coram Angelis
           Dei.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Acautelai-vos com o
           fermento dos fariseus, que é a hipocrisia, pois nada há oculto que não
           chegue a ser descoberto, nem segredo que não venha a ser revelado. Até
@@ -184,93 +184,93 @@ export default function Page8Muitosmartires3() {
           pássaros. Também vos digo: todo aquele que me confessar diante dos
           homens, o Filho do homem o reconhecerá igualmente diante dos Anjos de
           Deus».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sb. 3, 1, 2 & 3</Text>
+      <Typography className="em">Sb. 3, 1, 2 & 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Justórum ánimæ in manu Dei sunt, et non tanget illos torméntum
           malítiae: visi sunt óculis insipiéntium mori: illi autem sunt in pace,
           allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           As almas dos justos estão nas mãos de Deus e o tormento da malícia as
           não tocará! Aos olhos dos insensatos pareciam quase a morrer, todavia
           estão na paz. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Oblátis, quǽsumus, Dómine, placáre munéribus: et, intercedéntibus
-          sanctis Martýribus tuis <Text className="latin">N.</Text> et{" "}
-          <Text className="text-red-500">N.</Text>, a cunctis nos defénde
+          sanctis Martýribus tuis <Typography className="latin">N.</Typography> et{" "}
+          <Typography className="text-red-500">N.</Typography>, a cunctis nos defénde
           perículis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deixai-Vos aplacar com os dons que Vos oferecemos, Senhor, e, por
           intercessão dos vossos santos Mártires{" "}
-          <Text className="vernacular">N.</Text>e{" "}
-          <Text className="text-red-500">N.</Text>, preservai-nos de todos os
+          <Typography className="vernacular">N.</Typography>e{" "}
+          <Typography className="text-red-500">N.</Typography>, preservai-nos de todos os
           perigos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 10, 27</Text>
+      <Typography className="em">Mt. 10, 27</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quod dico vobis in ténebris, dícite in lúmine, dicit Dóminus: et quod
           in aure audítis, prædicáte super tecta.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O que vos digo nas trevas dizei-o às claras, diz o Senhor; e o que vos
           disse ao ouvido pregai-o em cima dos telhados.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc nos commúnio, Dómine, purget a crímine: et, intercedéntibus
-          sanctis Martýribus tuis <Text className="latin">N.</Text> et{" "}
-          <Text className="text-red-500">N.</Text>, cœléstis remédii fáciat esse
+          sanctis Martýribus tuis <Typography className="latin">N.</Typography> et{" "}
+          <Typography className="text-red-500">N.</Typography>, cœléstis remédii fáciat esse
           consórtes. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que esta comunhão nos purifique dos nossos crimes, Senhor, e que por
           intercessão dos vossos santos Mártires{" "}
-          <Text className="vernacular">N.</Text>e{" "}
-          <Text className="text-red-500">N.</Text> nos faça participantes do
+          <Typography className="vernacular">N.</Typography>e{" "}
+          <Typography className="text-red-500">N.</Typography> nos faça participantes do
           remédio celestial. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">Outro Evangelho (para certos dias):</Text>
+      <Typography className="aside">Outro Evangelho (para certos dias):</Typography>
 
       <H3 text="Evangelho2" />
 
-      <Text className="em">Mt. 24, 3-13</Text>
+      <Typography className="em">Mt. 24, 3-13</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Sedénte Jesu super montem Olivéti, accessérunt ad eum
           discípuli secréto, dicéntes: Dic nobis, quando hæc erunt? et quod
           signum advéntus tui et consummatiónis sǽculi? Et respóndens Jesus,
@@ -285,8 +285,8 @@ export default function Page8Muitosmartires3() {
           odio habébunt ínvicem. Et multi pseudoprophétæ surgent, et sedúcent
           multos. Et quóniam abundávit iníquitas, refrigéscet cáritas multórum.
           Qui autem perseveráverit usque in finem, hic salvus erit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, sentando-se Jesus no Monte das Oliveiras,
           aproximaram-se d’Ele em particular os seus discípulos,
           perguntando-Lhe: «Dizei-nos quando acontecerão essas coisas? Que sinal
@@ -304,7 +304,7 @@ export default function Page8Muitosmartires3() {
           outros. Aparecerão muitos falsos profetas, que seduzirão muitas
           pessoas. Então, porque a iniquidade terá atingido o cúmulo, resfriará
           a caridade de muitos. Aquele que perseverar até ao fim será salvo».
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

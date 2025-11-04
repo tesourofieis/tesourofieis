@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function PageConversaoinfieis() {
       <H1 text="Para a conversão dos infiéis, São Francisco Xavier" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ætérne rerum omnium effector Deus, memento abs te animas infidelium
           procreatas, easque ad imaginem et similitúdinem tuam conditas. Memento
           Jesum, Fílium tuum, pro illorum salúte atrocissimam subiisse necem.
@@ -20,8 +20,8 @@ export default function PageConversaoinfieis() {
           aliquando quem misisti Dóminum Jesum Christum, qui est salus, vita et
           resurrectio nostra, per quem salvati et liberáti sumus, cui sit glória
           per infinita sǽcula sæculórum. Amen.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, eterno, autor de todas as coisas, lembrai-Vos das almas dos
           infiéis, formadas por Vós à vossa imagem e semelhança: vede Senhor,
           que, em opróbrio vosso, deles se vai enchendo o inferno. Lembrai-Vos
@@ -33,7 +33,7 @@ export default function PageConversaoinfieis() {
           venham a conhecer Aquele que enviastes, Jesus Cristo Nosso senhor, que
           é a salvação, vida e ressurreição nossa, por quem fomos salvos e
           livres, ao qual seja dada glória por infinitos séculos. Amen.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

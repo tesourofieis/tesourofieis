@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,51 +10,51 @@ export default function PageEpi30() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 96, 7-8</Text>
+      <Typography className="em">Sl. 96, 7-8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et
-          exsultavérunt fíliæ Judae. <Text className="latin">Ps. ibid., 1</Text>{" "}
+          exsultavérunt fíliæ Judae. <Typography className="latin">Ps. ibid., 1</Typography>{" "}
           Dóminus regnávit, exsúltet terra: læténtur ínsulæ multæ.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Adorai a Deus, ó vós, que sois os seus Anjos. Ouviu Sião e rejubilou:
           e as filhas de Judá exultaram de alegria.{" "}
-          <Text className="vernacular">Sl. ibid., 1</Text> O Senhor reinou:
+          <Typography className="vernacular">Sl. ibid., 1</Typography> O Senhor reinou:
           alegre-se a terra e as suas muitas ilhas.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Omnípotens sempitérne Deus, infirmitatem nostram propítius réspice:
           atque, ad protegéndum nos, déxteram tuæ majestátis exténde. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente e eterno, olhai benigno para a nossa fraqueza, e
           que a vossa majestade nos estenda a sua dextra para nos proteger
           continuamente. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Rm. 12, 16-21</Text>
+      <Typography className="em">Rm. 12, 16-21</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Nolíte esse prudéntes apud vosmetípsos: nulli malum pro malo
           reddéntes: providéntes bona non tantum coram Deo, sed étiam coram
           ómnibus homínibus. Si fíeri potest, quod ex vobis est, cum ómnibus
@@ -63,8 +63,8 @@ export default function PageEpi30() {
           Dóminus. Sed si esuríerit inimícus tuus, ciba illum: si sitit, potum
           da illi: hoc enim fáciens, carbónes ignis cóngeres super caput ejus.
           Noli vinci a malo, sed vince in bono malum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Não presumais que sois prudentes; não retribuais a
           ninguém o mal com o mal; antes praticai cuidadosamente o bem, tanto
           diante de Deus, como perante os homens. Vivei em paz com todos os
@@ -75,50 +75,50 @@ export default function PageEpi30() {
           dai-lhe de beber; pois, se assim procederdes, reunireis brasas de fogo
           sobre a sua cabeça. Não vos deixeis vencer pelo mal; mas triunfai do
           mal, praticando o bem.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 101, 16-17</Text>
+      <Typography className="em">Sl. 101, 16-17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam.
-          <Text className="versicle"> ℣. </Text>Quóniam ædificávit Dóminus Sion,
+          <Typography className="versicle"> ℣. </Typography>Quóniam ædificávit Dóminus Sion,
           et vidébitur in majestáte sua.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           As nações temerão o vosso nome, Senhor; e todos os reis da terra
-          contemplarão a vossa glória.<Text className="versicle"> ℣. </Text>
+          contemplarão a vossa glória.<Typography className="versicle"> ℣. </Typography>
           Pois o Senhor reedificou Sião: e manifestar-se-á aí na sua majestade.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 96, 1</Text> Dóminus regnávit, exsúltet
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 96, 1</Typography> Dóminus regnávit, exsúltet
           terra: læténtur ínsulæ multæ. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Ps. 96, 1</Text> O Senhor reinou:
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Ps. 96, 1</Typography> O Senhor reinou:
           alegre-se a terra e as suas muitas ilhas. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 8, 1-13</Text>
+      <Typography className="em">Mt. 8, 1-13</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Cum descendísset Jesus de monte, secútæ sunt eum
           turbæ multæ: et ecce, leprósus véniens adorábat eum, dicens: Dómine,
           si vis, potes me mundáre. Et exténdens Jesus manum, tétigit eum,
@@ -138,8 +138,8 @@ export default function PageEpi30() {
           regno cœlórum: fílii autem regni ejiciéntur in ténebras exterióres:
           ibi erit fletus et stridor déntium. Et dixit Jesus centurióni: Vade
           et, sicut credidísti, fiat tibi. Et sanátus est puer in illa hora.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, descendo Jesus do monte, era acompanhado por numerosas
           pessoas. Eis que veio ter com Ele um leproso, adorando-O e
           dizendo-Lhe: «Senhor, se quiserdes, podeis curar-me». Então, Jesus,
@@ -162,64 +162,64 @@ export default function PageEpi30() {
           do reino serão lançados nas trevas exteriores, onde haverá choro e
           ranger de dentes». Então Jesus disse ao centurião: «Vai; e que se faça
           segundo a tua crença». E naquela hora ficou curado o servo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 117, 16 & 17</Text>
+      <Typography className="em">Sl. 117, 16 & 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Déxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non
           móriar, sed vivam, et narrábo ópera Dómini.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A dextra do Senhor mostrou o seu poder: a dextra do Senhor exaltou-me.
           Não morrerei: viverei e nanarei os prodígios do Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad
           sacrifícium celebrándum, subditórum tibi córpora mentésque
           sanctíficet. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que esta hóstia, Senhor, Vos suplicamos, nos purifique dos nossos
           delitos, e santifique as almas e os corpos dos vossos súbditos, para
           que dignamente celebremos este sacrifício. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Lc. 4, 22</Text>
+      <Typography className="em">Lc. 4, 22</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mirabántur omnes de his, quæ procedébant de ore Dei.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Todos estavam admirados das palavras que saíam da boca de Deus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quos tantis, Dómine, largíris uti mystériis: quǽsumus; ut efféctibus
           nos eórum veráciter aptáre dignéris. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, já que nos concedestes a graça de participarmos destes tão
           augustos mystérios, tornai-nos dignos, Vos suplicamos, de recebermos
           com eficácia os seus efeitos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function PageCoroacaopapa() {
     <PageWrapper>
       <H1 text="No dia da Coroação do Sumo Pontífice e Aniversário da Coroação" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/santos/02-22">
           Missa da Cadeira de S. Pedro em Roma
@@ -19,26 +19,26 @@ export default function PageCoroacaopapa() {
           Missa Si díligis me.
         </Link>{" "}
         No Tempo Pascal, em vez do Gradual e do Trato, diz-se:
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 106, 8</Text> Confitébitur Dómino
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 106, 8</Typography> Confitébitur Dómino
           misericórdiæ ejus, et mirabília ejus fíliis hóminum. Allelúja.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Matth. 16, 18</Text> Tu es Petrus, et super hanc
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Matth. 16, 18</Typography> Tu es Petrus, et super hanc
           petram ædificábo Ecclésiam meam. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 106, 8</Text> Seja o Senhor
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 106, 8</Typography> Seja o Senhor
           glorificado por causa da misericórdia e das maravilhas que praticou em
           favor dos homens. Aleluia.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Mt. 16, 18</Text> Tu és Pedro, e sobre esta pedra
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Mt. 16, 18</Typography> Tu és Pedro, e sobre esta pedra
           edificarei a minha Igreja.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

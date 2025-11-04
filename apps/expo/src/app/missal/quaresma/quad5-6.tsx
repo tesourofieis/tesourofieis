@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,38 +9,38 @@ export default function PageQuad56() {
     <PageWrapper>
       <H1 text="Sábado da Semana da Paixão" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Intróito, Gradual, Ofertório e Comúnio como na
         <Link href="/missal/quaresma/quad5-5">
           Sexta-feira da Semana da Paixão - Estação em Santo Estêvão no Monte
           Célio.
         </Link>
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Profíciat, quǽsumus, Dómine, plebs tibi dicáta piæ devotiónis afféctu:
           ut sacris actiónibus erudíta, quanto majestáti tuæ fit grátior, tanto
           donis potióribus augeátur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Permiti, Senhor, Vos imploramos, que o povo, que Vos é consagrado,
           aumente com fervor a sua piedade, a fim de que, instruindo-se com
           estes actos da religião, alcance tanto mais dons celestiais quanto
           mais se tornar agradável à vossa divina majestade. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Jr. 18, 18-23</Text>
+      <Typography className="em">Jr. 18, 18-23</Typography>
 
       <Language>
-        <Text className="latin">Léctio Jeremíæ Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Jeremias.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Jeremíæ Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Jeremias.</Typography>
+        <Typography className="latin">
           In diébus illis: Dixérunt ímpii Judǽi ad ínvicem: Veníte, et cogitémus
           contra justum cogitatiónes: non enim períbit lex a sacerdóte, neque
           consílium a sapiénte, nec sermo a prophéta: veníte, et percutiámus eum
@@ -57,8 +57,8 @@ export default function PageQuad56() {
           in mortem: ne propitiéris iniquitáti eórum, et peccátum eórum a fácie
           tua non deleátur. Fiant corruéntes in conspéctu tuo, in témpore
           furóris tui ab útere eis, Dómine, Deus noster.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, disseram os ímpios judeus uns aos outros: «Vinde e
           formemos um plano contra o justo, pois não faltarão sacerdotes, que
           nos ensinem a lei, nem sábios, que nos aconselhem, nem profetas, que
@@ -78,23 +78,23 @@ export default function PageQuad56() {
           seu pecado se não apague aos vossos olhos; que fiquem esmagados na
           vossa presença; e que no dia da vossa indignação sejam tratados sem
           clemência, ó Senhor, nosso Deus».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 12, 10-36</Text>
+      <Typography className="em">Jo. 12, 10-36</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Cogitavérunt príncipes sacerdótum, ut et Lázarum
           interfícerent: quia multi propter illum abíbant ex Judǽis, et
           credébant in Jesum. In crastínum autem turba multa, quæ vénerat ad
@@ -136,8 +136,8 @@ export default function PageQuad56() {
           comprehéndant: et qui ámbulat in ténebris, nescit, quo vadat. Dum
           lucem habétis, crédite in lucem: ut fílii lucis sitis. Hæc locútus est
           Jesus: et ábiit, et abscóndit se ab eis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, os príncipes dos sacerdotes pensaram mandar matar
           também Lázaro, porque muitos judeus, por causa da ressurreição de
           Lázaro, acreditavam em Jesus, afastando-se deles. No dia seguinte,
@@ -182,61 +182,61 @@ export default function PageQuad56() {
           surpreendam. Aqueles que andam nas trevas não sabem para onde vão.
           Enquanto tendes luz, acreditai na luz, a fim de que sejais filhos da
           luz». Ditas estas coisas, Jesus retirou-se e escondeu-se deles.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           A cunctis nos, quǽsumus, Dómine, reátibus et perículis propitiátus
           absólve: quos tanti mystérii tríbuis esse consórtes. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A nós, Senhor, que Vos dignastes tornar participantes deste tão solene
           mystério, concedei-nos o perdão de todas nossas culpas, Vos rogamos, e
           livrai-nos de todos os perigos. Por...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Divíni múneris largitáte satiáti, quǽsumus, Dómine, Deus noster: ut
           hujus semper participatióne vivámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Saciados com a liberdade deste divino dom, Vos imploramos, Senhor,
           nosso Deus, permiti que sejamos aviventados sempre que dele
           comparticiparmos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração sobre o povo" />
 
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">Humiliáte cápita vestra Deo.</Text>
-        <Text className="vernacular">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">Humiliáte cápita vestra Deo.</Typography>
+        <Typography className="vernacular">
           Inclinai as vossas cabeças diante de Deus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Tueátur, quǽsumus, Dómine, déxtera tua pópulum deprecántem: et
           purificátum dignánter erúdiat; ut, consolatióne præsénti, ad futúra
           bona profíciat. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que a vossa dextra, Senhor, proteja o vosso povo suplicante, Vos
           pedimos, e que, purificando-se dignamente, o instrua, a fim de que a
           consolação, que acaba de alcançar, lhe sirva para conseguir os bens
           futuros. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

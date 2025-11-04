@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -9,7 +9,7 @@ export default function Page1206() {
     <PageWrapper>
       <H1 text="S. Nicolau, B. e Conf., a 6 de Dezembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         S. Nicolau, chamado o Grande, nasceu na Ásia Menor. Deus o glorificou
         por inúmeros milagres e a Igreja, em vista do poder desse Santo sobre as
         chamas, nos faz pedir a graça de sermos preservados, por sua
@@ -23,7 +23,7 @@ export default function Page1206() {
         generosidade de S. Nicolau, os presentes encontrados nos sapatos das
         crianças. O Santo morreu em 324. Suas relíquias são conservadas em Bari
         (Itália). Ajudemos o próximo nas suas necessidades de corpo e alma.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
@@ -35,31 +35,31 @@ export default function Page1206() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beátum Nicoláum Pontíficem innúmeris decorásti miráculis:
           tríbue, quǽsumus; ut ejus méritis et précibus a gehénnæ incéndiis
           liberémur. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que distinguistes o B. Pontífice Nicolau, concedendo-lhe o dom
           de praticar inumeráveis milagres, permiti, Vos suplicamos, que pelos
           seus méritos e preces sejamos preservados do fogo do inferno. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Heb. 13, 7-17</Text>
+      <Typography className="em">Heb. 13, 7-17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Hebrǽos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Hebreus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Mementóte præpositórum vestrórum, qui vobis locúti sunt
           verbum Dei: quorum intuéntes éxitum conversatiónis, imitámini fidem.
           Jesus Christus heri et hódie: ipse et in sǽcula. Doctrínis váriis et
@@ -76,8 +76,8 @@ export default function Page1206() {
           oblivísci: tálibus enim hóstiis promerétur Deus. Obœdíte præpósitis
           vestris et subjacéte eis. Ipsi enim pervígilant, quasi ratiónem pro
           animábus vestris redditúri.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Lembrai-vos dos vossos pastores que vos pregaram a
           palavra de Deus; e, considerando qual foi o fim da sua vida, imitai a
           sua fé. Jesus Cristo é o mesmo ontem e hoje, e será o mesmo em todos
@@ -96,36 +96,36 @@ export default function Page1206() {
           liberalidade, que são sacrifícios muito agradáveis a Deus. Obedeci aos
           vossos pastores e sede-lhe submissos; pois elos vigiam as vossas
           almas, das quais têm de dar conta.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 88, 21-23</Text>
+      <Typography className="em">Sl. 88, 21-23</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
           auxiliábitur ei, et bráchium meum confortábit eum.
-          <Text className="versicle"> ℣. </Text>Nihil profíciet inimícus in eo,
+          <Typography className="versicle"> ℣. </Typography>Nihil profíciet inimícus in eo,
           et fílius iniquitátis non nocébit ei.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Encontrei o meu servo David e ungi-o com meu óleo sagrado: a minha mão
           o auxiliará e o meu braço o fortalecerá.
-          <Text className="versicle"> ℣. </Text>Contra ele não prevalecerá o
+          <Typography className="versicle"> ℣. </Typography>Contra ele não prevalecerá o
           inimigo, e o filho da iniquidade não poderá fazer-lhe mal.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 91, 13</Text> Justus ut palma florébit:
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 91, 13</Typography> Justus ut palma florébit:
           sicut cedrus Líbani multiplicábitur. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 91, 13</Text> O justo florescerá,
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 91, 13</Typography> O justo florescerá,
           como a palmeira, e crescerá, como o cedro do Líbano. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -137,64 +137,64 @@ export default function Page1206() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 88, 25</Text>
+      <Typography className="em">Sl. 88, 25</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur
           cornu ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A minha verdade e a minha misericórdia estarão com ele: e o seu poder
           elevar-se-á pelo meu nome.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sanctífica, quǽsumus, Dómine Deus, hæc múnera, quæ in sollemnitáte
           sancti Antístitis tui Nicolái offérimus: ut per ea vita nostra inter
           advérsa et próspera úbique dirigátur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Santificai, ó Senhor, nosso Deus, estes dons, que Vos apresentamos na
           solenidade do vosso santo Pontífice Nicolau, a fim de que por meio
           deles possamos sempre proceder com rectidão, tanto nas adversidades,
           como nas prosperidades. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 88, 36-38</Text>
+      <Typography className="em">Sl. 88, 36-38</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Semel jurávi in sancto meo: Semen ejus in ætérnum manebit, et sedes
           ejus sicut sol in conspéctu meo, et sicut luna perfécta in ætérnum, et
           testis in cœlo fidélis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Jurei uma vez por minha santidade: a sua descendência durará
           eternamente e o seu trono brilhará perante mim, como o sol, e, como a
           lua, permanecerá para sempre, e será testemunho fiel no céu.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacrifícia, quæ súmpsimus, Dómine, pro sollemnitáte sancti Pontíficis
           tui Nicolái, sempitérna nos protectióne consérvent. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que o sacrifício de que participámos, celebrando a festa do santo
           Pontífice Nicolau, Senhor, nos alcance perpetuamente a vossa
           protecção. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

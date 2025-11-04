@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,53 +10,53 @@ export default function PagePelapaz() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Ecl. 36, 18</Text>
+      <Typography className="em">Ecl. 36, 18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Da pacem, Dómine, sustinéntibus te, ut prophétæ tui fidéles
           inveniántur: exáudi preces servi tui, et plebis tuæ Israël. (T. P.
-          Allelúja, allelúja.) <Text className="latin">Ps. 121, 1</Text> Lætátus
+          Allelúja, allelúja.) <Typography className="latin">Ps. 121, 1</Typography> Lætátus
           sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Dai a paz, Senhor, aos que em Vós esperam, para que os vossos Profetas
           sejam encontrados verdadeiros; ouvi as súplicas do vosso servo e de
           Israel, vosso povo. (T. P. Aleluia, aleluia.){" "}
-          <Text className="vernacular">Sl. 121, 1</Text> Regozijei-me quando me
+          <Typography className="vernacular">Sl. 121, 1</Typography> Regozijei-me quando me
           disseram: iremos para a casa do Senhor.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, a quo sancta desidéria, recta consília et justa sunt ópera: da
           servis tuis illam, quam mundus dare non potest, pacem; ut et corda
           nostra mandátis tuis dédita, et, hóstium subláta formídine, témpora
           sint, tua protectióne, tranquílla. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, de quem nascem os santos desejos, os bons pensamentos e as
           obras justas, concedei aos vossos servos aquela paz que o mundo não
           pode dar, a fim de que os nossos corações amem intimamente os vossos
           mandamentos, e livres do temor dos inimigos e sustentados com vossa
           graça, gozemos dias tranquilos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">2 Mach. 1, 1-5</Text>
+      <Typography className="em">2 Mach. 1, 1-5</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Machabæórum.</Text>
-        <Text className="vernacular">Lição do Livro dos Macabeus.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Machabæórum.</Typography>
+        <Typography className="vernacular">Lição do Livro dos Macabeus.</Typography>
+        <Typography className="latin">
           Frátribus, qui sunt per Ægýptum, Judǽis, salutem dicunt fratres, qui
           sunt in Jerosólymis, Judǽi et qui in regióne Judǽæ, et pacem bonam.
           Benefáciat vobis Deus et memínerit testaménti sui, quod locútus est ad
@@ -65,8 +65,8 @@ export default function PagePelapaz() {
           ánimo volénti. Adapériat cor vestrum in lege sua et in præcéptis suis
           et fáciat pacem. Exáudiat oratiónes vestras et reconciliétur vobis nec
           vos déserat in témpore malo, Dóminus, Deus noster.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Os judeus de Jerusalém e do país da Judeia desejam aos seus Irmãos,
           que estão dispersos peto Egipto, saúde e boa paz. Que Deus vos cumule
           de bênçãos, que se lembre da aliança que fez com seus fiéis servos
@@ -75,100 +75,100 @@ export default function PagePelapaz() {
           que ilumine o vosso coração com sua lei e com seus preceitos, para que
           gozeis a paz; que Ele o Senhor, nosso Deus atenda às vossas orações,
           se reconcilie convosco e vos não abandone nos tempos adversos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 121, 6-7</Text>
+      <Typography className="em">Sl. 121, 6-7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Rogáte quæ ad pacem sunt Jerúsalem: et abundántia diligéntibus te.
-          <Text className="versicle"> ℣. </Text>Fiat pax in virtúte tua, et
+          <Typography className="versicle"> ℣. </Typography>Fiat pax in virtúte tua, et
           abundántia in túrribus tuis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Rogai ao Senhor que dê a paz aos que estão em Jerusalém. Que vivam na
           abundância dos bens aqueles que Vos amam, ó Sião.
-          <Text className="versicle"> ℣. </Text>Que haja paz nas tuas fortalezas
+          <Typography className="versicle"> ℣. </Typography>Que haja paz nas tuas fortalezas
           e abundância nas tuas torres.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 147, 12</Text> Lauda, Jerúsalem, Dóminum:
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 147, 12</Typography> Lauda, Jerúsalem, Dóminum:
           lauda Deum tuum, Sion. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 147, 12</Text> Louvai o Senhor, vosso
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 147, 12</Typography> Louvai o Senhor, vosso
           Deus, ó Sião. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         Após a Septuagésima, omite-se o Aleluia e o seguinte, e diz-se:
-      </Text>
+      </Typography>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 75, 2-4</Text>
+      <Typography className="em">Sl. 75, 2-4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Notus in Judǽa Deus, in Israël magnum nomen ejus.
-          <Text className="versicle"> ℣. </Text>Et factus est in pace locus
+          <Typography className="versicle"> ℣. </Typography>Et factus est in pace locus
           ejus, et habitátio ejus in Sion.
-          <Text className="versicle"> ℣. </Text>Ibi confrégit poténtias árcuum,
+          <Typography className="versicle"> ℣. </Typography>Ibi confrégit poténtias árcuum,
           scutum, gládium, et bellum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deus é conhecido na Judeia; o seu nome é grande em Israel;
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Escolheu em Sião o seu lugar de repouso e aí permaneceu;
-          <Text className="versicle"> ℣. </Text>E contra os seus muros
+          <Typography className="versicle"> ℣. </Typography>E contra os seus muros
           quebraram-se os poderes dos arcos, dos escudos, das espadas e da
           própria guerra.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         No Tempo Pascal omite-se, o Gradual e o Trato e diz-se:
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 147, 12</Text> Lauda, Jerúsalem, Dóminum:
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 147, 12</Typography> Lauda, Jerúsalem, Dóminum:
           lauda Deum tuum, Sion. Allelúja.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">ibid., 14</Text> Qui pósuit fines tuos pacem, et
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">ibid., 14</Typography> Qui pósuit fines tuos pacem, et
           ádipe fruménti sátiat te. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 147, 12</Text> Louvai o Senhor, ó
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 147, 12</Typography> Louvai o Senhor, ó
           Jerusalém; louvai o vosso Deus, ó Sião. Aleluia.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">ibid., 14</Text> Ele estabeleceu a paz nas vossas
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">ibid., 14</Typography> Ele estabeleceu a paz nas vossas
           fronteiras e sustentou-vos com o pão mais fino. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 20, 19-23</Text>
+      <Typography className="em">Jo. 20, 19-23</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Cum sero esset die illo, una sabbatórum, et fores
           essent clausæ, ubi erant discípuli congregáti propter metum Judæórum:
           venit Jesus, et stetit in médio, et dixit eis: Pax vobis. Et cum hoc
@@ -177,8 +177,8 @@ export default function PagePelapaz() {
           et ego mitto vos. Hæc cum dixísset, insufflávit, et dixit eis:
           Accípite Spíritum Sanctum: quorum remiseritis peccáta, remittúntur
           eis; et quorum retinuéritis, reténta sunt.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, chegada a tarde daquele dia, que era o primeiro da
           semana, encontrando-se os discípulos reunidos em um lugar, cujas
           portas estavam fechadas, por causa do medo que tinham dos judeus, veio
@@ -189,74 +189,74 @@ export default function PagePelapaz() {
           estas palavras, soprou sobre eles, dizendo: «Recebei o Espírito Santo.
           Àqueles a quem perdoardes os pecados, ser-lhes-ão perdoados, e àqueles
           a quem os retiverdes, ser-lhes-ão retidos».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 134, 3 & 6</Text>
+      <Typography className="em">Sl. 134, 3 & 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Laudáte Dóminum, quia benígnus est: psállite nómini ejus, quóniam
           suávis est: ómnia quæcúmque vóluit, fecit in cœlo et in terra. (T. P.
           Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Louvai o Senhor, pois Ele é benigno: cantai hinos em louvor do seu
           nome, porque Ele é suave. Ele fez tudo quanto quis no céu e na terra.
           (T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui credéntes in te pópulos nullis sinis cóncuti terróribus:
           dignáre preces et hóstias dicátæ tibi plebis suscípere; ut pax, a tua
           pietáte concéssa, Christianórum fines ab omni hoste fáciat esse
           secúros. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que não deixais abalar pelo terror os povos que confiam em
           Vós, dignai-Vos aceitar as preces e as oblatas deste devoto povo, para
           que, havendo-nos a vossa bondade concedido a paz, os países cristãos
           vivam em segurança contra seus inimigos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 14, 27</Text>
+      <Typography className="em">Jo. 14, 27</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Pacem relínquo vobis: pacem meam do vobis, dicit Dóminus. (T. P.
           Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eu vos deixo a paz: Eu vos dou a minha paz, diz o Senhor. (T. P.
           Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, auctor pacis et amátor, quem nosse vívere, cui servíre regnáre
           est: prótege ab ómnibus impugnatiónibus súpplices tuos; ut, qui in
           defensióne tua confídimus, nullíus hostilitátis arma timeámus. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que sois autor e amante da paz, aqueles que Vos conhecem
           vivem, e aqueles que Vos servem reinam; protegei, pois, contra todas
           as adversidades aqueles que Vos dirigem as suas súplicas, para que,
           havendo posto toda a confiança em Vós, nunca mais temamos as armas de
           nenhum inimigo. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

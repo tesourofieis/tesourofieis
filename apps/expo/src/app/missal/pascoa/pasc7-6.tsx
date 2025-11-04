@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,49 +10,49 @@ export default function PagePasc76() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Rm. 5, 5</Text>
+      <Typography className="em">Rm. 5, 5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cáritas Dei diffúsa est in córdibus nostris, allelúja: per
           inhabitántem Spíritum ejus in nobis, allelúja, allelúja.{" "}
-          <Text className="latin">Ps. 102, 1</Text> Benedic, anima mea, Dómino:
+          <Typography className="latin">Ps. 102, 1</Typography> Benedic, anima mea, Dómino:
           et ómnia, quæ intra me sunt, nómini sancto ejus.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O amor de Deus espalhou-se nos nossos corações, aleluia: pelo seu
           Espírito que habita em nós, aleluia, aleluia.{" "}
-          <Text className="vernacular">Sl. 102, 1</Text> Bendize o Senhor, ó
+          <Typography className="vernacular">Sl. 102, 1</Typography> Bendize o Senhor, ó
           minha alma: e que tudo o que existe em mim bendiga o seu santo nome.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Méntibus nostris, quǽsumus, Dómine, Spíritum Sanctum benígnus infúnde:
           cujus et sapiéntia cónditi sumus, et providéntia gubernámur. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos rogamos, dignai-Vos infundir em nossas almas o Espírito
           Santo, cuja sabedoria nos criou e cuja providência nos governa. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="1.ª Lição" />
 
-      <Text className="em">Jl. 2, 28-32</Text>
+      <Typography className="em">Jl. 2, 28-32</Typography>
 
       <Language>
-        <Text className="latin">Léctio Joélis Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Joel.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Joélis Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Joel.</Typography>
+        <Typography className="latin">
           Hæc dicit Dóminus Deus: Effúndam Spíritum meum super omnem carnem: et
           prophetábunt fílii vestri et fíliæ vestræ: senes vestri sómnia
           somniábunt, et júvenes vestri visiónes vidébunt. Sed et super servos
@@ -61,8 +61,8 @@ export default function PagePasc76() {
           convertétur in ténebras et luna in sánguinem: ántequam véniat dies
           Dómini magnus ei horríbilis. Et erit: omnis, qui invocáverit nomen
           Dómini, salvus erit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eis o que diz o Senhor Deus: «Espalharei o meu Espírito em toda a
           carne; os vossos filhos e filhas profetizarão; os vossos anciãos terão
           sonhos misteriosos: e os vossos jovens visões. Naqueles dias enviarei
@@ -70,45 +70,45 @@ export default function PagePasc76() {
           terra: sangue, fogo e nuvens de fumo. O sol converter-se-á em trevas e
           a lua em sangue, antes que chegue o grande e terrível dia do Senhor.
           Então, todo aquele que invocar o nome do Senhor será salvo».
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Joann. 6, 64</Text> Spíritus est, qui
+        <Typography className="latin">
+          Allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Joann. 6, 64</Typography> Spíritus est, qui
           vivíficat: caro autem non prodest quidquam.
-        </Text>
-        <Text className="vernacular">
-          Aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Jo. 6, 64</Text> O Espírito é que dá a
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Jo. 6, 64</Typography> O Espírito é que dá a
           vida; pois a carne não dá nenhum proveito.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Illo nos igne, quǽsumus, Dómine, Spíritus Sanctus inflámmet: quem
           Dóminus noster Jesus Christus misit in terram, et vóluit veheménter
           accéndi: Qui tecum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicamos, fazei que o Espírito Santo nos abrase com
           aquele fogo que Cristo enviou à terra e quer ardentemente que
           permaneça aceso. Ele, que convosco vive e reina...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="2.ª Lição" />
 
-      <Text className="em">Lv. 23, 9-11, 15-17 & 21</Text>
+      <Typography className="em">Lv. 23, 9-11, 15-17 & 21</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Levítici.</Text>
-        <Text className="vernacular">Lição do Livro Levítico.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Levítici.</Typography>
+        <Typography className="vernacular">Lição do Livro Levítico.</Typography>
+        <Typography className="latin">
           In diébus illis: Locútus est Dóminus ad Móysen, dicens: Lóquere fíliis
           Israel, et dices ad eos: Cum ingréssi fuéritis terram, quam ego dabo
           vobis, et messuéritis ségetem, ferétis manípulos spicárum, primítias
@@ -123,8 +123,8 @@ export default function PagePasc76() {
           atque sanctíssimum: omne opus servíle non faciétis in eo. Legítimum
           sempitérnum erit in cunctis habitáculis et generatiónibus vestris:
           dicit Dóminus omnípotens.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, disse o Senhor a Moisés: «Fala aos filhos de Israel e
           diz-lhes: «Quando entrardes na terra, que vos der, e fizerdes a ceifa,
           apresentareis ao sacerdote um molho de espigas, como primícias da
@@ -140,45 +140,45 @@ export default function PagePasc76() {
           praticareis durante ele nenhum trabalho servil. Esta ordem será uma
           lei perpétua em todas vossas casas e para toda vossa descendência»:
           diz o Senhor omnipotente.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Job 26, 13</Text> Spíritus ejus ornávit cœlos.
-        </Text>
-        <Text className="vernacular">
-          Aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Jb 26, 13</Text> Seu Espírito aformoseou
+        <Typography className="latin">
+          Allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Job 26, 13</Typography> Spíritus ejus ornávit cœlos.
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Jb 26, 13</Typography> Seu Espírito aformoseou
           os céus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui, ad animárum medélam, jejúnii devotióne castigári córpora
           præcepísti: concéde nobis propítius; et mente et córpore tibi semper
           esse devótos. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que para a cura das nossas almas ordenastes que castigássemos
           os nossos corpos com o devoto exercício do jejum, concedei-nos
           propício a graça de Vos sermos fielmente dedicados, tanto com o corpo,
           como com o espírito. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="3.ª Lição" />
 
-      <Text className="em">Dt. 26, 1-11</Text>
+      <Typography className="em">Dt. 26, 1-11</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Deuteronómii.</Text>
-        <Text className="vernacular">Lição do Livro Deuteronómio.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Deuteronómii.</Typography>
+        <Typography className="vernacular">Lição do Livro Deuteronómio.</Typography>
+        <Typography className="latin">
           In diébus illis: Dixit Moyses fíliis Israël: Audi, Israël, quæ ego
           præcípio tibi hódie. Cum intráveris terram, quam Dóminus, Deus tuus,
           tibi datúrus est possidéndam, et obtinúeris eam atque habitáveris in
@@ -193,8 +193,8 @@ export default function PagePasc76() {
           nunc óffero primítias frugum terræ, quam Dóminus dedit mihi. Et
           dimíttes eas in conspéctu Dómini, Dei tui, et adoráto Dómino, Deo tuo.
           Et epuláberis in ómnibus bonis, quæ Dóminus, Deus tuus, déderit tibi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, disse Moisés aos filhos de Israel: «Ouvi, ó Israel, o
           que hoje vos ordeno: Quando enfiardes na terra de que o Senhor, vosso
           Deus, vos dará posse; quando a tiverdes conquistado e nela habitardes,
@@ -210,46 +210,46 @@ export default function PagePasc76() {
           deu». Então colocareis as primícias diante do Senhor Deus e O
           adorareis. Depois preparareis um banquete com todas as coisas boas que
           o Senhor, vosso Deus, vos houver dado».
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Act. 2, 1</Text> Cum compleréntur dies
+        <Typography className="latin">
+          Allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Act. 2, 1</Typography> Cum compleréntur dies
           Pentecóstes, erant omnes páriter sedéntes.
-        </Text>
-        <Text className="vernacular">
-          Aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Act. 2, 1</Text> Tendo já chegado o dia
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Act. 2, 1</Typography> Tendo já chegado o dia
           de Pentecostes, estavam todos reunidos em assembleia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, salutáribus jejúniis erudíti,
           ab ómnibus etiam vítiis abstinéntes, propitiatiónem tuam facílius
           impetrémus. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos suplicamos, fazei que sejamos instruídos com
           estes salutares jejuns, e que nos abstenhamos de todos os vícios, a
           fim de que mais facilmente alcancemos o vosso perdão. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="4.ª Lição" />
 
-      <Text className="em">Lv. 26, 3-12</Text>
+      <Typography className="em">Lv. 26, 3-12</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Levítici.</Text>
-        <Text className="vernacular">Lição do Livro Levítico.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Levítici.</Typography>
+        <Typography className="vernacular">Lição do Livro Levítico.</Typography>
+        <Typography className="latin">
           In diébus illis: Dixit Dóminus ad Móysen: Lóquere fíliis Israël, et
           dices ad eos: Si in præcéptis meis ambulavéritis, et mandáta mea
           custodiéritis et fecéritis ea, dabo vobis plúvias tempóribus suis, et
@@ -266,8 +266,8 @@ export default function PagePasc76() {
           superveniéntibus projiciétis. Ponam tabernáculum meum in médio vestri,
           et non abjíciet vos ánima mea. Ambulábo inter vos, et ero Deus vester,
           vosque éritis pópulus meus: dicit Dóminus omnípotens.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, disse o Senhor a Moisés: «Fala aos filhos de Israel e
           diz-lhes: «Se seguirdes a vossa vida, segundo os meus preceitos e
           observando os meus mandamentos, dar-vos-ei chuvas na estação própria,
@@ -285,46 +285,46 @@ export default function PagePasc76() {
           antigos por causa da abundância dos novos. Estabelecerei a minha
           morada no meio de vós. Andarei no meio de vós, serei o vosso Deus e
           sereis o meu povo»: diz o Senhor omnipotente.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja. <Text className="em">(hic genuflectitur)</Text>
-          <Text className="versicle"> ℣. </Text>
+        <Typography className="latin">
+          Allelúja. <Typography className="em">(hic genuflectitur)</Typography>
+          <Typography className="versicle"> ℣. </Typography>
           Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in
           eis ignem accénde.
-        </Text>
-        <Text className="vernacular">
-          Aleluia. <Text className="em">(Genuflecte-se)</Text>
-          <Text className="versicle"> ℣. </Text>
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia. <Typography className="em">(Genuflecte-se)</Typography>
+          <Typography className="versicle"> ℣. </Typography>
           Vinde, ó Espírito Santo: enchei os corações dos vossos fiéis e acendei
           neles o fogo do vosso amor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: sic nos ab épulis carnálibus
           abstinére; ut a vítiis irruéntibus páriter jejunémus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedei-nos, Senhor omnipotente, Vos rogamos, que nos abstenhamos de
           tal modo do uso das carnes, que nos afastemos também dos vícios que
           nos perseguem. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="5.ª Lição" />
 
-      <Text className="em">Dn. 3, 47-51</Text>
+      <Typography className="em">Dn. 3, 47-51</Typography>
 
       <Language>
-        <Text className="latin">Léctio Daniélis Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Daniel.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Daniélis Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Daniel.</Typography>
+        <Typography className="latin">
           In diébus illis: Angelus Dómini descéndit cum Azaría et sóciis ejus in
           fornácem: et excússit flammam ignis de fornáce, et fecit médium
           fornácis quasi ventum roris flantem. Flamma autem effundebátur super
@@ -333,8 +333,8 @@ export default function PagePasc76() {
           incendébant. Et non tétigit eos omníno ignis, neque contristávit, nec
           quidquam moléstiæ íntulit. Tunc hi tres quasi ex uno ore laudábant, et
           glorificábant, et benedicébant Deum in fornáce, dicéntes:
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, o Anjo do Senhor desceu à fornalha com Azarias e os
           seus companheiros e afastou da fornalha as chamas do fogo, soprando no
           meio delas como que um vento de orvalho. As chamas do fogo, porém,
@@ -344,65 +344,65 @@ export default function PagePasc76() {
           os feriram, nem lhes causaram qualquer incómodo! Então, estes três
           jovens louvavam, glorificavam e bendiziam Deus na fornalha, em voz
           uníssona, dizendo:
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 52</Text> Benedíctus es, Dómine, Deus
+        <Typography className="latin">
+          Allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 52</Typography> Benedíctus es, Dómine, Deus
           patrum nostrórum, et laudábilis in sǽcula.
-        </Text>
-        <Text className="vernacular">
-          Aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 52</Text> Bendito sois, Senhor,
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 52</Typography> Bendito sois, Senhor,
           Deus de nossos pais, e digno de louvor em todos os séculos.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">Diz-se o Glória in excélsis... Depois:</Text>
+      <Typography className="aside">Diz-se o Glória in excélsis... Depois:</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text> Dóminus vobíscum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text>O Senhor seja convosco.
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Et cum spíritu tuo.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> E com vosso espírito.
-        </Text>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>O Senhor seja convosco.
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui tribus púeris mitigásti flammas ígnium: concéde propítius;
           ut nos fámulos tuos non exúrat flamma vitiórum. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que mitigastes as chamas do fogo aos três jovens, concedei-nos
           misericordiosamente que nós, vosso servos, não sejamos queimados pelas
           chamas dos vícios. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Rm. 5, 1-5</Text>
+      <Typography className="em">Rm. 5, 1-5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Justificáti ex fide, pacem habeámus ad Deum per Dóminum
           nostrum Jesum Christum: per quem et habémus accéssum per fidem in
           grátiam istam, in qua stamus, et gloriámur in spe glóriæ filiórum Dei.
@@ -410,8 +410,8 @@ export default function PagePasc76() {
           tribulátio patiéntiam operátur, patiéntia autem probatiónem, probátio
           vero spem, spes autem non confúndit: quia cáritas Dei diffúsa est in
           córdibus nostris per Spíritum Sanctum, qui datus est nobis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Estando já justificados pela fé, tenhamos paz com Deus
           por nosso Senhor Jesus Cristo, por quem devemos ter acesso pela fé a
           esta graça, na qual permaneceremos firmes e alegres na esperança de
@@ -421,42 +421,42 @@ export default function PagePasc76() {
           provação a esperança. Ora a esperança nunca engana, porque o amor de
           Deus está espalhado nos nossos corações pelo Espírito Santo, que nos
           foi dado.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 116, 1-2</Text>
+      <Typography className="em">Sl. 116, 1-2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Quóniam confirmáta est super nos misericórdia ejus: et véritas Dómini
           manet in ætérnum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó nações, louvai todas o Senhor: glorificai-O, ó povos.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Porquanto é grande a sua misericórdia para connosco: e a verdade do
           Senhor permanece para sempre.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 4, 38-44</Text>
+      <Typography className="em">Lc. 4, 38-44</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Surgens Jesus de synagóga, introívit in domum
           Simónis. Socrus autem Simónis tenebátur magnis fébribus: et rogavérunt
           illum pro ea. Et stans super illam, imperávit febri: et dimísit illam.
@@ -469,8 +469,8 @@ export default function PagePasc76() {
           usque ad ipsum: et detinébant illum, ne discéderet ab eis. Quibus ille
           ait: Quia et áliis civitátibus opórtet me evangelizáre regnum Dei:
           quia ideo missus sum. Et erat prǽdicans in synagógis Galilǽæ.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, tendo saído Jesus da sinagoga, entrou em casa de Simão.
           Ora, como a sogra de Simão padecesse de uma grande febre, rogaram-Lhe
           por ela. Indo Ele ao pé dela, impôs o seu poder à febre, que logo
@@ -484,67 +484,67 @@ export default function PagePasc76() {
           detiveram-n’O, com medo de que se afastasse. Jesus disse-lhes: «É
           preciso que anuncie também o reino de Deus às outras cidades, porque
           para isso fui mandado». E pregava nas sinagogas da Galileia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 87, 2-3</Text>
+      <Typography className="em">Sl. 87, 2-3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dómine, Deus salútis meæ, in die clamávi et nocte coram te: intret
           orátio mea in conspéctu tuo, Dómine, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor e Deus, que sois o meu Salvador, dia e noite tenha clamado por
           Vós! Que minha prece chegue à vossa presença, aleluia!
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ut accépta tibi sint, Dómine, nostra jejúnia: præsta nobis, quǽsumus;
           hujus múnere sacraménti purificátum tibi pectus offérre. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A fim de que os nossos jejuns Vos sejam agradáveis, Senhor,
           concedei-nos, Vos suplicarmos, que possamos oferecer-Vos o nosso
           coração já purificado pela virtude deste sacrifício. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 3, 8</Text>
+      <Typography className="em">Jo. 3, 8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Spíritus, ubi vult, spirat: et vocem ejus audis, allelúja, allelúja:
           sed nescis, unde véniat aut quo vadat, allelúja, allelúja, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O Espírito sopra onde quer: e ouvis a sua voz, aleluia, aleluia: mas
           ignorais donde Ele Vem e para onde vai, aleluia, aleluia, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Prǽbeant nobis, Dómine, divínum tua sancta fervórem: quo eórum páriter
           et actu delectémur et fructu. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que os vossos divinos mystérios. Senhor, nos inspirem um fervor
           divino, a fina de que sua celebração e os seus frutos sejam as nossas
           delícias. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

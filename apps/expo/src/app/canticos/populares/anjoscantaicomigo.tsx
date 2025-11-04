@@ -1,4 +1,5 @@
-import { Text, View } from "react-native";
+import { Typography } from "~/components/typography";
+import { View } from "react-native";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -8,20 +9,20 @@ export default function PageAnjoscantaicomigo() {
       <H1 text="Ó anjos cantai comigo" />
 
       <View className="not-content">
-        <Text className="vernacular">
+        <Typography className="vernacular">
           Ó anjos cantai comigo, ó anjos louvai sem fim, dar graças eu não
           consigo, ó anjos dai-as por mim.
-        </Text>
-        <Text className="vernacular">{"\n"}</Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">{"\n"}</Typography>
+        <Typography className="vernacular">
           Canta serena minha alma bela jóia em Ti reluz. Já colheste a rica
           palma, já nasceu em mim Jesus.
-        </Text>
-        <Text className="vernacular">{"\n"}</Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">{"\n"}</Typography>
+        <Typography className="vernacular">
           Ó Jesus que amor tão terno Ó Jesus que amor o Teu, deixas o trono
           supremo vens fazer da terra o céu.
-        </Text>
+        </Typography>
       </View>
     </PageWrapper>
   );

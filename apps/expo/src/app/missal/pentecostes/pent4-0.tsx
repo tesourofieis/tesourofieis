@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,55 +10,55 @@ export default function PagePent40() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 26, 1 & 2</Text>
+      <Typography className="em">Sl. 26, 1 & 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dóminus illuminátio mea et salus mea, quem timebo? Dóminus defensor
           vitæ meæ, a quo trepidábo? qui tríbulant me inimíci mei, ipsi
           infirmáti sunt, et cecidérunt.{" "}
-          <Text className="latin">Ps. ibid., 3</Text> Si consístant advérsum me
+          <Typography className="latin">Ps. ibid., 3</Typography> Si consístant advérsum me
           castra: non timébit cor meum.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           O Senhor é a minha luz e a minha salvação: a quem, pois, temerei? O
           Senhor é o defensor da minha vida: quem poderá intimidar-me? Meus
           inimigos, que me atribulam, enfraqueceram e caíram.{" "}
-          <Text className="vernacular">Sl. ibid., 3</Text> Ainda que um exército
+          <Typography className="vernacular">Sl. ibid., 3</Typography> Ainda que um exército
           me cercasse, o meu coração não temeria.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Da nobis, quǽsumus, Dómine: ut et mundi cursus pacífice nobis tuo
           órdine dirigátur; et Ecclésia tua tranquílla devotióne lætétur. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedei-nos, Senhor, Vos suplicamos, que, sob a conduta da vossa
           providência, os acontecimentos do mundo decorram pacificamente; e que
           a vossa Igreja goze a alegria de Vos servir com tranquilidade. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Rm. 8, 18-23</Text>
+      <Typography className="em">Rm. 8, 18-23</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Romános.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Exístimo, quod non sunt condígnæ passiónes hujus témporis ad
           futúram glóriam, quæ revelábitur in nobis. Nam exspectátio creatúræ
           revelatiónem filiórum Dei exspéctat. Vanitáti enim creatúra subjécta
@@ -69,8 +69,8 @@ export default function PagePent40() {
           spíritus habéntes: et ipsi intra nos gémimus, adoptiónem filiórum Dei
           exspectántes, redemptiónem córporis nostri: in Christo Jesu, Dómino
           nostro.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Estou persuadido de que os sofrimentos da vida presente
           não têm proporção alguma com a glória que nos há-de ser manifestada.
           Com efeito, as criaturas esperam com viva impaciência a manifestação
@@ -83,53 +83,53 @@ export default function PagePent40() {
           Espírito (que não somente essas), gememos no nosso coração, desejando
           ardentemente a adopção, como filhos de Deus, e a redenção do corpo, em
           nosso Senhor Jesus Cristo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 78, 9 & 10</Text>
+      <Typography className="em">Sl. 78, 9 & 10</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi
-          est Deus eórum?<Text className="versicle"> ℣. </Text>Adjuva nos, Deus,
+          est Deus eórum?<Typography className="versicle"> ℣. </Typography>Adjuva nos, Deus,
           salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Perdoai os nossos pecados, Senhor, para que os povos não digam: Onde
-          está o seu Deus?<Text className="versicle"> ℣. </Text>
+          está o seu Deus?<Typography className="versicle"> ℣. </Typography>
           Auxiliai-nos, ó Senhor, nosso Salvador: e, pela glória do vosso nome,
           livrai-nos, Senhor.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 9, 5 & 10</Text> Deus, qui sedes su per
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 9, 5 & 10</Typography> Deus, qui sedes su per
           thronum, et júdicas æquitátem: esto refúgium páuperum in tribulatióne.
           Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 9, 5 & 10 Ó</Text> Deus, que estais
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 9, 5 & 10 Ó</Typography> Deus, que estais
           assentado no vosso trono e julgais com justiça, sede o refúgio dos
           pobres na tribulação. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 5, 1-11</Text>
+      <Typography className="em">Lc. 5, 1-11</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Cum turbæ irrúerent in Jesum, ut audírent verbum Dei,
           et ipse stabat secus stagnum Genésareth. Et vidit duas naves stantes
           secus stagnum: piscatóres autem descénderant et lavábant rétia.
@@ -148,8 +148,8 @@ export default function PagePent40() {
           fílios Zebedǽi, qui erant sócii Simónis. Et ait ad Simónem Jesus: Noli
           timére: ex hoc jam hómines eris cápiens. Et subdúctis ad terram
           návibus, relictis ómnibus, secuti sunt eum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo encontrando-se Jesus, nas margens do lago Genesaré,
           rodeado pela multidão que queria ouvir a sua palavra, viu duas barcas
           à beira do lago, havendo os pescadores saído delas para lavar as
@@ -170,66 +170,66 @@ export default function PagePent40() {
           Então, Jesus disse a Simão: «Não tenhas receio; doravante serás
           pescador de homens». E eles, tendo conduzido as barcas para terra,
           deixaram tudo e seguiram-n’O.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 12, 4-5</Text>
+      <Typography className="em">Sl. 12, 4-5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Illúmina óculos meos, ne umquam obdórmiam in morte: ne quando dicat
           inimícus meus: Præválui advérsus eum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Iluminai os meus olhos, para que não adormeça na morte e o meu inimigo
           não diga mais tarde: prevaleci contra ele.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Oblatiónibus nostris, quǽsumus, Dómine, placáre suscéptis: et ad te
           nostras étiam rebélles compélle propítius voluntátes. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deixai-Vos aplacar, Senhor, recebendo as nossas oblações; e dignai-Vos
           propiciamente compelir a nossa vontade rebelde a submeter-se a Vós.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 17, 3</Text>
+      <Typography className="em">Sl. 17, 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dóminus firmaméntum meum, et refúgium meum, et liberátor meus: Deus
           meus, adjútor meus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O Senhor é o meu sustentáculo, o meu refúgio e o meu libertador: Ele é
           o meu Deus e auxílio!
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mystéria nos, Dómine, quǽsumus, sumpta puríficent: et suo múnere
           tueántur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos imploramos, Senhor, que estes mystérios, que recebemos, nos
           purifiquem; e que pela sua virtude nos sirvam de protecção. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

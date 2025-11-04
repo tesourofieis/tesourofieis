@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,44 +9,44 @@ export default function Page0122LisboaFaro() {
     <PageWrapper>
       <H1 text="S. Vicente, Mártir, a 22 de Janeiro" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/4martirnaopontifice1">
           Missa In virtúte tua
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Adésto, Dómine, supplicatiónibus nostris: ut, qui ex iniquitáte nostra
           reos nos esse cognóscimus, beáti Vincéntii Martyris tui intercessióne
           liberémur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, dignai-Vos ouvir as nossas súplicas, a fim de que,
           reconhecendo-nos réus diante de Vós pelas nossas iniquidades, sejamos
           livres delas por intercessão do vosso B. Mártir Vicente. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 12, 24-26</Text>
+      <Typography className="em">Jo. 12, 24-26</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Amen, amen, dico vobis,
           nisi granum fruménti cadens in terram, mórtuum fúerit, ipsum solum
           manet: si autem mórtuum fúerit, multum fructum affert. Qui amat ánimam
@@ -54,61 +54,61 @@ export default function Page0122LisboaFaro() {
           ætérnam custódit eam. Si quis mihi mínistrat, me sequátur: et ubi sum
           ego, illic et miníster meus erit. Si quis mihi ministráverit,
           honorificábit eum Pater meus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Se o grão de trigo,
           caindo na terra, não morrer, permanece estéril; mas, se morrer, dará
           muito fruto. Aquele que ama a sua vida perdê-la-á; mas aquele que
           aborrece a sua vida neste mundo conservá-la-á para a vida eterna. Se
           alguém me serve, siga-me; e onde eu estiver lá estará também o meu
           servo. Se alguém me servir, meu Pai o honrará».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 95, 6</Text>
+      <Typography className="em">Sl. 95, 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Conféssio et pulchritúdo in conspéctu ejus: sánctitas, et
           magnificéntia in sanctificatióne ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Rodeiam-no a glória e a majestade: e no seu santuário reluzem a
           santidade e a magnificência.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro tuórum
           tibi grata sint honóre Justórum, et nobis salutária, te miseránte,
           reddántur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos oferecemos estes dons da nossa devoção; e que em
           consideração dos vossos Santos eles Vos sejam agradáveis, e pela vossa
           misericórdia nos sejam salutares. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus,
           intercedéntibus beáto Vincéntio Martýre tuo, per hæc contra ómnia
           advérsa muniámur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos suplicamos, fazei que, havendo nós recebido os
           alimentos celestiais, sejamos fortalecidos contra todas as
           adversidades por intercessão do vosso B. Mártir Vicente. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

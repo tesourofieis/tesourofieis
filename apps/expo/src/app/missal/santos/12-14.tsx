@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page1214() {
     <PageWrapper>
       <H1 text="Sétimo Dia na Oitava, a 14 de Dezembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Para simbolizar a pureza da Santíssima Virgem, o Sacerdote reveste
         paramentos brancos, outrora os únicos usados. Os antigos diziam ser o
         branco uma cor divina. Daniel (7, 9) descreve Deus aparecendo vestido de
@@ -21,7 +21,7 @@ export default function Page1214() {
         da Santíssima Virgem, a graça de sermos «por sua intercessão,
         purificados de todas as nossas faltas» (Or.) e estejamos prontos para
         receber a Jesus.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

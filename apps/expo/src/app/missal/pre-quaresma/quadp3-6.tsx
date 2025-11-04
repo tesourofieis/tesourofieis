@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,38 +9,38 @@ export default function PageQuadp36() {
     <PageWrapper>
       <H1 text="Sábado depois das Cinzas" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Intróito, Gradual, Ofertório e Comúnio como na
         <Link href="/missal/pre-quaresma/quadp3-5">
           Sexta-feira depois das Cinzas - Estação na Igreja dos SS. João e
           Paulo, Mártires.
         </Link>
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Adésto, Dómine, supplicatiónibus nostris: et concéde; ut hoc sollémne
           jejúnium, quod animábus corporibúsque curándis salúbriter institútum
           est, devóto servítio celebrémus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Atendei, Senhor, às nossas súplicas e concedei-nos a graça de
           celebrarmos como servos devotos este solene jejum, que foi
           salutarmente instituído para curar as nossas almas e os nossos corpos.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Is. 58, 9-14</Text>
+      <Typography className="em">Is. 58, 9-14</Typography>
 
       <Language>
-        <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Isaías.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Isaíæ Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Isaías.</Typography>
+        <Typography className="latin">
           Hæc dicit Dóminus Deus: Si abstúleris de médio tui caténam, et
           desíeris exténdere dígitum, et loqui quod non prodest. Cum effúderis
           esuriénti ánimam tuam, et ánimam afflíctam repléveris, oriétur in
@@ -56,8 +56,8 @@ export default function PageQuadp36() {
           loquáris sermónem: tunc delectáberis super Dómino: et sustóllam te
           super altitúdines terræ, et cibábo te hereditáte Jacob, patris tui. Os
           enim Dómini locútum est.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Assim fala o Senhor Deus: «Se acabar no meio de vós o jugo; se
           cessardes de estender o dedo e de falar em coisas que não são
           proveitosas; se assistirdes ao faminto com o carinho da vossa alma e
@@ -76,23 +76,23 @@ export default function PageQuadp36() {
           palavras insensatas: então encontrareis as delícias no Senhor e sereis
           erguidos às culminâncias da terra, e vos darei o gozo da herança de
           vosso pai Jacob, pois a palavra do Senhor o prometeu».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mc. 6, 47-56</Text>
+      <Typography className="em">Mc. 6, 47-56</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Marcum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Marcos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Cum sero esset, erat navis in médio mari, et Jesus
           solus in terra. Et videns discípulos suos laborántes in remigándo
           (erat enim ventus contrárius eis), et circa quartam vigíliam noctis
@@ -109,8 +109,8 @@ export default function PageQuadp36() {
           introíbat, in vicos vel in villas aut civitátes, in platéis ponébant
           infírmos, et deprecabántur eum, ut vel fímbriam vestiménti ejus
           tángerent: et quotquot tangébant eum, salvi fiébant.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, sendo quase noite, a barca estava no meio do mar; e
           Jesus estava, só, em terra. Vendo Ele, então, os seus discípulos
           fatigados de remar (pois o vento era contrário) cerca da quarta
@@ -129,62 +129,62 @@ export default function PageQuadp36() {
           vilas ou cidades) punham nas praças os enfermos e suplicavam-Lhe que
           ao menos lhes deixasse tocar na orla do seu vestido. E todos aqueles
           que Lhe tocavam eram curados.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Súscipe, Dómine, sacrifícium, cujus te voluísti dignánter immolatióne
           placári: præsta, quǽsumus; ut, hujus operatióne mundáti, beneplácitum
           tibi nostræ mentis offerámus afféctum. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aceitai, Senhor, este sacrifício, cuja imolação quisestes que
           possuísse a virtude de aplacar-Vos, e permiti, Vos suplicamos, que,
           purificados pela sua virtude, queirais aceitar o afecto do nosso
           coração, como uma oblação agradável. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cœléstis vitæ múnere vegetáti, quǽsumus, Dómine: ut, quod est nobis in
           præsénti vita mystérium, fiat æternitátis auxílium. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Agora, que fomos alimentados com o pão da vida celestial, Vos
           suplicamos, Senhor, permiti que este dom, que é para nós mystério
           nesta vida, seja nosso auxílio na eternidade. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração sobre o povo" />
 
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">Humiliáte cápita vestra Deo.</Text>
-        <Text className="vernacular">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">Humiliáte cápita vestra Deo.</Typography>
+        <Typography className="vernacular">
           Inclinai as vossas cabeças diante de Deus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fidéles tui, Deus, per tua dona firméntur: ut éadem et percipiéndo
           requírant, et quæréndo sine fine percípiant. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que os vossos fiéis, ó Deus, sejam fortificados com vossos dons, a fim
           de que, recebendo-os, os procurem, e, procurando-os, os alcancem
           perpetuamente. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

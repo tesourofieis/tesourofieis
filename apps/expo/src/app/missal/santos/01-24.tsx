@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0124() {
     <PageWrapper>
       <H1 text="S. Timóteo, B. e Márt., a 24 de Janeiro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         S. Timóteo, nascido na Listra (Ásia Menor) de pai pagão e mãe judia, já
         era cristão ao chegar S. Paulo naquela cidade. O Apóstolo cuja conversão
         celebramos amanhã, admirado de sua santidade, tomou-o como companheiro
@@ -20,28 +20,28 @@ export default function Page0124() {
         escreveu o mestre. S. Timóteo morreu apedrejado na sua cidade episcopal
         (ano 97). Como Timóteo, confessemos a divindade de Cristo neste Tempo
         depois da Epifania que é a sua manifestação litúrgica.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link href="/missal/comum/2martirpontificeforapascal">
           Missa Státuit ei Dóminus,
         </Link>
         excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Tm. 6, 11-16</Text>
+      <Typography className="em">1 Tm. 6, 11-16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo a Timóteo.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Caríssime: Sectáre justítiam, pietátem, fidem, caritátem, patiéntiam,
           mansuetúdinem. Certa bonum certámen fídei, apprehénde vitam ætérnam,
           in qua vocátus es, et conféssus bonam confessionem coram multis
@@ -52,8 +52,8 @@ export default function Page0124() {
           solus potens, Rex regum et Dóminus dominántium: qui solus habet
           immortalitátem, et lucem inhábitat inaccessíbilem: quem nullus hóminum
           vidit, sed nec vidére potest: cui honor et impérium sempitérnum. Amen.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimos: Procurai a justiça, a piedade, a fé, a caridade, a
           paciência e a mansidão. Combatei o bom combate da fé; esforçai-vos em
           alcançar a vida eterna, para a qual fostes chamado e para a qual
@@ -64,7 +64,7 @@ export default function Page0124() {
           Soberano, o Rei dos reis e o Senhor dos senhores, que só possui a
           imortalidade e goza uma luz inacessível, que ninguém nunca viu, nem
           ainda pode ver e a quem seja dada a honra e poder eterno. Amen.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

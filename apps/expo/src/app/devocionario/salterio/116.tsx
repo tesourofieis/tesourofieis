@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,20 +9,20 @@ export default function Page116() {
       <H1 text="Salmo 116" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Laudáte Dóminum, omnes gentes: * laudáte eum, omnes pópuli:
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó gentes, louvai todas o Senhor: * louvai-O todos, ó povos:
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Quóniam confirmáta est super nos misericórdia ejus: * et véritas
           Dómini manet in ætérnum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Porque sobre nós foi confirmada a sua misericórdia: * e a verdade do
           Senhor permanece eternamente.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

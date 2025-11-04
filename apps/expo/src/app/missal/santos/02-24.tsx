@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,50 +10,50 @@ export default function Page0224() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 138, 17</Text>
+      <Typography className="em">Sl. 138, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est
-          principátus eórum. <Text className="latin">Ps. ibid., 1-2</Text>{" "}
+          principátus eórum. <Typography className="latin">Ps. ibid., 1-2</Typography>{" "}
           Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et
-          resurrectiónem meam.<Text className="versicle"> ℣. </Text>Gloria
+          resurrectiónem meam.<Typography className="versicle"> ℣. </Typography>Gloria
           Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vejo, ó Deus, que honrastes largamente os vossos amigos: e que seu
           poder se fortaleceu extraordinariamente.{" "}
-          <Text className="vernacular">Sl. ibid., 1-2</Text> Senhor,
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Senhor,
           perscrutastes o meu íntimo e ficastes conhecendo-me: ficastes
           conhecendo quando me deito e quando me levanto.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beátum Matthíam Apostolórum tuórum collégio sociásti:
           tríbue, quǽsumus; ut, ejus interventióne, tuæ circa nos pietátis
           semper víscera sentiámus. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que agregastes o B. Matias ao colégio apostólico,
           concedei-nos, Vos imploramos, que por sua intercessão sintamos sempre
           os efeitos dos abysmos da vossa misericórdia para connosco. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Act 1, 15-26</Text>
+      <Typography className="em">Act 1, 15-26</Typography>
 
       <Language>
-        <Text className="latin">Léctio Actuum Apostolórum.</Text>
-        <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Actuum Apostolórum.</Typography>
+        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="latin">
           In diébus illis exsúrgens Petrus in médio fratrum, dixit (erat autem
           turba hóminum simul, fere centum vigínti): Viri fratres, opórtet
           impléri Scriptúram, quam prædíxit Spíritus Sanctus per os David de
@@ -74,8 +74,8 @@ export default function Page0224() {
           accípere locum ministérii hujus et apostolátus, de quo prævaricátus
           est Judas, ut abíret in locum suum. Et dedérunt sortes eis, et cécidit
           sors super Matthíam, et annumerátus est cum úndecim Apóstolis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, levantando-se Pedro no meio dos discípulos (era a turba
           quase cento e vinte pessoas) disse: «Varões e irmãos, é preciso que se
           cumpra a Escritura, segundo o que o Espírito Santo predisse pela boca
@@ -97,62 +97,62 @@ export default function Page0224() {
           destes dois escolhestes para ocupar o lugar neste ministério e
           apostolado, de que Judas se afastou». E lançaram-lhes sortes, caindo a
           sorte em Matias, que foi associado aos Onze Apóstolos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 138, 17-18</Text>
+      <Typography className="em">Sl. 138, 17-18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Nimis honoráti sunt amíci tui, Deus: nimis confortátus est principatus
-          eórum.<Text className="versicle"> ℣. </Text>Dinumerábo eos, et super
+          eórum.<Typography className="versicle"> ℣. </Typography>Dinumerábo eos, et super
           arénam multiplicabúntur.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Honrais largamente os vossos amigos, ó Deus: e o seu poder tem-se
           fortalecido extraordinariamente.
-          <Text className="versicle"> ℣. </Text>Hei-de contá-los, e
+          <Typography className="versicle"> ℣. </Typography>Hei-de contá-los, e
           ultrapassarão os grãos de areia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 20, 3-4</Text>
+      <Typography className="em">Sl. 20, 3-4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Desidérim ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
-          fraudásti eum.<Text className="versicle"> ℣. </Text>Quóniam prævenísti
+          fraudásti eum.<Typography className="versicle"> ℣. </Typography>Quóniam prævenísti
           eum in benedictiónibus dulcédinis.
-          <Text className="versicle"> ℣. </Text>Posuísti in cápite ejus corónam
+          <Typography className="versicle"> ℣. </Typography>Posuísti in cápite ejus corónam
           de lápide pretióso.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedestes-lhe o desejo da sua alma: lhe não negastes o que seus
-          lábios Vos pediram.<Text className="versicle"> ℣. </Text>
+          lábios Vos pediram.<Typography className="versicle"> ℣. </Typography>
           Premunistes-lo com bênção de doçura.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Impusestes na sua cabeça uma coroa de pedras preciosas.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 11, 25-30</Text>
+      <Typography className="em">Mt. 11, 25-30</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Respóndens Jesus, dixit: Confíteor tibi, Pater,
           Dómine cœli et terræ, quia abscondísti hæc a sapiéntibus et
           prudentibus, et revelásti ea parvulis. Ita, Pater: quóniam sic fuit
@@ -162,8 +162,8 @@ export default function Page0224() {
           oneráti estis, et ego refíciam vos. Tóllite jugum meum super vos, et
           díscite a me, quia mitis sum et húmilis corde: et inveniétis réquiem
           animábus vestris. Jugum enim meum suáve est et onus meum leve.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, respondendo Jesus, disse: «Dou-Vos graças, ó Pai,
           Senhor do céu e da terra, pois que ocultastes estas coisas aos sábios
           e aos prudentes e as revelastes aos pequenos. Sim, ó Pai, dou-Vos
@@ -174,68 +174,68 @@ export default function Page0224() {
           confortarei. Tomai sobre vós o meu jugo e aprendei de mim; pois sou
           manso e humilde de coração; e achareis o repouso para as vossas almas.
           Meu jugo é suave e o meu ónus é leve.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 44, 17-18</Text>
+      <Typography className="em">Sl. 44, 17-18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Constítues eos príncipes super omnem terram: mémores erunt nóminis
           tui, Dómine, in omni progénie et generatióne.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós os instituístes príncipes em toda a terra. Ó Senhor, eles
           perpetuarão de geração em geração a glória do vosso nome.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hóstias tibi, Dómine, quas nómini tuo sacrándas offérimus, sancti
           Matthíæ Apóstoli tui prosequátur orátio: per quam nos expiári fácias
           et deféndi. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, que as hóstias, que Vos oferecemos para serem consagradas em
           honra do vosso Santo Nome, sejam acompanhadas pela oração do vosso
           santo Apóstolo Matias, em virtude da qual sejamos purificados e livres
           do mal. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 19, 28</Text>
+      <Typography className="em">Mt. 19, 28</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vos, qui secúti estis me, sedébitis super sedes, judicántes duódecim
           tribus Israël.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós, que me seguistes, assentar-vos-eis em tronos e julgareis as doze
           tribos de Israel.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut per hæc sancta, quæ súmpsimus,
           interveniénte beáto Matthía Apóstolo tuo, véniam consequámur et pacem.
           Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedei-nos, Vos imploramos, ó Deus omnipotente, que os sacrossantos
           mystérios, de que participámos, nos alcancem por intercessão do B.
           Matias, vosso Apóstolo, o perdão e a paz. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

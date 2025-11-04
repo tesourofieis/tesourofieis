@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,60 +9,60 @@ export default function Page0204Portugal() {
     <PageWrapper>
       <H1 text="S. João de Brito, Mártir, a 4 de Fevereiro" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/5martirnaopontifice2">
           Missa Lætábitur justus
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus qui ad fidem cathólicam apud Indos propagándam beátam Joánnem
           Mártyrem tuum invícta constántia roborásti: ipsíus méritis et
           intercessióne concéde; ut, qui triúmphi ejus memóriam recólimus, étiam
           fídei exémpla imitémur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que para a propagação da fé católica entre os Índios
           fortalecestes o B. João, vosso Mártir, com uma constância invencível,
           fazei, pelos seus merecimentos e intercessão; que, celebrando nós a
           memória dos seus triunfos, imitemos também os exemplos da sua fé. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração Comemoração S. André Corsino" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui in Ecclésia tua nova semper instáuras exémpla virtútum: da
           pópulo tuo beáti Andréæ Confessóris tui atque Pontíficis ita sequi
           vestígia; ut assequátur et prǽmia. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que na vossa Igreja apresentais constantemente novos exemplos
           de virtudes, concedei ao vosso povo que de tal modo siga os vestígios
           do B. André, vosso Confessor e Pontífice, que possa alcançar o mesmo
           prémio. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">2 Cor. 11, 19-33; 12, 1-9</Text>
+      <Typography className="em">2 Cor. 11, 19-33; 12, 1-9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Patres: Libénter suffértis insipiéntens: cum sitis ipsi sapiéntes.
           Sustinétis enim, si quis vos in servitútem rédigit, si quis dévorat,
           si quis áccipit, si quis extóllitur, si quis in fáciem vos cædit.
@@ -80,8 +80,8 @@ export default function Page0204Portugal() {
           multis, in fame et siti, in jejúniis multis, in frigóre et nuditáte:
           præter illa, quæ extrínsecus sunt, instántia mea cotidiána,
           sollicitúdo ómnium Ecclesiárum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Como homens sensatos que sois, generosamente suportais os
           insensatos. E suportais, também, se vos sujeitam à escravidão, se vos
           devoram, se vos roubam, se vos tratam com arrogância, ou se vos
@@ -103,97 +103,97 @@ export default function Page0204Portugal() {
           fome, na sede, nos muitos jejuns, no frio e na nudez! E, além destes
           males, que são exteriores, preocupa-me também quotidianamente a
           solicitude de todas as cristandades.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 111, 1-2</Text>
+      <Typography className="em">Sl. 111, 1-2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Potens in terra erit semen ejus: generátio rectórum benedicétur.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em
-          obedecer-Lhe.<Text className="versicle"> ℣. </Text>Sua descendência
+          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua descendência
           será poderosa na terra; pois a geração dos justos será abençoada.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 20, 4</Text> Posuísti, Dómine, super caput
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 20, 4</Typography> Posuísti, Dómine, super caput
           ejus corónam de lápide pretióso. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 20, 4</Text> Senhor, impusestes na
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 20, 4</Typography> Senhor, impusestes na
           sua cabeça uma coroa de pedras preciosas. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Súscipe, Dómine, múnera, dignánter obláta; et beáti Mártyris tui
           Joánnis suffragántibus méritis concéde: ut passióni et morti Unigéniti
           Fílii tui configuráti, resurrectiónis quoque et glóriæ consórtes
           éffici merámur. Qui tecum vivit...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Recebei, Senhor, os dons que humildemente Vos oferecemos; e, tendo em
           atenção os méritos do B. Mártir João e havendo-nos conformado com a
           paixão e morte do vosso Filho Unigénito, permiti que mereçamos também
           comparticipar da sua ressurreição e glória. Ele, que sendo Deus...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta Comemoração S. André Corsino" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sancti tui, quǽsumus, Dómine, nos úbique lætíficent: ut, dum eórum
           mérita recólimus, patrocínia sentiámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que os vossos Santos, Senhor, Vos suplicamos, nos alegrem em toda a
           parte, a fim de que, honrando os seus méritos, sintamos o efeito do
           seu patrocínio. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Redemptiónis humánæ pígnore sacro per hæc mystéria refécti te, Dómine,
           súpplices exorámus: ut, qui peccatórum nostrórum póndere prémimur,
           beáto Joánne Mártyre tuo intercedénte, véniam consequámur et pacem.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo sido alimentados nestes sagrados mystérios com o sacrossanto
           penhor da redenção humana, humildemente Vos imploramos, por
           intercessão do B. João, vosso Mártir, que sejamos livres do peso dos
           nossos pecados e alcancemos o perdão e a paz. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio Comemoração S. André Corsino" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias
           exhibéntes, intercedénte beáto Andréa Confessóre tuo atque Pontífice,
           benefícia potióra sumámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dignai-Vos permitir, ó Deus omnipotente, que, dando-Vos nós graças
           pelo benefícios recebidos, alcancemos por intercessão do B. André,
           vosso Confessor e Pontífice, ainda outros maiores. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

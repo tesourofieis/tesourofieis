@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,49 +10,49 @@ export default function PagePasc03() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Mt. 25, 34</Text>
+      <Typography className="em">Mt. 25, 34</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Veníte, benedícti Patris mei, percípite regnum, allelúja: quod vobis
           parátum est ab orígine mundi, allelúja, allelúja, allelúja.{" "}
-          <Text className="latin">Ps. 95, 1</Text> Cantáte Dómino cánticum
+          <Typography className="latin">Ps. 95, 1</Typography> Cantáte Dómino cánticum
           novum: cantáte Dómino, omnis terra.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Vinde, benditos do meu Pai, recebei o reino, aleluia: que foi
           preparado para vós desde a criação do mundo, aleluia, aleluia,
-          aleluia. <Text className="vernacular">Sl. 95, 1</Text> Cantai ao
+          aleluia. <Typography className="vernacular">Sl. 95, 1</Typography> Cantai ao
           Senhor um cântico novo: que toda a terra cante hinos ao Senhor.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui nos Resurrectiónis Domínicæ ánnua solemnitáte lætíficas:
           concéde propítius; ut per temporália festa, quæ ágimus, perveníre ad
           gáudia ætérna mereámur. Per eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que nos alegrais anualmente com a celebração da solenidade da
           Ressurreição do Senhor, permiti benigno que, celebrando nós estas
           festas neste tempo, mereçamos alcançar os gozos eternos. Pelo mesmo
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Act. 3, 13-15 & 17-19</Text>
+      <Typography className="em">Act. 3, 13-15 & 17-19</Typography>
 
       <Language>
-        <Text className="latin">Léctio Actuum Apostolorum.</Text>
-        <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Actuum Apostolorum.</Typography>
+        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="latin">
           In diébus illis: Apériens Petrus os suum, dixit: Viri Israelítæ, et
           qui timétis Deum, audíte. Deus Abraham et Deus Isaac et Deus Jacob,
           Deus patrum nostrórum, glorificávit Fílium suum Jesum, quem vos quidem
@@ -64,8 +64,8 @@ export default function PagePasc03() {
           prænuntiávit per os ómnium Prophetárum, pati Christum suum, sic
           implévit. Pænitémini ígitur et convertímini, ut deleántur peccáta
           vestra.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, Pedro, tomando a palavra, disse: «Varões de Israel e
           vós todos, que temeis a Deus, ouvi: Deus de Abraão, Deus de Isaque,
           Deus de Jacob e de nossos pais glorificou o seu Filho Jesus, que
@@ -78,49 +78,49 @@ export default function PagePasc03() {
           predito pelos Profetas, e que seu Cristo tinha de sofrer. Fazei, pois,
           penitência e convertei-vos, para que os vossos pecados vos sejam
           perdoados».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 117, 24 & 16</Text>
+      <Typography className="em">Sl. 117, 24 & 16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc dies, quam fecit Dóminus: exsultémus et lætámur in ea.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eis o dia que o Senhor fez: exultemos e alegremo-nos nele. A dextra do
           Senhor manifestou o seu poder: a dextra do Senhor exaltou-me!
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Luc. 24, 34</Text> Surréxit Dóminus vere: et
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Luc. 24, 34</Typography> Surréxit Dóminus vere: et
           appáruit Petro.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Lc. 24, 34</Text> O Senhor ressuscitou
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Lc. 24, 34</Typography> O Senhor ressuscitou
           verdadeiramente e apareceu a Pedro.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 21, 1-14</Text>
+      <Typography className="em">Jo. 21, 1-14</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Manifestávit se íterum Jesus discípulis ad mare
           Tiberíadis. Manifestávit autem sic. Erant simul Simon Petrus et
           Thomas, qui dícitur Dídymus, et Nathánaël, qui erat a Cana Galilǽæ, et
@@ -144,8 +144,8 @@ export default function PagePasc03() {
           eum: Tu quis es? sciéntes, quia Dóminus est. Et venit Jesus, et
           áccipit panem, et dat eis, et piscem simíliter. Hoc jam tértio
           manifestátus est Jesus discípulis suis, cum resurrexísset a mórtuis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, Jesus apareceu novamente aos discípulos, junto do mar
           de Tiberíades. Manifestou-se assim: estavam juntos Simão-Pedro, Tomé,
           chamado o Dídimo, Natánael, que era de Caná de Galileia, os filhos de
@@ -171,66 +171,66 @@ export default function PagePasc03() {
           Jesus aproximou-se, tomou o pão e deu-lhes dele; e o mesmo fez quanto
           ao peixe. Era esta já a terceira vez que Jesus aparecia a seus
           discípulos, após a ressurreição dos mortos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 77, 23-25</Text>
+      <Typography className="em">Sl. 77, 23-25</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Portas cœli apéruit Dóminus: et pluit illis manna, ut éderent: panem
           cœli dedit eis: panem Angelórum manducávit homo, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O Senhor abriu as portas do céu e fez chover maná para alimentar o seu
           povo: deu-lhes o pão do céu: o homem comeu o pão dos Anjos, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacrifícia, Dómine, paschálibus gáudiis immolámus: quibus Ecclésia tua
           mirabíliter et páscitur et nutrítur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           No meio das alegrias pascais imolamos, Senhor, este sacrifício, que é
           para a vossa Igreja o alimento admirável de que se nutre e sustenta.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Rm. 6, 9</Text>
+      <Typography className="em">Rm. 6, 9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Christus resúrgens ex mórtuis jam non móritur, allelúja: mors illi
           ultra non dominábitur, allelúja, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Cristo, ressuscitado, já não torna a morrer, aleluia: a morte nunca
           mais terá poder sobre Ele, aleluia, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ab omni nos, quǽsumus, Dómine, vetustáte purgátos: sacraménti tui
           veneránda percéptio in novam tránsferat creatúram: Qui vivis et
           regnas...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, dignai-Vos purificar-nos de todos os restos do «homem velho»,
           e permiti que a sagrada recepção deste sacramento nos torne criaturas
           novas. Vós, que, sendo Deus, viveis e reinais...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

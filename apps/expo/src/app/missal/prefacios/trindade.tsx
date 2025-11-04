@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,13 +8,13 @@ export default function PageTrindade() {
     <PageWrapper>
       <H1 text="Prefácio da SS. Trindade" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Diz-se na Festa da Santíssima Trindade e nos Domingos que não tiverem
         Prefácio próprio.
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vere dignum et justum est, æquum et salutáre, nos tibi semper et
           ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus:
           Qui cum unigénito Fílio tuo et Spíritu Sancto unus es Deus, unus es
@@ -25,8 +25,8 @@ export default function PageTrindade() {
           persónis propríetas, et in esséntia únitas, et in majestáte adorétur
           æquálitas. Quam laudant Angeli atque Archángeli, Chérubim quoque ac
           Séraphim: qui non cessant clamáre cotídie, una voce dicéntes:
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           É verdadeiramente digno e justo, racional e salutar render-Vos graças
           em todos os lugares e sempre, ó Senhor santo, Pai omnipotente, eterno
           Deus, que com vosso Filho Unigénito e com o Espírito Santo sois um só
@@ -38,7 +38,7 @@ export default function PageTrindade() {
           essência a unidade e a igualdade na majestade. É esta majestade, que
           louvam os Anjos e Arcanjos, os Querubins e Serafins, que não cessam
           quotidianamente de cantar em uníssono:
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

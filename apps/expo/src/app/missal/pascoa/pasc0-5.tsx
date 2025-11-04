@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,50 +10,50 @@ export default function PagePasc05() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 77, 53</Text>
+      <Typography className="em">Sl. 77, 53</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Edúxit eos Dóminus in spe, allelúja: et inimícos eórum opéruit mare,
           allelúja, allelúja, allelúja.{" "}
-          <Text className="latin">Ps. ibid., 1</Text> Attendite, pópule meus,
+          <Typography className="latin">Ps. ibid., 1</Typography> Attendite, pópule meus,
           legem meam: inclináte aurem vestram in verba oris mei.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           O Senhor conduziu-os cheios de esperança, aleluia: enquanto que aos
           seus inimigos submergiu-os no mar, aleluia, aleluia, aleluia.{" "}
-          <Text className="vernacular">Sl. ibid., 1</Text> Atende à minha lei, ó
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Atende à minha lei, ó
           meu povo: escuta as palavras da minha boca.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Omnípotens sempitérne Deus, qui paschále sacraméntum in
           reconciliatiónis humánæ fǿdere contulísti: da méntibus nostris; ut,
           quod professióne celebrámus, imitémur efféctu. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deus omnipotente e eterno, que por meio do sacramento pascal
           estabelecestes uma aliança de reconciliação com a humanidade, concedei
           às nossas almas a graça de imitarem em suas acções o que confessam
           durante esta festa. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Pe. 3, 18-22</Text>
+      <Typography className="em">1 Pe. 3, 18-22</Typography>
 
       <Language>
-        <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
-        <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
           Caríssimi: Christus semel pro peccátis nostris mórtuus est, justus pro
           injústis, ut nos offérret Deo, mortificátus quidem carne, vivificátus
           autem spíritu. In quo et his, qui in cárcere erant, spirítibus véniens
@@ -63,8 +63,8 @@ export default function PagePasc05() {
           salvos facit baptísma: non carnis deposítio sórdium, sed consciéntiæ
           bonæ interrogátio in Deum per resurrectiónem Jesu Christi, Dómini
           nostri, qui est in dextera Dei.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimos: Cristo morreu uma só vez pelos nossos pecados: Ele, o
           justo, pelos injustos, a fim de nos oferecer a Deus, depois de haver
           sido morto na carne, mas voltou à vida pelo Espírito, Foi também com
@@ -77,51 +77,51 @@ export default function PagePasc05() {
           fazeis quando vos perguntam se quereis guardar em Deus a vossa
           consciência pura a qual salvação vos é dada pela ressurreição de nosso
           Senhor Jesus Cristo, que está à dextra de Deus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 117, 24 & 26-27</Text>
+      <Typography className="em">Sl. 117, 24 & 26-27</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Benedíctus, qui venit in nómine Dómini: Deus Dóminus, et illúxit
           nobis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eis o dia que o Senhor fez: exultemos e alegremo-nos nele. Bendito
           seja Aquele que vem em nome do Senhor: o Senhor e Deus fez
           resplandecer sobre nós a sua luz.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 95, 10</Text> Dícite in géntibus: quia
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 95, 10</Typography> Dícite in géntibus: quia
           Dóminus regnávit a ligno.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 95, 10</Text> Dizei aos povos: o
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 95, 10</Typography> Dizei aos povos: o
           Senhor reinou pelo madeiro.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 28, 16-20</Text>
+      <Typography className="em">Mt. 28, 16-20</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Undecim discípuli abiérunt in Galilǽam, in montem,
           ubi constitúerat illis Jesus. Et vidéntes eum adoravérunt: quidam
           autem dubitavérunt. Et accédens Jesus locútus est eis, dicens: Data
@@ -129,8 +129,8 @@ export default function PagePasc05() {
           gentes, baptizántes eos in nómine Patris, et Fílii, et Spíritus
           Sancti: docentes eos serváre ómnia, quæcúmque mandávi vobis. Et ecce,
           ego vobíscum sum ómnibus diébus usque ad consummatiónem sǽculi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, partiram os Onze discípulos para a Galileia,
           dirigindo-se ao monte onde o Senhor os havia mandado ir. E, vendo eles
           Jesus, logo O adoraram; ficando, contudo, alguns deles na dúvida.
@@ -139,72 +139,72 @@ export default function PagePasc05() {
           e baptizai-os em nome do Pai, e do Filho, e do Espírito Santo,
           ensinando-os a observar tudo o que vos ordenei. Eu permanecerei
           convosco todos os dias até à consumação dos séculos».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Ex. 12, 14</Text>
+      <Typography className="em">Ex. 12, 14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Erit vobis hæc dies memoriális, allelúja: et diem festum celebrábitis
           sollémnem Dómino in progénies vestras: legítimum sempitérnum diem,
           allelúja, allelúja, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Este dia ficar-vos-á memorável, aleluia: celebrá-lo-eis de geração em
           geração com uma festa solene em honra do Senhor: e ficará uma
           instituição perpétua, aleluia, aleluia, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hóstias, quǽsumus, Dómine, placátus assúme: quas et pro renatórum
           expiatióne peccáti deférimus, et pro acceleratióne cœléstis auxílii.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos suplicamos, Senhor, recebei benigno as hóstias, que Vos
           oferecemos; e que elas sirvam de expiação dos pecados dos
           recém-nascidos e para alcançarmos o socorro celestial. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 28, 18-19</Text>
+      <Typography className="em">Mt. 28, 18-19</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Data est mihi omnis potéstas in cœlo et in terra, allelúja: eúntes,
           docéte omnes gentes, baptizántes eos in nómine Patris, et Fílii, et
           Spíritus Sancti, allelúja, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Todo o poder me foi dado no céu e na terra, aleluia: ide, pois,
           ensinai todos os povos e baptizai-os em nome do Pai, e do Filho, e do
           Espírito Santo, aleluia, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Réspice, quǽsumus, Dómine, pópulum tuum: et, quem ætérnis dignátus es
           renováre mystériis, a temporálibus culpis dignánter absólve. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Olhai para o vosso povo, Senhor; e, assim como Vos dignastes renová-lo
           com os mystérios eternos, assim também Vos digneis absolvê-lo das
           ofensas cometidas neste mundo. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

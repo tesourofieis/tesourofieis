@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page1216() {
     <PageWrapper>
       <H1 text="S. Eusébio, B. e Márt., a 16 de Dezembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         S. Eusébio, nasceu na Sardenha no século IV, época em que o Arianismo se
         esforçava por abalar o dogma da Divindade de Cristo. Feito bispo de
         Verceil, na Itália secundou os esforços do Papa Libério e de seu
@@ -22,7 +22,7 @@ export default function Page1216() {
         sangue, devido à generosidade que mostrou nos sofrimentos e intrepidez
         em face da morte (Ev.) (371). Confessemos com Eusébio a divindade do
         Messias cujo advento esperamos.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

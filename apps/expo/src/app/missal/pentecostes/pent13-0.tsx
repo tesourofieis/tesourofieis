@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,56 +10,56 @@ export default function PagePent130() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 73, 20,19 & 23</Text>
+      <Typography className="em">Sl. 73, 20,19 & 23</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Réspice, Dómine, in testaméntum tuum, et ánimas páuperum tuórum ne
           derelínquas in finem: exsúrge, Dómine, et júdica causam tuam, et ne
           obliviscáris voces quæréntium te.{" "}
-          <Text className="latin">Ps. ibid., 1</Text> Ut quid, Deus, reppulísti
+          <Typography className="latin">Ps. ibid., 1</Typography> Ut quid, Deus, reppulísti
           in finem: irátus est furor tuus super oves páscuæ tuæ?
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Lembrai-vos, Senhor, da vossa aliança connosco e não esqueçais para
           sempre as almas dos vossos servos. Erguei-Vos, Senhor, julgai a vossa
           causa: e não desprezeis as orações daqueles que a Vós recorrem.
           Porque, ó Deus, nos repelistes para sempre?{" "}
-          <Text className="vernacular">Sl. ibid., 1</Text> Porque, ó Deus,
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Porque, ó Deus,
           cresceu a vossa ira contra as ovelhas dos vossos pastos?
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Omnípotens sempitérne Deus, da nobis fídei, spei et caritátis
           augméntum: et, ut mereámur asséqui quod promíttis, fac nos amáre quod
           prǽcipis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente e sempiterno, concedei-nos o aumento da fé, da
           esperança e da caridade; e, a fim de merecermos alcançar o que nos
           prometestes, permiti que amemos o que nos preceituais. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Gl. 3, 16-22</Text>
+      <Typography className="em">Gl. 3, 16-22</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Gálatas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Abrahæ dictæ sunt promissiónes, et sémini ejus. Non dicit: Et
           semínibus, quasi in multis; sed quasi in uno: Et sémini tuo, qui est
           Christus. Hoc autem dico: testaméntum confirmátum a Deo, quæ post
@@ -72,8 +72,8 @@ export default function PagePent130() {
           Absit. Si enim data esset lex, quæ posset vivificáre, vere ex lege
           esset justítia. Sed conclúsit Scriptúra ómnia sub peccáto, ut
           promíssio ex fide Jesu Christi darétur credéntibus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: As promessas foram feitas a Abraão e à sua descendência.
           Pois a Escritura não diz «aos seus descendentes», como se se referisse
           a muitos, mas diz, referindo-se a um só: «e Àquele que nascerá de vós,
@@ -90,52 +90,52 @@ export default function PagePent130() {
           então a justiça viria também, verdadeiramente, da Lei; mas a Escritura
           encerrou tudo sob o pecado, a fim de que a promessa fosse dada pela fé
           em Jesus Cristo àqueles que acreditassem.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 73, 20, 19 et 22</Text>
+      <Typography className="em">Sl. 73, 20, 19 et 22</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Réspice, Dómine, in testaméntum tuum: et ánimas páuperum tuórum ne
-          obliviscáris in finem.<Text className="versicle"> ℣. </Text>
+          obliviscáris in finem.<Typography className="versicle"> ℣. </Typography>
           Exsúrge, Dómine, et júdica causam tuam: memor esto oppróbrii servórum
           tuórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lembrai-Vos, Senhor, da vossa aliança connosco e não esqueçais para
           sempre as almas dos vossos servos.
-          <Text className="versicle"> ℣. </Text>Erguei-Vos, Senhor, julgai a
+          <Typography className="versicle"> ℣. </Typography>Erguei-Vos, Senhor, julgai a
           vossa causa e lembrai-Vos dos opróbrios que sofreram os vossos servos.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 89, 1</Text> Dómine, refúgium factus es
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 89, 1</Typography> Dómine, refúgium factus es
           nobis a generatióne et progénie. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 89, 1</Text> De geração em geração,
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 89, 1</Typography> De geração em geração,
           Senhor tendes sido o nosso refúgio. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 17, 11-19</Text>
+      <Typography className="em">Lc. 17, 11-19</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dum iret Jesus in Jerúsalem, transíbat per médiam
           Samaríam et Galilǽam. Et cum ingrederétur quoddam castéllum,
           occurrérunt ei decem viri leprósi, qui stetérunt a longe; et
@@ -147,8 +147,8 @@ export default function PagePent130() {
           autem Jesus, dixit: Nonne decem mundáti sunt? et novem ubi sunt? Non
           est invéntus, qui redíret et daret glóriam Deo, nisi hic alienígena.
           Et ait illi: Surge, vade; quia fides tua te salvum fecit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, indo Jesus para Jerusalém, atravessou a Samaria e a
           Galileia. Entrando, então, numa aldeia, foram ao seu encontro
           (ficando, contudo, a certa distância) dez leprosos, que clamavam:
@@ -161,67 +161,67 @@ export default function PagePent130() {
           nove? Não houve senão este estrangeiro que viesse e rendesse glória a
           Deus?». E, dirigindo-se a ele, acrescentou: «Levanta-te e vai: a tua
           fé te salvo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 30, 15-16</Text>
+      <Typography className="em">Sl. 30, 15-16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In te sperávi, Dómine; dixi: Tu es Deus meus, in mánibus tuis témpora
           mea.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Em Vós, Senhor, pus toda minha esperança; e disse: Vós sois o meu
           Deus; a minha vida está nas vossas mãos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Propitiáre, Dómine, pópulo tuo, propitiáre munéribus: ut, hac
           oblatióne placátus, et indulgéntiam nobis tríbuas et postuláta
           concedas. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Olhai propício para o vosso povo, Senhor, e aceitai benignamente as
           nossas ofertas, a fim de que, deixando-Vos aplacar com esta oferta,
           nos concedais o perdão e atendais às nossas súplicas. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sb. 16, 20</Text>
+      <Typography className="em">Sb. 16, 20</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Panem de cœlo dedísti nobis, Dómine, habéntem omne delectaméntum et
           omnem sapórem suavitátis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Destes-nos, Senhor, um pão do céu, que contém todas as delícias e o
           mais suave sabor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sumptis, Dómine, cœléstibus sacraméntis: ad redemptiónis ætérnæ,
           quǽsumus, proficiámus augméntum. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo nós recebido estes celestiais sacramentos, Senhor,
           concedei-nos a graça, Vos imploramos, de progredirmos sempre no
           caminho da salvação eterna. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0828() {
     <PageWrapper>
       <H1 text="S. Agostinho, a 28 de Agosto" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Agostinho nasceu em 354, em Tagaste (na actual Argélia). Sua mãe, Santa
         Mónica, muito cedo ensinou-lhe a rezar; depois de haver saboreado com
         delícias suas santas lições, deixou-se, logo, arrastar ás mais graves
@@ -38,58 +38,58 @@ export default function Page0828() {
         seu amor, o Santo é um dos quatro grandes Doutores do Ocidente. Morreu
         depois de 36 anos de episcopado, no ano 430, recitando os Psalmos
         penitenciais.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/13doutores">
           Missa In médio Ecclésiae
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Adésto supplicatiónibus nostris, omnípotens Deus: et, quibus fidúciam
           sperándæ pietátis indúlges, intercedénte beáto Augustíno Confessóre
           tuo atque Pontífice, consuétae misericórdiæ tríbue benígnus efféctum.
           Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ouvi benigno, ó Deus omnipotente, as nossas súplicas, e, visto que nos
           permitis confiarmos na vossa bondade, concedei-nos, pela intercessão
           do B. Agostinho, vosso Confessor e Pontífice, a graça de alcançarmos o
           efeito benigno da vossa habitual misericórdia. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 36, 30-31</Text>
+      <Typography className="em">Sl. 36, 30-31</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.
-          <Text className="versicle"> ℣. </Text>Lex Dei ejus in corde ipsíus: et
+          <Typography className="versicle"> ℣. </Typography>Lex Dei ejus in corde ipsíus: et
           non supplantabúntur gressus ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A boca do justo falará com sabedoria e a sua língua proclamará a
-          justiça.<Text className="versicle"> ℣. </Text>A lei do seu Deus está
+          justiça.<Typography className="versicle"> ℣. </Typography>A lei do seu Deus está
           no seu coração e os seus pés não tropeçarão.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 88, 21</Text> Invéni David servum meum,
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 88, 21</Typography> Invéni David servum meum,
           óleo sancto meo unxi eum. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 88, 21</Text> Encontrei o meu servo
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 88, 21</Typography> Encontrei o meu servo
           David e ungi-o com meu óleo sagrado. Aleluia.
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

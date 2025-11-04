@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,13 +8,13 @@ export default function PageQuaresma() {
     <PageWrapper>
       <H1 text="Prefácio da Quaresma" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Diz-se desde Quarta-Feira das Cinzas até à véspera do Domingo da Paixão,
         inclusivamente.
-      </Text>
+      </Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vere dignum et justum est, æquum et salutáre, nos tibi semper et
           ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus:
           Qui corporáli jejúnio vitia cómprimis, mentem élevas, virtútem
@@ -23,8 +23,8 @@ export default function PageQuaresma() {
           cœlorúmque Virtútes ac beáta Séraphim sócia exsultatióne concélebrant.
           Cum quibus et nostras voces ut admítti júbeas, deprecámur, súpplici
           confessióne dicéntes:
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Verdadeiramente é digno e justo, racional e salutar dar-Vos graças em
           todos os lugares e sempre, Senhor santo, Pai omnipotente, eterno Deus,
           pois Vós, pelo jejum natural, reprimis os vícios, elevais o espírito e
@@ -34,7 +34,7 @@ export default function PageQuaresma() {
           os bem-aventurados Serafins se associam em comum louvor. Dignai-Vos
           permitir, Senhor, que as nossas vozes suplicantes se unam às deles,
           dizendo:
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

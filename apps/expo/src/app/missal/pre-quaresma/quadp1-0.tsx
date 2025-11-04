@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,56 +10,56 @@ export default function PageQuadp20() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 17, 5, 6 & 7</Text>
+      <Typography className="em">Sl. 17, 5, 6 & 7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Circumdedérut me gémitus mortis, dolóres inférni circumdedérunt me: et
           in tribulatióne mea invocávi Dóminum, et exaudívit de templo sancto
-          suo vocem meam. <Text className="latin">Ps. ibd., 2-3</Text> Díligam
+          suo vocem meam. <Typography className="latin">Ps. ibd., 2-3</Typography> Díligam
           te, Dómine, fortitúdo mea: Dóminus firmaméntum meum, et refúgium meum,
-          et liberátor meus.<Text className="versicle"> ℣. </Text>Gloria
+          et liberátor meus.<Typography className="versicle"> ℣. </Typography>Gloria
           Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Rodearam-me os gemidos da morte e cercaram-me as dores do inferno; mas
           na minha tribulação invoquei o Senhor, que lá no seu santo templo
-          ouviu a minha voz. <Text className="vernacular">Sl. ibd., 2-3</Text>{" "}
+          ouviu a minha voz. <Typography className="vernacular">Sl. ibd., 2-3</Typography>{" "}
           Eu Vos amarei, Senhor, que sois a minha fortaleza, o meu sustentáculo,
           o meu refúgio e o meu libertador.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Preces pópuli tui, quǽsumus, Dómine, cleménter exáudi: ut, qui juste
           pro peccátis nostris afflígimur, pro tui nóminis glória misericórditer
           liberémur. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ouvi benigno, Senhor, Vos rogamos, as preces do vosso povo, a fim de
           que nós, que estamos justamente aflitos com o peso dos nossos pecados,
           sejamos misericordiosamente livres, pela glória do vosso nome. Por
           nosso Senhor Jesus Cristo; vosso Filho, que...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Cor. 9, 24-27; 10, 1-5</Text>
+      <Typography className="em">1 Cor. 9, 24-27; 10, 1-5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Lectio Epístolæ beati Pauli Apostoli ad Corinthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Nescítis, quod ii, qui in stádio currunt, omnes quidem
           currunt, sed unus áccipit bravíum? Sic cúrrite, ut comprehendátis.
           Omnis autem, qui in agóne conténdit, ab ómnibus se ábstinet: et illi
@@ -73,8 +73,8 @@ export default function PageQuadp20() {
           potum spiritálem bibérunt (bibébant autem de spiritáli, consequénte
           eos, petra: petra autem erat Christus): sed non in plúribus eórum
           beneplácitum est Deo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Não sabeis que aqueles que correm no circo, todos correm,
           mas somente um ganha o prémio? Correi, pois, de tal modo que o
           ganheis. Aqueles que combatem na arena abstêm-se de tudo; e procedem
@@ -89,69 +89,69 @@ export default function PageQuadp20() {
           beberam a mesma bebida. Com efeito, beberam em um rochedo espiritual,
           que os seguia, o qual era Cristo. Todavia, a maior parte deles não
           agradou a Deus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 9, 10-11 & 19-20</Text>
+      <Typography className="em">Sl. 9, 10-11 & 19-20</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Adjútor in opportunitátibus, in tribulatióne: sperent in te, qui
           novérunt te: quóniam non derelínquis quæréntes te, Dómine.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Quóniam non in finem oblívio erit páuperis: patiéntia páuperum non
           períbit in ætérnum: exsúrge, Dómine, non præváleat homo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, sois o nosso auxílio nas necessidades e nas tribulações:
           esperem, pois, em Vós aqueles que Vos conhecem, porque nunca
           abandonais os que Vos procuram. O infeliz não será sempre esquecido; a
           paciência do pobre não será frustrada para sempre. Erguei-Vos, para
           que o homem mau não triunfe.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 129, 1-4</Text>
+      <Typography className="em">Sl. 129, 1-4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           De profúndis clamávi ad te. Dómine: Dómine, exáudi vocem meam.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Fiant aures tuæ intendéntes in oratiónem servi tui.
-          <Text className="versicle"> ℣. </Text>Si iniquitátes observáveris,
+          <Typography className="versicle"> ℣. </Typography>Si iniquitátes observáveris,
           Dómine: Dómine, quis sustinébit?
-          <Text className="versicle"> ℣. </Text>Quia apud te propitiátio est, et
+          <Typography className="versicle"> ℣. </Typography>Quia apud te propitiátio est, et
           propter legem tuam sustínui te, Dómine.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Das profundezas do abysmo clamei por Vós, Senhor: ouvi a minha voz.
-          <Text className="versicle"> ℣. </Text>Que os vossos ouvidos estejam
+          <Typography className="versicle"> ℣. </Typography>Que os vossos ouvidos estejam
           atentos à voz deste vosso servo.
-          <Text className="versicle"> ℣. </Text>Se julgais as nossas
+          <Typography className="versicle"> ℣. </Typography>Se julgais as nossas
           iniquidades, Senhor, quem poderá subsistir ante Vós?
-          <Text className="versicle"> ℣. </Text>Mas sois propício; por amor da
+          <Typography className="versicle"> ℣. </Typography>Mas sois propício; por amor da
           vossa lei esperei em Vós.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 20, 1-16</Text>
+      <Typography className="em">Mt. 20, 1-16</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Simile
           est regnum cœlórum hómini patrifamílias, qui éxiit primo mane
           condúcere operários in víneam suam. Conventióne autem facta cum
@@ -175,8 +175,8 @@ export default function PageQuadp20() {
           sicut et tibi. Aut non licet mihi, quod volo, fácere? an óculus tuus
           nequam est, quia ego bonus sum? Sic erunt novíssimi primi, et primi
           novíssimi. Multi enim sunt vocáti, pauci vero elécti.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus a seus discípulos: «O reino dos céus é
           semelhante a um pai de família que sai da sua casa cedo para ajustar
           jornaleiros, para a sua vinha. E, tendo ajustado com eles dar a cada
@@ -204,66 +204,66 @@ export default function PageQuadp20() {
           mau, porque o meu é bom? Assim, os últimos serão os primeiros, e os
           primeiros serão os últimos; pois muitos são os chamados e poucos os
           escolhidos».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 91, 2</Text>
+      <Typography className="em">Sl. 91, 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Bonum est confitéri Dómino, et psállere nómini tuo, Altíssime.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           É bom louvar o Senhor; e cantar Salmos em honra do vosso nome, ó
           Altíssimo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
           cœléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Recebendo as nossas ofertas e orações, Senhor, dignai-Vos
           purificar-nos por virtude dos vossos celestiais mystérios e ouvi
           misericordioso os nossos rogos. Por nosso Senhor Jesus Cristo, vosso
           Filho, que...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 30, 17-18</Text>
+      <Typography className="em">Sl. 30, 17-18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Illúmina fáciem tuam super servum tuum, et salvum me fac in tua
           misericórdia: Dómine, non confúndar, quóniam invocávi te.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Fazei resplandecer a vossa face sobre este vosso servo, e salvai-me
           pela vossa misericórdia, Senhor; que eu não seja confundido, pois Vos
           invoquei.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Fidéles tui, Deus, per tua dona firméntur: ut eadem et percipiéndo
           requírant, et quæréndo sine fine percípiant. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que os vossos fiéis, ó Deus, sejam fortificados com vossos dons, a fim
           de que, recebendo-os, continuem a procurá-los, e, havendo-os achado,
           sirvam para a nossa eternidade. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

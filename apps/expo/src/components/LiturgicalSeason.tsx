@@ -1,10 +1,11 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import type { LiturgicalSeason as Season } from "@tesourofieis/cal/calendar";
 
-import { Text, useColorScheme, View } from "react-native";
+import { useColorScheme, View } from "react-native";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
 import PageLinkCard from "./LinkCard";
+import { Typography } from "./typography";
 
 type Prayer = {
   title: string;
@@ -443,9 +444,9 @@ export default function LiturgicalSeason() {
           color={iconColor}
         />
 
-        <Text className={`text-pretty text-xl ${seasonColors.accent}`}>
+        <Typography className={`text-pretty text-xl ${seasonColors.accent}`}>
           {season}
-        </Text>
+        </Typography>
       </View>
 
       <View>

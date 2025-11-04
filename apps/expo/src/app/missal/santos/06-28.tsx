@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ export default function Page0628() {
     <PageWrapper>
       <H1 text="Vigília de S. S. Pedro e Paulo, Aps., a 28 de Junho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         A Igreja celebra amanhã a festa dos dois Apóstolos, os fundamentos sobre
         os quais ela está solidamente edificada (Or.). «O rigor que sabe
         impor-se um povo, em certos dias de preparação é um sinal da fé por ele
@@ -18,55 +18,55 @@ export default function Page0628() {
         confissão de fé (Ev. de amanhã) e o amor (Ev.) a Jesus; rei das almas.
         Paulo, associando-se aos seus trabalhos e ao seu martírio, compartilha
         de seu reino e de seu triunfo.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Jo. 21, 18-19</Text>
+      <Typography className="em">Jo. 21, 18-19</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dicit Dóminus Petro: Cum esses júnior, cingébas te et ambulábas, ubi
           volébas: cum autem senúeris, exténdes manus tuas, et álius te cinget
           et ducet, quo tu non vis: hoc autem dixit, signíficans, qua morte
-          clarificatúrus esset Deum. <Text className="latin">Ps. 18, 1</Text>{" "}
+          clarificatúrus esset Deum. <Typography className="latin">Ps. 18, 1</Typography>{" "}
           Cœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           O Senhor disse a Pedro: «Quando tu eras mais novo, cingias-te a ti
           mesmo e ias onde querias; mas, quando fores velho, estenderás as tuas
           mãos, um outro te cingirá e te conduzirá onde não queiras». Isto
           foi-lhe dito para lhe indicar com que morte deveria glorificar Deus.{" "}
-          <Text className="vernacular">Sl. 18, 1</Text> Os céus proclamam a
+          <Typography className="vernacular">Sl. 18, 1</Typography> Os céus proclamam a
           glória de Deus e o firmamento anuncia as obras das suas mãos.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut nullis nos permíttas
           perturbatiónibus cóncuti; quos in apostólicæ confessiónis petra
           solidásti. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, havendo nós sido estabelecidos sobre a pedra
           sólida da fé dos Apóstolos, dignai-Vos permitir que nenhuma
           perturbação abale a nossa fé. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Act. 3, 1-10</Text>
+      <Typography className="em">Act. 3, 1-10</Typography>
 
       <Language>
-        <Text className="latin">Léctio Actuum Apostolórum.</Text>
-        <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Actuum Apostolórum.</Typography>
+        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="latin">
           In diébus illis: Petrus et Joánnes ascendébant in templum ad horam
           oratiónis nonam. Et quidam vir, qui erat claudus ex útero matris suæ,
           bajulabátur: quem ponébant cotídie ad portam templi, quæ dícitur
@@ -83,8 +83,8 @@ export default function Page0628() {
           Cognoscébant autem illum, quod ipse erat, qui ad eleemósynam sedébat
           ad Speciósam portam templi: et impléti sunt stupore et écstasi in eo,
           quod contígerat illi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Como Pedro e João subissem ao templo para a hora nona da oração,
           encontraram um homem, que era coxo desde o seio de sua mãe, a quem
           colocavam todos os dias à porta do templo, chamada «Especiosa», para
@@ -101,41 +101,41 @@ export default function Page0628() {
           reconhecendo que aquele era o mesmo que estava assentado à porta
           «Especiosa» do templo a mendigar, ficou cheio de admiração e de
           espanto pelo que havia acontecido.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 18, 5 & 2</Text>
+      <Typography className="em">Sl. 18, 5 & 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In omnem terram exívit sonus eórum: et in fines orbis terræ verba
-          eórum.<Text className="versicle"> ℣. </Text>Cœli enárrant glóriam Dei:
+          eórum.<Typography className="versicle"> ℣. </Typography>Cœli enárrant glóriam Dei:
           et ópera mánuum ejus annúntiat firmaméntum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O eco da sua voz espalhou-se por toda a terra: e as suas palavras
           soaram até aos confins da terra.
-          <Text className="versicle"> ℣. </Text>Os céus proclamam a glória de
+          <Typography className="versicle"> ℣. </Typography>Os céus proclamam a glória de
           Deus e o firmamento anuncia as obras das suas mãos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 21, 15-10</Text>
+      <Typography className="em">Jo. 21, 15-10</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus Simóni Petro: Simon Joánnis, díligis me
           plus his? Dicit ei: Etiam, Dómine, tu scis, quia amo te. Dicit ei:
           Pasce agnos meos. Dicit ei íterum: Simon Joánnis, díligis me? Ait
@@ -147,8 +147,8 @@ export default function Page0628() {
           senúeris, exténdes manus tuas, et álius te cinget et ducet, quo tu non
           vis. Hoc autem dixit, signíficans, qua morte clarificatúrus esset
           Deum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, Jesus disse a Simão-Pedro: «Simão, filho de João, tu
           amas-me mais do que estes?». Ele respondeu: «Sim, Senhor, sabeis que
           Vos amo». E Jesus disse-lhe: «Apascenta os meus cordeiros». Novamente
@@ -163,66 +163,66 @@ export default function Page0628() {
           fores velho, estenderás as mãos, um outro te cingirá e te conduzirá
           onde tu não queiras». Ora isto dizia Ele para indicar com que morte
           glorificaria Deus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 138, 17</Text>
+      <Typography className="em">Sl. 138, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est
           principátus eórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vejo, ó meu Deus, que honrais de um modo singular os vossos amigos: o
           seu poder firmou-se extraordinariamente.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Munus pópuli tui, quǽsumus, Dómine, apostólica intercessióne
           sanctífica: nosque a peccatórum nostrórum máculis emúnda. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicamos, santificai pela intercessão dos vossos
           Apóstolos a oblata do vosso povo e purificai-nos das manchas dos
           nossos pecados. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 21, 15 & 17</Text>
+      <Typography className="em">Jo. 21, 15 & 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Simon Joánnis, díligis me plus his? Dómine, tu ómnia nosti: tu scis,
           Dómine, quia amo te.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Simão, filho de João, tu amas-me mais do que estes? Senhor, conheceis
           tudo, e, portanto, sabeis que Vos amo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quos cœlésti, Dómine, álii ménto satiásti: apostólicis
           intercessiónibus ab omni adversitáte custódi. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dignai-Vos, Senhor, pela intercessão dos vossos Apóstolos preservar de
           todas as adversidades aqueles que saciastes com o alimento celestial.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -11,41 +11,41 @@ export default function Page0621() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 8, 6</Text>
+      <Typography className="em">Sl. 8, 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Minuísti eum paulo minus ab Angelis: glória et honóre coronásti eum.{" "}
-          <Text className="latin">Ps. 148, 2</Text> Laudáte Dóminum, omnes
+          <Typography className="latin">Ps. 148, 2</Typography> Laudáte Dóminum, omnes
           Angeli ejus: laudáte eum, omnes virtútes ejus.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós o criastes um pouco abaixo dos Anjos: Vós o coroastes com honra e
-          glória. <Text className="vernacular">Sl. 148, 2</Text> Que todos os
+          glória. <Typography className="vernacular">Sl. 148, 2</Typography> Que todos os
           Anjos do Senhor louvem o Senhor; que todos os exércitos do Senhor
-          louvem o Senhor.<Text className="versicle"> ℣. </Text>
+          louvem o Senhor.<Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cœléstium donórum distribútor, Deus, qui in angélico júvene Aloísio
           miram vitæ innocéntiam pari cum pœniténtia sociásti: ejus méritis et
           précibus concéde; ut, innocéntem non secúti, pœniténtem imitémur. Per
           Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, distribuidor dos dons celestiais, que reunistes no angélico
           jovem Luís uma brilhante inocência de vida com uma não menos admirável
           penitência, concedei-nos pelos seus méritos e preces que o imitemos na
           penitência, já que o não acompanhamos na inocência. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
@@ -57,49 +57,49 @@ export default function Page0621() {
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 70, 5-6</Text>
+      <Typography className="em">Sl. 70, 5-6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dómine, spes mea: in te confirmátus sum ex útero: de ventre matris meæ
-          tu es protéctor meus.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 40, 13</Text> Me autem propter innocéntiam
+          tu es protéctor meus.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 40, 13</Typography> Me autem propter innocéntiam
           suscepísti: et confirmásti me in conspéctu tuo in ætérnum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Desde a minha juventude, Senhor, sois a minha esperança; desde o meu
           nascimento fiquei ligado a Vós; e desde o seio de minha mãe sois o meu
-          protector.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 40, 13</Text> Acolhestes-me por causa
+          protector.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 40, 13</Typography> Acolhestes-me por causa
           da minha inocência: e quisestes que ficasse sempre na vossa presença.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 64, 5</Text> Beátus, quem elegísti et
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 64, 5</Typography> Beátus, quem elegísti et
           assumpsísti: inhabitábit in átriis tuis. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 64, 5</Text> Bem-aventurado aquele
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 64, 5</Typography> Bem-aventurado aquele
           que escolhestes e chamastes para junto de Vós, pois habitará nos
           átrios do Senhor. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 22, 28-40</Text>
+      <Typography className="em">Mt. 22, 28-40</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Respóndens Jesus, ait sadducǽis: Errátis, nesciéntes
           Scriptúras neque virtútem Dei. In resurrectióne enim neque nubent
           neque nubéntur: sed erunt sicut Angeli Dei in cœlo. De resurrectióne
@@ -113,8 +113,8 @@ export default function Page0621() {
           tua, et in tota mente tua. Hoc est máximum et primum mandátum.
           Secúndum autem símile est huic: Díliges próximum tuum, sicut teípsum.
           In his duóbus mandátis univérsa lex pendet et Prophétæ.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, respondendo Jesus aos saduceus, disse-lhes: «Estais no
           erro e não compreendeis nem as Escrituras, nem o poder de Deus; pois
           após a ressurreição os homens se não ligarão a mulheres, nem as
@@ -131,67 +131,67 @@ export default function Page0621() {
           mandamento. Porém, há um segundo, igual a este, qual é: amarás o teu
           próximo como a ti mesmo. Nestes dois mandamentos se encerram toda a
           Lei e os Profetas».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 23, 3-4</Text>
+      <Typography className="em">Sl. 23, 3-4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quis ascéndet in montem Dómini, aut quis stabit in loco sancto ejus?
           Innocens mánibus, et mundo corde.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Quem ascenderá à montanha do Senhor? Quem permanecerá no seu lugar
           sagrado? Aqueles cujas mãos são inocentes e cujo coração é puro.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cœlésti convívio fac nos, Dómine, nuptiáli veste indútos accúmbere:
           quam beáti Aloísii pia præparátio et juges lácrimæ inæstimabílibus
           ornábant margarítis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Para que sejamos admitidos ao celestial banquete, concedei-nos,
           Senhor, que sejamos revestidos com a veste nupcial que o B. Luís, com
           suas fervorosas disposições e lágrimas contínuas, ornava de pérolas
           preciosas. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 77, 24-25</Text>
+      <Typography className="em">Sl. 77, 24-25</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Panem cœli dedit eis: panem Angelórum manducávit homo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deu-lhe o pão do céu: o homem comeu o pão dos Anjos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Angelórum esca nutrítos, angélicis étiam, Dómine, da móribus vívere:
           et ejus, quem hódie cólimus, exémplo in gratiárum semper actióne
           manére. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo nós sido alimentados com o Pão dos Anjos, concedei-nos,
           Senhor, que vivamos também como os Anjos, e, imitando o exemplo
           daquele que festejamos hoje, vivamos apresentando-Vos sempre a nossa
           acção de graças. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

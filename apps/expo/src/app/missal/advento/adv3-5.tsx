@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,48 +10,48 @@ export default function PageAdv35() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 118, 151–152</Text>
+      <Typography className="em">Sl. 118, 151–152</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Prope es tu, Dómine, et omnes viæ tuæ véritas: inítio cognóvi de
           testimóniis tuis, quia in ætérnum tu es.{" "}
-          <Text className="latin">Ps. ibid., 1</Text> Beati immaculáti in via:
+          <Typography className="latin">Ps. ibid., 1</Typography> Beati immaculáti in via:
           qui ámbulant in lege Dómini.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Senhor, estais próximo: e todos vossos ensinos são verdadeiros. Desde
           o princípio que conheço os vossos ensinos, porque os ensinastes desde
-          sempre. <Text className="vernacular">Sl. ibid., 1</Text>{" "}
+          sempre. <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
           Bem-aventurados os que procedem sem mácula em seus caminhos: e os que
-          caminham na lei do Senhor.<Text className="versicle"> ℣. </Text>Glória
+          caminham na lei do Senhor.<Typography className="versicle"> ℣. </Typography>Glória
           ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Excita, quǽsumus, Dómine, poténtiam tuam, et veni: ut hi, qui in tua
           pietáte confídunt, ab omni cítius adversitáte liberéntur: Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Mostrai o vosso poder, Senhor, Vos suplicamos, e vinde, a fim de que
           aqueles que confiam na vossa bondade sejam bem depressa livres de toda
           a adversidade: Vós, que viveis e...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Is. 11, 1–5</Text>
+      <Typography className="em">Is. 11, 1–5</Typography>
 
       <Language>
-        <Text className="latin">Léctio Isaíæ Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Isaías.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Isaíæ Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Isaías.</Typography>
+        <Typography className="latin">
           Hæc dicit Dóminus Deus: Egrediátur virga de radíce Jesse, et flos de
           radíce ejus ascéndet. Et requiéscet super eum spíritus Dómini:
           spíritus sapiéntiæ et intelléctus, spíritus consílii et fortitúdinis,
@@ -61,8 +61,8 @@ export default function PageAdv35() {
           in æquitáte pro mansuétis terræ: et percútiet terram virga oris sui,
           et spíritu labiórum suórum interfíciet ímpium. Et erit justítia
           cíngulum lumbórum ejus: et fides cinctórium renum ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Isto diz o Senhor Deus: Sairá uma vara do tronco de Jessé e uma flor
           brotará da sua raiz. E o espírito do Senhor repousará sobre ele:
           espírito de sabedoria e de inteligência; espírito de conselho e de
@@ -73,39 +73,39 @@ export default function PageAdv35() {
           sua boca baterá na terra: e matará o ímpio com um sopro dos seus
           lábios. A justiça será o cinto de suas entranhas e a fé o cinturão dos
           seus rins.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 84, 8 & 2</Text>
+      <Typography className="em">Sl. 84, 8 & 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Osténde nobis, Dómine, misericórdiam tuam: et salutáre tuum da nobis.
-          <Text className="versicle"> ℣. </Text>Benedixísti, Dómine, terram
+          <Typography className="versicle"> ℣. </Typography>Benedixísti, Dómine, terram
           tuam: avertísti captivitátem Jacob.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Mostrai-nos, Senhor, a vossa misericórdia; e dai-nos a vossa salvação.
           Abençoastes, Senhor, a vossa terra; afastastes o cativeiro de Jacob.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 1, 39–47</Text>
+      <Typography className="em">Lc. 1, 39–47</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo tempore: Exsúrgens María ábiit in montána cum festinatióne in
           civitátem Juda: et intrávit in domum Zacharíæ, et salutávit Elísabeth.
           Et factum est, ut audivit salutatiónem Maríæ Elísabeth, exsultávit
@@ -117,8 +117,8 @@ export default function PageAdv35() {
           credidísti, quóniam perficiéntur ea, quæ dicta sunt tibi a Dómino. Et
           ait María: Magníficat anima mea Dóminum: et exsultávit spíritus meus
           in Deo, salutári meo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, levantando-se Maria, foi apressadamente às montanhas de
           uma cidade de Judá, onde entrou em casa de Zacarias e saudou Isabel. E
           aconteceu que, logo que Isabel ouviu a saudação de Maria, saltou a
@@ -131,68 +131,68 @@ export default function PageAdv35() {
           as coisas que vos foram ditas da parte do Senhor». Maria disse, então:
           «Minha alma glorifica ao Senhor: e o meu espírito se alegra em Deus,
           meu Salvador».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 84, 7–8</Text>
+      <Typography className="em">Sl. 84, 7–8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, tu convérsus vivificábis nos, et plebs tua lætábitur in te:
           osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, volvei para nós vossos olhares e dar-nos-eis a vida: então o
           vosso povo rejubilará em Vós. Mostrai-nos, Senhor, a vossa
           misericórdia: e dai-nos a vossa salvação.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et
           cœléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, depois de haverdes recebido as nossas ofertas e as nossas
           orações, Vos suplicamos, purificai-nos com vossos celestiais mystérios
           e ouvi-nos clementemente. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Zc. 14, 5–6</Text>
+      <Typography className="em">Zc. 14, 5–6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ecce, Dóminus véniet et omnes Sancti ejus cum eo: et erit in die illa
           lux magna.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eis que o Senhor vem, e com Ele virão todos os Santos; e nesse dia
           raiará uma luz brilhantíssima.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tui nos, Dómine, sacraménti libátio sancta restáuret: et a vetustáte
           purgátos, in mystérii salutáris fáciat transíre consórtium. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, que a nossa comparticipação neste divino mystério nos
           restaure; e que, depois de nos haver purificado do «homem velho», nos
           conduza ao gozo das alegrias da salvação. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

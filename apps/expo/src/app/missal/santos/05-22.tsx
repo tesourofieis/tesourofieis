@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -11,56 +11,56 @@ export default function Page0522() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 117, 19 & 22</Text>
+      <Typography className="em">Sl. 117, 19 & 22</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Aperíte mihi portas justítiæ, ingréssus in eas confitébor Dómino:
           lápidem, quem reprobavérunt ædificántes, hic factus est in caput
           ánguli. (T.P. Allelúja, Allelúja.){" "}
-          <Text className="latin">Ps. 117, 1</Text> Confitémini Dómino, quóniam
+          <Typography className="latin">Ps. 117, 1</Typography> Confitémini Dómino, quóniam
           bonus, quóniam in sǽculum misericórdia ejus.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Abri-me as portas da justiça, e, ao entrar por elas, louvarei o
           Senhor. A pedra que os edificadores rejeitaram tornou-se na pedra
           angular. (T.P. Aleluia, aleluia.){" "}
-          <Text className="vernacular">Sl. 117, 1</Text> Louvai o Senhor, porque
+          <Typography className="vernacular">Sl. 117, 1</Typography> Louvai o Senhor, porque
           Ele é bom; a sua misericórdia permanecerá em todos os séculos dos
-          séculos.<Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          séculos.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui sanctæ Ritæ tantam grátiam conférre dignátus es, ut inimícos
           dilígeret et in corde ac fronte caritátis et passiónis tuæ signa
           portáret: da nobis, quǽsumus, ejus intercessióne et méritis; inimícis
           nostris sic párcere et passiónis tuæ dolóres contemplári, ut promíssa
           mítibus ac lugéntibus prǽmia consequámur: Qui vivis et regnas...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que Vos dignastes conceder a Santa Rita abundante graça para
           amar os inimigos e trazer no coração e na fronte os sinais da vossa
           caridade e Paixão, concedei-nos por sua intercessão e méritos que,
           perdoando nós aos nossos inimigos e contemplando os sofrimentos da
           vossa Paixão, consigamos alcançar os prémios prometidos aos que são
           mansos e misericordiosos de coração. Ó Vós, que viveis e reinais...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Pr. 2</Text>
+      <Typography className="em">Pr. 2</Typography>
 
       <Language>
-        <Text className="latin">Lectio libri Sapiéntiæ.</Text>
-        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-        <Text className="latin">
+        <Typography className="latin">Lectio libri Sapiéntiæ.</Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="latin">
           Ego flos campi, et lílium conválium. Sicut lílium inter spinas, sic
           amíca mea inter fílias. Sicut malus inter ligna silvárum, sic diléctus
           meus inter fílios. Sub umbra illíus, quem desideráveram, sedi: et
@@ -78,8 +78,8 @@ export default function Page0522() {
           terra nostra: tempus putatiónis advénit: vox túrturis audíta est in
           terra nostra: ficus prótulit grossos suos: víneæ floréntes dedérunt
           odórem suum. Surge, amíca mea, speciósa mea, et veni.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Sou a flor do campo e a açucena dos vales. Como a açucena entre os
           espinhos, assim é a minha amiga entre as donzelas. Como a macieira
           entre as árvores dos bosques, assim o meu amado entre os bosques.
@@ -99,28 +99,28 @@ export default function Page0522() {
           poda; ouve-se a rola nos nossos campos; a figueira mostra os primeiros
           frutos e as vinhas em flor exalam seus aromas! Ergue-te e vem, minha
           amiga, minha beleza!».
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Eccli. 24, 18</Text> Quasi palma exaltáta sum
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Eccli. 24, 18</Typography> Quasi palma exaltáta sum
           in Cades, et quasi plantátio rosæ in Jéricho.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">ibid., 20</Text> Sicut cinnamómum et bálsamum
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">ibid., 20</Typography> Sicut cinnamómum et bálsamum
           aromatízans odórem dedi: quasi myrrha elécta dedi suavitátem odóris.
           Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Ecl. 24, 18</Text> Fui exaltada como a
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Ecl. 24, 18</Typography> Fui exaltada como a
           palmeira em Cades e como os roseirais das roseiras de Jericó. Aleluia.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">ibid., 20</Text> Espalhei perfumes, como o
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">ibid., 20</Typography> Espalhei perfumes, como o
           cinamomo e o bálsamo aromático: e como mirra escolhida exalei suave
           odor. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -132,66 +132,66 @@ export default function Page0522() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Gn. 40, 9-10</Text>
+      <Typography className="em">Gn. 40, 9-10</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vidébam coram me vitem, in qua erant tres propágines, créscere
           paulátim in gemmas, et post flores uvas maturéscera. (T. P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Diante de mim via uma cepa, na qual havia três varas, pouco a pouco a
           crescer em gomos: e, depois de as flores amadurecerem, as uvas. (T.P.
           Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Corda nostra, quǽsumus, Dómine, Sanctæ Ritæ méritis, supérni dolóris
           spina confíge: ut, a peccátis ómnibus tua grátia liberáti, sacrificáre
           tibi hóstiam laudis pura mente valeámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Compungi, Senhor, Vos suplicamos, pelos méritos de Santa Rita, os
           nossos corações com os espinhos de uma dor sobrenatural, a fim de que
           pela vossa graça, livres de todo o pecado, possamos sacrificar-Vos com
           o coração puro a hóstia de louvor. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 20, 4</Text>
+      <Typography className="em">Sl. 20, 4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Prævenísti eam, Dómine, in benedictiónibus dulcédinis: posuísti in
           cápite ejus corónam de lápide pretióso. (T. P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Premuniste-la, Senhor, com bênçãos de doçura: Impusestes na sua cabeça
           uma coroa de pedras preciosas. (T.P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cæléstibus, Dómine, pasti delíciis, súpplices te rogámus: ut,
           intercedénte sancta Rita, caritátis et passiónis tuæ in méntibus
           nostris signa ferámus, et perpétuæ pacis fructu júgiter perfruámur.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Apascentados, ó Senhor, com as delícias celestiais, suplicantes, Vos
           pedimos a graça de, por intercessão de Santa Rita, trazermos em nossas
           mentes os sinais da vossa caridade e Paixão e gozarmos constantemente
           o fruto da perpétua paz. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

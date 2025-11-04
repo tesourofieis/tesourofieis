@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -10,7 +10,7 @@ export default function Page0719() {
     <PageWrapper>
       <H1 text="S. Vicente de Paulo, Conf., a 19 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         A Providência, sempre maternal em sua solicitude para com os homens,
         suscitou no século XVII a S. Vicente de Paulo, a quem cumulou com o
         Espírito que fortificára os Apóstolos. Vicente contribuiu muito para a
@@ -35,32 +35,32 @@ export default function Page0719() {
         Congregação. Peçamos a Deus, que, a exemplo de S. Vicente cujos piedosos
         méritos (Or.) hoje veneramos, os nossos corações sejam abrasados, como o
         seu, na divina caridade.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link href="/missal/comum/15confessoresnaopontifices2">
           Missa Justus ut palma,
         </Link>
         excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui, ad evangelizándum paupéribus et ecclesiástici órdinis
           decórem promovéndum, beátum Vincéntium apostólica virtúte roborásti:
           præsta, quǽsumus; ut, cujus pia mérita venerámur, virtútum quoque
           instruámur exémplis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que ornastes o B. Vicente com a coragem e as virtudes
           apostólicas para a evangelização dos pobres e para promover o decoro
           da ordem eclesiástica, permiti, Vos imploramos, que, honrando os seus
           piedosos méritos, sejamos instruídos com o exemplo de suas virtudes.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -9,7 +9,7 @@ export default function Page0726() {
     <PageWrapper>
       <H1 text="Santa Ana, Mãe da Bem-Aventurada Virgem Maria, a 26 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         A Igreja celebra com os Anjos, em santa alegria (Intr.) a mãe da
         bem-aventurada Virgem Maria. Como indica o seu nome Ana, a graça foi
         nela difundida, e Deus abençoou-a para sempre (Com.). «Por sua graça,
@@ -23,44 +23,44 @@ export default function Page0726() {
         VIII no Ocidente; foi autorizado por Urbano IV em 1378. Gregório XIII
         fixou, em 1584, sua festa a 26 de Julho e Leão XIII estendeu-a a toda a
         Igreja, em 1879.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ
           Annæ: de cujus sollemnitáte gaudent Angeli et colláudant Fílium Dei.{" "}
-          <Text className="latin">Ps. 44, 2</Text> Eructávit cor meum verbum
+          <Typography className="latin">Ps. 44, 2</Typography> Eructávit cor meum verbum
           bonum: dico ego ópera mea Regi.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Alegremo-nos todos no Senhor, celebrando neste dia a festa em honra da
           B. Ana; pois os Anjos rejubilam com esta festividade e em harmonia
-          louvam o Filho de Deus. <Text className="vernacular">Sl. 44, 2</Text>{" "}
+          louvam o Filho de Deus. <Typography className="vernacular">Sl. 44, 2</Typography>{" "}
           Meu coração exalou uma palavra excelente: Consagro ao Rei as minhas
           obras.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beátæ Annæ grátiam conférre dignatus es, ut Genetrícis
           unigéniti Fílii tui mater effici mererétur: concéde propítius; ut,
           cujus sollémnia celebrámus, ejus apud te patrocíniis adjuvémur. Per
           eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que Vos dignastes conferir à B. Ana a graça de ser escolhida
           para dar ao mundo a Mãe do vosso Filho Unigénito, concedei-nos
           propício que sejamos auxiliados junto de Vós pelo patrocínio daquela
           cuja festa celebramos. Pelo mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
@@ -86,66 +86,66 @@ export default function Page0726() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 44, 10</Text>
+      <Typography className="em">Sl. 44, 10</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Fíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu
           deauráto, circúmdata varietáte.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           As filhas dos reis formam a vossa corte de glória: a própria rainha
           está colocada à vossa direita, envergando um vestido de ouro, recamado
           da mais rica variedade.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacrifíciis præséntibus, quǽsumus, Dómine, placatus inténde: ut per
           intercessiónem beátæ Annæ, quæ Genetrícis Fílii tui, Dómini nostri
           Jesu Christi, mater éxstitit, et devotióni nostræ profíciant et
           salúti. Per eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Olhai propício, Senhor, Vos suplicamos, para estes sacrifícios, a fim
           de que, pela intercessão da B. Ana, que foi Mãe daquela que deu ao
           mundo vosso Filho, nosso Senhor Jesus Cristo, sejam proveitosos à
           nossa piedade e salvação. Pelo mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 44, 3</Text>
+      <Typography className="em">Sl. 44, 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in
           ætérnum, et in sǽculum sǽculi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A graça espalhou-se nos vossos lábios: eis porque Deus vos abençoou
           para a eternidade e para todos os séculos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cœléstibus sacraméntis vegetáti, quǽsumus, Dómine, Deus noster: ut,
           intercessióne beátæ Annæ, quam Genetrícis Fílii tui matrem esse
           voluísti, ad ætérnam salútem perveníre mereámur. Per eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Alentados com os celestiais sacramentos, Vos suplicamos, ó Senhor,
           nosso Deus, permiti pela intercessão da B. Ana, que foi Mãe daquela
           que deu ao mundo vosso Filho, que possamos alcançar a salvação eterna.
           Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

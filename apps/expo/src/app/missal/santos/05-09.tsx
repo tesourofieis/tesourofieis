@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -8,7 +8,7 @@ export default function Page0509() {
     <PageWrapper>
       <H1 text="S. Gregório Nazianzeno, B. C. e Doutor, a 9 de Maio" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Gregório nasceu em Nazianzo na Capadócia, instruiu-se, em Atenas, em
         toda a espécie de ciências, ao mesmo tempo que S. Basílio o Grande, a
         quem foi unido pelos laços de santa amizade. Irmãos nos estudos, eles o
@@ -30,9 +30,9 @@ export default function Page0509() {
         Inteligência», a sua profunda ciência das letras divinas mereceu-lhe o
         título de Doutor e Teólogo que a Igreja consagrou. S. Gregório morreu em
         389.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/13doutores">
           Missa In médio Ecclésiae
@@ -42,7 +42,7 @@ export default function Page0509() {
           Segunda Epístola
         </Link>{" "}
         .
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0806() {
     <PageWrapper>
       <H1 text="Transfiguração de N. S. J. Cristo, a 6 de Agosto" />
 
-      <Text className="comment">
+      <Typography className="comment">
         A festa da Transfiguração de Jesus ha muito já era celebrada a 6 de
         Agosto, nas diversas igrejas do Oriente e do Occidente. A fim de
         comemorar a victoria que impediu, proximo de Belgrado, em 1456, a onda
@@ -18,46 +18,46 @@ export default function Page0806() {
         igrejas que têm por orago o Santo Salvador. Pio X elevou-a ao rito de 2
         classe, pois, é o título secundário de S. João de Latrão, outrora
         chamada basílica do Santo Salvador.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Comemoração de S. Sixto, Felicíssimo e Agapito como na
         <Link href="/missal/comum/7muitosmartires2">
           Missa Missa Sapiéntiam sanctórum
         </Link>
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 76, 19</Text>
+      <Typography className="em">Sl. 76, 19</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Illuxérunt coruscatiónes tuæ orbi terræ: commóta est et contrémuit
-          terra. <Text className="latin">Ps. 83, 2-3</Text> Quam dilécta
+          terra. <Typography className="latin">Ps. 83, 2-3</Typography> Quam dilécta
           tabernácula tua, Dómine virtútum! concupíscit, et déficit ánima mea in
-          átria Dómini.<Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          átria Dómini.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Os vossos relâmpagos iluminaram o globo terrestre: moveu-se a terra e
-          tremeu. <Text className="vernacular">Sl. 83, 2-3</Text> Como são
+          tremeu. <Typography className="vernacular">Sl. 83, 2-3</Typography> Como são
           amáveis os vossos tabernáculos, ó Senhor dos exércitos! Minha alma
           suspira ardentemente pelos átrios do Senhor.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui fídei sacraménta in Unigéniti tui gloriósa Transfiguratióne
           patrum testimónio roborásti, et adoptiónem filiórum perféctam, voce
           delápsa in nube lúcida, mirabíliter præsignásti: concéde propítius; ut
           ipsíus Regis glóriæ nos coherédes effícias, et ejúsdem glóriæ tríbuas
           esse consórtes. Per eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que na gloriosa Transfiguração de vosso Filho Unigénito
           confirmastes os méritos da fé pelo testemunho dos patriarcas, e que
           pela voz saída da nuvem iluminada proclamastes admiravelmente a
@@ -65,17 +65,17 @@ export default function Page0806() {
           propício a graça de nos tornarmos co-herdeiros do Rei da glória e de
           mais tarde sermos participantes desta mesma glória. Pelo mesmo nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">2 Pe. 1, 16-19</Text>
+      <Typography className="em">2 Pe. 1, 16-19</Typography>
 
       <Language>
-        <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
-        <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
           Caríssimi: Non doctas fábulas secúti notam fecimus vobis Dómini nostri
           Jesu Christi virtútem et præséntiam: sed speculatores facti illíus
           magnitudinis. Accipiens enim a Deo Patre honórem et glóriam, voce
@@ -85,8 +85,8 @@ export default function Page0806() {
           habémus firmiórem propheticum sermónem: cui bene facitis attendentes,
           quasi lucérnæ lucénti in caliginóso loco, donec dies elucescat et
           lucifer oriálur in córdibus vestris.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimos: Não foi servindo-nos de fábulas engenhosas que vos fizemos
           conhecer o poder e a vinda de nosso Senhor Jesus Cristo, mas depois de
           havermos sido espectadores da sua majestade. Com efeito, Ele recebeu
@@ -97,50 +97,50 @@ export default function Page0806() {
           palavra profética como firmíssima, à qual fazeis bem em atender, como
           se fora uma lâmpada em um lugar escuro, até que o dia brilhe e que a
           estrela da manhã nasça nos nossos corações!
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 44, 3 & 2</Text>
+      <Typography className="em">Sl. 44, 3 & 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Speciosus forma præ fíliis hóminum: diffúsa est grátia in lábiis tuis.
-          <Text className="versicle"> ℣. </Text>Eructávit cor meum verbum bonum:
+          <Typography className="versicle"> ℣. </Typography>Eructávit cor meum verbum bonum:
           dico ego ópera mea Regi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Sois o mais belo dos filhos dos homens: a graça espalhou-se nos vossos
-          lábios.<Text className="versicle"> ℣. </Text>Meu coração exprimiu uma
+          lábios.<Typography className="versicle"> ℣. </Typography>Meu coração exprimiu uma
           palavra excelente: Consagro ao Rei as minhas obras.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Sap. 7, 26</Text> Candor est lucis ætérnæ,
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Sap. 7, 26</Typography> Candor est lucis ætérnæ,
           spéculum sine mácula, et imágo bonitátis illíus. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sb. 7, 26</Text> Este é o esplendor da
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sb. 7, 26</Typography> Este é o esplendor da
           luz eterna, o espelho sem mancha de Deus e a imagem da sua bondade!
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 17, 1-9</Text>
+      <Typography className="em">Mt. 17, 1-9</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Assúmpsit Jesus Petrum, et Jacóbum, et Joánnem
           fratrem ejus, et duxit illos in montem excélsum seórsum: et
           transfigurátus est ante eos. Et resplénduit fácies ejus sicut sol:
@@ -155,8 +155,8 @@ export default function Page0806() {
           Levántes autem óculos suos, néminem vidérunt nisi solum Jesum. Et
           descendéntibus illis de monte, præcépit eis Jesus, dicens: Némini
           dixéritis visiónem, donec Fílius hóminis a mórtuis resúrgat.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, Jesus levou consigo Pedro, Tiago e João e conduziu-os a
           um monte alto e separado, transfigurando-se ante eles: seu rosto
           resplandecia, como o sol, e os seus vestidos tornaram-se brancos, como
@@ -171,70 +171,70 @@ export default function Page0806() {
           amedronteis». Então, erguendo os olhos, já nada viram senão só Jesus.
           Desceram do monte, dando-lhes Jesus esta ordem: «Não conteis a ninguém
           esta visão até que o Filho do homem ressuscite dos mortos».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 111, 3</Text>
+      <Typography className="em">Sl. 111, 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum
           sǽculi, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A glória e as riquezas estão na sua casa; a sua justiça subsistirá
           para sempre. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Obláta, quǽsumus, Dómine, múnera gloriósa Unigéniti tui
           Transfiguratióne sanctífica: nosque a peccatórum máculis, splendóribus
           ipsíus illustratiónis emunda. Per eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Santificai, Senhor, pela gloriosa Transfiguração do vosso Filho
           Unigénito, Vos pedimos, as oblatas que Vos apresentamos; e pelos
           esplendores da sua glorificação purificai-nos das manchas dos nossos
           pecados. Pelo mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 17, 9</Text>
+      <Typography className="em">Mt. 17, 9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Visiónem, quam vidístis, némini dixéritis, donec a mórtuis resúrgat
           Fílius hóminis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Não conteis a ninguém esta visão até que o Filho do homem ressuscite
           dos mortos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut sacrosáncta Fílii tui
           Transfiguratiónis mystéria, quæ sollemni celebrámus offício,
           purificáta mentis intellegéntia consequámur. Per eúndem Dómium
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos suplicamos, fazei que possamos gozar com a
           alma purificada de todas as manchas os sacrossantos mystérios da
           Transfiguração do vosso Filho, que celebrámos solenemente neste
           ofício. Pelo mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

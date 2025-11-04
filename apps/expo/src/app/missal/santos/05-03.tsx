@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -8,7 +8,7 @@ export default function Page0503() {
     <PageWrapper>
       <H1 text="Invenção da Santa Cruz, a 3 de Maio" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Após a vitória obtida por Constantino, graças à cruz que lhe apareceu
         nos ares e cujo signal reproduziu no Lábaro, Santa Helena, sua mãe, foi
         a Jerusalém em procura da verdadeira Cruz. No início do II século,
@@ -31,72 +31,72 @@ export default function Page0503() {
         pôs sobre os ombros um manto vulgar e pode assim continuar o seu
         trajecto. O cura celebra a Missa por intenção dos paroquianos.
         Comemoração 3º Domingo depois da Páscoa.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Gl. 6, 14</Text>
+      <Typography className="em">Gl. 6, 14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo
           est salus, vita et resurréctio nostra: per quem salváti et liberáti
-          sumus, allelúja, allelúja. <Text className="latin">Ps. 66, 2</Text>{" "}
+          sumus, allelúja, allelúja. <Typography className="latin">Ps. 66, 2</Typography>{" "}
           Deus misereátur nostri, et benedícat nobis: illúminet vultum suum
-          super nos, et misereátur nostri.<Text className="versicle"> ℣. </Text>
+          super nos, et misereátur nostri.<Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Convém que nos gloriemos na Cruz de nosso Senhor Jesus Cristo, pois
           Ele é a nossa salvação, vida e ressurreição: e por Ele fomos salvos e
           livres, aleluia, aleluia.{" "}
-          <Text className="vernacular">Sl. 66, 2</Text> Que o Senhor tenha
+          <Typography className="vernacular">Sl. 66, 2</Typography> Que o Senhor tenha
           misericórdia de nós e nos abençoe; que o Senhor nos ilumine com o
           brilho que resplandece da sua face e se compadeça de nós.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui in præclára salutíferæ Crucis Inventióne passiónis tuæ
           mirácula suscitásti: concéde; ut, vitális ligni prétio, ætérnæ vitæ
           suffrágia consequámur: Qui vivis et regnas...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que na memorável ocasião da Invenção da Cruz, donde nos veio a
           salvação, repetistes as maravilhas da vossa Paixão, concedei-nos, pela
           virtude deste Lenho de vida, que alcancemos a graça da vida eterna. Ó
           Vós, que sendo Deus, viveis e reinais...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Fl. 2, 5-11</Text>
+      <Typography className="em">Fl. 2, 5-11</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Philippenses.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Hoc enim sentíte in vobis, quod et in Christo Jesu: qui, cum
           in forma Dei esset, non rápinam arbitrátus est esse se æquálem Deo:
           sed semetípsum exinanívit formam servi accípiens, in similitudinem
           hóminum factus, et habitu inventus ut homo. Humiliávit semetípsum,
           factus obǿdiens usque ad mortem, mortem autem crucis. Propter quod et
           Deus exaltávit illum: et dojiávit illi nomen, quod est super omne
-          nomen: <Text className="em">(hic genuflectitur)</Text> ut in nomine
+          nomen: <Typography className="em">(hic genuflectitur)</Typography> ut in nomine
           Jesu omne genu flectátur cœléstium, terréstrium et infernórum: et
           omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est
           Dei Patris.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Tende os mesmos sentimentos que animaram Jesus Cristo, o
           qual, embora fosse Deus por natureza (e não era usurpação o julgar-se
           igual a Deus), contudo humilhou-se a si próprio, reduzindo-se à
@@ -104,46 +104,46 @@ export default function Page0503() {
           como homem pelas aparências. Humilhou-se a si próprio, obedecendo até
           à morte, e morte na cruz. Por isso Deus O exaltou e deu-Lhe um nome
           que é superior a todo o nome
-          <Text className="em">(devemos genuflectir)</Text> para que ao ser
+          <Typography className="em">(devemos genuflectir)</Typography> para que ao ser
           proferido o nome de Jesus todos os joelhos se dobrem nos céus, na
           terra e até nos infernos; e todas as línguas confessem que nosso
           Senhor Jesus Cristo está na glória de Deus Pai!
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 95, 10</Text> Dícite in géntibus, quia
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 95, 10</Typography> Dícite in géntibus, quia
           Dóminus regnávit a ligno. Allelúja.
-          <Text className="versicle"> ℣. </Text>Dulce lignum, dulces clavos,
+          <Typography className="versicle"> ℣. </Typography>Dulce lignum, dulces clavos,
           dúlcia ferens póndera: quæ sola fuísti digna sustinére Regem cœlórum
           et Dóminum. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 95, 10</Text> Anunciai aos povos que
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 95, 10</Typography> Anunciai aos povos que
           o Senhor reinou pela Cruz. Aleluia.
-          <Text className="versicle"> ℣. </Text>Ó doce Lenho, ó doces cravos que
+          <Typography className="versicle"> ℣. </Typography>Ó doce Lenho, ó doces cravos que
           suportais o peso dum fardo tão doce! Só vós, ó Cruz, fostes digna de
           ter suspenso o Senhor, Rei dos céus. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 3, 1-15</Text>
+      <Typography className="em">Jo. 3, 1-15</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Erat homo ex pharisǽis, Nicodémus nómine, princeps
           Judæórum. Hic venit ad Jesum nocte et dixit ei: Rabbi, scimus, quia a
           Deo venísti magíster; nemo enim potest hæc signa fácere, quæ tu facis,
@@ -166,8 +166,8 @@ export default function Page0503() {
           Moyses exaltávit serpéntem in desérto: ita exaltári opórtet Fílium
           hóminis, ut omnis, qui credit in ipsum, non péreat, sed hábeat vitam
           ætérnam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, havia entre os judeus um homem, chamado Nicodemos, que
           era um dos príncipes dos judeus. Em uma noite veio ele encontrar
           Jesus, dizendo-Lhe: «Mestre, sabemos que viestes da parte de Deus,
@@ -193,71 +193,71 @@ export default function Page0503() {
           deserto, assim também é necessário que o Filho do homem seja
           levantado, a fim de que quem acreditar n’Ele não pereça, mas alcance a
           vida eterna».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 117, 16 & 17</Text>
+      <Typography className="em">Sl. 117, 16 & 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non
           móriar, sed vivam et narrábo ópera Dómini, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A dextra do Senhor mostrou o seu poder: a dextra do Senhor exaltou-me.
           Não morrerei, mas viverei e publicarei as obras do Senhor. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacrifícium, Dómine, quod tibi immolámus, placátus inténde: ut ab omni
           nos éruat bellórum nequítia, et per vexíllum sanctæ Crucis Fílii tui,
           ad conteréndas potestátis advérsa? insídias, nos in tuæ protectiónis
           securitáte constítuat. Per eúndem Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aplacai-Vos, Senhor, e dignai-Vos olhar para esta vítima, que imolamos
           em vossa honra, a fim de que por ela sejamos preservados de todos os
           males das guerras e pelo estandarte da Santa Cruz do vosso Filho
           vençamos as insídias dos nossos poderosos inimigos, ficando em
           segurança sob a vossa protecção. Pelo mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Per signum Crucis de inimícis nostris líbera nos, Deus noster,
           allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Pelo sinal da Santa Cruz, livrai-nos, ó nosso Deus, de nossos
           inimigos. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Repléti alimónia cœlésti et spiritáli poculo recreáti, quǽsumus,
           omnípotens Deus: ut ab hoste malígno deféndas, quos per lignum sanctæ
           Crucis Fílii tui, arma justítiæ pro salúte mundi, triumpháre jussísti.
           Per eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Saciados com o alimento celestial e confortados com a bebida
           espiritual, Vos suplicamos, ó Deus omnipotente, defendei da malícia do
           inimigo aqueles que quisestes que triunfassem pelo sagrado Lenho da
           Cruz de vosso Filho, que é a arma de justiça que salvou o mundo. Pelo
           mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

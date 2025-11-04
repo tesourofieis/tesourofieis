@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -6,7 +6,7 @@ export default function PageConsagracaosagradocoracaojesus() {
   return (
     <PageWrapper>
       <H1 text="Consagração ao Sagrado Coração de Jesus" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó Dulcíssimo Jesus, ó Redentor do género humano, lançai um olhar sobre
         nós, humildemente prostrados diante do vosso Altar! Somos vossos e
         vossos queremos ser; e para podermos viver mais estreitamente unidos a
@@ -25,11 +25,11 @@ export default function PageConsagracaosagradocoracaojesus() {
         Reino de Deus. Obtende, ó Senhor, a integridade e liberdade segura para
         a vossa Igreja; dai a todo o povo a tranquilidade da ordem; fazei com
         que de uma extremidade à outra da Terra ressoe esta única voz:
-        <Text className="versicle"> ℣. </Text>
+        <Typography className="versicle"> ℣. </Typography>
         Seja louvado este Coração do qual provém a nossa salvação!
-        <Text className="response"> ℟. </Text> A Ele a Honra e a Glória por
+        <Typography className="response"> ℟. </Typography> A Ele a Honra e a Glória por
         todos os séculos. Amen.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

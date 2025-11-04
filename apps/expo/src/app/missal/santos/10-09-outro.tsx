@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -10,43 +10,43 @@ export default function Page1009Outro() {
     <PageWrapper>
       <H1 text="S. Dionísio e Outros, Mártires, a 9 de Outubro" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/7muitosmartires2">
           Missa Sapiéntiam sanctórum
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui hodiérna die beátum Dionýsium, Mártyrem tuum atque
           Pontíficem, virtúte constantiæ in passióne roborásti, quique illi, ad
           prædicándum géntibus glóriam tuam, Rústicum et Eleuthérium sociáre
           dignátus es: tríbue nobis, quǽsumus; eórum imitatióne, pro amóre tuo
           próspera mundi despícere, et nulla ejus advérsa formidáre. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que neste dia fortalecestes o B. Dionísio, vosso Mártir e
           Pontífice, com a virtude da constância no martírio e que Vos dignastes
           associar-lhe Rústico e Eleutério para pregarem a vossa glória aos
           povos, concedei-nos, Vos suplicamos, que, seguindo os seus exemplos,
           desprezemos por vosso amor as prosperidades do mundo e nunca temamos
           as adversidades. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Act. 17, 22-34</Text>
+      <Typography className="em">Act. 17, 22-34</Typography>
 
       <Language>
-        <Text className="latin">Léctio Actuum Apostolorum.</Text>
-        <Text className="vernacular">Lição dos Actos dos Apóstolos</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Actuum Apostolorum.</Typography>
+        <Typography className="vernacular">Lição dos Actos dos Apóstolos</Typography>
+        <Typography className="latin">
           In diébus illis: Stans Paulus in médio Areopági, ait: Viri
           Atheniénses, per ómnia quasi superstitiosióres vos vídeo. Prætériens
           enim et videns simulácra vestra, invéni et aram, in qua scriptum erat:
@@ -70,8 +70,8 @@ export default function Page1009Outro() {
           Sic Paulus exívit de médio eórum. Quidam vero viri adhæréntes ei,
           credidérunt: in quibus et Dionýsius Areopagíta, et múlier nómine
           Dámaris, et álii cum eis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, estando Paulo no meio do Aerópago, disse: «Varões
           atenienses, vejo que em todas as coisas sois como os mais religiosos;
           porquanto, passando eu e vendo as estátuas dos vossos deuses, até
@@ -100,7 +100,7 @@ export default function Page1009Outro() {
           dos ouvintes agregaram-se a ele e acreditaram, entre os quais
           Dionísio, o Areopagita, uma mulher chamada Dámaris e com estes ainda
           outros.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -113,33 +113,33 @@ export default function Page1009Outro() {
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Obláta tibi, Dómine, múnera pópuli tui, pro tuórum honóre Sanctórum,
           súscipe propítius, quǽsumus: et eórum nos intercessióne sanctífica.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Recebei propício, Senhor, Vos rogamos, os dons que o vosso povo
           apresenta em honra dos vossos Santos; e pela sua intercessão
           santificai-nos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sumptis, Dómine, sacraméntis, quǽsumus: ut, intercedéntibus beátis
           Martýribus tuis Dionýsio, Rústico et Eleuthério, ad redemptiónis
           ætérnæ proficiamus augméntum. Per Dóminum nostrum Jesum Christum,
           Fílium tuum: Qui tecum vivit et regnat...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo nós recebido estes sacramentos, Senhor, Vos suplicamos,
           dignai-Vos permitir que por intercessão dos vossos B. B. Mártires
           Dionísio, Rústico e Eleutério cada vez mais avancemos no caminho da
           redenção eterna. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -8,7 +8,7 @@ export default function PageAnjos() {
   return (
     <PageWrapper>
       <H1 text="Missa dos Anjos" />
-      <Text className="aside">Para a Terça-feira</Text>
+      <Typography className="aside">Para a Terça-feira</Typography>
       <H3 text="Intróito" />
       <LinkCard
         href="/missal/santos/03-24#intróito"
@@ -20,13 +20,13 @@ export default function PageAnjos() {
         title="Aparição de Arcanjo S. Miguel"
       />
       <H3 text="Epístola" />
-      <Text className="em">Ap. 5, 11-14</Text>
+      <Typography className="em">Ap. 5, 11-14</Typography>
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
-        </Text>
-        <Text className="vernacular">Lição do Apocalipse do B. Ap.º João.</Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="vernacular">Lição do Apocalipse do B. Ap.º João.</Typography>
+        <Typography className="latin">
           In diébus illis: Audívi vocem Angelórum multórum in circúitu throni,
           et animálium, et seniórum: et erat númerus eórum mília mílium,
           dicéntium voce magna: Dignus est Agnus, qui occísus est, accípere
@@ -37,8 +37,8 @@ export default function PageAnjos() {
           glória, et potéstas in sǽcula sæculórum. Et quátuor animália dicébant:
           Amen. Et vigínti quátuor senióres cecidérunt in fácies suas: et
           adoravérunt vivéntem in sǽcula sæculórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, ouvi em tomo do trono a voz de muitos Anjos e de
           anciãos. Havia milhares e milhares deles, os quais diziam com voz
           forte: «O Cordeiro, que foi morto, é digno de receber o poder, a
@@ -49,92 +49,92 @@ export default function PageAnjos() {
           séculos!» E ouvi os quatro animais que diziam: «Amen!» E os vinte e
           quatro anciãos prostraram a face em terra e adoraram Aquele que vive
           em todos os séculos dos séculos!
-        </Text>
+        </Typography>
       </Language>
       <H3 text="Gradual" />
-      <Text className="em">Sl. 148,1-2</Text>
+      <Typography className="em">Sl. 148,1-2</Typography>
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Laudáte Dóminum de cœlis: laudáte eum in excélsis.
-          <Text className="versicle"> ℣. </Text>Laudáte eum, omnes Angeli ejus:
+          <Typography className="versicle"> ℣. </Typography>Laudáte eum, omnes Angeli ejus:
           laudáte eum, omnes virtútes ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Louvai o Senhor nos céus! Louvai-O nas alturas celestiais.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Louvai-O vós, Anjos; louvai-O vós, que constituís o seu exército.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 137, 1-2</Text> In conspéctu Angelórum
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 137, 1-2</Typography> In conspéctu Angelórum
           psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini
           tuo. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 137, 1-2</Text> Cantarei louvores em
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 137, 1-2</Typography> Cantarei louvores em
           vossa honra diante dos Anjos; adorar-Vos-ei no vosso santo templo: e
           glorificarei o vosso nome. Aleluia.
-        </Text>
+        </Typography>
       </Language>
       Depois da Septuagésima omite-se o Aleluia e o Verso que se segue, e
       diz-se:
       <H3 text="Trato" />
-      <Text className="em">Sl. 102, 20</Text>
+      <Typography className="em">Sl. 102, 20</Typography>
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Benedícite Dóminum, omnes Angeli ejus: potentes virtúte, qui fácitis
-          verbum ejus.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 21-22</Text> Benedícite Dómino, omnes
+          verbum ejus.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 21-22</Typography> Benedícite Dómino, omnes
           virtútes ejus: minístri ejus, qui fácitis voluntátem ejus.
-          <Text className="versicle"> ℣. </Text>Benedicite Dómino, ómnia ópera
+          <Typography className="versicle"> ℣. </Typography>Benedicite Dómino, ómnia ópera
           ejus: in omni loco dominatiónis ejus, bénedic, ánima mea, Dómino.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bendizei o Senhor, ó vós, todos os Anjos, heróis poderosos, executores
           das suas ordens e sempre fiéis aos seus chamamentos.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 21-22</Text> Bendizei o Senhor,
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 21-22</Typography> Bendizei o Senhor,
           vós todos, que formais o seu exército; sois os seus ministros e
           cumpris a sua vontade! Bendizei o Senhor, ó obras todas do mesmo
           Senhor! Bendizei o Senhor em todos os lugares do seu domínio, ó minha
           alma.
-        </Text>
+        </Typography>
       </Language>
-      <Text className="aside">
+      <Typography className="aside">
         No Tempo Pascal omite-se o Gradual e o Trato, e diz-se:
-      </Text>
+      </Typography>
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 137, 1-2</Text> In conspéctu Angelórum
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 137, 1-2</Typography> In conspéctu Angelórum
           psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini
-          tuo Allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="em">Matth. 28, 2</Text> Angelus Dómini descéndit de
+          tuo Allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Matth. 28, 2</Typography> Angelus Dómini descéndit de
           cœlo, et accédens revólvit lápidem, et sedébat super eum. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 137, 1-2</Text> Cantarei louvores em
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 137, 1-2</Typography> Cantarei louvores em
           vossa honra diante dos Anjos; adorar-Vos-ei no vosso santo templo; e
           glorificarei o vosso nome. Aleluia.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Mt. 28, 2</Text> Um Anjo do Senhor, havendo
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Mt. 28, 2</Typography> Um Anjo do Senhor, havendo
           descido do céu, afastou a pedra e assentou-se sobre ela. Aleluia.
-        </Text>
+        </Typography>
       </Language>
       <H3 text="Evangelho" />
-      <Text className="em">Jo. 1, 47-51</Text>
+      <Typography className="em">Jo. 1, 47-51</Typography>
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Vidit Jesus Nathánaël veniéntem ad se, et dicit de
           eo: Ecce vere Israëlíta, in quo dolus non est. Dicit ei Nathánaël:
           Unde me nosti? Respóndit Jesus et dixit ei: Priúsquam te Philíppus
@@ -143,8 +143,8 @@ export default function PageAnjos() {
           ei: Quia dixi tibi: Vidi te sub ficu, credis: majus his vidébis. Et
           dicit ei: Amen, amen, dico vobis, vidébitis cœlum apértum, et Angelos
           Dei ascendéntes, et descendéntes supra Fílium hóminis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, Jesus viu Natánael que vinha para Ele, e disse a seu
           respeito: «Eis aí um verdadeiro Israelita no qual não há dolo». E
           Natánael disse-Lhe: «Donde me conheceis?». Jesus respondeu-lhe,
@@ -155,7 +155,7 @@ export default function PageAnjos() {
           maiores». Depois acrescentou: «Em verdade, em verdade te digo: verás o
           céu aberto e os Anjos de Deus, subindo e descendo sobre o Filho do
           homem».
-        </Text>
+        </Typography>
       </Language>
       <H3 text="Ofertório" />
       <LinkCard
@@ -169,30 +169,30 @@ export default function PageAnjos() {
       />
       <H3 text="Comúnio" />
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Angeli, Archángeli, Throni et Dominatiónes, Principátus et Potestátes,
           Virtútes cœlórum, Chérubim atque Séraphim, Dóminum benedícite in
           ætérnum. (T. P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bendizei o Senhor em todos os séculos, ó Anjos, Arcanjos, Tronos e
           Dominações, Principados, Potestades, Virtudes do céu, Querubins e
           Serafins. (T. P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
       <H3 text="Postcomúnio" />
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Repléti, Dómine, benedictióne cœlésti, supplíciter implorámus: ut,
           quod fragili celebrámus offício, sanctórum Angelórum atque
           Archangelórum nobis prodésse sentiámus auxílio. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, estando nós, agora, repletos com a bênção celestial, permiti
           Vos suplicamos, que este sacrifício, que celebramos apesar da nossa
           fragilidade, nos seja útil com o auxílio dos vossos Santos Anjos e
           Arcanjos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

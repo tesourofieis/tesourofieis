@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -9,7 +9,7 @@ export default function Page0629() {
     <PageWrapper>
       <H1 text="S. Pedro e S. Paulo, a 29 de Junho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         A Igreja inteira está em festa, pois «Deus consagrou este dia pelo
         martírio dos Apóstolos Pedro e Paulo» (Or.). Nas duas grandiosas
         basílicas construídas, em Roma, sobre os túmulos «destes dois Príncipes
@@ -32,54 +32,54 @@ export default function Page0629() {
         Apóstolos no Canon da Missa. Em união com a Igreja, que não cessava de
         dirigir orações a Deus, por Pedro (Ep.), oremos pelo seu sucessor «o
         servo de Deus nosso Santo Padre o Papa» (Canon da Missa).
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Act. 12, 11</Text>
+      <Typography className="em">Act. 12, 11</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Nunc scio vere, quia misit Dóminus Angelum suum: et erípuit me de manu
           Heródis et de omni exspectatióne plebis Judæórum.{" "}
-          <Text className="latin">Ps. 138, 1-2</Text> Dómine; probásti me et
+          <Typography className="latin">Ps. 138, 1-2</Typography> Dómine; probásti me et
           cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Agora reconheço, verdadeiramente, que o Senhor enviou o seu Anjo: e me
           livrou das mãos de Herodes e daquilo que esperava o povo judaico!{" "}
-          <Text className="vernacular">Sl. 138, 1-2</Text> Experimentastes-me,
+          <Typography className="vernacular">Sl. 138, 1-2</Typography> Experimentastes-me,
           Senhor, e ficastes-me conhecendo: ficastes conhecendo quando me deito
           e quando me levanto.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui hodiérnam diem Apostolórum tuórum Petri et Pauli martýrio
           consecrásti: da Ecclésiæ tuæ, eórum in ómnibus sequi præcéptum; per
           quos religiónis sumpsit exórdium. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que consagrastes este dia com o martírio dos vossos Apóstolos
           Pedro e Paulo, concedei à vossa Igreja a graça de seguir em tudo as
           lições daqueles pelos quais a religião teve princípio. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Act. 12, 1-11</Text>
+      <Typography className="em">Act. 12, 1-11</Typography>
 
       <Language>
-        <Text className="latin">Léctio Actuum Apostolórum.</Text>
-        <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Actuum Apostolórum.</Typography>
+        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="latin">
           In diébus illis: Misit Heródes rex manus, ut afflígeret quosdam de
           ecclésia. Occidit autem Jacóbum fratrem Joánnis gládio. Videns autem,
           quia placeret Judǽis, appósuit, ut apprehénderet et Petrum. Erant
@@ -101,8 +101,8 @@ export default function Page0629() {
           unum: et contínuo discéssit Angelus ab eo. Et Petrus ad se revérsus,
           dixit: Nunc scio vere, quia misit Dóminus Angelum suum, et erípuit me
           de manu Heródis et de omni exspectatióne plebis Judæórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, mandou o rei Herodes que perseguissem alguns membros
           pertencentes à Igreja. Então, mandou matar à espada Tiago, irmão de
           João; e, vendo que isto agradava aos judeus, mandou também prender
@@ -126,36 +126,36 @@ export default function Page0629() {
           deixou Pedro. Então este, voltando a si, disse: «Agora reconheço,
           verdadeiramente, que o Senhor enviou o seu Anjo e me livrou de Herodes
           e daquilo que esperava o povo judaico!».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 44, 17-18</Text>
+      <Typography className="em">Sl. 44, 17-18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Constítues eos príncipes super omnem terram: mémores erunt nóminis
-          tui. Dómine.<Text className="versicle"> ℣. </Text>Pro pátribus tuis
+          tui. Dómine.<Typography className="versicle"> ℣. </Typography>Pro pátribus tuis
           nati sunt tibi fílii: proptérea pópuli confítebúntur tibi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Constitui-los-eis príncipes em toda a terra: e perpetuarão, ó Senhor,
           a recordação do vosso nome.
-          <Text className="versicle"> ℣. </Text>Para substituir vossos pais,
+          <Typography className="versicle"> ℣. </Typography>Para substituir vossos pais,
           dar-vos-á filhos: e, assim, os povos Vos louvarão em todos os séculos
           dos séculos.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Matth. 18,18</Text> Tu es Petrus, et super
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Matth. 18,18</Typography> Tu es Petrus, et super
           hanc petram ædificábo Ecclésiam meam. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Mt. 18,18</Text> Tu és Pedro e sobre esta
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Mt. 18,18</Typography> Tu és Pedro e sobre esta
           pedra edificarei a minha Igreja. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -167,59 +167,59 @@ export default function Page0629() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 44, 17-18</Text>
+      <Typography className="em">Sl. 44, 17-18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Constítues eos príncipes super omnem terram: mémores erunt nóminis
           tui, Dómine, in omni progénie et generatióne.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Constitui-los-eis príncipes em toda a terra: e perpetuarão, ó Senhor,
           a recordação do vosso nome, em todos os séculos dos séculos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hóstias, Dómine, quas nómini tuo sacrándas offérimus, apostólica
           prosequátur orátio: per quam nos expiári tríbuas et deféndi. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, que a oração dos vossos Apóstolos acompanhe as hóstias que
           vamos consagrar em honra do vosso nome, e permiti que nos sirvam de
           expiação das nossas faltas e de nossa defesa. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 16, 18</Text>
+      <Typography className="em">Mt. 16, 18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tu es Petrus, ei super hanc petram aedificabo Ecclésiam meam.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Tu és Pedro e sobre esta pedra edificarei a minha Igreja.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quos cœlésti, Dómine, alimento satiásti: apostólicis intercessiónibus
           ab omni adversitáte custódi. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dignai-Vos, Senhor, pela intercessão dos vossos Apóstolos, preservar
           de todas as adversidades aqueles que saciastes com o alimento
           celestial. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

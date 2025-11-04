@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -8,7 +8,7 @@ export default function PageIntroducao() {
     <PageWrapper>
       <H1 text="Introdução, por São Pio X" />
 
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Um bom cristão, pela manhã, assim que desperta, deve fazer o sinal da
         Cruz, e oferecer o coração a Deus, dizendo estas ou outras palavras
         semelhantes: «Meu Deus, eu Vos dou o meu coração e a minha alma». Ao
@@ -44,15 +44,15 @@ export default function PageIntroducao() {
           e de Caridade
         </Link>{" "}
         , acompanhando-os com um vivo afecto do coração.
-      </Text>
+      </Typography>
 
-      <Text className="vernacular">
+      <Typography className="vernacular">
         O cristão, podendo, deveria todos os dias: 1º. Assistir com devoção à
         Santa Missa; 2º. Fazer uma visita, por breve que fosse, ao Santíssimo
         Sacramento; 3º. Rezar o terço do Santo Rosário.
-      </Text>
+      </Typography>
 
-      <Text className="vernacular">
+      <Typography className="vernacular">
         <Link
           className="link"
           href="/devocionario/dia/bencaos#antes-do-trabalho"
@@ -67,9 +67,9 @@ export default function PageIntroducao() {
         no vosso santo serviço». Depois da refeição, convém fazer o sinal da
         Cruz, e dizer: «Senhor, eu Vos dou graças pelo alimento que me destes;
         fazei-me digno de participar da mesa celeste».
-      </Text>
+      </Typography>
 
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Quando nos vemos atormentados por alguma tentação, devemos invocar com
         fé o Santíssimo Nome de Jesus ou de Maria, ou recitar fervorosamente
         alguma oração jaculatória, como, por exemplo: «Dai-me a graça, Senhor,
@@ -82,9 +82,9 @@ export default function PageIntroducao() {
         Sacramento é bom fazer, ao menos com o coração, um acto de adoração,
         dizendo, por exemplo: «Graças e louvores se dêem a todo o momento ao
         Santíssimo e diviníssimo Sacramento».
-      </Text>
+      </Typography>
 
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ao toque das Ave-Marias pela manhã, ao meio-dia e à noite, o bom cristão
         recita o{" "}
         <Link className="link" href="/devocionario/dia/angelus">
@@ -102,33 +102,33 @@ export default function PageIntroducao() {
         Deus, eu Vos dou todo meu coração. Trindade Santíssima, concedei-me a
         graça de bem viver e de bem morrer. Jesus, Maria e José, eu Vos
         encomendo a minha alma».
-      </Text>
+      </Typography>
 
-      <Text className="vernacular">
+      <Typography className="vernacular">
         No decurso do dia pode-se invocar a Deus frequentemente com as orações
         breves que se chamam «jaculatórias». Eis algumas:
-      </Text>
+      </Typography>
 
-      <Text className="vernacular">«Senhor, valei-me»;</Text>
+      <Typography className="vernacular">«Senhor, valei-me»;</Typography>
 
-      <Text className="vernacular">
+      <Typography className="vernacular">
         «Senhor, seja feita vossa santíssima vontade»;
-      </Text>
+      </Typography>
 
-      <Text className="vernacular">«Meu Jesus, eu quero ser todo vosso»;</Text>
+      <Typography className="vernacular">«Meu Jesus, eu quero ser todo vosso»;</Typography>
 
-      <Text className="vernacular">«Meu Jesus, misericórdia»;</Text>
+      <Typography className="vernacular">«Meu Jesus, misericórdia»;</Typography>
 
-      <Text className="vernacular">
+      <Typography className="vernacular">
         «Doce Coração de Jesus, que tanto nos amou, fazei que eu Vos ame cada
         vez mais»;
-      </Text>
+      </Typography>
 
-      <Text className="vernacular">
+      <Typography className="vernacular">
         «Doce Coração de Maria, sede minha salvação»;
-      </Text>
+      </Typography>
 
-      <Text className="vernacular">
+      <Typography className="vernacular">
         É muito útil recitar, durante o dia, muitas jaculatórias, e podem
         recitar-se também com o coração, sem preferir palavras, caminhando,
         trabalhando, etc. Além das orações jaculatórias, o cristão deveria
@@ -140,9 +140,9 @@ export default function PageIntroducao() {
         acto de adoração em qualquer lugar que nos encontremos, e dizer:
         «Consolai, Senhor, este enfermo, e concedei-lhe a graça de se conformar
         com vossa Santíssima vontade e de conseguir a sua salvação».
-      </Text>
+      </Typography>
 
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ao tocar o sino pela agonia de algum moribundo, irei, se puder, à igreja
         orar por ele; e, não podendo, encomendarei a Nosso Senhor a sua alma,
         pensando que dentro em breve hei de encontrar-me também eu nesse estado.
@@ -152,7 +152,7 @@ export default function PageIntroducao() {
         </Link>{" "}
         ou um «Réquiem», ou um Pai-Nosso e uma Ave-Maria, pela alma desse
         defunto, e renovarei o pensamento da morte.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

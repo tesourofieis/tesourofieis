@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,29 +9,29 @@ export default function Page0405() {
     <PageWrapper>
       <H1 text="S. Vicente Ferrer, Conf., a 5 de Abril" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/14confessoresnaopontifices1">
           Missa Os justi
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui Ecclésiam tuam beáti Vincéntii Confessóris tui méritis et
           prædicatióne illustráre dignátus es: concéde nobis fámulis tuis; ut et
           ipsíus instruámur exémplis et ab ómnibus ejus patrocínio liberémur
           advérsis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que Vos dignastes ilustrar a vossa Igreja com os méritos e a
           pregação do B. Vicente, vosso Confessor, concedei a estes vossos
           servos a graça de serem instruídos com seus exemplos e livres de todas
           as adversidades pela sua protecção. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -19,30 +19,30 @@ export default function PagePedropaulo() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, cujus déxtera beátum Petrum, ambulántem in flúctibus, ne
           mergerétur, eréxit, et coapóstolum ejus Paulum, tértio naufragántem,
           de profúndo pélagi liberávit: exáudi nos propítius, et concéde; ut,
           ambórum méritis, æternitátis glóriam consequámur: Qui vivis et
           regnas...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, cuja mão poderosa sustentou o B. Pedro quando caminhava sobre
           as águas, não deixando que ele se afundasse, e salvou do fundo do mar
           o seu companheiro de apostolado, Paulo, quando este naufragou pela
           terceira vez, ouvi-nos propício, a fim de que, pelos méritos destes
           dois Apóstolos, obtenhamos a glória eterna. Ó Vós, que...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Act. 5, 12-16</Text>
+      <Typography className="em">Act. 5, 12-16</Typography>
 
       <Language>
-        <Text className="latin">Léctio Actuum Apostolorum.</Text>
-        <Text className="vernacular">Lição dos Actos dos Apóstolos.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Actuum Apostolorum.</Typography>
+        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="latin">
           In diébus illis: Per manus Apostolórum fiébant signa et prodígia multa
           in plebe. Et erant unanímiter omnes in pórticu Salomónis. Ceterórum
           autem nemo audébat se conjúngere illis: sed magnificábat eos pópulus.
@@ -53,8 +53,8 @@ export default function PagePedropaulo() {
           Concurrébat autem et multitúdo vicinárum civitátum Jerúsalem,
           afferéntes ægros et vexátos a spirítibus immúndis: qui curabántur
           omnes.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, os Apóstolos praticavam muitos milagres e prodígios no
           meio do povo, conservando-se todos nas galerias de Salomão com o mesmo
           pensamento. Nenhum dos outros ousava juntar-se a eles, embora o povo
@@ -65,60 +65,60 @@ export default function PagePedropaulo() {
           sarados de suas enfermidades. Acorriam até das cidades vizinhas de
           Jerusalém muitas pessoas, trazendo enfermos, vindo também outros que
           estavam atormentados pelos espíritos imundos. E todos eram curados.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 44, 17 & 18</Text>
+      <Typography className="em">Sl. 44, 17 & 18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Constítues eos príncipes super omnem terram: mémores erunt nóminis
-          tui, Dómine.<Text className="versicle"> ℣. </Text>Pro pátribus tuis
+          tui, Dómine.<Typography className="versicle"> ℣. </Typography>Pro pátribus tuis
           nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vós os instituístes príncipes em todo o universo: e eles perpetuarão a
           glória do vosso nome, Senhor, em toda a terra.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Para substituir os vossos pais, nascer-vos-ão filhos: pelo que os
           povos vos louvarão.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 138, 17</Text> Nimis honoráti sunt amíci
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 138, 17</Typography> Nimis honoráti sunt amíci
           tui, Deus: nimis confortátus est principátus eórum. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 138, 17</Text> Honrais largamente os
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 138, 17</Typography> Honrais largamente os
           vossos amigos, ó Deus; o seu poder tem-se fortalecido
           extraordinariamente. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         Depois da Septuagésima omite-se o Aleluia e o que se segue, e diz-se o:
-      </Text>
+      </Typography>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 125, 5-6</Text>
+      <Typography className="em">Sl. 125, 5-6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Qui séminant in lácrimis, in gáudio metent.
-          <Text className="versicle"> ℣. </Text>Eúntes ibant et flébant,
-          mitténtes sémina sua.<Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>Eúntes ibant et flébant,
+          mitténtes sémina sua.<Typography className="versicle"> ℣. </Typography>
           Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aqueles que semeiam com lágrimas, colherão com risos.
-          <Text className="versicle"> ℣. </Text>Iam chorando e lançando à terra
-          as suas sementes:<Text className="versicle"> ℣. </Text>Mas, quando
+          <Typography className="versicle"> ℣. </Typography>Iam chorando e lançando à terra
+          as suas sementes:<Typography className="versicle"> ℣. </Typography>Mas, quando
           regressaram, vinham alegres, transportando feixes do seu trigo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -130,62 +130,62 @@ export default function PagePedropaulo() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 18, 5</Text>
+      <Typography className="em">Sl. 18, 5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In omnem terram exivit sonus eórum: et in fines orbis terræ verba
           eórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O som da sua voz ecoou por toda a terra: e as suas palavras
           estenderam-se até às extremidades da terra.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Offérimus tibi, Dómine, preces et múnera: quæ ut tuo sint digna
           conspéctu. Apostolórum tuórum Petri et Pauli précibus adjuvémur. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos oferecemos as nossas orações e oblatas; e, para que sejam
           dignas dos vossos olhares, fazei que os vossos Apóstolos Pedro e Paulo
           as acompanhem com suas preces. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 19, 28</Text>
+      <Typography className="em">Mt. 19, 28</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vos, qui secuti estis me, sedebitis super sedes, judicantes duodecim
           tribus Israel.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó vós, que me acompanhastes, assentar-vos-eis em doze tronos e
           julgareis as doze tribos de Israel.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Prótege, Dómine, pópulum tuum: et Apostolórum tuórum Petri et Pauli
           patrocínio confidéntem, perpétua defensióne consérva. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Protegei o vosso povo, Senhor, e, visto que ele se coloca sob o
           patrocínio dos vossos Apóstolos Pedro e Paulo, dignai-Vos defendê-lo e
           guardá-lo perpetuamente. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

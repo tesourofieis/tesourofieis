@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -8,7 +8,7 @@ export default function Page0901() {
     <PageWrapper>
       <H1 text="S. Egídio (ou Gil), Abade, a 1 de Setembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         S. Gil ou Egídio, nasceu em Atenas; distribuiu aos pobres todo o seu
         património e seguiu a Jesus (Ev.). Tendo-o varios milagres tornado
         célebre, refugiou-se na Provença, para afastar de si as honras. Viveu na
@@ -27,9 +27,9 @@ export default function Page0901() {
         entre os quatorze Santos auxiliares. Seu culto espalhou-se na França,
         Espanha, Itália, Bélgica, Alemanha e Inglaterra, havendo 146 igrejas
         construídas em sua honra. S. Gil morreu cerca do ano de 721.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/16abades">
           Missa Os justi.
@@ -38,7 +38,7 @@ export default function Page0901() {
         <Link href="/missal/santos/08-01">
           Missa Comemoração dos S. S. Macabeus, Mártires.
         </Link>
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

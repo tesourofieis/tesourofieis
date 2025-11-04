@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0121() {
     <PageWrapper>
       <H1 text="Santa Inês, Virgem e Márt., a 21 de Janeiro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         A Missa de hoje recorda um dos mais tocantes e gloriosos triunfos de
         Jesus sobre o mundo. Inês, filha de uma das mais nobres famílias de
         Roma, vai ao encontro do Esposo (Ev.) a quem se consagra, na idade de 10
@@ -38,134 +38,134 @@ export default function Page0121() {
         28 de junho, o Papa na basílica de S. Pedro, benze os pálios que em
         seguida são encerrados num rico cofre dourado e cinzelado, donativo de
         Bento XIV, e depositados na confecção sobre o túmulo de S. Pedro.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/17virgensmartires1">
           Missa Loquébar
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 118, 95-96</Text>
+      <Typography className="em">Sl. 118, 95-96</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Me exspectavérunt peccatores, ut pérderent me: testimónia tua, Dómine,
           intelléxi: omnis consummatiónis vidi finem: latum mandátum tuum nimis.{" "}
-          <Text className="latin">Ps. ibid., 1</Text> Beáti immaculáti in via:
+          <Typography className="latin">Ps. ibid., 1</Typography> Beáti immaculáti in via:
           qui ámbulant in lege Dómini.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Esperaram-me os pecadores para me perder; mas, Senhor, tinha meditado
           nos vossos testemunhos. Encontrei limites em tudo quanto existe: só o
           vosso poder é infinito.{" "}
-          <Text className="vernacular">Sl. ibid., 1</Text> Bem-aventurados os
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Bem-aventurados os
           que são imaculados em seus caminhos e que cumprem a Lei do Senhor.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Omnipotens sempitérne Deus, qui infírma mundi éligis, ut fórtia quæque
           confúndas: concéde propítius; ut, qui beátæ Agnétis Vírginis et
           Mártyris tuæ sollémnia cólimus, ejus apud te patrocínia sentiámus. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente e eterno, que escolhestes os fracos para confundir
           os fortes, concedei-nos benigno que, celebrando a solenidade da B.
           Inês, vossa Virgem e Mártir, gozemos a sua protecção junto do vosso
           trono. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 44, 3</Text>
+      <Typography className="em">Sl. 44, 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in
-          ætérnum.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 5</Text> Propter veritátem et
+          ætérnum.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 5</Typography> Propter veritátem et
           mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A graça espalhou-se nos vossos lábios; por isso Deus vos abençoou para
-          a eternidade.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 5</Text> Por amor da verdade, da
+          a eternidade.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 5</Typography> Por amor da verdade, da
           mansidão e da justiça a vossa mão direita vos levará a praticar
           maravilhas.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Matth. 25, 4 & 6</Text> Quinque prudéntes
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Matth. 25, 4 & 6</Typography> Quinque prudéntes
           vírgines accepérunt óleum in vasis suis cum lampádibus: média autem
           nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo
           Dómino. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Mt. 25, 4 & 6</Text> As cinco virgens
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Mt. 25, 4 & 6</Typography> As cinco virgens
           prudentes tomaram azeite em seus vasos para suas lâmpadas. À
           meia-noite ouviu-se um clamor dizer: «Eis que chega o esposo: ide ao
           encontro de Cristo Senhor». Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hóstias, Dómine, quas tibi offérimus, propítius súscipe: et,
           intercedénte beáta Agnéte Vírgine et Mártyre tua, víncula peccatórum
           nostrórum absólve. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Recebei benigno, Senhor, as hóstias que Vos oferecemos; e, por
           intercessão da B. Inês, vossa Virgem e Mártir, dignai-Vos quebrar as
           cadeias dos nossos pecados. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 25, 4 & 6</Text>
+      <Typography className="em">Mt. 25, 4 & 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quinque prudéntes vírgines accepérunt óleum in vasis suis cum
           lampádibus: média autem nocte clamor factus est: Ecce, sponsus venit:
           exíte óbviam Christo Dómino.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           As cinco virgens prudentes tomaram azeite em seus vasos para suas
           lâmpadas. À meia-noite ouviu-se um clamor dizer: «Eis o esposo que
           chega: ide ao encontro de Cristo Senhor».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Refécti cibo potúque cœlésti. Deus noster, te súpplices exorámus: ut,
           in cujus hæc commemoratióne percépimus, ejus muniámur et précibus. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Confortados já com o alimento e a bebida celestiais, ó Deus, Vos
           suplicamos, fazei que aquela em cuja memória os recebemos nos proteja
           com suas preces. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

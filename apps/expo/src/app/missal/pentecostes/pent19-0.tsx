@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 
 import Language from "~/components/Language";
@@ -12,51 +12,51 @@ export default function PagePent190() {
       <H3 text="Intróito" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Salus pópuli ego sum, dicit Dóminus: de quacúmque tribulatióne
           clamáverint ad me, exáudiam eos: et ero illórum Dóminus in perpétuum.{" "}
-          <Text className="latin">Ps. 77, 1</Text> Attendite, pópule meus, legem
+          <Typography className="latin">Ps. 77, 1</Typography> Attendite, pópule meus, legem
           meam: inclináte aurem vestram in verba oris mei.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Sou a salvação do povo, diz o Senhor; em qualquer tribulação clamarão
           por mim e ouvi-los-ei, pois serei o seu Senhor eternamente.{" "}
-          <Text className="vernacular">Sl. 77, 1</Text> Sede atentos à minha
+          <Typography className="vernacular">Sl. 77, 1</Typography> Sede atentos à minha
           Lei, ó meu povo; escutai as palavras que saem da minha boca.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Omnípotens et miséricors Deus, univérsa nobis adversántia propitiátus
           exclúde: ut mente et córpore páriter expedíti, quæ tua sunt, líberis
           méntibus exsequámur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente e misericordioso, afastai benignamente de nós tudo
           quanto se opõe à salvação, a fim de que, estando a nossa alma e o
           nosso corpo livres de todos os obstáculos, possamos com inteira
           liberdade de espírito cumprir o que diz respeito ao vosso serviço. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ef. 4, 23-28</Text>
+      <Typography className="em">Ef. 4, 23-28</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Efésios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Renovámini spíritu mentis vestræ, et indúite novum hóminem,
           qui secúndum Deum creátus est in justítia et sanctitáte veritátis.
           Propter quod deponéntes mendácium, loquímini veritátem unusquísque cum
@@ -65,8 +65,8 @@ export default function PagePent190() {
           diábolo: qui furabátur, jam non furétur; magis autem labóret, operándo
           mánibus suis, quod bonum est, ut hábeat, unde tríbuat necessitátem
           patiénti.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Renovai-vos no íntimo da vossa alma e revesti-vos do
           «homem novo», que foi criado à semelhança de Deus na justiça e
           santidade verdadeiras. Eis porque deveis renunciar à mentira, e falar
@@ -76,50 +76,50 @@ export default function PagePent190() {
           lugar no vosso coração ao demónio. Aquele que furtava não torne a
           furtar, mas trabalhe, empregando as mãos em alguma obra boa e útil,
           para socorrer os que padecem de necessidade.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 140, 2</Text>
+      <Typography className="em">Sl. 140, 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dirigátur orátio mea, sicut Incénsum in conspéctu tuo, Dómine.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Elevatio mánuum meárum sacrifícium vespertínum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que a minha oração, Senhor, chegue até Vós, como perfume de incenso:
-          <Text className="versicle"> ℣. </Text>E que minhas mãos erguidas Vos
+          <Typography className="versicle"> ℣. </Typography>E que minhas mãos erguidas Vos
           sejam agradáveis, como o sacrifício vespertino.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 104, 1</Text> Confitémini Dómino, et
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 104, 1</Typography> Confitémini Dómino, et
           invocáte nomen ejus: annuntiáte inter gentes ópera ejus. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 104, 1</Text> Louvai o Senhor e
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 104, 1</Typography> Louvai o Senhor e
           invocai o seu nome: publicai as suas obras em todos os povos. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 22, 1-14</Text>
+      <Typography className="em">Mt. 22, 1-14</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Loquebátur Jesus princípibus sacerdótum et pharisǽis
           in parábolis, dicens: Símile factum est regnum cœlórum hómini regi,
           qui fecit núptias fílio suo. Et misit servos suos vocáre invitátos ad
@@ -140,8 +140,8 @@ export default function PagePent190() {
           Tunc dixit rex minístris: Ligátis mánibus et pédibus ejus, míttite eum
           in ténebras exterióres: ibi erit fletus et stridor déntium. Multi enim
           sunt vocáti, pauci vero elécti.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, falando Jesus aos príncipes dos sacerdotes e aos
           fariseus por meio de parábolas, disse-lhes: O reino dos céus é
           semelhante a um rei que, que rendo celebrar as bodas do filho, mandou
@@ -165,69 +165,69 @@ export default function PagePent190() {
           de pés e mãos e lançai-o fora nas trevas, nesse lugar de choro e de
           ranger de dentes; pois muitos são os chamados, mas poucos os
           escolhidos».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 137, 7</Text>
+      <Typography className="em">Sl. 137, 7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Si ambulávero in médio tribulatiónis, vivificábis me, Dómine: et super
           iram inimicórum meórum exténdes manum tuam, et salvum me fáciet
           déxtera tua.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Quando estiver na tribulação, dar-me-eis a vida, Senhor! Estendereis a
           vossa mão contra o furor dos meus inimigos: e serei salvo pela vossa
           dextra.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc múnera, quǽsumus, Dómine, quæ óculis tuæ majestátis offérimus,
           salutária nobis esse concéde. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, permiti que estes dons, que colocamos diante da vossa
           majestade, sejam úteis à nossa salvação. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 118,4-5</Text>
+      <Typography className="em">Sl. 118,4-5</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tu mandásti mandáta tua custodíri nimis: útinam dirigántur viæ meæ, ad
           custodiéndas justificatiónes tuas.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ordenastes que os vossos mandamentos fossem cabalmente cumpridos:
           dignai-Vos, pois, dirigir os meus passos, para que sigam o caminho das
           vossas ordens.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tua nos, Dómine, medicinális operátio, et a nostris perversitátibus
           cleménter expédiat, et tuis semper fáciat inhærére mandátis. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Permiti, Senhor, que as operações da vossa graça nos sirvam de remédio
           contra as perversidades; e, pela vossa clemência, dignai-Vos
           livrar-nos das más inclinações e manter-nos no cumprimento dos vossos
           mandamentos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

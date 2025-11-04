@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H2 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -7,7 +7,7 @@ export default function PageCoroinha() {
     <PageWrapper>
       <H1 text="Coroinha do Sagrado Coração de Jesus" />
       <H2 text="I" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Amorosíssimo Jesus, quando medito no vosso Santíssimo Coração e O vejo
         todo piedade e bondade para com os pecadores, sinto o meu coração
         encher-se de alegria e de confiança de que será por Vós bem acolhido. Ai
@@ -16,9 +16,9 @@ export default function PageCoroinha() {
         ofensas a Vós, ó Sumo Bem. Eu Vo-lo suplico encarecidamente, pelo vosso
         Santíssimo Coração. Oxalá eu antes morra do que Vos ofenda! Que eu não
         viva senão para Vos Amar!
-      </Text>
+      </Typography>
       <H2 text="II" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Bendigo o vosso humilíssimo Coração, ó meu bom Jesus, e Vos dou graças,
         porque ao dardes-m’O como exemplo, não só com veementes desejos me
         incitastes a imitá-l’O, senão que, à custa de tantas humilhações vossas,
@@ -27,9 +27,9 @@ export default function PageCoroinha() {
         ser soberbo e ambicioso; quero somente seguir-Vos com o coração humilde
         entre as humilhações, e alcançar a paz e a salvação. Dai-me Vós a graça
         para isto, e bendizei sempre o vosso pacientíssimo Coração.
-      </Text>
+      </Typography>
       <H2 text="III" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ao meditar no vosso pacientíssimo Coração. ó meu Jesus, fico confundido,
         e Vos dou graças por tantos exemplos maravilhosos de invicto
         sofrimentos, que nos deixastes. Eu me arrependo da minha indigna
@@ -38,46 +38,46 @@ export default function PageCoroinha() {
         às cruzes, às mortificações e à penitência, a fim de que,
         acompanhando-Vos ao Calvário, chegue convosco à glória e alegria do
         Paraíso.
-      </Text>
+      </Typography>
       <H2 text="IV" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Que horror sinto de mim, ó meu amado Jesus, ao contemplar o vosso
         amantíssimo Coração e ao ver como o meu coração é tão diverso do vosso;
         pois eu me inquieto, agasto e lamento à menor sombra, gesto ou palavra
         que contrarie. Ah! Senhor, perdoai-me todos estes defeitos, e
         concedei-me para o futuro a graça de imitar em qualquer contrariedade a
         vossa inalterável mansidão e por tal modo gozar santa e perpétua paz.
-      </Text>
+      </Typography>
       <H2 text="V" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó meu amado Jesus, vencedor da morte e do inferno, entoem-se louvores ao
         vosso generosíssimo Coração, que bem os merece. Quanto a mim, fico
         confundido ao ver o meu coração tão pusilânime, que estremece com
         qualquer injúria. Mas não serei mais assim! De Vós imploro tanta
         fortaleza e valor para sofrer as injúrias, que, combatendo e vencendo na
         terra, possa triunfar convosco no céu!
-      </Text>
-      <Text className="aside">
+      </Typography>
+      <Typography className="aside">
         Volvamo-nos para o maternal Coração de Maria Santíssima
-      </Text>
-      <Text className="vernacular">
+      </Typography>
+      <Typography className="vernacular">
         Pelas singulares prerrogativas do vosso dulcíssimo Coração, alcançai-me,
         ó Maria, Mãe de Deus e minha Mãe, uma verdadeira e permanente devoção ao
         Santíssimo Coração de Jesus, vosso Filho; e, assim, eu cumpra fielmente
         os meus deveres e com alegria sirva sempre, mas especialmente hoje,
         nosso Senhor Jesus Cristo.
-        <Text className="versicle"> ℣. </Text>
+        <Typography className="versicle"> ℣. </Typography>
         Coração de Jesus, abrasado em amor por nós.
-      </Text>
-      <Text className="response"> ℟. </Text>
-      <Text className="vernacular">
+      </Typography>
+      <Typography className="response"> ℟. </Typography>
+      <Typography className="vernacular">
         Inflamai os nossos corações de amor por Vós. Oremos. Vos suplicamos, ó
         Senhor, que o Divino Espírito Santo nos inflame naquele fogo que nosso
         Senhor Jesus Cristo do íntimo doseu Coração lançou no mundo e quis que
         se acendesses em labaredas por toda a parte. Ele, que vive e reina em
         todos os séculos dos séculos.
-      </Text>
-      <Text className="response"> ℟. </Text> Amen.
+      </Typography>
+      <Typography className="response"> ℟. </Typography> Amen.
     </PageWrapper>
   );
 }

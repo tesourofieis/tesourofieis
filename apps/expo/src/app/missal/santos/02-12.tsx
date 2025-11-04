@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -12,55 +12,55 @@ export default function Page0212() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sb. 10, 20-21</Text>
+      <Typography className="em">Sb. 10, 20-21</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Justi decantavérunt, Dómine, nomen sanctum tuum, et victrícem manum
           tuam laudavérunt páriter: quóniam sapiéntia apéruit os mutum et
           linguas infántium fecit disértas.{" "}
-          <Text className="latin">Ps. 8, 2</Text> Dómine, Dóminus noster, quam
+          <Typography className="latin">Ps. 8, 2</Typography> Dómine, Dóminus noster, quam
           admirábile est nomen tuum in univérsa terra!
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Os justos cantaram o vosso santo nome, Senhor, e louvaram em concerto
           a vossa mão vitoriosa: pois a sabedoria abriu a boca dos mudos e
           tornou eloquente a língua das criancinhas.{" "}
-          <Text className="vernacular">Sl. 8, 2</Text> Ó Senhor, nosso Deus,
+          <Typography className="vernacular">Sl. 8, 2</Typography> Ó Senhor, nosso Deus,
           como o vosso nome é glorioso em toda a terra!
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dómine Jesu Christe, qui, ad recoléndam memóriam dolórum sanctíssimæ
           Genetrícis tuæ, per septem beátos Patres nova Servorum ejus família
           Ecclésiam tuam fœcundásti: concéde propítius; ita nos eórum consociári
           flétibus, ut perfruámur et gáudiis: Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor Jesus Cristo, que para honrar a memória das Dores da vossa S.
           S. Mãe enriquecestes a vossa Igreja, por intermédio dos sete
           Bem-aventurados Padres, com a nova família dos Servitas, concedei-nos
           benigno que nos associemos de tal modo às suas lágrimas que possamos
           também compartilhar das suas alegrias. Ó Vós, que viveis e...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Ecl. 44, 1-15</Text>
+      <Typography className="em">Ecl. 44, 1-15</Typography>
 
       <Language>
-        <Text className="latin">Léctio libri Sapiéntiæ.</Text>
-        <Text className="vernacular">Lição do Livro da Sabedoria.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
+        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="latin">
           Laudémus viros gloriósos et paréntes nostros in generatióne sua.
           Multam glóriam fecit Dóminus magnificéntia sua a sǽculo. Dominántes in
           potestátibus suis, hómines magni virtúte et prudéntia sua prǽditi,
@@ -80,8 +80,8 @@ export default function Page0212() {
           ipsórum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et
           generatiónem. Sapiéntiam ipsórum narrent pópuli, et laudem eórum
           núntiet Ecclésia.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Louvemos os homens ilustres, os pais da nossa geração. O Senhor operou
           por eles desde a origem dos séculos gloriosas maravilhas e manifestou
           a sua magnificência. Eles dominaram nos seus estados; foram homens
@@ -103,48 +103,48 @@ export default function Page0212() {
           nunca desaparecerá. Seus corpos foram sepultados em paz e o seu nome
           viverá de geração em geração. Que os povos, pois, publiquem a sua
           sabedoria e que a Igreja cante os seus louvores!
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Is. 65, 23</Text>
+      <Typography className="em">Is. 65, 23</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Electi mei non laborábunt frustra, neque germinábunt in conturbatióne:
           quia semen benedictórum Dómini est, et nepótes eórum cum eis.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="latin">Eccli. 44, 14</Text> Córpora ipsorum in pace
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Eccli. 44, 14</Typography> Córpora ipsorum in pace
           sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Os meus escolhidos se não fatigarão mais em vão, nem fecundarão filhos
           que lhes causem pena; pois eles e os seus descendentes formarão uma
           raça abençoada pelo Senhor.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Ecl. 44, 14</Text> Seus corpos foram
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Ecl. 44, 14</Typography> Seus corpos foram
           sepultados em paz e o seu nome vive de geração em geração.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">ibid., 15</Text> Sapiéntiam ipsorum narrent
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 15</Typography> Sapiéntiam ipsorum narrent
           pópuli, et laudem eórum núntiet Ecclésia. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">ibid., 15</Text> Publiquem os povos a sua
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 15</Typography> Publiquem os povos a sua
           sabedoria e cante a Igreja os seus louvores. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
-      <Text className="aside">
+      <Typography className="aside">
         Após a Septuagésima omite-se o Aleluia e o Verso, e diz-se o Trato da
         <Link className="link" href="/missal/comum/8muitosmartires3">
           Missa Salus autem
         </Link>{" "}
         .
-      </Text>
+      </Typography>
 
       <H3 text="Evangelho" />
 
@@ -155,68 +155,68 @@ export default function Page0212() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Is. 56, 7</Text>
+      <Typography className="em">Is. 56, 7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Addúcam eos in montem sanctum meum, et lætificábo eos in domo
           oratiónis meæ: holocáusta eórum et víctimæ eórum placébunt mihi super
           altáre meum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Conduzi-los-ei à montanha sagrada e alegrá-los-ei na minha casa de
           oração. Seus holocaustos e os seus sacrifícios ser-me-ão agradáveis no
           meu altar.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Accipe, quǽsumus, Dómine, hóstias quas tibi offérimus: et præsta; ut,
           intercedéntibus Sanctis tuis, libera tibi mente serviámus, et
           perdoléntis Vírginis Genetrícis Fílii tui amóre inflammémur. Per
           eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aceitai, Senhor, Vos rogamos, as hóstias que Vos oferecemos; e
           concedei-nos por intercessão dos vossos Santos que Vos sirvamos com
           inteira liberdade de espírito e sejamos abrasados em amor pela Mãe
           Dolorosa do vosso Divino Filho. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 15, 16</Text>
+      <Typography className="em">Jo. 15, 16</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ego vos elégi de mundo, ut eátis et fructum afferátis: et fructus
           vester máneat.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eu vos escolhi no mundo para irdes e alcançardes fruto; e para que
           esse vosso fruto permaneça.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cœléstibus refécti mystériis te, Dómine, deprecámur: ut, quorum festa
           percólimus imitántes exémpla; juxta Crucem Jesu cum María Matre ejus
           fidéliter astémus, et ejúsdem redemptiónis fructum percípere mereámur.
           Per eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Fortalecidos com os celestiais mystérios, Senhor, Vos imploramos,
           fazei que, imitando o exemplo daqueles cuja festa celebramos, sejamos
           fiéis em permanecer ao pé da Cruz de Jesus com Maria, sua Mãe, e assim
           mereçamos receber o fruto da Redenção. Pelo mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page0910() {
     <PageWrapper>
       <H1 text="S. Nicolau Tolentino, Conf., a 10 de Setembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Nicolau, dito de Tolentino, devido á sua longa estadia nessa localidade,
         recebeu no baptismo o nome do santo bispo de Barri, por ter nascido em
         seguida a uma peregrinação feita por seus pais ao tumulo do grande
@@ -19,7 +19,7 @@ export default function Page0910() {
         desprezo do mundo, resolveu abandonar tudo o que possuía (Ev.) e entrou
         para a dita Ordem. É representado com um lírio na mão, porque foi sempre
         um modelo de inocência. Morreu em 1310.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

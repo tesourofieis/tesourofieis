@@ -1,3 +1,4 @@
+import { Typography } from "~/components/typography";
 import { NotoSans_400Regular } from "@expo-google-fonts/noto-sans";
 import { Cardo_700Bold } from "@expo-google-fonts/cardo/700Bold";
 import { DMSerifDisplay_400Regular } from "@expo-google-fonts/dm-serif-display/400Regular";
@@ -12,7 +13,7 @@ import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { DefaultTheme, ThemeProvider } from "@react-navigation/native";
 import { Stack, usePathname, useRouter } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
-import { Platform, Pressable, StatusBar, Text, View } from "react-native";
+import { Platform, Pressable, StatusBar, View } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
@@ -53,12 +54,12 @@ export default function PageRootLayout() {
           size={48}
           color={burgundy[500]}
         />
-        <Text className="text-burgundy-700 dark:text-burgundy-300 text-center mt-4 font-serif text-lg">
+        <Typography className="text-burgundy-700 dark:text-burgundy-300 text-center mt-4 font-serif text-lg">
           Erro ao carregar fontes
-        </Text>
-        <Text className="text-sepia-600 dark:text-sepia-400 text-center mt-2">
+        </Typography>
+        <Typography className="text-sepia-600 dark:text-sepia-400 text-center mt-2">
           Reinicie a aplicação
-        </Text>
+        </Typography>
       </View>
     );
   }
@@ -206,15 +207,15 @@ const Breadcrumbs = () => {
           key={`${segment}-${index}`}
         >
           {index !== 0 && (
-            <Text className="font-serif text-xs text-sepia-700 dark:text-sepia-300">
+            <Typography className="font-serif text-xs text-sepia-700 dark:text-sepia-300">
               /
-            </Text>
+            </Typography>
           )}
 
           {index === segments.length - 1 ? (
-            <Text className="font-serif text-xs text-sepia-700 dark:text-sepia-300">
+            <Typography className="font-serif text-xs text-sepia-700 dark:text-sepia-300">
               {formatSegmentName(segment)}
-            </Text>
+            </Typography>
           ) : (
             <Pressable
               className="rounded px-1 py-0.5 bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
@@ -224,9 +225,9 @@ const Breadcrumbs = () => {
                 )
               }
             >
-              <Text className="font-serif text-xs text-sepia-600 dark:text-sepia-400 underline">
+              <Typography className="font-serif text-xs text-sepia-600 dark:text-sepia-400 underline">
                 {formatSegmentName(segment)}
-              </Text>
+              </Typography>
             </Pressable>
           )}
         </View>
@@ -276,9 +277,9 @@ const Header = ({ withBC }: { withBC: boolean }) => {
       >
         <View className="flex-row items-center gap-3">
           <FontAwesome6 name="book-bible" size={25} color={burgundy[500]} />
-          <Text className="h5 text-sepia-800 dark:text-sepia-200 font-serif">
+          <Typography className="h5 text-sepia-800 dark:text-sepia-200 font-serif">
             Tesouro dos Fiéis
-          </Text>
+          </Typography>
         </View>
       </Pressable>
     </View>

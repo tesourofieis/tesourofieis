@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page1211() {
     <PageWrapper>
       <H1 text="S. Dâmaso I, Papa e Conf., a 11 de Dezembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         S. Dâmaso I, espanhol, sucedeu a Libério na cátedra de Pedro, no ano de
         366, participando desta forma, à dignidade daquele que a Epístola chama
         «o Pontífice santo, inocente, sem mancha e mais elevado do que os céus».
@@ -22,7 +22,7 @@ export default function Page1211() {
         latim. O santo papa aumentou o esplendor do culto, regulando a psalmodia
         e decretando que se dissesse no fim dos salmos o «Glória Patri», que os
         baptiza, por assim dizer, na Santíssima Trindade. Morreu em 384.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

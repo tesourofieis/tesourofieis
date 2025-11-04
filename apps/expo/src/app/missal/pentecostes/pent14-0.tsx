@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,55 +10,55 @@ export default function PagePent140() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 83, 10-11</Text>
+      <Typography className="em">Sl. 83, 10-11</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Protéctor noster, áspice, Deus, et réspice in fáciem Christi tui: quia
           mélior est dies una in átriis tuis super mília.{" "}
-          <Text className="latin">Ps. ibid., 2-3</Text> Quam dilécta tabernácula
+          <Typography className="latin">Ps. ibid., 2-3</Typography> Quam dilécta tabernácula
           tua, Dómine virtútum! concupíscit, et déficit ánima mea in átria
-          Dómini.<Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          Dómini.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, nosso protector, olhai para nós e fitai a face do vosso
           Cristo: É melhor passar um só dia nos vossos átrios do que mil em
-          outros lugares. <Text className="vernacular">Sl. ibid., 2-3</Text>{" "}
+          outros lugares. <Typography className="vernacular">Sl. ibid., 2-3</Typography>{" "}
           Como são amáveis os vossos tabernáculos, Senhor dos exércitos! Minha
           alma suspira pelos átrios do Senhor e desfalece de saudade ao pensar
-          neles.<Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          neles.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Custódi, Dómine, quǽsumus, Ecclésiam tuam propitiatióne perpétua: et
           quia sine te lábitur humána mortálitas; tuis semper auxíliis et
           abstrahátur a nóxiis et ad salutária dirigátur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, guardai misericordiosamente a vossa Igreja para sempre; e,
           visto que sem Vós a natureza humana, sujeita à morte, não pode
           subsistir, dignai-Vos com vosso perpétuo auxílio preservá-la de tudo o
           que lhe pode produzir algum mal e conduzi-la a tudo o que seja salutar
           à sua salvação. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Gl. 5, 16-24</Text>
+      <Typography className="em">Gl. 5, 16-24</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Gálatas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Spíritu ambuláte, et desidéria carnis non perficiétis. Caro
           enim concupíscit advérsus spíritum, spíritus autem advérsus carnem:
           hæc enim sibi ínvicem adversántur, ut non quæcúmque vultis, illa
@@ -72,8 +72,8 @@ export default function PagePent140() {
           benígnitas, bónitas, longanímitas, mansuetúdo, fides, modéstia,
           continéntia, cástitas. Advérsus hujúsmodi non est lex. Qui autem sunt
           Christi, carnem suam crucifixérunt cum vítiis et concupiscéntiis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Andai guiados pelo espírito, e não tereis os desejos da
           carne; Pois a carne tem desejos contrários aos do espírito, e o
           espírito tem desejos contrários aos da carne. São opostos entre si.
@@ -90,51 +90,51 @@ export default function PagePent140() {
           modéstia, a continência e a castidade. Contra estes frutos não há lei
           a opor. Aqueles que são de Cristo crucificaram a sua carne, as suas
           paixões e os seus desejos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 117, 8-9</Text>
+      <Typography className="em">Sl. 117, 8-9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Bonum est confidére in Dómino, quam confidére in hómine.
-          <Text className="versicle"> ℣. </Text>Bonum est speráre in Dómino,
+          <Typography className="versicle"> ℣. </Typography>Bonum est speráre in Dómino,
           quam speráre in princípibus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           É melhor confiar no Senhor do que nos homens.
-          <Text className="versicle"> ℣. </Text>É melhor esperar em Deus do que
+          <Typography className="versicle"> ℣. </Typography>É melhor esperar em Deus do que
           nos príncipes.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 94, 1</Text> Veníte, exsultémus Dómino,
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 94, 1</Typography> Veníte, exsultémus Dómino,
           jubilémus Deo, salutári nostro. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 94, 1</Text> Vinde, cantemos com
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 94, 1</Typography> Vinde, cantemos com
           alegria ao Senhor, exultemos jubilosamente em Deus, nosso Salvador.
           Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 6, 24-33</Text>
+      <Typography className="em">Mt. 6, 24-33</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Nemo potest duóbus
           dóminis servíre: aut enim unum ódio habébit, et álterum díliget: aut
           unum sustinébit, et álterum contémnet. Non potéstis Deo servíre et
@@ -153,8 +153,8 @@ export default function PagePent140() {
           enim ómnia gentes inquírunt. Scit enim Pater vester, quia his ómnibus
           indigétis. Quǽrite ergo primum regnum Dei et justítiam ejus: et hæc
           ómnia adjiciéntur vobis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Ninguém pode servir a
           dois senhores, pois ou há-de odiar um e amar o outro, ou respeitar
           este e desprezar aquele. Não podeis servir a Deus e às riquezas. Eis
@@ -175,65 +175,65 @@ export default function PagePent140() {
           Pai celestial sabe bem aquilo de que careceis. Procurai primeiramente
           o reino de Deus e a sua justiça, e todas estas coisas vos serão
           dadas».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 33, 8-9</Text>
+      <Typography className="em">Sl. 33, 8-9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Immíttet Angelus Dómini in circúitu timéntium eum, et erípiet eos:
           gustáte et vidéte, quóniam suávis est Dóminus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           O Anjo do Senhor circundará aqueles que temem o Senhor e livrá-los-á.
           Provai e vede como o Senhor é bom!
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Concéde nobis, Dómine, quǽsumus, ut hæc hóstia salutáris et nostrórum
           fiat purgátio delictórum, et tuæ propitiátio potestátis. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedei-nos, Senhor, Vos suplicamos, que esta salutar hóstia nos
           purifique das nossas faltas e nos torne propício o vosso poder. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 6, 33</Text>
+      <Typography className="em">Mt. 6, 33</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Primum quǽrite regnum Dei, et ómnia adjiciéntur vobis, dicit Dóminus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Procurai primeiramente o reino de Deus, e tudo vos será dado por
           acréscimo, diz o Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Puríficent semper et múniant tua sacraménta nos, Deus: et ad perpétuæ
           ducant salvatiónis efféctum. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Permiti, ó Deus, que os vossos sacramentos nos purifiquem e
           fortifiquem sempre, e nos façam gozar a salvação eterna. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

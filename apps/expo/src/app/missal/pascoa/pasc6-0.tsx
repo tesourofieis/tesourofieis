@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,53 +10,53 @@ export default function PagePasc60() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 26, 7, 8 & 9</Text>
+      <Typography className="em">Sl. 26, 7, 8 & 9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exáudi, Dómine, vocem meam, qua clamávi ad te, allelúja: tibi dixit
           cor meum, quæsívi vultum tuum, vultum tuum, Dómine, requíram: ne
           avértas fáciem tuam a me, allelúja, allelúja.{" "}
-          <Text className="latin">Ps. ibidem, 1</Text> Dóminus illuminátio mea
+          <Typography className="latin">Ps. ibidem, 1</Typography> Dóminus illuminátio mea
           et salus mea: quem timébo?
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ouvi, Senhor, a minha voz: ouvi o clamor com que Vos imploro, aleluia,
           aleluia! Meu coração dirigiu-Vos estas palavras: Procurei a vossa
           presença, Senhor; não cessarei de procurar a vossa presença; não
           afasteis, pois, de mim a vossa face, aleluia, aleluia.{" "}
-          <Text className="vernacular">Sl. ibidem, 1</Text> Ó Senhor é a minha
+          <Typography className="vernacular">Sl. ibidem, 1</Typography> Ó Senhor é a minha
           luz e a minha salvação. A quem, pois, temerei?
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Omnípotens sempitérne Deus: fac nos tibi semper et devótam gérere
           voluntátem; et majestáti tuæ sincéro corde servíre. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Omnipotente e eterno Deus, permiti que a nossa vontade seja sempre
           fervorosa para convosco e que sirvamos a vossa majestade com
           sinceridade de coração. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Pe. 4, 7-11</Text>
+      <Typography className="em">1 Pe. 4, 7-11</Typography>
 
       <Language>
-        <Text className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Text>
-        <Text className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Text>
-        <Text className="latin">
+        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
+        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
           Caríssimi: Estóte prudéntes et vigiláte in oratiónibus. Ante ómnia
           autem mútuam in vobismetípsis caritátem contínuam habéntes: quia
           cáritas óperit multitúdinem peccatórum. Hospitáles ínvicem sine
@@ -65,8 +65,8 @@ export default function PagePasc60() {
           quis lóquitur, quasi sermónes Dei: si quis minístrat, tamquam ex
           virtúte, quam adminístrat Deus: ut in ómnibus honorificétur Deus per
           Jesum Christum, Dóminum nostrum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimos: Sede prudentes e vigiai na oração. Porém, primeiro do que
           tudo, sede ardentemente caritativos uns para com os outros, pois a
           caridade apaga uma multidão de pecados. Hospedai-vos uns aos outros
@@ -76,42 +76,42 @@ export default function PagePasc60() {
           Deus; se alguém exercer um ministério, que o faça pela virtude que
           Deus lhe dá, a fim de que Deus seja glorificado em tudo por Nosso
           Senhor Jesus Cristo.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 46, 9</Text> Regnávit Dóminus super omnes
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 46, 9</Typography> Regnávit Dóminus super omnes
           gentes: Deus sedet super sedem sanctam suam. Allelúja.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Joann. 14, 18</Text> Non vos relínquam órphanos:
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Joann. 14, 18</Typography> Non vos relínquam órphanos:
           vado, et vénio ad vos, et gaudébit cor vestrum. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 46, 9</Text> O Senhor reina em todos
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 46, 9</Typography> O Senhor reina em todos
           Os povos: Deus está assentado sobre o seu trono Sagrado, aleluia.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Jo. 14, 18</Text> Não vos deixarei órfãos: vou, e
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Jo. 14, 18</Typography> Não vos deixarei órfãos: vou, e
           voltarei para vós e o vosso coração alegrar-se-á. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Jo. 15, 26-27; 16, 1-4</Text>
+      <Typography className="em">Jo. 15, 26-27; 16, 1-4</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Joánnem.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. João.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Cum vénerit Paráclitus,
           quem ego mittam vobis a Patre, Spíritum veritátis, qui a Patre
           procédit, ille testimónium perhibébit de me: et vos testimónium
@@ -121,8 +121,8 @@ export default function PagePasc60() {
           hæc fácient vobis, quia non novérunt Patrem neque me. Sed hæc locútus
           sum vobis: ut, cum vénerit hora eórum, reminiscámini, quia ego dixi
           vobis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Quando vier o
           Paráclito, que vos enviarei da parte do Pai Espírito da verdade, que
           procede do Pai Ele dará testemunho de mim, e também vós dareis
@@ -132,66 +132,66 @@ export default function PagePasc60() {
           cuidará que presta homenagem a Deus. Procederão assim, porque não
           conhecem nem o Pai, nem a mim. Digo-Vos estas coisas para que, quando
           chegar a hora, vos lembreis de que vo-las disse.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 46, 6</Text>
+      <Typography className="em">Sl. 46, 6</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Ascéndit Deus in jubilatióne, et Dóminus in voce tubæ, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Deus elevou-se por entre aclamações de júbilo; o Senhor elevou-se ao
           som da trombeta, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacrifícia nos, Dómine, immaculáta puríficent: et méntibus nostris
           supérnæ grátiæ dent vigórem. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, que estes sacrifícios imaculados nos purifiquem e que
           comuniquem às nossas almas o vigor da graça celestial. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Jo. 17,12-13 & 15</Text>
+      <Typography className="em">Jo. 17,12-13 & 15</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Pater, cum essem cum eis, ego servábam eos, quos dedísti mihi,
           allelúja: nunc autem ad te vénio: non rogo, ut tollas eos de mundo,
           sed ut serves eos a malo, allelúja, allelúja.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Pai, quando estava com eles, guardei aqueles que me entregastes,
           aleluia; mas agora, que venho a Vós, não Vos peço que os tireis do
           mundo, mas que os livreis do mal, aleluia, aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Repléti, Dómine, munéribus sacris: da, quǽsumus; ut in gratiárum
           semper actióne maneámus. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo sido saciados com estes dons sacratíssimos, fazei, Senhor, Vos
           suplicamos, que por este motivo Vos rendamos contínuas acções de
           graças. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

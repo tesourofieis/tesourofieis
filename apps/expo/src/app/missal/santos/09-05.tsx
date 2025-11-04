@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page0905() {
     <PageWrapper>
       <H1 text="S. Lourenço Justiniano, B. e Conf., a 5 de Setembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         S. Lourenço nasceu em Veneza no XV século, da ilustre família dos
         Justiniani, preferiu as rudes austeridades do claustro à uma gloriosa
         aliança, preparada por sua mãe. Lançando um olhar ao Cristo sobre a
@@ -20,7 +20,7 @@ export default function Page0905() {
         para com o proximo. Foi chamado por Eugénio IV a receber o sacerdócio de
         Cristo em toda a sua plenitude. Tornou-se bispo de Veneza e morreu em
         1455, dizendo: Vou para vós, ó bom Jesus.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

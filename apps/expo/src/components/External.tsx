@@ -3,7 +3,6 @@ import * as Clipboard from "expo-clipboard";
 import * as WebBrowser from "expo-web-browser";
 import {
   Pressable,
-  Text,
   useColorScheme,
   View,
   Platform,
@@ -15,6 +14,7 @@ import { burgundy } from "config";
 import { COLORS } from "~/constants/Colors";
 import { cardBase } from "./LinkCard";
 import type { GestureResponderEvent } from "react-native";
+import { Typography } from "./typography";
 
 export function getColor(color?: string) {
   switch (color) {
@@ -129,18 +129,18 @@ export default function ExternalLinks() {
                         colorScheme === "dark" ? COLORS["200"] : COLORS["800"]
                       }
                     />
-                    <Text className="text-lg font-serif text-sepia-600 dark:text-sepia-300">
+                    <Typography className="text-lg font-serif text-sepia-600 dark:text-sepia-300">
                       {link.title}
-                    </Text>
+                    </Typography>
                   </View>
 
                   <View className="flex flex-row">
-                    <Text
+                    <Typography
                       className="text-pretty text-xs text-sepia-600 dark:text-sepia-200"
                       numberOfLines={1}
                     >
                       {link.desc}
-                    </Text>
+                    </Typography>
                   </View>
 
                   {link.copyValue && (
@@ -162,13 +162,13 @@ export default function ExternalLinks() {
                         accessibilityLabel={`Copiar ${link.name}`}
                       >
                         <View className="flex-row gap-2 items-center text-xs text-sepia bg-sepia-900 dark:bg-sepia-100 rounded-xl p-1 pr-1 ml-2">
-                          <Text
+                          <Typography
                             className="p-1 font-mono text-xs"
                             numberOfLines={1}
                             ellipsizeMode="middle"
                           >
                             {link.copyValue}
-                          </Text>
+                          </Typography>
 
                           <FontAwesome6
                             name="copy"

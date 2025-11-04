@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,69 +10,69 @@ export default function PageAdv36() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 79, 4 & 2</Text>
+      <Typography className="em">Sl. 79, 4 & 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Veni, et osténde nobis fáciem tuam, Dómine, qui sedes super Chérubim:
-          et salvi érimus. <Text className="latin">Ps. ib., 2</Text> Qui regis
+          et salvi érimus. <Typography className="latin">Ps. ib., 2</Typography> Qui regis
           Israël, inténde: qui dedúcis, velut ovem, Joseph.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Vinde, mostrai-nos a vossa face, ó Senhor, que Vos sentais acima dos
           Querubins; e seremos salvos.{" "}
-          <Text className="vernacular">Sl. ib., 2</Text> Ó Vós, que governais
+          <Typography className="vernacular">Sl. ib., 2</Typography> Ó Vós, que governais
           Israel e conduzis José, como um pastor conduz uma ovelha, dignai-Vos
           ouvir-nos.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text> Flectámus génua.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text> Ajoelhemos!
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Leváte.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Levantai-vos!
-        </Text>
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography> Flectámus génua.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography> Ajoelhemos!
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Leváte.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Levantai-vos!
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui cónspicis, quia ex nostra pravitáte afflígimur: concéde
           propítius; ut ex tua visitatióne consolémur: Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, vede que estamos aflitos com o peso da nossa fraqueza;
           concedei-nos propício que sejamos consolados com vossa visita: Ó Vós,
           que, sendo Deus, viveis e...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="1.ª Lição" />
 
-      <Text className="em">Is. 19, 20–22</Text>
+      <Typography className="em">Is. 19, 20–22</Typography>
 
       <Language>
-        <Text className="latin">Lectio Isaíæ Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Isaías.</Text>
-        <Text className="latin">
+        <Typography className="latin">Lectio Isaíæ Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Isaías.</Typography>
+        <Typography className="latin">
           In diebus illis: Clamábunt ad Dóminum a facie tribulántis, et mittet
           eis salvatórem et propugnatórem, qui líberet eos. Et cognoscétur
           Dóminus ab Ægýpto, et cognóscent Ægýptii Dóminum in die illa: et
@@ -80,8 +80,8 @@ export default function PageAdv36() {
           solvent. Et percútiet Dóminus Ægýplum plaga, et sanábit eam: et
           revertántur ad Dóminum, et placábitur eis, et sanábit eos Dóminus,
           Deus noster.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias clamarão ao Senhor diante dos opressores. E Ele lhes
           enviará um Salvador que pugnará por eles e os livrará. Então o Senhor
           será conhecido no Egipto, e os egípcios naquele dia conhecerão o
@@ -89,72 +89,72 @@ export default function PageAdv36() {
           e cumpri-los-ão. O Senhor ferirá o Egipto com uma chaga e fechá-la-á;
           e converter-se-ão ao Senhor, que se deixará aplacar. O Senhor, nosso
           Deus, os curará.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 18, 7 & 2</Text>
+      <Typography className="em">Sl. 18, 7 & 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           A summo cœlo egréssio ejus: et occúrsus ejus usque ad summum ejus.
-          <Text className="versicle"> ℣. </Text>Cœli enárrant glóriam Dei: et
+          <Typography className="versicle"> ℣. </Typography>Cœli enárrant glóriam Dei: et
           opera mánuum ejus annúntiat firmaméntum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Surge em um extremo do céu e segue o seu curso até ao outro extremo.
-          <Text className="versicle"> ℣. </Text>Os céus proclamam a glória de
+          <Typography className="versicle"> ℣. </Typography>Os céus proclamam a glória de
           Deus e o firmamento anuncia as obras das suas mãos.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text> Flectámus génua.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text> Ajoelhemos!
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Leváte.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Levantai-vos!
-        </Text>
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography> Flectámus génua.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography> Ajoelhemos!
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Leváte.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Levantai-vos!
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Concéde, quǽsumus, omnípotens Deus: ut, qui sub peccáti jugo et
           vetústa servitúte deprímimur; exspectáta unigéniti Fílii tui nova
           nativitáte liberémur: Qui tecum vivit...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos suplicamos, estando nós oprimidos, desde há
           tanto tempo, com o jugo do pecado, como consequência da antiga
           escravidão, fazei que sejamos livres desse mal pelo novo nascimento,
           tão desejado, do vosso Filho Unigénito: Ele, que, sendo Deus, convosco
           vive e reina...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="2.ª Lição" />
 
-      <Text className="em">Is. 35, 1–7</Text>
+      <Typography className="em">Is. 35, 1–7</Typography>
 
       <Language>
-        <Text className="latin">Lectio Isaíæ Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Isaías.</Text>
-        <Text className="latin">
+        <Typography className="latin">Lectio Isaíæ Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Isaías.</Typography>
+        <Typography className="latin">
           Hæc dicit Dóminus: Lætábitur desérta et ínvia, ei exsultábit solitúdo,
           et florébit quasi lílium. Gérminans germinábit, et exsultábit
           lætabúnda et laudans: glória Líbani data est ei: decor Carméli et
@@ -166,8 +166,8 @@ export default function PageAdv36() {
           claudus, et apérta erit lingua mutórum: quia scissæ sunt in desérto
           aquæ, et torréntes in solitúdine. Et quæ erat árida, erit in stagnum,
           et sítiens in fontes aquárum: ait Dóminus omnípotens.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Estas coisas diz o Senhor: Alegrar-se-á a terra deserta e sem
           caminhos; e a solidão alegrar-se-á e florescerá, como o lírio.
           Germinará e florescerá abundantemente e exultará de alegria, e de
@@ -181,70 +181,70 @@ export default function PageAdv36() {
           também as águas rebentarão nos desertos e as torrentes nos lugares
           áridos; a terra, que estava seca, será como um lago, e a que tinha
           sede tornar-se-á em fontes de águas: diz o Senhor omnipotente.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 18, 6 & 7</Text>
+      <Typography className="em">Sl. 18, 6 & 7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           In sole pósuit tabernáculum suum: et ipse tamquam sponsus procédens de
-          thálamo suo.<Text className="versicle"> ℣. </Text>A summo cœlo
+          thálamo suo.<Typography className="versicle"> ℣. </Typography>A summo cœlo
           egréssio ejus: et occúrsus ejus usque ad summum ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Pôs o seu tabernáculo no solo: e este é como um esposo quando sai do
-          seu tálamo.<Text className="versicle"> ℣. </Text>Surge em um extremo
+          seu tálamo.<Typography className="versicle"> ℣. </Typography>Surge em um extremo
           do céu e segue o seu curso até ao outro extremo.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text> Flectámus génua.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text> Ajoelhemos!
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Leváte.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Levantai-vos!
-        </Text>
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography> Flectámus génua.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography> Ajoelhemos!
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Leváte.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Levantai-vos!
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Indignos nos, quǽsumus, Dómine, fámulos tuos, quos actiónis própriæ
           culpa contrístat, unigéniti Fílii tui advéntu lætífica: Qui tecum
           vivit et regnat...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aos vossos indignos servos, Senhor, a quem contrista a culpa das suas
           acções, Vos suplicamos, alegrai-os com o advento do vosso Filho
           Unigénito. Ele, que, sendo Deus...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="3.ª Lição" />
 
-      <Text className="em">Is. 40, 9–11</Text>
+      <Typography className="em">Is. 40, 9–11</Typography>
 
       <Language>
-        <Text className="latin">Lectio Isaíæ Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Isaías.</Text>
-        <Text className="latin">
+        <Typography className="latin">Lectio Isaíæ Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Isaías.</Typography>
+        <Typography className="latin">
           Hæc dicit Dóminus: Super montem excélsum ascénde tu, qui evangelízas
           Sion: exálta in fortitúdine vocem tuam, qui evangelízas Jerúsalem:
           exálta, noli timére. Dic civitátibus Juda: Ecce, Deus vester: ecce,
@@ -252,8 +252,8 @@ export default function PageAdv36() {
           ecce, merces ejus cum eo, et opus illíus coram illo. Sicut pastor
           gregem suum pascet: in bráchio suo congregábit agnos, et in sinu suo
           levábit, Dóminus, Deus noster.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eis o que diz o Senhor: Ó tu, que evangelizas Sião, sobe a um monte
           elevado. Ó tu, que evangelizas Jerusalém, eleva a tua voz sonoramente.
           Eleva a tua voz; não tenhas receio. Diz às cidades de Judá: Eis o
@@ -262,71 +262,71 @@ export default function PageAdv36() {
           trabalhos; conduzirá o seu rebanho, como um pastor; acolherá os
           cordeiros em seus braços e apertá-los-á ao seu seio: Ele, o Senhor,
           nosso Deus.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 79, 20 & 3</Text>
+      <Typography className="em">Sl. 79, 20 & 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dómine, Deus virtútum, convérte nos: et osténde fáciem tuam, et salvi
-          érimus,<Text className="versicle"> ℣. </Text>Excita, Dómine, poténtiam
+          érimus,<Typography className="versicle"> ℣. </Typography>Excita, Dómine, poténtiam
           tuam, et veni, ut salvos fácias nos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Convertei-nos, ó Senhor, Deus dos exércitos! Mostrai-nos a vossa face
-          e seremos salvos.<Text className="versicle"> ℣. </Text>
+          e seremos salvos.<Typography className="versicle"> ℣. </Typography>
           Mostrai, Senhor, o vosso poder e vinde, para que sejamos salvos.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text> Flectámus génua.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text> Ajoelhemos!
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Leváte.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Levantai-vos!
-        </Text>
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography> Flectámus génua.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography> Ajoelhemos!
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Leváte.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Levantai-vos!
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut Fílii tui ventúra sollémnitas et
           præséntis nobis vitæ remédia cónferat, et prǽmia ætérna concédat. Per
           eúndem Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, Vos suplicamos, concedei-nos que a próxima
           Solenidade do nascimento do vosso Filho nos confira os remédios para a
           vida presente e nos proporcione os prémios eternos. Pelo mesmo nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="4.ª Lição" />
 
-      <Text className="em">Is. 45, 1–8</Text>
+      <Typography className="em">Is. 45, 1–8</Typography>
 
       <Language>
-        <Text className="latin">Lectio Isaíæ Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Isaías.</Text>
-        <Text className="latin">
+        <Typography className="latin">Lectio Isaíæ Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Isaías.</Typography>
+        <Typography className="latin">
           Hæc dicit Dóminus christo meo Cyro, cujus apprehéndi déxteram, ut
           subjíciam ante fáciem ejus gentes, et dorsa regum vertam, et apériam
           coram eo jánuas, et portæ non claudéntur. Ego ante te ibo: et
@@ -341,8 +341,8 @@ export default function PageAdv36() {
           pacem et creans malum: ego Dóminus faciens omnia hæc. Roráte, cœli,
           désuper, et nubes pluant justum: aperiátur terra, et gérminet
           Salvatórem: et justítia oriátur simul: ego Dóminus creávi eum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Estas coisas diz o Senhor ao seu ungido Ciro, a quem conduziu pela mão
           direita para lhe tornar sujeitas as nações, para pôr em fuga diante
           dele os reis e abrir perante ele as portas, que nunca mais lhe serão
@@ -360,73 +360,73 @@ export default function PageAdv36() {
           céus, derramai dessas alturas o vosso orvalho: e que as nuvens chovam
           o Justo! Abra-se a terra, germine o Salvador e floresça ao mesmo tempo
           a justiça! Eu sou o Senhor, que criou tudo quanto existe».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 79, 3, 2 & 3</Text>
+      <Typography className="em">Sl. 79, 3, 2 & 3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Excita, Dómine, poténtiam tuam, et veni, ut salvos fácias nos.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Qui regis Israël, inténde: qui dedúcis, velut ovem, Joseph: qui sedes
           super Chérubim, appáre coram Ephraim, Bénjamin, et Manásse.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Mostrai o vosso poder e vinde salvar-nos.
-          <Text className="versicle"> ℣. </Text>Ouvi, ó Vós, que governais
+          <Typography className="versicle"> ℣. </Typography>Ouvi, ó Vós, que governais
           Israel; que conduzis José, como um pastor conduz uma ovelha; e tendes
           um trono acima dos Querubins, manifestai-Vos ante Efraim, Benjamim e
           Manassés.
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
-          <Text className="versicle"> ℣. </Text> Flectámus génua.
-        </Text>
-        <Text className="vernacular">
-          <Text className="versicle"> ℣. </Text> Ajoelhemos!
-        </Text>
-        <Text className="latin">
-          <Text className="response"> ℟. </Text> Leváte.
-        </Text>
-        <Text className="vernacular">
-          <Text className="response"> ℟. </Text> Levantai-vos!
-        </Text>
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography> Flectámus génua.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography> Ajoelhemos!
+        </Typography>
+        <Typography className="latin">
+          <Typography className="response"> ℟. </Typography> Leváte.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="response"> ℟. </Typography> Levantai-vos!
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Preces pópuli tui, quǽsumus, Dómine, cleménter exáudi: ut, qui juste
           pro peccátis nostris afflígimur, pietátis tuæ visitatióne consolémur:
           Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dignai-Vos ouvir com clemência as preces do vosso povo, a fim de que
           nós, que estamos aflitos com os nossos pecados, sejamos consolados com
           vossa misericordiosa visita. Ó Vós, que viveis...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="5.ª Lição" />
 
-      <Text className="em">Dn. 3, 47–51</Text>
+      <Typography className="em">Dn. 3, 47–51</Typography>
 
       <Language>
-        <Text className="latin">Lectio Daniélis Prophétæ.</Text>
-        <Text className="vernacular">Lição do Profeta Daniel.</Text>
-        <Text className="latin">
+        <Typography className="latin">Lectio Daniélis Prophétæ.</Typography>
+        <Typography className="vernacular">Lição do Profeta Daniel.</Typography>
+        <Typography className="latin">
           In diebus illis: Angelus Dómini descéndit cum Azaría et sóciis ejus in
           fornácem: et excússit flammam ignis de fornáce, et fecit médium
           fornácis quasi ventum roris flantem. Flamma autem effundebátur super
@@ -435,8 +435,8 @@ export default function PageAdv36() {
           incendébant. Et non tétigit eos omníno ignis, neque contristavit, nec
           quidquam moléstia íntulit. Tunc hi tres quasi ex uno ore laudábant, et
           glorificábant, et benedicébant Deum in fornáce, dicéntes:
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naqueles dias, o Anjo do Senhor desceu à fornalha com Azarias e os
           seus companheiros e afastou da fornalha as chamas do fogo, soprando no
           meio delas como que um vento de orvalho. As chamas do fogo, porém,
@@ -446,144 +446,144 @@ export default function PageAdv36() {
           os feriram, nem lhes Causaram qualquer incómodo! Então, estes três
           jovens louvavam, glorificavam e bendiziam Deus na fornalha, em voz
           uníssona, dizendo:
-        </Text>
+        </Typography>
       </Language>
 
       <Language>
-        <Text className="latin">
-          <Text className="latin">Orémus.</Text>
-        </Text>
-        <Text className="vernacular">
-          <Text className="vernacular">Oremos.</Text>
-        </Text>
-        <Text className="latin">
+        <Typography className="latin">
+          <Typography className="latin">Orémus.</Typography>
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="vernacular">Oremos.</Typography>
+        </Typography>
+        <Typography className="latin">
           Deus, qui tribus púeris mitigásti flammas ignium: concéde propítius;
           ut nos fámulos tuos non exúrat flamma vitiórum. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que mitigastes as chamas do fogo aos três jovens, concedei-nos
           misericordiosamente que nós, vossos servos, não sejamos queimados
           pelas chamas dos vícios. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Hino Benedictus Es" />
 
-      <Text className="em">Dn. 3:52</Text>
+      <Typography className="em">Dn. 3:52</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Benedíctus es, Dómine, Deus patrum nostrórum. Et laudábilis et
           gloriósus in sǽcula.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bendito sois, Senhor, Deus de nossos pais: e digno de louvor e de
           glória em todos os séculos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Et benedíctum nomen glóriæ tuæ, quod est sanctum. Et laudábile et
           gloriósum in sǽcula.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bendito, santo e glorioso é o vosso nome: e digno de louvor e de
           glória em todos os séculos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Benedíctus es in templo sancto glóriæ tuæ. Et laudábilis et gloriósus
           in sǽcula.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bendito sois no vosso Templo santo e glorioso: e digno de louvor e de
           glória em todos os séculos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Benedíctus es super thronum sanctum regni tui. Et laudábilis et
           gloriósus in sǽcula.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bendito sois Vós, que estais acima do sagrado trono do vosso Reino: e
           digno de louvor e de glória em todos os séculos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Benedíctus es super sceptrum divinitátis tuæ. Et laudábilis et
           gloriósus in sǽcula.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bendito sois acima do ceptro da vossa divindade: e digno de louvor e
           de glória em todos os séculos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Benedíctus es, qui sedes super Chérubim, íntuens abýssos. Et
           laudábilis et gloriósus in sǽcula.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bendito sois Vós, que Vos sentais acima dos Querubins e vedes a
           profundidade dos abysmos: e digno de louvor e de glória em todos os
           séculos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Benedíctus es, qui ámbulas super pennas ventórum et super undas maris.
           Et laudábilis et gloriósus in sǽcula.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bendito sois Vós, que voais sobre as asas dos ventos e caminhais sobre
           as ondas do mar: e digno de louvor e de glória em todos os séculos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Benedícant te omnes Angeli et Sancti tui. Et laudent te et gloríficent
           in sǽcula.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que os Anjos e os Santos Vos bendigam, louvem e glorifiquem em todos
           os séculos dos séculos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Benedícant te cœli, terra, mare, et ómnia quæ in eis sunt. Et laudent
           te et gloríficent in sǽcula.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que os céus, a terra e o mar e tudo quanto encerram Vos bendigam,
           louvem e glorifiquem por todos os séculos dos séculos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Glória Patri, et Fílio, et Spirítui Sancto. Et laudábili et glorióso
           in sǽcula.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Glória ao Pai, e ao Filho, e ao Espírito Santo: a Deus que é digno de
           louvor e de glória em todos os séculos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Sicut erat in princípio, et nunc, et semper: et in sǽcula sæculórum.
           Amen. Et laudábili et glorióso in sǽcula.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Assim como era no princípio, e agora, e sempre, e por todos os séculos
           dos séculos. A Deus, que é digno de louvor e de glória em todos os
           séculos.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Benedíctus es, Dómine, Deus patrum nostrórum. Et laudábilis et
           gloriósus in sǽcula.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bendito sois, Senhor, Deus de nossos pais: e digno de louvor e de
           glória em todos os séculos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">2 Ts. 2, 1–8</Text>
+      <Typography className="em">2 Ts. 2, 1–8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Lectio Epístolæ beati Pauli Apostoli ad Corinthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Tessalonicenses.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Rogámus vos per advéntum Dómini nostri Jesu Christi, et
           nostræ congregatiónis in ipsum: ut non cito moveámini a vestro sensu,
           neque terreámini, neque per spíritum, neque per sermónem, neque per
@@ -597,8 +597,8 @@ export default function PageAdv36() {
           iniquitátis: tantum ut, qui tenet nunc, téneat, donec de médio fiat.
           Et tunc revelábitur ille iníquus, quem Dóminus Jesus interfíciet
           spíritu oris sui, et déstruet illustratióne advéntus sui.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Vos rogamos, pelo advento de N. S. Jesus Cristo e pela
           nossa união com Ele, que não mudeis facilmente o vosso bom modo de
           sentir, ou vos amedronteis, nem pelo espírito, nem por discurso, nem
@@ -616,43 +616,43 @@ export default function PageAdv36() {
           desapareça. Então se manifestará aquele ímpio que o Senhor Jesus
           exterminará com o sopro da sua boca e ofuscará com o esplendor do seu
           advento.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Trato" />
 
-      <Text className="em">Sl. 79, 2–3</Text>
+      <Typography className="em">Sl. 79, 2–3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Qui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.
-          <Text className="versicle"> ℣. </Text>Qui sedes super Chérubim, appáre
+          <Typography className="versicle"> ℣. </Typography>Qui sedes super Chérubim, appáre
           coram Ephraim, Bénjamin, et Manásse.
-          <Text className="versicle"> ℣. </Text>Excita, Dómine, poténtiam tuam,
+          <Typography className="versicle"> ℣. </Typography>Excita, Dómine, poténtiam tuam,
           et veni: ut salvos fácias nos.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ouvi, ó Vós, que governais Israel; que conduzis José, como um pastor
           conduz uma ovelha. Ó Vós, que tendes um trono acima dos Querubins:
           manifestai-Vos ante Efraim, Benjamim e Manassés. Mostrai, Senhor, o
           vosso poder: e vinde, para que sejamos salvos.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 3, 1–6</Text>
+      <Typography className="em">Lc. 3, 1–6</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Anno quintodécimo impérii Tibérii Cǽsaris, procuránte Póntio Piláto
           Judǽam, tetrárcha autem Galilǽæ Heróde, Philíppo autem fratre ejus
           tetrárcha Iturǽæ et Trachonítidis regionis, et Lysánia Abilínæ
@@ -664,8 +664,8 @@ export default function PageAdv36() {
           omnis vallis implébitur: et omnis moris et collis humiliábitur: et
           erunt prava in dirécta, et áspera in vias planas: et vidébit omnis
           caro salutáre Dei.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           No ano décimo quinto do império de Tibério César sendo Pôncio Pilatos
           governador da Judeia, Herodes tetrarca da Galileia, Filipe, seu irmão,
           tetrarca da Itureia e da região de Traconites, e Lisânias tetrarca da
@@ -678,66 +678,66 @@ export default function PageAdv36() {
           planície será elevada e todas as montanhas e colinas serão arrasadas:
           os caminhos tortuosos serão endireitados e os ásperos aplanados; e
           toda a carne humana verá a salvação de Deus».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Zc. 9, 9</Text>
+      <Typography className="em">Zc. 9, 9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exsúlta satis, fília Sion, prǽdica, fília Jerúsalem: ecce, Rex tuus
           venit tibi sanctus et Salvátor.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Exulta de alegria, filha de Sião; rejubila, filha de Jerusalém: eis
           que vem a ti o teu Rei o Santo e Salvador.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacrifíciis præséntibus, quǽsumus, Dómine, placátus inténde: ut et
           devotióni nostræ profíciant et salúti. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, dignai-Vos aceitar benignamente estas ofertas, a fim de que
           sirvam para aumentar a nossa devoção e alcançar-nos a salvação. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 18, 6–7</Text>
+      <Typography className="em">Sl. 18, 6–7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exsultávit ut gigas ad curréndam viam: a summo cœlo egréssio ejus, et
           occúrsus ejus usque ad summum ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lançou-se em seu caminho, como um gigante, partindo de uma extremidade
           do céu e terminando a sua carreira na outra.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quǽsumus, Dómine, Deus noster: ut sacrosáncta mystéria, quæ pro
           reparatiónis nostræ munímine contulísti; et præsens nobis remédium
           esse fácias et futúrum. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, nosso Deus, Vos rogamos que estes sacrossantos mystérios, que
           nos concedestes para nossa reparação, sejam o nosso remédio para o
           presente e para o futuro. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

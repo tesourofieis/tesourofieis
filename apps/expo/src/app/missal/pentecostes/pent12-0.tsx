@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,56 +10,56 @@ export default function PagePent120() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 69, 2-3</Text>
+      <Typography className="em">Sl. 69, 2-3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, in adjutórium meum inténde: Dómine, ad adjuvándum me festína:
           confundántur et revereántur inimíci mei, qui quærunt ánimam meam.{" "}
-          <Text className="latin">Ps. ibid., 4</Text> Avertántur retrórsum et
+          <Typography className="latin">Ps. ibid., 4</Typography> Avertántur retrórsum et
           erubéscant: qui cógitant mihi mala.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, vinde em meu auxílio. Apressai-Vos, Senhor, em socorrer-me!
           Que fiquem confundidos e envergonhados os meus inimigos, que procuram
-          tirar-me a vida. <Text className="vernacular">Sl. ibid., 4</Text>{" "}
+          tirar-me a vida. <Typography className="vernacular">Sl. ibid., 4</Typography>{" "}
           Fujam de mim, cheios de vergonha aqueles que querem a minha perda.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Omnípotens et miséricors Deus, de cujus múnere venit, ut tibi a
           fidélibus tuis digne et laudabíliter serviátur: tríbue, quǽsumus,
           nobis; ut ad promissiónes tuas sine offensióne currámus. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente e misericordioso, a quem os fiéis são devedores da
           felicidade de Vos prestarem culto agradável e digno, concedei-nos a
           graça, Vos suplicamos, de procurarmos sempre sem qualquer obstáculo os
           bens que nos prometestes. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">2 Cor. 3, 4-9</Text>
+      <Typography className="em">2 Cor. 3, 4-9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Fidúciam talem habémus per Christum ad Deum: non quod
           sufficiéntes simus cogitáre áliquid a nobis, quasi ex nobis: sed
           sufficiéntia nostra ex Deo est: qui et idóneos nos fecit minístros
@@ -70,8 +70,8 @@ export default function PagePent120() {
           evacuátur: quómodo non magis ministrátio Spíritus erit in glória? Nam
           si ministrátio damnátionis glória est multo magis abúndat ministérium
           justítiæ in glória.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Devemos ter toda a confiança em Deus por Cristo, pois não
           somos capazes nem dum pensamento que tenha origem em nós, mas tudo nos
           vem de Deus. Com efeito, foi Ele quem nos tornou aptos para sermos
@@ -83,52 +83,52 @@ export default function PagePent120() {
           será mais glorioso o ministério do Espírito? Se o ministério da
           condenação foi glorioso, incomparavelmente mais glorioso será o
           ministério que confere a justiça.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 33, 2-3</Text>
+      <Typography className="em">Sl. 33, 2-3</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Benedícam Dóminum in omni témpore: semper laus ejus in ore meo.
-          <Text className="versicle"> ℣. </Text>
+          <Typography className="versicle"> ℣. </Typography>
           In Dómino laudábitur ánima mea: áudiant mansuéti, et læténtur.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Bendirei o Senhor em todos os tempos! Seus louvores estarão sempre nos
-          meus lábios.<Text className="versicle"> ℣. </Text>Minha alma será
+          meus lábios.<Typography className="versicle"> ℣. </Typography>Minha alma será
           glorificada pelo Senhor. Ouçam isto e alegrem-se aqueles que possuem a
           mansidão.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 87, 2</Text> Dómine, Deus salútis meæ, in
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 87, 2</Typography> Dómine, Deus salútis meæ, in
           die clamávi et nocte coram te. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 87, 2</Text> Senhor, que sois o meu
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 87, 2</Typography> Senhor, que sois o meu
           Deus e o meu Salvador, tenho clamado dia e noite diante de Vós.
           Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 10, 23-37</Text>
+      <Typography className="em">Lc. 10, 23-37</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Beáti óculi, qui vident
           quæ vos videtis. Dico enim vobis, quod multi prophétæ et reges
           voluérunt vidére quæ vos videtis, et non vidérunt: et audire quæ
@@ -153,8 +153,8 @@ export default function PagePent120() {
           redíero, reddam tibi. Quis horum trium vidétur tibi próximus fuísse
           illi, qui íncidit in latrónes? At lle dixit: Qui fecit misericórdiam
           in illum. Et ait illi Jesus: Vade, et tu fac simíliter.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Ditosos os olhos que
           vêem o que vedes, pois vos digo que muitos profetas e reis quiseram
           ver o que vedes, e não viram, e desejaram ouvir o que ouvis, e não
@@ -182,76 +182,76 @@ export default function PagePent120() {
           homem que caiu em poder dos ladrões?». O doutor respondeu: «Aquele que
           teve misericórdia dele». E Jesus terminou: «Pois tu vai e procede
           semelhantemente».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Ex. 32, 11, 13 & 14</Text>
+      <Typography className="em">Ex. 32, 11, 13 & 14</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Precátus est Moyses in conspéctu Dómini, Dei sui, et dixit: Quare,
           Dómine, irascéris in pópulo tuo? Parce iræ ánimæ tuæ: meménto Abraham,
           Isaac et Jacob, quibus jurásti dare terram fluéntem lac et mel. Et
           placátus factus est Dóminus de malignitáte, quam dixit fácere pópulo
           suo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Moisés orou diante do Senhor, seu Deus, e disse: «Senhor, porque
           estais irritado contra o vosso povo? Aplacai a vossa ira! Lembrai-Vos
           de Abraão, de Isaque e de Jacob, a quem jurastes dar a posse da terra,
           onde. Correm leite e mel». Então o Senhor aplacou-se afastou os males
           com que ameaçara o povo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hóstias, quǽsumus, Dómine, propítius inténde, quas sacris altáribus
           exhibémus: ut, nobis indulgéntiam largiéndo, tuo nómini dent honórem.
           Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Dignai-Vos olhar propício, Senhor, para as hóstias que depomos sobre
           os vossos sacrossantos altares, a fim de que, obtendo-nos o perdão,
           sirvam de homenagem ao vosso santo nome. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Sl. 103, 13 & 14-15</Text>
+      <Typography className="em">Sl. 103, 13 & 14-15</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           De fructu óperum tuórum, Dómine, satiábitur terra: ut edúcas panem de
           terra, et vinum lætíficet cor hóminis: ut exhílaret fáciem in oleo, et
           panis cor hóminis confírmet.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A terra ficará saciada com o fruto das vossas obras, Senhor! Fareis
           brotar da terra o pão, assim como o vinho, que alegra o coração do
           homem. Dar-lhe-eis azeite, que faz resplandecer o rosto do homem, e
           pão, que fortifica o seu coração.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Vivíficet nos, quǽsumus, Dómine, hujus participátio sancta mystérii:
           et páriter nobis expiatiónem tríbuat et múnimen. Per Dóminum
           nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Fazei, Senhor, Vos suplicamos, que a comparticipação deste sacrossanto
           mystério nos sirva igualmente de expiação e de protecção. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

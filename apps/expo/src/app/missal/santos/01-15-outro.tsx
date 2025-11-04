@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -9,7 +9,7 @@ export default function Page0115Outro() {
     <PageWrapper>
       <H1 text="S. Amaro, Abade, a 15 de Janeiro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Confiado desde a mais tenra infância, pelo Senador Eutíquio, seu pai, ao
         grande Patriarca dos Monges do Ocidente, S. Bento, S. Mauro reproduziu
         fielmente todas as virtudes do mestre. Tendo-lhe ordenado o Santo
@@ -22,7 +22,7 @@ export default function Page0115Outro() {
         abadias que cobriram, durante doze séculos, o solo de França, e das
         quais o mosteiro, por ele fundado, foi a primeira fonte, também ele
         prestou brilhante homenagem à divindade de Jesus. Morreu em 584.
-      </Text>
+      </Typography>
 
       <Missa />
     </PageWrapper>

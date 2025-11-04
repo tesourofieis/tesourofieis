@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -10,7 +10,7 @@ export default function Page0714() {
     <PageWrapper>
       <H1 text="S. Boaventura, B. Confessor e Doutor, a 14 de Julho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         S. Boaventura nasceu na Toscana, em 1221. Entrou para a Ordem franciscan
         após uma cura milagrosa, devida à intercessão de São Francisco de Assis.
         Teve por mestre Alexandre de Hales o qual gostava de dizer, referindo-se
@@ -21,58 +21,58 @@ export default function Page0714() {
         Ordem, depois Cardeal da Igreja (Com., Ale.), morreu em 1274 por ocasião
         do Concílio geral de Lião, em que Gregos e Latinos lhe admiravam
         imensamente o ardor e clareza que dele fazia um astro de fé.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/13doutores">
           Missa In médio Ecclésiae
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 36, 30-31</Text>
+      <Typography className="em">Sl. 36, 30-31</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.
-          <Text className="versicle"> ℣. </Text>Lex Dei ejus in corde ipsíus: et
+          <Typography className="versicle"> ℣. </Typography>Lex Dei ejus in corde ipsíus: et
           non supplantabúntur gressus ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A boca do justo falará com sabedoria e a sua língua proclamará a
-          justiça.<Text className="versicle"> ℣. </Text>A lei do seu Deus está
+          justiça.<Typography className="versicle"> ℣. </Typography>A lei do seu Deus está
           no seu coração e os seus pés não tropeçarão.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 109, 4</Text> Jurávit Dóminus, et non
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 109, 4</Typography> Jurávit Dóminus, et non
           pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem
           Melchísedech. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Ps. 109, 4</Text> O Senhor jurou, e não
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Ps. 109, 4</Typography> O Senhor jurou, e não
           se arrependerá: tu és sacerdote para sempre segundo a ordem de
           Melquisedeque. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 88, 25</Text>
+      <Typography className="em">Sl. 88, 25</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Veritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur
           cornu ejus.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           A minha fidelidade e a minha misericórdia estarão com ele: e o seu
           poder exaltar-se-á pelo meu nome.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta e Postcomúnio" />

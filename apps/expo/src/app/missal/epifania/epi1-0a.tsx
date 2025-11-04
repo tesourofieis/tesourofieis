@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,56 +10,56 @@ export default function PageEpi10A() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Pr. 23, 24 & 25</Text>
+      <Typography className="em">Pr. 23, 24 & 25</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Exsúltat gáudio pater Justi, gáudeat Pater tuus et Mater tua, et
-          exsúltet quæ génuit te. <Text className="latin">Ps. 83, 2-3</Text>{" "}
+          exsúltet quæ génuit te. <Typography className="latin">Ps. 83, 2-3</Typography>{" "}
           Quam dilécta tabernácula tua, Dómine virtútum! concupíscit et déficit
           ánima mea in átria Dómini.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Que o pai do Justo exulte de alegria, que o vosso Pai e a vossa Mãe se
           alegrem: que se regozije aquela que te gerou.{" "}
-          <Text className="vernacular">Sl. 83, 2-3</Text> Como são amáveis os
+          <Typography className="vernacular">Sl. 83, 2-3</Typography> Como são amáveis os
           vossos tabernáculos, ó Senhor dos exércitos! Minha alma suspira e
           enternece-se nos átrios do Senhor.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Dómine Jesu Christe, qui, Maríæ et Joseph súbditus, domésticam vitam
           ineffabílibus virtútibus consecrásti: fac nos, utriúsque auxílio,
           Famíliæ sanctæ tuæ exémplis ínstrui; et consórtium cénsequi
           sempitérnum: Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor Jesus Cristo, que, sendo submisso a Maria e a José,
           consagrastes a vida doméstica com a prática de inefáveis virtudes,
           dignai-Vos conceder-nos que com o auxílio de um e outro imitemos os
           exemplos da vossa Sagrada Família e alcancemos a sua eterna companhia:
           Vós, que, sendo Deus...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Cl. 3, 12-17</Text>
+      <Typography className="em">Cl. 3, 12-17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Colossenses.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Indúite vos sicut elécti Dei, sancti et dilécti, víscera
           misericórdiæ, benignitátem, humilitátem, modéstiam, patiéntiam:
           supportántes ínvicem, et donántes vobismetípsis, si quis advérsus
@@ -72,8 +72,8 @@ export default function PageEpi10A() {
           cantántes in córdibus vestris Deo. Omne, quodcúmque fácitis in verbo
           aut in ópere, ómnia in nómine Dómini Jesu Christi, grátias agéntes Deo
           et Patri per ipsum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: Como escolhidos de Deus, que sois, santos e amados,
           revesti-vos de sentimentos íntimos de misericórdia, de bondade, de
           humildade, de modéstia e de paciência, suportando-vos uns aos outros e
@@ -88,54 +88,54 @@ export default function PageEpi10A() {
           corações com cânticos. Tudo o que fizerdes, seja em palavras, seja em
           obras, fazei-o em nome de nosso Senhor Jesus Cristo, dando graças por
           Ele a Deus Pai.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 26, 4</Text>
+      <Typography className="em">Sl. 26, 4</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Unam pétii a Dómino, hanc requíram: ut inhábitem in domo Dómini
-          ómnibus diébus vitæ meæ.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 83, 5</Text> Beáti, qui hábitant in domo
+          ómnibus diébus vitæ meæ.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 83, 5</Typography> Beáti, qui hábitant in domo
           tua, Dómine: in sǽcula sæculórum laudábunt te.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Uma só graça peço ao Senhor, a qual reclamarei: é habitar na casa do
           Senhor todos os dias da minha vida.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 83, 5</Text> Bem-aventurados aqueles
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 83, 5</Typography> Bem-aventurados aqueles
           que habitam na vossa casa, Senhor; pois louvar-Vos-ão em todos os
           séculos.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Isai. 45, 15</Text> Vere tu es Rex
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Isai. 45, 15</Typography> Vere tu es Rex
           abscónditus, Deus Israël Salvátor. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Is. 45, 15</Text> Ó Deus de Israel e
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Is. 45, 15</Typography> Ó Deus de Israel e
           nosso Salvador, sois verdadeiramente Rei oculto. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 2, 42-52</Text>
+      <Typography className="em">Lc. 2, 42-52</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Cum factus esset Jesus annórum duódecim, ascendéntibus illis
           Jerosólymam secúndum consuetúdinem diéi festi, consummatísque diébus,
           cum redírent, remánsit puer Jesus in Jerúsalem, et non cognovérunt
@@ -152,8 +152,8 @@ export default function PageEpi10A() {
           est ad eos. Et descéndit cum eis, et venit Názareth: et erat súbditus
           illis. Et Mater ejus conservábat ómnia verba hæc in corde suo. Et
           Jesus proficiébat sapiéntia et ætáte et grátia apud Deum et hómines.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Quando Jesus completou doze anos de idade, como seus pais tivessem ido
           a Jerusalém, no tempo da festa, segundo o costume, decorridos que
           foram os dias da mesma, voltaram para casa, tendo o Menino Jesus
@@ -172,68 +172,68 @@ export default function PageEpi10A() {
           para Nazaré e era-lhes obediente. E sua Mãe conservava todas estas
           coisas no coração. Quanto a Jesus, crescia em sabedoria, em idade e em
           graça, diante de Deus e dos homens.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Lc. 2, 22</Text>
+      <Typography className="em">Lc. 2, 22</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Tulérunt Jesum paréntes ejus in Jerúsalem, ut sísterent eum Dómino.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Os pais de Jesus levaram-n’O a Jerusalém para O oferecerem ao Senhor.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Placatiónis hostiam offérimus tibi, Dómine, supplíciter deprecántes:
           ut, per intercessiónem Deíparæ Vírginis cum beáto Joseph, famílias
           nostras in pace et grátia tua fírmiter constítuas. Per eúndem
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vos oferecemos, Senhor, esta hóstia de propiciação, suplicando-Vos
           humildemente que, pela intercessão da Virgem, Mãe de Deus, e do B.
           José, estabeleçais solidamente as nossas famílias na vossa paz e na
           vossa graça. Pelo mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Lc. 2, 51</Text>
+      <Typography className="em">Lc. 2, 51</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Descéndit Jesus cum eis, et venit Názareth, et erat súbditus illis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Jesus desceu com eles, veio para Nazaré e era-lhes obediente.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Quos cœléstibus réficis sacraméntis, fac, Dómine Jesu, sanctæ Famíliæ
           tuæ exémpla júgiter imitári: ut in hora mortis nostræ, occurrénte
           gloriósa Vírgine Matre tua cum beáto Joseph; per te in ætérna
           tabernácula récipi mereámur: Qui vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor Jesus, concedei àqueles que se saciam com vossos celestiais
           sacramentos a graça de imitarem continuamente os exemplos da vossa
           Sagrada Família, a fim de que na hora da nossa morte a gloriosa
           Virgem, vossa Mãe, e o B. José venham ao nosso encontro, merecendo
           sermos recebidos por Vós nos tabernáculos eternos: Ó Vós, que...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

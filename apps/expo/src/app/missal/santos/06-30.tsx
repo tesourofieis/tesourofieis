@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -9,7 +9,7 @@ export default function Page0630() {
     <PageWrapper>
       <H1 text="Comemoração de S. Paulo, a 30 de Junho" />
 
-      <Text className="comment">
+      <Typography className="comment">
         «O Tibre, entrando em Roma, escreve um poeta antigo, saúda a basílica de
         São Pedro, e, retirando-se, a de São Paulo. O porteiro celeste fixou a
         sua morada sagrada às portas da cidade eterna, imagem do céu. Por sua
@@ -18,7 +18,7 @@ export default function Page0630() {
         vem associar-se Paulo, o novo Aarão, mais eloquente do que o primeiro,
         escolhido desde o seio materno para anunciar as riquezas da graça de
         Cristo aos Gentios (Or., Grad., Ep.).
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
@@ -43,16 +43,16 @@ export default function Page0630() {
 
       <H3 text="Epístola" />
 
-      <Text className="em">Gl. 1, 11-20</Text>
+      <Typography className="em">Gl. 1, 11-20</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Gálatas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Notum vobis facio Evangélium, quod evangelizátum est a me,
           quia non est secúndum hóminem: neque enim ego ab hómine accépi illud
           neque dídici, sed per revelatiónem Jesu Christi. Audístis enim
@@ -68,8 +68,8 @@ export default function Page0630() {
           vidére Petrum, et mansi apud eum diébus quíndecim: álium autem
           Apostolórum vidi néminem, nisi Jacóbum fratrem Dómini. Quæ autem
           scribo vobis, ecce coram Deo, quia non méntior.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: «Eu vos declaro que o Evangelho que vos tenho pregado não
           tem nada de humano, pois não foi de algum homem que o recebi ou
           aprendi, mas por revelação de Jesus Cristo. Sabeis, com efeito, como
@@ -86,54 +86,54 @@ export default function Page0630() {
           dias. Eu não vi nenhum Outro Apóstolo, excepto Tiago, o irmão do
           Senhor. Tomo a Deus como testemunha de que não minto em tudo quanto
           vos escrevo».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Gl. 2, 8-9</Text>
+      <Typography className="em">Gl. 2, 8-9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Qui operátus est Petro in apostolátum, operátus est et mihi inter
           gentes: et cognovérunt grátiam Dei, quæ data est mihi.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="latin">1 Cor. 15, 10</Text> Grátia Dei in me vácua
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">1 Cor. 15, 10</Typography> Grátia Dei in me vácua
           non fuit: sed grátia ejus semper in me manet.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aquele que instituiu Pedro Apóstolo para o apostolado dos circuncisos,
           instituiu-me também a mim Apóstolo dos gentios:
-          <Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">1 Cor. 15, 10</Text> E eles conheceram a
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">1 Cor. 15, 10</Typography> E eles conheceram a
           graça de Deus que me foi dada. A graça de Deus não ficou estéril em
           mim.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>Sancte Paule
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Sancte Paule
           Apóstole, prædicátor veritátis et doctor géntium, intercéde pro nobis.
           Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>S. Paulo,
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>S. Paulo,
           pregador da verdade e doutor dos povos, intercedei por nós. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Mt. 10, 16-22</Text>
+      <Typography className="em">Mt. 10, 16-22</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Matthǽum.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Mateus.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Ecce, ego mitto vos
           sicut oves in médio lupórum. Estóte ergo prudéntes sicut serpentes, et
           símplices sicut colúmbæ. Cavéte autem ab homínibus. Tradent enim vos
@@ -146,8 +146,8 @@ export default function Page0630() {
           fílii in paréntes, et morte eos affícient: et éritis odio ómnibus
           propter nomen meum: qui autem perseveráverit usque in finem, hic
           salvus erit.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, disse Jesus aos seus discípulos: «Eis que vos envio,
           como ovelhas no meio de lobos. Sede, pois, prudentes, como as
           serpentes, e simples, como as pombas. Acautelai-vos, portanto, com os
@@ -162,68 +162,68 @@ export default function Page0630() {
           filhos se levantarão contra os pais e lhes darão a morte. Sereis
           odiados por todos por causa do meu nome, mas quem perseverar até ao
           fim será salvo».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Sl. 138, 17</Text>
+      <Typography className="em">Sl. 138, 17</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est
           principátus eórum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Vejo, ó meu Deus, que honrais de um modo singular os vossos amigos: o
           seu poder firmou-se extraordinariamente.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Apóstoli tui Pauli précibus, Dómine, plebis tuæ dona sanctífica: ut,
           quæ tibi tuo grata sunt institúto, gratióra fiant patrocínio
           supplicántis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Santificai, Senhor, pelas preces do vosso Apóstolo Paulo as ofertas do
           vosso povo, a fim de que, sendo-Vos elas já agradáveis, porque as
           instituístes, mais agradáveis Vos sejam ainda pelo patrocínio do
           suplicante. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 19, 28 & 29</Text>
+      <Typography className="em">Mt. 19, 28 & 29</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Amen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis me,
           céntuplum accipiétis et vitam ætérnam possidébitis.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Em verdade vos digo: Vós, que abandonastes tudo e me seguistes,
           recebereis o cêntuplo e possuireis a vida eterna.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Percéptis, Dómine, sacraméntis: beáto Paulo Apóstolo tuo
           interveniénte, deprecámur; ut, quæ pro illíus celebráta sunt glória,
           nobis profíciant ad medélam. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Havendo recebido estes sacramentos, Senhor, Vos pedimos, permiti pela
           intercessão do B. Paulo, vosso Apóstolo, que este sacrifício, que foi
           oferecido em vossa honra, nos sirva de remédio. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

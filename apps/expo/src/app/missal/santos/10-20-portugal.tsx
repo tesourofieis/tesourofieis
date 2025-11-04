@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
 
@@ -7,24 +7,24 @@ export default function Page1020Portugal() {
   return (
     <PageWrapper>
       <H1 text="Santa Iria, Virgem e Mártir, a 20 de Outubro, Nalgumas Dioceses" />
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/18virgensmartires2">
           Missa Me exspectavérunt
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
       <H3 text="Oração" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Ó Deus, que por um sinal celestial livrastes da infâmia a B. Iria, vossa
         Virgem e Mártir, concedei-nos propício pelos seus méritos e preces que
         sejamos purificados das manchas dos nossos pecados. Por nosso Senhor...
-      </Text>
+      </Typography>
       <H3 text="Evangelho" />
-      <Text className="vernacular">
+      <Typography className="vernacular">
         Continuação do santo Evangelho segundo S. Mateus.
-      </Text>
-      <Text className="vernacular">
+      </Typography>
+      <Typography className="vernacular">
         Naquele tempo, disse Jesus aos seus discípulos esta parábola: O reino
         dos céus é semelhante a dez virgens que, empunhando suas lâmpadas,
         saíram ao encontro do esposo e da esposa. Porém, cinco destas virgens
@@ -42,7 +42,7 @@ export default function Page1020Portugal() {
         fechou-se a porta. Por fim vieram as outras virgens e disseram: «Senhor,
         senhor, abri-nos a porta». Ele respondeu: «Na verdade vos digo: não vos
         conheço». Vigiai, pois, visto que não sabeis nem o dia, nem a hora.
-      </Text>
+      </Typography>
     </PageWrapper>
   );
 }

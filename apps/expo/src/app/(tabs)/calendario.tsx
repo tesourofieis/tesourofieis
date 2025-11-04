@@ -1,3 +1,4 @@
+import { Typography } from "~/components/typography";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import {
@@ -13,7 +14,7 @@ import {
 } from "date-fns";
 import { pt } from "date-fns/locale";
 import { useEffect, useRef, useState } from "react";
-import { Pressable, ScrollView, Text, View } from "react-native";
+import { Pressable, ScrollView, View } from "react-native";
 import LinkCard from "~/components/LinkCard";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
@@ -119,9 +120,9 @@ export default function CalendarMasterpiece() {
                     : "bg-sepia-100 dark:bg-sepia-900"
                 }`}
               >
-                <Text className="w-20 text-sm font-bold text-sepia-700 dark:text-sepia-300">
+                <Typography className="w-20 text-sm font-bold text-sepia-700 dark:text-sepia-300">
                   {format(dayDate, "EEE, dd", { locale: pt })}
-                </Text>
+                </Typography>
                 <View
                   ref={isToday ? todayRef : null}
                   className="flex-1 p-1 rounded"
@@ -177,13 +178,13 @@ function Header({
         </Pressable>
       </View>
 
-      <Text className="p-3 text-xl font-bold dark:text-sepia-200">
+      <Typography className="p-3 text-xl font-bold dark:text-sepia-200">
         {formattedPeriod}
-      </Text>
+      </Typography>
 
       <View className="flex flex-row items-center">
         <Pressable onPressOut={() => onViewSwitch("week")}>
-          <Text
+          <Typography
             className={`p-2 rounded-l text-sepia-700 dark:text-sepia-300 ${
               viewMode === "week"
                 ? "bg-sepia-300 dark:bg-sepia-700 font-bold"
@@ -191,10 +192,10 @@ function Header({
             }`}
           >
             Week
-          </Text>
+          </Typography>
         </Pressable>
         <Pressable onPressOut={() => onViewSwitch("month")}>
-          <Text
+          <Typography
             className={`p-2 rounded-r text-sepia-700 dark:text-sepia-300 ${
               viewMode === "month"
                 ? "bg-sepia-300 dark:bg-sepia-700 font-bold"
@@ -202,7 +203,7 @@ function Header({
             }`}
           >
             Month
-          </Text>
+          </Typography>
         </Pressable>
 
         <Pressable

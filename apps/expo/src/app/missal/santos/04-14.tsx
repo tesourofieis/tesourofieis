@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -10,70 +10,70 @@ export default function Page0414() {
 
       <H3 text="Intróito" />
 
-      <Text className="em">Sl. 118, 85 & 46</Text>
+      <Typography className="em">Sl. 118, 85 & 46</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Narravérunt mihi iníqui fabulatiónes, sed non ut lex tua: ego autem
           loquébar de testimóniis tuis in conspéctu regum, et non confundébar.
-          (T.P. Allelúja, allelúja.) <Text className="latin">Ps. ibid., 1</Text>{" "}
+          (T.P. Allelúja, allelúja.) <Typography className="latin">Ps. ibid., 1</Typography>{" "}
           Beáti immaculáti in via, qui ámbulant in lege Dómini.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           Os maus narraram-me fábulas, mas não se assemelhavam à vossa lei.
           Porém, publiquei os vossos ensinos na presença dos reis e não fui
           confundido. (T.P. Aleluia, aleluia.){" "}
-          <Text className="vernacular">Sl. ibid., 1</Text> Bem-aventurados
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Bem-aventurados
           aqueles que são imaculados na sua vida: e que caminham segundo a lei
-          do Senhor.<Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          do Senhor.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui per stultítiam Crucis eminéntem Jesu Christi sciéntiam
           beátum Justínum Mártyrem mirabíliter docuísti: ejus nobis
           intercessióne concéde; ut, errórum circumventióne depúlsa, fídei
           firmitátem consequámur. Per eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que pela «loucura da cruz» instruístes admiravelmente o B.
           Mártir Justino com a eminente ciência de Jesus Cristo, concedei-nos
           por sua intercessão que, repelindo todos os erros que nos cercam,
           consigamos possuir uma fé firme. Pelo mesmo nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Oração Comemoração S. S. Tibúrcio e Susana, Mártires" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, qui sanctórum Mártyrum tuórum
           Tibúrtii, Valeriáni et Máximi sollémnia cólimus; eórum étiam virtútes
           imitémur. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Já que celebramos, ó Deus omnipotente, a festa dos vossos Santos
           Mártires Tibúrcio, Valeriano e Máximo, concedei-nos, Vos suplicamos,
           que imitemos também as suas virtudes. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">1 Cor. 1, 18-25 & 30</Text>
+      <Typography className="em">1 Cor. 1, 18-25 & 30</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Coríntios.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Verbum crueis pereúntibus quidem stultítia est: iis autem,
           qui salvi fiunt, id est nobis, Dei virtus est. Scriptum est enim:
           Perdam sapiéntiam sapiéntium et prudéntiam prudéntium reprobábo. Ubi
@@ -88,8 +88,8 @@ export default function Page0414() {
           Dei, fórtius est homínibus. Ex ipso autem vos estis in Christo Jesu,
           qui factus est nobis sapiéntia a Deo et justítia ei sanctificátio et
           redémptio.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: A doutrina da cruz é loucura para aqueles que se perdem;
           mas para aqueles que se salvam, isto é, para nós, é virtude de Deus;
           pois está escrito: «Eu destruirei a sabedoria dos sábios e reprovarei
@@ -106,50 +106,50 @@ export default function Page0414() {
           que a sabedoria dos homens; e o que parece fraco em Deus é mais forte
           do que os homens. É por Ele que estais em Jesus Cristo, que por Deus
           se fez nossa sabedoria, justiça, santificação e redenção.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">1 Cor. 3, 19 & 20</Text>
+      <Typography className="em">1 Cor. 3, 19 & 20</Typography>
 
       <Language>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">1 Cor. 3, 19 & 20</Text> Sapiéntia hujus mundi
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">1 Cor. 3, 19 & 20</Typography> Sapiéntia hujus mundi
           stultítia est apud Deum, scriptum est enim: Dóminus novit cogitatiónes
           sapiéntium, quóniam vanæ sunt. Allelúja.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Philipp. 3, 8</Text> Verúmtamen exístimo ómnia
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Philipp. 3, 8</Typography> Verúmtamen exístimo ómnia
           detriméntum esse propter eminéntem sciéntiam Jesu Christi, Dómini mei.
           Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">1 Cor. 3, 19 & 20</Text> A sabedoria
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">1 Cor. 3, 19 & 20</Typography> A sabedoria
           deste mundo é estultícia diante de Deus; pois está escrito: «O Senhor
           conhece os pensamentos dos sábios e sabe que eles são vãos». Aleluia.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="em">Fl. 3, 8</Text> Na verdade reputo tudo como perda
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Fl. 3, 8</Typography> Na verdade reputo tudo como perda
           em comparação da eminente ciência de Jesus Cristo, meu Senhor.
           Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 12, 2-8</Text>
+      <Typography className="em">Lc. 12, 2-8</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Nihil opértum csi, quod
           non revelétur, neque abscónditum, quod non sciátur. Quóniam quæ in
           ténebris dixístis, in lúmine dicántur: et quod in aurem locúti estis
@@ -163,8 +163,8 @@ export default function Page0414() {
           estis vos. Dico autem vobis: Omnis, quicúmque conféssus fúerit me
           coram homínibus, et Fílius hóminis confitébitur illum coram Angelis
           Dei.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo disse Jesus aos seus discípulos: «Nada há oculto que não
           chegue a ser descoberto, nem segredo que não venha a ser revelado. Até
           aquelas coisas que dissestes nas trevas serão publicadas à luz; e o
@@ -179,99 +179,99 @@ export default function Page0414() {
           pois, receio. Vós valeis mais que muitos pássaros. Também vos digo:
           todo aquele que me confessar diante dos homens, o Filho do homem o
           reconhecerá igualmente diante dos Anjos de Deus».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Ofertório" />
 
-      <Text className="em">1 Cor. 2, 2</Text>
+      <Typography className="em">1 Cor. 2, 2</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Non enim judicávi me scire áliquid inter vos, nisi Jesum Christum, et
           hunc crucifíxum. (T.P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Eu julgo que não devo conhecer outra coisa entre vós senão Jesus
           Cristo, e Jesus Cristo crucificado. (T.P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Múnera nostra, Dómine Deus, benígnus súscipe: quorum mirábile
           mystérium sanctus Martyr Justínus advérsum impiórum calúmnias strénue
           deféndit. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Aceitai benigno, Vos suplicamos, ó Senhor e Deus, as nossas ofertas
           neste adorável mystério que o Santo Mártir Justino defendeu
           ardentemente contra as calúnias dos ímpios. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta Comemoração S. Tibúrcio, Mártires" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc hóstia, quǽsumus, Dómine, quam sanctórum Mártyrum tuórum natalítia
           recenséntes offérimus: et víncula nostræ pravitátis absolvat, et tuæ
           nobis misericórdiæ dona concíliet. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicmos, permiti que esta hóstia, que Vos oferecemos
           celebrando o nascimento dos vossos Santos Mártires, nos livre dos
           laços da nossa perversidade e nos torne merecedores da vossa
           misericórdia. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">2 Tm. 4, 8</Text>
+      <Typography className="em">2 Tm. 4, 8</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Repósita est mihi coróna justítiæ, quam reddet mihi Dóminus in illa
           die justus judex. (T.P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Está reservada para mim a coroa da justiça, a qual o Senhor, que é
           Juiz justo, me entregará no dia da sua vinda. (T.P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cœlésti alimónia refécti, súpplices te, Dómine, deprecámur: ut, beáti
           Justíni Mártyris tui mónitis, de accéptis donis semper in gratiárum
           actióne maneámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Sustentados com o alimento celestial, Vos suplicamos, Senhor, que,
           seguindo as advertências do B. Justino, vosso Mártir, permaneçamos em
           contínuas acções de graças pelos dons recebidos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio Comemoração S. Tibúrcio, Mártires" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacro múnere satiáti, súpplices te, Dómine, deprecámur: ut, quod
           débitæ servitútis celebrámus offício, salvatiónis tuæ sentiámus
           augméntum. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Saciados com vosso sacratíssimo dom, humildemente Vos suplicamos;
           Senhor, que, rendendo-Vos com a celebração deste ofício as devidas
           homenagens da nossa servidão, sintamos em nós aumentar os efeitos da
           vossa redenção. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

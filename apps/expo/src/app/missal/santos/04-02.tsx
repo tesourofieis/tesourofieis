@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,44 +9,44 @@ export default function Page0402() {
     <PageWrapper>
       <H1 text="S. Francisco de Paula, Conf., a 2 de Abril" />
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link href="/missal/comum/15confessoresnaopontifices2">
           Missa Justus ut palma,
         </Link>
         excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, humílium celsitúdo, qui beátum Francíscum Confessórem Sanctórum
           tuórum glória sublimásti: tríbue, quǽsumus; ut, ejus méritis et
           imitatióne, promíssa humílibus prǽmia felíciter consequámur. Per
           Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, grandeza dos humildes, que coroastes com a glória dos vossos
           Santos o B. Francisco, Confessor, concedei-nos, pelos seus méritos e
           pela imitação das suas virtudes, Vos suplicamos, a felicidade de
           conseguirmos as recompensas prometidas aos humildes. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">Fl. 3, 7-12</Text>
+      <Typography className="em">Fl. 3, 7-12</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epistola; beáti Pauli Apóstoli ad Philippénses.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo aos Filipenses.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Fratres: Quæ mihi fuérunt lucra, hæc arbitrátus sum propter Christum
           detriménta. Verúmtamen exístimo ómnia detriméntum esse propter
           eminéntem sciéntiam Jesu Christi, Dómini mei: propter quem ómnia
@@ -58,8 +58,8 @@ export default function Page0402() {
           resurrectiónem, quæ est ex mórtuis: non quod jam accéperim aut jam
           perféctus sim: sequor autem, si quo modo comprehéndam, inquo et
           comprehénsus sum a Christo Jesu.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Meus irmãos: As coisas que considerava ganho tive-as depois como
           perda, meditando em Cristo. E, na verdade, considero tudo como perda,
           pelo melhor conhecimento que tenho de Jesus Cristo, meu Senhor, por
@@ -73,54 +73,54 @@ export default function Page0402() {
           alcançado o prémio ou me haja tornado já perfeito; mas prossigo no meu
           caminho para ver se alcanço o destino para que fui predestinado por
           Jesus Cristo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hæc dona devótæ plebis, Dómine, quibus tua cumulámus altária, beáti
           Francísci méritis tibi grata nobísque salutária, te miseránte,
           reddántur. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Que estes dons do vosso povo, que depositamos nos vossos altares, se
           tornem agradáveis a Vós, Senhor, e salutares para nós por intercessão
           dos méritos do B. Francisco, e por efeito da vossa misericórdia. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Mt. 19, 28 & 29</Text>
+      <Typography className="em">Mt. 19, 28 & 29</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Amen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis me,
           céntuplum accipiétis, et vitam ætérnam possidébitis. (T.P. Allelúja.)
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Em verdade vos digo: «Vós, que abandonastes tudo e me seguistes,
           recebereis o cêntuplo e possuireis a vida eterna». (T.P. Aleluia.)
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sumpta, Dómine, sacraménta cœléstia: beáto Francísco Confessóre tuo
           intercedénte, precámur; ut et temporális vitæ subsídia nobis cónferant
           et ætérnæ. Per Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor, Vos suplicamos, permiti que os celestiais sacramentos, que
           acabámos de receber, nos consigam, pela intercessão do B. Francisco,
           vosso Confessor, auxílios para a vida presente e para a eterna. Por
           nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

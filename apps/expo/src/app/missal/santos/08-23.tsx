@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
@@ -9,7 +9,7 @@ export default function Page0823() {
     <PageWrapper>
       <H1 text="S. Filipe Benício, Conf., a 23 de Agosto" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Honramos hoje um Santo a quem a Santa Virgem apareceu a fim de lhe fazer
         conhecer que devia entrar para a Ordem dos Servitas, consagrada a honrar
         as dores que lhe mereceram a glória, motivo da nossa alegria, durante
@@ -36,30 +36,30 @@ export default function Page0823() {
         Salvador estendido na cruz. Peçamos a Deus a humildade de S. Filipe,
         para que, desprezando, a seu exemplo, os bens da terra, procuremos
         sempre os do céu (Or.).
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link href="/missal/comum/15confessoresnaopontifices2">
           Missa Justus ut palma,
         </Link>
         excepto:
-      </Text>
+      </Typography>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui per beátum Philippum Confessórem tuum, exímium nobis
           humilitátis exémplum tribuísti: da fámulis tuis próspera mundi ex ejus
           imitatióne despícere, et cœléstia semper inquírere. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que na pessoa do B. Filipe, vosso Confessor, nos
           proporcionastes exímio exemplo de humildade, fazei que os vossos
           servos, imitando-o, desprezem as alegrias deste mundo e procurem
           sempre as celestiais. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

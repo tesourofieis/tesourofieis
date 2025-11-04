@@ -1,5 +1,5 @@
+import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
-import { Text } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -10,7 +10,7 @@ export default function Page0902() {
     <PageWrapper>
       <H1 text="S. Estêvão, Rei e Conf., a 2 de Setembro" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Descendente dos orgulhosos e terríveis invasores, conhecidos pelo nome
         de Hunos, Estevão foi escolhido por Deus, para unir seus súbditos a
         Cristo e ao seu vigário. O nome de Estevão lhe foi dado no baptismo
@@ -30,15 +30,15 @@ export default function Page0902() {
         fé no pais lhe valeu a glória da realeza celeste (Postcomm.). Morreu em
         1038 no dia da - Grande Senhora - denominação que, em virtude dum édito
         do Santo rei, os Húngaros dão à festa da Assunção.
-      </Text>
+      </Typography>
 
-      <Text className="aside">
+      <Typography className="aside">
         Como na{" "}
         <Link className="link" href="/missal/comum/14confessoresnaopontifices1">
           Missa Os justi
         </Link>{" "}
         , excepto:
-      </Text>
+      </Typography>
 
       <LinkCard
         href="/missal/comum/14confessoresnaopontifices1"
@@ -48,33 +48,33 @@ export default function Page0902() {
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Concéde, quǽsumus, Ecclésiæ tuæ, omnípotens Deus: ut beátum Stéphanum
           Confessórem tuum, quem regnántem in terris propagatórem hábuit,
           propugnatórem habére mereátur gloriósum in cœlis. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedei à vossa Igreja, Vos imploramos, ó Deus omnipotente, que o B.
           Estêvão, vosso Confessor, que ela possuiu como seu propagador enquanto
           reinou na terra, seja agora seu defensor na glória dos céus. Por nosso
           Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
 
-      <Text className="em">Lc. 19, 12-26</Text>
+      <Typography className="em">Lc. 19, 12-26</Typography>
 
       <Language>
-        <Text className="latin">
-          <Text className="cross"> ✠ </Text> Sequéntia sancti Evangélii secúndum
+        <Typography className="latin">
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
           Lucam.
-        </Text>
-        <Text className="vernacular">
-          <Text className="cross"> ✠ </Text> Continuação do santo Evangelho
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
           segundo S. Lucas.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo
           quidam nóbilis ábiit in regionem longínquam accípere sibi regnum, et
           revérti. Vocátis autem decem servis suis, dedit eis decem mnas, et ait
@@ -96,8 +96,8 @@ export default function Page0902() {
           illi, qui decem mnas habet. Et dixérunt ei: Dómine, habet decem mnas.
           Dico autem vobis: Quia omni habénti dábitur, et abundábit: ab eo
           autem, qui non habet, et, quod habet, auferétur ab eo.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Naquele tempo, Jesus disse aos seus discípulos esta parábola: «Certo
           homem de linhagem nobre partiu para um país longínquo, a fim de
           conseguir a posse desse reino e voltar depois. Chamou, pois, dez dos
@@ -123,39 +123,39 @@ export default function Page0902() {
           moedas». «Eu vos digo, retorquiu o Senhor, dar-se-á àquele que tem, e
           ficará na abundância; mas àquele que nada tem tirar-se-lhe-á até o que
           tiver».
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Réspice, quas offérimus, hóstias, omnípotens Deus: et præsta; ut, qui
           passiónis Dominicae mystéria celebrámus, imitémur quod ágimus. Per
           eúndem Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus omnipotente, dignai-Vos olhar para estas hóstias, que Vos
           oferecemos, e permiti que, celebrando nós os mystérios da Paixão do
           Senhor, imitemos o que Vos apresentamos. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut beáti Stephani Confessóris tui
           fidem cóngrua devotióne sectémur; qui, pro ejúsdem fídei dilatatióne,
           de terréno regno ad cœléstis regni glóriam méruit perveníre. Per
           Dóminum nostrum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Concedei-nos, Vos rogamos, ó Deus omnipotente, a graça de imitarmos
           com a devida devoção os exemplos de fé do B. Estêvão, vosso Confessor,
           o qual pela propagação desta mesma fé mereceu transitar da realeza
           terrestre para a glória do reino celestial. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );

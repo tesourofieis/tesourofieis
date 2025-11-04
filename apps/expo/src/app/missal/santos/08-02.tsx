@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
@@ -9,7 +9,7 @@ export default function Page0802() {
     <PageWrapper>
       <H1 text="S. Afonso Ligório, B. C. e Doutor, a 2 de Agosto" />
 
-      <Text className="comment">
+      <Typography className="comment">
         Em 1696, Deus suscita Santo Afonso, e, o fidalgo napolitano já celebre
         como advogado, vai depôr a espada sobre o altar de Nossa Senhora das
         Mercês, desejando, d'ora em diante, ser soldado de Jesus Cristo e
@@ -30,59 +30,59 @@ export default function Page0802() {
         enviassem a Roma três dedos de sua mão direita. Venham a Roma, dizia
         ele, esses dedos santos que tão bem escreveram para a glória de Deus, da
         SSma Virgem Maria e da Religião.
-      </Text>
+      </Typography>
 
       <H3 text="Intróito" />
 
-      <Text className="em">Lc. 4, 18</Text>
+      <Typography className="em">Lc. 4, 18</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Spíritus Dómini super me: propter quod unxit me: evangelizáre
           paupéribus misit me, sanáre contrítos corde.{" "}
-          <Text className="latin">Ps. 77, 1</Text> Atténdite, pópule meus, legem
+          <Typography className="latin">Ps. 77, 1</Typography> Atténdite, pópule meus, legem
           meam: inclináte aurem vestram in verba oris mei.
-          <Text className="versicle"> ℣. </Text>Gloria Patri...
-        </Text>
-        <Text className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
+        </Typography>
+        <Typography className="vernacular">
           O Espírito do Senhor está sobre mim; eis porque me ungiu; e me mandou
           evangelizar os pobres e sarar aqueles cujos corações estão feridos.{" "}
-          <Text className="vernacular">Sl. 77, 1</Text> Atendei à minha lei, ó
+          <Typography className="vernacular">Sl. 77, 1</Typography> Atendei à minha lei, ó
           meu povo; escutai as palavras que saem da minha boca.
-          <Text className="versicle"> ℣. </Text>Glória ao Pai...
-        </Text>
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+        </Typography>
       </Language>
 
       <H3 text="Oração" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui per beátum Alfónsum Maríam Confessórem tuum atque
           Pontíficem, animárum zelo succénsum, Ecclésiam tuam nova prole
           fœcundásti: quǽsumus; ut, ejus salutáribus mónitis edócti et exémplis
           roboráti, ad te perveníre felíciter valeámus. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que pelo ministério do B. Afonso Maria, vosso Confessor e
           Pontífice, que ardia em zelo pela salvação das almas, destes à vossa
           Igreja uma nova família, permiti, Vos suplicamos, que, instruídos com
           suas salutares lições e fortalecidos com seus exemplos, possamos
           chegar até junto de Vós com felicidade. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Epístola" />
 
-      <Text className="em">2 Tm. 2, 1-7</Text>
+      <Typography className="em">2 Tm. 2, 1-7</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Lição da Ep.ª do B. Ap.º Paulo a Timóteo.
-        </Text>
-        <Text className="latin">
+        </Typography>
+        <Typography className="latin">
           Caríssime: Confortáre in grátia, quæ est in Christo Jesu: et quæ
           audísti a me per multos testes, hæc comménda fidálibus homínibus, qui
           idónei erunt et alios docére. Labóra sicut bonus miles Christi Jesu.
@@ -91,8 +91,8 @@ export default function Page0802() {
           certáverit. Laborántem agrícolam opórtet primum de frúctibus
           percípere. Intéllege quæ dico: dabit enim tibi Dóminus in ómnibus
           intelléctum.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Caríssimo: Fortificai-vos na graça que está em Jesus Cristo; e,
           guardando o ensino, que aprendestes de mim diante de várias
           testemunhas, transmiti-o a homens fiéis, que sejam idóneos para
@@ -103,43 +103,43 @@ export default function Page0802() {
           segundo as regras. O trabalhador agrícola deve ser o primeiro a
           saborear os frutos. Compreendei bem o que vos digo; pois o Senhor vos
           dará inteligência em todas as coisas.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Gradual" />
 
-      <Text className="em">Sl. 118, 52-53</Text>
+      <Typography className="em">Sl. 118, 52-53</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Memor fui judiciórum tuórum a sǽculo, Dómine, et consolátus sum:
           deféctio ténuit me pro peccatóribus derelinquéntibus legem tuam.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="latin">Ps. 39, 11</Text> Justítiam tuam non abscóndi
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 39, 11</Typography> Justítiam tuam non abscóndi
           in corde meo: veritátem tuam et salutáre tuum dixi.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Recordei-me, Senhor, das vossas sentenças, que existiam antes dos
           séculos: e fiquei consolado. O desânimo apoderou-se de mim à vista dos
           pecadores, que se afastaram da vossa lei.
-          <Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Sl. 39, 11</Text> Não ocultei a vossa
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 39, 11</Typography> Não ocultei a vossa
           justiça no meu coração, publiquei a vossa verdade e a vossa salvação.
-        </Text>
-        <Text className="latin">
-          Allelúja, allelúja.<Text className="versicle"> ℣. </Text>
-          <Text className="latin">Eccli. 49, 3-4</Text> Ipse est diréctus
+        </Typography>
+        <Typography className="latin">
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Eccli. 49, 3-4</Typography> Ipse est diréctus
           divínitus in pœniténtiam gentis, et tulit abominatiónes impietátis: et
           gubernávit ad Dóminum cor ipsíus: et in diébus peccatórum corroborávit
           pietátem. Allelúja.
-        </Text>
-        <Text className="vernacular">
-          Aleluia, aleluia.<Text className="versicle"> ℣. </Text>
-          <Text className="vernacular">Ecl. 49, 3-4</Text> Foi predestinado pelo
+        </Typography>
+        <Typography className="vernacular">
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Ecl. 49, 3-4</Typography> Foi predestinado pelo
           alto para levar o povo à penitência; e fez desaparecer as abominações
           da impiedade. Volveu o seu coração para o Senhor: e nos dias dos
           pecadores desenvolveu a piedade. Aleluia.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Evangelho" />
@@ -151,70 +151,70 @@ export default function Page0802() {
 
       <H3 text="Ofertório" />
 
-      <Text className="em">Pr. 3, 9 & 27</Text>
+      <Typography className="em">Pr. 3, 9 & 27</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Hónora Dóminum de tua substántia, et de primítiis ómnium frugum tuárum
           da ei. Noli prohibére benefácere eum, qui potest: si vales, et ipse
           bénefac.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Honra o Senhor, oferecendo-Lhe alguma coisa que te pertença: dá-lhe
           primícias de todos teus frutos. Ninguém proíba de praticar o bem a
           quem pode fazê-lo: e, se és capaz de fazer algum bem, fá-lo.
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Secreta" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Cœlésti, Dómine Jesu Christe, sacrifícii igne corda nostra in odórem
           suavitátis exúre: qui beáto Alfónso Maríæ tribuísti et hæc mystéria
           celebráre, et per éadem hóstiam tibi sanctam seípsum exhibére: Qui
           vivis...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Senhor Jesus Cristo acendei nos nossos corações o fogo celestial do
           sacrifício para os consumir em odor de santidade, pois concedestes ao
           B. Afonso Maria a graça de celebrar estes mystérios e de se oferecer a
           Vós, pelo mesmo mystério, como vítima sagrada. Ó Vós, que viveis, e
           reinais...
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Comúnio" />
 
-      <Text className="em">Ecl. 50, 1 & 9</Text>
+      <Typography className="em">Ecl. 50, 1 & 9</Typography>
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Sacérdos magnus, qui in vita sua suffúlsit domum, et in diébus suis
           corroborávit templum, quasi ignis effúlgens et thus ardens in igne.
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Este grande Pontífice, que durante a sua vida sustentou a casa do
           Senhor e empregou os seus dias em fortificar o templo, apareceu, como
           uma chama, a arder e, como o incenso, abrasado no fogo!
-        </Text>
+        </Typography>
       </Language>
 
       <H3 text="Postcomúnio" />
 
       <Language>
-        <Text className="latin">
+        <Typography className="latin">
           Deus, qui beátum Alfónsum Maríam Confessórem tuum atque Pontíficem
           fidelem divíni mystérii dispensatórem et præcónem effecísti: ejus
           méritis precibúsque concéde; ut fidéles tui et frequénter percípiant,
           et percipiéndo sine fine colláudent. Per Dóminum...
-        </Text>
-        <Text className="vernacular">
+        </Typography>
+        <Typography className="vernacular">
           Ó Deus, que tornastes o B. Afonso Maria, vosso Confessor e Pontífice,
           fiel dispensador e pregador dos divinos mystérios, permiti que pelas
           suas preces e méritos os vossos fiéis os recebam frequentemente e,
           recebendo-os, Vos louvem incessantemente. Por nosso Senhor...
-        </Text>
+        </Typography>
       </Language>
     </PageWrapper>
   );
