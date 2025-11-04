@@ -2,24 +2,21 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "baseUrl": ".",
+    "jsx": "react-native",
+    "checkJs": false,
+    "moduleSuffixes": [".ios", ".android", ".native", ""],
     "paths": {
-      "~/*": [
-        "./src/*",
-        "./assets/*"
-      ]
-    },
-    "types": [
-      "nativewind/types"
-    ]
+      "~/*": ["./src/*", "./assets/*"]
+    }
   },
   "include": [
     "src",
-    "**/*.ts",
-    "**/*.tsx",
+    "*.ts",
+    "*.js",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "index.js",
-    "build_sidebar.js",
     "nativewind-env.d.ts"
-  ]
+  ],
+  "exclude": ["node_modules"]
 }
+

@@ -124,12 +124,20 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
       latinContent: childrenArray.filter(
         (child) =>
           React.isValidElement(child) &&
-          child.props.className?.includes("latin")
+          typeof child.props === "object" &&
+          child.props !== null &&
+          "className" in child.props &&
+          typeof child.props.className === "string" &&
+          child.props.className.includes("latin")
       ),
       vernacularContent: childrenArray.filter(
         (child) =>
           React.isValidElement(child) &&
-          child.props.className?.includes("vernacular")
+          typeof child.props === "object" &&
+          child.props !== null &&
+          "className" in child.props &&
+          typeof child.props.className === "string" &&
+          child.props.className.includes("vernacular")
       ),
     };
   }, [children]);
