@@ -1,7 +1,7 @@
 import { useLocalSearchParams } from "expo-router";
 import type React from "react";
 import { useEffect, useRef } from "react";
-import { Platform, ScrollView, View } from "react-native";
+import { Platform, ScrollView, View, Text } from "react-native";
 import { ScrollView as GestureScrollView } from "react-native-gesture-handler";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { PageProvider, useIsNested } from "~/providers/page";
@@ -12,17 +12,30 @@ type PageWrapperProps = {
 };
 
 const PAGE_FONT_SIZE_CLASS = {
-  small: "text-base text-sepia",
-  medium: "text-lg text-sepia",
-  large: "text-xl text-sepia",
+  small: "text-xs",
+  medium: "text-base",
+  large: "text-lg",
 };
-function PageContent({ children }: { children: React.ReactNode }) {
+
+export function P({
+  children,
+  className = "",
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) {
   const { fontSize } = useFontContext();
   return (
-    <View className={`flex-1 ${PAGE_FONT_SIZE_CLASS[fontSize]}`}>
+    <Text
+      className={`font-serif-custom text-sepia ${PAGE_FONT_SIZE_CLASS[fontSize]} ${className}`}
+    >
       {children}
-    </View>
+    </Text>
   );
+}
+
+function PageContent({ children }: { children: React.ReactNode }) {
+  return <View className="flex-1">{children}</View>;
 }
 
 export default function PageWrapper({ children }: PageWrapperProps) {
