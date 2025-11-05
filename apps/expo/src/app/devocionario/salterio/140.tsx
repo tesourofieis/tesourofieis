@@ -1,4 +1,4 @@
-import { P } from "~/components/typography";
+import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";

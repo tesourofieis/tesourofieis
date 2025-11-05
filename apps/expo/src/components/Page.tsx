@@ -46,16 +46,16 @@ export default function PageWrapper({ children }: PageWrapperProps) {
     }
   };
 
-  const contentWithFontSize = <PageContent>{children}</PageContent>;
+  const content = <PageContent>{children}</PageContent>;
 
   if (isNested) {
-    return <PageProvider>{contentWithFontSize}</PageProvider>;
+    return <PageProvider>{content}</PageProvider>;
   }
 
   const scrollContent = isWeb ? (
-    <View className="flex-1 web:w-6/12 mx-auto">{contentWithFontSize}</View>
+    <View className="flex-1 px-2 web:w-6/12 mx-auto">{content}</View>
   ) : (
-    <View className="flex-1 w-full">{contentWithFontSize}</View>
+    <View className="flex-1 px-1 w-full">{content}</View>
   );
 
   return (

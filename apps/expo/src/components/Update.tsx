@@ -4,7 +4,7 @@ import { burgundy } from "config";
 import { useEffect, useState } from "react";
 import { useUpdate } from "~/providers/update";
 import { H6 } from "./Headings";
-import { P } from "./typography";
+import { Typography } from "./typography";
 
 export const Update = () => {
   const {

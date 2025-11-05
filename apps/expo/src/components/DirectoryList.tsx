@@ -3,7 +3,7 @@ import { ActivityIndicator, View } from "react-native";
 import type { Docs } from "~/app/(tabs)/more";
 import { findBySlug } from "~/services/search";
 import PageLinkCard from "./LinkCard";
-import { P } from "./typography";
+import { Typography } from "./typography";
 
 const DirectoryList = ({ slug }: { slug: string }) => {
   const [searchResults, setSearchResults] = useState<Docs[]>([]);

@@ -10,34 +10,34 @@ type HeadingProps = {
 };
 
 const H1_SIZE: Record<FontSize, string> = {
+  small: "text-3xl",
+  medium: "text-4xl",
+  large: "text-5xl",
+};
+const H2_SIZE: Record<FontSize, string> = {
   small: "text-2xl",
   medium: "text-3xl",
   large: "text-4xl",
 };
-const H2_SIZE: Record<FontSize, string> = {
+const H3_SIZE: Record<FontSize, string> = {
   small: "text-xl",
   medium: "text-2xl",
   large: "text-3xl",
 };
-const H3_SIZE: Record<FontSize, string> = {
+const H4_SIZE: Record<FontSize, string> = {
   small: "text-lg",
   medium: "text-xl",
   large: "text-2xl",
 };
-const H4_SIZE: Record<FontSize, string> = {
+const H5_SIZE: Record<FontSize, string> = {
   small: "text-base",
   medium: "text-lg",
   large: "text-xl",
 };
-const H5_SIZE: Record<FontSize, string> = {
+const H6_SIZE: Record<FontSize, string> = {
   small: "text-sm",
   medium: "text-base",
   large: "text-lg",
-};
-const H6_SIZE: Record<FontSize, string> = {
-  small: "text-xs",
-  medium: "text-sm",
-  large: "text-base",
 };
 
 function useHeadingId(text: string, id?: string): string {

@@ -37,7 +37,17 @@ export default function PageTabLayout() {
               title: "Início",
               href: "/",
               tabBarIcon: ({ color }) => (
-                <FontAwesome6 name="house" color={color} />
+                <FontAwesome6 name="landmark" color={color} />
+              ),
+            }}
+          />
+          <Tabs.Screen
+            name="ordo"
+            options={{
+              title: "Ordo",
+              href: "/ordo",
+              tabBarIcon: ({ color }) => (
+                <FontAwesome6 name="church" color={color} />
               ),
             }}
           />
@@ -47,7 +57,7 @@ export default function PageTabLayout() {
               title: "Calendário",
               href: "/calendario",
               tabBarIcon: ({ color }) => (
-                <FontAwesome6 name="calendar" color={color} />
+                <FontAwesome6 name="calendar-days" color={color} />
               ),
             }}
           />
@@ -57,7 +67,7 @@ export default function PageTabLayout() {
               title: "Configurar",
               href: "/configurar",
               tabBarIcon: ({ color }) => (
-                <FontAwesome6 name="gear" color={color} />
+                <FontAwesome6 name="gears" color={color} />
               ),
             }}
           />
@@ -67,7 +77,7 @@ export default function PageTabLayout() {
               title: "Procura",
               href: "/more",
               tabBarIcon: ({ color }) => (
-                <FontAwesome6 name="magnifying-glass" color={color} />
+                <FontAwesome6 name="table-list" color={color} />
               ),
             }}
           />

@@ -1,24 +1,16 @@
 import { Typography } from "~/components/typography";
-import { getCalendarDay } from "@tesourofieis/cal/getCalendar";
-import { yyyyMMDD } from "@tesourofieis/cal/utils";
-import { ActivityIndicator, View } from "react-native";
 import { H1, H2, H3, H4 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { useCalendar } from "~/providers/calendar";
+import { ScrollView } from "react-native";
 
 export default function PageOrdo() {
-  const mass = getCalendarDay(yyyyMMDD(new Date()))?.mass;
-
-  if (!mass?.length)
-    return (
-      <View className="mt-2 flex flex-col items-center justify-center">
-        <ActivityIndicator className="text-red-500" />
-      </View>
-    );
+  const { mass } = useCalendar();
 
   return (
-    <PageWrapper>
+    <ScrollView>
       <H1 text="Ordo Missæ" />
 
       <H2 text="Missa dos Catecúmenos" />
@@ -32,12 +24,12 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> In nómine Patris, et Fílii, et
-          Spíritus Sancti.
+          <Typography className="cross"> ✠ </Typography> In nómine Patris, et
+          Fílii, et Spíritus Sancti.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Em nome do Pai, e do Filho, e do
-          Espírito Santo.
+          <Typography className="cross"> ✠ </Typography> Em nome do Pai, e do
+          Filho, e do Espírito Santo.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -53,18 +45,20 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography> Introíbo ad altáre Dei.
+          <Typography className="versicle"> ℣. </Typography> Introíbo ad altáre
+          Dei.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Eu irei até ao altar de Deus.
+          <Typography className="versicle"> ℣. </Typography>Eu irei até ao altar
+          de Deus.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Ad Deum, qui lætíficat
-          juventútem meam.
+          <Typography className="response"> ℟. </Typography> Ad Deum, qui
+          lætíficat juventútem meam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Até Deus, que é a alegria da
-          minha juventude.
+          <Typography className="response"> ℟. </Typography> Até Deus, que é a
+          alegria da minha juventude.
         </Typography>
       </Language>
 
@@ -77,44 +71,47 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Júdica me, Deus, et discérne
-          causam meam de gente non sancta: ab hómine iníquo et dolóso érue me.
+          <Typography className="versicle"> ℣. </Typography>Júdica me, Deus, et
+          discérne causam meam de gente non sancta: ab hómine iníquo et dolóso
+          érue me.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Julgai-me, ó Deus, e defendei a
-          minha causa da gente infiel; livrai-me do homem iníquo e ardiloso.
+          <Typography className="versicle"> ℣. </Typography>Julgai-me, ó Deus, e
+          defendei a minha causa da gente infiel; livrai-me do homem iníquo e
+          ardiloso.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Quia tu es, Deus, fortitudo
-          mea: quare me reppulísti, et quare tristis incédo, dum afflígit me
-          inimícus?
+          <Typography className="response"> ℟. </Typography> Quia tu es, Deus,
+          fortitudo mea: quare me reppulísti, et quare tristis incédo, dum
+          afflígit me inimícus?
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Pois que Vós, ó Deus, sois a
-          minha fortaleza, porque me repelistes? E porque ando triste enquanto o
-          meu inimigo me aflige?
+          <Typography className="response"> ℟. </Typography> Pois que Vós, ó
+          Deus, sois a minha fortaleza, porque me repelistes? E porque ando
+          triste enquanto o meu inimigo me aflige?
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Emítte lucem tuam et veritátem
-          tuam: ipsa me deduxérunt, et adduxérunt in montem sanctum tuum et in
-          tabernácula tua.
+          <Typography className="versicle"> ℣. </Typography>Emítte lucem tuam et
+          veritátem tuam: ipsa me deduxérunt, et adduxérunt in montem sanctum
+          tuum et in tabernácula tua.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Enviai a vossa luz e a vossa
-          verdade; elas me guiarão e conduzirão até ao vosso santo monte, até
-          aos vossos tabernáculos.
+          <Typography className="versicle"> ℣. </Typography>Enviai a vossa luz e
+          a vossa verdade; elas me guiarão e conduzirão até ao vosso santo
+          monte, até aos vossos tabernáculos.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et introíbo ad altáre Dei: ad
-          Deum, qui lætíficat juventútem meam.
+          <Typography className="response"> ℟. </Typography> Et introíbo ad
+          altáre Dei: ad Deum, qui lætíficat juventútem meam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E irei até ao Altar de Deus;
-          até Deus, que é a alegria da minha juventude.
+          <Typography className="response"> ℟. </Typography> E irei até ao Altar
+          de Deus; até Deus, que é a alegria da minha juventude.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Confitébor tibi in cíthara,
-          Deus, Deus meus: quare tristis es, ánima mea, et quare contúrbas me?
+          <Typography className="versicle"> ℣. </Typography>Confitébor tibi in
+          cíthara, Deus, Deus meus: quare tristis es, ánima mea, et quare
+          contúrbas me?
         </Typography>
         <Typography className="vernacular">
           <Typography className="versicle"> ℣. </Typography>Ó Deus, ó meu Deus,
@@ -122,12 +119,12 @@ export default function PageOrdo() {
           te perturbas?
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Spera in Deo, quóniam adhuc
-          confitébor illi: salutáre vultus mei, et Deus meus.
+          <Typography className="response"> ℟. </Typography> Spera in Deo,
+          quóniam adhuc confitébor illi: salutáre vultus mei, et Deus meus.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Confia em Deus, pois ainda O
-          louvarei. Ele é a minha salvação e o meu Deus.
+          <Typography className="response"> ℟. </Typography> Confia em Deus,
+          pois ainda O louvarei. Ele é a minha salvação e o meu Deus.
         </Typography>
       </Language>
 
@@ -138,20 +135,20 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Glória Patri, et Fílio, et
-          Spirítui Sancto.
+          <Typography className="versicle"> ℣. </Typography>Glória Patri, et
+          Fílio, et Spirítui Sancto.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Glória ao Pai, e ao Filho, e ao
-          Espírito Santo.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai, e ao
+          Filho, e ao Espírito Santo.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Sicut erat in princípio, et
-          nunc, et semper: et in sǽcula sæculórum. Amen.
+          <Typography className="response"> ℟. </Typography> Sicut erat in
+          princípio, et nunc, et semper: et in sǽcula sæculórum. Amen.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Assim como era no princípio, e
-          agora, e sempre, por todos os séculos dos séculos. Amen.
+          <Typography className="response"> ℟. </Typography> Assim como era no
+          princípio, e agora, e sempre, por todos os séculos dos séculos. Amen.
         </Typography>
       </Language>
 
@@ -159,18 +156,20 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography> Introíbo ad altáre Dei.
+          <Typography className="versicle"> ℣. </Typography> Introíbo ad altáre
+          Dei.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Eu irei até ao altar de Deus.
+          <Typography className="versicle"> ℣. </Typography>Eu irei até ao altar
+          de Deus.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Ad Deum, qui lætíficat
-          juventútem meam.
+          <Typography className="response"> ℟. </Typography> Ad Deum, qui
+          lætíficat juventútem meam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Até Deus, que é a alegria da
-          minha juventude.
+          <Typography className="response"> ℟. </Typography> Até Deus, que é a
+          alegria da minha juventude.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography>Adjutórium nostrum{" "}
@@ -181,10 +180,12 @@ export default function PageOrdo() {
           <Typography className="cross"> ✠ </Typography> no nome do Senhor.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Qui fecit cœlum et terram.
+          <Typography className="response"> ℟. </Typography> Qui fecit cœlum et
+          terram.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Que criou o céu e a terra.
+          <Typography className="response"> ℟. </Typography> Que criou o céu e a
+          terra.
         </Typography>
       </Language>
 
@@ -204,15 +205,17 @@ export default function PageOrdo() {
           <Typography className="versicle"> ℣. </Typography> Confíteor Deo...
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Eu me confesso a Deus...
+          <Typography className="versicle"> ℣. </Typography>Eu me confesso a
+          Deus...
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Misereátur vestri omnípotens
-          Deus, et, dimíssis peccátis vestris, perdúcat vos ad vitam ætérnam.
+          <Typography className="response"> ℟. </Typography> Misereátur vestri
+          omnípotens Deus, et, dimíssis peccátis vestris, perdúcat vos ad vitam
+          ætérnam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Compadeça-se de vós o Senhor
-          omnipotente; vos perdoe os pecados e guie até à vida eterna.
+          <Typography className="response"> ℟. </Typography> Compadeça-se de vós
+          o Senhor omnipotente; vos perdoe os pecados e guie até à vida eterna.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Amen.
@@ -222,31 +225,36 @@ export default function PageOrdo() {
         </Typography>
       </Language>
 
-      <Typography className="aside">Confissão dos Acólitos e dos fiéis:</Typography>
+      <Typography className="aside">
+        Confissão dos Acólitos e dos fiéis:
+      </Typography>
 
       <Language>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Confíteor Deo omnipoténti,
-          beátæ Maríæ semper Vírgini, beáto Michǽli Archángelo, beáto Joánni
-          Baptístæ, sanctis Apóstolis Petro et Paulo, ómnibus Sanctis, et tibi,
-          pater: quia peccávi nimis cogitatióne, verbo et ópere:
-          <Typography className="em">Percutit sibi pectus ter, dicens:</Typography>
+          <Typography className="response"> ℟. </Typography> Confíteor Deo
+          omnipoténti, beátæ Maríæ semper Vírgini, beáto Michǽli Archángelo,
+          beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo, ómnibus
+          Sanctis, et tibi, pater: quia peccávi nimis cogitatióne, verbo et
+          ópere:
+          <Typography className="em">
+            Percutit sibi pectus ter, dicens:
+          </Typography>
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Eu me confesso a Deus, todo
-          poderoso, à bem-aventurada sempre Virgem Maria, ao bem-aventurado S.
-          Miguel Arcanjo, ao bem-aventurado S. João Baptista, aos Santos
-          Apóstolos S. Pedro e S. Paulo, a todos os santos, e a vós, Padre: que
-          pequei muitas vezes por pensamentos, palavras e obras:
-          <Typography className="em">Baterá no peito três vezes, dizendo:</Typography>
+          <Typography className="response"> ℟. </Typography> Eu me confesso a
+          Deus, todo poderoso, à bem-aventurada sempre Virgem Maria, ao
+          bem-aventurado S. Miguel Arcanjo, ao bem-aventurado S. João Baptista,
+          aos Santos Apóstolos S. Pedro e S. Paulo, a todos os santos, e a vós,
+          Padre: que pequei muitas vezes por pensamentos, palavras e obras:
+          <Typography className="em">
+            Baterá no peito três vezes, dizendo:
+          </Typography>
         </Typography>
         <Typography className="latin">
-          <Typography className="latin">Mea culpa, mea culpa, mea máxima culpa.</Typography>
+          Mea culpa, mea culpa, mea máxima culpa.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="vernacular">
-            Por minha culpa, por minha culpa, por minha tão grande culpa.
-          </Typography>
+          Por minha culpa, por minha culpa, por minha tão grande culpa.
         </Typography>
         <Typography className="latin">
           Ideo precor beátam Maríam semper Vírginem, beátum Michǽlem
@@ -261,12 +269,13 @@ export default function PageOrdo() {
           rogueis a Deus, nosso Senhor, por mim.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Misereátur vestri omnípotens
-          Deus, et, dimíssis peccátis vestris, perdúcat vos ad vitam ætérnam.
+          <Typography className="versicle"> ℣. </Typography>Misereátur vestri
+          omnípotens Deus, et, dimíssis peccátis vestris, perdúcat vos ad vitam
+          ætérnam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Compadeça-se de vós o Senhor
-          omnipotente; vos perdoe os pecados e guie até à vida eterna.
+          <Typography className="versicle"> ℣. </Typography>Compadeça-se de vós
+          o Senhor omnipotente; vos perdoe os pecados e guie até à vida eterna.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -276,13 +285,15 @@ export default function PageOrdo() {
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography>Indulgéntiam,{" "}
-          <Typography className="cross"> ✠ </Typography> absolutionem et remissiónem
-          peccatórum nostrórum tríbuat nobis omnípotens et miséricors Dóminus.
+          <Typography className="cross"> ✠ </Typography> absolutionem et
+          remissiónem peccatórum nostrórum tríbuat nobis omnípotens et
+          miséricors Dóminus.
         </Typography>
         <Typography className="vernacular">
           <Typography className="versicle"> ℣. </Typography>Que o Senhor{" "}
-          <Typography className="cross"> ✠ </Typography> omnipotente e misericordioso nos
-          conceda o perdão, a absolvição e a remissão dos nossos pecados.
+          <Typography className="cross"> ✠ </Typography> omnipotente e
+          misericordioso nos conceda o perdão, a absolvição e a remissão dos
+          nossos pecados.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -291,63 +302,72 @@ export default function PageOrdo() {
           <Typography className="response"> ℟. </Typography> Amen.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Deus, tu convérsus vivificábis
-          nos.
+          <Typography className="versicle"> ℣. </Typography>Deus, tu convérsus
+          vivificábis nos.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Ó Deus, volvei-Vos para nós, e
-          alcançaremos a vida.
+          <Typography className="versicle"> ℣. </Typography>Ó Deus, volvei-Vos
+          para nós, e alcançaremos a vida.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et plebs tua lætábitur in te.
+          <Typography className="response"> ℟. </Typography> Et plebs tua
+          lætábitur in te.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E o vosso povo se alegrará
-          convosco.
+          <Typography className="response"> ℟. </Typography> E o vosso povo se
+          alegrará convosco.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Osténde nobis, Dómine,
-          misericórdiam tuam.
+          <Typography className="versicle"> ℣. </Typography>Osténde nobis,
+          Dómine, misericórdiam tuam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, mostrai-nos a vossa
-          misericórdia.
+          <Typography className="versicle"> ℣. </Typography>Senhor, mostrai-nos
+          a vossa misericórdia.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et salutáre tuum da nobis.
+          <Typography className="response"> ℟. </Typography> Et salutáre tuum da
+          nobis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E concedei-nos a vossa
-          salvação.
+          <Typography className="response"> ℟. </Typography> E concedei-nos a
+          vossa salvação.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi oratiónem meam.
+          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi
+          oratiónem meam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, atendei à minha oração.
+          <Typography className="versicle"> ℣. </Typography>Senhor, atendei à
+          minha oração.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et clamor meus ad te véniat.
+          <Typography className="response"> ℟. </Typography> Et clamor meus ad
+          te véniat.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E que meu clamor chegue até
-          Vós.
+          <Typography className="response"> ℟. </Typography> E que meu clamor
+          chegue até Vós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor esteja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor esteja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
       </Language>
 
-      <Typography className="aside">O Sacerdote sobe ao altar, dizendo:</Typography>
+      <Typography className="aside">
+        O Sacerdote sobe ao altar, dizendo:
+      </Typography>
 
       <Language>
         <Typography className="latin">
@@ -393,7 +413,9 @@ export default function PageOrdo() {
         palavras, todos se benzem, ao mesmo tempo que o celebrante.
       </Typography>
 
-      <LinkCard mass={mass[0]} description="Intróito" />
+      {mass.map((i) => (
+        <LinkCard key={i.id} mass={i} description="Intróito" />
+      ))}
 
       <H3 text="Kyrie Eleison" />
 
@@ -407,55 +429,64 @@ export default function PageOrdo() {
           <Typography className="versicle"> ℣. </Typography> Kýrie eléison.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, tende piedade de nós.
+          <Typography className="versicle"> ℣. </Typography>Senhor, tende
+          piedade de nós.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Kýrie eléison.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Senhor, tende piedade de nós.
+          <Typography className="response"> ℟. </Typography> Senhor, tende
+          piedade de nós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Kýrie eléison.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, tende piedade de nós.
+          <Typography className="versicle"> ℣. </Typography>Senhor, tende
+          piedade de nós.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Christe eléison.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Cristo, tende piedade de nós.
+          <Typography className="response"> ℟. </Typography> Cristo, tende
+          piedade de nós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Christe eléison.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Cristo, tende piedade de nós.
+          <Typography className="versicle"> ℣. </Typography>Cristo, tende
+          piedade de nós.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Christe eléison.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Cristo, tende piedade de nós.
+          <Typography className="response"> ℟. </Typography> Cristo, tende
+          piedade de nós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Kýrie eléison.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, tende piedade de nós.
+          <Typography className="versicle"> ℣. </Typography>Senhor, tende
+          piedade de nós.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Kýrie eléison.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Senhor, tende piedade de nós.
+          <Typography className="response"> ℟. </Typography> Senhor, tende
+          piedade de nós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Kýrie eléison.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, tende piedade de nós.
+          <Typography className="versicle"> ℣. </Typography>Senhor, tende
+          piedade de nós.
         </Typography>
       </Language>
 
@@ -491,8 +522,8 @@ export default function PageOrdo() {
           tirais os pecados do mundo, atendei à nossa súplica. Vós, que estais
           sentado à direita do Pai, tende misericórdia de nós. Só Vós sois o
           Santo; só Vós, o Senhor; só Vós, o Altíssimo, Jesus Cristo: com o
-          Espírito Santo <Typography className="cross"> ✠ </Typography> na glória de Deus
-          Pai.
+          Espírito Santo <Typography className="cross"> ✠ </Typography> na
+          glória de Deus Pai.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -511,13 +542,15 @@ export default function PageOrdo() {
           <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor esteja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor esteja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
       </Language>
 
@@ -538,15 +571,18 @@ export default function PageOrdo() {
         </Typography>
       </Language>
 
-      <LinkCard mass={mass[0]} description="Oração" />
+      {mass.map((i) => (
+        <LinkCard key={i.id} mass={i} description="Oração" />
+      ))}
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>...per ómnia sǽculua sæculórum.
+          <Typography className="versicle"> ℣. </Typography>...per ómnia sǽculua
+          sæculórum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>...por todos os séculos dos
-          séculos.
+          <Typography className="versicle"> ℣. </Typography>...por todos os
+          séculos dos séculos.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -558,7 +594,9 @@ export default function PageOrdo() {
 
       <H3 text="Epístola do dia" />
 
-      <LinkCard mass={mass[0]} description="Epístola" />
+      {mass.map((i) => (
+        <LinkCard key={i.id} mass={i} description="Epístola" />
+      ))}
 
       <Language>
         <Typography className="latin">
@@ -576,7 +614,9 @@ export default function PageOrdo() {
         versos retirados dos Salmos ou do Antigo Testamento.
       </Typography>
 
-      <LinkCard mass={mass[0]} description="Gradual" />
+      {mass.map((i) => (
+        <LinkCard key={i.id} mass={i} description="Gradual" />
+      ))}
 
       <Typography className="aside">
         No Tempo da Septuagésima, o Allelúja é substituído pelo Trato. No Tempo
@@ -646,24 +686,30 @@ export default function PageOrdo() {
           <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor esteja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor esteja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
       </Language>
 
-      <LinkCard mass={mass[0]} description="Evangelho" />
+      {mass.map((i) => (
+        <LinkCard key={i.id} mass={i} description="Evangelho" />
+      ))}
 
       <Language>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Glória tibi, Dómine.
+          <Typography className="response"> ℟. </Typography> Glória tibi,
+          Dómine.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Glória a Vós, Senhor.
+          <Typography className="response"> ℟. </Typography> Glória a Vós,
+          Senhor.
         </Typography>
       </Language>
 
@@ -673,12 +719,12 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Per evangélica dicta deleántur
-          nostra delícta.
+          <Typography className="versicle"> ℣. </Typography>Per evangélica dicta
+          deleántur nostra delícta.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Que pelas palavras do Evangelho
-          nos sejam perdoados os nossos pecados.
+          <Typography className="versicle"> ℣. </Typography>Que pelas palavras
+          do Evangelho nos sejam perdoados os nossos pecados.
         </Typography>
       </Language>
 
@@ -689,7 +735,8 @@ export default function PageOrdo() {
           <Typography className="response"> ℟. </Typography> Laus tibi, Christe.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Louvores a Vós, ó Cristo.
+          <Typography className="response"> ℟. </Typography> Louvores a Vós, ó
+          Cristo.
         </Typography>
       </Language>
 
@@ -737,8 +784,8 @@ export default function PageOrdo() {
           et Fílio simul adorátur et conglorificátur: qui locútus est per
           Prophétas. Et unam sanctam cathólicam et apostolicam Ecclésiam.
           Confíteor unum baptísma in remissiónem peccatórum. Et exspécto
-          resurrectiónem mortuórum. Et <Typography className="cross"> ✠ </Typography> vitam
-          ventúri sǽculi.
+          resurrectiónem mortuórum. Et{" "}
+          <Typography className="cross"> ✠ </Typography> vitam ventúri sǽculi.
         </Typography>
         <Typography className="vernacular">
           Também por nós foi crucificado sob Pôncio Pilatos, padeceu e foi
@@ -749,8 +796,9 @@ export default function PageOrdo() {
           Pai e do Filho; e com o Pai e o Filho é adorado e glorificado: Ele que
           falou pelos Profetas. Creio na Igreja una, santa, católica e
           apostólica. Confesso um só baptismo para a remissão dos pecados. E
-          espero a ressurreição dos mortos, e <Typography className="cross"> ✠ </Typography>{" "}
-          a vida do mundo que há-de vir.
+          espero a ressurreição dos mortos, e{" "}
+          <Typography className="cross"> ✠ </Typography> a vida do mundo que
+          há-de vir.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -774,13 +822,15 @@ export default function PageOrdo() {
           <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor esteja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor esteja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
       </Language>
 
@@ -799,7 +849,9 @@ export default function PageOrdo() {
 
       <H3 text="Ofertório do dia" />
 
-      <LinkCard mass={mass[0]} description="Ofertório" />
+      {mass.map((i) => (
+        <LinkCard key={i.id} mass={i} description="Ofertório" />
+      ))}
 
       <H4 text="Oferecimento do pão:" />
 
@@ -889,13 +941,13 @@ export default function PageOrdo() {
       <Language>
         <Typography className="latin">
           Veni, sanctificátor omnípotens ætérne Deus: et bene{" "}
-          <Typography className="cross"> ✠ </Typography> dic hoc sacrifícium, tuo sancto
-          nómini præparátum.
+          <Typography className="cross"> ✠ </Typography> dic hoc sacrifícium,
+          tuo sancto nómini præparátum.
         </Typography>
         <Typography className="vernacular">
           Vinde, ó Santificador omnipotente, Deus eterno, e abençoai{" "}
-          <Typography className="cross"> ✠ </Typography> este sacrifício, preparado para a
-          glória do vosso Santo Nome.
+          <Typography className="cross"> ✠ </Typography> este sacrifício,
+          preparado para a glória do vosso Santo Nome.
         </Typography>
       </Language>
 
@@ -913,18 +965,21 @@ export default function PageOrdo() {
         <Typography className="latin">
           Per intercessiónem beáti Michǽlis Archángeli, stantis a dextris
           altáris incénsi, et ómnium electórum suórum, incénsum istud dignétur
-          Dóminus bene <Typography className="cross"> ✠ </Typography> dícere, et in odórem
-          suavitátis accípere. Per Christum, Dóminum nostrum. Amen.
+          Dóminus bene <Typography className="cross"> ✠ </Typography> dícere, et
+          in odórem suavitátis accípere. Per Christum, Dóminum nostrum. Amen.
         </Typography>
         <Typography className="vernacular">
           Dignai-Vos Senhor, pela intercessão do bem-aventurado Arcanjo Miguel,
           que está de pé à direita do altar do incenso, e de todos vossos
-          eleitos, abençoar <Typography className="cross"> ✠ </Typography> este incenso e
-          aceitá-lo como odor de suavidade. Por Cristo, Senhor nosso. Amen.
+          eleitos, abençoar <Typography className="cross"> ✠ </Typography> este
+          incenso e aceitá-lo como odor de suavidade. Por Cristo, Senhor nosso.
+          Amen.
         </Typography>
       </Language>
 
-      <Typography className="aside">O Sacerdote incensa primeiro as oblatas:</Typography>
+      <Typography className="aside">
+        O Sacerdote incensa primeiro as oblatas:
+      </Typography>
 
       <Language>
         <Typography className="latin">
@@ -965,12 +1020,12 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Accéndat in nobis Dóminus ignem
-          sui amóris, et flammam ætérnæ caritátis. Amen.
+          <Typography className="response"> ℟. </Typography> Accéndat in nobis
+          Dóminus ignem sui amóris, et flammam ætérnæ caritátis. Amen.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Que o Senhor acenda em nós o
-          fogo do seu amor e a chama da eterna caridade. Amen.
+          <Typography className="response"> ℟. </Typography> Que o Senhor acenda
+          em nós o fogo do seu amor e a chama da eterna caridade. Amen.
         </Typography>
       </Language>
 
@@ -1041,25 +1096,25 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Súscipe, sancta Trinitas, hanc
-          oblatiónem, quam tibi offérimus ob memóriam passiónis, resurrectiónis,
-          et ascensiónis Jesu Christi, Dómini nostri: et in honórem beátæ Maríæ
-          semper Vírginis, et beáti Joannis Baptistæ, et sanctórum Apostolórum
-          Petri et Pauli, et istórum et ómnium Sanctórum: ut illis profíciat ad
-          honórem, nobis autem ad salútem: et illi pro nobis intercédere
-          dignéntur in cœlis, quorum memóriam ágimus in terris. Per eúndem
-          Christum, Dóminum nostrum. Amen.
+          <Typography className="versicle"> ℣. </Typography>Súscipe, sancta
+          Trinitas, hanc oblatiónem, quam tibi offérimus ob memóriam passiónis,
+          resurrectiónis, et ascensiónis Jesu Christi, Dómini nostri: et in
+          honórem beátæ Maríæ semper Vírginis, et beáti Joannis Baptistæ, et
+          sanctórum Apostolórum Petri et Pauli, et istórum et ómnium Sanctórum:
+          ut illis profíciat ad honórem, nobis autem ad salútem: et illi pro
+          nobis intercédere dignéntur in cœlis, quorum memóriam ágimus in
+          terris. Per eúndem Christum, Dóminum nostrum. Amen.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Recebei, ó Santíssima Trindade,
-          esta oblação, que Vos oferecemos em memória da Paixão, da Ressurreição
-          e da Ascensão de N. S. Jesus Cristo: e em honra da bem-aventurada
-          sempre Virgem Maria, do bem-aventurado João Baptista e dos Santos
-          Apóstolos Pedro e Paulo, e destes, que estão aqui, e de todos os
-          Santos: para que esta oblação lhes sirva de glória e a nós de
-          salvação: e aqueles, cuja memória honramos na terra, se dignem
-          interceder por nós no céu. Pelo mesmo Jesus Cristo, nosso Senhor.
-          Amen.
+          <Typography className="versicle"> ℣. </Typography>Recebei, ó
+          Santíssima Trindade, esta oblação, que Vos oferecemos em memória da
+          Paixão, da Ressurreição e da Ascensão de N. S. Jesus Cristo: e em
+          honra da bem-aventurada sempre Virgem Maria, do bem-aventurado João
+          Baptista e dos Santos Apóstolos Pedro e Paulo, e destes, que estão
+          aqui, e de todos os Santos: para que esta oblação lhes sirva de glória
+          e a nós de salvação: e aqueles, cuja memória honramos na terra, se
+          dignem interceder por nós no céu. Pelo mesmo Jesus Cristo, nosso
+          Senhor. Amen.
         </Typography>
       </Language>
 
@@ -1072,27 +1127,30 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Oráte, fratres: ut meum ac
-          vestrum sacrifícium acceptábile fiat apud Deum Patrem omnipoténtem.
+          <Typography className="versicle"> ℣. </Typography>Oráte, fratres: ut
+          meum ac vestrum sacrifícium acceptábile fiat apud Deum Patrem
+          omnipoténtem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Orai, meus irmãos, a fim de que
-          meu sacrifício, que é também vosso, seja recebido por Deus Pai
-          omnipotente.
+          <Typography className="versicle"> ℣. </Typography>Orai, meus irmãos, a
+          fim de que meu sacrifício, que é também vosso, seja recebido por Deus
+          Pai omnipotente.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Suscípiat Dóminus sacrifícium
-          de mánibus tuis ad laudem et glóriam nominis sui, ad utilitátem quoque
-          nostram, totiúsque Ecclésiæ suæ sanctæ.
+          <Typography className="response"> ℟. </Typography> Suscípiat Dóminus
+          sacrifícium de mánibus tuis ad laudem et glóriam nominis sui, ad
+          utilitátem quoque nostram, totiúsque Ecclésiæ suæ sanctæ.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Que o Senhor receba por vossas
-          mãos este sacrifício para a honra e glória de seu Nome, e também para
-          a nossa utilidade e de toda sua santa Igreja.
+          <Typography className="response"> ℟. </Typography> Que o Senhor receba
+          por vossas mãos este sacrifício para a honra e glória de seu Nome, e
+          também para a nossa utilidade e de toda sua santa Igreja.
         </Typography>
       </Language>
 
-      <Typography className="aside">O Sacerdote responde, em voz baixa:</Typography>
+      <Typography className="aside">
+        O Sacerdote responde, em voz baixa:
+      </Typography>
 
       <Language>
         <Typography className="latin">
@@ -1111,15 +1169,18 @@ export default function PageOrdo() {
 
       <H3 text="Secreta do dia" />
 
-      <LinkCard mass={mass[0]} description="Secreta" />
+      {mass.map((i) => (
+        <LinkCard key={i.id} mass={i} description="Secreta" />
+      ))}
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>...Per ómnia sǽcula sæculórum.
+          <Typography className="versicle"> ℣. </Typography>...Per ómnia sǽcula
+          sæculórum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>...Por todos os séculos dos
-          séculos.
+          <Typography className="versicle"> ℣. </Typography>...Por todos os
+          séculos dos séculos.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -1144,13 +1205,15 @@ export default function PageOrdo() {
           <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor esteja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor esteja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Sursum corda.
@@ -1162,21 +1225,24 @@ export default function PageOrdo() {
           <Typography className="response"> ℟. </Typography> Habémus ad Dóminum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Assim os temos para o Senhor.
+          <Typography className="response"> ℟. </Typography> Assim os temos para
+          o Senhor.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Grátias agámus Dómino, Deo
-          nostro.
+          <Typography className="versicle"> ℣. </Typography>Grátias agámus
+          Dómino, Deo nostro.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Demos graças ao Senhor, Nosso
-          Deus.
+          <Typography className="versicle"> ℣. </Typography>Demos graças ao
+          Senhor, Nosso Deus.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Dignum et justum est.
+          <Typography className="response"> ℟. </Typography> Dignum et justum
+          est.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Assim é digno e justo.
+          <Typography className="response"> ℟. </Typography> Assim é digno e
+          justo.
         </Typography>
       </Language>
 
@@ -1196,12 +1262,12 @@ export default function PageOrdo() {
           proclamam a vossa glória. Hossana nas alturas.
         </Typography>
         <Typography className="latin">
-          Benedíctus, <Typography className="cross"> ✠ </Typography> qui venit in nómine
-          Dómini. Hosánna in excélsis.
+          Benedíctus, <Typography className="cross"> ✠ </Typography> qui venit
+          in nómine Dómini. Hosánna in excélsis.
         </Typography>
         <Typography className="vernacular">
-          Bendito <Typography className="cross"> ✠ </Typography> o que vem em nome do
-          Senhor. Hosana nas alturas.
+          Bendito <Typography className="cross"> ✠ </Typography> o que vem em
+          nome do Senhor. Hosana nas alturas.
         </Typography>
       </Language>
 
@@ -1216,27 +1282,28 @@ export default function PageOrdo() {
         <Typography className="latin">
           Te Igitur clementíssime Pater, per Jesum Christum, Fílium tuum,
           Dóminum nostrum, súpplices rogámus, ac pétimus, uti accepta habeas et
-          benedícas, hæc <Typography className="cross"> ✠ </Typography> dona, hæc{" "}
-          <Typography className="cross"> ✠ </Typography> múnera, hæc{" "}
-          <Typography className="cross"> ✠ </Typography> sancta sacrifícia illibáta, in
-          primis, quæ tibi offérimus pro Ecclésia tua sancta cathólica: quam
-          pacificáre, custodíre, adunáre et régere dignéris toto orbe terrárum:
-          una cum fámulo tuo Papa nostro{" "}
-          <Typography className="text-red-500">N.</Typography> et Antístite nostro{" "}
-          <Typography className="text-red-500">N.</Typography> et ómnibus orthodóxis, atque
-          cathólicæ et apostólicæ fídei cultóribus.
+          benedícas, hæc <Typography className="cross"> ✠ </Typography> dona,
+          hæc <Typography className="cross"> ✠ </Typography> múnera, hæc{" "}
+          <Typography className="cross"> ✠ </Typography> sancta sacrifícia
+          illibáta, in primis, quæ tibi offérimus pro Ecclésia tua sancta
+          cathólica: quam pacificáre, custodíre, adunáre et régere dignéris toto
+          orbe terrárum: una cum fámulo tuo Papa nostro{" "}
+          <Typography className="text-red-500">N.</Typography> et Antístite
+          nostro <Typography className="text-red-500">N.</Typography> et ómnibus
+          orthodóxis, atque cathólicæ et apostólicæ fídei cultóribus.
         </Typography>
         <Typography className="vernacular">
           A Vós, pois, rogamos e pedimos, ó clementíssimo Pai, por Jesus Cristo,
           vosso Filho e nosso Senhor, que estes{" "}
           <Typography className="cross"> ✠ </Typography> dons, estas{" "}
           <Typography className="cross"> ✠ </Typography> ofertas, estes{" "}
-          <Typography className="cross"> ✠ </Typography> sacrifícios santos e imaculados Vos
-          sejam agradáveis e os abençoeis, os quais, antes de tudo, Vos
-          oferecemos pela nossa santa Igreja Católica: dignai-Vos conceder-lhe a
-          paz, guardá-la, uni-la e governá-la por toda a terra, em comunhão com
-          vosso servo, nosso Papa <Typography className="text-red-500">N.</Typography> com o
-          nosso Bispo <Typography className="text-red-500">N.</Typography> e com todos os
+          <Typography className="cross"> ✠ </Typography> sacrifícios santos e
+          imaculados Vos sejam agradáveis e os abençoeis, os quais, antes de
+          tudo, Vos oferecemos pela nossa santa Igreja Católica: dignai-Vos
+          conceder-lhe a paz, guardá-la, uni-la e governá-la por toda a terra,
+          em comunhão com vosso servo, nosso Papa{" "}
+          <Typography className="text-red-500">N.</Typography> com o nosso Bispo{" "}
+          <Typography className="text-red-500">N.</Typography> e com todos os
           ortodoxos e os que professam a fé católica e apostólica.
         </Typography>
       </Language>
@@ -1247,21 +1314,22 @@ export default function PageOrdo() {
         <Typography className="latin">
           Meménto, Dómine, famulórum famularúmque tuarum{" "}
           <Typography className="latin">N.</Typography> et{" "}
-          <Typography className="text-red-500">N.</Typography> et ómnium circumstántium,
-          quorum tibi fides cógnita est et nota devótio, pro quibus tibi
-          offérimus: vel qui tibi ófferunt hoc sacrifícium laudis, pro se
-          suísque ómnibus: pro redemptióne animárum suárum, pro spe salútis et
-          incolumitátis suæ: tibíque reddunt vota sua ætérno Deo, vivo et vero.
+          <Typography className="text-red-500">N.</Typography> et ómnium
+          circumstántium, quorum tibi fides cógnita est et nota devótio, pro
+          quibus tibi offérimus: vel qui tibi ófferunt hoc sacrifícium laudis,
+          pro se suísque ómnibus: pro redemptióne animárum suárum, pro spe
+          salútis et incolumitátis suæ: tibíque reddunt vota sua ætérno Deo,
+          vivo et vero.
         </Typography>
         <Typography className="vernacular">
           Lembrai-Vos, Senhor, dos vossos servos{" "}
           <Typography className="vernacular">N.</Typography>e{" "}
-          <Typography className="text-red-500">N.</Typography> e de todos os que aqui estão
-          presentes, cuja fé Vos é conhecida e a piedade é notória: pelos quais
-          Vos oferecemos, ou eles Vos oferecem, este sacrifício de louvor por si
-          próprios e por todos seus, pela redenção das suas almas, pela
-          esperança da sua salvação: é a Vós que oferecem as homenagens, como
-          Deus eterno, vivo e verdadeiro, que sois.
+          <Typography className="text-red-500">N.</Typography> e de todos os que
+          aqui estão presentes, cuja fé Vos é conhecida e a piedade é notória:
+          pelos quais Vos oferecemos, ou eles Vos oferecem, este sacrifício de
+          louvor por si próprios e por todos seus, pela redenção das suas almas,
+          pela esperança da sua salvação: é a Vós que oferecem as homenagens,
+          como Deus eterno, vivo e verdadeiro, que sois.
         </Typography>
       </Language>
 
@@ -1319,17 +1387,20 @@ export default function PageOrdo() {
         </Typography>
       </Language>
 
-      <Typography className="aside">O Sacerdote abençoa as oblatas dizendo:</Typography>
+      <Typography className="aside">
+        O Sacerdote abençoa as oblatas dizendo:
+      </Typography>
 
       <Language>
         <Typography className="latin">
           Quam oblatiónem tu, Deus, in ómnibus, quǽsumus, bene{" "}
           <Typography className="cross"> ✠ </Typography> díctam, adscríp{" "}
           <Typography className="cross"> ✠ </Typography> tam, ra{" "}
-          <Typography className="cross"> ✠ </Typography> tam, rationábilem, acceptabilémque
-          fácere dignéris: ut nobis Cor <Typography className="cross"> ✠ </Typography> pus,
-          et San <Typography className="cross"> ✠ </Typography> guis fiat dilectíssimi Fílii
-          tui, Dómini nostri Jesu Christi.
+          <Typography className="cross"> ✠ </Typography> tam, rationábilem,
+          acceptabilémque fácere dignéris: ut nobis Cor{" "}
+          <Typography className="cross"> ✠ </Typography> pus, et San{" "}
+          <Typography className="cross"> ✠ </Typography> guis fiat dilectíssimi
+          Fílii tui, Dómini nostri Jesu Christi.
         </Typography>
         <Typography className="vernacular">
           Que esta oblação, ó Deus, Vos imploramos, seja abençoada, aprovada,
@@ -1352,15 +1423,15 @@ export default function PageOrdo() {
           Qui prídie quam paterétur, accépit panem in sanctas ac venerábiles
           manus suas, et elevátis óculis in cœlum ad te Deum, Patrem suum
           omnipoténtem, tibi grátias agens, bene{" "}
-          <Typography className="cross"> ✠ </Typography> dixit, fregit, dedítque discípulis
-          suis, dicens: Accípite, et manducáte ex hoc omnes.
+          <Typography className="cross"> ✠ </Typography> dixit, fregit, dedítque
+          discípulis suis, dicens: Accípite, et manducáte ex hoc omnes.
         </Typography>
         <Typography className="vernacular">
           O qual, na véspera da sua paixão tomou o pão em suas santas e
           veneráveis mãos: e, erguendo os olhos ao céu, a Vós, Deus seu Pai
           omnipotente, e dando-Vos graças, abençoou-o{" "}
-          <Typography className="cross"> ✠ </Typography>, partiu-o e deu-o aos seus
-          discípulos, dizendo: Tomai todos e comei:
+          <Typography className="cross"> ✠ </Typography>, partiu-o e deu-o aos
+          seus discípulos, dizendo: Tomai todos e comei:
         </Typography>
       </Language>
 
@@ -1369,7 +1440,9 @@ export default function PageOrdo() {
           <Typography className="latin">Hoc est enim Corpus meum.</Typography>
         </Typography>
         <Typography className="vernacular">
-          <Typography className="vernacular">Pois isto é o meu Corpo.</Typography>
+          <Typography className="vernacular">
+            Pois isto é o meu Corpo.
+          </Typography>
         </Typography>
       </Language>
 
@@ -1379,14 +1452,14 @@ export default function PageOrdo() {
         <Typography className="latin">
           Símili modo postquam cœnátum est, accípiens et hunc præclárum Cálicem
           in sanctas ac venerábiles manus suas: tibi grátias agens, bene{" "}
-          <Typography className="cross"> ✠ </Typography> dixit, dedítque discípulis suis,
-          dicens: Accípite, et bíbite ex eo omnes.
+          <Typography className="cross"> ✠ </Typography> dixit, dedítque
+          discípulis suis, dicens: Accípite, et bíbite ex eo omnes.
         </Typography>
         <Typography className="vernacular">
           Do mesmo modo, Jesus, após a Ceia, tomou em suas santas e veneráveis
           mãos este precioso Cálice, e, novamente, dando-Vos graças, abençoou-o{" "}
-          <Typography className="cross"> ✠ </Typography> e deu-o aos seus discípulos
-          dizendo:
+          <Typography className="cross"> ✠ </Typography> e deu-o aos seus
+          discípulos dizendo:
         </Typography>
         <Typography className="latin">
           <Typography className="latin">
@@ -1433,8 +1506,9 @@ export default function PageOrdo() {
           <Typography className="cross"> ✠ </Typography> puram, hóstiam{" "}
           <Typography className="cross"> ✠ </Typography> sanctam, hóstiam{" "}
           <Typography className="cross"> ✠ </Typography> immaculátam, Panem{" "}
-          <Typography className="cross"> ✠ </Typography> sanctum vitæ ætérnæ, et Calicem{" "}
-          <Typography className="cross"> ✠ </Typography> salútis perpétuæ.
+          <Typography className="cross"> ✠ </Typography> sanctum vitæ ætérnæ, et
+          Calicem <Typography className="cross"> ✠ </Typography> salútis
+          perpétuæ.
         </Typography>
         <Typography className="vernacular">
           Por este motivo, Senhor, nós, vossos servos, e o vosso povo santo,
@@ -1445,12 +1519,15 @@ export default function PageOrdo() {
           <Typography className="cross"> ✠ </Typography> pura, a Hóstia{" "}
           <Typography className="cross"> ✠ </Typography> santa, a Hóstia{" "}
           <Typography className="cross"> ✠ </Typography> imaculada, o Pão{" "}
-          <Typography className="cross"> ✠ </Typography> santo da vida eterna e o Cálice{" "}
-          <Typography className="cross"> ✠ </Typography> da salvação perpétua.
+          <Typography className="cross"> ✠ </Typography> santo da vida eterna e
+          o Cálice <Typography className="cross"> ✠ </Typography> da salvação
+          perpétua.
         </Typography>
       </Language>
 
-      <Typography className="aside">Com as mãos afastadas, contínua:</Typography>
+      <Typography className="aside">
+        Com as mãos afastadas, contínua:
+      </Typography>
 
       <Language>
         <Typography className="latin">
@@ -1468,17 +1545,20 @@ export default function PageOrdo() {
         </Typography>
       </Language>
 
-      <Typography className="aside">Profundamente inclinado, o Sacerdote diz:</Typography>
+      <Typography className="aside">
+        Profundamente inclinado, o Sacerdote diz:
+      </Typography>
 
       <Language>
         <Typography className="latin">
           Súpplices te rogámus, omnípotens Deus: jube hæc perférri per manus
           sancti Ángeli tui in sublíme altáre tuum, in conspéctu divínæ
           majestátis tuæ: ut, quotquot ex hac altáris participatióne
-          sacrosánctum Fílii tui Cor <Typography className="cross"> ✠ </Typography> pus, et
-          Sán <Typography className="cross"> ✠ </Typography> guinem sumpsérimus, omni
-          benedictióne cœlésti et grátia repleámur. Per eúndem Christum, Dóminum
-          nostrum. Amen.
+          sacrosánctum Fílii tui Cor{" "}
+          <Typography className="cross"> ✠ </Typography> pus, et Sán{" "}
+          <Typography className="cross"> ✠ </Typography> guinem sumpsérimus,
+          omni benedictióne cœlésti et grátia repleámur. Per eúndem Christum,
+          Dóminum nostrum. Amen.
         </Typography>
         <Typography className="vernacular">
           Humildemente Vos rogamos, ó Deus omnipotente, ordeneis que estas
@@ -1486,9 +1566,9 @@ export default function PageOrdo() {
           Anjo, na presença da vossa divina majestade, a fim de que todos
           aqueles que participam deste Altar pela recepção do Santíssimo Corpo{" "}
           <Typography className="cross"> ✠ </Typography> e Sangue{" "}
-          <Typography className="cross"> ✠ </Typography> de vosso Filho sejam repletos de
-          todas as bênçãos do céu e de todas as graças. Pelo mesmo Cristo, nosso
-          Senhor. Amen.
+          <Typography className="cross"> ✠ </Typography> de vosso Filho sejam
+          repletos de todas as bênçãos do céu e de todas as graças. Pelo mesmo
+          Cristo, nosso Senhor. Amen.
         </Typography>
       </Language>
 
@@ -1500,14 +1580,15 @@ export default function PageOrdo() {
         <Typography className="latin">
           Meménto étiam, Dómine, famulórum famularúmque tuárum{" "}
           <Typography className="latin">N.</Typography> et{" "}
-          <Typography className="text-red-500">N.</Typography> , qui nos præcessérunt cum
-          signo fídei, et dórmiunt in somno pacis.
+          <Typography className="text-red-500">N.</Typography> , qui nos
+          præcessérunt cum signo fídei, et dórmiunt in somno pacis.
         </Typography>
         <Typography className="vernacular">
           Lembrai-Vos também Senhor, dos vossos servos e servas{" "}
           <Typography className="vernacular">N.</Typography> e{" "}
-          <Typography className="text-red-500">N.</Typography>, que partiram antes de nós,
-          marcados com o sinal da fé, e agora dormem o sono da paz.
+          <Typography className="text-red-500">N.</Typography>, que partiram
+          antes de nós, marcados com o sinal da fé, e agora dormem o sono da
+          paz.
         </Typography>
         <Typography className="latin">
           Ipsis, Dómine, et ómnibus in Christo quiescéntibus locum refrigérii,
@@ -1523,7 +1604,9 @@ export default function PageOrdo() {
 
       <H4 text="Invocação dos Santos" />
 
-      <Typography className="aside">O Sacerdote bate no peito, dizendo:</Typography>
+      <Typography className="aside">
+        O Sacerdote bate no peito, dizendo:
+      </Typography>
 
       <Language>
         <Typography className="latin">
@@ -1567,28 +1650,32 @@ export default function PageOrdo() {
           Per ip <Typography className="cross"> ✠ </Typography> sum, et cum ip{" "}
           <Typography className="cross"> ✠ </Typography> so, et in ip{" "}
           <Typography className="cross"> ✠ </Typography> so, est tibi Deo Patri{" "}
-          <Typography className="cross"> ✠ </Typography> omnipotenti, in unitáte Spíritus{" "}
-          <Typography className="cross"> ✠ </Typography> Sancti, omnis honor, et glória.
+          <Typography className="cross"> ✠ </Typography> omnipotenti, in unitáte
+          Spíritus <Typography className="cross"> ✠ </Typography> Sancti, omnis
+          honor, et glória.
         </Typography>
         <Typography className="vernacular">
           Por Ele <Typography className="cross"> ✠ </Typography>, com Ele{" "}
           <Typography className="cross"> ✠ </Typography> e n’Ele{" "}
-          <Typography className="cross"> ✠ </Typography>, a Vós, ó Deus Pai todo-o-poderoso{" "}
-          <Typography className="cross"> ✠ </Typography>, na unidade do Espírito{" "}
-          <Typography className="cross"> ✠ </Typography> Santo, pertence, e Vos é dada, toda
-          a honra e glória.
+          <Typography className="cross"> ✠ </Typography>, a Vós, ó Deus Pai
+          todo-o-poderoso <Typography className="cross"> ✠ </Typography>, na
+          unidade do Espírito <Typography className="cross"> ✠ </Typography>{" "}
+          Santo, pertence, e Vos é dada, toda a honra e glória.
         </Typography>
       </Language>
 
-      <Typography className="aside">O Sacerdote termina em voz alta:</Typography>
+      <Typography className="aside">
+        O Sacerdote termina em voz alta:
+      </Typography>
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Per ómnia sǽcula sæculórum.
+          <Typography className="versicle"> ℣. </Typography>Per ómnia sǽcula
+          sæculórum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Por todos os séculos dos
-          séculos.
+          <Typography className="versicle"> ℣. </Typography>Por todos os séculos
+          dos séculos.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -1641,10 +1728,12 @@ export default function PageOrdo() {
           deixeis cair em tentação:
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Sed líbera nos a malo.
+          <Typography className="response"> ℟. </Typography> Sed líbera nos a
+          malo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Mas livrai-nos do mal.
+          <Typography className="response"> ℟. </Typography> Mas livrai-nos do
+          mal.
         </Typography>
       </Language>
 
@@ -1705,11 +1794,12 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Per ómnia sæcula sæculórum.
+          <Typography className="versicle"> ℣. </Typography>Per ómnia sæcula
+          sæculórum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Por todos os séculos dos
-          séculos.
+          <Typography className="versicle"> ℣. </Typography>Por todos os séculos
+          dos séculos.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -1741,7 +1831,8 @@ export default function PageOrdo() {
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
         <Typography className="latin">
           Hæc commíxtio, et consecrátio Córporis et Sánguinis Dómini nostri Jesu
@@ -1852,7 +1943,9 @@ export default function PageOrdo() {
         </Typography>
       </Language>
 
-      <Typography className="aside">Em seguida bate três vezes no peito.</Typography>
+      <Typography className="aside">
+        Em seguida bate três vezes no peito.
+      </Typography>
 
       <Language>
         <Typography className="latin">
@@ -1923,17 +2016,18 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Confíteor Deo omnipoténti,
-          beátæ Maríæ semper Vírgini, beáto Michǽli Archángelo, beáto Joánni
-          Baptístæ, sanctis Apóstolis Petro et Paulo, ómnibus Sanctis, et tibi,
-          pater: quia peccávi nimis cogitatióne, verbo et ópere:
+          <Typography className="response"> ℟. </Typography> Confíteor Deo
+          omnipoténti, beátæ Maríæ semper Vírgini, beáto Michǽli Archángelo,
+          beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo, ómnibus
+          Sanctis, et tibi, pater: quia peccávi nimis cogitatióne, verbo et
+          ópere:
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Eu me confesso a Deus, todo
-          poderoso, à bem-aventurada sempre Virgem Maria, ao bem-aventurado S.
-          Miguel Arcanjo, ao bem-aventurado S. João Baptista, aos Santos
-          Apóstolos S. Pedro e S. Paulo, a todos os santos, e a vós, Padre: que
-          pequei muitas vezes por pensamentos, palavras e obras:
+          <Typography className="response"> ℟. </Typography> Eu me confesso a
+          Deus, todo poderoso, à bem-aventurada sempre Virgem Maria, ao
+          bem-aventurado S. Miguel Arcanjo, ao bem-aventurado S. João Baptista,
+          aos Santos Apóstolos S. Pedro e S. Paulo, a todos os santos, e a vós,
+          Padre: que pequei muitas vezes por pensamentos, palavras e obras:
         </Typography>
       </Language>
 
@@ -1941,7 +2035,9 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="latin">Mea culpa, mea culpa, mea máxima culpa.</Typography>
+          <Typography className="latin">
+            Mea culpa, mea culpa, mea máxima culpa.
+          </Typography>
         </Typography>
         <Typography className="vernacular">
           <Typography className="vernacular">
@@ -1968,12 +2064,13 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Misereátur vestri omnípotens
-          Deus, et, dimíssis peccátis vestris, perdúcat vos ad vitam ætérnam.
+          <Typography className="versicle"> ℣. </Typography>Misereátur vestri
+          omnípotens Deus, et, dimíssis peccátis vestris, perdúcat vos ad vitam
+          ætérnam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Compadeça-se de vós o Senhor
-          omnipotente; vos perdoe os pecados e guie até à vida eterna.
+          <Typography className="versicle"> ℣. </Typography>Compadeça-se de vós
+          o Senhor omnipotente; vos perdoe os pecados e guie até à vida eterna.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -1988,13 +2085,15 @@ export default function PageOrdo() {
       <Language>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography>Indulgéntiam,{" "}
-          <Typography className="cross"> ✠ </Typography> absolutionem et remissiónem
-          peccatórum nostrórum tríbuat nobis omnípotens et miséricors Dóminus.
+          <Typography className="cross"> ✠ </Typography> absolutionem et
+          remissiónem peccatórum nostrórum tríbuat nobis omnípotens et
+          miséricors Dóminus.
         </Typography>
         <Typography className="vernacular">
           <Typography className="versicle"> ℣. </Typography>Que o Senhor{" "}
-          <Typography className="cross"> ✠ </Typography> omnipotente e misericordioso nos
-          conceda o perdão, a absolvição e a remissão dos nossos pecados.
+          <Typography className="cross"> ✠ </Typography> omnipotente e
+          misericordioso nos conceda o perdão, a absolvição e a remissão dos
+          nossos pecados.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -2011,12 +2110,12 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Ecce Agnus Dei, ecce qui tollit
-          peccáta mundi.
+          <Typography className="versicle"> ℣. </Typography>Ecce Agnus Dei, ecce
+          qui tollit peccáta mundi.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Eis o Cordeiro de Deus; eis
-          Aquele que tira os pecados do mundo.
+          <Typography className="versicle"> ℣. </Typography>Eis o Cordeiro de
+          Deus; eis Aquele que tira os pecados do mundo.
         </Typography>
       </Language>
 
@@ -2026,13 +2125,14 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Dómine, non sum dignus, ut
-          intres sub tectum meum: sed tantum dic verbo, et sanábitur ánima mea.
+          <Typography className="response"> ℟. </Typography> Dómine, non sum
+          dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur
+          ánima mea.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Senhor, eu não sou digno de que
-          entreis na minha morada, mas dizei uma só palavra e a minha alma será
-          salva.
+          <Typography className="response"> ℟. </Typography> Senhor, eu não sou
+          digno de que entreis na minha morada, mas dizei uma só palavra e a
+          minha alma será salva.
         </Typography>
       </Language>
 
@@ -2044,12 +2144,12 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Corpus Dómini nostri Jesu
-          Christi custódiat ánimam tuam in vitam ætérnam. Amen.
+          <Typography className="versicle"> ℣. </Typography>Corpus Dómini nostri
+          Jesu Christi custódiat ánimam tuam in vitam ætérnam. Amen.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Que o Corpo de nosso Senhor
-          Jesus Cristo guarde a tua alma para a vida eterna. Amen.
+          <Typography className="versicle"> ℣. </Typography>Que o Corpo de nosso
+          Senhor Jesus Cristo guarde a tua alma para a vida eterna. Amen.
         </Typography>
       </Language>
 
@@ -2100,26 +2200,32 @@ export default function PageOrdo() {
         Comunhão.
       </Typography>
 
-      <LinkCard mass={mass[0]} description="Comúnio" />
+      {mass.map((i) => (
+        <LinkCard key={i.id} mass={i} description="Comúnio" />
+      ))}
 
       <Language>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor esteja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor esteja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
       </Language>
 
       <H3 text="Postcomúnio do dia" />
 
-      <LinkCard mass={mass[0]} description="Postcomúnio" />
+      {mass.map((i) => (
+        <LinkCard key={i.id} mass={i} description="Postcomúnio" />
+      ))}
 
       <H3 text="Despedida e Bênção" />
 
@@ -2133,19 +2239,22 @@ export default function PageOrdo() {
           <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor esteja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor esteja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Ite, Missa est.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Ide-vos, acabou a Missa.
+          <Typography className="versicle"> ℣. </Typography>Ide-vos, acabou a
+          Missa.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Deo grátias.
@@ -2178,10 +2287,12 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography> Requiéscant in pace.
+          <Typography className="versicle"> ℣. </Typography> Requiéscant in
+          pace.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Que descansem em paz.
+          <Typography className="versicle"> ℣. </Typography>Que descansem em
+          paz.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -2197,15 +2308,15 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Pláceat tibi, sancta Trínitas,
-          obséquium servitútis meæ: et præsta; ut sacrifícium, quod óculis tuæ
-          majestátis indígnus óbtuli, tibi sit acceptábile, mihíque et ómnibus,
-          pro quibus illud óbtuli, sit, te miseránte, propitiábile. Per
-          Christum, Dóminum nostrum. Amen.
+          <Typography className="versicle"> ℣. </Typography>Pláceat tibi, sancta
+          Trínitas, obséquium servitútis meæ: et præsta; ut sacrifícium, quod
+          óculis tuæ majestátis indígnus óbtuli, tibi sit acceptábile, mihíque
+          et ómnibus, pro quibus illud óbtuli, sit, te miseránte, propitiábile.
+          Per Christum, Dóminum nostrum. Amen.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Santíssima Trindade, seja-Vos
-          agradável a homenagem da minha escravidão, a fim de que este
+          <Typography className="versicle"> ℣. </Typography>Santíssima Trindade,
+          seja-Vos agradável a homenagem da minha escravidão, a fim de que este
           sacrifício, que, ainda indignamente, ofereci à vossa divina majestade,
           seja aceite por Vós, e, pela vossa misericórdia, se torne
           propiciatório para mim e para todos aqueles por quem o ofereci. Por
@@ -2219,14 +2330,14 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Benedícat vos omnípotens Deus,
-          Pater, et Fílius, <Typography className="cross"> ✠ </Typography> et Spíritus
-          Sanctus.
+          <Typography className="versicle"> ℣. </Typography>Benedícat vos
+          omnípotens Deus, Pater, et Fílius,{" "}
+          <Typography className="cross"> ✠ </Typography> et Spíritus Sanctus.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Que desça sobre vós a bênção do
-          omnipotente Deus: Pai, e Filho, <Typography className="cross"> ✠ </Typography> e
-          Espírito Santo.
+          <Typography className="versicle"> ℣. </Typography>Que desça sobre vós
+          a bênção do omnipotente Deus: Pai, e Filho,{" "}
+          <Typography className="cross"> ✠ </Typography> e Espírito Santo.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -2249,13 +2360,15 @@ export default function PageOrdo() {
           <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor esteja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor esteja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
       </Language>
 
@@ -2266,18 +2379,20 @@ export default function PageOrdo() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Initium sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Initium sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Princípio do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Princípio do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Glória tibi, Dómine.
+          <Typography className="response"> ℟. </Typography> Glória tibi,
+          Dómine.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Glória a Vós, Senhor.
+          <Typography className="response"> ℟. </Typography> Glória a Vós,
+          Senhor.
         </Typography>
         <Typography className="latin">
           In princípio erat Verbum, et Verbum erat apud Deum, et Deus erat
@@ -2293,9 +2408,9 @@ export default function PageOrdo() {
           Quotquot autem recepérunt eum, dedit eis potestátem fílios Dei fíeri,
           his, qui credunt in nómine ejus: qui non ex sanguínibus, neque ex
           voluntáte carnis, neque ex voluntáte viri, sed ex Deo nati sunt.{" "}
-          <Typography className="em">(Hic genuflectitur)</Typography> Et Verbum caro factum
-          est, et habitávit in nobis: et vídimus glóriam ejus, glóriam quasi
-          Unigéniti a Patre, plenum grátiæ et veritátis.
+          <Typography className="em">(Hic genuflectitur)</Typography> Et Verbum
+          caro factum est, et habitávit in nobis: et vídimus glóriam ejus,
+          glóriam quasi Unigéniti a Patre, plenum grátiæ et veritátis.
         </Typography>
         <Typography className="vernacular">
           No princípio existia o Verbo, e o Verbo estava com Deus, e o Verbo era
@@ -2312,9 +2427,9 @@ export default function PageOrdo() {
           Ele a todos quantos O receberam e aos que acreditaram no seu nome deu
           o poder de serem filhos de Deus, os quais não nasceram do sangue, nem
           do desejo da carne, mas somente da vontade de Deus. E o Verbo fez-se
-          carne <Typography className="em">(genuflecte-se)</Typography> e habitou entre nós;
-          e contemplamos a sua glória, como era própria do Filho Unigénito do
-          Pai, cheio de graça e de verdade.
+          carne <Typography className="em">(genuflecte-se)</Typography> e
+          habitou entre nós; e contemplamos a sua glória, como era própria do
+          Filho Unigénito do Pai, cheio de graça e de verdade.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Deo grátias.
@@ -2327,6 +2442,6 @@ export default function PageOrdo() {
       <H2 text="Orações Leoninas" />
 
       <LinkCard title="Orações Leoninas" href="/missal/oracoesleoninas" />
-    </PageWrapper>
+    </ScrollView>
   );
 }

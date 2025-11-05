@@ -22,7 +22,7 @@ export default function Page0626() {
         oliveiras e aos dois candelabros, brilhando diante da face do Senhor, e
         de que fala o Apocalipse». «Estes justos, acrescenta ele, comparecem
         juntos na presença do Senhor e não se separam». Seus nomes figuram no
-        <Link className="link" href="/missal/ordo#canon-missæ">
+        <Link className="link" href="/ordo#canon-missæ">
           Canon da Missa
         </Link>{" "}
         passando de geração em geração, enquanto os seus corpos descançam em paz
@@ -63,7 +63,9 @@ export default function Page0626() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Hi viri misericórdiæ sunt, quorum pietátes non defuérunt: cum semine
           eórum pérmanent bona, heréditas sancta nepótes eórum, et in
@@ -96,18 +98,19 @@ export default function Page0626() {
         </Typography>
         <Typography className="vernacular">
           Ah! como é bom e consolador que os irmãos habitem juntamente.
-          <Typography className="versicle"> ℣. </Typography>É como o perfume espalhado na
-          cabeça, que desceu sobre a barba de Aarão.
+          <Typography className="versicle"> ℣. </Typography>É como o perfume
+          espalhado na cabeça, que desceu sobre a barba de Aarão.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Hæc est vera
-          fratérnitas, quæ vicit mundi crímina: Christum secúta est, ínclita
-          tenens regna cœléstia. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secúta
+          est, ínclita tenens regna cœléstia. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Esta é a
-          verdadeira fraternidade que venceu os crimes do mundo: ela seguiu
-          Cristo e por isso possuirá gloriosamente o reino do céu. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Esta é a verdadeira fraternidade que venceu os crimes do mundo: ela
+          seguiu Cristo e por isso possuirá gloriosamente o reino do céu.
+          Aleluia.
         </Typography>
       </Language>
 

@@ -3,7 +3,7 @@ import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { format } from "date-fns";
 import { pt } from "date-fns/locale";
 import { useRouter } from "expo-router";
-import { Pressable, useColorScheme, View } from "react-native";
+import { Pressable, ScrollView, useColorScheme, View } from "react-native";
 import { burgundy } from "config";
 import ExternalLinks from "~/components/External";
 import { H1 } from "~/components/Headings";
@@ -12,7 +12,6 @@ import LinkCard from "~/components/LinkCard";
 import LiturgicalSeason from "~/components/LiturgicalSeason";
 import Novenas from "~/components/Novenas";
 import Office from "~/components/Office";
-import PageWrapper from "~/components/Page";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
 
@@ -34,7 +33,7 @@ export default function PageRender() {
   const currentPrayer = getPrayer(date);
 
   return (
-    <PageWrapper>
+    <ScrollView>
       <View className="bg-sepia-300 dark:bg-sepia-700">
         <Typography className="font-serif text-sm p-3 text-center text-sepia">
           Em Portugal se conservará sempre o dogma da fé - Nossa Senhora de
@@ -143,6 +142,6 @@ export default function PageRender() {
       <LiturgicalSeason />
 
       <ExternalLinks />
-    </PageWrapper>
+    </ScrollView>
   );
 }

@@ -13,15 +13,15 @@ import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { DefaultTheme, ThemeProvider } from "@react-navigation/native";
 import { Stack, usePathname, useRouter } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
-import { Platform, Pressable, StatusBar, View } from "react-native";
+import { Platform, Pressable, View } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { COLORS } from "~/constants/Colors";
-import { CalendarProvider } from "~/providers/calendar";
-import { SettingsProvider } from "~/providers/settings";
 import { burgundy } from "config";
 import { FontProvider } from "~/providers/fonts";
 import { UpdateProvider, useUpdate } from "~/providers/update";
 import { Update } from "~/components/Update";
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import { StatusBar } from "expo-status-bar";
 
 SplashScreen.preventAutoHideAsync();
 SplashScreen.setOptions({
@@ -71,13 +71,15 @@ export default function PageRootLayout() {
   return (
     <UpdateProvider>
       <FontProvider>
-        {Platform.OS === "web" ? (
-          <RootLayoutNav />
-        ) : (
-          <GestureHandlerRootView style={{ flex: 1 }}>
+        <SafeAreaProvider>
+          {Platform.OS === "web" ? (
             <RootLayoutNav />
-          </GestureHandlerRootView>
-        )}
+          ) : (
+            <GestureHandlerRootView style={{ flex: 1 }}>
+              <RootLayoutNav />
+            </GestureHandlerRootView>
+          )}
+        </SafeAreaProvider>
       </FontProvider>
     </UpdateProvider>
   );
@@ -196,36 +198,34 @@ const Breadcrumbs = () => {
   };
 
   const handleBreadcrumbPress = (targetPath: string) => {
-    router.replace(targetPath as any);
+    router.push(targetPath as any);
   };
 
   return (
-    <View className="flex-row items-center gap-1">
+    <View className="flex-row items-center px-2 py-1 rounded-lg bg-sepia-300 dark:bg-sepia-700">
       {segments.map((segment, index) => (
         <View
           className="flex-row items-center gap-1"
           key={`${segment}-${index}`}
         >
           {index !== 0 && (
-            <Typography className="font-serif text-xs text-sepia-700 dark:text-sepia-300">
-              /
-            </Typography>
+            <FontAwesome6 name="arrow-right" size={8} color={burgundy[500]} />
           )}
 
           {index === segments.length - 1 ? (
-            <Typography className="font-serif text-xs text-sepia-700 dark:text-sepia-300">
+            <Typography className="font-italic text-xs text-red-500">
               {formatSegmentName(segment)}
             </Typography>
           ) : (
             <Pressable
-              className="rounded px-1 py-0.5 bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
+              className="rounded px-1 py-0.5 active:bg-sepia-200 dark:active:bg-sepia-800"
               onPress={() =>
                 handleBreadcrumbPress(
                   `/${segments.slice(0, index + 1).join("/")}`
                 )
               }
             >
-              <Typography className="font-serif text-xs text-sepia-600 dark:text-sepia-400 underline">
+              <Typography className="font-italic text-xs text-sepia-600 dark:text-sepia-400 underline">
                 {formatSegmentName(segment)}
               </Typography>
             </Pressable>
@@ -243,45 +243,72 @@ const Header = ({ withBC }: { withBC: boolean }) => {
 
   if (withBC) {
     return (
-      <View className="flex-row items-center p-5 gap-2 border-b bg-sepia-200 dark:bg-sepia-800 w-full justify-between">
-        <View className="flex-row gap-3 flex-1 items-center">
-          <Pressable
-            className="rounded-full p-2 shadow-sm bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
-            onPress={() => router.navigate("/")}
-          >
-            <FontAwesome6 name="arrow-left" size={15} color={burgundy[500]} />
-          </Pressable>
-          <Breadcrumbs />
+      <SafeAreaView edges={["top"]}>
+        <View className="flex-row items-center justify-between px-2 py-3 gap-2 bg-sepia-200 dark:bg-sepia-800 w-full border-b">
+          <View className="flex-row gap-1 flex-1 items-center justify-between">
+            <View className="flex-row gap-1 flex-1 items-center">
+              <Pressable
+                onPress={() => router.navigate("/")}
+                className="rounded-full p-2 shadow-sm bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
+              >
+                <View className="flex-row items-center">
+                  <FontAwesome6
+                    name={withBC ? "landmark" : "book-bible"}
+                    size={withBC ? 15 : 25}
+                    color={burgundy[500]}
+                  />
+                  {!withBC && (
+                    <Typography className="h5 ml-3 text-sepia-800 dark:text-sepia-200 font-serif">
+                      Tesouro dos Fiéis
+                    </Typography>
+                  )}
+                </View>
+              </Pressable>
+
+              <Pressable
+                className="rounded-full p-2 shadow-sm bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
+                onPress={() => router.back()}
+              >
+                <FontAwesome6
+                  name="chevron-left"
+                  size={15}
+                  color={burgundy[500]}
+                />
+              </Pressable>
+              <Breadcrumbs />
+            </View>
+
+            <Pressable
+              onPress={() => router.navigate("/more")}
+              className="p-2 items-center border rounded-xl border-sepia-700 dark:border-sepia-200 active:bg-sepia-200 dark:active:bg-sepia-700"
+            >
+              <FontAwesome6
+                name="magnifying-glass"
+                size={15}
+                color={isDarkMode ? COLORS["300"] : COLORS["700"]}
+              />
+            </Pressable>
+          </View>
         </View>
-        <View className="flex-row gap-1">
-          <Pressable
-            onPress={() => router.navigate("/more")}
-            className="p-2 items-center border rounded-xl border-sepia-700 dark:border-sepia-200 active:bg-sepia-200 dark:active:bg-sepia-700"
-          >
-            <FontAwesome6
-              name="magnifying-glass"
-              size={15}
-              color={isDarkMode ? COLORS["300"] : COLORS["700"]}
-            />
-          </Pressable>
-        </View>
-      </View>
+      </SafeAreaView>
     );
   }
 
   return (
-    <View className="flex-row items-center justify-between p-5 bg-sepia-200 dark:bg-sepia-800 w-full border-b">
-      <Pressable
-        onPress={() => router.navigate("/")}
-        className="active:opacity-70"
-      >
-        <View className="flex-row items-center gap-3">
-          <FontAwesome6 name="book-bible" size={25} color={burgundy[500]} />
-          <Typography className="h5 text-sepia-800 dark:text-sepia-200 font-serif">
-            Tesouro dos Fiéis
-          </Typography>
-        </View>
-      </Pressable>
-    </View>
+    <SafeAreaView edges={["top"]}>
+      <View className="flex-row items-center justify-between px-2 py-1 gap-2 bg-sepia-200 dark:bg-sepia-800 w-full border-b">
+        <Pressable
+          onPress={() => router.navigate("/")}
+          className="rounded-full p-2 bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
+        >
+          <View className="flex-row items-center">
+            <FontAwesome6 name="book-bible" size={25} color={burgundy[500]} />
+            <Typography className="h5 ml-3 text-sepia-800 dark:text-sepia-200 font-serif">
+              Tesouro dos Fiéis
+            </Typography>
+          </View>
+        </Pressable>
+      </View>
+    </SafeAreaView>
   );
 };

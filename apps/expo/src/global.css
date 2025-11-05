@@ -188,6 +188,10 @@
   .font-serif {
     font-family: var(--font-family-serif);
   }
+
+  .font-italic {
+    font-family: var(--font-family-italic);
+  }
   .cross {
     @apply text-burgundy-500;
   }

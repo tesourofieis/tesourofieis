@@ -126,7 +126,7 @@ const TreeItem = React.memo(
             className="flex-row items-center"
           >
             <View className="flex-1" style={{ paddingLeft: level * 16 }}>
-              <Typography className="vernacular">
+              <Typography className="vernacular text-xs">
                 {highlightText(doc.title, searchHighlight)}
               </Typography>
               {description && description !== doc.title && (
@@ -273,7 +273,7 @@ const SearchResultItem = React.memo(
         onPress={handleCardPress}
         className="rounded-xl mx-4 my-2 p-4 border-b border-sepia active:bg:sepia-200 dark:active:bg-sepia-800"
       >
-        <Typography className="vernacular">
+        <Typography className="vernacular text-xs">
           {displayTitle
             ? renderFTSHighlightedText(displayTitle)
             : highlightText(item.title, query)}
