@@ -24,6 +24,7 @@ import {
   type SearchResult,
   search,
 } from "~/services/search";
+import PageWrapper from "~/components/Page";
 
 export interface SubHeading {
   title: string;
@@ -549,23 +550,25 @@ export default function MoreScreen() {
     }
 
     return (
-      <FlatList
-        data={topLevelDocs}
-        keyExtractor={(doc) => doc.id}
-        renderItem={({ item: doc }) => (
-          <TreeItem
-            doc={doc}
-            level={0}
-            expanded={expanded}
-            toggleExpand={toggleExpand}
-            searchHighlight={searchQuery}
-            currentPathname={pathname}
-            loadingIds={loadingIds}
-            childrenMap={childrenMap}
-          />
-        )}
-        contentContainerStyle={{ paddingVertical: 8 }}
-      />
+      <PageWrapper>
+        <FlatList
+          data={topLevelDocs}
+          keyExtractor={(doc) => doc.id}
+          renderItem={({ item: doc }) => (
+            <TreeItem
+              doc={doc}
+              level={0}
+              expanded={expanded}
+              toggleExpand={toggleExpand}
+              searchHighlight={searchQuery}
+              currentPathname={pathname}
+              loadingIds={loadingIds}
+              childrenMap={childrenMap}
+            />
+          )}
+          contentContainerStyle={{ paddingVertical: 8 }}
+        />
+      </PageWrapper>
     );
   };
 

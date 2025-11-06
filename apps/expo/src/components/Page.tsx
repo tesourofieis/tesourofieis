@@ -59,11 +59,9 @@ export default function PageWrapper({ children }: PageWrapperProps) {
 
   return (
     <PageProvider>
-      <View className="flex-1 dark:bg-sepia-900 bg-sepia-100">
-        <GestureScrollView scrollEnabled ref={scrollViewRef}>
-          {scrollContent}
-        </GestureScrollView>
-      </View>
+      <GestureScrollView scrollEnabled ref={scrollViewRef}>
+        {scrollContent}
+      </GestureScrollView>
     </PageProvider>
   );
 }

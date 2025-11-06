@@ -74,6 +74,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       projectId: "22ae55e2-5e39-4f06-ad1a-3f96776bdc75",
     },
   },
+  androidNavigationBar: {
+    visible: "immersive",
+  },
   experiments: {
     tsconfigPaths: true,
     typedRoutes: true,

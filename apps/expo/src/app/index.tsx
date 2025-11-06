@@ -33,7 +33,7 @@ export default function PageRender() {
   const currentPrayer = getPrayer(date);
 
   return (
-    <ScrollView>
+    <ScrollView className="flex-1 bg-sepia-100 dark:bg-sepia-900">
       <View className="bg-sepia-300 dark:bg-sepia-700">
         <Typography className="font-serif text-sm p-3 text-center text-sepia">
           Em Portugal se conservará sempre o dogma da fé - Nossa Senhora de

@@ -6,12 +6,11 @@ import { DMSerifDisplay_400Regular_Italic } from "@expo-google-fonts/dm-serif-di
 import { DMSerifText_400Regular } from "@expo-google-fonts/dm-serif-text/400Regular";
 import { DMSerifText_400Regular_Italic } from "@expo-google-fonts/dm-serif-text/400Regular_Italic";
 import { useFonts } from "expo-font";
-import { useColorScheme } from "nativewind";
+import { useColorScheme } from "react-native";
 import { useEffect } from "react";
 import "../global.css";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import { DefaultTheme, ThemeProvider } from "@react-navigation/native";
-import { Stack, usePathname, useRouter } from "expo-router";
+import { useNavigation, usePathname, useRouter } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { Platform, Pressable, View } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
@@ -20,7 +19,15 @@ import { burgundy } from "config";
 import { FontProvider } from "~/providers/fonts";
 import { UpdateProvider, useUpdate } from "~/providers/update";
 import { Update } from "~/components/Update";
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
+import {
+  DrawerContentScrollView,
+  DrawerItemList,
+} from "@react-navigation/drawer";
+import Drawer from "expo-router/drawer";
+import { CalendarProvider } from "~/providers/calendar";
+import { SettingsProvider } from "~/providers/settings";
 
 SplashScreen.preventAutoHideAsync();
 SplashScreen.setOptions({
@@ -70,57 +77,67 @@ export default function PageRootLayout() {
   return (
     <UpdateProvider>
       <FontProvider>
-        {Platform.OS === "web" ? (
-          <RootLayoutNav />
-        ) : (
-          <GestureHandlerRootView style={{ flex: 1 }}>
+        <SafeAreaProvider>
+          {Platform.OS === "web" ? (
             <RootLayoutNav />
-          </GestureHandlerRootView>
-        )}
+          ) : (
+            <GestureHandlerRootView style={{ flex: 1 }}>
+              <RootLayoutNav />
+            </GestureHandlerRootView>
+          )}
+        </SafeAreaProvider>
       </FontProvider>
     </UpdateProvider>
   );
 }
 
 function RootLayoutNav() {
-  const { colorScheme } = useColorScheme();
+  const colorScheme = useColorScheme();
   const isDarkMode = colorScheme === "dark";
 
-  const CustomLightTheme = {
-    ...DefaultTheme,
-    dark: false,
-    colors: {
-      primary: COLORS["100"],
-      background: COLORS["50"],
-      card: COLORS["300"],
-      text: COLORS["900"],
-      border: COLORS["300"],
-      notification: COLORS["500"],
-    },
-  };
-
-  const CustomDarkTheme = {
-    ...DefaultTheme,
-    dark: true,
-    colors: {
-      primary: COLORS["800"],
-      background: COLORS["900"],
-      card: COLORS["700"],
-      text: COLORS["100"],
-      border: COLORS["700"],
-      notification: COLORS["500"],
-    },
-  };
-
   return (
-    <ThemeProvider value={isDarkMode ? CustomDarkTheme : CustomLightTheme}>
+    <SafeAreaView
+      style={{
+        flex: 1,
+        backgroundColor: isDarkMode ? COLORS["900"] : COLORS["100"],
+      }}
+    >
+      <UpdateAwareDrawer />
       <StatusBar hidden />
-      <UpdateAwareStack />
-    </ThemeProvider>
+    </SafeAreaView>
   );
 }
 
-function UpdateAwareStack() {
+function CustomDrawerContent(props: any) {
+  const router = useRouter();
+  return (
+    <View style={{ flex: 1 }}>
+      <View style={{ paddingTop: 20, paddingLeft: 30 }}>
+        <View className="flex-row items-center gap-3">
+          <Pressable
+            className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
+            onPress={() => router.navigate("/")}
+          >
+            <FontAwesome6 name="book-bible" size={15} color={burgundy[500]} />
+          </Pressable>
+          <Typography className="text-pretty text-sepia-800 dark:text-sepia-200 font-serif-bold">
+            Tesouro dos Fiéis
+          </Typography>
+        </View>
+      </View>
+      <DrawerContentScrollView
+        {...props}
+        contentContainerStyle={{ paddingTop: 20 }}
+      >
+        <DrawerItemList {...props} />
+      </DrawerContentScrollView>
+    </View>
+  );
+}
+
+function UpdateAwareDrawer() {
+  const colorScheme = useColorScheme();
+  const isDarkMode = colorScheme === "dark";
   const { updateState } = useUpdate();
 
   if (updateState !== "idle") {
@@ -128,49 +145,160 @@ function UpdateAwareStack() {
   }
 
   return (
-    <Stack>
-      <Stack.Screen
-        name="(tabs)"
-        options={{
-          header: () => <Header withBC={false} />,
-        }}
-      />
-      <Stack.Screen
-        name="missal"
-        options={{
-          animation: "simple_push",
-          header: () => <Header withBC={true} />,
-        }}
-      />
-      <Stack.Screen
-        name="devocionario"
-        options={{
-          animation: "simple_push",
-          header: () => <Header withBC={true} />,
-        }}
-      />
-      <Stack.Screen
-        name="ritual"
-        options={{
-          animation: "simple_push",
-          header: () => <Header withBC={true} />,
-        }}
-      />
-      <Stack.Screen
-        name="fe"
-        options={{
-          animation: "simple_push",
-          header: () => <Header withBC={true} />,
-        }}
-      />
-      <Stack.Screen
-        name="canticos"
-        options={{
-          animation: "simple_push",
-          header: () => <Header withBC={true} />,
-        }}
-      />
-    </Stack>
+    <CalendarProvider>
+      <SettingsProvider>
+        <Drawer
+          drawerContent={(props) => <CustomDrawerContent {...props} />}
+          screenOptions={{
+            headerShown: true,
+            header: ({ route }) => {
+              const isRootScreen = [
+                "index",
+                "calendario",
+                "more",
+                "ordo",
+                "configurar",
+              ].includes(route.name);
+              return <Header withBC={!isRootScreen} />;
+            },
+            headerStyle: {
+              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+            },
+            drawerInactiveTintColor: isDarkMode ? COLORS["200"] : COLORS["800"],
+            drawerActiveTintColor: isDarkMode ? burgundy["300"] : COLORS["700"],
+            drawerStyle: {
+              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+            },
+
+            drawerLabelStyle: {
+              fontFamily: "DMSerifText_400Regular",
+            },
+          }}
+        >
+          <Drawer.Screen
+            name="index"
+            options={{
+              title: "Início",
+              drawerIcon: () => (
+                <FontAwesome6
+                  name="landmark"
+                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
+                />
+              ),
+            }}
+          />
+          <Drawer.Screen
+            name="ordo"
+            options={{
+              title: "Ordo",
+              drawerIcon: () => (
+                <FontAwesome6
+                  name="church"
+                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
+                />
+              ),
+            }}
+          />
+          <Drawer.Screen
+            name="calendario"
+            options={{
+              title: "Calendário",
+              drawerIcon: () => (
+                <FontAwesome6
+                  name="calendar-days"
+                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
+                />
+              ),
+            }}
+          />
+          <Drawer.Screen
+            name="more"
+            options={{
+              title: "Procura",
+              drawerIcon: () => (
+                <FontAwesome6
+                  name="table-list"
+                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
+                />
+              ),
+            }}
+          />
+
+          <Drawer.Screen
+            name="missal"
+            options={{
+              title: "Missal",
+              drawerIcon: () => (
+                <FontAwesome6
+                  name="table-list"
+                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
+                />
+              ),
+            }}
+          />
+          <Drawer.Screen
+            name="devocionario"
+            options={{
+              title: "Devocionário",
+              drawerIcon: () => (
+                <FontAwesome6
+                  name="table-list"
+                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
+                />
+              ),
+            }}
+          />
+          <Drawer.Screen
+            name="ritual"
+            options={{
+              title: "Ritual",
+              drawerIcon: () => (
+                <FontAwesome6
+                  name="table-list"
+                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
+                />
+              ),
+            }}
+          />
+          <Drawer.Screen
+            name="fe"
+            options={{
+              title: "Fé",
+              drawerIcon: () => (
+                <FontAwesome6
+                  name="table-list"
+                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
+                />
+              ),
+            }}
+          />
+          <Drawer.Screen
+            name="canticos"
+            options={{
+              title: "Cânticos",
+              drawerIcon: () => (
+                <FontAwesome6
+                  name="table-list"
+                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
+                />
+              ),
+            }}
+          />
+          <Drawer.Screen
+            name="configurar"
+            options={{
+              title: "Configurar",
+              drawerIcon: () => (
+                <FontAwesome6
+                  name="gears"
+                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
+                />
+              ),
+            }}
+          />
+        </Drawer>
+      </SettingsProvider>
+    </CalendarProvider>
   );
 }
 
@@ -233,33 +361,35 @@ const Breadcrumbs = () => {
   );
 };
 
-const Header = ({ withBC }: { withBC: boolean }) => {
+export const Header = ({ withBC }: { withBC: boolean }) => {
   const router = useRouter();
-  const { colorScheme } = useColorScheme();
-  const isDarkMode = colorScheme === "dark";
+  const navigation = useNavigation();
 
   if (withBC) {
     return (
-      <View className="flex-row items-center justify-between px-2 py-3 gap-2 bg-sepia-200 dark:bg-sepia-800 w-full border-b">
-        <View className="flex-row flex-1 items-center justify-between">
+      <View className="flex-row items-center justify-between p-3 gap-2 bg-sepia-200 dark:bg-sepia-800 w-full border-b border-sepia">
+        <View className="flex-row items-center justify-between">
           <View className="flex-row gap-4 flex-1 items-center">
             <Pressable
-              className="rounded-full h-10 w-10 p-2 shadow-sm bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
+              className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
               onPress={() => router.back()}
             >
-              <FontAwesome6 name="chevron-left" color={burgundy[500]} />
+              <FontAwesome6
+                name="chevron-left"
+                size={10}
+                color={burgundy[500]}
+              />
             </Pressable>
             <Breadcrumbs />
           </View>
-
           <Pressable
-            onPress={() => router.navigate("/more")}
-            className="p-2 items-center border rounded-xl border-sepia-700 dark:border-sepia-200 active:bg-sepia-200 dark:active:bg-sepia-700"
+            onPress={() => router.push("/more")}
+            className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
           >
             <FontAwesome6
               name="magnifying-glass"
-              size={15}
-              color={isDarkMode ? COLORS["300"] : COLORS["700"]}
+              size={10}
+              color={burgundy[500]}
             />
           </Pressable>
         </View>
@@ -268,17 +398,25 @@ const Header = ({ withBC }: { withBC: boolean }) => {
   }
 
   return (
-    <View className="flex-row items-center justify-between px-2 py-1 gap-2 bg-sepia-200 dark:bg-sepia-800 w-full border-b">
+    <View className="flex-row items-center justify-between p-3 gap-2 bg-sepia-200 dark:bg-sepia-800 w-full border-b border-sepia">
       <Pressable
-        onPress={() => router.navigate("/")}
-        className="rounded-full p-2 bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
+        className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
+        onPress={() => navigation.openDrawer()}
       >
-        <View className="flex-row items-center">
-          <FontAwesome6 name="book-bible" size={25} color={burgundy[500]} />
-          <Typography className="h5 ml-3 text-sepia-800 dark:text-sepia-200 font-serif">
-            Tesouro dos Fiéis
-          </Typography>
-        </View>
+        <FontAwesome6 name="bars" size={10} color={burgundy[500]} />
+      </Pressable>
+
+      <Pressable
+        className="p-2 items-center rounded-xl active:bg-sepia-300 dark:active:bg-sepia-800 bg-sepia-200 dark:bg-sepia-800"
+        onPress={() => router.navigate("/")}
+      >
+        <FontAwesome6 name="book-bible" size={15} color={burgundy[500]} />
+      </Pressable>
+      <Pressable
+        onPress={() => router.push("/more")}
+        className="p-2 items-center rounded-xl active:bg-sepia-100 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
+      >
+        <FontAwesome6 name="magnifying-glass" size={10} color={burgundy[500]} />
       </Pressable>
     </View>
   );
