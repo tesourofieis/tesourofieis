@@ -161,7 +161,7 @@ export default function ExternalLinks() {
                         accessibilityRole="button"
                         accessibilityLabel={`Copiar ${link.name}`}
                       >
-                        <View className="flex-row gap-2 items-center text-xs text-sepia bg-sepia-900 dark:bg-sepia-100 rounded-xl p-1 pr-1 ml-2">
+                        <View className="flex-row gap-2 items-center text-xs text-sepia bg-sepia-200 dark:bg-sepia-900 rounded-xl p-1 pr-1 ml-2">
                           <Typography
                             className="p-1 font-mono text-xs"
                             numberOfLines={1}

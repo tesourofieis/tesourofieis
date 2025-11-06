@@ -13,11 +13,9 @@ export default function PageComminhamaeestarei() {
           Com minha Mãe estarei na santa glória um dia; junto à Virgem Maria, no
           Céu triunfarei.
         </Typography>
-        <Typography className="vernacular">{"\n"}</Typography>
         <Typography className="vernacular">
           Refrão: No Céu, no Céu, com minha Mãe estarei. (2x)
         </Typography>
-        <Typography className="vernacular">{"\n"}</Typography>
         <Typography className="vernacular">
           Com minha Mãe estarei; mas já que hei ofendido a seu Jesus querido, as
           culpas chorarei.

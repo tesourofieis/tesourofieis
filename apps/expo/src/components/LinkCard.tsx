@@ -51,73 +51,114 @@ export default function PageLinkCard({
 }) {
   if (oratio) {
     return (
-      // @ts-ignore
-      <Link href={oratio.link} asChild>
+      <View>
         {/* @ts-ignore */}
+        <Link href={oratio.link} asChild>
+          <Pressable>
+            {({ pressed }) => (
+              <View className={cardBase(pressed)}>
+                <View className="flex flex-row justify-between items-center gap-1 mr-2">
+                  <View className="flex-1">
+                    <View className="flex flex-row">
+                      <Typography className="text-pretty text-sm text-sepia-600 dark:text-sepia-200">
+                        {description || ""}
+                      </Typography>
+                    </View>
+
+                    <View className="flex flex-row items-center gap-2">
+                      <Typography className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
+                        {oratio.name || ""}
+                      </Typography>
+                    </View>
+                  </View>
+
+                  <FontAwesome
+                    name="chevron-right"
+                    size={16}
+                    color={pressed ? COLORS[600] : COLORS[500]}
+                  />
+                </View>
+              </View>
+            )}
+          </Pressable>
+        </Link>
+      </View>
+    );
+  }
+
+  if (mass) {
+    return (
+      <View>
+        {/* @ts-ignore */}
+        <Link href={mass.link} asChild>
+          <Pressable>
+            {({ pressed }) => (
+              <View className={cardBase(pressed)}>
+                <View className="flex flex-row justify-between items-center gap-1 mr-2">
+                  <View className="flex-1">
+                    <View className="px-3 flex flex-row items-center gap-2">
+                      <FontAwesome name="circle" color={getColor(mass.color)} />
+                      <Typography className="font-serif text-sm text-sepia-600 dark:text-sepia-200">
+                        {description || "Missa"}
+                      </Typography>
+                      <Typography className="text-sepia">|</Typography>
+
+                      <Typography className="font-serif text-sm text-sepia-700 dark:text-sepia-200">
+                        Classe: {mass.rank}
+                      </Typography>
+                    </View>
+
+                    <Typography className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
+                      {mass.name || ""}
+                    </Typography>
+
+                    {mass.local && (
+                      <View className="flex-row items-center gap-2">
+                        <FontAwesome name="map" color={COLORS[500]} />
+                        <Typography className="text-pretty text-sepia-500">
+                          Local: {String(mass.local).toUpperCase()}
+                        </Typography>
+                      </View>
+                    )}
+                  </View>
+
+                  <FontAwesome
+                    name={hasChildren ? "chevron-down" : "chevron-right"}
+                    size={16}
+                    color={pressed ? COLORS[600] : COLORS[500]}
+                  />
+                </View>
+              </View>
+            )}
+          </Pressable>
+        </Link>
+      </View>
+    );
+  }
+
+  return (
+    <View>
+      {/* @ts-ignore */}
+      <Link href={href ?? "/"} asChild>
         <Pressable>
           {({ pressed }) => (
             <View className={cardBase(pressed)}>
               <View className="flex flex-row justify-between items-center gap-1 mr-2">
                 <View className="flex-1">
                   <View className="flex flex-row">
-                    <Typography className="text-pretty text-sm text-sepia-600 dark:text-sepia-200">
+                    <Typography
+                      className="text-pretty text-xs text-sepia-600 dark:text-sepia-200"
+                      numberOfLines={1}
+                    >
                       {description || ""}
                     </Typography>
                   </View>
 
                   <View className="flex flex-row items-center gap-2">
                     <Typography className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
-                      {oratio.name || ""}
+                      {title || ""}
                     </Typography>
                   </View>
-                </View>
-
-                <FontAwesome
-                  name="chevron-right"
-                  size={16}
-                  color={pressed ? COLORS[600] : COLORS[500]}
-                />
-              </View>
-            </View>
-          )}
-        </Pressable>
-      </Link>
-    );
-  }
-
-  if (mass) {
-    return (
-      // @ts-ignore
-      <Link href={mass.link} asChild>
-        <Pressable>
-          {({ pressed }) => (
-            <View className={cardBase(pressed)}>
-              <View className="flex flex-row justify-between items-center gap-1 mr-2">
-                <View className="flex-1">
-                  <View className="px-3 flex flex-row items-center gap-2">
-                    <FontAwesome name="circle" color={getColor(mass.color)} />
-                    <Typography className="font-serif text-sm text-sepia-600 dark:text-sepia-200">
-                      {description || "Missa"}
-                    </Typography>
-                    <Typography className="text-sepia">|</Typography>
-
-                    <Typography className="font-serif text-sm text-sepia-700 dark:text-sepia-200">
-                      Classe: {mass.rank}
-                    </Typography>
-                  </View>
-
-                  <Typography className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
-                    {mass.name || ""}
-                  </Typography>
-
-                  {mass.local && (
-                    <View className="flex-row items-center gap-2">
-                      <FontAwesome name="map" color={COLORS[500]} />
-                      <Typography className="text-pretty text-sepia-500">
-                        Local: {String(mass.local).toUpperCase()}
-                      </Typography>
-                    </View>
-                  )}
                 </View>
 
                 <FontAwesome
@@ -130,43 +171,6 @@ export default function PageLinkCard({
           )}
         </Pressable>
       </Link>
-    );
-  }
-
-  return (
-    // @ts-ignore
-    <Link href={href ?? "/"} asChild>
-      {/* @ts-ignore */}
-      <Pressable>
-        {({ pressed }) => (
-          <View className={cardBase(pressed)}>
-            <View className="flex flex-row justify-between items-center gap-1 mr-2">
-              <View className="flex-1">
-                <View className="flex flex-row">
-                  <Typography
-                    className="text-pretty text-xs text-sepia-600 dark:text-sepia-200"
-                    numberOfLines={1}
-                  >
-                    {description || ""}
-                  </Typography>
-                </View>
-
-                <View className="flex flex-row items-center gap-2">
-                  <Typography className="text-pretty text-lg text-sepia-600 dark:text-sepia-300">
-                    {title || ""}
-                  </Typography>
-                </View>
-              </View>
-
-              <FontAwesome
-                name={hasChildren ? "chevron-down" : "chevron-right"}
-                size={16}
-                color={pressed ? COLORS[600] : COLORS[500]}
-              />
-            </View>
-          </View>
-        )}
-      </Pressable>
-    </Link>
+    </View>
   );
 }

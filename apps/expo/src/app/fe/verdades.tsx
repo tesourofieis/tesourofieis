@@ -119,7 +119,9 @@ export default function PageVerdades() {
         <Typography className="li list-group-item">
           1 de Janeiro - Circuncisão do Senhor
         </Typography>
-        <Typography className="li list-group-item">6 de Janeiro - Epifania</Typography>
+        <Typography className="li list-group-item">
+          6 de Janeiro - Epifania
+        </Typography>
         <Typography className="li list-group-item">
           19 de Março - Solenidade de São José
         </Typography>
@@ -142,7 +144,9 @@ export default function PageVerdades() {
         <Typography className="li list-group-item">
           8 de Dezembro - Imaculada Conceição de Maria
         </Typography>
-        <Typography className="li list-group-item">25 de Dezembro - Natal</Typography>
+        <Typography className="li list-group-item">
+          25 de Dezembro - Natal
+        </Typography>
       </View>
       <H2 text="Trabalhos de Misericórdia" />
       <Language>

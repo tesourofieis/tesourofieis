@@ -3,7 +3,6 @@ import type React from "react";
 import { useEffect, useRef } from "react";
 import { Platform, View } from "react-native";
 import { ScrollView as GestureScrollView } from "react-native-gesture-handler";
-import { SafeAreaView } from "react-native-safe-area-context";
 import { PageProvider, useIsNested } from "~/providers/page";
 
 type PageWrapperProps = {
@@ -60,11 +59,11 @@ export default function PageWrapper({ children }: PageWrapperProps) {
 
   return (
     <PageProvider>
-      <SafeAreaView className="flex-1 dark:bg-sepia-900 bg-sepia-100">
+      <View className="flex-1 dark:bg-sepia-900 bg-sepia-100">
         <GestureScrollView scrollEnabled ref={scrollViewRef}>
           {scrollContent}
         </GestureScrollView>
-      </SafeAreaView>
+      </View>
     </PageProvider>
   );
 }

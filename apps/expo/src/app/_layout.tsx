@@ -20,7 +20,6 @@ import { burgundy } from "config";
 import { FontProvider } from "~/providers/fonts";
 import { UpdateProvider, useUpdate } from "~/providers/update";
 import { Update } from "~/components/Update";
-import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
 
 SplashScreen.preventAutoHideAsync();
@@ -71,15 +70,13 @@ export default function PageRootLayout() {
   return (
     <UpdateProvider>
       <FontProvider>
-        <SafeAreaProvider>
-          {Platform.OS === "web" ? (
+        {Platform.OS === "web" ? (
+          <RootLayoutNav />
+        ) : (
+          <GestureHandlerRootView style={{ flex: 1 }}>
             <RootLayoutNav />
-          ) : (
-            <GestureHandlerRootView style={{ flex: 1 }}>
-              <RootLayoutNav />
-            </GestureHandlerRootView>
-          )}
-        </SafeAreaProvider>
+          </GestureHandlerRootView>
+        )}
       </FontProvider>
     </UpdateProvider>
   );
@@ -117,7 +114,7 @@ function RootLayoutNav() {
 
   return (
     <ThemeProvider value={isDarkMode ? CustomDarkTheme : CustomLightTheme}>
-      <StatusBar backgroundColor={isDarkMode ? COLORS["800"] : COLORS["200"]} />
+      <StatusBar hidden />
       <UpdateAwareStack />
     </ThemeProvider>
   );
@@ -213,7 +210,7 @@ const Breadcrumbs = () => {
           )}
 
           {index === segments.length - 1 ? (
-            <Typography className="font-italic text-xs text-red-500">
+            <Typography className="font-italic text-sm text-red-500">
               {formatSegmentName(segment)}
             </Typography>
           ) : (
@@ -225,7 +222,7 @@ const Breadcrumbs = () => {
                 )
               }
             >
-              <Typography className="font-italic text-xs text-sepia-600 dark:text-sepia-400 underline">
+              <Typography className="font-italic text-sm text-sepia-600 dark:text-sepia-400 underline">
                 {formatSegmentName(segment)}
               </Typography>
             </Pressable>
@@ -243,72 +240,46 @@ const Header = ({ withBC }: { withBC: boolean }) => {
 
   if (withBC) {
     return (
-      <SafeAreaView edges={["top"]}>
-        <View className="flex-row items-center justify-between px-2 py-3 gap-2 bg-sepia-200 dark:bg-sepia-800 w-full border-b">
-          <View className="flex-row gap-1 flex-1 items-center justify-between">
-            <View className="flex-row gap-1 flex-1 items-center">
-              <Pressable
-                onPress={() => router.navigate("/")}
-                className="rounded-full p-2 shadow-sm bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
-              >
-                <View className="flex-row items-center">
-                  <FontAwesome6
-                    name={withBC ? "landmark" : "book-bible"}
-                    size={withBC ? 15 : 25}
-                    color={burgundy[500]}
-                  />
-                  {!withBC && (
-                    <Typography className="h5 ml-3 text-sepia-800 dark:text-sepia-200 font-serif">
-                      Tesouro dos Fiéis
-                    </Typography>
-                  )}
-                </View>
-              </Pressable>
-
-              <Pressable
-                className="rounded-full p-2 shadow-sm bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
-                onPress={() => router.back()}
-              >
-                <FontAwesome6
-                  name="chevron-left"
-                  size={15}
-                  color={burgundy[500]}
-                />
-              </Pressable>
-              <Breadcrumbs />
-            </View>
-
+      <View className="flex-row items-center justify-between px-2 py-3 gap-2 bg-sepia-200 dark:bg-sepia-800 w-full border-b">
+        <View className="flex-row flex-1 items-center justify-between">
+          <View className="flex-row gap-4 flex-1 items-center">
             <Pressable
-              onPress={() => router.navigate("/more")}
-              className="p-2 items-center border rounded-xl border-sepia-700 dark:border-sepia-200 active:bg-sepia-200 dark:active:bg-sepia-700"
+              className="rounded-full h-10 w-10 p-2 shadow-sm bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
+              onPress={() => router.back()}
             >
-              <FontAwesome6
-                name="magnifying-glass"
-                size={15}
-                color={isDarkMode ? COLORS["300"] : COLORS["700"]}
-              />
+              <FontAwesome6 name="chevron-left" color={burgundy[500]} />
             </Pressable>
+            <Breadcrumbs />
           </View>
+
+          <Pressable
+            onPress={() => router.navigate("/more")}
+            className="p-2 items-center border rounded-xl border-sepia-700 dark:border-sepia-200 active:bg-sepia-200 dark:active:bg-sepia-700"
+          >
+            <FontAwesome6
+              name="magnifying-glass"
+              size={15}
+              color={isDarkMode ? COLORS["300"] : COLORS["700"]}
+            />
+          </Pressable>
         </View>
-      </SafeAreaView>
+      </View>
     );
   }
 
   return (
-    <SafeAreaView edges={["top"]}>
-      <View className="flex-row items-center justify-between px-2 py-1 gap-2 bg-sepia-200 dark:bg-sepia-800 w-full border-b">
-        <Pressable
-          onPress={() => router.navigate("/")}
-          className="rounded-full p-2 bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
-        >
-          <View className="flex-row items-center">
-            <FontAwesome6 name="book-bible" size={25} color={burgundy[500]} />
-            <Typography className="h5 ml-3 text-sepia-800 dark:text-sepia-200 font-serif">
-              Tesouro dos Fiéis
-            </Typography>
-          </View>
-        </Pressable>
-      </View>
-    </SafeAreaView>
+    <View className="flex-row items-center justify-between px-2 py-1 gap-2 bg-sepia-200 dark:bg-sepia-800 w-full border-b">
+      <Pressable
+        onPress={() => router.navigate("/")}
+        className="rounded-full p-2 bg-sepia-200 dark:bg-sepia-800 active:bg-sepia-100 dark:active:bg-sepia-700"
+      >
+        <View className="flex-row items-center">
+          <FontAwesome6 name="book-bible" size={25} color={burgundy[500]} />
+          <Typography className="h5 ml-3 text-sepia-800 dark:text-sepia-200 font-serif">
+            Tesouro dos Fiéis
+          </Typography>
+        </View>
+      </Pressable>
+    </View>
   );
 };

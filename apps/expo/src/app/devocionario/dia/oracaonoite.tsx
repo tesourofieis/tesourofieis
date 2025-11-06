@@ -16,49 +16,52 @@ export default function PageOracaonoite() {
       <H1 text="Oração da Noite" />
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Convérte nos, Deus, salutáris
-          noster.
+          <Typography className="versicle"> ℣. </Typography>Convérte nos, Deus,
+          salutáris noster.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Convertei-nos, ó Deus nosso
-          Salvador.
+          <Typography className="versicle"> ℣. </Typography>Convertei-nos, ó
+          Deus nosso Salvador.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et avérte iram tuam a nobis.
+          <Typography className="response"> ℟. </Typography> Et avérte iram tuam
+          a nobis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E afastai de nós a vossa ira.
+          <Typography className="response"> ℟. </Typography> E afastai de nós a
+          vossa ira.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Deus, in adjutórium meum
-          inténde.
+          <Typography className="versicle"> ℣. </Typography>Deus, in adjutórium
+          meum inténde.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Deus, vinde em nosso auxílio.
+          <Typography className="versicle"> ℣. </Typography>Deus, vinde em nosso
+          auxílio.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Dómine, ad adjuvándum me
-          festína.
+          <Typography className="response"> ℟. </Typography> Dómine, ad
+          adjuvándum me festína.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Senhor, socorrei-nos e
-          salvai-nos.
+          <Typography className="response"> ℟. </Typography> Senhor,
+          socorrei-nos e salvai-nos.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Glória Patri, et Fílio, et
-          Spirítui Sancto.
+          <Typography className="versicle"> ℣. </Typography>Glória Patri, et
+          Fílio, et Spirítui Sancto.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Glória ao Pai, e ao Filho e ao
-          Espírito Santo.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai, e ao
+          Filho e ao Espírito Santo.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Sicut erat in princípio, et
-          nunc, et semper, et in sǽcula sæculórum. Amen.
+          <Typography className="response"> ℟. </Typography> Sicut erat in
+          princípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Assim como era no princípio,
-          agora e sempre, e por todos os séculos dos séculos. Amen.
+          <Typography className="response"> ℟. </Typography> Assim como era no
+          princípio, agora e sempre, e por todos os séculos dos séculos. Amen.
         </Typography>
       </Language>
       <H2 text="Veni, Sancte Spíritus" />
@@ -72,18 +75,20 @@ export default function PageOracaonoite() {
           neles o fogo do vosso amor.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Emitte Spíritum tuum, et
-          creabúntur.
+          <Typography className="versicle"> ℣. </Typography>Emitte Spíritum
+          tuum, et creabúntur.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Enviai o vosso Espírito e tudo
-          será criado.
+          <Typography className="versicle"> ℣. </Typography>Enviai o vosso
+          Espírito e tudo será criado.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et renovábis faciem terræ.
+          <Typography className="response"> ℟. </Typography> Et renovábis faciem
+          terræ.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E renovareis a face da terra.
+          <Typography className="response"> ℟. </Typography> E renovareis a face
+          da terra.
         </Typography>
       </Language>
       <H3 text="Breve lição:" />
@@ -104,20 +109,35 @@ export default function PageOracaonoite() {
         graça esteja sempre comigo e com os que me são caros.
       </Typography>
       <Typography className="aside">
-        <Typography className="vernacular">Em seguida rezar:</Typography>
-        <Link className="link" href="/devocionario/oracoes/painosso">
+        <Typography className="vernacular">Em seguida rezar: </Typography>
+        <Link
+          style={{ textDecorationLine: "underline" }}
+          href="/devocionario/oracoes/painosso"
+        >
           Pai Nosso,
         </Link>{" "}
-        <Link className="link" href="/devocionario/oracoes/avemaria">
+        <Link
+          style={{ textDecorationLine: "underline" }}
+          href="/devocionario/oracoes/avemaria"
+        >
           Ave Maria,
         </Link>{" "}
-        <Link className="link" href="/devocionario/oracoes/gloria">
+        <Link
+          style={{ textDecorationLine: "underline" }}
+          href="/devocionario/oracoes/gloria"
+        >
           Glória,
         </Link>{" "}
-        <Link className="link" href="/devocionario/oracoes/simboloapostolos">
+        <Link
+          style={{ textDecorationLine: "underline" }}
+          href="/devocionario/oracoes/simboloapostolos"
+        >
           Símbolo dos Apóstolos,
         </Link>{" "}
-        <Link className="link" href="/devocionario/oracoes/confesso">
+        <Link
+          style={{ textDecorationLine: "underline" }}
+          href="/devocionario/oracoes/confesso"
+        >
           Confesso
         </Link>{" "}
         . Depois o Hino:
@@ -126,17 +146,36 @@ export default function PageOracaonoite() {
       <TeLucis />
       <Typography className="aside">
         Examina que pecados cometeste neste dia, por pensamentos, palavras,
-        actos ou omissões. Depois diz o Acto de Fé, de Esperança, de Caridade e
-        de Contrição.
+        actos ou omissões. Depois diz o{" "}
+        <Link
+          style={{ textDecorationLine: "underline" }}
+          href="/devocionario/oracoes/actofe"
+        >
+          Acto de Fé
+        </Link>
+        {", "}
+        <Link
+          style={{ textDecorationLine: "underline" }}
+          href="/devocionario/oracoes/actoesperanca"
+        >
+          de Esperança
+        </Link>
+        {", "}
+        <Link
+          style={{ textDecorationLine: "underline" }}
+          href="/devocionario/oracoes/actocaridade"
+        >
+          de Caridade
+        </Link>
+        {" e "}
+        <Link
+          style={{ textDecorationLine: "underline" }}
+          href="/devocionario/oracoes/actocontricao"
+        >
+          de Contrição
+        </Link>
+        {"."}
       </Typography>
-      <H2 text="Acto de Fé" />
-      <ActoFe />
-      <H2 text="Acto de Esperança" />
-      <ActoEsperanca />
-      <H2 text="Acto de Caridade" />
-      <ActoCaridade />
-      <H2 text="Acto de Contrição" />
-      <ActoContricao />
       <Typography className="vernacular">
         Vos ofereço, Senhor minha vida, obras, e trabalhos em satisfação de
         todos meus pecados e assim como Vos suplico, assim confio em vossa
@@ -151,19 +190,26 @@ export default function PageOracaonoite() {
         Visitai esta morada, Senhor, Vos suplicamos, e dignai-Vos afastar para
         bem longe dela todas as insídias do inimigo; que os vossos Anjos nela
         habitem para nos conservarem na paz, e que a vossa bênção nos guarde
-        sempre. Deus Pai, abençoai-nos; Jesus Cristo, defendei e guardai-nos;
-        Espírito Santo, iluminai e santificai-nos esta noite e para sempre; e às
-        almas dos fiéis falecidos, dai-lhes, Senhor, o eterno descanso entre os
-        esplendores da luz eterna. Que descansem em paz. Santo Anjo do Senhor,
-        meu zeloso guardador, pois que a ti me confiou a Piedade divina: hoje e
-        sempre me governa, rege, guarda e ilumina. Protegei-me à sombra das
-        vossas asas e abençoai, Senhor, o meu repouso a fim de que renove as
-        minhas forças, para melhor Vos servir e amar.
+        sempre.
+      </Typography>
+      <Typography className="vernacular">
+        Deus Pai, abençoai-nos; Jesus Cristo, defendei e guardai-nos; Espírito
+        Santo, iluminai e santificai-nos esta noite e para sempre; e às almas
+        dos fiéis falecidos, dai-lhes, Senhor, o eterno descanso entre os
+        esplendores da luz eterna. Que descansem em paz.
+      </Typography>
+      <Typography className="vernacular">
+        Santo Anjo do Senhor, meu zeloso guardador, pois que a ti me confiou a
+        Piedade divina: hoje e sempre me governa, rege, guarda e ilumina.
+      </Typography>
+      <Typography className="vernacular">
+        Protegei-me à sombra das vossas asas e abençoai, Senhor, o meu repouso a
+        fim de que renove as minhas forças, para melhor Vos servir e amar.
       </Typography>
       <Typography className="vernacular">
         E que a paz e a bênção de Deus Todo-Poderoso, Pai, Filho
-        <Typography className="cross"> ✠ </Typography> e Espírito Santo, desça sobre nós e
-        permaneça para sempre connosco. Amen.
+        <Typography className="cross"> ✠ </Typography> e Espírito Santo, desça
+        sobre nós e permaneça para sempre connosco. Amen.
       </Typography>
     </PageWrapper>
   );

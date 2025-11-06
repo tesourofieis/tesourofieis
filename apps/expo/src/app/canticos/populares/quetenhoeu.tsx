@@ -14,7 +14,6 @@ export default function PageQuetenhoeu() {
           sacerdote elevam no altar? A não ser esta imensa, esta infinita pena,
           De nada ter p'ra dar.
         </Typography>
-        <Typography className="vernacular">{"\n"}</Typography>
         <Typography className="vernacular">
           Refrão: Tomai e recebei, as horas do meu dia Alegrias e dores, penas e
           trabalhos. Fora eu rico, Senhor, e muito Vos daria, Mas sei que nada
