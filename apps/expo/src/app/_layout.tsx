@@ -151,6 +151,7 @@ function UpdateAwareDrawer() {
           drawerContent={(props) => <CustomDrawerContent {...props} />}
           screenOptions={{
             headerShown: true,
+            freezeOnBlur: true,
             header: ({ route }) => {
               const isRootScreen = [
                 "index",
@@ -346,7 +347,7 @@ const Breadcrumbs = () => {
               className="rounded px-1 py-0.5 active:bg-sepia-200 dark:active:bg-sepia-800"
               onPress={() =>
                 handleBreadcrumbPress(
-                  `/${segments.slice(0, index + 1).join("/")}`
+                  `/${segments.slice(0, index + 1).join("/")}`,
                 )
               }
             >
