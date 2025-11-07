@@ -54,8 +54,9 @@
   --font-family-sans: "NotoSans-Regular";
 
   /* Tamanhos e lines: Ancorados em rems v4 para consistência com text-*. */
-  --font-size-xs: 0.75rem;
-  --font-size-sm: 0.875rem;
+  --font-size-2xs: 0.4rem;
+  --font-size-xs: 0.5rem;
+  --font-size-sm: 0.7rem;
   --font-size-base: 1rem;
   --font-size-lg: 1.125rem;
   --font-size-xl: 1.25rem;

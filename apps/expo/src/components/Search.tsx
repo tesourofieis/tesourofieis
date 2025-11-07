@@ -1,4 +1,5 @@
 import { Typography } from "~/components/typography";
+import { BlurView } from "expo-blur";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { useRouter } from "expo-router";
 import React, {
@@ -22,6 +23,7 @@ import {
 } from "react-native";
 import { COLORS } from "~/constants/Colors";
 import { type SearchResult, search } from "~/services/search";
+import { burgundy } from "config";
 
 const SearchModalContext = createContext<{
   openSearch: () => void;
@@ -257,9 +259,12 @@ export function SearchModal({
   const colors = useMemo(
     () => ({
       placeholder: COLORS["500"],
+      blurIntensity: 100,
     }),
-    [],
+    [isDark],
   );
+
+  const router = useRouter();
 
   return (
     <Modal
@@ -267,87 +272,98 @@ export function SearchModal({
       transparent
       animationType="fade"
       onRequestClose={onClose}
+      statusBarTranslucent
+      allowSwipeDismissal
+      presentationStyle="fullScreen"
     >
-      <View className="flex-1 justify-center items-center bg-sepia-200 dark:bg-sepia-800 px-6">
-        <Pressable className="absolute inset-0" onPress={onClose} />
-        <View
-          className="bg-sepia-100 h-full w-full dark:bg-sepia-900 rounded-xl overflow-hidden shadow-2xl"
-          style={{ height: "90%", width: "90%", borderRadius: "10%" }}
-        >
-          <View className="px-4 pt-4 pb-3 bg-sepia-190 dark:bg-sepia-700 border-b border-sepia">
-            <View className="flex-row items-center gap-3 mb-3">
-              <Typography className="text-pretty text-sepia-800 dark:text-sepia-200 font-serif-bold flex-1">
-                Procurar
-              </Typography>
-              <TouchableOpacity onPress={onClose} className="p-2">
-                <FontAwesome6
-                  name="xmark"
-                  size={16}
-                  color={isDark ? COLORS["300"] : COLORS["700"]}
-                />
-              </TouchableOpacity>
-            </View>
-            <View className="flex-row px-3 py-2 items-center bg-sepia-100 dark:bg-sepia-800 rounded-xl border border-sepia">
-              <FontAwesome6
-                name="magnifying-glass"
-                size={12}
-                color={colors.placeholder}
-              />
-              <TextInput
-                placeholder="Procurar..."
-                placeholderTextColor={colors.placeholder}
-                value={searchQuery}
-                onChangeText={setSearchQuery}
-                autoCapitalize="none"
-                autoCorrect={false}
-                autoFocus
-                returnKeyType="search"
-                className="flex-1 ml-2 text-sepia"
-              />
-              {!!searchQuery && (
-                <TouchableOpacity
-                  onPress={() => setSearchQuery("")}
-                  className="ml-2"
-                >
+      <BlurView
+        intensity={colors.blurIntensity}
+        tint={isDark ? "dark" : "light"}
+        style={{ flex: 1 }}
+      >
+        <View className="flex-1 items-center justify-center bg-black/40">
+          <Pressable className="absolute inset-0" onPress={onClose} />
+          <View className="px-6 w-full max-w-xl rounded-xl">
+            <View
+              className="bg-sepia-100 dark:bg-sepia-900 overflow-hidden"
+              style={{
+                height: "80%",
+                width: "100%",
+                maxWidth: 600,
+                borderRadius: 16,
+              }}
+            >
+              <View className="px-4 pt-4 pb-3 bg-sepia-200 dark:bg-sepia-800 border-b border-sepia">
+                <View className="flex-row justify-center items-center pb-3">
                   <FontAwesome6
-                    name="xmark"
+                    name="book-bible"
+                    size={15}
+                    color={burgundy[500]}
+                  />
+                </View>
+                <View className="flex-row px-3 py-2 items-center rounded-xl border border-sepia bg-sepia-100 dark:bg-sepia-900">
+                  <FontAwesome6
+                    name="magnifying-glass"
                     size={12}
                     color={colors.placeholder}
                   />
-                </TouchableOpacity>
-              )}
+                  <TextInput
+                    placeholder="Procurar..."
+                    placeholderTextColor={colors.placeholder}
+                    value={searchQuery}
+                    onChangeText={setSearchQuery}
+                    autoCapitalize="none"
+                    autoCorrect={false}
+                    autoFocus
+                    returnKeyType="search"
+                    className="flex-1 ml-2 text-sepia-900 dark:text-sepia-100"
+                  />
+                  {!!searchQuery && (
+                    <TouchableOpacity
+                      onPress={() => setSearchQuery("")}
+                      className="ml-2"
+                    >
+                      <FontAwesome6
+                        name="xmark"
+                        size={12}
+                        color={colors.placeholder}
+                      />
+                    </TouchableOpacity>
+                  )}
+                </View>
+              </View>
+              <View className="flex-1 bg-sepia-200 dark:bg-sepia-800">
+                {isSearching && (
+                  <View className="flex-1 justify-center items-center py-12">
+                    <ActivityIndicator size="large" />
+                  </View>
+                )}
+                {results.length > 0 && (
+                  <FlatList
+                    data={results}
+                    renderItem={({ item }) => (
+                      <SearchResultItem item={item} onPress={handleNavigate} />
+                    )}
+                    keyExtractor={(item) => item.id}
+                  />
+                )}
+                {searchQuery.trim() && !isSearching && !results.length && (
+                  <View className="flex-1 justify-center items-center py-12">
+                    <FontAwesome6
+                      name="search"
+                      size={24}
+                      color={isDark ? COLORS["300"] : COLORS["700"]}
+                    />
+                    <Typography className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
+                      Nenhum resultado encontrado
+                    </Typography>
+                  </View>
+                )}
+              </View>
             </View>
           </View>
-          <View className="flex-1 bg-sepia-100 dark:bg-sepia-900">
-            {isSearching && (
-              <View className="flex-1 justify-center items-center py-12">
-                <ActivityIndicator size="large" />
-              </View>
-            )}
-            {results.length && (
-              <FlatList
-                data={results}
-                renderItem={({ item }) => (
-                  <SearchResultItem item={item} onPress={handleNavigate} />
-                )}
-                keyExtractor={(item) => item.id}
-              />
-            )}
-            {searchQuery.trim() && !isSearching && !results.length && (
-              <View className="flex-1 justify-center items-center py-12">
-                <FontAwesome6
-                  name="search"
-                  size={24}
-                  color={isDark ? COLORS["300"] : COLORS["700"]}
-                />
-                <Typography className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">
-                  Nenhum resultado encontrado
-                </Typography>
-              </View>
-            )}
-          </View>
         </View>
-      </View>
+      </BlurView>
     </Modal>
   );
 }
