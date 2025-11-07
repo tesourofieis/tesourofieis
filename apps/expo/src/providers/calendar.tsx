@@ -50,7 +50,7 @@ export function CalendarProvider({ children }: PropsWithChildren) {
       ...getCalendar(currentYear),
       ...(currentMonth === 11 ? getCalendar(currentYear + 1) : []),
     ],
-    [currentYear, currentMonth]
+    [currentYear, currentMonth],
   );
 
   const dateKey = yyyyMMDD(date);

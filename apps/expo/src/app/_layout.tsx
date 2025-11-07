@@ -21,13 +21,11 @@ import { UpdateProvider, useUpdate } from "~/providers/update";
 import { Update } from "~/components/Update";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
-import {
-  DrawerContentScrollView,
-  DrawerItemList,
-} from "@react-navigation/drawer";
 import Drawer from "expo-router/drawer";
 import { CalendarProvider } from "~/providers/calendar";
 import { SettingsProvider } from "~/providers/settings";
+import { CustomDrawerContent } from "~/components/Drawer";
+import { SearchModalProvider, useSearchModal } from "~/components/Search";
 
 SplashScreen.preventAutoHideAsync();
 SplashScreen.setOptions({
@@ -78,13 +76,15 @@ export default function PageRootLayout() {
     <UpdateProvider>
       <FontProvider>
         <SafeAreaProvider>
-          {Platform.OS === "web" ? (
-            <RootLayoutNav />
-          ) : (
-            <GestureHandlerRootView style={{ flex: 1 }}>
+          <SearchModalProvider>
+            {Platform.OS === "web" ? (
               <RootLayoutNav />
-            </GestureHandlerRootView>
-          )}
+            ) : (
+              <GestureHandlerRootView style={{ flex: 1 }}>
+                <RootLayoutNav />
+              </GestureHandlerRootView>
+            )}
+          </SearchModalProvider>
         </SafeAreaProvider>
       </FontProvider>
     </UpdateProvider>
@@ -105,33 +105,6 @@ function RootLayoutNav() {
       <UpdateAwareDrawer />
       <StatusBar hidden />
     </SafeAreaView>
-  );
-}
-
-function CustomDrawerContent(props: any) {
-  const router = useRouter();
-  return (
-    <View style={{ flex: 1 }}>
-      <View style={{ paddingTop: 20, paddingLeft: 30 }}>
-        <View className="flex-row items-center gap-3">
-          <Pressable
-            className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
-            onPress={() => router.navigate("/")}
-          >
-            <FontAwesome6 name="book-bible" size={15} color={burgundy[500]} />
-          </Pressable>
-          <Typography className="text-pretty text-sepia-800 dark:text-sepia-200 font-serif-bold">
-            Tesouro dos Fiéis
-          </Typography>
-        </View>
-      </View>
-      <DrawerContentScrollView
-        {...props}
-        contentContainerStyle={{ paddingTop: 20 }}
-      >
-        <DrawerItemList {...props} />
-      </DrawerContentScrollView>
-    </View>
   );
 }
 
@@ -156,7 +129,6 @@ function UpdateAwareDrawer() {
               const isRootScreen = [
                 "index",
                 "calendario",
-                "more",
                 "ordo",
                 "configurar",
               ].includes(route.name);
@@ -175,129 +147,7 @@ function UpdateAwareDrawer() {
               fontFamily: "DMSerifText_400Regular",
             },
           }}
-        >
-          <Drawer.Screen
-            name="index"
-            options={{
-              title: "Início",
-              drawerIcon: () => (
-                <FontAwesome6
-                  name="landmark"
-                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
-                />
-              ),
-            }}
-          />
-          <Drawer.Screen
-            name="ordo"
-            options={{
-              title: "Ordo",
-              drawerIcon: () => (
-                <FontAwesome6
-                  name="church"
-                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
-                />
-              ),
-            }}
-          />
-          <Drawer.Screen
-            name="calendario"
-            options={{
-              title: "Calendário",
-              drawerIcon: () => (
-                <FontAwesome6
-                  name="calendar-days"
-                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
-                />
-              ),
-            }}
-          />
-          <Drawer.Screen
-            name="more"
-            options={{
-              title: "Procura",
-              drawerIcon: () => (
-                <FontAwesome6
-                  name="table-list"
-                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
-                />
-              ),
-            }}
-          />
-
-          <Drawer.Screen
-            name="missal"
-            options={{
-              title: "Missal",
-              drawerIcon: () => (
-                <FontAwesome6
-                  name="table-list"
-                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
-                />
-              ),
-            }}
-          />
-          <Drawer.Screen
-            name="devocionario"
-            options={{
-              title: "Devocionário",
-              drawerIcon: () => (
-                <FontAwesome6
-                  name="table-list"
-                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
-                />
-              ),
-            }}
-          />
-          <Drawer.Screen
-            name="ritual"
-            options={{
-              title: "Ritual",
-              drawerIcon: () => (
-                <FontAwesome6
-                  name="table-list"
-                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
-                />
-              ),
-            }}
-          />
-          <Drawer.Screen
-            name="fe"
-            options={{
-              title: "Fé",
-              drawerIcon: () => (
-                <FontAwesome6
-                  name="table-list"
-                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
-                />
-              ),
-            }}
-          />
-          <Drawer.Screen
-            name="canticos"
-            options={{
-              title: "Cânticos",
-              drawerIcon: () => (
-                <FontAwesome6
-                  name="table-list"
-                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
-                />
-              ),
-            }}
-          />
-          <Drawer.Screen
-            name="configurar"
-            options={{
-              title: "Configurar",
-              drawerIcon: () => (
-                <FontAwesome6
-                  name="gears"
-                  color={isDarkMode ? COLORS["300"] : COLORS["700"]}
-                />
-              ),
-            }}
-          />
-        </Drawer>
+        />
       </SettingsProvider>
     </CalendarProvider>
   );
@@ -365,6 +215,7 @@ const Breadcrumbs = () => {
 export const Header = ({ withBC }: { withBC: boolean }) => {
   const router = useRouter();
   const navigation = useNavigation();
+  const { openSearch } = useSearchModal();
 
   if (withBC) {
     return (
@@ -384,7 +235,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
             <Breadcrumbs />
           </View>
           <Pressable
-            onPress={() => router.push("/more")}
+            onPress={openSearch}
             className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
           >
             <FontAwesome6
@@ -414,7 +265,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
         <FontAwesome6 name="book-bible" size={15} color={burgundy[500]} />
       </Pressable>
       <Pressable
-        onPress={() => router.push("/more")}
+        onPress={openSearch}
         className="p-2 items-center rounded-xl active:bg-sepia-100 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
       >
         <FontAwesome6 name="magnifying-glass" size={10} color={burgundy[500]} />
