@@ -6,13 +6,12 @@ import { DMSerifDisplay_400Regular_Italic } from "@expo-google-fonts/dm-serif-di
 import { DMSerifText_400Regular } from "@expo-google-fonts/dm-serif-text/400Regular";
 import { DMSerifText_400Regular_Italic } from "@expo-google-fonts/dm-serif-text/400Regular_Italic";
 import { useFonts } from "expo-font";
-import { useColorScheme } from "react-native";
+import { useColorScheme , Platform, Pressable, View } from "react-native";
 import { useEffect } from "react";
 import "../global.css";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { useNavigation, usePathname, useRouter } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
-import { Platform, Pressable, View } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { COLORS } from "~/constants/Colors";
 import { burgundy } from "config";
@@ -220,17 +219,13 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
   if (withBC) {
     return (
       <View className="flex-row items-center justify-between p-3 gap-2 bg-sepia-200 dark:bg-sepia-800 w-full border-b border-sepia">
-        <View className="flex-row items-center justify-between">
-          <View className="flex-row gap-4 flex-1 items-center">
+        <View className="flex-row items-center justify-between flex-1">
+          <View className="flex-row gap-4 items-center">
             <Pressable
               className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
-              onPress={() => router.back()}
+              onPress={() => navigation.openDrawer()}
             >
-              <FontAwesome6
-                name="chevron-left"
-                size={10}
-                color={burgundy[500]}
-              />
+              <FontAwesome6 name="bars" size={10} color={burgundy[500]} />
             </Pressable>
             <Breadcrumbs />
           </View>
@@ -260,7 +255,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
 
       <Pressable
         className="p-2 items-center rounded-xl active:bg-sepia-300 dark:active:bg-sepia-800 bg-sepia-200 dark:bg-sepia-800"
-        onPress={() => router.navigate("/")}
+        onPress={() => router.dismissTo("/")}
       >
         <FontAwesome6 name="book-bible" size={15} color={burgundy[500]} />
       </Pressable>

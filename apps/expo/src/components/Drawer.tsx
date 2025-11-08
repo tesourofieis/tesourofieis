@@ -54,6 +54,7 @@ const STATIC_ROUTES: StaticRoute[] = [
   { name: "index", title: "Início", icon: "landmark" },
   { name: "ordo", title: "Ordo", icon: "church" },
   { name: "calendario", title: "Calendário", icon: "calendar-days" },
+  { name: "configurar", title: "Configurar", icon: "gears" },
 ];
 
 const RENDER_BATCH_SIZE = 4;
@@ -83,6 +84,8 @@ const TreeItem = React.memo(
     const router = useRouter();
     const children = doc.hasChildren;
     const isOpen = expanded[doc.id];
+    const isActive =
+      currentPathname.endsWith(doc.url) || currentPathname === doc.url;
 
     const handlePress = useCallback(() => {
       if (children) {
@@ -120,49 +123,43 @@ const TreeItem = React.memo(
         (doc.content.headings.length > 0 ? doc.content.headings[0].body : "")
       : "";
 
-    // The text content needs padding-left based on level.
-    // The total padding for the row (including the icon) should ensure it's not too close to the edge.
-    const baseHorizontalPadding = 13; // A base padding for the start and end of the row.
-    const iconContainerWidth = 24; // Fixed width of the icon container (w-6 = 24 units)
-    const iconMarginLeft = 8; // Assumed margin between text and icon (ml-2 in prev code was 8 units)
-
-    // Calculate dynamic left padding for the text container
+    const baseHorizontalPadding = 13;
+    const iconContainerWidth = 24;
     const dynamicLeftPaddingForText = level * 16;
-
-    // The right padding of the *text itself* needs to account for the icon's space.
-    // The total usable width for text is (DrawerWidth - BasePaddingLeft - DynamicTextLeftPadding - IconContainerWidth - IconMarginLeft - BasePaddingRight)
-    // To ensure the description doesn't push into the icon, we can make its right padding dynamic too.
-    const dynamicRightPaddingForText = level * 10 + 8; // Adjust this value to control text width
+    const dynamicRightPaddingForText = level * 10 + 8;
 
     return (
       <View>
         <TouchableOpacity
           onPress={handlePress}
-          // Removed px-4 from here. We'll manage padding directly within the children or outer View
-          className="flex-row items-center py-3 active:bg-sepia-200 dark:active:bg-sepia-700"
+          className={`flex-row items-center py-3 active:bg-sepia-200 dark:active:bg-sepia-700 ${
+            isActive ? "bg-sepia-200 dark:bg-sepia-700" : ""
+          }`}
           accessibilityRole="button"
           accessibilityLabel={doc.title}
         >
-          {/* A new wrapper View to handle the overall left padding of the row content */}
-          {/* This wrapper is essentially "the content area" which starts after global left padding */}
           <View
             style={{
               paddingLeft: baseHorizontalPadding + dynamicLeftPaddingForText,
-              flexDirection: "row", // Ensure children are laid out horizontally
+              flexDirection: "row",
               alignItems: "center",
               justifyContent: "flex-start",
-              flex: 1, // Allow this content area to expand, but its children will manage widths
+              flex: 1,
             }}
           >
-            {/* Text content container */}
             <View
               style={{
-                flexShrink: 1, // Allow text to shrink, but not grow infinitely
-                // The right padding here prevents the text from bumping into the icon
+                flexShrink: 1,
                 paddingRight: dynamicRightPaddingForText,
               }}
             >
-              <Typography className="text-xs font-serif text-sepia-800 dark:text-sepia-200">
+              <Typography
+                className={`text-xs font-serif ${
+                  isActive
+                    ? "text-burgundy-600 dark:text-burgundy-400 font-serif-bold"
+                    : "text-sepia-800 dark:text-sepia-200"
+                }`}
+              >
                 {doc.title}
               </Typography>
               {description && description !== doc.title && (
@@ -175,13 +172,11 @@ const TreeItem = React.memo(
               )}
             </View>
 
-            {/* Icon container - give it a fixed width and fixed right margin */}
-            {/* The right edge of this container should align with the desired right edge of the entire row */}
             <View
               style={{
                 width: iconContainerWidth,
-                marginRight: baseHorizontalPadding, // Ensures the icon is pushed from the right edge
-                alignItems: "center", // Align icon to the right within its container
+                marginRight: baseHorizontalPadding,
+                alignItems: "center",
                 justifyContent: "flex-start",
               }}
             >
@@ -192,14 +187,14 @@ const TreeItem = React.memo(
                   <FontAwesome6
                     name={isOpen ? "chevron-up" : "chevron-down"}
                     size={12}
-                    color={colors.icon}
+                    color={isActive ? burgundy[500] : colors.icon}
                   />
                 )
               ) : (
                 <FontAwesome6
                   name="arrow-right"
                   size={12}
-                  color={colors.icon}
+                  color={isActive ? burgundy[500] : colors.icon}
                 />
               )}
             </View>
@@ -266,6 +261,87 @@ export function CustomDrawerContent({ navigation }: CustomDrawerContentProps) {
   const topLevelDocs = useMemo(() => {
     return allDocs.filter((doc) => !doc.parent);
   }, [allDocs]);
+
+  useEffect(() => {
+    if (allDocs.length === 0) return;
+
+    console.log("Pathname changed:", pathname);
+
+    const findAndExpandActiveRoute = async () => {
+      let currentDocs = [...allDocs];
+
+      const activeDoc = currentDocs.find((doc) => {
+        const matches = pathname.endsWith(doc.url) || pathname === doc.url;
+        console.log(
+          `Checking doc: ${doc.id}, url: ${doc.url}, pathname: ${pathname}, matches: ${matches}`,
+        );
+        return matches;
+      });
+
+      console.log("Active doc found:", activeDoc?.id);
+
+      if (!activeDoc) {
+        setExpanded({});
+        return;
+      }
+
+      const parentsToExpand: string[] = [];
+      let currentParent = activeDoc.parent;
+
+      while (currentParent) {
+        const parentDoc = currentDocs.find((doc) => doc.id === currentParent);
+        if (!parentDoc) break;
+        parentsToExpand.push(currentParent);
+        console.log("Adding parent to expand:", currentParent);
+        currentParent = parentDoc.parent;
+      }
+
+      console.log("Parents to expand (bottom to top):", parentsToExpand);
+
+      // Reverse to load from top to bottom
+      const parentsTopToBottom = [...parentsToExpand].reverse();
+      console.log("Parents to expand (top to bottom):", parentsTopToBottom);
+
+      // Load children sequentially from top level down
+      for (const parentId of parentsTopToBottom) {
+        const childrenAlreadyLoaded = currentDocs.some(
+          (doc) => doc.parent === parentId,
+        );
+
+        if (!childrenAlreadyLoaded) {
+          console.log("Loading children for:", parentId);
+          try {
+            const children = getChildren(parentId);
+            console.log(
+              `Loaded ${children.length} children for ${parentId}:`,
+              children.map((c) => c.id),
+            );
+            currentDocs = [...currentDocs, ...children];
+          } catch (err) {
+            console.error("Error loading children for active route:", err);
+          }
+        } else {
+          console.log("Children already loaded for:", parentId);
+        }
+      }
+
+      if (currentDocs.length > allDocs.length) {
+        console.log(
+          `Updating allDocs: ${allDocs.length} -> ${currentDocs.length}`,
+        );
+        setAllDocs(currentDocs);
+      }
+
+      const newExpanded: Record<string, boolean> = {};
+      parentsToExpand.forEach((id) => {
+        newExpanded[id] = true;
+      });
+      console.log("Setting expanded:", newExpanded);
+      setExpanded(newExpanded);
+    };
+
+    findAndExpandActiveRoute();
+  }, [pathname]);
 
   const toggleExpand = useCallback(
     async (id: string, children: boolean) => {
@@ -396,24 +472,6 @@ export function CustomDrawerContent({ navigation }: CustomDrawerContentProps) {
           )}
         />
       )}
-
-      <View className="flex-row justify-between items-center m-2">
-        <Typography
-          className="flex-1 text-pretty text-sepia-800 dark:text-sepia-200 font-serif-bold text-center px-4"
-          accessibilityRole="header"
-          accessibilityLabel="Tesouro dos Fiéis"
-        >
-          {new Date().getFullYear().toString()}
-        </Typography>
-        <Pressable
-          className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
-          onPress={handleConfigPress}
-          accessibilityRole="button"
-          accessibilityLabel="Configurações"
-        >
-          <FontAwesome6 name="gear" size={16} color={colors.icon} />
-        </Pressable>
-      </View>
     </View>
   );
 }

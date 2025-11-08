@@ -264,8 +264,6 @@ export function SearchModal({
     [isDark],
   );
 
-  const router = useRouter();
-
   return (
     <Modal
       visible={visible}
@@ -283,14 +281,12 @@ export function SearchModal({
       >
         <View className="flex-1 items-center justify-center bg-black/40">
           <Pressable className="absolute inset-0" onPress={onClose} />
-          <View className="px-6 w-full max-w-xl rounded-xl">
+          <View className="px-6 w-full max-w-xl flex-1 items-center justify-center">
             <View
-              className="bg-sepia-100 dark:bg-sepia-900 overflow-hidden"
+              className="bg-sepia-100 dark:bg-sepia-900 overflow-hidden rounded-xl"
               style={{
                 height: "80%",
-                width: "100%",
-                maxWidth: 600,
-                borderRadius: 16,
+                width: "90%",
               }}
             >
               <View className="px-4 pt-4 pb-3 bg-sepia-200 dark:bg-sepia-800 border-b border-sepia">
