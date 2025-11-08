@@ -74,7 +74,7 @@ export default function PageLinkCard({
 
                   <FontAwesome
                     name="chevron-right"
-                    size={16}
+                    size={15}
                     color={pressed ? COLORS[600] : COLORS[500]}
                   />
                 </View>
@@ -124,7 +124,7 @@ export default function PageLinkCard({
 
                   <FontAwesome
                     name={hasChildren ? "chevron-down" : "chevron-right"}
-                    size={16}
+                    size={15}
                     color={pressed ? COLORS[600] : COLORS[500]}
                   />
                 </View>
@@ -163,7 +163,7 @@ export default function PageLinkCard({
 
                 <FontAwesome
                   name={hasChildren ? "chevron-down" : "chevron-right"}
-                  size={16}
+                  size={15}
                   color={pressed ? COLORS[600] : COLORS[500]}
                 />
               </View>

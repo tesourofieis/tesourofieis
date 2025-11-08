@@ -124,7 +124,7 @@ export default function ExternalLinks() {
                   <View className="flex text-pretty flex-row items-center gap-2">
                     <FontAwesome6
                       name={link.icon}
-                      size={16}
+                      size={15}
                       color={
                         colorScheme === "dark" ? COLORS["200"] : COLORS["800"]
                       }

@@ -300,7 +300,7 @@ function SearchModal({
                 <View className="flex-row px-3 py-2 items-center rounded-xl border border-sepia bg-sepia-100 dark:bg-sepia-900">
                   <FontAwesome6
                     name="magnifying-glass"
-                    size={12}
+                    size={15}
                     color={colors.placeholder}
                   />
                   <TextInput
@@ -321,7 +321,7 @@ function SearchModal({
                     >
                       <FontAwesome6
                         name="xmark"
-                        size={12}
+                        size={15}
                         color={colors.placeholder}
                       />
                     </TouchableOpacity>
@@ -347,7 +347,7 @@ function SearchModal({
                   <View className="flex-1 justify-center items-center py-12">
                     <FontAwesome6
                       name="search"
-                      size={24}
+                      size={15}
                       color={isDark ? COLORS["300"] : COLORS["700"]}
                     />
                     <Typography className="text-sepia-500 dark:text-sepia-400 mt-2 text-center">

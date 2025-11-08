@@ -186,14 +186,14 @@ const TreeItem = React.memo(
                 ) : (
                   <FontAwesome6
                     name={isOpen ? "chevron-up" : "chevron-down"}
-                    size={12}
+                    size={15}
                     color={isActive ? burgundy[500] : colors.icon}
                   />
                 )
               ) : (
                 <FontAwesome6
                   name="arrow-right"
-                  size={12}
+                  size={15}
                   color={isActive ? burgundy[500] : colors.icon}
                 />
               )}
@@ -409,13 +409,6 @@ export default function CustomDrawerContent({
           >
             <FontAwesome6 name="book-bible" size={15} color={burgundy[500]} />
           </Pressable>
-          <Typography
-            className="flex-1 text-pretty text-sepia-800 dark:text-sepia-200 font-serif-bold text-center px-4"
-            accessibilityRole="header"
-            accessibilityLabel="Tesouro dos Fiéis"
-          >
-            Tesouro dos Fiéis
-          </Typography>
           <Pressable
             className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
             onPress={handleSearchPress}
@@ -424,7 +417,7 @@ export default function CustomDrawerContent({
           >
             <FontAwesome6
               name="magnifying-glass"
-              size={16}
+              size={15}
               color={colors.icon}
             />
           </Pressable>
@@ -439,7 +432,7 @@ export default function CustomDrawerContent({
           accessibilityRole="button"
           accessibilityLabel={route.title}
         >
-          <FontAwesome6 name={route.icon} size={13} color={colors.icon} />
+          <FontAwesome6 name={route.icon} size={15} color={colors.icon} />
           <Typography className="ml-3 text-xs font-serif text-sepia-800 dark:text-sepia-200">
             {route.title}
           </Typography>

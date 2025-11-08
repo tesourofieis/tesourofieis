@@ -225,7 +225,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
               className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
               onPress={() => navigation.openDrawer()}
             >
-              <FontAwesome6 name="bars" size={10} color={burgundy[500]} />
+              <FontAwesome6 name="bars" size={15} color={burgundy[500]} />
             </Pressable>
             <Breadcrumbs />
           </View>
@@ -235,7 +235,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
           >
             <FontAwesome6
               name="magnifying-glass"
-              size={10}
+              size={15}
               color={burgundy[500]}
             />
           </Pressable>
@@ -250,7 +250,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
         className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
         onPress={() => navigation.openDrawer()}
       >
-        <FontAwesome6 name="bars" size={10} color={burgundy[500]} />
+        <FontAwesome6 name="bars" size={15} color={burgundy[500]} />
       </Pressable>
 
       <Pressable
@@ -263,7 +263,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
         onPress={openSearch}
         className="p-2 items-center rounded-xl active:bg-sepia-100 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
       >
-        <FontAwesome6 name="magnifying-glass" size={10} color={burgundy[500]} />
+        <FontAwesome6 name="magnifying-glass" size={15} color={burgundy[500]} />
       </Pressable>
     </View>
   );

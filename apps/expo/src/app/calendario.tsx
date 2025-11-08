@@ -214,7 +214,7 @@ function Header({
               : "bg-sepia-200 dark:bg-sepia-800"
           }`}
         >
-          <FontAwesome name="crosshairs" size={18} color={COLORS["500"]} />
+          <FontAwesome name="crosshairs" size={15} color={COLORS["500"]} />
         </Pressable>
       </View>
     </View>
