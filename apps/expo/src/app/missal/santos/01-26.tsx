@@ -42,8 +42,12 @@ export default function Page0126() {
       <Typography className="em">1 Jo. 3, 10-16</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Joánnis Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º S. João.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Joánnis Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º S. João.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Omnis qui non est justus, non est ex Deo, et qui non
           díligit fratrem suum: quóniam hæc est annuntiátio, quam audístis ab

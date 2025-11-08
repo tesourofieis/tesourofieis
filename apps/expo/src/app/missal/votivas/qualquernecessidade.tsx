@@ -14,17 +14,18 @@ export default function PageQualquernecessidade() {
         <Typography className="latin">
           Salus pópuli ego sum, dicit Dóminus: de quacúmque tribulatióne
           clamáverint ad me, exáudiam eos: et ero illórum Dóminus in perpétuum.
-          (T. P. Allelúja, allelúja.) <Typography className="latin">Ps. 77, 1</Typography>{" "}
-          Atténdite, pópule meus, legem meam: inclináte aurem vestram in verba
-          oris mei.
+          (T. P. Allelúja, allelúja.){" "}
+          <Typography className="latin">Ps. 77, 1</Typography> Atténdite, pópule
+          meus, legem meam: inclináte aurem vestram in verba oris mei.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Eu sou a salvação do povo, diz o Senhor: quando em qualquer tribulação
           chamarem por mim, Eu os ouvirei: e serei perpetuamente o seu Senhor.
           (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. 77, 1</Typography> Ó meu povo, escutai a
-          minha lei: inclinai os vosso ouvidos às palavras da minha boca.
+          <Typography className="vernacular">Sl. 77, 1</Typography> Ó meu povo,
+          escutai a minha lei: inclinai os vosso ouvidos às palavras da minha
+          boca.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -50,7 +51,9 @@ export default function PageQualquernecessidade() {
 
       <Language>
         <Typography className="latin">Léctio Jeremíæ Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do Profeta Jeremias.</Typography>
+        <Typography className="vernacular">
+          Lição do Profeta Jeremias.
+        </Typography>
         <Typography className="latin">
           Si iniquitátes nostræ respónderint nobis: Dómine, fac propter nomen
           tuum, quóniam multæ sunt aversiónes nostræ: tibi peccávimus.
@@ -75,26 +78,27 @@ export default function PageQualquernecessidade() {
       <Language>
         <Typography className="latin">
           Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos oderunt,
-          confudísti.<Typography className="versicle"> ℣. </Typography>In Deo laudábimur
-          tota die: et in nómine tuo confitébimur in sǽcula.
+          confudísti.<Typography className="versicle"> ℣. </Typography>In Deo
+          laudábimur tota die: et in nómine tuo confitébimur in sǽcula.
         </Typography>
         <Typography className="vernacular">
           Livrastes-nos, Senhor, daqueles que nos afligiam: e confundistes
-          aqueles que nos odiavam.<Typography className="versicle"> ℣. </Typography>
+          aqueles que nos odiavam.
+          <Typography className="versicle"> ℣. </Typography>
           Alegrar-nos-emos em Deus continuamente: glorificaremos sempre o vosso
           nome.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 78, 9-10</Typography> Propítius esto, Dómine,
-          peccátis nostris: ne quando dicant gentes: Ubi est Deus eórum?
-          Allelúja.
+          <Typography className="latin">Ps. 78, 9-10</Typography> Propítius
+          esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi est Deus
+          eórum? Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 78, 9-10</Typography> Perdoai-nos, Senhor,
-          os nossos pecados: para que os povos não digam: «Onde está o seu
-          Deus»?». Aleluia.
+          <Typography className="vernacular">Sl. 78, 9-10</Typography>{" "}
+          Perdoai-nos, Senhor, os nossos pecados: para que os povos não digam:
+          «Onde está o seu Deus»?». Aleluia.
         </Typography>
       </Language>
 
@@ -110,19 +114,21 @@ export default function PageQualquernecessidade() {
         <Typography className="latin">
           De necessitátibus meis éripe me, Dómine: vide humilitátem meam et
           labórem meum: et dimitte ómnia peccáta mea.
-          <Typography className="versicle"> ℣. </Typography>Ad te, Dómine, levávi ánimam
-          meam: Deus meus, in te confído, non erubéscam: neque irrídeant me
-          inimíci mei.<Typography className="versicle"> ℣. </Typography>Etenim univérsi, qui
+          <Typography className="versicle"> ℣. </Typography>Ad te, Dómine,
+          levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque
+          irrídeant me inimíci mei.
+          <Typography className="versicle"> ℣. </Typography>Etenim univérsi, qui
           te exspéctant, non confundéntur: confundántur omnes faciéntes vana.
         </Typography>
         <Typography className="vernacular">
           Livrai-me, Senhor, das minhas tribulações: vede a minha miséria e as
           minhas penas: e perdoai todos meus pecados.
-          <Typography className="versicle"> ℣. </Typography>A Vós, Senhor, elevei a minha
-          alma: meu Deus, confio em Vós: não ficarei envergonhado; pois os meus
-          inimigos não triunfarão de mim.
-          <Typography className="versicle"> ℣. </Typography>Não serão confundidos, Senhor,
-          os que confiam em Vós: mas serão confundidos os que procedem em vão.
+          <Typography className="versicle"> ℣. </Typography>A Vós, Senhor,
+          elevei a minha alma: meu Deus, confio em Vós: não ficarei
+          envergonhado; pois os meus inimigos não triunfarão de mim.
+          <Typography className="versicle"> ℣. </Typography>Não serão
+          confundidos, Senhor, os que confiam em Vós: mas serão confundidos os
+          que procedem em vão.
         </Typography>
       </Language>
 
@@ -133,21 +139,22 @@ export default function PageQualquernecessidade() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 78, 9-10</Typography> Propítius esto, Dómine,
-          peccátis nostris: ne quando dicant gentes: Ubi est Deus eórum?
-          Allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. 30, 8</Typography> Exsultábo et lætábor in
-          misericórdia tua, quóniam respexísti humilitátem meam: salvasti de
+          <Typography className="latin">Ps. 78, 9-10</Typography> Propítius
+          esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi est Deus
+          eórum? Allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Ps. 30, 8</Typography> Exsultábo et lætábor
+          in misericórdia tua, quóniam respexísti humilitátem meam: salvasti de
           necessitátibus ánimam meam. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 78, 9-10</Typography> Perdoai-nos, Senhor,
-          Os nossos pecados: para que os povos não digam: «Onde está o seu
-          Deus?». Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Sl. 30, 8</Typography> Exultarei de alegria por causa
-          da vossa misericórdia, pois Vós tivestes compaixão da minha desgraça:
-          e salvastes a minha alma das minhas tribulações. Aleluia.
+          <Typography className="vernacular">Sl. 78, 9-10</Typography>{" "}
+          Perdoai-nos, Senhor, Os nossos pecados: para que os povos não digam:
+          «Onde está o seu Deus?». Aleluia.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Sl. 30, 8</Typography> Exultarei de alegria
+          por causa da vossa misericórdia, pois Vós tivestes compaixão da minha
+          desgraça: e salvastes a minha alma das minhas tribulações. Aleluia.
         </Typography>
       </Language>
 
@@ -157,12 +164,12 @@ export default function PageQualquernecessidade() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Marcum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Marcum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Marcos.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Marcos.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Habete fidem Dei. Amen,

@@ -16,16 +16,16 @@ export default function PagePasc50() {
         <Typography className="latin">
           Vocem jucunditátis annuntiáte, et audiátur, allelúja: annuntiáte usque
           ad extrémum terræ: liberávit Dóminus pópulum suum, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. 65, 1-2</Typography> Jubiláte Deo, omnis terra,
-          psalmum dícite nómini ejus: date glóriam laudi ejus.
+          <Typography className="latin">Ps. 65, 1-2</Typography> Jubiláte Deo,
+          omnis terra, psalmum dícite nómini ejus: date glóriam laudi ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Com voz de alegria anunciai, fazei ouvir: aleluia; proclamai até aos
           confins da terra; o Senhor libertou o povo, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. 65, 1-2</Typography> Ó povos de toda a
-          terra, aclamai Deus com júbilo: cantai hinos em honra do seu nome:
-          rendei-Lhe honras e louvores.
+          <Typography className="vernacular">Sl. 65, 1-2</Typography> Ó povos de
+          toda a terra, aclamai Deus com júbilo: cantai hinos em honra do seu
+          nome: rendei-Lhe honras e louvores.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -52,8 +52,12 @@ export default function PagePasc50() {
       <Typography className="em">Tg. 1, 22-27</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Jacóbi Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Tiago.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Jacóbi Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Tiago.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Estóte factóres verbi, et non auditóres tantum: falléntes
           vosmetípsos. Quia si quis audítor est verbi et non factor: hic
@@ -84,18 +88,21 @@ export default function PagePasc50() {
 
       <Language>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Surréxit
-          Christus, et illúxit nobis, quos rédemit sánguine suo. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Surréxit Christus, et illúxit nobis, quos rédemit sánguine suo.
+          Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Joann. 16, 28</Typography> Exívi a Patre, et veni in
-          mundum: íterum relínquo mundum, et vado ad Patrem. Allelúja.
+          <Typography className="latin">Joann. 16, 28</Typography> Exívi a
+          Patre, et veni in mundum: íterum relínquo mundum, et vado ad Patrem.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Cristo
-          ressuscitou e fez brilhar a sua luz sobre nós, que fomos remidos com
-          seu sangue. Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Jo. 16, 28</Typography> Eu saí do Pai e vim ao
-          mundo: e agora deixo o mundo e volto para o Pai. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Cristo ressuscitou e fez brilhar a sua luz sobre nós, que fomos
+          remidos com seu sangue. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Jo. 16, 28</Typography> Eu saí do
+          Pai e vim ao mundo: e agora deixo o mundo e volto para o Pai. Aleluia.
         </Typography>
       </Language>
 
@@ -105,12 +112,12 @@ export default function PagePasc50() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Amen, amen, dico vobis:

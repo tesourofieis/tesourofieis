@@ -17,15 +17,15 @@ export default function PageQuad23() {
         <Typography className="latin">
           Ne derelínquas me, Dómine, Deus meus, ne discédas a me: inténde in
           adjutórium meum, Dómine, virtus salútis meæ.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Dómine, ne in furóre tuo
-          árguas me: neque in ira tua corrípias me.
+          <Typography className="latin">Ps. ibid., 2</Typography> Dómine, ne in
+          furóre tuo árguas me: neque in ira tua corrípias me.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Não me abandoneis, Senhor, meu Deus; não Vos afasteis de mim.
           Apressai-Vos em socorrer-me, ó Senhor, que sois a minha força e
-          salvação. <Typography className="vernacular">Sl. ibid., 2</Typography> Senhor, não
-          me repreendais com furor, nem me castigueis com ira.
+          salvação. <Typography className="vernacular">Sl. ibid., 2</Typography>{" "}
+          Senhor, não me repreendais com furor, nem me castigueis com ira.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -88,8 +88,9 @@ export default function PageQuad23() {
       <Language>
         <Typography className="latin">
           Salvum fac pópulum tuum, Dómine, et bénedic hereditáti tuæ.
-          <Typography className="versicle"> ℣. </Typography>Ad te, Dómine, clamávi: Deus
-          meus, ne síleas a me, et ero símilis descendéntibus in lacum.
+          <Typography className="versicle"> ℣. </Typography>Ad te, Dómine,
+          clamávi: Deus meus, ne síleas a me, et ero símilis descendéntibus in
+          lacum.
         </Typography>
         <Typography className="vernacular">
           Salvai o vosso povo, Senhor, e abençoai a vossa herança. A Vós,
@@ -111,12 +112,12 @@ export default function PageQuad23() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Ascéndens Jesus Jerosólymam, assúmpsit duódecim

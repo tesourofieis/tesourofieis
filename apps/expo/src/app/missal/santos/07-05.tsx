@@ -34,17 +34,18 @@ export default function Page0705() {
         <Typography className="latin">
           Sermo meus et prædicátio mea non in persuasibílibus humánæ sapiéntiæ
           verbis, sed in ostensióne spíritus et virtútis.{" "}
-          <Typography className="latin">Ps. 110, 1</Typography> Confitébor tibi, Dómine, in
-          toto corde meo, in consílio justórum et congregatióne.
+          <Typography className="latin">Ps. 110, 1</Typography> Confitébor tibi,
+          Dómine, in toto corde meo, in consílio justórum et congregatióne.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           A minha conversação e a minha pregação não são apoiadas nos argumentos
           persuasivos da sabedoria humana, mas na manifestação do espírito e do
-          poder de Deus. <Typography className="vernacular">Sl. 110, 1</Typography> Senhor,
-          eu vos louvarei de todo meu coração no conselho dos justos e na
-          assembleia do povo!<Typography className="versicle"> ℣. </Typography>Glória ao
-          Pai...
+          poder de Deus.{" "}
+          <Typography className="vernacular">Sl. 110, 1</Typography> Senhor, eu
+          vos louvarei de todo meu coração no conselho dos justos e na
+          assembleia do povo!<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -115,29 +116,30 @@ export default function Page0705() {
         <Typography className="latin">
           Testis mihi est Deus, quo modo cúpiam omnes vos in viscéribus Jesu
           Christi. Et hoc oro, ut cáritas vestra magis ac magis abúndet in
-          sciéntia et in omni sensu.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 10</Typography> Ut probétis potióra, ut sitis
-          sincéri et sine offénsa in diem Christi.
+          sciéntia et in omni sensu.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 10</Typography> Ut probétis
+          potióra, ut sitis sincéri et sine offénsa in diem Christi.
         </Typography>
         <Typography className="vernacular">
           Deus é testemunha do modo como vos amo a todos nas entranhas de Jesus
           Cristo. E o que vos peço é que a vossa caridade aumente cada vez mais
           na vossa inteligência e em todos vossos sentidos.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 10</Typography> A fim de que possais
-          distinguir o que é melhor e estejais puros e irrepreensíveis no dia de
-          Cristo.
+          <Typography className="vernacular">ibid., 10</Typography> A fim de que
+          possais distinguir o que é melhor e estejais puros e irrepreensíveis
+          no dia de Cristo.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 11</Typography> Repléti fructu justítiæ per
-          Jesum Christum, in glóriam et laudem Dei. Allelúja.
+          <Typography className="latin">ibid., 11</Typography> Repléti fructu
+          justítiæ per Jesum Christum, in glóriam et laudem Dei. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 11</Typography> Que sejais cheios dos
-          frutos da justiça por Jesus Cristo, para glória e louvor de Deus.
-          Aleluia.
+          <Typography className="vernacular">ibid., 11</Typography> Que sejais
+          cheios dos frutos da justiça por Jesus Cristo, para glória e louvor de
+          Deus. Aleluia.
         </Typography>
       </Language>
 
@@ -147,12 +149,12 @@ export default function Page0705() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Marcum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Marcum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Marcos.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Marcos.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Quisquis non recéperit

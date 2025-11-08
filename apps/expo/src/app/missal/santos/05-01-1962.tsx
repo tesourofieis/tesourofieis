@@ -17,16 +17,16 @@ export default function Page05011962() {
           Sapiéntia réddidit justis mercédem labórum suórum, et dedúxit illos in
           via mirábili, et fuit illis in velaménto diéi, et in luce stellárum
           per noctem, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. 126, 1</Typography> Nisi Dóminus ædificáverit
-          domum, in vanum labórant qui ædíficant eam.
+          <Typography className="latin">Ps. 126, 1</Typography> Nisi Dóminus
+          ædificáverit domum, in vanum labórant qui ædíficant eam.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           A sabedoria deu aos justos a recompensa nos seus trabalhos,
           conduziu-os por um caminho de prodígios e foi para eles sombra durante
           o dia e luz das estrelas durante a noite, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. 126, 1</Typography> Se o Senhor não
-          edificar a casa, em vão trabalharão os que a constroem.
+          <Typography className="vernacular">Sl. 126, 1</Typography> Se o Senhor
+          não edificar a casa, em vão trabalharão os que a constroem.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -82,16 +82,18 @@ export default function Page05011962() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 36</Typography> De quacúmque tribulatióne
-          clamáverint ad me, exáudiam eos, et ero protéctor eórum semper.
-          Allelúja.<Typography className="versicle"> ℣. </Typography>Fac nos innócuam,
-          Joseph, decúrrere vitam: sitque tuo semper tuta patrocínio. Allelúja.
+          <Typography className="latin">Ps. 36</Typography> De quacúmque
+          tribulatióne clamáverint ad me, exáudiam eos, et ero protéctor eórum
+          semper. Allelúja.<Typography className="versicle"> ℣. </Typography>Fac
+          nos innócuam, Joseph, decúrrere vitam: sitque tuo semper tuta
+          patrocínio. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 36</Typography> Em qualquer tribulação em
-          que se encontrem e a mim recorram, ouvi-los-ei, e serei sempre o seu
-          protector. Aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 36</Typography> Em qualquer
+          tribulação em que se encontrem e a mim recorram, ouvi-los-ei, e serei
+          sempre o seu protector. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>
           Alcançai-nos, ó José, que a nossa vida decorra sã, e que seja sempre
           livre de perigo pelo auxílio do vosso patrocínio. Aleluia.
         </Typography>
@@ -111,13 +113,13 @@ export default function Page05011962() {
         </Typography>
         <Typography className="vernacular">
           Bem-aventurado tu, quem quer que sejas, que temes o Senhor e andas
-          pelos seus caminhos.<Typography className="versicle"> ℣. </Typography>Comerás o
-          trabalho das tuas mãos, o qual te será salutar.
+          pelos seus caminhos.<Typography className="versicle"> ℣. </Typography>
+          Comerás o trabalho das tuas mãos, o qual te será salutar.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Fac nos
-          innócuam, Joseph, decúrrere vitam: sitque tuo semper tuta patrocínio.
-          allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Fac nos innócuam, Joseph, decúrrere vitam: sitque tuo semper tuta
+          patrocínio. allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
@@ -137,10 +139,10 @@ export default function Page05011962() {
       <Language>
         <Typography className="latin">
           Beátus vir qui timet Dóminum, qui mandátis eius delectátur multum.
-          <Typography className="versicle"> ℣. </Typography>Potens in terra erit semen eius;
-          generatióni rectórum benedicétur.
-          <Typography className="versicle"> ℣. </Typography>Opes et divitiæ erunt in domo
-          eius, et munificéntia eius manébit semper.
+          <Typography className="versicle"> ℣. </Typography>Potens in terra erit
+          semen eius; generatióni rectórum benedicétur.
+          <Typography className="versicle"> ℣. </Typography>Opes et divitiæ
+          erunt in domo eius, et munificéntia eius manébit semper.
         </Typography>
         <Typography className="vernacular">
           Bem-aventurado o varão que teme o Senhor e que se delicia com seus
@@ -156,12 +158,12 @@ export default function Page05011962() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Véniens Jesus in pátriam suam, docébat eos in

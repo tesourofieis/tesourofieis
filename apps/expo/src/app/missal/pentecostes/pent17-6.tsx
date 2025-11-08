@@ -17,16 +17,17 @@ export default function PagePent176() {
         <Typography className="latin">
           Veníte, adorémus Deum et procidámus ante Dóminum, plorémus ante eum,
           qui fecit nos: quia ipse est Dóminus, Deus noster.{" "}
-          <Typography className="latin">Ps 94:1</Typography> Veníte, exsultémus Dómino:
-          jubilémus Deo, salutári nostro.
+          <Typography className="latin">Ps 94:1</Typography> Veníte, exsultémus
+          Dómino: jubilémus Deo, salutári nostro.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Vinde, adoremos Deus; prostemo-nos e choremos perante o Senhor, que
           nos criou: pois Ele é o Senhor, nosso Deus.{" "}
-          <Typography className="vernacular">Sl 94:1</Typography> Vinde, cantemos com
-          alegria ao Senhor: manifestemos o nosso júbilo a Deus, que é a nossa
-          salvação.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl 94:1</Typography> Vinde,
+          cantemos com alegria ao Senhor: manifestemos o nosso júbilo a Deus,
+          que é a nossa salvação.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
@@ -91,14 +92,15 @@ export default function PagePent176() {
       <Language>
         <Typography className="latin">
           Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi
-          est Deus eórum?<Typography className="versicle"> ℣. </Typography>Adjuva nos, Deus,
-          salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos.
+          est Deus eórum?<Typography className="versicle"> ℣. </Typography>
+          Adjuva nos, Deus, salutáris noster: et propter honórem nóminis tui,
+          Dómine, líbera nos.
         </Typography>
         <Typography className="vernacular">
           Perdoai, Senhor, os nossos pecados, para que os povos não digam: onde
-          está o seu Deus?<Typography className="versicle"> ℣. </Typography>Vinde em nosso
-          socorro, ó Deus, nosso Salvador: Livrai-nos, Senhor, para a glória do
-          vosso nome.
+          está o seu Deus?<Typography className="versicle"> ℣. </Typography>
+          Vinde em nosso socorro, ó Deus, nosso Salvador: Livrai-nos, Senhor,
+          para a glória do vosso nome.
         </Typography>
       </Language>
 
@@ -166,8 +168,8 @@ export default function PagePent176() {
         </Typography>
         <Typography className="vernacular">
           Olhai, ó Deus, nosso protector, olhai para os vossos servos.
-          <Typography className="versicle"> ℣. </Typography>Ó Senhor, Deus dos exércitos,
-          ouvi as preces dos vossos servos.
+          <Typography className="versicle"> ℣. </Typography>Ó Senhor, Deus dos
+          exércitos, ouvi as preces dos vossos servos.
         </Typography>
       </Language>
 
@@ -191,7 +193,9 @@ export default function PagePent176() {
 
       <Language>
         <Typography className="latin">Léctio Michææ Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do livro do Profeta Miquéias.</Typography>
+        <Typography className="vernacular">
+          Lição do livro do Profeta Miquéias.
+        </Typography>
         <Typography className="latin">
           Dómine, Deus noster, pasce pópulum tuum in virga tua, gregem
           hereditátis tuæ, habitántes solos in saltu, juxta dies antiquos.
@@ -224,13 +228,13 @@ export default function PagePent176() {
       <Language>
         <Typography className="latin">
           Convértere, Dómine, aliquántulum, et deprecáre super servos tuos.
-          <Typography className="versicle"> ℣. </Typography>Dómine, refúgium factus es
-          nobis, a generatióne et progénie.
+          <Typography className="versicle"> ℣. </Typography>Dómine, refúgium
+          factus es nobis, a generatióne et progénie.
         </Typography>
         <Typography className="vernacular">
           Volvei para nós vossos olhos, Senhor, e atendei aos vossos servos!
-          <Typography className="versicle"> ℣. </Typography>Senhor, tendes sido o nosso
-          refúgio de geração em geração.
+          <Typography className="versicle"> ℣. </Typography>Senhor, tendes sido
+          o nosso refúgio de geração em geração.
         </Typography>
       </Language>
 
@@ -254,7 +258,9 @@ export default function PagePent176() {
 
       <Language>
         <Typography className="latin">Léctio Zacharíæ Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do Profeta Zacarias.</Typography>
+        <Typography className="vernacular">
+          Lição do Profeta Zacarias.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Factum est verbum Dómini ad me, dicens: Hæc dicit
           Dóminus exercítuum: Sicut cogitávi, ut afflígerem vos, cum ad
@@ -301,8 +307,8 @@ export default function PagePent176() {
         </Typography>
         <Typography className="vernacular">
           Eleve-se, como o incenso, a minha oração até Vós, Senhor.
-          <Typography className="versicle"> ℣. </Typography>Que as minhas mãos erguidas Vos
-          sejam gratas, como o sacrifício da tarde.
+          <Typography className="versicle"> ℣. </Typography>Que as minhas mãos
+          erguidas Vos sejam gratas, como o sacrifício da tarde.
         </Typography>
       </Language>
 
@@ -447,8 +453,8 @@ export default function PagePent176() {
         </Typography>
         <Typography className="vernacular">
           Ó povos, louvai todos o Senhor, glorificai-O todos, ó povos.
-          <Typography className="versicle"> ℣. </Typography>A sua misericórdia é grande: e a
-          sua verdade subsistirá sempre.
+          <Typography className="versicle"> ℣. </Typography>A sua misericórdia é
+          grande: e a sua verdade subsistirá sempre.
         </Typography>
       </Language>
 
@@ -458,12 +464,12 @@ export default function PagePent176() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dicébat Jesus turbis hanc similitúdinem: Arbórem fici

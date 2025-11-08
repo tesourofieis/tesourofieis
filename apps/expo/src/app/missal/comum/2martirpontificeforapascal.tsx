@@ -16,15 +16,16 @@ export default function Page2Martirpontificeforapascal() {
         <Typography className="latin">
           Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit
           illi sacerdótii dígnitas in ætérnum.{" "}
-          <Typography className="latin">Ps. 131, 1</Typography> Meménto, Dómine, David: et
-          omnis mansuetúdinis ejus.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 131, 1</Typography> Meménto, Dómine,
+          David: et omnis mansuetúdinis ejus.
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Senhor fez com ele uma aliança de paz e proclamou-o príncipe, para
           que a dignidade sacerdotal lhe pertencesse eternamente.{" "}
-          <Typography className="vernacular">Sl. 131, 1</Typography> Lembrai-Vos de David, ó
-          Senhor, e da sua grande solicitude.
+          <Typography className="vernacular">Sl. 131, 1</Typography> Lembrai-Vos
+          de David, ó Senhor, e da sua grande solicitude.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -35,14 +36,16 @@ export default function Page2Martirpontificeforapascal() {
       <Language>
         <Typography className="latin">
           Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ
-          actiónis gravat, beáti <Typography className="latin">N.</Typography> Martyris tui
-          atque Pontíficis intercéssio gloriósa nos prótegat. Per Dóminum...
+          actiónis gravat, beáti <Typography className="latin">N.</Typography>{" "}
+          Martyris tui atque Pontíficis intercéssio gloriósa nos prótegat. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
           Olhai para a nossa fraqueza, ó Deus omnipotente; e, visto que estamos
           oprimidos sob o peso dos nossos pecados, fazei que nos proteja a
-          gloriosa intercessão do B. <Typography className="vernacular">N.</Typography>,
-          vosso Pontífice e Mártir. Por nosso Senhor...
+          gloriosa intercessão do B.{" "}
+          <Typography className="vernacular">N.</Typography>, vosso Pontífice e
+          Mártir. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -51,8 +54,12 @@ export default function Page2Martirpontificeforapascal() {
       <Typography className="em">Tg. 1, 12-18</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Jacóbi Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Tiago.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Jacóbi Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Tiago.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Beátus vir, qui suffert tentatiónem: quóniam, cum probátus
           fúerit, accípiet corónam vitæ, quam repromísit Deus diligéntibus se.
@@ -90,24 +97,24 @@ export default function Page2Martirpontificeforapascal() {
         <Typography className="latin">
           Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
           auxiliábitur ei, et bráchium meum confortábit eum.
-          <Typography className="versicle"> ℣. </Typography>Nihil profíciet inimícus in eo,
-          et fílius iniquitátis non nocébit ei.
+          <Typography className="versicle"> ℣. </Typography>Nihil profíciet
+          inimícus in eo, et fílius iniquitátis non nocébit ei.
         </Typography>
         <Typography className="vernacular">
           Encontrei o meu servo David e ungi-o com meu óleo sagrado; a minha mão
           o auxiliará e o meu braço o fortificará.
-          <Typography className="versicle"> ℣. </Typography>O inimigo nada poderá contra ele
-          e o filho da iniquidade nenhum mal lhe fará.
+          <Typography className="versicle"> ℣. </Typography>O inimigo nada
+          poderá contra ele e o filho da iniquidade nenhum mal lhe fará.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 109, 4</Typography> Tu es sacérdos in ætérnum,
-          secúndum órdinem Melchísedech. Allelúja.
+          <Typography className="latin">Ps. 109, 4</Typography> Tu es sacérdos
+          in ætérnum, secúndum órdinem Melchísedech. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 109, 4</Typography> Tu és sacerdote para
-          sempre, segundo a ordem de Melquisedeque. Aleluia.
+          <Typography className="vernacular">Sl. 109, 4</Typography> Tu és
+          sacerdote para sempre, segundo a ordem de Melquisedeque. Aleluia.
         </Typography>
       </Language>
 
@@ -122,10 +129,10 @@ export default function Page2Martirpontificeforapascal() {
       <Language>
         <Typography className="latin">
           Desidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
-          fraudásti eum.<Typography className="versicle"> ℣. </Typography>Quóniam prævenísti
-          eum in benedictiónibus dulcédinis.
-          <Typography className="versicle"> ℣. </Typography>Posuísti in cápite ejus corónam
-          de lápide pretióso.
+          fraudásti eum.<Typography className="versicle"> ℣. </Typography>
+          Quóniam prævenísti eum in benedictiónibus dulcédinis.
+          <Typography className="versicle"> ℣. </Typography>Posuísti in cápite
+          ejus corónam de lápide pretióso.
         </Typography>
         <Typography className="vernacular">
           Concedestes-lhe o desejo da sua alma: lhe não negastes o que seus
@@ -142,12 +149,12 @@ export default function Page2Martirpontificeforapascal() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus turbis: Si quis venit ad me, et non odit
@@ -204,15 +211,16 @@ export default function Page2Martirpontificeforapascal() {
 
       <Language>
         <Typography className="latin">
-          Hóstias tibi, Dómine, beáti <Typography className="latin">N.</Typography> Mártyris
-          tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum
-          nobis tríbue proveníre subsídium. Per Dóminum...
+          Hóstias tibi, Dómine, beáti{" "}
+          <Typography className="latin">N.</Typography> Mártyris tui atque
+          Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis
+          tríbue proveníre subsídium. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Recebei benigno, Senhor, as hóstias que Vos oferecemos pelos
-          merecimentos do B. <Typography className="vernacular">N.</Typography>, vosso
-          Mártir e Pontífice, e fazei que elas nos alcancem o vosso perpétuo
-          socorro. Por nosso Senhor...
+          merecimentos do B. <Typography className="vernacular">N.</Typography>,
+          vosso Mártir e Pontífice, e fazei que elas nos alcancem o vosso
+          perpétuo socorro. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -239,14 +247,15 @@ export default function Page2Martirpontificeforapascal() {
         <Typography className="latin">
           Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster:
           ut, cujus exséquimur cultum, intercedénte beáto{" "}
-          <Typography className="latin">N.</Typography> Mártyre tuo atque Pontífice,
-          sentiámus efféctum. Per Dóminum...
+          <Typography className="latin">N.</Typography> Mártyre tuo atque
+          Pontífice, sentiámus efféctum. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Fortalecidos com a participação do dom sacratíssimo, Vos pedimos,
           Senhor, nosso Deus, que, por intercessão do B.{" "}
-          <Typography className="vernacular">N.</Typography>, vosso Mártir e Pontífice,
-          sintamos o efeito do mystério que hoje celebrámos. Por nosso Senhor...
+          <Typography className="vernacular">N.</Typography>, vosso Mártir e
+          Pontífice, sintamos o efeito do mystério que hoje celebrámos. Por
+          nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

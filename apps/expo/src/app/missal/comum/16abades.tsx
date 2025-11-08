@@ -16,15 +16,16 @@ export default function Page16Abades() {
         <Typography className="latin">
           Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex
           Dei ejus in corde ipsíus. (T. P. Allelúja allelúja.){" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Noli æmulári in
-          malignántibus: neque zeláveris faciéntes iniquitátem.
+          <Typography className="latin">Ps. ibid., 1</Typography> Noli æmulári
+          in malignántibus: neque zeláveris faciéntes iniquitátem.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           A boca do justo fala com sabedoria: e a sua língua proclama a justiça.
           A lei do seu Deus estará no seu coração. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Não vos irriteis
-          contra os maus, nem tenhais inveja daqueles que cometem iniquidades.
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Não vos
+          irriteis contra os maus, nem tenhais inveja daqueles que cometem
+          iniquidades.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -34,15 +35,16 @@ export default function Page16Abades() {
       <Language>
         <Typography className="latin">
           Intercéssio nos, quǽsumus, Dómine, beáti{" "}
-          <Typography className="latin">N.</Typography> Abbátis comméndet: ut, quod nostris
-          méritis non valémus, ejus patrocínio assequámur. Per Dóminum
-          nostrum...
+          <Typography className="latin">N.</Typography> Abbátis comméndet: ut,
+          quod nostris méritis non valémus, ejus patrocínio assequámur. Per
+          Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
-          Que a intercessão do B. Abade <Typography className="vernacular">N.</Typography>{" "}
-          nos favoreça junto de Vós, Senhor, Vos suplicamos, a fim de que aquilo
-          que não podemos conseguir com os nossos méritos o alcancemos com seu
-          patrocínio. Por nosso Senhor...
+          Que a intercessão do B. Abade{" "}
+          <Typography className="vernacular">N.</Typography> nos favoreça junto
+          de Vós, Senhor, Vos suplicamos, a fim de que aquilo que não podemos
+          conseguir com os nossos méritos o alcancemos com seu patrocínio. Por
+          nosso Senhor...
         </Typography>
       </Language>
 
@@ -52,7 +54,9 @@ export default function Page16Abades() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapientiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Diléctus Deo et homínibus, cujus memória in benedictióne est. Símilem
           illum fecit in glória sanctórum, et magnificávit eum in timóre
@@ -83,8 +87,8 @@ export default function Page16Abades() {
         <Typography className="latin">
           Dómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in
           cápite ejus corónam de lápide pretióso.
-          <Typography className="versicle"> ℣. </Typography>Vitam pétiit a te, et tribuísti
-          ei longitúdinem diérum in sǽculum sǽculi.
+          <Typography className="versicle"> ℣. </Typography>Vitam pétiit a te,
+          et tribuísti ei longitúdinem diérum in sǽculum sǽculi.
         </Typography>
         <Typography className="vernacular">
           Senhor, concedestes-lhe bênçãos escolhidas as mais suaves; e
@@ -94,13 +98,14 @@ export default function Page16Abades() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 91, 13</Typography> Justus ut palma florébit:
-          sicut cedrus Líbani multiplicábitur. Allelúja.
+          <Typography className="latin">Ps. 91, 13</Typography> Justus ut palma
+          florébit: sicut cedrus Líbani multiplicábitur. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 91, 13</Typography> O justo florescerá,
-          como a palmeira, e crescerá, como o cedro do Líbano. Aleluia.
+          <Typography className="vernacular">Sl. 91, 13</Typography> O justo
+          florescerá, como a palmeira, e crescerá, como o cedro do Líbano.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -117,15 +122,17 @@ export default function Page16Abades() {
           Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
           <Typography className="versicle"> ℣. </Typography>
           Potens in terra erit semen ejus: generátio rectórum benedicétur.
-          <Typography className="versicle"> ℣. </Typography>Glória et divítiæ in domo ejus:
-          et justítia ejus manet in sǽculum sǽculi.
+          <Typography className="versicle"> ℣. </Typography>Glória et divítiæ in
+          domo ejus: et justítia ejus manet in sǽculum sǽculi.
         </Typography>
         <Typography className="vernacular">
           Bem-aventurado o varão que teme o Senhor e que emprega todo o zelo em
-          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua descendência
-          será poderosa na terra; pois a geração dos justos será abençoada.
-          <Typography className="versicle"> ℣. </Typography>Na sua casa haverá glória e
-          riqueza, e a sua justiça subsistirá em todos os séculos dos séculos.
+          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua
+          descendência será poderosa na terra; pois a geração dos justos será
+          abençoada.
+          <Typography className="versicle"> ℣. </Typography>Na sua casa haverá
+          glória e riqueza, e a sua justiça subsistirá em todos os séculos dos
+          séculos.
         </Typography>
       </Language>
 
@@ -136,19 +143,20 @@ export default function Page16Abades() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 91, 13</Typography> Justus ut palma florébit:
-          sicut cedrus Líbani multiplicábitur. Allelúja.
+          <Typography className="latin">Ps. 91, 13</Typography> Justus ut palma
+          florébit: sicut cedrus Líbani multiplicábitur. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Osee 14, 6</Typography> Justus germinábit sicut lílium:
-          et florébit in ætérnum ante Dóminum. Allelúja.
+          <Typography className="em">Osee 14, 6</Typography> Justus germinábit
+          sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 91, 13</Typography> O justo florescerá,
-          como a palmeira, e multiplicar-se-á, como o cedro do Líbano. Aleluia.
+          <Typography className="vernacular">Sl. 91, 13</Typography> O justo
+          florescerá, como a palmeira, e multiplicar-se-á, como o cedro do
+          Líbano. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Os. 14, 6</Typography> O justo germinará, como o lírio,
-          e florescerá eternamente na presença do Senhor. Aleluia.
+          <Typography className="em">Os. 14, 6</Typography> O justo germinará,
+          como o lírio, e florescerá eternamente na presença do Senhor. Aleluia.
         </Typography>
       </Language>
 
@@ -158,12 +166,12 @@ export default function Page16Abades() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Petrus ad Jesum: Ecce, nos relíquimus ómnia, et
@@ -209,14 +217,14 @@ export default function Page16Abades() {
       <Language>
         <Typography className="latin">
           Sacris altáribus, Dómine, hóstias superpósitas sanctus{" "}
-          <Typography className="latin">N.</Typography> Abbas, quǽsumus, in salútem nobis
-          proveníre depóscat. Per Dóminum...
+          <Typography className="latin">N.</Typography> Abbas, quǽsumus, in
+          salútem nobis proveníre depóscat. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Vos imploramos, Senhor, que o vosso santo Abade{" "}
-          <Typography className="vernacular">N.</Typography> nos alcance que a hóstia,
-          oferecida no vosso altar, nos proporcione a salvação. Por nosso
-          Senhor...
+          <Typography className="vernacular">N.</Typography> nos alcance que a
+          hóstia, oferecida no vosso altar, nos proporcione a salvação. Por
+          nosso Senhor...
         </Typography>
       </Language>
 
@@ -240,15 +248,15 @@ export default function Page16Abades() {
       <Language>
         <Typography className="latin">
           Prótegat nos, Dómine, cum tui perceptióne sacraménti beátus{" "}
-          <Typography className="latin">N.</Typography> Abbas, pro nobis intercedéndo: ut et
-          conversatiónis ejus experiámur insígnia, et intercessiónis percipiámus
-          suffrágia. Per Dóminum nostrum...
+          <Typography className="latin">N.</Typography> Abbas, pro nobis
+          intercedéndo: ut et conversatiónis ejus experiámur insígnia, et
+          intercessiónis percipiámus suffrágia. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
           Que a recepção do vosso sacramento, Senhor, unida às preces do B.{" "}
-          <Typography className="vernacular">N.</Typography> Abade, nos sirva de protecção,
-          a fim de que, imitando os insignes exemplos da sua vida, sintamos os
-          efeitos da sua intercessão. Por nosso Senhor...
+          <Typography className="vernacular">N.</Typography> Abade, nos sirva de
+          protecção, a fim de que, imitando os insignes exemplos da sua vida,
+          sintamos os efeitos da sua intercessão. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

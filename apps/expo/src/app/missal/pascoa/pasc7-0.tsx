@@ -17,15 +17,16 @@ export default function PagePasc70() {
         <Typography className="latin">
           Spíritus Dómini replévit orbem terrárum, allelúja: et hoc quod
           cóntinet ómnia, sciéntiam habet vocis, allelúja, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. 67, 2</Typography> Exsúrgat Deus, et dissipéntur
-          inimíci ejus: et fúgiant, qui odérunt eum, a fácie ejus.
+          <Typography className="latin">Ps. 67, 2</Typography> Exsúrgat Deus, et
+          dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a fácie ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Espírito do Senhor encheu todo o universo, aleluia. Ele, que abrange
           todas as coisas, sabe tudo quanto se diz: aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. 67, 2</Typography> Erga-se Deus e sejam
-          dispersos os seus inimigos: fujam da sua presença os seus inimigos!
+          <Typography className="vernacular">Sl. 67, 2</Typography> Erga-se Deus
+          e sejam dispersos os seus inimigos: fujam da sua presença os seus
+          inimigos!
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -52,7 +53,9 @@ export default function PagePasc70() {
 
       <Language>
         <Typography className="latin">Léctio Actuum Apostolórum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           Cum compleréntur dies Pentecóstes, erant omnes discípuli pariter in
           eódem loco: et factus est repéente de cœlo sonus, tamquam adveniéntis
@@ -97,17 +100,19 @@ export default function PagePasc70() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 103, 30</Typography> Emítte Spíritum tuum, et
-          creabúntur, et renovábis fáciem terræ. Allelúja.{" "}
+          <Typography className="latin">Ps. 103, 30</Typography> Emítte Spíritum
+          tuum, et creabúntur, et renovábis fáciem terræ. Allelúja.{" "}
           <Typography className="em">(hic genuflectitur)</Typography>
-          <Typography className="versicle"> ℣. </Typography>Veni, Sancte Spíritus, reple
-          tuórum corda fidélium: et tui amóris in eis ignem accénde.
+          <Typography className="versicle"> ℣. </Typography>Veni, Sancte
+          Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem
+          accénde.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 103, 30</Typography> Enviai o vosso
-          Espírito, e uma nova criação se operará: e renovareis a face da terra.
-          Aleluia. <Typography className="em">(Genuflecte-se)</Typography>
+          <Typography className="vernacular">Sl. 103, 30</Typography> Enviai o
+          vosso Espírito, e uma nova criação se operará: e renovareis a face da
+          terra. Aleluia.{" "}
+          <Typography className="em">(Genuflecte-se)</Typography>
           <Typography className="versicle"> ℣. </Typography>
           Vinde, ó Espírito Santo; enchei os corações dos vossos fiéis e acendei
           neles o fogo do vosso amor.
@@ -122,12 +127,12 @@ export default function PagePasc70() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Si quis díligit me,

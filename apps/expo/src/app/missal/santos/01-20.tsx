@@ -97,25 +97,28 @@ export default function Page0120() {
         <Typography className="latin">
           Gloriósus Deus in Sanctis suis: mirábilis in majestáte, fáciens
           prodígia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 6</Typography> Déxtera tua, Dómine,
-          glorificáta est in virtúte: déxtera manus tua confrégit inimícos.
+          <Typography className="latin">ibid., 6</Typography> Déxtera tua,
+          Dómine, glorificáta est in virtúte: déxtera manus tua confrégit
+          inimícos.
         </Typography>
         <Typography className="vernacular">
           Deus é glorioso em seus Santos: e admirável na sua majestade,
-          praticando prodígios.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 6</Typography> Senhor, a vossa mão
-          direita engrandeceu-se pela força: a vossa mão direita esmagou os
-          inimigos.
+          praticando prodígios.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 6</Typography> Senhor, a
+          vossa mão direita engrandeceu-se pela força: a vossa mão direita
+          esmagou os inimigos.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 144, 10-11</Typography> Sancti tui, Dómine,
-          benedícent te: glóriam regni tui dicent. Allelúja.
+          <Typography className="latin">Ps. 144, 10-11</Typography> Sancti tui,
+          Dómine, benedícent te: glóriam regni tui dicent. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 144, 10-11</Typography> Vossos Santos Vos
-          bendirão, Senhor: e proclamarão a glória do vosso reino. Aleluia.
+          <Typography className="vernacular">Sl. 144, 10-11</Typography> Vossos
+          Santos Vos bendirão, Senhor: e proclamarão a glória do vosso reino.
+          Aleluia.
         </Typography>
       </Language>
       <Typography className="aside">

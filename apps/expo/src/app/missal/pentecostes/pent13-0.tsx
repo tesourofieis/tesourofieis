@@ -17,8 +17,8 @@ export default function PagePent130() {
           Réspice, Dómine, in testaméntum tuum, et ánimas páuperum tuórum ne
           derelínquas in finem: exsúrge, Dómine, et júdica causam tuam, et ne
           obliviscáris voces quæréntium te.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Ut quid, Deus, reppulísti
-          in finem: irátus est furor tuus super oves páscuæ tuæ?
+          <Typography className="latin">Ps. ibid., 1</Typography> Ut quid, Deus,
+          reppulísti in finem: irátus est furor tuus super oves páscuæ tuæ?
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
@@ -26,8 +26,8 @@ export default function PagePent130() {
           sempre as almas dos vossos servos. Erguei-Vos, Senhor, julgai a vossa
           causa: e não desprezeis as orações daqueles que a Vós recorrem.
           Porque, ó Deus, nos repelistes para sempre?{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Porque, ó Deus,
-          cresceu a vossa ira contra as ovelhas dos vossos pastos?
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Porque, ó
+          Deus, cresceu a vossa ira contra as ovelhas dos vossos pastos?
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -100,25 +100,27 @@ export default function PagePent130() {
       <Language>
         <Typography className="latin">
           Réspice, Dómine, in testaméntum tuum: et ánimas páuperum tuórum ne
-          obliviscáris in finem.<Typography className="versicle"> ℣. </Typography>
+          obliviscáris in finem.
+          <Typography className="versicle"> ℣. </Typography>
           Exsúrge, Dómine, et júdica causam tuam: memor esto oppróbrii servórum
           tuórum.
         </Typography>
         <Typography className="vernacular">
           Lembrai-Vos, Senhor, da vossa aliança connosco e não esqueçais para
           sempre as almas dos vossos servos.
-          <Typography className="versicle"> ℣. </Typography>Erguei-Vos, Senhor, julgai a
-          vossa causa e lembrai-Vos dos opróbrios que sofreram os vossos servos.
+          <Typography className="versicle"> ℣. </Typography>Erguei-Vos, Senhor,
+          julgai a vossa causa e lembrai-Vos dos opróbrios que sofreram os
+          vossos servos.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 89, 1</Typography> Dómine, refúgium factus es
-          nobis a generatióne et progénie. Allelúja.
+          <Typography className="latin">Ps. 89, 1</Typography> Dómine, refúgium
+          factus es nobis a generatióne et progénie. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 89, 1</Typography> De geração em geração,
-          Senhor tendes sido o nosso refúgio. Aleluia.
+          <Typography className="vernacular">Sl. 89, 1</Typography> De geração
+          em geração, Senhor tendes sido o nosso refúgio. Aleluia.
         </Typography>
       </Language>
 
@@ -128,12 +130,12 @@ export default function PagePent130() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dum iret Jesus in Jerúsalem, transíbat per médiam

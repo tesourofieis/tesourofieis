@@ -25,10 +25,10 @@ export default function Page0727() {
         , excepto:
       </Typography>
       <H3 text="Oração" />
-      <Typography className="aside">Na Diocese do Porto</Typography>Ó Deus, que permitistes
-      que o B. Pantaleão, vosso Mártir, sofresse vários tormentos e orasse pelos
-      seus perseguidores, concedei-nos propício que, implorando o seu auxílio,
-      sintamos o efeito da vossa misericórdia. Por nosso Senhor...
+      <Typography className="aside">Na Diocese do Porto</Typography>Ó Deus, que
+      permitistes que o B. Pantaleão, vosso Mártir, sofresse vários tormentos e
+      orasse pelos seus perseguidores, concedei-nos propício que, implorando o
+      seu auxílio, sintamos o efeito da vossa misericórdia. Por nosso Senhor...
     </PageWrapper>
   );
 }

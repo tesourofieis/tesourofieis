@@ -17,16 +17,16 @@ export default function PagePaixao() {
           Humiliávit semetípsum Dóminus Jesus Christus usque ad mortem, mortem
           autem crucis: propter quod et Deus exaltávit illum, et donávit illi
           nomen, quod est super omne nomen. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. 88, 2</Typography> Misericórdias Dómini in
-          ætérnum cantábo: in generatiónem et generatiónem.
+          <Typography className="latin">Ps. 88, 2</Typography> Misericórdias
+          Dómini in ætérnum cantábo: in generatiónem et generatiónem.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Senhor Jesus Cristo humilhou-se a si próprio até à morte, e morte na
           Cruz; pelo que Deus o exaltou e Lhe deu um nome que é superior a todos
           os nomes. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. 88, 2</Typography> De geração em geração
-          cantarei eternamente as misericórdias do Senhor.
+          <Typography className="vernacular">Sl. 88, 2</Typography> De geração
+          em geração cantarei eternamente as misericórdias do Senhor.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -58,7 +58,9 @@ export default function PagePaixao() {
 
       <Language>
         <Typography className="latin">Léctio Zacharíæ Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do Profeta Zacarias.</Typography>
+        <Typography className="vernacular">
+          Lição do Profeta Zacarias.
+        </Typography>
         <Typography className="latin">
           Hæc dicit Dóminus: Effúndam super domum David et super habitatóres
           Jerúsalem spíritum grátiæ et precum: et aspícient ad me, quem
@@ -93,25 +95,27 @@ export default function PagePaixao() {
         <Typography className="latin">
           Impropérium exspectávi cor meum et misériam: et sustínui, qui simul
           mecum contristarétur, et non fuit: consolántem me quæsívi, et non
-          invéni.<Typography className="versicle"> ℣. </Typography>Dedérunt in escam meam
-          fel, et in siti mea potavérunt me acéto.
+          invéni.<Typography className="versicle"> ℣. </Typography>Dedérunt in
+          escam meam fel, et in siti mea potavérunt me acéto.
         </Typography>
         <Typography className="vernacular">
           O meu coração não encontra senão impropérios e misérias. Tenho
           esperado quem tenha compaixão de mim, mas não apareceu ninguém!
           Procurei quem me consolasse, mas encontrei ninguém.
-          <Typography className="versicle"> ℣. </Typography>Deram-me, fel para meu alimento:
-          e, quando tinha sede, deram-me vinagre a beber.
+          <Typography className="versicle"> ℣. </Typography>Deram-me, fel para
+          meu alimento: e, quando tinha sede, deram-me vinagre a beber.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Ave, Rex
-          noster: tu solus nostros es miserátus erróres: Patri obǿdiens, ductus
-          es ad crucifigéndum, ut agnus mansúetus ad occisiónem. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Ave, Rex noster: tu solus nostros es miserátus erróres: Patri
+          obǿdiens, ductus es ad crucifigéndum, ut agnus mansúetus ad
+          occisiónem. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Ave, ó nosso
-          Rei; só Vós tivestes compaixão de nossos erros. Sendo Vós obediente ao
-          pai, fostes levado, como manso cordeiro, à crucifixão. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Ave, ó nosso Rei; só Vós tivestes compaixão de nossos erros. Sendo Vós
+          obediente ao pai, fostes levado, como manso cordeiro, à crucifixão.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -127,22 +131,24 @@ export default function PagePaixao() {
       <Language>
         <Typography className="latin">
           Vere languóres nostros ipse tulit et dolóres nostros ipse portávit.
-          <Typography className="versicle"> ℣. </Typography>Et nos putávimus eum quasi
-          leprósum et percússum a Deo et humiliátum.
-          <Typography className="versicle"> ℣. </Typography>Ipse autem vulnerátus est
-          propter iníquitates nostras, attrítus est propter scélera nostra.
+          <Typography className="versicle"> ℣. </Typography>Et nos putávimus eum
+          quasi leprósum et percússum a Deo et humiliátum.
+          <Typography className="versicle"> ℣. </Typography>Ipse autem
+          vulnerátus est propter iníquitates nostras, attrítus est propter
+          scélera nostra.
           <Typography className="versicle"> ℣. </Typography>
           Disciplína pacis nostræ super eum: et livóre ejus sanáti sumus.
         </Typography>
         <Typography className="vernacular">
           Verdadeiramente tomou sobre si as nossas enfermidades e sofreu as
-          nossas dores.<Typography className="versicle"> ℣. </Typography>Nós julgávamo-l’O
-          como um leproso, como um homem ferido por Deus e humilhado pelos seus
-          castigos.
-          <Typography className="versicle"> ℣. </Typography>Porém Ele, foi ferido por causa
-          das nossas iniquidades; foi cheio de dores por causa dos nossos
-          crimes.<Typography className="versicle"> ℣. </Typography>Ele sofreu o castigo que
-          nos alcançou a paz: fomos curados com seus vergões de sangue.
+          nossas dores.<Typography className="versicle"> ℣. </Typography>Nós
+          julgávamo-l’O como um leproso, como um homem ferido por Deus e
+          humilhado pelos seus castigos.
+          <Typography className="versicle"> ℣. </Typography>Porém Ele, foi
+          ferido por causa das nossas iniquidades; foi cheio de dores por causa
+          dos nossos crimes.<Typography className="versicle"> ℣. </Typography>
+          Ele sofreu o castigo que nos alcançou a paz: fomos curados com seus
+          vergões de sangue.
         </Typography>
       </Language>
 
@@ -152,18 +158,22 @@ export default function PagePaixao() {
 
       <Language>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Ave, Rex
-          noster: tu solus nostros es miserátus erróres: Patri obǿdiens, ductus
-          es ad crucifigéndum, ut agnus mansúetus ad occisiónem. Allelúja.
-          <Typography className="versicle"> ℣. </Typography>Tibi glória, hosánna: tibi
-          triúmphus et victória: tibi summæ laudis et honóris coróna. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Ave, Rex noster: tu solus nostros es miserátus erróres: Patri
+          obǿdiens, ductus es ad crucifigéndum, ut agnus mansúetus ad
+          occisiónem. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>Tibi glória,
+          hosánna: tibi triúmphus et victória: tibi summæ laudis et honóris
+          coróna. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Ave, ó nosso
-          Rei; só Vós tivestes compaixão de nossos erros. Sendo Vós obediente ao
-          Pai, fostes levado, como manso cordeiro, à crucifixão. Aleluia.
-          <Typography className="versicle"> ℣. </Typography>A Vós Senhor, o triunfo e a
-          vitória; a Vós, a coroa da maior homenagem e louvor. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Ave, ó nosso Rei; só Vós tivestes compaixão de nossos erros. Sendo Vós
+          obediente ao Pai, fostes levado, como manso cordeiro, à crucifixão.
+          Aleluia.
+          <Typography className="versicle"> ℣. </Typography>A Vós Senhor, o
+          triunfo e a vitória; a Vós, a coroa da maior homenagem e louvor.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -173,12 +183,12 @@ export default function PagePaixao() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Sciens Jesus, quia ómnia consummáta sunt, ut

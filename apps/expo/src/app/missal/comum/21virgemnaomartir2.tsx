@@ -18,16 +18,17 @@ export default function Page21Virgemnaomartir2() {
           Vultum tuum deprecabúntur omnes dívites plebis: adducéntur Regi
           Vírgines post eam: próximæ ejus adducéntur tibi in lætítia et
           exsultatióne. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Eructávit cor meum verbum
-          bonum: dico ego ópera mea Regi.
+          <Typography className="latin">Ps. ibid., 2</Typography> Eructávit cor
+          meum verbum bonum: dico ego ópera mea Regi.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Todos os poderosos da terra implorarão os vossos olhares: após ela,
           serão apresentadas virgens ao Rei: as suas companheiras serão
           apresentadas ao Rei com grande alegria e júbilo. (T. P. Aleluia,
-          aleluia.) <Typography className="vernacular">Sl. ibid., 2</Typography> Meu coração
-          exprimiu uma palavra excelente: Consagro ao Rei as minhas obras!
+          aleluia.) <Typography className="vernacular">Sl. ibid., 2</Typography>{" "}
+          Meu coração exprimiu uma palavra excelente: Consagro ao Rei as minhas
+          obras!
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -37,14 +38,14 @@ export default function Page21Virgemnaomartir2() {
       <Language>
         <Typography className="latin">
           Exáudi nos, Deus, salutáris noster: ut, sicut de beátæ{" "}
-          <Typography className="latin">N.</Typography> Vírginis tuæ festivitáte gaudémus;
-          ita piæ devotiónis erudiámur affectu. Per Dóminum nostrum...
+          <Typography className="latin">N.</Typography> Vírginis tuæ festivitáte
+          gaudémus; ita piæ devotiónis erudiámur affectu. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
           Ouvi-nos, ó Deus, nosso salvador, a fim de que, assim como nos
           alegramos com a festa da vossa B. Virgem{" "}
-          <Typography className="vernacular">N.</Typography>, assim também consigamos
-          alcançar sentimentos de terna devoção. Por nosso Senhor...
+          <Typography className="vernacular">N.</Typography>, assim também
+          consigamos alcançar sentimentos de terna devoção. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -108,21 +109,22 @@ export default function Page21Virgemnaomartir2() {
       <Language>
         <Typography className="latin">
           Concupívit Rex decórem tuum, quóniam ipse est Dóminus, Deus tuus.
-          <Typography className="versicle"> ℣. </Typography>Audi, fília, et vide, et inclína
-          aurem tuam.
+          <Typography className="versicle"> ℣. </Typography>Audi, fília, et
+          vide, et inclína aurem tuam.
         </Typography>
         <Typography className="vernacular">
           O Rei está cheio de amor por vós, por causa da vossa beleza, pois Ele
-          é o Senhor, vosso Deus.<Typography className="versicle"> ℣. </Typography>Ó minha
-          filha, vede e prestai atenção.
+          é o Senhor, vosso Deus.
+          <Typography className="versicle"> ℣. </Typography>Ó minha filha, vede
+          e prestai atenção.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Hæc est Virgo
-          sápiens, et una de número prudéntum. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Hæc est Virgo sápiens, et una de número prudéntum. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Esta é a virgem
-          sábia e uma das virgens prudentes. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Esta é a virgem sábia e uma das virgens prudentes. Aleluia.
         </Typography>
       </Language>
 
@@ -137,23 +139,25 @@ export default function Page21Virgemnaomartir2() {
       <Language>
         <Typography className="latin">
           Quia concupívit Rex spéciem tuam.
-          <Typography className="versicle"> ℣. </Typography>Vultum tuum deprecabúntur omnes
-          divites plebis: fíliæ regum in honóre tuo.
+          <Typography className="versicle"> ℣. </Typography>Vultum tuum
+          deprecabúntur omnes divites plebis: fíliæ regum in honóre tuo.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 15-16</Typography> Adducéntur Regi Vírgines
-          post eam: próximæ ejus afferéntur tibi.
+          <Typography className="latin">ibid., 15-16</Typography> Adducéntur
+          Regi Vírgines post eam: próximæ ejus afferéntur tibi.
           <Typography className="versicle"> ℣. </Typography>
           Afferéntur in lætítia et exsultatióne: adducéntur in templum Regis.
         </Typography>
         <Typography className="vernacular">
           Pois o Rei está cheio de amor por vós, por causa da vossa beleza.
-          <Typography className="versicle"> ℣. </Typography>Todos os poderosos da terra
-          implorarão os vossos olhares: e as filhas dos reis formam a vossa
-          corte de glória.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 15-16</Typography> Depois de vós, virão
-          coros de virgens: as suas companheiras serão apresentadas ao Rei.
-          <Typography className="versicle"> ℣. </Typography>Serão apresentadas no meio da
-          alegria e do júbilo: e serão introduzidas no templo do Rei.
+          <Typography className="versicle"> ℣. </Typography>Todos os poderosos
+          da terra implorarão os vossos olhares: e as filhas dos reis formam a
+          vossa corte de glória.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 15-16</Typography> Depois de
+          vós, virão coros de virgens: as suas companheiras serão apresentadas
+          ao Rei.
+          <Typography className="versicle"> ℣. </Typography>Serão apresentadas
+          no meio da alegria e do júbilo: e serão introduzidas no templo do Rei.
         </Typography>
       </Language>
 
@@ -163,18 +167,18 @@ export default function Page21Virgemnaomartir2() {
 
       <Language>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Hæc est Virgo
-          sápiens, et una de número prudéntum. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Hæc est Virgo sápiens, et una de número prudéntum. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Sap. 4, 1</Typography> O quam pulchra est casta
-          generátio cum claritáte! Allelúja.
+          <Typography className="latin">Sap. 4, 1</Typography> O quam pulchra
+          est casta generátio cum claritáte! Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Esta é a virgem
-          sábia e uma das virgens prudentes. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Esta é a virgem sábia e uma das virgens prudentes. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sb. 4, 1</Typography> Oh! como é bela a geração
-          casta e gloriosa! Aleluia.
+          <Typography className="vernacular">Sb. 4, 1</Typography> Oh! como é
+          bela a geração casta e gloriosa! Aleluia.
         </Typography>
       </Language>
 

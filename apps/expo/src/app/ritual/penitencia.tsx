@@ -264,7 +264,9 @@ export default function PagePenitencia() {
         Após esta Preparação, o Penitente aproximar-se-á com humildade do
         Confessor e dirá:
       </Typography>
-      <Typography className="vernacular">Abençoai-me, Padre, porque pequei!</Typography>
+      <Typography className="vernacular">
+        Abençoai-me, Padre, porque pequei!
+      </Typography>
       <Typography className="aside">O Sacerdote abençoa, dizendo:</Typography>
       <Typography className="vernacular">
         Que o Senhor seja no teu coração e nos teus lábios, para que possas

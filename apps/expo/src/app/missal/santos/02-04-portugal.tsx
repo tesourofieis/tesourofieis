@@ -118,18 +118,19 @@ export default function Page0204Portugal() {
         </Typography>
         <Typography className="vernacular">
           Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em
-          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua descendência
-          será poderosa na terra; pois a geração dos justos será abençoada.
+          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua
+          descendência será poderosa na terra; pois a geração dos justos será
+          abençoada.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 20, 4</Typography> Posuísti, Dómine, super caput
-          ejus corónam de lápide pretióso. Allelúja.
+          <Typography className="latin">Ps. 20, 4</Typography> Posuísti, Dómine,
+          super caput ejus corónam de lápide pretióso. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 20, 4</Typography> Senhor, impusestes na
-          sua cabeça uma coroa de pedras preciosas. Aleluia.
+          <Typography className="vernacular">Sl. 20, 4</Typography> Senhor,
+          impusestes na sua cabeça uma coroa de pedras preciosas. Aleluia.
         </Typography>
       </Language>
 

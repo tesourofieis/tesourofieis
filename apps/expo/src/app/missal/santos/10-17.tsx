@@ -37,14 +37,16 @@ export default function Page1017() {
       <Language>
         <Typography className="latin">
           Sub umbra illíus, quem desideráveram, sedi: et fructus ejus dulcis
-          gútturi meo. <Typography className="latin">Ps. 83, 2-3</Typography> Quam dilécta
-          tabernácula tua, Dómine virtútum! concupíscit, et déficit ánima mea in
-          átria Dómini.<Typography className="versicle"> ℣. </Typography>
+          gútturi meo. <Typography className="latin">Ps. 83, 2-3</Typography>{" "}
+          Quam dilécta tabernácula tua, Dómine virtútum! concupíscit, et déficit
+          ánima mea in átria Dómini.
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Assentei-me à sombra daquele que eu desejara: e o seu fruto é doce ao
-          meu paladar. <Typography className="vernacular">Sl. 83, 2-3</Typography> Como são
+          meu paladar.{" "}
+          <Typography className="vernacular">Sl. 83, 2-3</Typography> Como são
           amáveis os vossos tabernáculos, ó Senhor dos exércitos! Minha alma
           suspira ardentemente pelos átrios do Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
@@ -84,25 +86,25 @@ export default function Page1017() {
         <Typography className="latin">
           Aquæ multæ non potuérunt exstínguere caritátem, nec flúmina óbruent
           illam.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 72, 26</Typography> Defécit caro mea et cor
-          meum: Deus cordis mei, et pars mea Deus in ætérnum.
+          <Typography className="latin">Ps. 72, 26</Typography> Defécit caro mea
+          et cor meum: Deus cordis mei, et pars mea Deus in ætérnum.
         </Typography>
         <Typography className="vernacular">
           As águas caudalosas não puderam extinguir a caridade, nem os rios a
           submergiram.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 72, 26</Typography> Meu corpo e o meu
-          coração desfaleceram, ó Deus, que sois o Deus do meu coração e a minha
-          herança na eternidade!
+          <Typography className="vernacular">Sl. 72, 26</Typography> Meu corpo e
+          o meu coração desfaleceram, ó Deus, que sois o Deus do meu coração e a
+          minha herança na eternidade!
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Cant. 7, 10</Typography> Ego dilécto meo, et ad me
-          conversio ejus. Allelúja.
+          <Typography className="latin">Cant. 7, 10</Typography> Ego dilécto
+          meo, et ad me conversio ejus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ct. 7, 10</Typography> Eu sou para o meu muito
-          amado! E Ele volveu-se para mim. Aleluia.
+          <Typography className="vernacular">Ct. 7, 10</Typography> Eu sou para
+          o meu muito amado! E Ele volveu-se para mim. Aleluia.
         </Typography>
       </Language>
 

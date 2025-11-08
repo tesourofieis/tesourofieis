@@ -12,15 +12,17 @@ export default function Page5Martirnaopontifice2() {
       <Language>
         <Typography className="latin">
           Lætábitur justus in Dómino, et sperábit in eo: et laudabúntur omnes
-          recti corde. <Typography className="latin">Ps. ibid., 2</Typography> Exáudi, Deus,
-          oratiónem meam, cum déprecor: a timóre inimíci éripe ánimam meam.
+          recti corde. <Typography className="latin">Ps. ibid., 2</Typography>{" "}
+          Exáudi, Deus, oratiónem meam, cum déprecor: a timóre inimíci éripe
+          ánimam meam.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O justo alegrar-se-á no Senhor e porá n’Ele a sua esperança. Todos
           aqueles que possuem o coração recto serão glorificados.{" "}
-          <Typography className="vernacular">Ps. ibid., 2</Typography> Ouvi, Senhor, a
-          oração com que Vos imploro: livrai a minha alma do temor do inimigo.
+          <Typography className="vernacular">Ps. ibid., 2</Typography> Ouvi,
+          Senhor, a oração com que Vos imploro: livrai a minha alma do temor do
+          inimigo.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -28,14 +30,14 @@ export default function Page5Martirnaopontifice2() {
       <Language>
         <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, intercedénte beáto{" "}
-          <Typography className="latin">N.</Typography> Mártyre tuo, et a cunctis
-          adversitátibus liberémur in córpore, et a pravis cogitatiónibus
-          mundémur in mente. Per Dóminum nostrum...
+          <Typography className="latin">N.</Typography> Mártyre tuo, et a
+          cunctis adversitátibus liberémur in córpore, et a pravis
+          cogitatiónibus mundémur in mente. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
           Concedei-nos, ó Deus omnipotente, Vos suplicamos, que, por intercessão
-          do B. <Typography className="vernacular">N.</Typography> vosso Mártir, o nosso
-          corpo seja preservado de todas as adversidades e a nossa alma
+          do B. <Typography className="vernacular">N.</Typography> vosso Mártir,
+          o nosso corpo seja preservado de todas as adversidades e a nossa alma
           purificada dos maus pensamentos. Por nosso Senhor...
         </Typography>
       </Language>
@@ -81,25 +83,26 @@ export default function Page5Martirnaopontifice2() {
         <Typography className="latin">
           Justus cum cecíderit, non collidétur: quia Dóminus suppónit manum
           suam.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 26</Typography> Tota die miserétur, et
-          cómmodat: et semen ejus in benedictióne erit.
+          <Typography className="latin">ibid., 26</Typography> Tota die
+          miserétur, et cómmodat: et semen ejus in benedictióne erit.
         </Typography>
         <Typography className="vernacular">
           Quando o justo cair, não se magoará, porque o Senhor o amparará com
           sua mão.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 26</Typography> Em cada dia ele se
-          emprega em obras de misericórdia, e empresta: e a sua geração será
-          abençoada.
+          <Typography className="vernacular">ibid., 26</Typography> Em cada dia
+          ele se emprega em obras de misericórdia, e empresta: e a sua geração
+          será abençoada.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Joann. 8, 12</Typography> Qui séquitur me, non
-          ámbulat in ténebris: sed habébit lumen vitæ ætérnæ. Allelúja.
+          <Typography className="latin">Joann. 8, 12</Typography> Qui séquitur
+          me, non ámbulat in ténebris: sed habébit lumen vitæ ætérnæ. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Jo. 8, 12</Typography> Aquele que me segue não
-          caminha nas trevas, mas terá a luz da vida eterna. Aleluia.
+          <Typography className="vernacular">Jo. 8, 12</Typography> Aquele que
+          me segue não caminha nas trevas, mas terá a luz da vida eterna.
+          Aleluia.
         </Typography>
       </Language>
       <Typography className="aside">
@@ -112,27 +115,28 @@ export default function Page5Martirnaopontifice2() {
           Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
           <Typography className="versicle"> ℣. </Typography>
           Potens in terra erit semen ejus: generátio rectórum benedicétur.
-          <Typography className="versicle"> ℣. </Typography>Glória et divítiæ in domo ejus:
-          et justítia ejus manet in sǽculum sǽculi.
+          <Typography className="versicle"> ℣. </Typography>Glória et divítiæ in
+          domo ejus: et justítia ejus manet in sǽculum sǽculi.
         </Typography>
         <Typography className="vernacular">
           Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em
-          obedecer-lhe.<Typography className="versicle"> ℣. </Typography>Sua descendência
-          será poderosa na terra, pois a geração dos justos será abençoada.
-          <Typography className="versicle"> ℣. </Typography>Haverá glória e riqueza em sua
-          casa e a sua justiça subsistirá para sempre.
+          obedecer-lhe.<Typography className="versicle"> ℣. </Typography>Sua
+          descendência será poderosa na terra, pois a geração dos justos será
+          abençoada.
+          <Typography className="versicle"> ℣. </Typography>Haverá glória e
+          riqueza em sua casa e a sua justiça subsistirá para sempre.
         </Typography>
       </Language>
       <H3 text="Evangelho" />
       <Typography className="em">Mt. 10, 26-32</Typography>
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Nihil est opértum, quod
@@ -202,22 +206,28 @@ export default function Page5Martirnaopontifice2() {
         <Typography className="latin">
           Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster:
           ut, cujus exséquimur cultum, intercedénte beáto{" "}
-          <Typography className="latin">N.</Typography> Mártyre tuo, sentiámus efféctum. Per
-          Dóminum...
+          <Typography className="latin">N.</Typography> Mártyre tuo, sentiámus
+          efféctum. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Fortalecidos com a participação deste dom sacratíssimo, Vos
           suplicamos, Senhor, nosso Deus, que, por intercessão do B.{" "}
-          <Typography className="vernacular">N.</Typography>, vosso Mártir, sintamos o
-          efeito do mystério que celebrámos. Por nosso Senhor...
+          <Typography className="vernacular">N.</Typography>, vosso Mártir,
+          sintamos o efeito do mystério que celebrámos. Por nosso Senhor...
         </Typography>
       </Language>
-      <Typography className="aside">Outra Epístola (para certos dias):</Typography>
+      <Typography className="aside">
+        Outra Epístola (para certos dias):
+      </Typography>
       <H3 text="Epístola" />
       <Typography className="em">Tg. 1, 2-12</Typography>
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Jacóbi Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Tiago.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Jacóbi Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Tiago.
+        </Typography>
         <Typography className="latin">
           Caríssime: Omne gáudium existimáte, cum in tentatiónes várias
           incidéritis: sciéntes, quod probátio fídei vestræ patiéntiam operátur.

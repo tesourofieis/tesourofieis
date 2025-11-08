@@ -34,16 +34,17 @@ export default function Page1009() {
         <Typography className="latin">
           In sermónibus Dómini ópera ejus: sol illúminans per ómnia respéxit, et
           glória Dómini plenum est opus ejus.{" "}
-          <Typography className="latin">Ps. 95, 1</Typography> Cantáte Dómino cánticum
-          novum: cantáte Dómino, omnis terra.
+          <Typography className="latin">Ps. 95, 1</Typography> Cantáte Dómino
+          cánticum novum: cantáte Dómino, omnis terra.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Pelas palavras do Senhor existem as suas obras. Assim como o sol
           resplandecente ilumina todas as coisas, assim as suas obras estão
           cheias da glória do Senhor.{" "}
-          <Typography className="vernacular">Sl. 95, 1</Typography> Cantai ao Senhor um
-          cântico novo: cantai ao Senhor, ó habitantes de toda a terra.
+          <Typography className="vernacular">Sl. 95, 1</Typography> Cantai ao
+          Senhor um cântico novo: cantai ao Senhor, ó habitantes de toda a
+          terra.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -135,26 +136,28 @@ export default function Page1009() {
         <Typography className="latin">
           Inflammátum est cor meum, et renes mei commutáti sunt: zelus domus tuæ
           comédit me.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Isai. 49, 2</Typography> Pósuit os meum quasi
-          gládium acutum: in umbra manus suæ protéxit me, et pósuit me sicut
-          sagíttam eléctam.
+          <Typography className="latin">Isai. 49, 2</Typography> Pósuit os meum
+          quasi gládium acutum: in umbra manus suæ protéxit me, et pósuit me
+          sicut sagíttam eléctam.
         </Typography>
         <Typography className="vernacular">
           Inflamou-se o meu coração e comoveram-se as minhas entranhas: o zelo
-          da tua casa devorou-me.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Is. 49, 2</Typography> O Senhor tornou a minha
-          boca como uma espada aguda: protegeu-me com a sombra da sua mão: e fez
-          de mim como que uma seta escolhida.
+          da tua casa devorou-me.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Is. 49, 2</Typography> O Senhor
+          tornou a minha boca como uma espada aguda: protegeu-me com a sombra da
+          sua mão: e fez de mim como que uma seta escolhida.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 70, 7</Typography> Tamquam prodígium factus sum
-          multis: et tu adjútor fortis, Allelúja.
+          <Typography className="latin">Ps. 70, 7</Typography> Tamquam prodígium
+          factus sum multis: et tu adjútor fortis, Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 70, 7</Typography> Fui considerado por
-          muitos como um prodígio: tu és um poderoso auxiliar. Aleluia.
+          <Typography className="vernacular">Sl. 70, 7</Typography> Fui
+          considerado por muitos como um prodígio: tu és um poderoso auxiliar.
+          Aleluia.
         </Typography>
       </Language>
 

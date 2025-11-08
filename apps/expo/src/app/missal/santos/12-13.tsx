@@ -44,25 +44,25 @@ export default function Page1213() {
       <Language>
         <Typography className="latin">
           Dilexísti justítiam, et odísti iniquitátem.
-          <Typography className="versicle"> ℣. </Typography>Proptérea unxit te Deus, Deus
-          tuus, óleo lætítiæ.
+          <Typography className="versicle"> ℣. </Typography>Proptérea unxit te
+          Deus, Deus tuus, óleo lætítiæ.
         </Typography>
         <Typography className="vernacular">
           Amastes a justiça e odiastes a iniquidade.
-          <Typography className="versicle"> ℣. </Typography>Por isso o Senhor, vosso Deus,
-          ungiu-vos com o óleo da alegria, de preferência às vossas
+          <Typography className="versicle"> ℣. </Typography>Por isso o Senhor,
+          vosso Deus, ungiu-vos com o óleo da alegria, de preferência às vossas
           companheiras.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 3</Typography> Diffúsa est grátia in lábiis
-          tuis: proptérea benedíxit te Deus in ætérnum. Allelúja.
+          <Typography className="latin">ibid., 3</Typography> Diffúsa est grátia
+          in lábiis tuis: proptérea benedíxit te Deus in ætérnum. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 3</Typography> A graça espalhou-se nos
-          vossos lábios; por isso Deus vos abençoou por todos os séculos.
-          Aleluia.
+          <Typography className="vernacular">ibid., 3</Typography> A graça
+          espalhou-se nos vossos lábios; por isso Deus vos abençoou por todos os
+          séculos. Aleluia.
         </Typography>
       </Language>
 

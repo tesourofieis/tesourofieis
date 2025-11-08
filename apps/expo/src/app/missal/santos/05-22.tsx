@@ -18,8 +18,8 @@ export default function Page0522() {
           Aperíte mihi portas justítiæ, ingréssus in eas confitébor Dómino:
           lápidem, quem reprobavérunt ædificántes, hic factus est in caput
           ánguli. (T.P. Allelúja, Allelúja.){" "}
-          <Typography className="latin">Ps. 117, 1</Typography> Confitémini Dómino, quóniam
-          bonus, quóniam in sǽculum misericórdia ejus.
+          <Typography className="latin">Ps. 117, 1</Typography> Confitémini
+          Dómino, quóniam bonus, quóniam in sǽculum misericórdia ejus.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
@@ -27,9 +27,10 @@ export default function Page0522() {
           Abri-me as portas da justiça, e, ao entrar por elas, louvarei o
           Senhor. A pedra que os edificadores rejeitaram tornou-se na pedra
           angular. (T.P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. 117, 1</Typography> Louvai o Senhor, porque
-          Ele é bom; a sua misericórdia permanecerá em todos os séculos dos
-          séculos.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. 117, 1</Typography> Louvai o
+          Senhor, porque Ele é bom; a sua misericórdia permanecerá em todos os
+          séculos dos séculos.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -59,7 +60,9 @@ export default function Page0522() {
 
       <Language>
         <Typography className="latin">Lectio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Ego flos campi, et lílium conválium. Sicut lílium inter spinas, sic
           amíca mea inter fílias. Sicut malus inter ligna silvárum, sic diléctus
@@ -105,21 +108,22 @@ export default function Page0522() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Eccli. 24, 18</Typography> Quasi palma exaltáta sum
-          in Cades, et quasi plantátio rosæ in Jéricho.
+          <Typography className="latin">Eccli. 24, 18</Typography> Quasi palma
+          exaltáta sum in Cades, et quasi plantátio rosæ in Jéricho.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">ibid., 20</Typography> Sicut cinnamómum et bálsamum
-          aromatízans odórem dedi: quasi myrrha elécta dedi suavitátem odóris.
-          Allelúja.
+          <Typography className="em">ibid., 20</Typography> Sicut cinnamómum et
+          bálsamum aromatízans odórem dedi: quasi myrrha elécta dedi suavitátem
+          odóris. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ecl. 24, 18</Typography> Fui exaltada como a
-          palmeira em Cades e como os roseirais das roseiras de Jericó. Aleluia.
+          <Typography className="vernacular">Ecl. 24, 18</Typography> Fui
+          exaltada como a palmeira em Cades e como os roseirais das roseiras de
+          Jericó. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">ibid., 20</Typography> Espalhei perfumes, como o
-          cinamomo e o bálsamo aromático: e como mirra escolhida exalei suave
-          odor. Aleluia.
+          <Typography className="em">ibid., 20</Typography> Espalhei perfumes,
+          como o cinamomo e o bálsamo aromático: e como mirra escolhida exalei
+          suave odor. Aleluia.
         </Typography>
       </Language>
 

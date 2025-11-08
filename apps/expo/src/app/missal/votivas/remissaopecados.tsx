@@ -17,8 +17,8 @@ export default function PageRemissaopecados() {
           Miseréris ómnium, Dómine, et nihil odísti eórum, quæ fecísti:
           dissímulans peccáta hóminum propter pœniténtiam, et parcens illis:
           quia tu es Dóminus, Deus noster. (T. P. Allelúja, allelúja){" "}
-          <Typography className="latin">Ps. 56, 2</Typography> Miserére mei, Deus, miserére
-          mei: quóniam in te confídit ánima mea.
+          <Typography className="latin">Ps. 56, 2</Typography> Miserére mei,
+          Deus, miserére mei: quóniam in te confídit ánima mea.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
@@ -26,9 +26,10 @@ export default function PageRemissaopecados() {
           criastes, tendes ódio: quando os homens fazem penitência, lançais um
           véu sobre os seus pecados e perdoais-lhes, porquanto sois o Senhor,
           nosso Deus. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. 56, 2</Typography> Tende misericórdia de
-          mim, ó Deus, tende misericórdia de mim, porque a minha alma em Vós
-          confia.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. 56, 2</Typography> Tende
+          misericórdia de mim, ó Deus, tende misericórdia de mim, porque a minha
+          alma em Vós confia.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -80,9 +81,9 @@ export default function PageRemissaopecados() {
       <Language>
         <Typography className="latin">
           Propítius esto, Dómine, peccátis nostris, ne quando dicant gentes: Ubi
-          est Deus eórum?<Typography className="versicle"> ℣. </Typography>ibid., 9 Adjuva
-          nos, Deus, salutáris noster: et propter honórem nóminis tui, Dómine,
-          líbera nos.
+          est Deus eórum?<Typography className="versicle"> ℣. </Typography>
+          ibid., 9 Adjuva nos, Deus, salutáris noster: et propter honórem
+          nóminis tui, Dómine, líbera nos.
         </Typography>
         <Typography className="vernacular">
           Sede propício para com os nossos pecados, Senhor, para que não digam
@@ -91,13 +92,14 @@ export default function PageRemissaopecados() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 7, 12</Typography> Deus judex justus, fortis et
-          pátiens: numquid irascátur per síngulos dies? Allelúja.
+          <Typography className="latin">Ps. 7, 12</Typography> Deus judex
+          justus, fortis et pátiens: numquid irascátur per síngulos dies?
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 7, 12</Typography> Deus é juiz justo, forte
-          e paciente: porventura irar-se-á todos os dias? Aleluia.
+          <Typography className="vernacular">Sl. 7, 12</Typography> Deus é juiz
+          justo, forte e paciente: porventura irar-se-á todos os dias? Aleluia.
         </Typography>
       </Language>
 
@@ -110,19 +112,21 @@ export default function PageRemissaopecados() {
           De profúndis clamávi ad te, Dómine: Dómine, exáudi vocem meam.
           <Typography className="versicle"> ℣. </Typography>
           Fiant aures tuæ intendéntes in oratiónem servi tui.
-          <Typography className="versicle"> ℣. </Typography>Si iniquitátes observáveris,
-          Dómine: Dómine, quis sustinébit?
-          <Typography className="versicle"> ℣. </Typography>Quia apud te propitiátio est: et
-          propter legem tuam sustínui te, Dómine.
+          <Typography className="versicle"> ℣. </Typography>Si iniquitátes
+          observáveris, Dómine: Dómine, quis sustinébit?
+          <Typography className="versicle"> ℣. </Typography>Quia apud te
+          propitiátio est: et propter legem tuam sustínui te, Dómine.
         </Typography>
         <Typography className="vernacular">
           Das profundezas do abysmo, Senhor, clamo por Vós; ouvi a minha oração,
-          Senhor.<Typography className="versicle"> ℣. </Typography>Estejam os vossos ouvidos
-          atentos à oração do vosso servo.
-          <Typography className="versicle"> ℣. </Typography>Se guardardes a lembrança dos
-          nossos delitos, Senhor, quem poderá subsistir ante Vós, Senhor?
-          <Typography className="versicle"> ℣. </Typography>Pois nas vossas mãos está o
-          perdão: e por causa da vossa lei ousei comparecer ante Vós, Senhor.
+          Senhor.<Typography className="versicle"> ℣. </Typography>Estejam os
+          vossos ouvidos atentos à oração do vosso servo.
+          <Typography className="versicle"> ℣. </Typography>Se guardardes a
+          lembrança dos nossos delitos, Senhor, quem poderá subsistir ante Vós,
+          Senhor?
+          <Typography className="versicle"> ℣. </Typography>Pois nas vossas mãos
+          está o perdão: e por causa da vossa lei ousei comparecer ante Vós,
+          Senhor.
         </Typography>
       </Language>
 
@@ -133,19 +137,21 @@ export default function PageRemissaopecados() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 7, 12</Typography> Deus judex justus, fortis et
-          pátiens: numquid irascétur per síngulos dies? Allelúja.
+          <Typography className="latin">Ps. 7, 12</Typography> Deus judex
+          justus, fortis et pátiens: numquid irascétur per síngulos dies?
+          Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. 50, 10</Typography> Audítui meo dabis gáudium et
-          lætítiam: et exsultábunt ossa humiliáta. Allelúja.
+          <Typography className="em">Ps. 50, 10</Typography> Audítui meo dabis
+          gáudium et lætítiam: et exsultábunt ossa humiliáta. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 7, 12</Typography> Deus é juiz justo, forte
-          e paciente. Porventura irar-se-á todos os dias? Aleluia.
+          <Typography className="vernacular">Sl. 7, 12</Typography> Deus é juiz
+          justo, forte e paciente. Porventura irar-se-á todos os dias? Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Sl. 50, 10</Typography> Dareis gozo e alegria aos meus
-          ouvidos: e meus ossos humilhados exultarão de contentamento. Aleluia.
+          <Typography className="em">Sl. 50, 10</Typography> Dareis gozo e
+          alegria aos meus ouvidos: e meus ossos humilhados exultarão de
+          contentamento. Aleluia.
         </Typography>
       </Language>
 
@@ -155,12 +161,12 @@ export default function PageRemissaopecados() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Pétite, et dábitur

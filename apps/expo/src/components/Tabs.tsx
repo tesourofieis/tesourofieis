@@ -12,7 +12,7 @@ export function Tabs({ children }) {
 
   const tabs = React.Children.toArray(children).filter(
     (child): child is ReactElement<TabItemProps> =>
-      React.isValidElement(child) && child.type === TabItem
+      React.isValidElement(child) && child.type === TabItem,
   );
 
   return (

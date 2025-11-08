@@ -48,23 +48,24 @@ export default function Page0506() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps 91:13</Typography> Justus ut palma florébit:
-          sicut cedrus Líbani multiplicábitur. Allelúja
+          <Typography className="latin">Ps 91:13</Typography> Justus ut palma
+          florébit: sicut cedrus Líbani multiplicábitur. Allelúja
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 91:13</Typography> O justo florescerá, como
-          a palmeira, e crescerá, como o cedro do Líbano. Aleluia.
+          <Typography className="vernacular">Sl. 91:13</Typography> O justo
+          florescerá, como a palmeira, e crescerá, como o cedro do Líbano.
+          Aleluia.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Ps 14:6</Typography>
-          <Typography className="versicle"> ℣. </Typography>Justus germinábit sicut lílium:
-          et florébit in ætérnum ante Dóminum. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>Justus germinábit
+          sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja.
         </Typography>
         <Typography className="vernacular">
           <Typography className="vernacular">Sl. 14:6</Typography>
-          <Typography className="versicle"> ℣. </Typography>O justo despontará, como o
-          lírio, e florescerá eternamente na presença do Senhor. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>O justo despontará,
+          como o lírio, e florescerá eternamente na presença do Senhor. Aleluia.
         </Typography>
       </Language>
 
@@ -74,12 +75,12 @@ export default function Page0506() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In llo témpore: Accessit ad Jesum mater filiórum Zebedǽi cum fíliis

@@ -16,15 +16,15 @@ export default function Page0101() {
         <Typography className="latin">
           Puer natus est nobis, et fílius datus est nobis: cujus impénum super
           húmerum ejus: et vocábitur nomen ejus magni consílii Angelus.{" "}
-          <Typography className="latin">Ps. 97, 1</Typography> Cantáte Dómino cánticum
-          novum: quia mirabília fecit.
+          <Typography className="latin">Ps. 97, 1</Typography> Cantáte Dómino
+          cánticum novum: quia mirabília fecit.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Nasceu para nós um Menino e foi-nos dado um Filho que traz sobre os
           ombros o manto da realeza, o qual será chamado «Anjo do admirável
-          conselho». <Typography className="vernacular">Sl. 97, 1</Typography> Cantai ao
-          Senhor um hino novo, pois Ele operou maravilhas.
+          conselho». <Typography className="vernacular">Sl. 97, 1</Typography>{" "}
+          Cantai ao Senhor um hino novo, pois Ele operou maravilhas.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -87,26 +87,28 @@ export default function Page0101() {
       <Language>
         <Typography className="latin">
           Vidérunt omnes fines terræ salutare Dei nostri: jubiláte Deo, omnis
-          terra.<Typography className="versicle"> ℣. </Typography>Notum fecit Dominus
-          salutare suum: ante conspéctum géntium revelávit justitiam suam.
+          terra.<Typography className="versicle"> ℣. </Typography>Notum fecit
+          Dominus salutare suum: ante conspéctum géntium revelávit justitiam
+          suam.
         </Typography>
         <Typography className="vernacular">
           Toda a terra viu o Salvador que o nosso Deus enviou: aclamai, pois, o
           Senhor, ó povos de toda a terra!
-          <Typography className="versicle"> ℣. </Typography>O Senhor manifestou o Salvador
-          que havia prometido: e manifestou a sua justiça aos olhos dos povos.
+          <Typography className="versicle"> ℣. </Typography>O Senhor manifestou
+          o Salvador que havia prometido: e manifestou a sua justiça aos olhos
+          dos povos.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Hebr. 1, 1-2</Typography> Multifárie olim Deus
-          loquens pátribus in Prophétis, novíssime diébus istis locútus est
-          nobis in Fílio. Allelúja.
+          <Typography className="latin">Hebr. 1, 1-2</Typography> Multifárie
+          olim Deus loquens pátribus in Prophétis, novíssime diébus istis
+          locútus est nobis in Fílio. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Heb. 1, 1-2</Typography> Deus, que outrora
-          falou de diversas maneiras pelos Profetas, dignou-se falar-nos nos
-          últimos tempos pelo seu Filho. Aleluia.
+          <Typography className="vernacular">Heb. 1, 1-2</Typography> Deus, que
+          outrora falou de diversas maneiras pelos Profetas, dignou-se falar-nos
+          nos últimos tempos pelo seu Filho. Aleluia.
         </Typography>
       </Language>
 
@@ -116,12 +118,12 @@ export default function Page0101() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Postquam consummáti sunt dies octo, ut

@@ -42,16 +42,16 @@ export default function Page0716() {
         <Typography className="latin">
           Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ
           Maríæ Vírginis: de cujus sollemnitáte gaudent Angeli et colláudant
-          Fílium Dei. <Typography className="latin">Ps. 44, 2</Typography> Eructávit cor
-          meum verbum bonum: dico ego ópera mea Regi.
+          Fílium Dei. <Typography className="latin">Ps. 44, 2</Typography>{" "}
+          Eructávit cor meum verbum bonum: dico ego ópera mea Regi.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Alegremo-nos todos no Senhor, no dia em que celebramos a festa em
           honra da B. Virgem Maria: os Anjos regozijam-se com esta festa e
           louvam unissonamente o Filho de Deus.{" "}
-          <Typography className="vernacular">Sl. 44, 2</Typography> Meu coração exprimiu uma
-          excelente palavra: Consagro ao Rei as minhas obras.
+          <Typography className="vernacular">Sl. 44, 2</Typography> Meu coração
+          exprimiu uma excelente palavra: Consagro ao Rei as minhas obras.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -80,7 +80,9 @@ export default function Page0716() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Ego quasi vitis fructificávi suavitátem odóris: et flores mei fructus
           honóris et honestátis. Ego mater pulchræ dilectiónis et timóris et
@@ -112,27 +114,28 @@ export default function Page0716() {
       <Language>
         <Typography className="latin">
           Bendeícta et venerábilis es, Virgo María: quæ sine tactu pudóris
-          invénta es Mater Salvatóris.<Typography className="versicle"> ℣. </Typography>
+          invénta es Mater Salvatóris.
+          <Typography className="versicle"> ℣. </Typography>
           Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit
           víscera factus homo.
         </Typography>
         <Typography className="vernacular">
           Bendita e venerável sois, ó Virgem Maria, que, sem a mais leve mancha
           de impureza, fostes a Mãe do Salvador.
-          <Typography className="versicle"> ℣. </Typography>Ó Virgem, Mãe de Deus, Aquele
-          que nem todo o universo é capaz de conter, esteve encerrado no vosso
-          seio, fazendo-se homem.
+          <Typography className="versicle"> ℣. </Typography>Ó Virgem, Mãe de
+          Deus, Aquele que nem todo o universo é capaz de conter, esteve
+          encerrado no vosso seio, fazendo-se homem.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Per te, Dei
-          Génetrix, nobis est vita pérdita data: quæ de cœlo suscepísti prolem,
-          et mundo genuísti Salvatórem. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Per te, Dei Génetrix, nobis est vita pérdita data: quæ de cœlo
+          suscepísti prolem, et mundo genuísti Salvatórem. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Por vós, ó Mãe
-          de Deus, nos foi restituída a vida que havíamos perdido! Vós
-          recebestes do céu a graça de serdes Mãe, gerando o Salvador do mundo.
-          Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Por
+          vós, ó Mãe de Deus, nos foi restituída a vida que havíamos perdido!
+          Vós recebestes do céu a graça de serdes Mãe, gerando o Salvador do
+          mundo. Aleluia.
         </Typography>
       </Language>
 

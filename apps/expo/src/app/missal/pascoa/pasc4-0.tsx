@@ -16,16 +16,17 @@ export default function PagePasc40() {
         <Typography className="latin">
           Cantáte Dómino cánticum novum, allelúja: quia mirabília fecit Dóminus,
           allelúja: ante conspéctum géntium revelávit justítiam suam, allelúja,
-          allelúja, allelúja. <Typography className="latin">Ps. ibid., 1</Typography>{" "}
-          Salvávit sibi déxtera ejus: et bráchium sanctum ejus.
+          allelúja, allelúja.{" "}
+          <Typography className="latin">Ps. ibid., 1</Typography> Salvávit sibi
+          déxtera ejus: et bráchium sanctum ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Cantai em honra do Senhor um hino novo, aleluia: porque operou
           maravilhas, aleluia: revelou a sua justiça, perante os olhos dos
           povos, aleluia, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Alcançou vitória com
-          sua dextra e com seu santo braço.
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Alcançou
+          vitória com sua dextra e com seu santo braço.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -53,8 +54,12 @@ export default function PagePasc40() {
       <Typography className="em">Tg. 1, 17-21</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Jacóbi Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Tiago.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Jacóbi Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Tiago.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Omne datum óptimum, et omne donum perféctum desúrsum est,
           descéndens a Patre lúminum, apud quem non est transmutátio nec
@@ -84,19 +89,19 @@ export default function PagePasc40() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 117, 16</Typography> Déxtera Dómini fecit
-          virtútem: déxtera Dómini exaltávit me. Allelúja.
+          <Typography className="latin">Ps. 117, 16</Typography> Déxtera Dómini
+          fecit virtútem: déxtera Dómini exaltávit me. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Rom. 6, 9</Typography> Christus resúrgens ex mórtuis
-          jam non móritur: mors illi ultra non dominábitur. Allelúja.
+          <Typography className="em">Rom. 6, 9</Typography> Christus resúrgens
+          ex mórtuis jam non móritur: mors illi ultra non dominábitur. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ps. 117, 16</Typography> A dextra do Senhor
-          mostrou o poder: a dextra do Senhor exaltou-me. Aleluia.
+          <Typography className="vernacular">Ps. 117, 16</Typography> A dextra
+          do Senhor mostrou o poder: a dextra do Senhor exaltou-me. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Rm. 6, 9</Typography> Cristo ressuscitou dos mortos, já
-          não morrerá: a morte não mais O vencerá. Aleluia.
+          <Typography className="em">Rm. 6, 9</Typography> Cristo ressuscitou
+          dos mortos, já não morrerá: a morte não mais O vencerá. Aleluia.
         </Typography>
       </Language>
 
@@ -106,12 +111,12 @@ export default function PagePasc40() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Vado ad eum, qui misit

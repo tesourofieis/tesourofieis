@@ -16,19 +16,21 @@ export default function PagePent60() {
         <Typography className="latin">
           Dóminus fortitudo plebis suæ, et protéctor salutárium Christi sui est:
           salvum fac pópulum tuum, Dómine, et benedic hereditáti tuæ, et rege
-          eos usque in sǽculum. <Typography className="latin">Ps. ibid., 1</Typography> Ad
-          te, Dómine, clamábo, Deus meus, ne síleas a me: ne quando táceas a me,
-          et assimilábor descendéntibus in lacum.
+          eos usque in sǽculum.{" "}
+          <Typography className="latin">Ps. ibid., 1</Typography> Ad te, Dómine,
+          clamábo, Deus meus, ne síleas a me: ne quando táceas a me, et
+          assimilábor descendéntibus in lacum.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Senhor é a fortaleza do seu povo e o protector e salvador do seu
           Cristo. Salvai o vosso povo, Senhor: abençoai a vossa herança: e
           governai-os até à eternidade.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Clamei por Vós,
-          Senhor: Ó meu Deus, não fecheis os ouvidos, afastando-Vos de mim,
-          pois, se me não escutais, tornar-me-ei semelhante àqueles que caem no
-          abysmo.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Clamei
+          por Vós, Senhor: Ó meu Deus, não fecheis os ouvidos, afastando-Vos de
+          mim, pois, se me não escutais, tornar-me-ei semelhante àqueles que
+          caem no abysmo.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -102,24 +104,24 @@ export default function PagePent60() {
       <Language>
         <Typography className="latin">
           Convértere, Dómine, aliquántulum, et deprecáre super servos tuos.
-          <Typography className="versicle"> ℣. </Typography>Dómine, refúgium factus es
-          nobis, a generatióne et progénie.
+          <Typography className="versicle"> ℣. </Typography>Dómine, refúgium
+          factus es nobis, a generatióne et progénie.
         </Typography>
         <Typography className="vernacular">
           Volvei-Vos um pouco para nós, Senhor: tende piedade dos vossos servos.
-          <Typography className="versicle"> ℣. </Typography>De geração em geração, fostes, ó
-          Senhor, o nosso refúgio.
+          <Typography className="versicle"> ℣. </Typography>De geração em
+          geração, fostes, ó Senhor, o nosso refúgio.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 30, 2-3</Typography> In te, Dómine, sperávi, non
-          confúndar in ætérnum: in justítia tua líbera me et éripe me: inclína
-          ad me aurem tuam, accélera, ut erípias me. Allelúja.
+          <Typography className="latin">Ps. 30, 2-3</Typography> In te, Dómine,
+          sperávi, non confúndar in ætérnum: in justítia tua líbera me et éripe
+          me: inclína ad me aurem tuam, accélera, ut erípias me. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 30, 2-3</Typography> Em Vós pus a
-          esperança, e não esperarei em vão: Pela vossa justiça, salvai-me e
+          <Typography className="vernacular">Sl. 30, 2-3</Typography> Em Vós pus
+          a esperança, e não esperarei em vão: Pela vossa justiça, salvai-me e
           livrai-me: inclinai vossos ouvidos para mim e apressai-Vos em
           socorrer-me. Aleluia.
         </Typography>
@@ -131,12 +133,12 @@ export default function PagePent60() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Marcum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Marcum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Marcos.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Marcos.
         </Typography>
         <Typography className="latin">
           In illo témpore: Cum turba multa esset cum Jesu, nec haberent, quod

@@ -8,6 +8,7 @@ catalog:
   date-fns: ^3.6.0
   "@types/node": ^20.9.0
   tailwindcss: ^4.1.16
+  eslint: ^9.0.0
 
 catalogs:
   react19:

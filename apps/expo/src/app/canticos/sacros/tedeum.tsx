@@ -71,7 +71,9 @@ export default function PageTedeum() {
         </Typography>
       </Language>
 
-      <Typography className="aside">O seguinte verso diz-se de joelhos:</Typography>
+      <Typography className="aside">
+        O seguinte verso diz-se de joelhos:
+      </Typography>
 
       <Language>
         <Typography className="latin">
@@ -100,8 +102,12 @@ export default function PageTedeum() {
         <Typography className="vernacular">
           Guiai os vossos servos e elevai-os até à vida eterna.
         </Typography>
-        <Typography className="latin">Per síngulos dies benedícimus te;</Typography>
-        <Typography className="vernacular">Todos os dias procuramos louvar-Vos.</Typography>
+        <Typography className="latin">
+          Per síngulos dies benedícimus te;
+        </Typography>
+        <Typography className="vernacular">
+          Todos os dias procuramos louvar-Vos.
+        </Typography>
         <Typography className="latin">
           Et laudámus nomen tuum in sǽculum, et in sǽculum sǽculi.
         </Typography>
@@ -114,7 +120,9 @@ export default function PageTedeum() {
         <Typography className="vernacular">
           Dignai-Vos, ó Senhor, neste dia preservar-nos do pecado.
         </Typography>
-        <Typography className="latin">Miserére nostri, Dómine, miserére nostri.</Typography>
+        <Typography className="latin">
+          Miserére nostri, Dómine, miserére nostri.
+        </Typography>
         <Typography className="vernacular">
           Tende piedade de nós, ó Senhor, tende piedade.
         </Typography>

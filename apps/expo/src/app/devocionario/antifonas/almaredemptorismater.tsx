@@ -27,18 +27,20 @@ export default function PageAlmaredemptorismater() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Angelus Dómini nuntiávit Maríæ.
+          <Typography className="versicle"> ℣. </Typography>Angelus Dómini
+          nuntiávit Maríæ.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Anjo do Senhor anunciou a
-          Maria.
+          <Typography className="versicle"> ℣. </Typography>O Anjo do Senhor
+          anunciou a Maria.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et concépit de Spíritu Sancto.
+          <Typography className="response"> ℟. </Typography> Et concépit de
+          Spíritu Sancto.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E Ela concebeu do Espírito
-          Santo.
+          <Typography className="response"> ℟. </Typography> E Ela concebeu do
+          Espírito Santo.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Orémus.</Typography>
@@ -72,20 +74,20 @@ export default function PageAlmaredemptorismater() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Post partum Virgo invioláta
-          permansísti.
+          <Typography className="versicle"> ℣. </Typography>Post partum Virgo
+          invioláta permansísti.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Despois do parto, Virgem,
-          permaneceste inviolada.
+          <Typography className="versicle"> ℣. </Typography>Despois do parto,
+          Virgem, permaneceste inviolada.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Dei Génitrix, intercéde pro
-          nobis.
+          <Typography className="response"> ℟. </Typography> Dei Génitrix,
+          intercéde pro nobis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Mãe de Deus, intercedei por
-          nós.
+          <Typography className="response"> ℟. </Typography> Mãe de Deus,
+          intercedei por nós.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Orémus.</Typography>

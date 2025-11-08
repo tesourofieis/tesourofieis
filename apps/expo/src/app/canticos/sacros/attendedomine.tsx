@@ -56,7 +56,9 @@ export default function PageAttendeDomine() {
           salvastes!
         </Typography>
       </Language>
-      <Typography className="aside">Nota: O refrão é cantado após cada verso.</Typography>
+      <Typography className="aside">
+        Nota: O refrão é cantado após cada verso.
+      </Typography>
     </PageWrapper>
   );
 }

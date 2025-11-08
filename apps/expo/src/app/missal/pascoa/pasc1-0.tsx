@@ -16,15 +16,17 @@ export default function PagePasc10() {
         <Typography className="latin">
           Quasi modo géniti infántes, allelúja: rationabiles, sine dolo lac
           concupíscite, allelúja, allelúja allelúja.{" "}
-          <Typography className="latin">Ps. 80, 2</Typography> Exsultáte Deo, adjutóri
-          nostro: jubiláte Deo Jacob.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 80, 2</Typography> Exsultáte Deo,
+          adjutóri nostro: jubiláte Deo Jacob.
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Como meninos recém-nascidos, aleluia, e raciocinando convenientemente,
           desejai com ardor beber o leite puro, aleluia, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. 80, 2</Typography> Aclamai a Deus, que é o
-          nosso Sustentáculo: cantai hinos de júbilo em honra de Deus de Jacob.
+          <Typography className="vernacular">Sl. 80, 2</Typography> Aclamai a
+          Deus, que é o nosso Sustentáculo: cantai hinos de júbilo em honra de
+          Deus de Jacob.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -49,8 +51,12 @@ export default function PagePasc10() {
       <Typography className="em">1 Jo. 5, 4-10</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Joannis Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º S. João.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Joannis Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º S. João.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Omne, quod natum est ex Deo, vincit mundum: et hæc est
           victoria, quæ vincit mundum, fides nostra. Quis est, qui vincit
@@ -84,21 +90,21 @@ export default function PagePasc10() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Matth. 28, 7</Typography> In die resurrectiónis meæ,
-          dicit Dóminus, præcédam vos in Galilǽam. Allelúja.
+          <Typography className="latin">Matth. 28, 7</Typography> In die
+          resurrectiónis meæ, dicit Dóminus, præcédam vos in Galilǽam. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Joann. 20, 26</Typography> Post dies octo, jánuis
-          clausis, stetit Jesus in médio discipulórum suórum, et dixit: Pax
-          vobis. Allelúja.
+          <Typography className="em">Joann. 20, 26</Typography> Post dies octo,
+          jánuis clausis, stetit Jesus in médio discipulórum suórum, et dixit:
+          Pax vobis. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Mt. 28, 7</Typography> No dia da minha
-          ressurreição, diz o Senhor, irei adiante de vós para a Galileia,
+          <Typography className="vernacular">Mt. 28, 7</Typography> No dia da
+          minha ressurreição, diz o Senhor, irei adiante de vós para a Galileia,
           aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Jo. 20, 26</Typography> Oito dias depois, estando as
-          portas fechadas, Jesus veio e, estando no meio dos seus discípulos,
-          disse: «A paz seja convosco», aleluia.
+          <Typography className="em">Jo. 20, 26</Typography> Oito dias depois,
+          estando as portas fechadas, Jesus veio e, estando no meio dos seus
+          discípulos, disse: «A paz seja convosco», aleluia.
         </Typography>
       </Language>
 
@@ -108,12 +114,12 @@ export default function PagePasc10() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Cum sero esset die illo, una sabbatórum, et fores

@@ -17,16 +17,16 @@ export default function PageEvitarmortandade() {
           Recordáre, Dómine, testaménti tui, et dic Angelo percutiénti: Cesset
           jam manus tua, et non desolétur terra, et ne perdas omnem ánimam
           vivéntem. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. 79, 2</Typography> Qui regis Israël, inténde:
-          qui dedúcis, velut ovem, Joseph.
+          <Typography className="latin">Ps. 79, 2</Typography> Qui regis Israël,
+          inténde: qui dedúcis, velut ovem, Joseph.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Recordai-Vos da vossa promessa, Senhor, e dizei ao Anjo que nos fere:
           «que a vossa mão cesse de ferir; que a terra já não seja desbaratada;
           não extermineis todos os seres viventes!». (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. 79, 2</Typography> Ouvi, ó vós que
-          governais Israel; ó vós que conduzis José, como uma ovelha.
+          <Typography className="vernacular">Sl. 79, 2</Typography> Ouvi, ó vós
+          que governais Israel; ó vós que conduzis José, como uma ovelha.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -97,24 +97,24 @@ export default function PageEvitarmortandade() {
       <Language>
         <Typography className="latin">
           Misit Dóminus verbum suum, et sanávit eos: et erípuit eos de morte
-          eórum.<Typography className="versicle"> ℣. </Typography>Confiteántur Dómino
-          misericórdiæ ejus: et mirabília ejus fíliis hóminum.
+          eórum.<Typography className="versicle"> ℣. </Typography>Confiteántur
+          Dómino misericórdiæ ejus: et mirabília ejus fíliis hóminum.
         </Typography>
         <Typography className="vernacular">
           Fez o Senhor ouvir a sua palavra, curou-os e salvou-os da morte.
-          <Typography className="versicle"> ℣. </Typography>Cantem-se louvores em honra das
-          misericórdias do Senhor: sejam engrandecidas as maravilhas que Ele
-          praticou em favor dos filhos dos homens.
+          <Typography className="versicle"> ℣. </Typography>Cantem-se louvores
+          em honra das misericórdias do Senhor: sejam engrandecidas as
+          maravilhas que Ele praticou em favor dos filhos dos homens.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 68, 2</Typography> Salvum me fac, Deus, quóniam
-          intravérunt aquæ usque ad ánimam meam. Allelúja.
+          <Typography className="latin">Ps. 68, 2</Typography> Salvum me fac,
+          Deus, quóniam intravérunt aquæ usque ad ánimam meam. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 68, 2</Typography> Salvai-me, ó Deus, pois
-          as águas (do mal) inundaram a minha alma, Aleluia.
+          <Typography className="vernacular">Sl. 68, 2</Typography> Salvai-me, ó
+          Deus, pois as águas (do mal) inundaram a minha alma, Aleluia.
         </Typography>
       </Language>
 
@@ -131,22 +131,22 @@ export default function PageEvitarmortandade() {
           Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum
           iniquitátes nostras retríbuas nobis.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 78, 8-9</Typography> Dómine, ne memíneris
-          iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ
-          tuæ, quia páuperes facti sumus nimis.
-          <Typography className="versicle"> ℣. </Typography>Adjuva nos, Deus, salutáris
-          noster: et propter glóriam nóminis tui, Dómine, líbera nos, et
-          propítius esto peccátis nostris, propter nomen tuum.
+          <Typography className="latin">Ps. 78, 8-9</Typography> Dómine, ne
+          memíneris iniquitátum nostrárum antiquárum: cito antícipent nos
+          misericórdiæ tuæ, quia páuperes facti sumus nimis.
+          <Typography className="versicle"> ℣. </Typography>Adjuva nos, Deus,
+          salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos,
+          et propítius esto peccátis nostris, propter nomen tuum.
         </Typography>
         <Typography className="vernacular">
           Não nos castigueis, Senhor, consoante merecemos, pelos pecados que
           praticámos: nem nos julgueis segundo as nossas iniquidades.{" "}
-          <Typography className="vernacular">Sl. 78, 8-9</Typography> Esquecei-Vos das
-          nossas iniquidades, Senhor: apressai-Vos em cobrir-nos com vossas
-          misericórdias, pois grande é a nossa miséria.
-          <Typography className="versicle"> ℣. </Typography>Auxiliai-nos, ó Deus, nosso
-          Salvador. Para glória do vosso nome, livrai-nos, Senhor! Por cansa do
-          vosso nome, perdoai os nossos pecados, Senhor!
+          <Typography className="vernacular">Sl. 78, 8-9</Typography>{" "}
+          Esquecei-Vos das nossas iniquidades, Senhor: apressai-Vos em
+          cobrir-nos com vossas misericórdias, pois grande é a nossa miséria.
+          <Typography className="versicle"> ℣. </Typography>Auxiliai-nos, ó
+          Deus, nosso Salvador. Para glória do vosso nome, livrai-nos, Senhor!
+          Por cansa do vosso nome, perdoai os nossos pecados, Senhor!
         </Typography>
       </Language>
 
@@ -157,20 +157,21 @@ export default function PageEvitarmortandade() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 68, 2</Typography> Salvum me fac, Deus, quóniam
-          intravérunt aquæ usque ad ánimam meam. Allelúja.
+          <Typography className="latin">Ps. 68, 2</Typography> Salvum me fac,
+          Deus, quóniam intravérunt aquæ usque ad ánimam meam. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Zach. 8, 7 et 8</Typography> Salvábo pópulum meum
-          Israël in die malo, et ero eis in Deum, in veritáte et justítia.
-          Allelúja.
+          <Typography className="em">Zach. 8, 7 et 8</Typography> Salvábo
+          pópulum meum Israël in die malo, et ero eis in Deum, in veritáte et
+          justítia. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 68, 2</Typography> Salvai-me, ó Deus, pois
-          as águas (do mal) inundaram a minha alma. Aleluia.
+          <Typography className="vernacular">Sl. 68, 2</Typography> Salvai-me, ó
+          Deus, pois as águas (do mal) inundaram a minha alma. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Zc. 8, 7 et 8</Typography> No dia mau Salvarei o meu
-          povo de Israel: e serei o seu Deus com verdade e justiça. Aleluia.
+          <Typography className="em">Zc. 8, 7 et 8</Typography> No dia mau
+          Salvarei o meu povo de Israel: e serei o seu Deus com verdade e
+          justiça. Aleluia.
         </Typography>
       </Language>
 
@@ -180,12 +181,12 @@ export default function PageEvitarmortandade() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Surgens Jesus de synagóga, introívit in domum

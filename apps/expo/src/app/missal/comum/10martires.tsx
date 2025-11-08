@@ -16,17 +16,18 @@ export default function Page10Martires() {
       <Language>
         <Typography className="latin">
           Sancti tui, Dómine, benedícent te: glóriam regni tui dicent, allelúja,
-          allelúja. <Typography className="latin">Ps. ibid., 1</Typography> Exaltábo te,
-          Deus meus, Rex: et benedícam nómini tuo in sǽculum, et in sǽculum
-          sǽculi.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+          allelúja. <Typography className="latin">Ps. ibid., 1</Typography>{" "}
+          Exaltábo te, Deus meus, Rex: et benedícam nómini tuo in sǽculum, et in
+          sǽculum sǽculi.<Typography className="versicle"> ℣. </Typography>
+          Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Que os vossos Santos Vos bendigam, Senhor: e publiquem a glória do
           vosso reino. Aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Exaltarei a vossa
-          glória, ó Deus, o meu Rei: e abençoarei o vosso Nome agora, sempre e
-          em todos os séculos!<Typography className="versicle"> ℣. </Typography>Glória ao
-          Pai...
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Exaltarei
+          a vossa glória, ó Deus, o meu Rei: e abençoarei o vosso Nome agora,
+          sempre e em todos os séculos!
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
@@ -43,7 +44,9 @@ export default function Page10Martires() {
 
       <Language>
         <Typography className="latin">Léctio Epístolæ beáti Petri.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Pedro.
+        </Typography>
         <Typography className="latin">
           Benedíctus Deus et Pater Dómini nostri Jesu Christi, qui secúndum
           misericórdiam suam magnam regenerávit nos in spem vivam, per
@@ -71,18 +74,20 @@ export default function Page10Martires() {
 
       <Language>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Sancti tui,
-          Dómine, florébunt sicut lílium: et sicut odor bálsami erunt ante te.
-          Allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 115, 15</Typography> Pretiósa in conspéctu
-          Dómini mors Sanctórum ejus. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Sancti tui, Dómine, florébunt sicut lílium: et sicut odor bálsami
+          erunt ante te. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 115, 15</Typography> Pretiósa in
+          conspéctu Dómini mors Sanctórum ejus. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Vossos santos,
-          Senhor, florescerão, como o lírio, e serão, ante Vós, como o odor do
-          bálsamo. Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 115, 15</Typography> É preciosa diante do
-          Senhor a morte dos seus Santos. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Vossos santos, Senhor, florescerão, como o lírio, e serão, ante Vós,
+          como o odor do bálsamo. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 115, 15</Typography> É preciosa
+          diante do Senhor a morte dos seus Santos. Aleluia.
         </Typography>
       </Language>
 
@@ -92,12 +97,12 @@ export default function Page10Martires() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Ego sum vitis, vos

@@ -15,17 +15,18 @@ export default function PageQuad12() {
       <Language>
         <Typography className="latin">
           Dómine, refúgium factus es nobis a generatióne et progénie: a sǽculo
-          et in sǽculum tu es. <Typography className="latin">Ps. ibid., 2</Typography>{" "}
-          Priúsquam montes fíerent, aut formarétur terra et orbis: a sǽculo et
-          usque in sǽculum tu es Deus.<Typography className="versicle"> ℣. </Typography>
+          et in sǽculum tu es.{" "}
+          <Typography className="latin">Ps. ibid., 2</Typography> Priúsquam
+          montes fíerent, aut formarétur terra et orbis: a sǽculo et usque in
+          sǽculum tu es Deus.<Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Senhor, tendes sido o nosso refúgio de geração em geração. Vós existis
           desde toda a eternidade e existireis sempre!{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Antes que os montes
-          fossem criados e que criásseis a terra e o mundo, Vós éreis já o nosso
-          Deus, desde a eternidade até à eternidade.
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Antes que
+          os montes fossem criados e que criásseis a terra e o mundo, Vós éreis
+          já o nosso Deus, desde a eternidade até à eternidade.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -98,8 +99,8 @@ export default function PageQuad12() {
         </Typography>
         <Typography className="vernacular">
           Eleve-se a minha oração, Senhor, até à vossa presença, como o incenso.
-          <Typography className="versicle"> ℣. </Typography>Que a elevação das minhas mãos
-          Vos seja agradável, como o sacrifício vespertino.
+          <Typography className="versicle"> ℣. </Typography>Que a elevação das
+          minhas mãos Vos seja agradável, como o sacrifício vespertino.
         </Typography>
       </Language>
 
@@ -109,12 +110,12 @@ export default function PageQuad12() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Cum intrásset Jesus Jerosólymam, commóta est univérsa

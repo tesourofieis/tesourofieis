@@ -17,16 +17,17 @@ export default function Page22Martiresnaovirgens() {
           Me exspectavérunt peccatóres, ut pérderent me: testimónia tua. Dómine,
           intelléxi: omnis consummatiónis vidi finem: latum mandátum tuum nimis.
           (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Beáti immaculáti in via:
-          qui ámbulant in lege Dómini.
+          <Typography className="latin">Ps. ibid., 1</Typography> Beáti
+          immaculáti in via: qui ámbulant in lege Dómini.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Esperaram-me os pecadores para me perderem; mas eu, Senhor, tinha
           meditado nos vossos avisos. Encontrei limites em tudo quanto existe: e
           só os vossos Mandamentos são infinitos. (T. P. Aleluia, aleluia).{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Bem-aventurados os
-          que são imaculados em seus caminhos e que cumprem a Lei do Senhor.
+          <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
+          Bem-aventurados os que são imaculados em seus caminhos e que cumprem a
+          Lei do Senhor.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -38,15 +39,15 @@ export default function Page22Martiresnaovirgens() {
         <Typography className="latin">
           Deus, qui inter cétera poténtiæ tuæ mirácula etiam in sexu frágili
           victóriam martýrii contulísti: concéde propítius; ut, qui beátæ{" "}
-          <Typography className="latin">N.</Typography> Martyris tuæ natalítia cólimus, per
-          ejus ad te exémpla gradiámur. Per Dóminum...
+          <Typography className="latin">N.</Typography> Martyris tuæ natalítia
+          cólimus, per ejus ad te exémpla gradiámur. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Ó Deus, que entre outros milagres do vosso poder permitistes que o
           sexo frágil alcançasse a vitória do martírio, concedei-nos propício
           que, venerando nós o nascimento no céu da B. Mártir{" "}
-          <Typography className="vernacular">N.</Typography>, caminhemos para Vós, imitando
-          os seus exemplos. Por nosso Senhor...
+          <Typography className="vernacular">N.</Typography>, caminhemos para
+          Vós, imitando os seus exemplos. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -58,7 +59,9 @@ export default function Page22Martiresnaovirgens() {
         <Typography className="latin">
           Lectio Epístolæ beati Pauli Apostoli ad Corinthios.
         </Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Confitébor tibi, Dómine, Rex, et collaudábo te Deum, Salvatórem meum.
           Confitébor nómini tuo: quóniam adjútor et protéctor factus es mihi, et
@@ -98,8 +101,8 @@ export default function Page22Martiresnaovirgens() {
       <Language>
         <Typography className="latin">
           Dilexísti justítiam, et odísti iniquitátem.
-          <Typography className="versicle"> ℣. </Typography>Proptérea unxit te Deus, Deus
-          tuus, óleo lætítiae.
+          <Typography className="versicle"> ℣. </Typography>Proptérea unxit te
+          Deus, Deus tuus, óleo lætítiae.
         </Typography>
         <Typography className="vernacular">
           Amastes a justiça e odiastes a iniquidade. Por essa razão, o Senhor,
@@ -107,13 +110,14 @@ export default function Page22Martiresnaovirgens() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 5</Typography> Spécie tua et pulchritúdine
-          tua inténde, próspere procéde et regna. Allelúja.
+          <Typography className="latin">ibid., 5</Typography> Spécie tua et
+          pulchritúdine tua inténde, próspere procéde et regna. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 5</Typography> Caminhai, pois, com
-          beleza e com majestade; ide gozar a vitória e reinai. Aleluia.
+          <Typography className="vernacular">ibid., 5</Typography> Caminhai,
+          pois, com beleza e com majestade; ide gozar a vitória e reinai.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -128,21 +132,23 @@ export default function Page22Martiresnaovirgens() {
           Veni, Sponsa Christi, áccipe corónam, quam tibi Dóminus præparávit in
           æternum: pro cujus amóre sánguinem tuum fudísti.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 44, 8 et 5</Typography> Diléxisti justítiam, et
-          odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiae
-          præ consórtibus tuis.
+          <Typography className="latin">Ps. 44, 8 et 5</Typography> Diléxisti
+          justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus,
+          óleo lætítiae præ consórtibus tuis.
           <Typography className="versicle"> ℣. </Typography>
           Spécie tua et pulchritúdine tua inténde, próspere procéde et regna.
         </Typography>
         <Typography className="vernacular">
           Vinde, ó esposa de Cristo; vinde e recebei a coroa que o Senhor
           preparou para vós, para a eternidade. Foi por amor dele que
-          derramastes o vosso sangue.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 44, 8 et 5</Typography> Amastes a justiça e
-          odiastes a iniquidade: eis porque o Senhor, vosso Deus, vos ungiu com
-          o óleo da alegria, de preferência às vossas companheiras.
-          <Typography className="versicle"> ℣. </Typography>Caminhai, pois, com beleza e com
-          majestade; ide gozar a vitória e reinai.
+          derramastes o vosso sangue.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 44, 8 et 5</Typography> Amastes
+          a justiça e odiastes a iniquidade: eis porque o Senhor, vosso Deus,
+          vos ungiu com o óleo da alegria, de preferência às vossas
+          companheiras.
+          <Typography className="versicle"> ℣. </Typography>Caminhai, pois, com
+          beleza e com majestade; ide gozar a vitória e reinai.
         </Typography>
       </Language>
 
@@ -153,19 +159,20 @@ export default function Page22Martiresnaovirgens() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 44, 5</Typography> Spécie tua et pulchritúdine
-          tua inténde, próspere procéde et regna. Allelúja.
+          <Typography className="latin">Ps. 44, 5</Typography> Spécie tua et
+          pulchritúdine tua inténde, próspere procéde et regna. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
           Propter veritátem et mansuetúdinem et justítiam: et dedúcet te
           mirabíliter déxtera tua. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 44, 5</Typography> Caminhai, pois, com
-          beleza e com majestade; ide gozar a vitória e reinai. Aleluia.
-          <Typography className="versicle"> ℣. </Typography>Por causa da vossa verdade,
-          mansidão e justiça, a vossa dextra operará admiráveis prodígios.
+          <Typography className="vernacular">Sl. 44, 5</Typography> Caminhai,
+          pois, com beleza e com majestade; ide gozar a vitória e reinai.
           Aleluia.
+          <Typography className="versicle"> ℣. </Typography>Por causa da vossa
+          verdade, mansidão e justiça, a vossa dextra operará admiráveis
+          prodígios. Aleluia.
         </Typography>
       </Language>
 
@@ -175,12 +182,12 @@ export default function Page22Martiresnaovirgens() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Símile
@@ -238,13 +245,15 @@ export default function Page22Martiresnaovirgens() {
       <Language>
         <Typography className="latin">
           Súscipe, Dómine, múnera, quæ in beátæ{" "}
-          <Typography className="latin">N.</Typography> Martyris tuæ sollemnitáte deférimus:
-          cujus nos confídimus patrocínio liberári. Per Dóminum...
+          <Typography className="latin">N.</Typography> Martyris tuæ
+          sollemnitáte deférimus: cujus nos confídimus patrocínio liberári. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
           Recebei benigno, Senhor, as ofertas que Vos apresentamos nesta
-          solenidade da vossa B. Mártir <Typography className="vernacular">N.</Typography>,
-          com o patrocínio da qual esperamos ser livres. Por nosso Senhor...
+          solenidade da vossa B. Mártir{" "}
+          <Typography className="vernacular">N.</Typography>, com o patrocínio
+          da qual esperamos ser livres. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -270,14 +279,14 @@ export default function Page22Martiresnaovirgens() {
       <Language>
         <Typography className="latin">
           Auxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáta{" "}
-          <Typography className="latin">N.</Typography> Mártyre tua, sempitérna fáciant
-          protectióne gaudére. Per Dóminum nostrum....
+          <Typography className="latin">N.</Typography> Mártyre tua, sempitérna
+          fáciant protectióne gaudére. Per Dóminum nostrum....
         </Typography>
         <Typography className="vernacular">
           Que nos auxiliem os sagrados mystérios que acabámos de receber,
           Senhor, e que, por intercessão da B.{" "}
-          <Typography className="vernacular">N.</Typography>, vossa Mártir, nos façam gozar
-          continuamente a sua protecção. Por nosso Senhor...
+          <Typography className="vernacular">N.</Typography>, vossa Mártir, nos
+          façam gozar continuamente a sua protecção. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

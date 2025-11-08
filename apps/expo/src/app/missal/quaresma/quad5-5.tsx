@@ -18,15 +18,16 @@ export default function PageQuad55() {
           Miserére mihi, Dómine, quóniam tríbulor: líbera me, et éripe me de
           mánibus inimicórum meórum et a persequéntibus me: Dómine, non
           confúndar, quóniam invocávi te.{" "}
-          <Typography className="latin">Ps. ib., 2</Typography> In te, Dómine, sperávi, non
-          confúndar in ætérnum: in justítia tua libera me.
+          <Typography className="latin">Ps. ib., 2</Typography> In te, Dómine,
+          sperávi, non confúndar in ætérnum: in justítia tua libera me.
         </Typography>
         <Typography className="vernacular">
           Tende misericórdia de mim, Senhor, pois estou aflito; salvai-me e
           livrai-me das mãos dos meus inimigos e perseguidores. Senhor, não
           serei confundido, porque Vos invoquei.{" "}
-          <Typography className="vernacular">Sl. ib., 2</Typography> Confio em Vós, Senhor,
-          não serei para sempre confundido; livrai-me segundo a vossa justiça.
+          <Typography className="vernacular">Sl. ib., 2</Typography> Confio em
+          Vós, Senhor, não serei para sempre confundido; livrai-me segundo a
+          vossa justiça.
         </Typography>
       </Language>
 
@@ -52,7 +53,9 @@ export default function PageQuad55() {
 
       <Language>
         <Typography className="latin">Léctio Jeremíæ Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do Profeta Jeremias.</Typography>
+        <Typography className="vernacular">
+          Lição do Profeta Jeremias.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Dixit Jeremías: Dómine, omnes, qui te derelínquunt,
           confundéntur: recedéntes a te in terra scribéntur: quóniam
@@ -90,8 +93,8 @@ export default function PageQuad55() {
       <Language>
         <Typography className="latin">
           Pacífice loquebántur mihi inimíci mei: et in ira molésti erant mihi.
-          <Typography className="versicle"> ℣. </Typography>Vidísti, Dómine, ne síleas: ne
-          discédas a me.
+          <Typography className="versicle"> ℣. </Typography>Vidísti, Dómine, ne
+          síleas: ne discédas a me.
         </Typography>
         <Typography className="vernacular">
           Os meus inimigos falavam-me aparentemente com palavras de paz; mas na
@@ -113,12 +116,12 @@ export default function PageQuad55() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Collegérunt pontífices et pharisǽi concílium advérsus

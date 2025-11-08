@@ -17,7 +17,9 @@ export default function Page070() {
           Em Vós, ó Senhor, tenho esperado, não seja jamais confundido: *
           livrai-me na vossa justiça e ponde-me a salvo.
         </Typography>
-        <Typography className="latin">Inclína ad me aurem tuam, * et salva me.</Typography>
+        <Typography className="latin">
+          Inclína ad me aurem tuam, * et salva me.
+        </Typography>
         <Typography className="vernacular">
           Inclinai para mim o vosso ouvido, * e salvai-me.
         </Typography>

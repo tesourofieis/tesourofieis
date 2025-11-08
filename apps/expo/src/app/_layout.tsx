@@ -6,7 +6,7 @@ import { DMSerifDisplay_400Regular_Italic } from "@expo-google-fonts/dm-serif-di
 import { DMSerifText_400Regular } from "@expo-google-fonts/dm-serif-text/400Regular";
 import { DMSerifText_400Regular_Italic } from "@expo-google-fonts/dm-serif-text/400Regular_Italic";
 import { useFonts } from "expo-font";
-import { useColorScheme , Platform, Pressable, View } from "react-native";
+import { useColorScheme, Platform, Pressable, View } from "react-native";
 import { useEffect } from "react";
 import "../global.css";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
@@ -23,7 +23,7 @@ import { StatusBar } from "expo-status-bar";
 import Drawer from "expo-router/drawer";
 import { CalendarProvider } from "~/providers/calendar";
 import { SettingsProvider } from "~/providers/settings";
-import { CustomDrawerContent } from "~/components/Drawer";
+import CustomDrawer from "~/components/Drawer";
 import { SearchModalProvider, useSearchModal } from "~/components/Search";
 
 SplashScreen.preventAutoHideAsync();
@@ -120,7 +120,7 @@ function UpdateAwareDrawer() {
     <CalendarProvider>
       <SettingsProvider>
         <Drawer
-          drawerContent={(props) => <CustomDrawerContent {...props} />}
+          drawerContent={(props) => <CustomDrawer {...props} />}
           screenOptions={{
             headerShown: true,
             freezeOnBlur: true,

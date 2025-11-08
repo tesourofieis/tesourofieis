@@ -17,15 +17,16 @@ export default function Page0227() {
           Oculus Dei respéxit illum in bono, et eréxit eum ab humilitáte ipsíus,
           et exaltávit caput ejus: et miráti sunt in illo multi et honoravérunt
           Deum. (T.P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. 72, 1</Typography> Quam bonus Israël Deus his,
-          qui recto sunt corde!<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 72, 1</Typography> Quam bonus Israël
+          Deus his, qui recto sunt corde!
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O olhar de Deus, fitou-o, benigno, ergueu-o da humilhação e
           exaltou-lhe a fronte. Então, muitos se admiraram e glorificaram Deus.{" "}
-          <Typography className="vernacular">Sl. 72, 1</Typography> Como Deus é bom para com
-          Israel e para com aqueles que têm o coração recto!
+          <Typography className="vernacular">Sl. 72, 1</Typography> Como Deus é
+          bom para com Israel e para com aqueles que têm o coração recto!
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -54,8 +55,12 @@ export default function Page0227() {
       <Typography className="em">1 Jo. 2, 14-17</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Joannis Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º João.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Joannis Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º João.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Scribo vobis, júvenes, quóniam fortes estis, et verbum Dei
           manet in vobis, et vicístis malígnum. Nolíte dilígere mundum neque ea,
@@ -83,13 +88,13 @@ export default function Page0227() {
       <Language>
         <Typography className="latin">
           Quam magna multitúdo dulcédinis tuæ, Dómine, quam abscondísti
-          timéntibus te!<Typography className="versicle"> ℣. </Typography>Perfecísti eis,
-          qui sperant in te, in conspéctu filiórum hóminum.
+          timéntibus te!<Typography className="versicle"> ℣. </Typography>
+          Perfecísti eis, qui sperant in te, in conspéctu filiórum hóminum.
         </Typography>
         <Typography className="vernacular">
           Como é grande, Senhor, a vossa bondade, que reservais para aqueles que
-          Vos temem!<Typography className="versicle"> ℣. </Typography>Encheis de graças
-          aqueles que em Vós esperam, na presença dos filhos dos homens.
+          Vos temem!<Typography className="versicle"> ℣. </Typography>Encheis de
+          graças aqueles que em Vós esperam, na presença dos filhos dos homens.
         </Typography>
       </Language>
 
@@ -101,11 +106,11 @@ export default function Page0227() {
         <Typography className="latin">
           Beátus vir, cujus est auxílium abs te: ascensiónes in corde suo
           dispósuit, in valle lacrimárum, in loco, quem pósuit.
-          <Typography className="versicle"> ℣. </Typography>Elegi abjéctus esse in domo Dei
-          mei: magis quam habitáre in tabernáculis peccatórum.
-          <Typography className="versicle"> ℣. </Typography>Non privábit bonis eos, qui
-          ámbulant in innocéntia: Dómine virtútum, beátus homo, qui sperat in
-          te.
+          <Typography className="versicle"> ℣. </Typography>Elegi abjéctus esse
+          in domo Dei mei: magis quam habitáre in tabernáculis peccatórum.
+          <Typography className="versicle"> ℣. </Typography>Non privábit bonis
+          eos, qui ámbulant in innocéntia: Dómine virtútum, beátus homo, qui
+          sperat in te.
         </Typography>
         <Typography className="vernacular">
           Bem-aventurado o homem de quem sois o auxílio: dispôs o seu coração
@@ -113,9 +118,9 @@ export default function Page0227() {
           Deus o colocou.
           <Typography className="versicle"> ℣. </Typography>
           Antes quis ser desprezível na Casa do Senhor do que habitar nas tendas
-          dos pecadores.<Typography className="versicle"> ℣. </Typography>Não recusará
-          nenhum bem àqueles que vivem na inocência. Ó Senhor dos exércitos,
-          bem-aventurado o homem que espera em Vós.
+          dos pecadores.<Typography className="versicle"> ℣. </Typography>Não
+          recusará nenhum bem àqueles que vivem na inocência. Ó Senhor dos
+          exércitos, bem-aventurado o homem que espera em Vós.
         </Typography>
       </Language>
 
@@ -125,12 +130,12 @@ export default function Page0227() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Marcum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Marcum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Marcos.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Marcos.
         </Typography>
         <Typography className="latin">
           In illo témpore: Offerébant Jesu parvulos, ut tángeret illos.

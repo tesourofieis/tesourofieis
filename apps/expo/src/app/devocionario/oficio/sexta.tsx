@@ -22,35 +22,36 @@ export default function PageSexta() {
       <Language>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography>Deus{" "}
-          <Typography className="cross"> ✠ </Typography> in adjutórium meum inténde.
+          <Typography className="cross"> ✠ </Typography> in adjutórium meum
+          inténde.
         </Typography>
         <Typography className="vernacular">
           <Typography className="versicle"> ℣. </Typography>Deus,{" "}
           <Typography className="cross"> ✠ </Typography> vinde em meu auxílio.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Dómine, ad adjuvándum me
-          festína.
+          <Typography className="response"> ℟. </Typography> Dómine, ad
+          adjuvándum me festína.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Senhor, apressai-Vos em
-          socorrer-me.
+          <Typography className="response"> ℟. </Typography> Senhor,
+          apressai-Vos em socorrer-me.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Glória Patri, et Fílio, et
-          Spíritui Sancto.
+          <Typography className="versicle"> ℣. </Typography>Glória Patri, et
+          Fílio, et Spíritui Sancto.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Glória ao Pai, e ao Filho e ao
-          Espírito Santo.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai, e ao
+          Filho e ao Espírito Santo.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Sicut erat in pricípio, et
-          nunc, et semper, et in sǽcula sæculórum. Amen.
+          <Typography className="response"> ℟. </Typography> Sicut erat in
+          pricípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Assim como era no princípio,
-          agora e sempre, e por todos os séculos dos séculos. Amen.
+          <Typography className="response"> ℟. </Typography> Assim como era no
+          princípio, agora e sempre, e por todos os séculos dos séculos. Amen.
         </Typography>
       </Language>
 
@@ -58,12 +59,12 @@ export default function PageSexta() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="latin">Ant.</Typography> In odorem unguentorum tuorum
-          currimus: adolescentulæ dilexerunt te nimis.
+          <Typography className="latin">Ant.</Typography> In odorem unguentorum
+          tuorum currimus: adolescentulæ dilexerunt te nimis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="vernacular">Ant.</Typography> Todos corremos à fragrância
-          dos vossos aromas, as donzelas amar-vos-ão grandemente.
+          <Typography className="vernacular">Ant.</Typography> Todos corremos à
+          fragrância dos vossos aromas, as donzelas amar-vos-ão grandemente.
         </Typography>
       </Language>
 
@@ -77,12 +78,13 @@ export default function PageSexta() {
         <TabItem label="Depois da Purificação">
           <Language>
             <Typography className="latin">
-              <Typography className="latin">Ant.</Typography> In odorem unguentorum tuorum
-              currimus: adolescentulæ dilexerunt te nimis.
+              <Typography className="latin">Ant.</Typography> In odorem
+              unguentorum tuorum currimus: adolescentulæ dilexerunt te nimis.
             </Typography>
             <Typography className="vernacular">
-              <Typography className="vernacular">Ant.</Typography> Todos corremos à
-              fragrância dos vossos aromas, as donzelas amar-vos-ão grandemente.
+              <Typography className="vernacular">Ant.</Typography> Todos
+              corremos à fragrância dos vossos aromas, as donzelas amar-vos-ão
+              grandemente.
             </Typography>
           </Language>
 
@@ -106,49 +108,55 @@ export default function PageSexta() {
               <Typography className="response"> ℟. </Typography> Graças a Deus.
             </Typography>
             <Typography className="latin">
-              <Typography className="versicle"> ℣. </Typography>Benedicta tu in mulieribus.
+              <Typography className="versicle"> ℣. </Typography>Benedicta tu in
+              mulieribus.
             </Typography>
             <Typography className="vernacular">
-              <Typography className="versicle"> ℣. </Typography>Bendita sois v´so entre as
-              mulheres.
+              <Typography className="versicle"> ℣. </Typography>Bendita sois
+              v´so entre as mulheres.
             </Typography>
             <Typography className="latin">
-              <Typography className="response"> ℟. </Typography> Et benedictus fructus
-              ventris tui.
+              <Typography className="response"> ℟. </Typography> Et benedictus
+              fructus ventris tui.
             </Typography>
             <Typography className="vernacular">
-              <Typography className="response"> ℟. </Typography> E bendito é o fruto do
-              vosso ventre.
+              <Typography className="response"> ℟. </Typography> E bendito é o
+              fruto do vosso ventre.
             </Typography>
           </Language>
 
           <Language>
             <Typography className="latin">
-              <Typography className="em">Hic genuflectitur</Typography> Kyrie eleison
+              <Typography className="em">Hic genuflectitur</Typography> Kyrie
+              eleison
             </Typography>
             <Typography className="vernacular">
-              <Typography className="em">Genuflectir</Typography> Senhor, tende piedade de
-              nós.
+              <Typography className="em">Genuflectir</Typography> Senhor, tende
+              piedade de nós.
             </Typography>
             <Typography className="latin">Christe, eléison.</Typography>
-            <Typography className="vernacular">Cristo, tende piedade de nós.</Typography>
+            <Typography className="vernacular">
+              Cristo, tende piedade de nós.
+            </Typography>
             <Typography className="latin">Kyrie, eléison.</Typography>
-            <Typography className="vernacular">Senhor, tende piedade de nós.</Typography>
-            <Typography className="latin">
-              <Typography className="versicle"> ℣. </Typography>Domine, exaudi orationem
-              meam.
-            </Typography>
             <Typography className="vernacular">
-              <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a minha
-              oração.
+              Senhor, tende piedade de nós.
             </Typography>
             <Typography className="latin">
-              <Typography className="response"> ℟. </Typography> Et clamor meus ad te
-              veniat.
+              <Typography className="versicle"> ℣. </Typography>Domine, exaudi
+              orationem meam.
             </Typography>
             <Typography className="vernacular">
-              <Typography className="response"> ℟. </Typography> E o meu clamor chegue até
-              Vós.
+              <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a
+              minha oração.
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Et clamor meus
+              ad te veniat.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> E o meu clamor
+              chegue até Vós.
             </Typography>
           </Language>
 
@@ -182,13 +190,14 @@ export default function PageSexta() {
         <TabItem label="No Advento">
           <Language>
             <Typography className="latin">
-              <Typography className="latin">Ant.</Typography> Ne timeas, María, invenísti
-              grátiam apud Dóminum: ecce concípies et páries fílium, (alleluia).
+              <Typography className="latin">Ant.</Typography> Ne timeas, María,
+              invenísti grátiam apud Dóminum: ecce concípies et páries fílium,
+              (alleluia).
             </Typography>
             <Typography className="vernacular">
-              <Typography className="vernacular">Ant.</Typography> Não temais, ó Maria,
-              achastes graça para com o Senhor: concebereis, e dareis à luz um
-              filho, (aleluia).
+              <Typography className="vernacular">Ant.</Typography> Não temais, ó
+              Maria, achastes graça para com o Senhor: concebereis, e dareis à
+              luz um filho, (aleluia).
             </Typography>
           </Language>
 
@@ -212,49 +221,55 @@ export default function PageSexta() {
               <Typography className="response"> ℟. </Typography> Graças a Deus.
             </Typography>
             <Typography className="latin">
-              <Typography className="versicle"> ℣. </Typography>Benedicta tu in mulieribus.
+              <Typography className="versicle"> ℣. </Typography>Benedicta tu in
+              mulieribus.
             </Typography>
             <Typography className="vernacular">
-              <Typography className="versicle"> ℣. </Typography>Bendita sois vóo entre as
-              mulheres.
+              <Typography className="versicle"> ℣. </Typography>Bendita sois vóo
+              entre as mulheres.
             </Typography>
             <Typography className="latin">
-              <Typography className="response"> ℟. </Typography> Et benedictus fructus
-              ventris tui.
+              <Typography className="response"> ℟. </Typography> Et benedictus
+              fructus ventris tui.
             </Typography>
             <Typography className="vernacular">
-              <Typography className="response"> ℟. </Typography> E bendito é o fruto do
-              vosso ventre.
+              <Typography className="response"> ℟. </Typography> E bendito é o
+              fruto do vosso ventre.
             </Typography>
           </Language>
 
           <Language>
             <Typography className="latin">
-              <Typography className="em">Hic genuflectitur</Typography> Kyrie eleison
+              <Typography className="em">Hic genuflectitur</Typography> Kyrie
+              eleison
             </Typography>
             <Typography className="vernacular">
-              <Typography className="em">Genuflectir</Typography> Senhor, tende piedade de
-              nós.
+              <Typography className="em">Genuflectir</Typography> Senhor, tende
+              piedade de nós.
             </Typography>
             <Typography className="latin">Christe, eléison.</Typography>
-            <Typography className="vernacular">Cristo, tende piedade de nós.</Typography>
+            <Typography className="vernacular">
+              Cristo, tende piedade de nós.
+            </Typography>
             <Typography className="latin">Kyrie, eléison.</Typography>
-            <Typography className="vernacular">Senhor, tende piedade de nós.</Typography>
-            <Typography className="latin">
-              <Typography className="versicle"> ℣. </Typography>Domine, exaudi orationem
-              meam.
-            </Typography>
             <Typography className="vernacular">
-              <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a minha
-              oração.
+              Senhor, tende piedade de nós.
             </Typography>
             <Typography className="latin">
-              <Typography className="response"> ℟. </Typography> Et clamor meus ad te
-              veniat.
+              <Typography className="versicle"> ℣. </Typography>Domine, exaudi
+              orationem meam.
             </Typography>
             <Typography className="vernacular">
-              <Typography className="response"> ℟. </Typography> E o meu clamor chegue até
-              Vós.
+              <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a
+              minha oração.
+            </Typography>
+            <Typography className="latin">
+              <Typography className="response"> ℟. </Typography> Et clamor meus
+              ad te veniat.
+            </Typography>
+            <Typography className="vernacular">
+              <Typography className="response"> ℟. </Typography> E o meu clamor
+              chegue até Vós.
             </Typography>
           </Language>
 
@@ -291,14 +306,14 @@ export default function PageSexta() {
         <TabItem label="No Natal">
           <Language>
             <Typography className="latin">
-              <Typography className="latin">Ant.</Typography> Rubum, quem viderat Moyses
-              incombustum, conservatam agnovimus tuam laudabilem virginitatem:
-              Dei Genitrix, intercede pro nobis.
+              <Typography className="latin">Ant.</Typography> Rubum, quem
+              viderat Moyses incombustum, conservatam agnovimus tuam laudabilem
+              virginitatem: Dei Genitrix, intercede pro nobis.
             </Typography>
             <Typography className="vernacular">
-              <Typography className="vernacular">Ant.</Typography> Na sarça que Moisés via
-              sem se consumir, reconhecemos a vossa admirável virgindade
-              conservada: rogai por nós, Santa Mãe de Deus.
+              <Typography className="vernacular">Ant.</Typography> Na sarça que
+              Moisés via sem se consumir, reconhecemos a vossa admirável
+              virgindade conservada: rogai por nós, Santa Mãe de Deus.
             </Typography>
           </Language>
 
@@ -322,19 +337,20 @@ export default function PageSexta() {
               <Typography className="response"> ℟. </Typography> Graças a Deus.
             </Typography>
             <Typography className="latin">
-              <Typography className="versicle"> ℣. </Typography>Benedicta tu in mulieribus.
+              <Typography className="versicle"> ℣. </Typography>Benedicta tu in
+              mulieribus.
             </Typography>
             <Typography className="vernacular">
-              <Typography className="versicle"> ℣. </Typography>Bendita sois vóo entre as
-              mulheres.
+              <Typography className="versicle"> ℣. </Typography>Bendita sois vóo
+              entre as mulheres.
             </Typography>
             <Typography className="latin">
-              <Typography className="response"> ℟. </Typography> Et benedictus fructus
-              ventris tui.
+              <Typography className="response"> ℟. </Typography> Et benedictus
+              fructus ventris tui.
             </Typography>
             <Typography className="vernacular">
-              <Typography className="response"> ℟. </Typography> E bendito é o fruto do
-              vosso ventre.
+              <Typography className="response"> ℟. </Typography> E bendito é o
+              fruto do vosso ventre.
             </Typography>
           </Language>
 
@@ -373,16 +389,20 @@ export default function PageSexta() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Domine, exaudi orationem meam.
+          <Typography className="versicle"> ℣. </Typography>Domine, exaudi
+          orationem meam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a minha oração.
+          <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a
+          minha oração.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et clamor meus ad te veniat.
+          <Typography className="response"> ℟. </Typography> Et clamor meus ad
+          te veniat.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E o meu clamor chegue até Vós.
+          <Typography className="response"> ℟. </Typography> E o meu clamor
+          chegue até Vós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Benedicamus Domino.
@@ -397,12 +417,12 @@ export default function PageSexta() {
           <Typography className="response"> ℟. </Typography> Graças a Deus.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Fidelium animæ per misericordiam
-          Dei, requiescant in pace.
+          <Typography className="versicle"> ℣. </Typography>Fidelium animæ per
+          misericordiam Dei, requiescant in pace.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>E que as almas dos fiéis, pela
-          misericórdia de Deus, descansem em paz.
+          <Typography className="versicle"> ℣. </Typography>E que as almas dos
+          fiéis, pela misericórdia de Deus, descansem em paz.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.

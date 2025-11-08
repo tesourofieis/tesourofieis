@@ -17,17 +17,18 @@ export default function PageDuranteguerra() {
           Reminíscere miseratiónum tuarum, Dómine, et misericórdiæ tuæ, quæ a
           sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera nos,
           Deus Israël, ex ómnibus angústiis nostris. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. ibid., 1-2</Typography> Ad te, Dómine, levávi
-          ánimam meam: Deus meus, in te confído, non erubéscam.
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Ad te,
+          Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Lembrai-Vos, Senhor, de que as vossas misericórdias são eternas: e não
           permitais que os nossos inimigos nos dominem. Livrai-nos, Senhor, dos
           males que nos afligem. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. ibid., 1-2</Typography> A Vós elevei a
-          minha alma. Ó meu Deus, confio em Vós: não permitireis que fique
-          envergonhado.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> A Vós
+          elevei a minha alma. Ó meu Deus, confio em Vós: não permitireis que
+          fique envergonhado.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -55,7 +56,9 @@ export default function PageDuranteguerra() {
 
       <Language>
         <Typography className="latin">Léctio Jeremíæ Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do Profeta Jeremias.</Typography>
+        <Typography className="vernacular">
+          Lição do Profeta Jeremias.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Accessérunt omnes príncipes bellatórum: dixerúntque
           ad Jeremíam Prophétam: Ora pro nobis ad Dóminum, Deum tuum. Et factum
@@ -94,23 +97,25 @@ export default function PageDuranteguerra() {
       <Language>
         <Typography className="latin">
           Tu es Deus, qui facis mirabília solus: notam fecísti in géntibus
-          virtútem tuam.<Typography className="versicle"> ℣. </Typography>Liberásti in
-          bráchio tuo pópulum tuum, fílios Israël et Joseph.
+          virtútem tuam.<Typography className="versicle"> ℣. </Typography>
+          Liberásti in bráchio tuo pópulum tuum, fílios Israël et Joseph.
         </Typography>
         <Typography className="vernacular">
           Sois o Senhor que opera prodígios! Fazeis conhecer aos povos o vosso
-          poder.<Typography className="versicle"> ℣. </Typography>Livrastes com a força do
-          vosso braço o vosso povo os filhos de Israel e de José.
+          poder.<Typography className="versicle"> ℣. </Typography>Livrastes com
+          a força do vosso braço o vosso povo os filhos de Israel e de José.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 58, 2</Typography> Eripe me de inimícis meis,
-          Deus meus: et ab insurgéntibus in me líbera me. Allelúja.
+          <Typography className="latin">Ps. 58, 2</Typography> Eripe me de
+          inimícis meis, Deus meus: et ab insurgéntibus in me líbera me.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 58, 2</Typography> Livrai-me dos meus
-          inimigos, ó meu Deus; livrai-me dos meus perseguidores. Aleluia.
+          <Typography className="vernacular">Sl. 58, 2</Typography> Livrai-me
+          dos meus inimigos, ó meu Deus; livrai-me dos meus perseguidores.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -127,22 +132,22 @@ export default function PageDuranteguerra() {
           Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum
           iniquitátes nostras retríbuas nobis.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 78, 8-9</Typography> Dómine, ne memíneris
-          iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ
-          tuæ, quia páuperes facti sumus nimis.
-          <Typography className="versicle"> ℣. </Typography>Adjuva nos, Deus, salutáris
-          noster: et propter glóriam nóminis tui, Dómine, líbera nos: et
-          propítius esto peccátis nostris, propter nomen tuum.
+          <Typography className="latin">Ps. 78, 8-9</Typography> Dómine, ne
+          memíneris iniquitátum nostrárum antiquárum: cito antícipent nos
+          misericórdiæ tuæ, quia páuperes facti sumus nimis.
+          <Typography className="versicle"> ℣. </Typography>Adjuva nos, Deus,
+          salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos:
+          et propítius esto peccátis nostris, propter nomen tuum.
         </Typography>
         <Typography className="vernacular">
           Não nos castigueis, Senhor, consoante merecemos pelos nossos pecados e
           iniquidades.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 78, 8-9</Typography> Esquecei-Vos das
-          nossas antigas iniquidades, Senhor: apressai-Vos em revestir-nos com
-          vossas misericórdias, pois grande é a nossa miséria.
-          <Typography className="versicle"> ℣. </Typography>Auxiliai-nos, ó Deus, nosso
-          Salvador. Para glória do vosso nome, livrai-nos, Senhor! Para glória
-          do vosso nome, perdoai-nos os nossos pecados, Senhor!
+          <Typography className="vernacular">Sl. 78, 8-9</Typography>{" "}
+          Esquecei-Vos das nossas antigas iniquidades, Senhor: apressai-Vos em
+          revestir-nos com vossas misericórdias, pois grande é a nossa miséria.
+          <Typography className="versicle"> ℣. </Typography>Auxiliai-nos, ó
+          Deus, nosso Salvador. Para glória do vosso nome, livrai-nos, Senhor!
+          Para glória do vosso nome, perdoai-nos os nossos pecados, Senhor!
         </Typography>
       </Language>
 
@@ -153,19 +158,21 @@ export default function PageDuranteguerra() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 58, 2</Typography> Eripe me de inimícis meis,
-          Deus meus: et ab insurgéntibus in me líbera me. Allelúja.
+          <Typography className="latin">Ps. 58, 2</Typography> Eripe me de
+          inimícis meis, Deus meus: et ab insurgéntibus in me líbera me.
+          Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">ibid., 17</Typography> Ego autem cantábo fortitúdinem
-          tuam: et exsultábo mane misericórdiam tuam. Allelúja.
+          <Typography className="em">ibid., 17</Typography> Ego autem cantábo
+          fortitúdinem tuam: et exsultábo mane misericórdiam tuam. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 58, 2</Typography> Livrai-me dos meus
-          inimigos, ó meu Deus: livrai-me dos meus perseguidores. Aleluia.
+          <Typography className="vernacular">Sl. 58, 2</Typography> Livrai-me
+          dos meus inimigos, ó meu Deus: livrai-me dos meus perseguidores.
+          Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">ibid., 17</Typography> Pois engrandecerei o vosso
-          poder: e louvarei desde manhã a vossa misericórdia. Aleluia.
+          <Typography className="em">ibid., 17</Typography> Pois engrandecerei o
+          vosso poder: e louvarei desde manhã a vossa misericórdia. Aleluia.
         </Typography>
       </Language>
 
@@ -175,12 +182,12 @@ export default function PageDuranteguerra() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Accessérunt ad Jesum discípuli secréto, dicéntes: Dic

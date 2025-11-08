@@ -63,7 +63,9 @@ export default function Page1024() {
 
       <Language>
         <Typography className="latin">Léctio libri Tobíæ.</Typography>
-        <Typography className="vernacular">Lição do Livro de Tobias.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro de Tobias.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Dixit Angelus Ráphaël ad Tobíam: Sacraméntum regis
           abscóndere bonum est: ópera autem Dei reveláre et confitéri
@@ -106,26 +108,26 @@ export default function Page1024() {
         <Typography className="latin">
           Angelus Dómini Raphaël apprehéndit et ligávit dǽmonem.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 146, 5</Typography> Magnus Dóminus noster, et
-          magna virtus ejus.
+          <Typography className="latin">Ps. 146, 5</Typography> Magnus Dóminus
+          noster, et magna virtus ejus.
         </Typography>
         <Typography className="vernacular">
           Rafael, o Anjo do Senhor, dominou o demónio e amarrou-o.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 146, 5</Typography> Grande é o Senhor,
-          nosso Deus; grande é o seu poder.
+          <Typography className="vernacular">Sl. 146, 5</Typography> Grande é o
+          Senhor, nosso Deus; grande é o seu poder.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 137, 1-2</Typography> In conspéctu Angelórum
-          psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini
-          tuo, Dómine. Allelúja.
+          <Typography className="latin">Ps. 137, 1-2</Typography> In conspéctu
+          Angelórum psallam tibi: adorábo ad templum sanctum tuum, et confitébor
+          nómini tuo, Dómine. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 137, 1-2</Typography> Cantarei Salmos na
-          presença dos Anjos; adorar-Vos-ei no vosso santo templo e glorificarei
-          o vosso santo nome, ó Senhor. Aleluia.
+          <Typography className="vernacular">Sl. 137, 1-2</Typography> Cantarei
+          Salmos na presença dos Anjos; adorar-Vos-ei no vosso santo templo e
+          glorificarei o vosso santo nome, ó Senhor. Aleluia.
         </Typography>
       </Language>
 
@@ -135,12 +137,12 @@ export default function Page1024() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Erat dies festus Judæórum, et ascéndit Jesus

@@ -16,15 +16,16 @@ export default function PageQuad15() {
       <Language>
         <Typography className="latin">
           Intret orátio mea in conspéctu tuo: inclína aurem tuam ad precem meam,
-          Dómine. <Typography className="latin">Ps. ibid., 2</Typography> Dómine, Deus
-          salútis meæ: in die clamávi, et nocte coram te.
+          Dómine. <Typography className="latin">Ps. ibid., 2</Typography>{" "}
+          Dómine, Deus salútis meæ: in die clamávi, et nocte coram te.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Que a minha oração chegue à vossa presença! Senhor, ouvi benigno a
-          minha súplica. <Typography className="vernacular">Sl. ibid., 2</Typography>{" "}
-          Senhor, meu Deus e meu Salvador, de dia e de noite clamo diante de
-          Vós.<Typography className="versicle"> ℣. </Typography>
+          minha súplica.{" "}
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Senhor,
+          meu Deus e meu Salvador, de dia e de noite clamo diante de Vós.
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
       </Language>
@@ -63,7 +64,9 @@ export default function PageQuad15() {
 
       <Language>
         <Typography className="latin">Léctio libri Deuteronómii.</Typography>
-        <Typography className="vernacular">Lição do Livro do Deuteronómio.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro do Deuteronómio.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Locútus est Móyses ad pópulum, dicens: Quando
           compléveris décimam cunctárum frugum tuárum, loquéris in conspéctu
@@ -112,8 +115,9 @@ export default function PageQuad15() {
       <Language>
         <Typography className="latin">
           Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi
-          est Deus eórum?<Typography className="versicle"> ℣. </Typography>Adjuva nos, Deus,
-          salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos.
+          est Deus eórum?<Typography className="versicle"> ℣. </Typography>
+          Adjuva nos, Deus, salutáris noster: et propter honórem nóminis tui,
+          Dómine, líbera nos.
         </Typography>
         <Typography className="vernacular">
           Perdoai os nossos pecados, Senhor, para que os povos não digam: «Onde
@@ -160,7 +164,9 @@ export default function PageQuad15() {
 
       <Language>
         <Typography className="latin">Léctio libri Deuteronómii.</Typography>
-        <Typography className="vernacular">Lição do Livro do Deuteronómio.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro do Deuteronómio.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Dixit Móyses fíliis Israël: Si custodiéritis mandáta,
           quæ ego præcípio vobis, et fecéritis ea, ut diligátis Dóminum, Deum
@@ -198,7 +204,8 @@ export default function PageQuad15() {
         </Typography>
         <Typography className="vernacular">
           Olhai para nós, ó Deus, que sois o nosso protector; lançai os olhos
-          para os vossos servos.<Typography className="versicle"> ℣. </Typography>
+          para os vossos servos.
+          <Typography className="versicle"> ℣. </Typography>
           Senhor, Deus dos exércitos, ouvi as súplicas dos vossos servos.
         </Typography>
       </Language>
@@ -239,7 +246,9 @@ export default function PageQuad15() {
 
       <Language>
         <Typography className="latin">Léctio libri Machabæórum.</Typography>
-        <Typography className="vernacular">Lição do Livro dos Macabeus.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro dos Macabeus.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Oratiónem faciebant omnes sacerdotes, dum
           consummarétur sacrifícium, Jónatha inchoánte, céteris autem
@@ -271,8 +280,8 @@ export default function PageQuad15() {
       <Language>
         <Typography className="latin">
           Convértere, Dómine, aliquántulum, et deprecáre super servos tuos.
-          <Typography className="versicle"> ℣. </Typography>Dómine, refúgium factus es
-          nobis, a generatióne et progénie.
+          <Typography className="versicle"> ℣. </Typography>Dómine, refúgium
+          factus es nobis, a generatióne et progénie.
         </Typography>
         <Typography className="vernacular">
           Vinde a nós quanto antes, Senhor, e deixai-Vos aplacar com as preces
@@ -318,7 +327,9 @@ export default function PageQuad15() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapientiae.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Miserére nostri, Deus ómnium, et réspice nos, et osténde nobis lucem
           miseratiónum tuárum: et immítte timórem tuum super gentes, quæ non
@@ -362,8 +373,8 @@ export default function PageQuad15() {
         </Typography>
         <Typography className="vernacular">
           Que a minha oração suba até à vossa presença, como incenso, Senhor!
-          <Typography className="versicle"> ℣. </Typography>E que o erguer das minhas mãos
-          Vos seja agradável, como o sacrifício da tarde.
+          <Typography className="versicle"> ℣. </Typography>E que o erguer das
+          minhas mãos Vos seja agradável, como o sacrifício da tarde.
         </Typography>
       </Language>
 
@@ -501,8 +512,9 @@ export default function PageQuad15() {
         </Typography>
         <Typography className="vernacular">
           Que todas as nações louvem o Senhor; que todos os povos O glorifiquem:
-          <Typography className="versicle"> ℣. </Typography>Porque a sua misericórdia é
-          infinita para connosco e a verdade do Senhor permanece eternamente.
+          <Typography className="versicle"> ℣. </Typography>Porque a sua
+          misericórdia é infinita para connosco e a verdade do Senhor permanece
+          eternamente.
         </Typography>
       </Language>
 

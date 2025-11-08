@@ -5,17 +5,21 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "check-types": "tsc --noEmit",
+    "check": "tsc --noEmit",
+    "lint": "eslint",
     "update-snapshot": "vitest -u .",
     "coverage": "vitest --coverage .",
-    "test": "vitest .",
-    "lint": "pnpx biome check --write --unsafe --files-ignore-unknown=true"
+    "test": "vitest ."
   },
   "dependencies": {
     "date-fns": "catalog:"
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.1",
     "@vitest/coverage-v8": "^1.6.1",
+    "eslint": "catalog:",
+    "globals": "^16.5.0",
+    "typescript-eslint": "^8.46.3",
     "vitest": "^1.6.1"
   }
 }

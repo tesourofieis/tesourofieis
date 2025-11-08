@@ -21,20 +21,20 @@ export default function PageAvereginacaelorum() {
           soberana, rogai a Cristo por nós.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Dignaré me laudáre te, Virgo
-          sacráta.
+          <Typography className="versicle"> ℣. </Typography>Dignaré me laudáre
+          te, Virgo sacráta.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Dignai-Vos aceitar, Senhora, os
-          meus louvores.
+          <Typography className="versicle"> ℣. </Typography>Dignai-Vos aceitar,
+          Senhora, os meus louvores.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Da mihi virtútem contra hostes
-          tuos.
+          <Typography className="response"> ℟. </Typography> Da mihi virtútem
+          contra hostes tuos.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E dai-me coragem para combater
-          os vossos inimigos.
+          <Typography className="response"> ℟. </Typography> E dai-me coragem
+          para combater os vossos inimigos.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Orémus.</Typography>

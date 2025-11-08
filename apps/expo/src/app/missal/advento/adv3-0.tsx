@@ -17,8 +17,8 @@ export default function PageAdv30() {
           Gaudéte in Dómino semper: íterum dico, gaudéte. Modéstia vestra nota
           sit ómnibus homínibus: Dóminus enim prope est. Nihil sollíciti sitis:
           sed in omni oratióne petitiónes vestræ innotéscant apud Deum.{" "}
-          <Typography className="latin">Ps. 84, 2</Typography> Benedixísti, Dómine, terram
-          tuam: avertísti captivitátem Jacob.
+          <Typography className="latin">Ps. 84, 2</Typography> Benedixísti,
+          Dómine, terram tuam: avertísti captivitátem Jacob.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
@@ -26,8 +26,8 @@ export default function PageAdv30() {
           regozijai-vos. Que todos os homens vejam a vossa modéstia, Pois o
           Senhor está perto. Não vos inquieteis com coisa alguma; mas mostrai a
           Deus nas vossas orações e súplicas todas vossas necessidades.{" "}
-          <Typography className="vernacular">Sl. 84, 2</Typography> Abençoastes, Senhor, a
-          vossa terra: e livrastes Jacob do cativeiro.
+          <Typography className="vernacular">Sl. 84, 2</Typography> Abençoastes,
+          Senhor, a vossa terra: e livrastes Jacob do cativeiro.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -82,22 +82,24 @@ export default function PageAdv30() {
       <Language>
         <Typography className="latin">
           Qui sedes, Dómine, super Chérubim, éxcita poténtiam tuam, et veni.
-          <Typography className="versicle"> ℣. </Typography>Qui regis Israël, inténde: qui
-          dedúcis, velut ovem, Joseph.
+          <Typography className="versicle"> ℣. </Typography>Qui regis Israël,
+          inténde: qui dedúcis, velut ovem, Joseph.
         </Typography>
         <Typography className="vernacular">
           Senhor, que estais assentado acima dos Querubins, mostrai o vosso
-          poder, e vinde.<Typography className="versicle"> ℣. </Typography>Ouvi, ó vós, que
-          governais Israel; ó vós, que conduzis José, como um pastor conduz um
-          rebanho.
+          poder, e vinde.<Typography className="versicle"> ℣. </Typography>Ouvi,
+          ó vós, que governais Israel; ó vós, que conduzis José, como um pastor
+          conduz um rebanho.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Excita,
-          Dómine, potentiam tuam, et veni, ut salvos fácias nos. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Excita, Dómine, potentiam tuam, et veni, ut salvos fácias nos.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Mostrai,
-          Senhor, o vosso poder, e vinde, para que sejamos salvos. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Mostrai, Senhor, o vosso poder, e vinde, para que sejamos salvos.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -107,12 +109,12 @@ export default function PageAdv30() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo tempore: Misérunt Judǽi ab Jerosólymis sacerdótes et levítas

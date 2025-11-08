@@ -49,17 +49,18 @@ export default function Page0816() {
         <Typography className="latin">
           Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi:
           cornu ejus exaltábitur in glória.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Beátus vir, qui timet
-          Dóminum: in mandátis ejus cupit nimis.
+          <Typography className="latin">Ps. ibid., 1</Typography> Beátus vir,
+          qui timet Dóminum: in mandátis ejus cupit nimis.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Distribuiu liberalmente os seus bens pelos pobres: a sua justiça
           subsistirá em todos os séculos dos séculos: e o seu poder será
-          exaltado com glória. <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
+          exaltado com glória.{" "}
+          <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
           Bem-aventurado o varão que teme o Senhor e que põe todo o zelo em
-          cumprir os mandamentos.<Typography className="versicle"> ℣. </Typography>Glória ao
-          Pai...
+          cumprir os mandamentos.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
@@ -93,24 +94,24 @@ export default function Page0816() {
       <Language>
         <Typography className="latin">
           Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi.
-          <Typography className="versicle"> ℣. </Typography>Potens in terra erit semen ejus:
-          generátio rectórum benedicétur.
+          <Typography className="versicle"> ℣. </Typography>Potens in terra erit
+          semen ejus: generátio rectórum benedicétur.
         </Typography>
         <Typography className="vernacular">
           Distribuiu liberalmente os seus bens pelos pobres: a sua justiça
           permanecerá em todos os séculos dos séculos.
-          <Typography className="versicle"> ℣. </Typography>Sua descendência será poderosa
-          na terra, pois a geração dos justos será abençoada.
+          <Typography className="versicle"> ℣. </Typography>Sua descendência
+          será poderosa na terra, pois a geração dos justos será abençoada.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>O Jóachim,
-          sanctæ conjux Annæ, pater almæ Vírginis, hic fámulis ferto salútis
-          opem. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>O
+          Jóachim, sanctæ conjux Annæ, pater almæ Vírginis, hic fámulis ferto
+          salútis opem. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Ó S. Joaquim,
-          Esposo de Santa Ana, Pai da Virgem-Mãe, concedei na terra aos vossos
-          os socorros necessários para a salvação. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Ó
+          S. Joaquim, Esposo de Santa Ana, Pai da Virgem-Mãe, concedei na terra
+          aos vossos os socorros necessários para a salvação. Aleluia.
         </Typography>
       </Language>
 
@@ -120,12 +121,12 @@ export default function Page0816() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Initium sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Initium sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Início do santo Evangelho segundo
-          S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Início do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           Liber generatiónis Jesu Christi, fílii David, fílii Abralam. Abraham

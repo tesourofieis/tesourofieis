@@ -18,16 +18,16 @@ export default function Page0512() {
           Ecce, óculi Dómini super timéntes eum, sperántes in misericórdia ejus,
           allelúja: ut erípiat a morte ánimas eórum: quóniam adjútor et
           protéctor noster est, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps 32:1</Typography> Exsultáte, justi, in Dómino:
-          rectos decet collaudátio.
+          <Typography className="latin">Ps 32:1</Typography> Exsultáte, justi,
+          in Dómino: rectos decet collaudátio.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Eis que os olhos do Senhor se dirigem aos que o temem, e esperam na
           sua misericórdia, aleluia: para livrar as suas almas da morte: porque
           Ele é o nosso socorro e o nosso protector, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. 32, 1</Typography> Justos, alegrai-vos no
-          Senhor: aos rectos convém que o louvem.
+          <Typography className="vernacular">Sl. 32, 1</Typography> Justos,
+          alegrai-vos no Senhor: aos rectos convém que o louvem.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -57,14 +57,14 @@ export default function Page0512() {
 
       <Language>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Hæc est vera
-          fratérnitas, quæ vicit mundi crímina: Christum secuta est, ínclita
-          tenens regna cœléstia. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secuta
+          est, ínclita tenens regna cœléstia. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Esta é a
-          verdadeira fraternidade que venceu os crimes do mundo: Ela seguiu
-          Cristo, possuindo gloriosamente o reino celestial. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Esta é a verdadeira fraternidade que venceu os crimes do mundo: Ela
+          seguiu Cristo, possuindo gloriosamente o reino celestial. Aleluia.
         </Typography>
       </Language>
 

@@ -16,15 +16,16 @@ export default function Page0201() {
         <Typography className="latin">
           Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu Christi:
           per quem mihi mundus crucifíxus est, et ego mundo.{" "}
-          <Typography className="latin">Ps. 131, 1</Typography> Meménto, Dómine, David: et
-          omnis mansuetúdinis ejus.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 131, 1</Typography> Meménto, Dómine,
+          David: et omnis mansuetúdinis ejus.
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Longe esteja de mim gloriar-me nalguma coisa senão na Cruz de N. S.
           Jesus Cristo, pela qual o mundo foi crucificado para mim e eu para o
-          mundo. <Typography className="vernacular">Sl. 131, 1</Typography> Lembrai-Vos de
-          David, Senhor, assim como da sua mansidão.
+          mundo. <Typography className="vernacular">Sl. 131, 1</Typography>{" "}
+          Lembrai-Vos de David, Senhor, assim como da sua mansidão.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -73,25 +74,26 @@ export default function Page0201() {
         <Typography className="latin">
           Ecce sacérdos magnus, qui m diébus suis plácuit Deo.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ibid , 20</Typography> Non est invéntus símilis
-          illi, qui conserváret legem Excélsi.
+          <Typography className="latin">Ibid , 20</Typography> Non est invéntus
+          símilis illi, qui conserváret legem Excélsi.
         </Typography>
         <Typography className="vernacular">
           Eis o grande sacerdote que durante a vida agradou a Deus.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ibid , 20</Typography> Não houve quem, como
-          ele, guardasse a observância da Lei do Altíssimo.
+          <Typography className="vernacular">Ibid , 20</Typography> Não houve
+          quem, como ele, guardasse a observância da Lei do Altíssimo.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Gal 2, 19-20</Typography> Christo confíxus sum
-          Cruci: vivo ego, jam non ego, vivit vero in me Christus. Allelúja.
+          <Typography className="latin">Gal 2, 19-20</Typography> Christo
+          confíxus sum Cruci: vivo ego, jam non ego, vivit vero in me Christus.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Gl 2, 19-20</Typography> Estou crucificado com
-          Cristo. Vivo, mas já não sou eu que vivo: é Cristo que vive em mim.
-          Aleluia.
+          <Typography className="vernacular">Gl 2, 19-20</Typography> Estou
+          crucificado com Cristo. Vivo, mas já não sou eu que vivo: é Cristo que
+          vive em mim. Aleluia.
         </Typography>
       </Language>
 
@@ -106,17 +108,18 @@ export default function Page0201() {
       <Language>
         <Typography className="latin">
           Desirérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
-          fraudásti eum.<Typography className="versicle"> ℣. </Typography>Quoniam prævenísti
-          eum in benedictiónibus dulcedinis.
-          <Typography className="versicle"> ℣. </Typography>Posuísti in cápite ejus coronam
-          de lápide pretióso.
+          fraudásti eum.<Typography className="versicle"> ℣. </Typography>
+          Quoniam prævenísti eum in benedictiónibus dulcedinis.
+          <Typography className="versicle"> ℣. </Typography>Posuísti in cápite
+          ejus coronam de lápide pretióso.
         </Typography>
         <Typography className="vernacular">
           Satisfizestes os desejos do seu coração e o não iludistes nas preces
           proferidas por seus lábios.
-          <Typography className="versicle"> ℣. </Typography>Vós, Senhor, o enchestes com
-          bênçãos faustosas.<Typography className="versicle"> ℣. </Typography>Colocastes na
-          sua cabeça o diadema de ouro.
+          <Typography className="versicle"> ℣. </Typography>Vós, Senhor, o
+          enchestes com bênçãos faustosas.
+          <Typography className="versicle"> ℣. </Typography>Colocastes na sua
+          cabeça o diadema de ouro.
         </Typography>
       </Language>
 

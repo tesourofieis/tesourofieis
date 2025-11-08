@@ -23,7 +23,7 @@ const escapeRegExp = (text: string) => {
 const extractContextualSnippet = (
   fullText: string | undefined | null,
   query: string,
-  wordContext = 10
+  wordContext = 10,
 ): string => {
   if (!fullText || !query.trim()) {
     return fullText || "";
@@ -83,7 +83,7 @@ const extractContextualSnippet = (
 
   const highlightRegex = new RegExp(
     `(${queryWords.map(escapeRegExp).join("|")})`,
-    "gi"
+    "gi",
   );
   bestSnippet = bestSnippet.replace(highlightRegex, "<b>$1</b>");
 
@@ -99,7 +99,7 @@ const highlightTitle = (title: string, query: string): string => {
 
   const highlightRegex = new RegExp(
     `(${queryWords.map(escapeRegExp).join("|")})`,
-    "gi"
+    "gi",
   );
   return title.replace(highlightRegex, "<b>$1</b>");
 };
@@ -216,7 +216,7 @@ export function search(query: string, limit = 15): SearchResult[] {
         matchedHeading: matchedHeading,
         matchedText: extractContextualSnippet(
           item.matchedContentForSnippet,
-          query
+          query,
         ),
         highlightedTitle: highlightTitle(item.doc.title, query),
       };
@@ -242,7 +242,7 @@ export function findBySlug(slug: string): Docs[] {
 
     if (docUrlNormalized.startsWith(`${targetUrlNormalized}/`)) {
       const pathAfterSlug = docUrlNormalized.substring(
-        `${targetUrlNormalized}/`.length
+        `${targetUrlNormalized}/`.length,
       );
       const segments = pathAfterSlug.split("/").filter(Boolean);
       return segments.length === 1;

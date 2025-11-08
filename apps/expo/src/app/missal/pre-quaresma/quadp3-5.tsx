@@ -16,15 +16,16 @@ export default function PageQuadp35() {
       <Language>
         <Typography className="latin">
           Dóminus, et misértus est mihi: Dóminus factus est adjútor meus.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Exaltábo te, Dómine,
-          quóniam suscepísti me: nec delectásti inimícos meos super me.
+          <Typography className="latin">Ps. ibid., 2</Typography> Exaltábo te,
+          Dómine, quóniam suscepísti me: nec delectásti inimícos meos super me.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Senhor ouviu-me e teve piedade de mim. O Senhor veio em meu auxílio.{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Senhor, louvar-Vos-ei
-          porque me socorrestes e não permitistes que meus inimigos mofassem de
-          mim.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Senhor,
+          louvar-Vos-ei porque me socorrestes e não permitistes que meus
+          inimigos mofassem de mim.
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
       </Language>
@@ -111,13 +112,13 @@ export default function PageQuadp35() {
       <Language>
         <Typography className="latin">
           Unam pétii a Dómino, hanc requíram, ut inhábitem in domo Dómini.
-          <Typography className="versicle"> ℣. </Typography>Ut vídeam voluptátem Dómini, et
-          prótegar a templo sancto ejus.
+          <Typography className="versicle"> ℣. </Typography>Ut vídeam voluptátem
+          Dómini, et prótegar a templo sancto ejus.
         </Typography>
         <Typography className="vernacular">
           Uma coisa peço ao Senhor e continuarei a pedi-la: que possa habitar na
-          sua casa:<Typography className="versicle"> ℣. </Typography>Para que possa gozar os
-          seus esplendores e ser protegido no seu santo templo.
+          sua casa:<Typography className="versicle"> ℣. </Typography>Para que
+          possa gozar os seus esplendores e ser protegido no seu santo templo.
         </Typography>
       </Language>
 
@@ -134,12 +135,12 @@ export default function PageQuadp35() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Audístis, quia dictum

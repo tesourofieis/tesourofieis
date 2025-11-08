@@ -71,7 +71,9 @@ export default function Page038() {
         <Typography className="latin">
           Thesaurízat: * et ignórat cui congregábit ea.
         </Typography>
-        <Typography className="vernacular">Acumula: * e ignora para quem junta.</Typography>
+        <Typography className="vernacular">
+          Acumula: * e ignora para quem junta.
+        </Typography>
         <Typography className="latin">
           Et nunc quæ est exspectátio mea? Nonne Dóminus? * Et substántia mea
           apud Te est.

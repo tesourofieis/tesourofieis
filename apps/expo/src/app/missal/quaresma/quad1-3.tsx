@@ -17,17 +17,17 @@ export default function PageQuad13() {
           Reminíscere miseratiónum tuárum, Dómine, et misericórdiæ tuæ, quæ a
           sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera nos,
           Deus Israël, ex ómnibus angústiis nostris.{" "}
-          <Typography className="latin">Ps. ib., 1-2</Typography> Ad te, Dómine, levávi
-          ánimam meam: Deus meus, in te confído, non erubéscam.
+          <Typography className="latin">Ps. ib., 1-2</Typography> Ad te, Dómine,
+          levávi ánimam meam: Deus meus, in te confído, non erubéscam.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Lembrai-Vos, Senhor, de que a vossa bondade e misericórdia são
           eternas! Não permitais nunca que os nossos inimigos triunfem de nós. Ó
           Deus de Israel, livrai-nos de todas nossas angústias.{" "}
-          <Typography className="vernacular">Sl. ib., 1-2</Typography> A Vós, Senhor, elevei
-          a minha alma: confio em Vós, ó meu Deus, pois me não deixareis ficar
-          envergonhado.
+          <Typography className="vernacular">Sl. ib., 1-2</Typography> A Vós,
+          Senhor, elevei a minha alma: confio em Vós, ó meu Deus, pois me não
+          deixareis ficar envergonhado.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -109,13 +109,14 @@ export default function PageQuad13() {
       <Language>
         <Typography className="latin">
           Tribulatiónes cordis mei dilatátæ sunt: de necessitátibus meis éripe
-          me, Dómine.<Typography className="versicle"> ℣. </Typography>Vide humilitátem
-          meam, et labórem meum: et dimítte ómnia peccáta mea.
+          me, Dómine.<Typography className="versicle"> ℣. </Typography>Vide
+          humilitátem meam, et labórem meum: et dimítte ómnia peccáta mea.
         </Typography>
         <Typography className="vernacular">
           Multiplicaram-se as angústias do meu coração. Senhor, livrai-me das
-          minhas angústias.<Typography className="versicle"> ℣. </Typography>Vede a minha
-          humilhação e as minhas fadigas: e perdoai-me todos os pecados.
+          minhas angústias.<Typography className="versicle"> ℣. </Typography>
+          Vede a minha humilhação e as minhas fadigas: e perdoai-me todos os
+          pecados.
         </Typography>
       </Language>
 
@@ -178,20 +179,21 @@ export default function PageQuad13() {
         <Typography className="latin">
           De necessitátibus meis éripe me, Dómine: vide humilitátem meam et
           labórem meum: et dimítte ómnia peccáta mea.
-          <Typography className="versicle"> ℣. </Typography>Ad te, Dómine, levávi ánimam
-          meam: Deus meus, in te confído, non erubéscam: neque irrídeant me
-          inimíci mei.<Typography className="versicle"> ℣. </Typography>Etenim univérsi, qui
+          <Typography className="versicle"> ℣. </Typography>Ad te, Dómine,
+          levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque
+          irrídeant me inimíci mei.
+          <Typography className="versicle"> ℣. </Typography>Etenim univérsi, qui
           te exspéctant, non confundéntur: confundántur omnes faciéntes vana.
         </Typography>
         <Typography className="vernacular">
           Senhor, livrai-me das minhas tribulações; vede a minha miséria e as
           minhas penas; e perdoai todos meus pecados.
-          <Typography className="versicle"> ℣. </Typography>A Vós, Senhor, elevei a minha
-          alma; meu Deus, em Vós confio: não ficarei envergonhado, pois os meus
-          inimigos não triunfarão de mim!
-          <Typography className="versicle"> ℣. </Typography>Não serão confundidos, Senhor,
-          os que confiam em Vós: mas serão confundidos todos os que procedem em
-          vão.
+          <Typography className="versicle"> ℣. </Typography>A Vós, Senhor,
+          elevei a minha alma; meu Deus, em Vós confio: não ficarei
+          envergonhado, pois os meus inimigos não triunfarão de mim!
+          <Typography className="versicle"> ℣. </Typography>Não serão
+          confundidos, Senhor, os que confiam em Vós: mas serão confundidos
+          todos os que procedem em vão.
         </Typography>
       </Language>
 
@@ -201,12 +203,12 @@ export default function PageQuad13() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Respondérunt Jesu quidam de scribis et pharisǽis,

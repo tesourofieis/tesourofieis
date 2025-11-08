@@ -18,16 +18,17 @@ export default function PageEleicaopapa() {
           Suscitábo mihi sacerdótem fidélem, qui juxta cor meum et ánimam meam
           fáciet: et ædificábo ei domum fidélem, et ambulábit coram Christo meo
           cunctis diébus. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. 131, 1</Typography> Meménto, Dómine, David: et
-          omnis mansuetúdinis ejus.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 131, 1</Typography> Meménto, Dómine,
+          David: et omnis mansuetúdinis ejus.
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Farei aparecer um sacerdote fiel que tudo fará segundo o meu coração e
           a minha alma: e por ele edificarei uma casa fiel e estará sempre na
           presença do meu Cristo em todos os dias. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. 131, 1</Typography> Lembrai-Vos, Senhor, de
-          David e de toda sua mansidão.
+          <Typography className="vernacular">Sl. 131, 1</Typography>{" "}
+          Lembrai-Vos, Senhor, de David e de toda sua mansidão.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -106,8 +107,8 @@ export default function PageEleicaopapa() {
           est unctiónis óleum, et cujus manus in sacerdótio consecrátæ sunt,
           vestitúsque est sanctis véstibus: débuit per ómnia frátribus similári.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Hebr. 2, 17</Typography> Ut miséricors fíeret, et
-          fidélis póntifex ad Deum: ut repropitiáret delícta pópuli.
+          <Typography className="latin">Hebr. 2, 17</Typography> Ut miséricors
+          fíeret, et fidélis póntifex ad Deum: ut repropitiáret delícta pópuli.
         </Typography>
         <Typography className="vernacular">
           O Pontífice é o sacerdote magno entre os seus irmãos, sobre cuja
@@ -115,19 +116,21 @@ export default function PageEleicaopapa() {
           o sacerdócio: está revestido com as vestes sagradas e em tudo deverá
           assemelhar-se a seus irmãos:
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Heb. 2, 17</Typography> A fim de ser um
-          Pontífice misericordioso e fiel junto de Deus, para expiar os pecados
-          do povo.
+          <Typography className="vernacular">Heb. 2, 17</Typography> A fim de
+          ser um Pontífice misericordioso e fiel junto de Deus, para expiar os
+          pecados do povo.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Levit. 21, 8</Typography> Sacerdos sit sanctus,
-          sicut et ego sanctus sum, Dóminus, qui sanctífico vos. Allelúja.
+          <Typography className="latin">Levit. 21, 8</Typography> Sacerdos sit
+          sanctus, sicut et ego sanctus sum, Dóminus, qui sanctífico vos.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Lv. 21, 8</Typography> Que o Sacerdote seja
-          santo, como Eu, o Senhor, que vos santifico, sou santo. Aleluia.
+          <Typography className="vernacular">Lv. 21, 8</Typography> Que o
+          Sacerdote seja santo, como Eu, o Senhor, que vos santifico, sou santo.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -142,17 +145,18 @@ export default function PageEleicaopapa() {
       <Language>
         <Typography className="latin">
           Surge, Dómine, in réquiem tuam: tu et arca sanctificatiónis tuæ.
-          <Typography className="versicle"> ℣. </Typography>Sacerdótes tui induántur
-          justítiam, et sancti tui exsúltent.
+          <Typography className="versicle"> ℣. </Typography>Sacerdótes tui
+          induántur justítiam, et sancti tui exsúltent.
           <Typography className="versicle"> ℣. </Typography>
           Propter David, servum tuum, non avértas fáciem Christi tui.
         </Typography>
         <Typography className="vernacular">
           Erguei-Vos, Senhor, e ide onde Vós repousais: Vós e a arca da vossa
-          santificação.<Typography className="versicle"> ℣. </Typography>Que os vossos
-          Sacerdotes se revistam de justiça e que os vossos Santos rejubilem.
-          <Typography className="versicle"> ℣. </Typography>Por causa de David, vosso servo,
-          não afasteis a face do vosso Cristo.
+          santificação.<Typography className="versicle"> ℣. </Typography>Que os
+          vossos Sacerdotes se revistam de justiça e que os vossos Santos
+          rejubilem.
+          <Typography className="versicle"> ℣. </Typography>Por causa de David,
+          vosso servo, não afasteis a face do vosso Cristo.
         </Typography>
       </Language>
 
@@ -163,19 +167,21 @@ export default function PageEleicaopapa() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Levit. 21, 8</Typography> Sacérdos sit sanctus,
-          sicut et ego sanctus sum, Dóminus, qui sanctífico vos. Allelúja.
+          <Typography className="latin">Levit. 21, 8</Typography> Sacérdos sit
+          sanctus, sicut et ego sanctus sum, Dóminus, qui sanctífico vos.
+          Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Joann. 10, 14</Typography> Ego sum pastor bonus: et
-          cognósco oves meas, et cognóscunt me meæ. Allelúja.
+          <Typography className="em">Joann. 10, 14</Typography> Ego sum pastor
+          bonus: et cognósco oves meas, et cognóscunt me meæ. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Lv. 21, 8</Typography> Que o Sacerdote seja
-          santo, como Eu, o Senhor, que vos santifico, sou santo. Aleluia.
+          <Typography className="vernacular">Lv. 21, 8</Typography> Que o
+          Sacerdote seja santo, como Eu, o Senhor, que vos santifico, sou santo.
+          Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Jo. 10, 14</Typography> Eu sou o bom pastor: e conheço
-          as minhas ovelhas e elas conhecem-me. Aleluia.
+          <Typography className="em">Jo. 10, 14</Typography> Eu sou o bom
+          pastor: e conheço as minhas ovelhas e elas conhecem-me. Aleluia.
         </Typography>
       </Language>
 

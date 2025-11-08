@@ -15,15 +15,16 @@ export default function Page29Missamaria3() {
       <Language>
         <Typography className="latin">
           Salve, sancta Parens, eníxa puérpera Regem: qui cœlum terrámque regit
-          in sǽcula sæculórum. <Typography className="latin">Ps. 44, 2</Typography>{" "}
-          Eructávit cor meum verbum bonum: dico ego ópera mea Regi.
+          in sǽcula sæculórum.{" "}
+          <Typography className="latin">Ps. 44, 2</Typography> Eructávit cor
+          meum verbum bonum: dico ego ópera mea Regi.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Salve, ó Santa Maria, em cujo seio foi gerado o Rei que governa o céu
           e a terra, em todos os séculos dos séculos.{" "}
-          <Typography className="vernacular">Sl. 44, 2</Typography> Meu coração exprimiu uma
-          excelente palavra: Consagro ao Rei as minhas obras!
+          <Typography className="vernacular">Sl. 44, 2</Typography> Meu coração
+          exprimiu uma excelente palavra: Consagro ao Rei as minhas obras!
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -51,7 +52,9 @@ export default function Page29Missamaria3() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Ab inítio et ante sǽcula creáta sum, et usque ad futúrum sǽculum non
           désinam, et in habitatióne sancta coram ipso ministrávi. Et sic in
@@ -75,29 +78,30 @@ export default function Page29Missamaria3() {
       <Language>
         <Typography className="latin">
           Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris
-          invénia es Mater Salvatóris.<Typography className="versicle"> ℣. </Typography>
+          invénia es Mater Salvatóris.
+          <Typography className="versicle"> ℣. </Typography>
           Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit
           víscera factus homo.
         </Typography>
         <Typography className="vernacular">
           Bendita e venerável sois, ó Virgem Maria, que fostes Mãe do Salvador
           sem que a vossa pureza sofresse a mais leve ofensa.
-          <Typography className="versicle"> ℣. </Typography>Ó Virgem, Mãe de Deus, Aquele
-          que nem todo o universo é capaz de conter, esteve encerrado, quando se
-          fez homem, no vosso seio.
+          <Typography className="versicle"> ℣. </Typography>Ó Virgem, Mãe de
+          Deus, Aquele que nem todo o universo é capaz de conter, esteve
+          encerrado, quando se fez homem, no vosso seio.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Num. 17, 8</Typography> Virga Jesse flóruit: Virgo
-          Deum et hóminem génuit: pacem Deus réddidit, in se reconcílians ima
-          summis. Allelúja.
+          <Typography className="latin">Num. 17, 8</Typography> Virga Jesse
+          flóruit: Virgo Deum et hóminem génuit: pacem Deus réddidit, in se
+          reconcílians ima summis. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Num. 17, 8</Typography> A vara de Jessé
-          floresceu: a Virgem deu à luz do mundo o Homem-Deus: restabeleceu Deus
-          a paz, conciliando na sua pessoa a nossa baixeza com sua suprema
-          grandeza! Aleluia.
+          <Typography className="vernacular">Num. 17, 8</Typography> A vara de
+          Jessé floresceu: a Virgem deu à luz do mundo o Homem-Deus:
+          restabeleceu Deus a paz, conciliando na sua pessoa a nossa baixeza com
+          sua suprema grandeza! Aleluia.
         </Typography>
       </Language>
 
@@ -110,8 +114,9 @@ export default function Page29Missamaria3() {
       <Language>
         <Typography className="latin">
           Gaude, María Virgo, cunctas hǽreses sola interemísti.
-          <Typography className="versicle"> ℣. </Typography>Quæ Gabriélis Archángeli dictis
-          credidísti.<Typography className="versicle"> ℣. </Typography>Dum Virgo Deum et
+          <Typography className="versicle"> ℣. </Typography>Quæ Gabriélis
+          Archángeli dictis credidísti.
+          <Typography className="versicle"> ℣. </Typography>Dum Virgo Deum et
           hóminem genuísti: et post partum, Virgo, invioláta permansísti.
           <Typography className="versicle"> ℣. </Typography>
           Dei Génetrix, intercéde pro nobis.
@@ -120,9 +125,9 @@ export default function Page29Missamaria3() {
           Regozijai-vos, ó Virgem Maria, pois só vós fostes capaz de destruir
           todas as heresias.<Typography className="versicle"> ℣. </Typography>
           Acreditastes nas palavras do Arcanjo Gabriel.
-          <Typography className="versicle"> ℣. </Typography>Sendo Virgem, gerastes o
-          Homem-Deus; e, depois de haverdes dado à luz, permanecestes Virgem
-          Imaculada.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="versicle"> ℣. </Typography>Sendo Virgem,
+          gerastes o Homem-Deus; e, depois de haverdes dado à luz, permanecestes
+          Virgem Imaculada.<Typography className="versicle"> ℣. </Typography>
           Intercedei por nós, ó Mãe de Deus!
         </Typography>
       </Language>
@@ -133,12 +138,12 @@ export default function Page29Missamaria3() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Loquénte Jesu ad turbas, extóllens vocem quædam

@@ -16,8 +16,8 @@ export default function PagePent90() {
         <Typography className="latin">
           Ecce, Deus adjuvat me, et Dóminus suscéptor est ánimæ meæ: avérte mala
           inimícis meis, et in veritáte tua dispérde illos, protéctor meus,
-          Dómine. <Typography className="latin">Ps. ibid., 3</Typography> Deus, in nómine
-          tuo salvum me fac: et in virtúte tua libera me.
+          Dómine. <Typography className="latin">Ps. ibid., 3</Typography> Deus,
+          in nómine tuo salvum me fac: et in virtúte tua libera me.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
@@ -25,8 +25,8 @@ export default function PagePent90() {
           minha alma! Lançai, pois, sobre os meus inimigos, ó Deus, meu
           protector, o mal que me querem fazer; e, conforme a vossa palavra
           verdadeira, exterminai-os.{" "}
-          <Typography className="vernacular">Sl. ibid., 3</Typography> Ó Deus, pelo vosso
-          nome, salvai-me; e, pelo vosso poder, livrai-me.
+          <Typography className="vernacular">Sl. ibid., 3</Typography> Ó Deus,
+          pelo vosso nome, salvai-me; e, pelo vosso poder, livrai-me.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -99,24 +99,25 @@ export default function PagePent90() {
       <Language>
         <Typography className="latin">
           Dómine, Dóminus noster, quam admirábile est nomen tuum in universa
-          terra!<Typography className="versicle"> ℣. </Typography>Quóniam eleváta est
-          magnificéntia tua super cœlos.
+          terra!<Typography className="versicle"> ℣. </Typography>Quóniam
+          eleváta est magnificéntia tua super cœlos.
         </Typography>
         <Typography className="vernacular">
           Ó Senhor, nosso Deus, como é admirável o vosso nome em todo o
-          universo.<Typography className="versicle"> ℣. </Typography>Vossa magnificência
-          eleva-se sobre os céus!
+          universo.<Typography className="versicle"> ℣. </Typography>Vossa
+          magnificência eleva-se sobre os céus!
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 58, 2</Typography> Eripe me de inimícis meis,
-          Deus meus: et ab insurgéntibus in me líbera me. Allelúja.
+          <Typography className="latin">Ps. 58, 2</Typography> Eripe me de
+          inimícis meis, Deus meus: et ab insurgéntibus in me líbera me.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 58, 2</Typography> Livrai-me das mãos dos
-          meus inimigos, ó meu Deus; livrai-me daqueles que se insurgem contra
-          mim. Aleluia.
+          <Typography className="vernacular">Sl. 58, 2</Typography> Livrai-me
+          das mãos dos meus inimigos, ó meu Deus; livrai-me daqueles que se
+          insurgem contra mim. Aleluia.
         </Typography>
       </Language>
 
@@ -126,12 +127,12 @@ export default function PagePent90() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Cum appropinquáret Jesus Jerúsalem, videns civitátem,

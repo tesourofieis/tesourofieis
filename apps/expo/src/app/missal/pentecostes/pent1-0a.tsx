@@ -16,16 +16,16 @@ export default function PagePent10A() {
         <Typography className="latin">
           Dómine, in tua misericórdia sperávi: exsultávit cor meum in salutári
           tuo: cantábo Dómino, qui bona tríbuit mihi.{" "}
-          <Typography className="latin">Ps. ib., 1</Typography> Usquequo, Dómine,
-          oblivísceris me in finem? usquequo avértis fáciem tuam a me?
+          <Typography className="latin">Ps. ib., 1</Typography> Usquequo,
+          Dómine, oblivísceris me in finem? usquequo avértis fáciem tuam a me?
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Senhor, esperei na vossa misericórdia: Meu coração exultou de alegria
           pela salvação que me alcançastes; louvarei o Senhor, que me encheu de
-          benefícios. <Typography className="vernacular">Ps. ib., 1</Typography> Até quando,
-          Senhor, Vos esquecereis de mim? Esquecer-me-eis para sempre? Até
-          quando afastareis de mim a vossa face?
+          benefícios. <Typography className="vernacular">Ps. ib., 1</Typography>{" "}
+          Até quando, Senhor, Vos esquecereis de mim? Esquecer-me-eis para
+          sempre? Até quando afastareis de mim a vossa face?
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -53,8 +53,12 @@ export default function PagePent10A() {
       <Typography className="em">1 Jo. 4, 8-21</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Joánni Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º João.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Joánni Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º João.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Deus cáritas est. In hoc appáruit cáritas Dei in nobis,
           quóniam Fílium suum unigénitum misit Deus in mundum, ut vivámus per
@@ -114,8 +118,9 @@ export default function PagePent10A() {
       <Language>
         <Typography className="latin">
           Ego dixi: Dómine, miserére mei: sana ánimam meam, quia peccávi tibi.
-          <Typography className="versicle"> ℣. </Typography>Beátus, qui intéllegit super
-          egénum et páuperem: in die mala liberábit eum Dóminus.
+          <Typography className="versicle"> ℣. </Typography>Beátus, qui
+          intéllegit super egénum et páuperem: in die mala liberábit eum
+          Dóminus.
         </Typography>
         <Typography className="vernacular">
           Eu disse: Senhor, tende piedade de mim: curai a minha alma, porque
@@ -125,13 +130,13 @@ export default function PagePent10A() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 5, 2</Typography> Verba mea áuribus pércipe,
-          Dómine: intéllege clamórem meum. Allelúja.
+          <Typography className="latin">Ps. 5, 2</Typography> Verba mea áuribus
+          pércipe, Dómine: intéllege clamórem meum. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 5, 2</Typography> Atendei às minhas
-          palavras, Senhor! Ouvi o meu clamor. Aleluia.
+          <Typography className="vernacular">Sl. 5, 2</Typography> Atendei às
+          minhas palavras, Senhor! Ouvi o meu clamor. Aleluia.
         </Typography>
       </Language>
 
@@ -141,12 +146,12 @@ export default function PagePent10A() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Estóte misericórdes,

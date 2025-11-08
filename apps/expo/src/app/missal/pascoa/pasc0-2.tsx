@@ -16,16 +16,16 @@ export default function PagePasc02() {
         <Typography className="latin">
           Aqua sapiéntiæ potávit eos, allelúja: firmábitur in illis et non
           flectétur, allelúja: et exaltábit eos in ætérnum, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. 104, 1</Typography> Confitémini Dómino et
-          invocáte nomen ejus: annuntiáte inter gentes ópera ejus.
+          <Typography className="latin">Ps. 104, 1</Typography> Confitémini
+          Dómino et invocáte nomen ejus: annuntiáte inter gentes ópera ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Senhor deu-lhes a beber a água da sabedoria, aleluia: Ela
           permanecerá neles e não vacilarão, aleluia: e ela os exaltará para
           sempre, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. 104, 1</Typography> Louvai o Senhor e
-          aclamai o seu nome: publicai as suas obras em todos os povos.
+          <Typography className="vernacular">Sl. 104, 1</Typography> Louvai o
+          Senhor e aclamai o seu nome: publicai as suas obras em todos os povos.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -52,7 +52,9 @@ export default function PagePasc02() {
 
       <Language>
         <Typography className="latin">Léctio Actuum Apostolórum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Surgens Paulus et manu silentium índicens, ait: Viri
           fratres, fílii generis Abraham, et qui in vobis timent Deum, vobis
@@ -95,24 +97,25 @@ export default function PagePasc02() {
         <Typography className="latin">
           Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 106, 2</Typography> Dicant nunc, qui redémpti
-          sunt a Dómino: quos rédemit de manu inimíci, et de regiónibus
+          <Typography className="latin">Ps. 106, 2</Typography> Dicant nunc, qui
+          redémpti sunt a Dómino: quos rédemit de manu inimíci, et de regiónibus
           congregávit eos.
         </Typography>
         <Typography className="vernacular">
           Eis o dia que o Senhor fez: exultemos e alegremo-nos nele.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 106, 2</Typography> Assim devem cantar
-          agora aqueles que o Senhor resgatou e tirou das mãos dos inimigos, e
-          que, sendo de muitas regiões, os congregou em um só povo.
+          <Typography className="vernacular">Sl. 106, 2</Typography> Assim devem
+          cantar agora aqueles que o Senhor resgatou e tirou das mãos dos
+          inimigos, e que, sendo de muitas regiões, os congregou em um só povo.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Surrexit
-          Dóminus de sepúlcro, qui pro nobis pepéndit in ligno.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Surrexit Dóminus de sepúlcro, qui pro nobis pepéndit in ligno.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Ressuscitou do
-          sepulcro o Senhor, que havia sido pregado no madeiro por nossa causa.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Ressuscitou do sepulcro o Senhor, que havia sido pregado no madeiro
+          por nossa causa.
         </Typography>
       </Language>
 
@@ -122,12 +125,12 @@ export default function PagePasc02() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Stetit Jesus in médio discipulórum suórum et dicit

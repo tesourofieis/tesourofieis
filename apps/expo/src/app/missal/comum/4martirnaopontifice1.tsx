@@ -16,16 +16,17 @@ export default function Page4Martirnaopontifice1() {
         <Typography className="latin">
           In virtúte tua, Dómine, lætábitur justus: et super salutáre tuum
           exsultábit veheménter: desidérium ánimæ ejus tribuísti ei.{" "}
-          <Typography className="latin">Ps. ibid., 4</Typography> Quóniam prævenísti eum in
-          benedictiónibus dulcédinis: posuísti in cápite ejus corónam de lápide
-          pretióso.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+          <Typography className="latin">Ps. ibid., 4</Typography> Quóniam
+          prævenísti eum in benedictiónibus dulcédinis: posuísti in cápite ejus
+          corónam de lápide pretióso.
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O justo rejubilará com vosso poder, Senhor, e exultará de alegria,
           vendo-se salvo por Vós; pois concedestes-lhe o que seu coração
-          desejava. <Typography className="vernacular">Sl. ibid., 4</Typography> Com efeito,
-          Vós o premunistes com bênçãos de doçura: e impusestes na sua cabeça
-          uma coroa de pedras preciosas.
+          desejava. <Typography className="vernacular">Sl. ibid., 4</Typography>{" "}
+          Com efeito, Vós o premunistes com bênçãos de doçura: e impusestes na
+          sua cabeça uma coroa de pedras preciosas.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -35,14 +36,15 @@ export default function Page4Martirnaopontifice1() {
       <Language>
         <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, qui beáti{" "}
-          <Typography className="latin">N.</Typography> Mártyris tui natalícia cólimus,
-          intercessióne ejus, in tui nóminis amóre roborémur. Per Dóminum...
+          <Typography className="latin">N.</Typography> Mártyris tui natalícia
+          cólimus, intercessióne ejus, in tui nóminis amóre roborémur. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
           Ó Deus omnipotente, permiti que, celebrando nós o nascimento do B.{" "}
-          <Typography className="vernacular">N.</Typography>, vosso Mártir, e pela sua
-          intercessão, alcancemos a graça de sermos confirmados no amor ao vosso
-          Nome. Por nosso Senhor...
+          <Typography className="vernacular">N.</Typography>, vosso Mártir, e
+          pela sua intercessão, alcancemos a graça de sermos confirmados no amor
+          ao vosso Nome. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -52,7 +54,9 @@ export default function Page4Martirnaopontifice1() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Justum dedúxit Dóminus per vias rectas, et ostendit illi regnum Dei,
           et dedit illi sciéntiam sanctórum: honestávit illum in labóribus, et
@@ -95,18 +99,19 @@ export default function Page4Martirnaopontifice1() {
         </Typography>
         <Typography className="vernacular">
           Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em
-          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua descendência
-          será poderosa na terra; pois a geração dos justos será abençoada.
+          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua
+          descendência será poderosa na terra; pois a geração dos justos será
+          abençoada.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 20, 4</Typography> Posuísti, Dómine, super caput
-          ejus corónam de lápide pretióso. Allelúja.
+          <Typography className="latin">Ps. 20, 4</Typography> Posuísti, Dómine,
+          super caput ejus corónam de lápide pretióso. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 20, 4</Typography> Senhor, impusestes na
-          sua cabeça uma coroa de pedras preciosas. Aleluia.
+          <Typography className="vernacular">Sl. 20, 4</Typography> Senhor,
+          impusestes na sua cabeça uma coroa de pedras preciosas. Aleluia.
         </Typography>
       </Language>
 
@@ -121,10 +126,10 @@ export default function Page4Martirnaopontifice1() {
       <Language>
         <Typography className="latin">
           Desidérium ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
-          fraudásti eum.<Typography className="versicle"> ℣. </Typography>Quóniam prævenísti
-          eum in benedictiónibus dulcédinis.
-          <Typography className="versicle"> ℣. </Typography>Posuísti in cápite ejus corónam
-          de lápide pretióso.
+          fraudásti eum.<Typography className="versicle"> ℣. </Typography>
+          Quóniam prævenísti eum in benedictiónibus dulcédinis.
+          <Typography className="versicle"> ℣. </Typography>Posuísti in cápite
+          ejus corónam de lápide pretióso.
         </Typography>
         <Typography className="vernacular">
           Concedestes-lhe o desejo da sua alma; lhe não negastes o que seus
@@ -141,12 +146,12 @@ export default function Page4Martirnaopontifice1() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Nolíte arbitrári, quia

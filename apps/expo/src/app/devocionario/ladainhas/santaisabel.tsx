@@ -6,7 +6,9 @@ export default function PageSantaisabel() {
   return (
     <PageWrapper>
       <H1 text="Ladainha Santa Isabel" />
-      <Typography className="vernacular">Senhor, tende piedade de nós.</Typography>
+      <Typography className="vernacular">
+        Senhor, tende piedade de nós.
+      </Typography>
       <Typography className="vernacular">
         Cristo, tende piedade de nós.{"\n"}
         Senhor, tende piedade de nós.{"\n"}
@@ -67,7 +69,8 @@ export default function PageSantaisabel() {
         {"\n"}
       </Typography>
       <Typography className="vernacular">
-        <Typography className="versicle"> ℣. </Typography> Rogai por nós, Santa Isabel.
+        <Typography className="versicle"> ℣. </Typography> Rogai por nós, Santa
+        Isabel.
       </Typography>
       <Typography className="vernacular">
         <Typography className="response"> ℟. </Typography>

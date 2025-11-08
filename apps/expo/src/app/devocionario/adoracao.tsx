@@ -49,16 +49,19 @@ export default function PageAdoracao() {
       <H2 text="Cor jesu sacratissimum" />
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography> Cor Jesu sacratissimum:
+          <Typography className="versicle"> ℣. </Typography> Cor Jesu
+          sacratissimum:
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Coração sacratíssimo de Jesus:
+          <Typography className="versicle"> ℣. </Typography>Coração sacratíssimo
+          de Jesus:
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Miserere nobis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Tende misericórdia de nós.
+          <Typography className="response"> ℟. </Typography> Tende misericórdia
+          de nós.
         </Typography>
       </Language>
       <H1 text="Hino para antes da Bênção" />
@@ -66,20 +69,20 @@ export default function PageAdoracao() {
       <Tantumergo />
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Panem de cælo præstitísti eis.
-          (T. P. Aleluia)
+          <Typography className="versicle"> ℣. </Typography>Panem de cælo
+          præstitísti eis. (T. P. Aleluia)
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Vós lhes destes, Senhor, o pão
-          do céu. (T. P. Aleluia)
+          <Typography className="versicle"> ℣. </Typography>Vós lhes destes,
+          Senhor, o pão do céu. (T. P. Aleluia)
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Omne delectaméntum in se
-          habéntem. (T. P. Aleluia)
+          <Typography className="response"> ℟. </Typography> Omne delectaméntum
+          in se habéntem. (T. P. Aleluia)
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> O qual encerra em si toda a
-          doçura. (T. P. Aleluia)
+          <Typography className="response"> ℟. </Typography> O qual encerra em
+          si toda a doçura. (T. P. Aleluia)
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Orémus.</Typography>
@@ -123,18 +126,30 @@ export default function PageAdoracao() {
         </Typography>
         <Typography className="latin">Benedíctum Nomen Jesu.</Typography>
         <Typography className="vernacular">Bendito o nome de Jesus.</Typography>
-        <Typography className="latin">Benedíctum Cor ejus sacratíssimum.</Typography>
-        <Typography className="vernacular">Bendito o seu Sacratíssimo Coração.</Typography>
-        <Typography className="latin">Benedíctus Sanguis ejus pretiosíssimus.</Typography>
-        <Typography className="vernacular">Bendito o seu Preciosíssimo sangue.</Typography>
+        <Typography className="latin">
+          Benedíctum Cor ejus sacratíssimum.
+        </Typography>
+        <Typography className="vernacular">
+          Bendito o seu Sacratíssimo Coração.
+        </Typography>
+        <Typography className="latin">
+          Benedíctus Sanguis ejus pretiosíssimus.
+        </Typography>
+        <Typography className="vernacular">
+          Bendito o seu Preciosíssimo sangue.
+        </Typography>
         <Typography className="latin">
           Benedíctus Jesus in sanctíssimo altáris Sacraménto.
         </Typography>
         <Typography className="vernacular">
           Bendito Jesus Cristo no Santíssimo Sacramento do altar.
         </Typography>
-        <Typography className="latin">Benedíctus Spíritus Sanctus, Paráclitus.</Typography>
-        <Typography className="vernacular">Bendito o Espírito Santo Paráclito.</Typography>
+        <Typography className="latin">
+          Benedíctus Spíritus Sanctus, Paráclitus.
+        </Typography>
+        <Typography className="vernacular">
+          Bendito o Espírito Santo Paráclito.
+        </Typography>
         <Typography className="latin">
           Benedícta magna Mater Dei, María sanctíssima.
         </Typography>
@@ -147,8 +162,12 @@ export default function PageAdoracao() {
         <Typography className="vernacular">
           Bendita a sua Santa e Imaculada Conceição.
         </Typography>
-        <Typography className="latin">Benedícta ejus gloriósa assúmptio.</Typography>
-        <Typography className="vernacular">Bendita a sua Gloriosa Assun-ção.</Typography>
+        <Typography className="latin">
+          Benedícta ejus gloriósa assúmptio.
+        </Typography>
+        <Typography className="vernacular">
+          Bendita a sua Gloriosa Assun-ção.
+        </Typography>
         <Typography className="latin">
           Benedíctum nomen Maríæ, Vírginis e Matris.
         </Typography>
@@ -186,14 +205,15 @@ export default function PageAdoracao() {
           sanctissimum Sacramentum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Graças e louvores se dêem a todo
-          o momento.
+          <Typography className="versicle"> ℣. </Typography>Graças e louvores se
+          dêem a todo o momento.
         </Typography>
       </Language>
       <Typography className="vernacular">
-        <Typography className="em">Sl. 116</Typography> Que todas as nações louvem o Senhor;
-        que todos os povos O aclamem. Porquanto grandiosa é para connosco a sua
-        misericórdia, e a fidelidade do Senhor permanecerá eternamente.
+        <Typography className="em">Sl. 116</Typography> Que todas as nações
+        louvem o Senhor; que todos os povos O aclamem. Porquanto grandiosa é
+        para connosco a sua misericórdia, e a fidelidade do Senhor permanecerá
+        eternamente.
       </Typography>
       <Typography className="vernacular">
         Glória ao Pai, e ao Filho e ao Espírito Santo. Assim como era no

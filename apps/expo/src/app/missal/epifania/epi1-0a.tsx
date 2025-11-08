@@ -15,17 +15,18 @@ export default function PageEpi10A() {
       <Language>
         <Typography className="latin">
           Exsúltat gáudio pater Justi, gáudeat Pater tuus et Mater tua, et
-          exsúltet quæ génuit te. <Typography className="latin">Ps. 83, 2-3</Typography>{" "}
-          Quam dilécta tabernácula tua, Dómine virtútum! concupíscit et déficit
-          ánima mea in átria Dómini.
+          exsúltet quæ génuit te.{" "}
+          <Typography className="latin">Ps. 83, 2-3</Typography> Quam dilécta
+          tabernácula tua, Dómine virtútum! concupíscit et déficit ánima mea in
+          átria Dómini.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Que o pai do Justo exulte de alegria, que o vosso Pai e a vossa Mãe se
           alegrem: que se regozije aquela que te gerou.{" "}
-          <Typography className="vernacular">Sl. 83, 2-3</Typography> Como são amáveis os
-          vossos tabernáculos, ó Senhor dos exércitos! Minha alma suspira e
-          enternece-se nos átrios do Senhor.
+          <Typography className="vernacular">Sl. 83, 2-3</Typography> Como são
+          amáveis os vossos tabernáculos, ó Senhor dos exércitos! Minha alma
+          suspira e enternece-se nos átrios do Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -98,17 +99,18 @@ export default function PageEpi10A() {
       <Language>
         <Typography className="latin">
           Unam pétii a Dómino, hanc requíram: ut inhábitem in domo Dómini
-          ómnibus diébus vitæ meæ.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 83, 5</Typography> Beáti, qui hábitant in domo
-          tua, Dómine: in sǽcula sæculórum laudábunt te.
+          ómnibus diébus vitæ meæ.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 83, 5</Typography> Beáti, qui
+          hábitant in domo tua, Dómine: in sǽcula sæculórum laudábunt te.
         </Typography>
         <Typography className="vernacular">
           Uma só graça peço ao Senhor, a qual reclamarei: é habitar na casa do
           Senhor todos os dias da minha vida.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 83, 5</Typography> Bem-aventurados aqueles
-          que habitam na vossa casa, Senhor; pois louvar-Vos-ão em todos os
-          séculos.
+          <Typography className="vernacular">Sl. 83, 5</Typography>{" "}
+          Bem-aventurados aqueles que habitam na vossa casa, Senhor; pois
+          louvar-Vos-ão em todos os séculos.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
@@ -117,8 +119,8 @@ export default function PageEpi10A() {
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Is. 45, 15</Typography> Ó Deus de Israel e
-          nosso Salvador, sois verdadeiramente Rei oculto. Aleluia.
+          <Typography className="vernacular">Is. 45, 15</Typography> Ó Deus de
+          Israel e nosso Salvador, sois verdadeiramente Rei oculto. Aleluia.
         </Typography>
       </Language>
 
@@ -128,12 +130,12 @@ export default function PageEpi10A() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           Cum factus esset Jesus annórum duódecim, ascendéntibus illis

@@ -46,16 +46,16 @@ export default function Page1007() {
         <Typography className="latin">
           Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ
           Maríæ Vírginis: de cujus sollemnitáte gaudent Angeli et colláudant
-          Fílium Dei. <Typography className="latin">Ps. 44, 2</Typography> Eructávit cor
-          meum verbum bonum: dico ego ópera mea Regi.
+          Fílium Dei. <Typography className="latin">Ps. 44, 2</Typography>{" "}
+          Eructávit cor meum verbum bonum: dico ego ópera mea Regi.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Alegremo-nos todos no Senhor, no dia em que celebramos a festa em
           honra da B. Virgem Maria: os Anjos regozijam-se com esta festa e
           louvam unissonamente o Filho de Deus.{" "}
-          <Typography className="vernacular">Sl. 44, 2</Typography> Meu coração exprimiu uma
-          excelente palavra: «Consagro ao Rei as minhas obras»!
+          <Typography className="vernacular">Sl. 44, 2</Typography> Meu coração
+          exprimiu uma excelente palavra: «Consagro ao Rei as minhas obras»!
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -84,7 +84,9 @@ export default function Page1007() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Dóminus possédit me in inítio viárum suárum, ántequam quidquam fáceret
           a princípio. Ab ætérno ordináta sum et ex antíquis, ántequam terra
@@ -114,13 +116,15 @@ export default function Page1007() {
       <Language>
         <Typography className="latin">
           Propter veritátem et mansuetúdinem et justítiam, et dedúcet te
-          mirabíliter déxtera tua.<Typography className="versicle"> ℣. </Typography>
+          mirabíliter déxtera tua.
+          <Typography className="versicle"> ℣. </Typography>
           Audi, fília, et vide, et inclína aurem tuam: quia concupívit Rex
           spéciem tuam.
         </Typography>
         <Typography className="vernacular">
           Reinai pela verdade, mansidão e justiça: e a vossa dextra vos
-          conduzirá admiravelmente.<Typography className="versicle"> ℣. </Typography>
+          conduzirá admiravelmente.
+          <Typography className="versicle"> ℣. </Typography>
           Ouvi, minha filha, e vede; inclinai o vosso ouvido, pois o Rei está
           extasiado com vossa formosura!
         </Typography>
@@ -130,9 +134,9 @@ export default function Page1007() {
           Juda, clara ex stirpe David. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Eis a
-          solenidade da gloriosa Virgem Maria: da raça de Abraão, da geração de
-          Judá e da nobre linhagem de David. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Eis
+          a solenidade da gloriosa Virgem Maria: da raça de Abraão, da geração
+          de Judá e da nobre linhagem de David. Aleluia.
         </Typography>
       </Language>
 
@@ -142,12 +146,12 @@ export default function Page1007() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Missus est Angelus Gábriel a Deo in civitátem

@@ -48,24 +48,24 @@ export default function Page0929() {
       <Language>
         <Typography className="latin">
           Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis
-          verbum ejus.<Typography className="versicle"> ℣. </Typography>Benedic, ánima mea,
-          Dóminum, et ómnia interióra mea, nomen sanctum ejus.
+          verbum ejus.<Typography className="versicle"> ℣. </Typography>Benedic,
+          ánima mea, Dóminum, et ómnia interióra mea, nomen sanctum ejus.
         </Typography>
         <Typography className="vernacular">
           Bendizei o Senhor, ó Anjos do Senhor, que sois poderosos e cheios de
           força, e cumpris as ordens do Senhor.
-          <Typography className="versicle"> ℣. </Typography>Bendizei o Senhor, ó minha alma;
-          que toda minha alma bendiga o nome do Senhor.
+          <Typography className="versicle"> ℣. </Typography>Bendizei o Senhor, ó
+          minha alma; que toda minha alma bendiga o nome do Senhor.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Sancte
-          Míchaël Archángele, defénde nos in prǿlio: ut non pereámus in treméndo
-          judício. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Sancte Míchaël Archángele, defénde nos in prǿlio: ut non pereámus in
+          treméndo judício. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>S. Miguel
-          Arcanjo, defendei-nos neste combate, para que não pereçamos no dia do
-          tremendo juízo. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>S.
+          Miguel Arcanjo, defendei-nos neste combate, para que não pereçamos no
+          dia do tremendo juízo. Aleluia.
         </Typography>
       </Language>
     </PageWrapper>

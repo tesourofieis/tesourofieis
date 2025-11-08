@@ -36,8 +36,12 @@ export default function Page0501Funchal() {
       <Typography className="em">Tg. 1, 17-21</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Jacóbi Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Tiago.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Jacóbi Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Tiago.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Omne datum óptimum, et omne donum perféctum desúrsum est,
           descéndens a Patre lúminum, apud quem non est transmutátio nec
@@ -65,18 +69,19 @@ export default function Page0501Funchal() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 88, 6</Typography> Confitebúntur cœli mirabília
-          tua, Dómine: étenim veritátem tuam in ecclésia sanctórum. Allelúja.
-          <Typography className="versicle"> ℣. </Typography>Vos amici mei estis, si
-          fecéritis quæ præcípio vobis. Allelúja.
+          <Typography className="latin">Ps. 88, 6</Typography> Confitebúntur
+          cœli mirabília tua, Dómine: étenim veritátem tuam in ecclésia
+          sanctórum. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>Vos amici mei estis,
+          si fecéritis quæ præcípio vobis. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 88, 6</Typography> Senhor, que os céus
-          festejem as vossas maravilhas; que a vossa verdade seja exaltada na
-          assembleia dos santos. Aleluia.
-          <Typography className="versicle"> ℣. </Typography>Sereis meus amigos, se fizerdes
-          o que vos mando. Aleluia.
+          <Typography className="vernacular">Sl. 88, 6</Typography> Senhor, que
+          os céus festejem as vossas maravilhas; que a vossa verdade seja
+          exaltada na assembleia dos santos. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>Sereis meus amigos,
+          se fizerdes o que vos mando. Aleluia.
         </Typography>
       </Language>
 

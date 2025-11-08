@@ -221,7 +221,9 @@ const TreeItem = React.memo(
   },
 );
 
-export function CustomDrawerContent({ navigation }: CustomDrawerContentProps) {
+export default function CustomDrawerContent({
+  navigation,
+}: CustomDrawerContentProps) {
   const router = useRouter();
   const pathname = usePathname();
   const isDark = useColorScheme() === "dark";

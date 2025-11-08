@@ -98,25 +98,26 @@ export default function Page0630() {
           Qui operátus est Petro in apostolátum, operátus est et mihi inter
           gentes: et cognovérunt grátiam Dei, quæ data est mihi.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">1 Cor. 15, 10</Typography> Grátia Dei in me vácua
-          non fuit: sed grátia ejus semper in me manet.
+          <Typography className="latin">1 Cor. 15, 10</Typography> Grátia Dei in
+          me vácua non fuit: sed grátia ejus semper in me manet.
         </Typography>
         <Typography className="vernacular">
           Aquele que instituiu Pedro Apóstolo para o apostolado dos circuncisos,
           instituiu-me também a mim Apóstolo dos gentios:
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">1 Cor. 15, 10</Typography> E eles conheceram a
-          graça de Deus que me foi dada. A graça de Deus não ficou estéril em
-          mim.
+          <Typography className="vernacular">1 Cor. 15, 10</Typography> E eles
+          conheceram a graça de Deus que me foi dada. A graça de Deus não ficou
+          estéril em mim.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Sancte Paule
-          Apóstole, prædicátor veritátis et doctor géntium, intercéde pro nobis.
-          Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Sancte Paule Apóstole, prædicátor veritátis et doctor géntium,
+          intercéde pro nobis. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>S. Paulo,
-          pregador da verdade e doutor dos povos, intercedei por nós. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>S.
+          Paulo, pregador da verdade e doutor dos povos, intercedei por nós.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -126,12 +127,12 @@ export default function Page0630() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Ecce, ego mitto vos

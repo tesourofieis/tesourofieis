@@ -16,15 +16,17 @@ export default function PageQuad42() {
         <Typography className="latin">
           Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam:
           inténde in me et exáudi me.{" "}
-          <Typography className="latin">Ps. ib., 3-4</Typography> Contristátus sum in
-          exercitatióne mea: et conturbátus sum avoce inimíci et a tribulatióne
-          peccatóris.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. ib., 3-4</Typography> Contristátus
+          sum in exercitatióne mea: et conturbátus sum avoce inimíci et a
+          tribulatióne peccatóris.
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Ouvi, ó Deus, a minha oração e não desprezeis a minha súplica!
           Atendei-me e escutai-me. Estou amargurado, por causa do sofrimento que
-          me aflige! <Typography className="vernacular">Sl. ib., 3-4</Typography> Estou
+          me aflige!{" "}
+          <Typography className="vernacular">Sl. ib., 3-4</Typography> Estou
           perturbado, porque ouço a voz do meu inimigo e sinto a perseguição do
           homem pecador!
           <Typography className="versicle"> ℣. </Typography>
@@ -104,15 +106,15 @@ export default function PageQuad42() {
       <Language>
         <Typography className="latin">
           Exsúrge, Dómine, fer opem nobis: et líbera nos propter nomen tuum.
-          <Typography className="versicle"> ℣. </Typography>Deus, áuribus nostris audívimus:
-          et patres nostri annuntiavérunt nobis opus, quod operátus es in diébus
-          eórum et in diébus antíquis.
+          <Typography className="versicle"> ℣. </Typography>Deus, áuribus
+          nostris audívimus: et patres nostri annuntiavérunt nobis opus, quod
+          operátus es in diébus eórum et in diébus antíquis.
         </Typography>
         <Typography className="vernacular">
           Levantai-Vos, Senhor, acudi-nos e livrai-nos por causa do vosso nome.
-          <Typography className="versicle"> ℣. </Typography>Ó Deus, ouvimos com os nossos
-          ouvidos; os nossos pais anunciaram-nos quantas maravilhas praticastes
-          nos seus dias e nos tempos antigos.
+          <Typography className="versicle"> ℣. </Typography>Ó Deus, ouvimos com
+          os nossos ouvidos; os nossos pais anunciaram-nos quantas maravilhas
+          praticastes nos seus dias e nos tempos antigos.
         </Typography>
       </Language>
 
@@ -122,12 +124,12 @@ export default function PageQuad42() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Jam die festo mediánte, ascendit Jesus in templum, et

@@ -16,16 +16,17 @@ export default function Page20Virgemnaomartir1() {
         <Typography className="latin">
           Dilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus,
           Deus tuus, óleo lætítiae præ consórtibus tuis. (T. P. Allelúja,
-          allelúja.) <Typography className="latin">Ps. ibid., 2</Typography> Eructávit cor
-          meum verbum bonum: dico ego ópera mea Regi.
+          allelúja.) <Typography className="latin">Ps. ibid., 2</Typography>{" "}
+          Eructávit cor meum verbum bonum: dico ego ópera mea Regi.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Amastes a justiça e odiastes a iniquidade; pelo que ungiu-vos o
           Senhor, vosso Deus, com o óleo da alegria, de preferência às vossas
           companheiras. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Meu coração exprimiu
-          uma excelente palavra: Consagro ao Rei as minhas obras.
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Meu
+          coração exprimiu uma excelente palavra: Consagro ao Rei as minhas
+          obras.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -35,15 +36,15 @@ export default function Page20Virgemnaomartir1() {
       <Language>
         <Typography className="latin">
           Exáudi nos, Deus, salutáris noster: ut, sicut de beátæ{" "}
-          <Typography className="latin">N.</Typography> Vírginis tuæ festivitáte gaudémus;
-          ita piæ devotiónis erudiámur afféctu. Per Dóminum nostrum...
+          <Typography className="latin">N.</Typography> Vírginis tuæ festivitáte
+          gaudémus; ita piæ devotiónis erudiámur afféctu. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
           Ouvi-nos, ó Deus, nosso salvador, a fim de que, assim como nos
           alegramos com a festa da vossa B. Virgem{" "}
-          <Typography className="vernacular">N.</Typography> assim também consigamos
-          alcançar piedosos sentimentos de fervorosa devoção. Por nosso
-          Senhor...
+          <Typography className="vernacular">N.</Typography> assim também
+          consigamos alcançar piedosos sentimentos de fervorosa devoção. Por
+          nosso Senhor...
         </Typography>
       </Language>
 
@@ -92,14 +93,15 @@ export default function Page20Virgemnaomartir1() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 15 & 16</Typography> Adducántur Regi Vírgines
-          post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.
+          <Typography className="latin">ibid., 15 & 16</Typography> Adducántur
+          Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 15 & 16</Typography> Após ela, serão
-          apresentadas virgens ao Rei: as suas companheiras serão introduzidas
-          no meio da alegria. Aleluia.
+          <Typography className="vernacular">ibid., 15 & 16</Typography> Após
+          ela, serão apresentadas virgens ao Rei: as suas companheiras serão
+          introduzidas no meio da alegria. Aleluia.
         </Typography>
       </Language>
 
@@ -118,23 +120,24 @@ export default function Page20Virgemnaomartir1() {
           <Typography className="latin">ibid., 13 et 10</Typography> Vultum tuum
           deprecabúntur omnes dívites plebis: fíliæ regum in honóre tuo.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">ibid., 15-16</Typography> Adducéntur Regi Vírgines post
-          eam: próximæ ejus afferéntur tibi.
-          <Typography className="versicle"> ℣. </Typography>Afferéntur in lætítia et
-          exsultatióne: adducántur in templum Regis.
+          <Typography className="em">ibid., 15-16</Typography> Adducéntur Regi
+          Vírgines post eam: próximæ ejus afferéntur tibi.
+          <Typography className="versicle"> ℣. </Typography>Afferéntur in
+          lætítia et exsultatióne: adducántur in templum Regis.
         </Typography>
         <Typography className="vernacular">
           Ó minha filha, ouvi, vede e prestai atenção; pois o Rei está cheio de
           amor por vós, por causa da vossa beleza.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 13 et 10</Typography> Todos os poderosos
-          da terra implorarão os vossos olhares: e as filhas dos reis formam a
-          vossa corte de glória.
+          <Typography className="vernacular">ibid., 13 et 10</Typography> Todos
+          os poderosos da terra implorarão os vossos olhares: e as filhas dos
+          reis formam a vossa corte de glória.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">ibid., 15-16</Typography> Depois de vós, virão coros de
-          virgens: as suas companheiras serão apresentadas ao Rei.
-          <Typography className="versicle"> ℣. </Typography>Serão apresentadas no meio da
-          alegria e do júbilo: e serão introduzidas no templo do Rei.
+          <Typography className="em">ibid., 15-16</Typography> Depois de vós,
+          virão coros de virgens: as suas companheiras serão apresentadas ao
+          Rei.
+          <Typography className="versicle"> ℣. </Typography>Serão apresentadas
+          no meio da alegria e do júbilo: e serão introduzidas no templo do Rei.
         </Typography>
       </Language>
 
@@ -145,20 +148,21 @@ export default function Page20Virgemnaomartir1() {
       <Language>
         <Typography className="latin">
           Allelúia, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 44, 15 et 16</Typography> Adducéntur Regi
-          Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.
+          <Typography className="latin">Ps. 44, 15 et 16</Typography> Adducéntur
+          Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia.
+          Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">ibid., 5</Typography> Spécie tua et pulchritúdine tua
-          inténde, próspere procéde et regna. Allelúja.
+          <Typography className="em">ibid., 5</Typography> Spécie tua et
+          pulchritúdine tua inténde, próspere procéde et regna. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 44, 15 et 16</Typography> Após ela, serão
-          apresentadas virgens ao Rei: as suas companheiras serão introduzidas
-          no meio da alegria. Aleluia.
+          <Typography className="vernacular">Sl. 44, 15 et 16</Typography> Após
+          ela, serão apresentadas virgens ao Rei: as suas companheiras serão
+          introduzidas no meio da alegria. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">ibid., 5</Typography> Caminhai com beleza e com
-          majestade; ide gozar a vitória e reinai. Aleluia.
+          <Typography className="em">ibid., 5</Typography> Caminhai com beleza e
+          com majestade; ide gozar a vitória e reinai. Aleluia.
         </Typography>
       </Language>
 
@@ -168,12 +172,12 @@ export default function Page20Virgemnaomartir1() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Simile

@@ -48,7 +48,8 @@ export default function PageMatrimonio() {
       <Language>
         <Typography className="latin">
           Ego conjúngo vos in matrimónium, in nómine Patris,{" "}
-          <Typography className="cross"> ✠ </Typography> et Fílii, et Spíritus Sancti.
+          <Typography className="cross"> ✠ </Typography> et Fílii, et Spíritus
+          Sancti.
         </Typography>
         <Typography className="vernacular">
           Eu vos uno em Matrimónio, em Nome do Pai, e do Filho{" "}
@@ -67,43 +68,50 @@ export default function PageMatrimonio() {
       <H2 text="Bênção do Anel" />
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Adjutórium nostrum in nómine
-          Dómini.
+          <Typography className="versicle"> ℣. </Typography>Adjutórium nostrum
+          in nómine Dómini.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O nosso auxílio está no Nome do
-          Senhor.
+          <Typography className="versicle"> ℣. </Typography>O nosso auxílio está
+          no Nome do Senhor.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Qui fecit cœlum et terram.
+          <Typography className="response"> ℟. </Typography> Qui fecit cœlum et
+          terram.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Que criou o céu e a terra.
+          <Typography className="response"> ℟. </Typography> Que criou o céu e a
+          terra.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi oratiónem meam.
+          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi
+          oratiónem meam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha oração.
+          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha
+          oração.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et clamor meus ad te véniat.
+          <Typography className="response"> ℟. </Typography> Et clamor meus ad
+          te véniat.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E que meu clamor chegue até
-          Vós.
+          <Typography className="response"> ℟. </Typography> E que meu clamor
+          chegue até Vós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Dominus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor seja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor seja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">
@@ -116,18 +124,19 @@ export default function PageMatrimonio() {
           </Typography>
         </Typography>
         <Typography className="latin">
-          Benedic, <Typography className="cross"> ✠ </Typography> Dómine, ánnulum hunc, quem
-          nos in tuo nómine benedícimus, <Typography className="cross"> ✠ </Typography> ut
-          quæ eum gestáverit, fidelitátem íntegram suo sponso tenens, in pace et
-          voluntáte tua permáneat atque in mútua caritáte semper vivat. Per
-          Christum Dóminum nostrum.
+          Benedic, <Typography className="cross"> ✠ </Typography> Dómine,
+          ánnulum hunc, quem nos in tuo nómine benedícimus,{" "}
+          <Typography className="cross"> ✠ </Typography> ut quæ eum gestáverit,
+          fidelitátem íntegram suo sponso tenens, in pace et voluntáte tua
+          permáneat atque in mútua caritáte semper vivat. Per Christum Dóminum
+          nostrum.
         </Typography>
         <Typography className="vernacular">
-          Abençoai, <Typography className="cross"> ✠ </Typography> Senhor, este anel, que
-          nós benzemos <Typography className="cross"> ✠ </Typography> em vosso Nome, a fim
-          de que aquela que vai usá-lo, guardando a seu esposo uma fidelidade
-          inteira, permaneça na paz e na vossa vontade e viva sempre no amor
-          recíproco. Por Cristo, nosso Senhor.
+          Abençoai, <Typography className="cross"> ✠ </Typography> Senhor, este
+          anel, que nós benzemos <Typography className="cross"> ✠ </Typography>{" "}
+          em vosso Nome, a fim de que aquela que vai usá-lo, guardando a seu
+          esposo uma fidelidade inteira, permaneça na paz e na vossa vontade e
+          viva sempre no amor recíproco. Por Cristo, nosso Senhor.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -144,38 +153,41 @@ export default function PageMatrimonio() {
       </Typography>
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Confírma hoc, Deus, quod
-          operátus es in nobis.
+          <Typography className="versicle"> ℣. </Typography>Confírma hoc, Deus,
+          quod operátus es in nobis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Confirmai, Senhor, aquilo que
-          acabais de operar em nós.
+          <Typography className="versicle"> ℣. </Typography>Confirmai, Senhor,
+          aquilo que acabais de operar em nós.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> A templo sancto tuo, quod est
-          in Jerúsalem.
+          <Typography className="response"> ℟. </Typography> A templo sancto
+          tuo, quod est in Jerúsalem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Do vosso templo Santo, que é a
-          celestial Jerusalém.
+          <Typography className="response"> ℟. </Typography> Do vosso templo
+          Santo, que é a celestial Jerusalém.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Kyrie eléison.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, tende piedade de nós.
+          <Typography className="versicle"> ℣. </Typography>Senhor, tende
+          piedade de nós.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Christe eléison.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Cristo, tende piedade de nós.
+          <Typography className="response"> ℟. </Typography> Cristo, tende
+          piedade de nós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Kyrie eléison.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, tende piedade de nós.
+          <Typography className="versicle"> ℣. </Typography>Senhor, tende
+          piedade de nós.
         </Typography>
         <Typography className="latin">Pater noster... (secreto)</Typography>
         <Typography className="vernacular">Pai nosso... (silêncio)</Typography>
@@ -184,48 +196,56 @@ export default function PageMatrimonio() {
           tentatiónem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>E não nos deixeis cair em
-          tentação.
+          <Typography className="versicle"> ℣. </Typography>E não nos deixeis
+          cair em tentação.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Sed líbera nos a malo.
+          <Typography className="response"> ℟. </Typography> Sed líbera nos a
+          malo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Mas livrai-nos do mal.
+          <Typography className="response"> ℟. </Typography> Mas livrai-nos do
+          mal.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography> Salvus fac servos tuos.
+          <Typography className="versicle"> ℣. </Typography> Salvus fac servos
+          tuos.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, salvai os vossos servos.
+          <Typography className="versicle"> ℣. </Typography>Senhor, salvai os
+          vossos servos.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Deus meus, sperántes in te.
+          <Typography className="response"> ℟. </Typography> Deus meus,
+          sperántes in te.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Que esperam em Vós, ó Deus.
+          <Typography className="response"> ℟. </Typography> Que esperam em Vós,
+          ó Deus.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Mitte eis, Dómine, auxílium de
-          sancto.
+          <Typography className="versicle"> ℣. </Typography>Mitte eis, Dómine,
+          auxílium de sancto.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Do vosso santuário, enviai-lhes,
-          Senhor, auxílio.
+          <Typography className="versicle"> ℣. </Typography>Do vosso santuário,
+          enviai-lhes, Senhor, auxílio.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et de Sion tuére eos.
+          <Typography className="response"> ℟. </Typography> Et de Sion tuére
+          eos.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E de Sião, amparai-os.
+          <Typography className="response"> ℟. </Typography> E de Sião,
+          amparai-os.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Esto eis, Dómine, turris
-          fortitúdinis.
+          <Typography className="versicle"> ℣. </Typography>Esto eis, Dómine,
+          turris fortitúdinis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Sede para eles como uma torre
-          fortificada.
+          <Typography className="versicle"> ℣. </Typography>Sede para eles como
+          uma torre fortificada.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> A fácie inimíci.
@@ -234,29 +254,34 @@ export default function PageMatrimonio() {
           <Typography className="response"> ℟. </Typography> Contra o inimigo.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi oratiónem meam.
+          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi
+          oratiónem meam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha oração.
+          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha
+          oração.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et clamor meus ad te véniat.
+          <Typography className="response"> ℟. </Typography> Et clamor meus ad
+          te véniat.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E que meu clamor chegue até
-          Vós.
+          <Typography className="response"> ℟. </Typography> E que meu clamor
+          chegue até Vós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Dominus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor seja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor seja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">
@@ -296,16 +321,18 @@ export default function PageMatrimonio() {
         <Typography className="latin">
           Deus Israël conjúngat vos: et ipse sit vobíscum, qui misértus est
           duóbus únicis: et nunc, Dómine, fac eos plénius benedícere te. (T. P.
-          Allelúja, allelúja.) <Typography className="latin">Ps. 127, 1</Typography> Beáti
-          omnes, qui timent Dóminum: qui ámbulant in viis ejus.
+          Allelúja, allelúja.){" "}
+          <Typography className="latin">Ps. 127, 1</Typography> Beáti omnes, qui
+          timent Dóminum: qui ámbulant in viis ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Que Deus de Israel vos una: que Ele permaneça convosco e tenha piedade
           destes dois filhos únicos. De agora em diante. Senhor, fazei que Vos
           louvem plenamente. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. 127, 1</Typography> Bem-aventurados aqueles
-          que temem o Senhor: e que seguem os seus caminhos.
+          <Typography className="vernacular">Sl. 127, 1</Typography>{" "}
+          Bem-aventurados aqueles que temem o Senhor: e que seguem os seus
+          caminhos.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -373,23 +400,24 @@ export default function PageMatrimonio() {
       <Language>
         <Typography className="latin">
           Uxor tua sicut vitis abúndans in latéribus domus tuæ.
-          <Typography className="versicle"> ℣. </Typography>Fílii tui sicut novéllæ olivárum
-          in circúitu mensæ tuæ.
+          <Typography className="versicle"> ℣. </Typography>Fílii tui sicut
+          novéllæ olivárum in circúitu mensæ tuæ.
         </Typography>
         <Typography className="vernacular">
           A vossa esposa será como uma vinha fecunda no seio da vossa casa:
-          <Typography className="versicle"> ℣. </Typography>E os vossos filhos como rebentos
-          de oliveira, em torno da vossa mesa.
+          <Typography className="versicle"> ℣. </Typography>E os vossos filhos
+          como rebentos de oliveira, em torno da vossa mesa.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 19, 3</Typography> Mittat vobis Dóminus auxílium
-          de sancto: et de Sion tueátur vos. Allelúja.
+          <Typography className="latin">Ps. 19, 3</Typography> Mittat vobis
+          Dóminus auxílium de sancto: et de Sion tueátur vos. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ps. 19, 3</Typography> Que a graça do Senhor
-          desça do seu santuário e de Sião, e vos socorra e proteja. Aleluia.
+          <Typography className="vernacular">Ps. 19, 3</Typography> Que a graça
+          do Senhor desça do seu santuário e de Sião, e vos socorra e proteja.
+          Aleluia.
         </Typography>
       </Language>
       <Typography className="aside">
@@ -400,17 +428,18 @@ export default function PageMatrimonio() {
       <Language>
         <Typography className="latin">
           Ecce, sic benedicétur omnis homo, qui timet Dóminum.
-          <Typography className="versicle"> ℣. </Typography>Benedícat tibi Dóminus ex Sion:
-          et vídeas bona Jerúsalem ómnibus diébus vitae tuæ.
-          <Typography className="versicle"> ℣. </Typography>Et vídeas fílios filiórum
-          tuórum: pax super Israël.
+          <Typography className="versicle"> ℣. </Typography>Benedícat tibi
+          Dóminus ex Sion: et vídeas bona Jerúsalem ómnibus diébus vitae tuæ.
+          <Typography className="versicle"> ℣. </Typography>Et vídeas fílios
+          filiórum tuórum: pax super Israël.
         </Typography>
         <Typography className="vernacular">
           Assim será abençoado o homem que teme o Senhor.
-          <Typography className="versicle"> ℣. </Typography>O Senhor vos abençoe lá de Sião,
-          e possais gozar a felicidade de Jerusalém todos os dias da vossa vida.
-          <Typography className="versicle"> ℣. </Typography>E ver os filhos dos vossos
-          filhos e a paz em Israel.
+          <Typography className="versicle"> ℣. </Typography>O Senhor vos abençoe
+          lá de Sião, e possais gozar a felicidade de Jerusalém todos os dias da
+          vossa vida.
+          <Typography className="versicle"> ℣. </Typography>E ver os filhos dos
+          vossos filhos e a paz em Israel.
         </Typography>
       </Language>
       <Typography className="aside">
@@ -419,31 +448,32 @@ export default function PageMatrimonio() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 19, 3</Typography> Mittat vobis Dóminus auxílium
-          de sancto: et de Sion tueátur vos. Allelúja.
+          <Typography className="latin">Ps. 19, 3</Typography> Mittat vobis
+          Dóminus auxílium de sancto: et de Sion tueátur vos. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. 133, 3</Typography> Benedícat vobis Dóminus ex
-          Sion: qui fecit cœlum et terram. Allelúja.
+          <Typography className="em">Ps. 133, 3</Typography> Benedícat vobis
+          Dóminus ex Sion: qui fecit cœlum et terram. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 19, 3</Typography> Que a graça do Senhor
-          desça do seu santuário e de Sião e vos socorra e proteja. Aleluia.
+          <Typography className="vernacular">Sl. 19, 3</Typography> Que a graça
+          do Senhor desça do seu santuário e de Sião e vos socorra e proteja.
+          Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Sl. 133, 3</Typography> Que o Senhor, que criou o céu e
-          a terra, vos abençoe lá de Sião. Aleluia.
+          <Typography className="em">Sl. 133, 3</Typography> Que o Senhor, que
+          criou o céu e a terra, vos abençoe lá de Sião. Aleluia.
         </Typography>
       </Language>
       <H2 text="Evangelho" />
       <Typography className="em">Mt. 19, 3-6</Typography>
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Accessérunt ad Jesum pharisǽi, tentántes eum et

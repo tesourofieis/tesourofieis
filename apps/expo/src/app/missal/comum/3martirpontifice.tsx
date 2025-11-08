@@ -15,15 +15,16 @@ export default function Page3Martirpontifice() {
       <Language>
         <Typography className="latin">
           Sacerdótes Dei, benedícite Dóminum: sancti et húmiles corde, laudáte
-          Deum. <Typography className="latin">ibid., 57</Typography> Benedícite, ómnia ópera
-          Dómini, Dómino: laudáte et superexaltáte eum in sǽcula.
+          Deum. <Typography className="latin">ibid., 57</Typography> Benedícite,
+          ómnia ópera Dómini, Dómino: laudáte et superexaltáte eum in sǽcula.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Bendizei o Senhor, ó sacerdotes de Deus: louvai o Senhor, ó vós,
           santos e humildes de coração!{" "}
-          <Typography className="vernacular">ibid., 57</Typography> Bendizei o Senhor, todas
-          as obras do Senhor: louvai-O e glorificai-O em todos os séculos!
+          <Typography className="vernacular">ibid., 57</Typography> Bendizei o
+          Senhor, todas as obras do Senhor: louvai-O e glorificai-O em todos os
+          séculos!
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -32,16 +33,16 @@ export default function Page3Martirpontifice() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui nos beáti <Typography className="latin">N.</Typography> Mártyris tui
-          atque Pontíficis ánnua sollemnitáte lætíficas: concéde propítius; ut,
-          cujus natalítia cólimus, de ejúsdem étiam protectióne gaudeámus. Per
-          Dóminum...
+          Deus, qui nos beáti <Typography className="latin">N.</Typography>{" "}
+          Mártyris tui atque Pontíficis ánnua sollemnitáte lætíficas: concéde
+          propítius; ut, cujus natalítia cólimus, de ejúsdem étiam protectióne
+          gaudeámus. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Ó Deus, que nos alegrais com a solenidade anual do B.{" "}
-          <Typography className="vernacular">N.</Typography>, vosso Mártir e Pontífice,
-          concedei-nos propício que, assim como celebramos o seu nascimento,
-          assim também gozemos a sua protecção. Por nosso Senhor...
+          <Typography className="vernacular">N.</Typography>, vosso Mártir e
+          Pontífice, concedei-nos propício que, assim como celebramos o seu
+          nascimento, assim também gozemos a sua protecção. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -92,21 +93,21 @@ export default function Page3Martirpontifice() {
       <Language>
         <Typography className="latin">
           Glória et honóre coronásti eum.
-          <Typography className="versicle"> ℣. </Typography>Et constituísti eum super ópera
-          mánuum tuárum, Dómine.
+          <Typography className="versicle"> ℣. </Typography>Et constituísti eum
+          super ópera mánuum tuárum, Dómine.
         </Typography>
         <Typography className="vernacular">
           Vós o coroastes, Senhor, com glória e com honras.
-          <Typography className="versicle"> ℣. </Typography>Vós lhe destes o domínio sobre
-          as obras das vossas mãos.
+          <Typography className="versicle"> ℣. </Typography>Vós lhe destes o
+          domínio sobre as obras das vossas mãos.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Hic est
-          Sacérdos, quem coronávit Dóminus. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Hic est Sacérdos, quem coronávit Dóminus. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Eis o sacerdote
-          que o Senhor coroou. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Eis
+          o sacerdote que o Senhor coroou. Aleluia.
         </Typography>
       </Language>
 
@@ -123,15 +124,16 @@ export default function Page3Martirpontifice() {
           Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
           <Typography className="versicle"> ℣. </Typography>
           Potens in terra erit semen ejus: generátio rectórum benedicétur.
-          <Typography className="versicle"> ℣. </Typography>Glória et divítiæ in domo ejus:
-          et justítia ejus manet in sǽculum sǽculi.
+          <Typography className="versicle"> ℣. </Typography>Glória et divítiæ in
+          domo ejus: et justítia ejus manet in sǽculum sǽculi.
         </Typography>
         <Typography className="vernacular">
           Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em
-          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua descendência
-          será poderosa na terra; pois a geração dos justos será abençoada.
-          <Typography className="versicle"> ℣. </Typography>Na sua casa haverá glória e
-          riqueza: e a sua justiça permanecerá em todos os séculos.
+          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua
+          descendência será poderosa na terra; pois a geração dos justos será
+          abençoada.
+          <Typography className="versicle"> ℣. </Typography>Na sua casa haverá
+          glória e riqueza: e a sua justiça permanecerá em todos os séculos.
         </Typography>
       </Language>
 
@@ -141,12 +143,12 @@ export default function Page3Martirpontifice() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Si quis vult post me
@@ -189,13 +191,13 @@ export default function Page3Martirpontifice() {
       <Language>
         <Typography className="latin">
           Múnera tibi, Dómine, dicáta sanctífica: et, intercedénte beáto{" "}
-          <Typography className="latin">N.</Typography> Mártyre tuo atque Pontífice, per
-          éadem nos placátus inténde. Per Dóminum...
+          <Typography className="latin">N.</Typography> Mártyre tuo atque
+          Pontífice, per éadem nos placátus inténde. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Santificai, Senhor, estes dons que Vos são oferecidos, e, por
-          intercessão do B. <Typography className="vernacular">N.</Typography> vosso Mártir
-          e Pontífice, olhai aplacado para nós. Por nosso Senhor...
+          intercessão do B. <Typography className="vernacular">N.</Typography>{" "}
+          vosso Mártir e Pontífice, olhai aplacado para nós. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -217,14 +219,16 @@ export default function Page3Martirpontifice() {
       <Language>
         <Typography className="latin">
           Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáto{" "}
-          <Typography className="latin">N.</Typography> Mártyre tuo atque Pontífice,
-          cœléstis remédii fáciat esse consórtes. Per Dóminum nostrum...
+          <Typography className="latin">N.</Typography> Mártyre tuo atque
+          Pontífice, cœléstis remédii fáciat esse consórtes. Per Dóminum
+          nostrum...
         </Typography>
         <Typography className="vernacular">
           Que esta comunhão, Senhor, nos purifique de todos nossos crimes, e,
-          por intercessão do B. <Typography className="vernacular">N.</Typography>, vosso
-          Mártir e Pontífice, nos torne participante do remédio celestial. Por
-          nosso Senhor...
+          por intercessão do B.{" "}
+          <Typography className="vernacular">N.</Typography>, vosso Mártir e
+          Pontífice, nos torne participante do remédio celestial. Por nosso
+          Senhor...
         </Typography>
       </Language>
     </PageWrapper>

@@ -16,15 +16,15 @@ export default function PagePasc05() {
         <Typography className="latin">
           Edúxit eos Dóminus in spe, allelúja: et inimícos eórum opéruit mare,
           allelúja, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Attendite, pópule meus,
-          legem meam: inclináte aurem vestram in verba oris mei.
+          <Typography className="latin">Ps. ibid., 1</Typography> Attendite,
+          pópule meus, legem meam: inclináte aurem vestram in verba oris mei.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Senhor conduziu-os cheios de esperança, aleluia: enquanto que aos
           seus inimigos submergiu-os no mar, aleluia, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Atende à minha lei, ó
-          meu povo: escuta as palavras da minha boca.
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Atende à
+          minha lei, ó meu povo: escuta as palavras da minha boca.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -51,8 +51,12 @@ export default function PagePasc05() {
       <Typography className="em">1 Pe. 3, 18-22</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Petri Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Pedro.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Christus semel pro peccátis nostris mórtuus est, justus pro
           injústis, ut nos offérret Deo, mortificátus quidem carne, vivificátus
@@ -98,13 +102,13 @@ export default function PagePasc05() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 95, 10</Typography> Dícite in géntibus: quia
-          Dóminus regnávit a ligno.
+          <Typography className="latin">Ps. 95, 10</Typography> Dícite in
+          géntibus: quia Dóminus regnávit a ligno.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 95, 10</Typography> Dizei aos povos: o
-          Senhor reinou pelo madeiro.
+          <Typography className="vernacular">Sl. 95, 10</Typography> Dizei aos
+          povos: o Senhor reinou pelo madeiro.
         </Typography>
       </Language>
 
@@ -114,12 +118,12 @@ export default function PagePasc05() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Undecim discípuli abiérunt in Galilǽam, in montem,

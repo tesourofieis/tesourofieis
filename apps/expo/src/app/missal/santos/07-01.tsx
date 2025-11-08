@@ -34,18 +34,20 @@ export default function Page0701() {
         <Typography className="latin">
           Redemísti nos,Dómine, in sánguine tuo, ex omni tribu et lingua et
           pópulo et natióne: et fecísti nos Deo nostro regnum.{" "}
-          <Typography className="latin">Ps. 88, 2</Typography> Misericórdias Dómini in
-          ætérnum cantábo: in generatiónem et generatiónem annuntiábo veritátem
-          tuam in ore meo.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 88, 2</Typography> Misericórdias
+          Dómini in ætérnum cantábo: in generatiónem et generatiónem annuntiábo
+          veritátem tuam in ore meo.
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Com o vosso Sangue, Senhor, nos resgatastes de todas as tribos, de
           todas as línguas, de todos os povos e de todas as nações; e fizestes
           de nós um reino para o nosso Deus.{" "}
-          <Typography className="vernacular">Sl. 88, 2</Typography> Cantarei eternamente as
-          misericórdias do Senhor; de geração em geração a minha boca publicará
-          a vossa verdade.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 88, 2</Typography> Cantarei
+          eternamente as misericórdias do Senhor; de geração em geração a minha
+          boca publicará a vossa verdade.
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
       </Language>
@@ -85,28 +87,28 @@ export default function Page0701() {
         <Typography className="latin">
           Hic est, qui venit per aquam et sánguinem, Jesus Christus: non in aqua
           solum, sed in aqua et sánguine.
-          <Typography className="versicle"> ℣. </Typography>Tres sunt, qui testimónium dant
-          in cœlo: Pater, Verbum et Spíritus Sanctus; et hi tres unum sunt. Et
-          tres sunt, qui testimónium dant in terra: Spíritus, aqua et sanguis:
-          et hi tres unum sunt.
+          <Typography className="versicle"> ℣. </Typography>Tres sunt, qui
+          testimónium dant in cœlo: Pater, Verbum et Spíritus Sanctus; et hi
+          tres unum sunt. Et tres sunt, qui testimónium dant in terra: Spíritus,
+          aqua et sanguis: et hi tres unum sunt.
         </Typography>
         <Typography className="vernacular">
           Este é Jesus Cristo, que veio pela água e pelo sangue: não pela água,
           somente, mas pela água e pelo sangue.
-          <Typography className="versicle"> ℣. </Typography>Três são os que dão testemunho
-          no céu: o Pai, o Verbo e o Espírito Santo, e estes três são um só. E
-          três são os que dão testemunho na terra: o espírito, a água e o
-          sangue, e estes três são um só!
+          <Typography className="versicle"> ℣. </Typography>Três são os que dão
+          testemunho no céu: o Pai, o Verbo e o Espírito Santo, e estes três são
+          um só. E três são os que dão testemunho na terra: o espírito, a água e
+          o sangue, e estes três são um só!
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 9</Typography> Si testimónium hóminum
-          accípimus, testimónium Dei majus est. Allelúja.
+          <Typography className="latin">ibid., 9</Typography> Si testimónium
+          hóminum accípimus, testimónium Dei majus est. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 9</Typography> Se recebemos o testemunho
-          dos homens, maior é o testemunho de Deus. Aleluia.
+          <Typography className="vernacular">ibid., 9</Typography> Se recebemos
+          o testemunho dos homens, maior é o testemunho de Deus. Aleluia.
         </Typography>
       </Language>
 
@@ -116,12 +118,12 @@ export default function Page0701() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Cum accepísset Jesus acétum, dixit: Consummátum est.

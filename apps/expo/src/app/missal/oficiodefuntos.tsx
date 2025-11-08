@@ -28,11 +28,15 @@ export default function PageOficiodefuntos() {
       <H2 text="Invitatório" />
 
       <Language>
-        <Typography className="latin">Regem, cui ómnia vivunt, Veníte adorémus.</Typography>
+        <Typography className="latin">
+          Regem, cui ómnia vivunt, Veníte adorémus.
+        </Typography>
         <Typography className="vernacular">
           Vinde, adoremos o Rei para quem todas as criatura vivem.
         </Typography>
-        <Typography className="latin">Regem, cui ómnia vivunt, Veníte adorémus.</Typography>
+        <Typography className="latin">
+          Regem, cui ómnia vivunt, Veníte adorémus.
+        </Typography>
         <Typography className="vernacular">
           Vinde, adoremos o Rei para quem todas as criatura vivem.
         </Typography>
@@ -58,7 +62,9 @@ export default function PageOficiodefuntos() {
       </Language>
 
       <Language>
-        <Typography className="latin">Regem, cui ómnia vivunt, Veníte adorémus.</Typography>
+        <Typography className="latin">
+          Regem, cui ómnia vivunt, Veníte adorémus.
+        </Typography>
         <Typography className="vernacular">
           Vinde, adoremos o Rei para quem todas as criatura vivem.
         </Typography>

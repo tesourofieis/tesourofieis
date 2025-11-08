@@ -31,17 +31,18 @@ export default function Page0428() {
           Christo confíxus sum Cruci: vivo autem, jam non ego; vivit vero in me
           Christus: in fide vivo Filii Dei, qui diléxit me, et trádidit
           semetípsum pro me, allelúja. allelúja.{" "}
-          <Typography className="latin">Ps. 40, 2</Typography> Beátus, qui intéllegit super
-          egénum et páuperem: in die mala liberábit eum Dóminus.
+          <Typography className="latin">Ps. 40, 2</Typography> Beátus, qui
+          intéllegit super egénum et páuperem: in die mala liberábit eum
+          Dóminus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Estou pregado na Cruz com Cristo; e vivo, mas já não sou eu que vivo:
           é Cristo que vive em mim. Vivo na fé do Filho de Deus, que me amou e
           se entregou voluntariamente por mim, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. 40, 2</Typography> Bem-aventurado aquele
-          que é cuidadoso para com o pobre e o indigente, pois o Senhor o
-          livrará no dia infeliz.
+          <Typography className="vernacular">Sl. 40, 2</Typography>{" "}
+          Bem-aventurado aquele que é cuidadoso para com o pobre e o indigente,
+          pois o Senhor o livrará no dia infeliz.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -116,23 +117,23 @@ export default function Page0428() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">2 Cor. 5, 15</Typography> Pro ómnibus mórtuus est
-          Christus: ut, et qui vivunt, jam non sibi vivant, sed ei, qui pro
-          ipsis mórtuus est, et resurréxit. Allelúja.
+          <Typography className="latin">2 Cor. 5, 15</Typography> Pro ómnibus
+          mórtuus est Christus: ut, et qui vivunt, jam non sibi vivant, sed ei,
+          qui pro ipsis mórtuus est, et resurréxit. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Rom. 8, 17</Typography> Si fílii, et herédes: heródes
-          quidem Dei, coherédes autem Christi: si tamen compátimur, ut et
-          conglorificémur. Allelúja.
+          <Typography className="em">Rom. 8, 17</Typography> Si fílii, et
+          herédes: heródes quidem Dei, coherédes autem Christi: si tamen
+          compátimur, ut et conglorificémur. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">2 Cor. 5, 15</Typography> Cristo morreu por
-          todos, a fim de que aqueles que vivem não vivam já para si, mas para
-          Aquele que morreu e ressuscitou por eles. Aleluia.
+          <Typography className="vernacular">2 Cor. 5, 15</Typography> Cristo
+          morreu por todos, a fim de que aqueles que vivem não vivam já para si,
+          mas para Aquele que morreu e ressuscitou por eles. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Rm. 8, 17</Typography> Se somos filhos, somos também
-          herdeiros: herdeiros de Deus e co-herdeiros de Cristo. Se, pois,
-          sofremos com Ele, com Ele seremos glorificados. Aleluia.
+          <Typography className="em">Rm. 8, 17</Typography> Se somos filhos,
+          somos também herdeiros: herdeiros de Deus e co-herdeiros de Cristo.
+          Se, pois, sofremos com Ele, com Ele seremos glorificados. Aleluia.
         </Typography>
       </Language>
 

@@ -16,15 +16,16 @@ export default function PagePasc06() {
         <Typography className="latin">
           Eduxit Dóminus pópulum suum in exsultatióne, allelúja: et eléctos suos
           in lætítia, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Confitémini Dómino et
-          invocáte nomen ejus: annuntiáte inter gentes ópera ejus.
+          <Typography className="latin">Ps. ibid., 1</Typography> Confitémini
+          Dómino et invocáte nomen ejus: annuntiáte inter gentes ópera ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Senhor fez sair o seu povo no meio de transportes de alegria,
           aleluia: e os seus escolhidos com grande júbilo, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Louvai o Senhor e
-          aclamai o seu santo nome; anunciai as suas obras a todos os povos.
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Louvai o
+          Senhor e aclamai o seu santo nome; anunciai as suas obras a todos os
+          povos.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -48,8 +49,12 @@ export default function PagePasc06() {
       <Typography className="em">1 Pe. 2, 1-10</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Petri Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Pedro.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Deponéntes ígitur omnem malítiam, et omnem dolum, et
           simulatiónes, et invídias, et omnes detractiónes, sicut modo géniti
@@ -97,19 +102,19 @@ export default function PagePasc06() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 117, 24</Typography> Hæc dies, quam fecit
-          Dóminus: exsultémus et lætémur in ea. Allelúja.
+          <Typography className="latin">Ps. 117, 24</Typography> Hæc dies, quam
+          fecit Dóminus: exsultémus et lætémur in ea. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. 112, 1</Typography> Laudáte, pueri, Dóminum,
-          laudáte nomen Dómini.
+          <Typography className="em">Ps. 112, 1</Typography> Laudáte, pueri,
+          Dóminum, laudáte nomen Dómini.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 117, 24</Typography> Eis o dia que o Senhor
-          fez: exultemos e alegremo-nos nele. Aleluia.
+          <Typography className="vernacular">Sl. 117, 24</Typography> Eis o dia
+          que o Senhor fez: exultemos e alegremo-nos nele. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Sl. 112, 1</Typography> Louvai, ó meninos, o Senhor:
-          louvai o nome do Senhor.
+          <Typography className="em">Sl. 112, 1</Typography> Louvai, ó meninos,
+          o Senhor: louvai o nome do Senhor.
         </Typography>
       </Language>
 
@@ -119,12 +124,12 @@ export default function PagePasc06() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Una sábbati, Maria Magdaléne venit mane, cum adhuc

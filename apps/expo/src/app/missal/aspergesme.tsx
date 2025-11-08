@@ -18,43 +18,50 @@ export default function PageAspergesme() {
           ficarei alvo, como a neve.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Osténde nobis, Dómine,
-          misericórdiam tuam.
+          <Typography className="versicle"> ℣. </Typography>Osténde nobis,
+          Dómine, misericórdiam tuam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Mostrai, Senhor, a vossa
-          misericórdia.
+          <Typography className="versicle"> ℣. </Typography>Mostrai, Senhor, a
+          vossa misericórdia.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et salutáre tuum da nobis.
+          <Typography className="response"> ℟. </Typography> Et salutáre tuum da
+          nobis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E dai-nos a salvação.
+          <Typography className="response"> ℟. </Typography> E dai-nos a
+          salvação.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi oratiónem meam.
+          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi
+          oratiónem meam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a minha oração.
+          <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a
+          minha oração.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et clamor meus ad te véniat.
+          <Typography className="response"> ℟. </Typography> Et clamor meus ad
+          te véniat.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E que meu clamor chegue até
-          Vós.
+          <Typography className="response"> ℟. </Typography> E que meu clamor
+          chegue até Vós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor seja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor seja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Orémus.</Typography>

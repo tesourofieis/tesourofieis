@@ -16,17 +16,19 @@ export default function Page0324() {
         <Typography className="latin">
           Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis
           verbum ejus, ad audiéndam vocem sermónum ejus. (T. P. Allelúja,
-          allelúja.) <Typography className="latin">Ps. ibid., 1</Typography> Bénedic, ánima
-          mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.
+          allelúja.) <Typography className="latin">Ps. ibid., 1</Typography>{" "}
+          Bénedic, ánima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto
+          ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Bendizei o Senhor, ó Anjos do Senhor: Sois cheios de poder e virtude:
           e fazeis o que Ele vos ordena, obedecendo às suas palavras e ordens.
           (T. P. Aleluia, aleluia).{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Bendizei o Senhor, ó
-          minha alma: que tudo quanto houver em mim bendiga o santo nome do
-          Senhor.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Bendizei
+          o Senhor, ó minha alma: que tudo quanto houver em mim bendiga o santo
+          nome do Senhor.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -102,14 +104,14 @@ export default function Page0324() {
       <Language>
         <Typography className="latin">
           Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis
-          verbum ejus.<Typography className="versicle"> ℣. </Typography>Benedic, ánima mea,
-          Dóminum, et ómnia interióra mea nomen sanctum ejus.
+          verbum ejus.<Typography className="versicle"> ℣. </Typography>Benedic,
+          ánima mea, Dóminum, et ómnia interióra mea nomen sanctum ejus.
         </Typography>
         <Typography className="vernacular">
           Bendizei o Senhor, vós todos, que sois seus Anjos; ó vós, que sois
           poderosos e valorosos; e que executais as suas ordens.
-          <Typography className="versicle"> ℣. </Typography>Bendizei o Senhor, ó minha alma:
-          tudo o que há no meu íntimo bendiga o Senhor.
+          <Typography className="versicle"> ℣. </Typography>Bendizei o Senhor, ó
+          minha alma: tudo o que há no meu íntimo bendiga o Senhor.
         </Typography>
       </Language>
 
@@ -120,25 +122,25 @@ export default function Page0324() {
       <Language>
         <Typography className="latin">
           Ave, María, grátia plena; Dóminus tecum.
-          <Typography className="versicle"> ℣. </Typography>Benedícta tu in muliéribus: et
-          benedíctus fructus ventris tui.
-          <Typography className="versicle"> ℣. </Typography>Ecce, concípies et páries
-          Fílium, et vocábis nomen ejus Emmánuel.
-          <Typography className="versicle"> ℣. </Typography>Spíritus Sanctus supervéniet in
-          te, et virtus Altíssimi obumbrábit tibi.
+          <Typography className="versicle"> ℣. </Typography>Benedícta tu in
+          muliéribus: et benedíctus fructus ventris tui.
+          <Typography className="versicle"> ℣. </Typography>Ecce, concípies et
+          páries Fílium, et vocábis nomen ejus Emmánuel.
+          <Typography className="versicle"> ℣. </Typography>Spíritus Sanctus
+          supervéniet in te, et virtus Altíssimi obumbrábit tibi.
           <Typography className="versicle"> ℣. </Typography>
           Ideóque et quod nascétur ex te Sanctum, vocábitur Fílius Dei.
         </Typography>
         <Typography className="vernacular">
           Ave, Maria, cheia de graça, o Senhor é convosco.
-          <Typography className="versicle"> ℣. </Typography>Bendita sois vós entre as
-          mulheres: e bendito é o fruto do vosso ventre.
-          <Typography className="versicle"> ℣. </Typography>Eis que conceberás, darás à luz
-          um Filho e o seu nome será Emanuel.
-          <Typography className="versicle"> ℣. </Typography>O Espírito Santo descerá sobre
-          vós e a virtude do Altíssimo far-vos-á conceber.
-          <Typography className="versicle"> ℣. </Typography>E, por isso, o Santo que de vós
-          nascer será chamado Filho de Deus.
+          <Typography className="versicle"> ℣. </Typography>Bendita sois vós
+          entre as mulheres: e bendito é o fruto do vosso ventre.
+          <Typography className="versicle"> ℣. </Typography>Eis que conceberás,
+          darás à luz um Filho e o seu nome será Emanuel.
+          <Typography className="versicle"> ℣. </Typography>O Espírito Santo
+          descerá sobre vós e a virtude do Altíssimo far-vos-á conceber.
+          <Typography className="versicle"> ℣. </Typography>E, por isso, o Santo
+          que de vós nascer será chamado Filho de Deus.
         </Typography>
       </Language>
 
@@ -149,20 +151,21 @@ export default function Page0324() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 103, 4</Typography> Qui facit Angelos suos
-          spíritus: et minístros suos flammam ignis. Allelúja.
+          <Typography className="latin">Ps. 103, 4</Typography> Qui facit
+          Angelos suos spíritus: et minístros suos flammam ignis. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Luc. 1, 28</Typography> Ave, María, grátia plena;
-          Dóminus tecum: benedícta tu in muliéribus. Allelúja.
+          <Typography className="em">Luc. 1, 28</Typography> Ave, María, grátia
+          plena; Dóminus tecum: benedícta tu in muliéribus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 103, 4</Typography> Fazeis que os vossos
-          Anjos sejam velozes como os ventos e que os vossos ministros sejam
-          activos como a chama do fogo. Aleluia.
+          <Typography className="vernacular">Sl. 103, 4</Typography> Fazeis que
+          os vossos Anjos sejam velozes como os ventos e que os vossos ministros
+          sejam activos como a chama do fogo. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Lc. 1, 28</Typography> Ave, Maria, cheia de graça: O
-          Senhor é convosco: bendita sois vós entre as mulheres. Aleluia.
+          <Typography className="em">Lc. 1, 28</Typography> Ave, Maria, cheia de
+          graça: O Senhor é convosco: bendita sois vós entre as mulheres.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -172,12 +175,12 @@ export default function Page0324() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Missus est Angelus Gábriel a Deo in civitátem

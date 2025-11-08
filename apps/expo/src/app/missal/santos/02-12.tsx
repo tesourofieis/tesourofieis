@@ -19,8 +19,8 @@ export default function Page0212() {
           Justi decantavérunt, Dómine, nomen sanctum tuum, et victrícem manum
           tuam laudavérunt páriter: quóniam sapiéntia apéruit os mutum et
           linguas infántium fecit disértas.{" "}
-          <Typography className="latin">Ps. 8, 2</Typography> Dómine, Dóminus noster, quam
-          admirábile est nomen tuum in univérsa terra!
+          <Typography className="latin">Ps. 8, 2</Typography> Dómine, Dóminus
+          noster, quam admirábile est nomen tuum in univérsa terra!
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
@@ -28,8 +28,8 @@ export default function Page0212() {
           Os justos cantaram o vosso santo nome, Senhor, e louvaram em concerto
           a vossa mão vitoriosa: pois a sabedoria abriu a boca dos mudos e
           tornou eloquente a língua das criancinhas.{" "}
-          <Typography className="vernacular">Sl. 8, 2</Typography> Ó Senhor, nosso Deus,
-          como o vosso nome é glorioso em toda a terra!
+          <Typography className="vernacular">Sl. 8, 2</Typography> Ó Senhor,
+          nosso Deus, como o vosso nome é glorioso em toda a terra!
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -59,7 +59,9 @@ export default function Page0212() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Laudémus viros gloriósos et paréntes nostros in generatióne sua.
           Multam glóriam fecit Dóminus magnificéntia sua a sǽculo. Dominántes in
@@ -115,26 +117,28 @@ export default function Page0212() {
           Electi mei non laborábunt frustra, neque germinábunt in conturbatióne:
           quia semen benedictórum Dómini est, et nepótes eórum cum eis.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Eccli. 44, 14</Typography> Córpora ipsorum in pace
-          sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem.
+          <Typography className="latin">Eccli. 44, 14</Typography> Córpora
+          ipsorum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et
+          generatiónem.
         </Typography>
         <Typography className="vernacular">
           Os meus escolhidos se não fatigarão mais em vão, nem fecundarão filhos
           que lhes causem pena; pois eles e os seus descendentes formarão uma
           raça abençoada pelo Senhor.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ecl. 44, 14</Typography> Seus corpos foram
-          sepultados em paz e o seu nome vive de geração em geração.
+          <Typography className="vernacular">Ecl. 44, 14</Typography> Seus
+          corpos foram sepultados em paz e o seu nome vive de geração em
+          geração.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 15</Typography> Sapiéntiam ipsorum narrent
-          pópuli, et laudem eórum núntiet Ecclésia. Allelúja.
+          <Typography className="latin">ibid., 15</Typography> Sapiéntiam
+          ipsorum narrent pópuli, et laudem eórum núntiet Ecclésia. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 15</Typography> Publiquem os povos a sua
-          sabedoria e cante a Igreja os seus louvores. Aleluia.
+          <Typography className="vernacular">ibid., 15</Typography> Publiquem os
+          povos a sua sabedoria e cante a Igreja os seus louvores. Aleluia.
         </Typography>
       </Language>
 

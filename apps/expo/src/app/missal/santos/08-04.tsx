@@ -72,25 +72,27 @@ export default function Page0804() {
         <Typography className="latin">
           Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo
           Dómini.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 3</Typography> Ad annuntiándum mane
-          misericórdiam tuam, et veritátem tuam per noctem.
+          <Typography className="latin">ibid., 3</Typography> Ad annuntiándum
+          mane misericórdiam tuam, et veritátem tuam per noctem.
         </Typography>
         <Typography className="vernacular">
           O justo florescerá, como a palmeira, e multiplicar-se-á, como o cedro
           do Líbano, na casa do Senhor.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 3</Typography> Para anunciar de manhã a
-          vossa misericórdia e durante a noite a vossa verdade.
+          <Typography className="vernacular">ibid., 3</Typography> Para anunciar
+          de manhã a vossa misericórdia e durante a noite a vossa verdade.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Osee 14, 6</Typography> Justus germinábit sicut
-          lílium: et florébit in ætérnum ante Dóminum. Allelúja.
+          <Typography className="latin">Osee 14, 6</Typography> Justus
+          germinábit sicut lílium: et florébit in ætérnum ante Dóminum.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Os. 14, 6</Typography> O justo germinará, como
-          o lírio, e florescerá perpetuamente na presença do Senhor. Aleluia.
+          <Typography className="vernacular">Os. 14, 6</Typography> O justo
+          germinará, como o lírio, e florescerá perpetuamente na presença do
+          Senhor. Aleluia.
         </Typography>
       </Language>
 

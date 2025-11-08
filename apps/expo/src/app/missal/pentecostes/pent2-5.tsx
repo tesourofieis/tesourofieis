@@ -16,15 +16,16 @@ export default function PagePent25() {
         <Typography className="latin">
           Cogitatiónes Cordis ejus in generatióne et generatiónem: ut éruat a
           morte ánimas eórum et alat eos in fame. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Exsultáte, justi, in
-          Dómino: rectos decet collaudátio.
+          <Typography className="latin">Ps. ibid., 1</Typography> Exsultáte,
+          justi, in Dómino: rectos decet collaudátio.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Os pensamentos do seu Coração subsistem de geração em geração, para
           preservar suas almas da morte e alimentá-las quando tiverem fome.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Exultai no Senhor, ó
-          justos: Cantem seus louvores aqueles que possuem o coração recto.
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Exultai
+          no Senhor, ó justos: Cantem seus louvores aqueles que possuem o
+          coração recto.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -105,8 +106,8 @@ export default function PagePent25() {
       <Language>
         <Typography className="latin">
           Dulcis et rectus Dóminus: propter hoc legem dabit delinquéntibus in
-          via.<Typography className="versicle"> ℣. </Typography>Díriget mansúetos in
-          judício, docébit mites vias suas.
+          via.<Typography className="versicle"> ℣. </Typography>Díriget
+          mansúetos in judício, docébit mites vias suas.
         </Typography>
         <Typography className="vernacular">
           O Senhor é bom e recto: eis porque dá uma lei aos delinquentes.
@@ -116,15 +117,15 @@ export default function PagePent25() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Matth. 11, 29</Typography> Tóllite jugum meum super
-          vos, et díscite a me, quia mitis sum et húmilis Corde, et inveniétis
-          réquiem animábus vestris. Allelúja.
+          <Typography className="latin">Matth. 11, 29</Typography> Tóllite jugum
+          meum super vos, et díscite a me, quia mitis sum et húmilis Corde, et
+          inveniétis réquiem animábus vestris. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Mt. 11, 29</Typography> Tomai o meu jugo sobre
-          vós e aprendei de mim, que sou manso e humilde de Coração, e achareis
-          paz para as vossas almas. Aleluia.
+          <Typography className="vernacular">Mt. 11, 29</Typography> Tomai o meu
+          jugo sobre vós e aprendei de mim, que sou manso e humilde de Coração,
+          e achareis paz para as vossas almas. Aleluia.
         </Typography>
       </Language>
 
@@ -139,17 +140,18 @@ export default function PagePent25() {
       <Language>
         <Typography className="latin">
           Miséricors et miserátor Dóminus, longánimis, et multum miséricors.
-          <Typography className="versicle"> ℣. </Typography>Non in perpétuum irascétur,
-          neque in ætérnum comminábitur.
+          <Typography className="versicle"> ℣. </Typography>Non in perpétuum
+          irascétur, neque in ætérnum comminábitur.
           <Typography className="versicle"> ℣. </Typography>
           Non secúndum peccáta nostra fecit nobis, neque secúndum iniquitátes
           nostras retríbuit nobis.
         </Typography>
         <Typography className="vernacular">
           O Senhor é terno e compassivo, compadecente e misericordiosíssimo:
-          <Typography className="versicle"> ℣. </Typography>Não se irará perpetuamente, nem
-          ameaçará eternamente.<Typography className="versicle"> ℣. </Typography>Não nos
-          tratará segundo os nossos pecados, nem nos castigará segundo as nossas
+          <Typography className="versicle"> ℣. </Typography>Não se irará
+          perpetuamente, nem ameaçará eternamente.
+          <Typography className="versicle"> ℣. </Typography>Não nos tratará
+          segundo os nossos pecados, nem nos castigará segundo as nossas
           iniquidades.
         </Typography>
       </Language>
@@ -161,19 +163,19 @@ export default function PagePent25() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Matth. 11, 29 et 28</Typography> Tóllite jugum meum
-          super vos, et díscite a me, quia mitis sum et húmilis Corde: et
-          inveniétis réquiem animábus vestris. Allelúja.
-          <Typography className="versicle"> ℣. </Typography>Veníte ad me, omnes qui
-          laborátis, et oneráti estis, et ego refíciam vos. Allelúja.
+          <Typography className="latin">Matth. 11, 29 et 28</Typography> Tóllite
+          jugum meum super vos, et díscite a me, quia mitis sum et húmilis
+          Corde: et inveniétis réquiem animábus vestris. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>Veníte ad me, omnes
+          qui laborátis, et oneráti estis, et ego refíciam vos. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Mt. 11, 29 et 28</Typography> Tomai o meu jugo
-          sobre vós e aprendei de mim, que sou manso e humilde de Coração, e
-          achareis paz para as vossas almas. Aleluia.
-          <Typography className="versicle"> ℣. </Typography>Vinde a mim, vós todos, que
-          sofreis e estais sobrecarregados, e vos aliviarei. Aleluia.
+          <Typography className="vernacular">Mt. 11, 29 et 28</Typography> Tomai
+          o meu jugo sobre vós e aprendei de mim, que sou manso e humilde de
+          Coração, e achareis paz para as vossas almas. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>Vinde a mim, vós
+          todos, que sofreis e estais sobrecarregados, e vos aliviarei. Aleluia.
         </Typography>
       </Language>
 
@@ -183,12 +185,12 @@ export default function PagePent25() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Judǽi (quóniam Parascéve erat), ut non remanérent in
@@ -237,7 +239,9 @@ export default function PagePent25() {
         </Typography>
       </Language>
 
-      <Typography className="aside">No Tempo Pascal diz-se o seguinte:</Typography>
+      <Typography className="aside">
+        No Tempo Pascal diz-se o seguinte:
+      </Typography>
 
       <H3 text="Ofertório" />
 

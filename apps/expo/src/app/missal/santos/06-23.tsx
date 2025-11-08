@@ -19,8 +19,9 @@ export default function Page0623() {
           páriet tibi fílium, et vocábis nomen ejus Joánnem: et erit magnus
           coram Dómino: et Spíritu Sancto replébitur adhuc ex útero matris suæ:
           et multi in nativitáte ejus gaudébunt.{" "}
-          <Typography className="latin">Ps. 20, 2</Typography> Dómine, in virtúte tua
-          lætábitur rex: et super salutáre tuum exsultábit veheménter.
+          <Typography className="latin">Ps. 20, 2</Typography> Dómine, in
+          virtúte tua lætábitur rex: et super salutáre tuum exsultábit
+          veheménter.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
@@ -28,9 +29,10 @@ export default function Page0623() {
           dará à luz um filho, a quem darás o nome de João. Ele será grande
           diante de Deus e cheio do Espírito Santo desde o seio de sua mãe.
           Muitos se regozijarão com seu nascimento.{" "}
-          <Typography className="vernacular">Sl. 20, 2</Typography> Senhor, alegrar-se-á o
-          Rei com seu poder: e exultará com viva alegria, esperando a vossa
-          salvação.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. 20, 2</Typography> Senhor,
+          alegrar-se-á o Rei com seu poder: e exultará com viva alegria,
+          esperando a vossa salvação.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
@@ -57,7 +59,9 @@ export default function Page0623() {
 
       <Language>
         <Typography className="latin">Léctio Jeremíæ Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do Profeta Jeremias.</Typography>
+        <Typography className="vernacular">
+          Lição do Profeta Jeremias.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Factum est verbum Dómini ad me, dicens: Priúsquam te
           formárem in útero, novi te: et ántequam exíres de vulva, sanctificári
@@ -94,13 +98,13 @@ export default function Page0623() {
       <Language>
         <Typography className="latin">
           Fuit homo missus a Deo, cui nomen erat Joánnes.
-          <Typography className="versicle"> ℣. </Typography>Hic venit, ut testimónium
-          perhibéret de lúmine, paráre Dómino plebem perféctam.
+          <Typography className="versicle"> ℣. </Typography>Hic venit, ut
+          testimónium perhibéret de lúmine, paráre Dómino plebem perféctam.
         </Typography>
         <Typography className="vernacular">
           Foi enviado por Deus um homem que se chamava João.
-          <Typography className="versicle"> ℣. </Typography>Ele veio para dar testemunho da
-          luz e preparar um povo perfeito para o Senhor.
+          <Typography className="versicle"> ℣. </Typography>Ele veio para dar
+          testemunho da luz e preparar um povo perfeito para o Senhor.
         </Typography>
       </Language>
 
@@ -110,12 +114,12 @@ export default function Page0623() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Initium sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Initium sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Início do santo Evangelho segundo
-          S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Início do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           Fuit in diébus Heródis, regis Judǽæ, sacérdos quidam nómine Zacharías,

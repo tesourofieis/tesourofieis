@@ -17,15 +17,15 @@ export default function Page0218Portugal() {
         <Typography className="latin">
           Introíbimus in tabernáculum ejus: adorábimus in loco, ubi stetérunt
           pedes ejus. Stantes erant pedes nostri in átriis tuis, Jerusalém.{" "}
-          <Typography className="latin">Ps. 121, 1</Typography> Lætátus sum in his, quæ
-          dicta sunt mihi: in domum Dómini íbimus.
+          <Typography className="latin">Ps. 121, 1</Typography> Lætátus sum in
+          his, quæ dicta sunt mihi: in domum Dómini íbimus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Entraremos no seu tabernáculo e adoraremos no lugar onde Ele pôs os
           seus pés. Tínhamos os nossos pés colocados nos teus átrios, ó
-          Jerusalém. <Typography className="vernacular">Sl. 121, 1</Typography> Senti muita
-          alegria com o que me foi dito: Iremos à casa do Senhor.
+          Jerusalém. <Typography className="vernacular">Sl. 121, 1</Typography>{" "}
+          Senti muita alegria com o que me foi dito: Iremos à casa do Senhor.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -63,25 +63,25 @@ export default function Page0218Portugal() {
         <Typography className="latin">
           Loquébar de testimóniis tuis in conspéctu regum: et non confundébar.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 19, 10</Typography> Dómine, salvum fac regem et
-          exáudi nos in die, qua invocavérimus te.
+          <Typography className="latin">Ps. 19, 10</Typography> Dómine, salvum
+          fac regem et exáudi nos in die, qua invocavérimus te.
         </Typography>
         <Typography className="vernacular">
           Falava dos vossos testemunhos na presença dos reis e não era
           confundido.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 19, 10</Typography> Senhor, salvai o rei e
-          ouvi-nos no dia em que Vos invocarmos.
+          <Typography className="vernacular">Sl. 19, 10</Typography> Senhor,
+          salvai o rei e ouvi-nos no dia em que Vos invocarmos.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 115, 18-19</Typography> Vota mea Dómino redam in
-          átriis domus Dómini, in médio tui Jerusalém. Allelúja.
+          <Typography className="latin">Ps. 115, 18-19</Typography> Vota mea
+          Dómino redam in átriis domus Dómini, in médio tui Jerusalém. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 115, 18-19</Typography> Apresentarei os
-          meus votos ao Senhor, nos átrios da casa do Senhor e junto de Vós, ó
-          Jerusalém. Aleluia.
+          <Typography className="vernacular">Sl. 115, 18-19</Typography>{" "}
+          Apresentarei os meus votos ao Senhor, nos átrios da casa do Senhor e
+          junto de Vós, ó Jerusalém. Aleluia.
         </Typography>
       </Language>
 
@@ -93,20 +93,21 @@ export default function Page0218Portugal() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="latin">Sl. 115, 16</Typography>Dirupísti víncula mea: tibi
-          sacrificábo hóstiam laudis, et nomen Dómini invocábo.
+          <Typography className="latin">Sl. 115, 16</Typography>Dirupísti
+          víncula mea: tibi sacrificábo hóstiam laudis, et nomen Dómini
+          invocábo.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Sl. 86, 3</Typography> Gloriósa dicta sunt de te,
-          cívitas Dei.
+          <Typography className="em">Sl. 86, 3</Typography> Gloriósa dicta sunt
+          de te, cívitas Dei.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="vernacular">Sl. 115, 16</Typography>Cumprirei os votos que
-          fiz ao Senhor na presença de todo seu povo: aos olhos do Senhor é
-          preciosa a morte dos seus Santos.
-          <Typography className="versicle"> ℣. </Typography>Porquanto considerei que
-          fundastes os céus, a lua e as estrelas.{" "}
-          <Typography className="em">Sl. 86, 3</Typography> Gloriosas coisas têm sido
-          narradas a respeito de vós, ó cidade de Deus.
+          <Typography className="vernacular">Sl. 115, 16</Typography>Cumprirei
+          os votos que fiz ao Senhor na presença de todo seu povo: aos olhos do
+          Senhor é preciosa a morte dos seus Santos.
+          <Typography className="versicle"> ℣. </Typography>Porquanto considerei
+          que fundastes os céus, a lua e as estrelas.{" "}
+          <Typography className="em">Sl. 86, 3</Typography> Gloriosas coisas têm
+          sido narradas a respeito de vós, ó cidade de Deus.
         </Typography>
       </Language>
 

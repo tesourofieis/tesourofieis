@@ -13,20 +13,20 @@ export default function Page6Rei() {
       <Language>
         <Typography className="latin">
           Quǽsumus, omnípotens Deus: ut fámulus tuus{" "}
-          <Typography className="latin">N.</Typography>, rex noster, qui tua miseratióne
-          suscépit regni gubernácula, virtútum etiam ómnium percípiat
-          increménta; quibus decénter ornátus, et vitiórum monstra devitáre et
-          ad te, qui via, véritas et vita es, gratiósus váleat perveníre. Per
-          Dóminum...
+          <Typography className="latin">N.</Typography>, rex noster, qui tua
+          miseratióne suscépit regni gubernácula, virtútum etiam ómnium
+          percípiat increménta; quibus decénter ornátus, et vitiórum monstra
+          devitáre et ad te, qui via, véritas et vita es, gratiósus váleat
+          perveníre. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Vos suplicamos, ó omnipotente Deus, permiti que o vosso servo{" "}
-          <Typography className="vernacular">N.</Typography>, nosso rei, o qual, por efeito
-          da vossa misericórdia, recebeu as rédeas do governo, alcance também
-          incremento em todas as virtudes, a fim de que, sendo, como convém,
-          ornado com elas, possa evitar o horror dos vícios e, cheio de
-          merecimentos, se aproxime de Vós, que sois o caminho, a verdade e a
-          vida. Por nosso Senhor...
+          <Typography className="vernacular">N.</Typography>, nosso rei, o qual,
+          por efeito da vossa misericórdia, recebeu as rédeas do governo,
+          alcance também incremento em todas as virtudes, a fim de que, sendo,
+          como convém, ornado com elas, possa evitar o horror dos vícios e,
+          cheio de merecimentos, se aproxime de Vós, que sois o caminho, a
+          verdade e a vida. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -54,17 +54,17 @@ export default function Page6Rei() {
       <Language>
         <Typography className="latin">
           Hæc, Dómine, oblátio salutáris fámulum tuum{" "}
-          <Typography className="latin">N.</Typography>, regem nostrum, ab ómnibus tueátur
-          advérsis: quaténus et ecclesiásticæ pacis obtíneat tranquillitátem;
-          et, post hujus témporis decúrsum, ad ætérnam pervéniat hereditátem.
-          Per Dóminum...
+          <Typography className="latin">N.</Typography>, regem nostrum, ab
+          ómnibus tueátur advérsis: quaténus et ecclesiásticæ pacis obtíneat
+          tranquillitátem; et, post hujus témporis decúrsum, ad ætérnam
+          pervéniat hereditátem. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Senhor, que esta salutar oblação proteja o vosso servo{" "}
-          <Typography className="vernacular">N.</Typography>, nosso rei, contra todas as
-          adversidades, a fim de que alcance a tranquilidade, que proporciona a
-          paz da Igreja, e, após esta vida, consiga a herança eterna. Por nosso
-          Senhor...
+          <Typography className="vernacular">N.</Typography>, nosso rei, contra
+          todas as adversidades, a fim de que alcance a tranquilidade, que
+          proporciona a paz da Igreja, e, após esta vida, consiga a herança
+          eterna. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

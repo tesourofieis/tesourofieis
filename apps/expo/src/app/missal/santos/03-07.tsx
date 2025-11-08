@@ -63,7 +63,9 @@ export default function Page0307() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Optávi, et datus est mihi sensus: et invocávi, et venit in me spíritus
           sapiéntiæ: et præpósui illam regnis et sédibus, et divítias nihil esse

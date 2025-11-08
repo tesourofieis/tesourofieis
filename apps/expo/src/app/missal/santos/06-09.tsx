@@ -53,14 +53,14 @@ export default function Page0609() {
           em geração eu as cantarei!
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Hæc est vera
-          fratérnitas, quæ vicit mundi crímina: Christum secúta est, ínclita
-          tenens regna cœléstia. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secúta
+          est, ínclita tenens regna cœléstia. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Esta é a
-          verdadeira fraternidade que venceu os crimes do mundo. Ela seguiu
-          Cristo, possuindo gloriosamente o reino celestial. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Esta é a verdadeira fraternidade que venceu os crimes do mundo. Ela
+          seguiu Cristo, possuindo gloriosamente o reino celestial. Aleluia.
         </Typography>
       </Language>
 

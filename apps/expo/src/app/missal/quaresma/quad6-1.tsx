@@ -16,18 +16,18 @@ export default function PageQuad61() {
         <Typography className="latin">
           Júdica, Dómine, nocéntes me, expúgna impugnántes me: apprehénde arma
           et scutum, et exsúrge in adjutórium meum, Dómine, virtus salútis meæ.{" "}
-          <Typography className="latin">Ps. ibid., 3</Typography> Effúnde frámeam, et
-          conclúde advérsus eos, qui persequúntur me: dic ánimæ meæ: Salus tua
-          ego sum.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. ibid., 3</Typography> Effúnde
+          frámeam, et conclúde advérsus eos, qui persequúntur me: dic ánimæ meæ:
+          Salus tua ego sum.<Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Julgai, Senhor, aqueles que me perseguem; exterminai aqueles que me
           combatem! Empunhai as armas e o escudo e erguei-Vos em meu auxílio, ó
           Senhor, que sois o meu sustentáculo e a minha salvação.{" "}
-          <Typography className="vernacular">Sl. ibid., 3</Typography> Desembainhai a vossa
-          espada e enfrentai aqueles que me perseguem. Direi à minha alma: «Eu
-          sou a tua salvação».
+          <Typography className="vernacular">Sl. ibid., 3</Typography>{" "}
+          Desembainhai a vossa espada e enfrentai aqueles que me perseguem.
+          Direi à minha alma: «Eu sou a tua salvação».
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -94,14 +94,14 @@ export default function PageQuad61() {
       <Language>
         <Typography className="latin">
           Exsúrge, Dómine, et inténde judício meo, Deus meus et Dóminus meus, in
-          causam meam.<Typography className="versicle"> ℣. </Typography>Effúnde frámeam, et
-          conclúde advérsus eos, qui me persequúntur.
+          causam meam.<Typography className="versicle"> ℣. </Typography>Effúnde
+          frámeam, et conclúde advérsus eos, qui me persequúntur.
         </Typography>
         <Typography className="vernacular">
           Erguei-Vos, Senhor, e procedei ao meu julgamento. Ó meu Deus e meu
           Senhor, tomai a minha causa nas vossas mãos.
-          <Typography className="versicle"> ℣. </Typography>Desembainhai a vossa espada e
-          enfrentai aqueles que me perseguem.
+          <Typography className="versicle"> ℣. </Typography>Desembainhai a vossa
+          espada e enfrentai aqueles que me perseguem.
         </Typography>
       </Language>
 
@@ -114,22 +114,24 @@ export default function PageQuad61() {
           Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum
           iniquitátes nostras retríbuas nobis.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 78, 8-9</Typography> Dómine, ne memíneris
-          iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ
-          tuæ, quia páuperes facti sumus nimis.{" "}
+          <Typography className="latin">Ps. 78, 8-9</Typography> Dómine, ne
+          memíneris iniquitátum nostrárum antiquárum: cito antícipent nos
+          misericórdiæ tuæ, quia páuperes facti sumus nimis.{" "}
           <Typography className="em">(hic genuflectitur)</Typography>
-          <Typography className="versicle"> ℣. </Typography>Adjuva nos, Deus, salutáris
-          noster: et propter glóriam nóminis tui, Dómine, líbera nos: et
-          propítius esto peccátis nostris, propter nomen tuum.
+          <Typography className="versicle"> ℣. </Typography>Adjuva nos, Deus,
+          salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos:
+          et propítius esto peccátis nostris, propter nomen tuum.
         </Typography>
         <Typography className="vernacular">
           Senhor, nos não castigueis, consoante merecemos, pelos pecados que
           praticámos e por causa das nossas iniquidades!
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 78, 8-9</Typography> Esquecei-Vos, Senhor,
-          das nossas antigas iniquidades e apressai-Vos em revestir-nos com
-          vossas misericórdias, pois grande é a nossa miséria!{" "}
-          <Typography className="em">(Aqui os fiéis devem genuflectir).</Typography>
+          <Typography className="vernacular">Sl. 78, 8-9</Typography>{" "}
+          Esquecei-Vos, Senhor, das nossas antigas iniquidades e apressai-Vos em
+          revestir-nos com vossas misericórdias, pois grande é a nossa miséria!{" "}
+          <Typography className="em">
+            (Aqui os fiéis devem genuflectir).
+          </Typography>
           <Typography className="versicle"> ℣. </Typography>
           Auxiliai-nos, ó Deus, nosso Salvador. Para glória do vosso Nome,
           perdoai-nos os nossos pecados, Senhor!
@@ -142,12 +144,12 @@ export default function PageQuad61() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           Ante sex dies Paschæ venit Jesus Bethániam, ubi Lázarus fúerat

@@ -38,25 +38,25 @@ export default function Page0714() {
       <Language>
         <Typography className="latin">
           Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.
-          <Typography className="versicle"> ℣. </Typography>Lex Dei ejus in corde ipsíus: et
-          non supplantabúntur gressus ejus.
+          <Typography className="versicle"> ℣. </Typography>Lex Dei ejus in
+          corde ipsíus: et non supplantabúntur gressus ejus.
         </Typography>
         <Typography className="vernacular">
           A boca do justo falará com sabedoria e a sua língua proclamará a
-          justiça.<Typography className="versicle"> ℣. </Typography>A lei do seu Deus está
-          no seu coração e os seus pés não tropeçarão.
+          justiça.<Typography className="versicle"> ℣. </Typography>A lei do seu
+          Deus está no seu coração e os seus pés não tropeçarão.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 109, 4</Typography> Jurávit Dóminus, et non
-          pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem
+          <Typography className="latin">Ps. 109, 4</Typography> Jurávit Dóminus,
+          et non pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem
           Melchísedech. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ps. 109, 4</Typography> O Senhor jurou, e não
-          se arrependerá: tu és sacerdote para sempre segundo a ordem de
-          Melquisedeque. Aleluia.
+          <Typography className="vernacular">Ps. 109, 4</Typography> O Senhor
+          jurou, e não se arrependerá: tu és sacerdote para sempre segundo a
+          ordem de Melquisedeque. Aleluia.
         </Typography>
       </Language>
 

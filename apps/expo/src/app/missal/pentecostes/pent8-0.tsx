@@ -16,17 +16,19 @@ export default function PagePent80() {
         <Typography className="latin">
           Suscépimus, Deus, misericórdiam tuam in médio templi tui: secúndum
           nomen tuum, Deus, ita et laus tua in fines terræ: justítia plena est
-          déxtera tua. <Typography className="latin">Ps. ibid., 2</Typography> Magnus
-          Dóminus, et laudábilis nimis: in civitate Dei nostri, in monte sancto
-          ejus.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+          déxtera tua. <Typography className="latin">Ps. ibid., 2</Typography>{" "}
+          Magnus Dóminus, et laudábilis nimis: in civitate Dei nostri, in monte
+          sancto ejus.<Typography className="versicle"> ℣. </Typography>Gloria
+          Patri...
         </Typography>
         <Typography className="vernacular">
           Alcançámos, ó Deus, a vossa misericórdia no meio do vosso templo. Como
           o vosso nome, assim a vossa glória, Senhor, se estende até aos confins
           da terra: e a vossa dextra está cheia de justiça.{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> O Senhor é grande e
-          digno de todos os louvores, tanto na cidade de Deus, como no seu monte
-          santo.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. ibid., 2</Typography> O Senhor
+          é grande e digno de todos os louvores, tanto na cidade de Deus, como
+          no seu monte santo.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -89,25 +91,26 @@ export default function PagePent80() {
         <Typography className="latin">
           Esto mihi in Deum protectórem, et in locum refúgii, ut salvum me
           fácias.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 70, 1</Typography> Deus, in te sperávi: Dómine,
-          non confúndar in ætérnum.
+          <Typography className="latin">Ps. 70, 1</Typography> Deus, in te
+          sperávi: Dómine, non confúndar in ætérnum.
         </Typography>
         <Typography className="vernacular">
           Sede para mim Deus protector: e um lugar de refúgio para me salvar.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 70, 1</Typography> Ó Deus, em Vós pus a
-          minha esperança: não serei para sempre confundido, Senhor.
+          <Typography className="vernacular">Sl. 70, 1</Typography> Ó Deus, em
+          Vós pus a minha esperança: não serei para sempre confundido, Senhor.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 47, 2</Typography> Magnus Dóminus, et laudábilis
-          valde, in civitáte Dei nostri, in monte sancto ejus. Allelúja.
+          <Typography className="latin">Ps. 47, 2</Typography> Magnus Dóminus,
+          et laudábilis valde, in civitáte Dei nostri, in monte sancto ejus.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 47, 2</Typography> O Senhor é grande e
-          digno de todos os louvores, tanto na cidade de Deus, como no seu monte
-          santo. Aleluia.
+          <Typography className="vernacular">Sl. 47, 2</Typography> O Senhor é
+          grande e digno de todos os louvores, tanto na cidade de Deus, como no
+          seu monte santo. Aleluia.
         </Typography>
       </Language>
 
@@ -117,12 +120,12 @@ export default function PagePent80() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo

@@ -24,7 +24,7 @@ export async function getSettings(): Promise<Settings> {
       console.log("No settings found in AsyncStorage, returning default.");
       await AsyncStorage.setItem(
         SETTINGS_STORAGE_KEY,
-        JSON.stringify(DEFAULT_SETTINGS)
+        JSON.stringify(DEFAULT_SETTINGS),
       );
       return DEFAULT_SETTINGS;
     }
@@ -36,7 +36,7 @@ export async function getSettings(): Promise<Settings> {
 }
 
 export async function updateSettings(
-  newValues: Partial<Settings>
+  newValues: Partial<Settings>,
 ): Promise<Settings> {
   console.debug("updateSettings called with:", newValues);
   try {
@@ -49,7 +49,7 @@ export async function updateSettings(
 
     await AsyncStorage.setItem(
       SETTINGS_STORAGE_KEY,
-      JSON.stringify(updatedSettings)
+      JSON.stringify(updatedSettings),
     );
     console.log("Settings successfully updated and saved:", updatedSettings);
     return updatedSettings;

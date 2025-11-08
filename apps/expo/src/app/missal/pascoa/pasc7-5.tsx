@@ -16,17 +16,19 @@ export default function PagePasc75() {
         <Typography className="latin">
           Repleátur os meum laude tua, allelúja: ut possim cantáre, allelúja:
           gaudébunt lábia mea, dum cantávero tibi, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. ibid., 1-2</Typography> In te, Dómine, sperávi,
-          non confúndar in ætérnum: in justítia tua líbera me et éripe me.
+          <Typography className="latin">Ps. ibid., 1-2</Typography> In te,
+          Dómine, sperávi, non confúndar in ætérnum: in justítia tua líbera me
+          et éripe me.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Que a minha boca se encha com vossos louvores, aleluia: para que eu
           possa cantar, aleluia. E alegrar-se-ão os meus lábios quando cantarem
           vossos hinos, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Senhor, confio em
-          Vós, não serei confundido para sempre; pois a vossa justiça me livrará
-          e salvará.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Senhor,
+          confio em Vós, não serei confundido para sempre; pois a vossa justiça
+          me livrará e salvará.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
@@ -79,19 +81,21 @@ export default function PagePasc75() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Sap 12, 1</Typography> O quam bonus et suávis est,
-          Dómine, Spíritus tuus in nobis! Allelúja.{" "}
+          <Typography className="latin">Sap 12, 1</Typography> O quam bonus et
+          suávis est, Dómine, Spíritus tuus in nobis! Allelúja.{" "}
           <Typography className="em">(hic genuflectitur)</Typography>
-          <Typography className="versicle"> ℣. </Typography>Veni, Sancte Spíritus, reple
-          tuórum corda fidélium: et tui amóris in eis ignem accénde.
+          <Typography className="versicle"> ℣. </Typography>Veni, Sancte
+          Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem
+          accénde.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sb. 12, 1</Typography> Senhor, como é bom e
-          suave o vosso Espírito! Aleluia{" "}
+          <Typography className="vernacular">Sb. 12, 1</Typography> Senhor, como
+          é bom e suave o vosso Espírito! Aleluia{" "}
           <Typography className="em">(Genuflecte-se)</Typography>
-          <Typography className="versicle"> ℣. </Typography>Vinde ó Espírito Santo; enchei
-          os corações dos vossos fiéis e acendei neles o fogo do vosso amor.
+          <Typography className="versicle"> ℣. </Typography>Vinde ó Espírito
+          Santo; enchei os corações dos vossos fiéis e acendei neles o fogo do
+          vosso amor.
         </Typography>
       </Language>
 
@@ -101,12 +105,12 @@ export default function PagePasc75() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Factum est in una diérum, et Jesus sedébat docens. Et

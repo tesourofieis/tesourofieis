@@ -59,17 +59,18 @@ export default function Page1101() {
         <Typography className="latin">
           Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre
           Sanctórum ómnium: de quorum sollemnitáte gaudent Angeli et colláudant
-          Fílium Dei. <Typography className="latin">Ps. 32, 1</Typography> Exsultáte, justi,
-          in Dómino: rectos decet collaudátio.
+          Fílium Dei. <Typography className="latin">Ps. 32, 1</Typography>{" "}
+          Exsultáte, justi, in Dómino: rectos decet collaudátio.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Alegremo-nos todos no Senhor, neste dia em que celebramos a festa em
           honra de Todos os Santos, de cuja solenidade se regozijam os Anjos,
           louvando unissonamente o Filho de Deus.{" "}
-          <Typography className="vernacular">Sl. 32, 1</Typography> Aclamai o Senhor, ó
-          justos; pois é aos que possuem o coração recto que pertence louvar o
-          Senhor.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. 32, 1</Typography> Aclamai o
+          Senhor, ó justos; pois é aos que possuem o coração recto que pertence
+          louvar o Senhor.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -162,23 +163,23 @@ export default function Page1101() {
       <Language>
         <Typography className="latin">
           Timéte Dóminum, omnes Sancti ejus: quóniam nihil deest timéntibus eum.
-          <Typography className="versicle"> ℣. </Typography>Inquiréntes autem Dóminum, non
-          defícient omni bono.
+          <Typography className="versicle"> ℣. </Typography>Inquiréntes autem
+          Dóminum, non defícient omni bono.
         </Typography>
         <Typography className="vernacular">
           Temei o Senhor, ó vós, que sois os seus Anjos; pois àqueles que O
-          temem nada faltará.<Typography className="versicle"> ℣. </Typography>Aqueles que
-          procuram o Senhor não serão privados de nenhum bem.
+          temem nada faltará.<Typography className="versicle"> ℣. </Typography>
+          Aqueles que procuram o Senhor não serão privados de nenhum bem.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Matth. 11, 28</Typography> Veníte ad me, omnes, qui
-          laborátis et oneráti estis: et ego refíciam vos. Allelúja.
+          <Typography className="latin">Matth. 11, 28</Typography> Veníte ad me,
+          omnes, qui laborátis et oneráti estis: et ego refíciam vos. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Mt. 11, 28</Typography> Vinde a mim, vós,
-          todos, que estais aflitos: e Eu vos aliviarei. Aleluia.
+          <Typography className="vernacular">Mt. 11, 28</Typography> Vinde a
+          mim, vós, todos, que estais aflitos: e Eu vos aliviarei. Aleluia.
         </Typography>
       </Language>
 
@@ -188,12 +189,12 @@ export default function Page1101() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Videns Jesus turbas, ascéndit in montem, et cum

@@ -17,15 +17,16 @@ export default function PageQuad54() {
           Omnia, quæ fecísti nobis, Dómine, in vero judício fecísti: quia
           peccávimus tibi, et mandátis tuis non obœdívimus: sed da glóriam
           nómini tuo, et fac nobíscum secúndum multitúdinem misericórdiæ tuæ.{" "}
-          <Typography className="latin">Ps. 118, 1</Typography> Beáti immaculáti in via: qui
-          ámbulant in lege Dómini.
+          <Typography className="latin">Ps. 118, 1</Typography> Beáti immaculáti
+          in via: qui ámbulant in lege Dómini.
         </Typography>
         <Typography className="vernacular">
           Quantos males caíram sobre nós, Senhor, foi com verdadeira justiça que
           o fizestes, pois pecamos e não obedecemos aos vossos mandamentos; mas
           agora glorificai o vosso nome e usai para connosco de misericórdia.{" "}
-          <Typography className="vernacular">Ps. 118, 1</Typography> Bem-aventurados aqueles
-          cuja vida é perfeita e que praticam a Lei do Senhor.
+          <Typography className="vernacular">Ps. 118, 1</Typography>{" "}
+          Bem-aventurados aqueles cuja vida é perfeita e que praticam a Lei do
+          Senhor.
         </Typography>
       </Language>
 
@@ -112,14 +113,14 @@ export default function PageQuad54() {
         <Typography className="latin">
           Tóllite hóstias, et introíte in átria ejus: adoráte Dóminum in aula
           sancta ejus.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 28, 9</Typography> Revelávit Dóminus condénsa:
-          et in templo ejus omnes dicent glóriam.
+          <Typography className="latin">Ps. 28, 9</Typography> Revelávit Dóminus
+          condénsa: et in templo ejus omnes dicent glóriam.
         </Typography>
         <Typography className="vernacular">
           Levai convosco as vossas ofertas e entrai nos átrios: adorai o Senhor
           no seu templo santo.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 28, 9</Typography> O Senhor descobrirá o
-          que está oculto, e todos O glorificarão no seu templo.
+          <Typography className="vernacular">Sl. 28, 9</Typography> O Senhor
+          descobrirá o que está oculto, e todos O glorificarão no seu templo.
         </Typography>
       </Language>
 
@@ -129,12 +130,12 @@ export default function PageQuad54() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Rogábat Jesum quidam de pharisǽis, ut manducáret cum

@@ -23,16 +23,17 @@ export default function Page0205() {
         <Typography className="latin">
           Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ
           Agathæ Vírginis et Martyris: de cujus passióne gaudent Angeli et
-          colláudant Fílium Dei. <Typography className="latin">Ps. 44, 2</Typography>{" "}
-          Eructávit cor meum verbum bonum: dico ego ópera mea Regi.
+          colláudant Fílium Dei.{" "}
+          <Typography className="latin">Ps. 44, 2</Typography> Eructávit cor
+          meum verbum bonum: dico ego ópera mea Regi.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Alegremo-nos todos no Senhor, celebrando neste dia a festividade em
           honra da B. Águeda, Virgem e Mártir, de cujo martírio se regozijam os
           Anjos, que louvam o Filho de Deus.{" "}
-          <Typography className="vernacular">Sl. 44, 2</Typography> Meu coração exprimiu uma
-          excelente palavra: «Consagro ao Rei as minhas obras!».
+          <Typography className="vernacular">Sl. 44, 2</Typography> Meu coração
+          exprimiu uma excelente palavra: «Consagro ao Rei as minhas obras!».
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -79,24 +80,25 @@ export default function Page0205() {
       <Language>
         <Typography className="latin">
           Adjuvábit eam Deus vultu suo: Deus in médio ejus, non commovébitur.
-          <Typography className="versicle"> ℣. </Typography>Flúminis impetus lætíficat
-          civitátem Dei: sanctificávit tabernáculum suum Altíssimus.
+          <Typography className="versicle"> ℣. </Typography>Flúminis impetus
+          lætíficat civitátem Dei: sanctificávit tabernáculum suum Altíssimus.
         </Typography>
         <Typography className="vernacular">
           O Senhor a auxiliará com seu olhar: Deus está no meio dela e a não
-          deixará vacilar.<Typography className="versicle"> ℣. </Typography>Um rio com suas
-          águas alegra a cidade de Deus. O Altíssimo santificou o seu
-          tabernáculo.
+          deixará vacilar.<Typography className="versicle"> ℣. </Typography>Um
+          rio com suas águas alegra a cidade de Deus. O Altíssimo santificou o
+          seu tabernáculo.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 118, 46</Typography> Loquébar de testimóniis
-          tuis in conspéctu regum, et non confundébar. Allelúja.
+          <Typography className="latin">Ps. 118, 46</Typography> Loquébar de
+          testimóniis tuis in conspéctu regum, et non confundébar. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 118, 46</Typography> Perante os reis,
-          publicarei os vossos testemunhos e não me envergonharei. Aleluia.
+          <Typography className="vernacular">Sl. 118, 46</Typography> Perante os
+          reis, publicarei os vossos testemunhos e não me envergonharei.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -111,14 +113,16 @@ export default function Page0205() {
       <Language>
         <Typography className="latin">
           Qui séminant in lácrimis, in gáudio metent.
-          <Typography className="versicle"> ℣. </Typography>Eúntes ibant et fiébant,
-          mitténtes semina sua.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="versicle"> ℣. </Typography>Eúntes ibant et
+          fiébant, mitténtes semina sua.
+          <Typography className="versicle"> ℣. </Typography>
           Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.
         </Typography>
         <Typography className="vernacular">
           Aqueles que semearam com lágrimas colherão com alegria.
-          <Typography className="versicle"> ℣. </Typography>Iam, caminhavam e lançavam a
-          semente à terra, chorando.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="versicle"> ℣. </Typography>Iam, caminhavam e
+          lançavam a semente à terra, chorando.
+          <Typography className="versicle"> ℣. </Typography>
           Mas regressaram com alegria, transportando os seus molhos de trigo.
         </Typography>
       </Language>
@@ -129,12 +133,12 @@ export default function Page0205() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Accessérunt ad Jesum pharisǽi, tentántes eum et

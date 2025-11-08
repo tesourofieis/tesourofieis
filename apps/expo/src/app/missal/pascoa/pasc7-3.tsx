@@ -16,17 +16,19 @@ export default function PagePasc73() {
         <Typography className="latin">
           Deus, dum egrederéris coram pópulo tuo, iter fáciens eis, hábitans in
           illis, allelúja: terra mota est, cœli distillavérunt, allelúja,
-          allelúja. <Typography className="latin">Ps. ibid., 2</Typography> Exsúrgat Deus,
-          et dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a fácie
-          ejus.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+          allelúja. <Typography className="latin">Ps. ibid., 2</Typography>{" "}
+          Exsúrgat Deus, et dissipéntur inimíci ejus: et fúgiant, qui odérunt
+          eum, a fácie ejus.<Typography className="versicle"> ℣. </Typography>
+          Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Ó Deus, quando aparecestes perante o vosso povo, aleluia, caminhando e
           habitando com ele na terra, aleluia: a terra estremeceu e os céus
           destilaram águas, aleluia, aleluia!{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Erga-se Deus e os
-          seus inimigos sejam dispersos: e os seus perseguidores fujam diante da
-          sua face.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Erga-se
+          Deus e os seus inimigos sejam dispersos: e os seus perseguidores fujam
+          diante da sua face.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -51,7 +53,9 @@ export default function PagePasc73() {
 
       <Language>
         <Typography className="latin">Léctio Actuum Apostolórum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Stans Petrus cum úndecim, levávit vocem suam, et
           locútus est eis: Viri Judǽi, et qui habitátis Jerúsalem univérsi, hoc
@@ -88,14 +92,14 @@ export default function PagePasc73() {
       <Language>
         <Typography className="latin">
           Allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 32, 6</Typography> Verbo Dómini cœli firmáti
-          sunt, et Spíritu oris ejus omnis virtus eórum.
+          <Typography className="latin">Ps. 32, 6</Typography> Verbo Dómini cœli
+          firmáti sunt, et Spíritu oris ejus omnis virtus eórum.
         </Typography>
         <Typography className="vernacular">
           Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 32, 6</Typography> A palavra do Senhor
-          firmou os céus, e o Espírito da sua boca criou todos os espíritos da
-          milícia celeste.
+          <Typography className="vernacular">Sl. 32, 6</Typography> A palavra do
+          Senhor firmou os céus, e o Espírito da sua boca criou todos os
+          espíritos da milícia celeste.
         </Typography>
       </Language>
 
@@ -120,7 +124,9 @@ export default function PagePasc73() {
 
       <Language>
         <Typography className="latin">Léctio Actuum Apostolórum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Per manus autem Apostolórum fiébant signa et prodígia
           multa in plebe. Et erant unanímiter omnes in pórticu Salomónis.
@@ -149,13 +155,15 @@ export default function PagePasc73() {
 
       <Language>
         <Typography className="latin">
-          Allelúja, allelúja. <Typography className="em">(hic genuflectitur)</Typography>
+          Allelúja, allelúja.{" "}
+          <Typography className="em">(hic genuflectitur)</Typography>
           <Typography className="versicle"> ℣. </Typography>
           Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in
           eis ignem accénde.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia <Typography className="em">(Genuflecte-se)</Typography>
+          Aleluia, aleluia{" "}
+          <Typography className="em">(Genuflecte-se)</Typography>
           <Typography className="versicle"> ℣. </Typography>
           Vinde, ó Espírito Santo; enchei os corações dos vossos fiéis e acendei
           neles o fogo do vosso amor.
@@ -168,12 +176,12 @@ export default function PagePasc73() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus turbis Judæórum: Nemo potest veníre ad

@@ -39,16 +39,17 @@ export default function Page0628Outro() {
         <Typography className="latin">
           Lex veritátis fuit in ore ejus, et iníquitas non est invénta in lábiis
           ejus: in pace et in æquitáte ambulávit mecum, et multos avértit ab
-          iniquitáte. <Typography className="latin">Ps. 77, 1</Typography> Atténdite, pópule
-          meus, legem meam: inclináte aurem vestram in verba oris mei.
+          iniquitáte. <Typography className="latin">Ps. 77, 1</Typography>{" "}
+          Atténdite, pópule meus, legem meam: inclináte aurem vestram in verba
+          oris mei.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           A lei da verdade esteve na sua boca, e a iniquidade nunca existiu nos
           seus lábios: caminhou comigo na paz e na equidade e afastou muitos da
-          iniquidade. <Typography className="vernacular">Sl. 77, 1</Typography> Ouvi, ó meu
-          povo, a minha lei: inclinai vossos ouvidos para as palavras da minha
-          boca.
+          iniquidade. <Typography className="vernacular">Sl. 77, 1</Typography>{" "}
+          Ouvi, ó meu povo, a minha lei: inclinai vossos ouvidos para as
+          palavras da minha boca.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -124,14 +125,15 @@ export default function Page0628Outro() {
         <Typography className="latin">
           Propter fratres meos et próximos meos loquébar pacem de te.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 36, 37</Typography> Custódi innocéntiam et vide
-          æquitátem: quóniam sunt relíquiæ hómini pacífico.
+          <Typography className="latin">Ps. 36, 37</Typography> Custódi
+          innocéntiam et vide æquitátem: quóniam sunt relíquiæ hómini pacífico.
         </Typography>
         <Typography className="vernacular">
           Por causa dos meus irmãos e dos meus vizinhos, peço a paz para vós.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 36, 37</Typography> Guardai a inocência e
-          observai a justiça, pois o homem pacífico terá posteridade.
+          <Typography className="vernacular">Sl. 36, 37</Typography> Guardai a
+          inocência e observai a justiça, pois o homem pacífico terá
+          posteridade.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
@@ -141,9 +143,9 @@ export default function Page0628Outro() {
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ecl. 6, 35</Typography> Permanecei na
-          assembleia dos presbíteros e uni-vos de coração à sua sabedoria, para
-          que possais ouvir tudo quanto digam de Deus. Aleluia.
+          <Typography className="vernacular">Ecl. 6, 35</Typography> Permanecei
+          na assembleia dos presbíteros e uni-vos de coração à sua sabedoria,
+          para que possais ouvir tudo quanto digam de Deus. Aleluia.
         </Typography>
       </Language>
 
@@ -153,12 +155,12 @@ export default function Page0628Outro() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Nolíte timére eos, qui

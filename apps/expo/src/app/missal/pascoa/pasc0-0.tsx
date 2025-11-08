@@ -16,14 +16,16 @@ export default function PagePasc00() {
         <Typography className="latin">
           Resurréxi, et adhuc tecum sum, allelúja: posuísti super me manum tuam,
           allelúja: mirábilis facta est sciéntia tua, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. ibid., 1-2</Typography> Dómine, probásti me et
-          cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Dómine,
+          probásti me et cognovísti me: tu cognovísti sessiónem meam et
+          resurrectiónem meam.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Ressuscitei e ainda estou convosco, aleluia. Pusestes sobre mim a
           vossa mão, aleluia. Vossa sabedoria mostrou-se admirável, aleluia,
-          aleluia. <Typography className="vernacular">Sl. ibid., 1-2</Typography>{" "}
+          aleluia.{" "}
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography>{" "}
           Experimentastes-me, Senhor, e ficastes-me conhecendo: Ficastes
           conhecendo quando me deito e quando me levanto.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
@@ -90,13 +92,13 @@ export default function PagePasc00() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">1 Cor. 5, 7</Typography> Pascha nostrum immolátus
-          est Christus.
+          <Typography className="latin">1 Cor. 5, 7</Typography> Pascha nostrum
+          immolátus est Christus.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">1 Cor. 5, 7</Typography> Cristo nossa Páscoa,
-          foi imolado.
+          <Typography className="vernacular">1 Cor. 5, 7</Typography> Cristo
+          nossa Páscoa, foi imolado.
         </Typography>
       </Language>
 
@@ -131,12 +133,12 @@ export default function PagePasc00() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Marcum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Marcum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Marcos.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Marcos.
         </Typography>
         <Typography className="latin">
           In illo témpore: María Magdaléne et María Jacóbi et Salóme emérunt

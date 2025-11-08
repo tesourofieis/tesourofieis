@@ -15,15 +15,16 @@ export default function PageEpi40() {
       <Language>
         <Typography className="latin">
           Adoráte Deum, omnes Angeli ejus: audívit, et lætáta est Sion: et
-          exsultavérunt fíliæ Judae. <Typography className="latin">Ps. ibid., 1</Typography>{" "}
-          Dóminus regnávit, exsúltet terra: læténtur ínsulæ multæ.
+          exsultavérunt fíliæ Judae.{" "}
+          <Typography className="latin">Ps. ibid., 1</Typography> Dóminus
+          regnávit, exsúltet terra: læténtur ínsulæ multæ.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Adorai a Deus, ó vós, que sois os seus Anjos. Ouviu Sião: e rejubilou:
           e as filhas de Judá exultaram de alegria.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> O Senhor reinou:
-          alegre-se a terra e as suas muitas ilhas.
+          <Typography className="vernacular">Sl. ibid., 1</Typography> O Senhor
+          reinou: alegre-se a terra e as suas muitas ilhas.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -84,23 +85,24 @@ export default function PageEpi40() {
       <Language>
         <Typography className="latin">
           Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam.
-          <Typography className="versicle"> ℣. </Typography>Quóniam ædificávit Dóminus Sion,
-          et vidébitur in majestáte sua.
+          <Typography className="versicle"> ℣. </Typography>Quóniam ædificávit
+          Dóminus Sion, et vidébitur in majestáte sua.
         </Typography>
         <Typography className="vernacular">
           As nações temerão o vosso nome, Senhor; e todos os reis da terra
-          contemplarão a vossa glória.<Typography className="versicle"> ℣. </Typography>
+          contemplarão a vossa glória.
+          <Typography className="versicle"> ℣. </Typography>
           Pois o Senhor reedificou Sião: e manifestar-se-á aí na sua majestade.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 96, 1</Typography> Dóminus regnávit, exsúltet
-          terra: læténtur ínsulæ multæ. Allelúja.
+          <Typography className="latin">Ps. 96, 1</Typography> Dóminus regnávit,
+          exsúltet terra: læténtur ínsulæ multæ. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 96, 1</Typography> O Senhor reinou:
-          alegre-se a terra e as suas muitas ilhas. Aleluia.
+          <Typography className="vernacular">Sl. 96, 1</Typography> O Senhor
+          reinou: alegre-se a terra e as suas muitas ilhas. Aleluia.
         </Typography>
       </Language>
 
@@ -110,12 +112,12 @@ export default function PageEpi40() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Ascendénte Jesu in navículam, secúti sunt eum

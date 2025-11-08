@@ -16,15 +16,16 @@ export default function PagePasc20() {
         <Typography className="latin">
           Misericórdia Dómini plena est terra, allelúja: verbo Dómini cœli
           firmáti sunt, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Exsultáte, justi, in
-          Dómino: rectos decet collaudátio.
+          <Typography className="latin">Ps. ibid., 1</Typography> Exsultáte,
+          justi, in Dómino: rectos decet collaudátio.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           A misericórdia do Senhor enche toda a terra, aleluia! A palavra do
           Senhor criou os céus, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Ó justos, exultai de
-          alegria e aclamai o Senhor; pois é bom que os justos O louvem.
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Ó justos,
+          exultai de alegria e aclamai o Senhor; pois é bom que os justos O
+          louvem.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -50,8 +51,12 @@ export default function PagePasc20() {
       <Typography className="em">1 Pe. 2, 21-25</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Petri Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Pedro.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Christus passus est pro nobis, vobis relínquens exémplum,
           ut sequámini vestígia ejus. Qui peccátum non fecit, nec invéntus est
@@ -78,19 +83,19 @@ export default function PagePasc20() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Luc. 24, 35</Typography> Cognovérunt discípuli
-          Dóminum Jesum in fractióne panis. Allelúja.
+          <Typography className="latin">Luc. 24, 35</Typography> Cognovérunt
+          discípuli Dóminum Jesum in fractióne panis. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Joann. 10, 14</Typography> Ego sum pastor bonus: ei
-          cognósco oves meas, et cognóscunt me meæ. Allelúja.
+          <Typography className="em">Joann. 10, 14</Typography> Ego sum pastor
+          bonus: ei cognósco oves meas, et cognóscunt me meæ. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Lc. 24, 35</Typography> Os dois discípulos
-          reconheceram o Senhor Jesus pela fracção do pão. Aleluia.
+          <Typography className="vernacular">Lc. 24, 35</Typography> Os dois
+          discípulos reconheceram o Senhor Jesus pela fracção do pão. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Jo. 10, 14</Typography> Eu sou o bom Pastor; conheço as
-          minhas ovelhas, e elas conhecem-me, aleluia.
+          <Typography className="em">Jo. 10, 14</Typography> Eu sou o bom
+          Pastor; conheço as minhas ovelhas, e elas conhecem-me, aleluia.
         </Typography>
       </Language>
 
@@ -100,12 +105,12 @@ export default function PagePasc20() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus pharisǽis: Ego sum pastor bonus. Bonus

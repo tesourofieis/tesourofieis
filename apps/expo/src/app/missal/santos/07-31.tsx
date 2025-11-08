@@ -88,18 +88,19 @@ export default function Page0731() {
         <Typography className="latin">
           In nómine Jesu omne genu fléctitur, cœléstium, terréstrium et
           infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus
-          in glória est Dei Patris. <Typography className="latin">Ps. 5, 12-13</Typography>{" "}
-          Gloriabúntur in te omnes, qui díligunt nomen tuum: quóniam tu
-          benedíces justo.
+          in glória est Dei Patris.{" "}
+          <Typography className="latin">Ps. 5, 12-13</Typography> Gloriabúntur
+          in te omnes, qui díligunt nomen tuum: quóniam tu benedíces justo.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Que ao ser pronunciado o nome de Jesus se dobrem todos os joelhos dos
           que estão no céu, na terra e no inferno: e que toda a língua humana
           confesse que o Senhor Jesus Cristo está na glória de Deus Pai.{" "}
-          <Typography className="vernacular">Sl. 5, 12-13</Typography> Em Vós serão
-          glorificados todos aqueles que amam o vosso nome, pois abençoais o
-          justo.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. 5, 12-13</Typography> Em Vós
+          serão glorificados todos aqueles que amam o vosso nome, pois abençoais
+          o justo.<Typography className="versicle"> ℣. </Typography>Glória ao
+          Pai...
         </Typography>
       </Language>
 

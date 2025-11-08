@@ -37,16 +37,18 @@ export default function Page0125() {
         <Typography className="latin">
           Scio, cui crédidi, et certus sum, quia potens est depósitum meum
           serváre in illum diem, justus judex.{" "}
-          <Typography className="latin">Ps. 138, 1-2</Typography> Dómine, probásti me et
-          cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.
+          <Typography className="latin">Ps. 138, 1-2</Typography> Dómine,
+          probásti me et cognovísti me: tu cognovísti sessiónem meam et
+          resurrectiónem meam.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Sei em quem acreditar, e estou certo de que tem poder para guardar o
           meu depósito até àquele dia em que me julgará como justo Juiz.{" "}
-          <Typography className="vernacular">Sl. 138, 1-2</Typography> Senhor, Vós me
-          perscrutastes e me conhecestes: conhecestes quando me deito e quando
-          me levanto.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. 138, 1-2</Typography> Senhor,
+          Vós me perscrutastes e me conhecestes: conhecestes quando me deito e
+          quando me levanto.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -79,7 +81,9 @@ export default function Page0125() {
 
       <Language>
         <Typography className="latin">Léctio Actuum Apostolórum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Saulus adhuc spirans minárum et cædis in discípulos
           Dómini, accéssit ad príncipem sacerdótum, et pétiit ab eo epístolas in
@@ -171,24 +175,25 @@ export default function Page0125() {
         <Typography className="latin">
           Qui operátus est Petro in apostolátum, operátus est ei mihi inter
           gentes: et cognovérunt grátiam Dei, quæ data est mihi.
-          <Typography className="versicle"> ℣. </Typography>Grátia Dei in me vácua non fuit:
-          sed grátia ejus semper in me manet.
+          <Typography className="versicle"> ℣. </Typography>Grátia Dei in me
+          vácua non fuit: sed grátia ejus semper in me manet.
         </Typography>
         <Typography className="vernacular">
           Aquele que eficazmente trabalhou com Pedro para o tornar Apóstolo
           também fez de mim o Apóstolo dos gentios: e Conheceram a graça de
-          Deus, que me foi dada.<Typography className="versicle"> ℣. </Typography>A graça de
-          Deus em mim não foi estéril, mas permanece sempre em mim.
+          Deus, que me foi dada.
+          <Typography className="versicle"> ℣. </Typography>A graça de Deus em
+          mim não foi estéril, mas permanece sempre em mim.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Magnus
-          sanctus Paulus, vas electiónis, vere digne est glorificándus, qui et
-          méruit thronum duodécimum possídere. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Magnus sanctus Paulus, vas electiónis, vere digne est glorificándus,
+          qui et méruit thronum duodécimum possídere. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O grande S.
-          Paulo, este vaso de eleição, é verdadeiramente digno de glória, pois
-          mereceu ocupar o duodécimo trono. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O
+          grande S. Paulo, este vaso de eleição, é verdadeiramente digno de
+          glória, pois mereceu ocupar o duodécimo trono. Aleluia.
         </Typography>
       </Language>
 
@@ -201,20 +206,22 @@ export default function Page0125() {
       <Language>
         <Typography className="latin">
           Tu es vas electiónis, sancte Paule Apóstole: vere digne es
-          glorificándus.<Typography className="versicle"> ℣. </Typography>Prædicátor
-          veritátis et doctor géntium in fide et veritáte.
-          <Typography className="versicle"> ℣. </Typography>Per te omnes gentes cognovérunt
-          grátiam Dei.<Typography className="versicle"> ℣. </Typography>
+          glorificándus.<Typography className="versicle"> ℣. </Typography>
+          Prædicátor veritátis et doctor géntium in fide et veritáte.
+          <Typography className="versicle"> ℣. </Typography>Per te omnes gentes
+          cognovérunt grátiam Dei.
+          <Typography className="versicle"> ℣. </Typography>
           Intercéde pro nobis ad Deum, qui te elégit.
         </Typography>
         <Typography className="vernacular">
           Sois um vaso de eleição, ó Apóstolo S. Paulo; e é com justa razão que
-          vos glorificamos.<Typography className="versicle"> ℣. </Typography>Sois o pregador
-          da verdade e o Doutor das nações, ensinando-lhes a fé e a verdade.
-          <Typography className="versicle"> ℣. </Typography>Pelo vosso apostolado todas as
-          nações conheceram a graça de Deus.
-          <Typography className="versicle"> ℣. </Typography>Intercedei, pois, por nós junto
-          de Deus, que vos escolheu.
+          vos glorificamos.<Typography className="versicle"> ℣. </Typography>
+          Sois o pregador da verdade e o Doutor das nações, ensinando-lhes a fé
+          e a verdade.
+          <Typography className="versicle"> ℣. </Typography>Pelo vosso
+          apostolado todas as nações conheceram a graça de Deus.
+          <Typography className="versicle"> ℣. </Typography>Intercedei, pois,
+          por nós junto de Deus, que vos escolheu.
         </Typography>
       </Language>
 
@@ -224,12 +231,12 @@ export default function Page0125() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Petrus ad Jesum: Ecce, nos relíquimus ómnia, et

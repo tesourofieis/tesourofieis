@@ -15,15 +15,17 @@ export default function PagePent170() {
       <Language>
         <Typography className="latin">
           Justus es, Dómine, et rectum judicium tuum: fac cum servo tuo secúndum
-          misericórdiam tuam. <Typography className="latin">Ps. ibid., 1</Typography> Beáti
+          misericórdiam tuam.{" "}
+          <Typography className="latin">Ps. ibid., 1</Typography> Beáti
           immaculáti in via: qui ámbulant in lege Dómini.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Sois justo, ó Senhor, e os vossos juízos são equitativos: tratai o
           vosso servo segundo a vossa misericórdia.{" "}
-          <Typography className="vernacular">Ps. ibid., 1</Typography> Bem-aventurados os
-          que são imaculados na sua vida: os que o caminho da Lei do Senhor.
+          <Typography className="vernacular">Ps. ibid., 1</Typography>{" "}
+          Bem-aventurados os que são imaculados na sua vida: os que o caminho da
+          Lei do Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -95,13 +97,13 @@ export default function PagePent170() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 101, 2</Typography> Dómine, exáudi oratiónem
-          meam, et clamor meus ad te pervéniat. Allelúja.
+          <Typography className="latin">Ps. 101, 2</Typography> Dómine, exáudi
+          oratiónem meam, et clamor meus ad te pervéniat. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 101, 2</Typography> Ouvi, Senhor, a minha
-          oração: e que meu clamor chegue até vós. Aleluia.
+          <Typography className="vernacular">Sl. 101, 2</Typography> Ouvi,
+          Senhor, a minha oração: e que meu clamor chegue até vós. Aleluia.
         </Typography>
       </Language>
 
@@ -111,12 +113,12 @@ export default function PagePent170() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Accessérunt ad Jesum pharisǽi: et interrogávit eum

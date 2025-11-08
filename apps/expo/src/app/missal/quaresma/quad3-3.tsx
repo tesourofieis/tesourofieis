@@ -17,14 +17,16 @@ export default function PageQuad33() {
         <Typography className="latin">
           Ego autem in Dómino sperábo: exsultábo et lætábor in tua misericórdia:
           quia respexísti humilitátem meam.{" "}
-          <Typography className="latin">Ps. ib., 2</Typography> In te, Dómine, sperávi, non
-          confúndar in ætérnum: in justítia tua líbera me et éripe me.
+          <Typography className="latin">Ps. ib., 2</Typography> In te, Dómine,
+          sperávi, non confúndar in ætérnum: in justítia tua líbera me et éripe
+          me.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Eu, porém, espero no Senhor: e, confiado na vossa misericórdia,
           Senhor, exultarei e alegrar-me-ei, pois Vos dignastes olhar para a
-          minha miséria. <Typography className="vernacular">Sl. ib., 2</Typography> Em Vós,
+          minha miséria.{" "}
+          <Typography className="vernacular">Sl. ib., 2</Typography> Em Vós,
           Senhor, pus toda minha confiança, não serei confundido para sempre:
           livrai-me, Senhor, pela vossa justiça, e salvai-me.
           <Typography className="versicle"> ℣. </Typography>
@@ -109,8 +111,8 @@ export default function PageQuad33() {
         </Typography>
         <Typography className="vernacular">
           Tende compaixão de mim, Senhor, pois estou enfermo; curai-me, Senhor.
-          <Typography className="versicle"> ℣. </Typography>Meus Ossos estão cheios de
-          fraqueza e a minha alma repleta de temor.
+          <Typography className="versicle"> ℣. </Typography>Meus Ossos estão
+          cheios de fraqueza e a minha alma repleta de temor.
         </Typography>
       </Language>
 
@@ -127,12 +129,12 @@ export default function PageQuad33() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Accessérurit ad Jesum ab Jerosólymis scribæ et

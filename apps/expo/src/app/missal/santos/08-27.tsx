@@ -38,14 +38,15 @@ export default function Page0827() {
       <Language>
         <Typography className="latin">
           Veníte, fílii, audíte me: timorem Dómini docébo vos.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Benedícam Dóminum in omni
-          témpore: semper laus ejus in ore meo.
+          <Typography className="latin">Ps. ibid., 2</Typography> Benedícam
+          Dóminum in omni témpore: semper laus ejus in ore meo.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Vinde, meus filhos; escutai-me e vos ensinarei a temer o Senhor.{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Bendirei o Senhor em
-          todas as ocasiões: o seu louvor estará sempre na minha boca.
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Bendirei
+          o Senhor em todas as ocasiões: o seu louvor estará sempre na minha
+          boca.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -83,25 +84,25 @@ export default function Page0827() {
       <Language>
         <Typography className="latin">
           Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.
-          <Typography className="versicle"> ℣. </Typography>Lex Dei ejus in corde ipsíus: et
-          non supplantabúntur gressus ejus.
+          <Typography className="versicle"> ℣. </Typography>Lex Dei ejus in
+          corde ipsíus: et non supplantabúntur gressus ejus.
         </Typography>
         <Typography className="vernacular">
           A boca do justo falará com sabedoria e a sua língua proclamará a
-          justiça!<Typography className="versicle"> ℣. </Typography>A lei do seu Deus está
-          no seu coração e os seus pés não tropeçarão.
+          justiça!<Typography className="versicle"> ℣. </Typography>A lei do seu
+          Deus está no seu coração e os seus pés não tropeçarão.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Jac. 1, 12</Typography> Beátus vir, qui suffert
-          tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ.
-          Allelúja.
+          <Typography className="latin">Jac. 1, 12</Typography> Beátus vir, qui
+          suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam
+          vitæ. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Jac. 1, 12</Typography> Bem-aventurado o varão
-          que sofre a tentação, porque, depois de ser provado, receberá a coroa
-          da vida. Aleluia.
+          <Typography className="vernacular">Jac. 1, 12</Typography>{" "}
+          Bem-aventurado o varão que sofre a tentação, porque, depois de ser
+          provado, receberá a coroa da vida. Aleluia.
         </Typography>
       </Language>
 
@@ -111,12 +112,12 @@ export default function Page0827() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis,

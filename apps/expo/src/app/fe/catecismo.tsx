@@ -24,7 +24,9 @@ export default function PageCatecismo() {
         <Typography className="li text-justify">
           3º - Guardar os domingos e festas.
         </Typography>
-        <Typography className="li text-justify">4º - Honrar pai e mãe.</Typography>
+        <Typography className="li text-justify">
+          4º - Honrar pai e mãe.
+        </Typography>
         <Typography className="li text-justify">5º - Não matar.</Typography>
         <Typography className="li text-justify">
           6º - Não pecar contra a castidade.
@@ -40,12 +42,16 @@ export default function PageCatecismo() {
           10º - Não cobiçar as coisas alheias.
         </Typography>
       </View>
-      <Typography className="aside">Estes dez mandamentos se encerram em dois:</Typography>
+      <Typography className="aside">
+        Estes dez mandamentos se encerram em dois:
+      </Typography>
       <Typography className="vernacular">
         Amar a Deus sobre todas as coisas e ao próximo como a nós mesmos.
       </Typography>
       <H2 text="Mandamentos da Igreja" />
-      <Typography className="aside">Os mandamentos da Igreja são cinco:</Typography>
+      <Typography className="aside">
+        Os mandamentos da Igreja são cinco:
+      </Typography>
       <View className="list-styled">
         <Typography className="li text-justify">
           1º - Ouvir Missa inteira nos domingos e festas de guarda.
@@ -71,13 +77,17 @@ export default function PageCatecismo() {
         <Typography className="li text-justify">1º - Batismo.</Typography>
         <Typography className="li text-justify">2º - Confirmação.</Typography>
         <Typography className="li text-justify">3º - Eucaristia.</Typography>
-        <Typography className="li text-justify">4º - Penitência ou Confissão.</Typography>
+        <Typography className="li text-justify">
+          4º - Penitência ou Confissão.
+        </Typography>
         <Typography className="li text-justify">5º - Extrema Unção.</Typography>
         <Typography className="li text-justify">6º - Ordem.</Typography>
         <Typography className="li text-justify">7º - Matrimônio.</Typography>
       </View>
       <H2 text="Lição Preliminar" />
-      <Typography className="aside">Da Doutrina Cristã suas partes principais</Typography>
+      <Typography className="aside">
+        Da Doutrina Cristã suas partes principais
+      </Typography>
 
       <Typography className="vernacular">
         Em seguida Barnabé foi para Tarso, à procura de Saulo. Encontrou-o e o
@@ -87,7 +97,9 @@ export default function PageCatecismo() {
       </Typography>
 
       <H5 text="1 - Sois cristão?" />
-      <Typography className="vernacular">Sim, sou cristão pela graça de Deus.</Typography>
+      <Typography className="vernacular">
+        Sim, sou cristão pela graça de Deus.
+      </Typography>
       <H5 text="2 - Por que dizeis pela graça de Deus?" />
       <Typography className="vernacular">
         Digo: pela graça de Deus, porque o ser cristão é um dom de Deus,
@@ -215,13 +227,21 @@ export default function PageCatecismo() {
         <Typography className="li text-justify">
           7º - De onde há de vir a julgar os vivos e os mortos.
         </Typography>
-        <Typography className="li text-justify">8º - Creio no Espírito Santo.</Typography>
+        <Typography className="li text-justify">
+          8º - Creio no Espírito Santo.
+        </Typography>
         <Typography className="li text-justify">
           9º - Na Santa Igreja Católica; na comunhão dos Santos.
         </Typography>
-        <Typography className="li text-justify">10º - Na remissão dos pecados.</Typography>
-        <Typography className="li text-justify">11º - Na ressurreição da carne.</Typography>
-        <Typography className="li text-justify">12º - Na vida eterna. Amén</Typography>
+        <Typography className="li text-justify">
+          10º - Na remissão dos pecados.
+        </Typography>
+        <Typography className="li text-justify">
+          11º - Na ressurreição da carne.
+        </Typography>
+        <Typography className="li text-justify">
+          12º - Na vida eterna. Amén
+        </Typography>
       </View>
       <H5 text="19 - Que quer dizer a palavra Credo, eu creio que dizeis no começo do Símbolo?" />
       <Typography className="vernacular">
@@ -269,7 +289,9 @@ export default function PageCatecismo() {
         confirma.
       </Typography>
       <H5 text="24 - Por que se dá a Deus o nome de Pai?" />
-      <Typography className="vernacular">Dá-se a Deus o nome de Pai:</Typography>
+      <Typography className="vernacular">
+        Dá-se a Deus o nome de Pai:
+      </Typography>
       <View className="list-styled">
         <Typography className="li text-justify">
           1º - porque é Pai, por natureza, da segunda Pessoa da Santíssima
@@ -1210,12 +1232,18 @@ export default function PageCatecismo() {
       </Typography>
 
       <View className="list-styled">
-        <Typography className="li text-justify">1º - para glória de Deus;</Typography>
+        <Typography className="li text-justify">
+          1º - para glória de Deus;
+        </Typography>
         <Typography className="li text-justify">
           2º - para glória de Jesus Cristo;
         </Typography>
-        <Typography className="li text-justify">3º - para glória dos Santos;</Typography>
-        <Typography className="li text-justify">4º - para confusão dos maus;</Typography>
+        <Typography className="li text-justify">
+          3º - para glória dos Santos;
+        </Typography>
+        <Typography className="li text-justify">
+          4º - para confusão dos maus;
+        </Typography>
         <Typography className="li text-justify">
           5º - finalmente para que o corpo, depois da ressurreição universal,
           tenha juntamente com a alma a sua sentença de prêmio ou de castigo.
@@ -2141,7 +2169,8 @@ export default function PageCatecismo() {
       </Typography>
 
       <Typography className="h2">
-        XII - <Typography className="em">Do undécimo artigo do Credo</Typography>
+        XII -{" "}
+        <Typography className="em">Do undécimo artigo do Credo</Typography>
       </Typography>
       <Typography className="vernacular">
         No dia seguinte, isto é, depois da sexta-feira, os sumos sacerdotes e os
@@ -2234,7 +2263,8 @@ export default function PageCatecismo() {
       </Typography>
 
       <Typography className="h2">
-        XIII - <Typography className="em">Do duodécimo artigo do Credo</Typography>
+        XIII -{" "}
+        <Typography className="em">Do duodécimo artigo do Credo</Typography>
       </Typography>
       <Typography className="vernacular">
         Lázaro caiu doente em Betânia, onde estavam Maria e sua irmã Marta.
@@ -2422,8 +2452,10 @@ export default function PageCatecismo() {
         Devemos pedir a Deus as graças de que necessitamos, em nome de Jesus
         Cristo, como Ele mesmo nos ensinou e como pratica a Igreja, a qual
         termina sempre as suas orações com estas palavras:{" "}
-        <Typography className="font-italic">per Dominum nostrum Jesum Christum</Typography>,
-        que quer dizer: por Nosso Senhor Jesus Cristo.
+        <Typography className="font-italic">
+          per Dominum nostrum Jesum Christum
+        </Typography>
+        , que quer dizer: por Nosso Senhor Jesus Cristo.
       </Typography>
       <H5 text="260 - Por que devemos pedir a Deus as graças em nome de Jesus Cristo?" />
       <Typography className="vernacular">
@@ -2612,13 +2644,17 @@ export default function PageCatecismo() {
       </Typography>
 
       <H5 text="283 - Rezai o Padre-Nosso." />
-      <Typography className="vernacular">Padre-Nosso, que estais no Céu:</Typography>
+      <Typography className="vernacular">
+        Padre-Nosso, que estais no Céu:
+      </Typography>
 
       <View className="list-styled">
         <Typography className="li text-justify">
           1ª - Santificado seja o vosso nome.
         </Typography>
-        <Typography className="li text-justify">2ª - Venha a nós o vosso reino.</Typography>
+        <Typography className="li text-justify">
+          2ª - Venha a nós o vosso reino.
+        </Typography>
         <Typography className="li text-justify">
           3ª - Seja feita a vossa vontade, assim na terra como no Céu.
         </Typography>
@@ -3080,9 +3116,14 @@ export default function PageCatecismo() {
         Santo obteve de Deus aquela graça.
       </Typography>
       <H1 text="Terceira Parte" />
-      <Typography className="aside">Dos Mandamentos da Lei de Deus e da Igreja</Typography>
+      <Typography className="aside">
+        Dos Mandamentos da Lei de Deus e da Igreja
+      </Typography>
       <Typography className="h2">
-        I - <Typography className="em">Dos Mandamentos da Lei de Deus em geral</Typography>
+        I -{" "}
+        <Typography className="em">
+          Dos Mandamentos da Lei de Deus em geral
+        </Typography>
       </Typography>
       <Language>
         <Typography className="latin">
@@ -3266,7 +3307,9 @@ export default function PageCatecismo() {
         e da Igreja.
       </Typography>
       <H5 text="343 - Quantos são os Mandamentos da Lei de Deus?" />
-      <Typography className="vernacular">Os Mandamentos da Lei de Deus são dez:</Typography>
+      <Typography className="vernacular">
+        Os Mandamentos da Lei de Deus são dez:
+      </Typography>
       <View className="list-styled">
         <Typography className="li text-justify">
           1º - Amar a Deus sobre todas as coisas.
@@ -3274,8 +3317,12 @@ export default function PageCatecismo() {
         <Typography className="li text-justify">
           2º - Não tomar seu Santo Nome em vão.
         </Typography>
-        <Typography className="li text-justify">3º - Guardar domingos e festas.</Typography>
-        <Typography className="li text-justify">4º - Honrar pai e mãe.</Typography>
+        <Typography className="li text-justify">
+          3º - Guardar domingos e festas.
+        </Typography>
+        <Typography className="li text-justify">
+          4º - Honrar pai e mãe.
+        </Typography>
         <Typography className="li text-justify">5º - Não matar.</Typography>
         <Typography className="li text-justify">
           6º - Não pecar contra a castidade.
@@ -3326,7 +3373,10 @@ export default function PageCatecismo() {
         negativa; isto é, o que nos é ordenado e o que nos é proibido.
       </Typography>
       <Typography className="h2">
-        II - <Typography className="em">Dos Mandamentos que se referem a Deus</Typography>
+        II -{" "}
+        <Typography className="em">
+          Dos Mandamentos que se referem a Deus
+        </Typography>
       </Typography>
       <Typography className="vernacular">
         Uma vez mais vos digo que ninguém me tenha por insensato; ou então
@@ -3661,7 +3711,9 @@ export default function PageCatecismo() {
         É-nos preceituado assistir devotamente ao Santo Sacrifício da Missa.
       </Typography>
       <H5 text="392 - Com que outras obras costuma um bom cristão santificar as festas?" />
-      <Typography className="vernacular">Um bom cristão santifica as festas:</Typography>
+      <Typography className="vernacular">
+        Um bom cristão santifica as festas:
+      </Typography>
       <View className="list-styled">
         <Typography className="li text-justify">
           1º - assistindo à doutrina cristã, às pregações e aos ofícios divinos;
@@ -3713,7 +3765,9 @@ export default function PageCatecismo() {
       </Typography>
       <Typography className="h2">
         III -{" "}
-        <Typography className="em">Dos Mandamentos que se referem ao próximo</Typography>
+        <Typography className="em">
+          Dos Mandamentos que se referem ao próximo
+        </Typography>
       </Typography>
       <H4 text="1º - Do quarto Mandamento da Lei de Deus" />
       <Typography className="vernacular">
@@ -4476,7 +4530,9 @@ export default function PageCatecismo() {
         as competentes faculdades.
       </Typography>
       <H5 text="474 - Quantos e quais são os preceitos da Igreja?" />
-      <Typography className="vernacular">Os preceitos da Igreja são cinco:</Typography>
+      <Typography className="vernacular">
+        Os preceitos da Igreja são cinco:
+      </Typography>
       <View className="list-styled">
         <Typography className="li text-justify">
           1º - Ouvir Missa inteira nos domingos e festas de guarda.
@@ -4713,7 +4769,8 @@ export default function PageCatecismo() {
         V -{" "}
         <Typography className="em">
           {" "}
-          Dos deveres particulares do próprio estado e dos conselhos evangélicos{" "}
+          Dos deveres particulares do próprio estado e dos conselhos
+          evangélicos{" "}
         </Typography>
       </Typography>
       <H4 text="1º - Dos deveres do próprio estado" />
@@ -5465,7 +5522,9 @@ export default function PageCatecismo() {
         Para fazer uma comunhão bem feita, são necessárias três coisas:
       </Typography>
       <View className="list-styled">
-        <Typography className="li text-justify">1º - estar em estado de graça;</Typography>
+        <Typography className="li text-justify">
+          1º - estar em estado de graça;
+        </Typography>
         <Typography className="li text-justify">
           2º - estar em jejum desde uma hora antes da comunhão;
         </Typography>
@@ -5734,8 +5793,12 @@ export default function PageCatecismo() {
         Para ouvir bem e com fruto a santa Missa são necessárias duas coisas:
       </Typography>
       <View className="list-styled">
-        <Typography className="li text-justify">1º - modéstia exterior,</Typography>
-        <Typography className="li text-justify">2º - devoção interior.</Typography>
+        <Typography className="li text-justify">
+          1º - modéstia exterior,
+        </Typography>
+        <Typography className="li text-justify">
+          2º - devoção interior.
+        </Typography>
       </View>
       <H5 text="664 - Em que consiste a modéstia exterior?" />
       <Typography className="vernacular">
@@ -5934,7 +5997,9 @@ export default function PageCatecismo() {
         Para fazer uma boa confissão, são necessárias cinco coisas:
       </Typography>
       <View className="list-styled">
-        <Typography className="li text-justify">1º - exame de consciência;</Typography>
+        <Typography className="li text-justify">
+          1º - exame de consciência;
+        </Typography>
         <Typography className="li text-justify">
           2º - dor de ter ofendido a Deus;
         </Typography>
@@ -5944,7 +6009,9 @@ export default function PageCatecismo() {
         <Typography className="li text-justify">
           4º - acusação dos próprios pecados;
         </Typography>
-        <Typography className="li text-justify">5º - satisfação ou penitência.</Typography>
+        <Typography className="li text-justify">
+          5º - satisfação ou penitência.
+        </Typography>
       </View>
       <H5 text="693 - Que devemos fazer, antes de tudo, para bem nos confessarmos?" />
       <Typography className="vernacular">
@@ -6677,7 +6744,9 @@ export default function PageCatecismo() {
           2º - o cumprimento das obras que a Igreja prescreve para se ganhar a
           indulgência;
         </Typography>
-        <Typography className="li text-justify">3º - a intenção de ganhá-las.</Typography>
+        <Typography className="li text-justify">
+          3º - a intenção de ganhá-las.
+        </Typography>
       </View>
       <H5 text="803 - Podem as indulgências aplicar-se também às almas do Purgatório?" />
       <Typography className="vernacular">
@@ -6907,7 +6976,9 @@ export default function PageCatecismo() {
         Sacramento.
       </Typography>
       <H5 text="832 - Que efeitos produz o Sacramento do Matrimônio?" />
-      <Typography className="vernacular">O Sacramento do Matrimônio:</Typography>
+      <Typography className="vernacular">
+        O Sacramento do Matrimônio:
+      </Typography>
       <View className="list-styled">
         <Typography className="li text-justify">
           1º - dá um aumento da graça santificante;
@@ -6975,7 +7046,9 @@ export default function PageCatecismo() {
         </Typography>
       </View>
       <H5 text="838 - Quais são as principais obrigações das pessoas unidas em Matrimônio?" />
-      <Typography className="vernacular">As pessoas unidas em Matrimônio devem:</Typography>
+      <Typography className="vernacular">
+        As pessoas unidas em Matrimônio devem:
+      </Typography>
       <View className="list-styled">
         <Typography className="li text-justify">
           1º - guardar inviolada a fidelidade conjugal, e proceder sempre
@@ -7133,7 +7206,9 @@ export default function PageCatecismo() {
         <Typography className="li text-justify">
           2º - frequentes vezes no decurso da vida.
         </Typography>
-        <Typography className="li text-justify">3º - em perigo de morte.</Typography>
+        <Typography className="li text-justify">
+          3º - em perigo de morte.
+        </Typography>
       </View>
       <H4 text="2º - Da Fé" />
       <H5 text="860 - Que é a Fé?" />
@@ -7437,7 +7512,9 @@ export default function PageCatecismo() {
         II - <Typography className="em">Dos dons do Espírito Santo</Typography>
       </Typography>
       <H5 text="913 - Quantos e quais são os dons do Espírito Santo?" />
-      <Typography className="vernacular">Os dons do Espírito Santo são sete:</Typography>
+      <Typography className="vernacular">
+        Os dons do Espírito Santo são sete:
+      </Typography>
       <View className="list-styled">
         <Typography className="li text-justify">1º - Sabedoria;</Typography>
         <Typography className="li text-justify">2º - Entendimento;</Typography>
@@ -7497,7 +7574,8 @@ export default function PageCatecismo() {
         ao bem.
       </Typography>
       <Typography className="h2">
-        III - <Typography className="em">Das Bem-aventuranças evangélicas</Typography>
+        III -{" "}
+        <Typography className="em">Das Bem-aventuranças evangélicas</Typography>
       </Typography>
       <H5 text="922 - Quantas e quais são as Bem-aventuranças evangélicas?" />
       <Typography className="vernacular">
@@ -7637,7 +7715,9 @@ export default function PageCatecismo() {
         conforme são corporais ou espirituais as necessidades que se socorrem.
       </Typography>
       <H5 text="940 - Quais são as obras de misericórdia corporais?" />
-      <Typography className="vernacular">As obras de misericórdia corporais são:</Typography>
+      <Typography className="vernacular">
+        As obras de misericórdia corporais são:
+      </Typography>
       <View className="list-styled">
         <Typography className="li text-justify">
           1ª - Dar de comer a quem tem fome;
@@ -7649,20 +7729,36 @@ export default function PageCatecismo() {
         <Typography className="li text-justify">
           4ª - Dar pousada aos peregrinos;
         </Typography>
-        <Typography className="li text-justify">5ª - Assistir aos enfermos;</Typography>
-        <Typography className="li text-justify">6ª - Visitar os presos;</Typography>
-        <Typography className="li text-justify">7ª - Enterrar os mortos.</Typography>
+        <Typography className="li text-justify">
+          5ª - Assistir aos enfermos;
+        </Typography>
+        <Typography className="li text-justify">
+          6ª - Visitar os presos;
+        </Typography>
+        <Typography className="li text-justify">
+          7ª - Enterrar os mortos.
+        </Typography>
       </View>
       <H5 text="941 - Quais são as obras de misericórdia espirituais?" />
       <Typography className="vernacular">
         As obras de misericórdia espirituais são:
       </Typography>
       <View className="list-styled">
-        <Typography className="li text-justify">1ª - Dar bom conselho;</Typography>
-        <Typography className="li text-justify">2º - Ensinar os ignorantes;</Typography>
-        <Typography className="li text-justify">3ª - Corrigir os que erram;</Typography>
-        <Typography className="li text-justify">4ª - Consolar os aflitos;</Typography>
-        <Typography className="li text-justify">5ª - Perdoar as injúrias;</Typography>
+        <Typography className="li text-justify">
+          1ª - Dar bom conselho;
+        </Typography>
+        <Typography className="li text-justify">
+          2º - Ensinar os ignorantes;
+        </Typography>
+        <Typography className="li text-justify">
+          3ª - Corrigir os que erram;
+        </Typography>
+        <Typography className="li text-justify">
+          4ª - Consolar os aflitos;
+        </Typography>
+        <Typography className="li text-justify">
+          5ª - Perdoar as injúrias;
+        </Typography>
         <Typography className="li text-justify">
           6ª - Sofrer com paciência as fraquezas do nosso próximo;
         </Typography>
@@ -7672,7 +7768,9 @@ export default function PageCatecismo() {
       </View>
       <Typography className="h2">
         V -{" "}
-        <Typography className="em">Dos pecados e das suas espécies principais</Typography>
+        <Typography className="em">
+          Dos pecados e das suas espécies principais
+        </Typography>
       </Typography>
       <H5 text="942 - Quantas espécies há de pecado?" />
       <Typography className="vernacular">
@@ -7720,7 +7818,9 @@ export default function PageCatecismo() {
         <Typography className="li text-justify">
           1º - priva a alma da graça e da amizade de Deus;
         </Typography>
-        <Typography className="li text-justify">2º - fá-la perder o Céu;</Typography>
+        <Typography className="li text-justify">
+          2º - fá-la perder o Céu;
+        </Typography>
         <Typography className="li text-justify">
           3º - priva-a dos merecimentos adquiridos e torna-a incapaz de adquirir
           novos;
@@ -7815,7 +7915,9 @@ export default function PageCatecismo() {
         Os pecados contra o Espírito Santo são seis:
       </Typography>
       <View className="list-styled">
-        <Typography className="li text-justify">1º - desesperar da salvação;</Typography>
+        <Typography className="li text-justify">
+          1º - desesperar da salvação;
+        </Typography>
         <Typography className="li text-justify">
           2º - Presunção de se salvar sem merecimentos;
         </Typography>
@@ -7825,7 +7927,9 @@ export default function PageCatecismo() {
         <Typography className="li text-justify">
           4º - ter inveja das graças que Deus dá a outrem;{" "}
         </Typography>
-        <Typography className="li text-justify">5º - obstinar-se no pecado;</Typography>
+        <Typography className="li text-justify">
+          5º - obstinar-se no pecado;
+        </Typography>
         <Typography className="li text-justify">
           6º - morrer na impenitência final.
         </Typography>
@@ -7841,7 +7945,9 @@ export default function PageCatecismo() {
         Os pecados que bradam ao Céu e pedem vingança a Deus são quatro:
       </Typography>
       <View className="list-styled">
-        <Typography className="li text-justify">1º - homicídio voluntário;</Typography>
+        <Typography className="li text-justify">
+          1º - homicídio voluntário;
+        </Typography>
         <Typography className="li text-justify">
           2º - pecado impuro contra a natureza;
         </Typography>
@@ -8007,14 +8113,18 @@ export default function PageCatecismo() {
       </Typography>
       <H5 text="984 - Dizei algumas jaculatórias." />
       <View className="list-styled">
-        <Typography className="li text-justify">1º - Senhor, valei-me;</Typography>
+        <Typography className="li text-justify">
+          1º - Senhor, valei-me;
+        </Typography>
         <Typography className="li text-justify">
           2º - Senhor, seja feita a vossa santíssima vontade;
         </Typography>
         <Typography className="li text-justify">
           3º - Meu Jesus, eu quero ser todo vosso;
         </Typography>
-        <Typography className="li text-justify">4º - Meu Jesus, misericórdia;</Typography>
+        <Typography className="li text-justify">
+          4º - Meu Jesus, misericórdia;
+        </Typography>
         <Typography className="li text-justify">
           5º - Doce Coração de Jesus, que tanto nos amais, fazei que eu Vos ame
           cada vez mais;

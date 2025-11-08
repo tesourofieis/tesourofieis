@@ -42,15 +42,16 @@ export default function Page0718() {
       <Language>
         <Typography className="latin">
           Majórem hac dilectiónem nemo habet, ut ánimam suam ponat quis pro
-          amícis suis. <Typography className="latin">Ps. 40, 2</Typography> Beátus, qui
-          intéllegit super egénum et páuperem: in dic mala liberábit eum
-          Dóminus.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+          amícis suis. <Typography className="latin">Ps. 40, 2</Typography>{" "}
+          Beátus, qui intéllegit super egénum et páuperem: in dic mala liberábit
+          eum Dóminus.<Typography className="versicle"> ℣. </Typography>Gloria
+          Patri...
         </Typography>
         <Typography className="vernacular">
           Ninguém pode dar maior prova de amor do que dar a sua vida pelos seus
-          amigos. <Typography className="vernacular">Sl. 40, 2</Typography> Bem-aventurado
-          aquele que atende às necessidades do pobre e do indigente, pois o
-          Senhor o livrará no dia da aflição.
+          amigos. <Typography className="vernacular">Sl. 40, 2</Typography>{" "}
+          Bem-aventurado aquele que atende às necessidades do pobre e do
+          indigente, pois o Senhor o livrará no dia da aflição.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -94,12 +95,12 @@ export default function Page0718() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Hoc est præcéptum meum,

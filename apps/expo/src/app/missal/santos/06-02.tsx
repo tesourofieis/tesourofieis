@@ -79,25 +79,26 @@ export default function Page0602() {
         <Typography className="latin">
           Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus
           tribulatiónibus eórum liberávit eos.
-          <Typography className="versicle"> ℣. </Typography>Juxta est Dóminus his, qui
-          tribuláto sunt corde: et húmiles spíritu salvabit.
+          <Typography className="versicle"> ℣. </Typography>Juxta est Dóminus
+          his, qui tribuláto sunt corde: et húmiles spíritu salvabit.
         </Typography>
         <Typography className="vernacular">
           Os justos clamaram e o Senhor ouviu-os, livrando-os de todas as
-          tribulações.<Typography className="versicle"> ℣. </Typography>O Senhor está
-          próximo daqueles cujo coração está aflito; e salvará os que possuem
-          espírito humilde.
+          tribulações.<Typography className="versicle"> ℣. </Typography>O Senhor
+          está próximo daqueles cujo coração está aflito; e salvará os que
+          possuem espírito humilde.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Joann. 15, 16</Typography> Ego vos elégi de mundo,
-          ut eátis, et fructum afferátis; et fructus vester máneat. Allelúja.
+          <Typography className="latin">Joann. 15, 16</Typography> Ego vos elégi
+          de mundo, ut eátis, et fructum afferátis; et fructus vester máneat.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Jo. 15, 16</Typography> Eu vos escolhi no meio
-          do mundo, para que possais ir e alcanceis fruto; e para que esse fruto
-          permaneça. Aleluia.
+          <Typography className="vernacular">Jo. 15, 16</Typography> Eu vos
+          escolhi no meio do mundo, para que possais ir e alcanceis fruto; e
+          para que esse fruto permaneça. Aleluia.
         </Typography>
       </Language>
 
@@ -188,19 +189,21 @@ export default function Page0602() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Joann. 15, 16</Typography> Ego vos elégi de mundo,
-          ut eátis, et fructum afferátis; et fructus vester máneat. Allelúja.
+          <Typography className="latin">Joann. 15, 16</Typography> Ego vos elégi
+          de mundo, ut eátis, et fructum afferátis; et fructus vester máneat.
+          Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. 115, 15</Typography> Pretiósa in conspéctu Dómini
-          mors Sanctórum ejus. Allelúja.
+          <Typography className="em">Ps. 115, 15</Typography> Pretiósa in
+          conspéctu Dómini mors Sanctórum ejus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Jo. 15, 16</Typography> Escolhi-vos no meio do
-          mundo, para que possais ir e alcanceis fruto: e o vosso fruto
-          permaneça. Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Sl. 115, 15</Typography> Preciosa na presença do Senhor
-          é a morte dos seus Santos. Aleluia.
+          <Typography className="vernacular">Jo. 15, 16</Typography> Escolhi-vos
+          no meio do mundo, para que possais ir e alcanceis fruto: e o vosso
+          fruto permaneça. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Sl. 115, 15</Typography> Preciosa na
+          presença do Senhor é a morte dos seus Santos. Aleluia.
         </Typography>
       </Language>
     </PageWrapper>

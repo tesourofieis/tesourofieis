@@ -103,7 +103,7 @@ type SettingsContextType = {
   isLoading: boolean;
   setNotificationPref: (
     key: keyof typeof prefKeyMap,
-    enabled: boolean
+    enabled: boolean,
   ) => Promise<void>;
   list: Notifications.NotificationRequest[];
   permissionStatus: Notifications.PermissionStatus;
@@ -113,7 +113,7 @@ type SettingsContextType = {
 };
 
 const SettingsContext = createContext<SettingsContextType | undefined>(
-  undefined
+  undefined,
 );
 
 export function SettingsProvider({ children }: React.PropsWithChildren) {
@@ -125,7 +125,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   const [list, setList] = useState<Notifications.NotificationRequest[]>([]);
   const [permissionStatus, setPermissionStatus] =
     useState<Notifications.PermissionStatus>(
-      Notifications.PermissionStatus.UNDETERMINED
+      Notifications.PermissionStatus.UNDETERMINED,
     );
 
   const getSettingsFromStorage = useCallback(async (): Promise<Settings> => {
@@ -137,7 +137,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       } else {
         await AsyncStorage.setItem(
           SETTINGS_STORAGE_KEY,
-          JSON.stringify(DEFAULT_SETTINGS)
+          JSON.stringify(DEFAULT_SETTINGS),
         );
         return DEFAULT_SETTINGS;
       }
@@ -157,7 +157,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         };
         await AsyncStorage.setItem(
           SETTINGS_STORAGE_KEY,
-          JSON.stringify(updatedSettings)
+          JSON.stringify(updatedSettings),
         );
         return updatedSettings;
       } catch (e: any) {
@@ -165,7 +165,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         throw new Error(`Failed to update settings: ${e.message}`);
       }
     },
-    [settings]
+    [settings],
   );
 
   const updateSetting = useCallback(
@@ -173,7 +173,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       const updated = await updateSettingsInStorage(newValues);
       setSettings(updated);
     },
-    [updateSettingsInStorage]
+    [updateSettingsInStorage],
   );
 
   const checkPermissionStatus = useCallback(async () => {
@@ -190,14 +190,14 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         const packageName = Application.applicationId;
         await IntentLauncher.startActivityAsync(
           IntentLauncher.ActivityAction.APPLICATION_DETAILS_SETTINGS,
-          { data: `package:${packageName}` }
+          { data: `package:${packageName}` },
         );
       }
     } catch (error) {
       console.error("Failed to open settings:", error);
       Alert.alert(
         "Erro",
-        "Não foi possível abrir as configurações. Por favor, abra manualmente configurações do sistema."
+        "Não foi possível abrir as configurações. Por favor, abra manualmente configurações do sistema.",
       );
     }
   }, []);
@@ -205,7 +205,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
   const scheduleNotification = useCallback(
     async (
       notification: Notifications.NotificationRequestInput,
-      identifier: string
+      identifier: string,
     ) => {
       if (permissionStatus !== "granted") return;
       await Notifications.scheduleNotificationAsync({
@@ -213,7 +213,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         identifier,
       });
     },
-    [permissionStatus]
+    [permissionStatus],
   );
 
   const syncNotifications = useCallback(async () => {
@@ -241,7 +241,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
               minute: time.minute,
             },
           },
-          identifier
+          identifier,
         );
       }
     }
@@ -268,11 +268,11 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
                   date.getMonth(),
                   date.getDate(),
                   NOTIFICATIONS.MASS.times.hour,
-                  NOTIFICATIONS.MASS.times.minute
+                  NOTIFICATIONS.MASS.times.minute,
                 ),
               },
             },
-            identifier
+            identifier,
           );
         }
       }
@@ -284,7 +284,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         const novenaDate = subDays(new Date(novena.date), 1);
         if (novenaDate > today) {
           const dayDifference = Math.ceil(
-            (novenaDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
+            (novenaDate.getTime() - today.getTime()) / (1000 * 3600 * 24),
           );
           const currentNovenaDay = Math.max(1, 9 - dayDifference);
           for (let i = currentNovenaDay; i <= 9; i++) {
@@ -303,11 +303,11 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
                     today.getMonth(),
                     today.getDate() + (i - currentNovenaDay),
                     NOTIFICATIONS.NOVENA.times.hour,
-                    NOTIFICATIONS.NOVENA.times.minute
+                    NOTIFICATIONS.NOVENA.times.minute,
                   ),
                 },
               },
-              identifier
+              identifier,
             );
           }
         }
@@ -331,7 +331,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
               minute: 0,
             },
           },
-          identifier
+          identifier,
         );
       }
     }
@@ -360,7 +360,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         [
           { text: "Mais tarde", style: "cancel" },
           { text: "Abrir Configurações", onPress: openSettings },
-        ]
+        ],
       );
       return false;
     }
@@ -372,7 +372,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
         [
           { text: "Agora não", style: "cancel", onPress: () => resolve(false) },
           { text: "Permitir", onPress: () => resolve(true) },
-        ]
+        ],
       );
     });
 
@@ -426,7 +426,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
           // @ts-ignore
           router.navigate(url as string);
         }
-      }
+      },
     );
     return () => subscription.remove();
   }, [router]);
@@ -440,7 +440,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       const dbKey = prefKeyMap[key];
       await updateSetting({ [dbKey]: enabled });
     },
-    [permissionStatus, requestPermission, updateSetting]
+    [permissionStatus, requestPermission, updateSetting],
   );
 
   return (

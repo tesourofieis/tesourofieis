@@ -92,24 +92,28 @@ export default function Page0730() {
         <Typography className="latin">
           Gloriosus Deus in Sanctis suis: mirábilis in majestáte, fáciens
           prodígia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 6</Typography> Déxtera tua, Dómine,
-          glorificáta est in virtúte: déxtera manus tua confrégit inimícos.
+          <Typography className="latin">ibid., 6</Typography> Déxtera tua,
+          Dómine, glorificáta est in virtúte: déxtera manus tua confrégit
+          inimícos.
         </Typography>
         <Typography className="vernacular">
           Deus é glorioso em seus Santos: e admirável na sua majestade,
-          praticando prodígios.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 6</Typography> Senhor, a vossa dextra
-          engrandeceu-se pela sua força: a vossa dextra esmagou os inimigos.
+          praticando prodígios.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 6</Typography> Senhor, a
+          vossa dextra engrandeceu-se pela sua força: a vossa dextra esmagou os
+          inimigos.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Sap. 3, 1</Typography> Justórum ánimæ in manu Dei
-          sunt, et non tanget illos torméntum malítiæ. Allelúja.
+          <Typography className="latin">Sap. 3, 1</Typography> Justórum ánimæ in
+          manu Dei sunt, et non tanget illos torméntum malítiæ. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sb. 3, 1</Typography> As almas dos justos estão
-          nas mãos de Deus e o tormento da malícia os não ferirá. Aleluia.
+          <Typography className="vernacular">Sb. 3, 1</Typography> As almas dos
+          justos estão nas mãos de Deus e o tormento da malícia os não ferirá.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -119,12 +123,12 @@ export default function Page0730() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Videns Jesus turbas, ascéndit in montem, et cum

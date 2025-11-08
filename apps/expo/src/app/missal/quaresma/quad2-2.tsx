@@ -16,16 +16,16 @@ export default function PageQuad22() {
         <Typography className="latin">
           Tibi dixit cor meum, quæsívi vultum tuum, vultum tuum, Dómine,
           requíram: ne avértas fáciem tuam a me.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Dóminus illuminátio mea,
-          et salus mea: quem timébo?
+          <Typography className="latin">Ps. ibid., 1</Typography> Dóminus
+          illuminátio mea, et salus mea: quem timébo?
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Da vossa parte, Senhor, me diz meu coração: «Procura a minha
           presença». Sim, não deixarei, Senhor, de procurar a vossa presença.
           Não Vos afasteis, pois, de mim.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> O Senhor é a minha
-          luz e a minha salvação. A quem, pois, temerei?
+          <Typography className="vernacular">Sl. ibid., 1</Typography> O Senhor
+          é a minha luz e a minha salvação. A quem, pois, temerei?
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -108,13 +108,13 @@ export default function PageQuad22() {
       <Language>
         <Typography className="latin">
           Jacta cogitátum tuum in Dómino, et ipse te enútriet.
-          <Typography className="versicle"> ℣. </Typography>Dum clamárem ad Dóminum,
-          exaudívit vocem meam ab his, qui appropínquant mihi.
+          <Typography className="versicle"> ℣. </Typography>Dum clamárem ad
+          Dóminum, exaudívit vocem meam ab his, qui appropínquant mihi.
         </Typography>
         <Typography className="vernacular">
           Deixai as vossas preocupações nas mãos do Senhor, que Ele cuidará de
-          vós!<Typography className="versicle"> ℣. </Typography>Quando eu rezava ao Senhor,
-          ouviu Ele a minha voz e salvou-me daqueles que me cercavam.
+          vós!<Typography className="versicle"> ℣. </Typography>Quando eu rezava
+          ao Senhor, ouviu Ele a minha voz e salvou-me daqueles que me cercavam.
         </Typography>
       </Language>
 
@@ -124,12 +124,12 @@ export default function PageQuad22() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Locútus est Jesus ad turbas et ad discípulos suos,

@@ -17,15 +17,16 @@ export default function PageQuad16() {
         <Typography className="latin">
           De necessitátibus meis éripe me, Dómine: vide humilitátem meam et
           labórem meum, et dimítte ómnia peccáta mea.{" "}
-          <Typography className="latin">Ps. ibid., 1-2</Typography> Ad te, Dómine, levávi
-          ánimam meam: Deus meus, in te confído, non erubéscam.
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Ad te,
+          Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Livrai-me, Senhor, das minhas tribulações; vede a minha humilhação e
           as minhas penas e perdoai-me todos meus pecados.{" "}
-          <Typography className="vernacular">Sl. ibid., 1-2</Typography> A Vós, Senhor,
-          elevo a minha alma: meu Deus, em Vós confio: não esperarei em vão.
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> A Vós,
+          Senhor, elevo a minha alma: meu Deus, em Vós confio: não esperarei em
+          vão.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -50,7 +51,9 @@ export default function PageQuad16() {
 
       <Language>
         <Typography className="latin">Léctio Ezechiélis Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do Profeta Ezequiel.</Typography>
+        <Typography className="vernacular">
+          Lição do Profeta Ezequiel.
+        </Typography>
         <Typography className="latin">
           Hæc dicit Dóminus Deus: Anima, quae peccáverit, ipsa moriétur: fílius
           non portábit iniquitátem patris, et pater non portábit iniquitátem
@@ -108,8 +111,8 @@ export default function PageQuad16() {
       <Language>
         <Typography className="latin">
           Salvum fac servum tuum. Deus meus, sperántem in te.
-          <Typography className="versicle"> ℣. </Typography>Auribus pércipe, Dómine,
-          oratiónem meam.
+          <Typography className="versicle"> ℣. </Typography>Auribus pércipe,
+          Dómine, oratiónem meam.
         </Typography>
         <Typography className="vernacular">
           Salvai, ó meu Deus, o vosso servo, pois em Vós pôs a sua esperança.
@@ -130,12 +133,12 @@ export default function PageQuad16() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Erat dies festus Judæórum, et ascéndit Jesus

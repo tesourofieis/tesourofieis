@@ -158,17 +158,18 @@ export default function PagePasc66() {
           Cum sanctificátus fúero in vobis, congregábo vos de univérsis terris:
           et effúndam super vos aquam mundam, et mundabímini ab ómnibus
           inquinaméntis vestris: et dabo vobis spíritum novum, allelúja,
-          allelúja. <Typography className="latin">Ps. 33, 2</Typography> Benedícam Dóminum
-          in omni témpore: semper laus ejus in ore meo.
+          allelúja. <Typography className="latin">Ps. 33, 2</Typography>{" "}
+          Benedícam Dóminum in omni témpore: semper laus ejus in ore meo.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Logo que tenha sido santificado no meio de vós, congregar-vos-ei de
           todos os países e espalharei sobre vós uma água pura, que vos
           purificará de todas as manchas: e vos darei um espírito novo, aleluia,
-          aleluia. <Typography className="vernacular">Sl. 33, 2</Typography> Bendirei o
-          Senhor em todos os tempos: na minha boca estarão sempre louvores em
-          sua honra.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          aleluia. <Typography className="vernacular">Sl. 33, 2</Typography>{" "}
+          Bendirei o Senhor em todos os tempos: na minha boca estarão sempre
+          louvores em sua honra.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
       <H3 text="Oração" />
@@ -189,7 +190,9 @@ export default function PagePasc66() {
       <Typography className="em">Act. 19, 1-8</Typography>
       <Language>
         <Typography className="latin">Léctio Actuum Apostolorum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Factum est, cum Apóllo esset Corínthi, ut Paulus,
           peragrátis superióribus pártibus, veníret Ephesum et inveníret quosdam
@@ -224,13 +227,13 @@ export default function PagePasc66() {
       <Language>
         <Typography className="latin">
           Allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 106, 1</Typography> Confitémini Dómino, quóniam
-          bonus: quóniam in sǽculum misericordia ejus.
+          <Typography className="latin">Ps. 106, 1</Typography> Confitémini
+          Dómino, quóniam bonus: quóniam in sǽculum misericordia ejus.
         </Typography>
         <Typography className="vernacular">
           Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 106, 1</Typography> Louvai o Senhor, que é
-          bom, pois a sua misericórdia é eterna.
+          <Typography className="vernacular">Sl. 106, 1</Typography> Louvai o
+          Senhor, que é bom, pois a sua misericórdia é eterna.
         </Typography>
       </Language>
       <H3 text="Trato" />
@@ -244,20 +247,20 @@ export default function PagePasc66() {
         </Typography>
         <Typography className="vernacular">
           Louvai o Senhor, ó nações todas: glorificai-O, ó povos:
-          <Typography className="versicle"> ℣. </Typography>Pois grande é a sua misericórdia
-          para nós: e a verdade do Senhor permanece perpetuamente.
+          <Typography className="versicle"> ℣. </Typography>Pois grande é a sua
+          misericórdia para nós: e a verdade do Senhor permanece perpetuamente.
         </Typography>
       </Language>
       <H3 text="Evangelho" />
       <Typography className="em">Jo. 14, 15-21</Typography>
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography>Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography>Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography>Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography>Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Si dilígitis me, mandáta

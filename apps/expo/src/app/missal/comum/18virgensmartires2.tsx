@@ -14,16 +14,17 @@ export default function Page18Virgensmartires2() {
           Me exspectavérunt peccatóres, ut pérderent me: testimónia Jua, Dómine,
           intelléxi: omnis consummatiónis vidi finem: latum mandátum tuum nimis.
           (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Beáti immaculáti in via:
-          qui ámbulant in lege Dómini.
+          <Typography className="latin">Ps. ibid., 1</Typography> Beáti
+          immaculáti in via: qui ámbulant in lege Dómini.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Esperaram-me os pecadores para me perder; mas eu, Senhor, tinha
           meditado nos vossos testemunhos. Encontrei limites em tudo quanto
           existe: e só o vosso poder é infinito. (T, P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Bem-aventurados os
-          que são imaculados em seus caminhos e cumprem a Lei do Senhor.
+          <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
+          Bem-aventurados os que são imaculados em seus caminhos e cumprem a Lei
+          do Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -31,23 +32,25 @@ export default function Page18Virgensmartires2() {
       <Language>
         <Typography className="latin">
           Indulgéntiam nobis, quǽsumus, Dómine, beáta{" "}
-          <Typography className="latin">N.</Typography> Virgo et Martyr implóret: quæ tibi
-          grata semper éxstitit, et mérito castitátis, et tuæ professióne
-          virtútis. Per Dóminum nostrum...
+          <Typography className="latin">N.</Typography> Virgo et Martyr
+          implóret: quæ tibi grata semper éxstitit, et mérito castitátis, et tuæ
+          professióne virtútis. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
           Dignai-Vos conceder-nos, Senhor, que alcancemos o perdão dos nossos
           pecados pela intercessão da B. Virgem e Mártir{" "}
-          <Typography className="vernacular">N.</Typography>, que sempre Vos agradou, não só
-          pelo mérito da castidade, mas também pela prática da vossa virtude.
-          Por nosso Senhor...
+          <Typography className="vernacular">N.</Typography>, que sempre Vos
+          agradou, não só pelo mérito da castidade, mas também pela prática da
+          vossa virtude. Por nosso Senhor...
         </Typography>
       </Language>
       <H3 text="Epístola" />
       <Typography className="em">Ecl. 51, 13-17</Typography>
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Dómine, Deus meus, exaltásti super terram habitatiónem meam, et pro
           morre defluénte deprecáta sum. Invocávi Dóminum, Patrem Dómini mei, ut
@@ -73,22 +76,22 @@ export default function Page18Virgensmartires2() {
       <Language>
         <Typography className="latin">
           Adjuvábit eam Deus vultu suo: Deus in médio ejus, non commovébitur.
-          <Typography className="versicle"> ℣. </Typography>Flúminis ímpetus lætíficat
-          civitátem Dei: sanctificávit tabernáculum suum Altíssimus.
+          <Typography className="versicle"> ℣. </Typography>Flúminis ímpetus
+          lætíficat civitátem Dei: sanctificávit tabernáculum suum Altíssimus.
         </Typography>
         <Typography className="vernacular">
           Auxiliá-la-á o Senhor com seu olhar: Deus está ao pé dela e a não
-          deixará fraquejar.<Typography className="versicle"> ℣. </Typography>Um rio com a
-          torrente das suas águas alegra a cidade de Deus. O Altíssimo
+          deixará fraquejar.<Typography className="versicle"> ℣. </Typography>Um
+          rio com a torrente das suas águas alegra a cidade de Deus. O Altíssimo
           santificou o seu tabernáculo.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Hæc est Virgo
-          sápiens, et una de número prudéntum. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Hæc est Virgo sápiens, et una de número prudéntum. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Esta é a virgem
-          sábia e uma das prudentes. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Esta é a virgem sábia e uma das prudentes. Aleluia.
         </Typography>
       </Language>
       <Typography className="aside">
@@ -100,21 +103,23 @@ export default function Page18Virgensmartires2() {
           Veni, Sponsa Christi, áccipe corónam, quam tibi Dóminus præparávit in
           ætérnum: pro cujus amóre sánguinem tuum fudísti.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 44, 8 & 5</Typography> Dilexísti justítiam, et
-          odísti iniquitátem proptérea unxit te Deus, Deui tuus, óleo lætítiæ
-          præ consórtibus tuis.
+          <Typography className="latin">Ps. 44, 8 & 5</Typography> Dilexísti
+          justítiam, et odísti iniquitátem proptérea unxit te Deus, Deui tuus,
+          óleo lætítiæ præ consórtibus tuis.
           <Typography className="versicle"> ℣. </Typography>
           Spécie tua et pulchritúdine tua inténde, próspere procéde et regna.
         </Typography>
         <Typography className="vernacular">
           Vinde, ó esposa de Cristo; vinde e recebei a coroa que o Senhor
           preparou para vós, para a eternidade. Foi por amor dele que
-          derramastes o vosso sangue.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 44, 8 & 5</Typography> Amastes a justiça e
-          odiastes a iniquidade: eis porque o Senhor, vosso Deus, vos ungiu com
-          o óleo da alegria, de preferência às vossas companheiras.
-          <Typography className="versicle"> ℣. </Typography>Caminhai, pois, com beleza e
-          majestade; ide gozar a vitória e reinai.
+          derramastes o vosso sangue.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 44, 8 & 5</Typography> Amastes
+          a justiça e odiastes a iniquidade: eis porque o Senhor, vosso Deus,
+          vos ungiu com o óleo da alegria, de preferência às vossas
+          companheiras.
+          <Typography className="versicle"> ℣. </Typography>Caminhai, pois, com
+          beleza e majestade; ide gozar a vitória e reinai.
         </Typography>
       </Language>
       <Typography className="aside">
@@ -122,30 +127,30 @@ export default function Page18Virgensmartires2() {
       </Typography>
       <Language>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Hæc est Virgo
-          sápiens, et una de número prudéntum. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Hæc est Virgo sápiens, et una de número prudéntum. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Sap. 4, 1</Typography> O quam pulchra et casta
-          generátio cum claritáte! Allelúja.
+          <Typography className="latin">Sap. 4, 1</Typography> O quam pulchra et
+          casta generátio cum claritáte! Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Esta é a virgem
-          sábia e uma das prudentes. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Esta é a virgem sábia e uma das prudentes. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sb. 4, 1</Typography> Oh! como é bela a geração
-          casta e gloriosa! Aleluia.
+          <Typography className="vernacular">Sb. 4, 1</Typography> Oh! como é
+          bela a geração casta e gloriosa! Aleluia.
         </Typography>
       </Language>
       <H3 text="Evangelho" />
       <Typography className="em">Mt. 13, 44-52</Typography>
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis parábolam me: Símile est
@@ -196,15 +201,16 @@ export default function Page18Virgensmartires2() {
       <H3 text="Secreta" />
       <Language>
         <Typography className="latin">
-          Hóstias tibi, Dómine, beátæ <Typography className="latin">N.</Typography> Vírginis
-          et Mártyris tuæ dicátas méritis, benígnus assúme: et ad perpétuum
-          nobis tríbue proveníre subsídium. Per Dóminum nostrum...
+          Hóstias tibi, Dómine, beátæ{" "}
+          <Typography className="latin">N.</Typography> Vírginis et Mártyris tuæ
+          dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue
+          proveníre subsídium. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
           Aceitai benignamente, Senhor, as hóstias que Vos oferecemos pelos
-          méritos da B. Virgem e Mártir <Typography className="vernacular">N.</Typography>,
-          e dignai-Vos permitir que ela nos sirva de perpétuo auxílio. Por nosso
-          Senhor...
+          méritos da B. Virgem e Mártir{" "}
+          <Typography className="vernacular">N.</Typography>, e dignai-Vos
+          permitir que ela nos sirva de perpétuo auxílio. Por nosso Senhor...
         </Typography>
       </Language>
       <H3 text="Comúnio" />
@@ -225,30 +231,33 @@ export default function Page18Virgensmartires2() {
       <Language>
         <Typography className="latin">
           Divíni múneris largitáte satiáti, quǽsumus, Dómine, Deus noster: ut,
-          intercedénte beáta <Typography className="latin">N.</Typography> Vírgine et
-          Mártyre tua, in ejus semper participatióne vivámus. Per Dóminum...
+          intercedénte beáta <Typography className="latin">N.</Typography>{" "}
+          Vírgine et Mártyre tua, in ejus semper participatióne vivámus. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
           Saciados com a liberalidade do dom divino, ó Senhor, nosso Deus, Vos
           suplicamos pela intercessão da B. Virgem{" "}
-          <Typography className="vernacular">N.</Typography>, vossa Mártir, que durante a
-          nossa vida comparticipemos sempre deste dom divino. Por nosso
-          Senhor...
+          <Typography className="vernacular">N.</Typography>, vossa Mártir, que
+          durante a nossa vida comparticipemos sempre deste dom divino. Por
+          nosso Senhor...
         </Typography>
       </Language>
 
-      <Typography className="aside">Outro Evangelho (para certos dias):</Typography>
+      <Typography className="aside">
+        Outro Evangelho (para certos dias):
+      </Typography>
 
       <H3 text="Evangelho" />
       <Typography className="em">Mt. 19, 3-12</Typography>
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Accessérunt ad Jesum pharisǽi, tentántes eum et

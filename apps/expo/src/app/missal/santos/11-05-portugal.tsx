@@ -17,16 +17,17 @@ export default function Page1105Portugal() {
         <Typography className="latin">
           Multæ tribulatiónes justórum, et de his ómnibus liberávit eos Dóminus:
           Dóminus custódit ómnia ossa eórum, unum ex his non conterétur.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Benedícam Dóminum in omni
-          témpore: semper laus ejus in ore meo.
+          <Typography className="latin">Ps. ibid., 2</Typography> Benedícam
+          Dóminum in omni témpore: semper laus ejus in ore meo.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Muitas são as tribulações dos justos, mas de todas elas o Senhor os
           livrará. O Senhor guarda todos seus ossos e nem um só deles será
-          quebrado. <Typography className="vernacular">Sl. ibid., 2</Typography> Bendirei o
-          Senhor em todo o tempo: os seus louvores estarão sempre na minha boca.
+          quebrado. <Typography className="vernacular">Sl. ibid., 2</Typography>{" "}
+          Bendirei o Senhor em todo o tempo: os seus louvores estarão sempre na
+          minha boca.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -53,7 +54,9 @@ export default function Page1105Portugal() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Hi viri misericórdiæ sunt, quorum pietátis non defuérunt: cum sémine
           eórum pérmanent bona, heréditas sancta nepótes eórum, et in
@@ -92,14 +95,14 @@ export default function Page1105Portugal() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 67</Typography> Justi epuléntur, et exsúltent in
-          conspéctu Dei: et delecténtur in lætítia. Allelúja.
+          <Typography className="latin">Ps. 67</Typography> Justi epuléntur, et
+          exsúltent in conspéctu Dei: et delecténtur in lætítia. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 67</Typography> Inebriem-se os justos e
-          exultem de alegria na presença de Deus! Que se deliciem na alegria.
-          Aleluia.
+          <Typography className="vernacular">Sl. 67</Typography> Inebriem-se os
+          justos e exultem de alegria na presença de Deus! Que se deliciem na
+          alegria. Aleluia.
         </Typography>
       </Language>
 

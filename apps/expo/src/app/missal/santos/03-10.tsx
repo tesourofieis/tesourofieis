@@ -17,15 +17,15 @@ export default function Page0310() {
         <Typography className="latin">
           Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus
           tribulatiónibus eórum liberávit eos.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Benedícam Dóminum in omni
-          témpore: semper laus ejus in ore meo.
+          <Typography className="latin">Ps. ibid., 2</Typography> Benedícam
+          Dóminum in omni témpore: semper laus ejus in ore meo.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Os justos clamaram por Deus; então o Senhor ouviu-os e livrou-os de
-          todas as tribulações. <Typography className="vernacular">Sl. ibid., 2</Typography>{" "}
-          Bendirei o Senhor em todo o tempo; o seu louvor estará sempre na minha
-          boca.
+          todas as tribulações.{" "}
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Bendirei
+          o Senhor em todo o tempo; o seu louvor estará sempre na minha boca.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -65,8 +65,9 @@ export default function Page0310() {
         </Typography>
         <Typography className="vernacular">
           Oh! como é bom e suave que os irmãos habitem juntos!
-          <Typography className="versicle"> ℣. </Typography>É como o perfume suave espalhado
-          na cabeça de Aarão, e que corre pela barba: pela barba de Aarão.
+          <Typography className="versicle"> ℣. </Typography>É como o perfume
+          suave espalhado na cabeça de Aarão, e que corre pela barba: pela barba
+          de Aarão.
         </Typography>
       </Language>
 

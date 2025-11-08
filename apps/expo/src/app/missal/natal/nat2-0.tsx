@@ -16,9 +16,9 @@ export default function PageNat20() {
         <Typography className="latin">
           In nómine Jesu omne genu flectátur, cœléstium, terréstrium et
           infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus
-          in glória est Dei Patris. <Typography className="latin">Ps. 8, 2</Typography>{" "}
-          Dómine, Dóminus noster, quam admirábile est nomen tuum in univérsa
-          terra!
+          in glória est Dei Patris.{" "}
+          <Typography className="latin">Ps. 8, 2</Typography> Dómine, Dóminus
+          noster, quam admirábile est nomen tuum in univérsa terra!
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
@@ -26,8 +26,8 @@ export default function PageNat20() {
           Que ao ser pronunciado o Nome de Jesus se dobrem todos os joelhos dos
           que estão no céu, na terra e no inferno: e que toda a língua humana
           confesse que o Senhor Jesus Cristo está na glória de Deus Pai.{" "}
-          <Typography className="vernacular">Ps. 8, 2</Typography> Senhor, nosso Senhor,
-          como o vosso Nome é admirável em todo o universo!
+          <Typography className="vernacular">Ps. 8, 2</Typography> Senhor, nosso
+          Senhor, como o vosso Nome é admirável em todo o universo!
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -55,7 +55,9 @@ export default function PageNat20() {
 
       <Language>
         <Typography className="latin">Léctio Actuum Apostolorum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Petrus, replétus Spíritu Sancto, dixit: Príncipes
           pópuli et senióres, audíte: Si nos hódie dijudicámur in benefácto
@@ -91,27 +93,28 @@ export default function PageNat20() {
           Salvos fac nos, Dómine, Deus noster, et cóngrega nos de natiónibus: ut
           confiteámur nómini sancto tuo, et gloriémur in glória tua.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Isai. 63, 16</Typography> Tu, Dómine, Pater noster
-          et Redémptor noster: a sǽculo nomen tuum.
+          <Typography className="latin">Isai. 63, 16</Typography> Tu, Dómine,
+          Pater noster et Redémptor noster: a sǽculo nomen tuum.
         </Typography>
         <Typography className="vernacular">
           Salvai-nos, ó Senhor, nosso Deus, e reuni-nos todos no meio das
           nações, a fim de que confessemos o vosso Santo Nome e nos gloriemos
           com vossos louvores.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Isai. 63, 16</Typography> Senhor, sois o nosso
-          Pai e Redentor! vosso Nome é eterno!
+          <Typography className="vernacular">Isai. 63, 16</Typography> Senhor,
+          sois o nosso Pai e Redentor! vosso Nome é eterno!
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 144, 21</Typography> Laudem Dómini loquétur os
-          meum, et benedícat omnis caro nomen sanctum ejus. Allelúja.
+          <Typography className="latin">Ps. 144, 21</Typography> Laudem Dómini
+          loquétur os meum, et benedícat omnis caro nomen sanctum ejus.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 144, 21</Typography> Que minha boca anuncie
-          os louvores do Senhor: que toda a carne humana bendiga o seu Santo
-          Nome. Aleluia.
+          <Typography className="vernacular">Sl. 144, 21</Typography> Que minha
+          boca anuncie os louvores do Senhor: que toda a carne humana bendiga o
+          seu Santo Nome. Aleluia.
         </Typography>
       </Language>
 
@@ -121,12 +124,12 @@ export default function PageNat20() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Postquam consummáti sunt dies octo, ut

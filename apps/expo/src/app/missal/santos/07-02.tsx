@@ -34,15 +34,16 @@ export default function Page0702() {
       <Language>
         <Typography className="latin">
           Salve, sancta Parens, eníxa puérpera Regem: qui cælum terrámque regit
-          in sǽcula sæculórum. <Typography className="latin">Ps. 44, 2</Typography>{" "}
-          Eructávit cor meum verbum bonum: dico ego ópera mea Regi.
+          in sǽcula sæculórum.{" "}
+          <Typography className="latin">Ps. 44, 2</Typography> Eructávit cor
+          meum verbum bonum: dico ego ópera mea Regi.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Salve, ó Santa Virgem Maria, em cujo seio foi gerado o Rei que governa
           o céu e a terra, em todos os séculos dos séculos.{" "}
-          <Typography className="vernacular">Sl. 44, 2</Typography> Meu coração exprimiu uma
-          excelente palavra: Consagro ao Rei as minhas obras!
+          <Typography className="vernacular">Sl. 44, 2</Typography> Meu coração
+          exprimiu uma excelente palavra: Consagro ao Rei as minhas obras!
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -87,7 +88,9 @@ export default function Page0702() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Ecce, iste venit sáliens in móntibus, transíliens colles; símilis est
           diléctus meus cápreæ hinnulóque cervórum. En, ipse stat post paríetem
@@ -122,21 +125,22 @@ export default function Page0702() {
       <Language>
         <Typography className="latin">
           Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris
-          invénta es Mater Salvatóris.<Typography className="versicle"> ℣. </Typography>
+          invénta es Mater Salvatóris.
+          <Typography className="versicle"> ℣. </Typography>
           Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit
           víscera factus homo.
         </Typography>
         <Typography className="vernacular">
           Bendita e venerável sois, ó Virgem Maria, que fostes Mãe do Salvador
           sem a vossa pureza sofrer a mais leve mancha.
-          <Typography className="versicle"> ℣. </Typography>Ó Virgem, Mãe de Deus, Aquele a
-          quem todo o universo é incapaz de conter, esteve encerrado no vosso
-          seio, quando se fez homem.
+          <Typography className="versicle"> ℣. </Typography>Ó Virgem, Mãe de
+          Deus, Aquele a quem todo o universo é incapaz de conter, esteve
+          encerrado no vosso seio, quando se fez homem.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Felix es,
-          sacra Virgo María, et omni laude digníssima: quia ex te ortus est sol
-          justítiæ, Christus, Deus noster. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Felix es, sacra Virgo María, et omni laude digníssima: quia ex te
+          ortus est sol justítiæ, Christus, Deus noster. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
@@ -152,12 +156,12 @@ export default function Page0702() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Exsúrgens María ábiit in montána cum festinatióne in

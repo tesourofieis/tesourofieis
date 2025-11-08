@@ -17,8 +17,8 @@ export default function PagePasc60() {
           Exáudi, Dómine, vocem meam, qua clamávi ad te, allelúja: tibi dixit
           cor meum, quæsívi vultum tuum, vultum tuum, Dómine, requíram: ne
           avértas fáciem tuam a me, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. ibidem, 1</Typography> Dóminus illuminátio mea
-          et salus mea: quem timébo?
+          <Typography className="latin">Ps. ibidem, 1</Typography> Dóminus
+          illuminátio mea et salus mea: quem timébo?
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
@@ -27,8 +27,8 @@ export default function PagePasc60() {
           aleluia! Meu coração dirigiu-Vos estas palavras: Procurei a vossa
           presença, Senhor; não cessarei de procurar a vossa presença; não
           afasteis, pois, de mim a vossa face, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. ibidem, 1</Typography> Ó Senhor é a minha
-          luz e a minha salvação. A quem, pois, temerei?
+          <Typography className="vernacular">Sl. ibidem, 1</Typography> Ó Senhor
+          é a minha luz e a minha salvação. A quem, pois, temerei?
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -54,8 +54,12 @@ export default function PagePasc60() {
       <Typography className="em">1 Pe. 4, 7-11</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Petri Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Pedro.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Estóte prudéntes et vigiláte in oratiónibus. Ante ómnia
           autem mútuam in vobismetípsis caritátem contínuam habéntes: quia
@@ -82,19 +86,22 @@ export default function PagePasc60() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 46, 9</Typography> Regnávit Dóminus super omnes
-          gentes: Deus sedet super sedem sanctam suam. Allelúja.
+          <Typography className="latin">Ps. 46, 9</Typography> Regnávit Dóminus
+          super omnes gentes: Deus sedet super sedem sanctam suam. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Joann. 14, 18</Typography> Non vos relínquam órphanos:
-          vado, et vénio ad vos, et gaudébit cor vestrum. Allelúja.
+          <Typography className="em">Joann. 14, 18</Typography> Non vos
+          relínquam órphanos: vado, et vénio ad vos, et gaudébit cor vestrum.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 46, 9</Typography> O Senhor reina em todos
-          Os povos: Deus está assentado sobre o seu trono Sagrado, aleluia.
+          <Typography className="vernacular">Sl. 46, 9</Typography> O Senhor
+          reina em todos Os povos: Deus está assentado sobre o seu trono
+          Sagrado, aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Jo. 14, 18</Typography> Não vos deixarei órfãos: vou, e
-          voltarei para vós e o vosso coração alegrar-se-á. Aleluia.
+          <Typography className="em">Jo. 14, 18</Typography> Não vos deixarei
+          órfãos: vou, e voltarei para vós e o vosso coração alegrar-se-á.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -104,12 +111,12 @@ export default function PagePasc60() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Cum vénerit Paráclitus,

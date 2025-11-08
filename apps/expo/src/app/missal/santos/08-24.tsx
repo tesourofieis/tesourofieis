@@ -38,10 +38,11 @@ export default function Page0824() {
       <Language>
         <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortatus est
-          principatus eórum. <Typography className="latin">Ps. ibid., 1-2</Typography>{" "}
-          Dómine, probásti me et cognovísti me: tu cognovisti sessiónem meam et
-          resurrectionem meam.<Typography className="versicle"> ℣. </Typography>Gloria
-          Patri...
+          principatus eórum.{" "}
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Dómine,
+          probásti me et cognovísti me: tu cognovisti sessiónem meam et
+          resurrectionem meam.<Typography className="versicle"> ℣. </Typography>
+          Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Eu vejo, ó Deus, que honrais largamente os vossos amigos: e que seu
@@ -111,8 +112,9 @@ export default function Page0824() {
       <Language>
         <Typography className="latin">
           Constítues eos príncipes super omnem terram: mémores erunt nóminis
-          tui, Dómine.<Typography className="versicle"> ℣. </Typography>Pro patribus tuis
-          nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.
+          tui, Dómine.<Typography className="versicle"> ℣. </Typography>Pro
+          patribus tuis nati sunt tibi fílii: proptérea pópuli confitebúntur
+          tibi.
         </Typography>
         <Typography className="vernacular">
           Serão constituídos príncipes em toda a terra e perpetuarão a glória do
@@ -122,12 +124,12 @@ export default function Page0824() {
           povos Vos honrarão eternamente.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Te gloriósus
-          Apostolórum chorus laudat, Dómine. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Te gloriósus Apostolórum chorus laudat, Dómine. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O coro glorioso
-          dos Apóstolos canta os vossos louvores. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O
+          coro glorioso dos Apóstolos canta os vossos louvores. Aleluia.
         </Typography>
       </Language>
 
@@ -137,12 +139,12 @@ export default function Page0824() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Exiit Jesus in montem oráre, et erat pernóctans in

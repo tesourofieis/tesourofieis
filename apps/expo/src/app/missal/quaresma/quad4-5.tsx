@@ -16,15 +16,17 @@ export default function PageQuad45() {
       <Language>
         <Typography className="latin">
           Deditátio cordis mei in conspéctu tuo semper: Dómine, adjútor meus, et
-          redémptor meus. <Typography className="latin">Ps. ibid., 2</Typography> Cœli
-          enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
+          redémptor meus.{" "}
+          <Typography className="latin">Ps. ibid., 2</Typography> Cœli enárrant
+          glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Os pensamentos do meu coração estarão sempre na vossa presença.
           Senhor, sois o meu sustentáculo e o meu Redentor.{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Os céus publicam a
-          glória do Senhor e o firmamento anuncia as obras das suas mãos.
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Os céus
+          publicam a glória do Senhor e o firmamento anuncia as obras das suas
+          mãos.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -97,8 +99,8 @@ export default function PageQuad45() {
       <Language>
         <Typography className="latin">
           Bonum est confídere in Dómino, quam confídere in hómine.
-          <Typography className="versicle"> ℣. </Typography>Bonum est speráre in Dómino,
-          quam speráre in princípibus.
+          <Typography className="versicle"> ℣. </Typography>Bonum est speráre in
+          Dómino, quam speráre in princípibus.
         </Typography>
         <Typography className="vernacular">
           É melhor confiar no Senhor do que no homem. É melhor ter esperança no
@@ -119,12 +121,12 @@ export default function PageQuad45() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Erat quidam languens Lázarus a Bethánia, de castéllo

@@ -29,8 +29,9 @@ export default function Page0628() {
           Dicit Dóminus Petro: Cum esses júnior, cingébas te et ambulábas, ubi
           volébas: cum autem senúeris, exténdes manus tuas, et álius te cinget
           et ducet, quo tu non vis: hoc autem dixit, signíficans, qua morte
-          clarificatúrus esset Deum. <Typography className="latin">Ps. 18, 1</Typography>{" "}
-          Cœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
+          clarificatúrus esset Deum.{" "}
+          <Typography className="latin">Ps. 18, 1</Typography> Cœli enárrant
+          glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
@@ -38,8 +39,9 @@ export default function Page0628() {
           mesmo e ias onde querias; mas, quando fores velho, estenderás as tuas
           mãos, um outro te cingirá e te conduzirá onde não queiras». Isto
           foi-lhe dito para lhe indicar com que morte deveria glorificar Deus.{" "}
-          <Typography className="vernacular">Sl. 18, 1</Typography> Os céus proclamam a
-          glória de Deus e o firmamento anuncia as obras das suas mãos.
+          <Typography className="vernacular">Sl. 18, 1</Typography> Os céus
+          proclamam a glória de Deus e o firmamento anuncia as obras das suas
+          mãos.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -65,7 +67,9 @@ export default function Page0628() {
 
       <Language>
         <Typography className="latin">Léctio Actuum Apostolórum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Petrus et Joánnes ascendébant in templum ad horam
           oratiónis nonam. Et quidam vir, qui erat claudus ex útero matris suæ,
@@ -111,14 +115,14 @@ export default function Page0628() {
       <Language>
         <Typography className="latin">
           In omnem terram exívit sonus eórum: et in fines orbis terræ verba
-          eórum.<Typography className="versicle"> ℣. </Typography>Cœli enárrant glóriam Dei:
-          et ópera mánuum ejus annúntiat firmaméntum.
+          eórum.<Typography className="versicle"> ℣. </Typography>Cœli enárrant
+          glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
         </Typography>
         <Typography className="vernacular">
           O eco da sua voz espalhou-se por toda a terra: e as suas palavras
           soaram até aos confins da terra.
-          <Typography className="versicle"> ℣. </Typography>Os céus proclamam a glória de
-          Deus e o firmamento anuncia as obras das suas mãos.
+          <Typography className="versicle"> ℣. </Typography>Os céus proclamam a
+          glória de Deus e o firmamento anuncia as obras das suas mãos.
         </Typography>
       </Language>
 
@@ -128,12 +132,12 @@ export default function Page0628() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus Simóni Petro: Simon Joánnis, díligis me

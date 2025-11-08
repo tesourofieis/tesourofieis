@@ -16,16 +16,17 @@ export default function Page0903() {
         <Typography className="latin">
           Extuli eléctum de pópulo, óleo sancto meo unxi eum: ut manus mea sit
           semper cum eo, et brácchium meum confirm et eum.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Grátias Dómini in ætérnum
-          cantábo: per omnes generatiónes annuntiábo fidelitátem tuam ore meo.
+          <Typography className="latin">Ps. ibid., 2</Typography> Grátias Dómini
+          in ætérnum cantábo: per omnes generatiónes annuntiábo fidelitátem tuam
+          ore meo.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Do seio do povo tirei o escolhido; ungi-o com meu óleo sagrado: para
           que sobre ele esteja sempre a minha mão e o meu braço o fortaleça.{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Cantarei eternamente
-          as graças do Senhor; por todas as gerações proclamarei com a minha
-          boca a sua fidelidade.
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Cantarei
+          eternamente as graças do Senhor; por todas as gerações proclamarei com
+          a minha boca a sua fidelidade.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -97,25 +98,27 @@ export default function Page0903() {
       <Language>
         <Typography className="latin">
           Annuntiávi justítiam in cœtu magno; ecce lábia mea non cohíbui:
-          Dómine, tu nosti.<Typography className="versicle"> ℣. </Typography>Justítiam tuam
-          non abscóndi in corde meo; fidelitátem tuam et auxílium tuum narrávi.
+          Dómine, tu nosti.<Typography className="versicle"> ℣. </Typography>
+          Justítiam tuam non abscóndi in corde meo; fidelitátem tuam et auxílium
+          tuum narrávi.
         </Typography>
         <Typography className="vernacular">
           Evangelizei a vossa justiça ante grande multidão; eis que meus lábios
           não ficaram cerrados: Vós, Senhor, bem o sabeis.
-          <Typography className="versicle"> ℣. </Typography>Não escondi no meu coração a
-          vossa justiça; publiquei a vossa fidelidade e o vosso socorro.
+          <Typography className="versicle"> ℣. </Typography>Não escondi no meu
+          coração a vossa justiça; publiquei a vossa fidelidade e o vosso
+          socorro.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 22, 5-6</Typography> Paras mihi mensam, inúngis
-          óleo caput meum, calix meus ubérrimus est. Allelúja.
+          <Typography className="latin">Ps. 22, 5-6</Typography> Paras mihi
+          mensam, inúngis óleo caput meum, calix meus ubérrimus est. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 22, 5-6</Typography> Preparastes para mim a
-          mesa; com óleo ungistes a minha cabeça; o meu cálice está a
-          transbordar. Aleluia.
+          <Typography className="vernacular">Sl. 22, 5-6</Typography>{" "}
+          Preparastes para mim a mesa; com óleo ungistes a minha cabeça; o meu
+          cálice está a transbordar. Aleluia.
         </Typography>
       </Language>
 
@@ -129,17 +132,17 @@ export default function Page0903() {
       <Language>
         <Typography className="latin">
           Sacerdótes ejus induam salúte, et sancti eius exsultántes exsultábunt.
-          <Typography className="versicle"> ℣. </Typography>Illic David suscitábo cornu,
-          parábo lucérnam uncto meo.
-          <Typography className="versicle"> ℣. </Typography>Inimícos ejus índuam confusione,
-          super ipsum autem fulgébit diadéma meum.
+          <Typography className="versicle"> ℣. </Typography>Illic David
+          suscitábo cornu, parábo lucérnam uncto meo.
+          <Typography className="versicle"> ℣. </Typography>Inimícos ejus índuam
+          confusione, super ipsum autem fulgébit diadéma meum.
         </Typography>
         <Typography className="vernacular">
           Revestirei os seus Sacerdotes com a salvação, e seus Santos exultarão
           jubilosamente.<Typography className="versicle"> ℣. </Typography>
           Aqui, farei crescer o poder de David; preparei uma lâmpada para o meu
-          ungido.<Typography className="versicle"> ℣. </Typography>Cobrirei de vergonha os
-          seus inimigos; porém sobre ele fulgirá o meu diadema.
+          ungido.<Typography className="versicle"> ℣. </Typography>Cobrirei de
+          vergonha os seus inimigos; porém sobre ele fulgirá o meu diadema.
         </Typography>
       </Language>
 
@@ -150,19 +153,21 @@ export default function Page0903() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 22, 5-6</Typography> Paras mihi mensam, inúngis
-          óleo caput meum, calix meus ubérrimus est. Allelúja.
+          <Typography className="latin">Ps. 22, 5-6</Typography> Paras mihi
+          mensam, inúngis óleo caput meum, calix meus ubérrimus est. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. 25, 8</Typography> Dómine, díligo habitáculum domus
-          tuæ et locum tabernáculi gloriæ tuæ. Allelúja.
+          <Typography className="em">Ps. 25, 8</Typography> Dómine, díligo
+          habitáculum domus tuæ et locum tabernáculi gloriæ tuæ. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 22, 5-6</Typography> Preparastes para mim a
-          mesa; com óleo ungistes a minha cabeça; o meu cálice está a
-          transbordar. Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Sl. 25, 8</Typography> Amo, Senhor, a morada da vossa
-          casa e o lugar do tabernáculo da vossa Majestade. Aleluia.
+          <Typography className="vernacular">Sl. 22, 5-6</Typography>{" "}
+          Preparastes para mim a mesa; com óleo ungistes a minha cabeça; o meu
+          cálice está a transbordar. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Sl. 25, 8</Typography> Amo, Senhor, a
+          morada da vossa casa e o lugar do tabernáculo da vossa Majestade.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -172,12 +177,12 @@ export default function Page0903() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus Simóni Petro: Simon Joánnis, díligis me

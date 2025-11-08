@@ -25,9 +25,9 @@ export default function PageQuad41() {
         <Typography className="vernacular">
           Ó Deus, pelo vosso nome, salvai-me: e livrai-me com vosso poder. Ó
           Deus, ouvi a minha oração; abri os vossos ouvidos às orações dos meus
-          lábios. <Typography className="vernacular">Sl. ibid., 5</Typography> Porquanto os
-          estrangeiros levantam-se contra mim: e homens violentos querem
-          tirar-me a vida.
+          lábios. <Typography className="vernacular">Sl. ibid., 5</Typography>{" "}
+          Porquanto os estrangeiros levantam-se contra mim: e homens violentos
+          querem tirar-me a vida.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -121,14 +121,14 @@ export default function PageQuad41() {
         <Typography className="latin">
           Esto mihi in Deum protectórem et in locum refúgii, ut salvum me
           fácias.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 70, 1</Typography> Deus, in te sperávi: Dómine,
-          non confúndar in ætérnum.
+          <Typography className="latin">Ps. 70, 1</Typography> Deus, in te
+          sperávi: Dómine, non confúndar in ætérnum.
         </Typography>
         <Typography className="vernacular">
           Sede, ó Deus, o meu protector: sede o refúgio onde eu encontre a
           salvação.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 70, 1</Typography> Ó Deus, esperei em Vós!
-          Que eu não seja, pois, para sempre confundido, Senhor!
+          <Typography className="vernacular">Sl. 70, 1</Typography> Ó Deus,
+          esperei em Vós! Que eu não seja, pois, para sempre confundido, Senhor!
         </Typography>
       </Language>
 
@@ -145,12 +145,12 @@ export default function PageQuad41() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Prope erat Pascha Judæórum, et ascéndit Jesus

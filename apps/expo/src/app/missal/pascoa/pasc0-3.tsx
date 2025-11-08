@@ -16,15 +16,16 @@ export default function PagePasc03() {
         <Typography className="latin">
           Veníte, benedícti Patris mei, percípite regnum, allelúja: quod vobis
           parátum est ab orígine mundi, allelúja, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. 95, 1</Typography> Cantáte Dómino cánticum
-          novum: cantáte Dómino, omnis terra.
+          <Typography className="latin">Ps. 95, 1</Typography> Cantáte Dómino
+          cánticum novum: cantáte Dómino, omnis terra.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Vinde, benditos do meu Pai, recebei o reino, aleluia: que foi
           preparado para vós desde a criação do mundo, aleluia, aleluia,
-          aleluia. <Typography className="vernacular">Sl. 95, 1</Typography> Cantai ao
-          Senhor um cântico novo: que toda a terra cante hinos ao Senhor.
+          aleluia. <Typography className="vernacular">Sl. 95, 1</Typography>{" "}
+          Cantai ao Senhor um cântico novo: que toda a terra cante hinos ao
+          Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -51,7 +52,9 @@ export default function PagePasc03() {
 
       <Language>
         <Typography className="latin">Léctio Actuum Apostolorum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Apériens Petrus os suum, dixit: Viri Israelítæ, et
           qui timétis Deum, audíte. Deus Abraham et Deus Isaac et Deus Jacob,
@@ -97,13 +100,13 @@ export default function PagePasc03() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Luc. 24, 34</Typography> Surréxit Dóminus vere: et
-          appáruit Petro.
+          <Typography className="latin">Luc. 24, 34</Typography> Surréxit
+          Dóminus vere: et appáruit Petro.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Lc. 24, 34</Typography> O Senhor ressuscitou
-          verdadeiramente e apareceu a Pedro.
+          <Typography className="vernacular">Lc. 24, 34</Typography> O Senhor
+          ressuscitou verdadeiramente e apareceu a Pedro.
         </Typography>
       </Language>
 
@@ -113,12 +116,12 @@ export default function PagePasc03() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Manifestávit se íterum Jesus discípulis ad mare

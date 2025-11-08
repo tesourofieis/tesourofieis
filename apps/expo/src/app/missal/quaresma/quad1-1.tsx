@@ -18,8 +18,9 @@ export default function PageQuad11() {
         <Typography className="latin">
           Sicut óculi servórum in mánibus dominórum suórum: ita óculi nostri ad
           Dóminum, Deum nostrum, donec misereátur nobis: miserére nobis, Dómine,
-          miserére nobis. <Typography className="latin">Ps. ibid., 1</Typography> Ad te
-          levávi óculos meos: qui hábitas in cœlis.
+          miserére nobis.{" "}
+          <Typography className="latin">Ps. ibid., 1</Typography> Ad te levávi
+          óculos meos: qui hábitas in cœlis.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
@@ -28,8 +29,8 @@ export default function PageQuad11() {
           senhores, assim os nossos olhos estão voltados para o Senhor, nosso
           Deus, até que Ele tenha compaixão de nós. Tende compaixão de nós,
           Senhor, tende compaixão de nós.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Levantei os olhos
-          para Vós, que habitais nos céus.
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Levantei
+          os olhos para Vós, que habitais nos céus.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -55,7 +56,9 @@ export default function PageQuad11() {
 
       <Language>
         <Typography className="latin">Léctio Ezechiélis Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do Profeta Ezequiel.</Typography>
+        <Typography className="vernacular">
+          Lição do Profeta Ezequiel.
+        </Typography>
         <Typography className="latin">
           Hæc dicit Dóminus Deus: Ecce, ego ipse requíram oves meas, et visitábo
           eas. Sicut vísitat pastor gregem suum in die, quando fúerit in médio
@@ -121,12 +124,12 @@ export default function PageQuad11() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secundum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secundum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Cum vénerit Fílius

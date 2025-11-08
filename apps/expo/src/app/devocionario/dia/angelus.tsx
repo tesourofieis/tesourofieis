@@ -26,108 +26,121 @@ export default function PageAngelus() {
       </Typography>
 
       <Language>
-        <Typography className="latin">Angelus Dómini nuntiávit Maríæ.</Typography>
-        <Typography className="vernacular">O Anjo do Senhor anunciou a Maria.</Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et concépit de Spíritu Sancto.
+          Angelus Dómini nuntiávit Maríæ.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E Ela concebeu do Espírito
-          Santo.
+          O Anjo do Senhor anunciou a Maria.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Ave, María, grátia plena,
-          Dóminus tecum; benedícta tu in muliéribus, et benedíctus fructus
-          ventris tui, Jesus.
+          <Typography className="response"> ℟. </Typography> Et concépit de
+          Spíritu Sancto.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Ave, Maria, Cheia de graça, o
-          Senhor é convosco; bendita sois Vós entre as mulheres, e bendito é o
-          fruto do vosso ventre, Jesus.
+          <Typography className="response"> ℟. </Typography> E Ela concebeu do
+          Espírito Santo.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Sancta María, Mater Dei, ora
-          pro nobis peccatóribus, nunc, et in hora mortis nostræ. Amen.
+          <Typography className="versicle"> ℣. </Typography>Ave, María, grátia
+          plena, Dóminus tecum; benedícta tu in muliéribus, et benedíctus
+          fructus ventris tui, Jesus.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Santa Maria, Mãe de Deus, rogai
-          por nós, pecadores, agora e na hora da nossa morte. Amen.
+          <Typography className="versicle"> ℣. </Typography>Ave, Maria, Cheia de
+          graça, o Senhor é convosco; bendita sois Vós entre as mulheres, e
+          bendito é o fruto do vosso ventre, Jesus.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography> Ecce ancílla Dómini.
+          <Typography className="response"> ℟. </Typography> Sancta María, Mater
+          Dei, ora pro nobis peccatóribus, nunc, et in hora mortis nostræ. Amen.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Eis a escrava do Senhor.
+          <Typography className="response"> ℟. </Typography> Santa Maria, Mãe de
+          Deus, rogai por nós, pecadores, agora e na hora da nossa morte. Amen.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Fiat mihi secúndum verbum tuum.
+          <Typography className="versicle"> ℣. </Typography> Ecce ancílla
+          Dómini.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Faça-se em mim segundo a vossa
-          Palavra.
+          <Typography className="versicle"> ℣. </Typography>Eis a escrava do
+          Senhor.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Ave, María, grátia plena,
-          Dóminus tecum; benedícta tu in muliéribus, et benedíctus fructus
-          ventris tui, Jesus.
+          <Typography className="response"> ℟. </Typography> Fiat mihi secúndum
+          verbum tuum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Ave, Maria, Cheia de graça, o
-          Senhor é convosco; bendita sois Vós entre as mulheres, e bendito é o
-          fruto do vosso ventre, Jesus.
+          <Typography className="response"> ℟. </Typography> Faça-se em mim
+          segundo a vossa Palavra.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Sancta María, Mater Dei, ora
-          pro nobis peccatóribus, nunc, et in hora mortis nostræ. Amen.
+          <Typography className="versicle"> ℣. </Typography>Ave, María, grátia
+          plena, Dóminus tecum; benedícta tu in muliéribus, et benedíctus
+          fructus ventris tui, Jesus.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Santa Maria, Mãe de Deus, rogai
-          por nós, pecadores, agora e na hora da nossa morte. Amen.
+          <Typography className="versicle"> ℣. </Typography>Ave, Maria, Cheia de
+          graça, o Senhor é convosco; bendita sois Vós entre as mulheres, e
+          bendito é o fruto do vosso ventre, Jesus.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Et Verbum caro factum est.
+          <Typography className="response"> ℟. </Typography> Sancta María, Mater
+          Dei, ora pro nobis peccatóribus, nunc, et in hora mortis nostræ. Amen.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>E o Verbo divino encarnou.
+          <Typography className="response"> ℟. </Typography> Santa Maria, Mãe de
+          Deus, rogai por nós, pecadores, agora e na hora da nossa morte. Amen.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et habitávit in nobis.
+          <Typography className="versicle"> ℣. </Typography>Et Verbum caro
+          factum est.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E habitou no meio de nós.
+          <Typography className="versicle"> ℣. </Typography>E o Verbo divino
+          encarnou.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Ave, María, grátia plena,
-          Dóminus tecum; benedícta tu in muliéribus, et benedíctus fructus
-          ventris tui, Jesus.
+          <Typography className="response"> ℟. </Typography> Et habitávit in
+          nobis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Ave, Maria, Cheia de graça, o
-          Senhor é convosco; bendita sois Vós entre as mulheres, e bendito é o
-          fruto do vosso ventre, Jesus.
+          <Typography className="response"> ℟. </Typography> E habitou no meio
+          de nós.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Sancta María, Mater Dei, ora
-          pro nobis peccatóribus, nunc, et in hora mortis nostræ. Amen.
+          <Typography className="versicle"> ℣. </Typography>Ave, María, grátia
+          plena, Dóminus tecum; benedícta tu in muliéribus, et benedíctus
+          fructus ventris tui, Jesus.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Santa Maria, Mãe de Deus, rogai
-          por nós, pecadores, agora e na hora da nossa morte. Amen.
+          <Typography className="versicle"> ℣. </Typography>Ave, Maria, Cheia de
+          graça, o Senhor é convosco; bendita sois Vós entre as mulheres, e
+          bendito é o fruto do vosso ventre, Jesus.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Ora pro nobis, sancta Dei
-          Génetríx.
+          <Typography className="response"> ℟. </Typography> Sancta María, Mater
+          Dei, ora pro nobis peccatóribus, nunc, et in hora mortis nostræ. Amen.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Rogai por nós Santa Mãe de Deus.
+          <Typography className="response"> ℟. </Typography> Santa Maria, Mãe de
+          Deus, rogai por nós, pecadores, agora e na hora da nossa morte. Amen.
+        </Typography>
+        <Typography className="latin">
+          <Typography className="versicle"> ℣. </Typography>Ora pro nobis,
+          sancta Dei Génetríx.
+        </Typography>
+        <Typography className="vernacular">
+          <Typography className="versicle"> ℣. </Typography>Rogai por nós Santa
+          Mãe de Deus.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Ut digni efficiámur
           promissionibus Christi.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Para que sejamos dignos das
-          promessas de Cristo.
+          <Typography className="response"> ℟. </Typography> Para que sejamos
+          dignos das promessas de Cristo.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Orémus.</Typography>

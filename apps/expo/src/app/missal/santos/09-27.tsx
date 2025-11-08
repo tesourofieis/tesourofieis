@@ -59,24 +59,24 @@ export default function Page0927() {
         <Typography className="latin">
           Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus
           tribulatiónibus eórum liberávit eos.
-          <Typography className="versicle"> ℣. </Typography>Juxta est Dóminus his, qui
-          tribuláto sunt corde: et húmiles spíritu salvabit.
+          <Typography className="versicle"> ℣. </Typography>Juxta est Dóminus
+          his, qui tribuláto sunt corde: et húmiles spíritu salvabit.
         </Typography>
         <Typography className="vernacular">
           Clamaram os justos; então o Senhor ouviu-os e livrou-os de todas suas
-          aflições.<Typography className="versicle"> ℣. </Typography>O Senhor está próximo
-          daqueles que têm o coração atribulado; e salvará os que têm o espírito
-          humilhado.
+          aflições.<Typography className="versicle"> ℣. </Typography>O Senhor
+          está próximo daqueles que têm o coração atribulado; e salvará os que
+          têm o espírito humilhado.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Hæc est vera
-          fratérnitas, quæ vicit mundi crímina: Christum secuta est, ínclita
-          tenens regna cœléstia. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secuta
+          est, ínclita tenens regna cœléstia. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Esta é a
-          verdadeira fraternidade que venceu os crimes do mundo: Ela seguiu
-          Cristo, possuindo gloriosamente o reino celestial. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Esta é a verdadeira fraternidade que venceu os crimes do mundo: Ela
+          seguiu Cristo, possuindo gloriosamente o reino celestial. Aleluia.
         </Typography>
       </Language>
 

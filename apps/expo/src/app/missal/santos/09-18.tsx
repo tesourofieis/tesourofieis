@@ -30,14 +30,16 @@ export default function Page0918() {
         <Typography className="latin">
           Diléctio Dei honorábilis sapiéntia: quibus autem apparúerit in visu,
           díligunt eam in visióne et in agnitióne magnálium suórum.{" "}
-          <Typography className="latin">Ps. 83, 2</Typography> Quam dilécta tabernácula tua,
-          Dómine virtútum! concupíscit, et déficit ánima mea in átria Dómini.
+          <Typography className="latin">Ps. 83, 2</Typography> Quam dilécta
+          tabernácula tua, Dómine virtútum! concupíscit, et déficit ánima mea in
+          átria Dómini.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O amor de Deus é sabedoria verdadeiramente digna de ser honrada.
           Aqueles a quem ela se manifesta amam-na, contemplando e admirando as
-          suas maravilhas. <Typography className="vernacular">Sl. 83, 2</Typography> Quão
+          suas maravilhas.{" "}
+          <Typography className="vernacular">Sl. 83, 2</Typography> Quão
           dilectos são os vossos tabernáculos, ó Deus dos exércitos!
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
@@ -113,8 +115,8 @@ export default function Page0918() {
         <Typography className="latin">
           Dómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in
           cápite ejus corónam de lápide pretióso.
-          <Typography className="versicle"> ℣. </Typography>Vitam pétiit a te, et tribuísti
-          ei longitudinem dierum in sǽculum, et in sǽculum sǽculi.
+          <Typography className="versicle"> ℣. </Typography>Vitam pétiit a te,
+          et tribuísti ei longitudinem dierum in sǽculum, et in sǽculum sǽculi.
         </Typography>
         <Typography className="vernacular">
           Senhor, concedestes-lhe bênçãos escolhidas, as mais suaves; e
@@ -125,9 +127,9 @@ export default function Page0918() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Eccli. 11, 13</Typography> Oculus Dei respéxit illum
-          in bono, et eréxit eum ab humilitáte ipsíus, et exaltávit caput ejus.
-          Allelúja.
+          <Typography className="latin">Eccli. 11, 13</Typography> Oculus Dei
+          respéxit illum in bono, et eréxit eum ab humilitáte ipsíus, et
+          exaltávit caput ejus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>

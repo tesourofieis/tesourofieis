@@ -49,7 +49,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
   const translateXToggle = useSharedValue(toggleWidth);
   const currentLanguage = useSharedValue<"latin" | "vernacular">("vernacular");
   const [currentLang, setCurrentLang] = useState<"latin" | "vernacular">(
-    "vernacular"
+    "vernacular",
   );
   const [layoutWidth, setLayoutWidth] = useState(screenWidth);
 
@@ -67,7 +67,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
     translateX.value = withSpring(targetContent, springConfig);
     translateXToggle.value = withSpring(
       vernacular ? toggleWidth : 0,
-      springConfig
+      springConfig,
     );
   };
 
@@ -88,12 +88,12 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
     .onUpdate((event) => {
       translateX.value = Math.max(
         -layoutWidth,
-        Math.min(0, startTranslate.value + event.translationX)
+        Math.min(0, startTranslate.value + event.translationX),
       );
       const toggleProgress = -translateX.value / layoutWidth;
       translateXToggle.value = Math.max(
         0,
-        Math.min(toggleWidth, toggleProgress * toggleWidth)
+        Math.min(toggleWidth, toggleProgress * toggleWidth),
       );
     })
     .onEnd((event) => {
@@ -115,7 +115,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
     () => ({
       transform: [{ translateX: translateX.value }],
     }),
-    [layoutWidth]
+    [layoutWidth],
   );
 
   const { latinContent, vernacularContent } = useMemo(() => {
@@ -128,7 +128,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
           child.props !== null &&
           "className" in child.props &&
           typeof child.props.className === "string" &&
-          child.props.className.includes("latin")
+          child.props.className.includes("latin"),
       ),
       vernacularContent: childrenArray.filter(
         (child) =>
@@ -137,7 +137,7 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
           child.props !== null &&
           "className" in child.props &&
           typeof child.props.className === "string" &&
-          child.props.className.includes("vernacular")
+          child.props.className.includes("vernacular"),
       ),
     };
   }, [children]);

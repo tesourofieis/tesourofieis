@@ -16,15 +16,16 @@ export default function PageQuad25() {
       <Language>
         <Typography className="latin">
           Ego autem cum justítia apparébo in conspéctu tuo: satiábor, dum
-          manifestábitur glória tua. <Typography className="latin">Ps. ibid., 1</Typography>{" "}
-          Exáudi, Dómine, justitiam meam: inténde deprecatióni meæ.
+          manifestábitur glória tua.{" "}
+          <Typography className="latin">Ps. ibid., 1</Typography> Exáudi,
+          Dómine, justitiam meam: inténde deprecatióni meæ.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Eu, porém, cheio de justiça, Senhor, aparecerei diante de Vós: e,
           quando me for manifestada a vossa glória, serei saciado.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Senhor, ouvi a minha
-          prece justa; escutai a minha súplica.
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Senhor,
+          ouvi a minha prece justa; escutai a minha súplica.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -50,7 +51,9 @@ export default function PageQuad25() {
 
       <Language>
         <Typography className="latin">Léctio libri Genesis.</Typography>
-        <Typography className="vernacular">Lição do Livro do Génesis.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro do Génesis.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Dixit Joseph frátribus suis: Audíte sómnium meum,
           quod vidi: Putábam nos ligáre manípulos in agro: et quasi consúrgere
@@ -125,13 +128,13 @@ export default function PageQuad25() {
       <Language>
         <Typography className="latin">
           Ad Dóminum, cum tribulárer, clamávi, et exaudívit me.
-          <Typography className="versicle"> ℣. </Typography>Dómine, líbera ánimam meam a
-          lábiis iníquis et a lingua dolósa.
+          <Typography className="versicle"> ℣. </Typography>Dómine, líbera
+          ánimam meam a lábiis iníquis et a lingua dolósa.
         </Typography>
         <Typography className="vernacular">
           Enquanto estava na tribulação, chamei pelo Senhor, que me atendeu.
-          <Typography className="versicle"> ℣. </Typography>Senhor, livrai a minha alma dos
-          lábios iníquos e da. língua enganadora.
+          <Typography className="versicle"> ℣. </Typography>Senhor, livrai a
+          minha alma dos lábios iníquos e da. língua enganadora.
         </Typography>
       </Language>
 
@@ -148,12 +151,12 @@ export default function PageQuad25() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus turbis Judæórum et princípibus sacerdótum

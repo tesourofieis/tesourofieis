@@ -67,7 +67,9 @@ export default function Page0722() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Surgam, et circuíbo civitátem: per vicos et pláteas quæram, quem
           díligit ánima mea: quæsívi illum, et non invéni. Invenérunt me
@@ -109,23 +111,24 @@ export default function Page0722() {
       <Language>
         <Typography className="latin">
           Dilexísti justítiam, et odísti iniquitátem.
-          <Typography className="versicle"> ℣. </Typography>Proptérea unxit te Deus, Deus
-          tuus, óleo lætítiæ.
+          <Typography className="versicle"> ℣. </Typography>Proptérea unxit te
+          Deus, Deus tuus, óleo lætítiæ.
         </Typography>
         <Typography className="vernacular">
           Amastes a justiça e odiastes a iniquidade.
-          <Typography className="versicle"> ℣. </Typography>Pelo que o Senhor, vosso Deus,
-          vos ungiu com o óleo da alegria.
+          <Typography className="versicle"> ℣. </Typography>Pelo que o Senhor,
+          vosso Deus, vos ungiu com o óleo da alegria.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 3</Typography> Diffúsa est grátia in lábiis
-          tuis: proptérea benedíxit te Deus in ætérnum. Allelúja.
+          <Typography className="latin">ibid., 3</Typography> Diffúsa est grátia
+          in lábiis tuis: proptérea benedíxit te Deus in ætérnum. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 3</Typography> A graça espalhou-se nos
-          vossos lábios: eis porque Deus vos abençoou para sempre. Aleluia.
+          <Typography className="vernacular">ibid., 3</Typography> A graça
+          espalhou-se nos vossos lábios: eis porque Deus vos abençoou para
+          sempre. Aleluia.
         </Typography>
       </Language>
 

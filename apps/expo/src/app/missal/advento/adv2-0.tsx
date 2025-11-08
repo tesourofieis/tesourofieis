@@ -16,15 +16,15 @@ export default function PageAdv20() {
         <Typography className="latin">
           Pópulus Sion, ecce, Dóminus véniet ad salvándas gentes: et audítam
           fáciet Dóminus glóriam vocis suæ in lætítia cordis vestri.{" "}
-          <Typography className="latin">Ps. 79, 2</Typography> Qui regis Israël, inténde:
-          qui dedúcis, velut ovem, Joseph. Glória Patri...
+          <Typography className="latin">Ps. 79, 2</Typography> Qui regis Israël,
+          inténde: qui dedúcis, velut ovem, Joseph. Glória Patri...
         </Typography>
         <Typography className="vernacular">
           Povo de Sião, eis que o Senhor vem para salvar os povos: o Senhor fará
           ouvir a sua gloriosa voz, e o vosso coração encher-se-á de alegria.{" "}
-          <Typography className="vernacular">Sl. 79, 2</Typography> Ouvi, ó vós, que
-          governais Israel; ó vós, que conduzis José, como um pastor conduz uma
-          ovelha. Glória ao Pai...
+          <Typography className="vernacular">Sl. 79, 2</Typography> Ouvi, ó vós,
+          que governais Israel; ó vós, que conduzis José, como um pastor conduz
+          uma ovelha. Glória ao Pai...
         </Typography>
       </Language>
 
@@ -111,13 +111,13 @@ export default function PageAdv20() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 121, 1</Typography> Lætátus sum in his, quæ
-          dicta sunt mihi: in domum Dómini íbimus. Allelúja.
+          <Typography className="latin">Ps. 121, 1</Typography> Lætátus sum in
+          his, quæ dicta sunt mihi: in domum Dómini íbimus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 121, 1</Typography> Rejubilo com aqueles
-          que me disseram: «Iremos à casa do Senhor». Aleluia.
+          <Typography className="vernacular">Sl. 121, 1</Typography> Rejubilo
+          com aqueles que me disseram: «Iremos à casa do Senhor». Aleluia.
         </Typography>
       </Language>
 
@@ -127,12 +127,12 @@ export default function PageAdv20() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthæum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthæum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo tempore: Cum audísset Joánnes in vínculis ópera Christi,

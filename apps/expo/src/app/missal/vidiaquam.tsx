@@ -23,44 +23,50 @@ export default function PageVidiaquam() {
           em quem esta água tocou foram salvos; e dirão: aleluia, aleluia.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Osténde nobis, Dómine,
-          misericórdiam tuam. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>Osténde nobis,
+          Dómine, misericórdiam tuam. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Mostrai, Senhor, a vossa
-          misericórdia. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>Mostrai, Senhor, a
+          vossa misericórdia. Aleluia.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et salutáre tuum da nobis.
-          Allelúja.
+          <Typography className="response"> ℟. </Typography> Et salutáre tuum da
+          nobis. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E dai-nos a salvação. Aleluia.
+          <Typography className="response"> ℟. </Typography> E dai-nos a
+          salvação. Aleluia.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi oratiónem meam.
+          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi
+          oratiónem meam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a minha oração.
+          <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a
+          minha oração.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et clamor meus ad te véniat.
+          <Typography className="response"> ℟. </Typography> Et clamor meus ad
+          te véniat.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E que meu clamor chegue até
-          Vós.
+          <Typography className="response"> ℟. </Typography> E que meu clamor
+          chegue até Vós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor seja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor seja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Orémus.</Typography>

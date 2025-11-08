@@ -62,7 +62,9 @@ export default function Page114() {
           Porque livrou da morte a minha alma: * os meus olhos das lágrimas, os
           meus pés da queda.
         </Typography>
-        <Typography className="latin">Placébo Dómino * in regióne vivórum.</Typography>
+        <Typography className="latin">
+          Placébo Dómino * in regióne vivórum.
+        </Typography>
         <Typography className="vernacular">
           Agradarei ao Senhor * na região dos vivos.
         </Typography>

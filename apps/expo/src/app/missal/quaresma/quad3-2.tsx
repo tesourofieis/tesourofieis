@@ -16,17 +16,19 @@ export default function PageQuad32() {
         <Typography className="latin">
           Ego clamávi, quóniam exaudísti me, Deus: inclína aurem tuam, et exáudi
           verba mea: custódi me, Dómine, ut pupíllam óculi: sub umbra alárum
-          tuárum prótege me. <Typography className="latin">Ps. ib., 1</Typography> Exáudi,
-          Dómine, justítiam meam: inténde deprecatiónem meam.
+          tuárum prótege me.{" "}
+          <Typography className="latin">Ps. ib., 1</Typography> Exáudi, Dómine,
+          justítiam meam: inténde deprecatiónem meam.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Clamei por Vós, ó Deus, porque sei que me ouvireis: inclinai, pois,
           para mim os vossos ouvidos e escutai a minha prece, Senhor.
           Guardai-me, Senhor, como a pupila dos olhos: protegei-me sob as vossas
-          asas. <Typography className="vernacular">Sl. ib., 1</Typography> Ouvi, Senhor, a
-          minha súplica, que é justa: atendei à minha oração, que é muito
-          humilde.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          asas. <Typography className="vernacular">Sl. ib., 1</Typography> Ouvi,
+          Senhor, a minha súplica, que é justa: atendei à minha oração, que é
+          muito humilde.<Typography className="versicle"> ℣. </Typography>Glória
+          ao Pai...
         </Typography>
       </Language>
 
@@ -94,8 +96,8 @@ export default function PageQuad32() {
       <Language>
         <Typography className="latin">
           Ab occúltis meis munda me, Dómine: et ab aliénis parce servo tuo.
-          <Typography className="versicle"> ℣. </Typography>Si mei non fúerint domináti,
-          tunc immaculátus ero: et emundábor a delícto máximo.
+          <Typography className="versicle"> ℣. </Typography>Si mei non fúerint
+          domináti, tunc immaculátus ero: et emundábor a delícto máximo.
         </Typography>
         <Typography className="vernacular">
           Purificai-me dos meus delitos ocultos, Senhor: Perdoai ao vosso servo
@@ -110,12 +112,12 @@ export default function PageQuad32() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Si peccáverit in te

@@ -11,16 +11,24 @@ export default function PageSantos() {
 
       <Language>
         <Typography className="latin">Kyrie eleison</Typography>
-        <Typography className="vernacular">Senhor, tende piedade de nós.</Typography>
+        <Typography className="vernacular">
+          Senhor, tende piedade de nós.
+        </Typography>
         <Typography className="latin">Christe, eléison.</Typography>
-        <Typography className="vernacular">Cristo, tende piedade de nós.</Typography>
+        <Typography className="vernacular">
+          Cristo, tende piedade de nós.
+        </Typography>
         <Typography className="latin">Kyrie, eléison.</Typography>
-        <Typography className="vernacular">Senhor, tende piedade de nós.</Typography>
+        <Typography className="vernacular">
+          Senhor, tende piedade de nós.
+        </Typography>
         <Typography className="latin">Christe, audi nos.</Typography>
         <Typography className="vernacular">Cristo, ouvi-nos.</Typography>
         <Typography className="latin">Christe, exáudi nos.</Typography>
         <Typography className="vernacular">Cristo, atendei-nos.</Typography>
-        <Typography className="latin">Pater de cælis, Deus, miserére nobis</Typography>
+        <Typography className="latin">
+          Pater de cælis, Deus, miserére nobis
+        </Typography>
         <Typography className="vernacular">
           Deus pai do céu, tende piedade de nós.
         </Typography>
@@ -30,7 +38,9 @@ export default function PageSantos() {
         <Typography className="vernacular">
           Filho Redentor do mundo, que sois Deus, tende piedade de nós.
         </Typography>
-        <Typography className="latin">Spíritus Sancte, Deus, miserére nobis.</Typography>
+        <Typography className="latin">
+          Spíritus Sancte, Deus, miserére nobis.
+        </Typography>
         <Typography className="vernacular">
           Deus Espírito Santo, tende piedade de nós.
         </Typography>
@@ -41,19 +51,35 @@ export default function PageSantos() {
           Santíssima Trindade, que sois um só Deus, tende piedade de nós.
         </Typography>
         <Typography className="latin">Sancta María, ora pro nobis.</Typography>
-        <Typography className="vernacular">Santa Maria, rogai por nós.</Typography>
-        <Typography className="latin">Sancta Dei Génetrix, ora pro nobis.</Typography>
-        <Typography className="vernacular">Santa Mãe de Deus, rogai por nós.</Typography>
-        <Typography className="latin">Sancta Virgo vírginum, ora pro nobis.</Typography>
+        <Typography className="vernacular">
+          Santa Maria, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancta Dei Génetrix, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          Santa Mãe de Deus, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancta Virgo vírginum, ora pro nobis.
+        </Typography>
         <Typography className="vernacular">
           Santa Virgem das virgens, rogai por nós.
         </Typography>
         <Typography className="latin">Sancte Michæl, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Miguel, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Gabriel, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Gabriel, rogai por nós.</Typography>
+        <Typography className="vernacular">
+          São Miguel, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Gabriel, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Gabriel, rogai por nós.
+        </Typography>
         <Typography className="latin">Sancte Raphæl, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Rafæl, rogai por nós.</Typography>
+        <Typography className="vernacular">
+          São Rafæl, rogai por nós.
+        </Typography>
         <Typography className="latin">
           Omnes sancti Angeli et Archangeli, orate pro nobis.
         </Typography>
@@ -66,9 +92,15 @@ export default function PageSantos() {
         <Typography className="vernacular">
           Todos as santas ordens de Espíritos bem-aventurados, rogai por nós.
         </Typography>
-        <Typography className="latin">Sancte Joánnes Baptista, ora pro nobis.</Typography>
-        <Typography className="vernacular">São João Batista, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Josephe, ora pro nobis.</Typography>
+        <Typography className="latin">
+          Sancte Joánnes Baptista, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São João Batista, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Josephe, ora pro nobis.
+        </Typography>
         <Typography className="vernacular">São José, rogai por nós.</Typography>
         <Typography className="latin">
           Omnes sancti Patriárchæ et Prophetæ, orate pro nobis.
@@ -77,37 +109,79 @@ export default function PageSantos() {
           Todos os santos patriarcas e profetas, rogai por nós.
         </Typography>
         <Typography className="latin">Sancte Petre, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Pedro, rogai por nós.</Typography>
+        <Typography className="vernacular">
+          São Pedro, rogai por nós.
+        </Typography>
         <Typography className="latin">Sancte Paule, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Paulo, rogai por nós.</Typography>
+        <Typography className="vernacular">
+          São Paulo, rogai por nós.
+        </Typography>
         <Typography className="latin">Sancte Andrea, ora pro nobis.</Typography>
-        <Typography className="vernacular">Santo André, rogai por nós.</Typography>
+        <Typography className="vernacular">
+          Santo André, rogai por nós.
+        </Typography>
         <Typography className="latin">Sancte Jacobe, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Tiago, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Joánnes, ora pro nobis.</Typography>
+        <Typography className="vernacular">
+          São Tiago, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Joánnes, ora pro nobis.
+        </Typography>
         <Typography className="vernacular">São João, rogai por nós.</Typography>
         <Typography className="latin">Sancte Thoma, ora pro nobis.</Typography>
         <Typography className="vernacular">São Tomé, rogai por nós.</Typography>
         <Typography className="latin">Sancte Jacobe, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Tiago, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Philippe, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Felipe, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Bartholomæe, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Bartolomeu, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Matthæe, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Mateus, rogai por nós.</Typography>
+        <Typography className="vernacular">
+          São Tiago, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Philippe, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Felipe, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Bartholomæe, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Bartolomeu, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Matthæe, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Mateus, rogai por nós.
+        </Typography>
         <Typography className="latin">Sancte Simon, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Simão, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Thaddæe, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Tadeu, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Matthia, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Matias, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Barnaba, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Barnabé, rogai por nós.</Typography>
+        <Typography className="vernacular">
+          São Simão, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Thaddæe, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Tadeu, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Matthia, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Matias, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Barnaba, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Barnabé, rogai por nós.
+        </Typography>
         <Typography className="latin">Sancte Luca, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Lucas, rogai por nós.</Typography>
+        <Typography className="vernacular">
+          São Lucas, rogai por nós.
+        </Typography>
         <Typography className="latin">Sancte Marce, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Marcos, rogai por nós.</Typography>
+        <Typography className="vernacular">
+          São Marcos, rogai por nós.
+        </Typography>
         <Typography className="latin">
           Omnes sancti Apóstoli et Evangelistæ, orate pro nobis.
         </Typography>
@@ -120,25 +194,45 @@ export default function PageSantos() {
         <Typography className="vernacular">
           Todos os santos Discípulos do Senhor, rogai por nós.
         </Typography>
-        <Typography className="latin">Omnes sancti Innocéntes, orate pro nobis.</Typography>
+        <Typography className="latin">
+          Omnes sancti Innocéntes, orate pro nobis.
+        </Typography>
         <Typography className="vernacular">
           Todos os santos inocentes, rogai por nós.
         </Typography>
-        <Typography className="latin">Sancte Stephane, ora pro nobis.</Typography>
-        <Typography className="vernacular">Santo Estêvão, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Laurénti, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Lourenço, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Vincenti, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Vicente, rogai por nós.</Typography>
+        <Typography className="latin">
+          Sancte Stephane, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          Santo Estêvão, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Laurénti, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Lourenço, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Vincenti, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Vicente, rogai por nós.
+        </Typography>
         <Typography className="latin">
           Sancti Fabiane et Sebastiane, orate pro nobis.
         </Typography>
         <Typography className="vernacular">
           Santos Fabiano e São Sebastião, rogai por nós.
         </Typography>
-        <Typography className="latin">Sancti Joánnes et Paule, orate pro nobis.</Typography>
-        <Typography className="vernacular">Santos João e Paulo, rogai por nós.</Typography>
-        <Typography className="latin">Sancti Cosma et Damiane, orate pro nobis.</Typography>
+        <Typography className="latin">
+          Sancti Joánnes et Paule, orate pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          Santos João e Paulo, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancti Cosma et Damiane, orate pro nobis.
+        </Typography>
         <Typography className="vernacular">
           Santos Cosme e Damião, rogai por nós.
         </Typography>
@@ -148,44 +242,94 @@ export default function PageSantos() {
         <Typography className="vernacular">
           Santos Gervásio e Protásio, rogai por nós.
         </Typography>
-        <Typography className="latin">Omnes sancti Mártyres, orate pro nobis.</Typography>
+        <Typography className="latin">
+          Omnes sancti Mártyres, orate pro nobis.
+        </Typography>
         <Typography className="vernacular">
           Todos os santos Mártires, rogai por nós.
         </Typography>
-        <Typography className="latin">Sancte Silvester, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Silvestre, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Gregóri, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Gregório, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Ambrósi, ora pro nobis.</Typography>
-        <Typography className="vernacular">Santo Ambrósio, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Augustine, ora pro nobis.</Typography>
-        <Typography className="vernacular">Santo Agostinho, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Hieronyme, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Jerónimo, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Martine, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Martinho, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Nicolaë, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Nicolau, rogai por nós.</Typography>
+        <Typography className="latin">
+          Sancte Silvester, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Silvestre, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Gregóri, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Gregório, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Ambrósi, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          Santo Ambrósio, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Augustine, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          Santo Agostinho, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Hieronyme, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Jerónimo, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Martine, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Martinho, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Nicolaë, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Nicolau, rogai por nós.
+        </Typography>
         <Typography className="latin">
           Omnes sancti Pontifices et Confessores, orate pro nobis.
         </Typography>
         <Typography className="vernacular">
           Todos os santos pontífices e confessores, rogai por nós.
         </Typography>
-        <Typography className="latin">Omnes sancti Doctores, orate pro nobis.</Typography>
+        <Typography className="latin">
+          Omnes sancti Doctores, orate pro nobis.
+        </Typography>
         <Typography className="vernacular">
           Todos os santos doutores, rogai por nós.
         </Typography>
         <Typography className="latin">Sancte Antoni, ora pro nobis.</Typography>
-        <Typography className="vernacular">Santo Antônio, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Benedicte, orate pro nobis.</Typography>
-        <Typography className="vernacular">São Bento, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Bernarde, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Bernardo, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Dominice, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Domingos, rogai por nós.</Typography>
-        <Typography className="latin">Sancte Francisce, ora pro nobis.</Typography>
-        <Typography className="vernacular">São Francisco, rogai por nós.</Typography>
+        <Typography className="vernacular">
+          Santo Antônio, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Benedicte, orate pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Bento, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Bernarde, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Bernardo, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Dominice, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Domingos, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancte Francisce, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          São Francisco, rogai por nós.
+        </Typography>
         <Typography className="latin">
           Omnes sancti Sacerdótes et Levitæ, orate pro nobis.
         </Typography>
@@ -198,20 +342,42 @@ export default function PageSantos() {
         <Typography className="vernacular">
           Todos os santos Monges e eremitas, rogai por nós.
         </Typography>
-        <Typography className="latin">Sancta María Magdalena, ora pro nobis.</Typography>
-        <Typography className="vernacular">Santa Maria Madalena, rogai por nós.</Typography>
+        <Typography className="latin">
+          Sancta María Magdalena, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          Santa Maria Madalena, rogai por nós.
+        </Typography>
         <Typography className="latin">Sancta Agatha, ora pro nobis.</Typography>
-        <Typography className="vernacular">Santa Águeda, rogai por nós.</Typography>
+        <Typography className="vernacular">
+          Santa Águeda, rogai por nós.
+        </Typography>
         <Typography className="latin">Sancta Lucia, ora pro nobis.</Typography>
-        <Typography className="vernacular">Santa Lúcia, rogai por nós.</Typography>
+        <Typography className="vernacular">
+          Santa Lúcia, rogai por nós.
+        </Typography>
         <Typography className="latin">Sancta Agnes, ora pro nobis.</Typography>
-        <Typography className="vernacular">Santa Inês, rogai por nós.</Typography>
-        <Typography className="latin">Sancta Cæcilia, ora pro nobis.</Typography>
-        <Typography className="vernacular">Santa Cecília, rogai por nós.</Typography>
-        <Typography className="latin">Sancta Catharina, ora pro nobis.</Typography>
-        <Typography className="vernacular">Santa Catarina, rogai por nós.</Typography>
-        <Typography className="latin">Sancta Anastasia, ora pro nobis.</Typography>
-        <Typography className="vernacular">Santa Anastasia, rogai por nós.</Typography>
+        <Typography className="vernacular">
+          Santa Inês, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancta Cæcilia, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          Santa Cecília, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancta Catharina, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          Santa Catarina, rogai por nós.
+        </Typography>
+        <Typography className="latin">
+          Sancta Anastasia, ora pro nobis.
+        </Typography>
+        <Typography className="vernacular">
+          Santa Anastasia, rogai por nós.
+        </Typography>
         <Typography className="latin">
           Omnes sanctæ Vírgines et Víduæ, orate pro nobis.
         </Typography>
@@ -224,29 +390,43 @@ export default function PageSantos() {
         <Typography className="vernacular">
           Todas os Santos e Santas de Deus, intercedam por nós.
         </Typography>
-        <Typography className="latin">Propitius esto, parce nobis, Dómine.</Typography>
+        <Typography className="latin">
+          Propitius esto, parce nobis, Dómine.
+        </Typography>
         <Typography className="vernacular">
           Sede-nos propício, perdoai-nos, Senhor.
         </Typography>
-        <Typography className="latin">Propitius esto, Exáudi nos, Dómine.</Typography>
+        <Typography className="latin">
+          Propitius esto, Exáudi nos, Dómine.
+        </Typography>
         <Typography className="vernacular">
           Sede-nos propício, Atendei-nos, Senhor.
         </Typography>
-        <Typography className="latin">Ab omni malo, líbera nos, Dómine.</Typography>
-        <Typography className="vernacular">De todo o mal, livrai-nos, Senhor.</Typography>
-        <Typography className="latin">Ab omni peccáto, líbera nos, Dómine.</Typography>
+        <Typography className="latin">
+          Ab omni malo, líbera nos, Dómine.
+        </Typography>
+        <Typography className="vernacular">
+          De todo o mal, livrai-nos, Senhor.
+        </Typography>
+        <Typography className="latin">
+          Ab omni peccáto, líbera nos, Dómine.
+        </Typography>
         <Typography className="vernacular">
           De todo o pecado, livrai-nos, Senhor.
         </Typography>
         <Typography className="latin">Ab ira tua, libera nos, Jesu.</Typography>
-        <Typography className="vernacular">Da sua ira, livrai-nos, Jesus.</Typography>
+        <Typography className="vernacular">
+          Da sua ira, livrai-nos, Jesus.
+        </Typography>
         <Typography className="latin">
           A subitanea et improvisa morte, libera nos, Jesu.
         </Typography>
         <Typography className="vernacular">
           Da morte repentina e imprevista, livrai-nos, Jesus.
         </Typography>
-        <Typography className="latin">Ab insídiis diaboli, libera nos, Jesu.</Typography>
+        <Typography className="latin">
+          Ab insídiis diaboli, libera nos, Jesu.
+        </Typography>
         <Typography className="vernacular">
           Das ciladas do demônio, livrai-nos, Jesus.
         </Typography>
@@ -268,25 +448,39 @@ export default function PageSantos() {
         <Typography className="vernacular">
           Do raio e da tempestade, livrai-nos, Jesus.
         </Typography>
-        <Typography className="latin">A flagello terræmotus, libera nos, Jesu.</Typography>
+        <Typography className="latin">
+          A flagello terræmotus, libera nos, Jesu.
+        </Typography>
         <Typography className="vernacular">
           Do flagelo do terremoto, livrai-nos, Jesus.
         </Typography>
-        <Typography className="latin">A peste, fame et bello, libera nos, Jesu.</Typography>
+        <Typography className="latin">
+          A peste, fame et bello, libera nos, Jesu.
+        </Typography>
         <Typography className="vernacular">
           Da peste da fome e da guerra, livrai-nos, Jesus.
         </Typography>
-        <Typography className="latin">A morte perpetua, libera nos, Jesu.</Typography>
-        <Typography className="vernacular">Da morte eterna, livrai-nos, Jesus.</Typography>
+        <Typography className="latin">
+          A morte perpetua, libera nos, Jesu.
+        </Typography>
+        <Typography className="vernacular">
+          Da morte eterna, livrai-nos, Jesus.
+        </Typography>
         <Typography className="latin">
           Per mystérium sanctæ Incarnatiónis tuæ, libera nos, Jesu.
         </Typography>
         <Typography className="vernacular">
           Pelo mystério de vossa santa encarnação.
         </Typography>
-        <Typography className="latin">Per advéntum tuum, libera nos, Jesu.</Typography>
-        <Typography className="vernacular">Pela vossa vinda, livrai-nos, Jesus.</Typography>
-        <Typography className="latin">Per nativitátem tuam, libera nos, Jesu.</Typography>
+        <Typography className="latin">
+          Per advéntum tuum, libera nos, Jesu.
+        </Typography>
+        <Typography className="vernacular">
+          Pela vossa vinda, livrai-nos, Jesus.
+        </Typography>
+        <Typography className="latin">
+          Per nativitátem tuam, libera nos, Jesu.
+        </Typography>
         <Typography className="vernacular">
           Pelo vosso nascimento, livrai-nos, Jesus.
         </Typography>
@@ -326,17 +520,27 @@ export default function PageSantos() {
         <Typography className="vernacular">
           Pela vinda do Espírito Santo Consolador, livrai-nos, Jesus.
         </Typography>
-        <Typography className="latin">In die judícii, líbera nos, Dómine.</Typography>
-        <Typography className="vernacular">No dia do juízo, livrai-nos, Senhor.</Typography>
-        <Typography className="latin">Peccatóres, te rogamus, audi nos.</Typography>
+        <Typography className="latin">
+          In die judícii, líbera nos, Dómine.
+        </Typography>
+        <Typography className="vernacular">
+          No dia do juízo, livrai-nos, Senhor.
+        </Typography>
+        <Typography className="latin">
+          Peccatóres, te rogamus, audi nos.
+        </Typography>
         <Typography className="vernacular">
           Pecadores que somos, nós vos rogamos: ouvi-nos.
         </Typography>
-        <Typography className="latin">Ut nobis parcas, te rogamus, audi nos.</Typography>
+        <Typography className="latin">
+          Ut nobis parcas, te rogamus, audi nos.
+        </Typography>
         <Typography className="vernacular">
           Que nos perdoeis, nós vos rogamos: ouvi-nos.
         </Typography>
-        <Typography className="latin">Ut nobis indulgeas, te rogamus, audi nos.</Typography>
+        <Typography className="latin">
+          Ut nobis indulgeas, te rogamus, audi nos.
+        </Typography>
         <Typography className="vernacular">
           Que useis de indulgência connosco, nós vos rogamos: ouvi-nos.
         </Typography>
@@ -447,7 +651,9 @@ export default function PageSantos() {
         <Typography className="vernacular">
           Que nos digneis atender-nos, nós vos rogamos: ouvi-nos.
         </Typography>
-        <Typography className="latin">Fili Dei, te rogamus, audi nos.</Typography>
+        <Typography className="latin">
+          Fili Dei, te rogamus, audi nos.
+        </Typography>
         <Typography className="vernacular">
           Filho de Deus, nós vos rogamos: ouvi-nos.
         </Typography>
@@ -474,15 +680,23 @@ export default function PageSantos() {
         <Typography className="latin">Christe, exáudi nos.</Typography>
         <Typography className="vernacular">Cristo, atendei-nos.</Typography>
         <Typography className="latin">Kyrie, eléison.</Typography>
-        <Typography className="vernacular">Senhor, tende piedade de nós.</Typography>
-        <Typography className="latin">Christe, eléison. Kyrie, eléison.</Typography>
+        <Typography className="vernacular">
+          Senhor, tende piedade de nós.
+        </Typography>
+        <Typography className="latin">
+          Christe, eléison. Kyrie, eléison.
+        </Typography>
         <Typography className="vernacular">
           Cristo, tende piedade de nós. Senhor, tende piedade de nós
         </Typography>
         <Typography className="latin">Pater noster (secréto)</Typography>
         <Typography className="vernacular">Pai nosso (silêncio)</Typography>
-        <Typography className="latin">Et ne nos indúcas in tentatiónem.</Typography>
-        <Typography className="vernacular">E não nos dexeis cair em tentação.</Typography>
+        <Typography className="latin">
+          Et ne nos indúcas in tentatiónem.
+        </Typography>
+        <Typography className="vernacular">
+          E não nos dexeis cair em tentação.
+        </Typography>
         <Typography className="latin">Sed líbera nos a malo.</Typography>
         <Typography className="vernacular">Mais livrai-nos do mal.</Typography>
       </Language>
@@ -493,95 +707,103 @@ export default function PageSantos() {
         <Typography className="latin">Glória Patri...</Typography>
         <Typography className="vernacular">Glória ao Pai...</Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography> Salvos fac servos tuos.
+          <Typography className="versicle"> ℣. </Typography> Salvos fac servos
+          tuos.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Meu Deus, salvai os vossos
-          servos.
+          <Typography className="versicle"> ℣. </Typography>Meu Deus, salvai os
+          vossos servos.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Deus meus, sperántes in te.
+          <Typography className="response"> ℟. </Typography> Deus meus,
+          sperántes in te.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Quem esperam em Vós.
+          <Typography className="response"> ℟. </Typography> Quem esperam em
+          Vós.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Esto nobis, Dómine, turris
-          fortitúdinis.
+          <Typography className="versicle"> ℣. </Typography>Esto nobis, Dómine,
+          turris fortitúdinis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Sede para nós, Senhor, uma torre
-          forte.
+          <Typography className="versicle"> ℣. </Typography>Sede para nós,
+          Senhor, uma torre forte.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> A fácie inimíci.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Contra os ataques do inimigo.
+          <Typography className="response"> ℟. </Typography> Contra os ataques
+          do inimigo.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Nihil profíciat intimícus in
-          nobis.
+          <Typography className="versicle"> ℣. </Typography>Nihil profíciat
+          intimícus in nobis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Nada possa o inimigo contra nós.
+          <Typography className="versicle"> ℣. </Typography>Nada possa o inimigo
+          contra nós.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et fílius iniquitátis non
-          appónat nocére nobis.
+          <Typography className="response"> ℟. </Typography> Et fílius
+          iniquitátis non appónat nocére nobis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E o filho da iniquidade não
-          consiga fazer-nos mal.
+          <Typography className="response"> ℟. </Typography> E o filho da
+          iniquidade não consiga fazer-nos mal.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Dómine, non secúndum peccáta
-          nostra fácias nobis.
+          <Typography className="versicle"> ℣. </Typography>Dómine, non secúndum
+          peccáta nostra fácias nobis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, nos não trateis como
-          merecem os nossos pecados.
+          <Typography className="versicle"> ℣. </Typography>Senhor, nos não
+          trateis como merecem os nossos pecados.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Neque secúndum iniquitátes
-          nostras retribuas nobis.
+          <Typography className="response"> ℟. </Typography> Neque secúndum
+          iniquitátes nostras retribuas nobis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Nem nos castigueis como pedem
-          as nossas iniquidades.
+          <Typography className="response"> ℟. </Typography> Nem nos castigueis
+          como pedem as nossas iniquidades.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Orémus pro Pontífice nostro{" "}
-          <Typography className="latin">N.</Typography>
+          <Typography className="versicle"> ℣. </Typography>Orémus pro Pontífice
+          nostro <Typography className="latin">N.</Typography>
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Oremos pelo nosso pontífice{" "}
-          <Typography className="vernacular">N.</Typography>
+          <Typography className="versicle"> ℣. </Typography>Oremos pelo nosso
+          pontífice <Typography className="vernacular">N.</Typography>
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Dóminus consérvet eum, et
-          vivíficet eum, et beátum fáciat eum in terra, et non tradat eum in
-          ánimam inimicórum éjus.
+          <Typography className="response"> ℟. </Typography> Dóminus consérvet
+          eum, et vivíficet eum, et beátum fáciat eum in terra, et non tradat
+          eum in ánimam inimicórum éjus.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> O Senhor o conserve, lhe dê
-          vida, o faça feliz na terra e o não entregue à violência dos seus
-          inimigos.
+          <Typography className="response"> ℟. </Typography> O Senhor o
+          conserve, lhe dê vida, o faça feliz na terra e o não entregue à
+          violência dos seus inimigos.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Orémus pro benefactóribus
-          nostris.
+          <Typography className="versicle"> ℣. </Typography>Orémus pro
+          benefactóribus nostris.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Oremos pelos nossos benfeitores.
+          <Typography className="versicle"> ℣. </Typography>Oremos pelos nossos
+          benfeitores.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Retribúere dignare, Dómine,
-          ómnibus nobis bona faciéntibus, propter nomen tuum, vitam ætérnam.
+          <Typography className="response"> ℟. </Typography> Retribúere dignare,
+          Dómine, ómnibus nobis bona faciéntibus, propter nomen tuum, vitam
+          ætérnam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Dignai-Vos, Senhor, para glória
-          do vosso Nome, conceder a vida eterna a todos os que nos fazem bem.
+          <Typography className="response"> ℟. </Typography> Dignai-Vos, Senhor,
+          para glória do vosso Nome, conceder a vida eterna a todos os que nos
+          fazem bem.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -590,21 +812,24 @@ export default function PageSantos() {
           <Typography className="response"> ℟. </Typography> Amen.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Orémus pro fidélibus defúnctis.
+          <Typography className="versicle"> ℣. </Typography>Orémus pro fidélibus
+          defúnctis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Oremos pelos fiéis defuntos.
+          <Typography className="versicle"> ℣. </Typography>Oremos pelos fiéis
+          defuntos.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Réquiem ætérnam dona eis,
-          Dómine, et lux perpétua lúceat eis.
+          <Typography className="response"> ℟. </Typography> Réquiem ætérnam
+          dona eis, Dómine, et lux perpétua lúceat eis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Dai-lhes, Senhor, o eterno
-          descanso, entre os esplendores da luz perpétua.
+          <Typography className="response"> ℟. </Typography> Dai-lhes, Senhor, o
+          eterno descanso, entre os esplendores da luz perpétua.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography> Requiéscant in pace.
+          <Typography className="versicle"> ℣. </Typography> Requiéscant in
+          pace.
         </Typography>
         <Typography className="vernacular">
           <Typography className="versicle"> ℣. </Typography> Descansem em paz.
@@ -616,59 +841,66 @@ export default function PageSantos() {
           <Typography className="response"> ℟. </Typography> Amen.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Pro frátribus nostris
-          abséntibus.
+          <Typography className="versicle"> ℣. </Typography>Pro frátribus
+          nostris abséntibus.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Oremos pelos nossos irmãos
-          ausentes.
+          <Typography className="versicle"> ℣. </Typography>Oremos pelos nossos
+          irmãos ausentes.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Salvos fac servos tuos, Deus
-          meus, sperántes in te.
+          <Typography className="response"> ℟. </Typography> Salvos fac servos
+          tuos, Deus meus, sperántes in te.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Salvai, meu Deus, os vossos
-          servos que esperam em Vós.
+          <Typography className="response"> ℟. </Typography> Salvai, meu Deus,
+          os vossos servos que esperam em Vós.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Mitte eis, Dómine, auxílium de
-          sancto.
+          <Typography className="versicle"> ℣. </Typography>Mitte eis, Dómine,
+          auxílium de sancto.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Socorrei-os, Senhor, lá do vosso
-          santuário.
+          <Typography className="versicle"> ℣. </Typography>Socorrei-os, Senhor,
+          lá do vosso santuário.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et de Sion tuére eos.
+          <Typography className="response"> ℟. </Typography> Et de Sion tuére
+          eos.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E protegei-os da celestial
-          Sião.
+          <Typography className="response"> ℟. </Typography> E protegei-os da
+          celestial Sião.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi oratiónem meam.
+          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi
+          oratiónem meam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a minha oração.
+          <Typography className="versicle"> ℣. </Typography>Ouvi, Senhor, a
+          minha oração.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et clamor meus ad te vénita.
+          <Typography className="response"> ℟. </Typography> Et clamor meus ad
+          te vénita.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E o meu clamor chegue até Vós.
+          <Typography className="response"> ℟. </Typography> E o meu clamor
+          chegue até Vós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor seja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor seja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Orémus.</Typography>
@@ -793,37 +1025,42 @@ export default function PageSantos() {
           os séculos dos séculos. Amen.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi orationem meam.
+          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi
+          orationem meam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha oração.
+          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha
+          oração.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et clamor meus ad te véniat.
+          <Typography className="response"> ℟. </Typography> Et clamor meus ad
+          te véniat.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E que meu clamor chegue até
-          Vós.
+          <Typography className="response"> ℟. </Typography> E que meu clamor
+          chegue até Vós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor seja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor seja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Exáudiat nos omnípotens et
-          miséricors Dóminus.
+          <Typography className="versicle"> ℣. </Typography>Exáudiat nos
+          omnípotens et miséricors Dóminus.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Que o Senhor omnipotente e
-          misericordioso se digne ouvir-nos.
+          <Typography className="versicle"> ℣. </Typography>Que o Senhor
+          omnipotente e misericordioso se digne ouvir-nos.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -832,12 +1069,12 @@ export default function PageSantos() {
           <Typography className="response"> ℟. </Typography> Amen.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Et fidélium ánimæ per
-          misericórdiam Dei requiéscant in pace.
+          <Typography className="versicle"> ℣. </Typography>Et fidélium ánimæ
+          per misericórdiam Dei requiéscant in pace.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>E que as almas dos fiéis
-          defuntos por misericórdia de Deus descansem em paz.
+          <Typography className="versicle"> ℣. </Typography>E que as almas dos
+          fiéis defuntos por misericórdia de Deus descansem em paz.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.

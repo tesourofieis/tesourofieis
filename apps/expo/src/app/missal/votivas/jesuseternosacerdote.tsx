@@ -16,8 +16,9 @@ export default function PageJesuseternosacerdote() {
         <Typography className="latin">
           Jurávit Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum
           secúndum órdinem Melchísedech. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Dixit Dóminus Dómino meo:
-          Sede a dextris meis.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. ibid., 1</Typography> Dixit Dóminus
+          Dómino meo: Sede a dextris meis.
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
@@ -106,8 +107,8 @@ export default function PageJesuseternosacerdote() {
       <Language>
         <Typography className="latin">
           Spíritus Dómini super me: propter quod unxit me.
-          <Typography className="versicle"> ℣. </Typography>Evangelizáre paupéribus misit
-          me, sanáre contrítos corde.
+          <Typography className="versicle"> ℣. </Typography>Evangelizáre
+          paupéribus misit me, sanáre contrítos corde.
         </Typography>
         <Typography className="vernacular">
           O Espírito do Senhor repousou sobre mim: e ungiu-me. Enviou-me a
@@ -126,17 +127,17 @@ export default function PageJesuseternosacerdote() {
       <Language>
         <Typography className="latin">
           Exsúrge, Dómine Deus, exaltétur manus tua: ne obliviscáris páuperum.
-          <Typography className="versicle"> ℣. </Typography>Vide quóniam tu labórem et
-          dolórem consíderas:
+          <Typography className="versicle"> ℣. </Typography>Vide quóniam tu
+          labórem et dolórem consíderas:
           <Typography className="versicle"> ℣. </Typography>
           Tibi derelíctus est pauper: órphano tu eris adjútor.
         </Typography>
         <Typography className="vernacular">
           Erguei-Vos, ó Senhor Deus: elevai a vossa mão: não olvideis os pobres.
-          <Typography className="versicle"> ℣. </Typography>Pois Vós apreciais e considerais
-          o trabalho e a dor.
-          <Typography className="versicle"> ℣. </Typography>A Vós se abandona o infeliz:
-          sois amparo do órfão.
+          <Typography className="versicle"> ℣. </Typography>Pois Vós apreciais e
+          considerais o trabalho e a dor.
+          <Typography className="versicle"> ℣. </Typography>A Vós se abandona o
+          infeliz: sois amparo do órfão.
         </Typography>
       </Language>
 
@@ -147,21 +148,21 @@ export default function PageJesuseternosacerdote() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Hebr. 7, 24</Typography> Jesus autem eo quod máneat
-          in ætérnum, sempitérnum habet sacerdótium. Allelúja.
+          <Typography className="latin">Hebr. 7, 24</Typography> Jesus autem eo
+          quod máneat in ætérnum, sempitérnum habet sacerdótium. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Luc. 4, 18</Typography> Spíritus Dómini super me:
-          propter quod unxit me, evangelizáre paupéribus misit me, sanáre
-          contrítos corde. Allelúja.
+          <Typography className="em">Luc. 4, 18</Typography> Spíritus Dómini
+          super me: propter quod unxit me, evangelizáre paupéribus misit me,
+          sanáre contrítos corde. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Heb. 7, 24</Typography> Jesus, porque permanece
-          para sempre, tem um sacerdócio sempiterno. Aleluia.
+          <Typography className="vernacular">Heb. 7, 24</Typography> Jesus,
+          porque permanece para sempre, tem um sacerdócio sempiterno. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Lc. 4, 18</Typography> O Espírito do Senhor repousou
-          sobre mim: e ungiu-me, mandando-me evangelizar os pobres e sarar os
-          contritos de coração. Aleluia.
+          <Typography className="em">Lc. 4, 18</Typography> O Espírito do Senhor
+          repousou sobre mim: e ungiu-me, mandando-me evangelizar os pobres e
+          sarar os contritos de coração. Aleluia.
         </Typography>
       </Language>
 
@@ -171,12 +172,12 @@ export default function PageJesuseternosacerdote() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Discúbuit Jesus, et duódecim Apóstoli cum eo. Et ait

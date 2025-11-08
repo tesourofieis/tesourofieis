@@ -28,17 +28,18 @@ export default function Page1114() {
         <Typography className="latin">
           Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beáti
           Jósaphat Mártyris: de cujus passióne gaudent Angeli et colláudant
-          Fílium Dei. <Typography className="latin">Ps. 32, 1</Typography> Exsultáte, justi,
-          in Dómino: rectos decet collaudátio.
+          Fílium Dei. <Typography className="latin">Ps. 32, 1</Typography>{" "}
+          Exsultáte, justi, in Dómino: rectos decet collaudátio.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Alegremo-nos todos no Senhor, neste dia em que celebramos a festa em
           honra do B. Mártir Josafá, de cujo martírio se regozijam os Anjos,
           louvando, unissonamente, o Filho de Deus.{" "}
-          <Typography className="vernacular">Sl. 32, 1</Typography> Aclamai o Senhor, ó
-          justos, pois é aos que possuem coração recto que pertence louvar o
-          Senhor.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. 32, 1</Typography> Aclamai o
+          Senhor, ó justos, pois é aos que possuem coração recto que pertence
+          louvar o Senhor.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -75,18 +76,18 @@ export default function Page1114() {
         <Typography className="latin">
           Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
           auxiliábitur ei, et bráchium meum confortábit eum.
-          <Typography className="versicle"> ℣. </Typography>Nihil profíciet inimícus in eo,
-          et fílius iniquitátis non nocébit ei.
+          <Typography className="versicle"> ℣. </Typography>Nihil profíciet
+          inimícus in eo, et fílius iniquitátis non nocébit ei.
         </Typography>
         <Typography className="vernacular">
           Encontrei o meu servo David e ungi-o com meu óleo sagrado: a minha mão
           o auxiliará e o meu braço o fortalecerá.
-          <Typography className="versicle"> ℣. </Typography>Meu inimigo nada poderá contra
-          ele e o filho da iniquidade nenhum mal lhe fará.
+          <Typography className="versicle"> ℣. </Typography>Meu inimigo nada
+          poderá contra ele e o filho da iniquidade nenhum mal lhe fará.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Hic est
-          sacérdos, quem coronávit Dóminus. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Hic est sacérdos, quem coronávit Dóminus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia. Eis o sacerdote que o Senhor coroou. Aleluia.

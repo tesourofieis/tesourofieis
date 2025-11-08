@@ -9,8 +9,9 @@ export default function PageIndex() {
       <H1 text="Pequeno Ofício de Nossa Senhora" />
 
       <Typography className="aside">
-        Em conformidade com <Typography className="em">Editio Typica</Typography> do
-        Breviário Romano.
+        Em conformidade com{" "}
+        <Typography className="em">Editio Typica</Typography> do Breviário
+        Romano.
       </Typography>
 
       <DirectoryList slug="devocionario/oficio" />

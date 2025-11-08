@@ -35,10 +35,11 @@ export default function Page1018() {
       <Language>
         <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est
-          principátus eórum. <Typography className="latin">Ps. ibid., 1-2</Typography>{" "}
-          Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et
-          resurrectiónem meam.<Typography className="versicle"> ℣. </Typography>Gloria
-          Patri...
+          principátus eórum.{" "}
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Dómine,
+          probásti me et cognovísti me: tu cognovísti sessiónem meam et
+          resurrectiónem meam.<Typography className="versicle"> ℣. </Typography>
+          Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Vejo, ó Deus, que honrais largamente os vossos amigos; e que seu poder
@@ -121,24 +122,26 @@ export default function Page1018() {
       <Language>
         <Typography className="latin">
           In omne terram exívit sonus eórum: et in fines orbis terræ verba
-          eórum.<Typography className="versicle"> ℣. </Typography>Cœli enárrant glóriam Dei:
-          et ópera mánuum ejus annúntiat firmaméntum.
+          eórum.<Typography className="versicle"> ℣. </Typography>Cœli enárrant
+          glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
         </Typography>
         <Typography className="vernacular">
           O som da sua voz retiniu por toda a terra: as suas palavras ecoaram
           até aos confins do mundo.
-          <Typography className="versicle"> ℣. </Typography>Os céus publicam a glória de
-          Deus e o firmamento anuncia as maravilhas que praticou.
+          <Typography className="versicle"> ℣. </Typography>Os céus publicam a
+          glória de Deus e o firmamento anuncia as maravilhas que praticou.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Joann. 15, 16</Typography> Ego vos elégi de mundo,
-          ut eátis et fructum afferátis: et fructus vester máneat. Allelúja.
+          <Typography className="latin">Joann. 15, 16</Typography> Ego vos elégi
+          de mundo, ut eátis et fructum afferátis: et fructus vester máneat.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Jo. 15, 16</Typography> Escolhi-vos no mundo
-          para que ir e alcanceis fruto: e que esse fruto permaneça. Aleluia.
+          <Typography className="vernacular">Jo. 15, 16</Typography> Escolhi-vos
+          no mundo para que ir e alcanceis fruto: e que esse fruto permaneça.
+          Aleluia.
         </Typography>
       </Language>
 

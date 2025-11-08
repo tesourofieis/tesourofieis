@@ -17,8 +17,9 @@ export default function PagePent100() {
           Cum clamárem ad Dóminum, exaudívit vocem meam, ab his, qui
           appropínquant mihi: et humiliávit eos, qui est ante sǽcula et manet in
           ætérnum: jacta cogitátum tuum in Dómino, et ipse te enútriet.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Exáudi, Deus, oratiónem
-          meam, et ne despéxeris deprecatiónem meam: inténde mihi et exáudi me.
+          <Typography className="latin">Ps. ibid., 2</Typography> Exáudi, Deus,
+          oratiónem meam, et ne despéxeris deprecatiónem meam: inténde mihi et
+          exáudi me.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
@@ -26,8 +27,9 @@ export default function PagePent100() {
           que me combatem. Aquele que existia antes dos séculos e subsistirá
           eternamente humilhou-os. Depositai nas mãos do Senhor todas as
           preocupações, pois Ele vos sustentará.{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Ouvi, Senhor, a minha
-          oração e não desprezeis a minha humilde súplica: escutai-me, ouvi-me.
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Ouvi,
+          Senhor, a minha oração e não desprezeis a minha humilde súplica:
+          escutai-me, ouvi-me.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -103,25 +105,25 @@ export default function PagePent100() {
       <Language>
         <Typography className="latin">
           Custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum prótege
-          me.<Typography className="versicle"> ℣. </Typography>De vultu tuo judícium meum
-          pródeat: óculi tui vídeant æquitátem.
+          me.<Typography className="versicle"> ℣. </Typography>De vultu tuo
+          judícium meum pródeat: óculi tui vídeant æquitátem.
         </Typography>
         <Typography className="vernacular">
           Guardai-me, Senhor, como a pupila olhos: acolhei-me à sombra das
-          vossas o Senhor.<Typography className="versicle"> ℣. </Typography>Que os vossos
-          lábios pronunciem o meu juízo: e que os vossos olhos vejam a minha
-          justiça.
+          vossas o Senhor.<Typography className="versicle"> ℣. </Typography>Que
+          os vossos lábios pronunciem o meu juízo: e que os vossos olhos vejam a
+          minha justiça.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps 64, 2</Typography> Te decet hymnus, De us, in
-          Sion: et tibi redde tu votum in Jerúsalem. Allelúja.
+          <Typography className="latin">Ps 64, 2</Typography> Te decet hymnus,
+          De us, in Sion: et tibi redde tu votum in Jerúsalem. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ps 64, 2</Typography> Diante de Vós, Senhor, é
-          conveniente cantar hinos em Sião: diante de Vós deve cada um cumprir
-          os seus votos em Jerusalém. Aleluia.
+          <Typography className="vernacular">Ps 64, 2</Typography> Diante de
+          Vós, Senhor, é conveniente cantar hinos em Sião: diante de Vós deve
+          cada um cumprir os seus votos em Jerusalém. Aleluia.
         </Typography>
       </Language>
 
@@ -131,12 +133,12 @@ export default function PagePent100() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus ad quosdam, qui in se confidébant tamquam

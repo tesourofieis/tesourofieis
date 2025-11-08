@@ -42,16 +42,17 @@ export default function Page0501() {
         <Typography className="latin">
           Clamavérunt ad te, Dómine, in témpore afflictiónis suæ, et tu de cœlo
           exaudísti eos, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. 32, 1</Typography> Exsultáte, justi, in Dómino:
-          rectos decet collaudátio.
+          <Typography className="latin">Ps. 32, 1</Typography> Exsultáte, justi,
+          in Dómino: rectos decet collaudátio.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           No tempo da aflição clamaram por Vós, Senhor; e Vós, do alto do céu,
           os ouvistes, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. 32, 1</Typography> Alegrai-vos no Senhor, ó
-          justos, pois os que possuem os corações rectos é que devem louvar o
-          Senhor.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. 32, 1</Typography> Alegrai-vos
+          no Senhor, ó justos, pois os que possuem os corações rectos é que
+          devem louvar o Senhor.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
@@ -78,7 +79,9 @@ export default function Page0501() {
         <Typography className="latin">
           Lectio Epístolæ beati Pauli Apostoli ad Corinthios.
         </Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Stabunt justi in magna constántia advérsus eos, qui se angustiavérunt
           et qui abstulérunt labóres eórum. Vidéntes turbabúntur timore
@@ -105,22 +108,23 @@ export default function Page0501() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 88, 6</Typography> Confitebúntur cœli mirabília
-          tua, Dómine: etenim veritátem tuam in ecclésia sanctórum. Allelúja.
+          <Typography className="latin">Ps. 88, 6</Typography> Confitebúntur
+          cœli mirabília tua, Dómine: etenim veritátem tuam in ecclésia
+          sanctórum. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Joann. 14, 9</Typography> Tanto témpore vobíscum sum,
-          et non cognovístis me? Philíppe, qui videt me, videt et Patrem meum.
-          Allelúja.
+          <Typography className="em">Joann. 14, 9</Typography> Tanto témpore
+          vobíscum sum, et non cognovístis me? Philíppe, qui videt me, videt et
+          Patrem meum. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 88, 6</Typography> Os céus cantarão as
-          vossas maravilhas, Senhor, assim como a vossa verdade, na assembleia
-          dos Santos. Aleluia.
+          <Typography className="vernacular">Sl. 88, 6</Typography> Os céus
+          cantarão as vossas maravilhas, Senhor, assim como a vossa verdade, na
+          assembleia dos Santos. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Jo. 14, 9</Typography> Há tanto tempo que estou
-          convosco e me não conheceis? Filipe, quem me vê, vê também meu Pai!
-          Aleluia.
+          <Typography className="em">Jo. 14, 9</Typography> Há tanto tempo que
+          estou convosco e me não conheceis? Filipe, quem me vê, vê também meu
+          Pai! Aleluia.
         </Typography>
       </Language>
 
@@ -130,12 +134,12 @@ export default function Page0501() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Non turbátur cor

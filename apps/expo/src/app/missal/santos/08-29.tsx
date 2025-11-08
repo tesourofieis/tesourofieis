@@ -36,15 +36,15 @@ export default function Page0829() {
         <Typography className="latin">
           Loquébar de testimóniis tuis in conspéctu regum, et non confundébar:
           et meditábar in mandátis tuis, quæ diléxi nimis.{" "}
-          <Typography className="latin">Ps. 91, 2</Typography> Bonum est confitéri Dómino:
-          et psállere nómini tuo, Altíssime.
+          <Typography className="latin">Ps. 91, 2</Typography> Bonum est
+          confitéri Dómino: et psállere nómini tuo, Altíssime.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Falava na presença dos reis sobre a vossa lei e não me envergonhava:
           meditava nos vossos mandamentos, que muito amei.{" "}
-          <Typography className="vernacular">Sl. 91, 2</Typography> É bom louvar o Senhor e
-          cantar hinos em honra do vosso nome, ó Altíssimo.
+          <Typography className="vernacular">Sl. 91, 2</Typography> É bom louvar
+          o Senhor e cantar hinos em honra do vosso nome, ó Altíssimo.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -87,7 +87,9 @@ export default function Page0829() {
 
       <Language>
         <Typography className="latin">Léctio Jeremíæ Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do Profeta Jeremias.</Typography>
+        <Typography className="vernacular">
+          Lição do Profeta Jeremias.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Factum est verbum Dómini ad me, dicens: Accínge
           lumbos tuos, et surge, et lóquere ad Juda ómnia, quæ ego præcípio
@@ -117,24 +119,27 @@ export default function Page0829() {
         <Typography className="latin">
           Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo
           Dómini.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 3</Typography> Ad annuntiándum mane
-          misericórdiam tuam, et veritátem tuam per noctem.
+          <Typography className="latin">ibid., 3</Typography> Ad annuntiándum
+          mane misericórdiam tuam, et veritátem tuam per noctem.
         </Typography>
         <Typography className="vernacular">
           O justo florescerá, como a palmeira, e crescerá, como o cedro do
-          Líbano, na casa do Senhor.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 3</Typography> Para publicar de manhã a
-          vossa misericórdia; e de noite a vossa verdade.
+          Líbano, na casa do Senhor.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 3</Typography> Para publicar
+          de manhã a vossa misericórdia; e de noite a vossa verdade.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Osee 14, 6</Typography> Justus germinábit sicut
-          lílium: et florébit in ætérnum ante Dóminum. Allelúja.
+          <Typography className="latin">Osee 14, 6</Typography> Justus
+          germinábit sicut lílium: et florébit in ætérnum ante Dóminum.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Os. 14, 6</Typography> O justo germinará, como
-          o lírio, e florescerá eternamente perante o Senhor. Aleluia.
+          <Typography className="vernacular">Os. 14, 6</Typography> O justo
+          germinará, como o lírio, e florescerá eternamente perante o Senhor.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -144,12 +149,12 @@ export default function Page0829() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Marcum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Marcum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Marcos.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Marcos.
         </Typography>
         <Typography className="latin">
           In illo témpore: Misit Heródes, ac ténuit Joánnem, et vinxit eum in

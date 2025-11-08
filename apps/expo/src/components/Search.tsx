@@ -199,7 +199,7 @@ const SearchResultItem = React.memo(
   },
 );
 
-export function SearchModal({
+function SearchModal({
   visible,
   searchQuery,
   setSearchQuery,

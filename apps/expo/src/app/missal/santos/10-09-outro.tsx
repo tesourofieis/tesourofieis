@@ -45,7 +45,9 @@ export default function Page1009Outro() {
 
       <Language>
         <Typography className="latin">Léctio Actuum Apostolorum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos
+        </Typography>
         <Typography className="latin">
           In diébus illis: Stans Paulus in médio Areopági, ait: Viri
           Atheniénses, per ómnia quasi superstitiosióres vos vídeo. Prætériens

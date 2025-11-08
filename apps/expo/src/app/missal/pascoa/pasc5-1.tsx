@@ -16,20 +16,22 @@ export default function PagePasc51() {
       <Language>
         <Typography className="latin">
           Exsurge, Dómine, ádjuva nos, et líbera nos propter nomen tuum.{" "}
-          <Typography className="latin">Psalm</Typography> Deus, áuribus nostris audívimus,
-          patres nostri annuntiavérunt nobis.
+          <Typography className="latin">Psalm</Typography> Deus, áuribus nostris
+          audívimus, patres nostri annuntiavérunt nobis.
           <Typography className="versicle"> ℣. </Typography>Glória Patri...
         </Typography>
         <Typography className="vernacular">
           Levantai-Vos, ó Senhor, ajudai-nos, e resgatai-nos por causa do vosso
-          nome. <Typography className="vernacular">Salmo</Typography> Nós ouvimos, ó Deus,
-          com os nossos próprios ouvidos, anunciaram-nos nossos pais a obra que
-          fizestes nos seus dias e nos dias antigos.
+          nome. <Typography className="vernacular">Salmo</Typography> Nós
+          ouvimos, ó Deus, com os nossos próprios ouvidos, anunciaram-nos nossos
+          pais a obra que fizestes nos seus dias e nos dias antigos.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
-      <Typography className="aside">Salmo 69 encontra-se logo após a Ladaínha</Typography>
+      <Typography className="aside">
+        Salmo 69 encontra-se logo após a Ladaínha
+      </Typography>
 
       <H3 text="Ladainha dos Santos" />
 
@@ -45,16 +47,17 @@ export default function PagePasc51() {
         <Typography className="latin">
           Exaudívit de templo sancto suo vocem meam, allelúja: et clamor meus in
           conspectu ejus, introívit in aures ejus, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. ibid., 2-3</Typography> Díligam te, Dómine,
-          virtus mea: Dóminus firmaméntum meum et refúgium meum et liberátor
-          meus.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+          <Typography className="latin">Ps. ibid., 2-3</Typography> Díligam te,
+          Dómine, virtus mea: Dóminus firmaméntum meum et refúgium meum et
+          liberátor meus.<Typography className="versicle"> ℣. </Typography>
+          Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Lá no seu santo templo ouviu Ele a minha voz, aleluia: e o meu clamor
           chegou à sua presença e soou a seus ouvidos: aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. ibid., 2-3</Typography> Eu vos amo, Senhor,
-          que sois a minha força; sois, ó Senhor, o meu sustentáculo, o meu
-          refúgio e a minha salvação.
+          <Typography className="vernacular">Sl. ibid., 2-3</Typography> Eu vos
+          amo, Senhor, que sois a minha força; sois, ó Senhor, o meu
+          sustentáculo, o meu refúgio e a minha salvação.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -80,8 +83,12 @@ export default function PagePasc51() {
       <Typography className="em">Tg. 5, 16-20</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Jacóbi Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Tiago.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Jacóbi Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Tiago.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Confitémini altérutrum peccáta vestra, et oráte pro
           ínvicem, ut salvémini: multum enim valet deprecátio justi assídua.
@@ -108,13 +115,13 @@ export default function PagePasc51() {
       <Language>
         <Typography className="latin">
           Allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 117, 1</Typography> Confitémini Dómino, quóniam
-          bonus: quóniam in sǽculum misericórdia ejus.
+          <Typography className="latin">Ps. 117, 1</Typography> Confitémini
+          Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus.
         </Typography>
         <Typography className="vernacular">
           Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 117, 1</Typography> Louvai o Senhor, pois
-          Ele é bom: a sua misericórdia é eterna.
+          <Typography className="vernacular">Sl. 117, 1</Typography> Louvai o
+          Senhor, pois Ele é bom: a sua misericórdia é eterna.
         </Typography>
       </Language>
 
@@ -124,12 +131,12 @@ export default function PagePasc51() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Quis vestrum habébit

@@ -41,20 +41,20 @@ export default function PageOracoesleoninas() {
           clemente, ó piedosa, ó doce Virgem Maria.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Ora pro nobis Sancta Dei
-          Génitrix.
+          <Typography className="versicle"> ℣. </Typography>Ora pro nobis Sancta
+          Dei Génitrix.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Rogai por nós, Santa Mãe de
-          Deus.
+          <Typography className="versicle"> ℣. </Typography>Rogai por nós, Santa
+          Mãe de Deus.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Ut digni efficiámur
           promissiónibus Christi.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Para que sejamos dignos das
-          promessas de Cristo.
+          <Typography className="response"> ℟. </Typography> Para que sejamos
+          dignos das promessas de Cristo.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Orémus.</Typography>
@@ -99,16 +99,19 @@ export default function PageOracoesleoninas() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography> Cor Jesu sacratíssimum:
+          <Typography className="versicle"> ℣. </Typography> Cor Jesu
+          sacratíssimum:
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Coração sacratíssimo de Jesus:
+          <Typography className="versicle"> ℣. </Typography>Coração sacratíssimo
+          de Jesus:
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Miserére nobis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Tende misericórdia de nós.
+          <Typography className="response"> ℟. </Typography> Tende misericórdia
+          de nós.
         </Typography>
       </Language>
     </PageWrapper>

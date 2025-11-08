@@ -40,15 +40,15 @@ export default function Page0802() {
         <Typography className="latin">
           Spíritus Dómini super me: propter quod unxit me: evangelizáre
           paupéribus misit me, sanáre contrítos corde.{" "}
-          <Typography className="latin">Ps. 77, 1</Typography> Atténdite, pópule meus, legem
-          meam: inclináte aurem vestram in verba oris mei.
+          <Typography className="latin">Ps. 77, 1</Typography> Atténdite, pópule
+          meus, legem meam: inclináte aurem vestram in verba oris mei.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Espírito do Senhor está sobre mim; eis porque me ungiu; e me mandou
           evangelizar os pobres e sarar aqueles cujos corações estão feridos.{" "}
-          <Typography className="vernacular">Sl. 77, 1</Typography> Atendei à minha lei, ó
-          meu povo; escutai as palavras que saem da minha boca.
+          <Typography className="vernacular">Sl. 77, 1</Typography> Atendei à
+          minha lei, ó meu povo; escutai as palavras que saem da minha boca.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -115,30 +115,31 @@ export default function Page0802() {
           Memor fui judiciórum tuórum a sǽculo, Dómine, et consolátus sum:
           deféctio ténuit me pro peccatóribus derelinquéntibus legem tuam.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 39, 11</Typography> Justítiam tuam non abscóndi
-          in corde meo: veritátem tuam et salutáre tuum dixi.
+          <Typography className="latin">Ps. 39, 11</Typography> Justítiam tuam
+          non abscóndi in corde meo: veritátem tuam et salutáre tuum dixi.
         </Typography>
         <Typography className="vernacular">
           Recordei-me, Senhor, das vossas sentenças, que existiam antes dos
           séculos: e fiquei consolado. O desânimo apoderou-se de mim à vista dos
           pecadores, que se afastaram da vossa lei.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 39, 11</Typography> Não ocultei a vossa
-          justiça no meu coração, publiquei a vossa verdade e a vossa salvação.
+          <Typography className="vernacular">Sl. 39, 11</Typography> Não ocultei
+          a vossa justiça no meu coração, publiquei a vossa verdade e a vossa
+          salvação.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Eccli. 49, 3-4</Typography> Ipse est diréctus
-          divínitus in pœniténtiam gentis, et tulit abominatiónes impietátis: et
-          gubernávit ad Dóminum cor ipsíus: et in diébus peccatórum corroborávit
-          pietátem. Allelúja.
+          <Typography className="latin">Eccli. 49, 3-4</Typography> Ipse est
+          diréctus divínitus in pœniténtiam gentis, et tulit abominatiónes
+          impietátis: et gubernávit ad Dóminum cor ipsíus: et in diébus
+          peccatórum corroborávit pietátem. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ecl. 49, 3-4</Typography> Foi predestinado pelo
-          alto para levar o povo à penitência; e fez desaparecer as abominações
-          da impiedade. Volveu o seu coração para o Senhor: e nos dias dos
-          pecadores desenvolveu a piedade. Aleluia.
+          <Typography className="vernacular">Ecl. 49, 3-4</Typography> Foi
+          predestinado pelo alto para levar o povo à penitência; e fez
+          desaparecer as abominações da impiedade. Volveu o seu coração para o
+          Senhor: e nos dias dos pecadores desenvolveu a piedade. Aleluia.
         </Typography>
       </Language>
 

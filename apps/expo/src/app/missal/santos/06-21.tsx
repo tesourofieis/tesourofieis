@@ -16,16 +16,17 @@ export default function Page0621() {
       <Language>
         <Typography className="latin">
           Minuísti eum paulo minus ab Angelis: glória et honóre coronásti eum.{" "}
-          <Typography className="latin">Ps. 148, 2</Typography> Laudáte Dóminum, omnes
-          Angeli ejus: laudáte eum, omnes virtútes ejus.
+          <Typography className="latin">Ps. 148, 2</Typography> Laudáte Dóminum,
+          omnes Angeli ejus: laudáte eum, omnes virtútes ejus.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Vós o criastes um pouco abaixo dos Anjos: Vós o coroastes com honra e
-          glória. <Typography className="vernacular">Sl. 148, 2</Typography> Que todos os
-          Anjos do Senhor louvem o Senhor; que todos os exércitos do Senhor
-          louvem o Senhor.<Typography className="versicle"> ℣. </Typography>
+          glória. <Typography className="vernacular">Sl. 148, 2</Typography> Que
+          todos os Anjos do Senhor louvem o Senhor; que todos os exércitos do
+          Senhor louvem o Senhor.
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
       </Language>
@@ -62,27 +63,29 @@ export default function Page0621() {
       <Language>
         <Typography className="latin">
           Dómine, spes mea: in te confirmátus sum ex útero: de ventre matris meæ
-          tu es protéctor meus.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 40, 13</Typography> Me autem propter innocéntiam
-          suscepísti: et confirmásti me in conspéctu tuo in ætérnum.
+          tu es protéctor meus.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 40, 13</Typography> Me autem propter
+          innocéntiam suscepísti: et confirmásti me in conspéctu tuo in ætérnum.
         </Typography>
         <Typography className="vernacular">
           Desde a minha juventude, Senhor, sois a minha esperança; desde o meu
           nascimento fiquei ligado a Vós; e desde o seio de minha mãe sois o meu
           protector.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 40, 13</Typography> Acolhestes-me por causa
-          da minha inocência: e quisestes que ficasse sempre na vossa presença.
+          <Typography className="vernacular">Sl. 40, 13</Typography>{" "}
+          Acolhestes-me por causa da minha inocência: e quisestes que ficasse
+          sempre na vossa presença.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 64, 5</Typography> Beátus, quem elegísti et
-          assumpsísti: inhabitábit in átriis tuis. Allelúja.
+          <Typography className="latin">Ps. 64, 5</Typography> Beátus, quem
+          elegísti et assumpsísti: inhabitábit in átriis tuis. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 64, 5</Typography> Bem-aventurado aquele
-          que escolhestes e chamastes para junto de Vós, pois habitará nos
-          átrios do Senhor. Aleluia.
+          <Typography className="vernacular">Sl. 64, 5</Typography>{" "}
+          Bem-aventurado aquele que escolhestes e chamastes para junto de Vós,
+          pois habitará nos átrios do Senhor. Aleluia.
         </Typography>
       </Language>
 
@@ -92,12 +95,12 @@ export default function Page0621() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Respóndens Jesus, ait sadducǽis: Errátis, nesciéntes

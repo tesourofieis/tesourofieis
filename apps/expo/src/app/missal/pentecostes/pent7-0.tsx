@@ -15,16 +15,17 @@ export default function PagePent70() {
       <Language>
         <Typography className="latin">
           Omnes gentes, pláudite mánibus: jubiláte Deo in voce exsultatiónis.{" "}
-          <Typography className="latin">Ps. ibid., 3</Typography> Quóniam Dóminus excélsus,
-          terríbilis: Rex magnus super omnem terram.
+          <Typography className="latin">Ps. ibid., 3</Typography> Quóniam
+          Dóminus excélsus, terríbilis: Rex magnus super omnem terram.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Que todos os povos aplaudam, batendo palmas; que todos os povos com
           vozes de júbilo aclamem Deus.{" "}
-          <Typography className="vernacular">Sl. ibid., 3</Typography> Pois o altíssimo
-          Senhor é temível: Ele é o supremo Rei que domina toda a terra!
+          <Typography className="vernacular">Sl. ibid., 3</Typography> Pois o
+          altíssimo Senhor é temível: Ele é o supremo Rei que domina toda a
+          terra!
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -93,18 +94,18 @@ export default function PagePent70() {
         </Typography>
         <Typography className="vernacular">
           Vinde, meus filhos, e escutai-me: Ensinar-vos-ei a temer o Senhor.
-          <Typography className="versicle"> ℣. </Typography>Aproximai-Vos d’Ele e ficareis
-          iluminados: então a vossa face não ficará envergonhada.
+          <Typography className="versicle"> ℣. </Typography>Aproximai-Vos d’Ele
+          e ficareis iluminados: então a vossa face não ficará envergonhada.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 46, 2</Typography> Omnes gentes, pláudite
-          mánibus: jubiláte Deo in voce exsultatiónis. Allelúja.
+          <Typography className="latin">Ps. 46, 2</Typography> Omnes gentes,
+          pláudite mánibus: jubiláte Deo in voce exsultatiónis. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 46, 2</Typography> Que todos os povos
-          aplaudam, batendo palmas; que todos os povos com vozes de júbilo
+          <Typography className="vernacular">Sl. 46, 2</Typography> Que todos os
+          povos aplaudam, batendo palmas; que todos os povos com vozes de júbilo
           aclamem Deus. Aleluia.
         </Typography>
       </Language>
@@ -115,12 +116,12 @@ export default function PagePent70() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Atténdite a falsis

@@ -18,7 +18,7 @@ const DirectoryList = ({ slug }: { slug: string }) => {
         const results = await findBySlug(slug);
         const currentDirUrl = `/${slug}`;
         const childrenOnly = results.filter(
-          (item) => item.url !== currentDirUrl
+          (item) => item.url !== currentDirUrl,
         );
         setSearchResults(childrenOnly);
       } catch (err: any) {

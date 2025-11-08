@@ -10,20 +10,20 @@ export default function PageGloria() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Glória Patri, et Fílio, et
-          Spíritui Sancto.
+          <Typography className="versicle"> ℣. </Typography>Glória Patri, et
+          Fílio, et Spíritui Sancto.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Glória ao Pai, e ao Filho e ao
-          Espírito Santo.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai, e ao
+          Filho e ao Espírito Santo.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Sicut erat in pricípio, et
-          nunc, et semper, et in sǽcula sæculórum.
+          <Typography className="response"> ℟. </Typography> Sicut erat in
+          pricípio, et nunc, et semper, et in sǽcula sæculórum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Assim como era no princípio,
-          agora e sempre, e por todos os séculos dos séculos.
+          <Typography className="response"> ℟. </Typography> Assim como era no
+          princípio, agora e sempre, e por todos os séculos dos séculos.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.

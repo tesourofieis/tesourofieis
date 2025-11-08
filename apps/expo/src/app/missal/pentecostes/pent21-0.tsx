@@ -17,16 +17,17 @@ export default function PagePent210() {
           In voluntáte tua, Dómine, univérsa sunt pósita, et non est, qui possit
           resístere voluntáti tuæ: tu enim fecísti ómnia, cœlum et terram et
           univérsa, quæ cœli ámbitu continéntur: Dominus universórum tu es.{" "}
-          <Typography className="latin">Ps. 118, 1</Typography> Beáti immaculáti in via: qui
-          ámbulant in lege Dómini.
+          <Typography className="latin">Ps. 118, 1</Typography> Beáti immaculáti
+          in via: qui ámbulant in lege Dómini.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Todas as coisas, Senhor, estão sujeitas à vossa vontade, e ninguém
           pode resistir-lhe; pois criastes tudo: o céu, a terra e o que se
           encerra no âmbito dos céus. Sois o Senhor do universo.{" "}
-          <Typography className="vernacular">Sl. 118, 1</Typography> Bem-aventurados aqueles
-          cuja vida é imaculada: aqueles que praticam a Lei do Senhor.
+          <Typography className="vernacular">Sl. 118, 1</Typography>{" "}
+          Bem-aventurados aqueles cuja vida é imaculada: aqueles que praticam a
+          Lei do Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -108,13 +109,14 @@ export default function PagePent210() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 113, 1</Typography> In éxitu Israël de Ægýpto,
-          domus Jacob de pópulo bárbaro. Allelúja.
+          <Typography className="latin">Ps. 113, 1</Typography> In éxitu Israël
+          de Ægýpto, domus Jacob de pópulo bárbaro. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 113, 1</Typography> Quando Israel saiu do
-          Egipto e a casa de Jacob do meio de um povo bárbaro. Aleluia.
+          <Typography className="vernacular">Sl. 113, 1</Typography> Quando
+          Israel saiu do Egipto e a casa de Jacob do meio de um povo bárbaro.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -124,12 +126,12 @@ export default function PagePent210() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis parábolam hanc:

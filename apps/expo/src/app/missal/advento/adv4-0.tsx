@@ -15,15 +15,17 @@ export default function PageAdv40() {
       <Language>
         <Typography className="latin">
           Rorate, cœli, cœli, désuper, et nubes pluant justum: aperiátur terra,
-          et gérminet Salvatórem. <Typography className="latin">Ps. 18, 2</Typography> Cœli
-          enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
+          et gérminet Salvatórem.{" "}
+          <Typography className="latin">Ps. 18, 2</Typography> Cœli enárrant
+          glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Ó céus, derramai dessas alturas o vosso orvalho: e que as nuvens
           chovam o Justo! Abra-se a terra e floresça o Salvador!{" "}
-          <Typography className="vernacular">Sl. 18, 2</Typography> Os céus proclamam a
-          glória de Deus: e o firmamento anuncia as obras das suas mãos.
+          <Typography className="vernacular">Sl. 18, 2</Typography> Os céus
+          proclamam a glória de Deus: e o firmamento anuncia as obras das suas
+          mãos.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -87,23 +89,25 @@ export default function PageAdv40() {
       <Language>
         <Typography className="latin">
           Prope est Dóminus ómnibus invocántibus eum: ómnibus, qui ínvocant eum
-          in veritáte.<Typography className="versicle"> ℣. </Typography>Laudem Dómini
-          loquétur os meum: et benedícat omnis caro nomen sanctum ejus.
+          in veritáte.<Typography className="versicle"> ℣. </Typography>Laudem
+          Dómini loquétur os meum: et benedícat omnis caro nomen sanctum ejus.
         </Typography>
         <Typography className="vernacular">
           O Senhor está próximo de todos aqueles que O invocam; de todos aqueles
           que O invocam com verdade.
-          <Typography className="versicle"> ℣. </Typography>Que minha boca publique os
-          louvores do Senhor: e que toda minha pessoa bendiga seu santo Nome.
+          <Typography className="versicle"> ℣. </Typography>Que minha boca
+          publique os louvores do Senhor: e que toda minha pessoa bendiga seu
+          santo Nome.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Veni, Dómine,
-          et noli tardáre: reláxa facínora plebis tuæ Israël. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Veni, Dómine, et noli tardáre: reláxa facínora plebis tuæ Israël.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Vinde, Senhor,
-          e não retardeis mais: perdoai os crimes de Israel, vosso povo.
-          Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Vinde, Senhor, e não retardeis mais: perdoai os crimes de Israel,
+          vosso povo. Aleluia.
         </Typography>
       </Language>
 
@@ -113,12 +117,12 @@ export default function PageAdv40() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           Anno quintodécimo impérii Tibérii Cǽsaris, procuránte Póntio Piláto

@@ -17,16 +17,18 @@ export default function PageQuad21() {
         <Typography className="latin">
           Rédime me, Dómine, et miserére mei: pes enim meus stetit in via recta:
           in ecclésiis benedícam Dóminum.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Júdica me, Dómine, quóniam
-          ego in innocéntia mea ingréssus sum: et in Dómino sperans, non
-          infirmábor.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+          <Typography className="latin">Ps. ibid., 1</Typography> Júdica me,
+          Dómine, quóniam ego in innocéntia mea ingréssus sum: et in Dómino
+          sperans, non infirmábor.
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Resgatai-me, Senhor, e tende piedade de mim; pois os meus pés estão no
           caminho direito: bendirei o Senhor nas assembleias.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Fazei-me justiça,
-          Senhor, porque procedi com inocência; e confiei no Senhor, sem nunca
-          vacilar.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Fazei-me
+          justiça, Senhor, porque procedi com inocência; e confiei no Senhor,
+          sem nunca vacilar.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -124,12 +126,12 @@ export default function PageQuad21() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus turbis Judæórum: Ego vado, et quærétis

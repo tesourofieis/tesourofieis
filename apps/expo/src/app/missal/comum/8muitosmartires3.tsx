@@ -15,15 +15,16 @@ export default function Page8Muitosmartires3() {
       <Language>
         <Typography className="latin">
           Salus autem justórum a Dómino: et protéctor eórum est in témpore
-          tribulatiónis. <Typography className="latin">Ps. ibid., 1</Typography> Noli
-          æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.
+          tribulatiónis. <Typography className="latin">Ps. ibid., 1</Typography>{" "}
+          Noli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           A salvação dos justos, porém, está no Senhor; Ele é o seu refúgio na
           ocasião da tribulação.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Não invejeis os maus,
-          nem tenhais emulação daqueles que cometem iniquidades.
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Não
+          invejeis os maus, nem tenhais emulação daqueles que cometem
+          iniquidades.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -33,16 +34,16 @@ export default function Page8Muitosmartires3() {
       <Language>
         <Typography className="latin">
           Deus, qui nos ánnua sanctórum Mártyrum tuórum et{" "}
-          <Typography className="latin">N.</Typography> sollemnitáte lætíficas: concéde
-          propítius; ut, quorum gaudémus méritis, accendámur exémplis. Per
-          Dóminum...
+          <Typography className="latin">N.</Typography> sollemnitáte lætíficas:
+          concéde propítius; ut, quorum gaudémus méritis, accendámur exémplis.
+          Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Ó Deus, que nos alegrais com a festividade anual dos vossos santos
           Mártires <Typography className="vernacular">N.</Typography> e{" "}
-          <Typography className="text-red-500">N.</Typography>, concedei-nos benigno que
-          sejamos afervorados com os exemplos daqueles cujos méritos nos enchem
-          de alegria. Por nosso Senhor...
+          <Typography className="text-red-500">N.</Typography>, concedei-nos
+          benigno que sejamos afervorados com os exemplos daqueles cujos méritos
+          nos enchem de alegria. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -94,23 +95,23 @@ export default function Page8Muitosmartires3() {
         <Typography className="latin">
           Clamavérunt justi, et Dóminus exaudívit eos: et ex ómnibus
           tribulatiónibus eórum liberávit eos.
-          <Typography className="versicle"> ℣. </Typography>Juxta est Dóminus his, qui
-          tribuláto sunt corde: et húmiles spíritu salvábit.
+          <Typography className="versicle"> ℣. </Typography>Juxta est Dóminus
+          his, qui tribuláto sunt corde: et húmiles spíritu salvábit.
         </Typography>
         <Typography className="vernacular">
           Clamaram os justos; então o senhor ouviu-os e livrou-os de todas suas
-          aflições.<Typography className="versicle"> ℣. </Typography>O Senhor está próximo
-          daqueles que têm o coração atribulado; e salvará os que têm o espírito
-          humilhado.
+          aflições.<Typography className="versicle"> ℣. </Typography>O Senhor
+          está próximo daqueles que têm o coração atribulado; e salvará os que
+          têm o espírito humilhado.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Te Mártyrum
-          candidátus laudat exércitus, Dómine. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Te Mártyrum candidátus laudat exércitus, Dómine. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O exército
-          cândido dos mártires, ó Senhor, canta louvores em vossa honra!
-          Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O
+          exército cândido dos mártires, ó Senhor, canta louvores em vossa
+          honra! Aleluia.
         </Typography>
       </Language>
 
@@ -125,14 +126,16 @@ export default function Page8Muitosmartires3() {
       <Language>
         <Typography className="latin">
           Qui séminant in lácrimis, in gáudio metent.
-          <Typography className="versicle"> ℣. </Typography>Eúntes ibant et flébant,
-          mitténtes sémina sua.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="versicle"> ℣. </Typography>Eúntes ibant et
+          flébant, mitténtes sémina sua.
+          <Typography className="versicle"> ℣. </Typography>
           Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.
         </Typography>
         <Typography className="vernacular">
           Aqueles que semeiam com lágrimas ceifarão com júbilo.
-          <Typography className="versicle"> ℣. </Typography>Iam, caminhavam e lançavam a
-          semente à terra, chorando.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="versicle"> ℣. </Typography>Iam, caminhavam e
+          lançavam a semente à terra, chorando.
+          <Typography className="versicle"> ℣. </Typography>
           Porém, quando voltavam, exultavam de alegria, trazendo os seus molhos
           de trigo.
         </Typography>
@@ -144,12 +147,12 @@ export default function Page8Muitosmartires3() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Atténdite a ferménto
@@ -209,16 +212,16 @@ export default function Page8Muitosmartires3() {
       <Language>
         <Typography className="latin">
           Oblátis, quǽsumus, Dómine, placáre munéribus: et, intercedéntibus
-          sanctis Martýribus tuis <Typography className="latin">N.</Typography> et{" "}
-          <Typography className="text-red-500">N.</Typography>, a cunctis nos defénde
-          perículis. Per Dóminum...
+          sanctis Martýribus tuis <Typography className="latin">N.</Typography>{" "}
+          et <Typography className="text-red-500">N.</Typography>, a cunctis nos
+          defénde perículis. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Deixai-Vos aplacar com os dons que Vos oferecemos, Senhor, e, por
           intercessão dos vossos santos Mártires{" "}
           <Typography className="vernacular">N.</Typography>e{" "}
-          <Typography className="text-red-500">N.</Typography>, preservai-nos de todos os
-          perigos. Por nosso Senhor...
+          <Typography className="text-red-500">N.</Typography>, preservai-nos de
+          todos os perigos. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -242,20 +245,22 @@ export default function Page8Muitosmartires3() {
       <Language>
         <Typography className="latin">
           Hæc nos commúnio, Dómine, purget a crímine: et, intercedéntibus
-          sanctis Martýribus tuis <Typography className="latin">N.</Typography> et{" "}
-          <Typography className="text-red-500">N.</Typography>, cœléstis remédii fáciat esse
-          consórtes. Per Dóminum...
+          sanctis Martýribus tuis <Typography className="latin">N.</Typography>{" "}
+          et <Typography className="text-red-500">N.</Typography>, cœléstis
+          remédii fáciat esse consórtes. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Que esta comunhão nos purifique dos nossos crimes, Senhor, e que por
           intercessão dos vossos santos Mártires{" "}
           <Typography className="vernacular">N.</Typography>e{" "}
-          <Typography className="text-red-500">N.</Typography> nos faça participantes do
-          remédio celestial. Por nosso Senhor...
+          <Typography className="text-red-500">N.</Typography> nos faça
+          participantes do remédio celestial. Por nosso Senhor...
         </Typography>
       </Language>
 
-      <Typography className="aside">Outro Evangelho (para certos dias):</Typography>
+      <Typography className="aside">
+        Outro Evangelho (para certos dias):
+      </Typography>
 
       <H3 text="Evangelho2" />
 
@@ -263,12 +268,12 @@ export default function Page8Muitosmartires3() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Sedénte Jesu super montem Olivéti, accessérunt ad eum

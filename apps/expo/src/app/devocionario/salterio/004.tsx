@@ -17,7 +17,9 @@ export default function Page004() {
           Quando O invoquei, me ouviu o Deus da minha justiça: * na tribulação
           me dilatastes.
         </Typography>
-        <Typography className="latin">Miserére mei, * et exáudi oratiónem meam.</Typography>
+        <Typography className="latin">
+          Miserére mei, * et exáudi oratiónem meam.
+        </Typography>
         <Typography className="vernacular">
           Tende compaixão de mim, * e escutai a minha oração.
         </Typography>

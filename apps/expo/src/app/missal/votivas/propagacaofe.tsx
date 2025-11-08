@@ -17,8 +17,8 @@ export default function PagePropagacaofe() {
           Deus misereátur nostri, et benedícat nobis: illúminet vultum suum
           super nos, et misereátur nostri: ut cognoscámus in terra viam tuam, in
           ómnibus géntibus salutáre tuum. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. ibid., 4</Typography> Confiteántur tibi pópuli,
-          Deus: confiteántur tibi pópuli omnes.
+          <Typography className="latin">Ps. ibid., 4</Typography> Confiteántur
+          tibi pópuli, Deus: confiteántur tibi pópuli omnes.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
@@ -27,8 +27,9 @@ export default function PagePropagacaofe() {
           a luz da sua face e tenha misericórdia de nós: para que seja conhecido
           no universo o seu caminho e todos os povos encontrem a sua salvação.
           (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. ibid., 4</Typography> Que todos os povos
-          Vos prestem homenagem, ó Deus; que todos os povos Vos glorifiquem.
+          <Typography className="vernacular">Sl. ibid., 4</Typography> Que todos
+          os povos Vos prestem homenagem, ó Deus; que todos os povos Vos
+          glorifiquem.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -60,7 +61,9 @@ export default function PagePropagacaofe() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Miserére nostri, Deus ómnium, et réspice nos, et osténde nobis lucem
           miseratiónum tuárum: et immítte timórem tuum super gentes, quæ non
@@ -115,21 +118,21 @@ export default function PagePropagacaofe() {
         </Typography>
         <Typography className="vernacular">
           Que todos os povos Vos prestem homenagem, ó Deus; que todos os povos
-          Vos glorifiquem.<Typography className="versicle"> ℣. </Typography>A terra deu o
-          seu fruto. Que o nosso Deus nos abençoe, ó Deus! Que em todos os
-          confins da terra O temam.
+          Vos glorifiquem.<Typography className="versicle"> ℣. </Typography>A
+          terra deu o seu fruto. Que o nosso Deus nos abençoe, ó Deus! Que em
+          todos os confins da terra O temam.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 99, 1</Typography> Jubiláte Deo, omnis terra:
-          servíte Dómino in lætítia: introíte in conspéctu ejus, in
+          <Typography className="latin">Ps. 99, 1</Typography> Jubiláte Deo,
+          omnis terra: servíte Dómino in lætítia: introíte in conspéctu ejus, in
           exsultatióne. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 99, 1</Typography> Ó terra universal,
-          rejubilai diante de Deus. Servi o Senhor com alegria. Comparecei
-          diante d’Ele, exultando de contentamento. Aleluia.
+          <Typography className="vernacular">Sl. 99, 1</Typography> Ó terra
+          universal, rejubilai diante de Deus. Servi o Senhor com alegria.
+          Comparecei diante d’Ele, exultando de contentamento. Aleluia.
         </Typography>
       </Language>
 
@@ -144,18 +147,19 @@ export default function PagePropagacaofe() {
       <Language>
         <Typography className="latin">
           Annuntiáte inter gentes glóriam Dómini, in ómnibus pópulis mirabília
-          ejus.<Typography className="versicle"> ℣. </Typography>Quóniam magnus Dóminus, et
-          laudábilis nimis: terríbilis est super omnes deos.
-          <Typography className="versicle"> ℣. </Typography>Quóniam omnes dii géntium
-          dæmónia: Dóminus autem cœlos fecit.
+          ejus.<Typography className="versicle"> ℣. </Typography>Quóniam magnus
+          Dóminus, et laudábilis nimis: terríbilis est super omnes deos.
+          <Typography className="versicle"> ℣. </Typography>Quóniam omnes dii
+          géntium dæmónia: Dóminus autem cœlos fecit.
         </Typography>
         <Typography className="vernacular">
           Anunciai diante dos povos a glória do Senhor: tomai conhecidas dos
-          povos as suas maravilhas:<Typography className="versicle"> ℣. </Typography>
+          povos as suas maravilhas:
+          <Typography className="versicle"> ℣. </Typography>
           Porquanto grande é o Senhor e infinitamente digno de todos os
           louvores. Ele é mais temível que todos os deuses:
-          <Typography className="versicle"> ℣. </Typography>Pois todos os deuses dos povos
-          são demónios: Enquanto que o Senhor criou os céus.
+          <Typography className="versicle"> ℣. </Typography>Pois todos os deuses
+          dos povos são demónios: Enquanto que o Senhor criou os céus.
         </Typography>
       </Language>
 
@@ -166,19 +170,20 @@ export default function PagePropagacaofe() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 99, 1-2</Typography> Jubiláte Deo, omnis terra:
-          servíte Dómino in lætítia: introíte in conspéctu ejus, in
-          exsultatióne. Allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 99, 1-2</Typography> Jubiláte Deo,
+          omnis terra: servíte Dómino in lætítia: introíte in conspéctu ejus, in
+          exsultatióne. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>
           Scitóte quóniam Dóminus ipse est Deus: ipse fecit nos, et non ipsi
           nos. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 99, 1-2</Typography> Ó terra universal,
-          rejubilai diante de Deus. Servi o Senhor com alegria. Comparecei
-          diante d’Ele, exultando de contentamento. Aleluia. Sabei que o Senhor
-          é o próprio Deus; e que nos criou a nós, e não nós a nós mesmos.
-          Aleluia.
+          <Typography className="vernacular">Sl. 99, 1-2</Typography> Ó terra
+          universal, rejubilai diante de Deus. Servi o Senhor com alegria.
+          Comparecei diante d’Ele, exultando de contentamento. Aleluia. Sabei
+          que o Senhor é o próprio Deus; e que nos criou a nós, e não nós a nós
+          mesmos. Aleluia.
         </Typography>
       </Language>
 
@@ -188,12 +193,12 @@ export default function PagePropagacaofe() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Circuíbat Jesus omnes civitátes et castélla, docens

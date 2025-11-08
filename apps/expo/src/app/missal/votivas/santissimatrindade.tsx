@@ -50,24 +50,26 @@ export default function PageSantissimatrindade() {
       <Language>
         <Typography className="latin">
           Benedíctus es, Dómine, qui íntuens abýssos, et sedes super Chérubim.
-          <Typography className="versicle"> ℣. </Typography>Benedíctus es, Dómine, in
-          firmaménto cœli, et laudábilis in sǽcula.
+          <Typography className="versicle"> ℣. </Typography>Benedíctus es,
+          Dómine, in firmaménto cœli, et laudábilis in sǽcula.
         </Typography>
         <Typography className="vernacular">
           Senhor, que estais assentado acima dos Querubins e cujo olhar penetra
           na profundeza dos abysmos, sois bendito!
-          <Typography className="versicle"> ℣. </Typography>Sim, Senhor, sois bendito no
-          firmamento do céu; e sois digno de louvor em todos os séculos.
+          <Typography className="versicle"> ℣. </Typography>Sim, Senhor, sois
+          bendito no firmamento do céu; e sois digno de louvor em todos os
+          séculos.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 52</Typography> Benedíctus es, Dómine, Deus
-          patrum nostrórum, et laudábilis in sǽcula. Allelúja.
+          <Typography className="latin">ibid., 52</Typography> Benedíctus es,
+          Dómine, Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 52</Typography> Sois bendito, Senhor,
-          Deus dos nossos pais: e sois digno de louvor em todos os séculos.
+          <Typography className="vernacular">ibid., 52</Typography> Sois
+          bendito, Senhor, Deus dos nossos pais: e sois digno de louvor em todos
+          os séculos.
         </Typography>
       </Language>
 
@@ -82,10 +84,10 @@ export default function PageSantissimatrindade() {
           Te Deum, Patrem ingénitum, te, Fílium unigénitum, te, Spíritum Sanctum
           Paráclitum, sanctam et indivíduam Trinitátem, toto corde confitémur,
           laudámus atque benedícimus.
-          <Typography className="versicle"> ℣. </Typography>Quóniam magnus es tu, et fáciens
-          mirabília: tu es Deus solus.
-          <Typography className="versicle"> ℣. </Typography>Tibi laus, tibi glória, tibi
-          gratiárum áctio in sǽcula sempitérna, o beáta Trinitas.
+          <Typography className="versicle"> ℣. </Typography>Quóniam magnus es
+          tu, et fáciens mirabília: tu es Deus solus.
+          <Typography className="versicle"> ℣. </Typography>Tibi laus, tibi
+          glória, tibi gratiárum áctio in sǽcula sempitérna, o beáta Trinitas.
         </Typography>
         <Typography className="vernacular">
           A Vós, ó Deus Pai, que fostes criado; a Vós, ó Filho Unigénito; a Vós,
@@ -93,8 +95,8 @@ export default function PageSantissimatrindade() {
           adoramos com todo o coração, louvamos bendizemos.
           <Typography className="versicle"> ℣. </Typography>
           Pois Vós sois imenso, Senhor, praticais prodígios e sois o único Deus.
-          <Typography className="versicle"> ℣. </Typography>A Vós, ó beatíssima Trindade,
-          louvor, glória e acção de graças em todos os séculos.
+          <Typography className="versicle"> ℣. </Typography>A Vós, ó beatíssima
+          Trindade, louvor, glória e acção de graças em todos os séculos.
         </Typography>
       </Language>
 
@@ -105,17 +107,18 @@ export default function PageSantissimatrindade() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Dan. 3, 52</Typography> Benedíctus es, Dómine, Deus
-          patrum nostrórum, et laudábilis in sǽcula. Allelúja.
-          <Typography className="versicle"> ℣. </Typography>Benedicámus Patrem et Fílium cum
-          Sancto Spíritu. Allelúja.
+          <Typography className="latin">Dan. 3, 52</Typography> Benedíctus es,
+          Dómine, Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>Benedicámus Patrem
+          et Fílium cum Sancto Spíritu. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Dn. 3, 52</Typography> Sois bendito, Senhor,
-          Deus dos nossos e digno de louvor em todos os séculos. Aleluia.
-          <Typography className="versicle"> ℣. </Typography>Bendigamos o Pai, e o Filho com
-          o Espírito Santo. Aleluia.
+          <Typography className="vernacular">Dn. 3, 52</Typography> Sois
+          bendito, Senhor, Deus dos nossos e digno de louvor em todos os
+          séculos. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>Bendigamos o Pai, e
+          o Filho com o Espírito Santo. Aleluia.
         </Typography>
       </Language>
 
@@ -125,12 +128,12 @@ export default function PageSantissimatrindade() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Cum vénerit Paráclitus,

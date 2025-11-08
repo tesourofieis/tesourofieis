@@ -17,16 +17,17 @@ export default function Page0617Portugal() {
         <Typography className="latin">
           Adducéntur Regi Vírgines post eam, próximæ ejus afferéntur in lætitia
           et exsultatióne: adducéntur in templum Regis Dómini.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Eructávit cor meum verbum
-          bonum: dico ego ópera mea Regi.
+          <Typography className="latin">Ps. ibid., 2</Typography> Eructávit cor
+          meum verbum bonum: dico ego ópera mea Regi.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           As virgens serão apresentadas ao Rei após ela: as suas companheiras
           serão conduzidas em transportes de alegria e de júbilo: serão
           apresentadas ao Senhor no templo do Rei.{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Meu coração proferiu
-          uma excelente palavra: «Consagro ao Rei as minhas obras».
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Meu
+          coração proferiu uma excelente palavra: «Consagro ao Rei as minhas
+          obras».
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -57,7 +58,9 @@ export default function Page0617Portugal() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Vox dilécti mei: ecce, iste venit sáliens in móntibus, transíliens
           colles; símilis est diléctus meus cápreæ hinnulóque cervórum. En, ipse
@@ -96,26 +99,28 @@ export default function Page0617Portugal() {
         <Typography className="latin">
           Dirupísti víncula mea: tibi sacrificábo hóstiam laudis, et nomen
           Dómini invocábo.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. ibid., 18-19</Typography> Vota mea Dómino reddam
-          in conspéctu omnis pópuli ejus, in átriis domus Dómini.
+          <Typography className="latin">Ps. ibid., 18-19</Typography> Vota mea
+          Dómino reddam in conspéctu omnis pópuli ejus, in átriis domus Dómini.
         </Typography>
         <Typography className="vernacular">
           Quebrastes as minhas cadeias, ó meu Deus! Eu Vos oferecerei, pois, um
           sacrifício d e louvor e invocarei o nome do Senhor.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. ibid., 18-19</Typography> Oferecerei os
-          meus votos ao Senhor na presença de todo seu povo e nos átrios da casa
-          do Senhor.
+          <Typography className="vernacular">Sl. ibid., 18-19</Typography>{" "}
+          Oferecerei os meus votos ao Senhor na presença de todo seu povo e nos
+          átrios da casa do Senhor.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja. <Typography className="latin">Cant. 2, 3</Typography> Sub
-          umbra illíus, quem desideráveram, sedi: et fructus ejus dulcis gúturi
-          mea. Allelúja.
+          Allelúja, allelúja.{" "}
+          <Typography className="latin">Cant. 2, 3</Typography> Sub umbra
+          illíus, quem desideráveram, sedi: et fructus ejus dulcis gúturi mea.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia. <Typography className="vernacular">Ct. 2, 3</Typography>{" "}
-          Sentei-me à sombra daquele que eu desejara e o seu fruto é muito
-          saboroso ao meu paladar. Aleluia.
+          Aleluia, aleluia.{" "}
+          <Typography className="vernacular">Ct. 2, 3</Typography> Sentei-me à
+          sombra daquele que eu desejara e o seu fruto é muito saboroso ao meu
+          paladar. Aleluia.
         </Typography>
       </Language>
 

@@ -24,16 +24,17 @@ export default function Page0808() {
         <Typography className="latin">
           Timéte Dóminum, omnes sancti ejus, quóniam nihil deest timéntibus eum:
           dívites eguérunt et esuriérunt: inquiréntes autem Dóminum non
-          defícient omni bono. <Typography className="latin">Ps. ib., 2</Typography>{" "}
-          Benedícam Dóminum in omni témpore: semper laus ejus in ore meo.
+          defícient omni bono.{" "}
+          <Typography className="latin">Ps. ib., 2</Typography> Benedícam
+          Dóminum in omni témpore: semper laus ejus in ore meo.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Temei o Senhor, ó vós, que sois os seus Santos, pois nada falta
           àqueles que O temem. Os ricos sentiram necessidades e tiveram fome;
           porém, àqueles que procuram o Senhor nenhum bem faltará.{" "}
-          <Typography className="vernacular">Sl. ib., 2</Typography> Bendirei o Senhor em
-          todo o tempo: sempre estará na minha boca o seu louvor.
+          <Typography className="vernacular">Sl. ib., 2</Typography> Bendirei o
+          Senhor em todo o tempo: sempre estará na minha boca o seu louvor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -100,8 +101,8 @@ export default function Page0808() {
       <Language>
         <Typography className="latin">
           Timéte Dóminum, omnes sancti ejus: quóniam nihil deest timéntibus eum.
-          <Typography className="versicle"> ℣. </Typography>Inquiréntes autem Dóminum, non
-          defícient omni bono.
+          <Typography className="versicle"> ℣. </Typography>Inquiréntes autem
+          Dóminum, non defícient omni bono.
         </Typography>
         <Typography className="vernacular">
           Temei o Senhor, ó vós, que sois os seus Santos, pois nada falta
@@ -112,14 +113,14 @@ export default function Page0808() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Sap. 3, 7</Typography> Fulgébunt justi, et tamquam
-          scintíllæ in arundinéto current in ætérnum. Allelúja.
+          <Typography className="latin">Sap. 3, 7</Typography> Fulgébunt justi,
+          et tamquam scintíllæ in arundinéto current in ætérnum. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sb. 3, 7</Typography> Os justos brilharão; e,
-          como as faíscas de fogo em um canavial, espalhar-se-ão perpetuamente.
-          Aleluia.
+          <Typography className="vernacular">Sb. 3, 7</Typography> Os justos
+          brilharão; e, como as faíscas de fogo em um canavial, espalhar-se-ão
+          perpetuamente. Aleluia.
         </Typography>
       </Language>
 

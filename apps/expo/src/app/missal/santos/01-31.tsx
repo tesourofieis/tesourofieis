@@ -94,15 +94,15 @@ export default function Page0131() {
         <Typography className="latin">
           Dedit illi Deus sapiéntiam, et prudéntiam multam nimis, et latitúdinem
           cordis, quasi arénam quæ est in líttore maris.{" "}
-          <Typography className="latin">Ps. 112, 1</Typography> Laudáte, pueri, Dóminum,
-          laudáte nomen Dómini.<Typography className="versicle"> ℣. </Typography>Gloria
-          Patri...
+          <Typography className="latin">Ps. 112, 1</Typography> Laudáte, pueri,
+          Dóminum, laudáte nomen Dómini.
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Deus deu-lhe a sabedoria, assim como uma admirável prudência e uma
           imensa magnanimidade, como a areia que há à beira-mar.{" "}
-          <Typography className="vernacular">Sl. 112, 1</Typography> Louvai o Senhor, ó
-          meninos, louvai o nome do Senhor.
+          <Typography className="vernacular">Sl. 112, 1</Typography> Louvai o
+          Senhor, ó meninos, louvai o nome do Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -171,26 +171,26 @@ export default function Page0131() {
       <Language>
         <Typography className="latin">
           Spera in Dómino, et fac bonitátem, et inhábita terram, et pascéris in
-          divítiis ejus.<Typography className="versicle"> ℣. </Typography>Delectáre in
-          Dómino, et dabit tibi petitiónes cordis tui; revéla Dómino viam tuam
-          et spera in eo, et ipse fáciet.
+          divítiis ejus.<Typography className="versicle"> ℣. </Typography>
+          Delectáre in Dómino, et dabit tibi petitiónes cordis tui; revéla
+          Dómino viam tuam et spera in eo, et ipse fáciet.
         </Typography>
         <Typography className="vernacular">
           Espera no Senhor e pratica obras boas: então habitarás na terra e te
           sustentarás com suas riquezas.
-          <Typography className="versicle"> ℣. </Typography>Alegra-te no Senhor e
-          conceder-te-á o que teu coração deseja. Expõe ao Senhor a tua situação
-          e tem esperança: Ele te atenderá.
+          <Typography className="versicle"> ℣. </Typography>Alegra-te no Senhor
+          e conceder-te-á o que teu coração deseja. Expõe ao Senhor a tua
+          situação e tem esperança: Ele te atenderá.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 73, 21</Typography> Pauper et inops laudábunt
-          nomen tuum. Allelúja.
+          <Typography className="latin">Ps. 73, 21</Typography> Pauper et inops
+          laudábunt nomen tuum. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 73, 21</Typography> O pobre e o desvalido
-          louvarão o vosso Nome. Aleluia.
+          <Typography className="vernacular">Sl. 73, 21</Typography> O pobre e o
+          desvalido louvarão o vosso Nome. Aleluia.
         </Typography>
       </Language>
 
@@ -205,17 +205,18 @@ export default function Page0131() {
       <Language>
         <Typography className="latin">
           Factus es spes mea, Dómine: turris fortitúdinis a fácie inimíci.
-          <Typography className="versicle"> ℣. </Typography>Inhabitábo in tabernáculo tuo in
-          sǽcula: prótegar in velaménto alárum tuárum.
-          <Typography className="versicle"> ℣. </Typography>Quóniam tu, Deus, exaudísti
-          oratiónem meam: dedísti hereditátem timéntibus nomen tuum.
+          <Typography className="versicle"> ℣. </Typography>Inhabitábo in
+          tabernáculo tuo in sǽcula: prótegar in velaménto alárum tuárum.
+          <Typography className="versicle"> ℣. </Typography>Quóniam tu, Deus,
+          exaudísti oratiónem meam: dedísti hereditátem timéntibus nomen tuum.
         </Typography>
         <Typography className="vernacular">
           Fizestes-Vos a minha esperança: uma torre sólida contra o inimigo.
-          <Typography className="versicle"> ℣. </Typography>Habitarei eternamente no vosso
-          tabernáculo: abrigar-me-ei à sombra das vossas asas.
-          <Typography className="versicle"> ℣. </Typography>Pois Vós, meu Deus, ouvistes a
-          minha oração e destes a herança aos que temem o vosso nome.
+          <Typography className="versicle"> ℣. </Typography>Habitarei
+          eternamente no vosso tabernáculo: abrigar-me-ei à sombra das vossas
+          asas.
+          <Typography className="versicle"> ℣. </Typography>Pois Vós, meu Deus,
+          ouvistes a minha oração e destes a herança aos que temem o vosso nome.
         </Typography>
       </Language>
 
@@ -226,20 +227,20 @@ export default function Page0131() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 73, 21</Typography> Pauper et inops laudábunt
-          nomen tuum. Allelúja.
+          <Typography className="latin">Ps. 73, 21</Typography> Pauper et inops
+          laudábunt nomen tuum. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. 35, 9</Typography> Inebriabúntur ab ubertáte domus
-          tuæ: et torrénte voluptátis tuæ potábis eos. Allelúja.
+          <Typography className="em">Ps. 35, 9</Typography> Inebriabúntur ab
+          ubertáte domus tuæ: et torrénte voluptátis tuæ potábis eos. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 73, 21</Typography> O pobre e o desvalido
-          louvarão o vosso Nome. Aleluia.
+          <Typography className="vernacular">Sl. 73, 21</Typography> O pobre e o
+          desvalido louvarão o vosso Nome. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Sl. 35, 9</Typography> Embriagar-se-ão com a abundância
-          da vossa casa, e Vós os fareis beber na torrente das vossas delícias.
-          Aleluia.
+          <Typography className="em">Sl. 35, 9</Typography> Embriagar-se-ão com
+          a abundância da vossa casa, e Vós os fareis beber na torrente das
+          vossas delícias. Aleluia.
         </Typography>
       </Language>
 
@@ -249,12 +250,12 @@ export default function Page0131() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Accessérunt discípuli ad Jesum dicéntes: Quis, putas,

@@ -16,17 +16,19 @@ export default function PagePent110() {
         <Typography className="latin">
           Deus in loco sancto suo: Deus qui inhabitáre facit unánimes in domo:
           ipse dabit virtútem et fortitúdinem plebi suæ.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Exsúrgat Deus, et
-          dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a fácie ejus.
+          <Typography className="latin">Ps. ibid., 2</Typography> Exsúrgat Deus,
+          et dissipéntur inimíci ejus: et fúgiant, qui odérunt eum, a fácie
+          ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Deus está na sua santa morada: Deus dará morada na sua casa àqueles
           que possuem o mesmo espírito: Ele dará ao seu povo fortaleza e
-          constância. <Typography className="vernacular">Sl. ibid., 2</Typography> Erga-se
+          constância.{" "}
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Erga-se
           Deus e sejam dispersos os seus inimigos: Que aqueles que o odeiam
-          fujam da sua presença.<Typography className="versicle"> ℣. </Typography>Glória ao
-          Pai...
+          fujam da sua presença.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
@@ -101,26 +103,27 @@ export default function PagePent110() {
         <Typography className="latin">
           In Deo sperávit cor meum, et adjútus sum: et reflóruit caro mea, et ex
           voluntáte mea confitébor illi.
-          <Typography className="versicle"> ℣. </Typography>Ad te, Dómine, clamávi: Deus
-          meus, ne síleas, ne discédas a me.
+          <Typography className="versicle"> ℣. </Typography>Ad te, Dómine,
+          clamávi: Deus meus, ne síleas, ne discédas a me.
         </Typography>
         <Typography className="vernacular">
           O meu coração confiou em Deus, que veio em meu socorro. Então a minha
           carne remoçou. Eis porque louvarei o Senhor com todo o coração.
-          <Typography className="versicle"> ℣. </Typography>Clamei por Vós, Senhor! Meu
-          Deus, não fecheis os ouvidos à minha voz, nem Vos afasteis de mim.
+          <Typography className="versicle"> ℣. </Typography>Clamei por Vós,
+          Senhor! Meu Deus, não fecheis os ouvidos à minha voz, nem Vos afasteis
+          de mim.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 80, 2-3</Typography> Exsultáte Deo, adjutóri
-          nostro, jubiláte Deo Jacob: súmite psalmum jucúndum cum cíthara.
-          Allelúja.
+          <Typography className="latin">Ps. 80, 2-3</Typography> Exsultáte Deo,
+          adjutóri nostro, jubiláte Deo Jacob: súmite psalmum jucúndum cum
+          cíthara. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 80, 2-3</Typography> Exultai de alegria em
-          Deus, que é o nosso protector: Cantai hinos em honra de Deus de Jacob:
-          Tocai em tom alegre o saltério e a cítara. Aleluia.
+          <Typography className="vernacular">Sl. 80, 2-3</Typography> Exultai de
+          alegria em Deus, que é o nosso protector: Cantai hinos em honra de
+          Deus de Jacob: Tocai em tom alegre o saltério e a cítara. Aleluia.
         </Typography>
       </Language>
 
@@ -130,12 +133,12 @@ export default function PagePent110() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Marcum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Marcum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Marcos.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Marcos.
         </Typography>
         <Typography className="latin">
           In illo témpore: Exiens Jesus de fínibus Tyri, venitper Sidónem ad

@@ -40,7 +40,9 @@ export default function Page0425() {
 
       <Language>
         <Typography className="latin">Léctio Ezechiélis Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do Profeta Ezequiel.</Typography>
+        <Typography className="vernacular">
+          Lição do Profeta Ezequiel.
+        </Typography>
         <Typography className="latin">
           Similitúdo vultus quátuor animálium: fácies hóminis, et fácies leónis
           a dextris ipsórum quatuor: fácies autem bovis a sinístris ipsórum

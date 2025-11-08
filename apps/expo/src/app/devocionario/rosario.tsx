@@ -28,14 +28,18 @@ export default function PageRosario() {
       <H2 text="Intenções do Santo Padre" />
       <Language>
         <Typography className="latin">Exaltatio S. Matris Ecclesiæ.</Typography>
-        <Typography className="vernacular">Exaltação da Santa Igreja.</Typography>
+        <Typography className="vernacular">
+          Exaltação da Santa Igreja.
+        </Typography>
         <Typography className="latin">Propagatio fidei.</Typography>
         <Typography className="vernacular">Propagação da fé.</Typography>
         <Typography className="latin">Extirpatio hæresum.</Typography>
         <Typography className="vernacular">Extirpação das heresias.</Typography>
         <Typography className="latin">Conversio peccatorum.</Typography>
         <Typography className="vernacular">Conversão dos pecadores.</Typography>
-        <Typography className="latin">Pax inter principes christianos.</Typography>
+        <Typography className="latin">
+          Pax inter principes christianos.
+        </Typography>
         <Typography className="vernacular">
           Paz entre os Reis e Príncipes católicos.
         </Typography>
@@ -57,37 +61,39 @@ export default function PageRosario() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>O Maria sine labe concepta.
+          <Typography className="versicle"> ℣. </Typography>O Maria sine labe
+          concepta.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Ó Maria concebida sem pecado.
+          <Typography className="versicle"> ℣. </Typography>Ó Maria concebida
+          sem pecado.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Ora pro nobis, qui confugimus
-          ad te.
+          <Typography className="response"> ℟. </Typography> Ora pro nobis, qui
+          confugimus ad te.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Rogai por nós que recorremos a
-          vós.
+          <Typography className="response"> ℟. </Typography> Rogai por nós que
+          recorremos a vós.
         </Typography>
       </Language>
       <H2 text="Nossa Senhora aos Santos Pastorinhos" />
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Oh mi Jesu, dimitte nobis débita
-          nostra, líbera nos ab igne inférni,
+          <Typography className="versicle"> ℣. </Typography>Oh mi Jesu, dimitte
+          nobis débita nostra, líbera nos ab igne inférni,
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Ó meu Jesus, perdoai-nos e
-          livrai-nos do fogo do inferno,
+          <Typography className="versicle"> ℣. </Typography>Ó meu Jesus,
+          perdoai-nos e livrai-nos do fogo do inferno,
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Conduc in cælum omnes animas,
-          præsértim illas quæ máxime indigent misericórdia tua.
+          <Typography className="response"> ℟. </Typography> Conduc in cælum
+          omnes animas, præsértim illas quæ máxime indigent misericórdia tua.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Levai as alminhas todas para o
-          Céu e socorrei principalmente as que mais precisarem.
+          <Typography className="response"> ℟. </Typography> Levai as alminhas
+          todas para o Céu e socorrei principalmente as que mais precisarem.
         </Typography>
       </Language>
       <H2 text="Meditações do Rosário" />
@@ -148,7 +154,9 @@ export default function PageRosario() {
       </Typography>
       <H3 text="Mistérios Gloriosos" />
       <Typography className="aside">
-        <Typography className="vernacular">Quarta-feira, Sábado e Domingo</Typography>
+        <Typography className="vernacular">
+          Quarta-feira, Sábado e Domingo
+        </Typography>
       </Typography>
       <Typography className="bold">Primeiro mistério:</Typography>
       <Typography className="vernacular">
@@ -195,20 +203,20 @@ export default function PageRosario() {
           clemente, ó piedosa, ó doce Virgem Maria.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Ora pro nobis, Regina
-          Sacratíssimi Rosárii.
+          <Typography className="versicle"> ℣. </Typography>Ora pro nobis,
+          Regina Sacratíssimi Rosárii.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Rogai por nós, Rainha do
-          Santíssimo Rosário.
+          <Typography className="versicle"> ℣. </Typography>Rogai por nós,
+          Rainha do Santíssimo Rosário.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Ut digni efficiámur
           promissiónibus Christi.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Para que sejamos dignos das
-          promessas de Cristo.
+          <Typography className="response"> ℟. </Typography> Para que sejamos
+          dignos das promessas de Cristo.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Orémus.</Typography>

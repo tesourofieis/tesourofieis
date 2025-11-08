@@ -16,15 +16,16 @@ export default function Page14Confessoresnaopontifices1() {
         <Typography className="latin">
           Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex
           Dei ejus in corde ipsíus. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Noli æmulári in
-          malignántibus: neque zeláveris faciéntes iniquitátem.
+          <Typography className="latin">Ps. ibid., 1</Typography> Noli æmulári
+          in malignántibus: neque zeláveris faciéntes iniquitátem.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           A boca do justo fala com sabedoria e a sua língua proclama a justiça.
           A lei do seu Deus estará no seu coração. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Não vos irriteis
-          contra os maus, nem tenhais inveja daqueles que cometem iniquidades.
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Não vos
+          irriteis contra os maus, nem tenhais inveja daqueles que cometem
+          iniquidades.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -33,15 +34,15 @@ export default function Page14Confessoresnaopontifices1() {
 
       <Language>
         <Typography className="latin">
-          Deus, qui nos beáti <Typography className="latin">N.</Typography> Confessóris tui
-          ánnua solemnitáte lætíficas: concéde propítius; ut, cujus natalítia
-          cólimus, étiam actiónes imitémur. Per Dóminum...
+          Deus, qui nos beáti <Typography className="latin">N.</Typography>{" "}
+          Confessóris tui ánnua solemnitáte lætíficas: concéde propítius; ut,
+          cujus natalítia cólimus, étiam actiónes imitémur. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Ó Deus, que nos alegrais com a solenidade anual do B.{" "}
-          <Typography className="vernacular">N.</Typography>, vosso Confessor, visto que
-          celebramos o seu nascimento, concedei-nos propício que imitemos também
-          as suas acções. Por nosso Senhor...
+          <Typography className="vernacular">N.</Typography>, vosso Confessor,
+          visto que celebramos o seu nascimento, concedei-nos propício que
+          imitemos também as suas acções. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -51,7 +52,9 @@ export default function Page14Confessoresnaopontifices1() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Beátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit,
           nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum?
@@ -87,21 +90,22 @@ export default function Page14Confessoresnaopontifices1() {
         </Typography>
         <Typography className="vernacular">
           O justo florescerá, como a palmeira, e crescerá, como o cedro do
-          Líbano, na casa do Senhor.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 3</Typography> Para publicar de manhã a
-          vossa misericórdia; e de noite a vossa verdade.
+          Líbano, na casa do Senhor.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 3</Typography> Para publicar
+          de manhã a vossa misericórdia; e de noite a vossa verdade.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Jac. 1, 12</Typography> Beátus vir, qui suffert
-          tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ.
-          Allelúja.
+          <Typography className="latin">Jac. 1, 12</Typography> Beátus vir, qui
+          suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam
+          vitæ. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Tg. 1, 12</Typography> Bem-aventurado o varão
-          que sabe sofrer a tentação, porque, quando acabar a tentação, receberá
-          a coroa da vida. Aleluia.
+          <Typography className="vernacular">Tg. 1, 12</Typography>{" "}
+          Bem-aventurado o varão que sabe sofrer a tentação, porque, quando
+          acabar a tentação, receberá a coroa da vida. Aleluia.
         </Typography>
       </Language>
 
@@ -118,36 +122,41 @@ export default function Page14Confessoresnaopontifices1() {
           Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
           <Typography className="versicle"> ℣. </Typography>
           Potens in terra erit semen ejus: generátio rectórum benedicétur.
-          <Typography className="versicle"> ℣. </Typography>Glória et divitiæ in domo ejus:
-          et justítia ejus manet in sǽculum sǽculi.
+          <Typography className="versicle"> ℣. </Typography>Glória et divitiæ in
+          domo ejus: et justítia ejus manet in sǽculum sǽculi.
         </Typography>
         <Typography className="vernacular">
           Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em
-          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua descendência
-          será poderosa na terra; pois a geração dos justos será abençoada.
-          <Typography className="versicle"> ℣. </Typography>Na sua casa haverá glória e
-          riqueza: e a justiça subsistirá em todos os séculos dos séculos.
+          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua
+          descendência será poderosa na terra; pois a geração dos justos será
+          abençoada.
+          <Typography className="versicle"> ℣. </Typography>Na sua casa haverá
+          glória e riqueza: e a justiça subsistirá em todos os séculos dos
+          séculos.
         </Typography>
       </Language>
 
-      <Typography className="aside">No T. Pascal o Gradual e o Trato e diz-se:</Typography>
+      <Typography className="aside">
+        No T. Pascal o Gradual e o Trato e diz-se:
+      </Typography>
 
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Jac. 1, 12</Typography> Beátus vir, qui suffert
-          tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ.
-          Allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Eccli. 45, 9</Typography> Amávit eum Dóminus et ornávit
-          eum: stolam glóriæ índuit eum. Allelúja.
+          <Typography className="latin">Jac. 1, 12</Typography> Beátus vir, qui
+          suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam
+          vitæ. Allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Eccli. 45, 9</Typography> Amávit eum
+          Dóminus et ornávit eum: stolam glóriæ índuit eum. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia. <Typography className="vernacular">Tg. 1, 12</Typography>{" "}
+          Aleluia, aleluia.{" "}
+          <Typography className="vernacular">Tg. 1, 12</Typography>{" "}
           Bem-aventurado o varão que sabe sofrer a tentação, porque, quando
           acabar a tentação, receberá a coroa da vida. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ecl. 45, 9</Typography> O Senhor amou-o, ornou-o e
-          revestiu-o com a túnica da glória. Aleluia.
+          <Typography className="em">Ecl. 45, 9</Typography> O Senhor amou-o,
+          ornou-o e revestiu-o com a túnica da glória. Aleluia.
         </Typography>
       </Language>
 
@@ -157,12 +166,12 @@ export default function Page14Confessoresnaopontifices1() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Sint lumbi vestri

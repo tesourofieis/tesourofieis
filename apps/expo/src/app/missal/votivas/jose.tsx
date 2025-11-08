@@ -15,16 +15,16 @@ export default function PageJose() {
       <Language>
         <Typography className="latin">
           Adjútor ejus sperávimus. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. 79, 2</Typography> Qui regis Israël, inténde:
-          qui dedúcis, velut ovem, Joseph.
+          <Typography className="latin">Ps. 79, 2</Typography> Qui regis Israël,
+          inténde: qui dedúcis, velut ovem, Joseph.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Senhor é o nosso auxílio e protecção: o nosso coração sente n’Ele
           toda a alegria: e no seu santo nome depositamos toda nossa esperança.
           (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. 79, 2</Typography> Vós, que conduzis José,
-          como um pastor guia a ovelha, ouvi.
+          <Typography className="vernacular">Sl. 79, 2</Typography> Vós, que
+          conduzis José, como um pastor guia a ovelha, ouvi.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -94,19 +94,19 @@ export default function PageJose() {
         <Typography className="latin">
           Dómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in
           cápite ejus corónam de lápide pretióso.
-          <Typography className="versicle"> ℣. </Typography>Vitam pétiit a te, et tribuísti
-          ei longitúdinem diérum in sǽculum sǽculi.
+          <Typography className="versicle"> ℣. </Typography>Vitam pétiit a te,
+          et tribuísti ei longitúdinem diérum in sǽculum sǽculi.
         </Typography>
         <Typography className="vernacular">
           Senhor, infundistes nele bênçãos escolhidas; pusestes-lhe na cabeça
           uma coroa de pedras preciosas.
-          <Typography className="versicle"> ℣. </Typography>Ele pediu-Vos a vida, e
-          concedestes-lhe dias sem fim em todos os séculos dos séculos.
+          <Typography className="versicle"> ℣. </Typography>Ele pediu-Vos a
+          vida, e concedestes-lhe dias sem fim em todos os séculos dos séculos.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Fac nos
-          innócuam, Joseph, decúrrere vitam: sitque tuo semper tuta patrocínio.
-          Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Fac nos innócuam, Joseph, decúrrere vitam: sitque tuo semper tuta
+          patrocínio. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
@@ -129,16 +129,17 @@ export default function PageJose() {
           Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
           <Typography className="versicle"> ℣. </Typography>
           Potens in terra erit semen ejus: generátio rectórum benedicétur.
-          <Typography className="versicle"> ℣. </Typography>Glória et divítiæ in domo ejus:
-          et justítia ejus manet in sǽculum sǽculi.
+          <Typography className="versicle"> ℣. </Typography>Glória et divítiæ in
+          domo ejus: et justítia ejus manet in sǽculum sǽculi.
         </Typography>
         <Typography className="vernacular">
           Bem-aventurado o homem que teme a Senhor e cujo zelo é ardente no
           cumprimento dos seus mandamentos.
-          <Typography className="versicle"> ℣. </Typography>Sua descendência será poderosa
-          na terra, pois a posteridade dos justos será abençoada.
-          <Typography className="versicle"> ℣. </Typography>Na sua casa haverá abundância e
-          riqueza e a sua justiça subsistirá em todos os séculos dos séculos.
+          <Typography className="versicle"> ℣. </Typography>Sua descendência
+          será poderosa na terra, pois a posteridade dos justos será abençoada.
+          <Typography className="versicle"> ℣. </Typography>Na sua casa haverá
+          abundância e riqueza e a sua justiça subsistirá em todos os séculos
+          dos séculos.
         </Typography>
       </Language>
 
@@ -148,17 +149,18 @@ export default function PageJose() {
 
       <Language>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>De quacúmque
-          tribulatióne clamáverint ad me, exáudiam eos, et ero protéctor eórum
-          semper. Allelúja.
-          <Typography className="versicle"> ℣. </Typography>Fac nos innócuam, Joseph,
-          decúrrere vitam: sitque tuo semper tuta patrocínio. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          De quacúmque tribulatióne clamáverint ad me, exáudiam eos, et ero
+          protéctor eórum semper. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>Fac nos innócuam,
+          Joseph, decúrrere vitam: sitque tuo semper tuta patrocínio. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Em qualquer
-          tribulação em que chamem por mim, ouvi-los-ei e serei o seu perpétuo
-          protector. Aleluia.<Typography className="versicle"> ℣. </Typography>Ó José, fazei
-          que a nossa vida seja sem mácula e que, esteja sempre sob o vosso
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Em
+          qualquer tribulação em que chamem por mim, ouvi-los-ei e serei o seu
+          perpétuo protector. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>Ó José, fazei que a
+          nossa vida seja sem mácula e que, esteja sempre sob o vosso
           patrocínio. Aleluia.
         </Typography>
       </Language>
@@ -169,12 +171,12 @@ export default function PageJose() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Factum est autem, cum baptizarétur omnis pópulus, et

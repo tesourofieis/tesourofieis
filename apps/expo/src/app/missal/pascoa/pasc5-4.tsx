@@ -16,16 +16,17 @@ export default function PagePasc54() {
         <Typography className="latin">
           Viri Galilǽi, quid admirámini aspiciéntes in cœlum? allelúja:
           quemádmodum vidístis eum ascendéntem in cœlum, ita véniet, allelúja,
-          allelúja, allelúja. <Typography className="latin">Ps. 46, 2</Typography> Omnes
-          gentes, pláudite mánibus: jubiláte Deo in voce exsultatiónis.
+          allelúja, allelúja.{" "}
+          <Typography className="latin">Ps. 46, 2</Typography> Omnes gentes,
+          pláudite mánibus: jubiláte Deo in voce exsultatiónis.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Varões galileus, porque estais a olhar, admirados, para o céu?
           Aleluia! Como O vistes subir para o céu, assim Ele virá: aleluia,
-          aleluia, aleluia. <Typography className="vernacular">Sl. 46, 2 Ó</Typography>{" "}
-          povos, batei palmas com júbilo: aclamai Deus com vossos hinos de
-          alegria!
+          aleluia, aleluia.{" "}
+          <Typography className="vernacular">Sl. 46, 2 Ó</Typography> povos,
+          batei palmas com júbilo: aclamai Deus com vossos hinos de alegria!
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -52,7 +53,9 @@ export default function PagePasc54() {
 
       <Language>
         <Typography className="latin">Léctio Actuum Apostólorum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           Primum quidem sermónem feci de ómnibus, o Theóphile, quæ cœpit Jesus
           facere et docére usque in diem, qua, præcípiens Apóstolis per Spíritum
@@ -103,20 +106,20 @@ export default function PagePasc54() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 46, 6</Typography> Ascéndit Deus in jubilatióne,
-          et Dóminus in voce tubæ. Allelúja.
+          <Typography className="latin">Ps. 46, 6</Typography> Ascéndit Deus in
+          jubilatióne, et Dóminus in voce tubæ. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. 67, 18-19</Typography> Dóminus in Sina in sancto,
-          ascéndens in altum, captívam duxit captivitátem. Allelúja.
+          <Typography className="em">Ps. 67, 18-19</Typography> Dóminus in Sina
+          in sancto, ascéndens in altum, captívam duxit captivitátem. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 46, 6</Typography> Subiu Deus ao céu no
-          meio de aclamações de júbilo: o Senhor subiu ao som da trombeta.
-          Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Sl. 67, 18-19</Typography>O Senhor do Sinai entrou no
-          seu santuário; e, subindo «ao alto», levou consigo os cativos.
-          Aleluia.
+          <Typography className="vernacular">Sl. 46, 6</Typography> Subiu Deus
+          ao céu no meio de aclamações de júbilo: o Senhor subiu ao som da
+          trombeta. Aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Sl. 67, 18-19</Typography>O Senhor do Sinai
+          entrou no seu santuário; e, subindo «ao alto», levou consigo os
+          cativos. Aleluia.
         </Typography>
       </Language>
 
@@ -126,12 +129,12 @@ export default function PagePasc54() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Marcum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Marcum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Marcos.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Marcos.
         </Typography>
         <Typography className="latin">
           In illo témpore: Recumbéntibus úndecim discípulis, appáruit illis

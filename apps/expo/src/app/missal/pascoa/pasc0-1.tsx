@@ -16,15 +16,16 @@ export default function PagePasc01() {
         <Typography className="latin">
           Introdúxit vos Dóminus in terram fluéntem lac et mel, allelúja: et ut
           lex Dómini semper sit in ore vestro, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. 104, 1</Typography> Confitémini Dómino et
-          invocáte nomen ejus: annuntiáte inter gentes ópera ejus.
+          <Typography className="latin">Ps. 104, 1</Typography> Confitémini
+          Dómino et invocáte nomen ejus: annuntiáte inter gentes ópera ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Senhor vos introduziu em um país onde correm leite e mel, aleluia:
           para que a Lei do Senhor esteja sempre na vossa boca, aleluia,
-          aleluia. <Typography className="vernacular">Sl. 104, 1</Typography> Louvai o
-          Senhor, invocai o seu nome e anunciai as suas obras em todos os povos.
+          aleluia. <Typography className="vernacular">Sl. 104, 1</Typography>{" "}
+          Louvai o Senhor, invocai o seu nome e anunciai as suas obras em todos
+          os povos.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -51,7 +52,9 @@ export default function PagePasc01() {
 
       <Language>
         <Typography className="latin">Léctio Actuum Apostólorum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Stans Petrus in médio plebis, dixit: Viri fratres,
           vos scitis, quod factum est verbum per universam Judǽam: incípiens
@@ -104,13 +107,14 @@ export default function PagePasc01() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Matth. 28, 2</Typography> Angelus Dómini descéndit
-          de cœlo: et accédens revólvit lápidem, et sedébat super eum.
+          <Typography className="latin">Matth. 28, 2</Typography> Angelus Dómini
+          descéndit de cœlo: et accédens revólvit lápidem, et sedébat super eum.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Mt. 28, 2</Typography> Um anjo do Senhor desceu
-          do céu, e, chegando-se, revolveu a pedra e assentou-se sobre ela.
+          <Typography className="vernacular">Mt. 28, 2</Typography> Um anjo do
+          Senhor desceu do céu, e, chegando-se, revolveu a pedra e assentou-se
+          sobre ela.
         </Typography>
       </Language>
 
@@ -120,12 +124,12 @@ export default function PagePasc01() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Duo ex discípulis Jesu ibant ipsa die in castéllum,

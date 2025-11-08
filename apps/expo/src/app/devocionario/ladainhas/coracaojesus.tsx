@@ -10,16 +10,30 @@ export default function PageCoracaojesus() {
 
       <Language>
         <Typography className="latin">Kyrie, eléison.</Typography>
-        <Typography className="vernacular">Senhor, tende piedade de nós.</Typography>
+        <Typography className="vernacular">
+          Senhor, tende piedade de nós.
+        </Typography>
         <Typography className="latin">Christe, eléison.</Typography>
-        <Typography className="vernacular">Jesus Cristo, tende piedade de nós.</Typography>
+        <Typography className="vernacular">
+          Jesus Cristo, tende piedade de nós.
+        </Typography>
         <Typography className="latin">Kyrie, eléison.</Typography>
-        <Typography className="vernacular">Senhor, tende piedade de nós.</Typography>
-        <Typography className="latin">Christe, audi nos, Christe, audi nos.</Typography>
+        <Typography className="vernacular">
+          Senhor, tende piedade de nós.
+        </Typography>
+        <Typography className="latin">
+          Christe, audi nos, Christe, audi nos.
+        </Typography>
         <Typography className="vernacular">Jesus Cristo, ouvi-nos.</Typography>
-        <Typography className="latin">Christe, exáudi nos, Christe, exaudi nos.</Typography>
-        <Typography className="vernacular">Jesus Cristo, atendei-nos.</Typography>
-        <Typography className="latin">Pater de cælis, Deus, miserére nobis.</Typography>
+        <Typography className="latin">
+          Christe, exáudi nos, Christe, exaudi nos.
+        </Typography>
+        <Typography className="vernacular">
+          Jesus Cristo, atendei-nos.
+        </Typography>
+        <Typography className="latin">
+          Pater de cælis, Deus, miserére nobis.
+        </Typography>
         <Typography className="vernacular">
           Pai do Céu, que sois Deus, tende piedade de nós.
         </Typography>
@@ -29,7 +43,9 @@ export default function PageCoracaojesus() {
         <Typography className="vernacular">
           Filho Redentor do mundo, que sois Deus, tende piedade de nós.
         </Typography>
-        <Typography className="latin">Spíritus Sancte, Deus, miserére nobis.</Typography>
+        <Typography className="latin">
+          Spíritus Sancte, Deus, miserére nobis.
+        </Typography>
         <Typography className="vernacular">
           Espírito Santo, que sois Deus, tende piedade de nós.
         </Typography>

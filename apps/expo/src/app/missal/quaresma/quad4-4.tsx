@@ -16,15 +16,16 @@ export default function PageQuad44() {
         <Typography className="latin">
           Lætétur cor quæréntium Dóminum: quǽrite Dóminum, et confirmámini:
           quǽrite fáciem ejus semper.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Confitémini Dómino, et
-          invocáte nomen ejus: annuntiáte inter gentes ópera ejus.
+          <Typography className="latin">Ps. ibid., 1</Typography> Confitémini
+          Dómino, et invocáte nomen ejus: annuntiáte inter gentes ópera ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Alegre-se o coração daqueles que procuram o Senhor: procurai o Senhor
           e ficareis cheios de fortaleza: procurai incessantemente a sua
-          presença. <Typography className="vernacular">Sl. ibid., 1</Typography> Louvai o
-          Senhor e aclamai o seu nome: anunciai as suas obras no meio dos povos.
+          presença. <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
+          Louvai o Senhor e aclamai o seu nome: anunciai as suas obras no meio
+          dos povos.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -125,7 +126,8 @@ export default function PageQuad44() {
       <Language>
         <Typography className="latin">
           Réspice, Dómine, in testaméntum tuum: et ánimas páuperum tuórum ne
-          obliviscáris in finem.<Typography className="versicle"> ℣. </Typography>
+          obliviscáris in finem.
+          <Typography className="versicle"> ℣. </Typography>
           Exsúrge, Dómine, júdica causam tuam: memor esto oppróbrii servórum
           tuórum.
         </Typography>
@@ -142,12 +144,12 @@ export default function PageQuad44() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Ibat Jesus in civitátem, quæ vocátur Naim: et ibant

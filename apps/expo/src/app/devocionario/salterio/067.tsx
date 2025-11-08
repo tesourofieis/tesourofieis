@@ -35,14 +35,15 @@ export default function Page067() {
         </Typography>
         <Typography className="latin">
           Cantáte Deo, psalmum dícite nómini ejus: * iter fácite ei, qui
-          ascéndit super occásum: <Typography className="latin">fit reverentia</Typography>{" "}
-          Dóminus nomen illi.
+          ascéndit super occásum:{" "}
+          <Typography className="latin">fit reverentia</Typography> Dóminus
+          nomen illi.
         </Typography>
         <Typography className="vernacular">
           Cantai a Deus, cantai salmos ao seu nome: * abri o caminho Àquele que
           sobe para o ocidente:{" "}
-          <Typography className="vernacular">inclinar a cabeça</Typography> o Senhor é o seu
-          nome.
+          <Typography className="vernacular">inclinar a cabeça</Typography> o
+          Senhor é o seu nome.
         </Typography>
         <Typography className="latin">
           Exsultáte in conspéctu ejus: * turbabúntur a fácie ejus, patris

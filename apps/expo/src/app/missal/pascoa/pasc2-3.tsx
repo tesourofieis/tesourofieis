@@ -125,18 +125,19 @@ export default function PagePasc23() {
 
       <Language>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>De quacúmque
-          tribulatióne clamáverint ad me, exáudiam eos, et ero protéctor eórum
-          semper. Allelúja.
-          <Typography className="versicle"> ℣. </Typography>Fac nos innócuam, Joseph,
-          decúrrere vitam: sitque tuo semper tuta patrocínio. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          De quacúmque tribulatióne clamáverint ad me, exáudiam eos, et ero
+          protéctor eórum semper. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>Fac nos innócuam,
+          Joseph, decúrrere vitam: sitque tuo semper tuta patrocínio. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>De qualquer
-          tribulação que clamem a mim, ouvir-lhes-ei, serei sempre o seu
-          protector. Aleluia.<Typography className="versicle"> ℣. </Typography>Fazei, ó
-          José, que sigamos uma vida inocente e que seja ela sempre amparada com
-          o vosso patrocínio. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>De
+          qualquer tribulação que clamem a mim, ouvir-lhes-ei, serei sempre o
+          seu protector. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>Fazei, ó José, que
+          sigamos uma vida inocente e que seja ela sempre amparada com o vosso
+          patrocínio. Aleluia.
         </Typography>
       </Language>
 
@@ -146,12 +147,12 @@ export default function PagePasc23() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Factum est autem, cum baptizarétur omnis pópulus, et

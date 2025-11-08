@@ -14,16 +14,16 @@ export default function Page0531Portugal() {
         <Typography className="latin">
           Adeámus cum fidúcia ad thronum grátiæ, ut misericórdam consequámur, et
           grátiam inveniámus in auxílio opportúno. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. 120, 1</Typography> Levávi óculos meos in
-          montes: unde vénie
+          <Typography className="latin">Ps. 120, 1</Typography> Levávi óculos
+          meos in montes: unde vénie
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
         <Typography className="vernacular">
           Recorramos com confiança ao trono da graça, para que consigamos
           alcançar misericórdia e graça e sejamos socorridos com oportunidade.
           Aleluia, aleluia. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. 120, 1</Typography> Elevei os meus olhos
-          para os montes donde me veio o auxílio.
+          <Typography className="vernacular">Sl. 120, 1</Typography> Elevei os
+          meus olhos para os montes donde me veio o auxílio.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -78,16 +78,18 @@ export default function Page0531Portugal() {
       </Language>
       <Language>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Leva in
-          circúitu óculus tuos, et vide: omes isti congregáti sunt, venérunt
-          tibi. Allelúja.<Typography className="versicle"> ℣. </Typography>Fílii tui de
-          longe vénient, et filiæ tuæ de látere surgent. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Leva in circúitu óculus tuos, et vide: omes isti congregáti sunt,
+          venérunt tibi. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>Fílii tui de longe
+          vénient, et filiæ tuæ de látere surgent. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Volvei os olhos
-          em torno de vós e vede: todos estes se reuniram e vieram até vós,
-          aleluia.<Typography className="versicle"> ℣. </Typography>Os teus filhos virão de
-          longe e as tuas filhas surgirão dos lados. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Volvei os olhos em torno de vós e vede: todos estes se reuniram e
+          vieram até vós, aleluia.
+          <Typography className="versicle"> ℣. </Typography>Os teus filhos virão
+          de longe e as tuas filhas surgirão dos lados. Aleluia.
         </Typography>
       </Language>
       <H3 text="Evangelho" />

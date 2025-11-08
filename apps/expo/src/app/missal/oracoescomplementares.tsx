@@ -42,60 +42,70 @@ export default function PageOracoescomplementares() {
           Senhor, tende piedade de nós. Cristo, tende... Senhor, tende...
         </Typography>
         <Typography className="latin">
-          Pater noster.<Typography className="versicle"> ℣. </Typography>Et ne nos indúcas
-          in tentatiónem. <Typography className="response"> ℟. </Typography>Sed líbera nos a
+          Pater noster.<Typography className="versicle"> ℣. </Typography>Et ne
+          nos indúcas in tentatiónem.{" "}
+          <Typography className="response"> ℟. </Typography>Sed líbera nos a
           malo.
         </Typography>
         <Typography className="vernacular">
-          Pai-nosso.<Typography className="versicle"> ℣. </Typography>E não nos deixeis cair
-          em tentação. <Typography className="response"> ℟. </Typography>Mas livrai-nos do
+          Pai-nosso.<Typography className="versicle"> ℣. </Typography>E não nos
+          deixeis cair em tentação.{" "}
+          <Typography className="response"> ℟. </Typography>Mas livrai-nos do
           mal.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Confiteántur tibi, Dómine, omnia
-          opera tua. ℞. Et Sancti tui benedícant tibi.
+          <Typography className="versicle"> ℣. </Typography>Confiteántur tibi,
+          Dómine, omnia opera tua. ℞. Et Sancti tui benedícant tibi.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Que todas vossas obras Vos
-          louvem, Senhor. <Typography className="response"> ℟. </Typography>E os vossos
-          Santos Vos bendigam.
+          <Typography className="versicle"> ℣. </Typography>Que todas vossas
+          obras Vos louvem, Senhor.{" "}
+          <Typography className="response"> ℟. </Typography>E os vossos Santos
+          Vos bendigam.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Exsultábunt Sancti in glória.{" "}
-          <Typography className="response"> ℟. </Typography> Lætabúntur in cubílibus suis.
+          <Typography className="versicle"> ℣. </Typography>Exsultábunt Sancti
+          in glória. <Typography className="response"> ℟. </Typography>{" "}
+          Lætabúntur in cubílibus suis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Os Santos exultam de alegria.{" "}
-          <Typography className="response"> ℟. </Typography> Alegrar-se-ão no lugar do seu
-          repouso.
+          <Typography className="versicle"> ℣. </Typography>Os Santos exultam de
+          alegria. <Typography className="response"> ℟. </Typography>{" "}
+          Alegrar-se-ão no lugar do seu repouso.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Non nobis, Dómine, non nobis.{" "}
-          <Typography className="response"> ℟. </Typography>Sed nómini tuo da glóriam.
+          <Typography className="versicle"> ℣. </Typography>Non nobis, Dómine,
+          non nobis. <Typography className="response"> ℟. </Typography>Sed
+          nómini tuo da glóriam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Não a nós, Senhor, não a nós.{" "}
-          <Typography className="response"> ℟. </Typography>Mas ao vosso nome dêmos glória.
+          <Typography className="versicle"> ℣. </Typography>Não a nós, Senhor,
+          não a nós. <Typography className="response"> ℟. </Typography>Mas ao
+          vosso nome dêmos glória.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi oratiónem meam.{" "}
-          <Typography className="response"> ℟. </Typography>Et clamor meus ad te véniat.
+          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi
+          oratiónem meam. <Typography className="response"> ℟. </Typography>Et
+          clamor meus ad te véniat.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha oração.{" "}
-          <Typography className="response"> ℟. </Typography>E o meu clamor chegue até Vós.
+          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha
+          oração. <Typography className="response"> ℟. </Typography>E o meu
+          clamor chegue até Vós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor seja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor seja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Orémus.</Typography>

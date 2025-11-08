@@ -16,16 +16,17 @@ export default function PagePent180() {
         <Typography className="latin">
           Da pacem, Dómine, sustinéntibus te, ut prophétæ tui fidéles
           inveniántur: exáudi preces servi tui et plebis tuæ Israël.{" "}
-          <Typography className="latin">Ps. 121, 1</Typography> Lætátus sum in his, quæ
-          dicta sunt mihi: in domum Dómini íbimus.
+          <Typography className="latin">Ps. 121, 1</Typography> Lætátus sum in
+          his, quæ dicta sunt mihi: in domum Dómini íbimus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Dai paz, Senhor, àqueles que em Vós esperam, a fim de que os vossos
           Profetas sejam julgados fiéis: Ouvi as preces de Israel, vosso servo e
-          vosso povo. <Typography className="vernacular">Sl. 121, 1</Typography> Alegrei-me
-          com aqueles que me disseram estas palavras: iremos para a casa do
-          Senhor.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          vosso povo. <Typography className="vernacular">Sl. 121, 1</Typography>{" "}
+          Alegrei-me com aqueles que me disseram estas palavras: iremos para a
+          casa do Senhor.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -83,24 +84,24 @@ export default function PagePent180() {
       <Language>
         <Typography className="latin">
           Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.
-          <Typography className="versicle"> ℣. </Typography>Fiat pax in virtúte tua: et
-          abundántia in túrribus tuis.
+          <Typography className="versicle"> ℣. </Typography>Fiat pax in virtúte
+          tua: et abundántia in túrribus tuis.
         </Typography>
         <Typography className="vernacular">
           Alegro-me com aqueles que me disseram estas palavras: iremos para a
-          casa do Senhor.<Typography className="versicle"> ℣. </Typography>Que a paz reine
-          nas tuas fortalezas e a abundância nos teus palácios.
+          casa do Senhor.<Typography className="versicle"> ℣. </Typography>Que a
+          paz reine nas tuas fortalezas e a abundância nos teus palácios.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 101, 16</Typography> Timébunt gentes nomen tuum,
-          Dómine, et omnes reges terræ glóriam tuam. Allelúja.
+          <Typography className="latin">Ps. 101, 16</Typography> Timébunt gentes
+          nomen tuum, Dómine, et omnes reges terræ glóriam tuam. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 101, 16</Typography> As nações, Senhor,
-          temerão o vosso nome e os reis da terra contemplarão a vossa glória.
-          Aleluia.
+          <Typography className="vernacular">Sl. 101, 16</Typography> As nações,
+          Senhor, temerão o vosso nome e os reis da terra contemplarão a vossa
+          glória. Aleluia.
         </Typography>
       </Language>
 
@@ -110,12 +111,12 @@ export default function PagePent180() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Ascéndens Jesus in navículam, transfretávit et venit

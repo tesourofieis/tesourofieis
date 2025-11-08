@@ -16,15 +16,15 @@ export default function Page11Confessorespontifices1() {
         <Typography className="latin">
           Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit
           illi sacerdótii dígnitas in ætérnum. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. 131, 1</Typography> Meménto, Dómine, David: et
-          omnis mansuetúdinis ejus.
+          <Typography className="latin">Ps. 131, 1</Typography> Meménto, Dómine,
+          David: et omnis mansuetúdinis ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Deus estabeleceu com ele aliança de paz e tornou-o príncipe, para que
           possuísse eternamente a dignidade sacerdotal. (T. P. Aleluia,
-          aleluia.) <Typography className="vernacular">Sl. 131, 1</Typography> Lembrai-vos
-          de David, ó Senhor, e da sua grande mansidão.
+          aleluia.) <Typography className="vernacular">Sl. 131, 1</Typography>{" "}
+          Lembrai-vos de David, ó Senhor, e da sua grande mansidão.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -35,14 +35,15 @@ export default function Page11Confessorespontifices1() {
       <Language>
         <Typography className="latin">
           Da, quǽsumus, omnípotens Deus: ut beáti{" "}
-          <Typography className="latin">N.</Typography> Confessóris tui atque Pontíficis
-          veneránda sollémnitas, et devotiónem nobis áugeat et salútem. Per
-          Dóminum...
+          <Typography className="latin">N.</Typography> Confessóris tui atque
+          Pontíficis veneránda sollémnitas, et devotiónem nobis áugeat et
+          salútem. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Dignai-Vos permitir, ó Deus omnipotente, que a veneranda solenidade do
-          vosso Confessor e Pontífice <Typography className="vernacular">N.</Typography>{" "}
-          aumente a nossa piedade e nos assegure a salvação. Por nosso Senhor...
+          vosso Confessor e Pontífice{" "}
+          <Typography className="vernacular">N.</Typography> aumente a nossa
+          piedade e nos assegure a salvação. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -52,7 +53,9 @@ export default function Page11Confessorespontifices1() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Ecce sacérdos magnus, qui in diébus suis plácuit Deo, et invéntus est
           justus: et in témpore iracúndiæ factus est reconciliátio. Non est
@@ -90,24 +93,25 @@ export default function Page11Confessorespontifices1() {
         <Typography className="latin">
           Ecce sacérdos magnus, qui in diébus suis plácuit Deo.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 20</Typography> Non st invéntus símilis illi,
-          qui conserváret legem Excélsi.
+          <Typography className="latin">ibid., 20</Typography> Non st invéntus
+          símilis illi, qui conserváret legem Excélsi.
         </Typography>
         <Typography className="vernacular">
           Eis o grande sacerdote que nos dias da sua vida agradou a Deus.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 20</Typography> Não foi encontrado
-          outrem semelhante a ele na observância das leis do Altíssimo.
+          <Typography className="vernacular">ibid., 20</Typography> Não foi
+          encontrado outrem semelhante a ele na observância das leis do
+          Altíssimo.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 109, 4</Typography> Tu es sacérdos in ætérnum,
-          secúndum órdinem Melchísedech. Allelúja.
+          <Typography className="latin">Ps. 109, 4</Typography> Tu es sacérdos
+          in ætérnum, secúndum órdinem Melchísedech. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 109, 4</Typography> Tu és sacerdote para
-          sempre, segundo a ordem de Melquisedeque. Aleluia.
+          <Typography className="vernacular">Sl. 109, 4</Typography> Tu és
+          sacerdote para sempre, segundo a ordem de Melquisedeque. Aleluia.
         </Typography>
       </Language>
 
@@ -124,16 +128,17 @@ export default function Page11Confessorespontifices1() {
           Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
           <Typography className="versicle"> ℣. </Typography>
           Potens in terra erit semen ejus: generátio rectórum benedicétur.
-          <Typography className="versicle"> ℣. </Typography>Glória et divítiæ in domo ejus:
-          et justítia ejus manet in sǽculum sǽculi.
+          <Typography className="versicle"> ℣. </Typography>Glória et divítiæ in
+          domo ejus: et justítia ejus manet in sǽculum sǽculi.
         </Typography>
         <Typography className="vernacular">
           Bem-aventurado o varão que teme o Senhor e cuja vontade é ardente no
           cumprimento dos seus mandamentos.
-          <Typography className="versicle"> ℣. </Typography>Sua descendência será poderosa
-          na terra, pois a posteridade dos justos será abençoada.
-          <Typography className="versicle"> ℣. </Typography>Na sua casa haverá abundância e
-          riqueza, e a sua justiça subsistirá em todos os séculos dos séculos.
+          <Typography className="versicle"> ℣. </Typography>Sua descendência
+          será poderosa na terra, pois a posteridade dos justos será abençoada.
+          <Typography className="versicle"> ℣. </Typography>Na sua casa haverá
+          abundância e riqueza, e a sua justiça subsistirá em todos os séculos
+          dos séculos.
         </Typography>
       </Language>
 
@@ -144,17 +149,17 @@ export default function Page11Confessorespontifices1() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 109, 4</Typography> Tu es sacérdos in ætérnum,
-          secúndum órdinem Melchísedech. Allelúja.
-          <Typography className="versicle"> ℣. </Typography>Hic est sacérdos, quem coronávit
-          Dóminus. Allelúja.
+          <Typography className="latin">Ps. 109, 4</Typography> Tu es sacérdos
+          in ætérnum, secúndum órdinem Melchísedech. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>Hic est sacérdos,
+          quem coronávit Dóminus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 109, 4</Typography> Tu és sacerdote para
-          sempre segundo a ordem de Melquisedeque. Aleluia.
-          <Typography className="versicle"> ℣. </Typography>Este é o sacerdote que o Senhor
-          coroou. Aleluia.
+          <Typography className="vernacular">Sl. 109, 4</Typography> Tu és
+          sacerdote para sempre segundo a ordem de Melquisedeque. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>Este é o sacerdote
+          que o Senhor coroou. Aleluia.
         </Typography>
       </Language>
 
@@ -164,12 +169,12 @@ export default function Page11Confessorespontifices1() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo
@@ -262,15 +267,15 @@ export default function Page11Confessorespontifices1() {
       <Language>
         <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias
-          exhibéntes, intercedénte beáto <Typography className="latin">N.</Typography>{" "}
-          Confessóre tuo atque Pontífice, benefícia potióra sumámus. Per
-          Dóminum...
+          exhibéntes, intercedénte beáto{" "}
+          <Typography className="latin">N.</Typography> Confessóre tuo atque
+          Pontífice, benefícia potióra sumámus. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Dignai-Vos permitir, ó Deus omnipotente, que, dando-Vos nós graças
           pelos benefícios recebidos, alcancemos por intercessão do B.{" "}
-          <Typography className="vernacular">N.</Typography>, vosso Confessor e Pontífice,
-          ainda outros maiores. Por nosso Senhor...
+          <Typography className="vernacular">N.</Typography>, vosso Confessor e
+          Pontífice, ainda outros maiores. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

@@ -31,17 +31,18 @@ export default function Page1129() {
         <Typography className="latin">
           Dóminus secus mare Galilǽæ vidit duos fratres, Petrum et Andréam, et
           vocávit eos: Veníte post me: fáciam vos fíeri piscatóres hóminum.
-          <Typography className="vernacular">Ps. 18, 2</Typography> probásti Cœli enárrant
-          glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
+          <Typography className="vernacular">Ps. 18, 2</Typography> probásti
+          Cœli enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Caminhando o Senhor ao longo do mar de Galileia, viu dois irmãos,
           Pedro e André e chamou-os dizendo: Vinde, segui-me: e farei de vós
           pescadores de homens.
-          <Typography className="vernacular">Sl. 18, 2</Typography> probásti Os céus
-          proclamam a glória de Deus: e o firmamento publica as obras das suas
-          mãos. firmaméntum.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 18, 2</Typography> probásti Os
+          céus proclamam a glória de Deus: e o firmamento publica as obras das
+          suas mãos. firmaméntum.
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
       </Language>
@@ -61,8 +62,8 @@ export default function Page1129() {
       <Language>
         <Typography className="latin">
           Nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus
-          eórum.<Typography className="versicle"> ℣. </Typography>Dinumerábo eos: et super
-          arénam multiplicabúntur.
+          eórum.<Typography className="versicle"> ℣. </Typography>Dinumerábo
+          eos: et super arénam multiplicabúntur.
         </Typography>
         <Typography className="vernacular">
           Têm sido singularmente honrados os vossos amigos, ó Deus, muito se tem
@@ -78,12 +79,12 @@ export default function Page1129() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Stabat Joánnes, et ex discípulis ejus duo. Et

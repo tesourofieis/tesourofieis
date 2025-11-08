@@ -22,7 +22,9 @@ export default function Page0620Portugal() {
         Por nosso Senhor...
       </Typography>
       <H3 text="Epístola" />
-      <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+      <Typography className="vernacular">
+        Lição da Ep.ª do B. Ap.º Pedro.
+      </Typography>
       <Typography className="vernacular">
         Caríssimos: Alegrai-vos, se tomais parte nos sofrimentos de Cristo; pois
         exultareis de alegria na manifestação da sua glória. Sereis felizes, se

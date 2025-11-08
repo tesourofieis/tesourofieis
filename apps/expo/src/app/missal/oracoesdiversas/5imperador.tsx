@@ -13,17 +13,18 @@ export default function Page5Imperador() {
       <Language>
         <Typography className="latin">
           Deus, regnórum ómnium, et christiáni maxime protéctor impérii: da
-          servo tuo imperatóri nostro <Typography className="latin">N.</Typography>{" "}
-          triúmphum virtútis tuæ sciénter excólere; ut, qui tua institutióne est
-          princeps, tuo sit semper múnere potens. Per Dóminum nostrum...
+          servo tuo imperatóri nostro{" "}
+          <Typography className="latin">N.</Typography> triúmphum virtútis tuæ
+          sciénter excólere; ut, qui tua institutióne est princeps, tuo sit
+          semper múnere potens. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
           Ó Deus, que sois o protector de todos os reinos e principalmente do
           império cristão, concedei ao imperador{" "}
-          <Typography className="vernacular">N.</Typography> vosso servo, que governe sempre
-          com sabedoria, para o triunfo do vosso poder, a fim de que, sendo
-          príncipe em virtude da vossa instituição, seja sempre poderoso em
-          virtude da vossa graça. Por nosso Senhor...
+          <Typography className="vernacular">N.</Typography> vosso servo, que
+          governe sempre com sabedoria, para o triunfo do vosso poder, a fim de
+          que, sendo príncipe em virtude da vossa instituição, seja sempre
+          poderoso em virtude da vossa graça. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -51,14 +52,14 @@ export default function Page5Imperador() {
         <Typography className="latin">
           Deus, qui ad prædicándum ætérni Regis Evangélium, Románum impérium
           præparásti: præténde fámulo tuo imperatóri nostro{" "}
-          <Typography className="latin">N.</Typography> arma cœléstia; ut pax ecclesiárum
-          nulla turbátur tempestáte bellórum. Per Dóminum...
+          <Typography className="latin">N.</Typography> arma cœléstia; ut pax
+          ecclesiárum nulla turbátur tempestáte bellórum. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Ó Deus, que predestinastes o império romano para pregar o Evangelho do
           eterno Rei, entregai ao imperador{" "}
-          <Typography className="vernacular">N.</Typography>, vosso servo, as armas
-          celestiais, para que a paz das igrejas não seja perturbada pela
+          <Typography className="vernacular">N.</Typography>, vosso servo, as
+          armas celestiais, para que a paz das igrejas não seja perturbada pela
           tempestade feroz das guerras. Por nosso Senhor...
         </Typography>
       </Language>

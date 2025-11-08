@@ -17,16 +17,17 @@ export default function PageQuad20() {
           Reminíscere miseratiónum tuarum, Dómine, et misericórdiæ tuæ, quæ a
           sǽculo sunt: ne umquam dominéntur nobis inimíci nostri: líbera nos,
           Deus Israël, ex ómnibus angústiis nostris.{" "}
-          <Typography className="latin">Ps. ibid., 1-2</Typography> Ad te, Dómine, levávi
-          ánimam meam: Deus meus, in te confído, non erubéscam.
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Ad te,
+          Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Lembrai-Vos, Senhor, de que a vossa bondade e misericórdia são
           eternas! Que os nossos inimigos nunca triunfem de nós. Ó Deus de
           Israel, livrai-nos de todas nossas angústias.{" "}
-          <Typography className="vernacular">Sl. ibid., 1-2</Typography> A Vós, Senhor,
-          elevei a minha alma: meu Deus, confio em Vós; não ficarei confundido.
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> A Vós,
+          Senhor, elevei a minha alma: meu Deus, confio em Vós; não ficarei
+          confundido.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -93,13 +94,13 @@ export default function PageQuad20() {
       <Language>
         <Typography className="latin">
           Tribulatiónes cordis mei dilatátæ sunt: de necessitátibus meis éripe
-          me, Dómine.<Typography className="versicle"> ℣. </Typography>Vide humilitátem meam
-          et labórem meum: et dimítte ómnia peccáta mea.
+          me, Dómine.<Typography className="versicle"> ℣. </Typography>Vide
+          humilitátem meam et labórem meum: et dimítte ómnia peccáta mea.
         </Typography>
         <Typography className="vernacular">
           As tribulações do meu coração cresceram. Ó Senhor, livrai-me das
-          minhas misérias.<Typography className="versicle"> ℣. </Typography>Vede a minha
-          humilhação e fadiga e perdoai os meus pecados.
+          minhas misérias.<Typography className="versicle"> ℣. </Typography>Vede
+          a minha humilhação e fadiga e perdoai os meus pecados.
         </Typography>
       </Language>
 
@@ -110,22 +111,23 @@ export default function PageQuad20() {
       <Language>
         <Typography className="latin">
           Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia
-          ejus.<Typography className="versicle"> ℣. </Typography>Quis loquétur poténtias
-          Dómini: audítas fáciet omnes laudes ejus?
-          <Typography className="versicle"> ℣. </Typography>Beáti, qui custódiunt judícium
-          et fáciunt justítiam in omni témpore.
-          <Typography className="versicle"> ℣. </Typography>Meménto nostri, Dómine, in
-          beneplácito pópuli tui: vísita nos in salutári tuo.
+          ejus.<Typography className="versicle"> ℣. </Typography>Quis loquétur
+          poténtias Dómini: audítas fáciet omnes laudes ejus?
+          <Typography className="versicle"> ℣. </Typography>Beáti, qui
+          custódiunt judícium et fáciunt justítiam in omni témpore.
+          <Typography className="versicle"> ℣. </Typography>Meménto nostri,
+          Dómine, in beneplácito pópuli tui: vísita nos in salutári tuo.
         </Typography>
         <Typography className="vernacular">
           Louvai o Senhor, pois Ele é bom: a sua misericórdia é eterna.
           <Typography className="versicle"> ℣. </Typography>
           Quem será capaz de narrar as maravilhas da omnipotência do Senhor e
-          apregoar os seus louvores?<Typography className="versicle"> ℣. </Typography>
+          apregoar os seus louvores?
+          <Typography className="versicle"> ℣. </Typography>
           Bem-aventurados aqueles que procedem com equidade e justiça em todas
-          as ocasiões.<Typography className="versicle"> ℣. </Typography>Pela vossa bondade
-          para com vosso povo, Senhor, lembrai-Vos de nós: visitai-nos para
-          alcançarmos a salvação.
+          as ocasiões.<Typography className="versicle"> ℣. </Typography>Pela
+          vossa bondade para com vosso povo, Senhor, lembrai-Vos de nós:
+          visitai-nos para alcançarmos a salvação.
         </Typography>
       </Language>
 
@@ -135,12 +137,12 @@ export default function PageQuad20() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Assúmpsit Jesus Petrum, et Jacóbum, et Joánnem

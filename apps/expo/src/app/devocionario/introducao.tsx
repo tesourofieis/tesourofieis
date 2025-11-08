@@ -115,7 +115,9 @@ export default function PageIntroducao() {
         «Senhor, seja feita vossa santíssima vontade»;
       </Typography>
 
-      <Typography className="vernacular">«Meu Jesus, eu quero ser todo vosso»;</Typography>
+      <Typography className="vernacular">
+        «Meu Jesus, eu quero ser todo vosso»;
+      </Typography>
 
       <Typography className="vernacular">«Meu Jesus, misericórdia»;</Typography>
 

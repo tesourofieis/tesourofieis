@@ -8,7 +8,9 @@ export default function PageCristorei() {
     <PageWrapper>
       <H1 text="Prefácio de N. S. Jesus Cristo-Rei" />
 
-      <Typography className="aside">Diz-se na Missa de N. S. Jesus Cristo-Rei.</Typography>
+      <Typography className="aside">
+        Diz-se na Missa de N. S. Jesus Cristo-Rei.
+      </Typography>
 
       <Language>
         <Typography className="latin">

@@ -32,15 +32,16 @@ export default function Page0502() {
         <Typography className="latin">
           In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu
           sapiéntiæ et intelléctus: stolam glóriæ índuit eum, allelúja,
-          allelúja. <Typography className="latin">Ps. 91, 2</Typography> Bonum est confitéri
-          Dómino: et psállere nómini tuo, Altíssime.
+          allelúja. <Typography className="latin">Ps. 91, 2</Typography> Bonum
+          est confitéri Dómino: et psállere nómini tuo, Altíssime.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Abriu-lhe o Senhor a boca no meio da Igreja e encheu-o com o espírito
           da sabedoria e da inteligência: cobriu-o com o manto da glória,
-          aleluia, aleluia. <Typography className="vernacular">Sl. 91, 2</Typography> É bom
-          louvar o Senhor e cantar o vosso nome, ó Altíssimo.
+          aleluia, aleluia.{" "}
+          <Typography className="vernacular">Sl. 91, 2</Typography> É bom louvar
+          o Senhor e cantar o vosso nome, ó Altíssimo.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -107,21 +108,21 @@ export default function Page0502() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 109, 4</Typography> Tu es sacérdos in ætérnum,
-          secúndum órdinem Melchísedech. Allelúja.
+          <Typography className="latin">Ps. 109, 4</Typography> Tu es sacérdos
+          in ætérnum, secúndum órdinem Melchísedech. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Jac. 1, 12</Typography> Beátus vir, qui suffert
-          tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ.
-          Allelúja.
+          <Typography className="em">Jac. 1, 12</Typography> Beátus vir, qui
+          suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam
+          vitæ. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 109, 4</Typography> Tu és sacerdote para
-          sempre, segundo a ordem de Melquisedeque! Aleluia.
+          <Typography className="vernacular">Sl. 109, 4</Typography> Tu és
+          sacerdote para sempre, segundo a ordem de Melquisedeque! Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Tg. 1, 12</Typography> Bem-aventurado o varão que sofre
-          tentação; pois, quando acabar a tentação, receberá a coroa da vida.
-          Aleluia.
+          <Typography className="em">Tg. 1, 12</Typography> Bem-aventurado o
+          varão que sofre tentação; pois, quando acabar a tentação, receberá a
+          coroa da vida. Aleluia.
         </Typography>
       </Language>
 

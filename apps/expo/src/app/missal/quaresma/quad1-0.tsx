@@ -16,16 +16,17 @@ export default function PageQuad10() {
         <Typography className="latin">
           Invocábit me, et ego exáudiam eum: erípiam eum, et glorificábo eum:
           longitúdine diérum adimplébo eum.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Qui hábitat in adjutório
-          Altíssimi, in protectióne Dei cœli commorábitur.
+          <Typography className="latin">Ps. ibid., 1</Typography> Qui hábitat in
+          adjutório Altíssimi, in protectióne Dei cœli commorábitur.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Invocar-me-á, e ouvi-lo-ei: livrá-lo-ei, e glorificá-lo-ei:
           conceder-lhe-ei longa vida.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Aquele que habita à
-          sombra do Altíssimo descansará sob a protecção de Deus do céu.
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Aquele
+          que habita à sombra do Altíssimo descansará sob a protecção de Deus do
+          céu.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -101,13 +102,13 @@ export default function PageQuad10() {
       <Language>
         <Typography className="latin">
           Angelis suis Deus mandávit de te, ut custódiant te in ómnibus viis
-          tuis.<Typography className="versicle"> ℣. </Typography>In mánibus portábunt te, ne
-          umquam offéndas ad lápidem pedem tuum.
+          tuis.<Typography className="versicle"> ℣. </Typography>In mánibus
+          portábunt te, ne umquam offéndas ad lápidem pedem tuum.
         </Typography>
         <Typography className="vernacular">
           Deus ordenou aos seus Anjos que te guardassem em todos teus caminhos.
-          <Typography className="versicle"> ℣. </Typography>Levar-te-ão nas suas mãos, para
-          que não tropeces nas pedras.
+          <Typography className="versicle"> ℣. </Typography>Levar-te-ão nas suas
+          mãos, para que não tropeces nas pedras.
         </Typography>
       </Language>
 
@@ -118,57 +119,62 @@ export default function PageQuad10() {
       <Language>
         <Typography className="latin">
           Qui hábitat in adjutório Altíssimi, in protectióne Dei cœli
-          commorántur.<Typography className="versicle"> ℣. </Typography>Dicet Dómino:
-          Suscéptor meus es tu et refúgium meum: Deus meus, sperábo in eum.
-          <Typography className="versicle"> ℣. </Typography>Quóniam ipse liberávit me de
-          láqueo venántium et a verbo áspero.
-          <Typography className="versicle"> ℣. </Typography>Scápulis suis obumbrábit tibi,
-          et sub pennis ejus sperábis.
+          commorántur.<Typography className="versicle"> ℣. </Typography>Dicet
+          Dómino: Suscéptor meus es tu et refúgium meum: Deus meus, sperábo in
+          eum.
+          <Typography className="versicle"> ℣. </Typography>Quóniam ipse
+          liberávit me de láqueo venántium et a verbo áspero.
+          <Typography className="versicle"> ℣. </Typography>Scápulis suis
+          obumbrábit tibi, et sub pennis ejus sperábis.
           <Typography className="versicle"> ℣. </Typography>
           Scuto circúmdabit te véritas ejus: non timébis a timóre noctúrno.
-          <Typography className="versicle"> ℣. </Typography>A sagítta volánte per diem, a
-          negótio perambulánte in ténebris, a ruína et dæmónio meridiáno.
-          <Typography className="versicle"> ℣. </Typography>Cadent a látere tuo mille, et
-          decem mília a dextris tuis: tibi autem non appropinquábit.
-          <Typography className="versicle"> ℣. </Typography>Quóniam Angelis suis mandávit de
-          te, ut custódiant te in ómnibus viis tuis.
-          <Typography className="versicle"> ℣. </Typography>In mánibus portábunt te, ne
-          umquam offéndas ad lápidem pedem tuum.
+          <Typography className="versicle"> ℣. </Typography>A sagítta volánte
+          per diem, a negótio perambulánte in ténebris, a ruína et dæmónio
+          meridiáno.
+          <Typography className="versicle"> ℣. </Typography>Cadent a látere tuo
+          mille, et decem mília a dextris tuis: tibi autem non appropinquábit.
+          <Typography className="versicle"> ℣. </Typography>Quóniam Angelis suis
+          mandávit de te, ut custódiant te in ómnibus viis tuis.
+          <Typography className="versicle"> ℣. </Typography>In mánibus portábunt
+          te, ne umquam offéndas ad lápidem pedem tuum.
           <Typography className="versicle"> ℣. </Typography>
           Super áspidem et basilíscum ambulábis, et conculcábis leónem et
-          dracónem.<Typography className="versicle"> ℣. </Typography>Quóniam in me sperávit,
-          liberábo eum: prótegam eum, quóniam cognóvit nomen meum.
-          <Typography className="versicle"> ℣. </Typography>Invocábit me, et ego exáudiam
-          eum: cum ipso sum in tribulatióne.
-          <Typography className="versicle"> ℣. </Typography>Erípiam eum et glorificábo eum:
-          longitúdine diérum adimplébo eum, et osténdam illi salutáre meum.
+          dracónem.<Typography className="versicle"> ℣. </Typography>Quóniam in
+          me sperávit, liberábo eum: prótegam eum, quóniam cognóvit nomen meum.
+          <Typography className="versicle"> ℣. </Typography>Invocábit me, et ego
+          exáudiam eum: cum ipso sum in tribulatióne.
+          <Typography className="versicle"> ℣. </Typography>Erípiam eum et
+          glorificábo eum: longitúdine diérum adimplébo eum, et osténdam illi
+          salutáre meum.
         </Typography>
         <Typography className="vernacular">
           Aquele que habita à sombra do Altíssimo descansará sob a protecção de
-          Deus do céu.<Typography className="versicle"> ℣. </Typography>Ele dirá ao Senhor:
-          sois o meu protector e o meu refúgio; sois o meu Deus, em quem confio!
-          <Typography className="versicle"> ℣. </Typography>Pois livrastes-me do laço do
-          caçador e das palavras funestas!
-          <Typography className="versicle"> ℣. </Typography>O Senhor te acolherá sob a sua
-          protecção: agasalhar-te-á sob as suas asas!
+          Deus do céu.<Typography className="versicle"> ℣. </Typography>Ele dirá
+          ao Senhor: sois o meu protector e o meu refúgio; sois o meu Deus, em
+          quem confio!
+          <Typography className="versicle"> ℣. </Typography>Pois livrastes-me do
+          laço do caçador e das palavras funestas!
+          <Typography className="versicle"> ℣. </Typography>O Senhor te acolherá
+          sob a sua protecção: agasalhar-te-á sob as suas asas!
           <Typography className="versicle"> ℣. </Typography>
           Sua fidelidade é como um escudo: livrar-te-á dos terrores da noite; da
           seta, que voa de dia; das traições, que se tramam durante a noite; e
           dos assaltos do demónio, em pleno meio-dia.
           <Typography className="versicle"> ℣. </Typography>
           Cairão mil à tua esquerda e dez mil à tua direita; mas tu não serás
-          atingido!<Typography className="versicle"> ℣. </Typography>Pois Deus ordenou aos
-          seus Anjos que te guardassem em todos teus caminhos.
-          <Typography className="versicle"> ℣. </Typography>Levar-te-ão nas suas mãos para
-          que não tropeces nas pedras.
+          atingido!<Typography className="versicle"> ℣. </Typography>Pois Deus
+          ordenou aos seus Anjos que te guardassem em todos teus caminhos.
+          <Typography className="versicle"> ℣. </Typography>Levar-te-ão nas suas
+          mãos para que não tropeces nas pedras.
           <Typography className="versicle"> ℣. </Typography>
           Caminharás sobre a víbora e o basilisco; pisarás o leão e o dragão.
-          <Typography className="versicle"> ℣. </Typography>Visto que esperou em mim,
-          livrá-lo-ei; e protegê-lo-ei, pois, conhece e invoca o meu nome.
-          <Typography className="versicle"> ℣. </Typography>Invocar-me-á e ouvi-lo-ei:
-          estarei com ele nos dias da tribulação.
-          <Typography className="versicle"> ℣. </Typography>Livrá-lo-ei e glorificá-lo-ei,
-          conceder-lhe-ei longa vida e mostrar-lhe-ei a minha salvação.
+          <Typography className="versicle"> ℣. </Typography>Visto que esperou em
+          mim, livrá-lo-ei; e protegê-lo-ei, pois, conhece e invoca o meu nome.
+          <Typography className="versicle"> ℣. </Typography>Invocar-me-á e
+          ouvi-lo-ei: estarei com ele nos dias da tribulação.
+          <Typography className="versicle"> ℣. </Typography>Livrá-lo-ei e
+          glorificá-lo-ei, conceder-lhe-ei longa vida e mostrar-lhe-ei a minha
+          salvação.
         </Typography>
       </Language>
 
@@ -178,12 +184,12 @@ export default function PageQuad10() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Ductus est Jesus in desértum a Spíritu, ut tentarétur

@@ -16,15 +16,15 @@ export default function Page1227() {
         <Typography className="latin">
           In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu
           sapiéntiæ et intelléctus: stolam glóriæ índuit eum.{" "}
-          <Typography className="latin">Ps. 91, 2</Typography> Bonum est confitéri Dómino:
-          et psállere nómini tuo, Altíssime.
+          <Typography className="latin">Ps. 91, 2</Typography> Bonum est
+          confitéri Dómino: et psállere nómini tuo, Altíssime.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Abriu-lhe o Senhor a boca no meio da Igreja, encheu-o com o espírito
           da sabedoria e da inteligência e revestiu-o com a túnica da glória.{" "}
-          <Typography className="vernacular">Sl. 91, 2</Typography> É bom louvar o Senhor: e
-          cantar hinos em honra do vosso nome, ó Altíssimo!
+          <Typography className="vernacular">Sl. 91, 2</Typography> É bom louvar
+          o Senhor: e cantar hinos em honra do vosso nome, ó Altíssimo!
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -50,7 +50,9 @@ export default function Page1227() {
 
       <Language>
         <Typography className="latin">Lectio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Qui timet Deum, fáciet bona: et qui cóntinens est justítiæ,
           apprehéndet illam, et obviábit illi quasi mater honorificáta. Cibábit
@@ -90,19 +92,19 @@ export default function Page1227() {
         <Typography className="vernacular">
           Espalhou-se entre os irmãos a notícia de que aquele discípulo não
           morreria. Ora Jesus não disse: «Não morrerá».
-          <Typography className="versicle"> ℣. </Typography>Mas disse: «Quero que permaneça
-          assim, até que eu venha: E tu, segue-me».
+          <Typography className="versicle"> ℣. </Typography>Mas disse: «Quero
+          que permaneça assim, até que eu venha: E tu, segue-me».
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 24</Typography> Hic est discípulus ille, qui
-          testimónium pérhibet de his: et scimus, quia verum est testimónium
-          ejus. Allelúja.
+          <Typography className="latin">ibid., 24</Typography> Hic est
+          discípulus ille, qui testimónium pérhibet de his: et scimus, quia
+          verum est testimónium ejus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 24</Typography> Este é o próprio
-          discípulo que dá testemunho destas coisas; e sabemos que seu
+          <Typography className="vernacular">ibid., 24</Typography> Este é o
+          próprio discípulo que dá testemunho destas coisas; e sabemos que seu
           testemunho é verdadeiro. Aleluia.
         </Typography>
       </Language>
@@ -113,12 +115,12 @@ export default function Page1227() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joannem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joannem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus Petro: Séquere me. Convérsus Petrus vidit

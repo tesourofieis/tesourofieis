@@ -9,7 +9,9 @@ export default function Page062() {
       <H1 text="Salmo 62" />
 
       <Language>
-        <Typography className="latin">Deus, Deus meus, * ad Te de luce vígilo.</Typography>
+        <Typography className="latin">
+          Deus, Deus meus, * ad Te de luce vígilo.
+        </Typography>
         <Typography className="vernacular">
           Ó Deus, ó meu Deus, * a Vós vigio desde a aurora.
         </Typography>

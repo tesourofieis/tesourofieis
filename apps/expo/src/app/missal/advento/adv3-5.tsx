@@ -16,8 +16,8 @@ export default function PageAdv35() {
         <Typography className="latin">
           Prope es tu, Dómine, et omnes viæ tuæ véritas: inítio cognóvi de
           testimóniis tuis, quia in ætérnum tu es.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Beati immaculáti in via:
-          qui ámbulant in lege Dómini.
+          <Typography className="latin">Ps. ibid., 1</Typography> Beati
+          immaculáti in via: qui ámbulant in lege Dómini.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
@@ -25,8 +25,8 @@ export default function PageAdv35() {
           o princípio que conheço os vossos ensinos, porque os ensinastes desde
           sempre. <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
           Bem-aventurados os que procedem sem mácula em seus caminhos: e os que
-          caminham na lei do Senhor.<Typography className="versicle"> ℣. </Typography>Glória
-          ao Pai...
+          caminham na lei do Senhor.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
@@ -83,8 +83,8 @@ export default function PageAdv35() {
       <Language>
         <Typography className="latin">
           Osténde nobis, Dómine, misericórdiam tuam: et salutáre tuum da nobis.
-          <Typography className="versicle"> ℣. </Typography>Benedixísti, Dómine, terram
-          tuam: avertísti captivitátem Jacob.
+          <Typography className="versicle"> ℣. </Typography>Benedixísti, Dómine,
+          terram tuam: avertísti captivitátem Jacob.
         </Typography>
         <Typography className="vernacular">
           Mostrai-nos, Senhor, a vossa misericórdia; e dai-nos a vossa salvação.
@@ -98,12 +98,12 @@ export default function PageAdv35() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo tempore: Exsúrgens María ábiit in montána cum festinatióne in

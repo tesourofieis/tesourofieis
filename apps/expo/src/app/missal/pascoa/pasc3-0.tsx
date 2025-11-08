@@ -16,18 +16,19 @@ export default function PagePasc30() {
         <Typography className="latin">
           Jubiláte Deo, omnis terra, allelúja: psalmum dícite nómini ejus,
           allelúja: date glóriam laudi ejus, allelúja, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. ibid., 3</Typography> Dícite Deo, quam
-          terribília sunt ópera tua, Dómine! in multitúdine virtútis tuæ
-          mentiéntur tibi inimíci tui.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. ibid., 3</Typography> Dícite Deo,
+          quam terribília sunt ópera tua, Dómine! in multitúdine virtútis tuæ
+          mentiéntur tibi inimíci tui.
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Que todos os povos da terra entoem cânticos de alegria em honra de
           Deus, aleluia: cantai a glória do seu nome, aleluia: rendei honra e
           louvor ao Senhor, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. ibid., 3</Typography> Dizei a Deus: «Quão
-          admiráveis, Senhor, são as vossas obras! Tão grande é o vosso poder,
-          que sois glorificado até pelos vossos inimigos!».
+          <Typography className="vernacular">Sl. ibid., 3</Typography> Dizei a
+          Deus: «Quão admiráveis, Senhor, são as vossas obras! Tão grande é o
+          vosso poder, que sois glorificado até pelos vossos inimigos!».
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -54,8 +55,12 @@ export default function PagePasc30() {
       <Typography className="em">1 Pe. 2, 11-19</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Petri Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Pedro.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Obsecro vos tamquam ádvenas et peregrínos abstinére vos a
           carnálibus desidériis, quæ mílitant advérsus ánimam, conversatiónem
@@ -95,17 +100,19 @@ export default function PagePasc30() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 110, 9</Typography> Redemptiónem misit Dóminus
-          pópulo suo. Allelúja. <Typography className="em">Luc. 24, 46</Typography>{" "}
-          Oportebat pati Christum, et resúrgere a mórtuis: et ita intráre in
-          glóriam suam. Allelúja.
+          <Typography className="latin">Ps. 110, 9</Typography> Redemptiónem
+          misit Dóminus pópulo suo. Allelúja.{" "}
+          <Typography className="em">Luc. 24, 46</Typography> Oportebat pati
+          Christum, et resúrgere a mórtuis: et ita intráre in glóriam suam.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 110, 9</Typography> O Senhor mandou a
-          salvação ao seu povo. Aleluia. <Typography className="em">Lc. 24, 46</Typography>{" "}
-          Era preciso que Cristo sofresse, para que depois ressuscitasse dos
-          mortos e entrasse assim na glória, aleluia.
+          <Typography className="vernacular">Sl. 110, 9</Typography> O Senhor
+          mandou a salvação ao seu povo. Aleluia.{" "}
+          <Typography className="em">Lc. 24, 46</Typography> Era preciso que
+          Cristo sofresse, para que depois ressuscitasse dos mortos e entrasse
+          assim na glória, aleluia.
         </Typography>
       </Language>
 
@@ -115,12 +122,12 @@ export default function PagePasc30() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Módicum, et jam non

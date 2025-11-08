@@ -138,8 +138,12 @@ export default function PageUniversal() {
           Fazei-me preparar a morte, temer o juízo, evitar o inferno e alcançar
           o Paraíso.
         </Typography>
-        <Typography className="latin">Per Christum Dominum nostrum. Amen.</Typography>
-        <Typography className="vernacular">Por Cristo Nosso Senhor. Amen.</Typography>
+        <Typography className="latin">
+          Per Christum Dominum nostrum. Amen.
+        </Typography>
+        <Typography className="vernacular">
+          Por Cristo Nosso Senhor. Amen.
+        </Typography>
       </Language>
     </PageWrapper>
   );

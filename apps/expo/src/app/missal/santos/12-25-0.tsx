@@ -15,14 +15,15 @@ export default function Page12250() {
       <Language>
         <Typography className="latin">
           Dóminus dixit ad me: Fílius meus es tu, ego hódie génui te.{" "}
-          <Typography className="latin">Ps. ib., 1</Typography> Quare fremuérunt gentes: et
-          pópuli meditáti sunt inánia?
+          <Typography className="latin">Ps. ib., 1</Typography> Quare fremuérunt
+          gentes: et pópuli meditáti sunt inánia?
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Senhor disse-me: Sois o meu Filho: Eu Vos gerei hoje.{" "}
-          <Typography className="vernacular">Sl. ib., 1</Typography> Porque se agitaram as
-          nações? Porque meditaram os povos vãos projectos contra mim?
+          <Typography className="vernacular">Sl. ib., 1</Typography> Porque se
+          agitaram as nações? Porque meditaram os povos vãos projectos contra
+          mim?
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -85,8 +86,9 @@ export default function Page12250() {
         <Typography className="latin">
           Tecum princípium in die virtútis tuæ: in splendóribus Sanctórum, ex
           útero ante lucíferum génui te.
-          <Typography className="versicle"> ℣. </Typography>Dixit Dóminus Dómino meo: Sede a
-          dextris meis: donec ponam inimícos tuos, scabéllum pedum tuórum.
+          <Typography className="versicle"> ℣. </Typography>Dixit Dóminus Dómino
+          meo: Sede a dextris meis: donec ponam inimícos tuos, scabéllum pedum
+          tuórum.
         </Typography>
         <Typography className="vernacular">
           Em Vós estará o poder soberano no dia do vosso império, no meio dos
@@ -96,13 +98,13 @@ export default function Page12250() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 2, 7</Typography> Dóminus dixit ad me: Fílius
-          meus es tu, ego hódie génui te. Allelúja.
+          <Typography className="latin">Ps. 2, 7</Typography> Dóminus dixit ad
+          me: Fílius meus es tu, ego hódie génui te. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 2, 7</Typography> O Senhor disse-me: «Vós
-          sois o meu Filho; gerei-Vos hoje». Aleluia.
+          <Typography className="vernacular">Sl. 2, 7</Typography> O Senhor
+          disse-me: «Vós sois o meu Filho; gerei-Vos hoje». Aleluia.
         </Typography>
       </Language>
 
@@ -112,12 +114,12 @@ export default function Page12250() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Exiit edíctum a Cǽsare Augústo, ut describerétur

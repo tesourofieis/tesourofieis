@@ -41,7 +41,9 @@ export default function PagePedropaulo() {
 
       <Language>
         <Typography className="latin">Léctio Actuum Apostolorum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Per manus Apostolórum fiébant signa et prodígia multa
           in plebe. Et erant unanímiter omnes in pórticu Salomónis. Ceterórum
@@ -75,8 +77,9 @@ export default function PagePedropaulo() {
       <Language>
         <Typography className="latin">
           Constítues eos príncipes super omnem terram: mémores erunt nóminis
-          tui, Dómine.<Typography className="versicle"> ℣. </Typography>Pro pátribus tuis
-          nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.
+          tui, Dómine.<Typography className="versicle"> ℣. </Typography>Pro
+          pátribus tuis nati sunt tibi fílii: proptérea pópuli confitebúntur
+          tibi.
         </Typography>
         <Typography className="vernacular">
           Vós os instituístes príncipes em todo o universo: e eles perpetuarão a
@@ -87,13 +90,14 @@ export default function PagePedropaulo() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 138, 17</Typography> Nimis honoráti sunt amíci
-          tui, Deus: nimis confortátus est principátus eórum. Allelúja.
+          <Typography className="latin">Ps. 138, 17</Typography> Nimis honoráti
+          sunt amíci tui, Deus: nimis confortátus est principátus eórum.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 138, 17</Typography> Honrais largamente os
-          vossos amigos, ó Deus; o seu poder tem-se fortalecido
+          <Typography className="vernacular">Sl. 138, 17</Typography> Honrais
+          largamente os vossos amigos, ó Deus; o seu poder tem-se fortalecido
           extraordinariamente. Aleluia.
         </Typography>
       </Language>
@@ -109,14 +113,16 @@ export default function PagePedropaulo() {
       <Language>
         <Typography className="latin">
           Qui séminant in lácrimis, in gáudio metent.
-          <Typography className="versicle"> ℣. </Typography>Eúntes ibant et flébant,
-          mitténtes sémina sua.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="versicle"> ℣. </Typography>Eúntes ibant et
+          flébant, mitténtes sémina sua.
+          <Typography className="versicle"> ℣. </Typography>
           Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.
         </Typography>
         <Typography className="vernacular">
           Aqueles que semeiam com lágrimas, colherão com risos.
-          <Typography className="versicle"> ℣. </Typography>Iam chorando e lançando à terra
-          as suas sementes:<Typography className="versicle"> ℣. </Typography>Mas, quando
+          <Typography className="versicle"> ℣. </Typography>Iam chorando e
+          lançando à terra as suas sementes:
+          <Typography className="versicle"> ℣. </Typography>Mas, quando
           regressaram, vinham alegres, transportando feixes do seu trigo.
         </Typography>
       </Language>

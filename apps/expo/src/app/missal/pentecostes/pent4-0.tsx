@@ -17,16 +17,16 @@ export default function PagePent40() {
           Dóminus illuminátio mea et salus mea, quem timebo? Dóminus defensor
           vitæ meæ, a quo trepidábo? qui tríbulant me inimíci mei, ipsi
           infirmáti sunt, et cecidérunt.{" "}
-          <Typography className="latin">Ps. ibid., 3</Typography> Si consístant advérsum me
-          castra: non timébit cor meum.
+          <Typography className="latin">Ps. ibid., 3</Typography> Si consístant
+          advérsum me castra: non timébit cor meum.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Senhor é a minha luz e a minha salvação: a quem, pois, temerei? O
           Senhor é o defensor da minha vida: quem poderá intimidar-me? Meus
           inimigos, que me atribulam, enfraqueceram e caíram.{" "}
-          <Typography className="vernacular">Sl. ibid., 3</Typography> Ainda que um exército
-          me cercasse, o meu coração não temeria.
+          <Typography className="vernacular">Sl. ibid., 3</Typography> Ainda que
+          um exército me cercasse, o meu coração não temeria.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -93,8 +93,9 @@ export default function PagePent40() {
       <Language>
         <Typography className="latin">
           Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi
-          est Deus eórum?<Typography className="versicle"> ℣. </Typography>Adjuva nos, Deus,
-          salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos.
+          est Deus eórum?<Typography className="versicle"> ℣. </Typography>
+          Adjuva nos, Deus, salutáris noster: et propter honórem nóminis tui,
+          Dómine, líbera nos.
         </Typography>
         <Typography className="vernacular">
           Perdoai os nossos pecados, Senhor, para que os povos não digam: Onde
@@ -104,15 +105,15 @@ export default function PagePent40() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 9, 5 & 10</Typography> Deus, qui sedes su per
-          thronum, et júdicas æquitátem: esto refúgium páuperum in tribulatióne.
-          Allelúja.
+          <Typography className="latin">Ps. 9, 5 & 10</Typography> Deus, qui
+          sedes su per thronum, et júdicas æquitátem: esto refúgium páuperum in
+          tribulatióne. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 9, 5 & 10 Ó</Typography> Deus, que estais
-          assentado no vosso trono e julgais com justiça, sede o refúgio dos
-          pobres na tribulação. Aleluia.
+          <Typography className="vernacular">Sl. 9, 5 & 10 Ó</Typography> Deus,
+          que estais assentado no vosso trono e julgais com justiça, sede o
+          refúgio dos pobres na tribulação. Aleluia.
         </Typography>
       </Language>
 
@@ -122,12 +123,12 @@ export default function PagePent40() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Cum turbæ irrúerent in Jesum, ut audírent verbum Dei,

@@ -31,10 +31,11 @@ export default function Page1028() {
       <Language>
         <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est
-          principátus eórum. <Typography className="latin">Ps. ibid., 1-2</Typography>{" "}
-          Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et
-          resurrectiónem meam.<Typography className="versicle"> ℣. </Typography>Gloria
-          Patri...
+          principátus eórum.{" "}
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Dómine,
+          probásti me et cognovísti me: tu cognovísti sessiónem meam et
+          resurrectiónem meam.<Typography className="versicle"> ℣. </Typography>
+          Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Eu vejo, ó Deus, que honrais largamente os vossos amigos: e que seu
@@ -110,24 +111,26 @@ export default function Page1028() {
       <Language>
         <Typography className="latin">
           Constítues eos príncipes super omnem terram: mémores erunt nóminis
-          tui, Dómine.<Typography className="versicle"> ℣. </Typography>Pro pátribus tuis
-          nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.
+          tui, Dómine.<Typography className="versicle"> ℣. </Typography>Pro
+          pátribus tuis nati sunt tibi fílii: proptérea pópuli confitebúntur
+          tibi.
         </Typography>
         <Typography className="vernacular">
           Vós os instituístes príncipes em todo o universo: e eles, Senhor,
           perpetuarão a glória do vosso nome em toda a terra.
-          <Typography className="versicle"> ℣. </Typography>Para substituir os vossos pais,
-          nascer-vos-ão filhos: pelo que os povos vos louvarão.
+          <Typography className="versicle"> ℣. </Typography>Para substituir os
+          vossos pais, nascer-vos-ão filhos: pelo que os povos vos louvarão.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 138, 17</Typography> Nimis honoráti sunt amíci
-          tui, Deus: nimis confortátus est principátus eórum. Allelúja.
+          <Typography className="latin">Ps. 138, 17</Typography> Nimis honoráti
+          sunt amíci tui, Deus: nimis confortátus est principátus eórum.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 138, 17</Typography> Honrais largamente os
-          vossos filhos, ó Deus; o seu poder tem-se fortalecido
+          <Typography className="vernacular">Sl. 138, 17</Typography> Honrais
+          largamente os vossos filhos, ó Deus; o seu poder tem-se fortalecido
           extraordinariamente. Aleluia.
         </Typography>
       </Language>
@@ -138,12 +141,12 @@ export default function Page1028() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Hæc mando vobis, ut

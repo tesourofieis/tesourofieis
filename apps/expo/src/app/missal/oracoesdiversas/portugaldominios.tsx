@@ -18,13 +18,13 @@ export default function PagePortugaldominios() {
         <Typography className="text-red-500">N.</Typography> o nosso Patriarca{" "}
         <Typography className="text-red-500">N.</Typography> (Arcebispo{" "}
         <Typography className="text-red-500">N.</Typography> ou Bispo{" "}
-        <Typography className="text-red-500">N.</Typography>) , o nosso Presidente e os
-        nossos Governantes, assim como o povo que lhes foi confiado e o seu
-        exército; concedei a paz e a prosperidade aos nossos tempos e afastai da
-        nossa Igreja toda a maldade, destruindo a soberba dos pagãos e dos
-        hereges com o poder da vossa dextra. (Por nosso Senhor... ou Pelo mesmo
-        nosso Senhor segundo a conclusão da Oração, da Secreta ou do Postcomúnio
-        a que fica acrescentada) ADVERTÊNCIAS:
+        <Typography className="text-red-500">N.</Typography>) , o nosso
+        Presidente e os nossos Governantes, assim como o povo que lhes foi
+        confiado e o seu exército; concedei a paz e a prosperidade aos nossos
+        tempos e afastai da nossa Igreja toda a maldade, destruindo a soberba
+        dos pagãos e dos hereges com o poder da vossa dextra. (Por nosso
+        Senhor... ou Pelo mesmo nosso Senhor segundo a conclusão da Oração, da
+        Secreta ou do Postcomúnio a que fica acrescentada) ADVERTÊNCIAS:
       </Typography>
       <Typography className="aside">
         Se a Missa tiver uma única Oração, dir-se-á esta Colecta imediatamente à

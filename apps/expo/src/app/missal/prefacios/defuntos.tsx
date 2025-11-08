@@ -8,7 +8,9 @@ export default function PageDefuntos() {
     <PageWrapper>
       <H1 text="Prefácio dos Defuntos" />
 
-      <Typography className="aside">Diz-se em todas as Missas de Réquiem.</Typography>
+      <Typography className="aside">
+        Diz-se em todas as Missas de Réquiem.
+      </Typography>
 
       <Language>
         <Typography className="latin">

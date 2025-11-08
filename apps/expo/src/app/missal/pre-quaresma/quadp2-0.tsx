@@ -17,8 +17,8 @@ export default function PageQuadp10() {
           Exsúrge, quare obdórmis, Dómine? exsúrge, et ne repéllas in finem:
           quare fáciem tuam avértis, oblivísceris tribulatiónem nostram? adhǽsit
           in terra venter noster: exsúrge, Dómine, ádjuva nos, et líbera nos.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Deus, áuribus nostris
-          audívimus: patres nostri annuntiavérunt nobis.
+          <Typography className="latin">Ps. ibid., 2</Typography> Deus, áuribus
+          nostris audívimus: patres nostri annuntiavérunt nobis.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
@@ -26,9 +26,10 @@ export default function PageQuadp10() {
           desampareis para sempre. Porque afastais de nós a vossa face e
           esqueceis a nossa tribulação? O nosso peito está oprimido pela terra.
           Levantai-Vos, Senhor, socorrei-nos, salvai-nos.{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Ó Deus, nós ouvimos
-          com os nossos ouvidos; os nossos antepassados contaram-nos as vossas
-          maravilhas.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Ó Deus,
+          nós ouvimos com os nossos ouvidos; os nossos antepassados contaram-nos
+          as vossas maravilhas.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
@@ -153,14 +154,14 @@ export default function PageQuadp10() {
       <Language>
         <Typography className="latin">
           Sciant gentes, quóniam nomen tibi Deus: tu solus Altíssimus super
-          omnem terram,<Typography className="versicle"> ℣. </Typography>Deus meus, pone
-          illos ut rotam, et sicut stípulam ante fáciem venti.
+          omnem terram,<Typography className="versicle"> ℣. </Typography>Deus
+          meus, pone illos ut rotam, et sicut stípulam ante fáciem venti.
         </Typography>
         <Typography className="vernacular">
           Saibam as nações que o vosso nome é Deus; que só Vós sois o Altíssimo
-          em todo o mundo.<Typography className="versicle"> ℣. </Typography>Ó meu Deus,
-          tornai os meus inimigos semelhantes à roda, que gira sem cessar, ou à
-          palha, que o vento agita e arrebata.
+          em todo o mundo.<Typography className="versicle"> ℣. </Typography>Ó
+          meu Deus, tornai os meus inimigos semelhantes à roda, que gira sem
+          cessar, ou à palha, que o vento agita e arrebata.
         </Typography>
       </Language>
 
@@ -171,9 +172,9 @@ export default function PageQuadp10() {
       <Language>
         <Typography className="latin">
           Commovísti, Dómine, terram, et conturbásti eam.
-          <Typography className="versicle"> ℣. </Typography>Sana contritiónes ejus, quia
-          mota est.<Typography className="versicle"> ℣. </Typography>Ut fúgiant a fácie
-          arcus: ut liberéntur elécti tui.
+          <Typography className="versicle"> ℣. </Typography>Sana contritiónes
+          ejus, quia mota est.<Typography className="versicle"> ℣. </Typography>
+          Ut fúgiant a fácie arcus: ut liberéntur elécti tui.
         </Typography>
         <Typography className="vernacular">
           Senhor, abalastes e arruinastes a terra. Reparai as suas ruínas,
@@ -188,12 +189,12 @@ export default function PageQuadp10() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Cum turba plúrima convenírent, et de civitátibus

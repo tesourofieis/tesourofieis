@@ -80,15 +80,15 @@ export default function Page1102() {
       <Language>
         <Typography className="latin">
           Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.{" "}
-          <Typography className="latin">Ps. 64, 2-3</Typography> Te decet hymnus, Deus, in
-          Sion, et tibi reddétur votum in Jerúsalem: exáudi oratiónem meam, ad
-          te omnis caro véniet.
+          <Typography className="latin">Ps. 64, 2-3</Typography> Te decet
+          hymnus, Deus, in Sion, et tibi reddétur votum in Jerúsalem: exáudi
+          oratiónem meam, ad te omnis caro véniet.
         </Typography>
         <Typography className="vernacular">
           Dai-lhes, Senhor, o eterno repouso, e que lhes resplandeça a luz
-          perpétua. <Typography className="vernacular">Sl. 64, 2-3</Typography> A Vós,
-          Senhor, dirigimos estes hinos em Sião: e oferecemos estes votos em
-          Jerusalém: ouvi a minha oração: todas as criaturas devem comparecer
+          perpétua. <Typography className="vernacular">Sl. 64, 2-3</Typography>{" "}
+          A Vós, Senhor, dirigimos estes hinos em Sião: e oferecemos estes votos
+          em Jerusalém: ouvi a minha oração: todas as criaturas devem comparecer
           ante Vós.
         </Typography>
       </Language>
@@ -149,32 +149,32 @@ export default function Page1102() {
         <Typography className="latin">
           Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 111, 7</Typography> In memória ætérna erit
-          justus: ab auditióne mala non timébit.
+          <Typography className="latin">Ps. 111, 7</Typography> In memória
+          ætérna erit justus: ab auditióne mala non timébit.
         </Typography>
         <Typography className="vernacular">
           Dai-lhes, Senhor, o repouso eterno, e que lhes resplandeça a luz
           perpétua.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 111, 7</Typography> A recordação do homem
-          justo permanecerá eternamente; este não temerá ouvir as sentenças más
-          dos homens.
+          <Typography className="vernacular">Sl. 111, 7</Typography> A
+          recordação do homem justo permanecerá eternamente; este não temerá
+          ouvir as sentenças más dos homens.
         </Typography>
       </Language>
       <H3 text="Trato" />
       <Language>
         <Typography className="latin">
           Absólve, Dómine, ánimas ómnium fidélium defunctórum ab omni vínculo
-          delictórum.<Typography className="versicle"> ℣. </Typography>Et grátia tua illis
-          succurrénte, mereántur evádere judícium ultiónis.
-          <Typography className="versicle"> ℣. </Typography>Et lucis ætérnæ beatitúdine
-          pérfrui.
+          delictórum.<Typography className="versicle"> ℣. </Typography>Et grátia
+          tua illis succurrénte, mereántur evádere judícium ultiónis.
+          <Typography className="versicle"> ℣. </Typography>Et lucis ætérnæ
+          beatitúdine pérfrui.
         </Typography>
         <Typography className="vernacular">
           Livrai, Senhor, as almas dos fiéis defuntos das cadeias dos seus
-          pecados:<Typography className="versicle"> ℣. </Typography>E que com o socorro da
-          vossa graça consigam evitar o juízo da vingança:
-          <Typography className="versicle"> ℣. </Typography>E gozem a bem-aventurança da luz
-          eterna.
+          pecados:<Typography className="versicle"> ℣. </Typography>E que com o
+          socorro da vossa graça consigam evitar o juízo da vingança:
+          <Typography className="versicle"> ℣. </Typography>E gozem a
+          bem-aventurança da luz eterna.
         </Typography>
       </Language>
       <H3 text="Sequência" />
@@ -337,12 +337,12 @@ export default function Page1102() {
       <Typography className="em">Jo. 5, 25-29</Typography>
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus turbis Judæórum: Amen, amen, dico vobis,
@@ -375,10 +375,10 @@ export default function Page1102() {
           leónis, ne absórbeat eas tártarus, ne cadant in obscúrum: sed sígnifer
           sanctus Míchaël repræséntet eas in lucem sanctam: Quam olim Abrahæ
           promisísti et sémini ejus.
-          <Typography className="versicle"> ℣. </Typography>Hóstias et preces tibi, Dómine,
-          laudis offérimus: tu súscipe pro animábus illis, quarum hódie memóriam
-          fácimus: fac eas, Dómine, de morte transíre ad vitam. * Quam olim
-          Abrahæ promisísti et sémini ejus.
+          <Typography className="versicle"> ℣. </Typography>Hóstias et preces
+          tibi, Dómine, laudis offérimus: tu súscipe pro animábus illis, quarum
+          hódie memóriam fácimus: fac eas, Dómine, de morte transíre ad vitam. *
+          Quam olim Abrahæ promisísti et sémini ejus.
         </Typography>
         <Typography className="vernacular">
           Senhor Jesus Cristo, Rei da glória, livrai as almas de todos os fiéis
@@ -387,10 +387,10 @@ export default function Page1102() {
           desse lugar tremendo; mas que S. Miguel, que é o porta-estandarte
           divino, as conduza até à luz santa. Como outrora prometestes a Abraão
           e à sua posteridade.
-          <Typography className="versicle"> ℣. </Typography>Vos oferecemos, Senhor, estas
-          hóstias e estas orações de louvor: aceitai-as pelas almas daqueles que
-          hoje comemoramos, e fazei-as passar da morte à vida: Como outrora
-          prometestes a Abraão e à sua posteridade.
+          <Typography className="versicle"> ℣. </Typography>Vos oferecemos,
+          Senhor, estas hóstias e estas orações de louvor: aceitai-as pelas
+          almas daqueles que hoje comemoramos, e fazei-as passar da morte à
+          vida: Como outrora prometestes a Abraão e à sua posteridade.
         </Typography>
       </Language>
       <H3 text="Secreta" />
@@ -412,16 +412,16 @@ export default function Page1102() {
       <Language>
         <Typography className="latin">
           Lux ætérna lúceat eis, Dómine: Cum Sanctis tuis in ætérnum: quia pius
-          es.<Typography className="versicle"> ℣. </Typography>Requiem ætérnam dona eis,
-          Dómine: et lux perpétua lúceat eis. Cum Sanctis tuis in ætérnum: quia
-          pius es.
+          es.<Typography className="versicle"> ℣. </Typography>Requiem ætérnam
+          dona eis, Dómine: et lux perpétua lúceat eis. Cum Sanctis tuis in
+          ætérnum: quia pius es.
         </Typography>
         <Typography className="vernacular">
           Que a luz eterna lhes resplandeça: Com os vossos Santos em todos os
           séculos, ó Senhor, pois sois bom.
-          <Typography className="versicle"> ℣. </Typography>Dai-lhes, Senhor, o eterno
-          repouso, e que a luz perpétua lhes resplandeça: Com os vossos santos
-          em todos os séculos, ó Senhor, pois sois misericordioso.
+          <Typography className="versicle"> ℣. </Typography>Dai-lhes, Senhor, o
+          eterno repouso, e que a luz perpétua lhes resplandeça: Com os vossos
+          santos em todos os séculos, ó Senhor, pois sois misericordioso.
         </Typography>
       </Language>
       <H3 text="Postcomúnio" />

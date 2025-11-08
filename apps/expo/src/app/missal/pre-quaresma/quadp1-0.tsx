@@ -16,17 +16,19 @@ export default function PageQuadp20() {
         <Typography className="latin">
           Circumdedérut me gémitus mortis, dolóres inférni circumdedérunt me: et
           in tribulatióne mea invocávi Dóminum, et exaudívit de templo sancto
-          suo vocem meam. <Typography className="latin">Ps. ibd., 2-3</Typography> Díligam
-          te, Dómine, fortitúdo mea: Dóminus firmaméntum meum, et refúgium meum,
-          et liberátor meus.<Typography className="versicle"> ℣. </Typography>Gloria
-          Patri...
+          suo vocem meam.{" "}
+          <Typography className="latin">Ps. ibd., 2-3</Typography> Díligam te,
+          Dómine, fortitúdo mea: Dóminus firmaméntum meum, et refúgium meum, et
+          liberátor meus.<Typography className="versicle"> ℣. </Typography>
+          Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Rodearam-me os gemidos da morte e cercaram-me as dores do inferno; mas
           na minha tribulação invoquei o Senhor, que lá no seu santo templo
-          ouviu a minha voz. <Typography className="vernacular">Sl. ibd., 2-3</Typography>{" "}
-          Eu Vos amarei, Senhor, que sois a minha fortaleza, o meu sustentáculo,
-          o meu refúgio e o meu libertador.
+          ouviu a minha voz.{" "}
+          <Typography className="vernacular">Sl. ibd., 2-3</Typography> Eu Vos
+          amarei, Senhor, que sois a minha fortaleza, o meu sustentáculo, o meu
+          refúgio e o meu libertador.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -122,19 +124,19 @@ export default function PageQuadp20() {
           De profúndis clamávi ad te. Dómine: Dómine, exáudi vocem meam.
           <Typography className="versicle"> ℣. </Typography>
           Fiant aures tuæ intendéntes in oratiónem servi tui.
-          <Typography className="versicle"> ℣. </Typography>Si iniquitátes observáveris,
-          Dómine: Dómine, quis sustinébit?
-          <Typography className="versicle"> ℣. </Typography>Quia apud te propitiátio est, et
-          propter legem tuam sustínui te, Dómine.
+          <Typography className="versicle"> ℣. </Typography>Si iniquitátes
+          observáveris, Dómine: Dómine, quis sustinébit?
+          <Typography className="versicle"> ℣. </Typography>Quia apud te
+          propitiátio est, et propter legem tuam sustínui te, Dómine.
         </Typography>
         <Typography className="vernacular">
           Das profundezas do abysmo clamei por Vós, Senhor: ouvi a minha voz.
-          <Typography className="versicle"> ℣. </Typography>Que os vossos ouvidos estejam
-          atentos à voz deste vosso servo.
+          <Typography className="versicle"> ℣. </Typography>Que os vossos
+          ouvidos estejam atentos à voz deste vosso servo.
           <Typography className="versicle"> ℣. </Typography>Se julgais as nossas
           iniquidades, Senhor, quem poderá subsistir ante Vós?
-          <Typography className="versicle"> ℣. </Typography>Mas sois propício; por amor da
-          vossa lei esperei em Vós.
+          <Typography className="versicle"> ℣. </Typography>Mas sois propício;
+          por amor da vossa lei esperei em Vós.
         </Typography>
       </Language>
 
@@ -144,12 +146,12 @@ export default function PageQuadp20() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Simile

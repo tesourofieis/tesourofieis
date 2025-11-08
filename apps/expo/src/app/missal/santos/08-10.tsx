@@ -51,15 +51,16 @@ export default function Page0810() {
       <Language>
         <Typography className="latin">
           Conféssio et pulchritúdo in conspéctu ejus: sánctitas et magnificéntia
-          in sanctificatióne ejus. <Typography className="latin">Ps. ibid., 1</Typography>{" "}
-          Cantáte Dómino cánticum novum: cantáte Dómino, omnis terra.
+          in sanctificatióne ejus.{" "}
+          <Typography className="latin">Ps. ibid., 1</Typography> Cantáte Dómino
+          cánticum novum: cantáte Dómino, omnis terra.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Rodeiam-no a glória e a majestade: e no seu santuário reluzem a
           santidade e a magnificência.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Cantai em honra do
-          Senhor um hino novo: que toda a terra cante hinos ao Senhor.
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Cantai em
+          honra do Senhor um hino novo: que toda a terra cante hinos ao Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -125,8 +126,8 @@ export default function Page0810() {
       <Language>
         <Typography className="latin">
           Probásti, Dómine, cor meum, et visitásti nocte.
-          <Typography className="versicle"> ℣. </Typography>Igne me examinásti, et non est
-          invénta in me iníquitas.
+          <Typography className="versicle"> ℣. </Typography>Igne me examinásti,
+          et non est invénta in me iníquitas.
         </Typography>
         <Typography className="vernacular">
           Experimentastes o meu coração e visitaste-lo durante a noite.
@@ -134,14 +135,14 @@ export default function Page0810() {
           Experimentastes-me com o fogo e não se encontrou em mim a iniquidade.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Levíta
-          Lauréntius bonum opus operátus est: qui per signum crucis cœcos
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Levíta Lauréntius bonum opus operátus est: qui per signum crucis cœcos
           illuminávit. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O Levita
-          Lourenço praticou uma boa acção: pois restituiu a vista aos cegos com
-          o sinal da Santa Cruz. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O
+          Levita Lourenço praticou uma boa acção: pois restituiu a vista aos
+          cegos com o sinal da Santa Cruz. Aleluia.
         </Typography>
       </Language>
 

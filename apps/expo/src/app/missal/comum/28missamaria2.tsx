@@ -16,16 +16,17 @@ export default function Page28Missamaria2() {
         <Typography className="latin">
           Vultum tuum deprecabúntur omnes dívites plebis: adducántur Regi
           Vírgines post eam: próximæ ejus adducéntur tibi in lætítia et
-          exsultatióne. <Typography className="latin">Ps. ibid., 2</Typography> Eructávit
-          cor meum verbum bonum: dico ego ópera mea Regi.
+          exsultatióne. <Typography className="latin">Ps. ibid., 2</Typography>{" "}
+          Eructávit cor meum verbum bonum: dico ego ópera mea Regi.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Todos os poderosos da terra imploram o vosso olhar; as virgens serão
           introduzidas perante o Rei após ela: e as suas companheiras serão
           apresentadas ao Rei, em transportes de alegria e de júbilo.{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Meu coração exprimiu
-          uma excelente palavra: Consagro ao Rei as minhas obras!
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Meu
+          coração exprimiu uma excelente palavra: Consagro ao Rei as minhas
+          obras!
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -85,9 +86,9 @@ export default function Page28Missamaria2() {
       <Language>
         <Typography className="latin">
           Speciósus forma præ fíliis hóminum: diffúsa est grátia in lábiis tuis.
-          <Typography className="versicle"> ℣. </Typography>Eructávit cor meum verbum bonum:
-          dico ego ópera mea Regi: lingua mea cálamus scribæ velóciter
-          scribéntis.
+          <Typography className="versicle"> ℣. </Typography>Eructávit cor meum
+          verbum bonum: dico ego ópera mea Regi: lingua mea cálamus scribæ
+          velóciter scribéntis.
         </Typography>
         <Typography className="vernacular">
           Sois mais bela do que todos os filhos dos homens: pois a graça
@@ -97,13 +98,14 @@ export default function Page28Missamaria2() {
           obras. Minha língua é como a pena de um escritor perito.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Post partum,
-          Virgo, invioláta permansísti: Dei Génetrix, intercéde pro nobis.
-          Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Post partum, Virgo, invioláta permansísti: Dei Génetrix, intercéde pro
+          nobis. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Depois de
-          haverdes dado à luz, permanecestes Virgem Imaculada. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Depois de haverdes dado à luz, permanecestes Virgem Imaculada.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -116,8 +118,9 @@ export default function Page28Missamaria2() {
       <Language>
         <Typography className="latin">
           Gaude, María Virgo, cunctas hǽreses sola interemísti.
-          <Typography className="versicle"> ℣. </Typography>Quæ Gabriélis Archángeli dictis
-          credidísti.<Typography className="versicle"> ℣. </Typography>Dum Virgo Deum et
+          <Typography className="versicle"> ℣. </Typography>Quæ Gabriélis
+          Archángeli dictis credidísti.
+          <Typography className="versicle"> ℣. </Typography>Dum Virgo Deum et
           hóminem genuísti: et post partum, Virgo, invioláta permansísti.
           <Typography className="versicle"> ℣. </Typography>
           Dei Génetrix, intercéde pro nobis.
@@ -126,9 +129,9 @@ export default function Page28Missamaria2() {
           Regozijai-vos, ó Virgem Maria, pois só vós fostes capaz de destruir
           todas as heresias.<Typography className="versicle"> ℣. </Typography>
           Acreditastes nas palavras do Arcanjo Gabriel.
-          <Typography className="versicle"> ℣. </Typography>Sendo Virgem, gerastes o
-          Homem-Deus: e, depois de haverdes dado à luz, permanecestes Virgem
-          Imaculada.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="versicle"> ℣. </Typography>Sendo Virgem,
+          gerastes o Homem-Deus: e, depois de haverdes dado à luz, permanecestes
+          Virgem Imaculada.<Typography className="versicle"> ℣. </Typography>
           Intercedei por nós, ó Mãe de Deus.
         </Typography>
       </Language>
@@ -139,12 +142,12 @@ export default function Page28Missamaria2() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Pastóres loquebántur ad ínvicem: Transeámus usque

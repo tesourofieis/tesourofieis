@@ -85,16 +85,16 @@ export default function Page0119Portugal() {
           Dómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in
           cápite ejus corónam de lápide pretióso.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 5</Typography> Vitam pétiit a te: et
-          tribuísti ei longitúdinem diérum in sæculum sæculi.
+          <Typography className="latin">ibid., 5</Typography> Vitam pétiit a te:
+          et tribuísti ei longitúdinem diérum in sæculum sæculi.
         </Typography>
         <Typography className="vernacular">
           Concedestes-lhe, Senhor, bênçãos escolhidas, as mais suaves, e
           impusestes na sua cabeça uma coroa de pedras preciosas.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 5</Typography> Concedestes-lhe a vida
-          que Vos suplicou e prolongastes-lhe a duração dos seus dias pelos
-          séculos dos séculos.
+          <Typography className="vernacular">ibid., 5</Typography>{" "}
+          Concedestes-lhe a vida que Vos suplicou e prolongastes-lhe a duração
+          dos seus dias pelos séculos dos séculos.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja. Lætábitur justus in Dómino, et sperábit in eo: et
@@ -120,15 +120,17 @@ export default function Page0119Portugal() {
           Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
           <Typography className="versicle"> ℣. </Typography>
           Potens in terra erit semen ejus: generátio rectórum benedicétur.
-          <Typography className="versicle"> ℣. </Typography>Glória et divitiæ in domo ejus:
-          et justítia ejus manet in sǽculum sǽculi.
+          <Typography className="versicle"> ℣. </Typography>Glória et divitiæ in
+          domo ejus: et justítia ejus manet in sǽculum sǽculi.
         </Typography>
         <Typography className="vernacular">
           Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em
-          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua descendência
-          será poderosa na terra; pois a geração dos justos será abençoada.
-          <Typography className="versicle"> ℣. </Typography>Na sua casa haverá glória e
-          riqueza: e a justiça subsistirá em todos os séculos dos séculos.
+          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua
+          descendência será poderosa na terra; pois a geração dos justos será
+          abençoada.
+          <Typography className="versicle"> ℣. </Typography>Na sua casa haverá
+          glória e riqueza: e a justiça subsistirá em todos os séculos dos
+          séculos.
         </Typography>
       </Language>
 

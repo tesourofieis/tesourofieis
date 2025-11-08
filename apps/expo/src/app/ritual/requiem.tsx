@@ -24,8 +24,9 @@ export default function PageRequiem() {
       <Language>
         <Typography className="latin">
           Deus, cui próprium est miseréri semper et párcere, te súpplices
-          exorámus pro ánima fámuli tui <Typography className="latin">N.</Typography>{" "}
-          (fámulæ tuæ <Typography className="text-red-500">N.</Typography>), quam hódie de
+          exorámus pro ánima fámuli tui{" "}
+          <Typography className="latin">N.</Typography> (fámulæ tuæ{" "}
+          <Typography className="text-red-500">N.</Typography>), quam hódie de
           hoc sǽculo migráre jussísti: ut non tradas eam in manus inimíci, neque
           obliviscáris in finem, sed júbeas eam a sanctis Angelis suscipi et ad
           pátriam paradísi perdúci; ut, quia in te sperávit et crédidit, non
@@ -34,12 +35,13 @@ export default function PageRequiem() {
         <Typography className="vernacular">
           Ó Deus, de quem é próprio sempre usar de misericórdia e perdoar, Vos
           rogamos humildemente pela alma do vosso servo (ou vossa serva){" "}
-          <Typography className="vernacular">N.</Typography> que mandastes sair deste mundo:
-          a não abandoneis, Senhor, nas mãos do inimigo, nem a esqueçais para
-          sempre, mas dignai-Vos ordenar aos vossos Santos Anjos que a acolham e
-          introduzam na pátria do paraíso, a fim de que, depois de haver
-          acreditado e esperado em Vós, não seja condenada ao sofrimento das
-          penas do inferno, mas goze as alegrias eternas. Por nosso Senhor...
+          <Typography className="vernacular">N.</Typography> que mandastes sair
+          deste mundo: a não abandoneis, Senhor, nas mãos do inimigo, nem a
+          esqueçais para sempre, mas dignai-Vos ordenar aos vossos Santos Anjos
+          que a acolham e introduzam na pátria do paraíso, a fim de que, depois
+          de haver acreditado e esperado em Vós, não seja condenada ao
+          sofrimento das penas do inferno, mas goze as alegrias eternas. Por
+          nosso Senhor...
         </Typography>
       </Language>
 
@@ -89,12 +91,12 @@ export default function PageRequiem() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Martha ad Jesum: Dómine, si fuísses hic, frater
@@ -126,16 +128,16 @@ export default function PageRequiem() {
         <Typography className="latin">
           Propitiáre, quǽsumus, Dómine, ánimæ famuli tui{" "}
           <Typography className="latin">N.</Typography> (fámulæ tuæ{" "}
-          <Typography className="text-red-500">N.</Typography>), pro qua hóstiam laudis tibi
-          immolámus, majestátem tuam supplíciter deprecántes: ut, per hæc piæ
-          placatiónis offícia, perveníre mereátur ad réquiem sempitérnam. Per
-          Dóminum nostrum...
+          <Typography className="text-red-500">N.</Typography>), pro qua hóstiam
+          laudis tibi immolámus, majestátem tuam supplíciter deprecántes: ut,
+          per hæc piæ placatiónis offícia, perveníre mereátur ad réquiem
+          sempitérnam. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
           Vos suplicamos, Senhor, tende piedade da alma do vosso servo (ou vossa
-          serva) <Typography className="vernacular">N.</Typography>, em favor da qual Vos
-          oferecemos esta hóstia de louvor, suplicando humildemente à vossa
-          majestade que, por intercessão deste sacrifício de expiação, lhe
+          serva) <Typography className="vernacular">N.</Typography>, em favor da
+          qual Vos oferecemos esta hóstia de louvor, suplicando humildemente à
+          vossa majestade que, por intercessão deste sacrifício de expiação, lhe
           concedais o descanso eterno. Por nosso Senhor...
         </Typography>
       </Language>
@@ -146,16 +148,18 @@ export default function PageRequiem() {
         <Typography className="latin">
           Præsta, quǽsumus, omnípotens Deus: ut ánima fámuli tui{" "}
           <Typography className="latin">N.</Typography> (fámulæ tuæ{" "}
-          <Typography className="text-red-500">N.</Typography>), quæ hódie de hoc sǽculo
-          migrávit, his sacrifíciis purgáta et a peccátis expedíta, indulgéntiam
-          páriter et réquiem cápiat sempitérnam. Per Dóminum nostrum...
+          <Typography className="text-red-500">N.</Typography>), quæ hódie de
+          hoc sǽculo migrávit, his sacrifíciis purgáta et a peccátis expedíta,
+          indulgéntiam páriter et réquiem cápiat sempitérnam. Per Dóminum
+          nostrum...
         </Typography>
         <Typography className="vernacular">
           Ó Deus omnipotente, Vos suplicamos, concedei-nos que a alma do vosso
-          servo (ou vossa serva) <Typography className="vernacular">N.</Typography>, que
-          deixou hoje este mundo, uma vez purificada e livre dos seus pecados
-          pela virtude deste sacrifício, alcance misericordiosamente de Vós o
-          perdão das culpas e o repouso eterno. Por nosso Senhor...
+          servo (ou vossa serva){" "}
+          <Typography className="vernacular">N.</Typography>, que deixou hoje
+          este mundo, uma vez purificada e livre dos seus pecados pela virtude
+          deste sacrifício, alcance misericordiosamente de Vós o perdão das
+          culpas e o repouso eterno. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -178,17 +182,17 @@ export default function PageRequiem() {
         <Typography className="latin">
           Quǽsumus, Dómine, ut ánimæ fámuli tui{" "}
           <Typography className="latin">N.</Typography> (fámulæ tuæ{" "}
-          <Typography className="text-red-500">N.</Typography>), cujus depositiónis diem
-          tértium (vel séptimum, vel trigésimum) commemorámus, Sanctórum atque
-          electórum tuórum largíri dignéris consórtium: et rorem misericórdiæ
-          tuæ perénnem infúndas. Per Dóminum...
+          <Typography className="text-red-500">N.</Typography>), cujus
+          depositiónis diem tértium (vel séptimum, vel trigésimum) commemorámus,
+          Sanctórum atque electórum tuórum largíri dignéris consórtium: et rorem
+          misericórdiæ tuæ perénnem infúndas. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Senhor, Vos suplicamos, permiti que a alma do vosso servo (ou vossa
-          serva) <Typography className="vernacular">N.</Typography>, cujo... (terceiro ou
-          sétimo ou trigésimo) dia da deposição comemoramos, vá gozar a
-          companhia dos vossos Santos escolhidos; e espalhai sobre ela o orvalho
-          perpétuo da vossa misericórdia. Por nosso Senhor...
+          serva) <Typography className="vernacular">N.</Typography>, cujo...
+          (terceiro ou sétimo ou trigésimo) dia da deposição comemoramos, vá
+          gozar a companhia dos vossos Santos escolhidos; e espalhai sobre ela o
+          orvalho perpétuo da vossa misericórdia. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -198,16 +202,16 @@ export default function PageRequiem() {
         <Typography className="latin">
           Múnera, quǽsumus, Dómine, quæ tibi pro ánima fámuli tui{" "}
           <Typography className="latin">N.</Typography> (fámulæ tuæ{" "}
-          <Typography className="text-red-500">N.</Typography>) offérimus, placátus inténde:
-          ut, remédiis purgáta cœléstibus, in tua pietáte requiéscat. Per
-          Dóminum...
+          <Typography className="text-red-500">N.</Typography>) offérimus,
+          placátus inténde: ut, remédiis purgáta cœléstibus, in tua pietáte
+          requiéscat. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Aceitai benignamente, Senhor, Vos imploramos, as oblatas que Vos
           oferecemos pela alma do vosso servo (ou vossa serva){" "}
-          <Typography className="vernacular">N.</Typography>, a fim de que, purificada com
-          estes remédios celestiais, descanse no seio da vossa misericórdia. Por
-          nosso Senhor...
+          <Typography className="vernacular">N.</Typography>, a fim de que,
+          purificada com estes remédios celestiais, descanse no seio da vossa
+          misericórdia. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -217,17 +221,17 @@ export default function PageRequiem() {
         <Typography className="latin">
           Súscipe, Dómine, preces nostras pro ánima fámuli tui{" "}
           <Typography className="latin">N.</Typography> (fámulæ tuæ{" "}
-          <Typography className="text-red-500">N.</Typography>): ut, si quæ ei máculæ de
-          terrénis contágiis adhæsérunt, remissiónis tuæ misericórdia deleántur.
-          Per Dóminum...
+          <Typography className="text-red-500">N.</Typography>): ut, si quæ ei
+          máculæ de terrénis contágiis adhæsérunt, remissiónis tuæ misericórdia
+          deleántur. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Recebei, Senhor, estas nossas preces, que Vos oferecemos em favor da
           alma do vosso servo (ou vossa serva){" "}
-          <Typography className="vernacular">N.</Typography>, a fim de que, se ainda está
-          contaminada com algumas nódoas contraídas com o contágio deste mundo,
-          todas sejam apagadas com vosso misericordioso perdão. Por nosso
-          Senhor...
+          <Typography className="vernacular">N.</Typography>, a fim de que, se
+          ainda está contaminada com algumas nódoas contraídas com o contágio
+          deste mundo, todas sejam apagadas com vosso misericordioso perdão. Por
+          nosso Senhor...
         </Typography>
       </Language>
 
@@ -247,15 +251,15 @@ export default function PageRequiem() {
         <Typography className="latin">
           Deus, indulgentiárum Dómine: da ánimæ famuli tui{" "}
           <Typography className="latin">N.</Typography> (fámulæ tuæ{" "}
-          <Typography className="text-red-500">N.</Typography>, vel animábus famulórum
-          famularúmque tuárum), cujus (quorum) anniversárium depositiónis diem
-          commemorámus, refrigérii sedem, quiétis beatitúdinem et lúminis
-          claritátem. Per Dóminum...
+          <Typography className="text-red-500">N.</Typography>, vel animábus
+          famulórum famularúmque tuárum), cujus (quorum) anniversárium
+          depositiónis diem commemorámus, refrigérii sedem, quiétis beatitúdinem
+          et lúminis claritátem. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Ó Deus, Senhor das misericórdias, concedei às almas do vosso servo (ou
-          vossa serva <Typography className="vernacular">N.</Typography>), de cujo dia da
-          morte celebramos o aniversário, o lugar do refrigério, a
+          vossa serva <Typography className="vernacular">N.</Typography>), de
+          cujo dia da morte celebramos o aniversário, o lugar do refrigério, a
           bem-aventurança do repouso e o esplendor da luz. Por nosso Senhor...
         </Typography>
       </Language>
@@ -266,7 +270,9 @@ export default function PageRequiem() {
 
       <Language>
         <Typography className="latin">Léctio libri Machabæórum.</Typography>
-        <Typography className="vernacular">Lição do livro dos Macabeus.</Typography>
+        <Typography className="vernacular">
+          Lição do livro dos Macabeus.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Vir fortíssimus Judas, facta collatióne, duódecim
           mília drachmas argénti misit Jerosólymam, offérri pro peccátis
@@ -297,12 +303,12 @@ export default function PageRequiem() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus turbis Judæórum: Omne, quod dat mihi
@@ -331,17 +337,18 @@ export default function PageRequiem() {
         <Typography className="latin">
           Propitiáre, Dómine, supplicatiónibus nostris, pro anima famuli tui{" "}
           <Typography className="latin">N.</Typography> (fámulæ tuæ{" "}
-          <Typography className="text-red-500">N.</Typography>, vel animábus famulórum
-          famularúmque tuárum), cujus (quorum) hódie ánnua dies ágitur: pro qua
-          (quibus) tibi off érimus sacrifícium laudis; ut eam (eas) Sanctórum
-          tuórum consórtio soci áre dignéris. Per Dóminum...
+          <Typography className="text-red-500">N.</Typography>, vel animábus
+          famulórum famularúmque tuárum), cujus (quorum) hódie ánnua dies
+          ágitur: pro qua (quibus) tibi off érimus sacrifícium laudis; ut eam
+          (eas) Sanctórum tuórum consórtio soci áre dignéris. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Sede propício, Senhor, às nossas súplicas em favor da alma do vosso
-          servo (ou vossa serva) <Typography className="vernacular">N.</Typography>, cujo
-          aniversário da sua morte hoje comemoramos; nós Vos oferecemos por ela
-          este sacrifício de louvor, a fim de que Vos digneis admiti-la na
-          companhia dos vossos santos. Por nosso Senhor...
+          servo (ou vossa serva){" "}
+          <Typography className="vernacular">N.</Typography>, cujo aniversário
+          da sua morte hoje comemoramos; nós Vos oferecemos por ela este
+          sacrifício de louvor, a fim de que Vos digneis admiti-la na companhia
+          dos vossos santos. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -351,17 +358,18 @@ export default function PageRequiem() {
         <Typography className="latin">
           Præsta, quǽsumus, Dómine: ut ánima fámuli tui{" "}
           <Typography className="latin">N.</Typography> (fámulæ tuæ{" "}
-          <Typography className="text-red-500">N.</Typography>, vel ánimæ famulórum
-          famularúmque tuárum), cujus (quorum) anniversárium depositiónis diem
-          commemorámus; his purgáta (purgátæ) sacrifíciis, indulgéntiam páriter
-          et réquiem cápiat (cápiant) sempitérnam. Per Dóminum...
+          <Typography className="text-red-500">N.</Typography>, vel ánimæ
+          famulórum famularúmque tuárum), cujus (quorum) anniversárium
+          depositiónis diem commemorámus; his purgáta (purgátæ) sacrifíciis,
+          indulgéntiam páriter et réquiem cápiat (cápiant) sempitérnam. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
           Senhor, Vos rogamos, permiti que a alma do vosso servo (ou vossa
-          serva) <Typography className="vernacular">N.</Typography>, cujo aniversário da sua
-          morte hoje comemoramos, havendo sido purificada pela virtude destes
-          sacrifícios, receba ao mesmo tempo a indulgência e o sempiterno
-          perdão. Por nosso Senhor...
+          serva) <Typography className="vernacular">N.</Typography>, cujo
+          aniversário da sua morte hoje comemoramos, havendo sido purificada
+          pela virtude destes sacrifícios, receba ao mesmo tempo a indulgência e
+          o sempiterno perdão. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -441,7 +449,9 @@ export default function PageRequiem() {
         <Typography className="latin">
           Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
         </Typography>
-        <Typography className="vernacular">Lição do Apocalipse do B. Ap.º João.</Typography>
+        <Typography className="vernacular">
+          Lição do Apocalipse do B. Ap.º João.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Audívi vocem de cœlo, dicéntem mihi: Scribe: Beáti
           mórtui, qui in Dómino moriúntur. Amodo jam dicit Spíritus, ut
@@ -463,15 +473,15 @@ export default function PageRequiem() {
         <Typography className="latin">
           Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 111, 7</Typography> In memória ætérna erit
-          justus: ab auditióne mala non timébit.
+          <Typography className="latin">Ps. 111, 7</Typography> In memória
+          ætérna erit justus: ab auditióne mala non timébit.
         </Typography>
         <Typography className="vernacular">
           Dai-lhes, Senhor, o eterno repouso, e que lhes resplandeça a luz
           perpétua.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 111, 7</Typography> A recordação do homem
-          justo permanecerá eternamente; este não temerá ouvir as sentenças más
-          dos homens.
+          <Typography className="vernacular">Sl. 111, 7</Typography> A
+          recordação do homem justo permanecerá eternamente; este não temerá
+          ouvir as sentenças más dos homens.
         </Typography>
       </Language>
 
@@ -480,17 +490,17 @@ export default function PageRequiem() {
       <Language>
         <Typography className="latin">
           Absólve, Dómine, ánimas ómnium fidélium defunctórum ab omni vínculo
-          delictórum.<Typography className="versicle"> ℣. </Typography>Et grátia tua illis
-          succurrénte, mereántur evádere judícium ultiónis.
-          <Typography className="versicle"> ℣. </Typography>Et lucis ætérnæ beatitúdine
-          pérfrui.
+          delictórum.<Typography className="versicle"> ℣. </Typography>Et grátia
+          tua illis succurrénte, mereántur evádere judícium ultiónis.
+          <Typography className="versicle"> ℣. </Typography>Et lucis ætérnæ
+          beatitúdine pérfrui.
         </Typography>
         <Typography className="vernacular">
           Livrai, Senhor, as almas dos fiéis defuntos das cadeias dos seus
-          pecados:<Typography className="versicle"> ℣. </Typography>E que com o socorro da
-          vossa graça consigam evitar o juízo da vingança:
-          <Typography className="versicle"> ℣. </Typography>E alcancem a bem-aventurança da
-          luz eterna.
+          pecados:<Typography className="versicle"> ℣. </Typography>E que com o
+          socorro da vossa graça consigam evitar o juízo da vingança:
+          <Typography className="versicle"> ℣. </Typography>E alcancem a
+          bem-aventurança da luz eterna.
         </Typography>
       </Language>
 
@@ -500,12 +510,12 @@ export default function PageRequiem() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus turbis Judæórum: Ego sum panis vivus, qui

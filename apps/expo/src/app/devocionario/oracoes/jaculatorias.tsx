@@ -40,7 +40,9 @@ export default function PageJaculatorias() {
       <Typography className="vernacular">
         Maria, Auxílio dos Cristãos, rogai por nós.
       </Typography>
-      <Typography className="vernacular">Meu Jesus, eu quero ser todo vosso.</Typography>
+      <Typography className="vernacular">
+        Meu Jesus, eu quero ser todo vosso.
+      </Typography>
       <Typography className="vernacular">Meu Jesus, misericórdia.</Typography>
       <Typography className="vernacular">
         Doce Coração de Jesus, que tanto nos amais, fazei com que eu Vos ame

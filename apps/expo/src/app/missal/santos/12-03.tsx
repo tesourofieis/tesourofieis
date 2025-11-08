@@ -30,18 +30,18 @@ export default function Page1203() {
         <Typography className="latin">
           Loquébar de testimóniis tuis in conspéctu regum, et non confundébar:
           et meditábar in mandátis tuis, quæ diléxi nimis.{" "}
-          <Typography className="latin">Ps. 110, 1-2</Typography> Laudáte Dóminum, omnes
-          gentes, laudáte eum, omnes pópuli: quóniam confirmáta est super nos
-          misericórdia ejus, et véritas Dómini manet in ætérnum.
+          <Typography className="latin">Ps. 110, 1-2</Typography> Laudáte
+          Dóminum, omnes gentes, laudáte eum, omnes pópuli: quóniam confirmáta
+          est super nos misericórdia ejus, et véritas Dómini manet in ætérnum.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Falava dos vossos testemunhos sem vergonha na presença dos reis: e
           meditava nos vossos mandamentos, que amava profundamente.{" "}
-          <Typography className="vernacular">Sl. 110, 1-2</Typography> Louvai o Senhor, ó
-          vós, todas as nações; louvai-O, ó vós, todos os povos; pois a sua
-          misericórdia para connosco manifestou-se claramente e a verdade do
-          Senhor permanece eternamente.
+          <Typography className="vernacular">Sl. 110, 1-2</Typography> Louvai o
+          Senhor, ó vós, todas as nações; louvai-O, ó vós, todos os povos; pois
+          a sua misericórdia para connosco manifestou-se claramente e a verdade
+          do Senhor permanece eternamente.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -77,26 +77,27 @@ export default function Page1203() {
         <Typography className="latin">
           Justus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo
           Dómini.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 3</Typography> Ad annuntiándum mane
-          misericórdiam tuam, et veritátem tuam per noctem.
+          <Typography className="latin">ibid., 3</Typography> Ad annuntiándum
+          mane misericórdiam tuam, et veritátem tuam per noctem.
         </Typography>
         <Typography className="vernacular">
           O justo florescerá, como a palmeira, e crescerá, como o cedro do
-          Líbano, na casa do Senhor.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 3</Typography> Para publicar de manhã a
-          vossa misericórdia; e de noite a vossa verdade.
+          Líbano, na casa do Senhor.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">ibid., 3</Typography> Para publicar
+          de manhã a vossa misericórdia; e de noite a vossa verdade.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Jac. 1, 12</Typography> Beátus vir, qui suffert
-          tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ.
-          Allelúja.
+          <Typography className="latin">Jac. 1, 12</Typography> Beátus vir, qui
+          suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam
+          vitæ. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Tg. 1, 12</Typography> Bem-aventurado o varão
-          que sabe sofrer a tentação, porque, quando acabar a tentação, receberá
-          a coroa da vida. Aleluia.
+          <Typography className="vernacular">Tg. 1, 12</Typography>{" "}
+          Bem-aventurado o varão que sabe sofrer a tentação, porque, quando
+          acabar a tentação, receberá a coroa da vida. Aleluia.
         </Typography>
       </Language>
 
@@ -106,12 +107,12 @@ export default function Page1203() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Marcum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Marcum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Marcos.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Marcos.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Eúntes in mundum

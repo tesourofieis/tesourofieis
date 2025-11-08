@@ -29,17 +29,18 @@ export default function Page0508() {
         <Typography className="latin">
           Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis
           verbum ejus, ad audiéndam vocem sermónum ejus.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Benedic, ánima mea.
-          Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.
+          <Typography className="latin">Ps. ibid., 1</Typography> Benedic, ánima
+          mea. Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Bendizei o Senhor, ó vós, todos os Anjos do Senhor: Sois cheios de
           poder e virtude: e fazeis o que Ele vos manda, obedecendo às suas
-          palavras e ordens. <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
-          Bendiz o Senhor, ó minha alma: Que tudo quanto houver em mim bendiga o
-          santo Nome do Senhor.<Typography className="versicle"> ℣. </Typography>Glória ao
-          Pai...
+          palavras e ordens.{" "}
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Bendiz o
+          Senhor, ó minha alma: Que tudo quanto houver em mim bendiga o santo
+          Nome do Senhor.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -98,18 +99,19 @@ export default function Page0508() {
 
       <Language>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Sancte
-          Míchael Archángele, defénde nos in prǿlio: ut non pereámus in treméndo
-          judício. Allelúja.<Typography className="versicle"> ℣. </Typography>
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Sancte Míchael Archángele, defénde nos in prǿlio: ut non pereámus in
+          treméndo judício. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>
           Concússum est mare et contrémuit terra, ubi Archángelus Míchaël
           descéndit de cœlo. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>S. Miguel
-          Arcanjo, defendei-nos neste combate, a fim de que não pereçamos no dia
-          do juízo tremendo. Aleluia.
-          <Typography className="versicle"> ℣. </Typography>O mar ficou agitado e a terra
-          tremeu, quando o Arcanjo S. Miguel desceu do céu. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>S.
+          Miguel Arcanjo, defendei-nos neste combate, a fim de que não pereçamos
+          no dia do juízo tremendo. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>O mar ficou agitado
+          e a terra tremeu, quando o Arcanjo S. Miguel desceu do céu. Aleluia.
         </Typography>
       </Language>
 
@@ -119,12 +121,12 @@ export default function Page0508() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis,

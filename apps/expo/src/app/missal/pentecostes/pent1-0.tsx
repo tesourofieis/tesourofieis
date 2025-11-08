@@ -16,16 +16,16 @@ export default function PagePent10() {
         <Typography className="latin">
           Benedícta sit sancta Trínitas atque indivísa Unitas: confitébimur ei,
           quia fecit nobíscum misericórdiam suam.{" "}
-          <Typography className="latin">Ps. 8, 2</Typography> Dómine, Dóminus noster, quam
-          admirábile est nomen tuum in univérsa terra!
+          <Typography className="latin">Ps. 8, 2</Typography> Dómine, Dóminus
+          noster, quam admirábile est nomen tuum in univérsa terra!
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Bendita seja a Santíssima Trindade e a indivisível Unidade! Nós A
           louvamos; pois foi misericordiosa para connosco.{" "}
-          <Typography className="vernacular">Sl. 8, 2</Typography> Senhor, nosso Deus, como
-          o vosso nome é admirável em todo o universo!
+          <Typography className="vernacular">Sl. 8, 2</Typography> Senhor, nosso
+          Deus, como o vosso nome é admirável em todo o universo!
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -84,24 +84,25 @@ export default function PagePent10() {
       <Language>
         <Typography className="latin">
           Benedíctus es, Dómine, qui intuéris abýssos, et sedes super Chérubim.
-          <Typography className="versicle"> ℣. </Typography>Benedíctus es, Dómine, in
-          firmaménto cæli, et laudábilis in sǽcula.
+          <Typography className="versicle"> ℣. </Typography>Benedíctus es,
+          Dómine, in firmaménto cæli, et laudábilis in sǽcula.
         </Typography>
         <Typography className="vernacular">
           Bendito sois, Senhor, que sondais as profundezas dos abysmos e estais
           assentado sobre os Querubins!
-          <Typography className="versicle"> ℣. </Typography>Sim, Senhor, sois bendito no
-          firmamento do céu; e digno de louvor em todos os séculos.
+          <Typography className="versicle"> ℣. </Typography>Sim, Senhor, sois
+          bendito no firmamento do céu; e digno de louvor em todos os séculos.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 52</Typography> Benedíctus es, Dómine, Deus
-          patrum nostrórum, et laudábilis in sǽcula. Allelúja.
+          <Typography className="latin">ibid., 52</Typography> Benedíctus es,
+          Dómine, Deus patrum nostrórum, et laudábilis in sǽcula. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 52</Typography> Bendito sois, Senhor,
-          Deus de nossos pais, e digno de louvor em todos os séculos. Aleluia.
+          <Typography className="vernacular">ibid., 52</Typography> Bendito
+          sois, Senhor, Deus de nossos pais, e digno de louvor em todos os
+          séculos. Aleluia.
         </Typography>
       </Language>
 
@@ -111,12 +112,12 @@ export default function PagePent10() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Data est mihi omnis

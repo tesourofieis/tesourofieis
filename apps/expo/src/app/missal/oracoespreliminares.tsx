@@ -18,14 +18,14 @@ export default function PageOracoespreliminares() {
       </Typography>
       <Language>
         <Typography className="latin">
-          <Typography className="latin">Ant.</Typography> Ne reminiscáris, Dómine, delícta
-          nostra vel paréntum nostrórum, neque vindíctam sumas de peccátis
-          nostris. (T. P. Allelúja.)
+          <Typography className="latin">Ant.</Typography> Ne reminiscáris,
+          Dómine, delícta nostra vel paréntum nostrórum, neque vindíctam sumas
+          de peccátis nostris. (T. P. Allelúja.)
         </Typography>
         <Typography className="vernacular">
-          <Typography className="vernacular">Ant.</Typography> Não Vos recordeis, Senhor,
-          dos nossos delitos, nem dos delitos de nossos pais; não queirais
-          vingar-Vos dos nossos pecados. (T. P. Aleluia.)
+          <Typography className="vernacular">Ant.</Typography> Não Vos
+          recordeis, Senhor, dos nossos delitos, nem dos delitos de nossos pais;
+          não queirais vingar-Vos dos nossos pecados. (T. P. Aleluia.)
         </Typography>
       </Language>
 
@@ -40,104 +40,115 @@ export default function PageOracoespreliminares() {
       <Salmo129 />
       <Language>
         <Typography className="latin">
-          <Typography className="latin">Ant.</Typography> Ne reminiscáris, Dómine, delícta
-          nostra vel paréntum nostrórum, neque vindíctam sumas de peccátis
-          nostris. (T. P. Allelúja.)
+          <Typography className="latin">Ant.</Typography> Ne reminiscáris,
+          Dómine, delícta nostra vel paréntum nostrórum, neque vindíctam sumas
+          de peccátis nostris. (T. P. Allelúja.)
         </Typography>
         <Typography className="vernacular">
-          <Typography className="vernacular">Ant.</Typography> Não Vos recordeis, Senhor,
-          dos nossos delitos, nem dos delitos de nossos pais; não queirais
-          vingar-Vos dos nossos pecados. (T. P. Aleluia.)
+          <Typography className="vernacular">Ant.</Typography> Não Vos
+          recordeis, Senhor, dos nossos delitos, nem dos delitos de nossos pais;
+          não queirais vingar-Vos dos nossos pecados. (T. P. Aleluia.)
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Kyrie, eléison. Christe,
-          eléison. Kyrie, eléison.
+          <Typography className="versicle"> ℣. </Typography>Kyrie, eléison.
+          Christe, eléison. Kyrie, eléison.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, tende piedade de nós.
-          Cristo, tende piedade de nós. Senhor, tende piedade de nós.
+          <Typography className="versicle"> ℣. </Typography>Senhor, tende
+          piedade de nós. Cristo, tende piedade de nós. Senhor, tende piedade de
+          nós.
         </Typography>
         <Typography className="latin">
           Pater noster... (secreto usque ad)
           <Typography className="versicle"> ℣. </Typography>Et ne nos indúcas in
-          tentatiónem. <Typography className="response"> ℟. </Typography> Sed líbera nos a
-          malo.
+          tentatiónem. <Typography className="response"> ℟. </Typography> Sed
+          líbera nos a malo.
         </Typography>
         <Typography className="vernacular">
-          Pai-nosso... (em silêncio).<Typography className="versicle"> ℣. </Typography>E não
-          nos deixeis cair em tentação. <Typography className="response"> ℟. </Typography>{" "}
+          Pai-nosso... (em silêncio).
+          <Typography className="versicle"> ℣. </Typography>E não nos deixeis
+          cair em tentação. <Typography className="response"> ℟. </Typography>{" "}
           Mas livrai-nos do mal.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Ego dixit: Dómine, miserére mei.{" "}
-          <Typography className="response"> ℟. </Typography> Sana ánimam meam, quia peccávi
-          tibi.
+          <Typography className="versicle"> ℣. </Typography>Ego dixit: Dómine,
+          miserére mei. <Typography className="response"> ℟. </Typography> Sana
+          ánimam meam, quia peccávi tibi.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Eu disse: Senhor, tende piedade
-          de mim. <Typography className="response"> ℟. </Typography> Curai a minha alma,
+          <Typography className="versicle"> ℣. </Typography>Eu disse: Senhor,
+          tende piedade de mim.{" "}
+          <Typography className="response"> ℟. </Typography> Curai a minha alma,
           pois pequei contra Vós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography>Convértere, Dómine,
-          aliquántulum. <Typography className="response"> ℟. </Typography> Et deprecáre
-          super servos tuos.
+          aliquántulum. <Typography className="response"> ℟. </Typography> Et
+          deprecáre super servos tuos.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, volvei-Vos um pouco para
-          nós. <Typography className="response"> ℟. </Typography> Enchei-Vos de piedade para
-          com vossos servos.
+          <Typography className="versicle"> ℣. </Typography>Senhor, volvei-Vos
+          um pouco para nós. <Typography className="response"> ℟. </Typography>{" "}
+          Enchei-Vos de piedade para com vossos servos.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Fiat misericórdia tua, Dómine,
-          super nos. <Typography className="response"> ℟. </Typography> Quemádmodum
+          <Typography className="versicle"> ℣. </Typography>Fiat misericórdia
+          tua, Dómine, super nos.{" "}
+          <Typography className="response"> ℟. </Typography> Quemádmodum
           sperávimus in te.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, venha a nós a vossa
-          misericórdia. <Typography className="response"> ℟. </Typography> Pois esperamos em
+          <Typography className="versicle"> ℣. </Typography>Senhor, venha a nós
+          a vossa misericórdia.{" "}
+          <Typography className="response"> ℟. </Typography> Pois esperamos em
           Vós.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Sacerdótes tui induántur
-          justítiam. <Typography className="response"> ℟. </Typography> Et Sancti tui
+          <Typography className="versicle"> ℣. </Typography>Sacerdótes tui
+          induántur justítiam.{" "}
+          <Typography className="response"> ℟. </Typography> Et Sancti tui
           exsúltent.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Que os vossos sacerdotes se
-          revistam de justiça. <Typography className="response"> ℟. </Typography> E os
-          vossos santos exultem de alegria.
+          <Typography className="versicle"> ℣. </Typography>Que os vossos
+          sacerdotes se revistam de justiça.{" "}
+          <Typography className="response"> ℟. </Typography> E os vossos santos
+          exultem de alegria.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Ab occúltis meis munda me,
-          Dómine. <Typography className="response"> ℟. </Typography> Et ab aliénis parce
-          servo tuo.
+          <Typography className="versicle"> ℣. </Typography>Ab occúltis meis
+          munda me, Dómine. <Typography className="response"> ℟. </Typography>{" "}
+          Et ab aliénis parce servo tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, lavai-me das minhas
-          faltas ocultas. <Typography className="response"> ℟. </Typography> E perdoai ao
-          vosso servo as faltas alheias.
+          <Typography className="versicle"> ℣. </Typography>Senhor, lavai-me das
+          minhas faltas ocultas.{" "}
+          <Typography className="response"> ℟. </Typography> E perdoai ao vosso
+          servo as faltas alheias.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi oratiónem meam.{" "}
-          <Typography className="response"> ℟. </Typography> Et clamor meus ad te véniat.
+          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi
+          oratiónem meam. <Typography className="response"> ℟. </Typography> Et
+          clamor meus ad te véniat.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha oração.{" "}
-          <Typography className="response"> ℟. </Typography> E que meu clamor chegue até
-          Vós.
+          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha
+          oração. <Typography className="response"> ℟. </Typography> E que meu
+          clamor chegue até Vós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor seja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor seja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Orémus.</Typography>
@@ -314,7 +325,8 @@ export default function PageOracoespreliminares() {
           delictórum perfécta purgátio, sit túrpium cog­tatiónum effugátio, ac
           bonórum sénsuum regenerátio, operúmque tibi placéntium salúbris
           efficácia, ánimæ quoque et córporis contra inimicórum meórum insídias
-          firmíssima tuítio. <Typography className="response"> ℟. </Typography> Amen.
+          firmíssima tuítio. <Typography className="response"> ℟. </Typography>{" "}
+          Amen.
         </Typography>
         <Typography className="vernacular">
           Permiti, pela vossa graça, que a Hóstia santíssima do vosso Corpo e

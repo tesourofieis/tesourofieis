@@ -34,16 +34,16 @@ export default function Page0710() {
         <Typography className="latin">
           Laudáte, pueri, Dóminum, laudáte nomen Dómini: qui habitáre facit
           stérilem in domo, matrem filiórum lætántem.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Sit nomen Dómini
-          benedíctum: ex hoc nunc, ei usque in sǽculum.
+          <Typography className="latin">Ps. ibid., 2</Typography> Sit nomen
+          Dómini benedíctum: ex hoc nunc, ei usque in sǽculum.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Louvai o Senhor, ó meninos; louvai o nome do Senhor; pois Ele fez
           habitar, cheia de alegria, na sua casa, como mãe de numerosos filhos,
           aquela que antes era estéril.{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Bendito seja o nome
-          do Senhor, agora e em todos os séculos.
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Bendito
+          seja o nome do Senhor, agora e em todos os séculos.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -84,18 +84,18 @@ export default function Page0710() {
         </Typography>
         <Typography className="vernacular">
           A nossa alma livrou-se, como um pássaro, do laço dos caçadores.
-          <Typography className="versicle"> ℣. </Typography>O laço quebrou-se e ficamos
-          livres: o nosso auxílio está no nome do Senhor, que criou o céu e a
-          terra.
+          <Typography className="versicle"> ℣. </Typography>O laço quebrou-se e
+          ficamos livres: o nosso auxílio está no nome do Senhor, que criou o
+          céu e a terra.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Hæc est vera
-          fratérnitas, quæ vicit mundi crímina: Christum secuta est, ínclita
-          tenens regna cœléstia. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secuta
+          est, ínclita tenens regna cœléstia. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Eis a
-          verdadeira fraternidade que venceu os perigos do mundo. Ela seguiu
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Eis
+          a verdadeira fraternidade que venceu os perigos do mundo. Ela seguiu
           Cristo e possuirá com glória o reino celestial. Aleluia.
         </Typography>
       </Language>
@@ -106,12 +106,12 @@ export default function Page0710() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Loquente Jesu ad turbas, ecce, Mater ejus et fratres

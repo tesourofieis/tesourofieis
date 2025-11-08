@@ -17,16 +17,17 @@ export default function PagePent200() {
           Omnia, quæ fecísti nobis, Dómine, in vero judício fecísti, quia
           peccávimus tibi et mandátis tuis non obœdívimus: sed da glóriam nómini
           tuo, et fac nobíscum secúndum multitúdinem misericórdiæ tuæ.{" "}
-          <Typography className="latin">Ps. 118, 1</Typography> Beáti immaculáti in via: qui
-          ámbulant in lege Dómini.
+          <Typography className="latin">Ps. 118, 1</Typography> Beáti immaculáti
+          in via: qui ámbulant in lege Dómini.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Tudo quanto fizestes contra nós, Senhor, foi com justiça, pois pecámos
           e não Obedecemos aos vossos mandamentos; mas glorificai o vosso nome e
           tratai-nos segundo a grandeza da vossa misericórdia.{" "}
-          <Typography className="vernacular">Sl. 118, 1</Typography> Bem-aventurados aqueles
-          cuja vida é imaculada: aqueles que praticam a Lei do Senhor.
+          <Typography className="vernacular">Sl. 118, 1</Typography>{" "}
+          Bem-aventurados aqueles cuja vida é imaculada: aqueles que praticam a
+          Lei do Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -87,8 +88,8 @@ export default function PagePent200() {
       <Language>
         <Typography className="latin">
           Oculi ómnium in te sperant, Dómine: et tu das illis escam in témpore
-          opportúno.<Typography className="versicle"> ℣. </Typography>Aperis tu manum tuam:
-          et imples omne ánimal benedictióne.
+          opportúno.<Typography className="versicle"> ℣. </Typography>Aperis tu
+          manum tuam: et imples omne ánimal benedictióne.
         </Typography>
         <Typography className="vernacular">
           Todos os olhares se volvem para Vós, Senhor; a todos os entes dais
@@ -98,13 +99,14 @@ export default function PagePent200() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 107, 2</Typography> Parátum cor meum, Deus,
-          parátum cor meum: cantábo, et psallam tibi, glória mea. Allelúja.
+          <Typography className="latin">Ps. 107, 2</Typography> Parátum cor
+          meum, Deus, parátum cor meum: cantábo, et psallam tibi, glória mea.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 107, 2</Typography> Meu coração está
-          preparado, ó Deus; o meu coração está preparado: cantarei vossos
+          <Typography className="vernacular">Sl. 107, 2</Typography> Meu coração
+          está preparado, ó Deus; o meu coração está preparado: cantarei vossos
           louvores, ó Vós, que sois a minha glória. Aleluia.
         </Typography>
       </Language>
@@ -115,12 +117,12 @@ export default function PagePent200() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Erat quidam régulus, cujus fílius infirmabátur

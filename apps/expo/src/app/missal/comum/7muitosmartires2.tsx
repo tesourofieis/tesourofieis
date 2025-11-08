@@ -14,16 +14,17 @@ export default function Page7Muitosmartires2() {
         <Typography className="latin">
           Sapiéntiam Sanctórum narrent pópuli, et laudes eórum núntiet ecclésia:
           nomina autem eórum vivent in sǽculum sǽculi.{" "}
-          <Typography className="latin">Ps. 32, 1</Typography> Exsultáte, justi, in Dómino:
-          rectos decet collaudátio.
+          <Typography className="latin">Ps. 32, 1</Typography> Exsultáte, justi,
+          in Dómino: rectos decet collaudátio.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Que os povos publiquem a sabedoria dos santos e que a Igreja celebre
           os seus louvores: o seu nome subsistirá em todos os séculos!{" "}
-          <Typography className="vernacular">Sl. 32, 1</Typography> Ó justos, rejubilai no
-          Senhor: é àqueles que possuem o coração recto que pertence louvar o
-          Senhor.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 32, 1</Typography> Ó justos,
+          rejubilai no Senhor: é àqueles que possuem o coração recto que
+          pertence louvar o Senhor.
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
       </Language>
@@ -32,15 +33,17 @@ export default function Page7Muitosmartires2() {
         <Typography className="latin">
           Deus, qui nos concédis sanctórum Mártyrum tuórum{" "}
           <Typography className="latin">N.</Typography> et{" "}
-          <Typography className="text-red-500">N.</Typography> natalítia cólere: da nobis in
-          ætérna beatitúdine de eórum societéte gaudére. Per Dóminum...
+          <Typography className="text-red-500">N.</Typography> natalítia cólere:
+          da nobis in ætérna beatitúdine de eórum societéte gaudére. Per
+          Dóminum...
         </Typography>
         <Typography className="vernacular">
           Ó Deus, que nos permitistes a graça de celebrarmos o nascimento no céu
-          dos vossos Santos Mártires <Typography className="vernacular">N.</Typography> e{" "}
-          <Typography className="text-red-500">N.</Typography>, concedei-nos ainda a graça
-          de gozarmos na sua companhia a bem-aventurança eterna. Por nosso
-          Senhor...
+          dos vossos Santos Mártires{" "}
+          <Typography className="vernacular">N.</Typography> e{" "}
+          <Typography className="text-red-500">N.</Typography>, concedei-nos
+          ainda a graça de gozarmos na sua companhia a bem-aventurança eterna.
+          Por nosso Senhor...
         </Typography>
       </Language>
       <Typography className="aside">
@@ -53,7 +56,9 @@ export default function Page7Muitosmartires2() {
       <Typography className="em">Sb. 5, 16-20</Typography>
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Justi autem in perpétuum vivent, et apud Dóminum est merces eórum, et
           cogitátio illórum apud Altíssimum. Ideo accípient regnum decóris, et
@@ -85,20 +90,20 @@ export default function Page7Muitosmartires2() {
         </Typography>
         <Typography className="vernacular">
           A nossa alma livrou-se, como um pássaro do laço dos caçadores!
-          <Typography className="versicle"> ℣. </Typography>O laço quebrou-se, e ficámos
-          livres. O nosso auxílio está no nome do Senhor, que criou o céu e a
-          terra.
+          <Typography className="versicle"> ℣. </Typography>O laço quebrou-se, e
+          ficámos livres. O nosso auxílio está no nome do Senhor, que criou o
+          céu e a terra.
         </Typography>
         <Typography className="latin">
           Allelúja, alielúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps.67, 4</Typography> Justi epuléntur, et exsúltent
-          in conspéctu Dei: et delecténtur in lætítia. Allelúja.
+          <Typography className="latin">Ps.67, 4</Typography> Justi epuléntur,
+          et exsúltent in conspéctu Dei: et delecténtur in lætítia. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 67, 4</Typography> Que os justos se
-          regozijem e exultem de alegria na presença de Deus, como em um
-          banquete. Que eles se deliciem em transportes de alegria. Aleluia.
+          <Typography className="vernacular">Sl. 67, 4</Typography> Que os
+          justos se regozijem e exultem de alegria na presença de Deus, como em
+          um banquete. Que eles se deliciem em transportes de alegria. Aleluia.
         </Typography>
       </Language>
       <Typography className="aside">
@@ -109,14 +114,16 @@ export default function Page7Muitosmartires2() {
       <Language>
         <Typography className="latin">
           Qui séminant in lácrimis, in gáudio metent.
-          <Typography className="versicle"> ℣. </Typography>Eúntes ibant et fiébant,
-          mitténtes sémina sua.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="versicle"> ℣. </Typography>Eúntes ibant et
+          fiébant, mitténtes sémina sua.
+          <Typography className="versicle"> ℣. </Typography>
           Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.
         </Typography>
         <Typography className="vernacular">
           Aqueles que semeiam com lágrimas ceifarão com júbilo.
-          <Typography className="versicle"> ℣. </Typography>Iam, caminhavam e lançavam a
-          semente à terra, chorando.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="versicle"> ℣. </Typography>Iam, caminhavam e
+          lançavam a semente à terra, chorando.
+          <Typography className="versicle"> ℣. </Typography>
           Porém, quando voltavam, exultavam de alegria, trazendo os seus molhos
           de trigo.
         </Typography>
@@ -125,12 +132,12 @@ export default function Page7Muitosmartires2() {
       <Typography className="em">Lc. 6, 17-23</Typography>
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Descéndens Jesus de monte, stetit in loco campéstri,
@@ -206,15 +213,15 @@ export default function Page7Muitosmartires2() {
         <Typography className="latin">
           Præsta nobis, quǽsumus, Dómine: intercedéntibus sanctis Martýribus
           tuis <Typography className="latin">N.</Typography> et{" "}
-          <Typography className="text-red-500">N.</Typography>; ut, quod ore contíngimus,
-          pura mente capiámus. Per Dóminum...
+          <Typography className="text-red-500">N.</Typography>; ut, quod ore
+          contíngimus, pura mente capiámus. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Senhor, por intercessão dos vossos santos Mártires{" "}
           <Typography className="vernacular">N.</Typography> e{" "}
-          <Typography className="text-red-500">N.</Typography>, dignai-Vos conceder-nos a
-          graça de guardarmos com o coração sempre puro o que a nossa boca agora
-          recebeu. Por nosso Senhor...
+          <Typography className="text-red-500">N.</Typography>, dignai-Vos
+          conceder-nos a graça de guardarmos com o coração sempre puro o que a
+          nossa boca agora recebeu. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

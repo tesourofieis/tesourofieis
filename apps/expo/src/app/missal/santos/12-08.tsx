@@ -43,17 +43,18 @@ export default function Page1208() {
           Gaudens gaudébo in Dómino, et exsultábit ánima mea in Deo meo: quia
           índuit me vestiméntis salútis: et induménto justítiæ circúmdedit me,
           quasi sponsam ornátam monílibus suis.{" "}
-          <Typography className="latin">Ps. 29, 2</Typography> Exaltábo te, Dómine, quóniam
-          suscepísti me: nec delectásti inimícos meos super me.
+          <Typography className="latin">Ps. 29, 2</Typography> Exaltábo te,
+          Dómine, quóniam suscepísti me: nec delectásti inimícos meos super me.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Rejubilarei no Senhor. Minha alma exultará de alegria no meu Deus.
           Pois Ele ornou-me com as vestes da salvação e embelezou-me com o manto
           da santidade, como uma esposa adornada com suas jóias.{" "}
-          <Typography className="vernacular">Sl. 29, 2</Typography> Louvar-Vos-ei, Senhor,
-          porque me protegestes e não consentistes que meus inimigos zombassem
-          de mim.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. 29, 2</Typography>{" "}
+          Louvar-Vos-ei, Senhor, porque me protegestes e não consentistes que
+          meus inimigos zombassem de mim.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
@@ -81,7 +82,9 @@ export default function Page1208() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Dóminus possedit me in inítio viárum suárum, ántequam quidquam fáceret
           a princípio. Ab ætérno ordináta sum, et ex antíquis, ántequam terra
@@ -131,26 +134,28 @@ export default function Page1208() {
       <Language>
         <Typography className="latin">
           Benedícta es tu. Virgo María, a Dómino, Deo excélso, præ ómnibus
-          muliéribus super terram.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 15, 10</Typography> Tu glória Jerúsalem, tu
-          lætítia Israël, tu honorificéntia pópuli nostri.
+          muliéribus super terram.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 15, 10</Typography> Tu glória
+          Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli nostri.
         </Typography>
         <Typography className="vernacular">
           Fostes abençoada pelo Senhor, pelo Deus altíssimo, ó Virgem Maria,
           tendo sido colocada superior a todas as mulheres da terra.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 15, 10</Typography> Sois a glória de
-          Jerusalém; sois a alegria de Israel; sois a honra do nosso povo.
+          <Typography className="vernacular">ibid., 15, 10</Typography> Sois a
+          glória de Jerusalém; sois a alegria de Israel; sois a honra do nosso
+          povo.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Cant. 4, 7</Typography> Tota pulchra es, María: et
-          mácula originális non est in te. Allelúja.
+          <Typography className="latin">Cant. 4, 7</Typography> Tota pulchra es,
+          María: et mácula originális non est in te. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ct. 4, 7</Typography> Toda sois formosa, ó
-          Maria; e a mácula original não existe em vós. Aleluia.
+          <Typography className="vernacular">Ct. 4, 7</Typography> Toda sois
+          formosa, ó Maria; e a mácula original não existe em vós. Aleluia.
         </Typography>
       </Language>
 
@@ -160,12 +165,12 @@ export default function Page1208() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Missus est Angelus Gábriël a Deo in civitátem

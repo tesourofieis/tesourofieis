@@ -41,18 +41,19 @@ export default function Page0503() {
         <Typography className="latin">
           Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo
           est salus, vita et resurréctio nostra: per quem salváti et liberáti
-          sumus, allelúja, allelúja. <Typography className="latin">Ps. 66, 2</Typography>{" "}
-          Deus misereátur nostri, et benedícat nobis: illúminet vultum suum
-          super nos, et misereátur nostri.<Typography className="versicle"> ℣. </Typography>
+          sumus, allelúja, allelúja.{" "}
+          <Typography className="latin">Ps. 66, 2</Typography> Deus misereátur
+          nostri, et benedícat nobis: illúminet vultum suum super nos, et
+          misereátur nostri.<Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Convém que nos gloriemos na Cruz de nosso Senhor Jesus Cristo, pois
           Ele é a nossa salvação, vida e ressurreição: e por Ele fomos salvos e
           livres, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. 66, 2</Typography> Que o Senhor tenha
-          misericórdia de nós e nos abençoe; que o Senhor nos ilumine com o
-          brilho que resplandece da sua face e se compadeça de nós.
+          <Typography className="vernacular">Sl. 66, 2</Typography> Que o Senhor
+          tenha misericórdia de nós e nos abençoe; que o Senhor nos ilumine com
+          o brilho que resplandece da sua face e se compadeça de nós.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -91,10 +92,10 @@ export default function Page0503() {
           hóminum factus, et habitu inventus ut homo. Humiliávit semetípsum,
           factus obǿdiens usque ad mortem, mortem autem crucis. Propter quod et
           Deus exaltávit illum: et dojiávit illi nomen, quod est super omne
-          nomen: <Typography className="em">(hic genuflectitur)</Typography> ut in nomine
-          Jesu omne genu flectátur cœléstium, terréstrium et infernórum: et
-          omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est
-          Dei Patris.
+          nomen: <Typography className="em">(hic genuflectitur)</Typography> ut
+          in nomine Jesu omne genu flectátur cœléstium, terréstrium et
+          infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus
+          in glória est Dei Patris.
         </Typography>
         <Typography className="vernacular">
           Meus irmãos: Tende os mesmos sentimentos que animaram Jesus Cristo, o
@@ -104,9 +105,9 @@ export default function Page0503() {
           como homem pelas aparências. Humilhou-se a si próprio, obedecendo até
           à morte, e morte na cruz. Por isso Deus O exaltou e deu-Lhe um nome
           que é superior a todo o nome
-          <Typography className="em">(devemos genuflectir)</Typography> para que ao ser
-          proferido o nome de Jesus todos os joelhos se dobrem nos céus, na
-          terra e até nos infernos; e todas as línguas confessem que nosso
+          <Typography className="em">(devemos genuflectir)</Typography> para que
+          ao ser proferido o nome de Jesus todos os joelhos se dobrem nos céus,
+          na terra e até nos infernos; e todas as línguas confessem que nosso
           Senhor Jesus Cristo está na glória de Deus Pai!
         </Typography>
       </Language>
@@ -114,19 +115,19 @@ export default function Page0503() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 95, 10</Typography> Dícite in géntibus, quia
-          Dóminus regnávit a ligno. Allelúja.
-          <Typography className="versicle"> ℣. </Typography>Dulce lignum, dulces clavos,
-          dúlcia ferens póndera: quæ sola fuísti digna sustinére Regem cœlórum
-          et Dóminum. Allelúja.
+          <Typography className="latin">Ps. 95, 10</Typography> Dícite in
+          géntibus, quia Dóminus regnávit a ligno. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>Dulce lignum, dulces
+          clavos, dúlcia ferens póndera: quæ sola fuísti digna sustinére Regem
+          cœlórum et Dóminum. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 95, 10</Typography> Anunciai aos povos que
-          o Senhor reinou pela Cruz. Aleluia.
-          <Typography className="versicle"> ℣. </Typography>Ó doce Lenho, ó doces cravos que
-          suportais o peso dum fardo tão doce! Só vós, ó Cruz, fostes digna de
-          ter suspenso o Senhor, Rei dos céus. Aleluia.
+          <Typography className="vernacular">Sl. 95, 10</Typography> Anunciai
+          aos povos que o Senhor reinou pela Cruz. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>Ó doce Lenho, ó
+          doces cravos que suportais o peso dum fardo tão doce! Só vós, ó Cruz,
+          fostes digna de ter suspenso o Senhor, Rei dos céus. Aleluia.
         </Typography>
       </Language>
 
@@ -136,12 +137,12 @@ export default function Page0503() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Erat homo ex pharisǽis, Nicodémus nómine, princeps

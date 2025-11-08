@@ -71,12 +71,13 @@ export default function Page110() {
           aliança.
         </Typography>
         <Typography className="latin">
-          <Typography className="latin">fit reverentia</Typography> Sanctum, et terríbile
-          nomen ejus: * inítium sapiéntiæ timor Dómini.
+          <Typography className="latin">fit reverentia</Typography> Sanctum, et
+          terríbile nomen ejus: * inítium sapiéntiæ timor Dómini.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="vernacular">inclinar a cabeça</Typography> Santo e terrível
-          é o seu nome: * o temor do Senhor é o princípio da sabedoria.
+          <Typography className="vernacular">inclinar a cabeça</Typography>{" "}
+          Santo e terrível é o seu nome: * o temor do Senhor é o princípio da
+          sabedoria.
         </Typography>
         <Typography className="latin">
           Intelléctus bonus ómnibus faciéntibus eum: * laudátio ejus manet in

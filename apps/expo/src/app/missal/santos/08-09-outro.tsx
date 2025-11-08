@@ -17,16 +17,18 @@ export default function Page0809Outro() {
         <Typography className="latin">
           Dispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi:
           cornu ejus exaltábitur in glória.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Beátus vir, qui timet
-          Dóminum: in mandátis ejus cupit nimis.
+          <Typography className="latin">Ps. ibid., 1</Typography> Beátus vir,
+          qui timet Dóminum: in mandátis ejus cupit nimis.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Distribuiu liberalmente os seus bens pelos pobres: a sua justiça
           subsistirá em todos os séculos dos séculos: e o seu poder será
-          exaltado com glória. <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
+          exaltado com glória.{" "}
+          <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
           Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em
-          cumprir os seus Mandamentos.<Typography className="versicle"> ℣. </Typography>
+          cumprir os seus Mandamentos.
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
       </Language>
@@ -60,14 +62,14 @@ export default function Page0809Outro() {
       <Language>
         <Typography className="latin">
           Dispersit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi.
-          <Typography className="versicle"> ℣. </Typography>Potens in terra erit semen ejus:
-          generátio rectórum benedicétur.
+          <Typography className="versicle"> ℣. </Typography>Potens in terra erit
+          semen ejus: generátio rectórum benedicétur.
         </Typography>
         <Typography className="vernacular">
           Distribuiu liberalmente os seus bens pelos pobres: a sua justiça
           subsistirá em todos os séculos dos séculos.
-          <Typography className="versicle"> ℣. </Typography>Sua descendência será poderosa
-          na terra, pois a geração dos justos será abençoada.
+          <Typography className="versicle"> ℣. </Typography>Sua descendência
+          será poderosa na terra, pois a geração dos justos será abençoada.
         </Typography>
       </Language>
 

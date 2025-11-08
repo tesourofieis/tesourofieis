@@ -54,17 +54,18 @@ export default function Page1123() {
         <Typography className="latin">
           Dicit Dóminus: Sermónes mei, quos dedi in os tuum, non defícient de
           ore tuo: et múnera tua accépta erunt super altáre meum.{" "}
-          <Typography className="latin">Ps. 111, 1</Typography> Beátus vir, qui timet
-          Dóminum: in mandátis ejus cupit nimis.
+          <Typography className="latin">Ps. 111, 1</Typography> Beátus vir, qui
+          timet Dóminum: in mandátis ejus cupit nimis.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Disse o Senhor: Minhas palavras, que pus na vossa boca, não cessarão
           de estar nos vossos lábios; e então os dons, que apresentardes nos
           meus altares, ser-me-ão agradáveis.{" "}
-          <Typography className="vernacular">Sl. 111, 1</Typography> Bem-aventurado o varão
-          que teme o Senhor: e cujo zelo é ardente no cumprimento dos seus
-          mandamentos.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. 111, 1</Typography>{" "}
+          Bem-aventurado o varão que teme o Senhor: e cujo zelo é ardente no
+          cumprimento dos seus mandamentos.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 

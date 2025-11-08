@@ -16,13 +16,15 @@ export default function PagePent20() {
         <Typography className="latin">
           Factus est Dóminus protéctor meus, et edúxit me in latitúdinem: salvum
           me fecit, quóniam vóluit me.{" "}
-          <Typography className="latin">Ps. ib., 2-3</Typography> Díligam te, Dómine, virtus
-          mea: Dóminus firmaméntum meum et refúgium meum et liberátor meus.
+          <Typography className="latin">Ps. ib., 2-3</Typography> Díligam te,
+          Dómine, virtus mea: Dóminus firmaméntum meum et refúgium meum et
+          liberátor meus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Senhor fez-se o meu protector e conduziu-me para o largo: E, porque
-          me amava, salvou-me. <Typography className="vernacular">Sl. ib., 2-3</Typography>{" "}
+          me amava, salvou-me.{" "}
+          <Typography className="vernacular">Sl. ib., 2-3</Typography>{" "}
           Amar-Vos-ei, Senhor, pois sois a minha fortaleza. Sim, o Senhor é o
           meu sustentáculo, refúgio e libertador.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
@@ -49,8 +51,12 @@ export default function PagePent20() {
       <Typography className="em">1 Jo. 3, 13-18</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Joánnis Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º João.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Joánnis Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º João.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Nolíte mirári, si odit vos mundus. Nos scimus, quóniam
           transláti sumus de morte ad vitam, quóniam dilígimus fratres. Qui non
@@ -84,8 +90,8 @@ export default function PagePent20() {
       <Language>
         <Typography className="latin">
           Ad Dóminum, cum tribulárer, clamávi, et exaudívit me.
-          <Typography className="versicle"> ℣. </Typography>Dómine, libera ánimam meam a
-          lábiis iníquis, et a lingua dolósa.
+          <Typography className="versicle"> ℣. </Typography>Dómine, libera
+          ánimam meam a lábiis iníquis, et a lingua dolósa.
         </Typography>
         <Typography className="vernacular">
           Quando estava na tribulação, clamei pelo Senhor, que me ouviu.
@@ -95,14 +101,14 @@ export default function PagePent20() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 7, 2</Typography> Dómine, Deus meus, in te
-          sperávi: salvum me fac ex ómnibus persequéntibus me et líbera me.
-          Allelúja.
+          <Typography className="latin">Ps. 7, 2</Typography> Dómine, Deus meus,
+          in te sperávi: salvum me fac ex ómnibus persequéntibus me et líbera
+          me. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 7, 2</Typography> Senhor, meu Deus,
-          refugio-me em Vós: salvai-me das mãos dos meus perseguidores:
+          <Typography className="vernacular">Sl. 7, 2</Typography> Senhor, meu
+          Deus, refugio-me em Vós: salvai-me das mãos dos meus perseguidores:
           livrai-me. Aleluia.
         </Typography>
       </Language>
@@ -113,12 +119,12 @@ export default function PagePent20() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus pharisǽis parábolam hanc: Homo quidam

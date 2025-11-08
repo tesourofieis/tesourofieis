@@ -25,7 +25,9 @@ export default function PageAnjos() {
         <Typography className="latin">
           Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
         </Typography>
-        <Typography className="vernacular">Lição do Apocalipse do B. Ap.º João.</Typography>
+        <Typography className="vernacular">
+          Lição do Apocalipse do B. Ap.º João.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Audívi vocem Angelórum multórum in circúitu throni,
           et animálium, et seniórum: et erat númerus eórum mília mílium,
@@ -56,8 +58,8 @@ export default function PageAnjos() {
       <Language>
         <Typography className="latin">
           Laudáte Dóminum de cœlis: laudáte eum in excélsis.
-          <Typography className="versicle"> ℣. </Typography>Laudáte eum, omnes Angeli ejus:
-          laudáte eum, omnes virtútes ejus.
+          <Typography className="versicle"> ℣. </Typography>Laudáte eum, omnes
+          Angeli ejus: laudáte eum, omnes virtútes ejus.
         </Typography>
         <Typography className="vernacular">
           Louvai o Senhor nos céus! Louvai-O nas alturas celestiais.
@@ -66,15 +68,15 @@ export default function PageAnjos() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 137, 1-2</Typography> In conspéctu Angelórum
-          psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini
-          tuo. Allelúja.
+          <Typography className="latin">Ps. 137, 1-2</Typography> In conspéctu
+          Angelórum psallam tibi: adorábo ad templum sanctum tuum, et confitébor
+          nómini tuo. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 137, 1-2</Typography> Cantarei louvores em
-          vossa honra diante dos Anjos; adorar-Vos-ei no vosso santo templo: e
-          glorificarei o vosso nome. Aleluia.
+          <Typography className="vernacular">Sl. 137, 1-2</Typography> Cantarei
+          louvores em vossa honra diante dos Anjos; adorar-Vos-ei no vosso santo
+          templo: e glorificarei o vosso nome. Aleluia.
         </Typography>
       </Language>
       Depois da Septuagésima omite-se o Aleluia e o Verso que se segue, e
@@ -85,20 +87,22 @@ export default function PageAnjos() {
         <Typography className="latin">
           Benedícite Dóminum, omnes Angeli ejus: potentes virtúte, qui fácitis
           verbum ejus.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 21-22</Typography> Benedícite Dómino, omnes
-          virtútes ejus: minístri ejus, qui fácitis voluntátem ejus.
-          <Typography className="versicle"> ℣. </Typography>Benedicite Dómino, ómnia ópera
-          ejus: in omni loco dominatiónis ejus, bénedic, ánima mea, Dómino.
+          <Typography className="latin">ibid., 21-22</Typography> Benedícite
+          Dómino, omnes virtútes ejus: minístri ejus, qui fácitis voluntátem
+          ejus.
+          <Typography className="versicle"> ℣. </Typography>Benedicite Dómino,
+          ómnia ópera ejus: in omni loco dominatiónis ejus, bénedic, ánima mea,
+          Dómino.
         </Typography>
         <Typography className="vernacular">
           Bendizei o Senhor, ó vós, todos os Anjos, heróis poderosos, executores
           das suas ordens e sempre fiéis aos seus chamamentos.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 21-22</Typography> Bendizei o Senhor,
-          vós todos, que formais o seu exército; sois os seus ministros e
-          cumpris a sua vontade! Bendizei o Senhor, ó obras todas do mesmo
-          Senhor! Bendizei o Senhor em todos os lugares do seu domínio, ó minha
-          alma.
+          <Typography className="vernacular">ibid., 21-22</Typography> Bendizei
+          o Senhor, vós todos, que formais o seu exército; sois os seus
+          ministros e cumpris a sua vontade! Bendizei o Senhor, ó obras todas do
+          mesmo Senhor! Bendizei o Senhor em todos os lugares do seu domínio, ó
+          minha alma.
         </Typography>
       </Language>
       <Typography className="aside">
@@ -107,32 +111,34 @@ export default function PageAnjos() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 137, 1-2</Typography> In conspéctu Angelórum
-          psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini
-          tuo Allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Matth. 28, 2</Typography> Angelus Dómini descéndit de
-          cœlo, et accédens revólvit lápidem, et sedébat super eum. Allelúja.
+          <Typography className="latin">Ps. 137, 1-2</Typography> In conspéctu
+          Angelórum psallam tibi: adorábo ad templum sanctum tuum, et confitébor
+          nómini tuo Allelúja.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Matth. 28, 2</Typography> Angelus Dómini
+          descéndit de cœlo, et accédens revólvit lápidem, et sedébat super eum.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 137, 1-2</Typography> Cantarei louvores em
-          vossa honra diante dos Anjos; adorar-Vos-ei no vosso santo templo; e
-          glorificarei o vosso nome. Aleluia.
+          <Typography className="vernacular">Sl. 137, 1-2</Typography> Cantarei
+          louvores em vossa honra diante dos Anjos; adorar-Vos-ei no vosso santo
+          templo; e glorificarei o vosso nome. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Mt. 28, 2</Typography> Um Anjo do Senhor, havendo
-          descido do céu, afastou a pedra e assentou-se sobre ela. Aleluia.
+          <Typography className="em">Mt. 28, 2</Typography> Um Anjo do Senhor,
+          havendo descido do céu, afastou a pedra e assentou-se sobre ela.
+          Aleluia.
         </Typography>
       </Language>
       <H3 text="Evangelho" />
       <Typography className="em">Jo. 1, 47-51</Typography>
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Vidit Jesus Nathánaël veniéntem ad se, et dicit de

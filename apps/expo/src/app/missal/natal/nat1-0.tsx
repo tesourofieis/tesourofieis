@@ -16,17 +16,19 @@ export default function PageNat10() {
         <Typography className="latin">
           Dum médium siléntium tenérent ómnia, et nox in suo cursu médium iter
           háberet, omnípotens Sermo tuus, Dómine, de cœlis a regálibus sédibus
-          venit. <Typography className="latin">Ps. 92, 1</Typography> Dóminus regnávit,
-          decórem indútus est: indútus est Dóminus fortitúdinem, et præcínxit
-          se.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+          venit. <Typography className="latin">Ps. 92, 1</Typography> Dóminus
+          regnávit, decórem indútus est: indútus est Dóminus fortitúdinem, et
+          præcínxit se.<Typography className="versicle"> ℣. </Typography>Gloria
+          Patri...
         </Typography>
         <Typography className="vernacular">
           Enquanto o mundo repousava em um profundo silêncio: e a noite estava
           no meio do seu decurso, o vosso Verbo omnipotente, Senhor, desceu dos
           céus, do seu régio trono.{" "}
-          <Typography className="vernacular">Sl. 92, 1</Typography> O Senhor revestiu-se de
-          glória e reina; o Senhor revestiu-se com a túnica da majestade e
-          cingiu-se com o poder.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. 92, 1</Typography> O Senhor
+          revestiu-se de glória e reina; o Senhor revestiu-se com a túnica da
+          majestade e cingiu-se com o poder.
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
       </Language>
@@ -91,9 +93,9 @@ export default function PageNat10() {
       <Language>
         <Typography className="latin">
           Speciósus forma præ filiis hóminum: diffúsa est gratia in lábiis tuis.
-          <Typography className="versicle"> ℣. </Typography>Eructávit cor meum verbum bonum,
-          dico ego ópera mea Regi: lingua mea cálamus scribæ, velóciter
-          scribéntis.
+          <Typography className="versicle"> ℣. </Typography>Eructávit cor meum
+          verbum bonum, dico ego ópera mea Regi: lingua mea cálamus scribæ,
+          velóciter scribéntis.
         </Typography>
         <Typography className="vernacular">
           Vós sois mais belo do que todos os filhos dos homens, pois a graça
@@ -104,14 +106,15 @@ export default function PageNat10() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 92, 1</Typography> Dóminus regnávit, decórem
-          índuit: índuit Dóminus fortitúdinem, et præcínxit se virtúte.
+          <Typography className="latin">Ps. 92, 1</Typography> Dóminus regnávit,
+          decórem índuit: índuit Dóminus fortitúdinem, et præcínxit se virtúte.
           Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia. <Typography className="vernacular">Sl. 92, 1</Typography> O
-          Senhor revestiu-se de glória e reina: O Senhor revestiu-se de
-          autoridade e cingiu-se com o poder. Aleluia.
+          Aleluia, aleluia.{" "}
+          <Typography className="vernacular">Sl. 92, 1</Typography> O Senhor
+          revestiu-se de glória e reina: O Senhor revestiu-se de autoridade e
+          cingiu-se com o poder. Aleluia.
         </Typography>
       </Language>
 
@@ -121,12 +124,12 @@ export default function PageNat10() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Erat Joseph et Maria Mater Jesu, mirántes super his

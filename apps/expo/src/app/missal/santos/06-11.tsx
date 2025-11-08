@@ -38,7 +38,9 @@ export default function Page0611() {
 
       <Language>
         <Typography className="latin">Léctio Actuum Apostolórum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Multus numerus credentium Antiochíæ convérsus est ad
           Dóminum. Pervénit autem sermo ad aures ecclésiæ, quæ erat Jerosólymis,
@@ -85,25 +87,26 @@ export default function Page0611() {
       <Language>
         <Typography className="latin">
           In omnem terram exívit sonus eórum: et in fines orbis terræ verba
-          eórum.<Typography className="versicle"> ℣. </Typography>Cœli enárrant glóriam Dei:
-          et ópera mánuum ejus annúntiat firmaméntum.
+          eórum.<Typography className="versicle"> ℣. </Typography>Cœli enárrant
+          glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
         </Typography>
         <Typography className="vernacular">
           O som da sua voz espalhou-se por toda a terra: as suas palavras soaram
           até aos confins do mundo.
-          <Typography className="versicle"> ℣. </Typography>Os céus apregoam a glória do
-          Senhor e o firmamento manifesta as obras das suas mãos.
+          <Typography className="versicle"> ℣. </Typography>Os céus apregoam a
+          glória do Senhor e o firmamento manifesta as obras das suas mãos.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Joann. 15, 16</Typography> Ego vos elégi de mundo,
-          ut eátis et fructum afferátis: et fructus vester maneat. Allelúja.
+          <Typography className="latin">Joann. 15, 16</Typography> Ego vos elégi
+          de mundo, ut eátis et fructum afferátis: et fructus vester maneat.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Jo. 15, 16</Typography> Eu vos escolhi para que
-          possais ir e alcançar fruto; e para que esse vosso fruto permaneça.
-          Aleluia.
+          <Typography className="vernacular">Jo. 15, 16</Typography> Eu vos
+          escolhi para que possais ir e alcançar fruto; e para que esse vosso
+          fruto permaneça. Aleluia.
         </Typography>
       </Language>
 

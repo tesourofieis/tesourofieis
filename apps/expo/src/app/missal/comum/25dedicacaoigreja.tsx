@@ -16,16 +16,18 @@ export default function Page25Dedicacaoigreja() {
         <Typography className="latin">
           Terríbilis est locus iste: hic domus Dei est et porta cœli: et
           vocábitur aula Dei. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. 83, 2-3</Typography> Quam dilécta tabernácula
-          tua, Dómine virtútum! concupíscit, et déficit ánima mea in átria
-          Dómini.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+          <Typography className="latin">Ps. 83, 2-3</Typography> Quam dilécta
+          tabernácula tua, Dómine virtútum! concupíscit, et déficit ánima mea in
+          átria Dómini.<Typography className="versicle"> ℣. </Typography>Gloria
+          Patri...
         </Typography>
         <Typography className="vernacular">
           Que terrível é este lugar! É verdadeiramente a casa de Deus e a porta
           do céu: e será chamado o palácio de Deus. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. 83, 2-3</Typography> Quão dilectos são os
-          vossos tabernáculos, ó Senhor dos exércitos! Minha alma suspira com
-          ardor e em êxtase, em desejos de viver junto dos átrios do Senhor.
+          <Typography className="vernacular">Sl. 83, 2-3</Typography> Quão
+          dilectos são os vossos tabernáculos, ó Senhor dos exércitos! Minha
+          alma suspira com ardor e em êxtase, em desejos de viver junto dos
+          átrios do Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -114,24 +116,26 @@ export default function Page25Dedicacaoigreja() {
       <Language>
         <Typography className="latin">
           Locus iste a Deo factus est, inæstimábile sacraméntum,
-          irreprehensíbilis est.<Typography className="versicle"> ℣. </Typography>Deus, cui
-          astat Angelórum chorus, exáudi preces servórum tuórum.
+          irreprehensíbilis est.
+          <Typography className="versicle"> ℣. </Typography>Deus, cui astat
+          Angelórum chorus, exáudi preces servórum tuórum.
         </Typography>
         <Typography className="vernacular">
           Este lugar foi feito por Deus: ele é um mystério inapreciável e isento
-          de qualquer defeito.<Typography className="versicle"> ℣. </Typography>Ó Deus,
-          diante de Quem se prostram os caros dos Anjos, ouvi as preces dos
-          vossos servos.
+          de qualquer defeito.<Typography className="versicle"> ℣. </Typography>
+          Ó Deus, diante de Quem se prostram os caros dos Anjos, ouvi as preces
+          dos vossos servos.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 137, 2</Typography> Adorábo ad templum sanctum
-          tuum: et confitébor nómini tuo. Allelúja.
+          <Typography className="latin">Ps. 137, 2</Typography> Adorábo ad
+          templum sanctum tuum: et confitébor nómini tuo. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 137, 2</Typography> Adorar-Vos-ei no vosso
-          santo Templo e louvarei o vosso santo Nome. Aleluia.
+          <Typography className="vernacular">Sl. 137, 2</Typography>{" "}
+          Adorar-Vos-ei no vosso santo Templo e louvarei o vosso santo Nome.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -147,14 +151,15 @@ export default function Page25Dedicacaoigreja() {
         <Typography className="latin">
           Qui confídunt in Dómino, sicut mons Sion: non commovébitur in ætérnum,
           qui hábitat in Jerúsalem.
-          <Typography className="versicle"> ℣. </Typography>Montes in circúitu ejus, et
-          Dóminus in circúitu pópuli sui, ex hoc nunc, et usque in sǽculum.
+          <Typography className="versicle"> ℣. </Typography>Montes in circúitu
+          ejus, et Dóminus in circúitu pópuli sui, ex hoc nunc, et usque in
+          sǽculum.
         </Typography>
         <Typography className="vernacular">
           Aqueles que confiam no Senhor são como o monte Sião: aquele que habita
           em Jerusalém nunca será abalado.
-          <Typography className="versicle"> ℣. </Typography>Assim como Jerusalém está
-          rodeada de montanhas, assim o Senhor circunda o seu povo, agora e
+          <Typography className="versicle"> ℣. </Typography>Assim como Jerusalém
+          está rodeada de montanhas, assim o Senhor circunda o seu povo, agora e
           sempre.
         </Typography>
       </Language>
@@ -166,17 +171,17 @@ export default function Page25Dedicacaoigreja() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 137, 2</Typography> Adorábo ad templum sanctum
-          tuum: et confitébor nómini tuo. Allelúja.
-          <Typography className="versicle"> ℣. </Typography>Bene fundáta est domus Dómini
-          supra firmam petram. Allelúja.
+          <Typography className="latin">Ps. 137, 2</Typography> Adorábo ad
+          templum sanctum tuum: et confitébor nómini tuo. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>Bene fundáta est
+          domus Dómini supra firmam petram. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 137, 2</Typography> Adorar-Vos-ei no vosso
-          santo Templo: e louvarei o vosso santo Nome.
-          <Typography className="versicle"> ℣. </Typography>A casa do Senhor está edificada
-          solidamente sobre pedra firme. Aleluia.
+          <Typography className="vernacular">Sl. 137, 2</Typography>{" "}
+          Adorar-Vos-ei no vosso santo Templo: e louvarei o vosso santo Nome.
+          <Typography className="versicle"> ℣. </Typography>A casa do Senhor
+          está edificada solidamente sobre pedra firme. Aleluia.
         </Typography>
       </Language>
 
@@ -186,12 +191,12 @@ export default function Page25Dedicacaoigreja() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Ingréssus Jesus perambulábat Jéricho. Et ecce, vir

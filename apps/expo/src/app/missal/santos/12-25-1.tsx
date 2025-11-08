@@ -16,15 +16,17 @@ export default function Page12251() {
         <Typography className="latin">
           Lux fulgébit hódie super nos: quia natus est nobis Dóminus: et
           vocábitur Admirábilis, Deus, Princeps pacis, Pater futúri sǽculi:
-          cujus regni non erit finis. <Typography className="latin">Ps. 92, 1</Typography>{" "}
-          Dominus regnávit, decorem indutus est: indutus est Dominus
-          fortitudinem, et præcínxit se.
+          cujus regni non erit finis.{" "}
+          <Typography className="latin">Ps. 92, 1</Typography> Dominus regnávit,
+          decorem indutus est: indutus est Dominus fortitudinem, et præcínxit
+          se.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           A luz brilhará hoje sobre nós: pois o Senhor nasceu para nós: e será
           chamado Admirável, Deus, Príncipe da Paz, Pai da eternidade; seu reino
-          não terá fim. <Typography className="vernacular">Sl. 92, 1</Typography> O Senhor
+          não terá fim.{" "}
+          <Typography className="vernacular">Sl. 92, 1</Typography> O Senhor
           reinou e revestiu-se de majestade: o Senhor revestiu-se com a túnica
           da fortaleza e cingiu-se para o combate.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
@@ -84,25 +86,25 @@ export default function Page12251() {
       <Language>
         <Typography className="latin">
           Benedíctus, qui venit in nómine Dómini: Deus Dóminus, et illúxit
-          nobis.<Typography className="versicle"> ℣. </Typography>A Dómino factum est istud:
-          et est mirábile in óculis nostris.
+          nobis.<Typography className="versicle"> ℣. </Typography>A Dómino
+          factum est istud: et est mirábile in óculis nostris.
         </Typography>
         <Typography className="vernacular">
           Bendito seja Aquele que vem em nome do Senhor! O Senhor é Deus e a sua
           luz resplandeceu sobre nós.
-          <Typography className="versicle"> ℣. </Typography>Foi o Senhor quem criou esta
-          maravilha, que brilha aos nossos olhos.
+          <Typography className="versicle"> ℣. </Typography>Foi o Senhor quem
+          criou esta maravilha, que brilha aos nossos olhos.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 92, 1</Typography> Dóminus regnávit, decórem
-          índuit: índuit Dóminus fortitúdinem, et præcínxit se virtúte.
+          <Typography className="latin">Ps. 92, 1</Typography> Dóminus regnávit,
+          decórem índuit: índuit Dóminus fortitúdinem, et præcínxit se virtúte.
           Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 92, 1</Typography> O Senhor reina e
-          revestiu-se de majestade: o Senhor revestiu-se com a túnica da
+          <Typography className="vernacular">Sl. 92, 1</Typography> O Senhor
+          reina e revestiu-se de majestade: o Senhor revestiu-se com a túnica da
           fortaleza e cingiu-se para o combate. Aleluia.
         </Typography>
       </Language>
@@ -113,12 +115,12 @@ export default function Page12251() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Pastóres loquebántur ad ínvicem: Transeámus usque

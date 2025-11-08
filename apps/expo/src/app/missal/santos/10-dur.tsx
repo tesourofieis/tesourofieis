@@ -74,16 +74,16 @@ export default function Page10Dur() {
         <Typography className="latin">
           Dignus est Agnus, qui occísus est, accípere virtútem, et divinitátem,
           et sapiéntiam, et fortitúdinem, et honórem. Ipsi glória et impérium in
-          sǽcula sæculórum. <Typography className="latin">Ps. 71, 1</Typography> Deus,
-          judícium tuum Regi da: et justítiam tuam Fílio Regis.
+          sǽcula sæculórum. <Typography className="latin">Ps. 71, 1</Typography>{" "}
+          Deus, judícium tuum Regi da: et justítiam tuam Fílio Regis.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Cordeiro, que foi imolado, é digno de receber o poder, a divindade,
           a sabedoria, a fortaleza, a honra: A Ele a glória e o império em todos
-          os séculos dos séculos. <Typography className="vernacular">Sl. 71, 1</Typography>{" "}
-          Ó Deus, dai ao Rei o poder de julgar; e a vossa justiça ao Filho do
-          Rei.
+          os séculos dos séculos.{" "}
+          <Typography className="vernacular">Sl. 71, 1</Typography> Ó Deus, dai
+          ao Rei o poder de julgar; e a vossa justiça ao Filho do Rei.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -158,25 +158,25 @@ export default function Page10Dur() {
       <Language>
         <Typography className="latin">
           Dominábitur a mari usque ad mare, et a flúmine usque ad términos orbis
-          terrárum.<Typography className="versicle"> ℣. </Typography>Et adorábunt eum omnes
-          reges terræ: omnes gentes sérvient ei.
+          terrárum.<Typography className="versicle"> ℣. </Typography>Et
+          adorábunt eum omnes reges terræ: omnes gentes sérvient ei.
         </Typography>
         <Typography className="vernacular">
           Dominará de mar a mar e desde o rio aos confins da redondeza da terra!
-          <Typography className="versicle"> ℣. </Typography>Adorá-l’O-ão todos os reis da
-          terra: e todos os povos O servirão!
+          <Typography className="versicle"> ℣. </Typography>Adorá-l’O-ão todos
+          os reis da terra: e todos os povos O servirão!
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Dan. 7, 14</Typography> Potéstas ejus, potéstas
-          ætérna, quæ non auferétur: et regnum ejus, quod non corrumpétur.
-          Allelúja.
+          <Typography className="latin">Dan. 7, 14</Typography> Potéstas ejus,
+          potéstas ætérna, quæ non auferétur: et regnum ejus, quod non
+          corrumpétur. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Dn. 7, 14</Typography> Seu poder é eterno,
-          nunca Lhe será tirado; seu reino é tal que nunca será corrompido.
-          Aleluia.
+          <Typography className="vernacular">Dn. 7, 14</Typography> Seu poder é
+          eterno, nunca Lhe será tirado; seu reino é tal que nunca será
+          corrompido. Aleluia.
         </Typography>
       </Language>
 
@@ -186,12 +186,12 @@ export default function Page10Dur() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Pilátus ad Jesum: Tu es Rex Judæórum? Respóndit

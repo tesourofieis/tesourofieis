@@ -16,12 +16,13 @@ export default function PageConfirmacao() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Spíritus Sanctus supervéniat in
-          vos, et virtus Altíssimi custódiat vos a peccátis.
+          <Typography className="versicle"> ℣. </Typography>Spíritus Sanctus
+          supervéniat in vos, et virtus Altíssimi custódiat vos a peccátis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Que o Espírito Santo desça sobre
-          vós e que a virtude do Altíssimo vos livre de todos os pecados.
+          <Typography className="versicle"> ℣. </Typography>Que o Espírito Santo
+          desça sobre vós e que a virtude do Altíssimo vos livre de todos os
+          pecados.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -30,43 +31,50 @@ export default function PageConfirmacao() {
           <Typography className="response"> ℟. </Typography> Amen.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Adjutórium nostrum in nómine
-          Dómini.
+          <Typography className="versicle"> ℣. </Typography>Adjutórium nostrum
+          in nómine Dómini.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O nosso auxílio está no Nome do
-          Senhor.
+          <Typography className="versicle"> ℣. </Typography>O nosso auxílio está
+          no Nome do Senhor.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Qui fecit cœlum et terram.
+          <Typography className="response"> ℟. </Typography> Qui fecit cœlum et
+          terram.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Que criou o céu e a terra.
+          <Typography className="response"> ℟. </Typography> Que criou o céu e a
+          terra.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi oratiónem meam.
+          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi
+          oratiónem meam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha oração.
+          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha
+          oração.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et clamor meus ad te véniat.
+          <Typography className="response"> ℟. </Typography> Et clamor meus ad
+          te véniat.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E que meu clamor chegue até
-          Vós.
+          <Typography className="response"> ℟. </Typography> E que meu clamor
+          chegue até Vós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Dominus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor seja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor seja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
       </Language>
 
@@ -103,12 +111,12 @@ export default function PageConfirmacao() {
           <Typography className="response"> ℟. </Typography> Amen.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Spíritum sapiéntiæ, et
-          intelléctus.
+          <Typography className="versicle"> ℣. </Typography>Spíritum sapiéntiæ,
+          et intelléctus.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Espírito da Sabedoria e do
-          Entendimento!
+          <Typography className="versicle"> ℣. </Typography>O Espírito da
+          Sabedoria e do Entendimento!
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -117,12 +125,12 @@ export default function PageConfirmacao() {
           <Typography className="response"> ℟. </Typography> Amen.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Spíritum consílii, et
-          fortitúdinis.
+          <Typography className="versicle"> ℣. </Typography>Spíritum consílii,
+          et fortitúdinis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Espírito do Conselho e da
-          Fortaleza!
+          <Typography className="versicle"> ℣. </Typography>O Espírito do
+          Conselho e da Fortaleza!
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -131,11 +139,12 @@ export default function PageConfirmacao() {
           <Typography className="response"> ℟. </Typography> Amen.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Spíritum sciéntiæ, et pietátis.
+          <Typography className="versicle"> ℣. </Typography>Spíritum sciéntiæ,
+          et pietátis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Espírito da Ciência e da
-          Piedade!
+          <Typography className="versicle"> ℣. </Typography>O Espírito da
+          Ciência e da Piedade!
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -145,15 +154,15 @@ export default function PageConfirmacao() {
         </Typography>
         <Typography className="latin">
           Adímple eum (eam) Spíritu timóris tui, et consígna eum (eam) signo Cru{" "}
-          <Typography className="cross"> ✠ </Typography> cis Christi, in vitam propitiátus
-          ætérnam. Per eúmdem Dóminum nostrum Jesum Christum, Fílium tuum: Qui
-          tecum vivit et regnat in unitáte ejúsdem Spíritus Sancti Deus, per
-          ómnia sæcula sæculórum.
+          <Typography className="cross"> ✠ </Typography> cis Christi, in vitam
+          propitiátus ætérnam. Per eúmdem Dóminum nostrum Jesum Christum, Fílium
+          tuum: Qui tecum vivit et regnat in unitáte ejúsdem Spíritus Sancti
+          Deus, per ómnia sæcula sæculórum.
         </Typography>
         <Typography className="vernacular">
           Enchei-nos com o Espírito do vosso Temor e marcai-os com o sinal da
-          Cruz <Typography className="cross"> ✠ </Typography> de Cristo, a fim de os
-          auxiliar na posse da vida eterna. Pelo mesmo...
+          Cruz <Typography className="cross"> ✠ </Typography> de Cristo, a fim
+          de os auxiliar na posse da vida eterna. Pelo mesmo...
         </Typography>
       </Language>
 
@@ -169,15 +178,17 @@ export default function PageConfirmacao() {
       <Language>
         <Typography className="latin">
           <Typography className="latin">N.</Typography> Signo te signo Cru{" "}
-          <Typography className="cross"> ✠ </Typography> cis: et cornfírmo te Chrísmate
-          salútis. In nómine Pa <Typography className="cross"> ✠ </Typography> tris, et Fí{" "}
+          <Typography className="cross"> ✠ </Typography> cis: et cornfírmo te
+          Chrísmate salútis. In nómine Pa{" "}
+          <Typography className="cross"> ✠ </Typography> tris, et Fí{" "}
           <Typography className="cross"> ✠ </Typography> lii, et Spíritus{" "}
           <Typography className="cross"> ✠ </Typography> Sancti.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="vernacular">N.</Typography>, eu te marco com o sinal da
-          Cruz <Typography className="cross"> ✠ </Typography> e te confirmo com o Crisma da
-          salvação: em Nome do Pai <Typography className="cross"> ✠ </Typography> e do Filho{" "}
+          <Typography className="vernacular">N.</Typography>, eu te marco com o
+          sinal da Cruz <Typography className="cross"> ✠ </Typography> e te
+          confirmo com o Crisma da salvação: em Nome do Pai{" "}
+          <Typography className="cross"> ✠ </Typography> e do Filho{" "}
           <Typography className="cross"> ✠ </Typography> e do Espírito{" "}
           <Typography className="cross"> ✠ </Typography> Santo.
         </Typography>
@@ -204,18 +215,19 @@ export default function PageConfirmacao() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Confírma hoc, Deus, quod
-          operátus es in nobis, a templo sancto tuo, quod est in Jerúsalem.
-          <Typography className="versicle"> ℣. </Typography>Glória Patri, et Fílio, et
-          Spirítui Sancto: Sicut erat in princípio, et nunc, et semper, et in
-          sæcula sæculórum.
+          <Typography className="versicle"> ℣. </Typography>Confírma hoc, Deus,
+          quod operátus es in nobis, a templo sancto tuo, quod est in Jerúsalem.
+          <Typography className="versicle"> ℣. </Typography>Glória Patri, et
+          Fílio, et Spirítui Sancto: Sicut erat in princípio, et nunc, et
+          semper, et in sæcula sæculórum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Confirmai, ó Deus, o que acabais
-          de operar em nós, lá do vosso santo templo que é Jerusalém celestial.
-          <Typography className="versicle"> ℣. </Typography>Glória ao Pai e ao Filho e ao
-          Espírito Santo. Assim como era no princípio, agora e sempre e por
-          todos os séculos dos séculos.
+          <Typography className="versicle"> ℣. </Typography>Confirmai, ó Deus, o
+          que acabais de operar em nós, lá do vosso santo templo que é Jerusalém
+          celestial.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai e ao
+          Filho e ao Espírito Santo. Assim como era no princípio, agora e sempre
+          e por todos os séculos dos séculos.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -234,43 +246,50 @@ export default function PageConfirmacao() {
           </Typography>
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Osténde nobis, Dómine,
-          misericórdiam tuam.
+          <Typography className="versicle"> ℣. </Typography>Osténde nobis,
+          Dómine, misericórdiam tuam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Mostrai, Senhor, a vossa
-          misericórdia.
+          <Typography className="versicle"> ℣. </Typography>Mostrai, Senhor, a
+          vossa misericórdia.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et salutáre tuum da nobis.
+          <Typography className="response"> ℟. </Typography> Et salutáre tuum da
+          nobis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E dai-nos a salvação.
+          <Typography className="response"> ℟. </Typography> E dai-nos a
+          salvação.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi oratiónem meam.
+          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi
+          oratiónem meam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha oração.
+          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha
+          oração.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et clamor meus ad te véniat.
+          <Typography className="response"> ℟. </Typography> Et clamor meus ad
+          te véniat.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E que meu clamor chegue até
-          Vós.
+          <Typography className="response"> ℟. </Typography> E que meu clamor
+          chegue até Vós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Dominus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor seja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor seja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
       </Language>
 
@@ -320,14 +339,15 @@ export default function PageConfirmacao() {
           É assim que será abençoado todo o homem que teme o Senhor!
         </Typography>
         <Typography className="latin">
-          Bene <Typography className="cross"> ✠ </Typography> dicat vos Dóminus ex Sion, ut
-          videátis bona Jerúsalem ómnibus diébus vitæ vestræ, et habeátis vitam
-          ætérnam.
+          Bene <Typography className="cross"> ✠ </Typography> dicat vos Dóminus
+          ex Sion, ut videátis bona Jerúsalem ómnibus diébus vitæ vestræ, et
+          habeátis vitam ætérnam.
         </Typography>
         <Typography className="vernacular">
-          Que o Senhor vos abençoe <Typography className="cross"> ✠ </Typography> lá do alto
-          de Sião, a fim de que vejais os bens de Jerusalém todos os dias da
-          vossa vida e alcanceis a vida eterna.
+          Que o Senhor vos abençoe{" "}
+          <Typography className="cross"> ✠ </Typography> lá do alto de Sião, a
+          fim de que vejais os bens de Jerusalém todos os dias da vossa vida e
+          alcanceis a vida eterna.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.

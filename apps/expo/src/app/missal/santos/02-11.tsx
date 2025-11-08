@@ -16,15 +16,15 @@ export default function Page0211() {
         <Typography className="latin">
           Vidi civitátem sanctam, Jerúsalem novam, descendéntem de cœlo a Deo,
           parátam sicut sponsam ornátam viro suo.{" "}
-          <Typography className="latin">Ps. 44,2</Typography> Eructávit cor meum verbum
-          bonum: dico ego ópera mea Regi.
+          <Typography className="latin">Ps. 44,2</Typography> Eructávit cor meum
+          verbum bonum: dico ego ópera mea Regi.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Vi a cidade santa, a nova Jerusalém, que descia do céu, vinda de Deus,
           adornada como uma esposa que está preparada para receber o seu esposo.{" "}
-          <Typography className="vernacular">Sl. 44,2</Typography> Meu coração exprimiu uma
-          palavra excelente: «Consagro as minhas obras ao Rei».
+          <Typography className="vernacular">Sl. 44,2</Typography> Meu coração
+          exprimiu uma palavra excelente: «Consagro as minhas obras ao Rei».
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -54,7 +54,9 @@ export default function Page0211() {
         <Typography className="latin">
           Léctio libri Apocalýpsis beáti Joánnis Apóstoli.
         </Typography>
-        <Typography className="vernacular">Lição do Apocalipse do B. Ap.º João.</Typography>
+        <Typography className="vernacular">
+          Lição do Apocalipse do B. Ap.º João.
+        </Typography>
         <Typography className="latin">
           Apértum est templum Dei in cœlo: et visa est arca testaménti ejus in
           templo ejus, et facta sunt fúlgura et voces et terræmótus et grando
@@ -83,27 +85,29 @@ export default function Page0211() {
           Flores apparuérunt in terra nostra, tempus putatiónis advénit, vox
           túrturis audíta est in terra nostra.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 10 & l4</Typography> Surge, amíca mea,
-          speciósa mea, et veni: colúmba mea in foramínibus petræ, in cavérna
-          macériæ.
+          <Typography className="latin">ibid., 10 & l4</Typography> Surge, amíca
+          mea, speciósa mea, et veni: colúmba mea in foramínibus petræ, in
+          cavérna macériæ.
         </Typography>
         <Typography className="vernacular">
           As flores apareceram na terra! Veio o tempo em que podemos cantar. Os
           arrulhos da rola ouvem-se já pelos campos!
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 10 & l4</Typography> Erguei-vos, pois, ó
-          minha amada, que toda sois formosa, e vinde! Ó minha pomba, que viveis
-          nas fendas dos rochedos e nas cavernas escarpadas!
+          <Typography className="vernacular">ibid., 10 & l4</Typography>{" "}
+          Erguei-vos, pois, ó minha amada, que toda sois formosa, e vinde! Ó
+          minha pomba, que viveis nas fendas dos rochedos e nas cavernas
+          escarpadas!
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Osténde mihi
-          fáciem tuam, sonet vox tua in áuribus meis: vox enim tua dulcis, et
-          fácies tua decóra. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Osténde mihi fáciem tuam, sonet vox tua in áuribus meis: vox enim tua
+          dulcis, et fácies tua decóra. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Mostrai-me o
-          vosso rosto: fazei que a vossa voz ressoe aos meus ouvidos; pois a
-          vossa voz é doce e o vosso rosto é cheio de beleza. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Mostrai-me o vosso rosto: fazei que a vossa voz ressoe aos meus
+          ouvidos; pois a vossa voz é doce e o vosso rosto é cheio de beleza.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -119,8 +123,8 @@ export default function Page0211() {
         <Typography className="latin">
           Tu glória Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli
           nostri.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Cant. 4, 7</Typography> Tota pulchra es, María: et
-          mácula originális non est in te.
+          <Typography className="latin">Cant. 4, 7</Typography> Tota pulchra es,
+          María: et mácula originális non est in te.
           <Typography className="versicle"> ℣. </Typography>
           Felix es, sacra Virgo María, et omni laude digníssima, quæ serpéntis
           caput virgíneo pede contrivísti.
@@ -128,10 +132,10 @@ export default function Page0211() {
         <Typography className="vernacular">
           Sois a glória de Jerusalém, a alegria de Israel, a honra do nosso
           povo.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Cant. 4, 7</Typography> Toda sois formosa, ó
-          Maria; e a mancha original não existe em Vós.
-          <Typography className="versicle"> ℣. </Typography>Sois bem-aventurada, Santa
-          Virgem Maria, e digníssima de todo o louvor, pois com vosso pé
+          <Typography className="vernacular">Cant. 4, 7</Typography> Toda sois
+          formosa, ó Maria; e a mancha original não existe em Vós.
+          <Typography className="versicle"> ℣. </Typography>Sois bem-aventurada,
+          Santa Virgem Maria, e digníssima de todo o louvor, pois com vosso pé
           virginal esmagastes a cabeça da serpente.
         </Typography>
       </Language>
@@ -142,12 +146,12 @@ export default function Page0211() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Missus est Angelus Gábriel a Deo in civitátem

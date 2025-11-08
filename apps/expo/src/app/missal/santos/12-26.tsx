@@ -16,16 +16,18 @@ export default function Page1226() {
         <Typography className="latin">
           Sedérunt príncipes, et advérsum me loquebántur: et iníqui persecúti
           sunt me: ádjuva me, Dómine, Deus meus, quia servus tuus exercebátur in
-          tuis justificatiónibus. <Typography className="latin">Ps. ibid., 1</Typography>{" "}
-          Beati immaculáti in via, qui ámbulant in lege Dómini.
+          tuis justificatiónibus.{" "}
+          <Typography className="latin">Ps. ibid., 1</Typography> Beati
+          immaculáti in via, qui ámbulant in lege Dómini.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Reuniram-se os príncipes em assembleia e pronunciaram-se contra mim: e
           os maus perseguiram-me injustamente: Auxiliai-me, Senhor, meu Deus,
           pois o vosso servo tem observado os vossos ensinos.{" "}
-          <Typography className="vernacular">Ps. ibid., 1</Typography> Bem-aventurados os
-          que são rectos nos seus caminhos e cumprem a Lei do Senhor.
+          <Typography className="vernacular">Ps. ibid., 1</Typography>{" "}
+          Bem-aventurados os que são rectos nos seus caminhos e cumprem a Lei do
+          Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -53,7 +55,9 @@ export default function Page1226() {
 
       <Language>
         <Typography className="latin">Lectio Actuum Apostolorum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           In diebus illis: Stéphanus plenus grátia et fortitúdine, faciébat
           prodígia et signa magna in pópulo. Surrexérunt autem quidam de
@@ -101,25 +105,25 @@ export default function Page1226() {
         <Typography className="latin">
           Sedérunt príncipes, et advérsum me loquebántur: et iníqui persecúti
           sunt me.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 6, 5</Typography> Adjuva me, Dómine, Deus meus:
-          salvum me fac propter misericórdiam tuam.
+          <Typography className="latin">Ps. 6, 5</Typography> Adjuva me, Dómine,
+          Deus meus: salvum me fac propter misericórdiam tuam.
         </Typography>
         <Typography className="vernacular">
           Reuniram-se os príncipes em assembleia, e pronunciaram-se contra mim:
           e os maus perseguiram-me injustamente.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 6, 5</Typography> Auxiliai-me, ó Senhor,
-          meu Deus, salvai-me pela vossa misericórdia.
+          <Typography className="vernacular">Sl. 6, 5</Typography> Auxiliai-me,
+          ó Senhor, meu Deus, salvai-me pela vossa misericórdia.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Act. 7, 55</Typography> Vídeo cœlos apértos, et
-          Jesum stantem a dextris virtútis Dei. Allelúja.
+          <Typography className="latin">Act. 7, 55</Typography> Vídeo cœlos
+          apértos, et Jesum stantem a dextris virtútis Dei. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Act. 7, 55</Typography> Vejo os céus abertos, e
-          Jesus, de pé, à dextra de Deus omnipotente. Aleluia.
+          <Typography className="vernacular">Act. 7, 55</Typography> Vejo os
+          céus abertos, e Jesus, de pé, à dextra de Deus omnipotente. Aleluia.
         </Typography>
       </Language>
 
@@ -129,12 +133,12 @@ export default function Page1226() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dicébat Jesus scribis et pharisǽis: Ecce, ego mitto

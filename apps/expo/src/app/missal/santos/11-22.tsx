@@ -77,29 +77,29 @@ export default function Page1122() {
         <Typography className="latin">
           Audi, fília, et vide, et inclína aurem tuam: quia concupívit Rex
           spéciem tuam.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 5</Typography> Spécie tua et pulchritúdine
-          tua inténde, próspere procéde et regna.
+          <Typography className="latin">ibid., 5</Typography> Spécie tua et
+          pulchritúdine tua inténde, próspere procéde et regna.
         </Typography>
         <Typography className="vernacular">
           Escutai, ó minha filha, vede e inclinai o vosso ouvido; o Rei está
           cheio de amor por vós, por causa da vossa beleza!
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 5</Typography> Com a vossa glória e com
-          vossa formosura caminhai, triunfai e reinai.
+          <Typography className="vernacular">ibid., 5</Typography> Com a vossa
+          glória e com vossa formosura caminhai, triunfai e reinai.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Matth. 25, 4 & 6</Typography> Quinque prudéntes
-          vírgines accepérunt óleum in vasis suis cum lampádibus: média autem
-          nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo
-          Dómino. Allelúja.
+          <Typography className="latin">Matth. 25, 4 & 6</Typography> Quinque
+          prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus:
+          média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam
+          Christo Dómino. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Mt. 25, 4 & 6</Typography> As cinco virgens
-          prudentes tomaram óleo em seus vasos para suas lâmpadas. No meio da
-          noite uma voz soou: eis que chega o esposo: ide ao encontro de Cristo,
-          Senhor. Aleluia.
+          <Typography className="vernacular">Mt. 25, 4 & 6</Typography> As cinco
+          virgens prudentes tomaram óleo em seus vasos para suas lâmpadas. No
+          meio da noite uma voz soou: eis que chega o esposo: ide ao encontro de
+          Cristo, Senhor. Aleluia.
         </Typography>
       </Language>
 

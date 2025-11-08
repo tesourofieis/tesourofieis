@@ -16,7 +16,8 @@ export default function PagePent30() {
         <Typography className="latin">
           Réspice in me et miserére mei, Dómine: quóniam únicus et pauper sum
           ego: vide humilitátem meam et labórem meum: et dimítte ómnia peccáta
-          mea, Deus meus. <Typography className="latin">Ps. ibid., 1-2</Typography> Ad te,
+          mea, Deus meus.{" "}
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Ad te,
           Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
@@ -24,9 +25,10 @@ export default function PagePent30() {
           Volvei propício vossos olhos para mim e tende compaixão de mim, pois
           estou só e sou pobre. Vede a minha miséria e as minhas dores, ó meu
           Deus, e perdoai-me todos os pecados.{" "}
-          <Typography className="vernacular">Sl. ibid., 1-2</Typography> A Vós, Senhor,
-          elevei a minha alma. Ó meu Deus, confio em Vós: não permitireis que
-          fique envergonhado.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> A Vós,
+          Senhor, elevei a minha alma. Ó meu Deus, confio em Vós: não
+          permitireis que fique envergonhado.
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
       </Language>
@@ -54,8 +56,12 @@ export default function PagePent30() {
       <Typography className="em">1 Pe. 5, 6-11</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Petri Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Pedro.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Humiliámini sub coténti manu Dei, ut vos exáltet in témpore
           visitatiónis: omnem sollicitúdinem vestram projiciéntes in eum,
@@ -88,23 +94,25 @@ export default function PagePent30() {
       <Language>
         <Typography className="latin">
           Jacta cogitátum tuum in Dómino: et ipse te enútriet.
-          <Typography className="versicle"> ℣. </Typography>Dum clamárem ad Dóminum,
-          exaudívit vocem meam ab his, qui appropínquant mihi.
+          <Typography className="versicle"> ℣. </Typography>Dum clamárem ad
+          Dóminum, exaudívit vocem meam ab his, qui appropínquant mihi.
         </Typography>
         <Typography className="vernacular">
           Confiai ao Senhor vossas inquietações: Ele vos sustentará.
-          <Typography className="versicle"> ℣. </Typography>Logo que invoquei o Senhor,
-          ouviu Ele a minha voz, livrando-me daqueles que me cercavam.
+          <Typography className="versicle"> ℣. </Typography>Logo que invoquei o
+          Senhor, ouviu Ele a minha voz, livrando-me daqueles que me cercavam.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 7, 12</Typography> Deus judex justus, fortis et
-          pátiens, numquid iráscitur per síngulos dies? Allelúja.
+          <Typography className="latin">Ps. 7, 12</Typography> Deus judex
+          justus, fortis et pátiens, numquid iráscitur per síngulos dies?
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 7, 12</Typography> Deus é juiz justo, forte
-          e paciente: sua ira manifesta-se, porventura, todos os dias? Aleluia.
+          <Typography className="vernacular">Sl. 7, 12</Typography> Deus é juiz
+          justo, forte e paciente: sua ira manifesta-se, porventura, todos os
+          dias? Aleluia.
         </Typography>
       </Language>
 
@@ -114,12 +122,12 @@ export default function PagePent30() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Erant appropinquántes ad Jesum publicáni et

@@ -15,16 +15,16 @@ export default function PagePent175() {
       <Language>
         <Typography className="latin">
           Lætétur cor quæréntium Dóminum: quǽrite Dóminum, et confirmámini:
-          quǽrite fáciem ejus semper. <Typography className="latin">Ps 104:1</Typography>{" "}
-          Confitémini Dómino et invocáte nomen ejus: annuntiáte inter gentes
-          ópera ejus.
+          quǽrite fáciem ejus semper.{" "}
+          <Typography className="latin">Ps 104:1</Typography> Confitémini Dómino
+          et invocáte nomen ejus: annuntiáte inter gentes ópera ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Alegre-se o coração daqueles que procuram o Senhor: procurai o Senhor;
           procurai-o incessantemente; procurai a sua presença sempre.{" "}
-          <Typography className="vernacular">Sl 104:1</Typography> Louvai o Senhor e invocai
-          o seu nome: anunciai aos povos as suas obras.
+          <Typography className="vernacular">Sl 104:1</Typography> Louvai o
+          Senhor e invocai o seu nome: anunciai aos povos as suas obras.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -102,13 +102,13 @@ export default function PagePent175() {
       <Language>
         <Typography className="latin">
           Convértere, Dómine, aliquántulum, et deprecáre super servos tuos.
-          <Typography className="versicle"> ℣. </Typography>Dómine, refúgium factus es
-          nobis, a generatióne et progénie.
+          <Typography className="versicle"> ℣. </Typography>Dómine, refúgium
+          factus es nobis, a generatióne et progénie.
         </Typography>
         <Typography className="vernacular">
           Volvei-Vos para nós, Senhor, ainda que seja um pouco, e atendei aos
-          Vossos servos.<Typography className="versicle"> ℣. </Typography>Senhor, tendes
-          sido de geração em geração o nosso refúgio.
+          Vossos servos.<Typography className="versicle"> ℣. </Typography>
+          Senhor, tendes sido de geração em geração o nosso refúgio.
         </Typography>
       </Language>
 
@@ -118,12 +118,12 @@ export default function PagePent175() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Rogábat Jesum quidam de pharisǽis, ut manducáret cum

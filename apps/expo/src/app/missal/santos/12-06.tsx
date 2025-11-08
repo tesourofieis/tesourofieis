@@ -107,24 +107,26 @@ export default function Page1206() {
         <Typography className="latin">
           Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
           auxiliábitur ei, et bráchium meum confortábit eum.
-          <Typography className="versicle"> ℣. </Typography>Nihil profíciet inimícus in eo,
-          et fílius iniquitátis non nocébit ei.
+          <Typography className="versicle"> ℣. </Typography>Nihil profíciet
+          inimícus in eo, et fílius iniquitátis non nocébit ei.
         </Typography>
         <Typography className="vernacular">
           Encontrei o meu servo David e ungi-o com meu óleo sagrado: a minha mão
           o auxiliará e o meu braço o fortalecerá.
-          <Typography className="versicle"> ℣. </Typography>Contra ele não prevalecerá o
-          inimigo, e o filho da iniquidade não poderá fazer-lhe mal.
+          <Typography className="versicle"> ℣. </Typography>Contra ele não
+          prevalecerá o inimigo, e o filho da iniquidade não poderá fazer-lhe
+          mal.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 91, 13</Typography> Justus ut palma florébit:
-          sicut cedrus Líbani multiplicábitur. Allelúja.
+          <Typography className="latin">Ps. 91, 13</Typography> Justus ut palma
+          florébit: sicut cedrus Líbani multiplicábitur. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 91, 13</Typography> O justo florescerá,
-          como a palmeira, e crescerá, como o cedro do Líbano. Aleluia.
+          <Typography className="vernacular">Sl. 91, 13</Typography> O justo
+          florescerá, como a palmeira, e crescerá, como o cedro do Líbano.
+          Aleluia.
         </Typography>
       </Language>
 

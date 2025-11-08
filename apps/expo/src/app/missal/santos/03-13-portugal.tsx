@@ -17,8 +17,8 @@ export default function Page0313Portugal() {
         <Typography className="latin">
           Delectavérunt te, Deus, fíliæ regum in honóre tuo: afferéntur vírgines
           in lætítia et exultatióne: adducéntur in templum Regis Dómini.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Eructávit cor meum verbum
-          bonum: dico ego ópera mea Regi.
+          <Typography className="latin">Ps. ibid., 2</Typography> Eructávit cor
+          meum verbum bonum: dico ego ópera mea Regi.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
@@ -26,8 +26,9 @@ export default function Page0313Portugal() {
           Amam-Vos, ó Deus, as filhas dos reis e formam a vossa corte de honra:
           As virgens serão apresentadas com alegria e em transportes de júbilo e
           serão conduzidas ao templo do Pai: do Senhor.{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Meu coração exprimiu
-          uma palavra sublime: «Consagro ao Rei as minhas obras».
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Meu
+          coração exprimiu uma palavra sublime: «Consagro ao Rei as minhas
+          obras».
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -65,13 +66,13 @@ export default function Page0313Portugal() {
         <Typography className="latin">
           Vírgines laudent nomen Dómini: quia exaltátum est nomen ejus solíus.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 23, 6</Typography> Hæc est generátio quæréntium
-          Dóminum, quærémtium fáciem Dei Jacbob.
+          <Typography className="latin">Ps. 23, 6</Typography> Hæc est generátio
+          quæréntium Dóminum, quærémtium fáciem Dei Jacbob.
         </Typography>
         <Typography className="vernacular">
           Que as virgens louvem o nome do Senhor: pois só o seu nome foi
-          exaltado.<Typography className="versicle"> ℣. </Typography>Esta pertence à gereção
-          das que procuram a face de Deus de Jacob.
+          exaltado.<Typography className="versicle"> ℣. </Typography>Esta
+          pertence à gereção das que procuram a face de Deus de Jacob.
         </Typography>
       </Language>
 
@@ -82,19 +83,22 @@ export default function Page0313Portugal() {
       <Language>
         <Typography className="latin">
           Sedes tua, Deus, in sæculum sæculi: virga directiónis virga regni tui.{" "}
-          <Typography className="latin">Ps. ibid., 13 & 10</Typography> Vultum tuum
-          deprecabúntur omnes divites plebis: filiæ regum in honóre tuo.
+          <Typography className="latin">Ps. ibid., 13 & 10</Typography> Vultum
+          tuum deprecabúntur omnes divites plebis: filiæ regum in honóre tuo.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. ibid., 16</Typography> Afferéntur in lætítia et
-          exsultatióne: adducéntur in templum Regi Dómino.
+          <Typography className="em">Ps. ibid., 16</Typography> Afferéntur in
+          lætítia et exsultatióne: adducéntur in templum Regi Dómino.
         </Typography>
         <Typography className="vernacular">
           Ó Deus, vosso trono é eterno: o ceptro da rectidão é o ceptro do vosso
-          reino. <Typography className="vernacular">Ps. ibid., 13 & 10</Typography> Todos os
-          ricos da terra implorarão o vosso olhar: as filhas dos reis formarão a
-          vossa corte.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. ibid., 16</Typography> Virão em transportes de
-          alegria e de júbilo: e serão conduzidas ao templo do Rei e Senhor.
+          reino.{" "}
+          <Typography className="vernacular">Ps. ibid., 13 & 10</Typography>{" "}
+          Todos os ricos da terra implorarão o vosso olhar: as filhas dos reis
+          formarão a vossa corte.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Ps. ibid., 16</Typography> Virão em
+          transportes de alegria e de júbilo: e serão conduzidas ao templo do
+          Rei e Senhor.
         </Typography>
       </Language>
 

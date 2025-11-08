@@ -15,10 +15,11 @@ export default function Page0224() {
       <Language>
         <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est
-          principátus eórum. <Typography className="latin">Ps. ibid., 1-2</Typography>{" "}
-          Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et
-          resurrectiónem meam.<Typography className="versicle"> ℣. </Typography>Gloria
-          Patri...
+          principátus eórum.{" "}
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Dómine,
+          probásti me et cognovísti me: tu cognovísti sessiónem meam et
+          resurrectiónem meam.<Typography className="versicle"> ℣. </Typography>
+          Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Vejo, ó Deus, que honrastes largamente os vossos amigos: e que seu
@@ -52,7 +53,9 @@ export default function Page0224() {
 
       <Language>
         <Typography className="latin">Léctio Actuum Apostolórum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           In diébus illis exsúrgens Petrus in médio fratrum, dixit (erat autem
           turba hóminum simul, fere centum vigínti): Viri fratres, opórtet
@@ -107,8 +110,8 @@ export default function Page0224() {
       <Language>
         <Typography className="latin">
           Nimis honoráti sunt amíci tui, Deus: nimis confortátus est principatus
-          eórum.<Typography className="versicle"> ℣. </Typography>Dinumerábo eos, et super
-          arénam multiplicabúntur.
+          eórum.<Typography className="versicle"> ℣. </Typography>Dinumerábo
+          eos, et super arénam multiplicabúntur.
         </Typography>
         <Typography className="vernacular">
           Honrais largamente os vossos amigos, ó Deus: e o seu poder tem-se
@@ -125,10 +128,10 @@ export default function Page0224() {
       <Language>
         <Typography className="latin">
           Desidérim ánimæ ejus tribuísti ei: et voluntáte labiórum ejus non
-          fraudásti eum.<Typography className="versicle"> ℣. </Typography>Quóniam prævenísti
-          eum in benedictiónibus dulcédinis.
-          <Typography className="versicle"> ℣. </Typography>Posuísti in cápite ejus corónam
-          de lápide pretióso.
+          fraudásti eum.<Typography className="versicle"> ℣. </Typography>
+          Quóniam prævenísti eum in benedictiónibus dulcédinis.
+          <Typography className="versicle"> ℣. </Typography>Posuísti in cápite
+          ejus corónam de lápide pretióso.
         </Typography>
         <Typography className="vernacular">
           Concedestes-lhe o desejo da sua alma: lhe não negastes o que seus
@@ -145,12 +148,12 @@ export default function Page0224() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Respóndens Jesus, dixit: Confíteor tibi, Pater,

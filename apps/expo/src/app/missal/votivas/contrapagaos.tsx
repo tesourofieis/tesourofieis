@@ -18,8 +18,9 @@ export default function PageContrapagaos() {
           Exsúrge, quare obdórmis, Dómine? exsúrge, et ne repéllas in finem:
           quare fáciem tuam avértis, oblivísceris tribulatiónem nostram? Adhǽsit
           in terra venter noster: exsúrge, Dómine, ádjuva nos et líbera nos. (T.
-          P. Allelúja, allelúja.) <Typography className="latin">Ps. ibid., 2</Typography>{" "}
-          Deus, áuribus nostris audívimus: patres nostri annuntiavérunt nobis.
+          P. Allelúja, allelúja.){" "}
+          <Typography className="latin">Ps. ibid., 2</Typography> Deus, áuribus
+          nostris audívimus: patres nostri annuntiavérunt nobis.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
@@ -28,8 +29,9 @@ export default function PageContrapagaos() {
           sempre: porque escondeis para sempre o vosso rosto? Porque Vos
           esqueceis da nossa tribulação? A nossa alma rasteja no pó da terra.
           Despertai, Senhor; vinde em nosso auxílio; livrai-nos. (T. P. Aleluia,
-          aleluia.) <Typography className="vernacular">Sl. ibid., 2</Typography> Ó Deus, com
-          os nossos ouvidos o ouvimos; os nossos pais contaram-nos tudo.
+          aleluia.) <Typography className="vernacular">Sl. ibid., 2</Typography>{" "}
+          Ó Deus, com os nossos ouvidos o ouvimos; os nossos pais contaram-nos
+          tudo.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -95,8 +97,8 @@ export default function PageContrapagaos() {
       <Language>
         <Typography className="latin">
           Sciant gentes, quóniam nomen tibi Deus: tu solus Altíssimus super
-          omnem terram.<Typography className="versicle"> ℣. </Typography>Deus meus, pone
-          illos ut rotam, et sicut stípulam ante fáciem venti.
+          omnem terram.<Typography className="versicle"> ℣. </Typography>Deus
+          meus, pone illos ut rotam, et sicut stípulam ante fáciem venti.
         </Typography>
         <Typography className="vernacular">
           Saibam todos os povos que o vosso nome é Deus: e que só Vós sois o
@@ -107,13 +109,13 @@ export default function PageContrapagaos() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 79, 3</Typography> Excita, Dómine, poténtiam
-          tuam, et veni: ut salvos fácias nos. Allelúja.
+          <Typography className="latin">Ps. 79, 3</Typography> Excita, Dómine,
+          poténtiam tuam, et veni: ut salvos fácias nos. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 79, 3</Typography> Despertai o vosso poder,
-          Senhor, e vinde, para que sejamos salvos. Aleluia.
+          <Typography className="vernacular">Sl. 79, 3</Typography> Despertai o
+          vosso poder, Senhor, e vinde, para que sejamos salvos. Aleluia.
         </Typography>
       </Language>
 
@@ -129,8 +131,9 @@ export default function PageContrapagaos() {
         <Typography className="latin">
           Adjuva nos, Deus, salutáris noster: et propter honórem nóminis tui,
           Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen
-          tuum.<Typography className="versicle"> ℣. </Typography>Ne quando dicant gentes:
-          Ubi est Deus eórum? et innotéscat in, natiónibus coram óculis nostris.
+          tuum.<Typography className="versicle"> ℣. </Typography>Ne quando
+          dicant gentes: Ubi est Deus eórum? et innotéscat in, natiónibus coram
+          óculis nostris.
           <Typography className="versicle"> ℣. </Typography>
           Víndica sánguinem servórum tuórum, qui effúsus est: intret in
           conspéctu tuo gémitus compeditórum.
@@ -138,10 +141,11 @@ export default function PageContrapagaos() {
         <Typography className="vernacular">
           Socorrei-nos, ó Deus, nosso Salvador; pela glória do vosso nome,
           Senhor, livrai-nos: e perdoai os nossos pecados pelo vosso nome.
-          <Typography className="versicle"> ℣. </Typography>Não digam algum dia os povos:
-          onde está o seu Deus? Seja notório aos povos e aos nossos olhos.
-          <Typography className="versicle"> ℣. </Typography>Vingai o sangue que os vossos
-          servos derramaram: cheguem até Vós os gemidos dos cativos.
+          <Typography className="versicle"> ℣. </Typography>Não digam algum dia
+          os povos: onde está o seu Deus? Seja notório aos povos e aos nossos
+          olhos.
+          <Typography className="versicle"> ℣. </Typography>Vingai o sangue que
+          os vossos servos derramaram: cheguem até Vós os gemidos dos cativos.
         </Typography>
       </Language>
 
@@ -152,21 +156,22 @@ export default function PageContrapagaos() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 79, 3</Typography> Excita, Dómine, poténtiam
-          tuam, et veni: ut salvos fácias nos. Allelúja.
+          <Typography className="latin">Ps. 79, 3</Typography> Excita, Dómine,
+          poténtiam tuam, et veni: ut salvos fácias nos. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">ibid., 15-16</Typography> Deus virtútum, convértere,
-          réspice de cœlo, et vide, et vísita víneam istam: et pérfice eam, quam
-          plantávit déxtera tua. Allelúja.
+          <Typography className="em">ibid., 15-16</Typography> Deus virtútum,
+          convértere, réspice de cœlo, et vide, et vísita víneam istam: et
+          pérfice eam, quam plantávit déxtera tua. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 79, 3</Typography> Despertai o vosso poder,
-          Senhor, e vinde para que sejamos salvos. Aleluia.
+          <Typography className="vernacular">Sl. 79, 3</Typography> Despertai o
+          vosso poder, Senhor, e vinde para que sejamos salvos. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">ibid., 15-16</Typography> Deus poderoso, volvei-Vos
-          para nós, olhai para nós lá do céu, contemplai e visitai esta vinha:
-          defendei esta vinha que a vossa mão dextra plantou. Aleluia.
+          <Typography className="em">ibid., 15-16</Typography> Deus poderoso,
+          volvei-Vos para nós, olhai para nós lá do céu, contemplai e visitai
+          esta vinha: defendei esta vinha que a vossa mão dextra plantou.
+          Aleluia.
         </Typography>
       </Language>
 

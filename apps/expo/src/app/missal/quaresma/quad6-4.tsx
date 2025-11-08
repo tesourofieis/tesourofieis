@@ -30,15 +30,15 @@ export default function PageQuad64() {
         <Typography className="latin">
           Nos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo
           est salus, vita et resurréctio nostra: per quem salváti et liberáti
-          sumus. <Typography className="latin">Ps. 66, 2</Typography> Deus misereátur
-          nostri, et benedícat nobis: illúminet vultum suum super nos, et
-          misereátur nostri.
+          sumus. <Typography className="latin">Ps. 66, 2</Typography> Deus
+          misereátur nostri, et benedícat nobis: illúminet vultum suum super
+          nos, et misereátur nostri.
         </Typography>
         <Typography className="vernacular">
           Nós, porém, devemos ufanar-nos na Cruz de N. S. Jesus Cristo, pois Ele
           é a nossa salvação, vida e ressurreição: e por Ele fomos salvos e
-          livres. <Typography className="vernacular">Sl. 66, 2</Typography> Que Deus tenha
-          misericórdia de nós e nos abençoe; e se compadeça de nós!
+          livres. <Typography className="vernacular">Sl. 66, 2</Typography> Que
+          Deus tenha misericórdia de nós e nos abençoe; e se compadeça de nós!
         </Typography>
       </Language>
 
@@ -129,13 +129,14 @@ export default function PageQuad64() {
       <Language>
         <Typography className="latin">
           Christus factus est pro nobis obœdiens usque ad mortem, mortem autem
-          crucis<Typography className="versicle"> ℣. </Typography>Propter quod et Deus
-          exaltávit illum: et dedit illi nomen, quod est super omne nomen.
+          crucis<Typography className="versicle"> ℣. </Typography>Propter quod
+          et Deus exaltávit illum: et dedit illi nomen, quod est super omne
+          nomen.
         </Typography>
         <Typography className="vernacular">
           Cristo tornou-se obediente por nós até à morte, e morte de cruz.
-          <Typography className="versicle"> ℣. </Typography>Pelo que Deus O exaltou e lhe
-          deu um nome que é superior a todos os nomes.
+          <Typography className="versicle"> ℣. </Typography>Pelo que Deus O
+          exaltou e lhe deu um nome que é superior a todos os nomes.
         </Typography>
       </Language>
 
@@ -145,12 +146,12 @@ export default function PageQuad64() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           Ante diem festum Paschae, sciens Jesus, quia venit hora ejus, ut
@@ -312,12 +313,13 @@ export default function PageQuad64() {
       <Language>
         <Typography className="latin">
           Mandátum novum do vobis: ut diligátis ínvicem, sicut diléxi vos, dicit
-          Dóminus. <Typography className="latin">Ps. 118, 1</Typography> Beáti immaculáti in
-          via: qui ámbulant in lege Dómini.
+          Dóminus. <Typography className="latin">Ps. 118, 1</Typography> Beáti
+          immaculáti in via: qui ámbulant in lege Dómini.
         </Typography>
         <Typography className="vernacular">
           Dou-vos um novo mandamento: «Amai-vos uns aos outros, como vos amei»,
-          diz o Senhor. <Typography className="vernacular">Sl. 118, 1</Typography>{" "}
+          diz o Senhor.{" "}
+          <Typography className="vernacular">Sl. 118, 1</Typography>{" "}
           Bem-aventurados os que são puros na sua vida: e que seguem a lei do
           Senhor.
         </Typography>
@@ -331,16 +333,16 @@ export default function PageQuad64() {
         <Typography className="latin">
           Postquam surréxit Dóminus a cœna, misit aquam in pelvim, et cœpit
           laváre pedes discipulórum suórum: hoc exémplum réliquit eis.{" "}
-          <Typography className="latin">Ps. 47, 2</Typography> Magnus Dóminus, et laudábilis
-          nimis: in civitáte Dei nostri, in monte sancto ejus. Postquam surréxit
-          Dóminus.
+          <Typography className="latin">Ps. 47, 2</Typography> Magnus Dóminus,
+          et laudábilis nimis: in civitáte Dei nostri, in monte sancto ejus.
+          Postquam surréxit Dóminus.
         </Typography>
         <Typography className="vernacular">
           Depois que o Senhor se levantou da ceia, deitou água em uma bacia e
           começou a lavar os pés aos discípulos, deixando este exemplo.{" "}
-          <Typography className="vernacular">Sl. 47, 2</Typography> O Senhor é grande e
-          digno de todo o louvor na cidade de nosso Deus, na sua montanha
-          sagrada.
+          <Typography className="vernacular">Sl. 47, 2</Typography> O Senhor é
+          grande e digno de todo o louvor na cidade de nosso Deus, na sua
+          montanha sagrada.
         </Typography>
       </Language>
 
@@ -353,15 +355,16 @@ export default function PageQuad64() {
           Dóminus Jesus, postquam cœnávit cum discípulis suis, lavit pedes
           eórum, et ait illis: Scitis, quid fécerim vobis ego, Dóminus et
           Magíster? Exémplum dedi vobis, ut et vos ita faciátis.{" "}
-          <Typography className="latin">Ps. 84, 2</Typography> Benedixísti, Dómine, terram
-          tuam: avertísti captivitátem Jacob.
+          <Typography className="latin">Ps. 84, 2</Typography> Benedixísti,
+          Dómine, terram tuam: avertísti captivitátem Jacob.
         </Typography>
         <Typography className="vernacular">
           O Senhor Jesus, depois de haver ceado com os discípulos, lavou-lhes os
           pés e disse-lhes: «Sabeis o que acabo de vos fazer, posto que seja
           vosso Senhor e Mestre? Dei-vos o exemplo, a fim de que façais o que
-          acabo de fazer». <Typography className="vernacular">Sl. 84, 2</Typography>{" "}
-          Abençoastes, Senhor, a vossa terra; livrastes Jacob do cativeiro.
+          acabo de fazer».{" "}
+          <Typography className="vernacular">Sl. 84, 2</Typography> Abençoastes,
+          Senhor, a vossa terra; livrastes Jacob do cativeiro.
         </Typography>
       </Language>
 
@@ -373,26 +376,26 @@ export default function PageQuad64() {
         <Typography className="latin">
           Dómine, tu mihi lavas pedes? Respóndit Jesus et dixit ei: Si non
           lávero tibi pedes, non habébis partem mecum.
-          <Typography className="versicle"> ℣. </Typography>Venit ergo ad Simónem Petrum, et
-          dixit ei Petrus.
+          <Typography className="versicle"> ℣. </Typography>Venit ergo ad
+          Simónem Petrum, et dixit ei Petrus.
         </Typography>
         <Typography className="vernacular">
           Senhor, quereis lavar-me os pés? Jesus respondeu-lhe e disse: «Se te
           não lavar os pés, não terás parte comigo».
-          <Typography className="versicle"> ℣. </Typography>Porém, quando Jesus chegou junto
-          de Simão-Pedro, este disse-Lhe:
+          <Typography className="versicle"> ℣. </Typography>Porém, quando Jesus
+          chegou junto de Simão-Pedro, este disse-Lhe:
         </Typography>
         <Typography className="latin">
           Dómine, tu mihi lavas pedes? Respóndit Jesus et dixit ei: Si non
           lávero tibi pedes, non habébis partem mecum.
-          <Typography className="versicle"> ℣. </Typography>Quod ego fácio, tu nescis modo:
-          scies autem póstea.
+          <Typography className="versicle"> ℣. </Typography>Quod ego fácio, tu
+          nescis modo: scies autem póstea.
         </Typography>
         <Typography className="vernacular">
           Senhor, quereis lavar-me os pés? Jesus respondeu-lhe e disse: «Se te
           não lavar os pés, não terás parte comigo».
-          <Typography className="versicle"> ℣. </Typography>«O que faço presentemente tu o
-          ignoras; mas sabê-lo-ás depois».
+          <Typography className="versicle"> ℣. </Typography>«O que faço
+          presentemente tu o ignoras; mas sabê-lo-ás depois».
         </Typography>
         <Typography className="latin">
           Dómine, tu mihi lavas pedes? Respóndit Jesus et dixit ei: Si non
@@ -410,14 +413,14 @@ export default function PageQuad64() {
         <Typography className="latin">
           Si ego, Dóminus et Magíster vester, lavi vobis pedes: quanto magis
           debétis alter altérius laváre pedes?{" "}
-          <Typography className="latin">Ps. 48, 2</Typography> Audíte hæc, omnes gentes:
-          áuribus percípite, qui habitátis orbem.
+          <Typography className="latin">Ps. 48, 2</Typography> Audíte hæc, omnes
+          gentes: áuribus percípite, qui habitátis orbem.
         </Typography>
         <Typography className="vernacular">
           Se Eu, vosso Senhor e Mestre, vos lavei os pés, quanto mais deveis
           lavar os pés uns aos outros.{" "}
-          <Typography className="vernacular">Sl. 48, 2</Typography> Ó povos, escutai todos
-          esta palavra. Ouvi-a, ó habitantes da terra.
+          <Typography className="vernacular">Sl. 48, 2</Typography> Ó povos,
+          escutai todos esta palavra. Ouvi-a, ó habitantes da terra.
         </Typography>
       </Language>
 
@@ -428,13 +431,14 @@ export default function PageQuad64() {
       <Language>
         <Typography className="latin">
           In hoc cognóscent omnes, quia discípuli mei estis, si dilectiónem
-          habuéritis ad ínvicem.<Typography className="versicle"> ℣. </Typography>Dixit
-          Jesus discípulis suis.
+          habuéritis ad ínvicem.
+          <Typography className="versicle"> ℣. </Typography>Dixit Jesus
+          discípulis suis.
         </Typography>
         <Typography className="vernacular">
           Todos conhecerão que sois meus discípulos, se vos amardes uns aos
-          outros.<Typography className="versicle"> ℣. </Typography>Disse Jesus a seus
-          discípulos.
+          outros.<Typography className="versicle"> ℣. </Typography>Disse Jesus a
+          seus discípulos.
         </Typography>
       </Language>
 
@@ -445,14 +449,14 @@ export default function PageQuad64() {
       <Language>
         <Typography className="latin">
           Máneant in vobis fides, spes, cáritas, tria hæc: major autem horum est
-          cáritas.<Typography className="versicle"> ℣. </Typography>Nunc autem manent fides,
-          spes, cáritas, tria hæc: major horum est cáritas.
+          cáritas.<Typography className="versicle"> ℣. </Typography>Nunc autem
+          manent fides, spes, cáritas, tria hæc: major horum est cáritas.
         </Typography>
         <Typography className="vernacular">
           Que a fé, a esperança e a caridade permaneçam em vós; mas a caridade é
           a maior destas três virtudes.
-          <Typography className="versicle"> ℣. </Typography>Presentemente existem três
-          virtudes, mas a maior das três é a caridade.
+          <Typography className="versicle"> ℣. </Typography>Presentemente
+          existem três virtudes, mas a maior das três é a caridade.
         </Typography>
       </Language>
 
@@ -462,18 +466,20 @@ export default function PageQuad64() {
         <Typography className="latin">
           Benedícta sit sancta Trínitas atque indivísa Unitas: confitébimur ei,
           quia fecit nobíscum misericórdiam suam.
-          <Typography className="versicle"> ℣. </Typography>Benedicámus Patrem, et Fílium,
-          cum Sancto Spíritu. <Typography className="latin">Ps. 83, 23</Typography> Quam
-          dilécta tabernácula tua, Dómine virtútum! concupíscit, et déficit
-          ánima mea in átria Dómini.
+          <Typography className="versicle"> ℣. </Typography>Benedicámus Patrem,
+          et Fílium, cum Sancto Spíritu.{" "}
+          <Typography className="latin">Ps. 83, 23</Typography> Quam dilécta
+          tabernácula tua, Dómine virtútum! concupíscit, et déficit ánima mea in
+          átria Dómini.
         </Typography>
         <Typography className="vernacular">
           Bendita seja a Santíssima Trindade e a unidade indivisível! Cantaremos
           os seus louvores, porque Deus espalhou sobre nós a sua misericórdia.
-          <Typography className="versicle"> ℣. </Typography>Bendigamos o Pai, e o Filho, e o
-          Espírito Santo. <Typography className="vernacular">Sl. 83, 23</Typography> Como
-          são amáveis os vossos tabernáculos, ó Deus dos exércitos. Minha alma
-          voa em transportes de amor ao pensar nos átrios do Senhor.
+          <Typography className="versicle"> ℣. </Typography>Bendigamos o Pai, e
+          o Filho, e o Espírito Santo.{" "}
+          <Typography className="vernacular">Sl. 83, 23</Typography> Como são
+          amáveis os vossos tabernáculos, ó Deus dos exércitos. Minha alma voa
+          em transportes de amor ao pensar nos átrios do Senhor.
         </Typography>
       </Language>
 
@@ -484,56 +490,65 @@ export default function PageQuad64() {
       <Language>
         <Typography className="latin">
           Ubi cáritas et amor, Deus ibi est.
-          <Typography className="versicle"> ℣. </Typography>Congregávit nos in unum Christi
-          amor.<Typography className="versicle"> ℣. </Typography>Exsultémus et in ipso
-          jucundémur.<Typography className="versicle"> ℣. </Typography>Timeámus et amémus
-          Deum vivum.<Typography className="versicle"> ℣. </Typography>Et ex corde diligámus
-          nos sincéro.
+          <Typography className="versicle"> ℣. </Typography>Congregávit nos in
+          unum Christi amor.<Typography className="versicle"> ℣. </Typography>
+          Exsultémus et in ipso jucundémur.
+          <Typography className="versicle"> ℣. </Typography>Timeámus et amémus
+          Deum vivum.<Typography className="versicle"> ℣. </Typography>Et ex
+          corde diligámus nos sincéro.
         </Typography>
         <Typography className="vernacular">
           Deus está onde estiverem a caridade e o amor.
-          <Typography className="versicle"> ℣. </Typography>Foi o amor ele Cristo que nos
-          reuniu.<Typography className="versicle"> ℣. </Typography>Alegremo-nos e
+          <Typography className="versicle"> ℣. </Typography>Foi o amor ele
+          Cristo que nos reuniu.
+          <Typography className="versicle"> ℣. </Typography>Alegremo-nos e
           encontremos n’Ele as delícias.
           <Typography className="versicle"> ℣. </Typography>
-          Temamos e amemos Deus vivo.<Typography className="versicle"> ℣. </Typography>
+          Temamos e amemos Deus vivo.
+          <Typography className="versicle"> ℣. </Typography>
           Amemo-nos uns aos outros, sinceramente.
         </Typography>
         <Typography className="latin">
           Ubi cáritas et amor, Deus ibi est.
-          <Typography className="versicle"> ℣. </Typography>Simul ergo cum in unum
-          congregámur:<Typography className="versicle"> ℣. </Typography>Ne nos mente
-          dividámur, caveámus.<Typography className="versicle"> ℣. </Typography>Cessent
-          júrgia malígna, cessent lites.
+          <Typography className="versicle"> ℣. </Typography>Simul ergo cum in
+          unum congregámur:<Typography className="versicle"> ℣. </Typography>Ne
+          nos mente dividámur, caveámus.
+          <Typography className="versicle"> ℣. </Typography>Cessent júrgia
+          malígna, cessent lites.
           <Typography className="versicle"> ℣. </Typography>
           Et in médio nostri sit Christus Deus.
         </Typography>
         <Typography className="vernacular">
           Deus esta onde estiverem a caridade e o amor.
-          <Typography className="versicle"> ℣. </Typography>Estamos reunidos em uma única
-          assembleia.<Typography className="versicle"> ℣. </Typography>Evitemos tudo o que
+          <Typography className="versicle"> ℣. </Typography>Estamos reunidos em
+          uma única assembleia.
+          <Typography className="versicle"> ℣. </Typography>Evitemos tudo o que
           possa dividir os nossos corações.
-          <Typography className="versicle"> ℣. </Typography>Longe de nós as rixas e as
-          dissensões.<Typography className="versicle"> ℣. </Typography>Que Cristo, nosso
+          <Typography className="versicle"> ℣. </Typography>Longe de nós as
+          rixas e as dissensões.
+          <Typography className="versicle"> ℣. </Typography>Que Cristo, nosso
           Deus, esteja no meio de nós.
         </Typography>
         <Typography className="latin">
           Ubi cáritas et amor, Deus ibi est.
-          <Typography className="versicle"> ℣. </Typography>Simul quoque cum Beátis videámus
-          <Typography className="versicle"> ℣. </Typography>Gloriánter vultum tuum, Christe
-          Deus:<Typography className="versicle"> ℣. </Typography>Gáudium, quod est imménsum
-          atque probum.
-          <Typography className="versicle"> ℣. </Typography>Sǽcula per infiníta sæculórum.{" "}
-          <Typography className="response"> ℟. </Typography> Amen.
+          <Typography className="versicle"> ℣. </Typography>Simul quoque cum
+          Beátis videámus
+          <Typography className="versicle"> ℣. </Typography>Gloriánter vultum
+          tuum, Christe Deus:<Typography className="versicle"> ℣. </Typography>
+          Gáudium, quod est imménsum atque probum.
+          <Typography className="versicle"> ℣. </Typography>Sǽcula per infiníta
+          sæculórum. <Typography className="response"> ℟. </Typography> Amen.
         </Typography>
         <Typography className="vernacular">
           Deus está onde estiverem a caridade e o amor.
           <Typography className="versicle"> ℣. </Typography>Fazei-nos ver com os
-          Bem-aventurados.<Typography className="versicle"> ℣. </Typography>Vosso rosto está
-          na glória, Cristo nosso Deus:
-          <Typography className="versicle"> ℣. </Typography>Alegria imensa e pura.
-          <Typography className="versicle"> ℣. </Typography>Em todos os séculos, pelos
-          infinitos séculos. <Typography className="response"> ℟. </Typography> Amen.
+          Bem-aventurados.<Typography className="versicle"> ℣. </Typography>
+          Vosso rosto está na glória, Cristo nosso Deus:
+          <Typography className="versicle"> ℣. </Typography>Alegria imensa e
+          pura.
+          <Typography className="versicle"> ℣. </Typography>Em todos os séculos,
+          pelos infinitos séculos.{" "}
+          <Typography className="response"> ℟. </Typography> Amen.
         </Typography>
       </Language>
 
@@ -544,69 +559,79 @@ export default function PageQuad64() {
           Et ne nos indúcas in tentatiónem.
         </Typography>
         <Typography className="vernacular">
-          Pai-nosso, <Typography className="vernacular">em silêncio.</Typography>
-          <Typography className="versicle"> ℣. </Typography>E não nos deixeis cair em
-          tentação.
+          Pai-nosso,{" "}
+          <Typography className="vernacular">em silêncio.</Typography>
+          <Typography className="versicle"> ℣. </Typography>E não nos deixeis
+          cair em tentação.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Sed líbera nos a malo.
+          <Typography className="response"> ℟. </Typography> Sed líbera nos a
+          malo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Mas livrai-nos do mal.
+          <Typography className="response"> ℟. </Typography> Mas livrai-nos do
+          mal.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Tu mandásti mandáta tua, Dómine.
+          <Typography className="versicle"> ℣. </Typography>Tu mandásti mandáta
+          tua, Dómine.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Ordenastes, Senhor, que os
-          vossos mandamentos:
+          <Typography className="versicle"> ℣. </Typography>Ordenastes, Senhor,
+          que os vossos mandamentos:
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Custodíri nimis.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Fossem bem observados.
+          <Typography className="response"> ℟. </Typography> Fossem bem
+          observados.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Tu lavásti pedes discipulórum
-          tuórum.
+          <Typography className="versicle"> ℣. </Typography>Tu lavásti pedes
+          discipulórum tuórum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Lavastes os pés aos vossos
-          discípulos.
+          <Typography className="versicle"> ℣. </Typography>Lavastes os pés aos
+          vossos discípulos.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Opera mánuum tuárum ne
-          despícias.
+          <Typography className="response"> ℟. </Typography> Opera mánuum tuárum
+          ne despícias.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Não desprezeis as obras das
-          vossas mãos.
+          <Typography className="response"> ℟. </Typography> Não desprezeis as
+          obras das vossas mãos.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi oratiónem meam.
+          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi
+          oratiónem meam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha oração.
+          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha
+          oração.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et clamor meus ad te véniat.
+          <Typography className="response"> ℟. </Typography> Et clamor meus ad
+          te véniat.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E que meu clamor chegue até
-          Vós.
+          <Typography className="response"> ℟. </Typography> E que meu clamor
+          chegue até Vós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor seja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor seja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
       </Language>
 

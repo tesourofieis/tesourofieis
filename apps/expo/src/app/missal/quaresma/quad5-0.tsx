@@ -16,16 +16,17 @@ export default function PageQuad50() {
         <Typography className="latin">
           Júdica me, Deus, et discérne causam meam de gente non sancta: ab
           homine iníquo et dolóso éripe me: quia tu es Deus meus et fortitúdo
-          mea. <Typography className="latin">Ps. ibid., 3</Typography> Emítte lucem tuam et
-          veritátem tuam: ipsa me de duxérunt et adduxérunt in montem sanctum
-          tuum et in tabernácula tua.
+          mea. <Typography className="latin">Ps. ibid., 3</Typography> Emítte
+          lucem tuam et veritátem tuam: ipsa me de duxérunt et adduxérunt in
+          montem sanctum tuum et in tabernácula tua.
         </Typography>
         <Typography className="vernacular">
           Julgai-me, ó Deus, e defendei a minha causa da causa de um povo
           infiel; livrai-me do homem iníquo e ardiloso: pois sois, ó meu Deus, a
-          minha fortaleza. <Typography className="vernacular">Sl. ibid., 3</Typography>{" "}
-          Enviai-me a vossa luz e a vossa verdade, para que me guiem até ao
-          vosso monte sagrado, até aos vossos tabernáculos.
+          minha fortaleza.{" "}
+          <Typography className="vernacular">Sl. ibid., 3</Typography> Enviai-me
+          a vossa luz e a vossa verdade, para que me guiem até ao vosso monte
+          sagrado, até aos vossos tabernáculos.
         </Typography>
       </Language>
 
@@ -95,16 +96,16 @@ export default function PageQuad50() {
         <Typography className="latin">
           Eripe me, Dómine, de inimícis meis: doce me fácere voluntátem tuam.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 17, 48-49</Typography> Liberátor meus, Dómine,
-          de géntibus iracúndis: ab insurgéntibus in me exaltábis me: a viro
-          iníquo erípies me.
+          <Typography className="latin">Ps. 17, 48-49</Typography> Liberátor
+          meus, Dómine, de géntibus iracúndis: ab insurgéntibus in me exaltábis
+          me: a viro iníquo erípies me.
         </Typography>
         <Typography className="vernacular">
           Livrai-me dos meus inimigos, Senhor: ensinai-me a cumprir a vossa
           vontade.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 17, 48-49</Typography> Livrai-me, ó Senhor,
-          das iras dos meus inimigos: elevai-me sobre aqueles que se insurgem
-          contra mim e defendei-me do homem iníquo.
+          <Typography className="vernacular">Sl. 17, 48-49</Typography>{" "}
+          Livrai-me, ó Senhor, das iras dos meus inimigos: elevai-me sobre
+          aqueles que se insurgem contra mim e defendei-me do homem iníquo.
         </Typography>
       </Language>
 
@@ -115,22 +116,23 @@ export default function PageQuad50() {
       <Language>
         <Typography className="latin">
           Sæpe expugnavérunt me a juventúte mea.
-          <Typography className="versicle"> ℣. </Typography>Dicat nunc Israël: sæpe
-          expugnavérunt me a juventúte mea.
-          <Typography className="versicle"> ℣. </Typography>Etenim non potuérunt mihi: supra
-          dorsum meum fabricavérunt peccatóres.
-          <Typography className="versicle"> ℣. </Typography>Prolongavérunt iniquitátes suas:
-          Dóminus justus cóncidit cervíces peccatórum.
+          <Typography className="versicle"> ℣. </Typography>Dicat nunc Israël:
+          sæpe expugnavérunt me a juventúte mea.
+          <Typography className="versicle"> ℣. </Typography>Etenim non potuérunt
+          mihi: supra dorsum meum fabricavérunt peccatóres.
+          <Typography className="versicle"> ℣. </Typography>Prolongavérunt
+          iniquitátes suas: Dóminus justus cóncidit cervíces peccatórum.
         </Typography>
         <Typography className="vernacular">
           Combateram-me desde a minha juventude.
-          <Typography className="versicle"> ℣. </Typography>Diga agora Israel: combateram-me
-          desde a minha juventude.
-          <Typography className="versicle"> ℣. </Typography>Mas nada puderam contra mim. Nas
-          minhas costas ficaram sinais das pancadas dos pecadores.
-          <Typography className="versicle"> ℣. </Typography>Durante bastante tempo
-          continuaram as suas iniquidades; mas o Senhor, que é justo, cortará a
-          cabeça dos pecadores.
+          <Typography className="versicle"> ℣. </Typography>Diga agora Israel:
+          combateram-me desde a minha juventude.
+          <Typography className="versicle"> ℣. </Typography>Mas nada puderam
+          contra mim. Nas minhas costas ficaram sinais das pancadas dos
+          pecadores.
+          <Typography className="versicle"> ℣. </Typography>Durante bastante
+          tempo continuaram as suas iniquidades; mas o Senhor, que é justo,
+          cortará a cabeça dos pecadores.
         </Typography>
       </Language>
 
@@ -140,12 +142,12 @@ export default function PageQuad50() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dicébat Jesus turbis Judæórum: Quis ex vobis árguet

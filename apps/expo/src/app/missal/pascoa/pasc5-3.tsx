@@ -60,18 +60,21 @@ export default function PagePasc53() {
 
       <Language>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Surréxit
-          Christus, et illúxit nobis, quos rédemit sánguine suo. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Surréxit Christus, et illúxit nobis, quos rédemit sánguine suo.
+          Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Joann. 16, 28</Typography> Exívi a Patre, et veni in
-          mundum: íterum relínquo mundum, et vado ad Patrem. Allelúja.
+          <Typography className="latin">Joann. 16, 28</Typography> Exívi a
+          Patre, et veni in mundum: íterum relínquo mundum, et vado ad Patrem.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Ressuscitou
-          Cristo: e fez brilhar a sua luz sobre nós, a quem remiu com o sen
-          sangue. Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Jo. 16, 28</Typography> Saí do Pai e vim ao
-          mundo; agora, outra vez, deixo o mundo e vou ao Pai. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Ressuscitou Cristo: e fez brilhar a sua luz sobre nós, a quem remiu
+          com o sen sangue. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Jo. 16, 28</Typography> Saí do Pai
+          e vim ao mundo; agora, outra vez, deixo o mundo e vou ao Pai. Aleluia.
         </Typography>
       </Language>
 
@@ -81,12 +84,12 @@ export default function PagePasc53() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Sublevátis Jesus oculis in cœlum, dixit: Pater, venit

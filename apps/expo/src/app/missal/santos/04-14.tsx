@@ -16,17 +16,19 @@ export default function Page0414() {
         <Typography className="latin">
           Narravérunt mihi iníqui fabulatiónes, sed non ut lex tua: ego autem
           loquébar de testimóniis tuis in conspéctu regum, et non confundébar.
-          (T.P. Allelúja, allelúja.) <Typography className="latin">Ps. ibid., 1</Typography>{" "}
-          Beáti immaculáti in via, qui ámbulant in lege Dómini.
+          (T.P. Allelúja, allelúja.){" "}
+          <Typography className="latin">Ps. ibid., 1</Typography> Beáti
+          immaculáti in via, qui ámbulant in lege Dómini.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Os maus narraram-me fábulas, mas não se assemelhavam à vossa lei.
           Porém, publiquei os vossos ensinos na presença dos reis e não fui
           confundido. (T.P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Bem-aventurados
-          aqueles que são imaculados na sua vida: e que caminham segundo a lei
-          do Senhor.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
+          Bem-aventurados aqueles que são imaculados na sua vida: e que caminham
+          segundo a lei do Senhor.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
@@ -116,23 +118,24 @@ export default function Page0414() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">1 Cor. 3, 19 & 20</Typography> Sapiéntia hujus mundi
-          stultítia est apud Deum, scriptum est enim: Dóminus novit cogitatiónes
-          sapiéntium, quóniam vanæ sunt. Allelúja.
+          <Typography className="latin">1 Cor. 3, 19 & 20</Typography> Sapiéntia
+          hujus mundi stultítia est apud Deum, scriptum est enim: Dóminus novit
+          cogitatiónes sapiéntium, quóniam vanæ sunt. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Philipp. 3, 8</Typography> Verúmtamen exístimo ómnia
-          detriméntum esse propter eminéntem sciéntiam Jesu Christi, Dómini mei.
-          Allelúja.
+          <Typography className="em">Philipp. 3, 8</Typography> Verúmtamen
+          exístimo ómnia detriméntum esse propter eminéntem sciéntiam Jesu
+          Christi, Dómini mei. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">1 Cor. 3, 19 & 20</Typography> A sabedoria
-          deste mundo é estultícia diante de Deus; pois está escrito: «O Senhor
-          conhece os pensamentos dos sábios e sabe que eles são vãos». Aleluia.
-          <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Fl. 3, 8</Typography> Na verdade reputo tudo como perda
-          em comparação da eminente ciência de Jesus Cristo, meu Senhor.
+          <Typography className="vernacular">1 Cor. 3, 19 & 20</Typography> A
+          sabedoria deste mundo é estultícia diante de Deus; pois está escrito:
+          «O Senhor conhece os pensamentos dos sábios e sabe que eles são vãos».
           Aleluia.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Fl. 3, 8</Typography> Na verdade reputo
+          tudo como perda em comparação da eminente ciência de Jesus Cristo, meu
+          Senhor. Aleluia.
         </Typography>
       </Language>
 
@@ -142,12 +145,12 @@ export default function Page0414() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Nihil opértum csi, quod

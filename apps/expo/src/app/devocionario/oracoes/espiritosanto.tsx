@@ -18,18 +18,20 @@ export default function PageEspiritosanto() {
           neles o fogo do vosso amor.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Emitte Spíritum tuum, et
-          creabúntur.
+          <Typography className="versicle"> ℣. </Typography>Emitte Spíritum
+          tuum, et creabúntur.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Enviai o vosso Espírito e tudo
-          será criado.
+          <Typography className="versicle"> ℣. </Typography>Enviai o vosso
+          Espírito e tudo será criado.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et renovábis faciem terræ.
+          <Typography className="response"> ℟. </Typography> Et renovábis faciem
+          terræ.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E renovareis a face da terra.
+          <Typography className="response"> ℟. </Typography> E renovareis a face
+          da terra.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Orémus.</Typography>

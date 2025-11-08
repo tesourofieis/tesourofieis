@@ -31,16 +31,17 @@ export default function Page0526() {
         <Typography className="latin">
           Cáritas Dei diffúsa est in córdibus nostris per inhabitántem Spíritum
           ejus in nobis. (T.P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. 102, 1</Typography> Benedic, ánima mea, Dómino:
-          et ómnia, quæ intra me sunt, nómini sancto ejus.
+          <Typography className="latin">Ps. 102, 1</Typography> Benedic, ánima
+          mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O amor de Deus difundiu-se nos nossos corações pelo seu Espírito que
           habita em nós. (T.P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. 102, 1</Typography> Bendizei, ó minha alma,
-          o Senhor: que tudo quanto me pertence bendiga o seu santo nome.
+          <Typography className="vernacular">Sl. 102, 1</Typography> Bendizei, ó
+          minha alma, o Senhor: que tudo quanto me pertence bendiga o seu santo
+          nome.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -80,18 +81,18 @@ export default function Page0526() {
         </Typography>
         <Typography className="vernacular">
           Vinde, meus filhos, e escutai-me: Ensinar-vos-ei a temer o Senhor.
-          <Typography className="versicle"> ℣. </Typography>Aproximai-Vos d’Ele e ficareis
-          iluminados: então a vossa face não ficará envergonhada.
+          <Typography className="versicle"> ℣. </Typography>Aproximai-Vos d’Ele
+          e ficareis iluminados: então a vossa face não ficará envergonhada.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Thren. 1, 13</Typography> De excélso misit ignem in
-          óssibus meis, et erudívit me. Allelúja.
+          <Typography className="latin">Thren. 1, 13</Typography> De excélso
+          misit ignem in óssibus meis, et erudívit me. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Lm. 1, 13</Typography> Do alto dos céus enviou
-          e fogo sobre os meus ossos e instruiu-me. Aleluia.
+          <Typography className="vernacular">Lm. 1, 13</Typography> Do alto dos
+          céus enviou e fogo sobre os meus ossos e instruiu-me. Aleluia.
         </Typography>
       </Language>
 
@@ -102,19 +103,20 @@ export default function Page0526() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Thren. 1, 13</Typography> De excélso misit ignem in
-          óssibus meis, et erudívit me. Allelúja.
+          <Typography className="latin">Thren. 1, 13</Typography> De excélso
+          misit ignem in óssibus meis, et erudívit me. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. 38, 4</Typography> Concáluit cor meum intra me: et
-          in meditatióne mea exardéscet ignis. Allelúja.
+          <Typography className="em">Ps. 38, 4</Typography> Concáluit cor meum
+          intra me: et in meditatióne mea exardéscet ignis. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Lm. 1, 13</Typography> Do alto dos céus enviou
-          e fogo sobre os meus ossos e instruiu-me. Aleluia.
+          <Typography className="vernacular">Lm. 1, 13</Typography> Do alto dos
+          céus enviou e fogo sobre os meus ossos e instruiu-me. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Sl. 38, 4</Typography> Meu coração inflamou-se no meu
-          peito. Enquanto eu meditava, o fogo abrasou-me. Aleluia.
+          <Typography className="em">Sl. 38, 4</Typography> Meu coração
+          inflamou-se no meu peito. Enquanto eu meditava, o fogo abrasou-me.
+          Aleluia.
         </Typography>
       </Language>
 

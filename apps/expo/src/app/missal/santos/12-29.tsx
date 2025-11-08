@@ -14,17 +14,18 @@ export default function Page1229() {
         <Typography className="latin">
           Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beáti
           Thomæ Mártyris: de cujus passióne gaudent Angeli et colláudant Fílium
-          Dei. <Typography className="latin">Ps. 32, 1</Typography> Exsultáte, justi, in
-          Dómino: rectos decet collaudátio.
+          Dei. <Typography className="latin">Ps. 32, 1</Typography> Exsultáte,
+          justi, in Dómino: rectos decet collaudátio.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Regozijemo-nos todos no Senhor, celebrando neste dia a festa em honra
           do Mártir Tomás, de cujo martírio se alegram os Anjos, que por este
           motivo louvam o Filho de Deus.{" "}
-          <Typography className="vernacular">Sl. 32, 1</Typography> Ó justos, cantai ao
-          Senhor hinos de alegria! É aos corações rectos que incumbe louvar o
-          Senhor.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. 32, 1</Typography> Ó justos,
+          cantai ao Senhor hinos de alegria! É aos corações rectos que incumbe
+          louvar o Senhor.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -90,24 +91,25 @@ export default function Page1229() {
         <Typography className="latin">
           Ecce Sacérdos magnus, qui in diébus suis plácuit Deo.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ib., 20</Typography> Non est invéntus símilis illi,
-          qui conserváret legem Excélsi.
+          <Typography className="latin">Ib., 20</Typography> Non est invéntus
+          símilis illi, qui conserváret legem Excélsi.
         </Typography>
         <Typography className="vernacular">
           Eis o sumo sacerdote, que nos dias da sua vida agradou a Deus.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ib., 20</Typography> Não foi encontrado outrem
-          que o igualasse na observância da lei do Altíssimo.
+          <Typography className="vernacular">Ib., 20</Typography> Não foi
+          encontrado outrem que o igualasse na observância da lei do Altíssimo.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Joann. 10, 14</Typography> Ego sum pastor bonus: et
-          cognósco oves meas, et cognóscunt me meæ. Allelúja.
+          <Typography className="latin">Joann. 10, 14</Typography> Ego sum
+          pastor bonus: et cognósco oves meas, et cognóscunt me meæ. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Jo. 10, 14</Typography> Eu sou o bom Pastor: eu
-          conheço as minhas ovelhas e as minhas ovelhas conhecem-me. Aleluia.
+          <Typography className="vernacular">Jo. 10, 14</Typography> Eu sou o
+          bom Pastor: eu conheço as minhas ovelhas e as minhas ovelhas
+          conhecem-me. Aleluia.
         </Typography>
       </Language>
 
@@ -117,12 +119,12 @@ export default function Page1229() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secundum
-          Joannem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secundum Joannem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus pharisǽis: Ego sum pastor bonus. Bonus

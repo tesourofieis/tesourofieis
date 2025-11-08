@@ -42,16 +42,17 @@ export default function Page0629() {
         <Typography className="latin">
           Nunc scio vere, quia misit Dóminus Angelum suum: et erípuit me de manu
           Heródis et de omni exspectatióne plebis Judæórum.{" "}
-          <Typography className="latin">Ps. 138, 1-2</Typography> Dómine; probásti me et
-          cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.
+          <Typography className="latin">Ps. 138, 1-2</Typography> Dómine;
+          probásti me et cognovísti me: tu cognovísti sessiónem meam et
+          resurrectiónem meam.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Agora reconheço, verdadeiramente, que o Senhor enviou o seu Anjo: e me
           livrou das mãos de Herodes e daquilo que esperava o povo judaico!{" "}
-          <Typography className="vernacular">Sl. 138, 1-2</Typography> Experimentastes-me,
-          Senhor, e ficastes-me conhecendo: ficastes conhecendo quando me deito
-          e quando me levanto.
+          <Typography className="vernacular">Sl. 138, 1-2</Typography>{" "}
+          Experimentastes-me, Senhor, e ficastes-me conhecendo: ficastes
+          conhecendo quando me deito e quando me levanto.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -78,7 +79,9 @@ export default function Page0629() {
 
       <Language>
         <Typography className="latin">Léctio Actuum Apostolórum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Misit Heródes rex manus, ut afflígeret quosdam de
           ecclésia. Occidit autem Jacóbum fratrem Joánnis gládio. Videns autem,
@@ -136,25 +139,26 @@ export default function Page0629() {
       <Language>
         <Typography className="latin">
           Constítues eos príncipes super omnem terram: mémores erunt nóminis
-          tui. Dómine.<Typography className="versicle"> ℣. </Typography>Pro pátribus tuis
-          nati sunt tibi fílii: proptérea pópuli confítebúntur tibi.
+          tui. Dómine.<Typography className="versicle"> ℣. </Typography>Pro
+          pátribus tuis nati sunt tibi fílii: proptérea pópuli confítebúntur
+          tibi.
         </Typography>
         <Typography className="vernacular">
           Constitui-los-eis príncipes em toda a terra: e perpetuarão, ó Senhor,
           a recordação do vosso nome.
-          <Typography className="versicle"> ℣. </Typography>Para substituir vossos pais,
-          dar-vos-á filhos: e, assim, os povos Vos louvarão em todos os séculos
-          dos séculos.
+          <Typography className="versicle"> ℣. </Typography>Para substituir
+          vossos pais, dar-vos-á filhos: e, assim, os povos Vos louvarão em
+          todos os séculos dos séculos.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Matth. 18,18</Typography> Tu es Petrus, et super
-          hanc petram ædificábo Ecclésiam meam. Allelúja.
+          <Typography className="latin">Matth. 18,18</Typography> Tu es Petrus,
+          et super hanc petram ædificábo Ecclésiam meam. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Mt. 18,18</Typography> Tu és Pedro e sobre esta
-          pedra edificarei a minha Igreja. Aleluia.
+          <Typography className="vernacular">Mt. 18,18</Typography> Tu és Pedro
+          e sobre esta pedra edificarei a minha Igreja. Aleluia.
         </Typography>
       </Language>
 

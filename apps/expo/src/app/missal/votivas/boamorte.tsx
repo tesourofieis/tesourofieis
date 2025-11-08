@@ -16,17 +16,17 @@ export default function PageBoamorte() {
         <Typography className="latin">
           Illúmina óculos meos, ne umquam obdórmiam in morte, ne quando dicat
           inimícus meus: Præválui advérsus eum. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Usquequo, Dómine,
-          oblivísceris me in finem? usquequo avertis fáciem tuam a me?
+          <Typography className="latin">Ps. ibid., 1</Typography> Usquequo,
+          Dómine, oblivísceris me in finem? usquequo avertis fáciem tuam a me?
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Iluminai os meus olhos, a fim de que eu não adormeça na morte para
           sempre e para que meu inimigo não diga a meu respeito: prevaleci
           contra ele. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Até quando, Senhor,
-          me esquecereis? Esquecer-me-eis até ao fim? Até quando conservareis
-          afastada de mim a vossa face?
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Até
+          quando, Senhor, me esquecereis? Esquecer-me-eis até ao fim? Até quando
+          conservareis afastada de mim a vossa face?
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -93,27 +93,27 @@ export default function PageBoamorte() {
       <Language>
         <Typography className="latin">
           Si ámbulem in médio umbræ mortis, non timébo mala: quóniam tu mecum
-          es, Dómine.<Typography className="versicle"> ℣. </Typography>Virga tua et báculus
-          tuus, ipsa me consoláta sunt.
+          es, Dómine.<Typography className="versicle"> ℣. </Typography>Virga tua
+          et báculus tuus, ipsa me consoláta sunt.
         </Typography>
         <Typography className="vernacular">
           Ainda mesmo que eu caminhe no meio das sombras da morte, não temerei
           os males; pois Vós, Senhor, estais comigo.
-          <Typography className="versicle"> ℣. </Typography>Vossa vara e o vosso báculo
-          servem-me de consolação.
+          <Typography className="versicle"> ℣. </Typography>Vossa vara e o vosso
+          báculo servem-me de consolação.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 30, 2-3</Typography> In te, Dómine, sperávi, non
-          confúndar in ætérnum: in justítia tua líbera me et éripe me: inclína
-          ad me aurem tuam, accélera, ut erípias me. Allelúja.
+          <Typography className="latin">Ps. 30, 2-3</Typography> In te, Dómine,
+          sperávi, non confúndar in ætérnum: in justítia tua líbera me et éripe
+          me: inclína ad me aurem tuam, accélera, ut erípias me. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 30, 2-3</Typography> Tenho esperança em
-          Vós, Senhor: não ficarei confundido para sempre. Pela vossa justiça,
-          livrai-me e salvai-me: Volvei os vossos ouvidos para mim e
-          apressai-Vos em salvar-me. Aleluia.
+          <Typography className="vernacular">Sl. 30, 2-3</Typography> Tenho
+          esperança em Vós, Senhor: não ficarei confundido para sempre. Pela
+          vossa justiça, livrai-me e salvai-me: Volvei os vossos ouvidos para
+          mim e apressai-Vos em salvar-me. Aleluia.
         </Typography>
       </Language>
 
@@ -130,19 +130,21 @@ export default function PageBoamorte() {
         <Typography className="latin">
           De necessitátibus meis éripe me, Dómine: vide humilitátem meam et
           labórem meum: et dimítte ómnia peccáta mea.
-          <Typography className="versicle"> ℣. </Typography>Ad te, Dómine, levávi ánimam
-          meam: Deus meus, in te confído, non erubéscam: neque irrídeant me
-          inimíci mei.<Typography className="versicle"> ℣. </Typography>Etenim univérsi, qui
+          <Typography className="versicle"> ℣. </Typography>Ad te, Dómine,
+          levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque
+          irrídeant me inimíci mei.
+          <Typography className="versicle"> ℣. </Typography>Etenim univérsi, qui
           te exspéctant, non confundéntur: confundántur omnes faciéntes vana.
         </Typography>
         <Typography className="vernacular">
           Livrai-me, Senhor, das minhas tribulações: vede a minha miséria e as
           minhas penas: e perdoai todos meus pecados.
-          <Typography className="versicle"> ℣. </Typography>A Vós, Senhor, elevei a minha
-          alma: meu Deus, confio em Vós: não ficarei envergonhado, pais os meus
-          inimigos não triunfarão de mim.
-          <Typography className="versicle"> ℣. </Typography>Não serão confundidos, Senhor,
-          os que confiam em Vós; mas serão confundidos os que procedem em vão.
+          <Typography className="versicle"> ℣. </Typography>A Vós, Senhor,
+          elevei a minha alma: meu Deus, confio em Vós: não ficarei
+          envergonhado, pais os meus inimigos não triunfarão de mim.
+          <Typography className="versicle"> ℣. </Typography>Não serão
+          confundidos, Senhor, os que confiam em Vós; mas serão confundidos os
+          que procedem em vão.
         </Typography>
       </Language>
 
@@ -153,19 +155,20 @@ export default function PageBoamorte() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 113, 1</Typography> In éxitu Israël de Ægýpto,
-          domus Jacob de pópulo bárbaro. Allelúja.
+          <Typography className="latin">Ps. 113, 1</Typography> In éxitu Israël
+          de Ægýpto, domus Jacob de pópulo bárbaro. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. 107, 2</Typography> Parátum cor meum, Deus, parátum
-          cor meum: cantábo et psallam tibi, glória mea. Allelúja.
+          <Typography className="em">Ps. 107, 2</Typography> Parátum cor meum,
+          Deus, parátum cor meum: cantábo et psallam tibi, glória mea. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 113, 1</Typography> Quando Israel saiu do
-          Egipto e a casa de Jacob no meio de um povo bárbaro. Aleluia.
+          <Typography className="vernacular">Sl. 113, 1</Typography> Quando
+          Israel saiu do Egipto e a casa de Jacob no meio de um povo bárbaro.
+          Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Sl. 107, 2</Typography> Meu coração está preparado. Eu
-          cantarei Salmos em vossa honra na minha glória. Aleluia.
+          <Typography className="em">Sl. 107, 2</Typography> Meu coração está
+          preparado. Eu cantarei Salmos em vossa honra na minha glória. Aleluia.
         </Typography>
       </Language>
 
@@ -175,12 +178,12 @@ export default function PageBoamorte() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Atténdite vobis, ne

@@ -37,18 +37,19 @@ export default function Page1020() {
         <Typography className="latin">
           Miserátio hóminis circa próximum: misericórdia autem Dei super omnem
           carnem. Qui misericórdiam habet, docet et érudit quasi pastor gregem
-          suum. <Typography className="latin">Ps. 1, 1</Typography> Beátus vir, qui non
-          ábiit in consílio impiórum, et in via peccatórum non stetit, et in
-          cáthedra pestiléntiæ non sedit.
+          suum. <Typography className="latin">Ps. 1, 1</Typography> Beátus vir,
+          qui non ábiit in consílio impiórum, et in via peccatórum non stetit,
+          et in cáthedra pestiléntiæ non sedit.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           A misericórdia do homem exerce-se para com seu próximo; enquanto que a
           misericórdia de Deus espalha-se sobre toda a carne. Aquele que possui
           misericórdia ensina e guia os homens, como um pastor guia o seu
-          rebanho. <Typography className="vernacular">Sl. 1, 1</Typography> Bem-aventurado o
-          homem que não entrou na assembleia dos ímpios, nem seguiu os caminhos
-          dos pecadores, nem se assentou na cadeira da maldade.
+          rebanho. <Typography className="vernacular">Sl. 1, 1</Typography>{" "}
+          Bem-aventurado o homem que não entrou na assembleia dos ímpios, nem
+          seguiu os caminhos dos pecadores, nem se assentou na cadeira da
+          maldade.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -75,8 +76,12 @@ export default function Page1020() {
       <Typography className="em">Tg. 2, 12-17</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Jacóbi Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Tiago.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Jacóbi Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Tiago.
+        </Typography>
         <Typography className="latin">
           Sic loquímini, et sic fácite sicut per legem libertátis incipiéntes
           judicári. Judícium enim sine misericórdia illi, qui non fecit
@@ -108,24 +113,24 @@ export default function Page1020() {
       <Language>
         <Typography className="latin">
           Confiteántur Dómino misericórdiæ ejus: et mirabília ejus fíliis
-          hóminum.<Typography className="versicle"> ℣. </Typography>Quia satiávit ánimam
-          inánem: et ánimam esuriéntem satiavit bonis.
+          hóminum.<Typography className="versicle"> ℣. </Typography>Quia
+          satiávit ánimam inánem: et ánimam esuriéntem satiavit bonis.
         </Typography>
         <Typography className="vernacular">
           Louvai o Senhor pelas suas misericórdias e pelas suas maravilhas em
           favor dos filhos dos homens.
-          <Typography className="versicle"> ℣. </Typography>Pois Ele saciou a alma vazia e
-          encheu de benefícios a alma faminta.
+          <Typography className="versicle"> ℣. </Typography>Pois Ele saciou a
+          alma vazia e encheu de benefícios a alma faminta.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Prov. 31, 20</Typography> Manum suam apéruit ínopi:
-          et palmas suas exténdit ad páuperem. Allelúja.
+          <Typography className="latin">Prov. 31, 20</Typography> Manum suam
+          apéruit ínopi: et palmas suas exténdit ad páuperem. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Pr. 31, 20</Typography> Abriu a sua mão para o
-          indigente: e estendeu os seus braços para o pobre. Aleluia.
+          <Typography className="vernacular">Pr. 31, 20</Typography> Abriu a sua
+          mão para o indigente: e estendeu os seus braços para o pobre. Aleluia.
         </Typography>
       </Language>
 

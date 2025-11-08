@@ -17,16 +17,17 @@ export default function Page0615() {
         <Typography className="latin">
           Multæ tribulationes justórum, et de his ómnibus liberávit eos Dóminus:
           Dóminus custodit ómnia ossa eórum: unum ex his non conterétur.{" "}
-          <Typography className="latin">Ps. ib., 2</Typography> Benedícam Dóminum in omni
-          témpore: semper laus ejus in ore meo.
+          <Typography className="latin">Ps. ib., 2</Typography> Benedícam
+          Dóminum in omni témpore: semper laus ejus in ore meo.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Muitas são as tribulações dos justos, mas de todas elas o Senhor os
           livrará: o Senhor guarda todos seus ossos e nem um só deles será
-          quebrado. <Typography className="vernacular">Sl. ib., 2</Typography> Bendirei o
-          Senhor em todo o tempo; o seu louvor estará sempre na minha boca.
+          quebrado. <Typography className="vernacular">Sl. ib., 2</Typography>{" "}
+          Bendirei o Senhor em todo o tempo; o seu louvor estará sempre na minha
+          boca.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -68,19 +69,21 @@ export default function Page0615() {
         </Typography>
         <Typography className="vernacular">
           Os Santos exultarão de alegria na sua glória: e rejubilarão nos
-          lugares do seu repouso.<Typography className="versicle"> ℣. </Typography>
+          lugares do seu repouso.
+          <Typography className="versicle"> ℣. </Typography>
           Cantai ao Senhor um cântico novo: que a assembleia dos fiéis cante
           sempre os seus louvores.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 144, 10-11</Typography> Sancti tui, Dómine,
-          benedícent te: glóriam regni tui dicent. Allelúja.
+          <Typography className="latin">Ps. 144, 10-11</Typography> Sancti tui,
+          Dómine, benedícent te: glóriam regni tui dicent. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 144, 10-11</Typography> Que os vossos
-          Santos Vos bendigam: que publiquem a glória do vosso reino. Aleluia.
+          <Typography className="vernacular">Sl. 144, 10-11</Typography> Que os
+          vossos Santos Vos bendigam: que publiquem a glória do vosso reino.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -90,12 +93,12 @@ export default function Page0615() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Qui vos audit, me audit:

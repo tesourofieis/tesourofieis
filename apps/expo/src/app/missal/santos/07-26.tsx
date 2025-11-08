@@ -31,17 +31,17 @@ export default function Page0726() {
         <Typography className="latin">
           Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ
           Annæ: de cujus sollemnitáte gaudent Angeli et colláudant Fílium Dei.{" "}
-          <Typography className="latin">Ps. 44, 2</Typography> Eructávit cor meum verbum
-          bonum: dico ego ópera mea Regi.
+          <Typography className="latin">Ps. 44, 2</Typography> Eructávit cor
+          meum verbum bonum: dico ego ópera mea Regi.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Alegremo-nos todos no Senhor, celebrando neste dia a festa em honra da
           B. Ana; pois os Anjos rejubilam com esta festividade e em harmonia
-          louvam o Filho de Deus. <Typography className="vernacular">Sl. 44, 2</Typography>{" "}
-          Meu coração exalou uma palavra excelente: Consagro ao Rei as minhas
-          obras.
+          louvam o Filho de Deus.{" "}
+          <Typography className="vernacular">Sl. 44, 2</Typography> Meu coração
+          exalou uma palavra excelente: Consagro ao Rei as minhas obras.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>

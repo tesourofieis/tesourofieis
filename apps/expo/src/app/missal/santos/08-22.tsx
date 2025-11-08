@@ -34,15 +34,16 @@ export default function Page0822() {
         <Typography className="latin">
           Adeámus cum fidúcia ad thronum grátiæ, ut misericórdiam consequámur,
           et grátiam inveniámus in auxílio opportúno.{" "}
-          <Typography className="latin">Ps. 44, 2</Typography> Eructávit cor meum verbum
-          bonum: dico ego ópera mea regi.
+          <Typography className="latin">Ps. 44, 2</Typography> Eructávit cor
+          meum verbum bonum: dico ego ópera mea regi.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Acerquemo-nos com confiança do trono da graça, a fim de alcançar
           misericórdia e encontrar graça e sermos auxiliados na ocasião
-          necessária. <Typography className="vernacular">Sl. 44, 2</Typography> Meu coração
-          exprimiu uma excelente palavra: «Consagro ao Rei as minhas obras»!
+          necessária. <Typography className="vernacular">Sl. 44, 2</Typography>{" "}
+          Meu coração exprimiu uma excelente palavra: «Consagro ao Rei as minhas
+          obras»!
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -80,27 +81,30 @@ export default function Page0822() {
           Exsultábit cor meum in salutári tuo: cantábo Dómino, qui bona tríbuit
           mihi: et psallam nómini Dómini altíssimi.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 44, 18</Typography> Mémores erunt nóminis tui in
-          omni generatióne et generatiónem: proptérea pópuli confitebúntur tibi
-          in ætérnum.
+          <Typography className="latin">Ps. 44, 18</Typography> Mémores erunt
+          nóminis tui in omni generatióne et generatiónem: proptérea pópuli
+          confitebúntur tibi in ætérnum.
         </Typography>
         <Typography className="vernacular">
           Exultará o meu coração com a salvação que de Vós virá; cantarei hinos
           ao Senhor, que me concedeu tantos benefícios; entoarei salmos em
           louvor do nome do altíssimo Senhor.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 44, 18</Typography> De geração em geração
-          glorificarão o vosso nome: e os povos vos louvarão eternamente.
+          <Typography className="vernacular">Sl. 44, 18</Typography> De geração
+          em geração glorificarão o vosso nome: e os povos vos louvarão
+          eternamente.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Luc. 1, 46, 47</Typography> Magníficat ánima mea
-          Dóminum: et exsultávit spíritus meus in Deo salutári meo. Allelúja.
+          <Typography className="latin">Luc. 1, 46, 47</Typography> Magníficat
+          ánima mea Dóminum: et exsultávit spíritus meus in Deo salutári meo.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Lc. 1, 46, 47</Typography> Minha alma glorifica
-          o Senhor e o meu espírito se alegra em Deus, meu Salvador. Aleluia.
+          <Typography className="vernacular">Lc. 1, 46, 47</Typography> Minha
+          alma glorifica o Senhor e o meu espírito se alegra em Deus, meu
+          Salvador. Aleluia.
         </Typography>
       </Language>
 
@@ -110,12 +114,12 @@ export default function Page0822() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Stabant juxta crucem Jesu mater ejus, et soror matris

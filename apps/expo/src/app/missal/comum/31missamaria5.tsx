@@ -22,26 +22,27 @@ export default function Page31Missamaria5() {
       <Language>
         <Typography className="latin">
           Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris
-          invénia es Mater Salvatóris.<Typography className="versicle"> ℣. </Typography>
+          invénia es Mater Salvatóris.
+          <Typography className="versicle"> ℣. </Typography>
           Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit
           víscera factus homo.
         </Typography>
         <Typography className="vernacular">
           Bendita e venerável sois, ó Virgem Maria, que fostes Mãe do Salvador,
           sem que a vossa pureza sofresse a mais leve ofensa.
-          <Typography className="versicle"> ℣. </Typography>Ó Virgem, Mãe de Deus, Aquele
-          que nem todo o universo é capaz de conter, quando se fez homem, esteve
-          encerrado no vosso seio.
+          <Typography className="versicle"> ℣. </Typography>Ó Virgem, Mãe de
+          Deus, Aquele que nem todo o universo é capaz de conter, quando se fez
+          homem, esteve encerrado no vosso seio.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Post partum,
-          Virgo, invioláta permansísti: Dei Génetrix, intercéde pro nobis.
-          Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Post partum, Virgo, invioláta permansísti: Dei Génetrix, intercéde pro
+          nobis. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Depois de
-          haverdes dado à luz, permanecestes Virgem imaculada: Intercedei por
-          nós, ó Mãe de Deus. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Depois de haverdes dado à luz, permanecestes Virgem imaculada:
+          Intercedei por nós, ó Mãe de Deus. Aleluia.
         </Typography>
       </Language>
 

@@ -16,7 +16,8 @@ export default function PagePent150() {
         <Typography className="latin">
           Inclína, Dómine, aurem tuam ad me, et exáudi me: salvum fac servum
           tuum, Deus meus, sperántem in te: miserére mihi, Dómine, quóniam ad te
-          clamávi tota die. <Typography className="latin">Ps. ibid., 4</Typography> Lætífica
+          clamávi tota die.{" "}
+          <Typography className="latin">Ps. ibid., 4</Typography> Lætífica
           ánimam servi tui: quia ad te, Dómine, ánimam meam levávi.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
@@ -25,8 +26,8 @@ export default function PagePent150() {
           Inclinai, Senhor, vossos ouvidos para mim e ouvi-me. Salvai, ó meu
           Deus, o vosso servo, que em Vós espera. Tende misericórdia de mim,
           Senhor, pois clamei por Vós todo o dia!{" "}
-          <Typography className="vernacular">Sl. ibid., 4</Typography> Alegrai a alma do
-          vosso servo, porque a Vós, Senhor, se elevou a minha alma.
+          <Typography className="vernacular">Sl. ibid., 4</Typography> Alegrai a
+          alma do vosso servo, porque a Vós, Senhor, se elevou a minha alma.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -110,18 +111,20 @@ export default function PagePent150() {
         </Typography>
         <Typography className="vernacular">
           É bom louvar o Senhor: e cantar salmos em honra do vosso nome, ó
-          Altíssimo!<Typography className="versicle"> ℣. </Typography>É bom publicar a vossa
-          bondade pela manhã; e a vossa verdade durante a noite.
+          Altíssimo!<Typography className="versicle"> ℣. </Typography>É bom
+          publicar a vossa bondade pela manhã; e a vossa verdade durante a
+          noite.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 94, 3</Typography> Quóniam Deus magnus Dóminus,
-          et Rex magnus super omnem terram. Allelúja.
+          <Typography className="latin">Ps. 94, 3</Typography> Quóniam Deus
+          magnus Dóminus, et Rex magnus super omnem terram. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 94, 3</Typography> Pois o Senhor é o
-          excelso Deus e o excelso Rei, superior a todo o universo. Aleluia.
+          <Typography className="vernacular">Sl. 94, 3</Typography> Pois o
+          Senhor é o excelso Deus e o excelso Rei, superior a todo o universo.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -131,12 +134,12 @@ export default function PagePent150() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Ibat Jesus in civitátem, quæ vocátur Naim: et ibant

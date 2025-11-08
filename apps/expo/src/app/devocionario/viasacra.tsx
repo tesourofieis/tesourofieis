@@ -17,26 +17,28 @@ export default function PageViasacra() {
         os únicos culpados. Minha Mãe, Virgem dolorosa, ajudai-me a reviver
         aquelas horas amargas que o vosso Filho quis passar na terra, para que
         nós, feitos de um punhado de lodo, vivêssemos por fim{" "}
-        <Typography className="em">in libertatem gloriæ filiorum Dei</Typography> (na
-        liberdade e glória dos filhos de Deus.).
+        <Typography className="em">
+          in libertatem gloriæ filiorum Dei
+        </Typography>{" "}
+        (na liberdade e glória dos filhos de Deus.).
       </Typography>
       <H3 text="No inicio de cada Estação" />
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Adorámus te, Christe, et
-          benedicimus tibi.
+          <Typography className="versicle"> ℣. </Typography>Adorámus te,
+          Christe, et benedicimus tibi.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Nós Vos adoramos, ó Jesus, e Vos
-          bendizemos.
+          <Typography className="versicle"> ℣. </Typography>Nós Vos adoramos, ó
+          Jesus, e Vos bendizemos.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography>Quia per Crucem tuam redemísti
-          mundum.
+          <Typography className="response"> ℟. </Typography>Quia per Crucem tuam
+          redemísti mundum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography>Porque pela vossa Santa Cruz
-          redimistes o mundo.
+          <Typography className="response"> ℟. </Typography>Porque pela vossa
+          Santa Cruz redimistes o mundo.
         </Typography>
       </Language>
       <H3 text="No fim de cada Estação" />
@@ -54,16 +56,19 @@ export default function PageViasacra() {
       </Typography>
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography> Miserére nostri, Dómine.
+          <Typography className="versicle"> ℣. </Typography> Miserére nostri,
+          Dómine.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor tende piedade de nós.
+          <Typography className="versicle"> ℣. </Typography>Senhor tende piedade
+          de nós.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography>Miserére nostri.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography>Tende piedade de nós.
+          <Typography className="response"> ℟. </Typography>Tende piedade de
+          nós.
         </Typography>
       </Language>
       <Typography className="aside">

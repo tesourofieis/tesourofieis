@@ -15,17 +15,19 @@ export default function PageSumospontifices() {
       <Language>
         <Typography className="latin">
           Si díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (T. P.
-          Allelúja, allelúja.) <Typography className="latin">Ps. 29, 2</Typography> Exaltábo
-          te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super
-          me.<Typography className="versicle"> ℣. </Typography>
+          Allelúja, allelúja.){" "}
+          <Typography className="latin">Ps. 29, 2</Typography> Exaltábo te,
+          Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me.
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Se me amas, Simão-Pedro, apascenta os meus cordeiros, apascenta as
           minhas ovelhas. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. 29, 2</Typography> Louvar-Vos-ei, Senhor,
-          pois me acolhestes e não permitistes que meus inimigos se rissem de
-          mim.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. 29, 2</Typography>{" "}
+          Louvar-Vos-ei, Senhor, pois me acolhestes e não permitistes que meus
+          inimigos se rissem de mim.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
@@ -34,16 +36,16 @@ export default function PageSumospontifices() {
       <Language>
         <Typography className="latin">
           Gregem tuum, Pastor ætérne, placátus inténde: et, per beátum{" "}
-          <Typography className="latin">N.</Typography> (Mártyrem tuum atque) Summum
-          Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ
+          <Typography className="latin">N.</Typography> (Mártyrem tuum atque)
+          Summum Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ
           præstitísti esse pastórem. Per Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
           Ó Pastor eterno, atendei propício ao vosso rebanho; e guardai-o com
           vossa perpétua protecção por intercessão do bem-aventurado{" "}
-          <Typography className="vernacular">N.</Typography> (Vosso Mártir e) Sumo
-          Pontífice, o qual escolhestes como pastor de toda a Igreja. Por nosso
-          Senhor...
+          <Typography className="vernacular">N.</Typography> (Vosso Mártir e)
+          Sumo Pontífice, o qual escolhestes como pastor de toda a Igreja. Por
+          nosso Senhor...
         </Typography>
       </Language>
 
@@ -58,16 +60,16 @@ export default function PageSumospontifices() {
         <Typography className="latin">
           Deus, qui Ecclésiam tuam, in apostólicæ petræ soliditáte fundátam, ab
           infernárum éruis terróre portárum: præsta, quǽsumus; ut, intercedénte
-          beáto <Typography className="latin">N.</Typography> (Mártyre tuo atque) Summo
-          Pontífice, in tua veritáte persístens, contínua securitáte muniátur.
-          Per Dominum...
+          beáto <Typography className="latin">N.</Typography> (Mártyre tuo
+          atque) Summo Pontífice, in tua veritáte persístens, contínua
+          securitáte muniátur. Per Dominum...
         </Typography>
         <Typography className="vernacular">
           Ó Deus, que do terror das portas do inferno livrastes a vossa Igreja,
           fundada na solidez da pedra apostólica, concedei-nos, Vos suplicamos,
           que, por intercessão do bem-aventurado{" "}
-          <Typography className="vernacular">N.</Typography> (Vosso Mártir e) Sumo
-          Pontífice, sempre persista na vossa verdade e seja protegida em
+          <Typography className="vernacular">N.</Typography> (Vosso Mártir e)
+          Sumo Pontífice, sempre persista na vossa verdade e seja protegida em
           contínua segurança. Por nosso Senhor...
         </Typography>
       </Language>
@@ -77,8 +79,12 @@ export default function PageSumospontifices() {
       <Typography className="em">l. Pe. 5, 1-4 & 10-11</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Petri Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Pedro.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Senióres, qui in vobis sunt, obsécro consénior et testis
           Christi passiónum, qui et ejus, quæ in futúro revelánda est, glóriæ
@@ -113,8 +119,8 @@ export default function PageSumospontifices() {
       <Language>
         <Typography className="latin">
           Exáltent eum in Ecclésia plebis: et in cáthedra seniórum laudent eum.
-          <Typography className="versicle"> ℣. </Typography>Confiteántur Dómino misericórdiæ
-          ejus; et mirabília ejus fíliis hóminum.
+          <Typography className="versicle"> ℣. </Typography>Confiteántur Dómino
+          misericórdiæ ejus; et mirabília ejus fíliis hóminum.
         </Typography>
         <Typography className="vernacular">
           Que seja exaltado na assembleia do povo; que seja louvado no conselho
@@ -124,13 +130,13 @@ export default function PageSumospontifices() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Matth. 16, 18</Typography> Tu es Petrus, et super
-          hanc petram ædificábo Ecclésiam meam. Allelúja.
+          <Typography className="latin">Matth. 16, 18</Typography> Tu es Petrus,
+          et super hanc petram ædificábo Ecclésiam meam. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Mt. 16, 18</Typography> Tu és Pedro, e sobre
-          esta pedra edificarei a minha Igreja. Aleluia.
+          <Typography className="vernacular">Mt. 16, 18</Typography> Tu és
+          Pedro, e sobre esta pedra edificarei a minha Igreja. Aleluia.
         </Typography>
       </Language>
 
@@ -148,16 +154,16 @@ export default function PageSumospontifices() {
           prohibébo: Dómine, tu scisti.
           <Typography className="versicle"> ℣. </Typography>
           Justítiam tuam non abscóndi in corde meo: veritátem tuam et salutáre
-          tuum dixi.<Typography className="versicle"> ℣. </Typography>Non abscóndi
-          misericórdiam tuam, et veritátem tuam a concílio multo.
+          tuum dixi.<Typography className="versicle"> ℣. </Typography>Non
+          abscóndi misericórdiam tuam, et veritátem tuam a concílio multo.
         </Typography>
         <Typography className="vernacular">
           Anunciei a vossa justiça numa grande assembleia: eis, pois, que não
           cerrareis os meus lábios, Senhor, bem o sabeis.
-          <Typography className="versicle"> ℣. </Typography>Não encerrei a vossa justiça no
-          meu coração; mas publiquei a vossa verdade e salvação.
-          <Typography className="versicle"> ℣. </Typography>Não ocultei a vossa misericórdia
-          e fidelidade diante da grande assembleia.
+          <Typography className="versicle"> ℣. </Typography>Não encerrei a vossa
+          justiça no meu coração; mas publiquei a vossa verdade e salvação.
+          <Typography className="versicle"> ℣. </Typography>Não ocultei a vossa
+          misericórdia e fidelidade diante da grande assembleia.
         </Typography>
       </Language>
 
@@ -168,20 +174,21 @@ export default function PageSumospontifices() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Matth. 16, 18</Typography> Tu es Petrus, et super
-          hanc petram ædificábo Ecclésiam meam. Allelúja.
+          <Typography className="latin">Matth. 16, 18</Typography> Tu es Petrus,
+          et super hanc petram ædificábo Ecclésiam meam. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. 44, 17, 18</Typography> Constítues eos príncipes
-          super omnem terram: mémores erunt nóminis tui, Dómine. Allelúja.
+          <Typography className="em">Ps. 44, 17, 18</Typography> Constítues eos
+          príncipes super omnem terram: mémores erunt nóminis tui, Dómine.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Mt. 16, 18</Typography> Tu és Pedro, e sobre
-          esta pedra edificarei a minha Igreja. Aleluia.
+          <Typography className="vernacular">Mt. 16, 18</Typography> Tu és
+          Pedro, e sobre esta pedra edificarei a minha Igreja. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Sl. 44, 17, 18</Typography> Vós os constituístes
-          príncipes em toda a terra: e eles perpetuarão, Senhor, o vosso nome.
-          Aleluia.
+          <Typography className="em">Sl. 44, 17, 18</Typography> Vós os
+          constituístes príncipes em toda a terra: e eles perpetuarão, Senhor, o
+          vosso nome. Aleluia.
         </Typography>
       </Language>
 
@@ -191,12 +198,12 @@ export default function PageSumospontifices() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et
@@ -273,16 +280,17 @@ export default function PageSumospontifices() {
       <Language>
         <Typography className="latin">
           Múnera, quæ tibi, Dómine, lætántes offérimus, súscipe benígnus, et
-          præsta: ut, intercedénte beáto <Typography className="latin">N.</Typography>,
-          Ecclésia tua et fídei integritáte lætétur, et témporum tranquillitáte
-          semper exsúltet. Per Dóminum nostrum...
+          præsta: ut, intercedénte beáto{" "}
+          <Typography className="latin">N.</Typography>, Ecclésia tua et fídei
+          integritáte lætétur, et témporum tranquillitáte semper exsúltet. Per
+          Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
           Recebei benignamente, Senhor, os dons que com alegria Vos oferecemos,
           e fazei que, por intercessão do bem-aventurado{" "}
-          <Typography className="vernacular">N.</Typography>, a vossa. Igreja se alegre com
-          a integridade da sua fé e sempre exulte com a tranquilidade dos
-          tempos. Por nosso Senhor...
+          <Typography className="vernacular">N.</Typography>, a vossa. Igreja se
+          alegre com a integridade da sua fé e sempre exulte com a tranquilidade
+          dos tempos. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -328,16 +336,16 @@ export default function PageSumospontifices() {
       <Language>
         <Typography className="latin">
           Multíplica, quǽsumus, Dómine, in Ecclesia tua spíritum grátiæ, quem
-          dedísti: ut beáti <Typography className="latin">N.</Typography> (Martyris tui
-          atque) Summi Pontíficis deprecatióne nec pastóri obœdiéntia gregis nec
-          gregi desit cura pastóris. Per Dóminum...
+          dedísti: ut beáti <Typography className="latin">N.</Typography>{" "}
+          (Martyris tui atque) Summi Pontíficis deprecatióne nec pastóri
+          obœdiéntia gregis nec gregi desit cura pastóris. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Senhor, Vos suplicamos, multiplicai na vossa Igreja o espírito da
           graça, que lhe concedestes, a fim de que, pela oração do
-          bem-aventurado <Typography className="vernacular">N.</Typography> (Vosso Mártir e)
-          Sumo Pontífice, não falte ao pastor a obediência do rebanho, nem ao
-          rebanho a dedicação do pastor. Por nosso Senhor...
+          bem-aventurado <Typography className="vernacular">N.</Typography>{" "}
+          (Vosso Mártir e) Sumo Pontífice, não falte ao pastor a obediência do
+          rebanho, nem ao rebanho a dedicação do pastor. Por nosso Senhor...
         </Typography>
       </Language>
     </PageWrapper>

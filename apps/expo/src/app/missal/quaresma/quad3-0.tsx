@@ -16,17 +16,18 @@ export default function PageQuad30() {
         <Typography className="latin">
           Oculi mei semper ad Dóminum, quia ipse evéllet de láqueo pedes meos:
           réspice in me, et miserére mei, quóniam únicus et pauper sum ego.{" "}
-          <Typography className="latin">Ps. ibid., 1-2</Typography> Ad te, Dómine, levávi
-          ánimam meam: Deus meus, in te confído, non erubéscam.
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Ad te,
+          Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Os meus olhos estão sempre fitos no Senhor, pois Ele livrará os meus
           pés do laço. Volvei vossos olhos para mim e tende misericórdia de mim,
           meu Deus, pois sou só e pobre.{" "}
-          <Typography className="vernacular">Sl. ibid., 1-2</Typography> A Vós, Senhor,
-          elevei a minha alma: meu Deus, confio em Vós, não ficarei
-          envergonhado.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> A Vós,
+          Senhor, elevei a minha alma: meu Deus, confio em Vós, não ficarei
+          envergonhado.<Typography className="versicle"> ℣. </Typography>Glória
+          ao Pai...
         </Typography>
       </Language>
 
@@ -94,14 +95,14 @@ export default function PageQuad30() {
       <Language>
         <Typography className="latin">
           Exsúrge, Dómine, non præváleat homo: judicéntur gentes in conspéctu
-          tuo.<Typography className="versicle"> ℣. </Typography>In converténdo inimícum meum
-          retrórsum, infirmabúntur, et períbunt a facie tua.
+          tuo.<Typography className="versicle"> ℣. </Typography>In converténdo
+          inimícum meum retrórsum, infirmabúntur, et períbunt a facie tua.
         </Typography>
         <Typography className="vernacular">
           Erguei-Vos, Senhor, para que o homem não triunfe: que os povos sejam
           julgados na vossa presença!
-          <Typography className="versicle"> ℣. </Typography>Quando o meu inimigo tiver
-          fugido, eles tremerão e morrerão diante de Vós.
+          <Typography className="versicle"> ℣. </Typography>Quando o meu inimigo
+          tiver fugido, eles tremerão e morrerão diante de Vós.
         </Typography>
       </Language>
 
@@ -112,19 +113,20 @@ export default function PageQuad30() {
       <Language>
         <Typography className="latin">
           Ad te levávi óculos meos, qui hábitas in cœlis.
-          <Typography className="versicle"> ℣. </Typography>Ecce, sicut óculi servórum in
-          mánibus dominórum suórum.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="versicle"> ℣. </Typography>Ecce, sicut óculi
+          servórum in mánibus dominórum suórum.
+          <Typography className="versicle"> ℣. </Typography>
           Et sicut óculi ancíllæ in mánibus dóminæ suæ: ita óculi nostri ad
           Dóminum, Deum nostrum, donec misereátur nostri.
-          <Typography className="versicle"> ℣. </Typography>Miserére nobis, Dómine, miserére
-          nobis.
+          <Typography className="versicle"> ℣. </Typography>Miserére nobis,
+          Dómine, miserére nobis.
         </Typography>
         <Typography className="vernacular">
           A Vós, que habitais nos céus, ergui os meus olhos. Como os olhos dos
           servos estão fixos na mão do seu senhor.
-          <Typography className="versicle"> ℣. </Typography>E os olhos da escrava nas mãos
-          da sua senhora; assim os nossos olhos se volvem e fixam em o Senhor,
-          nosso Deus, até que tenha piedade de nós.
+          <Typography className="versicle"> ℣. </Typography>E os olhos da
+          escrava nas mãos da sua senhora; assim os nossos olhos se volvem e
+          fixam em o Senhor, nosso Deus, até que tenha piedade de nós.
           <Typography className="versicle"> ℣. </Typography>
           Tende piedade de nós, Senhor, tende piedade de nós.
         </Typography>
@@ -136,12 +138,12 @@ export default function PageQuad30() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Erat Jesus ejíciens dæmónium, et illud erat mutum. Et

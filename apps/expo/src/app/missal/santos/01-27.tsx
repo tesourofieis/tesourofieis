@@ -60,26 +60,26 @@ export default function Page0127() {
         <Typography className="latin">
           Ecce sacérdos magnus, qui in diébus suis plácuit Deo.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 20</Typography> Non est inventus símilis
-          illi, qui conserváret legem Excélsi.
+          <Typography className="latin">ibid., 20</Typography> Non est inventus
+          símilis illi, qui conserváret legem Excélsi.
         </Typography>
         <Typography className="vernacular">
           Eis o grande sacerdote que nos dias da sua vida agradou a Deus.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 20</Typography> Ninguém o igualou na
-          observância das leis do Altíssimo.
+          <Typography className="vernacular">ibid., 20</Typography> Ninguém o
+          igualou na observância das leis do Altíssimo.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Jac. 1, 12</Typography> Beátus vir, qui suffert
-          tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ.
-          Allelúja.
+          <Typography className="latin">Jac. 1, 12</Typography> Beátus vir, qui
+          suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam
+          vitæ. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Tg. 1, 12</Typography> Bem-aventurado o varão
-          que sofre com paciência a tentação, porque, quando acabar a provação,
-          alcançará a coroa da vida. Aleluia.
+          <Typography className="vernacular">Tg. 1, 12</Typography>{" "}
+          Bem-aventurado o varão que sofre com paciência a tentação, porque,
+          quando acabar a provação, alcançará a coroa da vida. Aleluia.
         </Typography>
       </Language>
     </PageWrapper>

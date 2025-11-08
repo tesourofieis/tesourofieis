@@ -35,15 +35,16 @@ export default function Page0917() {
         <Typography className="latin">
           Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu Christi:
           per quem mihi mundus crucifíxus est, et ego mundo.{" "}
-          <Typography className="latin">Ps. 141, 2</Typography> Voce mea ad Dóminum clamávi:
-          voce mea ad Dóminum deprecátus sum.
+          <Typography className="latin">Ps. 141, 2</Typography> Voce mea ad
+          Dóminum clamávi: voce mea ad Dóminum deprecátus sum.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Nunca, porém, Deus permita que me glorie senão na Cruz de nosso Senhor
           Jesus Cristo, por quem o mundo está crucificado para mim, como eu o
-          estou para o mundo! <Typography className="vernacular">Sl. 141, 2</Typography>{" "}
-          Elevei a minha voz ao Senhor: dirigi ao Senhor a minha voz suplicante!
+          estou para o mundo!{" "}
+          <Typography className="vernacular">Sl. 141, 2</Typography> Elevei a
+          minha voz ao Senhor: dirigi ao Senhor a minha voz suplicante!
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -109,13 +110,13 @@ export default function Page0917() {
       <Language>
         <Typography className="latin">
           Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.
-          <Typography className="versicle"> ℣. </Typography>Lex Dei ejus in corde ipsíus: et
-          non supplantabúntur gressus ejus.
+          <Typography className="versicle"> ℣. </Typography>Lex Dei ejus in
+          corde ipsíus: et non supplantabúntur gressus ejus.
         </Typography>
         <Typography className="vernacular">
           A boca do justo falará com sabedoria e a sua língua proclamará a
-          justiça.<Typography className="versicle"> ℣. </Typography>A lei do seu Deus está
-          sempre no seu coração e os seus pés não tropeçarão.
+          justiça.<Typography className="versicle"> ℣. </Typography>A lei do seu
+          Deus está sempre no seu coração e os seus pés não tropeçarão.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
@@ -123,9 +124,9 @@ export default function Page0917() {
           honorátur. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Francisco,
-          pobre e humilde, entra rico no céu: em sua honra ressoam hinos
-          celestiais. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Francisco, pobre e humilde, entra rico no céu: em sua honra ressoam
+          hinos celestiais. Aleluia.
         </Typography>
       </Language>
 

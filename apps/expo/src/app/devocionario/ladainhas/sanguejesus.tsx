@@ -10,16 +10,26 @@ export default function PageSanguejesus() {
 
       <Language>
         <Typography className="latin">Kyrie, eleison.</Typography>
-        <Typography className="vernacular">Senhor, tende piedade de nós.</Typography>
+        <Typography className="vernacular">
+          Senhor, tende piedade de nós.
+        </Typography>
         <Typography className="latin">Christe, eleison.</Typography>
-        <Typography className="vernacular">Jesus Cristo, tende piedade de nós.</Typography>
+        <Typography className="vernacular">
+          Jesus Cristo, tende piedade de nós.
+        </Typography>
         <Typography className="latin">Kyrie, eleison.</Typography>
-        <Typography className="vernacular">Senhor, tende piedade de nós.</Typography>
+        <Typography className="vernacular">
+          Senhor, tende piedade de nós.
+        </Typography>
         <Typography className="latin">Christe, audi nos.</Typography>
         <Typography className="vernacular">Jesus Cristo, ouvi-nos.</Typography>
         <Typography className="latin">Christe, exaudi nos.</Typography>
-        <Typography className="vernacular">Jesus Cristo, atendei-nos.</Typography>
-        <Typography className="latin">Pater de cælis, Deus, miserere nobis.</Typography>
+        <Typography className="vernacular">
+          Jesus Cristo, atendei-nos.
+        </Typography>
+        <Typography className="latin">
+          Pater de cælis, Deus, miserere nobis.
+        </Typography>
         <Typography className="vernacular">
           Pai dos Céus que sois Deus, tende piedade de nós.
         </Typography>
@@ -29,7 +39,9 @@ export default function PageSanguejesus() {
         <Typography className="vernacular">
           Filho Redentor do mundo que sois Deus, tende piedade de nós.
         </Typography>
-        <Typography className="latin">Spiritus Sancte, Deus, miserere nobis.</Typography>
+        <Typography className="latin">
+          Spiritus Sancte, Deus, miserere nobis.
+        </Typography>
         <Typography className="vernacular">
           Espírito Santo que sois Deus, tende piedade de nós.
         </Typography>
@@ -210,20 +222,20 @@ export default function PageSanguejesus() {
           nós.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Redimisti nos, Domine, in
-          sanguine tuo.
+          <Typography className="response"> ℟. </Typography> Redimisti nos,
+          Domine, in sanguine tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Remiste-nos, Senhor, com vosso
-          Sangue.
+          <Typography className="response"> ℟. </Typography> Remiste-nos,
+          Senhor, com vosso Sangue.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Et fecisti nos Deo nostro
-          regnum.
+          <Typography className="versicle"> ℣. </Typography>Et fecisti nos Deo
+          nostro regnum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>E fizestes de nós um reino para
-          o nosso Deus.
+          <Typography className="versicle"> ℣. </Typography>E fizestes de nós um
+          reino para o nosso Deus.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Orémus.</Typography>

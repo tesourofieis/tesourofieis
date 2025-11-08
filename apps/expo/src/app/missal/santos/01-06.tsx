@@ -15,15 +15,16 @@ export default function Page0106() {
       <Language>
         <Typography className="latin">
           Ecce, advénit dominátor Dóminus: et regnum in manu ejus et potéstas et
-          impérium. <Typography className="latin">Ps. 71, 1</Typography> Deus, judícium tuum
-          Regi da: et justítiam tuam Fílio Regis.
+          impérium. <Typography className="latin">Ps. 71, 1</Typography> Deus,
+          judícium tuum Regi da: et justítiam tuam Fílio Regis.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Eis que apareceu soberano Senhor: e traz empunhado o ceptro da
           realeza, do poder e do império.{" "}
-          <Typography className="vernacular">Sl. 71, 1</Typography> Ó Deus, concedei ao Rei
-          a graça de saber julgar: e ao Filho do Rei a Vossa justiça.
+          <Typography className="vernacular">Sl. 71, 1</Typography> Ó Deus,
+          concedei ao Rei a graça de saber julgar: e ao Filho do Rei a Vossa
+          justiça.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -89,23 +90,23 @@ export default function Page0106() {
       <Language>
         <Typography className="latin">
           Omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino
-          annuntiántes.<Typography className="versicle"> ℣. </Typography>Surge et
-          illumináre, Jerúsalem: quia glória Dómini super te orta est.
+          annuntiántes.<Typography className="versicle"> ℣. </Typography>Surge
+          et illumináre, Jerúsalem: quia glória Dómini super te orta est.
         </Typography>
         <Typography className="vernacular">
           Todos os de Sabá virão, trazendo ouro em incenso e louvando o Senhor.
-          <Typography className="versicle"> ℣. </Typography>Ergue-te, Jerusalém, e
-          resplandece, porque a glória do Senhor brilhou sobre ti.
+          <Typography className="versicle"> ℣. </Typography>Ergue-te, Jerusalém,
+          e resplandece, porque a glória do Senhor brilhou sobre ti.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Matth. 2, 2</Typography> Vídimus stellam ejus in
-          Oriénte, et vénimus cum munéribus adoráre Dóminum. Allelúja.
+          <Typography className="latin">Matth. 2, 2</Typography> Vídimus stellam
+          ejus in Oriénte, et vénimus cum munéribus adoráre Dóminum. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Mt. 2, 2</Typography> Vimos a sua estrela no
-          Oriente e viemos com ofertas adorar o Senhor. Aleluia.
+          <Typography className="vernacular">Mt. 2, 2</Typography> Vimos a sua
+          estrela no Oriente e viemos com ofertas adorar o Senhor. Aleluia.
         </Typography>
       </Language>
 
@@ -115,12 +116,12 @@ export default function Page0106() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽu.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽu.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           Cum natus esset Jesus in Béthlehem Juda in diébus Heródis regis, ecce,
@@ -139,10 +140,10 @@ export default function Page0106() {
           Oriénte, antecedébat eos, usque dum véniens staret supra, ubi erat
           Puer. Vidéntes autem stellam, gavísi sunt gáudio magno valde. Et
           intrántes domum, invenérunt Púerum cum María Matre ejus,{" "}
-          <Typography className="em">(hic genuflectitur)</Typography> ei procidéntes
-          adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei múnera,
-          aurum, thus et myrrham. Et responso accépto in somnis, ne redírent ad
-          Heródem, per aliam viam revérsi sunt in regiónem suam.
+          <Typography className="em">(hic genuflectitur)</Typography> ei
+          procidéntes adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei
+          múnera, aurum, thus et myrrham. Et responso accépto in somnis, ne
+          redírent ad Heródem, per aliam viam revérsi sunt in regiónem suam.
         </Typography>
         <Typography className="vernacular">
           Havendo Jesus nascido em Belém, de Judá, no tempo do rei Herodes, eis
@@ -164,10 +165,11 @@ export default function Page0106() {
           que, chegando ao lugar onde estava o Menino, parou. Quando os Magos
           viram a estrela, alegraram-se muito. Entrando, então, na casa,
           encontraram o Menino com Maria, sua mãe; e, de joelhos, O adoraram.{" "}
-          <Typography className="em">(Todos devem ajoelhar)</Typography> E, tendo aberto os
-          seus tesouros, ofereceram-Lhe presentes de ouro, incenso e mirra.
-          Depois, havendo tido em sonhos aviso de que não deveriam voltar a
-          encontrar Herodes, retiraram-se por outro caminho para o seu país.
+          <Typography className="em">(Todos devem ajoelhar)</Typography> E,
+          tendo aberto os seus tesouros, ofereceram-Lhe presentes de ouro,
+          incenso e mirra. Depois, havendo tido em sonhos aviso de que não
+          deveriam voltar a encontrar Herodes, retiraram-se por outro caminho
+          para o seu país.
         </Typography>
       </Language>
 

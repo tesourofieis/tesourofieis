@@ -15,15 +15,17 @@ export default function PageQuad14() {
       <Language>
         <Typography className="latin">
           Conféssio et pulchritúdo in conspéctu ejus: sánctitas et magnificéntia
-          in sanctificatióne eius. <Typography className="latin">Ps. ibid., 1</Typography>{" "}
-          Cantáte Dómino cánticum novum: cantáte Dómino, omnis terra.
+          in sanctificatióne eius.{" "}
+          <Typography className="latin">Ps. ibid., 1</Typography> Cantáte Dómino
+          cánticum novum: cantáte Dómino, omnis terra.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           A glória e a majestade estão na sua presença; a santidade e a
           magnificência brilham no seu santuário.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Cantai ao Senhor um
-          cântico novo; cantai em honra do Senhor, ó povos de toda a terra.
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Cantai ao
+          Senhor um cântico novo; cantai em honra do Senhor, ó povos de toda a
+          terra.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -49,7 +51,9 @@ export default function PageQuad14() {
 
       <Language>
         <Typography className="latin">Léctio Ezechiélis Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do Profeta Ezequiel.</Typography>
+        <Typography className="vernacular">
+          Lição do Profeta Ezequiel.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Factus est sermo Dómini ad me, dicens: Quid est, quod
           inter vos parábolam vértitis in provérbium istud in terra Israël,
@@ -96,8 +100,8 @@ export default function PageQuad14() {
       <Language>
         <Typography className="latin">
           Custódi me, Dómine, ut pupíllam óculi: sub umbra alárum tuárum prótege
-          me.<Typography className="versicle"> ℣. </Typography>De vultu tuo judícium meum
-          pródeat: óculi tui vídeant æquitátem.
+          me.<Typography className="versicle"> ℣. </Typography>De vultu tuo
+          judícium meum pródeat: óculi tui vídeant æquitátem.
         </Typography>
         <Typography className="vernacular">
           Guardai-me, Senhor, como à pupila dos vossos olhos; protegei-me com a
@@ -114,12 +118,12 @@ export default function PageQuad14() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Egréssus Jesus secéssit in partes Tyri et Sidónis. Et

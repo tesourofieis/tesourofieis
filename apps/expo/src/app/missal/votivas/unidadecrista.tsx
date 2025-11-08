@@ -16,16 +16,17 @@ export default function PageUnidadecrista() {
         <Typography className="latin">
           Salvos nos fac, Dómine, Deus noster, et cóngrega nos de natiónibus: ut
           confiteámur nómini sancto tuo, et gloriémur in laude tua. (T. P.
-          Allelúja, allelúja.) <Typography className="latin">Ps. ibid., 1</Typography>{" "}
-          Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia
-          ejus.
+          Allelúja, allelúja.){" "}
+          <Typography className="latin">Ps. ibid., 1</Typography> Confitémini
+          Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Salvai-nos, Senhor, Deus nosso, e uni-nos entre as nações, para
           confessarmos o vosso nome e alegrarmo-nos com vossos louvores. (T. P.
-          Aleluia, aleluia.) <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
+          Aleluia, aleluia.){" "}
+          <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
           Glorificai o Senhor, porque Ele é bom; porque a sua misericórdia é
           eterna.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
@@ -121,23 +122,23 @@ export default function PageUnidadecrista() {
       <Language>
         <Typography className="latin">
           Rogáte quæ ad pacem sunt Jerúsalem: et abundántia diligéntibus te.
-          <Typography className="versicle"> ℣. </Typography>Fiat pax in virtúte tua: et
-          abundántia in túrribus tuis.
+          <Typography className="versicle"> ℣. </Typography>Fiat pax in virtúte
+          tua: et abundántia in túrribus tuis.
         </Typography>
         <Typography className="vernacular">
           Rogai a paz para os que estão em Jerusalém: e a abundância para
-          aqueles que te amam.<Typography className="versicle"> ℣. </Typography>Reine a paz
-          dentro dos teus muros e a abundância nas tuas fortalezas.
+          aqueles que te amam.<Typography className="versicle"> ℣. </Typography>
+          Reine a paz dentro dos teus muros e a abundância nas tuas fortalezas.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 147, 12</Typography> Lauda, Jerúsalem, Dóminum:
-          lauda Deum tuum, Sion. Allelúja.
+          <Typography className="latin">Ps. 147, 12</Typography> Lauda,
+          Jerúsalem, Dóminum: lauda Deum tuum, Sion. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 147, 12</Typography> Louva o Senhor, ó
-          Jerusalém; louva o teu Deus, ó Sião. Aleluia.
+          <Typography className="vernacular">Sl. 147, 12</Typography> Louva o
+          Senhor, ó Jerusalém; louva o teu Deus, ó Sião. Aleluia.
         </Typography>
       </Language>
 
@@ -152,17 +153,17 @@ export default function PageUnidadecrista() {
       <Language>
         <Typography className="latin">
           Notus in Judǽa Deus, in Israël magnum nomen ejus.
-          <Typography className="versicle"> ℣. </Typography>Et factus est in pace locus
-          ejus, et habitátio ejus in Sion.
-          <Typography className="versicle"> ℣. </Typography>Ibi confrégit poténtias árcuum,
-          scutum, gládium, et bellum.
+          <Typography className="versicle"> ℣. </Typography>Et factus est in
+          pace locus ejus, et habitátio ejus in Sion.
+          <Typography className="versicle"> ℣. </Typography>Ibi confrégit
+          poténtias árcuum, scutum, gládium, et bellum.
         </Typography>
         <Typography className="vernacular">
           Deus é conhecido na Judeia: e o seu nome é grande em Israel.
           <Typography className="versicle"> ℣. </Typography>
           Sua habitação é no lugar da paz; a sua morada é em Sião.
-          <Typography className="versicle"> ℣. </Typography>Ali quebrou as forças do arco,
-          do escudo, da espada e dos combates.
+          <Typography className="versicle"> ℣. </Typography>Ali quebrou as
+          forças do arco, do escudo, da espada e dos combates.
         </Typography>
       </Language>
 
@@ -173,19 +174,20 @@ export default function PageUnidadecrista() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 147, 12</Typography> Lauda, Jerúsalem, Dóminum:
-          lauda Deum tuum, Sion. Allelúja.
+          <Typography className="latin">Ps. 147, 12</Typography> Lauda,
+          Jerúsalem, Dóminum: lauda Deum tuum, Sion. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">ibid., 14</Typography> Quid pósuit fines tuos pacem, et
-          ádipe fruménti sátiat te. Allelúja.
+          <Typography className="em">ibid., 14</Typography> Quid pósuit fines
+          tuos pacem, et ádipe fruménti sátiat te. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ps. 147, 12</Typography> Louva o Senhor, ó
-          Jerusalém; louva o teu Deus, ó Sião. Aleluia.
+          <Typography className="vernacular">Ps. 147, 12</Typography> Louva o
+          Senhor, ó Jerusalém; louva o teu Deus, ó Sião. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">ibid., 14</Typography> Foi Ele quem estabeleceu a paz
-          nas tuas fronteiras; e te sacia com a flor da farinha. Aleluia.
+          <Typography className="em">ibid., 14</Typography> Foi Ele quem
+          estabeleceu a paz nas tuas fronteiras; e te sacia com a flor da
+          farinha. Aleluia.
         </Typography>
       </Language>
 
@@ -195,12 +197,12 @@ export default function PageUnidadecrista() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Sublevátis Jesus oculis in cœlum, dixit: Pater

@@ -57,9 +57,10 @@ export default function Page0202() {
           sanitátem córporum et animárum, sive in terra sive in aquis, per
           invocatiónem tui sanctíssimi nóminis et per intercessiónem beátæ Maríæ
           semper Vírginis, cujus hódie festa devóte celebrántur, et per preces
-          ómnium Sanctórum tuórum, bene <Typography className="cross"> ✠ </Typography>{" "}
-          dícere et sancti <Typography className="cross"> ✠ </Typography> ficáre dignéris:
-          et hujus plebis tuæ, quæ illas honorífice in mánibus desíderat portare
+          ómnium Sanctórum tuórum, bene{" "}
+          <Typography className="cross"> ✠ </Typography> dícere et sancti{" "}
+          <Typography className="cross"> ✠ </Typography> ficáre dignéris: et
+          hujus plebis tuæ, quæ illas honorífice in mánibus desíderat portare
           teque cantando laudare, exáudias voces de cœlo sancto tuo et de sede
           majestátis tuæ: et propítius sis ómnibus clamántibus ad te, quos
           redemísti pretióso Sánguine Fílii tui: Qui tecum...
@@ -71,14 +72,15 @@ export default function Page0202() {
           justo Simeão: humildemente Vos rogamos, pela invocação do vosso santo
           nome, pela intercessão da B. Maria, sempre Virgem, cuja festividade
           hoje celebramos piedosamente, e pelas preces de todos vossos Santos,
-          que Vos digneis benzer <Typography className="cross"> ✠ </Typography> e santificar{" "}
-          <Typography className="cross"> ✠ </Typography> estas velas para uso dos homens e
-          para a saúde dos corpos e das almas, quer na terra, quer no mar. Ouvi,
-          lá do vosso celestial santuário e do trono da vossa majestade, os
-          votos do vosso povo, aqui presente, que deseja levar reverentemente em
-          suas mãos estas velas e louvar-Vos com seus cânticos; enfim, sede
-          propício para com todos que por Vós clamam, os quais resgatastes pelo
-          precioso Sangue do vosso Filho: Que, sendo Deus, convosco vive e...
+          que Vos digneis benzer <Typography className="cross"> ✠ </Typography>{" "}
+          e santificar <Typography className="cross"> ✠ </Typography> estas
+          velas para uso dos homens e para a saúde dos corpos e das almas, quer
+          na terra, quer no mar. Ouvi, lá do vosso celestial santuário e do
+          trono da vossa majestade, os votos do vosso povo, aqui presente, que
+          deseja levar reverentemente em suas mãos estas velas e louvar-Vos com
+          seus cânticos; enfim, sede propício para com todos que por Vós clamam,
+          os quais resgatastes pelo precioso Sangue do vosso Filho: Que, sendo
+          Deus, convosco vive e...
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -97,25 +99,25 @@ export default function Page0202() {
           sancti Simeónis in templo sancto tuo suscipiéndum præsentásti: tuam
           súpplices deprecámur cleméntiam; ut has candélas, quas nos fámuli tui,
           in tui nóminis magnificéntiam suscipiéntes, gestáre cúpimus luce
-          accénsas, bene <Typography className="cross"> ✠ </Typography> dícere et sancti{" "}
-          <Typography className="cross"> ✠ </Typography> ficáre atque lúmine supérnæ
-          benedictiónis accéndere dignéris: quaténus eas tibi Dómino, Deo
-          nostro, offeréndo digni, et sancto igne dulcíssimæ caritátis tuæ
-          succénsi, in templo sancto glóriæ tuæ repræsentári mereámur. Per
-          eúndem Dóminum nostrum...
+          accénsas, bene <Typography className="cross"> ✠ </Typography> dícere
+          et sancti <Typography className="cross"> ✠ </Typography> ficáre atque
+          lúmine supérnæ benedictiónis accéndere dignéris: quaténus eas tibi
+          Dómino, Deo nostro, offeréndo digni, et sancto igne dulcíssimæ
+          caritátis tuæ succénsi, in templo sancto glóriæ tuæ repræsentári
+          mereámur. Per eúndem Dóminum nostrum...
         </Typography>
         <Typography className="vernacular">
           Deus omnipotente e eterno, que hoje apresentastes o vosso Filho
           Unigénito no vosso templo para que fosse recebido nos braços de S.
           Simeão, incessantemente suplicamos à vossa clemência se digne benzer{" "}
           <Typography className="cross"> ✠ </Typography>, santificar{" "}
-          <Typography className="cross"> ✠ </Typography> e acender com a luz da vossa bênção
-          estas velas que nós, vossos servos, desejamos levar acesas, depois de
-          as havermos recebido para honra do vosso santo Nome, a fim de que,
-          oferecendo-as a Vós, que sois nosso Deus e Senhor, nos tornemos dignos
-          e sejamos abrasados no fogo sagrado da vossa suavíssima caridade, e
-          depois mereçamos ser apresentados no templo sagrado da vossa glória.
-          Pelo mesmo...
+          <Typography className="cross"> ✠ </Typography> e acender com a luz da
+          vossa bênção estas velas que nós, vossos servos, desejamos levar
+          acesas, depois de as havermos recebido para honra do vosso santo Nome,
+          a fim de que, oferecendo-as a Vós, que sois nosso Deus e Senhor, nos
+          tornemos dignos e sejamos abrasados no fogo sagrado da vossa
+          suavíssima caridade, e depois mereçamos ser apresentados no templo
+          sagrado da vossa glória. Pelo mesmo...
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -131,32 +133,33 @@ export default function Page0202() {
         </Typography>
         <Typography className="latin">
           Dómine Jesu Christe, lux vera, quæ illúminas omnem hóminem veniéntem
-          in hunc mundum: effúnde bene <Typography className="cross"> ✠ </Typography>{" "}
-          dictiónem tuam super hos céreos, et sancti{" "}
-          <Typography className="cross"> ✠ </Typography> fica eos lúmine grátiæ tuæ, et
-          concéde propítius; ut, sicut hæc luminária igne visíbili accénsa
-          noctúrnas depéllunt ténebras; ita corda nostra invisíbili igne, id
-          est, Sancti Spíritus splendóre illustráta, ómnium vitiórum cæcitáte
-          cáreant: ut, purgáto mentis óculo, ea cérnere póssimus, quæ tibi sunt
-          plácita et nostræ salúti utília; quaténus post hujus sǽculi caliginósa
-          discrímina ad lucem indeficiéntem perveníre mereámur. Per te, Christe
-          Jesu, Salvátor mundi, qui in Trinitáte perfécta vivis et regnas Deus,
-          per ómnia sǽcula sæculórum. Senhor Jesus Cristo, luz verdadeira que
-          ilumina todo o homem que vem a este mundo, lançai a vossa bênção{" "}
+          in hunc mundum: effúnde bene{" "}
+          <Typography className="cross"> ✠ </Typography> dictiónem tuam super
+          hos céreos, et sancti <Typography className="cross"> ✠ </Typography>{" "}
+          fica eos lúmine grátiæ tuæ, et concéde propítius; ut, sicut hæc
+          luminária igne visíbili accénsa noctúrnas depéllunt ténebras; ita
+          corda nostra invisíbili igne, id est, Sancti Spíritus splendóre
+          illustráta, ómnium vitiórum cæcitáte cáreant: ut, purgáto mentis
+          óculo, ea cérnere póssimus, quæ tibi sunt plácita et nostræ salúti
+          utília; quaténus post hujus sǽculi caliginósa discrímina ad lucem
+          indeficiéntem perveníre mereámur. Per te, Christe Jesu, Salvátor
+          mundi, qui in Trinitáte perfécta vivis et regnas Deus, per ómnia
+          sǽcula sæculórum. Senhor Jesus Cristo, luz verdadeira que ilumina todo
+          o homem que vem a este mundo, lançai a vossa bênção{" "}
           <Typography className="cross"> ✠ </Typography>
         </Typography>
         <Typography className="vernacular">
-          sobre estas velas e santificai-as <Typography className="cross"> ✠ </Typography>{" "}
-          com a luz da vossa graça; permiti benigno que, assim como estes
-          círios, brilhando com luz visível, afastam as trevas da noite, assim
-          também os nossos corações, iluminados com o fogo invisível, isto é,
-          ilustrados com o esplendor do Espírito Santo sejam livres da cegueira
-          de todos os vícios, a fim de que, purificados os olhos da nossa alma,
-          possamos conhecer o que Vos é agradável e útil à nossa salvação; e,
-          assim, após as perigosas trevas deste mundo, mereçamos alcançar a
-          posse da luz eterna. Por Vós, ó Jesus Cristo, Salvador do mundo, que,
-          sendo Deus, na Trindade perfeita, viveis e reinais por todos os
-          séculos dos séculos.
+          sobre estas velas e santificai-as{" "}
+          <Typography className="cross"> ✠ </Typography> com a luz da vossa
+          graça; permiti benigno que, assim como estes círios, brilhando com luz
+          visível, afastam as trevas da noite, assim também os nossos corações,
+          iluminados com o fogo invisível, isto é, ilustrados com o esplendor do
+          Espírito Santo sejam livres da cegueira de todos os vícios, a fim de
+          que, purificados os olhos da nossa alma, possamos conhecer o que Vos é
+          agradável e útil à nossa salvação; e, assim, após as perigosas trevas
+          deste mundo, mereçamos alcançar a posse da luz eterna. Por Vós, ó
+          Jesus Cristo, Salvador do mundo, que, sendo Deus, na Trindade
+          perfeita, viveis e reinais por todos os séculos dos séculos.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -173,18 +176,20 @@ export default function Page0202() {
         <Typography className="latin">
           Omnípotens sempitérne Deus, qui per Móysen fámulum tuum puríssimum
           ólei liquórem ad luminária ante conspéctum tuum júgiter concinnánda
-          præparári jussísti: bene <Typography className="cross"> ✠ </Typography> dictiónis
-          tuæ grátiam super hos céreos benígnus infúnde; quaténus sic
-          adminístrent lumen extérius, ut, te donánte, lumen Spíritus tui
-          nostris non desit méntibus intérius. Per Dóminum...
+          præparári jussísti: bene{" "}
+          <Typography className="cross"> ✠ </Typography> dictiónis tuæ grátiam
+          super hos céreos benígnus infúnde; quaténus sic adminístrent lumen
+          extérius, ut, te donánte, lumen Spíritus tui nostris non desit
+          méntibus intérius. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Deus omnipotente e eterno, que mandastes preparar por Moisés, vosso
           servo, óleo puríssimo para as lâmpadas, que incessantemente deviam
           arder na Vasa presença, infundi benigno a graça da vossa bênção{" "}
-          <Typography className="cross"> ✠ </Typography> nestas velas, de sorte que,
-          dando-nos elas a luz exterior, não falte interiormente às nossas almas
-          pela vossa graça a luz do vosso Espírito Santo. Por nosso Senhor...
+          <Typography className="cross"> ✠ </Typography> nestas velas, de sorte
+          que, dando-nos elas a luz exterior, não falte interiormente às nossas
+          almas pela vossa graça a luz do vosso Espírito Santo. Por nosso
+          Senhor...
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -218,7 +223,9 @@ export default function Page0202() {
         </Typography>
       </Language>
 
-      <Typography className="aside">Durante a distribuição das velas canta-se:</Typography>
+      <Typography className="aside">
+        Durante a distribuição das velas canta-se:
+      </Typography>
 
       <H3 text="Antífona" />
 
@@ -251,7 +258,9 @@ export default function Page0202() {
         <Typography className="vernacular">
           <Typography className="vernacular">Antífona</Typography> A luz...
         </Typography>
-        <Typography className="latin">Quia vidérunt óculi mei salutáre tuum.</Typography>
+        <Typography className="latin">
+          Quia vidérunt óculi mei salutáre tuum.
+        </Typography>
         <Typography className="vernacular">
           Pois os meus olhos já viram a vossa salvação.
         </Typography>
@@ -310,13 +319,14 @@ export default function Page0202() {
         <Typography className="latin">
           Exsúrge, Dómine, ádjuva nos: et líbera nos propter nomen tuum. Ps.
           ibid., 2 Deus, áuribus nostris audívimus: patres nostri annuntiavérunt
-          nobis.<Typography className="versicle"> ℣. </Typography>Glória Patri...
+          nobis.<Typography className="versicle"> ℣. </Typography>Glória
+          Patri...
         </Typography>
         <Typography className="vernacular">
           Erguei-Vos, Senhor, auxiliai-nos e salvai-nos, pela honra do vosso
           nome. Ó Deus, ouvimos com nossos ouvidos, nossos pais contaram-nos as
-          vossas maravilhas.<Typography className="versicle"> ℣. </Typography>Glória ao
-          Pai...
+          vossas maravilhas.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
         <Typography className="latin">Exsúrge, Dómine...</Typography>
         <Typography className="vernacular">Erguei-Vos, Senhor...</Typography>
@@ -376,17 +386,19 @@ export default function Page0202() {
         <Typography className="latin">
           Suscépimus, Deus, misericórdiam tuam in médio templi tui: secúndum
           nomen tuum, Deus, ita et laus tua in fines terræ: justítia plena est
-          déxtera tua. <Typography className="latin">Ps. ibid., 2</Typography> Magnus
-          Dóminus, et laudábilis nimis: in civitáte Dei nostri, in monte sancto
-          ejus.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+          déxtera tua. <Typography className="latin">Ps. ibid., 2</Typography>{" "}
+          Magnus Dóminus, et laudábilis nimis: in civitáte Dei nostri, in monte
+          sancto ejus.<Typography className="versicle"> ℣. </Typography>Gloria
+          Patri...
         </Typography>
         <Typography className="vernacular">
           Recebemos, ó Deus, a vossa misericórdia no meio do vosso templo. Assim
           como o vosso nome, assim os vossos louvores, ó Deus, ressoam até às
           extremidades da terra: a vossa dextra está cheia de justiça.{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> O Senhor é grande e
-          digno de todos os louvores, na cidade do nosso Deus, na sua montanha
-          sagrada.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. ibid., 2</Typography> O Senhor
+          é grande e digno de todos os louvores, na cidade do nosso Deus, na sua
+          montanha sagrada.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -413,7 +425,9 @@ export default function Page0202() {
 
       <Language>
         <Typography className="latin">Léctio Malachíæ Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do Profeta Malaquias.</Typography>
+        <Typography className="vernacular">
+          Lição do Profeta Malaquias.
+        </Typography>
         <Typography className="latin">
           Hæc dicit Dóminus Deus: Ecce, ego mitto Angelum meum, et præparábit
           viam ante fáciem meam. Et statim véniet ad templum suum Dominátor,
@@ -449,8 +463,8 @@ export default function Page0202() {
         <Typography className="latin">
           Suscépimus, Deus, misericórdiam tuam in médio templi tui: secúndum
           nomen tuum, Deus, ita et laus tua in fines terræ.
-          <Typography className="versicle"> ℣. </Typography>Sicut audívimus, ita et vídimus
-          m civitáte Dei nostri, in monte sancto ejus.
+          <Typography className="versicle"> ℣. </Typography>Sicut audívimus, ita
+          et vídimus m civitáte Dei nostri, in monte sancto ejus.
         </Typography>
         <Typography className="vernacular">
           Recebemos, ó Deus, a vossa misericórdia no meio do vosso templo. Assim
@@ -459,12 +473,12 @@ export default function Page0202() {
           cidade do nosso Deus, na sua montanha sagrada.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Senex Púerum
-          portábat: Puer autem senem regébat. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Senex Púerum portábat: Puer autem senem regébat. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O ancião
-          segurava o Menino, mas o Menino conduzia o ancião. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O
+          ancião segurava o Menino, mas o Menino conduzia o ancião. Aleluia.
         </Typography>
       </Language>
 
@@ -479,19 +493,20 @@ export default function Page0202() {
       <Language>
         <Typography className="latin">
           Nunc dimíttis servum tuum, Dómine, secúndum verbum tuum in pace.
-          <Typography className="versicle"> ℣. </Typography>Quia vidérunt óculi mei salutáre
-          tuum.<Typography className="versicle"> ℣. </Typography>Quod parásti ante fáciem
-          ómnium populórum.
+          <Typography className="versicle"> ℣. </Typography>Quia vidérunt óculi
+          mei salutáre tuum.<Typography className="versicle"> ℣. </Typography>
+          Quod parásti ante fáciem ómnium populórum.
           <Typography className="versicle"> ℣. </Typography>
           Lumen ad revelatiónem géntium et glóriam plebis tuæ Israël.
         </Typography>
         <Typography className="vernacular">
           Agora deixareis, Senhor, ir em paz o vosso servo.
-          <Typography className="versicle"> ℣. </Typography>Pois os meus olhos já viram a
-          vossa salvação:<Typography className="versicle"> ℣. </Typography>Que preparastes
+          <Typography className="versicle"> ℣. </Typography>Pois os meus olhos
+          já viram a vossa salvação:
+          <Typography className="versicle"> ℣. </Typography>Que preparastes
           diante dos olhos de todos os povos.
-          <Typography className="versicle"> ℣. </Typography>A luz que iluminará as nações e
-          a glória de Israel, vosso povo.
+          <Typography className="versicle"> ℣. </Typography>A luz que iluminará
+          as nações e a glória de Israel, vosso povo.
         </Typography>
       </Language>
 
@@ -501,12 +516,12 @@ export default function Page0202() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Postquam impleti sunt dies purgatiónis Maríæ,

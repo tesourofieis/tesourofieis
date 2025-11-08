@@ -17,8 +17,9 @@ export default function PagePent173() {
           Exsultáte Deo, adjutóri nostro: jubiláte Deo Jacob: súmite psalmum
           jucúndum cum cíthara: cánite in inítio mensis tuba, quia præcéptum in
           Israël est, et judícium Deo Jacob.{" "}
-          <Typography className="latin">Ps 80:6</Typography> Testimónium in Joseph pósuit
-          illud, cum exíret de terra Ægýpti: linguam, quam non nóverat, audívit.
+          <Typography className="latin">Ps 80:6</Typography> Testimónium in
+          Joseph pósuit illud, cum exíret de terra Ægýpti: linguam, quam non
+          nóverat, audívit.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
@@ -26,9 +27,9 @@ export default function PagePent173() {
           júblio em honra de Deus de Jacob: tocai o saltério e a cítara em tom
           harmonioso: fazei soar a trombeta no princípio do mês, pois é este o
           mandamento dado a Israel; é o preceito imposto por Deus de Jabob.{" "}
-          <Typography className="vernacular">Sl 80:6</Typography> O Senhor impôs este
-          preceito a José, quando saía do Egipto, onde ouvia uma língua que não
-          compreendia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="vernacular">Sl 80:6</Typography> O Senhor impôs
+          este preceito a José, quando saía do Egipto, onde ouvia uma língua que
+          não compreendia.<Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
       </Language>
@@ -92,8 +93,8 @@ export default function PagePent173() {
         <Typography className="vernacular">
           Quem há que seja como o Senhor, nosso Deus, que habita nos altos dos
           céus: e olha para os humildes no céus e na terra?
-          <Typography className="versicle"> ℣. </Typography>Ele livra o indigente da lama e
-          o pobre da montureira!
+          <Typography className="versicle"> ℣. </Typography>Ele livra o
+          indigente da lama e o pobre da montureira!
         </Typography>
       </Language>
 
@@ -117,7 +118,9 @@ export default function PagePent173() {
 
       <Language>
         <Typography className="latin">Léctio libri Esdræ.</Typography>
-        <Typography className="vernacular">Lição do Livro de Esdras.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro de Esdras.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Congregátus est omnis pópulus quasi vir unus ad
           platéam, quæ est ante portam aquárum: et dixérunt Esdræ scribæ, ut
@@ -183,8 +186,8 @@ export default function PagePent173() {
         <Typography className="vernacular">
           Bem-aventurada a nação que tem o Senhor como seu Deus: bem-aventurado
           o povo que o Senhor escolheu para sua herança.
-          <Typography className="versicle"> ℣. </Typography>A palavra do Senhor criou os
-          céus: e o sopro da sua boca criou espíritos celestiais.
+          <Typography className="versicle"> ℣. </Typography>A palavra do Senhor
+          criou os céus: e o sopro da sua boca criou espíritos celestiais.
         </Typography>
       </Language>
 
@@ -194,12 +197,12 @@ export default function PagePent173() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Marcum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Marcum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Marcos.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Marcos.
         </Typography>
         <Typography className="latin">
           In illo témpore: Respóndens unus de turba, dixit ad Jesum: Magíster,

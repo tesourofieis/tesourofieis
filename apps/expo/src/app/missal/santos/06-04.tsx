@@ -17,15 +17,16 @@ export default function Page0604() {
         <Typography className="latin">
           Factum est cor meum tamquam cera liquéscens in médio ventris mei:
           quóniam zelus domus tuæ comédit me. (T.P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. 72, 1</Typography> Quam bonus Israël Deus: his,
-          qui recto sunt corde!<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 72, 1</Typography> Quam bonus Israël
+          Deus: his, qui recto sunt corde!
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O meu coração é como a cera: funde-se no meio do meu peito, pois o
           zelo da vossa Casa devora-me. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. 72, 1</Typography> Como Deus é bom para com
-          Israel! e para com aqueles que possuem coração recto!
+          <Typography className="vernacular">Sl. 72, 1</Typography> Como Deus é
+          bom para com Israel! e para com aqueles que possuem coração recto!
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -54,7 +55,9 @@ export default function Page0604() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Justus, si morte præoccupátus fúerit, in refrigério erit. Senéctus
           enim venerábilis est non diutúrna, neque annórum número computáta:
@@ -90,47 +93,51 @@ export default function Page0604() {
         <Typography className="latin">
           Quemádmodum desíderat cervus ad fontes aquárum: ita desíderat ánima
           mea ad te, Deus.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. ibid., 3</Typography> Sitívit ánima mea ad Deum
-          fortem vivum.
+          <Typography className="latin">Ps. ibid., 3</Typography> Sitívit ánima
+          mea ad Deum fortem vivum.
         </Typography>
         <Typography className="vernacular">
           Assim como o veado suspira pelas fontes das águas, assim a minha alma
           suspira por Vós, ó Deus.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. ibid., 3</Typography> Minha alma tem sede
-          de Deus forte e vivo.
+          <Typography className="vernacular">Sl. ibid., 3</Typography> Minha
+          alma tem sede de Deus forte e vivo.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 72, 26</Typography> Defécit caro mea et cor
-          meum: Deus cordis mei, et pars mea Deus in ætérnum. Allelúja.
+          <Typography className="latin">Ps. 72, 26</Typography> Defécit caro mea
+          et cor meum: Deus cordis mei, et pars mea Deus in ætérnum. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 72, 26</Typography> Minha carne e o meu
-          coração desfalecem! Ó Deus, sois o Deus do meu coração e a minha
-          herança na eternidade. Aleluia.
+          <Typography className="vernacular">Sl. 72, 26</Typography> Minha carne
+          e o meu coração desfalecem! Ó Deus, sois o Deus do meu coração e a
+          minha herança na eternidade. Aleluia.
         </Typography>
       </Language>
 
-      <Typography className="aside">No T. Pascal omite-se o Gradual, e diz-se:</Typography>
+      <Typography className="aside">
+        No T. Pascal omite-se o Gradual, e diz-se:
+      </Typography>
 
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 64, 5</Typography> Beátus, quem elegísti et
-          assumpsísti: inhabitábit in átriis tuis. Allelúja.
+          <Typography className="latin">Ps. 64, 5</Typography> Beátus, quem
+          elegísti et assumpsísti: inhabitábit in átriis tuis. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. 111, 9</Typography> Dispérsit, dedit paupéribus:
-          justítia ejus manet in sǽculum sǽculi. Allelúja.
+          <Typography className="em">Ps. 111, 9</Typography> Dispérsit, dedit
+          paupéribus: justítia ejus manet in sǽculum sǽculi. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 64, 5</Typography> Bem-aventurado aquele
-          que escolhestes e elevastes, para que habitasse nos vossos átrios.
-          Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Sl. 111, 9</Typography> Distribuiu e deu esmola aos
-          pobres e a sua justiça permanecerá em todos os séculos. Aleluia.
+          <Typography className="vernacular">Sl. 64, 5</Typography>{" "}
+          Bem-aventurado aquele que escolhestes e elevastes, para que habitasse
+          nos vossos átrios. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Sl. 111, 9</Typography> Distribuiu e deu
+          esmola aos pobres e a sua justiça permanecerá em todos os séculos.
+          Aleluia.
         </Typography>
       </Language>
 

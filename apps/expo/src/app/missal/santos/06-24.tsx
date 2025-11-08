@@ -16,16 +16,17 @@ export default function Page0624() {
         <Typography className="latin">
           De ventre matris meæ vocávit me Dóminus in nómine meo: et pósuit os
           meum ut gládium acútum: sub teguménto manus suæ protéxit me, et pósuit
-          me quasi sagíttam eléctam. <Typography className="latin">Ps. 91, 2</Typography>{" "}
-          Bonum est confitéri Dómino: et psállere nómini tuo, Altíssime.
+          me quasi sagíttam eléctam.{" "}
+          <Typography className="latin">Ps. 91, 2</Typography> Bonum est
+          confitéri Dómino: et psállere nómini tuo, Altíssime.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Senhor chamou-me pelo meu nome quando eu ainda estava no seio da
           minha mãe: e Ele tornou a minha boca semelhante a uma espada aguçada,
           protegeu-me com a sombra da sua mão, dispondo-me como uma flecha
-          escolhida. <Typography className="vernacular">Sl. 91, 2</Typography> É bom louvar
-          o Senhor; e cantar o vosso nome, ó Altíssimo.
+          escolhida. <Typography className="vernacular">Sl. 91, 2</Typography> É
+          bom louvar o Senhor; e cantar o vosso nome, ó Altíssimo.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -86,25 +87,26 @@ export default function Page0624() {
       <Language>
         <Typography className="latin">
           Priusquam te formárem in útero, novi te: et ántequam exíres de ventre,
-          santificávi te.<Typography className="versicle"> ℣. </Typography>Misit Dóminus
-          manum suam, et tétigit os meum, et dixit mihi.
+          santificávi te.<Typography className="versicle"> ℣. </Typography>Misit
+          Dóminus manum suam, et tétigit os meum, et dixit mihi.
         </Typography>
         <Typography className="vernacular">
           Antes de te formar no seio de tua mãe, já te conhecia: e antes de
           saíres dele, já te santificara.
-          <Typography className="versicle"> ℣. </Typography>O Senhor estendeu a sua mão,
-          tocou com ela na minha boca e disse-me:
+          <Typography className="versicle"> ℣. </Typography>O Senhor estendeu a
+          sua mão, tocou com ela na minha boca e disse-me:
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Luc. 1, 76</Typography> Tu, puer, Prophéta Altíssimi
-          vocáberis: præíbis ante Dóminum paráre vias ejus. Allelúja.
+          <Typography className="latin">Luc. 1, 76</Typography> Tu, puer,
+          Prophéta Altíssimi vocáberis: præíbis ante Dóminum paráre vias ejus.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Lc. 1, 76</Typography> Tu, ó menino, serás
-          chamado Profeta do Altíssimo; pois caminharás adiante do Senhor para
-          preparar as suas vias. Aleluia.
+          <Typography className="vernacular">Lc. 1, 76</Typography> Tu, ó
+          menino, serás chamado Profeta do Altíssimo; pois caminharás adiante do
+          Senhor para preparar as suas vias. Aleluia.
         </Typography>
       </Language>
 
@@ -114,12 +116,12 @@ export default function Page0624() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           Elísabeth implétum est tempus pariéndi, et péperit fílium. Et

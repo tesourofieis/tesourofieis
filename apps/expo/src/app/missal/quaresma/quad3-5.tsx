@@ -17,16 +17,17 @@ export default function PageQuad35() {
         <Typography className="latin">
           Fac mecum, Dómine, signum in bonum: ut vídeant, qui me oderunt, et
           confundántur: quóniam tu, Dómine, adjuvísti me et consolátus es me.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Inclína, Dómine, aurem
-          tuam, et exáudi me: quóniam inops et pauper sum ego.
+          <Typography className="latin">Ps. ibid., 1</Typography> Inclína,
+          Dómine, aurem tuam, et exáudi me: quóniam inops et pauper sum ego.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Praticai, Senhor, um dos vossos prodígios em meu favor, para que meus
           inimigos contemplem o vosso poder e sejam confundidos; Pois Vós,
           Senhor, sois o meu auxílio e conforto.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Inclinai, Senhor, os
-          vossos ouvidos para mim e escutai-me; porque sou pobre e infeliz.
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Inclinai,
+          Senhor, os vossos ouvidos para mim e escutai-me; porque sou pobre e
+          infeliz.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -52,7 +53,9 @@ export default function PageQuad35() {
 
       <Language>
         <Typography className="latin">Léctio libri Numeri.</Typography>
-        <Typography className="vernacular">Lição do Livro dos Números.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro dos Números.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Convenérunt fílii Israël adversum Móysen et Aaron: et
           versi in seditiónem, dixérunt: Date nobis aquam, ut bibámus.
@@ -108,14 +111,15 @@ export default function PageQuad35() {
         <Typography className="latin">
           In Deo sperávit cor meum, et adjútus sum: et reflóruit caro mea, et ex
           voluntáte mea confitébor illi.
-          <Typography className="versicle"> ℣. </Typography>Ad te, Dómine, clamávi: Deus
-          meus, ne síleas, ne discédas a me.
+          <Typography className="versicle"> ℣. </Typography>Ad te, Dómine,
+          clamávi: Deus meus, ne síleas, ne discédas a me.
         </Typography>
         <Typography className="vernacular">
           O meu coração esperou em Deus e foi socorrido. Então a minha carne
           rejuvenesceu. Por isso hei-de celebrar com alegria os louvores do
-          Senhor.<Typography className="versicle"> ℣. </Typography>A Vós, Senhor, clamei:
-          meu Deus, não fecheis os ouvidos, nem Vos afasteis de mim.
+          Senhor.<Typography className="versicle"> ℣. </Typography>A Vós,
+          Senhor, clamei: meu Deus, não fecheis os ouvidos, nem Vos afasteis de
+          mim.
         </Typography>
       </Language>
 
@@ -132,12 +136,12 @@ export default function PageQuad35() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Venit Jesus in civitátem Samaríæ, quæ dícitur Sichar:

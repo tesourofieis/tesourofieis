@@ -71,7 +71,9 @@ export default function Page107() {
           Meu é Galaad e meu é Manassés: * e Efraim é a segurança da minha
           cabeça.
         </Typography>
-        <Typography className="latin">Juda rex meus: * Moab lebes spei meæ.</Typography>
+        <Typography className="latin">
+          Juda rex meus: * Moab lebes spei meæ.
+        </Typography>
         <Typography className="vernacular">
           Judá é o meu rei: * o Moab a bacia da minha esperança.
         </Typography>

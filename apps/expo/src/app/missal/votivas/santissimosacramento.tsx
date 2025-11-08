@@ -25,20 +25,21 @@ export default function PageSantissimosacramento() {
       <Language>
         <Typography className="latin">
           Ab ortu solis usque ad occásum, magnum est nomen meum in géntibus.
-          <Typography className="versicle"> ℣. </Typography>Et in omni loco sacrificátur, et
-          offértur nómini meo oblátio munda: quia magnum est nomen meum in
-          géntibus.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Prov. 9, 5</Typography> Veníte, comédite panem meum:
-          et bíbite vinum, quod míscui vobis.
+          <Typography className="versicle"> ℣. </Typography>Et in omni loco
+          sacrificátur, et offértur nómini meo oblátio munda: quia magnum est
+          nomen meum in géntibus.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Prov. 9, 5</Typography> Veníte, comédite
+          panem meum: et bíbite vinum, quod míscui vobis.
         </Typography>
         <Typography className="vernacular">
           Desde o nascente até ao poente o meu nome é grande entre as nações.
-          <Typography className="versicle"> ℣. </Typography>Em todos os lugares fazem-se
-          sacrifícios e oferece-se em honra do meu nome uma vítima pura; pois o
-          meu nome é grande entre as nações.
+          <Typography className="versicle"> ℣. </Typography>Em todos os lugares
+          fazem-se sacrifícios e oferece-se em honra do meu nome uma vítima
+          pura; pois o meu nome é grande entre as nações.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Pr. 9, 5</Typography> Vinde, comei o meu pão e
-          bebei o vinho, que vos preparei.
+          <Typography className="vernacular">Pr. 9, 5</Typography> Vinde, comei
+          o meu pão e bebei o vinho, que vos preparei.
         </Typography>
       </Language>
 
@@ -49,21 +50,21 @@ export default function PageSantissimosacramento() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Luc. 24, 35</Typography> Cognovérunt discípuli
-          Dóminum Jesum in fractióne panis. Allelúja.
+          <Typography className="latin">Luc. 24, 35</Typography> Cognovérunt
+          discípuli Dóminum Jesum in fractióne panis. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Joann. 6, 56-57</Typography> Caro mea vere est cibus,
-          et sanguis meus vere est potus: qui mánducat meam carnem, et bibit
-          meum sánguinem, in me manet, et ego in eo. Allelúja.
+          <Typography className="em">Joann. 6, 56-57</Typography> Caro mea vere
+          est cibus, et sanguis meus vere est potus: qui mánducat meam carnem,
+          et bibit meum sánguinem, in me manet, et ego in eo. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Lc. 24, 35</Typography> Os discípulos
-          reconheceram o Senhor pela fracção do pão. Aleluia.
+          <Typography className="vernacular">Lc. 24, 35</Typography> Os
+          discípulos reconheceram o Senhor pela fracção do pão. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Jo. 6, 56-57</Typography> Minha Carne é verdadeira
-          comida e o meu Sangue verdadeira bebida. Aquele que come a minha Carne
-          e bebe o meu Sangue, permanece em mim e Eu nele. Aleluia.
+          <Typography className="em">Jo. 6, 56-57</Typography> Minha Carne é
+          verdadeira comida e o meu Sangue verdadeira bebida. Aquele que come a
+          minha Carne e bebe o meu Sangue, permanece em mim e Eu nele. Aleluia.
         </Typography>
       </Language>
     </PageWrapper>

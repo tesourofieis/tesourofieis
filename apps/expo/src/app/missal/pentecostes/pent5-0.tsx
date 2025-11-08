@@ -16,16 +16,16 @@ export default function PagePent50() {
         <Typography className="latin">
           Exáudi, Dómine, vocem meam, qua clamávi ad te: adjútor meus esto, ne
           derelínquas me neque despícias me, Deus, salutáris meus.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Dóminus illuminátio mea et
-          salus mea, quem timébo?
+          <Typography className="latin">Ps. ibid., 1</Typography> Dóminus
+          illuminátio mea et salus mea, quem timébo?
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Ouvi, Senhor, a oração com que Vos imploro. Sede o meu auxílio: me não
           abandoneis, nem me desprezeis, ó meu Deus e meu Salvador!{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> O Senhor é a minha
-          luz e a minha salvação: a quem, pois, temerei?
+          <Typography className="vernacular">Sl. ibid., 1</Typography> O Senhor
+          é a minha luz e a minha salvação: a quem, pois, temerei?
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -54,8 +54,12 @@ export default function PagePent50() {
       <Typography className="em">1 Pe. 3, 8-15</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Petri Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Pedro.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Omnes unánimes in oratióne estóte, compatiéntes,
           fraternitátis amatóres, misericórdes, modésti, húmiles: non reddéntes
@@ -100,19 +104,21 @@ export default function PagePent50() {
         </Typography>
         <Typography className="vernacular">
           Ó Deus, que sois o nosso protector, fitai-nos; volvei vossos olhos
-          para os vossos servos.<Typography className="versicle"> ℣. </Typography>
+          para os vossos servos.
+          <Typography className="versicle"> ℣. </Typography>
           Senhor, Deus dos exércitos, ouvi as preces dos vossos servos.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 20, 1</Typography> Dómine, in virtúte tua
-          lætábitur rex: et super salutáre tuum exsultábit veheménter. Allelúja.
+          <Typography className="latin">Ps. 20, 1</Typography> Dómine, in
+          virtúte tua lætábitur rex: et super salutáre tuum exsultábit
+          veheménter. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 20, 1</Typography> Senhor, o rei
-          regozija-se com vosso poder, e, vendo-se salvo por Vós, exultará em
-          transportes de alegria! Aleluia.
+          <Typography className="vernacular">Sl. 20, 1</Typography> Senhor, o
+          rei regozija-se com vosso poder, e, vendo-se salvo por Vós, exultará
+          em transportes de alegria! Aleluia.
         </Typography>
       </Language>
 
@@ -122,12 +128,12 @@ export default function PagePent50() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Nisi abundáverit

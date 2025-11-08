@@ -30,15 +30,16 @@ export default function Page0921() {
         <Typography className="latin">
           Os justi meditábitur sapiéntiam, et lingua ejus loquétur judíci‚ um:
           lex Dei ejus in corde ipsíus.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Noli æmulári in
-          malignántibus: neque zeláveris faciéntes iniquitátem.
+          <Typography className="latin">Ps. ibid., 1</Typography> Noli æmulári
+          in malignántibus: neque zeláveris faciéntes iniquitátem.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           A boca do justo falará com sabedoria e a sua língua proclamará a
           justiça. A lei do seu Deus está no seu coração.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Não vos irriteis
-          contra os maus, nem tenhais inveja daqueles que cometem iniquidades.
+          <Typography className="vernacular">Sl. ibid., 1</Typography> Não vos
+          irriteis contra os maus, nem tenhais inveja daqueles que cometem
+          iniquidades.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -65,7 +66,9 @@ export default function Page0921() {
 
       <Language>
         <Typography className="latin">Léctio Ezechiélis Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do Profeta Ezequiel.</Typography>
+        <Typography className="vernacular">
+          Lição do Profeta Ezequiel.
+        </Typography>
         <Typography className="latin">
           Similitúdo vultus quátuor animálium: fácies hóminis, et fácies leónis
           a dextris ipsórum quátuor: fácies autem bovis a sinístris ipsórum
@@ -106,16 +109,17 @@ export default function Page0921() {
         </Typography>
         <Typography className="vernacular">
           Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em
-          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua descendência
-          será poderosa na terra; pois a geração dos justos será abençoada.
+          obedecer-Lhe.<Typography className="versicle"> ℣. </Typography>Sua
+          descendência será poderosa na terra; pois a geração dos justos será
+          abençoada.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Te gloriosus
-          Apostolórum chorus laudat, Dómine. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Te gloriosus Apostolórum chorus laudat, Dómine. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O coro glorioso
-          dos Apóstolos Vos louva, ó Senhor. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O
+          coro glorioso dos Apóstolos Vos louva, ó Senhor. Aleluia.
         </Typography>
       </Language>
 
@@ -125,12 +129,12 @@ export default function Page0921() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Vidit Jesus hóminem sedéntem in telónio, Matthǽum

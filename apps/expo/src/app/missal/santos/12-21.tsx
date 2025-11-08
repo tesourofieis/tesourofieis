@@ -35,10 +35,11 @@ export default function Page1221() {
       <Language>
         <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confórtátus est
-          principatus eórum. <Typography className="latin">Ps. ibid., 1-2</Typography>{" "}
-          Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et
-          resurrectiónem meam.<Typography className="versicle"> ℣. </Typography>Gloria
-          Patri...
+          principatus eórum.{" "}
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Dómine,
+          probásti me et cognovísti me: tu cognovísti sessiónem meam et
+          resurrectiónem meam.<Typography className="versicle"> ℣. </Typography>
+          Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Eu vejo, ó Deus, que honrastes largamente os vossos amigos: e que seu
@@ -101,8 +102,8 @@ export default function Page1221() {
       <Language>
         <Typography className="latin">
           Nimis honorati sunt amíci tui, Deus: nimis confortátus est principátus
-          eórum.<Typography className="versicle"> ℣. </Typography>Dinumerábo eos, et super
-          arénam multiplicabúntur.
+          eórum.<Typography className="versicle"> ℣. </Typography>Dinumerábo
+          eos, et super arénam multiplicabúntur.
         </Typography>
         <Typography className="vernacular">
           Honrais largamente os vossos amigos, ó Deus; e o seu poder
@@ -111,14 +112,14 @@ export default function Page1221() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 32, 1</Typography> Gaudéte, justi, in Dómino:
-          rectos decet collaudátio. Allelúja.
+          <Typography className="latin">Ps. 32, 1</Typography> Gaudéte, justi,
+          in Dómino: rectos decet collaudátio. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 32, 1</Typography> Ó justos, alegrai-vos no
-          Senhor; pois aos corações rectos convém celebrar os louvores do
-          Senhor. Aleluia.
+          <Typography className="vernacular">Sl. 32, 1</Typography> Ó justos,
+          alegrai-vos no Senhor; pois aos corações rectos convém celebrar os
+          louvores do Senhor. Aleluia.
         </Typography>
       </Language>
 
@@ -128,12 +129,12 @@ export default function Page1221() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Thomas, unus ex duódecim, qui dícitur Dídymus, non

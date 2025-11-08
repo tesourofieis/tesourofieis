@@ -16,17 +16,19 @@ export default function PagePent140() {
         <Typography className="latin">
           Protéctor noster, áspice, Deus, et réspice in fáciem Christi tui: quia
           mélior est dies una in átriis tuis super mília.{" "}
-          <Typography className="latin">Ps. ibid., 2-3</Typography> Quam dilécta tabernácula
-          tua, Dómine virtútum! concupíscit, et déficit ánima mea in átria
-          Dómini.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+          <Typography className="latin">Ps. ibid., 2-3</Typography> Quam dilécta
+          tabernácula tua, Dómine virtútum! concupíscit, et déficit ánima mea in
+          átria Dómini.<Typography className="versicle"> ℣. </Typography>Gloria
+          Patri...
         </Typography>
         <Typography className="vernacular">
           Ó Deus, nosso protector, olhai para nós e fitai a face do vosso
           Cristo: É melhor passar um só dia nos vossos átrios do que mil em
-          outros lugares. <Typography className="vernacular">Sl. ibid., 2-3</Typography>{" "}
-          Como são amáveis os vossos tabernáculos, Senhor dos exércitos! Minha
-          alma suspira pelos átrios do Senhor e desfalece de saudade ao pensar
-          neles.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          outros lugares.{" "}
+          <Typography className="vernacular">Sl. ibid., 2-3</Typography> Como
+          são amáveis os vossos tabernáculos, Senhor dos exércitos! Minha alma
+          suspira pelos átrios do Senhor e desfalece de saudade ao pensar neles.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
@@ -100,24 +102,24 @@ export default function PagePent140() {
       <Language>
         <Typography className="latin">
           Bonum est confidére in Dómino, quam confidére in hómine.
-          <Typography className="versicle"> ℣. </Typography>Bonum est speráre in Dómino,
-          quam speráre in princípibus.
+          <Typography className="versicle"> ℣. </Typography>Bonum est speráre in
+          Dómino, quam speráre in princípibus.
         </Typography>
         <Typography className="vernacular">
           É melhor confiar no Senhor do que nos homens.
-          <Typography className="versicle"> ℣. </Typography>É melhor esperar em Deus do que
-          nos príncipes.
+          <Typography className="versicle"> ℣. </Typography>É melhor esperar em
+          Deus do que nos príncipes.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 94, 1</Typography> Veníte, exsultémus Dómino,
-          jubilémus Deo, salutári nostro. Allelúja.
+          <Typography className="latin">Ps. 94, 1</Typography> Veníte,
+          exsultémus Dómino, jubilémus Deo, salutári nostro. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 94, 1</Typography> Vinde, cantemos com
-          alegria ao Senhor, exultemos jubilosamente em Deus, nosso Salvador.
-          Aleluia.
+          <Typography className="vernacular">Sl. 94, 1</Typography> Vinde,
+          cantemos com alegria ao Senhor, exultemos jubilosamente em Deus, nosso
+          Salvador. Aleluia.
         </Typography>
       </Language>
 
@@ -127,12 +129,12 @@ export default function PagePent140() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Nemo potest duóbus

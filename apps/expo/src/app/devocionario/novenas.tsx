@@ -61,7 +61,9 @@ export default function PaginaNovenas() {
         <Typography className="li text-justify">
           Reze a oração da missa da novena.
         </Typography>
-        <Typography className="li text-justify">Adicione intenções pessoais.</Typography>
+        <Typography className="li text-justify">
+          Adicione intenções pessoais.
+        </Typography>
         <Typography className="li text-justify">
           Termine com a Salve Regina, ou outra oração.
         </Typography>

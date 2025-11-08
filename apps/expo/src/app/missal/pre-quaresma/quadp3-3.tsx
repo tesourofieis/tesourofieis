@@ -56,17 +56,19 @@ export default function PageQuadp33() {
         <Typography className="latin">
           Exáudi nos, Dómine, quóniam benígna est misericórdia tua: secúndum
           multitúdinem miseratiónum tuárum réspice nos, Dómine.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Salvum me fac, Deus:
-          quóniam intravérunt aquæ usque ad ánimam meam.
+          <Typography className="latin">Ps. ibid., 2</Typography> Salvum me fac,
+          Deus: quóniam intravérunt aquæ usque ad ánimam meam.
           <Typography className="versicle"> ℣. </Typography>
           Glória Patri...
         </Typography>
         <Typography className="vernacular">
           Ouvi-nos, Senhor, pois a vossa misericórdia é compassiva. Lançai para
           nós os vossos olhares, Senhor, segundo a grandeza da vossa
-          misericórdia. <Typography className="vernacular">Sl. ibid., 2</Typography>{" "}
+          misericórdia.{" "}
+          <Typography className="vernacular">Sl. ibid., 2</Typography>{" "}
           Salvai-me, ó Deus, porque as águas penetraram até ao íntimo da minha
-          alma.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          alma.<Typography className="versicle"> ℣. </Typography>Glória ao
+          Pai...
         </Typography>
       </Language>
 
@@ -77,24 +79,24 @@ export default function PageQuadp33() {
           Omnípotens sempitérne Deus, parce pæniténtibus, propitiáre
           supplicántibus: et míttere dignéris sanctum Angelum tuum de cœlis, qui
           bene <Typography className="cross"> ✠ </Typography> dícat et sanctí{" "}
-          <Typography className="cross"> ✠ </Typography> ficet hos cíneres, ut sint remédium
-          salúbre ómnibus nomen sanctum tuum humilíter implorántibus, ac
-          semetípsos pro consciéntia delictórum suórum accusántibus, ante
-          conspéctum divínæ cleméntiæ tuæ facínora sua deplorántibus, vel
-          sereníssimam pietátem tuam supplíciter obnixéque flagitántibus: et
-          præsta per invocatiónem sanctíssimi nóminis tui; ut, quicúmque per eos
-          aspérsi fúerint, pro redemptióne peccatórum suórum, córporis sanitátem
-          et ánimæ tutélam percípiant. Per Christum, Dóminum nostrum.{" "}
-          <Typography className="response"> ℟. </Typography> Amen.
+          <Typography className="cross"> ✠ </Typography> ficet hos cíneres, ut
+          sint remédium salúbre ómnibus nomen sanctum tuum humilíter
+          implorántibus, ac semetípsos pro consciéntia delictórum suórum
+          accusántibus, ante conspéctum divínæ cleméntiæ tuæ facínora sua
+          deplorántibus, vel sereníssimam pietátem tuam supplíciter obnixéque
+          flagitántibus: et præsta per invocatiónem sanctíssimi nóminis tui; ut,
+          quicúmque per eos aspérsi fúerint, pro redemptióne peccatórum suórum,
+          córporis sanitátem et ánimæ tutélam percípiant. Per Christum, Dóminum
+          nostrum. <Typography className="response"> ℟. </Typography> Amen.
         </Typography>
         <Typography className="vernacular">
           Deus, omnipotente e eterno, perdoai aos penitentes, sede propício para
           com os suplicantes e dignai-Vos enviar do céu o vosso Anjo para
           abençoar <Typography className="cross"> ✠ </Typography> e santificar{" "}
-          <Typography className="cross"> ✠ </Typography> estas Cinzas, a fim de que sejam
-          remédio salutar para todos os que imploram humildemente o vosso santo
-          nome, e, reconhecendo os seus delitos, a si mesmos se acusam,
-          deplorando esses crimes, diante da vossa divina clemência, e
+          <Typography className="cross"> ✠ </Typography> estas Cinzas, a fim de
+          que sejam remédio salutar para todos os que imploram humildemente o
+          vosso santo nome, e, reconhecendo os seus delitos, a si mesmos se
+          acusam, deplorando esses crimes, diante da vossa divina clemência, e
           suplicando instante e humildemente a vossa compassiva misericórdia.
           Dignai-Vos permitir que pela invocação do vosso santíssimo nome todos
           os que com estas Cinzas forem aspergidos alcancem, além da remissão
@@ -110,24 +112,25 @@ export default function PageQuadp33() {
           Deus, qui non mortem, sed pæniténtiam desíderas peccatórum:
           fragilitátem condiciónis humánæ benigníssime réspice; et hos cíneres,
           quos, causa proferéndæ humilitátis atque promeréndæ véniæ, capítibus
-          nostris impóni decérnimus, bene <Typography className="cross"> ✠ </Typography>{" "}
-          dícere pro tua pietáte dignáre: ut, qui nos cínerem esse, et ob
-          pravitátis nostræ deméritum in púlverem reversúros cognóscimus;
-          peccatórum ómnium véniam, et prǽmia pæniténtibus repromíssa,
-          misericórditer cónsequi mereámur. Per Christum, Dóminum nostrum.{" "}
+          nostris impóni decérnimus, bene{" "}
+          <Typography className="cross"> ✠ </Typography> dícere pro tua pietáte
+          dignáre: ut, qui nos cínerem esse, et ob pravitátis nostræ deméritum
+          in púlverem reversúros cognóscimus; peccatórum ómnium véniam, et
+          prǽmia pæniténtibus repromíssa, misericórditer cónsequi mereámur. Per
+          Christum, Dóminum nostrum.{" "}
           <Typography className="response"> ℟. </Typography> Amen.
         </Typography>
         <Typography className="vernacular">
           Ó Deus, que não quereis a morte dos pecadores, mas que façam
           penitência, olhai benigníssimo para a fragilidade da natureza humana,
           e dignai-Vos misericordiosamente abençoar{" "}
-          <Typography className="cross"> ✠ </Typography> estas Cinzas, que desejamos sejam
-          impostas nas nossas cabeças em sinal de humildade e para merecermos o
-          perdão, a fim de que, reconhecendo que não somos senão cinza e que nos
-          tornaremos em pó em punição da nossa malícia, mereçamos da vossa
-          bondade alcançar o perdão dos nossos pecados e as recompensas
-          prometidas aos que fazem penitência. Por Cristo, nosso Senhor.{" "}
-          <Typography className="response"> ℟. </Typography> Amen.
+          <Typography className="cross"> ✠ </Typography> estas Cinzas, que
+          desejamos sejam impostas nas nossas cabeças em sinal de humildade e
+          para merecermos o perdão, a fim de que, reconhecendo que não somos
+          senão cinza e que nos tornaremos em pó em punição da nossa malícia,
+          mereçamos da vossa bondade alcançar o perdão dos nossos pecados e as
+          recompensas prometidas aos que fazem penitência. Por Cristo, nosso
+          Senhor. <Typography className="response"> ℟. </Typography> Amen.
         </Typography>
       </Language>
 
@@ -189,16 +192,16 @@ export default function PageQuadp33() {
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Alia Antiph.</Typography>{" "}
-          <Typography className="em">ibid., 17</Typography> Inter vestíbulum et altáre
-          plorábunt sacerdótes minístri Dómini, et dicent: Parce, Dómine, parce
-          pópulo tuo: et ne claudas ora canéntium te, Dómine.
+          <Typography className="em">ibid., 17</Typography> Inter vestíbulum et
+          altáre plorábunt sacerdótes minístri Dómini, et dicent: Parce, Dómine,
+          parce pópulo tuo: et ne claudas ora canéntium te, Dómine.
         </Typography>
         <Typography className="vernacular">
           <Typography className="vernacular">Outra Antífona</Typography>{" "}
-          <Typography className="em">ibid., 17</Typography> Entre o vestíbulo e o altar
-          chorarão os sacerdotes e os Ministros do Senhor, que dirão: «Perdoai,
-          Senhor, perdoai ao vosso povo; e não fecheis a boca àqueles que cantam
-          os vossos louvores, ó Senhor».
+          <Typography className="em">ibid., 17</Typography> Entre o vestíbulo e
+          o altar chorarão os sacerdotes e os Ministros do Senhor, que dirão:
+          «Perdoai, Senhor, perdoai ao vosso povo; e não fecheis a boca àqueles
+          que cantam os vossos louvores, ó Senhor».
         </Typography>
       </Language>
 
@@ -271,16 +274,17 @@ export default function PageQuadp33() {
         <Typography className="latin">
           Miseréris ómnium, Dómine, et nihil odísti eórum quæ fecísti,
           dissímulans peccáta hóminum propter pæniténtiam et parcens illis: quia
-          tu es Dóminus, Deus noster. <Typography className="latin">Ps. 56, 2</Typography>{" "}
-          Miserére mei, Deus, miserére mei: quóniam in te confídit ánima mea.
+          tu es Dóminus, Deus noster.{" "}
+          <Typography className="latin">Ps. 56, 2</Typography> Miserére mei,
+          Deus, miserére mei: quóniam in te confídit ánima mea.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Senhor, tendes piedade de todos e não odiais aqueles que criastes;
           atenuais e perdoais os pecados dos homens, para que façam penitência,
           porquanto sois o Senhor, nosso Deus.{" "}
-          <Typography className="vernacular">Sl. 56, 2</Typography> Tende piedade de mim,
-          pois em Vós procura refúgio a minha alma.
+          <Typography className="vernacular">Sl. 56, 2</Typography> Tende
+          piedade de mim, pois em Vós procura refúgio a minha alma.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -356,12 +360,13 @@ export default function PageQuadp33() {
       <Language>
         <Typography className="latin">
           Miserére mei, Deus, miserére mei: quóniam in te confídit ánima mea.
-          <Typography className="versicle"> ℣. </Typography>Misit de cœlo, et liberávit me,
-          dedit in oppróbrium conculcántes me.
+          <Typography className="versicle"> ℣. </Typography>Misit de cœlo, et
+          liberávit me, dedit in oppróbrium conculcántes me.
         </Typography>
         <Typography className="vernacular">
           Tende misericórdia de mim, ó Deus; tende misericórdia de mim; pois a
-          minha alma confia em Vós.<Typography className="versicle"> ℣. </Typography>
+          minha alma confia em Vós.
+          <Typography className="versicle"> ℣. </Typography>
           Mandou auxílio do céu, livrando-me, e condenou ao opróbrio aqueles que
           me espezinhavam.
         </Typography>
@@ -376,22 +381,22 @@ export default function PageQuadp33() {
           Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum
           iniquitátes nostras retríbuas nobis.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 78, 8-9</Typography> Dómine, ne memíneris
-          iniquitátum nostrarum antiquarum: cito antícipent nos misericórdiæ
-          tuæ, quia páuperes facti sumus nimis.{" "}
+          <Typography className="latin">Ps. 78, 8-9</Typography> Dómine, ne
+          memíneris iniquitátum nostrarum antiquarum: cito antícipent nos
+          misericórdiæ tuæ, quia páuperes facti sumus nimis.{" "}
           <Typography className="em">(Hic genuflectitur)</Typography>
-          <Typography className="versicle"> ℣. </Typography>Adjuva nos, Deus, salutáris
-          noster: et propter glóriam nóminis tui, Dómine, libera nos: et
-          propítius esto peccátis nostris, propter nomen tuum.
+          <Typography className="versicle"> ℣. </Typography>Adjuva nos, Deus,
+          salutáris noster: et propter glóriam nóminis tui, Dómine, libera nos:
+          et propítius esto peccátis nostris, propter nomen tuum.
         </Typography>
         <Typography className="vernacular">
           Senhor, nos não castigueis, consoante merecemos, pelos pecados que
           praticámos: nem nos julgueis, segundo as nossas iniquidades.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 78, 8-9</Typography> Esquecei-Vos, Senhor,
-          das nossas iniquidades passa- das, apressai-Vos em revestir-nos com
-          vossas misericórdias, pois grande é a nossa miséria.{" "}
-          <Typography className="em">(Aqui genuflectir)</Typography>
+          <Typography className="vernacular">Sl. 78, 8-9</Typography>{" "}
+          Esquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos
+          em revestir-nos com vossas misericórdias, pois grande é a nossa
+          miséria. <Typography className="em">(Aqui genuflectir)</Typography>
           <Typography className="versicle"> ℣. </Typography>
           Auxiliai-nos, ó Deus, nosso Salvador, e, pela glória do vosso nome,
           livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso
@@ -405,12 +410,12 @@ export default function PageQuadp33() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Cum jejunátis, nolíte

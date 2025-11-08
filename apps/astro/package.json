@@ -6,6 +6,7 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
+    "check": "astro check",
     "astro": "astro",
     "deploy-preview": "wrangler pages dev ./dist",
     "test": "vitest ./src/tests",

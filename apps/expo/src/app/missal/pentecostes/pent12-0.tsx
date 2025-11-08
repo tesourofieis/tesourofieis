@@ -16,16 +16,17 @@ export default function PagePent120() {
         <Typography className="latin">
           Deus, in adjutórium meum inténde: Dómine, ad adjuvándum me festína:
           confundántur et revereántur inimíci mei, qui quærunt ánimam meam.{" "}
-          <Typography className="latin">Ps. ibid., 4</Typography> Avertántur retrórsum et
-          erubéscant: qui cógitant mihi mala.
+          <Typography className="latin">Ps. ibid., 4</Typography> Avertántur
+          retrórsum et erubéscant: qui cógitant mihi mala.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Ó Deus, vinde em meu auxílio. Apressai-Vos, Senhor, em socorrer-me!
           Que fiquem confundidos e envergonhados os meus inimigos, que procuram
-          tirar-me a vida. <Typography className="vernacular">Sl. ibid., 4</Typography>{" "}
-          Fujam de mim, cheios de vergonha aqueles que querem a minha perda.
+          tirar-me a vida.{" "}
+          <Typography className="vernacular">Sl. ibid., 4</Typography> Fujam de
+          mim, cheios de vergonha aqueles que querem a minha perda.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -98,20 +99,20 @@ export default function PagePent120() {
         </Typography>
         <Typography className="vernacular">
           Bendirei o Senhor em todos os tempos! Seus louvores estarão sempre nos
-          meus lábios.<Typography className="versicle"> ℣. </Typography>Minha alma será
-          glorificada pelo Senhor. Ouçam isto e alegrem-se aqueles que possuem a
-          mansidão.
+          meus lábios.<Typography className="versicle"> ℣. </Typography>Minha
+          alma será glorificada pelo Senhor. Ouçam isto e alegrem-se aqueles que
+          possuem a mansidão.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 87, 2</Typography> Dómine, Deus salútis meæ, in
-          die clamávi et nocte coram te. Allelúja.
+          <Typography className="latin">Ps. 87, 2</Typography> Dómine, Deus
+          salútis meæ, in die clamávi et nocte coram te. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 87, 2</Typography> Senhor, que sois o meu
-          Deus e o meu Salvador, tenho clamado dia e noite diante de Vós.
-          Aleluia.
+          <Typography className="vernacular">Sl. 87, 2</Typography> Senhor, que
+          sois o meu Deus e o meu Salvador, tenho clamado dia e noite diante de
+          Vós. Aleluia.
         </Typography>
       </Language>
 
@@ -121,12 +122,12 @@ export default function PagePent120() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Beáti óculi, qui vident

@@ -16,16 +16,17 @@ export default function PagePasc76() {
         <Typography className="latin">
           Cáritas Dei diffúsa est in córdibus nostris, allelúja: per
           inhabitántem Spíritum ejus in nobis, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. 102, 1</Typography> Benedic, anima mea, Dómino:
-          et ómnia, quæ intra me sunt, nómini sancto ejus.
+          <Typography className="latin">Ps. 102, 1</Typography> Benedic, anima
+          mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O amor de Deus espalhou-se nos nossos corações, aleluia: pelo seu
           Espírito que habita em nós, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. 102, 1</Typography> Bendize o Senhor, ó
-          minha alma: e que tudo o que existe em mim bendiga o seu santo nome.
+          <Typography className="vernacular">Sl. 102, 1</Typography> Bendize o
+          Senhor, ó minha alma: e que tudo o que existe em mim bendiga o seu
+          santo nome.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -76,13 +77,13 @@ export default function PagePasc76() {
       <Language>
         <Typography className="latin">
           Allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Joann. 6, 64</Typography> Spíritus est, qui
-          vivíficat: caro autem non prodest quidquam.
+          <Typography className="latin">Joann. 6, 64</Typography> Spíritus est,
+          qui vivíficat: caro autem non prodest quidquam.
         </Typography>
         <Typography className="vernacular">
           Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Jo. 6, 64</Typography> O Espírito é que dá a
-          vida; pois a carne não dá nenhum proveito.
+          <Typography className="vernacular">Jo. 6, 64</Typography> O Espírito é
+          que dá a vida; pois a carne não dá nenhum proveito.
         </Typography>
       </Language>
 
@@ -146,12 +147,13 @@ export default function PagePasc76() {
       <Language>
         <Typography className="latin">
           Allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Job 26, 13</Typography> Spíritus ejus ornávit cœlos.
+          <Typography className="latin">Job 26, 13</Typography> Spíritus ejus
+          ornávit cœlos.
         </Typography>
         <Typography className="vernacular">
           Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Jb 26, 13</Typography> Seu Espírito aformoseou
-          os céus.
+          <Typography className="vernacular">Jb 26, 13</Typography> Seu Espírito
+          aformoseou os céus.
         </Typography>
       </Language>
 
@@ -177,7 +179,9 @@ export default function PagePasc76() {
 
       <Language>
         <Typography className="latin">Léctio libri Deuteronómii.</Typography>
-        <Typography className="vernacular">Lição do Livro Deuteronómio.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro Deuteronómio.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Dixit Moyses fíliis Israël: Audi, Israël, quæ ego
           præcípio tibi hódie. Cum intráveris terram, quam Dóminus, Deus tuus,
@@ -216,13 +220,13 @@ export default function PagePasc76() {
       <Language>
         <Typography className="latin">
           Allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Act. 2, 1</Typography> Cum compleréntur dies
-          Pentecóstes, erant omnes páriter sedéntes.
+          <Typography className="latin">Act. 2, 1</Typography> Cum compleréntur
+          dies Pentecóstes, erant omnes páriter sedéntes.
         </Typography>
         <Typography className="vernacular">
           Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Act. 2, 1</Typography> Tendo já chegado o dia
-          de Pentecostes, estavam todos reunidos em assembleia.
+          <Typography className="vernacular">Act. 2, 1</Typography> Tendo já
+          chegado o dia de Pentecostes, estavam todos reunidos em assembleia.
         </Typography>
       </Language>
 
@@ -350,30 +354,35 @@ export default function PagePasc76() {
       <Language>
         <Typography className="latin">
           Allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 52</Typography> Benedíctus es, Dómine, Deus
-          patrum nostrórum, et laudábilis in sǽcula.
+          <Typography className="latin">ibid., 52</Typography> Benedíctus es,
+          Dómine, Deus patrum nostrórum, et laudábilis in sǽcula.
         </Typography>
         <Typography className="vernacular">
           Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 52</Typography> Bendito sois, Senhor,
-          Deus de nossos pais, e digno de louvor em todos os séculos.
+          <Typography className="vernacular">ibid., 52</Typography> Bendito
+          sois, Senhor, Deus de nossos pais, e digno de louvor em todos os
+          séculos.
         </Typography>
       </Language>
 
-      <Typography className="aside">Diz-se o Glória in excélsis... Depois:</Typography>
+      <Typography className="aside">
+        Diz-se o Glória in excélsis... Depois:
+      </Typography>
 
       <Language>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Dóminus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor seja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor seja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
       </Language>
 
@@ -449,12 +458,12 @@ export default function PagePasc76() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Surgens Jesus de synagóga, introívit in domum

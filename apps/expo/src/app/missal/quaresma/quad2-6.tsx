@@ -16,15 +16,16 @@ export default function PageQuad26() {
         <Typography className="latin">
           Lex Dómini irreprehensíbilis, convértens ánimas: testimónium Dómini
           fidéle, sapiéntiam præstans párvulis.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Cœli enárrant glóriam Dei:
-          et ópera mánuum ejus annúntiat firmaméntum.
+          <Typography className="latin">Ps. ibid., 2</Typography> Cœli enárrant
+          glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           A lei do Senhor é perfeita e converte as almas; o testemunho do Senhor
           é digno de fé e ensina os ignorantes.{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Os céus publicam a
-          glória do Senhor e o firmamento anuncia as obras das suas mãos.
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Os céus
+          publicam a glória do Senhor e o firmamento anuncia as obras das suas
+          mãos.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -50,7 +51,9 @@ export default function PageQuad26() {
 
       <Language>
         <Typography className="latin">Léctio libri Genesis.</Typography>
-        <Typography className="vernacular">Lição do Livro do Génesis.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro do Génesis.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Dixit Rebécca fílio suo Jacob: Audívi patrem tuum
           loquéntem cum Esau fratre tuo, et dicéntem ei: Affer mihi de venatióne
@@ -187,8 +190,8 @@ export default function PageQuad26() {
         </Typography>
         <Typography className="vernacular">
           É bom louvar o Senhor e cantar o vosso nome, ó Altíssimo.
-          <Typography className="versicle"> ℣. </Typography>Para anunciar de manhã a vossa
-          misericórdia e de noite a vossa verdade.
+          <Typography className="versicle"> ℣. </Typography>Para anunciar de
+          manhã a vossa misericórdia e de noite a vossa verdade.
         </Typography>
       </Language>
 
@@ -198,12 +201,12 @@ export default function PageQuad26() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus pharisǽis et scribis parábolam istam:

@@ -11,35 +11,36 @@ export default function PageCoroasaomiguel() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Deus, in adjutórium meum
-          inténde.
+          <Typography className="versicle"> ℣. </Typography>Deus, in adjutórium
+          meum inténde.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Deus, vinde em nosso auxílio.
+          <Typography className="versicle"> ℣. </Typography>Deus, vinde em nosso
+          auxílio.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Dómine, ad adjuvándum me
-          festína.
+          <Typography className="response"> ℟. </Typography> Dómine, ad
+          adjuvándum me festína.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Senhor, socorrei-nos e
-          salvai-nos.
+          <Typography className="response"> ℟. </Typography> Senhor,
+          socorrei-nos e salvai-nos.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Glória Patri, et Fílio, et
-          Spirítui Sancto.
+          <Typography className="versicle"> ℣. </Typography>Glória Patri, et
+          Fílio, et Spirítui Sancto.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Glória ao Pai, e ao Filho e ao
-          Espírito Santo.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai, e ao
+          Filho e ao Espírito Santo.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Sicut erat in princípio, et
-          nunc, et semper, et in sǽcula sæculórum. Amen.
+          <Typography className="response"> ℟. </Typography> Sicut erat in
+          princípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Assim como era no princípio,
-          agora e sempre, e por todos os séculos dos séculos. Amen.
+          <Typography className="response"> ℟. </Typography> Assim como era no
+          princípio, agora e sempre, e por todos os séculos dos séculos. Amen.
         </Typography>
       </Language>
 
@@ -308,37 +309,39 @@ export default function PageCoroasaomiguel() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="latin">Ant.</Typography> O Princeps Gloriose sancte
-          Michael, Dux et praeposite caelestium exercituum, Custos animarum,
-          Domitor spirituum rebellum, Serve in domu Regis Divini, et conductor
-          mirabilis noster, Qui cum excellentia et virtute caelesti fulges,
-          Liberare nos a malo digeneris, Qui ad te tornamus cum confidentiae, et
-          propitio praesidio tuo da nobis Deum magis fideliter quotidie servire.
+          <Typography className="latin">Ant.</Typography> O Princeps Gloriose
+          sancte Michael, Dux et praeposite caelestium exercituum, Custos
+          animarum, Domitor spirituum rebellum, Serve in domu Regis Divini, et
+          conductor mirabilis noster, Qui cum excellentia et virtute caelesti
+          fulges, Liberare nos a malo digeneris, Qui ad te tornamus cum
+          confidentiae, et propitio praesidio tuo da nobis Deum magis fideliter
+          quotidie servire.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="vernacular">Ant.</Typography> Glorioso São Miguel, chefe e
-          príncipe dos exércitos celestes, fiel guardião das almas, vencedor dos
-          espíritos rebeldes, amado da casa de Deus, nosso admirável guia depois
-          de Cristo; vós, cuja excelência e virtudes são eminentíssimas,
-          dignai-vos livrar-nos de todos os males, a nós todos que recorremos a
-          vós com confiança, e fazei, pela vossa incomparável proteção, que
-          adiantemos, cada dia mais, na fidelidade em servir a Deus.
+          <Typography className="vernacular">Ant.</Typography> Glorioso São
+          Miguel, chefe e príncipe dos exércitos celestes, fiel guardião das
+          almas, vencedor dos espíritos rebeldes, amado da casa de Deus, nosso
+          admirável guia depois de Cristo; vós, cuja excelência e virtudes são
+          eminentíssimas, dignai-vos livrar-nos de todos os males, a nós todos
+          que recorremos a vós com confiança, e fazei, pela vossa incomparável
+          proteção, que adiantemos, cada dia mais, na fidelidade em servir a
+          Deus.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Ora pro nobis, O Gloriose Sancte
-          Michael, Princeps Ecclesiae Jesus Christi.
+          <Typography className="versicle"> ℣. </Typography>Ora pro nobis, O
+          Gloriose Sancte Michael, Princeps Ecclesiae Jesus Christi.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Rogai por nós, ó bem-aventurado
-          São Miguel, príncipe da Igreja de Cristo.
+          <Typography className="versicle"> ℣. </Typography>Rogai por nós, ó
+          bem-aventurado São Miguel, príncipe da Igreja de Cristo.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Ut digni efficiamur
           promissionibus Eius.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Para que sejamos dignos das
-          Suas promessas.
+          <Typography className="response"> ℟. </Typography> Para que sejamos
+          dignos das Suas promessas.
         </Typography>
         <Typography className="latin">
           <Typography className="latin">Orémus.</Typography>

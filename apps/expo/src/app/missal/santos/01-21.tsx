@@ -56,16 +56,17 @@ export default function Page0121() {
         <Typography className="latin">
           Me exspectavérunt peccatores, ut pérderent me: testimónia tua, Dómine,
           intelléxi: omnis consummatiónis vidi finem: latum mandátum tuum nimis.{" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Beáti immaculáti in via:
-          qui ámbulant in lege Dómini.
+          <Typography className="latin">Ps. ibid., 1</Typography> Beáti
+          immaculáti in via: qui ámbulant in lege Dómini.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Esperaram-me os pecadores para me perder; mas, Senhor, tinha meditado
           nos vossos testemunhos. Encontrei limites em tudo quanto existe: só o
           vosso poder é infinito.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Bem-aventurados os
-          que são imaculados em seus caminhos e que cumprem a Lei do Senhor.
+          <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
+          Bem-aventurados os que são imaculados em seus caminhos e que cumprem a
+          Lei do Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -95,27 +96,27 @@ export default function Page0121() {
         <Typography className="latin">
           Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in
           ætérnum.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 5</Typography> Propter veritátem et
-          mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.
+          <Typography className="latin">ibid., 5</Typography> Propter veritátem
+          et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.
         </Typography>
         <Typography className="vernacular">
           A graça espalhou-se nos vossos lábios; por isso Deus vos abençoou para
           a eternidade.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 5</Typography> Por amor da verdade, da
-          mansidão e da justiça a vossa mão direita vos levará a praticar
-          maravilhas.
+          <Typography className="vernacular">ibid., 5</Typography> Por amor da
+          verdade, da mansidão e da justiça a vossa mão direita vos levará a
+          praticar maravilhas.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Matth. 25, 4 & 6</Typography> Quinque prudéntes
-          vírgines accepérunt óleum in vasis suis cum lampádibus: média autem
-          nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo
-          Dómino. Allelúja.
+          <Typography className="latin">Matth. 25, 4 & 6</Typography> Quinque
+          prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus:
+          média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam
+          Christo Dómino. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Mt. 25, 4 & 6</Typography> As cinco virgens
-          prudentes tomaram azeite em seus vasos para suas lâmpadas. À
+          <Typography className="vernacular">Mt. 25, 4 & 6</Typography> As cinco
+          virgens prudentes tomaram azeite em seus vasos para suas lâmpadas. À
           meia-noite ouviu-se um clamor dizer: «Eis que chega o esposo: ide ao
           encontro de Cristo Senhor». Aleluia.
         </Typography>

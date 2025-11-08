@@ -59,15 +59,15 @@ export default function Page1003() {
         <Typography className="latin">
           Veni de Líbano, sponsa mea, veni de Líbano, veni: vulnerásti cor meum,
           soror mea sponsa, vulnerásti cor meum.{" "}
-          <Typography className="latin">Ps. 112, 1</Typography> Laudáte, púeri, Dóminum:
-          laudáte nomen Dómini.<Typography className="versicle"> ℣. </Typography>Gloria
-          Patri...
+          <Typography className="latin">Ps. 112, 1</Typography> Laudáte, púeri,
+          Dóminum: laudáte nomen Dómini.
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Vem comigo do Líbano, ó minha esposa; Vem comigo do Líbano; vem. Tu
           feriste o meu coração, minha irmã, minha esposa; tu feriste o meu
-          coração. <Typography className="vernacular">Sl. 112, 1</Typography> Louvai o
-          Senhor, ó meninos; louvai o nome do Senhor.
+          coração. <Typography className="vernacular">Sl. 112, 1</Typography>{" "}
+          Louvai o Senhor, ó meninos; louvai o nome do Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -126,32 +126,32 @@ export default function Page1003() {
           Confíteor tibi, Pater, Dómine cœli et terræ, quia abscondísti hæc a
           sapiéntibus, et prudéntibus, et revelásti ea párvulis.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 70, 5</Typography> Dómine, spes mea a juventúte
-          mea.
+          <Typography className="latin">Ps. 70, 5</Typography> Dómine, spes mea
+          a juventúte mea.
         </Typography>
         <Typography className="vernacular">
           Dou-Vos graças, ó Pai, Senhor do céu e da terra, porque ocultastes
           estas coisas aos sábios e aos prudentes deste mundo, e as revelastes
           aos «pequenos».<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 70, 5</Typography> Sois a minha esperança,
-          Senhor, desde a minha juventude.
+          <Typography className="vernacular">Sl. 70, 5</Typography> Sois a minha
+          esperança, Senhor, desde a minha juventude.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Eccli. 39, 17-19</Typography> Quasi rosa plantáta
-          super rivos aquárum fructificate: quasi Libanus odórem suavitátis
-          habete: florete, flores, quasi lílium, et date odórem, et frondete in
-          grátiam, et collaudate cánticum, et benedicite Dóminum in opéribus
-          suis. Allelúja.
+          <Typography className="latin">Eccli. 39, 17-19</Typography> Quasi rosa
+          plantáta super rivos aquárum fructificate: quasi Libanus odórem
+          suavitátis habete: florete, flores, quasi lílium, et date odórem, et
+          frondete in grátiam, et collaudate cánticum, et benedicite Dóminum in
+          opéribus suis. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ecl. 39, 17-19</Typography> Frutificai, como a
-          rosa plantada à beira das águas; espalhai vosso suave perfume, como o
-          monte Líbano; como os lírios, desabrochai vossas flores e exalai
-          vossos perfumes; enchei-vos de beleza; entoai hinos e cânticos em
-          honra do Senhor, louvando-O Pela magnificência das suas obras.
-          Aleluia.
+          <Typography className="vernacular">Ecl. 39, 17-19</Typography>{" "}
+          Frutificai, como a rosa plantada à beira das águas; espalhai vosso
+          suave perfume, como o monte Líbano; como os lírios, desabrochai vossas
+          flores e exalai vossos perfumes; enchei-vos de beleza; entoai hinos e
+          cânticos em honra do Senhor, louvando-O Pela magnificência das suas
+          obras. Aleluia.
         </Typography>
       </Language>
 
@@ -161,12 +161,12 @@ export default function Page1003() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis,

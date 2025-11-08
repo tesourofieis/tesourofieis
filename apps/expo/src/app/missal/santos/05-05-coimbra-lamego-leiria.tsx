@@ -17,16 +17,17 @@ export default function Page0505CoimbraLamegoLeiria() {
         <Typography className="latin">
           Venite, audíte, et narrábo, omnes qui timétis Deum, quanta fecit ánimæ
           meæ miséricors et miserátor Dóminus, aleluia, aleluia.{" "}
-          <Typography className="latin">Ps. ibid., 1-2</Typography> Jubiláte Deo, omnis
-          terra, psalmum dícite nómini ejus: date glóriam laudi ejus.
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Jubiláte
+          Deo, omnis terra, psalmum dícite nómini ejus: date glóriam laudi ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Vinde, escutai vós todos, os que temeis a Deus; e eu vos narrarei as
           muitas graças que o Senhor misericordioso e compassivo fez à minha
           alma, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Povos de toda a
-          terra: cantai um hino ao seu nome: rendei-Lhe louvores e honras.
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Povos
+          de toda a terra: cantai um hino ao seu nome: rendei-Lhe louvores e
+          honras.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
 
@@ -81,18 +82,19 @@ export default function Page0505CoimbraLamegoLeiria() {
 
         <Language>
           <Typography className="latin">
-            Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+            Allelúja, allelúja.
+            <Typography className="versicle"> ℣. </Typography>
             Dirupísti víncula mea, Deus meus: tibi sacrificábo hóstiam laudis,
             et nomem Dómini invocábo. Allelúja.
-            <Typography className="versicle"> ℣. </Typography>Confitébor tibi, quóniam
-            exaudísti me: et factus es mihi in salútem. Allelúja.
+            <Typography className="versicle"> ℣. </Typography>Confitébor tibi,
+            quóniam exaudísti me: et factus es mihi in salútem. Allelúja.
           </Typography>
           <Typography className="vernacular">
-            Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Rompestes os
-            meus laços, ó meu Deus, a vós oferecerei o sacrifício de louvor, e
-            invocarei o nome do Senhor. Aleluia.
-            <Typography className="versicle"> ℣. </Typography>Louvar-Vos-ei, porque me
-            escutastes e me salvastes. Aleluia.
+            Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+            Rompestes os meus laços, ó meu Deus, a vós oferecerei o sacrifício
+            de louvor, e invocarei o nome do Senhor. Aleluia.
+            <Typography className="versicle"> ℣. </Typography>Louvar-Vos-ei,
+            porque me escutastes e me salvastes. Aleluia.
           </Typography>
         </Language>
 

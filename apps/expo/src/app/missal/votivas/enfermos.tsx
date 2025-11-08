@@ -16,18 +16,20 @@ export default function PageEnfermos() {
         <Typography className="latin">
           Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam:
           inténde in me et exáudi me. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. ibid., 3-4</Typography> Contristátus sum in
-          exercitatióne mea: et conturbátus sum a voce inimíci et a tribulatióne
-          peccatóris.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. ibid., 3-4</Typography> Contristátus
+          sum in exercitatióne mea: et conturbátus sum a voce inimíci et a
+          tribulatióne peccatóris.
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Ouvi, ó Deus, a minha oração e não desprezeis a minha humilde súplica:
           atendei-me e ouvi-me. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. ibid., 3-4</Typography> Estou cheio de
-          angústia por causa das aflições, que me oprimem. Estou perturbado por
-          causa da voz do meu inimigo e das tribulações que me infligem os
-          pecadores.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. ibid., 3-4</Typography> Estou
+          cheio de angústia por causa das aflições, que me oprimem. Estou
+          perturbado por causa da voz do meu inimigo e das tribulações que me
+          infligem os pecadores.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
@@ -54,8 +56,12 @@ export default function PageEnfermos() {
       <Typography className="em">Tg. 5, 13-16</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Jacóbi Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Tiago.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Jacóbi Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Tiago.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Tristátur áliquis vestrum? oret.Æquo ánimo est? psallat.
           Infirmátur quis in vobis? indúcat presbýteros Ecclésiæ, et orent super
@@ -87,18 +93,18 @@ export default function PageEnfermos() {
         </Typography>
         <Typography className="vernacular">
           Compadecei-Vos de mim, Senhor, pois estou enfermo: curai-me, Senhor.
-          <Typography className="versicle"> ℣. </Typography>Estou oprimido em todo meu
-          corpo: estou perturbado até ao íntimo da minha alma.
+          <Typography className="versicle"> ℣. </Typography>Estou oprimido em
+          todo meu corpo: estou perturbado até ao íntimo da minha alma.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 101, 2</Typography> Dómine, exáudi oratiónem
-          meam: et clamor meus ad te pervéniat. Allelúja.
+          <Typography className="latin">Ps. 101, 2</Typography> Dómine, exáudi
+          oratiónem meam: et clamor meus ad te pervéniat. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 101, 2</Typography> Ouvi, Senhor, a minha
-          oração: e que meu clamor chegue até Vós. Aleluia.
+          <Typography className="vernacular">Sl. 101, 2</Typography> Ouvi,
+          Senhor, a minha oração: e que meu clamor chegue até Vós. Aleluia.
         </Typography>
       </Language>
 
@@ -114,18 +120,19 @@ export default function PageEnfermos() {
         <Typography className="latin">
           Miserére mei, Dómine, quóniam tríbulor: conturbátus est in ira óculus
           meus, ánima mea et venter meus.
-          <Typography className="versicle"> ℣. </Typography>Quóniam defécit in dolóre vita
-          mea, et anni mei in gemítibus.
+          <Typography className="versicle"> ℣. </Typography>Quóniam defécit in
+          dolóre vita mea, et anni mei in gemítibus.
           <Typography className="versicle"> ℣. </Typography>
           Infirmáta est in paupertáte virtus mea: et ossa mea conturbáta sunt.
         </Typography>
         <Typography className="vernacular">
           Compadecei-Vos de mim, Senhor, pois estou atribulado: os meus olhos, a
           minha alma e até as minhas entranhas estão atribuladas.
-          <Typography className="versicle"> ℣. </Typography>Pois a minha vida consome-se no
-          meio da dor: e os meus anos em gemidos!
-          <Typography className="versicle"> ℣. </Typography>Minhas forças debilitaram-se por
-          causa da minha pobreza: e os meus ossos estão abalados.
+          <Typography className="versicle"> ℣. </Typography>Pois a minha vida
+          consome-se no meio da dor: e os meus anos em gemidos!
+          <Typography className="versicle"> ℣. </Typography>Minhas forças
+          debilitaram-se por causa da minha pobreza: e os meus ossos estão
+          abalados.
         </Typography>
       </Language>
 
@@ -136,21 +143,21 @@ export default function PageEnfermos() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 101, 2</Typography> Dómine, exáudi oratiónem
-          meam: et clamor meus ad te pervéniat. Allelúja.
+          <Typography className="latin">Ps. 101, 2</Typography> Dómine, exáudi
+          oratiónem meam: et clamor meus ad te pervéniat. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. 27, 7</Typography> In Deo sperávit cor meum, et
-          adjútus sum: et reflóruit caro mea, et ex voluntáte mea confitébor ei.
-          Allelúja.
+          <Typography className="em">Ps. 27, 7</Typography> In Deo sperávit cor
+          meum, et adjútus sum: et reflóruit caro mea, et ex voluntáte mea
+          confitébor ei. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 101, 2</Typography> Senhor, ouvi a minha
-          oração: e que meu clamor chegue até Vós. Aleluia.
+          <Typography className="vernacular">Sl. 101, 2</Typography> Senhor,
+          ouvi a minha oração: e que meu clamor chegue até Vós. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Sl. 27, 7</Typography> Meu coração teve esperança em
-          Deus e foi socorrido: e a minha carne refloresceu: eis porque O
-          louvarei de todo meu coração. Aleluia.
+          <Typography className="em">Sl. 27, 7</Typography> Meu coração teve
+          esperança em Deus e foi socorrido: e a minha carne refloresceu: eis
+          porque O louvarei de todo meu coração. Aleluia.
         </Typography>
       </Language>
 
@@ -160,12 +167,12 @@ export default function PageEnfermos() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Cum introísset Jesus Caphárnaum, accessit ad eum

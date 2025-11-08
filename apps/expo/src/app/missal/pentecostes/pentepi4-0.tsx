@@ -23,8 +23,8 @@ export default function PagePentepi40() {
         <Typography className="vernacular">
           Disse o Senhor: tenho pensamentos de paz e não de ira: invocar-me-eis
           e ouvir-vos-ei; e farei regressar de todos os países os vossos
-          cativos. <Typography className="vernacular">Sl. 84, 2</Typography> Abençoastes,
-          Senhor, a vossa terra e livrastes Jacob do cativeiro.
+          cativos. <Typography className="vernacular">Sl. 84, 2</Typography>{" "}
+          Abençoastes, Senhor, a vossa terra e livrastes Jacob do cativeiro.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -84,8 +84,8 @@ export default function PagePentepi40() {
       <Language>
         <Typography className="latin">
           Liberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos odérunt,
-          confudísti.<Typography className="versicle"> ℣. </Typography>In Deo laudábimur
-          tota die, et in nómine tuo confitébimur in sǽcula.
+          confudísti.<Typography className="versicle"> ℣. </Typography>In Deo
+          laudábimur tota die, et in nómine tuo confitébimur in sǽcula.
         </Typography>
         <Typography className="vernacular">
           Livrastes-nos, Senhor, daqueles que nos afligiam: e confundistes os
@@ -95,13 +95,13 @@ export default function PagePentepi40() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 129, 12</Typography> De profúndis clamávi ad te,
-          Dómine: Dómine, exáudi oratiónem meam. Allelúja.
+          <Typography className="latin">Ps. 129, 12</Typography> De profúndis
+          clamávi ad te, Dómine: Dómine, exáudi oratiónem meam. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 129, 12</Typography> Do fundo do abysmo Vos
-          invoquei, Senhor: escutai a minha oração. Aleluia.
+          <Typography className="vernacular">Sl. 129, 12</Typography> Do fundo
+          do abysmo Vos invoquei, Senhor: escutai a minha oração. Aleluia.
         </Typography>
       </Language>
 
@@ -111,12 +111,12 @@ export default function PagePentepi40() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Ascendénte Jesu in navículam, secúti sunt eum

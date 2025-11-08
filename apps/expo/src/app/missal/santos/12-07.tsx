@@ -42,26 +42,26 @@ export default function Page1207() {
         <Typography className="latin">
           Ecce sacérdos magnus, qui in diébus suis plácuit Deo.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 20</Typography> Non est inventus símilis
-          illi, qui conserváret legem Excélsi.
+          <Typography className="latin">ibid., 20</Typography> Non est inventus
+          símilis illi, qui conserváret legem Excélsi.
         </Typography>
         <Typography className="vernacular">
           Eis o grande sacerdote que nos dias da sua vida agradou a Deus.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 20</Typography> Ninguém o igualou na
-          observância das leis do Altíssimo.
+          <Typography className="vernacular">ibid., 20</Typography> Ninguém o
+          igualou na observância das leis do Altíssimo.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 109, 4</Typography> Jurávit Dóminus, et non
-          pænitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem
+          <Typography className="latin">Ps. 109, 4</Typography> Jurávit Dóminus,
+          et non pænitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem
           Melchísedech. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 109, 4</Typography> O Senhor jurou e nunca
-          se arrependerá: Tu és sacerdote para sempre, segundo a ordem de
-          Melquisedeque. Aleluia.
+          <Typography className="vernacular">Sl. 109, 4</Typography> O Senhor
+          jurou e nunca se arrependerá: Tu és sacerdote para sempre, segundo a
+          ordem de Melquisedeque. Aleluia.
         </Typography>
       </Language>
 

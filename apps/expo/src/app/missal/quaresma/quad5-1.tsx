@@ -22,9 +22,9 @@ export default function PageQuad51() {
         <Typography className="vernacular">
           Tende misericórdia de mim, Senhor, porque o meu inimigo calca-me aos
           pés: todos os dias me ataca e persegue.{" "}
-          <Typography className="vernacular">Sl. ibid., 3</Typography> Meus inimigos
-          calcam-me incessantemente com seus pés; pois São muitos os que me
-          atacam.
+          <Typography className="vernacular">Sl. ibid., 3</Typography> Meus
+          inimigos calcam-me incessantemente com seus pés; pois São muitos os
+          que me atacam.
         </Typography>
       </Language>
 
@@ -117,25 +117,25 @@ export default function PageQuad51() {
           Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum
           iniquitátes nostras retríbuas nobis.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 78, 8-9</Typography> Dómine, ne memíneris
-          iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ
-          tuæ, quia páuperes facti sumus nimis.{" "}
+          <Typography className="latin">Ps. 78, 8-9</Typography> Dómine, ne
+          memíneris iniquitátum nostrárum antiquárum: cito antícipent nos
+          misericórdiæ tuæ, quia páuperes facti sumus nimis.{" "}
           <Typography className="em">(hic genuflectitur)</Typography>
-          <Typography className="versicle"> ℣. </Typography>Adjuva nos, Deus, salutáris
-          noster: et propter glóriam nóminis tui, Dómine, líbera nos: et
-          propítius esto peccátis nostris, propter nomen tuum.
+          <Typography className="versicle"> ℣. </Typography>Adjuva nos, Deus,
+          salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos:
+          et propítius esto peccátis nostris, propter nomen tuum.
         </Typography>
         <Typography className="vernacular">
           Senhor, nos não castigueis, consoante merecemos, pelos pecados que
           praticámos e por causa das nossas iniquidades!
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 78, 8-9</Typography> Esquecei-Vos, Senhor,
-          das nossas antigas iniquidades e apressai-Vos em revestir-nos com
-          vossas misericórdias, pois grande é a nossa miséria!{" "}
+          <Typography className="vernacular">Sl. 78, 8-9</Typography>{" "}
+          Esquecei-Vos, Senhor, das nossas antigas iniquidades e apressai-Vos em
+          revestir-nos com vossas misericórdias, pois grande é a nossa miséria!{" "}
           <Typography className="em">(Aqui genuflectir)</Typography>{" "}
-          <Typography className="versicle"> ℣. </Typography>Auxiliai-nos, ó Deus, nosso
-          Salvador. Para glória do vosso Nome, perdoai-nos os nossos pecados,
-          Senhor!
+          <Typography className="versicle"> ℣. </Typography>Auxiliai-nos, ó
+          Deus, nosso Salvador. Para glória do vosso Nome, perdoai-nos os nossos
+          pecados, Senhor!
         </Typography>
       </Language>
 
@@ -145,12 +145,12 @@ export default function PageQuad51() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Misérunt príncipes et pharisǽi minístros, ut
@@ -218,7 +218,9 @@ export default function PageQuad51() {
       <Typography className="em">Sl. 23, 10</Typography>
 
       <Language>
-        <Typography className="latin">Dóminus virtútum ipse est Rex glóriæ.</Typography>
+        <Typography className="latin">
+          Dóminus virtútum ipse est Rex glóriæ.
+        </Typography>
         <Typography className="vernacular">
           O Senhor dos exércitos é o Rei da glória.
         </Typography>

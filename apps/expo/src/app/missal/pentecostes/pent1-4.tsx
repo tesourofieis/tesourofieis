@@ -17,16 +17,18 @@ export default function PagePent14() {
         <Typography className="latin">
           Cibávit eos ex ádipe fruménti, allelúja: et de petra, melle saturávit
           eos, allelúja, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. ib., 2</Typography> Exsultáte Deo, adjutóri
-          nostro: jubiláte Deo Jacob.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. ib., 2</Typography> Exsultáte Deo,
+          adjutóri nostro: jubiláte Deo Jacob.
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Senhor alimentou-os com a flor da farinha, aleluia: e saciou-os com
           o mel tirado do rochedo, aleluia, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. ib., 2</Typography> Exultai de alegria e
-          louvai a Deus, que é o nosso sustentáculo: Aclamai com júbilo Deus de
-          Jacob.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. ib., 2</Typography> Exultai de
+          alegria e louvai a Deus, que é o nosso sustentáculo: Aclamai com
+          júbilo Deus de Jacob.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
@@ -98,8 +100,8 @@ export default function PagePent14() {
       <Language>
         <Typography className="latin">
           Oculi ómnium in te sperant, Dómine: et tu das illis escam in témpore
-          opportúno.<Typography className="versicle"> ℣. </Typography>Aperis tu manum tuam:
-          et imples omne animal benedictióne.
+          opportúno.<Typography className="versicle"> ℣. </Typography>Aperis tu
+          manum tuam: et imples omne animal benedictióne.
         </Typography>
         <Typography className="vernacular">
           Todos os olhos, Senhor, estão voltados para Vós, cheios de esperança:
@@ -109,15 +111,16 @@ export default function PagePent14() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Joann. 6, 56-57</Typography> Caro mea vere est
-          cibus, et sanguis meus vere est potus: qui mandúcat meam carnem et
-          bibit meum sánguinem, in me manet et ego in eo.
+          <Typography className="latin">Joann. 6, 56-57</Typography> Caro mea
+          vere est cibus, et sanguis meus vere est potus: qui mandúcat meam
+          carnem et bibit meum sánguinem, in me manet et ego in eo.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Jo. 6, 56-57</Typography> Minha Carne é
-          verdadeira comida; e o meu Sangue é verdadeira bebida. Aquele, pois,
-          que come a minha carne e bebe o meu sangue permanece em mim e Eu nele.
+          <Typography className="vernacular">Jo. 6, 56-57</Typography> Minha
+          Carne é verdadeira comida; e o meu Sangue é verdadeira bebida. Aquele,
+          pois, que come a minha carne e bebe o meu sangue permanece em mim e Eu
+          nele.
         </Typography>
       </Language>
 
@@ -129,12 +132,12 @@ export default function PagePent14() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangéli secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangéli secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus turbis Judæórum: Caro mea vere est cibus

@@ -48,7 +48,9 @@ export default function Page0728() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Réddidit Deus justis mercédem labórum suorum, et deduxit illos in via
           mirábili: et fuit illis in velaménto diei et in luce stellárum per

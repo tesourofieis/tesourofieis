@@ -289,7 +289,6 @@ class SeasonManager {
       pentecostSunday,
       adventStart,
       yearEnd,
-      yearStart,
     } = this.keyDates;
 
     const boundaries = new Map<LiturgicalSeason, [Date, Date]>();

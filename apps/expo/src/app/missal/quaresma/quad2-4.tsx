@@ -16,16 +16,17 @@ export default function PageQuad24() {
         <Typography className="latin">
           Deus, in adjutórium meum inténde: Dómine, ad adjuvándum me festína:
           confundántur et revereántur inimíci mei, qui quærunt ánimam meam.{" "}
-          <Typography className="latin">Ps. ibid., 4</Typography> Avertántur retrórsum et
-          erubéscant: qui cógitant mihi mala.
+          <Typography className="latin">Ps. ibid., 4</Typography> Avertántur
+          retrórsum et erubéscant: qui cógitant mihi mala.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Ó Deus, vinde em meu auxílio; apressai-Vos, Senhor, em socorrer-me.
           Sejam confundidos e cobertos de opróbrio os meus inimigos que procuram
-          tirar-me a vida. <Typography className="vernacular">Sl. ibid., 4</Typography> Que
-          se afastem de mim, cheios de vergonha, os que conjuram contra mim!
+          tirar-me a vida.{" "}
+          <Typography className="vernacular">Sl. ibid., 4</Typography> Que se
+          afastem de mim, cheios de vergonha, os que conjuram contra mim!
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -53,7 +54,9 @@ export default function PageQuad24() {
 
       <Language>
         <Typography className="latin">Léctio Jeremíæ Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do Profeta Jeremias.</Typography>
+        <Typography className="vernacular">
+          Lição do Profeta Jeremias.
+        </Typography>
         <Typography className="latin">
           Hæc dicit Dóminus Deus: Maledíctus homo, qui confídit in hómine, et
           ponit carnem bráchium suum, et a Dómino recédit cor ejus. Erit enim
@@ -92,8 +95,9 @@ export default function PageQuad24() {
       <Language>
         <Typography className="latin">
           Propítius esto, Dómine, peccátis nostris: ne quando dicant gentes: Ubi
-          est Deus eórum?<Typography className="versicle"> ℣. </Typography>Adjuva nos, Deus,
-          salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos.
+          est Deus eórum?<Typography className="versicle"> ℣. </Typography>
+          Adjuva nos, Deus, salutáris noster: et propter honórem nóminis tui,
+          Dómine, líbera nos.
         </Typography>
         <Typography className="vernacular">
           Perdoai os nossos pecados, Senhor, para que os povos não digam: «Onde
@@ -108,12 +112,12 @@ export default function PageQuad24() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus pharisǽis: Homo quidam erat dives, qui

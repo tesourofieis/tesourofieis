@@ -73,15 +73,16 @@ export default function PageApostolos() {
         <Typography className="latin">
           Protexísti me, Deus, a convéntu malignántium, allelúja: a multitúdine
           operántium iniquitátem, allelúja, allelúja.{" "}
-          <Typography className="latin">Ps. ib., 2</Typography> Exáudi, Dómine, orationem
-          meam, cum déprecor: a timóre inimíci éripe ánimam meam.
+          <Typography className="latin">Ps. ib., 2</Typography> Exáudi, Dómine,
+          orationem meam, cum déprecor: a timóre inimíci éripe ánimam meam.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Ó Deus, livrastes-me da companhia dos maus, aleluia: livrastes-me do
           meio daqueles que procedem com iniquidade. Aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. ib., 2</Typography> Senhor, quando eu Vos
-          invocar, ouvi a minha oração: livrai a minha alma do temor do inimigo.
+          <Typography className="vernacular">Sl. ib., 2</Typography> Senhor,
+          quando eu Vos invocar, ouvi a minha oração: livrai a minha alma do
+          temor do inimigo.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -91,20 +92,22 @@ export default function PageApostolos() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 88, 6</Typography> Confitebúntur cœli mirabília
-          tua, Dómine: étenim veritátem tuam in ecclésia sanctórum. Allelúja.
+          <Typography className="latin">Ps. 88, 6</Typography> Confitebúntur
+          cœli mirabília tua, Dómine: étenim veritátem tuam in ecclésia
+          sanctórum. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Joann. 15, 16</Typography> Ego vos elégi de mundo, ut
-          eátis, et fructum afferátis, et fructus vester máneat. Allelúja.
+          <Typography className="em">Joann. 15, 16</Typography> Ego vos elégi de
+          mundo, ut eátis, et fructum afferátis, et fructus vester máneat.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 88, 6</Typography> Senhor, os céus
-          proclamam as vossas maravilhas e a vossa verdade na assembleia dos
-          Santos. Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Jo. 15, 16</Typography> Fui Eu quem vos escolheu no
-          mundo, a fim de que possais ir (pelo mundo), alcanceis frutos e esses
-          frutos permaneçam Aleluia.
+          <Typography className="vernacular">Sl. 88, 6</Typography> Senhor, os
+          céus proclamam as vossas maravilhas e a vossa verdade na assembleia
+          dos Santos. Aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Jo. 15, 16</Typography> Fui Eu quem vos
+          escolheu no mundo, a fim de que possais ir (pelo mundo), alcanceis
+          frutos e esses frutos permaneçam Aleluia.
         </Typography>
       </Language>
 

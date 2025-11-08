@@ -51,13 +51,13 @@ export default function Page1212Brasil() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Cant. 2, 12</Typography> Flores apparuérunt in terra
-          nostra, tempus putatiónis advénit. Allelúia.
+          <Typography className="latin">Cant. 2, 12</Typography> Flores
+          apparuérunt in terra nostra, tempus putatiónis advénit. Allelúia.
         </Typography>
         <Typography className="vernacular">
           Aleluta, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ct. 2, 12</Typography> As flores apareceram em
-          nossa terra; chegou o tempo da poda. Aleluía.
+          <Typography className="vernacular">Ct. 2, 12</Typography> As flores
+          apareceram em nossa terra; chegou o tempo da poda. Aleluía.
         </Typography>
       </Language>
       <H3 text="Evangelho" />

@@ -36,17 +36,18 @@ export default function Page0915() {
         <Typography className="latin">
           Stabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, María
           Cléophæ, et Salóme et María Magdaléne.{" "}
-          <Typography className="latin">ibid., 26-27</Typography> Múlier, ecce fílius tuus:
-          dixit Jesus; ad discípulum autem: Ecce Mater tua.
+          <Typography className="latin">ibid., 26-27</Typography> Múlier, ecce
+          fílius tuus: dixit Jesus; ad discípulum autem: Ecce Mater tua.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Estavam junto à Cruz de Jesus, sua Mãe, a irmã de sua Mãe, Maria,
           mulher de Cléofas, Salomé e Maria Madalena.{" "}
-          <Typography className="vernacular">ibid., 26-27</Typography> «Mulher disse Jesus
-          eis o vosso Filho»; e, dirigindo-se ao discípulo, disse: «Eis a tua
-          Mãe».<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">ibid., 26-27</Typography> «Mulher
+          disse Jesus eis o vosso Filho»; e, dirigindo-se ao discípulo, disse:
+          «Eis a tua Mãe».<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -77,7 +78,9 @@ export default function Page0915() {
 
       <Language>
         <Typography className="latin">Léctio libri Judith.</Typography>
-        <Typography className="vernacular">Lição do Livro de Judite.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro de Judite.
+        </Typography>
         <Typography className="latin">
           Benedíxit te Dóminus in virtúte sua, quia per te ad níhilum redégit
           inimícos nostros. Benedícta es tu, fília, a Dómino, Deo excélso, præ
@@ -104,25 +107,26 @@ export default function Page0915() {
         <Typography className="latin">
           Dolorósa et lacrimábilis es, Virgo María, stans juxta Crucem Dómini
           Jesu, Fílii tui, Redemptóris.
-          <Typography className="versicle"> ℣. </Typography>Virgo Dei Génetrix, quem totus
-          non capit orbis, hoc crucis fert supplícium, auctor vitæ factus homo.
+          <Typography className="versicle"> ℣. </Typography>Virgo Dei Génetrix,
+          quem totus non capit orbis, hoc crucis fert supplícium, auctor vitæ
+          factus homo.
         </Typography>
         <Typography className="vernacular">
           Cheia de dores e de lágrimas, ó Virgem Maria, estavas junto à Cruz do
           Senhor Jesus, vosso Filho e Redentor.
-          <Typography className="versicle"> ℣. </Typography>Ó Virgem, Mãe de Deus, Aquele a
-          quem o mundo não pode conter o autor da vida feito homem sofre este
-          suplício da cruz!
+          <Typography className="versicle"> ℣. </Typography>Ó Virgem, Mãe de
+          Deus, Aquele a quem o mundo não pode conter o autor da vida feito
+          homem sofre este suplício da cruz!
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Stabat sancta
-          María, cœli Regína et mundi Dómina, juxta Crucem Dómini nostri Jesu
-          Christi dolorósa.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Stabat sancta María, cœli Regína et mundi Dómina, juxta Crucem Dómini
+          nostri Jesu Christi dolorósa.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Estava
-          doloroso, junto à Cruz de nosso Senhor Jesus Cristo, a Rainha do céu e
-          Soberana do mundo, Santa Maria.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Estava doloroso, junto à Cruz de nosso Senhor Jesus Cristo, a Rainha
+          do céu e Soberana do mundo, Santa Maria.
         </Typography>
       </Language>
 
@@ -133,15 +137,17 @@ export default function Page0915() {
           Stabat sancta María, cœli Regína et mundi Dómina, juxta Crucem Dómini
           nostri Jesu Christi dolorósa.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Thren. 1, 12</Typography> O vos omnes, qui tránsitis
-          per viam, atténdite et vidéte, si est dolor sicut dolor meus.
+          <Typography className="latin">Thren. 1, 12</Typography> O vos omnes,
+          qui tránsitis per viam, atténdite et vidéte, si est dolor sicut dolor
+          meus.
         </Typography>
         <Typography className="vernacular">
           Estava, dolorosa, Santa Maria, Rainha do céu e Senhora do mundo, junto
           à Cruz de nosso Senhor Jesus Cristo.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Lm. 1, 12</Typography> Ó vós todos, que passais
-          pelo mundo, atendei e vede se há dor semelhante à minha dor!
+          <Typography className="vernacular">Lm. 1, 12</Typography> Ó vós todos,
+          que passais pelo mundo, atendei e vede se há dor semelhante à minha
+          dor!
         </Typography>
       </Language>
 

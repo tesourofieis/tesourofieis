@@ -20,21 +20,22 @@ export default function Page30Missamaria4() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Num. 17, 8</Typography> Virga Jesse flóruit: Virgo
-          Deum et hóminem génuit: pacem Deus réddidit, in se reconcílians ima
-          summis. Allelúja.
+          <Typography className="latin">Num. 17, 8</Typography> Virga Jesse
+          flóruit: Virgo Deum et hóminem génuit: pacem Deus réddidit, in se
+          reconcílians ima summis. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Luc. 1, 28</Typography> Ave, María, grátia plena;
-          Dóminus tecum: benedícta tu in muliéribus. Allelúja.
+          <Typography className="em">Luc. 1, 28</Typography> Ave, María, grátia
+          plena; Dóminus tecum: benedícta tu in muliéribus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Nm. 17, 8</Typography> A vara de Jessé
-          floresceu: e a Virgem deu à luz o Homem-Deus: restabeleceu Deus a paz,
-          conciliando na sua pessoa a nossa baixeza com sua suprema grandeza.
-          Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Lc. 1, 28</Typography> Ave, Maria, cheia de graça: o
-          Senhor é convosco: bendita sois vós entre as mulheres. Aleluia.
+          <Typography className="vernacular">Nm. 17, 8</Typography> A vara de
+          Jessé floresceu: e a Virgem deu à luz o Homem-Deus: restabeleceu Deus
+          a paz, conciliando na sua pessoa a nossa baixeza com sua suprema
+          grandeza. Aleluia.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Lc. 1, 28</Typography> Ave, Maria, cheia de
+          graça: o Senhor é convosco: bendita sois vós entre as mulheres.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -44,12 +45,12 @@ export default function Page30Missamaria4() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Stabant juxta Crucem Jesu Mater ejus, et soror Matris

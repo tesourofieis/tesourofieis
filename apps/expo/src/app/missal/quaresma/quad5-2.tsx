@@ -15,14 +15,14 @@ export default function PageQuad52() {
       <Language>
         <Typography className="latin">
           Exspécta Dóminum, viríliter age: et confortétur cor tuum, et sústine
-          Dóminum. <Typography className="latin">Ps. ibid., 1</Typography> Dóminus
-          illuminátio mea et salus mea: quem timebo?
+          Dóminum. <Typography className="latin">Ps. ibid., 1</Typography>{" "}
+          Dóminus illuminátio mea et salus mea: quem timebo?
         </Typography>
         <Typography className="vernacular">
           Esperai no Senhor; procedei com firmeza e o vosso coração será
           confortado. Esperai, pois, no Senhor.{" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> O Senhor é a minha
-          luz e salvação. A quem hei-de temer?
+          <Typography className="vernacular">Sl. ibid., 1</Typography> O Senhor
+          é a minha luz e salvação. A quem hei-de temer?
         </Typography>
       </Language>
 
@@ -115,14 +115,15 @@ export default function PageQuad52() {
       <Language>
         <Typography className="latin">
           Discérne causam meam, Dómine: ab homine iníquo et dolóso éripe me.
-          <Typography className="versicle"> ℣. </Typography>Emítte lucem tuam et veritátem
-          tuam: ipsa me deduxérunt, et adduxérunt in montem sanctum tuum.
+          <Typography className="versicle"> ℣. </Typography>Emítte lucem tuam et
+          veritátem tuam: ipsa me deduxérunt, et adduxérunt in montem sanctum
+          tuum.
         </Typography>
         <Typography className="vernacular">
           Defendei a minha causa, Senhor: livrai-me do homem iníquo e
-          fraudulento.<Typography className="versicle"> ℣. </Typography>Que resplandeça em
-          mim a vossa luz e a vossa verdade: e elas me conduzirão e guiarão até
-          ao monte sagrado.
+          fraudulento.<Typography className="versicle"> ℣. </Typography>Que
+          resplandeça em mim a vossa luz e a vossa verdade: e elas me conduzirão
+          e guiarão até ao monte sagrado.
         </Typography>
       </Language>
 
@@ -132,12 +133,12 @@ export default function PageQuad52() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Ambulábat Jesus in Galilǽam, non enim volébat in

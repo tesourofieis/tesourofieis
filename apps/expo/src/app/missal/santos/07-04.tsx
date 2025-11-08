@@ -30,16 +30,17 @@ export default function Page0704() {
         <Typography className="latin">
           Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ
           Elisabeth reginæ: de cujus solemnitáte gaudent Angeli, et colláudant
-          Fílium Dei. <Typography className="latin">Ps. 118, 1</Typography> Beáti immaculáti
-          in via: qui ámbulant in lege Dómini.
+          Fílium Dei. <Typography className="latin">Ps. 118, 1</Typography>{" "}
+          Beáti immaculáti in via: qui ámbulant in lege Dómini.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Alegremo-nos todos no Senhor, no dia em que celebramos a festa em
           honra da B. Rainha Isabel: os Anjos regozijam-se com esta festa e
           louvam em harmonias o Filho de Deus.{" "}
-          <Typography className="vernacular">Sl. 118, 1</Typography> Bem-aventurados aqueles
-          que procedem sem mácula: e que andam na lei do Senhor.
+          <Typography className="vernacular">Sl. 118, 1</Typography>{" "}
+          Bem-aventurados aqueles que procedem sem mácula: e que andam na lei do
+          Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -68,7 +69,9 @@ export default function Page0704() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Grátia super grátiam, múlier sancta et pudoráta. Omnis autem
           ponderátio non est digna continéntis ánimæ. Sicut sol óriens mundo in
@@ -98,25 +101,25 @@ export default function Page0704() {
           Verbo Dómini contínuit cælum: lenívit iracúndiam Dómini, et
           conciliávit cor Patris ad fílium.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 15</Typography> In vita sua fecit magnália,
-          et in morte mirabília operáta est.
+          <Typography className="latin">ibid., 15</Typography> In vita sua fecit
+          magnália, et in morte mirabília operáta est.
         </Typography>
         <Typography className="vernacular">
           Com a palavra do Senhor conteve o céu, afastou a ira do Senhor e
           conciliou o coração do pai com o do filho.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 15</Typography> Durante a sua vida
-          praticou maravilhas e na morte operou milagres.
+          <Typography className="vernacular">ibid., 15</Typography> Durante a
+          sua vida praticou maravilhas e na morte operou milagres.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Áspice, quæ
-          sólio résides, regína, supérno, nos quondam hic pópulos, Elisabétha,
-          tuos. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Áspice, quæ sólio résides, regína, supérno, nos quondam hic pópulos,
+          Elisabétha, tuos. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Ó Rainha
-          Isabel, que residis em excelso trono, olhai benignamente para nós, que
-          outrora fomos na terra vossos súbditos. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Ó
+          Rainha Isabel, que residis em excelso trono, olhai benignamente para
+          nós, que outrora fomos na terra vossos súbditos. Aleluia.
         </Typography>
       </Language>
 

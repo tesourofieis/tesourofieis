@@ -38,14 +38,14 @@ export default function Page1011() {
       <Language>
         <Typography className="latin">
           Ecce Virgo concípiet, et páriet fílium, et vocábitur nomen ejus
-          Emmánuel. <Typography className="latin">Ps. 97, 1</Typography> Cantáte Dómino
-          cánticum novum: quia mirabília fecit.
+          Emmánuel. <Typography className="latin">Ps. 97, 1</Typography> Cantáte
+          Dómino cánticum novum: quia mirabília fecit.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Eis que a virgem conceberá e dará à luz um Filho, cujo nome será
-          Emanuel. <Typography className="vernacular">Sl. 97, 1</Typography> Cantai ao
-          Senhor um cântico novo, porque Ele praticou maravilhas.
+          Emanuel. <Typography className="vernacular">Sl. 97, 1</Typography>{" "}
+          Cantai ao Senhor um cântico novo, porque Ele praticou maravilhas.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -82,23 +82,23 @@ export default function Page1011() {
       <Language>
         <Typography className="latin">
           Egrediétur virga de rádice Jesse, et flos de rádice ejus ascéndet.
-          <Typography className="versicle"> ℣. </Typography>Et requiéscet super eum Spíritus
-          Dómini.
+          <Typography className="versicle"> ℣. </Typography>Et requiéscet super
+          eum Spíritus Dómini.
         </Typography>
         <Typography className="vernacular">
           Sairá uma vara do tronco de Jessé e uma flor brotará da sua raiz.
-          <Typography className="versicle"> ℣. </Typography>E o espírito do Senhor repousará
-          sobre ela.
+          <Typography className="versicle"> ℣. </Typography>E o espírito do
+          Senhor repousará sobre ela.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Virgo Dei
-          Génitrix, quem totus non capit orbis, in tua se clausit víscera factus
-          homo. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Virgo Dei Génitrix, quem totus non capit orbis, in tua se clausit
+          víscera factus homo. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Ó Virgem,
-          Aquele que todo o mundo não é capaz de conter, quando se fez homem,
-          esteve encerrado no vosso seio. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Ó
+          Virgem, Aquele que todo o mundo não é capaz de conter, quando se fez
+          homem, esteve encerrado no vosso seio. Aleluia.
         </Typography>
       </Language>
 
@@ -108,12 +108,12 @@ export default function Page1011() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Cum redírent, remánsit puer Jesus in Jerúsalem, et

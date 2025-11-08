@@ -14,14 +14,15 @@ export default function Page0319() {
         <Typography className="latin">
           Justus ut palma florébit: sicut cedrus Líbani multiplicábitur:
           plantátus in domo Dómini: in átriis domus Dei nostri. (T. P. Allelúja,
-          allelúja.) <Typography className="latin">Ps. ibid., 2</Typography> Bonum est
-          confiteri Dómino: et psállere nómini tuo, Altíssime.
+          allelúja.) <Typography className="latin">Ps. ibid., 2</Typography>{" "}
+          Bonum est confiteri Dómino: et psállere nómini tuo, Altíssime.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O justo florescerá, como a palmeira, e multiplicar-se-á, como o cedro
           do Líbano: Ele está plantado na casa do Senhor, nos átrios da casa do
-          nosso Deus. <Typography className="vernacular">Sl. ibid., 2</Typography> É bom
+          nosso Deus.{" "}
+          <Typography className="vernacular">Sl. ibid., 2</Typography> É bom
           louvar o Senhor: e cantar hinos em honra do vosso nome, ó Altíssimo.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
@@ -49,7 +50,9 @@ export default function Page0319() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Diléctus Deo et homínibus, cujus memória in benedictióne est. Símilem
           illum fecit in glória sanctórum, et magnificávit eum in timóre
@@ -80,8 +83,8 @@ export default function Page0319() {
         <Typography className="latin">
           Dómine, prævenísti eum in benedictiónibus dulcédinis: posuísti in
           cápite ejus corónam de lápide pretióso.
-          <Typography className="versicle"> ℣. </Typography>Vitam pétiit a te, et tribuísti
-          ei longitúdinem diérum in sǽculum sǽculi.
+          <Typography className="versicle"> ℣. </Typography>Vitam pétiit a te,
+          et tribuísti ei longitúdinem diérum in sǽculum sǽculi.
         </Typography>
         <Typography className="vernacular">
           Senhor, concedestes-lhe bênçãos escolhidas as mais suaves; e
@@ -101,8 +104,8 @@ export default function Page0319() {
           Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.
           <Typography className="versicle"> ℣. </Typography>
           Potens in terra erit semen ejus: generátio rectórum benedicétur.
-          <Typography className="versicle"> ℣. </Typography>Glória et divítiæ in domo ejus:
-          et justítia ejus manet in sǽculum sǽculi.
+          <Typography className="versicle"> ℣. </Typography>Glória et divítiæ in
+          domo ejus: et justítia ejus manet in sǽculum sǽculi.
         </Typography>
         <Typography className="vernacular">
           Bem-aventuradourado o varão que teme o Senhor e que emprega todo o
@@ -119,19 +122,19 @@ export default function Page0319() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Eccli. 45, 9</Typography> Amávit eum Dóminus, et
-          ornávit eum: stolam glóriæ índuit eum. Allelúja.
+          <Typography className="latin">Eccli. 45, 9</Typography> Amávit eum
+          Dóminus, et ornávit eum: stolam glóriæ índuit eum. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Osee 14, 6</Typography> Justus germinábit sicut lílium:
-          et florébit in ætérnum ante Dóminum. Allelúja.
+          <Typography className="em">Osee 14, 6</Typography> Justus germinábit
+          sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ecl. 45, 9</Typography> O Senhor o amou e
-          adornou: e revestiu-o com uma túnica de glória. Aleluia.
+          <Typography className="vernacular">Ecl. 45, 9</Typography> O Senhor o
+          amou e adornou: e revestiu-o com uma túnica de glória. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Os. 14, 6</Typography> O justo florescerá, como a
-          palmeira, e crescerá, como o cedro do Líbano.
+          <Typography className="em">Os. 14, 6</Typography> O justo florescerá,
+          como a palmeira, e crescerá, como o cedro do Líbano.
         </Typography>
       </Language>
 
@@ -141,12 +144,12 @@ export default function Page0319() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           Cum esset desponsáta Mater Jesu María Joseph, ántequam convenírent,

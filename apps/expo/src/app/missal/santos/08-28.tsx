@@ -72,23 +72,23 @@ export default function Page0828() {
       <Language>
         <Typography className="latin">
           Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.
-          <Typography className="versicle"> ℣. </Typography>Lex Dei ejus in corde ipsíus: et
-          non supplantabúntur gressus ejus.
+          <Typography className="versicle"> ℣. </Typography>Lex Dei ejus in
+          corde ipsíus: et non supplantabúntur gressus ejus.
         </Typography>
         <Typography className="vernacular">
           A boca do justo falará com sabedoria e a sua língua proclamará a
-          justiça.<Typography className="versicle"> ℣. </Typography>A lei do seu Deus está
-          no seu coração e os seus pés não tropeçarão.
+          justiça.<Typography className="versicle"> ℣. </Typography>A lei do seu
+          Deus está no seu coração e os seus pés não tropeçarão.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 88, 21</Typography> Invéni David servum meum,
-          óleo sancto meo unxi eum. Allelúja.
+          <Typography className="latin">Ps. 88, 21</Typography> Invéni David
+          servum meum, óleo sancto meo unxi eum. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 88, 21</Typography> Encontrei o meu servo
-          David e ungi-o com meu óleo sagrado. Aleluia.
+          <Typography className="vernacular">Sl. 88, 21</Typography> Encontrei o
+          meu servo David e ungi-o com meu óleo sagrado. Aleluia.
         </Typography>
       </Language>
     </PageWrapper>

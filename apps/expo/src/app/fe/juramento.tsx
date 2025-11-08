@@ -10,30 +10,31 @@ export default function PageJuramento() {
 
       <Language>
         <Typography className="latin">
-          Ego <Typography className="latin">N.</Typography> firmiter amplector ac recipio
-          omnia et singula, quæ ab inerranti Ecclesiæ magisterio definita,
-          adserta ac dedarata sunt, præsertim ea doctrinæ capita, quæ huius
-          temporis erroribus directo adversantur.
+          Ego <Typography className="latin">N.</Typography> firmiter amplector
+          ac recipio omnia et singula, quæ ab inerranti Ecclesiæ magisterio
+          definita, adserta ac dedarata sunt, præsertim ea doctrinæ capita, quæ
+          huius temporis erroribus directo adversantur.
         </Typography>
         <Typography className="vernacular">
-          Eu, <Typography className="vernacular">N.</Typography>, firmemente aceito e creio
-          em todas e em cada uma das verdades definidas, afirmadas e declaradas
-          pelo magistério infalível da Igreja, sobretudo aqueles princípios
-          doutrinais que contradizem directamente os erros do tempo presente.
+          Eu, <Typography className="vernacular">N.</Typography>, firmemente
+          aceito e creio em todas e em cada uma das verdades definidas,
+          afirmadas e declaradas pelo magistério infalível da Igreja, sobretudo
+          aqueles princípios doutrinais que contradizem directamente os erros do
+          tempo presente.
         </Typography>
         <Typography className="latin">
           Ac primum quidem: Deum, rerum omnium principium et finem, naturali
           rationis lumine per ea quæ facta sunt{" "}
-          <Typography className="latin">(Rom 1, 20)</Typography>, hoc est, per visibilia
-          creationis opera, tamquam causam per effectus, certo cognosci, ideoque
-          demonstrari etiam posse, profiteor.
+          <Typography className="latin">(Rom 1, 20)</Typography>, hoc est, per
+          visibilia creationis opera, tamquam causam per effectus, certo
+          cognosci, ideoque demonstrari etiam posse, profiteor.
         </Typography>
         <Typography className="vernacular">
           Primeiro: creio que Deus, princípio e fim de todas as cousas, pode ser
           conhecido com certeza e pode também ser demonstrado, com as luzes da
           razão natural, nas obras por Ele realizadas{" "}
-          <Typography className="vernacular">(Cf. Rm I 20)</Typography>, isto é, nas
-          criaturas visíveis, como (se conhece) a causa pelos seus efeitos.
+          <Typography className="vernacular">(Cf. Rm I 20)</Typography>, isto é,
+          nas criaturas visíveis, como (se conhece) a causa pelos seus efeitos.
         </Typography>
         <Typography className="latin">
           Secundo: externa revelationis argumenta, hoc est facta divina, in

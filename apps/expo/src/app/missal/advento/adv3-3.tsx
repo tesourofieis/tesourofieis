@@ -15,20 +15,24 @@ export default function PageAdv33() {
       <Language>
         <Typography className="latin">
           Roráte, cœli, désuper, et nubes pluant justum: aperiátur terra, et
-          gérminet Salvatórem. <Typography className="latin">Ps. 18, 2</Typography> Cœli
-          enárrant glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
+          gérminet Salvatórem.{" "}
+          <Typography className="latin">Ps. 18, 2</Typography> Cœli enárrant
+          glóriam Dei: et ópera mánuum ejus annúntiat firmaméntum.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Ó céus, derramai dessas alturas o vosso orvalho: e que as nuvens
           chovam o Justo! Abra-se a terra e floresça o Salvador!{" "}
-          <Typography className="vernacular">Ps. 18, 2</Typography> Os céus proclamam a
-          glória de Deus: e o firmamento anuncia as obras das suas mãos.
+          <Typography className="vernacular">Ps. 18, 2</Typography> Os céus
+          proclamam a glória de Deus: e o firmamento anuncia as obras das suas
+          mãos.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
-      <Typography className="aside">Depois do Kyrie eleison o Padre diz:</Typography>
+      <Typography className="aside">
+        Depois do Kyrie eleison o Padre diz:
+      </Typography>
 
       <Language>
         <Typography className="latin">
@@ -107,16 +111,17 @@ export default function PageAdv33() {
       <Language>
         <Typography className="latin">
           Tóllite portas, principes, vestras: et elevámini, portæ æternáles: et
-          introíbit Rex glóriæ,<Typography className="versicle"> ℣. </Typography>Quis
-          ascéndet in montem Dómini? aut quis stabit in loco sancto ejus?
-          Innocens mánibus et mundo corde.
+          introíbit Rex glóriæ,
+          <Typography className="versicle"> ℣. </Typography>Quis ascéndet in
+          montem Dómini? aut quis stabit in loco sancto ejus? Innocens mánibus
+          et mundo corde.
         </Typography>
         <Typography className="vernacular">
           Ó portas, abri-vos inteiramente! Abri-vos, ó portas eternas! Então,
           entrará o Rei da glória!
-          <Typography className="versicle"> ℣. </Typography>Quem será digno de subir à
-          montanha do Senhor? Quem será digno de permanecer no santuário? Aquele
-          que tiver as mãos inocentes e o coração puro.
+          <Typography className="versicle"> ℣. </Typography>Quem será digno de
+          subir à montanha do Senhor? Quem será digno de permanecer no
+          santuário? Aquele que tiver as mãos inocentes e o coração puro.
         </Typography>
       </Language>
 
@@ -172,8 +177,8 @@ export default function PageAdv33() {
       <Language>
         <Typography className="latin">
           Prope est Dóminus ómnibus invocántibus eum: ómnibus qui ínvocant eum
-          in veritáte.<Typography className="versicle"> ℣. </Typography>Laudem Dómini
-          loquétur os meum: et benedícat omnis caro nomen sanctum ejus.
+          in veritáte.<Typography className="versicle"> ℣. </Typography>Laudem
+          Dómini loquétur os meum: et benedícat omnis caro nomen sanctum ejus.
         </Typography>
         <Typography className="vernacular">
           O Senhor está perto de todos aqueles que o invocam: de todos que com
@@ -188,12 +193,12 @@ export default function PageAdv33() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo tempore: Missus est Angelus Gábriel a Deo in civitatem

@@ -14,16 +14,17 @@ export default function PageEpi10() {
         <Typography className="latin">
           In excélso throno vidi sedére virum, quem adórat multitúdo Angelórum,
           psalléntes in unum: ecce, cujus impérii nomen est in ætérnum.{" "}
-          <Typography className="latin">Ps. 99, 1</Typography> Jubiláte Deo, omnis terra:
-          servíte Dómino in lætítia.
+          <Typography className="latin">Ps. 99, 1</Typography> Jubiláte Deo,
+          omnis terra: servíte Dómino in lætítia.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Vi um Homem, sentado em um trono muito elevado, a quem a multidão dos
           Anjos adorava, cantando em coro de vozes: «Eis Aquele cujo império é
-          eterno!» <Typography className="vernacular">Sl. 99, 1</Typography> Aclamai
-          jubilosamente o Senhor, ó habitantes da terra: obedecei ao Senhor com
-          alegria.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          eterno!» <Typography className="vernacular">Sl. 99, 1</Typography>{" "}
+          Aclamai jubilosamente o Senhor, ó habitantes da terra: obedecei ao
+          Senhor com alegria.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -90,8 +91,8 @@ export default function PageEpi10() {
       <Language>
         <Typography className="latin">
           Benedíctus Dóminus, Deus Israël, qui facit mirabília magna solus a
-          sǽculo.<Typography className="versicle"> ℣. </Typography>Suscípiant montes pacem
-          pópulo tuo, et colles justítiam.
+          sǽculo.<Typography className="versicle"> ℣. </Typography>Suscípiant
+          montes pacem pópulo tuo, et colles justítiam.
         </Typography>
         <Typography className="vernacular">
           Bendito seja o Senhor Deus de Israel, pois somente Ele opera prodígios
@@ -102,14 +103,14 @@ export default function PageEpi10() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 99, 1</Typography> Jubiláte Deo, omnis terra:
-          servíte Dómino in lætítia. Allelúja.
+          <Typography className="latin">Ps. 99, 1</Typography> Jubiláte Deo,
+          omnis terra: servíte Dómino in lætítia. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 99, 1</Typography> Aclamai jubilosamente o
-          Senhor, ó habitantes da terra: obedecei ao Senhor com alegria.
-          Aleluia.
+          <Typography className="vernacular">Sl. 99, 1</Typography> Aclamai
+          jubilosamente o Senhor, ó habitantes da terra: obedecei ao Senhor com
+          alegria. Aleluia.
         </Typography>
       </Language>
 
@@ -119,12 +120,12 @@ export default function PageEpi10() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           Cum factus esset Jesus annórum duódecim, ascendéntibus illis

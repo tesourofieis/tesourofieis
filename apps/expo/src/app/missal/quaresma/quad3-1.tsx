@@ -17,17 +17,17 @@ export default function PageQuad31() {
         <Typography className="latin">
           In Deo laudábo verbum, in Dómino laudábo sermónem: in Deo sperábo, non
           timebo, quid fáciat mihi homo.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> Miserére mei, Deus,
-          quóniam conculcávit me homo: tota die bellans tribulávit me.
+          <Typography className="latin">Ps. ibid., 2</Typography> Miserére mei,
+          Deus, quóniam conculcávit me homo: tota die bellans tribulávit me.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Auxiliado com a graça de Deus, louvarei a sua palavra: auxiliado com a
           graça do Senhor, louvarei a sua doutrina; tenho esperança em Deus e
           não temo: o que poderá fazer o homem contra mim?{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Tende compaixão de
-          mim, meu Deus, pois o homem espezinha-me, persegue-me continuamente e
-          enche-me de tribulações.
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Tende
+          compaixão de mim, meu Deus, pois o homem espezinha-me, persegue-me
+          continuamente e enche-me de tribulações.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -141,14 +141,14 @@ export default function PageQuad31() {
       <Language>
         <Typography className="latin">
           Deus, vitam meam annuntiávi tibi: posuísti lácrimas meas in conspéctu
-          tuo.<Typography className="versicle"> ℣. </Typography>Miserére mei, Dómine,
-          quóniam conculcávit me homo: tota die bellans tribulávit me.
+          tuo.<Typography className="versicle"> ℣. </Typography>Miserére mei,
+          Dómine, quóniam conculcávit me homo: tota die bellans tribulávit me.
         </Typography>
         <Typography className="vernacular">
           Ó Deus, narrei-Vos toda minha vida: e vistes as minhas lágrimas.
-          <Typography className="versicle"> ℣. </Typography>Tende compaixão de mim, meu
-          Deus, pois o homem espezinhou-me: continuamente me persegue e enche de
-          tribulações.
+          <Typography className="versicle"> ℣. </Typography>Tende compaixão de
+          mim, meu Deus, pois o homem espezinhou-me: continuamente me persegue e
+          enche de tribulações.
         </Typography>
       </Language>
 
@@ -165,12 +165,12 @@ export default function PageQuad31() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus pharisǽis: Utique dicétis mihi hanc

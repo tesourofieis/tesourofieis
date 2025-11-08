@@ -15,15 +15,16 @@ export default function Page27Missamaria1() {
       <Language>
         <Typography className="latin">
           Roráte, cœli, désuper, et nubes pluant justum: aperiátur terra, et
-          gérminet Salvatórem. <Typography className="latin">Ps. 84, 2</Typography>{" "}
-          Benedixísti, Domine, terram tuam: avertísti captivitátem Jacob.
+          gérminet Salvatórem.{" "}
+          <Typography className="latin">Ps. 84, 2</Typography> Benedixísti,
+          Domine, terram tuam: avertísti captivitátem Jacob.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Ó céus, derramai dessas alturas o vosso orvalho: e que as nuvens
           chovam o Justo! Abra-se a terra e floresça o Salvador!{" "}
-          <Typography className="vernacular">Sl. 84, 2</Typography> Abençoastes, Senhor, a
-          vossa terra e acabastes com a escravidão de Jacob.
+          <Typography className="vernacular">Sl. 84, 2</Typography> Abençoastes,
+          Senhor, a vossa terra e acabastes com a escravidão de Jacob.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -82,29 +83,30 @@ export default function Page27Missamaria1() {
       <Language>
         <Typography className="latin">
           Tóllite portas, príncipes, vestras: et elevámini, portæ æternáles: et
-          introívit Rex glóriæ.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 3-4</Typography> Quis ascéndet in montem
-          Dómini? aut quis stabit in loco sancto ejus? Innocens mánibus et mundo
-          corde.
+          introívit Rex glóriæ.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">ibid., 3-4</Typography> Quis ascéndet in
+          montem Dómini? aut quis stabit in loco sancto ejus? Innocens mánibus
+          et mundo corde.
         </Typography>
         <Typography className="vernacular">
           Abri inteiramente as vossas frentes, ó portas; abri-vos, ó portas
           eternas! Então entrará o Rei da glória!
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 3-4</Typography> Quem subirá ao monte do
-          Senhor? Quem permanecerá no seu santuário? Aquele que tiver as mãos
-          inocentes e o coração limpo.
+          <Typography className="vernacular">ibid., 3-4</Typography> Quem subirá
+          ao monte do Senhor? Quem permanecerá no seu santuário? Aquele que
+          tiver as mãos inocentes e o coração limpo.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Luc. 1, 28</Typography> Ave, María, grátia plena;
-          Dóminus tecum: benedícta tu in muliéribus. Allelúja.
+          <Typography className="latin">Luc. 1, 28</Typography> Ave, María,
+          grátia plena; Dóminus tecum: benedícta tu in muliéribus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Lc. 1, 28</Typography> Ave, Maria, cheia de
-          graça: o Senhor é convosco: bendita sois vós entre as mulheres.
-          Aleluia.
+          <Typography className="vernacular">Lc. 1, 28</Typography> Ave, Maria,
+          cheia de graça: o Senhor é convosco: bendita sois vós entre as
+          mulheres. Aleluia.
         </Typography>
       </Language>
 
@@ -114,12 +116,12 @@ export default function Page27Missamaria1() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Missus est Angelus Gábriël a Deo in civitátem

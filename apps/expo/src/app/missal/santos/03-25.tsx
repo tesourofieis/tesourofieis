@@ -17,16 +17,17 @@ export default function Page0325() {
           Vultum tuum deprecabúntur omnes dívites plebis: adducántur Regi
           Vírgines post eam: próximæ ejus adducántur tibi in lætítia et
           exsultatióne. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. ib., 2</Typography> Eructávit cor meum verbum
-          bonum: dico ego ópera mea Regi.
+          <Typography className="latin">Ps. ib., 2</Typography> Eructávit cor
+          meum verbum bonum: dico ego ópera mea Regi.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Todos os poderosos da terra implorarão os vossos olhares: após ela
           serão apresentadas virgens ao Rei: as suas companheiras serão
           apresentadas ao Rei com grande alegria e jubilo. (T. P. Aleluia,
-          aleluia). <Typography className="vernacular">Sl. ib., 2</Typography> Meu coração
-          exprimiu uma palavra excelente: «Consagro ao Rei as minhas obras!».
+          aleluia). <Typography className="vernacular">Sl. ib., 2</Typography>{" "}
+          Meu coração exprimiu uma palavra excelente: «Consagro ao Rei as minhas
+          obras!».
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -85,8 +86,9 @@ export default function Page0325() {
       <Language>
         <Typography className="latin">
           Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in
-          ætérnum.<Typography className="versicle"> ℣. </Typography>Propter veritátem et
-          mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.
+          ætérnum.<Typography className="versicle"> ℣. </Typography>Propter
+          veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter
+          déxtera tua.
         </Typography>
         <Typography className="vernacular">
           A graça espalhou-se nos vossos lábios; eis porque Deus vos abençoou
@@ -107,23 +109,23 @@ export default function Page0325() {
           <Typography className="latin">ibid., 13 & 10</Typography> Vultum tuum
           deprecabúntur omnes dívites plebis: fíliæ regum in honóre tuo.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">ibid., 15-16</Typography> Adducántur Regi Vírgines post
-          eam: próximæ ejus afferéntur tibi.
-          <Typography className="versicle"> ℣. </Typography>Adducántur in lætítia et
-          exsultatióne: adducántur in templum Regis.
+          <Typography className="em">ibid., 15-16</Typography> Adducántur Regi
+          Vírgines post eam: próximæ ejus afferéntur tibi.
+          <Typography className="versicle"> ℣. </Typography>Adducántur in
+          lætítia et exsultatióne: adducántur in templum Regis.
         </Typography>
         <Typography className="vernacular">
           Ouvi, minha filha, vede e abri os vossos ouvidos; pois o Rei está
           extasiado com vossa formosura.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 13 & 10</Typography> Todos os poderosos
-          da terra implorarão os vossos olhares; as filhas dos reis formarão a
-          vossa corte de honra.
+          <Typography className="vernacular">ibid., 13 & 10</Typography> Todos
+          os poderosos da terra implorarão os vossos olhares; as filhas dos reis
+          formarão a vossa corte de honra.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">ibid., 15-16</Typography> As virgens serão apresentados
-          ao Rei após ela: as suas companheiras ser-vos-ão apresentadas. Serão
-          conduzidas por entre a alegria e o júbilo e apresentadas no templo do
-          rei.
+          <Typography className="em">ibid., 15-16</Typography> As virgens serão
+          apresentados ao Rei após ela: as suas companheiras ser-vos-ão
+          apresentadas. Serão conduzidas por entre a alegria e o júbilo e
+          apresentadas no templo do rei.
         </Typography>
       </Language>
 
@@ -134,21 +136,22 @@ export default function Page0325() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Luc. 1, 28</Typography> Ave, María, grátia plena;
-          Dóminus tecum: benedicta tu in muliéribus. Allelúja.
+          <Typography className="latin">Luc. 1, 28</Typography> Ave, María,
+          grátia plena; Dóminus tecum: benedicta tu in muliéribus. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Num. 17, 8</Typography> Virga Jesse flóruit: Virgo Deum
-          et hóminem génuit: pacem Deus réddidit, in se reconcílians ima summis.
-          Allelúja.
+          <Typography className="em">Num. 17, 8</Typography> Virga Jesse
+          flóruit: Virgo Deum et hóminem génuit: pacem Deus réddidit, in se
+          reconcílians ima summis. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Lc. 1, 28</Typography> Ave, Maria: o Senhor é
-          convosco. Bendita sois Vós entre as mulheres. Aleluia.
+          <Typography className="vernacular">Lc. 1, 28</Typography> Ave, Maria:
+          o Senhor é convosco. Bendita sois Vós entre as mulheres. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Nm. 17, 8</Typography> A vara de Jessé floresceu e a
-          Virgem deu à luz o Homem-Deus: restabeleceu Deus a paz, reconciliando
-          na sua pessoa a nossa baixeza com a suprema grandeza. Aleluia.
+          <Typography className="em">Nm. 17, 8</Typography> A vara de Jessé
+          floresceu e a Virgem deu à luz o Homem-Deus: restabeleceu Deus a paz,
+          reconciliando na sua pessoa a nossa baixeza com a suprema grandeza.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -158,12 +161,12 @@ export default function Page0325() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Missus est Angelus Gábriel a Deo in civitátem

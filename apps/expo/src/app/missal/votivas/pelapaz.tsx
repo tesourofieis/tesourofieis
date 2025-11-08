@@ -16,16 +16,17 @@ export default function PagePelapaz() {
         <Typography className="latin">
           Da pacem, Dómine, sustinéntibus te, ut prophétæ tui fidéles
           inveniántur: exáudi preces servi tui, et plebis tuæ Israël. (T. P.
-          Allelúja, allelúja.) <Typography className="latin">Ps. 121, 1</Typography> Lætátus
-          sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.
+          Allelúja, allelúja.){" "}
+          <Typography className="latin">Ps. 121, 1</Typography> Lætátus sum in
+          his, quæ dicta sunt mihi: in domum Dómini íbimus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Dai a paz, Senhor, aos que em Vós esperam, para que os vossos Profetas
           sejam encontrados verdadeiros; ouvi as súplicas do vosso servo e de
           Israel, vosso povo. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. 121, 1</Typography> Regozijei-me quando me
-          disseram: iremos para a casa do Senhor.
+          <Typography className="vernacular">Sl. 121, 1</Typography>{" "}
+          Regozijei-me quando me disseram: iremos para a casa do Senhor.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -55,7 +56,9 @@ export default function PagePelapaz() {
 
       <Language>
         <Typography className="latin">Léctio libri Machabæórum.</Typography>
-        <Typography className="vernacular">Lição do Livro dos Macabeus.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro dos Macabeus.
+        </Typography>
         <Typography className="latin">
           Frátribus, qui sunt per Ægýptum, Judǽis, salutem dicunt fratres, qui
           sunt in Jerosólymis, Judǽi et qui in regióne Judǽæ, et pacem bonam.
@@ -85,24 +88,24 @@ export default function PagePelapaz() {
       <Language>
         <Typography className="latin">
           Rogáte quæ ad pacem sunt Jerúsalem: et abundántia diligéntibus te.
-          <Typography className="versicle"> ℣. </Typography>Fiat pax in virtúte tua, et
-          abundántia in túrribus tuis.
+          <Typography className="versicle"> ℣. </Typography>Fiat pax in virtúte
+          tua, et abundántia in túrribus tuis.
         </Typography>
         <Typography className="vernacular">
           Rogai ao Senhor que dê a paz aos que estão em Jerusalém. Que vivam na
           abundância dos bens aqueles que Vos amam, ó Sião.
-          <Typography className="versicle"> ℣. </Typography>Que haja paz nas tuas fortalezas
-          e abundância nas tuas torres.
+          <Typography className="versicle"> ℣. </Typography>Que haja paz nas
+          tuas fortalezas e abundância nas tuas torres.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 147, 12</Typography> Lauda, Jerúsalem, Dóminum:
-          lauda Deum tuum, Sion. Allelúja.
+          <Typography className="latin">Ps. 147, 12</Typography> Lauda,
+          Jerúsalem, Dóminum: lauda Deum tuum, Sion. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 147, 12</Typography> Louvai o Senhor, vosso
-          Deus, ó Sião. Aleluia.
+          <Typography className="vernacular">Sl. 147, 12</Typography> Louvai o
+          Senhor, vosso Deus, ó Sião. Aleluia.
         </Typography>
       </Language>
 
@@ -117,17 +120,17 @@ export default function PagePelapaz() {
       <Language>
         <Typography className="latin">
           Notus in Judǽa Deus, in Israël magnum nomen ejus.
-          <Typography className="versicle"> ℣. </Typography>Et factus est in pace locus
-          ejus, et habitátio ejus in Sion.
-          <Typography className="versicle"> ℣. </Typography>Ibi confrégit poténtias árcuum,
-          scutum, gládium, et bellum.
+          <Typography className="versicle"> ℣. </Typography>Et factus est in
+          pace locus ejus, et habitátio ejus in Sion.
+          <Typography className="versicle"> ℣. </Typography>Ibi confrégit
+          poténtias árcuum, scutum, gládium, et bellum.
         </Typography>
         <Typography className="vernacular">
           Deus é conhecido na Judeia; o seu nome é grande em Israel;
           <Typography className="versicle"> ℣. </Typography>
           Escolheu em Sião o seu lugar de repouso e aí permaneceu;
-          <Typography className="versicle"> ℣. </Typography>E contra os seus muros
-          quebraram-se os poderes dos arcos, dos escudos, das espadas e da
+          <Typography className="versicle"> ℣. </Typography>E contra os seus
+          muros quebraram-se os poderes dos arcos, dos escudos, das espadas e da
           própria guerra.
         </Typography>
       </Language>
@@ -139,19 +142,20 @@ export default function PagePelapaz() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 147, 12</Typography> Lauda, Jerúsalem, Dóminum:
-          lauda Deum tuum, Sion. Allelúja.
+          <Typography className="latin">Ps. 147, 12</Typography> Lauda,
+          Jerúsalem, Dóminum: lauda Deum tuum, Sion. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">ibid., 14</Typography> Qui pósuit fines tuos pacem, et
-          ádipe fruménti sátiat te. Allelúja.
+          <Typography className="em">ibid., 14</Typography> Qui pósuit fines
+          tuos pacem, et ádipe fruménti sátiat te. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 147, 12</Typography> Louvai o Senhor, ó
-          Jerusalém; louvai o vosso Deus, ó Sião. Aleluia.
+          <Typography className="vernacular">Sl. 147, 12</Typography> Louvai o
+          Senhor, ó Jerusalém; louvai o vosso Deus, ó Sião. Aleluia.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">ibid., 14</Typography> Ele estabeleceu a paz nas vossas
-          fronteiras e sustentou-vos com o pão mais fino. Aleluia.
+          <Typography className="em">ibid., 14</Typography> Ele estabeleceu a
+          paz nas vossas fronteiras e sustentou-vos com o pão mais fino.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -161,12 +165,12 @@ export default function PagePelapaz() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Cum sero esset die illo, una sabbatórum, et fores

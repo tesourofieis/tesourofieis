@@ -17,17 +17,18 @@ export default function Page24Nemvirgensnemmartires() {
           Cognóvi, Dómine, quia ǽquitas judícia tua, et in veritáte tua
           humiliásti me: confíge timóre tuo carnes meas, a mandátis tuis tímui.
           (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Beáti immaculáti in via:
-          qui ámbulant in lege Dómini.
+          <Typography className="latin">Ps. ibid., 1</Typography> Beáti
+          immaculáti in via: qui ámbulant in lege Dómini.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Conheço, Senhor, que os vossos juízos são equitativos e que me
           humilhastes com justiça. Esmagai as minhas carnes com vosso temor; os
           vossos Mandamentos inspiram-me temor. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. ibid., 1</Typography> Bem-aventurados
-          aqueles que são imaculados nos seus caminhos e cumprem a lei do
-          Senhor.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
+          Bem-aventurados aqueles que são imaculados nos seus caminhos e cumprem
+          a lei do Senhor.<Typography className="versicle"> ℣. </Typography>
+          Glória ao Pai...
         </Typography>
       </Language>
 
@@ -36,14 +37,14 @@ export default function Page24Nemvirgensnemmartires() {
       <Language>
         <Typography className="latin">
           Exáudi nos, Deus, salutáris noster: ut, sicut de beátæ{" "}
-          <Typography className="latin">N.</Typography> festivitáte gaudémus; ita piæ
-          devotiónis erudiámur afféctu. Per Dóminum...
+          <Typography className="latin">N.</Typography> festivitáte gaudémus;
+          ita piæ devotiónis erudiámur afféctu. Per Dóminum...
         </Typography>
         <Typography className="vernacular">
           Ouvi-nos, ó Deus, nosso salvador, a fim de que, assim como nos
           alegramos com a festa da vossa B.{" "}
-          <Typography className="vernacular">N.</Typography>, assim também consigamos os
-          afectos de uma pia devoção. Por nosso Senhor...
+          <Typography className="vernacular">N.</Typography>, assim também
+          consigamos os afectos de uma pia devoção. Por nosso Senhor...
         </Typography>
       </Language>
 
@@ -53,7 +54,9 @@ export default function Page24Nemvirgensnemmartires() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Mulíerem fortem quis invéniet? Procul et de últimis fínibus prétium
           ejus. Confídit in ea cor viri sui, et spóliis non indigébit. Reddet ei
@@ -114,8 +117,9 @@ export default function Page24Nemvirgensnemmartires() {
       <Language>
         <Typography className="latin">
           Diffúsa est grátia in labiis tuis: proptérea benedíxit te Deus in
-          ætérnum.<Typography className="versicle"> ℣. </Typography>Propter veritátem et
-          mansuetúdinem et justítiam: et de ducet te mirabíliter déxtera tua.
+          ætérnum.<Typography className="versicle"> ℣. </Typography>Propter
+          veritátem et mansuetúdinem et justítiam: et de ducet te mirabíliter
+          déxtera tua.
         </Typography>
         <Typography className="vernacular">
           A graça espalhou-se nos vossos lábios: eis porque Deus vos abençoou
@@ -125,13 +129,14 @@ export default function Page24Nemvirgensnemmartires() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 5</Typography> Spécie tua et pulchritúdine
-          tua inténde, próspere procéde et regna. Allelúja.
+          <Typography className="latin">ibid., 5</Typography> Spécie tua et
+          pulchritúdine tua inténde, próspere procéde et regna. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 5</Typography> Caminhai, pois, com
-          beleza e com majestade; ide gozar a vitória e reinai. Aleluia.
+          <Typography className="vernacular">ibid., 5</Typography> Caminhai,
+          pois, com beleza e com majestade; ide gozar a vitória e reinai.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -145,9 +150,9 @@ export default function Page24Nemvirgensnemmartires() {
         <Typography className="latin">
           Veni, Sponsa Christi, áccipe coronam, quam tibi Dóminus præparávit in
           ætérnum.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 44, 8 & 5</Typography> Dilexísti justítiam, et
-          odísti iniquitátem: proptérea unxit te Deus, Deus tuus, oleo lætítiæ
-          præ consórtibus tuis.
+          <Typography className="latin">Ps. 44, 8 & 5</Typography> Dilexísti
+          justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus,
+          oleo lætítiæ præ consórtibus tuis.
           <Typography className="versicle"> ℣. </Typography>
           Spécie tua et pulchritúdine tua inténde, próspere procéde et regna.
         </Typography>
@@ -155,11 +160,12 @@ export default function Page24Nemvirgensnemmartires() {
           Vinde, ó esposa de Cristo; vinde e recebei a coroa que o Senhor vos
           preparou para a eternidade.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 44, 8 & 5</Typography> Amastes a justiça e
-          odiastes a iniquidade: eis porque o Senhor, vosso Deus, vos ungiu com
-          o óleo da alegria, de preferências às vossas semelhantes.
-          <Typography className="versicle"> ℣. </Typography>Caminhai, pois, com beleza e com
-          majestade; ide gozar a vitória e reinai.
+          <Typography className="vernacular">Sl. 44, 8 & 5</Typography> Amastes
+          a justiça e odiastes a iniquidade: eis porque o Senhor, vosso Deus,
+          vos ungiu com o óleo da alegria, de preferências às vossas
+          semelhantes.
+          <Typography className="versicle"> ℣. </Typography>Caminhai, pois, com
+          beleza e com majestade; ide gozar a vitória e reinai.
         </Typography>
       </Language>
 
@@ -170,16 +176,16 @@ export default function Page24Nemvirgensnemmartires() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 44, 5</Typography> Spécie tua et pulchritúdine
-          tua inténde, próspere procéde et regna. Allelúja.
+          <Typography className="latin">Ps. 44, 5</Typography> Spécie tua et
+          pulchritúdine tua inténde, próspere procéde et regna. Allelúja.
           <Typography className="versicle"> ℣. </Typography>
           Propter veritátem et mansuetúdinem et justítiam: et dedúcet te
           mirabíliter déxtera tua. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 44, 5</Typography> Caminhai, pois, com
-          beleza e com majestade; ide gozar a vitória e reinai.
+          <Typography className="vernacular">Sl. 44, 5</Typography> Caminhai,
+          pois, com beleza e com majestade; ide gozar a vitória e reinai.
           <Typography className="versicle"> ℣. </Typography>
           Por causa da vossa verdade, mansidão e justiça, a vossa dextra
           praticará maravilhas. Aleluia.
@@ -192,12 +198,12 @@ export default function Page24Nemvirgensnemmartires() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Símile
@@ -295,7 +301,9 @@ export default function Page24Nemvirgensnemmartires() {
         </Typography>
       </Language>
 
-      <Typography className="aside">Outra Epístola (em certos dias):</Typography>
+      <Typography className="aside">
+        Outra Epístola (em certos dias):
+      </Typography>
 
       <H3 text="Epístola" />
 

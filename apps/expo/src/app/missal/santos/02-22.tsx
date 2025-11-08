@@ -16,15 +16,16 @@ export default function Page0222() {
         <Typography className="latin">
           Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit
           illi sacerdótii dígnitas in ætérnum.{" "}
-          <Typography className="latin">Ps. 131, 1</Typography> Meménto, Dómine, David: et
-          omnis mansuetúdinis ejus.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 131, 1</Typography> Meménto, Dómine,
+          David: et omnis mansuetúdinis ejus.
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O Senhor fez com ele uma aliança de paz e proclamou-o príncipe, para
           que a dignidade sacerdotal lhe pertencesse eternamente.{" "}
-          <Typography className="vernacular">Sl. 131, 1</Typography> Lembrai-Vos de David, ó
-          Senhor, e da sua grande solicitude.
+          <Typography className="vernacular">Sl. 131, 1</Typography> Lembrai-Vos
+          de David, ó Senhor, e da sua grande solicitude.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -83,8 +84,12 @@ export default function Page0222() {
       <Typography className="em">1 Pe. 1, 1-7</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Petri Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Pedro.
+        </Typography>
         <Typography className="latin">
           Petrus, Apóstolus Jesu Christi, eléctis ádvenis dispersiónis Ponti,
           Galátiæ, Cappadóciæ, Asiæ et Bithýniæ secúndum præsciéntiam Dei
@@ -128,24 +133,24 @@ export default function Page0222() {
       <Language>
         <Typography className="latin">
           Exáltent eum in Ecclésia plebis: et in cáthedra seniórum laudent eum.
-          <Typography className="versicle"> ℣. </Typography>Confiteántur Dómino misericórdiæ
-          ejus; et mirabília ejus fíliis hóminum.
+          <Typography className="versicle"> ℣. </Typography>Confiteántur Dómino
+          misericórdiæ ejus; et mirabília ejus fíliis hóminum.
         </Typography>
         <Typography className="vernacular">
           Exaltai-O na assembleia do povo e louvai-O no conselho dos anciãos.
-          <Typography className="versicle"> ℣. </Typography>Glorificai o Senhor pela sua
-          misericórdia e pelas suas maravilhas, operadas em favor dos filhos dos
-          homens.
+          <Typography className="versicle"> ℣. </Typography>Glorificai o Senhor
+          pela sua misericórdia e pelas suas maravilhas, operadas em favor dos
+          filhos dos homens.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Matth. 16, 18</Typography> Tu es Petrus, et super
-          hanc petram ædificábo Ecclésiam meam. Allelúja.
+          <Typography className="latin">Matth. 16, 18</Typography> Tu es Petrus,
+          et super hanc petram ædificábo Ecclésiam meam. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Mt. 16, 18</Typography> Tu és Pedro, e sobre
-          esta pedra edificarei a minha Igreja. Aleluia.
+          <Typography className="vernacular">Mt. 16, 18</Typography> Tu és
+          Pedro, e sobre esta pedra edificarei a minha Igreja. Aleluia.
         </Typography>
       </Language>
 
@@ -160,20 +165,22 @@ export default function Page0222() {
       <Language>
         <Typography className="latin">
           Petrus, et super hanc petram ædificábo Ecclésiam meam.
-          <Typography className="versicle"> ℣. </Typography>Et portæ ínferi non prævalébunt
-          advérsus eam: et tibi dabo claves regni cœlórum.
-          <Typography className="versicle"> ℣. </Typography>Quodcúmque ligáveris super
-          terram, erit ligátum et in cœlis.
-          <Typography className="versicle"> ℣. </Typography>Et quodcúmque sólveris super
-          terram, erit solútum et in cœlis.
+          <Typography className="versicle"> ℣. </Typography>Et portæ ínferi non
+          prævalébunt advérsus eam: et tibi dabo claves regni cœlórum.
+          <Typography className="versicle"> ℣. </Typography>Quodcúmque ligáveris
+          super terram, erit ligátum et in cœlis.
+          <Typography className="versicle"> ℣. </Typography>Et quodcúmque
+          sólveris super terram, erit solútum et in cœlis.
         </Typography>
         <Typography className="vernacular">
           Tu és Pedro, e sobre esta pedra edificarei a minha Igreja.
-          <Typography className="versicle"> ℣. </Typography>E as portas do inferno não
-          prevalecerão contra ela: E dar-te-ei as chaves do reino dos céus.
-          <Typography className="versicle"> ℣. </Typography>Tudo o que ligares sobre a terra
-          será ligado nos céus.<Typography className="versicle"> ℣. </Typography>E tudo o
-          que desligares sobre a terra será desligado nos céus.
+          <Typography className="versicle"> ℣. </Typography>E as portas do
+          inferno não prevalecerão contra ela: E dar-te-ei as chaves do reino
+          dos céus.
+          <Typography className="versicle"> ℣. </Typography>Tudo o que ligares
+          sobre a terra será ligado nos céus.
+          <Typography className="versicle"> ℣. </Typography>E tudo o que
+          desligares sobre a terra será desligado nos céus.
         </Typography>
       </Language>
 
@@ -183,12 +190,12 @@ export default function Page0222() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et

@@ -27,8 +27,8 @@ export default function PageConsagracaosagradocoracaojesus() {
         que de uma extremidade à outra da Terra ressoe esta única voz:
         <Typography className="versicle"> ℣. </Typography>
         Seja louvado este Coração do qual provém a nossa salvação!
-        <Typography className="response"> ℟. </Typography> A Ele a Honra e a Glória por
-        todos os séculos. Amen.
+        <Typography className="response"> ℟. </Typography> A Ele a Honra e a
+        Glória por todos os séculos. Amen.
       </Typography>
     </PageWrapper>
   );

@@ -17,7 +17,9 @@ export default function Page086() {
           Os seus fundamentos estão sobre os montes santos: * o Senhor ama as
           portas de Sião mais que todos os tabernáculos de Jacob.
         </Typography>
-        <Typography className="latin">Gloriósa dicta sunt de te, * cívitas Dei.</Typography>
+        <Typography className="latin">
+          Gloriósa dicta sunt de te, * cívitas Dei.
+        </Typography>
         <Typography className="vernacular">
           Coisas gloriosas se têm dito de ti, * ó cidade de Deus.
         </Typography>

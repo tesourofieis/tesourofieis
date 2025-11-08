@@ -96,19 +96,20 @@ export default function Page1111() {
         <Typography className="latin">
           Ecce sacérdos magnus, qui in diébus suis plácuit Deo.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 20</Typography> Non est invéntus símilis
-          illi, qui conserváret legem Excelsi.
+          <Typography className="latin">ibid., 20</Typography> Non est invéntus
+          símilis illi, qui conserváret legem Excelsi.
         </Typography>
         <Typography className="vernacular">
           Eis o grande sacerdote que nos dias da sua vida agradou a Deus.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 20</Typography> Ninguém o igualou na
-          observância das leis do Altíssimo.
+          <Typography className="vernacular">ibid., 20</Typography> Ninguém o
+          igualou na observância das leis do Altíssimo.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Beátus vir,
-          sanctus Martínus, urbis Turónis Epíscopus, requiévit: quem suscéperunt
-          Angeli atque Archángeli, Throni, Dominatiónes et Virtútes. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Beátus vir, sanctus Martínus, urbis Turónis Epíscopus, requiévit: quem
+          suscéperunt Angeli atque Archángeli, Throni, Dominatiónes et Virtútes.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O
@@ -124,12 +125,12 @@ export default function Page1111() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Nemo lucérnam accéndit,

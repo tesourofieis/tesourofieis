@@ -15,15 +15,17 @@ export default function Page1224() {
       <Language>
         <Typography className="latin">
           Hódie sciétis, quia véniet Dóminus et salvábit nos: et mane vidébitis
-          glóriam ejus. <Typography className="latin">Ps. 23, 1</Typography> Dómini est
-          terra, et plenitúdo ejus: orbis terrárum, et univérsi, qui hábitant in
-          eo.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+          glóriam ejus. <Typography className="latin">Ps. 23, 1</Typography>{" "}
+          Dómini est terra, et plenitúdo ejus: orbis terrárum, et univérsi, qui
+          hábitant in eo.<Typography className="versicle"> ℣. </Typography>
+          Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Sabereis hoje que o Senhor virá e nos salvará: e amanhã vereis a sua
-          glória. <Typography className="vernacular">Sl. 23, 1</Typography> Pertence ao
-          Senhor a terra e tudo o que ela encerra: o orbe da terra e todos que
-          nele habitam.<Typography className="versicle"> ℣. </Typography>
+          glória. <Typography className="vernacular">Sl. 23, 1</Typography>{" "}
+          Pertence ao Senhor a terra e tudo o que ela encerra: o orbe da terra e
+          todos que nele habitam.
+          <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
       </Language>
@@ -87,17 +89,17 @@ export default function Page1224() {
         <Typography className="latin">
           Hódie sciétis, quia véniet Dóminus et salvábit nos: et mane vidébitis
           glóriam ejus.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 79, 2–3</Typography> Qui regis Israël, inténde:
-          qui dedúcis, velut ovem, Joseph: qui sedes super Chérubim, appáre
-          coram Ephraim, Bénjamin, et Manásse.
+          <Typography className="latin">Ps. 79, 2–3</Typography> Qui regis
+          Israël, inténde: qui dedúcis, velut ovem, Joseph: qui sedes super
+          Chérubim, appáre coram Ephraim, Bénjamin, et Manásse.
         </Typography>
         <Typography className="vernacular">
           Sabereis hoje que o Senhor virá e nos salvará: e amanhã vereis a sua
           glória.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 79, 2–3</Typography> Ouvi, ó pastores de
-          Israel: ó vós, que conduzis José, como um pastor conduz uma ovelha.
-          Manifestai-Vos ante Efraim, Benjamim e Manassés, ó Vós, que tendes um
-          trono acima dos Querubins!
+          <Typography className="vernacular">Sl. 79, 2–3</Typography> Ouvi, ó
+          pastores de Israel: ó vós, que conduzis José, como um pastor conduz
+          uma ovelha. Manifestai-Vos ante Efraim, Benjamim e Manassés, ó Vós,
+          que tendes um trono acima dos Querubins!
         </Typography>
       </Language>
 
@@ -107,9 +109,9 @@ export default function Page1224() {
 
       <Language>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Crástina die
-          delébitur iníquitas terræ: et regnábit super nos Salvátor mundi.
-          Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Crástina die delébitur iníquitas terræ: et regnábit super nos Salvátor
+          mundi. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia. Amanhã será apagada a iniquidade da terra e o
@@ -123,12 +125,12 @@ export default function Page1224() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           Cum esset desponsáta Mater Jesu Maria Joseph, ántequam convenírent,

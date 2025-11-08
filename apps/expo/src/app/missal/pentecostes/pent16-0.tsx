@@ -16,16 +16,18 @@ export default function PagePent160() {
         <Typography className="latin">
           Miserére mihi, Dómine, quóniam ad te clamávi tota die: quia tu,
           Dómine, suávis ac mitis es, et copiósus in misericórdia ómnibus
-          invocántibus te. <Typography className="latin">Ps. ibid., 1</Typography> Inclína,
+          invocántibus te.{" "}
+          <Typography className="latin">Ps. ibid., 1</Typography> Inclína,
           Dómine, aurem tuam mihi, et exáudi me: quóniam inops, et pauper sum
           ego.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Tende misericórdia de mim, Senhor, pois por Vós clamei todo o dia,
           porquanto sois bom, clemente e compassivo para com aqueles que Vos
-          invocam. <Typography className="vernacular">Sl. ibid., 1</Typography> Inclinai
-          vossos ouvidos para mim, Senhor, e ouvi-me: pois sou necessitado,
-          infeliz e pobre.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          invocam. <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
+          Inclinai vossos ouvidos para mim, Senhor, e ouvi-me: pois sou
+          necessitado, infeliz e pobre.
+          <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
 
@@ -95,23 +97,24 @@ export default function PagePent160() {
       <Language>
         <Typography className="latin">
           Timébunt gentes nomen tuum, Dómine, et omnes reges terræ glóriam tuam.
-          <Typography className="versicle"> ℣. </Typography>Quóniam ædificávit Dóminus Sion,
-          et vidébitur in majestáte sua.
+          <Typography className="versicle"> ℣. </Typography>Quóniam ædificávit
+          Dóminus Sion, et vidébitur in majestáte sua.
         </Typography>
         <Typography className="vernacular">
           As nações temerão o vosso nome, Senhor, e todos os reis da terra
-          publicarão a vossa glória.<Typography className="versicle"> ℣. </Typography>
+          publicarão a vossa glória.
+          <Typography className="versicle"> ℣. </Typography>
           Pois o Senhor edificou Sião, onde fará resplandecer a sua majestade.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 97, 1</Typography> Cantáte Dómino cánticum
-          novum: quia mirabília fecit Dóminus. Allelúja.
+          <Typography className="latin">Ps. 97, 1</Typography> Cantáte Dómino
+          cánticum novum: quia mirabília fecit Dóminus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 97, 1</Typography> Cantai em honra do
-          Senhor um cântico, pois Ele operou maravilhas. Aleluia.
+          <Typography className="vernacular">Sl. 97, 1</Typography> Cantai em
+          honra do Senhor um cântico, pois Ele operou maravilhas. Aleluia.
         </Typography>
       </Language>
 
@@ -121,12 +124,12 @@ export default function PagePent160() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Cum intráret Jesus in domum cujúsdam príncipis

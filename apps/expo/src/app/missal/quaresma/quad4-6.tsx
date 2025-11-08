@@ -15,16 +15,16 @@ export default function PageQuad46() {
       <Language>
         <Typography className="latin">
           Sitiéntes, venite ad aquas, dicit Dóminus: et qui non habétis prétium,
-          veníte et bíbite cum lætítia. <Typography className="latin">Ps. 77, 1</Typography>{" "}
-          Atténdite, pópule meus, legem meam: inclináte aurem vestram in verba
-          oris mei.
+          veníte et bíbite cum lætítia.{" "}
+          <Typography className="latin">Ps. 77, 1</Typography> Atténdite, pópule
+          meus, legem meam: inclináte aurem vestram in verba oris mei.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Ó vós, que estais sedentos, diz o Senhor, vinde às águas: e, ainda que
           não tenhais dinheiro, vinde e bebei com alegria. Escutai a minha lei,
-          ó meu povo! <Typography className="vernacular">Sl. 77, 1</Typography> Inclinai os
-          vossos ouvidos às palavras que saem da minha boca.
+          ó meu povo! <Typography className="vernacular">Sl. 77, 1</Typography>{" "}
+          Inclinai os vossos ouvidos às palavras que saem da minha boca.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -114,12 +114,12 @@ export default function PageQuad46() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Locútus est Jesus turbis Judæórum, dicens: Ego sum

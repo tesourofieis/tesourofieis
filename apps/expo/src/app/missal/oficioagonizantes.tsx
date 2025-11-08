@@ -68,29 +68,29 @@ export default function PageOficioagonizantes() {
           Deus misericors, Deus clemens, Deus qui secundum multitudinem
           miserationum tuarum peccata paenitentium deles, et praeteritorum
           criminum culpas venia remissionis evacuas: respice propitius super
-          hunc famulum tuum <Typography className="latin">N.</Typography> (hanc famulam tuam{" "}
-          <Typography className="text-red-500">N.</Typography>), et remissionem ominum
-          peccatorum suorum tota cordis confessione poscentem deprecatus exaudi.
-          Renova in eo (ea), piissime Pater, quidquid terrena fragilitate
-          corruptum, vel quidquid diabolica fraude violatum est; et unitati
-          corporis Ecclesiae membrum redemptionis annecte Miserere, Domine,
-          gemituum, miserere lacrimarum eius; et, non habentem fiduciam, nisi in
-          tua misericordia, ad tuae sacramentum reconciliationis admitte. Per
-          Christum Dominum nostrum.
+          hunc famulum tuum <Typography className="latin">N.</Typography> (hanc
+          famulam tuam <Typography className="text-red-500">N.</Typography>), et
+          remissionem ominum peccatorum suorum tota cordis confessione poscentem
+          deprecatus exaudi. Renova in eo (ea), piissime Pater, quidquid terrena
+          fragilitate corruptum, vel quidquid diabolica fraude violatum est; et
+          unitati corporis Ecclesiae membrum redemptionis annecte Miserere,
+          Domine, gemituum, miserere lacrimarum eius; et, non habentem fiduciam,
+          nisi in tua misericordia, ad tuae sacramentum reconciliationis
+          admitte. Per Christum Dominum nostrum.
         </Typography>
         <Typography className="vernacular">
           Ó Deus clemente e misericordioso, que, segundo a grandeza e abundância
           das vossas misericórdias, apagais os pecados dos corações penitentes e
           que, pelo poder do vosso perdão, fazeis desaparecer as nódoas das suas
           culpas passadas, dignai-Vos olhar propício para o vosso servo (ou
-          vossa serva) <Typography className="vernacular">N.</Typography>, ouvi a súplica
-          que Vos dirige e concedei-lhe a remissão de todos seus pecados, como
-          Vos pede agora, confessando-os e detestando-os do íntimo do coração.
-          Renovai nele (ou nela) , ó Pai clementíssimo, tudo aquilo que a
-          fragilidade humana corrompeu ou que a perfídia do demónio destruiu, e
-          uni ao Corpo da Igreja este membro que lhe pertence pela Redenção.
-          Senhor, tende piedade dos seus gemidos, tende piedade das suas
-          lágrimas; e, visto que ele (ou ela) tem confiança na vossa
+          vossa serva) <Typography className="vernacular">N.</Typography>, ouvi
+          a súplica que Vos dirige e concedei-lhe a remissão de todos seus
+          pecados, como Vos pede agora, confessando-os e detestando-os do íntimo
+          do coração. Renovai nele (ou nela) , ó Pai clementíssimo, tudo aquilo
+          que a fragilidade humana corrompeu ou que a perfídia do demónio
+          destruiu, e uni ao Corpo da Igreja este membro que lhe pertence pela
+          Redenção. Senhor, tende piedade dos seus gemidos, tende piedade das
+          suas lágrimas; e, visto que ele (ou ela) tem confiança na vossa
           misericórdia, admiti-o ao mystério da reconciliação. Por Cristo Senhor
           nosso.
         </Typography>
@@ -413,32 +413,32 @@ export default function PageOficioagonizantes() {
         <Typography className="latin">
           Commendamus tibi, Domine, animam famuli tui{" "}
           <Typography className="latin">N.</Typography> (famulae tuae{" "}
-          <Typography className="text-red-500">N.</Typography>), precamurque te, Domine Iesu
-          Christe, Salvator mundi, ut, propter quam ad terram misericorditer
-          descendisti, Patriarcharum tuorum sinibus insinuare non renuas.
-          Agnosce, Domine, creaturam tuam, non a diis alienis creatam, sed a te,
-          solo Deo vivo et vero; quia non est alius Deus praeter te, et non est
-          secundum opera tua. Laetifica, Domine, animam eius in conspectu tuo;
-          et ne memineris iniquitatum eius antiquarum et ebrietatum, quas
-          suscitavit furor sive fervor mali desiderii. Licet enim peccaverit,
-          tamen Patrem, et Filium, et Spiritum Sanctum non negavit, sed
-          credidit; et zelum Dei in se habuit, et Deum, qui fecit omnia,
-          fideliter adoravit.
+          <Typography className="text-red-500">N.</Typography>), precamurque te,
+          Domine Iesu Christe, Salvator mundi, ut, propter quam ad terram
+          misericorditer descendisti, Patriarcharum tuorum sinibus insinuare non
+          renuas. Agnosce, Domine, creaturam tuam, non a diis alienis creatam,
+          sed a te, solo Deo vivo et vero; quia non est alius Deus praeter te,
+          et non est secundum opera tua. Laetifica, Domine, animam eius in
+          conspectu tuo; et ne memineris iniquitatum eius antiquarum et
+          ebrietatum, quas suscitavit furor sive fervor mali desiderii. Licet
+          enim peccaverit, tamen Patrem, et Filium, et Spiritum Sanctum non
+          negavit, sed credidit; et zelum Dei in se habuit, et Deum, qui fecit
+          omnia, fideliter adoravit.
         </Typography>
         <Typography className="vernacular">
           Vos entregamos, Senhor, a alma do vosso servo (ou serva){" "}
-          <Typography className="vernacular">N.</Typography> e, Vos suplicamos, ó Senhor
-          Jesus Cristo, salvador do mundo, não recuseis receber, no seio dos
-          vossos Patriarcas, esta alma, pela qual viestes misericordiosamente ao
-          mundo. Reconhecei, Senhor, a vossa criatura que não foi criada por
-          outros deuses, mas por Vós, que sois o único Deus vivo e verdadeiro.
-          Com efeito, não existe outro e nada existe comparável com suas obras.
-          Alegrai, Senhor, esta alma, admitindo-a na vossa presença; dignai-Vos
-          esquecer as suas iniquidades passadas e as suas loucuras, que a
-          violência ou o ardor das suas paixões a levaram a cometer, pois,
-          embora ela tenha pecado, não renegou o Pai, o Filho e o Espírito
-          Santo, mas acreditou e amou o seu Deus; foi fiel em adorar Deus,
-          criador de todas as coisas.
+          <Typography className="vernacular">N.</Typography> e, Vos suplicamos,
+          ó Senhor Jesus Cristo, salvador do mundo, não recuseis receber, no
+          seio dos vossos Patriarcas, esta alma, pela qual viestes
+          misericordiosamente ao mundo. Reconhecei, Senhor, a vossa criatura que
+          não foi criada por outros deuses, mas por Vós, que sois o único Deus
+          vivo e verdadeiro. Com efeito, não existe outro e nada existe
+          comparável com suas obras. Alegrai, Senhor, esta alma, admitindo-a na
+          vossa presença; dignai-Vos esquecer as suas iniquidades passadas e as
+          suas loucuras, que a violência ou o ardor das suas paixões a levaram a
+          cometer, pois, embora ela tenha pecado, não renegou o Pai, o Filho e o
+          Espírito Santo, mas acreditou e amou o seu Deus; foi fiel em adorar
+          Deus, criador de todas as coisas.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -510,18 +510,18 @@ export default function PageOficioagonizantes() {
         </Typography>
         <Typography className="latin">
           Clementissima Virgo Dei Genetrix, Maria, maerentium piissima
-          consolatrix, famuli (-ae) <Typography className="latin">N.</Typography> spiritum
-          Filio suo commendet: ut, hoc materno interventu, terrores mortis non
-          timeat; sed desideratam caelestis patriae mansionem, ea comite, laetus
-          (-a) adeat.
+          consolatrix, famuli (-ae){" "}
+          <Typography className="latin">N.</Typography> spiritum Filio suo
+          commendet: ut, hoc materno interventu, terrores mortis non timeat; sed
+          desideratam caelestis patriae mansionem, ea comite, laetus (-a) adeat.
         </Typography>
         <Typography className="vernacular">
           Que a clementíssima Virgem Maria, Mãe de Deus e piíssima consoladora
           dos aflitos, recomende a seu Filho a alma do vosso servo (ou serva){" "}
-          <Typography className="vernacular">N.</Typography>, a fim de que, graças à sua
-          maternal intercessão, ela não tema os terrores da morte, mas em sua
-          companhia penetre na mansão, tão ardentemente desejada, da pátria
-          celestial.
+          <Typography className="vernacular">N.</Typography>, a fim de que,
+          graças à sua maternal intercessão, ela não tema os terrores da morte,
+          mas em sua companhia penetre na mansão, tão ardentemente desejada, da
+          pátria celestial.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -541,20 +541,20 @@ export default function PageOficioagonizantes() {
           Ad te confugio, sancte Ioseph, Patrone morientium, tibique, in cuius
           beato transitu vigiles adstiterunt Iesus et Maria, per hoc utrumque
           carissimum pignus, animam huius famuli (-ae){" "}
-          <Typography className="latin">N.</Typography> in extremo agone laborantem enixe
-          commendo, ut ab insidiis diaboli, et a morte perpetua, te progente,
-          liberetur, et ad gaudia aeterna pervenire mereatur. Per eundem
-          Christum Dominum nostrum.
+          <Typography className="latin">N.</Typography> in extremo agone
+          laborantem enixe commendo, ut ab insidiis diaboli, et a morte
+          perpetua, te progente, liberetur, et ad gaudia aeterna pervenire
+          mereatur. Per eundem Christum Dominum nostrum.
         </Typography>
         <Typography className="vernacular">
           Patrono dos moribundos, S. José, cuja bem-aventurada passagem ao céu
           foi acompanhada da presença e dos cuidados de Jesus e Maria, a vós
           recorro; e, em recordação de um e de outro, que vos foram tão
           queridos, recomendo-vos instantemente a alma deste servo (ou serva) de
-          Deus, <Typography className="vernacular">N.</Typography>, que agora se encontra no
-          derradeiro combate, a fim de que, protegida por vós, seja preservada
-          das ciladas do demónio e da morte eterna e mereça alcançar a posse das
-          alegrias eternas. Por Cristo, nosso Senhor.
+          Deus, <Typography className="vernacular">N.</Typography>, que agora se
+          encontra no derradeiro combate, a fim de que, protegida por vós, seja
+          preservada das ciladas do demónio e da morte eterna e mereça alcançar
+          a posse das alegrias eternas. Por Cristo, nosso Senhor.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -584,9 +584,13 @@ export default function PageOficioagonizantes() {
         <Typography className="latin">
           Domine Iesu Christe, suscipe spiritum meum.
         </Typography>
-        <Typography className="vernacular">Senhor, recebei o meu espírito!</Typography>
+        <Typography className="vernacular">
+          Senhor, recebei o meu espírito!
+        </Typography>
         <Typography className="latin">Sancta Maria, ora pro me.</Typography>
-        <Typography className="vernacular">Santa Maria, rogai por mim.</Typography>
+        <Typography className="vernacular">
+          Santa Maria, rogai por mim.
+        </Typography>
         <Typography className="latin">
           Maria, mater gratiae, mater misericordiae, tu me ab hoste protege, et
           hora mortis suscipe.
@@ -639,89 +643,104 @@ export default function PageOficioagonizantes() {
           do Senhor: Recebei a sua alma: Apresentai-a ao Altíssimo.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Suscipiat te Christus, qui
-          vocavit te, et in sinum Abrahae Angeli deducant te.
+          <Typography className="versicle"> ℣. </Typography>Suscipiat te
+          Christus, qui vocavit te, et in sinum Abrahae Angeli deducant te.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Receba-vos Jesus Cristo, que vos
-          chamou; e que os Anjos vos conduzam ao seio de Abraão.
+          <Typography className="versicle"> ℣. </Typography>Receba-vos Jesus
+          Cristo, que vos chamou; e que os Anjos vos conduzam ao seio de Abraão.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Suscipientes animam eius,
-          Offerentes eam in conspectu Altissimi.
+          <Typography className="response"> ℟. </Typography> Suscipientes animam
+          eius, Offerentes eam in conspectu Altissimi.
         </Typography>
         <Typography className="vernacular">
           <Typography className="response"> ℟. </Typography> Recebei a sua alma:
           Apresentai-a ao Altíssimo.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Requiem aeternam dona ei,
-          Domine: et lux perpetua luceat ei. Offerentes eam in conspectu
-          Altissimi.
+          <Typography className="versicle"> ℣. </Typography>Requiem aeternam
+          dona ei, Domine: et lux perpetua luceat ei. Offerentes eam in
+          conspectu Altissimi.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Dai-lhe, Senhor, o repouso
-          eterno, e que a luz eterna lhe resplandeça para sempre: Apresentai-a
-          ao Altíssimo.
+          <Typography className="versicle"> ℣. </Typography>Dai-lhe, Senhor, o
+          repouso eterno, e que a luz eterna lhe resplandeça para sempre:
+          Apresentai-a ao Altíssimo.
         </Typography>
         <Typography className="latin">Kyrie, eleison.</Typography>
-        <Typography className="vernacular">Senhor, tende piedade de nós.</Typography>
+        <Typography className="vernacular">
+          Senhor, tende piedade de nós.
+        </Typography>
         <Typography className="latin">Christe, eleison.</Typography>
-        <Typography className="vernacular">Cristo, tende piedade de nós.</Typography>
+        <Typography className="vernacular">
+          Cristo, tende piedade de nós.
+        </Typography>
         <Typography className="latin">Kyrie, eleison.</Typography>
-        <Typography className="vernacular">Senhor, tende piedade de nós.</Typography>
+        <Typography className="vernacular">
+          Senhor, tende piedade de nós.
+        </Typography>
         <Typography className="latin">
-          Pater noster... <Typography className="latin">in secreto usque ad:</Typography>
+          Pater noster...{" "}
+          <Typography className="latin">in secreto usque ad:</Typography>
         </Typography>
         <Typography className="vernacular">
-          Pai-nosso... <Typography className="vernacular">(em voz secreta).</Typography>
+          Pai-nosso...{" "}
+          <Typography className="vernacular">(em voz secreta).</Typography>
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography>Et ne nos inducas in
           tentationem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>E não nos deixeis cair em
-          tentação.
+          <Typography className="versicle"> ℣. </Typography>E não nos deixeis
+          cair em tentação.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Sed libera nos a malo.
+          <Typography className="response"> ℟. </Typography> Sed libera nos a
+          malo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Mas livrai-nos do mal.
+          <Typography className="response"> ℟. </Typography> Mas livrai-nos do
+          mal.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Requiem aeternam dona ei,
-          Domine.
+          <Typography className="versicle"> ℣. </Typography>Requiem aeternam
+          dona ei, Domine.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Dai-lhe, Senhor, o repouso
-          eterno.
+          <Typography className="versicle"> ℣. </Typography>Dai-lhe, Senhor, o
+          repouso eterno.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et lux perpetua luceat ei.
+          <Typography className="response"> ℟. </Typography> Et lux perpetua
+          luceat ei.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E que lhe resplandeça a luz
-          perpétua.
+          <Typography className="response"> ℟. </Typography> E que lhe
+          resplandeça a luz perpétua.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> A porta inferi.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Das portas do inferno.
+          <Typography className="versicle"> ℣. </Typography>Das portas do
+          inferno.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Erue, Domine, animam eius.
+          <Typography className="response"> ℟. </Typography> Erue, Domine,
+          animam eius.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Livrai, Senhor, esta alma.
+          <Typography className="response"> ℟. </Typography> Livrai, Senhor,
+          esta alma.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Requiescat in pace.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Que ela descanse em paz.
+          <Typography className="versicle"> ℣. </Typography>Que ela descanse em
+          paz.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Amen.
@@ -730,29 +749,34 @@ export default function PageOficioagonizantes() {
           <Typography className="response"> ℟. </Typography> Amen.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi oratiónem meam.
+          <Typography className="versicle"> ℣. </Typography>Dómine, exáudi
+          oratiónem meam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha oração.
+          <Typography className="versicle"> ℣. </Typography>Senhor, ouvi a minha
+          oração.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et clamor meus ad te véniat.
+          <Typography className="response"> ℟. </Typography> Et clamor meus ad
+          te véniat.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E que meu clamor chegue até
-          Vós.
+          <Typography className="response"> ℟. </Typography> E que meu clamor
+          chegue até Vós.
         </Typography>
         <Typography className="latin">
           <Typography className="versicle"> ℣. </Typography> Dominus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor seja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor seja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
       </Language>
       <Language>
@@ -765,18 +789,19 @@ export default function PageOficioagonizantes() {
         <Typography className="latin">
           Tibi, Domine, commendamus animam famuli tui{" "}
           <Typography className="latin">N.</Typography> (famulae tuae){" "}
-          <Typography className="text-red-500">N.</Typography> ut defunctus (-a) saeculo,
-          tibi vivat, et, quae per fragilitatem humanae conversationis peccata
-          commisit, tu venia misericordissimae pietatis absterge. Per Christum
-          Dominum nostrum. R. Amen. Si defunctus fuerit sacerdos, post nomen
-          proprium addatur vox sacerdotis.
+          <Typography className="text-red-500">N.</Typography> ut defunctus (-a)
+          saeculo, tibi vivat, et, quae per fragilitatem humanae conversationis
+          peccata commisit, tu venia misericordissimae pietatis absterge. Per
+          Christum Dominum nostrum. R. Amen. Si defunctus fuerit sacerdos, post
+          nomen proprium addatur vox sacerdotis.
         </Typography>
         <Typography className="vernacular">
           Vos recomendamos, Senhor, a alma do vosso servo (ou serva){" "}
-          <Typography className="vernacular">N.</Typography>, a fim de que, saindo deste
-          mundo, viva unida a Vós; e que a vossa infinita misericórdia se digne
-          apagar-lhe todos os pecados que a fraqueza humana lhe fez cometer
-          durante a sua vida neste mundo. Por nosso Senhor Jesus Cristo.
+          <Typography className="vernacular">N.</Typography>, a fim de que,
+          saindo deste mundo, viva unida a Vós; e que a vossa infinita
+          misericórdia se digne apagar-lhe todos os pecados que a fraqueza
+          humana lhe fez cometer durante a sua vida neste mundo. Por nosso
+          Senhor Jesus Cristo.
         </Typography>
       </Language>
     </PageWrapper>

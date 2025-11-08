@@ -17,15 +17,16 @@ export default function PageQuad53() {
         <Typography className="latin">
           Liberátor meus de géntibus iracúndis: ab insurgéntibus in me exaltábis
           me: a viro iníquo erípies me, Dómine.{" "}
-          <Typography className="latin">Ps. ib., 2-3</Typography> Díligam te, Dómine, virtus
-          mea: Dóminus firmaméntum meum, et refúgium meum, et liberátor meus.
+          <Typography className="latin">Ps. ib., 2-3</Typography> Díligam te,
+          Dómine, virtus mea: Dóminus firmaméntum meum, et refúgium meum, et
+          liberátor meus.
         </Typography>
         <Typography className="vernacular">
           Fostes Vós, que me livrastes, Senhor, do jugo dum povo irritado.
           Livrar-me-eis também dos meus adversários: e defender-me-eis do homem
-          iníquo. <Typography className="vernacular">Sl. ib., 2-3</Typography> Senhor, que
-          sois a minha fortaleza, eu Vos amo! Sois o meu sustentáculo, o meu
-          refúgio e o meu libertador.
+          iníquo. <Typography className="vernacular">Sl. ib., 2-3</Typography>{" "}
+          Senhor, que sois a minha fortaleza, eu Vos amo! Sois o meu
+          sustentáculo, o meu refúgio e o meu libertador.
         </Typography>
       </Language>
 
@@ -104,9 +105,10 @@ export default function PageQuad53() {
         <Typography className="vernacular">
           Exaltar-Vos-ei, Senhor, porque me acolhestes e não quisestes que meus
           inimigos escarnecessem de mim.
-          <Typography className="versicle"> ℣. </Typography>Senhor, meu Deus, chamei por Vós
-          e curastes as minhas chagas. Senhor, tirastes a minha alma do inferno;
-          salvastes-me da companhia daqueles que descem para o sepulcro.
+          <Typography className="versicle"> ℣. </Typography>Senhor, meu Deus,
+          chamei por Vós e curastes as minhas chagas. Senhor, tirastes a minha
+          alma do inferno; salvastes-me da companhia daqueles que descem para o
+          sepulcro.
         </Typography>
       </Language>
 
@@ -123,12 +125,12 @@ export default function PageQuad53() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Facta sunt Encǽnia in Jerosólymis: et hiems erat. Et

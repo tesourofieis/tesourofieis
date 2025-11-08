@@ -16,16 +16,17 @@ export default function PagePent220() {
         <Typography className="latin">
           Si iniquitátes observáveris, Dómine: Dómine, quis sustinébit? quia
           apud te propitiátio est, Deus Israël.{" "}
-          <Typography className="latin">Ps. ibid., 1-2</Typography> De profúndis clamávi ad
-          te, Dómine: Dómine, exáudi vocem meam.
+          <Typography className="latin">Ps. ibid., 1-2</Typography> De profúndis
+          clamávi ad te, Dómine: Dómine, exáudi vocem meam.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Se atenderdes às nossas iniquidades, Senhor, Senhor, quem poderá
           subsistir diante de Vós? Sois cheio de misericórdia, ó Deus de Israel!{" "}
-          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Das profundezas dos
-          abysmos, Senhor, clamei por Vós: ouvi, pois, a minha oração, Senhor.
+          <Typography className="vernacular">Sl. ibid., 1-2</Typography> Das
+          profundezas dos abysmos, Senhor, clamei por Vós: ouvi, pois, a minha
+          oração, Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -94,19 +95,20 @@ export default function PagePent220() {
         </Typography>
         <Typography className="vernacular">
           Oh! Como é bom e suave aos irmãos habitarem juntos!
-          <Typography className="versicle"> ℣. </Typography>É como o perfume espalhado pela
-          cabeça que desce por toda a barba, por toda a barba de Aarão!
+          <Typography className="versicle"> ℣. </Typography>É como o perfume
+          espalhado pela cabeça que desce por toda a barba, por toda a barba de
+          Aarão!
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 113, 11</Typography> Qui timent Dóminum sperent
-          in eo: adjútor et protéctor eórum est. Allelúja.
+          <Typography className="latin">Ps. 113, 11</Typography> Qui timent
+          Dóminum sperent in eo: adjútor et protéctor eórum est. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 113, 11</Typography> Que aqueles que têm
-          temor do Senhor esperem n’Ele, que é o seu sustentáculo e protector.
-          Aleluia.
+          <Typography className="vernacular">Sl. 113, 11</Typography> Que
+          aqueles que têm temor do Senhor esperem n’Ele, que é o seu
+          sustentáculo e protector. Aleluia.
         </Typography>
       </Language>
 
@@ -116,12 +118,12 @@ export default function PagePent220() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Abeúntes pharisǽi consílium iniérunt, ut cáperent

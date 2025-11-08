@@ -18,16 +18,16 @@ export default function PageQuad43() {
           Dum sanctificátus fúero in vobis, congregábo vos de univérsis terris:
           et effúndam super vos aquam mundam, et mundabímini ab ómnibus
           inquinaméntis vestris: et dabo vobis spíritum novum.{" "}
-          <Typography className="latin">Ps. 33, 2</Typography> Benedícam Dóminum in omni
-          témpore: semper laus ejus in ore meo.
+          <Typography className="latin">Ps. 33, 2</Typography> Benedícam Dóminum
+          in omni témpore: semper laus ejus in ore meo.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Quando eu for santificado no meio de vós, reunir-vos-ei de todos os
           países. Então vos aspergirei com água pura, ficareis limpos de todas
           as iniquidades e vos darei um espírito novo.{" "}
-          <Typography className="vernacular">Sl. 33, 2</Typography> Bendirei o Senhor
-          continuamente; sempre a minha boca o louvará.
+          <Typography className="vernacular">Sl. 33, 2</Typography> Bendirei o
+          Senhor continuamente; sempre a minha boca o louvará.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -74,7 +74,9 @@ export default function PageQuad43() {
 
       <Language>
         <Typography className="latin">Léctio Ezechiélis Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do Profeta Ezequiel.</Typography>
+        <Typography className="vernacular">
+          Lição do Profeta Ezequiel.
+        </Typography>
         <Typography className="latin">
           Hæc dicit Dóminus Deus: Sanctificábo nomen meum magnum, quod pollútum
           est inter gentes, quod polluístis in médio eárum: ut sciant gentes,
@@ -203,12 +205,12 @@ export default function PageQuad43() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Prætériens Jesus vidit hóminem cæcum a nativitáte: et
@@ -264,8 +266,8 @@ export default function PageQuad43() {
           ei: Tu credis in Fílium Dei? Respóndit ille et dixit: Quis est,
           Dómine, ut credam in eum? Et dixit ei Jesus: Et vidísti eum, et qui
           lóquitur tecum, ipse est. At ille ait: Credo, Dómine.{" "}
-          <Typography className="em">(hic genuflectitur)</Typography> Et prócidens adorávit
-          eum.
+          <Typography className="em">(hic genuflectitur)</Typography> Et
+          prócidens adorávit eum.
         </Typography>
         <Typography className="vernacular">
           Naquele tempo, indo Jesus a passar, viu um cego de nascença. Então os
@@ -324,7 +326,8 @@ export default function PageQuad43() {
           encontro e disse-lhe: «Tu crês no Filho de Deus?». Respondeu o cego,
           dizendo: «Quem é ele, Senhor, para que eu creia?». Jesus disse-lhe:
           «Já o tens visto. É Aquele que fala contigo!». E o cego disse: «Creio,
-          Senhor!». <Typography className="em">(Todos devem ajoelhar)</Typography> E de
+          Senhor!».{" "}
+          <Typography className="em">(Todos devem ajoelhar)</Typography> E de
           joelhos o adorou!
         </Typography>
       </Language>

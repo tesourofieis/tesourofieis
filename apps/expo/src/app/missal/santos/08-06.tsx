@@ -34,15 +34,16 @@ export default function Page0806() {
       <Language>
         <Typography className="latin">
           Illuxérunt coruscatiónes tuæ orbi terræ: commóta est et contrémuit
-          terra. <Typography className="latin">Ps. 83, 2-3</Typography> Quam dilécta
-          tabernácula tua, Dómine virtútum! concupíscit, et déficit ánima mea in
-          átria Dómini.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+          terra. <Typography className="latin">Ps. 83, 2-3</Typography> Quam
+          dilécta tabernácula tua, Dómine virtútum! concupíscit, et déficit
+          ánima mea in átria Dómini.
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Os vossos relâmpagos iluminaram o globo terrestre: moveu-se a terra e
-          tremeu. <Typography className="vernacular">Sl. 83, 2-3</Typography> Como são
-          amáveis os vossos tabernáculos, ó Senhor dos exércitos! Minha alma
-          suspira ardentemente pelos átrios do Senhor.
+          tremeu. <Typography className="vernacular">Sl. 83, 2-3</Typography>{" "}
+          Como são amáveis os vossos tabernáculos, ó Senhor dos exércitos! Minha
+          alma suspira ardentemente pelos átrios do Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -73,8 +74,12 @@ export default function Page0806() {
       <Typography className="em">2 Pe. 1, 16-19</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Petri Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Pedro.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Non doctas fábulas secúti notam fecimus vobis Dómini nostri
           Jesu Christi virtútem et præséntiam: sed speculatores facti illíus
@@ -107,23 +112,24 @@ export default function Page0806() {
       <Language>
         <Typography className="latin">
           Speciosus forma præ fíliis hóminum: diffúsa est grátia in lábiis tuis.
-          <Typography className="versicle"> ℣. </Typography>Eructávit cor meum verbum bonum:
-          dico ego ópera mea Regi.
+          <Typography className="versicle"> ℣. </Typography>Eructávit cor meum
+          verbum bonum: dico ego ópera mea Regi.
         </Typography>
         <Typography className="vernacular">
           Sois o mais belo dos filhos dos homens: a graça espalhou-se nos vossos
-          lábios.<Typography className="versicle"> ℣. </Typography>Meu coração exprimiu uma
-          palavra excelente: Consagro ao Rei as minhas obras.
+          lábios.<Typography className="versicle"> ℣. </Typography>Meu coração
+          exprimiu uma palavra excelente: Consagro ao Rei as minhas obras.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Sap. 7, 26</Typography> Candor est lucis ætérnæ,
-          spéculum sine mácula, et imágo bonitátis illíus. Allelúja.
+          <Typography className="latin">Sap. 7, 26</Typography> Candor est lucis
+          ætérnæ, spéculum sine mácula, et imágo bonitátis illíus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sb. 7, 26</Typography> Este é o esplendor da
-          luz eterna, o espelho sem mancha de Deus e a imagem da sua bondade!
+          <Typography className="vernacular">Sb. 7, 26</Typography> Este é o
+          esplendor da luz eterna, o espelho sem mancha de Deus e a imagem da
+          sua bondade!
         </Typography>
       </Language>
 
@@ -133,12 +139,12 @@ export default function Page0806() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Assúmpsit Jesus Petrum, et Jacóbum, et Joánnem

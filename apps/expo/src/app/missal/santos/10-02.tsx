@@ -84,23 +84,24 @@ export default function Page1002() {
       <Language>
         <Typography className="latin">
           Angelis suis Deus mandávit de te, ut custódiant te in ómnibus viis
-          tuis.<Typography className="versicle"> ℣. </Typography>In mánibus portábunt te, ne
-          umquam offéndas ad lápidem pedem tuum.
+          tuis.<Typography className="versicle"> ℣. </Typography>In mánibus
+          portábunt te, ne umquam offéndas ad lápidem pedem tuum.
         </Typography>
         <Typography className="vernacular">
           Deus mandou aos seus Anjos que te guardassem em todas as tuas vias.
-          <Typography className="versicle"> ℣. </Typography>E eles te conduzirão em cima de
-          suas mãos, para que o teu pé não tropece.
+          <Typography className="versicle"> ℣. </Typography>E eles te conduzirão
+          em cima de suas mãos, para que o teu pé não tropece.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 102, 21</Typography> Benedícite Dómino, omnes
-          virtútes ejus: minístri ejus, qui fácitis voluntátem ejus. Allelúja.
+          <Typography className="latin">Ps. 102, 21</Typography> Benedícite
+          Dómino, omnes virtútes ejus: minístri ejus, qui fácitis voluntátem
+          ejus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 102, 21</Typography> Bendizei todos o
-          Senhor, ó exércitos do Senhor; pois estais ao seu serviço e
+          <Typography className="vernacular">Sl. 102, 21</Typography> Bendizei
+          todos o Senhor, ó exércitos do Senhor; pois estais ao seu serviço e
           desempenhais as suas ordens. Aleluia.
         </Typography>
       </Language>

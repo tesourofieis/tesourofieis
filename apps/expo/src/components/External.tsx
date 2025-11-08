@@ -86,7 +86,7 @@ const copyToClipboard = async (text: string) => {
 };
 
 const showCopiedFeedback = (
-  message = "Copiado para a área de transferência"
+  message = "Copiado para a área de transferência",
 ) => {
   if (Platform.OS === "android") {
     ToastAndroid.show(message, ToastAndroid.SHORT);

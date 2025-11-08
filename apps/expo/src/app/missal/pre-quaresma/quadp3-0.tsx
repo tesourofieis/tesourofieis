@@ -17,17 +17,18 @@ export default function PageQuadp30() {
           Esto mihi in Deum protectórem, et in locum refúgii, ut salvum me
           fácias: quóniam firmaméntum meum et refúgium meum es tu: et propter
           nomen tuum dux mihi eris, et enútries me.{" "}
-          <Typography className="latin">Ps. ibid., 2</Typography> In te, Dómine, sperávi,
-          non confúndar in ætérnum: in justítia tua líbera me et éripe me.
+          <Typography className="latin">Ps. ibid., 2</Typography> In te, Dómine,
+          sperávi, non confúndar in ætérnum: in justítia tua líbera me et éripe
+          me.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Sede, ó Deus, o meu protector e o lugar de refúgio, onde encontre a
           salvação; pois sois o meu sustentáculo e o meu refúgio, e, pela glória
           do vosso nome, me conduzireis e sustentareis.{" "}
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Em Vós, Senhor, pus a
-          minha confiança; não serei confundido para sempre. Segundo a vossa
-          justiça, livrai-me, salvai-me.
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Em Vós,
+          Senhor, pus a minha confiança; não serei confundido para sempre.
+          Segundo a vossa justiça, livrai-me, salvai-me.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -113,8 +114,8 @@ export default function PageQuadp30() {
       <Language>
         <Typography className="latin">
           Tu es Deus qui facis mirabília solus: notam fecísti in géntibus
-          virtútem tuam.<Typography className="versicle"> ℣. </Typography>Liberásti in
-          bráchio tuo pópulum tuum, fílios Israel et Joseph.
+          virtútem tuam.<Typography className="versicle"> ℣. </Typography>
+          Liberásti in bráchio tuo pópulum tuum, fílios Israel et Joseph.
         </Typography>
         <Typography className="vernacular">
           Ó Deus, só Vós praticais maravilhas! Fizestes conhecer aos povos o
@@ -130,17 +131,17 @@ export default function PageQuadp30() {
       <Language>
         <Typography className="latin">
           Jubiláte Deo, omnis terra: servíte Dómino in lætítia.
-          <Typography className="versicle"> ℣. </Typography>Intráte in conspéctu ejus in
-          exsultatióne: scitóte, quod Dóminus ipse est Deus.
-          <Typography className="versicle"> ℣. </Typography>Ipse fecit nos, et non ipsi nos:
-          nos autem pópulus ejus, et oves páscuæ ejus.
+          <Typography className="versicle"> ℣. </Typography>Intráte in conspéctu
+          ejus in exsultatióne: scitóte, quod Dóminus ipse est Deus.
+          <Typography className="versicle"> ℣. </Typography>Ipse fecit nos, et
+          non ipsi nos: nos autem pópulus ejus, et oves páscuæ ejus.
         </Typography>
         <Typography className="vernacular">
           Ó povos de toda a terra, louvai a Deus com júbilo. Vinde à sua
           presença com transportes de alegria; pois sabeis que o Senhor é
-          verdadeiro Deus.<Typography className="versicle"> ℣. </Typography>Foi Ele quem nos
-          criou, e não nós a nós mesmos. Somos, pois, o seu povo, e as ovelhas
-          de que Ele é o pastor.
+          verdadeiro Deus.<Typography className="versicle"> ℣. </Typography>Foi
+          Ele quem nos criou, e não nós a nós mesmos. Somos, pois, o seu povo, e
+          as ovelhas de que Ele é o pastor.
         </Typography>
       </Language>
 
@@ -150,12 +151,12 @@ export default function PageQuadp30() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Assúmpsit Jesus duódecim, et ait illis: Ecce,

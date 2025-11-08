@@ -53,8 +53,12 @@ export default function Page0723() {
       <Typography className="em">1 Pe. 5, 1-11</Typography>
 
       <Language>
-        <Typography className="latin">Léctio Epístolæ beáti Petri Apóstoli.</Typography>
-        <Typography className="vernacular">Lição da Ep.ª do B. Ap.º Pedro.</Typography>
+        <Typography className="latin">
+          Léctio Epístolæ beáti Petri Apóstoli.
+        </Typography>
+        <Typography className="vernacular">
+          Lição da Ep.ª do B. Ap.º Pedro.
+        </Typography>
         <Typography className="latin">
           Caríssimi: Senióres, qui in vobis sunt, obsecro, consénior et testis
           Christi passiónum: qui et ejus, quae in futúro revelánda est, glóriæ
@@ -108,26 +112,26 @@ export default function Page0723() {
         <Typography className="latin">
           Invéni David servum meum, óleo sancto meo unxi eum: manus enim mea
           auxiliábitur ei, et bráchium meum confortábit eum.
-          <Typography className="versicle"> ℣. </Typography>Nihil profíciet inimícus in eo,
-          et fílius iniquitátis non nocébit ei.
+          <Typography className="versicle"> ℣. </Typography>Nihil profíciet
+          inimícus in eo, et fílius iniquitátis non nocébit ei.
         </Typography>
         <Typography className="vernacular">
           Encontrei o meu servo David e ungi-o com meu óleo sagrado: a minha mão
           o auxiliará e o meu braço o fortalecerá.
-          <Typography className="versicle"> ℣. </Typography>O inimigo não terá nele domínio
-          algum; o filho da iniquidade não poderá prejudicá-lo.
+          <Typography className="versicle"> ℣. </Typography>O inimigo não terá
+          nele domínio algum; o filho da iniquidade não poderá prejudicá-lo.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 109, 4</Typography> Jurávit Dóminus, et non
-          pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem
+          <Typography className="latin">Ps. 109, 4</Typography> Jurávit Dóminus,
+          et non pœnitébit eum: Tu es sacérdos in ætérnum, secúndum órdinem
           Melchísedech. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Ps. 109, 4</Typography> Jurou o Senhor e não se
-          arrependerá: tu és sacerdote para sempre segundo a ordem de
-          Melquisedeque. Aleluia.
+          <Typography className="vernacular">Ps. 109, 4</Typography> Jurou o
+          Senhor e não se arrependerá: tu és sacerdote para sempre segundo a
+          ordem de Melquisedeque. Aleluia.
         </Typography>
       </Language>
 
@@ -137,12 +141,12 @@ export default function Page0723() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Facta est conténtio inter discípulos, quis eórum

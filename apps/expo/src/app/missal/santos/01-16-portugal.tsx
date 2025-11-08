@@ -17,16 +17,17 @@ export default function Page0116Portugal() {
         <Typography className="latin">
           Multæ tribulatiónes justórum, et de his ómnibus liberábit eos Dóminus:
           Dóminus custódit ómnia ossa eórum, unum ex his non conterétur.{" "}
-          <Typography className="latin">ibid., 1</Typography> Benedícam Dóminum in omni
-          témpore: semper laus ejus in ore meo.
+          <Typography className="latin">ibid., 1</Typography> Benedícam Dóminum
+          in omni témpore: semper laus ejus in ore meo.
           <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Muitas são as tribulações dos justos, mas de todas elas o Senhor os
           livrará. O Senhor guarda todos seus ossos e nem um só deles será
-          quebrado. <Typography className="vernacular">ibid., 1</Typography> Bendirei o
-          Senhor em todo o tempo; os seus louvores estarão sempre na minha boca.
+          quebrado. <Typography className="vernacular">ibid., 1</Typography>{" "}
+          Bendirei o Senhor em todo o tempo; os seus louvores estarão sempre na
+          minha boca.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -79,25 +80,25 @@ export default function Page0116Portugal() {
         <Typography className="latin">
           Víndica, Dómine, sánguinem Sanctórum tuórum, qui effúsus est.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. ibid., 2</Typography> Posuérunt morticína
-          servórum tuórum, Dómine, escas volatílibus cælis: carnes Sanctórum
-          tuórum béstiis terræ.
+          <Typography className="latin">Ps. ibid., 2</Typography> Posuérunt
+          morticína servórum tuórum, Dómine, escas volatílibus cælis: carnes
+          Sanctórum tuórum béstiis terræ.
         </Typography>
         <Typography className="vernacular">
           Vingai, Senhor, o sangue dos vossos Santos que foi derramado.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. ibid., 2</Typography> Deram para alimento
-          às aves do céu os corpos dos vossos servos, que haviam sido mortos; e
-          deram as carnes dos vossos Santos às feras da terra.
+          <Typography className="vernacular">Sl. ibid., 2</Typography> Deram
+          para alimento às aves do céu os corpos dos vossos servos, que haviam
+          sido mortos; e deram as carnes dos vossos Santos às feras da terra.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Hæc est vera
-          fratérnitas, quæ vicit mundi crímina: Christum secúta est, ínclyta
-          tenes regna cæléstia. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Hæc est vera fratérnitas, quæ vicit mundi crímina: Christum secúta
+          est, ínclyta tenes regna cæléstia. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Eis a
-          verdadeira fraternidade que venceu os crimes do mundo. Ela seguiu
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Eis
+          a verdadeira fraternidade que venceu os crimes do mundo. Ela seguiu
           Cristo, possuindo gloriosamente o reino celestial. Aleluia.
         </Typography>
       </Language>
@@ -113,14 +114,16 @@ export default function Page0116Portugal() {
       <Language>
         <Typography className="latin">
           Qui séminant in lácrimis, in gáudio metent.
-          <Typography className="versicle"> ℣. </Typography>Eúntes ibant et flébant,
-          mitténtes sémina sua.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="versicle"> ℣. </Typography>Eúntes ibant et
+          flébant, mitténtes sémina sua.
+          <Typography className="versicle"> ℣. </Typography>
           Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.
         </Typography>
         <Typography className="vernacular">
           Aqueles que semeiam com lágrimas ceifarão com júbilo.
-          <Typography className="versicle"> ℣. </Typography>Iam, caminhavam e lançavam a
-          semente à terra, chorando.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="versicle"> ℣. </Typography>Iam, caminhavam e
+          lançavam a semente à terra, chorando.
+          <Typography className="versicle"> ℣. </Typography>
           Porém, quando voltavam, exultavam de alegria, trazendo os seus molhos
           de trigo.
         </Typography>
@@ -132,12 +135,12 @@ export default function Page0116Portugal() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discipulis suis: Ecce ego mitto vos sicut

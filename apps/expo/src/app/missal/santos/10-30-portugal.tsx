@@ -28,7 +28,9 @@ export default function Page1030Portugal() {
         gozo eterno nos céus. Ó Vós, que viveis e reinais...
       </Typography>
       <H3 text="Epístola" />
-      <Typography className="vernacular">Lição do Livro dos Macabeus.</Typography>
+      <Typography className="vernacular">
+        Lição do Livro dos Macabeus.
+      </Typography>
       <Typography className="vernacular">
         Naqueles dias, Macabeu esperava sempre com toda a confiança que um
         socorro lhe viria de Deus. E exortava os seus a que se não amedrontassem

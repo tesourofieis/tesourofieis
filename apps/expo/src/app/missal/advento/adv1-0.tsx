@@ -16,16 +16,18 @@ export default function PageAdv10() {
         <Typography className="latin">
           Ad te levávi ánimam meam: Deus meus, in te confíde, non erubéscam:
           neque irrídeant me inimíci mei: étenim univérsi, qui te exspéctant,
-          non confundéntur. <Typography className="latin">Ps. ibid., 4</Typography> Vias
-          tuas, Dómine, demónstra mihi: et sémitas tuas édoce me.
+          non confundéntur.{" "}
+          <Typography className="latin">Ps. ibid., 4</Typography> Vias tuas,
+          Dómine, demónstra mihi: et sémitas tuas édoce me.
           <Typography className="versicle"> ℣. </Typography>Glória Patri...
         </Typography>
         <Typography className="vernacular">
           A Vós elevo a minha alma. Ó meu Deus, confio em Vós: não permitireis
           que fique confundido; nem que meus inimigos zombem de mim: porquanto
           aqueles que em Vós esperam não serão confundidos.{" "}
-          <Typography className="vernacular">Sl. ibid., 4</Typography> Mostrai-me, Senhor,
-          os vossos caminhos: e ensinai-me a conhecer as vossas veredas.
+          <Typography className="vernacular">Sl. ibid., 4</Typography>{" "}
+          Mostrai-me, Senhor, os vossos caminhos: e ensinai-me a conhecer as
+          vossas veredas.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -95,13 +97,13 @@ export default function PageAdv10() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 84, 8</Typography> Osténde nobis, Dómine,
-          misericórdiam tuam: et salutáre tuum da nobis. Allelúja.
+          <Typography className="latin">Ps. 84, 8</Typography> Osténde nobis,
+          Dómine, misericórdiam tuam: et salutáre tuum da nobis. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 84, 8</Typography> Mostrai-nos, Senhor, a
-          vossa misericórdia: e dai-nos a salvação. Aleluia.
+          <Typography className="vernacular">Sl. 84, 8</Typography> Mostrai-nos,
+          Senhor, a vossa misericórdia: e dai-nos a salvação. Aleluia.
         </Typography>
       </Language>
 
@@ -111,12 +113,12 @@ export default function PageAdv10() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Erunt signa in sole et

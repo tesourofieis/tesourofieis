@@ -17,16 +17,16 @@ export default function PageQuad40() {
           Lætáre, Jerúsalem: et convéntum fácite, omnes qui dilígitis eam:
           gaudéte cum lætítia, qui in tristítia fuístis: ut exsultétis, et
           satiémini ab ubéribus consolatiónis vestræ.{" "}
-          <Typography className="latin">Ps. 121, 1</Typography> Lætátus sum in his, quæ
-          dicta sunt mihi: in domum Dómini íbimus.
+          <Typography className="latin">Ps. 121, 1</Typography> Lætátus sum in
+          his, quæ dicta sunt mihi: in domum Dómini íbimus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Rejubilai, ó Jerusalém; ó vós todos, que a amais, uni-vos com júbilo;
           exultai de alegria, ó vós, que tendes estado tristes: e ficareis
           alegres e saciados com o leite das suas consolações.{" "}
-          <Typography className="vernacular">Sl. 121, 1</Typography> Alegrei-me com estas
-          palavras que me disseram: Iremos à Casa do Senhor.
+          <Typography className="vernacular">Sl. 121, 1</Typography> Alegrei-me
+          com estas palavras que me disseram: Iremos à Casa do Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -101,13 +101,13 @@ export default function PageQuad40() {
       <Language>
         <Typography className="latin">
           Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus.
-          <Typography className="versicle"> ℣. </Typography>Fiat pax in virtúte tua: et
-          abundántia in túrribus tuis.
+          <Typography className="versicle"> ℣. </Typography>Fiat pax in virtúte
+          tua: et abundántia in túrribus tuis.
         </Typography>
         <Typography className="vernacular">
           Alegrei-me com estas palavras que me disseram: Iremos à Casa do
-          Senhor.<Typography className="versicle"> ℣. </Typography>Que a paz reine dentro
-          dos teus muros: e a abundância nos teus palácios.
+          Senhor.<Typography className="versicle"> ℣. </Typography>Que a paz
+          reine dentro dos teus muros: e a abundância nos teus palácios.
         </Typography>
       </Language>
 
@@ -119,14 +119,16 @@ export default function PageQuad40() {
         <Typography className="latin">
           Qui confídunt in Dómino, sicut mons Sion: non commovébitur in ætérnum,
           qui hábitat in Jerúsalem.
-          <Typography className="versicle"> ℣. </Typography>Montes in circúitu ejus: et
-          Dóminus in circúitu pópuli sui, ex hoc nunc et usque in sǽculum.
+          <Typography className="versicle"> ℣. </Typography>Montes in circúitu
+          ejus: et Dóminus in circúitu pópuli sui, ex hoc nunc et usque in
+          sǽculum.
         </Typography>
         <Typography className="vernacular">
           Aqueles que confiam no Senhor estão firmes, como o monte Sião. Aquele
           que habita em Jerusalém nunca será abalado.
-          <Typography className="versicle"> ℣. </Typography>O Senhor cerca com montanhas o
-          seu povo, e fica em torno dele agora e em todos os séculos.
+          <Typography className="versicle"> ℣. </Typography>O Senhor cerca com
+          montanhas o seu povo, e fica em torno dele agora e em todos os
+          séculos.
         </Typography>
       </Language>
 
@@ -136,12 +138,12 @@ export default function PageQuad40() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Abiit Jesus trans mare Galilǽæ, quod est Tiberíadis:

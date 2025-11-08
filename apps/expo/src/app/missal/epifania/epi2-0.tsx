@@ -15,7 +15,8 @@ export default function PageEpi20() {
       <Language>
         <Typography className="latin">
           Omnis terra adóret te, Deus, et psallat tibi: psalmum dicat nómini
-          tuo, Altíssime. <Typography className="latin">Ps. ibid., 1-2</Typography> Jubiláte
+          tuo, Altíssime.{" "}
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Jubiláte
           Deo, omnis terra, psalmum dícite nómini ejus: date glóriam laudi ejus.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
@@ -96,8 +97,8 @@ export default function PageEpi20() {
       <Language>
         <Typography className="latin">
           Misit Dóminus verbum suum, et sanávit eos: et erípuit eos de intéritu
-          eórum.<Typography className="versicle"> ℣. </Typography>Confiteántur Dómino
-          misericórdiæ ejus: et mirabília ejus fíliis hóminum.
+          eórum.<Typography className="versicle"> ℣. </Typography>Confiteántur
+          Dómino misericórdiæ ejus: et mirabília ejus fíliis hóminum.
         </Typography>
         <Typography className="vernacular">
           Enviou o Senhor a sua palavra; curou-os e livrou-os da morte.
@@ -107,14 +108,14 @@ export default function PageEpi20() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 148, 2</Typography> Laudáte Dóminum, omnes
-          Angeli ejus: laudáte eum, omnes virtútes ejus. Allelúja.
+          <Typography className="latin">Ps. 148, 2</Typography> Laudáte Dóminum,
+          omnes Angeli ejus: laudáte eum, omnes virtútes ejus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 148, 2</Typography> Louvai o Senhor, vós
-          todos, que sois os seus Anjos: louvai-O, vós todos, que sois os seus
-          exércitos. Aleluia.
+          <Typography className="vernacular">Sl. 148, 2</Typography> Louvai o
+          Senhor, vós todos, que sois os seus Anjos: louvai-O, vós todos, que
+          sois os seus exércitos. Aleluia.
         </Typography>
       </Language>
 
@@ -124,12 +125,12 @@ export default function PageEpi20() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Núptiæ factæ sunt in Cana Galilǽæ: et erat Mater Jesu

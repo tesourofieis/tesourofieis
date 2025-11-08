@@ -16,12 +16,12 @@ export default function Page112() {
           Louvai o Senhor, ó meninos: * louvai o nome do Senhor.
         </Typography>
         <Typography className="latin">
-          <Typography className="latin">fit reverentia</Typography> Sit nomen Dómini
-          benedíctum, * ex hoc nunc, et usque in sǽculum.
+          <Typography className="latin">fit reverentia</Typography> Sit nomen
+          Dómini benedíctum, * ex hoc nunc, et usque in sǽculum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="vernacular">inclinar a cabeça</Typography> Seja bendito o
-          nome do Senhor, * desde agora e para sempre.
+          <Typography className="vernacular">inclinar a cabeça</Typography> Seja
+          bendito o nome do Senhor, * desde agora e para sempre.
         </Typography>
         <Typography className="latin">
           A solis ortu usque ad occásum, * laudábile nomen Dómini.

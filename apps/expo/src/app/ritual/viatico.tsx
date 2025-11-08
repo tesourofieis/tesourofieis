@@ -17,13 +17,16 @@ export default function PageViatico() {
           <Typography className="versicle"> ℣. </Typography> Pax huic dómui.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>A paz esteja nesta casa.
+          <Typography className="versicle"> ℣. </Typography>A paz esteja nesta
+          casa.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Et ómnibus habitántibus in ea.
+          <Typography className="response"> ℟. </Typography> Et ómnibus
+          habitántibus in ea.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E em todos seus habitantes.
+          <Typography className="response"> ℟. </Typography> E em todos seus
+          habitantes.
         </Typography>
       </Language>
       <AspergesMe />
@@ -37,21 +40,22 @@ export default function PageViatico() {
       <H1 text="Recepção da Comunhão" />
       <Language>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Ecce Agnus Dei, ecce qui tollit
-          peccáta mundi.
+          <Typography className="versicle"> ℣. </Typography>Ecce Agnus Dei, ecce
+          qui tollit peccáta mundi.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Eis o Cordeiro de Deus, eis
-          Aquele que tira os pecados do mundo.
+          <Typography className="versicle"> ℣. </Typography>Eis o Cordeiro de
+          Deus, eis Aquele que tira os pecados do mundo.
         </Typography>
         <Typography className="latin">
-          <Typography className="response"> ℟. </Typography> Dómine, non sum dignus, ut
-          intres sub tectum meum: sed tantum dic verbo, et sanábitur ánima mea.
+          <Typography className="response"> ℟. </Typography> Dómine, non sum
+          dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur
+          ánima mea.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> Senhor, eu não sou digno de que
-          entreis na minha morada, mas dizei uma só palavra e a minha alma será
-          salva.
+          <Typography className="response"> ℟. </Typography> Senhor, eu não sou
+          digno de que entreis na minha morada, mas dizei uma só palavra e a
+          minha alma será salva.
         </Typography>
         <Typography className="latin">
           Accípe frater (soror), Viaticum Córporis Dómini nostri Jesu Christi,
@@ -71,13 +75,15 @@ export default function PageViatico() {
           <Typography className="versicle"> ℣. </Typography> Dominus vobíscum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>O Senhor seja convosco.
+          <Typography className="versicle"> ℣. </Typography>O Senhor seja
+          convosco.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography> Et cum spíritu tuo.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="response"> ℟. </Typography> E com vosso espírito.
+          <Typography className="response"> ℟. </Typography> E com vosso
+          espírito.
         </Typography>
       </Language>
       <Language>

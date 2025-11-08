@@ -60,7 +60,9 @@ export default function Page059() {
         <Typography className="vernacular">
           Meu é Galaad e meu é Manassés: * e Efraim é a força da minha cabeça.
         </Typography>
-        <Typography className="latin">Juda rex meus: * Moab olla spei meæ.</Typography>
+        <Typography className="latin">
+          Juda rex meus: * Moab olla spei meæ.
+        </Typography>
         <Typography className="vernacular">
           Judá é o meu rei: * o Moab é o vaso da minha esperança.
         </Typography>

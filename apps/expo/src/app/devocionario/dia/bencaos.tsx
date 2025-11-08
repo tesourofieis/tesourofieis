@@ -22,10 +22,12 @@ export default function PageBencaos() {
           <Typography className="response"> ℟. </Typography>Demos graças a Deus.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography> Laudetur Jesus Christus.
+          <Typography className="versicle"> ℣. </Typography> Laudetur Jesus
+          Christus.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Louvado seja Jesus Cristo.
+          <Typography className="versicle"> ℣. </Typography>Louvado seja Jesus
+          Cristo.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography>In æternum.
@@ -43,12 +45,12 @@ export default function PageBencaos() {
       <H3 text="Antes da Refeição" />
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> In nómine Patris, et Fílii, et
-          Spíritus Sancti.
+          <Typography className="cross"> ✠ </Typography> In nómine Patris, et
+          Fílii, et Spíritus Sancti.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Em nome do Pai e do Filho e do
-          Espírito Santo.
+          <Typography className="cross"> ✠ </Typography> Em nome do Pai e do
+          Filho e do Espírito Santo.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography>Amen.
@@ -57,14 +59,14 @@ export default function PageBencaos() {
           <Typography className="response"> ℟. </Typography>Amen.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Bénedic, Dómine, nos et hæc tua
-          dona quæ de tua largitáte sumus sumptúri. Per Christum Dóminum
-          nostrum.
+          <Typography className="versicle"> ℣. </Typography>Bénedic, Dómine, nos
+          et hæc tua dona quæ de tua largitáte sumus sumptúri. Per Christum
+          Dóminum nostrum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Abençoai-nos, Senhor, e a estes
-          alimentos que da vossa generosidade recebemos. Por Cristo Senhor
-          Nosso.
+          <Typography className="versicle"> ℣. </Typography>Abençoai-nos,
+          Senhor, e a estes alimentos que da vossa generosidade recebemos. Por
+          Cristo Senhor Nosso.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography>Amen.
@@ -88,14 +90,14 @@ export default function PageBencaos() {
           <Typography className="response"> ℟. </Typography>Amen.
         </Typography>
         <Typography className="latin">
-          <Typography className="versicle"> ℣. </Typography>Ágimus tibi grátias, omnipotens
-          Deus, pro universis beneficiis tuis, qui vivis et regnas in sǽcula
-          sæculórum.
+          <Typography className="versicle"> ℣. </Typography>Ágimus tibi grátias,
+          omnipotens Deus, pro universis beneficiis tuis, qui vivis et regnas in
+          sǽcula sæculórum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="versicle"> ℣. </Typography>Senhor, nós Vos damos graças
-          pelo alimento que nos destes; fazei-nos dignos de participar da vossa
-          mesa celeste.
+          <Typography className="versicle"> ℣. </Typography>Senhor, nós Vos
+          damos graças pelo alimento que nos destes; fazei-nos dignos de
+          participar da vossa mesa celeste.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography>Amen.
@@ -116,12 +118,12 @@ export default function PageBencaos() {
           acompanhem.
         </Typography>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> In nómine Patris, et Fílii, et
-          Spíritus Sancti.
+          <Typography className="cross"> ✠ </Typography> In nómine Patris, et
+          Fílii, et Spíritus Sancti.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Em nome do Pai e do Filho e do
-          Espírito Santo.
+          <Typography className="cross"> ✠ </Typography> Em nome do Pai e do
+          Filho e do Espírito Santo.
         </Typography>
         <Typography className="latin">
           <Typography className="response"> ℟. </Typography>Amen.

@@ -52,23 +52,24 @@ export default function Page0721() {
       <Language>
         <Typography className="latin">
           Dilexísti justítiam, et odísti iniquitátem.
-          <Typography className="versicle"> ℣. </Typography>Proptérea unxit te Deus, Deus
-          tuus, óleo lætítiæ.
+          <Typography className="versicle"> ℣. </Typography>Proptérea unxit te
+          Deus, Deus tuus, óleo lætítiæ.
         </Typography>
         <Typography className="vernacular">
           Amastes a justiça e odiastes a iniquidade.
-          <Typography className="versicle"> ℣. </Typography>Pelo que o Senhor, vosso Deus,
-          vos ungiu com o óleo da alegria.
+          <Typography className="versicle"> ℣. </Typography>Pelo que o Senhor,
+          vosso Deus, vos ungiu com o óleo da alegria.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 5</Typography> Spécie tua et pulchritúdine
-          tua inténde, próspere procéde et regna. Allelúja.
+          <Typography className="latin">ibid., 5</Typography> Spécie tua et
+          pulchritúdine tua inténde, próspere procéde et regna. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 5</Typography> Caminhai, pois, com
-          beleza e com majestade; ide gozar a glória e reinai. Aleluia.
+          <Typography className="vernacular">ibid., 5</Typography> Caminhai,
+          pois, com beleza e com majestade; ide gozar a glória e reinai.
+          Aleluia.
         </Typography>
       </Language>
     </PageWrapper>

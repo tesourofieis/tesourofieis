@@ -17,8 +17,9 @@ export default function PageQuadp34() {
           Dum clamárem ad Dóminum, exaudívit vocem meam ab his, qui
           appropínquant mihi, et humiliávit eos, qui est ante sǽcula et manet in
           ætérnum: jacta cogitátum tuum in Dómino, et ipse te enútriet.{" "}
-          <Typography className="latin">Ps. ibid., 2-3</Typography> Exáudi, Deus, oratiónem
-          meam, et ne despéxeris deprecatiónem meam: inténde mihi et exáudi me.
+          <Typography className="latin">Ps. ibid., 2-3</Typography> Exáudi,
+          Deus, oratiónem meam, et ne despéxeris deprecatiónem meam: inténde
+          mihi et exáudi me.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
@@ -26,8 +27,8 @@ export default function PageQuadp34() {
           que vinham contra mim: e Aquele que existe antes de todos os séculos e
           existirá eternamente os humilhará. Abandonai ao Senhor os vossos
           cuidados, pois Ele providenciará.{" "}
-          <Typography className="vernacular">Sl. ibid., 2-3</Typography> Ouvi, ó Deus, a
-          minha oração e não desprezeis a minha humilde súplica.
+          <Typography className="vernacular">Sl. ibid., 2-3</Typography> Ouvi, ó
+          Deus, a minha oração e não desprezeis a minha humilde súplica.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -90,8 +91,8 @@ export default function PageQuadp34() {
       <Language>
         <Typography className="latin">
           Jacta cogitátum tuum in Dómino, et ipse te enútriet.
-          <Typography className="versicle"> ℣. </Typography>Dum clamárem ad Dóminum,
-          exaudívit vocem meam ab his, qui appropínquant mihi.
+          <Typography className="versicle"> ℣. </Typography>Dum clamárem ad
+          Dóminum, exaudívit vocem meam ab his, qui appropínquant mihi.
         </Typography>
         <Typography className="vernacular">
           Abandonai ao Senhor os vossos cuidados, pois Ele providenciará.
@@ -107,12 +108,12 @@ export default function PageQuadp34() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Cum introísset Jesus Caphárnaum, accéssit ad eum

@@ -14,15 +14,16 @@ export default function PageQuad34() {
         <Typography className="latin">
           Salus pópuli ego sum, dicit Dóminus: de quacúmque tribulatióne
           clamáverint ad me, exáudiam eos: et ero illórum Dóminus in perpétuum.{" "}
-          <Typography className="latin">Ps. 77, 1</Typography> Atténdite, pópule meus, legem
-          meam: inclináte aurem vestram in verba oris mei.
+          <Typography className="latin">Ps. 77, 1</Typography> Atténdite, pópule
+          meus, legem meam: inclináte aurem vestram in verba oris mei.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Eu sou a salvação do povo, diz o Senhor; em todas as tribulações em
           que me invocarem atendê-los-ei: e serei sempre o seu Senhor.{" "}
-          <Typography className="vernacular">Sl. 77, 1</Typography> Escutai, ó meu povo, a
-          minha lei: inclinai os vossos ouvidos às palavras que pronuncio.
+          <Typography className="vernacular">Sl. 77, 1</Typography> Escutai, ó
+          meu povo, a minha lei: inclinai os vossos ouvidos às palavras que
+          pronuncio.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -49,7 +50,9 @@ export default function PageQuad34() {
 
       <Language>
         <Typography className="latin">Léctio Jeremíæ Prophétæ.</Typography>
-        <Typography className="vernacular">Lição do Profeta Jeremias.</Typography>
+        <Typography className="vernacular">
+          Lição do Profeta Jeremias.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Factum est verbum Dómini ad me, dicens: Sta in porta
           domus Dómini: et prǽdica ibi verbum istud, et dic: Audíte verbum
@@ -90,14 +93,14 @@ export default function PageQuad34() {
       <Language>
         <Typography className="latin">
           Oculi ómnium in te sperant, Dómine: et tu das illis escam in témpore
-          opportúno.<Typography className="versicle"> ℣. </Typography>Aperis tu manum tuam:
-          et imples omne ánimal benedictióne.
+          opportúno.<Typography className="versicle"> ℣. </Typography>Aperis tu
+          manum tuam: et imples omne ánimal benedictióne.
         </Typography>
         <Typography className="vernacular">
           Todos os olhos estão voltados para Vós, Senhor; pois dais a cada um o
           sustento em tempo oportuno.
-          <Typography className="versicle"> ℣. </Typography>Abris a vossa mão e encheis de
-          bênçãos todos os viventes.
+          <Typography className="versicle"> ℣. </Typography>Abris a vossa mão e
+          encheis de bênçãos todos os viventes.
         </Typography>
       </Language>
 
@@ -107,12 +110,12 @@ export default function PageQuad34() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Surgens Jesus de synagóga, introívit in domum

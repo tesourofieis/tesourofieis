@@ -13,7 +13,9 @@ export default function PageConfesso() {
           Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michǽli
           Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo,
           et ómnibus Sanctis: quia peccávi nimis cogitatióne, verbo et ópere:{" "}
-          <Typography className="latin">Percutit sibi pectus ter, dicens:</Typography>
+          <Typography className="latin">
+            Percutit sibi pectus ter, dicens:
+          </Typography>
         </Typography>
         <Typography className="vernacular">
           Eu me confesso a Deus, todo poderoso, à bem-aventurada sempre Virgem
@@ -25,7 +27,9 @@ export default function PageConfesso() {
           </Typography>
         </Typography>
         <Typography className="latin">
-          <Typography className="latin">Mea culpa, mea culpa, mea máxima culpa.</Typography>
+          <Typography className="latin">
+            Mea culpa, mea culpa, mea máxima culpa.
+          </Typography>
         </Typography>
         <Typography className="vernacular">
           <Typography className="vernacular">

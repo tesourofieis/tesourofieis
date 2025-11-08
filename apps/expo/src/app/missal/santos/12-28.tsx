@@ -15,15 +15,16 @@ export default function Page1228() {
       <Language>
         <Typography className="latin">
           Ex ore infántium, Deus, et lacténtium perfecísti laudem propter
-          inimicos tuos. <Typography className="latin">Ps. ib., 2</Typography> Dómine,
-          Dóminus noster: quam admirábile est nomen tuum in univérsa terra!
+          inimicos tuos. <Typography className="latin">Ps. ib., 2</Typography>{" "}
+          Dómine, Dóminus noster: quam admirábile est nomen tuum in univérsa
+          terra!
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Da boca dos meninos e das crianças de peito fazeis sair louvores em
           vossa honra, para confusão dos vossos inimigos.{" "}
-          <Typography className="vernacular">Sl. ib., 2</Typography> Ó Senhor, nosso Deus,
-          como o vosso nome é admirável em todo o universo!
+          <Typography className="vernacular">Sl. ib., 2</Typography> Ó Senhor,
+          nosso Deus, como o vosso nome é admirável em todo o universo!
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -103,8 +104,8 @@ export default function Page1228() {
         <Typography className="vernacular">
           A nossa alma escapou-se, como um pássaro do laço do caçador. O laço
           quebrou-se, e ficámos livres.
-          <Typography className="versicle"> ℣. </Typography>A nossa esperança está no nome
-          do Senhor, que criou o céu e a terra.
+          <Typography className="versicle"> ℣. </Typography>A nossa esperança
+          está no nome do Senhor, que criou o céu e a terra.
         </Typography>
       </Language>
 
@@ -115,30 +116,33 @@ export default function Page1228() {
       <Language>
         <Typography className="latin">
           Effudérunt sánguinem Sanctórum, velut aquam, in circuitu Jerúsalem.
-          <Typography className="versicle"> ℣. </Typography>Et non erat, qui sepelíret.
-          <Typography className="versicle"> ℣. </Typography>Víndica, Dómine, sánguinem
-          Sanctórum tuórum, qui effúsus est super terram.
+          <Typography className="versicle"> ℣. </Typography>Et non erat, qui
+          sepelíret.
+          <Typography className="versicle"> ℣. </Typography>Víndica, Dómine,
+          sánguinem Sanctórum tuórum, qui effúsus est super terram.
         </Typography>
         <Typography className="vernacular">
           Derramaram o sangue dos Santos, como água, em redor de Jerusalém.
-          <Typography className="versicle"> ℣. </Typography>E não houve ninguém que os
-          sepultasse.<Typography className="versicle"> ℣. </Typography>Vingai, Senhor, o
-          sangue dos vossos Santos que correu pela terra.
+          <Typography className="versicle"> ℣. </Typography>E não houve ninguém
+          que os sepultasse.<Typography className="versicle"> ℣. </Typography>
+          Vingai, Senhor, o sangue dos vossos Santos que correu pela terra.
         </Typography>
       </Language>
 
-      <Typography className="aside">Ao Domingo suprime-se o Trato e diz-se:</Typography>
+      <Typography className="aside">
+        Ao Domingo suprime-se o Trato e diz-se:
+      </Typography>
 
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 112, 1</Typography> Laudáte, púeri, Dóminum,
-          laudáte nomen Dómini. Allelúja.
+          <Typography className="latin">Ps. 112, 1</Typography> Laudáte, púeri,
+          Dóminum, laudáte nomen Dómini. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 112, 1</Typography> Ó meninos, louvai o
-          Senhor; louvai o seu santo nome. Aleluia.
+          <Typography className="vernacular">Sl. 112, 1</Typography> Ó meninos,
+          louvai o Senhor; louvai o seu santo nome. Aleluia.
         </Typography>
       </Language>
 
@@ -148,12 +152,12 @@ export default function Page1228() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Angelus Dómini appáruit in somnis Joseph, dicens:

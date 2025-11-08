@@ -16,16 +16,17 @@ export default function PagePasc04() {
         <Typography className="latin">
           Victrícem manum tuam, Dómine, laudavérunt páriter, allelúja: quia
           sapiéntia apéruit os mutum, et linguas infántium fecit disértas,
-          allelúja, allelúja. <Typography className="latin">Ps. 97, 1</Typography> Cantáte
-          Dómino cánticum novum: quia mirabília fecit.
+          allelúja, allelúja.{" "}
+          <Typography className="latin">Ps. 97, 1</Typography> Cantáte Dómino
+          cánticum novum: quia mirabília fecit.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Louvaram juntamente, Senhor, a vossa mão vencedora, aleluia: pois a
           sabedoria abriu a boca dos mudos e tornou eloquente a língua das
           crianças, aleluia, aleluia.{" "}
-          <Typography className="vernacular">Sl. 97, 1</Typography> Cantai em honra do
-          Senhor um hino novo, pois Ele operou maravilhas.
+          <Typography className="vernacular">Sl. 97, 1</Typography> Cantai em
+          honra do Senhor um hino novo, pois Ele operou maravilhas.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -52,7 +53,9 @@ export default function PagePasc04() {
 
       <Language>
         <Typography className="latin">Léctio Actuum Apostolorum.</Typography>
-        <Typography className="vernacular">Lição dos Actos dos Apóstolos.</Typography>
+        <Typography className="vernacular">
+          Lição dos Actos dos Apóstolos.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Angelus Dómini locútus est ad Philíppum, dicens:
           Surge et vade contra meridiánum ad viam, quæ descéndit ab Jerúsalem in
@@ -130,12 +133,13 @@ export default function PagePasc04() {
           quem fez isto; e os nossos olhos viram-no com admiração.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Surréxit
-          Christus, qui creávit ómnia: et misértus est humáno géneri.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Surréxit Christus, qui creávit ómnia: et misértus est humáno géneri.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Ressuscitou
-          Cristo, que criou todas as coisas: e compadeceu-se do género humano.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Ressuscitou Cristo, que criou todas as coisas: e compadeceu-se do
+          género humano.
         </Typography>
       </Language>
 
@@ -143,12 +147,12 @@ export default function PagePasc04() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: María stabat ad monuméntum foris, plorans. Dum ergo

@@ -15,15 +15,15 @@ export default function PagePent190() {
         <Typography className="latin">
           Salus pópuli ego sum, dicit Dóminus: de quacúmque tribulatióne
           clamáverint ad me, exáudiam eos: et ero illórum Dóminus in perpétuum.{" "}
-          <Typography className="latin">Ps. 77, 1</Typography> Attendite, pópule meus, legem
-          meam: inclináte aurem vestram in verba oris mei.
+          <Typography className="latin">Ps. 77, 1</Typography> Attendite, pópule
+          meus, legem meam: inclináte aurem vestram in verba oris mei.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Sou a salvação do povo, diz o Senhor; em qualquer tribulação clamarão
           por mim e ouvi-los-ei, pois serei o seu Senhor eternamente.{" "}
-          <Typography className="vernacular">Sl. 77, 1</Typography> Sede atentos à minha
-          Lei, ó meu povo; escutai as palavras que saem da minha boca.
+          <Typography className="vernacular">Sl. 77, 1</Typography> Sede atentos
+          à minha Lei, ó meu povo; escutai as palavras que saem da minha boca.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -91,18 +91,20 @@ export default function PagePent190() {
         </Typography>
         <Typography className="vernacular">
           Que a minha oração, Senhor, chegue até Vós, como perfume de incenso:
-          <Typography className="versicle"> ℣. </Typography>E que minhas mãos erguidas Vos
-          sejam agradáveis, como o sacrifício vespertino.
+          <Typography className="versicle"> ℣. </Typography>E que minhas mãos
+          erguidas Vos sejam agradáveis, como o sacrifício vespertino.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 104, 1</Typography> Confitémini Dómino, et
-          invocáte nomen ejus: annuntiáte inter gentes ópera ejus. Allelúja.
+          <Typography className="latin">Ps. 104, 1</Typography> Confitémini
+          Dómino, et invocáte nomen ejus: annuntiáte inter gentes ópera ejus.
+          Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 104, 1</Typography> Louvai o Senhor e
-          invocai o seu nome: publicai as suas obras em todos os povos. Aleluia.
+          <Typography className="vernacular">Sl. 104, 1</Typography> Louvai o
+          Senhor e invocai o seu nome: publicai as suas obras em todos os povos.
+          Aleluia.
         </Typography>
       </Language>
 
@@ -112,12 +114,12 @@ export default function PagePent190() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Loquebátur Jesus princípibus sacerdótum et pharisǽis

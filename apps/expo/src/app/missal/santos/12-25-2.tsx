@@ -16,15 +16,15 @@ export default function Page12252() {
         <Typography className="latin">
           Puer natus est nobis, et fílius datus est nobis: cujus impérium super
           húmerum ejus: et vocábitur nomen ejus magni consílii Angelus.{" "}
-          <Typography className="latin">Ps. 97, 1</Typography> Cantáte Dómino cánticum
-          novum, quia mirabília fecit.
+          <Typography className="latin">Ps. 97, 1</Typography> Cantáte Dómino
+          cánticum novum, quia mirabília fecit.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Nasceu para nós um Menino e foi-nos dado um Filho, que traz sobre os
           seus ombros o manto da realeza, o qual será chamado «Anjo do admirável
-          conselho». <Typography className="vernacular">Sl. 97, 1</Typography> Cantai ao
-          Senhor um hino novo, pois Ele praticou maravilhas.
+          conselho». <Typography className="vernacular">Sl. 97, 1</Typography>{" "}
+          Cantai ao Senhor um hino novo, pois Ele praticou maravilhas.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -110,8 +110,9 @@ export default function Page12252() {
       <Language>
         <Typography className="latin">
           Vidérunt omnes fines terræ salutare Dei nostri: jubiláte Deo, omnis
-          terra.<Typography className="versicle"> ℣. </Typography>Notum fecit Dominus
-          salutare suum: ante conspéctum géntium revelávit justitiam suam.
+          terra.<Typography className="versicle"> ℣. </Typography>Notum fecit
+          Dominus salutare suum: ante conspéctum géntium revelávit justitiam
+          suam.
         </Typography>
         <Typography className="vernacular">
           Toda a terra viu o Salvador, que o nosso Deus enviou: aclamai Deus, ó
@@ -119,14 +120,14 @@ export default function Page12252() {
           prometido: e manifestou a sua justiça aos olhos dos povos.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Dies
-          sanctificátus illúxit nobis: veníte, gentes, et adoráte Dóminum: quia
-          hódie descéndit lux magna super terram. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Dies sanctificátus illúxit nobis: veníte, gentes, et adoráte Dóminum:
+          quia hódie descéndit lux magna super terram. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Um dia de
-          santidade resplandeceu para nós: vinde, ó povos, e adorai o Senhor:
-          pois hoje desceu a grande luz à terra. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Um
+          dia de santidade resplandeceu para nós: vinde, ó povos, e adorai o
+          Senhor: pois hoje desceu a grande luz à terra. Aleluia.
         </Typography>
       </Language>
 
@@ -136,12 +137,12 @@ export default function Page12252() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Initium sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Initium sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Início do santo Evangelho segundo
-          S. João.
+          <Typography className="cross"> ✠ </Typography> Início do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In princípio erat Verbum, et Verbum erat apud Deum, et Deus erat
@@ -157,9 +158,9 @@ export default function Page12252() {
           Quotquot autem recepérunt eum, dedit eis potestátem fílios Dei fíeri,
           his, qui credunt in nómine ejus: qui non ex sanguínibus, neque ex
           voluntáte carnis, neque ex voluntáte viri, sed ex Deo nati sunt.{" "}
-          <Typography className="em">(Hic genuflectitur)</Typography> Et Verbum caro factum
-          est, et habitávit in nobis: et vídimus glóriam ejus, glóriam quasi
-          Unigéniti a Patre, plenum grátiæ et veritátis.
+          <Typography className="em">(Hic genuflectitur)</Typography> Et Verbum
+          caro factum est, et habitávit in nobis: et vídimus glóriam ejus,
+          glóriam quasi Unigéniti a Patre, plenum grátiæ et veritátis.
         </Typography>
         <Typography className="vernacular">
           No princípio existia o Verbo, e o Verbo estava com Deus, e o Verbo era
@@ -176,9 +177,9 @@ export default function Page12252() {
           Ele a todos quantos O receberam e aos que acreditaram no seu nome deu
           o poder de serem filhos de Deus, os quais não nasceram do sangue, nem
           do desejo da carne, mas somente da vontade de Deus. E o Verbo fez-se
-          carne <Typography className="em">(genuflecte-se)</Typography> e habitou entre nós;
-          e contemplamos a sua glória, como era própria do Filho Unigénito do
-          Pai, cheio de graça e de verdade.
+          carne <Typography className="em">(genuflecte-se)</Typography> e
+          habitou entre nós; e contemplamos a sua glória, como era própria do
+          Filho Unigénito do Pai, cheio de graça e de verdade.
         </Typography>
       </Language>
 
@@ -247,12 +248,12 @@ export default function Page12252() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           Cum natus esset Jesus in Béthlehem Juda in diébus Heródis regis, ecce,
@@ -271,10 +272,10 @@ export default function Page12252() {
           Oriénte, antecedébat eos, usque dum véniens staret supra, ubi erat
           Puer. Vidéntes autem stellam, gavísi sunt gáudio magno valde. Et
           intrántes domum, invenérunt Púerum cum María Matre ejus,{" "}
-          <Typography className="em">(hic genuflectitur)</Typography> ei procidéntes
-          adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei múnera,
-          aurum, thus et myrrham. Et responso accépto in somnis, ne redírent ad
-          Heródem, per aliam viam revérsi sunt in regiónem suam.
+          <Typography className="em">(hic genuflectitur)</Typography> ei
+          procidéntes adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei
+          múnera, aurum, thus et myrrham. Et responso accépto in somnis, ne
+          redírent ad Heródem, per aliam viam revérsi sunt in regiónem suam.
         </Typography>
         <Typography className="vernacular">
           Havendo Jesus nascido em Belém, de Judá, no tempo do rei Herodes, eis
@@ -296,10 +297,11 @@ export default function Page12252() {
           chegando ao lugar onde estava o Menino, parou. Quando os Magos viram a
           estrela, alegraram-se muito. Entrando, então, na casa, encontraram o
           Menino com Maria, sua mãe; e, de joelhos, O adoraram.{" "}
-          <Typography className="em">(Todos devem ajoelhar)</Typography> E, tendo aberto os
-          seus tesouros, ofereceram-Lhe presentes de ouro, incenso e mirra.
-          Depois, havendo tido aviso em sonhos de que não deveriam voltar a
-          encontrar Herodes, retiraram-se por outro caminho para o seu país.
+          <Typography className="em">(Todos devem ajoelhar)</Typography> E,
+          tendo aberto os seus tesouros, ofereceram-Lhe presentes de ouro,
+          incenso e mirra. Depois, havendo tido aviso em sonhos de que não
+          deveriam voltar a encontrar Herodes, retiraram-se por outro caminho
+          para o seu país.
         </Typography>
       </Language>
     </PageWrapper>

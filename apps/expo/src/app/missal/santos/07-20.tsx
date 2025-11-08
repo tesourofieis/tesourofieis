@@ -36,16 +36,16 @@ export default function Page0720() {
         <Typography className="latin">
           Effúsum est in terra jecur meum super contritióne fíliæ pópuli mei,
           cum defíceret párvulus et lactens in platéis óppidi.{" "}
-          <Typography className="latin">Ps. 112, 1</Typography> Laudáte, pueri, Dóminum:
-          laudáte nomen Dómini.<Typography className="versicle"> ℣. </Typography>Gloria
-          Patri...
+          <Typography className="latin">Ps. 112, 1</Typography> Laudáte, pueri,
+          Dóminum: laudáte nomen Dómini.
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           O meu coração ficou ferido ao contemplar as infelicidades da filha do
           meu povo, quando as criancinhas, e até aquelas que ainda eram
           amamentadas, caíam desfalecidas nas praças da cidade!{" "}
-          <Typography className="vernacular">Sl. 112, 1</Typography> Louvai o Senhor, ó
-          meninos; louvai o nome do Senhor.
+          <Typography className="vernacular">Sl. 112, 1</Typography> Louvai o
+          Senhor, ó meninos; louvai o nome do Senhor.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -116,8 +116,8 @@ export default function Page0720() {
         <Typography className="latin">
           Derivéntur fontes tui foras, et in platéis aquas tuas divide.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 111, 5-6</Typography> Jucúndus homo, qui
-          miserétur et cómmodat: dispónet sermónes suos in judício, quia in
+          <Typography className="latin">Ps. 111, 5-6</Typography> Jucúndus homo,
+          qui miserétur et cómmodat: dispónet sermónes suos in judício, quia in
           ætérnum non commovébitur.
         </Typography>
         <Typography className="vernacular">
@@ -130,14 +130,14 @@ export default function Page0720() {
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">ibid., 9</Typography> Dispérsit, dedit paupéribus:
-          justítia ejus manet in sǽculum sǽculi. Allelúja.
+          <Typography className="latin">ibid., 9</Typography> Dispérsit, dedit
+          paupéribus: justítia ejus manet in sǽculum sǽculi. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">ibid., 9</Typography> Com liberalidade
-          distribuiu esmolas pelos pobres, pelo que sua justiça permanecerá em
-          todos os séculos dos séculos. Aleluia.
+          <Typography className="vernacular">ibid., 9</Typography> Com
+          liberalidade distribuiu esmolas pelos pobres, pelo que sua justiça
+          permanecerá em todos os séculos dos séculos. Aleluia.
         </Typography>
       </Language>
 
@@ -147,12 +147,12 @@ export default function Page0720() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Obláti sunt Jesu párvuli, ut manus eis impóneret et

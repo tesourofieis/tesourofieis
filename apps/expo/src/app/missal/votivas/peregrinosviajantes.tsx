@@ -16,14 +16,16 @@ export default function PagePeregrinosviajantes() {
         <Typography className="latin">
           Rédime me, Dómine, et miserére mei: pes enim meus stetit in via recta:
           in ecclésiis benedícam Dóminum. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. ibid., 1</Typography> Júdica me. Dómine, quóniam
-          ego in innocéntia mea ingréssus sum: et in Dómino sperans non
-          infirmábor.<Typography className="versicle"> ℣. </Typography>Gloria Patri...
+          <Typography className="latin">Ps. ibid., 1</Typography> Júdica me.
+          Dómine, quóniam ego in innocéntia mea ingréssus sum: et in Dómino
+          sperans non infirmábor.
+          <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Resgatai-me, Senhor, e tende misericórdia de mim, pois o meu pé está
           assente em caminho direito; bendirei o Senhor nas assembleias. (T. P.
-          Aleluia, aleluia.) <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
+          Aleluia, aleluia.){" "}
+          <Typography className="vernacular">Sl. ibid., 1</Typography>{" "}
           Julgai-me, Senhor, porquanto tenho caminhado com a minha inocência, e,
           confiando no Senhor, não vacilarei.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
@@ -52,7 +54,9 @@ export default function PagePeregrinosviajantes() {
 
       <Language>
         <Typography className="latin">Léctio libri Genesis.</Typography>
-        <Typography className="vernacular">Lição do Livro do Génesis.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro do Génesis.
+        </Typography>
         <Typography className="latin">
           In diébus illis: Egréssus Jacob de Bersabée, pergébat Haran. Cumque
           venísset ad quendam locum, et vellet in eo requiéscere post solis
@@ -101,26 +105,26 @@ export default function PagePeregrinosviajantes() {
       <Language>
         <Typography className="latin">
           Si ámbulem in médio umbræ mortis, non timébo mala, quóniam tu mecum
-          es, Dómine.<Typography className="versicle"> ℣. </Typography>Virga tua et báculus
-          tuus, ipsa me consoláta sunt.
+          es, Dómine.<Typography className="versicle"> ℣. </Typography>Virga tua
+          et báculus tuus, ipsa me consoláta sunt.
         </Typography>
         <Typography className="vernacular">
           Ainda que eu caminhe no meio das sombras da morte, não recearei mal
           algum, porque Vós, Senhor, estareis comigo.
-          <Typography className="versicle"> ℣. </Typography>Vossa vara e o vosso bastão me
-          consolarão.
+          <Typography className="versicle"> ℣. </Typography>Vossa vara e o vosso
+          bastão me consolarão.
         </Typography>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 118, 133</Typography> Gressus meos dírige
-          secúndum elóquium tuum: ut non dominétur mei omnis injustítia.
+          <Typography className="latin">Ps. 118, 133</Typography> Gressus meos
+          dírige secúndum elóquium tuum: ut non dominétur mei omnis injustítia.
           Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 118, 133</Typography> Encaminhei os meus
-          passos segundo a vossa doutrina, para que nenhuma injustiça me possa
-          dominar. Aleluia.
+          <Typography className="vernacular">Sl. 118, 133</Typography>{" "}
+          Encaminhei os meus passos segundo a vossa doutrina, para que nenhuma
+          injustiça me possa dominar. Aleluia.
         </Typography>
       </Language>
 
@@ -135,17 +139,17 @@ export default function PagePeregrinosviajantes() {
       <Language>
         <Typography className="latin">
           Angelis suis Deus mandávit de te, ut custódiant te in ómnibus viis
-          tuis.<Typography className="versicle"> ℣. </Typography>In mánibus portábunt te, ne
-          umquam offéndas ad lápidem pedem tuum.
-          <Typography className="versicle"> ℣. </Typography>Super áspidem et basilíscum
-          ambulábis, et conculcábis leónem et dracónem.
+          tuis.<Typography className="versicle"> ℣. </Typography>In mánibus
+          portábunt te, ne umquam offéndas ad lápidem pedem tuum.
+          <Typography className="versicle"> ℣. </Typography>Super áspidem et
+          basilíscum ambulábis, et conculcábis leónem et dracónem.
         </Typography>
         <Typography className="vernacular">
           Ordenou Deus aos seus Anjos que te guardassem em todos teus caminhos.
-          <Typography className="versicle"> ℣. </Typography>Conduzir-te-ão com suas mãos,
-          para que as pedras te não magoem.
-          <Typography className="versicle"> ℣. </Typography>Caminharás sobre a áspide e o
-          basilisco e calcarás o leão e o dragão.
+          <Typography className="versicle"> ℣. </Typography>Conduzir-te-ão com
+          suas mãos, para que as pedras te não magoem.
+          <Typography className="versicle"> ℣. </Typography>Caminharás sobre a
+          áspide e o basilisco e calcarás o leão e o dragão.
         </Typography>
       </Language>
 
@@ -156,19 +160,20 @@ export default function PagePeregrinosviajantes() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 118, 133</Typography> Gressus meos dírige
-          secúndum elóquium tuum: ut non dominétur mei omnis injustítia.
+          <Typography className="latin">Ps. 118, 133</Typography> Gressus meos
+          dírige secúndum elóquium tuum: ut non dominétur mei omnis injustítia.
           Allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Ps. 121, 1</Typography> Lætátus sum in his, quæ dicta
-          sunt mihi: in domum Dómini íbimus. Allelúja.
+          <Typography className="em">Ps. 121, 1</Typography> Lætátus sum in his,
+          quæ dicta sunt mihi: in domum Dómini íbimus. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 118, 133</Typography> Encaminhei os meus
-          passos segundo a vossa doutrina, para que nenhuma injustiça me possa
-          dominar. Aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="em">Sl. 121, 1</Typography> Alegrei-me quando me foram
-          ditas estas palavras: «Iremos até à casa do Senhor». Aleluia.
+          <Typography className="vernacular">Sl. 118, 133</Typography>{" "}
+          Encaminhei os meus passos segundo a vossa doutrina, para que nenhuma
+          injustiça me possa dominar. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="em">Sl. 121, 1</Typography> Alegrei-me quando
+          me foram ditas estas palavras: «Iremos até à casa do Senhor». Aleluia.
         </Typography>
       </Language>
 
@@ -178,12 +183,12 @@ export default function PagePeregrinosviajantes() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Dixit Jesus discípulis suis: Eúntes, prædicáte,

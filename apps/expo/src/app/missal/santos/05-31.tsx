@@ -15,16 +15,16 @@ export default function Page0531() {
           Gaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátæ
           Maríæ Vírginis Reginæ: de cujus solemnitáte gaudent Angeli, et
           colláudant Fílium Dei. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. 44, 2</Typography> Effúndit cor meum verbum
-          bonum: dico ego carmen meum Regi.
+          <Typography className="latin">Ps. 44, 2</Typography> Effúndit cor meum
+          verbum bonum: dico ego carmen meum Regi.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Alegremo-nos todos no Senhor, no dia em que celebramos a festa em
           honra da B. Virgem Maria, rainha: os Anjos regozijam-se com esta festa
           e louvam unisonamente o Filho de Deus. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. 44, 2</Typography> No meu coração reboa um
-          belo discurso: Ao Rei dedico este meu cântico.
+          <Typography className="vernacular">Sl. 44, 2</Typography> No meu
+          coração reboa um belo discurso: Ao Rei dedico este meu cântico.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -51,7 +51,9 @@ export default function Page0531() {
 
       <Language>
         <Typography className="latin">Léctio libri Sapiéntiæ.</Typography>
-        <Typography className="vernacular">Lição do Livro da Sabedoria.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro da Sabedoria.
+        </Typography>
         <Typography className="latin">
           Ego ex ore Altíssimi prodívi, primogenitá ante ómnem creatúram; ego in
           altíssimis habitávi, et thronus meus in colúmna nubis. In omni terra
@@ -73,10 +75,10 @@ export default function Page0531() {
 
       <Language>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Beáta es,
-          Virgo María, quæ sub cruce Dómini sustinuísti. Allelúja.
-          <Typography className="versicle"> ℣. </Typography>Nunc cum eo regnas in ætérnum.
-          Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Beáta es, Virgo María, quæ sub cruce Dómini sustinuísti. Allelúja.
+          <Typography className="versicle"> ℣. </Typography>Nunc cum eo regnas
+          in ætérnum. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
@@ -98,24 +100,24 @@ export default function Page0531() {
         <Typography className="latin">
           Ipse habet in vestiménto et in femóre suo scriptum: Rex regum, et
           Dóminus dominántium.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 44, 10</Typography> Regina adstat ad déxteram
-          ejus, ornáta auro ex Ophir.
+          <Typography className="latin">Ps. 44, 10</Typography> Regina adstat ad
+          déxteram ejus, ornáta auro ex Ophir.
         </Typography>
         <Typography className="vernacular">
           Ele tem escrito no manto e no seu femur, Rei dos reis e Senhor de
           todos os senhores.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 44, 10</Typography> A Rainha está à sua
-          direita, recamada de ouro de Ofir.
+          <Typography className="vernacular">Sl. 44, 10</Typography> A Rainha
+          está à sua direita, recamada de ouro de Ofir.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Salve, Regína
-          misericórdiæ: tu nos ab hoste prótege, et mortis hora súscipe.
-          Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Salve, Regína misericórdiæ: tu nos ab hoste prótege, et mortis hora
+          súscipe. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>Salve, Rainha
-          de Misericórdia, protegei-nos contra o inimigo e recebei-nos na hora
-          da morte. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
+          Salve, Rainha de Misericórdia, protegei-nos contra o inimigo e
+          recebei-nos na hora da morte. Aleluia.
         </Typography>
       </Language>
 
@@ -125,12 +127,12 @@ export default function Page0531() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Missus est Angelus Gábriel a Deo in civitátem

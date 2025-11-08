@@ -16,15 +16,15 @@ export default function PageQuad36() {
         <Typography className="latin">
           Verba mea áuribus pércipe, Dómine, intéllege clamórem meum: inténde
           voci oratiónis meæ, Rex meus et Deus meus.{" "}
-          <Typography className="latin">Ps. ibid., 4</Typography> Quóniam ad te orábo,
-          Dómine: mane exáudies vocem meam.
+          <Typography className="latin">Ps. ibid., 4</Typography> Quóniam ad te
+          orábo, Dómine: mane exáudies vocem meam.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Ouvi as minhas palavras, Senhor: atendei ao meu clamor e escutai a voz
           da minha oração, ó meu Rei e meu Deus!{" "}
-          <Typography className="vernacular">Sl. ibid., 4</Typography> Porquanto a Vós
-          Orarei, Senhor; desde manhã ouvireis a minha voz.
+          <Typography className="vernacular">Sl. ibid., 4</Typography> Porquanto
+          a Vós Orarei, Senhor; desde manhã ouvireis a minha voz.
           <Typography className="versicle"> ℣. </Typography>Glória ao Pai...
         </Typography>
       </Language>
@@ -235,14 +235,14 @@ export default function PageQuad36() {
       <Language>
         <Typography className="latin">
           Si ámbulem in médio umbræ mortis, non timébo mala: quóniam tu mecum
-          es, Dómine.<Typography className="versicle"> ℣. </Typography>Virga tua et báculus
-          tuus, ipsa me consoláta sunt.
+          es, Dómine.<Typography className="versicle"> ℣. </Typography>Virga tua
+          et báculus tuus, ipsa me consoláta sunt.
         </Typography>
         <Typography className="vernacular">
           Ainda que eu ande no meio das sombras da morte, não recearei mal
           algum, pois Vós, Senhor, estais comigo.
-          <Typography className="versicle"> ℣. </Typography>Vossa vara e o vosso báculo
-          confortam-me.
+          <Typography className="versicle"> ℣. </Typography>Vossa vara e o vosso
+          báculo confortam-me.
         </Typography>
       </Language>
 
@@ -252,12 +252,12 @@ export default function PageQuad36() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Joánnem.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Joánnem.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. João.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. João.
         </Typography>
         <Typography className="latin">
           In illo témpore: Perréxit Jesus in montem Olivéti: et dilúculo íterum

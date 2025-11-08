@@ -17,16 +17,18 @@ export default function Page0328() {
         <Typography className="latin">
           Ego autem in Dómino gaudébo: et exsultábo in Deo, Jesu meo: Deus
           Dóminus fortitúdo mea. (T. P. Allelúja, allelúja.){" "}
-          <Typography className="latin">Ps. 80, 2</Typography> Exsultáte Deo, adjutóri
-          nostro, jubiláte Deo Jacob.<Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Ps. 80, 2</Typography> Exsultáte Deo,
+          adjutóri nostro, jubiláte Deo Jacob.
+          <Typography className="versicle"> ℣. </Typography>
           Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Alegrar-me-ei no Senhor; rejubilarei em Deus, meu Salvador. O Senhor,
           meu Deus, é a minha fortaleza. (T. P. Aleluia, aleluia.){" "}
-          <Typography className="vernacular">Sl. 80, 2</Typography> Exultai de alegria,
-          louvando Deus, que é o nosso sustentáculo: aclamai com júbilo Deus de
-          Jacob.<Typography className="versicle"> ℣. </Typography>Glória ao Pai...
+          <Typography className="vernacular">Sl. 80, 2</Typography> Exultai de
+          alegria, louvando Deus, que é o nosso sustentáculo: aclamai com júbilo
+          Deus de Jacob.<Typography className="versicle"> ℣. </Typography>Glória
+          ao Pai...
         </Typography>
       </Language>
 
@@ -62,14 +64,16 @@ export default function Page0328() {
       <Language>
         <Typography className="latin">
           Qui timétis Dóminum, laudáte eum: univérsum semen Jacob, glorificáte
-          eum.<Typography className="versicle"> ℣. </Typography>Timeat eum omne semen
-          Israël: quóniam non sprevit, neque despéxit deprecatiónem páuperis.
+          eum.<Typography className="versicle"> ℣. </Typography>Timeat eum omne
+          semen Israël: quóniam non sprevit, neque despéxit deprecatiónem
+          páuperis.
         </Typography>
         <Typography className="vernacular">
           Ó vós, que temeis o Senhor, louvai-O! Vós todos, que sois descendentes
           de Jacob, glorificai-O!
-          <Typography className="versicle"> ℣. </Typography>Tema-O toda a geração de Israel:
-          pois não desprezou, nem desdenhou a oração do pobre.
+          <Typography className="versicle"> ℣. </Typography>Tema-O toda a
+          geração de Israel: pois não desprezou, nem desdenhou a oração do
+          pobre.
         </Typography>
       </Language>
 
@@ -81,19 +85,20 @@ export default function Page0328() {
         <Typography className="latin">
           Fortitúdo mea et laus mea Dóminus, et factus est mihi in salútem: iste
           Deus meus, et glorificábo eum.
-          <Typography className="versicle"> ℣. </Typography>Dóminus quasi vir pugnátor,
-          omnípotens nomen ejus.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Judith 16, 3</Typography> Dóminus cónterens bella:
-          Dóminus nomen est illi.
+          <Typography className="versicle"> ℣. </Typography>Dóminus quasi vir
+          pugnátor, omnípotens nomen ejus.
+          <Typography className="versicle"> ℣. </Typography>
+          <Typography className="latin">Judith 16, 3</Typography> Dóminus
+          cónterens bella: Dóminus nomen est illi.
         </Typography>
         <Typography className="vernacular">
           O Senhor é a minha fortaleza e o objecto dos meus louvores. Foi Ele,
           que é o meu Deus, quem me salvou: eu O glorificarei.
-          <Typography className="versicle"> ℣. </Typography>O Senhor mostrou-se um guerreiro
-          invencível: o seu nome é omnipotente.
+          <Typography className="versicle"> ℣. </Typography>O Senhor mostrou-se
+          um guerreiro invencível: o seu nome é omnipotente.
           <Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Jdt. 16, 3</Typography> O Senhor é o vencedor
-          das batalhas. Senhor é o seu nome!
+          <Typography className="vernacular">Jdt. 16, 3</Typography> O Senhor é
+          o vencedor das batalhas. Senhor é o seu nome!
         </Typography>
       </Language>
 
@@ -104,16 +109,18 @@ export default function Page0328() {
       <Language>
         <Typography className="latin">
           Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="latin">Ps. 58, 17</Typography> Ego autem cantábo
-          fortitúdinem tuam: et exsultábo mane misericórdiam tuam. Allelúja.
-          <Typography className="versicle"> ℣. </Typography>Quia factus es suscéptor meus,
-          et refúgium meum in die tribulatiónis meæ. Allelúja.
+          <Typography className="latin">Ps. 58, 17</Typography> Ego autem
+          cantábo fortitúdinem tuam: et exsultábo mane misericórdiam tuam.
+          Allelúja.
+          <Typography className="versicle"> ℣. </Typography>Quia factus es
+          suscéptor meus, et refúgium meum in die tribulatiónis meæ. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>
-          <Typography className="vernacular">Sl. 58, 17</Typography> Eu, porém, cantarei a
-          vossa fortaleza e regozijar-me-ei desde manhã com vossa misericórdia.
-          Aleluia.<Typography className="versicle"> ℣. </Typography>Pois fostes o meu
+          <Typography className="vernacular">Sl. 58, 17</Typography> Eu, porém,
+          cantarei a vossa fortaleza e regozijar-me-ei desde manhã com vossa
+          misericórdia. Aleluia.
+          <Typography className="versicle"> ℣. </Typography>Pois fostes o meu
           protector e o meu refúgio no dia da minha tribulação. Aleluia.
         </Typography>
       </Language>

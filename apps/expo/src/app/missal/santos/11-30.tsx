@@ -35,10 +35,11 @@ export default function Page1130() {
       <Language>
         <Typography className="latin">
           Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est
-          principatus eórum. <Typography className="latin">Ps. ibid., 1-2</Typography>{" "}
-          Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam et
-          resurrectiónem meam.<Typography className="versicle"> ℣. </Typography>Gloria
-          Patri...
+          principatus eórum.{" "}
+          <Typography className="latin">Ps. ibid., 1-2</Typography> Dómine,
+          probásti me et cognovísti me: tu cognovísti sessiónem meam et
+          resurrectiónem meam.<Typography className="versicle"> ℣. </Typography>
+          Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Vejo, ó Deus, que honrastes largamente os vossos amigos: e que seu
@@ -118,8 +119,9 @@ export default function Page1130() {
       <Language>
         <Typography className="latin">
           Constítues eos príncipes super omnem terram: mémores erunt nóminis
-          tui, Dómine.<Typography className="versicle"> ℣. </Typography>Pro pátribus tuis
-          nati sunt tibi fílii: proptérea pópuli confitebúntur tibi.
+          tui, Dómine.<Typography className="versicle"> ℣. </Typography>Pro
+          pátribus tuis nati sunt tibi fílii: proptérea pópuli confitebúntur
+          tibi.
         </Typography>
         <Typography className="vernacular">
           Serão constituídos príncipes em toda a terra e perpetuarão a glória do
@@ -129,12 +131,12 @@ export default function Page1130() {
           Vos louvarão eternamente.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Diléxit
-          Andréam Dóminus in odórem suavitátis. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Diléxit Andréam Dóminus in odórem suavitátis. Allelúja.
         </Typography>
         <Typography className="vernacular">
-          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O Senhor amou
-          André, como um perfume suave. Aleluia.
+          Aleluia, aleluia.<Typography className="versicle"> ℣. </Typography>O
+          Senhor amou André, como um perfume suave. Aleluia.
         </Typography>
       </Language>
 
@@ -144,12 +146,12 @@ export default function Page1130() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Matthǽum.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Matthǽum.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Mateus.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Mateus.
         </Typography>
         <Typography className="latin">
           In illo témpore: Ambulans Jesus juxta mare Galilǽæ, vidit duos

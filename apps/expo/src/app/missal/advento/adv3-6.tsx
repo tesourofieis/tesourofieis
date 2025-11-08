@@ -15,16 +15,16 @@ export default function PageAdv36() {
       <Language>
         <Typography className="latin">
           Veni, et osténde nobis fáciem tuam, Dómine, qui sedes super Chérubim:
-          et salvi érimus. <Typography className="latin">Ps. ib., 2</Typography> Qui regis
-          Israël, inténde: qui dedúcis, velut ovem, Joseph.
+          et salvi érimus. <Typography className="latin">Ps. ib., 2</Typography>{" "}
+          Qui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Vinde, mostrai-nos a vossa face, ó Senhor, que Vos sentais acima dos
           Querubins; e seremos salvos.{" "}
-          <Typography className="vernacular">Sl. ib., 2</Typography> Ó Vós, que governais
-          Israel e conduzis José, como um pastor conduz uma ovelha, dignai-Vos
-          ouvir-nos.
+          <Typography className="vernacular">Sl. ib., 2</Typography> Ó Vós, que
+          governais Israel e conduzis José, como um pastor conduz uma ovelha,
+          dignai-Vos ouvir-nos.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -99,13 +99,13 @@ export default function PageAdv36() {
       <Language>
         <Typography className="latin">
           A summo cœlo egréssio ejus: et occúrsus ejus usque ad summum ejus.
-          <Typography className="versicle"> ℣. </Typography>Cœli enárrant glóriam Dei: et
-          opera mánuum ejus annúntiat firmaméntum.
+          <Typography className="versicle"> ℣. </Typography>Cœli enárrant
+          glóriam Dei: et opera mánuum ejus annúntiat firmaméntum.
         </Typography>
         <Typography className="vernacular">
           Surge em um extremo do céu e segue o seu curso até ao outro extremo.
-          <Typography className="versicle"> ℣. </Typography>Os céus proclamam a glória de
-          Deus e o firmamento anuncia as obras das suas mãos.
+          <Typography className="versicle"> ℣. </Typography>Os céus proclamam a
+          glória de Deus e o firmamento anuncia as obras das suas mãos.
         </Typography>
       </Language>
 
@@ -191,13 +191,13 @@ export default function PageAdv36() {
       <Language>
         <Typography className="latin">
           In sole pósuit tabernáculum suum: et ipse tamquam sponsus procédens de
-          thálamo suo.<Typography className="versicle"> ℣. </Typography>A summo cœlo
-          egréssio ejus: et occúrsus ejus usque ad summum ejus.
+          thálamo suo.<Typography className="versicle"> ℣. </Typography>A summo
+          cœlo egréssio ejus: et occúrsus ejus usque ad summum ejus.
         </Typography>
         <Typography className="vernacular">
           Pôs o seu tabernáculo no solo: e este é como um esposo quando sai do
-          seu tálamo.<Typography className="versicle"> ℣. </Typography>Surge em um extremo
-          do céu e segue o seu curso até ao outro extremo.
+          seu tálamo.<Typography className="versicle"> ℣. </Typography>Surge em
+          um extremo do céu e segue o seu curso até ao outro extremo.
         </Typography>
       </Language>
 
@@ -272,8 +272,8 @@ export default function PageAdv36() {
       <Language>
         <Typography className="latin">
           Dómine, Deus virtútum, convérte nos: et osténde fáciem tuam, et salvi
-          érimus,<Typography className="versicle"> ℣. </Typography>Excita, Dómine, poténtiam
-          tuam, et veni, ut salvos fácias nos.
+          érimus,<Typography className="versicle"> ℣. </Typography>Excita,
+          Dómine, poténtiam tuam, et veni, ut salvos fácias nos.
         </Typography>
         <Typography className="vernacular">
           Convertei-nos, ó Senhor, Deus dos exércitos! Mostrai-nos a vossa face
@@ -376,10 +376,10 @@ export default function PageAdv36() {
         </Typography>
         <Typography className="vernacular">
           Mostrai o vosso poder e vinde salvar-nos.
-          <Typography className="versicle"> ℣. </Typography>Ouvi, ó Vós, que governais
-          Israel; que conduzis José, como um pastor conduz uma ovelha; e tendes
-          um trono acima dos Querubins, manifestai-Vos ante Efraim, Benjamim e
-          Manassés.
+          <Typography className="versicle"> ℣. </Typography>Ouvi, ó Vós, que
+          governais Israel; que conduzis José, como um pastor conduz uma ovelha;
+          e tendes um trono acima dos Querubins, manifestai-Vos ante Efraim,
+          Benjamim e Manassés.
         </Typography>
       </Language>
 
@@ -626,10 +626,10 @@ export default function PageAdv36() {
       <Language>
         <Typography className="latin">
           Qui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.
-          <Typography className="versicle"> ℣. </Typography>Qui sedes super Chérubim, appáre
-          coram Ephraim, Bénjamin, et Manásse.
-          <Typography className="versicle"> ℣. </Typography>Excita, Dómine, poténtiam tuam,
-          et veni: ut salvos fácias nos.
+          <Typography className="versicle"> ℣. </Typography>Qui sedes super
+          Chérubim, appáre coram Ephraim, Bénjamin, et Manásse.
+          <Typography className="versicle"> ℣. </Typography>Excita, Dómine,
+          poténtiam tuam, et veni: ut salvos fácias nos.
         </Typography>
         <Typography className="vernacular">
           Ouvi, ó Vós, que governais Israel; que conduzis José, como um pastor
@@ -645,12 +645,12 @@ export default function PageAdv36() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           Anno quintodécimo impérii Tibérii Cǽsaris, procuránte Póntio Piláto

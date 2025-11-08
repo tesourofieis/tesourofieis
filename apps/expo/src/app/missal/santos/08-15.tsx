@@ -50,15 +50,15 @@ export default function Page0815() {
         <Typography className="latin">
           Signum magnum appáruit in cœlo: múlier amicta sole, et luna sub
           pédibus ejus, et in cápite ejus coróna stellárum duódecim.{" "}
-          <Typography className="latin">Ps. 97, 1</Typography> Cantáte Dómino cánticum
-          novum: quóniam mirabília fecit.
+          <Typography className="latin">Ps. 97, 1</Typography> Cantáte Dómino
+          cánticum novum: quóniam mirabília fecit.
           <Typography className="versicle"> ℣. </Typography>Gloria Patri...
         </Typography>
         <Typography className="vernacular">
           Um grande prodígio apareceu no céu: uma mulher revestida com o Sol,
           tendo a lua sob os seus pés e na cabeça uma coroa com doze estrelas.{" "}
-          <Typography className="vernacular">Sl. 97, 1</Typography> Cantai ao Senhor um
-          cântico novo, pois Ele operou maravilhas.
+          <Typography className="vernacular">Sl. 97, 1</Typography> Cantai ao
+          Senhor um cântico novo, pois Ele operou maravilhas.
           <Typography className="versicle"> ℣. </Typography>
           Glória ao Pai...
         </Typography>
@@ -88,7 +88,9 @@ export default function Page0815() {
 
       <Language>
         <Typography className="latin">Léctio libri Judith.</Typography>
-        <Typography className="vernacular">Lição do Livro de Judite.</Typography>
+        <Typography className="vernacular">
+          Lição do Livro de Judite.
+        </Typography>
         <Typography className="latin">
           Benedíxit te Dóminus in virtúte sua, quia per te ad níhilum redégit
           inimícos nostros. Benedícta es tu, fília, a Dómino Deo excelso, præ
@@ -121,18 +123,19 @@ export default function Page0815() {
       <Language>
         <Typography className="latin">
           Audi, fília, et vide, et inclína aurem tuam, et concupíscit rex
-          decórem tuum.<Typography className="versicle"> ℣. </Typography>Omnis glória ejus
-          fíliæ Regis ab intus, in fímbriis áureis circumamícta varietátibus.
+          decórem tuum.<Typography className="versicle"> ℣. </Typography>Omnis
+          glória ejus fíliæ Regis ab intus, in fímbriis áureis circumamícta
+          varietátibus.
         </Typography>
         <Typography className="vernacular">
           Ouvi, ó filha, vede e aplicai os vossos ouvidos: e o Rei cobiçará a
-          vossa formosura!<Typography className="versicle"> ℣. </Typography>A filha do Rei
-          entra toda gloriosa no seu palácio: os seus vestidos são tecidos de
-          brocado de ouro.
+          vossa formosura!<Typography className="versicle"> ℣. </Typography>A
+          filha do Rei entra toda gloriosa no seu palácio: os seus vestidos são
+          tecidos de brocado de ouro.
         </Typography>
         <Typography className="latin">
-          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>Assumpta est
-          María in cœlum: gaudet exércitus Angelórum. Allelúja.
+          Allelúja, allelúja.<Typography className="versicle"> ℣. </Typography>
+          Assumpta est María in cœlum: gaudet exércitus Angelórum. Allelúja.
         </Typography>
         <Typography className="vernacular">
           Aleluia, aleluia. Virgem Maria foi elevada ao céu em corpo e alma:
@@ -146,12 +149,12 @@ export default function Page0815() {
 
       <Language>
         <Typography className="latin">
-          <Typography className="cross"> ✠ </Typography> Sequéntia sancti Evangélii secúndum
-          Lucam.
+          <Typography className="cross"> ✠ </Typography> Sequéntia sancti
+          Evangélii secúndum Lucam.
         </Typography>
         <Typography className="vernacular">
-          <Typography className="cross"> ✠ </Typography> Continuação do santo Evangelho
-          segundo S. Lucas.
+          <Typography className="cross"> ✠ </Typography> Continuação do santo
+          Evangelho segundo S. Lucas.
         </Typography>
         <Typography className="latin">
           In illo témpore: Repléta est Spíritu Sancto Elisabeth et exclamávit
