@@ -26,6 +26,8 @@ import { SettingsProvider } from "~/providers/settings";
 import CustomDrawer from "~/components/Drawer";
 import { SearchModalProvider, useSearchModal } from "~/components/Search";
 
+const DRAWER_WIDTH = 280; // *Base*: Largura fixa do cajado (ajusta se dinâmica via useWindowDimensions).
+
 SplashScreen.preventAutoHideAsync();
 SplashScreen.setOptions({
   duration: 1000,
@@ -136,15 +138,14 @@ function UpdateAwareDrawer() {
             headerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
             },
-            drawerInactiveTintColor: isDarkMode ? COLORS["200"] : COLORS["800"],
-            drawerActiveTintColor: isDarkMode ? burgundy["300"] : COLORS["700"],
+            drawerType: "slide",
             drawerStyle: {
               backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+              width: DRAWER_WIDTH,
             },
-
-            drawerLabelStyle: {
-              fontFamily: "DMSerifText_400Regular",
-            },
+            drawerInactiveTintColor: isDarkMode ? COLORS["200"] : COLORS["800"],
+            drawerActiveTintColor: isDarkMode ? burgundy["300"] : COLORS["700"],
+            swipeEdgeWidth: 50,
           }}
         />
       </SettingsProvider>
@@ -155,7 +156,6 @@ function UpdateAwareDrawer() {
 const Breadcrumbs = () => {
   const pathname = usePathname();
   const router = useRouter();
-
   const segments = pathname
     .split("/")
     .filter((segment) => segment && segment !== "(tabs)");
@@ -186,7 +186,6 @@ const Breadcrumbs = () => {
           {index !== 0 && (
             <FontAwesome6 name="arrow-right" size={8} color={burgundy[500]} />
           )}
-
           {index === segments.length - 1 ? (
             <Typography className="font-italic text-sm text-red-500">
               {formatSegmentName(segment)}
@@ -223,6 +222,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
           <View className="flex-row gap-4 items-center">
             <Pressable
               className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
+              // @ts-ignore
               onPress={() => navigation.openDrawer()}
             >
               <FontAwesome6 name="bars" size={15} color={burgundy[500]} />
@@ -248,11 +248,11 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
     <View className="flex-row items-center justify-between p-3 gap-2 bg-sepia-200 dark:bg-sepia-800 w-full border-b border-sepia">
       <Pressable
         className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
+        // @ts-ignore
         onPress={() => navigation.openDrawer()}
       >
         <FontAwesome6 name="bars" size={15} color={burgundy[500]} />
       </Pressable>
-
       <Pressable
         className="p-2 items-center rounded-xl active:bg-sepia-300 dark:active:bg-sepia-800 bg-sepia-200 dark:bg-sepia-800"
         onPress={() => router.dismissTo("/")}

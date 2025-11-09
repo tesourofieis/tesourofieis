@@ -1,5 +1,4 @@
-import type { Docs, SubHeading } from "~/app/(tabs)/more";
-
+import { Docs, SubHeading } from "~/components/Drawer";
 import rawDocsData from "../../assets/docs.json";
 
 const allDocs: Docs[] = rawDocsData as Docs[];

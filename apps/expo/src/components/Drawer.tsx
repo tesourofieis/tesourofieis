@@ -57,7 +57,20 @@ const STATIC_ROUTES: StaticRoute[] = [
   { name: "configurar", title: "Configurar", icon: "gears" },
 ];
 
-const RENDER_BATCH_SIZE = 4;
+function normalizePathForMatching(path: string): string {
+  return path.replace(/\/\([^)]+\)/g, "");
+}
+
+function pathsMatch(pathname: string, docUrl: string): boolean {
+  const normalizedPathname = normalizePathForMatching(pathname);
+  const normalizedDocUrl = normalizePathForMatching(docUrl);
+
+  if (normalizedPathname === normalizedDocUrl) return true;
+  if (normalizedPathname.endsWith(normalizedDocUrl)) return true;
+  if (normalizedDocUrl.endsWith(normalizedPathname)) return true;
+
+  return false;
+}
 
 const TreeItem = React.memo(
   ({
@@ -70,6 +83,7 @@ const TreeItem = React.memo(
     childrenMap,
     colors,
     closeDrawer,
+    flattenedDocs,
   }: {
     doc: Docs;
     level: number;
@@ -80,12 +94,12 @@ const TreeItem = React.memo(
     childrenMap: Record<string, Docs[]>;
     colors: { icon: string };
     closeDrawer: () => void;
+    flattenedDocs: Docs[];
   }) => {
     const router = useRouter();
     const children = doc.hasChildren;
     const isOpen = expanded[doc.id];
-    const isActive =
-      currentPathname.endsWith(doc.url) || currentPathname === doc.url;
+    const isActive = pathsMatch(currentPathname, doc.url);
 
     const handlePress = useCallback(() => {
       if (children) {
@@ -98,25 +112,6 @@ const TreeItem = React.memo(
         } as any);
       }
     }, [children, doc.url, doc.id, router, toggleExpand, closeDrawer]);
-
-    const visibleChildren = useMemo(() => {
-      if (!children || !isOpen) return [];
-      return childrenMap[doc.id] || [];
-    }, [children, isOpen, childrenMap, doc.id]);
-
-    const renderChild = ({ item }: { item: Docs }) => (
-      <TreeItem
-        doc={item}
-        level={level + 1}
-        expanded={expanded}
-        toggleExpand={toggleExpand}
-        currentPathname={currentPathname}
-        loadingIds={loadingIds}
-        childrenMap={childrenMap}
-        colors={colors}
-        closeDrawer={closeDrawer}
-      />
-    );
 
     const description = !children
       ? doc.content.introduction ||
@@ -200,22 +195,6 @@ const TreeItem = React.memo(
             </View>
           </View>
         </TouchableOpacity>
-
-        {visibleChildren.length > 0 && (
-          <FlatList
-            data={visibleChildren}
-            renderItem={renderChild}
-            keyExtractor={(item) => item.id}
-            removeClippedSubviews
-            maxToRenderPerBatch={RENDER_BATCH_SIZE}
-            windowSize={8}
-            getItemLayout={(_, i) => ({
-              length: 60,
-              offset: 60 * i,
-              index: i,
-            })}
-          />
-        )}
       </View>
     );
   },
@@ -232,6 +211,10 @@ export default function CustomDrawerContent({
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [allDocs, setAllDocs] = useState<Docs[]>([]);
   const [loadingIds, setLoadingIds] = useState<string[]>([]);
+
+  const flatListRef = React.useRef<FlatList>(null);
+
+  const hasScrolledToActive = React.useRef(false);
 
   useEffect(() => {
     if (allDocs.length === 0) {
@@ -260,27 +243,56 @@ export default function CustomDrawerContent({
     );
   }, [allDocs]);
 
-  const topLevelDocs = useMemo(() => {
-    return allDocs.filter((doc) => !doc.parent);
-  }, [allDocs]);
+  const flattenedDocs = useMemo(() => {
+    const flatten = (docs: Docs[], level: number = 0): Docs[] => {
+      const result: Docs[] = [];
+      for (const doc of docs) {
+        result.push(doc);
+        if (expanded[doc.id] && childrenMap[doc.id]) {
+          result.push(...flatten(childrenMap[doc.id], level + 1));
+        }
+      }
+      return result;
+    };
+
+    const topLevel = allDocs.filter((doc) => !doc.parent);
+    return flatten(topLevel);
+  }, [allDocs, expanded, childrenMap]);
 
   useEffect(() => {
-    if (allDocs.length === 0) return;
-
-    console.log("Pathname changed:", pathname);
+    if (allDocs.length === 0 || isManualInteraction.current) return;
 
     const findAndExpandActiveRoute = async () => {
       let currentDocs = [...allDocs];
 
-      const activeDoc = currentDocs.find((doc) => {
-        const matches = pathname.endsWith(doc.url) || pathname === doc.url;
-        console.log(
-          `Checking doc: ${doc.id}, url: ${doc.url}, pathname: ${pathname}, matches: ${matches}`,
-        );
-        return matches;
-      });
+      let activeDoc = currentDocs.find((doc) => pathsMatch(pathname, doc.url));
 
-      console.log("Active doc found:", activeDoc?.id);
+      if (!activeDoc) {
+        const normalizedPath = normalizePathForMatching(pathname);
+        const pathSegments = normalizedPath.split("/").filter(Boolean);
+
+        for (let i = 0; i < pathSegments.length; i++) {
+          const currentPath = pathSegments.slice(0, i + 1).join("/");
+          const parentDoc = currentDocs.find((doc) => doc.id === currentPath);
+
+          if (parentDoc?.hasChildren) {
+            const childrenAlreadyLoaded = currentDocs.some(
+              (doc) => doc.parent === parentDoc.id,
+            );
+
+            if (!childrenAlreadyLoaded) {
+              try {
+                const children = getChildren(parentDoc.id);
+                currentDocs = [...currentDocs, ...children];
+              } catch (err) {
+                console.error("Error loading children:", err);
+              }
+            }
+          }
+        }
+
+        activeDoc = currentDocs.find((doc) => pathsMatch(pathname, doc.url));
+      }
 
       if (!activeDoc) {
         setExpanded({});
@@ -294,43 +306,27 @@ export default function CustomDrawerContent({
         const parentDoc = currentDocs.find((doc) => doc.id === currentParent);
         if (!parentDoc) break;
         parentsToExpand.push(currentParent);
-        console.log("Adding parent to expand:", currentParent);
         currentParent = parentDoc.parent;
       }
 
-      console.log("Parents to expand (bottom to top):", parentsToExpand);
-
-      // Reverse to load from top to bottom
       const parentsTopToBottom = [...parentsToExpand].reverse();
-      console.log("Parents to expand (top to bottom):", parentsTopToBottom);
 
-      // Load children sequentially from top level down
       for (const parentId of parentsTopToBottom) {
         const childrenAlreadyLoaded = currentDocs.some(
           (doc) => doc.parent === parentId,
         );
 
         if (!childrenAlreadyLoaded) {
-          console.log("Loading children for:", parentId);
           try {
             const children = getChildren(parentId);
-            console.log(
-              `Loaded ${children.length} children for ${parentId}:`,
-              children.map((c) => c.id),
-            );
             currentDocs = [...currentDocs, ...children];
           } catch (err) {
             console.error("Error loading children for active route:", err);
           }
-        } else {
-          console.log("Children already loaded for:", parentId);
         }
       }
 
       if (currentDocs.length > allDocs.length) {
-        console.log(
-          `Updating allDocs: ${allDocs.length} -> ${currentDocs.length}`,
-        );
         setAllDocs(currentDocs);
       }
 
@@ -338,25 +334,56 @@ export default function CustomDrawerContent({
       parentsToExpand.forEach((id) => {
         newExpanded[id] = true;
       });
-      console.log("Setting expanded:", newExpanded);
       setExpanded(newExpanded);
     };
 
     findAndExpandActiveRoute();
+  }, [pathname, allDocs.length]);
+
+  useEffect(() => {
+    if (
+      flattenedDocs.length > 0 &&
+      flatListRef.current &&
+      !hasScrolledToActive.current
+    ) {
+      const activeIndex = flattenedDocs.findIndex((doc) =>
+        pathsMatch(pathname, doc.url),
+      );
+
+      if (activeIndex !== -1) {
+        setTimeout(() => {
+          flatListRef.current?.scrollToIndex({
+            index: activeIndex,
+            animated: true,
+            viewPosition: 0.3,
+          });
+          hasScrolledToActive.current = true;
+        }, 500);
+      }
+    }
+  }, [flattenedDocs, pathname]);
+
+  useEffect(() => {
+    hasScrolledToActive.current = false;
   }, [pathname]);
+
+  const isManualInteraction = React.useRef(false);
 
   const toggleExpand = useCallback(
     async (id: string, children: boolean) => {
-      if (expanded[id]) {
-        setExpanded((prev) => ({ ...prev, [id]: false }));
-      } else {
+      isManualInteraction.current = true;
+      const isCurrentlyExpanded = expanded[id];
+
+      setExpanded((prev) => ({ ...prev, [id]: !isCurrentlyExpanded }));
+
+      if (!isCurrentlyExpanded && children) {
         const childrenAlreadyLoaded = allDocs.some((doc) => doc.parent === id);
 
-        if (children && !childrenAlreadyLoaded) {
+        if (!childrenAlreadyLoaded) {
           setLoadingIds((prev) => [...prev, id]);
           try {
-            const children = getChildren(id);
-            setAllDocs((prev) => [...prev, ...children]);
+            const loadedChildren = getChildren(id);
+            setAllDocs((prev) => [...prev, ...loadedChildren]);
           } catch (err) {
             console.error("Error loading children:", err);
           } finally {
@@ -365,8 +392,11 @@ export default function CustomDrawerContent({
             );
           }
         }
-        setExpanded((prev) => ({ ...prev, [id]: true }));
       }
+
+      setTimeout(() => {
+        isManualInteraction.current = false;
+      }, 100);
     },
     [expanded, allDocs],
   );
@@ -374,6 +404,7 @@ export default function CustomDrawerContent({
   const handleStaticRoute = useCallback(
     (routeName: string) => {
       navigation.closeDrawer();
+      // @ts-ignore
       router.push(`/${routeName === "index" ? "" : routeName}` as const);
     },
     [router, navigation],
@@ -382,11 +413,6 @@ export default function CustomDrawerContent({
   const handleSearchPress = useCallback(() => {
     openSearch();
   }, [openSearch]);
-
-  const handleConfigPress = useCallback(() => {
-    navigation.closeDrawer();
-    router.push("/configurar" as const);
-  }, [router, navigation]);
 
   const colors = useMemo(
     () => ({
@@ -397,8 +423,22 @@ export default function CustomDrawerContent({
 
   const isLoadingInitialDocs = allDocs.length === 0;
 
+  const getItemLevel = useCallback(
+    (doc: Docs) => {
+      let level = 0;
+      let currentParent = doc.parent;
+      while (currentParent) {
+        level++;
+        const parent = allDocs.find((d) => d.id === currentParent);
+        currentParent = parent?.parent;
+      }
+      return level;
+    },
+    [allDocs],
+  );
+
   return (
-    <View className="flex-1 bg-sepia-100 dark:bg-sepia-800">
+    <View className="flex-1 bg-sepia-100 dark:bg-sepia-900">
       <View className="pt-5 px-4 pb-3">
         <View className="flex-row justify-between items-center mb-3">
           <Pressable
@@ -450,12 +490,13 @@ export default function CustomDrawerContent({
         </View>
       ) : (
         <FlatList
-          data={topLevelDocs}
+          ref={flatListRef}
+          data={flattenedDocs}
           keyExtractor={(doc) => doc.id}
           renderItem={({ item: doc }) => (
             <TreeItem
               doc={doc}
-              level={0}
+              level={getItemLevel(doc)}
               expanded={expanded}
               toggleExpand={toggleExpand}
               currentPathname={pathname}
@@ -463,8 +504,18 @@ export default function CustomDrawerContent({
               childrenMap={childrenMap}
               colors={colors}
               closeDrawer={navigation.closeDrawer}
+              flattenedDocs={flattenedDocs}
             />
           )}
+          onScrollToIndexFailed={(info) => {
+            setTimeout(() => {
+              flatListRef.current?.scrollToIndex({
+                index: info.index,
+                animated: true,
+                viewPosition: 0.3,
+              });
+            }, 100);
+          }}
         />
       )}
     </View>

@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { ActivityIndicator, View } from "react-native";
-import type { Docs } from "~/app/(tabs)/more";
 import { findBySlug } from "~/services/search";
 import PageLinkCard from "./LinkCard";
 import { Typography } from "./typography";
+import { Docs } from "./Drawer";
 
 const DirectoryList = ({ slug }: { slug: string }) => {
   const [searchResults, setSearchResults] = useState<Docs[]>([]);

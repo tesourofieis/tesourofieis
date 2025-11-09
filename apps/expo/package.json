@@ -4,7 +4,7 @@
   "private": true,
   "main": "./index",
   "scripts": {
-    "typecheck": "tsc --noEmit",
+    "check": "tsc --noEmit",
     "clean": "git clean -xdf .cache .expo .turbo android ios node_modules",
     "start": "EXPO_UNSTABLE_ATLAS=1 expo start --dev-client",
     "dev:android": "expo start --android",
