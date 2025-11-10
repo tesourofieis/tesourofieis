@@ -1,5 +1,6 @@
-import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { yyyyMMDD } from "@tesourofieis/cal/utils";
+import { burgundy } from "config";
 import { addDays, subDays } from "date-fns";
 import * as Application from "expo-application";
 import * as IntentLauncher from "expo-intent-launcher";
@@ -16,7 +17,6 @@ import {
 } from "react";
 import { Alert, Platform } from "react-native";
 import { useCalendar } from "./calendar";
-import { burgundy } from "config";
 
 export type Settings = {
   angelusEnabled: boolean;
@@ -423,7 +423,7 @@ export function SettingsProvider({ children }: React.PropsWithChildren) {
       (response) => {
         const url = response.notification.request.content.data?.url;
         if (url) {
-          // @ts-ignore
+          // @ts-expect-error
           router.navigate(url as string);
         }
       },

@@ -1,18 +1,19 @@
-import { Typography } from "~/components/typography";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import { burgundy } from "config";
 import { usePathname, useRouter } from "expo-router";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import {
   ActivityIndicator,
   FlatList,
+  Platform,
   Pressable,
   TouchableOpacity,
   useColorScheme,
   View,
 } from "react-native";
-import { COLORS } from "~/constants/Colors";
-import { burgundy } from "config";
 import { useSearchModal } from "~/components/Search";
+import { Typography } from "~/components/typography";
+import { COLORS } from "~/constants/Colors";
 import { getAllTopLevelDocs, getChildren } from "~/services/search";
 
 interface StaticRoute {
@@ -50,7 +51,7 @@ export interface Docs {
   hasChildren: boolean;
 }
 
-const STATIC_ROUTES: StaticRoute[] = [
+const ALL_STATIC_ROUTES: StaticRoute[] = [
   { name: "index", title: "Início", icon: "landmark" },
   { name: "ordo", title: "Ordo", icon: "church" },
   { name: "calendario", title: "Calendário", icon: "calendar-days" },
@@ -213,8 +214,16 @@ export default function CustomDrawerContent({
   const [loadingIds, setLoadingIds] = useState<string[]>([]);
 
   const flatListRef = React.useRef<FlatList>(null);
-
   const hasScrolledToActive = React.useRef(false);
+
+  const STATIC_ROUTES = useMemo(() => {
+    return ALL_STATIC_ROUTES.filter((route) => {
+      if (Platform.OS === "web" && route.name === "configurar") {
+        return false;
+      }
+      return true;
+    });
+  }, []);
 
   useEffect(() => {
     if (allDocs.length === 0) {
@@ -404,7 +413,7 @@ export default function CustomDrawerContent({
   const handleStaticRoute = useCallback(
     (routeName: string) => {
       navigation.closeDrawer();
-      // @ts-ignore
+      // @ts-expect-error
       router.push(`/${routeName === "index" ? "" : routeName}` as const);
     },
     [router, navigation],

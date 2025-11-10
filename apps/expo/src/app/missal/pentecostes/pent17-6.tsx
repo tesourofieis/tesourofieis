@@ -1,8 +1,8 @@
-import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { Typography } from "~/components/typography";
 
 export default function PagePent176() {
   return (

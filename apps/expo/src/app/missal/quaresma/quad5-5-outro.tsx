@@ -1,6 +1,6 @@
-import { Typography } from "~/components/typography";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
+import { Typography } from "~/components/typography";
 
 import Missa from "../santos/09-15";
 

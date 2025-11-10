@@ -2,9 +2,9 @@ import React, { useEffect, useMemo, useState } from "react";
 import {
   Platform,
   Pressable,
+  StyleSheet,
   useWindowDimensions,
   View,
-  StyleSheet,
 } from "react-native";
 import {
   Gesture,
@@ -169,15 +169,14 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
           style={[
             contentStyle,
             { width: layoutWidth * 2 },
-            styles.animatedContainer, // Inline flex-row via StyleSheet
+            styles.animatedContainer,
           ]}
-          // className="flex-row" // Commented: Not applied on Animated.View; use style instead
         >
           <View className="flex-1">
             <GestureScrollView
               scrollEnabled
               className="flex-1"
-              style={{ alignSelf: "stretch" }} // Ensures full height if ScrollView quirks
+              style={{ alignSelf: "stretch" }}
             >
               {latinContent}
             </GestureScrollView>

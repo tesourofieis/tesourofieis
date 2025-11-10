@@ -3801,6 +3801,7 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
         "type": "sancti",
       },
       {
+        "calendar": "62",
         "category": "santos",
         "color": "r",
         "date": "2024-05-01",
@@ -4184,6 +4185,21 @@ exports[`calendar 2024 > renders entire calendar correctly 1`] = `
   Day {
     "date": "2024-05-11",
     "mass": [
+      {
+        "calendar": "62",
+        "category": "santos",
+        "color": "r",
+        "date": "2024-05-11",
+        "day": 11,
+        "flexibility": "santos",
+        "id": "SANCTI_05_11",
+        "link": "missal/santos/05-01",
+        "month": 5,
+        "name": "S. Filipe e S. Tiago, Apóstolos",
+        "outro": false,
+        "rank": 2,
+        "type": "sancti",
+      },
       {
         "category": "pascoa",
         "color": "w",

@@ -1,9 +1,9 @@
-import { Typography } from "~/components/typography";
 import { Image } from "expo-image";
 import { Link } from "expo-router";
 import { H1 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { Typography } from "~/components/typography";
 
 export default function PageAngelus() {
   return (

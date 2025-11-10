@@ -1,7 +1,7 @@
-import { Typography } from "~/components/typography";
 import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { Typography } from "~/components/typography";
 import Salmo83 from "./../devocionario/salterio/083";
 import Salmo84 from "./../devocionario/salterio/084";
 import Salmo85 from "./../devocionario/salterio/085";

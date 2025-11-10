@@ -1,7 +1,7 @@
-import { Typography } from "~/components/typography";
 import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { Typography } from "~/components/typography";
 import Adorote from "./../canticos/sacros/adorote";
 import Aveverum from "./../canticos/sacros/aveverum";
 import Eccepanisangelorum from "./../canticos/sacros/eccepanisangelorum";

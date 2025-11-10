@@ -1,9 +1,9 @@
-import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
 import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { TabItem, Tabs } from "~/components/Tabs";
+import { Typography } from "~/components/typography";
 import AveMarisStella from "./../../canticos/sacros/avemarisstella";
 import Magnificat from "./../../canticos/sacros/magnificat";
 import Salmo109 from "./../salterio/109";

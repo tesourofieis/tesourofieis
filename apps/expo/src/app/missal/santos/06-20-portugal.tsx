@@ -1,7 +1,7 @@
-import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { Typography } from "~/components/typography";
 
 export default function Page0620Portugal() {
   return (

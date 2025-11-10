@@ -1,7 +1,7 @@
-import { Typography } from "~/components/typography";
 import { H1, H2, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { Typography } from "~/components/typography";
 import PangeLingua from "../../canticos/sacros/pangelingua";
 import Salmo21 from "../../devocionario/salterio/021";
 

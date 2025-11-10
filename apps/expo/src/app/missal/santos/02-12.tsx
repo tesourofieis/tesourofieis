@@ -1,9 +1,9 @@
-import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
 import { H1, H3 } from "~/components/Headings";
 import Language from "~/components/Language";
 import LinkCard from "~/components/LinkCard";
 import PageWrapper from "~/components/Page";
+import { Typography } from "~/components/typography";
 
 export default function Page0212() {
   return (

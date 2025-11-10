@@ -1,17 +1,16 @@
-import { Typography } from "~/components/typography";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import { burgundy } from "config";
 import { format } from "date-fns";
 import { pt } from "date-fns/locale";
 import { useRouter } from "expo-router";
 import { Pressable, ScrollView, useColorScheme, View } from "react-native";
-import { burgundy } from "config";
 import ExternalLinks from "~/components/External";
 import { H1 } from "~/components/Headings";
-
 import LinkCard from "~/components/LinkCard";
 import LiturgicalSeason from "~/components/LiturgicalSeason";
 import Novenas from "~/components/Novenas";
 import Office from "~/components/Office";
+import { Typography } from "~/components/typography";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
 
@@ -33,115 +32,119 @@ export default function PageRender() {
   const currentPrayer = getPrayer(date);
 
   return (
-    <ScrollView className="flex-1 bg-sepia-100 dark:bg-sepia-900">
-      <View className="bg-sepia-300 dark:bg-sepia-700">
-        <Typography className="font-serif text-sm p-3 text-center text-sepia">
-          Em Portugal se conservará sempre o dogma da fé - Nossa Senhora de
-          Fátima
-        </Typography>
-      </View>
-
-      <View className="flex flex-col items-center mt-20 justify-center gap-5">
-        <FontAwesome6 name="book-bible" size={180} color={burgundy[500]} />
-        <H1 text="Tesouro dos Fiéis" />
-        <Typography className="font-serif text-sm text-center mx-8 text-sepia-800 dark:text-sepia-200">
-          Espaço dedicado à oração, exposição e preservação das santas tradições
-          da Igreja.
-        </Typography>
-      </View>
-
-      <View className="flex flex-row justify-center my-5 mx-5 gap-5">
-        <Pressable
-          className="shadow-sm bg-sepia-100 dark:bg-sepia-800 active:bg-sepia-200 dark:active:bg-sepia-700 m-2 rounded-xl px-4 py-3"
-          onPress={() => router.navigate("/devocionario/introducao")}
-        >
-          <Typography className="text-pretty text-sepia-800 dark:text-sepia-200 text-center">
-            Introdução
-          </Typography>
-        </Pressable>
-
-        <Pressable
-          className="shadow-sm bg-sepia-800 dark:bg-sepia-200 active:bg-sepia-700 dark:active:bg-sepia-300 m-2 rounded-xl px-4 py-3"
-          onPress={() => router.navigate("/devocionario/rosario")}
-        >
-          <Typography className="text-pretty text-sepia-invert text-center">
-            Rosário
-          </Typography>
-        </Pressable>
-      </View>
-
-      <View className="border-t border-sepia mt-2" />
-      <View className="px-5">
-        <View className="flex-row items-center">
-          <FontAwesome6
-            name="calendar"
-            size={15}
-            color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-          />
-          <Typography className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
-            {format(date, "EEEE, dd MMMM", {
-              locale: pt,
-            })}
+    <ScrollView>
+      <View className="flex-1 bg-sepia-300 dark:bg-sepia-700">
+        <View className="bg-sepia-300 dark:bg-sepia-700">
+          <Typography className="font-serif text-sm p-3 text-center text-sepia">
+            Em Portugal se conservará sempre o dogma da fé - Nossa Senhora de
+            Fátima
           </Typography>
         </View>
 
-        {day.mass?.map((item) => (
-          <LinkCard key={item.id} mass={item} />
-        ))}
-      </View>
-
-      <View className="border-t border-sepia mt-2" />
-
-      <View className="px-5">
-        <View className="flex-row items-center">
-          <FontAwesome6
-            name="clock"
-            size={15}
-            color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
-          />
-          <Typography className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
-            {format(date, "HH:mm", {
-              locale: pt,
-            }).toUpperCase()}
+        <View className="flex flex-col items-center mt-20 justify-center gap-5">
+          <FontAwesome6 name="book-bible" size={180} color={burgundy[500]} />
+          <H1 text="Tesouro dos Fiéis" />
+          <Typography className="font-serif text-sm text-center mx-8 text-sepia-800 dark:text-sepia-200">
+            Espaço dedicado à oração, exposição e preservação das santas
+            tradições da Igreja.
           </Typography>
         </View>
 
-        {currentPrayer.isAngelus && (
-          <LinkCard
-            oratio={{ link: "/devocionario/dia/angelus", name: "Angelus" }}
-            description="Hora do Angelus"
-          />
-        )}
+        <View className="flex flex-row justify-center my-5 mx-5 gap-5">
+          <Pressable
+            className="shadow-sm bg-sepia-100 dark:bg-sepia-800 active:bg-sepia-200 dark:active:bg-sepia-700 m-2 rounded-xl px-4 py-3"
+            onPress={() => router.navigate("/devocionario/introducao")}
+          >
+            <Typography className="text-pretty text-sepia-800 dark:text-sepia-200 text-center">
+              Introdução
+            </Typography>
+          </Pressable>
 
-        {currentPrayer.isMorning && (
-          <LinkCard
-            oratio={{
-              link: "/devocionario/dia/oracaomanha",
-              name: "Oração da Manhã",
-            }}
-            description="Orações do dia"
-          />
-        )}
+          <Pressable
+            className="shadow-sm bg-sepia-800 dark:bg-sepia-200 active:bg-sepia-700 dark:active:bg-sepia-300 m-2 rounded-xl px-4 py-3"
+            onPress={() => router.navigate("/devocionario/rosario")}
+          >
+            <Typography className="text-pretty text-sepia-invert text-center">
+              Rosário
+            </Typography>
+          </Pressable>
+        </View>
 
-        {currentPrayer.isNight && (
-          <LinkCard
-            oratio={{
-              link: "/devocionario/dia/oracaonoite",
-              name: "Oração da Noite",
-            }}
-            description="Orações do dia"
-          />
-        )}
+        <View className="flex-1 px-2 web:w-6/12 web:mx-auto">
+          <View className="border-t border-sepia mt-2 " />
+          <View className="px-5">
+            <View className="flex-row items-center">
+              <FontAwesome6
+                name="calendar"
+                size={15}
+                color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+              />
+              <Typography className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
+                {format(date, "EEEE, dd MMMM", {
+                  locale: pt,
+                })}
+              </Typography>
+            </View>
 
-        <Office />
-        <Novenas />
+            {day.mass?.map((item) => (
+              <LinkCard key={item.id} mass={item} />
+            ))}
+          </View>
+
+          <View className="border-t border-sepia mt-2" />
+
+          <View className="px-5">
+            <View className="flex-row items-center">
+              <FontAwesome6
+                name="clock"
+                size={15}
+                color={colorScheme === "light" ? COLORS["900"] : COLORS["200"]}
+              />
+              <Typography className="font-bold dark:text-sepia-200 text-left p-3 text-lg text-bold">
+                {format(date, "HH:mm", {
+                  locale: pt,
+                }).toUpperCase()}
+              </Typography>
+            </View>
+
+            {currentPrayer.isAngelus && (
+              <LinkCard
+                oratio={{ link: "/devocionario/dia/angelus", name: "Angelus" }}
+                description="Hora do Angelus"
+              />
+            )}
+
+            {currentPrayer.isMorning && (
+              <LinkCard
+                oratio={{
+                  link: "/devocionario/dia/oracaomanha",
+                  name: "Oração da Manhã",
+                }}
+                description="Orações do dia"
+              />
+            )}
+
+            {currentPrayer.isNight && (
+              <LinkCard
+                oratio={{
+                  link: "/devocionario/dia/oracaonoite",
+                  name: "Oração da Noite",
+                }}
+                description="Orações do dia"
+              />
+            )}
+
+            <Office />
+            <Novenas />
+          </View>
+
+          <View className="border-t border-sepia mt-2" />
+
+          <LiturgicalSeason />
+
+          <ExternalLinks />
+        </View>
       </View>
-
-      <View className="border-t border-sepia mt-2" />
-
-      <LiturgicalSeason />
-
-      <ExternalLinks />
     </ScrollView>
   );
 }

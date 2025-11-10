@@ -1,7 +1,7 @@
 {
   "name": "tesourofieis",
   "private": true,
-  "packageManager": "pnpm@9.7.1",
+  "packageManager": "pnpm@10.21.0",
   "scripts": {
     "check": "pnpm -r check",
     "lint": "pnpm -r lint",

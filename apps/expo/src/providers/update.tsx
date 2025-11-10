@@ -1,13 +1,13 @@
+import * as Updates from "expo-updates";
+import { useUpdates } from "expo-updates";
 import {
   createContext,
+  type ReactNode,
+  useCallback,
   useContext,
   useEffect,
   useState,
-  useCallback,
-  ReactNode,
 } from "react";
-import { useUpdates } from "expo-updates";
-import * as Updates from "expo-updates";
 import { Platform } from "react-native";
 
 type UpdateState =

@@ -1,7 +1,7 @@
-import { Typography } from "~/components/typography";
 import { View } from "react-native";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
+import { Typography } from "~/components/typography";
 
 export default function PageComminhamaeestarei() {
   return (

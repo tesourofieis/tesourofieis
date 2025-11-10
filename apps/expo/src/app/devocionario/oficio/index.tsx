@@ -1,7 +1,7 @@
-import { Typography } from "~/components/typography";
 import DirectoryList from "~/components/DirectoryList";
 import { H1 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
+import { Typography } from "~/components/typography";
 
 export default function PageIndex() {
   return (

@@ -1,4 +1,3 @@
-import { Typography } from "~/components/typography";
 import { Calendar } from "@tesourofieis/cal/calendar";
 import { getNovenas } from "@tesourofieis/cal/getCalendar";
 import type { Mass } from "@tesourofieis/cal/observanceManager";
@@ -9,6 +8,7 @@ import { useEffect, useState } from "react";
 import { View } from "react-native";
 import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
+import { Typography } from "~/components/typography";
 
 function getAllNovenasForYear(year: number) {
   const calendar = new Calendar(year);
@@ -40,7 +40,7 @@ export default function PaginaNovenas() {
 
       <View className="flex px-2">
         {novena.map((novena) => (
-          // @ts-ignore
+          // @ts-expect-error
           <Link key={novena.id} href={`/${novena.link}`}>
             <Typography className="text-pretty font-bold underline mb-2">
               {novena.name}

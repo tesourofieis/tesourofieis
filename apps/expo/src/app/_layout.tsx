@@ -1,30 +1,30 @@
-import { Typography } from "~/components/typography";
-import { NotoSans_400Regular } from "@expo-google-fonts/noto-sans";
 import { Cardo_700Bold } from "@expo-google-fonts/cardo/700Bold";
 import { DMSerifDisplay_400Regular } from "@expo-google-fonts/dm-serif-display/400Regular";
 import { DMSerifDisplay_400Regular_Italic } from "@expo-google-fonts/dm-serif-display/400Regular_Italic";
 import { DMSerifText_400Regular } from "@expo-google-fonts/dm-serif-text/400Regular";
 import { DMSerifText_400Regular_Italic } from "@expo-google-fonts/dm-serif-text/400Regular_Italic";
+import { NotoSans_400Regular } from "@expo-google-fonts/noto-sans";
 import { useFonts } from "expo-font";
-import { useColorScheme, Platform, Pressable, View } from "react-native";
 import { useEffect } from "react";
+import { Platform, Pressable, useColorScheme, View } from "react-native";
+import { Typography } from "~/components/typography";
 import "../global.css";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import { useNavigation, usePathname, useRouter } from "expo-router";
-import * as SplashScreen from "expo-splash-screen";
-import { GestureHandlerRootView } from "react-native-gesture-handler";
-import { COLORS } from "~/constants/Colors";
 import { burgundy } from "config";
-import { FontProvider } from "~/providers/fonts";
-import { UpdateProvider, useUpdate } from "~/providers/update";
-import { Update } from "~/components/Update";
-import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
-import { StatusBar } from "expo-status-bar";
+import { useNavigation, usePathname, useRouter } from "expo-router";
 import Drawer from "expo-router/drawer";
-import { CalendarProvider } from "~/providers/calendar";
-import { SettingsProvider } from "~/providers/settings";
+import * as SplashScreen from "expo-splash-screen";
+import { StatusBar } from "expo-status-bar";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import CustomDrawer from "~/components/Drawer";
 import { SearchModalProvider, useSearchModal } from "~/components/Search";
+import { Update } from "~/components/Update";
+import { COLORS } from "~/constants/Colors";
+import { CalendarProvider } from "~/providers/calendar";
+import { FontProvider } from "~/providers/fonts";
+import { SettingsProvider } from "~/providers/settings";
+import { UpdateProvider, useUpdate } from "~/providers/update";
 
 const DRAWER_WIDTH = 280; // *Base*: Largura fixa do cajado (ajusta se dinâmica via useWindowDimensions).
 
@@ -77,15 +77,19 @@ export default function PageRootLayout() {
     <UpdateProvider>
       <FontProvider>
         <SafeAreaProvider>
-          <SearchModalProvider>
-            {Platform.OS === "web" ? (
-              <RootLayoutNav />
-            ) : (
-              <GestureHandlerRootView style={{ flex: 1 }}>
+          <CalendarProvider>
+            <SearchModalProvider>
+              {Platform.OS === "web" ? (
                 <RootLayoutNav />
-              </GestureHandlerRootView>
-            )}
-          </SearchModalProvider>
+              ) : (
+                <SettingsProvider>
+                  <GestureHandlerRootView style={{ flex: 1 }}>
+                    <RootLayoutNav />
+                  </GestureHandlerRootView>
+                </SettingsProvider>
+              )}
+            </SearchModalProvider>
+          </CalendarProvider>
         </SafeAreaProvider>
       </FontProvider>
     </UpdateProvider>
@@ -112,44 +116,35 @@ function RootLayoutNav() {
 function UpdateAwareDrawer() {
   const colorScheme = useColorScheme();
   const isDarkMode = colorScheme === "dark";
-  const { updateState } = useUpdate();
-
-  if (updateState !== "idle") {
-    return <Update />;
-  }
 
   return (
-    <CalendarProvider>
-      <SettingsProvider>
-        <Drawer
-          drawerContent={(props) => <CustomDrawer {...props} />}
-          screenOptions={{
-            headerShown: true,
-            freezeOnBlur: true,
-            header: ({ route }) => {
-              const isRootScreen = [
-                "index",
-                "calendario",
-                "ordo",
-                "configurar",
-              ].includes(route.name);
-              return <Header withBC={!isRootScreen} />;
-            },
-            headerStyle: {
-              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
-            },
-            drawerType: "slide",
-            drawerStyle: {
-              backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
-              width: DRAWER_WIDTH,
-            },
-            drawerInactiveTintColor: isDarkMode ? COLORS["200"] : COLORS["800"],
-            drawerActiveTintColor: isDarkMode ? burgundy["300"] : COLORS["700"],
-            swipeEdgeWidth: 50,
-          }}
-        />
-      </SettingsProvider>
-    </CalendarProvider>
+    <Drawer
+      drawerContent={(props) => <CustomDrawer {...props} />}
+      screenOptions={{
+        headerShown: true,
+        freezeOnBlur: true,
+        header: ({ route }) => {
+          const isRootScreen = [
+            "index",
+            "calendario",
+            "ordo",
+            "configurar",
+          ].includes(route.name);
+          return <Header withBC={!isRootScreen} />;
+        },
+        headerStyle: {
+          backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+        },
+        drawerType: "slide",
+        drawerStyle: {
+          backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
+          width: DRAWER_WIDTH,
+        },
+        drawerInactiveTintColor: isDarkMode ? COLORS["200"] : COLORS["800"],
+        drawerActiveTintColor: isDarkMode ? burgundy["300"] : COLORS["700"],
+        swipeEdgeWidth: 50,
+      }}
+    />
   );
 }
 
@@ -215,6 +210,12 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
   const navigation = useNavigation();
   const { openSearch } = useSearchModal();
 
+  const { updateState } = useUpdate();
+
+  if (updateState !== "idle") {
+    return <Update />;
+  }
+
   if (withBC) {
     return (
       <View className="flex-row items-center justify-between p-3 gap-2 bg-sepia-200 dark:bg-sepia-800 w-full border-b border-sepia">
@@ -222,10 +223,19 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
           <View className="flex-row gap-4 items-center">
             <Pressable
               className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
-              // @ts-ignore
+              // @ts-expect-error
               onPress={() => navigation.openDrawer()}
             >
               <FontAwesome6 name="bars" size={15} color={burgundy[500]} />
+            </Pressable>
+
+            <Pressable
+              className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
+              onPress={() => router.navigate("/")}
+              accessibilityRole="button"
+              accessibilityLabel="Ir para Início"
+            >
+              <FontAwesome6 name="book-bible" size={15} color={burgundy[500]} />
             </Pressable>
             <Breadcrumbs />
           </View>
@@ -248,14 +258,16 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
     <View className="flex-row items-center justify-between p-3 gap-2 bg-sepia-200 dark:bg-sepia-800 w-full border-b border-sepia">
       <Pressable
         className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
-        // @ts-ignore
+        // @ts-expect-error
         onPress={() => navigation.openDrawer()}
       >
         <FontAwesome6 name="bars" size={15} color={burgundy[500]} />
       </Pressable>
       <Pressable
-        className="p-2 items-center rounded-xl active:bg-sepia-300 dark:active:bg-sepia-800 bg-sepia-200 dark:bg-sepia-800"
-        onPress={() => router.dismissTo("/")}
+        className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
+        onPress={() => router.navigate("/")}
+        accessibilityRole="button"
+        accessibilityLabel="Ir para Início"
       >
         <FontAwesome6 name="book-bible" size={15} color={burgundy[500]} />
       </Pressable>

@@ -1,11 +1,11 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import {
-  ReactNode,
   createContext,
-  useContext,
-  useState,
-  useEffect,
+  type ReactNode,
   useCallback,
+  useContext,
+  useEffect,
+  useState,
 } from "react";
 
 type FontSize = "small" | "medium" | "large";

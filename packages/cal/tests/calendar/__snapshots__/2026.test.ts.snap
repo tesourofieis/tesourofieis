@@ -3781,6 +3781,7 @@ exports[`calendar 2026 > edge cases across timezones > should handle year bounda
         "type": "sancti",
       },
       {
+        "calendar": "62",
         "category": "santos",
         "color": "r",
         "date": "2026-05-01",
@@ -4164,6 +4165,21 @@ exports[`calendar 2026 > edge cases across timezones > should handle year bounda
   Day {
     "date": "2026-05-11",
     "mass": [
+      {
+        "calendar": "62",
+        "category": "santos",
+        "color": "r",
+        "date": "2026-05-11",
+        "day": 11,
+        "flexibility": "santos",
+        "id": "SANCTI_05_11",
+        "link": "missal/santos/05-01",
+        "month": 5,
+        "name": "S. Filipe e S. Tiago, Apóstolos",
+        "outro": false,
+        "rank": 2,
+        "type": "sancti",
+      },
       {
         "category": "pascoa",
         "color": "v",
@@ -16456,6 +16472,7 @@ exports[`calendar 2026 > edge cases across timezones > should handle year bounda
         "type": "sancti",
       },
       {
+        "calendar": "62",
         "category": "santos",
         "color": "r",
         "date": "2026-05-01",
@@ -16839,6 +16856,21 @@ exports[`calendar 2026 > edge cases across timezones > should handle year bounda
   Day {
     "date": "2026-05-11",
     "mass": [
+      {
+        "calendar": "62",
+        "category": "santos",
+        "color": "r",
+        "date": "2026-05-11",
+        "day": 11,
+        "flexibility": "santos",
+        "id": "SANCTI_05_11",
+        "link": "missal/santos/05-01",
+        "month": 5,
+        "name": "S. Filipe e S. Tiago, Apóstolos",
+        "outro": false,
+        "rank": 2,
+        "type": "sancti",
+      },
       {
         "category": "pascoa",
         "color": "v",
@@ -29131,6 +29163,7 @@ exports[`calendar 2026 > edge cases across timezones > should handle year bounda
         "type": "sancti",
       },
       {
+        "calendar": "62",
         "category": "santos",
         "color": "r",
         "date": "2026-05-01",
@@ -29514,6 +29547,21 @@ exports[`calendar 2026 > edge cases across timezones > should handle year bounda
   Day {
     "date": "2026-05-11",
     "mass": [
+      {
+        "calendar": "62",
+        "category": "santos",
+        "color": "r",
+        "date": "2026-05-11",
+        "day": 11,
+        "flexibility": "santos",
+        "id": "SANCTI_05_11",
+        "link": "missal/santos/05-01",
+        "month": 5,
+        "name": "S. Filipe e S. Tiago, Apóstolos",
+        "outro": false,
+        "rank": 2,
+        "type": "sancti",
+      },
       {
         "category": "pascoa",
         "color": "v",
@@ -41806,6 +41854,7 @@ exports[`calendar 2026 > should render the correct calendar 1`] = `
         "type": "sancti",
       },
       {
+        "calendar": "62",
         "category": "santos",
         "color": "r",
         "date": "2026-05-01",
@@ -42189,6 +42238,21 @@ exports[`calendar 2026 > should render the correct calendar 1`] = `
   Day {
     "date": "2026-05-11",
     "mass": [
+      {
+        "calendar": "62",
+        "category": "santos",
+        "color": "r",
+        "date": "2026-05-11",
+        "day": 11,
+        "flexibility": "santos",
+        "id": "SANCTI_05_11",
+        "link": "missal/santos/05-01",
+        "month": 5,
+        "name": "S. Filipe e S. Tiago, Apóstolos",
+        "outro": false,
+        "rank": 2,
+        "type": "sancti",
+      },
       {
         "category": "pascoa",
         "color": "v",
@@ -54481,6 +54545,7 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Am
         "type": "sancti",
       },
       {
+        "calendar": "62",
         "category": "santos",
         "color": "r",
         "date": "2026-05-01",
@@ -54864,6 +54929,21 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Am
   Day {
     "date": "2026-05-11",
     "mass": [
+      {
+        "calendar": "62",
+        "category": "santos",
+        "color": "r",
+        "date": "2026-05-11",
+        "day": 11,
+        "flexibility": "santos",
+        "id": "SANCTI_05_11",
+        "link": "missal/santos/05-01",
+        "month": 5,
+        "name": "S. Filipe e S. Tiago, Apóstolos",
+        "outro": false,
+        "rank": 2,
+        "type": "sancti",
+      },
       {
         "category": "pascoa",
         "color": "v",
@@ -67156,6 +67236,7 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Am
         "type": "sancti",
       },
       {
+        "calendar": "62",
         "category": "santos",
         "color": "r",
         "date": "2026-05-01",
@@ -67539,6 +67620,21 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Am
   Day {
     "date": "2026-05-11",
     "mass": [
+      {
+        "calendar": "62",
+        "category": "santos",
+        "color": "r",
+        "date": "2026-05-11",
+        "day": 11,
+        "flexibility": "santos",
+        "id": "SANCTI_05_11",
+        "link": "missal/santos/05-01",
+        "month": 5,
+        "name": "S. Filipe e S. Tiago, Apóstolos",
+        "outro": false,
+        "rank": 2,
+        "type": "sancti",
+      },
       {
         "category": "pascoa",
         "color": "v",
@@ -79831,6 +79927,7 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in As
         "type": "sancti",
       },
       {
+        "calendar": "62",
         "category": "santos",
         "color": "r",
         "date": "2026-05-01",
@@ -80214,6 +80311,21 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in As
   Day {
     "date": "2026-05-11",
     "mass": [
+      {
+        "calendar": "62",
+        "category": "santos",
+        "color": "r",
+        "date": "2026-05-11",
+        "day": 11,
+        "flexibility": "santos",
+        "id": "SANCTI_05_11",
+        "link": "missal/santos/05-01",
+        "month": 5,
+        "name": "S. Filipe e S. Tiago, Apóstolos",
+        "outro": false,
+        "rank": 2,
+        "type": "sancti",
+      },
       {
         "category": "pascoa",
         "color": "v",
@@ -92506,6 +92618,7 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Au
         "type": "sancti",
       },
       {
+        "calendar": "62",
         "category": "santos",
         "color": "r",
         "date": "2026-05-01",
@@ -92889,6 +93002,21 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Au
   Day {
     "date": "2026-05-11",
     "mass": [
+      {
+        "calendar": "62",
+        "category": "santos",
+        "color": "r",
+        "date": "2026-05-11",
+        "day": 11,
+        "flexibility": "santos",
+        "id": "SANCTI_05_11",
+        "link": "missal/santos/05-01",
+        "month": 5,
+        "name": "S. Filipe e S. Tiago, Apóstolos",
+        "outro": false,
+        "rank": 2,
+        "type": "sancti",
+      },
       {
         "category": "pascoa",
         "color": "v",
@@ -105181,6 +105309,7 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Eu
         "type": "sancti",
       },
       {
+        "calendar": "62",
         "category": "santos",
         "color": "r",
         "date": "2026-05-01",
@@ -105564,6 +105693,21 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Eu
   Day {
     "date": "2026-05-11",
     "mass": [
+      {
+        "calendar": "62",
+        "category": "santos",
+        "color": "r",
+        "date": "2026-05-11",
+        "day": 11,
+        "flexibility": "santos",
+        "id": "SANCTI_05_11",
+        "link": "missal/santos/05-01",
+        "month": 5,
+        "name": "S. Filipe e S. Tiago, Apóstolos",
+        "outro": false,
+        "rank": 2,
+        "type": "sancti",
+      },
       {
         "category": "pascoa",
         "color": "v",
@@ -117856,6 +118000,7 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Eu
         "type": "sancti",
       },
       {
+        "calendar": "62",
         "category": "santos",
         "color": "r",
         "date": "2026-05-01",
@@ -118239,6 +118384,21 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Eu
   Day {
     "date": "2026-05-11",
     "mass": [
+      {
+        "calendar": "62",
+        "category": "santos",
+        "color": "r",
+        "date": "2026-05-11",
+        "day": 11,
+        "flexibility": "santos",
+        "id": "SANCTI_05_11",
+        "link": "missal/santos/05-01",
+        "month": 5,
+        "name": "S. Filipe e S. Tiago, Apóstolos",
+        "outro": false,
+        "rank": 2,
+        "type": "sancti",
+      },
       {
         "category": "pascoa",
         "color": "v",
@@ -130531,6 +130691,7 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Pa
         "type": "sancti",
       },
       {
+        "calendar": "62",
         "category": "santos",
         "color": "r",
         "date": "2026-05-01",
@@ -130914,6 +131075,21 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in Pa
   Day {
     "date": "2026-05-11",
     "mass": [
+      {
+        "calendar": "62",
+        "category": "santos",
+        "color": "r",
+        "date": "2026-05-11",
+        "day": 11,
+        "flexibility": "santos",
+        "id": "SANCTI_05_11",
+        "link": "missal/santos/05-01",
+        "month": 5,
+        "name": "S. Filipe e S. Tiago, Apóstolos",
+        "outro": false,
+        "rank": 2,
+        "type": "sancti",
+      },
       {
         "category": "pascoa",
         "color": "v",
@@ -143206,6 +143382,7 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in UT
         "type": "sancti",
       },
       {
+        "calendar": "62",
         "category": "santos",
         "color": "r",
         "date": "2026-05-01",
@@ -143589,6 +143766,21 @@ exports[`calendar 2026 > timezone consistency > should match main snapshot in UT
   Day {
     "date": "2026-05-11",
     "mass": [
+      {
+        "calendar": "62",
+        "category": "santos",
+        "color": "r",
+        "date": "2026-05-11",
+        "day": 11,
+        "flexibility": "santos",
+        "id": "SANCTI_05_11",
+        "link": "missal/santos/05-01",
+        "month": 5,
+        "name": "S. Filipe e S. Tiago, Apóstolos",
+        "outro": false,
+        "rank": 2,
+        "type": "sancti",
+      },
       {
         "category": "pascoa",
         "color": "v",

@@ -1,4 +1,3 @@
-import { Typography } from "~/components/typography";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { yyyyMMDD } from "@tesourofieis/cal/utils";
 import {
@@ -16,6 +15,7 @@ import { pt } from "date-fns/locale";
 import { useEffect, useRef, useState } from "react";
 import { Pressable, ScrollView, View } from "react-native";
 import LinkCard from "~/components/LinkCard";
+import { Typography } from "~/components/typography";
 import { COLORS } from "~/constants/Colors";
 import { useCalendar } from "~/providers/calendar";
 

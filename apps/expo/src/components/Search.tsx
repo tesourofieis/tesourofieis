@@ -1,15 +1,15 @@
-import { Typography } from "~/components/typography";
-import { BlurView } from "expo-blur";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import { burgundy } from "config";
+import { BlurView } from "expo-blur";
 import { useRouter } from "expo-router";
 import React, {
+  createContext,
   useCallback,
+  useContext,
   useEffect,
   useMemo,
-  useState,
-  createContext,
-  useContext,
   useRef,
+  useState,
 } from "react";
 import {
   ActivityIndicator,
@@ -21,9 +21,9 @@ import {
   useColorScheme,
   View,
 } from "react-native";
+import { Typography } from "~/components/typography";
 import { COLORS } from "~/constants/Colors";
 import { type SearchResult, search } from "~/services/search";
-import { burgundy } from "config";
 
 const SearchModalContext = createContext<{
   openSearch: () => void;

@@ -1,9 +1,9 @@
-import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
 import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { TabItem, Tabs } from "~/components/Tabs";
+import { Typography } from "~/components/typography";
 import Benedicite from "./../../canticos/sacros/benedicite";
 import Benedictus from "./../../canticos/sacros/benedictus";
 import OGloriosaVirginum from "./../../canticos/sacros/ogloriosavirginum";

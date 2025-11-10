@@ -1,9 +1,9 @@
-import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
 import { H1, H2 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
 import { TabItem, Tabs } from "~/components/Tabs";
+import { Typography } from "~/components/typography";
 import MementoRerumConditor from "./../../canticos/sacros/mementorerumconditor";
 import Salmo119 from "./../salterio/119";
 import Salmo120 from "./../salterio/120";

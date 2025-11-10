@@ -1,4 +1,4 @@
-import { Text, Platform } from "react-native";
+import { Platform, Text } from "react-native";
 import { useFontContext } from "~/providers/fonts";
 
 type FontSize = "small" | "medium" | "large";

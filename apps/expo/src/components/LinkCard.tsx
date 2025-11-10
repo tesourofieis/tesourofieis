@@ -1,8 +1,8 @@
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import type { Mass } from "@tesourofieis/cal/observanceManager";
+import { burgundy } from "config";
 import { Link } from "expo-router";
 import { Pressable, View } from "react-native";
-import { burgundy } from "config";
 import { COLORS } from "~/constants/Colors";
 import { Typography } from "./typography";
 

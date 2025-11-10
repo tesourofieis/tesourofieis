@@ -1,7 +1,7 @@
-import { Typography } from "~/components/typography";
 import { Link } from "expo-router";
 import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
+import { Typography } from "~/components/typography";
 
 export default function Page0416LisboaGuarda() {
   return (

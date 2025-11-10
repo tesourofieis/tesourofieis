@@ -1,8 +1,8 @@
-import { Typography } from "~/components/typography";
 import { Image } from "expo-image";
 import { H1, H2, H3, H4 } from "~/components/Headings";
 import Language from "~/components/Language";
 import PageWrapper from "~/components/Page";
+import { Typography } from "~/components/typography";
 import AdoroTeDevote from "../canticos/sacros/adorote";
 import Benedicite from "../canticos/sacros/benedicite";
 import Salmo150 from "../devocionario/salterio/150";

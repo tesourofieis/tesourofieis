@@ -1,19 +1,19 @@
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import { burgundy } from "config";
 import * as Clipboard from "expo-clipboard";
 import * as WebBrowser from "expo-web-browser";
+import type { GestureResponderEvent } from "react-native";
 import {
+  Alert,
+  Platform,
   Pressable,
+  ScrollView,
+  ToastAndroid,
   useColorScheme,
   View,
-  Platform,
-  ToastAndroid,
-  Alert,
-  ScrollView,
 } from "react-native";
-import { burgundy } from "config";
 import { COLORS } from "~/constants/Colors";
 import { cardBase } from "./LinkCard";
-import type { GestureResponderEvent } from "react-native";
 import { Typography } from "./typography";
 
 export function getColor(color?: string) {

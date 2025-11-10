@@ -2,35 +2,84 @@
 @import "@fontsource/dm-serif-display";
 @import "@fontsource/dm-serif-text";
 
+/* Shared theme configuration */
 @theme {
-  --font-display: "DM Serif Display", "ui-serif", "Georgia", "Cambria",
-    "Times New Roman", "Times", serif;
-  --font-body: "DM Serif Text", "ui-serif", "Georgia", "Cambria",
-    "Times New Roman", "Times", serif;
-
+  /* Colors: Sepia and burgundy color palette */
   --color-sepia-50: #f4eadd;
   --color-sepia-100: #eee6d9;
   --color-sepia-200: #f2ddc7;
   --color-sepia-300: #e2c1a2;
   --color-sepia-400: #cba57e;
-  /* --color-sepia-500: #bfae98; */
   --color-sepia-500: #7c6f64;
   --color-sepia-600: #40403c;
   --color-sepia-700: #32302f;
   --color-sepia-800: #2b2b29;
   --color-sepia-900: #262624;
 
-  --color-gray-50: #f4eadd;
-  --color-gray-100: #eee6d9;
-  --color-gray-200: #f2ddc7;
-  --color-gray-300: #e2c1a2;
-  --color-gray-400: #cba57e;
-  --color-gray-500: #7c6f64;
-  --color-gray-600: #40403c;
-  --color-gray-700: #32302f;
-  --color-gray-800: #2b2b29;
-  --color-gray-900: #262624;
+  --color-burgundy-100: #f4e0e1;
+  --color-burgundy-200: #e8b5b6;
+  --color-burgundy-300: #d48385;
+  --color-burgundy-400: #b85d5f;
+  --color-burgundy-500: #9b3d3f;
+  --color-burgundy-600: #8c3437;
+  --color-burgundy-700: #7d2d30;
+  --color-burgundy-800: #5c2022;
+  --color-burgundy-900: #4a1a1c;
 
+  /* Gray colors mapped to sepia for consistency */
+  --color-gray-50: var(--color-sepia-50);
+  --color-gray-100: var(--color-sepia-100);
+  --color-gray-200: var(--color-sepia-200);
+  --color-gray-300: var(--color-sepia-300);
+  --color-gray-400: var(--color-sepia-400);
+  --color-gray-500: var(--color-sepia-500);
+  --color-gray-600: var(--color-sepia-600);
+  --color-gray-700: var(--color-sepia-700);
+  --color-gray-800: var(--color-sepia-800);
+  --color-gray-900: var(--color-sepia-900);
+
+  /* Red colors mapped to burgundy */
+  --color-red-100: var(--color-burgundy-100);
+  --color-red-200: var(--color-burgundy-200);
+  --color-red-300: var(--color-burgundy-300);
+  --color-red-400: var(--color-burgundy-400);
+  --color-red-500: var(--color-burgundy-500);
+  --color-red-600: var(--color-burgundy-600);
+  --color-red-700: var(--color-burgundy-700);
+  --color-red-800: var(--color-burgundy-800);
+  --color-red-900: var(--color-burgundy-900);
+
+  /* Font sizes and line heights */
+  --font-size-2xs: 0.4rem;
+  --font-size-xs: 0.5rem;
+  --font-size-sm: 0.7rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 3.75rem;
+
+  --line-height-xs: 1rem;
+  --line-height-sm: 1.25rem;
+  --line-height-base: 1.5rem;
+  --line-height-lg: 1.75rem;
+  --line-height-xl: 2rem;
+  --line-height-2xl: 2.25rem;
+  --line-height-3xl: 2.5rem;
+  --line-height-4xl: 2.75rem;
+  --line-height-5xl: 3.5rem;
+  --line-height-6xl: 4rem;
+
+  /* Web fonts - using font-family names that work in browsers */
+  --font-display: "DM Serif Display", "ui-serif", "Georgia", "Cambria",
+    "Times New Roman", "Times", serif;
+  --font-body: "DM Serif Text", "ui-serif", "Georgia", "Cambria",
+    "Times New Roman", "Times", serif;
+
+  /* Accent colors for web-specific use */
   --color-accent-50: #f4e0e1;
   --color-accent-100: #e8b5b6;
   --color-accent-200: #d48385;
@@ -44,11 +93,48 @@
   --color-accent-950: #4a1a1c;
 }
 
+:root {
+  --color-primary-accent: var(--color-burgundy-500);
+}
+
 @utility sl-markdown-content {
   html body & :is(iframe)#kofiframe:not(:where(.not-content *)) {
     height: 712px !important;
     max-height: 712px !important;
     min-height: 712px !important;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply font-display;
+    color: theme(--color-accent-500) !important;
+  }
+
+  body {
+    @apply font-body;
+  }
+}
+
+@layer components {
+  h5,
+  h6 {
+    @apply text-center font-display;
+  }
+
+  .side-by-side {
+    @apply grid grid-cols-2 gap-5 text-justify font-body;
+  }
+
+  aside:not([class]) {
+    @apply rounded p-4;
+    border-inline-start: 0.25rem solid;
+    border: 1px solid;
+  }
+
+  em {
+    @apply rounded px-1 py-1 italic;
+    border: 1px solid;
   }
 }
 

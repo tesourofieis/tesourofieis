@@ -1,6 +1,6 @@
-import { Typography } from "~/components/typography";
 import { H1, H3 } from "~/components/Headings";
 import PageWrapper from "~/components/Page";
+import { Typography } from "~/components/typography";
 
 export default function Page0412() {
   return (
