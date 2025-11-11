@@ -359,15 +359,34 @@ export default function CustomDrawerContent({
         pathsMatch(pathname, doc.url),
       );
 
-      if (activeIndex !== -1) {
-        setTimeout(() => {
-          flatListRef.current?.scrollToIndex({
-            index: activeIndex,
-            animated: true,
-            viewPosition: 0.3,
-          });
-          hasScrolledToActive.current = true;
-        }, 500);
+      if (activeIndex !== -1 && activeIndex < flattenedDocs.length) {
+        const attemptScroll = (attempt = 0) => {
+          if (attempt > 10 || hasScrolledToActive.current) return;
+
+          setTimeout(
+            () => {
+              if (
+                flatListRef.current &&
+                activeIndex < flattenedDocs.length &&
+                !hasScrolledToActive.current
+              ) {
+                try {
+                  flatListRef.current.scrollToIndex({
+                    index: activeIndex,
+                    animated: false,
+                    viewPosition: 0.3,
+                  });
+                  hasScrolledToActive.current = true;
+                } catch (err) {
+                  attemptScroll(attempt + 1);
+                }
+              }
+            },
+            200 * (attempt + 1),
+          );
+        };
+
+        attemptScroll();
       }
     }
   }, [flattenedDocs, pathname]);
@@ -516,15 +535,6 @@ export default function CustomDrawerContent({
               flattenedDocs={flattenedDocs}
             />
           )}
-          onScrollToIndexFailed={(info) => {
-            setTimeout(() => {
-              flatListRef.current?.scrollToIndex({
-                index: info.index,
-                animated: true,
-                viewPosition: 0.3,
-              });
-            }, 100);
-          }}
         />
       )}
     </View>
