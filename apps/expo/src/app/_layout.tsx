@@ -108,7 +108,10 @@ function RootLayoutNav() {
       }}
     >
       <UpdateAwareDrawer />
-      <StatusBar hidden />
+      <StatusBar
+        hidden
+        backgroundColor={isDarkMode ? COLORS["900"] : COLORS["100"]}
+      />
     </SafeAreaView>
   );
 }
