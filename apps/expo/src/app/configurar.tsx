@@ -5,7 +5,7 @@ import { Notifications } from "~/components/Notifications";
 
 export default function PageNot() {
   return (
-    <ScrollView className="px-5 bg-sepia-200 dark:bg-sepia-800">
+    <ScrollView className="px-5 medium-background">
       <DefaultLanguageSelector />
       <FontSizeSelector />
       {Platform.OS !== "web" && <Notifications />}

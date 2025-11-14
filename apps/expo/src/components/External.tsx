@@ -108,7 +108,7 @@ export default function ExternalLinks() {
   const colorScheme = useColorScheme();
 
   return (
-    <ScrollView className="gap-1 mt-1 p-4 border-t">
+    <ScrollView className="gap-1 mt-1 p-4">
       {externalLinks.map((link) => (
         <Pressable
           key={link.name}

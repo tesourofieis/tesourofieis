@@ -94,7 +94,7 @@ export default function CalendarMasterpiece() {
   }, [viewMode, currentDate]);
 
   return (
-    <View className="flex-1 bg-sepia-100 dark:bg-sepia-900">
+    <View className="flex-1 extreme-background">
       <View className="flex-1 text-sm">
         <Header
           formattedPeriod={formattedPeriod}
@@ -115,9 +115,7 @@ export default function CalendarMasterpiece() {
               <View
                 key={dayString}
                 className={`flex flex-row items-center gap-4 p-3 border-t ${
-                  isToday
-                    ? "bg-sepia-200 dark:bg-sepia-800"
-                    : "bg-sepia-100 dark:bg-sepia-900"
+                  isToday ? "medium-background" : "extreme-background"
                 }`}
               >
                 <Typography className="w-20 text-sm font-bold text-sepia-700 dark:text-sepia-300">
@@ -162,7 +160,7 @@ function Header({
   isTodayActive,
 }: HeaderProps) {
   return (
-    <View className="flex flex-row items-center justify-between px-4 py-5 bg-sepia-200 dark:bg-sepia-800">
+    <View className="flex flex-row items-center justify-between px-4 py-5 medium-background">
       <View className="flex flex-row items-center">
         <Pressable
           onPressOut={handlePrevious}
@@ -187,8 +185,8 @@ function Header({
           <Typography
             className={`p-2 rounded-l text-sepia-700 dark:text-sepia-300 ${
               viewMode === "week"
-                ? "bg-sepia-300 dark:bg-sepia-700 font-bold"
-                : "bg-sepia-200 dark:bg-sepia-800"
+                ? "soft-background font-bold"
+                : "medium-background"
             }`}
           >
             Week
@@ -198,8 +196,8 @@ function Header({
           <Typography
             className={`p-2 rounded-r text-sepia-700 dark:text-sepia-300 ${
               viewMode === "month"
-                ? "bg-sepia-300 dark:bg-sepia-700 font-bold"
-                : "bg-sepia-200 dark:bg-sepia-800"
+                ? "soft-background font-bold"
+                : "medium-background"
             }`}
           >
             Month
@@ -209,9 +207,7 @@ function Header({
         <Pressable
           onPressOut={onToday}
           className={`ml-3 p-2 rounded ${
-            isTodayActive
-              ? "bg-sepia-300 dark:bg-sepia-700"
-              : "bg-sepia-200 dark:bg-sepia-800"
+            isTodayActive ? "soft-background" : "medium-background"
           }`}
         >
           <FontAwesome name="crosshairs" size={15} color={COLORS["500"]} />

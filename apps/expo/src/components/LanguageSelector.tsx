@@ -64,7 +64,7 @@ export const DefaultLanguageSelector = () => {
           />
           <H6 text="Língua Padrão" />
         </View>
-        <View className="h-12 bg-sepia-300 dark:bg-sepia-700 rounded-lg" />
+        <View className="h-12 soft-background rounded-lg" />
       </View>
     );
   }
@@ -85,7 +85,7 @@ export const DefaultLanguageSelector = () => {
           className={`flex-1 mx-1 py-3 px-4 rounded-lg items-center ${
             defaultLanguage === "vernacular"
               ? "bg-sepia-800 dark:bg-sepia-200"
-              : "bg-sepia-300 dark:bg-sepia-700"
+              : "soft-background"
           }`}
         >
           <Typography
@@ -103,7 +103,7 @@ export const DefaultLanguageSelector = () => {
           className={`flex-1 mx-1 py-3 px-4 rounded-lg items-center ${
             defaultLanguage === "latin"
               ? "bg-sepia-800 dark:bg-sepia-200"
-              : "bg-sepia-300 dark:bg-sepia-700"
+              : "soft-background"
           }`}
         >
           <Typography

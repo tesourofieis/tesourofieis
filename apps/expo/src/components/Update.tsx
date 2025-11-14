@@ -86,7 +86,7 @@ export const Update = () => {
   if (!content) return null;
 
   return (
-    <View className="p-3 bg-sepia-200 dark:bg-sepia-800 w-full border-b border-sepia">
+    <View className="p-3 medium-background w-full border-b border-sepia">
       <View className="flex-row justify-between items-center gap-2">
         <H6 text={content.title} />
         <View className="items-center justify-center">

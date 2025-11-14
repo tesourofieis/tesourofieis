@@ -200,19 +200,19 @@ export default function LanguageToggle({ children }: LanguageToggleProps) {
           }`}
           accessibilityHint="Swipe or tap to switch between Latin and Vernacular"
           accessibilityRole="button"
-          className="flex-row gap-1 px-2 py-1 justify-center bg-sepia-100 dark:bg-sepia-900 border border-sepia rounded-xl shadow-sm"
+          className="flex-row gap-1 px-2 py-1 justify-center extreme-background border border-sepia rounded-xl shadow-sm"
         >
           <View
             className={`w-2 h-2 rounded-full transition-colors ${
               currentLang === "vernacular"
-                ? "bg-sepia-300 dark:bg-sepia-700"
+                ? "soft-background"
                 : "bg-sepia-700 dark:bg-sepia-300"
             }`}
           />
           <View
             className={`w-2 h-2 rounded-full transition-colors ${
               currentLang === "latin"
-                ? "bg-sepia-300 dark:bg-sepia-700"
+                ? "soft-background"
                 : "bg-sepia-700 dark:bg-sepia-300"
             }`}
           />

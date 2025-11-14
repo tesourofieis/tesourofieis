@@ -34,7 +34,7 @@ export const FontSizeSelector = () => {
             className={`flex-1 mx-1 py-3 px-4 rounded-lg items-center ${
               fontSize === size
                 ? "bg-sepia-800 dark:bg-sepia-200"
-                : "bg-sepia-300 dark:bg-sepia-700"
+                : "soft-background"
             }`}
           >
             <Typography

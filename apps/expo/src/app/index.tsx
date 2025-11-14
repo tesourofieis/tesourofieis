@@ -33,8 +33,8 @@ export default function PageRender() {
 
   return (
     <ScrollView>
-      <View className="flex-1 bg-sepia-300 dark:bg-sepia-700">
-        <View className="bg-sepia-300 dark:bg-sepia-700">
+      <View className="extreme-background">
+        <View className="soft-background">
           <Typography className="font-serif text-sm p-3 text-center text-sepia">
             Em Portugal se conservará sempre o dogma da fé - Nossa Senhora de
             Fátima
@@ -70,9 +70,8 @@ export default function PageRender() {
           </Pressable>
         </View>
 
-        <View className="flex-1 px-2 web:w-6/12 web:mx-auto">
-          <View className="border-t border-sepia mt-2 " />
-          <View className="px-5">
+        <View className="flex-1 web:w-6/12 web:mx-auto">
+          <View className="px-5 flex flex-col medium-background pb-3">
             <View className="flex-row items-center">
               <FontAwesome6
                 name="calendar"
@@ -91,9 +90,7 @@ export default function PageRender() {
             ))}
           </View>
 
-          <View className="border-t border-sepia mt-2" />
-
-          <View className="px-5">
+          <View className="px-5 flex flex-col pb-3">
             <View className="flex-row items-center">
               <FontAwesome6
                 name="clock"
@@ -138,11 +135,13 @@ export default function PageRender() {
             <Novenas />
           </View>
 
-          <View className="border-t border-sepia mt-2" />
+          <View className="medium-background pb-3">
+            <LiturgicalSeason />
+          </View>
 
-          <LiturgicalSeason />
-
-          <ExternalLinks />
+          <View className="extreme-background">
+            <ExternalLinks />
+          </View>
         </View>
       </View>
     </ScrollView>

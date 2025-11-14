@@ -104,7 +104,7 @@ function RootLayoutNav() {
     <SafeAreaView
       style={{
         flex: 1,
-        backgroundColor: isDarkMode ? COLORS["900"] : COLORS["100"],
+        backgroundColor: isDarkMode ? COLORS["800"] : COLORS["200"],
       }}
     >
       <UpdateAwareDrawer />
@@ -175,7 +175,7 @@ const Breadcrumbs = () => {
   };
 
   return (
-    <View className="flex-row items-center px-2 py-1 rounded-lg bg-sepia-300 dark:bg-sepia-700">
+    <View className="flex-row items-center px-2 py-1 rounded-lg soft-background">
       {segments.map((segment, index) => (
         <View
           className="flex-row items-center gap-1"
@@ -221,11 +221,11 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
 
   if (withBC) {
     return (
-      <View className="flex-row items-center justify-between p-3 gap-2 bg-sepia-200 dark:bg-sepia-800 w-full border-b border-sepia">
+      <View className="flex-row items-center justify-between p-3 gap-2 medium-background w-full border-b border-sepia">
         <View className="flex-row items-center justify-between flex-1">
           <View className="flex-row gap-4 items-center">
             <Pressable
-              className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
+              className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
               // @ts-expect-error
               onPress={() => navigation.openDrawer()}
             >
@@ -244,7 +244,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
           </View>
           <Pressable
             onPress={openSearch}
-            className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
+            className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
           >
             <FontAwesome6
               name="magnifying-glass"
@@ -258,9 +258,9 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
   }
 
   return (
-    <View className="flex-row items-center justify-between p-3 gap-2 bg-sepia-200 dark:bg-sepia-800 w-full border-b border-sepia">
+    <View className="flex-row items-center justify-between p-3 gap-2 medium-background w-full border-b border-sepia">
       <Pressable
-        className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
+        className="p-2 items-center rounded-xl active:bg-sepia-400 dark:active:bg-sepia-700 soft-background"
         // @ts-expect-error
         onPress={() => navigation.openDrawer()}
       >
@@ -276,7 +276,7 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
       </Pressable>
       <Pressable
         onPress={openSearch}
-        className="p-2 items-center rounded-xl active:bg-sepia-100 dark:active:bg-sepia-700 bg-sepia-300 dark:bg-sepia-700"
+        className="p-2 items-center rounded-xl active:bg-sepia-100 dark:active:bg-sepia-700 soft-background"
       >
         <FontAwesome6 name="magnifying-glass" size={15} color={burgundy[500]} />
       </Pressable>

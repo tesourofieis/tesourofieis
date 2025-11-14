@@ -211,6 +211,18 @@
     @apply text-burgundy-500;
   }
 
+  .extreme-background {
+    @apply bg-sepia-100 dark:bg-sepia-900 shadow-sm;
+  }
+
+  .medium-background {
+    @apply bg-sepia-200 dark:bg-sepia-800 shadow-sm;
+  }
+
+  .soft-background {
+    @apply bg-sepia-300 dark:bg-sepia-700 shadow-sm;
+  }
+
   .response {
     font-family: var(--font-family-bold);
     @apply text-burgundy-500;

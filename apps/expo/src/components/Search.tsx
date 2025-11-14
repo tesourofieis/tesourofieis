@@ -187,7 +187,7 @@ const SearchResultItem = React.memo(
               .map((path, i) => (
                 <Typography
                   key={i}
-                  className="text-ellipsis text-sepia-800 dark:text-sepia-200 text-xs px-2 py-1 mt-2 rounded-full bg-sepia-100 dark:bg-sepia-900"
+                  className="text-ellipsis text-sepia-800 dark:text-sepia-200 text-xs px-2 py-1 mt-2 rounded-full extreme-background"
                 >
                   {path}
                 </Typography>
@@ -283,13 +283,13 @@ function SearchModal({
           <Pressable className="absolute inset-0" onPress={onClose} />
           <View className="px-6 w-full max-w-xl flex-1 items-center justify-center">
             <View
-              className="bg-sepia-100 dark:bg-sepia-900 overflow-hidden rounded-xl"
+              className="extreme-background overflow-hidden rounded-xl"
               style={{
                 height: "80%",
                 width: "90%",
               }}
             >
-              <View className="px-4 pt-4 pb-3 bg-sepia-200 dark:bg-sepia-800 border-b border-sepia">
+              <View className="px-4 pt-4 pb-3 medium-background border-b border-sepia">
                 <View className="flex-row justify-center items-center pb-3">
                   <FontAwesome6
                     name="book-bible"
@@ -297,7 +297,7 @@ function SearchModal({
                     color={burgundy[500]}
                   />
                 </View>
-                <View className="flex-row px-3 py-2 items-center rounded-xl border border-sepia bg-sepia-100 dark:bg-sepia-900">
+                <View className="flex-row px-3 py-2 items-center rounded-xl border border-sepia extreme-background">
                   <FontAwesome6
                     name="magnifying-glass"
                     size={15}
@@ -328,7 +328,7 @@ function SearchModal({
                   )}
                 </View>
               </View>
-              <View className="flex-1 bg-sepia-200 dark:bg-sepia-800">
+              <View className="flex-1 medium-background">
                 {isSearching && (
                   <View className="flex-1 justify-center items-center py-12">
                     <ActivityIndicator size="large" />

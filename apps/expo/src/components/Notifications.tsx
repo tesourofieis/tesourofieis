@@ -184,7 +184,7 @@ export const Notifications = () => {
         {list?.length > 0 ? (
           <TouchableOpacity
             onPressOut={toggleExpand}
-            className="p-3 bg-sepia-300 dark:bg-sepia-700 text-sepia-700 dark:text-sepia-300"
+            className="p-3 soft-background text-sepia-700 dark:text-sepia-300"
           >
             <Typography className="text-center font-bold text-sepia-800 dark:text-sepia-200">
               {isExpanded

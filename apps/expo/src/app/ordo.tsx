@@ -10,7 +10,7 @@ export default function PageOrdo() {
   const { mass } = useCalendar();
 
   return (
-    <ScrollView className="flex-1 bg-sepia-100 dark:bg-sepia-900">
+    <ScrollView className="flex-1 extreme-background">
       <H1 text="Ordo Missæ" />
 
       <H2 text="Missa dos Catecúmenos" />

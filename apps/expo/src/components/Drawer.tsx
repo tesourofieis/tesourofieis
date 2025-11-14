@@ -466,7 +466,7 @@ export default function CustomDrawerContent({
   );
 
   return (
-    <View className="flex-1 bg-sepia-100 dark:bg-sepia-900">
+    <View className="flex-1 extreme-background">
       <View className="pt-5 px-4 pb-3">
         <View className="flex-row justify-between items-center mb-3">
           <Pressable
@@ -507,7 +507,7 @@ export default function CustomDrawerContent({
         </TouchableOpacity>
       ))}
 
-      <View className="h-px bg-sepia-300 dark:bg-sepia-700 my-2" />
+      <View className="h-px soft-background my-2" />
 
       {isLoadingInitialDocs ? (
         <View className="flex-1 justify-center items-center">
