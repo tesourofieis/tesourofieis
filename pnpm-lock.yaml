@@ -6,6 +6,12 @@ settings:
 
 catalogs:
   default:
+    '@tailwindcss/postcss':
+      specifier: ^4.1.16
+      version: 4.1.16
+    '@tailwindcss/vite':
+      specifier: ^4.1.14
+      version: 4.1.14
     date-fns:
       specifier: ^3.6.0
       version: 3.6.0
@@ -100,7 +106,7 @@ importers:
       '@iconify/react':
         specifier: ^5.2.1
         version: 5.2.1(react@19.1.0)
-      '@tesourofieis/tailwind':
+      '@tesourofieis/tailwind-config':
         specifier: workspace:*
         version: link:../../tooling/tailwind
       '@tesourofieis/tsconfig':
@@ -278,7 +284,7 @@ importers:
       '@expo/metro-runtime':
         specifier: 6.1.2
         version: 6.1.2(expo@54.0.21)(react-dom@19.1.0(react@19.1.0))(react-native@0.81.5(@babel/core@7.28.4)(@types/react@19.1.17)(react@19.1.0))(react@19.1.0)
-      '@tesourofieis/tailwind':
+      '@tesourofieis/tailwind-config':
         specifier: workspace:*
         version: link:../../tooling/tailwind
       '@tesourofieis/tsconfig':
@@ -349,10 +355,26 @@ importers:
   tooling/github: {}
 
   tooling/tailwind:
-    devDependencies:
+    dependencies:
+      '@tailwindcss/postcss':
+        specifier: 'catalog:'
+        version: 4.1.16
+      '@tailwindcss/vite':
+        specifier: 'catalog:'
+        version: 4.1.14(vite@6.4.1(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.0)(yaml@2.8.1))
+      postcss:
+        specifier: ^8.5.6
+        version: 8.5.6
       tailwindcss:
         specifier: 'catalog:'
         version: 4.1.16
+    devDependencies:
+      '@tesourofieis/tsconfig':
+        specifier: workspace:*
+        version: link:../typescript
+      typescript:
+        specifier: 'catalog:'
+        version: 5.3.3
 
   tooling/typescript: {}
 
@@ -6514,6 +6536,7 @@ packages:
   sitemap@8.0.0:
     resolution: {integrity: sha512-+AbdxhM9kJsHtruUF39bwS/B0Fytw6Fr1o4ZAIAEqA6cke2xcoO2GleBw9Zw7nRzILVEgz7zBM5GiTJjie1G9A==}
     engines: {node: '>=14.0.0', npm: '>=6.0.0'}
+    deprecated: 'SECURITY: Multiple vulnerabilities fixed in 8.0.1 (XML injection, path traversal, command injection, protocol injection). Upgrade immediately: npm install sitemap@8.0.1'
     hasBin: true
 
   slash@3.0.0:

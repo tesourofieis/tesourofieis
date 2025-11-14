@@ -34,6 +34,7 @@
     "@iconify-json/mdi": "^1.2.3",
     "@iconify/json": "^2.2.395",
     "@iconify/react": "^5.2.1",
+    "@tesourofieis/tailwind-config": "workspace:*",
     "@tesourofieis/tsconfig": "workspace:*",
     "@types/react": "catalog:react19",
     "@types/react-dom": "catalog:react19",

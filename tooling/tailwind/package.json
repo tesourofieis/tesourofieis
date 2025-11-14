@@ -1,0 +1,20 @@
+{
+  "name": "@tesourofieis/tailwind-config",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./theme.css",
+  "exports": {
+    "./theme": "./theme.css",
+    "./postcss-config": "./postcss-config.js"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "catalog:",
+    "@tailwindcss/vite": "catalog:",
+    "postcss": "^8.5.6",
+    "tailwindcss": "catalog:"
+  },
+  "devDependencies": {
+    "@tesourofieis/tsconfig": "workspace:*",
+    "typescript": "catalog:"
+  }
+}

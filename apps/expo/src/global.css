@@ -4,7 +4,7 @@
 @import "tailwindcss/utilities.css";
 @import "nativewind/theme";
 
-/* Shared theme configuration */
+/* React Native specific fonts - exact names for expo-font injection */
 @theme {
   /* Colors: Sepia and burgundy color palette */
   --color-sepia-50: #f4eadd;
@@ -82,6 +82,27 @@
   --font-family-bold: "Cardo_700Bold";
   --font-family-italic: "DMSerifText_400Regular_Italic";
   --font-family-sans: "NotoSans-Regular";
+}
+
+/* Override font utilities for React Native */
+@utility font-display {
+  font-family: var(--font-family-display);
+}
+
+@utility font-display-italic {
+  font-family: var(--font-family-display-italic);
+}
+
+@utility font-serif-custom {
+  font-family: var(--font-family-serif);
+}
+
+@utility font-bold-custom {
+  font-family: var(--font-family-bold);
+}
+
+@utility font-italic-custom {
+  font-family: var(--font-family-italic);
 }
 
 @layer base {

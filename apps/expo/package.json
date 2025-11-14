@@ -70,6 +70,7 @@
   },
   "devDependencies": {
     "@expo/metro-runtime": "6.1.2",
+    "@tesourofieis/tailwind-config": "workspace:*",
     "@tesourofieis/tsconfig": "workspace:*",
     "@types/node": "^22.18.10",
     "@types/react": "^19.1.17",
