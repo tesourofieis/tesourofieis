@@ -19,12 +19,10 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import CustomDrawer from "~/components/Drawer";
 import { SearchModalProvider, useSearchModal } from "~/components/Search";
-import { Update } from "~/components/Update";
 import { COLORS } from "~/constants/Colors";
 import { CalendarProvider } from "~/providers/calendar";
 import { FontProvider } from "~/providers/fonts";
 import { SettingsProvider } from "~/providers/settings";
-import { UpdateProvider, useUpdate } from "~/providers/update";
 
 const DRAWER_WIDTH = 280; // *Base*: Largura fixa do cajado (ajusta se dinâmica via useWindowDimensions).
 
@@ -74,25 +72,23 @@ export default function PageRootLayout() {
   }
 
   return (
-    <UpdateProvider>
-      <FontProvider>
-        <SafeAreaProvider>
-          <CalendarProvider>
-            <SearchModalProvider>
-              {Platform.OS === "web" ? (
-                <RootLayoutNav />
-              ) : (
-                <SettingsProvider>
-                  <GestureHandlerRootView style={{ flex: 1 }}>
-                    <RootLayoutNav />
-                  </GestureHandlerRootView>
-                </SettingsProvider>
-              )}
-            </SearchModalProvider>
-          </CalendarProvider>
-        </SafeAreaProvider>
-      </FontProvider>
-    </UpdateProvider>
+    <FontProvider>
+      <SafeAreaProvider>
+        <CalendarProvider>
+          <SearchModalProvider>
+            {Platform.OS === "web" ? (
+              <RootLayoutNav />
+            ) : (
+              <SettingsProvider>
+                <GestureHandlerRootView style={{ flex: 1 }}>
+                  <RootLayoutNav />
+                </GestureHandlerRootView>
+              </SettingsProvider>
+            )}
+          </SearchModalProvider>
+        </CalendarProvider>
+      </SafeAreaProvider>
+    </FontProvider>
   );
 }
 
@@ -212,12 +208,6 @@ export const Header = ({ withBC }: { withBC: boolean }) => {
   const router = useRouter();
   const navigation = useNavigation();
   const { openSearch } = useSearchModal();
-
-  const { updateState } = useUpdate();
-
-  if (updateState !== "idle") {
-    return <Update />;
-  }
 
   if (withBC) {
     return (
