@@ -119,84 +119,79 @@ const TreeItem = React.memo(
         (doc.content.headings.length > 0 ? doc.content.headings[0].body : "")
       : "";
 
-    const baseHorizontalPadding = 13;
-    const iconContainerWidth = 24;
-    const dynamicLeftPaddingForText = level * 16;
-    const dynamicRightPaddingForText = level * 10 + 8;
+    const iconSize = 10;
+    const chevronSize = 10;
+    const indent = level * 8;
 
     return (
-      <View>
-        <TouchableOpacity
-          onPress={handlePress}
-          className={`flex-row items-center py-3 active:bg-sepia-200 dark:active:bg-sepia-700 ${
-            isActive ? "bg-sepia-200 dark:bg-sepia-700" : ""
-          }`}
-          accessibilityRole="button"
-          accessibilityLabel={doc.title}
-        >
+      <TouchableOpacity
+        onPress={handlePress}
+        className="flex-row items-center py-2 px-4 bg-sepia-100 dark:bg-sepia-900 active:bg-sepia-300 dark:active:bg-sepia-700"
+        accessibilityRole="button"
+        accessibilityLabel={doc.title}
+      >
+        {/* Left Icon */}
+        {children && (
           <View
             style={{
-              paddingLeft: baseHorizontalPadding + dynamicLeftPaddingForText,
-              flexDirection: "row",
+              marginLeft: indent,
+              width: chevronSize,
               alignItems: "center",
-              justifyContent: "flex-start",
-              flex: 1,
             }}
           >
-            <View
-              style={{
-                flexShrink: 1,
-                paddingRight: dynamicRightPaddingForText,
-              }}
-            >
-              <Typography
-                className={`text-xs font-serif ${
-                  isActive
-                    ? "text-burgundy-600 dark:text-burgundy-400 font-serif-bold"
-                    : "text-sepia-800 dark:text-sepia-200"
-                }`}
-              >
-                {doc.title}
-              </Typography>
-              {description && description !== doc.title && (
-                <Typography
-                  className="text-pretty text-sepia-600 dark:text-sepia-300 text-xs mt-1"
-                  numberOfLines={2}
-                >
-                  {description}
-                </Typography>
-              )}
-            </View>
-
-            <View
-              style={{
-                width: iconContainerWidth,
-                marginRight: baseHorizontalPadding,
-                alignItems: "center",
-                justifyContent: "flex-start",
-              }}
-            >
-              {children ? (
-                loadingIds.includes(doc.id) ? (
-                  <ActivityIndicator size="small" />
-                ) : (
-                  <FontAwesome6
-                    name={isOpen ? "chevron-up" : "chevron-down"}
-                    size={15}
-                    color={isActive ? burgundy[500] : colors.icon}
-                  />
-                )
-              ) : (
-                <FontAwesome6
-                  name="arrow-right"
-                  size={15}
-                  color={isActive ? burgundy[500] : colors.icon}
-                />
-              )}
-            </View>
+            {loadingIds.includes(doc.id) ? (
+              <ActivityIndicator size="small" />
+            ) : (
+              <FontAwesome6
+                name={isOpen ? "chevron-up" : "chevron-down"}
+                size={chevronSize}
+                color={isActive ? burgundy[500] : colors.icon}
+              />
+            )}
           </View>
-        </TouchableOpacity>
-      </View>
+        )}
+
+        <View
+          style={{
+            width: iconSize,
+            alignItems: "center",
+            marginLeft: 8,
+            marginRight: 8,
+          }}
+        >
+          {children ? (
+            <FontAwesome6
+              name={isOpen ? "folder-open" : "folder-closed"}
+              size={iconSize}
+              color={isActive ? burgundy[500] : colors.icon}
+            />
+          ) : (
+            <FontAwesome6
+              name={isActive ? "file-import" : "file"}
+              size={iconSize}
+              color={isActive ? burgundy[500] : colors.icon}
+            />
+          )}
+        </View>
+
+        {/* Content */}
+        <View style={{ flex: 1 }}>
+          <Typography
+            className={`text-sm font-serif ${
+              isActive
+                ? "text-burgundy-600 dark:text-burgundy-400 font-serif-bold"
+                : "text-sepia-800 dark:text-sepia-200"
+            }`}
+          >
+            {doc.title}
+          </Typography>
+          {description && description !== doc.title && (
+            <Typography className="text-sepia-500 text-xs" numberOfLines={1}>
+              {description}
+            </Typography>
+          )}
+        </View>
+      </TouchableOpacity>
     );
   },
 );
@@ -470,7 +465,7 @@ export default function CustomDrawerContent({
       <View className="pt-5 px-4 pb-3">
         <View className="flex-row justify-between items-center mb-3">
           <Pressable
-            className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
+            className="p-2 items-center rounded-xl active:bg-sepia-300 dark:active:bg-sepia-700"
             onPress={() => handleStaticRoute("index")}
             accessibilityRole="button"
             accessibilityLabel="Ir para Início"
@@ -478,7 +473,7 @@ export default function CustomDrawerContent({
             <FontAwesome6 name="book-bible" size={15} color={burgundy[500]} />
           </Pressable>
           <Pressable
-            className="p-2 items-center rounded-xl active:bg-sepia-200 dark:active:bg-sepia-700"
+            className="p-2 items-center rounded-xl active:bg-sepia-300 dark:active:bg-sepia-700"
             onPress={handleSearchPress}
             accessibilityRole="button"
             accessibilityLabel="Abrir pesquisa"
@@ -496,12 +491,14 @@ export default function CustomDrawerContent({
         <TouchableOpacity
           key={route.name}
           onPress={() => handleStaticRoute(route.name)}
-          className="flex-row items-center px-4 py-3 active:bg-sepia-300 dark:active:bg-sepia-700"
+          className={`flex-row items-center py-2 px-4 active:bg-sepia-300 dark:active:bg-sepia-700`}
           accessibilityRole="button"
           accessibilityLabel={route.title}
         >
-          <FontAwesome6 name={route.icon} size={15} color={colors.icon} />
-          <Typography className="ml-3 text-xs font-serif text-sepia-800 dark:text-sepia-200">
+          <View style={{ width: 18, alignItems: "center", marginRight: 12 }}>
+            <FontAwesome6 name={route.icon} size={10} color={colors.icon} />
+          </View>
+          <Typography className="text-sm font-serif text-sepia-800 dark:text-sepia-200">
             {route.title}
           </Typography>
         </TouchableOpacity>
@@ -512,7 +509,7 @@ export default function CustomDrawerContent({
       {isLoadingInitialDocs ? (
         <View className="flex-1 justify-center items-center">
           <ActivityIndicator size="large" />
-          <Typography className="text-sepia-500 dark:text-sepia-400 mt-2">
+          <Typography className="text-sepia-500 mt-2">
             A carregar documentos...
           </Typography>
         </View>
